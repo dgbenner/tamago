@@ -54,7 +54,7 @@ export default function App() {
     else root.setAttribute('data-theme', settings.theme)
   }, [settings.theme])
 
-  useEffect(() => window.scrollTo(0, 0), [screen])
+  useEffect(() => { window.scrollTo(0, 0) }, [screen])
 
   const changeSettings = (patch) => {
     const next = { ...settings, ...patch }
