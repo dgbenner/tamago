@@ -202,7 +202,9 @@ export function makeQuestion(c, type, s, round, rng, last) {
 }
 
 export function makeMatchPairs(c, words, round, rng) {
-  const pairs = words.map((w) => ({ word_id: w.word_id, form: w.form, hint: w.hint }))
+  // A word gets a native recording when a one-word sentence has one; otherwise browser speech.
+  const fileFor = (w) => c.sentences.find((s) => s.lingua_libre?.audio_file && normalize(s.french, 'fr') === normalize(w.form, 'fr'))?.lingua_libre.audio_file ?? null
+  const pairs = words.map((w) => ({ word_id: w.word_id, form: w.form, hint: w.hint, audio: { french: w.form, file: fileFor(w) } }))
   return {
     qid: `QT01-${words.map((w) => w.word_id).join('')}-${Math.floor(rng() * 1e9)}`, type: 'QT01', variant: 'V0101', round,
     word_ids: words.map((w) => w.word_id), pairs, meanings: shuffle(pairs.map((p) => p.hint), rng),

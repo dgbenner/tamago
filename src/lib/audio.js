@@ -1,18 +1,19 @@
 // Native recording when there is one, browser speech otherwise. No network either way once installed.
 const elements = new Map()
-let frenchVoice = null
+let utterance = null // held so the browser doesn't drop it mid-sentence
 
-function findVoice() {
-  if (!('speechSynthesis' in window)) return
-  const voices = speechSynthesis.getVoices()
-  frenchVoice = voices.find((v) => v.lang === 'fr-FR' && v.localService) ?? voices.find((v) => v.lang?.startsWith('fr')) ?? null
-}
-if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-  findVoice()
-  speechSynthesis.addEventListener?.('voiceschanged', findVoice)
+// iOS Safari fills the voice list late and may never fire voiceschanged, so ask every time.
+function frenchVoice() {
+  const voices = window.speechSynthesis?.getVoices() ?? []
+  return voices.find((v) => v.lang?.replace('_', '-') === 'fr-FR' && v.localService)
+    ?? voices.find((v) => v.lang?.toLowerCase().startsWith('fr')) ?? null
 }
 
-export const hasFrenchVoice = () => frenchVoice !== null
+// False only when the device lists its voices and none is French. An empty list just means "not loaded yet".
+export function hasFrenchVoice() {
+  if (!('speechSynthesis' in window)) return false
+  return speechSynthesis.getVoices().length === 0 || frenchVoice() !== null
+}
 
 export function preload(files) {
   for (const f of files) {
@@ -24,7 +25,8 @@ export function preload(files) {
 }
 
 export function stop() {
-  if ('speechSynthesis' in window) speechSynthesis.cancel()
+  // Safari can swallow a sentence spoken right after a needless cancel.
+  if (window.speechSynthesis?.speaking || window.speechSynthesis?.pending) speechSynthesis.cancel()
   for (const el of elements.values()) el.pause()
 }
 
@@ -38,10 +40,11 @@ export function play(audio, { slow = false } = {}) {
     el.play().catch(() => {})
     return
   }
-  if (!frenchVoice) return
-  const u = new SpeechSynthesisUtterance(audio.french)
-  u.voice = frenchVoice
-  u.lang = frenchVoice.lang
-  u.rate = slow ? 0.55 : 0.9
-  speechSynthesis.speak(u)
+  if (!('speechSynthesis' in window)) return
+  utterance = new SpeechSynthesisUtterance(audio.french)
+  const voice = frenchVoice()
+  if (voice) utterance.voice = voice
+  utterance.lang = voice?.lang ?? 'fr-FR'
+  utterance.rate = slow ? 0.55 : 0.9
+  speechSynthesis.speak(utterance)
 }

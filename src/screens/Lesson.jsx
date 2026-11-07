@@ -51,7 +51,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
 
   const shareDone = session.index / session.queue.length
   barMax.current = Math.max(barMax.current, shareDone)
-  const props = { q, content, settings, result, onAnswer: answer, newWords, hideFrench, onHint: (seg) => onHint(q, seg) }
+  const props = { q, content, settings, cantListen, result, onAnswer: answer, newWords, hideFrench, onHint: (seg) => onHint(q, seg) }
 
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-[max(0.75rem,env(safe-area-inset-top))]">
@@ -62,10 +62,10 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         </div>
       </header>
 
-      <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : 'pb-6'}`}>
+      <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
         <div className="flex items-center gap-2">
           <h1 className="text-xl font-semibold">{PROMPT[q.type]}</h1>
-          {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="rounded-full bg-accent px-2 py-0.5 text-xs font-semibold text-accent-ink">New word</span>}
+          {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="rounded-full bg-accent px-2 py-0.5 text-xs font-semibold text-accent-ink">{newWords.size > 1 ? 'New words' : 'New word'}</span>}
         </div>
         <Question key={q.qid} {...props} />
       </div>
@@ -155,12 +155,12 @@ function PickHeard({ q, result, onAnswer }) {
           )
         })}
       </div>
-      {!result && <button disabled={!chosen} onClick={() => onAnswer({ correct: chosen === q.answer })} className="btn-primary">Check</button>}
+      {!result && <div className="action-row"><button disabled={!chosen} onClick={() => onAnswer({ correct: chosen === q.answer })} className="btn-primary w-full">Check</button></div>}
     </>
   )
 }
 
-function MatchPairs({ q, result, onAnswer, newWords }) {
+function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
   const [form, setForm] = useState(null)
   const [meaning, setMeaning] = useState(null)
   const [matched, setMatched] = useState([])
@@ -181,18 +181,23 @@ function MatchPairs({ q, result, onAnswer, newWords }) {
       setWrong({ f, m })
     }
   }
-  const tapForm = (f) => { setWrong(null); if (meaning) attempt(f, meaning); else setForm(f) }
+  const tapForm = (p) => {
+    setWrong(null)
+    if (!cantListen) play(p.audio)
+    if (meaning) attempt(p.form, meaning); else setForm(p.form)
+  }
   const tapMeaning = (m) => { setWrong(null); if (form) attempt(form, m); else setMeaning(m) }
   const isMatchedMeaning = (m) => q.pairs.some((p) => p.hint === m && matched.includes(p.form))
 
-  const cell = (selected, done, bad) => `choice text-center ${done ? 'choice-right opacity-60' : bad ? 'choice-wrong' : selected ? 'choice-selected' : ''}`
+  const cell = (selected, done, bad, isNew) => `choice text-center ${done ? 'choice-right opacity-60' : bad ? 'choice-wrong' : selected ? 'choice-selected' : isNew ? 'choice-new' : ''}`
   return (
     <div className="grid grid-cols-2 gap-2.5">
       <div className="flex flex-col gap-2.5">
         {q.pairs.map((p) => (
-          <button key={p.form} lang="fr" disabled={matched.includes(p.form) || Boolean(result)} onClick={() => tapForm(p.form)}
-            className={cell(form === p.form, matched.includes(p.form), wrong?.f === p.form)}>
-            <span className={newWords.has(p.word_id) ? 'rounded bg-accent/30 px-1' : ''}>{p.form}</span>
+          <button key={p.form} lang="fr" disabled={matched.includes(p.form) || Boolean(result)} onClick={() => tapForm(p)}
+            className={`${cell(form === p.form, matched.includes(p.form), wrong?.f === p.form, newWords.has(p.word_id))} flex items-center justify-center gap-1.5`}>
+            {!cantListen && <span className="opacity-60 [&_svg]:size-4"><IconSpeaker /></span>}
+            {p.form}
           </button>
         ))}
       </div>
@@ -270,7 +275,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
         </>
       )}
       {!result && (
-        <div className="flex items-center gap-2">
+        <div className={`flex items-center gap-2 ${typing ? '' : 'action-row'}`}>
           <button onClick={() => setTyping(!typing)} aria-label={typing ? 'Use word chips' : 'Use the keyboard'} className="icon-btn border border-line">
             {typing ? <IconChips /> : <IconKeyboard />}
           </button>

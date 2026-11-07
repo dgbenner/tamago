@@ -1,4 +1,5 @@
-import { IconBack } from './icons.jsx'
+import { play } from '../lib/audio.js'
+import { IconBack, IconSpeaker } from './icons.jsx'
 
 function Segmented({ label, help, value, options, onChange }) {
   return (
@@ -40,6 +41,11 @@ export default function Settings({ settings, onChange, onBack, onAbout }) {
       <Segmented label="Can't speak now" help="Speaking questions arrive in a later version." value={pauseValue(settings.cant_speak_until)}
         options={PAUSE_OPTIONS} onChange={(v) => onChange({ cant_speak_until: pauseUntil(v) })} />
       <Segmented label="Theme" value={settings.theme} options={[['system', 'System'], ['light', 'Light'], ['dark', 'Dark']]} onChange={(v) => onChange({ theme: v })} />
+      <div className="flex flex-col gap-2">
+        <p className="font-medium">Sound</p>
+        <p className="-mt-1 text-sm text-muted">Volume follows your device's buttons. If you hear nothing on an iPhone, check the ring switch too.</p>
+        <button onClick={() => play({ french: 'Je suis une femme.', file: null })} className="btn-secondary inline-flex items-center justify-center gap-2"><IconSpeaker /> Test sound</button>
+      </div>
       <button onClick={onAbout} className="btn-secondary">About the content</button>
     </main>
   )

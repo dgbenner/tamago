@@ -33,6 +33,7 @@ Choices the specs left open, easy to change:
 - Lessons per round: enough to cover every live sentence (`lessonsInRound`), currently 6, 4, 4, 4, 4.
 - Listen first (QT03, QT06 only): French hidden until the answer, unless the sentence has a new word.
 - If the device has no French voice, the app treats it as Can't listen now.
+- Match pairs (V0101) plays each French word on tap, at Dan's request. The workbook still lists audio on tap as V0102, testing.
 
 ## Answer checking
 

@@ -59,32 +59,72 @@ body {
   color: var(--ink);
 }
 
+/* An app, not a page: pressing a button must never start a text selection. On iPhone that selection
+   highlights the words and swallows the tap. */
+html {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+input {
+  -webkit-user-select: text;
+  user-select: text;
+}
+button {
+  touch-action: manipulation;
+}
+
 @layer components {
   .btn-primary {
-    @apply min-h-12 rounded-xl bg-accent px-4 font-semibold text-accent-ink disabled:opacity-40;
+    @apply min-h-12 rounded-xl bg-accent px-4 font-semibold text-accent-ink disabled:bg-line disabled:text-muted;
   }
   .btn-secondary {
-    @apply min-h-12 rounded-xl border border-line bg-surface px-4 font-medium disabled:opacity-50;
+    @apply min-h-12 rounded-xl border-2 border-line bg-surface px-4 font-medium disabled:opacity-50;
   }
   .icon-btn {
     @apply inline-flex h-11 w-11 items-center justify-center rounded-xl;
   }
+  /* The border is always 2px, so a state change only recolours it and nothing moves. */
   .choice {
-    @apply min-h-12 rounded-xl border border-line bg-surface px-4 py-2.5 text-left text-lg;
+    @apply min-h-12 rounded-xl border-2 border-line bg-surface px-4 py-2.5 text-left text-lg;
   }
   .chip {
-    @apply min-h-11 rounded-xl border border-line bg-surface px-3.5 text-lg;
+    @apply min-h-11 rounded-xl border-2 border-line bg-surface px-3.5 text-lg;
+  }
+  .choice-new {
+    background: color-mix(in srgb, var(--accent) 28%, var(--surface));
   }
   .choice-selected {
-    @apply border-2 border-ink;
+    @apply border-accent bg-accent font-semibold text-accent-ink;
   }
   .choice-right {
-    @apply border-2 border-right;
+    @apply border-right;
   }
   .choice-wrong {
-    @apply border-2 border-wrong;
+    @apply border-wrong;
   }
   .text-right-ink {
     color: var(--right);
+  }
+  /* Keeps Check on screen at the bottom when there is no keyboard to get in the way. */
+  .action-row {
+    @apply sticky bottom-0 mt-auto bg-bg pt-2 pb-[max(0.5rem,env(safe-area-inset-bottom))];
+  }
+  /* Grows while pressed, then snaps back. */
+  .btn-primary, .btn-secondary, .choice, .chip {
+    transition: transform 120ms ease-out;
+  }
+  .btn-primary:active:not(:disabled), .btn-secondary:active:not(:disabled), .choice:active:not(:disabled), .chip:active:not(:disabled) {
+    transform: scale(1.05);
+    transition-duration: 30ms;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .btn-primary, .btn-secondary, .choice, .chip {
+      transition: none;
+    }
+    .btn-primary:active:not(:disabled), .btn-secondary:active:not(:disabled), .choice:active:not(:disabled), .chip:active:not(:disabled) {
+      transform: none;
+    }
   }
 }
