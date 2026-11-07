@@ -2,7 +2,7 @@
 
 French learning app, installable web app, mobile first. React, Vite, Tailwind v4. Hosting on Netlify (not set up yet).
 
-Specs are in `_source/`: build-phases.md (order of work), question-types.md (question logic), tamago-data.xlsx (all content).
+Specs are in `_source/`: tamago-feature-list.md (what), build-phases.md (order of work), question-types.md (question logic), tamago-data.xlsx (all content).
 The workbook is edited outside this repo and gets reissued. Never edit it here, and never write check results into it.
 
 ## Content pipeline
@@ -24,7 +24,7 @@ Standing decisions (full log, with reasons: `_source/tamago-phase0-decisions.xls
 
 ## Waiting before Phase 1
 
-Workbook v2, tamago-feature-list.md, Fable's review with learning-methods.md, and Dan's approval of content/review.md.
+Workbook v2, Fable's review with learning-methods.md, and Dan's approval of content/review.md.
 
 ## Phase 1 fill rule
 
