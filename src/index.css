@@ -110,8 +110,12 @@ button {
   .chip {
     @apply min-h-11 rounded-xl border-2 border-line bg-surface px-3.5 text-lg;
   }
-  .choice-new {
-    background: color-mix(in srgb, var(--orange) 18%, var(--surface));
+  /* Marks a new word in match pairs: a dot beside the word, no fill. */
+  .new-dot {
+    @apply inline-block size-2 shrink-0 rounded-full bg-orange;
+  }
+  .choice-selected .new-dot {
+    @apply bg-white;
   }
   .choice-selected {
     @apply border-orange bg-orange font-semibold text-white;

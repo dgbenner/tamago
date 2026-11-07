@@ -65,7 +65,9 @@ export default function Lesson({ session, content, settings, seenWords, cantList
       <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
         <div className="flex items-center gap-2">
           <h1 className="text-xl font-semibold">{PROMPT[q.type]}</h1>
-          {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="rounded-full bg-orange px-2 py-0.5 text-xs font-semibold text-white">{newWords.size > 1 ? 'New words' : 'New word'}</span>}
+          {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && (q.type === 'QT01'
+            ? <span className="inline-flex items-center gap-1.5 text-sm text-muted"><span className="new-dot" aria-hidden="true" />{newWords.size > 1 ? 'New words' : 'New word'}</span>
+            : <span className="rounded-full bg-orange px-2 py-0.5 text-xs font-semibold text-white">{newWords.size > 1 ? 'New words' : 'New word'}</span>)}
         </div>
         <Question key={q.qid} {...props} />
       </div>
@@ -189,15 +191,16 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
   const tapMeaning = (m) => { setWrong(null); if (form) attempt(form, m); else setMeaning(m) }
   const isMatchedMeaning = (m) => q.pairs.some((p) => p.hint === m && matched.includes(p.form))
 
-  const cell = (selected, done, bad, isNew) => `choice text-center ${done ? 'choice-right opacity-60' : bad ? 'choice-wrong' : selected ? 'choice-selected' : isNew ? 'choice-new' : ''}`
+  const cell = (selected, done, bad) => `choice text-center ${done ? 'choice-right opacity-60' : bad ? 'choice-wrong' : selected ? 'choice-selected' : ''}`
   return (
     <div className="grid grid-cols-2 gap-2.5">
       <div className="flex flex-col gap-2.5">
         {q.pairs.map((p) => (
           <button key={p.form} lang="fr" disabled={matched.includes(p.form) || Boolean(result)} onClick={() => tapForm(p)}
-            className={`${cell(form === p.form, matched.includes(p.form), wrong?.f === p.form, newWords.has(p.word_id))} flex items-center justify-center gap-1.5`}>
+            className={`${cell(form === p.form, matched.includes(p.form), wrong?.f === p.form)} flex items-center justify-center gap-1.5`}>
             {!cantListen && <span className="opacity-60 [&_svg]:size-4"><IconSpeaker /></span>}
             {p.form}
+            {newWords.has(p.word_id) && !matched.includes(p.form) && <span className="new-dot" aria-hidden="true" />}
           </button>
         ))}
       </div>
