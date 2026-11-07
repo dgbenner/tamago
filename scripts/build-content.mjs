@@ -1,74 +1,102 @@
-// content/raw + content/checks -> public/content/<table>.json, the only content the app can load.
-// Sentences ship only as checked or dan_reviewed, answers only as checked. A unit stays draft until
-// Dan's approval is recorded; the app shows only live units. The Phase 0 done test prints at the end.
-import { mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
+// content/raw + content/checks -> src/content/<table>.json, bundled into the app so a lesson needs
+// no network. The workbook's status is the gate; the checks must agree with it or the build fails.
+// Lingua Libre recordings for live sentences are copied to public/audio.
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
+import { getFile } from './lib/http.mjs'
 
 const ROOT = join(import.meta.dirname, '..')
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf8'))
-const OUT = join(ROOT, 'public/content')
-const INTERNAL = new Set(['runtime_schema', 'can_do']) // can_do stays draft; not needed in Phase 1
+const raw = (t) => read(`content/raw/${t}.json`)
+const OUT = join(ROOT, 'src/content')
+const AUDIO = join(ROOT, 'public/audio')
+const SHIPPED_AS_IS = ['units', 'question_types', 'variants', 'rounds', 'round_type_mix', 'phase1_fallbacks', 'flag_reasons', 'settings_defaults']
+
 const decisions = read('content/review-decisions.json')
+const sCheck = new Map(read('content/checks/sentences.json').map((r) => [r.sentence_id, r]))
+const wCheck = new Map(read('content/checks/words.json').map((r) => [r.word_id, r]))
+const aCheck = new Map(read('content/checks/accepted_answers.json').map((r) => [r.answer_id, r]))
+const generated = read('content/checks/generated_answers.json')
 
-const checks = { s: read('content/checks/sentences.json'), w: read('content/checks/words.json'), a: read('content/checks/accepted_answers.json') }
-const sCheck = new Map(checks.s.map((r) => [r.sentence_id, r]))
-const wCheck = new Map(checks.w.map((r) => [r.word_id, r]))
-const aCheck = new Map(checks.a.map((r) => [r.answer_id, r]))
+const bad = []
+const isLive = (row) => String(row.status).startsWith('live')
+const tables = Object.fromEntries(SHIPPED_AS_IS.map((t) => [t, raw(t)]))
 
-const tables = {}
-for (const f of readdirSync(join(ROOT, 'content/raw'))) {
-  const name = f.replace('.json', '')
-  if (!INTERNAL.has(name)) tables[name] = read(`content/raw/${f}`)
+for (const u of tables.units) {
+  if (isLive(u) && decisions.units?.[u.unit_id]?.action !== 'approve') bad.push(`${u.unit_id} is live without Dan's approval`)
 }
 
-// Workbook columns keep their names; lingua_libre, source_owner, english_source, native_check,
-// gloss_full and lemma_gloss are additions.
-tables.sentences = tables.sentences.flatMap((s) => {
+// Sentences: live in the workbook and passed by the check, with the same source.
+tables.sentences = raw('sentences').flatMap((s) => {
+  if (!isLive(s)) return []
   const c = sCheck.get(s.sentence_id)
-  if (!['checked', 'dan_reviewed'].includes(c?.status) || c.draft_french !== s.french) return []
-  return [{ ...s, french: c.french, english: c.english, source: c.source, source_id: c.source_id, source_owner: c.source_owner, status: c.status, english_source: c.english_source, native_check: c.native_check, audio_source: c.audio_source, lingua_libre: c.lingua_libre }]
+  if (!['checked', 'dan_reviewed'].includes(c?.status)) { bad.push(`${s.sentence_id} live in the workbook, check says ${c?.status}`); return [] }
+  if (String(s.source_id) !== String(c.source_id)) bad.push(`${s.sentence_id} workbook source_id ${s.source_id}, check found ${c.source_id}`)
+  if (s.source !== c.source) bad.push(`${s.sentence_id} workbook source ${s.source}, check found ${c.source}`)
+  if (s.audio_source !== c.audio_source) bad.push(`${s.sentence_id} workbook audio ${s.audio_source}, check found ${c.audio_source}`)
+  const native_check = String(s.status).includes('native check') ? 'needed before Phase 4' : ''
+  if (s.source === 'tamago_original' && !native_check) bad.push(`${s.sentence_id} is original with no native check marker`)
+  return [{ ...s, source_id: String(s.source_id), status: 'live', native_check, source_owner: c.source_owner, english_source: c.english_source, lingua_libre: c.lingua_libre }]
 })
 const live = new Set(tables.sentences.map((s) => s.sentence_id))
-const replaced = (id) => sCheck.get(id)?.sentence_words
-tables.sentence_words = [
-  ...tables.sentence_words.filter((sw) => live.has(sw.sentence_id) && !replaced(sw.sentence_id)),
-  ...[...live].filter(replaced).flatMap((id) => replaced(id).map((sw) => ({ sentence_id: id, ...sw }))),
-]
-tables.accepted_answers = tables.accepted_answers.flatMap((a) => {
-  const c = aCheck.get(a.answer_id)
-  return c?.status === 'checked' && live.has(a.sentence_id) ? [{ ...a, source: c.source, source_id: c.source_id, status: 'checked' }] : []
-})
-tables.words = tables.words.flatMap((w) => {
+tables.sentence_words = raw('sentence_words').filter((sw) => live.has(sw.sentence_id))
+
+// Words: the workbook carries Wiktionary's data and the hint; the check confirms it still agrees.
+tables.words = raw('words').flatMap((w) => {
   const c = wCheck.get(w.word_id)
-  if (c?.status !== 'checked') return []
-  return [{ ...w, lemma: c.lemma, part_of_speech: c.part_of_speech, gender: c.gender, gloss: c.gloss, gloss_full: c.gloss_full, lemma_gloss: c.lemma_gloss, status: 'checked' }]
+  if (c?.status !== 'checked') { bad.push(`${w.word_id} check says ${c?.status}: ${c?.flag_reason}`); return [] }
+  for (const col of ['lemma', 'part_of_speech', 'gender']) {
+    if (String(w[col]) !== String(c[col])) bad.push(`${w.word_id} ${col}: workbook "${w[col]}", Wiktionary "${c[col]}"`)
+  }
+  if (!String(w.gloss).includes(c.gloss)) bad.push(`${w.word_id} gloss: workbook "${w.gloss}", Wiktionary "${c.gloss}"`)
+  if (!w.hint) bad.push(`${w.word_id} has no hint`)
+  return [{ ...w, gloss_full: c.gloss_full, lemma_gloss: c.lemma_gloss }]
 })
 
-tables.units = tables.units.map((u) => decisions.units?.[u.unit_id]?.action === 'approve' ? { ...u, status: 'live' } : u)
+// Answers: workbook rows, plus the en_to_fr rows the check generated.
+tables.accepted_answers = [
+  ...raw('accepted_answers').flatMap((a) => {
+    const c = aCheck.get(a.answer_id)
+    if (!isLive(a) || !live.has(a.sentence_id)) return []
+    if (c?.status !== 'checked') { bad.push(`${a.answer_id} "${a.answer}" live in the workbook, check says ${c?.status}`); return [] }
+    return [{ ...a, status: 'live' }]
+  }),
+  ...generated.filter((g) => live.has(g.sentence_id)).map((g) => ({ ...g, status: 'live' })),
+]
+
+// cant_swaps: replaced_by is free text in the workbook. Parse it into rules the app can use.
+tables.cant_swaps = raw('cant_swaps').map((c) => ({
+  ...c,
+  rules: String(c.replaced_by).split(';').map((part) => {
+    const m = part.trim().match(/^(QT\d+)(?: in rounds? (\d+)(?: to (\d+))?)?$/)
+    if (!m) { bad.push(`cant_swaps: cannot read "${part.trim()}"`); return null }
+    return { type: m[1], from: m[2] ? Number(m[2]) : 1, to: m[3] ? Number(m[3]) : m[2] ? Number(m[2]) : 5 }
+  }),
+}))
+
+if (bad.length) {
+  console.error('Build gate failed, nothing written:\n  ' + bad.join('\n  '))
+  process.exit(1)
+}
+
+// Recordings.
+mkdirSync(AUDIO, { recursive: true })
+const wanted = new Set()
+for (const s of tables.sentences.filter((x) => x.lingua_libre)) {
+  const ext = s.lingua_libre.file.split('.').pop().toLowerCase()
+  const name = `${s.sentence_id}.${ext}`
+  wanted.add(name)
+  await getFile(s.lingua_libre.url, join(AUDIO, name))
+  const speaker = s.lingua_libre.file.match(/^LL-Q150 \(fra\)-(.+?)-/)?.[1] ?? ''
+  s.lingua_libre = { ...s.lingua_libre, audio_file: `/audio/${name}`, speaker }
+}
+for (const f of readdirSync(AUDIO)) if (!wanted.has(f)) rmSync(join(AUDIO, f))
 
 rmSync(OUT, { recursive: true, force: true })
 mkdirSync(OUT, { recursive: true })
 for (const [name, rows] of Object.entries(tables)) writeFileSync(join(OUT, `${name}.json`), JSON.stringify(rows, null, 2) + '\n')
+if (existsSync(join(ROOT, 'public/content'))) rmSync(join(ROOT, 'public/content'), { recursive: true })
 
-// Gate: read back what was written.
-const out = (t) => JSON.parse(readFileSync(join(OUT, `${t}.json`), 'utf8'))
-const bad = []
-for (const s of out('sentences')) {
-  if (s.status !== 'checked' && s.status !== 'dan_reviewed') bad.push(`${s.sentence_id} status ${s.status}`)
-  if (s.source === 'claude_draft') bad.push(`${s.sentence_id} is a Claude draft`)
-  if (s.source === 'tamago_original' && !s.native_check) bad.push(`${s.sentence_id} has no native_check marker`)
-  if (s.source === 'tatoeba' && !s.source_id) bad.push(`${s.sentence_id} has no source_id`)
-}
-for (const a of out('accepted_answers')) if (a.status !== 'checked') bad.push(`${a.answer_id} status ${a.status}`)
-for (const w of out('words')) if (!w.part_of_speech || !w.gloss) bad.push(`${w.word_id} missing Wiktionary data`)
-if (bad.length) {
-  console.error('Build gate failed:\n  ' + bad.join('\n  '))
-  process.exit(1)
-}
-
-const u1 = out('sentences').filter((s) => s.unit_id === 'U01')
-const original = u1.filter((s) => s.source === 'tamago_original').length
-const wordCount = out('words').length
-const unit = out('units').find((u) => u.unit_id === 'U01')
-const done = u1.length >= 30 && wordCount >= 18
-console.log(`Unit 1: ${u1.length} sentences cleared (${u1.length - original} Tatoeba, ${original} Tamago originals), ${wordCount} of 18 words. Unit status: ${unit.status}. Phase 0 done test: ${done ? 'PASSED' : 'NOT YET'}.`)
+const original = tables.sentences.filter((s) => s.source === 'tamago_original').length
+const fr = tables.accepted_answers.filter((a) => a.direction === 'fr_to_en').length
+console.log(`Shipped: ${tables.sentences.length} sentences (${tables.sentences.length - original} Tatoeba, ${original} Tamago originals), ${tables.words.length} words, ${fr} fr_to_en and ${tables.accepted_answers.length - fr} en_to_fr answers, ${wanted.size} recordings. U01 status: ${tables.units[0].status}.`)

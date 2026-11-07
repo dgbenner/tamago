@@ -41,3 +41,24 @@ export async function getJson(url) {
   }
   throw new Error(`gave up after ${MAX_TRIES} tries: ${url}`)
 }
+
+// Downloads a file once. The destination existing is the cache.
+export async function getFile(url, dest) {
+  if (existsSync(dest)) return
+  for (let attempt = 1; attempt <= MAX_TRIES; attempt++) {
+    const wait = last + SPACING_MS - Date.now()
+    if (wait > 0) await sleep(wait)
+    last = Date.now()
+    const res = await fetch(url, { headers: { 'User-Agent': UA } })
+    if (res.ok) {
+      writeFileSync(dest, Buffer.from(await res.arrayBuffer()))
+      return
+    }
+    if (res.status === 429 || res.status >= 500) {
+      await sleep((Number(res.headers.get('retry-after')) || 15 * attempt) * 1000)
+      continue
+    }
+    throw new Error(`${res.status} from ${url}`)
+  }
+  throw new Error(`gave up after ${MAX_TRIES} tries: ${url}`)
+}

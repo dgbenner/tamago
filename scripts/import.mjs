@@ -1,12 +1,12 @@
 // Workbook -> content/raw/<table>.json. Fails (exit 1) on broken IDs.
 // Usage: node scripts/import.mjs [path/to/workbook.xlsx]
-import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { mkdirSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { createRequire } from 'node:module'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data.xlsx')
+const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v3.xlsx')
 const OUT = join(ROOT, 'content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)
@@ -18,22 +18,6 @@ for (const name of wb.SheetNames) {
 
 const errors = []
 const fail = (msg) => errors.push(msg)
-
-// Rows added on Dan's decision, outside the workbook. Skipped once the workbook carries them.
-const ADDITIONS = join(ROOT, 'content/additions.json')
-if (existsSync(ADDITIONS)) {
-  const add = JSON.parse(readFileSync(ADDITIONS, 'utf8'))
-  const comparable = (s) => s.toLowerCase().replace(/[.!?,\s]+/g, ' ').trim()
-  for (const row of add.sentences) {
-    const sameId = tables.sentences.find((s) => s.sentence_id === row.sentence_id)
-    const sameText = tables.sentences.find((s) => comparable(s.french) === comparable(row.french))
-    if (sameId && sameId.french === row.french) continue
-    if (sameId) { fail(`additions: ${row.sentence_id} "${row.french}" clashes with workbook "${sameId.french}"`); continue }
-    if (sameText) { fail(`additions: ${row.sentence_id} "${row.french}" is already workbook ${sameText.sentence_id}`); continue }
-    tables.sentences.push(row)
-    tables.sentence_words.push(...add.sentence_words.filter((sw) => sw.sentence_id === row.sentence_id))
-  }
-}
 
 const PRIMARY_KEYS = {
   languages: 'lang_id', units: 'unit_id', can_do: 'can_do_id', sentences: 'sentence_id',
@@ -119,6 +103,23 @@ for (const r of tables.rounds) {
       fail(`round_type_mix round ${r.round}: ${m.type_id} outside its rounds ${t.first_round} to ${t.last_round}`)
     }
   }
+}
+
+// phase1_fallbacks: a missing type in a round's mix, swapped for a type allowed in that round.
+for (const [i, f] of (tables.phase1_fallbacks ?? []).entries()) {
+  const where = `phase1_fallbacks row ${i + 2}`
+  const sub = typeById.get(f.substitute_type)
+  if (!typeById.has(f.missing_type)) fail(`${where}: missing_type "${f.missing_type}" not in question_types`)
+  if (!sub) fail(`${where}: substitute_type "${f.substitute_type}" not in question_types`)
+  else if (f.round < sub.first_round || f.round > sub.last_round) fail(`${where}: ${f.substitute_type} outside its rounds`)
+  if (!tables.round_type_mix.some((m) => m.round === f.round && m.type_id === f.missing_type)) fail(`${where}: ${f.missing_type} is not in round ${f.round}`)
+}
+// cant_swaps: replaced_by is free text ("QT06 in round 2; QT08 in rounds 3 to 5"); its types must exist.
+for (const [i, c] of (tables.cant_swaps ?? []).entries()) {
+  if (!typeById.has(c.type)) fail(`cant_swaps row ${i + 2}: type "${c.type}" not in question_types`)
+  const types = String(c.replaced_by).match(/QT\d+/g) ?? []
+  if (types.length === 0) fail(`cant_swaps row ${i + 2}: no type in "${c.replaced_by}"`)
+  for (const t of types) if (!typeById.has(t)) fail(`cant_swaps row ${i + 2}: "${t}" not in question_types`)
 }
 
 if (errors.length) {

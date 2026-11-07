@@ -1,0 +1,44 @@
+[
+  {
+    "round": 1,
+    "missing_type": "QT02",
+    "substitute_type": "QT03",
+    "skill": "reading",
+    "notes": "until images are chosen"
+  },
+  {
+    "round": 3,
+    "missing_type": "QT09",
+    "substitute_type": "QT08",
+    "skill": "writing",
+    "notes": ""
+  },
+  {
+    "round": 3,
+    "missing_type": "QT10",
+    "substitute_type": "QT08",
+    "skill": "writing",
+    "notes": "speaking stands in as writing, the closest production skill"
+  },
+  {
+    "round": 4,
+    "missing_type": "QT13",
+    "substitute_type": "QT12",
+    "skill": "writing",
+    "notes": "speaking stands in as writing"
+  },
+  {
+    "round": 5,
+    "missing_type": "QT09",
+    "substitute_type": "QT12",
+    "skill": "writing",
+    "notes": ""
+  },
+  {
+    "round": 5,
+    "missing_type": "QT13",
+    "substitute_type": "QT12",
+    "skill": "writing",
+    "notes": "speaking stands in as writing"
+  }
+]

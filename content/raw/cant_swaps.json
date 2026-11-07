@@ -1,0 +1,44 @@
+[
+  {
+    "setting": "cant_listen_now",
+    "type": "QT04",
+    "replaced_by": "QT03",
+    "notes": "pick what you heard becomes pick the meaning"
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT07",
+    "replaced_by": "QT06 in round 2; QT08 in rounds 3 to 5",
+    "notes": ""
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT11",
+    "replaced_by": "QT12",
+    "notes": ""
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT10",
+    "replaced_by": "QT08",
+    "notes": "needs audio"
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT13",
+    "replaced_by": "QT12",
+    "notes": "needs audio"
+  },
+  {
+    "setting": "cant_speak_now",
+    "type": "QT10",
+    "replaced_by": "QT08",
+    "notes": ""
+  },
+  {
+    "setting": "cant_speak_now",
+    "type": "QT13",
+    "replaced_by": "QT12",
+    "notes": ""
+  }
+]

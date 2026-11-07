@@ -8,7 +8,8 @@
     "import": "node scripts/import.mjs",
     "check": "node scripts/check-content.mjs",
     "build:content": "node scripts/build-content.mjs",
-    "content": "npm run -s import && npm run -s check && npm run -s build:content"
+    "content": "npm run -s import && npm run -s check && npm run -s build:content",
+    "test": "node --test test/*.test.js"
   },
   "type": "module",
   "devDependencies": {

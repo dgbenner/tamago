@@ -58,3 +58,33 @@ body {
   background: var(--bg);
   color: var(--ink);
 }
+
+@layer components {
+  .btn-primary {
+    @apply min-h-12 rounded-xl bg-accent px-4 font-semibold text-accent-ink disabled:opacity-40;
+  }
+  .btn-secondary {
+    @apply min-h-12 rounded-xl border border-line bg-surface px-4 font-medium disabled:opacity-50;
+  }
+  .icon-btn {
+    @apply inline-flex h-11 w-11 items-center justify-center rounded-xl;
+  }
+  .choice {
+    @apply min-h-12 rounded-xl border border-line bg-surface px-4 py-2.5 text-left text-lg;
+  }
+  .chip {
+    @apply min-h-11 rounded-xl border border-line bg-surface px-3.5 text-lg;
+  }
+  .choice-selected {
+    @apply border-2 border-ink;
+  }
+  .choice-right {
+    @apply border-2 border-right;
+  }
+  .choice-wrong {
+    @apply border-2 border-wrong;
+  }
+  .text-right-ink {
+    color: var(--right);
+  }
+}

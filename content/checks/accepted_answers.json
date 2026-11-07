@@ -21,19 +21,19 @@
     "answer_id": "A0003",
     "sentence_id": "S0013",
     "answer": "It is a man.",
-    "status": "flagged",
-    "source": "claude_draft",
+    "status": "checked",
+    "source": "wiktionary: c'est = it is",
     "source_id": "",
-    "reason": "Tatoeba does not link this wording. It links: He is a man.; This is a man.; He's a man."
+    "reason": ""
   },
   {
     "answer_id": "A0004",
     "sentence_id": "S0013",
     "answer": "It's a man.",
-    "status": "flagged",
-    "source": "claude_draft",
+    "status": "checked",
+    "source": "wiktionary: c'est = it is",
     "source_id": "",
-    "reason": "Tatoeba does not link this wording. It links: He is a man.; This is a man.; He's a man."
+    "reason": ""
   },
   {
     "answer_id": "A0005",
@@ -48,10 +48,10 @@
     "answer_id": "A0006",
     "sentence_id": "S0014",
     "answer": "It is a woman.",
-    "status": "flagged",
-    "source": "claude_draft",
+    "status": "checked",
+    "source": "wiktionary: c'est = it is",
     "source_id": "",
-    "reason": "Tatoeba does not link this wording. It links: She is a woman.; She's a woman.; This is a woman."
+    "reason": ""
   },
   {
     "answer_id": "A0007",
@@ -66,10 +66,10 @@
     "answer_id": "A0008",
     "sentence_id": "S0001",
     "answer": "Hi.",
-    "status": "flagged",
-    "source": "claude_draft",
+    "status": "off",
+    "source": "none",
     "source_id": "",
-    "reason": "Tatoeba does not link this wording. It links: Good morning!; Hello!; Good day!; Good morning.; Good afternoon.; Good afternoon!; Morning!; Mornin'!; Hello.; Hi there!; Good day."
+    "reason": ""
   },
   {
     "answer_id": "A0009",
@@ -105,6 +105,51 @@
     "status": "checked",
     "source": "tatoeba",
     "source_id": "13436",
+    "reason": ""
+  },
+  {
+    "answer_id": "A0013",
+    "sentence_id": "S0013",
+    "answer": "This is a man.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3127513",
+    "reason": ""
+  },
+  {
+    "answer_id": "A0014",
+    "sentence_id": "S0014",
+    "answer": "This is a woman.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3127508",
+    "reason": ""
+  },
+  {
+    "answer_id": "A0015",
+    "sentence_id": "S0001",
+    "answer": "Good afternoon.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "373345",
+    "reason": ""
+  },
+  {
+    "answer_id": "A0016",
+    "sentence_id": "S0001",
+    "answer": "Hi there!",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "373345",
+    "reason": ""
+  },
+  {
+    "answer_id": "A0017",
+    "sentence_id": "S0034",
+    "answer": "It is a boy.",
+    "status": "checked",
+    "source": "wiktionary: c'est = it is",
+    "source_id": "",
     "reason": ""
   }
 ]

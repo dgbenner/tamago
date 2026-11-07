@@ -1,52 +1,47 @@
 # Tamago
 
-French learning app, installable web app, mobile first. React, Vite, Tailwind v4. Hosting on Netlify (not set up yet).
+French learning app, installable web app, mobile first. React, Vite, Tailwind v4. No backend. Netlify config is in place; deploy only when Dan says.
 
-Specs are in `_source/`: tamago-feature-list.md (what), build-phases.md (order of work), question-types.md (question logic), tamago-data.xlsx (all content).
-The workbook is edited outside this repo and gets reissued. Never edit it here, and never write check results into it.
+Specs are in `_source/`: tamago-feature-list.md (what), build-phases.md (order of work), question-types.md (question logic), tamago-data-v3.xlsx (all content; its README holds Phase 1 rules), tamago-phase0-decisions.xlsx (decision log).
+The workbook is edited outside this repo and gets reissued. Never edit it here, and never write check results into it. A new version goes in `_source/` and becomes the default path in `scripts/import.mjs`.
 
 ## Content pipeline
 
 `npm run content` runs three steps:
 
-1. `import`: workbook to `content/raw/`. Fails on broken IDs. Also validates sentence_words, pairs and round_type_mix.
-2. `check`: Tatoeba, Wiktionary and Lingua Libre to `content/checks/` and `content/review.md`. Downloads are cached in `.cache/`.
-3. `build:content`: writes `public/content/`, the only content the app loads. Sentences ship only as `checked` or `dan_reviewed`, answers only as `checked`.
+1. `import`: workbook to `content/raw/`. Fails on broken IDs. Also validates sentence_words, pairs, round_type_mix, phase1_fallbacks and cant_swaps.
+2. `check`: Tatoeba, Wiktionary and Lingua Libre to `content/checks/` and `content/review.md`. Generates the en_to_fr answers (workbook README). Downloads are cached in `.cache/`.
+3. `build:content`: writes `src/content/`, bundled into the app, and copies recordings to `public/audio/`. The workbook's status is the gate, and the build fails if the checks disagree with it.
 
-Dan's rulings go in `content/review-decisions.json`. Wiktionary sense choices go in `content/word-senses.json`. Rows added outside the workbook go in `content/additions.json`, for the workbook owner to absorb.
+Dan's rulings go in `content/review-decisions.json`. Wiktionary sense choices go in `content/word-senses.json`.
 
-Standing decisions (full log, with reasons: `_source/tamago-phase0-decisions.xlsx`):
+Standing decisions:
 
-- U01 goes live only after Dan's approval, recorded in review-decisions.json under `units`. The app shows only units with status `live`.
+- A unit can be live only with Dan's approval recorded in review-decisions.json under `units`.
 - Non-Tatoeba sentences (source `tamago_original`) need a native-speaker check before testers in Phase 4. Until then the flag button is the safety net.
 - `can_do` stays draft and is not shipped until Phase 2; it gets checked against the CEFR self-assessment grid before the progress page is built.
-- Netlify is set up at the end of Phase 1.
+- The placement check is in Phase 2.
 
-## Waiting before Phase 1
+## App
 
-Workbook v2, Fable's review with learning-methods.md, and Dan's approval of content/review.md.
+- `src/lib/check.js`: answer checking. `src/lib/lesson.js`: mixes, lessons, re-asks, review. Both pure; `npm test` runs them against the real content.
+- `src/lib/store.js`: IndexedDB, runtime_schema table names. Loaded once at startup, then written behind.
+- `src/sw-template.js`: becomes `dist/sw.js` at build, precaching everything.
 
-## Phase 1 fill rule
+Choices the specs left open, easy to change:
 
-Types not built yet are replaced by a type that trains the same skill. Workbook v2 adds fallback_type_id to question_types.
+- Lessons per round: enough to cover every live sentence (`lessonsInRound`), currently 6, 4, 4, 4, 4.
+- Listen first (QT03, QT06 only): French hidden until the answer, unless the sentence has a new word.
+- If the device has no French voice, the app treats it as Can't listen now.
 
-| Missing | Substitute |
-| --- | --- |
-| QT02 | QT03 |
-| QT09 | QT08 in round 3, QT12 in round 5 |
-| QT10 | QT07 |
-| QT13 | QT11 |
-
-## Hints
-
-Workbook v2 adds a short hint column to words, trimmed from Wiktionary senses. A sentence can override a word's hint only with a sense Wiktionary lists. No hint is invented.
-
-## Answer checking (for Phase 1)
+## Answer checking
 
 In addition to question-types.md section 7:
 
 - The sentence's main French text is always an accepted answer, with or without rows in accepted_answers.
-- Ignore a space before ? and !, so "Tu es Paul?" and "Tu es Paul ?" are the same.
+- Punctuation is ignored, including a space before ? and !.
+- Typing another known word ("un" for "une") is a wrong word, not a typo. Words under 3 letters get no typo allowance.
+- QT07 and QT11 accept only the sentence heard, not en_to_fr alternates. English contractions equal their long forms.
 
 ## Rules in every phase
 

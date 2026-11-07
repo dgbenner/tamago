@@ -46,7 +46,8 @@ const describe = (s) => {
   return { source_id: s.id, source_owner: s.owner, ...t, french: s.text, english: tatoeba.englishFor(s.id) }
 }
 
-const acceptedFor = (id) => accepted.filter((a) => a.sentence_id === id && a.direction === 'fr_to_en').map((a) => a.answer)
+const isOff = (row) => String(row.status).startsWith('off')
+const acceptedFor = (id) => accepted.filter((a) => a.sentence_id === id && a.direction === 'fr_to_en' && !isOff(a)).map((a) => a.answer)
 
 function matchSentence(s) {
   const wanted = new Set([s.english, ...acceptedFor(s.sentence_id)].map(looseEn))
@@ -199,6 +200,12 @@ for (const row of sentenceChecks) {
 }
 
 // ---------- Accepted answers ----------
+// A wiktionary source reads "wiktionary: c'est = it is": the word's gloss must say so.
+const wiktionaryBacks = (source) => {
+  const m = String(source).match(/^wiktionary: (.+?) = (.+)$/)
+  const w = m && words.find((x) => x.form === m[1])
+  return Boolean(w && String(w.gloss).includes(m[2]))
+}
 const answerChecks = accepted.map((a) => {
   const s = sentences.find((x) => x.sentence_id === a.sentence_id)
   const hit = a.direction !== 'fr_to_en' ? null
@@ -208,11 +215,36 @@ const answerChecks = accepted.map((a) => {
   const linked = [...new Set((byLoose.get(loose(s.french)) ?? []).flatMap((c) => tatoeba.englishFor(c.id)))]
   return {
     answer_id: a.answer_id, sentence_id: a.sentence_id, answer: a.answer,
-    status: hit || kept ? 'checked' : 'flagged',
-    source: hit ? 'tatoeba' : kept ? 'dan_reviewed' : 'claude_draft', source_id: hit?.id ?? '',
-    reason: hit || kept ? '' : `Tatoeba does not link this wording. It links: ${linked.join('; ')}`,
+    status: isOff(a) ? 'off' : hit || kept || wiktionaryBacks(a.source) ? 'checked' : 'flagged',
+    source: a.source, source_id: hit?.id ?? '',
+    reason: isOff(a) || hit || kept || wiktionaryBacks(a.source) ? '' : `Tatoeba does not link this wording. It links: ${linked.join('; ')}`,
   }
 })
+
+// ---------- Generated en_to_fr answers (workbook README) ----------
+// Other French sentences Tatoeba links to the same English, under the same checked rule.
+// The main French sentence always counts, so it is never listed here.
+const liveSentences = sentences.filter((s) => !isOff(s))
+const englishWanted = new Map()
+for (const s of liveSentences) {
+  const key = looseEn(s.english)
+  if (!englishWanted.has(key)) englishWanted.set(key, [])
+  englishWanted.get(key).push(s)
+}
+const generatedAnswers = []
+for (const c of tatoeba.french) {
+  if (!trusted(c)) continue
+  for (const en of tatoeba.englishFor(c.id)) {
+    for (const s of englishWanted.get(looseEn(en)) ?? []) {
+      if (loose(c.text) === loose(s.french)) continue
+      const id = `G${s.sentence_id}-${c.id}`
+      if (generatedAnswers.some((g) => g.answer_id === id)) continue
+      const same = generatedAnswers.some((g) => g.sentence_id === s.sentence_id && loose(g.answer) === loose(c.text))
+      if (!same) generatedAnswers.push({ answer_id: id, sentence_id: s.sentence_id, direction: 'en_to_fr', answer: norm(c.text), source: 'tatoeba', source_id: c.id, status: 'checked', source_owner: c.owner })
+    }
+  }
+}
+generatedAnswers.sort((x, y) => x.sentence_id.localeCompare(y.sentence_id) || x.answer.localeCompare(y.answer))
 
 // ---------- Wiktionary ----------
 console.log('Words: Wiktionary')
@@ -286,6 +318,7 @@ for (const w of words) {
 const save = (name, rows) => writeFileSync(join(CHECKS, `${name}.json`), JSON.stringify(rows, null, 2) + '\n')
 save('sentences', sentenceChecks)
 save('accepted_answers', answerChecks)
+save('generated_answers', generatedAnswers)
 save('words', wordChecks)
 
 const esc = (s) => String(s).replace(/\|/g, '\\|')
@@ -294,8 +327,9 @@ const link = (m) => `[#${m.source_id}](${tatoebaUrl(m.source_id)})`
 const candidateCell = (r) => (r.candidates ?? []).map((c) => `${link(c)} ${esc(c.french)} = ${esc(c.english[0] ?? '')}`).join('<br>') || 'none'
 const flagged = sentenceChecks.filter((r) => r.status === 'flagged')
 const group = (reason) => flagged.filter((r) => r.flag_reason === reason)
-const passed = sentenceChecks.filter((r) => r.status === 'checked')
-const reviewed = sentenceChecks.filter((r) => r.status === 'dan_reviewed')
+const offIds = new Set(sentences.filter(isOff).map((s) => s.sentence_id))
+const passed = sentenceChecks.filter((r) => r.status === 'checked' && !offIds.has(r.sentence_id))
+const reviewed = sentenceChecks.filter((r) => r.status === 'dan_reviewed' && !offIds.has(r.sentence_id))
 const table = (title, lead, head, rows) => {
   if (rows.length === 0) return
   md.push(`## ${title} (${rows.length})`, '')
@@ -306,7 +340,7 @@ const pairOf = new Map(sentences.map((s) => [s.sentence_id, s.pair_id]))
 
 const md = []
 md.push('# Tamago content review', '')
-md.push(`Sentences cleared: ${passed.length + reviewed.length} of ${sentenceChecks.length} (${passed.length} matched to Tatoeba, ${reviewed.length} kept as Tamago originals). Words with Wiktionary data: ${wordChecks.filter((w) => w.status === 'checked').length} of ${wordChecks.length}. Accepted answers cleared: ${answerChecks.filter((a) => a.status === 'checked').length} of ${answerChecks.length}.`, '')
+md.push(`Sentences live: ${passed.length + reviewed.length} (${passed.length} matched to Tatoeba, ${reviewed.length} Tamago originals), ${offIds.size} off. Words with Wiktionary data: ${wordChecks.filter((w) => w.status === 'checked').length} of ${wordChecks.length}. French-to-English answers: ${answerChecks.filter((a) => a.status === 'checked').length} live, ${answerChecks.filter((a) => a.status === 'off').length} off, ${answerChecks.filter((a) => a.status === 'flagged').length} flagged. English-to-French answers generated from Tatoeba: ${generatedAnswers.length}.`, '')
 const approved = (id) => decisions.units?.[id]?.action === 'approve'
 md.push(`Unit 1 is ${approved('U01') ? 'approved and live' : 'not live: it waits for Dan\'s approval'}.`, '')
 md.push('Generated by `npm run content`. Do not edit by hand: record decisions in content/review-decisions.json.', '')
@@ -332,9 +366,15 @@ table('Words, for a read-through', 'Part of speech is the entry chosen in conten
 table('Matched to Tatoeba', 'Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.', ['ID', 'French', 'English', 'Tatoeba', 'Owner', 'Decision', 'English source', 'Audio'],
   passed.map((r) => [r.sentence_id, esc(r.french), esc(r.english), `[#${r.source_id}](${tatoebaUrl(r.source_id)})`, r.source_owner, r.decision, r.english_source, r.audio_source]))
 
-const ll = sentenceChecks.filter((r) => r.lingua_libre)
+table('Off in the workbook', 'Set to off by the workbook owner. Not shipped.', ['ID', 'French', 'English', 'Reason'],
+  sentences.filter(isOff).map((s) => [s.sentence_id, esc(s.french), esc(s.english), esc(s.notes)]))
+
+table('English-to-French answers generated from Tatoeba', 'Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.', ['Sentence', 'English', 'Also accepted', 'Tatoeba', 'Owner'],
+  generatedAnswers.map((g) => { const s = sentences.find((x) => x.sentence_id === g.sentence_id); return [g.sentence_id, esc(s.english), esc(g.answer), `[#${g.source_id}](${tatoebaUrl(g.source_id)})`, g.source_owner] }))
+
+const ll = sentenceChecks.filter((r) => r.lingua_libre && !offIds.has(r.sentence_id))
 table('Lingua Libre recordings', '', ['ID', 'French', 'File', 'License', 'Recordings found'],
   ll.map((r) => [r.sentence_id, esc(r.french), `[${esc(r.lingua_libre.file)}](${encodeURI(r.lingua_libre.url)})`, esc(r.lingua_libre.license), r.lingua_libre.recordings_found]))
 writeFileSync(join(ROOT, 'content/review.md'), md.join('\n'))
 
-console.log(`Sentences: ${passed.length} checked, ${reviewed.length} dan_reviewed, ${flagged.length} flagged. Words: ${wordChecks.filter((w) => w.status === 'checked').length} checked. Answers: ${answerChecks.length - flaggedAnswers.length} checked, ${flaggedAnswers.length} flagged. Lingua Libre: ${ll.length} sentences.`)
+console.log(`Sentences: ${passed.length} checked, ${reviewed.length} dan_reviewed, ${flagged.length} flagged. Words: ${wordChecks.filter((w) => w.status === 'checked').length} checked. Answers: ${answerChecks.filter((a) => a.status === 'checked').length} checked, ${flaggedAnswers.length} flagged, ${generatedAnswers.length} en_to_fr generated. Lingua Libre: ${ll.length} live sentences.`)
