@@ -1,5 +1,14 @@
 [
   {
+    "answer_id": "A0001",
+    "sentence_id": "S0006",
+    "direction": "fr_to_en",
+    "answer": "I'm a woman.",
+    "source": "tatoeba",
+    "status": "checked",
+    "source_id": "740215"
+  },
+  {
     "answer_id": "A0002",
     "sentence_id": "S0007",
     "direction": "fr_to_en",
@@ -52,5 +61,14 @@
     "source": "tatoeba",
     "status": "checked",
     "source_id": "374826"
+  },
+  {
+    "answer_id": "A0012",
+    "sentence_id": "S0003",
+    "direction": "fr_to_en",
+    "answer": "Bye.",
+    "source": "tatoeba",
+    "status": "checked",
+    "source_id": "13436"
   }
 ]

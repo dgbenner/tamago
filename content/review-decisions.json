@@ -1,5 +1,100 @@
 {
-  "_about": "Dan's calls on flagged sentences and answers. Each sentence entry repeats the French it was made on, so a decision goes stale if the workbook text changes. Actions: confirm (accept the Tatoeba match shown), replace (use tatoeba_id, optional english), keep (Dan approves the draft with no Tatoeba source). Answers go under accepted_answers: {A0003: {action: keep, answer: text}}.",
-  "sentences": {},
-  "accepted_answers": {}
+  "_about": "Dan's calls. Each sentence entry repeats the French it was made on, so a decision goes stale if the workbook text changes. Sentence actions: confirm (accept the Tatoeba match; english_source tamago_original when Tatoeba links no translation), replace (use tatoeba_id, optional english), keep (status dan_reviewed, source tamago_original, needs a native-speaker check before Phase 4). Answers: {A0003: {action: keep, answer: text}}. Units: {U01: {action: approve}} is Dan's go-live; only he adds it.",
+  "sentences": {
+    "S0003": {
+      "action": "confirm",
+      "french": "Au revoir."
+    },
+    "S0004": {
+      "action": "confirm",
+      "french": "Oui."
+    },
+    "S0005": {
+      "action": "confirm",
+      "french": "Non."
+    },
+    "S0006": {
+      "action": "confirm",
+      "french": "Je suis une femme."
+    },
+    "S0009": {
+      "action": "confirm",
+      "french": "Je suis un garçon."
+    },
+    "S0011": {
+      "action": "keep",
+      "french": "Tu es une fille."
+    },
+    "S0012": {
+      "action": "confirm",
+      "french": "Tu es un garçon."
+    },
+    "S0015": {
+      "action": "confirm",
+      "french": "C'est un enfant.",
+      "english_source": "tamago_original"
+    },
+    "S0016": {
+      "action": "keep",
+      "french": "Un homme et une femme."
+    },
+    "S0017": {
+      "action": "keep",
+      "french": "Un garçon et une fille."
+    },
+    "S0018": {
+      "action": "keep",
+      "french": "Bonjour, je suis Paul."
+    },
+    "S0019": {
+      "action": "keep",
+      "french": "Bonjour, je suis Marie."
+    },
+    "S0020": {
+      "action": "keep",
+      "french": "Merci, au revoir."
+    },
+    "S0021": {
+      "action": "keep",
+      "french": "Oui, je suis une femme."
+    },
+    "S0022": {
+      "action": "keep",
+      "french": "Non, je suis un homme."
+    },
+    "S0023": {
+      "action": "keep",
+      "french": "Tu es un garçon ?"
+    },
+    "S0024": {
+      "action": "keep",
+      "french": "Non, je suis une fille."
+    },
+    "S0025": {
+      "action": "keep",
+      "french": "Tu es Paul ?"
+    },
+    "S0026": {
+      "action": "keep",
+      "french": "Oui, je suis Paul."
+    },
+    "S0027": {
+      "action": "keep",
+      "french": "C'est une fille ?"
+    },
+    "S0028": {
+      "action": "keep",
+      "french": "Non, c'est un garçon."
+    },
+    "S0029": {
+      "action": "keep",
+      "french": "Tu es un enfant ?"
+    },
+    "S0030": {
+      "action": "keep",
+      "french": "Non, je suis une femme."
+    }
+  },
+  "accepted_answers": {},
+  "units": {}
 }

@@ -1,0 +1,279 @@
+{
+  "_about": "Rows added outside the workbook, on Dan's decision. Import appends them. Once the workbook carries a row with the same ID and French, the addition is skipped; any other clash on ID or French fails the import.",
+  "sentences": [
+    {
+      "sentence_id": "S0031",
+      "unit_id": "U01",
+      "french": "Non, non et non !",
+      "english": "No, no, no!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "15044",
+      "status": "added from Tatoeba, pending check",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "added on Dan's decision, 2026-11-07"
+    },
+    {
+      "sentence_id": "S0032",
+      "unit_id": "U01",
+      "french": "Tu es une femme.",
+      "english": "You are a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1229183",
+      "status": "added from Tatoeba, pending check",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "added on Dan's decision, 2026-11-07"
+    },
+    {
+      "sentence_id": "S0033",
+      "unit_id": "U01",
+      "french": "Non merci.",
+      "english": "Thanks, but no thanks.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3647402",
+      "status": "added from Tatoeba, pending check",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "added on Dan's decision, 2026-11-07"
+    },
+    {
+      "sentence_id": "S0034",
+      "unit_id": "U01",
+      "french": "C'est un garçon.",
+      "english": "This is a boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4472231",
+      "status": "added from Tatoeba, pending check",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "added on Dan's decision, 2026-11-07"
+    },
+    {
+      "sentence_id": "S0035",
+      "unit_id": "U01",
+      "french": "Tu es un homme.",
+      "english": "You're a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6813325",
+      "status": "added from Tatoeba, pending check",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "added on Dan's decision, 2026-11-07"
+    },
+    {
+      "sentence_id": "S0036",
+      "unit_id": "U01",
+      "french": "Tu es une enfant.",
+      "english": "You're a child.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7763128",
+      "status": "added from Tatoeba, pending check",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "added on Dan's decision, 2026-11-07"
+    },
+    {
+      "sentence_id": "S0037",
+      "unit_id": "U01",
+      "french": "Oui. Merci.",
+      "english": "Yes. Thanks.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7801768",
+      "status": "added from Tatoeba, pending check",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "added on Dan's decision, 2026-11-07"
+    },
+    {
+      "sentence_id": "S0038",
+      "unit_id": "U01",
+      "french": "Et ?",
+      "english": "So what?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8691465",
+      "status": "added from Tatoeba, pending check",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "added on Dan's decision, 2026-11-07"
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S0031",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W005",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0031",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W005",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0031",
+      "position": 3,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0031",
+      "position": 4,
+      "surface": "non",
+      "word_id": "W005",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0032",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0032",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W009",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0032",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0032",
+      "position": 4,
+      "surface": "femme",
+      "word_id": "W014",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0033",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W005",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0033",
+      "position": 2,
+      "surface": "merci",
+      "word_id": "W002",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0034",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0034",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0034",
+      "position": 3,
+      "surface": "garçon",
+      "word_id": "W015",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0035",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0035",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W009",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0035",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0035",
+      "position": 4,
+      "surface": "homme",
+      "word_id": "W013",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0036",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0036",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W009",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0036",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0036",
+      "position": 4,
+      "surface": "enfant",
+      "word_id": "W017",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0037",
+      "position": 1,
+      "surface": "Oui",
+      "word_id": "W004",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0037",
+      "position": 2,
+      "surface": "Merci",
+      "word_id": "W002",
+      "notes": ""
+    },
+    {
+      "sentence_id": "S0038",
+      "position": 1,
+      "surface": "Et",
+      "word_id": "W018",
+      "notes": ""
+    }
+  ]
+}

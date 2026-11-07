@@ -1,6 +1,6 @@
 // Workbook -> content/raw/<table>.json. Fails (exit 1) on broken IDs.
 // Usage: node scripts/import.mjs [path/to/workbook.xlsx]
-import { mkdirSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { createRequire } from 'node:module'
 
@@ -18,6 +18,22 @@ for (const name of wb.SheetNames) {
 
 const errors = []
 const fail = (msg) => errors.push(msg)
+
+// Rows added on Dan's decision, outside the workbook. Skipped once the workbook carries them.
+const ADDITIONS = join(ROOT, 'content/additions.json')
+if (existsSync(ADDITIONS)) {
+  const add = JSON.parse(readFileSync(ADDITIONS, 'utf8'))
+  const comparable = (s) => s.toLowerCase().replace(/[.!?,\s]+/g, ' ').trim()
+  for (const row of add.sentences) {
+    const sameId = tables.sentences.find((s) => s.sentence_id === row.sentence_id)
+    const sameText = tables.sentences.find((s) => comparable(s.french) === comparable(row.french))
+    if (sameId && sameId.french === row.french) continue
+    if (sameId) { fail(`additions: ${row.sentence_id} "${row.french}" clashes with workbook "${sameId.french}"`); continue }
+    if (sameText) { fail(`additions: ${row.sentence_id} "${row.french}" is already workbook ${sameText.sentence_id}`); continue }
+    tables.sentences.push(row)
+    tables.sentence_words.push(...add.sentence_words.filter((sw) => sw.sentence_id === row.sentence_id))
+  }
+}
 
 const PRIMARY_KEYS = {
   languages: 'lang_id', units: 'unit_id', can_do: 'can_do_id', sentences: 'sentence_id',

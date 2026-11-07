@@ -5,7 +5,8 @@
     "answer": "I'm a woman.",
     "status": "checked",
     "source": "tatoeba",
-    "source_id": "740215"
+    "source_id": "740215",
+    "reason": ""
   },
   {
     "answer_id": "A0002",
@@ -13,7 +14,8 @@
     "answer": "I'm a man.",
     "status": "checked",
     "source": "tatoeba",
-    "source_id": "127479"
+    "source_id": "127479",
+    "reason": ""
   },
   {
     "answer_id": "A0003",
@@ -21,7 +23,8 @@
     "answer": "It is a man.",
     "status": "flagged",
     "source": "claude_draft",
-    "source_id": ""
+    "source_id": "",
+    "reason": "Tatoeba does not link this wording. It links: He is a man.; This is a man.; He's a man."
   },
   {
     "answer_id": "A0004",
@@ -29,7 +32,8 @@
     "answer": "It's a man.",
     "status": "flagged",
     "source": "claude_draft",
-    "source_id": ""
+    "source_id": "",
+    "reason": "Tatoeba does not link this wording. It links: He is a man.; This is a man.; He's a man."
   },
   {
     "answer_id": "A0005",
@@ -37,7 +41,8 @@
     "answer": "He's a man.",
     "status": "checked",
     "source": "tatoeba",
-    "source_id": "3127513"
+    "source_id": "3127513",
+    "reason": ""
   },
   {
     "answer_id": "A0006",
@@ -45,7 +50,8 @@
     "answer": "It is a woman.",
     "status": "flagged",
     "source": "claude_draft",
-    "source_id": ""
+    "source_id": "",
+    "reason": "Tatoeba does not link this wording. It links: She is a woman.; She's a woman.; This is a woman."
   },
   {
     "answer_id": "A0007",
@@ -53,7 +59,8 @@
     "answer": "She's a woman.",
     "status": "checked",
     "source": "tatoeba",
-    "source_id": "3127508"
+    "source_id": "3127508",
+    "reason": ""
   },
   {
     "answer_id": "A0008",
@@ -61,7 +68,8 @@
     "answer": "Hi.",
     "status": "flagged",
     "source": "claude_draft",
-    "source_id": ""
+    "source_id": "",
+    "reason": "Tatoeba does not link this wording. It links: Good morning!; Hello!; Good day!; Good morning.; Good afternoon.; Good afternoon!; Morning!; Mornin'!; Hello.; Hi there!; Good day."
   },
   {
     "answer_id": "A0009",
@@ -69,7 +77,8 @@
     "answer": "Good morning.",
     "status": "checked",
     "source": "tatoeba",
-    "source_id": "373345"
+    "source_id": "373345",
+    "reason": ""
   },
   {
     "answer_id": "A0010",
@@ -77,7 +86,8 @@
     "answer": "Good day.",
     "status": "checked",
     "source": "tatoeba",
-    "source_id": "373345"
+    "source_id": "373345",
+    "reason": ""
   },
   {
     "answer_id": "A0011",
@@ -85,7 +95,8 @@
     "answer": "Thanks.",
     "status": "checked",
     "source": "tatoeba",
-    "source_id": "374826"
+    "source_id": "374826",
+    "reason": ""
   },
   {
     "answer_id": "A0012",
@@ -93,6 +104,7 @@
     "answer": "Bye.",
     "status": "checked",
     "source": "tatoeba",
-    "source_id": "13436"
+    "source_id": "13436",
+    "reason": ""
   }
 ]
