@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { content as c, recordings } from './lib/content.js'
-import { LESSON_SIZE, PASS, buildLesson, buildReview, lessonsInRound, reaskFor } from './lib/lesson.js'
+import { buildLesson, buildReview, lessonsInRound, passMark, reaskFor } from './lib/lesson.js'
 import { loadState, put, putKv, remove } from './lib/store.js'
 import { hasFrenchVoice, preload, stop } from './lib/audio.js'
 import Home from './screens/Home.jsx'
@@ -32,6 +32,7 @@ export default function App() {
   const [splash, setSplash] = useState(true)
   const seenWords = useRef(new Set())
   const roundSeen = useRef({})
+  const carry = useRef([])
 
   useEffect(() => {
     preload(recordings)
@@ -43,6 +44,7 @@ export default function App() {
       if (s.kv.settings) setSettings({ ...DEFAULT_SETTINGS, ...s.kv.settings })
       seenWords.current = new Set(s.kv.seen_words ?? [])
       roundSeen.current = s.kv.round_seen ?? {}
+      carry.current = s.kv.carry ?? []
       if (s.kv.current_session) setSession(s.kv.current_session)
       setReady(true)
     })
@@ -74,17 +76,24 @@ export default function App() {
     setEnding(null)
     setScreen('lesson')
   }
-  const startLesson = () => begin(session ?? buildLesson(c, {
-    round: currentRound, unit_id: UNIT.unit_id, seen: roundSeen.current[currentRound] ?? {}, settings: lessonModes(),
-  }))
+  const startLesson = () => {
+    if (session) { begin(session); return }
+    const lesson = buildLesson(c, {
+      round: currentRound, unit_id: UNIT.unit_id, seen: roundSeen.current[currentRound] ?? {}, known: seenWords.current,
+      settings: lessonModes(), carry: carry.current[0] ?? null,
+    })
+    carry.current = []
+    putKv('carry', [])
+    begin(lesson)
+  }
   const startReview = () => {
-    if (bank.length) begin(buildReview(c, bank, { round: currentRound, settings: lessonModes() }))
+    if (bank.length) begin(buildReview(c, bank, { round: currentRound, settings: lessonModes(), today: today() }))
   }
 
   const addToBank = (sentence_id, type_id) => {
     setBank((b) => {
       if (!sentence_id || b.some((e) => e.sentence_id === sentence_id)) return b
-      const row = { sentence_id, type_id, correct_in_review: 0, added_at: new Date().toISOString() }
+      const row = { sentence_id, type_id, correct_in_review: 0, correct_days: [], added_at: new Date().toISOString() }
       put('review_bank', row)
       return [...b, row]
     })
@@ -102,7 +111,7 @@ export default function App() {
     const first = !q.reask
     put('attempts', {
       attempt_id: uid(), lesson_id: session.id, sentence_id: q.sentence_id ?? q.word_ids.join(';'), type_id: q.type, variant_id: q.variant,
-      round: q.round, first_attempt: first, correct: result.correct, typo_accepted: Boolean(result.typo), answered_at: new Date().toISOString(),
+      round: q.round, skill: result.hidden ? 'listening' : q.skill, first_attempt: first, correct: result.correct, typo_accepted: Boolean(result.typo), answered_at: new Date().toISOString(),
     })
     for (const seg of q.segments ?? []) if (seg.word_id) seenWords.current.add(seg.word_id)
     for (const id of q.word_ids ?? []) seenWords.current.add(id)
@@ -112,19 +121,23 @@ export default function App() {
     if (first) {
       next = { ...next, firstCorrect: next.firstCorrect + (result.correct ? 1 : 0), firstWrong: next.firstWrong + (result.correct ? 0 : 1) }
       if (result.correct) addPoint()
+      else next = { ...next, misses: [...(next.misses ?? []), { sentence_id: q.sentence_id ?? null, word_id: result.missedWord ?? null, type: q.type }] }
     }
     if (!result.correct) {
+      // One re-ask only: a wrong re-ask shows the answer and the lesson moves on.
       const reask = session.kind === 'lesson' && first
-        ? reaskFor(c, q, { cantListen: lessonModes().cantListen, missedWord: result.missedWord }) : null
+        ? reaskFor(c, q, { cantListen: lessonModes().cantListen, missedWord: result.missedWord, known: seenWords.current }) : null
       if (reask) next = { ...next, queue: [...next.queue, reask] }
-      addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
+      // Round 1 misses stay out of the bank.
+      if (q.round >= 2) addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
     }
     if (session.kind === 'review' && result.correct) {
       setBank((b) => b.flatMap((e) => {
         if (e.sentence_id !== q.sentence_id) return [e]
-        const count = e.correct_in_review + 1
-        if (count >= 3) { remove('review_bank', e.sentence_id); return [] }
-        const row = { ...e, correct_in_review: count }
+        // Leaves after three correct answers on three different days.
+        const days = [...new Set([...(e.correct_days ?? []), today()])]
+        if (days.length >= 3) { remove('review_bank', e.sentence_id); return [] }
+        const row = { ...e, correct_days: days, correct_in_review: days.length }
         put('review_bank', row)
         return [row]
       }))
@@ -135,7 +148,6 @@ export default function App() {
 
   const onHint = (q, seg) => {
     put('hints_log', { hint_id: uid(), word_id: seg.word_id, sentence_id: q.sentence_id, tapped_at: new Date().toISOString() })
-    addToBank(q.sentence_id, q.type)
   }
 
   const onFlag = (q, reason_id) => {
@@ -149,10 +161,11 @@ export default function App() {
       setEnding({ line: `${s.firstCorrect} of ${s.size} correct.` })
       return
     }
-    const passed = s.firstCorrect >= PASS
-    put('lessons', { lesson_id: s.id, unit_id: s.unit_id, round: s.round, score: s.firstCorrect, passed })
+    const mark = passMark(s.graded ?? s.size)
+    const passed = s.firstCorrect >= mark
+    put('lessons', { lesson_id: s.id, unit_id: s.unit_id, round: s.round, score: s.firstCorrect, graded: s.graded ?? s.size, passed, duration_ms: s.started_at ? Date.now() - s.started_at : null, finished_at: new Date().toISOString() })
     if (!passed) {
-      setEnding({ line: `${s.firstCorrect} of ${LESSON_SIZE}. Pass is ${PASS}, so this lesson repeats in new question types.`, retry: s })
+      setEnding({ line: `${s.firstCorrect} of ${s.size}. Pass is ${mark}, so this lesson repeats in new question types.`, retry: s })
       return
     }
     const seen = roundSeen.current[s.round] ?? { sentences: {}, words: {} }
@@ -162,14 +175,19 @@ export default function App() {
     }
     roundSeen.current = { ...roundSeen.current, [s.round]: seen }
     putKv('round_seen', roundSeen.current)
+    carry.current = s.misses ?? []
+    putKv('carry', carry.current)
     if (s.round === currentRound && progress.round_reached < 5) {
       const done = progress.lessons_done + 1
-      const roundDone = done >= lessonsInRound(c, s.round)
+      // A round runs its full count, and longer only if a miss kept a sentence or word from appearing.
+      const covered = c.sentences.every((x) => seen.sentences[x.sentence_id]) && c.wordOrder.every((id) => seenWords.current.has(id))
+      const count = lessonsInRound(c, s.round)
+      const roundDone = (done >= count && covered) || done >= count + 3
       const nextProgress = { ...progress, round_reached: roundDone ? s.round : progress.round_reached, lessons_done: roundDone ? 0 : done }
       setProgress(nextProgress)
       put('unit_progress', nextProgress)
     }
-    setEnding({ line: `${s.firstCorrect} of ${LESSON_SIZE}.` })
+    setEnding({ line: `${s.firstCorrect} of ${s.size}.` })
   }
 
   const leaveLesson = () => {
@@ -179,7 +197,7 @@ export default function App() {
 
   const afterEnding = () => {
     if (ending?.retry) {
-      begin(buildLesson(c, { round: ending.retry.round, unit_id: ending.retry.unit_id, settings: lessonModes(), retry: ending.retry.queue.slice(0, ending.retry.size) }))
+      begin(buildLesson(c, { round: ending.retry.round, unit_id: ending.retry.unit_id, known: seenWords.current, settings: lessonModes(), retry: ending.retry.queue.slice(0, ending.retry.size) }))
       return
     }
     setEnding(null)
@@ -207,7 +225,7 @@ export default function App() {
   if (screen === 'settings') return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} />
   if (screen === 'about') return <About content={c} onBack={() => setScreen('settings')} />
   return (
-    <Home unit={UNIT} progress={progress} round={currentRound} lessonsInRound={lessonsInRound(c, currentRound)} points={pointsToday}
+    <Home unit={UNIT} progress={progress} round={currentRound} lessonsInRound={Math.max(lessonsInRound(c, currentRound), progress.lessons_done + 1)} points={pointsToday}
       bankSize={bank.length} inProgress={session?.kind === 'lesson' || session?.kind === 'review'}
       onStart={startLesson} onReview={startReview} onSettings={() => setScreen('settings')} />
   )

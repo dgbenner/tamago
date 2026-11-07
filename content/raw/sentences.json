@@ -296,7 +296,7 @@
     "status": "live: native check before Phase 4",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "question"
+    "notes": "question; pair_id replaced by qa_answers"
   },
   {
     "sentence_id": "S0024",
@@ -309,7 +309,7 @@
     "status": "live: native check before Phase 4",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "answer"
+    "notes": "answer; pair_id replaced by qa_answers"
   },
   {
     "sentence_id": "S0025",
@@ -322,7 +322,7 @@
     "status": "live: native check before Phase 4",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "question"
+    "notes": "question; pair_id replaced by qa_answers"
   },
   {
     "sentence_id": "S0026",
@@ -335,7 +335,7 @@
     "status": "live: native check before Phase 4",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "answer"
+    "notes": "answer; pair_id replaced by qa_answers"
   },
   {
     "sentence_id": "S0027",
@@ -348,7 +348,7 @@
     "status": "live: native check before Phase 4",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "question"
+    "notes": "question; pair_id replaced by qa_answers"
   },
   {
     "sentence_id": "S0028",
@@ -361,7 +361,7 @@
     "status": "live: native check before Phase 4",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "answer"
+    "notes": "answer; pair_id replaced by qa_answers"
   },
   {
     "sentence_id": "S0029",
@@ -374,7 +374,7 @@
     "status": "live: native check before Phase 4",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "question"
+    "notes": "question; pair_id replaced by qa_answers"
   },
   {
     "sentence_id": "S0030",
@@ -387,7 +387,7 @@
     "status": "live: native check before Phase 4",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "answer"
+    "notes": "answer; pair_id replaced by qa_answers"
   },
   {
     "sentence_id": "S0031",
@@ -492,5 +492,31 @@
     "audio_source": "tts",
     "max_round": 5,
     "notes": "Tatoeba's English is an idiom; misleading for Unit 1"
+  },
+  {
+    "sentence_id": "S0039",
+    "unit_id": "U01",
+    "french": "Tu es une femme ?",
+    "english": "Are you a woman?",
+    "pair_id": "",
+    "source": "tamago_original",
+    "source_id": "",
+    "status": "draft: match to Tatoeba on import",
+    "audio_source": "tts",
+    "max_round": 5,
+    "notes": "question for QT09"
+  },
+  {
+    "sentence_id": "S0040",
+    "unit_id": "U01",
+    "french": "Tu es un homme ?",
+    "english": "Are you a man?",
+    "pair_id": "",
+    "source": "tamago_original",
+    "source_id": "",
+    "status": "draft: match to Tatoeba on import",
+    "audio_source": "tts",
+    "max_round": 5,
+    "notes": "question for QT09"
   }
 ]

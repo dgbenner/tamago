@@ -1084,5 +1084,71 @@
     "native_check": "",
     "lingua_libre": null,
     "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0039",
+    "unit_id": "U01",
+    "draft_french": "Tu es une femme ?",
+    "draft_english": "Are you a woman?",
+    "french": "Tu es une femme ?",
+    "english": "Are you a woman?",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [
+      {
+        "source_id": "1229183",
+        "source_owner": "Salutlolo",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es une femme.",
+        "english": [
+          "You are a woman."
+        ]
+      }
+    ],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0040",
+    "unit_id": "U01",
+    "draft_french": "Tu es un homme ?",
+    "draft_english": "Are you a man?",
+    "french": "Tu es un homme ?",
+    "english": "Are you a man?",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [
+      {
+        "source_id": "6813325",
+        "source_owner": "Micsmithel",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es un homme.",
+        "english": [
+          "You're a man."
+        ]
+      }
+    ],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
   }
 ]

@@ -2,7 +2,7 @@
 
 French learning app, installable web app, mobile first. React, Vite, Tailwind v4. No backend. Netlify config is in place; deploy only when Dan says.
 
-Specs are in `_source/`: tamago-feature-list.md (what), build-phases.md (order of work), question-types.md (question logic), tamago-data-v3.xlsx (all content; its README holds Phase 1 rules), tamago-phase0-decisions.xlsx (decision log).
+Specs are in `_source/`: tamago-feature-list.md (what), build-phases.md (order of work), question-types.md (question logic), tamago-data-v4.xlsx (all content; lesson_rules tab holds R01 to R16), learning-methods.md (why), tamago-phase0-decisions.xlsx (decision log).
 The workbook is edited outside this repo and gets reissued. Never edit it here, and never write check results into it. A new version goes in `_source/` and becomes the default path in `scripts/import.mjs`.
 
 ## Content pipeline
@@ -30,10 +30,14 @@ Standing decisions:
 
 Choices the specs left open, easy to change:
 
-- Lessons per round: enough to cover every live sentence (`lessonsInRound`), currently 6, 4, 4, 4, 4.
+- Lessons per round: enough to cover every live sentence (`lessonsInRound`), currently see `lessonsInRound`. A round can run past its count only if a sentence or word hasn't appeared yet.
+- New words arrive in the order the workbook's sentences first use them. Early lessons have few usable sentences, so one may appear twice, in different types.
+- First sight on match pairs: tapping a new word shows its meaning below the grid. Other types show it under the sentence.
+- QT04 is V0404 in rounds 1 and 2, V0401 on re-asks after. QT09 is chips in rounds 3 and 4, typed in round 5, with the first qa_answers row as the one shown and buildable.
+- Phase 1 builds QT09; QT10 and QT13 still use phase1_fallbacks. The workbook's QT09 fallback rows are ignored because QT09 is built.
 - Listen first (QT03, QT06 only): French hidden until the answer, unless the sentence has a new word.
 - If the device has no French voice, the app treats it as Can't listen now.
-- Match pairs (V0101) plays each French word on tap, at Dan's request. The workbook still lists audio on tap as V0102, testing.
+- Match pairs plays each French word on tap in both V0101 and V0102, at Dan's request.
 
 ## Look
 

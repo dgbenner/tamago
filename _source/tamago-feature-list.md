@@ -1,6 +1,6 @@
 # Tamago: feature list
 
-Saved November 6, 2026. Updated November 7, 2026. A language-learning web app that brings back old
+Saved November 6, 2026. Updated November 7, 2026 (learning review applied). A language-learning web app that brings back old
 Duolingo's best features for serious adult learners. Dan uses it first, then opens it to others. Not a spec yet.
 
 ## Direction
@@ -42,9 +42,10 @@ Three layers, each with its own job.
 
 ## Lesson flow (core)
 
-- A lesson is a block of about 8 to 10 questions. Pass is 7 of 10.
+- A lesson is a block of about 8 to 10 questions. Pass is 70% of graded questions (speaking isn't graded).
+- No more than 4 new words per lesson; a new word's meaning shows at first sight.
 - **A miss is a strike, nothing more.** No hearts, no lives, no lockout.
-- **Under 7 of 10**: the lesson doesn't count; the learner repeats it right away with the same content in new
+- **Under the pass mark**: the lesson doesn't count; the learner repeats it right away with the same content in new
   formats. Nothing locks.
 - **No timers** on any question.
 - **Progress bar at the top** of the screen during questions.
@@ -61,7 +62,7 @@ Three layers, each with its own job.
     version 3.
 - **New word tag**: the first time a word appears, the question says so and the word is highlighted.
 - **Tap a word for hints**: words with a dotted underline open a small table of translations, from Wiktionary.
-  A hint never costs a strike. Every hint is logged, and hinted words go to review.
+  A hint never costs a strike. Every hint is logged. Correction: hinted words no longer go to review.
 
 ## Answer checking
 
@@ -71,8 +72,8 @@ Three layers, each with its own job.
 
 ## Review and skill strength (core, outside tree progress)
 
-- **Review bank**: every missed question goes in. Review draws from the bank. A question leaves the bank after
-  three correct answers in review. Review doesn't count toward progress in the tree.
+- **Review bank**: misses in rounds 2 to 5 go in (round 1 misses don't). Review draws from the bank. A question
+  leaves the bank after three correct answers on three different days. Review doesn't count toward progress in the tree.
 - **Skill strength**: each skill node shows four bars that drop over time without practice, on the FSRS schedule.
 - **Practice weak skills**: one button on the tree pulls from the weakest skills.
 - **Review checkpoints**: a review node appears in the tree after a set amount of new content. Stubbed for now.
@@ -90,9 +91,10 @@ Three layers, each with its own job.
   instead of translating.
 - **Listening**: type what you hear, tap what you hear (word chips), pick what you heard, a slow button.
   - **Audio-only answers**: when a listening question has choices, the choices are speaker buttons, not text.
-    Written choices turn a listening question into a reading question.
+    Written French choices turn a listening question into a reading question; English meaning choices are fine.
   - Text stays hidden until the learner answers. Option to try: text appears only after the second play.
-- **Repeat what you hear**: audio only, text behind a reveal button, then speak. Never graded.
+- **Repeat what you hear**: audio only, text behind a reveal button, then say it. Never graded. Starts in round 1.
+- **Speak from memory**: an English prompt, say the French, then hear both. Round 5. Never graded.
 - **Speaking, never graded**: listen to a native recording, record yourself, play both side by side.
 - Question types work off one sentence corpus in different ways.
 - **Variants**: each question type can have several ways to interact (six or more for listening, for example).

@@ -1,0 +1,98 @@
+[
+  {
+    "rule_id": "R01",
+    "topic": "New words",
+    "rule": "No more than 4 new words per lesson. A sentence is used only when its other words have been met. Use the 4-pair QT01 variant when fewer than 5 words are available.",
+    "notes": "starting number, tune with use"
+  },
+  {
+    "rule_id": "R02",
+    "topic": "First sight",
+    "rule": "A new word's meaning shows at first sight. On QT01, a wrong tap on a new word isn't a miss.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R03",
+    "topic": "Distractors",
+    "rule": "At least one wrong chip is a contrast from the unit's contrast_sets (un/une, suis/es).",
+    "notes": ""
+  },
+  {
+    "rule_id": "R04",
+    "topic": "QT09 answers",
+    "rule": "Accept any answer listed in qa_answers for the question.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R05",
+    "topic": "Pass mark",
+    "rule": "Speaking questions earn a point but don't count toward the pass. Pass is 70% of graded questions, rounded up.",
+    "notes": "replaces 7 of 10"
+  },
+  {
+    "rule_id": "R06",
+    "topic": "Re-asks",
+    "rule": "A miss returns at the end of the lesson as a different type. A wrong re-ask shows the answer and the lesson moves on; the item stays in the bank.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R07",
+    "topic": "Next lesson",
+    "rule": "A missed item also fills one slot in the next lesson, at its original type.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R08",
+    "topic": "Review bank entry",
+    "rule": "Misses in rounds 2 to 5 go in. Round 1 misses and hinted words don't go in. Hints are still logged.",
+    "notes": "correction: earlier rule put hinted words in"
+  },
+  {
+    "rule_id": "R09",
+    "topic": "Review bank exit",
+    "rule": "An item leaves after three correct answers on three different days.",
+    "notes": "replaces three in a row"
+  },
+  {
+    "rule_id": "R10",
+    "topic": "Answer bar audio",
+    "rule": "The French plays on every question when the answer bar appears, without blocking Continue.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R11",
+    "topic": "Model audio label",
+    "rule": "QT13 says 'native' only where a Lingua Libre recording exists. The native-speaker check before Phase 4 also records the rest.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R12",
+    "topic": "Swaps and scoring",
+    "rule": "A swapped question feeds the replacement's skill. The swapped-out skill doesn't move.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R13",
+    "topic": "Type cap",
+    "rule": "No type more than 3 times per lesson, counted before swaps and fallbacks.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R14",
+    "topic": "Points",
+    "rule": "1 point per first-attempt correct answer, shown on home only.",
+    "notes": "temporary"
+  },
+  {
+    "rule_id": "R15",
+    "topic": "Hints",
+    "rule": "Show only the short hint at A1.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R16",
+    "topic": "Lesson time",
+    "rule": "Log how long each lesson takes, by round.",
+    "notes": "checks whether 10 questions fills 10 minutes"
+  }
+]

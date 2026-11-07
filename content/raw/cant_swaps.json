@@ -3,42 +3,84 @@
     "setting": "cant_listen_now",
     "type": "QT04",
     "replaced_by": "QT03",
-    "notes": "pick what you heard becomes pick the meaning"
+    "rounds": "all",
+    "notes": ""
   },
   {
     "setting": "cant_listen_now",
     "type": "QT07",
-    "replaced_by": "QT06 in round 2; QT08 in rounds 3 to 5",
+    "replaced_by": "QT06",
+    "rounds": 2,
+    "notes": ""
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT07",
+    "replaced_by": "QT08",
+    "rounds": "3-5",
     "notes": ""
   },
   {
     "setting": "cant_listen_now",
     "type": "QT11",
     "replaced_by": "QT12",
+    "rounds": "4-5",
+    "notes": ""
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT09",
+    "replaced_by": "QT09 variant V0903",
+    "rounds": "3-5",
+    "notes": "question written out"
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT10",
+    "replaced_by": "QT03",
+    "rounds": 1,
+    "notes": ""
+  },
+  {
+    "setting": "cant_listen_now",
+    "type": "QT10",
+    "replaced_by": "QT06",
+    "rounds": 2,
     "notes": ""
   },
   {
     "setting": "cant_listen_now",
     "type": "QT10",
     "replaced_by": "QT08",
-    "notes": "needs audio"
+    "rounds": "3-4",
+    "notes": ""
   },
   {
     "setting": "cant_listen_now",
     "type": "QT13",
     "replaced_by": "QT12",
-    "notes": "needs audio"
+    "rounds": "4-5",
+    "notes": ""
   },
   {
     "setting": "cant_speak_now",
     "type": "QT10",
-    "replaced_by": "QT08",
+    "replaced_by": "QT04",
+    "rounds": 1,
+    "notes": "learner can still listen"
+  },
+  {
+    "setting": "cant_speak_now",
+    "type": "QT10",
+    "replaced_by": "QT07",
+    "rounds": "2-4",
     "notes": ""
   },
   {
     "setting": "cant_speak_now",
     "type": "QT13",
     "replaced_by": "QT12",
+    "rounds": "4-5",
     "notes": ""
   }
 ]

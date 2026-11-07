@@ -64,15 +64,16 @@ tables.accepted_answers = [
   ...generated.filter((g) => live.has(g.sentence_id)).map((g) => ({ ...g, status: 'live' })),
 ]
 
-// cant_swaps: replaced_by is free text in the workbook. Parse it into rules the app can use.
-tables.cant_swaps = raw('cant_swaps').map((c) => ({
-  ...c,
-  rules: String(c.replaced_by).split(';').map((part) => {
-    const m = part.trim().match(/^(QT\d+)(?: in rounds? (\d+)(?: to (\d+))?)?$/)
-    if (!m) { bad.push(`cant_swaps: cannot read "${part.trim()}"`); return null }
-    return { type: m[1], from: m[2] ? Number(m[2]) : 1, to: m[3] ? Number(m[3]) : m[2] ? Number(m[2]) : 5 }
-  }),
-}))
+// cant_swaps: parse the replacement and rounds into rules the app can use.
+tables.cant_swaps = raw('cant_swaps').map((c) => {
+  const [, type, variant] = String(c.replaced_by).match(/^(QT\d+)(?: variant (V\d+))?$/)
+  const r = String(c.rounds)
+  const [from, to] = r === 'all' ? [1, 5] : r.includes('-') ? r.split('-').map(Number) : [Number(r), Number(r)]
+  return { ...c, rule: { type, variant: variant ?? null, from, to } }
+})
+
+// qa_answers: only pairs where both sentences are live.
+tables.qa_answers = raw('qa_answers').filter((q) => live.has(q.question_sentence_id) && live.has(q.answer_sentence_id))
 
 if (bad.length) {
   console.error('Build gate failed, nothing written:\n  ' + bad.join('\n  '))
@@ -97,6 +98,7 @@ mkdirSync(OUT, { recursive: true })
 for (const [name, rows] of Object.entries(tables)) writeFileSync(join(OUT, `${name}.json`), JSON.stringify(rows, null, 2) + '\n')
 if (existsSync(join(ROOT, 'public/content'))) rmSync(join(ROOT, 'public/content'), { recursive: true })
 
+const awaiting = raw('sentences').filter((s) => !isLive(s) && !String(s.status).startsWith('off')).map((s) => s.sentence_id)
 const original = tables.sentences.filter((s) => s.source === 'tamago_original').length
 const fr = tables.accepted_answers.filter((a) => a.direction === 'fr_to_en').length
-console.log(`Shipped: ${tables.sentences.length} sentences (${tables.sentences.length - original} Tatoeba, ${original} Tamago originals), ${tables.words.length} words, ${fr} fr_to_en and ${tables.accepted_answers.length - fr} en_to_fr answers, ${wanted.size} recordings. U01 status: ${tables.units[0].status}.`)
+console.log(`Shipped: ${tables.sentences.length} sentences (${tables.sentences.length - original} Tatoeba, ${original} Tamago originals), ${tables.words.length} words, ${fr} fr_to_en and ${tables.accepted_answers.length - fr} en_to_fr answers, ${tables.qa_answers.length} qa_answers, ${wanted.size} recordings. U01 status: ${tables.units[0].status}.${awaiting.length ? ` Not live, awaiting a ruling: ${awaiting.join(', ')}.` : ''}`)

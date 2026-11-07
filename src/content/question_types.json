@@ -10,7 +10,9 @@
     "needs_image": "no",
     "notes": "",
     "first_round": 1,
-    "last_round": 3
+    "last_round": 2,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT02",
@@ -23,7 +25,9 @@
     "needs_image": "yes",
     "notes": "",
     "first_round": 1,
-    "last_round": 2
+    "last_round": 2,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT03",
@@ -36,7 +40,9 @@
     "needs_image": "no",
     "notes": "",
     "first_round": 1,
-    "last_round": 3
+    "last_round": 3,
+    "skill_when_listen_first": "listening",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT04",
@@ -49,7 +55,9 @@
     "needs_image": "no",
     "notes": "",
     "first_round": 1,
-    "last_round": 3
+    "last_round": 3,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT05",
@@ -62,7 +70,9 @@
     "needs_image": "no",
     "notes": "",
     "first_round": 2,
-    "last_round": 4
+    "last_round": 4,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT06",
@@ -75,7 +85,9 @@
     "needs_image": "no",
     "notes": "",
     "first_round": 2,
-    "last_round": 4
+    "last_round": 5,
+    "skill_when_listen_first": "listening",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT07",
@@ -88,7 +100,9 @@
     "needs_image": "no",
     "notes": "",
     "first_round": 2,
-    "last_round": 4
+    "last_round": 5,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT08",
@@ -101,7 +115,9 @@
     "needs_image": "no",
     "notes": "",
     "first_round": 3,
-    "last_round": 4
+    "last_round": 5,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT09",
@@ -112,22 +128,26 @@
     "input": "chips or keyboard",
     "needs_audio": "yes",
     "needs_image": "no",
-    "notes": "needs pair_id",
+    "notes": "accepts any answer in qa_answers for the question",
     "first_round": 3,
-    "last_round": 5
+    "last_round": 5,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT10",
     "key": "repeat_heard",
     "name": "Repeat what you hear",
     "skill": "speaking",
-    "recognition_or_recall": "recall",
+    "recognition_or_recall": "imitation",
     "input": "microphone",
     "needs_audio": "yes",
     "needs_image": "no",
-    "notes": "never graded",
-    "first_round": 3,
-    "last_round": 5
+    "notes": "never graded; say it aloud",
+    "first_round": 1,
+    "last_round": 4,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT11",
@@ -140,7 +160,9 @@
     "needs_image": "no",
     "notes": "",
     "first_round": 4,
-    "last_round": 5
+    "last_round": 5,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT12",
@@ -153,7 +175,9 @@
     "needs_image": "no",
     "notes": "",
     "first_round": 4,
-    "last_round": 5
+    "last_round": 5,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT13",
@@ -164,9 +188,11 @@
     "input": "microphone",
     "needs_audio": "yes",
     "needs_image": "no",
-    "notes": "never graded",
+    "notes": "never graded; V1301 imitation, V1302 from memory",
     "first_round": 4,
-    "last_round": 5
+    "last_round": 5,
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT20",
@@ -179,7 +205,9 @@
     "needs_image": "no",
     "notes": "later; outside the 10-minute block",
     "first_round": "",
-    "last_round": ""
+    "last_round": "",
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   },
   {
     "type_id": "QT21",
@@ -192,6 +220,8 @@
     "needs_image": "no",
     "notes": "Phase 3; through the API",
     "first_round": "",
-    "last_round": ""
+    "last_round": "",
+    "skill_when_listen_first": "",
+    "notes_last_round": "last_round = last round the type can appear, including as a re-ask"
   }
 ]

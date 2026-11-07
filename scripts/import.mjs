@@ -6,7 +6,7 @@ import { createRequire } from 'node:module'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v3.xlsx')
+const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v4.xlsx')
 const OUT = join(ROOT, 'content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)
@@ -114,12 +114,27 @@ for (const [i, f] of (tables.phase1_fallbacks ?? []).entries()) {
   else if (f.round < sub.first_round || f.round > sub.last_round) fail(`${where}: ${f.substitute_type} outside its rounds`)
   if (!tables.round_type_mix.some((m) => m.round === f.round && m.type_id === f.missing_type)) fail(`${where}: ${f.missing_type} is not in round ${f.round}`)
 }
-// cant_swaps: replaced_by is free text ("QT06 in round 2; QT08 in rounds 3 to 5"); its types must exist.
+// cant_swaps: the replacement type (and variant, if named) must exist; rounds reads "all", "2" or "3-5".
 for (const [i, c] of (tables.cant_swaps ?? []).entries()) {
   if (!typeById.has(c.type)) fail(`cant_swaps row ${i + 2}: type "${c.type}" not in question_types`)
-  const types = String(c.replaced_by).match(/QT\d+/g) ?? []
-  if (types.length === 0) fail(`cant_swaps row ${i + 2}: no type in "${c.replaced_by}"`)
-  for (const t of types) if (!typeById.has(t)) fail(`cant_swaps row ${i + 2}: "${t}" not in question_types`)
+  const m = String(c.replaced_by).match(/^(QT\d+)(?: variant (V\d+))?$/)
+  if (!m) { fail(`cant_swaps row ${i + 2}: cannot read "${c.replaced_by}"`); continue }
+  if (!typeById.has(m[1])) fail(`cant_swaps row ${i + 2}: "${m[1]}" not in question_types`)
+  if (m[2] && !ids.variants.has(m[2])) fail(`cant_swaps row ${i + 2}: "${m[2]}" not in variants`)
+  if (!/^(all|\d(-\d)?)$/.test(String(c.rounds))) fail(`cant_swaps row ${i + 2}: cannot read rounds "${c.rounds}"`)
+}
+// qa_answers: both sides are sentences.
+for (const [i, q] of (tables.qa_answers ?? []).entries()) {
+  for (const col of ['question_sentence_id', 'answer_sentence_id']) {
+    if (!ids.sentences.has(q[col])) fail(`qa_answers row ${i + 2}: ${col} "${q[col]}" not in sentences`)
+  }
+}
+// contrast_sets: "un|une; suis|es", every member a word.
+const forms = new Set(tables.words.map((w) => w.form))
+for (const u of tables.units) {
+  for (const set of String(u.contrast_sets ?? '').split(';').map((x) => x.trim()).filter(Boolean)) {
+    for (const form of set.split('|')) if (!forms.has(form)) fail(`units ${u.unit_id}: contrast "${form}" not in words`)
+  }
 }
 
 if (errors.length) {

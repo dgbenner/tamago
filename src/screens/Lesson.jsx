@@ -5,7 +5,7 @@ import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconSpeaker 
 
 const PROMPT = {
   QT01: 'Match the pairs', QT03: 'Pick the meaning', QT04: 'Pick what you heard', QT05: 'Fill in the blank', QT06: 'Translate',
-  QT07: 'Tap what you hear', QT08: 'Translate', QT11: 'Type what you hear', QT12: 'Translate',
+  QT07: 'Tap what you hear', QT08: 'Translate', QT09: 'Answer the question', QT11: 'Type what you hear', QT12: 'Translate',
 }
 const LISTENING = new Set(['QT04', 'QT07', 'QT11'])
 const LISTEN_FIRST = new Set(['QT03', 'QT06'])
@@ -26,13 +26,14 @@ export default function Lesson({ session, content, settings, seenWords, cantList
   const hideFrench = useMemo(() => LISTEN_FIRST.has(q.type) && settings.listen_first === 'on' && !cantListen && newWords.size === 0, [q.qid])
 
   useEffect(() => {
-    if (LISTENING.has(q.type) || hideFrench) play(q.audio)
+    if (LISTENING.has(q.type) || (q.type === 'QT09' && q.variant !== 'V0903') || hideFrench) play(q.audio)
     return stop
   }, [q.qid])
 
   const answer = (r) => {
-    setResult(r)
-    onAnswer(q, r)
+    const full = { ...r, hidden: hideFrench }
+    setResult(full)
+    onAnswer(q, full)
   }
 
   const advance = () => {
@@ -70,13 +71,14 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         <Question key={q.qid} {...props} />
       </div>
 
-      {result && <AnswerBar q={q} result={result} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id)} onContinue={advance} />}
+      {result && <AnswerBar q={q} result={result} cantListen={cantListen} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id)} onContinue={advance} />}
     </main>
   )
 }
 
 function Question({ q, ...rest }) {
-  const C = { QT01: MatchPairs, QT03: PickMeaning, QT04: PickHeard, QT05: FillBlank, QT06: Build, QT07: Build, QT08: Build, QT11: Typed, QT12: Typed }[q.type]
+  const typedOnly = q.variant === 'V0602' || q.variant === 'V0902'
+  const C = typedOnly ? Typed : { QT01: MatchPairs, QT03: PickMeaning, QT04: PickHeard, QT05: FillBlank, QT06: Build, QT07: Build, QT08: Build, QT09: Build, QT11: Typed, QT12: Typed }[q.type]
   return <C q={q} {...rest} />
 }
 
@@ -116,6 +118,23 @@ function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
   )
 }
 
+// First sight: a new word's meaning shows with it. Not a hint, so it isn't logged.
+function FirstSight({ q, newWords, except = null }) {
+  const lines = (q.segments ?? []).filter((seg, i) => i !== except && seg.word_id && newWords.has(seg.word_id) && seg.hint)
+  if (lines.length === 0) return null
+  return <p className="text-sm text-muted">{lines.map((seg) => `${seg.text.toLowerCase()} = ${seg.hint}`).join(', ')}</p>
+}
+
+// A dialogue speaker. The image slot holds a placeholder until the animal characters exist.
+function SpeakerBubble({ children }) {
+  return (
+    <div className="flex items-start gap-3">
+      <img src="/logo.png" alt="" className="h-12 w-12 shrink-0 object-contain" />
+      <div className="rounded-2xl rounded-tl-sm border border-line bg-surface px-4 py-3">{children}</div>
+    </div>
+  )
+}
+
 function ChoiceList({ choices, result, chosen, answer, onPick, lang }) {
   return (
     <div className="flex flex-col gap-2.5">
@@ -133,7 +152,7 @@ function PickMeaning({ q, result, onAnswer, newWords, hideFrench, onHint }) {
     <>
       {hideFrench && !result
         ? <SpeakerButton audio={q.audio} large label="Play the sentence" />
-        : <FrenchText q={q} newWords={newWords} onHint={onHint} />}
+        : <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>}
       <ChoiceList choices={q.choices} result={result} chosen={chosen} answer={q.answer} lang="en"
         onPick={(choice) => { setChosen(choice); onAnswer({ correct: choice === q.answer }) }} />
     </>
@@ -142,6 +161,15 @@ function PickMeaning({ q, result, onAnswer, newWords, hideFrench, onHint }) {
 
 function PickHeard({ q, result, onAnswer }) {
   const [chosen, setChosen] = useState(null)
+  if (q.variant === 'V0404') {
+    return (
+      <>
+        <SpeakerButton audio={q.audio} large label="Play the sentence" />
+        <ChoiceList choices={q.choices} result={result} chosen={chosen} answer={q.answer} lang="en"
+          onPick={(choice) => { setChosen(choice); onAnswer({ correct: choice === q.answer }) }} />
+      </>
+    )
+  }
   return (
     <>
       <SpeakerButton audio={q.audio} large label="Play the sentence" />
@@ -166,6 +194,7 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
   const [meaning, setMeaning] = useState(null)
   const [matched, setMatched] = useState([])
   const [wrong, setWrong] = useState(null)
+  const [revealed, setRevealed] = useState(null)
   const missed = useRef([])
 
   const attempt = (f, m) => {
@@ -178,13 +207,15 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
       setWrong(null)
       if (next.length === q.pairs.length) onAnswer({ correct: missed.current.length === 0, missedWord: missed.current[0] })
     } else {
-      if (!missed.current.includes(pair.word_id)) missed.current.push(pair.word_id)
+      // A wrong tap on a new word isn't a miss.
+      if (!newWords.has(pair.word_id) && !missed.current.includes(pair.word_id)) missed.current.push(pair.word_id)
       setWrong({ f, m })
     }
   }
   const tapForm = (p) => {
     setWrong(null)
     if (!cantListen) play(p.audio)
+    if (newWords.has(p.word_id)) setRevealed(p) // first sight: its meaning shows
     if (meaning) attempt(p.form, meaning); else setForm(p.form)
   }
   const tapMeaning = (m) => { setWrong(null); if (form) attempt(form, m); else setMeaning(m) }
@@ -192,6 +223,7 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
 
   const cell = (selected, done, bad) => `choice text-center ${done ? 'choice-right opacity-60' : bad ? 'choice-wrong' : selected ? 'choice-selected' : ''}`
   return (
+    <>
     <div className="grid grid-cols-2 gap-2.5">
       <div className="flex flex-col gap-2.5">
         {q.pairs.map((p) => (
@@ -210,6 +242,8 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
         ))}
       </div>
     </div>
+    <p className="min-h-6 text-sm text-muted">{revealed ? `${revealed.form} = ${revealed.hint}` : ''}</p>
+    </>
   )
 }
 
@@ -219,13 +253,8 @@ function FillBlank({ q, result, onAnswer, newWords, onHint }) {
   return (
     <>
       <p className="text-muted">{q.english}</p>
-      {q.variant === 'V0502' ? (
-        <div className="flex items-start gap-3">
-          {/* Image slot for dialogue speakers. Placeholder until the animal characters exist. */}
-          <img src="/logo.png" alt="" className="h-12 w-12 shrink-0 object-contain" />
-          <div className="rounded-2xl rounded-tl-sm border border-line bg-surface px-4 py-3">{text}</div>
-        </div>
-      ) : text}
+      {q.variant === 'V0502' ? <SpeakerBubble>{text}</SpeakerBubble> : text}
+      <FirstSight q={q} newWords={newWords} except={q.blankIndex} />
       <div className="flex flex-wrap gap-2">
         {q.choices.map((choice) => {
           const right = choice.toLowerCase() === q.answer
@@ -239,7 +268,14 @@ function FillBlank({ q, result, onAnswer, newWords, onHint }) {
 
 function promptFor(q, { newWords, hideFrench, result, onHint }) {
   if (q.type === 'QT06') {
-    return hideFrench && !result ? <SpeakerButton audio={q.audio} large label="Play the sentence" /> : <FrenchText q={q} newWords={newWords} onHint={onHint} />
+    return hideFrench && !result ? <SpeakerButton audio={q.audio} large label="Play the sentence" /> : <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>
+  }
+  if (q.type === 'QT09') {
+    return (
+      <SpeakerBubble>
+        {q.variant === 'V0903' || result ? <FrenchText q={q} newWords={newWords} onHint={onHint} /> : <SpeakerButton audio={q.audio} label="Play the question" />}
+      </SpeakerBubble>
+    )
   }
   if (q.type === 'QT07') return <SpeakerButton audio={q.audio} large label="Play the sentence" />
   if (q.type === 'QT11') {
@@ -316,12 +352,17 @@ function Typed({ q, content, settings, result, onAnswer, newWords, hideFrench, o
   )
 }
 
-function AnswerBar({ q, result, flagReasons, onFlag, onContinue }) {
+function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const [panel, setPanel] = useState(null)
   const [flagged, setFlagged] = useState(false)
+  const qaAnswer = q.answers?.find((a) => a.french === (result.matched ?? q.shown)) ?? q.answers?.[0]
+  // The French plays when the bar appears, without holding up Continue.
+  useEffect(() => {
+    if (!cantListen && q.audio) play(qaAnswer?.audio ?? q.audio)
+  }, [])
   // What to show: the accepted answer they matched, else the main one, plus the other language for sentences.
   const shown = result.correct && result.matched ? result.matched : q.shown
-  const other = q.sentence_id ? (q.type === 'QT03' || q.type === 'QT06' ? q.french : q.english) : null
+  const other = q.sentence_id ? (qaAnswer ? qaAnswer.english : q.type === 'QT03' || q.type === 'QT06' ? q.french : q.english) : null
   const note = result.typo ? `Check the spelling: ${shown}` : result.accent ? `Mind the accent: ${shown}` : null
   return (
     <section aria-live="polite" className={`fixed inset-x-0 bottom-0 z-20 border-t bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${result.correct ? 'border-right' : 'border-wrong'}`}>

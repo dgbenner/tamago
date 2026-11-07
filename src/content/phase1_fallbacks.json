@@ -3,42 +3,54 @@
     "round": 1,
     "missing_type": "QT02",
     "substitute_type": "QT03",
-    "skill": "reading",
     "notes": "until images are chosen"
+  },
+  {
+    "round": 1,
+    "missing_type": "QT10",
+    "substitute_type": "QT04",
+    "notes": ""
+  },
+  {
+    "round": 2,
+    "missing_type": "QT10",
+    "substitute_type": "QT07",
+    "notes": ""
   },
   {
     "round": 3,
     "missing_type": "QT09",
     "substitute_type": "QT08",
-    "skill": "writing",
-    "notes": ""
+    "notes": "delete when QT09 is built"
   },
   {
     "round": 3,
     "missing_type": "QT10",
+    "substitute_type": "QT07",
+    "notes": "imitation starts from hearing"
+  },
+  {
+    "round": 4,
+    "missing_type": "QT09",
     "substitute_type": "QT08",
-    "skill": "writing",
-    "notes": "speaking stands in as writing, the closest production skill"
+    "notes": "delete when QT09 is built"
   },
   {
     "round": 4,
     "missing_type": "QT13",
     "substitute_type": "QT12",
-    "skill": "writing",
-    "notes": "speaking stands in as writing"
+    "notes": ""
   },
   {
     "round": 5,
     "missing_type": "QT09",
     "substitute_type": "QT12",
-    "skill": "writing",
-    "notes": ""
+    "notes": "delete when QT09 is built"
   },
   {
     "round": 5,
     "missing_type": "QT13",
-    "substitute_type": "QT12",
-    "skill": "writing",
-    "notes": "speaking stands in as writing"
+    "substitute_type": "QT11",
+    "notes": "caps QT12 at 5 of 10"
   }
 ]
