@@ -7,6 +7,7 @@ import Home from './screens/Home.jsx'
 import Lesson from './screens/Lesson.jsx'
 import Settings from './screens/Settings.jsx'
 import About from './screens/About.jsx'
+import Splash from './screens/Splash.jsx'
 
 const UNIT = c.units[0]
 const today = () => new Date().toLocaleDateString('en-CA')
@@ -28,6 +29,7 @@ export default function App() {
   const [pointsToday, setPointsToday] = useState(0)
   const [session, setSession] = useState(null)
   const [ending, setEnding] = useState(null)
+  const [splash, setSplash] = useState(true)
   const seenWords = useRef(new Set())
   const roundSeen = useRef({})
 
@@ -182,6 +184,7 @@ export default function App() {
     setScreen('home')
   }
 
+  const view = () => {
   if (!ready) return null
 
   if (screen === 'lesson') {
@@ -205,5 +208,13 @@ export default function App() {
     <Home unit={UNIT} progress={progress} round={currentRound} lessonsInRound={lessonsInRound(c, currentRound)} points={pointsToday}
       bankSize={bank.length} inProgress={session?.kind === 'lesson' || session?.kind === 'review'}
       onStart={startLesson} onReview={startReview} onSettings={() => setScreen('settings')} />
+  )
+  }
+
+  return (
+    <>
+      {view()}
+      {splash && <Splash onDone={() => setSplash(false)} />}
+    </>
   )
 }

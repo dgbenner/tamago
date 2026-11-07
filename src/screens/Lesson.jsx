@@ -58,14 +58,14 @@ export default function Lesson({ session, content, settings, seenWords, cantList
       <header className="flex items-center gap-3">
         <button onClick={onExit} aria-label="Leave lesson" className="icon-btn -ml-2"><IconClose /></button>
         <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-line" role="progressbar" aria-valuenow={Math.round(barMax.current * 100)} aria-valuemin={0} aria-valuemax={100}>
-          <div className="h-full rounded-full bg-accent" style={{ width: `${barMax.current * 100}%` }} />
+          <div className="h-full rounded-full bg-green" style={{ width: `${barMax.current * 100}%` }} />
         </div>
       </header>
 
       <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
         <div className="flex items-center gap-2">
           <h1 className="text-xl font-semibold">{PROMPT[q.type]}</h1>
-          {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="rounded-full bg-accent px-2 py-0.5 text-xs font-semibold text-accent-ink">{newWords.size > 1 ? 'New words' : 'New word'}</span>}
+          {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="rounded-full bg-orange px-2 py-0.5 text-xs font-semibold text-white">{newWords.size > 1 ? 'New words' : 'New word'}</span>}
         </div>
         <Question key={q.qid} {...props} />
       </div>
@@ -103,7 +103,7 @@ function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
           <span key={i} className="relative">
             <button
               onClick={() => { setOpen(open === i ? null : i); if (open !== i) onHint(seg) }}
-              className={`underline decoration-dotted decoration-2 underline-offset-4 ${newWords.has(seg.word_id) ? 'rounded bg-accent/30 px-0.5' : ''}`}
+              className={`underline decoration-dotted decoration-2 underline-offset-4 ${newWords.has(seg.word_id) ? 'rounded bg-orange/20 px-0.5' : ''}`}
             >{seg.text}</button>
             {open === i && (
               <span role="tooltip" lang="en" className="absolute top-full left-0 z-10 mt-1 whitespace-nowrap rounded-lg border border-line bg-surface px-3 py-1.5 text-base shadow-md">{seg.hint}</span>
@@ -155,7 +155,7 @@ function PickHeard({ q, result, onAnswer }) {
           )
         })}
       </div>
-      {!result && <div className="action-row"><button disabled={!chosen} onClick={() => onAnswer({ correct: chosen === q.answer })} className="btn-primary w-full">Check</button></div>}
+      {!result && <div className="action-row"><button disabled={!chosen} onClick={() => onAnswer({ correct: chosen === q.answer })} className="btn-submit w-full">Check</button></div>}
     </>
   )
 }
@@ -279,7 +279,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
           <button onClick={() => setTyping(!typing)} aria-label={typing ? 'Use word chips' : 'Use the keyboard'} className="icon-btn border border-line">
             {typing ? <IconChips /> : <IconKeyboard />}
           </button>
-          <button disabled={typing ? !text.trim() : picked.length === 0} onClick={() => check(typing ? text : answerText)} className="btn-primary flex-1">Check</button>
+          <button disabled={typing ? !text.trim() : picked.length === 0} onClick={() => check(typing ? text : answerText)} className="btn-submit flex-1">Check</button>
         </div>
       )}
     </>
@@ -309,7 +309,7 @@ function Typed({ q, content, settings, result, onAnswer, newWords, hideFrench, o
     <>
       {promptFor(q, { newWords, hideFrench, result, onHint })}
       <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} onSubmit={check} />
-      {!result && <button disabled={!text.trim()} onClick={check} className="btn-primary">Check</button>}
+      {!result && <button disabled={!text.trim()} onClick={check} className="btn-submit">Check</button>}
     </>
   )
 }

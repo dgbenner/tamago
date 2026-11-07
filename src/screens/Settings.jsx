@@ -9,7 +9,7 @@ function Segmented({ label, help, value, options, onChange }) {
       <div className="flex overflow-hidden rounded-xl border border-line">
         {options.map(([v, text]) => (
           <button key={v} aria-pressed={value === v} onClick={() => onChange(v)}
-            className={`min-h-11 flex-1 px-2 text-sm ${value === v ? 'bg-accent font-semibold text-accent-ink' : 'bg-surface'}`}>{text}</button>
+            className={`min-h-11 flex-1 px-2 text-sm ${value === v ? 'bg-orange font-semibold text-white' : 'bg-surface'}`}>{text}</button>
         ))}
       </div>
     </fieldset>

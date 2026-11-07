@@ -10,6 +10,10 @@
   --line: #e7dfcf;
   --accent: #ffc21a;
   --accent-ink: #1c1a17;
+  --green: #0b7a43;
+  --orange: #d9480f;
+  --logo-green: #0b7a43;
+  --logo-orange: #e8590c;
   --right: #1b7a43;
   --wrong: #b3261e;
 }
@@ -24,6 +28,10 @@
     --line: #38322a;
     --accent: #ffc21a;
     --accent-ink: #1c1a17;
+    --green: #0b7a43;
+    --orange: #d9480f;
+    --logo-green: #22b573;
+    --logo-orange: #ff7a2e;
     --right: #5fd08f;
     --wrong: #ff8a80;
   }
@@ -38,6 +46,10 @@
   --line: #38322a;
   --accent: #ffc21a;
   --accent-ink: #1c1a17;
+  --green: #0b7a43;
+  --orange: #d9480f;
+  --logo-green: #22b573;
+  --logo-orange: #ff7a2e;
   --right: #5fd08f;
   --wrong: #ff8a80;
 }
@@ -50,6 +62,8 @@
   --color-line: var(--line);
   --color-accent: var(--accent);
   --color-accent-ink: var(--accent-ink);
+  --color-green: var(--green);
+  --color-orange: var(--orange);
   --color-right: var(--right);
   --color-wrong: var(--wrong);
 }
@@ -77,6 +91,10 @@ button {
 
 @layer components {
   .btn-primary {
+    @apply min-h-12 rounded-xl bg-green px-4 font-semibold text-white disabled:bg-line disabled:text-muted;
+  }
+  /* The only yellow in the interface: submitting an answer. */
+  .btn-submit {
     @apply min-h-12 rounded-xl bg-accent px-4 font-semibold text-accent-ink disabled:bg-line disabled:text-muted;
   }
   .btn-secondary {
@@ -93,10 +111,10 @@ button {
     @apply min-h-11 rounded-xl border-2 border-line bg-surface px-3.5 text-lg;
   }
   .choice-new {
-    background: color-mix(in srgb, var(--accent) 28%, var(--surface));
+    background: color-mix(in srgb, var(--orange) 18%, var(--surface));
   }
   .choice-selected {
-    @apply border-accent bg-accent font-semibold text-accent-ink;
+    @apply border-orange bg-orange font-semibold text-white;
   }
   .choice-right {
     @apply border-right;
@@ -112,19 +130,38 @@ button {
     @apply sticky bottom-0 mt-auto bg-bg pt-2 pb-[max(0.5rem,env(safe-area-inset-bottom))];
   }
   /* Grows while pressed, then snaps back. */
-  .btn-primary, .btn-secondary, .choice, .chip {
+  .btn-primary, .btn-submit, .btn-secondary, .choice, .chip {
     transition: transform 120ms ease-out;
   }
-  .btn-primary:active:not(:disabled), .btn-secondary:active:not(:disabled), .choice:active:not(:disabled), .chip:active:not(:disabled) {
+  .btn-primary:active:not(:disabled), .btn-submit:active:not(:disabled), .btn-secondary:active:not(:disabled), .choice:active:not(:disabled), .chip:active:not(:disabled) {
     transform: scale(1.05);
     transition-duration: 30ms;
   }
+  /* Opening screen: the wordmark wipes on left to right, holds, then the screen clears. */
+  .splash {
+    @apply fixed inset-0 z-50 flex items-center justify-center bg-bg;
+    animation: splash-out 160ms ease-in 1000ms forwards;
+  }
+  .splash-wipe {
+    animation: splash-wipe 700ms cubic-bezier(0.65, 0, 0.35, 1) both;
+  }
   @media (prefers-reduced-motion: reduce) {
-    .btn-primary, .btn-secondary, .choice, .chip {
+    .splash-wipe {
+      animation: none;
+    }
+    .btn-primary, .btn-submit, .btn-secondary, .choice, .chip {
       transition: none;
     }
-    .btn-primary:active:not(:disabled), .btn-secondary:active:not(:disabled), .choice:active:not(:disabled), .chip:active:not(:disabled) {
+    .btn-primary:active:not(:disabled), .btn-submit:active:not(:disabled), .btn-secondary:active:not(:disabled), .choice:active:not(:disabled), .chip:active:not(:disabled) {
       transform: none;
     }
   }
+}
+
+@keyframes splash-wipe {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 -2% 0 0); }
+}
+@keyframes splash-out {
+  to { opacity: 0; visibility: hidden; }
 }
