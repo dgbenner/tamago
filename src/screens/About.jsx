@@ -1,3 +1,4 @@
+import Logo from './Logo.jsx'
 import { IconBack } from './icons.jsx'
 
 const A = ({ href, children }) => <a href={href} target="_blank" rel="noreferrer" className="underline underline-offset-2">{children}</a>
@@ -9,10 +10,11 @@ export default function About({ content, onBack }) {
   const originals = content.sentences.filter((s) => s.source === 'tamago_original').length
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
-      <header className="flex items-center gap-2">
-        <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
-        <h1 className="text-xl font-semibold">About the content</h1>
+      <header className="relative flex justify-center">
+        <button onClick={onBack} aria-label="Back" className="icon-btn absolute top-0 left-0 -ml-2"><IconBack /></button>
+        <Logo />
       </header>
+      <h1 className="text-xl font-semibold">About the content</h1>
 
       <section className="flex flex-col gap-2">
         <h2 className="font-semibold">Sentences</h2>

@@ -35,6 +35,13 @@ Choices the specs left open, easy to change:
 - If the device has no French voice, the app treats it as Can't listen now.
 - Match pairs (V0101) plays each French word on tap, at Dan's request. The workbook still lists audio on tap as V0102, testing.
 
+## Look
+
+- Yellow is only the Check button (and the sushi artwork). Green and orange fills are for things you can act on: green for primary actions and progress, orange for selected items.
+- Indicators and tags stay muted, like a Bootstrap secondary badge: never bold, never a colour fill. The new-word tag just says "New"; a new word gets a small orange dot to its right.
+- Pages outside a lesson have the logo centred at the top.
+- The opening screen is a deliberate exception to the feature list's "no loading screens" (Dan, 2026-11-07). It stays out of lessons. The green may be adjusted later.
+
 ## Answer checking
 
 In addition to question-types.md section 7:

@@ -65,9 +65,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
       <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
         <div className="flex items-center gap-2">
           <h1 className="text-xl font-semibold">{PROMPT[q.type]}</h1>
-          {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && (q.type === 'QT01'
-            ? <span className="inline-flex items-center gap-1.5 text-sm text-muted"><span className="new-dot" aria-hidden="true" />{newWords.size > 1 ? 'New words' : 'New word'}</span>
-            : <span className="rounded-full bg-orange px-2 py-0.5 text-xs font-semibold text-white">{newWords.size > 1 ? 'New words' : 'New word'}</span>)}
+          {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="tag"><span className="new-dot" aria-hidden="true" />New</span>}
         </div>
         <Question key={q.qid} {...props} />
       </div>
@@ -105,8 +103,9 @@ function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
           <span key={i} className="relative">
             <button
               onClick={() => { setOpen(open === i ? null : i); if (open !== i) onHint(seg) }}
-              className={`underline decoration-dotted decoration-2 underline-offset-4 ${newWords.has(seg.word_id) ? 'rounded bg-orange/20 px-0.5' : ''}`}
+              className="underline decoration-dotted decoration-2 underline-offset-4"
             >{seg.text}</button>
+            {newWords.has(seg.word_id) && <span className="new-dot ml-1 align-middle" aria-hidden="true" />}
             {open === i && (
               <span role="tooltip" lang="en" className="absolute top-full left-0 z-10 mt-1 whitespace-nowrap rounded-lg border border-line bg-surface px-3 py-1.5 text-base shadow-md">{seg.hint}</span>
             )}

@@ -1,4 +1,5 @@
 import { play } from '../lib/audio.js'
+import Logo from './Logo.jsx'
 import { IconBack, IconSpeaker } from './icons.jsx'
 
 function Segmented({ label, help, value, options, onChange }) {
@@ -27,10 +28,11 @@ const pauseUntil = (v) => (v === 'normal' ? null : v === 'always' ? 'always' : D
 export default function Settings({ settings, onChange, onBack, onAbout }) {
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
-      <header className="flex items-center gap-2">
-        <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
-        <h1 className="text-xl font-semibold">Settings</h1>
+      <header className="relative flex justify-center">
+        <button onClick={onBack} aria-label="Back" className="icon-btn absolute top-0 left-0 -ml-2"><IconBack /></button>
+        <Logo />
       </header>
+      <h1 className="text-xl font-semibold">Settings</h1>
       <Segmented label="Answer checking" help="Lenient accepts a one-letter typo and a missing accent." value={settings.answer_strictness}
         options={[['lenient', 'Lenient'], ['strict', 'Strict']]} onChange={(v) => onChange({ answer_strictness: v })} />
       <Segmented label="Typed answers" value={settings.typed_input} options={[['chips', 'Word chips'], ['keyboard', 'Keyboard']]} onChange={(v) => onChange({ typed_input: v })} />

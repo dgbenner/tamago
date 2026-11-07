@@ -1,15 +1,13 @@
+import Logo from './Logo.jsx'
 import { IconGear } from './icons.jsx'
 
 export default function Home({ unit, progress, round, lessonsInRound, points, bankSize, inProgress, onStart, onReview, onSettings }) {
   const complete = progress.round_reached >= 5
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(1rem,env(safe-area-inset-top))] pb-[max(1.5rem,env(safe-area-inset-bottom))]">
-      <header className="flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <img src="/logo.png" alt="" className="h-9 w-auto" />
-          <span className="text-lg font-semibold">Tamago</span>
-        </div>
-        <button onClick={onSettings} aria-label="Settings" className="icon-btn"><IconGear /></button>
+      <header className="relative flex justify-center">
+        <Logo />
+        <button onClick={onSettings} aria-label="Settings" className="icon-btn absolute top-0 right-0 -mr-2"><IconGear /></button>
       </header>
 
       <section className="rounded-2xl border border-line bg-surface p-5">
