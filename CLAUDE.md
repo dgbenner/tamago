@@ -46,6 +46,10 @@ Choices the specs left open, easy to change:
 - Pages outside a lesson have the logo centred at the top.
 - The opening screen is a deliberate exception to the feature list's "no loading screens" (Dan, 2026-11-07). It stays out of lessons. The green may be adjusted later.
 
+## Testing
+
+In the local dev build only (`import.meta.env.DEV`), the right arrow marks a question correct and moves on; with an answer on screen it acts as Continue. Attempts made this way carry `test_skip: true`. Real progress on that browser moves with it.
+
 ## Answer checking
 
 In addition to question-types.md section 7:

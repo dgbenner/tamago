@@ -43,8 +43,25 @@ export default function Lesson({ session, content, settings, seenWords, cantList
     else onAdvance({ ...session, index: nextIndex })
   }
 
+  // Testing only, and only in the local dev build: the right arrow marks the question correct and moves on.
+  // With an answer on screen it acts as Continue. In a field with text it stays a cursor key.
+  useEffect(() => {
+    if (!import.meta.env.DEV) return undefined
+    const onKey = (e) => {
+      if (e.key !== 'ArrowRight' || e.repeat || e.metaKey || e.altKey || e.ctrlKey || e.shiftKey) return
+      if (e.target instanceof HTMLInputElement && e.target.value) return
+      e.preventDefault()
+      if (result) advance()
+      else answer({ correct: true, testSkip: true })
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [result, session])
+
   useEffect(() => {
     if (!result) return undefined
+    // A test skip goes straight on, once the session holds its answer.
+    if (result.testSkip) { advance(); return undefined }
     const onKey = (e) => { if (e.key === 'Enter') { e.preventDefault(); advance() } }
     window.addEventListener('keydown', onKey)
     return () => window.removeEventListener('keydown', onKey)
@@ -71,7 +88,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         <Question key={q.qid} {...props} />
       </div>
 
-      {result && <AnswerBar q={q} result={result} cantListen={cantListen} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id)} onContinue={advance} />}
+      {result && !result.testSkip && <AnswerBar q={q} result={result} cantListen={cantListen} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id)} onContinue={advance} />}
     </main>
   )
 }
@@ -363,15 +380,19 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   // What to show: the accepted answer they matched, else the main one, plus the other language for sentences.
   const shown = result.correct && result.matched ? result.matched : q.shown
   const other = q.sentence_id ? (qaAnswer ? qaAnswer.english : q.type === 'QT03' || q.type === 'QT06' ? q.french : q.english) : null
+  // Match pairs always ends with every pair matched, so its bar shows no incorrect state and no list.
+  // A wrong tap still counts: the score, the re-ask and the review bank all see it.
+  const isPairs = q.type === 'QT01'
+  const good = result.correct || isPairs
   const note = result.typo ? `Check the spelling: ${shown}` : result.accent ? `Mind the accent: ${shown}` : null
   return (
-    <section aria-live="polite" className={`fixed inset-x-0 bottom-0 z-20 border-t bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${result.correct ? 'border-right' : 'border-wrong'}`}>
+    <section aria-live="polite" className={`fixed inset-x-0 bottom-0 z-20 border-t bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${good ? 'border-right' : 'border-wrong'}`}>
       <div className="mx-auto flex max-w-md flex-col gap-3 px-4 pt-4">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
-            <p className={`font-semibold ${result.correct ? 'text-right-ink' : 'text-wrong'}`}>{result.correct ? 'Correct' : 'Incorrect'}</p>
+            <p className={`font-semibold ${good ? 'text-right-ink' : 'text-wrong'}`}>{isPairs ? 'All matched' : result.correct ? 'Correct' : 'Incorrect'}</p>
             {note && <p className="mt-0.5">{note}</p>}
-            {!note && (!result.correct || q.type !== 'QT01') && <p className="mt-0.5 break-words">{shown}</p>}
+            {!note && !isPairs && <p className="mt-0.5 break-words">{shown}</p>}
             {other && <p className="break-words text-muted">{other}</p>}
           </div>
           <div className="flex shrink-0 text-muted">
