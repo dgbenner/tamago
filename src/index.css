@@ -1,0 +1,60 @@
+@import 'tailwindcss';
+
+/* Light and dark tokens. data-theme comes from the theme setting; with none set, the system decides. */
+:root {
+  color-scheme: light;
+  --bg: #fffbf2;
+  --surface: #ffffff;
+  --ink: #1c1a17;
+  --muted: #6b6459;
+  --line: #e7dfcf;
+  --accent: #ffc21a;
+  --accent-ink: #1c1a17;
+  --right: #1b7a43;
+  --wrong: #b3261e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --bg: #12100d;
+    --surface: #1e1b16;
+    --ink: #f6f1e6;
+    --muted: #a89f8f;
+    --line: #38322a;
+    --accent: #ffc21a;
+    --accent-ink: #1c1a17;
+    --right: #5fd08f;
+    --wrong: #ff8a80;
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #12100d;
+  --surface: #1e1b16;
+  --ink: #f6f1e6;
+  --muted: #a89f8f;
+  --line: #38322a;
+  --accent: #ffc21a;
+  --accent-ink: #1c1a17;
+  --right: #5fd08f;
+  --wrong: #ff8a80;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-right: var(--right);
+  --color-wrong: var(--wrong);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+}

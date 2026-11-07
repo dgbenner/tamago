@@ -1,0 +1,98 @@
+[
+  {
+    "answer_id": "A0001",
+    "sentence_id": "S0006",
+    "answer": "I'm a woman.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "740215"
+  },
+  {
+    "answer_id": "A0002",
+    "sentence_id": "S0007",
+    "answer": "I'm a man.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "127479"
+  },
+  {
+    "answer_id": "A0003",
+    "sentence_id": "S0013",
+    "answer": "It is a man.",
+    "status": "flagged",
+    "source": "claude_draft",
+    "source_id": ""
+  },
+  {
+    "answer_id": "A0004",
+    "sentence_id": "S0013",
+    "answer": "It's a man.",
+    "status": "flagged",
+    "source": "claude_draft",
+    "source_id": ""
+  },
+  {
+    "answer_id": "A0005",
+    "sentence_id": "S0013",
+    "answer": "He's a man.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3127513"
+  },
+  {
+    "answer_id": "A0006",
+    "sentence_id": "S0014",
+    "answer": "It is a woman.",
+    "status": "flagged",
+    "source": "claude_draft",
+    "source_id": ""
+  },
+  {
+    "answer_id": "A0007",
+    "sentence_id": "S0014",
+    "answer": "She's a woman.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3127508"
+  },
+  {
+    "answer_id": "A0008",
+    "sentence_id": "S0001",
+    "answer": "Hi.",
+    "status": "flagged",
+    "source": "claude_draft",
+    "source_id": ""
+  },
+  {
+    "answer_id": "A0009",
+    "sentence_id": "S0001",
+    "answer": "Good morning.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "373345"
+  },
+  {
+    "answer_id": "A0010",
+    "sentence_id": "S0001",
+    "answer": "Good day.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "373345"
+  },
+  {
+    "answer_id": "A0011",
+    "sentence_id": "S0002",
+    "answer": "Thanks.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "374826"
+  },
+  {
+    "answer_id": "A0012",
+    "sentence_id": "S0003",
+    "answer": "Bye.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "13436"
+  }
+]

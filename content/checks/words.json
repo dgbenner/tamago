@@ -1,0 +1,277 @@
+[
+  {
+    "word_id": "W001",
+    "form": "bonjour",
+    "lemma": "bonjour",
+    "part_of_speech": "Interjection",
+    "gender": "",
+    "gloss": "good day; good afternoon",
+    "gloss_full": "good day; good afternoon",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/bonjour#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Noun: greetings; hello (general salutation)"
+    ]
+  },
+  {
+    "word_id": "W002",
+    "form": "merci",
+    "lemma": "merci",
+    "part_of_speech": "Interjection",
+    "gender": "",
+    "gloss": "thank you",
+    "gloss_full": "thank you",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/merci#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Noun: mercy",
+      "Noun: thanks, an expression of gratitude, the word merci"
+    ]
+  },
+  {
+    "word_id": "W003",
+    "form": "au revoir",
+    "lemma": "au revoir",
+    "part_of_speech": "Interjection",
+    "gender": "",
+    "gloss": "goodbye",
+    "gloss_full": "goodbye",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/au_revoir#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": []
+  },
+  {
+    "word_id": "W004",
+    "form": "oui",
+    "lemma": "oui",
+    "part_of_speech": "Adverb",
+    "gender": "",
+    "gloss": "yes",
+    "gloss_full": "yes",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/oui#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Interjection: yes"
+    ]
+  },
+  {
+    "word_id": "W005",
+    "form": "non",
+    "lemma": "non",
+    "part_of_speech": "Adverb",
+    "gender": "",
+    "gloss": "no",
+    "gloss_full": "no",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/non#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Conjunction: not",
+      "Noun: a no, a negative response",
+      "Interjection: no!"
+    ]
+  },
+  {
+    "word_id": "W006",
+    "form": "je",
+    "lemma": "je",
+    "part_of_speech": "Pronoun",
+    "gender": "",
+    "gloss": "I",
+    "gloss_full": "I",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/je#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": []
+  },
+  {
+    "word_id": "W007",
+    "form": "tu",
+    "lemma": "tu",
+    "part_of_speech": "Pronoun",
+    "gender": "",
+    "gloss": "you",
+    "gloss_full": "you (singular)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/tu#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Participle: past participle of taire",
+      "Particle: question marker"
+    ]
+  },
+  {
+    "word_id": "W008",
+    "form": "suis",
+    "lemma": "être",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "first-person singular present indicative of être",
+    "gloss_full": "first-person singular present indicative of être",
+    "lemma_gloss": "to be",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/suis#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Verb: first/second-person singular present indicative of suivre"
+    ]
+  },
+  {
+    "word_id": "W009",
+    "form": "es",
+    "lemma": "être",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "second-person singular present indicative of être",
+    "gloss_full": "second-person singular present indicative of être",
+    "lemma_gloss": "to be",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/es#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": []
+  },
+  {
+    "word_id": "W010",
+    "form": "c'est",
+    "lemma": "c'est",
+    "part_of_speech": "Contraction",
+    "gender": "",
+    "gloss": "it is",
+    "gloss_full": "it is (used to define the preceding word)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/c'est#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": []
+  },
+  {
+    "word_id": "W011",
+    "form": "un",
+    "lemma": "un",
+    "part_of_speech": "Article",
+    "gender": "m",
+    "gloss": "an, a",
+    "gloss_full": "an, a",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/un#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Numeral: one",
+      "Pronoun: one, someone",
+      "Noun: one (the number or figure)"
+    ]
+  },
+  {
+    "word_id": "W012",
+    "form": "une",
+    "lemma": "un",
+    "part_of_speech": "Article",
+    "gender": "f",
+    "gloss": "a / an",
+    "gloss_full": "feminine singular of un (“a / an”), the feminine indefinite article",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/une#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Numeral: feminine singular of un (“one”)",
+      "Noun: front page"
+    ]
+  },
+  {
+    "word_id": "W013",
+    "form": "homme",
+    "lemma": "homme",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "man",
+    "gloss_full": "man (adult male human)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/homme#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": []
+  },
+  {
+    "word_id": "W014",
+    "form": "femme",
+    "lemma": "femme",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "woman",
+    "gloss_full": "woman",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/femme#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": []
+  },
+  {
+    "word_id": "W015",
+    "form": "garçon",
+    "lemma": "garçon",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "boy",
+    "gloss_full": "boy",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/gar%C3%A7on#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": []
+  },
+  {
+    "word_id": "W016",
+    "form": "fille",
+    "lemma": "fille",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "girl",
+    "gloss_full": "girl",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/fille#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": []
+  },
+  {
+    "word_id": "W017",
+    "form": "enfant",
+    "lemma": "enfant",
+    "part_of_speech": "Noun",
+    "gender": "m/f",
+    "gloss": "child",
+    "gloss_full": "child (someone who is not yet an adult)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/enfant#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": []
+  },
+  {
+    "word_id": "W018",
+    "form": "et",
+    "lemma": "et",
+    "part_of_speech": "Conjunction",
+    "gender": "",
+    "gloss": "and",
+    "gloss_full": "and",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/et#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": []
+  }
+]

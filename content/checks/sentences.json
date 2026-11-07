@@ -1,0 +1,1053 @@
+[
+  {
+    "sentence_id": "S0001",
+    "unit_id": "U01",
+    "draft_french": "Bonjour.",
+    "draft_english": "Hello.",
+    "french": "Bonjour.",
+    "english": "Hello.",
+    "source": "tatoeba",
+    "source_id": "3557547",
+    "source_owner": "fleur74",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "3557547",
+      "source_owner": "fleur74",
+      "native_owner": true,
+      "ok_tag": true,
+      "french": "Bonjour.",
+      "english": [
+        "Good afternoon.",
+        "Good afternoon!",
+        "Hello.",
+        "Good morning.",
+        "Good day."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-Ben (Mathsou)-bonjour.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/LL-Q150_%28fra%29-Ben_%28Mathsou%29-bonjour.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "recordings_found": 13
+    },
+    "audio_source": "lingua_libre"
+  },
+  {
+    "sentence_id": "S0002",
+    "unit_id": "U01",
+    "draft_french": "Merci.",
+    "draft_english": "Thank you.",
+    "french": "Merci.",
+    "english": "Thank you.",
+    "source": "tatoeba",
+    "source_id": "2302907",
+    "source_owner": "Joelle",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "2302907",
+      "source_owner": "Joelle",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Merci.",
+      "english": [
+        "Thank you!",
+        "Thank you.",
+        "Thanks."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-LoquaxFR-merci.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/LL-Q150_%28fra%29-LoquaxFR-merci.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 6
+    },
+    "audio_source": "lingua_libre"
+  },
+  {
+    "sentence_id": "S0003",
+    "unit_id": "U01",
+    "draft_french": "Au revoir.",
+    "draft_english": "Goodbye.",
+    "french": "Au revoir.",
+    "english": "Goodbye.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_trust_signal",
+    "match": {
+      "source_id": "5512681",
+      "source_owner": "LdjuherTaqvaylit",
+      "native_owner": false,
+      "ok_tag": false,
+      "french": "Au revoir.",
+      "english": [
+        "Good-bye.",
+        "Goodbye.",
+        "Farewell.",
+        "Bye for now."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-Helenou66-au revoir.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/LL-Q150_%28fra%29-Helenou66-au_revoir.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "recordings_found": 4
+    },
+    "audio_source": "lingua_libre"
+  },
+  {
+    "sentence_id": "S0004",
+    "unit_id": "U01",
+    "draft_french": "Oui.",
+    "draft_english": "Yes.",
+    "french": "Oui.",
+    "english": "Yes.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_trust_signal",
+    "match": {
+      "source_id": "477136",
+      "source_owner": "Shishir",
+      "native_owner": false,
+      "ok_tag": false,
+      "french": "Oui.",
+      "english": [
+        "Yes.",
+        "Yes, she will."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "7801768",
+        "source_owner": "theachaean",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Oui. Merci.",
+        "english": [
+          "Yes. Thanks."
+        ]
+      }
+    ],
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-GrandCelinien-oui.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/LL-Q150_%28fra%29-GrandCelinien-oui.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 9
+    },
+    "audio_source": "lingua_libre"
+  },
+  {
+    "sentence_id": "S0005",
+    "unit_id": "U01",
+    "draft_french": "Non.",
+    "draft_english": "No.",
+    "french": "Non.",
+    "english": "No.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_trust_signal",
+    "match": {
+      "source_id": "427288",
+      "source_owner": "appzer0",
+      "native_owner": false,
+      "ok_tag": false,
+      "french": "Non.",
+      "english": [
+        "No.",
+        "Nope."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "15044",
+        "source_owner": "nimfeo",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Non, non et non !",
+        "english": [
+          "No, no, no!",
+          "No, no, and furthermore, no!"
+        ]
+      },
+      {
+        "source_id": "3647402",
+        "source_owner": "sacredceltic",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Non merci.",
+        "english": [
+          "Thanks, but no thanks."
+        ]
+      }
+    ],
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-Sartus85-non.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/LL-Q150_%28fra%29-Sartus85-non.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 3
+    },
+    "audio_source": "lingua_libre"
+  },
+  {
+    "sentence_id": "S0006",
+    "unit_id": "U01",
+    "draft_french": "Je suis une femme.",
+    "draft_english": "I am a woman.",
+    "french": "Je suis une femme.",
+    "english": "I am a woman.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_trust_signal",
+    "match": {
+      "source_id": "740215",
+      "source_owner": "Pharamp",
+      "native_owner": false,
+      "ok_tag": false,
+      "french": "Je suis une femme.",
+      "english": [
+        "I am a woman.",
+        "I'm a woman."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "1229183",
+        "source_owner": "Salutlolo",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es une femme.",
+        "english": [
+          "You are a woman."
+        ]
+      }
+    ],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0007",
+    "unit_id": "U01",
+    "draft_french": "Je suis un homme.",
+    "draft_english": "I am a man.",
+    "french": "Je suis un homme.",
+    "english": "I am a man.",
+    "source": "tatoeba",
+    "source_id": "127479",
+    "source_owner": "sacredceltic",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "127479",
+      "source_owner": "sacredceltic",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Je suis un homme.",
+      "english": [
+        "I am a man.",
+        "I'm a man."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0008",
+    "unit_id": "U01",
+    "draft_french": "Je suis une fille.",
+    "draft_english": "I am a girl.",
+    "french": "Je suis une fille.",
+    "english": "I am a girl.",
+    "source": "tatoeba",
+    "source_id": "3432438",
+    "source_owner": "sacredceltic",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "3432438",
+      "source_owner": "sacredceltic",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Je suis une fille.",
+      "english": [
+        "I am a girl.",
+        "I'm a girl."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0009",
+    "unit_id": "U01",
+    "draft_french": "Je suis un garçon.",
+    "draft_english": "I am a boy.",
+    "french": "Je suis un garçon.",
+    "english": "I am a boy.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_trust_signal",
+    "match": {
+      "source_id": "6311",
+      "source_owner": "Pharamp",
+      "native_owner": false,
+      "ok_tag": false,
+      "french": "Je suis un garçon.",
+      "english": [
+        "I am a boy."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "4472231",
+        "source_owner": "Petrus",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "C'est un garçon.",
+        "english": [
+          "This is a boy.",
+          "He's a boy."
+        ]
+      }
+    ],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0010",
+    "unit_id": "U01",
+    "draft_french": "Je suis un enfant.",
+    "draft_english": "I am a child.",
+    "french": "Je suis un enfant.",
+    "english": "I am a child.",
+    "source": "tatoeba",
+    "source_id": "4473984",
+    "source_owner": "Petrus",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "4473984",
+      "source_owner": "Petrus",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Je suis un enfant.",
+      "english": [
+        "I am a child.",
+        "I'm a child."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0011",
+    "unit_id": "U01",
+    "draft_french": "Tu es une fille.",
+    "draft_english": "You are a girl.",
+    "french": "Tu es une fille.",
+    "english": "You are a girl.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "1229183",
+        "source_owner": "Salutlolo",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es une femme.",
+        "english": [
+          "You are a woman."
+        ]
+      },
+      {
+        "source_id": "7763128",
+        "source_owner": "sacredceltic",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es une enfant.",
+        "english": [
+          "You're a child."
+        ]
+      },
+      {
+        "source_id": "6813325",
+        "source_owner": "Micsmithel",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es un homme.",
+        "english": [
+          "You're a man."
+        ]
+      }
+    ],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0012",
+    "unit_id": "U01",
+    "draft_french": "Tu es un garçon.",
+    "draft_english": "You are a boy.",
+    "french": "Tu es un garçon.",
+    "english": "You are a boy.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_trust_signal",
+    "match": {
+      "source_id": "12732872",
+      "source_owner": "menaud",
+      "native_owner": false,
+      "ok_tag": false,
+      "french": "Tu es un garçon.",
+      "english": [
+        "You're a boy."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "6813325",
+        "source_owner": "Micsmithel",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es un homme.",
+        "english": [
+          "You're a man."
+        ]
+      },
+      {
+        "source_id": "4472231",
+        "source_owner": "Petrus",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "C'est un garçon.",
+        "english": [
+          "This is a boy.",
+          "He's a boy."
+        ]
+      },
+      {
+        "source_id": "1229183",
+        "source_owner": "Salutlolo",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es une femme.",
+        "english": [
+          "You are a woman."
+        ]
+      }
+    ],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0013",
+    "unit_id": "U01",
+    "draft_french": "C'est un homme.",
+    "draft_english": "He is a man.",
+    "french": "C'est un homme.",
+    "english": "He is a man.",
+    "source": "tatoeba",
+    "source_id": "3127513",
+    "source_owner": "PERCE_NEIGE",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "3127513",
+      "source_owner": "PERCE_NEIGE",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "C'est un homme.",
+      "english": [
+        "He is a man.",
+        "This is a man.",
+        "He's a man."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0014",
+    "unit_id": "U01",
+    "draft_french": "C'est une femme.",
+    "draft_english": "She is a woman.",
+    "french": "C'est une femme.",
+    "english": "She is a woman.",
+    "source": "tatoeba",
+    "source_id": "3127508",
+    "source_owner": "PERCE_NEIGE",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "3127508",
+      "source_owner": "PERCE_NEIGE",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "C'est une femme.",
+      "english": [
+        "She is a woman.",
+        "She's a woman.",
+        "This is a woman."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0015",
+    "unit_id": "U01",
+    "draft_french": "C'est un enfant.",
+    "draft_english": "It is a child.",
+    "french": "C'est un enfant.",
+    "english": "It is a child.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "english_not_linked",
+    "match": {
+      "source_id": "13413102",
+      "source_owner": "LdjuherTaqvaylit",
+      "native_owner": false,
+      "ok_tag": false,
+      "french": "C'est un enfant.",
+      "english": []
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "4472231",
+        "source_owner": "Petrus",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "C'est un garçon.",
+        "english": [
+          "This is a boy.",
+          "He's a boy."
+        ]
+      }
+    ],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0016",
+    "unit_id": "U01",
+    "draft_french": "Un homme et une femme.",
+    "draft_english": "A man and a woman.",
+    "french": "Un homme et une femme.",
+    "english": "A man and a woman.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0017",
+    "unit_id": "U01",
+    "draft_french": "Un garçon et une fille.",
+    "draft_english": "A boy and a girl.",
+    "french": "Un garçon et une fille.",
+    "english": "A boy and a girl.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "4472231",
+        "source_owner": "Petrus",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "C'est un garçon.",
+        "english": [
+          "This is a boy.",
+          "He's a boy."
+        ]
+      }
+    ],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0018",
+    "unit_id": "U01",
+    "draft_french": "Bonjour, je suis Paul.",
+    "draft_english": "Hello, I am Paul.",
+    "french": "Bonjour, je suis Paul.",
+    "english": "Hello, I am Paul.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0019",
+    "unit_id": "U01",
+    "draft_french": "Bonjour, je suis Marie.",
+    "draft_english": "Hello, I am Marie.",
+    "french": "Bonjour, je suis Marie.",
+    "english": "Hello, I am Marie.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0020",
+    "unit_id": "U01",
+    "draft_french": "Merci, au revoir.",
+    "draft_english": "Thank you, goodbye.",
+    "french": "Merci, au revoir.",
+    "english": "Thank you, goodbye.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0021",
+    "unit_id": "U01",
+    "draft_french": "Oui, je suis une femme.",
+    "draft_english": "Yes, I am a woman.",
+    "french": "Oui, je suis une femme.",
+    "english": "Yes, I am a woman.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0022",
+    "unit_id": "U01",
+    "draft_french": "Non, je suis un homme.",
+    "draft_english": "No, I am a man.",
+    "french": "Non, je suis un homme.",
+    "english": "No, I am a man.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0023",
+    "unit_id": "U01",
+    "draft_french": "Tu es un garçon ?",
+    "draft_english": "Are you a boy?",
+    "french": "Tu es un garçon ?",
+    "english": "Are you a boy?",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [
+      {
+        "source_id": "12732872",
+        "source_owner": "menaud",
+        "native_owner": false,
+        "ok_tag": false,
+        "french": "Tu es un garçon.",
+        "english": [
+          "You're a boy."
+        ]
+      }
+    ],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "6813325",
+        "source_owner": "Micsmithel",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es un homme.",
+        "english": [
+          "You're a man."
+        ]
+      },
+      {
+        "source_id": "4472231",
+        "source_owner": "Petrus",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "C'est un garçon.",
+        "english": [
+          "This is a boy.",
+          "He's a boy."
+        ]
+      },
+      {
+        "source_id": "1229183",
+        "source_owner": "Salutlolo",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es une femme.",
+        "english": [
+          "You are a woman."
+        ]
+      }
+    ],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0024",
+    "unit_id": "U01",
+    "draft_french": "Non, je suis une fille.",
+    "draft_english": "No, I am a girl.",
+    "french": "Non, je suis une fille.",
+    "english": "No, I am a girl.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0025",
+    "unit_id": "U01",
+    "draft_french": "Tu es Paul ?",
+    "draft_english": "Are you Paul?",
+    "french": "Tu es Paul ?",
+    "english": "Are you Paul?",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "1229183",
+        "source_owner": "Salutlolo",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es une femme.",
+        "english": [
+          "You are a woman."
+        ]
+      },
+      {
+        "source_id": "6813325",
+        "source_owner": "Micsmithel",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es un homme.",
+        "english": [
+          "You're a man."
+        ]
+      },
+      {
+        "source_id": "7763128",
+        "source_owner": "sacredceltic",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es une enfant.",
+        "english": [
+          "You're a child."
+        ]
+      }
+    ],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0026",
+    "unit_id": "U01",
+    "draft_french": "Oui, je suis Paul.",
+    "draft_english": "Yes, I am Paul.",
+    "french": "Oui, je suis Paul.",
+    "english": "Yes, I am Paul.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0027",
+    "unit_id": "U01",
+    "draft_french": "C'est une fille ?",
+    "draft_english": "Is it a girl?",
+    "french": "C'est une fille ?",
+    "english": "Is it a girl?",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [
+      {
+        "source_id": "2507111",
+        "source_owner": "Aiji",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "C'est une fille.",
+        "english": [
+          "This is a girl."
+        ]
+      },
+      {
+        "source_id": "10508213",
+        "source_owner": "pkill",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "C’est une fille.",
+        "english": []
+      }
+    ],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0028",
+    "unit_id": "U01",
+    "draft_french": "Non, c'est un garçon.",
+    "draft_english": "No, it is a boy.",
+    "french": "Non, c'est un garçon.",
+    "english": "No, it is a boy.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "4472231",
+        "source_owner": "Petrus",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "C'est un garçon.",
+        "english": [
+          "This is a boy.",
+          "He's a boy."
+        ]
+      }
+    ],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0029",
+    "unit_id": "U01",
+    "draft_french": "Tu es un enfant ?",
+    "draft_english": "Are you a child?",
+    "french": "Tu es un enfant ?",
+    "english": "Are you a child?",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [
+      {
+        "source_id": "7763129",
+        "source_owner": "sacredceltic",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es un enfant.",
+        "english": [
+          "You're a child."
+        ]
+      }
+    ],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [
+      {
+        "source_id": "6813325",
+        "source_owner": "Micsmithel",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es un homme.",
+        "english": [
+          "You're a man."
+        ]
+      },
+      {
+        "source_id": "7763128",
+        "source_owner": "sacredceltic",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es une enfant.",
+        "english": [
+          "You're a child."
+        ]
+      },
+      {
+        "source_id": "1229183",
+        "source_owner": "Salutlolo",
+        "native_owner": true,
+        "ok_tag": false,
+        "french": "Tu es une femme.",
+        "english": [
+          "You are a woman."
+        ]
+      }
+    ],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S0030",
+    "unit_id": "U01",
+    "draft_french": "Non, je suis une femme.",
+    "draft_english": "No, I am a woman.",
+    "french": "Non, je suis une femme.",
+    "english": "No, I am a woman.",
+    "source": "claude_draft",
+    "source_id": "",
+    "source_owner": "",
+    "status": "flagged",
+    "flag_reason": "no_match",
+    "match": null,
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "candidates": [],
+    "lingua_libre": null,
+    "audio_source": "tts"
+  }
+]

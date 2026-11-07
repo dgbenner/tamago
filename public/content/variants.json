@@ -1,0 +1,140 @@
+[
+  {
+    "variant_id": "V0101",
+    "type_id": "QT01",
+    "description": "5 pairs on one screen",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0102",
+    "type_id": "QT01",
+    "description": "4 pairs, audio plays on tap",
+    "status": "testing"
+  },
+  {
+    "variant_id": "V0201",
+    "type_id": "QT02",
+    "description": "French word at top, pick the image",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0202",
+    "type_id": "QT02",
+    "description": "English word at top, four images labeled in French",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0301",
+    "type_id": "QT03",
+    "description": "French sentence, 3 English choices",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0302",
+    "type_id": "QT03",
+    "description": "French sentence with audio, 4 English choices",
+    "status": "testing"
+  },
+  {
+    "variant_id": "V0401",
+    "type_id": "QT04",
+    "description": "3 speaker buttons, no text",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0402",
+    "type_id": "QT04",
+    "description": "4 speaker buttons, no text",
+    "status": "testing"
+  },
+  {
+    "variant_id": "V0403",
+    "type_id": "QT04",
+    "description": "Text appears after the second play",
+    "status": "testing"
+  },
+  {
+    "variant_id": "V0501",
+    "type_id": "QT05",
+    "description": "Plain sentence, whole-word chips",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0502",
+    "type_id": "QT05",
+    "description": "Blank inside a speaker's dialogue bubble",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0503",
+    "type_id": "QT05",
+    "description": "Chip is part of a word",
+    "status": "testing"
+  },
+  {
+    "variant_id": "V0601",
+    "type_id": "QT06",
+    "description": "Chips with 2 distractors",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0701",
+    "type_id": "QT07",
+    "description": "Chips include distractors",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0702",
+    "type_id": "QT07",
+    "description": "Only the needed chips, random order",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0801",
+    "type_id": "QT08",
+    "description": "Chips with 2 distractors",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0802",
+    "type_id": "QT08",
+    "description": "Chips with 4 distractors",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0901",
+    "type_id": "QT09",
+    "description": "Speaker asks with audio, answer with chips",
+    "status": "live"
+  },
+  {
+    "variant_id": "V0902",
+    "type_id": "QT09",
+    "description": "Speaker asks with audio, answer typed",
+    "status": "live"
+  },
+  {
+    "variant_id": "V1001",
+    "type_id": "QT10",
+    "description": "Text behind a reveal button",
+    "status": "live"
+  },
+  {
+    "variant_id": "V1101",
+    "type_id": "QT11",
+    "description": "Normal speed, slow button",
+    "status": "live"
+  },
+  {
+    "variant_id": "V1201",
+    "type_id": "QT12",
+    "description": "Keyboard, no chips",
+    "status": "live"
+  },
+  {
+    "variant_id": "V1301",
+    "type_id": "QT13",
+    "description": "Native recording, then the learner's, side by side",
+    "status": "live"
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "_about": "Dan's calls on flagged sentences and answers. Each sentence entry repeats the French it was made on, so a decision goes stale if the workbook text changes. Actions: confirm (accept the Tatoeba match shown), replace (use tatoeba_id, optional english), keep (Dan approves the draft with no Tatoeba source). Answers go under accepted_answers: {A0003: {action: keep, answer: text}}.",
+  "sentences": {},
+  "accepted_answers": {}
+}
