@@ -87,6 +87,13 @@ if (existsSync(DRAFTS)) {
   for (const q of drafts.qa_answers ?? []) if (!qaKeys.has(q.question_sentence_id + '>' + q.answer_sentence_id)) tables.qa_answers.push(q)
 }
 
+// Unit icons (content/unit-icons.json, from scripts/assign-icons.mjs) fill the units' icon_group and icon_file columns.
+{
+  const ICONS = join(ROOT, 'content/unit-icons.json')
+  const icons = existsSync(ICONS) ? JSON.parse(readFileSync(ICONS, 'utf8')) : {}
+  for (const u of tables.units) if (icons[u.unit_id] && !u.icon_file) Object.assign(u, { icon_group: icons[u.unit_id].group, icon_file: icons[u.unit_id].file })
+}
+
 // Answers learners flagged as "should be accepted" and Dan approved on his device (Flag review, Phase 4), folded in by
 // scripts/import-flags.mjs. Skipped once the workbook holds them.
 {

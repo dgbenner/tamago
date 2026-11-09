@@ -13,7 +13,9 @@
     "is_topic_pick": "no",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": ""
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "glossy-tuna-nigiri-on-dark-gradient-2.webp"
   },
   {
     "unit_id": "U02",
@@ -29,7 +31,9 @@
     "is_topic_pick": "no",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": ""
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "saba.webp"
   },
   {
     "unit_id": "U03",
@@ -45,7 +49,9 @@
     "is_topic_pick": "no",
     "status": "live",
     "borrowed_sentence_ids": "S0011;S0012;S0032;S0035;S0036",
-    "topic_id": ""
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "glossy-salmon-nigiri-sushi-4.webp"
   },
   {
     "unit_id": "U04",
@@ -61,7 +67,9 @@
     "is_topic_pick": "no",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": ""
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "hotate.webp"
   },
   {
     "unit_id": "U05",
@@ -77,13 +85,15 @@
     "is_topic_pick": "no",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": ""
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "amaebi.webp"
   },
   {
     "unit_id": "U100",
     "lang_id": "fr",
     "cefr": "A1",
-    "order": 6,
+    "order": 50,
     "title": "Your topic",
     "topic": "Choose one of seven topics",
     "grammar_point": "The grammar of Units 1 to 5, on a topic you choose",
@@ -93,7 +103,9 @@
     "is_topic_pick": "node",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": ""
+    "topic_id": "",
+    "icon_group": "",
+    "icon_file": ""
   },
   {
     "unit_id": "U101",
@@ -109,7 +121,9 @@
     "is_topic_pick": "yes",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": "T06"
+    "topic_id": "T06",
+    "icon_group": "",
+    "icon_file": ""
   },
   {
     "unit_id": "U102",
@@ -125,7 +139,9 @@
     "is_topic_pick": "yes",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": "T29"
+    "topic_id": "T29",
+    "icon_group": "",
+    "icon_file": ""
   },
   {
     "unit_id": "U103",
@@ -141,7 +157,9 @@
     "is_topic_pick": "yes",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": "T30"
+    "topic_id": "T30",
+    "icon_group": "",
+    "icon_file": ""
   },
   {
     "unit_id": "U104",
@@ -157,7 +175,9 @@
     "is_topic_pick": "yes",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": "T17"
+    "topic_id": "T17",
+    "icon_group": "",
+    "icon_file": ""
   },
   {
     "unit_id": "U105",
@@ -173,7 +193,9 @@
     "is_topic_pick": "yes",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": "T09"
+    "topic_id": "T09",
+    "icon_group": "",
+    "icon_file": ""
   },
   {
     "unit_id": "U106",
@@ -189,7 +211,9 @@
     "is_topic_pick": "yes",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": "T25"
+    "topic_id": "T25",
+    "icon_group": "",
+    "icon_file": ""
   },
   {
     "unit_id": "U107",
@@ -205,6 +229,8 @@
     "is_topic_pick": "yes",
     "status": "live",
     "borrowed_sentence_ids": "",
-    "topic_id": "T15"
+    "topic_id": "T15",
+    "icon_group": "",
+    "icon_file": ""
   }
 ]

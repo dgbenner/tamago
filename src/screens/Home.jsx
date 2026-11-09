@@ -31,12 +31,13 @@ function StrengthBars({ bars }) {
 }
 
 function Node({ node, onPick }) {
-  const { unit, open, progress, current, lesson, lessons, strength } = node
+  const { unit, open, progress, current, lesson, lessons, strength, topic } = node
+  const icon = unit.icon_file ? `/icons/${unit.icon_group}/${unit.icon_file}` : null
   return (
     <button onClick={() => onPick(node)} className={`flex w-36 flex-col items-center gap-1.5 ${open ? '' : 'opacity-40'}`}>
-      <span className={`relative flex h-16 w-16 items-center justify-center rounded-full border-4 text-xl font-semibold ${!open ? 'border-line bg-line text-muted' : current ? 'border-orange text-orange' : progress.round_reached >= 5 ? 'border-green bg-green text-white' : 'border-line'}`}>
-        {/* Icon slot: the unit number until unit icons exist. */}
-        {unit.order}
+      <span className={`relative flex h-16 w-16 items-center justify-center rounded-full border-4 text-xl font-semibold ${!open ? 'border-line bg-line text-muted' : current ? 'border-orange text-orange' : progress.round_reached >= 5 ? (icon ? 'border-green' : 'border-green bg-green text-white') : 'border-line'}`}>
+        {/* The unit's sushi icon (by difficulty); the number where a unit has none. The topic node waits for side art. */}
+        {icon ? <img src={icon} alt="" className="size-12 object-contain" /> : topic ? null : unit.order}
         {open && strength?.items > 0 && <StrengthBars bars={strength.bars} />}
       </span>
       <span className="text-sm font-semibold leading-tight">{unit.title}</span>
@@ -72,7 +73,7 @@ function UnitCard({ node, lockedBy, inProgress, onStart, onClose, onGrammarNote,
       <section className="mx-auto w-full max-w-md rounded-t-2xl border-t-2 border-line bg-surface p-5 pb-[max(1.25rem,env(safe-area-inset-bottom))]" onClick={(e) => e.stopPropagation()}>
         <div className="flex items-start justify-between gap-3">
           <div>
-            <p className="text-sm text-muted">Unit {unit.order}{topic && !topic.choosing ? ' · Your topic' : ''}</p>
+            <p className="text-sm text-muted">{topic ? 'Your topic' : `Unit ${unit.order}`}</p>
             <h2 className="text-xl font-semibold">{listing ? 'Choose a topic' : unit.title}</h2>
           </div>
           <button onClick={onClose} aria-label="Close" className="icon-btn -mr-2 -mt-2"><IconClose /></button>

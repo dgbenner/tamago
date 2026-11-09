@@ -1,45 +1,48 @@
 # Tamago check-in
 
-Updated November 9, 2026, end of Phase 5. Every phase in build-phases.md is now built as far as it goes without your accounts and keys. Details are in the build log.
+Updated November 9, 2026, afternoon. Working on new A1 units after Unit 5, plus unit icons. Phases 2a to 5 are built; the details are in the build log.
 
 ## Done since last check-in
 
-- **Phase 3 (live):** Words with Match and Flashcards; Verbs; review checkpoints; Your topic (Unit 6) with seven topics; the variant test bank.
-- **Phase 4 (live), everything that needs no account:**
-  - **Native-speaker check** (Settings, For Dan): the checker goes through the 154 sentences on any phone. Each one is marked Natural or Needs a fix, with a corrected version, a note and a recording, then saved as one file for you. I fold the file in: checked sentences are marked, fixes are applied, and recordings play in lessons, converted so iPhones play them too.
-  - **Flag review** (Settings, For Dan): "My answer should be accepted" flags now keep what was typed. Accept counts it on this device at once. Save for Claude, and after my import it counts for everyone at the next deploy.
-  - **Profile and backup** (Settings): a screen name, and a backup file that carries all progress to another phone or browser.
-  - **Claude explains mistakes**: built, and off until there's a key. After a wrong typed answer a quiet "Why?" appears once the explanation has arrived; nothing waits for it.
-  - **Discussions and Forum**: shown as needs setup, with the agreed sections.
-- **Phase 5 (live): Make your own**, a Make button on home.
-  - **Works now:**
-    - a lesson on your weakest skill;
-    - a test on this week's sentences;
-    - flashcards from French you paste in (meanings from Wiktionary; it names words Tamago doesn't have yet).
-  - **Waits on the key:** new practice sentences and short listening exchanges (QT20) written by Claude from the words you've met. Any line using another word is dropped, and none of it touches your scores or Review.
-  - Conversation (QT21) is a needs-setup card for now.
-- Workbooks v13 and v14 (no content change; changelog rows).
+- **Netlify deploys are paused.** netlify.toml now has `ignore = "exit 0"`, so Netlify skips the build on every push. Commits still go to GitHub. The live site stays as it was at the end of Phase 5; I checked that it didn't change after the push.
+- **Unit icons from your sushi art.** All 35 files are copied into _source/icons and sorted into nigiri (26), maki (6) and temaki (3). App-sized copies (192 px) are in public/icons.
+  - The A1 tree is planned at 13 units: Units 1 to 5 get nigiri, 6 to 9 maki, 10 to 13 temaki. Each pick is random, made once per unit, then kept (content/unit-icons.json).
+  - The tree shows the icon in place of the unit number. Locally only, for now.
+- **New units:** in progress, listed below as they land.
 
 ## Decisions made
 
-- **Recordings:** the checker ticks a box to share their recordings under CC BY-SA 4.0, credited on About. Without the tick they aren't used.
-- **Fixes to Unit 1 sentences** (which come from the workbook, not drafts) are held back from the app until I've applied them, so nothing half-fixed ships.
-- **Explanations:** the cheaper model the feature list asks for (Claude Haiku 5.5). It may only use the sentence, the accepted answers and the Wiktionary hints, so no definitions from memory. There's a cap of 30 a day per device until sign-in allows a real per-learner limit.
-- **Claude-written practice** uses the main model rather than the cheap one, because the feature list names the cheaper model only for answer checking.
-- **Next for me:** new A1 units after Unit 5, in Duolingo's old order (plurals, adjectives, possessives, questions, numbers, colours, time, places), each with its drafted sentences listed here.
-- **Phase 3:** topics stay out of placement, checkpoints and scores until chosen. I cut 14 pulled topic sentences that were idioms, misleading or odd. The first topic lesson crashed; a new-word rule fixes it (only a unit's own words count as new).
+- **Gunkan in maki:** Ikura, Tobiko and Uni are gunkan ("battleship") sushi. I've put them in maki, since gunkan-maki is traditionally counted as a maki. Say if you'd rather they go elsewhere.
+- **A repeated temaki:** there are three temaki pictures for four units, so Units 11 and 13 share one. More temaki art would remove the repeat.
+- **No side icons yet:** Your topic, the review checkpoints and Make keep no icon until side art arrives. Your topic no longer shows a number, so it doesn't clash with the new Unit 6. Its order moved from 6 to 50 in the workbook.
 
 ## Waiting for Dan
 
-1. **Native-speaker check.** Arrange the person. On their phone they open https://tamago-590.netlify.app, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
-2. **Claude explanations and Claude-written practice (costs money, needs your API key).** One key turns on both.
+1. **Icons:**
+   - Unclear group: Ikura.png, Tobiko.png and Uni.png (gunkan; filed under maki for now).
+   - Side art: none came in this batch (miso soup, ice cream, yakitori and so on). Send it and the off-path nodes will get side icons.
+   - Where the art came from:
+     - Seven files carry ChatGPT download marks (blob:https://chatgpt.com/…): Glossy Tuna Nigiri on Dark Gradient-2, Glossy Unagi Temaki Hand Roll-3, Glossy Yellowtail Nigiri Sushi-4, Glossy Ōtoro Nigiri Sushi-3, Hamachi Nigiri Sushi Emoji-5, Maguro Tuna Nigiri Emoji-1, and Temaki Hand Roll with Fresh Fillings-2.
+     - The other "Glossy …" files match that set in size (1536 by 1024) and style, but carry no origin mark.
+     - The 21 square files (Aji, Amaebi … Uni, 512 by 512) carry no origin either. Please confirm where they came from.
+   - Commercial emoji check: none of the files is a copy of an Apple, Google, Samsung or Microsoft emoji. The "Emoji" in some file names reads as a generation prompt, not a vendor set. The OpenAI terms assign generated images to you. If the 512 set came from a stock or emoji pack, tell me which, and I'll check its licence.
+   - No icon has a face, a character or text.
+2. **Moving hosting to Cloudflare Pages (when you're ready).** Before you start, I'll move the two Claude functions to Cloudflare's format and add the header and redirect files; that needs no account. Then:
+   1. Sign in at https://dash.cloudflare.com (you already use Cloudflare for Transmission and Meridian News).
+   2. Workers & Pages, Create, Pages, Connect to Git. Authorise GitHub for the repo dgbenner/tamago.
+   3. Build settings: build command `npm run build`, output directory `dist`. Add the environment variable NODE_VERSION = 22.
+   4. Save and deploy. The site gets an address like https://tamago-xxx.pages.dev.
+   5. When you want the Claude features: under Settings, Variables and secrets, add TAMAGO_ANTHROPIC_API_KEY as a secret.
+   6. Then tell me the address and I'll check it end to end. After that, Netlify can be unlinked (Site configuration, Build and deploy, Link repository), or the site deleted. That's your call.
+3. **Native-speaker check.** Arrange the person. On their phone they open https://tamago-590.netlify.app, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
+4. **Claude explanations and Claude-written practice (costs money, needs your API key).** One key turns on both.
    1. In the Anthropic Console (https://console.anthropic.com), create an API key.
    2. In Netlify (https://app.netlify.com), open the site tamago-590, then Site configuration, then Environment variables. Add TAMAGO_ANTHROPIC_API_KEY with the key as its value. Use a key made for Tamago: your Netlify account already has an ANTHROPIC_API_KEY (from another project, I assume), and Tamago deliberately ignores it. For about two minutes after the first Phase 4 deploy the function would have used that shared key; it was only reachable after a wrong typed answer on the live site, and the fix went live right after.
    3. Under Deploys, choose Trigger deploy. Settings then shows explanations as on.
    - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output, and one explanation is a few hundred tokens. A thousand explanations cost well under a dollar. Claude-written practice uses the main model (Opus 5.5, $4 per million input tokens and $20 per million output), so a set of sentences or a listening exchange costs a few cents.
-3. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
-4. **Testers (your call).** When you say go, I'll turn Testing shortcuts off by default and give you the link to send. Until there's a server, testers send their flags by saving the flags file.
-5. **Earlier items:**
+5. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
+6. **Testers (your call).** When you say go, I'll turn Testing shortcuts off by default and give you the link to send. Until there's a server, testers send their flags by saving the flags file.
+7. **Earlier items:**
    - Try the topics and Words on your phone.
    - Hosting: the Netlify badge can't be hidden; moving to Cloudflare Pages needs your account.
 
