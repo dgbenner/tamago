@@ -9,8 +9,8 @@
   {
     "variant_id": "V0102",
     "type_id": "QT01",
-    "description": "4 pairs, audio plays on tap",
-    "status": "testing",
+    "description": "4 pairs",
+    "status": "live",
     "use_in_rounds": ""
   },
   {
@@ -46,7 +46,7 @@
     "type_id": "QT04",
     "description": "3 speaker buttons, no text",
     "status": "live",
-    "use_in_rounds": ""
+    "use_in_rounds": 3
   },
   {
     "variant_id": "V0402",
@@ -67,7 +67,7 @@
     "type_id": "QT04",
     "description": "Audio plays, pick the English meaning from 3 choices",
     "status": "live",
-    "use_in_rounds": "1-2 (main QT04 variant)"
+    "use_in_rounds": "1-2"
   },
   {
     "variant_id": "V0501",
@@ -95,7 +95,7 @@
     "type_id": "QT06",
     "description": "Chips with 2 distractors",
     "status": "live",
-    "use_in_rounds": ""
+    "use_in_rounds": "2-4"
   },
   {
     "variant_id": "V0602",
@@ -109,13 +109,13 @@
     "type_id": "QT07",
     "description": "Chips include distractors",
     "status": "live",
-    "use_in_rounds": ""
+    "use_in_rounds": "2-5"
   },
   {
     "variant_id": "V0702",
     "type_id": "QT07",
     "description": "Only the needed chips, random order",
-    "status": "live",
+    "status": "testing",
     "use_in_rounds": ""
   },
   {
@@ -123,41 +123,41 @@
     "type_id": "QT08",
     "description": "Chips with 2 distractors",
     "status": "live",
-    "use_in_rounds": ""
+    "use_in_rounds": 3
   },
   {
     "variant_id": "V0802",
     "type_id": "QT08",
     "description": "Chips with 4 distractors",
     "status": "live",
-    "use_in_rounds": ""
+    "use_in_rounds": "4-5"
   },
   {
     "variant_id": "V0901",
     "type_id": "QT09",
     "description": "Speaker asks with audio, answer with chips",
     "status": "live",
-    "use_in_rounds": ""
+    "use_in_rounds": "3-4"
   },
   {
     "variant_id": "V0902",
     "type_id": "QT09",
     "description": "Speaker asks with audio, answer typed",
     "status": "live",
-    "use_in_rounds": ""
+    "use_in_rounds": 5
   },
   {
     "variant_id": "V0903",
     "type_id": "QT09",
     "description": "Question written out instead of spoken (Can't listen now)",
     "status": "live",
-    "use_in_rounds": "3-5"
+    "use_in_rounds": "cant_listen_now only"
   },
   {
     "variant_id": "V1001",
     "type_id": "QT10",
     "description": "Text behind a reveal button",
-    "status": "live",
+    "status": "testing",
     "use_in_rounds": ""
   },
   {
@@ -186,7 +186,7 @@
     "type_id": "QT13",
     "description": "Imitation: native recording, then the learner's, side by side",
     "status": "live",
-    "use_in_rounds": ""
+    "use_in_rounds": 4
   },
   {
     "variant_id": "V1302",

@@ -66,15 +66,22 @@ function swapRule(c, setting, type, round) {
   return c.cant_swaps.find((x) => x.setting === setting && x.type === type && round >= x.rule.from && round <= x.rule.to)?.rule ?? null
 }
 
-export function effectiveMix(c, round, { cantListen = false, cantSpeak = false } = {}) {
-  const out = new Map()
+// One entry per question slot, with the workbook type it came from (swapped_from in runtime_schema).
+export function mixSlots(c, round, { cantListen = false, cantSpeak = false } = {}) {
+  const out = []
   for (const m of c.round_type_mix.filter((x) => x.round === round)) {
     let type = m.type_id
     if (!BUILT_TYPES.has(type)) type = c.phase1_fallbacks.find((f) => f.round === round && f.missing_type === type)?.substitute_type ?? type
     if (cantSpeak) type = swapRule(c, 'cant_speak_now', type, round)?.type ?? type
     if (cantListen) type = swapRule(c, 'cant_listen_now', type, round)?.type ?? type
-    out.set(type, (out.get(type) ?? 0) + m.questions_per_10)
+    for (let i = 0; i < m.questions_per_10; i++) out.push({ type, from: m.type_id })
   }
+  return out
+}
+
+export function effectiveMix(c, round, settings = {}) {
+  const out = new Map()
+  for (const s of mixSlots(c, round, settings)) out.set(s.type, (out.get(s.type) ?? 0) + 1)
   return [...out].map(([type, n]) => ({ type, n }))
 }
 
@@ -89,15 +96,21 @@ function chipDistractorCount(type, round) {
   return { 1: 1, 2: 1, 3: 2, 4: 4, 5: 4 }[round] // rounds tab: 1 for QT07 in round 2, 2 in round 3, 4 after
 }
 
-const TYPED_ROUND_5 = { QT06: 'V0602', QT09: 'V0902' }
-
+// R17: a variant that lists rounds in use_in_rounds is the only one of its type in those rounds; variants with it
+// empty rotate in rounds no listed variant covers. "cant_listen_now only" is used under that setting, and only then.
+const coversRound = (v, round) => {
+  const m = String(v.use_in_rounds ?? '').match(/^(\d)(?:-(\d))?$/)
+  return Boolean(m) && round >= Number(m[1]) && round <= Number(m[2] ?? m[1])
+}
 function variantFor(c, type, round, rng, last, { cantListen = false } = {}) {
-  if (type === 'QT04') return round <= 2 ? 'V0404' : 'V0401'
-  if (type === 'QT06') return round >= 5 ? 'V0602' : 'V0601'
-  if (type === 'QT07') return 'V0701'
-  if (type === 'QT08') return round >= 4 ? 'V0802' : 'V0801'
-  if (type === 'QT09') return round >= 5 ? TYPED_ROUND_5.QT09 : cantListen ? 'V0903' : 'V0901'
-  const options = c.variants.filter((v) => v.type_id === type && v.status === 'live')
+  const live = c.variants.filter((v) => v.type_id === type && v.status === 'live')
+  const forSetting = live.filter((v) => / only$/.test(String(v.use_in_rounds)))
+  const setting = cantListen && forSetting.find((v) => String(v.use_in_rounds).startsWith('cant_listen_now'))
+  if (setting) return setting.variant_id
+  const normal = live.filter((v) => !forSetting.includes(v))
+  const listed = normal.filter((v) => coversRound(v, round))
+  let options = listed.length ? listed : normal.filter((v) => !v.use_in_rounds)
+  if (!options.length) options = normal // a re-ask a round past every listed range
   const fresh = options.filter((v) => v.variant_id !== last?.[type])
   return pick(fresh.length ? fresh : options, rng).variant_id
 }
@@ -212,7 +225,7 @@ export function makeQuestion(c, type, s, round, rng, last, { cantListen = false,
   }
   if (type === 'QT06') {
     const accepted = [s.english, ...answersFor(c, s, 'fr_to_en')]
-    if (variant === 'V0602') return { ...base, lang: 'en', accepted, shown: s.english }
+    if (variant === 'V0602') return { ...base, lang: 'en', typed: true, accepted, shown: s.english }
     return { ...base, lang: 'en', chips: shuffle([...englishTokens(s), ...englishChipDistractors(c, s, chipDistractorCount(type, round), rng)], rng), accepted, shown: s.english }
   }
   if (type === 'QT07' || type === 'QT08') {
@@ -222,13 +235,16 @@ export function makeQuestion(c, type, s, round, rng, last, { cantListen = false,
   }
   if (type === 'QT09') {
     // R04: any listed answer counts. The first row is the one shown, and the one the chips can build.
+    // The fullest answer is the one shown and the one the chips build.
     const answers = c.qaByQuestion.get(s.sentence_id).map((id) => c.sentenceById.get(id))
+      .sort((a, b) => wordIds(c, b).length - wordIds(c, a).length)
     const primary = answers[0]
     const q = {
       ...base, lang: 'fr', accepted: answers.map((a) => a.french), shown: primary.french,
       answers: answers.map((a) => ({ french: a.french, english: a.english, audio: audioOf(a) })),
     }
-    if (variant === 'V0902') return q
+    // Round 5 is keyboard only, including the written-out question under Can't listen now.
+    if (variant === 'V0902' || round >= 5) return { ...q, typed: true }
     const rows = c.swBySentence.get(primary.sentence_id) ?? []
     return { ...q, chips: shuffle([...rows.map(chipCase), ...frenchChipDistractors(c, rows, chipDistractorCount(type, round), rng)], rng) }
   }
@@ -279,11 +295,13 @@ function pickWordSet(c, scope, seenWords, used, rng, first = null) {
 
 // Round-robin across types so the same type doesn't run together. The mix keeps its order, so match pairs
 // comes first and new words meet the learner there.
-function interleave(mix) {
-  const left = mix.map((m) => ({ ...m }))
+function interleave(slots) {
+  const groups = new Map()
+  for (const s of slots) groups.set(s.type, [...(groups.get(s.type) ?? []), s])
+  const left = [...groups.values()]
   const out = []
-  while (left.some((m) => m.n > 0)) {
-    for (const m of left) if (m.n > 0) { out.push(m.type); m.n-- }
+  while (left.some((g) => g.length)) {
+    for (const g of left) if (g.length) out.push(g.shift())
   }
   return out
 }
@@ -295,7 +313,8 @@ function constraint(type) {
 // retry = the failed lesson's questions: same items, new types where the round allows it.
 // carry = a missed item from the last lesson, which takes one slot at its original type (R07).
 export function buildLesson(c, { round, seen = {}, known = new Set(), settings = {}, rng = Math.random, retry = null, carry = null, unit_id = 'U01' }) {
-  const slots = interleave(effectiveMix(c, round, settings))
+  const slotList = interleave(mixSlots(c, round, settings))
+  const slots = slotList.map((x) => x.type)
   const scope = lessonScope(c, known, round)
   const opts = { cantListen: settings.cantListen, pool: scope.sentences }
   const last = {}
@@ -345,6 +364,10 @@ export function buildLesson(c, { round, seen = {}, known = new Set(), settings =
       if (at >= 0) assigned[at] = makeQuestion(c, carry.type, s, round, rng, last, opts)
     }
   }
+
+  slotList.forEach((slot, i) => {
+    if (assigned[i].type === slot.type && slot.from !== slot.type) assigned[i].swapped_from = slot.from
+  })
 
   return {
     id: `L${Math.floor(rng() * 1e12)}`, kind: 'lesson', unit_id, round, started_at: Date.now(),
@@ -404,7 +427,9 @@ export function reaskFor(c, q, { rng = Math.random, cantListen = false, missedWo
   else s = c.sentenceById.get(q.sentence_id)
   if (!s) return null
   const options = q.type === 'QT01' ? ['QT03', 'QT06'] : EASIER[q.type] ?? ['QT03']
-  const usable = (t) => inRounds(c, t, q.round) && !(cantListen && AUDIO_TYPES.has(t)) && supports(c, t, s, q.round)
+  // R06: the same round's types or one round easier.
+  const allowed = new Set([q.round, q.round - 1].filter((r) => r >= 1).flatMap((r) => effectiveMix(c, r, { cantListen }).map((m) => m.type)))
+  const usable = (t) => allowed.has(t) && inRounds(c, t, q.round) && !(cantListen && AUDIO_TYPES.has(t)) && supports(c, t, s, q.round)
   // With Can't listen on in round 1 no other type is open, so the same type returns with new choices.
   const type = options.find(usable) ?? (q.type !== 'QT01' && usable(q.type) ? q.type : null)
   if (!type) return null

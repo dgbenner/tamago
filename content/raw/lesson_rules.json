@@ -2,7 +2,7 @@
   {
     "rule_id": "R01",
     "topic": "New words",
-    "rule": "No more than 4 new words per lesson. A sentence is used only when its other words have been met. Use the 4-pair QT01 variant when fewer than 5 words are available.",
+    "rule": "No more than 4 new words per lesson. A sentence is used only when its other words have been met. In round 1, a sentence may appear twice in one lesson if it's in two different types. Use the 4-pair QT01 variant (V0102) when fewer than 5 words are available.",
     "notes": "starting number, tune with use"
   },
   {
@@ -32,7 +32,7 @@
   {
     "rule_id": "R06",
     "topic": "Re-asks",
-    "rule": "A miss returns at the end of the lesson as a different type. A wrong re-ask shows the answer and the lesson moves on; the item stays in the bank.",
+    "rule": "A miss returns at the end of the lesson as a different type: the same round's type or one round easier (a missed QT12 returns as QT08). A wrong re-ask shows the answer and the lesson moves on; the item stays in the bank.",
     "notes": ""
   },
   {
@@ -80,7 +80,7 @@
   {
     "rule_id": "R14",
     "topic": "Points",
-    "rule": "1 point per first-attempt correct answer, shown on home only.",
+    "rule": "1 point per first-attempt correct answer or completed speaking question, shown on home only.",
     "notes": "temporary"
   },
   {
@@ -94,5 +94,23 @@
     "topic": "Lesson time",
     "rule": "Log how long each lesson takes, by round.",
     "notes": "checks whether 10 questions fills 10 minutes"
+  },
+  {
+    "rule_id": "R17",
+    "topic": "Variants",
+    "rule": "A variant with rounds in use_in_rounds is the only variant of its type used in those rounds. Variants with use_in_rounds empty rotate in any round no listed variant covers. A variant marked for a setting is used only under that setting.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R18",
+    "topic": "Feedback lines",
+    "rule": "The answer bar shows a rotating line from feedback_phrases for the context, not a fixed Correct or Incorrect. No line repeats back to back. French lines appear at french_feedback_rate and carry the dotted underline for their meaning.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R19",
+    "topic": "Match pairs",
+    "rule": "A correct pair animates out together. No green outline. A wrong pair shakes and stays.",
+    "notes": ""
   }
 ]

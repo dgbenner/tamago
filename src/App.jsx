@@ -113,7 +113,7 @@ export default function App() {
     const first = !q.reask
     put('attempts', {
       attempt_id: uid(), lesson_id: session.id, sentence_id: q.sentence_id ?? q.word_ids.join(';'), type_id: q.type, variant_id: q.variant,
-      round: q.round, skill: result.hidden ? 'listening' : q.skill, first_attempt: first, correct: result.correct, typo_accepted: Boolean(result.typo), test_skip: Boolean(result.testSkip), answered_at: new Date().toISOString(),
+      round: q.round, skill: result.hidden ? 'listening' : q.skill, first_attempt: first, correct: result.correct, typo_accepted: Boolean(result.typo), graded: q.skill !== 'speaking', swapped_from: q.swapped_from ?? null, test_skip: Boolean(result.testSkip), answered_at: new Date().toISOString(),
     })
     for (const seg of q.segments ?? []) if (seg.word_id) seenWords.current.add(seg.word_id)
     for (const id of q.word_ids ?? []) seenWords.current.add(id)
@@ -165,7 +165,7 @@ export default function App() {
     }
     const mark = passMark(s.graded ?? s.size)
     const passed = s.firstCorrect >= mark
-    put('lessons', { lesson_id: s.id, unit_id: s.unit_id, round: s.round, score: s.firstCorrect, graded: s.graded ?? s.size, passed, duration_ms: s.started_at ? Date.now() - s.started_at : null, finished_at: new Date().toISOString() })
+    put('lessons', { lesson_id: s.id, unit_id: s.unit_id, round: s.round, score: s.firstCorrect, graded_count: s.graded ?? s.size, passed, duration_ms: s.started_at ? Date.now() - s.started_at : null, finished_at: new Date().toISOString() })
     if (!passed) {
       setEnding({ line: `${s.firstCorrect} of ${s.size}. Pass is ${mark}, so this lesson repeats in new question types.`, retry: s })
       return

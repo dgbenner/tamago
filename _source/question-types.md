@@ -1,7 +1,7 @@
 # Tamago: question types and question logic
 
-Draft 2, November 7, 2026. Updated from the learning review. How a sentence becomes a question, which question
-types exist, and how they phase in across the five rounds of a skill node. Table IDs match tamago-data-v4.xlsx.
+Draft 3, November 7, 2026. Updated from the learning review and its check. How a sentence becomes a question, which question
+types exist, and how they phase in across the five rounds of a skill node. Table IDs match tamago-data-v5.xlsx.
 
 ## 1. The building blocks
 
@@ -49,7 +49,8 @@ Later, outside the 10-minute block: QT20 listening comprehension and QT21 conver
 ## 3. Variants
 
 Every type has at least one variant. All variants stay in a test bank with a status: live, testing or off.
-Nothing is deleted. Key variants:
+Nothing is deleted. A variant with rounds in use_in_rounds is the only one of its type used in those rounds;
+variants with it empty rotate elsewhere. Key variants:
 
 - V0404: audio plays, pick the English meaning. Main QT04 variant in rounds 1 and 2.
 - V0602: read the French, type the English. Round 5, so reading reaches recall.
@@ -75,8 +76,9 @@ distractors. Round 2 gives QT07 one distractor chip, the contrast word.
 ## 5. How a lesson is put together
 
 1. Take the node's items and the current round.
-2. New words: no more than 4 per lesson. A sentence is used only when its other words have been met. Use the
-   4-pair QT01 variant when fewer than 5 words are available.
+2. New words: no more than 4 per lesson. A sentence is used only when its other words have been met. In round 1,
+   a sentence may appear twice in one lesson in two different types. Use the 4-pair QT01 variant (V0102) when
+   fewer than 5 words are available.
 3. A missed item from the last lesson fills one slot, at its original type.
 4. For each item, pick a type allowed in this round that the item can support: word to image needs an image,
    listening needs audio, answer the question needs a row in qa_answers.
@@ -90,12 +92,14 @@ distractors. Round 2 gives QT07 one distractor chip, the contrast word.
 - **First sight**: a new word's meaning shows the first time. On QT01, a wrong tap on a new word isn't a miss.
 - **Pass mark**: first attempts count. Speaking earns a point but isn't graded. Pass is 70% of graded
   questions, rounded up.
-- **Re-asks**: a miss returns at the end of the lesson as a different type. A wrong re-ask shows the answer and
-  the lesson moves on; the item stays in the bank.
+- **Re-asks**: a miss returns at the end of the lesson as a different type: the same round's type or one round
+  easier (a missed QT12 returns as QT08). A wrong re-ask shows the answer and the lesson moves on; the item stays
+  in the bank.
 - **Under the pass mark**: the lesson doesn't count and restarts with the same items in new types.
 - **Review bank**: misses in rounds 2 to 5 go in. Round 1 misses and hinted words don't. An item leaves after
   three correct answers on three different days.
 - **Hints** never cost a strike and are always logged.
+- **Points**: 1 per first-attempt correct answer or completed speaking question, shown on home only.
 - **Answer bar**: the French plays on every question when the bar appears, without blocking Continue.
 
 ## 7. Answer checking (rule-based, no API in version 1)

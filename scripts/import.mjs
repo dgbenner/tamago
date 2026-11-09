@@ -6,7 +6,7 @@ import { createRequire } from 'node:module'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v4.xlsx')
+const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v6.xlsx')
 const OUT = join(ROOT, 'content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)
@@ -23,7 +23,7 @@ const PRIMARY_KEYS = {
   languages: 'lang_id', units: 'unit_id', can_do: 'can_do_id', sentences: 'sentence_id',
   words: 'word_id', question_types: 'type_id', variants: 'variant_id', rounds: 'round',
   accepted_answers: 'answer_id', flag_reasons: 'reason_id', topics_pool: 'topic_id',
-  settings_defaults: 'setting',
+  settings_defaults: 'setting', feedback_phrases: 'phrase_id',
 }
 const ids = {}
 for (const [table, key] of Object.entries(PRIMARY_KEYS)) {
@@ -122,6 +122,16 @@ for (const [i, c] of (tables.cant_swaps ?? []).entries()) {
   if (!typeById.has(m[1])) fail(`cant_swaps row ${i + 2}: "${m[1]}" not in question_types`)
   if (m[2] && !ids.variants.has(m[2])) fail(`cant_swaps row ${i + 2}: "${m[2]}" not in variants`)
   if (!/^(all|\d(-\d)?)$/.test(String(c.rounds))) fail(`cant_swaps row ${i + 2}: cannot read rounds "${c.rounds}"`)
+}
+// feedback_phrases: known contexts and languages; French lines carry their English.
+for (const [i, f] of (tables.feedback_phrases ?? []).entries()) {
+  if (!['correct', 'incorrect', 'typo', 'accent'].includes(f.context)) fail(`feedback_phrases row ${i + 2}: unknown context "${f.context}"`)
+  if (!['en', 'fr'].includes(f.language)) fail(`feedback_phrases row ${i + 2}: unknown language "${f.language}"`)
+  if (f.language === 'fr' && !f.english) fail(`feedback_phrases row ${i + 2}: French line without its English`)
+}
+// variants: use_in_rounds reads empty, "3", "1-2" or "<setting> only".
+for (const [i, v] of tables.variants.entries()) {
+  if (!/^(|\d(-\d)?|\w+ only)$/.test(String(v.use_in_rounds ?? ''))) fail(`variants row ${i + 2}: cannot read use_in_rounds "${v.use_in_rounds}"`)
 }
 // qa_answers: both sides are sentences.
 for (const [i, q] of (tables.qa_answers ?? []).entries()) {

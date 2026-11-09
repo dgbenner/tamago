@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, readdirSync } from 'node:fs'
-import { BUILT_TYPES, buildLesson, buildReview, effectiveMix, indexContent, lessonScope, lessonsInRound, passMark, reaskFor } from '../src/lib/lesson.js'
+import { BUILT_TYPES, buildLesson, buildReview, effectiveMix, indexContent, lessonScope, lessonsInRound, mixSlots, passMark, reaskFor } from '../src/lib/lesson.js'
 import { checkTyped } from '../src/lib/check.js'
 
 const tables = {}
@@ -198,4 +198,54 @@ test('review: up to 10 from the bank, not yet correct today first, QT01 entries 
   assert.equal(r.queue.length, 10)
   assert.ok(r.queue.every((q) => q.sentence_id && q.type !== 'QT01'))
   assert.ok(!r.queue.some((q) => q.sentence_id === bank[0].sentence_id || q.sentence_id === bank[1].sentence_id))
+})
+
+test('R17: every question uses a variant its use_in_rounds allows', () => {
+  const covers = (v, r) => { const m = String(v.use_in_rounds).match(/^(\d)(?:-(\d))?$/); return m && r >= +m[1] && r <= +(m[2] ?? m[1]) }
+  for (const cantListen of [false, true]) {
+    for (let round = 1; round <= 5; round++) {
+      for (let seed = 1; seed <= 15; seed++) {
+        for (const q of buildLesson(c, { round, known: allKnown, rng: seeded(seed), settings: { cantListen } }).queue) {
+          if (q.type === 'QT01') continue // R01 picks V0101 or V0102 by the words available
+          const v = c.variants.find((x) => x.variant_id === q.variant)
+          assert.equal(v.status, 'live', q.variant)
+          const live = c.variants.filter((x) => x.type_id === q.type && x.status === 'live')
+          if (String(v.use_in_rounds).endsWith(' only')) { assert.ok(cantListen, `${q.variant} without its setting`); continue }
+          const listed = live.filter((x) => covers(x, round))
+          if (listed.length) assert.ok(covers(v, round), `${q.variant} in round ${round}`)
+          else assert.equal(v.use_in_rounds, '', `${q.variant} in round ${round}`)
+        }
+      }
+    }
+  }
+  const qt09 = buildLesson(c, { round: 4, known: allKnown, rng: seeded(2), settings: { cantListen: true } }).queue.find((q) => q.type === 'QT09')
+  assert.equal(qt09.variant, 'V0903')
+})
+
+test('R06: a re-ask uses a type from this round or the round before', () => {
+  for (let round = 1; round <= 5; round++) {
+    const allowed = new Set([round, round - 1].filter((r) => r >= 1).flatMap((r) => effectiveMix(c, r).map((m) => m.type)))
+    for (let seed = 1; seed <= 15; seed++) {
+      for (const q of buildLesson(c, { round, known: allKnown, rng: seeded(seed) }).queue) {
+        const r = reaskFor(c, q, { rng: seeded(seed) })
+        assert.ok(r && allowed.has(r.type), `${q.type} in round ${round} became ${r?.type}`)
+      }
+    }
+  }
+})
+
+test('swapped_from records the workbook type a slot started as', () => {
+  const slots = mixSlots(c, 1)
+  assert.ok(slots.some((s) => s.from === 'QT02' && s.type === 'QT03'))
+  const q = buildLesson(c, { round: 4, known: allKnown, rng: seeded(3) }).queue
+  assert.ok(q.some((x) => x.type === 'QT12' && x.swapped_from === 'QT13'))
+  assert.ok(!q.some((x) => x.type === 'QT06' && x.swapped_from))
+})
+
+test('QT09 shows and builds the fullest listed answer', () => {
+  for (let seed = 1; seed <= 20; seed++) {
+    const q = buildLesson(c, { round: 3, known: allKnown, rng: seeded(seed) }).queue.find((x) => x.type === 'QT09')
+    const words = (f) => f.split(/\s+/).length
+    assert.ok(q.accepted.every((a) => words(a) <= words(q.shown)), q.shown)
+  }
 })

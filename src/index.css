@@ -148,6 +148,14 @@ button {
   .text-right-ink {
     color: var(--right);
   }
+  /* Match pairs (R19): a correct pair leaves together; a wrong pair shakes. */
+  .pair-out {
+    animation: pair-out 260ms ease-in forwards;
+    pointer-events: none;
+  }
+  .pair-shake {
+    animation: pair-shake 320ms ease-in-out;
+  }
   /* Keeps Check on screen at the bottom when there is no keyboard to get in the way. */
   .action-row {
     @apply sticky bottom-0 mt-auto bg-bg pt-2 pb-[max(0.5rem,env(safe-area-inset-bottom))];
@@ -176,6 +184,13 @@ button {
       animation: none;
       stroke-dashoffset: 0;
     }
+    .pair-out {
+      animation: none;
+      visibility: hidden;
+    }
+    .pair-shake {
+      animation: none;
+    }
     .btn-primary, .btn-submit, .btn-secondary, .choice, .chip {
       transition: none;
     }
@@ -190,4 +205,12 @@ button {
 }
 @keyframes splash-out {
   to { opacity: 0; visibility: hidden; }
+}
+@keyframes pair-out {
+  to { opacity: 0; transform: scale(0.85); visibility: hidden; }
+}
+@keyframes pair-shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
 }

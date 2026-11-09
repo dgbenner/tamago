@@ -43,5 +43,15 @@
     "setting": "theme",
     "default": "system",
     "options": "system; light; dark"
+  },
+  {
+    "setting": "french_feedback_rate",
+    "default": "about 1 per lesson",
+    "options": "flexible; grows with level. Share of feedback lines shown in French"
+  },
+  {
+    "setting": "french_instructions",
+    "default": "off at A1",
+    "options": "grows with level; instructions shift to French over the course"
   }
 ]

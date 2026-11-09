@@ -33,8 +33,10 @@ Choices the specs left open, easy to change:
 - Lessons per round: enough to cover every live sentence (`lessonsInRound`), currently see `lessonsInRound`. A round can run past its count only if a sentence or word hasn't appeared yet.
 - New words arrive in the order the workbook's sentences first use them. Early lessons have few usable sentences, so one may appear twice, in different types.
 - First sight on match pairs: tapping a new word shows its meaning below the grid. Other types show it under the sentence.
-- QT04 is V0404 in rounds 1 and 2, V0401 on re-asks after. QT09 is chips in rounds 3 and 4, typed in round 5, with the first qa_answers row as the one shown and buildable.
-- Phase 1 builds QT09; QT10 and QT13 still use phase1_fallbacks. The workbook's QT09 fallback rows are ignored because QT09 is built.
+- Variants come from the variants tab by use_in_rounds (R17); only QT01 picks by words available (R01). V0903 answers by chips in rounds 3 and 4 and typed in round 5, since round 5 is keyboard only.
+- QT09 shows and builds the fullest listed answer; any listed answer is accepted.
+- Feedback lines (R18): French lines ship only when Tatoeba links them to the listed English. The rate is a fixed 0.1 per answer (`FRENCH_RATE`), standing in for "about 1 per lesson".
+- Phase 1 builds QT09; QT10 and QT13 still use phase1_fallbacks.
 - Listen first (QT03, QT06 only): French hidden until the answer, unless the sentence has a new word.
 - If the device has no French voice, the app treats it as Can't listen now.
 - Match pairs plays each French word on tap in both V0101 and V0102, at Dan's request.

@@ -11,6 +11,19 @@ const LISTENING = new Set(['QT04', 'QT07', 'QT11'])
 const LISTEN_FIRST = new Set(['QT03', 'QT06'])
 const SHOWS_FRENCH = new Set(['QT01', 'QT03', 'QT05', 'QT06']) // the New word tag needs a word on screen
 
+// R18: a rotating line for the answer bar, never the same one twice running. French lines come in at
+// french_feedback_rate ("about 1 per lesson"). FB24 says the item comes back, so only a first-attempt miss in a lesson uses it.
+const FRENCH_RATE = 0.1
+function pickPhrase(phrases, q, r, kind, lastId) {
+  const context = r.typo ? 'typo' : r.accent ? 'accent' : r.correct || q.type === 'QT01' ? 'correct' : 'incorrect'
+  const comesBack = kind === 'lesson' && !q.reask
+  const pool = phrases.filter((p) => p.context === context && p.phrase_id !== lastId && (p.phrase_id !== 'FB24' || comesBack))
+  const french = pool.filter((p) => p.language === 'fr')
+  const english = pool.filter((p) => p.language === 'en')
+  const from = french.length && Math.random() < FRENCH_RATE ? french : english.length ? english : pool
+  return from.length ? from[Math.floor(Math.random() * from.length)] : null
+}
+
 export default function Lesson({ session, content, settings, seenWords, cantListen, onAnswer, onHint, onFlag, onExit, onAdvance, onFinish }) {
   const q = session.queue[session.index]
   const [result, setResult] = useState(null)
@@ -30,8 +43,11 @@ export default function Lesson({ session, content, settings, seenWords, cantList
     return stop
   }, [q.qid])
 
+  const lastPhrase = useRef(null)
   const answer = (r) => {
-    const full = { ...r, hidden: hideFrench }
+    const phrase = r.testSkip ? null : pickPhrase(content.feedback_phrases, q, r, session.kind, lastPhrase.current)
+    if (phrase) lastPhrase.current = phrase.phrase_id
+    const full = { ...r, hidden: hideFrench, phrase }
     setResult(full)
     onAnswer(q, full)
   }
@@ -115,7 +131,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
 }
 
 function Question({ q, ...rest }) {
-  const typedOnly = q.variant === 'V0602' || q.variant === 'V0902'
+  const typedOnly = Boolean(q.typed)
   const C = typedOnly ? Typed : { QT01: MatchPairs, QT03: PickMeaning, QT04: PickHeard, QT05: FillBlank, QT06: Build, QT07: Build, QT08: Build, QT09: Build, QT11: Typed, QT12: Typed }[q.type]
   return <C q={q} {...rest} />
 }
@@ -259,13 +275,16 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
   const tapMeaning = (m) => { setWrong(null); if (form) attempt(form, m); else setMeaning(m) }
   const isMatchedMeaning = (m) => q.pairs.some((p) => p.hint === m && matched.includes(p.form))
 
-  const cell = (selected, done, bad) => `choice text-center ${done ? 'choice-right opacity-60' : bad ? 'choice-wrong' : selected ? 'choice-selected' : ''}`
+  // R19: a correct pair animates out together and leaves its space; a wrong pair shakes and stays.
+  const cell = (selected, done, bad) => `choice text-center ${done ? 'pair-out' : bad ? 'pair-shake' : selected ? 'choice-selected' : ''}`
+  const endShake = (e) => { if (e.animationName === 'pair-shake') setWrong(null) }
   return (
     <>
     <div className="grid grid-cols-2 gap-2.5">
       <div className="flex flex-col gap-2.5">
         {q.pairs.map((p) => (
           <button key={p.form} lang="fr" disabled={matched.includes(p.form) || Boolean(result)} onClick={() => tapForm(p)}
+            onAnimationEnd={endShake}
             className={`${cell(form === p.form, matched.includes(p.form), wrong?.f === p.form)} flex items-center justify-center gap-1.5`}>
             {!cantListen && <span className="opacity-60 [&_svg]:size-4"><IconSpeaker /></span>}
             {p.form}
@@ -276,7 +295,7 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
       <div className="flex flex-col gap-2.5">
         {q.meanings.map((m) => (
           <button key={m} lang="en" disabled={isMatchedMeaning(m) || Boolean(result)} onClick={() => tapMeaning(m)}
-            className={cell(meaning === m, isMatchedMeaning(m), wrong?.m === m)}>{m}</button>
+            onAnimationEnd={endShake} className={cell(meaning === m, isMatchedMeaning(m), wrong?.m === m)}>{m}</button>
         ))}
       </div>
     </div>
@@ -405,15 +424,21 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   // A wrong tap still counts: the score, the re-ask and the review bank all see it.
   const isPairs = q.type === 'QT01'
   const good = result.correct || isPairs
-  const note = result.typo ? `Check the spelling: ${shown}` : result.accent ? `Mind the accent: ${shown}` : null
+  const [meaning, setMeaning] = useState(false)
+  const phrase = result.phrase
+  const fallback = good ? 'Nice.' : 'Not quite.'
   return (
-    <section aria-live="polite" className={`fixed inset-x-0 bottom-0 z-20 border-t bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${good ? 'border-right' : 'border-wrong'}`}>
+    <section aria-live="polite" data-outcome={good ? 'correct' : 'incorrect'} className={`fixed inset-x-0 bottom-0 z-20 border-t bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${good ? 'border-right' : 'border-wrong'}`}>
       <div className="mx-auto flex max-w-md flex-col gap-3 px-4 pt-4">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
-            <p className={`font-semibold ${good ? 'text-right-ink' : 'text-wrong'}`}>{isPairs ? 'All matched' : result.correct ? 'Correct' : 'Incorrect'}</p>
-            {note && <p className="mt-0.5">{note}</p>}
-            {!note && !isPairs && <p className="mt-0.5 break-words">{shown}</p>}
+            <p className={`relative font-semibold ${good ? 'text-right-ink' : 'text-wrong'}`}>
+              {phrase?.language === 'fr' ? (
+                <button lang="fr" onClick={() => setMeaning(!meaning)} className="underline decoration-dotted decoration-2 underline-offset-4">{phrase.text}</button>
+              ) : (phrase?.text ?? fallback)}
+              {meaning && <span role="tooltip" className="absolute bottom-full left-0 z-10 mb-1 whitespace-nowrap rounded-lg border border-line bg-surface px-3 py-1.5 text-base font-normal text-ink shadow-md">{phrase.english}</span>}
+            </p>
+            {!isPairs && <p className="mt-0.5 break-words">{shown}</p>}
             {other && <p className="break-words text-muted">{other}</p>}
           </div>
           <div className="flex shrink-0 text-muted">

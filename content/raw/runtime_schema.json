@@ -45,7 +45,7 @@
     "table": "attempts",
     "field": "correct",
     "type": "yes/no",
-    "notes": ""
+    "notes": "empty for speaking questions"
   },
   {
     "table": "attempts",
@@ -81,13 +81,13 @@
     "table": "lessons",
     "field": "score",
     "type": "number",
-    "notes": "first-attempt correct out of 10"
+    "notes": "first-attempt correct answers among graded questions"
   },
   {
     "table": "lessons",
     "field": "passed",
     "type": "yes/no",
-    "notes": "pass is 7"
+    "notes": "pass is 70% of graded questions, rounded up (R05)"
   },
   {
     "table": "review_bank",
@@ -105,7 +105,7 @@
     "table": "review_bank",
     "field": "correct_in_review",
     "type": "number",
-    "notes": "leaves the bank at 3"
+    "notes": "counts correct answers on different days; leaves the bank at 3 (R09)"
   },
   {
     "table": "review_bank",
@@ -183,7 +183,7 @@
     "table": "skill_score",
     "field": "score",
     "type": "number",
-    "notes": "0 to 160 scale, one decimal through A1"
+    "notes": "0 to 160 scale, one decimal through A1. A swapped question feeds the replacement's skill (R12)"
   },
   {
     "table": "flags",
@@ -202,5 +202,47 @@
     "field": "flagged_at",
     "type": "timestamp",
     "notes": ""
+  },
+  {
+    "table": "attempts",
+    "field": "graded",
+    "type": "yes/no",
+    "notes": "no for speaking questions (R05)"
+  },
+  {
+    "table": "attempts",
+    "field": "swapped_from",
+    "type": "text",
+    "notes": "original type_id when Can't listen, Can't speak or a fallback swapped it"
+  },
+  {
+    "table": "lessons",
+    "field": "graded_count",
+    "type": "number",
+    "notes": "questions that count toward the pass"
+  },
+  {
+    "table": "lessons",
+    "field": "finished_at",
+    "type": "timestamp",
+    "notes": "R16"
+  },
+  {
+    "table": "review_bank",
+    "field": "correct_days",
+    "type": "json",
+    "notes": "list of dates with a correct review answer (R09)"
+  },
+  {
+    "table": "attempts",
+    "field": "skill",
+    "type": "text",
+    "notes": "skill the answer fed, after swaps (R12)"
+  },
+  {
+    "table": "lessons",
+    "field": "duration_ms",
+    "type": "number",
+    "notes": "R16"
   }
 ]

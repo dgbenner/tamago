@@ -53,13 +53,18 @@ Three layers, each with its own job.
   The next question appears right away.
 - **Remediation**: a missed question goes to the end of the block and comes back in a different question type
   (same content, new format).
-- **Answer bar**: after each answer, a bar at the bottom shows right or wrong and the correct answer. The flag
+- **Answer bar**: after each answer, a bar at the bottom shows right or wrong and the correct answer, and the
+  French plays without blocking Continue. The flag
   and comment icons sit in this bar, bottom right, faint outlines. Correction: earlier versions of this list
   put them bottom left during the question. Nothing extra shows while the learner is answering.
   - **Flag** gives a short list of reasons (my answer should be accepted, audio is wrong, translation is wrong,
     something is broken).
   - **Comment** shows the comment count and opens that question's discussion. Stubbed in version 1; working in
     version 3.
+- **Feedback lines**: the answer bar shows short, warm, direct lines that rotate ("Nice.", "Not quite."), not a
+  fixed Correct or Incorrect. French lines ("Très bien !", "Presque !") rotate in at a flexible rate, about one
+  per lesson to start, with tap-for-meaning. Instructions shift toward French as the course goes up in level.
+- **Match pairs**: a correct pair animates out together; no green outline.
 - **New word tag**: the first time a word appears, the question says so and the word is highlighted.
 - **Tap a word for hints**: words with a dotted underline open a small table of translations, from Wiktionary.
   A hint never costs a strike. Every hint is logged. Correction: hinted words no longer go to review.
@@ -132,9 +137,11 @@ Three layers, each with its own job.
 
 ## Settings and habits
 
-- **Listen first**: audio plays with text hidden; text appears after answering.
+- **Listen first**: audio plays with text hidden; text appears after answering. Those questions then feed the
+  Listening score, not Reading.
 - **Can't listen now / Can't speak now**: pause for 15 minutes or 1 hour, swapped for reading and typing so
-  the lesson still counts; a setting turns either off permanently.
+  the lesson still counts; a setting turns either off permanently. A swapped question feeds the replacement's
+  skill; the swapped-out skill's score doesn't move.
 - **Word chips or keyboard** for typed answers.
 - **Answer strictness** (see Answer checking).
 - **Points and streaks** with an off switch; optional weekly goal (e.g. 4 days a week); no hearts or energy.

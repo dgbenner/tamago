@@ -645,5 +645,39 @@
     "source_owner": "theachaean",
     "english_source": "",
     "lingua_libre": null
+  },
+  {
+    "sentence_id": "S0039",
+    "unit_id": "U01",
+    "french": "Tu es une femme ?",
+    "english": "Are you a woman?",
+    "pair_id": "",
+    "source": "tamago_original",
+    "source_id": "",
+    "status": "live",
+    "audio_source": "tts",
+    "max_round": 5,
+    "notes": "question for QT09",
+    "native_check": "needed before Phase 4",
+    "source_owner": "",
+    "english_source": "",
+    "lingua_libre": null
+  },
+  {
+    "sentence_id": "S0040",
+    "unit_id": "U01",
+    "french": "Tu es un homme ?",
+    "english": "Are you a man?",
+    "pair_id": "",
+    "source": "tamago_original",
+    "source_id": "",
+    "status": "live",
+    "audio_source": "tts",
+    "max_round": 5,
+    "notes": "question for QT09",
+    "native_check": "needed before Phase 4",
+    "source_owner": "",
+    "english_source": "",
+    "lingua_libre": null
   }
 ]
