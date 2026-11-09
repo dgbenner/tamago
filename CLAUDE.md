@@ -34,6 +34,9 @@ Standing decisions:
 
 Choices the specs left open, easy to change:
 
+- A unit's lessons count only its own words as new (R01); words of earlier units are always allowed (Phase 3, after placement and topic packs exposed the old reading).
+- Topic packs (is_topic_pick yes) sit behind the Your topic node (U100, is_topic_pick node); one is chosen at a time (kv topic_choice), each keeps its progress, and none draws on another. Packs stay out of placement, checkpoints and scores until chosen or started. QT09 in a unit without question pairs takes the phase1_fallbacks rows marked "no question pairs".
+- Claude's hints go in decisions.claude_hints with their source; Dan's stay in decisions.hints.
 - Lessons per round: enough to cover every live sentence (`lessonsInRound`), currently see `lessonsInRound`. A round can run past its count only if a sentence or word hasn't appeared yet.
 - New words arrive in the order the workbook's sentences first use them. Early lessons have few usable sentences, so one may appear twice, in different types.
 - First sight on match pairs: tapping a new word shows its meaning below the grid. Other types show it under the sentence.
