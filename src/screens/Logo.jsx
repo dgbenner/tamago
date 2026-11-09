@@ -38,7 +38,7 @@ export function LogoInline() {
   return (
     <div role="img" aria-label="Tamago">
       <svg className="block w-[103px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
-        {LETTERS.map((strokes, i) => <path key={i} d={strokes.join('')} stroke="var(--logo-orange)" strokeWidth="5" />)}
+        {LETTERS.map((strokes, i) => <path key={i} d={strokes.join('')} stroke="var(--logo-orange)" strokeWidth="10" />)}
       </svg>
     </div>
   )
