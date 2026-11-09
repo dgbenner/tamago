@@ -32,13 +32,13 @@ export default function Logo() {
   )
 }
 
-// Home's header: the wordmark alone, centred, as a heavy yellow line with a green outline. At this size the three-line version is
+// Home's header: the wordmark alone, centred, as a heavy yellow line with an orange outline. At this size the three-line version is
 // too busy; the opening screen keeps all three.
 export function LogoInline() {
   return (
     <div role="img" aria-label="Tamago">
       <svg className="block w-[103px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
-        {LETTERS.map((strokes, i) => <path key={`o${i}`} d={strokes.join('')} stroke="var(--logo-green)" strokeWidth="27" />)}
+        {LETTERS.map((strokes, i) => <path key={`o${i}`} d={strokes.join('')} stroke="var(--logo-orange)" strokeWidth="27" />)}
         {LETTERS.map((strokes, i) => <path key={i} d={strokes.join('')} stroke="var(--accent)" strokeWidth="15" />)}
       </svg>
     </div>
