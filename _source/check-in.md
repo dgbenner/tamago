@@ -13,14 +13,14 @@ Updated November 9, 2026, end of Phase 2a.
 ## Decisions made
 
 - **Approved Unit 2 myself** under the brief, after adding your six words (grand, grande, petit, petite, voici, ici) and drafting. It went from 7 Tatoeba sentences to 30, plus 23 drafts.
-- **Drafted 70 sentences** (listed below): 4 question-and-answer pairs per unit for Answer the question, and enough for every short word to reach 3. Each is tamago_original with a native-speaker check before Phase 4. Yes/no questions also accept Oui. and Non.
+- **Drafted 66 sentences** (listed below): 4 question-and-answer pairs per unit for Answer the question, and enough for every short word to reach 3. Each is tamago_original with a native-speaker check before Phase 4. Yes/no questions also accept Oui. and Non.
 - **Pull rules I added** to keep the Tatoeba pull honest: names limited to the ones the workbook uses (Paul, Marie); no sentences with digits; an article must come before a noun or adjective (drops le/l' used as pronouns); a noun must keep its course meaning in the English (drops "J'ai une fille" = daughter); the plainest English is the one built from the commonest words.
 - **Hints** for new words come from Wiktionary ("mange = to eat (manger)"), with your five short forms for eau, ça va, vous, du and j'.
 
 ## Waiting for Dan
 
 - **Read the new units on the phone.** Cut anything odd; the full lists are in content/pull/review.md and the drafts below.
-- **Native-speaker check** (before Phase 4) now covers 102 sentences: 18 in Unit 1 and the 84 Tamago originals in Units 2 to 5.
+- **Native-speaker check** (before Phase 4) now covers 84 sentences: 18 in Unit 1 and the 66 drafts in Units 2 to 5.
 - **Hosting:** the Netlify free plan shows its badge and can't hide it. Moving to Cloudflare Pages needs your account.
 
 ## Drafted sentences

@@ -28,4 +28,4 @@ Kept under _source/autonomous-build.md. Newest phase first.
 
 **Waiting for Dan**
 
-- Reading the new units; the native-speaker check list (102 sentences); hosting move off Netlify.
+- Reading the new units; the native-speaker check list (84 sentences); hosting move off Netlify.
