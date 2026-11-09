@@ -52,6 +52,7 @@ export default function App() {
   const [pointsTotal, setPointsTotal] = useState(0)
   const [session, setSession] = useState(null)
   const [ending, setEnding] = useState(null)
+  const [lastLine, setLastLine] = useState(null) // a passed lesson's score, shown on home instead of on its own screen
   const [splash, setSplash] = useState(true)
   const seenWords = useRef(new Set())
   const roundSeen = useRef({})
@@ -177,6 +178,7 @@ export default function App() {
     setSession(s)
     putKv('current_session', s)
     setEnding(null)
+    setLastLine(null)
     setScreen('lesson')
   }
   const startLesson = (unitId = currentUnit) => {
@@ -495,7 +497,9 @@ export default function App() {
       setProgressByUnit((p) => ({ ...p, [s.unit_id]: nextProgress }))
       put('unit_progress', nextProgress)
     }
-    setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size}.` })
+    // A passed lesson goes straight back to home; its score shows there (craft review, fix 12).
+    setLastLine(`Last lesson: ${s.firstCorrect} of ${s.graded ?? s.size}.`)
+    setScreen('home')
   }
 
   const leaveLesson = () => {
@@ -616,7 +620,7 @@ export default function App() {
       onWords={() => setScreen('words')} onVerbs={() => setScreen('verbs')} onMake={openMakeScreen}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, label: ((ns) => (ns.length > 3 ? `Units ${ns[0]} to ${ns[ns.length - 1]}` : `Units ${ns.join(', ')}`))(unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).order).sort((p, q) => p - q)), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null }))}
       onCheckpoint={startCheckpoint}
-      inProgress={Boolean(session)}
+      inProgress={Boolean(session)} lastLine={lastLine}
       currentLabel={cur.round_reached >= 5 ? 'Practice' : 'Continue'} lockedByOf={lockedByOf}
       onContinue={() => (session ? startLesson() : startUnit(currentUnit))} onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
       onGrammarNote={(id) => { setNote({ unitId: id, thenStart: false }); setScreen('note') }} hasNote={(id) => Boolean(noteFor(id))}

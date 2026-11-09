@@ -1,6 +1,6 @@
 import { explain } from '../lib/explain.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { checkTyped } from '../lib/check.js'
+import { checkTyped, diffMarks } from '../lib/check.js'
 import { useRecorder } from '../lib/recorder.js'
 import { play, stop } from '../lib/audio.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconSpeaker } from './icons.jsx'
@@ -13,11 +13,19 @@ const LISTENING = new Set(['QT04', 'QT07', 'QT11'])
 const LISTEN_FIRST = new Set(['QT03', 'QT06'])
 const SHOWS_FRENCH = new Set(['QT01', 'QT02', 'QT03', 'QT05', 'QT06']) // the New word tag needs a word on screen
 
+// The heading says what the learner is doing right now: with the French hidden it's a listening task, and a
+// chip question switched to the keyboard is a typing one (craft review, fixes 8 and 9).
+function headingFor(q, { hideFrench, result, typing }) {
+  if (hideFrench && !result) return q.type === 'QT03' ? 'Listen and pick the meaning' : 'Listen and translate'
+  if (q.type === 'QT07' && (typing || q.typed)) return 'Type what you hear'
+  return PROMPT[q.type]
+}
+
 // R18: a rotating line for the answer bar, never the same one twice running. French lines come in at
 // french_feedback_rate ("about 1 per lesson"). FB24 says the item comes back, so only a first-attempt miss in a lesson uses it.
 const FRENCH_RATE = 0.1
 function pickPhrase(phrases, q, r, kind, lastId) {
-  const context = r.typo ? 'typo' : r.accent ? 'accent' : r.correct || q.type === 'QT01' ? 'correct' : 'incorrect'
+  const context = r.typo ? 'typo' : r.accent ? 'accent' : r.correct ? 'correct' : 'incorrect'
   const comesBack = kind === 'lesson' && !q.reask
   const pool = phrases.filter((p) => p.context === context && p.phrase_id !== lastId && (p.phrase_id !== 'FB24' || comesBack))
   const french = pool.filter((p) => p.language === 'fr')
@@ -29,7 +37,9 @@ function pickPhrase(phrases, q, r, kind, lastId) {
 export default function Lesson({ session, content, settings, seenWords, cantListen, onAnswer, onHint, onFlag, onExit, onAdvance, onFinish }) {
   const q = session.queue[session.index]
   const [result, setResult] = useState(null)
+  const [typing, setTyping] = useState(false) // a chip question switched to the keyboard
   const barMax = useRef(0)
+  useEffect(() => { setTyping(false) }, [q.qid])
 
   const tagRound = q.round <= 2
   const newWords = useMemo(() => {
@@ -48,8 +58,8 @@ export default function Lesson({ session, content, settings, seenWords, cantList
 
   const lastPhrase = useRef(null)
   const answer = (r) => {
-    // Speaking isn't judged, so it gets no feedback line.
-    const phrase = r.testSkip || r.speaking ? null : pickPhrase(content.feedback_phrases, q, r, session.kind, lastPhrase.current)
+    // Speaking isn't judged, so it gets no feedback line. A mistapped pair gets the plain "Not quite." and the pair itself.
+    const phrase = r.testSkip || r.speaking || (q.type === 'QT01' && !r.correct) ? null : pickPhrase(content.feedback_phrases, q, r, session.kind, lastPhrase.current)
     if (phrase) lastPhrase.current = phrase.phrase_id
     const full = { ...r, hidden: hideFrench, phrase }
     setResult(full)
@@ -110,7 +120,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
 
   const shareDone = session.index / session.queue.length
   barMax.current = Math.max(barMax.current, shareDone)
-  const props = { q, content, settings, cantListen, result, onAnswer: answer, newWords, hideFrench, onHint: (seg) => onHint(q, seg) }
+  const props = { q, content, settings, cantListen, result, onAnswer: answer, newWords, hideFrench, onHint: (seg) => onHint(q, seg), onTyping: setTyping }
 
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-[max(0.75rem,env(safe-area-inset-top))]">
@@ -123,7 +133,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
 
       <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
         <div className="flex items-center gap-2">
-          <h1 className="text-xl font-semibold">{PROMPT[q.type]}</h1>
+          <h1 className="text-xl font-semibold">{headingFor(q, { hideFrench, result, typing })}</h1>
           {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="tag"><span className="new-dot" aria-hidden="true" />New</span>}
         </div>
         <Question key={q.qid} {...props} />
@@ -165,7 +175,8 @@ function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
               onClick={() => { setOpen(open === i ? null : i); if (open !== i) onHint(seg) }}
               className="underline decoration-dotted decoration-2 underline-offset-4"
             >{seg.text}</button>
-            {newWords.has(seg.word_id) && <span className="new-dot ml-1 align-middle" aria-hidden="true" />}
+            {/* The new-word dot sits on the word like a superscript, not between words like a bullet. */}
+            {newWords.has(seg.word_id) && <span className="new-dot absolute -top-0.5 left-full ml-0.5 size-1.5" aria-hidden="true" />}
             {open === i && (
               <span role="tooltip" lang="en" className="absolute top-full left-0 z-10 mt-1 whitespace-nowrap rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base shadow-md">{seg.hint}</span>
             )}
@@ -212,7 +223,7 @@ function WordImage({ q, result, onAnswer, newWords }) {
       <div className="flex items-center gap-3">
         {q.variant === 'V0202'
           ? <p className="text-2xl">{q.hint}</p>
-          : <><p lang="fr" className="text-2xl">{q.form}{newWords.has(q.word_id) && <span className="new-dot ml-1 align-middle" aria-hidden="true" />}</p><SpeakerButton audio={q.audio} label="Play the word" /></>}
+          : <><p lang="fr" className="relative text-2xl">{q.form}{newWords.has(q.word_id) && <span className="new-dot absolute -top-0.5 left-full ml-0.5 size-1.5" aria-hidden="true" />}</p><SpeakerButton audio={q.audio} label="Play the word" /></>}
       </div>
       <div className={`grid gap-3 ${q.choices.length === 4 ? 'grid-cols-2' : 'grid-cols-3'}`}>
         {q.choices.map((ch, i) => {
@@ -338,7 +349,12 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
       const next = [...matched, f]
       setMatched(next)
       setWrong(null)
-      if (next.length === q.pairs.length) onAnswer({ correct: missed.current.length === 0, missedWord: missed.current[0] })
+      if (next.length === q.pairs.length) {
+        // The last pair animates out like the others before the answer bar comes; nothing is left on the board.
+        setRevealed(null)
+        const missedPair = q.pairs.find((p) => p.word_id === missed.current[0]) ?? null
+        window.setTimeout(() => onAnswer({ correct: missed.current.length === 0, missedWord: missed.current[0], missedPair: missedPair && { form: missedPair.form, hint: missedPair.hint } }), 280)
+      }
     } else {
       // A wrong tap on a new word isn't a miss.
       if (!newWords.has(pair.word_id) && !missed.current.includes(pair.word_id)) missed.current.push(pair.word_id)
@@ -381,7 +397,7 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
         ))}
       </div>
     </div>
-    <p className="min-h-6 text-sm text-muted">{revealed ? `${revealed.form} = ${revealed.hint}` : ''}</p>
+    {!result && <p className="min-h-6 text-sm text-muted">{revealed ? `${revealed.form} = ${revealed.hint}` : ''}</p>}
     </>
   )
 }
@@ -423,8 +439,10 @@ function promptFor(q, { newWords, hideFrench, result, onHint }) {
   return <p className="text-2xl leading-relaxed">{q.english}</p>
 }
 
-function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, onHint }) {
-  const [typing, setTyping] = useState(settings.typed_input === 'keyboard')
+function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, onHint, onTyping }) {
+  const [typing, setTypingState] = useState(settings.typed_input === 'keyboard')
+  useEffect(() => { onTyping?.(typing) }, [typing])
+  const setTyping = setTypingState
   const [picked, setPicked] = useState([])
   const [text, setText] = useState('')
   const check = (value) => {
@@ -452,8 +470,10 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
           </div>
         </>
       )}
+      {/* One place for Check (craft review, fix 2): the check-row sits under the answer area; on a phone with
+          no keyboard up it pins to the bottom so it is always in reach. Typing keeps it under the field. */}
       {!result && (
-        <div className={`flex items-center gap-2 ${typing ? '' : 'action-row'}`}>
+        <div className={`check-row ${typing ? '' : 'action-row'}`}>
           <button onClick={() => setTyping(!typing)} aria-label={typing ? 'Use word chips' : 'Use the keyboard'} className="icon-btn border-2 border-line">
             {typing ? <IconChips /> : <IconKeyboard />}
           </button>
@@ -487,7 +507,7 @@ function Typed({ q, content, settings, result, onAnswer, newWords, hideFrench, o
     <>
       {promptFor(q, { newWords, hideFrench, result, onHint })}
       <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} onSubmit={check} />
-      {!result && <button disabled={!text.trim()} onClick={check} className="btn-submit">Check</button>}
+      {!result && <div className="check-row"><button disabled={!text.trim()} onClick={check} className="btn-submit flex-1">Check</button></div>}
     </>
   )
 }
@@ -501,12 +521,13 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
     if (!cantListen && q.audio) play(qaAnswer?.audio ?? q.audio)
   }, [])
   // What to show: the accepted answer they matched, else the main one, plus the other language for sentences.
-  const shown = result.correct && result.matched ? result.matched : q.shown
-  const other = q.sentence_id ? (qaAnswer ? qaAnswer.english : q.type === 'QT03' || q.type === 'QT06' ? q.french : q.english) : null
-  // Match pairs always ends with every pair matched, so its bar shows no incorrect state and no list.
-  // A wrong tap still counts: the score, the re-ask and the review bank all see it.
+  // Match pairs ends with every pair matched: a clean board shows nothing, a mistapped pair is named.
   const isPairs = q.type === 'QT01'
-  const good = result.correct || isPairs
+  const shown = isPairs ? (result.missedPair ? `${result.missedPair.form} = ${result.missedPair.hint}` : null) : result.correct && result.matched ? result.matched : q.shown
+  const other = q.sentence_id ? (qaAnswer ? qaAnswer.english : q.type === 'QT03' || q.type === 'QT06' ? q.french : q.english) : null
+  const good = result.correct
+  // A typo or a missing accent: the letters that differ are marked in the answer shown.
+  const marks = (result.typo || result.accent) && result.given ? diffMarks(shown, result.given) : null
   const [meaning, setMeaning] = useState(false)
   const phrase = result.phrase
   // A wrong typed answer may get an explanation (Phase 4); it shows only once it has arrived.
@@ -529,7 +550,9 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
               ) : (phrase?.text ?? fallback)}
               {meaning && <span role="tooltip" className="absolute bottom-full left-0 z-10 mb-1 whitespace-nowrap rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base font-normal text-ink shadow-md">{phrase.english}</span>}
             </p>
-            {!isPairs && <p className="mt-0.5 break-words">{shown}</p>}
+            {shown && <p lang={isPairs ? undefined : q.lang === 'en' && !LISTENING.has(q.type) ? 'en' : 'fr'} className="mt-0.5 break-words">
+              {marks ? marks.map((m, i) => (m.mark ? <strong key={i} className="underline decoration-2 underline-offset-4">{m.text}</strong> : <span key={i}>{m.text}</span>)) : shown}
+            </p>}
             {other && <p className="break-words text-muted">{other}</p>}
             {why && (showWhy
               ? <p className="mt-1 break-words text-sm">{why}</p>

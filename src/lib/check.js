@@ -51,3 +51,23 @@ export function checkTyped(input, accepted, { strict = false, lang = 'fr', vocab
   if (slip) return { correct: true, typo: true, accent: false, matched: slip.text }
   return miss
 }
+
+// Which letters of the shown answer the learner's answer got wrong (a typo or a dropped accent), so the answer bar
+// can mark them. Letters are compared exactly, so "e" never matches "é". Returns runs of { text, mark }.
+export function diffMarks(shown, given) {
+  const a = [...String(shown)]
+  const b = [...String(given).toLowerCase()]
+  const same = (x, y) => x.toLowerCase() === y
+  const L = Array.from({ length: a.length + 1 }, () => new Array(b.length + 1).fill(0))
+  for (let i = a.length - 1; i >= 0; i--) for (let j = b.length - 1; j >= 0; j--) L[i][j] = same(a[i], b[j]) ? L[i + 1][j + 1] + 1 : Math.max(L[i + 1][j], L[i][j + 1])
+  const runs = []
+  const push = (ch, mark) => { const last = runs[runs.length - 1]; if (last && last.mark === mark) last.text += ch; else runs.push({ text: ch, mark }) }
+  let i = 0
+  let j = 0
+  while (i < a.length) {
+    if (j < b.length && same(a[i], b[j])) { push(a[i], false); i++; j++ }
+    else if (j < b.length && L[i + 1][j] < L[i][j + 1]) j++
+    else { push(a[i], a[i].trim() !== ''); i++ }
+  }
+  return runs
+}

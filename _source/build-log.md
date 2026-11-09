@@ -258,3 +258,21 @@ Kept under _source/autonomous-build.md. Newest phase first.
 - Bug found on the first live run: Pages answers /index.html with a 308 to /, the service worker precached the redirect, and a reload failed (ERR_FAILED). The page is now precached and served as /. Offline reload checked in Chrome and Firefox.
 - Live checks (Chrome and Firefox): home tree, A1 lessons and placement, the lesson e2e, Phase 4 backup and restore, Phase 5 makers (test mocks moved to /api). No page errors.
 - Netlify: stop_builds set to true through the API; the site was not deleted.
+
+## Craft review fixes (2026-11-09)
+
+A separate session ran `_source/craft-review.md` on the live site (report and 168 screenshots in `_review/2026-11-09/`; overall 3.7). Dan accepted the twelve fixes with changes to the top five, all applied:
+
+- **Match pairs:** pairs still animate out; the last pair now leaves like the others (the answer bar waits 280 ms) and the first-sight line clears, so nothing is left on the board. A mistap on a seen word gives the incorrect bar, "Not quite." and the pair itself ("enfant = child"). The bar no longer treats pairs as always right.
+- **One place for Check:** a `.check-row` under the answer area on every type. On a phone with no keyboard up it pins to the bottom (`.action-row`); typed answers keep it under the field; at 768 px and up it never drifts to the bottom of the window.
+- **Points:** plain muted text top left ("14 points"); the coin and the blue pill are gone.
+- **Feedback voice:** "Clean." (FB06) and "Spot on." (FB05) retired through `review-decisions.json` → `phrases_off`; build-content skips them and workbook-sync sets them off in the next version. French lines stay. The Why? prompt now speaks to the learner ("You wrote…").
+- **Score line:** "Very early A1 · Progress ›" (the band of the skill furthest behind); the four numbers stay on the progress page.
+- Unit indicators: the strength bars are gone; finished-round pills fade with the unit's recall (4 bars full, 1 bar 30%).
+- New-word dot sits on the word as a superscript, in sentences and on the word-to-image prompt.
+- Headings: "Listen and pick the meaning" / "Listen and translate" while the French is hidden; "Type what you hear" when a chip question is switched to the keyboard.
+- Typo and accent: the differing letters are marked in the shown answer (`diffMarks` in check.js, with tests).
+- Topic sheet kicker reads "Choose a topic" until a pack is chosen.
+- A passed lesson returns straight to home, where "Last lesson: 8 of 9." shows above Review until the next session starts. Failed lessons, checkpoints, reviews and checks keep their own line.
+
+Checked on the local build with Playwright: mistap bar, home return with the score line, both headings, the accent mark; `npm test` 53 passing.

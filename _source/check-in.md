@@ -4,6 +4,7 @@ Updated November 9, 2026, night. **Tamago now lives on Cloudflare Pages: https:/
 
 ## Done since last check-in
 
+- **Craft review fixes, live.** The twelve fixes from the 2026-11-09 craft review are in, with your changes to the top five (pairs still animate out, the French feedback lines stay, points as plain text). Details in the build log under "Craft review fixes"; the report and screenshots are in _review/2026-11-09/.
 - **Moved to Cloudflare Pages.** Project tamago, connected to the GitHub repo, so every push to main deploys (about 30 seconds). Live: https://tamago-83f.pages.dev
   - The two Claude functions are now Cloudflare Pages Functions at /api/explain and /api/generate; the handlers are shared in server/. They still answer "not set up" until the key is added (item 4).
   - Fixed on the way: Cloudflare redirects /index.html to /, and the offline cache had stored that redirect, which made a second visit fail to load. The page is now cached as /.

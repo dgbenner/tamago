@@ -156,9 +156,21 @@ button {
   .pair-shake {
     animation: pair-shake 320ms ease-in-out;
   }
-  /* Keeps Check on screen at the bottom when there is no keyboard to get in the way. */
+  /* The row that holds Check or Done, the same on every question type: under the answer area. */
+  .check-row {
+    @apply flex items-center gap-2;
+  }
+  /* On a phone, with no keyboard to get in the way, that row pins to the bottom so it is always in reach.
+     At desktop widths it stays put under the answer area instead of drifting to the bottom of a tall window. */
   .action-row {
     @apply sticky bottom-0 mt-auto bg-bg pt-2 pb-[max(0.5rem,env(safe-area-inset-bottom))];
+  }
+  @media (min-width: 768px) {
+    .action-row {
+      position: static;
+      margin-top: 0.25rem;
+      padding-bottom: 0;
+    }
   }
   /* Grows while pressed, then snaps back. */
   .btn-primary, .btn-submit, .btn-secondary, .choice, .chip {

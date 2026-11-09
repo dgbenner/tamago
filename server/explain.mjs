@@ -7,7 +7,8 @@ import Anthropic from '@anthropic-ai/sdk'
 const MODEL = 'claude-haiku-5-5'
 const SYSTEM = `You explain one mistake to an English speaker learning French at CEFR A1.
 You get the exercise, the learner's answer, the accepted answers, and word meanings taken from Wiktionary.
-Reply with one or two short, plain sentences saying what differs between the learner's answer and the closest accepted answer, and why it matters.
+Speak to the learner directly, as "you" ("You wrote maison; elles means they."). Never say "the learner".
+Reply with one or two short, plain sentences saying what differs between what they wrote and the closest accepted answer, and why it matters.
 Use only the information given. Do not define words or give verb forms beyond the meanings and answers provided; if the reason can't be told from them, just name the difference.
 No greeting, no praise, no exclamation marks, no lists, no markdown.`
 
@@ -32,7 +33,7 @@ export async function handle(req, key) {
   const accepted = (Array.isArray(b.accepted) ? b.accepted : []).slice(0, 8).map((a) => `- ${clip(a, 200)}`).join('\n')
   const prompt = `Exercise: ${exercise}
 Prompt shown: ${clip(b.shown, 200)}
-Learner's answer: ${clip(b.given, 200)}
+Your answer (the learner's): ${clip(b.given, 200)}
 Accepted answers:
 ${accepted}
 Word meanings (Wiktionary):

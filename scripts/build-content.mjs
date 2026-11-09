@@ -130,7 +130,10 @@ tables.grammar_notes = raw('grammar_notes').filter((n) => String(n.status).start
 tables.conjugations = Object.entries(conjugations).filter(([, t]) => t).map(([lemma, present]) => ({ lemma, present, source: `https://en.wiktionary.org/wiki/${encodeURIComponent(lemma)}#Conjugation` }))
 
 // feedback_phrases: English lines marked live; French lines only once the check passes.
+// Lines retired by a review decision stay in the workbook as off and never ship.
+const phrasesOff = new Set(decisions.phrases_off?.ids ?? [])
 tables.feedback_phrases = raw('feedback_phrases').flatMap((f) => {
+  if (phrasesOff.has(f.phrase_id)) return []
   if (f.language === 'fr') return fCheck.get(f.phrase_id)?.status === 'checked' ? [{ ...f, status: 'live', source_id: fCheck.get(f.phrase_id).source_id }] : []
   return isLive(f) ? [f] : []
 })

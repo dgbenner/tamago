@@ -96,6 +96,10 @@ const ruleRows = [{"rule_id":"R22","topic":"Score","rule":"A round finished for 
 const haveRules = new Set(sheet('lesson_rules').map((r) => r.rule_id))
 save('lesson_rules', [...sheet('lesson_rules'), ...ruleRows.filter((r) => !haveRules.has(r.rule_id))])
 
+// Feedback lines retired in review: status off, never deleted.
+const phrasesOff = new Set(decisions.phrases_off?.ids ?? [])
+if (phrasesOff.size && wb.Sheets.feedback_phrases) save('feedback_phrases', sheet('feedback_phrases').map((f) => (phrasesOff.has(f.phrase_id) && !String(f.status).startsWith('off') ? { ...f, status: 'off: retired in the craft review' } : f)))
+
 // README: version and changelog.
 const readme = sheet('README')
 const version = to.match(/v(\d+)/)?.[1]
