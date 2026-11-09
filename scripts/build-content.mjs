@@ -37,9 +37,17 @@ tables.tree_layout = raw('tree_layout')
 // A pulled or drafted sentence ships once its unit is approved, unless Dan cut it.
 const approved = (unitId) => decisions.units?.[unitId]?.action === 'approve'
 const cut = new Set(decisions.cut_sentences ?? [])
+// The native-speaker check (Phase 4): verdicts, fixes and recordings from scripts/import-native-check.mjs.
+const NATIVE = existsSync(join(ROOT, 'content/native-check.json')) ? JSON.parse(readFileSync(join(ROOT, 'content/native-check.json'), 'utf8')) : { checks: [], results: {} }
+const nativeLicensed = NATIVE.checks.some((c) => c.license_agreed)
+const squash = (t) => String(t ?? '').trim().replace(/\s+/g, ' ')
+// A fix not yet in the sentence is held back: the sentence doesn't ship until the fix is applied.
+const fixPending = (s) => { const n = NATIVE.results[s.sentence_id]; return n?.verdict === 'fix' && (squash(n.french_fix) !== squash(s.french) || squash(n.english_fix) !== squash(s.english)) }
+const heldBack = []
 const ships = (s) => !cut.has(s.sentence_id) && (s.origin === 'pull' ? approved(s.unit_id) : s.origin === 'draft' ? approved(s.unit_id) || isLive(tables.units.find((u) => u.unit_id === s.unit_id) ?? {}) : isLive(s))
 tables.sentences = raw('sentences').flatMap((s) => {
   if (!ships(s)) return []
+  if (fixPending(s)) { heldBack.push(s.sentence_id); return [] }
   const c = sCheck.get(s.sentence_id)
   if (s.origin === 'pull' && c?.status === 'checked') s = { ...s, source_id: c.source_id }
   if (!['checked', 'dan_reviewed'].includes(c?.status)) { bad.push(`${s.sentence_id} live in the workbook, check says ${c?.status}`); return [] }
@@ -47,9 +55,12 @@ tables.sentences = raw('sentences').flatMap((s) => {
   if (s.source !== c.source) bad.push(`${s.sentence_id} workbook source ${s.source}, check found ${c.source}`)
   if (s.origin !== 'workbook' && s.origin) s = { ...s, audio_source: c.audio_source } // the pull and drafts don't know about recordings; the check does
   if (s.audio_source !== c.audio_source) bad.push(`${s.sentence_id} workbook audio ${s.audio_source}, check found ${c.audio_source}`)
-  const native_check = String(s.status).includes('native check') ? 'needed before Phase 4' : ''
+  const n = NATIVE.results[s.sentence_id]
+  const native_check = n?.verdict ? 'checked by a native speaker' : String(s.status).includes('native check') ? 'needed before Phase 4' : ''
+  const native_recording = n?.audio_file && nativeLicensed && existsSync(join(ROOT, 'public/audio-native', n.audio_file))
+    ? { audio_file: `/audio-native/${n.audio_file}`, speaker: n.checker || 'a native speaker', license: 'CC BY-SA 4.0' } : undefined
   if (s.source === 'tamago_original' && !native_check) bad.push(`${s.sentence_id} is original with no native check marker`)
-  return [{ ...s, source_id: String(s.source_id), status: 'live', native_check, source_owner: c.source_owner, english_source: c.english_source, lingua_libre: c.lingua_libre }]
+  return [{ ...s, source_id: String(s.source_id), status: 'live', native_check, source_owner: c.source_owner, english_source: c.english_source, lingua_libre: c.lingua_libre, ...(native_recording ? { native_recording } : {}) }]
 })
 const live = new Set(tables.sentences.map((s) => s.sentence_id))
 tables.sentence_words = raw('sentence_words').filter((sw) => live.has(sw.sentence_id))
@@ -85,6 +96,8 @@ tables.accepted_answers = [
   ...raw('accepted_answers').flatMap((a) => {
     const c = aCheck.get(a.answer_id)
     if (!(isLive(a) || a.status === 'pulled') || !live.has(a.sentence_id)) return []
+    // An answer Dan approved from a learner's flag is his ruling, not a Tatoeba claim, so the check doesn't gate it.
+    if (String(a.source).startsWith('learner flag')) return [{ ...a, status: 'live' }]
     if (c?.status !== 'checked') { bad.push(`${a.answer_id} "${a.answer}" live in the workbook, check says ${c?.status}`); return [] }
     return [{ ...a, status: 'live' }]
   }),
@@ -161,3 +174,4 @@ const awaiting = raw('sentences').filter((s) => !live.has(s.sentence_id) && !cut
 const original = tables.sentences.filter((s) => s.source === 'tamago_original').length
 const fr = tables.accepted_answers.filter((a) => a.direction === 'fr_to_en').length
 console.log(`Shipped: ${tables.sentences.length} sentences (${tables.sentences.length - original} Tatoeba, ${original} Tamago originals), ${tables.words.length} words, ${fr} fr_to_en and ${tables.accepted_answers.length - fr} en_to_fr answers, ${tables.qa_answers.length} qa_answers, ${tables.feedback_phrases.length} feedback lines (${tables.feedback_phrases.filter((f) => f.language === 'fr').length} French), ${wanted.size} recordings. U01 status: ${tables.units[0].status}.${awaiting.length ? ` Not live, awaiting a ruling: ${awaiting.join(', ')}.` : ''}`)
+if (heldBack.length) console.log(`Held back until their native-speaker fix is applied: ${heldBack.join(', ')}.`)

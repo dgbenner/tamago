@@ -1,3 +1,4 @@
+import { recordingOf } from '../lib/lesson.js'
 import { useState } from 'react'
 import { play } from '../lib/audio.js'
 import { IconBack, IconSpeaker } from './icons.jsx'
@@ -48,7 +49,7 @@ export default function Words({ words, units, recallOf, examplesOf, tableOf, onM
                     <div className="flex flex-col gap-2 border-t-2 border-line px-3 py-2 text-sm">
                       <p className="text-muted">{[w.part_of_speech, w.gender && `(${w.gender})`, w.lemma !== w.form && `of ${w.lemma}`].filter(Boolean).join(' ')}</p>
                       {examplesOf(w.word_id).map((s) => (
-                        <button key={s.sentence_id} onClick={() => play({ french: s.french, file: s.lingua_libre?.audio_file ?? null })} className="flex items-start gap-2 text-left">
+                        <button key={s.sentence_id} onClick={() => play({ french: s.french, file: recordingOf(s) })} className="flex items-start gap-2 text-left">
                           <span className="mt-0.5 opacity-60 [&_svg]:size-4"><IconSpeaker /></span>
                           <span><span lang="fr">{s.french}</span> <span className="text-muted">{s.english}</span></span>
                         </button>

@@ -220,7 +220,9 @@ export function segmentFrench(c, s) {
   return out
 }
 
-const audioOf = (s) => ({ sentence_id: s.sentence_id, french: s.french, file: s.lingua_libre?.audio_file ?? null })
+// A native speaker's recording from the Phase 4 check plays first, then Lingua Libre's, then the device voice.
+export const recordingOf = (s) => s?.native_recording?.audio_file ?? s?.lingua_libre?.audio_file ?? null
+const audioOf = (s) => ({ sentence_id: s.sentence_id, french: s.french, file: recordingOf(s) })
 const answersFor = (c, s, direction) => c.accepted_answers.filter((a) => a.sentence_id === s.sentence_id && a.direction === direction).map((a) => a.answer)
 const chipCase = (row) => (row.notes === 'name' ? row.surface : String(row.surface).toLowerCase())
 
@@ -283,7 +285,7 @@ export function makeQuestion(c, type, s, round, rng, last, { cantListen = false,
     return { ...q, chips: shuffle([...rows.map(chipCase), ...frenchChipDistractors(c, rows, chipDistractorCount(type, round), rng)], rng) }
   }
   // Speaking (never graded): repeat what you hear (QT10), speak and compare (QT13). "Native" only with a real recording (R11).
-  if (type === 'QT10' || type === 'QT13') return { ...base, speaking: true, native: Boolean(s.lingua_libre?.audio_file), shown: s.french }
+  if (type === 'QT10' || type === 'QT13') return { ...base, speaking: true, native: Boolean(recordingOf(s)), shown: s.french }
   if (type === 'QT11') return { ...base, lang: 'fr', accepted: [s.french], shown: s.french }
   return { ...base, lang: 'fr', accepted: [s.french, ...answersFor(c, s, 'en_to_fr')], shown: s.french } // QT12
 }
@@ -297,7 +299,7 @@ export function makeWordImage(c, word, pool, round, rng, last) {
   if (last) last.QT02 = variant
   const n = variant === 'V0202' ? 4 : 3
   const others = shuffle(pool.filter((w) => w.word_id !== word.word_id && w.hint !== word.hint), rng).slice(0, n - 1)
-  const fileFor = (w) => c.sentences.find((s) => s.lingua_libre?.audio_file && normalize(s.french, 'fr') === normalize(w.form, 'fr'))?.lingua_libre.audio_file ?? null
+  const fileFor = (w) => recordingOf(c.sentences.find((s) => recordingOf(s) && normalize(s.french, 'fr') === normalize(w.form, 'fr')))
   return {
     qid: `QT02-${word.word_id}-${Math.floor(rng() * 1e9)}`, type: 'QT02', variant, round, skill: c.typeById.get('QT02').skill,
     word_ids: [word.word_id], word_id: word.word_id, form: word.form, hint: word.hint,
@@ -308,7 +310,7 @@ export function makeWordImage(c, word, pool, round, rng, last) {
 }
 
 export function makeMatchPairs(c, words, round, rng) {
-  const fileFor = (w) => c.sentences.find((s) => s.lingua_libre?.audio_file && normalize(s.french, 'fr') === normalize(w.form, 'fr'))?.lingua_libre.audio_file ?? null
+  const fileFor = (w) => recordingOf(c.sentences.find((s) => recordingOf(s) && normalize(s.french, 'fr') === normalize(w.form, 'fr')))
   const pairs = words.map((w) => ({ word_id: w.word_id, form: w.form, hint: w.hint, audio: { french: w.form, file: fileFor(w) } }))
   return {
     qid: `QT01-${words.map((w) => w.word_id).join('')}-${Math.floor(rng() * 1e9)}`, type: 'QT01', round, skill: c.typeById.get('QT01').skill,

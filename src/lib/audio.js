@@ -37,9 +37,14 @@ export function play(audio, { slow = false } = {}) {
     elements.set(audio.file, el)
     el.currentTime = 0
     el.playbackRate = slow ? 0.7 : 1
-    el.play().catch(() => {})
+    // A recording this browser can't play falls back to the device voice rather than silence.
+    el.play().catch((e) => { if (e?.name === 'NotSupportedError') speak(audio, slow) })
     return
   }
+  speak(audio, slow)
+}
+
+function speak(audio, slow) {
   if (!('speechSynthesis' in window)) return
   utterance = new SpeechSynthesisUtterance(audio.french)
   const voice = frenchVoice()

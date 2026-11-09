@@ -7,7 +7,7 @@ import { createRequire } from 'node:module'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v12.xlsx')
+const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v13.xlsx')
 const OUT = join(ROOT, 'content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)
@@ -85,6 +85,13 @@ if (existsSync(DRAFTS)) {
   }
   const qaKeys = new Set(tables.qa_answers.map((q) => q.question_sentence_id + '>' + q.answer_sentence_id))
   for (const q of drafts.qa_answers ?? []) if (!qaKeys.has(q.question_sentence_id + '>' + q.answer_sentence_id)) tables.qa_answers.push(q)
+}
+
+// Answers learners flagged as "should be accepted" and Dan approved on his device (Flag review, Phase 4), folded in by
+// scripts/import-flags.mjs. Skipped once the workbook holds them.
+{
+  const have = new Set(tables.accepted_answers.map((x) => x.answer_id))
+  for (const x of decisions.accepted_additions ?? []) if (!have.has(x.answer_id)) tables.accepted_answers.push({ ...x, origin: 'flag' })
 }
 
 const PRIMARY_KEYS = {

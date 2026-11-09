@@ -1,10 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
 
-// Records the learner for speak-and-compare. Nothing leaves the device, and nothing is kept after the question.
+// Records the learner for speak-and-compare (nothing leaves the device, nothing is kept after the question), and the
+// native speaker in the native-speaker check, which keeps the recording (blob).
 // state: idle, recording, done, unavailable (no microphone or permission refused).
 export function useRecorder() {
   const [state, setState] = useState(typeof MediaRecorder === 'undefined' || !navigator.mediaDevices?.getUserMedia ? 'unavailable' : 'idle')
   const [url, setUrl] = useState(null)
+  const [blob, setBlob] = useState(null)
   const rec = useRef(null)
   const audio = useRef(null)
 
@@ -21,7 +23,9 @@ export function useRecorder() {
       r.ondataavailable = (e) => chunks.push(e.data)
       r.onstop = () => {
         stream.getTracks().forEach((t) => t.stop())
-        setUrl(URL.createObjectURL(new Blob(chunks, { type: r.mimeType })))
+        const b = new Blob(chunks, { type: r.mimeType || chunks[0]?.type || 'audio/webm' })
+        setBlob(b)
+        setUrl(URL.createObjectURL(b))
         setState('done')
       }
       r.start()
@@ -38,5 +42,6 @@ export function useRecorder() {
     audio.current.src = url
     audio.current.play().catch(() => {})
   }
-  return { state, start, stop, playBack }
+  const reset = () => { setBlob(null); setUrl(null); setState((s) => (s === 'unavailable' ? s : 'idle')) }
+  return { state, start, stop, playBack, blob, reset }
 }

@@ -1,3 +1,4 @@
+import { explain } from '../lib/explain.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { checkTyped } from '../lib/check.js'
 import { useRecorder } from '../lib/recorder.js'
@@ -128,7 +129,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         <Question key={q.qid} {...props} />
       </div>
 
-      {result && !result.testSkip && <AnswerBar q={q} result={result} cantListen={cantListen} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id)} onContinue={advance} />}
+      {result && !result.testSkip && <AnswerBar q={q} result={result} cantListen={cantListen} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id, result)} onContinue={advance} />}
     </main>
   )
 }
@@ -428,7 +429,8 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
   const [text, setText] = useState('')
   const check = (value) => {
     document.activeElement?.blur()
-    onAnswer(checkTyped(value, q.accepted, { strict: settings.answer_strictness === 'strict', lang: q.lang, vocabulary: content.vocabulary[q.lang] }))
+    // The answer as given travels with the result, so a flag can carry it to Flag review.
+    onAnswer({ ...checkTyped(value, q.accepted, { strict: settings.answer_strictness === 'strict', lang: q.lang, vocabulary: content.vocabulary[q.lang] }), given: value })
   }
   const answerText = picked.map((i) => q.chips[i]).join(' ')
   return (
@@ -479,7 +481,7 @@ function Typed({ q, content, settings, result, onAnswer, newWords, hideFrench, o
   const [text, setText] = useState('')
   const check = () => {
     document.activeElement?.blur()
-    onAnswer(checkTyped(text, q.accepted, { strict: settings.answer_strictness === 'strict', lang: q.lang, vocabulary: content.vocabulary[q.lang] }))
+    onAnswer({ ...checkTyped(text, q.accepted, { strict: settings.answer_strictness === 'strict', lang: q.lang, vocabulary: content.vocabulary[q.lang] }), given: text })
   }
   return (
     <>
@@ -507,6 +509,14 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const good = result.correct || isPairs
   const [meaning, setMeaning] = useState(false)
   const phrase = result.phrase
+  // A wrong typed answer may get an explanation (Phase 4); it shows only once it has arrived.
+  const [why, setWhy] = useState(null)
+  const [showWhy, setShowWhy] = useState(false)
+  useEffect(() => {
+    let live = true
+    if (!good && result.given?.trim() && q.accepted?.length) explain(q, result.given).then((t) => live && setWhy(t))
+    return () => { live = false }
+  }, [])
   const fallback = q.speaking ? 'Done.' : good ? 'Nice.' : 'Not quite.'
   return (
     <section aria-live="polite" data-outcome={good ? 'correct' : 'incorrect'} className={`fixed inset-x-0 bottom-0 z-20 border-t-2 bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${good ? 'border-right' : 'border-wrong'}`}>
@@ -521,13 +531,16 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
             </p>
             {!isPairs && <p className="mt-0.5 break-words">{shown}</p>}
             {other && <p className="break-words text-muted">{other}</p>}
+            {why && (showWhy
+              ? <p className="mt-1 break-words text-sm">{why}</p>
+              : <button onClick={() => setShowWhy(true)} className="mt-1 text-sm text-muted underline decoration-dotted decoration-2 underline-offset-4">Why?</button>)}
           </div>
           <div className="flex shrink-0 text-muted">
             <button onClick={() => setPanel(panel === 'flag' ? null : 'flag')} aria-label="Flag this question" className="icon-btn"><IconFlag /></button>
             <button onClick={() => setPanel(panel === 'comment' ? null : 'comment')} aria-label="Comments" className="icon-btn"><IconComment /></button>
           </div>
         </div>
-        {panel === 'comment' && <p className="text-sm text-muted">Comments are coming later.</p>}
+        {panel === 'comment' && <p className="text-sm text-muted">Discussions need setup: they open once sign-in and a server are in place.</p>}
         {panel === 'flag' && (flagged
           ? <p className="text-sm text-muted">Flag saved.</p>
           : (

@@ -1,6 +1,6 @@
 # Tamago
 
-French learning app, installable web app, mobile first. React, Vite, Tailwind v4. No backend. Netlify config is in place; deploy only when Dan says.
+French learning app, installable web app, mobile first. React, Vite, Tailwind v4. No backend except one Netlify Function (netlify/functions/explain.mjs, Claude explains mistakes; off until ANTHROPIC_API_KEY is set in Netlify). A push to main deploys.
 
 Specs are in `_source/`: tamago-feature-list.md (what), build-phases.md (order of work), question-types.md (question logic), tamago-data-v4.xlsx (all content; lesson_rules tab holds R01 to R16), learning-methods.md (why), tamago-phase0-decisions.xlsx (decision log).
 The workbook is edited outside this repo and gets reissued. Never edit it here, and never write check results into it. A new version goes in `_source/` and becomes the default path in `scripts/import.mjs`.
@@ -17,7 +17,7 @@ From 2026-11-09 the build runs under `_source/autonomous-build.md`: phase by pha
 2. `check`: Tatoeba, Wiktionary and Lingua Libre to `content/checks/` and `content/review.md`. Generates the en_to_fr answers (workbook README). Downloads are cached in `.cache/`.
 3. `build:content`: writes `src/content/`, bundled into the app, and copies recordings to `public/audio/`. The workbook's status is the gate, and the build fails if the checks disagree with it.
 
-Dan's rulings go in `content/review-decisions.json`. Wiktionary sense choices go in `content/word-senses.json`.
+Dan's rulings go in `content/review-decisions.json` (also accepted_additions, from `node scripts/import-flags.mjs <file>`). The native-speaker check comes back as a file: `node scripts/import-native-check.mjs <file>` writes content/native-check.json and public/audio-native/ (m4a via ffmpeg, only with the checker's CC BY-SA consent); a fix to a workbook row holds that sentence back until the workbook has it. Wiktionary sense choices go in `content/word-senses.json`.
 
 Standing decisions:
 

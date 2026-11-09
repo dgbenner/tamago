@@ -1,6 +1,9 @@
 import { play } from '../lib/audio.js'
 import Logo from './Logo.jsx'
 import { IconBack, IconSpeaker } from './icons.jsx'
+import { useEffect, useState } from 'react'
+import { explainReady } from '../lib/explain.js'
+import NeedsSetup from './NeedsSetup.jsx'
 
 function Segmented({ label, help, value, options, onChange }) {
   return (
@@ -25,7 +28,9 @@ const pauseValue = (until) => {
 }
 const pauseUntil = (v) => (v === 'normal' ? null : v === 'always' ? 'always' : Date.now() + Number(v) * 60 * 1000)
 
-export default function Settings({ settings, onChange, onBack, onAbout, onPlacement, onVariants }) {
+export default function Settings({ settings, onChange, onBack, onAbout, onPlacement, onVariants, onProfile, onNativeCheck, onFlags, onForum }) {
+  const [explaining, setExplaining] = useState(null)
+  useEffect(() => { explainReady().then(setExplaining) }, [])
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="relative flex justify-center">
@@ -62,6 +67,19 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
         <p className="font-medium">Variant test bank</p>
         <p className="-mt-1 text-sm text-muted">Switch question variants between live, testing and off.</p>
         <button onClick={onVariants} className="btn-secondary">Open the variant test bank</button>
+      </div>
+      <button onClick={onProfile} className="btn-secondary">Profile and backup</button>
+      <div className="flex flex-col gap-2">
+        <p className="font-medium">Mistake explanations</p>
+        {explaining
+          ? <p className="-mt-1 text-sm text-muted">On. After a wrong typed answer, a Why? link appears once Claude's explanation is ready.</p>
+          : <NeedsSetup title="Claude explains mistakes">After a wrong typed answer, a short explanation from Claude. Needs an API key.</NeedsSetup>}
+      </div>
+      <div className="flex flex-col gap-2">
+        <p className="font-medium">For Dan</p>
+        <button onClick={onFlags} className="btn-secondary">Flag review</button>
+        <button onClick={onNativeCheck} className="btn-secondary">Native-speaker check</button>
+        <button onClick={onForum} className="btn-secondary">Forum</button>
       </div>
       <Segmented label="Testing shortcuts" help="Swipe left from the right side of the screen, or press the right arrow, to pass a question as correct. Passes are marked as tests." value={settings.test_shortcuts}
         options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ test_shortcuts: v })} />

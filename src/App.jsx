@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
-import { allContent, recordings, tables, unitContent } from './lib/content.js'
+import { addAccepted, allContent, recordings, tables, unitContent } from './lib/content.js'
 import { buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
-import { loadState, put, putKv, remove } from './lib/store.js'
+import { getKv, loadState, put, putKv, remove } from './lib/store.js'
 import { hasFrenchVoice, preload, stop } from './lib/audio.js'
 import Home from './screens/Home.jsx'
 import Lesson from './screens/Lesson.jsx'
@@ -16,6 +16,10 @@ import Words from './screens/Words.jsx'
 import Flashcards from './screens/Flashcards.jsx'
 import Verbs from './screens/Verbs.jsx'
 import VariantBank from './screens/VariantBank.jsx'
+import Profile from './screens/Profile.jsx'
+import NativeCheck from './screens/NativeCheck.jsx'
+import FlagReview from './screens/FlagReview.jsx'
+import Forum from './screens/Forum.jsx'
 
 const FIRST_UNIT = tables.units[0].unit_id
 const c = allContent // settings defaults, flags and other shared tables
@@ -63,6 +67,9 @@ export default function App() {
   const [flash, setFlash] = useState(null)
   // Phase 3: the topic chosen at the Your topic node (a pack unit id), or null.
   const [topicChoice, setTopicChoice] = useState(null)
+  // Phase 4: profile (screen name), native-speaker check results.
+  const [profile, setProfile] = useState({})
+  const [nativeResults, setNativeResults] = useState({})
 
   useEffect(() => {
     preload(recordings)
@@ -87,6 +94,9 @@ export default function App() {
       setCheckpoints(s.kv.checkpoints ?? {})
       applyVariants(s.kv.variant_status ?? {})
       if (s.kv.topic_choice) setTopicChoice(s.kv.topic_choice)
+      setProfile(s.kv.profile ?? {})
+      setNativeResults(s.kv.native_check ?? {})
+      if (s.kv.approved_answers?.length) addAccepted(s.kv.approved_answers)
       if (s.kv.current_session) setSession(s.kv.current_session)
       setReady(true)
     })
@@ -329,8 +339,14 @@ export default function App() {
     put('hints_log', { hint_id: uid(), word_id: seg.word_id, sentence_id: q.sentence_id, tapped_at: new Date().toISOString() })
   }
 
-  const onFlag = (q, reason_id) => {
-    put('flags', { flag_id: uid(), sentence_id: q.sentence_id ?? q.word_ids.join(';'), type_id: q.type, reason_id, flagged_at: new Date().toISOString() })
+  // Flags (version 2): the answer as given, its direction and the sentence travel with the flag, for Flag review.
+  // Listening types (QT07, QT11) accept only the sentence heard, so their answers can't be approved.
+  const onFlag = (q, reason_id, result) => {
+    const direction = q.type === 'QT07' || q.type === 'QT11' || q.type === 'QT09' ? null : q.lang === 'fr' ? 'en_to_fr' : q.lang === 'en' ? 'fr_to_en' : null
+    put('flags', {
+      flag_id: uid(), sentence_id: q.sentence_id ?? q.word_ids.join(';'), type_id: q.type, reason_id, flagged_at: new Date().toISOString(),
+      given: result?.given ?? null, correct: result?.correct ?? null, direction, french: q.french ?? null, english: q.english ?? null, status: 'open',
+    })
   }
 
   const finish = (s) => {
@@ -477,7 +493,25 @@ export default function App() {
     return <Progress scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
       onCheck={startCheck} onBack={() => setScreen('home')} />
   }
-  if (screen === 'settings') return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPlacement={startPlacement} onVariants={() => setScreen('variants')} />
+  if (screen === 'settings') {
+    return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPlacement={startPlacement} onVariants={() => setScreen('variants')}
+      onProfile={() => setScreen('profile')} onNativeCheck={() => setScreen('native')} onFlags={() => setScreen('flags')} onForum={() => setScreen('forum')} />
+  }
+  if (screen === 'profile') return <Profile profile={profile} onChange={(p) => { const n = { ...profile, ...p }; setProfile(n); putKv('profile', n) }} onBack={() => setScreen('settings')} />
+  if (screen === 'native') {
+    const order = new Map(tables.units.map((u) => [u.unit_id, u]))
+    const list = tables.sentences.filter((s) => s.source === 'tamago_original')
+      .map((s) => ({ ...s, unit_title: `${order.get(s.unit_id).is_topic_pick === 'yes' ? 'Topic' : 'Unit ' + order.get(s.unit_id).order}: ${order.get(s.unit_id).title}` }))
+      .sort((x, y) => order.get(x.unit_id).order - order.get(y.unit_id).order || x.sentence_id.localeCompare(y.sentence_id))
+    return <NativeCheck sentences={list} results={nativeResults} onChange={(n) => { setNativeResults(n); putKv('native_check', n) }} onBack={() => setScreen('settings')} />
+  }
+  if (screen === 'flags') {
+    return <FlagReview reasons={tables.flag_reasons} onBack={() => setScreen('settings')} onAccept={(row) => {
+      addAccepted([row])
+      getKv('approved_answers').then((list) => putKv('approved_answers', [...(list ?? []), row]))
+    }} />
+  }
+  if (screen === 'forum') return <Forum onBack={() => setScreen('settings')} />
   if (screen === 'about') return <About content={allContent} onBack={() => setScreen('settings')} />
   if (screen === 'note' && note) {
     const unit = tables.units.find((u) => u.unit_id === note.unitId)

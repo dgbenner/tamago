@@ -2,6 +2,59 @@
 
 Kept under _source/autonomous-build.md. Newest phase first.
 
+## Phase 4: accounts and community, the parts that need no account (November 9, 2026)
+
+**Built**
+
+- Native-speaker check kit:
+  - Settings, Native-speaker check: the 154 tamago_original sentences one at a time. Each gets Natural or Needs a fix, a corrected French and English, a note, and a recording (kept in kv as a Blob). There is a name for the credits and a CC BY-SA 4.0 consent box.
+  - "Save the results" writes one JSON file.
+  - scripts/import-native-check.mjs folds the file in:
+    - Verdicts go to content/native-check.json.
+    - Recordings go to public/audio-native/, converted to AAC .m4a with ffmpeg so iPhones play them, and only with consent.
+    - A fix to a draft is written into drafts.json, and import re-checks its words. A fix to a workbook row is listed and held back from the build until applied.
+  - The build marks checked sentences "checked by a native speaker" and ships each recording as native_recording. The app plays it before Lingua Libre's or the device voice. About credits the speakers.
+- Answer flags, version 2:
+  - A flag now carries the answer as given, its direction (en_to_fr or fr_to_en; none for listening types and QT09), the sentence and status.
+  - Settings, Flag review: answers to review (Accept or Not right), content issues and bugs.
+  - Accepting counts the answer on this device at once (kv approved_answers, applied at startup through addAccepted).
+  - "Save for Claude" writes the flags file. scripts/import-flags.mjs adds accepted answers to decisions.accepted_additions (AF0001 on), which ship for everyone at the next deploy and reach the workbook at the next sync. Open flags go to content/flags-inbox.json.
+- Profile and backup: a screen name (kv profile), and a backup of every store to one JSON file, with Blobs as data URLs, plus restore. This is how progress moves between devices until sync exists. Email and sign-in show as needs setup.
+- Claude explains mistakes: netlify/functions/explain.mjs uses @anthropic-ai/sdk 1.6.0 and claude-haiku-5-5 at low effort.
+  - GET reports whether ANTHROPIC_API_KEY is set; POST answers in one or two sentences, using only the exercise, the accepted answers and the Wiktionary hints sent with it. It refuses other origins.
+  - In a lesson, a wrong typed answer asks for an explanation in the background, and the answer bar shows "Why?" only once one has arrived; Continue never waits. There's a cap of 30 a day per device.
+  - Settings shows on, or needs setup.
+- Discussions and the forum: the answer bar's comment panel says discussions need setup. A Forum screen (Settings) shows the agreed sections (Sentence Discussions with Unanswered, French; Popular, New, Followed) as needs setup.
+- Workbook v13: no content change; a changelog row for the new side files.
+- Checked in Chrome and Firefox:
+  - The Why? link, with the function mocked. Continue shows at once and Why? about a second later. No real API call was made: it costs money and there is no key.
+  - Flag, accept and save, then import-flags and the build. AF0001 shipped.
+  - The native check, with a fake microphone, then the import and build. The recording shipped as m4a, and the workbook fix was held back.
+  - Backup, a full wipe, then restore. The profile, progress, flags and recording came back.
+  - Test content was reverted afterwards.
+
+**Decisions**
+
+- Native-check recordings need the checker's explicit consent to CC BY-SA 4.0 (the license the content shares under). Without it they are kept in the file but never used.
+- A native fix is never applied silently to a workbook row: the sentence is held back until the workbook holds the fix, so sentence_words stay right.
+- Flags from other learners would need a server, so "for everyone" goes through Dan: accept on the device, save the file, Claude imports, deploy.
+- The explanation model is the feature list's "smaller, cheaper model for answer checking": Haiku 5.5, at low effort. The prompt forbids definitions and verb forms beyond the hints and answers sent, which keeps to "no facts from model memory".
+- There is no loading state in lessons: the explanation is fetched in the background and only a ready one is offered.
+- A recording a browser can't play falls back to the device voice.
+- The For Dan tools (Flag review, Native-speaker check, Forum) sit in Settings and stay out of home.
+
+**Stubbed (needs setup)**
+
+- Email, sign-in and sync across devices: need an account service.
+- Sentence discussions, the forum and Claude's spam screening: need sign-in and a server.
+- Flags arriving from testers' devices: need a server. Until then, a file per tester.
+- Claude explanations: need ANTHROPIC_API_KEY in Netlify. A per-learner server-side limit comes with sign-in.
+- 5 to 10 testers: Dan's call.
+
+**Waiting for Dan**
+
+- Setup steps are in check-in.md.
+
 ## Phase 3: word list, flashcards, verbs, topic packs, variant bank, checkpoints (November 9, 2026)
 
 **Built**

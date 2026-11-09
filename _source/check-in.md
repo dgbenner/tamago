@@ -1,37 +1,38 @@
 # Tamago check-in
 
-Updated November 9, 2026, end of Phase 3.
+Updated November 9, 2026, end of Phase 4, as far as it goes without accounts. Phase 3 was finished earlier today; it's in the build log.
 
 ## Done since last check-in
 
-- **Phase 3 (live):**
-  - **Words:** every word you've met, with how well you know it, its verb table and example sentences. From there, Match (recognition) and Flashcards (recall, scheduled like the strength bars, with an option to say each card aloud).
-  - **Verbs:** the present tense of every verb you've met (être, manger, aimer, avoir, chanter), from Wiktionary, with a drill one person at a time.
-  - **Review checkpoints** on the tree after rows 2 and 3: ten questions across the units above, weakest first. They open once those units finish round 1, and they never lock anything.
-  - **Your topic (Unit 6):** pick one of seven topics: Weather, Family, Home, Music, Coffee shop, Supermarket, The beach. Each runs like a unit, with five rounds. You can switch topics from the unit card, and each topic keeps its progress.
-  - **Variant test bank** (Settings): switch each question variant between live, testing and off. A type always keeps one live variant.
-- Workbook v12 holds everything; its README has the changelog.
+- **Phase 3 (live):** Words with Match and Flashcards; Verbs; review checkpoints; Your topic (Unit 6) with seven topics; the variant test bank.
+- **Phase 4 (live), everything that needs no account:**
+  - **Native-speaker check** (Settings, For Dan): the checker goes through the 154 sentences on any phone. Each one is marked Natural or Needs a fix, with a corrected version, a note and a recording, then saved as one file for you. I fold the file in: checked sentences are marked, fixes are applied, and recordings play in lessons, converted so iPhones play them too.
+  - **Flag review** (Settings, For Dan): "My answer should be accepted" flags now keep what was typed. Accept counts it on this device at once. Save for Claude, and after my import it counts for everyone at the next deploy.
+  - **Profile and backup** (Settings): a screen name, and a backup file that carries all progress to another phone or browser.
+  - **Claude explains mistakes**: built, and off until there's a key. After a wrong typed answer a quiet "Why?" appears once the explanation has arrived; nothing waits for it.
+  - **Discussions and Forum**: shown as needs setup, with the agreed sections.
+- Workbook v13 (no content change; changelog row).
 
 ## Decisions made
 
-- **Topic packs:**
-  - 142 sentences in all: 72 from Tatoeba and 70 drafted, so that every topic word appears in at least 3.
-  - I cut 14 pulled sentences:
-    - **Idioms:** "Il est temps", "Il est grand temps", "Il est bien temps", "La famille, c'est la famille".
-    - **Misleading:** "Il neige" (neige as a verb), "Ils sont parents" (relatives), "C'est une grande chanson" (grande as great), "Le Soleil est grand" (the astronomical Sun).
-    - **Odd:** "Au revoir, mère", "Bonjour, père", "Bonne nuit, Mère !", "Je suis un bébé", "Je suis une banane", « Salut. » « Café. ».
-- **Topics stay out of** placement, checkpoints and your scores until you start one.
-- **Answer the question in topics:** only Music has a question pair. The other topics swap that question for a writing question of the same skill, recorded as fallback rows in the workbook.
-- **New words:** a unit's lessons now count only its own words as new, and words from earlier units are always allowed. Without this, the first topic lesson treated je, aime and la as new, which crashed it; the same could happen after placement.
-- **Answer choices:** some sentences share an English line ("Horses are animals."), and review and practice could show the same choice twice. Choices are now always distinct.
-- **Short hints with sources:** "snow" for neige (Wiktionary's is long), and "parents" for parents (Wiktionary's sense of parent; the first sense was "relative"). My hints for chambre and bateau are labelled as mine, not yours.
-- **Earlier phases:** approved Unit 2 myself; OpenMoji pictures; speaking gets a neutral "Done."; the score rules in Phase 2c.
+- **Recordings:** the checker ticks a box to share their recordings under CC BY-SA 4.0, credited on About. Without the tick they aren't used.
+- **Fixes to Unit 1 sentences** (which come from the workbook, not drafts) are held back from the app until I've applied them, so nothing half-fixed ships.
+- **Explanations:** the cheaper model the feature list asks for (Claude Haiku 5.5). It may only use the sentence, the accepted answers and the Wiktionary hints, so no definitions from memory. There's a cap of 30 a day per device until sign-in allows a real per-learner limit.
+- **Phase 3:** topics stay out of placement, checkpoints and scores until chosen. I cut 14 pulled topic sentences that were idioms, misleading or odd. The first topic lesson crashed; a new-word rule fixes it (only a unit's own words count as new).
 
 ## Waiting for Dan
 
-- **Try it on the phone:** finish round 1 of Units 4 and 5 (or use the placement check), then open Unit 6 and pick a topic.
-- **Native-speaker check (before Phase 4):** 154 sentences, 18 in Unit 1 and the 136 drafts below.
-- **Hosting:** the Netlify free plan's badge can't be hidden; moving to Cloudflare Pages needs your account.
+1. **Native-speaker check.** Arrange the person. On their phone they open https://tamago-590.netlify.app, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
+2. **Claude explanations (costs money, needs your API key).**
+   1. In the Anthropic Console (https://console.anthropic.com), create an API key.
+   2. In Netlify (https://app.netlify.com), open the site tamago-590, then Site configuration, then Environment variables. Add ANTHROPIC_API_KEY with the key as its value.
+   3. Under Deploys, choose Trigger deploy. Settings then shows explanations as on.
+   - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output, and one explanation is a few hundred tokens. A thousand explanations cost well under a dollar.
+3. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
+4. **Testers (your call).** When you say go, I'll turn Testing shortcuts off by default and give you the link to send. Until there's a server, testers send their flags by saving the flags file.
+5. **Earlier items:**
+   - Try the topics and Words on your phone.
+   - Hosting: the Netlify badge can't be hidden; moving to Cloudflare Pages needs your account.
 
 ## Drafted sentences
 

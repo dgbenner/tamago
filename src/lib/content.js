@@ -33,4 +33,10 @@ export const unitContent = (unitId) => {
   if (!cache.has(unitId)) cache.set(unitId, contentForUnit(tables, unitId))
   return cache.get(unitId)
 }
-export const recordings = sentences.filter((s) => s.lingua_libre?.audio_file).map((s) => s.lingua_libre.audio_file)
+// Answers approved in Flag review apply on this device at once; clearing the unit cache rebuilds lessons with them.
+export function addAccepted(rows) {
+  const have = new Set(tables.accepted_answers.map((a) => `${a.sentence_id}|${a.direction}|${a.answer}`))
+  for (const r of rows) if (!have.has(`${r.sentence_id}|${r.direction}|${r.answer}`)) tables.accepted_answers.push({ ...r, status: 'live' })
+  cache.clear()
+}
+export const recordings = sentences.map((s) => s.native_recording?.audio_file ?? s.lingua_libre?.audio_file).filter(Boolean)
