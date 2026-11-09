@@ -25,7 +25,7 @@ Updated November 9, 2026, end of Phase 4, as far as it goes without accounts. Ph
 1. **Native-speaker check.** Arrange the person. On their phone they open https://tamago-590.netlify.app, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
 2. **Claude explanations (costs money, needs your API key).**
    1. In the Anthropic Console (https://console.anthropic.com), create an API key.
-   2. In Netlify (https://app.netlify.com), open the site tamago-590, then Site configuration, then Environment variables. Add ANTHROPIC_API_KEY with the key as its value.
+   2. In Netlify (https://app.netlify.com), open the site tamago-590, then Site configuration, then Environment variables. Add TAMAGO_ANTHROPIC_API_KEY with the key as its value. Use a key made for Tamago: your Netlify account already has an ANTHROPIC_API_KEY (from another project, I assume), and Tamago deliberately ignores it. For about two minutes after the first Phase 4 deploy the function would have used that shared key; it was only reachable after a wrong typed answer on the live site, and the fix went live right after.
    3. Under Deploys, choose Trigger deploy. Settings then shows explanations as on.
    - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output, and one explanation is a few hundred tokens. A thousand explanations cost well under a dollar.
 3. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.

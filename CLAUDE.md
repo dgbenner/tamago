@@ -1,6 +1,6 @@
 # Tamago
 
-French learning app, installable web app, mobile first. React, Vite, Tailwind v4. No backend except one Netlify Function (netlify/functions/explain.mjs, Claude explains mistakes; off until ANTHROPIC_API_KEY is set in Netlify). A push to main deploys.
+French learning app, installable web app, mobile first. React, Vite, Tailwind v4. No backend except one Netlify Function (netlify/functions/explain.mjs, Claude explains mistakes; off until TAMAGO_ANTHROPIC_API_KEY is set in Netlify; never fall back to a generic ANTHROPIC_API_KEY, which Dan's Netlify account already holds for something else). A push to main deploys.
 
 Specs are in `_source/`: tamago-feature-list.md (what), build-phases.md (order of work), question-types.md (question logic), tamago-data-v4.xlsx (all content; lesson_rules tab holds R01 to R16), learning-methods.md (why), tamago-phase0-decisions.xlsx (decision log).
 The workbook is edited outside this repo and gets reissued. Never edit it here, and never write check results into it. A new version goes in `_source/` and becomes the default path in `scripts/import.mjs`.

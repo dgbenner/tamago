@@ -21,7 +21,7 @@ Kept under _source/autonomous-build.md. Newest phase first.
   - "Save for Claude" writes the flags file. scripts/import-flags.mjs adds accepted answers to decisions.accepted_additions (AF0001 on), which ship for everyone at the next deploy and reach the workbook at the next sync. Open flags go to content/flags-inbox.json.
 - Profile and backup: a screen name (kv profile), and a backup of every store to one JSON file, with Blobs as data URLs, plus restore. This is how progress moves between devices until sync exists. Email and sign-in show as needs setup.
 - Claude explains mistakes: netlify/functions/explain.mjs uses @anthropic-ai/sdk 1.6.0 and claude-haiku-5-5 at low effort.
-  - GET reports whether ANTHROPIC_API_KEY is set; POST answers in one or two sentences, using only the exercise, the accepted answers and the Wiktionary hints sent with it. It refuses other origins.
+  - GET reports whether TAMAGO_ANTHROPIC_API_KEY is set; POST answers in one or two sentences, using only the exercise, the accepted answers and the Wiktionary hints sent with it. It refuses other origins.
   - In a lesson, a wrong typed answer asks for an explanation in the background, and the answer bar shows "Why?" only once one has arrived; Continue never waits. There's a cap of 30 a day per device.
   - Settings shows on, or needs setup.
 - Discussions and the forum: the answer bar's comment panel says discussions need setup. A Forum screen (Settings) shows the agreed sections (Sentence Discussions with Unanswered, French; Popular, New, Followed) as needs setup.
@@ -41,6 +41,7 @@ Kept under _source/autonomous-build.md. Newest phase first.
 - The explanation model is the feature list's "smaller, cheaper model for answer checking": Haiku 5.5, at low effort. The prompt forbids definitions and verb forms beyond the hints and answers sent, which keeps to "no facts from model memory".
 - There is no loading state in lessons: the explanation is fetched in the background and only a ready one is offered.
 - A recording a browser can't play falls back to the device voice.
+- The key is Tamago-only (TAMAGO_ANTHROPIC_API_KEY, passed to the SDK explicitly). After the first Phase 4 deploy the live function reported ready, because Dan's Netlify account already holds an ANTHROPIC_API_KEY, apparently from another project. Using it would spend money on a key not given to Tamago, so the fix went live within minutes (3087a22).
 - The For Dan tools (Flag review, Native-speaker check, Forum) sit in Settings and stay out of home.
 
 **Stubbed (needs setup)**
@@ -48,7 +49,7 @@ Kept under _source/autonomous-build.md. Newest phase first.
 - Email, sign-in and sync across devices: need an account service.
 - Sentence discussions, the forum and Claude's spam screening: need sign-in and a server.
 - Flags arriving from testers' devices: need a server. Until then, a file per tester.
-- Claude explanations: need ANTHROPIC_API_KEY in Netlify. A per-learner server-side limit comes with sign-in.
+- Claude explanations: need TAMAGO_ANTHROPIC_API_KEY in Netlify. A per-learner server-side limit comes with sign-in.
 - 5 to 10 testers: Dan's call.
 
 **Waiting for Dan**
