@@ -1,0 +1,53 @@
+import { play } from '../lib/audio.js'
+import { IconBack, IconSpeaker } from './icons.jsx'
+
+// A unit's grammar note: the rule in plain words, examples from the unit with audio, and the verb table from
+// Wiktionary. Shown once before the unit's first lesson; always one tap away on the unit card.
+export default function GrammarNote({ unit, note, sentenceById, onDone, doneLabel, onBack }) {
+  return (
+    <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-4 pt-[max(0.75rem,env(safe-area-inset-top))]">
+      <header className="flex items-center gap-2">
+        <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
+        <div>
+          <p className="text-sm text-muted">Unit {unit.order} · Grammar note</p>
+          <h1 className="text-xl font-semibold">{unit.title}</h1>
+        </div>
+      </header>
+
+      <p className="text-lg leading-relaxed">{note.rule}</p>
+
+      <ul className="flex flex-col gap-2">
+        {note.examples.map((id) => sentenceById.get(id)).filter(Boolean).map((s) => (
+          <li key={s.sentence_id} className="flex items-start gap-3 rounded-xl border-2 border-line bg-surface p-3">
+            <button onClick={() => play({ french: s.french, file: s.lingua_libre?.audio_file ?? null })} aria-label="Play" className="icon-btn -m-1 shrink-0 [&_svg]:size-5"><IconSpeaker /></button>
+            <div>
+              <p lang="fr" className="text-lg">{s.french}</p>
+              <p className="text-muted">{s.english}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+
+      {note.conjugations.filter((t) => t.present).map((t) => (
+        <section key={t.lemma} className="flex flex-col gap-2">
+          <h2 className="font-semibold"><span lang="fr">{t.lemma}</span>, present</h2>
+          <table className="w-full border-collapse text-left">
+            <tbody>
+              {t.present.map((row) => (
+                <tr key={row.person} className="border-b-2 border-line">
+                  <td lang="fr" className="py-1.5 pr-4 text-muted">{row.person}</td>
+                  <td lang="fr" className="py-1.5 font-semibold">{row.form}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <a href={t.source} target="_blank" rel="noreferrer" className="text-sm text-muted underline underline-offset-2">Table from Wiktionary</a>
+        </section>
+      ))}
+
+      <div className="sticky bottom-0 -mx-4 mt-auto bg-bg px-4 pt-2 pb-[max(1rem,env(safe-area-inset-bottom))]">
+        <button onClick={onDone} className="btn-submit w-full">{doneLabel}</button>
+      </div>
+    </main>
+  )
+}

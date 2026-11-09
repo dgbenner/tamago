@@ -97,6 +97,16 @@ tables.cant_swaps = raw('cant_swaps').map((c) => {
   return { ...c, rule: { type, variant: variant ?? null, from, to } }
 })
 
+// Grammar notes: examples must be live sentences; tables come from the Wiktionary check.
+const conjugations = read('content/checks/conjugations.json')
+tables.grammar_notes = raw('grammar_notes').filter((n) => String(n.status).startsWith('live')).map((n) => {
+  const examples = String(n.example_sentence_ids).split(';').filter(Boolean)
+  for (const id of examples) if (!live.has(id)) bad.push(`grammar note ${n.unit_id}: example ${id} is not a live sentence`)
+  const tables_ = String(n.conjugation_lemma).split(';').map((l) => l.trim()).filter(Boolean).map((l) => ({ lemma: l, present: conjugations[l] ?? null, source: `https://en.wiktionary.org/wiki/${encodeURIComponent(l)}#Conjugation` }))
+  for (const t of tables_) if (!t.present) bad.push(`grammar note ${n.unit_id}: no Wiktionary table for ${t.lemma}`)
+  return { ...n, examples, conjugations: tables_ }
+})
+
 // feedback_phrases: English lines marked live; French lines only once the check passes.
 tables.feedback_phrases = raw('feedback_phrases').flatMap((f) => {
   if (f.language === 'fr') return fCheck.get(f.phrase_id)?.status === 'checked' ? [{ ...f, status: 'live', source_id: fCheck.get(f.phrase_id).source_id }] : []
@@ -110,6 +120,15 @@ if (bad.length) {
   console.error('Build gate failed, nothing written:\n  ' + bad.join('\n  '))
   process.exit(1)
 }
+
+// Pictures for word to image, copied into the app so they work offline.
+const IMAGE_SET = read('content/images.json').set
+mkdirSync(join(ROOT, 'public/images/openmoji'), { recursive: true })
+for (const w of tables.words.filter((x) => x.image_file)) {
+  const code = w.image_file.match(/openmoji\/(\w+)\.svg/)?.[1]
+  if (code) await getFile(IMAGE_SET.file_url.replace('{code}', code), join(ROOT, 'public/images', w.image_file))
+}
+tables.image_set = [IMAGE_SET]
 
 // Recordings.
 mkdirSync(AUDIO, { recursive: true })

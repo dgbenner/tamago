@@ -1,0 +1,106 @@
+{
+  "être": [
+    {
+      "person": "je (j’)",
+      "form": "suis"
+    },
+    {
+      "person": "tu",
+      "form": "es"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "est"
+    },
+    {
+      "person": "nous",
+      "form": "sommes"
+    },
+    {
+      "person": "vous",
+      "form": "êtes"
+    },
+    {
+      "person": "ils, elles",
+      "form": "sont"
+    }
+  ],
+  "manger": [
+    {
+      "person": "je (j’)",
+      "form": "mange"
+    },
+    {
+      "person": "tu",
+      "form": "manges"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "mange"
+    },
+    {
+      "person": "nous",
+      "form": "mangeons"
+    },
+    {
+      "person": "vous",
+      "form": "mangez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "mangent"
+    }
+  ],
+  "aimer": [
+    {
+      "person": "je (j’)",
+      "form": "aime"
+    },
+    {
+      "person": "tu",
+      "form": "aimes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "aime"
+    },
+    {
+      "person": "nous",
+      "form": "aimons"
+    },
+    {
+      "person": "vous",
+      "form": "aimez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "aiment"
+    }
+  ],
+  "avoir": [
+    {
+      "person": "je (j’)",
+      "form": "ai"
+    },
+    {
+      "person": "tu",
+      "form": "as"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "a"
+    },
+    {
+      "person": "nous",
+      "form": "avons"
+    },
+    {
+      "person": "vous",
+      "form": "avez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "ont"
+    }
+  ]
+}

@@ -2,6 +2,33 @@
 
 Kept under _source/autonomous-build.md. Newest phase first.
 
+## Phase 2b: grammar notes, speaking, word to image (November 9, 2026)
+
+**Built**
+
+- Grammar note before each unit's first lesson, once, and from the unit card any time: the rule in plain words, three examples from the unit's live sentences with audio, and the present tense read from Wiktionary's own conjugation table (être, manger, aimer, avoir). The build fails if an example isn't live or a table can't be read.
+- Speaking, never graded: Say it aloud (QT10, V1002: audio, the French behind a tap, Done) from round 1, and Speak and compare (QT13) in rounds 4 and 5: V1301 records you and plays the model and yours side by side; V1302 gives the English, you say it from memory, then compare. Recording stays on the device and is dropped after the question. With no microphone, Done still works. Each counts a point (R14) and stays out of the score and the pass (R05).
+- Word to image (QT02): OpenMoji 15.1.0 pictures (CC BY-SA 4.0) for the 19 nouns marked needs_image, saved in the app for offline use and credited on About the content. V0201 French word and three pictures; V0202 English word and four pictures labelled in French.
+- Workbook v9: grammar_notes tab, words.image_file, phase1_fallbacks status column (QT09, QT10, QT13 rows off; QT02 kept).
+
+**Decisions**
+
+- Picture set: OpenMoji, because it's openly licensed (CC BY-SA 4.0, credited), covers every needs_image noun and works offline as small SVGs.
+- Word to image falls back to Pick the meaning when fewer than 3 pictured words have been met (the first lessons of a unit) or a unit has fewer than 3 pictured words in all, using the QT02 fallback row.
+- Units 2 and 3 have no pictured words of their own, so their word to image questions use Unit 1's (R21 allows words from opened units).
+- Grammar note rules are mine, in plain words; every example is a live sentence and every verb form comes from Wiktionary.
+- Speaking gets no feedback line in the answer bar ("Done."), since nothing is judged.
+- The end-of-lesson line counts graded questions only ("8 of 8."), since speaking isn't scored.
+- Speak and compare says "Native recording" only where Lingua Libre has one (R11); otherwise "Model".
+
+**Stubbed**
+
+- Grammar note link from the answer bar (learning-methods 15): not built; the unit card has it.
+
+**Waiting for Dan**
+
+- Nothing new.
+
 ## Phase 2a: Units 2 to 5, the learning tree, home screen (November 9, 2026)
 
 **Built**

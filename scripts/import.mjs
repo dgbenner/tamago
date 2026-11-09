@@ -7,7 +7,7 @@ import { createRequire } from 'node:module'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v8.xlsx')
+const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v9.xlsx')
 const OUT = join(ROOT, 'content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)
@@ -39,6 +39,20 @@ for (const f of existsSync(PULL) ? readdirSync(PULL).filter((x) => /^U\d+\.json$
   const qaKeys = new Set(tables.qa_answers.map((q) => q.question_sentence_id + '>' + q.answer_sentence_id))
   tables.qa_answers.push(...p.qa_answers.filter((q) => !qaKeys.has(q.question_sentence_id + '>' + q.answer_sentence_id)))
 }
+// Grammar notes (content/grammar_notes.json) until the workbook has its grammar_notes tab rows.
+const NOTES = join(ROOT, 'content/grammar_notes.json')
+tables.grammar_notes ??= []
+if (existsSync(NOTES)) {
+  const have = new Set(tables.grammar_notes.map((n) => n.unit_id))
+  for (const n of JSON.parse(readFileSync(NOTES, 'utf8')).notes) if (!have.has(n.unit_id)) tables.grammar_notes.push(n)
+}
+// Pictures for word to image (content/images.json) fill words.image_file where the workbook has none.
+const IMAGES = join(ROOT, 'content/images.json')
+if (existsSync(IMAGES)) {
+  const img = JSON.parse(readFileSync(IMAGES, 'utf8'))
+  for (const w of tables.words) if (!w.image_file && img.words[w.word_id]) w.image_file = `openmoji/${img.words[w.word_id]}.svg`
+}
+
 // Sentences Claude drafted at Dan's request (content/drafts.json), split into words here.
 const DRAFTS = join(ROOT, 'content/drafts.json')
 if (existsSync(DRAFTS)) {

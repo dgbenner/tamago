@@ -2,7 +2,10 @@
 // Rule numbers (R01...) refer to the workbook's lesson_rules tab.
 import { normalize } from './check.js'
 
-export const BUILT_TYPES = new Set(['QT01', 'QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT09', 'QT11', 'QT12'])
+export const BUILT_TYPES = new Set(['QT01', 'QT02', 'QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT09', 'QT10', 'QT11', 'QT12', 'QT13'])
+// Word to image needs at least 3 pictured words to choose between.
+const MIN_PICTURES = 3
+const pictured = (c) => c.words.filter((w) => w.image_file)
 const AUDIO_TYPES = new Set(['QT04', 'QT07', 'QT11'])
 const MAX_NEW_WORDS = 4 // R01
 const PASS_SHARE = 0.7 // R05
@@ -90,7 +93,8 @@ export function mixSlots(c, round, { cantListen = false, cantSpeak = false } = {
   const out = []
   for (const m of c.round_type_mix.filter((x) => x.round === round)) {
     let type = m.type_id
-    if (!BUILT_TYPES.has(type)) type = c.phase1_fallbacks.find((f) => f.round === round && f.missing_type === type)?.substitute_type ?? type
+    // A type not built yet, or word to image in a unit with too few pictures, takes its phase1_fallbacks row.
+    if (!BUILT_TYPES.has(type) || (type === 'QT02' && pictured(c).length < MIN_PICTURES)) type = c.phase1_fallbacks.find((f) => f.round === round && f.missing_type === type && !String(f.status ?? '').startsWith('off'))?.substitute_type ?? type
     if (cantSpeak) type = swapRule(c, 'cant_speak_now', type, round)?.type ?? type
     if (cantListen) type = swapRule(c, 'cant_listen_now', type, round)?.type ?? type
     for (let i = 0; i < m.questions_per_10; i++) out.push({ type, from: m.type_id })
@@ -267,11 +271,31 @@ export function makeQuestion(c, type, s, round, rng, last, { cantListen = false,
     const rows = c.swBySentence.get(primary.sentence_id) ?? []
     return { ...q, chips: shuffle([...rows.map(chipCase), ...frenchChipDistractors(c, rows, chipDistractorCount(type, round), rng)], rng) }
   }
+  // Speaking (never graded): repeat what you hear (QT10), speak and compare (QT13). "Native" only with a real recording (R11).
+  if (type === 'QT10' || type === 'QT13') return { ...base, speaking: true, native: Boolean(s.lingua_libre?.audio_file), shown: s.french }
   if (type === 'QT11') return { ...base, lang: 'fr', accepted: [s.french], shown: s.french }
   return { ...base, lang: 'fr', accepted: [s.french, ...answersFor(c, s, 'en_to_fr')], shown: s.french } // QT12
 }
 
 // A word gets a native recording when a one-word sentence has one; otherwise browser speech.
+// Word to image (QT02): V0201 shows the French word and three pictures; V0202 the English word and four pictures
+// labelled in French. Only words already met or new in this lesson, and only pictured ones.
+export function makeWordImage(c, word, pool, round, rng, last) {
+  let variant = variantFor(c, 'QT02', round, rng, last)
+  if (variant === 'V0202' && pool.length < 4) variant = 'V0201'
+  if (last) last.QT02 = variant
+  const n = variant === 'V0202' ? 4 : 3
+  const others = shuffle(pool.filter((w) => w.word_id !== word.word_id && w.hint !== word.hint), rng).slice(0, n - 1)
+  const fileFor = (w) => c.sentences.find((s) => s.lingua_libre?.audio_file && normalize(s.french, 'fr') === normalize(w.form, 'fr'))?.lingua_libre.audio_file ?? null
+  return {
+    qid: `QT02-${word.word_id}-${Math.floor(rng() * 1e9)}`, type: 'QT02', variant, round, skill: c.typeById.get('QT02').skill,
+    word_ids: [word.word_id], word_id: word.word_id, form: word.form, hint: word.hint,
+    audio: { french: word.form, file: fileFor(word) },
+    choices: shuffle([word, ...others], rng).map((w) => ({ word_id: w.word_id, image: `/images/${w.image_file}`, label: variant === 'V0202' ? w.form : null })),
+    answer: word.word_id, shown: `${word.form} = ${word.hint}`,
+  }
+}
+
 export function makeMatchPairs(c, words, round, rng) {
   const fileFor = (w) => c.sentences.find((s) => s.lingua_libre?.audio_file && normalize(s.french, 'fr') === normalize(w.form, 'fr'))?.lingua_libre.audio_file ?? null
   const pairs = words.map((w) => ({ word_id: w.word_id, form: w.form, hint: w.hint, audio: { french: w.form, file: fileFor(w) } }))
@@ -342,12 +366,27 @@ export function buildLesson(c, { round, seen = {}, known = new Set(), settings =
   const usedWords = new Set()
   const assigned = new Array(slots.length)
   const retrySentences = retry?.filter((q) => q.sentence_id).map((q) => ({ s: c.sentenceById.get(q.sentence_id), before: q.type }))
-  const retryWords = retry?.filter((q) => q.word_ids).map((q) => q.word_ids.map((id) => c.wordById.get(id)))
+  const retryWords = retry?.filter((q) => q.type === 'QT01').map((q) => q.word_ids.map((id) => c.wordById.get(id)))
+  const usedPictures = new Set()
   let carryWord = !retry && carry?.word_id ? carry.word_id : null
 
   // Most constrained types choose first, so one-word sentences stay available for the types that can use them.
   const order = slots.map((type, i) => ({ type, i })).sort((a, b) => constraint(b.type) - constraint(a.type))
-  for (const { type, i } of order) {
+  for (const slot of order) {
+    let { type } = slot
+    const { i } = slot
+    if (type === 'QT02') {
+      // New words first, then the least seen; with fewer than 3 pictured words met, the slot takes the fallback.
+      const pool = c.words.filter((w) => w.image_file && scope.allowed.has(w.word_id))
+      const fresh = pool.filter((w) => !usedPictures.has(w.word_id))
+      if (pool.length >= MIN_PICTURES && fresh.length) {
+        const word = [...fresh.filter((w) => scope.newWords.includes(w.word_id)), ...leastSeen(fresh, (w) => w.word_id, seen.words, rng)][0]
+        usedPictures.add(word.word_id)
+        assigned[i] = makeWordImage(c, word, pool, round, rng, last)
+        continue
+      }
+      type = c.phase1_fallbacks.find((f) => f.round === round && f.missing_type === 'QT02' && !String(f.status ?? '').startsWith('off'))?.substitute_type ?? 'QT03'
+    }
     if (type === 'QT01') {
       const words = retryWords?.length ? retryWords.shift() : pickWordSet(c, scope, seen.words, usedWords, rng, carryWord)
       carryWord = null
@@ -385,7 +424,7 @@ export function buildLesson(c, { round, seen = {}, known = new Set(), settings =
   }
 
   slotList.forEach((slot, i) => {
-    if (assigned[i].type === slot.type && slot.from !== slot.type) assigned[i].swapped_from = slot.from
+    if (slot.from !== assigned[i].type && (assigned[i].type === slot.type || slot.type === 'QT02')) assigned[i].swapped_from = slot.from
   })
 
   return {
@@ -441,16 +480,16 @@ export function simplestSentenceWith(c, wordId, known) {
 
 export function reaskFor(c, q, { rng = Math.random, cantListen = false, missedWord = null, known = new Set(c.wordOrder) } = {}) {
   let s
-  if (q.type === 'QT01') s = simplestSentenceWith(c, missedWord ?? q.word_ids[0], known)
+  if (q.type === 'QT01' || q.type === 'QT02') s = simplestSentenceWith(c, missedWord ?? q.word_ids[0], known)
   else if (q.type === 'QT09') s = c.sentenceById.get(c.qaByQuestion.get(q.sentence_id)[0]) // QT09's content is its answer
   else s = c.sentenceById.get(q.sentence_id)
   if (!s) return null
-  const options = q.type === 'QT01' ? ['QT03', 'QT06'] : EASIER[q.type] ?? ['QT03']
+  const options = q.type === 'QT01' || q.type === 'QT02' ? ['QT03', 'QT06'] : EASIER[q.type] ?? ['QT03']
   // R06: the same round's types or one round easier.
   const allowed = new Set([q.round, q.round - 1].filter((r) => r >= 1).flatMap((r) => effectiveMix(c, r, { cantListen }).map((m) => m.type)))
   const usable = (t) => allowed.has(t) && inRounds(c, t, q.round) && !(cantListen && AUDIO_TYPES.has(t)) && supports(c, t, s, q.round)
   // With Can't listen on in round 1 no other type is open, so the same type returns with new choices.
-  const type = options.find(usable) ?? (q.type !== 'QT01' && usable(q.type) ? q.type : null)
+  const type = options.find(usable) ?? (!['QT01', 'QT02'].includes(q.type) && usable(q.type) ? q.type : null)
   if (!type) return null
   return { ...makeQuestion(c, type, s, q.round, rng, null, { cantListen }), reask: true }
 }

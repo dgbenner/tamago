@@ -5,6 +5,7 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { getJson } from './lib/http.mjs'
 import { loadTatoeba } from './lib/tatoeba.mjs'
+import { presentIndicative } from './lib/conjugation.mjs'
 
 const ROOT = join(import.meta.dirname, '..')
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf8'))
@@ -344,6 +345,13 @@ const save = (name, rows) => writeFileSync(join(CHECKS, `${name}.json`), JSON.st
 save('sentences', sentenceChecks)
 save('accepted_answers', answerChecks)
 save('generated_answers', generatedAnswers)
+
+// Conjugation tables for the grammar notes, read from Wiktionary.
+const lemmas = [...new Set((raw('grammar_notes') ?? []).flatMap((n) => String(n.conjugation_lemma).split(';').map((x) => x.trim()).filter(Boolean)))]
+const conjugations = {}
+for (const l of lemmas) conjugations[l] = await presentIndicative(l)
+save('conjugations', conjugations)
+console.log(`Conjugations from Wiktionary: ${Object.entries(conjugations).map(([l, t]) => `${l} ${t ? t.length + ' forms' : 'MISSING'}`).join(', ')}`)
 save('feedback_phrases', phraseChecks)
 save('words', wordChecks)
 

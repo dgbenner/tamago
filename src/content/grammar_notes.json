@@ -1,0 +1,252 @@
+[
+  {
+    "unit_id": "U01",
+    "rule": "Je suis is how you say who you are, and tu es is how you say who someone you know well is. C'est points at someone or something. Every noun is masculine or feminine: un goes with a masculine noun (un homme, un garçon), une with a feminine one (une femme, une fille).",
+    "example_sentence_ids": "S0007;S0012;S0014",
+    "conjugation_lemma": "être",
+    "status": "live",
+    "examples": [
+      "S0007",
+      "S0012",
+      "S0014"
+    ],
+    "conjugations": [
+      {
+        "lemma": "être",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "suis"
+          },
+          {
+            "person": "tu",
+            "form": "es"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "est"
+          },
+          {
+            "person": "nous",
+            "form": "sommes"
+          },
+          {
+            "person": "vous",
+            "form": "êtes"
+          },
+          {
+            "person": "ils, elles",
+            "form": "sont"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/%C3%AAtre#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U02",
+    "rule": "Le, la, l' and les come before a noun when you mean a particular one. Le goes with a masculine noun (le livre), la with a feminine one (la lettre), l' before a vowel (l'homme), and les with more than one (les enfants). Il est and elle est are for one person or thing; ils sont and elles sont for more than one.",
+    "example_sentence_ids": "S2001;S2009;S2111",
+    "conjugation_lemma": "être",
+    "status": "live",
+    "examples": [
+      "S2001",
+      "S2009",
+      "S2111"
+    ],
+    "conjugations": [
+      {
+        "lemma": "être",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "suis"
+          },
+          {
+            "person": "tu",
+            "form": "es"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "est"
+          },
+          {
+            "person": "nous",
+            "form": "sommes"
+          },
+          {
+            "person": "vous",
+            "form": "êtes"
+          },
+          {
+            "person": "ils, elles",
+            "form": "sont"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/%C3%AAtre#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U03",
+    "rule": "Tu is for one person you know well, a friend or a child. Vous is for someone you don't know, someone you're polite to, or more than one person: vous êtes instead of tu es. Polite phrases follow the same choice: s'il te plaît with tu, s'il vous plaît with vous.",
+    "example_sentence_ids": "S0012;S3010;S3008",
+    "conjugation_lemma": "être",
+    "status": "live",
+    "examples": [
+      "S0012",
+      "S3010",
+      "S3008"
+    ],
+    "conjugations": [
+      {
+        "lemma": "être",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "suis"
+          },
+          {
+            "person": "tu",
+            "form": "es"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "est"
+          },
+          {
+            "person": "nous",
+            "form": "sommes"
+          },
+          {
+            "person": "vous",
+            "form": "êtes"
+          },
+          {
+            "person": "ils, elles",
+            "form": "sont"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/%C3%AAtre#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U04",
+    "rule": "A verb that ends in -er, like manger and aimer, changes its ending to match who is doing it: je mange, tu manges, il mange. Je becomes j' before a vowel: j'aime. Du goes before a masculine noun when you mean some of it: du pain.",
+    "example_sentence_ids": "S4002;S4008;S4003",
+    "conjugation_lemma": "manger;aimer",
+    "status": "live",
+    "examples": [
+      "S4002",
+      "S4008",
+      "S4003"
+    ],
+    "conjugations": [
+      {
+        "lemma": "manger",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "mange"
+          },
+          {
+            "person": "tu",
+            "form": "manges"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "mange"
+          },
+          {
+            "person": "nous",
+            "form": "mangeons"
+          },
+          {
+            "person": "vous",
+            "form": "mangez"
+          },
+          {
+            "person": "ils, elles",
+            "form": "mangent"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/manger#Conjugation"
+      },
+      {
+        "lemma": "aimer",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "aime"
+          },
+          {
+            "person": "tu",
+            "form": "aimes"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "aime"
+          },
+          {
+            "person": "nous",
+            "form": "aimons"
+          },
+          {
+            "person": "vous",
+            "form": "aimez"
+          },
+          {
+            "person": "ils, elles",
+            "form": "aiment"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/aimer#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U05",
+    "rule": "Avoir doesn't follow the -er pattern; each form has to be learned: j'ai, tu as, il a. Il a and il est sound close and are easy to mix up, so listen for the difference.",
+    "example_sentence_ids": "S5002;S5007;S5003",
+    "conjugation_lemma": "avoir",
+    "status": "live",
+    "examples": [
+      "S5002",
+      "S5007",
+      "S5003"
+    ],
+    "conjugations": [
+      {
+        "lemma": "avoir",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "ai"
+          },
+          {
+            "person": "tu",
+            "form": "as"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "a"
+          },
+          {
+            "person": "nous",
+            "form": "avons"
+          },
+          {
+            "person": "vous",
+            "form": "avez"
+          },
+          {
+            "person": "ils, elles",
+            "form": "ont"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/avoir#Conjugation"
+      }
+    ]
+  }
+]

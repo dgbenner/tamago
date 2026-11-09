@@ -31,6 +31,14 @@ export default function About({ content, onBack }) {
       </section>
 
       <section className="flex flex-col gap-2">
+        <h2 className="font-semibold">Pictures</h2>
+        {content.image_set.map((set) => (
+          <p key={set.name}>Pictures for word to image are <A href={set.url}>{set.name}</A> {set.version}, licensed under <A href={set.license_url}>{set.license}</A>.</p>
+        ))}
+        <p>Verb tables in the grammar notes come from Wiktionary, under the same license as the words.</p>
+      </section>
+
+      <section className="flex flex-col gap-2">
         <h2 className="font-semibold">Recordings</h2>
         <p>Native recordings come from <A href="https://lingualibre.org">Lingua Libre</A>. Other audio is your device's text-to-speech.</p>
         <ul className="flex flex-col gap-1 text-sm text-muted">

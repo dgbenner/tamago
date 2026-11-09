@@ -16,12 +16,33 @@ function seeded(seed) {
 const types = (mix) => Object.fromEntries(mix.map((m) => [m.type, m.n]))
 const wordsIn = (s) => c.swBySentence.get(s.sentence_id).map((r) => r.word_id).filter(Boolean)
 
-test('Phase 1 mixes: v4 mix, QT09 built, other fallbacks applied', () => {
-  assert.deepEqual(types(effectiveMix(c, 1)), { QT01: 2, QT03: 4, QT04: 4 })
-  assert.deepEqual(types(effectiveMix(c, 2)), { QT03: 1, QT04: 2, QT05: 2, QT06: 2, QT07: 3 })
-  assert.deepEqual(types(effectiveMix(c, 3)), { QT05: 2, QT07: 4, QT08: 3, QT09: 1 })
-  assert.deepEqual(types(effectiveMix(c, 4)), { QT06: 1, QT07: 1, QT08: 1, QT09: 1, QT11: 2, QT12: 4 })
-  assert.deepEqual(types(effectiveMix(c, 5)), { QT06: 1, QT09: 2, QT11: 4, QT12: 3 })
+test('Phase 2b mixes: every type built, so the workbook mix runs as written', () => {
+  assert.deepEqual(types(effectiveMix(c, 1)), { QT01: 2, QT02: 2, QT03: 2, QT04: 3, QT10: 1 })
+  assert.deepEqual(types(effectiveMix(c, 2)), { QT03: 1, QT04: 2, QT05: 2, QT06: 2, QT07: 2, QT10: 1 })
+  assert.deepEqual(types(effectiveMix(c, 3)), { QT05: 2, QT07: 2, QT08: 3, QT09: 1, QT10: 2 })
+  assert.deepEqual(types(effectiveMix(c, 4)), { QT06: 1, QT07: 1, QT08: 1, QT09: 1, QT11: 2, QT12: 2, QT13: 2 })
+  assert.deepEqual(types(effectiveMix(c, 5)), { QT06: 1, QT09: 2, QT11: 2, QT12: 3, QT13: 2 })
+})
+
+test("Can't speak swaps the speaking types per cant_swaps", () => {
+  assert.deepEqual(types(effectiveMix(c, 1, { cantSpeak: true })), { QT01: 2, QT02: 2, QT03: 2, QT04: 4 })
+  assert.deepEqual(types(effectiveMix(c, 4, { cantSpeak: true })), { QT06: 1, QT07: 1, QT08: 1, QT09: 1, QT11: 2, QT12: 4 })
+})
+
+test('a unit without enough pictures runs word to image on its fallback', () => {
+  const bare = contentForUnit({ ...tables, words: tables.words.map((w) => ({ ...w, image_file: '' })) }, 'U01')
+  assert.deepEqual(types(effectiveMix(bare, 1)), { QT01: 2, QT03: 4, QT04: 3, QT10: 1 })
+})
+
+test('word to image: pictured words met, the answer among the choices, V0202 has four', () => {
+  for (let seed = 1; seed <= 30; seed++) {
+    for (const q of buildLesson(c, { round: 1, known: allKnown, rng: seeded(seed) }).queue.filter((x) => x.type === 'QT02')) {
+      assert.ok(q.choices.some((x) => x.word_id === q.answer))
+      assert.equal(q.choices.length, q.variant === 'V0202' ? 4 : 3)
+      assert.ok(q.choices.every((x) => x.image.endsWith('.svg')))
+      assert.equal(new Set(q.choices.map((x) => x.word_id)).size, q.choices.length)
+    }
+  }
 })
 
 test("Can't listen removes every audio type and keeps QT09, written out", () => {
@@ -38,7 +59,7 @@ test('pass mark is 70% of graded questions, rounded up', () => {
   assert.equal(passMark(10), 7)
   assert.equal(passMark(9), 7)
   assert.equal(passMark(8), 6)
-  assert.equal(buildLesson(c, { round: 3, known: allKnown, rng: seeded(1) }).graded, 10)
+  assert.equal(buildLesson(c, { round: 3, known: allKnown, rng: seeded(1) }).graded, 8) // two speaking questions aren't graded
 })
 
 test('round 1: at most 4 new words a lesson, sentences only from met words, new words first', () => {
@@ -85,7 +106,7 @@ test('every lesson has 10 built questions, the right types and valid parts', () 
         counts[q.type] = (counts[q.type] ?? 0) + 1
         assert.ok(BUILT_TYPES.has(q.type))
         assert.ok(c.variants.some((v) => v.variant_id === q.variant && v.type_id === q.type), `${q.type} ${q.variant}`)
-        if (q.choices) { assert.ok(q.choices.map((x) => x.toLowerCase()).includes(q.answer.toLowerCase())); assert.equal(new Set(q.choices).size, q.choices.length) }
+        if (q.choices && q.type !== 'QT02') { assert.ok(q.choices.map((x) => x.toLowerCase()).includes(q.answer.toLowerCase())); assert.equal(new Set(q.choices).size, q.choices.length) }
         if (q.audioChoices) { assert.equal(q.audioChoices.length, 3); assert.ok(q.audioChoices.some((a) => a.sentence_id === q.answer)) }
         if (q.type === 'QT01') { assert.equal(q.pairs.length, 5); assert.equal(new Set(q.meanings).size, 5) }
       }
@@ -148,7 +169,7 @@ test('a chip question can always be built from its chips', () => {
 test('a re-ask is the same content in a different type, allowed in that round', () => {
   for (let round = 1; round <= 5; round++) {
     for (let seed = 1; seed <= 10; seed++) {
-      for (const q of buildLesson(c, { round, known: allKnown, rng: seeded(seed + round) }).queue) {
+      for (const q of buildLesson(c, { round, known: allKnown, rng: seeded(seed + round) }).queue.filter((x) => !x.speaking)) {
         const r = reaskFor(c, q, { rng: seeded(3) })
         assert.ok(r && r.reask, `${q.type} round ${round}`)
         assert.notEqual(r.type, q.type)
@@ -226,7 +247,7 @@ test('R06: a re-ask uses a type from this round or the round before', () => {
   for (let round = 1; round <= 5; round++) {
     const allowed = new Set([round, round - 1].filter((r) => r >= 1).flatMap((r) => effectiveMix(c, r).map((m) => m.type)))
     for (let seed = 1; seed <= 15; seed++) {
-      for (const q of buildLesson(c, { round, known: allKnown, rng: seeded(seed) }).queue) {
+      for (const q of buildLesson(c, { round, known: allKnown, rng: seeded(seed) }).queue.filter((x) => !x.speaking)) {
         const r = reaskFor(c, q, { rng: seeded(seed) })
         assert.ok(r && allowed.has(r.type), `${q.type} in round ${round} became ${r?.type}`)
       }
@@ -235,11 +256,12 @@ test('R06: a re-ask uses a type from this round or the round before', () => {
 })
 
 test('swapped_from records the workbook type a slot started as', () => {
-  const slots = mixSlots(c, 1)
-  assert.ok(slots.some((s) => s.from === 'QT02' && s.type === 'QT03'))
-  const q = buildLesson(c, { round: 4, known: allKnown, rng: seeded(3) }).queue
+  const q = buildLesson(c, { round: 4, known: allKnown, rng: seeded(3), settings: { cantSpeak: true } }).queue
   assert.ok(q.some((x) => x.type === 'QT12' && x.swapped_from === 'QT13'))
   assert.ok(!q.some((x) => x.type === 'QT06' && x.swapped_from))
+  // The first lesson has too few pictured words for word to image, so those slots fall back and say so.
+  const first = buildLesson(c, { round: 1, rng: seeded(3) }).queue
+  assert.ok(first.some((x) => x.type === 'QT03' && x.swapped_from === 'QT02'))
 })
 
 test('QT09 shows and builds the fullest listed answer', () => {

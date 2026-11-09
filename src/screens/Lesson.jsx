@@ -1,15 +1,16 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { checkTyped } from '../lib/check.js'
+import { useRecorder } from '../lib/recorder.js'
 import { play, stop } from '../lib/audio.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconSpeaker } from './icons.jsx'
 
 const PROMPT = {
-  QT01: 'Match the pairs', QT03: 'Pick the meaning', QT04: 'Pick what you heard', QT05: 'Fill in the blank', QT06: 'Translate',
+  QT01: 'Match the pairs', QT02: 'Pick the picture', QT10: 'Say it aloud', QT13: 'Speak and compare', QT03: 'Pick the meaning', QT04: 'Pick what you heard', QT05: 'Fill in the blank', QT06: 'Translate',
   QT07: 'Tap what you hear', QT08: 'Translate', QT09: 'Answer the question', QT11: 'Type what you hear', QT12: 'Translate',
 }
 const LISTENING = new Set(['QT04', 'QT07', 'QT11'])
 const LISTEN_FIRST = new Set(['QT03', 'QT06'])
-const SHOWS_FRENCH = new Set(['QT01', 'QT03', 'QT05', 'QT06']) // the New word tag needs a word on screen
+const SHOWS_FRENCH = new Set(['QT01', 'QT02', 'QT03', 'QT05', 'QT06']) // the New word tag needs a word on screen
 
 // R18: a rotating line for the answer bar, never the same one twice running. French lines come in at
 // french_feedback_rate ("about 1 per lesson"). FB24 says the item comes back, so only a first-attempt miss in a lesson uses it.
@@ -39,13 +40,15 @@ export default function Lesson({ session, content, settings, seenWords, cantList
   const hideFrench = useMemo(() => LISTEN_FIRST.has(q.type) && settings.listen_first === 'on' && !cantListen && newWords.size === 0, [q.qid])
 
   useEffect(() => {
-    if (LISTENING.has(q.type) || (q.type === 'QT09' && q.variant !== 'V0903') || hideFrench) play(q.audio)
+    if (LISTENING.has(q.type) || q.type === 'QT10' || (q.type === 'QT13' && q.variant !== 'V1302') || (q.type === 'QT02' && q.variant === 'V0201')
+      || (q.type === 'QT09' && q.variant !== 'V0903') || hideFrench) play(q.audio)
     return stop
   }, [q.qid])
 
   const lastPhrase = useRef(null)
   const answer = (r) => {
-    const phrase = r.testSkip ? null : pickPhrase(content.feedback_phrases, q, r, session.kind, lastPhrase.current)
+    // Speaking isn't judged, so it gets no feedback line.
+    const phrase = r.testSkip || r.speaking ? null : pickPhrase(content.feedback_phrases, q, r, session.kind, lastPhrase.current)
     if (phrase) lastPhrase.current = phrase.phrase_id
     const full = { ...r, hidden: hideFrench, phrase }
     setResult(full)
@@ -132,7 +135,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
 
 function Question({ q, ...rest }) {
   const typedOnly = Boolean(q.typed)
-  const C = typedOnly ? Typed : { QT01: MatchPairs, QT03: PickMeaning, QT04: PickHeard, QT05: FillBlank, QT06: Build, QT07: Build, QT08: Build, QT09: Build, QT11: Typed, QT12: Typed }[q.type]
+  const C = typedOnly ? Typed : { QT01: MatchPairs, QT02: WordImage, QT10: Speak, QT13: Speak, QT03: PickMeaning, QT04: PickHeard, QT05: FillBlank, QT06: Build, QT07: Build, QT08: Build, QT09: Build, QT11: Typed, QT12: Typed }[q.type]
   return <C q={q} {...rest} />
 }
 
@@ -197,6 +200,81 @@ function ChoiceList({ choices, result, chosen, answer, onPick, lang }) {
         return <button key={choice} lang={lang} disabled={Boolean(result)} onClick={() => onPick(choice)} className={`choice ${state}`}>{choice}</button>
       })}
     </div>
+  )
+}
+
+// Word to image (QT02).
+function WordImage({ q, result, onAnswer, newWords }) {
+  const [chosen, setChosen] = useState(null)
+  return (
+    <>
+      <div className="flex items-center gap-3">
+        {q.variant === 'V0202'
+          ? <p className="text-2xl">{q.hint}</p>
+          : <><p lang="fr" className="text-2xl">{q.form}{newWords.has(q.word_id) && <span className="new-dot ml-1 align-middle" aria-hidden="true" />}</p><SpeakerButton audio={q.audio} label="Play the word" /></>}
+      </div>
+      <div className={`grid gap-3 ${q.choices.length === 4 ? 'grid-cols-2' : 'grid-cols-3'}`}>
+        {q.choices.map((ch, i) => {
+          const state = !result ? '' : ch.word_id === q.answer ? 'choice-right' : ch.word_id === chosen ? 'choice-wrong' : 'opacity-60'
+          return (
+            <button key={ch.word_id} aria-label={ch.label ?? `Picture ${i + 1}`} disabled={Boolean(result)}
+              onClick={() => { setChosen(ch.word_id); onAnswer({ correct: ch.word_id === q.answer }) }}
+              className={`choice flex flex-col items-center justify-center gap-1 p-2 text-center ${state}`}>
+              <img src={ch.image} alt="" className="h-20 w-20" />
+              {ch.label && <span lang="fr" className="text-base">{ch.label}</span>}
+            </button>
+          )
+        })}
+      </div>
+    </>
+  )
+}
+
+// Speaking, never graded (QT10, QT13). Done counts it; nothing is scored and nothing is kept.
+function Speak({ q, result, onAnswer, newWords, onHint }) {
+  const fromMemory = q.variant === 'V1302'
+  const compare = q.type === 'QT13'
+  const [reveal, setReveal] = useState(compare && !fromMemory)
+  const rec = useRecorder()
+  const model = q.native ? 'Native recording' : 'Model'
+  const done = () => { rec.stop(); onAnswer({ correct: true, speaking: true }) }
+  return (
+    <>
+      {fromMemory && !result ? <p className="text-2xl leading-relaxed">{q.english}</p> : (
+        <div className="flex flex-col gap-3">
+          <div className="flex items-center gap-3">
+            <SpeakerButton audio={q.audio} large label={model} />
+            {compare && <span className="text-sm text-muted">{model}</span>}
+          </div>
+          {reveal || result
+            ? <FrenchText q={q} newWords={newWords} onHint={onHint} />
+            : <button onClick={() => setReveal(true)} className="self-start text-sm text-muted underline underline-offset-4">Show the French</button>}
+        </div>
+      )}
+      {!result && compare && (
+        rec.state === 'unavailable'
+          ? <p className="text-sm text-muted">Recording isn't available here. Say it aloud, then tap Done.</p>
+          : (
+            <div className="flex flex-wrap items-center gap-2">
+              {rec.state === 'recording'
+                ? <button onClick={rec.stop} className="btn-secondary px-5">Stop</button>
+                : <button onClick={rec.start} className="btn-secondary px-5">{rec.state === 'done' ? 'Record again' : 'Record'}</button>}
+              {rec.state === 'done' && (
+                <>
+                  <button onClick={() => play(q.audio)} className="btn-secondary px-4">{model}</button>
+                  <button onClick={rec.playBack} className="btn-secondary px-4">Yours</button>
+                </>
+              )}
+            </div>
+          )
+      )}
+      {!result && !compare && <p className="text-sm text-muted">Say it aloud, then tap Done.</p>}
+      {!result && (
+        <div className="action-row">
+          <button onClick={done} disabled={compare && rec.state !== 'done' && rec.state !== 'unavailable'} className="btn-submit w-full">Done</button>
+        </div>
+      )}
+    </>
   )
 }
 
@@ -429,7 +507,7 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const good = result.correct || isPairs
   const [meaning, setMeaning] = useState(false)
   const phrase = result.phrase
-  const fallback = good ? 'Nice.' : 'Not quite.'
+  const fallback = q.speaking ? 'Done.' : good ? 'Nice.' : 'Not quite.'
   return (
     <section aria-live="polite" data-outcome={good ? 'correct' : 'incorrect'} className={`fixed inset-x-0 bottom-0 z-20 border-t-2 bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${good ? 'border-right' : 'border-wrong'}`}>
       <div className="mx-auto flex max-w-md flex-col gap-3 px-4 pt-4">

@@ -3,36 +3,42 @@
     "round": 1,
     "missing_type": "QT02",
     "substitute_type": "QT03",
-    "notes": "until images are chosen"
+    "notes": "until images are chosen",
+    "status": "live: used when a unit has fewer than 3 pictured words"
   },
   {
     "round": 1,
     "missing_type": "QT10",
     "substitute_type": "QT04",
-    "notes": ""
+    "notes": "",
+    "status": "off: type built"
   },
   {
     "round": 2,
     "missing_type": "QT10",
     "substitute_type": "QT07",
-    "notes": ""
+    "notes": "",
+    "status": "off: type built"
   },
   {
     "round": 3,
     "missing_type": "QT10",
     "substitute_type": "QT07",
-    "notes": "imitation starts from hearing"
+    "notes": "imitation starts from hearing",
+    "status": "off: type built"
   },
   {
     "round": 4,
     "missing_type": "QT13",
     "substitute_type": "QT12",
-    "notes": ""
+    "notes": "",
+    "status": "off: type built"
   },
   {
     "round": 5,
     "missing_type": "QT13",
     "substitute_type": "QT11",
-    "notes": "caps QT12 at 5 of 10"
+    "notes": "caps QT12 at 5 of 10",
+    "status": "off: type built"
   }
 ]

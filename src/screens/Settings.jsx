@@ -40,7 +40,7 @@ export default function Settings({ settings, onChange, onBack, onAbout }) {
         options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ listen_first: v })} />
       <Segmented label="Can't listen now" help="Audio questions swap for reading and writing. Applies from the next lesson." value={pauseValue(settings.cant_listen_until)}
         options={PAUSE_OPTIONS} onChange={(v) => onChange({ cant_listen_until: pauseUntil(v) })} />
-      <Segmented label="Can't speak now" help="Speaking questions arrive in a later version." value={pauseValue(settings.cant_speak_until)}
+      <Segmented label="Can't speak now" help="Speaking questions swap for listening and writing. Applies from the next lesson." value={pauseValue(settings.cant_speak_until)}
         options={PAUSE_OPTIONS} onChange={(v) => onChange({ cant_speak_until: pauseUntil(v) })} />
       <Segmented label="Testing shortcuts" help="Swipe left from the right side of the screen, or press the right arrow, to pass a question as correct. Passes are marked as tests." value={settings.test_shortcuts}
         options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ test_shortcuts: v })} />

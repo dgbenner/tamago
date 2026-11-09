@@ -36,7 +36,7 @@ function Node({ node, onPick }) {
   )
 }
 
-function UnitCard({ node, lockedBy, inProgress, onStart, onClose }) {
+function UnitCard({ node, lockedBy, inProgress, onStart, onClose, onGrammarNote, hasNote }) {
   const { unit, open, progress } = node
   const label = progress.round_reached >= 5 ? 'Practice' : progress.round_reached > 0 || progress.lessons_done > 0 ? 'Continue' : 'Start'
   return (
@@ -50,6 +50,7 @@ function UnitCard({ node, lockedBy, inProgress, onStart, onClose }) {
           <button onClick={onClose} aria-label="Close" className="icon-btn -mr-2 -mt-2"><IconClose /></button>
         </div>
         <p className="mt-2 text-muted">{unit.grammar_point}</p>
+        {hasNote && <button onClick={onGrammarNote} className="btn-secondary mt-4 w-full">Grammar note</button>}
         {open
           ? <button onClick={onStart} className="btn-submit mt-5 w-full">{inProgress ? 'Start this unit' : label}</button>
           : <p className="mt-5 text-sm text-muted">Opens when {lockedBy} {lockedBy.includes(' and ') ? 'have' : 'has'} finished round 1.</p>}
@@ -59,7 +60,7 @@ function UnitCard({ node, lockedBy, inProgress, onStart, onClose }) {
   )
 }
 
-export default function Home({ rows, points, pointsTotal, bankSize, inProgress, currentLabel, onContinue, onReview, onStartUnit, onSettings, lockedByOf }) {
+export default function Home({ rows, points, pointsTotal, bankSize, inProgress, currentLabel, onContinue, onReview, onStartUnit, onSettings, lockedByOf, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-4 pt-[max(1rem,env(safe-area-inset-top))]">
@@ -91,7 +92,8 @@ export default function Home({ rows, points, pointsTotal, bankSize, inProgress, 
 
       {picked && (
         <UnitCard node={picked} lockedBy={lockedByOf(picked.unit.unit_id)} inProgress={inProgress}
-          onStart={() => { setPicked(null); onStartUnit(picked.unit.unit_id) }} onClose={() => setPicked(null)} />
+          onStart={() => { setPicked(null); onStartUnit(picked.unit.unit_id) }} onClose={() => setPicked(null)}
+          hasNote={hasNote(picked.unit.unit_id)} onGrammarNote={() => { setPicked(null); onGrammarNote(picked.unit.unit_id) }} />
       )}
     </main>
   )

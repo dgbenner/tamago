@@ -8,6 +8,7 @@ import Lesson from './screens/Lesson.jsx'
 import Settings from './screens/Settings.jsx'
 import About from './screens/About.jsx'
 import Splash from './screens/Splash.jsx'
+import GrammarNote from './screens/GrammarNote.jsx'
 
 const FIRST_UNIT = tables.units[0].unit_id
 const c = allContent // settings defaults, flags and other shared tables
@@ -37,6 +38,8 @@ export default function App() {
   const seenWords = useRef(new Set())
   const roundSeen = useRef({})
   const carry = useRef([])
+  const notesSeen = useRef(new Set())
+  const [note, setNote] = useState(null) // { unitId, thenStart }
 
   useEffect(() => {
     preload(recordings)
@@ -51,6 +54,7 @@ export default function App() {
       // Rounds seen, per unit. Older installs kept Unit 1's alone under round_seen.
       roundSeen.current = s.kv.round_seen_by_unit ?? (s.kv.round_seen ? { [FIRST_UNIT]: s.kv.round_seen } : {})
       carry.current = s.kv.carry ?? []
+      notesSeen.current = new Set(s.kv.notes_seen ?? [])
       if (s.kv.current_session) setSession(s.kv.current_session)
       setReady(true)
     })
@@ -113,6 +117,20 @@ export default function App() {
     putKv('carry', [])
     begin(lesson)
   }
+  // The grammar note comes before a unit's first lesson, once.
+  const noteFor = (unitId) => tables.grammar_notes.find((n) => n.unit_id === unitId)
+  const startUnit = (unitId) => {
+    if (noteFor(unitId) && !notesSeen.current.has(unitId)) { setNote({ unitId, thenStart: true }); setScreen('note'); return }
+    startLesson(unitId)
+  }
+  const closeNote = (start) => {
+    const { unitId } = note
+    notesSeen.current.add(unitId)
+    putKv('notes_seen', [...notesSeen.current])
+    setNote(null)
+    if (start) startLesson(unitId)
+    else setScreen('home')
+  }
   const startReview = () => {
     if (bank.length) begin(buildReview(allContent, bank, { round: roundOf(currentUnit), settings: lessonModes(), today: today() }))
   }
@@ -139,13 +157,20 @@ export default function App() {
     const first = !q.reask
     put('attempts', {
       attempt_id: uid(), lesson_id: session.id, sentence_id: q.sentence_id ?? q.word_ids.join(';'), type_id: q.type, variant_id: q.variant,
-      round: q.round, skill: result.hidden ? 'listening' : q.skill, first_attempt: first, correct: result.correct, typo_accepted: Boolean(result.typo), graded: q.skill !== 'speaking', swapped_from: q.swapped_from ?? null, test_skip: Boolean(result.testSkip), answered_at: new Date().toISOString(),
+      round: q.round, skill: result.hidden ? 'listening' : q.skill, first_attempt: first, correct: q.speaking ? null : result.correct, typo_accepted: Boolean(result.typo), graded: q.skill !== 'speaking', swapped_from: q.swapped_from ?? null, test_skip: Boolean(result.testSkip), answered_at: new Date().toISOString(),
     })
     for (const seg of q.segments ?? []) if (seg.word_id) seenWords.current.add(seg.word_id)
     for (const id of q.word_ids ?? []) seenWords.current.add(id)
     putKv('seen_words', [...seenWords.current])
 
     let next = session
+    // Speaking is never graded: it earns a point when done (R14) and stays out of the score and the pass.
+    if (q.speaking) {
+      addPoint()
+      setSession(next)
+      putKv('current_session', next)
+      return
+    }
     if (first) {
       next = { ...next, firstCorrect: next.firstCorrect + (result.correct ? 1 : 0), firstWrong: next.firstWrong + (result.correct ? 0 : 1) }
       if (result.correct) addPoint()
@@ -193,7 +218,7 @@ export default function App() {
     const passed = s.firstCorrect >= mark
     put('lessons', { lesson_id: s.id, unit_id: s.unit_id, round: s.round, score: s.firstCorrect, graded_count: s.graded ?? s.size, passed, duration_ms: s.started_at ? Date.now() - s.started_at : null, finished_at: new Date().toISOString() })
     if (!passed) {
-      setEnding({ line: `${s.firstCorrect} of ${s.size}. Pass is ${mark}, so this lesson repeats in new question types.`, retry: s })
+      setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size}. Pass is ${mark}, so this lesson repeats in new question types.`, retry: s })
       return
     }
     const unitSeen = roundSeen.current[s.unit_id] ?? {}
@@ -218,7 +243,7 @@ export default function App() {
       setProgressByUnit((p) => ({ ...p, [s.unit_id]: nextProgress }))
       put('unit_progress', nextProgress)
     }
-    setEnding({ line: `${s.firstCorrect} of ${s.size}.` })
+    setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size}.` })
   }
 
   const leaveLesson = () => {
@@ -255,6 +280,11 @@ export default function App() {
   }
   if (screen === 'settings') return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} />
   if (screen === 'about') return <About content={allContent} onBack={() => setScreen('settings')} />
+  if (screen === 'note' && note) {
+    const unit = tables.units.find((u) => u.unit_id === note.unitId)
+    return <GrammarNote unit={unit} note={noteFor(note.unitId)} sentenceById={allContent.sentenceById} doneLabel={note.thenStart ? 'Start the lesson' : 'Done'}
+      onDone={() => closeNote(note.thenStart)} onBack={() => closeNote(false)} />
+  }
   const rows = [...new Set(layout.map((t) => t.row))].sort((a, b) => a - b).map((r) => layout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
     const unit = tables.units.find((u) => u.unit_id === t.unit_id)
     const progress = progressOf(t.unit_id)
@@ -267,7 +297,8 @@ export default function App() {
     <Home rows={rows} points={pointsToday} pointsTotal={pointsTotal} bankSize={bank.length}
       inProgress={session?.kind === 'lesson' || session?.kind === 'review'}
       currentLabel={cur.round_reached >= 5 ? 'Practice' : 'Continue'} lockedByOf={lockedByOf}
-      onContinue={() => startLesson()} onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startLesson(id) }}
+      onContinue={() => (session ? startLesson() : startUnit(currentUnit))} onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
+      onGrammarNote={(id) => { setNote({ unitId: id, thenStart: false }); setScreen('note') }} hasNote={(id) => Boolean(noteFor(id))}
       onReview={startReview} onSettings={() => setScreen('settings')} />
   )
   }

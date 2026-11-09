@@ -69,6 +69,22 @@ save('qa_answers', [...sheet('qa_answers'), ...raw('qa_answers').filter((q) => !
 // Which earlier sentences a unit's lessons may use: a new column on units.
 if (decisions.borrow) save('units', sheet('units').map((u) => ({ ...u, borrowed_sentence_ids: (decisions.borrow[u.unit_id] ?? []).join(';') })))
 
+// Pictures: image_file from the import (content/images.json) where the workbook has none.
+const imageOf = new Map(raw('words').filter((w) => w.image_file).map((w) => [w.word_id, w.image_file]))
+save('words', sheet('words').map((w) => (!w.image_file && imageOf.has(w.word_id) ? { ...w, image_file: imageOf.get(w.word_id) } : w)))
+
+// Grammar notes: a tab of their own.
+const notes = raw('grammar_notes') ?? []
+if (notes.length) save('grammar_notes', notes.map(({ examples, conjugations, ...n }) => n))
+
+// Phase 1 fallbacks: a status column. Rows for types now built are off (kept, never deleted); word to image keeps
+// its rows for units with too few pictured words.
+const builtTypes = new Set(['QT02', 'QT09', 'QT10', 'QT13'])
+save('phase1_fallbacks', sheet('phase1_fallbacks').map((f) => ({
+  ...f,
+  status: f.missing_type === 'QT02' ? 'live: used when a unit has fewer than 3 pictured words' : builtTypes.has(f.missing_type) ? 'off: type built' : (f.status || 'live'),
+})))
+
 // README: version and changelog.
 const readme = sheet('README')
 const version = to.match(/v(\d+)/)?.[1]

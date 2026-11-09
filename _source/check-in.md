@@ -1,27 +1,29 @@
 # Tamago check-in
 
-Updated November 9, 2026, end of Phase 2a.
+Updated November 9, 2026, end of Phase 2b.
 
 ## Done since last check-in
 
-- **Units 2 to 5 are in and open in order.** 220 live sentences across 5 units (Unit 1 38, Unit 2 53, Unit 3 48, Unit 4 41, Unit 5 40). Every new word appears in at least 3 sentences.
-- **The learning tree replaces the home placeholder.** Rows from tree_layout: Unit 1, then Units 2 and 3, then 4 and 5. A row opens when every unit in the row above has finished round 1 (R20). Each node shows the unit, five round segments and, for the current unit, the round and lesson. Tap a unit for its card: title, grammar point, Start or Continue. Review and Continue (Resume during a lesson) stay pinned at the bottom.
-- **Lessons are per unit.** A lesson uses its own unit's sentences and the words of earlier units (R21). Unit 3 also uses Unit 1's five "Tu es ..." sentences for the tu/vous contrast.
-- **Workbook v8** (_source/tamago-data-v8.xlsx) now holds all of this: pulled and drafted sentences, Wiktionary data and hints for every word, Units 2 to 5 live, cuts set to off.
-- Pushed to GitHub; Netlify builds the live site from it.
+- **Phase 2a (live):** Units 2 to 5 and the learning tree. 220 sentences across 5 units; the tree opens units in order (R20); each unit's lessons use its own sentences.
+- **Phase 2b (live):**
+  - Grammar notes: a short screen before each unit's first lesson, and a Grammar note button on every unit card. Rule in plain words, three examples with audio, the verb table from Wiktionary.
+  - Speaking: Say it aloud from round 1; Speak and compare in rounds 4 and 5, recording you and playing the model and yours side by side. Never graded; a point each.
+  - Word to image: pictures from OpenMoji (openly licensed, credited on About the content).
+- Workbook v9 holds everything (_source/tamago-data-v9.xlsx).
 
 ## Decisions made
 
-- **Approved Unit 2 myself** under the brief, after adding your six words (grand, grande, petit, petite, voici, ici) and drafting. It went from 7 Tatoeba sentences to 30, plus 23 drafts.
-- **Drafted 66 sentences** (listed below): 4 question-and-answer pairs per unit for Answer the question, and enough for every short word to reach 3. Each is tamago_original with a native-speaker check before Phase 4. Yes/no questions also accept Oui. and Non.
-- **Pull rules I added** to keep the Tatoeba pull honest: names limited to the ones the workbook uses (Paul, Marie); no sentences with digits; an article must come before a noun or adjective (drops le/l' used as pronouns); a noun must keep its course meaning in the English (drops "J'ai une fille" = daughter); the plainest English is the one built from the commonest words.
-- **Hints** for new words come from Wiktionary ("mange = to eat (manger)"), with your five short forms for eau, ça va, vous, du and j'.
+- Approved Unit 2 myself (53 sentences after your six words and the drafts).
+- Drafted 66 sentences (listed below), all marked for the native-speaker check.
+- OpenMoji for pictures; word to image waits until 3 pictured words have been met, and Units 2 and 3 reuse Unit 1's pictures.
+- Speaking gets a neutral "Done." instead of a feedback line; the lesson score counts graded questions only ("8 of 8.").
+- Grammar note rules are written by me in plain words; the verb tables and examples come from Wiktionary and the unit's live sentences.
 
 ## Waiting for Dan
 
-- **Read the new units on the phone.** Cut anything odd; the full lists are in content/pull/review.md and the drafts below.
-- **Native-speaker check** (before Phase 4) now covers 84 sentences: 18 in Unit 1 and the 66 drafts in Units 2 to 5.
-- **Hosting:** the Netlify free plan shows its badge and can't hide it. Moving to Cloudflare Pages needs your account.
+- Try the new units and the speaking questions on the phone; the microphone asks permission the first time.
+- Native-speaker check (before Phase 4): 84 sentences, 18 in Unit 1 and the 66 drafts below.
+- Hosting: the Netlify free plan's badge can't be hidden; moving to Cloudflare Pages needs your account.
 
 ## Drafted sentences
 
