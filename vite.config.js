@@ -13,7 +13,7 @@ function serviceWorker() {
     name: 'tamago-service-worker',
     apply: 'build',
     closeBundle() {
-      const files = walk('dist').filter((f) => !f.endsWith('sw.js'))
+      const files = walk('dist').filter((f) => !f.endsWith('sw.js') && !/[\\/]_(headers|redirects)$/.test(f)) // host config files are never served
       const hash = createHash('sha1')
       for (const f of files) hash.update(readFileSync(f))
       const urls = files.map((f) => `/${relative('dist', f)}`)

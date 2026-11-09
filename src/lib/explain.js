@@ -1,8 +1,8 @@
-// Mistake explanations (Phase 4) from the explain Netlify Function. Asked for in the background as soon as a typed
+// Mistake explanations (Phase 4) from the explain function (/api/explain). Asked for in the background as soon as a typed
 // answer is wrong; the answer bar shows "Why?" only once one has arrived, so nothing in a lesson waits on it.
 // Off (no request at all) until the function reports it's set up. A daily cap on this device stands in for the
 // per-learner limit that comes with sign-in.
-const URL_ = '/.netlify/functions/explain'
+const URL_ = '/api/explain'
 const DAILY = 30
 let ready = null
 export const explainReady = () => (ready ??= fetch(URL_).then((r) => (r.ok ? r.json() : { ready: false })).then((j) => Boolean(j.ready)).catch(() => false))

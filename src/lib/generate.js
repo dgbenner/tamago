@@ -3,7 +3,7 @@
 // meanings come from Tamago's Wiktionary data, never from the model. Off until the function reports it's set up.
 import { analyse, formIndexFor } from '../../scripts/lib/french.mjs'
 
-const URL_ = '/.netlify/functions/generate'
+const URL_ = '/api/generate'
 let ready = null
 export const generateReady = () => (ready ??= fetch(URL_).then((r) => (r.ok ? r.json() : { ready: false })).then((j) => Boolean(j.ready)).catch(() => false))
 
