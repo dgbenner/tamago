@@ -27,3 +27,11 @@ export function weakest(itemIds, cards, n, now = new Date()) {
   return itemIds.filter((id) => cards[id]).map((id) => ({ id, r: retrievability(cards[id], now) }))
     .sort((a, b) => a.r - b.r).slice(0, n).map((x) => x.id)
 }
+
+// Flashcards: the learner grades their own recall.
+const GRADES = { again: Rating.Again, hard: Rating.Hard, good: Rating.Good, easy: Rating.Easy }
+export function rateGrade(cards, itemId, grade, now = new Date()) {
+  const card = revive(cards[itemId]) ?? createEmptyCard(now)
+  return { ...cards, [itemId]: scheduler.next(card, now, GRADES[grade]).card }
+}
+export const isDue = (card, now = new Date()) => new Date(card.due) <= now

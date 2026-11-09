@@ -40,5 +40,26 @@
     "substitute_type": "QT11",
     "notes": "caps QT12 at 5 of 10",
     "status": "off: type built"
+  },
+  {
+    "round": 3,
+    "missing_type": "QT09",
+    "substitute_type": "QT08",
+    "notes": "topic packs have no question pairs; keeps the writing skill",
+    "status": "live: used when a unit has no question pairs"
+  },
+  {
+    "round": 4,
+    "missing_type": "QT09",
+    "substitute_type": "QT12",
+    "notes": "topic packs have no question pairs; keeps the writing skill",
+    "status": "live: used when a unit has no question pairs"
+  },
+  {
+    "round": 5,
+    "missing_type": "QT09",
+    "substitute_type": "QT12",
+    "notes": "topic packs have no question pairs; keeps the writing skill",
+    "status": "live: used when a unit has no question pairs"
   }
 ]

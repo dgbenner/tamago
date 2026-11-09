@@ -12,7 +12,8 @@
     "branch_group": "row 1",
     "is_topic_pick": "no",
     "status": "live",
-    "borrowed_sentence_ids": []
+    "borrowed_sentence_ids": [],
+    "topic_id": ""
   },
   {
     "unit_id": "U02",
@@ -27,7 +28,8 @@
     "branch_group": "row 2",
     "is_topic_pick": "no",
     "status": "live",
-    "borrowed_sentence_ids": []
+    "borrowed_sentence_ids": [],
+    "topic_id": ""
   },
   {
     "unit_id": "U03",
@@ -48,7 +50,8 @@
       "S0032",
       "S0035",
       "S0036"
-    ]
+    ],
+    "topic_id": ""
   },
   {
     "unit_id": "U04",
@@ -63,7 +66,8 @@
     "branch_group": "row 3",
     "is_topic_pick": "no",
     "status": "live",
-    "borrowed_sentence_ids": []
+    "borrowed_sentence_ids": [],
+    "topic_id": ""
   },
   {
     "unit_id": "U05",
@@ -78,6 +82,135 @@
     "branch_group": "row 3",
     "is_topic_pick": "no",
     "status": "live",
-    "borrowed_sentence_ids": []
+    "borrowed_sentence_ids": [],
+    "topic_id": ""
+  },
+  {
+    "unit_id": "U100",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 6,
+    "title": "Your topic",
+    "topic": "Choose one of seven topics",
+    "grammar_point": "The grammar of Units 1 to 5, on a topic you choose",
+    "contrast_sets": "",
+    "can_do_ids": "",
+    "branch_group": "row 4",
+    "is_topic_pick": "node",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": ""
+  },
+  {
+    "unit_id": "U101",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 101,
+    "title": "Weather",
+    "topic": "Weather",
+    "grammar_point": "Units 1 to 5, with words for this topic",
+    "contrast_sets": "",
+    "can_do_ids": "",
+    "branch_group": "topic",
+    "is_topic_pick": "yes",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "T06"
+  },
+  {
+    "unit_id": "U102",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 102,
+    "title": "Family",
+    "topic": "Family",
+    "grammar_point": "Units 1 to 5, with words for this topic",
+    "contrast_sets": "",
+    "can_do_ids": "",
+    "branch_group": "topic",
+    "is_topic_pick": "yes",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "T29"
+  },
+  {
+    "unit_id": "U103",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 103,
+    "title": "Home",
+    "topic": "Home",
+    "grammar_point": "Units 1 to 5, with words for this topic",
+    "contrast_sets": "",
+    "can_do_ids": "",
+    "branch_group": "topic",
+    "is_topic_pick": "yes",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "T30"
+  },
+  {
+    "unit_id": "U104",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 104,
+    "title": "Music",
+    "topic": "Music",
+    "grammar_point": "Units 1 to 5, with words for this topic",
+    "contrast_sets": "",
+    "can_do_ids": "",
+    "branch_group": "topic",
+    "is_topic_pick": "yes",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "T17"
+  },
+  {
+    "unit_id": "U105",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 105,
+    "title": "Coffee shop",
+    "topic": "Coffee shop",
+    "grammar_point": "Units 1 to 5, with words for this topic",
+    "contrast_sets": "",
+    "can_do_ids": "",
+    "branch_group": "topic",
+    "is_topic_pick": "yes",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "T09"
+  },
+  {
+    "unit_id": "U106",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 106,
+    "title": "Supermarket",
+    "topic": "Supermarket",
+    "grammar_point": "Units 1 to 5, with words for this topic",
+    "contrast_sets": "",
+    "can_do_ids": "",
+    "branch_group": "topic",
+    "is_topic_pick": "yes",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "T25"
+  },
+  {
+    "unit_id": "U107",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 107,
+    "title": "The beach",
+    "topic": "The beach",
+    "grammar_point": "Units 1 to 5, with words for this topic",
+    "contrast_sets": "",
+    "can_do_ids": "",
+    "branch_group": "topic",
+    "is_topic_pick": "yes",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "T15"
   }
 ]

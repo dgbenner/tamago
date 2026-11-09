@@ -16,12 +16,13 @@ import settings_defaults from '../content/settings_defaults.json'
 import tree_layout from '../content/tree_layout.json'
 import grammar_notes from '../content/grammar_notes.json'
 import can_do from '../content/can_do.json'
+import conjugations from '../content/conjugations.json'
 import image_set from '../content/image_set.json'
 import { contentForUnit, indexContent } from './lesson.js'
 
 // Bundled with the app, so a lesson never waits on the network.
 export const tables = {
-  units, sentences, words, sentence_words, accepted_answers, question_types, variants, rounds, tree_layout, grammar_notes, image_set, can_do,
+  units, sentences, words, sentence_words, accepted_answers, question_types, variants, rounds, tree_layout, grammar_notes, image_set, can_do, conjugations,
   round_type_mix, phase1_fallbacks, cant_swaps, flag_reasons, settings_defaults, qa_answers, feedback_phrases,
 }
 // Every unit at once: review, which spans units, and the About page.

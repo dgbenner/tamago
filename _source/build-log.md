@@ -2,6 +2,53 @@
 
 Kept under _source/autonomous-build.md. Newest phase first.
 
+## Phase 3: word list, flashcards, verbs, topic packs, variant bank, checkpoints (November 9, 2026)
+
+**Built**
+
+- Words screen: every word met, with its recall (its own card, else the average of its sentences'), its verb table and its examples. Match (a match-pairs round of met words) and Flashcards (FSRS per word, kept in kv flashcards; graded Again, Hard, Good or Easy; optional say-aloud before turning).
+- Verbs screen: Wiktionary present-tense tables for every met verb (checks/conjugations.json, now shipped), and a drill one person at a time, typed and checked with the app's answer rules.
+- Review checkpoints after tree rows 2 and 3: ten items from the units above, weakest first, in each unit's practice type. Pass at 70%. They are open once the units finish round 1 and never lock anything (kv checkpoints).
+- Variant test bank in Settings: live, testing or off per variant, per browser (kv variant_status), applied over the workbook's status. A type keeps at least one live variant.
+- Topic packs: scripts/add-topic-packs.mjs made workbook v11. It holds the node U100 "Your topic" (is_topic_pick node, tree row 4, opens after row 3) and seven packs, U101 to U107 (is_topic_pick yes), from topics_pool: Weather, Family, Home, Music, Coffee shop, Supermarket, The beach. Their words are W301 to W347.
+  - The pull (P01 to P09, PACK_TARGET 15) takes words from the main units plus the pack's own, never another pack.
+  - 72 Tatoeba sentences and 70 drafts give every pack word 3 or more sentences.
+  - The node's card lists the topics; the choice is kept in kv topic_choice. The node then shows the chosen pack, and Change topic switches it, with each pack's progress kept.
+- Workbook v12 (sync from v11): pack rows go live, three QT09 fallback rows, and hints with their sources. Rebuilding from v12 alone gives the same app, apart from 25 more generated en_to_fr answers for pack sentences, which every workbook row gets.
+- Tests: 46 pass. Packs build lessons in all five rounds and never draw on another pack; choices are distinct across all units; placement covers the main path only. Browser runs: the topic flow in Chrome, Firefox and WebKit; the Phase 2c flows; the side tools; and e2e against the production build.
+
+**Decisions**
+
+- Cuts in the packs (brief: cut idiomatic, misleading or odd):
+  - S6003 "Il neige." (neige as a verb).
+  - S6007, S6011 and S6014: "Il est (grand, bien) temps" is an idiom.
+  - S6010: "Le Soleil" is the astronomical Sun.
+  - S6105, S6106 and S6107: mère and père used as forms of address read as old-fashioned.
+  - S6108 "Ils sont parents." (relatives).
+  - S6111 "Je suis un bébé." and S6507 "Je suis une banane.": odd, like the earlier cut "Je suis un chat".
+  - S6112 "La famille, c'est la famille." (idiom).
+  - S6310 "C'est une grande chanson." (grande as great).
+  - S6406 « Salut. » « Café. » (odd).
+- Drafts that the check found already on Tatoeba:
+  - S6658 "C'est un grand bateau." is Tatoeba 8693082, so it is now a Tatoeba row. Import accepts source tatoeba on a draft for this.
+  - Four drafts duplicated pulled sentences and were reworded: S6051, S6054, S6353, S6558.
+- QT09 in a unit with no question pairs (six of the packs) uses new phase1_fallbacks rows: round 3 QT08, rounds 4 and 5 QT12, which keeps the writing skill. workbook-sync keeps these rows live.
+- R01 reading: a unit's lessons count only its own words as new; words of earlier units are always allowed. The old reading counted every unmet word, which crashed a pack's first lesson. It could also crash after placement, which credits rounds without marking words met.
+- Packs stay off the path (placement, checkpoints, scores, practice) until chosen or started, since they're one choice among seven.
+- Distinct choices: a sentence's similar-sentence choices must differ in English and in French. This was found as a React duplicate-key warning in practice, which predated this phase.
+- Hints: decisions.claude_hints holds Claude's hints with their source, kept apart from Dan's decisions.hints. They cover neige "snow" (short form), parents "parents" (a Wiktionary sense of parent), and chambre "room" and bateau "boat" (short forms, previously labelled as Dan's).
+- Croissant sense: the pick matches "croissant" among Wiktionary's senses (crescent, croissant, crescent moon).
+
+**Stubbed**
+
+- The topic node, like every node, shows its number until unit icons exist.
+- Variant bank switches live in the browser only; they aren't written back to the workbook.
+
+**Waiting for Dan**
+
+- Native-speaker check: now 154 sentences (18 in U01 and 136 drafts, listed in check-in.md).
+- Phone pass over Unit 6 and the Words and Verbs screens.
+
 ## Phase 2c: strength, scores, progress, streaks, placement (November 9, 2026)
 
 **Built**

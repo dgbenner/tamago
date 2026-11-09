@@ -7,7 +7,7 @@ import { createRequire } from 'node:module'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v10.xlsx')
+const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v12.xlsx')
 const OUT = join(ROOT, 'content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)
@@ -75,8 +75,12 @@ if (existsSync(DRAFTS)) {
     const known = tables.words.filter((w) => unitOrder.get(w.first_unit) <= unitOrder.get(d.unit_id))
     const a = analyse(d.french, formIndexFor(known), { names })
     if (a.unknown) { fail(`drafts ${d.sentence_id} "${d.french}": "${a.unknown}" is not a word of ${d.unit_id} or earlier`); continue }
-    tables.sentences.push({ sentence_id: d.sentence_id, unit_id: d.unit_id, french: d.french, english: d.english, pair_id: '', source: 'tamago_original', source_id: '',
-      status: 'live: native check before Phase 4', audio_source: 'tts', max_round: 5, notes: d.notes ?? 'drafted by Claude at Dan\'s request', origin: 'draft' })
+    tables.sentences.push({ sentence_id: d.sentence_id, unit_id: d.unit_id, french: d.french, english: d.english, pair_id: '',
+      // A draft the check later found on Tatoeba carries its source and is treated as a pulled row.
+      ...(d.source === 'tatoeba'
+        ? { source: 'tatoeba', source_id: d.source_id, source_owner: d.source_owner, status: 'pulled: awaiting approval', origin: 'pull' }
+        : { source: 'tamago_original', source_id: '', status: 'live: native check before Phase 4', origin: 'draft' }),
+      audio_source: 'tts', max_round: 5, notes: d.notes ?? 'drafted by Claude at Dan\'s request' })
     a.parts.forEach((p, k) => tables.sentence_words.push({ sentence_id: d.sentence_id, position: k + 1, surface: p.surface, word_id: p.word_id, notes: p.name ? 'name' : '', hint_override: '' }))
   }
   const qaKeys = new Set(tables.qa_answers.map((q) => q.question_sentence_id + '>' + q.answer_sentence_id))
@@ -208,7 +212,8 @@ for (const [i, t] of (tables.tree_layout ?? []).entries()) {
   const m = String(t.unlocks_after).match(/^row (\d+)$/)
   if (t.unlocks_after !== '' && !(m && Number(m[1]) < t.row)) fail(`tree_layout row ${i + 2}: cannot read unlocks_after "${t.unlocks_after}"`)
 }
-for (const u of tables.units) if (!placed.has(u.unit_id)) fail(`units ${u.unit_id}: not in tree_layout`)
+// Topic packs are reached through the topic node, not placed in the tree themselves.
+for (const u of tables.units) if (!placed.has(u.unit_id) && u.is_topic_pick !== 'yes') fail(`units ${u.unit_id}: not in tree_layout`)
 // qa_answers: both sides are sentences.
 for (const [i, q] of (tables.qa_answers ?? []).entries()) {
   for (const col of ['question_sentence_id', 'answer_sentence_id']) {

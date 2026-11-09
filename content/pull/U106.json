@@ -1,0 +1,714 @@
+{
+  "unit_id": "U106",
+  "pulled_at": "2026-11-09",
+  "candidates": 14,
+  "sentences": [
+    {
+      "sentence_id": "S6501",
+      "unit_id": "U106",
+      "french": "Du poulet, s'il vous plaît.",
+      "english": "Chicken, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12597",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mouche",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6502",
+      "unit_id": "U106",
+      "french": "C'est du poulet.",
+      "english": "That's chicken.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "898053",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6503",
+      "unit_id": "U106",
+      "french": "C'est une banane.",
+      "english": "That's a banana.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7242750",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tras",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6504",
+      "unit_id": "U106",
+      "french": "Mange les œufs.",
+      "english": "Eat the eggs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "14065966",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6505",
+      "unit_id": "U106",
+      "french": "De la viande, s'il vous plaît.",
+      "english": "Meat, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1977923",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6506",
+      "unit_id": "U106",
+      "french": "J'aime le riz.",
+      "english": "I like rice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3634423",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I love rice."
+      ]
+    },
+    {
+      "sentence_id": "S6507",
+      "unit_id": "U106",
+      "french": "Je suis une banane.",
+      "english": "I'm a banana.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3682721",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": [
+        "I am a banana."
+      ]
+    },
+    {
+      "sentence_id": "S6508",
+      "unit_id": "U106",
+      "french": "Marie mange une tomate.",
+      "english": "Mary eats a tomato.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6329975",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6509",
+      "unit_id": "U106",
+      "french": "Mange de la viande.",
+      "english": "Eat meat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8984237",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6510",
+      "unit_id": "U106",
+      "french": "Il mange un œuf.",
+      "english": "He's eating an egg.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12533486",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6511",
+      "unit_id": "U106",
+      "french": "Tu as de la viande.",
+      "english": "You have meat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7204266",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6512",
+      "unit_id": "U106",
+      "french": "J'aime bien les œufs.",
+      "english": "I like eggs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12275735",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6513",
+      "unit_id": "U106",
+      "french": "Il aime le pain et le beurre.",
+      "english": "He likes bread and butter.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "131307",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6514",
+      "unit_id": "U106",
+      "french": "Le chien mange de la viande.",
+      "english": "The dog is eating meat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8883849",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S6501",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6501",
+      "position": 2,
+      "surface": "poulet",
+      "word_id": "W336",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6501",
+      "position": 3,
+      "surface": "s'il vous plaît",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6502",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6502",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6502",
+      "position": 3,
+      "surface": "poulet",
+      "word_id": "W336",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6503",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6503",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6503",
+      "position": 3,
+      "surface": "banane",
+      "word_id": "W338",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6504",
+      "position": 1,
+      "surface": "Mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6504",
+      "position": 2,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6504",
+      "position": 3,
+      "surface": "œufs",
+      "word_id": "W341",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6505",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6505",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6505",
+      "position": 3,
+      "surface": "viande",
+      "word_id": "W335",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6505",
+      "position": 4,
+      "surface": "s'il vous plaît",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6506",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6506",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6506",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6506",
+      "position": 4,
+      "surface": "riz",
+      "word_id": "W337",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6507",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6507",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6507",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6507",
+      "position": 4,
+      "surface": "banane",
+      "word_id": "W338",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6508",
+      "position": 1,
+      "surface": "Marie",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6508",
+      "position": 2,
+      "surface": "mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6508",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6508",
+      "position": 4,
+      "surface": "tomate",
+      "word_id": "W339",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6509",
+      "position": 1,
+      "surface": "Mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6509",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6509",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6509",
+      "position": 4,
+      "surface": "viande",
+      "word_id": "W335",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6510",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6510",
+      "position": 2,
+      "surface": "mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6510",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6510",
+      "position": 4,
+      "surface": "œuf",
+      "word_id": "W340",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6511",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6511",
+      "position": 2,
+      "surface": "as",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6511",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6511",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6511",
+      "position": 5,
+      "surface": "viande",
+      "word_id": "W335",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6512",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6512",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6512",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6512",
+      "position": 4,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6512",
+      "position": 5,
+      "surface": "œufs",
+      "word_id": "W341",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6513",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6513",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6513",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6513",
+      "position": 4,
+      "surface": "pain",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6513",
+      "position": 5,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6513",
+      "position": 6,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6513",
+      "position": 7,
+      "surface": "beurre",
+      "word_id": "W342",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6514",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6514",
+      "position": 2,
+      "surface": "chien",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6514",
+      "position": 3,
+      "surface": "mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6514",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6514",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6514",
+      "position": 6,
+      "surface": "viande",
+      "word_id": "W335",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A65061",
+      "sentence_id": "S6506",
+      "direction": "fr_to_en",
+      "answer": "I love rice.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A65071",
+      "sentence_id": "S6507",
+      "direction": "fr_to_en",
+      "answer": "I am a banana.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

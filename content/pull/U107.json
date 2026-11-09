@@ -1,0 +1,288 @@
+{
+  "unit_id": "U107",
+  "pulled_at": "2026-11-09",
+  "candidates": 6,
+  "sentences": [
+    {
+      "sentence_id": "S6601",
+      "unit_id": "U107",
+      "french": "C'est du poisson ?",
+      "english": "Is that fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8659323",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6602",
+      "unit_id": "U107",
+      "french": "Du poisson s'il vous plaît.",
+      "english": "Fish, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "120014",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "TRANG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6603",
+      "unit_id": "U107",
+      "french": "C'est du sable.",
+      "english": "It's sand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5579309",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6604",
+      "unit_id": "U107",
+      "french": "Mange le poisson.",
+      "english": "Eat the fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11837554",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6605",
+      "unit_id": "U107",
+      "french": "J'aime la plage.",
+      "english": "I like the beach.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3642529",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I love the beach."
+      ]
+    },
+    {
+      "sentence_id": "S6606",
+      "unit_id": "U107",
+      "french": "Le grand poisson mange le petit.",
+      "english": "The big fish eats the small one.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6116662",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "christian63",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S6601",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6601",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6601",
+      "position": 3,
+      "surface": "poisson",
+      "word_id": "W345",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6602",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6602",
+      "position": 2,
+      "surface": "poisson",
+      "word_id": "W345",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6602",
+      "position": 3,
+      "surface": "s'il vous plaît",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6603",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6603",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6603",
+      "position": 3,
+      "surface": "sable",
+      "word_id": "W347",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6604",
+      "position": 1,
+      "surface": "Mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6604",
+      "position": 2,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6604",
+      "position": 3,
+      "surface": "poisson",
+      "word_id": "W345",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6605",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6605",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6605",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6605",
+      "position": 4,
+      "surface": "plage",
+      "word_id": "W343",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6606",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6606",
+      "position": 2,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6606",
+      "position": 3,
+      "surface": "poisson",
+      "word_id": "W345",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6606",
+      "position": 4,
+      "surface": "mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6606",
+      "position": 5,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6606",
+      "position": 6,
+      "surface": "petit",
+      "word_id": "W203",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A66051",
+      "sentence_id": "S6605",
+      "direction": "fr_to_en",
+      "answer": "I love the beach.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

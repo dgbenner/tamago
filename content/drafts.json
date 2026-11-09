@@ -1,92 +1,1119 @@
 {
   "_about": "Sentences Claude drafted at Dan's request, 2026-11-09: 4 question-and-answer pairs per unit for QT09, and enough sentences for each word with fewer than 3 to reach 3. All tamago_original, with a native-speaker check before Phase 4. Import splits them into words and rejects any word outside the unit or earlier ones.",
   "sentences": [
-    { "sentence_id": "S2101", "unit_id": "U02", "french": "Le livre est ici ?", "english": "Is the book here?", "notes": "QT09 question" },
-    { "sentence_id": "S2102", "unit_id": "U02", "french": "Oui, le livre est ici.", "english": "Yes, the book is here.", "notes": "QT09 answer" },
-    { "sentence_id": "S2103", "unit_id": "U02", "french": "Les enfants sont ici ?", "english": "Are the children here?", "notes": "QT09 question" },
-    { "sentence_id": "S2104", "unit_id": "U02", "french": "Oui, les enfants sont ici.", "english": "Yes, the children are here.", "notes": "QT09 answer" },
-    { "sentence_id": "S2105", "unit_id": "U02", "french": "La lettre est ici ?", "english": "Is the letter here?", "notes": "QT09 question" },
-    { "sentence_id": "S2106", "unit_id": "U02", "french": "Oui, voici la lettre.", "english": "Yes, here is the letter.", "notes": "QT09 answer" },
-    { "sentence_id": "S2107", "unit_id": "U02", "french": "Elle est grande ?", "english": "Is she tall?", "notes": "QT09 question" },
-    { "sentence_id": "S2108", "unit_id": "U02", "french": "Non, elle est petite.", "english": "No, she is short.", "notes": "QT09 answer" },
-    { "sentence_id": "S2109", "unit_id": "U02", "french": "Voici les hommes.", "english": "Here are the men." },
-    { "sentence_id": "S2110", "unit_id": "U02", "french": "Voici le journal.", "english": "Here is the newspaper." },
-    { "sentence_id": "S2111", "unit_id": "U02", "french": "Les femmes sont ici.", "english": "The women are here." },
-    { "sentence_id": "S2112", "unit_id": "U02", "french": "Les hommes et les femmes sont ici.", "english": "The men and the women are here." },
-    { "sentence_id": "S2113", "unit_id": "U02", "french": "Les garçons sont ici.", "english": "The boys are here." },
-    { "sentence_id": "S2114", "unit_id": "U02", "french": "Voici les garçons et les filles.", "english": "Here are the boys and the girls." },
-    { "sentence_id": "S2115", "unit_id": "U02", "french": "Les filles sont ici.", "english": "The girls are here." },
-    { "sentence_id": "S2116", "unit_id": "U02", "french": "Les garçons ? Ils sont ici.", "english": "The boys? They are here." },
-    { "sentence_id": "S2117", "unit_id": "U02", "french": "Les hommes ? Ils sont ici.", "english": "The men? They are here." },
-    { "sentence_id": "S2118", "unit_id": "U02", "french": "Les filles ? Elles sont ici.", "english": "The girls? They are here." },
-    { "sentence_id": "S2119", "unit_id": "U02", "french": "Voici les enfants.", "english": "Here are the children." },
-    { "sentence_id": "S2120", "unit_id": "U02", "french": "Voici les femmes.", "english": "Here are the women." },
-    { "sentence_id": "S2121", "unit_id": "U02", "french": "La lettre est petite.", "english": "The letter is small." },
-    { "sentence_id": "S2122", "unit_id": "U02", "french": "Le journal est ici.", "english": "The newspaper is here." },
-    { "sentence_id": "S2123", "unit_id": "U02", "french": "Le garçon ? Il est ici.", "english": "The boy? He is here." },
-
-    { "sentence_id": "S3101", "unit_id": "U03", "french": "Vous êtes Paul ?", "english": "Are you Paul?", "notes": "QT09 question" },
-    { "sentence_id": "S3102", "unit_id": "U03", "french": "Non, je suis Marie.", "english": "No, I'm Marie.", "notes": "QT09 answer" },
-    { "sentence_id": "S3103", "unit_id": "U03", "french": "Ça va, Marie ?", "english": "Are you OK, Marie?", "notes": "QT09 question" },
-    { "sentence_id": "S3104", "unit_id": "U03", "french": "Oui, ça va bien.", "english": "Yes, I'm fine.", "notes": "QT09 answer" },
-    { "sentence_id": "S3105", "unit_id": "U03", "french": "Tu es Marie ?", "english": "Are you Marie?", "notes": "QT09 question" },
-    { "sentence_id": "S3106", "unit_id": "U03", "french": "Oui, bonsoir ! Je suis Marie.", "english": "Yes, good evening! I'm Marie.", "notes": "QT09 answer" },
-    { "sentence_id": "S3107", "unit_id": "U03", "french": "Comment ça va, Paul ?", "english": "How are you, Paul?", "notes": "QT09 question" },
-    { "sentence_id": "S3108", "unit_id": "U03", "french": "Bien, merci, Marie.", "english": "Fine, thanks, Marie.", "notes": "QT09 answer" },
-    { "sentence_id": "S3109", "unit_id": "U03", "french": "Excusez-moi, vous êtes Paul ?", "english": "Excuse me, are you Paul?" },
-    { "sentence_id": "S3110", "unit_id": "U03", "french": "Excusez-moi, s'il vous plaît.", "english": "Excuse me, please." },
-    { "sentence_id": "S3111", "unit_id": "U03", "french": "Excusez-moi, je suis Marie.", "english": "Excuse me, I'm Marie." },
-    { "sentence_id": "S3112", "unit_id": "U03", "french": "Pardon, tu es Paul ?", "english": "Sorry, are you Paul?" },
-    { "sentence_id": "S3113", "unit_id": "U03", "french": "Pardon, Marie !", "english": "Sorry, Marie!" },
-    { "sentence_id": "S3114", "unit_id": "U03", "french": "Pardon, c'est ici ?", "english": "Excuse me, is it here?" },
-    { "sentence_id": "S3115", "unit_id": "U03", "french": "Paul, s'il te plaît !", "english": "Paul, please!" },
-    { "sentence_id": "S3116", "unit_id": "U03", "french": "Oui, s'il te plaît.", "english": "Yes, please." },
-    { "sentence_id": "S3117", "unit_id": "U03", "french": "Bonsoir, Paul !", "english": "Good evening, Paul!" },
-    { "sentence_id": "S3118", "unit_id": "U03", "french": "Bonne nuit, Marie.", "english": "Good night, Marie." },
-    { "sentence_id": "S3119", "unit_id": "U03", "french": "De rien, Paul.", "english": "You're welcome, Paul." },
-    { "sentence_id": "S3120", "unit_id": "U03", "french": "Au revoir, à bientôt !", "english": "Goodbye, see you soon!" },
-
-    { "sentence_id": "S4101", "unit_id": "U04", "french": "Tu manges une pomme ?", "english": "Are you eating an apple?", "notes": "QT09 question" },
-    { "sentence_id": "S4102", "unit_id": "U04", "french": "Oui, je mange une pomme.", "english": "Yes, I'm eating an apple.", "notes": "QT09 answer" },
-    { "sentence_id": "S4103", "unit_id": "U04", "french": "Tu aimes le fromage ?", "english": "Do you like cheese?", "notes": "QT09 question" },
-    { "sentence_id": "S4104", "unit_id": "U04", "french": "Oui, j'aime bien le fromage.", "english": "Yes, I quite like cheese.", "notes": "QT09 answer" },
-    { "sentence_id": "S4105", "unit_id": "U04", "french": "Tu manges du pain ?", "english": "Are you eating bread?", "notes": "QT09 question" },
-    { "sentence_id": "S4106", "unit_id": "U04", "french": "Non, je mange un sandwich.", "english": "No, I'm eating a sandwich.", "notes": "QT09 answer" },
-    { "sentence_id": "S4107", "unit_id": "U04", "french": "Tu aimes le lait ?", "english": "Do you like milk?", "notes": "QT09 question" },
-    { "sentence_id": "S4108", "unit_id": "U04", "french": "Non, j'aime l'eau.", "english": "No, I like water.", "notes": "QT09 answer" },
-    { "sentence_id": "S4109", "unit_id": "U04", "french": "Il mange une orange.", "english": "He's eating an orange." },
-    { "sentence_id": "S4110", "unit_id": "U04", "french": "Tu aimes le pain ?", "english": "Do you like bread?" },
-    { "sentence_id": "S4111", "unit_id": "U04", "french": "Elle mange un sandwich.", "english": "She's eating a sandwich." },
-
-    { "sentence_id": "S5101", "unit_id": "U05", "french": "Tu as un chien ?", "english": "Do you have a dog?", "notes": "QT09 question" },
-    { "sentence_id": "S5102", "unit_id": "U05", "french": "Oui, j'ai un petit chien.", "english": "Yes, I have a small dog.", "notes": "QT09 answer" },
-    { "sentence_id": "S5103", "unit_id": "U05", "french": "Tu as un chat ?", "english": "Do you have a cat?", "notes": "QT09 question" },
-    { "sentence_id": "S5104", "unit_id": "U05", "french": "Non, j'ai une tortue.", "english": "No, I have a tortoise.", "notes": "QT09 answer" },
-    { "sentence_id": "S5105", "unit_id": "U05", "french": "Il a un cheval ?", "english": "Does he have a horse?", "notes": "QT09 question" },
-    { "sentence_id": "S5106", "unit_id": "U05", "french": "Oui, il a un grand cheval.", "english": "Yes, he has a big horse.", "notes": "QT09 answer" },
-    { "sentence_id": "S5107", "unit_id": "U05", "french": "Tu as un oiseau ?", "english": "Do you have a bird?", "notes": "QT09 question" },
-    { "sentence_id": "S5108", "unit_id": "U05", "french": "Non, j'ai un canard.", "english": "No, I have a duck.", "notes": "QT09 answer" },
-    { "sentence_id": "S5109", "unit_id": "U05", "french": "La tortue est petite.", "english": "The tortoise is small." },
-    { "sentence_id": "S5110", "unit_id": "U05", "french": "J'ai une tortue et un oiseau.", "english": "I have a tortoise and a bird." },
-    { "sentence_id": "S5111", "unit_id": "U05", "french": "Le canard mange.", "english": "The duck is eating." },
-    { "sentence_id": "S5112", "unit_id": "U05", "french": "La souris est petite.", "english": "The mouse is small." }
+    {
+      "sentence_id": "S2101",
+      "unit_id": "U02",
+      "french": "Le livre est ici ?",
+      "english": "Is the book here?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S2102",
+      "unit_id": "U02",
+      "french": "Oui, le livre est ici.",
+      "english": "Yes, the book is here.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S2103",
+      "unit_id": "U02",
+      "french": "Les enfants sont ici ?",
+      "english": "Are the children here?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S2104",
+      "unit_id": "U02",
+      "french": "Oui, les enfants sont ici.",
+      "english": "Yes, the children are here.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S2105",
+      "unit_id": "U02",
+      "french": "La lettre est ici ?",
+      "english": "Is the letter here?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S2106",
+      "unit_id": "U02",
+      "french": "Oui, voici la lettre.",
+      "english": "Yes, here is the letter.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S2107",
+      "unit_id": "U02",
+      "french": "Elle est grande ?",
+      "english": "Is she tall?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S2108",
+      "unit_id": "U02",
+      "french": "Non, elle est petite.",
+      "english": "No, she is short.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S2109",
+      "unit_id": "U02",
+      "french": "Voici les hommes.",
+      "english": "Here are the men."
+    },
+    {
+      "sentence_id": "S2110",
+      "unit_id": "U02",
+      "french": "Voici le journal.",
+      "english": "Here is the newspaper."
+    },
+    {
+      "sentence_id": "S2111",
+      "unit_id": "U02",
+      "french": "Les femmes sont ici.",
+      "english": "The women are here."
+    },
+    {
+      "sentence_id": "S2112",
+      "unit_id": "U02",
+      "french": "Les hommes et les femmes sont ici.",
+      "english": "The men and the women are here."
+    },
+    {
+      "sentence_id": "S2113",
+      "unit_id": "U02",
+      "french": "Les garçons sont ici.",
+      "english": "The boys are here."
+    },
+    {
+      "sentence_id": "S2114",
+      "unit_id": "U02",
+      "french": "Voici les garçons et les filles.",
+      "english": "Here are the boys and the girls."
+    },
+    {
+      "sentence_id": "S2115",
+      "unit_id": "U02",
+      "french": "Les filles sont ici.",
+      "english": "The girls are here."
+    },
+    {
+      "sentence_id": "S2116",
+      "unit_id": "U02",
+      "french": "Les garçons ? Ils sont ici.",
+      "english": "The boys? They are here."
+    },
+    {
+      "sentence_id": "S2117",
+      "unit_id": "U02",
+      "french": "Les hommes ? Ils sont ici.",
+      "english": "The men? They are here."
+    },
+    {
+      "sentence_id": "S2118",
+      "unit_id": "U02",
+      "french": "Les filles ? Elles sont ici.",
+      "english": "The girls? They are here."
+    },
+    {
+      "sentence_id": "S2119",
+      "unit_id": "U02",
+      "french": "Voici les enfants.",
+      "english": "Here are the children."
+    },
+    {
+      "sentence_id": "S2120",
+      "unit_id": "U02",
+      "french": "Voici les femmes.",
+      "english": "Here are the women."
+    },
+    {
+      "sentence_id": "S2121",
+      "unit_id": "U02",
+      "french": "La lettre est petite.",
+      "english": "The letter is small."
+    },
+    {
+      "sentence_id": "S2122",
+      "unit_id": "U02",
+      "french": "Le journal est ici.",
+      "english": "The newspaper is here."
+    },
+    {
+      "sentence_id": "S2123",
+      "unit_id": "U02",
+      "french": "Le garçon ? Il est ici.",
+      "english": "The boy? He is here."
+    },
+    {
+      "sentence_id": "S3101",
+      "unit_id": "U03",
+      "french": "Vous êtes Paul ?",
+      "english": "Are you Paul?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S3102",
+      "unit_id": "U03",
+      "french": "Non, je suis Marie.",
+      "english": "No, I'm Marie.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S3103",
+      "unit_id": "U03",
+      "french": "Ça va, Marie ?",
+      "english": "Are you OK, Marie?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S3104",
+      "unit_id": "U03",
+      "french": "Oui, ça va bien.",
+      "english": "Yes, I'm fine.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S3105",
+      "unit_id": "U03",
+      "french": "Tu es Marie ?",
+      "english": "Are you Marie?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S3106",
+      "unit_id": "U03",
+      "french": "Oui, bonsoir ! Je suis Marie.",
+      "english": "Yes, good evening! I'm Marie.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S3107",
+      "unit_id": "U03",
+      "french": "Comment ça va, Paul ?",
+      "english": "How are you, Paul?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S3108",
+      "unit_id": "U03",
+      "french": "Bien, merci, Marie.",
+      "english": "Fine, thanks, Marie.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S3109",
+      "unit_id": "U03",
+      "french": "Excusez-moi, vous êtes Paul ?",
+      "english": "Excuse me, are you Paul?"
+    },
+    {
+      "sentence_id": "S3110",
+      "unit_id": "U03",
+      "french": "Excusez-moi, s'il vous plaît.",
+      "english": "Excuse me, please."
+    },
+    {
+      "sentence_id": "S3111",
+      "unit_id": "U03",
+      "french": "Excusez-moi, je suis Marie.",
+      "english": "Excuse me, I'm Marie."
+    },
+    {
+      "sentence_id": "S3112",
+      "unit_id": "U03",
+      "french": "Pardon, tu es Paul ?",
+      "english": "Sorry, are you Paul?"
+    },
+    {
+      "sentence_id": "S3113",
+      "unit_id": "U03",
+      "french": "Pardon, Marie !",
+      "english": "Sorry, Marie!"
+    },
+    {
+      "sentence_id": "S3114",
+      "unit_id": "U03",
+      "french": "Pardon, c'est ici ?",
+      "english": "Excuse me, is it here?"
+    },
+    {
+      "sentence_id": "S3115",
+      "unit_id": "U03",
+      "french": "Paul, s'il te plaît !",
+      "english": "Paul, please!"
+    },
+    {
+      "sentence_id": "S3116",
+      "unit_id": "U03",
+      "french": "Oui, s'il te plaît.",
+      "english": "Yes, please."
+    },
+    {
+      "sentence_id": "S3117",
+      "unit_id": "U03",
+      "french": "Bonsoir, Paul !",
+      "english": "Good evening, Paul!"
+    },
+    {
+      "sentence_id": "S3118",
+      "unit_id": "U03",
+      "french": "Bonne nuit, Marie.",
+      "english": "Good night, Marie."
+    },
+    {
+      "sentence_id": "S3119",
+      "unit_id": "U03",
+      "french": "De rien, Paul.",
+      "english": "You're welcome, Paul."
+    },
+    {
+      "sentence_id": "S3120",
+      "unit_id": "U03",
+      "french": "Au revoir, à bientôt !",
+      "english": "Goodbye, see you soon!"
+    },
+    {
+      "sentence_id": "S4101",
+      "unit_id": "U04",
+      "french": "Tu manges une pomme ?",
+      "english": "Are you eating an apple?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S4102",
+      "unit_id": "U04",
+      "french": "Oui, je mange une pomme.",
+      "english": "Yes, I'm eating an apple.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S4103",
+      "unit_id": "U04",
+      "french": "Tu aimes le fromage ?",
+      "english": "Do you like cheese?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S4104",
+      "unit_id": "U04",
+      "french": "Oui, j'aime bien le fromage.",
+      "english": "Yes, I quite like cheese.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S4105",
+      "unit_id": "U04",
+      "french": "Tu manges du pain ?",
+      "english": "Are you eating bread?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S4106",
+      "unit_id": "U04",
+      "french": "Non, je mange un sandwich.",
+      "english": "No, I'm eating a sandwich.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S4107",
+      "unit_id": "U04",
+      "french": "Tu aimes le lait ?",
+      "english": "Do you like milk?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S4108",
+      "unit_id": "U04",
+      "french": "Non, j'aime l'eau.",
+      "english": "No, I like water.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S4109",
+      "unit_id": "U04",
+      "french": "Il mange une orange.",
+      "english": "He's eating an orange."
+    },
+    {
+      "sentence_id": "S4110",
+      "unit_id": "U04",
+      "french": "Tu aimes le pain ?",
+      "english": "Do you like bread?"
+    },
+    {
+      "sentence_id": "S4111",
+      "unit_id": "U04",
+      "french": "Elle mange un sandwich.",
+      "english": "She's eating a sandwich."
+    },
+    {
+      "sentence_id": "S5101",
+      "unit_id": "U05",
+      "french": "Tu as un chien ?",
+      "english": "Do you have a dog?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S5102",
+      "unit_id": "U05",
+      "french": "Oui, j'ai un petit chien.",
+      "english": "Yes, I have a small dog.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S5103",
+      "unit_id": "U05",
+      "french": "Tu as un chat ?",
+      "english": "Do you have a cat?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S5104",
+      "unit_id": "U05",
+      "french": "Non, j'ai une tortue.",
+      "english": "No, I have a tortoise.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S5105",
+      "unit_id": "U05",
+      "french": "Il a un cheval ?",
+      "english": "Does he have a horse?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S5106",
+      "unit_id": "U05",
+      "french": "Oui, il a un grand cheval.",
+      "english": "Yes, he has a big horse.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S5107",
+      "unit_id": "U05",
+      "french": "Tu as un oiseau ?",
+      "english": "Do you have a bird?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S5108",
+      "unit_id": "U05",
+      "french": "Non, j'ai un canard.",
+      "english": "No, I have a duck.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S5109",
+      "unit_id": "U05",
+      "french": "La tortue est petite.",
+      "english": "The tortoise is small."
+    },
+    {
+      "sentence_id": "S5110",
+      "unit_id": "U05",
+      "french": "J'ai une tortue et un oiseau.",
+      "english": "I have a tortoise and a bird."
+    },
+    {
+      "sentence_id": "S5111",
+      "unit_id": "U05",
+      "french": "Le canard mange.",
+      "english": "The duck is eating."
+    },
+    {
+      "sentence_id": "S5112",
+      "unit_id": "U05",
+      "french": "La souris est petite.",
+      "english": "The mouse is small."
+    },
+    {
+      "sentence_id": "S6051",
+      "unit_id": "U101",
+      "french": "Elle aime la pluie.",
+      "english": "She likes the rain.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6052",
+      "unit_id": "U101",
+      "french": "J'aime le soleil.",
+      "english": "I like the sun.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6053",
+      "unit_id": "U101",
+      "french": "Voici le soleil !",
+      "english": "Here is the sun!",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6054",
+      "unit_id": "U101",
+      "french": "Il a chaud.",
+      "english": "He's hot.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6151",
+      "unit_id": "U102",
+      "french": "La mère et le père sont ici.",
+      "english": "The mother and the father are here.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6152",
+      "unit_id": "U102",
+      "french": "Voici le père.",
+      "english": "Here is the father.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6153",
+      "unit_id": "U102",
+      "french": "J'ai un fils.",
+      "english": "I have a son.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6154",
+      "unit_id": "U102",
+      "french": "Le fils est petit.",
+      "english": "The son is small.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6155",
+      "unit_id": "U102",
+      "french": "Le bébé est ici.",
+      "english": "The baby is here.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6156",
+      "unit_id": "U102",
+      "french": "Les parents sont ici.",
+      "english": "The parents are here.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6157",
+      "unit_id": "U102",
+      "french": "Voici les parents.",
+      "english": "Here are the parents.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6251",
+      "unit_id": "U103",
+      "french": "La chambre est petite.",
+      "english": "The room is small.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6252",
+      "unit_id": "U103",
+      "french": "Voici la chambre.",
+      "english": "Here is the room.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6253",
+      "unit_id": "U103",
+      "french": "C'est une grande chambre.",
+      "english": "It's a big room.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6254",
+      "unit_id": "U103",
+      "french": "Le lit est ici.",
+      "english": "The bed is here.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6255",
+      "unit_id": "U103",
+      "french": "Le lit est grand.",
+      "english": "The bed is big.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6256",
+      "unit_id": "U103",
+      "french": "J'ai un petit lit.",
+      "english": "I have a small bed.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6257",
+      "unit_id": "U103",
+      "french": "La porte est petite.",
+      "english": "The door is small.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6258",
+      "unit_id": "U103",
+      "french": "Voici la porte.",
+      "english": "Here is the door.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6259",
+      "unit_id": "U103",
+      "french": "C'est une grande porte.",
+      "english": "It's a big door.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6260",
+      "unit_id": "U103",
+      "french": "La fenêtre est grande.",
+      "english": "The window is big.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6261",
+      "unit_id": "U103",
+      "french": "Voici la fenêtre.",
+      "english": "Here is the window.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6262",
+      "unit_id": "U103",
+      "french": "La table et la chaise sont ici.",
+      "english": "The table and the chair are here.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6263",
+      "unit_id": "U103",
+      "french": "Voici une chaise.",
+      "english": "Here is a chair.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6264",
+      "unit_id": "U103",
+      "french": "La cuisine est petite.",
+      "english": "The kitchen is small.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6265",
+      "unit_id": "U103",
+      "french": "Voici la cuisine.",
+      "english": "Here is the kitchen.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6266",
+      "unit_id": "U103",
+      "french": "C'est une petite fenêtre.",
+      "english": "It's a small window.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6351",
+      "unit_id": "U104",
+      "french": "Il aime la musique.",
+      "english": "He likes music.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6352",
+      "unit_id": "U104",
+      "french": "J'aime la chanson.",
+      "english": "I like the song.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6353",
+      "unit_id": "U104",
+      "french": "Il a un piano.",
+      "english": "He has a piano.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6354",
+      "unit_id": "U104",
+      "french": "Le piano est grand.",
+      "english": "The piano is big.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6355",
+      "unit_id": "U104",
+      "french": "Elle a une guitare.",
+      "english": "She has a guitar.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6356",
+      "unit_id": "U104",
+      "french": "J'aime la guitare.",
+      "english": "I like the guitar.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6451",
+      "unit_id": "U105",
+      "french": "J'aime le chocolat.",
+      "english": "I like chocolate.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6452",
+      "unit_id": "U105",
+      "french": "Une tasse de café, s'il vous plaît.",
+      "english": "A cup of coffee, please.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6453",
+      "unit_id": "U105",
+      "french": "Une tasse de thé, s'il te plaît.",
+      "english": "A cup of tea, please.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6454",
+      "unit_id": "U105",
+      "french": "La tasse est petite.",
+      "english": "The cup is small.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6455",
+      "unit_id": "U105",
+      "french": "Un croissant, s'il vous plaît.",
+      "english": "A croissant, please.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6456",
+      "unit_id": "U105",
+      "french": "Je mange un croissant.",
+      "english": "I'm eating a croissant.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6457",
+      "unit_id": "U105",
+      "french": "Le croissant est grand.",
+      "english": "The croissant is big.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6551",
+      "unit_id": "U106",
+      "french": "Je mange du poulet.",
+      "english": "I'm eating chicken.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6552",
+      "unit_id": "U106",
+      "french": "Je mange du riz.",
+      "english": "I'm eating rice.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6553",
+      "unit_id": "U106",
+      "french": "Du riz, s'il vous plaît.",
+      "english": "Rice, please.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6554",
+      "unit_id": "U106",
+      "french": "Je mange une banane.",
+      "english": "I'm eating a banana.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6555",
+      "unit_id": "U106",
+      "french": "C'est une tomate.",
+      "english": "It's a tomato.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6556",
+      "unit_id": "U106",
+      "french": "Je mange une tomate.",
+      "english": "I'm eating a tomato.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6557",
+      "unit_id": "U106",
+      "french": "J'ai un œuf.",
+      "english": "I have an egg.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6558",
+      "unit_id": "U106",
+      "french": "Voici un œuf.",
+      "english": "Here is an egg.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6559",
+      "unit_id": "U106",
+      "french": "J'aime les œufs.",
+      "english": "I like eggs.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6560",
+      "unit_id": "U106",
+      "french": "Du beurre, s'il vous plaît.",
+      "english": "Butter, please.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6561",
+      "unit_id": "U106",
+      "french": "J'aime le beurre.",
+      "english": "I like butter.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6651",
+      "unit_id": "U107",
+      "french": "Voici la plage.",
+      "english": "Here is the beach.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6652",
+      "unit_id": "U107",
+      "french": "La plage est grande.",
+      "english": "The beach is big.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6653",
+      "unit_id": "U107",
+      "french": "J'aime la mer.",
+      "english": "I like the sea.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6654",
+      "unit_id": "U107",
+      "french": "La mer est grande.",
+      "english": "The sea is big.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6655",
+      "unit_id": "U107",
+      "french": "Voici la mer.",
+      "english": "Here is the sea.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6656",
+      "unit_id": "U107",
+      "french": "J'ai un bateau.",
+      "english": "I have a boat.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6657",
+      "unit_id": "U107",
+      "french": "Le bateau est petit.",
+      "english": "The boat is small.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6658",
+      "unit_id": "U107",
+      "french": "C'est un grand bateau.",
+      "english": "It's a big boat.",
+      "notes": "drafted, then found on Tatoeba",
+      "source": "tatoeba",
+      "source_id": "8693082",
+      "source_owner": "felix63"
+    },
+    {
+      "sentence_id": "S6659",
+      "unit_id": "U107",
+      "french": "J'aime le sable.",
+      "english": "I like the sand.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6660",
+      "unit_id": "U107",
+      "french": "Le sable est ici.",
+      "english": "The sand is here.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6055",
+      "unit_id": "U101",
+      "french": "Le soleil est grand.",
+      "english": "The sun is big.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6056",
+      "unit_id": "U101",
+      "french": "Tu as du temps ?",
+      "english": "Do you have time?",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6057",
+      "unit_id": "U101",
+      "french": "Il a du temps.",
+      "english": "He has time.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6158",
+      "unit_id": "U102",
+      "french": "Voici la mère.",
+      "english": "Here is the mother.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6159",
+      "unit_id": "U102",
+      "french": "La mère est ici.",
+      "english": "The mother is here.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6160",
+      "unit_id": "U102",
+      "french": "Le père est ici.",
+      "english": "The father is here.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6161",
+      "unit_id": "U102",
+      "french": "Les parents et les enfants sont ici.",
+      "english": "The parents and the children are here.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6162",
+      "unit_id": "U102",
+      "french": "Voici le bébé.",
+      "english": "Here is the baby.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6357",
+      "unit_id": "U104",
+      "french": "Voici la chanson.",
+      "english": "Here is the song.",
+      "notes": "topic pack draft, Phase 3"
+    },
+    {
+      "sentence_id": "S6562",
+      "unit_id": "U106",
+      "french": "Il mange une banane.",
+      "english": "He's eating a banana.",
+      "notes": "topic pack draft, Phase 3"
+    }
   ],
   "qa_answers": [
-    { "question_sentence_id": "S2101", "answer_sentence_id": "S2102" }, { "question_sentence_id": "S2101", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S2101", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S2103", "answer_sentence_id": "S2104" }, { "question_sentence_id": "S2103", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S2103", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S2105", "answer_sentence_id": "S2106" }, { "question_sentence_id": "S2105", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S2105", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S2107", "answer_sentence_id": "S2108" }, { "question_sentence_id": "S2107", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S2107", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S3101", "answer_sentence_id": "S3102" }, { "question_sentence_id": "S3101", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S3101", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S3103", "answer_sentence_id": "S3104" }, { "question_sentence_id": "S3103", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S3103", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S3105", "answer_sentence_id": "S3106" }, { "question_sentence_id": "S3105", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S3105", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S3107", "answer_sentence_id": "S3108" },
-    { "question_sentence_id": "S4101", "answer_sentence_id": "S4102" }, { "question_sentence_id": "S4101", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S4101", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S4103", "answer_sentence_id": "S4104" }, { "question_sentence_id": "S4103", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S4103", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S4105", "answer_sentence_id": "S4106" }, { "question_sentence_id": "S4105", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S4105", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S4107", "answer_sentence_id": "S4108" }, { "question_sentence_id": "S4107", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S4107", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S5101", "answer_sentence_id": "S5102" }, { "question_sentence_id": "S5101", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S5101", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S5103", "answer_sentence_id": "S5104" }, { "question_sentence_id": "S5103", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S5103", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S5105", "answer_sentence_id": "S5106" }, { "question_sentence_id": "S5105", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S5105", "answer_sentence_id": "S0005" },
-    { "question_sentence_id": "S5107", "answer_sentence_id": "S5108" }, { "question_sentence_id": "S5107", "answer_sentence_id": "S0004" }, { "question_sentence_id": "S5107", "answer_sentence_id": "S0005" }
+    {
+      "question_sentence_id": "S2101",
+      "answer_sentence_id": "S2102"
+    },
+    {
+      "question_sentence_id": "S2101",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S2101",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S2103",
+      "answer_sentence_id": "S2104"
+    },
+    {
+      "question_sentence_id": "S2103",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S2103",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S2105",
+      "answer_sentence_id": "S2106"
+    },
+    {
+      "question_sentence_id": "S2105",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S2105",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S2107",
+      "answer_sentence_id": "S2108"
+    },
+    {
+      "question_sentence_id": "S2107",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S2107",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S3101",
+      "answer_sentence_id": "S3102"
+    },
+    {
+      "question_sentence_id": "S3101",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S3101",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S3103",
+      "answer_sentence_id": "S3104"
+    },
+    {
+      "question_sentence_id": "S3103",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S3103",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S3105",
+      "answer_sentence_id": "S3106"
+    },
+    {
+      "question_sentence_id": "S3105",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S3105",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S3107",
+      "answer_sentence_id": "S3108"
+    },
+    {
+      "question_sentence_id": "S4101",
+      "answer_sentence_id": "S4102"
+    },
+    {
+      "question_sentence_id": "S4101",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S4101",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S4103",
+      "answer_sentence_id": "S4104"
+    },
+    {
+      "question_sentence_id": "S4103",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S4103",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S4105",
+      "answer_sentence_id": "S4106"
+    },
+    {
+      "question_sentence_id": "S4105",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S4105",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S4107",
+      "answer_sentence_id": "S4108"
+    },
+    {
+      "question_sentence_id": "S4107",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S4107",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S5101",
+      "answer_sentence_id": "S5102"
+    },
+    {
+      "question_sentence_id": "S5101",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S5101",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S5103",
+      "answer_sentence_id": "S5104"
+    },
+    {
+      "question_sentence_id": "S5103",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S5103",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S5105",
+      "answer_sentence_id": "S5106"
+    },
+    {
+      "question_sentence_id": "S5105",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S5105",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S5107",
+      "answer_sentence_id": "S5108"
+    },
+    {
+      "question_sentence_id": "S5107",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S5107",
+      "answer_sentence_id": "S0005"
+    }
   ]
 }

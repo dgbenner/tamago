@@ -125,13 +125,67 @@
       "action": "approve",
       "on": "2026-11-09",
       "by": "Claude under autonomous-build.md: 53 sentences after widening and drafting, every word in 3 or more"
+    },
+    "U100": {
+      "action": "approve",
+      "on": "2026-11-09",
+      "by": "Claude under autonomous-build.md: the choose-your-topic node (no sentences of its own)"
+    },
+    "U101": {
+      "action": "approve",
+      "on": "2026-11-09",
+      "by": "Claude under autonomous-build.md: topic pack, Tatoeba plus drafts to 15 sentences and 3 per word"
+    },
+    "U102": {
+      "action": "approve",
+      "on": "2026-11-09",
+      "by": "Claude under autonomous-build.md: topic pack, Tatoeba plus drafts to 15 sentences and 3 per word"
+    },
+    "U103": {
+      "action": "approve",
+      "on": "2026-11-09",
+      "by": "Claude under autonomous-build.md: topic pack, Tatoeba plus drafts to 15 sentences and 3 per word"
+    },
+    "U104": {
+      "action": "approve",
+      "on": "2026-11-09",
+      "by": "Claude under autonomous-build.md: topic pack, Tatoeba plus drafts to 15 sentences and 3 per word"
+    },
+    "U105": {
+      "action": "approve",
+      "on": "2026-11-09",
+      "by": "Claude under autonomous-build.md: topic pack, Tatoeba plus drafts to 15 sentences and 3 per word"
+    },
+    "U106": {
+      "action": "approve",
+      "on": "2026-11-09",
+      "by": "Claude under autonomous-build.md: topic pack, Tatoeba plus drafts to 15 sentences and 3 per word"
+    },
+    "U107": {
+      "action": "approve",
+      "on": "2026-11-09",
+      "by": "Claude under autonomous-build.md: topic pack, Tatoeba plus drafts to 15 sentences and 3 per word"
     }
   },
   "cut_sentences": [
     "S3029",
     "S3028",
     "S5022",
-    "S5021"
+    "S5021",
+    "S6003",
+    "S6007",
+    "S6010",
+    "S6011",
+    "S6014",
+    "S6105",
+    "S6106",
+    "S6107",
+    "S6108",
+    "S6111",
+    "S6112",
+    "S6310",
+    "S6406",
+    "S6507"
   ],
   "vocabulary_additions": [
     {
@@ -256,5 +310,23 @@
   "drafting": {
     "on": "2026-11-09",
     "rule": "Draft 4 question-and-answer pairs per unit for QT09, and enough sentences for every word with fewer than 3 to reach 3. All tamago_original, native-speaker check before Phase 4. Drop nothing."
+  },
+  "claude_hints": {
+    "W301": {
+      "hint": "snow",
+      "source": "short form of Wiktionary"
+    },
+    "W314": {
+      "hint": "parents",
+      "source": "Wiktionary, sense \"parents\" of parent"
+    },
+    "W316": {
+      "hint": "room",
+      "source": "short form of Wiktionary"
+    },
+    "W346": {
+      "hint": "boat",
+      "source": "short form of Wiktionary"
+    }
   }
 }

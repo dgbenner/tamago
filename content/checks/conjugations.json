@@ -102,5 +102,31 @@
       "person": "ils, elles",
       "form": "ont"
     }
+  ],
+  "chanter": [
+    {
+      "person": "je (j’)",
+      "form": "chante"
+    },
+    {
+      "person": "tu",
+      "form": "chantes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "chante"
+    },
+    {
+      "person": "nous",
+      "form": "chantons"
+    },
+    {
+      "person": "vous",
+      "form": "chantez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "chantent"
+    }
   ]
 }

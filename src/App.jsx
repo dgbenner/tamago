@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { allContent, recordings, tables, unitContent } from './lib/content.js'
-import { buildLesson, buildReview, buildSession, checkItems, lessonsInRound, passMark, placementItems, practiceType, reaskFor } from './lib/lesson.js'
-import { rate, strength, weakest } from './lib/strength.js'
+import { buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor } from './lib/lesson.js'
+import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
 import { loadState, put, putKv, remove } from './lib/store.js'
 import { hasFrenchVoice, preload, stop } from './lib/audio.js'
@@ -12,6 +12,10 @@ import About from './screens/About.jsx'
 import Splash from './screens/Splash.jsx'
 import GrammarNote from './screens/GrammarNote.jsx'
 import Progress from './screens/Progress.jsx'
+import Words from './screens/Words.jsx'
+import Flashcards from './screens/Flashcards.jsx'
+import Verbs from './screens/Verbs.jsx'
+import VariantBank from './screens/VariantBank.jsx'
 
 const FIRST_UNIT = tables.units[0].unit_id
 const c = allContent // settings defaults, flags and other shared tables
@@ -52,6 +56,13 @@ export default function App() {
   const [clears, setClears] = useState({})
   const [canDoChecked, setCanDoChecked] = useState({})
   const [activeDays, setActiveDays] = useState([])
+  // Phase 3: flashcard deck (FSRS, per word), finished checkpoints, variant switches, the flashcards in hand.
+  const [deck, setDeck] = useState({})
+  const [checkpoints, setCheckpoints] = useState({})
+  const [variantStatus, setVariantStatus] = useState({})
+  const [flash, setFlash] = useState(null)
+  // Phase 3: the topic chosen at the Your topic node (a pack unit id), or null.
+  const [topicChoice, setTopicChoice] = useState(null)
 
   useEffect(() => {
     preload(recordings)
@@ -72,6 +83,10 @@ export default function App() {
       setClears(s.kv.review_clears ?? {})
       setCanDoChecked(s.kv.can_do_checked ?? {})
       setActiveDays(s.kv.active_days ?? [])
+      setDeck(s.kv.flashcards ?? {})
+      setCheckpoints(s.kv.checkpoints ?? {})
+      applyVariants(s.kv.variant_status ?? {})
+      if (s.kv.topic_choice) setTopicChoice(s.kv.topic_choice)
       if (s.kv.current_session) setSession(s.kv.current_session)
       setReady(true)
     })
@@ -92,14 +107,31 @@ export default function App() {
     putKv('settings', next)
   }
 
+  // The variant test bank changes the shared variant rows in place, so every unit's lessons see it.
+  const original = useRef(Object.fromEntries(tables.variants.map((v) => [v.variant_id, v.status])))
+  function applyVariants(map) {
+    for (const v of tables.variants) v.status = map[v.variant_id] ?? original.current[v.variant_id]
+    setVariantStatus(map)
+  }
+  const changeVariant = (id, status) => {
+    const next = { ...variantStatus, [id]: status }
+    applyVariants(next)
+    putKv('variant_status', next)
+  }
+
   const progressOf = (unitId) => progressByUnit[unitId] ?? { unit_id: unitId, round_reached: 0, lessons_done: 0 }
   const roundOf = (unitId) => Math.min(progressOf(unitId).round_reached + 1, 5)
   // Lessons and "I can" checks run on one unit; review, practice and placement span units.
-  const contentFor = (s) => (['review', 'practice', 'placement'].includes(s?.kind) ? allContent : unitContent(s?.unit_id ?? currentUnit))
+  const contentFor = (s) => (['review', 'practice', 'placement', 'words', 'checkpoint'].includes(s?.kind) ? allContent : unitContent(s?.unit_id ?? currentUnit))
 
   // R20: a row opens when every unit in the row it names has finished round 1. A unit also has to be live.
   const layout = tables.tree_layout
-  const rowOf = (unitId) => layout.find((t) => t.unit_id === unitId)
+  // Topic packs sit at the Your topic node: they open with it, and only the chosen one (or one already started) is on the path.
+  const topicNode = tables.units.find((u) => u.is_topic_pick === 'node')
+  const packs = tables.units.filter((u) => u.is_topic_pick === 'yes' && String(u.status).startsWith('live')).sort((a, b) => a.order - b.order)
+  const isPack = (unitId) => packs.some((p) => p.unit_id === unitId)
+  const onPath = (u) => u.is_topic_pick !== 'node' && (u.is_topic_pick !== 'yes' || u.unit_id === topicChoice || (progressByUnit[u.unit_id]?.lessons_done ?? 0) > 0)
+  const rowOf = (unitId) => layout.find((t) => t.unit_id === (isPack(unitId) ? topicNode?.unit_id : unitId))
   const isOpen = (unitId) => {
     const unit = tables.units.find((u) => u.unit_id === unitId)
     if (!String(unit?.status).startsWith('live')) return false
@@ -150,7 +182,7 @@ export default function App() {
     else setScreen('home')
   }
   // Practice weak skills: the ten items most at risk across the open units, in a type that fits each unit's stage.
-  const openUnits = tables.units.filter((u) => isOpen(u.unit_id)).map((u) => u.unit_id)
+  const openUnits = tables.units.filter((u) => onPath(u) && isOpen(u.unit_id)).map((u) => u.unit_id)
   const itemsOf = (unitId) => tables.sentences.filter((s) => s.unit_id === unitId).map((s) => s.sentence_id)
   const startPractice = () => {
     const ids = weakest(openUnits.flatMap(itemsOf), cards, 10)
@@ -160,9 +192,49 @@ export default function App() {
   }
   const startCheck = (canDo) => begin(buildSession(unitContent(canDo.unit_id), 'check', checkItems(unitContent(canDo.unit_id), canDo.skill), { settings: lessonModes(), unit_id: canDo.unit_id, can_do_id: canDo.can_do_id }))
   const startPlacement = () => {
-    const liveUnits = [...tables.units].sort((a, b) => a.order - b.order).filter((u) => String(u.status).startsWith('live'))
+    const liveUnits = [...tables.units].sort((a, b) => a.order - b.order).filter((u) => String(u.status).startsWith('live') && !['node', 'yes'].includes(u.is_topic_pick))
     begin(buildSession(allContent, 'placement', placementItems(liveUnits.map((u) => unitContent(u.unit_id))), { settings: lessonModes() }))
   }
+  // Side tools. Words met, in unit order; a word's recall is its own card, else the average of its sentences'.
+  const metWords = () => tables.words.filter((w) => seenWords.current.has(w.word_id))
+  const sentencesWith = (wordId) => tables.sentence_words.filter((r) => r.word_id === wordId).map((r) => r.sentence_id)
+  const recallOf = (wordId) => {
+    if (cards[wordId]) return retrievability(cards[wordId])
+    const rs = sentencesWith(wordId).map((id) => cards[id]).filter(Boolean).map((cd) => retrievability(cd))
+    return rs.length ? rs.reduce((a, b) => a + b, 0) / rs.length : null
+  }
+  const examplesOf = (wordId) => [...new Set(sentencesWith(wordId))].map((id) => allContent.sentenceById.get(id)).filter(Boolean).slice(0, 3)
+  const tableOf = (w) => (w.part_of_speech === 'Verb' ? tables.conjugations.find((t) => t.lemma === w.lemma) : null)
+  const startMatch = () => {
+    const pool = metWords().sort((a, b) => (recallOf(a.word_id) ?? 1) - (recallOf(b.word_id) ?? 1))
+    const words = []
+    for (const w of pool) if (words.length < 5 && !words.some((x) => x.hint === w.hint)) words.push(w)
+    const q = makeMatchPairs(allContent, words, 1, Math.random)
+    begin({ id: `W${Date.now()}`, kind: 'words', started_at: Date.now(), queue: [q], size: 1, graded: 1, index: 0, firstCorrect: 0, firstWrong: 0, misses: [] })
+  }
+  const startFlashcards = (aloud) => {
+    const met = metWords()
+    const due = met.filter((w) => deck[w.word_id] && isDue(deck[w.word_id])).sort((a, b) => new Date(deck[a.word_id].due) - new Date(deck[b.word_id].due))
+    const fresh = met.filter((w) => !deck[w.word_id])
+    const pick = [...due, ...fresh].slice(0, 10)
+    const fileFor = (w) => tables.sentences.find((s) => s.lingua_libre?.audio_file && s.french.replace(/[.!?]/g, '').trim().toLowerCase() === w.form)?.lingua_libre.audio_file ?? null
+    setFlash({ aloud, cards: pick.map((w) => ({ word_id: w.word_id, form: w.form, hint: w.hint, audio: { french: w.form, file: fileFor(w) }, example: examplesOf(w.word_id)[0] ?? null })) })
+    setScreen('flashcards')
+  }
+  const gradeCard = (wordId, g) => setDeck((d) => { const n = rateGrade(d, wordId, g); putKv('flashcards', n); return n })
+
+  // Review checkpoints (Phase 3): after rows 2 and 3, a review of every unit above. Open once those units have
+  // finished round 1; passing marks it done. It never locks anything.
+  const checkpointRows = [2, 3].filter((r) => layout.some((t) => t.row === r))
+  const unitsUpTo = (row) => layout.filter((t) => t.row <= row && t.unit_id !== topicNode?.unit_id).map((t) => t.unit_id)
+  const startCheckpoint = (row) => {
+    const ids = unitsUpTo(row).flatMap(itemsOf)
+    const weakestFirst = weakest(ids, cards, 10)
+    const rest = ids.filter((id) => !weakestFirst.includes(id)).sort(() => Math.random() - 0.5)
+    const items = [...weakestFirst, ...rest].slice(0, 10).map((id) => { const u = allContent.sentenceById.get(id).unit_id; const reached = progressOf(u).round_reached; return { sentence_id: id, type: practiceType(reached), round: Math.min(reached + 1, 5), unit_id: u } })
+    begin(buildSession(allContent, 'checkpoint', items, { settings: lessonModes(), row }))
+  }
+
   const markActive = () => setActiveDays((d) => { if (d.includes(today())) return d; const next = [...d, today()].slice(-400); putKv('active_days', next); return next })
 
   const startReview = () => {
@@ -269,6 +341,17 @@ export default function App() {
       setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size} correct.`, back: s.kind === 'practice' ? 'home' : 'home' })
       return
     }
+    if (s.kind === 'words') {
+      setEnding({ line: s.firstCorrect ? 'All matched.' : 'All matched, with a slip or two.', back: 'words' })
+      return
+    }
+    if (s.kind === 'checkpoint') {
+      const mark = passMark(s.graded)
+      const passed = s.firstCorrect >= mark
+      if (passed) setCheckpoints((m) => { const n = { ...m, [s.row]: today() }; putKv('checkpoints', n); return n })
+      setEnding({ line: `${s.firstCorrect} of ${s.graded}.${passed ? '' : ` Pass is ${mark}; try it again any time.`}` })
+      return
+    }
     if (s.kind === 'check') {
       const passed = s.firstCorrect >= (s.graded ?? 0)
       if (passed) setCanDoChecked((m) => { const n = { ...m, [s.can_do_id]: today() }; putKv('can_do_checked', n); return n })
@@ -364,7 +447,7 @@ export default function App() {
     )
   }
   // Scores, strength and streaks, all worked out from what's stored.
-  const a1Units = tables.units.filter((u) => u.cefr === 'A1' && String(u.status).startsWith('live'))
+  const a1Units = tables.units.filter((u) => u.cefr === 'A1' && String(u.status).startsWith('live') && onPath(u))
   const scores = skillScores({
     units: a1Units.map((u) => ({ unit_id: u.unit_id, content: unitContent(u.unit_id), reached: progressOf(u.unit_id).round_reached })),
     tally: tally.current, clears,
@@ -377,11 +460,24 @@ export default function App() {
   const goal = settings.weekly_goal === 'none' ? null : Number(settings.weekly_goal)
   const showPoints = settings.points_and_streaks !== 'off'
 
+  if (screen === 'words') {
+    return <Words words={metWords()} units={[...tables.units].sort((a, b) => a.order - b.order)} recallOf={recallOf} examplesOf={examplesOf} tableOf={tableOf}
+      onMatch={startMatch} onFlashcards={startFlashcards} onBack={() => setScreen('home')} />
+  }
+  if (screen === 'flashcards' && flash) return <Flashcards cards={flash.cards} aloud={flash.aloud} onGrade={gradeCard} onDone={() => { markActive(); setFlash(null); setScreen('words') }} />
+  if (screen === 'verbs') {
+    const lemmas = new Set(metWords().filter((w) => w.part_of_speech === 'Verb').map((w) => w.lemma))
+    return <Verbs tables={tables.conjugations.filter((t) => lemmas.has(t.lemma))} strict={settings.answer_strictness === 'strict'} onBack={() => setScreen('home')} />
+  }
+  if (screen === 'variants') {
+    return <VariantBank types={tables.question_types.filter((t) => tables.variants.some((v) => v.type_id === t.type_id))} variants={tables.variants.map((v) => ({ ...v }))}
+      onChange={changeVariant} onBack={() => setScreen('settings')} />
+  }
   if (screen === 'progress') {
     return <Progress scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
       onCheck={startCheck} onBack={() => setScreen('home')} />
   }
-  if (screen === 'settings') return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPlacement={startPlacement} />
+  if (screen === 'settings') return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPlacement={startPlacement} onVariants={() => setScreen('variants')} />
   if (screen === 'about') return <About content={allContent} onBack={() => setScreen('settings')} />
   if (screen === 'note' && note) {
     const unit = tables.units.find((u) => u.unit_id === note.unitId)
@@ -389,21 +485,30 @@ export default function App() {
       onDone={() => closeNote(note.thenStart)} onBack={() => closeNote(false)} />
   }
   const rows = [...new Set(layout.map((t) => t.row))].sort((a, b) => a - b).map((r) => layout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
-    const unit = tables.units.find((u) => u.unit_id === t.unit_id)
-    const progress = progressOf(t.unit_id)
-    const open = isOpen(t.unit_id)
-    const lessons = open ? Math.max(lessonsInRound(unitContent(t.unit_id), roundOf(t.unit_id)), progress.lessons_done + 1) : 0
-    return { unit, progress, open, current: t.unit_id === currentUnit, lesson: progress.lessons_done + 1, lessons, strength: strength(itemsOf(t.unit_id), cards) }
+    // The Your topic node stands for the chosen pack once there is one; it keeps the node's place number.
+    const node = tables.units.find((u) => u.unit_id === t.unit_id)
+    const id = node.is_topic_pick === 'node' ? topicChoice ?? node.unit_id : node.unit_id
+    const unit = id === node.unit_id ? node : { ...tables.units.find((u) => u.unit_id === id), order: node.order }
+    const progress = progressOf(id)
+    const open = isOpen(id)
+    const choosing = id === topicNode?.unit_id
+    const lessons = open && !choosing ? Math.max(lessonsInRound(unitContent(id), roundOf(id)), progress.lessons_done + 1) : 0
+    return { unit, progress, open, current: id === currentUnit, lesson: progress.lessons_done + 1, lessons, strength: strength(itemsOf(id), cards),
+      topic: node.is_topic_pick === 'node' ? { choosing, packs: packs.map((p) => ({ unit_id: p.unit_id, title: p.title, started: progressOf(p.unit_id).lessons_done > 0 })) } : null }
   }))
   const cur = progressOf(currentUnit)
   return (
     <Home rows={rows} points={pointsToday} pointsTotal={pointsTotal} bankSize={bank.length} showPoints={showPoints}
       scores={scores} streak={streak} thisWeek={thisWeek} goal={goal} onProgress={() => setScreen('progress')}
       canPractice={weakest(openUnits.flatMap(itemsOf), cards, 1).length > 0} onPractice={startPractice}
+      onWords={() => setScreen('words')} onVerbs={() => setScreen('verbs')}
+      checkpoints={checkpointRows.map((row) => ({ afterRow: row, label: `Units ${unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).order).join(', ')}`, available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null }))}
+      onCheckpoint={startCheckpoint}
       inProgress={Boolean(session)}
       currentLabel={cur.round_reached >= 5 ? 'Practice' : 'Continue'} lockedByOf={lockedByOf}
       onContinue={() => (session ? startLesson() : startUnit(currentUnit))} onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
       onGrammarNote={(id) => { setNote({ unitId: id, thenStart: false }); setScreen('note') }} hasNote={(id) => Boolean(noteFor(id))}
+      onChooseTopic={(id) => { setTopicChoice(id); putKv('topic_choice', id); if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
       onReview={startReview} onSettings={() => setScreen('settings')} />
   )
   }

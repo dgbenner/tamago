@@ -72,7 +72,8 @@ export function contentForUnit(t, unitId) {
   const ids = new Set([...t.sentences.filter((s) => s.unit_id === unitId).map((s) => s.sentence_id), ...(unit.borrowed_sentence_ids ?? [])])
   const qa = t.qa_answers.filter((q) => ids.has(q.question_sentence_id))
   const withAnswers = new Set([...ids, ...qa.map((q) => q.answer_sentence_id)])
-  const earlier = new Set(t.units.filter((u) => u.order <= unit.order).map((u) => u.unit_id))
+  // Earlier units, never another topic pack (a pack is one choice among several).
+  const earlier = new Set(t.units.filter((u) => u.order <= unit.order && (u.is_topic_pick !== 'yes' || u.unit_id === unitId)).map((u) => u.unit_id))
   return indexContent({
     ...t, unit_id: unitId, allSentences: t.sentences,
     sentences: t.sentences.filter((s) => ids.has(s.sentence_id)),
@@ -94,7 +95,11 @@ export function mixSlots(c, round, { cantListen = false, cantSpeak = false } = {
   for (const m of c.round_type_mix.filter((x) => x.round === round)) {
     let type = m.type_id
     // A type not built yet, or word to image in a unit with too few pictures, takes its phase1_fallbacks row.
-    if (!BUILT_TYPES.has(type) || (type === 'QT02' && pictured(c).length < MIN_PICTURES)) type = c.phase1_fallbacks.find((f) => f.round === round && f.missing_type === type && !String(f.status ?? '').startsWith('off'))?.substitute_type ?? type
+    // Answer the question in a unit with no question pairs (the topic packs) does the same.
+    const noPairs = type === 'QT09' && c.qaByQuestion.size === 0
+    if (!BUILT_TYPES.has(type) || (type === 'QT02' && pictured(c).length < MIN_PICTURES) || noPairs) {
+      type = c.phase1_fallbacks.find((f) => f.round === round && f.missing_type === type && !String(f.status ?? '').startsWith('off'))?.substitute_type ?? type
+    }
     if (cantSpeak) type = swapRule(c, 'cant_speak_now', type, round)?.type ?? type
     if (cantListen) type = swapRule(c, 'cant_listen_now', type, round)?.type ?? type
     for (let i = 0; i < m.questions_per_10; i++) out.push({ type, from: m.type_id })
@@ -155,7 +160,13 @@ function similarSentences(c, s, rng, n, pool, usable = () => true) {
     .map(({ x }) => x)
   const fromPool = rank(pool)
   const rest = fromPool.length >= n ? [] : rank(c.sentences).filter((x) => !fromPool.includes(x))
-  return [...fromPool, ...rest].slice(0, n)
+  // Two sentences can share an English line or a French key ("Horses are animals."), so each choice must be distinct in both.
+  const out = []
+  for (const x of [...fromPool, ...rest]) {
+    if (out.length >= n) break
+    if (x.english !== s.english && !out.some((o) => o.english === x.english || frenchKey(o) === frenchKey(x))) out.push(x)
+  }
+  return out
 }
 
 // R03: the first wrong chip is the contrast of a word in the sentence (un for une, es for suis) when there is one.
@@ -312,9 +323,12 @@ const seenCount = (map, id) => map?.[id] ?? 0
 const leastSeen = (list, idOf, seen, rng) => shuffle(list, rng).sort((a, b) => seenCount(seen, idOf(a)) - seenCount(seen, idOf(b)))
 
 // R01: up to 4 unmet words, and the sentences made only of met words and those.
+// In a unit's lessons only the unit's own words are new (R01); words from earlier units are always allowed, since the
+// tree, or placement, has already brought the learner past them.
+const ownWord = (c, id) => !c.unit_id || c.wordById.get(id)?.first_unit === c.unit_id
 export function lessonScope(c, known, round) {
-  const newWords = c.wordOrder.filter((id) => !known.has(id)).slice(0, MAX_NEW_WORDS)
-  const allowed = new Set([...known, ...newWords])
+  const newWords = c.wordOrder.filter((id) => ownWord(c, id) && !known.has(id)).slice(0, MAX_NEW_WORDS)
+  const allowed = new Set([...known, ...c.wordOrder.filter((id) => !ownWord(c, id)), ...newWords])
   const sentences = c.sentences.filter((s) => s.max_round >= round && wordIds(c, s).every((id) => allowed.has(id)))
   return { newWords, allowed, sentences }
 }
@@ -448,7 +462,7 @@ export function lessonsInRound(c, round) {
     const known = new Set(round === 1 ? [] : c.wordOrder)
     const seen = { sentences: {}, words: {} }
     let n = 0
-    while (n < 40 && (Object.keys(seen.sentences).length < c.sentences.length || known.size < c.wordOrder.length)) {
+    while (n < 40 && (Object.keys(seen.sentences).length < c.sentences.length || c.wordOrder.some((id) => ownWord(c, id) && !known.has(id)))) {
       const lesson = buildLesson(c, { round, seen, known, rng })
       for (const q of lesson.queue) {
         if (q.sentence_id) seen.sentences[q.sentence_id] = (seen.sentences[q.sentence_id] ?? 0) + 1

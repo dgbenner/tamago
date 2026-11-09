@@ -1,0 +1,382 @@
+{
+  "unit_id": "U103",
+  "pulled_at": "2026-11-09",
+  "candidates": 7,
+  "sentences": [
+    {
+      "sentence_id": "S6201",
+      "unit_id": "U103",
+      "french": "C'est une table.",
+      "english": "That is a table.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "181306",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": [
+        "This is a table."
+      ]
+    },
+    {
+      "sentence_id": "S6202",
+      "unit_id": "U103",
+      "french": "C'est une chaise.",
+      "english": "It's a chair.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2508096",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "This is a chair."
+      ]
+    },
+    {
+      "sentence_id": "S6203",
+      "unit_id": "U103",
+      "french": "J'ai une table.",
+      "english": "I have a table.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3602508",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6204",
+      "unit_id": "U103",
+      "french": "La maison est petite.",
+      "english": "The house is small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5252970",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sicerabibax",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6205",
+      "unit_id": "U103",
+      "french": "La cuisine est grande.",
+      "english": "The kitchen is large.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6849684",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Delapouite",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6206",
+      "unit_id": "U103",
+      "french": "C'est une grande maison.",
+      "english": "It's a big house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7971035",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "This is a large house.",
+        "This is a huge house."
+      ]
+    },
+    {
+      "sentence_id": "S6207",
+      "unit_id": "U103",
+      "french": "J'ai une grande maison.",
+      "english": "I have a big house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2287301",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": [
+        "I have a large house."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S6201",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6201",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6201",
+      "position": 3,
+      "surface": "table",
+      "word_id": "W317",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6202",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6202",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6202",
+      "position": 3,
+      "surface": "chaise",
+      "word_id": "W318",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6203",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6203",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6203",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6203",
+      "position": 4,
+      "surface": "table",
+      "word_id": "W317",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6204",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6204",
+      "position": 2,
+      "surface": "maison",
+      "word_id": "W315",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6204",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6204",
+      "position": 4,
+      "surface": "petite",
+      "word_id": "W204",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6205",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6205",
+      "position": 2,
+      "surface": "cuisine",
+      "word_id": "W319",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6205",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6205",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W202",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6206",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6206",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6206",
+      "position": 3,
+      "surface": "grande",
+      "word_id": "W202",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6206",
+      "position": 4,
+      "surface": "maison",
+      "word_id": "W315",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6207",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6207",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6207",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6207",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W202",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6207",
+      "position": 5,
+      "surface": "maison",
+      "word_id": "W315",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A62011",
+      "sentence_id": "S6201",
+      "direction": "fr_to_en",
+      "answer": "This is a table.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A62021",
+      "sentence_id": "S6202",
+      "direction": "fr_to_en",
+      "answer": "This is a chair.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A62061",
+      "sentence_id": "S6206",
+      "direction": "fr_to_en",
+      "answer": "This is a large house.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A62062",
+      "sentence_id": "S6206",
+      "direction": "fr_to_en",
+      "answer": "This is a huge house.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A62071",
+      "sentence_id": "S6207",
+      "direction": "fr_to_en",
+      "answer": "I have a large house.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

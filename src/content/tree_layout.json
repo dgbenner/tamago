@@ -33,5 +33,12 @@
     "unit_id": "U05",
     "unlocks_after": "row 2",
     "notes": ""
+  },
+  {
+    "row": 4,
+    "position": 1,
+    "unit_id": "U100",
+    "unlocks_after": "row 3",
+    "notes": "choose your topic: one of the topic packs (is_topic_pick yes)"
   }
 ]

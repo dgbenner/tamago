@@ -1,0 +1,746 @@
+{
+  "unit_id": "U101",
+  "pulled_at": "2026-11-09",
+  "candidates": 17,
+  "sentences": [
+    {
+      "sentence_id": "S6001",
+      "unit_id": "U101",
+      "french": "Il aime la pluie et la neige.",
+      "english": "He loves rain and snow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2536892",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6002",
+      "unit_id": "U101",
+      "french": "C'est de la neige ?",
+      "english": "Is that snow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8701632",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6003",
+      "unit_id": "U101",
+      "french": "Il neige.",
+      "english": "Snow is falling.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "373752",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zmoo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6004",
+      "unit_id": "U101",
+      "french": "C'est froid.",
+      "english": "It's cold.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2209457",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sisyphe",
+      "other_english": [
+        "It is cold.",
+        "This is cold."
+      ]
+    },
+    {
+      "sentence_id": "S6005",
+      "unit_id": "U101",
+      "french": "C'est chaud.",
+      "english": "It's hot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4737145",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lovasoa",
+      "other_english": [
+        "That's hot.",
+        "It is hot."
+      ]
+    },
+    {
+      "sentence_id": "S6006",
+      "unit_id": "U101",
+      "french": "J'ai chaud.",
+      "english": "I'm hot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1066255",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I'm warm.",
+        "I am hot.",
+        "I am warm.",
+        "I feel warm."
+      ]
+    },
+    {
+      "sentence_id": "S6007",
+      "unit_id": "U101",
+      "french": "Il est temps.",
+      "english": "It's about time.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1313937",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6008",
+      "unit_id": "U101",
+      "french": "Tu as froid.",
+      "english": "You are cold.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2070267",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6009",
+      "unit_id": "U101",
+      "french": "Elle a froid.",
+      "english": "She is cold.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2070273",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6010",
+      "unit_id": "U101",
+      "french": "Le Soleil est grand.",
+      "english": "The sun is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1121084",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6011",
+      "unit_id": "U101",
+      "french": "Il est grand temps !",
+      "english": "It's about time.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1222987",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6012",
+      "unit_id": "U101",
+      "french": "J'ai du temps.",
+      "english": "I have time.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1302575",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I have some time."
+      ]
+    },
+    {
+      "sentence_id": "S6013",
+      "unit_id": "U101",
+      "french": "J'aime la pluie.",
+      "english": "I love the rain.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8328642",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6014",
+      "unit_id": "U101",
+      "french": "Il est bien temps !",
+      "english": "It's about time.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1921933",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6015",
+      "unit_id": "U101",
+      "french": "Il aime la neige.",
+      "english": "He likes snow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3634465",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S6001",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 4,
+      "surface": "pluie",
+      "word_id": "W302",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 5,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 6,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6001",
+      "position": 7,
+      "surface": "neige",
+      "word_id": "W301",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6002",
+      "position": 4,
+      "surface": "neige",
+      "word_id": "W301",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6003",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6003",
+      "position": 2,
+      "surface": "neige",
+      "word_id": "W301",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6004",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6004",
+      "position": 2,
+      "surface": "froid",
+      "word_id": "W304",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6005",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6005",
+      "position": 2,
+      "surface": "chaud",
+      "word_id": "W305",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6006",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6006",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6006",
+      "position": 3,
+      "surface": "chaud",
+      "word_id": "W305",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6007",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6007",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6007",
+      "position": 3,
+      "surface": "temps",
+      "word_id": "W306",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6008",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6008",
+      "position": 2,
+      "surface": "as",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6008",
+      "position": 3,
+      "surface": "froid",
+      "word_id": "W304",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6009",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6009",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6009",
+      "position": 3,
+      "surface": "froid",
+      "word_id": "W304",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6010",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6010",
+      "position": 2,
+      "surface": "Soleil",
+      "word_id": "W303",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6010",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6010",
+      "position": 4,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6011",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6011",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6011",
+      "position": 3,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6011",
+      "position": 4,
+      "surface": "temps",
+      "word_id": "W306",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6012",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6012",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6012",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6012",
+      "position": 4,
+      "surface": "temps",
+      "word_id": "W306",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6013",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6013",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6013",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6013",
+      "position": 4,
+      "surface": "pluie",
+      "word_id": "W302",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6014",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6014",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6014",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6014",
+      "position": 4,
+      "surface": "temps",
+      "word_id": "W306",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6015",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6015",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6015",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6015",
+      "position": 4,
+      "surface": "neige",
+      "word_id": "W301",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A60041",
+      "sentence_id": "S6004",
+      "direction": "fr_to_en",
+      "answer": "It is cold.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60042",
+      "sentence_id": "S6004",
+      "direction": "fr_to_en",
+      "answer": "This is cold.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60051",
+      "sentence_id": "S6005",
+      "direction": "fr_to_en",
+      "answer": "That's hot.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60052",
+      "sentence_id": "S6005",
+      "direction": "fr_to_en",
+      "answer": "It is hot.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60061",
+      "sentence_id": "S6006",
+      "direction": "fr_to_en",
+      "answer": "I'm warm.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60062",
+      "sentence_id": "S6006",
+      "direction": "fr_to_en",
+      "answer": "I am hot.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60063",
+      "sentence_id": "S6006",
+      "direction": "fr_to_en",
+      "answer": "I am warm.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60064",
+      "sentence_id": "S6006",
+      "direction": "fr_to_en",
+      "answer": "I feel warm.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A60121",
+      "sentence_id": "S6012",
+      "direction": "fr_to_en",
+      "answer": "I have some time.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, readdirSync } from 'node:fs'
-import { BUILT_TYPES, buildLesson, buildReview, contentForUnit, effectiveMix, lessonScope, lessonsInRound, mixSlots, passMark, reaskFor } from '../src/lib/lesson.js'
+import { BUILT_TYPES, buildLesson, buildReview, buildSession, contentForUnit, indexContent, effectiveMix, lessonScope, lessonsInRound, mixSlots, passMark, reaskFor } from '../src/lib/lesson.js'
 import { checkTyped } from '../src/lib/check.js'
 
 const tables = {}
@@ -269,5 +269,32 @@ test('QT09 shows and builds the fullest listed answer', () => {
     const q = buildLesson(c, { round: 3, known: allKnown, rng: seeded(seed) }).queue.find((x) => x.type === 'QT09')
     const words = (f) => f.split(/\s+/).length
     assert.ok(q.accepted.every((a) => words(a) <= words(q.shown)), q.shown)
+  }
+})
+
+test('topic packs: lessons build in every round, no QT09 without pairs, and no other pack leaks in', () => {
+  const packs = tables.units.filter((u) => u.is_topic_pick === 'yes')
+  assert.equal(packs.length, 7)
+  for (const p of packs) {
+    const pc = contentForUnit(tables, p.unit_id)
+    const units = new Set(pc.sentences.map((s) => s.unit_id))
+    assert.ok(packs.every((o) => o.unit_id === p.unit_id || !units.has(o.unit_id)), p.unit_id)
+    const known = new Set(pc.wordOrder)
+    for (let round = 1; round <= 5; round++) {
+      assert.ok(lessonsInRound(pc, round) >= 1)
+      for (let seed = 1; seed <= 10; seed++) {
+        const l = buildLesson(pc, { round, known, unit_id: p.unit_id, rng: seeded(seed * round) })
+        assert.equal(l.queue.length, 10, `${p.unit_id} round ${round}`)
+        assert.ok(l.queue.every((q) => BUILT_TYPES.has(q.type) && (q.type !== 'QT09' || pc.qaByQuestion.size > 0)), `${p.unit_id} round ${round}`)
+      }
+    }
+  }
+})
+
+test('choices across all units are distinct, even where sentences share an English line', () => {
+  const all = indexContent(tables)
+  for (const s of all.sentences) for (const type of ['QT03', 'QT04']) for (let k = 0; k < 3; k++) {
+    const q = buildSession(all, 'practice', [{ sentence_id: s.sentence_id, type, round: 2 }], { rng: seeded(k + 1) }).queue[0]
+    if (q?.choices) assert.equal(new Set(q.choices).size, q.choices.length, `${s.sentence_id} ${q.choices}`)
   }
 })

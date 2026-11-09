@@ -15,7 +15,10 @@ const MIN_WORDS = 2, MAX_WORDS = 7 // P03
 const TARGET_MIN = 30, TARGET_MAX = 40, PER_WORD = 3 // P04
 const GRAMMAR_MIN = 10, CONTRAST_MIN = 2 // P05
 const QUESTIONS_MIN = 4 // P06
-const ID_BASE = { U02: 2000, U03: 3000, U04: 4000, U05: 5000 }
+const ID_BASE = { U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600 }
+// A topic pack (is_topic_pick yes) is one node: a smaller target, and it draws only on Units 1 to 5 plus its own words.
+const isPack = (u) => u.is_topic_pick === 'yes'
+const PACK_TARGET = 15
 
 const units = raw('units').sort((a, b) => a.order - b.order)
 const words = raw('words')
@@ -77,8 +80,9 @@ const report = ['# Units 2 to 5: sentences pulled from Tatoeba', '',
 
 const opened = new Set(units.filter((u) => String(u.status).startsWith('live')).map((u) => u.unit_id))
 for (const u of units) {
+  if (u.is_topic_pick === 'node') continue
   const allowed = new Set([...opened, u.unit_id])
-  opened.add(u.unit_id)
+  if (!isPack(u)) opened.add(u.unit_id)
   if (String(u.status).startsWith('live')) continue
   const file = join(PULL, `${u.unit_id}.json`)
   const unitWords = words.filter((w) => w.first_unit === u.unit_id)
@@ -125,11 +129,12 @@ for (const u of units) {
       return g - c.parts.length * 0.01
     }
     const pool = [...candidates].sort((a, b) => Number(a.s.id) - Number(b.s.id))
+    const target = isPack(u) ? PACK_TARGET : TARGET_MIN
     while (chosen.length < TARGET_MAX && pool.length) {
       let best = 0
       for (let i = 1; i < pool.length; i++) if (gain(pool[i]) > gain(pool[best])) best = i
       const g = gain(pool[best])
-      if (chosen.length >= TARGET_MIN && g < 1) break
+      if (chosen.length >= target && g < 1) break
       const c = pool.splice(best, 1)[0]
       chosen.push(c)
       for (const id of new Set(c.parts.map((p) => p.word_id))) wordCount.set(id, (wordCount.get(id) ?? 0) + 1)

@@ -46,31 +46,55 @@ function Node({ node, onPick }) {
   )
 }
 
-function UnitCard({ node, lockedBy, inProgress, onStart, onClose, onGrammarNote, hasNote }) {
-  const { unit, open, progress } = node
+// The Your topic node: pick one topic pack. Each pack keeps its own progress, so switching loses nothing.
+function TopicList({ topic, current, onChoose }) {
+  return (
+    <ul className="mt-4 flex flex-col gap-2">
+      {topic.packs.map((p) => (
+        <li key={p.unit_id}>
+          <button onClick={() => onChoose(p.unit_id)} className={`choice flex w-full items-center justify-between ${p.unit_id === current ? 'border-orange' : ''}`}>
+            <span>{p.title}</span>
+            {p.started && <span className="text-xs text-muted">Started</span>}
+          </button>
+        </li>
+      ))}
+    </ul>
+  )
+}
+
+function UnitCard({ node, lockedBy, inProgress, onStart, onClose, onGrammarNote, hasNote, onChooseTopic }) {
+  const { unit, open, progress, topic } = node
+  const [switching, setSwitching] = useState(false)
+  const listing = topic && open && (topic.choosing || switching)
   const label = progress.round_reached >= 5 ? 'Practice' : progress.round_reached > 0 || progress.lessons_done > 0 ? 'Continue' : 'Start'
   return (
     <div className="fixed inset-0 z-30 flex items-end bg-black/30" onClick={onClose}>
       <section className="mx-auto w-full max-w-md rounded-t-2xl border-t-2 border-line bg-surface p-5 pb-[max(1.25rem,env(safe-area-inset-bottom))]" onClick={(e) => e.stopPropagation()}>
         <div className="flex items-start justify-between gap-3">
           <div>
-            <p className="text-sm text-muted">Unit {unit.order}</p>
-            <h2 className="text-xl font-semibold">{unit.title}</h2>
+            <p className="text-sm text-muted">Unit {unit.order}{topic && !topic.choosing ? ' · Your topic' : ''}</p>
+            <h2 className="text-xl font-semibold">{listing ? 'Choose a topic' : unit.title}</h2>
           </div>
           <button onClick={onClose} aria-label="Close" className="icon-btn -mr-2 -mt-2"><IconClose /></button>
         </div>
+        {listing ? <>
+          <p className="mt-2 text-muted">Words and sentences on one subject. You can switch later; each topic keeps its progress.</p>
+          <TopicList topic={topic} current={topic.choosing ? null : unit.unit_id} onChoose={onChooseTopic} />
+        </> : <>
         <p className="mt-2 text-muted">{unit.grammar_point}</p>
         {hasNote && <button onClick={onGrammarNote} className="btn-secondary mt-4 w-full">Grammar note</button>}
+        {topic && open && <button onClick={() => setSwitching(true)} className="btn-secondary mt-4 w-full">Change topic</button>}
         {open
           ? <button onClick={onStart} className="btn-submit mt-5 w-full">{inProgress ? 'Start this unit' : label}</button>
           : <p className="mt-5 text-sm text-muted">Opens when {lockedBy} {lockedBy.includes(' and ') ? 'have' : 'has'} finished round 1.</p>}
         {open && inProgress && <p className="mt-2 text-center text-xs text-muted">Your lesson in progress is set aside.</p>}
+        </>}
       </section>
     </div>
   )
 }
 
-export default function Home({ rows, points, pointsTotal, bankSize, inProgress, currentLabel, onContinue, onReview, onStartUnit, onSettings, lockedByOf, onGrammarNote, hasNote, showPoints, scores, streak, thisWeek, goal, onProgress, canPractice, onPractice }) {
+export default function Home({ rows, points, pointsTotal, bankSize, inProgress, currentLabel, onContinue, onReview, onStartUnit, onSettings, onChooseTopic, lockedByOf, onGrammarNote, hasNote, showPoints, scores, streak, thisWeek, goal, onProgress, canPractice, onPractice, onWords, onVerbs, checkpoints, onCheckpoint }) {
   const [picked, setPicked] = useState(null)
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-4 pt-[max(1rem,env(safe-area-inset-top))]">
@@ -89,15 +113,31 @@ export default function Home({ rows, points, pointsTotal, bankSize, inProgress, 
         {showPoints && (streak > 1 || goal) && <span>{[streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ')}</span>}
       </button>
 
-      <button onClick={onPractice} disabled={!canPractice} className="btn-secondary min-h-10 self-center px-4 text-sm">Practice weak skills</button>
+      <div className="flex items-center justify-center gap-2">
+        <button onClick={onPractice} disabled={!canPractice} className="btn-secondary min-h-10 px-4 text-sm">Practice weak skills</button>
+        <button onClick={onWords} className="btn-secondary min-h-10 px-4 text-sm">Words</button>
+        <button onClick={onVerbs} className="btn-secondary min-h-10 px-4 text-sm">Verbs</button>
+      </div>
 
       {/* The tree: rows of one, two or three units, top to bottom. */}
       <ol className="flex flex-1 flex-col items-center gap-8 py-4">
-        {rows.map((row, i) => (
-          <li key={i} className="flex justify-center gap-6">
-            {row.map((node) => <Node key={node.unit.unit_id} node={node} onPick={setPicked} />)}
-          </li>
-        ))}
+        {rows.map((row, i) => {
+          const cp = checkpoints.find((x) => x.afterRow === i + 1)
+          return [
+            <li key={i} className="flex justify-center gap-6">
+              {row.map((node) => <Node key={node.unit.unit_id} node={node} onPick={setPicked} />)}
+            </li>,
+            cp && (
+              // A review checkpoint: optional, never a lock.
+              <li key={`cp${i}`}>
+                <button onClick={() => onCheckpoint(cp.afterRow)} disabled={!cp.available}
+                  className={`rounded-full border-4 px-4 py-1.5 text-sm font-semibold disabled:opacity-40 ${cp.done ? 'border-green text-right-ink' : 'border-line'}`}>
+                  {cp.done ? '✓ ' : ''}Review checkpoint · {cp.label}
+                </button>
+              </li>
+            ),
+          ]
+        })}
       </ol>
 
       {/* Pinned to the bottom so they're always on screen. */}
@@ -111,6 +151,7 @@ export default function Home({ rows, points, pointsTotal, bankSize, inProgress, 
       {picked && (
         <UnitCard node={picked} lockedBy={lockedByOf(picked.unit.unit_id)} inProgress={inProgress}
           onStart={() => { setPicked(null); onStartUnit(picked.unit.unit_id) }} onClose={() => setPicked(null)}
+          onChooseTopic={(id) => { setPicked(null); onChooseTopic(id) }}
           hasNote={hasNote(picked.unit.unit_id)} onGrammarNote={() => { setPicked(null); onGrammarNote(picked.unit.unit_id) }} />
       )}
     </main>

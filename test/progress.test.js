@@ -7,7 +7,7 @@ import { rate, strength, weakest } from '../src/lib/strength.js'
 
 const tables = {}
 for (const f of readdirSync('src/content')) tables[f.replace('.json', '')] = JSON.parse(readFileSync(`src/content/${f}`))
-const units = tables.units.filter((u) => u.cefr === 'A1').map((u) => ({ unit_id: u.unit_id, content: contentForUnit(tables, u.unit_id), reached: 0 }))
+const units = tables.units.filter((u) => u.cefr === 'A1' && !['node', 'yes'].includes(u.is_topic_pick)).map((u) => ({ unit_id: u.unit_id, content: contentForUnit(tables, u.unit_id), reached: 0 }))
 const day = (d) => new Date(`2026-11-${String(d).padStart(2, '0')}T12:00:00`)
 
 test('bands follow the feature list', () => {

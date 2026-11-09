@@ -1,0 +1,806 @@
+{
+  "unit_id": "U102",
+  "pulled_at": "2026-11-09",
+  "candidates": 15,
+  "sentences": [
+    {
+      "sentence_id": "S6101",
+      "unit_id": "U102",
+      "french": "Ils sont frère et sœur.",
+      "english": "They're brother and sister.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5822127",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yemana",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6102",
+      "unit_id": "U102",
+      "french": "Il est le bébé de la famille.",
+      "english": "He is the baby of the family.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "133395",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6103",
+      "unit_id": "U102",
+      "french": "J'ai une sœur et un frère.",
+      "english": "I have a sister and a brother.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5822138",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yemana",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6104",
+      "unit_id": "U102",
+      "french": "Vous êtes le frère de Marie ?",
+      "english": "You're Mary's brother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6178887",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": [
+        "Are you Mary's brother?"
+      ]
+    },
+    {
+      "sentence_id": "S6105",
+      "unit_id": "U102",
+      "french": "Bonne nuit, Mère !",
+      "english": "Goodnight, Mother.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3641879",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6106",
+      "unit_id": "U102",
+      "french": "Au revoir, mère.",
+      "english": "Bye, mother.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8984426",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6107",
+      "unit_id": "U102",
+      "french": "Bonjour, père.",
+      "english": "Hello, father.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9030039",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6108",
+      "unit_id": "U102",
+      "french": "Ils sont parents.",
+      "english": "They are relatives.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11727835",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6109",
+      "unit_id": "U102",
+      "french": "J'ai une sœur.",
+      "english": "I have a sister.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1447098",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "I have one sister."
+      ]
+    },
+    {
+      "sentence_id": "S6110",
+      "unit_id": "U102",
+      "french": "Il a un fils.",
+      "english": "He has a son.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3482993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Lulantis",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6111",
+      "unit_id": "U102",
+      "french": "Je suis un bébé.",
+      "english": "I'm a baby.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6575483",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GB3",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6112",
+      "unit_id": "U102",
+      "french": "La famille, c'est la famille.",
+      "english": "Family is family.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4548431",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6113",
+      "unit_id": "U102",
+      "french": "Elle a une grande famille.",
+      "english": "She has a big family.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5741500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yemana",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6114",
+      "unit_id": "U102",
+      "french": "J'ai un frère.",
+      "english": "I have a brother.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6600",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I have one brother."
+      ]
+    },
+    {
+      "sentence_id": "S6115",
+      "unit_id": "U102",
+      "french": "Vous êtes une grande famille.",
+      "english": "You're a big family.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8484030",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": [
+        "You all are a big family.",
+        "You guys are a big family."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S6101",
+      "position": 1,
+      "surface": "Ils",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6101",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6101",
+      "position": 3,
+      "surface": "frère",
+      "word_id": "W307",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6101",
+      "position": 4,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6101",
+      "position": 5,
+      "surface": "sœur",
+      "word_id": "W308",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6102",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6102",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6102",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6102",
+      "position": 4,
+      "surface": "bébé",
+      "word_id": "W313",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6102",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6102",
+      "position": 6,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6102",
+      "position": 7,
+      "surface": "famille",
+      "word_id": "W312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6103",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6103",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6103",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6103",
+      "position": 4,
+      "surface": "sœur",
+      "word_id": "W308",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6103",
+      "position": 5,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6103",
+      "position": 6,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6103",
+      "position": 7,
+      "surface": "frère",
+      "word_id": "W307",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6104",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6104",
+      "position": 2,
+      "surface": "êtes",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6104",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6104",
+      "position": 4,
+      "surface": "frère",
+      "word_id": "W307",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6104",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6104",
+      "position": 6,
+      "surface": "Marie",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6105",
+      "position": 1,
+      "surface": "Bonne nuit",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6105",
+      "position": 2,
+      "surface": "Mère",
+      "word_id": "W309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6106",
+      "position": 1,
+      "surface": "Au revoir",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6106",
+      "position": 2,
+      "surface": "mère",
+      "word_id": "W309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6107",
+      "position": 1,
+      "surface": "Bonjour",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6107",
+      "position": 2,
+      "surface": "père",
+      "word_id": "W310",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6108",
+      "position": 1,
+      "surface": "Ils",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6108",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6108",
+      "position": 3,
+      "surface": "parents",
+      "word_id": "W314",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6109",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6109",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6109",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6109",
+      "position": 4,
+      "surface": "sœur",
+      "word_id": "W308",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6110",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6110",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6110",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6110",
+      "position": 4,
+      "surface": "fils",
+      "word_id": "W311",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6111",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6111",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6111",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6111",
+      "position": 4,
+      "surface": "bébé",
+      "word_id": "W313",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6112",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6112",
+      "position": 2,
+      "surface": "famille",
+      "word_id": "W312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6112",
+      "position": 3,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6112",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6112",
+      "position": 5,
+      "surface": "famille",
+      "word_id": "W312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6113",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6113",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6113",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6113",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W202",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6113",
+      "position": 5,
+      "surface": "famille",
+      "word_id": "W312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6114",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6114",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6114",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6114",
+      "position": 4,
+      "surface": "frère",
+      "word_id": "W307",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6115",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6115",
+      "position": 2,
+      "surface": "êtes",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6115",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6115",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W202",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6115",
+      "position": 5,
+      "surface": "famille",
+      "word_id": "W312",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A61041",
+      "sentence_id": "S6104",
+      "direction": "fr_to_en",
+      "answer": "Are you Mary's brother?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A61091",
+      "sentence_id": "S6109",
+      "direction": "fr_to_en",
+      "answer": "I have one sister.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A61141",
+      "sentence_id": "S6114",
+      "direction": "fr_to_en",
+      "answer": "I have one brother.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A61151",
+      "sentence_id": "S6115",
+      "direction": "fr_to_en",
+      "answer": "You all are a big family.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A61152",
+      "sentence_id": "S6115",
+      "direction": "fr_to_en",
+      "answer": "You guys are a big family.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

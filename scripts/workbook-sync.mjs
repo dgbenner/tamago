@@ -39,7 +39,7 @@ save('words', words.map((w) => {
   if (!c || c.status !== 'checked') return w
   const out = { ...w }
   for (const col of ['lemma', 'part_of_speech', 'gender', 'gloss']) if (out[col] === '' || out[col] == null) out[col] = c[col]
-  if (!out.hint && b?.hint) { out.hint = b.hint; out.hint_source = b.hint_source === 'Dan, review decisions' ? 'short form of Wiktionary' : 'Wiktionary' }
+  if (!out.hint && b?.hint) { out.hint = b.hint; out.hint_source = b.hint_source === 'Dan, review decisions' ? 'short form of Wiktionary' : b.hint_source === 'Wiktionary (built)' ? 'Wiktionary' : b.hint_source }
   if (String(out.status).startsWith('pull from')) out.status = 'checked'
   return out
 }))
@@ -78,11 +78,13 @@ const notes = raw('grammar_notes') ?? []
 if (notes.length) save('grammar_notes', notes.map(({ examples, conjugations, ...n }) => n))
 
 // Phase 1 fallbacks: a status column. Rows for types now built are off (kept, never deleted); word to image keeps
-// its rows for units with too few pictured words.
+// its rows for units with too few pictured words, and Answer the question its rows for units with no question pairs.
 const builtTypes = new Set(['QT02', 'QT09', 'QT10', 'QT13'])
 save('phase1_fallbacks', sheet('phase1_fallbacks').map((f) => ({
   ...f,
-  status: f.missing_type === 'QT02' ? 'live: used when a unit has fewer than 3 pictured words' : builtTypes.has(f.missing_type) ? 'off: type built' : (f.status || 'live'),
+  status: f.missing_type === 'QT02' ? 'live: used when a unit has fewer than 3 pictured words'
+    : String(f.status).includes('no question pairs') ? f.status
+    : builtTypes.has(f.missing_type) ? 'off: type built' : (f.status || 'live'),
 })))
 
 // can_do: the CEFR grid check (cefr_row, cefr_descriptor, source) carried in from content/cefr_a1.json.

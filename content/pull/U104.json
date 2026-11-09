@@ -1,0 +1,666 @@
+{
+  "unit_id": "U104",
+  "pulled_at": "2026-11-09",
+  "candidates": 15,
+  "sentences": [
+    {
+      "sentence_id": "S6301",
+      "unit_id": "U104",
+      "french": "Elle chante ?",
+      "english": "Does she sing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7563062",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6302",
+      "unit_id": "U104",
+      "french": "Tu aimes la musique ?",
+      "english": "Do you like music?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "432668",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": [
+        "Do you love music?"
+      ]
+    },
+    {
+      "sentence_id": "S6303",
+      "unit_id": "U104",
+      "french": "S'il te plaît, chante !",
+      "english": "Please sing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1942211",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6304",
+      "unit_id": "U104",
+      "french": "Je chante.",
+      "english": "I'm singing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4585807",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I am singing."
+      ]
+    },
+    {
+      "sentence_id": "S6305",
+      "unit_id": "U104",
+      "french": "C'est une chanson.",
+      "english": "It's a song.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1946293",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "It is a song."
+      ]
+    },
+    {
+      "sentence_id": "S6306",
+      "unit_id": "U104",
+      "french": "Il est chanteur.",
+      "english": "He is a singer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2721173",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6307",
+      "unit_id": "U104",
+      "french": "Je suis chanteur.",
+      "english": "I'm a singer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7045085",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6308",
+      "unit_id": "U104",
+      "french": "Elle aime le chanteur.",
+      "english": "She likes the singer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1313372",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6309",
+      "unit_id": "U104",
+      "french": "J'aime la musique.",
+      "english": "I like music.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2318391",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "KotobaNiko",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6310",
+      "unit_id": "U104",
+      "french": "C'est une grande chanson.",
+      "english": "This is a great song.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6402473",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6311",
+      "unit_id": "U104",
+      "french": "J'ai un piano.",
+      "english": "I have a piano.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7683502",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6312",
+      "unit_id": "U104",
+      "french": "J'ai une guitare.",
+      "english": "I have a guitar.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7752017",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katastrauff",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6313",
+      "unit_id": "U104",
+      "french": "Il chante.",
+      "english": "He sings.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9030008",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S6314",
+      "unit_id": "U104",
+      "french": "Il chante bien.",
+      "english": "He sings well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1316324",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "He is good at singing."
+      ]
+    },
+    {
+      "sentence_id": "S6315",
+      "unit_id": "U104",
+      "french": "Elle chante bien.",
+      "english": "She sings well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1407424",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S6301",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6301",
+      "position": 2,
+      "surface": "chante",
+      "word_id": "W328",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6302",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6302",
+      "position": 2,
+      "surface": "aimes",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6302",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6302",
+      "position": 4,
+      "surface": "musique",
+      "word_id": "W323",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6303",
+      "position": 1,
+      "surface": "S'il te plaît",
+      "word_id": "W038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6303",
+      "position": 2,
+      "surface": "chante",
+      "word_id": "W328",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6304",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6304",
+      "position": 2,
+      "surface": "chante",
+      "word_id": "W328",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6305",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6305",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6305",
+      "position": 3,
+      "surface": "chanson",
+      "word_id": "W324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6306",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6306",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6306",
+      "position": 3,
+      "surface": "chanteur",
+      "word_id": "W327",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6307",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6307",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6307",
+      "position": 3,
+      "surface": "chanteur",
+      "word_id": "W327",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6308",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6308",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6308",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6308",
+      "position": 4,
+      "surface": "chanteur",
+      "word_id": "W327",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6309",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6309",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6309",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6309",
+      "position": 4,
+      "surface": "musique",
+      "word_id": "W323",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6310",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6310",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6310",
+      "position": 3,
+      "surface": "grande",
+      "word_id": "W202",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6310",
+      "position": 4,
+      "surface": "chanson",
+      "word_id": "W324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6311",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6311",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6311",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6311",
+      "position": 4,
+      "surface": "piano",
+      "word_id": "W325",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6312",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6312",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6312",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6312",
+      "position": 4,
+      "surface": "guitare",
+      "word_id": "W326",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6313",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6313",
+      "position": 2,
+      "surface": "chante",
+      "word_id": "W328",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6314",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6314",
+      "position": 2,
+      "surface": "chante",
+      "word_id": "W328",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6314",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6315",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6315",
+      "position": 2,
+      "surface": "chante",
+      "word_id": "W328",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S6315",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A63021",
+      "sentence_id": "S6302",
+      "direction": "fr_to_en",
+      "answer": "Do you love music?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A63041",
+      "sentence_id": "S6304",
+      "direction": "fr_to_en",
+      "answer": "I am singing.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A63051",
+      "sentence_id": "S6305",
+      "direction": "fr_to_en",
+      "answer": "It is a song.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A63141",
+      "sentence_id": "S6314",
+      "direction": "fr_to_en",
+      "answer": "He is good at singing.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": [
+    {
+      "question_sentence_id": "S6302",
+      "answer_sentence_id": "S6309"
+    },
+    {
+      "question_sentence_id": "S6302",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S6302",
+      "answer_sentence_id": "S0005"
+    }
+  ]
+}

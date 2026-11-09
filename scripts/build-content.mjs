@@ -74,6 +74,8 @@ tables.words = raw('words').flatMap((w) => {
     else if (col === 'gloss' ? !String(w.gloss).includes(c.gloss) : String(w[col]) !== String(c[col])) bad.push(`${w.word_id} ${col}: workbook "${w[col]}", Wiktionary "${c[col]}"`)
   }
   if (decisions.hints?.[w.word_id]) { filled.hint = decisions.hints[w.word_id]; filled.hint_source = 'Dan, review decisions' }
+  // Claude's hints under autonomous-build.md: a short form or a better-fitting Wiktionary sense, with its source.
+  else if (decisions.claude_hints?.[w.word_id]) { filled.hint = decisions.claude_hints[w.word_id].hint; filled.hint_source = decisions.claude_hints[w.word_id].source }
   if (!filled.hint) { filled.hint = hintFrom(c); filled.hint_source = 'Wiktionary (built)' }
   return [{ ...filled, gloss_full: c.gloss_full, lemma_gloss: c.lemma_gloss }]
 })
@@ -110,6 +112,9 @@ tables.grammar_notes = raw('grammar_notes').filter((n) => String(n.status).start
   for (const t of tables_) if (!t.present) bad.push(`grammar note ${n.unit_id}: no Wiktionary table for ${t.lemma}`)
   return { ...n, examples, conjugations: tables_ }
 })
+
+// Verb tables for the conjugation trainer: every verb lemma Wiktionary gave a present tense for.
+tables.conjugations = Object.entries(conjugations).filter(([, t]) => t).map(([lemma, present]) => ({ lemma, present, source: `https://en.wiktionary.org/wiki/${encodeURIComponent(lemma)}#Conjugation` }))
 
 // feedback_phrases: English lines marked live; French lines only once the check passes.
 tables.feedback_phrases = raw('feedback_phrases').flatMap((f) => {

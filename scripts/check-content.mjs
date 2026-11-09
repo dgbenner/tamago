@@ -347,7 +347,9 @@ save('accepted_answers', answerChecks)
 save('generated_answers', generatedAnswers)
 
 // Conjugation tables for the grammar notes, read from Wiktionary.
-const lemmas = [...new Set((raw('grammar_notes') ?? []).flatMap((n) => String(n.conjugation_lemma).split(';').map((x) => x.trim()).filter(Boolean)))]
+// Every verb lemma in the course (for the conjugation trainer), plus the grammar notes' lemmas.
+const verbLemmas = wordChecks.filter((w) => w.status === 'checked' && w.part_of_speech === 'Verb' && w.lemma && w.lemma !== w.form || (w.part_of_speech === 'Verb' && /er$|ir$|re$/.test(w.lemma))).map((w) => w.lemma)
+const lemmas = [...new Set([...(raw('grammar_notes') ?? []).flatMap((n) => String(n.conjugation_lemma).split(';').map((x) => x.trim()).filter(Boolean)), ...verbLemmas])]
 const conjugations = {}
 for (const l of lemmas) conjugations[l] = await presentIndicative(l)
 save('conjugations', conjugations)
