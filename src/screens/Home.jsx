@@ -41,15 +41,13 @@ export default function Home({ unit, progress, round, lessonsInRound, points, po
   const complete = progress.round_reached >= 5
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-4 pt-[max(1rem,env(safe-area-inset-top))]">
-      <header className="flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <LogoInline />
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#1f6fff] px-2.5 py-1 text-sm font-semibold text-white" title={`${pointsTotal} points in all, ${points} today`}>
-            <Coin />
-            {pointsTotal}
-          </span>
-        </div>
-        <button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button>
+      <header className="relative flex min-h-11 items-center justify-center">
+        <span className="absolute left-0 inline-flex items-center gap-1.5 rounded-full bg-[#1f6fff] px-2.5 py-1 text-sm font-semibold text-white" title={`${pointsTotal} points in all, ${points} today`}>
+          <Coin />
+          {pointsTotal}
+        </span>
+        <LogoInline />
+        <button onClick={onSettings} aria-label="Settings" className="icon-btn absolute right-0 -mr-2"><IconGear /></button>
       </header>
 
       <PathPlaceholder unit={unit} round={round} lesson={progress.lessons_done + 1} lessons={lessonsInRound} complete={complete} />
