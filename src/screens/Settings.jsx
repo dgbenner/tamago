@@ -25,7 +25,7 @@ const pauseValue = (until) => {
 }
 const pauseUntil = (v) => (v === 'normal' ? null : v === 'always' ? 'always' : Date.now() + Number(v) * 60 * 1000)
 
-export default function Settings({ settings, onChange, onBack, onAbout }) {
+export default function Settings({ settings, onChange, onBack, onAbout, onPlacement }) {
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="relative flex justify-center">
@@ -42,6 +42,22 @@ export default function Settings({ settings, onChange, onBack, onAbout }) {
         options={PAUSE_OPTIONS} onChange={(v) => onChange({ cant_listen_until: pauseUntil(v) })} />
       <Segmented label="Can't speak now" help="Speaking questions swap for listening and writing. Applies from the next lesson." value={pauseValue(settings.cant_speak_until)}
         options={PAUSE_OPTIONS} onChange={(v) => onChange({ cant_speak_until: pauseUntil(v) })} />
+      <Segmented label="Points and streaks" help="Off hides the points, the streak and the weekly goal." value={settings.points_and_streaks}
+        options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ points_and_streaks: v })} />
+      <fieldset className="flex flex-col gap-2">
+        <legend className="font-medium">Weekly goal</legend>
+        <p className="-mt-1 text-sm text-muted">Days a week you mean to practise. No reminders, and nothing changes if you miss one.</p>
+        <select value={settings.weekly_goal} onChange={(e) => onChange({ weekly_goal: e.target.value })}
+          className="min-h-11 rounded-xl border-2 border-line bg-surface px-3 text-base">
+          <option value="none">None</option>
+          {[1, 2, 3, 4, 5, 6, 7].map((n) => <option key={n} value={String(n)}>{n} {n === 1 ? 'day' : 'days'}</option>)}
+        </select>
+      </fieldset>
+      <div className="flex flex-col gap-2">
+        <p className="font-medium">Placement check</p>
+        <p className="-mt-1 text-sm text-muted">Know some French already? Three questions per unit; units you pass open the next ones. Nothing is taken away.</p>
+        <button onClick={onPlacement} className="btn-secondary">Start the placement check</button>
+      </div>
       <Segmented label="Testing shortcuts" help="Swipe left from the right side of the screen, or press the right arrow, to pass a question as correct. Passes are marked as tests." value={settings.test_shortcuts}
         options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ test_shortcuts: v })} />
       <Segmented label="Theme" value={settings.theme} options={[['system', 'System'], ['light', 'Light'], ['dark', 'Dark']]} onChange={(v) => onChange({ theme: v })} />

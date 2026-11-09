@@ -1,27 +1,29 @@
 # Tamago check-in
 
-Updated November 9, 2026, end of Phase 2b.
+Updated November 9, 2026, end of Phase 2c.
 
 ## Done since last check-in
 
-- **Phase 2a (live):** Units 2 to 5 and the learning tree. 220 sentences across 5 units; the tree opens units in order (R20); each unit's lessons use its own sentences.
-- **Phase 2b (live):**
-  - Grammar notes: a short screen before each unit's first lesson, and a Grammar note button on every unit card. Rule in plain words, three examples with audio, the verb table from Wiktionary.
-  - Speaking: Say it aloud from round 1; Speak and compare in rounds 4 and 5, recording you and playing the model and yours side by side. Never graded; a point each.
-  - Word to image: pictures from OpenMoji (openly licensed, credited on About the content).
-- Workbook v9 holds everything (_source/tamago-data-v9.xlsx).
+- **Phase 2a (live):** Units 2 to 5 and the learning tree; 220 sentences across 5 units.
+- **Phase 2b (live):** grammar notes before each unit, Say it aloud and Speak and compare (recording on the phone, never graded), word to image with OpenMoji pictures.
+- **Phase 2c (live):**
+  - Strength bars on each unit, falling without practice (FSRS), and a Practice weak skills button on the tree.
+  - A score per skill (Reading, Listening, Writing, Speaking) with its CEFR band: a short line on home; tap it for the Progress page.
+  - Progress page with the "I can" checklist. Each statement ticks after a three-question check.
+  - Streak and weekly goal in Settings, with an off switch. No reminders.
+  - Placement check in Settings, for skipping ahead.
+- Workbook v10 holds everything.
 
 ## Decisions made
 
-- Approved Unit 2 myself (53 sentences after your six words and the drafts).
-- Drafted 66 sentences (listed below), all marked for the native-speaker check.
-- OpenMoji for pictures; word to image waits until 3 pictured words have been met, and Units 2 and 3 reuse Unit 1's pictures.
-- Speaking gets a neutral "Done." instead of a feedback line; the lesson score counts graded questions only ("8 of 8.").
-- Grammar note rules are written by me in plain words; the verb tables and examples come from Wiktionary and the unit's live sentences.
+- **How the score moves** (the feature list left the rate open): a round finished for the first time adds to each skill by how much of that round was in it; all of A1 brings a skill to 29; A2 (30) needs every A1 round and every A1 "I can" for that skill. Cleared review items add 0.1.
+- "I can" statements were checked against the official CEFR A1 self-assessment grid (Europass copy, saved in the repo); all 20 fit.
+- Placement and "I can" check misses don't go into Review.
+- Earlier phases: approved Unit 2 myself; drafted 66 sentences (below); OpenMoji pictures; speaking gets a neutral "Done.".
 
 ## Waiting for Dan
 
-- Try the new units and the speaking questions on the phone; the microphone asks permission the first time.
+- Try it on the phone: a lesson in Unit 1, then Progress and an "I can" check. The microphone asks permission the first time you record.
 - Native-speaker check (before Phase 4): 84 sentences, 18 in Unit 1 and the 66 drafts below.
 - Hosting: the Netlify free plan's badge can't be hidden; moving to Cloudflare Pages needs your account.
 

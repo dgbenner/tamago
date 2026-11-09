@@ -2,6 +2,36 @@
 
 Kept under _source/autonomous-build.md. Newest phase first.
 
+## Phase 2c: strength, scores, progress, streaks, placement (November 9, 2026)
+
+**Built**
+
+- Skill strength on FSRS (ts-fsrs 6.0.0, MIT): one card per item, rated by every first attempt in lessons, review, practice and checks (right Good, typo Hard, wrong Again). Each unit node shows 0 to 4 bars from its items' average recall now, falling without practice (R23).
+- Practice weak skills on the tree: the ten weakest items across open units, in a type that fits each unit's stage (R24). Points only.
+- Per-skill score on the 0 to 160 scale, one decimal, with the CEFR band; a short line on home, the full picture on a new Progress page (R22).
+- Progress page: scores and bands, what A1 complete needs, and the "I can" checklist. Each statement ticks only after a three-question check in its skill (R25).
+- can_do rows checked against the CEFR A1 self-assessment grid (Europass copy saved in _source/reference) and now shipped.
+- Streak and weekly goal (Settings: Points and streaks on/off, Weekly goal none to 7 days), with no reminders and nothing after a missed day (R27).
+- Placement check in Settings: three questions per unit; passing units count round 1 as done (R26).
+- Workbook v10: can_do cefr_row and cefr_descriptor, lesson_rules R22 to R27.
+
+**Decisions**
+
+- Score rate (open in the feature list): first-time rounds add by each skill's share of the answers actually asked (R12), all A1 rounds reach 29, clears add 0.1, A2 needs all rounds and all checks (R22).
+- Placement credits round 1 of the units it places, so their rounds count toward the score like any finished round.
+- Misses in placement and in I can checks stay out of the review bank; they test rather than teach.
+- Strength bars sit on the unit circle; the five round segments stay below the title.
+- The home score line shows the four skills and the reading band; tapping it opens Progress.
+- CEFR grid source: the Council of Europe site blocks automated access, so the Europass copy of the same grid is used and kept in the repo.
+
+**Stubbed**
+
+- Practice weak skills draws from sentences only (word cards from match pairs and word to image count toward strength but aren't practised directly).
+
+**Waiting for Dan**
+
+- Nothing new.
+
 ## Phase 2b: grammar notes, speaking, word to image (November 9, 2026)
 
 **Built**

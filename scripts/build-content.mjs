@@ -97,6 +97,10 @@ tables.cant_swaps = raw('cant_swaps').map((c) => {
   return { ...c, rule: { type, variant: variant ?? null, from, to } }
 })
 
+// "I can" statements ship once checked against the CEFR grid, for units that are open.
+tables.can_do = raw('can_do').filter((c) => c.cefr_row && unitOpen(c.unit_id))
+for (const c of raw('can_do')) if (!c.cefr_row && unitOpen(c.unit_id)) bad.push(`can_do ${c.can_do_id} not checked against the CEFR grid`)
+
 // Grammar notes: examples must be live sentences; tables come from the Wiktionary check.
 const conjugations = read('content/checks/conjugations.json')
 tables.grammar_notes = raw('grammar_notes').filter((n) => String(n.status).startsWith('live')).map((n) => {

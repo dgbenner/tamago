@@ -85,6 +85,15 @@ save('phase1_fallbacks', sheet('phase1_fallbacks').map((f) => ({
   status: f.missing_type === 'QT02' ? 'live: used when a unit has fewer than 3 pictured words' : builtTypes.has(f.missing_type) ? 'off: type built' : (f.status || 'live'),
 })))
 
+// can_do: the CEFR grid check (cefr_row, cefr_descriptor, source) carried in from content/cefr_a1.json.
+const canDoRaw = new Map(raw('can_do').map((c) => [c.can_do_id, c]))
+save('can_do', sheet('can_do').map((c) => { const r = canDoRaw.get(c.can_do_id); return r?.cefr_row ? { ...c, source: r.source, cefr_row: r.cefr_row, cefr_descriptor: r.cefr_descriptor } : c }))
+
+// lesson_rules: the rules Phase 2c added.
+const ruleRows = [{"rule_id":"R22","topic":"Score","rule":"A round finished for the first time adds to each skill by its share of that round's answers (after swaps). Every A1 round brings a skill to 29; each review item cleared adds 0.1. A skill reaches 30 (A2) only with every A1 unit through round 5 and every A1 I can for it checked; until then it stops at 29.9.","notes":"Phase 2c; the rate was open in the feature list"},{"rule_id":"R23","topic":"Strength","rule":"Each item has an FSRS card; a first attempt rates it (right Good, typo Hard, wrong Again). A unit shows 0 to 4 bars from its items' average recall now: 90% or more 4, 80% 3, 70% 2, less 1.","notes":"Phase 2c"},{"rule_id":"R24","topic":"Practice weak skills","rule":"The ten items with the lowest recall across open units, in a type that fits the unit's stage (round 1 to 2 Pick the meaning, 3 to 4 build English to French, 5 typed). Earns points; moves no score or round.","notes":"Phase 2c"},{"rule_id":"R25","topic":"I can checks","rule":"A statement ticks only after a check: three of the unit's sentences in its skill (listening Pick what you heard, reading Pick the meaning, writing typed translation, speaking Speak from memory), all graded ones right. Opens once the unit has finished round 1.","notes":"Phase 2c; learning-methods 17"},{"rule_id":"R26","topic":"Placement","rule":"Three questions per unit in tree order. A unit with 2 of 3 right counts round 1 as done, up to the first unit that falls short. Never lowers progress. Misses stay out of the review bank.","notes":"Phase 2c"},{"rule_id":"R27","topic":"Streak and weekly goal","rule":"A day counts when any session is finished. The streak shows from 2 days; the weekly goal counts days since Monday. Both hide with Points and streaks off. No reminders and no message after a missed day.","notes":"Phase 2c"}]
+const haveRules = new Set(sheet('lesson_rules').map((r) => r.rule_id))
+save('lesson_rules', [...sheet('lesson_rules'), ...ruleRows.filter((r) => !haveRules.has(r.rule_id))])
+
 // README: version and changelog.
 const readme = sheet('README')
 const version = to.match(/v(\d+)/)?.[1]

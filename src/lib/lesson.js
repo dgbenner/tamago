@@ -509,3 +509,39 @@ export function buildReview(c, bank, { round = 1, settings = {}, rng = Math.rand
   })
   return { id: `R${Math.floor(rng() * 1e12)}`, kind: 'review', round, started_at: Date.now(), queue: shuffle(queue, rng), size: queue.length, graded: queue.length, index: 0, firstCorrect: 0, firstWrong: 0, misses: [] }
 }
+
+// ---------- Short sessions outside the tree: practice weak skills, an "I can" check, the placement check ----------
+// items: [{ sentence_id, type, round, unit_id }]. Nothing here moves tree progress or the score.
+export function buildSession(c, kind, items, { settings = {}, rng = Math.random, ...extra } = {}) {
+  const queue = items.flatMap((it) => {
+    const s = c.sentenceById.get(it.sentence_id)
+    if (!s) return []
+    let type = it.type
+    if (settings.cantListen && AUDIO_TYPES.has(type)) type = 'QT03'
+    if (!supports(c, type, s, it.round)) type = 'QT03'
+    return [{ ...makeQuestion(c, type, s, it.round, rng, null, { cantListen: settings.cantListen }), unit_id: it.unit_id }]
+  })
+  return {
+    id: `${kind[0].toUpperCase()}${Math.floor(rng() * 1e12)}`, kind, started_at: Date.now(), ...extra,
+    queue, size: queue.length, graded: queue.filter((q) => !q.speaking).length, index: 0, firstCorrect: 0, firstWrong: 0, misses: [],
+  }
+}
+
+// The type a sentence is practised in, by how far its unit has come: recognition early, recall later.
+export const practiceType = (reached) => (reached >= 4 ? 'QT12' : reached >= 2 ? 'QT08' : 'QT03')
+
+// An "I can" check: three of the unit's sentences in the statement's skill (learning-methods 17).
+const CHECK_TYPE = { listening: ['QT04', 2], reading: ['QT03', 2], writing: ['QT12', 4], speaking: ['QT13', 5] }
+export function checkItems(c, skill, rng = Math.random) {
+  const [type, round] = CHECK_TYPE[skill]
+  const pool = c.sentences.filter((s) => s.unit_id === c.unit_id && supports(c, type, s, round))
+  return shuffle(pool, rng).slice(0, 3).map((s) => ({ sentence_id: s.sentence_id, type, round, unit_id: c.unit_id }))
+}
+
+// Placement: three questions per unit, in tree order (meaning, listening, typed translation).
+export function placementItems(unitContents, rng = Math.random) {
+  return unitContents.flatMap((c) => {
+    const own = shuffle(c.sentences.filter((s) => s.unit_id === c.unit_id), rng)
+    return [['QT03', 2], ['QT04', 2], ['QT12', 4]].map(([type, round], i) => own[i] && ({ sentence_id: own[i].sentence_id, type, round, unit_id: c.unit_id })).filter(Boolean)
+  })
+}

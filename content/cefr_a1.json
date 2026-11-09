@@ -1,0 +1,18 @@
+{
+  "_about": "CEFR self-assessment grid, A1 column, as published by Europass (copy in _source/reference/cefr-self-assessment-grid-europass-EN.pdf, © Council of Europe). Each can_do statement is checked against its row; rows are folded into the workbook's can_do tab (cefr_row, source) at the end of Phase 2c.",
+  "source": "CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1",
+  "rows": {
+    "Listening": "I can understand familiar words and very basic phrases concerning myself, my family and immediate concrete surroundings when people speak slowly and clearly.",
+    "Reading": "I can understand familiar names, words and very simple sentences, for example on notices and posters or in catalogues.",
+    "Spoken interaction": "I can interact in a simple way provided the other person is prepared to repeat or rephrase things at a slower rate of speech and help me formulate what I'm trying to say. I can ask and answer simple questions in areas of immediate need or on very familiar topics.",
+    "Spoken production": "I can use simple phrases and sentences to describe where I live and people I know.",
+    "Writing": "I can write a short, simple postcard, for example sending holiday greetings. I can fill in forms with personal details, for example entering my name, nationality and address on a hotel registration form."
+  },
+  "statements": {
+    "CD01": "Listening", "CD02": "Reading", "CD03": "Writing", "CD04": "Spoken interaction",
+    "CD05": "Reading", "CD06": "Listening", "CD07": "Writing", "CD08": "Spoken production",
+    "CD09": "Reading", "CD10": "Listening", "CD11": "Writing", "CD12": "Spoken interaction",
+    "CD13": "Reading", "CD14": "Listening", "CD15": "Writing", "CD16": "Spoken production",
+    "CD17": "Reading", "CD18": "Listening", "CD19": "Writing", "CD20": "Spoken production"
+  }
+}

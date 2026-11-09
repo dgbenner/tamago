@@ -7,7 +7,7 @@ import { createRequire } from 'node:module'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v9.xlsx')
+const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v10.xlsx')
 const OUT = join(ROOT, 'content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)
@@ -51,6 +51,16 @@ const IMAGES = join(ROOT, 'content/images.json')
 if (existsSync(IMAGES)) {
   const img = JSON.parse(readFileSync(IMAGES, 'utf8'))
   for (const w of tables.words) if (!w.image_file && img.words[w.word_id]) w.image_file = `openmoji/${img.words[w.word_id]}.svg`
+}
+
+// can_do statements checked against the CEFR A1 grid (content/cefr_a1.json), until the workbook carries it.
+const CEFR = join(ROOT, 'content/cefr_a1.json')
+if (existsSync(CEFR)) {
+  const grid = JSON.parse(readFileSync(CEFR, 'utf8'))
+  for (const c of tables.can_do ?? []) {
+    const row = grid.statements[c.can_do_id]
+    if (row && !c.cefr_row) Object.assign(c, { cefr_row: row, cefr_descriptor: grid.rows[row], source: `checked against ${grid.source}, ${row}` })
+  }
 }
 
 // Sentences Claude drafted at Dan's request (content/drafts.json), split into words here.
