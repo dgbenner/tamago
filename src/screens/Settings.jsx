@@ -7,7 +7,7 @@ function Segmented({ label, help, value, options, onChange }) {
     <fieldset className="flex flex-col gap-2">
       <legend className="font-medium">{label}</legend>
       {help && <p className="-mt-1 text-sm text-muted">{help}</p>}
-      <div className="flex overflow-hidden rounded-xl border border-line">
+      <div className="flex overflow-hidden rounded-xl border-2 border-line">
         {options.map(([v, text]) => (
           <button key={v} aria-pressed={value === v} onClick={() => onChange(v)}
             className={`min-h-11 flex-1 px-2 text-sm ${value === v ? 'bg-orange font-semibold text-white' : 'bg-surface'}`}>{text}</button>

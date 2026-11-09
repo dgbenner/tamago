@@ -138,7 +138,7 @@ function Question({ q, ...rest }) {
 
 function SpeakerButton({ audio, slow, label = 'Play', large }) {
   return (
-    <button onClick={() => play(audio, { slow })} aria-label={label} className={`inline-flex items-center justify-center gap-2 rounded-xl border border-line bg-surface ${large ? 'h-16 w-16' : 'min-h-11 min-w-11 px-3'}`}>
+    <button onClick={() => play(audio, { slow })} aria-label={label} className={`inline-flex items-center justify-center gap-2 rounded-xl border-2 border-line bg-surface ${large ? 'h-16 w-16' : 'min-h-11 min-w-11 px-3'}`}>
       <IconSpeaker />
       {slow && <span className="text-sm">Slow</span>}
     </button>
@@ -152,7 +152,7 @@ function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
     <p lang="fr" className="text-2xl leading-relaxed">
       {q.segments.map((seg, i) => {
         if (i === blankIndex) {
-          return <span key={i} className="mx-1 inline-block min-w-16 border-b-2 border-ink px-1 text-center font-semibold">{filled ?? ' '}</span>
+          return <span key={i} className="mx-1 inline-block min-w-16 border-b-4 border-ink px-1 text-center font-semibold">{filled ?? ' '}</span>
         }
         if (!seg.word_id) return <span key={i}>{seg.text}</span>
         return (
@@ -163,7 +163,7 @@ function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
             >{seg.text}</button>
             {newWords.has(seg.word_id) && <span className="new-dot ml-1 align-middle" aria-hidden="true" />}
             {open === i && (
-              <span role="tooltip" lang="en" className="absolute top-full left-0 z-10 mt-1 whitespace-nowrap rounded-lg border border-line bg-surface px-3 py-1.5 text-base shadow-md">{seg.hint}</span>
+              <span role="tooltip" lang="en" className="absolute top-full left-0 z-10 mt-1 whitespace-nowrap rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base shadow-md">{seg.hint}</span>
             )}
           </span>
         )
@@ -184,7 +184,7 @@ function SpeakerBubble({ children }) {
   return (
     <div className="flex items-start gap-3">
       <img src="/logo.png" alt="" className="h-12 w-12 shrink-0 object-contain" />
-      <div className="rounded-2xl rounded-tl-sm border border-line bg-surface px-4 py-3">{children}</div>
+      <div className="rounded-2xl rounded-tl-sm border-2 border-line bg-surface px-4 py-3">{children}</div>
     </div>
   )
 }
@@ -285,10 +285,13 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
         {q.pairs.map((p) => (
           <button key={p.form} lang="fr" disabled={matched.includes(p.form) || Boolean(result)} onClick={() => tapForm(p)}
             onAnimationEnd={endShake}
-            className={`${cell(form === p.form, matched.includes(p.form), wrong?.f === p.form)} flex items-center justify-center gap-1.5`}>
-            {!cantListen && <span className="opacity-60 [&_svg]:size-4"><IconSpeaker /></span>}
-            {p.form}
-            {newWords.has(p.word_id) && !matched.includes(p.form) && <span className="new-dot" aria-hidden="true" />}
+            className={`${cell(form === p.form, matched.includes(p.form), wrong?.f === p.form)} flex items-center justify-center`}>
+            {/* Only the word is centred: the speaker hangs to its left and the new-word dot to its right. */}
+            <span className="relative">
+              {!cantListen && <span className="absolute top-1/2 right-full mr-1.5 -translate-y-1/2 opacity-60 [&_svg]:size-4"><IconSpeaker /></span>}
+              {p.form}
+              {newWords.has(p.word_id) && !matched.includes(p.form) && <span className="new-dot absolute top-1/2 left-full ml-1.5 -translate-y-1/2" aria-hidden="true" />}
+            </span>
           </button>
         ))}
       </div>
@@ -357,7 +360,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
         <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} onSubmit={() => check(text)} />
       ) : (
         <>
-          <div lang={q.lang} className="flex min-h-14 flex-wrap gap-2 border-b border-line pb-2">
+          <div lang={q.lang} className="flex min-h-14 flex-wrap gap-2 border-b-2 border-line pb-2">
             {picked.map((chipIndex) => (
               <button key={chipIndex} disabled={Boolean(result)} onClick={() => setPicked(picked.filter((i) => i !== chipIndex))} className="chip">{q.chips[chipIndex]}</button>
             ))}
@@ -371,7 +374,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
       )}
       {!result && (
         <div className={`flex items-center gap-2 ${typing ? '' : 'action-row'}`}>
-          <button onClick={() => setTyping(!typing)} aria-label={typing ? 'Use word chips' : 'Use the keyboard'} className="icon-btn border border-line">
+          <button onClick={() => setTyping(!typing)} aria-label={typing ? 'Use word chips' : 'Use the keyboard'} className="icon-btn border-2 border-line">
             {typing ? <IconChips /> : <IconKeyboard />}
           </button>
           <button disabled={typing ? !text.trim() : picked.length === 0} onClick={() => check(typing ? text : answerText)} className="btn-submit flex-1">Check</button>
@@ -388,7 +391,7 @@ function TypedInput({ q, value, onChange, disabled, onSubmit }) {
         lang={q.lang} autoFocus value={value} disabled={disabled} onChange={(e) => onChange(e.target.value)}
         autoCapitalize="off" autoCorrect="off" autoComplete="off" spellCheck={false} enterKeyHint="done"
         aria-label={q.lang === 'en' ? 'Your answer in English' : 'Your answer in French'} placeholder={q.lang === 'en' ? 'Type in English' : 'Type in French'}
-        className="w-full rounded-xl border border-line bg-surface px-4 py-3 text-lg outline-none focus:border-ink"
+        className="w-full rounded-xl border-2 border-line bg-surface px-4 py-3 text-lg outline-none focus:border-ink"
       />
     </form>
   )
@@ -428,7 +431,7 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const phrase = result.phrase
   const fallback = good ? 'Nice.' : 'Not quite.'
   return (
-    <section aria-live="polite" data-outcome={good ? 'correct' : 'incorrect'} className={`fixed inset-x-0 bottom-0 z-20 border-t bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${good ? 'border-right' : 'border-wrong'}`}>
+    <section aria-live="polite" data-outcome={good ? 'correct' : 'incorrect'} className={`fixed inset-x-0 bottom-0 z-20 border-t-2 bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${good ? 'border-right' : 'border-wrong'}`}>
       <div className="mx-auto flex max-w-md flex-col gap-3 px-4 pt-4">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
@@ -436,7 +439,7 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
               {phrase?.language === 'fr' ? (
                 <button lang="fr" onClick={() => setMeaning(!meaning)} className="underline decoration-dotted decoration-2 underline-offset-4">{phrase.text}</button>
               ) : (phrase?.text ?? fallback)}
-              {meaning && <span role="tooltip" className="absolute bottom-full left-0 z-10 mb-1 whitespace-nowrap rounded-lg border border-line bg-surface px-3 py-1.5 text-base font-normal text-ink shadow-md">{phrase.english}</span>}
+              {meaning && <span role="tooltip" className="absolute bottom-full left-0 z-10 mb-1 whitespace-nowrap rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base font-normal text-ink shadow-md">{phrase.english}</span>}
             </p>
             {!isPairs && <p className="mt-0.5 break-words">{shown}</p>}
             {other && <p className="break-words text-muted">{other}</p>}
@@ -452,7 +455,7 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
           : (
             <div className="flex flex-col gap-1.5">
               {flagReasons.map((r) => (
-                <button key={r.reason_id} onClick={() => { onFlag(r.reason_id); setFlagged(true) }} className="rounded-lg border border-line px-3 py-2 text-left text-sm">{r.label}</button>
+                <button key={r.reason_id} onClick={() => { onFlag(r.reason_id); setFlagged(true) }} className="rounded-lg border-2 border-line px-3 py-2 text-left text-sm">{r.label}</button>
               ))}
             </div>
           ))}

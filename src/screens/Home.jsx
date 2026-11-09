@@ -15,7 +15,7 @@ function Coin() {
 // round and lesson shown at the current stop.
 function PathPlaceholder({ unit, round, lesson, lessons, complete }) {
   return (
-    <section className="flex flex-1 flex-col rounded-2xl border-2 border-dashed border-line p-5">
+    <section className="flex flex-1 flex-col rounded-2xl border-4 border-dashed border-line p-5">
       <p className="text-xs uppercase tracking-wide text-muted">Learning path · placeholder</p>
       <p className="mt-3 text-sm text-muted">Unit {unit.order}</p>
       <h1 className="text-2xl font-semibold">{unit.title}</h1>
@@ -25,8 +25,8 @@ function PathPlaceholder({ unit, round, lesson, lessons, complete }) {
           const current = !complete && r === round
           return (
             <li key={r} className="flex flex-col items-center">
-              {r > 1 && <span className="h-5 w-0.5 bg-line" aria-hidden="true" />}
-              <span className={`flex h-12 w-12 items-center justify-center rounded-full border-2 text-sm font-semibold ${done ? 'border-green bg-green text-white' : current ? 'border-orange text-orange' : 'border-line text-muted'}`}>{r}</span>
+              {r > 1 && <span className="h-5 w-1 bg-line" aria-hidden="true" />}
+              <span className={`flex h-12 w-12 items-center justify-center rounded-full border-4 text-sm font-semibold ${done ? 'border-green bg-green text-white' : current ? 'border-orange text-orange' : 'border-line text-muted'}`}>{r}</span>
               {current && <span className="mt-1 text-xs text-muted">Round {round} of 5 · Lesson {lesson} of {lessons}</span>}
             </li>
           )

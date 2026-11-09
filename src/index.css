@@ -113,17 +113,17 @@ button {
     @apply min-h-12 rounded-xl bg-accent px-4 font-semibold text-accent-ink disabled:bg-line disabled:text-muted;
   }
   .btn-secondary {
-    @apply min-h-12 rounded-xl border-2 border-line bg-surface px-4 font-medium disabled:opacity-50;
+    @apply min-h-12 rounded-xl border-4 border-line bg-surface px-4 font-medium disabled:opacity-50;
   }
   .icon-btn {
     @apply inline-flex h-11 w-11 items-center justify-center rounded-xl;
   }
-  /* The border is always 2px, so a state change only recolours it and nothing moves. */
+  /* The border is always 4px, so a state change only recolours it and nothing moves. */
   .choice {
-    @apply min-h-12 rounded-xl border-2 border-line bg-surface px-4 py-2.5 text-left text-lg;
+    @apply min-h-12 rounded-xl border-4 border-line bg-surface px-4 py-2.5 text-left text-lg;
   }
   .chip {
-    @apply min-h-11 rounded-xl border-2 border-line bg-surface px-3.5 text-lg;
+    @apply min-h-11 rounded-xl border-4 border-line bg-surface px-3.5 text-lg;
   }
   /* Indicators stay quiet. Yellow, green and orange fills are for things you can act on. */
   .tag {
