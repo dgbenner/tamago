@@ -2,6 +2,36 @@
 
 Kept under _source/autonomous-build.md. Newest phase first.
 
+## Phase 5: learner-guided content (November 9, 2026)
+
+**Built**
+
+- Make your own (a Make button on home, in a two-by-two grid with Practice weak skills, Words and Verbs). It covers the feature list's four learner asks:
+  - **A lesson on a weak point:** the weakest graded skill by score (reading, listening or writing). Ten of the least-known items, in a type of that skill at the unit's stage.
+  - **A test on this week's topics:** sentences answered since Monday (attempts), in each unit's practice type.
+  - **Flashcards from pasted words:** French text matched to Tamago's words in any unit, so meanings come from Wiktionary. Unknown words are named "not in Tamago yet". It uses the FSRS flashcards from Phase 3.
+  - **Claude-written practice** (netlify/functions/generate.mjs, claude-opus-5-5 at low effort, structured JSON output, server-side refusal fallback "default"). It covers new sentences from the learner's met words, and a QT20 listening exchange (4 to 6 lines, 3 English questions).
+- The app re-splits every generated French line with the pipeline's own splitter (scripts/lib/french.mjs) against the learner's met words, plus the course names. Any line with another word is dropped; a listening passage with one bad line is dropped whole.
+- Generated sentences run as a session of QT03, QT06 and QT08. They live in the session itself, so a reload keeps them. They're kept out of FSRS strength, the review bank and the skill tally.
+- QT20 Listening screen: plays the exchange by device voice (Play, Slowly), questions with right and wrong marks, and the French and English text on request or once answered. It isn't scored.
+- Tests: 48 pass (new: generation validation). Browser runs in Chrome and Firefox covered every Make path with the function mocked: two of five generated lines were dropped as expected, nothing generated reached cards or the bank, and needs setup showed without the function. All earlier regressions pass.
+- Workbook v14: no content change; changelog row.
+
+**Decisions**
+
+- Three of the four asks need no model, so they work now. Only Claude-written material waits on the key.
+- The generation model is the default (Opus 5.5) at low effort: the feature list names the smaller model only for answer checking. The refusal fallback is on ("default"), as the API guidance recommends.
+- Generated content is practice the learner asked for. It never changes scores, strength or Review, and it's marked "Written by Claude, not checked by a native speaker".
+- Same key rule as Phase 4: TAMAGO_ANTHROPIC_API_KEY only, passed explicitly.
+
+**Stubbed (needs setup)**
+
+- QT21 Conversation: a needs-setup card on Make. It needs the key, plus a design pass (turn-taking, speaking or typing, how mistakes are handled) before it's built.
+
+**Waiting for Dan**
+
+- The same key as Phase 4 turns on both explanations and Claude-written practice.
+
 ## Phase 4: accounts and community, the parts that need no account (November 9, 2026)
 
 **Built**

@@ -7,7 +7,7 @@ import { createRequire } from 'node:module'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v13.xlsx')
+const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v14.xlsx')
 const OUT = join(ROOT, 'content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)

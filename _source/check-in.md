@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 9, 2026, end of Phase 4, as far as it goes without accounts. Phase 3 was finished earlier today; it's in the build log.
+Updated November 9, 2026, end of Phase 5. Every phase in build-phases.md is now built as far as it goes without your accounts and keys. Details are in the build log.
 
 ## Done since last check-in
 
@@ -11,23 +11,32 @@ Updated November 9, 2026, end of Phase 4, as far as it goes without accounts. Ph
   - **Profile and backup** (Settings): a screen name, and a backup file that carries all progress to another phone or browser.
   - **Claude explains mistakes**: built, and off until there's a key. After a wrong typed answer a quiet "Why?" appears once the explanation has arrived; nothing waits for it.
   - **Discussions and Forum**: shown as needs setup, with the agreed sections.
-- Workbook v13 (no content change; changelog row).
+- **Phase 5 (live): Make your own**, a Make button on home.
+  - **Works now:**
+    - a lesson on your weakest skill;
+    - a test on this week's sentences;
+    - flashcards from French you paste in (meanings from Wiktionary; it names words Tamago doesn't have yet).
+  - **Waits on the key:** new practice sentences and short listening exchanges (QT20) written by Claude from the words you've met. Any line using another word is dropped, and none of it touches your scores or Review.
+  - Conversation (QT21) is a needs-setup card for now.
+- Workbooks v13 and v14 (no content change; changelog rows).
 
 ## Decisions made
 
 - **Recordings:** the checker ticks a box to share their recordings under CC BY-SA 4.0, credited on About. Without the tick they aren't used.
 - **Fixes to Unit 1 sentences** (which come from the workbook, not drafts) are held back from the app until I've applied them, so nothing half-fixed ships.
 - **Explanations:** the cheaper model the feature list asks for (Claude Haiku 5.5). It may only use the sentence, the accepted answers and the Wiktionary hints, so no definitions from memory. There's a cap of 30 a day per device until sign-in allows a real per-learner limit.
+- **Claude-written practice** uses the main model rather than the cheap one, because the feature list names the cheaper model only for answer checking.
+- **Next for me:** new A1 units after Unit 5, in Duolingo's old order (plurals, adjectives, possessives, questions, numbers, colours, time, places), each with its drafted sentences listed here.
 - **Phase 3:** topics stay out of placement, checkpoints and scores until chosen. I cut 14 pulled topic sentences that were idioms, misleading or odd. The first topic lesson crashed; a new-word rule fixes it (only a unit's own words count as new).
 
 ## Waiting for Dan
 
 1. **Native-speaker check.** Arrange the person. On their phone they open https://tamago-590.netlify.app, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
-2. **Claude explanations (costs money, needs your API key).**
+2. **Claude explanations and Claude-written practice (costs money, needs your API key).** One key turns on both.
    1. In the Anthropic Console (https://console.anthropic.com), create an API key.
    2. In Netlify (https://app.netlify.com), open the site tamago-590, then Site configuration, then Environment variables. Add TAMAGO_ANTHROPIC_API_KEY with the key as its value. Use a key made for Tamago: your Netlify account already has an ANTHROPIC_API_KEY (from another project, I assume), and Tamago deliberately ignores it. For about two minutes after the first Phase 4 deploy the function would have used that shared key; it was only reachable after a wrong typed answer on the live site, and the fix went live right after.
    3. Under Deploys, choose Trigger deploy. Settings then shows explanations as on.
-   - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output, and one explanation is a few hundred tokens. A thousand explanations cost well under a dollar.
+   - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output, and one explanation is a few hundred tokens. A thousand explanations cost well under a dollar. Claude-written practice uses the main model (Opus 5.5, $4 per million input tokens and $20 per million output), so a set of sentences or a listening exchange costs a few cents.
 3. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
 4. **Testers (your call).** When you say go, I'll turn Testing shortcuts off by default and give you the link to send. Until there's a server, testers send their flags by saving the flags file.
 5. **Earlier items:**

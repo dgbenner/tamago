@@ -53,3 +53,18 @@ function speak(audio, slow) {
   utterance.rate = slow ? 0.55 : 0.9
   speechSynthesis.speak(utterance)
 }
+
+// Several French lines in a row (QT20 listening): the device voice queues them; onEnd fires after the last.
+export function speakAll(lines, { slow = false, onEnd } = {}) {
+  stop()
+  if (!('speechSynthesis' in window) || !lines.length) { onEnd?.(); return }
+  const voice = frenchVoice()
+  lines.forEach((text, i) => {
+    const u = new SpeechSynthesisUtterance(text)
+    if (voice) u.voice = voice
+    u.lang = voice?.lang ?? 'fr-FR'
+    u.rate = slow ? 0.55 : 0.9
+    if (i === lines.length - 1 && onEnd) u.onend = onEnd
+    speechSynthesis.speak(u)
+  })
+}

@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, recordings, tables, unitContent } from './lib/content.js'
-import { buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor } from './lib/lesson.js'
+import { indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
-import { getKv, loadState, put, putKv, remove } from './lib/store.js'
+import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
 import { hasFrenchVoice, preload, stop } from './lib/audio.js'
 import Home from './screens/Home.jsx'
 import Lesson from './screens/Lesson.jsx'
@@ -20,6 +20,10 @@ import Profile from './screens/Profile.jsx'
 import NativeCheck from './screens/NativeCheck.jsx'
 import FlagReview from './screens/FlagReview.jsx'
 import Forum from './screens/Forum.jsx'
+import Make from './screens/Make.jsx'
+import Listening from './screens/Listening.jsx'
+import { listeningFrom, requestGenerated, sentencesFrom } from './lib/generate.js'
+import { tokenize } from '../scripts/lib/french.mjs'
 
 const FIRST_UNIT = tables.units[0].unit_id
 const c = allContent // settings defaults, flags and other shared tables
@@ -70,6 +74,10 @@ export default function App() {
   // Phase 4: profile (screen name), native-speaker check results.
   const [profile, setProfile] = useState({})
   const [nativeResults, setNativeResults] = useState({})
+  // Phase 5: Make your own. Sentences met this week, Claude's status line, a listening passage in hand.
+  const [weekIds, setWeekIds] = useState([])
+  const [makeStatus, setMakeStatus] = useState('')
+  const [passage, setPassage] = useState(null)
 
   useEffect(() => {
     preload(recordings)
@@ -132,7 +140,13 @@ export default function App() {
   const progressOf = (unitId) => progressByUnit[unitId] ?? { unit_id: unitId, round_reached: 0, lessons_done: 0 }
   const roundOf = (unitId) => Math.min(progressOf(unitId).round_reached + 1, 5)
   // Lessons and "I can" checks run on one unit; review, practice and placement span units.
-  const contentFor = (s) => (['review', 'practice', 'placement', 'words', 'checkpoint'].includes(s?.kind) ? allContent : unitContent(s?.unit_id ?? currentUnit))
+  // Claude's sentences live in the session itself, so a generated session survives a reload.
+  const generated = useRef(new Map())
+  const generatedContent = (s) => {
+    if (!generated.current.has(s.id)) generated.current.set(s.id, indexContent({ ...tables, sentences: [...tables.sentences, ...s.generated.sentences], sentence_words: [...tables.sentence_words, ...s.generated.sentence_words] }))
+    return generated.current.get(s.id)
+  }
+  const contentFor = (s) => s?.kind === 'generated' ? generatedContent(s) : (['review', 'practice', 'placement', 'words', 'checkpoint'].includes(s?.kind) ? allContent : unitContent(s?.unit_id ?? currentUnit))
 
   // R20: a row opens when every unit in the row it names has finished round 1. A unit also has to be live.
   const layout = tables.tree_layout
@@ -205,6 +219,61 @@ export default function App() {
     const liveUnits = [...tables.units].sort((a, b) => a.order - b.order).filter((u) => String(u.status).startsWith('live') && !['node', 'yes'].includes(u.is_topic_pick))
     begin(buildSession(allContent, 'placement', placementItems(liveUnits.map((u) => unitContent(u.unit_id))), { settings: lessonModes() }))
   }
+  // Phase 5, Make your own. The weakest graded skill, by score; ten of the least-known items in a type of that skill.
+  const SKILL_TYPES = { reading: (r) => (r >= 2 ? 'QT06' : 'QT03'), listening: (r) => (r >= 4 ? 'QT11' : r >= 2 ? 'QT07' : 'QT04'), writing: (r) => (r >= 4 ? 'QT12' : 'QT08') }
+  const courseNames = [...new Set(tables.sentence_words.filter((x) => x.notes === 'name').map((x) => x.surface))]
+  const openMakeScreen = () => {
+    setMakeStatus('')
+    const since = weekStart()
+    getAll('attempts').then((rows) => setWeekIds([...new Set(rows.filter((x) => x.answered_at && new Date(x.answered_at).toLocaleDateString('en-CA') >= since && allContent.sentenceById.has(x.sentence_id)).map((x) => x.sentence_id))]))
+    setScreen('make')
+  }
+  const startWeakSkill = (skill) => {
+    const ids = weakest(openUnits.flatMap(itemsOf), cards, 10)
+    const items = ids.map((id) => { const u = allContent.sentenceById.get(id).unit_id; const reached = progressOf(u).round_reached; return { sentence_id: id, type: SKILL_TYPES[skill](reached), round: Math.max(2, Math.min(reached + 1, 5)), unit_id: u } })
+    begin(buildSession(allContent, 'practice', items, { settings: lessonModes(), back: 'make' }))
+  }
+  const startWeek = () => {
+    const ids = weekIds.sort(() => Math.random() - 0.5).slice(0, 10)
+    const items = ids.map((id) => { const u = allContent.sentenceById.get(id).unit_id; const reached = progressOf(u).round_reached; return { sentence_id: id, type: practiceType(reached), round: Math.min(reached + 1, 5), unit_id: u } })
+    begin(buildSession(allContent, 'practice', items, { settings: lessonModes(), back: 'make' }))
+  }
+  // Pasted French: each word Tamago has (any unit) becomes a card; the rest are named as not in Tamago yet.
+  const listMatch = (text) => {
+    const byForm = new Map(tables.words.map((w) => [w.form.toLowerCase(), w]))
+    const found = new Map()
+    const missing = new Set()
+    for (const t of tokenize(text)) {
+      const k = t.text.toLowerCase()
+      const w = byForm.get(k) ?? byForm.get(k.replace(/'$/, ''))
+      if (w) found.set(w.word_id, w)
+      else missing.add(k)
+    }
+    return { words: [...found.values()].slice(0, 20), missing: [...missing].slice(0, 12) }
+  }
+  const startGenerated = async (focus) => {
+    setMakeStatus('Claude is writing…')
+    const words = metWords()
+    const res = await requestGenerated('sentences', words, { names: courseNames, count: 8, focus })
+    const g = sentencesFrom(res.result, words, courseNames)
+    if (g.sentences.length < 3) { setMakeStatus(res.error === 'offline' ? 'No connection.' : 'Not enough sentences used only your words. Try again.'); return }
+    setMakeStatus('')
+    const items = g.sentences.map((s, i) => ({ sentence_id: s.sentence_id, type: ['QT03', 'QT06', 'QT08'][i % 3], round: 3, unit_id: 'GEN' }))
+    const content = indexContent({ ...tables, sentences: [...tables.sentences, ...g.sentences], sentence_words: [...tables.sentence_words, ...g.sentence_words] })
+    const s = buildSession(content, 'generated', items, { settings: lessonModes(), generated: g, back: 'make' })
+    generated.current.set(s.id, content)
+    begin(s)
+  }
+  const startListening = async (focus) => {
+    setMakeStatus('Claude is writing…')
+    const words = metWords()
+    const res = await requestGenerated('listening', words, { names: courseNames, focus })
+    const p = listeningFrom(res.result, words, courseNames)
+    if (!p) { setMakeStatus(res.error === 'offline' ? 'No connection.' : 'That one used words you haven\'t met. Try again.'); return }
+    setMakeStatus('')
+    setPassage(p)
+    setScreen('listening')
+  }
   // Side tools. Words met, in unit order; a word's recall is its own card, else the average of its sentences'.
   const metWords = () => tables.words.filter((w) => seenWords.current.has(w.word_id))
   const sentencesWith = (wordId) => tables.sentence_words.filter((r) => r.word_id === wordId).map((r) => r.sentence_id)
@@ -222,13 +291,13 @@ export default function App() {
     const q = makeMatchPairs(allContent, words, 1, Math.random)
     begin({ id: `W${Date.now()}`, kind: 'words', started_at: Date.now(), queue: [q], size: 1, graded: 1, index: 0, firstCorrect: 0, firstWrong: 0, misses: [] })
   }
-  const startFlashcards = (aloud) => {
-    const met = metWords()
+  const startFlashcards = (aloud, chosen = null, back = 'words') => {
+    const met = chosen ?? metWords()
     const due = met.filter((w) => deck[w.word_id] && isDue(deck[w.word_id])).sort((a, b) => new Date(deck[a.word_id].due) - new Date(deck[b.word_id].due))
     const fresh = met.filter((w) => !deck[w.word_id])
     const pick = [...due, ...fresh].slice(0, 10)
     const fileFor = (w) => tables.sentences.find((s) => s.lingua_libre?.audio_file && s.french.replace(/[.!?]/g, '').trim().toLowerCase() === w.form)?.lingua_libre.audio_file ?? null
-    setFlash({ aloud, cards: pick.map((w) => ({ word_id: w.word_id, form: w.form, hint: w.hint, audio: { french: w.form, file: fileFor(w) }, example: examplesOf(w.word_id)[0] ?? null })) })
+    setFlash({ aloud, back, cards: pick.map((w) => ({ word_id: w.word_id, form: w.form, hint: w.hint, audio: { french: w.form, file: fileFor(w) }, example: examplesOf(w.word_id)[0] ?? null })) })
     setScreen('flashcards')
   }
   const gradeCard = (wordId, g) => setDeck((d) => { const n = rateGrade(d, wordId, g); putKv('flashcards', n); return n })
@@ -289,7 +358,7 @@ export default function App() {
       putKv('skill_tally', t)
     }
     // First attempts rate the item on the FSRS schedule (placement excluded: it tests, it doesn't teach).
-    if (first && !q.speaking && session.kind !== 'placement') {
+    if (first && !q.speaking && !['placement', 'generated'].includes(session.kind)) {
       setCards((cs) => { const next = rate(cs, q.sentence_id ?? q.word_ids[0], result); putKv('fsrs_cards', next); return next })
     }
     let next = session
@@ -312,7 +381,7 @@ export default function App() {
         ? reaskFor(contentFor(session), q, { cantListen: lessonModes().cantListen, missedWord: result.missedWord, known: seenWords.current }) : null
       if (reask) next = { ...next, queue: [...next.queue, reask] }
       // Round 1 misses stay out of the bank, and so do misses in a placement or an "I can" check (they test, they don't teach).
-      if (q.round >= 2 && !['placement', 'check'].includes(session.kind)) addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
+      if (q.round >= 2 && !['placement', 'check', 'generated'].includes(session.kind)) addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
     }
     if (session.kind === 'review' && result.correct) {
       setBank((b) => b.flatMap((e) => {
@@ -353,8 +422,8 @@ export default function App() {
     remove('kv', 'current_session')
     setSession(null)
     markActive()
-    if (s.kind === 'review' || s.kind === 'practice') {
-      setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size} correct.`, back: s.kind === 'practice' ? 'home' : 'home' })
+    if (s.kind === 'review' || s.kind === 'practice' || s.kind === 'generated') {
+      setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size} correct.`, back: s.back ?? 'home' })
       return
     }
     if (s.kind === 'words') {
@@ -480,7 +549,7 @@ export default function App() {
     return <Words words={metWords()} units={[...tables.units].sort((a, b) => a.order - b.order)} recallOf={recallOf} examplesOf={examplesOf} tableOf={tableOf}
       onMatch={startMatch} onFlashcards={startFlashcards} onBack={() => setScreen('home')} />
   }
-  if (screen === 'flashcards' && flash) return <Flashcards cards={flash.cards} aloud={flash.aloud} onGrade={gradeCard} onDone={() => { markActive(); setFlash(null); setScreen('words') }} />
+  if (screen === 'flashcards' && flash) return <Flashcards cards={flash.cards} aloud={flash.aloud} onGrade={gradeCard} onDone={() => { markActive(); const back = flash.back ?? 'words'; setFlash(null); setScreen(back) }} />
   if (screen === 'verbs') {
     const lemmas = new Set(metWords().filter((w) => w.part_of_speech === 'Verb').map((w) => w.lemma))
     return <Verbs tables={tables.conjugations.filter((t) => lemmas.has(t.lemma))} strict={settings.answer_strictness === 'strict'} onBack={() => setScreen('home')} />
@@ -512,6 +581,15 @@ export default function App() {
     }} />
   }
   if (screen === 'forum') return <Forum onBack={() => setScreen('settings')} />
+  if (screen === 'make') {
+    const graded = ['reading', 'listening', 'writing']
+    const canWeak = weakest(openUnits.flatMap(itemsOf), cards, 1).length > 0
+    const weakSkill = canWeak ? graded.reduce((lo, s) => (scores[s].score < scores[lo].score ? s : lo), graded[0]) : null
+    return <Make weakSkill={weakSkill ? weakSkill[0].toUpperCase() + weakSkill.slice(1) : null} weekCount={weekIds.length} metCount={metWords().length} listMatch={listMatch}
+      onWeak={() => startWeakSkill(weakSkill)} onWeek={startWeek} onList={(words) => startFlashcards(false, words, 'make')}
+      onSentences={startGenerated} onListening={startListening} status={makeStatus} onBack={() => setScreen('home')} />
+  }
+  if (screen === 'listening' && passage) return <Listening passage={passage} onDone={() => { markActive(); setPassage(null); setScreen('make') }} onBack={() => { setPassage(null); setScreen('make') }} />
   if (screen === 'about') return <About content={allContent} onBack={() => setScreen('settings')} />
   if (screen === 'note' && note) {
     const unit = tables.units.find((u) => u.unit_id === note.unitId)
@@ -535,7 +613,7 @@ export default function App() {
     <Home rows={rows} points={pointsToday} pointsTotal={pointsTotal} bankSize={bank.length} showPoints={showPoints}
       scores={scores} streak={streak} thisWeek={thisWeek} goal={goal} onProgress={() => setScreen('progress')}
       canPractice={weakest(openUnits.flatMap(itemsOf), cards, 1).length > 0} onPractice={startPractice}
-      onWords={() => setScreen('words')} onVerbs={() => setScreen('verbs')}
+      onWords={() => setScreen('words')} onVerbs={() => setScreen('verbs')} onMake={openMakeScreen}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, label: `Units ${unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).order).join(', ')}`, available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null }))}
       onCheckpoint={startCheckpoint}
       inProgress={Boolean(session)}

@@ -94,7 +94,7 @@ function UnitCard({ node, lockedBy, inProgress, onStart, onClose, onGrammarNote,
   )
 }
 
-export default function Home({ rows, points, pointsTotal, bankSize, inProgress, currentLabel, onContinue, onReview, onStartUnit, onSettings, onChooseTopic, lockedByOf, onGrammarNote, hasNote, showPoints, scores, streak, thisWeek, goal, onProgress, canPractice, onPractice, onWords, onVerbs, checkpoints, onCheckpoint }) {
+export default function Home({ rows, points, pointsTotal, bankSize, inProgress, currentLabel, onContinue, onReview, onStartUnit, onSettings, onChooseTopic, lockedByOf, onGrammarNote, hasNote, showPoints, scores, streak, thisWeek, goal, onProgress, canPractice, onPractice, onWords, onVerbs, onMake, checkpoints, onCheckpoint }) {
   const [picked, setPicked] = useState(null)
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-4 pt-[max(1rem,env(safe-area-inset-top))]">
@@ -113,10 +113,11 @@ export default function Home({ rows, points, pointsTotal, bankSize, inProgress, 
         {showPoints && (streak > 1 || goal) && <span>{[streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ')}</span>}
       </button>
 
-      <div className="flex items-center justify-center gap-2">
+      <div className="grid w-full grid-cols-2 gap-2 [&>button]:whitespace-nowrap [&>button]:px-2">
         <button onClick={onPractice} disabled={!canPractice} className="btn-secondary min-h-10 px-4 text-sm">Practice weak skills</button>
         <button onClick={onWords} className="btn-secondary min-h-10 px-4 text-sm">Words</button>
         <button onClick={onVerbs} className="btn-secondary min-h-10 px-4 text-sm">Verbs</button>
+        <button onClick={onMake} className="btn-secondary min-h-10 px-4 text-sm">Make</button>
       </div>
 
       {/* The tree: rows of one, two or three units, top to bottom. */}
