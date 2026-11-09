@@ -40,5 +40,61 @@
     "unit_id": "U100",
     "unlocks_after": "row 3",
     "notes": "choose your topic: one of the topic packs (is_topic_pick yes)"
+  },
+  {
+    "row": 5,
+    "position": 1,
+    "unit_id": "U06",
+    "unlocks_after": "row 3",
+    "notes": "opens after row 3: Your topic (row 4) is optional"
+  },
+  {
+    "row": 5,
+    "position": 2,
+    "unit_id": "U07",
+    "unlocks_after": "row 3",
+    "notes": "opens after row 3: Your topic (row 4) is optional"
+  },
+  {
+    "row": 6,
+    "position": 1,
+    "unit_id": "U08",
+    "unlocks_after": "row 5",
+    "notes": ""
+  },
+  {
+    "row": 6,
+    "position": 2,
+    "unit_id": "U09",
+    "unlocks_after": "row 5",
+    "notes": ""
+  },
+  {
+    "row": 7,
+    "position": 1,
+    "unit_id": "U10",
+    "unlocks_after": "row 6",
+    "notes": ""
+  },
+  {
+    "row": 7,
+    "position": 2,
+    "unit_id": "U11",
+    "unlocks_after": "row 6",
+    "notes": ""
+  },
+  {
+    "row": 8,
+    "position": 1,
+    "unit_id": "U12",
+    "unlocks_after": "row 7",
+    "notes": ""
+  },
+  {
+    "row": 8,
+    "position": 2,
+    "unit_id": "U13",
+    "unlocks_after": "row 7",
+    "notes": ""
   }
 ]

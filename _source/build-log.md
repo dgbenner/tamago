@@ -2,6 +2,38 @@
 
 Kept under _source/autonomous-build.md. Newest phase first.
 
+## A1 units 6 to 13, unit icons, deploy pause (November 9, 2026)
+
+**Built**
+
+- Netlify deploys paused at Dan's request (50% of monthly credits): `ignore = "exit 0"` in netlify.toml skips the build on every push. Verified: the live bundle stayed index-86-Nu7X1.js after pushes.
+- Unit icons:
+  - Dan's 35 sushi images are in _source/icons/{nigiri,maki,temaki}, with 192 px webp copies in public/icons. content/icons.json lists them.
+  - scripts/assign-icons.mjs assigns by difficulty over the planned 13 A1 units: 5 nigiri, 4 maki, 4 temaki. Picks are random, used once before any repeat, and kept in content/unit-icons.json.
+  - Import fills the units' icon_group and icon_file. A tree node shows its icon; the topic node shows nothing until side art exists.
+- scripts/add-a1-units.mjs (v14 to v15) adds:
+  - U06 to U13 (Plurals, Adjectives, Possessives, Questions, Numbers, Colours, Time, Places) and words W401 to W480;
+  - tree rows 5 to 8 (row 5 after row 3), and can_do CD21 to CD52 with CEFR grid rows.
+  - Sense picks: son as the determiner, vert as the adjective, à as the preposition, gentil as "kind".
+- Pull: ID bases 7000 to 7700. Live topic packs and the topic node are no longer open to later units; the first pull had used pack words.
+- Content: 41 pulled sentences cut, 149 drafts, 32 QT09 pairs (four answer with pulled sentences), 8 grammar notes, OpenMoji pictures for six colours and five places.
+- App:
+  - checkpoints after rows 6 and 8, labelled "Units 1 to 9" for long runs;
+  - Your topic's order moved from 6 to 50, so it doesn't clash with Unit 6.
+- Workbook v16. A rebuild from it differs from v15 only in origin, status and hint_source labels.
+- Tests: 49 pass (new: every live main unit builds lessons in all five rounds). Browser runs in Chrome and Firefox covered the tree, the Unit 13 card, its note with the aller table, a lesson and placement across 13 units; all earlier regressions pass.
+
+**Decisions**
+
+- The A1 plan is 13 units, so the icon thirds don't move as units are added.
+- Gunkan (Ikura, Tobiko, Uni) went in maki, as gunkan-maki, and are listed for Dan.
+- Main units never draw on topic-pack words.
+- The cuts are listed in check-in.md by kind. Each draft is in check-in.md for the native check (now 303 sentences).
+
+**Waiting for Dan**
+
+- Side art; confirmation of the 512 px set's origin; deploy or the Cloudflare move.
+
 ## Phase 5: learner-guided content (November 9, 2026)
 
 **Built**

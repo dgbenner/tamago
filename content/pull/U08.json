@@ -1,0 +1,1512 @@
+{
+  "unit_id": "U08",
+  "pulled_at": "2026-11-09",
+  "candidates": 51,
+  "sentences": [
+    {
+      "sentence_id": "S7201",
+      "unit_id": "U08",
+      "french": "Ton ami est mon ami.",
+      "english": "Your friend is my friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13697908",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Orange",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7202",
+      "unit_id": "U08",
+      "french": "Je suis bien ton ami, non ?",
+      "english": "I'm your friend, right?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1818697",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I am your friend, right?"
+      ]
+    },
+    {
+      "sentence_id": "S7203",
+      "unit_id": "U08",
+      "french": "C'est mon ami.",
+      "english": "He's my friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "551908",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zmoo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7204",
+      "unit_id": "U08",
+      "french": "C'est son amie.",
+      "english": "This is her friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4472559",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sicerabibax",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7205",
+      "unit_id": "U08",
+      "french": "Elle est son amie.",
+      "english": "She is his friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "863509",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "She is her friend."
+      ]
+    },
+    {
+      "sentence_id": "S7206",
+      "unit_id": "U08",
+      "french": "C'est ma petite amie.",
+      "english": "This is my little friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3252439",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7207",
+      "unit_id": "U08",
+      "french": "Salut ma belle !",
+      "english": "Hello, beautiful!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "594147",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7208",
+      "unit_id": "U08",
+      "french": "C'est mes livres.",
+      "english": "These are my books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6393821",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7209",
+      "unit_id": "U08",
+      "french": "J'aime mes enfants.",
+      "english": "I love my children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2565310",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7210",
+      "unit_id": "U08",
+      "french": "C'est mon amie.",
+      "english": "She's my friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1650867",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "This is my friend.",
+        "She is my friend."
+      ]
+    },
+    {
+      "sentence_id": "S7211",
+      "unit_id": "U08",
+      "french": "C'est son ami.",
+      "english": "This is her friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8482273",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7212",
+      "unit_id": "U08",
+      "french": "Elle est ton amie.",
+      "english": "She's your friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1783829",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7213",
+      "unit_id": "U08",
+      "french": "Nous sommes ses enfants.",
+      "english": "We are his children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "567490",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7214",
+      "unit_id": "U08",
+      "french": "Elle aime ses enfants.",
+      "english": "She loves her children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "835063",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7215",
+      "unit_id": "U08",
+      "french": "Je mange ma pomme.",
+      "english": "I'm eating my apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5246627",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martin9",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7216",
+      "unit_id": "U08",
+      "french": "Vous êtes mes enfants.",
+      "english": "You are my children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5750248",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Petrus",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7217",
+      "unit_id": "U08",
+      "french": "Salut, mon amie !",
+      "english": "Hello, my friend!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3270739",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "Hi, my friend!"
+      ]
+    },
+    {
+      "sentence_id": "S7218",
+      "unit_id": "U08",
+      "french": "Merci mon ami.",
+      "english": "Thank you, my friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5761414",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Thomz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7219",
+      "unit_id": "U08",
+      "french": "Il est mon ami.",
+      "english": "He's my friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "132332",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "He is my friend."
+      ]
+    },
+    {
+      "sentence_id": "S7220",
+      "unit_id": "U08",
+      "french": "Elle est mon amie.",
+      "english": "She's my friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1650868",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": [
+        "She is my friend."
+      ]
+    },
+    {
+      "sentence_id": "S7221",
+      "unit_id": "U08",
+      "french": "Il est ton ami.",
+      "english": "He's your friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1783830",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7222",
+      "unit_id": "U08",
+      "french": "Mon ami est ici.",
+      "english": "My friend is here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2719361",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7223",
+      "unit_id": "U08",
+      "french": "Mon amie est ici.",
+      "english": "My friend is here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2719362",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7224",
+      "unit_id": "U08",
+      "french": "Tu es mon amie.",
+      "english": "You're my friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2749329",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "You are my friend."
+      ]
+    },
+    {
+      "sentence_id": "S7225",
+      "unit_id": "U08",
+      "french": "Je suis ton ami.",
+      "english": "I'm your friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4542971",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I am your friend."
+      ]
+    },
+    {
+      "sentence_id": "S7226",
+      "unit_id": "U08",
+      "french": "Je suis ton amie.",
+      "english": "I'm your friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4542972",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I am your friend."
+      ]
+    },
+    {
+      "sentence_id": "S7227",
+      "unit_id": "U08",
+      "french": "Ton ami est ici.",
+      "english": "Your friend is here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9159560",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7228",
+      "unit_id": "U08",
+      "french": "Ton amie est ici.",
+      "english": "Your friend is here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9185311",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7229",
+      "unit_id": "U08",
+      "french": "C'est mon livre.",
+      "english": "It's my book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "334358",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "TRANG",
+      "other_english": [
+        "That is my book.",
+        "This is my book.",
+        "The book is mine.",
+        "That book is mine."
+      ]
+    },
+    {
+      "sentence_id": "S7230",
+      "unit_id": "U08",
+      "french": "Voici ton chien.",
+      "english": "This is your dog.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "461255",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "Here is your dog."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S7201",
+      "position": 1,
+      "surface": "Ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7201",
+      "position": 2,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7201",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7201",
+      "position": 4,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7201",
+      "position": 5,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7202",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7202",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7202",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7202",
+      "position": 4,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7202",
+      "position": 5,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7202",
+      "position": 6,
+      "surface": "non",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7203",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7203",
+      "position": 2,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7203",
+      "position": 3,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7204",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7204",
+      "position": 2,
+      "surface": "son",
+      "word_id": "W427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7204",
+      "position": 3,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7205",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7205",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7205",
+      "position": 3,
+      "surface": "son",
+      "word_id": "W427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7205",
+      "position": 4,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7206",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7206",
+      "position": 2,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7206",
+      "position": 3,
+      "surface": "petite",
+      "word_id": "W204",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7206",
+      "position": 4,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7207",
+      "position": 1,
+      "surface": "Salut",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7207",
+      "position": 2,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7207",
+      "position": 3,
+      "surface": "belle",
+      "word_id": "W414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7208",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7208",
+      "position": 2,
+      "surface": "mes",
+      "word_id": "W423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7208",
+      "position": 3,
+      "surface": "livres",
+      "word_id": "W404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7209",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7209",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7209",
+      "position": 3,
+      "surface": "mes",
+      "word_id": "W423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7209",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7210",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7210",
+      "position": 2,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7210",
+      "position": 3,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7211",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7211",
+      "position": 2,
+      "surface": "son",
+      "word_id": "W427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7211",
+      "position": 3,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7212",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7212",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7212",
+      "position": 3,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7212",
+      "position": 4,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7213",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7213",
+      "position": 2,
+      "surface": "sommes",
+      "word_id": "W403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7213",
+      "position": 3,
+      "surface": "ses",
+      "word_id": "W429",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7213",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7214",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7214",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7214",
+      "position": 3,
+      "surface": "ses",
+      "word_id": "W429",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7214",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7215",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7215",
+      "position": 2,
+      "surface": "mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7215",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7215",
+      "position": 4,
+      "surface": "pomme",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7216",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7216",
+      "position": 2,
+      "surface": "êtes",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7216",
+      "position": 3,
+      "surface": "mes",
+      "word_id": "W423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7216",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7217",
+      "position": 1,
+      "surface": "Salut",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7217",
+      "position": 2,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7217",
+      "position": 3,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7218",
+      "position": 1,
+      "surface": "Merci",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7218",
+      "position": 2,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7218",
+      "position": 3,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7219",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7219",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7219",
+      "position": 3,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7219",
+      "position": 4,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7220",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7220",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7220",
+      "position": 3,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7220",
+      "position": 4,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7221",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7221",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7221",
+      "position": 3,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7221",
+      "position": 4,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7222",
+      "position": 1,
+      "surface": "Mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7222",
+      "position": 2,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7222",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7222",
+      "position": 4,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7223",
+      "position": 1,
+      "surface": "Mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7223",
+      "position": 2,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7223",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7223",
+      "position": 4,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7224",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7224",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7224",
+      "position": 3,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7224",
+      "position": 4,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7225",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7225",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7225",
+      "position": 3,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7225",
+      "position": 4,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7226",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7226",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7226",
+      "position": 3,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7226",
+      "position": 4,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7227",
+      "position": 1,
+      "surface": "Ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7227",
+      "position": 2,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7227",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7227",
+      "position": 4,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7228",
+      "position": 1,
+      "surface": "Ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7228",
+      "position": 2,
+      "surface": "amie",
+      "word_id": "W431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7228",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7228",
+      "position": 4,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7229",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7229",
+      "position": 2,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7229",
+      "position": 3,
+      "surface": "livre",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7230",
+      "position": 1,
+      "surface": "Voici",
+      "word_id": "W205",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7230",
+      "position": 2,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7230",
+      "position": 3,
+      "surface": "chien",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A72021",
+      "sentence_id": "S7202",
+      "direction": "fr_to_en",
+      "answer": "I am your friend, right?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72051",
+      "sentence_id": "S7205",
+      "direction": "fr_to_en",
+      "answer": "She is her friend.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72101",
+      "sentence_id": "S7210",
+      "direction": "fr_to_en",
+      "answer": "This is my friend.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72102",
+      "sentence_id": "S7210",
+      "direction": "fr_to_en",
+      "answer": "She is my friend.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72171",
+      "sentence_id": "S7217",
+      "direction": "fr_to_en",
+      "answer": "Hi, my friend!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72191",
+      "sentence_id": "S7219",
+      "direction": "fr_to_en",
+      "answer": "He is my friend.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72201",
+      "sentence_id": "S7220",
+      "direction": "fr_to_en",
+      "answer": "She is my friend.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72241",
+      "sentence_id": "S7224",
+      "direction": "fr_to_en",
+      "answer": "You are my friend.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72251",
+      "sentence_id": "S7225",
+      "direction": "fr_to_en",
+      "answer": "I am your friend.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72261",
+      "sentence_id": "S7226",
+      "direction": "fr_to_en",
+      "answer": "I am your friend.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72291",
+      "sentence_id": "S7229",
+      "direction": "fr_to_en",
+      "answer": "That is my book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72292",
+      "sentence_id": "S7229",
+      "direction": "fr_to_en",
+      "answer": "This is my book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72293",
+      "sentence_id": "S7229",
+      "direction": "fr_to_en",
+      "answer": "The book is mine.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72294",
+      "sentence_id": "S7229",
+      "direction": "fr_to_en",
+      "answer": "That book is mine.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A72301",
+      "sentence_id": "S7230",
+      "direction": "fr_to_en",
+      "answer": "Here is your dog.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

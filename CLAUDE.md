@@ -1,6 +1,6 @@
 # Tamago
 
-French learning app, installable web app, mobile first. React, Vite, Tailwind v4. No backend except two Netlify Functions (explain.mjs for Claude explaining mistakes, generate.mjs for Claude-written practice; both off until TAMAGO_ANTHROPIC_API_KEY is set in Netlify; never fall back to a generic ANTHROPIC_API_KEY, which Dan's Netlify account already holds for something else). A push to main deploys.
+French learning app, installable web app, mobile first. React, Vite, Tailwind v4. No backend except two Netlify Functions (explain.mjs for Claude explaining mistakes, generate.mjs for Claude-written practice; both off until TAMAGO_ANTHROPIC_API_KEY is set in Netlify; never fall back to a generic ANTHROPIC_API_KEY, which Dan's Netlify account already holds for something else). Deploys are PAUSED (Dan, 2026-11-09): netlify.toml has ignore = "exit 0", so pushes reach GitHub only. Remove it only when Dan says; hosting moves to Cloudflare later.
 
 Specs are in `_source/`: tamago-feature-list.md (what), build-phases.md (order of work), question-types.md (question logic), tamago-data-v4.xlsx (all content; lesson_rules tab holds R01 to R16), learning-methods.md (why), tamago-phase0-decisions.xlsx (decision log).
 The workbook is edited outside this repo and gets reissued. Never edit it here, and never write check results into it. A new version goes in `_source/` and becomes the default path in `scripts/import.mjs`.
@@ -38,6 +38,7 @@ Choices the specs left open, easy to change:
 - Topic packs (is_topic_pick yes) sit behind the Your topic node (U100, is_topic_pick node); one is chosen at a time (kv topic_choice), each keeps its progress, and none draws on another. Packs stay out of placement, checkpoints and scores until chosen or started. QT09 in a unit without question pairs takes the phase1_fallbacks rows marked "no question pairs".
 - Claude's hints go in decisions.claude_hints with their source; Dan's stay in decisions.hints.
 - Make your own (Phase 5): Claude-written French is re-split with scripts/lib/french.mjs against the learner's met words and dropped if any word is outside them; generated sessions (kind generated) stay out of FSRS, the review bank and the skill tally.
+- Unit icons: Dan's sushi art in _source/icons, by difficulty over the 13 A1 units (scripts/assign-icons.mjs, picks kept in content/unit-icons.json). Main units never draw on topic-pack words (pull-units opened set).
 - Lessons per round: enough to cover every live sentence (`lessonsInRound`), currently see `lessonsInRound`. A round can run past its count only if a sentence or word hasn't appeared yet.
 - New words arrive in the order the workbook's sentences first use them. Early lessons have few usable sentences, so one may appear twice, in different types.
 - First sight on match pairs: tapping a new word shows its meaning below the grid. Other types show it under the sentence.

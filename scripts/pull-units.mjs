@@ -15,7 +15,7 @@ const MIN_WORDS = 2, MAX_WORDS = 7 // P03
 const TARGET_MIN = 30, TARGET_MAX = 40, PER_WORD = 3 // P04
 const GRAMMAR_MIN = 10, CONTRAST_MIN = 2 // P05
 const QUESTIONS_MIN = 4 // P06
-const ID_BASE = { U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600 }
+const ID_BASE = { U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600, U06: 7000, U07: 7100, U08: 7200, U09: 7300, U10: 7400, U11: 7500, U12: 7600, U13: 7700 }
 // A topic pack (is_topic_pick yes) is one node: a smaller target, and it draws only on Units 1 to 5 plus its own words.
 const isPack = (u) => u.is_topic_pick === 'yes'
 const PACK_TARGET = 15
@@ -78,7 +78,8 @@ const taken = new Set(raw('sentences').filter((s) => !(s.origin === 'pull' && re
 const report = ['# Units 2 to 5: sentences pulled from Tatoeba', '',
   'Proposed under the workbook\'s content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.', '']
 
-const opened = new Set(units.filter((u) => String(u.status).startsWith('live')).map((u) => u.unit_id))
+// Live units open to every later unit, except the topic packs and the topic node: a pack is one optional choice.
+const opened = new Set(units.filter((u) => String(u.status).startsWith('live') && !['yes', 'node'].includes(u.is_topic_pick)).map((u) => u.unit_id))
 for (const u of units) {
   if (u.is_topic_pick === 'node') continue
   const allowed = new Set([...opened, u.unit_id])

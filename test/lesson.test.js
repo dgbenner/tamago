@@ -298,3 +298,19 @@ test('choices across all units are distinct, even where sentences share an Engli
     if (q?.choices) assert.equal(new Set(q.choices).size, q.choices.length, `${s.sentence_id} ${q.choices}`)
   }
 })
+
+test('every live main unit builds lessons in all five rounds, from a learner who has finished the units before it', () => {
+  const main = tables.units.filter((u) => String(u.status).startsWith('live') && !['yes', 'node'].includes(u.is_topic_pick)).sort((a, b) => a.order - b.order)
+  assert.ok(main.length >= 13)
+  for (const u of main) {
+    const uc = contentForUnit(tables, u.unit_id)
+    const before = new Set(tables.words.filter((w) => main.some((m) => m.order < u.order && m.unit_id === w.first_unit)).map((w) => w.word_id))
+    for (let round = 1; round <= 5; round++) {
+      assert.ok(lessonsInRound(uc, round) >= 1, `${u.unit_id} round ${round}`)
+      for (let seed = 1; seed <= 6; seed++) {
+        const l = buildLesson(uc, { round, known: round === 1 ? before : new Set([...before, ...uc.wordOrder]), unit_id: u.unit_id, rng: seeded(seed * round) })
+        assert.equal(l.queue.length, 10, `${u.unit_id} round ${round}`)
+      }
+    }
+  }
+})

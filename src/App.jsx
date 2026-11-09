@@ -304,7 +304,7 @@ export default function App() {
 
   // Review checkpoints (Phase 3): after rows 2 and 3, a review of every unit above. Open once those units have
   // finished round 1; passing marks it done. It never locks anything.
-  const checkpointRows = [2, 3].filter((r) => layout.some((t) => t.row === r))
+  const checkpointRows = [2, 3, 6, 8].filter((r) => layout.some((t) => t.row === r))
   const unitsUpTo = (row) => layout.filter((t) => t.row <= row && t.unit_id !== topicNode?.unit_id).map((t) => t.unit_id)
   const startCheckpoint = (row) => {
     const ids = unitsUpTo(row).flatMap(itemsOf)
@@ -614,7 +614,7 @@ export default function App() {
       scores={scores} streak={streak} thisWeek={thisWeek} goal={goal} onProgress={() => setScreen('progress')}
       canPractice={weakest(openUnits.flatMap(itemsOf), cards, 1).length > 0} onPractice={startPractice}
       onWords={() => setScreen('words')} onVerbs={() => setScreen('verbs')} onMake={openMakeScreen}
-      checkpoints={checkpointRows.map((row) => ({ afterRow: row, label: `Units ${unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).order).join(', ')}`, available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null }))}
+      checkpoints={checkpointRows.map((row) => ({ afterRow: row, label: ((ns) => (ns.length > 3 ? `Units ${ns[0]} to ${ns[ns.length - 1]}` : `Units ${ns.join(', ')}`))(unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).order).sort((p, q) => p - q)), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null }))}
       onCheckpoint={startCheckpoint}
       inProgress={Boolean(session)}
       currentLabel={cur.round_reached >= 5 ? 'Practice' : 'Continue'} lockedByOf={lockedByOf}

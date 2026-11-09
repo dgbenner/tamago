@@ -1,0 +1,1203 @@
+{
+  "unit_id": "U10",
+  "pulled_at": "2026-11-09",
+  "candidates": 23,
+  "sentences": [
+    {
+      "sentence_id": "S7401",
+      "unit_id": "U10",
+      "french": "Nous sommes deux.",
+      "english": "We are in two.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1111295",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7402",
+      "unit_id": "U10",
+      "french": "Il a deux chiens.",
+      "english": "He has two dogs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "131971",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7403",
+      "unit_id": "U10",
+      "french": "Il a un chien et six chats.",
+      "english": "He has a dog and six cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "131969",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "He has one dog and six cats."
+      ]
+    },
+    {
+      "sentence_id": "S7404",
+      "unit_id": "U10",
+      "french": "J'ai deux enfants.",
+      "english": "I have two children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "678964",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sysko",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7405",
+      "unit_id": "U10",
+      "french": "C'est combien ?",
+      "english": "How much is that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5281900",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tras",
+      "other_english": [
+        "How much is it?",
+        "How much is this?"
+      ]
+    },
+    {
+      "sentence_id": "S7406",
+      "unit_id": "U10",
+      "french": "Vous êtes combien ?",
+      "english": "How many are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1966332",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7407",
+      "unit_id": "U10",
+      "french": "C'est neuf.",
+      "english": "It's new.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "822114",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "U2FS",
+      "other_english": [
+        "It is new.",
+        "This is new."
+      ]
+    },
+    {
+      "sentence_id": "S7408",
+      "unit_id": "U10",
+      "french": "Nous sommes trois.",
+      "english": "There are three of us.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4551161",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7409",
+      "unit_id": "U10",
+      "french": "Nous sommes sept.",
+      "english": "There are seven of us.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7862444",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7410",
+      "unit_id": "U10",
+      "french": "J'ai trois chiens.",
+      "english": "I have three dogs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "823226",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7411",
+      "unit_id": "U10",
+      "french": "Elle a trois enfants.",
+      "english": "She has three children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2200498",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7412",
+      "unit_id": "U10",
+      "french": "J'ai cinq chats.",
+      "english": "I have five cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6734173",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GB3",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7413",
+      "unit_id": "U10",
+      "french": "J'ai quatre enfants.",
+      "english": "I have four children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9159685",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7414",
+      "unit_id": "U10",
+      "french": "J'ai deux chats.",
+      "english": "I have two cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2982659",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7415",
+      "unit_id": "U10",
+      "french": "J'aime deux filles.",
+      "english": "I like two girls.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5600981",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7416",
+      "unit_id": "U10",
+      "french": "Elle a deux enfants.",
+      "english": "She has two children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10960054",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7417",
+      "unit_id": "U10",
+      "french": "Tu as deux enfants.",
+      "english": "You have two children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11544021",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "You've got two children."
+      ]
+    },
+    {
+      "sentence_id": "S7418",
+      "unit_id": "U10",
+      "french": "J'ai un chien et deux chats.",
+      "english": "I have a dog and two cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6575",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sysko",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7419",
+      "unit_id": "U10",
+      "french": "Il a un chat et deux chiens.",
+      "english": "He has a cat and two dogs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "131293",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7420",
+      "unit_id": "U10",
+      "french": "J'ai trois enfants.",
+      "english": "I have three children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3589312",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7421",
+      "unit_id": "U10",
+      "french": "J'ai trois chats.",
+      "english": "I have three cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6813334",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "I own three cats."
+      ]
+    },
+    {
+      "sentence_id": "S7422",
+      "unit_id": "U10",
+      "french": "Tu as trois enfants.",
+      "english": "You have three children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11544059",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "You've got three children."
+      ]
+    },
+    {
+      "sentence_id": "S7423",
+      "unit_id": "U10",
+      "french": "Elle a un chat et deux chiens.",
+      "english": "She has a cat and two dogs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3293867",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "steve",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S7401",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7401",
+      "position": 2,
+      "surface": "sommes",
+      "word_id": "W403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7401",
+      "position": 3,
+      "surface": "deux",
+      "word_id": "W440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7402",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7402",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7402",
+      "position": 3,
+      "surface": "deux",
+      "word_id": "W440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7402",
+      "position": 4,
+      "surface": "chiens",
+      "word_id": "W407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7403",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7403",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7403",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7403",
+      "position": 4,
+      "surface": "chien",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7403",
+      "position": 5,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7403",
+      "position": 6,
+      "surface": "six",
+      "word_id": "W444",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7403",
+      "position": 7,
+      "surface": "chats",
+      "word_id": "W406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7404",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7404",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7404",
+      "position": 3,
+      "surface": "deux",
+      "word_id": "W440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7404",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7405",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7405",
+      "position": 2,
+      "surface": "combien",
+      "word_id": "W449",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7406",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7406",
+      "position": 2,
+      "surface": "êtes",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7406",
+      "position": 3,
+      "surface": "combien",
+      "word_id": "W449",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7407",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7407",
+      "position": 2,
+      "surface": "neuf",
+      "word_id": "W447",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7408",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7408",
+      "position": 2,
+      "surface": "sommes",
+      "word_id": "W403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7408",
+      "position": 3,
+      "surface": "trois",
+      "word_id": "W441",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7409",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7409",
+      "position": 2,
+      "surface": "sommes",
+      "word_id": "W403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7409",
+      "position": 3,
+      "surface": "sept",
+      "word_id": "W445",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7410",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7410",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7410",
+      "position": 3,
+      "surface": "trois",
+      "word_id": "W441",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7410",
+      "position": 4,
+      "surface": "chiens",
+      "word_id": "W407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7411",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7411",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7411",
+      "position": 3,
+      "surface": "trois",
+      "word_id": "W441",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7411",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7412",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7412",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7412",
+      "position": 3,
+      "surface": "cinq",
+      "word_id": "W443",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7412",
+      "position": 4,
+      "surface": "chats",
+      "word_id": "W406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7413",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7413",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7413",
+      "position": 3,
+      "surface": "quatre",
+      "word_id": "W442",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7413",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7414",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7414",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7414",
+      "position": 3,
+      "surface": "deux",
+      "word_id": "W440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7414",
+      "position": 4,
+      "surface": "chats",
+      "word_id": "W406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7415",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7415",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7415",
+      "position": 3,
+      "surface": "deux",
+      "word_id": "W440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7415",
+      "position": 4,
+      "surface": "filles",
+      "word_id": "W032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7416",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7416",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7416",
+      "position": 3,
+      "surface": "deux",
+      "word_id": "W440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7416",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7417",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7417",
+      "position": 2,
+      "surface": "as",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7417",
+      "position": 3,
+      "surface": "deux",
+      "word_id": "W440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7417",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7418",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7418",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7418",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7418",
+      "position": 4,
+      "surface": "chien",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7418",
+      "position": 5,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7418",
+      "position": 6,
+      "surface": "deux",
+      "word_id": "W440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7418",
+      "position": 7,
+      "surface": "chats",
+      "word_id": "W406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7419",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7419",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7419",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7419",
+      "position": 4,
+      "surface": "chat",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7419",
+      "position": 5,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7419",
+      "position": 6,
+      "surface": "deux",
+      "word_id": "W440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7419",
+      "position": 7,
+      "surface": "chiens",
+      "word_id": "W407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7420",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7420",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7420",
+      "position": 3,
+      "surface": "trois",
+      "word_id": "W441",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7420",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7421",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7421",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7421",
+      "position": 3,
+      "surface": "trois",
+      "word_id": "W441",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7421",
+      "position": 4,
+      "surface": "chats",
+      "word_id": "W406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7422",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7422",
+      "position": 2,
+      "surface": "as",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7422",
+      "position": 3,
+      "surface": "trois",
+      "word_id": "W441",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7422",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7423",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7423",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7423",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7423",
+      "position": 4,
+      "surface": "chat",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7423",
+      "position": 5,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7423",
+      "position": 6,
+      "surface": "deux",
+      "word_id": "W440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7423",
+      "position": 7,
+      "surface": "chiens",
+      "word_id": "W407",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A74031",
+      "sentence_id": "S7403",
+      "direction": "fr_to_en",
+      "answer": "He has one dog and six cats.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A74051",
+      "sentence_id": "S7405",
+      "direction": "fr_to_en",
+      "answer": "How much is it?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A74052",
+      "sentence_id": "S7405",
+      "direction": "fr_to_en",
+      "answer": "How much is this?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A74071",
+      "sentence_id": "S7407",
+      "direction": "fr_to_en",
+      "answer": "It is new.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A74072",
+      "sentence_id": "S7407",
+      "direction": "fr_to_en",
+      "answer": "This is new.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A74171",
+      "sentence_id": "S7417",
+      "direction": "fr_to_en",
+      "answer": "You've got two children.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A74211",
+      "sentence_id": "S7421",
+      "direction": "fr_to_en",
+      "answer": "I own three cats.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A74221",
+      "sentence_id": "S7422",
+      "direction": "fr_to_en",
+      "answer": "You've got three children.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

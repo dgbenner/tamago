@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 9, 2026, afternoon. Working on new A1 units after Unit 5, plus unit icons. Phases 2a to 5 are built; the details are in the build log.
+Updated November 9, 2026, evening. A1 is now complete at 13 units, with icons. Nothing has been deployed; it's all local and on GitHub. Phases 2a to 5 are built; the details are in the build log.
 
 ## Done since last check-in
 
@@ -8,10 +8,18 @@ Updated November 9, 2026, afternoon. Working on new A1 units after Unit 5, plus 
 - **Unit icons from your sushi art.** All 35 files are copied into _source/icons and sorted into nigiri (26), maki (6) and temaki (3). App-sized copies (192 px) are in public/icons.
   - The A1 tree is planned at 13 units: Units 1 to 5 get nigiri, 6 to 9 maki, 10 to 13 temaki. Each pick is random, made once per unit, then kept (content/unit-icons.json).
   - The tree shows the icon in place of the unit number. Locally only, for now.
-- **New units:** in progress, listed below as they land.
+- **A1 units 6 to 13** (local and on GitHub, not live):
+  - Plurals, Adjectives, Possessives, Questions, Numbers, Colours, Time and Places, in the old Duolingo order, two per tree row. Row 5 opens after row 3, so Your topic stays optional.
+  - Each unit has 35 to 49 sentences, every new word in at least 3, four question-and-answer pairs, a grammar note (verb tables from Wiktionary: être, aller), four "I can" statements checked against the CEFR A1 grid, and pictures for colours and places.
+  - The course is 693 sentences now: 390 from Tatoeba and 303 written for Tamago.
+  - New review checkpoints after rows 6 and 8, with shorter labels ("Units 1 to 9").
+- **Workbook v16** holds all of it. Rebuilding from v16 alone gives the same app, apart from labels.
 
 ## Decisions made
 
+- **Cuts:** 41 pulled sentences, for idioms ("un vieux de la vieille", "Ça va bien maintenant !"), misleading senses ("ma petite amie" glossed as "my little friend", "C'est neuf." meaning new, "un bleu" meaning a bruise or a freshman, "tu suis" from suivre), odd lines ("We are in two") and one typo ("Il va a l'école").
+- **No topic words in the main units:** the first pull drew words from the live topic packs (famille, café, maison…). I fixed the pull so main units never use a pack's words, since a pack is one optional choice.
+- **Drafts:** 149 for these units, to bring every word to 3 sentences and give each unit four question pairs. One turned out to be on Tatoeba and became a Tatoeba row; one duplicated Unit 4, so its question now points at the Unit 4 sentence.
 - **Gunkan in maki:** Ikura, Tobiko and Uni are gunkan ("battleship") sushi. I've put them in maki, since gunkan-maki is traditionally counted as a maki. Say if you'd rather they go elsewhere.
 - **A repeated temaki:** there are three temaki pictures for four units, so Units 11 and 13 share one. More temaki art would remove the repeat.
 - **No side icons yet:** Your topic, the review checkpoints and Make keep no icon until side art arrives. Your topic no longer shows a number, so it doesn't clash with the new Unit 6. Its order moved from 6 to 50 in the workbook.
@@ -34,7 +42,7 @@ Updated November 9, 2026, afternoon. Working on new A1 units after Unit 5, plus 
    4. Save and deploy. The site gets an address like https://tamago-xxx.pages.dev.
    5. When you want the Claude features: under Settings, Variables and secrets, add TAMAGO_ANTHROPIC_API_KEY as a secret.
    6. Then tell me the address and I'll check it end to end. After that, Netlify can be unlinked (Site configuration, Build and deploy, Link repository), or the site deleted. That's your call.
-3. **Native-speaker check.** Arrange the person. On their phone they open https://tamago-590.netlify.app, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
+3. **Native-speaker check (now 303 sentences: 18 in Unit 1 and the 285 drafts listed below).** Arrange the person. On their phone they open https://tamago-590.netlify.app, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
 4. **Claude explanations and Claude-written practice (costs money, needs your API key).** One key turns on both.
    1. In the Anthropic Console (https://console.anthropic.com), create an API key.
    2. In Netlify (https://app.netlify.com), open the site tamago-590, then Site configuration, then Environment variables. Add TAMAGO_ANTHROPIC_API_KEY with the key as its value. Use a key made for Tamago: your Netlify account already has an ANTHROPIC_API_KEY (from another project, I assume), and Tamago deliberately ignores it. For about two minutes after the first Phase 4 deploy the function would have used that shared key; it was only reachable after a wrong typed answer on the live site, and the fix went live right after.
@@ -47,6 +55,8 @@ Updated November 9, 2026, afternoon. Working on new A1 units after Unit 5, plus 
    - Hosting: the Netlify badge can't be hidden; moving to Cloudflare Pages needs your account.
 
 ## Drafted sentences
+
+Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't listed.
 
 **U02 Basics 2** (23)
 
@@ -125,6 +135,179 @@ Updated November 9, 2026, afternoon. Working on new A1 units after Unit 5, plus 
 - S5110 J'ai une tortue et un oiseau. = I have a tortoise and a bird.
 - S5111 Le canard mange. = The duck is eating.
 - S5112 La souris est petite. = The mouse is small.
+
+**U06 Plurals** (23)
+
+- S7051 J'ai des livres. = I have books.
+- S7052 Les livres sont ici. = The books are here.
+- S7053 Voici les livres. = Here are the books.
+- S7054 J'ai des lettres. = I have letters.
+- S7055 Les lettres sont ici. = The letters are here.
+- S7056 Voici des lettres. = Here are some letters.
+- S7057 Voici les chats. = Here are the cats.
+- S7058 Il mange des pommes. = He's eating apples.
+- S7059 J'aime les pommes. = I like apples.
+- S7060 Voici des pommes. = Here are some apples.
+- S7061 J'ai des oiseaux. = I have birds.
+- S7062 Les oiseaux sont ici. = The birds are here.
+- S7063 J'aime les oiseaux. = I like birds.
+- S7064 Voici les chevaux. = Here are the horses.
+- S7065 J'aime les chevaux. = I like horses.
+- S7066 Vous êtes des enfants ? = Are you children? (QT09 question)
+- S7067 Non, nous sommes des hommes. = No, we are men. (QT09 answer)
+- S7068 Tu as des chats ? = Do you have cats? (QT09 question)
+- S7069 Oui, j'ai des chats. = Yes, I have cats. (QT09 answer)
+- S7070 Les chiens sont ici ? = Are the dogs here? (QT09 question)
+- S7071 Oui, les chiens sont ici. = Yes, the dogs are here. (QT09 answer)
+- S7072 Tu manges des pommes ? = Are you eating apples? (QT09 question)
+- S7073 Non, je mange du pain. = No, I'm eating bread. (QT09 answer)
+
+**U07 Adjectives** (11)
+
+- S7151 Le cheval est vieux. = The horse is old.
+- S7153 Il est très vieux. = He is very old.
+- S7154 C'est une vieille lettre. = It's an old letter.
+- S7155 Le pain est bon ? = Is the bread good? (QT09 question)
+- S7156 Oui, le pain est très bon. = Yes, the bread is very good. (QT09 answer)
+- S7157 Elle est gentille ? = Is she nice? (QT09 question)
+- S7158 Oui, elle est très gentille. = Yes, she's very nice. (QT09 answer)
+- S7159 Le chien est vieux ? = Is the dog old? (QT09 question)
+- S7160 Non, il est jeune. = No, he's young. (QT09 answer)
+- S7161 La pomme est bonne ? = Is the apple good? (QT09 question)
+- S7162 Oui, elle est très bonne. = Yes, it's very good. (QT09 answer)
+
+**U08 Possessives** (22)
+
+- S7251 C'est ma pomme. = It's my apple.
+- S7252 Voici ma lettre. = Here is my letter.
+- S7253 Ma tortue est petite. = My tortoise is small.
+- S7254 Mes chats sont ici. = My cats are here.
+- S7255 Ta pomme est ici. = Your apple is here.
+- S7256 C'est ta lettre. = It's your letter.
+- S7257 Voici ta tortue. = Here is your tortoise.
+- S7258 Tes livres sont ici. = Your books are here.
+- S7259 Voici tes lettres. = Here are your letters.
+- S7260 J'aime tes chiens. = I like your dogs.
+- S7261 Elle mange sa pomme. = She's eating her apple.
+- S7262 Il a sa lettre. = He has his letter.
+- S7263 C'est sa tortue. = It's her tortoise.
+- S7264 Il aime ses chats. = He likes his cats.
+- S7265 C'est ton chien ? = Is it your dog? (QT09 question)
+- S7266 Oui, c'est mon chien. = Yes, it's my dog. (QT09 answer)
+- S7267 C'est ta pomme ? = Is it your apple? (QT09 question)
+- S7268 Non, c'est sa pomme. = No, it's her apple. (QT09 answer)
+- S7269 Tes enfants sont ici ? = Are your children here? (QT09 question)
+- S7270 Oui, mes enfants sont ici. = Yes, my children are here. (QT09 answer)
+- S7271 Ton ami mange ? = Is your friend eating? (QT09 question)
+- S7272 Oui, mon ami mange un sandwich. = Yes, my friend is eating a sandwich. (QT09 answer)
+
+**U09 Questions** (13)
+
+- S7351 Qu'est-ce que tu manges ? = What are you eating?
+- S7352 Quel livre ? = Which book?
+- S7353 Quelle pomme ? = Which apple?
+- S7354 Quelle lettre est ici ? = Which letter is here?
+- S7355 Je mange parce que j'aime le pain. = I'm eating because I like bread.
+- S7356 Il est ici parce que tu es ici. = He is here because you are here.
+- S7357 Où est le chat ? = Where is the cat? (QT09 question)
+- S7358 Le chat est ici. = The cat is here. (QT09 answer)
+- S7359 Qui est ici ? = Who is here? (QT09 question)
+- S7360 Paul est ici. = Paul is here. (QT09 answer)
+- S7361 Qu'est-ce que tu aimes ? = What do you like? (QT09 question)
+- S7363 Est-ce que tu as un chien ? = Do you have a dog? (QT09 question)
+- S7364 Oui, j'ai un chien. = Yes, I have a dog. (QT09 answer)
+
+**U10 Numbers** (20)
+
+- S7451 J'ai quatre chats. = I have four cats.
+- S7452 Il a quatre livres. = He has four books.
+- S7453 Elle a cinq livres. = She has five books.
+- S7454 Nous sommes cinq. = There are five of us. (QT09 answer)
+- S7455 J'ai six pommes. = I have six apples.
+- S7456 Elle a six oiseaux. = She has six birds.
+- S7457 Il a sept chats. = He has seven cats.
+- S7458 J'ai sept livres. = I have seven books. (QT09 answer)
+- S7459 J'ai huit pommes. = I have eight apples.
+- S7460 Il a huit chiens. = He has eight dogs. (QT09 answer)
+- S7461 Nous sommes huit. = There are eight of us.
+- S7462 J'ai neuf livres. = I have nine books.
+- S7463 Elle a neuf chats. = She has nine cats.
+- S7464 Nous sommes neuf. = There are nine of us.
+- S7465 J'ai dix pommes. = I have ten apples.
+- S7466 Il a dix oiseaux. = He has ten birds.
+- S7467 Nous sommes dix. = There are ten of us.
+- S7468 Tu as combien de chats ? = How many cats do you have? (QT09 question)
+- S7470 Il a combien de chiens ? = How many dogs does he have? (QT09 question)
+- S7472 Tu as combien de livres ? = How many books do you have? (QT09 question)
+
+**U11 Colours** (23)
+
+- S7551 Le livre est vert. = The book is green.
+- S7552 J'ai un livre vert. = I have a green book.
+- S7553 La pomme est verte. = The apple is green.
+- S7554 C'est une pomme verte. = It's a green apple.
+- S7555 La tortue est verte. = The tortoise is green.
+- S7557 La souris est noire. = The mouse is black.
+- S7558 C'est une souris noire. = It's a black mouse.
+- S7559 Elle a une souris noire. = She has a black mouse.
+- S7560 La lettre est blanche. = The letter is white.
+- S7561 J'ai une souris blanche. = I have a white mouse.
+- S7562 La lettre est bleue. = The letter is blue.
+- S7574 C'est une lettre bleue. = It's a blue letter.
+- S7563 C'est une pomme jaune. = It's a yellow apple.
+- S7564 Le canard est jaune. = The duck is yellow.
+- S7565 J'ai un livre bleu. = I have a blue book.
+- S7566 Le chat est noir ? = Is the cat black? (QT09 question)
+- S7567 Non, il est blanc. = No, it's white. (QT09 answer)
+- S7568 La pomme est rouge ? = Is the apple red? (QT09 question)
+- S7569 Non, elle est verte. = No, it's green. (QT09 answer)
+- S7570 Le livre est bleu ? = Is the book blue? (QT09 question)
+- S7571 Non, il est jaune. = No, it's yellow. (QT09 answer)
+- S7572 La souris est blanche ? = Is the mouse white? (QT09 question)
+- S7573 Oui, elle est blanche. = Yes, it's white. (QT09 answer)
+
+**U12 Time** (22)
+
+- S7651 Demain, c'est dimanche. = Tomorrow is Sunday.
+- S7652 Demain, je mange ici. = Tomorrow I'm eating here.
+- S7653 Paul est ici demain. = Paul is here tomorrow.
+- S7654 Je mange du pain le matin. = I eat bread in the morning.
+- S7655 Le matin, je mange une pomme. = In the morning, I eat an apple.
+- S7656 Il mange le matin. = He eats in the morning.
+- S7657 Le soir, je mange du fromage. = In the evening, I eat cheese.
+- S7658 Il mange le soir. = He eats in the evening.
+- S7659 J'aime le soir. = I like the evening.
+- S7660 C'est une bonne semaine. = It's a good week.
+- S7661 Lundi est un jour de la semaine. = Monday is a day of the week.
+- S7664 Dimanche est un jour de la semaine. = Sunday is a day of the week.
+- S7662 Il est une heure. = It's one o'clock.
+- S7663 J'ai une heure. = I have an hour.
+- S7665 C'est lundi aujourd'hui ? = Is it Monday today? (QT09 question)
+- S7666 Non, aujourd'hui c'est dimanche. = No, today is Sunday. (QT09 answer)
+- S7667 Tu manges maintenant ? = Are you eating now? (QT09 question)
+- S7668 Oui, je mange maintenant. = Yes, I'm eating now. (QT09 answer)
+- S7669 Tu es ici demain ? = Are you here tomorrow? (QT09 question)
+- S7670 Oui, je suis ici demain. = Yes, I'm here tomorrow. (QT09 answer)
+- S7671 Tu manges le matin ? = Do you eat in the morning? (QT09 question)
+- S7672 Non, je mange le soir. = No, I eat in the evening. (QT09 answer)
+
+**U13 Places** (15)
+
+- S7751 La ville est grande. = The town is big.
+- S7752 Je vais au magasin. = I'm going to the shop.
+- S7753 Le magasin est petit. = The shop is small.
+- S7754 Elle va au magasin. = She's going to the shop.
+- S7755 Le chat est dans le parc. = The cat is in the park.
+- S7756 Je suis dans le magasin. = I'm in the shop.
+- S7757 Le chien est dans le restaurant. = The dog is in the restaurant.
+- S7758 Tu vas au parc ? = Are you going to the park? (QT09 question)
+- S7759 Oui, je vais au parc. = Yes, I'm going to the park. (QT09 answer)
+- S7760 Où est-ce que tu vas ? = Where are you going? (QT09 question)
+- S7761 Je vais au restaurant. = I'm going to the restaurant. (QT09 answer)
+- S7762 Il va à l'école ? = Is he going to school? (QT09 question)
+- S7763 Oui, il va à l'école. = Yes, he's going to school. (QT09 answer)
+- S7764 Où est le magasin ? = Where is the shop? (QT09 question)
+- S7765 Le magasin est dans la ville. = The shop is in the town. (QT09 answer)
 
 **U101 Weather** (7)
 

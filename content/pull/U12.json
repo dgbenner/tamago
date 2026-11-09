@@ -1,0 +1,938 @@
+{
+  "unit_id": "U12",
+  "pulled_at": "2026-11-09",
+  "candidates": 19,
+  "sentences": [
+    {
+      "sentence_id": "S7601",
+      "unit_id": "U12",
+      "french": "Aujourd'hui c'est lundi.",
+      "english": "It is Monday today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "467890",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bruno",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7602",
+      "unit_id": "U12",
+      "french": "C'est aujourd'hui dimanche.",
+      "english": "Today is Sunday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3258120",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7603",
+      "unit_id": "U12",
+      "french": "Aujourd'hui nous sommes lundi.",
+      "english": "Today, it's Monday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "467891",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bruno",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7604",
+      "unit_id": "U12",
+      "french": "Soir, ça va ?",
+      "english": "Evening! All right?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1114539",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7605",
+      "unit_id": "U12",
+      "french": "Il est maintenant l'heure.",
+      "english": "The hour is now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6579175",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GB3",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7606",
+      "unit_id": "U12",
+      "french": "Aujourd'hui, ici et maintenant.",
+      "english": "Today, here and now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3307632",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Malape",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7607",
+      "unit_id": "U12",
+      "french": "Aujourd'hui est un bon jour.",
+      "english": "Today is a good day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1288826",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7608",
+      "unit_id": "U12",
+      "french": "Aujourd'hui est un beau jour.",
+      "english": "Today is a beautiful day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1818793",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "It's a fine day today."
+      ]
+    },
+    {
+      "sentence_id": "S7609",
+      "unit_id": "U12",
+      "french": "Aujourd'hui, c'est le grand jour.",
+      "english": "Today's the big day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11572189",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7610",
+      "unit_id": "U12",
+      "french": "Et maintenant ?",
+      "english": "And now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "397571",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7611",
+      "unit_id": "U12",
+      "french": "Nous sommes lundi.",
+      "english": "It's Monday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8826",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "dominiko",
+      "other_english": [
+        "It is Monday."
+      ]
+    },
+    {
+      "sentence_id": "S7612",
+      "unit_id": "U12",
+      "french": "Tu as une heure.",
+      "english": "You have one hour.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5494801",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "You have an hour.",
+        "You've got an hour."
+      ]
+    },
+    {
+      "sentence_id": "S7613",
+      "unit_id": "U12",
+      "french": "Pourquoi maintenant ?",
+      "english": "Why now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3349350",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Blabla",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7614",
+      "unit_id": "U12",
+      "french": "Ici et maintenant.",
+      "english": "Here and now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "817736",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "U2FS",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7615",
+      "unit_id": "U12",
+      "french": "Ça va bien maintenant !",
+      "english": "Enough is enough!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6045004",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PERCE_NEIGE",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7616",
+      "unit_id": "U12",
+      "french": "C'est un grand jour.",
+      "english": "It's a great day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4188631",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "This is a great day."
+      ]
+    },
+    {
+      "sentence_id": "S7617",
+      "unit_id": "U12",
+      "french": "Tu es un grand maintenant.",
+      "english": "You're grown up now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "541610",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7618",
+      "unit_id": "U12",
+      "french": "Je suis un grand garçon maintenant.",
+      "english": "I'm a big boy now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7057257",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7619",
+      "unit_id": "U12",
+      "french": "Tu es un grand garçon maintenant.",
+      "english": "You're a big boy now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11802164",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S7601",
+      "position": 1,
+      "surface": "Aujourd'hui",
+      "word_id": "W460",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7601",
+      "position": 2,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7601",
+      "position": 3,
+      "surface": "lundi",
+      "word_id": "W468",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7602",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7602",
+      "position": 2,
+      "surface": "aujourd'hui",
+      "word_id": "W460",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7602",
+      "position": 3,
+      "surface": "dimanche",
+      "word_id": "W469",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7603",
+      "position": 1,
+      "surface": "Aujourd'hui",
+      "word_id": "W460",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7603",
+      "position": 2,
+      "surface": "nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7603",
+      "position": 3,
+      "surface": "sommes",
+      "word_id": "W403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7603",
+      "position": 4,
+      "surface": "lundi",
+      "word_id": "W468",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7604",
+      "position": 1,
+      "surface": "Soir",
+      "word_id": "W465",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7604",
+      "position": 2,
+      "surface": "ça va",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7605",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7605",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7605",
+      "position": 3,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7605",
+      "position": 4,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7605",
+      "position": 5,
+      "surface": "heure",
+      "word_id": "W467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7606",
+      "position": 1,
+      "surface": "Aujourd'hui",
+      "word_id": "W460",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7606",
+      "position": 2,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7606",
+      "position": 3,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7606",
+      "position": 4,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7607",
+      "position": 1,
+      "surface": "Aujourd'hui",
+      "word_id": "W460",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7607",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7607",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7607",
+      "position": 4,
+      "surface": "bon",
+      "word_id": "W411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7607",
+      "position": 5,
+      "surface": "jour",
+      "word_id": "W463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7608",
+      "position": 1,
+      "surface": "Aujourd'hui",
+      "word_id": "W460",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7608",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7608",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7608",
+      "position": 4,
+      "surface": "beau",
+      "word_id": "W413",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7608",
+      "position": 5,
+      "surface": "jour",
+      "word_id": "W463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7609",
+      "position": 1,
+      "surface": "Aujourd'hui",
+      "word_id": "W460",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7609",
+      "position": 2,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7609",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7609",
+      "position": 4,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7609",
+      "position": 5,
+      "surface": "jour",
+      "word_id": "W463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7610",
+      "position": 1,
+      "surface": "Et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7610",
+      "position": 2,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7611",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7611",
+      "position": 2,
+      "surface": "sommes",
+      "word_id": "W403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7611",
+      "position": 3,
+      "surface": "lundi",
+      "word_id": "W468",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7612",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7612",
+      "position": 2,
+      "surface": "as",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7612",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7612",
+      "position": 4,
+      "surface": "heure",
+      "word_id": "W467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7613",
+      "position": 1,
+      "surface": "Pourquoi",
+      "word_id": "W438",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7613",
+      "position": 2,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7614",
+      "position": 1,
+      "surface": "Ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7614",
+      "position": 2,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7614",
+      "position": 3,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7615",
+      "position": 1,
+      "surface": "Ça va",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7615",
+      "position": 2,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7615",
+      "position": 3,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7616",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7616",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7616",
+      "position": 3,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7616",
+      "position": 4,
+      "surface": "jour",
+      "word_id": "W463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7617",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7617",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7617",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7617",
+      "position": 4,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7617",
+      "position": 5,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7618",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7618",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7618",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7618",
+      "position": 4,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7618",
+      "position": 5,
+      "surface": "garçon",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7618",
+      "position": 6,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7619",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7619",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7619",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7619",
+      "position": 4,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7619",
+      "position": 5,
+      "surface": "garçon",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7619",
+      "position": 6,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A76081",
+      "sentence_id": "S7608",
+      "direction": "fr_to_en",
+      "answer": "It's a fine day today.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A76111",
+      "sentence_id": "S7611",
+      "direction": "fr_to_en",
+      "answer": "It is Monday.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A76121",
+      "sentence_id": "S7612",
+      "direction": "fr_to_en",
+      "answer": "You have an hour.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A76122",
+      "sentence_id": "S7612",
+      "direction": "fr_to_en",
+      "answer": "You've got an hour.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A76161",
+      "sentence_id": "S7616",
+      "direction": "fr_to_en",
+      "answer": "This is a great day.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

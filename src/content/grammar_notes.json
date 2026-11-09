@@ -248,5 +248,171 @@
         "source": "https://en.wiktionary.org/wiki/avoir#Conjugation"
       }
     ]
+  },
+  {
+    "unit_id": "U06",
+    "rule": "For more than one, les means the and des means some. English often leaves des out: j'ai des livres is I have books. Most nouns add an s you can't hear (un chat, des chats). Nouns ending in -eau add an x (un oiseau, des oiseaux), and most ending in -al change to -aux (un cheval, des chevaux). Nous sommes is we are.",
+    "example_sentence_ids": "S7001;S7007;S7003",
+    "conjugation_lemma": "être",
+    "status": "live",
+    "examples": [
+      "S7001",
+      "S7007",
+      "S7003"
+    ],
+    "conjugations": [
+      {
+        "lemma": "être",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "suis"
+          },
+          {
+            "person": "tu",
+            "form": "es"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "est"
+          },
+          {
+            "person": "nous",
+            "form": "sommes"
+          },
+          {
+            "person": "vous",
+            "form": "êtes"
+          },
+          {
+            "person": "ils, elles",
+            "form": "sont"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/%C3%AAtre#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U07",
+    "rule": "A describing word takes the noun's gender. Many add -e for a feminine noun: bon, bonne; gentil, gentille. A few change more: beau becomes belle, and vieux becomes vieille. Most describing words come after the noun, but short everyday ones like beau, jeune, vieux, bon, petit and grand come before it: un beau jeune homme. Très in front means very.",
+    "example_sentence_ids": "S7105;S7121;S7154",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S7105",
+      "S7121",
+      "S7154"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U08",
+    "rule": "Mon, ton and son mean my, your and his or her. They match the thing owned, not the owner: mon livre, ma pomme, mes livres. Son ami can mean his friend or her friend; French doesn't say which. Before a feminine word that starts with a vowel, mon is used instead of ma: mon amie.",
+    "example_sentence_ids": "S7201;S7215;S7214",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S7201",
+      "S7215",
+      "S7214"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U09",
+    "rule": "The simplest question is a sentence said with a rising voice: tu as un chien ? Est-ce que at the start makes a yes-or-no question without changing the sentence. Qu'est-ce que asks what, qui asks who, où asks where, and pourquoi asks why; parce que answers it. Quel goes with a masculine noun and quelle with a feminine one: quel livre, quelle pomme.",
+    "example_sentence_ids": "S7302;S7327;S7322",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S7302",
+      "S7327",
+      "S7322"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U10",
+    "rule": "Numbers come before the noun, and the noun is plural from two on: deux chats, trois enfants. Combien de asks how many: tu as combien de chats ? To say how many people are in a group, French says nous sommes trois, there are three of us.",
+    "example_sentence_ids": "S7402;S7408;S7468",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S7402",
+      "S7408",
+      "S7468"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U11",
+    "rule": "Colours come after the noun and match it: un chat noir, une souris noire. Vert, noir and bleu add -e for a feminine noun; blanc becomes blanche. Rouge and jaune already end in -e, so they stay the same.",
+    "example_sentence_ids": "S7501;S7502;S7513",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S7501",
+      "S7502",
+      "S7513"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U12",
+    "rule": "Time words often go at the start or the end of the sentence: aujourd'hui, c'est lundi. Le matin and le soir mean in the morning and in the evening. Days of the week have no capital letter in French. The present tense is used for plans too: je suis ici demain.",
+    "example_sentence_ids": "S7601;S7651;S7654",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S7601",
+      "S7651",
+      "S7654"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U13",
+    "rule": "Aller, to go, has its own forms: je vais, tu vas, il va. À means to or at. À and le join to make au: je vais au parc, but je vais à l'école. Dans means in or inside.",
+    "example_sentence_ids": "S7702;S7703;S7755",
+    "conjugation_lemma": "aller",
+    "status": "live",
+    "examples": [
+      "S7702",
+      "S7703",
+      "S7755"
+    ],
+    "conjugations": [
+      {
+        "lemma": "aller",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "vais"
+          },
+          {
+            "person": "tu",
+            "form": "vas"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "va"
+          },
+          {
+            "person": "nous",
+            "form": "allons"
+          },
+          {
+            "person": "vous",
+            "form": "allez"
+          },
+          {
+            "person": "ils, elles",
+            "form": "vont"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/aller#Conjugation"
+      }
+    ]
   }
 ]
