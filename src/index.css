@@ -73,6 +73,21 @@ body {
   color: var(--ink);
 }
 
+/* Locked like an app: the page never scrolls or bounces. #root fills the screen and scrolls only when a
+   page is taller than it (Settings, About). */
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+#root {
+  position: fixed;
+  inset: 0;
+  overflow-y: auto;
+  overscroll-behavior: none;
+}
+
 /* An app, not a page: pressing a button must never start a text selection. On iPhone that selection
    highlights the words and swallows the tap. */
 html {

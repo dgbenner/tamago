@@ -16,6 +16,7 @@ const defaults = Object.fromEntries(c.settings_defaults.map((s) => [s.setting, s
 const DEFAULT_SETTINGS = {
   answer_strictness: defaults.answer_strictness, typed_input: defaults.typed_input, listen_first: defaults.listen_first,
   theme: defaults.theme, cant_listen_until: null, cant_speak_until: null,
+  test_shortcuts: 'on', // Dan only for now; turn the default off before testers (Phase 4)
 }
 
 const paused = (until) => until === 'always' || (typeof until === 'number' && until > Date.now())
@@ -56,7 +57,8 @@ export default function App() {
     else root.setAttribute('data-theme', settings.theme)
   }, [settings.theme])
 
-  useEffect(() => { window.scrollTo(0, 0) }, [screen])
+  // The page itself never scrolls (see index.css); #root does.
+  useEffect(() => { document.getElementById('root')?.scrollTo(0, 0) }, [screen])
 
   const changeSettings = (patch) => {
     const next = { ...settings, ...patch }

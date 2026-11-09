@@ -43,20 +43,41 @@ export default function Lesson({ session, content, settings, seenWords, cantList
     else onAdvance({ ...session, index: nextIndex })
   }
 
-  // Testing only, and only in the local dev build: the right arrow marks the question correct and moves on.
-  // With an answer on screen it acts as Continue. In a field with text it stays a cursor key.
+  // Testing shortcuts (a setting): pass the question as correct, or Continue when an answer is showing.
+  // Right arrow on a keyboard; on a touch screen, a swipe left that starts on the right half.
+  // In a field with text the arrow stays a cursor key.
   useEffect(() => {
-    if (!import.meta.env.DEV) return undefined
+    if (settings.test_shortcuts !== 'on') return undefined
+    const pass = () => (result ? advance() : answer({ correct: true, testSkip: true }))
     const onKey = (e) => {
       if (e.key !== 'ArrowRight' || e.repeat || e.metaKey || e.altKey || e.ctrlKey || e.shiftKey) return
       if (e.target instanceof HTMLInputElement && e.target.value) return
       e.preventDefault()
-      if (result) advance()
-      else answer({ correct: true, testSkip: true })
+      pass()
+    }
+    let start = null
+    const onStart = (e) => {
+      const t = e.touches[0]
+      start = e.touches.length === 1 && t.clientX > window.innerWidth / 2 ? { x: t.clientX, y: t.clientY, at: Date.now() } : null
+    }
+    const onEnd = (e) => {
+      if (!start) return
+      const t = e.changedTouches[0]
+      const dx = t.clientX - start.x
+      const dy = Math.abs(t.clientY - start.y)
+      const quick = Date.now() - start.at < 700
+      start = null
+      if (dx < -70 && dy < Math.abs(dx) / 2 && quick) pass()
     }
     window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
-  }, [result, session])
+    window.addEventListener('touchstart', onStart, { passive: true })
+    window.addEventListener('touchend', onEnd, { passive: true })
+    return () => {
+      window.removeEventListener('keydown', onKey)
+      window.removeEventListener('touchstart', onStart)
+      window.removeEventListener('touchend', onEnd)
+    }
+  }, [result, session, settings.test_shortcuts])
 
   useEffect(() => {
     if (!result) return undefined
@@ -73,7 +94,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
 
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-[max(0.75rem,env(safe-area-inset-top))]">
-      <header className="flex items-center gap-3">
+      <header className="sticky top-0 z-10 -mx-4 flex items-center gap-3 bg-bg px-4 pb-2">
         <button onClick={onExit} aria-label="Leave lesson" className="icon-btn -ml-2"><IconClose /></button>
         <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-line" role="progressbar" aria-valuenow={Math.round(barMax.current * 100)} aria-valuemin={0} aria-valuemax={100}>
           <div className="h-full rounded-full bg-green" style={{ width: `${barMax.current * 100}%` }} />

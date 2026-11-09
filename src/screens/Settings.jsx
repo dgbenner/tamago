@@ -42,6 +42,8 @@ export default function Settings({ settings, onChange, onBack, onAbout }) {
         options={PAUSE_OPTIONS} onChange={(v) => onChange({ cant_listen_until: pauseUntil(v) })} />
       <Segmented label="Can't speak now" help="Speaking questions arrive in a later version." value={pauseValue(settings.cant_speak_until)}
         options={PAUSE_OPTIONS} onChange={(v) => onChange({ cant_speak_until: pauseUntil(v) })} />
+      <Segmented label="Testing shortcuts" help="Swipe left from the right side of the screen, or press the right arrow, to pass a question as correct. Passes are marked as tests." value={settings.test_shortcuts}
+        options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ test_shortcuts: v })} />
       <Segmented label="Theme" value={settings.theme} options={[['system', 'System'], ['light', 'Light'], ['dark', 'Dark']]} onChange={(v) => onChange({ theme: v })} />
       <div className="flex flex-col gap-2">
         <p className="font-medium">Sound</p>
