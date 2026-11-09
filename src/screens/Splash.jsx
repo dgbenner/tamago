@@ -8,7 +8,7 @@ const STAGGER_MS = 110
 // Shows once when the app opens, never inside a lesson. A tap skips it.
 export default function Splash({ onDone }) {
   useEffect(() => {
-    const safety = setTimeout(onDone, 2500)
+    const safety = setTimeout(onDone, 4600)
     return () => clearTimeout(safety)
   }, [])
   return (

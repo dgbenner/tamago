@@ -108,7 +108,7 @@ button {
   .btn-primary {
     @apply min-h-12 rounded-xl bg-green px-4 font-semibold text-white disabled:bg-line disabled:text-muted;
   }
-  /* The only yellow in the interface: submitting an answer. */
+  /* Yellow is the primary colour: Start or Resume on home, and Check in a lesson. */
   .btn-submit {
     @apply min-h-12 rounded-xl bg-accent px-4 font-semibold text-accent-ink disabled:bg-line disabled:text-muted;
   }
@@ -171,7 +171,7 @@ button {
   /* Opening screen: the letters draw on one after another, hold, then the screen clears. */
   .splash {
     @apply fixed inset-0 z-50 flex items-center justify-center bg-bg;
-    animation: splash-out 160ms ease-in 1100ms forwards;
+    animation: splash-out 160ms ease-in 3100ms forwards; /* drawn by about 1.1s, then held 2s more */
   }
   /* A dash longer than the stroke, offset past its end: nothing shows, not even a round cap, until it moves. */
   .splash-draw {

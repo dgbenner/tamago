@@ -43,10 +43,10 @@ Choices the specs left open, easy to change:
 
 ## Look
 
-- Yellow is only the Check button (and the sushi artwork). Green and orange fills are for things you can act on: green for primary actions and progress, orange for selected items.
+- Yellow is the primary colour: Start or Resume on home and Check in a lesson (and the sushi artwork). Green and orange fills are for things you can act on: green for Continue and progress, orange for selected items. The points chip on home is electric blue (#1f6fff), at Dan's request.
 - Indicators and tags stay muted, like a Bootstrap secondary badge: never bold, never a colour fill. The new-word tag just says "New"; a new word gets a small orange dot to its right.
-- Pages outside a lesson have the logo centred at the top.
-- The opening screen is a deliberate exception to the feature list's "no loading screens" (Dan, 2026-11-07). It stays out of lessons. The green may be adjusted later.
+- Home: the half-size lockup (sushi left, just overlapping the T) and the points chip top left, gear top right, the learning path placeholder in the middle (Dan will spec it), Review and Start or Resume pinned to the bottom. Settings and About keep the centred logo.
+- The opening screen (draws on, then holds 2 seconds) is a deliberate exception to the feature list's "no loading screens" (Dan, 2026-11-07). It stays out of lessons. The green may be adjusted later.
 
 ## Testing
 

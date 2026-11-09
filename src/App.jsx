@@ -28,6 +28,7 @@ export default function App() {
   const [bank, setBank] = useState([])
   const [progress, setProgress] = useState({ unit_id: UNIT.unit_id, round_reached: 0, lessons_done: 0 })
   const [pointsToday, setPointsToday] = useState(0)
+  const [pointsTotal, setPointsTotal] = useState(0)
   const [session, setSession] = useState(null)
   const [ending, setEnding] = useState(null)
   const [splash, setSplash] = useState(true)
@@ -42,6 +43,7 @@ export default function App() {
       const saved = s.progress.find((p) => p.unit_id === UNIT.unit_id)
       if (saved) setProgress(saved)
       setPointsToday(s.points.find((p) => p.date === today())?.amount ?? 0)
+      setPointsTotal(s.points.reduce((n, p) => n + p.amount, 0))
       if (s.kv.settings) setSettings({ ...DEFAULT_SETTINGS, ...s.kv.settings })
       seenWords.current = new Set(s.kv.seen_words ?? [])
       roundSeen.current = s.kv.round_seen ?? {}
@@ -102,6 +104,7 @@ export default function App() {
   }
 
   const addPoint = () => {
+    setPointsTotal((n) => n + 1)
     setPointsToday((n) => {
       put('points', { date: today(), amount: n + 1 })
       return n + 1
@@ -227,7 +230,7 @@ export default function App() {
   if (screen === 'settings') return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} />
   if (screen === 'about') return <About content={c} onBack={() => setScreen('settings')} />
   return (
-    <Home unit={UNIT} progress={progress} round={currentRound} lessonsInRound={Math.max(lessonsInRound(c, currentRound), progress.lessons_done + 1)} points={pointsToday}
+    <Home unit={UNIT} progress={progress} round={currentRound} lessonsInRound={Math.max(lessonsInRound(c, currentRound), progress.lessons_done + 1)} points={pointsToday} pointsTotal={pointsTotal}
       bankSize={bank.length} inProgress={session?.kind === 'lesson' || session?.kind === 'review'}
       onStart={startLesson} onReview={startReview} onSettings={() => setScreen('settings')} />
   )

@@ -31,3 +31,15 @@ export default function Logo() {
     </div>
   )
 }
+
+// Home's header lockup: the sushi to the left, at half size, just overlapping the start of the T.
+export function LogoInline() {
+  return (
+    <div className="flex items-center" role="img" aria-label="Tamago">
+      <img src="/logo.png" alt="" className="relative z-10 -mr-1.5 w-[29px]" />
+      <svg className="w-[72px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
+        {LETTERS.map((strokes, i) => <LetterStrokes key={i} d={strokes.join('')} />)}
+      </svg>
+    </div>
+  )
+}
