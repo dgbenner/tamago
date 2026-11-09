@@ -13,11 +13,20 @@ import flag_reasons from '../content/flag_reasons.json'
 import qa_answers from '../content/qa_answers.json'
 import feedback_phrases from '../content/feedback_phrases.json'
 import settings_defaults from '../content/settings_defaults.json'
-import { indexContent } from './lesson.js'
+import tree_layout from '../content/tree_layout.json'
+import { contentForUnit, indexContent } from './lesson.js'
 
 // Bundled with the app, so a lesson never waits on the network.
-export const content = indexContent({
-  units, sentences, words, sentence_words, accepted_answers, question_types, variants, rounds,
+export const tables = {
+  units, sentences, words, sentence_words, accepted_answers, question_types, variants, rounds, tree_layout,
   round_type_mix, phase1_fallbacks, cant_swaps, flag_reasons, settings_defaults, qa_answers, feedback_phrases,
-})
+}
+// Every unit at once: review, which spans units, and the About page.
+export const allContent = indexContent(tables)
+// One unit's lessons, built once per unit.
+const cache = new Map()
+export const unitContent = (unitId) => {
+  if (!cache.has(unitId)) cache.set(unitId, contentForUnit(tables, unitId))
+  return cache.get(unitId)
+}
 export const recordings = sentences.filter((s) => s.lingua_libre?.audio_file).map((s) => s.lingua_libre.audio_file)

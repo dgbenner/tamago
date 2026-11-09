@@ -54,11 +54,30 @@ export function indexContent(t) {
   return {
     ...t,
     swBySentence, vocabulary, qaByQuestion, contrast, wordOrder,
-    sentenceById: new Map(t.sentences.map((s) => [s.sentence_id, s])),
+    // QT09 answers can come from earlier units (Oui., Non.), so lookups reach every sentence.
+    sentenceById: new Map((t.allSentences ?? t.sentences).map((s) => [s.sentence_id, s])),
     wordById: new Map(t.words.map((w) => [w.word_id, w])),
     typeById: new Map(t.question_types.map((q) => [q.type_id, q])),
     roundByNumber: new Map(t.rounds.map((r) => [r.round, r])),
   }
+}
+
+// One unit's lessons (R21): its own sentences plus any it borrows (decisions: borrow), and the words of this unit
+// and the ones before it. Sentences and words of QT09 answers from other units come along for lookups.
+export function contentForUnit(t, unitId) {
+  const unit = t.units.find((u) => u.unit_id === unitId)
+  const ids = new Set([...t.sentences.filter((s) => s.unit_id === unitId).map((s) => s.sentence_id), ...(unit.borrowed_sentence_ids ?? [])])
+  const qa = t.qa_answers.filter((q) => ids.has(q.question_sentence_id))
+  const withAnswers = new Set([...ids, ...qa.map((q) => q.answer_sentence_id)])
+  const earlier = new Set(t.units.filter((u) => u.order <= unit.order).map((u) => u.unit_id))
+  return indexContent({
+    ...t, unit_id: unitId, allSentences: t.sentences,
+    sentences: t.sentences.filter((s) => ids.has(s.sentence_id)),
+    words: t.words.filter((w) => earlier.has(w.first_unit)),
+    sentence_words: t.sentence_words.filter((r) => withAnswers.has(r.sentence_id)),
+    accepted_answers: t.accepted_answers.filter((a) => ids.has(a.sentence_id)),
+    qa_answers: qa,
+  })
 }
 
 // ---------- The mix for a round: workbook mix, then Phase 1 fallbacks, then Can't listen / speak swaps ----------
@@ -284,7 +303,7 @@ function pickWordSet(c, scope, seenWords, used, rng, first = null) {
       if (out.length < 5 && !hints.has(w.hint) && !out.includes(w)) { out.push(w); hints.add(w.hint) }
     }
   }
-  if (first) take([c.wordById.get(first)])
+  if (first && c.wordById.has(first)) take([c.wordById.get(first)])
   take(scope.newWords.map((id) => c.wordById.get(id)).filter((w) => !used.has(w.word_id)))
   const ordered = leastSeen(c.words.filter((w) => scope.allowed.has(w.word_id)), (w) => w.word_id, seenWords, rng)
   take(ordered.filter((w) => !used.has(w.word_id)))

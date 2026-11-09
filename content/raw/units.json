@@ -11,7 +11,8 @@
     "can_do_ids": "CD01;CD02;CD03;CD04",
     "branch_group": "row 1",
     "is_topic_pick": "no",
-    "status": "live"
+    "status": "live",
+    "borrowed_sentence_ids": ""
   },
   {
     "unit_id": "U02",
@@ -25,7 +26,8 @@
     "can_do_ids": "CD05;CD06;CD07;CD08",
     "branch_group": "row 2",
     "is_topic_pick": "no",
-    "status": "draft"
+    "status": "live",
+    "borrowed_sentence_ids": ""
   },
   {
     "unit_id": "U03",
@@ -39,7 +41,8 @@
     "can_do_ids": "CD09;CD10;CD11;CD12",
     "branch_group": "row 2",
     "is_topic_pick": "no",
-    "status": "draft"
+    "status": "live",
+    "borrowed_sentence_ids": "S0011;S0012;S0032;S0035;S0036"
   },
   {
     "unit_id": "U04",
@@ -53,7 +56,8 @@
     "can_do_ids": "CD13;CD14;CD15;CD16",
     "branch_group": "row 3",
     "is_topic_pick": "no",
-    "status": "draft"
+    "status": "live",
+    "borrowed_sentence_ids": ""
   },
   {
     "unit_id": "U05",
@@ -67,6 +71,7 @@
     "can_do_ids": "CD17;CD18;CD19;CD20",
     "branch_group": "row 3",
     "is_topic_pick": "no",
-    "status": "draft"
+    "status": "live",
+    "borrowed_sentence_ids": ""
   }
 ]

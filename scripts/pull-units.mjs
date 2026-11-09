@@ -4,6 +4,7 @@
 import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { loadTatoeba } from './lib/tatoeba.mjs'
+import { analyse as analyseWords, formIndexFor as formIndexOf, loose, norm, tokenize } from './lib/french.mjs'
 
 const ROOT = join(import.meta.dirname, '..')
 const raw = (t) => JSON.parse(readFileSync(join(ROOT, `content/raw/${t}.json`), 'utf8'))
@@ -18,7 +19,8 @@ const ID_BASE = { U02: 2000, U03: 3000, U04: 4000, U05: 5000 }
 
 const units = raw('units').sort((a, b) => a.order - b.order)
 const words = raw('words')
-const existing = raw('sentences')
+// The workbook's own sentences; the pulls and drafts merged at import are not in the way of a fresh pull.
+const existing = raw('sentences').filter((s) => !s.origin || s.origin === 'workbook')
 // Names allowed (R21): the ones the workbook already uses. Dan can add more there.
 const NAMES = new Set(raw('sentence_words').filter((r) => r.notes === 'name').map((r) => String(r.surface).toLowerCase()))
 // Part of speech from the Wiktionary check, to tell an article from a pronoun.
@@ -38,47 +40,19 @@ const carriesNouns = (english, parts) => parts.every((p) => {
   return [g, g + 's', g + 'es', IRREGULAR[g]].filter(Boolean).some((x) => new RegExp(`\\b${x}\\b`).test(e))
 })
 
-const norm = (s) => String(s).replace(/[’ʼ]/g, "'").replace(/[  ]/g, ' ').replace(/\s+/g, ' ').trim()
-const loose = (s) => norm(s).toLowerCase().replace(/[.!?…,;:"«»\s]+/g, ' ').trim()
 
-// Split French into surface tokens, then match the unit's word forms longest first. Multi-word forms
-// (au revoir, s'il vous plaît) and elided forms (l', j') count as their word (P02).
-function tokenize(text) {
-  const out = []
-  const re = /[A-Za-zÀ-ÖØ-öø-ÿŒœ]+(?:-[A-Za-zÀ-ÖØ-öø-ÿŒœ]+)*'?/g
-  let m
-  while ((m = re.exec(norm(text)))) out.push({ text: m[0], at: m.index })
-  return out
-}
+// An article must come before a noun or adjective; le, la, l', les before a verb are pronouns, and l'un isn't an article.
 function analyse(text, formIndex) {
-  const toks = tokenize(text)
-  const lower = toks.map((t) => t.text.toLowerCase())
-  const parts = []
-  for (let i = 0; i < toks.length;) {
-    let hit = null
-    for (const f of formIndex) {
-      if (f.parts.every((p, k) => lower[i + k] === p)) { hit = f; break }
-    }
-    if (hit) {
-      const surface = norm(text).slice(toks[i].at, toks[i + hit.parts.length - 1].at + toks[i + hit.parts.length - 1].text.length)
-      parts.push({ surface, word_id: hit.word_id })
-      i += hit.parts.length
-      continue
-    }
-    if (i > 0 && NAMES.has(lower[i])) { parts.push({ surface: toks[i].text, word_id: '', name: true }); i++; continue }
-    return null
+  const a = analyseWords(text, formIndex, { names: NAMES })
+  if (a.unknown) return null
+  for (let k = 0; k < a.parts.length; k++) {
+    if (POS.get(a.parts[k].word_id) !== 'Article') continue
+    const next = POS.get(a.parts[k + 1]?.word_id)
+    if (!a.parts[k + 1] || (next && !['Noun', 'Adjective'].includes(next))) return null
   }
-  // An article must come before a noun or adjective; le, la, l', les before a verb are pronouns, and l'un isn't an article.
-  for (let k = 0; k < parts.length; k++) {
-    if (POS.get(parts[k].word_id) !== 'Article') continue
-    const next = POS.get(parts[k + 1]?.word_id)
-    if (!parts[k + 1] || (next && !['Noun', 'Adjective'].includes(next))) return null
-  }
-  return { parts, count: toks.length }
+  return a
 }
-const formIndexFor = (allowedUnits) => words.filter((w) => allowedUnits.has(w.first_unit))
-  .map((w) => ({ word_id: w.word_id, parts: tokenize(w.form).map((t) => t.text.toLowerCase()) }))
-  .sort((a, b) => b.parts.length - a.parts.length)
+const formIndexFor = (allowedUnits) => formIndexOf(words.filter((w) => allowedUnits.has(w.first_unit)))
 
 // The unit's grammar point, read from its contrast sets: the forms the unit is teaching.
 const contrastPairs = (u) => String(u.contrast_sets).split(';').map((x) => x.trim()).filter(Boolean).map((s) => s.split('|'))
@@ -95,7 +69,8 @@ console.log('Tatoeba: loading exports')
 const tatoeba = loadTatoeba()
 freq = tatoeba.englishWordCounts()
 const trusted = (s) => { const t = tatoeba.trustOf(s); return t.native_owner || t.ok_tag }
-const taken = new Set(existing.map((s) => loose(s.french)))
+// Already in the course: the workbook, drafts and other units' pulls, but not the pull being redone.
+const taken = new Set(raw('sentences').filter((s) => !(s.origin === 'pull' && redo.has(s.unit_id))).map((s) => loose(s.french)))
 
 const report = ['# Units 2 to 5: sentences pulled from Tatoeba', '',
   'Proposed under the workbook\'s content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.', '']

@@ -1,0 +1,37 @@
+[
+  {
+    "row": 1,
+    "position": 1,
+    "unit_id": "U01",
+    "unlocks_after": "",
+    "notes": ""
+  },
+  {
+    "row": 2,
+    "position": 1,
+    "unit_id": "U02",
+    "unlocks_after": "row 1",
+    "notes": ""
+  },
+  {
+    "row": 2,
+    "position": 2,
+    "unit_id": "U03",
+    "unlocks_after": "row 1",
+    "notes": ""
+  },
+  {
+    "row": 3,
+    "position": 1,
+    "unit_id": "U04",
+    "unlocks_after": "row 2",
+    "notes": "both units in row 2 must finish round 1"
+  },
+  {
+    "row": 3,
+    "position": 2,
+    "unit_id": "U05",
+    "unlocks_after": "row 2",
+    "notes": ""
+  }
+]

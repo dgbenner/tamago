@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { content as c, recordings } from './lib/content.js'
+import { allContent, recordings, tables, unitContent } from './lib/content.js'
 import { buildLesson, buildReview, lessonsInRound, passMark, reaskFor } from './lib/lesson.js'
 import { loadState, put, putKv, remove } from './lib/store.js'
 import { hasFrenchVoice, preload, stop } from './lib/audio.js'
@@ -9,7 +9,8 @@ import Settings from './screens/Settings.jsx'
 import About from './screens/About.jsx'
 import Splash from './screens/Splash.jsx'
 
-const UNIT = c.units[0]
+const FIRST_UNIT = tables.units[0].unit_id
+const c = allContent // settings defaults, flags and other shared tables
 const today = () => new Date().toLocaleDateString('en-CA')
 const uid = () => `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 8)}`
 const defaults = Object.fromEntries(c.settings_defaults.map((s) => [s.setting, s.default]))
@@ -26,7 +27,8 @@ export default function App() {
   const [screen, setScreen] = useState('home')
   const [settings, setSettings] = useState(DEFAULT_SETTINGS)
   const [bank, setBank] = useState([])
-  const [progress, setProgress] = useState({ unit_id: UNIT.unit_id, round_reached: 0, lessons_done: 0 })
+  const [progressByUnit, setProgressByUnit] = useState({})
+  const [currentUnit, setCurrentUnit] = useState(FIRST_UNIT)
   const [pointsToday, setPointsToday] = useState(0)
   const [pointsTotal, setPointsTotal] = useState(0)
   const [session, setSession] = useState(null)
@@ -40,13 +42,14 @@ export default function App() {
     preload(recordings)
     loadState().then((s) => {
       setBank(s.bank)
-      const saved = s.progress.find((p) => p.unit_id === UNIT.unit_id)
-      if (saved) setProgress(saved)
+      setProgressByUnit(Object.fromEntries(s.progress.map((p) => [p.unit_id, p])))
+      if (s.kv.current_unit && tables.units.some((u) => u.unit_id === s.kv.current_unit)) setCurrentUnit(s.kv.current_unit)
       setPointsToday(s.points.find((p) => p.date === today())?.amount ?? 0)
       setPointsTotal(s.points.reduce((n, p) => n + p.amount, 0))
       if (s.kv.settings) setSettings({ ...DEFAULT_SETTINGS, ...s.kv.settings })
       seenWords.current = new Set(s.kv.seen_words ?? [])
-      roundSeen.current = s.kv.round_seen ?? {}
+      // Rounds seen, per unit. Older installs kept Unit 1's alone under round_seen.
+      roundSeen.current = s.kv.round_seen_by_unit ?? (s.kv.round_seen ? { [FIRST_UNIT]: s.kv.round_seen } : {})
       carry.current = s.kv.carry ?? []
       if (s.kv.current_session) setSession(s.kv.current_session)
       setReady(true)
@@ -68,7 +71,25 @@ export default function App() {
     putKv('settings', next)
   }
 
-  const currentRound = Math.min(progress.round_reached + 1, 5)
+  const progressOf = (unitId) => progressByUnit[unitId] ?? { unit_id: unitId, round_reached: 0, lessons_done: 0 }
+  const roundOf = (unitId) => Math.min(progressOf(unitId).round_reached + 1, 5)
+  const contentFor = (s) => (s?.kind === 'review' ? allContent : unitContent(s?.unit_id ?? currentUnit))
+
+  // R20: a row opens when every unit in the row it names has finished round 1. A unit also has to be live.
+  const layout = tables.tree_layout
+  const rowOf = (unitId) => layout.find((t) => t.unit_id === unitId)
+  const isOpen = (unitId) => {
+    const unit = tables.units.find((u) => u.unit_id === unitId)
+    if (!String(unit?.status).startsWith('live')) return false
+    const after = String(rowOf(unitId)?.unlocks_after ?? '').match(/^row (\d+)$/)
+    if (!after) return true
+    return layout.filter((t) => t.row === Number(after[1])).every((t) => progressOf(t.unit_id).round_reached >= 1)
+  }
+  const lockedByOf = (unitId) => {
+    const after = String(rowOf(unitId)?.unlocks_after ?? '').match(/^row (\d+)$/)
+    const names = after ? layout.filter((t) => t.row === Number(after[1])).map((t) => `Unit ${tables.units.find((u) => u.unit_id === t.unit_id).order}`) : []
+    return names.length ? names.join(' and ') : 'the unit before it'
+  }
   const lessonModes = () => ({
     cantListen: paused(settings.cant_listen_until) || !hasFrenchVoice(),
     cantSpeak: paused(settings.cant_speak_until),
@@ -80,18 +101,20 @@ export default function App() {
     setEnding(null)
     setScreen('lesson')
   }
-  const startLesson = () => {
-    if (session) { begin(session); return }
-    const lesson = buildLesson(c, {
-      round: currentRound, unit_id: UNIT.unit_id, seen: roundSeen.current[currentRound] ?? {}, known: seenWords.current,
-      settings: lessonModes(), carry: carry.current[0] ?? null,
+  const startLesson = (unitId = currentUnit) => {
+    if (session && unitId === currentUnit) { begin(session); return }
+    if (unitId !== currentUnit) { setCurrentUnit(unitId); putKv('current_unit', unitId) }
+    const round = roundOf(unitId)
+    const lesson = buildLesson(unitContent(unitId), {
+      round, unit_id: unitId, seen: roundSeen.current[unitId]?.[round] ?? {}, known: seenWords.current,
+      settings: lessonModes(), carry: carry.current[0]?.unit_id === unitId ? carry.current[0] : null,
     })
     carry.current = []
     putKv('carry', [])
     begin(lesson)
   }
   const startReview = () => {
-    if (bank.length) begin(buildReview(c, bank, { round: currentRound, settings: lessonModes(), today: today() }))
+    if (bank.length) begin(buildReview(allContent, bank, { round: roundOf(currentUnit), settings: lessonModes(), today: today() }))
   }
 
   const addToBank = (sentence_id, type_id) => {
@@ -131,7 +154,7 @@ export default function App() {
     if (!result.correct) {
       // One re-ask only: a wrong re-ask shows the answer and the lesson moves on.
       const reask = session.kind === 'lesson' && first
-        ? reaskFor(c, q, { cantListen: lessonModes().cantListen, missedWord: result.missedWord, known: seenWords.current }) : null
+        ? reaskFor(contentFor(session), q, { cantListen: lessonModes().cantListen, missedWord: result.missedWord, known: seenWords.current }) : null
       if (reask) next = { ...next, queue: [...next.queue, reask] }
       // Round 1 misses stay out of the bank.
       if (q.round >= 2) addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
@@ -173,23 +196,26 @@ export default function App() {
       setEnding({ line: `${s.firstCorrect} of ${s.size}. Pass is ${mark}, so this lesson repeats in new question types.`, retry: s })
       return
     }
-    const seen = roundSeen.current[s.round] ?? { sentences: {}, words: {} }
+    const unitSeen = roundSeen.current[s.unit_id] ?? {}
+    const seen = unitSeen[s.round] ?? { sentences: {}, words: {} }
     for (const q of s.queue.slice(0, s.size)) {
       if (q.sentence_id) seen.sentences[q.sentence_id] = (seen.sentences[q.sentence_id] ?? 0) + 1
       for (const id of q.word_ids ?? []) seen.words[id] = (seen.words[id] ?? 0) + 1
     }
-    roundSeen.current = { ...roundSeen.current, [s.round]: seen }
-    putKv('round_seen', roundSeen.current)
-    carry.current = s.misses ?? []
+    roundSeen.current = { ...roundSeen.current, [s.unit_id]: { ...unitSeen, [s.round]: seen } }
+    putKv('round_seen_by_unit', roundSeen.current)
+    carry.current = (s.misses ?? []).map((m) => ({ ...m, unit_id: s.unit_id }))
     putKv('carry', carry.current)
-    if (s.round === currentRound && progress.round_reached < 5) {
+    const progress = progressOf(s.unit_id)
+    const uc = unitContent(s.unit_id)
+    if (s.round === roundOf(s.unit_id) && progress.round_reached < 5) {
       const done = progress.lessons_done + 1
       // A round runs its full count, and longer only if a miss kept a sentence or word from appearing.
-      const covered = c.sentences.every((x) => seen.sentences[x.sentence_id]) && c.wordOrder.every((id) => seenWords.current.has(id))
-      const count = lessonsInRound(c, s.round)
+      const covered = uc.sentences.every((x) => seen.sentences[x.sentence_id]) && uc.wordOrder.every((id) => seenWords.current.has(id))
+      const count = lessonsInRound(uc, s.round)
       const roundDone = (done >= count && covered) || done >= count + 3
       const nextProgress = { ...progress, round_reached: roundDone ? s.round : progress.round_reached, lessons_done: roundDone ? 0 : done }
-      setProgress(nextProgress)
+      setProgressByUnit((p) => ({ ...p, [s.unit_id]: nextProgress }))
       put('unit_progress', nextProgress)
     }
     setEnding({ line: `${s.firstCorrect} of ${s.size}.` })
@@ -202,7 +228,7 @@ export default function App() {
 
   const afterEnding = () => {
     if (ending?.retry) {
-      begin(buildLesson(c, { round: ending.retry.round, unit_id: ending.retry.unit_id, known: seenWords.current, settings: lessonModes(), retry: ending.retry.queue.slice(0, ending.retry.size) }))
+      begin(buildLesson(unitContent(ending.retry.unit_id), { round: ending.retry.round, unit_id: ending.retry.unit_id, known: seenWords.current, settings: lessonModes(), retry: ending.retry.queue.slice(0, ending.retry.size) }))
       return
     }
     setEnding(null)
@@ -222,17 +248,27 @@ export default function App() {
       )
     }
     return (
-      <Lesson key={session.id} session={session} content={c} settings={settings} seenWords={seenWords.current} cantListen={lessonModes().cantListen}
+      <Lesson key={session.id} session={session} content={contentFor(session)} settings={settings} seenWords={seenWords.current} cantListen={lessonModes().cantListen}
         onAnswer={onAnswer} onHint={onHint} onFlag={onFlag} onExit={leaveLesson}
         onAdvance={(s) => { setSession(s); putKv('current_session', s) }} onFinish={finish} />
     )
   }
   if (screen === 'settings') return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} />
-  if (screen === 'about') return <About content={c} onBack={() => setScreen('settings')} />
+  if (screen === 'about') return <About content={allContent} onBack={() => setScreen('settings')} />
+  const rows = [...new Set(layout.map((t) => t.row))].sort((a, b) => a - b).map((r) => layout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
+    const unit = tables.units.find((u) => u.unit_id === t.unit_id)
+    const progress = progressOf(t.unit_id)
+    const open = isOpen(t.unit_id)
+    const lessons = open ? Math.max(lessonsInRound(unitContent(t.unit_id), roundOf(t.unit_id)), progress.lessons_done + 1) : 0
+    return { unit, progress, open, current: t.unit_id === currentUnit, lesson: progress.lessons_done + 1, lessons }
+  }))
+  const cur = progressOf(currentUnit)
   return (
-    <Home unit={UNIT} progress={progress} round={currentRound} lessonsInRound={Math.max(lessonsInRound(c, currentRound), progress.lessons_done + 1)} points={pointsToday} pointsTotal={pointsTotal}
-      bankSize={bank.length} inProgress={session?.kind === 'lesson' || session?.kind === 'review'}
-      onStart={startLesson} onReview={startReview} onSettings={() => setScreen('settings')} />
+    <Home rows={rows} points={pointsToday} pointsTotal={pointsTotal} bankSize={bank.length}
+      inProgress={session?.kind === 'lesson' || session?.kind === 'review'}
+      currentLabel={cur.round_reached >= 5 ? 'Practice' : 'Continue'} lockedByOf={lockedByOf}
+      onContinue={() => startLesson()} onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startLesson(id) }}
+      onReview={startReview} onSettings={() => setScreen('settings')} />
   )
   }
 

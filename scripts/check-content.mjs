@@ -153,7 +153,9 @@ for (const s of sentences) {
   const decision = decisions.sentences?.[s.sentence_id]
   const stale = decision && decision.french !== s.french
   if (stale) console.warn(`  stale decision ignored for ${s.sentence_id}: made on "${decision.french}"`)
-  const d = stale ? null : decision
+  // Drafts, and originals the workbook marks live pending the native check, count as approved originals.
+  const original = s.origin === 'draft' || (s.source === 'tamago_original' && String(s.status).includes('native check'))
+  const d = original && !decision?.action ? { action: 'keep' } : stale ? null : decision
   const result = matchSentence(s)
   const row = {
     sentence_id: s.sentence_id, unit_id: s.unit_id, draft_french: s.french, draft_english: s.english,

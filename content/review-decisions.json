@@ -1,5 +1,5 @@
 {
-  "_about": "Dan's calls. Each sentence entry repeats the French it was made on, so a decision goes stale if the workbook text changes. Sentence actions: confirm (accept the Tatoeba match; english_source tamago_original when Tatoeba links no translation), replace (use tatoeba_id, optional english), keep (status dan_reviewed, source tamago_original, needs a native-speaker check before Phase 4). Answers: {A0003: {action: keep, answer: text}}. Units: {U01: {action: approve}} is Dan's go-live; only he adds it.",
+  "_about": "Dan's calls. Each sentence entry repeats the French it was made on, so a decision goes stale if the workbook text changes. Sentence actions: confirm (accept the Tatoeba match; english_source tamago_original when Tatoeba links no translation), replace (use tatoeba_id, optional english), keep (status dan_reviewed, source tamago_original, needs a native-speaker check before Phase 4). Answers: {A0003: {action: keep, answer: text}}. Units: {U01: {action: approve}} is Dan's go-live; only he adds it. Phase 2a: units approves a pulled unit; cut_sentences drops pulled sentences; vocabulary_additions adds words to a unit; hints overrides a built hint; borrow lets a unit's lessons use earlier units' sentences.",
   "sentences": {
     "S0003": {
       "action": "confirm",
@@ -108,6 +108,153 @@
     "U01": {
       "action": "approve",
       "on": "2026-11-07"
+    },
+    "U03": {
+      "action": "approve",
+      "on": "2026-11-09"
+    },
+    "U04": {
+      "action": "approve",
+      "on": "2026-11-09"
+    },
+    "U05": {
+      "action": "approve",
+      "on": "2026-11-09"
+    },
+    "U02": {
+      "action": "approve",
+      "on": "2026-11-09",
+      "by": "Claude under autonomous-build.md: 53 sentences after widening and drafting, every word in 3 or more"
     }
+  },
+  "cut_sentences": [
+    "S3029",
+    "S3028",
+    "S5022",
+    "S5021"
+  ],
+  "vocabulary_additions": [
+    {
+      "word_id": "W201",
+      "lang_id": "fr",
+      "form": "grand",
+      "lemma": "",
+      "part_of_speech": "",
+      "gender": "",
+      "gloss": "",
+      "hint": "",
+      "hint_source": "",
+      "first_unit": "U02",
+      "needs_image": "no",
+      "image_file": "",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/grand#French",
+      "status": "pull from Wiktionary",
+      "notes": "added by Dan, 2026-11-09"
+    },
+    {
+      "word_id": "W202",
+      "lang_id": "fr",
+      "form": "grande",
+      "lemma": "",
+      "part_of_speech": "",
+      "gender": "",
+      "gloss": "",
+      "hint": "",
+      "hint_source": "",
+      "first_unit": "U02",
+      "needs_image": "no",
+      "image_file": "",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/grande#French",
+      "status": "pull from Wiktionary",
+      "notes": "added by Dan, 2026-11-09"
+    },
+    {
+      "word_id": "W203",
+      "lang_id": "fr",
+      "form": "petit",
+      "lemma": "",
+      "part_of_speech": "",
+      "gender": "",
+      "gloss": "",
+      "hint": "",
+      "hint_source": "",
+      "first_unit": "U02",
+      "needs_image": "no",
+      "image_file": "",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/petit#French",
+      "status": "pull from Wiktionary",
+      "notes": "added by Dan, 2026-11-09"
+    },
+    {
+      "word_id": "W204",
+      "lang_id": "fr",
+      "form": "petite",
+      "lemma": "",
+      "part_of_speech": "",
+      "gender": "",
+      "gloss": "",
+      "hint": "",
+      "hint_source": "",
+      "first_unit": "U02",
+      "needs_image": "no",
+      "image_file": "",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/petite#French",
+      "status": "pull from Wiktionary",
+      "notes": "added by Dan, 2026-11-09"
+    },
+    {
+      "word_id": "W205",
+      "lang_id": "fr",
+      "form": "voici",
+      "lemma": "",
+      "part_of_speech": "",
+      "gender": "",
+      "gloss": "",
+      "hint": "",
+      "hint_source": "",
+      "first_unit": "U02",
+      "needs_image": "no",
+      "image_file": "",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/voici#French",
+      "status": "pull from Wiktionary",
+      "notes": "added by Dan, 2026-11-09"
+    },
+    {
+      "word_id": "W206",
+      "lang_id": "fr",
+      "form": "ici",
+      "lemma": "",
+      "part_of_speech": "",
+      "gender": "",
+      "gloss": "",
+      "hint": "",
+      "hint_source": "",
+      "first_unit": "U02",
+      "needs_image": "no",
+      "image_file": "",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/ici#French",
+      "status": "pull from Wiktionary",
+      "notes": "added by Dan, 2026-11-09"
+    }
+  ],
+  "hints": {
+    "W058": "water",
+    "W047": "how are you / it’s going fine",
+    "W049": "you (formal or plural)",
+    "W063": "some",
+    "W055": "I (before a vowel)"
+  },
+  "borrow": {
+    "U03": [
+      "S0011",
+      "S0012",
+      "S0032",
+      "S0035",
+      "S0036"
+    ]
+  },
+  "drafting": {
+    "on": "2026-11-09",
+    "rule": "Draft 4 question-and-answer pairs per unit for QT09, and enough sentences for every word with fewer than 3 to reach 3. All tamago_original, native-speaker check before Phase 4. Drop nothing."
   }
 }

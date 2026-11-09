@@ -1,12 +1,13 @@
 // Workbook -> content/raw/<table>.json. Fails (exit 1) on broken IDs.
 // Usage: node scripts/import.mjs [path/to/workbook.xlsx]
-import { mkdirSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
+import { analyse, formIndexFor } from './lib/french.mjs'
 import { join } from 'node:path'
 import { createRequire } from 'node:module'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v7.xlsx')
+const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v8.xlsx')
 const OUT = join(ROOT, 'content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)
@@ -18,6 +19,45 @@ for (const name of wb.SheetNames) {
 
 const errors = []
 const fail = (msg) => errors.push(msg)
+
+// Content from outside the workbook, until the workbook catches up. Each row says where it came from.
+for (const t of ['sentences', 'sentence_words', 'accepted_answers', 'qa_answers', 'words']) tables[t] ??= []
+for (const s of tables.sentences) s.origin = 'workbook'
+const decisions = JSON.parse(readFileSync(join(ROOT, 'content/review-decisions.json'), 'utf8'))
+// Words Dan added to a unit.
+const wordIds = new Set(tables.words.map((w) => w.word_id))
+for (const w of decisions.vocabulary_additions ?? []) if (!wordIds.has(w.word_id)) tables.words.push({ ...w, origin: 'decision' })
+// Sentences pulled from Tatoeba (content/pull/U0x.json).
+const PULL = join(ROOT, 'content/pull')
+for (const f of existsSync(PULL) ? readdirSync(PULL).filter((x) => /^U\d+\.json$/.test(x)).sort() : []) {
+  const p = JSON.parse(readFileSync(join(PULL, f), 'utf8'))
+  const inBook = new Set(tables.sentences.map((s) => s.sentence_id))
+  for (const s of p.sentences) { if (inBook.has(s.sentence_id)) continue; const { other_english, ...row } = s; tables.sentences.push({ ...row, origin: 'pull' }) }
+  tables.sentence_words.push(...p.sentence_words.filter((r) => !inBook.has(r.sentence_id)))
+  const ansIds = new Set(tables.accepted_answers.map((a) => a.answer_id))
+  tables.accepted_answers.push(...p.accepted_answers.filter((a) => !ansIds.has(a.answer_id)))
+  const qaKeys = new Set(tables.qa_answers.map((q) => q.question_sentence_id + '>' + q.answer_sentence_id))
+  tables.qa_answers.push(...p.qa_answers.filter((q) => !qaKeys.has(q.question_sentence_id + '>' + q.answer_sentence_id)))
+}
+// Sentences Claude drafted at Dan's request (content/drafts.json), split into words here.
+const DRAFTS = join(ROOT, 'content/drafts.json')
+if (existsSync(DRAFTS)) {
+  const drafts = JSON.parse(readFileSync(DRAFTS, 'utf8'))
+  const names = new Set(tables.sentence_words.filter((r) => r.notes === 'name').map((r) => String(r.surface).toLowerCase()))
+  const unitOrder = new Map(tables.units.map((u) => [u.unit_id, u.order]))
+  const inBook = new Set(tables.sentences.map((s) => s.sentence_id))
+  for (const d of drafts.sentences) {
+    if (inBook.has(d.sentence_id)) continue
+    const known = tables.words.filter((w) => unitOrder.get(w.first_unit) <= unitOrder.get(d.unit_id))
+    const a = analyse(d.french, formIndexFor(known), { names })
+    if (a.unknown) { fail(`drafts ${d.sentence_id} "${d.french}": "${a.unknown}" is not a word of ${d.unit_id} or earlier`); continue }
+    tables.sentences.push({ sentence_id: d.sentence_id, unit_id: d.unit_id, french: d.french, english: d.english, pair_id: '', source: 'tamago_original', source_id: '',
+      status: 'live: native check before Phase 4', audio_source: 'tts', max_round: 5, notes: d.notes ?? 'drafted by Claude at Dan\'s request', origin: 'draft' })
+    a.parts.forEach((p, k) => tables.sentence_words.push({ sentence_id: d.sentence_id, position: k + 1, surface: p.surface, word_id: p.word_id, notes: p.name ? 'name' : '', hint_override: '' }))
+  }
+  const qaKeys = new Set(tables.qa_answers.map((q) => q.question_sentence_id + '>' + q.answer_sentence_id))
+  for (const q of drafts.qa_answers ?? []) if (!qaKeys.has(q.question_sentence_id + '>' + q.answer_sentence_id)) tables.qa_answers.push(q)
+}
 
 const PRIMARY_KEYS = {
   languages: 'lang_id', units: 'unit_id', can_do: 'can_do_id', sentences: 'sentence_id',

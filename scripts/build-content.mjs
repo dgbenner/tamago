@@ -26,14 +26,26 @@ const tables = Object.fromEntries(SHIPPED_AS_IS.map((t) => [t, raw(t)]))
 for (const u of tables.units) {
   if (isLive(u) && decisions.units?.[u.unit_id]?.action !== 'approve') bad.push(`${u.unit_id} is live without Dan's approval`)
 }
+// An approved unit is live; each unit also lists the earlier sentences its lessons may borrow.
+tables.units = tables.units.map((u) => ({
+  ...(decisions.units?.[u.unit_id]?.action === 'approve' ? { ...u, status: 'live' } : u),
+  borrowed_sentence_ids: decisions.borrow?.[u.unit_id] ?? String(u.borrowed_sentence_ids ?? '').split(';').filter(Boolean),
+}))
+tables.tree_layout = raw('tree_layout')
 
 // Sentences: live in the workbook and passed by the check, with the same source.
+// A pulled or drafted sentence ships once its unit is approved, unless Dan cut it.
+const approved = (unitId) => decisions.units?.[unitId]?.action === 'approve'
+const cut = new Set(decisions.cut_sentences ?? [])
+const ships = (s) => !cut.has(s.sentence_id) && (s.origin === 'pull' ? approved(s.unit_id) : s.origin === 'draft' ? approved(s.unit_id) || isLive(tables.units.find((u) => u.unit_id === s.unit_id) ?? {}) : isLive(s))
 tables.sentences = raw('sentences').flatMap((s) => {
-  if (!isLive(s)) return []
+  if (!ships(s)) return []
   const c = sCheck.get(s.sentence_id)
+  if (s.origin === 'pull' && c?.status === 'checked') s = { ...s, source_id: c.source_id }
   if (!['checked', 'dan_reviewed'].includes(c?.status)) { bad.push(`${s.sentence_id} live in the workbook, check says ${c?.status}`); return [] }
   if (String(s.source_id) !== String(c.source_id)) bad.push(`${s.sentence_id} workbook source_id ${s.source_id}, check found ${c.source_id}`)
   if (s.source !== c.source) bad.push(`${s.sentence_id} workbook source ${s.source}, check found ${c.source}`)
+  if (s.origin !== 'workbook' && s.origin) s = { ...s, audio_source: c.audio_source } // the pull and drafts don't know about recordings; the check does
   if (s.audio_source !== c.audio_source) bad.push(`${s.sentence_id} workbook audio ${s.audio_source}, check found ${c.audio_source}`)
   const native_check = String(s.status).includes('native check') ? 'needed before Phase 4' : ''
   if (s.source === 'tamago_original' && !native_check) bad.push(`${s.sentence_id} is original with no native check marker`)
@@ -61,6 +73,7 @@ tables.words = raw('words').flatMap((w) => {
     if (w[col] === '' || w[col] == null) filled[col] = c[col]
     else if (col === 'gloss' ? !String(w.gloss).includes(c.gloss) : String(w[col]) !== String(c[col])) bad.push(`${w.word_id} ${col}: workbook "${w[col]}", Wiktionary "${c[col]}"`)
   }
+  if (decisions.hints?.[w.word_id]) { filled.hint = decisions.hints[w.word_id]; filled.hint_source = 'Dan, review decisions' }
   if (!filled.hint) { filled.hint = hintFrom(c); filled.hint_source = 'Wiktionary (built)' }
   return [{ ...filled, gloss_full: c.gloss_full, lemma_gloss: c.lemma_gloss }]
 })
@@ -69,7 +82,7 @@ tables.words = raw('words').flatMap((w) => {
 tables.accepted_answers = [
   ...raw('accepted_answers').flatMap((a) => {
     const c = aCheck.get(a.answer_id)
-    if (!isLive(a) || !live.has(a.sentence_id)) return []
+    if (!(isLive(a) || a.status === 'pulled') || !live.has(a.sentence_id)) return []
     if (c?.status !== 'checked') { bad.push(`${a.answer_id} "${a.answer}" live in the workbook, check says ${c?.status}`); return [] }
     return [{ ...a, status: 'live' }]
   }),
@@ -116,7 +129,7 @@ mkdirSync(OUT, { recursive: true })
 for (const [name, rows] of Object.entries(tables)) writeFileSync(join(OUT, `${name}.json`), JSON.stringify(rows, null, 2) + '\n')
 if (existsSync(join(ROOT, 'public/content'))) rmSync(join(ROOT, 'public/content'), { recursive: true })
 
-const awaiting = raw('sentences').filter((s) => !isLive(s) && !String(s.status).startsWith('off')).map((s) => s.sentence_id)
+const awaiting = raw('sentences').filter((s) => !live.has(s.sentence_id) && !cut.has(s.sentence_id) && !String(s.status).startsWith('off')).map((s) => s.sentence_id)
 const original = tables.sentences.filter((s) => s.source === 'tamago_original').length
 const fr = tables.accepted_answers.filter((a) => a.direction === 'fr_to_en').length
 console.log(`Shipped: ${tables.sentences.length} sentences (${tables.sentences.length - original} Tatoeba, ${original} Tamago originals), ${tables.words.length} words, ${fr} fr_to_en and ${tables.accepted_answers.length - fr} en_to_fr answers, ${tables.qa_answers.length} qa_answers, ${tables.feedback_phrases.length} feedback lines (${tables.feedback_phrases.filter((f) => f.language === 'fr').length} French), ${wanted.size} recordings. U01 status: ${tables.units[0].status}.${awaiting.length ? ` Not live, awaiting a ruling: ${awaiting.join(', ')}.` : ''}`)

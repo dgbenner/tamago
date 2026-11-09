@@ -5,9 +5,13 @@ French learning app, installable web app, mobile first. React, Vite, Tailwind v4
 Specs are in `_source/`: tamago-feature-list.md (what), build-phases.md (order of work), question-types.md (question logic), tamago-data-v4.xlsx (all content; lesson_rules tab holds R01 to R16), learning-methods.md (why), tamago-phase0-decisions.xlsx (decision log).
 The workbook is edited outside this repo and gets reissued. Never edit it here, and never write check results into it. A new version goes in `_source/` and becomes the default path in `scripts/import.mjs`.
 
+## Working mode
+
+From 2026-11-09 the build runs under `_source/autonomous-build.md`: phase by phase through build-phases.md, test, commit and push at each phase end, log to `_source/build-log.md`, and overwrite `_source/check-in.md` (Done, Decisions made, Waiting for Dan). Claude owns the workbook now: edit it in place, changelog row in README, bump the version each phase. Stop only for money or accounts, making it public, deleting Dan's files, and the native-speaker check.
+
 ## Content pipeline
 
-`npm run content` runs three steps:
+`npm run content` runs three steps (`npm run pull` proposes sentences for draft units; `content/drafts.json` holds drafted sentences; decisions also carry cut_sentences, vocabulary_additions, hints and borrow until the workbook absorbs them):
 
 1. `import`: workbook to `content/raw/`. Fails on broken IDs. Also validates sentence_words, pairs, round_type_mix, phase1_fallbacks and cant_swaps.
 2. `check`: Tatoeba, Wiktionary and Lingua Libre to `content/checks/` and `content/review.md`. Generates the en_to_fr answers (workbook README). Downloads are cached in `.cache/`.

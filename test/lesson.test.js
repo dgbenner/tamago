@@ -1,12 +1,12 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, readdirSync } from 'node:fs'
-import { BUILT_TYPES, buildLesson, buildReview, effectiveMix, indexContent, lessonScope, lessonsInRound, mixSlots, passMark, reaskFor } from '../src/lib/lesson.js'
+import { BUILT_TYPES, buildLesson, buildReview, contentForUnit, effectiveMix, lessonScope, lessonsInRound, mixSlots, passMark, reaskFor } from '../src/lib/lesson.js'
 import { checkTyped } from '../src/lib/check.js'
 
 const tables = {}
 for (const f of readdirSync('src/content')) tables[f.replace('.json', '')] = JSON.parse(readFileSync(`src/content/${f}`))
-const c = indexContent(tables)
+const c = contentForUnit(tables, 'U01')
 const allKnown = new Set(c.wordOrder)
 
 function seeded(seed) {

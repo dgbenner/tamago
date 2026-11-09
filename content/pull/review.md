@@ -4,21 +4,44 @@ Proposed under the workbook's content_pull rules. Nothing here is live until Dan
 
 ## U02 Basics 2: le, la, l', les; il/elle est; ils/elles sont
 
-7 sentences picked from 7 candidates (target 30 to 40). Grammar point in 4 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 35 candidates (target 30 to 40). Grammar point in 17 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): le 1, la 0, les 0, il 0, elle 2, est 1, sont 0.
+Contrast forms, sentences each (target 2): le 3, la 2, les 0, il 2, elle 5, est 12, sont 2.
 
-**Gaps (P08)**, fewer than 3 usable sentences: le (1), la (0), l' (1), les (0), il (0), elle (2), est (1), ils (0), elles (1), sont (0), hommes (0), femmes (0), garçons (0), filles (0), enfants (0), livre (1), lettre (0), journal (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: la (2), les (0), il (2), ils (1), elles (2), sont (2), hommes (0), femmes (0), garçons (0), filles (0), enfants (0), livre (2), lettre (0), journal (1), voici (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S2001 | L'homme est une femme. | The man is a woman. |  | [#1098100](https://tatoeba.org/en/sentences/show/1098100) | nimfeo |
-| S2002 | C'est elle Marie ? | Is she Mary? |  | [#8738926](https://tatoeba.org/en/sentences/show/8738926) | Micsmithel |
-| S2003 | C'est elle. | That's her. |  | [#2190155](https://tatoeba.org/en/sentences/show/2190155) | sacredceltic |
-| S2004 | C'est le garçon. | This is the boy. |  | [#1949408](https://tatoeba.org/en/sentences/show/1949408) | sacredceltic |
-| S2005 | C'est elles. | That's them. |  | [#9392023](https://tatoeba.org/en/sentences/show/9392023) | Micsmithel |
-| S2006 | C'est un livre. | That's a book. | That is a book.; It is a book.; This is a book. | [#337037](https://tatoeba.org/en/sentences/show/337037) | sysko |
-| S2007 | C'est un journal. | This is a newspaper. |  | [#3578397](https://tatoeba.org/en/sentences/show/3578397) | Julien_PDC |
+| S2001 | Le livre est ici. | The book is here. |  | [#11215](https://tatoeba.org/en/sentences/show/11215) | sacredceltic |
+| S2002 | Le livre est petit. | The book is small. |  | [#1447158](https://tatoeba.org/en/sentences/show/1447158) | Micsmithel |
+| S2003 | Ils sont ici ? | Are they here? |  | [#5240640](https://tatoeba.org/en/sentences/show/5240640) | Iriep |
+| S2004 | Elle est ici ? | Is she here? |  | [#5259925](https://tatoeba.org/en/sentences/show/5259925) | Iriep |
+| S2005 | Elles sont ici ? | Are they here? |  | [#5259932](https://tatoeba.org/en/sentences/show/5259932) | Iriep |
+| S2006 | Il est petit. | He's small. | He is small. | [#8660251](https://tatoeba.org/en/sentences/show/8660251) | Julien_PDC |
+| S2007 | Elle est petite. | She's small. | She is small. | [#8660252](https://tatoeba.org/en/sentences/show/8660252) | Julien_PDC |
+| S2008 | La femme est grande. | The woman is big. |  | [#7077712](https://tatoeba.org/en/sentences/show/7077712) | felix63 |
+| S2009 | La femme est petite. | The woman is small. |  | [#13957766](https://tatoeba.org/en/sentences/show/13957766) | Rovo |
+| S2010 | Elle est grande. | She's tall. | She is tall. | [#8781258](https://tatoeba.org/en/sentences/show/8781258) | felix63 |
+| S2011 | L'homme est grand. | The man is tall. |  | [#2989625](https://tatoeba.org/en/sentences/show/2989625) | Julien_PDC |
+| S2012 | L'enfant est grand. | The child is big. |  | [#7077720](https://tatoeba.org/en/sentences/show/7077720) | felix63 |
+| S2013 | Il est ici ! | He is here! | Here he is! | [#10192](https://tatoeba.org/en/sentences/show/10192) | sacredceltic |
+| S2014 | L'homme est une femme. | The man is a woman. |  | [#1098100](https://tatoeba.org/en/sentences/show/1098100) | nimfeo |
+| S2015 | C'est grand ! | It's big! | That's great!; That's big!; That's brilliant! | [#1188724](https://tatoeba.org/en/sentences/show/1188724) | sacredceltic |
+| S2016 | C'est elles. | That's them. |  | [#9392023](https://tatoeba.org/en/sentences/show/9392023) | Micsmithel |
+| S2017 | Tu es grande. | You're big. | You are big. | [#1121146](https://tatoeba.org/en/sentences/show/1121146) | sacredceltic |
+| S2018 | C'est le garçon. | This is the boy. |  | [#1949408](https://tatoeba.org/en/sentences/show/1949408) | sacredceltic |
+| S2019 | C'est un journal. | This is a newspaper. |  | [#3578397](https://tatoeba.org/en/sentences/show/3578397) | Julien_PDC |
+| S2020 | Je suis petite. | I'm short. | I am short. | [#6774550](https://tatoeba.org/en/sentences/show/6774550) | Micsmithel |
+| S2021 | C'est un petit homme. | He is a small man. |  | [#3684421](https://tatoeba.org/en/sentences/show/3684421) | fleur74 |
+| S2022 | C'est ici ? | Is it here? |  | [#1235985](https://tatoeba.org/en/sentences/show/1235985) | sascha |
+| S2023 | C'est elle Marie ? | Is she Mary? |  | [#8738926](https://tatoeba.org/en/sentences/show/8738926) | Micsmithel |
+| S2024 | Grand merci. | Many thanks. | Thank you ever so much. | [#1240314](https://tatoeba.org/en/sentences/show/1240314) | sacredceltic |
+| S2025 | C'est elle. | That's her. |  | [#2190155](https://tatoeba.org/en/sentences/show/2190155) | sacredceltic |
+| S2026 | Tu es grand. | You're big. | You're tall.; You are big. | [#1121145](https://tatoeba.org/en/sentences/show/1121145) | sacredceltic |
+| S2027 | Un grand merci. | Thank you ever so much. |  | [#1240319](https://tatoeba.org/en/sentences/show/1240319) | sacredceltic |
+| S2028 | Je suis ici. | I am here. | I'm over here. | [#4579521](https://tatoeba.org/en/sentences/show/4579521) | sacredceltic |
+| S2029 | Je suis grande. | I'm tall. |  | [#5064942](https://tatoeba.org/en/sentences/show/5064942) | sacredceltic |
+| S2030 | Tu es ici. | You're here. |  | [#5240624](https://tatoeba.org/en/sentences/show/5240624) | Iriep |
 
 ## U03 Phrases: Set phrases; tu vs. vous (es|êtes)
 
