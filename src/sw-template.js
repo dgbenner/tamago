@@ -36,7 +36,7 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(request.url)
   if (request.method !== 'GET' || url.origin !== self.location.origin) return
   event.respondWith((async () => {
-    const key = request.mode === 'navigate' ? '/index.html' : url.pathname
+    const key = request.mode === 'navigate' ? '/' : url.pathname
     const cached = await caches.match(key)
     if (!cached) return fetch(request)
     return request.headers.has('range') ? rangeResponse(request, cached) : cached

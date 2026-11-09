@@ -16,7 +16,9 @@ function serviceWorker() {
       const files = walk('dist').filter((f) => !f.endsWith('sw.js') && !/[\\/]_(headers|redirects)$/.test(f)) // host config files are never served
       const hash = createHash('sha1')
       for (const f of files) hash.update(readFileSync(f))
-      const urls = files.map((f) => `/${relative('dist', f)}`)
+      // The page is cached as / because Cloudflare Pages answers /index.html with a redirect to /, and a
+      // cached redirect can't be served for a page load.
+      const urls = files.map((f) => (`/${relative('dist', f)}`).replace(/\/index\.html$/, '/'))
       const source = readFileSync('src/sw-template.js', 'utf8')
         .replace('__VERSION__', hash.digest('hex').slice(0, 12))
         .replace('__FILES__', JSON.stringify(urls))
