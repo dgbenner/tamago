@@ -32,13 +32,11 @@ export default function Logo() {
   )
 }
 
-// Home's header lockup: the wordmark is what gets centred; the sushi sits to its left with a small gap,
-// outside the centring.
+// Home's header: the wordmark alone, centred.
 export function LogoInline() {
   return (
-    <div className="relative" role="img" aria-label="Tamago">
-      <img src="/logo.png" alt="" className="absolute top-1/2 right-full mr-1.5 w-[29px] -translate-y-1/2" />
-      <svg className="block w-[86px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
+    <div role="img" aria-label="Tamago">
+      <svg className="block w-[103px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
         {LETTERS.map((strokes, i) => <LetterStrokes key={i} d={strokes.join('')} />)}
       </svg>
     </div>
