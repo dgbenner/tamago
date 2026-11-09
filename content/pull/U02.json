@@ -1,0 +1,313 @@
+{
+  "unit_id": "U02",
+  "pulled_at": "2026-11-09",
+  "candidates": 7,
+  "sentences": [
+    {
+      "sentence_id": "S2001",
+      "unit_id": "U02",
+      "french": "L'homme est une femme.",
+      "english": "The man is a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1098100",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2002",
+      "unit_id": "U02",
+      "french": "C'est elle Marie ?",
+      "english": "Is she Mary?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8738926",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2003",
+      "unit_id": "U02",
+      "french": "C'est elle.",
+      "english": "That's her.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2190155",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2004",
+      "unit_id": "U02",
+      "french": "C'est le garçon.",
+      "english": "This is the boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1949408",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2005",
+      "unit_id": "U02",
+      "french": "C'est elles.",
+      "english": "That's them.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9392023",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2006",
+      "unit_id": "U02",
+      "french": "C'est un livre.",
+      "english": "That's a book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "337037",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sysko",
+      "other_english": [
+        "That is a book.",
+        "It is a book.",
+        "This is a book."
+      ]
+    },
+    {
+      "sentence_id": "S2007",
+      "unit_id": "U02",
+      "french": "C'est un journal.",
+      "english": "This is a newspaper.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3578397",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S2001",
+      "position": 1,
+      "surface": "L'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 2,
+      "surface": "homme",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 4,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 5,
+      "surface": "femme",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 2,
+      "surface": "elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 3,
+      "surface": "Marie",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 2,
+      "surface": "elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 2,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 3,
+      "surface": "garçon",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2005",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2005",
+      "position": 2,
+      "surface": "elles",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 3,
+      "surface": "livre",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2007",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2007",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2007",
+      "position": 3,
+      "surface": "journal",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A20061",
+      "sentence_id": "S2006",
+      "direction": "fr_to_en",
+      "answer": "That is a book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20062",
+      "sentence_id": "S2006",
+      "direction": "fr_to_en",
+      "answer": "It is a book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20063",
+      "sentence_id": "S2006",
+      "direction": "fr_to_en",
+      "answer": "This is a book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

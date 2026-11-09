@@ -6,7 +6,7 @@ import { createRequire } from 'node:module'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v6.xlsx')
+const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v7.xlsx')
 const OUT = join(ROOT, 'content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)
@@ -76,8 +76,10 @@ for (const s of tables.sentences) {
   }
 }
 const usedWords = new Set((tables.sentence_words ?? []).map((sw) => sw.word_id))
+// Only a live unit's words must be in use; a draft unit's sentences arrive with the Tatoeba pull.
+const liveUnits = new Set(tables.units.filter((u) => String(u.status).startsWith('live')).map((u) => u.unit_id))
 for (const w of tables.words) {
-  if (!usedWords.has(w.word_id)) fail(`words ${w.word_id} "${w.form}": used by no sentence`)
+  if (liveUnits.has(w.first_unit) && !usedWords.has(w.word_id)) fail(`words ${w.word_id} "${w.form}": used by no sentence`)
 }
 
 // A pair_id links exactly one question and one answer.
@@ -133,6 +135,16 @@ for (const [i, f] of (tables.feedback_phrases ?? []).entries()) {
 for (const [i, v] of tables.variants.entries()) {
   if (!/^(|\d(-\d)?|\w+ only)$/.test(String(v.use_in_rounds ?? ''))) fail(`variants row ${i + 2}: cannot read use_in_rounds "${v.use_in_rounds}"`)
 }
+// tree_layout: every unit placed once; unlocks_after names an earlier row.
+const placed = new Map()
+for (const [i, t] of (tables.tree_layout ?? []).entries()) {
+  if (!ids.units.has(t.unit_id)) fail(`tree_layout row ${i + 2}: unit "${t.unit_id}" not in units`)
+  if (placed.has(t.unit_id)) fail(`tree_layout: ${t.unit_id} placed twice`)
+  placed.set(t.unit_id, t.row)
+  const m = String(t.unlocks_after).match(/^row (\d+)$/)
+  if (t.unlocks_after !== '' && !(m && Number(m[1]) < t.row)) fail(`tree_layout row ${i + 2}: cannot read unlocks_after "${t.unlocks_after}"`)
+}
+for (const u of tables.units) if (!placed.has(u.unit_id)) fail(`units ${u.unit_id}: not in tree_layout`)
 // qa_answers: both sides are sentences.
 for (const [i, q] of (tables.qa_answers ?? []).entries()) {
   for (const col of ['question_sentence_id', 'answer_sentence_id']) {

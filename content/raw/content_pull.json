@@ -1,0 +1,47 @@
+[
+  {
+    "rule_id": "P01",
+    "topic": "Source",
+    "rule": "Tatoeba French sentences with linked English, passing the Phase 0 checked rule (exact French, linked English, native owner or OK tag)."
+  },
+  {
+    "rule_id": "P02",
+    "topic": "Vocabulary",
+    "rule": "Every word in a sentence is in the unit's word list or an earlier unit's, or is a name. Elided forms (j', l') count as their word."
+  },
+  {
+    "rule_id": "P03",
+    "topic": "Length",
+    "rule": "2 to 7 words."
+  },
+  {
+    "rule_id": "P04",
+    "topic": "Target",
+    "rule": "30 to 40 live sentences per unit. Each new word appears in at least 3 sentences."
+  },
+  {
+    "rule_id": "P05",
+    "topic": "Grammar",
+    "rule": "At least 10 sentences per unit use the unit's grammar point. Each contrast pair appears on both sides at least twice."
+  },
+  {
+    "rule_id": "P06",
+    "topic": "Questions",
+    "rule": "At least 4 questions per unit for QT09, each with Tatoeba sentences that answer it, listed in qa_answers."
+  },
+  {
+    "rule_id": "P07",
+    "topic": "English",
+    "rule": "Prefer the plainest linked English as the main translation; add other linked translations as accepted answers. Drop sentences whose only English is an idiom (as with S0033 and S0038)."
+  },
+  {
+    "rule_id": "P08",
+    "topic": "Gaps",
+    "rule": "If a word has fewer than 3 usable sentences, list it in review.md. Don't draft sentences; Dan decides whether to drop the word or have Claude draft them."
+  },
+  {
+    "rule_id": "P09",
+    "topic": "Approval",
+    "rule": "Dan approves the pulled list in review.md before a unit goes live."
+  }
+]

@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 38 (20 matched to Tatoeba, 18 Tamago originals), 2 off, 0 awaiting a ruling. Words with Wiktionary data: 18 of 18. French-to-English answers: 16 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 17.
+Sentences live: 38 (20 matched to Tatoeba, 18 Tamago originals), 2 off, 0 awaiting a ruling. Words with Wiktionary data: 76 of 76. French-to-English answers: 16 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 17.
 
 Unit 1 is approved and live.
 
@@ -33,7 +33,7 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S0039 |  | Tu es une femme ? | Are you a woman? | tts |
 | S0040 |  | Tu es un homme ? | Are you a man? | tts |
 
-## Words, for a read-through (18)
+## Words, for a read-through (76)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -57,6 +57,64 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W016 | fille | fille | Noun | f | girl | checked |
 | W017 | enfant | enfant | Noun | m/f | child | checked |
 | W018 | et | et | Conjunction |  | and | checked |
+| W019 | le | le | Article | m | the | checked |
+| W020 | la | la | Article | f | feminine of le: the | checked |
+| W021 | l' | l' | Article |  | apocopic form of le, la: the | checked |
+| W022 | les | le | Article |  | plural of le: the (le: the) | checked |
+| W023 | il | il | Pronoun |  | he | checked |
+| W024 | elle | elle | Pronoun |  | she | checked |
+| W025 | est | être | Verb |  | third-person singular present indicative of être (être: to be) | checked |
+| W026 | ils | ils | Pronoun |  | they | checked |
+| W027 | elles | elles | Pronoun |  | they | checked |
+| W028 | sont | être | Verb |  | third-person plural present indicative of être (être: to be) | checked |
+| W029 | hommes | homme | Noun | m | plural of homme (homme: man) | checked |
+| W030 | femmes | femme | Noun | f | plural of femme (femme: woman) | checked |
+| W031 | garçons | garçon | Noun | m | plural of garçon (garçon: boy) | checked |
+| W032 | filles | fille | Noun | f | plural of fille (fille: girl) | checked |
+| W033 | enfants | enfant | Noun | m | plural of enfant (enfant: child) | checked |
+| W034 | livre | livre | Noun | m | book | checked |
+| W035 | lettre | lettre | Noun | f | letter | checked |
+| W036 | journal | journal | Noun | m | newspaper | checked |
+| W037 | s'il vous plaît | s'il vous plaît | Phrase |  | please, if you please | checked |
+| W038 | s'il te plaît | s'il te plaît | Phrase |  | please | checked |
+| W039 | excusez-moi | excusez-moi | Interjection |  | excuse me | checked |
+| W040 | pardon | pardon | Interjection |  | excuse me | checked |
+| W041 | salut | salut | Interjection |  | hi, hello | checked |
+| W042 | bonsoir | bonsoir | Interjection |  | good evening | checked |
+| W043 | bonne nuit | bonne nuit | Interjection |  | good night | checked |
+| W044 | de rien | de rien | Phrase |  | you're welcome, it's nothing | checked |
+| W045 | à bientôt | à bientôt | Interjection |  | see you soon, see you later, laters | checked |
+| W046 | comment | comment | Adverb |  | how | checked |
+| W047 | ça va | ça va | Interjection |  | how are you? how's it going? how are things? | checked |
+| W048 | bien | bien | Adverb |  | well | checked |
+| W049 | vous | vous | Pronoun |  | the plural personal pronoun in the second person you | checked |
+| W050 | êtes | être | Verb |  | second-person plural present indicative of être (être: to be) | checked |
+| W051 | mange | manger | Verb |  | inflection of manger: first/third-person singular present indicative/subjunctive second-person singular imperative (manger: to eat) | checked |
+| W052 | manges | manger | Verb |  | second-person singular present indicative/subjunctive of manger (manger: to eat) | checked |
+| W053 | aime | aimer | Verb |  | inflection of aimer: first/third-person singular present indicative/subjunctive second-person singular imperative (aimer: to love) | checked |
+| W054 | aimes | aimer | Verb |  | second-person singular present indicative/subjunctive of aimer (aimer: to love) | checked |
+| W055 | j' | j' | Pronoun |  | clitic form of je | checked |
+| W056 | pain | pain | Noun | m | bread | checked |
+| W057 | pomme | pomme | Noun | f | apple | checked |
+| W058 | eau | eau | Noun | f | water, a liquid that is transparent, colorless, odorless, and tasteless in its pure form, the primary constituent of lakes, rivers, seas, and oceans | checked |
+| W059 | lait | lait | Noun | m | milk | checked |
+| W060 | fromage | fromage | Noun | m | cheese | checked |
+| W061 | orange | orange | Noun | f | orange | checked |
+| W062 | sandwich | sandwich | Noun | m | sandwich | checked |
+| W063 | du | du | Article | m | Forms the partitive article. | checked |
+| W064 | de | de | Preposition |  | from | checked |
+| W065 | ai | avoir | Verb |  | first-person singular present indicative of avoir (avoir: to have; to own; to possess; to get) | checked |
+| W066 | as | avoir | Verb |  | second-person singular present indicative of avoir (avoir: to have; to own; to possess; to get) | checked |
+| W067 | a | avoir | Verb |  | third-person singular present indicative of avoir (avoir: to have; to own; to possess; to get) | checked |
+| W068 | chat | chat | Noun | m | cat | checked |
+| W069 | chien | chien | Noun | m | dog | checked |
+| W070 | cheval | cheval | Noun | m | horse | checked |
+| W071 | oiseau | oiseau | Noun | m | bird | checked |
+| W072 | canard | canard | Noun | m | duck | checked |
+| W073 | tortue | tortue | Noun | f | turtle or tortoise | checked |
+| W074 | souris | souris | Noun | f | mouse | checked |
+| W075 | animal | animal | Noun | m | animal | checked |
+| W076 | animaux | animal | Noun | m | plural of animal (animal: animal) | checked |
 
 ## Matched to Tatoeba (20)
 

@@ -37,8 +37,15 @@ export function loadTatoeba() {
   const natives = new Set(rows('user_languages.csv').filter((r) => r[0] === 'fra' && r[1] === '5').map((r) => r[2]))
   const okTagged = new Set(rows('tags.csv').filter((r) => r[1] === 'OK').map((r) => r[0]))
 
+  // How often each word appears across Tatoeba's English, for picking the plainest translation.
+  const englishWordCounts = () => {
+    const counts = new Map()
+    for (const text of english.values()) for (const w of text.toLowerCase().match(/[a-z']+/g) ?? []) counts.set(w, (counts.get(w) ?? 0) + 1)
+    return counts
+  }
+
   return {
-    french,
+    french, englishWordCounts,
     englishFor: (id) => (links.get(id) ?? []).map((e) => english.get(e)).filter(Boolean),
     // Tatoeba has no "checked" field. These are the two signals it does publish.
     trustOf: (s) => ({ native_owner: natives.has(s.owner), ok_tag: okTagged.has(s.id) }),

@@ -265,16 +265,26 @@ const clean = (html) => String(html).replace(/<[^>]+>/g, '').replace(/&#32;/g, '
 const shorten = (d) => d.replace(/\s*\([^)]*\)/g, '').trim()
 const title = (form) => encodeURIComponent(form.replace(/ /g, '_'))
 
+// Very large pages ("a") keep most languages on subpages; French is then on one of these.
+const SUBPAGES = ['', '/languages_A_to_L', '/languages_M_to_Z']
+
 async function french(form) {
-  const defs = await getJson(`https://en.wiktionary.org/api/rest_v1/page/definition/${title(form)}`)
-  const entries = (defs?.fr ?? []).map((e) => ({ pos: e.partOfSpeech, definitions: e.definitions.map((x) => clean(x.definition)).filter(Boolean) }))
-  return entries
+  for (const sub of SUBPAGES) {
+    const defs = await getJson(`https://en.wiktionary.org/api/rest_v1/page/definition/${title(form)}${encodeURIComponent(sub)}`)
+    const entries = (defs?.fr ?? []).map((e) => ({ pos: e.partOfSpeech, definitions: e.definitions.map((x) => clean(x.definition)).filter(Boolean) }))
+    if (entries.length) return entries
+  }
+  return []
 }
 
 async function frenchWikitext(form) {
-  const p = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${title(form)}&prop=wikitext&format=json&redirects=1`)
-  const wt = p?.parse?.wikitext?.['*'] ?? ''
-  return wt.match(/(?:^|\n)==French==\n([\s\S]*?)(?=\n==[^=]|$)/)?.[1] ?? ''
+  for (const sub of SUBPAGES) {
+    const p = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${title(form)}${encodeURIComponent(sub)}&prop=wikitext&format=json&redirects=1`)
+    const wt = p?.parse?.wikitext?.['*'] ?? ''
+    const section = wt.match(/(?:^|\n)==French==\n([\s\S]*?)(?=\n==[^=]|$)/)?.[1]
+    if (section) return section
+  }
+  return ''
 }
 
 // Gender from the headword template under the entry's part-of-speech heading.

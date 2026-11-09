@@ -1,21 +1,252 @@
 {
   "_about": "Which Wiktionary entry each word uses in the course: part of speech, plus text the definition must contain. This picks among Wiktionary's senses; the gloss itself is always Wiktionary's wording. A word not listed here takes the first French entry and is flagged in review.md.",
-  "W001": { "pos": "Interjection" },
-  "W002": { "pos": "Interjection" },
-  "W003": { "pos": "Interjection" },
-  "W004": { "pos": "Adverb" },
-  "W005": { "pos": "Adverb" },
-  "W006": { "pos": "Pronoun" },
-  "W007": { "pos": "Pronoun" },
-  "W008": { "pos": "Verb", "match": "être" },
-  "W009": { "pos": "Verb", "match": "être" },
-  "W010": { "pos": "Contraction" },
-  "W011": { "pos": "Article" },
-  "W012": { "pos": "Article" },
-  "W013": { "pos": "Noun" },
-  "W014": { "pos": "Noun" },
-  "W015": { "pos": "Noun" },
-  "W016": { "pos": "Noun" },
-  "W017": { "pos": "Noun" },
-  "W018": { "pos": "Conjunction" }
+  "W001": {
+    "pos": "Interjection"
+  },
+  "W002": {
+    "pos": "Interjection"
+  },
+  "W003": {
+    "pos": "Interjection"
+  },
+  "W004": {
+    "pos": "Adverb"
+  },
+  "W005": {
+    "pos": "Adverb"
+  },
+  "W006": {
+    "pos": "Pronoun"
+  },
+  "W007": {
+    "pos": "Pronoun"
+  },
+  "W008": {
+    "pos": "Verb",
+    "match": "être"
+  },
+  "W009": {
+    "pos": "Verb",
+    "match": "être"
+  },
+  "W010": {
+    "pos": "Contraction"
+  },
+  "W011": {
+    "pos": "Article"
+  },
+  "W012": {
+    "pos": "Article"
+  },
+  "W013": {
+    "pos": "Noun"
+  },
+  "W014": {
+    "pos": "Noun"
+  },
+  "W015": {
+    "pos": "Noun"
+  },
+  "W016": {
+    "pos": "Noun"
+  },
+  "W017": {
+    "pos": "Noun"
+  },
+  "W018": {
+    "pos": "Conjunction"
+  },
+  "W019": {
+    "pos": "Article"
+  },
+  "W020": {
+    "pos": "Article"
+  },
+  "W021": {
+    "pos": "Article"
+  },
+  "W022": {
+    "pos": "Article"
+  },
+  "W023": {
+    "pos": "Pronoun"
+  },
+  "W024": {
+    "pos": "Pronoun"
+  },
+  "W025": {
+    "pos": "Verb",
+    "match": "être"
+  },
+  "W026": {
+    "pos": "Pronoun"
+  },
+  "W027": {
+    "pos": "Pronoun"
+  },
+  "W028": {
+    "pos": "Verb",
+    "match": "être"
+  },
+  "W029": {
+    "pos": "Noun"
+  },
+  "W030": {
+    "pos": "Noun"
+  },
+  "W031": {
+    "pos": "Noun"
+  },
+  "W032": {
+    "pos": "Noun"
+  },
+  "W033": {
+    "pos": "Noun"
+  },
+  "W034": {
+    "pos": "Noun",
+    "match": "book"
+  },
+  "W035": {
+    "pos": "Noun"
+  },
+  "W036": {
+    "pos": "Noun",
+    "match": "newspaper"
+  },
+  "W037": {
+    "pos": "Phrase"
+  },
+  "W038": {
+    "pos": "Phrase"
+  },
+  "W039": {
+    "pos": "Interjection"
+  },
+  "W040": {
+    "pos": "Interjection"
+  },
+  "W041": {
+    "pos": "Interjection"
+  },
+  "W042": {
+    "pos": "Interjection"
+  },
+  "W043": {
+    "pos": "Interjection"
+  },
+  "W044": {
+    "pos": "Phrase"
+  },
+  "W045": {
+    "pos": "Interjection"
+  },
+  "W046": {
+    "pos": "Adverb"
+  },
+  "W047": {
+    "pos": "Interjection"
+  },
+  "W048": {
+    "pos": "Adverb",
+    "match": "well"
+  },
+  "W049": {
+    "pos": "Pronoun"
+  },
+  "W050": {
+    "pos": "Verb",
+    "match": "être"
+  },
+  "W051": {
+    "pos": "Verb",
+    "match": "manger"
+  },
+  "W052": {
+    "pos": "Verb",
+    "match": "manger"
+  },
+  "W053": {
+    "pos": "Verb",
+    "match": "aimer"
+  },
+  "W054": {
+    "pos": "Verb",
+    "match": "aimer"
+  },
+  "W055": {
+    "pos": "Pronoun"
+  },
+  "W056": {
+    "pos": "Noun"
+  },
+  "W057": {
+    "pos": "Noun"
+  },
+  "W058": {
+    "pos": "Noun"
+  },
+  "W059": {
+    "pos": "Noun"
+  },
+  "W060": {
+    "pos": "Noun"
+  },
+  "W061": {
+    "pos": "Noun",
+    "match": "orange"
+  },
+  "W062": {
+    "pos": "Noun"
+  },
+  "W063": {
+    "pos": "Article"
+  },
+  "W064": {
+    "pos": "Preposition"
+  },
+  "W065": {
+    "pos": "Verb",
+    "match": "avoir"
+  },
+  "W066": {
+    "pos": "Verb",
+    "match": "avoir"
+  },
+  "W067": {
+    "pos": "Verb",
+    "match": "avoir"
+  },
+  "W068": {
+    "pos": "Noun",
+    "match": "cat"
+  },
+  "W069": {
+    "pos": "Noun",
+    "match": "dog"
+  },
+  "W070": {
+    "pos": "Noun"
+  },
+  "W071": {
+    "pos": "Noun"
+  },
+  "W072": {
+    "pos": "Noun"
+  },
+  "W073": {
+    "pos": "Noun"
+  },
+  "W074": {
+    "pos": "Noun",
+    "match": "mouse"
+  },
+  "W075": {
+    "pos": "Noun",
+    "match": "animal"
+  },
+  "W076": {
+    "pos": "Noun",
+    "match": "plural"
+  }
 }

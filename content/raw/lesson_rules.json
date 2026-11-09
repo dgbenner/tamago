@@ -112,5 +112,17 @@
     "topic": "Match pairs",
     "rule": "A correct pair animates out together. No green outline. A wrong pair shakes and stays.",
     "notes": ""
+  },
+  {
+    "rule_id": "R20",
+    "topic": "Unlocking",
+    "rule": "A row opens when every unit in the row above has finished round 1. Rounds 2 to 5 of a unit can be done any time after it opens.",
+    "notes": "starting rule; tune with use"
+  },
+  {
+    "rule_id": "R21",
+    "topic": "Unit order within a lesson",
+    "rule": "A lesson draws only on its own unit's words plus words from units already opened. Names (Paul, Marie) are allowed in any unit.",
+    "notes": ""
   }
 ]
