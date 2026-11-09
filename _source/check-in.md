@@ -1,10 +1,14 @@
 # Tamago check-in
 
-Updated November 9, 2026, evening. A1 is now complete at 13 units, with icons. Nothing has been deployed; it's all local and on GitHub. Phases 2a to 5 are built; the details are in the build log.
+Updated November 9, 2026, night. **Tamago now lives on Cloudflare Pages: https://tamago-83f.pages.dev** (A1 complete at 13 units, with icons). Every push to GitHub deploys there. Netlify builds are stopped; the old site at https://tamago-590.netlify.app still exists, frozen at Phase 5. Phases 2a to 5 are built; the details are in the build log.
 
 ## Done since last check-in
 
-- **Netlify deploys are paused.** netlify.toml now has `ignore = "exit 0"`, so Netlify skips the build on every push. Commits still go to GitHub. The live site stays as it was at the end of Phase 5; I checked that it didn't change after the push.
+- **Moved to Cloudflare Pages.** Project tamago, connected to the GitHub repo, so every push to main deploys (about 30 seconds). Live: https://tamago-83f.pages.dev
+  - The two Claude functions are now Cloudflare Pages Functions at /api/explain and /api/generate; the handlers are shared in server/. They still answer "not set up" until the key is added (item 4).
+  - Fixed on the way: Cloudflare redirects /index.html to /, and the offline cache had stored that redirect, which made a second visit fail to load. The page is now cached as /.
+  - Checked on the live site in Chrome and Firefox: lessons, Units 1 to 13, placement, review, Make your own, backup and restore, and a reload with no connection. No errors.
+- **Netlify builds stopped** (Build settings, Stop builds) through the API, so pushes use no more credits. The site tamago-590 is not deleted and still serves its Phase 5 version.
 - **Unit icons from your sushi art.** All 35 files are copied into _source/icons and sorted into nigiri (26), maki (6) and temaki (3). App-sized copies (192 px) are in public/icons.
   - The A1 tree is planned at 13 units: Units 1 to 5 get nigiri, 6 to 9 maki, 10 to 13 temaki. Each pick is random, made once per unit, then kept (content/unit-icons.json).
   - The tree shows the icon in place of the unit number. Locally only, for now.
@@ -35,24 +39,17 @@ Updated November 9, 2026, evening. A1 is now complete at 13 units, with icons. N
      - The 21 square files (Aji, Amaebi … Uni, 512 by 512) carry no origin either. Please confirm where they came from.
    - Commercial emoji check: none of the files is a copy of an Apple, Google, Samsung or Microsoft emoji. The "Emoji" in some file names reads as a generation prompt, not a vendor set. The OpenAI terms assign generated images to you. If the 512 set came from a stock or emoji pack, tell me which, and I'll check its licence.
    - No icon has a face, a character or text.
-2. **Moving hosting to Cloudflare Pages (when you're ready).** Before you start, I'll move the two Claude functions to Cloudflare's format and add the header and redirect files; that needs no account. Then:
-   1. Sign in at https://dash.cloudflare.com (you already use Cloudflare for Transmission and Meridian News).
-   2. Workers & Pages, Create, Pages, Connect to Git. Authorise GitHub for the repo dgbenner/tamago.
-   3. Build settings: build command `npm run build`, output directory `dist`. Add the environment variable NODE_VERSION = 22.
-   4. Save and deploy. The site gets an address like https://tamago-xxx.pages.dev.
-   5. When you want the Claude features: under Settings, Variables and secrets, add TAMAGO_ANTHROPIC_API_KEY as a secret.
-   6. Then tell me the address and I'll check it end to end. After that, Netlify can be unlinked (Site configuration, Build and deploy, Link repository), or the site deleted. That's your call.
-3. **Native-speaker check (now 303 sentences: 18 in Unit 1 and the 285 drafts listed below).** Arrange the person. On their phone they open https://tamago-590.netlify.app, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
+2. **Netlify (your call, no hurry).** Builds are stopped and the old site still serves Phase 5 at https://tamago-590.netlify.app. Anyone who had it installed stays on that old version; the new home is https://tamago-83f.pages.dev. Delete the Netlify site whenever you like, or keep it. A custom domain on Cloudflare (for example a subdomain of danbenner.com) is a few clicks when you want one.
+3. **Native-speaker check (now 303 sentences: 18 in Unit 1 and the 285 drafts listed below).** Arrange the person. On their phone they open https://tamago-83f.pages.dev, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
 4. **Claude explanations and Claude-written practice (costs money, needs your API key).** One key turns on both.
    1. In the Anthropic Console (https://console.anthropic.com), create an API key.
-   2. In Netlify (https://app.netlify.com), open the site tamago-590, then Site configuration, then Environment variables. Add TAMAGO_ANTHROPIC_API_KEY with the key as its value. Use a key made for Tamago: your Netlify account already has an ANTHROPIC_API_KEY (from another project, I assume), and Tamago deliberately ignores it. For about two minutes after the first Phase 4 deploy the function would have used that shared key; it was only reachable after a wrong typed answer on the live site, and the fix went live right after.
-   3. Under Deploys, choose Trigger deploy. Settings then shows explanations as on.
+   2. In Cloudflare (https://dash.cloudflare.com), open Workers & Pages, then tamago, then Settings, then Variables and secrets. Add TAMAGO_ANTHROPIC_API_KEY as a Secret (Production), with the key as its value. Use a key made for Tamago only; Tamago never reads a generic ANTHROPIC_API_KEY.
+   3. Redeploy (Deployments, the latest one, Retry deployment), or just tell me and I'll push. Settings then shows explanations as on.
    - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output, and one explanation is a few hundred tokens. A thousand explanations cost well under a dollar. Claude-written practice uses the main model (Opus 5.5, $4 per million input tokens and $20 per million output), so a set of sentences or a listening exchange costs a few cents.
 5. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
 6. **Testers (your call).** When you say go, I'll turn Testing shortcuts off by default and give you the link to send. Until there's a server, testers send their flags by saving the flags file.
 7. **Earlier items:**
    - Try the topics and Words on your phone.
-   - Hosting: the Netlify badge can't be hidden; moving to Cloudflare Pages needs your account.
 
 ## Drafted sentences
 

@@ -1,6 +1,7 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  # Netlify is retired (2026-11-09): hosting is Cloudflare Pages, and builds are also stopped in Netlify's settings.
   # Deploys are paused (Dan, 2026-11-09: the account is at 50% of its monthly credits). An ignore command that
   # exits 0 makes Netlify skip the build for every push, so commits reach GitHub without deploying. Remove this
   # line only when Dan says to deploy; hosting is moving to Cloudflare.

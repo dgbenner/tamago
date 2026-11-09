@@ -249,3 +249,12 @@ Kept under _source/autonomous-build.md. Newest phase first.
 **Waiting for Dan**
 
 - Reading the new units; the native-speaker check list (84 sentences); hosting move off Netlify.
+
+## Hosting moved to Cloudflare Pages (2026-11-09)
+
+- Dan connected the repo to a Pages project (tamago, https://tamago-83f.pages.dev): build `npm run build`, output `dist`, NODE_VERSION 22. Push to main deploys.
+- Functions ported: server/explain.mjs and server/generate.mjs hold the handlers as handle(req, key); functions/api/*.js (Pages) and netlify/functions/*.mjs (old host) are thin wrappers. The client calls /api/explain and /api/generate. The SDK runs in workerd without nodejs_compat (checked with a fake key under wrangler pages dev: AuthenticationError, 503 key).
+- public/_headers keeps sw.js no-cache; Pages' default SPA fallback replaces the Netlify redirect. _headers and _redirects stay out of the precache list.
+- Bug found on the first live run: Pages answers /index.html with a 308 to /, the service worker precached the redirect, and a reload failed (ERR_FAILED). The page is now precached and served as /. Offline reload checked in Chrome and Firefox.
+- Live checks (Chrome and Firefox): home tree, A1 lessons and placement, the lesson e2e, Phase 4 backup and restore, Phase 5 makers (test mocks moved to /api). No page errors.
+- Netlify: stop_builds set to true through the API; the site was not deleted.
