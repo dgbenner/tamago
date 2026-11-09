@@ -1,5 +1,5 @@
-// Claude explains a mistake on a typed answer (Phase 4). Off until Dan sets ANTHROPIC_API_KEY in Netlify's
-// environment variables: GET reports whether it's ready, so the app shows nothing in lessons until it is.
+// Claude explains a mistake on a typed answer (Phase 4). Off until Dan sets TAMAGO_ANTHROPIC_API_KEY in Netlify's
+// environment variables (a key for Tamago only; a generic ANTHROPIC_API_KEY from another project is never used): GET reports whether it's ready, so the app shows nothing in lessons until it is.
 // Facts stay out of the model's memory: it may only use the sentence, the accepted answers and the Wiktionary
 // hints the app sends. A smaller, faster model (feature list: "a smaller, cheaper model for answer checking").
 import Anthropic from '@anthropic-ai/sdk'
@@ -15,7 +15,8 @@ const json = (body, status = 200) => new Response(JSON.stringify(body), { status
 const clip = (s, n) => String(s ?? '').slice(0, n)
 
 export default async (req) => {
-  const ready = Boolean(process.env.ANTHROPIC_API_KEY)
+  const key = process.env.TAMAGO_ANTHROPIC_API_KEY
+  const ready = Boolean(key)
   if (req.method === 'GET') return json({ ready })
   if (req.method !== 'POST') return json({ error: 'method' }, 405)
   if (!ready) return json({ ready: false, error: 'needs setup' }, 503)
@@ -36,7 +37,8 @@ ${accepted}
 Word meanings (Wiktionary):
 ${hints || '(none)'}`
 
-  const client = new Anthropic()
+  // The key is passed explicitly, so the SDK never falls back to ANTHROPIC_API_KEY.
+  const client = new Anthropic({ apiKey: key })
   try {
     const res = await client.messages.create({
       model: MODEL,
