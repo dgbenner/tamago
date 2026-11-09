@@ -47,7 +47,7 @@ Choices the specs left open, easy to change:
 - Indicators and tags stay muted, like a Bootstrap secondary badge: never bold, never a colour fill. The new-word tag just says "New"; a new word gets a small orange dot to its right.
 - Line weights: 2px where there used to be hairlines; 4px for buttons, choices, chips, the path box and its circles (Dan, 2026-11-09).
 - Match pairs: only the word is centred; the speaker hangs to its left and the new-word dot to its right.
-- Home: points chip in the top left corner, gear top right, the wordmark alone centred between them (103px wide, no sushi); the learning path placeholder in the middle (Dan will spec it), Review and Start or Resume pinned to the bottom. Settings and About keep the centred logo.
+- Home: points chip in the top left corner, gear top right, the wordmark alone centred between them (103px wide, no sushi, orange centre line only; the opening screen keeps all three lines); the learning path placeholder in the middle (Dan will spec it), Review and Start or Resume pinned to the bottom. Settings and About keep the centred logo.
 - The opening screen (draws on, then holds 2 seconds) is a deliberate exception to the feature list's "no loading screens" (Dan, 2026-11-07). It stays out of lessons. The green may be adjusted later.
 
 ## Testing
