@@ -43,15 +43,26 @@ const live = new Set(tables.sentences.map((s) => s.sentence_id))
 tables.sentence_words = raw('sentence_words').filter((sw) => live.has(sw.sentence_id))
 
 // Words: the workbook carries Wiktionary's data and the hint; the check confirms it still agrees.
+// A unit's words ship once the unit is live or Dan has approved it. Where the workbook has Wiktionary's data it
+// must agree with the check; where it's blank (units pulled in Phase 2a) the check fills it.
+const unitOpen = (id) => tables.units.some((u) => u.unit_id === id && (isLive(u) || decisions.units?.[id]?.action === 'approve'))
+// A short hint in Wiktionary's own words: the gloss, or for a form of another word, that word and its meaning.
+const hintFrom = (c) => {
+  const short = (g) => String(g).split(/[;(]/)[0].replace(/^(feminine|plural|apocopic form) of [^:]+: /, '').trim()
+  if (/\b(person|plural|singular|inflection) /.test(c.gloss) && c.lemma_gloss) return `${short(c.lemma_gloss)} (${c.lemma})`
+  return short(c.gloss)
+}
 tables.words = raw('words').flatMap((w) => {
+  if (!unitOpen(w.first_unit)) return []
   const c = wCheck.get(w.word_id)
   if (c?.status !== 'checked') { bad.push(`${w.word_id} check says ${c?.status}: ${c?.flag_reason}`); return [] }
-  for (const col of ['lemma', 'part_of_speech', 'gender']) {
-    if (String(w[col]) !== String(c[col])) bad.push(`${w.word_id} ${col}: workbook "${w[col]}", Wiktionary "${c[col]}"`)
+  const filled = { ...w }
+  for (const col of ['lemma', 'part_of_speech', 'gender', 'gloss']) {
+    if (w[col] === '' || w[col] == null) filled[col] = c[col]
+    else if (col === 'gloss' ? !String(w.gloss).includes(c.gloss) : String(w[col]) !== String(c[col])) bad.push(`${w.word_id} ${col}: workbook "${w[col]}", Wiktionary "${c[col]}"`)
   }
-  if (!String(w.gloss).includes(c.gloss)) bad.push(`${w.word_id} gloss: workbook "${w.gloss}", Wiktionary "${c.gloss}"`)
-  if (!w.hint) bad.push(`${w.word_id} has no hint`)
-  return [{ ...w, gloss_full: c.gloss_full, lemma_gloss: c.lemma_gloss }]
+  if (!filled.hint) { filled.hint = hintFrom(c); filled.hint_source = 'Wiktionary (built)' }
+  return [{ ...filled, gloss_full: c.gloss_full, lemma_gloss: c.lemma_gloss }]
 })
 
 // Answers: workbook rows, plus the en_to_fr rows the check generated.
