@@ -720,6 +720,30 @@
     "status": "live"
   },
   {
+    "answer_id": "A120011",
+    "sentence_id": "S12001",
+    "direction": "fr_to_en",
+    "answer": "Two plus two makes four.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A120071",
+    "sentence_id": "S12007",
+    "direction": "fr_to_en",
+    "answer": "How many books do you possess?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A120201",
+    "sentence_id": "S12020",
+    "direction": "fr_to_en",
+    "answer": "How many books have you got?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
     "answer_id": "GS10107-5057686",
     "sentence_id": "S10107",
     "direction": "en_to_fr",
@@ -778,6 +802,16 @@
     "source_id": "4554306",
     "status": "live",
     "source_owner": "swyter"
+  },
+  {
+    "answer_id": "GS12117-569372",
+    "sentence_id": "S12117",
+    "direction": "en_to_fr",
+    "answer": "¿Cuántos amigos tienes?",
+    "source": "tatoeba",
+    "source_id": "569372",
+    "status": "live",
+    "source_owner": "Shishir"
   },
   {
     "answer_id": "GS3111-1448331",

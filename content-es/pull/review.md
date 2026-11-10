@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U11 Asking Questions: Question words carry an accent: qué, quién, dónde, cuál, por qué; porque in the answer
+## U12 Counting to Ten: Numbers two to ten; cuántos and cuántas with a noun
 
-30 sentences picked from 136 candidates (target 30 to 40). Grammar point in 30 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 35 candidates (target 30 to 40). Grammar point in 21 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): qué 8, quién 6, por qué 5, porque 1, dónde 7, cuál 3.
+Contrast forms, sentences each (target 2): cuántos 10, cuántas 1, dos 9, diez 1.
 
-**Gaps (P08)**, fewer than 3 usable sentences: porque (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: cinco (2), seis (0), siete (0), ocho (0), nueve (0), diez (1), cuántas (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S11001 | ¿Por qué? | Why? |  | [#375872](https://tatoeba.org/en/sentences/show/375872) | megamanenm |
-| S11002 | ¿Dónde estás? | Where are you? |  | [#2998](https://tatoeba.org/en/sentences/show/2998) | Shishir |
-| S11003 | ¿Quién eres? | Who are you? |  | [#356203](https://tatoeba.org/en/sentences/show/356203) | yorickvidal |
-| S11004 | ¿Por qué no? | Why not? |  | [#504549](https://tatoeba.org/en/sentences/show/504549) | Shishir |
-| S11005 | ¿Quién es? | Who's that? | Who is that?; Who is it? | [#541328](https://tatoeba.org/en/sentences/show/541328) | Shishir |
-| S11006 | ¿Qué eres? | What are you? |  | [#546704](https://tatoeba.org/en/sentences/show/546704) | Shishir |
-| S11007 | ¿Dónde estoy? | Where am I? |  | [#659096](https://tatoeba.org/en/sentences/show/659096) | Shishir |
-| S11008 | ¿Qué tienes? | What do you have? | What have you got?; What's up with you? | [#1013495](https://tatoeba.org/en/sentences/show/1013495) | Shishir |
-| S11009 | ¿Cuál es tu perro? | Which dog is yours? |  | [#456918](https://tatoeba.org/en/sentences/show/456918) | Shishir |
-| S11010 | ¿Cuál es su casa? | Which house is his? |  | [#1807508](https://tatoeba.org/en/sentences/show/1807508) | marcelostockle |
-| S11011 | Ellos están aquí porque son mis amigos. | They're here because they're my friends. |  | [#6627488](https://tatoeba.org/en/sentences/show/6627488) | Schuager |
-| S11012 | ¿Por qué yo? | Why me? |  | [#720463](https://tatoeba.org/en/sentences/show/720463) | Shishir |
-| S11013 | ¿Qué tiene? | What do you have? |  | [#1013498](https://tatoeba.org/en/sentences/show/1013498) | Shishir |
-| S11014 | ¿Quién, yo? | Who? Me? |  | [#1613025](https://tatoeba.org/en/sentences/show/1613025) | hayastan |
-| S11015 | ¿Dónde están? | Where are you? | Where are they?; Where are you guys? | [#1859623](https://tatoeba.org/en/sentences/show/1859623) | marcelostockle |
-| S11016 | ¿Cuál es tu gato? | Which cat is yours? |  | [#2097504](https://tatoeba.org/en/sentences/show/2097504) | Shishir |
-| S11017 | ¿Qué tienen? | What do you have? |  | [#1013499](https://tatoeba.org/en/sentences/show/1013499) | Shishir |
-| S11018 | ¿Qué tengo? | What do I have? |  | [#1190830](https://tatoeba.org/en/sentences/show/1190830) | Shishir |
-| S11019 | ¿De dónde? | From where? |  | [#3849786](https://tatoeba.org/en/sentences/show/3849786) | cueyayotl |
-| S11020 | ¿En dónde? | Where? |  | [#4615213](https://tatoeba.org/en/sentences/show/4615213) | cueyayotl |
-| S11021 | ¿Quién soy? | Who am I? |  | [#10166017](https://tatoeba.org/en/sentences/show/10166017) | Seael |
-| S11022 | ¿De dónde eres? | Where are you from? | From where are you?; Where do you come from? | [#3071](https://tatoeba.org/en/sentences/show/3071) | Shishir |
-| S11023 | ¿Qué es esto? | What's this? | What is this?; What's this thing? | [#449942](https://tatoeba.org/en/sentences/show/449942) | Shishir |
-| S11024 | ¿Qué te gusta? | What do you like? |  | [#512351](https://tatoeba.org/en/sentences/show/512351) | Shishir |
-| S11025 | ¿Qué tiene ella? | What does she have? |  | [#522794](https://tatoeba.org/en/sentences/show/522794) | Shishir |
-| S11026 | ¿Dónde está él? | Where is he? |  | [#696545](https://tatoeba.org/en/sentences/show/696545) | Shishir |
-| S11027 | ¿Por qué están aquí? | Why are they here? |  | [#874986](https://tatoeba.org/en/sentences/show/874986) | Shishir |
-| S11028 | ¿Y por qué no? | And why not? |  | [#1039350](https://tatoeba.org/en/sentences/show/1039350) | Shishir |
-| S11029 | ¿Quién soy yo? | Who am I? |  | [#1172989](https://tatoeba.org/en/sentences/show/1172989) | marcelostockle |
-| S11030 | ¿De quién es? | Whose is it? |  | [#1248533](https://tatoeba.org/en/sentences/show/1248533) | Shishir |
+| S12001 | Dos y dos son cuatro. | Two and two are four. | Two plus two makes four. | [#843288](https://tatoeba.org/en/sentences/show/843288) | Shishir |
+| S12002 | ¿Cuántos libros tiene? | How many books does he have? |  | [#531495](https://tatoeba.org/en/sentences/show/531495) | Shishir |
+| S12003 | ¿Cuántos amigos tienes? | How many friends do you have? |  | [#569372](https://tatoeba.org/en/sentences/show/569372) | Shishir |
+| S12004 | ¿Cuántas manzanas hay? | How many apples are there? |  | [#1502212](https://tatoeba.org/en/sentences/show/1502212) | marcelostockle |
+| S12005 | Él tiene diez niños. | He has ten children. |  | [#1344952](https://tatoeba.org/en/sentences/show/1344952) | laserchanto |
+| S12006 | ¿Tienes dos libros? | Do you have two books? |  | [#507155](https://tatoeba.org/en/sentences/show/507155) | Shishir |
+| S12007 | ¿Cuántos libros tienes? | How many books do you have? | How many books do you possess? | [#600171](https://tatoeba.org/en/sentences/show/600171) | Shishir |
+| S12008 | Sí, dos. | Yes, two. |  | [#8258838](https://tatoeba.org/en/sentences/show/8258838) | fpp |
+| S12009 | Tengo tres perros. | I have three dogs. |  | [#509943](https://tatoeba.org/en/sentences/show/509943) | Shishir |
+| S12010 | Tienes cuatro perros. | You have four dogs. |  | [#558663](https://tatoeba.org/en/sentences/show/558663) | Shishir |
+| S12011 | Tiene tres chicos. | She has three kids. |  | [#2259137](https://tatoeba.org/en/sentences/show/2259137) | hayastan |
+| S12012 | Tengo tres niños. | I have three children. |  | [#2489916](https://tatoeba.org/en/sentences/show/2489916) | Shishir |
+| S12013 | Tengo cuatro gatos. | I have four cats. |  | [#11574288](https://tatoeba.org/en/sentences/show/11574288) | Shishir |
+| S12014 | Tengo cinco amigos. | I have five friends. |  | [#13520096](https://tatoeba.org/en/sentences/show/13520096) | Seael |
+| S12015 | Juan tiene cinco manzanas. | John has five apples. |  | [#2400691](https://tatoeba.org/en/sentences/show/2400691) | marcelostockle |
+| S12016 | ¿Cuántos niños tienes? | How many children do you have? |  | [#1350944](https://tatoeba.org/en/sentences/show/1350944) | marcelostockle |
+| S12017 | ¿Cuántos niños hay? | How many children are there? |  | [#6591106](https://tatoeba.org/en/sentences/show/6591106) | UsuarioX |
+| S12018 | ¿Cuántos hay aquí? | How many are here? |  | [#8419054](https://tatoeba.org/en/sentences/show/8419054) | arh |
+| S12019 | ¿Cuántos gatos tiene Tom? | How many cats does Tom have? |  | [#1822001](https://tatoeba.org/en/sentences/show/1822001) | hayastan |
+| S12020 | ¿Cuántos libros tiene usted? | How many books do you have? | How many books have you got? | [#5046766](https://tatoeba.org/en/sentences/show/5046766) | don_ramon |
+| S12021 | ¿Cuántos gatos hay en esta casa? | How many cats are there in this house? |  | [#751831](https://tatoeba.org/en/sentences/show/751831) | chinopinyin |
+| S12022 | ¿Cuántos libros hay en la mesa? | How many books are there on the table? |  | [#11760724](https://tatoeba.org/en/sentences/show/11760724) | Seael |
+| S12023 | Tengo dos gatos. | I have two cats. |  | [#2421408](https://tatoeba.org/en/sentences/show/2421408) | hayastan |
+| S12024 | Tengo dos perros. | I have two dogs. |  | [#10072723](https://tatoeba.org/en/sentences/show/10072723) | Shishir |
+| S12025 | Hay tres gatos. | There are three cats. |  | [#13521407](https://tatoeba.org/en/sentences/show/13521407) | Seael |
+| S12026 | Ustedes tienen tres gatos. | You have three cats. |  | [#1189971](https://tatoeba.org/en/sentences/show/1189971) | marcelostockle |
+| S12027 | Tom tiene dos niños. | Tom has two children. |  | [#1496991](https://tatoeba.org/en/sentences/show/1496991) | marcelostockle |
+| S12028 | Él tiene dos casas. | He has two houses. |  | [#1829225](https://tatoeba.org/en/sentences/show/1829225) | hayastan |
+| S12029 | No tengo dos gatos. | I don't have two cats. |  | [#2917324](https://tatoeba.org/en/sentences/show/2917324) | marcelostockle |
+| S12030 | Tengo un perro y dos gatos. | I have a dog and two cats. |  | [#760156](https://tatoeba.org/en/sentences/show/760156) | Shishir |

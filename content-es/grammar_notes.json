@@ -77,6 +77,13 @@
       "example_sentence_ids": "S11002;S11003;S11022",
       "conjugation_lemma": "",
       "status": "live"
+    },
+    {
+      "unit_id": "U12",
+      "rule": "Numbers two to ten come before the noun and never change: dos libros, tres perros, diez amigos. Cuántos asks how many with a masculine noun, cuántas with a feminine one: ¿Cuántos libros tienes? ¿Cuántas manzanas hay? Hay, there is or there are, counts what there is: hay tres gatos.",
+      "example_sentence_ids": "S12009;S12007;S12004",
+      "conjugation_lemma": "",
+      "status": "live"
     }
   ]
 }

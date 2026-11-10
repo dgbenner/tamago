@@ -860,6 +860,132 @@
       "french": "No como porque estoy enfermo.",
       "english": "I'm not eating because I'm sick.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S12101",
+      "unit_id": "U12",
+      "french": "Tengo seis libros.",
+      "english": "I have six books.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12102",
+      "unit_id": "U12",
+      "french": "Hay seis manzanas.",
+      "english": "There are six apples.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S12103",
+      "unit_id": "U12",
+      "french": "Ella tiene seis gatos.",
+      "english": "She has six cats.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12104",
+      "unit_id": "U12",
+      "french": "Tengo siete amigos.",
+      "english": "I have seven friends.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12105",
+      "unit_id": "U12",
+      "french": "Hay siete libros en la mesa.",
+      "english": "There are seven books on the table.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12106",
+      "unit_id": "U12",
+      "french": "Tom tiene siete perros.",
+      "english": "Tom has seven dogs.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12107",
+      "unit_id": "U12",
+      "french": "Tengo ocho manzanas.",
+      "english": "I have eight apples.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12108",
+      "unit_id": "U12",
+      "french": "Hay ocho niños aquí.",
+      "english": "There are eight children here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12109",
+      "unit_id": "U12",
+      "french": "Tiene ocho gatos.",
+      "english": "He has eight cats.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12110",
+      "unit_id": "U12",
+      "french": "Tengo nueve libros.",
+      "english": "I have nine books.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S12111",
+      "unit_id": "U12",
+      "french": "Hay nueve perros.",
+      "english": "There are nine dogs.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12112",
+      "unit_id": "U12",
+      "french": "Somos nueve.",
+      "english": "There are nine of us.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12113",
+      "unit_id": "U12",
+      "french": "Hay diez casas.",
+      "english": "There are ten houses.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12114",
+      "unit_id": "U12",
+      "french": "Tengo diez amigos.",
+      "english": "I have ten friends.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12115",
+      "unit_id": "U12",
+      "french": "Hay cinco chicas.",
+      "english": "There are five girls.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12116",
+      "unit_id": "U12",
+      "french": "¿Cuántas casas tienes?",
+      "english": "How many houses do you have?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12117",
+      "unit_id": "U12",
+      "french": "¿Cuántas amigas tienes?",
+      "english": "How many friends do you have?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S12118",
+      "unit_id": "U12",
+      "french": "Tom tiene dos gatos.",
+      "english": "Tom has two cats.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -1038,6 +1164,22 @@
     {
       "question_sentence_id": "S11023",
       "answer_sentence_id": "S2024"
+    },
+    {
+      "question_sentence_id": "S12007",
+      "answer_sentence_id": "S12110"
+    },
+    {
+      "question_sentence_id": "S12003",
+      "answer_sentence_id": "S12014"
+    },
+    {
+      "question_sentence_id": "S12004",
+      "answer_sentence_id": "S12102"
+    },
+    {
+      "question_sentence_id": "S12019",
+      "answer_sentence_id": "S12118"
     }
   ]
 }

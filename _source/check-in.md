@@ -17,6 +17,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 9 is live:** Ser or Estar, 37 sentences (30 Tatoeba, 7 drafts): ser for what someone is (soy profesor), estar for how they are now (estoy cansado).
   - **Unit 10 is live:** Mine and Yours, 41 sentences (30 Tatoeba, 11 drafts): mi, tu, su and their plurals; de for whose. Widened with amigos and amigas; cut cómo de grande (Spain usage, beyond A1).
   - **Unit 11 is live:** Asking Questions, 33 sentences (30 Tatoeba, 3 drafts): qué, quién, dónde, cuál, por qué, porque. Cut idioms (¿Y qué?, ¿Qué hay?) and three copies of "That's because you're a girl".
+  - **Unit 12 is live:** Counting to Ten, 48 sentences (30 Tatoeba, 18 drafts): dos to diez, cuántos and cuántas, hay. Tatoeba writes most numbers above four as digits, which the pull leaves out, so five to ten are drafted.
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -484,7 +485,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (120), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (138), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -638,3 +639,24 @@ Every Spanish sentence I wrote (120), for a native speaker of Latin American Spa
 
 - S11101 Estoy aquí porque estás aquí. = I'm here because you're here.
 - S11103 No como porque estoy enfermo. = I'm not eating because I'm sick. (QT09 answer)
+
+**U12 Counting to Ten** (18)
+
+- S12101 Tengo seis libros. = I have six books.
+- S12102 Hay seis manzanas. = There are six apples. (QT09 answer)
+- S12103 Ella tiene seis gatos. = She has six cats.
+- S12104 Tengo siete amigos. = I have seven friends.
+- S12105 Hay siete libros en la mesa. = There are seven books on the table.
+- S12106 Tom tiene siete perros. = Tom has seven dogs.
+- S12107 Tengo ocho manzanas. = I have eight apples.
+- S12108 Hay ocho niños aquí. = There are eight children here.
+- S12109 Tiene ocho gatos. = He has eight cats.
+- S12110 Tengo nueve libros. = I have nine books. (QT09 answer)
+- S12111 Hay nueve perros. = There are nine dogs.
+- S12112 Somos nueve. = There are nine of us.
+- S12113 Hay diez casas. = There are ten houses.
+- S12114 Tengo diez amigos. = I have ten friends.
+- S12115 Hay cinco chicas. = There are five girls.
+- S12116 ¿Cuántas casas tienes? = How many houses do you have?
+- S12117 ¿Cuántas amigas tienes? = How many friends do you have?
+- S12118 Tom tiene dos gatos. = Tom has two cats. (QT09 answer)
