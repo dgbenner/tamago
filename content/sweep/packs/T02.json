@@ -1,0 +1,40 @@
+{
+  "topic": "Dogs",
+  "words": [
+    "chiot",
+    "chiots",
+    "balle",
+    "promenade",
+    "queue",
+    "niche",
+    "aboie"
+  ],
+  "clash": [
+    "chiens"
+  ],
+  "candidates": [
+    {
+      "source_id": "1134948",
+      "owner": "sacredceltic",
+      "french": "Un chien aboie.",
+      "english": [
+        "A dog is barking.",
+        "The dog barks."
+      ],
+      "forms": [
+        "aboie"
+      ]
+    },
+    {
+      "source_id": "12480692",
+      "owner": "always",
+      "french": "J'ai un chiot.",
+      "english": [
+        "I have a puppy."
+      ],
+      "forms": [
+        "chiot"
+      ]
+    }
+  ]
+}

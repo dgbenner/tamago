@@ -1,0 +1,310 @@
+{
+  "topic": "Pharmacy",
+  "words": [
+    "pharmacie",
+    "médicament",
+    "médicaments",
+    "pharmacien",
+    "pharmacienne",
+    "malade",
+    "malades",
+    "mal",
+    "tête",
+    "rhume",
+    "toux",
+    "fièvre",
+    "dents",
+    "gorge"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "10967",
+      "owner": "sacredceltic",
+      "french": "J'ai un rhume.",
+      "english": [
+        "I have a cold.",
+        "I've got a cold."
+      ],
+      "forms": [
+        "rhume"
+      ]
+    },
+    {
+      "source_id": "11168",
+      "owner": "sacredceltic",
+      "french": "J'ai mal ici.",
+      "english": [
+        "I have a pain here.",
+        "It hurts here.",
+        "I'm in pain here."
+      ],
+      "forms": [
+        "mal"
+      ]
+    },
+    {
+      "source_id": "133247",
+      "owner": "sacredceltic",
+      "french": "Il est malade.",
+      "english": [
+        "He is ill.",
+        "He is sick.",
+        "He's ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "459031",
+      "owner": "sacredceltic",
+      "french": "Je suis malade.",
+      "english": [
+        "I am sick.",
+        "I'm sick!",
+        "I'm ill.",
+        "I'm sick.",
+        "I am not feeling too well.",
+        "I have been sick."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "886027",
+      "owner": "sacredceltic",
+      "french": "Tu es un grand malade.",
+      "english": [
+        "You are seriously ill.",
+        "You're seriously ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "886028",
+      "owner": "sacredceltic",
+      "french": "Vous êtes un grand malade.",
+      "english": [
+        "You are seriously ill.",
+        "You're seriously ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "1085382",
+      "owner": "sacredceltic",
+      "french": "Il a un mal de tête.",
+      "english": [
+        "He has a headache."
+      ],
+      "forms": [
+        "mal",
+        "tête"
+      ]
+    },
+    {
+      "source_id": "1156512",
+      "owner": "Korekorin",
+      "french": "Tu es malade !",
+      "english": [
+        "You're sick!"
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "1156517",
+      "owner": "Korekorin",
+      "french": "Vous êtes malade !",
+      "english": [
+        "You're sick!"
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "2078696",
+      "owner": "Amastan",
+      "french": "Elle est malade.",
+      "english": [
+        "She is sick.",
+        "She is ill.",
+        "She's sick."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "2078698",
+      "owner": "Amastan",
+      "french": "Marie est malade.",
+      "english": [
+        "Mary is sick."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "2078702",
+      "owner": "Amastan",
+      "french": "Vous êtes malades.",
+      "english": [
+        "You're sick.",
+        "You are ill.",
+        "You're ill."
+      ],
+      "forms": [
+        "malades"
+      ]
+    },
+    {
+      "source_id": "2078706",
+      "owner": "Amastan",
+      "french": "Ils sont malades.",
+      "english": [
+        "They're sick.",
+        "They are ill.",
+        "They're ill."
+      ],
+      "forms": [
+        "malades"
+      ]
+    },
+    {
+      "source_id": "2078709",
+      "owner": "Amastan",
+      "french": "Elles sont malades.",
+      "english": [
+        "They are sick.",
+        "They're sick.",
+        "They are ill.",
+        "They're ill."
+      ],
+      "forms": [
+        "malades"
+      ]
+    },
+    {
+      "source_id": "2390015",
+      "owner": "sacredceltic",
+      "french": "C'est mal.",
+      "english": [
+        "This is wrong."
+      ],
+      "forms": [
+        "mal"
+      ]
+    },
+    {
+      "source_id": "6460357",
+      "owner": "GB3",
+      "french": "C'est un pharmacien.",
+      "english": [
+        "He is a pharmacist."
+      ],
+      "forms": [
+        "pharmacien"
+      ]
+    },
+    {
+      "source_id": "10505355",
+      "owner": "pkill",
+      "french": "J'ai la fièvre.",
+      "english": [
+        "I have a fever."
+      ],
+      "forms": [
+        "fièvre"
+      ]
+    },
+    {
+      "source_id": "10642533",
+      "owner": "AutoBot",
+      "french": "J'ai un mal de tête.",
+      "english": [
+        "I have a headache."
+      ],
+      "forms": [
+        "mal",
+        "tête"
+      ]
+    },
+    {
+      "source_id": "10668825",
+      "owner": "AutoBot",
+      "french": "Il a une fièvre de cheval.",
+      "english": [
+        "He has a raging fever."
+      ],
+      "forms": [
+        "fièvre"
+      ]
+    },
+    {
+      "source_id": "10707867",
+      "owner": "AutoBot",
+      "french": "J'ai de la fièvre.",
+      "english": [
+        "I have a fever."
+      ],
+      "forms": [
+        "fièvre"
+      ]
+    },
+    {
+      "source_id": "10707900",
+      "owner": "AutoBot",
+      "french": "J'ai une toux.",
+      "english": [
+        "I have a cough."
+      ],
+      "forms": [
+        "toux"
+      ]
+    },
+    {
+      "source_id": "10707901",
+      "owner": "AutoBot",
+      "french": "J'ai de la toux.",
+      "english": [
+        "I have a cough."
+      ],
+      "forms": [
+        "toux"
+      ]
+    },
+    {
+      "source_id": "12003304",
+      "owner": "calypsow",
+      "french": "Le chien est malade.",
+      "english": [
+        "The dog is ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "12773650",
+      "owner": "lbdx",
+      "french": "J'ai mal.",
+      "english": [
+        "I'm in pain.",
+        "I am in pain."
+      ],
+      "forms": [
+        "mal"
+      ]
+    }
+  ]
+}

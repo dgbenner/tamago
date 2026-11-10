@@ -1,0 +1,73 @@
+{
+  "topic": "Bakery",
+  "words": [
+    "baguette",
+    "gâteau",
+    "gâteaux",
+    "tarte",
+    "boulangerie",
+    "boulanger",
+    "biscuit",
+    "biscuits"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "6948",
+      "owner": "TRANG",
+      "french": "Je suis boulanger.",
+      "english": [
+        "I'm a baker.",
+        "I am a baker."
+      ],
+      "forms": [
+        "boulanger"
+      ]
+    },
+    {
+      "source_id": "459079",
+      "owner": "sacredceltic",
+      "french": "J'aime les gâteaux.",
+      "english": [
+        "I like cake."
+      ],
+      "forms": [
+        "gâteaux"
+      ]
+    },
+    {
+      "source_id": "792403",
+      "owner": "U2FS",
+      "french": "C'est de la tarte.",
+      "english": [
+        "It's a piece of cake."
+      ],
+      "forms": [
+        "tarte"
+      ]
+    },
+    {
+      "source_id": "792417",
+      "owner": "U2FS",
+      "french": "C'est du gâteau.",
+      "english": [
+        "It's a piece of cake."
+      ],
+      "forms": [
+        "gâteau"
+      ]
+    },
+    {
+      "source_id": "5299447",
+      "owner": "pititnatole",
+      "french": "J'aime les biscuits.",
+      "english": [
+        "I like cookies.",
+        "I like biscuits."
+      ],
+      "forms": [
+        "biscuits"
+      ]
+    }
+  ]
+}

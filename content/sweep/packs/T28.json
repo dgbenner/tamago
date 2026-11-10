@@ -1,0 +1,472 @@
+{
+  "topic": "Cinema",
+  "words": [
+    "film",
+    "films",
+    "cinéma",
+    "acteur",
+    "acteurs",
+    "actrice",
+    "regarde",
+    "regardes",
+    "regardent",
+    "écran",
+    "histoire",
+    "télé",
+    "télévision",
+    "drôle",
+    "triste",
+    "billet"
+  ],
+  "clash": [
+    "aime"
+  ],
+  "candidates": [
+    {
+      "source_id": "128012",
+      "owner": "Micsmithel",
+      "french": "J'aime l'histoire.",
+      "english": [
+        "I like history."
+      ],
+      "forms": [
+        "histoire"
+      ]
+    },
+    {
+      "source_id": "133116",
+      "owner": "Julien_PDC",
+      "french": "C'est un acteur.",
+      "english": [
+        "He is an actor."
+      ],
+      "forms": [
+        "acteur"
+      ]
+    },
+    {
+      "source_id": "139222",
+      "owner": "Aiji",
+      "french": "C'est une télé.",
+      "english": [
+        "It's a TV.",
+        "This is a television."
+      ],
+      "forms": [
+        "télé"
+      ]
+    },
+    {
+      "source_id": "333733",
+      "owner": "sysko",
+      "french": "Je suis triste.",
+      "english": [
+        "I'm sad."
+      ],
+      "forms": [
+        "triste"
+      ]
+    },
+    {
+      "source_id": "537961",
+      "owner": "zmoo",
+      "french": "Il regarde la télévision.",
+      "english": [
+        "He is watching TV."
+      ],
+      "forms": [
+        "regarde",
+        "télévision"
+      ]
+    },
+    {
+      "source_id": "685884",
+      "owner": "Cocorico",
+      "french": "C'est une bien triste histoire.",
+      "english": [
+        "It is a very sad tale."
+      ],
+      "forms": [
+        "triste",
+        "histoire"
+      ]
+    },
+    {
+      "source_id": "1313969",
+      "owner": "sacredceltic",
+      "french": "Ils sont acteurs.",
+      "english": [
+        "They are actors."
+      ],
+      "forms": [
+        "acteurs"
+      ]
+    },
+    {
+      "source_id": "1449046",
+      "owner": "martin9",
+      "french": "Le chat regarde le chien.",
+      "english": [
+        "The cat looks at the dog."
+      ],
+      "forms": [
+        "regarde"
+      ]
+    },
+    {
+      "source_id": "1449049",
+      "owner": "martin9",
+      "french": "Le chien regarde le chat.",
+      "english": [
+        "The dog looks at the cat."
+      ],
+      "forms": [
+        "regarde"
+      ]
+    },
+    {
+      "source_id": "1978205",
+      "owner": "sacredceltic",
+      "french": "Elle vous regarde.",
+      "english": [
+        "She's looking at you."
+      ],
+      "forms": [
+        "regarde"
+      ]
+    },
+    {
+      "source_id": "1978208",
+      "owner": "sacredceltic",
+      "french": "Il vous regarde.",
+      "english": [
+        "He's looking at you."
+      ],
+      "forms": [
+        "regarde"
+      ]
+    },
+    {
+      "source_id": "2285416",
+      "owner": "sacredceltic",
+      "french": "C'est drôle.",
+      "english": [
+        "It's funny.",
+        "This is funny.",
+        "That's funny.",
+        "It's funny!"
+      ],
+      "forms": [
+        "drôle"
+      ]
+    },
+    {
+      "source_id": "3633543",
+      "owner": "sacredceltic",
+      "french": "J'aime le cinéma.",
+      "english": [
+        "I like movies.",
+        "I like the movie theater.",
+        "I love movies."
+      ],
+      "forms": [
+        "cinéma"
+      ]
+    },
+    {
+      "source_id": "3667118",
+      "owner": "fleur74",
+      "french": "Je regarde un film.",
+      "english": [
+        "I'm watching a movie."
+      ],
+      "forms": [
+        "regarde",
+        "film"
+      ]
+    },
+    {
+      "source_id": "4274115",
+      "owner": "michelnialon",
+      "french": "Je regarde la télévision.",
+      "english": [
+        "I watch television.",
+        "I'm watching TV.",
+        "I watch TV.",
+        "I'm watching television.",
+        "I am watching television.",
+        "I am watching TV."
+      ],
+      "forms": [
+        "regarde",
+        "télévision"
+      ]
+    },
+    {
+      "source_id": "4320549",
+      "owner": "gillux",
+      "french": "C'est triste.",
+      "english": [
+        "It's sad.",
+        "Sad."
+      ],
+      "forms": [
+        "triste"
+      ]
+    },
+    {
+      "source_id": "4631778",
+      "owner": "sicerabibax",
+      "french": "Tu regardes la télévision ?",
+      "english": [
+        "Do you watch telly?"
+      ],
+      "forms": [
+        "regardes",
+        "télévision"
+      ]
+    },
+    {
+      "source_id": "4655485",
+      "owner": "sacredceltic",
+      "french": "Tu es triste.",
+      "english": [
+        "You're sad."
+      ],
+      "forms": [
+        "triste"
+      ]
+    },
+    {
+      "source_id": "4655486",
+      "owner": "sacredceltic",
+      "french": "Vous êtes triste.",
+      "english": [
+        "You're sad."
+      ],
+      "forms": [
+        "triste"
+      ]
+    },
+    {
+      "source_id": "5684212",
+      "owner": "Yemana",
+      "french": "Elle est actrice.",
+      "english": [
+        "She is an actress.",
+        "She's an actress."
+      ],
+      "forms": [
+        "actrice"
+      ]
+    },
+    {
+      "source_id": "5684214",
+      "owner": "Yemana",
+      "french": "C'est une actrice.",
+      "english": [
+        "She is an actress."
+      ],
+      "forms": [
+        "actrice"
+      ]
+    },
+    {
+      "source_id": "5868202",
+      "owner": "Aiji",
+      "french": "Regarde le chat.",
+      "english": [
+        "Look at the cat."
+      ],
+      "forms": [
+        "regarde"
+      ]
+    },
+    {
+      "source_id": "6016125",
+      "owner": "christian63",
+      "french": "Tu es drôle !",
+      "english": [
+        "You're funny!"
+      ],
+      "forms": [
+        "drôle"
+      ]
+    },
+    {
+      "source_id": "6463253",
+      "owner": "Aiji",
+      "french": "Regarde ici.",
+      "english": [
+        "Look here."
+      ],
+      "forms": [
+        "regarde"
+      ]
+    },
+    {
+      "source_id": "6474141",
+      "owner": "Aiji",
+      "french": "Ils vous regardent.",
+      "english": [
+        "They're staring at you.",
+        "They're watching you.",
+        "They're looking at you."
+      ],
+      "forms": [
+        "regardent"
+      ]
+    },
+    {
+      "source_id": "6474143",
+      "owner": "Aiji",
+      "french": "Elles vous regardent.",
+      "english": [
+        "They're staring at you.",
+        "They're watching you.",
+        "They're looking at you."
+      ],
+      "forms": [
+        "regardent"
+      ]
+    },
+    {
+      "source_id": "6890678",
+      "owner": "felix63",
+      "french": "Tu regardes un film.",
+      "english": [
+        "You're watching a film."
+      ],
+      "forms": [
+        "regardes",
+        "film"
+      ]
+    },
+    {
+      "source_id": "7270346",
+      "owner": "Sifaks",
+      "french": "Regarde bien !",
+      "english": [
+        "Take a good look!"
+      ],
+      "forms": [
+        "regarde"
+      ]
+    },
+    {
+      "source_id": "7801897",
+      "owner": "theachaean",
+      "french": "Ici, regarde.",
+      "english": [
+        "Here, look."
+      ],
+      "forms": [
+        "regarde"
+      ]
+    },
+    {
+      "source_id": "7967385",
+      "owner": "Aiji",
+      "french": "C'est un film drôle.",
+      "english": [
+        "It's a funny movie."
+      ],
+      "forms": [
+        "film",
+        "drôle"
+      ]
+    },
+    {
+      "source_id": "8361219",
+      "owner": "felix63",
+      "french": "Elle est triste.",
+      "english": [
+        "She's sad."
+      ],
+      "forms": [
+        "triste"
+      ]
+    },
+    {
+      "source_id": "8938985",
+      "owner": "Julien_PDC",
+      "french": "Elle est drôle.",
+      "english": [
+        "She's funny."
+      ],
+      "forms": [
+        "drôle"
+      ]
+    },
+    {
+      "source_id": "9252911",
+      "owner": "Micsmithel",
+      "french": "Regarde la télé ici.",
+      "english": [
+        "Watch TV here."
+      ],
+      "forms": [
+        "regarde",
+        "télé"
+      ]
+    },
+    {
+      "source_id": "9552532",
+      "owner": "Micsmithel",
+      "french": "Regarde, regarde !",
+      "english": [
+        "Look, look!"
+      ],
+      "forms": [
+        "regarde",
+        "regarde"
+      ]
+    },
+    {
+      "source_id": "10539034",
+      "owner": "felix63",
+      "french": "C'est une triste histoire.",
+      "english": [
+        "It's a sad story."
+      ],
+      "forms": [
+        "triste",
+        "histoire"
+      ]
+    },
+    {
+      "source_id": "10976073",
+      "owner": "Aiji",
+      "french": "Le chat regarde la souris.",
+      "english": [
+        "The cat is watching the mouse."
+      ],
+      "forms": [
+        "regarde"
+      ]
+    },
+    {
+      "source_id": "11837599",
+      "owner": "Amastan",
+      "french": "Regarde le film.",
+      "english": [
+        "Watch the movie."
+      ],
+      "forms": [
+        "regarde",
+        "film"
+      ]
+    },
+    {
+      "source_id": "12495093",
+      "owner": "always",
+      "french": "Marie aime les films.",
+      "english": [
+        "Mary enjoys movies."
+      ],
+      "forms": [
+        "films"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "topic": "The office",
+  "words": [
+    "bureau",
+    "ordinateur",
+    "travail",
+    "travaille",
+    "travailles",
+    "travaillent",
+    "patron",
+    "patronne",
+    "collègue",
+    "collègues",
+    "téléphone",
+    "réunion",
+    "occupé",
+    "occupée",
+    "secrétaire",
+    "stylo"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "7232",
+      "owner": "alexmarcelo",
+      "french": "J'ai un ordinateur.",
+      "english": [
+        "I have a computer."
+      ],
+      "forms": [
+        "ordinateur"
+      ]
+    },
+    {
+      "source_id": "15520",
+      "owner": "nimfeo",
+      "french": "Il travaille bien.",
+      "english": [
+        "He works well."
+      ],
+      "forms": [
+        "travaille"
+      ]
+    },
+    {
+      "source_id": "127910",
+      "owner": "sacredceltic",
+      "french": "Je suis occupé.",
+      "english": [
+        "I'm busy.",
+        "I have much to do.",
+        "I am busy."
+      ],
+      "forms": [
+        "occupé"
+      ]
+    },
+    {
+      "source_id": "338378",
+      "owner": "sysko",
+      "french": "C'est un bureau.",
+      "english": [
+        "This is a desk."
+      ],
+      "forms": [
+        "bureau"
+      ]
+    },
+    {
+      "source_id": "549550",
+      "owner": "zmoo",
+      "french": "J'ai un stylo.",
+      "english": [
+        "I have a pen."
+      ],
+      "forms": [
+        "stylo"
+      ]
+    },
+    {
+      "source_id": "590752",
+      "owner": "qdii",
+      "french": "Les femmes travaillent.",
+      "english": [
+        "The women are working."
+      ],
+      "forms": [
+        "travaillent"
+      ]
+    },
+    {
+      "source_id": "799972",
+      "owner": "U2FS",
+      "french": "C'est occupé.",
+      "english": [
+        "It's occupied."
+      ],
+      "forms": [
+        "occupé"
+      ]
+    },
+    {
+      "source_id": "833545",
+      "owner": "sacredceltic",
+      "french": "C'est un collègue de travail.",
+      "english": [
+        "It's a co-worker."
+      ],
+      "forms": [
+        "collègue",
+        "travail"
+      ]
+    },
+    {
+      "source_id": "1284007",
+      "owner": "sacredceltic",
+      "french": "Elle est occupée.",
+      "english": [
+        "She's busy."
+      ],
+      "forms": [
+        "occupée"
+      ]
+    },
+    {
+      "source_id": "1546264",
+      "owner": "Rovo",
+      "french": "Tu travailles ici ?",
+      "english": [
+        "Do you work here?"
+      ],
+      "forms": [
+        "travailles"
+      ]
+    },
+    {
+      "source_id": "2269887",
+      "owner": "sacredceltic",
+      "french": "Je suis le patron.",
+      "english": [
+        "I'm the boss."
+      ],
+      "forms": [
+        "patron"
+      ]
+    },
+    {
+      "source_id": "2269888",
+      "owner": "sacredceltic",
+      "french": "Je suis la patronne.",
+      "english": [
+        "I'm the boss."
+      ],
+      "forms": [
+        "patronne"
+      ]
+    },
+    {
+      "source_id": "2269900",
+      "owner": "sacredceltic",
+      "french": "C'est la patronne.",
+      "english": [
+        "She's the boss."
+      ],
+      "forms": [
+        "patronne"
+      ]
+    },
+    {
+      "source_id": "2269902",
+      "owner": "sacredceltic",
+      "french": "C'est elle, le patron.",
+      "english": [
+        "She's the boss."
+      ],
+      "forms": [
+        "patron"
+      ]
+    },
+    {
+      "source_id": "3081621",
+      "owner": "Aiji",
+      "french": "Je travaille ici.",
+      "english": [
+        "I work here.",
+        "I'm working here."
+      ],
+      "forms": [
+        "travaille"
+      ]
+    },
+    {
+      "source_id": "4320601",
+      "owner": "gillux",
+      "french": "Je suis occupée.",
+      "english": [
+        "I'm busy."
+      ],
+      "forms": [
+        "occupée"
+      ]
+    },
+    {
+      "source_id": "6195661",
+      "owner": "felix63",
+      "french": "Je suis secrétaire.",
+      "english": [
+        "I am a secretary."
+      ],
+      "forms": [
+        "secrétaire"
+      ]
+    },
+    {
+      "source_id": "6473188",
+      "owner": "Aiji",
+      "french": "Je suis le patron, non ?",
+      "english": [
+        "I'm the boss, aren't I?"
+      ],
+      "forms": [
+        "patron"
+      ]
+    },
+    {
+      "source_id": "6481906",
+      "owner": "GB3",
+      "french": "Ils travaillent.",
+      "english": [
+        "They're working."
+      ],
+      "forms": [
+        "travaillent"
+      ]
+    },
+    {
+      "source_id": "6481907",
+      "owner": "GB3",
+      "french": "Elles travaillent.",
+      "english": [
+        "They're working."
+      ],
+      "forms": [
+        "travaillent"
+      ]
+    },
+    {
+      "source_id": "7967381",
+      "owner": "Aiji",
+      "french": "Vous êtes le patron ici.",
+      "english": [
+        "You're the boss here."
+      ],
+      "forms": [
+        "patron"
+      ]
+    },
+    {
+      "source_id": "7967382",
+      "owner": "Aiji",
+      "french": "Tu es le patron ici.",
+      "english": [
+        "You're the boss here."
+      ],
+      "forms": [
+        "patron"
+      ]
+    },
+    {
+      "source_id": "8352755",
+      "owner": "zarisi",
+      "french": "La femme travaille.",
+      "english": [
+        "The woman is working.",
+        "The woman works."
+      ],
+      "forms": [
+        "travaille"
+      ]
+    },
+    {
+      "source_id": "8984343",
+      "owner": "Micsmithel",
+      "french": "Il travaille.",
+      "english": [
+        "He works.",
+        "He's working.",
+        "He is working."
+      ],
+      "forms": [
+        "travaille"
+      ]
+    },
+    {
+      "source_id": "8984379",
+      "owner": "Micsmithel",
+      "french": "Je travaille !",
+      "english": [
+        "I work!",
+        "I'm working!"
+      ],
+      "forms": [
+        "travaille"
+      ]
+    },
+    {
+      "source_id": "9556144",
+      "owner": "Micsmithel",
+      "french": "Elle travaille.",
+      "english": [
+        "She works."
+      ],
+      "forms": [
+        "travaille"
+      ]
+    },
+    {
+      "source_id": "9558596",
+      "owner": "Micsmithel",
+      "french": "Vous êtes collègues.",
+      "english": [
+        "You are colleagues."
+      ],
+      "forms": [
+        "collègues"
+      ]
+    },
+    {
+      "source_id": "10959880",
+      "owner": "Aiji",
+      "french": "Ils travaillent ici.",
+      "english": [
+        "They work here."
+      ],
+      "forms": [
+        "travaillent"
+      ]
+    },
+    {
+      "source_id": "12313218",
+      "owner": "lbdx",
+      "french": "Il est bien occupé.",
+      "english": [
+        "He has his hands full."
+      ],
+      "forms": [
+        "occupé"
+      ]
+    }
+  ]
+}

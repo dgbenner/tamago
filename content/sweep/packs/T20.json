@@ -1,0 +1,39 @@
+{
+  "topic": "Birds",
+  "words": [
+    "nid",
+    "aile",
+    "ailes",
+    "plume",
+    "vole",
+    "poule"
+  ],
+  "clash": [
+    "oiseaux",
+    "chante"
+  ],
+  "candidates": [
+    {
+      "source_id": "8690216",
+      "owner": "Micsmithel",
+      "french": "L'oiseau vole.",
+      "english": [
+        "The bird flies."
+      ],
+      "forms": [
+        "vole"
+      ]
+    },
+    {
+      "source_id": "8978028",
+      "owner": "Micsmithel",
+      "french": "Il vole.",
+      "english": [
+        "He's stealing."
+      ],
+      "forms": [
+        "vole"
+      ]
+    }
+  ]
+}

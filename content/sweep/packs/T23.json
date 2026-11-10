@@ -1,0 +1,520 @@
+{
+  "topic": "At the doctor",
+  "words": [
+    "médecin",
+    "médecins",
+    "docteur",
+    "docteurs",
+    "malade",
+    "malades",
+    "hôpital",
+    "mal",
+    "infirmière",
+    "infirmier",
+    "fièvre",
+    "tête",
+    "dentiste",
+    "dents",
+    "dent",
+    "ventre",
+    "gorge",
+    "toux",
+    "rhume",
+    "santé"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "10967",
+      "owner": "sacredceltic",
+      "french": "J'ai un rhume.",
+      "english": [
+        "I have a cold.",
+        "I've got a cold."
+      ],
+      "forms": [
+        "rhume"
+      ]
+    },
+    {
+      "source_id": "11168",
+      "owner": "sacredceltic",
+      "french": "J'ai mal ici.",
+      "english": [
+        "I have a pain here.",
+        "It hurts here.",
+        "I'm in pain here."
+      ],
+      "forms": [
+        "mal"
+      ]
+    },
+    {
+      "source_id": "133247",
+      "owner": "sacredceltic",
+      "french": "Il est malade.",
+      "english": [
+        "He is ill.",
+        "He is sick.",
+        "He's ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "133864",
+      "owner": "Micsmithel",
+      "french": "Elle est médecin.",
+      "english": [
+        "She is a doctor.",
+        "She's a doctor."
+      ],
+      "forms": [
+        "médecin"
+      ]
+    },
+    {
+      "source_id": "342052",
+      "owner": "pierrephi",
+      "french": "Il est médecin.",
+      "english": [
+        "He is a doctor.",
+        "He's a doctor."
+      ],
+      "forms": [
+        "médecin"
+      ]
+    },
+    {
+      "source_id": "406149",
+      "owner": "Scott",
+      "french": "Vous êtes docteur.",
+      "english": [
+        "You are a doctor."
+      ],
+      "forms": [
+        "docteur"
+      ]
+    },
+    {
+      "source_id": "448675",
+      "owner": "nimfeo",
+      "french": "Je suis médecin.",
+      "english": [
+        "I'm a doctor.",
+        "I am a doctor."
+      ],
+      "forms": [
+        "médecin"
+      ]
+    },
+    {
+      "source_id": "459031",
+      "owner": "sacredceltic",
+      "french": "Je suis malade.",
+      "english": [
+        "I am sick.",
+        "I'm sick!",
+        "I'm ill.",
+        "I'm sick.",
+        "I am not feeling too well.",
+        "I have been sick."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "482481",
+      "owner": "sacredceltic",
+      "french": "Bonjour Docteur !",
+      "english": [
+        "Good morning, doctor!"
+      ],
+      "forms": [
+        "docteur"
+      ]
+    },
+    {
+      "source_id": "561910",
+      "owner": "sacredceltic",
+      "french": "Vous êtes médecin.",
+      "english": [
+        "You are a doctor."
+      ],
+      "forms": [
+        "médecin"
+      ]
+    },
+    {
+      "source_id": "587209",
+      "owner": "qdii",
+      "french": "Vous êtes docteurs.",
+      "english": [
+        "You are doctors."
+      ],
+      "forms": [
+        "docteurs"
+      ]
+    },
+    {
+      "source_id": "886027",
+      "owner": "sacredceltic",
+      "french": "Tu es un grand malade.",
+      "english": [
+        "You are seriously ill.",
+        "You're seriously ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "886028",
+      "owner": "sacredceltic",
+      "french": "Vous êtes un grand malade.",
+      "english": [
+        "You are seriously ill.",
+        "You're seriously ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "1085382",
+      "owner": "sacredceltic",
+      "french": "Il a un mal de tête.",
+      "english": [
+        "He has a headache."
+      ],
+      "forms": [
+        "mal",
+        "tête"
+      ]
+    },
+    {
+      "source_id": "1156512",
+      "owner": "Korekorin",
+      "french": "Tu es malade !",
+      "english": [
+        "You're sick!"
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "1156517",
+      "owner": "Korekorin",
+      "french": "Vous êtes malade !",
+      "english": [
+        "You're sick!"
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "2078696",
+      "owner": "Amastan",
+      "french": "Elle est malade.",
+      "english": [
+        "She is sick.",
+        "She is ill.",
+        "She's sick."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "2078698",
+      "owner": "Amastan",
+      "french": "Marie est malade.",
+      "english": [
+        "Mary is sick."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "2078702",
+      "owner": "Amastan",
+      "french": "Vous êtes malades.",
+      "english": [
+        "You're sick.",
+        "You are ill.",
+        "You're ill."
+      ],
+      "forms": [
+        "malades"
+      ]
+    },
+    {
+      "source_id": "2078706",
+      "owner": "Amastan",
+      "french": "Ils sont malades.",
+      "english": [
+        "They're sick.",
+        "They are ill.",
+        "They're ill."
+      ],
+      "forms": [
+        "malades"
+      ]
+    },
+    {
+      "source_id": "2078709",
+      "owner": "Amastan",
+      "french": "Elles sont malades.",
+      "english": [
+        "They are sick.",
+        "They're sick.",
+        "They are ill.",
+        "They're ill."
+      ],
+      "forms": [
+        "malades"
+      ]
+    },
+    {
+      "source_id": "2390015",
+      "owner": "sacredceltic",
+      "french": "C'est mal.",
+      "english": [
+        "This is wrong."
+      ],
+      "forms": [
+        "mal"
+      ]
+    },
+    {
+      "source_id": "4702251",
+      "owner": "sacredceltic",
+      "french": "Il a du ventre.",
+      "english": [
+        "He has a potbelly."
+      ],
+      "forms": [
+        "ventre"
+      ]
+    },
+    {
+      "source_id": "4729426",
+      "owner": "sacredceltic",
+      "french": "Ils sont médecins.",
+      "english": [
+        "They are doctors.",
+        "They're doctors."
+      ],
+      "forms": [
+        "médecins"
+      ]
+    },
+    {
+      "source_id": "4729429",
+      "owner": "sacredceltic",
+      "french": "Elles sont médecins.",
+      "english": [
+        "They are doctors.",
+        "They're doctors."
+      ],
+      "forms": [
+        "médecins"
+      ]
+    },
+    {
+      "source_id": "6055147",
+      "owner": "verdakoro",
+      "french": "C'est un hôpital.",
+      "english": [
+        "This is a hospital.",
+        "It's a hospital."
+      ],
+      "forms": [
+        "hôpital"
+      ]
+    },
+    {
+      "source_id": "6759322",
+      "owner": "GB3",
+      "french": "Voici l'hôpital.",
+      "english": [
+        "Here is the hospital."
+      ],
+      "forms": [
+        "hôpital"
+      ]
+    },
+    {
+      "source_id": "7769794",
+      "owner": "Aiji",
+      "french": "Je suis dentiste.",
+      "english": [
+        "I'm a dentist."
+      ],
+      "forms": [
+        "dentiste"
+      ]
+    },
+    {
+      "source_id": "8758554",
+      "owner": "Aiji",
+      "french": "C'est un grand hôpital.",
+      "english": [
+        "It's a big hospital."
+      ],
+      "forms": [
+        "hôpital"
+      ]
+    },
+    {
+      "source_id": "10147597",
+      "owner": "felix63",
+      "french": "Merci, docteur.",
+      "english": [
+        "Thank you, Doctor."
+      ],
+      "forms": [
+        "docteur"
+      ]
+    },
+    {
+      "source_id": "10505355",
+      "owner": "pkill",
+      "french": "J'ai la fièvre.",
+      "english": [
+        "I have a fever."
+      ],
+      "forms": [
+        "fièvre"
+      ]
+    },
+    {
+      "source_id": "10642533",
+      "owner": "AutoBot",
+      "french": "J'ai un mal de tête.",
+      "english": [
+        "I have a headache."
+      ],
+      "forms": [
+        "mal",
+        "tête"
+      ]
+    },
+    {
+      "source_id": "10668825",
+      "owner": "AutoBot",
+      "french": "Il a une fièvre de cheval.",
+      "english": [
+        "He has a raging fever."
+      ],
+      "forms": [
+        "fièvre"
+      ]
+    },
+    {
+      "source_id": "10707867",
+      "owner": "AutoBot",
+      "french": "J'ai de la fièvre.",
+      "english": [
+        "I have a fever."
+      ],
+      "forms": [
+        "fièvre"
+      ]
+    },
+    {
+      "source_id": "10707900",
+      "owner": "AutoBot",
+      "french": "J'ai une toux.",
+      "english": [
+        "I have a cough."
+      ],
+      "forms": [
+        "toux"
+      ]
+    },
+    {
+      "source_id": "10707901",
+      "owner": "AutoBot",
+      "french": "J'ai de la toux.",
+      "english": [
+        "I have a cough."
+      ],
+      "forms": [
+        "toux"
+      ]
+    },
+    {
+      "source_id": "12003304",
+      "owner": "calypsow",
+      "french": "Le chien est malade.",
+      "english": [
+        "The dog is ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "12439398",
+      "owner": "Orange",
+      "french": "Je suis la fille du médecin.",
+      "english": [
+        "I'm the doctor's daughter."
+      ],
+      "forms": [
+        "médecin"
+      ]
+    },
+    {
+      "source_id": "12439399",
+      "owner": "Orange",
+      "french": "Je suis la fille du docteur.",
+      "english": [
+        "I'm the doctor's daughter."
+      ],
+      "forms": [
+        "docteur"
+      ]
+    },
+    {
+      "source_id": "12773650",
+      "owner": "lbdx",
+      "french": "J'ai mal.",
+      "english": [
+        "I'm in pain.",
+        "I am in pain."
+      ],
+      "forms": [
+        "mal"
+      ]
+    },
+    {
+      "source_id": "12835577",
+      "owner": "Rovo",
+      "french": "Voici le docteur.",
+      "english": [
+        "Here's the doctor."
+      ],
+      "forms": [
+        "docteur"
+      ]
+    },
+    {
+      "source_id": "12835578",
+      "owner": "Rovo",
+      "french": "Voici le médecin.",
+      "english": [
+        "Here's the doctor."
+      ],
+      "forms": [
+        "médecin"
+      ]
+    }
+  ]
+}

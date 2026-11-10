@@ -1,0 +1,355 @@
+{
+  "T01": {
+    "name": "Airports",
+    "words": [
+      "avion",
+      "avions",
+      "aéroport",
+      "billet",
+      "valise",
+      "valises",
+      "voyage",
+      "pilote",
+      "passeport"
+    ]
+  },
+  "T02": {
+    "name": "Dogs",
+    "words": [
+      "chiens",
+      "chiot",
+      "chiots",
+      "balle",
+      "promenade",
+      "queue",
+      "niche",
+      "aboie"
+    ]
+  },
+  "T03": {
+    "name": "Cats",
+    "words": [
+      "chats",
+      "chaton",
+      "chatons",
+      "chatte",
+      "queue",
+      "minou",
+      "lit"
+    ]
+  },
+  "T04": {
+    "name": "Tree types",
+    "words": [
+      "arbre",
+      "arbres",
+      "forêt",
+      "feuille",
+      "feuilles",
+      "chêne",
+      "pin",
+      "sapin"
+    ]
+  },
+  "T05": {
+    "name": "Cloud types",
+    "words": [
+      "nuage",
+      "nuages",
+      "ciel",
+      "orage",
+      "gris",
+      "étoile",
+      "étoiles",
+      "lune"
+    ]
+  },
+  "T07": {
+    "name": "Chinese food",
+    "words": [
+      "nouilles",
+      "soupe",
+      "baguettes",
+      "canard",
+      "poulet",
+      "porc",
+      "légumes",
+      "chinois"
+    ]
+  },
+  "T08": {
+    "name": "Bakery",
+    "words": [
+      "baguette",
+      "gâteau",
+      "gâteaux",
+      "tarte",
+      "boulangerie",
+      "boulanger",
+      "biscuit",
+      "biscuits"
+    ]
+  },
+  "T10": {
+    "name": "Train travel",
+    "words": [
+      "train",
+      "trains",
+      "gare",
+      "billet",
+      "voyage",
+      "quai",
+      "voiture",
+      "valise"
+    ]
+  },
+  "T11": {
+    "name": "Hotels",
+    "words": [
+      "hôtel",
+      "hôtels",
+      "clé",
+      "nuit",
+      "réception",
+      "valise",
+      "chambres",
+      "piscine"
+    ]
+  },
+  "T12": {
+    "name": "Soccer",
+    "words": [
+      "football",
+      "ballon",
+      "équipe",
+      "match",
+      "joueur",
+      "joueurs",
+      "joue",
+      "joues",
+      "jouent",
+      "foot",
+      "sport",
+      "gagne",
+      "but"
+    ]
+  },
+  "T13": {
+    "name": "Cycling",
+    "words": [
+      "vélo",
+      "vélos",
+      "roue",
+      "casque",
+      "route",
+      "course",
+      "cycliste"
+    ]
+  },
+  "T14": {
+    "name": "Hiking",
+    "words": [
+      "montagne",
+      "montagnes",
+      "forêt",
+      "chemin",
+      "sac",
+      "randonnée",
+      "marche",
+      "lac"
+    ]
+  },
+  "T16": {
+    "name": "Museums",
+    "words": [
+      "musée",
+      "musées",
+      "tableau",
+      "tableaux",
+      "art",
+      "peintre",
+      "statue",
+      "artiste",
+      "artistes",
+      "visite",
+      "histoire",
+      "vieux"
+    ]
+  },
+  "T18": {
+    "name": "Cooking",
+    "words": [
+      "soupe",
+      "gâteau",
+      "gâteaux",
+      "cuisinier",
+      "cuisinière",
+      "recette",
+      "sel",
+      "poivre",
+      "plat",
+      "chaud",
+      "cuisine",
+      "bon",
+      "bonne",
+      "délicieux",
+      "sucre"
+    ]
+  },
+  "T19": {
+    "name": "Gardening",
+    "words": [
+      "jardin",
+      "fleur",
+      "fleurs",
+      "arbre",
+      "herbe",
+      "rose",
+      "roses",
+      "jardinier"
+    ]
+  },
+  "T20": {
+    "name": "Birds",
+    "words": [
+      "oiseaux",
+      "nid",
+      "aile",
+      "ailes",
+      "plume",
+      "vole",
+      "chante",
+      "poule"
+    ]
+  },
+  "T21": {
+    "name": "Ocean life",
+    "words": [
+      "requin",
+      "baleine",
+      "dauphin",
+      "poissons",
+      "océan",
+      "crabe",
+      "étoile"
+    ]
+  },
+  "T22": {
+    "name": "The office",
+    "words": [
+      "bureau",
+      "ordinateur",
+      "travail",
+      "travaille",
+      "travailles",
+      "travaillent",
+      "patron",
+      "patronne",
+      "collègue",
+      "collègues",
+      "téléphone",
+      "réunion",
+      "occupé",
+      "occupée",
+      "secrétaire",
+      "stylo"
+    ]
+  },
+  "T23": {
+    "name": "At the doctor",
+    "words": [
+      "médecin",
+      "médecins",
+      "docteur",
+      "docteurs",
+      "malade",
+      "malades",
+      "hôpital",
+      "mal",
+      "infirmière",
+      "infirmier",
+      "fièvre",
+      "tête",
+      "dentiste",
+      "dents",
+      "dent",
+      "ventre",
+      "gorge",
+      "toux",
+      "rhume",
+      "santé"
+    ]
+  },
+  "T24": {
+    "name": "Pharmacy",
+    "words": [
+      "pharmacie",
+      "médicament",
+      "médicaments",
+      "pharmacien",
+      "pharmacienne",
+      "malade",
+      "malades",
+      "mal",
+      "tête",
+      "rhume",
+      "toux",
+      "fièvre",
+      "dents",
+      "gorge"
+    ]
+  },
+  "T26": {
+    "name": "Clothing",
+    "words": [
+      "robe",
+      "chemise",
+      "chapeau",
+      "chaussures",
+      "manteau",
+      "pantalon",
+      "jupe",
+      "chaussettes"
+    ]
+  },
+  "T27": {
+    "name": "Colors and art",
+    "words": [
+      "art",
+      "peinture",
+      "tableau",
+      "tableaux",
+      "couleur",
+      "couleurs",
+      "artiste",
+      "artistes",
+      "dessin",
+      "peintre",
+      "beau",
+      "belle",
+      "dessine"
+    ]
+  },
+  "T28": {
+    "name": "Cinema",
+    "words": [
+      "film",
+      "films",
+      "cinéma",
+      "acteur",
+      "acteurs",
+      "actrice",
+      "regarde",
+      "regardes",
+      "regardent",
+      "écran",
+      "histoire",
+      "télé",
+      "télévision",
+      "aime",
+      "drôle",
+      "triste",
+      "billet"
+    ]
+  }
+}

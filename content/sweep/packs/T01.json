@@ -1,0 +1,72 @@
+{
+  "topic": "Airports",
+  "words": [
+    "avion",
+    "avions",
+    "aéroport",
+    "billet",
+    "valise",
+    "valises",
+    "voyage",
+    "pilote",
+    "passeport"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "905877",
+      "owner": "sacredceltic",
+      "french": "J'ai un passeport.",
+      "english": [
+        "I have a passport."
+      ],
+      "forms": [
+        "passeport"
+      ]
+    },
+    {
+      "source_id": "8620062",
+      "owner": "Micsmithel",
+      "french": "Il voyage.",
+      "english": [
+        "He travels around."
+      ],
+      "forms": [
+        "voyage"
+      ]
+    },
+    {
+      "source_id": "9025535",
+      "owner": "Micsmithel",
+      "french": "Elle voyage.",
+      "english": [
+        "She travels."
+      ],
+      "forms": [
+        "voyage"
+      ]
+    },
+    {
+      "source_id": "10512296",
+      "owner": "pkill",
+      "french": "Je voyage.",
+      "english": [
+        "I travel."
+      ],
+      "forms": [
+        "voyage"
+      ]
+    },
+    {
+      "source_id": "12241135",
+      "owner": "Orange",
+      "french": "Passeport, s'il vous plaît.",
+      "english": [
+        "Passport, please."
+      ],
+      "forms": [
+        "passeport"
+      ]
+    }
+  ]
+}
