@@ -2634,15 +2634,15 @@
   {
     "sentence_id": "S3106",
     "unit_id": "U03",
-    "french": "Oui, bonsoir ! Je suis Marie.",
-    "english": "Yes, good evening! I'm Marie.",
+    "french": "Oui, je suis Marie. Bonsoir !",
+    "english": "Yes, I'm Marie. Good evening!",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
     "status": "live: native check before Phase 4",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "QT09 answer",
+    "notes": "QT09 answer; French check 2026-11-10: was \"Oui, bonsoir ! Je suis Marie.\" = \"Yes, good evening! I'm Marie.\" (confirm first, then greet)",
     "origin": "workbook"
   },
   {
@@ -9312,15 +9312,15 @@
   {
     "sentence_id": "S7355",
     "unit_id": "U09",
-    "french": "Je mange parce que j'aime le pain.",
-    "english": "I'm eating because I like bread.",
+    "french": "Je mange du pain parce que j'aime le pain.",
+    "english": "I'm eating bread because I like bread.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
     "status": "live: native check before Phase 4",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "A1 unit draft",
+    "notes": "A1 unit draft; French check 2026-11-10: was \"Je mange parce que j'aime le pain.\" = \"I'm eating because I like bread.\" (eating in general because one likes bread did not follow)",
     "origin": "workbook"
   },
   {

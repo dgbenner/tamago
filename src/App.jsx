@@ -77,7 +77,6 @@ export default function App() {
   const [ending, setEnding] = useState(null)
   const [lastLine, setLastLine] = useState(null) // a passed lesson's score, shown on home instead of on its own screen
   const [splash, setSplash] = useState(true)
-  const [logoState, setLogoState] = useState('wait') // the home header logo rises into place as the opening screen clears
   const seenWords = useRef(new Set())
   const roundSeen = useRef({})
   const carry = useRef([])
@@ -616,8 +615,8 @@ export default function App() {
       setProgressByUnit((p) => ({ ...p, [s.unit_id]: nextProgress }))
       put('unit_progress', nextProgress)
     }
-    // A passed lesson goes straight back to home; its score shows there (craft review, fix 12).
-    setLastLine(`Last lesson: ${s.firstCorrect} of ${s.graded ?? s.size}.`)
+    // A passed lesson goes straight back to home; its score shows there as one line that fades by itself (Dan, 2026-11-10).
+    setLastLine(`${s.firstCorrect} of ${s.graded ?? s.size}`)
     setScreen('home')
   }
 
@@ -794,7 +793,7 @@ export default function App() {
     { beforeRow: rowNumbers.at(-1) + 1, label: 'A2' },
   ] : []
   return (
-    <Home rows={rows} markers={markers} levelLabel={levelLabel} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints} logoState={logoState}
+    <Home rows={rows} markers={markers} levelLabel={levelLabel} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
       streakLine={showStreaks ? [streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ') : ''}
       onProgress={() => setScreen('progress')}
       tools={[
@@ -811,7 +810,7 @@ export default function App() {
       practice={{ mistakes: bank.length, ready: bank.length > 0 || practiceIds().length > 0 }} onPractice={startPracticeMix}
       nextLabel={`Next Lesson: ${curUnit?.title ?? ''}`}
       onNext={() => (session ? startLesson() : startUnit(currentUnit))}
-      inProgress={Boolean(session)} lastLine={lastLine}
+      inProgress={Boolean(session)} lastLine={lastLine} onLastLineGone={() => setLastLine(null)}
       onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
       onGrammarNote={(id) => { setNote({ unitId: id, thenStart: false }); setScreen('note') }} hasNote={(id) => Boolean(noteFor(id))}
       onChooseTopic={(id) => { const at = nodeOfPack(id); setTopicChoice((c) => ({ ...c, [at]: id })); putKv(topicKey(at), id); if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
@@ -827,7 +826,7 @@ export default function App() {
         <p className="text-xl font-semibold">Turn your iPad sideways</p>
         <p className="text-muted">Tamago on iPad works in landscape.</p>
       </div>
-      {splash && <Splash onDone={() => setSplash(false)} onFade={() => setLogoState((v) => (v === 'wait' ? 'arrive' : v))} />}
+      {splash && <Splash onDone={() => setSplash(false)} />}
     </>
   )
 }

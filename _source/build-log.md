@@ -423,3 +423,20 @@ Part 3, Lingua Libre recordings:
   30, every word in 3 or more.
 - App: a stored topic choice counts only while that pack is still at that node, so a Weather pick at Your Topic
   doesn't put it at the first node; it's listed under Another Topic, progress kept.
+
+## 2026-11-10: Craft review and French check fixes
+
+- Read _review/2026-11-10/craft-review.md (overall 4.1) and french-check.md (Keep 289, Fix 9, Cut 2).
+- Opening screen (Dan): kept on every launch; splash-out is now one 500 ms ease-in-out crossfade over the home,
+  which is already rendered underneath. The header logo's rise (logo-wait, logo-arrive, onFade) is removed, so the
+  fade is the only motion. Measured in Chrome: opacity 1 until about 3.7 s, gone at 4.26 s, no other animation.
+- Feedback: FB21 "Close." and FB25 "Almost." only for a near miss (check.js nearMiss: word edit distance 1 in an
+  answer of 2 or more words, or letter edit distance 2 or less). Typed answers, chips, and choice questions compare
+  the text picked; picture and pair questions never count as near. Unit test added.
+- After a lesson: lastLine is "8 of 9", floated above the bottom bar (no layout shift), held 3 s, faded 600 ms,
+  then cleared on animationend.
+- Level caption hidden while level markers show; topic sheet kicker "Choose a Topic" until chosen; light --focus is
+  the ink (#1c1a17), dark unchanged.
+- French: scripts/apply-french-check.mjs to workbook v24 (S3106, S7355 fixed, ids kept, sentence_words rebuilt;
+  drafts.json kept in step); five fr_to_en answers (AF ids) recorded as Claude's keep decisions in
+  review-decisions.json. Skipped: S6053 to S6056 (off since the Weather rebuild); S6152, S6158, S6159, S6160 kept (Dan).

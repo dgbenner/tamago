@@ -44,3 +44,13 @@ test('English contractions are equal', () => {
   assert.ok(checkTyped('you are a boy', ["You're a boy."], { lang: 'en', strict: true }).correct)
 })
 test('an empty answer is a miss', () => assert.equal(fr('  ', ['Oui.']).correct, false))
+
+test('near miss: one word or two letters off, never an unrelated answer', async () => {
+  const { nearMiss } = await import('../src/lib/check.js')
+  assert.ok(nearMiss('Je mange une pomme', ['Je mange une orange.']))
+  assert.ok(nearMiss('Je mange pomme', ['Je mange une pomme.']))
+  assert.ok(nearMiss('fromaje', ['fromage']))
+  assert.ok(!nearMiss('Il a un chien.', ['Je mange une pomme.']))
+  assert.ok(!nearMiss('The cat is here.', ['I like bread.'], 'en'))
+  assert.ok(!nearMiss('', ['Bonjour']))
+})

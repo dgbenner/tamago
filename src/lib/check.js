@@ -71,3 +71,26 @@ export function diffMarks(shown, given) {
   }
   return runs
 }
+
+// A near miss (craft review 2026-11-10): a wrong answer one word away from an accepted one (a word wrong, missing or
+// extra, in an answer of two words or more), or two letters away from it. Only near misses may hear "Close." or
+// "Almost."; an answer nowhere near gets a plain line.
+const editDistance = (a, b) => {
+  let prev = Array.from({ length: b.length + 1 }, (_, j) => j)
+  for (let i = 1; i <= a.length; i++) {
+    const cur = [i]
+    for (let j = 1; j <= b.length; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1))
+    prev = cur
+  }
+  return prev[b.length]
+}
+export function nearMiss(given, accepted, lang = 'fr') {
+  const g = fold(normalize(given ?? '', lang))
+  if (!g) return false
+  return accepted.some((a) => {
+    const t = fold(normalize(a, lang))
+    const gw = g.split(' '), tw = t.split(' ')
+    if (tw.length >= 2 && editDistance(gw, tw) <= 1) return true
+    return t.length >= 4 && editDistance([...g], [...t]) <= 2
+  })
+}

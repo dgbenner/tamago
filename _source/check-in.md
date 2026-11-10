@@ -4,6 +4,13 @@ Updated November 10, 2026. **Three topic packs at a second Your Topic node (Offi
 
 ## Done since last check-in
 
+- **Fixes from the 2026-11-10 craft review and French check:**
+  - **Opening screen:** still on every launch. It now clears with one crossfade of about half a second that reveals home in place; the header logo no longer rises, and nothing on home moves.
+  - **"Close." and "Almost."** appear only for a near miss: one word wrong, missing or extra, or two letters off. An answer nowhere near gets "Not quite.", "Here's the answer." and the like.
+  - **After a lesson:** home shows one line above the bottom buttons, "8 of 9", which fades by itself after about 3 seconds. No screen, no tap.
+  - **Smaller fixes:** the level caption no longer repeats "Very Early A1" once the tree shows level markers (it still says Starting Out before then); the topic pop-up says "Choose a Topic" over "Your Topic" until you pick, then "Your Topic" over the pack's name; the keyboard focus ring in light mode is the ink colour instead of the browser's blue (dark keeps its light blue). 3px as before.
+  - **French (workbook v24):** S3106 is now "Oui, je suis Marie. Bonsoir !" and S7355 "Je mange du pain parce que j'aime le pain." The Weather fixes and the S6056 cut were skipped (those rows are already off since the rebuild); the four Family Life lines stay as they are. Five more answers count as right: "No, she is small.", "How are you, Marie?", "Sorry, is it here?", "It's his tortoise.", "No, it's his apple."
+  - Left as is, as you asked: where tools open on desktop. Points were already hidden.
 - **Points hidden everywhere.** The blue chip is gone from home on every screen size. Points are still earned on each right answer and stored day by day as before; they just don't show. The setting that was Points and Streaks is now Streaks and covers only the streak and the weekly goal.
 - **Picture list for Pick the Picture:** _source/image-list.md, 97 words (92 pictures to make, since feminine colours and docteur reuse a picture), most-used first, with file name, what to draw and priority, and one reusable ChatGPT prompt at the top. It includes the 30 words that show an OpenMoji stand-in today, since those don't match the sushi style. Drop finished images in _source/pictures/.
 - **Developer area:** "Developer" sits last in the tools strip (and the panel on desktop), in a quieter dashed outline. It opens one page: testing controls at the top (Testing shortcuts, Variant Test Bank, Flag Review, Native-Speaker Check, Forum, all moved out of Settings), then large accordions: Course Snapshot (dated, exact numbers), Model Story, Craft Rubric, Latest Grades, Test Notes, Feature List, Question Types, Build Phases, Autonomous Brief and Check-In. Settings now holds only learner settings.
@@ -152,7 +159,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S3103 Ça va, Marie ? = Are you OK, Marie? (QT09 question)
 - S3104 Oui, ça va bien. = Yes, I'm fine. (QT09 answer)
 - S3105 Tu es Marie ? = Are you Marie? (QT09 question)
-- S3106 Oui, bonsoir ! Je suis Marie. = Yes, good evening! I'm Marie. (QT09 answer)
+- S3106 Oui, je suis Marie. Bonsoir ! = Yes, I'm Marie. Good evening! (QT09 answer)
 - S3107 Comment ça va, Paul ? = How are you, Paul? (QT09 question)
 - S3108 Bien, merci, Marie. = Fine, thanks, Marie. (QT09 answer)
 - S3109 Excusez-moi, vous êtes Paul ? = Excuse me, are you Paul?
@@ -265,7 +272,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S7352 Quel livre ? = Which book?
 - S7353 Quelle pomme ? = Which apple?
 - S7354 Quelle lettre est ici ? = Which letter is here?
-- S7355 Je mange parce que j'aime le pain. = I'm eating because I like bread.
+- S7355 Je mange du pain parce que j'aime le pain. = I'm eating bread because I like bread.
 - S7356 Il est ici parce que tu es ici. = He is here because you are here.
 - S7357 Où est le chat ? = Where is the cat? (QT09 question)
 - S7358 Le chat est ici. = The cat is here. (QT09 answer)

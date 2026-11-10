@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 766 (473 matched to Tatoeba, 293 Tamago originals), 71 off, 0 awaiting a ruling. Words with Wiktionary data: 227 of 227. French-to-English answers: 265 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 389.
+Sentences live: 766 (473 matched to Tatoeba, 293 Tamago originals), 71 off, 0 awaiting a ruling. Words with Wiktionary data: 227 of 227. French-to-English answers: 270 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 389.
 
 Unit 1 is approved and live.
 
@@ -86,7 +86,7 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S3103 |  | Ça va, Marie ? | Are you OK, Marie? | tts |
 | S3104 |  | Oui, ça va bien. | Yes, I'm fine. | tts |
 | S3105 |  | Tu es Marie ? | Are you Marie? | tts |
-| S3106 |  | Oui, bonsoir ! Je suis Marie. | Yes, good evening! I'm Marie. | tts |
+| S3106 |  | Oui, je suis Marie. Bonsoir ! | Yes, I'm Marie. Good evening! | tts |
 | S3107 |  | Comment ça va, Paul ? | How are you, Paul? | tts |
 | S3108 |  | Bien, merci, Marie. | Fine, thanks, Marie. | tts |
 | S3109 |  | Excusez-moi, vous êtes Paul ? | Excuse me, are you Paul? | tts |
@@ -244,7 +244,7 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S7352 |  | Quel livre ? | Which book? | tts |
 | S7353 |  | Quelle pomme ? | Which apple? | tts |
 | S7354 |  | Quelle lettre est ici ? | Which letter is here? | tts |
-| S7355 |  | Je mange parce que j'aime le pain. | I'm eating because I like bread. | tts |
+| S7355 |  | Je mange du pain parce que j'aime le pain. | I'm eating bread because I like bread. | tts |
 | S7356 |  | Il est ici parce que tu es ici. | He is here because you are here. | tts |
 | S7357 |  | Où est le chat ? | Where is the cat? | tts |
 | S7358 |  | Le chat est ici. | The cat is here. | tts |

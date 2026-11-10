@@ -1,6 +1,6 @@
 import { explain } from '../lib/explain.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { checkTyped, diffMarks } from '../lib/check.js'
+import { checkTyped, diffMarks, nearMiss } from '../lib/check.js'
 import { useRecorder } from '../lib/recorder.js'
 import { play, stop } from '../lib/audio.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconSpeaker } from './icons.jsx'
@@ -24,10 +24,12 @@ function headingFor(q, { hideFrench, result, typing }) {
 // R18: a rotating line for the answer bar, never the same one twice running. French lines come in at
 // french_feedback_rate ("about 1 per lesson"). FB24 says the item comes back, so only a first-attempt miss in a lesson uses it.
 const FRENCH_RATE = 0.1
+// "Close." and "Almost." only for a near miss (nearMiss in check.js): one word or two letters off.
+const NEAR_ONLY = new Set(['FB21', 'FB25'])
 function pickPhrase(phrases, q, r, kind, lastId) {
   const context = r.typo ? 'typo' : r.accent ? 'accent' : r.correct ? 'correct' : 'incorrect'
   const comesBack = kind === 'lesson' && !q.reask
-  const pool = phrases.filter((p) => p.context === context && p.phrase_id !== lastId && (p.phrase_id !== 'FB24' || comesBack))
+  const pool = phrases.filter((p) => p.context === context && p.phrase_id !== lastId && (p.phrase_id !== 'FB24' || comesBack) && (r.near || !NEAR_ONLY.has(p.phrase_id)))
   const french = pool.filter((p) => p.language === 'fr')
   const english = pool.filter((p) => p.language === 'en')
   const from = french.length && Math.random() < FRENCH_RATE ? french : english.length ? english : pool
@@ -59,7 +61,8 @@ export default function Lesson({ session, content, settings, seenWords, cantList
   const lastPhrase = useRef(null)
   const answer = (r) => {
     // Speaking isn't judged, so it gets no feedback line. A mistapped pair gets the plain "Not quite." and the pair itself.
-    const phrase = r.testSkip || r.speaking || (q.type === 'QT01' && !r.correct) ? null : pickPhrase(content.feedback_phrases, q, r, session.kind, lastPhrase.current)
+    const near = !r.correct && r.given != null && nearMiss(r.given, r.against ?? q.accepted ?? [], r.lang ?? q.lang)
+    const phrase = r.testSkip || r.speaking || (q.type === 'QT01' && !r.correct) ? null : pickPhrase(content.feedback_phrases, q, { ...r, near }, session.kind, lastPhrase.current)
     if (phrase) lastPhrase.current = phrase.phrase_id
     const full = { ...r, hidden: hideFrench, phrase }
     setResult(full)
@@ -333,7 +336,7 @@ function PickMeaning({ q, result, onAnswer, newWords, hideFrench, onHint }) {
         ? <SpeakerButton audio={q.audio} large label="Play the sentence" />
         : <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>}
       <ChoiceList choices={q.choices} result={result} chosen={chosen} answer={q.answer} lang="en"
-        onPick={(choice) => { setChosen(choice); onAnswer({ correct: choice === q.answer }) }} />
+        onPick={(choice) => { setChosen(choice); onAnswer({ correct: choice === q.answer, given: choice, against: [q.answer], lang: 'en' }) }} />
     </>
   )
 }
@@ -345,7 +348,7 @@ function PickHeard({ q, result, onAnswer }) {
       <>
         <SpeakerButton audio={q.audio} large label="Play the sentence" />
         <ChoiceList choices={q.choices} result={result} chosen={chosen} answer={q.answer} lang="en"
-          onPick={(choice) => { setChosen(choice); onAnswer({ correct: choice === q.answer }) }} />
+          onPick={(choice) => { setChosen(choice); onAnswer({ correct: choice === q.answer, given: choice, against: [q.answer], lang: 'en' }) }} />
       </>
     )
   }
@@ -364,7 +367,7 @@ function PickHeard({ q, result, onAnswer }) {
           )
         })}
       </div>
-      {!result && <div className="action-row"><button data-check disabled={!chosen} onClick={() => onAnswer({ correct: chosen === q.answer })} className="btn-submit w-full">Check</button></div>}
+      {!result && <div className="action-row"><button data-check disabled={!chosen} onClick={() => { const pick = q.audioChoices.find((x) => x.sentence_id === chosen); onAnswer({ correct: chosen === q.answer, given: pick?.french, against: [q.shown] }) }} className="btn-submit w-full">Check</button></div>}
     </>
   )
 }

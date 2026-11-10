@@ -16,7 +16,7 @@
   --logo-orange: #e8590c;
   --right: #1b7a43;
   --wrong: #b3261e;
-  --focus: #1f5fd6;
+  --focus: #1c1a17; /* the ink, so the ring is the app's own, not the browser's blue (craft review 2026-11-10) */
   --field: #979287;
 }
 
@@ -120,7 +120,7 @@ button {
   touch-action: manipulation;
 }
 
-/* Keyboard focus is always visible (WCAG 2.4.7): a blue ring outside the element, in both themes. Mouse and touch
+/* Keyboard focus is always visible (WCAG 2.4.7): a 3px ring outside the element, ink in light, light blue in dark. Mouse and touch
    don't show it. */
 :focus-visible {
   outline: 3px solid var(--focus);
@@ -221,11 +221,11 @@ button {
     transform: scale(1.05);
     transition-duration: 30ms;
   }
-  /* Opening screen: the letters draw on one after another, hold, then the screen clears quickly while the header
-     logo rises into place (Splash.jsx sets each stroke's timing from its length, so the pen keeps one speed). */
+  /* Opening screen: the letters draw on one after another, hold, then one crossfade of about half a second reveals
+     the home screen in place (Splash.jsx sets each stroke's timing from its length, so the pen keeps one speed). */
   .splash {
     @apply fixed inset-0 z-50 flex items-center justify-center bg-bg;
-    animation: splash-out 180ms ease-in 3200ms forwards; /* drawn by about 0.75s, then held about 2.4s */
+    animation: splash-out 500ms ease-in-out 3200ms forwards; /* drawn by about 0.75s, then held about 2.4s */
   }
   /* A dash longer than the stroke, offset past its end: nothing shows, not even a round cap, until it moves. */
   .splash-draw {
@@ -233,12 +233,10 @@ button {
     stroke-dashoffset: 1.01;
     animation: splash-draw 300ms linear both;
   }
-  /* The home header's logo, rising from below as the opening screen clears. */
-  .logo-wait {
-    opacity: 0;
-  }
-  .logo-arrive {
-    animation: logo-arrive 720ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  /* After a lesson: the score above the bottom bar, held about 3 seconds, then faded out. */
+  .result-line {
+    @apply pointer-events-none absolute inset-x-0 -top-9 mx-auto w-fit rounded-full bg-bg px-3 py-1 text-sm text-muted;
+    animation: result-out 600ms ease-in 3000ms forwards;
   }
   /* The tool strip scrolls sideways without a visible bar. */
   .no-scrollbar {
@@ -311,9 +309,6 @@ button {
     .splash-draw {
       animation: none;
       stroke-dashoffset: 0;
-    }
-    .logo-arrive {
-      animation: none;
     }
     .pair-out {
       animation: none;
@@ -429,12 +424,11 @@ button {
   }
 }
 
+@keyframes result-out {
+  to { opacity: 0; visibility: hidden; }
+}
 @keyframes splash-draw {
   to { stroke-dashoffset: 0; }
-}
-@keyframes logo-arrive {
-  from { opacity: 0; transform: translateY(38vh) scale(1.35); }
-  to { opacity: 1; transform: none; }
 }
 @keyframes splash-out {
   to { opacity: 0; visibility: hidden; }

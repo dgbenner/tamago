@@ -5232,46 +5232,6 @@
     "hint_override": ""
   },
   {
-    "sentence_id": "S3106",
-    "position": 1,
-    "surface": "Oui",
-    "word_id": "W004",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S3106",
-    "position": 2,
-    "surface": "bonsoir",
-    "word_id": "W042",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S3106",
-    "position": 3,
-    "surface": "Je",
-    "word_id": "W006",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S3106",
-    "position": 4,
-    "surface": "suis",
-    "word_id": "W008",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S3106",
-    "position": 5,
-    "surface": "Marie",
-    "word_id": "",
-    "notes": "name",
-    "hint_override": ""
-  },
-  {
     "sentence_id": "S3107",
     "position": 1,
     "surface": "Comment",
@@ -19864,62 +19824,6 @@
     "hint_override": ""
   },
   {
-    "sentence_id": "S7355",
-    "position": 1,
-    "surface": "Je",
-    "word_id": "W006",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7355",
-    "position": 2,
-    "surface": "mange",
-    "word_id": "W051",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7355",
-    "position": 3,
-    "surface": "parce que",
-    "word_id": "W439",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7355",
-    "position": 4,
-    "surface": "j'",
-    "word_id": "W055",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7355",
-    "position": 5,
-    "surface": "aime",
-    "word_id": "W053",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7355",
-    "position": 6,
-    "surface": "le",
-    "word_id": "W019",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7355",
-    "position": 7,
-    "surface": "pain",
-    "word_id": "W056",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
     "sentence_id": "S7356",
     "position": 1,
     "surface": "Il",
@@ -25404,6 +25308,118 @@
     "position": 4,
     "surface": "beau",
     "word_id": "W413",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3106",
+    "position": 1,
+    "surface": "Oui",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3106",
+    "position": 2,
+    "surface": "je",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3106",
+    "position": 3,
+    "surface": "suis",
+    "word_id": "W008",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3106",
+    "position": 4,
+    "surface": "Marie",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3106",
+    "position": 5,
+    "surface": "Bonsoir",
+    "word_id": "W042",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7355",
+    "position": 1,
+    "surface": "Je",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7355",
+    "position": 2,
+    "surface": "mange",
+    "word_id": "W051",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7355",
+    "position": 3,
+    "surface": "du",
+    "word_id": "W063",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7355",
+    "position": 4,
+    "surface": "pain",
+    "word_id": "W056",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7355",
+    "position": 5,
+    "surface": "parce que",
+    "word_id": "W439",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7355",
+    "position": 6,
+    "surface": "j'",
+    "word_id": "W055",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7355",
+    "position": 7,
+    "surface": "aime",
+    "word_id": "W053",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7355",
+    "position": 8,
+    "surface": "le",
+    "word_id": "W019",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7355",
+    "position": 9,
+    "surface": "pain",
+    "word_id": "W056",
     "notes": "",
     "hint_override": ""
   }

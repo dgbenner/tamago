@@ -117,7 +117,8 @@ function UnitCard({ node, inProgress, onStart, onClose, onGrammarNote, hasNote, 
     : `Each unit has five rounds, each a step harder than the last. You're on round ${reached + 1}, lesson ${lesson} of ${lessons}.`
   return (
     <Sheet onClose={onClose}>
-      <SheetHead kicker={topic ? 'Your Topic' : `Unit ${unit.order}`} title={listing ? 'Choose a Topic' : unit.title} onClose={onClose} />
+      {/* Until a pack is chosen the kicker says what to do and the title is the node's name; never the same words twice. */}
+      <SheetHead kicker={topic ? (topic.choosing ? 'Choose a Topic' : 'Your Topic') : `Unit ${unit.order}`} title={listing && !topic.choosing ? 'Choose a Topic' : unit.title} onClose={onClose} />
       {listing ? <>
         <p className="mt-2 text-muted">Words and sentences on one subject. You can switch later; each topic keeps its progress.</p>
         <TopicList topic={topic} current={topic.choosing ? null : unit.unit_id} onChoose={onChooseTopic} />
@@ -225,8 +226,8 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ wide, panel, rows, markers, levelLabel, pointsToday, pointsTotal, showPoints, streakLine, logoState, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
-  practice, onPractice, nextLabel, onNext, inProgress, lastLine, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
+export default function Home({ wide, panel, rows, markers, levelLabel, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
+  practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
@@ -236,7 +237,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
           the utilities right, like a desktop site. */}
       <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(0.25rem,env(safe-area-inset-top))] pb-1 lg:mx-0 lg:px-0 lg:py-1.5">
         <span className="flex w-20 justify-start lg:order-2 lg:w-auto lg:justify-end">{showPoints && <Points total={pointsTotal} today={pointsToday} />}</span>
-        <span className={`flex items-center gap-2 lg:order-1 lg:mr-auto ${logoState === 'wait' ? 'logo-wait' : logoState === 'arrive' ? 'logo-arrive' : ''}`}>
+        <span className="flex items-center gap-2 lg:order-1 lg:mr-auto">
           <SushiMark className="hidden w-11 lg:block" />
           <LogoInline />
         </span>
@@ -248,9 +249,10 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
 
       <Tools tools={tools} />
 
-      {/* Where you are, quietly: the level in italics, and Progress as a low-emphasis button. */}
+      {/* Where you are, quietly: "Starting Out" in italics until the tree shows level markers (then the caption would
+          repeat the first one), the streak if on, and Progress as a low-emphasis button. */}
       <div className="flex items-center justify-between gap-3">
-        <p className="text-sm text-muted"><span className="italic">{levelLabel}</span>{streakLine && <span> · {streakLine}</span>}</p>
+        <p className="text-sm text-muted">{[!markers.length && <span key="level" className="italic">{levelLabel}</span>, streakLine && <span key="streak">{streakLine}</span>].filter(Boolean).flatMap((x, i) => (i ? [' · ', x] : [x]))}</p>
         <button onClick={onProgress} className="btn-tertiary -mr-2 lg:hidden">Progress</button>
       </div>
 
@@ -272,8 +274,9 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
 
       {/* Pinned to the bottom, with a line above, so they're always on screen. */}
       <div className="bar-bottom -mx-4 mt-auto flex flex-col gap-3 px-4 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))]">
-        {/* The last lesson's score sits here instead of on a screen of its own (craft review, fix 12). */}
-        {lastLine && <p className="text-center text-sm text-muted">{lastLine}</p>}
+        {/* The last lesson's score, "8 of 9": one line just above the bar that fades by itself; no screen, no tap.
+            It floats, so nothing moves when it goes. */}
+        {lastLine && <p role="status" className="result-line" onAnimationEnd={onLastLineGone}>{lastLine}</p>}
         <div className="bottom-buttons">
           <button onClick={() => (practice.ready ? onPractice() : setPracticeNote(true))} className="btn-secondary">
             Practice{practice.mistakes ? ` · ${practice.mistakes} ${practice.mistakes === 1 ? 'Mistake' : 'Mistakes'}` : ''}

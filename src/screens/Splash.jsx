@@ -8,12 +8,12 @@ const STAGGER_MS = 90
 // each joint, and settles at the end (Dan's test notes: more fluid, a little faster). easeInOutSine and its inverse.
 const easedTime = (progress) => Math.acos(1 - 2 * progress) / Math.PI
 
-// Shows once when the app opens, never inside a lesson. A tap skips it. onFade fires as it starts to clear, so the
-// home header's logo can rise into place at the same moment.
-export default function Splash({ onDone, onFade }) {
+// Shows each time the app opens, never inside a lesson. A tap skips it. It clears with one crossfade (about half a
+// second) that reveals the home screen in place, already drawn underneath; nothing on home moves (Dan, 2026-11-10).
+export default function Splash({ onDone }) {
   const svg = useRef(null)
   useEffect(() => {
-    const safety = setTimeout(() => { onFade?.(); onDone() }, 4800)
+    const safety = setTimeout(onDone, 4800)
     return () => clearTimeout(safety)
   }, [])
   // Before the first paint: measure every stroke and give it its slice of the letter's eased time.
@@ -33,10 +33,9 @@ export default function Splash({ onDone, onFade }) {
       })
     })
   }, [])
-  const skip = () => { onFade?.(); onDone() }
+  const skip = () => onDone()
   return (
     <div className="splash" onClick={skip}
-      onAnimationStart={(e) => { if (e.animationName === 'splash-out') onFade?.() }}
       onAnimationEnd={(e) => { if (e.animationName === 'splash-out') onDone() }}>
       <div className="flex w-[min(84vw,380px)] flex-col items-center">
         <svg ref={svg} className="w-full" viewBox={viewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">

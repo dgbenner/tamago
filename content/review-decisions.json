@@ -103,7 +103,33 @@
       "french": "Tu es un homme ?"
     }
   },
-  "accepted_answers": {},
+  "accepted_answers": {
+    "AF21081": {
+      "action": "keep",
+      "answer": "No, she is small.",
+      "by": "Claude under autonomous-build.md, from the French check of 2026-11-10 (Dan: add the accepted-answer notes from its Keep rows): petite for a person: short, and small too"
+    },
+    "AF31032": {
+      "action": "keep",
+      "answer": "How are you, Marie?",
+      "by": "Claude under autonomous-build.md, from the French check of 2026-11-10 (Dan: add the accepted-answer notes from its Keep rows): ça va as a greeting question"
+    },
+    "AF31143": {
+      "action": "keep",
+      "answer": "Sorry, is it here?",
+      "by": "Claude under autonomous-build.md, from the French check of 2026-11-10 (Dan: add the accepted-answer notes from its Keep rows): pardon as sorry"
+    },
+    "AF72634": {
+      "action": "keep",
+      "answer": "It's his tortoise.",
+      "by": "Claude under autonomous-build.md, from the French check of 2026-11-10 (Dan: add the accepted-answer notes from its Keep rows): sa is his or her"
+    },
+    "AF72685": {
+      "action": "keep",
+      "answer": "No, it's his apple.",
+      "by": "Claude under autonomous-build.md, from the French check of 2026-11-10 (Dan: add the accepted-answer notes from its Keep rows): sa is his or her"
+    }
+  },
   "units": {
     "U01": {
       "action": "approve",
