@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 535 (449 matched to Tatoeba, 86 Tamago originals), 0 off, 449 awaiting a ruling. Words with Wiktionary data: 160 of 160. French-to-English answers: 156 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 5.
+Sentences live: 805 (719 matched to Tatoeba, 86 Tamago originals), 0 off, 719 awaiting a ruling. Words with Wiktionary data: 216 of 216. French-to-English answers: 229 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 5.
 
 Unit 1 is approved and live.
 
@@ -101,7 +101,7 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S15105 |  | Ja, ich möchte Tee. | Yes, I'd like tea. | tts |
 | S15106 |  | Ja, ich kann Deutsch sprechen. | Yes, I can speak German. | tts |
 
-## Words, for a read-through (160)
+## Words, for a read-through (216)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -267,8 +267,64 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W158 | sprechen | sprechen | Verb |  | to speak | checked |
 | W159 | Deutsch | Deutsch | Proper noun |  | German | checked |
 | W160 | spielen | spielen | Verb |  | to play [with mit ‘with someone/something’] | checked |
+| W501 | Sonne | Sonne | Noun | f | a sun | checked |
+| W503 | Schnee | Schnee | Noun | m | snow | checked |
+| W504 | kalt | kalt | Adjective |  | cold, chilly; the physical perception of something to have a low temperature | checked |
+| W505 | warm | warm | Adjective |  | warm; mildly hot | checked |
+| W506 | heiß | heiß | Adjective |  | hot | checked |
+| W507 | regnet | regnen | Verb |  | inflection of regnen: third-person singular present second-person plural present second-person plural subjunctive I plural imperative (regnen: to rain) | checked |
+| W508 | schneit | schneien | Verb |  | inflection of schneien: second-person plural present third-person singular present plural imperative (schneien: to snow [auxiliary haben]) | checked |
+| W509 | Wetter | Wetter | Noun | n | weather | checked |
+| W510 | Mutter | Mutter | Noun | f | mother | checked |
+| W511 | Vater | Vater | Noun | m | father | checked |
+| W512 | Bruder | Bruder | Noun | m | brother | checked |
+| W513 | Schwester | Schwester | Noun | f | sister | checked |
+| W514 | Sohn | Sohn | Noun | m | son | checked |
+| W515 | Tochter | Tochter | Noun | f | daughter | checked |
+| W517 | Eltern | Eltern | Noun |  | parents | checked |
+| W518 | Mama | Mama | Noun | f | mum, mummy, mom, mommy | checked |
+| W519 | Papa | Papa | Noun | m | dad, daddy | checked |
+| W520 | Büro | Büro | Noun | n | office | checked |
+| W521 | Arbeit | Arbeit | Noun | f | toil, regularly performed work, regularly pursued economic activity, labor, job, employment, occupation | checked |
+| W522 | arbeite | arbeiten | Verb |  | inflection of arbeiten: first-person singular present singular imperative first/third-person singular subjunctive I (arbeiten: to work [with an]) | checked |
+| W523 | arbeitest | arbeiten | Verb |  | inflection of arbeiten: second-person singular present second-person singular subjunctive I (arbeiten: to work [with an]) | checked |
+| W524 | arbeitet | arbeiten | Verb |  | inflection of arbeiten: third-person singular present second-person plural present plural imperative second-person plural subjunctive I (arbeiten: to work [with an]) | checked |
+| W525 | Chef | Chef | Noun | m | boss, chief | checked |
+| W526 | Chefin | Chefin | Noun | f | female equivalent of Chef; female boss | checked |
+| W527 | Computer | Computer | Noun | m | computer | checked |
+| W528 | Telefon | Telefon | Noun | n | telephone | checked |
+| W529 | beschäftigt | beschäftigt | Adjective |  | busy | checked |
+| W530 | Arzt | Arzt | Noun | m | doctor, physician | checked |
+| W531 | Ärztin | Ärztin | Noun | f | doctor, physician | checked |
+| W532 | Krankenhaus | Krankenhaus | Noun | n | hospital | checked |
+| W533 | krank | krank | Adjective |  | ill, sick | checked |
+| W535 | Fieber | Fieber | Noun | n | fever | checked |
+| W545 | Hotel | Hotel | Noun | n | hotel | checked |
+| W546 | Schlüssel | Schlüssel | Noun | m | a key | checked |
+| W547 | Zimmer | Zimmer | Noun | n | room | checked |
+| W550 | Musik | Musik | Noun | f | music | checked |
+| W553 | Klavier | Klavier | Noun | n | piano | checked |
+| W554 | Gitarre | Gitarre | Noun | f | guitar | checked |
+| W555 | Sänger | singen | Noun | m | agent noun of singen; singer (person who sings, often regularly or professionally) singer (male or unspecified) | checked |
+| W556 | Sängerin | Sängerin | Noun | f | female singer, singeress, songstress | checked |
+| W557 | singt | singen | Verb |  | inflection of singen: third-person singular present second-person plural present plural imperative (singen: to sing) | checked |
+| W558 | singe | singen | Verb |  | inflection of singen: first-person singular present first/third-person singular subjunctive I singular imperative (singen: to sing) | checked |
+| W560 | Zucker | Zucker | Noun | m | sugar | checked |
+| W561 | Schokolade | Schokolade | Noun | f | chocolate | checked |
+| W562 | Tasse | Tasse | Noun | f | cup, mug | checked |
+| W563 | Saft | Saft | Noun | m | juice | checked |
+| W564 | Kuchen | Kuchen | Noun | m | pie; cake; tart | checked |
+| W581 | Fleisch | Fleisch | Noun | n | meat | checked |
+| W583 | Reis | Reis | Noun | m | rice | checked |
+| W584 | Banane | Banane | Noun | f | banana | checked |
+| W587 | Eier | Ei | Noun | n | nominative/accusative/genitive plural of Ei (Ei: egg) | checked |
+| W603 | Strand | Strand | Noun | m | beach | checked |
+| W604 | Meer | Meer | Noun | n | sea | checked |
+| W605 | Fisch | Fisch | Noun | m | fish | checked |
+| W606 | Fische | Fisch | Noun |  | nominative/accusative/genitive plural of Fisch (Fisch: fish) | checked |
+| W607 | Boot | Boot | Noun | n | boat | checked |
 
-## Matched to Tatoeba (449)
+## Matched to Tatoeba (719)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -570,6 +626,66 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10028 | Kommt Tom? | Is Tom coming? | [#3207243](https://tatoeba.org/en/sentences/show/3207243) | Pfirsichbaeumchen |  |  | tts |
 | S10029 | Nein, warum? | No, why? | [#8084933](https://tatoeba.org/en/sentences/show/8084933) | Luiaard |  |  | tts |
 | S10030 | Ja, warum? | Yes, why? | [#8627343](https://tatoeba.org/en/sentences/show/8627343) | Melang |  |  | tts |
+| S101001 | Das Wetter ist jetzt kalt. | The weather is cold now. | [#11541729](https://tatoeba.org/en/sentences/show/11541729) | Pfirsichbaeumchen |  |  | tts |
+| S101002 | Schnee ist weiß und kalt. | Snow is white and cold. | [#12448484](https://tatoeba.org/en/sentences/show/12448484) | Waldelfe |  |  | tts |
+| S101003 | Es schneit nicht: es regnet. | It's not snowing. It's raining. | [#12717641](https://tatoeba.org/en/sentences/show/12717641) | Waldelfe |  |  | tts |
+| S101004 | Schneit es? | Is it snowing? | [#6554706](https://tatoeba.org/en/sentences/show/6554706) | Esperantostern |  |  | tts |
+| S101005 | Ist es heiß? | Is it hot? | [#5363181](https://tatoeba.org/en/sentences/show/5363181) | RandomUsername |  |  | tts |
+| S101006 | Ist das Schnee? | Is that snow? | [#5961932](https://tatoeba.org/en/sentences/show/5961932) | brauchinet |  |  | tts |
+| S101007 | Ist dir heiß? | Are you hot? | [#6643396](https://tatoeba.org/en/sentences/show/6643396) | Felixjp |  |  | tts |
+| S101008 | Ist es kalt? | Is it cold? | [#8082807](https://tatoeba.org/en/sentences/show/8082807) | Luiaard |  |  | tts |
+| S101009 | Schneit es hier? | Does it snow here? | [#8302453](https://tatoeba.org/en/sentences/show/8302453) | Luiaard |  |  | tts |
+| S101010 | Warum ist Schnee weiß? | Why is snow white? | [#748637](https://tatoeba.org/en/sentences/show/748637) | al_ex_an_der |  |  | tts |
+| S101011 | Wo ist die Sonne? | Where is the sun? | [#3262936](https://tatoeba.org/en/sentences/show/3262936) | faehrmann |  |  | tts |
+| S101012 | Wie heiß ist es? | How hot is it? | [#6641439](https://tatoeba.org/en/sentences/show/6641439) | Felixjp |  |  | tts |
+| S101013 | Ist das Wetter gut? | Is the weather nice? | [#12407835](https://tatoeba.org/en/sentences/show/12407835) | mayabe |  |  | tts |
+| S101014 | Ist die Sonne rot? | Is the sun red? | [#12553655](https://tatoeba.org/en/sentences/show/12553655) | Waldelfe |  |  | tts |
+| S101015 | Welche Farbe hat die Sonne? | What colour is the sun? | [#3325960](https://tatoeba.org/en/sentences/show/3325960) | al_ex_an_der |  |  | tts |
+| S101016 | Ist das Wetter nicht schön? | Isn't the weather good? | [#5206371](https://tatoeba.org/en/sentences/show/5206371) | jaz1313 |  |  | tts |
+| S101017 | Es regnet. | It's raining. | [#673](https://tatoeba.org/en/sentences/show/673) | MUIRIEL |  |  | tts |
+| S101018 | Heute regnet es. | Today, it's raining. | [#660927](https://tatoeba.org/en/sentences/show/660927) | Manfredo |  |  | tts |
+| S101019 | Das Wasser ist warm. | The water is warm. | [#1985820](https://tatoeba.org/en/sentences/show/1985820) | Pfirsichbaeumchen |  |  | tts |
+| S101020 | Es ist nicht warm. | It isn't warm. | [#6599678](https://tatoeba.org/en/sentences/show/6599678) | vevi61 |  |  | tts |
+| S101021 | Es ist warm hier. | It's warm here. | [#10069963](https://tatoeba.org/en/sentences/show/10069963) | wolfgangth |  |  | tts |
+| S101022 | Schneit es jetzt? | Is it snowing now? | [#8389198](https://tatoeba.org/en/sentences/show/8389198) | Luiaard |  |  | tts |
+| S101023 | Ist dir nicht kalt? | Aren't you cold? | [#552836](https://tatoeba.org/en/sentences/show/552836) | Manfredo |  |  | tts |
+| S101024 | Ist der Kaffee heiß? | Is the coffee hot? | [#7210335](https://tatoeba.org/en/sentences/show/7210335) | Luiaard |  |  | tts |
+| S101025 | Ist es heiß heute? | Is it hot today? | [#10766613](https://tatoeba.org/en/sentences/show/10766613) | Yorwba |  |  | tts |
+| S101026 | Wie kalt ist es hier? | How cold is it here? | [#10067606](https://tatoeba.org/en/sentences/show/10067606) | wolfgangth |  |  | tts |
+| S101027 | Wie heiß ist es, wo du bist? | How hot is it where you are? | [#6641441](https://tatoeba.org/en/sentences/show/6641441) | Felixjp |  |  | tts |
+| S101028 | Es schneit. | It's snowing. | [#373081](https://tatoeba.org/en/sentences/show/373081) | MUIRIEL |  |  | tts |
+| S101029 | Ich mag Schnee. | I like snow. | [#741664](https://tatoeba.org/en/sentences/show/741664) | Esperantostern |  |  | tts |
+| S101030 | Hier schneit es. | It's snowing here. | [#1107276](https://tatoeba.org/en/sentences/show/1107276) | Espi |  |  | tts |
+| S102001 | Mama, wo ist Papa? | Mum, where's Dad? | [#1240040](https://tatoeba.org/en/sentences/show/1240040) | al_ex_an_der |  |  | tts |
+| S102002 | Sie sind Bruder und Schwester. | They're brother and sister. | [#6643016](https://tatoeba.org/en/sentences/show/6643016) | Felixjp |  |  | tts |
+| S102003 | Er ist mein Bruder, nicht mein Vater. | He is my brother, not father. | [#1218887](https://tatoeba.org/en/sentences/show/1218887) | samueldora |  |  | tts |
+| S102004 | Ich habe eine Schwester und einen Bruder. | I have a sister and a brother. | [#6111204](https://tatoeba.org/en/sentences/show/6111204) | BlundaInte |  |  | tts |
+| S102005 | Tom hat einen Sohn und eine Tochter. | Tom has a son and a daughter. | [#6636478](https://tatoeba.org/en/sentences/show/6636478) | manese |  |  | tts |
+| S102006 | Ich habe einen Sohn und eine Tochter. | I have a son and a daughter. | [#8290632](https://tatoeba.org/en/sentences/show/8290632) | Luiaard |  |  | tts |
+| S102007 | Wir haben einen Sohn und eine Tochter. | We have a son and a daughter. | [#11543243](https://tatoeba.org/en/sentences/show/11543243) | Pfirsichbaeumchen |  |  | tts |
+| S102008 | Wo ist Vater? | Where is Father? | [#458629](https://tatoeba.org/en/sentences/show/458629) | al_ex_an_der |  |  | tts |
+| S102009 | Wo ist Papa? | Where's Daddy? | [#595502](https://tatoeba.org/en/sentences/show/595502) | esocom |  |  | tts |
+| S102010 | Wo ist Mama? | Where's Mum? | [#1500134](https://tatoeba.org/en/sentences/show/1500134) | Pfirsichbaeumchen |  |  | tts |
+| S102011 | Ist Mama hier? | Is Mom here? | [#10974263](https://tatoeba.org/en/sentences/show/10974263) | Yorwba |  |  | tts |
+| S102012 | Sind Sie Mutter? | Are you a mother? | [#12551904](https://tatoeba.org/en/sentences/show/12551904) | Waldelfe |  |  | tts |
+| S102013 | Bist du Mutter? | Are you a mother? | [#12551905](https://tatoeba.org/en/sentences/show/12551905) | Waldelfe |  |  | tts |
+| S102014 | Wo ist dein Vater? | Where's your father? | [#349907](https://tatoeba.org/en/sentences/show/349907) | contour |  |  | tts |
+| S102015 | Ist deine Mutter zu Hause? | Is your mother at home? | [#917222](https://tatoeba.org/en/sentences/show/917222) | Sudajaengi |  |  | tts |
+| S102016 | Wo ist deine Schwester? | Where's your sister? | [#1521269](https://tatoeba.org/en/sentences/show/1521269) | al_ex_an_der |  |  | tts |
+| S102017 | Wo sind die Eltern? | Where are the parents? | [#1800908](https://tatoeba.org/en/sentences/show/1800908) | al_ex_an_der |  |  | tts |
+| S102018 | Wo sind meine Eltern? | Where are my parents? | [#1844124](https://tatoeba.org/en/sentences/show/1844124) | Pfirsichbaeumchen |  |  | tts |
+| S102019 | Wer sind deine Eltern? | Who are your parents? | [#1902854](https://tatoeba.org/en/sentences/show/1902854) | BraveSentry |  |  | tts |
+| S102020 | Wann kommt Papa nach Hause? | When is Daddy coming home? | [#4867079](https://tatoeba.org/en/sentences/show/4867079) | Pfirsichbaeumchen |  |  | tts |
+| S102021 | Wo ist dein Bruder? | Where's your brother? | [#900125](https://tatoeba.org/en/sentences/show/900125) | Esperantostern |  |  | tts |
+| S102022 | Haben Sie einen Sohn? | Do you have a son? | [#1151413](https://tatoeba.org/en/sentences/show/1151413) | cumori |  |  | tts |
+| S102023 | Wo ist mein Bruder? | Where's my brother? | [#1446818](https://tatoeba.org/en/sentences/show/1446818) | Esperantostern |  |  | tts |
+| S102024 | Wo ist mein Vater? | Where's my father? | [#1959338](https://tatoeba.org/en/sentences/show/1959338) | Zaghawa |  |  | tts |
+| S102025 | Wo ist meine Mama? | Where's my mom? | [#2504663](https://tatoeba.org/en/sentences/show/2504663) | Zaghawa |  |  | tts |
+| S102026 | Sind deine Eltern zu Hause? | Are your parents home? | [#2967205](https://tatoeba.org/en/sentences/show/2967205) | Pfirsichbaeumchen |  |  | tts |
+| S102027 | Wo ist mein Sohn? | Where's my son? | [#3104362](https://tatoeba.org/en/sentences/show/3104362) | Pfirsichbaeumchen |  |  | tts |
+| S102028 | Hast du eine Tochter? | Do you have a daughter? | [#3148225](https://tatoeba.org/en/sentences/show/3148225) | Pfirsichbaeumchen |  |  | tts |
+| S102029 | Haben Sie eine Tochter? | Do you have a daughter? | [#3148226](https://tatoeba.org/en/sentences/show/3148226) | Pfirsichbaeumchen |  |  | tts |
+| S102030 | Wo ist deine Mutter? | Where's your mother? | [#3180520](https://tatoeba.org/en/sentences/show/3180520) | Pfirsichbaeumchen |  |  | tts |
 | S11001 | Hast du eins? | Do you have one? | [#957305](https://tatoeba.org/en/sentences/show/957305) | Sudajaengi |  |  | tts |
 | S11002 | Bist du zehn? | Are you ten years old? | [#1611274](https://tatoeba.org/en/sentences/show/1611274) | Esperantostern |  |  | tts |
 | S11003 | Hast du zwei Bücher? | You have two books? | [#521409](https://tatoeba.org/en/sentences/show/521409) | Espi |  |  | tts |
@@ -720,6 +836,216 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S15028 | Möchtest du keinen Tee? | Won't you have some tea? | [#12596531](https://tatoeba.org/en/sentences/show/12596531) | mayabe |  |  | tts |
 | S15029 | Was möchtest du heute trinken? | What would you like to drink today? | [#1494743](https://tatoeba.org/en/sentences/show/1494743) | Zaghawa |  |  | tts |
 | S15030 | Was möchtest du heute essen? | What would you like to eat today? | [#8910166](https://tatoeba.org/en/sentences/show/8910166) | Pfirsichbaeumchen |  |  | tts |
+| S201001 | Arbeitet er? | Does he work? | [#1791247](https://tatoeba.org/en/sentences/show/1791247) | BraveSentry |  |  | tts |
+| S201002 | Arbeitest du? | Are you working? | [#2758444](https://tatoeba.org/en/sentences/show/2758444) | Pfirsichbaeumchen |  |  | tts |
+| S201003 | Arbeitet Tom? | Is Tom working? | [#6615642](https://tatoeba.org/en/sentences/show/6615642) | Felixjp |  |  | tts |
+| S201004 | Bist du beschäftigt? | Are you busy? | [#446497](https://tatoeba.org/en/sentences/show/446497) | Pfirsichbaeumchen |  |  | tts |
+| S201005 | Wo arbeitet er? | Where does he work? | [#693391](https://tatoeba.org/en/sentences/show/693391) | Esperantostern |  |  | tts |
+| S201006 | Wann arbeitest du? | When do you work? | [#766384](https://tatoeba.org/en/sentences/show/766384) | dima555 |  |  | tts |
+| S201007 | Sind Sie beschäftigt? | Are you busy? | [#901650](https://tatoeba.org/en/sentences/show/901650) | futureboy |  |  | tts |
+| S201008 | Arbeitest du hier? | Do you work here? | [#1545954](https://tatoeba.org/en/sentences/show/1545954) | al_ex_an_der |  |  | tts |
+| S201009 | Ist er beschäftigt? | Is he busy? | [#8598424](https://tatoeba.org/en/sentences/show/8598424) | Roujin |  |  | tts |
+| S201010 | Wo ist der Chef? | Where's the boss? | [#677027](https://tatoeba.org/en/sentences/show/677027) | Pfirsichbaeumchen |  |  | tts |
+| S201011 | Wo ist mein Büro? | Where is my office? | [#943142](https://tatoeba.org/en/sentences/show/943142) | Sudajaengi |  |  | tts |
+| S201012 | Haben Sie ein Telefon? | Do you have a telephone? | [#2166663](https://tatoeba.org/en/sentences/show/2166663) | Vortarulo |  |  | tts |
+| S201013 | Hast du ein Telefon? | Do you have a telephone? | [#2166665](https://tatoeba.org/en/sentences/show/2166665) | Vortarulo |  |  | tts |
+| S201014 | Haben Sie keine Arbeit? | Are you out of work? | [#2797019](https://tatoeba.org/en/sentences/show/2797019) | Pfirsichbaeumchen |  |  | tts |
+| S201015 | Hat Tom eine Arbeit? | Does Tom have a job? | [#8117485](https://tatoeba.org/en/sentences/show/8117485) | manese |  |  | tts |
+| S201016 | Wo ist dein Chef? | Where's your boss? | [#8319740](https://tatoeba.org/en/sentences/show/8319740) | Luiaard |  |  | tts |
+| S201017 | Hast du nicht zwei Computer? | Don't you have two computers? | [#856359](https://tatoeba.org/en/sentences/show/856359) | Esperantostern |  |  | tts |
+| S201018 | Gibt es hier ein Telefon? | Is there a telephone here? | [#906150](https://tatoeba.org/en/sentences/show/906150) | Esperantostern |  |  | tts |
+| S201019 | Wer ist der Chef hier? | Who is the boss here? | [#1514447](https://tatoeba.org/en/sentences/show/1514447) | Esperantostern |  |  | tts |
+| S201020 | Wie sehr magst du deine Arbeit? | How much do you like your job? | [#5997740](https://tatoeba.org/en/sentences/show/5997740) | Oblomov |  |  | tts |
+| S201021 | Ich arbeite. | I work. | [#333596](https://tatoeba.org/en/sentences/show/333596) | al |  |  | tts |
+| S201022 | Ich arbeite nicht. | I don't work. | [#333486](https://tatoeba.org/en/sentences/show/333486) | al |  |  | tts |
+| S201023 | Ich arbeite hier. | I work here. | [#825547](https://tatoeba.org/en/sentences/show/825547) | Zaghawa |  |  | tts |
+| S201024 | Tom hat keinen Computer. | Tom doesn't have a computer. | [#1635572](https://tatoeba.org/en/sentences/show/1635572) | Zaghawa |  |  | tts |
+| S201025 | Er hat keinen Computer. | He has no computer. | [#3681932](https://tatoeba.org/en/sentences/show/3681932) | al_ex_an_der |  |  | tts |
+| S201026 | Tom hat kein Büro. | Tom doesn't have an office. | [#5217265](https://tatoeba.org/en/sentences/show/5217265) | Pfirsichbaeumchen |  |  | tts |
+| S201027 | Ich habe kein Büro. | I don't have an office. | [#8482660](https://tatoeba.org/en/sentences/show/8482660) | Luiaard |  |  | tts |
+| S201028 | Ich mag deine Chefin nicht. | I don't like your boss. | [#2658863](https://tatoeba.org/en/sentences/show/2658863) | Pfirsichbaeumchen |  |  | tts |
+| S201029 | Ich bin jetzt die Chefin. | I'm the boss now. | [#8387394](https://tatoeba.org/en/sentences/show/8387394) | Luiaard |  |  | tts |
+| S201030 | Ich bin nicht die Chefin. | I'm not the boss. | [#10065421](https://tatoeba.org/en/sentences/show/10065421) | wolfgangth |  |  | tts |
+| S202001 | Er ist krank. Er hat Fieber. | He's sick. He has a fever. | [#12286697](https://tatoeba.org/en/sentences/show/12286697) | Pfirsichbaeumchen |  |  | tts |
+| S202002 | Sie ist krank. Sie hat Fieber. | She is sick. She has a fever. | [#13996673](https://tatoeba.org/en/sentences/show/13996673) | Vortarulo |  |  | tts |
+| S202003 | Haben Sie Fieber? | Do you have a fever? | [#555930](https://tatoeba.org/en/sentences/show/555930) | jakov |  |  | tts |
+| S202004 | Bist du krank? | Are you sick? | [#1180049](https://tatoeba.org/en/sentences/show/1180049) | samueldora |  |  | tts |
+| S202005 | Sind Sie Arzt? | Are you a doctor? | [#1341262](https://tatoeba.org/en/sentences/show/1341262) | Zaghawa |  |  | tts |
+| S202006 | Ist er Arzt? | Is he a doctor? | [#2270971](https://tatoeba.org/en/sentences/show/2270971) | Pfirsichbaeumchen |  |  | tts |
+| S202007 | Sind Sie Ärztin? | Are you a doctor? | [#10033656](https://tatoeba.org/en/sentences/show/10033656) | wolfgangth |  |  | tts |
+| S202008 | Ist Tom Arzt? | Is Tom a doctor? | [#10060458](https://tatoeba.org/en/sentences/show/10060458) | wolfgangth |  |  | tts |
+| S202009 | Ist sie nicht Ärztin? | Isn't she a doctor? | [#657930](https://tatoeba.org/en/sentences/show/657930) | Manfredo |  |  | tts |
+| S202010 | Wo ist das Krankenhaus? | Where's the hospital? | [#2063823](https://tatoeba.org/en/sentences/show/2063823) | Pfirsichbaeumchen |  |  | tts |
+| S202011 | Wo ist die Ärztin? | Where's the doctor? | [#10033686](https://tatoeba.org/en/sentences/show/10033686) | wolfgangth |  |  | tts |
+| S202012 | Es ist kein Krankenhaus. | It isn't a hospital. | [#1790384](https://tatoeba.org/en/sentences/show/1790384) | Esperantostern |  |  | tts |
+| S202013 | Hier ist das Krankenhaus. | Here is the hospital. | [#8103232](https://tatoeba.org/en/sentences/show/8103232) | Luiaard |  |  | tts |
+| S202014 | Hat Tom Fieber? | Does Tom have a fever? | [#3766182](https://tatoeba.org/en/sentences/show/3766182) | Jens_Odo |  |  | tts |
+| S202015 | Ist Tom krank? | Is Tom sick? | [#4932090](https://tatoeba.org/en/sentences/show/4932090) | Hime |  |  | tts |
+| S202016 | Wer ist krank? | Who's sick? | [#5433056](https://tatoeba.org/en/sentences/show/5433056) | peschiber |  |  | tts |
+| S202017 | Wo ist der Arzt? | Where's the doctor? | [#3949547](https://tatoeba.org/en/sentences/show/3949547) | Pfirsichbaeumchen |  |  | tts |
+| S202018 | Bist du mein Arzt? | Are you my doctor? | [#3955963](https://tatoeba.org/en/sentences/show/3955963) | Esperantostern |  |  | tts |
+| S202019 | Wie krank ist Tom? | How sick is Tom? | [#7327350](https://tatoeba.org/en/sentences/show/7327350) | Pfirsichbaeumchen |  |  | tts |
+| S202020 | Wo ist ein Arzt? | Where is a doctor? | [#9971636](https://tatoeba.org/en/sentences/show/9971636) | wolfgangth |  |  | tts |
+| S202021 | Bist du nicht Arzt? | Aren't you a doctor? | [#9986750](https://tatoeba.org/en/sentences/show/9986750) | wolfgangth |  |  | tts |
+| S202022 | Bist du nicht Ärztin? | Aren't you a doctor? | [#10033698](https://tatoeba.org/en/sentences/show/10033698) | wolfgangth |  |  | tts |
+| S202023 | Bist du meine Ärztin? | Are you my doctor? | [#10033699](https://tatoeba.org/en/sentences/show/10033699) | wolfgangth |  |  | tts |
+| S202024 | Wer ist dein Arzt? | Who's your doctor? | [#10060493](https://tatoeba.org/en/sentences/show/10060493) | wolfgangth |  |  | tts |
+| S202025 | Wer ist deine Ärztin? | Who's your doctor? | [#10088697](https://tatoeba.org/en/sentences/show/10088697) | wolfgangth |  |  | tts |
+| S202026 | Sind Sie der Arzt? | Are you the doctor? | [#10343802](https://tatoeba.org/en/sentences/show/10343802) | Vortarulo |  |  | tts |
+| S202027 | Wie krank ist er? | How sick is he? | [#10552832](https://tatoeba.org/en/sentences/show/10552832) | wannieh |  |  | tts |
+| S202028 | Kann ich die Ärztin sprechen? | Can I speak to the doctor? | [#10033620](https://tatoeba.org/en/sentences/show/10033620) | wolfgangth |  |  | tts |
+| S202029 | Ich bin krank. | I'm sick. | [#448232](https://tatoeba.org/en/sentences/show/448232) | Dominika |  |  | tts |
+| S202030 | Er ist krank. | He's sick. | [#450240](https://tatoeba.org/en/sentences/show/450240) | al_ex_an_der |  |  | tts |
+| S204001 | Wo sind meine Schlüssel? | Where are my keys? | [#601654](https://tatoeba.org/en/sentences/show/601654) | kroko |  |  | tts |
+| S204002 | Wo sind deine Schlüssel? | Where are your keys? | [#1229173](https://tatoeba.org/en/sentences/show/1229173) | Pfirsichbaeumchen |  |  | tts |
+| S204003 | Wo ist das Hotel? | Where is the hotel? | [#3751965](https://tatoeba.org/en/sentences/show/3751965) | Jens_Odo |  |  | tts |
+| S204004 | Wo sind die Schlüssel? | Where are the keys? | [#7466895](https://tatoeba.org/en/sentences/show/7466895) | Yorwba |  |  | tts |
+| S204005 | Hast du ein Zimmer? | Do you have a room? | [#9457001](https://tatoeba.org/en/sentences/show/9457001) | Yorwba |  |  | tts |
+| S204006 | Haben Sie ein Zimmer? | Do you have a room? | [#9462250](https://tatoeba.org/en/sentences/show/9462250) | Pfirsichbaeumchen |  |  | tts |
+| S204007 | Wie viele Zimmer haben Sie? | How many rooms do you have? | [#12517610](https://tatoeba.org/en/sentences/show/12517610) | mayabe |  |  | tts |
+| S204008 | Hast du ein Hotel? | Do you have a hotel? | [#12831199](https://tatoeba.org/en/sentences/show/12831199) | Waldelfe |  |  | tts |
+| S204009 | Haben Sie ein Hotel? | Do you have a hotel? | [#12831200](https://tatoeba.org/en/sentences/show/12831200) | Waldelfe |  |  | tts |
+| S204010 | Hat Tom einen Schlüssel? | Does Tom have a key? | [#7481912](https://tatoeba.org/en/sentences/show/7481912) | Yorwba |  |  | tts |
+| S204011 | Hast du die Schlüssel? | Do you have the keys? | [#8099669](https://tatoeba.org/en/sentences/show/8099669) | Luiaard |  |  | tts |
+| S204012 | Wo ist der Schlüssel? | Where's the key? | [#8240955](https://tatoeba.org/en/sentences/show/8240955) | Luiaard |  |  | tts |
+| S204013 | Wie viele Zimmer hat das Haus? | How many rooms has the house got? | [#10821897](https://tatoeba.org/en/sentences/show/10821897) | manese |  |  | tts |
+| S204014 | Hier ist mein Schlüssel. | Here is my key. | [#479879](https://tatoeba.org/en/sentences/show/479879) | Espi |  |  | tts |
+| S204015 | Hier sind deine Schlüssel. | Here are your keys. | [#602743](https://tatoeba.org/en/sentences/show/602743) | BraveSentry |  |  | tts |
+| S204016 | Hier ist dein Schlüssel. | Here's your key. | [#871907](https://tatoeba.org/en/sentences/show/871907) | Esperantostern |  |  | tts |
+| S204017 | Du hast meine Schlüssel. | You've got my keys. | [#1909321](https://tatoeba.org/en/sentences/show/1909321) | Pfirsichbaeumchen |  |  | tts |
+| S204018 | Sie haben meine Schlüssel. | You've got my keys. | [#1909323](https://tatoeba.org/en/sentences/show/1909323) | Pfirsichbaeumchen |  |  | tts |
+| S204019 | Dein Zimmer ist groß. | Your room is big. | [#2139819](https://tatoeba.org/en/sentences/show/2139819) | Esperantostern |  |  | tts |
+| S204020 | Ich habe keinen Schlüssel. | I don't have a key. | [#3567774](https://tatoeba.org/en/sentences/show/3567774) | Pfirsichbaeumchen |  |  | tts |
+| S204021 | Ich habe die Schlüssel. | I have the keys. | [#3927314](https://tatoeba.org/en/sentences/show/3927314) | Pfirsichbaeumchen |  |  | tts |
+| S204022 | Das Zimmer ist schön. | The room's nice. | [#4338752](https://tatoeba.org/en/sentences/show/4338752) | Dani6187 |  |  | tts |
+| S204023 | Ich mag das Zimmer. | I like the room. | [#4735683](https://tatoeba.org/en/sentences/show/4735683) | Esperantostern |  |  | tts |
+| S204024 | Hier sind die Schlüssel. | Here are the keys. | [#5345921](https://tatoeba.org/en/sentences/show/5345921) | Pfirsichbaeumchen |  |  | tts |
+| S204025 | Hier ist der Schlüssel. | Here's the key. | [#6673171](https://tatoeba.org/en/sentences/show/6673171) | Esperantostern |  |  | tts |
+| S204026 | Ich habe deinen Schlüssel. | I have your key. | [#8082879](https://tatoeba.org/en/sentences/show/8082879) | Luiaard |  |  | tts |
+| S204027 | Tom hat keinen Schlüssel. | Tom doesn't have a key. | [#8274152](https://tatoeba.org/en/sentences/show/8274152) | Luiaard |  |  | tts |
+| S204028 | Tom hat die Schlüssel. | Tom has the keys. | [#8336904](https://tatoeba.org/en/sentences/show/8336904) | Luiaard |  |  | tts |
+| S204029 | Die Schlüssel hat Tom. | Tom has the keys. | [#8336905](https://tatoeba.org/en/sentences/show/8336905) | Luiaard |  |  | tts |
+| S204030 | Ich habe einen Schlüssel. | I have a key. | [#12397900](https://tatoeba.org/en/sentences/show/12397900) | mayabe |  |  | tts |
+| S205001 | Singt Tom? | Is Tom singing? | [#6401392](https://tatoeba.org/en/sentences/show/6401392) | Pfirsichbaeumchen |  |  | tts |
+| S205002 | Bist du Sänger? | Are you a singer? | [#1986235](https://tatoeba.org/en/sentences/show/1986235) | Pfirsichbaeumchen |  |  | tts |
+| S205003 | Spielen Sie Gitarre? | Do you play the guitar? | [#3519419](https://tatoeba.org/en/sentences/show/3519419) | Pfirsichbaeumchen |  |  | tts |
+| S205004 | Singt er gut? | Does he sing well? | [#4683636](https://tatoeba.org/en/sentences/show/4683636) | tarsier |  |  | tts |
+| S205005 | Singt Tom gut? | Does Tom sing well? | [#6466009](https://tatoeba.org/en/sentences/show/6466009) | wolfgangth |  |  | tts |
+| S205006 | Bist du Sängerin? | Are you a singer? | [#10033762](https://tatoeba.org/en/sentences/show/10033762) | wolfgangth |  |  | tts |
+| S205007 | Kann sie Gitarre spielen? | Can she play the guitar? | [#358605](https://tatoeba.org/en/sentences/show/358605) | MUIRIEL |  |  | tts |
+| S205008 | Welche ist deine Gitarre? | Which is your guitar? | [#841993](https://tatoeba.org/en/sentences/show/841993) | Esperantostern |  |  | tts |
+| S205009 | Kann er Klavier spielen? | Can he play the piano? | [#1544995](https://tatoeba.org/en/sentences/show/1544995) | Pfirsichbaeumchen |  |  | tts |
+| S205010 | Spielen Sie gut Klavier? | Are you good at playing the piano? | [#2990413](https://tatoeba.org/en/sentences/show/2990413) | Pfirsichbaeumchen |  |  | tts |
+| S205011 | Welche Musik magst du? | What music do you like? | [#3426656](https://tatoeba.org/en/sentences/show/3426656) | Esperantostern |  |  | tts |
+| S205012 | Kannst du Klavier spielen? | Can you play the piano? | [#7277059](https://tatoeba.org/en/sentences/show/7277059) | Yorwba |  |  | tts |
+| S205013 | Bist du nicht Sänger? | Aren't you a singer? | [#9988887](https://tatoeba.org/en/sentences/show/9988887) | wolfgangth |  |  | tts |
+| S205014 | Bist du nicht Sängerin? | Aren't you a singer? | [#10033772](https://tatoeba.org/en/sentences/show/10033772) | wolfgangth |  |  | tts |
+| S205015 | Ich singe. | I sing. | [#2709215](https://tatoeba.org/en/sentences/show/2709215) | pullnosemans |  |  | tts |
+| S205016 | Sie sind Sänger. | They are singers. | [#522820](https://tatoeba.org/en/sentences/show/522820) | Espi |  |  | tts |
+| S205017 | Ich singe jetzt. | I sing now. | [#1592163](https://tatoeba.org/en/sentences/show/1592163) | Esperantostern |  |  | tts |
+| S205018 | Ich singe nicht. | I don't sing. | [#2251498](https://tatoeba.org/en/sentences/show/2251498) | Pfirsichbaeumchen |  |  | tts |
+| S205019 | Sie ist Sängerin. | She's a singer. | [#2615360](https://tatoeba.org/en/sentences/show/2615360) | Pfirsichbaeumchen |  |  | tts |
+| S205020 | Tom mag Musik. | Tom likes music. | [#6615106](https://tatoeba.org/en/sentences/show/6615106) | Felixjp |  |  | tts |
+| S205021 | Ich mag Musik. | I like music. | [#8692599](https://tatoeba.org/en/sentences/show/8692599) | canan |  |  | tts |
+| S205022 | Kann er Gitarre spielen? | Can he play the guitar? | [#8047413](https://tatoeba.org/en/sentences/show/8047413) | Pfirsichbaeumchen |  |  | tts |
+| S205023 | Hat sie ein Klavier? | Has she a piano? | [#12488026](https://tatoeba.org/en/sentences/show/12488026) | Waldelfe |  |  | tts |
+| S205024 | Hat er ein Klavier? | Does he have a piano? | [#13105201](https://tatoeba.org/en/sentences/show/13105201) | Waldelfe |  |  | tts |
+| S205025 | Tom singt. | Tom's singing. | [#1713289](https://tatoeba.org/en/sentences/show/1713289) | Pfirsichbaeumchen |  |  | tts |
+| S205026 | Sie singt. | She sings. | [#8868277](https://tatoeba.org/en/sentences/show/8868277) | Dorlota |  |  | tts |
+| S205027 | Er singt. | He sings. | [#8963577](https://tatoeba.org/en/sentences/show/8963577) | wolfgangth |  |  | tts |
+| S205028 | Sie singt gut. | She sings well. | [#1341187](https://tatoeba.org/en/sentences/show/1341187) | Zaghawa |  |  | tts |
+| S205029 | Er ist Sänger. | He's a singer. | [#2615359](https://tatoeba.org/en/sentences/show/2615359) | Pfirsichbaeumchen |  |  | tts |
+| S205030 | Ich singe gut! | I sing well. | [#3685049](https://tatoeba.org/en/sentences/show/3685049) | Esperantostern |  |  | tts |
+| S206001 | Milch? Zucker? | Milk? Sugar? | [#1002764](https://tatoeba.org/en/sentences/show/1002764) | Esperantostern |  |  | tts |
+| S206002 | Magst du Saft? | Do you like juice? | [#3982621](https://tatoeba.org/en/sentences/show/3982621) | Djabby |  |  | tts |
+| S206003 | Ist das Schokolade? | Is that chocolate? | [#7281431](https://tatoeba.org/en/sentences/show/7281431) | Pfirsichbaeumchen |  |  | tts |
+| S206004 | Ist das Zucker? | Is that sugar? | [#8473341](https://tatoeba.org/en/sentences/show/8473341) | Luiaard |  |  | tts |
+| S206005 | Hast du Zucker? | Do you have any sugar? | [#8493058](https://tatoeba.org/en/sentences/show/8493058) | Luiaard |  |  | tts |
+| S206006 | Möchtest du Kuchen? | Would you like some cake? | [#8827800](https://tatoeba.org/en/sentences/show/8827800) | Pfirsichbaeumchen |  |  | tts |
+| S206007 | Möchtest du Saft? | Would you like some juice? | [#10362974](https://tatoeba.org/en/sentences/show/10362974) | Pfirsichbaeumchen |  |  | tts |
+| S206008 | Welche Tasse ist deine? | Which cup is yours? | [#1688128](https://tatoeba.org/en/sentences/show/1688128) | Pfirsichbaeumchen |  |  | tts |
+| S206009 | Wo ist meine Tasse? | Where's my cup? | [#4002420](https://tatoeba.org/en/sentences/show/4002420) | hjoest |  |  | tts |
+| S206010 | Welche ist deine Tasse? | Which cup is yours? | [#5336481](https://tatoeba.org/en/sentences/show/5336481) | Sudajaengi |  |  | tts |
+| S206011 | Saft, bitte. | Juice, please. | [#5709504](https://tatoeba.org/en/sentences/show/5709504) | halfdan |  |  | tts |
+| S206012 | Sie mag Kuchen. | She is fond of cake. | [#753679](https://tatoeba.org/en/sentences/show/753679) | Pfirsichbaeumchen |  |  | tts |
+| S206013 | Ich esse Schokolade. | I eat chocolate. | [#1541814](https://tatoeba.org/en/sentences/show/1541814) | Zaghawa |  |  | tts |
+| S206014 | Ich mag Schokolade. | I like chocolate. | [#1924119](https://tatoeba.org/en/sentences/show/1924119) | Zaghawa |  |  | tts |
+| S206015 | Tom isst Kuchen. | Tom is eating cake. | [#3765566](https://tatoeba.org/en/sentences/show/3765566) | Wuzzy |  |  | tts |
+| S206016 | Haben Sie Zucker? | Do you have any sugar? | [#8493061](https://tatoeba.org/en/sentences/show/8493061) | Luiaard |  |  | tts |
+| S206017 | Möchtest du keinen Zucker? | Don't you want sugar? | [#9988902](https://tatoeba.org/en/sentences/show/9988902) | wolfgangth |  |  | tts |
+| S206018 | Möchtest du eine Tasse Milch? | Would you like a cup of milk? | [#679713](https://tatoeba.org/en/sentences/show/679713) | samueldora |  |  | tts |
+| S206019 | Möchtest du Zucker und Milch? | Would you like sugar and milk? | [#2242446](https://tatoeba.org/en/sentences/show/2242446) | Vortarulo |  |  | tts |
+| S206020 | Möchtest du Milch und Zucker? | Would you like milk and sugar? | [#4724717](https://tatoeba.org/en/sentences/show/4724717) | bonny37 |  |  | tts |
+| S206021 | Tom trinkt Saft. | Tom drinks juice. | [#1661266](https://tatoeba.org/en/sentences/show/1661266) | Pfirsichbaeumchen |  |  | tts |
+| S206022 | Tom mag Schokolade. | Tom likes chocolate. | [#5244499](https://tatoeba.org/en/sentences/show/5244499) | christian42 |  |  | tts |
+| S206023 | Ich mag Zucker. | I like sugar. | [#5983927](https://tatoeba.org/en/sentences/show/5983927) | arved |  |  | tts |
+| S206024 | Ich trinke Saft. | I'm drinking juice. | [#8082451](https://tatoeba.org/en/sentences/show/8082451) | Luiaard |  |  | tts |
+| S206025 | Er trinkt Saft. | He drinks juice. | [#8320880](https://tatoeba.org/en/sentences/show/8320880) | MisterTrouser |  |  | tts |
+| S206026 | Ich möchte Saft. | I want juice. | [#12511935](https://tatoeba.org/en/sentences/show/12511935) | Naina |  |  | tts |
+| S206027 | Eine Tasse Tee bitte. | A cup of tea, please. | [#425570](https://tatoeba.org/en/sentences/show/425570) | Pfirsichbaeumchen |  |  | tts |
+| S206028 | Ich mag auch Kuchen. | I also like cake. | [#1341270](https://tatoeba.org/en/sentences/show/1341270) | Zaghawa |  |  | tts |
+| S206029 | Ich mag keine Schokolade. | I don't like chocolate. | [#1589465](https://tatoeba.org/en/sentences/show/1589465) | Zaghawa |  |  | tts |
+| S206030 | Tom isst jetzt Kuchen. | Tom is eating cake. | [#3765567](https://tatoeba.org/en/sentences/show/3765567) | Wuzzy |  |  | tts |
+| S209001 | Isst du Fleisch? | Do you eat meat? | [#657228](https://tatoeba.org/en/sentences/show/657228) | Zaghawa |  |  | tts |
+| S209002 | Essen Sie Fleisch? | Do you eat meat? | [#657229](https://tatoeba.org/en/sentences/show/657229) | Zaghawa |  |  | tts |
+| S209003 | Haben Sie Reis? | Do you have rice? | [#1442316](https://tatoeba.org/en/sentences/show/1442316) | samueldora |  |  | tts |
+| S209004 | Hast du Reis? | Do you have rice? | [#1442318](https://tatoeba.org/en/sentences/show/1442318) | samueldora |  |  | tts |
+| S209005 | Hast du Eier? | Do you have eggs? | [#3240914](https://tatoeba.org/en/sentences/show/3240914) | Pfirsichbaeumchen |  |  | tts |
+| S209006 | Isst du Eier? | Do you eat eggs? | [#7806292](https://tatoeba.org/en/sentences/show/7806292) | tiuwiu |  |  | tts |
+| S209007 | Haben Sie Eier? | Do you have eggs? | [#8222736](https://tatoeba.org/en/sentences/show/8222736) | Luiaard |  |  | tts |
+| S209008 | Isst du Reis? | Do you eat rice? | [#8296065](https://tatoeba.org/en/sentences/show/8296065) | Pfirsichbaeumchen |  |  | tts |
+| S209009 | Möchtest du eine Banane? | Would you like a banana? | [#3390774](https://tatoeba.org/en/sentences/show/3390774) | Pfirsichbaeumchen |  |  | tts |
+| S209010 | Fleisch, bitte. | Meat, please. | [#7277111](https://tatoeba.org/en/sentences/show/7277111) | Yorwba |  |  | tts |
+| S209011 | Ich esse eine Banane. | I am eating a banana. | [#1812459](https://tatoeba.org/en/sentences/show/1812459) | pne |  |  | tts |
+| S209012 | Tom isst eine Banane. | Tom is eating a banana. | [#8641939](https://tatoeba.org/en/sentences/show/8641939) | Melang |  |  | tts |
+| S209013 | Essen Sie Reis? | Do you eat rice? | [#8296067](https://tatoeba.org/en/sentences/show/8296067) | Pfirsichbaeumchen |  |  | tts |
+| S209014 | Wo sind die Eier? | Where are the eggs? | [#7916808](https://tatoeba.org/en/sentences/show/7916808) | Luiaard |  |  | tts |
+| S209015 | Wie viele Eier gibt es? | How many eggs are there? | [#8250944](https://tatoeba.org/en/sentences/show/8250944) | Pfirsichbaeumchen |  |  | tts |
+| S209016 | Wie sind die Eier? | How are the eggs? | [#8679257](https://tatoeba.org/en/sentences/show/8679257) | Melang |  |  | tts |
+| S209017 | Wie viele Eier isst du am Tag? | How many eggs do you eat per day? | [#2550657](https://tatoeba.org/en/sentences/show/2550657) | Pfirsichbaeumchen |  |  | tts |
+| S209018 | Wir haben Eier. | We have eggs. | [#1764348](https://tatoeba.org/en/sentences/show/1764348) | al_ex_an_der |  |  | tts |
+| S209019 | Sie haben Fleisch. | You have meat. | [#1764349](https://tatoeba.org/en/sentences/show/1764349) | al_ex_an_der |  |  | tts |
+| S209020 | Du hast Fleisch. | You have meat. | [#1764351](https://tatoeba.org/en/sentences/show/1764351) | al_ex_an_der |  |  | tts |
+| S209021 | Sie essen Fleisch. | They eat meat. | [#1764367](https://tatoeba.org/en/sentences/show/1764367) | al_ex_an_der |  |  | tts |
+| S209022 | Wir essen Eier. | We eat eggs. | [#6387399](https://tatoeba.org/en/sentences/show/6387399) | Pfirsichbaeumchen |  |  | tts |
+| S209023 | Ich esse Fleisch. | I eat meat. | [#7478300](https://tatoeba.org/en/sentences/show/7478300) | Yorwba |  |  | tts |
+| S209024 | Du isst Fleisch. | You eat meat. | [#8320401](https://tatoeba.org/en/sentences/show/8320401) | MisterTrouser |  |  | tts |
+| S209025 | Du isst Reis. | You eat rice. | [#8320411](https://tatoeba.org/en/sentences/show/8320411) | MisterTrouser |  |  | tts |
+| S209026 | Er isst Reis. | He eats rice. | [#8320412](https://tatoeba.org/en/sentences/show/8320412) | MisterTrouser |  |  | tts |
+| S209027 | Sie isst Reis. | She's eating rice. | [#8320414](https://tatoeba.org/en/sentences/show/8320414) | MisterTrouser |  |  | tts |
+| S209028 | Sie essen Reis. | You eat rice. | [#8320416](https://tatoeba.org/en/sentences/show/8320416) | MisterTrouser |  |  | tts |
+| S209029 | Ich esse jetzt Reis. | I'm eating rice now. | [#603495](https://tatoeba.org/en/sentences/show/603495) | kolonjano |  |  | tts |
+| S209030 | Wir haben sechs Eier. | We have six eggs. | [#1133179](https://tatoeba.org/en/sentences/show/1133179) | Esperantostern |  |  | tts |
+| S212001 | Isst Tom Fisch? | Does Tom eat fish? | [#6540296](https://tatoeba.org/en/sentences/show/6540296) | Manfredo |  |  | tts |
+| S212002 | Mag Tom Fisch? | Does Tom like fish? | [#8833486](https://tatoeba.org/en/sentences/show/8833486) | Pfirsichbaeumchen |  |  | tts |
+| S212003 | Möchtest du Fisch? | Do you want fish? | [#12418605](https://tatoeba.org/en/sentences/show/12418605) | mayabe |  |  | tts |
+| S212004 | Wo ist der Strand? | Where's the beach? | [#4065613](https://tatoeba.org/en/sentences/show/4065613) | Pfirsichbaeumchen |  |  | tts |
+| S212005 | Hat Tom ein Boot? | Does Tom have a boat? | [#8470441](https://tatoeba.org/en/sentences/show/8470441) | Luiaard |  |  | tts |
+| S212006 | Essen Sie keine Fische? | Don't you eat fish? | [#12616434](https://tatoeba.org/en/sentences/show/12616434) | Waldelfe |  |  | tts |
+| S212007 | Warum ist das Meer blau? | Why is the sea blue? | [#8983825](https://tatoeba.org/en/sentences/show/8983825) | Pfirsichbaeumchen |  |  | tts |
+| S212008 | Das Meer ist blau. | The sea is blue. | [#2397384](https://tatoeba.org/en/sentences/show/2397384) | BraveSentry |  |  | tts |
+| S212009 | Tom hat ein Boot. | Tom has a boat. | [#3784922](https://tatoeba.org/en/sentences/show/3784922) | Zaghawa |  |  | tts |
+| S212010 | Wir spielen am Strand. | We play on the beach. | [#5321524](https://tatoeba.org/en/sentences/show/5321524) | Pfirsichbaeumchen |  |  | tts |
+| S212011 | Ich habe ein Boot. | I have a boat. | [#8434304](https://tatoeba.org/en/sentences/show/8434304) | Luiaard |  |  | tts |
+| S212012 | Tom ist am Strand. | Tom is at the beach. | [#10097616](https://tatoeba.org/en/sentences/show/10097616) | wolfgangth |  |  | tts |
+| S212013 | Wir haben keine Fische. | We don't have fish. | [#13898351](https://tatoeba.org/en/sentences/show/13898351) | Vortarulo |  |  | tts |
+| S212014 | Fische, wo die Fische sind! | Fish where the fish are. | [#8870215](https://tatoeba.org/en/sentences/show/8870215) | Pfirsichbaeumchen |  |  | tts |
+| S212015 | Das Meer ist sehr grün. | The sea is very green. | [#9979169](https://tatoeba.org/en/sentences/show/9979169) | wolfgangth |  |  | tts |
+| S212016 | Magst du keinen Fisch? | Don't you like fish? | [#9988674](https://tatoeba.org/en/sentences/show/9988674) | wolfgangth |  |  | tts |
+| S212017 | Was ist ein Fisch? | What is a fish? | [#12026066](https://tatoeba.org/en/sentences/show/12026066) | Pfirsichbaeumchen |  |  | tts |
+| S212018 | Essen Sie keinen Fisch? | Don't you eat fish? | [#12616427](https://tatoeba.org/en/sentences/show/12616427) | Waldelfe |  |  | tts |
+| S212019 | Fisch, bitte. | Fish, please. | [#450252](https://tatoeba.org/en/sentences/show/450252) | Zaghawa |  |  | tts |
+| S212020 | Tom mag Fisch. | Tom likes fish. | [#5438508](https://tatoeba.org/en/sentences/show/5438508) | Zaghawa |  |  | tts |
+| S212021 | Sie essen Fisch. | They eat fish. | [#8102005](https://tatoeba.org/en/sentences/show/8102005) | Luiaard |  |  | tts |
+| S212022 | Er mag Fisch. | He likes fish. | [#10017311](https://tatoeba.org/en/sentences/show/10017311) | wolfgangth |  |  | tts |
+| S212023 | Ich möchte Fisch. | I want fish. | [#12511933](https://tatoeba.org/en/sentences/show/12511933) | Naina |  |  | tts |
+| S212024 | Er mag keinen Fisch. | He doesn't like fish. | [#797806](https://tatoeba.org/en/sentences/show/797806) | Manfredo |  |  | tts |
+| S212025 | Es ist ein Fisch. | It is a fish. | [#2225354](https://tatoeba.org/en/sentences/show/2225354) | al_ex_an_der |  |  | tts |
+| S212026 | Tom mag keinen Fisch. | Tom doesn't like fish. | [#4063590](https://tatoeba.org/en/sentences/show/4063590) | Kuraimegami |  |  | tts |
+| S212027 | Sie mag keinen Fisch. | She doesn't like fish. | [#4697844](https://tatoeba.org/en/sentences/show/4697844) | panamicua |  |  | tts |
+| S212028 | Ich esse keinen Fisch. | I don't eat fish. | [#5862862](https://tatoeba.org/en/sentences/show/5862862) | Pfirsichbaeumchen |  |  | tts |
+| S212029 | Ich esse einen Fisch. | I'm eating a fish. | [#8320824](https://tatoeba.org/en/sentences/show/8320824) | MisterTrouser |  |  | tts |
+| S212030 | Ich mag keinen Fisch. | I don't like fish. | [#10124888](https://tatoeba.org/en/sentences/show/10124888) | wolfgangth |  |  | tts |
 | S3101 | Hier, bitte. | Here you go. | [#8598450](https://tatoeba.org/en/sentences/show/8598450) | Roujin |  |  | tts |
 | S10103 | Ich trinke Tee. | I drink tea. | [#8320443](https://tatoeba.org/en/sentences/show/8320443) | MisterTrouser |  |  | tts |
 | S12102 | Mein Auto ist rot. | My car is red. | [#3064375](https://tatoeba.org/en/sentences/show/3064375) | Pfirsichbaeumchen |  |  | tts |

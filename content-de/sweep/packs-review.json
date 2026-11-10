@@ -167,5 +167,58 @@
       "6641632": "idiomatic (What’s Tom good at?)",
       "11871434": "odd on its own (Play!)"
     }
+  },
+  "U102": {
+    "reject": {
+      "1932837": "weiß as know (wissen), misleading for the colour",
+      "1932840": "weiß as know (wissen), misleading for the colour",
+      "2869959": "English renames Maria as Mary, misleading for typed answers",
+      "6590105": "odd (Tom is a baby)",
+      "8809284": "odd (Tom is my baby)"
+    }
+  },
+  "U101": {
+    "reject": {
+      "773617": "English (hot) misleading for warm",
+      "967156": "English (hot) misleading for warm"
+    }
+  },
+  "U201": {
+    "reject": {
+      "1444020": "odd (Computers have no family)"
+    }
+  },
+  "U202": {
+    "reject": {
+      "13446103": "odd (What is the doctor eating?)"
+    }
+  },
+  "U204": {
+    "reject": {
+      "3532312": "gehe as a command (Go to your room), misleading for ich gehe"
+    }
+  },
+  "U205": {
+    "reject": {
+      "649620": "idiom (How does the song go?)",
+      "2783634": "English renames Maria as Mary, misleading for typed answers"
+    }
+  },
+  "U206": {
+    "reject": {}
+  },
+  "U207": {
+    "reject": {}
+  },
+  "U209": {
+    "reject": {
+      "3682683": "odd (I am a banana)",
+      "14067131": "odd command (Eat some eggs)"
+    }
+  },
+  "U212": {
+    "reject": {
+      "9447201": "a saying, odd as a lesson line (Fish where there are fish)"
+    }
   }
 }

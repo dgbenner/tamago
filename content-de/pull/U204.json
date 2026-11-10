@@ -1,0 +1,1478 @@
+{
+  "unit_id": "U204",
+  "pulled_at": "2026-11-10",
+  "candidates": 36,
+  "sentences": [
+    {
+      "sentence_id": "S204001",
+      "unit_id": "U204",
+      "french": "Wo sind meine Schlüssel?",
+      "english": "Where are my keys?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "601654",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "kroko",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204002",
+      "unit_id": "U204",
+      "french": "Wo sind deine Schlüssel?",
+      "english": "Where are your keys?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1229173",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204003",
+      "unit_id": "U204",
+      "french": "Wo ist das Hotel?",
+      "english": "Where is the hotel?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3751965",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Jens_Odo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204004",
+      "unit_id": "U204",
+      "french": "Wo sind die Schlüssel?",
+      "english": "Where are the keys?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7466895",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204005",
+      "unit_id": "U204",
+      "french": "Hast du ein Zimmer?",
+      "english": "Do you have a room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9457001",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204006",
+      "unit_id": "U204",
+      "french": "Haben Sie ein Zimmer?",
+      "english": "Do you have a room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9462250",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204007",
+      "unit_id": "U204",
+      "french": "Wie viele Zimmer haben Sie?",
+      "english": "How many rooms do you have?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12517610",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mayabe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204008",
+      "unit_id": "U204",
+      "french": "Hast du ein Hotel?",
+      "english": "Do you have a hotel?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12831199",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204009",
+      "unit_id": "U204",
+      "french": "Haben Sie ein Hotel?",
+      "english": "Do you have a hotel?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12831200",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204010",
+      "unit_id": "U204",
+      "french": "Hat Tom einen Schlüssel?",
+      "english": "Does Tom have a key?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7481912",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204011",
+      "unit_id": "U204",
+      "french": "Hast du die Schlüssel?",
+      "english": "Do you have the keys?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8099669",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204012",
+      "unit_id": "U204",
+      "french": "Wo ist der Schlüssel?",
+      "english": "Where's the key?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8240955",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204013",
+      "unit_id": "U204",
+      "french": "Wie viele Zimmer hat das Haus?",
+      "english": "How many rooms has the house got?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10821897",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manese",
+      "other_english": [
+        "How many rooms does this house have?",
+        "How many rooms has this house got?",
+        "How many rooms are there in this house?"
+      ]
+    },
+    {
+      "sentence_id": "S204014",
+      "unit_id": "U204",
+      "french": "Hier ist mein Schlüssel.",
+      "english": "Here is my key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "479879",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Espi",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204015",
+      "unit_id": "U204",
+      "french": "Hier sind deine Schlüssel.",
+      "english": "Here are your keys.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "602743",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "BraveSentry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204016",
+      "unit_id": "U204",
+      "french": "Hier ist dein Schlüssel.",
+      "english": "Here's your key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "871907",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": [
+        "Here is your key."
+      ]
+    },
+    {
+      "sentence_id": "S204017",
+      "unit_id": "U204",
+      "french": "Du hast meine Schlüssel.",
+      "english": "You've got my keys.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1909321",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204018",
+      "unit_id": "U204",
+      "french": "Sie haben meine Schlüssel.",
+      "english": "You've got my keys.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1909323",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204019",
+      "unit_id": "U204",
+      "french": "Dein Zimmer ist groß.",
+      "english": "Your room is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2139819",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204020",
+      "unit_id": "U204",
+      "french": "Ich habe keinen Schlüssel.",
+      "english": "I don't have a key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3567774",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204021",
+      "unit_id": "U204",
+      "french": "Ich habe die Schlüssel.",
+      "english": "I have the keys.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3927314",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "I've got the keys."
+      ]
+    },
+    {
+      "sentence_id": "S204022",
+      "unit_id": "U204",
+      "french": "Das Zimmer ist schön.",
+      "english": "The room's nice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4338752",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dani6187",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204023",
+      "unit_id": "U204",
+      "french": "Ich mag das Zimmer.",
+      "english": "I like the room.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4735683",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204024",
+      "unit_id": "U204",
+      "french": "Hier sind die Schlüssel.",
+      "english": "Here are the keys.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5345921",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204025",
+      "unit_id": "U204",
+      "french": "Hier ist der Schlüssel.",
+      "english": "Here's the key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6673171",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204026",
+      "unit_id": "U204",
+      "french": "Ich habe deinen Schlüssel.",
+      "english": "I have your key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8082879",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204027",
+      "unit_id": "U204",
+      "french": "Tom hat keinen Schlüssel.",
+      "english": "Tom doesn't have a key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8274152",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204028",
+      "unit_id": "U204",
+      "french": "Tom hat die Schlüssel.",
+      "english": "Tom has the keys.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8336904",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204029",
+      "unit_id": "U204",
+      "french": "Die Schlüssel hat Tom.",
+      "english": "Tom has the keys.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8336905",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S204030",
+      "unit_id": "U204",
+      "french": "Ich habe einen Schlüssel.",
+      "english": "I have a key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12397900",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mayabe",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S204001",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204001",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204001",
+      "position": 3,
+      "surface": "meine",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204001",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204002",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204002",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204002",
+      "position": 3,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204002",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204003",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204003",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204003",
+      "position": 3,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204003",
+      "position": 4,
+      "surface": "Hotel",
+      "word_id": "W545",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204004",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204004",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204004",
+      "position": 3,
+      "surface": "die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204004",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204005",
+      "position": 1,
+      "surface": "Hast",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204005",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204005",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204005",
+      "position": 4,
+      "surface": "Zimmer",
+      "word_id": "W547",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204006",
+      "position": 1,
+      "surface": "Haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204006",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204006",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204006",
+      "position": 4,
+      "surface": "Zimmer",
+      "word_id": "W547",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204007",
+      "position": 1,
+      "surface": "Wie viele",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204007",
+      "position": 2,
+      "surface": "Zimmer",
+      "word_id": "W547",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204007",
+      "position": 3,
+      "surface": "haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204007",
+      "position": 4,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204008",
+      "position": 1,
+      "surface": "Hast",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204008",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204008",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204008",
+      "position": 4,
+      "surface": "Hotel",
+      "word_id": "W545",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204009",
+      "position": 1,
+      "surface": "Haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204009",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204009",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204009",
+      "position": 4,
+      "surface": "Hotel",
+      "word_id": "W545",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204010",
+      "position": 1,
+      "surface": "Hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204010",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204010",
+      "position": 3,
+      "surface": "einen",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204010",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204011",
+      "position": 1,
+      "surface": "Hast",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204011",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204011",
+      "position": 3,
+      "surface": "die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204011",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204012",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204012",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204012",
+      "position": 3,
+      "surface": "der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204012",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204013",
+      "position": 1,
+      "surface": "Wie viele",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204013",
+      "position": 2,
+      "surface": "Zimmer",
+      "word_id": "W547",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204013",
+      "position": 3,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204013",
+      "position": 4,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204013",
+      "position": 5,
+      "surface": "Haus",
+      "word_id": "W029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204014",
+      "position": 1,
+      "surface": "Hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204014",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204014",
+      "position": 3,
+      "surface": "mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204014",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204015",
+      "position": 1,
+      "surface": "Hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204015",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204015",
+      "position": 3,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204015",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204016",
+      "position": 1,
+      "surface": "Hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204016",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204016",
+      "position": 3,
+      "surface": "dein",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204016",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204017",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204017",
+      "position": 2,
+      "surface": "hast",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204017",
+      "position": 3,
+      "surface": "meine",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204017",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204018",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204018",
+      "position": 2,
+      "surface": "haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204018",
+      "position": 3,
+      "surface": "meine",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204018",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204019",
+      "position": 1,
+      "surface": "Dein",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204019",
+      "position": 2,
+      "surface": "Zimmer",
+      "word_id": "W547",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204019",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204019",
+      "position": 4,
+      "surface": "groß",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204020",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204020",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204020",
+      "position": 3,
+      "surface": "keinen",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204020",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204021",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204021",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204021",
+      "position": 3,
+      "surface": "die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204021",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204022",
+      "position": 1,
+      "surface": "Das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204022",
+      "position": 2,
+      "surface": "Zimmer",
+      "word_id": "W547",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204022",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204022",
+      "position": 4,
+      "surface": "schön",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204023",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204023",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204023",
+      "position": 3,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204023",
+      "position": 4,
+      "surface": "Zimmer",
+      "word_id": "W547",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204024",
+      "position": 1,
+      "surface": "Hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204024",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204024",
+      "position": 3,
+      "surface": "die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204024",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204025",
+      "position": 1,
+      "surface": "Hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204025",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204025",
+      "position": 3,
+      "surface": "der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204025",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204026",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204026",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204026",
+      "position": 3,
+      "surface": "deinen",
+      "word_id": "W101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204026",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204027",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204027",
+      "position": 2,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204027",
+      "position": 3,
+      "surface": "keinen",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204027",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204028",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204028",
+      "position": 2,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204028",
+      "position": 3,
+      "surface": "die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204028",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204029",
+      "position": 1,
+      "surface": "Die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204029",
+      "position": 2,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204029",
+      "position": 3,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204029",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204030",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204030",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204030",
+      "position": 3,
+      "surface": "einen",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S204030",
+      "position": 4,
+      "surface": "Schlüssel",
+      "word_id": "W546",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A2040131",
+      "sentence_id": "S204013",
+      "direction": "fr_to_en",
+      "answer": "How many rooms does this house have?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2040132",
+      "sentence_id": "S204013",
+      "direction": "fr_to_en",
+      "answer": "How many rooms has this house got?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2040133",
+      "sentence_id": "S204013",
+      "direction": "fr_to_en",
+      "answer": "How many rooms are there in this house?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2040161",
+      "sentence_id": "S204016",
+      "direction": "fr_to_en",
+      "answer": "Here is your key.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2040211",
+      "sentence_id": "S204021",
+      "direction": "fr_to_en",
+      "answer": "I've got the keys.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

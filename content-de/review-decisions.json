@@ -87,6 +87,51 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after cutting 8 (idioms like Was kannst du gut?, können for knowing a language, English that drops can or says know for speak, was for etwas, an odd line); 6 drafts: spielen, which checked Tatoeba lines don't reach with these words, and 3 answers for the question pairs"
+    },
+    "U101": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
+    },
+    "U102": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
+    },
+    "U201": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
+    },
+    "U202": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
+    },
+    "U204": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
+    },
+    "U205": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
+    },
+    "U206": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
+    },
+    "U209": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
+    },
+    "U212": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
     }
   },
   "cut_sentences": [],
@@ -437,6 +482,110 @@
     },
     "W160": {
       "hint": "to play; play (wir, sie, Sie)",
+      "source": "short form of Wiktionary"
+    },
+    "W501": {
+      "hint": "sun",
+      "source": "short form of Wiktionary"
+    },
+    "W504": {
+      "hint": "cold",
+      "source": "short form of Wiktionary"
+    },
+    "W507": {
+      "hint": "rains (regnen); es regnet: it is raining",
+      "source": "short form of Wiktionary"
+    },
+    "W508": {
+      "hint": "snows (schneien); es schneit: it is snowing",
+      "source": "short form of Wiktionary"
+    },
+    "W518": {
+      "hint": "mum, mom",
+      "source": "short form of Wiktionary"
+    },
+    "W519": {
+      "hint": "dad",
+      "source": "short form of Wiktionary"
+    },
+    "W521": {
+      "hint": "work, job",
+      "source": "short form of Wiktionary"
+    },
+    "W522": {
+      "hint": "work (arbeiten, ich)",
+      "source": "short form of Wiktionary"
+    },
+    "W523": {
+      "hint": "you work (arbeiten, du)",
+      "source": "short form of Wiktionary"
+    },
+    "W524": {
+      "hint": "works (arbeiten)",
+      "source": "short form of Wiktionary"
+    },
+    "W526": {
+      "hint": "boss (woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W529": {
+      "hint": "busy",
+      "source": "short form of Wiktionary"
+    },
+    "W530": {
+      "hint": "doctor",
+      "source": "short form of Wiktionary"
+    },
+    "W531": {
+      "hint": "doctor (woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W546": {
+      "hint": "key",
+      "source": "short form of Wiktionary"
+    },
+    "W555": {
+      "hint": "singer",
+      "source": "short form of Wiktionary"
+    },
+    "W556": {
+      "hint": "singer (woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W557": {
+      "hint": "sings (singen)",
+      "source": "short form of Wiktionary"
+    },
+    "W558": {
+      "hint": "sing (singen, ich)",
+      "source": "short form of Wiktionary"
+    },
+    "W562": {
+      "hint": "cup",
+      "source": "short form of Wiktionary"
+    },
+    "W564": {
+      "hint": "cake",
+      "source": "short form of Wiktionary"
+    },
+    "W566": {
+      "hint": "garden",
+      "source": "short form of Wiktionary"
+    },
+    "W568": {
+      "hint": "flowers",
+      "source": "short form of Wiktionary"
+    },
+    "W581": {
+      "hint": "meat",
+      "source": "short form of Wiktionary"
+    },
+    "W587": {
+      "hint": "eggs",
+      "source": "short form of Wiktionary"
+    },
+    "W606": {
+      "hint": "fish (more than one)",
       "source": "short form of Wiktionary"
     }
   },

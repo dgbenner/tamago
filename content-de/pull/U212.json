@@ -1,0 +1,1404 @@
+{
+  "unit_id": "U212",
+  "pulled_at": "2026-11-10",
+  "candidates": 38,
+  "sentences": [
+    {
+      "sentence_id": "S212001",
+      "unit_id": "U212",
+      "french": "Isst Tom Fisch?",
+      "english": "Does Tom eat fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6540296",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Manfredo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212002",
+      "unit_id": "U212",
+      "french": "Mag Tom Fisch?",
+      "english": "Does Tom like fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8833486",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212003",
+      "unit_id": "U212",
+      "french": "Möchtest du Fisch?",
+      "english": "Do you want fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12418605",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mayabe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212004",
+      "unit_id": "U212",
+      "french": "Wo ist der Strand?",
+      "english": "Where's the beach?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4065613",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Where is the beach?"
+      ]
+    },
+    {
+      "sentence_id": "S212005",
+      "unit_id": "U212",
+      "french": "Hat Tom ein Boot?",
+      "english": "Does Tom have a boat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8470441",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212006",
+      "unit_id": "U212",
+      "french": "Essen Sie keine Fische?",
+      "english": "Don't you eat fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12616434",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212007",
+      "unit_id": "U212",
+      "french": "Warum ist das Meer blau?",
+      "english": "Why is the sea blue?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8983825",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212008",
+      "unit_id": "U212",
+      "french": "Das Meer ist blau.",
+      "english": "The sea is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2397384",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "BraveSentry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212009",
+      "unit_id": "U212",
+      "french": "Tom hat ein Boot.",
+      "english": "Tom has a boat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3784922",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212010",
+      "unit_id": "U212",
+      "french": "Wir spielen am Strand.",
+      "english": "We play on the beach.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5321524",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "We're playing on the beach."
+      ]
+    },
+    {
+      "sentence_id": "S212011",
+      "unit_id": "U212",
+      "french": "Ich habe ein Boot.",
+      "english": "I have a boat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8434304",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": [
+        "I've got a boat."
+      ]
+    },
+    {
+      "sentence_id": "S212012",
+      "unit_id": "U212",
+      "french": "Tom ist am Strand.",
+      "english": "Tom is at the beach.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10097616",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212013",
+      "unit_id": "U212",
+      "french": "Wir haben keine Fische.",
+      "english": "We don't have fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13898351",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212014",
+      "unit_id": "U212",
+      "french": "Fische, wo die Fische sind!",
+      "english": "Fish where the fish are.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8870215",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212015",
+      "unit_id": "U212",
+      "french": "Das Meer ist sehr grün.",
+      "english": "The sea is very green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9979169",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212016",
+      "unit_id": "U212",
+      "french": "Magst du keinen Fisch?",
+      "english": "Don't you like fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9988674",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212017",
+      "unit_id": "U212",
+      "french": "Was ist ein Fisch?",
+      "english": "What is a fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12026066",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212018",
+      "unit_id": "U212",
+      "french": "Essen Sie keinen Fisch?",
+      "english": "Don't you eat fish?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12616427",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212019",
+      "unit_id": "U212",
+      "french": "Fisch, bitte.",
+      "english": "Fish, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "450252",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212020",
+      "unit_id": "U212",
+      "french": "Tom mag Fisch.",
+      "english": "Tom likes fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5438508",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212021",
+      "unit_id": "U212",
+      "french": "Sie essen Fisch.",
+      "english": "They eat fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8102005",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212022",
+      "unit_id": "U212",
+      "french": "Er mag Fisch.",
+      "english": "He likes fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10017311",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212023",
+      "unit_id": "U212",
+      "french": "Ich möchte Fisch.",
+      "english": "I want fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12511933",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Naina",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212024",
+      "unit_id": "U212",
+      "french": "Er mag keinen Fisch.",
+      "english": "He doesn't like fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "797806",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Manfredo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212025",
+      "unit_id": "U212",
+      "french": "Es ist ein Fisch.",
+      "english": "It is a fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2225354",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212026",
+      "unit_id": "U212",
+      "french": "Tom mag keinen Fisch.",
+      "english": "Tom doesn't like fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4063590",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Kuraimegami",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212027",
+      "unit_id": "U212",
+      "french": "Sie mag keinen Fisch.",
+      "english": "She doesn't like fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4697844",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "panamicua",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212028",
+      "unit_id": "U212",
+      "french": "Ich esse keinen Fisch.",
+      "english": "I don't eat fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5862862",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212029",
+      "unit_id": "U212",
+      "french": "Ich esse einen Fisch.",
+      "english": "I'm eating a fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8320824",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MisterTrouser",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S212030",
+      "unit_id": "U212",
+      "french": "Ich mag keinen Fisch.",
+      "english": "I don't like fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10124888",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S212001",
+      "position": 1,
+      "surface": "Isst",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212001",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212001",
+      "position": 3,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212002",
+      "position": 1,
+      "surface": "Mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212002",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212002",
+      "position": 3,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212003",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212003",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212003",
+      "position": 3,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212004",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212004",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212004",
+      "position": 3,
+      "surface": "der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212004",
+      "position": 4,
+      "surface": "Strand",
+      "word_id": "W603",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212005",
+      "position": 1,
+      "surface": "Hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212005",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212005",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212005",
+      "position": 4,
+      "surface": "Boot",
+      "word_id": "W607",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212006",
+      "position": 1,
+      "surface": "Essen",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212006",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212006",
+      "position": 3,
+      "surface": "keine",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212006",
+      "position": 4,
+      "surface": "Fische",
+      "word_id": "W606",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212007",
+      "position": 1,
+      "surface": "Warum",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212007",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212007",
+      "position": 3,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212007",
+      "position": 4,
+      "surface": "Meer",
+      "word_id": "W604",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212007",
+      "position": 5,
+      "surface": "blau",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212008",
+      "position": 1,
+      "surface": "Das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212008",
+      "position": 2,
+      "surface": "Meer",
+      "word_id": "W604",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212008",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212008",
+      "position": 4,
+      "surface": "blau",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212009",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212009",
+      "position": 2,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212009",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212009",
+      "position": 4,
+      "surface": "Boot",
+      "word_id": "W607",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212010",
+      "position": 1,
+      "surface": "Wir",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212010",
+      "position": 2,
+      "surface": "spielen",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212010",
+      "position": 3,
+      "surface": "am",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212010",
+      "position": 4,
+      "surface": "Strand",
+      "word_id": "W603",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212011",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212011",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212011",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212011",
+      "position": 4,
+      "surface": "Boot",
+      "word_id": "W607",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212012",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212012",
+      "position": 3,
+      "surface": "am",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212012",
+      "position": 4,
+      "surface": "Strand",
+      "word_id": "W603",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212013",
+      "position": 1,
+      "surface": "Wir",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212013",
+      "position": 2,
+      "surface": "haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212013",
+      "position": 3,
+      "surface": "keine",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212013",
+      "position": 4,
+      "surface": "Fische",
+      "word_id": "W606",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212014",
+      "position": 1,
+      "surface": "Fische",
+      "word_id": "W606",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212014",
+      "position": 2,
+      "surface": "wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212014",
+      "position": 3,
+      "surface": "die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212014",
+      "position": 4,
+      "surface": "Fische",
+      "word_id": "W606",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212014",
+      "position": 5,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212015",
+      "position": 1,
+      "surface": "Das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212015",
+      "position": 2,
+      "surface": "Meer",
+      "word_id": "W604",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212015",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212015",
+      "position": 4,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212015",
+      "position": 5,
+      "surface": "grün",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212016",
+      "position": 1,
+      "surface": "Magst",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212016",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212016",
+      "position": 3,
+      "surface": "keinen",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212016",
+      "position": 4,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212017",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212017",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212017",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212017",
+      "position": 4,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212018",
+      "position": 1,
+      "surface": "Essen",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212018",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212018",
+      "position": 3,
+      "surface": "keinen",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212018",
+      "position": 4,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212019",
+      "position": 1,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212019",
+      "position": 2,
+      "surface": "bitte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212020",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212020",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212020",
+      "position": 3,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212021",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212021",
+      "position": 2,
+      "surface": "essen",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212021",
+      "position": 3,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212022",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212022",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212022",
+      "position": 3,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212023",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212023",
+      "position": 2,
+      "surface": "möchte",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212023",
+      "position": 3,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212024",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212024",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212024",
+      "position": 3,
+      "surface": "keinen",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212024",
+      "position": 4,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212025",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212025",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212025",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212025",
+      "position": 4,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212026",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212026",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212026",
+      "position": 3,
+      "surface": "keinen",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212026",
+      "position": 4,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212027",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212027",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212027",
+      "position": 3,
+      "surface": "keinen",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212027",
+      "position": 4,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212028",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212028",
+      "position": 2,
+      "surface": "esse",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212028",
+      "position": 3,
+      "surface": "keinen",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212028",
+      "position": 4,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212029",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212029",
+      "position": 2,
+      "surface": "esse",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212029",
+      "position": 3,
+      "surface": "einen",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212029",
+      "position": 4,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212030",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212030",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212030",
+      "position": 3,
+      "surface": "keinen",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S212030",
+      "position": 4,
+      "surface": "Fisch",
+      "word_id": "W605",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A2120041",
+      "sentence_id": "S212004",
+      "direction": "fr_to_en",
+      "answer": "Where is the beach?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2120101",
+      "sentence_id": "S212010",
+      "direction": "fr_to_en",
+      "answer": "We're playing on the beach.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2120111",
+      "sentence_id": "S212011",
+      "direction": "fr_to_en",
+      "answer": "I've got a boat.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

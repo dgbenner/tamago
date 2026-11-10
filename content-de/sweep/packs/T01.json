@@ -1,0 +1,297 @@
+{
+  "topic": "Airports",
+  "words": [
+    "Flugzeug",
+    "Flughafen",
+    "Ticket",
+    "Koffer",
+    "Reise",
+    "Pilot",
+    "Pass",
+    "Flug"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "450123",
+      "owner": "al_ex_an_der",
+      "french": "Ich habe kein Ticket.",
+      "english": [
+        "I don't have a ticket."
+      ],
+      "forms": [
+        "Ticket"
+      ]
+    },
+    {
+      "source_id": "1001961",
+      "owner": "Esperantostern",
+      "french": "Ich habe einen Pass.",
+      "english": [
+        "I have a passport."
+      ],
+      "forms": [
+        "Pass"
+      ]
+    },
+    {
+      "source_id": "1372211",
+      "owner": "al_ex_an_der",
+      "french": "Hast du ein Ticket?",
+      "english": [
+        "Do you have a ticket?",
+        "Have you got a ticket?"
+      ],
+      "forms": [
+        "Ticket"
+      ]
+    },
+    {
+      "source_id": "1485280",
+      "owner": "Pfirsichbaeumchen",
+      "french": "Ich habe meinen Pass.",
+      "english": [
+        "I have my passport."
+      ],
+      "forms": [
+        "Pass"
+      ]
+    },
+    {
+      "source_id": "1932847",
+      "owner": "Pfirsichbaeumchen",
+      "french": "Wann geht dein Flug?",
+      "english": [
+        "What time is your plane?",
+        "When is your flight?",
+        "What time's your plane?",
+        "When does your plane depart?"
+      ],
+      "forms": [
+        "Flug"
+      ]
+    },
+    {
+      "source_id": "2383252",
+      "owner": "BraveSentry",
+      "french": "Tom ist Pilot.",
+      "english": [
+        "Tom is a pilot."
+      ],
+      "forms": [
+        "Pilot"
+      ]
+    },
+    {
+      "source_id": "2634584",
+      "owner": "Pfirsichbaeumchen",
+      "french": "Tom ist am Flughafen.",
+      "english": [
+        "Tom is at the airport."
+      ],
+      "forms": [
+        "Flughafen"
+      ]
+    },
+    {
+      "source_id": "2988940",
+      "owner": "freddy1",
+      "french": "Wo ist dein Koffer?",
+      "english": [
+        "Where's your suitcase?"
+      ],
+      "forms": [
+        "Koffer"
+      ]
+    },
+    {
+      "source_id": "3016303",
+      "owner": "Pfirsichbaeumchen",
+      "french": "Hier ist mein Pass.",
+      "english": [
+        "Here's my passport."
+      ],
+      "forms": [
+        "Pass"
+      ]
+    },
+    {
+      "source_id": "3404160",
+      "owner": "Pfirsichbaeumchen",
+      "french": "Das ist mein Koffer.",
+      "english": [
+        "That's my suitcase."
+      ],
+      "forms": [
+        "Koffer"
+      ]
+    },
+    {
+      "source_id": "5390424",
+      "owner": "Yakuwari",
+      "french": "Gibt es einen Flug am Morgen?",
+      "english": [
+        "Is there a flight in the morning?"
+      ],
+      "forms": [
+        "Flug"
+      ]
+    },
+    {
+      "source_id": "5547429",
+      "owner": "BlundaInte",
+      "french": "Sie hat kein Ticket.",
+      "english": [
+        "She doesn't have a ticket.",
+        "She does not have a ticket."
+      ],
+      "forms": [
+        "Ticket"
+      ]
+    },
+    {
+      "source_id": "6765243",
+      "owner": "Pfirsichbaeumchen",
+      "french": "Ist das dein Koffer?",
+      "english": [
+        "Is this your suitcase?"
+      ],
+      "forms": [
+        "Koffer"
+      ]
+    },
+    {
+      "source_id": "8168915",
+      "owner": "Pfirsichbaeumchen",
+      "french": "Ich habe keinen Pass.",
+      "english": [
+        "I don't have a passport."
+      ],
+      "forms": [
+        "Pass"
+      ]
+    },
+    {
+      "source_id": "8232542",
+      "owner": "Pfirsichbaeumchen",
+      "french": "Wer hat deinen Pass?",
+      "english": [
+        "Who has your passport?"
+      ],
+      "forms": [
+        "Pass"
+      ]
+    },
+    {
+      "source_id": "8276553",
+      "owner": "Luiaard",
+      "french": "Ich habe ein Ticket.",
+      "english": [
+        "I have a ticket."
+      ],
+      "forms": [
+        "Ticket"
+      ]
+    },
+    {
+      "source_id": "8333048",
+      "owner": "Luiaard",
+      "french": "Wo ist mein Ticket?",
+      "english": [
+        "Where's my ticket?",
+        "Where is my ticket?"
+      ],
+      "forms": [
+        "Ticket"
+      ]
+    },
+    {
+      "source_id": "8353602",
+      "owner": "Luiaard",
+      "french": "Hast du keinen Pass?",
+      "english": [
+        "Don't you have a passport?"
+      ],
+      "forms": [
+        "Pass"
+      ]
+    },
+    {
+      "source_id": "8353603",
+      "owner": "Luiaard",
+      "french": "Haben Sie keinen Pass?",
+      "english": [
+        "Don't you have a passport?"
+      ],
+      "forms": [
+        "Pass"
+      ]
+    },
+    {
+      "source_id": "10095189",
+      "owner": "wolfgangth",
+      "french": "Tom hat einen Pass.",
+      "english": [
+        "Tom has a passport."
+      ],
+      "forms": [
+        "Pass"
+      ]
+    },
+    {
+      "source_id": "10504590",
+      "owner": "wolfgangth",
+      "french": "Maria ist am Flughafen.",
+      "english": [
+        "Maria is at the airport."
+      ],
+      "forms": [
+        "Flughafen"
+      ]
+    },
+    {
+      "source_id": "10604745",
+      "owner": "Pfirsichbaeumchen",
+      "french": "Das ist nicht mein Koffer.",
+      "english": [
+        "This suitcase isn't mine."
+      ],
+      "forms": [
+        "Koffer"
+      ]
+    },
+    {
+      "source_id": "12356297",
+      "owner": "mayabe",
+      "french": "Möchtest du ein Ticket?",
+      "english": [
+        "Do you want a ticket?"
+      ],
+      "forms": [
+        "Ticket"
+      ]
+    },
+    {
+      "source_id": "12537199",
+      "owner": "Augustus",
+      "french": "Ich reise.",
+      "english": [
+        "I travel."
+      ],
+      "forms": [
+        "Reise"
+      ]
+    },
+    {
+      "source_id": "13671695",
+      "owner": "Yorwba",
+      "french": "Hast du einen Pass?",
+      "english": [
+        "Do you have a passport?"
+      ],
+      "forms": [
+        "Pass"
+      ]
+    }
+  ]
+}

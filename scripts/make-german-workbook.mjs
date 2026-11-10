@@ -53,9 +53,32 @@ export const EXTRA = {}
 export const MOVE = {}
 
 // Topic packs: added once the units are live (the same framework and rule as Spanish).
-export const PACKS = []
-export const PACK_SKIPPED = {}
-export const PACK_DROP = {}
+// German packs (2026-11-10), all at U200 after Unit 15, on all of A1, from checked Tatoeba only (30 or more, every
+// word in 3 or more). Counts from COURSE=de ALL_A1=1 node scripts/pack-feasibility.mjs before review.
+export const PACKS = [
+  { unit_id: 'U101', node: 'U200', topic_id: 'T06', title: 'The Weather', words: ['Sonne', 'Regen', 'Schnee', 'kalt', 'warm', 'heiß', 'regnet', 'schneit', 'Wetter'] },
+  { unit_id: 'U102', node: 'U200', topic_id: 'T29', title: 'Family Life', words: ['Mutter', 'Vater', 'Bruder', 'Schwester', 'Sohn', 'Tochter', 'Baby', 'Eltern', 'Mama', 'Papa'] },
+  { unit_id: 'U201', node: 'U200', topic_id: 'T22', title: 'At the Office', words: ['Büro', 'Arbeit', 'arbeite', 'arbeitest', 'arbeitet', 'Chef', 'Chefin', 'Computer', 'Telefon', 'beschäftigt'] },
+  { unit_id: 'U202', node: 'U200', topic_id: 'T23', title: 'At the Doctor', words: ['Arzt', 'Ärztin', 'Krankenhaus', 'krank', 'Kopf', 'Fieber', 'weh', 'Medizin'] },
+  { unit_id: 'U203', node: 'U200', topic_id: 'T28', title: 'At the Cinema', words: ['Film', 'Filme', 'Kino', 'Schauspieler', 'Fernseher', 'lustig', 'traurig'] },
+  { unit_id: 'U204', node: 'U200', topic_id: 'T11', title: 'At the Hotel', words: ['Hotel', 'Schlüssel', 'Zimmer', 'Nacht', 'Bett'] },
+  { unit_id: 'U205', node: 'U200', topic_id: 'T17', title: 'Music and Songs', words: ['Musik', 'Lied', 'Lieder', 'Klavier', 'Gitarre', 'Sänger', 'Sängerin', 'singt', 'singe', 'singst'] },
+  { unit_id: 'U206', node: 'U200', topic_id: 'T09', title: 'At the Café', words: ['Zucker', 'Schokolade', 'Tasse', 'Saft', 'Kuchen', 'Café'] },
+  { unit_id: 'U207', node: 'U200', topic_id: 'T19', title: 'In the Garden', words: ['Garten', 'Blume', 'Blumen', 'Baum', 'Bäume', 'Pflanze'] },
+  { unit_id: 'U208', node: 'U200', topic_id: 'T26', title: 'Clothes and Shoes', words: ['Kleidung', 'Hemd', 'Kleid', 'Schuhe', 'Hut', 'Hose', 'Rock', 'Mantel', 'Jacke'] },
+  { unit_id: 'U209', node: 'U200', topic_id: 'T25', title: 'At the Supermarket', words: ['Fleisch', 'Hähnchen', 'Reis', 'Banane', 'Tomate', 'Ei', 'Eier', 'Butter', 'Supermarkt'] },
+  { unit_id: 'U210', node: 'U200', topic_id: 'T30', title: 'At Home', words: ['Stuhl', 'Fenster', 'Tisch', 'Küche', 'Sofa'] },
+  { unit_id: 'U211', node: 'U200', topic_id: 'T01', title: 'At the Airport', words: ['Flugzeug', 'Flughafen', 'Ticket', 'Koffer', 'Reise', 'Pilot', 'Pass', 'Flug'] },
+  { unit_id: 'U212', node: 'U200', topic_id: 'T15', title: 'At the Beach', words: ['Strand', 'Meer', 'Fisch', 'Fische', 'Boot', 'Sand'] },
+]
+export const PACK_SKIPPED = {
+  U203: 'Cinema: 58 candidates, but Film and Kino reach none; the rest are lustig, traurig and the television',
+  U208: 'Clothes: 25 candidates', U210: 'Home: 24 candidates', U211: 'Airports: 25 candidates',
+  U207: 'Garden: 24 candidates once Bäume and Pflanze (under 3) are out',
+}
+// Words under 3 candidates on all of A1 (before review), left out of their pack.
+// Baby and Lied: under 3 good sentences after review.
+export const PACK_DROP = { U101: ['Regen'], U102: ['Baby'], U202: ['Kopf', 'weh', 'Medizin'], U204: ['Nacht', 'Bett'], U205: ['Lieder', 'singst', 'Lied'], U206: ['Café'], U207: ['Bäume', 'Pflanze'], U209: ['Hähnchen', 'Tomate', 'Ei', 'Butter', 'Supermarkt'], U212: ['Sand'] }
 export const PACK_EXTRA = {}
 
 if (process.argv[1] === import.meta.filename) {
@@ -66,7 +89,7 @@ if (process.argv[1] === import.meta.filename) {
     { item: 'German', notes: 'Standard German as spoken in Germany, with du and Sie. Nouns keep their capital letter in the word list. Order after the Goethe-Institut A1 level (Start Deutsch 1).' },
     { item: 'Sources', notes: 'Sentences: Tatoeba German-English (source_id) or tamago_original (native-speaker check needed). Words: Wiktionary German. Recordings: Lingua Libre (LL-Q188 (deu)).' },
     { item: 'Editing', notes: "Add rows freely. Keep IDs unique and never reuse a retired ID. Set status to 'off' instead of deleting." },
-    { item: 'Changes to v1', notes: 'New workbook, made by scripts/make-german-workbook.mjs from the French machinery tabs.' },
+    { item: 'Changes to v1', notes: 'New workbook, made by scripts/make-german-workbook.mjs from the French machinery tabs. Topic packs added the same day, at U200 after Unit 15.' },
   ], ['item', 'notes'])
   put('languages', sheet('languages').map((l) => ({ ...l, status: ['fr', 'es', 'de'].includes(l.lang_id) ? 'active' : l.status })))
   put('units', UNITS.map((u, i) => ({ unit_id: u.id, lang_id: 'de', cefr: 'A1', order: i + 1, title: u.title, topic: u.title, grammar_point: u.grammar, contrast_sets: u.contrast,
