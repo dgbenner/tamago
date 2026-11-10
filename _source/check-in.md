@@ -673,7 +673,7 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (69), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (71), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (12)
 
@@ -773,3 +773,8 @@ Every German sentence I wrote (69), for a native speaker of German as spoken in 
 - S11108 Tom ist zehn. = Tom is ten.
 - S11109 Ich habe sieben Äpfel. = I have seven apples.
 - S11110 Ja, es gibt Milch. = Yes, there is milk. (QT09 answer)
+
+**U12 Naming Colours** (2)
+
+- S12101 Nein, das Pferd ist weiß. = No, the horse is white. (QT09 answer)
+- S12103 Ja, der Hund ist schwarz. = Yes, the dog is black. (QT09 answer)

@@ -76,6 +76,13 @@
       "example_sentence_ids": "S11027;S11004;S11012",
       "conjugation_lemma": "",
       "status": "live"
+    },
+    {
+      "unit_id": "U12",
+      "rule": "Colours after ist or sind don't change: Der Apfel ist rot, Die Katzen sind schwarz. As the name of a colour they take a capital letter: Rot ist eine Farbe, Ich mag die Farbe Grün. Welche Farbe hat ...? asks what colour something is (literally, which colour does it have). Welcher, welche, welches means which; welche goes with feminine nouns like Farbe and with plurals. Careful: weiß is also I know or he knows, from wissen.",
+      "example_sentence_ids": "S12013;S12002;S12003",
+      "conjugation_lemma": "",
+      "status": "live"
     }
   ]
 }

@@ -503,6 +503,30 @@
       "french": "Ja, es gibt Milch.",
       "english": "Yes, there is milk.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S12101",
+      "unit_id": "U12",
+      "french": "Nein, das Pferd ist weiß.",
+      "english": "No, the horse is white.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S12102",
+      "unit_id": "U12",
+      "french": "Mein Auto ist rot.",
+      "english": "My car is red.",
+      "notes": "QT09 answer; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "3064375",
+      "source_owner": "Pfirsichbaeumchen"
+    },
+    {
+      "sentence_id": "S12103",
+      "unit_id": "U12",
+      "french": "Ja, der Hund ist schwarz.",
+      "english": "Yes, the dog is black.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -681,6 +705,22 @@
     {
       "question_sentence_id": "S11012",
       "answer_sentence_id": "S11110"
+    },
+    {
+      "question_sentence_id": "S12013",
+      "answer_sentence_id": "S12015"
+    },
+    {
+      "question_sentence_id": "S12007",
+      "answer_sentence_id": "S12101"
+    },
+    {
+      "question_sentence_id": "S12012",
+      "answer_sentence_id": "S12102"
+    },
+    {
+      "question_sentence_id": "S12030",
+      "answer_sentence_id": "S12103"
     }
   ]
 }
