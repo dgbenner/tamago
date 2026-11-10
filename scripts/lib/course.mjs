@@ -10,7 +10,7 @@ export const COURSE = process.env.COURSE ?? 'fr'
 
 export const COURSES = {
   fr: {
-    id: 'fr', name: 'French', workbook: '_source/tamago-data-v24.xlsx',
+    id: 'fr', name: 'French', workbook: '_source/tamago-data-v25.xlsx',
     tatoeba: 'fra', wiktionaryCode: 'fr', wiktionarySection: 'French', linguaLibre: { qid: 'Q150', iso: 'fra' }, wikidataLanguage: 'Q150',
   },
   es: {

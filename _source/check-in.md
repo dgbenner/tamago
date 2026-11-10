@@ -4,6 +4,7 @@ Updated November 10, 2026. **The Spanish course is live: all 15 units, six topic
 
 ## Done since last check-in
 
+- **French drafts swapped for Fable's Use candidates: 40.** The French native-speaker list is now **253** (was 293). Same rules as Spanish: ids kept, Fable's English picks used, each Tatoeba sentence once, a question-and-answer pair changed only for the very same sentence, each swap recorded as a reviewed confirm (workbook v25). 78 drafts had a Use candidate; 38 are held: 29 halves of question-and-answer pairs and 9 whose candidates went to other drafts (listed in the build log). The other Use candidates stay in _review/french-candidates.md as the reserve. Every word still has 3 or more sentences, as before (au revoir has two in Unit 1 and two more in Unit 3, as it did). The file's header now says French native, not Spanish (my script's slip, also fixed).
 - **French candidates for review:** _review/french-candidates.md, the same as the Spanish list: every Tatoeba French sentence kept out only by the trust rule that otherwise fits a unit or topic pack, 277 in all, grouped by unit, each of the 293 drafts beside the candidates that could replace it, exact matches first. 16 drafts are word for word on Tatoeba from an unchecked owner; 97 have a candidate that teaches all the same new words. Nothing swapped; not yet reviewed for idioms or odd lines.
   - Fixed on the way: an exact match now has to be the same kind of sentence; the first pass paired *Tu es un garçon ?* with *Tu es un garçon.* None of the Spanish swaps rested on such a match. Two Spanish swaps did turn a statement into a question by Fable's choice (S2110 *¿Cómo es él?*, S5102 *¿Cómo está el pájaro?*); neither is in a question-and-answer pair.
 - **Spanish drafts swapped for Fable's Use candidates: 31 of the 62.** The Spanish native-speaker list is now **127** (was 158). Each swap keeps its sentence id, takes Fable's English pick where one was named (I'm fine, I like green, My family isn't a big family), and is recorded as a reviewed confirm, since these owners carry no native or OK signal. The other 31 are held, for two reasons:
@@ -167,7 +168,7 @@ Updated November 10, 2026. **The Spanish course is live: all 15 units, six topic
 2. **Netlify (your call, no hurry).** Builds are stopped and the old site still serves Phase 5 at https://tamago-590.netlify.app. Anyone who had it installed stays on that old version; the new home is https://tamago-83f.pages.dev. Delete the Netlify site whenever you like, or keep it. A custom domain on Cloudflare (for example a subdomain of danbenner.com) is a few clicks when you want one.
 2a. **Spanish native-speaker check:** 158 drafted Spanish sentences, listed at the end of this file, need a native speaker of Latin American Spanish before testers. Same flow as French: on their phone, https://tamago-83f.pages.dev, choose Spanish, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check. Most drafts are in the first six units, where Tatoeba's checked sentences within so few words run out; from Unit 7 on, drafting is a handful per unit.
 2b. **Spanish flag (your call):** the course is Latin American Spanish and the flag is Spain's. Send another flag image whenever you like and I'll swap it in.
-3. **Native-speaker check (now 293 sentences: 18 in Unit 1 and the 275 drafts listed below).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
+3. **Native-speaker check (now 253 French sentences, listed below).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
 4. **Claude explanations and Claude-written practice: key added 2026-11-09.** Key tamago-cloudflare, in its own Anthropic workspace (Tamago) with a $5 monthly spend limit, stored only as a Cloudflare Pages secret (TAMAGO_ANTHROPIC_API_KEY). **The key expires January 2, 2027**; after that both features switch off quietly until a new key replaces it (Console, Tamago workspace, then the same secret in Cloudflare and a redeploy).
    - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output; one explanation is a few hundred tokens. Claude-written practice uses Opus 5.5 ($4 and $20 per million), a few cents a set. The $5 cap stops everything for the rest of the month if it's ever reached.
 5. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
@@ -177,9 +178,30 @@ Updated November 10, 2026. **The Spanish course is live: all 15 units, six topic
 
 ## Drafted sentences
 
-Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't listed.
+Every French sentence I wrote (253), for the native-speaker check. Tatoeba sentences aren't listed.
 
-**U02 Basics 2** (23)
+**U01 Saying Hello** (18)
+
+- S0011 Tu es une fille. = You are a girl.
+- S0016 Un homme et une femme. = A man and a woman.
+- S0017 Un garçon et une fille. = A boy and a girl.
+- S0018 Bonjour, je suis Paul. = Hello, I am Paul.
+- S0019 Bonjour, je suis Marie. = Hello, I am Marie.
+- S0020 Merci, au revoir. = Thank you, goodbye.
+- S0021 Oui, je suis une femme. = Yes, I am a woman.
+- S0022 Non, je suis un homme. = No, I am a man.
+- S0023 Tu es un garçon ? = Are you a boy?
+- S0024 Non, je suis une fille. = No, I am a girl.
+- S0025 Tu es Paul ? = Are you Paul?
+- S0026 Oui, je suis Paul. = Yes, I am Paul.
+- S0027 C'est une fille ? = Is it a girl?
+- S0028 Non, c'est un garçon. = No, it is a boy.
+- S0029 Tu es un enfant ? = Are you a child?
+- S0030 Non, je suis une femme. = No, I am a woman.
+- S0039 Tu es une femme ? = Are you a woman?
+- S0040 Tu es un homme ? = Are you a man?
+
+**U02 People and Things** (23)
 
 - S2101 Le livre est ici ? = Is the book here? (QT09 question)
 - S2102 Oui, le livre est ici. = Yes, the book is here. (QT09 answer)
@@ -205,7 +227,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S2122 Le journal est ici. = The newspaper is here.
 - S2123 Le garçon ? Il est ici. = The boy? He is here.
 
-**U03 Phrases** (20)
+**U03 Polite Phrases** (17)
 
 - S3101 Vous êtes Paul ? = Are you Paul? (QT09 question)
 - S3102 Non, je suis Marie. = No, I'm Marie. (QT09 answer)
@@ -222,13 +244,10 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S3113 Pardon, Marie ! = Sorry, Marie!
 - S3114 Pardon, c'est ici ? = Excuse me, is it here?
 - S3115 Paul, s'il te plaît ! = Paul, please!
-- S3116 Oui, s'il te plaît. = Yes, please.
-- S3117 Bonsoir, Paul ! = Good evening, Paul!
-- S3118 Bonne nuit, Marie. = Good night, Marie.
 - S3119 De rien, Paul. = You're welcome, Paul.
 - S3120 Au revoir, à bientôt ! = Goodbye, see you soon!
 
-**U04 Food** (11)
+**U04 Food and Drink** (9)
 
 - S4101 Tu manges une pomme ? = Are you eating an apple? (QT09 question)
 - S4102 Oui, je mange une pomme. = Yes, I'm eating an apple. (QT09 answer)
@@ -238,11 +257,9 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S4106 Non, je mange un sandwich. = No, I'm eating a sandwich. (QT09 answer)
 - S4107 Tu aimes le lait ? = Do you like milk? (QT09 question)
 - S4108 Non, j'aime l'eau. = No, I like water. (QT09 answer)
-- S4109 Il mange une orange. = He's eating an orange.
-- S4110 Tu aimes le pain ? = Do you like bread?
 - S4111 Elle mange un sandwich. = She's eating a sandwich.
 
-**U05 Animals** (11)
+**U05 Pets and Animals** (11)
 
 - S5101 Tu as un chien ? = Do you have a dog? (QT09 question)
 - S5102 Oui, j'ai un petit chien. = Yes, I have a small dog. (QT09 answer)
@@ -256,46 +273,38 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S5110 J'ai une tortue et un oiseau. = I have a tortoise and a bird.
 - S5111 Le canard mange. = The duck is eating.
 
-**U06 Plurals** (23)
+**U06 More Than One** (16)
 
-- S7051 J'ai des livres. = I have books.
 - S7052 Les livres sont ici. = The books are here.
 - S7053 Voici les livres. = Here are the books.
 - S7054 J'ai des lettres. = I have letters.
 - S7055 Les lettres sont ici. = The letters are here.
 - S7056 Voici des lettres. = Here are some letters.
-- S7057 Voici les chats. = Here are the cats.
-- S7058 Il mange des pommes. = He's eating apples.
-- S7059 J'aime les pommes. = I like apples.
 - S7060 Voici des pommes. = Here are some apples.
 - S7061 J'ai des oiseaux. = I have birds.
-- S7062 Les oiseaux sont ici. = The birds are here.
 - S7063 J'aime les oiseaux. = I like birds.
-- S7064 Voici les chevaux. = Here are the horses.
-- S7065 J'aime les chevaux. = I like horses.
-- S7066 Vous êtes des enfants ? = Are you children? (QT09 question)
-- S7067 Non, nous sommes des hommes. = No, we are men. (QT09 answer)
-- S7068 Tu as des chats ? = Do you have cats? (QT09 question)
-- S7069 Oui, j'ai des chats. = Yes, I have cats. (QT09 answer)
-- S7070 Les chiens sont ici ? = Are the dogs here? (QT09 question)
-- S7071 Oui, les chiens sont ici. = Yes, the dogs are here. (QT09 answer)
-- S7072 Tu manges des pommes ? = Are you eating apples? (QT09 question)
-- S7073 Non, je mange du pain. = No, I'm eating bread. (QT09 answer)
+- S7066 Vous êtes des enfants ? = Are you children?
+- S7067 Non, nous sommes des hommes. = No, we are men.
+- S7068 Tu as des chats ? = Do you have cats?
+- S7069 Oui, j'ai des chats. = Yes, I have cats.
+- S7070 Les chiens sont ici ? = Are the dogs here?
+- S7071 Oui, les chiens sont ici. = Yes, the dogs are here.
+- S7072 Tu manges des pommes ? = Are you eating apples?
+- S7073 Non, je mange du pain. = No, I'm eating bread.
 
-**U07 Adjectives** (10)
+**U07 Describing Things** (9)
 
 - S7153 Il est très vieux. = He is very old.
-- S7154 C'est une vieille lettre. = It's an old letter.
-- S7155 Le pain est bon ? = Is the bread good? (QT09 question)
-- S7156 Oui, le pain est très bon. = Yes, the bread is very good. (QT09 answer)
-- S7157 Elle est gentille ? = Is she nice? (QT09 question)
-- S7158 Oui, elle est très gentille. = Yes, she's very nice. (QT09 answer)
-- S7159 Le chien est vieux ? = Is the dog old? (QT09 question)
-- S7160 Non, il est jeune. = No, he's young. (QT09 answer)
-- S7161 La pomme est bonne ? = Is the apple good? (QT09 question)
-- S7162 Oui, elle est très bonne. = Yes, it's very good. (QT09 answer)
+- S7155 Le pain est bon ? = Is the bread good?
+- S7156 Oui, le pain est très bon. = Yes, the bread is very good.
+- S7157 Elle est gentille ? = Is she nice?
+- S7158 Oui, elle est très gentille. = Yes, she's very nice.
+- S7159 Le chien est vieux ? = Is the dog old?
+- S7160 Non, il est jeune. = No, he's young.
+- S7161 La pomme est bonne ? = Is the apple good?
+- S7162 Oui, elle est très bonne. = Yes, it's very good.
 
-**U08 Possessives** (21)
+**U08 Mine and Yours** (21)
 
 - S7251 C'est ma pomme. = It's my apple.
 - S7252 Voici ma lettre. = Here is my letter.
@@ -310,60 +319,48 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S7262 Il a sa lettre. = He has his letter.
 - S7263 C'est sa tortue. = It's her tortoise.
 - S7264 Il aime ses chats. = He likes his cats.
-- S7265 C'est ton chien ? = Is it your dog? (QT09 question)
-- S7266 Oui, c'est mon chien. = Yes, it's my dog. (QT09 answer)
-- S7267 C'est ta pomme ? = Is it your apple? (QT09 question)
-- S7268 Non, c'est sa pomme. = No, it's her apple. (QT09 answer)
-- S7269 Tes enfants sont ici ? = Are your children here? (QT09 question)
-- S7270 Oui, mes enfants sont ici. = Yes, my children are here. (QT09 answer)
-- S7271 Ton ami mange ? = Is your friend eating? (QT09 question)
-- S7272 Oui, mon ami mange un sandwich. = Yes, my friend is eating a sandwich. (QT09 answer)
+- S7265 C'est ton chien ? = Is it your dog?
+- S7266 Oui, c'est mon chien. = Yes, it's my dog.
+- S7267 C'est ta pomme ? = Is it your apple?
+- S7268 Non, c'est sa pomme. = No, it's her apple.
+- S7269 Tes enfants sont ici ? = Are your children here?
+- S7270 Oui, mes enfants sont ici. = Yes, my children are here.
+- S7271 Ton ami mange ? = Is your friend eating?
+- S7272 Oui, mon ami mange un sandwich. = Yes, my friend is eating a sandwich.
 
-**U09 Questions** (13)
+**U09 Asking Questions** (10)
 
 - S7351 Qu'est-ce que tu manges ? = What are you eating?
-- S7352 Quel livre ? = Which book?
 - S7353 Quelle pomme ? = Which apple?
 - S7354 Quelle lettre est ici ? = Which letter is here?
 - S7355 Je mange du pain parce que j'aime le pain. = I'm eating bread because I like bread.
 - S7356 Il est ici parce que tu es ici. = He is here because you are here.
-- S7357 Où est le chat ? = Where is the cat? (QT09 question)
-- S7358 Le chat est ici. = The cat is here. (QT09 answer)
-- S7359 Qui est ici ? = Who is here? (QT09 question)
-- S7360 Paul est ici. = Paul is here. (QT09 answer)
-- S7361 Qu'est-ce que tu aimes ? = What do you like? (QT09 question)
-- S7363 Est-ce que tu as un chien ? = Do you have a dog? (QT09 question)
-- S7364 Oui, j'ai un chien. = Yes, I have a dog. (QT09 answer)
+- S7358 Le chat est ici. = The cat is here.
+- S7359 Qui est ici ? = Who is here?
+- S7360 Paul est ici. = Paul is here.
+- S7361 Qu'est-ce que tu aimes ? = What do you like?
+- S7364 Oui, j'ai un chien. = Yes, I have a dog.
 
-**U10 Numbers** (20)
+**U10 Counting to Ten** (13)
 
-- S7451 J'ai quatre chats. = I have four cats.
 - S7452 Il a quatre livres. = He has four books.
-- S7453 Elle a cinq livres. = She has five books.
-- S7454 Nous sommes cinq. = There are five of us. (QT09 answer)
-- S7455 J'ai six pommes. = I have six apples.
 - S7456 Elle a six oiseaux. = She has six birds.
-- S7457 Il a sept chats. = He has seven cats.
-- S7458 J'ai sept livres. = I have seven books. (QT09 answer)
+- S7458 J'ai sept livres. = I have seven books.
 - S7459 J'ai huit pommes. = I have eight apples.
-- S7460 Il a huit chiens. = He has eight dogs. (QT09 answer)
+- S7460 Il a huit chiens. = He has eight dogs.
 - S7461 Nous sommes huit. = There are eight of us.
 - S7462 J'ai neuf livres. = I have nine books.
 - S7463 Elle a neuf chats. = She has nine cats.
 - S7464 Nous sommes neuf. = There are nine of us.
-- S7465 J'ai dix pommes. = I have ten apples.
-- S7466 Il a dix oiseaux. = He has ten birds.
 - S7467 Nous sommes dix. = There are ten of us.
-- S7468 Tu as combien de chats ? = How many cats do you have? (QT09 question)
-- S7470 Il a combien de chiens ? = How many dogs does he have? (QT09 question)
-- S7472 Tu as combien de livres ? = How many books do you have? (QT09 question)
+- S7468 Tu as combien de chats ? = How many cats do you have?
+- S7470 Il a combien de chiens ? = How many dogs does he have?
+- S7472 Tu as combien de livres ? = How many books do you have?
 
-**U11 Colours** (23)
+**U11 Naming Colours** (19)
 
 - S7551 Le livre est vert. = The book is green.
 - S7552 J'ai un livre vert. = I have a green book.
-- S7553 La pomme est verte. = The apple is green.
-- S7554 C'est une pomme verte. = It's a green apple.
 - S7555 La tortue est verte. = The tortoise is green.
 - S7557 La souris est noire. = The mouse is black.
 - S7558 C'est une souris noire. = It's a black mouse.
@@ -372,21 +369,18 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S7561 J'ai une souris blanche. = I have a white mouse.
 - S7562 La lettre est bleue. = The letter is blue.
 - S7574 C'est une lettre bleue. = It's a blue letter.
-- S7563 C'est une pomme jaune. = It's a yellow apple.
-- S7564 Le canard est jaune. = The duck is yellow.
 - S7565 J'ai un livre bleu. = I have a blue book.
-- S7566 Le chat est noir ? = Is the cat black? (QT09 question)
-- S7567 Non, il est blanc. = No, it's white. (QT09 answer)
-- S7568 La pomme est rouge ? = Is the apple red? (QT09 question)
-- S7569 Non, elle est verte. = No, it's green. (QT09 answer)
-- S7570 Le livre est bleu ? = Is the book blue? (QT09 question)
-- S7571 Non, il est jaune. = No, it's yellow. (QT09 answer)
-- S7572 La souris est blanche ? = Is the mouse white? (QT09 question)
-- S7573 Oui, elle est blanche. = Yes, it's white. (QT09 answer)
+- S7566 Le chat est noir ? = Is the cat black?
+- S7567 Non, il est blanc. = No, it's white.
+- S7568 La pomme est rouge ? = Is the apple red?
+- S7569 Non, elle est verte. = No, it's green.
+- S7570 Le livre est bleu ? = Is the book blue?
+- S7571 Non, il est jaune. = No, it's yellow.
+- S7572 La souris est blanche ? = Is the mouse white?
+- S7573 Oui, elle est blanche. = Yes, it's white.
 
-**U12 Time** (22)
+**U12 Days and Times** (21)
 
-- S7651 Demain, c'est dimanche. = Tomorrow is Sunday.
 - S7652 Demain, je mange ici. = Tomorrow I'm eating here.
 - S7653 Paul est ici demain. = Paul is here tomorrow.
 - S7654 Je mange du pain le matin. = I eat bread in the morning.
@@ -400,49 +394,43 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S7664 Dimanche est un jour de la semaine. = Sunday is a day of the week.
 - S7662 Il est une heure. = It's one o'clock.
 - S7663 J'ai une heure. = I have an hour.
-- S7665 C'est lundi aujourd'hui ? = Is it Monday today? (QT09 question)
-- S7666 Non, aujourd'hui c'est dimanche. = No, today is Sunday. (QT09 answer)
-- S7667 Tu manges maintenant ? = Are you eating now? (QT09 question)
-- S7668 Oui, je mange maintenant. = Yes, I'm eating now. (QT09 answer)
-- S7669 Tu es ici demain ? = Are you here tomorrow? (QT09 question)
-- S7670 Oui, je suis ici demain. = Yes, I'm here tomorrow. (QT09 answer)
-- S7671 Tu manges le matin ? = Do you eat in the morning? (QT09 question)
-- S7672 Non, je mange le soir. = No, I eat in the evening. (QT09 answer)
+- S7665 C'est lundi aujourd'hui ? = Is it Monday today?
+- S7666 Non, aujourd'hui c'est dimanche. = No, today is Sunday.
+- S7667 Tu manges maintenant ? = Are you eating now?
+- S7668 Oui, je mange maintenant. = Yes, I'm eating now.
+- S7669 Tu es ici demain ? = Are you here tomorrow?
+- S7670 Oui, je suis ici demain. = Yes, I'm here tomorrow.
+- S7671 Tu manges le matin ? = Do you eat in the morning?
+- S7672 Non, je mange le soir. = No, I eat in the evening.
 
-**U13 Places** (15)
+**U13 Going Places** (14)
 
 - S7751 La ville est grande. = The town is big.
-- S7752 Je vais au magasin. = I'm going to the shop.
 - S7753 Le magasin est petit. = The shop is small.
 - S7754 Elle va au magasin. = She's going to the shop.
 - S7755 Le chat est dans le parc. = The cat is in the park.
 - S7756 Je suis dans le magasin. = I'm in the shop.
 - S7757 Le chien est dans le restaurant. = The dog is in the restaurant.
-- S7758 Tu vas au parc ? = Are you going to the park? (QT09 question)
-- S7759 Oui, je vais au parc. = Yes, I'm going to the park. (QT09 answer)
-- S7760 Où est-ce que tu vas ? = Where are you going? (QT09 question)
-- S7761 Je vais au restaurant. = I'm going to the restaurant. (QT09 answer)
-- S7762 Il va à l'école ? = Is he going to school? (QT09 question)
-- S7763 Oui, il va à l'école. = Yes, he's going to school. (QT09 answer)
-- S7764 Où est le magasin ? = Where is the shop? (QT09 question)
-- S7765 Le magasin est dans la ville. = The shop is in the town. (QT09 answer)
+- S7758 Tu vas au parc ? = Are you going to the park?
+- S7759 Oui, je vais au parc. = Yes, I'm going to the park.
+- S7760 Où est-ce que tu vas ? = Where are you going?
+- S7761 Je vais au restaurant. = I'm going to the restaurant.
+- S7762 Il va à l'école ? = Is he going to school?
+- S7763 Oui, il va à l'école. = Yes, he's going to school.
+- S7764 Où est le magasin ? = Where is the shop?
+- S7765 Le magasin est dans la ville. = The shop is in the town.
 
-**U102 Family** (12)
+**U102 Family Life** (7)
 
 - S6151 La mère et le père sont ici. = The mother and the father are here.
 - S6152 Voici le père. = Here is the father.
-- S6153 J'ai un fils. = I have a son.
-- S6154 Le fils est petit. = The son is small.
-- S6155 Le bébé est ici. = The baby is here.
 - S6156 Les parents sont ici. = The parents are here.
 - S6157 Voici les parents. = Here are the parents.
-- S6158 Voici la mère. = Here is the mother.
 - S6159 La mère est ici. = The mother is here.
 - S6160 Le père est ici. = The father is here.
 - S6161 Les parents et les enfants sont ici. = The parents and the children are here.
-- S6162 Voici le bébé. = Here is the baby.
 
-**U103 Home** (16)
+**U103 At Home** (15)
 
 - S6251 La chambre est petite. = The room is small.
 - S6252 Voici la chambre. = Here is the room.
@@ -453,7 +441,6 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S6257 La porte est petite. = The door is small.
 - S6258 Voici la porte. = Here is the door.
 - S6259 C'est une grande porte. = It's a big door.
-- S6260 La fenêtre est grande. = The window is big.
 - S6261 Voici la fenêtre. = Here is the window.
 - S6262 La table et la chaise sont ici. = The table and the chair are here.
 - S6263 Voici une chaise. = Here is a chair.
@@ -461,7 +448,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S6265 Voici la cuisine. = Here is the kitchen.
 - S6266 C'est une petite fenêtre. = It's a small window.
 
-**U104 Music** (7)
+**U104 Music and Songs** (7)
 
 - S6351 Il aime la musique. = He likes music.
 - S6352 J'aime la chanson. = I like the song.
@@ -471,9 +458,8 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S6356 J'aime la guitare. = I like the guitar.
 - S6357 Voici la chanson. = Here is the song.
 
-**U105 Coffee shop** (7)
+**U105 At the Café** (6)
 
-- S6451 J'aime le chocolat. = I like chocolate.
 - S6452 Une tasse de café, s'il vous plaît. = A cup of coffee, please.
 - S6453 Une tasse de thé, s'il te plaît. = A cup of tea, please.
 - S6454 La tasse est petite. = The cup is small.
@@ -481,22 +467,18 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S6456 Je mange un croissant. = I'm eating a croissant.
 - S6457 Le croissant est grand. = The croissant is big.
 
-**U106 Supermarket** (12)
+**U106 At the Supermarket** (8)
 
-- S6551 Je mange du poulet. = I'm eating chicken.
-- S6552 Je mange du riz. = I'm eating rice.
 - S6553 Du riz, s'il vous plaît. = Rice, please.
-- S6554 Je mange une banane. = I'm eating a banana.
 - S6555 C'est une tomate. = It's a tomato.
 - S6556 Je mange une tomate. = I'm eating a tomato.
-- S6557 J'ai un œuf. = I have an egg.
 - S6558 Voici un œuf. = Here is an egg.
 - S6559 J'aime les œufs. = I like eggs.
 - S6560 Du beurre, s'il vous plaît. = Butter, please.
 - S6561 J'aime le beurre. = I like butter.
 - S6562 Il mange une banane. = He's eating a banana.
 
-**U107 The beach** (9)
+**U107 At the Beach** (9)
 
 - S6651 Voici la plage. = Here is the beach.
 - S6652 La plage est grande. = The beach is big.

@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 766 (473 matched to Tatoeba, 293 Tamago originals), 71 off, 0 awaiting a ruling. Words with Wiktionary data: 227 of 227. French-to-English answers: 270 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 389.
+Sentences live: 766 (513 matched to Tatoeba, 253 Tamago originals), 71 off, 0 awaiting a ruling. Words with Wiktionary data: 227 of 227. French-to-English answers: 270 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 394.
 
 Unit 1 is approved and live.
 
@@ -34,7 +34,7 @@ Candidates use only Unit 1 words, have 6 words or fewer, have a linked English t
 | S6056 |  | Tu as du temps ?<br>Do you have time? | none |
 | S6057 |  | Il a du temps.<br>He has time. | none |
 
-## Tamago originals: native-speaker check needed before Phase 4 (293)
+## Tamago originals: native-speaker check needed before Phase 4 (253)
 
 Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 
@@ -96,9 +96,6 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S3113 |  | Pardon, Marie ! | Sorry, Marie! | tts |
 | S3114 |  | Pardon, c'est ici ? | Excuse me, is it here? | tts |
 | S3115 |  | Paul, s'il te plaît ! | Paul, please! | tts |
-| S3116 |  | Oui, s'il te plaît. | Yes, please. | tts |
-| S3117 |  | Bonsoir, Paul ! | Good evening, Paul! | tts |
-| S3118 |  | Bonne nuit, Marie. | Good night, Marie. | tts |
 | S3119 |  | De rien, Paul. | You're welcome, Paul. | tts |
 | S3120 |  | Au revoir, à bientôt ! | Goodbye, see you soon! | tts |
 | S4101 |  | Tu manges une pomme ? | Are you eating an apple? | tts |
@@ -109,8 +106,6 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S4106 |  | Non, je mange un sandwich. | No, I'm eating a sandwich. | tts |
 | S4107 |  | Tu aimes le lait ? | Do you like milk? | tts |
 | S4108 |  | Non, j'aime l'eau. | No, I like water. | tts |
-| S4109 |  | Il mange une orange. | He's eating an orange. | tts |
-| S4110 |  | Tu aimes le pain ? | Do you like bread? | tts |
 | S4111 |  | Elle mange un sandwich. | She's eating a sandwich. | tts |
 | S5101 |  | Tu as un chien ? | Do you have a dog? | tts |
 | S5102 |  | Oui, j'ai un petit chien. | Yes, I have a small dog. | tts |
@@ -125,9 +120,6 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S5111 |  | Le canard mange. | The duck is eating. | tts |
 | S6151 |  | La mère et le père sont ici. | The mother and the father are here. | tts |
 | S6152 |  | Voici le père. | Here is the father. | tts |
-| S6153 |  | J'ai un fils. | I have a son. | tts |
-| S6154 |  | Le fils est petit. | The son is small. | tts |
-| S6155 |  | Le bébé est ici. | The baby is here. | tts |
 | S6156 |  | Les parents sont ici. | The parents are here. | tts |
 | S6157 |  | Voici les parents. | Here are the parents. | tts |
 | S6251 |  | La chambre est petite. | The room is small. | tts |
@@ -139,7 +131,6 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S6257 |  | La porte est petite. | The door is small. | tts |
 | S6258 |  | Voici la porte. | Here is the door. | tts |
 | S6259 |  | C'est une grande porte. | It's a big door. | tts |
-| S6260 |  | La fenêtre est grande. | The window is big. | tts |
 | S6261 |  | Voici la fenêtre. | Here is the window. | tts |
 | S6262 |  | La table et la chaise sont ici. | The table and the chair are here. | tts |
 | S6263 |  | Voici une chaise. | Here is a chair. | tts |
@@ -152,20 +143,15 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S6354 |  | Le piano est grand. | The piano is big. | tts |
 | S6355 |  | Elle a une guitare. | She has a guitar. | tts |
 | S6356 |  | J'aime la guitare. | I like the guitar. | tts |
-| S6451 |  | J'aime le chocolat. | I like chocolate. | tts |
 | S6452 |  | Une tasse de café, s'il vous plaît. | A cup of coffee, please. | tts |
 | S6453 |  | Une tasse de thé, s'il te plaît. | A cup of tea, please. | tts |
 | S6454 |  | La tasse est petite. | The cup is small. | tts |
 | S6455 |  | Un croissant, s'il vous plaît. | A croissant, please. | tts |
 | S6456 |  | Je mange un croissant. | I'm eating a croissant. | tts |
 | S6457 |  | Le croissant est grand. | The croissant is big. | tts |
-| S6551 |  | Je mange du poulet. | I'm eating chicken. | tts |
-| S6552 |  | Je mange du riz. | I'm eating rice. | tts |
 | S6553 |  | Du riz, s'il vous plaît. | Rice, please. | tts |
-| S6554 |  | Je mange une banane. | I'm eating a banana. | tts |
 | S6555 |  | C'est une tomate. | It's a tomato. | tts |
 | S6556 |  | Je mange une tomate. | I'm eating a tomato. | tts |
-| S6557 |  | J'ai un œuf. | I have an egg. | tts |
 | S6558 |  | Voici un œuf. | Here is an egg. | tts |
 | S6559 |  | J'aime les œufs. | I like eggs. | tts |
 | S6560 |  | Du beurre, s'il vous plaît. | Butter, please. | tts |
@@ -179,28 +165,19 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S6657 |  | Le bateau est petit. | The boat is small. | tts |
 | S6659 |  | J'aime le sable. | I like the sand. | tts |
 | S6660 |  | Le sable est ici. | The sand is here. | tts |
-| S6158 |  | Voici la mère. | Here is the mother. | tts |
 | S6159 |  | La mère est ici. | The mother is here. | tts |
 | S6160 |  | Le père est ici. | The father is here. | tts |
 | S6161 |  | Les parents et les enfants sont ici. | The parents and the children are here. | tts |
-| S6162 |  | Voici le bébé. | Here is the baby. | tts |
 | S6357 |  | Voici la chanson. | Here is the song. | tts |
 | S6562 |  | Il mange une banane. | He's eating a banana. | tts |
-| S7051 |  | J'ai des livres. | I have books. | tts |
 | S7052 |  | Les livres sont ici. | The books are here. | tts |
 | S7053 |  | Voici les livres. | Here are the books. | tts |
 | S7054 |  | J'ai des lettres. | I have letters. | tts |
 | S7055 |  | Les lettres sont ici. | The letters are here. | tts |
 | S7056 |  | Voici des lettres. | Here are some letters. | tts |
-| S7057 |  | Voici les chats. | Here are the cats. | tts |
-| S7058 |  | Il mange des pommes. | He's eating apples. | tts |
-| S7059 |  | J'aime les pommes. | I like apples. | tts |
 | S7060 |  | Voici des pommes. | Here are some apples. | tts |
 | S7061 |  | J'ai des oiseaux. | I have birds. | tts |
-| S7062 |  | Les oiseaux sont ici. | The birds are here. | tts |
 | S7063 |  | J'aime les oiseaux. | I like birds. | tts |
-| S7064 |  | Voici les chevaux. | Here are the horses. | tts |
-| S7065 |  | J'aime les chevaux. | I like horses. | tts |
 | S7066 |  | Vous êtes des enfants ? | Are you children? | tts |
 | S7067 |  | Non, nous sommes des hommes. | No, we are men. | tts |
 | S7068 |  | Tu as des chats ? | Do you have cats? | tts |
@@ -210,7 +187,6 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S7072 |  | Tu manges des pommes ? | Are you eating apples? | tts |
 | S7073 |  | Non, je mange du pain. | No, I'm eating bread. | tts |
 | S7153 |  | Il est très vieux. | He is very old. | tts |
-| S7154 |  | C'est une vieille lettre. | It's an old letter. | tts |
 | S7155 |  | Le pain est bon ? | Is the bread good? | tts |
 | S7156 |  | Oui, le pain est très bon. | Yes, the bread is very good. | tts |
 | S7157 |  | Elle est gentille ? | Is she nice? | tts |
@@ -241,25 +217,17 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S7271 |  | Ton ami mange ? | Is your friend eating? | tts |
 | S7272 |  | Oui, mon ami mange un sandwich. | Yes, my friend is eating a sandwich. | tts |
 | S7351 |  | Qu'est-ce que tu manges ? | What are you eating? | tts |
-| S7352 |  | Quel livre ? | Which book? | tts |
 | S7353 |  | Quelle pomme ? | Which apple? | tts |
 | S7354 |  | Quelle lettre est ici ? | Which letter is here? | tts |
 | S7355 |  | Je mange du pain parce que j'aime le pain. | I'm eating bread because I like bread. | tts |
 | S7356 |  | Il est ici parce que tu es ici. | He is here because you are here. | tts |
-| S7357 |  | Où est le chat ? | Where is the cat? | tts |
 | S7358 |  | Le chat est ici. | The cat is here. | tts |
 | S7359 |  | Qui est ici ? | Who is here? | tts |
 | S7360 |  | Paul est ici. | Paul is here. | tts |
 | S7361 |  | Qu'est-ce que tu aimes ? | What do you like? | tts |
-| S7363 |  | Est-ce que tu as un chien ? | Do you have a dog? | tts |
 | S7364 |  | Oui, j'ai un chien. | Yes, I have a dog. | tts |
-| S7451 |  | J'ai quatre chats. | I have four cats. | tts |
 | S7452 |  | Il a quatre livres. | He has four books. | tts |
-| S7453 |  | Elle a cinq livres. | She has five books. | tts |
-| S7454 |  | Nous sommes cinq. | There are five of us. | tts |
-| S7455 |  | J'ai six pommes. | I have six apples. | tts |
 | S7456 |  | Elle a six oiseaux. | She has six birds. | tts |
-| S7457 |  | Il a sept chats. | He has seven cats. | tts |
 | S7458 |  | J'ai sept livres. | I have seven books. | tts |
 | S7459 |  | J'ai huit pommes. | I have eight apples. | tts |
 | S7460 |  | Il a huit chiens. | He has eight dogs. | tts |
@@ -267,16 +235,12 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S7462 |  | J'ai neuf livres. | I have nine books. | tts |
 | S7463 |  | Elle a neuf chats. | She has nine cats. | tts |
 | S7464 |  | Nous sommes neuf. | There are nine of us. | tts |
-| S7465 |  | J'ai dix pommes. | I have ten apples. | tts |
-| S7466 |  | Il a dix oiseaux. | He has ten birds. | tts |
 | S7467 |  | Nous sommes dix. | There are ten of us. | tts |
 | S7468 |  | Tu as combien de chats ? | How many cats do you have? | tts |
 | S7470 |  | Il a combien de chiens ? | How many dogs does he have? | tts |
 | S7472 |  | Tu as combien de livres ? | How many books do you have? | tts |
 | S7551 |  | Le livre est vert. | The book is green. | tts |
 | S7552 |  | J'ai un livre vert. | I have a green book. | tts |
-| S7553 |  | La pomme est verte. | The apple is green. | tts |
-| S7554 |  | C'est une pomme verte. | It's a green apple. | tts |
 | S7555 |  | La tortue est verte. | The tortoise is green. | tts |
 | S7557 |  | La souris est noire. | The mouse is black. | tts |
 | S7558 |  | C'est une souris noire. | It's a black mouse. | tts |
@@ -285,8 +249,6 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S7561 |  | J'ai une souris blanche. | I have a white mouse. | tts |
 | S7562 |  | La lettre est bleue. | The letter is blue. | tts |
 | S7574 |  | C'est une lettre bleue. | It's a blue letter. | tts |
-| S7563 |  | C'est une pomme jaune. | It's a yellow apple. | tts |
-| S7564 |  | Le canard est jaune. | The duck is yellow. | tts |
 | S7565 |  | J'ai un livre bleu. | I have a blue book. | tts |
 | S7566 |  | Le chat est noir ? | Is the cat black? | tts |
 | S7567 |  | Non, il est blanc. | No, it's white. | tts |
@@ -296,7 +258,6 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S7571 |  | Non, il est jaune. | No, it's yellow. | tts |
 | S7572 |  | La souris est blanche ? | Is the mouse white? | tts |
 | S7573 |  | Oui, elle est blanche. | Yes, it's white. | tts |
-| S7651 |  | Demain, c'est dimanche. | Tomorrow is Sunday. | tts |
 | S7652 |  | Demain, je mange ici. | Tomorrow I'm eating here. | tts |
 | S7653 |  | Paul est ici demain. | Paul is here tomorrow. | tts |
 | S7654 |  | Je mange du pain le matin. | I eat bread in the morning. | tts |
@@ -319,7 +280,6 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S7671 |  | Tu manges le matin ? | Do you eat in the morning? | tts |
 | S7672 |  | Non, je mange le soir. | No, I eat in the evening. | tts |
 | S7751 |  | La ville est grande. | The town is big. | tts |
-| S7752 |  | Je vais au magasin. | I'm going to the shop. | tts |
 | S7753 |  | Le magasin est petit. | The shop is small. | tts |
 | S7754 |  | Elle va au magasin. | She's going to the shop. | tts |
 | S7755 |  | Le chat est dans le parc. | The cat is in the park. | tts |
@@ -568,7 +528,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W605 | pleut | pleuvoir | Verb |  | third-person singular present indicative of pleuvoir (pleuvoir: to rain) | checked |
 | W606 | fait | faire | Verb |  | third-person singular present indicative of faire (faire: to do) | checked |
 
-## Matched to Tatoeba (473)
+## Matched to Tatoeba (513)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -710,6 +670,11 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S5028 | Tu aimes les animaux. | You like animals. | [#11821330](https://tatoeba.org/en/sentences/show/11821330) | calypsow |  |  | tts |
 | S5029 | Le garçon a un journal. | The boy has a newspaper. | [#879599](https://tatoeba.org/en/sentences/show/879599) | alexmarcelo |  |  | tts |
 | S5030 | Le chien mange une pomme. | The dog is eating an apple. | [#5249691](https://tatoeba.org/en/sentences/show/5249691) | martin9 |  |  | tts |
+| S3116 | Oui, s'il te plaît. | Yes, please. | [#815578](https://tatoeba.org/en/sentences/show/815578) | GeeZ | confirm |  | tts |
+| S3117 | Bonsoir, ça va ? | Good evening, how are you? | [#582788](https://tatoeba.org/en/sentences/show/582788) | adynee | confirm |  | tts |
+| S3118 | Au revoir et bonne nuit. | Goodbye and good night. | [#11136891](https://tatoeba.org/en/sentences/show/11136891) | carlosalberto | confirm |  | tts |
+| S4109 | Je mange une orange. | I'm eating an orange. | [#12517404](https://tatoeba.org/en/sentences/show/12517404) | Polyglot01 | confirm |  | tts |
+| S4110 | Tu aimes le pain. | You like bread. | [#13742182](https://tatoeba.org/en/sentences/show/13742182) | mervert1 | confirm |  | tts |
 | S5112 | La souris est grande. | The mouse is big. | [#13801590](https://tatoeba.org/en/sentences/show/13801590) | Rovo |  |  | tts |
 | S6002 | C'est de la neige ? | Is that snow? | [#8701632](https://tatoeba.org/en/sentences/show/8701632) | Micsmithel |  |  | tts |
 | S6004 | C'est froid. | It's cold. | [#2209457](https://tatoeba.org/en/sentences/show/2209457) | Sisyphe |  |  | tts |
@@ -779,7 +744,18 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S6604 | Mange le poisson. | Eat the fish. | [#11837554](https://tatoeba.org/en/sentences/show/11837554) | Amastan |  |  | tts |
 | S6605 | J'aime la plage. | I like the beach. | [#3642529](https://tatoeba.org/en/sentences/show/3642529) | sacredceltic |  |  | tts |
 | S6606 | Le grand poisson mange le petit. | The big fish eats the small one. | [#6116662](https://tatoeba.org/en/sentences/show/6116662) | christian63 |  |  | tts |
+| S6153 | J'ai un fils. | I have a son. | [#3574508](https://tatoeba.org/en/sentences/show/3574508) | Lebensfreude | confirm |  | tts |
+| S6154 | Elle a un fils. | She has a son. | [#3550112](https://tatoeba.org/en/sentences/show/3550112) | maydoo | confirm |  | tts |
+| S6155 | Oui, j'ai un bébé. | Yes, I have a baby. | [#12886109](https://tatoeba.org/en/sentences/show/12886109) | IronBeagle | confirm |  | tts |
+| S6260 | C'est une fenêtre. | This is a window. | [#7694986](https://tatoeba.org/en/sentences/show/7694986) | Adelpa | confirm |  | tts |
+| S6451 | J'aime le chocolat. | I like chocolate. | [#379728](https://tatoeba.org/en/sentences/show/379728) | Pharamp | confirm |  | tts |
+| S6551 | J'aime le poulet. | I love chicken. | [#709401](https://tatoeba.org/en/sentences/show/709401) | Scott | confirm |  | tts |
+| S6552 | Je mange du riz. | I am eating rice. | [#334465](https://tatoeba.org/en/sentences/show/334465) | guyviet | confirm |  | tts |
+| S6554 | Je mange une banane. | I eat a banana. | [#1144791](https://tatoeba.org/en/sentences/show/1144791) | Wittydev | confirm |  | tts |
+| S6557 | J'ai un œuf. | I have an egg. | [#791164](https://tatoeba.org/en/sentences/show/791164) | gamma | confirm |  | tts |
 | S6658 | C'est un grand bateau. | It's a big boat. | [#8693082](https://tatoeba.org/en/sentences/show/8693082) | felix63 |  |  | tts |
+| S6158 | Je suis une mère. | I am a mother. | [#13325034](https://tatoeba.org/en/sentences/show/13325034) | Adelpa | confirm |  | tts |
+| S6162 | Le bébé est une fille. | The baby is a girl. | [#11143027](https://tatoeba.org/en/sentences/show/11143027) | carlosalberto | confirm |  | tts |
 | S7001 | Nous sommes des garçons. | We're boys. | [#6465654](https://tatoeba.org/en/sentences/show/6465654) | Aiji |  |  | tts |
 | S7002 | Nous sommes des femmes. | We are women. | [#8260328](https://tatoeba.org/en/sentences/show/8260328) | nimfeo |  |  | tts |
 | S7003 | Les chevaux sont des animaux. | Horses are animals. | [#129862](https://tatoeba.org/en/sentences/show/129862) | TRANG |  |  | tts |
@@ -961,9 +937,33 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S7723 | À demain, à l'école. | See you tomorrow at school. | [#15717](https://tatoeba.org/en/sentences/show/15717) | nimfeo |  |  | tts |
 | S7726 | À demain. | Until tomorrow. | [#497414](https://tatoeba.org/en/sentences/show/497414) | Bruno |  |  | lingua_libre |
 | S7727 | À dimanche ! | See you on Sunday! | [#1143422](https://tatoeba.org/en/sentences/show/1143422) | sacredceltic |  |  | tts |
+| S7051 | J'ai des livres. | I have some books. | [#8916910](https://tatoeba.org/en/sentences/show/8916910) | carlosalberto | confirm |  | tts |
+| S7057 | Il aime les chats. | He loves cats. | [#3718993](https://tatoeba.org/en/sentences/show/3718993) | maydoo | confirm |  | tts |
+| S7058 | Tu as des pommes ? | Have you got any apples? | [#5455879](https://tatoeba.org/en/sentences/show/5455879) | Amgaray | confirm |  | tts |
+| S7059 | J'aime les pommes. | I like apples. | [#430604](https://tatoeba.org/en/sentences/show/430604) | Clavain | confirm |  | tts |
+| S7062 | L'enfant aime les oiseaux. | The child loves the birds. | [#11150541](https://tatoeba.org/en/sentences/show/11150541) | carlosalberto | confirm |  | tts |
+| S7064 | Marie aime les chevaux. | Mary likes horses. | [#8247741](https://tatoeba.org/en/sentences/show/8247741) | Adelpa | confirm |  | tts |
+| S7065 | J'aime les chevaux. | I like horses. | [#1331060](https://tatoeba.org/en/sentences/show/1331060) | Kirschen112 | confirm |  | tts |
 | S7151 | Il est vieux. | He is old. | [#821565](https://tatoeba.org/en/sentences/show/821565) | sacredceltic |  |  | tts |
 | S7152 | C'est un vieux livre. | It's an old book. | [#5730114](https://tatoeba.org/en/sentences/show/5730114) | Aiji |  |  | tts |
+| S7154 | Je suis vieille. | I'm old. | [#1924565](https://tatoeba.org/en/sentences/show/1924565) | Zaghawa | confirm |  | tts |
 | S7254 | Mes chats sont mes enfants. | My cats are my children. | [#10091044](https://tatoeba.org/en/sentences/show/10091044) | Rovo |  |  | tts |
+| S7352 | Quel homme ? | Which man? | [#9520535](https://tatoeba.org/en/sentences/show/9520535) | Rafik | confirm |  | tts |
+| S7357 | Où est le chat ? | Where is the cat? | [#3657349](https://tatoeba.org/en/sentences/show/3657349) | Hikari | confirm |  | tts |
+| S7363 | Est-ce que tu as un chien ? | Do you have a dog? | [#1195272](https://tatoeba.org/en/sentences/show/1195272) | alexmarcelo | confirm |  | tts |
+| S7451 | Tu as quatre chiens. | You have four dogs. | [#558667](https://tatoeba.org/en/sentences/show/558667) | Shishir | confirm |  | tts |
+| S7453 | J'ai cinq enfants. | I have five children. | [#11160982](https://tatoeba.org/en/sentences/show/11160982) | carlosalberto | confirm |  | tts |
+| S7454 | Nous sommes cinq. | There are five of us. | [#13035174](https://tatoeba.org/en/sentences/show/13035174) | glossboss | confirm |  | tts |
+| S7455 | Elle a un chien et six chats. | She has a dog and six cats. | [#876688](https://tatoeba.org/en/sentences/show/876688) | Scott | confirm |  | tts |
+| S7457 | Tu as sept enfants. | You have seven children. | [#3675217](https://tatoeba.org/en/sentences/show/3675217) | Juba | confirm |  | tts |
+| S7465 | Il a dix enfants. | He has ten children. | [#1343948](https://tatoeba.org/en/sentences/show/1343948) | Eldad | confirm |  | tts |
+| S7466 | Elle a dix enfants. | She has ten children. | [#354787](https://tatoeba.org/en/sentences/show/354787) | bourdu | confirm |  | tts |
+| S7553 | La pomme est verte. | The apple is green. | [#8743878](https://tatoeba.org/en/sentences/show/8743878) | Adelpa | confirm |  | tts |
+| S7554 | J'ai une pomme verte. | I have a green apple. | [#11990046](https://tatoeba.org/en/sentences/show/11990046) | carlosalberto | confirm |  | tts |
+| S7563 | C'est une pomme jaune. | It's a yellow apple. | [#10252999](https://tatoeba.org/en/sentences/show/10252999) | carlosalberto | confirm |  | tts |
+| S7564 | Le fromage est jaune. | The cheese is yellow. | [#11600478](https://tatoeba.org/en/sentences/show/11600478) | carlosalberto | confirm |  | tts |
+| S7651 | Demain, c'est dimanche. | Tomorrow is Sunday. | [#1344152](https://tatoeba.org/en/sentences/show/1344152) | rene1596 | confirm |  | tts |
+| S7752 | Je vais au magasin. | I am going to the store. | [#1049664](https://tatoeba.org/en/sentences/show/1049664) | jeo | confirm |  | tts |
 | S8001 | Je travaille dans un bureau. | I work in an office. | [#11145672](https://tatoeba.org/en/sentences/show/11145672) | lbdx |  |  | tts |
 | S8002 | L'homme travaille dans son bureau. | The man works in his office. | [#8450931](https://tatoeba.org/en/sentences/show/8450931) | felix63 |  |  | tts |
 | S8003 | C'est ton stylo ? | Is that your pen? | [#428885](https://tatoeba.org/en/sentences/show/428885) | Archibald |  |  | tts |
@@ -1126,7 +1126,7 @@ Set to off by the workbook owner. Not shipped.
 | S7729 | À elle. | It's her turn. | pulled from Tatoeba under content_pull |
 | S7730 | À trois ! | On the count of three! | pulled from Tatoeba under content_pull |
 
-## English-to-French answers generated from Tatoeba (389)
+## English-to-French answers generated from Tatoeba (394)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -1218,6 +1218,9 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S3026 | You're a child. | Tu es un enfant. | [#7763129](https://tatoeba.org/en/sentences/show/7763129) | sacredceltic |
 | S3026 | You're a child. | Tu es une enfant. | [#7763128](https://tatoeba.org/en/sentences/show/7763128) | sacredceltic |
 | S3026 | You're a child. | Vous êtes une enfant. | [#7763126](https://tatoeba.org/en/sentences/show/7763126) | sacredceltic |
+| S3117 | Good evening, how are you? | Bonsoir ! Comment ça va ? | [#1114536](https://tatoeba.org/en/sentences/show/1114536) | sacredceltic |
+| S3117 | Good evening, how are you? | Bonsoir ! Comment vas-tu ? | [#1114537](https://tatoeba.org/en/sentences/show/1114537) | sacredceltic |
+| S3117 | Good evening, how are you? | Bonsoir, comment allez-vous ? | [#5958](https://tatoeba.org/en/sentences/show/5958) | TRANG |
 | S4011 | Water, please. | De l'eau, je vous prie. | [#1922564](https://tatoeba.org/en/sentences/show/1922564) | nimfeo |
 | S4019 | I like it. | Ça me plaît. | [#3256256](https://tatoeba.org/en/sentences/show/3256256) | Micsmithel |
 | S4019 | I like it. | J'aime ça. | [#3633553](https://tatoeba.org/en/sentences/show/3633553) | sacredceltic |
@@ -1264,7 +1267,7 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S6509 | Eat meat. | Mangez de la viande. | [#8984236](https://tatoeba.org/en/sentences/show/8984236) | Micsmithel |
 | S6510 | He's eating an egg. | Il est en train de manger un œuf. | [#12533487](https://tatoeba.org/en/sentences/show/12533487) | Rovo |
 | S6511 | You have meat. | Vous avez de la viande. | [#12379717](https://tatoeba.org/en/sentences/show/12379717) | felix63 |
-| S6552 | I'm eating rice. | Je suis en train de manger du riz. | [#1074048](https://tatoeba.org/en/sentences/show/1074048) | sysko |
+| S6552 | I am eating rice. | Je suis en train de manger du riz. | [#1074048](https://tatoeba.org/en/sentences/show/1074048) | sysko |
 | S6559 | I like eggs. | J'aime bien les œufs. | [#12275735](https://tatoeba.org/en/sentences/show/12275735) | Rovo |
 | S6601 | Is that fish? | Est-ce que c'est du poisson ? | [#8659326](https://tatoeba.org/en/sentences/show/8659326) | Micsmithel |
 | S6604 | Eat the fish. | Mange les poissons. | [#11837556](https://tatoeba.org/en/sentences/show/11837556) | Amastan |
@@ -1282,6 +1285,7 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S7024 | I'm a little child. | Je suis une petite enfant. | [#1967686](https://tatoeba.org/en/sentences/show/1967686) | sacredceltic |
 | S7025 | She likes girls. | Elle aime les filles. | [#3308709](https://tatoeba.org/en/sentences/show/3308709) | GB3 |
 | S7025 | She likes girls. | Elle apprécie les filles. | [#3634518](https://tatoeba.org/en/sentences/show/3634518) | sacredceltic |
+| S7058 | Have you got any apples? | Avez-vous des pommes ? | [#7498965](https://tatoeba.org/en/sentences/show/7498965) | Micsmithel |
 | S7102 | Very good. | Très bien ! | [#1951925](https://tatoeba.org/en/sentences/show/1951925) | Amastan |
 | S7102 | Very good. | Très bonne. | [#9025668](https://tatoeba.org/en/sentences/show/9025668) | Micsmithel |
 | S7103 | Very good. | Très bien ! | [#1951925](https://tatoeba.org/en/sentences/show/1951925) | Amastan |
@@ -1458,6 +1462,7 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S7720 | I am fine, and you? | Je suis bien, et toi ? | [#872224](https://tatoeba.org/en/sentences/show/872224) | japegon |
 | S7720 | I am fine, and you? | Je vais bien. Et toi ? | [#7498138](https://tatoeba.org/en/sentences/show/7498138) | tras |
 | S7722 | I'm fine, thank you. And you? | Je vais bien, merci. Et toi ? | [#1814956](https://tatoeba.org/en/sentences/show/1814956) | Julien_PDC |
+| S7752 | I am going to the store. | Je vais à la supérette. | [#7437934](https://tatoeba.org/en/sentences/show/7437934) | Aiji |
 | S7760 | Where are you going? | Où te rends-tu ? | [#1833023](https://tatoeba.org/en/sentences/show/1833023) | sacredceltic |
 | S7760 | Where are you going? | Où vas-tu ? | [#3991](https://tatoeba.org/en/sentences/show/3991) | zmoo |
 | S7760 | Where are you going? | Où vous rendez-vous ? | [#1833025](https://tatoeba.org/en/sentences/show/1833025) | sacredceltic |

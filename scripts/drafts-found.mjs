@@ -6,8 +6,11 @@ import { at } from './lib/course.mjs'
 const path = at('content/drafts.json')
 const drafts = JSON.parse(readFileSync(path, 'utf8'))
 const checks = new Map(JSON.parse(readFileSync(at('content/checks/sentences.json'), 'utf8')).map((s) => [s.sentence_id, s]))
+// A draft the workbook already holds (all of French's) is the workbook's row, not this file's: leave it.
+const inBook = new Set(JSON.parse(readFileSync(at('content/raw/sentences.json'), 'utf8')).filter((s) => s.origin === 'workbook').map((s) => s.sentence_id))
 let n = 0
 for (const d of drafts.sentences) {
+  if (inBook.has(d.sentence_id)) continue
   const c = checks.get(d.sentence_id)
   if (d.source === 'tatoeba' || c?.source !== 'tatoeba' || !c.source_id) continue
   Object.assign(d, { source: 'tatoeba', source_id: c.source_id, source_owner: c.source_owner, notes: `${d.notes ?? ''}; drafted, then found on Tatoeba from a checked owner`.replace(/^; /, '') })

@@ -101,6 +101,246 @@
     "S0040": {
       "action": "keep",
       "french": "Tu es un homme ?"
+    },
+    "S3116": {
+      "action": "confirm",
+      "french": "Oui, s'il te plaît.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner GeeZ has no native or OK signal"
+    },
+    "S3117": {
+      "action": "confirm",
+      "french": "Bonsoir, ça va ?",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner adynee has no native or OK signal"
+    },
+    "S3118": {
+      "action": "confirm",
+      "french": "Au revoir et bonne nuit.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S4109": {
+      "action": "confirm",
+      "french": "Je mange une orange.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Polyglot01 has no native or OK signal"
+    },
+    "S4110": {
+      "action": "confirm",
+      "french": "Tu aimes le pain.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner mervert1 has no native or OK signal"
+    },
+    "S7051": {
+      "action": "confirm",
+      "french": "J'ai des livres.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S7057": {
+      "action": "confirm",
+      "french": "Il aime les chats.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner maydoo has no native or OK signal"
+    },
+    "S7058": {
+      "action": "confirm",
+      "french": "Tu as des pommes ?",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Amgaray has no native or OK signal"
+    },
+    "S7059": {
+      "action": "confirm",
+      "french": "J'aime les pommes.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Clavain has no native or OK signal"
+    },
+    "S7062": {
+      "action": "confirm",
+      "french": "L'enfant aime les oiseaux.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S7064": {
+      "action": "confirm",
+      "french": "Marie aime les chevaux.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Adelpa has no native or OK signal"
+    },
+    "S7065": {
+      "action": "confirm",
+      "french": "J'aime les chevaux.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Kirschen112 has no native or OK signal"
+    },
+    "S7154": {
+      "action": "confirm",
+      "french": "Je suis vieille.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Zaghawa has no native or OK signal"
+    },
+    "S7352": {
+      "action": "confirm",
+      "french": "Quel homme ?",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Rafik has no native or OK signal"
+    },
+    "S7357": {
+      "action": "confirm",
+      "french": "Où est le chat ?",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Hikari has no native or OK signal"
+    },
+    "S7363": {
+      "action": "confirm",
+      "french": "Est-ce que tu as un chien ?",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner alexmarcelo has no native or OK signal"
+    },
+    "S7451": {
+      "action": "confirm",
+      "french": "Tu as quatre chiens.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Shishir has no native or OK signal"
+    },
+    "S7453": {
+      "action": "confirm",
+      "french": "J'ai cinq enfants.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S7454": {
+      "action": "confirm",
+      "french": "Nous sommes cinq.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner glossboss has no native or OK signal"
+    },
+    "S7455": {
+      "action": "confirm",
+      "french": "Elle a un chien et six chats.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Scott has no native or OK signal"
+    },
+    "S7457": {
+      "action": "confirm",
+      "french": "Tu as sept enfants.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Juba has no native or OK signal"
+    },
+    "S7465": {
+      "action": "confirm",
+      "french": "Il a dix enfants.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Eldad has no native or OK signal"
+    },
+    "S7466": {
+      "action": "confirm",
+      "french": "Elle a dix enfants.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner bourdu has no native or OK signal"
+    },
+    "S7553": {
+      "action": "confirm",
+      "french": "La pomme est verte.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Adelpa has no native or OK signal"
+    },
+    "S7554": {
+      "action": "confirm",
+      "french": "J'ai une pomme verte.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S7563": {
+      "action": "confirm",
+      "french": "C'est une pomme jaune.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S7564": {
+      "action": "confirm",
+      "french": "Le fromage est jaune.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S7651": {
+      "action": "confirm",
+      "french": "Demain, c'est dimanche.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner rene1596 has no native or OK signal"
+    },
+    "S7752": {
+      "action": "confirm",
+      "french": "Je vais au magasin.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner jeo has no native or OK signal"
+    },
+    "S6153": {
+      "action": "confirm",
+      "french": "J'ai un fils.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Lebensfreude has no native or OK signal"
+    },
+    "S6154": {
+      "action": "confirm",
+      "french": "Elle a un fils.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner maydoo has no native or OK signal"
+    },
+    "S6155": {
+      "action": "confirm",
+      "french": "Oui, j'ai un bébé.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner IronBeagle has no native or OK signal"
+    },
+    "S6158": {
+      "action": "confirm",
+      "french": "Je suis une mère.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Adelpa has no native or OK signal"
+    },
+    "S6162": {
+      "action": "confirm",
+      "french": "Le bébé est une fille.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S6260": {
+      "action": "confirm",
+      "french": "C'est une fenêtre.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Adelpa has no native or OK signal"
+    },
+    "S6451": {
+      "action": "confirm",
+      "french": "J'aime le chocolat.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Pharamp has no native or OK signal"
+    },
+    "S6551": {
+      "action": "confirm",
+      "french": "J'aime le poulet.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Scott has no native or OK signal"
+    },
+    "S6552": {
+      "action": "confirm",
+      "french": "Je mange du riz.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner guyviet has no native or OK signal"
+    },
+    "S6554": {
+      "action": "confirm",
+      "french": "Je mange une banane.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Wittydev has no native or OK signal"
+    },
+    "S6557": {
+      "action": "confirm",
+      "french": "J'ai un œuf.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner gamma has no native or OK signal"
     }
   },
   "accepted_answers": {
