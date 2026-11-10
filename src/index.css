@@ -16,6 +16,10 @@
   --logo-orange: #e8590c;
   --right: #1b7a43;
   --wrong: #b3261e;
+  /* The tree's circles (2026-11-10): the ring's one accent, and a warm off-white disc behind the sushi in both themes,
+     so the soft white edges of the art never show on dark. */
+  --ring: #0b7a43;
+  --disc: #f6efe0;
   --focus: #1c1a17; /* the ink, so the ring is the app's own, not the browser's blue (craft review 2026-11-10) */
   --field: #979287;
 }
@@ -38,6 +42,7 @@
     --wrong: #ff8a80;
     --focus: #8ab4ff;
     --field: #6a6660;
+    --ring: #22b573;
   }
 }
 
@@ -58,6 +63,7 @@
   --wrong: #ff8a80;
   --focus: #8ab4ff;
   --field: #6a6660;
+  --ring: #22b573;
 }
 
 @theme inline {
@@ -74,6 +80,8 @@
   --color-orange: var(--orange);
   --color-right: var(--right);
   --color-wrong: var(--wrong);
+  --color-ring: var(--ring);
+  --color-disc: var(--disc);
 }
 
 body {

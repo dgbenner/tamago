@@ -1,0 +1,66 @@
+import { IconLock } from './icons.jsx'
+
+// The new tree circle (Dan, 2026-11-10; in the lab at /lab.html, not on the live tree yet). The learner sees a circle
+// and its lessons, named by its title: no unit numbers, no rounds, no segments. The five rounds still run underneath;
+// the ring simply fills across all of a circle's lessons, whatever their number. One accent colour (--ring) for the
+// fill and the first-use marker.
+// Every circle has a warm off-white disc inside the ring (--disc, the same in light and dark), so the soft white edges
+// of the sushi art never show on dark; a locked circle keeps the disc faint, with the lock on it. The sushi images are
+// trimmed and scaled to the same visible area (scripts/make-icons.mjs), so every piece looks the same size.
+//   locked       gray, with a lock
+//   in progress  the ring fills, lessonsDone of lessonsTotal
+//   finished     a full ring; as recall drops the ring fades (faint below about 80%)
+const R = 45
+const LEN = 2 * Math.PI * R
+
+// How strong a finished ring looks for a recall from 0 to 1: full at 90% and above, faint (0.25) at 50% and below.
+export const ringOpacity = (recall) => (recall == null ? 1 : Math.min(1, Math.max(0.25, 0.25 + ((recall - 0.5) / 0.4) * 0.75)))
+
+// The first-use marker, on the very first circle only (Dan, 2026-11-10): "Start Here" before any lesson, "Your
+// Progress" once after the first lesson (so the filling ring is pointed out), then never again.
+export const MARKERS = { start: 'Start Here', progress: 'Your Progress' }
+export const firstCircleMarker = (lessonsDone) => (lessonsDone === 0 ? 'start' : lessonsDone === 1 ? 'progress' : null)
+
+export function circleState({ locked, lessonsDone, lessonsTotal }) {
+  if (locked) return 'locked'
+  return lessonsDone >= lessonsTotal ? 'finished' : 'in progress'
+}
+
+// A short description for screen readers and for the line under a live circle.
+export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
+  if (locked) return 'Locked'
+  if (lessonsDone >= lessonsTotal) return recall == null ? 'Finished' : `Finished · Recall ${Math.round(recall * 100)}%`
+  const parts = [lessonsDone === 0 ? 'Not started' : `Lesson ${lessonsDone + 1} of ${lessonsTotal}`]
+  if (lessonsDone > 0 && recall != null) parts.push(`Recall ${Math.round(recall * 100)}%`)
+  return parts.join(' · ')
+}
+
+export default function CircleNode({ title, icon, glyph = null, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick }) {
+  const state = circleState({ locked, lessonsDone, lessonsTotal })
+  const share = state === 'locked' ? 0 : Math.min(1, lessonsDone / lessonsTotal)
+  const opacity = state === 'finished' ? ringOpacity(recall) : 1
+  return (
+    <button onClick={onPick} aria-label={`${title}. ${circleLine({ locked, lessonsDone, lessonsTotal, recall })}${marker ? `. ${MARKERS[marker]}` : ''}`}
+      className="flex w-32 flex-col items-center gap-1.5" data-state={state}>
+      {/* The marker sits above the circle and keeps its space on every circle, so rows line up. */}
+      <span className={`flex h-5 items-center gap-1 text-xs font-semibold text-ring ${marker ? '' : 'invisible'}`} aria-hidden="true">
+        <span className="size-2 rounded-full bg-ring" />{MARKERS[marker] ?? MARKERS.start}
+      </span>
+      <span className="relative flex size-24 items-center justify-center rounded-full">
+        <svg viewBox="0 0 100 100" className="absolute inset-0 size-full -rotate-90" aria-hidden="true">
+          <circle cx="50" cy="50" r="40" fill="var(--disc)" fillOpacity={state === 'locked' ? 0.3 : 1} />
+          <circle cx="50" cy="50" r={R} fill="none" strokeWidth="6" stroke="var(--line)" />
+          {share > 0 && (
+            <circle cx="50" cy="50" r={R} fill="none" strokeWidth="6" strokeLinecap="round" stroke="var(--ring)" strokeOpacity={opacity}
+              strokeDasharray={`${share * LEN} ${LEN}`} />
+          )}
+        </svg>
+        {state === 'locked'
+          ? <span className="relative text-muted [&_svg]:size-8"><IconLock /></span>
+          : glyph ? <span className="relative text-4xl font-semibold text-[#645e53]">{glyph}</span>
+            : icon ? <img src={icon} alt="" className="relative size-[4.25rem] object-contain" /> : null}
+      </span>
+      <span className={`text-base leading-tight font-semibold ${state === 'locked' ? 'text-muted' : ''}`}>{title}</span>
+    </button>
+  )
+}

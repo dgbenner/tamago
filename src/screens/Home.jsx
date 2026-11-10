@@ -3,47 +3,17 @@ import { LogoInline, SushiMark } from './Logo.jsx'
 import { IconBars, IconBook, IconCode, IconCheckered, IconClose, IconGear, IconLock, IconStudy, IconVerb } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
+import CircleNode from './CircleNode.jsx'
 
-// Rounds as a ring of five segments around the unit circle, filling as rounds finish (Dan's test notes). Strength
-// (FSRS, 0 to 4 bars) is folded in: the finished segments fade as the unit's recall drops.
-const STRENGTH_OPACITY = { 4: 1, 3: 0.75, 2: 0.5, 1: 0.3 }
-const R = 46
-const C = 2 * Math.PI * R
-const GAP = 7 // degrees between segments
-function RoundRing({ reached, strength, locked }) {
-  const bars = strength?.items > 0 ? strength.bars : null
-  const opacity = bars ? STRENGTH_OPACITY[bars] ?? 0.3 : 1
-  const seg = (C * (72 - GAP)) / 360
-  return (
-    <svg viewBox="0 0 100 100" className="absolute inset-0 size-full" aria-hidden="true">
-      {[0, 1, 2, 3, 4].map((i) => (
-        <circle key={i} cx="50" cy="50" r={R} fill="none" strokeWidth="7" strokeLinecap="round"
-          stroke={!locked && i < reached ? 'var(--green)' : 'var(--line)'} strokeOpacity={!locked && i < reached ? opacity : 1}
-          strokeDasharray={`${seg} ${C}`} transform={`rotate(${-90 + GAP / 2 + i * 72} 50 50)`} />
-      ))}
-    </svg>
-  )
-}
-
-// A tree node is a unit: a circle with its sushi (a lock until it opens, a "?" for Your Topic until one is chosen),
-// the ring of rounds, and the title. The unit you're on has an orange halo.
+// A tree node is a circle (Circle Lab design, approved 2026-11-10; src/screens/CircleNode.jsx): its sushi on a warm
+// disc, one ring that fills across all its lessons, the title. "Start Here" and "Your Progress" show on the first
+// circle only, the first time; a "?" stands for Your Topic until one is chosen.
 function Node({ node, onPick }) {
-  const { unit, open, progress, current, strength, topic } = node
-  const icon = unit.icon_file ? `/icons/${unit.icon_group}/${unit.icon_file}` : null
-  const reached = progress.round_reached
-  const label = `${unit.title}. ${open ? `${reached} of 5 rounds finished` : 'Locked'}${open && strength?.items > 0 ? `, strength ${strength.bars} of 4` : ''}`
+  const { unit, open, circle, strength, topic, marker } = node
   return (
-    <button onClick={() => onPick(node)} aria-label={label} className="flex w-32 flex-col items-center gap-1.5">
-      <span className={`relative flex size-24 items-center justify-center rounded-full ${current && open ? 'outline-2 outline-offset-2 outline-orange' : ''}`}>
-        <RoundRing reached={reached} strength={open ? strength : null} locked={!open} />
-        {!open
-          ? <span className="text-muted [&_svg]:size-8"><IconLock /></span>
-          : topic?.choosing
-            ? <span className="text-4xl font-semibold text-muted">?</span>
-            : icon ? <img src={icon} alt="" className="size-16 object-contain" /> : null}
-      </span>
-      <span className={`text-base font-semibold leading-tight ${open ? '' : 'text-muted'}`}>{unit.title}</span>
-    </button>
+    <CircleNode title={unit.title} icon={unit.icon_file ? `/icons/${unit.icon_group}/${unit.icon_file}` : null} glyph={topic?.choosing ? '?' : null}
+      locked={!open} lessonsDone={circle.done} lessonsTotal={circle.total} recall={strength?.items > 0 ? strength.recall : null} marker={marker}
+      onPick={() => onPick(node)} />
   )
 }
 
@@ -115,25 +85,26 @@ function UnitCard({ node, inProgress, onStart, onClose, onGrammarNote, hasNote, 
   const listing = topic && open && (topic.choosing || switching)
   const reached = progress.round_reached
   const label = reached >= 5 ? 'Practice Again' : reached > 0 || progress.lessons_done > 0 ? 'Next Lesson' : 'Start Lesson'
-  const where = reached >= 5 ? 'All five rounds are done. Lessons from here are practice.'
-    : `Each unit has five rounds, each a step harder than the last. You're on round ${reached + 1}, lesson ${lesson} of ${lessons}.`
+  // No unit numbers or rounds on screen (Circle Lab, 2026-11-10): the circle's lessons, counted across all of them.
+  const where = reached >= 5 ? 'Every lesson here is done. Lessons from here are practice.'
+    : `Lesson ${Math.min(node.circle.done + 1, node.circle.total)} of ${node.circle.total}. Each lesson is a step harder than the one before.`
   return (
     <Sheet onClose={onClose}>
       {/* Until a pack is chosen the kicker says what to do and the title is the node's name; never the same words twice. */}
-      <SheetHead kicker={topic ? (topic.choosing ? 'Choose a Topic' : 'Your Topic') : `Unit ${unit.order}`} title={listing && !topic.choosing ? 'Choose a Topic' : unit.title} onClose={onClose} />
+      <SheetHead kicker={topic ? (topic.choosing ? 'Choose a Topic' : 'Your Topic') : null} title={listing && !topic.choosing ? 'Choose a Topic' : unit.title} onClose={onClose} />
       {listing ? <>
         <p className="mt-2 text-muted">Words and sentences on one subject. You can switch later; each topic keeps its progress.</p>
         <TopicList topic={topic} current={topic.choosing ? null : unit.unit_id} onChoose={onChooseTopic} />
       </> : !open ? <>
         <p className="mt-2 text-muted">{unit.grammar_point}</p>
-        <p className="mt-4">Locked for now. It opens when you've finished round 1 of {lockedBy}.</p>
-        <p className="mt-2 text-sm text-muted">Units open in order, so each one builds on the words before it. Know some {course.name} already? The placement check in Settings can open several at once.</p>
+        <p className="mt-4">Locked for now. It opens when you've finished the first lessons of {lockedBy}.</p>
+        <p className="mt-2 text-sm text-muted">These open in order, so each one builds on the words before it. Know some {course.name} already? The placement check in Settings can open several at once.</p>
       </> : <>
         <p className="mt-2 text-muted">{unit.grammar_point}</p>
         <p className="mt-3 text-sm text-muted">{where}</p>
         {hasNote && <button onClick={onGrammarNote} className="btn-secondary mt-4 w-full">Grammar Note</button>}
         {topic && <button onClick={() => setSwitching(true)} className="btn-secondary mt-3 w-full">Change Topic</button>}
-        <button onClick={onStart} className="btn-submit mt-5 w-full">{inProgress ? 'Start This Unit' : label}</button>
+        <button onClick={onStart} className="btn-submit mt-5 w-full">{inProgress ? `Start ${unit.title}` : label}</button>
         {inProgress && <p className="mt-2 text-center text-xs text-muted">Your lesson in progress is set aside.</p>}
       </>}
     </Sheet>
@@ -145,18 +116,18 @@ function CheckpointCard({ cp, onStart, onSkip, onClose }) {
   return (
     <Sheet onClose={onClose}>
       <SheetHead kicker={cp.done ? 'Passed' : cp.skipped ? 'Skipped' : 'Optional'} title="Checkpoint" onClose={onClose} />
-      <p className="mt-2">A short review of the units above it:</p>
+      <p className="mt-2">A short review of everything above it:</p>
       <ul className="mt-2 flex flex-col gap-1">{cp.units.map((t) => <li key={t} className="font-medium">{t}</li>)}</ul>
       <p className="mt-2 text-sm text-muted">Ten questions, the ones you're likeliest to have forgotten first. It never locks anything, so you can skip it and come back any time.</p>
       {cp.available
         ? <button onClick={onStart} className="btn-submit mt-5 w-full">{cp.done ? 'Take It Again' : 'Start Checkpoint'}</button>
-        : <p className="mt-4 text-sm">It opens when you've finished round 1 of each of those units.</p>}
+        : <p className="mt-4 text-sm">It opens when you've finished the first lessons of each of those.</p>}
       {!cp.done && <button onClick={onSkip} className="btn-secondary mt-3 w-full">Skip</button>}
     </Sheet>
   )
 }
 
-function CheckpointNode({ cp, onPick }) {
+export function CheckpointNode({ cp, onPick }) {
   return (
     <button onClick={() => onPick(cp)} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-3 py-1 text-sm ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
       <span className="[&_svg]:size-4"><IconCheckered /></span>
@@ -264,7 +235,8 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
       </div>
 
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
-      <ol className="flex flex-1 flex-col items-center gap-5 pt-1 pb-4">
+      {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
+      <ol className="flex flex-1 flex-col items-center gap-24 pt-1 pb-24">
         {rows.map((row, i) => {
           const n = row.row ?? i + 1 // the row's own number, not its place in the list
           const cp = checkpoints.find((x) => x.afterRow === n)

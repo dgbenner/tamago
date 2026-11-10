@@ -24,6 +24,7 @@ import Forum from './screens/Forum.jsx'
 import Make from './screens/Make.jsx'
 import Listening from './screens/Listening.jsx'
 import Developer from './screens/Developer.jsx'
+import { firstCircleMarker } from './screens/CircleNode.jsx'
 import { listeningFrom, requestGenerated, sentencesFrom } from './lib/generate.js'
 import { tokenize } from '../scripts/lib/french.mjs'
 
@@ -756,6 +757,22 @@ export default function App() {
       intro={note.thenStart} wordCount={newWords.length} sampleWords={newWords.slice(0, 4).map((w) => w.form)}
       onDone={() => closeNote(note.thenStart)} onBack={() => closeNote(false)} />
   }
+  // A circle's ring (Circle Lab, 2026-11-10): lessons done out of the lessons planned across its five rounds, so it
+  // fills the same however many lessons a circle has. A round that runs long never pushes the fill past its share, and
+  // the fill never goes back.
+  const circleOf = (unitId) => {
+    const uc = unitContent(unitId)
+    const counts = [1, 2, 3, 4, 5].map((r) => Math.max(1, lessonsInRound(uc, r)))
+    const total = counts.reduce((a, b) => a + b, 0)
+    const p = progressOf(unitId)
+    if (p.round_reached >= 5) return { done: total, total }
+    const before = counts.slice(0, p.round_reached).reduce((a, b) => a + b, 0)
+    return { done: before + Math.min(p.lessons_done, counts[p.round_reached] - 1), total }
+  }
+  // "Start Here" and "Your Progress": on the first circle only, while nothing else has been started.
+  const firstUnit = layout[0]?.unit_id
+  const startedElsewhere = Object.values(progressByUnit).some((p) => p.unit_id !== firstUnit && (p.lessons_done > 0 || p.round_reached > 0))
+  const firstMarker = (unitId) => (unitId === firstUnit && !startedElsewhere ? firstCircleMarker(circleOf(unitId).done) : null)
   // Each row carries its row number (.row): a course can skip one (Spanish has no row 4 until its topic node exists).
   const rows = [...new Set(layout.map((t) => t.row))].sort((a, b) => a - b).map((r) => Object.assign(layout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
     // The Your topic node stands for the chosen pack once there is one; it keeps the node's place number.
@@ -767,6 +784,7 @@ export default function App() {
     const choosing = node.is_topic_pick === 'node' && id === node.unit_id
     const lessons = open && !choosing ? Math.max(lessonsInRound(unitContent(id), roundOf(id)), progress.lessons_done + 1) : 0
     return { unit, progress, open, current: id === currentUnit, lesson: progress.lessons_done + 1, lessons, strength: strength(itemsOf(id), cards), lockedBy: open ? null : lockedByOf(id),
+      circle: choosing ? { done: 0, total: 1 } : circleOf(id), marker: choosing ? null : firstMarker(id),
       topic: node.is_topic_pick === 'node' ? { choosing, packs: packsAt(node.unit_id).map((p) => ({ unit_id: p.unit_id, title: p.title, started: progressOf(p.unit_id).lessons_done > 0 })) } : null }
   }), { row: r }))
   const curUnit = tables.units.find((u) => u.unit_id === currentUnit)

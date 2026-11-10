@@ -501,3 +501,16 @@ Part 3, Lingua Libre recordings:
   30 on Units 1 to 5, so the packs sit at U200, titled Your Topic; a topic node shows only once it has a live pack.
   Live: U102 Family Life, U201 At the Office, U202 At the Doctor, U205 Music and Songs, U206 At the Café, U207 In
   the Garden. Skipped: Weather, Cinema, Clothing, Hotels, Airports, Supermarket, Home, Beach (and lower topics).
+
+## 2026-11-10: Circle Lab design on the live tree
+
+- CircleNode.jsx: disc (--disc #f6efe0 both themes, 30% when locked, lock on it), ring --ring (#0b7a43 light,
+  #22b573 dark), glyph for Your Topic's "?", Finished without recall data reads Finished.
+- Home: Node is CircleNode; no current-unit halo; sheet wording without unit numbers or rounds ("Lesson 8 of 26",
+  "the first lessons of"); tree gap-24 (6rem, a circle's height) between rows, checkpoints and markers.
+- App: circleOf (planned lessons over five rounds via lessonsInRound, capped per round) and firstMarker (first
+  circle, only while nothing else is started).
+- scripts/make-icons.mjs: trims each source to alpha 25% edges, scales to 40% visible area of 192 px (longest side at
+  most 94%); all 35 public/icons regenerated.
+- Checked in Chrome: French light and Spanish dark, fresh (Start Here), after one lesson (Your Progress), further
+  on (rings by lessons); gaps 102 px = circle height; axe clean. Lab updated; build has no lab page.

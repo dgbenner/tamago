@@ -1,0 +1,5 @@
+/* Circle Lab only (lab.html). The ring accent, and light and dark side by side on one page. */
+/* --ring and --disc now live in index.css with the app's tokens; the panels below force one theme each. */
+.lab-light { color-scheme: light; --bg: #fffbf2; --surface: #ffffff; --ink: #1c1a17; --muted: #645e53; --line: #e7dfcf; --ring: #0b7a43; background: var(--bg); color: var(--ink); }
+.lab-dark { color-scheme: dark; --bg: #12100d; --surface: #1e1b16; --ink: #f6f1e6; --muted: #a89f8f; --line: #38322a; --ring: #22b573; background: var(--bg); color: var(--ink); }
+input[type='range'] { accent-color: var(--ring); }
