@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { course } from './lib/course.js'
+import { course, reloadSkippingSplash } from './lib/course.js'
 import { useTables } from './lib/content.js'
 import './index.css'
 
@@ -25,7 +25,7 @@ if (navigator.audioSession) navigator.audioSession.type = 'playback'
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {
   // A new version takes over on opening. Reload once so it shows straight away; a lesson in progress resumes.
   if (navigator.serviceWorker.controller) {
-    navigator.serviceWorker.addEventListener('controllerchange', () => window.location.reload(), { once: true })
+    navigator.serviceWorker.addEventListener('controllerchange', reloadSkippingSplash, { once: true }) // straight to home, no second opening screen
   }
   navigator.serviceWorker.register('/sw.js')
 }

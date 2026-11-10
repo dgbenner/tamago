@@ -79,7 +79,9 @@ export default function App() {
   const [ending, setEnding] = useState(null)
   const [lastLine, setLastLine] = useState(null) // a passed lesson's score, shown on home instead of on its own screen
   const [splash, setSplash] = useState(!skipSplash) // a course switch reloads straight to home
-  const [chooser, setChooser] = useState(firstLaunch) // first launch: the opening screen asks for a language
+  // First launch: the opening screen asks for a language, but only once the saved state shows nobody has used this
+  // course here yet (a learner with progress is never asked, and never sees the flags flash and vanish).
+  const [chooser, setChooser] = useState(false)
   const seenWords = useRef(new Set())
   const roundSeen = useRef({})
   const carry = useRef([])
@@ -122,7 +124,10 @@ export default function App() {
       const shared = sharedSettings()
       if (shared || s.kv.settings) setSettings({ ...DEFAULT_SETTINGS, ...(s.kv.settings ?? {}), ...(shared ?? {}) })
       // Someone who already has progress here isn't new: no language question, this course stays.
-      if (firstLaunch && (s.progress.length || s.points.length || s.bank.length)) { chooseCourse(course.id); setChooser(false) }
+      if (firstLaunch) {
+        if (s.progress.length || s.points.length || s.bank.length) chooseCourse(course.id)
+        else setChooser(true)
+      }
       seenWords.current = new Set(s.kv.seen_words ?? [])
       // Rounds seen, per unit. Older installs kept Unit 1's alone under round_seen.
       roundSeen.current = s.kv.round_seen_by_unit ?? (s.kv.round_seen ? { [FIRST_UNIT]: s.kv.round_seen } : {})
@@ -761,8 +766,9 @@ export default function App() {
   // fills the same however many lessons a circle has. A round that runs long never pushes the fill past its share, and
   // the fill never goes back.
   const circleOf = (unitId) => {
-    const uc = unitContent(unitId)
-    const counts = [1, 2, 3, 4, 5].map((r) => Math.max(1, lessonsInRound(uc, r)))
+    // Counted at build time (units.lesson_counts): simulating lessons here froze startup for seconds.
+    const unit = tables.units.find((u) => u.unit_id === unitId)
+    const counts = (unit?.lesson_counts ?? [1, 1, 1, 1, 1]).map((n) => Math.max(1, n))
     const total = counts.reduce((a, b) => a + b, 0)
     const p = progressOf(unitId)
     if (p.round_reached >= 5) return { done: total, total }
@@ -782,7 +788,7 @@ export default function App() {
     const progress = progressOf(id)
     const open = isOpen(id)
     const choosing = node.is_topic_pick === 'node' && id === node.unit_id
-    const lessons = open && !choosing ? Math.max(lessonsInRound(unitContent(id), roundOf(id)), progress.lessons_done + 1) : 0
+    const lessons = open && !choosing ? Math.max(unit.lesson_counts?.[roundOf(id) - 1] ?? lessonsInRound(unitContent(id), roundOf(id)), progress.lessons_done + 1) : 0
     return { unit, progress, open, current: id === currentUnit, lesson: progress.lessons_done + 1, lessons, strength: strength(itemsOf(id), cards), lockedBy: open ? null : lockedByOf(id),
       circle: choosing ? { done: 0, total: 1 } : circleOf(id), marker: choosing ? null : firstMarker(id),
       topic: node.is_topic_pick === 'node' ? { choosing, packs: packsAt(node.unit_id).map((p) => ({ unit_id: p.unit_id, title: p.title, started: progressOf(p.unit_id).lessons_done > 0 })) } : null }

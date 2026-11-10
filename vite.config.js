@@ -7,23 +7,26 @@ import tailwindcss from '@tailwindcss/vite'
 
 const walk = (dir) => readdirSync(dir, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(join(dir, e.name)) : [join(dir, e.name)]))
 
-// Writes dist/sw.js with every built file precached, named by a hash of their contents.
+// Writes sw.js into the build folder with every built file precached, named by a hash of their contents.
 function serviceWorker() {
+  let outDir = 'dist'
   return {
     name: 'tamago-service-worker',
     apply: 'build',
+    configResolved(c) { outDir = c.build.outDir }, // dist, or --outDir for a test build
     closeBundle() {
+      const out = outDir
       // host config files are never served; the Picture Check images are for the Developer page only, so they aren't cached offline
-      const files = walk('dist').filter((f) => !f.endsWith('sw.js') && !/[\\/]_(headers|redirects)$/.test(f) && !/[\\/]picture-check[\\/]/.test(f))
+      const files = walk(out).filter((f) => !f.endsWith('sw.js') && !/[\\/]_(headers|redirects)$/.test(f) && !/[\\/]picture-check[\\/]/.test(f))
       const hash = createHash('sha1')
       for (const f of files) hash.update(readFileSync(f))
       // The page is cached as / because Cloudflare Pages answers /index.html with a redirect to /, and a
       // cached redirect can't be served for a page load.
-      const urls = files.map((f) => (`/${relative('dist', f)}`).replace(/\/index\.html$/, '/'))
+      const urls = files.map((f) => (`/${relative(out, f)}`).replace(/\/index\.html$/, '/'))
       const source = readFileSync('src/sw-template.js', 'utf8')
         .replace('__VERSION__', hash.digest('hex').slice(0, 12))
         .replace('__FILES__', JSON.stringify(urls))
-      writeFileSync('dist/sw.js', source)
+      writeFileSync(join(out, 'sw.js'), source)
     },
   }
 }

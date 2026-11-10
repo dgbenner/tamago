@@ -195,6 +195,17 @@ for (const w of tables.words.filter((x) => x.lingua_libre)) {
 }
 for (const f of readdirSync(AUDIO)) if (!wanted.has(f)) rmSync(join(AUDIO, f))
 
+// Lessons per round for each unit (2026-11-10), worked out here once: counting them means simulating many lessons,
+// which took seconds in the browser when the tree asked for every unit at startup. The tree reads lesson_counts.
+{
+  const { contentForUnit, lessonsInRound } = await import('../src/lib/lesson.js')
+  const shipped = { ...tables, feedback_phrases: tables.feedback_phrases ?? [] }
+  for (const u of tables.units) {
+    if (u.is_topic_pick === 'node') continue
+    const uc = contentForUnit(shipped, u.unit_id)
+    u.lesson_counts = uc.sentences.length ? [1, 2, 3, 4, 5].map((r) => lessonsInRound(uc, r)) : null
+  }
+}
 rmSync(OUT, { recursive: true, force: true })
 mkdirSync(OUT, { recursive: true })
 for (const [name, rows] of Object.entries(tables)) writeFileSync(join(OUT, `${name}.json`), JSON.stringify(rows, null, 2) + '\n')

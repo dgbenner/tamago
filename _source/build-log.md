@@ -514,3 +514,15 @@ Part 3, Lingua Libre recordings:
   most 94%); all 35 public/icons regenerated.
 - Checked in Chrome: French light and Spanish dark, fresh (Start Here), after one lesson (Your Progress), further
   on (rings by lessons); gaps 102 px = circle height; axe clean. Lab updated; build has no lab page.
+
+## 2026-11-10: Opening screen fixes (Dan's report: loaded twice, no flags)
+
+- Cause 1: circleOf called lessonsInRound (a 30-seed lesson simulation) for every unit and round on the first home
+  render, a 3.7 s main-thread block during the opening screen. build-content now ships units.lesson_counts (five
+  numbers per unit), and the tree reads them.
+- Cause 2: the service worker's controllerchange reload replayed the opening screen; it now uses
+  reloadSkippingSplash (course.js).
+- The first-launch question shows only after loadState finds no progress (the Splash takes it straight from its prop;
+  copying it into state never updated the screen). Flags preloaded in index.html. vite's sw.js step writes to the
+  build's outDir. Checked on a local production build with the service worker: new visitor asked within 0.5 s with
+  flags loaded, Spanish pick loads once; a learner with progress not asked; a new version reloads straight to home.

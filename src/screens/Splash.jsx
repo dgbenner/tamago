@@ -16,8 +16,10 @@ const easedTime = (progress) => Math.acos(1 - 2 * progress) / Math.PI
 // starts the fade at once; picking another reloads into it.
 export default function Splash({ onDone, choose = false }) {
   const svg = useRef(null)
-  const [held, setHeld] = useState(choose)
-  useEffect(() => { if (!choose) setHeld(false) }, [choose])
+  // The question can arrive a moment after the screen opens (once saved state is read), so it comes straight from
+  // the prop; only "picked" is this screen's own.
+  const [picked, setPicked] = useState(false)
+  const held = picked ? 'picked' : choose
   useEffect(() => {
     if (held) return
     const safety = setTimeout(onDone, 4800)
@@ -41,7 +43,7 @@ export default function Splash({ onDone, choose = false }) {
     })
   }, [])
   const skip = () => { if (!held) onDone() }
-  const pick = (id) => { if (chooseCourse(id)) setHeld('picked') }
+  const pick = (id) => { if (chooseCourse(id)) setPicked(true) }
   return (
     <div className={`splash ${held === true ? 'splash-hold' : held === 'picked' ? 'splash-now' : ''}`} onClick={skip}
       onAnimationEnd={(e) => { if (e.animationName === 'splash-out') onDone() }}>

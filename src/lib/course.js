@@ -24,10 +24,13 @@ export function chooseCourse(id) {
   const c = COURSES.find((x) => x.id === id && x.ready)
   if (!c) return false
   write(localStorage, KEY, c.id)
-  if (c.id !== course.id) { write(sessionStorage, SKIP, '1'); window.location.reload() }
+  if (c.id !== course.id) reloadSkippingSplash()
   return true
 }
-// True once, on the launch a course switch reloads into.
+// A reload that should land on home, not on the opening screen again: a course switch, or a new version taking over
+// (main.jsx), which otherwise shows the opening screen twice in a row (Dan, 2026-11-10).
+export function reloadSkippingSplash() { write(sessionStorage, SKIP, '1'); window.location.reload() }
+// True once, on the launch such a reload opens.
 export const skipSplash = (() => { const v = read(sessionStorage, SKIP); if (v) { try { sessionStorage.removeItem(SKIP) } catch { /* */ } } return Boolean(v) })()
 
 // Settings are shared across courses: a copy lives outside the course databases.

@@ -4,6 +4,10 @@ Updated November 10, 2026. **The Spanish course is live: all 15 units, six topic
 
 ## Done since last check-in
 
+- **Opening screen bugs fixed** (your report): it looked like it loaded twice and the flags didn't show.
+  - The new circles counted every unit's lessons when home first drew, by simulating lessons, which froze the page for about four seconds while the opening screen was up. The counts are now worked out when the content is built, so home draws at once.
+  - After each deploy, the page reloads once to switch to the new version; that reload used to play the opening screen again. Now it goes straight to home.
+  - The language question waits until the app has checked for progress, so someone with progress never sees the flags flash and vanish, and a new visitor sees them within half a second, already loaded.
 - **New circles on the tree, both languages.** The Circle Lab design is live: each circle is its sushi on a warm off-white disc (the same in light and dark, so the art's white edges no longer show on dark; faint with the lock when locked), one green ring that fills with every lesson, and the title. Start Here sits on the first circle before your first lesson, Your Progress after it, then neither again. A finished circle's ring fades as recall drops. Every sushi is trimmed and scaled to the same visible size, so rolls and hand rolls match the nigiri. A full circle's height of space separates rows, checkpoints and level markers; the path scrolls. The circle's pop-up no longer says Unit 3 or round 2: it says Lesson 8 of 26. The Circle Lab (http://localhost:5180/lab.html, on your Mac only) matches.
 - **Spanish, live.** English to Latin American Spanish (ustedes, never vosotros), on the same framework as French: rounds, question types, topic nodes, checkpoints, grammar notes, "I can" statements. 15 units, 642 sentences (484 checked Tatoeba, 158 drafted), 205 words, 189 levelled Lingua Libre recordings.
   - **Topic packs (Tatoeba only, 30 or more, every word in 3 or more, your newest rule):** Family Life, At the Office, At the Doctor, Music and Songs, At the Café and In the Garden, at a Your Topic node after Unit 15.
