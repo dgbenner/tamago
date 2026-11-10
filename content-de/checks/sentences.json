@@ -3683,6 +3683,36 @@
   {
     "sentence_id": "S5005",
     "unit_id": "U05",
+    "draft_french": "Hat Tom eine Katze?",
+    "draft_english": "Does Tom have a cat?",
+    "french": "Hat Tom eine Katze?",
+    "english": "Does Tom have a cat?",
+    "source": "tatoeba",
+    "source_id": "12293975",
+    "source_owner": "mayabe",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "12293975",
+      "source_owner": "mayabe",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hat Tom eine Katze?",
+      "english": [
+        "Does Tom have a cat?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S5006",
+    "unit_id": "U05",
     "draft_french": "Ich habe einen Apfel.",
     "draft_english": "I have an apple.",
     "french": "Ich habe einen Apfel.",
@@ -3711,7 +3741,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5006",
+    "sentence_id": "S5007",
     "unit_id": "U05",
     "draft_french": "Hast du ein Pferd?",
     "draft_english": "Do you have a horse?",
@@ -3741,25 +3771,25 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5007",
+    "sentence_id": "S5008",
     "unit_id": "U05",
-    "draft_french": "Hat Tom es?",
-    "draft_english": "Does Tom have it?",
-    "french": "Hat Tom es?",
-    "english": "Does Tom have it?",
+    "draft_french": "Tom hat eine Katze.",
+    "draft_english": "Tom has a cat.",
+    "french": "Tom hat eine Katze.",
+    "english": "Tom has a cat.",
     "source": "tatoeba",
-    "source_id": "6626032",
-    "source_owner": "Felixjp",
+    "source_id": "8801763",
+    "source_owner": "Melang",
     "status": "checked",
     "flag_reason": null,
     "match": {
-      "source_id": "6626032",
-      "source_owner": "Felixjp",
+      "source_id": "8801763",
+      "source_owner": "Melang",
       "native_owner": true,
       "ok_tag": false,
-      "french": "Hat Tom es?",
+      "french": "Tom hat eine Katze.",
       "english": [
-        "Does Tom have it?"
+        "Tom has a cat."
       ]
     },
     "variants": [],
@@ -3771,7 +3801,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5008",
+    "sentence_id": "S5009",
     "unit_id": "U05",
     "draft_french": "Ist es ein Vogel?",
     "draft_english": "Is it a bird?",
@@ -3790,36 +3820,6 @@
       "french": "Ist es ein Vogel?",
       "english": [
         "Is it a bird?"
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S5009",
-    "unit_id": "U05",
-    "draft_french": "Er hat einen Apfel.",
-    "draft_english": "He has an apple.",
-    "french": "Er hat einen Apfel.",
-    "english": "He has an apple.",
-    "source": "tatoeba",
-    "source_id": "10684103",
-    "source_owner": "Pfirsichbaeumchen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "10684103",
-      "source_owner": "Pfirsichbaeumchen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Er hat einen Apfel.",
-      "english": [
-        "He has an apple."
       ]
     },
     "variants": [],
@@ -3894,6 +3894,37 @@
   {
     "sentence_id": "S5012",
     "unit_id": "U05",
+    "draft_french": "Die Katze trinkt.",
+    "draft_english": "The cat drinks.",
+    "french": "Die Katze trinkt.",
+    "english": "The cat drinks.",
+    "source": "tatoeba",
+    "source_id": "4189420",
+    "source_owner": "Wuzzy",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "4189420",
+      "source_owner": "Wuzzy",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Die Katze trinkt.",
+      "english": [
+        "The cat is drinking.",
+        "The cat drinks."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S5013",
+    "unit_id": "U05",
     "draft_french": "Es ist ein Vogel.",
     "draft_english": "It's a bird.",
     "french": "Es ist ein Vogel.",
@@ -3912,36 +3943,6 @@
       "english": [
         "It is a bird.",
         "It's a bird."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S5013",
-    "unit_id": "U05",
-    "draft_french": "Ich bin ein Tier.",
-    "draft_english": "I'm an animal.",
-    "french": "Ich bin ein Tier.",
-    "english": "I'm an animal.",
-    "source": "tatoeba",
-    "source_id": "3542304",
-    "source_owner": "Pfirsichbaeumchen",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "3542304",
-      "source_owner": "Pfirsichbaeumchen",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Ich bin ein Tier.",
-      "english": [
-        "I'm an animal."
       ]
     },
     "variants": [],
@@ -4015,37 +4016,6 @@
   {
     "sentence_id": "S5016",
     "unit_id": "U05",
-    "draft_french": "Du bist ein Hund.",
-    "draft_english": "You're a dog.",
-    "french": "Du bist ein Hund.",
-    "english": "You're a dog.",
-    "source": "tatoeba",
-    "source_id": "10555590",
-    "source_owner": "Yorwba",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "10555590",
-      "source_owner": "Yorwba",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Du bist ein Hund.",
-      "english": [
-        "You're a dog.",
-        "You are a dog."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S5017",
-    "unit_id": "U05",
     "draft_french": "Das Tier ist groß.",
     "draft_english": "The animal is big.",
     "french": "Das Tier ist groß.",
@@ -4074,7 +4044,67 @@
     "audio_source": "tts"
   },
   {
+    "sentence_id": "S5017",
+    "unit_id": "U05",
+    "draft_french": "Ein Hund ist es nicht.",
+    "draft_english": "It's not a dog.",
+    "french": "Ein Hund ist es nicht.",
+    "english": "It's not a dog.",
+    "source": "tatoeba",
+    "source_id": "3052258",
+    "source_owner": "brauchinet",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "3052258",
+      "source_owner": "brauchinet",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Ein Hund ist es nicht.",
+      "english": [
+        "It's not a dog."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
     "sentence_id": "S5018",
+    "unit_id": "U05",
+    "draft_french": "Hat Tom es?",
+    "draft_english": "Does Tom have it?",
+    "french": "Hat Tom es?",
+    "english": "Does Tom have it?",
+    "source": "tatoeba",
+    "source_id": "6626032",
+    "source_owner": "Felixjp",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "6626032",
+      "source_owner": "Felixjp",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hat Tom es?",
+      "english": [
+        "Does Tom have it?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S5019",
     "unit_id": "U05",
     "draft_french": "Hast du ein Kind?",
     "draft_english": "Do you have a child?",
@@ -4104,7 +4134,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5019",
+    "sentence_id": "S5020",
     "unit_id": "U05",
     "draft_french": "Hast du ein Buch?",
     "draft_english": "Do you have a book?",
@@ -4134,7 +4164,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5020",
+    "sentence_id": "S5021",
     "unit_id": "U05",
     "draft_french": "Hast du ein Haus?",
     "draft_english": "Do you have a house?",
@@ -4164,7 +4194,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5021",
+    "sentence_id": "S5022",
     "unit_id": "U05",
     "draft_french": "Hast du das Buch?",
     "draft_english": "Do you have the book?",
@@ -4194,7 +4224,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5022",
+    "sentence_id": "S5023",
     "unit_id": "U05",
     "draft_french": "Du hast ein Pferd.",
     "draft_english": "You have a horse.",
@@ -4224,7 +4254,37 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5023",
+    "sentence_id": "S5024",
+    "unit_id": "U05",
+    "draft_french": "Er hat einen Apfel.",
+    "draft_english": "He has an apple.",
+    "french": "Er hat einen Apfel.",
+    "english": "He has an apple.",
+    "source": "tatoeba",
+    "source_id": "10684103",
+    "source_owner": "Pfirsichbaeumchen",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "10684103",
+      "source_owner": "Pfirsichbaeumchen",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Er hat einen Apfel.",
+      "english": [
+        "He has an apple."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S5025",
     "unit_id": "U05",
     "draft_french": "Sie hat Milch.",
     "draft_english": "She has milk.",
@@ -4254,7 +4314,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5024",
+    "sentence_id": "S5026",
     "unit_id": "U05",
     "draft_french": "Einen Kaffee bitte!",
     "draft_english": "Coffee, please.",
@@ -4284,7 +4344,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5025",
+    "sentence_id": "S5027",
     "unit_id": "U05",
     "draft_french": "Ich habe Wasser.",
     "draft_english": "I have water.",
@@ -4314,7 +4374,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5026",
+    "sentence_id": "S5028",
     "unit_id": "U05",
     "draft_french": "Tom hat es.",
     "draft_english": "Tom has it.",
@@ -4345,7 +4405,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5027",
+    "sentence_id": "S5029",
     "unit_id": "U05",
     "draft_french": "Ich habe es.",
     "draft_english": "I have it.",
@@ -4375,7 +4435,7 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5028",
+    "sentence_id": "S5030",
     "unit_id": "U05",
     "draft_french": "Du hast Wasser.",
     "draft_english": "You have water.",
@@ -4405,26 +4465,25 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5029",
-    "unit_id": "U05",
-    "draft_french": "Ich esse einen Apfel.",
-    "draft_english": "I'm eating an apple.",
-    "french": "Ich esse einen Apfel.",
-    "english": "I'm eating an apple.",
+    "sentence_id": "S6001",
+    "unit_id": "U06",
+    "draft_french": "Wir sind Frauen.",
+    "draft_english": "We are women.",
+    "french": "Wir sind Frauen.",
+    "english": "We are women.",
     "source": "tatoeba",
-    "source_id": "451361",
-    "source_owner": "al_ex_an_der",
+    "source_id": "5097742",
+    "source_owner": "Pfirsichbaeumchen",
     "status": "checked",
     "flag_reason": null,
     "match": {
-      "source_id": "451361",
-      "source_owner": "al_ex_an_der",
+      "source_id": "5097742",
+      "source_owner": "Pfirsichbaeumchen",
       "native_owner": true,
-      "ok_tag": true,
-      "french": "Ich esse einen Apfel.",
+      "ok_tag": false,
+      "french": "Wir sind Frauen.",
       "english": [
-        "I am eating an apple.",
-        "I'm eating an apple."
+        "We are women."
       ]
     },
     "variants": [],
@@ -4436,26 +4495,877 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5030",
-    "unit_id": "U05",
-    "draft_french": "Ich habe ein Haus.",
-    "draft_english": "I have a house.",
-    "french": "Ich habe ein Haus.",
-    "english": "I have a house.",
+    "sentence_id": "S6002",
+    "unit_id": "U06",
+    "draft_french": "Die Häuser sind groß.",
+    "draft_english": "Those houses are big.",
+    "french": "Die Häuser sind groß.",
+    "english": "Those houses are big.",
     "source": "tatoeba",
-    "source_id": "773392",
-    "source_owner": "marloncori",
+    "source_id": "1291720",
+    "source_owner": "Esperantostern",
     "status": "checked",
     "flag_reason": null,
     "match": {
-      "source_id": "773392",
-      "source_owner": "marloncori",
+      "source_id": "1291720",
+      "source_owner": "Esperantostern",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Die Häuser sind groß.",
+      "english": [
+        "Those houses are big."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6003",
+    "unit_id": "U06",
+    "draft_french": "Wir haben Kinder.",
+    "draft_english": "We have kids.",
+    "french": "Wir haben Kinder.",
+    "english": "We have kids.",
+    "source": "tatoeba",
+    "source_id": "10084385",
+    "source_owner": "wolfgangth",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "10084385",
+      "source_owner": "wolfgangth",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Wir haben Kinder.",
+      "english": [
+        "We have kids."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6004",
+    "unit_id": "U06",
+    "draft_french": "Wir sind hier.",
+    "draft_english": "We're here.",
+    "french": "Wir sind hier.",
+    "english": "We're here.",
+    "source": "tatoeba",
+    "source_id": "1098441",
+    "source_owner": "Espi",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "1098441",
+      "source_owner": "Espi",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Wir sind hier.",
+      "english": [
+        "We are here.",
+        "We're here."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6005",
+    "unit_id": "U06",
+    "draft_french": "Der Mann und die Frau trinken Tee.",
+    "draft_english": "The man and the woman drink tea.",
+    "french": "Der Mann und die Frau trinken Tee.",
+    "english": "The man and the woman drink tea.",
+    "source": "tatoeba",
+    "source_id": "653416",
+    "source_owner": "Pfirsichbaeumchen",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "653416",
+      "source_owner": "Pfirsichbaeumchen",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Der Mann und die Frau trinken Tee.",
+      "english": [
+        "The man and the woman drink tea."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6006",
+    "unit_id": "U06",
+    "draft_french": "Haben Sie Äpfel?",
+    "draft_english": "Do you have apples?",
+    "french": "Haben Sie Äpfel?",
+    "english": "Do you have apples?",
+    "source": "tatoeba",
+    "source_id": "837333",
+    "source_owner": "al_ex_an_der",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "837333",
+      "source_owner": "al_ex_an_der",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Haben Sie Äpfel?",
+      "english": [
+        "Do you have any apples?",
+        "Do you have apples?",
+        "Have you got any apples?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6007",
+    "unit_id": "U06",
+    "draft_french": "Haben sie Kinder?",
+    "draft_english": "Do they have children?",
+    "french": "Haben sie Kinder?",
+    "english": "Do they have children?",
+    "source": "tatoeba",
+    "source_id": "11265176",
+    "source_owner": "Pfirsichbaeumchen",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "11265176",
+      "source_owner": "Pfirsichbaeumchen",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Haben sie Kinder?",
+      "english": [
+        "Do they have children?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6008",
+    "unit_id": "U06",
+    "draft_french": "Essen Sie Äpfel?",
+    "draft_english": "Do you eat apples?",
+    "french": "Essen Sie Äpfel?",
+    "english": "Do you eat apples?",
+    "source": "tatoeba",
+    "source_id": "12912639",
+    "source_owner": "Waldelfe",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "12912639",
+      "source_owner": "Waldelfe",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Essen Sie Äpfel?",
+      "english": [
+        "Do you eat apples?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6009",
+    "unit_id": "U06",
+    "draft_french": "Sie essen Äpfel.",
+    "draft_english": "They're eating apples.",
+    "french": "Sie essen Äpfel.",
+    "english": "They're eating apples.",
+    "source": "tatoeba",
+    "source_id": "450538",
+    "source_owner": "al_ex_an_der",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "450538",
+      "source_owner": "al_ex_an_der",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Sie essen Äpfel.",
+      "english": [
+        "They're eating apples.",
+        "They're eating the apples."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6010",
+    "unit_id": "U06",
+    "draft_french": "Ich mag Katzen und Hunde.",
+    "draft_english": "I like both cats and dogs.",
+    "french": "Ich mag Katzen und Hunde.",
+    "english": "I like both cats and dogs.",
+    "source": "tatoeba",
+    "source_id": "1511808",
+    "source_owner": "samueldora",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "1511808",
+      "source_owner": "samueldora",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Ich mag Katzen und Hunde.",
+      "english": [
+        "I like both cats and dogs."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6011",
+    "unit_id": "U06",
+    "draft_french": "Der Junge und der Mann trinken Wasser.",
+    "draft_english": "The boy and the man are drinking water.",
+    "french": "Der Junge und der Mann trinken Wasser.",
+    "english": "The boy and the man are drinking water.",
+    "source": "tatoeba",
+    "source_id": "12418525",
+    "source_owner": "mayabe",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "12418525",
+      "source_owner": "mayabe",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Der Junge und der Mann trinken Wasser.",
+      "english": [
+        "The boy and the man are drinking water."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6012",
+    "unit_id": "U06",
+    "draft_french": "Hier sind Bücher.",
+    "draft_english": "There are books here.",
+    "french": "Hier sind Bücher.",
+    "english": "There are books here.",
+    "source": "tatoeba",
+    "source_id": "1807152",
+    "source_owner": "pne",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "1807152",
+      "source_owner": "pne",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hier sind Bücher.",
+      "english": [
+        "There are books here."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6013",
+    "unit_id": "U06",
+    "draft_french": "Sie sind Kinder.",
+    "draft_english": "They're children.",
+    "french": "Sie sind Kinder.",
+    "english": "They're children.",
+    "source": "tatoeba",
+    "source_id": "3579724",
+    "source_owner": "Esperantostern",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "3579724",
+      "source_owner": "Esperantostern",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Sie sind Kinder.",
+      "english": [
+        "They're children.",
+        "They're kids."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6014",
+    "unit_id": "U06",
+    "draft_french": "Du und ich sind Männer.",
+    "draft_english": "You and I are men.",
+    "french": "Du und ich sind Männer.",
+    "english": "You and I are men.",
+    "source": "tatoeba",
+    "source_id": "6626157",
+    "source_owner": "Felixjp",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "6626157",
+      "source_owner": "Felixjp",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Du und ich sind Männer.",
+      "english": [
+        "You and I are men."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6015",
+    "unit_id": "U06",
+    "draft_french": "Essen sie?",
+    "draft_english": "Are they eating?",
+    "french": "Essen sie?",
+    "english": "Are they eating?",
+    "source": "tatoeba",
+    "source_id": "13417249",
+    "source_owner": "mhr",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "13417249",
+      "source_owner": "mhr",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Essen sie?",
+      "english": [
+        "Are they eating?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6016",
+    "unit_id": "U06",
+    "draft_french": "Trinken sie Milch?",
+    "draft_english": "Do they drink milk?",
+    "french": "Trinken sie Milch?",
+    "english": "Do they drink milk?",
+    "source": "tatoeba",
+    "source_id": "2234767",
+    "source_owner": "Zaghawa",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "2234767",
+      "source_owner": "Zaghawa",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Trinken sie Milch?",
+      "english": [
+        "Do they drink milk?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6017",
+    "unit_id": "U06",
+    "draft_french": "Magst du Katzen?",
+    "draft_english": "Do you like cats?",
+    "french": "Magst du Katzen?",
+    "english": "Do you like cats?",
+    "source": "tatoeba",
+    "source_id": "2733053",
+    "source_owner": "Pfirsichbaeumchen",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "2733053",
+      "source_owner": "Pfirsichbaeumchen",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Magst du Katzen?",
+      "english": [
+        "Do you like cats?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6018",
+    "unit_id": "U06",
+    "draft_french": "Magst du Hunde?",
+    "draft_english": "Do you like dogs?",
+    "french": "Magst du Hunde?",
+    "english": "Do you like dogs?",
+    "source": "tatoeba",
+    "source_id": "3347483",
+    "source_owner": "Pfirsichbaeumchen",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "3347483",
+      "source_owner": "Pfirsichbaeumchen",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Magst du Hunde?",
+      "english": [
+        "Do you like dogs?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6019",
+    "unit_id": "U06",
+    "draft_french": "Wie ist es?",
+    "draft_english": "What's it like?",
+    "french": "Wie ist es?",
+    "english": "What's it like?",
+    "source": "tatoeba",
+    "source_id": "6624922",
+    "source_owner": "Felixjp",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "6624922",
+      "source_owner": "Felixjp",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Wie ist es?",
+      "english": [
+        "What's it like?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6020",
+    "unit_id": "U06",
+    "draft_french": "Ist es gut?",
+    "draft_english": "Is it good?",
+    "french": "Ist es gut?",
+    "english": "Is it good?",
+    "source": "tatoeba",
+    "source_id": "6643385",
+    "source_owner": "Felixjp",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "6643385",
+      "source_owner": "Felixjp",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Ist es gut?",
+      "english": [
+        "Is it good?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6021",
+    "unit_id": "U06",
+    "draft_french": "Mag Tom Katzen?",
+    "draft_english": "Does Tom like cats?",
+    "french": "Mag Tom Katzen?",
+    "english": "Does Tom like cats?",
+    "source": "tatoeba",
+    "source_id": "12379813",
+    "source_owner": "mayabe",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "12379813",
+      "source_owner": "mayabe",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Mag Tom Katzen?",
+      "english": [
+        "Does Tom like cats?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6022",
+    "unit_id": "U06",
+    "draft_french": "Tom mag Hunde.",
+    "draft_english": "Tom likes dogs.",
+    "french": "Tom mag Hunde.",
+    "english": "Tom likes dogs.",
+    "source": "tatoeba",
+    "source_id": "7422013",
+    "source_owner": "Pfirsichbaeumchen",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "7422013",
+      "source_owner": "Pfirsichbaeumchen",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Tom mag Hunde.",
+      "english": [
+        "Tom likes dogs."
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6023",
+    "unit_id": "U06",
+    "draft_french": "Hat er Kinder?",
+    "draft_english": "Does he have children?",
+    "french": "Hat er Kinder?",
+    "english": "Does he have children?",
+    "source": "tatoeba",
+    "source_id": "370137",
+    "source_owner": "MUIRIEL",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "370137",
+      "source_owner": "MUIRIEL",
       "native_owner": false,
       "ok_tag": true,
-      "french": "Ich habe ein Haus.",
+      "french": "Hat er Kinder?",
       "english": [
-        "I have a house.",
-        "I have a home."
+        "Does he have any children?",
+        "Has he any children?",
+        "Does he have children?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6024",
+    "unit_id": "U06",
+    "draft_french": "Hast du Kinder?",
+    "draft_english": "Do you have children?",
+    "french": "Hast du Kinder?",
+    "english": "Do you have children?",
+    "source": "tatoeba",
+    "source_id": "765106",
+    "source_owner": "Manfredo",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "765106",
+      "source_owner": "Manfredo",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hast du Kinder?",
+      "english": [
+        "Do you have any children?",
+        "Do you have children?",
+        "Do you have kids?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6025",
+    "unit_id": "U06",
+    "draft_french": "Hast du Äpfel?",
+    "draft_english": "Do you have apples?",
+    "french": "Hast du Äpfel?",
+    "english": "Do you have apples?",
+    "source": "tatoeba",
+    "source_id": "837331",
+    "source_owner": "Zaghawa",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "837331",
+      "source_owner": "Zaghawa",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hast du Äpfel?",
+      "english": [
+        "Do you have any apples?",
+        "Do you have apples?",
+        "Have you got any apples?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6026",
+    "unit_id": "U06",
+    "draft_french": "Sind Sie Tom?",
+    "draft_english": "Are you Tom?",
+    "french": "Sind Sie Tom?",
+    "english": "Are you Tom?",
+    "source": "tatoeba",
+    "source_id": "1495922",
+    "source_owner": "Esperantostern",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "1495922",
+      "source_owner": "Esperantostern",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Sind Sie Tom?",
+      "english": [
+        "Are you Tom?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6027",
+    "unit_id": "U06",
+    "draft_french": "Hat sie Kinder?",
+    "draft_english": "Does she have children?",
+    "french": "Hat sie Kinder?",
+    "english": "Does she have children?",
+    "source": "tatoeba",
+    "source_id": "3207338",
+    "source_owner": "Pfirsichbaeumchen",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "3207338",
+      "source_owner": "Pfirsichbaeumchen",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hat sie Kinder?",
+      "english": [
+        "Does she have children?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6028",
+    "unit_id": "U06",
+    "draft_french": "Sind Sie hier?",
+    "draft_english": "Are you here?",
+    "french": "Sind Sie hier?",
+    "english": "Are you here?",
+    "source": "tatoeba",
+    "source_id": "4902097",
+    "source_owner": "al_ex_an_der",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "4902097",
+      "source_owner": "al_ex_an_der",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Sind Sie hier?",
+      "english": [
+        "Are you here?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6029",
+    "unit_id": "U06",
+    "draft_french": "Sind Sie Mary?",
+    "draft_english": "Are you Mary?",
+    "french": "Sind Sie Mary?",
+    "english": "Are you Mary?",
+    "source": "tatoeba",
+    "source_id": "8453010",
+    "source_owner": "Luiaard",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "8453010",
+      "source_owner": "Luiaard",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Sind Sie Mary?",
+      "english": [
+        "Are you Mary?"
+      ]
+    },
+    "variants": [],
+    "decision": "",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6030",
+    "unit_id": "U06",
+    "draft_french": "Hat Tom Kinder?",
+    "draft_english": "Does Tom have children?",
+    "french": "Hat Tom Kinder?",
+    "english": "Does Tom have children?",
+    "source": "tatoeba",
+    "source_id": "8794886",
+    "source_owner": "Pfirsichbaeumchen",
+    "status": "checked",
+    "flag_reason": null,
+    "match": {
+      "source_id": "8794886",
+      "source_owner": "Pfirsichbaeumchen",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Hat Tom Kinder?",
+      "english": [
+        "Does Tom have children?",
+        "Does Tom have kids?"
       ]
     },
     "variants": [],
@@ -5225,96 +6135,6 @@
     "audio_source": "tts"
   },
   {
-    "sentence_id": "S5101",
-    "unit_id": "U05",
-    "draft_french": "Ich habe eine Katze.",
-    "draft_english": "I have a cat.",
-    "french": "Ich habe eine Katze.",
-    "english": "I have a cat.",
-    "source": "tamago_original",
-    "source_id": "",
-    "source_owner": "",
-    "status": "dan_reviewed",
-    "flag_reason": null,
-    "match": {
-      "source_id": "4700228",
-      "source_owner": "mraz",
-      "native_owner": false,
-      "ok_tag": false,
-      "french": "Ich habe eine Katze.",
-      "english": [
-        "I have a cat."
-      ]
-    },
-    "variants": [],
-    "decision": "keep",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "needed before Phase 4",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S5102",
-    "unit_id": "U05",
-    "draft_french": "Hast du eine Katze?",
-    "draft_english": "Do you have a cat?",
-    "french": "Hast du eine Katze?",
-    "english": "Do you have a cat?",
-    "source": "tamago_original",
-    "source_id": "",
-    "source_owner": "",
-    "status": "dan_reviewed",
-    "flag_reason": null,
-    "match": {
-      "source_id": "3934210",
-      "source_owner": "felvideki",
-      "native_owner": false,
-      "ok_tag": false,
-      "french": "Hast du eine Katze?",
-      "english": [
-        "Do you have a cat?"
-      ]
-    },
-    "variants": [],
-    "decision": "keep",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "needed before Phase 4",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
-    "sentence_id": "S5103",
-    "unit_id": "U05",
-    "draft_french": "Die Katze ist klein.",
-    "draft_english": "The cat is small.",
-    "french": "Die Katze ist klein.",
-    "english": "The cat is small.",
-    "source": "tatoeba",
-    "source_id": "13063631",
-    "source_owner": "Vortarulo",
-    "status": "checked",
-    "flag_reason": null,
-    "match": {
-      "source_id": "13063631",
-      "source_owner": "Vortarulo",
-      "native_owner": true,
-      "ok_tag": false,
-      "french": "Die Katze ist klein.",
-      "english": [
-        "The cat is small."
-      ]
-    },
-    "variants": [],
-    "decision": "",
-    "sentence_words": null,
-    "english_source": "",
-    "native_check": "",
-    "lingua_libre": null,
-    "audio_source": "tts"
-  },
-  {
     "sentence_id": "S5104",
     "unit_id": "U05",
     "draft_french": "Die Ente ist hier.",
@@ -5457,10 +6277,227 @@
   {
     "sentence_id": "S5110",
     "unit_id": "U05",
-    "draft_french": "Nein, ich habe einen Hund.",
-    "draft_english": "No, I have a dog.",
-    "french": "Nein, ich habe einen Hund.",
-    "english": "No, I have a dog.",
+    "draft_french": "Das Pferd ist ein Tier.",
+    "draft_english": "The horse is an animal.",
+    "french": "Das Pferd ist ein Tier.",
+    "english": "The horse is an animal.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6101",
+    "unit_id": "U06",
+    "draft_french": "Wir haben Bücher.",
+    "draft_english": "We have books.",
+    "french": "Wir haben Bücher.",
+    "english": "We have books.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6102",
+    "unit_id": "U06",
+    "draft_french": "Die Bücher sind hier.",
+    "draft_english": "The books are here.",
+    "french": "Die Bücher sind hier.",
+    "english": "The books are here.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6103",
+    "unit_id": "U06",
+    "draft_french": "Die Männer sind hier.",
+    "draft_english": "The men are here.",
+    "french": "Die Männer sind hier.",
+    "english": "The men are here.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6104",
+    "unit_id": "U06",
+    "draft_french": "Die Männer trinken Kaffee.",
+    "draft_english": "The men drink coffee.",
+    "french": "Die Männer trinken Kaffee.",
+    "english": "The men drink coffee.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6105",
+    "unit_id": "U06",
+    "draft_french": "Die Frauen essen Brot.",
+    "draft_english": "The women eat bread.",
+    "french": "Die Frauen essen Brot.",
+    "english": "The women eat bread.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": {
+      "source_id": "12173454",
+      "source_owner": "Augustus",
+      "native_owner": true,
+      "ok_tag": false,
+      "french": "Die Frauen essen Brot.",
+      "english": []
+    },
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6106",
+    "unit_id": "U06",
+    "draft_french": "Die Frauen sind hier.",
+    "draft_english": "The women are here.",
+    "french": "Die Frauen sind hier.",
+    "english": "The women are here.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6107",
+    "unit_id": "U06",
+    "draft_french": "Die Häuser sind klein.",
+    "draft_english": "The houses are small.",
+    "french": "Die Häuser sind klein.",
+    "english": "The houses are small.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6108",
+    "unit_id": "U06",
+    "draft_french": "Sind die Häuser groß?",
+    "draft_english": "Are the houses big?",
+    "french": "Sind die Häuser groß?",
+    "english": "Are the houses big?",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6109",
+    "unit_id": "U06",
+    "draft_french": "Ja, ich habe Äpfel.",
+    "draft_english": "Yes, I have apples.",
+    "french": "Ja, ich habe Äpfel.",
+    "english": "Yes, I have apples.",
+    "source": "tamago_original",
+    "source_id": "",
+    "source_owner": "",
+    "status": "dan_reviewed",
+    "flag_reason": null,
+    "match": null,
+    "variants": [],
+    "decision": "keep",
+    "sentence_words": null,
+    "english_source": "",
+    "native_check": "needed before Phase 4",
+    "lingua_libre": null,
+    "audio_source": "tts"
+  },
+  {
+    "sentence_id": "S6110",
+    "unit_id": "U06",
+    "draft_french": "Ja, ich mag Katzen.",
+    "draft_english": "Yes, I like cats.",
+    "french": "Ja, ich mag Katzen.",
+    "english": "Yes, I like cats.",
     "source": "tamago_original",
     "source_id": "",
     "source_owner": "",

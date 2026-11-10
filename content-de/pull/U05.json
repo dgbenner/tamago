@@ -1,7 +1,7 @@
 {
   "unit_id": "U05",
   "pulled_at": "2026-11-10",
-  "candidates": 58,
+  "candidates": 65,
   "sentences": [
     {
       "sentence_id": "S5001",
@@ -69,6 +69,21 @@
     {
       "sentence_id": "S5005",
       "unit_id": "U05",
+      "french": "Hat Tom eine Katze?",
+      "english": "Does Tom have a cat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12293975",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mayabe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S5006",
+      "unit_id": "U05",
       "french": "Ich habe einen Apfel.",
       "english": "I have an apple.",
       "pair_id": "",
@@ -82,7 +97,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5006",
+      "sentence_id": "S5007",
       "unit_id": "U05",
       "french": "Hast du ein Pferd?",
       "english": "Do you have a horse?",
@@ -97,22 +112,22 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5007",
+      "sentence_id": "S5008",
       "unit_id": "U05",
-      "french": "Hat Tom es?",
-      "english": "Does Tom have it?",
+      "french": "Tom hat eine Katze.",
+      "english": "Tom has a cat.",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "6626032",
+      "source_id": "8801763",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Felixjp",
+      "source_owner": "Melang",
       "other_english": []
     },
     {
-      "sentence_id": "S5008",
+      "sentence_id": "S5009",
       "unit_id": "U05",
       "french": "Ist es ein Vogel?",
       "english": "Is it a bird?",
@@ -124,21 +139,6 @@
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "pne",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S5009",
-      "unit_id": "U05",
-      "french": "Er hat einen Apfel.",
-      "english": "He has an apple.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10684103",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pfirsichbaeumchen",
       "other_english": []
     },
     {
@@ -176,6 +176,23 @@
     {
       "sentence_id": "S5012",
       "unit_id": "U05",
+      "french": "Die Katze trinkt.",
+      "english": "The cat drinks.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4189420",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Wuzzy",
+      "other_english": [
+        "The cat is drinking."
+      ]
+    },
+    {
+      "sentence_id": "S5013",
+      "unit_id": "U05",
       "french": "Es ist ein Vogel.",
       "english": "It's a bird.",
       "pair_id": "",
@@ -189,21 +206,6 @@
       "other_english": [
         "It is a bird."
       ]
-    },
-    {
-      "sentence_id": "S5013",
-      "unit_id": "U05",
-      "french": "Ich bin ein Tier.",
-      "english": "I'm an animal.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3542304",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Pfirsichbaeumchen",
-      "other_english": []
     },
     {
       "sentence_id": "S5014",
@@ -238,23 +240,6 @@
     {
       "sentence_id": "S5016",
       "unit_id": "U05",
-      "french": "Du bist ein Hund.",
-      "english": "You're a dog.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "10555590",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Yorwba",
-      "other_english": [
-        "You are a dog."
-      ]
-    },
-    {
-      "sentence_id": "S5017",
-      "unit_id": "U05",
       "french": "Das Tier ist groß.",
       "english": "The animal is big.",
       "pair_id": "",
@@ -268,7 +253,37 @@
       "other_english": []
     },
     {
+      "sentence_id": "S5017",
+      "unit_id": "U05",
+      "french": "Ein Hund ist es nicht.",
+      "english": "It's not a dog.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3052258",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauchinet",
+      "other_english": []
+    },
+    {
       "sentence_id": "S5018",
+      "unit_id": "U05",
+      "french": "Hat Tom es?",
+      "english": "Does Tom have it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6626032",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S5019",
       "unit_id": "U05",
       "french": "Hast du ein Kind?",
       "english": "Do you have a child?",
@@ -283,7 +298,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5019",
+      "sentence_id": "S5020",
       "unit_id": "U05",
       "french": "Hast du ein Buch?",
       "english": "Do you have a book?",
@@ -298,7 +313,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5020",
+      "sentence_id": "S5021",
       "unit_id": "U05",
       "french": "Hast du ein Haus?",
       "english": "Do you have a house?",
@@ -313,7 +328,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5021",
+      "sentence_id": "S5022",
       "unit_id": "U05",
       "french": "Hast du das Buch?",
       "english": "Do you have the book?",
@@ -328,7 +343,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5022",
+      "sentence_id": "S5023",
       "unit_id": "U05",
       "french": "Du hast ein Pferd.",
       "english": "You have a horse.",
@@ -343,7 +358,22 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5023",
+      "sentence_id": "S5024",
+      "unit_id": "U05",
+      "french": "Er hat einen Apfel.",
+      "english": "He has an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10684103",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S5025",
       "unit_id": "U05",
       "french": "Sie hat Milch.",
       "english": "She has milk.",
@@ -358,7 +388,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5024",
+      "sentence_id": "S5026",
       "unit_id": "U05",
       "french": "Einen Kaffee bitte!",
       "english": "Coffee, please.",
@@ -373,7 +403,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5025",
+      "sentence_id": "S5027",
       "unit_id": "U05",
       "french": "Ich habe Wasser.",
       "english": "I have water.",
@@ -388,7 +418,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5026",
+      "sentence_id": "S5028",
       "unit_id": "U05",
       "french": "Tom hat es.",
       "english": "Tom has it.",
@@ -405,7 +435,7 @@
       ]
     },
     {
-      "sentence_id": "S5027",
+      "sentence_id": "S5029",
       "unit_id": "U05",
       "french": "Ich habe es.",
       "english": "I have it.",
@@ -420,7 +450,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S5028",
+      "sentence_id": "S5030",
       "unit_id": "U05",
       "french": "Du hast Wasser.",
       "english": "You have water.",
@@ -432,38 +462,6 @@
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "wolfgangth",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S5029",
-      "unit_id": "U05",
-      "french": "Ich esse einen Apfel.",
-      "english": "I'm eating an apple.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "451361",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "al_ex_an_der",
-      "other_english": [
-        "I am eating an apple."
-      ]
-    },
-    {
-      "sentence_id": "S5030",
-      "unit_id": "U05",
-      "french": "Ich habe ein Haus.",
-      "english": "I have a house.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "773392",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "marloncori",
       "other_english": []
     }
   ],
@@ -599,77 +597,13 @@
     {
       "sentence_id": "S5005",
       "position": 1,
-      "surface": "Ich",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5005",
-      "position": 2,
-      "surface": "habe",
-      "word_id": "W059",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5005",
-      "position": 3,
-      "surface": "einen",
-      "word_id": "W062",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5005",
-      "position": 4,
-      "surface": "Apfel",
-      "word_id": "W056",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5006",
-      "position": 1,
-      "surface": "Hast",
-      "word_id": "W060",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5006",
-      "position": 2,
-      "surface": "du",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5006",
-      "position": 3,
-      "surface": "ein",
-      "word_id": "W010",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5006",
-      "position": 4,
-      "surface": "Pferd",
-      "word_id": "W065",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5007",
-      "position": 1,
       "surface": "Hat",
       "word_id": "W061",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S5007",
+      "sentence_id": "S5005",
       "position": 2,
       "surface": "Tom",
       "word_id": "",
@@ -677,63 +611,39 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5007",
+      "sentence_id": "S5005",
       "position": 3,
-      "surface": "es",
-      "word_id": "W023",
+      "surface": "eine",
+      "word_id": "W011",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S5008",
-      "position": 1,
-      "surface": "Ist",
-      "word_id": "W024",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5008",
-      "position": 2,
-      "surface": "es",
-      "word_id": "W023",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5008",
-      "position": 3,
-      "surface": "ein",
-      "word_id": "W010",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5008",
+      "sentence_id": "S5005",
       "position": 4,
-      "surface": "Vogel",
-      "word_id": "W066",
+      "surface": "Katze",
+      "word_id": "W064",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S5009",
+      "sentence_id": "S5006",
       "position": 1,
-      "surface": "Er",
-      "word_id": "W021",
+      "surface": "Ich",
+      "word_id": "W006",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S5009",
+      "sentence_id": "S5006",
       "position": 2,
-      "surface": "hat",
-      "word_id": "W061",
+      "surface": "habe",
+      "word_id": "W059",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S5009",
+      "sentence_id": "S5006",
       "position": 3,
       "surface": "einen",
       "word_id": "W062",
@@ -741,10 +651,106 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5009",
+      "sentence_id": "S5006",
       "position": 4,
       "surface": "Apfel",
       "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5007",
+      "position": 1,
+      "surface": "Hast",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5007",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5007",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5007",
+      "position": 4,
+      "surface": "Pferd",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5008",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5008",
+      "position": 2,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5008",
+      "position": 3,
+      "surface": "eine",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5008",
+      "position": 4,
+      "surface": "Katze",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5009",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5009",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5009",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5009",
+      "position": 4,
+      "surface": "Vogel",
+      "word_id": "W066",
       "notes": "",
       "hint_override": ""
     },
@@ -815,13 +821,37 @@
     {
       "sentence_id": "S5012",
       "position": 1,
+      "surface": "Die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5012",
+      "position": 2,
+      "surface": "Katze",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5012",
+      "position": 3,
+      "surface": "trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5013",
+      "position": 1,
       "surface": "Es",
       "word_id": "W023",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S5012",
+      "sentence_id": "S5013",
       "position": 2,
       "surface": "ist",
       "word_id": "W024",
@@ -829,7 +859,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5012",
+      "sentence_id": "S5013",
       "position": 3,
       "surface": "ein",
       "word_id": "W010",
@@ -837,42 +867,10 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5012",
+      "sentence_id": "S5013",
       "position": 4,
       "surface": "Vogel",
       "word_id": "W066",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5013",
-      "position": 1,
-      "surface": "Ich",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5013",
-      "position": 2,
-      "surface": "bin",
-      "word_id": "W008",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5013",
-      "position": 3,
-      "surface": "ein",
-      "word_id": "W010",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5013",
-      "position": 4,
-      "surface": "Tier",
-      "word_id": "W069",
       "notes": "",
       "hint_override": ""
     },
@@ -943,48 +941,48 @@
     {
       "sentence_id": "S5016",
       "position": 1,
-      "surface": "Du",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5016",
-      "position": 2,
-      "surface": "bist",
-      "word_id": "W009",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5016",
-      "position": 3,
-      "surface": "ein",
-      "word_id": "W010",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5016",
-      "position": 4,
-      "surface": "Hund",
-      "word_id": "W063",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5017",
-      "position": 1,
       "surface": "Das",
       "word_id": "W020",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S5017",
+      "sentence_id": "S5016",
       "position": 2,
       "surface": "Tier",
       "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5016",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5016",
+      "position": 4,
+      "surface": "groß",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5017",
+      "position": 1,
+      "surface": "Ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5017",
+      "position": 2,
+      "surface": "Hund",
+      "word_id": "W063",
       "notes": "",
       "hint_override": ""
     },
@@ -999,13 +997,45 @@
     {
       "sentence_id": "S5017",
       "position": 4,
-      "surface": "groß",
-      "word_id": "W030",
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5017",
+      "position": 5,
+      "surface": "nicht",
+      "word_id": "W005",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S5018",
+      "position": 1,
+      "surface": "Hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5018",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5018",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5019",
       "position": 1,
       "surface": "Hast",
       "word_id": "W060",
@@ -1013,7 +1043,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5018",
+      "sentence_id": "S5019",
       "position": 2,
       "surface": "du",
       "word_id": "W007",
@@ -1021,7 +1051,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5018",
+      "sentence_id": "S5019",
       "position": 3,
       "surface": "ein",
       "word_id": "W010",
@@ -1029,7 +1059,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5018",
+      "sentence_id": "S5019",
       "position": 4,
       "surface": "Kind",
       "word_id": "W016",
@@ -1037,7 +1067,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5019",
+      "sentence_id": "S5020",
       "position": 1,
       "surface": "Hast",
       "word_id": "W060",
@@ -1045,7 +1075,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5019",
+      "sentence_id": "S5020",
       "position": 2,
       "surface": "du",
       "word_id": "W007",
@@ -1053,7 +1083,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5019",
+      "sentence_id": "S5020",
       "position": 3,
       "surface": "ein",
       "word_id": "W010",
@@ -1061,7 +1091,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5019",
+      "sentence_id": "S5020",
       "position": 4,
       "surface": "Buch",
       "word_id": "W026",
@@ -1069,7 +1099,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5020",
+      "sentence_id": "S5021",
       "position": 1,
       "surface": "Hast",
       "word_id": "W060",
@@ -1077,7 +1107,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5020",
+      "sentence_id": "S5021",
       "position": 2,
       "surface": "du",
       "word_id": "W007",
@@ -1085,7 +1115,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5020",
+      "sentence_id": "S5021",
       "position": 3,
       "surface": "ein",
       "word_id": "W010",
@@ -1093,7 +1123,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5020",
+      "sentence_id": "S5021",
       "position": 4,
       "surface": "Haus",
       "word_id": "W029",
@@ -1101,7 +1131,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5021",
+      "sentence_id": "S5022",
       "position": 1,
       "surface": "Hast",
       "word_id": "W060",
@@ -1109,7 +1139,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5021",
+      "sentence_id": "S5022",
       "position": 2,
       "surface": "du",
       "word_id": "W007",
@@ -1117,7 +1147,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5021",
+      "sentence_id": "S5022",
       "position": 3,
       "surface": "das",
       "word_id": "W020",
@@ -1125,7 +1155,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5021",
+      "sentence_id": "S5022",
       "position": 4,
       "surface": "Buch",
       "word_id": "W026",
@@ -1133,7 +1163,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5022",
+      "sentence_id": "S5023",
       "position": 1,
       "surface": "Du",
       "word_id": "W007",
@@ -1141,7 +1171,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5022",
+      "sentence_id": "S5023",
       "position": 2,
       "surface": "hast",
       "word_id": "W060",
@@ -1149,7 +1179,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5022",
+      "sentence_id": "S5023",
       "position": 3,
       "surface": "ein",
       "word_id": "W010",
@@ -1157,7 +1187,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5022",
+      "sentence_id": "S5023",
       "position": 4,
       "surface": "Pferd",
       "word_id": "W065",
@@ -1165,15 +1195,15 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5023",
+      "sentence_id": "S5024",
       "position": 1,
-      "surface": "Sie",
-      "word_id": "W022",
+      "surface": "Er",
+      "word_id": "W021",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S5023",
+      "sentence_id": "S5024",
       "position": 2,
       "surface": "hat",
       "word_id": "W061",
@@ -1181,151 +1211,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5023",
-      "position": 3,
-      "surface": "Milch",
-      "word_id": "W054",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
       "sentence_id": "S5024",
-      "position": 1,
-      "surface": "Einen",
-      "word_id": "W062",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5024",
-      "position": 2,
-      "surface": "Kaffee",
-      "word_id": "W057",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5024",
-      "position": 3,
-      "surface": "bitte",
-      "word_id": "W033",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5025",
-      "position": 1,
-      "surface": "Ich",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5025",
-      "position": 2,
-      "surface": "habe",
-      "word_id": "W059",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5025",
-      "position": 3,
-      "surface": "Wasser",
-      "word_id": "W053",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5026",
-      "position": 1,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5026",
-      "position": 2,
-      "surface": "hat",
-      "word_id": "W061",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5026",
-      "position": 3,
-      "surface": "es",
-      "word_id": "W023",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5027",
-      "position": 1,
-      "surface": "Ich",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5027",
-      "position": 2,
-      "surface": "habe",
-      "word_id": "W059",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5027",
-      "position": 3,
-      "surface": "es",
-      "word_id": "W023",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5028",
-      "position": 1,
-      "surface": "Du",
-      "word_id": "W007",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5028",
-      "position": 2,
-      "surface": "hast",
-      "word_id": "W060",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5028",
-      "position": 3,
-      "surface": "Wasser",
-      "word_id": "W053",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5029",
-      "position": 1,
-      "surface": "Ich",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5029",
-      "position": 2,
-      "surface": "esse",
-      "word_id": "W045",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S5029",
       "position": 3,
       "surface": "einen",
       "word_id": "W062",
@@ -1333,7 +1219,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5029",
+      "sentence_id": "S5024",
       "position": 4,
       "surface": "Apfel",
       "word_id": "W056",
@@ -1341,7 +1227,55 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5030",
+      "sentence_id": "S5025",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5025",
+      "position": 2,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5025",
+      "position": 3,
+      "surface": "Milch",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5026",
+      "position": 1,
+      "surface": "Einen",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5026",
+      "position": 2,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5026",
+      "position": 3,
+      "surface": "bitte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5027",
       "position": 1,
       "surface": "Ich",
       "word_id": "W006",
@@ -1349,7 +1283,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5030",
+      "sentence_id": "S5027",
       "position": 2,
       "surface": "habe",
       "word_id": "W059",
@@ -1357,18 +1291,82 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S5030",
+      "sentence_id": "S5027",
       "position": 3,
-      "surface": "ein",
-      "word_id": "W010",
+      "surface": "Wasser",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5028",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5028",
+      "position": 2,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5028",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5029",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5029",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5029",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W023",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S5030",
-      "position": 4,
-      "surface": "Haus",
-      "word_id": "W029",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5030",
+      "position": 2,
+      "surface": "hast",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S5030",
+      "position": 3,
+      "surface": "Wasser",
+      "word_id": "W053",
       "notes": "",
       "hint_override": ""
     }
@@ -1402,31 +1400,23 @@
       "answer_id": "A50121",
       "sentence_id": "S5012",
       "direction": "fr_to_en",
+      "answer": "The cat is drinking.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A50131",
+      "sentence_id": "S5013",
+      "direction": "fr_to_en",
       "answer": "It is a bird.",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A50161",
-      "sentence_id": "S5016",
-      "direction": "fr_to_en",
-      "answer": "You are a dog.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A50261",
-      "sentence_id": "S5026",
+      "answer_id": "A50281",
+      "sentence_id": "S5028",
       "direction": "fr_to_en",
       "answer": "Tom has got it.",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A50291",
-      "sentence_id": "S5029",
-      "direction": "fr_to_en",
-      "answer": "I am eating an apple.",
       "source": "tatoeba",
       "status": "pulled"
     }

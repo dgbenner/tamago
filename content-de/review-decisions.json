@@ -36,7 +36,12 @@
     "U05": {
       "action": "approve",
       "on": "2026-11-10",
-      "by": "Claude under autonomous-build.md: Tatoeba sentences from checked owners after cutting 14 (wrong or misleading English, insults, odd lines, quoted dialogue, English that renames Maria); 10 drafts: Katze, Ente and Maus, which checked Tatoeba lines don't reach with these words, and 2 answers for the question pairs"
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after cutting 18 (wrong or misleading English, insults, odd lines, quoted dialogue, English that renames Maria); 7 drafts: Ente, Maus and Tier, which checked Tatoeba lines don't reach with these words, and 1 answer for the question pairs"
+    },
+    "U06": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after cutting 5 (die as they, Essen as a noun, odd lines); 10 drafts: Bücher, Männer, Frauen and Häuser, which checked Tatoeba lines don't reach with these words, and 2 answers for the question pairs"
     }
   },
   "cut_sentences": [],

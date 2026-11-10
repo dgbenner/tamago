@@ -587,6 +587,15 @@
   {
     "answer_id": "A50121",
     "sentence_id": "S5012",
+    "answer": "The cat is drinking.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "4189420",
+    "reason": ""
+  },
+  {
+    "answer_id": "A50131",
+    "sentence_id": "S5013",
     "answer": "It is a bird.",
     "status": "checked",
     "source": "tatoeba",
@@ -594,17 +603,8 @@
     "reason": ""
   },
   {
-    "answer_id": "A50161",
-    "sentence_id": "S5016",
-    "answer": "You are a dog.",
-    "status": "checked",
-    "source": "tatoeba",
-    "source_id": "10555590",
-    "reason": ""
-  },
-  {
-    "answer_id": "A50261",
-    "sentence_id": "S5026",
+    "answer_id": "A50281",
+    "sentence_id": "S5028",
     "answer": "Tom has got it.",
     "status": "checked",
     "source": "tatoeba",
@@ -612,12 +612,111 @@
     "reason": ""
   },
   {
-    "answer_id": "A50291",
-    "sentence_id": "S5029",
-    "answer": "I am eating an apple.",
+    "answer_id": "A60041",
+    "sentence_id": "S6004",
+    "answer": "We are here.",
     "status": "checked",
     "source": "tatoeba",
-    "source_id": "451361",
+    "source_id": "1098441",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60061",
+    "sentence_id": "S6006",
+    "answer": "Do you have any apples?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "837333",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60062",
+    "sentence_id": "S6006",
+    "answer": "Have you got any apples?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "837333",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60091",
+    "sentence_id": "S6009",
+    "answer": "They're eating the apples.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "450538",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60131",
+    "sentence_id": "S6013",
+    "answer": "They're kids.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3579724",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60231",
+    "sentence_id": "S6023",
+    "answer": "Has he any children?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "370137",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60232",
+    "sentence_id": "S6023",
+    "answer": "Does he have any children?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "370137",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60241",
+    "sentence_id": "S6024",
+    "answer": "Do you have kids?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "765106",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60242",
+    "sentence_id": "S6024",
+    "answer": "Do you have any children?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "765106",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60251",
+    "sentence_id": "S6025",
+    "answer": "Do you have any apples?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "837331",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60252",
+    "sentence_id": "S6025",
+    "answer": "Have you got any apples?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "837331",
+    "reason": ""
+  },
+  {
+    "answer_id": "A60301",
+    "sentence_id": "S6030",
+    "answer": "Does Tom have kids?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "8794886",
     "reason": ""
   }
 ]

@@ -49,8 +49,10 @@ const POS = new Map(checkedWords.map((w) => [w.word_id, w.part_of_speech]))
 const IRREGULAR = { man: 'men', woman: 'women', child: 'children', mouse: 'mice' }
 // Every alternative Wiktionary gives counts ("movie, film"; "color/colour"; "physician; doctor"), not only the first.
 const nounMeaning = new Map(checkedWords.filter((w) => w.part_of_speech === 'Noun').map((w) => {
-  const g = (/^plural of /.test(w.gloss) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x))
-  return [w.word_id, g]
+  const g = (/\bplural of /.test(w.gloss) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x))
+  // The word's hint counts too (2026-11-10: German Katze is "house cat" on Wiktionary, and the English says cat).
+  const hint = String(DECISIONS.hints?.[w.word_id] ?? DECISIONS.claude_hints?.[w.word_id]?.hint ?? '').replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase()).filter((x) => /^[a-z' -]+$/.test(x))
+  return [w.word_id, [...g, ...hint]]
 }))
 // The English carries each noun in the sense the course teaches: "J'ai une fille" as "daughter" doesn't count for girl.
 const carriesNouns = (english, parts) => parts.every((p) => {

@@ -523,31 +523,119 @@
     "answer_id": "A50121",
     "sentence_id": "S5012",
     "direction": "fr_to_en",
+    "answer": "The cat is drinking.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A50131",
+    "sentence_id": "S5013",
+    "direction": "fr_to_en",
     "answer": "It is a bird.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A50161",
-    "sentence_id": "S5016",
-    "direction": "fr_to_en",
-    "answer": "You are a dog.",
-    "source": "tatoeba",
-    "status": "pulled"
-  },
-  {
-    "answer_id": "A50261",
-    "sentence_id": "S5026",
+    "answer_id": "A50281",
+    "sentence_id": "S5028",
     "direction": "fr_to_en",
     "answer": "Tom has got it.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A50291",
-    "sentence_id": "S5029",
+    "answer_id": "A60041",
+    "sentence_id": "S6004",
     "direction": "fr_to_en",
-    "answer": "I am eating an apple.",
+    "answer": "We are here.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60061",
+    "sentence_id": "S6006",
+    "direction": "fr_to_en",
+    "answer": "Do you have any apples?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60062",
+    "sentence_id": "S6006",
+    "direction": "fr_to_en",
+    "answer": "Have you got any apples?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60091",
+    "sentence_id": "S6009",
+    "direction": "fr_to_en",
+    "answer": "They're eating the apples.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60131",
+    "sentence_id": "S6013",
+    "direction": "fr_to_en",
+    "answer": "They're kids.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60231",
+    "sentence_id": "S6023",
+    "direction": "fr_to_en",
+    "answer": "Has he any children?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60232",
+    "sentence_id": "S6023",
+    "direction": "fr_to_en",
+    "answer": "Does he have any children?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60241",
+    "sentence_id": "S6024",
+    "direction": "fr_to_en",
+    "answer": "Do you have kids?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60242",
+    "sentence_id": "S6024",
+    "direction": "fr_to_en",
+    "answer": "Do you have any children?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60251",
+    "sentence_id": "S6025",
+    "direction": "fr_to_en",
+    "answer": "Do you have any apples?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60252",
+    "sentence_id": "S6025",
+    "direction": "fr_to_en",
+    "answer": "Have you got any apples?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A60301",
+    "sentence_id": "S6030",
+    "direction": "fr_to_en",
+    "answer": "Does Tom have kids?",
     "source": "tatoeba",
     "status": "pulled"
   }

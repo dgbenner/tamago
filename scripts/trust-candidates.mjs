@@ -29,7 +29,7 @@ const checked = JSON.parse(readFileSync(at('content/checks/words.json'), 'utf8')
 const POS = new Map(checked.map((w) => [w.word_id, w.part_of_speech]))
 const IRREGULAR = { man: 'men', woman: 'women', child: 'children', mouse: 'mice' }
 const nounMeaning = new Map(checked.filter((w) => w.part_of_speech === 'Noun').map((w) => [w.word_id,
-  (/^plural of /.test(w.gloss) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x))]))
+  (/\bplural of /.test(w.gloss) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x)).concat(String(decisions.hints?.[w.word_id] ?? decisions.claude_hints?.[w.word_id]?.hint ?? '').replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase()).filter((x) => /^[a-z' -]+$/.test(x)))]))
 const carriesNouns = (english, parts) => parts.every((p) => {
   const gs = nounMeaning.get(p.word_id)
   if (!gs?.length) return true

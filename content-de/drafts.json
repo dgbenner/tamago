@@ -236,30 +236,6 @@
       "notes": "QT09 answer"
     },
     {
-      "sentence_id": "S5101",
-      "unit_id": "U05",
-      "french": "Ich habe eine Katze.",
-      "english": "I have a cat.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S5102",
-      "unit_id": "U05",
-      "french": "Hast du eine Katze?",
-      "english": "Do you have a cat?",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
-    },
-    {
-      "sentence_id": "S5103",
-      "unit_id": "U05",
-      "french": "Die Katze ist klein.",
-      "english": "The cat is small.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word; drafted, then found on Tatoeba from a checked owner",
-      "source": "tatoeba",
-      "source_id": "13063631",
-      "source_owner": "Vortarulo"
-    },
-    {
       "sentence_id": "S5104",
       "unit_id": "U05",
       "french": "Die Ente ist hier.",
@@ -304,8 +280,78 @@
     {
       "sentence_id": "S5110",
       "unit_id": "U05",
-      "french": "Nein, ich habe einen Hund.",
-      "english": "No, I have a dog.",
+      "french": "Das Pferd ist ein Tier.",
+      "english": "The horse is an animal.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S6101",
+      "unit_id": "U06",
+      "french": "Wir haben Bücher.",
+      "english": "We have books.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S6102",
+      "unit_id": "U06",
+      "french": "Die Bücher sind hier.",
+      "english": "The books are here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S6103",
+      "unit_id": "U06",
+      "french": "Die Männer sind hier.",
+      "english": "The men are here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S6104",
+      "unit_id": "U06",
+      "french": "Die Männer trinken Kaffee.",
+      "english": "The men drink coffee.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S6105",
+      "unit_id": "U06",
+      "french": "Die Frauen essen Brot.",
+      "english": "The women eat bread.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S6106",
+      "unit_id": "U06",
+      "french": "Die Frauen sind hier.",
+      "english": "The women are here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S6107",
+      "unit_id": "U06",
+      "french": "Die Häuser sind klein.",
+      "english": "The houses are small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S6108",
+      "unit_id": "U06",
+      "french": "Sind die Häuser groß?",
+      "english": "Are the houses big?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S6109",
+      "unit_id": "U06",
+      "french": "Ja, ich habe Äpfel.",
+      "english": "Yes, I have apples.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S6110",
+      "unit_id": "U06",
+      "french": "Ja, ich mag Katzen.",
+      "english": "Yes, I like cats.",
       "notes": "QT09 answer"
     }
   ],
@@ -379,16 +425,32 @@
       "answer_sentence_id": "S5109"
     },
     {
-      "question_sentence_id": "S5006",
+      "question_sentence_id": "S5007",
       "answer_sentence_id": "S5003"
     },
     {
-      "question_sentence_id": "S5102",
-      "answer_sentence_id": "S5110"
+      "question_sentence_id": "S5005",
+      "answer_sentence_id": "S5008"
     },
     {
-      "question_sentence_id": "S5008",
-      "answer_sentence_id": "S5012"
+      "question_sentence_id": "S5009",
+      "answer_sentence_id": "S5013"
+    },
+    {
+      "question_sentence_id": "S6025",
+      "answer_sentence_id": "S6109"
+    },
+    {
+      "question_sentence_id": "S6017",
+      "answer_sentence_id": "S6110"
+    },
+    {
+      "question_sentence_id": "S6108",
+      "answer_sentence_id": "S6002"
+    },
+    {
+      "question_sentence_id": "S6028",
+      "answer_sentence_id": "S6004"
     }
   ]
 }

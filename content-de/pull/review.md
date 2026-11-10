@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U05 Pets and Animals: haben: ich habe, du hast, er hat; what you have takes the accusative: einen Hund
+## U06 More Than One: Plurals: die for every plural; nouns change in several ways (Hunde, Katzen, Kinder, Äpfel); wir sind, sie sind
 
-30 sentences picked from 58 candidates (target 30 to 40). Grammar point in 27 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 148 candidates (target 30 to 40). Grammar point in 13 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): habe 6, hast 9, hat 5, ein 13, einen 6.
+Contrast forms, sentences each (target 2): ist 2, sind 9, der 2, die 2.
 
-**Gaps (P08)**, fewer than 3 usable sentences: Katze (0), Ente (0), Maus (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: Bücher (1), Männer (1), Frauen (1), Häuser (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S5001 | Hast du einen Hund? | Have you a dog? | Do you have a dog?; Have you got a dog? | [#709711](https://tatoeba.org/en/sentences/show/709711) | Manfredo |
-| S5002 | Hast du einen Vogel? | Do you have a bird? |  | [#5020374](https://tatoeba.org/en/sentences/show/5020374) | UliDolbarge |
-| S5003 | Ich habe ein Pferd. | I have a horse. |  | [#5206437](https://tatoeba.org/en/sentences/show/5206437) | jaz1313 |
-| S5004 | Tom hat ein Pferd. | Tom has a horse. |  | [#8193488](https://tatoeba.org/en/sentences/show/8193488) | Pfirsichbaeumchen |
-| S5005 | Ich habe einen Apfel. | I have an apple. |  | [#3784402](https://tatoeba.org/en/sentences/show/3784402) | Tlustulimu |
-| S5006 | Hast du ein Pferd? | Do you have a horse? |  | [#13850473](https://tatoeba.org/en/sentences/show/13850473) | Vortarulo |
-| S5007 | Hat Tom es? | Does Tom have it? |  | [#6626032](https://tatoeba.org/en/sentences/show/6626032) | Felixjp |
-| S5008 | Ist es ein Vogel? | Is it a bird? |  | [#3298328](https://tatoeba.org/en/sentences/show/3298328) | pne |
-| S5009 | Er hat einen Apfel. | He has an apple. |  | [#10684103](https://tatoeba.org/en/sentences/show/10684103) | Pfirsichbaeumchen |
-| S5010 | Ein Pferd ist ein Tier. | Horses are animals. | A horse is an animal. | [#1222818](https://tatoeba.org/en/sentences/show/1222818) | Esperantostern |
-| S5011 | Ich habe Brot. | I have bread. |  | [#1764321](https://tatoeba.org/en/sentences/show/1764321) | al_ex_an_der |
-| S5012 | Es ist ein Vogel. | It's a bird. | It is a bird. | [#3315660](https://tatoeba.org/en/sentences/show/3315660) | Trinkschokolade |
-| S5013 | Ich bin ein Tier. | I'm an animal. |  | [#3542304](https://tatoeba.org/en/sentences/show/3542304) | Pfirsichbaeumchen |
-| S5014 | Der Hund mag Sie. | The dog likes you. |  | [#6972168](https://tatoeba.org/en/sentences/show/6972168) | Pfirsichbaeumchen |
-| S5015 | Die Maus ist groß. | The mouse is big. |  | [#8320554](https://tatoeba.org/en/sentences/show/8320554) | MisterTrouser |
-| S5016 | Du bist ein Hund. | You're a dog. | You are a dog. | [#10555590](https://tatoeba.org/en/sentences/show/10555590) | Yorwba |
-| S5017 | Das Tier ist groß. | The animal is big. |  | [#13811896](https://tatoeba.org/en/sentences/show/13811896) | Vortarulo |
-| S5018 | Hast du ein Kind? | Do you have a child? |  | [#880778](https://tatoeba.org/en/sentences/show/880778) | Esperantostern |
-| S5019 | Hast du ein Buch? | Do you have a book? |  | [#2709201](https://tatoeba.org/en/sentences/show/2709201) | Pfirsichbaeumchen |
-| S5020 | Hast du ein Haus? | Do you have a house? |  | [#5686033](https://tatoeba.org/en/sentences/show/5686033) | eric2 |
-| S5021 | Hast du das Buch? | Do you have the book? |  | [#6626045](https://tatoeba.org/en/sentences/show/6626045) | Felixjp |
-| S5022 | Du hast ein Pferd. | You have a horse. |  | [#10084324](https://tatoeba.org/en/sentences/show/10084324) | wolfgangth |
-| S5023 | Sie hat Milch. | She has milk. |  | [#1764332](https://tatoeba.org/en/sentences/show/1764332) | al_ex_an_der |
-| S5024 | Einen Kaffee bitte! | Coffee, please. |  | [#2116041](https://tatoeba.org/en/sentences/show/2116041) | Pfirsichbaeumchen |
-| S5025 | Ich habe Wasser. | I have water. |  | [#6569738](https://tatoeba.org/en/sentences/show/6569738) | Pfirsichbaeumchen |
-| S5026 | Tom hat es. | Tom has it. | Tom has got it. | [#6625531](https://tatoeba.org/en/sentences/show/6625531) | Felixjp |
-| S5027 | Ich habe es. | I have it. |  | [#9453552](https://tatoeba.org/en/sentences/show/9453552) | Pfirsichbaeumchen |
-| S5028 | Du hast Wasser. | You have water. |  | [#10060931](https://tatoeba.org/en/sentences/show/10060931) | wolfgangth |
-| S5029 | Ich esse einen Apfel. | I'm eating an apple. | I am eating an apple. | [#451361](https://tatoeba.org/en/sentences/show/451361) | al_ex_an_der |
-| S5030 | Ich habe ein Haus. | I have a house. |  | [#773392](https://tatoeba.org/en/sentences/show/773392) | marloncori |
+| S6001 | Wir sind Frauen. | We are women. |  | [#5097742](https://tatoeba.org/en/sentences/show/5097742) | Pfirsichbaeumchen |
+| S6002 | Die Häuser sind groß. | Those houses are big. |  | [#1291720](https://tatoeba.org/en/sentences/show/1291720) | Esperantostern |
+| S6003 | Wir haben Kinder. | We have kids. |  | [#10084385](https://tatoeba.org/en/sentences/show/10084385) | wolfgangth |
+| S6004 | Wir sind hier. | We're here. | We are here. | [#1098441](https://tatoeba.org/en/sentences/show/1098441) | Espi |
+| S6005 | Der Mann und die Frau trinken Tee. | The man and the woman drink tea. |  | [#653416](https://tatoeba.org/en/sentences/show/653416) | Pfirsichbaeumchen |
+| S6006 | Haben Sie Äpfel? | Do you have apples? | Do you have any apples?; Have you got any apples? | [#837333](https://tatoeba.org/en/sentences/show/837333) | al_ex_an_der |
+| S6007 | Haben sie Kinder? | Do they have children? |  | [#11265176](https://tatoeba.org/en/sentences/show/11265176) | Pfirsichbaeumchen |
+| S6008 | Essen Sie Äpfel? | Do you eat apples? |  | [#12912639](https://tatoeba.org/en/sentences/show/12912639) | Waldelfe |
+| S6009 | Sie essen Äpfel. | They're eating apples. | They're eating the apples. | [#450538](https://tatoeba.org/en/sentences/show/450538) | al_ex_an_der |
+| S6010 | Ich mag Katzen und Hunde. | I like both cats and dogs. |  | [#1511808](https://tatoeba.org/en/sentences/show/1511808) | samueldora |
+| S6011 | Der Junge und der Mann trinken Wasser. | The boy and the man are drinking water. |  | [#12418525](https://tatoeba.org/en/sentences/show/12418525) | mayabe |
+| S6012 | Hier sind Bücher. | There are books here. |  | [#1807152](https://tatoeba.org/en/sentences/show/1807152) | pne |
+| S6013 | Sie sind Kinder. | They're children. | They're kids. | [#3579724](https://tatoeba.org/en/sentences/show/3579724) | Esperantostern |
+| S6014 | Du und ich sind Männer. | You and I are men. |  | [#6626157](https://tatoeba.org/en/sentences/show/6626157) | Felixjp |
+| S6015 | Essen sie? | Are they eating? |  | [#13417249](https://tatoeba.org/en/sentences/show/13417249) | mhr |
+| S6016 | Trinken sie Milch? | Do they drink milk? |  | [#2234767](https://tatoeba.org/en/sentences/show/2234767) | Zaghawa |
+| S6017 | Magst du Katzen? | Do you like cats? |  | [#2733053](https://tatoeba.org/en/sentences/show/2733053) | Pfirsichbaeumchen |
+| S6018 | Magst du Hunde? | Do you like dogs? |  | [#3347483](https://tatoeba.org/en/sentences/show/3347483) | Pfirsichbaeumchen |
+| S6019 | Wie ist es? | What's it like? |  | [#6624922](https://tatoeba.org/en/sentences/show/6624922) | Felixjp |
+| S6020 | Ist es gut? | Is it good? |  | [#6643385](https://tatoeba.org/en/sentences/show/6643385) | Felixjp |
+| S6021 | Mag Tom Katzen? | Does Tom like cats? |  | [#12379813](https://tatoeba.org/en/sentences/show/12379813) | mayabe |
+| S6022 | Tom mag Hunde. | Tom likes dogs. |  | [#7422013](https://tatoeba.org/en/sentences/show/7422013) | Pfirsichbaeumchen |
+| S6023 | Hat er Kinder? | Does he have children? | Has he any children?; Does he have any children? | [#370137](https://tatoeba.org/en/sentences/show/370137) | MUIRIEL |
+| S6024 | Hast du Kinder? | Do you have children? | Do you have kids?; Do you have any children? | [#765106](https://tatoeba.org/en/sentences/show/765106) | Manfredo |
+| S6025 | Hast du Äpfel? | Do you have apples? | Do you have any apples?; Have you got any apples? | [#837331](https://tatoeba.org/en/sentences/show/837331) | Zaghawa |
+| S6026 | Sind Sie Tom? | Are you Tom? |  | [#1495922](https://tatoeba.org/en/sentences/show/1495922) | Esperantostern |
+| S6027 | Hat sie Kinder? | Does she have children? |  | [#3207338](https://tatoeba.org/en/sentences/show/3207338) | Pfirsichbaeumchen |
+| S6028 | Sind Sie hier? | Are you here? |  | [#4902097](https://tatoeba.org/en/sentences/show/4902097) | al_ex_an_der |
+| S6029 | Sind Sie Mary? | Are you Mary? |  | [#8453010](https://tatoeba.org/en/sentences/show/8453010) | Luiaard |
+| S6030 | Hat Tom Kinder? | Does Tom have children? | Does Tom have kids? | [#8794886](https://tatoeba.org/en/sentences/show/8794886) | Pfirsichbaeumchen |

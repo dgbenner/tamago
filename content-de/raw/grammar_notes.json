@@ -29,8 +29,15 @@
   },
   {
     "unit_id": "U05",
-    "rule": "Haben means to have: ich habe, du hast, er hat. What you have is the object of the sentence, and a masculine noun shows it: ein becomes einen (Ich habe einen Hund). Feminine and neuter don't change: Ich habe eine Katze, Ich habe ein Pferd.",
-    "example_sentence_ids": "S5003;S5101;S5022",
+    "rule": "Haben means to have: ich habe, du hast, er hat. What you have is the object of the sentence, and a masculine noun shows it: ein becomes einen (Ich habe einen Hund). Feminine and neuter don't change: Tom hat eine Katze, Ich habe ein Pferd.",
+    "example_sentence_ids": "S5024;S5008;S5003",
+    "conjugation_lemma": "haben",
+    "status": "live"
+  },
+  {
+    "unit_id": "U06",
+    "rule": "For more than one, the verb takes the plural form: wir sind, wir haben, wir essen. The plural forms end in -en (or -n), and the same form goes with sie (they) and Sie (polite you): Sie essen Äpfel. German plurals change in several ways, so learn each with its noun: der Hund, die Hunde; die Katze, die Katzen; das Kind, die Kinder; der Mann, die Männer; das Buch, die Bücher. Every plural takes die.",
+    "example_sentence_ids": "S6004;S6003;S6002",
     "conjugation_lemma": "haben",
     "status": "live"
   }
