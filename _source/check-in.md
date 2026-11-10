@@ -673,7 +673,7 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (77), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (80), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (12)
 
@@ -787,3 +787,9 @@ Every German sentence I wrote (77), for a native speaker of German as spoken in 
 - S13104 Ich komme am Sonntag. = I'm coming on Sunday.
 - S13105 Ist morgen Sonntag? = Is tomorrow Sunday?
 - S13106 Nein, heute ist Samstag. = No, today is Saturday. (QT09 answer)
+
+**U14 Going Places** (3)
+
+- S14101 Der Park ist schön. = The park is beautiful.
+- S14102 Der Park ist hier. = The park is here. (QT09 answer)
+- S14103 Ja, ich bin zu Hause. = Yes, I'm at home. (QT09 answer)

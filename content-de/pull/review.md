@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U13 Days and Times: heute, morgen, jetzt; am Montag; a time word first puts the verb second: Heute ist Montag
+## U14 Going Places: gehen: ich gehe, du gehst, er geht; in die Schule, nach Hause, zu Hause
 
-30 sentences picked from 160 candidates (target 30 to 40). Grammar point in 18 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 175 candidates (target 30 to 40). Grammar point in 16 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): heute 11, morgen 10.
+Contrast forms, sentences each (target 2): gehe 3, gehst 10, nach Hause 7, zu Hause 3.
 
-**Gaps (P08)**, fewer than 3 usable sentences: Woche (0), Sonntag (1), am (2). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: Park (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S13001 | Heute ist Samstag und morgen ist Sonntag. | Today is Saturday and tomorrow is Sunday. |  | [#913900](https://tatoeba.org/en/sentences/show/913900) | Esperantostern |
-| S13002 | Wie geht es dir heute morgen? | How are you this morning? | How're you this morning? | [#12523271](https://tatoeba.org/en/sentences/show/12523271) | Waldelfe |
-| S13003 | Ist morgen Samstag? | Is tomorrow Saturday? |  | [#1163484](https://tatoeba.org/en/sentences/show/1163484) | Vortarulo |
-| S13004 | Ist heute Montag? | Is today Monday? |  | [#7281075](https://tatoeba.org/en/sentences/show/7281075) | Yorwba |
-| S13005 | Tom kommt am Montag. | Tom is coming on Monday. |  | [#6642582](https://tatoeba.org/en/sentences/show/6642582) | Felixjp |
-| S13006 | Ich komme am Montag. | I'm coming on Monday. |  | [#6837261](https://tatoeba.org/en/sentences/show/6837261) | manese |
-| S13007 | Es ist jetzt ein Uhr. | It's one o'clock now. |  | [#2610927](https://tatoeba.org/en/sentences/show/2610927) | Pfirsichbaeumchen |
-| S13008 | Es ist jetzt fünf Uhr. | It's five o'clock now. |  | [#9974268](https://tatoeba.org/en/sentences/show/9974268) | wolfgangth |
-| S13009 | Es ist jetzt neun Uhr. | It's nine o'clock now. |  | [#9974273](https://tatoeba.org/en/sentences/show/9974273) | wolfgangth |
-| S13010 | Heute ist Samstag. | Today is Saturday. | It's Saturday today. | [#621626](https://tatoeba.org/en/sentences/show/621626) | kolonjano |
-| S13011 | Heute ist mein Tag. | Today is my day. |  | [#1601774](https://tatoeba.org/en/sentences/show/1601774) | Sudajaengi |
-| S13012 | Morgen ist der Tag. | Tomorrow's the day. |  | [#8310882](https://tatoeba.org/en/sentences/show/8310882) | GuidoW |
-| S13013 | Heute ist dein Tag. | Today is your day. |  | [#12603858](https://tatoeba.org/en/sentences/show/12603858) | Waldelfe |
-| S13014 | Ist morgen Montag? | Is tomorrow Monday? |  | [#8322851](https://tatoeba.org/en/sentences/show/8322851) | Luiaard |
-| S13015 | Wie geht es Ihnen heute morgen? | How are you this morning? | How're you this morning? | [#12523273](https://tatoeba.org/en/sentences/show/12523273) | Waldelfe |
-| S13016 | Was jetzt? | What now? |  | [#8891306](https://tatoeba.org/en/sentences/show/8891306) | wolfgangth |
-| S13017 | Warum nicht morgen? | Why not tomorrow? |  | [#2755367](https://tatoeba.org/en/sentences/show/2755367) | Esperantostern |
-| S13018 | Kommst du morgen? | Will you come tomorrow? |  | [#5686372](https://tatoeba.org/en/sentences/show/5686372) | halfdan |
-| S13019 | Kommt er morgen? | Will he come tomorrow? | Is he coming tomorrow? | [#8688300](https://tatoeba.org/en/sentences/show/8688300) | Yorwba |
-| S13020 | Kommt Tom heute? | Will Tom be coming today? |  | [#10095844](https://tatoeba.org/en/sentences/show/10095844) | Pfirsichbaeumchen |
-| S13021 | Kommst du Montag? | Are you coming on Monday? |  | [#13861715](https://tatoeba.org/en/sentences/show/13861715) | Waldelfe |
-| S13022 | Haben Sie morgen Zeit? | Do you have time tomorrow? | Have you got time tomorrow? | [#1317792](https://tatoeba.org/en/sentences/show/1317792) | Pfirsichbaeumchen |
-| S13023 | Wo ist Tom jetzt? | Where's Tom now? | Where is Tom now? | [#1495934](https://tatoeba.org/en/sentences/show/1495934) | Esperantostern |
-| S13024 | Wie viele sind heute hier? | How many people are here today? |  | [#2198968](https://tatoeba.org/en/sentences/show/2198968) | Pfirsichbaeumchen |
-| S13025 | Wo ist Tom heute? | Where's Tom today? |  | [#3758734](https://tatoeba.org/en/sentences/show/3758734) | Jens_Odo |
-| S13026 | Wo sind Sie jetzt? | Where are you now? |  | [#4258768](https://tatoeba.org/en/sentences/show/4258768) | Pfirsichbaeumchen |
-| S13027 | Wo ist er jetzt? | Where is he now? |  | [#4553231](https://tatoeba.org/en/sentences/show/4553231) | Pfirsichbaeumchen |
-| S13028 | Wo ist sie jetzt? | Where is she now? |  | [#4553238](https://tatoeba.org/en/sentences/show/4553238) | Pfirsichbaeumchen |
-| S13029 | Wo bin ich jetzt? | Where am I now? |  | [#7448171](https://tatoeba.org/en/sentences/show/7448171) | Yorwba |
-| S13030 | Wo sind Sie heute? | Where are you today? |  | [#8257985](https://tatoeba.org/en/sentences/show/8257985) | driini |
+| S14001 | In welche Schule gehst du? | What school do you go to? |  | [#7769921](https://tatoeba.org/en/sentences/show/7769921) | ruth_tatoeba |
+| S14002 | Gehst du am Samstag in die Schule? | Do you go to school on Saturday? |  | [#6644919](https://tatoeba.org/en/sentences/show/6644919) | Felixjp |
+| S14003 | Ich gehe in die Schule. | I go to school. |  | [#474521](https://tatoeba.org/en/sentences/show/474521) | Espi |
+| S14004 | Ich gehe jetzt nach Hause. | I'm going home now. | I am going home now. | [#750268](https://tatoeba.org/en/sentences/show/750268) | samueldora |
+| S14005 | Gehst du nach Hause? | Are you going home? |  | [#3156570](https://tatoeba.org/en/sentences/show/3156570) | Plusquamperfekt |
+| S14006 | Ich gehe nicht nach Hause. | I'm not going home. |  | [#3864677](https://tatoeba.org/en/sentences/show/3864677) | Pfirsichbaeumchen |
+| S14007 | Bist du zu Hause? | Are you home? | Are you at home? | [#1179408](https://tatoeba.org/en/sentences/show/1179408) | samueldora |
+| S14008 | Ist sie zu Hause? | Is she home? | Is she at home? | [#1341169](https://tatoeba.org/en/sentences/show/1341169) | Pfirsichbaeumchen |
+| S14009 | Warum ist Tom zu Hause? | Why is Tom home? | Why is Tom at home? | [#2630837](https://tatoeba.org/en/sentences/show/2630837) | Pfirsichbaeumchen |
+| S14010 | Wo ist der Park? | Where's the park? |  | [#3280492](https://tatoeba.org/en/sentences/show/3280492) | Zaghawa |
+| S14011 | Wo ist das Restaurant? | Where is the restaurant? |  | [#3421262](https://tatoeba.org/en/sentences/show/3421262) | pne |
+| S14012 | Wo ist dein Restaurant? | Where is your restaurant located? |  | [#10023924](https://tatoeba.org/en/sentences/show/10023924) | Melang |
+| S14013 | Die Schule ist in der Stadt. | The school is in the city. |  | [#14050693](https://tatoeba.org/en/sentences/show/14050693) | Biderl |
+| S14014 | Er ist nicht in der Stadt. | He is not in the city. |  | [#3651070](https://tatoeba.org/en/sentences/show/3651070) | Esperantostern |
+| S14015 | Die Stadt ist schön. | The city is beautiful. |  | [#1342387](https://tatoeba.org/en/sentences/show/1342387) | Esperantostern |
+| S14016 | Hier ist das Restaurant. | Here's the restaurant. |  | [#13079306](https://tatoeba.org/en/sentences/show/13079306) | mhr |
+| S14017 | Wann gehst du nach Hause? | When are you going home? | When are you walking home?; What time do you go home?; When will you be going home? | [#481488](https://tatoeba.org/en/sentences/show/481488) | Espi |
+| S14018 | Gehst du jetzt nach Hause? | Are you going home now? |  | [#8820973](https://tatoeba.org/en/sentences/show/8820973) | wolfgangth |
+| S14019 | Warum gehst du nicht nach Hause? | Why don't you go home? |  | [#1812016](https://tatoeba.org/en/sentences/show/1812016) | Pfirsichbaeumchen |
+| S14020 | Ist Tom in der Schule? | Is Tom at school? |  | [#6625713](https://tatoeba.org/en/sentences/show/6625713) | Felixjp |
+| S14021 | Wie ist es in der Schule? | How is it at school? |  | [#1097430](https://tatoeba.org/en/sentences/show/1097430) | Espi |
+| S14022 | Warum gehst du jetzt nicht nach Hause? | Why don't you go home now? |  | [#5610337](https://tatoeba.org/en/sentences/show/5610337) | Esperantostern |
+| S14023 | Wo geht Tom in die Schule? | Where does Tom go to school? |  | [#6640921](https://tatoeba.org/en/sentences/show/6640921) | Felixjp |
+| S14024 | Ist Tom jetzt in der Schule? | Is Tom at school now? |  | [#8824348](https://tatoeba.org/en/sentences/show/8824348) | wolfgangth |
+| S14025 | Sind die Kinder in der Schule? | Are the children at school? |  | [#12907628](https://tatoeba.org/en/sentences/show/12907628) | mhr |
+| S14026 | Warum ist Tom nicht in der Schule? | Why isn't Tom at school? |  | [#6641835](https://tatoeba.org/en/sentences/show/6641835) | Felixjp |
+| S14027 | Warum bist du nicht in der Schule? | Why aren't you in school? | Why aren't you at school? | [#6641929](https://tatoeba.org/en/sentences/show/6641929) | Felixjp |
+| S14028 | Gehst du? | You're going? | Are you going? | [#1527714](https://tatoeba.org/en/sentences/show/1527714) | al_ex_an_der |
+| S14029 | Wann gehst du? | When are you going? |  | [#4480660](https://tatoeba.org/en/sentences/show/4480660) | InspectorMustache |
+| S14030 | Gehst du nicht? | Aren't you going? | Aren't you going to go? | [#6626060](https://tatoeba.org/en/sentences/show/6626060) | Felixjp |

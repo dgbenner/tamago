@@ -353,5 +353,49 @@
       "S13008"
     ],
     "conjugations": []
+  },
+  {
+    "unit_id": "U14",
+    "rule": "Gehen means to go, on foot or in general: ich gehe, du gehst, er geht. Going somewhere, in takes die for a feminine place: Ich gehe in die Schule. Being somewhere, it takes der: Tom ist in der Schule, Die Schule ist in der Stadt. Home has two forms: nach Hause when you go there (Ich gehe nach Hause), zu Hause when you are there (Bist du zu Hause?).",
+    "example_sentence_ids": "S14003;S14005;S14007",
+    "conjugation_lemma": "gehen",
+    "status": "live",
+    "examples": [
+      "S14003",
+      "S14005",
+      "S14007"
+    ],
+    "conjugations": [
+      {
+        "lemma": "gehen",
+        "present": [
+          {
+            "person": "ich",
+            "form": "gehe"
+          },
+          {
+            "person": "du",
+            "form": "gehst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "geht"
+          },
+          {
+            "person": "wir",
+            "form": "gehen"
+          },
+          {
+            "person": "ihr",
+            "form": "geht"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "gehen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/gehen#Conjugation"
+      }
+    ]
   }
 ]
