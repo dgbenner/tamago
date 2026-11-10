@@ -495,3 +495,9 @@ Part 3, Lingua Libre recordings:
   words (scripts/image-list.mjs writes content-es/pictures.json from a Spanish-to-French row map), image list with
   French, Spanish and Language columns (Shared except croissant; four Spanish-only rows), Picture Check reads columns
   by name. French tree, icons and lesson pictures unchanged.
+- Spanish topic packs: nodes U100 (after Unit 5, row 4) and U200 (after Unit 15, row 10); pack words from W501
+  (fixed ids; PACK_DROP, PACK_SKIPPED, PACK_EXTRA in make-spanish-workbook.mjs). pack-feasibility.mjs and the pull are
+  course-aware (first-node packs on Units 1 to 5 only; every Spanish pack aims at 30, Tatoeba only). Nothing reached
+  30 on Units 1 to 5, so the packs sit at U200, titled Your Topic; a topic node shows only once it has a live pack.
+  Live: U102 Family Life, U201 At the Office, U202 At the Doctor, U205 Music and Songs, U206 At the Café, U207 In
+  the Garden. Skipped: Weather, Cinema, Clothing, Hotels, Airports, Supermarket, Home, Beach (and lower topics).
