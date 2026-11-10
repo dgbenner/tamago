@@ -143,5 +143,49 @@
         "source": "https://en.wiktionary.org/wiki/trinken#Conjugation"
       }
     ]
+  },
+  {
+    "unit_id": "U05",
+    "rule": "Haben means to have: ich habe, du hast, er hat. What you have is the object of the sentence, and a masculine noun shows it: ein becomes einen (Ich habe einen Hund). Feminine and neuter don't change: Ich habe eine Katze, Ich habe ein Pferd.",
+    "example_sentence_ids": "S5003;S5101;S5022",
+    "conjugation_lemma": "haben",
+    "status": "live",
+    "examples": [
+      "S5003",
+      "S5101",
+      "S5022"
+    ],
+    "conjugations": [
+      {
+        "lemma": "haben",
+        "present": [
+          {
+            "person": "ich",
+            "form": "habe"
+          },
+          {
+            "person": "du",
+            "form": "hast"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "hat"
+          },
+          {
+            "person": "wir",
+            "form": "haben"
+          },
+          {
+            "person": "ihr",
+            "form": "habt"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "haben"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/haben#Conjugation"
+      }
+    ]
   }
 ]

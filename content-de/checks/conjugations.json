@@ -51,6 +51,32 @@
       "form": "trinken"
     }
   ],
+  "haben": [
+    {
+      "person": "ich",
+      "form": "habe"
+    },
+    {
+      "person": "du",
+      "form": "hast"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "hat"
+    },
+    {
+      "person": "wir",
+      "form": "haben"
+    },
+    {
+      "person": "ihr",
+      "form": "habt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "haben"
+    }
+  ],
   "gehen": [
     {
       "person": "ich",
@@ -127,32 +153,6 @@
     {
       "person": "sie, Sie",
       "form": "mögen"
-    }
-  ],
-  "haben": [
-    {
-      "person": "ich",
-      "form": "habe"
-    },
-    {
-      "person": "du",
-      "form": "hast"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "hat"
-    },
-    {
-      "person": "wir",
-      "form": "haben"
-    },
-    {
-      "person": "ihr",
-      "form": "habt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "haben"
     }
   ],
   "kommen": [

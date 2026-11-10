@@ -673,7 +673,7 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (32), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (41), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (12)
 
@@ -718,3 +718,15 @@ Every German sentence I wrote (32), for a native speaker of German as spoken in 
 - S4103 Ja, ich mag Kaffee. = Yes, I like coffee. (QT09 answer)
 - S4104 Ja, ich trinke Tee. = Yes, I drink tea. (QT09 answer)
 - S4105 Ja, ich mag Käse. = Yes, I like cheese. (QT09 answer)
+
+**U05 Pets and Animals** (9)
+
+- S5101 Ich habe eine Katze. = I have a cat.
+- S5102 Hast du eine Katze? = Do you have a cat?
+- S5104 Die Ente ist hier. = The duck is here.
+- S5105 Tom hat eine Ente. = Tom has a duck.
+- S5106 Ist das eine Ente? = Is that a duck?
+- S5107 Ich habe eine Maus. = I have a mouse.
+- S5108 Die Maus ist klein. = The mouse is small.
+- S5109 Ja, ich habe einen Hund. = Yes, I have a dog. (QT09 answer)
+- S5110 Nein, ich habe einen Hund. = No, I have a dog. (QT09 answer)

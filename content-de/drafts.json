@@ -234,6 +234,79 @@
       "french": "Ja, ich mag Käse.",
       "english": "Yes, I like cheese.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S5101",
+      "unit_id": "U05",
+      "french": "Ich habe eine Katze.",
+      "english": "I have a cat.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5102",
+      "unit_id": "U05",
+      "french": "Hast du eine Katze?",
+      "english": "Do you have a cat?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5103",
+      "unit_id": "U05",
+      "french": "Die Katze ist klein.",
+      "english": "The cat is small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "13063631",
+      "source_owner": "Vortarulo"
+    },
+    {
+      "sentence_id": "S5104",
+      "unit_id": "U05",
+      "french": "Die Ente ist hier.",
+      "english": "The duck is here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5105",
+      "unit_id": "U05",
+      "french": "Tom hat eine Ente.",
+      "english": "Tom has a duck.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5106",
+      "unit_id": "U05",
+      "french": "Ist das eine Ente?",
+      "english": "Is that a duck?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5107",
+      "unit_id": "U05",
+      "french": "Ich habe eine Maus.",
+      "english": "I have a mouse.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5108",
+      "unit_id": "U05",
+      "french": "Die Maus ist klein.",
+      "english": "The mouse is small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5109",
+      "unit_id": "U05",
+      "french": "Ja, ich habe einen Hund.",
+      "english": "Yes, I have a dog.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S5110",
+      "unit_id": "U05",
+      "french": "Nein, ich habe einen Hund.",
+      "english": "No, I have a dog.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -300,6 +373,22 @@
     {
       "question_sentence_id": "S4006",
       "answer_sentence_id": "S4105"
+    },
+    {
+      "question_sentence_id": "S5001",
+      "answer_sentence_id": "S5109"
+    },
+    {
+      "question_sentence_id": "S5006",
+      "answer_sentence_id": "S5003"
+    },
+    {
+      "question_sentence_id": "S5102",
+      "answer_sentence_id": "S5110"
+    },
+    {
+      "question_sentence_id": "S5008",
+      "answer_sentence_id": "S5012"
     }
   ]
 }
