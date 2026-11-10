@@ -590,6 +590,48 @@
       "french": "Ja, ich bin zu Hause.",
       "english": "Yes, I'm at home.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S15101",
+      "unit_id": "U15",
+      "french": "Die Kinder spielen.",
+      "english": "The children are playing.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S15102",
+      "unit_id": "U15",
+      "french": "Wir spielen heute.",
+      "english": "We're playing today.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S15103",
+      "unit_id": "U15",
+      "french": "Kannst du morgen spielen?",
+      "english": "Can you play tomorrow?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S15104",
+      "unit_id": "U15",
+      "french": "Ja, ich kann morgen spielen.",
+      "english": "Yes, I can play tomorrow.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S15105",
+      "unit_id": "U15",
+      "french": "Ja, ich möchte Tee.",
+      "english": "Yes, I'd like tea.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S15106",
+      "unit_id": "U15",
+      "french": "Ja, ich kann Deutsch sprechen.",
+      "english": "Yes, I can speak German.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -816,6 +858,22 @@
     {
       "question_sentence_id": "S14007",
       "answer_sentence_id": "S14103"
+    },
+    {
+      "question_sentence_id": "S15103",
+      "answer_sentence_id": "S15104"
+    },
+    {
+      "question_sentence_id": "S15009",
+      "answer_sentence_id": "S15105"
+    },
+    {
+      "question_sentence_id": "S15001",
+      "answer_sentence_id": "S15106"
+    },
+    {
+      "question_sentence_id": "S15004",
+      "answer_sentence_id": "S15008"
     }
   ]
 }

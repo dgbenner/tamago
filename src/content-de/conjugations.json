@@ -150,6 +150,36 @@
     "source": "https://en.wiktionary.org/wiki/gehen#Conjugation"
   },
   {
+    "lemma": "können",
+    "present": [
+      {
+        "person": "ich",
+        "form": "kann"
+      },
+      {
+        "person": "du",
+        "form": "kannst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "kann"
+      },
+      {
+        "person": "wir",
+        "form": "können"
+      },
+      {
+        "person": "ihr",
+        "form": "könnt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "können"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/k%C3%B6nnen#Conjugation"
+  },
+  {
     "lemma": "essen",
     "present": [
       {
@@ -238,35 +268,5 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/geben#Conjugation"
-  },
-  {
-    "lemma": "können",
-    "present": [
-      {
-        "person": "ich",
-        "form": "kann"
-      },
-      {
-        "person": "du",
-        "form": "kannst"
-      },
-      {
-        "person": "er, sie, es",
-        "form": "kann"
-      },
-      {
-        "person": "wir",
-        "form": "können"
-      },
-      {
-        "person": "ihr",
-        "form": "könnt"
-      },
-      {
-        "person": "sie, Sie",
-        "form": "können"
-      }
-    ],
-    "source": "https://en.wiktionary.org/wiki/k%C3%B6nnen#Conjugation"
   }
 ]

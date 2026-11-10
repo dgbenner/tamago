@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U14 Going Places: gehen: ich gehe, du gehst, er geht; in die Schule, nach Hause, zu Hause
+## U15 Wanting and Can: möchten and können, with the other verb at the end: Ich möchte Kaffee. Ich kann Deutsch sprechen.
 
-30 sentences picked from 175 candidates (target 30 to 40). Grammar point in 16 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 90 candidates (target 30 to 40). Grammar point in 29 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): gehe 3, gehst 10, nach Hause 7, zu Hause 3.
+Contrast forms, sentences each (target 2): möchte 3, möchtest 20, kann 3, kannst 3.
 
-**Gaps (P08)**, fewer than 3 usable sentences: Park (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: spielen (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S14001 | In welche Schule gehst du? | What school do you go to? |  | [#7769921](https://tatoeba.org/en/sentences/show/7769921) | ruth_tatoeba |
-| S14002 | Gehst du am Samstag in die Schule? | Do you go to school on Saturday? |  | [#6644919](https://tatoeba.org/en/sentences/show/6644919) | Felixjp |
-| S14003 | Ich gehe in die Schule. | I go to school. |  | [#474521](https://tatoeba.org/en/sentences/show/474521) | Espi |
-| S14004 | Ich gehe jetzt nach Hause. | I'm going home now. | I am going home now. | [#750268](https://tatoeba.org/en/sentences/show/750268) | samueldora |
-| S14005 | Gehst du nach Hause? | Are you going home? |  | [#3156570](https://tatoeba.org/en/sentences/show/3156570) | Plusquamperfekt |
-| S14006 | Ich gehe nicht nach Hause. | I'm not going home. |  | [#3864677](https://tatoeba.org/en/sentences/show/3864677) | Pfirsichbaeumchen |
-| S14007 | Bist du zu Hause? | Are you home? | Are you at home? | [#1179408](https://tatoeba.org/en/sentences/show/1179408) | samueldora |
-| S14008 | Ist sie zu Hause? | Is she home? | Is she at home? | [#1341169](https://tatoeba.org/en/sentences/show/1341169) | Pfirsichbaeumchen |
-| S14009 | Warum ist Tom zu Hause? | Why is Tom home? | Why is Tom at home? | [#2630837](https://tatoeba.org/en/sentences/show/2630837) | Pfirsichbaeumchen |
-| S14010 | Wo ist der Park? | Where's the park? |  | [#3280492](https://tatoeba.org/en/sentences/show/3280492) | Zaghawa |
-| S14011 | Wo ist das Restaurant? | Where is the restaurant? |  | [#3421262](https://tatoeba.org/en/sentences/show/3421262) | pne |
-| S14012 | Wo ist dein Restaurant? | Where is your restaurant located? |  | [#10023924](https://tatoeba.org/en/sentences/show/10023924) | Melang |
-| S14013 | Die Schule ist in der Stadt. | The school is in the city. |  | [#14050693](https://tatoeba.org/en/sentences/show/14050693) | Biderl |
-| S14014 | Er ist nicht in der Stadt. | He is not in the city. |  | [#3651070](https://tatoeba.org/en/sentences/show/3651070) | Esperantostern |
-| S14015 | Die Stadt ist schön. | The city is beautiful. |  | [#1342387](https://tatoeba.org/en/sentences/show/1342387) | Esperantostern |
-| S14016 | Hier ist das Restaurant. | Here's the restaurant. |  | [#13079306](https://tatoeba.org/en/sentences/show/13079306) | mhr |
-| S14017 | Wann gehst du nach Hause? | When are you going home? | When are you walking home?; What time do you go home?; When will you be going home? | [#481488](https://tatoeba.org/en/sentences/show/481488) | Espi |
-| S14018 | Gehst du jetzt nach Hause? | Are you going home now? |  | [#8820973](https://tatoeba.org/en/sentences/show/8820973) | wolfgangth |
-| S14019 | Warum gehst du nicht nach Hause? | Why don't you go home? |  | [#1812016](https://tatoeba.org/en/sentences/show/1812016) | Pfirsichbaeumchen |
-| S14020 | Ist Tom in der Schule? | Is Tom at school? |  | [#6625713](https://tatoeba.org/en/sentences/show/6625713) | Felixjp |
-| S14021 | Wie ist es in der Schule? | How is it at school? |  | [#1097430](https://tatoeba.org/en/sentences/show/1097430) | Espi |
-| S14022 | Warum gehst du jetzt nicht nach Hause? | Why don't you go home now? |  | [#5610337](https://tatoeba.org/en/sentences/show/5610337) | Esperantostern |
-| S14023 | Wo geht Tom in die Schule? | Where does Tom go to school? |  | [#6640921](https://tatoeba.org/en/sentences/show/6640921) | Felixjp |
-| S14024 | Ist Tom jetzt in der Schule? | Is Tom at school now? |  | [#8824348](https://tatoeba.org/en/sentences/show/8824348) | wolfgangth |
-| S14025 | Sind die Kinder in der Schule? | Are the children at school? |  | [#12907628](https://tatoeba.org/en/sentences/show/12907628) | mhr |
-| S14026 | Warum ist Tom nicht in der Schule? | Why isn't Tom at school? |  | [#6641835](https://tatoeba.org/en/sentences/show/6641835) | Felixjp |
-| S14027 | Warum bist du nicht in der Schule? | Why aren't you in school? | Why aren't you at school? | [#6641929](https://tatoeba.org/en/sentences/show/6641929) | Felixjp |
-| S14028 | Gehst du? | You're going? | Are you going? | [#1527714](https://tatoeba.org/en/sentences/show/1527714) | al_ex_an_der |
-| S14029 | Wann gehst du? | When are you going? |  | [#4480660](https://tatoeba.org/en/sentences/show/4480660) | InspectorMustache |
-| S14030 | Gehst du nicht? | Aren't you going? | Aren't you going to go? | [#6626060](https://tatoeba.org/en/sentences/show/6626060) | Felixjp |
+| S15001 | Kannst du Deutsch sprechen? | Can you speak German? |  | [#10038554](https://tatoeba.org/en/sentences/show/10038554) | wolfgangth |
+| S15002 | Du kannst Deutsch sprechen. | You can speak German. |  | [#2250533](https://tatoeba.org/en/sentences/show/2250533) | Pfirsichbaeumchen |
+| S15003 | Ich kann sprechen. | I'm able to speak. |  | [#1159035](https://tatoeba.org/en/sentences/show/1159035) | Esperantostern |
+| S15004 | Was möchtest du? | What do you want? | What would you like?; Which do you want? | [#533486](https://tatoeba.org/en/sentences/show/533486) | Espi |
+| S15005 | Möchtest du Geld? | Do you want money? |  | [#1052016](https://tatoeba.org/en/sentences/show/1052016) | Esperantostern |
+| S15006 | Kann ich essen? | Can I eat? |  | [#1611462](https://tatoeba.org/en/sentences/show/1611462) | Esperantostern |
+| S15007 | Was möchte Tom essen? | What does Tom want to eat? |  | [#2134982](https://tatoeba.org/en/sentences/show/2134982) | Vortarulo |
+| S15008 | Ich möchte Kaffee. | I want some coffee. |  | [#880683](https://tatoeba.org/en/sentences/show/880683) | Esperantostern |
+| S15009 | Möchtest du Tee? | Do you want some tea? | Would you like some tea? | [#2046459](https://tatoeba.org/en/sentences/show/2046459) | al_ex_an_der |
+| S15010 | Was kannst du nicht? | What can't you do? |  | [#1956690](https://tatoeba.org/en/sentences/show/1956690) | Pfirsichbaeumchen |
+| S15011 | Was kann ich essen? | What can I eat? |  | [#8473313](https://tatoeba.org/en/sentences/show/8473313) | Luiaard |
+| S15012 | Wir sprechen Deutsch. | We speak German. |  | [#12013257](https://tatoeba.org/en/sentences/show/12013257) | FerringS |
+| S15013 | Ich möchte es. | I want it. | I do want it. | [#2296175](https://tatoeba.org/en/sentences/show/2296175) | Tamy |
+| S15014 | Möchtest du Kaffee? | Do you want to have some coffee? |  | [#4453527](https://tatoeba.org/en/sentences/show/4453527) | rocco_granata |
+| S15015 | Möchtest du trinken? | Do you want to drink? |  | [#6643203](https://tatoeba.org/en/sentences/show/6643203) | Felixjp |
+| S15016 | Möchtest du Wasser? | Would you like some water? |  | [#10060886](https://tatoeba.org/en/sentences/show/10060886) | wolfgangth |
+| S15017 | Was möchtest du haben? | What would you like to have? |  | [#449950](https://tatoeba.org/en/sentences/show/449950) | al_ex_an_der |
+| S15018 | Was möchtest du jetzt? | What do you want now? |  | [#449988](https://tatoeba.org/en/sentences/show/449988) | al_ex_an_der |
+| S15019 | Was möchtest du trinken? | What do you want to drink? | What would you like to drink?; What do you wish to drink? | [#536208](https://tatoeba.org/en/sentences/show/536208) | Pfirsichbaeumchen |
+| S15020 | Guten Tag, was möchtest du? | Good day. What do you want? |  | [#714345](https://tatoeba.org/en/sentences/show/714345) | jakov |
+| S15021 | Möchtest du einen Tee? | Would you like to have some tea? |  | [#1796443](https://tatoeba.org/en/sentences/show/1796443) | Tamy |
+| S15022 | Möchtest du Kinder haben? | Do you want kids? |  | [#2115998](https://tatoeba.org/en/sentences/show/2115998) | Pfirsichbaeumchen |
+| S15023 | Möchtest du ein Auto? | Do you want a car? |  | [#2981020](https://tatoeba.org/en/sentences/show/2981020) | al_ex_an_der |
+| S15024 | Möchtest du es jetzt? | Would you like it now? |  | [#7837827](https://tatoeba.org/en/sentences/show/7837827) | bonny37 |
+| S15025 | Möchtest du Brot haben? | Would you like some bread? |  | [#8819397](https://tatoeba.org/en/sentences/show/8819397) | Pfirsichbaeumchen |
+| S15026 | Möchtest du jetzt essen? | Do you want to eat now? |  | [#8822708](https://tatoeba.org/en/sentences/show/8822708) | wolfgangth |
+| S15027 | Möchtest du Tee trinken? | Do you want to have some tea? |  | [#10060953](https://tatoeba.org/en/sentences/show/10060953) | wolfgangth |
+| S15028 | Möchtest du keinen Tee? | Won't you have some tea? |  | [#12596531](https://tatoeba.org/en/sentences/show/12596531) | mayabe |
+| S15029 | Was möchtest du heute trinken? | What would you like to drink today? |  | [#1494743](https://tatoeba.org/en/sentences/show/1494743) | Zaghawa |
+| S15030 | Was möchtest du heute essen? | What would you like to eat today? |  | [#8910166](https://tatoeba.org/en/sentences/show/8910166) | Pfirsichbaeumchen |

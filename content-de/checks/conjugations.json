@@ -129,6 +129,32 @@
       "form": "gehen"
     }
   ],
+  "können": [
+    {
+      "person": "ich",
+      "form": "kann"
+    },
+    {
+      "person": "du",
+      "form": "kannst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "kann"
+    },
+    {
+      "person": "wir",
+      "form": "können"
+    },
+    {
+      "person": "ihr",
+      "form": "könnt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "können"
+    }
+  ],
   "essen": [
     {
       "person": "ich",
@@ -205,32 +231,6 @@
     {
       "person": "sie, Sie",
       "form": "geben"
-    }
-  ],
-  "können": [
-    {
-      "person": "ich",
-      "form": "kann"
-    },
-    {
-      "person": "du",
-      "form": "kannst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "kann"
-    },
-    {
-      "person": "wir",
-      "form": "können"
-    },
-    {
-      "person": "ihr",
-      "form": "könnt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "können"
     }
   ]
 }

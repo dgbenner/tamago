@@ -1,0 +1,1408 @@
+{
+  "unit_id": "U15",
+  "pulled_at": "2026-11-10",
+  "candidates": 90,
+  "sentences": [
+    {
+      "sentence_id": "S15001",
+      "unit_id": "U15",
+      "french": "Kannst du Deutsch sprechen?",
+      "english": "Can you speak German?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10038554",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15002",
+      "unit_id": "U15",
+      "french": "Du kannst Deutsch sprechen.",
+      "english": "You can speak German.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2250533",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15003",
+      "unit_id": "U15",
+      "french": "Ich kann sprechen.",
+      "english": "I'm able to speak.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1159035",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15004",
+      "unit_id": "U15",
+      "french": "Was möchtest du?",
+      "english": "What do you want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "533486",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Espi",
+      "other_english": [
+        "What would you like?",
+        "Which do you want?"
+      ]
+    },
+    {
+      "sentence_id": "S15005",
+      "unit_id": "U15",
+      "french": "Möchtest du Geld?",
+      "english": "Do you want money?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1052016",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15006",
+      "unit_id": "U15",
+      "french": "Kann ich essen?",
+      "english": "Can I eat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1611462",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15007",
+      "unit_id": "U15",
+      "french": "Was möchte Tom essen?",
+      "english": "What does Tom want to eat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2134982",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15008",
+      "unit_id": "U15",
+      "french": "Ich möchte Kaffee.",
+      "english": "I want some coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "880683",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15009",
+      "unit_id": "U15",
+      "french": "Möchtest du Tee?",
+      "english": "Do you want some tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2046459",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": [
+        "Would you like some tea?"
+      ]
+    },
+    {
+      "sentence_id": "S15010",
+      "unit_id": "U15",
+      "french": "Was kannst du nicht?",
+      "english": "What can't you do?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1956690",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15011",
+      "unit_id": "U15",
+      "french": "Was kann ich essen?",
+      "english": "What can I eat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8473313",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15012",
+      "unit_id": "U15",
+      "french": "Wir sprechen Deutsch.",
+      "english": "We speak German.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12013257",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "FerringS",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15013",
+      "unit_id": "U15",
+      "french": "Ich möchte es.",
+      "english": "I want it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2296175",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tamy",
+      "other_english": [
+        "I do want it."
+      ]
+    },
+    {
+      "sentence_id": "S15014",
+      "unit_id": "U15",
+      "french": "Möchtest du Kaffee?",
+      "english": "Do you want to have some coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4453527",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rocco_granata",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15015",
+      "unit_id": "U15",
+      "french": "Möchtest du trinken?",
+      "english": "Do you want to drink?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6643203",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15016",
+      "unit_id": "U15",
+      "french": "Möchtest du Wasser?",
+      "english": "Would you like some water?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10060886",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15017",
+      "unit_id": "U15",
+      "french": "Was möchtest du haben?",
+      "english": "What would you like to have?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "449950",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15018",
+      "unit_id": "U15",
+      "french": "Was möchtest du jetzt?",
+      "english": "What do you want now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "449988",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15019",
+      "unit_id": "U15",
+      "french": "Was möchtest du trinken?",
+      "english": "What do you want to drink?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "536208",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "What would you like to drink?",
+        "What do you wish to drink?"
+      ]
+    },
+    {
+      "sentence_id": "S15020",
+      "unit_id": "U15",
+      "french": "Guten Tag, was möchtest du?",
+      "english": "Good day. What do you want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "714345",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jakov",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15021",
+      "unit_id": "U15",
+      "french": "Möchtest du einen Tee?",
+      "english": "Would you like to have some tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1796443",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tamy",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15022",
+      "unit_id": "U15",
+      "french": "Möchtest du Kinder haben?",
+      "english": "Do you want kids?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2115998",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15023",
+      "unit_id": "U15",
+      "french": "Möchtest du ein Auto?",
+      "english": "Do you want a car?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2981020",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15024",
+      "unit_id": "U15",
+      "french": "Möchtest du es jetzt?",
+      "english": "Would you like it now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7837827",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bonny37",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15025",
+      "unit_id": "U15",
+      "french": "Möchtest du Brot haben?",
+      "english": "Would you like some bread?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8819397",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15026",
+      "unit_id": "U15",
+      "french": "Möchtest du jetzt essen?",
+      "english": "Do you want to eat now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8822708",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15027",
+      "unit_id": "U15",
+      "french": "Möchtest du Tee trinken?",
+      "english": "Do you want to have some tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10060953",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15028",
+      "unit_id": "U15",
+      "french": "Möchtest du keinen Tee?",
+      "english": "Won't you have some tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12596531",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mayabe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15029",
+      "unit_id": "U15",
+      "french": "Was möchtest du heute trinken?",
+      "english": "What would you like to drink today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1494743",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15030",
+      "unit_id": "U15",
+      "french": "Was möchtest du heute essen?",
+      "english": "What would you like to eat today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8910166",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S15001",
+      "position": 1,
+      "surface": "Kannst",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15001",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15001",
+      "position": 3,
+      "surface": "Deutsch",
+      "word_id": "W159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15001",
+      "position": 4,
+      "surface": "sprechen",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 2,
+      "surface": "kannst",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 3,
+      "surface": "Deutsch",
+      "word_id": "W159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 4,
+      "surface": "sprechen",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15003",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15003",
+      "position": 2,
+      "surface": "kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15003",
+      "position": 3,
+      "surface": "sprechen",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 2,
+      "surface": "möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 3,
+      "surface": "Geld",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 1,
+      "surface": "Kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 2,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 3,
+      "surface": "essen",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 2,
+      "surface": "möchte",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 4,
+      "surface": "essen",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 2,
+      "surface": "möchte",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 3,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 3,
+      "surface": "Tee",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 2,
+      "surface": "kannst",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 4,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 2,
+      "surface": "kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 3,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 4,
+      "surface": "essen",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 1,
+      "surface": "Wir",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 2,
+      "surface": "sprechen",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 3,
+      "surface": "Deutsch",
+      "word_id": "W159",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 2,
+      "surface": "möchte",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 3,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15015",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15015",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15015",
+      "position": 3,
+      "surface": "trinken",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15016",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15016",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15016",
+      "position": 3,
+      "surface": "Wasser",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 2,
+      "surface": "möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 4,
+      "surface": "haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 2,
+      "surface": "möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 4,
+      "surface": "jetzt",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15019",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15019",
+      "position": 2,
+      "surface": "möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15019",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15019",
+      "position": 4,
+      "surface": "trinken",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15020",
+      "position": 1,
+      "surface": "Guten Tag",
+      "word_id": "W035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15020",
+      "position": 2,
+      "surface": "was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15020",
+      "position": 3,
+      "surface": "möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15020",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 3,
+      "surface": "einen",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 4,
+      "surface": "Tee",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 3,
+      "surface": "Kinder",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 4,
+      "surface": "haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 4,
+      "surface": "Auto",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 4,
+      "surface": "jetzt",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 3,
+      "surface": "Brot",
+      "word_id": "W052",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 4,
+      "surface": "haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 3,
+      "surface": "jetzt",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 4,
+      "surface": "essen",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 3,
+      "surface": "Tee",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 4,
+      "surface": "trinken",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 3,
+      "surface": "keinen",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 4,
+      "surface": "Tee",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15029",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15029",
+      "position": 2,
+      "surface": "möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15029",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15029",
+      "position": 4,
+      "surface": "heute",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15029",
+      "position": 5,
+      "surface": "trinken",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15030",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15030",
+      "position": 2,
+      "surface": "möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15030",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15030",
+      "position": 4,
+      "surface": "heute",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15030",
+      "position": 5,
+      "surface": "essen",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A150041",
+      "sentence_id": "S15004",
+      "direction": "fr_to_en",
+      "answer": "What would you like?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150042",
+      "sentence_id": "S15004",
+      "direction": "fr_to_en",
+      "answer": "Which do you want?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150091",
+      "sentence_id": "S15009",
+      "direction": "fr_to_en",
+      "answer": "Would you like some tea?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150131",
+      "sentence_id": "S15013",
+      "direction": "fr_to_en",
+      "answer": "I do want it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150191",
+      "sentence_id": "S15019",
+      "direction": "fr_to_en",
+      "answer": "What would you like to drink?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150192",
+      "sentence_id": "S15019",
+      "direction": "fr_to_en",
+      "answer": "What do you wish to drink?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

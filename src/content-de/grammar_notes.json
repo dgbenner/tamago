@@ -397,5 +397,49 @@
         "source": "https://en.wiktionary.org/wiki/gehen#Conjugation"
       }
     ]
+  },
+  {
+    "unit_id": "U15",
+    "rule": "Möchte is the polite way to say what you want: ich möchte, du möchtest, er möchte (from mögen). Können is can: ich kann, du kannst, er kann. With either, the second verb goes to the end in its full form: Ich möchte Kaffee trinken, Kannst du Deutsch sprechen? On its own, möchte takes a thing: Ich möchte Kaffee.",
+    "example_sentence_ids": "S15008;S15001;S15007",
+    "conjugation_lemma": "können",
+    "status": "live",
+    "examples": [
+      "S15008",
+      "S15001",
+      "S15007"
+    ],
+    "conjugations": [
+      {
+        "lemma": "können",
+        "present": [
+          {
+            "person": "ich",
+            "form": "kann"
+          },
+          {
+            "person": "du",
+            "form": "kannst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "kann"
+          },
+          {
+            "person": "wir",
+            "form": "können"
+          },
+          {
+            "person": "ihr",
+            "form": "könnt"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "können"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/k%C3%B6nnen#Conjugation"
+      }
+    ]
   }
 ]

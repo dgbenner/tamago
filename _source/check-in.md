@@ -673,7 +673,7 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (80), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (86), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (12)
 
@@ -793,3 +793,12 @@ Every German sentence I wrote (80), for a native speaker of German as spoken in 
 - S14101 Der Park ist schön. = The park is beautiful.
 - S14102 Der Park ist hier. = The park is here. (QT09 answer)
 - S14103 Ja, ich bin zu Hause. = Yes, I'm at home. (QT09 answer)
+
+**U15 Wanting and Can** (6)
+
+- S15101 Die Kinder spielen. = The children are playing.
+- S15102 Wir spielen heute. = We're playing today.
+- S15103 Kannst du morgen spielen? = Can you play tomorrow?
+- S15104 Ja, ich kann morgen spielen. = Yes, I can play tomorrow. (QT09 answer)
+- S15105 Ja, ich möchte Tee. = Yes, I'd like tea. (QT09 answer)
+- S15106 Ja, ich kann Deutsch sprechen. = Yes, I can speak German. (QT09 answer)
