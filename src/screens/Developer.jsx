@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import { snapshotRows } from '../lib/snapshot.js'
+import { lessonLogFor, snapshotRows } from '../lib/snapshot.js'
+import { getAll } from '../lib/store.js'
+import { course as running } from '../lib/course.js'
 import { IconBack } from './icons.jsx'
 import { TL } from '../lib/course.js'
 
@@ -38,8 +40,11 @@ function CourseSnapshot({ snapshot }) {
   const [rows, setRows] = useState(null)
   const load = () => {
     if (rows) return
-    Promise.all([import('../lib/tables-fr.js'), import('../lib/tables-es.js')]).then(([fr, es]) => {
-      const a = snapshotRows(fr.tables, 'French'); const b = snapshotRows(es.tables, 'Spanish')
+    // Each course's lesson log on this device, for the hours estimate: the running course from its own store, the
+    // other only if its database already exists here.
+    const logOf = (id, db) => (running.id === id ? getAll('lessons') : lessonLogFor(db))
+    Promise.all([import('../lib/tables-fr.js'), import('../lib/tables-es.js'), logOf('fr', 'tamago'), logOf('es', 'tamago-es')]).then(([fr, es, frLog, esLog]) => {
+      const a = snapshotRows(fr.tables, 'French', { lessonLog: frLog }); const b = snapshotRows(es.tables, 'Spanish', { lessonLog: esLog })
       setRows(a.map(([label, v], i) => [label, v, b[i][1]]))
     })
   }

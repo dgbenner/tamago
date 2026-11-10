@@ -585,3 +585,7 @@ Part 3, Lingua Libre recordings:
   - S6159 La mère est ici. (candidates already used; first Use: Je suis une mère.)
   - S6261 Voici la fenêtre. (candidates already used; first Use: C'est une fenêtre.)
   - S6266 C'est une petite fenêtre. (candidates already used; first Use: C'est une fenêtre.)
+
+## 2026-11-10: Content numbers report
+
+- src/lib/snapshot.js contentNumbers: three-way sentence split (Fable = Tatoeba rows whose notes name Fable's review), words with Lingua Libre, units/packs, lessons from units.lesson_counts, distinct questions (each unit's sentences per sentence type in each round's mix, QT09 for questions with answers, QT01 per word, QT02 per pictured word), hours = lessons x minutes per round (median of the device's lessons log per round with 3 or more, else 3/4/5/7/7 from the craft review). lessonLogFor reads the other course's log only if the browser lists its database, so it never creates one. scripts/content-report.mjs prints the same numbers.
