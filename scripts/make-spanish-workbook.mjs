@@ -10,6 +10,7 @@
 import { join } from 'node:path'
 import { createRequire } from 'node:module'
 const XLSX = createRequire(import.meta.url)('xlsx')
+import { addHelpCircles } from './lib/help-circles.mjs'
 const ROOT = join(import.meta.dirname, '..')
 const [from, to] = process.argv.slice(2)
 const fr = XLSX.readFile(join(ROOT, from))
@@ -180,6 +181,8 @@ if (process.argv[1] === import.meta.filename) {
     ...es.map(([phrase_id, context, text, english]) => ({ phrase_id, context, language: 'es', text, english, min_level: 'A1', status: 'draft', notes: 'draft: checked against Tatoeba on import' }))])
   const unitsSheet = XLSX.utils.sheet_to_json(wb.Sheets.units, { defval: '' }).map((r) => ({ ...r, can_do_ids: UNITS.find((u) => u.id === r.unit_id)?.canDo.join(';') ?? '' }))
   wb.Sheets.units = XLSX.utils.json_to_sheet(unitsSheet)
+  // The Asking for Help thread (2026-11-10): three help circles, from scripts/lib/help-circles.mjs.
+  addHelpCircles(wb, XLSX, 'es')
   XLSX.writeFile(wb, join(ROOT, to))
   console.log(`Wrote ${to}: ${UNITS.length} units, ${words.length} words`)
 }

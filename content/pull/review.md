@@ -2,36 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U101 The Weather: Units 1 to 5, with words for this topic
+## U33 Finding the Word: Je cherche le mot…; c'est une chose pour…; je ne sais pas
 
-23 sentences picked from 31 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 93 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: neige (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: chose (2). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S8801 | Il fait chaud ici. | It's hot in here. | It's hot out here.; It's warm in here. | [#663094](https://tatoeba.org/en/sentences/show/663094) | U2FS |
-| S8802 | Le Soleil est dans le ciel. | The sun is in the sky. |  | [#1121564](https://tatoeba.org/en/sentences/show/1121564) | sacredceltic |
-| S8803 | Il pleut ? | It's raining? |  | [#3900022](https://tatoeba.org/en/sentences/show/3900022) | gillux |
-| S8804 | C'est fait ? | Done? |  | [#6147061](https://tatoeba.org/en/sentences/show/6147061) | sicerabibax |
-| S8805 | Où est le soleil ? | Where is the sun? |  | [#3628068](https://tatoeba.org/en/sentences/show/3628068) | fleur74 |
-| S8806 | Est-ce que c'est de la neige ? | Is that snow? |  | [#8701633](https://tatoeba.org/en/sentences/show/8701633) | Micsmithel |
-| S8807 | Il fait froid. | It's cold. | It is cold.; The weather is cold. | [#3635](https://tatoeba.org/en/sentences/show/3635) | TRANG |
-| S8808 | Aujourd'hui, il pleut. | Today, it's raining. |  | [#1171380](https://tatoeba.org/en/sentences/show/1171380) | sacredceltic |
-| S8809 | Il pleut aujourd'hui. | It's raining today. |  | [#4646718](https://tatoeba.org/en/sentences/show/4646718) | Tchernobil |
-| S8810 | Le ciel est bleu. | The sky is blue. |  | [#342114](https://tatoeba.org/en/sentences/show/342114) | sysko |
-| S8811 | Le soleil est rouge. | The sun is red. |  | [#1013111](https://tatoeba.org/en/sentences/show/1013111) | sacredceltic |
-| S8812 | L'oiseau est dans le ciel. | The bird is in the sky. |  | [#4170785](https://tatoeba.org/en/sentences/show/4170785) | michelnialon |
-| S8813 | Il fait froid aujourd'hui ! | It's cold today! |  | [#465049](https://tatoeba.org/en/sentences/show/465049) | sacredceltic |
-| S8814 | Il fait très froid. | It's very cold. |  | [#591497](https://tatoeba.org/en/sentences/show/591497) | qdii |
-| S8815 | Aujourd'hui il fait chaud. | Today is a hot day. |  | [#882660](https://tatoeba.org/en/sentences/show/882660) | alexmarcelo |
-| S8816 | Il fait très chaud. | It's very hot. | The weather is very hot. | [#3642828](https://tatoeba.org/en/sentences/show/3642828) | sacredceltic |
-| S8817 | Il fait froid ici. | It's cold here. |  | [#3698180](https://tatoeba.org/en/sentences/show/3698180) | Elliv |
-| S8818 | Il fait très froid aujourd'hui. | Today is very cold. | It's very cold today.; It is very cold today. | [#8422](https://tatoeba.org/en/sentences/show/8422) | sacredceltic |
-| S8819 | Il fait très froid ici. | It's really cold here. | It is very cold here. | [#11222](https://tatoeba.org/en/sentences/show/11222) | steve |
-| S8820 | Aujourd'hui il fait très froid. | Today is very cold. |  | [#1991065](https://tatoeba.org/en/sentences/show/1991065) | nimfeo |
-| S8821 | Aujourd'hui, il fait beau et chaud. | It is nice and warm today. |  | [#1549051](https://tatoeba.org/en/sentences/show/1549051) | martin9 |
-| S8822 | Il fait beau aujourd'hui. | It's nice today. | It's fine today.; It's lovely weather today.; The weather's good today.; The weather's nice today. | [#333133](https://tatoeba.org/en/sentences/show/333133) | sysko |
-| S8823 | Aujourd'hui, il fait beau. | It's nice today. | It's lovely weather today.; The weather's good today.; The weather's nice today.; The weather is good today. | [#2699558](https://tatoeba.org/en/sentences/show/2699558) | Aiji |
+| S9201 | Tu sais comment ça s'appelle ? | Do you know what this thing's called? |  | [#10071743](https://tatoeba.org/en/sentences/show/10071743) | lbdx |
+| S9202 | Je sais comment ça s'appelle. | I know what it's called. |  | [#8272629](https://tatoeba.org/en/sentences/show/8272629) | Rockaround |
+| S9203 | Comment ça s'appelle ? | What's that called? | What's it called?; What's this called?; What is it called?; What is this called? | [#7744909](https://tatoeba.org/en/sentences/show/7744909) | lbdx |
+| S9204 | Je cherche un livre pour enfants. | I'm looking for a children's book. |  | [#4339666](https://tatoeba.org/en/sentences/show/4339666) | michelnialon |
+| S9205 | Je ne sais pas qui il cherche. | I don't know who he's looking for. |  | [#1086402](https://tatoeba.org/en/sentences/show/1086402) | nimfeo |
+| S9206 | Pour vous ? | For you? |  | [#7801750](https://tatoeba.org/en/sentences/show/7801750) | theachaean |
+| S9207 | C'est pour qui ? | Who's it for? | Who is this for?; Who are these for? | [#7356057](https://tatoeba.org/en/sentences/show/7356057) | Micsmithel |
+| S9208 | Est-ce que c'est une bonne chose ? | Is that a good thing? |  | [#9077927](https://tatoeba.org/en/sentences/show/9077927) | Aiji |
+| S9209 | Je ne sais pas qui elle cherche. | I don't know who she's looking for. |  | [#12151875](https://tatoeba.org/en/sentences/show/12151875) | Rovo |
+| S9210 | C'est une bonne chose. | It's a good thing. | That's a good thing.; This is a good thing. | [#1984915](https://tatoeba.org/en/sentences/show/1984915) | sacredceltic |
+| S9211 | Comment s'appelle ton chien ? | What's your dog's name? | What's the name of your dog? | [#5381247](https://tatoeba.org/en/sentences/show/5381247) | Aiji |
+| S9212 | Comment s'appelle le cheval ? | What's the horse's name? |  | [#6456034](https://tatoeba.org/en/sentences/show/6456034) | Aiji |
+| S9213 | Est-ce que tu sais ? | Do you know? |  | [#9025130](https://tatoeba.org/en/sentences/show/9025130) | Micsmithel |
+| S9214 | Est-ce que tu sais pourquoi ? | Do you know why? |  | [#5389564](https://tatoeba.org/en/sentences/show/5389564) | Aiji |
+| S9215 | Tu sais qui c'est ? | Do you know who it is? |  | [#6035256](https://tatoeba.org/en/sentences/show/6035256) | christian63 |
+| S9216 | Ils sont pour qui ? | Who are these for? |  | [#7356058](https://tatoeba.org/en/sentences/show/7356058) | Micsmithel |
+| S9217 | Qu'est-ce que tu ne sais pas ? | What is it that you don't know? |  | [#8700573](https://tatoeba.org/en/sentences/show/8700573) | Julien_PDC |
+| S9218 | Est-ce que tu sais où elle est ? | Do you know where she is? |  | [#133632](https://tatoeba.org/en/sentences/show/133632) | sacredceltic |
+| S9219 | Je sais. | I know. |  | [#134976](https://tatoeba.org/en/sentences/show/134976) | sacredceltic |
+| S9220 | Tu sais. | You know. |  | [#8984467](https://tatoeba.org/en/sentences/show/8984467) | Micsmithel |
+| S9221 | Pour ici, s'il vous plaît. | For here, please. |  | [#399082](https://tatoeba.org/en/sentences/show/399082) | qdii |
+| S9222 | C'est pour vous. | It's for you. | This is for you. | [#458258](https://tatoeba.org/en/sentences/show/458258) | sacredceltic |
+| S9223 | Je sais ça. | I know this. |  | [#2468061](https://tatoeba.org/en/sentences/show/2468061) | sacredceltic |
+| S9224 | Merci pour ça ! | Thanks for that. |  | [#3951968](https://tatoeba.org/en/sentences/show/3951968) | nimfeo |
+| S9225 | Je vous cherche. | I am looking for you. |  | [#4130759](https://tatoeba.org/en/sentences/show/4130759) | Scorpionvenin14 |
+| S9226 | Je suis pour. | I'm for it. |  | [#4594043](https://tatoeba.org/en/sentences/show/4594043) | sacredceltic |
+| S9227 | Je sais pourquoi. | I know why. |  | [#4594178](https://tatoeba.org/en/sentences/show/4594178) | sacredceltic |
+| S9228 | Je sais où. | I know where. |  | [#6965824](https://tatoeba.org/en/sentences/show/6965824) | Yemana |
+| S9229 | Je sais qui. | I know who. |  | [#6965825](https://tatoeba.org/en/sentences/show/6965825) | Yemana |
+| S9230 | Tu sais comment. | You know how. |  | [#7528067](https://tatoeba.org/en/sentences/show/7528067) | Micsmithel |

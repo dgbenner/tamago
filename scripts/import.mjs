@@ -79,7 +79,9 @@ if (existsSync(DRAFTS)) {
   const inBook = new Set(tables.sentences.map((s) => s.sentence_id))
   for (const d of drafts.sentences) {
     if (inBook.has(d.sentence_id)) continue
-    const known = tables.words.filter((w) => unitOrder.get(w.first_unit) <= unitOrder.get(d.unit_id))
+    // A help circle also borrows a few later words its phrases need (units borrow_words, 2026-11-10).
+    const borrow = new Set(String(tables.units.find((u) => u.unit_id === d.unit_id)?.borrow_words ?? '').split(';').map((x) => x.trim()).filter(Boolean))
+    const known = tables.words.filter((w) => unitOrder.get(w.first_unit) <= unitOrder.get(d.unit_id) || borrow.has(w.form))
     const a = analyse(d.french, formIndexFor(known), { names })
     if (a.unknown) { fail(`drafts ${d.sentence_id} "${d.french}": "${a.unknown}" is not a word of ${d.unit_id} or earlier`); continue }
     tables.sentences.push({ sentence_id: d.sentence_id, unit_id: d.unit_id, french: d.french, english: d.english, pair_id: '',

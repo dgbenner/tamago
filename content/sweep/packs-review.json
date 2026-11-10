@@ -53,5 +53,38 @@
       "12424786": "fait here is the past participle (done), not the weather il fait"
     },
     "english": {}
+  },
+  "U31": {
+    "reject": {
+      "13580": "odd on its own (You again?)",
+      "14822": "plus as no longer, misleading for plus (more)",
+      "562667": "suis from suivre (I don’t follow), misleading for je suis",
+      "1954192": "idiom (Tell me about it!)",
+      "1967333": "suis from suivre (I don’t follow), misleading for je suis",
+      "4323068": "colloquial, ne dropped (Je comprends pas)",
+      "6576611": "English wrong (Pas encore is not yet, not Not again)",
+      "8391203": "reflexive vous vous, misleading this early",
+      "8952597": "plus as no longer, misleading for plus (more)",
+      "9025570": "odd on its own (You again!)",
+      "9025572": "odd on its own (You again!)"
+    }
+  },
+  "U32": {
+    "reject": {
+      "835982": "idiom (J’en suis = I’m game)",
+      "1000771": "plus as no longer, misleading for plus (more)",
+      "4855472": "hostile line, odd as a lesson line",
+      "12077456": "odd (He wants you)"
+    }
+  },
+  "U33": {
+    "reject": {
+      "1437019": "English (Why) misleading for comment",
+      "2417329": "s’ as if (si), misleading for s’appelle",
+      "10134989": "odd on its own (Look up more)",
+      "10895246": "en as about it, idiomatic",
+      "12198593": "idiom (rooting for)",
+      "12203869": "en as about it, idiomatic"
+    }
   }
 }

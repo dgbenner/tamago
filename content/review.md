@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 766 (513 matched to Tatoeba, 253 Tamago originals), 71 off, 0 awaiting a ruling. Words with Wiktionary data: 227 of 227. French-to-English answers: 270 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 394.
+Sentences live: 865 (598 matched to Tatoeba, 267 Tamago originals), 71 off, 85 awaiting a ruling. Words with Wiktionary data: 253 of 253. French-to-English answers: 300 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 402.
 
 Unit 1 is approved and live.
 
@@ -34,7 +34,7 @@ Candidates use only Unit 1 words, have 6 words or fewer, have a linked English t
 | S6056 |  | Tu as du temps ?<br>Do you have time? | none |
 | S6057 |  | Il a du temps.<br>He has time. | none |
 
-## Tamago originals: native-speaker check needed before Phase 4 (253)
+## Tamago originals: native-speaker check needed before Phase 4 (267)
 
 Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 
@@ -293,8 +293,22 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S7763 |  | Oui, il va à l'école. | Yes, he's going to school. | tts |
 | S7764 |  | Où est le magasin ? | Where is the shop? | tts |
 | S7765 |  | Le magasin est dans la ville. | The shop is in the town. | tts |
+| S9061 |  | Je ne comprends pas. | I don't understand. | tts |
+| S9062 |  | Répète, s'il te plaît. | Please repeat. | tts |
+| S9063 |  | Répétez, s'il vous plaît. | Please repeat. | tts |
+| S9064 |  | Répète plus lentement, s'il te plaît. | Please repeat more slowly. | tts |
+| S9065 |  | Répétez plus lentement, s'il vous plaît. | Please repeat more slowly. | tts |
+| S9066 |  | Encore, s'il vous plaît. | Again, please. | tts |
+| S9067 |  | Vous comprenez ? | Do you understand? | tts |
+| S9068 |  | Tu comprends ? | Do you understand? | tts |
+| S9069 |  | Parle plus lentement, s'il te plaît. | Please speak more slowly. | tts |
+| S9162 |  | Comment on dit ça en français ? | How do you say that in French? | tts |
+| S9163 |  | Comment on dit « merci » en anglais ? | How do you say "merci" in English? | tts |
+| S9261 |  | Je cherche le mot. | I'm looking for the word. | tts |
+| S9262 |  | C'est une chose pour l'eau. | It's a thing for water. | tts |
+| S9263 |  | C'est une chose pour le pain. | It's a thing for bread. | tts |
 
-## Words, for a read-through (227)
+## Words, for a read-through (253)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -506,9 +520,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W475 | à | à | Preposition |  | to | checked |
 | W476 | au | au | Contraction |  | contraction of à +‎ le, literally “to the, for the, at the” | checked |
 | W477 | dans | dans | Preposition |  | in, inside | checked |
-| W478 | vais | aller | Verb |  | first-person singular present indicative of aller (aller: to go .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var}[with à ‘to a location’]) | checked |
-| W479 | vas | aller | Verb |  | second-person singular present indicative of aller (aller: to go .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var}[with à ‘to a location’]) | checked |
-| W480 | va | aller | Verb |  | inflection of aller: third-person singular present active indicative second-person singular imperative (aller: to go .mw-parser-output .object-usage-tag{font-style:italic}.mw-parser-output .deprecated{color:var}[with à ‘to a location’]) | checked |
+| W478 | vais | aller | Verb |  | first-person singular present indicative of aller (aller: to go [with à ‘to a location’]) | checked |
+| W479 | vas | aller | Verb |  | second-person singular present indicative of aller (aller: to go [with à ‘to a location’]) | checked |
+| W480 | va | aller | Verb |  | inflection of aller: third-person singular present active indicative second-person singular imperative (aller: to go [with à ‘to a location’]) | checked |
 | W501 | bureau | bureau | Noun | m | office | checked |
 | W503 | travail | travail | Noun | m | work; labor | checked |
 | W504 | travaille | travailler | Verb |  | inflection of travailler: first/third-person singular present indicative/subjunctive second-person singular imperative (travailler: to work) | checked |
@@ -527,8 +541,34 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W604 | ciel | ciel | Noun | m | sky | checked |
 | W605 | pleut | pleuvoir | Verb |  | third-person singular present indicative of pleuvoir (pleuvoir: to rain) | checked |
 | W606 | fait | faire | Verb |  | third-person singular present indicative of faire (faire: to do) | checked |
+| W701 | ne | ne | Particle |  | not | checked |
+| W702 | pas | pas | Adverb |  | The most common adverb of negation in French, typically translating into English as not, don't, doesn't, etc. | checked |
+| W703 | comprends | comprendre | Verb |  | first-person singular present indicative of comprendre (comprendre: to understand, comprehend) | checked |
+| W704 | comprenez | comprendre | Verb |  | inflection of comprendre: second-person plural present indicative second-person plural imperative (comprendre: to understand, comprehend) | checked |
+| W705 | répète | répéter | Verb |  | inflection of répéter: first/third-person singular present indicative/subjunctive second-person singular imperative (répéter: to repeat) | checked |
+| W706 | répétez | répéter | Verb |  | inflection of répéter: second-person plural present indicative second-person plural imperative (répéter: to repeat) | checked |
+| W707 | lentement | lentement | Adverb |  | slowly | checked |
+| W708 | plus | plus | Adverb |  | used to express the comparative and superlative of a following adjective or adverb more, -er | checked |
+| W709 | parle | parler | Verb |  | inflection of parler: first/third-person singular present indicative/subjunctive second-person singular imperative (parler: to speak, talk) | checked |
+| W710 | parlez | parler | Verb |  | second-person plural present indicative/imperative of parler (parler: to speak, talk) | checked |
+| W711 | encore | encore | Adverb |  | still | checked |
+| W712 | dit | dire | Verb |  | third-person singular present indicative of dire (dire: to say, to tell) | checked |
+| W713 | on | on | Pronoun |  | one, people, you, someone | checked |
+| W714 | veut | vouloir | Verb |  | third-person singular present indicative of vouloir (vouloir: to want, wish, desire) | checked |
+| W715 | dire | dire | Verb |  | to say, to tell | checked |
+| W716 | mot | mot | Noun | m | word | checked |
+| W717 | ça | ça | Pronoun |  | that | checked |
+| W718 | en | en | Preposition |  | in | checked |
+| W719 | français | français | Noun | m | French | checked |
+| W720 | anglais | anglais | Noun | m | English | checked |
+| W721 | cherche | chercher | Verb |  | inflection of chercher: first/third-person singular present indicative/subjunctive second-person singular imperative (chercher: to look for, to seek) | checked |
+| W722 | sais | savoir | Verb |  | first/second-person singular present indicative of savoir (savoir: to know) | checked |
+| W723 | chose | chose | Noun | f | thing | checked |
+| W724 | pour | pour | Preposition |  | for | checked |
+| W725 | s' | s' | Pronoun |  | Elision of se before a word beginning with a vowel. | checked |
+| W726 | appelle | appeler | Verb |  | inflection of appeler: first/third-person singular present indicative/subjunctive second-person singular imperative (appeler: to call) | checked |
 
-## Matched to Tatoeba (513)
+## Matched to Tatoeba (598)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -1047,6 +1087,91 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S8821 | Aujourd'hui, il fait beau et chaud. | It is nice and warm today. | [#1549051](https://tatoeba.org/en/sentences/show/1549051) | martin9 |  |  | tts |
 | S8822 | Il fait beau aujourd'hui. | It's nice today. | [#333133](https://tatoeba.org/en/sentences/show/333133) | sysko |  |  | tts |
 | S8823 | Aujourd'hui, il fait beau. | It's nice today. | [#2699558](https://tatoeba.org/en/sentences/show/2699558) | Aiji |  |  | tts |
+| S9001 | Ne parle pas ! | Don't talk. | [#1313544](https://tatoeba.org/en/sentences/show/1313544) | sacredceltic |  |  | tts |
+| S9002 | Ne parlez pas ! | Don't talk. | [#1313545](https://tatoeba.org/en/sentences/show/1313545) | sacredceltic |  |  | tts |
+| S9003 | Tu ne comprends pas. | You don't understand. | [#478060](https://tatoeba.org/en/sentences/show/478060) | sacredceltic |  |  | tts |
+| S9004 | Parlez plus lentement, s'il vous plaît ! | Please speak more slowly! | [#1430518](https://tatoeba.org/en/sentences/show/1430518) | Ankio |  |  | tts |
+| S9005 | Parle lentement ! | Speak slowly! | [#7704234](https://tatoeba.org/en/sentences/show/7704234) | Micsmithel |  |  | tts |
+| S9006 | Parlez lentement ! | Speak slowly. | [#8984598](https://tatoeba.org/en/sentences/show/8984598) | Micsmithel |  |  | tts |
+| S9007 | Vous ne comprenez pas. | You don't understand. | [#478061](https://tatoeba.org/en/sentences/show/478061) | sacredceltic |  |  | tts |
+| S9008 | Je ne vous comprends pas. | I don't understand you. | [#7427](https://tatoeba.org/en/sentences/show/7427) | Bruno |  |  | tts |
+| S9009 | Non, je ne comprends pas. | No, I don't understand. | [#1979237](https://tatoeba.org/en/sentences/show/1979237) | nimfeo |  |  | tts |
+| S9010 | Non, vous ne comprenez pas. | No, you don't understand. | [#7840019](https://tatoeba.org/en/sentences/show/7840019) | sacredceltic |  |  | tts |
+| S9011 | Encore merci. | Thanks again. | [#8709224](https://tatoeba.org/en/sentences/show/8709224) | Julien_PDC |  |  | tts |
+| S9012 | Merci encore ! | Thanks again! | [#10265894](https://tatoeba.org/en/sentences/show/10265894) | felix63 |  |  | tts |
+| S9013 | Non, tu ne comprends pas. | No, you don't understand. | [#7840021](https://tatoeba.org/en/sentences/show/7840021) | sacredceltic |  |  | tts |
+| S9014 | Je ne suis pas un homme ! | I'm not a man! | [#1584493](https://tatoeba.org/en/sentences/show/1584493) | Micsmithel |  |  | tts |
+| S9015 | Je ne suis pas un enfant. | I'm not a child. | [#1848531](https://tatoeba.org/en/sentences/show/1848531) | sacredceltic |  |  | tts |
+| S9016 | Je ne suis pas une enfant. | I'm not a child. | [#1848532](https://tatoeba.org/en/sentences/show/1848532) | sacredceltic |  |  | tts |
+| S9017 | Vous parlez. | You speak. | [#3011011](https://tatoeba.org/en/sentences/show/3011011) | Julien_PDC |  |  | tts |
+| S9018 | Je comprends ! | I understand! | [#7368155](https://tatoeba.org/en/sentences/show/7368155) | tras |  |  | tts |
+| S9019 | Je vous comprends. | I understand you. | [#872483](https://tatoeba.org/en/sentences/show/872483) | sacredceltic |  |  | tts |
+| S9020 | Oui, je comprends. Merci. | Yes, I understand. Thank you. | [#449508](https://tatoeba.org/en/sentences/show/449508) | chtof |  |  | tts |
+| S9021 | Oui, je vous comprends. | Yes, I understand you. | [#8278186](https://tatoeba.org/en/sentences/show/8278186) | felix63 |  |  | tts |
+| S9022 | Je suis une femme, pas une fille. | I am a woman, not a girl. | [#6568471](https://tatoeba.org/en/sentences/show/6568471) | felix63 |  |  | tts |
+| S9023 | Tu es un garçon, pas un homme. | You are a boy, not a man. | [#10491967](https://tatoeba.org/en/sentences/show/10491967) | pkill |  |  | tts |
+| S9101 | « Non », ça veut dire « non ». | No means no. | [#1628504](https://tatoeba.org/en/sentences/show/1628504) | sacredceltic |  |  | tts |
+| S9102 | Vous parlez en anglais ? | Are you speaking English? | [#584712](https://tatoeba.org/en/sentences/show/584712) | qdii |  |  | tts |
+| S9103 | Il a dit ça ? | He said that? | [#9079829](https://tatoeba.org/en/sentences/show/9079829) | simias |  |  | tts |
+| S9104 | C'est en français. | It's in French. | [#8730453](https://tatoeba.org/en/sentences/show/8730453) | Julien_PDC |  |  | tts |
+| S9105 | Non veut dire non. | No means no. | [#2354296](https://tatoeba.org/en/sentences/show/2354296) | Amastan |  |  | tts |
+| S9106 | C'est un mot français. | It's a French word. | [#7813732](https://tatoeba.org/en/sentences/show/7813732) | gabrielle |  |  | tts |
+| S9107 | Je parle français et anglais. | I speak French and English. | [#6463142](https://tatoeba.org/en/sentences/show/6463142) | Aiji |  |  | tts |
+| S9108 | Tu aimes ça ? | Do you like that? | [#6773906](https://tatoeba.org/en/sentences/show/6773906) | Micsmithel |  |  | tts |
+| S9109 | Bien dit ! | Well said! | [#747340](https://tatoeba.org/en/sentences/show/747340) | Cocorico |  |  | tts |
+| S9110 | Il parle anglais. | He speaks English. | [#6796](https://tatoeba.org/en/sentences/show/6796) | sysko |  |  | tts |
+| S9111 | C'est le mot. | That's the word. | [#3671106](https://tatoeba.org/en/sentences/show/3671106) | sacredceltic |  |  | tts |
+| S9112 | Pas un mot ! | Don't say a word. | [#3671161](https://tatoeba.org/en/sentences/show/3671161) | sacredceltic |  |  | tts |
+| S9113 | C'est bien dit. | That is well said. | [#8817144](https://tatoeba.org/en/sentences/show/8817144) | Rockaround |  |  | lingua_libre |
+| S9114 | On vous aime. | We love you. | [#9143614](https://tatoeba.org/en/sentences/show/9143614) | Micsmithel |  |  | tts |
+| S9115 | Il veut, elle pas. | He wants to, she doesn't. | [#1133805](https://tatoeba.org/en/sentences/show/1133805) | sacredceltic |  |  | tts |
+| S9116 | On mange, les enfants. | Children, we're eating. | [#8620469](https://tatoeba.org/en/sentences/show/8620469) | Aiji |  |  | tts |
+| S9117 | Les enfants, on mange. | Children, we're eating. | [#9009602](https://tatoeba.org/en/sentences/show/9009602) | Aiji |  |  | tts |
+| S9118 | Tu comprends ça ? | Are you getting this? | [#10166492](https://tatoeba.org/en/sentences/show/10166492) | Micsmithel |  |  | tts |
+| S9119 | Vous parlez le français ? | Do you speak French? | [#3053819](https://tatoeba.org/en/sentences/show/3053819) | Aiji |  |  | tts |
+| S9120 | Comment je mange ça ? | How do I eat this? | [#7785905](https://tatoeba.org/en/sentences/show/7785905) | Aiji |  |  | tts |
+| S9121 | Vous ne parlez pas français ? | Don't you speak French? | [#5268607](https://tatoeba.org/en/sentences/show/5268607) | martin9 |  |  | tts |
+| S9122 | C'est ça. | Correct. | [#4320469](https://tatoeba.org/en/sentences/show/4320469) | gillux |  |  | lingua_libre |
+| S9123 | Parle français. | Speak French. | [#8703218](https://tatoeba.org/en/sentences/show/8703218) | Julien_PDC |  |  | tts |
+| S9124 | Parlez français. | Speak French. | [#8708645](https://tatoeba.org/en/sentences/show/8708645) | Julien_PDC |  |  | tts |
+| S9125 | C'est français. | It's French. | [#8737251](https://tatoeba.org/en/sentences/show/8737251) | Julien_PDC |  |  | tts |
+| S9126 | Mange ça ! | Eat that! | [#10499471](https://tatoeba.org/en/sentences/show/10499471) | Micsmithel |  |  | tts |
+| S9127 | Je parle anglais. | I speak English. | [#14325](https://tatoeba.org/en/sentences/show/14325) | sacredceltic |  |  | tts |
+| S9128 | Il parle français. | He speaks French. | [#131350](https://tatoeba.org/en/sentences/show/131350) | hirymnak |  |  | tts |
+| S9129 | Je suis français. | I'm French. | [#139224](https://tatoeba.org/en/sentences/show/139224) | sacredceltic |  |  | tts |
+| S9130 | Il est Anglais. | He's English. | [#461776](https://tatoeba.org/en/sentences/show/461776) | Bruno |  |  | tts |
+| S9131 | J'aime ça. | I like it. | [#3633553](https://tatoeba.org/en/sentences/show/3633553) | sacredceltic |  |  | tts |
+| S9201 | Tu sais comment ça s'appelle ? | Do you know what this thing's called? | [#10071743](https://tatoeba.org/en/sentences/show/10071743) | lbdx |  |  | tts |
+| S9202 | Je sais comment ça s'appelle. | I know what it's called. | [#8272629](https://tatoeba.org/en/sentences/show/8272629) | Rockaround |  |  | tts |
+| S9203 | Comment ça s'appelle ? | What's that called? | [#7744909](https://tatoeba.org/en/sentences/show/7744909) | lbdx |  |  | tts |
+| S9204 | Je cherche un livre pour enfants. | I'm looking for a children's book. | [#4339666](https://tatoeba.org/en/sentences/show/4339666) | michelnialon |  |  | tts |
+| S9205 | Je ne sais pas qui il cherche. | I don't know who he's looking for. | [#1086402](https://tatoeba.org/en/sentences/show/1086402) | nimfeo |  |  | tts |
+| S9206 | Pour vous ? | For you? | [#7801750](https://tatoeba.org/en/sentences/show/7801750) | theachaean |  |  | tts |
+| S9207 | C'est pour qui ? | Who's it for? | [#7356057](https://tatoeba.org/en/sentences/show/7356057) | Micsmithel |  |  | tts |
+| S9208 | Est-ce que c'est une bonne chose ? | Is that a good thing? | [#9077927](https://tatoeba.org/en/sentences/show/9077927) | Aiji |  |  | tts |
+| S9209 | Je ne sais pas qui elle cherche. | I don't know who she's looking for. | [#12151875](https://tatoeba.org/en/sentences/show/12151875) | Rovo |  |  | tts |
+| S9210 | C'est une bonne chose. | It's a good thing. | [#1984915](https://tatoeba.org/en/sentences/show/1984915) | sacredceltic |  |  | tts |
+| S9211 | Comment s'appelle ton chien ? | What's your dog's name? | [#5381247](https://tatoeba.org/en/sentences/show/5381247) | Aiji |  |  | tts |
+| S9212 | Comment s'appelle le cheval ? | What's the horse's name? | [#6456034](https://tatoeba.org/en/sentences/show/6456034) | Aiji |  |  | tts |
+| S9213 | Est-ce que tu sais ? | Do you know? | [#9025130](https://tatoeba.org/en/sentences/show/9025130) | Micsmithel |  |  | tts |
+| S9214 | Est-ce que tu sais pourquoi ? | Do you know why? | [#5389564](https://tatoeba.org/en/sentences/show/5389564) | Aiji |  |  | tts |
+| S9215 | Tu sais qui c'est ? | Do you know who it is? | [#6035256](https://tatoeba.org/en/sentences/show/6035256) | christian63 |  |  | tts |
+| S9216 | Ils sont pour qui ? | Who are these for? | [#7356058](https://tatoeba.org/en/sentences/show/7356058) | Micsmithel |  |  | tts |
+| S9217 | Qu'est-ce que tu ne sais pas ? | What is it that you don't know? | [#8700573](https://tatoeba.org/en/sentences/show/8700573) | Julien_PDC |  |  | tts |
+| S9218 | Est-ce que tu sais où elle est ? | Do you know where she is? | [#133632](https://tatoeba.org/en/sentences/show/133632) | sacredceltic |  |  | tts |
+| S9219 | Je sais. | I know. | [#134976](https://tatoeba.org/en/sentences/show/134976) | sacredceltic |  |  | tts |
+| S9220 | Tu sais. | You know. | [#8984467](https://tatoeba.org/en/sentences/show/8984467) | Micsmithel |  |  | tts |
+| S9221 | Pour ici, s'il vous plaît. | For here, please. | [#399082](https://tatoeba.org/en/sentences/show/399082) | qdii |  |  | tts |
+| S9222 | C'est pour vous. | It's for you. | [#458258](https://tatoeba.org/en/sentences/show/458258) | sacredceltic |  |  | tts |
+| S9223 | Je sais ça. | I know this. | [#2468061](https://tatoeba.org/en/sentences/show/2468061) | sacredceltic |  |  | tts |
+| S9224 | Merci pour ça ! | Thanks for that. | [#3951968](https://tatoeba.org/en/sentences/show/3951968) | nimfeo |  |  | tts |
+| S9225 | Je vous cherche. | I am looking for you. | [#4130759](https://tatoeba.org/en/sentences/show/4130759) | Scorpionvenin14 |  |  | tts |
+| S9226 | Je suis pour. | I'm for it. | [#4594043](https://tatoeba.org/en/sentences/show/4594043) | sacredceltic |  |  | tts |
+| S9227 | Je sais pourquoi. | I know why. | [#4594178](https://tatoeba.org/en/sentences/show/4594178) | sacredceltic |  |  | tts |
+| S9228 | Je sais où. | I know where. | [#6965824](https://tatoeba.org/en/sentences/show/6965824) | Yemana |  |  | tts |
+| S9229 | Je sais qui. | I know who. | [#6965825](https://tatoeba.org/en/sentences/show/6965825) | Yemana |  |  | tts |
+| S9230 | Tu sais comment. | You know how. | [#7528067](https://tatoeba.org/en/sentences/show/7528067) | Micsmithel |  |  | tts |
+| S9161 | Qu'est-ce que ça veut dire ? | What does that mean? | [#2224260](https://tatoeba.org/en/sentences/show/2224260) | sacredceltic |  |  | tts |
 
 ## Off in the workbook (71)
 
@@ -1126,7 +1251,7 @@ Set to off by the workbook owner. Not shipped.
 | S7729 | À elle. | It's her turn. | pulled from Tatoeba under content_pull |
 | S7730 | À trois ! | On the count of three! | pulled from Tatoeba under content_pull |
 
-## English-to-French answers generated from Tatoeba (394)
+## English-to-French answers generated from Tatoeba (402)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -1526,6 +1651,14 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S8822 | It's nice today. | Il fait bon aujourd'hui. | [#8695555](https://tatoeba.org/en/sentences/show/8695555) | Julien_PDC |
 | S8823 | It's nice today. | Il fait beau aujourd'hui. | [#333133](https://tatoeba.org/en/sentences/show/333133) | sysko |
 | S8823 | It's nice today. | Il fait bon aujourd'hui. | [#8695555](https://tatoeba.org/en/sentences/show/8695555) | Julien_PDC |
+| S9061 | I don't understand. | Je comprends pas. | [#4323068](https://tatoeba.org/en/sentences/show/4323068) | gillux |
+| S9067 | Do you understand? | Comprenez-vous ? | [#883779](https://tatoeba.org/en/sentences/show/883779) | sacredceltic |
+| S9068 | Do you understand? | Comprenez-vous ? | [#883779](https://tatoeba.org/en/sentences/show/883779) | sacredceltic |
+| S9069 | Please speak more slowly. | Parlez plus lentement, s'il vous plaît ! | [#1430518](https://tatoeba.org/en/sentences/show/1430518) | Ankio |
+| S9069 | Please speak more slowly. | Parlez un peu plus lentement, s'il vous plaît. | [#13624](https://tatoeba.org/en/sentences/show/13624) | sacredceltic |
+| S9069 | Please speak more slowly. | S'il te plaît, parle moins vite. | [#12825](https://tatoeba.org/en/sentences/show/12825) | sacredceltic |
+| S9162 | How do you say that in French? | Comment dis-tu ça en français ? | [#5865608](https://tatoeba.org/en/sentences/show/5865608) | Aiji |
+| S9162 | How do you say that in French? | Comment dites-vous cela en français ? | [#5865610](https://tatoeba.org/en/sentences/show/5865610) | Aiji |
 
 ## French feedback lines (9)
 
@@ -1543,7 +1676,7 @@ Checked against Tatoeba: same French from a trusted owner, linked to the listed 
 | FB51 | Pas tout à fait. | Not quite. | flagged |  | Tatoeba links other English: Not exactly. |
 | FB52 | D'accord, on continue. | Okay, let's keep going. | flagged |  | not in Tatoeba from a trusted owner |
 
-## Lingua Libre recordings (14)
+## Lingua Libre recordings (16)
 
 | ID | French | File | License | Recordings found |
 | --- | --- | --- | --- | --- |
@@ -1561,3 +1694,5 @@ Checked against Tatoeba: same French from a trusted owner, linked to the listed 
 | S3021 | Et vous ? | [LL-Q150 (fra)-XANA000-et vous ?.wav](https://upload.wikimedia.org/wikipedia/commons/0/01/LL-Q150_%2528fra%2529-XANA000-et_vous_%253F.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC0 | 1 |
 | S3022 | Ça va ? | [LL-Q150 (fra)-XANA000-ça va ?.wav](https://upload.wikimedia.org/wikipedia/commons/7/77/LL-Q150_%2528fra%2529-XANA000-%25C3%25A7a_va_%253F.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC0 | 1 |
 | S7726 | À demain. | [LL-Q150 (fra)-LoquaxFR-à demain.wav](https://upload.wikimedia.org/wikipedia/commons/8/81/LL-Q150_%2528fra%2529-LoquaxFR-%25C3%25A0_demain.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
+| S9113 | C'est bien dit. | [LL-Q150 (fra)-LoquaxFR-c’est bien dit.wav](https://upload.wikimedia.org/wikipedia/commons/c/c5/LL-Q150_%2528fra%2529-LoquaxFR-c%25E2%2580%2599est_bien_dit.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 1 |
+| S9122 | C'est ça. | [LL-Q150 (fra)-Lepticed7-c’est ça.wav](https://upload.wikimedia.org/wikipedia/commons/d/d9/LL-Q150_%2528fra%2529-Lepticed7-c%25E2%2580%2599est_%25C3%25A7a.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |

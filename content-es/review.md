@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 792 (665 matched to Tatoeba, 127 Tamago originals), 0 off, 665 awaiting a ruling. Words with Wiktionary data: 234 of 234. French-to-English answers: 150 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 9.
+Sentences live: 792 (665 matched to Tatoeba, 127 Tamago originals), 0 off, 665 awaiting a ruling. Words with Wiktionary data: 257 of 257. French-to-English answers: 150 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 9.
 
 Unit 1 is approved and live.
 
@@ -142,7 +142,7 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S15102 |  | Sí, me gusta la escuela. | Yes, I like school. | tts |
 | S15103 |  | Sí, yo también voy. | Yes, I'm going too. | tts |
 
-## Words, for a read-through (234)
+## Words, for a read-through (257)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -382,6 +382,29 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W568 | flor | flor | Noun | f | flower | checked |
 | W570 | árbol | árbol | Noun | m | tree | checked |
 | W572 | jardinero | jardinero | Noun | m | gardener | checked |
+| W701 | entiendo | entender | Verb |  | first-person singular present indicative of entender (entender: to understand, to fathom) | checked |
+| W702 | entiendes | entender | Verb |  | second-person singular present indicative of entender (entender: to understand, to fathom) | checked |
+| W703 | despacio | despacio | Adverb |  | slowly | checked |
+| W704 | más | más | Adverb |  | more; -er | checked |
+| W705 | repite | repetir | Verb |  | inflection of repetir: third-person singular present indicative second-person singular imperative (repetir: to repeat) | checked |
+| W706 | repita | repetir | Verb |  | inflection of repetir: first/third-person singular present subjunctive third-person singular imperative (repetir: to repeat) | checked |
+| W707 | habla | hablar | Verb |  | inflection of hablar: third-person singular present indicative second-person singular imperative (hablar: to talk; to speak; to communicate using words [with con ‘with’, along with de or sobre ‘about’, along with en ‘in’, along with dative ‘person spoken to’, along with accusative ‘what is said’]) | checked |
+| W708 | hable | hablar | Verb |  | inflection of hablar: first/third-person singular present subjunctive third-person singular imperative (hablar: to talk; to speak; to communicate using words [with con ‘with’, along with de or sobre ‘about’, along with en ‘in’, along with dative ‘person spoken to’, along with accusative ‘what is said’]) | checked |
+| W709 | otra vez | otra vez | Interjection |  | encore! | checked |
+| W710 | se | se | Pronoun |  | A reflexive or reciprocal pronoun: oneself, himself, herself, itself, yourself; themselves; yourselves; each other; one another | checked |
+| W711 | dice | decir | Verb |  | third-person singular present indicative of decir (decir: to say, to tell, to name, to mention) | checked |
+| W712 | significa | significar | Verb |  | inflection of significar: third-person singular present indicative second-person singular imperative (significar: to signify) | checked |
+| W713 | quiere | querer | Verb |  | inflection of querer: third-person singular present indicative second-person singular imperative (querer: to desire, to want, to want to) | checked |
+| W714 | decir | decir | Verb |  | to say, to tell, to name, to mention | checked |
+| W715 | palabra | palabra | Noun | f | word | checked |
+| W716 | español | español | Noun | m | Spanish | checked |
+| W717 | inglés | inglés | Noun | m | English | checked |
+| W718 | busco | buscar | Verb |  | first-person singular present indicative of buscar (buscar: to seek, search for, look for, try to find, to scour) | checked |
+| W719 | sé | saber | Verb |  | first-person singular present indicative of saber (saber: to know, to understand) | checked |
+| W720 | cosa | cosa | Noun | f | thing | checked |
+| W721 | para | para | Preposition |  | for, to | checked |
+| W722 | llama | llamar | Verb |  | inflection of llamar: third-person singular present indicative second-person singular imperative (llamar: to summon, to call) | checked |
+| W723 | sirve | servir | Verb |  | inflection of servir: third-person singular present indicative second-person singular imperative (servir: to serve) | checked |
 
 ## Matched to Tatoeba (665)
 

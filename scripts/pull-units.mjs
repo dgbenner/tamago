@@ -18,7 +18,8 @@ const MIN_WORDS = 2, MAX_WORDS = 7 // P03
 const TARGET_MIN = 30, TARGET_MAX = 40, PER_WORD = 3 // P04
 const GRAMMAR_MIN = 10, CONTRAST_MIN = 2 // P05
 const QUESTIONS_MIN = 4 // P06
-const ID_BASE = { U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600, U06: 7000, U07: 7100, U08: 7200, U09: 7300, U10: 7400, U11: 7500, U12: 7600, U13: 7700, U201: 8000, U202: 8100, U203: 8200, U204: 8300, U205: 8400, U206: 8500, U207: 8600, U208: 8700 }
+// Help circles (2026-11-10): U31 to U33, the Asking for Help thread.
+const ID_BASE = { U31: 9000, U32: 9100, U33: 9200, U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600, U06: 7000, U07: 7100, U08: 7200, U09: 7300, U10: 7400, U11: 7500, U12: 7600, U13: 7700, U201: 8000, U202: 8100, U203: 8200, U204: 8300, U205: 8400, U206: 8500, U207: 8600, U208: 8700 }
 // A topic pack (is_topic_pick yes) is one node: a smaller target, and it draws only on Units 1 to 5 plus its own words.
 const isPack = (u) => u.is_topic_pick === 'yes'
 const PACK_TARGET = 15
@@ -74,7 +75,7 @@ function analyse(text, formIndex) {
   }
   return a
 }
-const formIndexFor = (allowedUnits) => formIndexOf(words.filter((w) => allowedUnits.has(w.first_unit)))
+const formIndexFor = (allowedUnits, borrowed = new Set()) => formIndexOf(words.filter((w) => allowedUnits.has(w.first_unit) || borrowed.has(w.form)))
 
 // The unit's grammar point, read from its contrast sets: the forms the unit is teaching.
 const contrastPairs = (u) => String(u.contrast_sets).split(';').map((x) => x.trim()).filter(Boolean).map((s) => s.split('|'))
@@ -100,13 +101,19 @@ const report = ['# Units 2 to 5: sentences pulled from Tatoeba', '',
 // Live units open to every later unit, except the topic packs and the topic node: a pack is one optional choice.
 // Live, or approved in the course's decisions (a Spanish unit is approved before the workbook is synced).
 const isLive = (u) => String(u.status).startsWith('live') || DECISIONS.units?.[u.unit_id]?.action === 'approve'
-const opened = new Set(units.filter((u) => isLive(u) && !['yes', 'node'].includes(u.is_topic_pick)).map((u) => u.unit_id))
+// Help circles (is_topic_pick help, 2026-11-10) stay out too: they don't gate the path, so a main unit can't count on
+// their phrase words. A help circle draws on the main units and help circles before it (by order), its own words, and
+// the few later words its phrases need (borrow_words column: forms separated by ;).
+const isHelp = (u) => u.is_topic_pick === 'help'
+const opened = new Set(units.filter((u) => isLive(u) && !['yes', 'node', 'help'].includes(u.is_topic_pick)).map((u) => u.unit_id))
 for (const u of units) {
   if (u.is_topic_pick === 'node') continue
-  if (onlyUnit && u.unit_id !== onlyUnit) { if (!isPack(u) && isLive(u)) opened.add(u.unit_id); continue }
+  if (onlyUnit && u.unit_id !== onlyUnit) { if (!isPack(u) && !isHelp(u) && isLive(u)) opened.add(u.unit_id); continue }
   const firstFive = units.filter((x) => !['yes', 'node'].includes(x.is_topic_pick)).slice(0, 5).map((x) => x.unit_id)
-  const allowed = COURSE !== 'fr' && isPack(u) && u.topic_node === 'U100' ? new Set([...firstFive, u.unit_id]) : new Set([...opened, u.unit_id])
-  if (!isPack(u)) opened.add(u.unit_id)
+  const allowed = isHelp(u) ? new Set([...units.filter((x) => x.order < u.order && !['yes', 'node'].includes(x.is_topic_pick)).map((x) => x.unit_id), u.unit_id])
+    : COURSE !== 'fr' && isPack(u) && u.topic_node === 'U100' ? new Set([...firstFive, u.unit_id]) : new Set([...opened, u.unit_id])
+  if (!isPack(u) && !isHelp(u)) opened.add(u.unit_id)
+  const borrowed = isHelp(u) ? new Set(String(u.borrow_words ?? '').split(';').map((x) => x.trim()).filter(Boolean)) : new Set()
   // A live pack marked rebuild in packs-review.json (Weather, 2026-11-10) is topped up: its live Tatoeba sentences stay
   // and count toward the targets, new picks take ids from REBUILD_BASE.
   const rebuild = Boolean(packReview(u.unit_id).rebuild)
@@ -124,7 +131,7 @@ for (const u of units) {
     pull = JSON.parse(readFileSync(file, 'utf8'))
   } else {
     // P01 to P03: every candidate.
-    const index = formIndexFor(allowed)
+    const index = formIndexFor(allowed, borrowed)
     const seen = new Set()
     const candidates = []
     const turnedDown = rejected(u.unit_id)

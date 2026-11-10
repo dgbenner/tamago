@@ -490,6 +490,21 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md (Dan: packs on all of A1, Tatoeba only): 30 checked Tatoeba sentences, every word in 3 or more, reviewed in content/sweep/packs-review.json"
+    },
+    "U31": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 24 Tatoeba sentences from checked owners after cutting 14 (suis from suivre, plus as no longer, Pas encore glossed as Not again, idioms like Vous parlez !, odd lines); 9 drafts for the phrases checked Tatoeba lacks (Je ne comprends pas., Répétez, s'il vous plaît.)"
+    },
+    "U32": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 29 Tatoeba sentences from checked owners after cutting 4 (J'en suis, plus as no longer, a hostile line, an odd one); 3 drafts for the phrases checked Tatoeba lacks (Qu'est-ce que ça veut dire ?, Comment on dit … ?)"
+    },
+    "U33": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 29 Tatoeba sentences from checked owners after cutting 6 (en as about it, s' as if, rooting for, English that misleads, an odd line); 3 drafts for the phrases checked Tatoeba lacks (Je cherche le mot., C'est une chose pour …)"
     }
   },
   "cut_sentences": [
@@ -729,6 +744,110 @@
     "W606": {
       "hint": "to be, of the weather (faire)",
       "source": "Wiktionary, sense \"to be\" of faire (impersonal: il fait froid)"
+    },
+    "W701": {
+      "hint": "not (ne … pas)",
+      "source": "short form of Wiktionary"
+    },
+    "W702": {
+      "hint": "not (ne … pas)",
+      "source": "short form of Wiktionary"
+    },
+    "W703": {
+      "hint": "understand (comprendre, je, tu)",
+      "source": "short form of Wiktionary"
+    },
+    "W704": {
+      "hint": "understand (comprendre, vous)",
+      "source": "short form of Wiktionary"
+    },
+    "W705": {
+      "hint": "repeat (répéter, tu)",
+      "source": "short form of Wiktionary"
+    },
+    "W706": {
+      "hint": "repeat (répéter, vous)",
+      "source": "short form of Wiktionary"
+    },
+    "W707": {
+      "hint": "slowly",
+      "source": "short form of Wiktionary"
+    },
+    "W708": {
+      "hint": "more; plus lentement: more slowly",
+      "source": "short form of Wiktionary"
+    },
+    "W709": {
+      "hint": "speak (parler, je, tu, il)",
+      "source": "short form of Wiktionary"
+    },
+    "W710": {
+      "hint": "speak (parler, vous)",
+      "source": "short form of Wiktionary"
+    },
+    "W711": {
+      "hint": "again; still",
+      "source": "short form of Wiktionary"
+    },
+    "W712": {
+      "hint": "says (dire)",
+      "source": "short form of Wiktionary"
+    },
+    "W713": {
+      "hint": "one, we, people",
+      "source": "short form of Wiktionary"
+    },
+    "W714": {
+      "hint": "wants (vouloir); ça veut dire: that means",
+      "source": "short form of Wiktionary"
+    },
+    "W715": {
+      "hint": "to say",
+      "source": "short form of Wiktionary"
+    },
+    "W716": {
+      "hint": "word",
+      "source": "short form of Wiktionary"
+    },
+    "W717": {
+      "hint": "that, it",
+      "source": "short form of Wiktionary"
+    },
+    "W718": {
+      "hint": "in",
+      "source": "short form of Wiktionary"
+    },
+    "W719": {
+      "hint": "French (the language)",
+      "source": "short form of Wiktionary"
+    },
+    "W720": {
+      "hint": "English (the language)",
+      "source": "short form of Wiktionary"
+    },
+    "W721": {
+      "hint": "look for (chercher, je, il)",
+      "source": "short form of Wiktionary"
+    },
+    "W722": {
+      "hint": "know (savoir, je, tu)",
+      "source": "short form of Wiktionary"
+    },
+    "W723": {
+      "hint": "thing",
+      "source": "short form of Wiktionary"
+    },
+    "W724": {
+      "hint": "for",
+      "source": "short form of Wiktionary"
+    },
+    "W725": {
+      "hint": "oneself (se); s’appelle: is called",
+      "source": "short form of Wiktionary"
+    },
+    "W726": {
+      "hint": "calls (appeler); s’appelle: is called",
+      "source": "short form of Wiktionary"
     }
   },
   "phrases_off": {

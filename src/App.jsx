@@ -399,7 +399,9 @@ export default function App() {
   // Spanish has one more row of units (row 9), so the last row of main units always gets one too.
   const lastMainRow = Math.max(0, ...layout.filter((t) => !isTopicNode(t.unit_id)).map((t) => t.row))
   const checkpointRows = [...new Set([2, 3, 6, 8, lastMainRow])].filter((r) => layout.some((t) => t.row === r && !isTopicNode(t.unit_id)))
-  const unitsUpTo = (row) => layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id)).map((t) => t.unit_id)
+  // Help circles (2026-11-10) don't gate anything, so a checkpoint neither reviews nor waits for them.
+  const isHelpUnit = (unitId) => tables.units.find((u) => u.unit_id === unitId)?.is_topic_pick === 'help'
+  const unitsUpTo = (row) => layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id) && !isHelpUnit(t.unit_id)).map((t) => t.unit_id)
   // The final A1 check: four parts over every A1 unit's sentences, modeled on the course's A1 exam (finalcheck.js).
   const mainUnitIds = layout.filter((t) => !isTopicNode(t.unit_id)).map((t) => t.unit_id)
   const startFinal = () => begin(buildSession(allContent, 'final', finalItems(allContent, mainUnitIds), { settings: lessonModes() }))
@@ -819,11 +821,13 @@ export default function App() {
   const lowest = ['reading', 'listening', 'writing', 'speaking'].map((k) => scores[k]).sort((p, q) => p.score - q.score)[0]
   const levelLabel = started ? titleCase(lowest?.band ?? band(0)) : 'Starting Out'
   const rowNumbers = [...new Set(layout.map((t) => t.row))].sort((p, q) => p - q)
+  // The row after a given one (rows can be 1.5 for a help circle); one past the last when it's the last.
+  const rowAfter = (r) => rowNumbers[rowNumbers.indexOf(r) + 1] ?? r + 1
   const rowReaching = (share) => rowNumbers.find((r) => mainA1.filter((t) => t.row <= r).length / mainA1.length >= share)
   const markers = started ? [
     { beforeRow: 1, label: 'Very Early A1' },
-    { beforeRow: rowReaching(10 / 29) + 1, label: 'Early A1' },
-    { beforeRow: rowReaching(20 / 29) + 1, label: 'High A1' },
+    { beforeRow: rowAfter(rowReaching(10 / 29)), label: 'Early A1' },
+    { beforeRow: rowAfter(rowReaching(20 / 29)), label: 'High A1' },
     { beforeRow: rowNumbers.at(-1) + 1, label: 'A2' },
   ] : []
   return (

@@ -34,6 +34,8 @@ A1_PLAN.forEach((id, i) => {
   const file = pick(group, taken)
   if (file) kept[id] = { group, file }
 })
+// The Asking for Help thread (2026-11-10) has a look of its own in every course: the three gunkan, in order.
+for (const [id, file] of [['U31', 'ikura.webp'], ['U32', 'tobiko.webp'], ['U33', 'uni.webp']]) kept[id] = { group: 'maki', file }
 // Side icons for nodes outside the path, once there is side art.
 for (const id of ['U100', 'checkpoint_2', 'checkpoint_3', 'make']) {
   if (kept[id] || !(pools.sides ?? []).length) continue

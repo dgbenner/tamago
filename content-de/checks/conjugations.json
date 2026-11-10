@@ -336,5 +336,213 @@
       "person": "sie, Sie",
       "form": "singen"
     }
+  ],
+  "verstehen": [
+    {
+      "person": "ich",
+      "form": "verstehe"
+    },
+    {
+      "person": "du",
+      "form": "verstehst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "versteht"
+    },
+    {
+      "person": "wir",
+      "form": "verstehen"
+    },
+    {
+      "person": "ihr",
+      "form": "versteht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "verstehen"
+    }
+  ],
+  "sprechen": [
+    {
+      "person": "ich",
+      "form": "spreche"
+    },
+    {
+      "person": "du",
+      "form": "sprichst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "spricht"
+    },
+    {
+      "person": "wir",
+      "form": "sprechen"
+    },
+    {
+      "person": "ihr",
+      "form": "sprecht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "sprechen"
+    }
+  ],
+  "sagen": [
+    {
+      "person": "ich",
+      "form": "sage"
+    },
+    {
+      "person": "du",
+      "form": "sagst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "sagt"
+    },
+    {
+      "person": "wir",
+      "form": "sagen"
+    },
+    {
+      "person": "ihr",
+      "form": "sagt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "sagen"
+    }
+  ],
+  "heißen": [
+    {
+      "person": "ich",
+      "form": "heiße"
+    },
+    {
+      "person": "du",
+      "form": "heißt"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "heißt"
+    },
+    {
+      "person": "wir",
+      "form": "heißen"
+    },
+    {
+      "person": "ihr",
+      "form": "heißt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "heißen"
+    }
+  ],
+  "bedeuten": [
+    {
+      "person": "ich",
+      "form": "bedeute"
+    },
+    {
+      "person": "du",
+      "form": "bedeutest"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "bedeutet"
+    },
+    {
+      "person": "wir",
+      "form": "bedeuten"
+    },
+    {
+      "person": "ihr",
+      "form": "bedeutet"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "bedeuten"
+    }
+  ],
+  "suchen": [
+    {
+      "person": "ich",
+      "form": "suche"
+    },
+    {
+      "person": "du",
+      "form": "suchst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "sucht"
+    },
+    {
+      "person": "wir",
+      "form": "suchen"
+    },
+    {
+      "person": "ihr",
+      "form": "sucht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "suchen"
+    }
+  ],
+  "nennen": [
+    {
+      "person": "ich",
+      "form": "nenne"
+    },
+    {
+      "person": "du",
+      "form": "nennst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "nennt"
+    },
+    {
+      "person": "wir",
+      "form": "nennen"
+    },
+    {
+      "person": "ihr",
+      "form": "nennt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "nennen"
+    }
+  ],
+  "wissen": [
+    {
+      "person": "ich",
+      "form": "weiß"
+    },
+    {
+      "person": "du",
+      "form": "weißt"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "weiß"
+    },
+    {
+      "person": "wir",
+      "form": "wissen"
+    },
+    {
+      "person": "ihr",
+      "form": "wisst"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "wissen"
+    }
   ]
 }

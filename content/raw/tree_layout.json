@@ -103,5 +103,26 @@
     "unit_id": "U200",
     "unlocks_after": "row 8",
     "notes": "a second topic: the packs with topic_node U200, on all of A1"
+  },
+  {
+    "row": 1.5,
+    "position": 1,
+    "unit_id": "U31",
+    "unlocks_after": "row 1",
+    "notes": "Asking for Help thread: a help circle, gates nothing"
+  },
+  {
+    "row": 3.5,
+    "position": 1,
+    "unit_id": "U32",
+    "unlocks_after": "row 3",
+    "notes": "Asking for Help thread: a help circle, gates nothing"
+  },
+  {
+    "row": 6.5,
+    "position": 1,
+    "unit_id": "U33",
+    "unlocks_after": "row 6",
+    "notes": "Asking for Help thread: a help circle, gates nothing"
   }
 ]

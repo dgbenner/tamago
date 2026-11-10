@@ -89,5 +89,26 @@
     "example_sentence_ids": "S7702;S7703;S7755",
     "conjugation_lemma": "aller",
     "status": "live"
+  },
+  {
+    "unit_id": "U31",
+    "rule": "Three phrases keep a conversation going when you're lost. Je ne comprends pas: I don't understand (ne … pas wraps the verb to say not). Plus lentement, s'il vous plaît: more slowly, please. Répétez, s'il vous plaît: please repeat. Use the vous forms (parlez, répétez) with someone you don't know, the tu forms (parle, répète) with a friend.",
+    "example_sentence_ids": "S9061;S9004;S9063",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U32",
+    "rule": "Two questions get you a word you don't know. Qu'est-ce que ça veut dire ? asks what something means (vouloir dire, literally to want to say, is to mean): Non veut dire non. Comment on dit … en français ? asks how to say something: on is one or people, and dit is says. Français and anglais name the languages, with no capital letter.",
+    "example_sentence_ids": "S9161;S9162;S9105",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U33",
+    "rule": "When the word won't come, talk around it. Je cherche le mot: I'm looking for the word. C'est une chose pour l'eau: it's a thing for water (pour is for). Comment ça s'appelle ? asks what something is called (s'appeler, to be called). And Je ne sais pas, I don't know, is always allowed.",
+    "example_sentence_ids": "S9261;S9262;S9201",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]

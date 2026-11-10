@@ -74,10 +74,12 @@ export function contentForUnit(t, unitId) {
   const withAnswers = new Set([...ids, ...qa.map((q) => q.answer_sentence_id)])
   // Earlier units, never another topic pack (a pack is one choice among several).
   const earlier = new Set(t.units.filter((u) => u.order <= unit.order && (u.is_topic_pick !== 'yes' || u.unit_id === unitId)).map((u) => u.unit_id))
+  const usedHere = new Set(t.sentence_words.filter((r) => ids.has(r.sentence_id)).map((r) => r.word_id))
   return indexContent({
     ...t, unit_id: unitId, allSentences: t.sentences,
     sentences: t.sentences.filter((s) => ids.has(s.sentence_id)),
-    words: t.words.filter((w) => earlier.has(w.first_unit)),
+    // Plus any later word the unit's own sentences use (a help circle borrows a few, 2026-11-10); never new here.
+    words: t.words.filter((w) => earlier.has(w.first_unit) || usedHere.has(w.word_id)),
     sentence_words: t.sentence_words.filter((r) => withAnswers.has(r.sentence_id)),
     accepted_answers: t.accepted_answers.filter((a) => ids.has(a.sentence_id)),
     qa_answers: qa,

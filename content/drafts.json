@@ -1981,6 +1981,114 @@
       "french": "Le magasin est dans la ville.",
       "english": "The shop is in the town.",
       "notes": "A1 unit draft"
+    },
+    {
+      "sentence_id": "S9061",
+      "unit_id": "U31",
+      "french": "Je ne comprends pas.",
+      "english": "I don't understand.",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S9062",
+      "unit_id": "U31",
+      "french": "Répète, s'il te plaît.",
+      "english": "Please repeat.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9063",
+      "unit_id": "U31",
+      "french": "Répétez, s'il vous plaît.",
+      "english": "Please repeat.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9064",
+      "unit_id": "U31",
+      "french": "Répète plus lentement, s'il te plaît.",
+      "english": "Please repeat more slowly.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9065",
+      "unit_id": "U31",
+      "french": "Répétez plus lentement, s'il vous plaît.",
+      "english": "Please repeat more slowly.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9066",
+      "unit_id": "U31",
+      "french": "Encore, s'il vous plaît.",
+      "english": "Again, please.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9067",
+      "unit_id": "U31",
+      "french": "Vous comprenez ?",
+      "english": "Do you understand?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9068",
+      "unit_id": "U31",
+      "french": "Tu comprends ?",
+      "english": "Do you understand?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9069",
+      "unit_id": "U31",
+      "french": "Parle plus lentement, s'il te plaît.",
+      "english": "Please speak more slowly.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9161",
+      "unit_id": "U32",
+      "french": "Qu'est-ce que ça veut dire ?",
+      "english": "What does that mean?",
+      "notes": "help circle draft: the core phrase; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "2224260",
+      "source_owner": "sacredceltic"
+    },
+    {
+      "sentence_id": "S9162",
+      "unit_id": "U32",
+      "french": "Comment on dit ça en français ?",
+      "english": "How do you say that in French?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9163",
+      "unit_id": "U32",
+      "french": "Comment on dit « merci » en anglais ?",
+      "english": "How do you say \"merci\" in English?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9261",
+      "unit_id": "U33",
+      "french": "Je cherche le mot.",
+      "english": "I'm looking for the word.",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S9262",
+      "unit_id": "U33",
+      "french": "C'est une chose pour l'eau.",
+      "english": "It's a thing for water.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9263",
+      "unit_id": "U33",
+      "french": "C'est une chose pour le pain.",
+      "english": "It's a thing for bread.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
     }
   ],
   "qa_answers": [
@@ -2295,6 +2403,38 @@
     {
       "question_sentence_id": "S7764",
       "answer_sentence_id": "S7765"
+    },
+    {
+      "question_sentence_id": "S9067",
+      "answer_sentence_id": "S9009"
+    },
+    {
+      "question_sentence_id": "S9068",
+      "answer_sentence_id": "S9020"
+    },
+    {
+      "question_sentence_id": "S9119",
+      "answer_sentence_id": "S9107"
+    },
+    {
+      "question_sentence_id": "S9121",
+      "answer_sentence_id": "S9127"
+    },
+    {
+      "question_sentence_id": "S9118",
+      "answer_sentence_id": "S9061"
+    },
+    {
+      "question_sentence_id": "S9201",
+      "answer_sentence_id": "S9202"
+    },
+    {
+      "question_sentence_id": "S9213",
+      "answer_sentence_id": "S9219"
+    },
+    {
+      "question_sentence_id": "S9207",
+      "answer_sentence_id": "S9222"
     }
   ]
 }

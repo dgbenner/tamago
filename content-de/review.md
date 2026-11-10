@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 805 (734 matched to Tatoeba, 71 Tamago originals), 0 off, 734 awaiting a ruling. Words with Wiktionary data: 216 of 216. French-to-English answers: 233 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 4.
+Sentences live: 805 (734 matched to Tatoeba, 71 Tamago originals), 0 off, 734 awaiting a ruling. Words with Wiktionary data: 235 of 235. French-to-English answers: 233 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 4.
 
 Unit 1 is approved and live.
 
@@ -86,7 +86,7 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S15105 |  | Ja, ich möchte Tee. | Yes, I'd like tea. | tts |
 | S15106 |  | Ja, ich kann Deutsch sprechen. | Yes, I can speak German. | tts |
 
-## Words, for a read-through (216)
+## Words, for a read-through (235)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -308,6 +308,25 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W605 | Fisch | Fisch | Noun | m | fish | checked |
 | W606 | Fische | Fisch | Noun |  | nominative/accusative/genitive plural of Fisch (Fisch: fish) | checked |
 | W607 | Boot | Boot | Noun | n | boat | checked |
+| W701 | verstehe | verstehen | Verb |  | inflection of verstehen: first-person singular present singular imperative (verstehen: to understand to hear and interpret) | checked |
+| W702 | verstehst | verstehen | Verb |  | second-person singular present of verstehen (verstehen: to understand to hear and interpret) | checked |
+| W703 | langsamer | langsamer | Adjective |  | comparative degree of langsam | checked |
+| W704 | noch einmal | noch einmal | Adverb |  | one more time, again | checked |
+| W705 | sprich | sprechen | Verb |  | singular imperative of sprechen (sprechen: to speak) | checked |
+| W706 | wiederholen | wiederholen | Verb |  | to repeat | checked |
+| W707 | sagt | sagen | Verb |  | inflection of sagen: third-person singular present second-person plural present plural imperative (sagen: to say) | checked |
+| W708 | man | man | Pronoun |  | one, you, they | checked |
+| W709 | heißt | heißen | Verb |  | inflection of heißen: second/third-person singular present second-person plural present plural imperative (heißen: to have a name; to be named; to be called; but implying that one “owns” this name, not necessarily that one goes by it) | checked |
+| W710 | bedeutet | bedeuten | Verb |  | inflection of bedeuten: third-person singular present second-person plural present second-person plural subjunctive I plural imperative (bedeuten: to imply, to mean, to signify, to indicate, to spell, to betoken) | checked |
+| W711 | Wort | Wort | Noun | n | word as an isolated unit | checked |
+| W712 | auf | auf | Preposition |  | [with dative] on, upon | checked |
+| W713 | Englisch | Englisch | Proper noun |  | English | checked |
+| W714 | suche | suchen | Verb |  | inflection of suchen: first-person singular present singular imperative first/third-person singular subjunctive I (suchen: to search, to look for [with accusative or nach ‘something/someone’]) | checked |
+| W715 | Ding | Ding | Noun | n | thing | checked |
+| W716 | Sache | Sache | Noun | f | matter, affair, case, question, issue | checked |
+| W717 | für | für | Preposition |  | describes an abstract directionality towards a person or matter for | checked |
+| W718 | nennt | nennen | Verb |  | inflection of nennen: third-person singular present second-person plural present plural imperative (nennen: to name) | checked |
+| W719 | weißt | wissen | Verb |  | second-person singular present of wissen (wissen: to know; to be aware of) | checked |
 
 ## Matched to Tatoeba (734)
 

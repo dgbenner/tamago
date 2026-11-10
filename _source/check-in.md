@@ -199,7 +199,7 @@ Updated November 10, 2026. **German is live: all 15 A1 units, nine topic packs a
 
 ## Drafted sentences
 
-Every French sentence I wrote (253), for the native-speaker check. Tatoeba sentences aren't listed.
+Every French sentence I wrote (267), for the native-speaker check. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (18)
 
@@ -221,6 +221,18 @@ Every French sentence I wrote (253), for the native-speaker check. Tatoeba sente
 - S0030 Non, je suis une femme. = No, I am a woman.
 - S0039 Tu es une femme ? = Are you a woman?
 - S0040 Tu es un homme ? = Are you a man?
+
+**U31 Asking for Help** (9)
+
+- S9061 Je ne comprends pas. = I don't understand.
+- S9062 Répète, s'il te plaît. = Please repeat.
+- S9063 Répétez, s'il vous plaît. = Please repeat.
+- S9064 Répète plus lentement, s'il te plaît. = Please repeat more slowly.
+- S9065 Répétez plus lentement, s'il vous plaît. = Please repeat more slowly.
+- S9066 Encore, s'il vous plaît. = Again, please.
+- S9067 Vous comprenez ? = Do you understand?
+- S9068 Tu comprends ? = Do you understand?
+- S9069 Parle plus lentement, s'il te plaît. = Please speak more slowly.
 
 **U02 People and Things** (23)
 
@@ -294,6 +306,11 @@ Every French sentence I wrote (253), for the native-speaker check. Tatoeba sente
 - S5110 J'ai une tortue et un oiseau. = I have a tortoise and a bird.
 - S5111 Le canard mange. = The duck is eating.
 
+**U32 Asking About Words** (2)
+
+- S9162 Comment on dit ça en français ? = How do you say that in French?
+- S9163 Comment on dit « merci » en anglais ? = How do you say "merci" in English?
+
 **U06 More Than One** (16)
 
 - S7052 Les livres sont ici. = The books are here.
@@ -361,6 +378,12 @@ Every French sentence I wrote (253), for the native-speaker check. Tatoeba sente
 - S7360 Paul est ici. = Paul is here.
 - S7361 Qu'est-ce que tu aimes ? = What do you like?
 - S7364 Oui, j'ai un chien. = Yes, I have a dog.
+
+**U33 Finding the Word** (3)
+
+- S9261 Je cherche le mot. = I'm looking for the word.
+- S9262 C'est une chose pour l'eau. = It's a thing for water.
+- S9263 C'est une chose pour le pain. = It's a thing for bread.
 
 **U10 Counting to Ten** (13)
 

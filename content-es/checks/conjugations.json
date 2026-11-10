@@ -164,7 +164,7 @@
     },
     {
       "person": "él, ella, usted",
-      "form": "ha , hay"
+      "form": "ha, hay"
     },
     {
       "person": "nosotros, nosotras",
@@ -261,6 +261,204 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "cantan"
+    }
+  ],
+  "entender": [
+    {
+      "person": "yo",
+      "form": "entiendo"
+    },
+    {
+      "person": "tú",
+      "form": "entiendes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "entiende"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "entendemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "entienden"
+    }
+  ],
+  "repetir": [
+    {
+      "person": "yo",
+      "form": "repito"
+    },
+    {
+      "person": "tú",
+      "form": "repites"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "repite"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "repetimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "repiten"
+    }
+  ],
+  "hablar": [
+    {
+      "person": "yo",
+      "form": "hablo"
+    },
+    {
+      "person": "tú",
+      "form": "hablas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "habla"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "hablamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "hablan"
+    }
+  ],
+  "decir": [
+    {
+      "person": "yo",
+      "form": "digo"
+    },
+    {
+      "person": "tú",
+      "form": "dices"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "dice"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "decimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "dicen"
+    }
+  ],
+  "significar": [
+    {
+      "person": "yo",
+      "form": "significo"
+    },
+    {
+      "person": "tú",
+      "form": "significas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "significa"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "significamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "significan"
+    }
+  ],
+  "querer": [
+    {
+      "person": "yo",
+      "form": "quiero"
+    },
+    {
+      "person": "tú",
+      "form": "quieres"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "quiere"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "queremos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "quieren"
+    }
+  ],
+  "buscar": [
+    {
+      "person": "yo",
+      "form": "busco"
+    },
+    {
+      "person": "tú",
+      "form": "buscas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "busca"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "buscamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "buscan"
+    }
+  ],
+  "saber": [
+    {
+      "person": "yo",
+      "form": "sé"
+    },
+    {
+      "person": "tú",
+      "form": "sabes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "sabe"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "sabemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "saben"
+    }
+  ],
+  "servir": [
+    {
+      "person": "yo",
+      "form": "sirvo"
+    },
+    {
+      "person": "tú",
+      "form": "sirves"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "sirve"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "servimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "sirven"
     }
   ]
 }

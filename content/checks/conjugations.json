@@ -232,5 +232,213 @@
       "person": "ils, elles",
       "form": "font"
     }
+  ],
+  "comprendre": [
+    {
+      "person": "je (j’)",
+      "form": "comprends"
+    },
+    {
+      "person": "tu",
+      "form": "comprends"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "comprend"
+    },
+    {
+      "person": "nous",
+      "form": "comprenons"
+    },
+    {
+      "person": "vous",
+      "form": "comprenez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "comprennent"
+    }
+  ],
+  "répéter": [
+    {
+      "person": "je (j’)",
+      "form": "répète"
+    },
+    {
+      "person": "tu",
+      "form": "répètes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "répète"
+    },
+    {
+      "person": "nous",
+      "form": "répétons"
+    },
+    {
+      "person": "vous",
+      "form": "répétez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "répètent"
+    }
+  ],
+  "parler": [
+    {
+      "person": "je (j’)",
+      "form": "parle"
+    },
+    {
+      "person": "tu",
+      "form": "parles"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "parle"
+    },
+    {
+      "person": "nous",
+      "form": "parlons"
+    },
+    {
+      "person": "vous",
+      "form": "parlez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "parlent"
+    }
+  ],
+  "dire": [
+    {
+      "person": "je (j’)",
+      "form": "dis"
+    },
+    {
+      "person": "tu",
+      "form": "dis"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "dit"
+    },
+    {
+      "person": "nous",
+      "form": "disons"
+    },
+    {
+      "person": "vous",
+      "form": "dites"
+    },
+    {
+      "person": "ils, elles",
+      "form": "disent"
+    }
+  ],
+  "vouloir": [
+    {
+      "person": "je (j’)",
+      "form": "veux"
+    },
+    {
+      "person": "tu",
+      "form": "veux"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "veut"
+    },
+    {
+      "person": "nous",
+      "form": "voulons"
+    },
+    {
+      "person": "vous",
+      "form": "voulez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "veulent"
+    }
+  ],
+  "chercher": [
+    {
+      "person": "je (j’)",
+      "form": "cherche"
+    },
+    {
+      "person": "tu",
+      "form": "cherches"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "cherche"
+    },
+    {
+      "person": "nous",
+      "form": "cherchons"
+    },
+    {
+      "person": "vous",
+      "form": "cherchez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "cherchent"
+    }
+  ],
+  "savoir": [
+    {
+      "person": "je (j’)",
+      "form": "sais"
+    },
+    {
+      "person": "tu",
+      "form": "sais"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "sait"
+    },
+    {
+      "person": "nous",
+      "form": "savons"
+    },
+    {
+      "person": "vous",
+      "form": "savez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "savent"
+    }
+  ],
+  "appeler": [
+    {
+      "person": "je (j’)",
+      "form": "appèle"
+    },
+    {
+      "person": "tu",
+      "form": "appèles"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "appèle"
+    },
+    {
+      "person": "nous",
+      "form": "appelons"
+    },
+    {
+      "person": "vous",
+      "form": "appelez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "appèlent"
+    }
   ]
 }
