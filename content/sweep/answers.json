@@ -1,0 +1,233 @@
+{
+  "made_at": "2026-11-10",
+  "live_sentences": 393,
+  "english_accepted_before": 564,
+  "proposals": [
+    {
+      "sentence_id": "S0003",
+      "french": "Au revoir.",
+      "english": "Goodbye.",
+      "answer": "Good-bye.",
+      "english_id": "5512676"
+    },
+    {
+      "sentence_id": "S0003",
+      "french": "Au revoir.",
+      "english": "Goodbye.",
+      "answer": "Farewell.",
+      "english_id": "7869885"
+    },
+    {
+      "sentence_id": "S0003",
+      "french": "Au revoir.",
+      "english": "Goodbye.",
+      "answer": "Bye for now.",
+      "english_id": "2167181"
+    },
+    {
+      "sentence_id": "S0004",
+      "french": "Oui.",
+      "english": "Yes.",
+      "answer": "Yes, she will.",
+      "english_id": "35571"
+    },
+    {
+      "sentence_id": "S0005",
+      "french": "Non.",
+      "english": "No.",
+      "answer": "Nope.",
+      "english_id": "879078"
+    },
+    {
+      "sentence_id": "S0008",
+      "french": "Je suis une fille.",
+      "english": "I am a girl.",
+      "answer": "I'm a girl.",
+      "english_id": "8437603"
+    },
+    {
+      "sentence_id": "S0010",
+      "french": "Je suis un enfant.",
+      "english": "I am a child.",
+      "answer": "I'm a child.",
+      "english_id": "3313490"
+    },
+    {
+      "sentence_id": "S0012",
+      "french": "Tu es un garçon.",
+      "english": "You are a boy.",
+      "answer": "You're a boy.",
+      "english_id": "8220376"
+    },
+    {
+      "sentence_id": "S0031",
+      "french": "Non, non et non !",
+      "english": "No, no, no!",
+      "answer": "No, no, and furthermore, no!",
+      "english_id": "1490778"
+    },
+    {
+      "sentence_id": "S0034",
+      "french": "C'est un garçon.",
+      "english": "This is a boy.",
+      "answer": "He's a boy.",
+      "english_id": "5668075"
+    },
+    {
+      "sentence_id": "S3011",
+      "french": "Comment ça va ?",
+      "english": "How are you?",
+      "answer": "How is life treating you?",
+      "english_id": "4189350"
+    },
+    {
+      "sentence_id": "S3022",
+      "french": "Ça va ?",
+      "english": "You good?",
+      "answer": "You all right?",
+      "english_id": "29868"
+    },
+    {
+      "sentence_id": "S3022",
+      "french": "Ça va ?",
+      "english": "You good?",
+      "answer": "How's it going?",
+      "english_id": "277972"
+    },
+    {
+      "sentence_id": "S3022",
+      "french": "Ça va ?",
+      "english": "You good?",
+      "answer": "How is it going?",
+      "english_id": "38308"
+    },
+    {
+      "sentence_id": "S3022",
+      "french": "Ça va ?",
+      "english": "You good?",
+      "answer": "How are you doing?",
+      "english_id": "38926"
+    },
+    {
+      "sentence_id": "S3022",
+      "french": "Ça va ?",
+      "english": "You good?",
+      "answer": "How are you going?",
+      "english_id": "1417902"
+    },
+    {
+      "sentence_id": "S7152",
+      "french": "C'est un vieux livre.",
+      "english": "It's an old book.",
+      "answer": "This is an old book.",
+      "english_id": "55733"
+    }
+  ],
+  "auto_skipped": [
+    {
+      "sentence_id": "S2012",
+      "french": "L'enfant est grand.",
+      "answer": "The kid is big.",
+      "english_id": "7079634",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S5007",
+      "french": "Tu as une lettre.",
+      "answer": "You've got mail.",
+      "english_id": "2255433",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S5024",
+      "french": "J'ai un enfant.",
+      "answer": "I have a kid.",
+      "english_id": "2358742",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S5024",
+      "french": "J'ai un enfant.",
+      "answer": "I have one kid.",
+      "english_id": "2360176",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S6101",
+      "french": "Ils sont frère et sœur.",
+      "answer": "They are siblings.",
+      "english_id": "4384727",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S7209",
+      "french": "J'aime mes enfants.",
+      "answer": "I love my kids.",
+      "english_id": "2380212",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S7411",
+      "french": "Elle a trois enfants.",
+      "answer": "She has three kids.",
+      "english_id": "2259136",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S7417",
+      "french": "Tu as deux enfants.",
+      "answer": "You have two kids.",
+      "english_id": "11543996",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S7417",
+      "french": "Tu as deux enfants.",
+      "answer": "You've got two kids.",
+      "english_id": "11544000",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S7420",
+      "french": "J'ai trois enfants.",
+      "answer": "I have three sons.",
+      "english_id": "2360422",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S7420",
+      "french": "J'ai trois enfants.",
+      "answer": "I have three kids.",
+      "english_id": "2360415",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S7420",
+      "french": "J'ai trois enfants.",
+      "answer": "I've got three kids.",
+      "english_id": "2359711",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S7422",
+      "french": "Tu as trois enfants.",
+      "answer": "You have three kids.",
+      "english_id": "10072480",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S7422",
+      "french": "Tu as trois enfants.",
+      "answer": "You've got three kids.",
+      "english_id": "10114065",
+      "reason": "drops or changes a noun the course teaches"
+    },
+    {
+      "sentence_id": "S7713",
+      "french": "Quelle belle ville !",
+      "answer": "What a beautiful city!",
+      "english_id": "1460433",
+      "reason": "drops or changes a noun the course teaches"
+    }
+  ]
+}

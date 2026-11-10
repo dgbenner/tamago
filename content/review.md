@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 693 (393 matched to Tatoeba, 300 Tamago originals), 61 off, 0 awaiting a ruling. Words with Wiktionary data: 209 of 209. French-to-English answers: 187 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 333.
+Sentences live: 693 (393 matched to Tatoeba, 300 Tamago originals), 61 off, 0 awaiting a ruling. Words with Wiktionary data: 209 of 209. French-to-English answers: 211 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 333.
 
 Unit 1 is approved and live.
 
