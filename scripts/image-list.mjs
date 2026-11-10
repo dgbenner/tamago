@@ -121,6 +121,7 @@ const ES = {
   lettre: ['carta'], ami: ['amigo'], amie: ['amiga'], médecin: ['médico'], malade: ['enfermo'], femmes: ['mujeres'], filles: ['chicas'], café: ['café'], maison: ['casa'],
   table: ['mesa'], lit: ['cama'], porte: ['puerta'], cuisine: ['cocina'], journal: ['periódico'], animaux: [],
   famille: ['familia'], bébé: ['bebé'], hommes: ['hombres'], sucre: ['azúcar'], thé: ['té'], chocolat: ['chocolate'], chanteur: ['cantante'],
+  musique: ['música'], guitare: ['guitarra'], tasse: ['taza'], hôpital: ['hospital'],
 }
 // The German words for each French row (2026-11-10), the same way: German words reuse the row's picture.
 const DE = {
