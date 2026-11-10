@@ -2209,33 +2209,6 @@
     }
   },
   {
-    "word_id": "W302",
-    "lang_id": "fr",
-    "form": "pluie",
-    "lemma": "pluie",
-    "part_of_speech": "Noun",
-    "gender": "f",
-    "gloss": "rain",
-    "hint": "rain",
-    "hint_source": "Wiktionary",
-    "first_unit": "U101",
-    "needs_image": "no",
-    "image_file": "",
-    "wiktionary_url": "https://en.wiktionary.org/wiki/pluie#French",
-    "status": "checked",
-    "notes": "",
-    "gloss_full": "rain",
-    "lemma_gloss": "",
-    "lingua_libre": {
-      "file": "LL-Q150 (fra)-Aemines1-pluie.wav",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/LL-Q150_%28fra%29-Aemines1-pluie.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "license": "CC BY-SA 4.0",
-      "recordings_found": 27,
-      "audio_file": "/audio/W302.m4a",
-      "speaker": "Aemines1"
-    }
-  },
-  {
     "word_id": "W303",
     "lang_id": "fr",
     "form": "soleil",
@@ -2314,33 +2287,6 @@
       "recordings_found": 9,
       "audio_file": "/audio/W305.m4a",
       "speaker": "Arthur Crbz"
-    }
-  },
-  {
-    "word_id": "W306",
-    "lang_id": "fr",
-    "form": "temps",
-    "lemma": "temps",
-    "part_of_speech": "Noun",
-    "gender": "m",
-    "gloss": "time",
-    "hint": "time",
-    "hint_source": "Wiktionary",
-    "first_unit": "U101",
-    "needs_image": "no",
-    "image_file": "",
-    "wiktionary_url": "https://en.wiktionary.org/wiki/temps#French",
-    "status": "checked",
-    "notes": "",
-    "gloss_full": "time",
-    "lemma_gloss": "",
-    "lingua_libre": {
-      "file": "LL-Q150 (fra)-GrandCelinien-Temps.wav",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/LL-Q150_%28fra%29-GrandCelinien-Temps.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-      "license": "CC BY-SA 4.0",
-      "recordings_found": 7,
-      "audio_file": "/audio/W306.m4a",
-      "speaker": "GrandCelinien"
     }
   },
   {
@@ -6005,6 +5951,87 @@
       "recordings_found": 1,
       "audio_file": "/audio/W526.m4a",
       "speaker": "Eihel"
+    }
+  },
+  {
+    "word_id": "W604",
+    "lang_id": "fr",
+    "form": "ciel",
+    "lemma": "ciel",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "sky",
+    "hint": "sky",
+    "hint_source": "Wiktionary",
+    "first_unit": "U101",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/ciel#French",
+    "status": "checked",
+    "notes": "Weather rebuild 2026-11-10",
+    "gloss_full": "sky",
+    "lemma_gloss": "",
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-0x010C-ciel.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/LL-Q150_%28fra%29-0x010C-ciel.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 21,
+      "audio_file": "/audio/W604.m4a",
+      "speaker": "0x010C"
+    }
+  },
+  {
+    "word_id": "W605",
+    "lang_id": "fr",
+    "form": "pleut",
+    "lemma": "pleuvoir",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "third-person singular present indicative of pleuvoir",
+    "hint": "to rain (pleuvoir)",
+    "hint_source": "Wiktionary",
+    "first_unit": "U101",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/pleut#French",
+    "status": "checked",
+    "notes": "Weather rebuild 2026-11-10",
+    "gloss_full": "third-person singular present indicative of pleuvoir",
+    "lemma_gloss": "to rain",
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-Lyokoï-pleut.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/LL-Q150_%28fra%29-Lyoko%C3%AF-pleut.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 2,
+      "audio_file": "/audio/W605.m4a",
+      "speaker": "Lyokoï"
+    }
+  },
+  {
+    "word_id": "W606",
+    "lang_id": "fr",
+    "form": "fait",
+    "lemma": "faire",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "third-person singular present indicative of faire",
+    "hint": "to be, of the weather (faire)",
+    "hint_source": "Wiktionary, sense \"to be\" of faire (impersonal: il fait froid)",
+    "first_unit": "U101",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/fait#French",
+    "status": "checked",
+    "notes": "Weather rebuild 2026-11-10",
+    "gloss_full": "third-person singular present indicative of faire",
+    "lemma_gloss": "to do",
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-0x010C-fait.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/LL-Q150_%28fra%29-0x010C-fait.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1,
+      "audio_file": "/audio/W606.m4a",
+      "speaker": "0x010C"
     }
   }
 ]

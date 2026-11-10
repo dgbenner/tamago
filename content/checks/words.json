@@ -4650,5 +4650,72 @@
       "license": "CC BY-SA 3.0",
       "recordings_found": 1
     }
+  },
+  {
+    "word_id": "W604",
+    "form": "ciel",
+    "lemma": "ciel",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "sky",
+    "gloss_full": "sky",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/ciel#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Noun: canopy (of a bed, etc.)",
+      "Interjection: heavens!"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-0x010C-ciel.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/LL-Q150_%28fra%29-0x010C-ciel.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 21
+    }
+  },
+  {
+    "word_id": "W605",
+    "form": "pleut",
+    "lemma": "pleuvoir",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "third-person singular present indicative of pleuvoir",
+    "gloss_full": "third-person singular present indicative of pleuvoir",
+    "lemma_gloss": "to rain",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/pleut#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-Lyokoï-pleut.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/LL-Q150_%28fra%29-Lyoko%C3%AF-pleut.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 2
+    }
+  },
+  {
+    "word_id": "W606",
+    "form": "fait",
+    "lemma": "faire",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "third-person singular present indicative of faire",
+    "gloss_full": "third-person singular present indicative of faire",
+    "lemma_gloss": "to do",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/fait#French",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Noun: fact",
+      "Participle: past participle of faire",
+      "Adjective: done"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q150 (fra)-0x010C-fait.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/LL-Q150_%28fra%29-0x010C-fait.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
+    }
   }
 ]

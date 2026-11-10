@@ -1110,46 +1110,6 @@
     "source_owner": "Amastan"
   },
   {
-    "answer_id": "GS6012-1302576",
-    "sentence_id": "S6012",
-    "direction": "en_to_fr",
-    "answer": "Je dispose de temps.",
-    "source": "tatoeba",
-    "source_id": "1302576",
-    "status": "checked",
-    "source_owner": "sacredceltic"
-  },
-  {
-    "answer_id": "GS6056-6566986",
-    "sentence_id": "S6056",
-    "direction": "en_to_fr",
-    "answer": "As-tu un peu de temps ?",
-    "source": "tatoeba",
-    "source_id": "6566986",
-    "status": "checked",
-    "source_owner": "felix63"
-  },
-  {
-    "answer_id": "GS6056-4470887",
-    "sentence_id": "S6056",
-    "direction": "en_to_fr",
-    "answer": "Est-ce que tu as le temps ?",
-    "source": "tatoeba",
-    "source_id": "4470887",
-    "status": "checked",
-    "source_owner": "Petrus"
-  },
-  {
-    "answer_id": "GS6056-4470889",
-    "sentence_id": "S6056",
-    "direction": "en_to_fr",
-    "answer": "Est-ce que vous avez le temps ?",
-    "source": "tatoeba",
-    "source_id": "4470889",
-    "status": "checked",
-    "source_owner": "Petrus"
-  },
-  {
     "answer_id": "GS6301-7563060",
     "sentence_id": "S6301",
     "direction": "en_to_fr",
@@ -3848,5 +3808,85 @@
     "source_id": "12835578",
     "status": "checked",
     "source_owner": "Rovo"
+  },
+  {
+    "answer_id": "GS8806-8701632",
+    "sentence_id": "S8806",
+    "direction": "en_to_fr",
+    "answer": "C'est de la neige ?",
+    "source": "tatoeba",
+    "source_id": "8701632",
+    "status": "checked",
+    "source_owner": "Micsmithel"
+  },
+  {
+    "answer_id": "GS8807-2209457",
+    "sentence_id": "S8807",
+    "direction": "en_to_fr",
+    "answer": "C'est froid.",
+    "source": "tatoeba",
+    "source_id": "2209457",
+    "status": "checked",
+    "source_owner": "Sisyphe"
+  },
+  {
+    "answer_id": "GS8818-1991065",
+    "sentence_id": "S8818",
+    "direction": "en_to_fr",
+    "answer": "Aujourd'hui il fait très froid.",
+    "source": "tatoeba",
+    "source_id": "1991065",
+    "status": "checked",
+    "source_owner": "nimfeo"
+  },
+  {
+    "answer_id": "GS8820-8422",
+    "sentence_id": "S8820",
+    "direction": "en_to_fr",
+    "answer": "Il fait très froid aujourd'hui.",
+    "source": "tatoeba",
+    "source_id": "8422",
+    "status": "checked",
+    "source_owner": "sacredceltic"
+  },
+  {
+    "answer_id": "GS8822-2699558",
+    "sentence_id": "S8822",
+    "direction": "en_to_fr",
+    "answer": "Aujourd'hui, il fait beau.",
+    "source": "tatoeba",
+    "source_id": "2699558",
+    "status": "checked",
+    "source_owner": "Aiji"
+  },
+  {
+    "answer_id": "GS8822-8695555",
+    "sentence_id": "S8822",
+    "direction": "en_to_fr",
+    "answer": "Il fait bon aujourd'hui.",
+    "source": "tatoeba",
+    "source_id": "8695555",
+    "status": "checked",
+    "source_owner": "Julien_PDC"
+  },
+  {
+    "answer_id": "GS8823-333133",
+    "sentence_id": "S8823",
+    "direction": "en_to_fr",
+    "answer": "Il fait beau aujourd'hui.",
+    "source": "tatoeba",
+    "source_id": "333133",
+    "status": "checked",
+    "source_owner": "sysko"
+  },
+  {
+    "answer_id": "GS8823-8695555",
+    "sentence_id": "S8823",
+    "direction": "en_to_fr",
+    "answer": "Il fait bon aujourd'hui.",
+    "source": "tatoeba",
+    "source_id": "8695555",
+    "status": "checked",
+    "source_owner": "Julien_PDC"
   }
 ]

@@ -409,3 +409,17 @@ Part 3, Lingua Libre recordings:
   390 and 1440 px: no points on screen, no errors.
 - _source/image-list.md: every picturable A1 word without a picture in the sushi style (97 rows, 92 files), by
   live sentence count, with a reusable prompt; drop folder _source/pictures/.
+
+## 2026-11-10: Weather rebuilt at Another Topic
+
+- Dan: cut the two sentences where temps means "time" (S6012, S6056); under 30, so move Weather to Another Topic and
+  rebuild it on all of A1, Tatoeba only. Workbook v22 (scripts/rebuild-weather.mjs), synced to v23.
+- U101 gets topic_node U200; its 5 drafts go off (native list 293); its live Tatoeba sentences stay and count toward
+  the targets. Pull: a pack marked rebuild in packs-review.json is topped up, new ids from S8801.
+- New words ciel, pleut, fait (W604 to W606; fait hinted with Wiktionary's impersonal "to be" sense of faire).
+  Under 3 good sentences, left out: nuage, nuages, vent (never added), temps and pluie (word status off, so they
+  don't ship and never return in a pull; S6001 and S6013 off with pluie).
+- 15 candidates turned down in review (fait as did, done, a fact; temps as time; idioms). Result: 7 kept + 23 new =
+  30, every word in 3 or more.
+- App: a stored topic choice counts only while that pack is still at that node, so a Weather pick at Your Topic
+  doesn't put it at the first node; it's listed under Another Topic, progress kept.

@@ -30,5 +30,28 @@
     "english": {
       "4320549": "It's sad."
     }
+  },
+  "U101": {
+    "rebuild": true,
+    "reject": {
+      "4242": "fait here is the past participle (well done), not the weather il fait",
+      "132744": "fait here is the past of faire (did), not the weather il fait",
+      "543132": "\"Au fait.\" is an idiom (by the way), not weather",
+      "919340": "fait here is the past participle (done), not the weather il fait",
+      "1111610": "temps here means time, not weather (the reason S6012 and S6056 were cut)",
+      "1759994": "fait here is the noun (a fact), not the weather il fait",
+      "2172793": "fait here is the past of faire (did), not the weather il fait",
+      "3134675": "chaud here means hectic, not hot",
+      "4040774": "temps here means time, not weather (the reason S6012 and S6056 were cut)",
+      "4470887": "temps here means time, not weather (the reason S6012 and S6056 were cut)",
+      "4879656": "\"Bien fait.\" is an idiom (serves you right)",
+      "4994973": "fait here is the past of faire (did), not the weather il fait",
+      "8620011": "temps here means time, not weather (the reason S6012 and S6056 were cut)",
+      "8724061": "vent here means wind in the gut (I have gas)",
+      "10371162": "\"Bon vent.\" is an idiom (Godspeed)",
+      "10937634": "temps here means time, not weather (the reason S6012 and S6056 were cut)",
+      "12424786": "fait here is the past participle (done), not the weather il fait"
+    },
+    "english": {}
   }
 }

@@ -133,7 +133,10 @@ export default function App() {
       setWordMisses(s.kv.word_misses ?? {})
       applyVariants(s.kv.variant_status ?? {})
       // The first node's choice keeps its old key (topic_choice); later nodes use topic_choice_<node>.
-      setTopicChoice(Object.fromEntries(tables.units.filter((u) => u.is_topic_pick === 'node').map((n) => [n.unit_id, s.kv[topicKey(n.unit_id)]]).filter(([, v]) => v)))
+      // A choice counts only while the pack is still at that node (Weather moved to the second node on 2026-11-10).
+      const nodes = tables.units.filter((u) => u.is_topic_pick === 'node').sort((a, b) => a.order - b.order)
+      setTopicChoice(Object.fromEntries(nodes.map((n) => [n.unit_id, s.kv[topicKey(n.unit_id)]])
+        .filter(([n, v]) => v && packNode(tables.units.find((u) => u.unit_id === v), nodes) === n)))
       setProfile(s.kv.profile ?? {})
       setNativeResults(s.kv.native_check ?? {})
       if (s.kv.approved_answers?.length) addAccepted(s.kv.approved_answers)

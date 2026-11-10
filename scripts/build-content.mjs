@@ -78,6 +78,7 @@ const hintFrom = (c) => {
 }
 tables.words = raw('words').flatMap((w) => {
   if (!unitOpen(w.first_unit)) return []
+  if (String(w.status).startsWith('off')) return [] // a word taken out of its unit (pluie and temps, Weather rebuild)
   const c = wCheck.get(w.word_id)
   if (c?.status !== 'checked') { bad.push(`${w.word_id} check says ${c?.status}: ${c?.flag_reason}`); return [] }
   const filled = { ...w }

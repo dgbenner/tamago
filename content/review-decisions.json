@@ -134,7 +134,11 @@
     "U101": {
       "action": "approve",
       "on": "2026-11-09",
-      "by": "Claude under autonomous-build.md: topic pack, Tatoeba plus drafts to 15 sentences and 3 per word"
+      "by": "Claude under autonomous-build.md: topic pack, Tatoeba plus drafts to 15 sentences and 3 per word",
+      "rebuilt": {
+        "on": "2026-11-10",
+        "by": "Claude under autonomous-build.md (Dan: cut the temps-as-time sentences; under 30, so moved to Another Topic and rebuilt on all of A1, Tatoeba only): 7 kept plus 23 pulled, every word in 3 or more, reviewed in content/sweep/packs-review.json"
+      }
     },
     "U102": {
       "action": "approve",
@@ -455,6 +459,10 @@
     "W554": {
       "hint": "to play (jouer)",
       "source": "short form of Wiktionary"
+    },
+    "W606": {
+      "hint": "to be, of the weather (faire)",
+      "source": "Wiktionary, sense \"to be\" of faire (impersonal: il fait froid)"
     }
   },
   "phrases_off": {

@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 10, 2026. **Two new topic packs at a second Your Topic node, the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
+Updated November 10, 2026. **Three topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
 
 ## Done since last check-in
 
@@ -33,7 +33,11 @@ Updated November 10, 2026. **Two new topic packs at a second Your Topic node, th
   - Words that couldn't reach 3 good sentences were left out rather than drafted: ordinateur, collègue, téléphone, réunion and secrétaire for the Office; tête, mal, rhume, toux, gorge, dentiste and infirmière for the Doctor. So the Doctor pack is about doctors, being ill and fever, not aches and pains.
   - **Skipped (fewer than 30 good sentences, even with all of A1):** Cinema (45 candidates, but only about 20 stayed on the topic; the rest were people being funny or sad, or regarde as "look"), Clothing 28, Colours and Art 27, Soccer 25, Train Travel 25 (mostly car sentences), Cooking 14, Pharmacy (its words are the Doctor pack's), Airports 27, Museums 27, Gardening 26, Hotels 15, Cycling 16, Hiking 14, Chinese Food 18, Bakery 8, Cats 7, Birds 7, Tree Types 7, Dogs 5, Cloud Types 5, Ocean Life 4. Numbers are candidates before review.
   - Fixed on the way: the check that the English carries each noun only looked at Wiktionary's first wording, so "film" didn't count for film ("movie, film") or "doctor" for médecin ("physician; doctor"). It now takes every alternative.
-- **S6057 cut** from the Weather pack ("Il a du temps."), so the native-speaker list is now 299.
+- **The Weather, rebuilt at Another Topic.** S6057, S6012 and S6056 are cut (temps meaning "time"). That left 14 sentences, so Weather moved to Another Topic and was rebuilt on all of A1, Tatoeba only: its 5 drafts are off, 7 of its Tatoeba sentences stay, and 23 new ones joined (Il fait froid, Il pleut aujourd'hui, Le ciel est bleu…). 30 sentences, all checked Tatoeba.
+  - Words now: neige, soleil, froid, chaud, plus ciel, pleut and fait (hinted "to be, of the weather (faire)", Wiktionary's impersonal sense).
+  - Left out under the 3-sentence rule: temps (no weather sentence on Tatoeba within A1), pluie (only 2, so "Il aime la pluie et la neige" and "J'aime la pluie" went with it), nuage and vent (under 3 each). I turned down 15 more: fait as "did", "done" or "a fact", and idioms like "Bien fait", "Bon vent", "C'est chaud" for hectic (content/sweep/packs-review.json).
+  - Your Topic now lists the other six; anyone who had picked Weather there finds it under Another Topic instead, with its progress.
+  - The native-speaker list is now 293.
 - **Pass 4, accessibility (WCAG 2.2 AA):**
   - Keyboard: every question type can be answered on desktop with Tab and Enter alone. Enter checks; on a word or choice not yet picked, Enter picks it; after an answer, focus is on Continue and Enter goes on. Focus stays put when a picked chip or matched pair disappears. Unit and checkpoint details are proper dialogs (Escape closes them and focus returns).
   - Focus: a blue ring shows wherever the keyboard is, in light and dark, and never hides under the pinned bars.
@@ -87,7 +91,6 @@ Updated November 10, 2026. **Two new topic packs at a second Your Topic node, th
 
 ## Waiting for Dan
 
-0. **Weather pack, temps (your call, no hurry).** With S6057 cut, temps is in 2 sentences, under the 3-per-word rule, and both use it as "time" (J'ai du temps, Tu as du temps), not weather. Tatoeba has nothing checked that uses it for weather within Units 1 to 5. Options: leave it, drop temps and those two sentences, or let the Weather pack use all of A1 too (Il fait beau temps and the like would then fit).
 0. **Accessibility items I couldn't fix:**
    - **iPad landscape only vs WCAG 1.3.4.** AA says an app mustn't lock itself to one orientation, so the "Turn your iPad sideways" note fails AA. Your Pass 2 notes asked for it, so I left it. Say the word and I'll remove it (an upright iPad would then get the phone layout).
    - **Listening and speaking questions** need hearing and a voice by design. The alternative is the Can't Listen Now / Can't Speak Now button on each of those questions (and in Settings), which swaps them for reading and writing. There's no transcript for listening questions, since that would give the answer away.
@@ -104,7 +107,7 @@ Updated November 10, 2026. **Two new topic packs at a second Your Topic node, th
    - Commercial emoji check: none of the files is a copy of an Apple, Google, Samsung or Microsoft emoji. The "Emoji" in some file names reads as a generation prompt, not a vendor set. The OpenAI terms assign generated images to you. If the 512 set came from a stock or emoji pack, tell me which, and I'll check its licence.
    - No icon has a face, a character or text.
 2. **Netlify (your call, no hurry).** Builds are stopped and the old site still serves Phase 5 at https://tamago-590.netlify.app. Anyone who had it installed stays on that old version; the new home is https://tamago-83f.pages.dev. Delete the Netlify site whenever you like, or keep it. A custom domain on Cloudflare (for example a subdomain of danbenner.com) is a few clicks when you want one.
-3. **Native-speaker check (now 299 sentences: 18 in Unit 1 and the 281 drafts listed below).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
+3. **Native-speaker check (now 293 sentences: 18 in Unit 1 and the 275 drafts listed below).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
 4. **Claude explanations and Claude-written practice: key added 2026-11-09.** Key tamago-cloudflare, in its own Anthropic workspace (Tamago) with a $5 monthly spend limit, stored only as a Cloudflare Pages secret (TAMAGO_ANTHROPIC_API_KEY). **The key expires January 2, 2027**; after that both features switch off quietly until a new key replaces it (Console, Tamago workspace, then the same secret in Cloudflare and a redeploy).
    - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output; one explanation is a few hundred tokens. Claude-written practice uses Opus 5.5 ($4 and $20 per million), a few cents a set. The $5 cap stops everything for the rest of the month if it's ever reached.
 5. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
@@ -363,15 +366,6 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S7763 Oui, il va à l'école. = Yes, he's going to school. (QT09 answer)
 - S7764 Où est le magasin ? = Where is the shop? (QT09 question)
 - S7765 Le magasin est dans la ville. = The shop is in the town. (QT09 answer)
-
-**U101 Weather** (7)
-
-- S6051 Elle aime la pluie. = She likes the rain.
-- S6052 J'aime le soleil. = I like the sun.
-- S6053 Voici le soleil ! = Here is the sun!
-- S6054 Il a chaud. = He's hot.
-- S6055 Le soleil est grand. = The sun is big.
-- S6056 Tu as du temps ? = Do you have time?
 
 **U102 Family** (12)
 

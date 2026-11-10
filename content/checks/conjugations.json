@@ -180,5 +180,57 @@
       "person": "ils, elles",
       "form": "travaillent"
     }
+  ],
+  "pleuvoir": [
+    {
+      "person": "je (j’)",
+      "form": "—"
+    },
+    {
+      "person": "tu",
+      "form": "—"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "pleut"
+    },
+    {
+      "person": "nous",
+      "form": "—"
+    },
+    {
+      "person": "vous",
+      "form": "—"
+    },
+    {
+      "person": "ils, elles",
+      "form": "pleuvent"
+    }
+  ],
+  "faire": [
+    {
+      "person": "je (j’)",
+      "form": "fais"
+    },
+    {
+      "person": "tu",
+      "form": "fais"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "fait"
+    },
+    {
+      "person": "nous",
+      "form": "faisons"
+    },
+    {
+      "person": "vous",
+      "form": "faites"
+    },
+    {
+      "person": "ils, elles",
+      "form": "font"
+    }
   ]
 }

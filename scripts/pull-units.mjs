@@ -21,6 +21,7 @@ const isPack = (u) => u.is_topic_pick === 'yes'
 const PACK_TARGET = 15
 // Packs at the second node (topic_node U200, 2026-11-10) draw on all of A1 and need 30 sentences, checked Tatoeba only.
 // Sentences Claude turned down in review are in content/sweep/packs-review.json and never proposed again.
+const REBUILD_BASE = { U101: 8800 }
 const isWidePack = (u) => isPack(u) && u.topic_node === 'U200'
 const REVIEW_FILE = join(ROOT, 'content/sweep/packs-review.json')
 const packReview = (unitId) => (existsSync(REVIEW_FILE) ? JSON.parse(readFileSync(REVIEW_FILE, 'utf8')) : {})[unitId] ?? {}
@@ -29,7 +30,7 @@ const rejected = (unitId) => new Set(Object.keys(packReview(unitId).reject ?? {}
 const englishPick = (unitId, sourceId, english) => { const e = packReview(unitId).english?.[sourceId]; return e && english.includes(e) ? [e, ...english.filter((x) => x !== e)] : english }
 
 const units = raw('units').sort((a, b) => a.order - b.order)
-const words = raw('words')
+const words = raw('words').filter((w) => !String(w.status).startsWith('off')) // off words never come back in a pull
 // The workbook's own sentences; the pulls and drafts merged at import are not in the way of a fresh pull.
 const existing = raw('sentences').filter((s) => !s.origin || s.origin === 'workbook')
 // Names allowed (R21): the ones the workbook already uses. Dan can add more there.
@@ -93,7 +94,11 @@ for (const u of units) {
   if (u.is_topic_pick === 'node') continue
   const allowed = new Set([...opened, u.unit_id])
   if (!isPack(u)) opened.add(u.unit_id)
-  if (String(u.status).startsWith('live')) continue
+  // A live pack marked rebuild in packs-review.json (Weather, 2026-11-10) is topped up: its live Tatoeba sentences stay
+  // and count toward the targets, new picks take ids from REBUILD_BASE.
+  const rebuild = Boolean(packReview(u.unit_id).rebuild)
+  if (String(u.status).startsWith('live') && !rebuild) continue
+  const kept = rebuild ? existing.filter((s) => s.unit_id === u.unit_id && s.source === 'tatoeba' && String(s.status).startsWith('live')) : []
   const file = join(PULL, `${u.unit_id}.json`)
   const unitWords = words.filter((w) => w.first_unit === u.unit_id)
   const unitWordIds = new Set(unitWords.map((w) => w.word_id))
@@ -130,6 +135,7 @@ for (const u of units) {
     const formCount = new Map()
     let grammar = 0
     const chosen = []
+    for (const k of kept) for (const id of new Set(raw('sentence_words').filter((r) => r.sentence_id === k.sentence_id).map((r) => r.word_id))) wordCount.set(id, (wordCount.get(id) ?? 0) + 1)
     const gain = (c) => {
       let g = 0
       const ids = new Set(c.parts.map((p) => p.word_id).filter((id) => unitWordIds.has(id)))
@@ -141,11 +147,11 @@ for (const u of units) {
     }
     const pool = [...candidates].sort((a, b) => Number(a.s.id) - Number(b.s.id))
     const target = isWidePack(u) ? TARGET_MIN : isPack(u) ? PACK_TARGET : TARGET_MIN
-    while (chosen.length < TARGET_MAX && pool.length) {
+    while (chosen.length + kept.length < TARGET_MAX && pool.length) {
       let best = 0
       for (let i = 1; i < pool.length; i++) if (gain(pool[i]) > gain(pool[best])) best = i
       const g = gain(pool[best])
-      if (chosen.length >= target && g < 1) break
+      if (chosen.length + kept.length >= target && g < 1) break
       const c = pool.splice(best, 1)[0]
       chosen.push(c)
       for (const id of new Set(c.parts.map((p) => p.word_id))) wordCount.set(id, (wordCount.get(id) ?? 0) + 1)
@@ -171,7 +177,7 @@ for (const u of units) {
     // P06 puts questions and their answers in the unit, on top of the picks.
     for (const { q, answers } of questions) for (const c of [q, ...answers]) if (!chosen.includes(c)) chosen.push(c)
 
-    const base = ID_BASE[u.unit_id]
+    const base = rebuild ? REBUILD_BASE[u.unit_id] : ID_BASE[u.unit_id]
     const sentences = chosen.map((c, i) => ({
       sentence_id: `S${String(base + i + 1).padStart(4, '0')}`, unit_id: u.unit_id, french: norm(c.s.text), english: c.english[0],
       pair_id: '', source: 'tatoeba', source_id: c.s.id, status: 'pulled: awaiting approval', audio_source: 'tts', max_round: 5,

@@ -1424,7 +1424,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/pluie#French",
-    "status": "checked",
+    "status": "off: under 3 Tatoeba sentences in the rebuilt Weather pack (2026-11-10)",
     "notes": ""
   },
   {
@@ -1492,7 +1492,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/temps#French",
-    "status": "checked",
+    "status": "off: under 3 Tatoeba sentences in the rebuilt Weather pack (2026-11-10)",
     "notes": ""
   },
   {
@@ -3806,5 +3806,56 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/fi%C3%A8vre#French",
     "status": "checked",
     "notes": ""
+  },
+  {
+    "word_id": "W604",
+    "lang_id": "fr",
+    "form": "ciel",
+    "lemma": "ciel",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "sky",
+    "hint": "sky",
+    "hint_source": "Wiktionary",
+    "first_unit": "U101",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/ciel#French",
+    "status": "checked",
+    "notes": "Weather rebuild 2026-11-10"
+  },
+  {
+    "word_id": "W605",
+    "lang_id": "fr",
+    "form": "pleut",
+    "lemma": "pleuvoir",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "third-person singular present indicative of pleuvoir",
+    "hint": "to rain (pleuvoir)",
+    "hint_source": "Wiktionary",
+    "first_unit": "U101",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/pleut#French",
+    "status": "checked",
+    "notes": "Weather rebuild 2026-11-10"
+  },
+  {
+    "word_id": "W606",
+    "lang_id": "fr",
+    "form": "fait",
+    "lemma": "faire",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "third-person singular present indicative of faire",
+    "hint": "to be, of the weather (faire)",
+    "hint_source": "Wiktionary, sense \"to be\" of faire (impersonal: il fait froid)",
+    "first_unit": "U101",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/fait#French",
+    "status": "checked",
+    "notes": "Weather rebuild 2026-11-10"
   }
 ]
