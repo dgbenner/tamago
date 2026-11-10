@@ -539,3 +539,7 @@ Part 3, Lingua Libre recordings:
 
 - scripts/apply-spanish-candidates.mjs: 62 drafts had a Use candidate; 31 swapped (first Use candidate still free; a QT09-pair draft only for the same sentence), 31 held (24 pair halves, 7 whose candidates went to other drafts). Swaps keep ids, take Fable's English picks, and are recorded as confirm decisions with their text. Spanish drafts 158 to 127; every word still in 3 or more.
 - enfant and enfants pictures approved by Dan; French 76 words and Spanish 58 now use his art.
+
+## 2026-11-10: French trust-rule candidates
+
+- scripts/trust-candidates.mjs: the Spanish script made course-aware, with topic packs (first node on Units 1 to 5, second on all of A1) and a mood-aware exact match (a question never matches a statement); refuses to overwrite a file with review marks. _review/french-candidates.md: 277 candidates, 16 exact, 97 drafts covered. Nothing swapped.
