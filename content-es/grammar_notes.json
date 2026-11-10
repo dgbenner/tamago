@@ -91,6 +91,13 @@
       "example_sentence_ids": "S13023;S13022;S13028",
       "conjugation_lemma": "",
       "status": "live"
+    },
+    {
+      "unit_id": "U14",
+      "rule": "Time words: hoy (today), mañana (tomorrow), ahora (now). Days of the week have no capital letter: lunes, sábado, domingo. El before a day means on that day: el domingo estoy en casa. Hoy es lunes says what day it is.",
+      "example_sentence_ids": "S14002;S14003;S14007",
+      "conjugation_lemma": "",
+      "status": "live"
     }
   ]
 }

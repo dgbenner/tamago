@@ -19,6 +19,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 11 is live:** Asking Questions, 33 sentences (30 Tatoeba, 3 drafts): qué, quién, dónde, cuál, por qué, porque. Cut idioms (¿Y qué?, ¿Qué hay?) and three copies of "That's because you're a girl".
   - **Unit 12 is live:** Counting to Ten, 48 sentences (30 Tatoeba, 18 drafts): dos to diez, cuántos and cuántas, hay. Tatoeba writes most numbers above four as digits, which the pull leaves out, so five to ten are drafted.
   - **Unit 13 is live:** Naming Colours, 40 sentences (30 Tatoeba, 10 drafts): colours after the noun, agreement, ¿De qué color es? Cut an idiom (No tengo blanca, I'm broke).
+  - **Unit 14 is live:** Days and Times, 39 sentences (30 Tatoeba, 9 drafts): hoy, mañana, ahora, días de la semana, ¿Qué hora es? Cut te llamo meaning I'll call you.
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -486,7 +487,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (147), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (155), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -673,3 +674,14 @@ Every Spanish sentence I wrote (147), for a native speaker of Latin American Spa
 - S13108 El libro es verde. = The book is green. (QT09 answer)
 - S13109 Mi casa es blanca. = My house is white. (QT09 answer)
 - S13111 Él tiene un perro negro. = He has a black dog.
+
+**U14 Days and Times** (8)
+
+- S14101 Es una buena semana. = It's a good week.
+- S14102 ¿Qué día de la semana es hoy? = What day of the week is it today?
+- S14103 El lunes es un día de la semana. = Monday is a day of the week.
+- S14104 Tengo una hora. = I have an hour.
+- S14106 Es la una. = It's one o'clock. (QT09 answer)
+- S14107 Mañana es sábado. = Tomorrow is Saturday.
+- S14108 El domingo estoy en casa. = On Sunday I'm at home.
+- S14109 No, hoy es domingo. = No, today is Sunday. (QT09 answer)

@@ -488,3 +488,4 @@ Part 3, Lingua Libre recordings:
 - Spanish Unit 11 (Asking Questions): 30 Tatoeba, 3 drafts, 4 QT09 pairs (answers from earlier units); 10 cuts.
 - Spanish Unit 12 (Counting to Ten): 30 Tatoeba, 18 drafts (numbers as words are rare on Tatoeba), 4 QT09 pairs; 1 cut.
 - Spanish Unit 13 (Naming Colours): 30 Tatoeba, 10 drafts, 4 QT09 pairs; 4 cuts.
+- Spanish Unit 14 (Days and Times): 30 Tatoeba, 9 drafts, 4 QT09 pairs; 7 cuts.

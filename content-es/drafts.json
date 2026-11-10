@@ -1059,6 +1059,72 @@
       "french": "Él tiene un perro negro.",
       "english": "He has a black dog.",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S14101",
+      "unit_id": "U14",
+      "french": "Es una buena semana.",
+      "english": "It's a good week.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S14102",
+      "unit_id": "U14",
+      "french": "¿Qué día de la semana es hoy?",
+      "english": "What day of the week is it today?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S14103",
+      "unit_id": "U14",
+      "french": "El lunes es un día de la semana.",
+      "english": "Monday is a day of the week.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S14104",
+      "unit_id": "U14",
+      "french": "Tengo una hora.",
+      "english": "I have an hour.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S14105",
+      "unit_id": "U14",
+      "french": "¿Qué hora es?",
+      "english": "What time is it?",
+      "notes": "QT09 question; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "2830",
+      "source_owner": "Shishir"
+    },
+    {
+      "sentence_id": "S14106",
+      "unit_id": "U14",
+      "french": "Es la una.",
+      "english": "It's one o'clock.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S14107",
+      "unit_id": "U14",
+      "french": "Mañana es sábado.",
+      "english": "Tomorrow is Saturday.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S14108",
+      "unit_id": "U14",
+      "french": "El domingo estoy en casa.",
+      "english": "On Sunday I'm at home.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S14109",
+      "unit_id": "U14",
+      "french": "No, hoy es domingo.",
+      "english": "No, today is Sunday.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -1269,6 +1335,22 @@
     {
       "question_sentence_id": "S13007",
       "answer_sentence_id": "S13110"
+    },
+    {
+      "question_sentence_id": "S14105",
+      "answer_sentence_id": "S14106"
+    },
+    {
+      "question_sentence_id": "S14002",
+      "answer_sentence_id": "S14109"
+    },
+    {
+      "question_sentence_id": "S14004",
+      "answer_sentence_id": "S14007"
+    },
+    {
+      "question_sentence_id": "S14016",
+      "answer_sentence_id": "S3004"
     }
   ]
 }
