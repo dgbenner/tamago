@@ -120,6 +120,7 @@ const ES = {
   jaune: ['amarillo', 'amarilla'], ville: ['ciudad'], école: ['escuela'], parc: ['parque'], restaurant: ['restaurante'], magasin: ['tienda'], livre: ['libro'], livres: ['libros'],
   lettre: ['carta'], ami: ['amigo'], amie: ['amiga'], médecin: ['médico'], malade: ['enfermo'], femmes: ['mujeres'], filles: ['chicas'], café: ['café'], maison: ['casa'],
   table: ['mesa'], lit: ['cama'], porte: ['puerta'], cuisine: ['cocina'], journal: ['periódico'], animaux: [],
+  famille: ['familia'], bébé: ['bebé'], hommes: ['hombres'], sucre: ['azúcar'], thé: ['té'], chocolat: ['chocolate'], chanteur: ['cantante'],
 }
 // Food and culture items that belong to one language; everything else is Shared.
 const LANGUAGE = { croissant: 'French' }

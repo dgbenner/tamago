@@ -526,3 +526,7 @@ Part 3, Lingua Libre recordings:
   copying it into state never updated the screen). Flags preloaded in index.html. vite's sw.js step writes to the
   build's outDir. Checked on a local production build with the service worker: new visitor asked within 0.5 s with
   flags loaded, Spanish pick loads once; a learner with progress not asked; a new version reloads straight to home.
+
+## 2026-11-10: Pictures, second batch
+
+- 40 files from Desktop/more images copied to _source/pictures/incoming-2026-11-10b; mapped in picture-check.json (decision use); image-list ES map gains famille, bébé, hommes, sucre, thé, chocolat, chanteur. French 74 words with Dan's pictures, Spanish 56; 26 rows left.

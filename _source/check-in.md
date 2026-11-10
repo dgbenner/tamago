@@ -4,6 +4,7 @@ Updated November 10, 2026. **The Spanish course is live: all 15 units, six topic
 
 ## Done since last check-in
 
+- **Your second batch of pictures is in lessons, both languages.** All 40 are copied to _source/pictures/incoming-2026-11-10b/ and matched to the list: house, cheese, milk, bed, table, chair, kitchen, bathroom, newspaper, letters, colours (red, blue, green, yellow), weather (cold, hot), coffee, tea, sugar, chocolate, butter, croissant, banana, meat, fish, sandwich, restaurant, city, boat, birds and a bird, duck, horses, baby, family, men, singer, student, and both teachers. French now pictures 74 words with your art (only enfant, on hold, and orange still use OpenMoji); Spanish 56 (only naranja). 26 rows of the list remain to make. Picture Check shows the new ones; three matched by file name (croissant, sandwich, restaurant), the rest by the picture. The men's picture has three where the list asked for two, which reads fine for hommes.
 - **Opening screen bugs fixed** (your report): it looked like it loaded twice and the flags didn't show.
   - The new circles counted every unit's lessons when home first drew, by simulating lessons, which froze the page for about four seconds while the opening screen was up. The counts are now worked out when the content is built, so home draws at once.
   - After each deploy, the page reloads once to switch to the new version; that reload used to play the opening screen again. Now it goes straight to home.
