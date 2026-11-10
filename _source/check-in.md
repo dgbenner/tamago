@@ -20,6 +20,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 12 is live:** Counting to Ten, 48 sentences (30 Tatoeba, 18 drafts): dos to diez, cuántos and cuántas, hay. Tatoeba writes most numbers above four as digits, which the pull leaves out, so five to ten are drafted.
   - **Unit 13 is live:** Naming Colours, 40 sentences (30 Tatoeba, 10 drafts): colours after the noun, agreement, ¿De qué color es? Cut an idiom (No tengo blanca, I'm broke).
   - **Unit 14 is live:** Days and Times, 39 sentences (30 Tatoeba, 9 drafts): hoy, mañana, ahora, días de la semana, ¿Qué hora es? Cut te llamo meaning I'll call you.
+  - **Unit 15 is live:** Going Places, 33 sentences (30 Tatoeba, 3 drafted answers): voy, vas, va; a and al. Cut me voy and te vas (irse, to leave) and ¿Cómo te va? (an idiom). **All 15 Spanish units are now live.**
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -487,7 +488,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (155), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (158), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -685,3 +686,9 @@ Every Spanish sentence I wrote (155), for a native speaker of Latin American Spa
 - S14107 Mañana es sábado. = Tomorrow is Saturday.
 - S14108 El domingo estoy en casa. = On Sunday I'm at home.
 - S14109 No, hoy es domingo. = No, today is Sunday. (QT09 answer)
+
+**U15 Going Places** (3)
+
+- S15101 La escuela está allí. = The school is over there. (QT09 answer)
+- S15102 Sí, me gusta la escuela. = Yes, I like school. (QT09 answer)
+- S15103 Sí, yo también voy. = Yes, I'm going too. (QT09 answer)

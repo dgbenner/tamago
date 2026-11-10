@@ -96,5 +96,12 @@
     "example_sentence_ids": "S14002;S14003;S14007",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U15",
+    "rule": "Ir means to go: voy (I go), vas (you go), va (he, she or usted goes). Where to comes after a: voy a la escuela. A and el join into al: voy al parque, not a el. Estar still says where something is: ¿Dónde está la escuela?",
+    "example_sentence_ids": "S15003;S15006;S15024",
+    "conjugation_lemma": "ir",
+    "status": "live"
   }
 ]

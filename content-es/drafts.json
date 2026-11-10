@@ -1125,6 +1125,27 @@
       "french": "No, hoy es domingo.",
       "english": "No, today is Sunday.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S15101",
+      "unit_id": "U15",
+      "french": "La escuela está allí.",
+      "english": "The school is over there.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S15102",
+      "unit_id": "U15",
+      "french": "Sí, me gusta la escuela.",
+      "english": "Yes, I like school.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S15103",
+      "unit_id": "U15",
+      "french": "Sí, yo también voy.",
+      "english": "Yes, I'm going too.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -1351,6 +1372,22 @@
     {
       "question_sentence_id": "S14016",
       "answer_sentence_id": "S3004"
+    },
+    {
+      "question_sentence_id": "S15023",
+      "answer_sentence_id": "S15008"
+    },
+    {
+      "question_sentence_id": "S15024",
+      "answer_sentence_id": "S15101"
+    },
+    {
+      "question_sentence_id": "S15026",
+      "answer_sentence_id": "S15102"
+    },
+    {
+      "question_sentence_id": "S15022",
+      "answer_sentence_id": "S15103"
     }
   ]
 }

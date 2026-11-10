@@ -1,0 +1,1483 @@
+{
+  "unit_id": "U15",
+  "pulled_at": "2026-11-10",
+  "candidates": 87,
+  "sentences": [
+    {
+      "sentence_id": "S15001",
+      "unit_id": "U15",
+      "french": "¿Cómo vas a la escuela?",
+      "english": "How do you get to school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "600192",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15002",
+      "unit_id": "U15",
+      "french": "Voy al parque.",
+      "english": "I go to the park.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "450251",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "catakaoe",
+      "other_english": [
+        "I'll go to the park."
+      ]
+    },
+    {
+      "sentence_id": "S15003",
+      "unit_id": "U15",
+      "french": "Voy al restaurante.",
+      "english": "I'm going to the restaurant.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1307059",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15004",
+      "unit_id": "U15",
+      "french": "Él va a la tienda.",
+      "english": "He's going to the store.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1801258",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15005",
+      "unit_id": "U15",
+      "french": "Va al parque.",
+      "english": "He's going to the park.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8323922",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15006",
+      "unit_id": "U15",
+      "french": "Tú vas a la escuela.",
+      "english": "You go to school.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4439064",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15007",
+      "unit_id": "U15",
+      "french": "Voy a la escuela.",
+      "english": "I go to school.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "473450",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "I'm going to school.",
+        "I am going to school."
+      ]
+    },
+    {
+      "sentence_id": "S15008",
+      "unit_id": "U15",
+      "french": "Ella va al parque.",
+      "english": "She goes to the park.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8323923",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15009",
+      "unit_id": "U15",
+      "french": "¿Por qué no vas a la cama?",
+      "english": "Why don't you go to bed?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5058400",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15010",
+      "unit_id": "U15",
+      "french": "Voy a la tienda ahora.",
+      "english": "I am going to the store now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1517679",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15011",
+      "unit_id": "U15",
+      "french": "¿Hay una tienda aquí?",
+      "english": "Is there a shop here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707069",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15012",
+      "unit_id": "U15",
+      "french": "¿En qué ciudad estás?",
+      "english": "What city are you in?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3668075",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15013",
+      "unit_id": "U15",
+      "french": "¿En qué ciudad estamos?",
+      "english": "What city are we in?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10032995",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15014",
+      "unit_id": "U15",
+      "french": "¿En qué ciudad está usted?",
+      "english": "What city are you in?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3668078",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15015",
+      "unit_id": "U15",
+      "french": "Hay un restaurante aquí.",
+      "english": "There's a restaurant here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "956997",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15016",
+      "unit_id": "U15",
+      "french": "Estoy en este restaurante.",
+      "english": "I am in this restaurant.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2183988",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15017",
+      "unit_id": "U15",
+      "french": "¿Cómo voy a tu casa?",
+      "english": "How do I get to your house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6686537",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15018",
+      "unit_id": "U15",
+      "french": "¿A la casa de quién vas?",
+      "english": "To whose house are you going?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8351985",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "adroguense",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15019",
+      "unit_id": "U15",
+      "french": "¿Quién va?",
+      "english": "Who's going?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6811011",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15020",
+      "unit_id": "U15",
+      "french": "¿Por qué vas?",
+      "english": "Why are you going?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9943339",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15021",
+      "unit_id": "U15",
+      "french": "¿A dónde?",
+      "english": "Where to?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10925391",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JSKabylie",
+      "other_english": [
+        "Whither?"
+      ]
+    },
+    {
+      "sentence_id": "S15022",
+      "unit_id": "U15",
+      "french": "¿Tú también vas?",
+      "english": "Are you going, too?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1057671",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15023",
+      "unit_id": "U15",
+      "french": "¿Dónde va ella?",
+      "english": "Where's she going?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7135979",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": [
+        "Where is she going?"
+      ]
+    },
+    {
+      "sentence_id": "S15024",
+      "unit_id": "U15",
+      "french": "¿Dónde está la escuela?",
+      "english": "Where's the school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1054518",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "Where is the school?"
+      ]
+    },
+    {
+      "sentence_id": "S15025",
+      "unit_id": "U15",
+      "french": "¿Dónde está el parque?",
+      "english": "Where's the park?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2008791",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15026",
+      "unit_id": "U15",
+      "french": "¿Te gusta la escuela?",
+      "english": "Do you like school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2194545",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15027",
+      "unit_id": "U15",
+      "french": "¿Cómo es la escuela?",
+      "english": "How's school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2364884",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15028",
+      "unit_id": "U15",
+      "french": "¿Te gusta tu escuela?",
+      "english": "Do you like your school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5578651",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15029",
+      "unit_id": "U15",
+      "french": "¿Y a nosotros qué?",
+      "english": "What does this have to do with us?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10054001",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15030",
+      "unit_id": "U15",
+      "french": "¿Cómo va tu día?",
+      "english": "How's your day going?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12881465",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": [
+        "How is your day going?"
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S15001",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15001",
+      "position": 2,
+      "surface": "vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15001",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15001",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15001",
+      "position": 5,
+      "surface": "escuela",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 2,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15002",
+      "position": 3,
+      "surface": "parque",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15003",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15003",
+      "position": 2,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15003",
+      "position": 3,
+      "surface": "restaurante",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15004",
+      "position": 5,
+      "surface": "tienda",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 1,
+      "surface": "Va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 2,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15005",
+      "position": 3,
+      "surface": "parque",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 1,
+      "surface": "Tú",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 2,
+      "surface": "vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15006",
+      "position": 5,
+      "surface": "escuela",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15007",
+      "position": 4,
+      "surface": "escuela",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 3,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15008",
+      "position": 4,
+      "surface": "parque",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 3,
+      "surface": "vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15009",
+      "position": 6,
+      "surface": "cama",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 4,
+      "surface": "tienda",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15010",
+      "position": 5,
+      "surface": "ahora",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 1,
+      "surface": "Hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 3,
+      "surface": "tienda",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15011",
+      "position": 4,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 3,
+      "surface": "ciudad",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15012",
+      "position": 4,
+      "surface": "estás",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 3,
+      "surface": "ciudad",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15013",
+      "position": 4,
+      "surface": "estamos",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 3,
+      "surface": "ciudad",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 4,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15014",
+      "position": 5,
+      "surface": "usted",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15015",
+      "position": 1,
+      "surface": "Hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15015",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15015",
+      "position": 3,
+      "surface": "restaurante",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15015",
+      "position": 4,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15016",
+      "position": 1,
+      "surface": "Estoy",
+      "word_id": "W038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15016",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15016",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15016",
+      "position": 4,
+      "surface": "restaurante",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 2,
+      "surface": "voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 4,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15017",
+      "position": 5,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 3,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 5,
+      "surface": "quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15018",
+      "position": 6,
+      "surface": "vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15019",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15019",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15020",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15020",
+      "position": 2,
+      "surface": "vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15021",
+      "position": 2,
+      "surface": "dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 1,
+      "surface": "Tú",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 2,
+      "surface": "también",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15022",
+      "position": 3,
+      "surface": "vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15023",
+      "position": 3,
+      "surface": "ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15024",
+      "position": 4,
+      "surface": "escuela",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15025",
+      "position": 4,
+      "surface": "parque",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15026",
+      "position": 4,
+      "surface": "escuela",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15027",
+      "position": 4,
+      "surface": "escuela",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15028",
+      "position": 4,
+      "surface": "escuela",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15029",
+      "position": 1,
+      "surface": "Y",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15029",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15029",
+      "position": 3,
+      "surface": "nosotros",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15029",
+      "position": 4,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15030",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15030",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15030",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15030",
+      "position": 4,
+      "surface": "día",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A150021",
+      "sentence_id": "S15002",
+      "direction": "fr_to_en",
+      "answer": "I'll go to the park.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150071",
+      "sentence_id": "S15007",
+      "direction": "fr_to_en",
+      "answer": "I'm going to school.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150072",
+      "sentence_id": "S15007",
+      "direction": "fr_to_en",
+      "answer": "I am going to school.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150211",
+      "sentence_id": "S15021",
+      "direction": "fr_to_en",
+      "answer": "Whither?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150231",
+      "sentence_id": "S15023",
+      "direction": "fr_to_en",
+      "answer": "Where is she going?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150241",
+      "sentence_id": "S15024",
+      "direction": "fr_to_en",
+      "answer": "Where is the school?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A150301",
+      "sentence_id": "S15030",
+      "direction": "fr_to_en",
+      "answer": "How is your day going?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

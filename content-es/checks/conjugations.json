@@ -103,6 +103,32 @@
       "form": "tènent"
     }
   ],
+  "ir": [
+    {
+      "person": "je (j’)",
+      "form": "is"
+    },
+    {
+      "person": "tu",
+      "form": "is"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "it"
+    },
+    {
+      "person": "nous",
+      "form": "issons"
+    },
+    {
+      "person": "vous",
+      "form": "issez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "issent"
+    }
+  ],
   "beber": [
     {
       "person": "je (j’)",
@@ -179,32 +205,6 @@
     {
       "person": "ils, elles",
       "form": "habent"
-    }
-  ],
-  "ir": [
-    {
-      "person": "je (j’)",
-      "form": "is"
-    },
-    {
-      "person": "tu",
-      "form": "is"
-    },
-    {
-      "person": "il, elle, on",
-      "form": "it"
-    },
-    {
-      "person": "nous",
-      "form": "issons"
-    },
-    {
-      "person": "vous",
-      "form": "issez"
-    },
-    {
-      "person": "ils, elles",
-      "form": "issent"
     }
   ],
   "llamar": [

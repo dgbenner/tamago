@@ -428,5 +428,49 @@
       "S14007"
     ],
     "conjugations": []
+  },
+  {
+    "unit_id": "U15",
+    "rule": "Ir means to go: voy (I go), vas (you go), va (he, she or usted goes). Where to comes after a: voy a la escuela. A and el join into al: voy al parque, not a el. Estar still says where something is: ¿Dónde está la escuela?",
+    "example_sentence_ids": "S15003;S15006;S15024",
+    "conjugation_lemma": "ir",
+    "status": "live",
+    "examples": [
+      "S15003",
+      "S15006",
+      "S15024"
+    ],
+    "conjugations": [
+      {
+        "lemma": "ir",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "is"
+          },
+          {
+            "person": "tu",
+            "form": "is"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "it"
+          },
+          {
+            "person": "nous",
+            "form": "issons"
+          },
+          {
+            "person": "vous",
+            "form": "issez"
+          },
+          {
+            "person": "ils, elles",
+            "form": "issent"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/ir#Conjugation"
+      }
+    ]
   }
 ]
