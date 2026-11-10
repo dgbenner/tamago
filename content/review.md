@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 752 (453 matched to Tatoeba, 299 Tamago originals), 62 off, 60 awaiting a ruling. Words with Wiktionary data: 224 of 224. French-to-English answers: 249 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 333.
+Sentences live: 752 (453 matched to Tatoeba, 299 Tamago originals), 62 off, 0 awaiting a ruling. Words with Wiktionary data: 224 of 224. French-to-English answers: 249 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 385.
 
 Unit 1 is approved and live.
 
@@ -1082,7 +1082,7 @@ Set to off by the workbook owner. Not shipped.
 | S7729 | À elle. | It's her turn. | pulled from Tatoeba under content_pull |
 | S7730 | À trois ! | On the count of three! | pulled from Tatoeba under content_pull |
 
-## English-to-French answers generated from Tatoeba (333)
+## English-to-French answers generated from Tatoeba (385)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -1421,6 +1421,58 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S7760 | Where are you going? | Où te rends-tu ? | [#1833023](https://tatoeba.org/en/sentences/show/1833023) | sacredceltic |
 | S7760 | Where are you going? | Où vas-tu ? | [#3991](https://tatoeba.org/en/sentences/show/3991) | zmoo |
 | S7760 | Where are you going? | Où vous rendez-vous ? | [#1833025](https://tatoeba.org/en/sentences/show/1833025) | sacredceltic |
+| S8003 | Is that your pen? | C'est votre stylo ? | [#2576009](https://tatoeba.org/en/sentences/show/2576009) | Aiji |
+| S8004 | Is he working tomorrow? | Travaille-t-il demain ? | [#2309624](https://tatoeba.org/en/sentences/show/2309624) | sysko |
+| S8009 | I'm the boss, aren't I? | C'est moi le patron, non ? | [#6473189](https://tatoeba.org/en/sentences/show/6473189) | Aiji |
+| S8010 | Are you busy tomorrow morning? | Êtes-vous occupés demain matin ? | [#8064967](https://tatoeba.org/en/sentences/show/8064967) | Aiji |
+| S8012 | They're working. | Elles travaillent. | [#6481907](https://tatoeba.org/en/sentences/show/6481907) | GB3 |
+| S8012 | They're working. | Ils bossent. | [#13922098](https://tatoeba.org/en/sentences/show/13922098) | Myrano_ |
+| S8012 | They're working. | Ils charbonnent. | [#13922099](https://tatoeba.org/en/sentences/show/13922099) | Myrano_ |
+| S8013 | They're working. | Ils bossent. | [#13922098](https://tatoeba.org/en/sentences/show/13922098) | Myrano_ |
+| S8013 | They're working. | Ils charbonnent. | [#13922099](https://tatoeba.org/en/sentences/show/13922099) | Myrano_ |
+| S8013 | They're working. | Ils travaillent. | [#6481906](https://tatoeba.org/en/sentences/show/6481906) | GB3 |
+| S8014 | I'm busy. | Je suis occupée. | [#4320601](https://tatoeba.org/en/sentences/show/4320601) | gillux |
+| S8016 | The women are working. | Les femmes sont au charbon. | [#13922095](https://tatoeba.org/en/sentences/show/13922095) | Myrano_ |
+| S8016 | The women are working. | Les femmes sont au travail. | [#590751](https://tatoeba.org/en/sentences/show/590751) | qdii |
+| S8018 | I'm busy. | Je suis occupé. | [#127910](https://tatoeba.org/en/sentences/show/127910) | sacredceltic |
+| S8019 | I am busy today. | Je suis occupée aujourd'hui. | [#1021727](https://tatoeba.org/en/sentences/show/1021727) | sacredceltic |
+| S8021 | I go to work. | Je me rends au travail. | [#1188040](https://tatoeba.org/en/sentences/show/1188040) | sacredceltic |
+| S8021 | I go to work. | Je pars au boulot. | [#863525](https://tatoeba.org/en/sentences/show/863525) | Aiji |
+| S8021 | I go to work. | Je vais travailler. | [#1188039](https://tatoeba.org/en/sentences/show/1188039) | sacredceltic |
+| S8022 | You're very busy. | Tu es fort occupé. | [#2228757](https://tatoeba.org/en/sentences/show/2228757) | sacredceltic |
+| S8022 | You're very busy. | Tu es fort occupée. | [#2228758](https://tatoeba.org/en/sentences/show/2228758) | sacredceltic |
+| S8022 | You're very busy. | Tu es très occupée. | [#2228762](https://tatoeba.org/en/sentences/show/2228762) | sacredceltic |
+| S8022 | You're very busy. | Vous êtes fort occupé. | [#2228767](https://tatoeba.org/en/sentences/show/2228767) | sacredceltic |
+| S8022 | You're very busy. | Vous êtes fort occupée. | [#2228768](https://tatoeba.org/en/sentences/show/2228768) | sacredceltic |
+| S8022 | You're very busy. | Vous êtes fort occupées. | [#2228771](https://tatoeba.org/en/sentences/show/2228771) | sacredceltic |
+| S8022 | You're very busy. | Vous êtes fort occupés. | [#2228769](https://tatoeba.org/en/sentences/show/2228769) | sacredceltic |
+| S8022 | You're very busy. | Vous êtes très occupé. | [#2228763](https://tatoeba.org/en/sentences/show/2228763) | sacredceltic |
+| S8022 | You're very busy. | Vous êtes très occupée. | [#2228764](https://tatoeba.org/en/sentences/show/2228764) | sacredceltic |
+| S8022 | You're very busy. | Vous êtes très occupées. | [#2228766](https://tatoeba.org/en/sentences/show/2228766) | sacredceltic |
+| S8022 | You're very busy. | Vous êtes très occupés. | [#2228765](https://tatoeba.org/en/sentences/show/2228765) | sacredceltic |
+| S8025 | I'm working! | Je suis en train de travailler. | [#3669707](https://tatoeba.org/en/sentences/show/3669707) | sacredceltic |
+| S8103 | Where's the doctor? | Où est le docteur ? | [#5662068](https://tatoeba.org/en/sentences/show/5662068) | Aiji |
+| S8104 | Where's the doctor? | Où est le médecin ? | [#5662067](https://tatoeba.org/en/sentences/show/5662067) | Aiji |
+| S8109 | She's a doctor. | Elle est toubib. | [#451730](https://tatoeba.org/en/sentences/show/451730) | sacredceltic |
+| S8114 | You're sick. | Tu es malade ! | [#1156512](https://tatoeba.org/en/sentences/show/1156512) | Korekorin |
+| S8114 | You're sick. | Vous êtes malade ! | [#1156517](https://tatoeba.org/en/sentences/show/1156517) | Korekorin |
+| S8115 | They're sick. | Elles sont malades. | [#2078709](https://tatoeba.org/en/sentences/show/2078709) | Amastan |
+| S8116 | They're doctors. | Elles sont médecins. | [#4729429](https://tatoeba.org/en/sentences/show/4729429) | sacredceltic |
+| S8117 | They're doctors. | Ils sont médecins. | [#4729426](https://tatoeba.org/en/sentences/show/4729426) | sacredceltic |
+| S8120 | I have a fever. | J'ai de la fièvre. | [#10707867](https://tatoeba.org/en/sentences/show/10707867) | AutoBot |
+| S8120 | I have a fever. | Je suis fiévreux. | [#10707868](https://tatoeba.org/en/sentences/show/10707868) | AutoBot |
+| S8121 | You've got a fever. | Vous avez de la fièvre. | [#3470433](https://tatoeba.org/en/sentences/show/3470433) | Lulantis |
+| S8122 | You are a doctor. | Tu es toubib. | [#561912](https://tatoeba.org/en/sentences/show/561912) | sacredceltic |
+| S8122 | You are a doctor. | Vous êtes médecin. | [#561910](https://tatoeba.org/en/sentences/show/561910) | sacredceltic |
+| S8123 | I'm a doctor. | Je suis toubib. | [#554885](https://tatoeba.org/en/sentences/show/554885) | sacredceltic |
+| S8124 | You are a doctor. | Tu es toubib. | [#561912](https://tatoeba.org/en/sentences/show/561912) | sacredceltic |
+| S8124 | You are a doctor. | Vous êtes docteur. | [#406149](https://tatoeba.org/en/sentences/show/406149) | Scott |
+| S8125 | You're sick! | Vous êtes malade ! | [#1156517](https://tatoeba.org/en/sentences/show/1156517) | Korekorin |
+| S8125 | You're sick! | Vous êtes malades. | [#2078702](https://tatoeba.org/en/sentences/show/2078702) | Amastan |
+| S8126 | You're sick! | Tu es malade ! | [#1156512](https://tatoeba.org/en/sentences/show/1156512) | Korekorin |
+| S8126 | You're sick! | Vous êtes malades. | [#2078702](https://tatoeba.org/en/sentences/show/2078702) | Amastan |
+| S8129 | They're sick. | Ils sont malades. | [#2078706](https://tatoeba.org/en/sentences/show/2078706) | Amastan |
+| S8130 | Here's the doctor. | Voici le médecin. | [#12835578](https://tatoeba.org/en/sentences/show/12835578) | Rovo |
 
 ## French feedback lines (9)
 

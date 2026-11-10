@@ -397,3 +397,7 @@ Part 3, Lingua Libre recordings:
 - Words with fewer than 3 good sentences were dropped from each pack (the first packs' rule) and the pull redone.
 - Built: At the Office (U201, 30 sentences, 8 words: bureau, travail, travaille, travaillent, patron, occupé,
   occupée, stylo). Skipped topics are listed in check-in.md.
+- Built: At the Doctor (U202, 30 sentences, 7 words: médecin, médecins, docteur, malade, malades, hôpital, fièvre).
+- Skipped: Cinema (45 candidates, about 20 on the topic after review) and every topic under 30 candidates even with
+  all of A1 (check-in.md lists them). Workbook v21 folds both packs in (workbook-sync); rebuilding from v21 gives
+  the same content apart from bookkeeping fields and 52 generated en_to_fr answers for the new rows.
