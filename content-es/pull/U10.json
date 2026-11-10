@@ -1,0 +1,1417 @@
+{
+  "unit_id": "U10",
+  "pulled_at": "2026-11-10",
+  "candidates": 183,
+  "sentences": [
+    {
+      "sentence_id": "S10001",
+      "unit_id": "U10",
+      "french": "Esta es la carta de mi amigo.",
+      "english": "This is my friend's letter.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1905027",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zahurdias",
+      "other_english": [
+        "This is the letter from my friend."
+      ]
+    },
+    {
+      "sentence_id": "S10002",
+      "unit_id": "U10",
+      "french": "¿Eres su amiga?",
+      "english": "Are you her friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1502190",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10003",
+      "unit_id": "U10",
+      "french": "¿Eres su amigo?",
+      "english": "Are you her friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1502191",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10004",
+      "unit_id": "U10",
+      "french": "¿Eres mi amigo?",
+      "english": "Are you my friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2719038",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10005",
+      "unit_id": "U10",
+      "french": "¿Esta es tu familia?",
+      "english": "Is this your family?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2059646",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10006",
+      "unit_id": "U10",
+      "french": "¿Soy yo tu amiga?",
+      "english": "Am I your friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707036",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10007",
+      "unit_id": "U10",
+      "french": "Son mis amigos.",
+      "english": "They're my friends.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2710908",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10008",
+      "unit_id": "U10",
+      "french": "Ellos son mis amigos.",
+      "english": "They're my friends.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5057686",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": [
+        "They are my friends."
+      ]
+    },
+    {
+      "sentence_id": "S10009",
+      "unit_id": "U10",
+      "french": "¿Es ella mi amiga?",
+      "english": "Is she my friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10010",
+      "unit_id": "U10",
+      "french": "Me gusta tu familia.",
+      "english": "I like your family.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1863947",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10011",
+      "unit_id": "U10",
+      "french": "Tom es un amigo de la familia.",
+      "english": "Tom is a friend of the family.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3246204",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10012",
+      "unit_id": "U10",
+      "french": "Somos los amigos de Tom.",
+      "english": "We're Tom's friends.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2453975",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": [
+        "We're friends of Tom's."
+      ]
+    },
+    {
+      "sentence_id": "S10013",
+      "unit_id": "U10",
+      "french": "Aquí están sus libros.",
+      "english": "Here are your books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9171247",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ignacio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10014",
+      "unit_id": "U10",
+      "french": "¿Tom es su amigo?",
+      "english": "Is Tom your friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8631892",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10015",
+      "unit_id": "U10",
+      "french": "¿Somos amigas?",
+      "english": "Are we friends?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6712731",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10016",
+      "unit_id": "U10",
+      "french": "No son mis libros.",
+      "english": "They aren't my books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "597708",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10017",
+      "unit_id": "U10",
+      "french": "¿Es él mi amigo?",
+      "english": "Is he my friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707032",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10018",
+      "unit_id": "U10",
+      "french": "¿Soy yo tu amigo?",
+      "english": "Am I your friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707035",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10019",
+      "unit_id": "U10",
+      "french": "¿Es él tu amigo?",
+      "english": "Is he your friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3762237",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10020",
+      "unit_id": "U10",
+      "french": "¿Eres amigo de Tom?",
+      "english": "Are you a friend of Tom's?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4552017",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10021",
+      "unit_id": "U10",
+      "french": "¿Somos amigos?",
+      "english": "Are we friends?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2004178",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10022",
+      "unit_id": "U10",
+      "french": "¿Tiene familia?",
+      "english": "Do you have a family?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5549500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10023",
+      "unit_id": "U10",
+      "french": "¿Eres de aquí?",
+      "english": "Are you from here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "576684",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Are you from around here?"
+      ]
+    },
+    {
+      "sentence_id": "S10024",
+      "unit_id": "U10",
+      "french": "¿Ellos son amigos?",
+      "english": "Are they friends?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1681097",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10025",
+      "unit_id": "U10",
+      "french": "¿Es tu profesor?",
+      "english": "Is he your teacher?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2022146",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10026",
+      "unit_id": "U10",
+      "french": "¿Es su libro?",
+      "english": "Is it his book?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8106854",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "baudelaire",
+      "other_english": [
+        "Is it her book?",
+        "Is it your book?"
+      ]
+    },
+    {
+      "sentence_id": "S10027",
+      "unit_id": "U10",
+      "french": "¿No tienes amigos?",
+      "english": "Do you not have friends?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11996931",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JSKabylie15",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10028",
+      "unit_id": "U10",
+      "french": "¿Esta es su casa?",
+      "english": "Is this your house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2051818",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nancy",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10029",
+      "unit_id": "U10",
+      "french": "¿Es ella una amiga?",
+      "english": "Is she a friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707039",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10030",
+      "unit_id": "U10",
+      "french": "¿Es él un amigo?",
+      "english": "Is he a friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707041",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S10001",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 4,
+      "surface": "carta",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 6,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 7,
+      "surface": "amigo",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 2,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 3,
+      "surface": "amiga",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 2,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 3,
+      "surface": "amigo",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 2,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 3,
+      "surface": "amigo",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 4,
+      "surface": "familia",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 2,
+      "surface": "yo",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 4,
+      "surface": "amiga",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 1,
+      "surface": "Son",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 2,
+      "surface": "mis",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 3,
+      "surface": "amigos",
+      "word_id": "W194",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 1,
+      "surface": "Ellos",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 2,
+      "surface": "son",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 3,
+      "surface": "mis",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 4,
+      "surface": "amigos",
+      "word_id": "W194",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 2,
+      "surface": "ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 4,
+      "surface": "amiga",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 4,
+      "surface": "familia",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 4,
+      "surface": "amigo",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 6,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 7,
+      "surface": "familia",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 1,
+      "surface": "Somos",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 2,
+      "surface": "los",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 3,
+      "surface": "amigos",
+      "word_id": "W194",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 1,
+      "surface": "Aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 2,
+      "surface": "están",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 3,
+      "surface": "sus",
+      "word_id": "W122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 4,
+      "surface": "libros",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10014",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10014",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10014",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10014",
+      "position": 4,
+      "surface": "amigo",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10015",
+      "position": 1,
+      "surface": "Somos",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10015",
+      "position": 2,
+      "surface": "amigas",
+      "word_id": "W195",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 2,
+      "surface": "son",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 3,
+      "surface": "mis",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 4,
+      "surface": "libros",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 2,
+      "surface": "él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 4,
+      "surface": "amigo",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 2,
+      "surface": "yo",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 4,
+      "surface": "amigo",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 2,
+      "surface": "él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 4,
+      "surface": "amigo",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 2,
+      "surface": "amigo",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10021",
+      "position": 1,
+      "surface": "Somos",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10021",
+      "position": 2,
+      "surface": "amigos",
+      "word_id": "W194",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10022",
+      "position": 1,
+      "surface": "Tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10022",
+      "position": 2,
+      "surface": "familia",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10023",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10023",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10023",
+      "position": 3,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 1,
+      "surface": "Ellos",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 2,
+      "surface": "son",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 3,
+      "surface": "amigos",
+      "word_id": "W194",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 3,
+      "surface": "profesor",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 2,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 3,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 2,
+      "surface": "tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 3,
+      "surface": "amigos",
+      "word_id": "W194",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 4,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 2,
+      "surface": "ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 4,
+      "surface": "amiga",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 2,
+      "surface": "él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 4,
+      "surface": "amigo",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A100011",
+      "sentence_id": "S10001",
+      "direction": "fr_to_en",
+      "answer": "This is the letter from my friend.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100081",
+      "sentence_id": "S10008",
+      "direction": "fr_to_en",
+      "answer": "They are my friends.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100121",
+      "sentence_id": "S10012",
+      "direction": "fr_to_en",
+      "answer": "We're friends of Tom's.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100231",
+      "sentence_id": "S10023",
+      "direction": "fr_to_en",
+      "answer": "Are you from around here?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100261",
+      "sentence_id": "S10026",
+      "direction": "fr_to_en",
+      "answer": "Is it her book?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100262",
+      "sentence_id": "S10026",
+      "direction": "fr_to_en",
+      "answer": "Is it your book?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

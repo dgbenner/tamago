@@ -484,3 +484,4 @@ Part 3, Lingua Libre recordings:
 - Spanish Unit 7 (Describing Things): 30 Tatoeba, 3 drafted QT09 answers; 5 cuts (too for very, bueno as well, estar nuances).
 - Spanish Unit 8 (Where Things Are): 30 Tatoeba, 5 drafts, 4 QT09 pairs; 6 cuts (llamas as flames, aquí as there, bueno as well).
 - Spanish Unit 9 (Ser or Estar): 30 Tatoeba, 7 drafts, 4 QT09 pairs; 6 cuts (tag no, enfermar, English mismatches).
+- Spanish Unit 10 (Mine and Yours): widened (amigos, amigas); 30 Tatoeba, 11 drafts, 4 QT09 pairs; 13 cuts (cómo de, tag no, loose English).

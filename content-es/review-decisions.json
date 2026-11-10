@@ -47,6 +47,11 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md: 37 sentences, 30 checked Tatoeba and 7 drafts, every word in 3 or more; reviewed in content-es/sweep/packs-review.json"
+    },
+    "U10": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 41 sentences, 30 checked Tatoeba and 11 drafts, every word in 3 or more; reviewed in content-es/sweep/packs-review.json"
     }
   },
   "cut_sentences": [],
@@ -409,6 +414,14 @@
     },
     "W193": {
       "hint": "houses",
+      "source": "short form of Wiktionary"
+    },
+    "W194": {
+      "hint": "friends",
+      "source": "short form of Wiktionary"
+    },
+    "W195": {
+      "hint": "friends (women)",
       "source": "short form of Wiktionary"
     }
   },

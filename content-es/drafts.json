@@ -759,6 +759,83 @@
       "french": "Sí, es médico.",
       "english": "Yes, he's a doctor.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10101",
+      "unit_id": "U10",
+      "french": "¿Son tus libros?",
+      "english": "Are they your books?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S10102",
+      "unit_id": "U10",
+      "french": "Sí, son mis libros.",
+      "english": "Yes, they're my books.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10103",
+      "unit_id": "U10",
+      "french": "Tus amigos están aquí.",
+      "english": "Your friends are here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10104",
+      "unit_id": "U10",
+      "french": "Tus perros son grandes.",
+      "english": "Your dogs are big.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10105",
+      "unit_id": "U10",
+      "french": "Sus amigos están aquí.",
+      "english": "His friends are here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10106",
+      "unit_id": "U10",
+      "french": "Ella tiene sus libros.",
+      "english": "She has her books.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10107",
+      "unit_id": "U10",
+      "french": "Ellas son mis amigas.",
+      "english": "They're my friends.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10108",
+      "unit_id": "U10",
+      "french": "Ana y María son amigas.",
+      "english": "Ana and María are friends.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10109",
+      "unit_id": "U10",
+      "french": "Sí, soy tu amigo.",
+      "english": "Yes, I'm your friend.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10110",
+      "unit_id": "U10",
+      "french": "Sí, es mi familia.",
+      "english": "Yes, it's my family.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10111",
+      "unit_id": "U10",
+      "french": "Sí, somos amigos.",
+      "english": "Yes, we're friends.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -905,6 +982,22 @@
     {
       "question_sentence_id": "S9004",
       "answer_sentence_id": "S9107"
+    },
+    {
+      "question_sentence_id": "S10101",
+      "answer_sentence_id": "S10102"
+    },
+    {
+      "question_sentence_id": "S10004",
+      "answer_sentence_id": "S10109"
+    },
+    {
+      "question_sentence_id": "S10005",
+      "answer_sentence_id": "S10110"
+    },
+    {
+      "question_sentence_id": "S10021",
+      "answer_sentence_id": "S10111"
     }
   ]
 }

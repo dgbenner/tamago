@@ -57,6 +57,7 @@ export const EXTRA = {
   U01: ['llamo', 'llamas', 'chico', 'chica', 'señor', 'señora'],
   U02: ['esto', 'eso', 'este', 'esta', 'puerta'],
   U06: ['grandes', 'pequeños', 'pequeñas', 'tienen', 'comen', 'beben', 'chicos', 'chicas', 'casas'],
+  U10: ['amigos', 'amigas'],
 }
 // aquí goes with estar (Where Things Are); mesa joins People and Things.
 export const MOVE = { me: 'U01', te: 'U01', cómo: 'U01', aquí: 'U08', mesa: 'U02' }

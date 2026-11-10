@@ -15,6 +15,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 7 is live:** Describing Things, 33 sentences (30 Tatoeba, 3 drafted answers): agreement (bueno, buena), muy, también. From here Tatoeba has plenty, so drafting drops away.
   - **Unit 8 is live:** Where Things Are, 35 sentences (30 Tatoeba, 5 drafts): estar for place (está, están, estamos) and hay for what there is, with aquí and allí.
   - **Unit 9 is live:** Ser or Estar, 37 sentences (30 Tatoeba, 7 drafts): ser for what someone is (soy profesor), estar for how they are now (estoy cansado).
+  - **Unit 10 is live:** Mine and Yours, 41 sentences (30 Tatoeba, 11 drafts): mi, tu, su and their plurals; de for whose. Widened with amigos and amigas; cut cómo de grande (Spain usage, beyond A1).
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -482,7 +483,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (107), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (118), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -617,3 +618,17 @@ Every Spanish sentence I wrote (107), for a native speaker of Latin American Spa
 - S9105 ¿Es usted profesora? = Are you a teacher? (QT09 question)
 - S9106 Sí, soy profesora. = Yes, I'm a teacher. (QT09 answer)
 - S9107 Sí, es médico. = Yes, he's a doctor. (QT09 answer)
+
+**U10 Mine and Yours** (11)
+
+- S10101 ¿Son tus libros? = Are they your books? (QT09 question)
+- S10102 Sí, son mis libros. = Yes, they're my books. (QT09 answer)
+- S10103 Tus amigos están aquí. = Your friends are here.
+- S10104 Tus perros son grandes. = Your dogs are big.
+- S10105 Sus amigos están aquí. = His friends are here.
+- S10106 Ella tiene sus libros. = She has her books.
+- S10107 Ellas son mis amigas. = They're my friends.
+- S10108 Ana y María son amigas. = Ana and María are friends.
+- S10109 Sí, soy tu amigo. = Yes, I'm your friend. (QT09 answer)
+- S10110 Sí, es mi familia. = Yes, it's my family. (QT09 answer)
+- S10111 Sí, somos amigos. = Yes, we're friends. (QT09 answer)

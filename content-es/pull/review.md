@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U09 Ser or Estar: ser for what someone is (a teacher, a student), estar for how they are right now (tired, happy, ill)
+## U10 Mine and Yours: Possessives: mi, mis; tu, tus; su, sus; de for whose
 
-30 sentences picked from 221 candidates (target 30 to 40). Grammar point in 30 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 183 candidates (target 30 to 40). Grammar point in 19 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): es 3, está 3, soy 5, estoy 7, eres 6, estás 7.
+Contrast forms, sentences each (target 2): mi 4, mis 3, tu 6, tus 0, su 5, sus 1.
 
-**Gaps (P08)**, fewer than 3 usable sentences: contenta (1), profesora (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: tus (0), sus (1), amigas (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S9001 | Estás cansado, yo también estoy cansada. | You're tired. I'm also tired. |  | [#1784324](https://tatoeba.org/en/sentences/show/1784324) | Shishir |
-| S9002 | Soy profesor, no soy estudiante. | I'm a teacher, not a student. | I am a teacher, not a student. | [#1086897](https://tatoeba.org/en/sentences/show/1086897) | Shishir |
-| S9003 | ¿Estás contento? | Are you happy? |  | [#685492](https://tatoeba.org/en/sentences/show/685492) | MondCivitano |
-| S9004 | ¿Es médico? | Is he a doctor? |  | [#1037653](https://tatoeba.org/en/sentences/show/1037653) | Shishir |
-| S9005 | ¿Eres estudiante? | Are you a student? |  | [#1248449](https://tatoeba.org/en/sentences/show/1248449) | Shishir |
-| S9006 | ¿Eres profesor? | Are you a teacher? |  | [#2074818](https://tatoeba.org/en/sentences/show/2074818) | Shishir |
-| S9007 | ¿Él es médico? | Is he a doctor? |  | [#2224826](https://tatoeba.org/en/sentences/show/2224826) | marcelostockle |
-| S9008 | ¿No está cansado? | Aren't you tired? |  | [#5053672](https://tatoeba.org/en/sentences/show/5053672) | don_ramon |
-| S9009 | Señor, ¿está usted enfermo? | Sir, are you ill? |  | [#9051339](https://tatoeba.org/en/sentences/show/9051339) | Galko |
-| S9010 | Estoy enferma. | I'm sick. | I am sick. | [#1989704](https://tatoeba.org/en/sentences/show/1989704) | Shishir |
-| S9011 | ¿No estás cansada? | Aren't you tired? | Aren't you sleepy?; Are you not tired? | [#540018](https://tatoeba.org/en/sentences/show/540018) | Shishir |
-| S9012 | ¿Tú eres médico? | Are you a doctor? |  | [#1190137](https://tatoeba.org/en/sentences/show/1190137) | marcelostockle |
-| S9013 | ¿Es usted profesor? | Are you a teacher? |  | [#4776825](https://tatoeba.org/en/sentences/show/4776825) | alegarvid |
-| S9014 | ¿Eres estudiante nueva? | Are you a new student? |  | [#6730075](https://tatoeba.org/en/sentences/show/6730075) | arh |
-| S9015 | ¡Estás enfermo! | You're sick! |  | [#871038](https://tatoeba.org/en/sentences/show/871038) | Shishir |
-| S9016 | Estás cansado. | You're tired. |  | [#1829302](https://tatoeba.org/en/sentences/show/1829302) | Shishir |
-| S9017 | Estás cansada. | You're tired. |  | [#1829303](https://tatoeba.org/en/sentences/show/1829303) | Shishir |
-| S9018 | Estoy muy contento. | I'm very pleased. | I am overjoyed.; I am very pleased. | [#866409](https://tatoeba.org/en/sentences/show/866409) | Shishir |
-| S9019 | Estoy muy contenta. | I'm very pleased. | I am overjoyed. | [#1139994](https://tatoeba.org/en/sentences/show/1139994) | Shishir |
-| S9020 | Tom está enfermo. | Tom's sick. | Tom is sick. | [#1306044](https://tatoeba.org/en/sentences/show/1306044) | marcelostockle |
-| S9021 | No estoy contento. | I'm not satisfied. |  | [#2001462](https://tatoeba.org/en/sentences/show/2001462) | Shishir |
-| S9022 | No estás enferma. | You're not sick. |  | [#2019450](https://tatoeba.org/en/sentences/show/2019450) | Shishir |
-| S9023 | No estoy enferma. | I'm not sick. |  | [#2416415](https://tatoeba.org/en/sentences/show/2416415) | hayastan |
-| S9024 | ¿Eres un estudiante nuevo? | You're a new student? |  | [#998498](https://tatoeba.org/en/sentences/show/998498) | Shishir |
-| S9025 | ¿Tú eres un estudiante? | Are you a student? |  | [#1190146](https://tatoeba.org/en/sentences/show/1190146) | marcelostockle |
-| S9026 | Soy estudiante. ¿Y tú? | I'm a student. And you? |  | [#3958650](https://tatoeba.org/en/sentences/show/3958650) | senryakun |
-| S9027 | Yo soy estudiante. ¿Y tú? | I'm a student. How about you? |  | [#7254184](https://tatoeba.org/en/sentences/show/7254184) | Juanpa |
-| S9028 | Soy estudiante. | I'm a student. | I am a student. | [#574254](https://tatoeba.org/en/sentences/show/574254) | Shishir |
-| S9029 | Soy médico. | I'm a doctor. |  | [#1006320](https://tatoeba.org/en/sentences/show/1006320) | Shishir |
-| S9030 | Estoy muy cansado. | I'm very tired. | I'm so tired.; I am very tired. | [#377265](https://tatoeba.org/en/sentences/show/377265) | hayastan |
+| S10001 | Esta es la carta de mi amigo. | This is my friend's letter. | This is the letter from my friend. | [#1905027](https://tatoeba.org/en/sentences/show/1905027) | zahurdias |
+| S10002 | ¿Eres su amiga? | Are you her friend? |  | [#1502190](https://tatoeba.org/en/sentences/show/1502190) | marcelostockle |
+| S10003 | ¿Eres su amigo? | Are you her friend? |  | [#1502191](https://tatoeba.org/en/sentences/show/1502191) | marcelostockle |
+| S10004 | ¿Eres mi amigo? | Are you my friend? |  | [#2719038](https://tatoeba.org/en/sentences/show/2719038) | cueyayotl |
+| S10005 | ¿Esta es tu familia? | Is this your family? |  | [#2059646](https://tatoeba.org/en/sentences/show/2059646) | Shishir |
+| S10006 | ¿Soy yo tu amiga? | Am I your friend? |  | [#2707036](https://tatoeba.org/en/sentences/show/2707036) | cueyayotl |
+| S10007 | Son mis amigos. | They're my friends. |  | [#2710908](https://tatoeba.org/en/sentences/show/2710908) | Shishir |
+| S10008 | Ellos son mis amigos. | They're my friends. | They are my friends. | [#5057686](https://tatoeba.org/en/sentences/show/5057686) | cueyayotl |
+| S10009 | ¿Es ella mi amiga? | Is she my friend? |  | [#2707031](https://tatoeba.org/en/sentences/show/2707031) | cueyayotl |
+| S10010 | Me gusta tu familia. | I like your family. |  | [#1863947](https://tatoeba.org/en/sentences/show/1863947) | Shishir |
+| S10011 | Tom es un amigo de la familia. | Tom is a friend of the family. |  | [#3246204](https://tatoeba.org/en/sentences/show/3246204) | hayastan |
+| S10012 | Somos los amigos de Tom. | We're Tom's friends. | We're friends of Tom's. | [#2453975](https://tatoeba.org/en/sentences/show/2453975) | hayastan |
+| S10013 | Aquí están sus libros. | Here are your books. |  | [#9171247](https://tatoeba.org/en/sentences/show/9171247) | ignacio |
+| S10014 | ¿Tom es su amigo? | Is Tom your friend? |  | [#8631892](https://tatoeba.org/en/sentences/show/8631892) | cueyayotl |
+| S10015 | ¿Somos amigas? | Are we friends? |  | [#6712731](https://tatoeba.org/en/sentences/show/6712731) | arh |
+| S10016 | No son mis libros. | They aren't my books. |  | [#597708](https://tatoeba.org/en/sentences/show/597708) | Shishir |
+| S10017 | ¿Es él mi amigo? | Is he my friend? |  | [#2707032](https://tatoeba.org/en/sentences/show/2707032) | cueyayotl |
+| S10018 | ¿Soy yo tu amigo? | Am I your friend? |  | [#2707035](https://tatoeba.org/en/sentences/show/2707035) | cueyayotl |
+| S10019 | ¿Es él tu amigo? | Is he your friend? |  | [#3762237](https://tatoeba.org/en/sentences/show/3762237) | marcelostockle |
+| S10020 | ¿Eres amigo de Tom? | Are you a friend of Tom's? |  | [#4552017](https://tatoeba.org/en/sentences/show/4552017) | cueyayotl |
+| S10021 | ¿Somos amigos? | Are we friends? |  | [#2004178](https://tatoeba.org/en/sentences/show/2004178) | Shishir |
+| S10022 | ¿Tiene familia? | Do you have a family? |  | [#5549500](https://tatoeba.org/en/sentences/show/5549500) | ecorralest101 |
+| S10023 | ¿Eres de aquí? | Are you from here? | Are you from around here? | [#576684](https://tatoeba.org/en/sentences/show/576684) | Shishir |
+| S10024 | ¿Ellos son amigos? | Are they friends? |  | [#1681097](https://tatoeba.org/en/sentences/show/1681097) | Shishir |
+| S10025 | ¿Es tu profesor? | Is he your teacher? |  | [#2022146](https://tatoeba.org/en/sentences/show/2022146) | Shishir |
+| S10026 | ¿Es su libro? | Is it his book? | Is it her book?; Is it your book? | [#8106854](https://tatoeba.org/en/sentences/show/8106854) | baudelaire |
+| S10027 | ¿No tienes amigos? | Do you not have friends? |  | [#11996931](https://tatoeba.org/en/sentences/show/11996931) | JSKabylie15 |
+| S10028 | ¿Esta es su casa? | Is this your house? |  | [#2051818](https://tatoeba.org/en/sentences/show/2051818) | nancy |
+| S10029 | ¿Es ella una amiga? | Is she a friend? |  | [#2707039](https://tatoeba.org/en/sentences/show/2707039) | cueyayotl |
+| S10030 | ¿Es él un amigo? | Is he a friend? |  | [#2707041](https://tatoeba.org/en/sentences/show/2707041) | cueyayotl |
