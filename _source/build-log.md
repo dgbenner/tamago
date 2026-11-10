@@ -478,3 +478,4 @@ Part 3, Lingua Libre recordings:
   databases, an existing French learner not asked; all five rounds of Spanish Unit 1 run with no errors.
 - Spanish Unit 2 (People and Things): 30 Tatoeba, 13 drafts, 4 QT09 pairs; aquí moved to U08 (goes with estar); widened with este, esta, esto, eso, puerta; 7 cuts (tag no, esto for a person, a this/that mismatch). Turned-down sentences now stay turned down in every later unit.
 - Spanish Unit 3 (Polite Phrases): 30 Tatoeba, 13 drafts, 4 QT09 pairs; 10 cuts (misleading English, idioms, quoted dialogue).
+- Spanish Unit 4 (Food and Drink): 30 Tatoeba, 6 drafts, 4 QT09 pairs; 5 cuts.

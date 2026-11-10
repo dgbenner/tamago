@@ -332,6 +332,48 @@
       "french": "Tom está bien.",
       "english": "Tom is fine.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S4101",
+      "unit_id": "U04",
+      "french": "¿Comes pan?",
+      "english": "Do you eat bread?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S4102",
+      "unit_id": "U04",
+      "french": "Comes una manzana.",
+      "english": "You're eating an apple.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S4103",
+      "unit_id": "U04",
+      "french": "¿Bebes leche?",
+      "english": "Do you drink milk?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S4104",
+      "unit_id": "U04",
+      "french": "Como una naranja.",
+      "english": "I'm eating an orange.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S4105",
+      "unit_id": "U04",
+      "french": "Ella come una naranja.",
+      "english": "She's eating an orange.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S4106",
+      "unit_id": "U04",
+      "french": "Sí, como pan.",
+      "english": "Yes, I eat bread.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -382,6 +424,22 @@
     {
       "question_sentence_id": "S3026",
       "answer_sentence_id": "S3113"
+    },
+    {
+      "question_sentence_id": "S4101",
+      "answer_sentence_id": "S4106"
+    },
+    {
+      "question_sentence_id": "S4002",
+      "answer_sentence_id": "S4006"
+    },
+    {
+      "question_sentence_id": "S4003",
+      "answer_sentence_id": "S4020"
+    },
+    {
+      "question_sentence_id": "S4103",
+      "answer_sentence_id": "S4009"
     }
   ]
 }

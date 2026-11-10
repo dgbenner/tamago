@@ -6,7 +6,7 @@ const ROOT = join(import.meta.dirname, '..')
 const drafts = JSON.parse(readFileSync(join(ROOT, 'content-es/drafts.json'), 'utf8')).sentences
 const units = JSON.parse(readFileSync(join(ROOT, 'content-es/raw/units.json'), 'utf8'))
 const off = new Set(JSON.parse(readFileSync(join(ROOT, 'content-es/raw/sentences.json'), 'utf8')).filter((s) => String(s.status).startsWith('off')).map((s) => s.sentence_id))
-const live = drafts.filter((d) => !off.has(d.sentence_id))
+const live = drafts.filter((d) => !off.has(d.sentence_id) && d.source !== 'tatoeba') // a draft later found on Tatoeba isn't ours
 const lines = ['## Spanish drafted sentences', '', `Every Spanish sentence I wrote (${live.length}), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.`, '']
 for (const u of units) {
   const rows = live.filter((d) => d.unit_id === u.unit_id)
