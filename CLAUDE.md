@@ -56,8 +56,10 @@ Choices the specs left open, easy to change:
 - Indicators and tags stay muted, like a Bootstrap secondary badge: never bold, never a colour fill. The new-word tag just says "New"; a new word gets a small orange dot to its right.
 - Line weights: 2px where there used to be hairlines; 4px for buttons, choices, chips, the path box and its circles (Dan, 2026-11-09).
 - Match pairs: only the word is centred; the speaker hangs to its left and the new-word dot to its right.
-- Home: points chip in the top left corner, gear top right, the wordmark alone centred between them (103px wide, no sushi, one heavy yellow line (accent, stroke 15), no outline; the opening screen keeps all three lines); the learning path placeholder in the middle (Dan will spec it), Review and Start or Resume pinned to the bottom. Settings and About keep the centred logo.
-- The opening screen (draws on, then holds 2 seconds) is a deliberate exception to the feature list's "no loading screens" (Dan, 2026-11-07). It stays out of lessons. The green may be adjusted later.
+- Home (Dan's test notes, 2026-11-09, `_source/test-notes.md`): a short pinned header with a line under it (blue points chip, same style at every value; the wordmark; gear), a sideways strip of tool tiles (Glossary, Verbs, Self-Study), the level in italics with Progress as a tertiary button, then the tree; a pinned footer with a line above: Practice (mistakes first, then weakest; "Practice · N Mistakes") and Next Lesson: <unit title>. Tree nodes: a ring of five round segments, the sushi inside (a lock while locked, "?" for Your Topic until chosen), the title only; the unit number appears only in the unit details. Checkpoints are small, with a checkered flag, and have Start and Skip on their sheet. "Starting Out" until round 1 of a first unit; then level markers across the tree where the units above reach the next band.
+- Labels and buttons are Title Case. Unit titles are 2 or 3 words (workbook v17).
+- Phone: root font 17px (everything in rem scales). Recordings are levelled to -16 LUFS at build (scripts/lib/loudness.mjs).
+- The opening screen (draws on with one eased curve per letter, holds about 2.4 seconds, fades fast while the header logo rises into place) is a deliberate exception to the feature list's "no loading screens" (Dan, 2026-11-07). It stays out of lessons. The green may be adjusted later.
 
 ## Testing
 

@@ -6,8 +6,8 @@ import { play, stop } from '../lib/audio.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconSpeaker } from './icons.jsx'
 
 const PROMPT = {
-  QT01: 'Match the pairs', QT02: 'Pick the picture', QT10: 'Say it aloud', QT13: 'Speak and compare', QT03: 'Pick the meaning', QT04: 'Pick what you heard', QT05: 'Fill in the blank', QT06: 'Translate',
-  QT07: 'Tap what you hear', QT08: 'Translate', QT09: 'Answer the question', QT11: 'Type what you hear', QT12: 'Translate',
+  QT01: 'Match the Pairs', QT02: 'Pick the Picture', QT10: 'Say It Aloud', QT13: 'Speak and Compare', QT03: 'Pick the Meaning', QT04: 'Pick What You Heard', QT05: 'Fill in the Blank', QT06: 'Translate',
+  QT07: 'Tap What You Hear', QT08: 'Translate', QT09: 'Answer the Question', QT11: 'Type What You Hear', QT12: 'Translate',
 }
 const LISTENING = new Set(['QT04', 'QT07', 'QT11'])
 const LISTEN_FIRST = new Set(['QT03', 'QT06'])
@@ -16,8 +16,8 @@ const SHOWS_FRENCH = new Set(['QT01', 'QT02', 'QT03', 'QT05', 'QT06']) // the Ne
 // The heading says what the learner is doing right now: with the French hidden it's a listening task, and a
 // chip question switched to the keyboard is a typing one (craft review, fixes 8 and 9).
 function headingFor(q, { hideFrench, result, typing }) {
-  if (hideFrench && !result) return q.type === 'QT03' ? 'Listen and pick the meaning' : 'Listen and translate'
-  if (q.type === 'QT07' && (typing || q.typed)) return 'Type what you hear'
+  if (hideFrench && !result) return q.type === 'QT03' ? 'Listen and Pick the Meaning' : 'Listen and Translate'
+  if (q.type === 'QT07' && (typing || q.typed)) return 'Type What You Hear'
   return PROMPT[q.type]
 }
 
@@ -34,7 +34,7 @@ function pickPhrase(phrases, q, r, kind, lastId) {
   return from.length ? from[Math.floor(Math.random() * from.length)] : null
 }
 
-export default function Lesson({ session, content, settings, seenWords, cantListen, onAnswer, onHint, onFlag, onExit, onAdvance, onFinish }) {
+export default function Lesson({ session, content, settings, seenWords, cantListen, onAnswer, onHint, onFlag, onExit, onAdvance, onFinish, onCantNow }) {
   const q = session.queue[session.index]
   const [result, setResult] = useState(null)
   const [typing, setTyping] = useState(false) // a chip question switched to the keyboard
@@ -120,6 +120,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
 
   const shareDone = session.index / session.queue.length
   barMax.current = Math.max(barMax.current, shareDone)
+  const showCantNow = !result && onCantNow && (q.speaking || (!cantListen && (LISTENING.has(q.type) || hideFrench)))
   const props = { q, content, settings, cantListen, result, onAnswer: answer, newWords, hideFrench, onHint: (seg) => onHint(q, seg), onTyping: setTyping }
 
   return (
@@ -131,13 +132,22 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         </div>
       </header>
 
-      <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
+      <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : showCantNow ? 'pb-1' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
         <div className="flex items-center gap-2">
           <h1 className="text-xl font-semibold">{headingFor(q, { hideFrench, result, typing })}</h1>
           {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="tag"><span className="new-dot" aria-hidden="true" />New</span>}
         </div>
         <Question key={q.qid} {...props} />
       </div>
+
+      {/* Old Duolingo's switch, on the question itself: faint, bottom centre. It pauses for an hour, like Settings. */}
+      {showCantNow && (
+        <div className="flex justify-center pb-[max(0.5rem,env(safe-area-inset-bottom))]">
+          <button onClick={() => onCantNow(q.speaking ? 'speak' : 'listen')} className="btn-tertiary text-xs opacity-70">
+            {q.speaking ? "Can't Speak Now" : "Can't Listen Now"}
+          </button>
+        </div>
+      )}
 
       {result && !result.testSkip && <AnswerBar q={q} result={result} cantListen={cantListen} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id, result)} onContinue={advance} />}
     </main>
@@ -198,7 +208,7 @@ function FirstSight({ q, newWords, except = null }) {
 function SpeakerBubble({ children }) {
   return (
     <div className="flex items-start gap-3">
-      <img src="/logo.png" alt="" className="h-12 w-12 shrink-0 object-contain" />
+      <img src="/logo.webp" width="384" height="256" alt="" className="h-12 w-12 shrink-0 object-contain" />
       <div className="rounded-2xl rounded-tl-sm border-2 border-line bg-surface px-4 py-3">{children}</div>
     </div>
   )
@@ -248,7 +258,7 @@ function Speak({ q, result, onAnswer, newWords, onHint }) {
   const compare = q.type === 'QT13'
   const [reveal, setReveal] = useState(compare && !fromMemory)
   const rec = useRecorder()
-  const model = q.native ? 'Native recording' : 'Model'
+  const model = q.native ? 'Native Recording' : 'Model'
   const done = () => { rec.stop(); onAnswer({ correct: true, speaking: true }) }
   return (
     <>

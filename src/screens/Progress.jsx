@@ -27,7 +27,7 @@ export default function Progress({ scores, units, canDo, checked, isOpen, progre
       </section>
 
       <section className="flex flex-col gap-2">
-        <h2 className="font-semibold">A1 complete, for a skill, needs</h2>
+        <h2 className="font-semibold">What A1 Takes, for Each Skill</h2>
         <ul className="list-disc pl-5 text-muted">
           <li>every A1 unit finished through round 5</li>
           <li>every A1 "I can" for that skill checked</li>
@@ -35,7 +35,7 @@ export default function Progress({ scores, units, canDo, checked, isOpen, progre
       </section>
 
       <section className="flex flex-col gap-4">
-        <h2 className="font-semibold">I can</h2>
+        <h2 className="font-semibold">I Can</h2>
         {units.map((u) => (
           <div key={u.unit_id} className="flex flex-col gap-2">
             <p className="text-sm text-muted">Unit {u.order} · {u.title}</p>

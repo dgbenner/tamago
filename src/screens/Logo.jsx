@@ -20,6 +20,12 @@ export function LetterStrokes({ d, mask }) {
   )
 }
 
+// The tamago sushi. A small WebP, preloaded in index.html, with its 3:2 box reserved, so it never arrives late and
+// pushes the wordmark (Dan's test notes: the logo load was jumpy).
+export function SushiMark({ className = '' }) {
+  return <img src="/logo.webp" width="384" height="256" alt="" decoding="sync" className={`aspect-[3/2] h-auto ${className}`} />
+}
+
 // The logo at the top of the pages outside a lesson: the wordmark with the sushi in front.
 export default function Logo() {
   return (
@@ -27,16 +33,16 @@ export default function Logo() {
       <svg className="w-full" viewBox={viewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
         {LETTERS.map((strokes, i) => <LetterStrokes key={i} d={strokes.join('')} />)}
       </svg>
-      <img src="/logo.png" alt="" className="relative z-10 -mt-[9%] w-[40%]" />
+      <SushiMark className="relative z-10 -mt-[9%] w-[40%]" />
     </div>
   )
 }
 
 // Home's header: the wordmark alone, centred, as a single heavy yellow line. At this size the three-line version is
 // too busy; the opening screen keeps all three.
-export function LogoInline() {
+export function LogoInline({ className = '' }) {
   return (
-    <div role="img" aria-label="Tamago">
+    <div role="img" aria-label="Tamago" className={className}>
       <svg className="block w-[103px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
         {LETTERS.map((strokes, i) => <path key={i} d={strokes.join('')} stroke="var(--accent)" strokeWidth="15" />)}
       </svg>

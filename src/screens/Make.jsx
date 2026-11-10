@@ -27,18 +27,18 @@ export default function Make({ weakSkill, weekCount, metCount, listMatch, onWeak
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="flex items-center gap-2">
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
-        <h1 className="text-xl font-semibold">Make your own</h1>
+        <h1 className="text-xl font-semibold">Self-Study</h1>
       </header>
 
-      <Block title="Your weakest skill" text={weakSkill ? `Ten questions in ${weakSkill.toLowerCase()}, on the sentences you know least well.` : 'Answer a few questions first.'}>
+      <Block title="Your Weakest Skill" text={weakSkill ? `Ten questions in ${weakSkill.toLowerCase()}, on the sentences you know least well.` : 'Answer a few questions first.'}>
         <button onClick={onWeak} disabled={!weakSkill} className="btn-secondary">Practise {weakSkill ? weakSkill.toLowerCase() : ''}</button>
       </Block>
 
-      <Block title="This week" text={weekCount ? `A test on the ${weekCount} sentences you've met since Monday.` : 'Nothing met since Monday yet.'}>
-        <button onClick={onWeek} disabled={!weekCount} className="btn-secondary">Test this week</button>
+      <Block title="This Week" text={weekCount ? `A test on the ${weekCount} sentences you've met since Monday.` : 'Nothing met since Monday yet.'}>
+        <button onClick={onWeek} disabled={!weekCount} className="btn-secondary">Test This Week</button>
       </Block>
 
-      <Block title="Flashcards from your list" text="Paste French words or text. Words Tamago knows become flashcards, with their meanings from Wiktionary.">
+      <Block title="Flashcards from Your List" text="Paste French words or text. Words Tamago knows become flashcards, with their meanings from Wiktionary.">
         <textarea value={list} onChange={(e) => setList(e.target.value)} rows={3} lang="fr" placeholder="pomme, fromage, chat…"
           className="rounded-xl border-2 border-line bg-surface px-3 py-2 text-base" />
         {match && <p className="text-sm text-muted">{match.words.length} found{match.missing.length ? ` · not in Tamago yet: ${match.missing.join(', ')}` : ''}</p>}

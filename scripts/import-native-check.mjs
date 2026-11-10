@@ -6,7 +6,7 @@
 // Usage: node scripts/import-native-check.mjs <tamago-native-check-YYYY-MM-DD.json>
 import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync } from 'node:fs'
 import { join } from 'node:path'
-import { execFileSync } from 'node:child_process'
+import { normaliseFile } from './lib/loudness.mjs'
 const ROOT = join(import.meta.dirname, '..')
 const file = process.argv[2]
 if (!file) throw new Error('usage: import-native-check.mjs <file>')
@@ -29,17 +29,15 @@ for (const r of data.results) {
   if (r.audio && data.license_agreed) {
     const [, mime, b64] = r.audio.match(/^data:([^;,]+)[^,]*;base64,(.*)$/) ?? []
     const ext = EXT[String(mime).split(';')[0]] ?? 'webm'
-    const raw = join(AUDIO, `${r.sentence_id}.${ext}`)
+    const raw = join(AUDIO, `${r.sentence_id}.source.${ext}`)
     writeFileSync(raw, Buffer.from(b64, 'base64'))
     entry.audio_file = `${r.sentence_id}.${ext}`
-    // Chrome records WebM, which older iPhones can't play: convert to AAC (m4a) when ffmpeg is installed.
-    if (ext !== 'm4a') {
-      try {
-        execFileSync('ffmpeg', ['-y', '-loglevel', 'error', '-i', raw, '-ac', '1', '-c:a', 'aac', '-b:a', '64k', join(AUDIO, `${r.sentence_id}.m4a`)])
-        rmSync(raw)
-        entry.audio_file = `${r.sentence_id}.m4a`
-      } catch { console.log(`ffmpeg unavailable or failed; ${r.sentence_id} stays .${ext}`) }
-    }
+    // Chrome records WebM, which older iPhones can't play: always AAC (m4a), levelled to the course loudness.
+    try {
+      normaliseFile(raw, join(AUDIO, `${r.sentence_id}.m4a`), ['-ac', '1', '-c:a', 'aac', '-b:a', '64k'])
+      rmSync(raw)
+      entry.audio_file = `${r.sentence_id}.m4a`
+    } catch { console.log(`ffmpeg unavailable or failed; ${r.sentence_id} stays .${ext}`); entry.audio_file = `${r.sentence_id}.source.${ext}` }
   }
   store.results[r.sentence_id] = entry
   if (r.verdict === 'fix' && (entry.french_fix !== r.french || entry.english_fix !== r.english)) {

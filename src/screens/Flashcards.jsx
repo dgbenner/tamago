@@ -37,7 +37,7 @@ export default function Flashcards({ cards, aloud, onGrade, onDone }) {
       </section>
       <div className="sticky bottom-0 -mx-4 bg-bg px-4 pt-2 pb-[max(1rem,env(safe-area-inset-bottom))]">
         {!shown
-          ? <button onClick={() => setShown(true)} className="btn-submit w-full">Turn the card</button>
+          ? <button onClick={() => setShown(true)} className="btn-submit w-full">Turn the Card</button>
           : (
             <div className="grid grid-cols-4 gap-2">
               {[['again', 'Again'], ['hard', 'Hard'], ['good', 'Good'], ['easy', 'Easy']].map(([g, label]) => (

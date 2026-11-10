@@ -3,17 +3,25 @@ import { play } from '../lib/audio.js'
 import { IconBack, IconSpeaker } from './icons.jsx'
 
 // A unit's grammar note: the rule in plain words, examples from the unit with audio, and the verb table from
-// Wiktionary. Shown once before the unit's first lesson; always one tap away on the unit card.
-export default function GrammarNote({ unit, note, sentenceById, onDone, doneLabel, onBack }) {
+// Wiktionary. Shown once before the unit's first lesson, with a short intro saying what this screen is and what the
+// unit covers (Dan's test notes); always one tap away on the unit's details.
+export default function GrammarNote({ unit, note, sentenceById, onDone, doneLabel, onBack, intro, wordCount, sampleWords = [] }) {
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-4 pt-[max(0.75rem,env(safe-area-inset-top))]">
       <header className="flex items-center gap-2">
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
         <div>
-          <p className="text-sm text-muted">Unit {unit.order} · Grammar note</p>
+          <p className="text-sm text-muted">{intro ? 'Before You Start' : 'Grammar Note'}</p>
           <h1 className="text-xl font-semibold">{unit.title}</h1>
         </div>
       </header>
+
+      {intro && (
+        <div className="flex flex-col gap-2 rounded-xl border-2 border-line bg-surface p-4">
+          <p>A short note on the idea this unit is built on. Read it, tap an example to hear it, then start your first lesson.</p>
+          {wordCount > 0 && <p className="text-sm text-muted">New in this unit: {wordCount} words, among them <span lang="fr">{sampleWords.join(', ')}</span>.</p>}
+        </div>
+      )}
 
       <p className="text-lg leading-relaxed">{note.rule}</p>
 

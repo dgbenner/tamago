@@ -38,7 +38,7 @@ export default function NativeCheck({ sentences, results, onChange, onBack }) {
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="flex items-center gap-2">
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
-        <h1 className="text-xl font-semibold">Native-speaker check</h1>
+        <h1 className="text-xl font-semibold">Native-Speaker Check</h1>
       </header>
       <p className="text-sm text-muted">
         For a native French speaker. Is each sentence something a French speaker would say, and does the English match?
@@ -61,8 +61,8 @@ export default function NativeCheck({ sentences, results, onChange, onBack }) {
         <button onClick={() => go(index - 1)} disabled={index === 0} className="btn-secondary flex-1">Previous</button>
         <button onClick={() => go(index + 1)} disabled={index === sentences.length - 1} className="btn-secondary flex-1">Next</button>
       </div>
-      {marked < sentences.length && <button onClick={nextOpen} className="btn-secondary">Next unchecked</button>}
-      <button onClick={save} disabled={marked === 0} className="btn-secondary">Save the results</button>
+      {marked < sentences.length && <button onClick={nextOpen} className="btn-secondary">Next Unchecked</button>}
+      <button onClick={save} disabled={marked === 0} className="btn-secondary">Save the Results</button>
     </main>
   )
 }

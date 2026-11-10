@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, recordings, tables, unitContent } from './lib/content.js'
-import { indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor } from './lib/lesson.js'
+import { indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
-import { skillScores } from './lib/score.js'
+import { band, skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
 import { hasFrenchVoice, preload, stop } from './lib/audio.js'
 import Home from './screens/Home.jsx'
@@ -54,6 +54,7 @@ export default function App() {
   const [ending, setEnding] = useState(null)
   const [lastLine, setLastLine] = useState(null) // a passed lesson's score, shown on home instead of on its own screen
   const [splash, setSplash] = useState(true)
+  const [logoState, setLogoState] = useState('wait') // the home header logo rises into place as the opening screen clears
   const seenWords = useRef(new Set())
   const roundSeen = useRef({})
   const carry = useRef([])
@@ -68,6 +69,7 @@ export default function App() {
   // Phase 3: flashcard deck (FSRS, per word), finished checkpoints, variant switches, the flashcards in hand.
   const [deck, setDeck] = useState({})
   const [checkpoints, setCheckpoints] = useState({})
+  const [checkpointsSkipped, setCheckpointsSkipped] = useState({})
   const [variantStatus, setVariantStatus] = useState({})
   const [flash, setFlash] = useState(null)
   // Phase 3: the topic chosen at the Your topic node (a pack unit id), or null.
@@ -101,6 +103,7 @@ export default function App() {
       setActiveDays(s.kv.active_days ?? [])
       setDeck(s.kv.flashcards ?? {})
       setCheckpoints(s.kv.checkpoints ?? {})
+      setCheckpointsSkipped(s.kv.checkpoints_skipped ?? {})
       applyVariants(s.kv.variant_status ?? {})
       if (s.kv.topic_choice) setTopicChoice(s.kv.topic_choice)
       setProfile(s.kv.profile ?? {})
@@ -166,7 +169,8 @@ export default function App() {
   }
   const lockedByOf = (unitId) => {
     const after = String(rowOf(unitId)?.unlocks_after ?? '').match(/^row (\d+)$/)
-    const names = after ? layout.filter((t) => t.row === Number(after[1])).map((t) => `Unit ${tables.units.find((u) => u.unit_id === t.unit_id).order}`) : []
+    // By title: learners don't count units (Dan's test notes).
+    const names = after ? layout.filter((t) => t.row === Number(after[1])).map((t) => tables.units.find((u) => u.unit_id === t.unit_id).title) : []
     return names.length ? names.join(' and ') : 'the unit before it'
   }
   const lessonModes = () => ({
@@ -207,15 +211,9 @@ export default function App() {
     if (start) startLesson(unitId)
     else setScreen('home')
   }
-  // Practice weak skills: the ten items most at risk across the open units, in a type that fits each unit's stage.
+  // The open units on the path, for Practice and Self-Study.
   const openUnits = tables.units.filter((u) => onPath(u) && isOpen(u.unit_id)).map((u) => u.unit_id)
   const itemsOf = (unitId) => tables.sentences.filter((s) => s.unit_id === unitId).map((s) => s.sentence_id)
-  const startPractice = () => {
-    const ids = weakest(openUnits.flatMap(itemsOf), cards, 10)
-    if (!ids.length) return
-    const items = ids.map((id) => { const u = allContent.sentenceById.get(id).unit_id; const reached = progressOf(u).round_reached; return { sentence_id: id, type: practiceType(reached), round: Math.min(reached + 1, 5), unit_id: u } })
-    begin(buildSession(allContent, 'practice', items, { settings: lessonModes() }))
-  }
   const startCheck = (canDo) => begin(buildSession(unitContent(canDo.unit_id), 'check', checkItems(unitContent(canDo.unit_id), canDo.skill), { settings: lessonModes(), unit_id: canDo.unit_id, can_do_id: canDo.can_do_id }))
   const startPlacement = () => {
     const liveUnits = [...tables.units].sort((a, b) => a.order - b.order).filter((u) => String(u.status).startsWith('live') && !['node', 'yes'].includes(u.is_topic_pick))
@@ -318,8 +316,19 @@ export default function App() {
 
   const markActive = () => setActiveDays((d) => { if (d.includes(today())) return d; const next = [...d, today()].slice(-400); putKv('active_days', next); return next })
 
-  const startReview = () => {
-    if (bank.length) begin(buildReview(allContent, bank, { round: roundOf(currentUnit), settings: lessonModes(), today: today() }))
+  // Practice (Dan's test notes: Review and Practice weak skills are one button): the review bank's mistakes first,
+  // topped up to ten with the items likeliest to be forgotten. Bank answers still count toward leaving the bank.
+  const practiceIds = () => weakest(openUnits.flatMap(itemsOf), cards, 10)
+  const startPracticeMix = () => {
+    const review = bank.length ? buildReview(allContent, bank, { round: roundOf(currentUnit), settings: lessonModes(), today: today() }) : null
+    const inReview = new Set(review?.queue.map((q) => q.sentence_id) ?? [])
+    const room = 10 - (review?.queue.length ?? 0)
+    const topUp = room > 0 ? practiceIds().filter((id) => !inReview.has(id)).slice(0, room) : []
+    const extra = topUp.length ? buildSession(allContent, 'practice', topUp.map((id) => { const u = allContent.sentenceById.get(id).unit_id; const reached = progressOf(u).round_reached; return { sentence_id: id, type: practiceType(reached), round: Math.min(reached + 1, 5), unit_id: u } }), { settings: lessonModes() }) : null
+    if (!review && !extra) return
+    if (!review) { begin(extra); return }
+    const queue = [...review.queue, ...(extra?.queue ?? [])]
+    begin({ ...review, queue, size: queue.length, graded: queue.filter((q) => !q.speaking).length })
   }
 
   const addToBank = (sentence_id, type_id) => {
@@ -406,6 +415,19 @@ export default function App() {
     putKv('current_session', next)
   }
 
+  // Can't Listen Now / Can't Speak Now, tapped on a question: pause it for an hour (as in Settings) and swap this
+  // question and the rest of the session's (Dan's test notes, as old Duolingo did).
+  const cantNow = (kind) => {
+    const until = Date.now() + 60 * 60 * 1000
+    const patch = kind === 'listen' ? { cant_listen_until: until } : { cant_speak_until: until }
+    changeSettings(patch)
+    stop()
+    const modes = { cantListen: kind === 'listen' || lessonModes().cantListen, cantSpeak: kind === 'speak' || lessonModes().cantSpeak }
+    const next = swapRemaining(contentFor(session), session, modes)
+    setSession(next)
+    putKv('current_session', next)
+  }
+
   const onHint = (q, seg) => {
     put('hints_log', { hint_id: uid(), word_id: seg.word_id, sentence_id: q.sentence_id, tapped_at: new Date().toISOString() })
   }
@@ -464,8 +486,8 @@ export default function App() {
       for (const u of placed) for (const w of tables.words.filter((x) => x.first_unit === u)) seenWords.current.add(w.word_id)
       putKv('seen_words', [...seenWords.current])
       putKv('placement', { date: today(), placed })
-      const names = placed.map((u) => tables.units.find((x) => x.unit_id === u).order)
-      setEnding({ line: placed.length ? `Placed through Unit ${names.at(-1)}: round 1 of ${names.length === 1 ? 'Unit 1' : `Units ${names.join(', ')}`} counts as done.` : 'Start with Unit 1.' })
+      const names = placed.map((u) => tables.units.find((x) => x.unit_id === u).title)
+      setEnding({ line: placed.length ? `Placed through ${names.at(-1)}: round 1 of ${names.length === 1 ? names[0] : `${names.length} units`} counts as done.` : `Start with ${tables.units[0].title}.` })
       return
     }
     const mark = passMark(s.graded ?? s.size)
@@ -525,13 +547,13 @@ export default function App() {
       return (
         <main className="mx-auto flex min-h-dvh max-w-md flex-col justify-center gap-6 px-4">
           <p className="text-center text-xl">{ending.line}</p>
-          <button onClick={afterEnding} className="btn-primary">Continue</button>
+          <button onClick={afterEnding} className="btn-primary">{ending.retry ? 'Try Again' : 'Continue'}</button>
         </main>
       )
     }
     return (
       <Lesson key={session.id} session={session} content={contentFor(session)} settings={settings} seenWords={seenWords.current} cantListen={lessonModes().cantListen}
-        onAnswer={onAnswer} onHint={onHint} onFlag={onFlag} onExit={leaveLesson}
+        onAnswer={onAnswer} onHint={onHint} onFlag={onFlag} onExit={leaveLesson} onCantNow={cantNow}
         onAdvance={(s) => { setSession(s); putKv('current_session', s) }} onFinish={finish} />
     )
   }
@@ -597,7 +619,9 @@ export default function App() {
   if (screen === 'about') return <About content={allContent} onBack={() => setScreen('settings')} />
   if (screen === 'note' && note) {
     const unit = tables.units.find((u) => u.unit_id === note.unitId)
-    return <GrammarNote unit={unit} note={noteFor(note.unitId)} sentenceById={allContent.sentenceById} doneLabel={note.thenStart ? 'Start the lesson' : 'Done'}
+    const newWords = tables.words.filter((w) => w.first_unit === note.unitId)
+    return <GrammarNote unit={unit} note={noteFor(note.unitId)} sentenceById={allContent.sentenceById} doneLabel={note.thenStart ? 'Start Lesson' : 'Done'}
+      intro={note.thenStart} wordCount={newWords.length} sampleWords={newWords.slice(0, 4).map((w) => w.form)}
       onDone={() => closeNote(note.thenStart)} onBack={() => closeNote(false)} />
   }
   const rows = [...new Set(layout.map((t) => t.row))].sort((a, b) => a - b).map((r) => layout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
@@ -609,30 +633,52 @@ export default function App() {
     const open = isOpen(id)
     const choosing = id === topicNode?.unit_id
     const lessons = open && !choosing ? Math.max(lessonsInRound(unitContent(id), roundOf(id)), progress.lessons_done + 1) : 0
-    return { unit, progress, open, current: id === currentUnit, lesson: progress.lessons_done + 1, lessons, strength: strength(itemsOf(id), cards),
+    return { unit, progress, open, current: id === currentUnit, lesson: progress.lessons_done + 1, lessons, strength: strength(itemsOf(id), cards), lockedBy: open ? null : lockedByOf(id),
       topic: node.is_topic_pick === 'node' ? { choosing, packs: packs.map((p) => ({ unit_id: p.unit_id, title: p.title, started: progressOf(p.unit_id).lessons_done > 0 })) } : null }
   }))
-  const cur = progressOf(currentUnit)
+  const curUnit = tables.units.find((u) => u.unit_id === currentUnit)
+  // Levels (Dan's test notes): "Starting Out" until round 1 of a first unit is done; then the level in words, and
+  // markers across the tree where finishing the units above would reach the next band (score.js: 10 and 20 of 29).
+  const mainA1 = layout.filter((t) => t.unit_id !== topicNode?.unit_id)
+  const started = mainA1.some((t) => progressOf(t.unit_id).round_reached >= 1) || packs.some((p) => progressOf(p.unit_id).round_reached >= 1)
+  const titleCase = (t) => t.replace(/(^|\s)([a-z])/g, (m, sp, ch) => sp + ch.toUpperCase())
+  const lowest = ['reading', 'listening', 'writing', 'speaking'].map((k) => scores[k]).sort((p, q) => p.score - q.score)[0]
+  const levelLabel = started ? titleCase(lowest?.band ?? band(0)) : 'Starting Out'
+  const rowNumbers = [...new Set(layout.map((t) => t.row))].sort((p, q) => p - q)
+  const rowReaching = (share) => rowNumbers.find((r) => mainA1.filter((t) => t.row <= r).length / mainA1.length >= share)
+  const markers = started ? [
+    { beforeRow: 1, label: 'Very Early A1' },
+    { beforeRow: rowReaching(10 / 29) + 1, label: 'Early A1' },
+    { beforeRow: rowReaching(20 / 29) + 1, label: 'High A1' },
+    { beforeRow: rowNumbers.at(-1) + 1, label: 'A2' },
+  ] : []
   return (
-    <Home rows={rows} points={pointsToday} pointsTotal={pointsTotal} bankSize={bank.length} showPoints={showPoints}
-      scores={scores} streak={streak} thisWeek={thisWeek} goal={goal} onProgress={() => setScreen('progress')}
-      canPractice={weakest(openUnits.flatMap(itemsOf), cards, 1).length > 0} onPractice={startPractice}
-      onWords={() => setScreen('words')} onVerbs={() => setScreen('verbs')} onMake={openMakeScreen}
-      checkpoints={checkpointRows.map((row) => ({ afterRow: row, label: ((ns) => (ns.length > 3 ? `Units ${ns[0]} to ${ns[ns.length - 1]}` : `Units ${ns.join(', ')}`))(unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).order).sort((p, q) => p - q)), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null }))}
+    <Home rows={rows} markers={markers} levelLabel={levelLabel} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints} logoState={logoState}
+      streakLine={showPoints ? [streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ') : ''}
+      onProgress={() => setScreen('progress')}
+      tools={[
+        { id: 'glossary', label: 'Glossary', onOpen: () => setScreen('words') },
+        { id: 'verbs', label: 'Verbs', onOpen: () => setScreen('verbs') },
+        { id: 'study', label: 'Self-Study', onOpen: openMakeScreen },
+      ]}
+      checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
       onCheckpoint={startCheckpoint}
+      onSkipCheckpoint={(row) => setCheckpointsSkipped((m) => { const n = { ...m, [row]: today() }; putKv('checkpoints_skipped', n); return n })}
+      practice={{ mistakes: bank.length, ready: bank.length > 0 || practiceIds().length > 0 }} onPractice={startPracticeMix}
+      nextLabel={`Next Lesson: ${curUnit?.title ?? ''}`}
+      onNext={() => (session ? startLesson() : startUnit(currentUnit))}
       inProgress={Boolean(session)} lastLine={lastLine}
-      currentLabel={cur.round_reached >= 5 ? 'Practice' : 'Continue'} lockedByOf={lockedByOf}
-      onContinue={() => (session ? startLesson() : startUnit(currentUnit))} onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
+      onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
       onGrammarNote={(id) => { setNote({ unitId: id, thenStart: false }); setScreen('note') }} hasNote={(id) => Boolean(noteFor(id))}
       onChooseTopic={(id) => { setTopicChoice(id); putKv('topic_choice', id); if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
-      onReview={startReview} onSettings={() => setScreen('settings')} />
+      onSettings={() => setScreen('settings')} />
   )
   }
 
   return (
     <>
       {view()}
-      {splash && <Splash onDone={() => setSplash(false)} />}
+      {splash && <Splash onDone={() => setSplash(false)} onFade={() => setLogoState((v) => (v === 'wait' ? 'arrive' : v))} />}
     </>
   )
 }

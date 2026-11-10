@@ -73,6 +73,13 @@ body {
   color: var(--ink);
 }
 
+/* Phone: everything a step bigger (Dan's test notes). Sizes are in rem, so one root size scales the lot. */
+@media (max-width: 767px) {
+  html {
+    font-size: 17px;
+  }
+}
+
 /* Locked like an app: the page never scrolls or bounces. #root fills the screen and scrolls only when a
    page is taller than it (Settings, About). */
 html,
@@ -180,21 +187,65 @@ button {
     transform: scale(1.05);
     transition-duration: 30ms;
   }
-  /* Opening screen: the letters draw on one after another, hold, then the screen clears. */
+  /* Opening screen: the letters draw on one after another, hold, then the screen clears quickly while the header
+     logo rises into place (Splash.jsx sets each stroke's timing from its length, so the pen keeps one speed). */
   .splash {
     @apply fixed inset-0 z-50 flex items-center justify-center bg-bg;
-    animation: splash-out 160ms ease-in 3100ms forwards; /* drawn by about 1.1s, then held 2s more */
+    animation: splash-out 180ms ease-in 3200ms forwards; /* drawn by about 0.75s, then held about 2.4s */
   }
   /* A dash longer than the stroke, offset past its end: nothing shows, not even a round cap, until it moves. */
   .splash-draw {
     stroke-dasharray: 1 2;
     stroke-dashoffset: 1.01;
-    animation: splash-draw 300ms ease-in-out both;
+    animation: splash-draw 300ms linear both;
+  }
+  /* The home header's logo, rising from below as the opening screen clears. */
+  .logo-wait {
+    opacity: 0;
+  }
+  .logo-arrive {
+    animation: logo-arrive 720ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  /* The tool strip scrolls sideways without a visible bar. */
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* A pinned bar's edge: a thin line where the bar ends. */
+  .bar-top {
+    @apply sticky top-0 z-20 border-b-2 border-line bg-bg;
+  }
+  .bar-bottom {
+    @apply sticky bottom-0 z-20 border-t-2 border-line bg-bg;
+  }
+  /* Details (a unit, a checkpoint): a bottom sheet on a phone. */
+  .sheet-backdrop {
+    @apply fixed inset-0 z-30 flex items-end bg-black/30;
+  }
+  .sheet {
+    @apply mx-auto max-h-[90dvh] w-full max-w-md overflow-y-auto rounded-t-2xl border-t-2 border-line bg-surface p-5 pb-[max(1.25rem,env(safe-area-inset-bottom))];
+  }
+  /* Home's two pinned buttons: stacked on a phone. */
+  .bottom-buttons {
+    @apply flex flex-col gap-3;
+  }
+  /* Settings sections: one column on a phone. */
+  .settings-grid {
+    @apply flex flex-col gap-6;
+  }
+  /* Low-emphasis button: no fill, no border. */
+  .btn-tertiary {
+    @apply inline-flex min-h-9 items-center rounded-lg px-2 text-sm text-muted underline-offset-4 hover:underline;
   }
   @media (prefers-reduced-motion: reduce) {
     .splash-draw {
       animation: none;
       stroke-dashoffset: 0;
+    }
+    .logo-arrive {
+      animation: none;
     }
     .pair-out {
       animation: none;
@@ -214,6 +265,10 @@ button {
 
 @keyframes splash-draw {
   to { stroke-dashoffset: 0; }
+}
+@keyframes logo-arrive {
+  from { opacity: 0; transform: translateY(38vh) scale(1.35); }
+  to { opacity: 1; transform: none; }
 }
 @keyframes splash-out {
   to { opacity: 0; visibility: hidden; }

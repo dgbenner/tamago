@@ -1,9 +1,19 @@
 # Tamago check-in
 
-Updated November 9, 2026, night. **Tamago now lives on Cloudflare Pages: https://tamago-83f.pages.dev** (A1 complete at 13 units, with icons). Every push to GitHub deploys there. Netlify builds are stopped; the old site at https://tamago-590.netlify.app still exists, frozen at Phase 5. Phases 2a to 5 are built; the details are in the build log.
+Updated November 9, 2026, late. Working through your test notes (_source/test-notes.md) in three passes. **Pass 1 (all devices) is live** at https://tamago-83f.pages.dev; Pass 2 (desktop and iPad) and Pass 3 (Glossary) follow.
 
 ## Done since last check-in
 
+- **Test notes, Pass 1 (all devices):**
+  - Opening screen more fluid (one eased curve per letter, a little faster, held a little longer); it fades fast while the header logo rises into place. The logo no longer jumps: the sushi is a small preloaded image with its space reserved.
+  - Home: short pinned header and footer, each with a thin line; points in one style at every value, zero included; Glossary, Verbs and Self-Study as a sideways strip of tiles above the tree; the level in italics with Progress as a quiet button; "Starting Out" until you finish round 1 of a unit, then level markers across the tree (Very Early A1, Early A1, High A1, A2).
+  - Tree: rounds as a ring of five segments around each circle, bigger sushi, a lock on locked units (tapping one explains what opens it), "?" on Your Topic until you choose, titles only, less space between rows. Checkpoints are smaller, with a checkered flag; their sheet lists the units and has Skip.
+  - Every unit has a 2 or 3 word title (Saying Hello, People and Things, Polite Phrases, Food and Drink, Pets and Animals, More Than One, Describing Things, Mine and Yours, Asking Questions, Counting to Ten, Naming Colours, Days and Times, Going Places; topics: The Weather, Family Life, At Home, Music and Songs, At the Café, At the Supermarket, At the Beach). Workbook v17.
+  - Bottom buttons: Practice (your mistakes first, then what you're likeliest to forget; it shows "Practice · 4 Mistakes" when there are some, and is never grayed out) and Next Lesson: <unit title>.
+  - Lesson intro: "Before You Start", one plain sentence on what the screen is, and how many new words the unit brings.
+  - Can't Listen Now / Can't Speak Now: a faint button at the bottom of every listening and speaking question, as well as in Settings. It pauses for an hour and swaps the rest of the lesson.
+  - Settings in sections (Lessons, Sound and Look, Goals, Your Learning, Testing (For Dan)); Title Case on labels and buttons throughout; everything a step bigger on phones.
+  - Audio: the 14 native recordings were up to 8 dB apart; they're now within about 1 dB. The computer voice is set by each device and can't be levelled.
 - **Craft review fixes, live.** The twelve fixes from the 2026-11-09 craft review are in, with your changes to the top five (pairs still animate out, the French feedback lines stay, points as plain text). Details in the build log under "Craft review fixes"; the report and screenshots are in _review/2026-11-09/.
 - **Moved to Cloudflare Pages.** Project tamago, connected to the GitHub repo, so every push to main deploys (about 30 seconds). Live: https://tamago-83f.pages.dev
   - The two Claude functions are now Cloudflare Pages Functions at /api/explain and /api/generate; the handlers are shared in server/. They still answer "not set up" until the key is added (item 4).
@@ -22,6 +32,7 @@ Updated November 9, 2026, night. **Tamago now lives on Cloudflare Pages: https:/
 
 ## Decisions made
 
+- **Test notes:** Practice with nothing to bring back yet says so and offers the next lesson, rather than going gray. Skip on a checkpoint just marks it skipped; checkpoints never lock anything, so it can still be taken. "Finishing your first unit" for the level label means finishing its round 1 (that's when the next units open). Level markers sit where finishing the units above reaches the next band; the band itself follows your weakest skill, as on the Progress page.
 - **Cuts:** 41 pulled sentences, for idioms ("un vieux de la vieille", "Ça va bien maintenant !"), misleading senses ("ma petite amie" glossed as "my little friend", "C'est neuf." meaning new, "un bleu" meaning a bruise or a freshman, "tu suis" from suivre), odd lines ("We are in two") and one typo ("Il va a l'école").
 - **No topic words in the main units:** the first pull drew words from the live topic packs (famille, café, maison…). I fixed the pull so main units never use a pack's words, since a pack is one optional choice.
 - **Drafts:** 149 for these units, to bring every word to 3 sentences and give each unit four question pairs. One turned out to be on Tatoeba and became a Tatoeba row; one duplicated Unit 4, so its question now points at the Unit 4 sentence.

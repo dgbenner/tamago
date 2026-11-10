@@ -4,6 +4,7 @@
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { getFile } from './lib/http.mjs'
+import { normaliseFile } from './lib/loudness.mjs'
 
 const ROOT = join(import.meta.dirname, '..')
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf8'))
@@ -162,7 +163,11 @@ for (const s of tables.sentences.filter((x) => x.lingua_libre)) {
   const ext = s.lingua_libre.file.split('.').pop().toLowerCase()
   const name = `${s.sentence_id}.${ext}`
   wanted.add(name)
-  await getFile(s.lingua_libre.url, join(AUDIO, name))
+  // Downloaded once into .cache, then levelled to one loudness on every build (lib/loudness.mjs).
+  const raw = join(ROOT, '.cache/recordings', name)
+  mkdirSync(join(ROOT, '.cache/recordings'), { recursive: true })
+  await getFile(s.lingua_libre.url, raw)
+  normaliseFile(raw, join(AUDIO, name))
   const speaker = s.lingua_libre.file.match(/^LL-Q150 \(fra\)-(.+?)-/)?.[1] ?? ''
   s.lingua_libre = { ...s.lingua_libre, audio_file: `/audio/${name}`, speaker }
 }

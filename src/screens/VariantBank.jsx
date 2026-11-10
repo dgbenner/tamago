@@ -7,7 +7,7 @@ export default function VariantBank({ types, variants, onChange, onBack }) {
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="flex items-center gap-2">
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
-        <h1 className="text-xl font-semibold">Variant test bank</h1>
+        <h1 className="text-xl font-semibold">Variant Test Bank</h1>
       </header>
       <p className="text-sm text-muted">Changes apply from the next lesson and stay on this device. Testing variants aren't used in lessons.</p>
       {types.map((t) => {

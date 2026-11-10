@@ -15,7 +15,7 @@ export default function About({ content, onBack }) {
         <button onClick={onBack} aria-label="Back" className="icon-btn absolute top-0 left-0 -ml-2"><IconBack /></button>
         <Logo />
       </header>
-      <h1 className="text-xl font-semibold">About the content</h1>
+      <h1 className="text-xl font-semibold">About the Content</h1>
 
       <section className="flex flex-col gap-2">
         <h2 className="font-semibold">Sentences</h2>
@@ -27,7 +27,7 @@ export default function About({ content, onBack }) {
       </section>
 
       <section className="flex flex-col gap-2">
-        <h2 className="font-semibold">Words and hints</h2>
+        <h2 className="font-semibold">Words and Hints</h2>
         <p>Parts of speech, genders, definitions and hints come from <A href="https://en.wiktionary.org">Wiktionary</A>, licensed under <A href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</A>. Hints may be shortened. Content built from these sources is shared under the same license.</p>
       </section>
 

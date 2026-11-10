@@ -276,3 +276,18 @@ A separate session ran `_source/craft-review.md` on the live site (report and 16
 - A passed lesson returns straight to home, where "Last lesson: 8 of 9." shows above Review until the next session starts. Failed lessons, checkpoints, reviews and checks keep their own line.
 
 Checked on the local build with Playwright: mistap bar, home return with the score line, both headings, the accent mark; `npm test` 53 passing.
+
+## Dan's test notes, Pass 1: all devices (2026-11-09)
+
+Notes saved to _source/test-notes.md. Decisions at their top settle the open choices.
+- Workbook v17: every unit retitled to 2 or 3 words in Title Case (topic packs too).
+- Opening screen: each stroke timed by its measured length inside one easeInOutSine curve per letter (no stop at joints); 260 ms a letter, 90 ms stagger, held about 2.4 s; the screen fades in 180 ms while the home header logo rises from below (720 ms ease-out).
+- Logo: logo.png (342 KB) replaced by logo.webp (17 KB, preloaded, 3:2 box reserved), so nothing shifts as it loads. The PNG moved to _source/logo-app.png.
+- Home: pinned short header and footer, each with a 2 px line; points chip in one style at every value; tools as a sideways tile strip (Words renamed Glossary, Make renamed Self-Study, Practice weak skills folded into Practice); level in italics plus Progress as a tertiary button; "Starting Out" until round 1 of a first unit, then markers Very Early A1, Early A1 (after row 3), High A1 (after row 6), A2 (end), placed where the units above reach score.js's 10 and 20 of 29.
+- Tree: rounds as a five-segment ring (strength fades the filled segments), bigger icons (64 px in a 96 px circle), lock for locked units, "?" for Your Topic until chosen, titles only, tighter spacing; the current unit has an orange halo. Locked details explain by title what opens it. Checkpoints: small, checkered flag, "Checkpoint"; their sheet lists the units and has Start and Skip (kv checkpoints_skipped; never locks).
+- Practice: the review bank first, topped up to ten with the weakest items; never disabled (with nothing yet, it explains and offers the next lesson). Next Lesson: <unit title> resumes or starts.
+- Lesson intro: "Before You Start", a plain sentence on what the screen is, and the unit's new-word count with examples; Start Lesson.
+- In lessons: a faint Can't Listen Now / Can't Speak Now at the bottom of listening and speaking questions; pauses for an hour and swaps the current and remaining questions (lesson.js swapRemaining, by cant_swaps).
+- Settings in sections: Lessons, Sound and Look, Goals, Your Learning, Testing (For Dan). Title Case across screens.
+- Phone: root font 17px. Audio: Lingua Libre recordings levelled to -16 LUFS on every content build (cached originals in .cache/recordings; short clips need exact gain plus a limiter, since loudnorm can't adapt under 3 s); native-check recordings get the same on import. Spread before: -26.6 to -18.2 LUFS; after: -17.4 to -16.0.
+- Checked: 53 unit tests; Chrome and Firefox at phone size: intro, Can't Listen Now swap and setting, a lesson to the end, placement, level markers, Practice; no page errors.

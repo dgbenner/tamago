@@ -31,10 +31,10 @@ export default function FlagReview({ reasons, onAccept, onBack }) {
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-5 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="flex items-center gap-2">
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
-        <h1 className="text-xl font-semibold">Flag review</h1>
+        <h1 className="text-xl font-semibold">Flag Review</h1>
       </header>
       <p className="text-sm text-muted">Flags from lessons on this device. An accepted answer counts here at once; save the flags for Claude to make it count for everyone.</p>
-      <NeedsSetup title="Flags from other learners">Collecting flags from testers' devices needs a server. Until then, a tester can send the file from this screen.</NeedsSetup>
+      <NeedsSetup title="Flags from Other Learners">Collecting flags from testers' devices needs a server. Until then, a tester can send the file from this screen.</NeedsSetup>
       {flags.length === 0 && <p className="text-muted">No flags yet.</p>}
       {GROUPS.map((g) => {
         const list = flags.filter((f) => g.test(f) && (showDone || open(f)))

@@ -561,3 +561,25 @@ export function placementItems(unitContents, rng = Math.random) {
     return [['QT03', 2], ['QT04', 2], ['QT12', 4]].map(([type, round], i) => own[i] && ({ sentence_id: own[i].sentence_id, type, round, unit_id: c.unit_id })).filter(Boolean)
   })
 }
+
+// ---------- Can't listen now / Can't speak now, tapped inside a lesson ----------
+// Old Duolingo's way: the question on screen and every later one that needs the ear (or the voice) switch to the
+// type the cant_swaps rows name for that round, on the same sentence. Answers already given stay as they were.
+// The current question is rebuilt even when its type stays (a Listen first one shows its French again).
+export function swapRemaining(c, session, { cantListen = false, cantSpeak = false }, rng = Math.random) {
+  const queue = session.queue.map((q, i) => {
+    if (i < session.index || !q.sentence_id) return q
+    let type = q.type
+    if (cantSpeak && q.speaking) type = swapRule(c, 'cant_speak_now', type, q.round)?.type ?? 'QT08'
+    if (cantListen && AUDIO_TYPES.has(type)) type = swapRule(c, 'cant_listen_now', type, q.round)?.type ?? 'QT03'
+    if (type === q.type && i !== session.index) return q
+    const s = c.sentenceById.get(q.sentence_id)
+    if (!s) return q
+    if (!supports(c, type, s, q.round)) type = 'QT03'
+    const swapped = { ...makeQuestion(c, type, s, q.round, rng, null, { cantListen }), swapped_from: q.swapped_from ?? (type !== q.type ? q.type : undefined) }
+    if (q.unit_id) swapped.unit_id = q.unit_id
+    if (q.reask) swapped.reask = true
+    return swapped
+  })
+  return { ...session, queue, graded: queue.slice(0, session.size).filter((q) => !q.speaking).length }
+}
