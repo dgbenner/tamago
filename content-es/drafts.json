@@ -147,6 +147,97 @@
       "french": "Adiós, señor.",
       "english": "Goodbye, sir.",
       "notes": "draft for señor"
+    },
+    {
+      "sentence_id": "S2101",
+      "unit_id": "U02",
+      "french": "La carta es pequeña.",
+      "english": "The letter is small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S2102",
+      "unit_id": "U02",
+      "french": "La mesa es pequeña.",
+      "english": "The table is small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S2103",
+      "unit_id": "U02",
+      "french": "La puerta es pequeña.",
+      "english": "The door is small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S2104",
+      "unit_id": "U02",
+      "french": "La puerta es grande.",
+      "english": "The door is big.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S2105",
+      "unit_id": "U02",
+      "french": "Esta es la puerta.",
+      "english": "This is the door.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S2106",
+      "unit_id": "U02",
+      "french": "Esta es una mesa.",
+      "english": "This is a table.",
+      "notes": "draft: on Tatoeba #1284268 with the English That is a table"
+    },
+    {
+      "sentence_id": "S2107",
+      "unit_id": "U02",
+      "french": "La mesa es grande.",
+      "english": "The table is big.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S2108",
+      "unit_id": "U02",
+      "french": "Eso es una carta.",
+      "english": "That's a letter.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S2109",
+      "unit_id": "U02",
+      "french": "Eso es un periódico.",
+      "english": "That's a newspaper.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S2110",
+      "unit_id": "U02",
+      "french": "Él es un hombre.",
+      "english": "He is a man.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S2111",
+      "unit_id": "U02",
+      "french": "Ella es una mujer.",
+      "english": "She is a woman.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S2112",
+      "unit_id": "U02",
+      "french": "Sí, es una carta.",
+      "english": "Yes, it's a letter.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S2113",
+      "unit_id": "U02",
+      "french": "Sí, él es Tom.",
+      "english": "Yes, he's Tom.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -165,6 +256,22 @@
     {
       "question_sentence_id": "S1118",
       "answer_sentence_id": "S1119"
+    },
+    {
+      "question_sentence_id": "S2005",
+      "answer_sentence_id": "S2112"
+    },
+    {
+      "question_sentence_id": "S2012",
+      "answer_sentence_id": "S2113"
+    },
+    {
+      "question_sentence_id": "S2020",
+      "answer_sentence_id": "S2026"
+    },
+    {
+      "question_sentence_id": "S2022",
+      "answer_sentence_id": "S2026"
     }
   ]
 }

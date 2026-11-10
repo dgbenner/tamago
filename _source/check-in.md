@@ -7,6 +7,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
 - **Spanish, under way.** English to Latin American Spanish (ustedes, never vosotros), on the same framework as French: rounds, question types, topic nodes, checkpoints, grammar notes, "I can" statements.
   - **Its own order:** 15 units after the PCIC A1 inventory (as taught in the Complutense A1.1 programme; the Cervantes site was down): Saying Hello (soy, eres; un, una), People and Things (el, la; es), Polite Phrases (usted; estoy bien), Food and Drink (-er verbs; me gusta), Pets and Animals (tener), More Than One (plurals; ustedes), Describing Things (agreement), **Where Things Are** (estar for place, hay), **Ser or Estar**, Mine and Yours, Asking Questions, Counting to Ten, Naming Colours, Days and Times, Going Places. A unit appears on the tree once it's built; each is committed and pushed as it goes live.
   - **Unit 1 is live:** 51 sentences, 30 from checked Tatoeba and 21 drafted (marked, on the Spanish native-speaker list). Tatoeba's shortest classics (¿Cómo te llamas?, Adiós., Soy una niña.) are mostly owned by people with no native or OK signal, so the first unit needed drafts; later units have far more to draw on. 22 of its 24 words play a Lingua Libre recording, levelled like the French ones. Grammar note and four "I can" statements.
+  - **Unit 2 is live:** People and Things, 43 sentences (30 Tatoeba, 13 drafts); aquí moved to Where Things Are, since in Spanish it goes with estar; widened with este, esta, esto, eso and puerta. Grammar note.
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -472,3 +473,46 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S6659 J'aime le sable. = I like the sand.
 - S6660 Le sable est ici. = The sand is here.
 
+## Spanish drafted sentences
+
+Every Spanish sentence I wrote (34), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+
+**U01 Saying Hello** (21)
+
+- S1101 ¿Cómo te llamas? = What's your name? (QT09 question)
+- S1102 Hola, ¿cómo te llamas? = Hi, what's your name?
+- S1103 ¿Cómo te llamas, niña? = What's your name, little girl?
+- S1104 ¿Te llamas María? = Is your name María? (QT09 question)
+- S1105 Sí, me llamo María. = Yes, my name is María. (QT09 answer)
+- S1106 Adiós, Tom. = Goodbye, Tom.
+- S1107 ¡Adiós, María! = Goodbye, María!
+- S1108 Adiós, señora. = Goodbye, ma'am.
+- S1109 Hola, señora. = Hello, ma'am.
+- S1110 Sí, señora. = Yes, ma'am.
+- S1111 Hola, señor. = Hello, sir.
+- S1112 Soy una niña. = I'm a girl.
+- S1113 ¿Eres una niña? = Are you a girl? (QT09 question)
+- S1114 No, soy un niño. = No, I'm a boy. (QT09 answer)
+- S1115 Eres una chica. = You're a girl.
+- S1116 Soy una chica. = I'm a girl.
+- S1117 No soy una chica. = I'm not a girl.
+- S1118 ¿Eres un chico? = Are you a boy? (QT09 question)
+- S1119 Sí, soy un chico. = Yes, I'm a boy. (QT09 answer)
+- S1120 Yo me llamo Ana. = My name is Ana.
+- S1121 Adiós, señor. = Goodbye, sir.
+
+**U02 People and Things** (13)
+
+- S2101 La carta es pequeña. = The letter is small.
+- S2102 La mesa es pequeña. = The table is small.
+- S2103 La puerta es pequeña. = The door is small.
+- S2104 La puerta es grande. = The door is big.
+- S2105 Esta es la puerta. = This is the door.
+- S2106 Esta es una mesa. = This is a table.
+- S2107 La mesa es grande. = The table is big.
+- S2108 Eso es una carta. = That's a letter.
+- S2109 Eso es un periódico. = That's a newspaper.
+- S2110 Él es un hombre. = He is a man.
+- S2111 Ella es una mujer. = She is a woman.
+- S2112 Sí, es una carta. = Yes, it's a letter. (QT09 answer)
+- S2113 Sí, él es Tom. = Yes, he's Tom. (QT09 answer)

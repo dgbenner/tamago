@@ -42,5 +42,49 @@
         "source": "https://en.wiktionary.org/wiki/ser#Conjugation"
       }
     ]
+  },
+  {
+    "unit_id": "U02",
+    "rule": "El and la mean the: el goes with a masculine noun (el libro), la with a feminine one (la casa). Él and ella, with the accent on él, mean he and she. Es is is, the same ser as soy and eres. Este and esta point at a masculine or a feminine noun; esto and eso point at a thing you haven't named yet.",
+    "example_sentence_ids": "S2001;S2003;S2016",
+    "conjugation_lemma": "ser",
+    "status": "live",
+    "examples": [
+      "S2001",
+      "S2003",
+      "S2016"
+    ],
+    "conjugations": [
+      {
+        "lemma": "ser",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "se"
+          },
+          {
+            "person": "tu",
+            "form": "ses"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "se"
+          },
+          {
+            "person": "nous",
+            "form": "sons"
+          },
+          {
+            "person": "vous",
+            "form": "sez"
+          },
+          {
+            "person": "ils, elles",
+            "form": "sent"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/ser#Conjugation"
+      }
+    ]
   }
 ]

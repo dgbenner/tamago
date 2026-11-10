@@ -5,5 +5,12 @@
     "example_sentence_ids": "S1004;S1015;S1029",
     "conjugation_lemma": "ser",
     "status": "live"
+  },
+  {
+    "unit_id": "U02",
+    "rule": "El and la mean the: el goes with a masculine noun (el libro), la with a feminine one (la casa). Él and ella, with the accent on él, mean he and she. Es is is, the same ser as soy and eres. Este and esta point at a masculine or a feminine noun; esto and eso point at a thing you haven't named yet.",
+    "example_sentence_ids": "S2001;S2003;S2016",
+    "conjugation_lemma": "ser",
+    "status": "live"
   }
 ]

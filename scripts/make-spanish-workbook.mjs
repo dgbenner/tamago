@@ -55,8 +55,10 @@ export const UNITS = [
 // ids, so the ids above never move; a word that comes earlier than first planned moves its first_unit.
 export const EXTRA = {
   U01: ['llamo', 'llamas', 'chico', 'chica', 'señor', 'señora'],
+  U02: ['esto', 'eso', 'este', 'esta', 'puerta'],
 }
-export const MOVE = { me: 'U01', te: 'U01', cómo: 'U01' }
+// aquí goes with estar (Where Things Are); mesa joins People and Things.
+export const MOVE = { me: 'U01', te: 'U01', cómo: 'U01', aquí: 'U08', mesa: 'U02' }
 
 if (process.argv[1] === import.meta.filename) {
   put('README', [

@@ -10,6 +10,8 @@ import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 const ROOT = join(import.meta.dirname, '..')
 const raw = (t) => JSON.parse(readFileSync(at(`content/raw/${t}.json`), 'utf8'))
 const PULL = at('content/pull')
+// --only U02 pulls just that unit (Spanish goes one unit at a time, each after the one before is live).
+const onlyUnit = process.argv.includes('--only') ? process.argv[process.argv.indexOf('--only') + 1] : null
 const redo = new Set(process.argv.includes('--redo') ? process.argv.slice(process.argv.indexOf('--redo') + 1) : [])
 
 const MIN_WORDS = 2, MAX_WORDS = 7 // P03
@@ -26,7 +28,8 @@ const REBUILD_BASE = { U101: 8800 }
 const isWidePack = (u) => isPack(u) && u.topic_node === 'U200'
 const REVIEW_FILE = at('content/sweep/packs-review.json')
 const packReview = (unitId) => (existsSync(REVIEW_FILE) ? JSON.parse(readFileSync(REVIEW_FILE, 'utf8')) : {})[unitId] ?? {}
-const rejected = (unitId) => new Set(Object.keys(packReview(unitId).reject ?? {}))
+// A sentence turned down anywhere in the course stays turned down in every later unit.
+const rejected = () => new Set(Object.values(existsSync(REVIEW_FILE) ? JSON.parse(readFileSync(REVIEW_FILE, 'utf8')) : {}).flatMap((r) => Object.keys(r?.reject ?? {})))
 // Where the plainest linked English isn't the best one, review names another Tatoeba translation of the same sentence.
 const englishPick = (unitId, sourceId, english) => { const e = packReview(unitId).english?.[sourceId]; return e && english.includes(e) ? [e, ...english.filter((x) => x !== e)] : english }
 
@@ -92,9 +95,12 @@ const report = ['# Units 2 to 5: sentences pulled from Tatoeba', '',
   'Proposed under the workbook\'s content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.', '']
 
 // Live units open to every later unit, except the topic packs and the topic node: a pack is one optional choice.
-const opened = new Set(units.filter((u) => String(u.status).startsWith('live') && !['yes', 'node'].includes(u.is_topic_pick)).map((u) => u.unit_id))
+// Live, or approved in the course's decisions (a Spanish unit is approved before the workbook is synced).
+const isLive = (u) => String(u.status).startsWith('live') || DECISIONS.units?.[u.unit_id]?.action === 'approve'
+const opened = new Set(units.filter((u) => isLive(u) && !['yes', 'node'].includes(u.is_topic_pick)).map((u) => u.unit_id))
 for (const u of units) {
   if (u.is_topic_pick === 'node') continue
+  if (onlyUnit && u.unit_id !== onlyUnit) { if (!isPack(u) && isLive(u)) opened.add(u.unit_id); continue }
   const allowed = new Set([...opened, u.unit_id])
   if (!isPack(u)) opened.add(u.unit_id)
   // A live pack marked rebuild in packs-review.json (Weather, 2026-11-10) is topped up: its live Tatoeba sentences stay

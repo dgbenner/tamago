@@ -7,6 +7,11 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md: 51 sentences, 30 checked Tatoeba and 21 drafts (Tatoeba has too few checked lines for the first unit), every word in 3 or more; reviewed in content-es/sweep/packs-review.json"
+    },
+    "U02": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 43 sentences, 30 checked Tatoeba and 13 drafts, every word in 3 or more; reviewed in content-es/sweep/packs-review.json"
     }
   },
   "cut_sentences": [],
@@ -321,6 +326,18 @@
     },
     "W178": {
       "hint": "Mr, sir",
+      "source": "short form of Wiktionary"
+    },
+    "W180": {
+      "hint": "this",
+      "source": "short form of Wiktionary"
+    },
+    "W181": {
+      "hint": "that",
+      "source": "short form of Wiktionary"
+    },
+    "W183": {
+      "hint": "this (feminine)",
       "source": "short form of Wiktionary"
     }
   },
