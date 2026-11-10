@@ -200,6 +200,134 @@
     "status": "live"
   },
   {
+    "answer_id": "A30041",
+    "sentence_id": "S3004",
+    "direction": "fr_to_en",
+    "answer": "I'm fine, thank you.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30042",
+    "sentence_id": "S3004",
+    "direction": "fr_to_en",
+    "answer": "I'm doing well, thank you.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30043",
+    "sentence_id": "S3004",
+    "direction": "fr_to_en",
+    "answer": "I am fine, thank you.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30051",
+    "sentence_id": "S3005",
+    "direction": "fr_to_en",
+    "answer": "I kind of like it.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30101",
+    "sentence_id": "S3010",
+    "direction": "fr_to_en",
+    "answer": "You all right?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30102",
+    "sentence_id": "S3010",
+    "direction": "fr_to_en",
+    "answer": "Are you OK?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30103",
+    "sentence_id": "S3010",
+    "direction": "fr_to_en",
+    "answer": "Are you okay?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30104",
+    "sentence_id": "S3010",
+    "direction": "fr_to_en",
+    "answer": "Are you alright?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30131",
+    "sentence_id": "S3013",
+    "direction": "fr_to_en",
+    "answer": "Good morning!",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30132",
+    "sentence_id": "S3013",
+    "direction": "fr_to_en",
+    "answer": "Mornin'!",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30141",
+    "sentence_id": "S3014",
+    "direction": "fr_to_en",
+    "answer": "Good night!",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30142",
+    "sentence_id": "S3014",
+    "direction": "fr_to_en",
+    "answer": "Good evening!",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30151",
+    "sentence_id": "S3015",
+    "direction": "fr_to_en",
+    "answer": "Please!",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30181",
+    "sentence_id": "S3018",
+    "direction": "fr_to_en",
+    "answer": "Is Tom all right?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30261",
+    "sentence_id": "S3026",
+    "direction": "fr_to_en",
+    "answer": "How is Tom?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30262",
+    "sentence_id": "S3026",
+    "direction": "fr_to_en",
+    "answer": "How's Tom doing?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
     "answer_id": "GS1101-461028",
     "sentence_id": "S1101",
     "direction": "en_to_fr",
@@ -228,5 +356,15 @@
     "source_id": "4554306",
     "status": "live",
     "source_owner": "swyter"
+  },
+  {
+    "answer_id": "GS3111-1448331",
+    "sentence_id": "S3111",
+    "direction": "en_to_fr",
+    "answer": "Eres bienvenido.",
+    "source": "tatoeba",
+    "source_id": "1448331",
+    "status": "live",
+    "source_owner": "peibolvig"
   }
 ]

@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 137 (91 matched to Tatoeba, 46 Tamago originals), 0 off, 90 awaiting a ruling. Words with Wiktionary data: 184 of 184. French-to-English answers: 41 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 8.
+Sentences live: 137 (91 matched to Tatoeba, 46 Tamago originals), 0 off, 91 awaiting a ruling. Words with Wiktionary data: 184 of 184. French-to-English answers: 41 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 4.
 
 Unit 1 is approved and live.
 
@@ -348,9 +348,9 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S3028 | ¿Cómo está él? | How is he? | [#9446111](https://tatoeba.org/en/sentences/show/9446111) | ignacio |  |  | tts |
 | S3029 | Y tú, ¿cómo estás? | And you, how are you? | [#6990155](https://tatoeba.org/en/sentences/show/6990155) | cueyayotl |  |  | tts |
 | S3030 | Gracias. Yo estoy bien. | Thanks, I'm fine. | [#1939917](https://tatoeba.org/en/sentences/show/1939917) | marcelostockle |  |  | tts |
-| S3107 | ¡Perdón! | Sorry! | [#1771994](https://tatoeba.org/en/sentences/show/1771994) | hayastan | keep |  | tts |
+| S3107 | ¡Perdón! | Sorry! | [#1771994](https://tatoeba.org/en/sentences/show/1771994) | hayastan |  |  | tts |
 
-## English-to-French answers generated from Tatoeba (8)
+## English-to-French answers generated from Tatoeba (4)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -359,10 +359,6 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S1101 | What's your name? | ¿Cómo se llama? | [#461028](https://tatoeba.org/en/sentences/show/461028) | Shishir |
 | S1101 | What's your name? | ¿Cuál es tu nombre? | [#1213833](https://tatoeba.org/en/sentences/show/1213833) | marcelostockle |
 | S1111 | Hello, sir. | ¡Bienhallado, buen señor! | [#4554306](https://tatoeba.org/en/sentences/show/4554306) | swyter |
-| S3107 | Sorry! | ¡Lo siento! | [#4555647](https://tatoeba.org/en/sentences/show/4555647) | cueyayotl |
-| S3107 | Sorry! | ¿Disculpa? | [#9679084](https://tatoeba.org/en/sentences/show/9679084) | N30HRTGDV |
-| S3107 | Sorry! | Lo siento. | [#942156](https://tatoeba.org/en/sentences/show/942156) | Shishir |
-| S3107 | Sorry! | Perdón. | [#4708420](https://tatoeba.org/en/sentences/show/4708420) | cueyayotl |
 | S3111 | You're welcome! | Eres bienvenido. | [#1448331](https://tatoeba.org/en/sentences/show/1448331) | peibolvig |
 
 ## French feedback lines (7)

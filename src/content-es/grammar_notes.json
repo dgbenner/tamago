@@ -86,5 +86,49 @@
         "source": "https://en.wiktionary.org/wiki/ser#Conjugation"
       }
     ]
+  },
+  {
+    "unit_id": "U03",
+    "rule": "Tú is for one person you know well; usted is for someone you don't know, or want to be polite to, and takes the same verb as él and ella: ¿Cómo estás? to a friend, ¿Cómo está usted? to a stranger. Estar says how someone is right now: estoy bien, estás bien, está mal. Greetings change with the time of day: buenos días in the morning, buenas tardes in the afternoon, buenas noches in the evening.",
+    "example_sentence_ids": "S3004;S3002;S3023",
+    "conjugation_lemma": "estar",
+    "status": "live",
+    "examples": [
+      "S3004",
+      "S3002",
+      "S3023"
+    ],
+    "conjugations": [
+      {
+        "lemma": "estar",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "{{{ind_p_1s}}}"
+          },
+          {
+            "person": "tu",
+            "form": "{{{ind_p_2s}}}"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "{{{ind_p_3s}}}"
+          },
+          {
+            "person": "nous",
+            "form": "{{{ind_p_1p}}}"
+          },
+          {
+            "person": "vous",
+            "form": "{{{ind_p_2p}}}"
+          },
+          {
+            "person": "ils, elles",
+            "form": "{{{ind_p_3p}}}"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/estar#Conjugation"
+      }
+    ]
   }
 ]

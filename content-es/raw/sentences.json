@@ -1915,13 +1915,14 @@
     "french": "¡Perdón!",
     "english": "Sorry!",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "1771994",
+    "source_owner": "hayastan",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "drafted, then found on Tatoeba from a checked owner"
   },
   {
     "sentence_id": "S3108",
