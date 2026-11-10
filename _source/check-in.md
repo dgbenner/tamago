@@ -8,6 +8,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Its own order:** 15 units after the PCIC A1 inventory (as taught in the Complutense A1.1 programme; the Cervantes site was down): Saying Hello (soy, eres; un, una), People and Things (el, la; es), Polite Phrases (usted; estoy bien), Food and Drink (-er verbs; me gusta), Pets and Animals (tener), More Than One (plurals; ustedes), Describing Things (agreement), **Where Things Are** (estar for place, hay), **Ser or Estar**, Mine and Yours, Asking Questions, Counting to Ten, Naming Colours, Days and Times, Going Places. A unit appears on the tree once it's built; each is committed and pushed as it goes live.
   - **Unit 1 is live:** 51 sentences, 30 from checked Tatoeba and 21 drafted (marked, on the Spanish native-speaker list). Tatoeba's shortest classics (¿Cómo te llamas?, Adiós., Soy una niña.) are mostly owned by people with no native or OK signal, so the first unit needed drafts; later units have far more to draw on. 22 of its 24 words play a Lingua Libre recording, levelled like the French ones. Grammar note and four "I can" statements.
   - **Unit 2 is live:** People and Things, 43 sentences (30 Tatoeba, 13 drafts); aquí moved to Where Things Are, since in Spanish it goes with estar; widened with este, esta, esto, eso and puerta. Grammar note.
+  - **Unit 3 is live:** Polite Phrases, 43 sentences (30 Tatoeba, 13 drafts): tú and usted, estar for how you are. Cut lines whose English misled (buenas tardes as good evening, ¿Cómo está usted? as How do you do?).
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -475,7 +476,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (34), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (47), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -516,3 +517,19 @@ Every Spanish sentence I wrote (34), for a native speaker of Latin American Span
 - S2111 Ella es una mujer. = She is a woman.
 - S2112 Sí, es una carta. = Yes, it's a letter. (QT09 answer)
 - S2113 Sí, él es Tom. = Yes, he's Tom. (QT09 answer)
+
+**U03 Polite Phrases** (13)
+
+- S3101 Sí, por favor. = Yes, please.
+- S3102 Una mesa, por favor. = A table, please.
+- S3103 Buenas tardes, señora. = Good afternoon, ma'am.
+- S3104 Buenas tardes, Tom. = Good afternoon, Tom.
+- S3105 Buenas tardes, ¿cómo está usted? = Good afternoon, how are you?
+- S3106 Perdón, ¿es usted Tom? = Excuse me, are you Tom?
+- S3107 ¡Perdón! = Sorry!
+- S3108 Perdón, señor. = Excuse me, sir.
+- S3109 De nada, Tom. = You're welcome, Tom.
+- S3110 De nada, señora. = You're welcome, ma'am.
+- S3111 ¡De nada! = You're welcome!
+- S3112 Sí, estoy bien. = Yes, I'm fine. (QT09 answer)
+- S3113 Tom está bien. = Tom is fine. (QT09 answer)

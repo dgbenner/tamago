@@ -238,6 +238,97 @@
       "french": "Sí, él es Tom.",
       "english": "Yes, he's Tom.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S3101",
+      "unit_id": "U03",
+      "french": "Sí, por favor.",
+      "english": "Yes, please.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3102",
+      "unit_id": "U03",
+      "french": "Una mesa, por favor.",
+      "english": "A table, please.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3103",
+      "unit_id": "U03",
+      "french": "Buenas tardes, señora.",
+      "english": "Good afternoon, ma'am.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3104",
+      "unit_id": "U03",
+      "french": "Buenas tardes, Tom.",
+      "english": "Good afternoon, Tom.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3105",
+      "unit_id": "U03",
+      "french": "Buenas tardes, ¿cómo está usted?",
+      "english": "Good afternoon, how are you?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3106",
+      "unit_id": "U03",
+      "french": "Perdón, ¿es usted Tom?",
+      "english": "Excuse me, are you Tom?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3107",
+      "unit_id": "U03",
+      "french": "¡Perdón!",
+      "english": "Sorry!",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3108",
+      "unit_id": "U03",
+      "french": "Perdón, señor.",
+      "english": "Excuse me, sir.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3109",
+      "unit_id": "U03",
+      "french": "De nada, Tom.",
+      "english": "You're welcome, Tom.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3110",
+      "unit_id": "U03",
+      "french": "De nada, señora.",
+      "english": "You're welcome, ma'am.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3111",
+      "unit_id": "U03",
+      "french": "¡De nada!",
+      "english": "You're welcome!",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S3112",
+      "unit_id": "U03",
+      "french": "Sí, estoy bien.",
+      "english": "Yes, I'm fine.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S3113",
+      "unit_id": "U03",
+      "french": "Tom está bien.",
+      "english": "Tom is fine.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -272,6 +363,22 @@
     {
       "question_sentence_id": "S2022",
       "answer_sentence_id": "S2026"
+    },
+    {
+      "question_sentence_id": "S3023",
+      "answer_sentence_id": "S3004"
+    },
+    {
+      "question_sentence_id": "S3010",
+      "answer_sentence_id": "S3112"
+    },
+    {
+      "question_sentence_id": "S3002",
+      "answer_sentence_id": "S3001"
+    },
+    {
+      "question_sentence_id": "S3026",
+      "answer_sentence_id": "S3113"
     }
   ]
 }

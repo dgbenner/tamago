@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U02 People and Things: el and la; él and ella; es
+## U03 Polite Phrases: Set phrases; tú and usted; estar for how you are: estoy, estás, está with bien and mal
 
-30 sentences picked from 36 candidates (target 30 to 40). Grammar point in 29 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 47 candidates (target 30 to 40). Grammar point in 25 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): el 3, la 1, él 2, ella 2, es 28, soy 3.
+Contrast forms, sentences each (target 2): tú 4, usted 5, estás 7, está 9, bien 11, mal 3.
 
-**Gaps (P08)**, fewer than 3 usable sentences: la (1), él (2), ella (2), carta (1), periódico (2), pequeña (0), mesa (0), eso (1), puerta (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: por favor (1), buenas tardes (0), perdón (0), de nada (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S2001 | El libro es pequeño. | The book is small. |  | [#627056](https://tatoeba.org/en/sentences/show/627056) | Leono |
-| S2002 | El libro es grande. | The book is big. |  | [#627071](https://tatoeba.org/en/sentences/show/627071) | Leono |
-| S2003 | La casa es grande. | The house is big. |  | [#2989009](https://tatoeba.org/en/sentences/show/2989009) | cueyayotl |
-| S2004 | Este es un pequeño libro. | This is a small book. |  | [#1399901](https://tatoeba.org/en/sentences/show/1399901) | marcelostockle |
-| S2005 | ¿Es esta una carta? | Is this a letter? |  | [#3775581](https://tatoeba.org/en/sentences/show/3775581) | marcelostockle |
-| S2006 | Esto es grande. | This is big. |  | [#6682535](https://tatoeba.org/en/sentences/show/6682535) | arh |
-| S2007 | Este es el niño. | This is the boy. |  | [#3517854](https://tatoeba.org/en/sentences/show/3517854) | cueyayotl |
-| S2008 | Este es un periódico. | This is a newspaper. |  | [#3578402](https://tatoeba.org/en/sentences/show/3578402) | cueyayotl |
-| S2009 | Esto es un periódico. | This is a newspaper. |  | [#10115204](https://tatoeba.org/en/sentences/show/10115204) | Shishir |
-| S2010 | Esto no es una casa. | This isn't a house. |  | [#9654002](https://tatoeba.org/en/sentences/show/9654002) | Shishir |
-| S2011 | Soy Tom y ella es María. | I'm Tom, and she's Mary. | I'm Tom and she is Mary. | [#5017238](https://tatoeba.org/en/sentences/show/5017238) | don_ramon |
-| S2012 | ¿Él es Tom? | Is he Tom? |  | [#9432874](https://tatoeba.org/en/sentences/show/9432874) | ignacio |
-| S2013 | Es ella. | That's her. |  | [#6600062](https://tatoeba.org/en/sentences/show/6600062) | arh |
-| S2014 | Él no es un niño. | He isn't a child. |  | [#5165735](https://tatoeba.org/en/sentences/show/5165735) | ecorralest101 |
-| S2015 | Soy Tom y esta es María. | I'm Tom and this is Mary. |  | [#2944056](https://tatoeba.org/en/sentences/show/2944056) | ManuelML |
-| S2016 | Eso es un libro. | That's a book. |  | [#6601689](https://tatoeba.org/en/sentences/show/6601689) | arh |
-| S2017 | Es una casa grande. | It's a big house. | This is a big house.; This is a large house. | [#9969807](https://tatoeba.org/en/sentences/show/9969807) | Shishir |
-| S2018 | Tom es pequeño. | Tom is small. |  | [#12566034](https://tatoeba.org/en/sentences/show/12566034) | Shishir |
-| S2019 | Esta es una mujer. | This is a woman. |  | [#4998175](https://tatoeba.org/en/sentences/show/4998175) | cueyayotl |
-| S2020 | ¿Es grande Tom? | Is Tom big? |  | [#5752542](https://tatoeba.org/en/sentences/show/5752542) | arh |
-| S2021 | ¿Cómo es? | What's it like? |  | [#6601722](https://tatoeba.org/en/sentences/show/6601722) | arh |
-| S2022 | ¿Cómo es Tom? | What's Tom like? |  | [#1286260](https://tatoeba.org/en/sentences/show/1286260) | marcelostockle |
-| S2023 | Es este libro. | It's this book. |  | [#1222642](https://tatoeba.org/en/sentences/show/1222642) | marcelostockle |
-| S2024 | Esto es un libro. | This is a book. | It is a book. | [#1991582](https://tatoeba.org/en/sentences/show/1991582) | Shishir |
-| S2025 | Es grande. | It's big. |  | [#9285941](https://tatoeba.org/en/sentences/show/9285941) | Javea |
-| S2026 | Tom es grande. | Tom is big. |  | [#3706146](https://tatoeba.org/en/sentences/show/3706146) | cueyayotl |
-| S2027 | Este es Tom. | This is Tom. |  | [#3762259](https://tatoeba.org/en/sentences/show/3762259) | Seael |
-| S2028 | Soy grande. | I'm big. |  | [#1248459](https://tatoeba.org/en/sentences/show/1248459) | Shishir |
-| S2029 | Eres grande. | You're big. |  | [#2075057](https://tatoeba.org/en/sentences/show/2075057) | Shishir |
-| S2030 | Es Tom. | It's Tom. |  | [#2150024](https://tatoeba.org/en/sentences/show/2150024) | hayastan |
+| S3001 | Estoy bien, gracias, ¿y usted? | Fine, thank you. And you? |  | [#1992970](https://tatoeba.org/en/sentences/show/1992970) | Shishir |
+| S3002 | Buenos días, ¿cómo está usted? | Good morning, how are you doing? |  | [#1991353](https://tatoeba.org/en/sentences/show/1991353) | Shishir |
+| S3003 | ¿Tú estás bien? | Are you okay? |  | [#1139995](https://tatoeba.org/en/sentences/show/1139995) | Shishir |
+| S3004 | Estoy bien, gracias. | I'm fine, thanks. | I'm fine, thank you.; I'm doing well, thank you.; I am fine, thank you. | [#493008](https://tatoeba.org/en/sentences/show/493008) | Shishir |
+| S3005 | No está mal. | Not bad. | I kind of like it. | [#1322722](https://tatoeba.org/en/sentences/show/1322722) | Shishir |
+| S3006 | Buenas noches, ¿cómo estás? | Good evening, how are you? |  | [#801186](https://tatoeba.org/en/sentences/show/801186) | Shishir |
+| S3007 | Yo estoy mal. | It is me that is wrong. |  | [#1507385](https://tatoeba.org/en/sentences/show/1507385) | marcelostockle |
+| S3008 | Esto no está mal. | This isn't bad. |  | [#2626544](https://tatoeba.org/en/sentences/show/2626544) | Shishir |
+| S3009 | Bien, gracias. ¿Y tú? | Fine, thank you. And you? |  | [#532246](https://tatoeba.org/en/sentences/show/532246) | cueyayotl |
+| S3010 | ¿Estás bien? | Are you well? | You all right?; Are you OK?; Are you okay?; Are you alright? | [#580839](https://tatoeba.org/en/sentences/show/580839) | Shishir |
+| S3011 | ¿Y usted? | And you? |  | [#1642424](https://tatoeba.org/en/sentences/show/1642424) | Shishir |
+| S3012 | ¡Gracias y buenas noches! | Thanks and good night! |  | [#2714049](https://tatoeba.org/en/sentences/show/2714049) | hayastan |
+| S3013 | ¡Buenos días! | Good day! | Good morning!; Mornin'! | [#403913](https://tatoeba.org/en/sentences/show/403913) | cueyayotl |
+| S3014 | ¡Buenas noches! | Goodnight! | Good night!; Good evening! | [#528431](https://tatoeba.org/en/sentences/show/528431) | Shishir |
+| S3015 | ¡Por favor! | Please. | Please! | [#684287](https://tatoeba.org/en/sentences/show/684287) | Zifre |
+| S3016 | Buenos días, Tom. | Good morning, Tom. |  | [#8844842](https://tatoeba.org/en/sentences/show/8844842) | Sabir |
+| S3017 | Tom, ¿estás bien? | Tom, are you okay? |  | [#1875021](https://tatoeba.org/en/sentences/show/1875021) | teskmon |
+| S3018 | ¿Tom está bien? | Is Tom OK? | Is Tom all right? | [#2022127](https://tatoeba.org/en/sentences/show/2022127) | Shishir |
+| S3019 | ¿Está bien Tom? | Is Tom OK? |  | [#5752515](https://tatoeba.org/en/sentences/show/5752515) | arh |
+| S3020 | ¿Está bien eso? | Is that OK? |  | [#6600137](https://tatoeba.org/en/sentences/show/6600137) | arh |
+| S3021 | ¿Es usted? | Is that you? |  | [#6599018](https://tatoeba.org/en/sentences/show/6599018) | arh |
+| S3022 | Hola, ¿cómo estás? | Hi, how are you? |  | [#473456](https://tatoeba.org/en/sentences/show/473456) | Shishir |
+| S3023 | ¿Cómo estás, Tom? | How are you, Tom? |  | [#1289280](https://tatoeba.org/en/sentences/show/1289280) | marcelostockle |
+| S3024 | Bien. ¿Y tú? | Fine. And you? |  | [#1304797](https://tatoeba.org/en/sentences/show/1304797) | Shishir |
+| S3025 | ¿Es usted Tom? | Are you Tom? |  | [#1660618](https://tatoeba.org/en/sentences/show/1660618) | cueyayotl |
+| S3026 | ¿Cómo está Tom? | How's Tom? | How is Tom?; How's Tom doing? | [#2011175](https://tatoeba.org/en/sentences/show/2011175) | Shishir |
+| S3027 | ¿Cómo está María? | How is Mary? |  | [#6855248](https://tatoeba.org/en/sentences/show/6855248) | matecro |
+| S3028 | ¿Cómo está él? | How is he? |  | [#9446111](https://tatoeba.org/en/sentences/show/9446111) | ignacio |
+| S3029 | Y tú, ¿cómo estás? | And you, how are you? |  | [#6990155](https://tatoeba.org/en/sentences/show/6990155) | cueyayotl |
+| S3030 | Gracias. Yo estoy bien. | Thanks, I'm fine. |  | [#1939917](https://tatoeba.org/en/sentences/show/1939917) | marcelostockle |
