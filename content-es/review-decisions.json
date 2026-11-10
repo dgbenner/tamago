@@ -1,6 +1,193 @@
 {
   "_about": "Rulings for the Spanish course, the same shape as content/review-decisions.json. Claude records its calls here under autonomous-build.md; Dan can reverse any of them.",
-  "sentences": {},
+  "sentences": {
+    "S1101": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner naikodemus has no native or OK signal",
+      "french": "¿Cómo te llamas?"
+    },
+    "S1102": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner lukaszpp has no native or OK signal",
+      "french": "Hola, ¿cómo te llamas?"
+    },
+    "S1106": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Adelpa has no native or OK signal",
+      "french": "Adiós, Tom."
+    },
+    "S1112": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner DJ_Saidez has no native or OK signal",
+      "french": "Soy una niña."
+    },
+    "S1116": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner kerbear407 has no native or OK signal",
+      "french": "Soy una chica."
+    },
+    "S2110": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner darinmex has no native or OK signal",
+      "french": "¿Cómo es él?"
+    },
+    "S2111": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner PERCE_NEIGE has no native or OK signal",
+      "french": "Ella es una mujer."
+    },
+    "S3101": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner lukaszpp has no native or OK signal",
+      "french": "Sí, por favor."
+    },
+    "S3103": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner marloncori has no native or OK signal",
+      "french": "¡Buenas tardes!"
+    },
+    "S3111": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Quabazaa has no native or OK signal",
+      "french": "De nada."
+    },
+    "S4105": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner lukaszpp has no native or OK signal",
+      "french": "La mujer come una naranja."
+    },
+    "S5102": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner rul has no native or OK signal",
+      "french": "¿Cómo está el pájaro?"
+    },
+    "S5106": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal",
+      "french": "Tengo una tortuga."
+    },
+    "S5110": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Adelpa has no native or OK signal",
+      "french": "Esto es un ratón."
+    },
+    "S5111": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Dreamk33 has no native or OK signal",
+      "french": "La niña tiene un ratón."
+    },
+    "S6109": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner mervert1 has no native or OK signal",
+      "french": "Tengo unas manzanas."
+    },
+    "S8101": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner alexmarcelo has no native or OK signal",
+      "french": "Estoy en la cama."
+    },
+    "S10103": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner SirCourgette has no native or OK signal",
+      "french": "Somos tus amigos."
+    },
+    "S10107": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal",
+      "french": "Mis amigas están aquí."
+    },
+    "S10108": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner xjjAstrus has no native or OK signal",
+      "french": "Son amigas."
+    },
+    "S11101": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner lukaszpp has no native or OK signal",
+      "french": "No está aquí porque está enfermo."
+    },
+    "S12101": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner BraveSentry has no native or OK signal",
+      "french": "Seis y cuatro son diez."
+    },
+    "S12103": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner chinopinyin has no native or OK signal",
+      "french": "Tiene un perro y seis gatos."
+    },
+    "S12104": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner chinopinyin has no native or OK signal",
+      "french": "Cinco y dos son siete."
+    },
+    "S12115": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner araneo has no native or OK signal",
+      "french": "Ella tiene cinco gatos."
+    },
+    "S12116": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal",
+      "french": "¿Cuántas casas tienes?"
+    },
+    "S13101": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner enteka has no native or OK signal",
+      "french": "Su color es rojo."
+    },
+    "S13106": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal",
+      "french": "Es una manzana amarilla."
+    },
+    "S13111": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Espi has no native or OK signal",
+      "french": "El gato es negro."
+    },
+    "S14102": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner arashi_29 has no native or OK signal",
+      "french": "¿Qué día de la semana es hoy?"
+    },
+    "S14107": {
+      "action": "confirm",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal",
+      "french": "Mañana es sábado."
+    }
+  },
   "accepted_answers": {},
   "units": {
     "U01": {

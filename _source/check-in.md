@@ -4,6 +4,11 @@ Updated November 10, 2026. **The Spanish course is live: all 15 units, six topic
 
 ## Done since last check-in
 
+- **Spanish drafts swapped for Fable's Use candidates: 31 of the 62.** The Spanish native-speaker list is now **127** (was 158). Each swap keeps its sentence id, takes Fable's English pick where one was named (I'm fine, I like green, My family isn't a big family), and is recorded as a reviewed confirm, since these owners carry no native or OK signal. The other 31 are held, for two reasons:
+  - **25 are halves of QT09 question-and-answer pairs**, and none of their Use candidates is the same sentence: swapping *Sí, hay leche.* (the answer to ¿Hay leche?) for *Hay un gato.* would break the pair. They are S2113, S3112, S3113, S4106, S5114, S7101, S7102, S7103, S8104, S8105, S9107, S10101, S10102, S10109, S10110, S10111, S11103, S12102, S12118, S13105, S13108, S15101, S15102, S15103.
+  - **6 whose Use candidates were already used** for other drafts: one Tatoeba sentence can be in the course only once (Seis y cuatro son diez was the first pick for five drafts). They are S3104, S10104, S12105, S12106, S12113, S12114, S13107.
+  - Every word in every unit still has 3 or more sentences. The bulleted Use candidates stay in _review/spanish-candidates.md as the reserve.
+- **enfant and enfants pictures approved** (your call: distinct enough from the baby). They're in French lessons, and enfants also pictures Spanish niños. Only orange and naranja still use OpenMoji.
 - **Spanish candidates for review:** _review/spanish-candidates.md lists every Tatoeba Spanish sentence kept out only by the trust rule (no declared native owner, no OK tag) that otherwise fits a unit: 472 in all, grouped by unit, each draft beside the candidates that could replace it. 13 of the 158 drafts are word for word on Tatoeba from an unchecked owner, and 69 have a candidate that teaches all the same new words. Nothing is swapped. The candidates pass the rules only; I haven't reviewed them for idioms or odd lines, as I did the pulled ones.
 - **Your second batch of pictures is in lessons, both languages.** All 40 are copied to _source/pictures/incoming-2026-11-10b/ and matched to the list: house, cheese, milk, bed, table, chair, kitchen, bathroom, newspaper, letters, colours (red, blue, green, yellow), weather (cold, hot), coffee, tea, sugar, chocolate, butter, croissant, banana, meat, fish, sandwich, restaurant, city, boat, birds and a bird, duck, horses, baby, family, men, singer, student, and both teachers. French now pictures 74 words with your art (only enfant, on hold, and orange still use OpenMoji); Spanish 56 (only naranja). 26 rows of the list remain to make. Picture Check shows the new ones; three matched by file name (croissant, sandwich, restaurant), the rest by the picture. The men's picture has three where the list asked for two, which reads fine for hommes.
 - **Opening screen bugs fixed** (your report): it looked like it loaded twice and the flags didn't show.
@@ -503,33 +508,28 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (158), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (127), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
-**U01 Saying Hello** (21)
+**U01 Saying Hello** (16)
 
-- S1101 ¿Cómo te llamas? = What's your name? (QT09 question)
-- S1102 Hola, ¿cómo te llamas? = Hi, what's your name?
 - S1103 ¿Cómo te llamas, niña? = What's your name, little girl?
 - S1104 ¿Te llamas María? = Is your name María? (QT09 question)
 - S1105 Sí, me llamo María. = Yes, my name is María. (QT09 answer)
-- S1106 Adiós, Tom. = Goodbye, Tom.
 - S1107 ¡Adiós, María! = Goodbye, María!
 - S1108 Adiós, señora. = Goodbye, ma'am.
 - S1109 Hola, señora. = Hello, ma'am.
 - S1110 Sí, señora. = Yes, ma'am.
 - S1111 Hola, señor. = Hello, sir.
-- S1112 Soy una niña. = I'm a girl.
 - S1113 ¿Eres una niña? = Are you a girl? (QT09 question)
 - S1114 No, soy un niño. = No, I'm a boy. (QT09 answer)
 - S1115 Eres una chica. = You're a girl.
-- S1116 Soy una chica. = I'm a girl.
 - S1117 No soy una chica. = I'm not a girl.
 - S1118 ¿Eres un chico? = Are you a boy? (QT09 question)
 - S1119 Sí, soy un chico. = Yes, I'm a boy. (QT09 answer)
 - S1120 Yo me llamo Ana. = My name is Ana.
 - S1121 Adiós, señor. = Goodbye, sir.
 
-**U02 People and Things** (13)
+**U02 People and Things** (11)
 
 - S2101 La carta es pequeña. = The letter is small.
 - S2102 La mesa es pequeña. = The table is small.
@@ -540,53 +540,43 @@ Every Spanish sentence I wrote (158), for a native speaker of Latin American Spa
 - S2107 La mesa es grande. = The table is big.
 - S2108 Eso es una carta. = That's a letter.
 - S2109 Eso es un periódico. = That's a newspaper.
-- S2110 Él es un hombre. = He is a man.
-- S2111 Ella es una mujer. = She is a woman.
 - S2112 Sí, es una carta. = Yes, it's a letter. (QT09 answer)
 - S2113 Sí, él es Tom. = Yes, he's Tom. (QT09 answer)
 
-**U03 Polite Phrases** (12)
+**U03 Polite Phrases** (9)
 
-- S3101 Sí, por favor. = Yes, please.
 - S3102 Una mesa, por favor. = A table, please.
-- S3103 Buenas tardes, señora. = Good afternoon, ma'am.
 - S3104 Buenas tardes, Tom. = Good afternoon, Tom.
 - S3105 Buenas tardes, ¿cómo está usted? = Good afternoon, how are you?
 - S3106 Perdón, ¿es usted Tom? = Excuse me, are you Tom?
 - S3108 Perdón, señor. = Excuse me, sir.
 - S3109 De nada, Tom. = You're welcome, Tom.
 - S3110 De nada, señora. = You're welcome, ma'am.
-- S3111 ¡De nada! = You're welcome!
 - S3112 Sí, estoy bien. = Yes, I'm fine. (QT09 answer)
 - S3113 Tom está bien. = Tom is fine. (QT09 answer)
 
-**U04 Food and Drink** (6)
+**U04 Food and Drink** (5)
 
 - S4101 ¿Comes pan? = Do you eat bread? (QT09 question)
 - S4102 Comes una manzana. = You're eating an apple.
 - S4103 ¿Bebes leche? = Do you drink milk? (QT09 question)
 - S4104 Como una naranja. = I'm eating an orange.
-- S4105 Ella come una naranja. = She's eating an orange.
 - S4106 Sí, como pan. = Yes, I eat bread. (QT09 answer)
 
-**U05 Pets and Animals** (14)
+**U05 Pets and Animals** (10)
 
 - S5101 Tengo un pájaro. = I have a bird.
-- S5102 El pájaro es pequeño. = The bird is small.
 - S5103 Tengo un pato. = I have a duck.
 - S5104 El pato come pan. = The duck is eating bread.
 - S5105 ¿Tienes un pato? = Do you have a duck?
-- S5106 Tengo una tortuga. = I have a turtle.
 - S5107 La tortuga es pequeña. = The turtle is small.
 - S5108 ¿Tienes una tortuga? = Do you have a turtle? (QT09 question)
 - S5109 No, tengo un ratón. = No, I have a mouse. (QT09 answer)
-- S5110 El ratón es pequeño. = The mouse is small.
-- S5111 Ella tiene un ratón. = She has a mouse.
 - S5112 El perro es un animal. = The dog is an animal.
 - S5113 ¿Es un animal? = Is it an animal?
 - S5114 Sí, tengo un libro. = Yes, I have a book. (QT09 answer)
 
-**U06 More Than One** (26)
+**U06 More Than One** (25)
 
 - S6101 Los perros son grandes. = The dogs are big. (QT09 answer)
 - S6102 Los gatos son pequeños. = The cats are small.
@@ -596,7 +586,6 @@ Every Spanish sentence I wrote (158), for a native speaker of Latin American Spa
 - S6106 Tengo unos libros. = I have some books.
 - S6107 Tengo unos perros. = I have some dogs.
 - S6108 Comen unas manzanas. = They're eating some apples.
-- S6109 Tengo unas manzanas. = I have some apples. (QT09 answer)
 - S6110 Unas chicas comen pan. = Some girls are eating bread.
 - S6111 Nosotros somos hombres. = We are men.
 - S6112 Nosotros somos mujeres. = We are women.
@@ -621,9 +610,8 @@ Every Spanish sentence I wrote (158), for a native speaker of Latin American Spa
 - S7102 Sí, es nuevo. = Yes, it's new. (QT09 answer)
 - S7103 Sí, Tom es muy bueno. = Yes, Tom is very good. (QT09 answer)
 
-**U08 Where Things Are** (5)
+**U08 Where Things Are** (4)
 
-- S8101 El gato está en la cama. = The cat is on the bed.
 - S8102 Hay una cama aquí. = There's a bed here.
 - S8103 El baño está allí. = The bathroom is over there.
 - S8104 Sí, hay leche. = Yes, there's milk. (QT09 answer)
@@ -639,31 +627,24 @@ Every Spanish sentence I wrote (158), for a native speaker of Latin American Spa
 - S9106 Sí, soy profesora. = Yes, I'm a teacher. (QT09 answer)
 - S9107 Sí, es médico. = Yes, he's a doctor. (QT09 answer)
 
-**U10 Mine and Yours** (11)
+**U10 Mine and Yours** (8)
 
 - S10101 ¿Son tus libros? = Are they your books? (QT09 question)
 - S10102 Sí, son mis libros. = Yes, they're my books. (QT09 answer)
-- S10103 Tus amigos están aquí. = Your friends are here.
 - S10104 Tus perros son grandes. = Your dogs are big.
 - S10105 Sus amigos están aquí. = His friends are here.
 - S10106 Ella tiene sus libros. = She has her books.
-- S10107 Ellas son mis amigas. = They're my friends.
-- S10108 Ana y María son amigas. = Ana and María are friends.
 - S10109 Sí, soy tu amigo. = Yes, I'm your friend. (QT09 answer)
 - S10110 Sí, es mi familia. = Yes, it's my family. (QT09 answer)
 - S10111 Sí, somos amigos. = Yes, we're friends. (QT09 answer)
 
-**U11 Asking Questions** (2)
+**U11 Asking Questions** (1)
 
-- S11101 Estoy aquí porque estás aquí. = I'm here because you're here.
 - S11103 No como porque estoy enfermo. = I'm not eating because I'm sick. (QT09 answer)
 
-**U12 Counting to Ten** (18)
+**U12 Counting to Ten** (13)
 
-- S12101 Tengo seis libros. = I have six books.
 - S12102 Hay seis manzanas. = There are six apples. (QT09 answer)
-- S12103 Ella tiene seis gatos. = She has six cats.
-- S12104 Tengo siete amigos. = I have seven friends.
 - S12105 Hay siete libros en la mesa. = There are seven books on the table.
 - S12106 Tom tiene siete perros. = Tom has seven dogs.
 - S12107 Tengo ocho manzanas. = I have eight apples.
@@ -674,31 +655,24 @@ Every Spanish sentence I wrote (158), for a native speaker of Latin American Spa
 - S12112 Somos nueve. = There are nine of us.
 - S12113 Hay diez casas. = There are ten houses.
 - S12114 Tengo diez amigos. = I have ten friends.
-- S12115 Hay cinco chicas. = There are five girls.
-- S12116 ¿Cuántas casas tienes? = How many houses do you have?
 - S12117 ¿Cuántas amigas tienes? = How many friends do you have?
 - S12118 Tom tiene dos gatos. = Tom has two cats. (QT09 answer)
 
-**U13 Naming Colours** (9)
+**U13 Naming Colours** (6)
 
-- S13101 Mi libro es rojo. = My book is red.
 - S13103 Tengo una mesa negra. = I have a black table.
 - S13104 Esta casa es negra. = This house is black.
 - S13105 El pájaro es amarillo. = The bird is yellow. (QT09 answer)
-- S13106 La casa es amarilla. = The house is yellow. (QT09 answer)
 - S13107 Tengo una carta amarilla. = I have a yellow letter.
 - S13108 El libro es verde. = The book is green. (QT09 answer)
 - S13109 Mi casa es blanca. = My house is white. (QT09 answer)
-- S13111 Él tiene un perro negro. = He has a black dog.
 
-**U14 Days and Times** (8)
+**U14 Days and Times** (6)
 
 - S14101 Es una buena semana. = It's a good week.
-- S14102 ¿Qué día de la semana es hoy? = What day of the week is it today?
 - S14103 El lunes es un día de la semana. = Monday is a day of the week.
 - S14104 Tengo una hora. = I have an hour.
 - S14106 Es la una. = It's one o'clock. (QT09 answer)
-- S14107 Mañana es sábado. = Tomorrow is Saturday.
 - S14108 El domingo estoy en casa. = On Sunday I'm at home.
 - S14109 No, hoy es domingo. = No, today is Sunday. (QT09 answer)
 

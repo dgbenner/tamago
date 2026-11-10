@@ -5,15 +5,21 @@
       "sentence_id": "S1101",
       "unit_id": "U01",
       "french": "¿Cómo te llamas?",
-      "english": "What's your name?",
-      "notes": "QT09 question; also on Tatoeba #449153 from an owner without a native or OK signal"
+      "english": "What is your name?",
+      "notes": "QT09 question; also on Tatoeba #449153 from an owner without a native or OK signal; swapped 2026-11-10 for Tatoeba #449153 (Fable's review: Use); was the draft \"¿Cómo te llamas?\"",
+      "source": "tatoeba",
+      "source_id": "449153",
+      "source_owner": "naikodemus"
     },
     {
       "sentence_id": "S1102",
       "unit_id": "U01",
       "french": "Hola, ¿cómo te llamas?",
-      "english": "Hi, what's your name?",
-      "notes": "draft for cómo, te, llamas"
+      "english": "Hello, what's your name?",
+      "notes": "draft for cómo, te, llamas; swapped 2026-11-10 for Tatoeba #435081 (Fable's review: Use); was the draft \"Hola, ¿cómo te llamas?\"",
+      "source": "tatoeba",
+      "source_id": "435081",
+      "source_owner": "lukaszpp"
     },
     {
       "sentence_id": "S1103",
@@ -41,7 +47,10 @@
       "unit_id": "U01",
       "french": "Adiós, Tom.",
       "english": "Goodbye, Tom.",
-      "notes": "draft for adiós; ¡Adiós! is on Tatoeba #853351 from an unchecked owner"
+      "notes": "draft for adiós; ¡Adiós! is on Tatoeba #853351 from an unchecked owner; swapped 2026-11-10 for Tatoeba #10681339 (Fable's review: Use); was the draft \"Adiós, Tom.\"",
+      "source": "tatoeba",
+      "source_id": "10681339",
+      "source_owner": "Adelpa"
     },
     {
       "sentence_id": "S1107",
@@ -83,7 +92,10 @@
       "unit_id": "U01",
       "french": "Soy una niña.",
       "english": "I'm a girl.",
-      "notes": "draft for niña; also on Tatoeba #10363247 from an unchecked owner"
+      "notes": "draft for niña; also on Tatoeba #10363247 from an unchecked owner; swapped 2026-11-10 for Tatoeba #10363247 (Fable's review: Use); was the draft \"Soy una niña.\"",
+      "source": "tatoeba",
+      "source_id": "10363247",
+      "source_owner": "DJ_Saidez"
     },
     {
       "sentence_id": "S1113",
@@ -110,8 +122,11 @@
       "sentence_id": "S1116",
       "unit_id": "U01",
       "french": "Soy una chica.",
-      "english": "I'm a girl.",
-      "notes": "draft for chica"
+      "english": "I am a girl.",
+      "notes": "draft for chica; swapped 2026-11-10 for Tatoeba #2363939 (Fable's review: Use); was the draft \"Soy una chica.\"",
+      "source": "tatoeba",
+      "source_id": "2363939",
+      "source_owner": "kerbear407"
     },
     {
       "sentence_id": "S1117",
@@ -214,16 +229,22 @@
     {
       "sentence_id": "S2110",
       "unit_id": "U02",
-      "french": "Él es un hombre.",
-      "english": "He is a man.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "¿Cómo es él?",
+      "english": "What is he like?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #600685 (Fable's review: Use); was the draft \"Él es un hombre.\"",
+      "source": "tatoeba",
+      "source_id": "600685",
+      "source_owner": "darinmex"
     },
     {
       "sentence_id": "S2111",
       "unit_id": "U02",
       "french": "Ella es una mujer.",
-      "english": "She is a woman.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "english": "She's a woman.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #3127561 (Fable's review: Use); was the draft \"Ella es una mujer.\"",
+      "source": "tatoeba",
+      "source_id": "3127561",
+      "source_owner": "PERCE_NEIGE"
     },
     {
       "sentence_id": "S2112",
@@ -244,7 +265,10 @@
       "unit_id": "U03",
       "french": "Sí, por favor.",
       "english": "Yes, please.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #687875 (Fable's review: Use); was the draft \"Sí, por favor.\"",
+      "source": "tatoeba",
+      "source_id": "687875",
+      "source_owner": "lukaszpp"
     },
     {
       "sentence_id": "S3102",
@@ -256,9 +280,12 @@
     {
       "sentence_id": "S3103",
       "unit_id": "U03",
-      "french": "Buenas tardes, señora.",
-      "english": "Good afternoon, ma'am.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "¡Buenas tardes!",
+      "english": "Good afternoon.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #778583 (Fable's review: Use); was the draft \"Buenas tardes, señora.\"",
+      "source": "tatoeba",
+      "source_id": "778583",
+      "source_owner": "marloncori"
     },
     {
       "sentence_id": "S3104",
@@ -315,9 +342,12 @@
     {
       "sentence_id": "S3111",
       "unit_id": "U03",
-      "french": "¡De nada!",
-      "english": "You're welcome!",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "De nada.",
+      "english": "You're welcome.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #332228 (Fable's review: Use); was the draft \"¡De nada!\"",
+      "source": "tatoeba",
+      "source_id": "332228",
+      "source_owner": "Quabazaa"
     },
     {
       "sentence_id": "S3112",
@@ -364,9 +394,12 @@
     {
       "sentence_id": "S4105",
       "unit_id": "U04",
-      "french": "Ella come una naranja.",
-      "english": "She's eating an orange.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "La mujer come una naranja.",
+      "english": "The woman eats an orange.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #462997 (Fable's review: Use); was the draft \"Ella come una naranja.\"",
+      "source": "tatoeba",
+      "source_id": "462997",
+      "source_owner": "lukaszpp"
     },
     {
       "sentence_id": "S4106",
@@ -385,9 +418,12 @@
     {
       "sentence_id": "S5102",
       "unit_id": "U05",
-      "french": "El pájaro es pequeño.",
-      "english": "The bird is small.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "¿Cómo está el pájaro?",
+      "english": "How's the bird?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #13435171 (Fable's review: Use); was the draft \"El pájaro es pequeño.\"",
+      "source": "tatoeba",
+      "source_id": "13435171",
+      "source_owner": "rul"
     },
     {
       "sentence_id": "S5103",
@@ -415,7 +451,10 @@
       "unit_id": "U05",
       "french": "Tengo una tortuga.",
       "english": "I have a turtle.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #11131055 (Fable's review: Use); was the draft \"Tengo una tortuga.\"",
+      "source": "tatoeba",
+      "source_id": "11131055",
+      "source_owner": "carlosalberto"
     },
     {
       "sentence_id": "S5107",
@@ -441,16 +480,22 @@
     {
       "sentence_id": "S5110",
       "unit_id": "U05",
-      "french": "El ratón es pequeño.",
-      "english": "The mouse is small.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Esto es un ratón.",
+      "english": "This is a mouse.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #7161542 (Fable's review: Use); was the draft \"El ratón es pequeño.\"",
+      "source": "tatoeba",
+      "source_id": "7161542",
+      "source_owner": "Adelpa"
     },
     {
       "sentence_id": "S5111",
       "unit_id": "U05",
-      "french": "Ella tiene un ratón.",
-      "english": "She has a mouse.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "La niña tiene un ratón.",
+      "english": "The girl has a mouse.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #3218086 (Fable's review: Use); was the draft \"Ella tiene un ratón.\"",
+      "source": "tatoeba",
+      "source_id": "3218086",
+      "source_owner": "Dreamk33"
     },
     {
       "sentence_id": "S5112",
@@ -534,7 +579,10 @@
       "unit_id": "U06",
       "french": "Tengo unas manzanas.",
       "english": "I have some apples.",
-      "notes": "QT09 answer"
+      "notes": "QT09 answer; swapped 2026-11-10 for Tatoeba #13980881 (Fable's review: Use); was the draft \"Tengo unas manzanas.\"",
+      "source": "tatoeba",
+      "source_id": "13980881",
+      "source_owner": "mervert1"
     },
     {
       "sentence_id": "S6110",
@@ -679,9 +727,12 @@
     {
       "sentence_id": "S8101",
       "unit_id": "U08",
-      "french": "El gato está en la cama.",
-      "english": "The cat is on the bed.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Estoy en la cama.",
+      "english": "I'm in bed.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #2110673 (Fable's review: Use); was the draft \"El gato está en la cama.\"",
+      "source": "tatoeba",
+      "source_id": "2110673",
+      "source_owner": "alexmarcelo"
     },
     {
       "sentence_id": "S8102",
@@ -777,9 +828,12 @@
     {
       "sentence_id": "S10103",
       "unit_id": "U10",
-      "french": "Tus amigos están aquí.",
-      "english": "Your friends are here.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Somos tus amigos.",
+      "english": "We're your friends.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #8965653 (Fable's review: Use); was the draft \"Tus amigos están aquí.\"",
+      "source": "tatoeba",
+      "source_id": "8965653",
+      "source_owner": "SirCourgette"
     },
     {
       "sentence_id": "S10104",
@@ -805,16 +859,22 @@
     {
       "sentence_id": "S10107",
       "unit_id": "U10",
-      "french": "Ellas son mis amigas.",
-      "english": "They're my friends.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Mis amigas están aquí.",
+      "english": "My friends are here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #9150938 (Fable's review: Use); was the draft \"Ellas son mis amigas.\"",
+      "source": "tatoeba",
+      "source_id": "9150938",
+      "source_owner": "carlosalberto"
     },
     {
       "sentence_id": "S10108",
       "unit_id": "U10",
-      "french": "Ana y María son amigas.",
-      "english": "Ana and María are friends.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Son amigas.",
+      "english": "They're friends.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #9230630 (Fable's review: Use); was the draft \"Ana y María son amigas.\"",
+      "source": "tatoeba",
+      "source_id": "9230630",
+      "source_owner": "xjjAstrus"
     },
     {
       "sentence_id": "S10109",
@@ -840,9 +900,12 @@
     {
       "sentence_id": "S11101",
       "unit_id": "U11",
-      "french": "Estoy aquí porque estás aquí.",
-      "english": "I'm here because you're here.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "No está aquí porque está enfermo.",
+      "english": "He isn't here because he's ill.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #434953 (Fable's review: Use); was the draft \"Estoy aquí porque estás aquí.\"",
+      "source": "tatoeba",
+      "source_id": "434953",
+      "source_owner": "lukaszpp"
     },
     {
       "sentence_id": "S11102",
@@ -864,9 +927,12 @@
     {
       "sentence_id": "S12101",
       "unit_id": "U12",
-      "french": "Tengo seis libros.",
-      "english": "I have six books.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Seis y cuatro son diez.",
+      "english": "Six plus four equals ten.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #818583 (Fable's review: Use); was the draft \"Tengo seis libros.\"",
+      "source": "tatoeba",
+      "source_id": "818583",
+      "source_owner": "BraveSentry"
     },
     {
       "sentence_id": "S12102",
@@ -878,16 +944,22 @@
     {
       "sentence_id": "S12103",
       "unit_id": "U12",
-      "french": "Ella tiene seis gatos.",
-      "english": "She has six cats.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Tiene un perro y seis gatos.",
+      "english": "He has one dog and six cats.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #747357 (Fable's review: Use); was the draft \"Ella tiene seis gatos.\"",
+      "source": "tatoeba",
+      "source_id": "747357",
+      "source_owner": "chinopinyin"
     },
     {
       "sentence_id": "S12104",
       "unit_id": "U12",
-      "french": "Tengo siete amigos.",
-      "english": "I have seven friends.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Cinco y dos son siete.",
+      "english": "Five plus two equals seven.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #742462 (Fable's review: Use); was the draft \"Tengo siete amigos.\"",
+      "source": "tatoeba",
+      "source_id": "742462",
+      "source_owner": "chinopinyin"
     },
     {
       "sentence_id": "S12105",
@@ -962,16 +1034,22 @@
     {
       "sentence_id": "S12115",
       "unit_id": "U12",
-      "french": "Hay cinco chicas.",
-      "english": "There are five girls.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Ella tiene cinco gatos.",
+      "english": "She has five cats.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #13001625 (Fable's review: Use); was the draft \"Hay cinco chicas.\"",
+      "source": "tatoeba",
+      "source_id": "13001625",
+      "source_owner": "araneo"
     },
     {
       "sentence_id": "S12116",
       "unit_id": "U12",
       "french": "¿Cuántas casas tienes?",
       "english": "How many houses do you have?",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #9002856 (Fable's review: Use); was the draft \"¿Cuántas casas tienes?\"",
+      "source": "tatoeba",
+      "source_id": "9002856",
+      "source_owner": "carlosalberto"
     },
     {
       "sentence_id": "S12117",
@@ -990,9 +1068,12 @@
     {
       "sentence_id": "S13101",
       "unit_id": "U13",
-      "french": "Mi libro es rojo.",
-      "english": "My book is red.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "Su color es rojo.",
+      "english": "Its color is red.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #1289750 (Fable's review: Use); was the draft \"Mi libro es rojo.\"",
+      "source": "tatoeba",
+      "source_id": "1289750",
+      "source_owner": "enteka"
     },
     {
       "sentence_id": "S13103",
@@ -1018,9 +1099,12 @@
     {
       "sentence_id": "S13106",
       "unit_id": "U13",
-      "french": "La casa es amarilla.",
-      "english": "The house is yellow.",
-      "notes": "QT09 answer"
+      "french": "Es una manzana amarilla.",
+      "english": "It's a yellow apple.",
+      "notes": "QT09 answer; swapped 2026-11-10 for Tatoeba #10252997 (Fable's review: Use); was the draft \"La casa es amarilla.\"",
+      "source": "tatoeba",
+      "source_id": "10252997",
+      "source_owner": "carlosalberto"
     },
     {
       "sentence_id": "S13107",
@@ -1056,9 +1140,12 @@
     {
       "sentence_id": "S13111",
       "unit_id": "U13",
-      "french": "Él tiene un perro negro.",
-      "english": "He has a black dog.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "french": "El gato es negro.",
+      "english": "The cat is black.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #1107288 (Fable's review: Use); was the draft \"Él tiene un perro negro.\"",
+      "source": "tatoeba",
+      "source_id": "1107288",
+      "source_owner": "Espi"
     },
     {
       "sentence_id": "S14101",
@@ -1071,8 +1158,11 @@
       "sentence_id": "S14102",
       "unit_id": "U14",
       "french": "¿Qué día de la semana es hoy?",
-      "english": "What day of the week is it today?",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "english": "Which day of the week is it?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #1022368 (Fable's review: Use); was the draft \"¿Qué día de la semana es hoy?\"",
+      "source": "tatoeba",
+      "source_id": "1022368",
+      "source_owner": "arashi_29"
     },
     {
       "sentence_id": "S14103",
@@ -1110,7 +1200,10 @@
       "unit_id": "U14",
       "french": "Mañana es sábado.",
       "english": "Tomorrow is Saturday.",
-      "notes": "draft: Tatoeba had too few checked sentences for this word"
+      "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #9889059 (Fable's review: Use); was the draft \"Mañana es sábado.\"",
+      "source": "tatoeba",
+      "source_id": "9889059",
+      "source_owner": "carlosalberto"
     },
     {
       "sentence_id": "S14108",

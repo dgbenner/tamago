@@ -18226,8 +18226,8 @@
   {
     "sentence_id": "S2110",
     "position": 1,
-    "surface": "Él",
-    "word_id": "W018",
+    "surface": "Cómo",
+    "word_id": "W037",
     "notes": "",
     "hint_override": ""
   },
@@ -18242,16 +18242,8 @@
   {
     "sentence_id": "S2110",
     "position": 3,
-    "surface": "un",
-    "word_id": "W009",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S2110",
-    "position": 4,
-    "surface": "hombre",
-    "word_id": "W011",
+    "surface": "él",
+    "word_id": "W018",
     "notes": "",
     "hint_override": ""
   },
@@ -18396,14 +18388,6 @@
     "position": 1,
     "surface": "Buenas tardes",
     "word_id": "W032",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S3103",
-    "position": 2,
-    "surface": "señora",
-    "word_id": "W179",
     "notes": "",
     "hint_override": ""
   },
@@ -18682,14 +18666,22 @@
   {
     "sentence_id": "S4105",
     "position": 1,
-    "surface": "Ella",
-    "word_id": "W019",
+    "surface": "La",
+    "word_id": "W017",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S4105",
     "position": 2,
+    "surface": "mujer",
+    "word_id": "W012",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4105",
+    "position": 3,
     "surface": "come",
     "word_id": "W045",
     "notes": "",
@@ -18697,7 +18689,7 @@
   },
   {
     "sentence_id": "S4105",
-    "position": 3,
+    "position": 4,
     "surface": "una",
     "word_id": "W010",
     "notes": "",
@@ -18705,7 +18697,7 @@
   },
   {
     "sentence_id": "S4105",
-    "position": 4,
+    "position": 5,
     "surface": "naranja",
     "word_id": "W057",
     "notes": "",
@@ -18762,32 +18754,32 @@
   {
     "sentence_id": "S5102",
     "position": 1,
-    "surface": "El",
-    "word_id": "W016",
+    "surface": "Cómo",
+    "word_id": "W037",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S5102",
     "position": 2,
-    "surface": "pájaro",
-    "word_id": "W065",
+    "surface": "está",
+    "word_id": "W040",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S5102",
     "position": 3,
-    "surface": "es",
-    "word_id": "W020",
+    "surface": "el",
+    "word_id": "W016",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S5102",
     "position": 4,
-    "surface": "pequeño",
-    "word_id": "W027",
+    "surface": "pájaro",
+    "word_id": "W065",
     "notes": "",
     "hint_override": ""
   },
@@ -18986,22 +18978,14 @@
   {
     "sentence_id": "S5110",
     "position": 1,
-    "surface": "El",
-    "word_id": "W016",
+    "surface": "Esto",
+    "word_id": "W180",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S5110",
     "position": 2,
-    "surface": "ratón",
-    "word_id": "W068",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S5110",
-    "position": 3,
     "surface": "es",
     "word_id": "W020",
     "notes": "",
@@ -19009,30 +18993,6 @@
   },
   {
     "sentence_id": "S5110",
-    "position": 4,
-    "surface": "pequeño",
-    "word_id": "W027",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S5111",
-    "position": 1,
-    "surface": "Ella",
-    "word_id": "W019",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S5111",
-    "position": 2,
-    "surface": "tiene",
-    "word_id": "W061",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S5111",
     "position": 3,
     "surface": "un",
     "word_id": "W009",
@@ -19040,8 +19000,48 @@
     "hint_override": ""
   },
   {
+    "sentence_id": "S5110",
+    "position": 4,
+    "surface": "ratón",
+    "word_id": "W068",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5111",
+    "position": 1,
+    "surface": "La",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5111",
+    "position": 2,
+    "surface": "niña",
+    "word_id": "W014",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5111",
+    "position": 3,
+    "surface": "tiene",
+    "word_id": "W061",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S5111",
     "position": 4,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5111",
+    "position": 5,
     "surface": "ratón",
     "word_id": "W068",
     "notes": "",
@@ -19970,30 +19970,14 @@
   {
     "sentence_id": "S8101",
     "position": 1,
-    "surface": "El",
-    "word_id": "W016",
+    "surface": "Estoy",
+    "word_id": "W038",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S8101",
     "position": 2,
-    "surface": "gato",
-    "word_id": "W063",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S8101",
-    "position": 3,
-    "surface": "está",
-    "word_id": "W040",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S8101",
-    "position": 4,
     "surface": "en",
     "word_id": "W102",
     "notes": "",
@@ -20001,7 +19985,7 @@
   },
   {
     "sentence_id": "S8101",
-    "position": 5,
+    "position": 3,
     "surface": "la",
     "word_id": "W017",
     "notes": "",
@@ -20009,7 +19993,7 @@
   },
   {
     "sentence_id": "S8101",
-    "position": 6,
+    "position": 4,
     "surface": "cama",
     "word_id": "W104",
     "notes": "",
@@ -20362,32 +20346,24 @@
   {
     "sentence_id": "S10103",
     "position": 1,
-    "surface": "Tus",
-    "word_id": "W120",
+    "surface": "Somos",
+    "word_id": "W078",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10103",
     "position": 2,
-    "surface": "amigos",
-    "word_id": "W194",
+    "surface": "tus",
+    "word_id": "W120",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10103",
     "position": 3,
-    "surface": "están",
-    "word_id": "W098",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S10103",
-    "position": 4,
-    "surface": "aquí",
-    "word_id": "W021",
+    "surface": "amigos",
+    "word_id": "W194",
     "notes": "",
     "hint_override": ""
   },
@@ -20490,70 +20466,46 @@
   {
     "sentence_id": "S10107",
     "position": 1,
-    "surface": "Ellas",
-    "word_id": "W077",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S10107",
-    "position": 2,
-    "surface": "son",
-    "word_id": "W079",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S10107",
-    "position": 3,
-    "surface": "mis",
+    "surface": "Mis",
     "word_id": "W118",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10107",
-    "position": 4,
+    "position": 2,
     "surface": "amigas",
     "word_id": "W195",
     "notes": "",
     "hint_override": ""
   },
   {
-    "sentence_id": "S10108",
-    "position": 1,
-    "surface": "Ana",
-    "word_id": "",
-    "notes": "name",
+    "sentence_id": "S10107",
+    "position": 3,
+    "surface": "están",
+    "word_id": "W098",
+    "notes": "",
     "hint_override": ""
   },
   {
-    "sentence_id": "S10108",
-    "position": 2,
-    "surface": "y",
-    "word_id": "W015",
+    "sentence_id": "S10107",
+    "position": 4,
+    "surface": "aquí",
+    "word_id": "W021",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10108",
-    "position": 3,
-    "surface": "María",
-    "word_id": "",
-    "notes": "name",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S10108",
-    "position": 4,
-    "surface": "son",
+    "position": 1,
+    "surface": "Son",
     "word_id": "W079",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10108",
-    "position": 5,
+    "position": 2,
     "surface": "amigas",
     "word_id": "W195",
     "notes": "",
@@ -20650,14 +20602,22 @@
   {
     "sentence_id": "S11101",
     "position": 1,
-    "surface": "Estoy",
-    "word_id": "W038",
+    "surface": "No",
+    "word_id": "W004",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11101",
     "position": 2,
+    "surface": "está",
+    "word_id": "W040",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11101",
+    "position": 3,
     "surface": "aquí",
     "word_id": "W021",
     "notes": "",
@@ -20665,7 +20625,7 @@
   },
   {
     "sentence_id": "S11101",
-    "position": 3,
+    "position": 4,
     "surface": "porque",
     "word_id": "W132",
     "notes": "",
@@ -20673,17 +20633,17 @@
   },
   {
     "sentence_id": "S11101",
-    "position": 4,
-    "surface": "estás",
-    "word_id": "W039",
+    "position": 5,
+    "surface": "está",
+    "word_id": "W040",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11101",
-    "position": 5,
-    "surface": "aquí",
-    "word_id": "W021",
+    "position": 6,
+    "surface": "enfermo",
+    "word_id": "W111",
     "notes": "",
     "hint_override": ""
   },
@@ -20754,24 +20714,40 @@
   {
     "sentence_id": "S12101",
     "position": 1,
-    "surface": "Tengo",
-    "word_id": "W059",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S12101",
-    "position": 2,
-    "surface": "seis",
+    "surface": "Seis",
     "word_id": "W137",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S12101",
+    "position": 2,
+    "surface": "y",
+    "word_id": "W015",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12101",
     "position": 3,
-    "surface": "libros",
-    "word_id": "W080",
+    "surface": "cuatro",
+    "word_id": "W135",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12101",
+    "position": 4,
+    "surface": "son",
+    "word_id": "W079",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12101",
+    "position": 5,
+    "surface": "diez",
+    "word_id": "W141",
     "notes": "",
     "hint_override": ""
   },
@@ -20802,22 +20778,38 @@
   {
     "sentence_id": "S12103",
     "position": 1,
-    "surface": "Ella",
-    "word_id": "W019",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S12103",
-    "position": 2,
-    "surface": "tiene",
+    "surface": "Tiene",
     "word_id": "W061",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S12103",
+    "position": 2,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12103",
     "position": 3,
+    "surface": "perro",
+    "word_id": "W062",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12103",
+    "position": 4,
+    "surface": "y",
+    "word_id": "W015",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12103",
+    "position": 5,
     "surface": "seis",
     "word_id": "W137",
     "notes": "",
@@ -20825,7 +20817,7 @@
   },
   {
     "sentence_id": "S12103",
-    "position": 4,
+    "position": 6,
     "surface": "gatos",
     "word_id": "W082",
     "notes": "",
@@ -20834,24 +20826,40 @@
   {
     "sentence_id": "S12104",
     "position": 1,
-    "surface": "Tengo",
-    "word_id": "W059",
+    "surface": "Cinco",
+    "word_id": "W136",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S12104",
     "position": 2,
-    "surface": "siete",
-    "word_id": "W138",
+    "surface": "y",
+    "word_id": "W015",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S12104",
     "position": 3,
-    "surface": "amigos",
-    "word_id": "W194",
+    "surface": "dos",
+    "word_id": "W133",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12104",
+    "position": 4,
+    "surface": "son",
+    "word_id": "W079",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12104",
+    "position": 5,
+    "surface": "siete",
+    "word_id": "W138",
     "notes": "",
     "hint_override": ""
   },
@@ -21130,14 +21138,22 @@
   {
     "sentence_id": "S12115",
     "position": 1,
-    "surface": "Hay",
-    "word_id": "W100",
+    "surface": "Ella",
+    "word_id": "W019",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S12115",
     "position": 2,
+    "surface": "tiene",
+    "word_id": "W061",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12115",
+    "position": 3,
     "surface": "cinco",
     "word_id": "W136",
     "notes": "",
@@ -21145,9 +21161,9 @@
   },
   {
     "sentence_id": "S12115",
-    "position": 3,
-    "surface": "chicas",
-    "word_id": "W192",
+    "position": 4,
+    "surface": "gatos",
+    "word_id": "W082",
     "notes": "",
     "hint_override": ""
   },
@@ -21234,16 +21250,16 @@
   {
     "sentence_id": "S13101",
     "position": 1,
-    "surface": "Mi",
-    "word_id": "W117",
+    "surface": "Su",
+    "word_id": "W121",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13101",
     "position": 2,
-    "surface": "libro",
-    "word_id": "W022",
+    "surface": "color",
+    "word_id": "W154",
     "notes": "",
     "hint_override": ""
   },
@@ -21362,24 +21378,24 @@
   {
     "sentence_id": "S13106",
     "position": 1,
-    "surface": "La",
-    "word_id": "W017",
+    "surface": "Es",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13106",
     "position": 2,
-    "surface": "casa",
-    "word_id": "W025",
+    "surface": "una",
+    "word_id": "W010",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13106",
     "position": 3,
-    "surface": "es",
-    "word_id": "W020",
+    "surface": "manzana",
+    "word_id": "W056",
     "notes": "",
     "hint_override": ""
   },
@@ -21530,38 +21546,30 @@
   {
     "sentence_id": "S13111",
     "position": 1,
-    "surface": "Él",
-    "word_id": "W018",
+    "surface": "El",
+    "word_id": "W016",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13111",
     "position": 2,
-    "surface": "tiene",
-    "word_id": "W061",
+    "surface": "gato",
+    "word_id": "W063",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13111",
     "position": 3,
-    "surface": "un",
-    "word_id": "W009",
+    "surface": "es",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13111",
     "position": 4,
-    "surface": "perro",
-    "word_id": "W062",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S13111",
-    "position": 5,
     "surface": "negro",
     "word_id": "W148",
     "notes": "",

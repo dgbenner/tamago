@@ -1,6 +1,6 @@
 # Pictures for Pick the Picture
 
-November 10, 2026. Every A1 word in French and Spanish that can be pictured (people, food, animals, objects, colours, places, weather). 26 rows still need a picture, most-used first; the 74 already in lessons are at the end. Language says who can use the picture: Shared (any course; nearly all of them, even where only one course has the word so far), French or Spanish (food and culture items stay with their own language: croissant is French). A Spanish word on a French row uses that row's picture.
+November 10, 2026. Every A1 word in French and Spanish that can be pictured (people, food, animals, objects, colours, places, weather). 24 rows still need a picture, most-used first; the 76 already in lessons are at the end. Language says who can use the picture: Shared (any course; nearly all of them, even where only one course has the word so far), French or Spanish (food and culture items stay with their own language: croissant is French). A Spanish word on a French row uses that row's picture.
 
 Left out on purpose: verbs, numbers, days and times, and words a picture can’t tell apart from another in the same set (mère, père, frère, sœur, fils, parents, patron; chambre; chanson; temps, travail, animal). Size and quality adjectives need two pictures to compare, which Pick the Picture doesn’t do.
 
@@ -25,52 +25,52 @@ Subject: <description from the table>
 
 | # | French | Spanish | English | File | What to draw | Language | Priority | Sentences | Unit | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | enfants | niños | children | enfants.png | two young children standing side by side | Shared | High | 23 | Unit 2 |  |
-| 2 | enfant |  | child | enfant.png | one young child, head and shoulders | Shared | High | 10 | Unit 1 | replaces the OpenMoji stand-in |
-| 3 |  | estudiante | student | es-estudiante.png | a young student with a backpack and a notebook | Shared | Medium | 8 | Spanish Unit 9 | Spanish word only, so far |
-| 4 |  | profesor | teacher (man) | es-profesor.png | a male teacher in front of a blackboard with chalk squiggles (no letters) | Shared | Medium | 5 | Spanish Unit 9 | Spanish word only, so far |
-| 5 | orange | naranja | orange | orange.png | one orange fruit with a leaf | Shared | Low | 4 | Unit 4 | replaces the OpenMoji stand-in |
-| 6 |  | profesora | teacher (woman) | es-profesora.png | a female teacher in front of a blackboard with chalk squiggles (no letters) | Shared | Low | 4 | Spanish Unit 9 | Spanish word only, so far |
-| 7 |  | baño | bathroom | es-bano.png | a small bathroom: a bathtub, a sink and a towel | Shared | Low | 3 | Spanish Unit 8 | Spanish word only, so far |
-| 8 | fenêtre |  | window | fenetre.png | a window with four panes and open curtains | Shared | Low | 3 | At Home (topic) |  |
-| 9 | guitare |  | guitar | guitare.png | an acoustic guitar | Shared | Low | 3 | Music and Songs (topic) |  |
-| 10 | hôpital |  | hospital | hopital.png | a hospital building with a red cross on the front (no words) | Shared | Low | 3 | At the Doctor (topic) |  |
-| 11 | médecins |  | doctors | medecins.png | two doctors in white coats side by side | Shared | Low | 3 | At the Doctor (topic) |  |
-| 12 | mer |  | sea | mer.png | open sea with waves, a strip of sky, no land | Shared | Low | 3 | At the Beach (topic) |  |
-| 13 | musique |  | music | musique.png | two musical notes | Shared | Low | 3 | Music and Songs (topic) |  |
-| 14 | neige |  | snow | neige.png | snowflakes falling over a snowy ground | Shared | Low | 3 | The Weather (topic) |  |
-| 15 | œuf |  | egg | oeuf.png | one brown egg | Shared | Low | 3 | At the Supermarket (topic) |  |
-| 16 | œufs |  | eggs | oeufs.png | three brown eggs together | Shared | Low | 3 | At the Supermarket (topic) |  |
-| 17 | piano |  | piano | piano.png | an upright piano | Shared | Low | 3 | Music and Songs (topic) |  |
-| 18 | plage |  | beach | plage.png | a beach with sand, sea and a parasol | Shared | Low | 3 | At the Beach (topic) |  |
-| 19 | porte | puerta | door | porte.png | a closed wooden front door with a handle | Shared | Low | 3 | At Home (topic) |  |
-| 20 | poulet |  | chicken | poulet.png | a roast chicken on a plate | Shared | Low | 3 | At the Supermarket (topic) |  |
-| 21 | riz |  | rice | riz.png | a bowl of white rice | Shared | Low | 3 | At the Supermarket (topic) |  |
-| 22 | sable |  | sand | sable.png | a small heap of sand with a bucket and spade | Shared | Low | 3 | At the Beach (topic) |  |
-| 23 | soleil |  | sun | soleil.png | a bright yellow sun with rays | Shared | Low | 3 | The Weather (topic) |  |
-| 24 | stylo |  | pen | stylo.png | one ballpoint pen | Shared | Low | 3 | At the Office (topic) |  |
-| 25 | tasse |  | cup | tasse.png | an empty cup on a saucer, seen from the side | Shared | Low | 3 | At the Café (topic) |  |
-| 26 | tomate |  | tomato | tomate.png | one red tomato with its green stalk | Shared | Low | 3 | At the Supermarket (topic) |  |
-| 27 | maison | casa | house | maison.png | a small house with a red roof, a door and two windows | Shared | High | 25 | At Home (topic) | done: in lessons |
-| 28 | chien | perro | dog | chien.png | a friendly brown dog sitting, seen from the side | Shared | High | 22 | Unit 5 | done: in lessons |
-| 29 | chat | gato | cat | chat.png | one ginger cat sitting | Shared | High | 20 | Unit 5 | done: in lessons |
-| 30 | pomme | manzana | apple | pomme.png | one red apple with a leaf | Shared | High | 20 | Unit 4 | done: in lessons |
-| 31 | livre | libro | book | livre.png | one closed hardback book, red cover, no title | Shared | High | 19 | Unit 2 | done: in lessons |
-| 32 | pain | pan | bread | pain.png | a French baguette and a round loaf | Shared | High | 18 | Unit 4 | done: in lessons |
-| 33 | livres | libros | books | livres.png | a small stack of three books, no titles | Shared | High | 17 | Unit 6 | done: in lessons |
-| 34 | chats | gatos | cats | chats.png | two cats sitting together | Shared | High | 16 | Unit 6 | done: in lessons |
-| 35 | femme | mujer | woman | femme.png | a woman, head and shoulders, plain top | Shared | High | 16 | Unit 1 | done: in lessons |
-| 36 | thé | té | tea | the.png | a cup of tea with a tea bag string over the side | Shared | High | 15 | At the Café (topic) | done: in lessons |
-| 37 | garçon | niño | boy | garcon.png | a boy of about eight, head and shoulders | Shared | High | 14 | Unit 1 | done: in lessons |
-| 38 | lait | leche | milk | lait.png | a glass of milk beside a milk carton (no label text) | Shared | High | 14 | Unit 4 | done: in lessons |
-| 39 | ami | amigo | friend (male) | ami.png | two young men side by side, one arm around the other’s shoulder | Shared | High | 13 | Unit 8 | done: in lessons |
-| 40 | homme | hombre | man | homme.png | a man, head and shoulders, plain top | Shared | High | 13 | Unit 1 | done: in lessons |
-| 41 | lettre | carta | letter | lettre.png | a sealed paper envelope | Shared | High | 13 | Unit 2 | done: in lessons |
-| 42 | chiens | perros | dogs | chiens.png | two dogs side by side | Shared | High | 12 | Unit 6 | done: in lessons |
-| 43 | amie | amiga | friend (female) | amie.png | two young women side by side, smiling, one arm around the other’s shoulder | Shared | High | 11 | Unit 8 | done: in lessons |
-| 44 | souris | ratón | mouse | souris.png | a small grey mouse with a long tail | Shared | High | 11 | Unit 5 | done: in lessons |
-| 45 | blanc | blanco, blanca | white | blanc.png | a glossy white circle, like a paint swatch, with a light grey outline so it shows | Shared | High | 10 | Unit 11 | done: in lessons |
-| 46 | cheval | caballo | horse | cheval.png | a brown horse standing, seen from the side | Shared | High | 10 | Unit 5 | done: in lessons |
+| 1 |  | estudiante | student | es-estudiante.png | a young student with a backpack and a notebook | Shared | Medium | 8 | Spanish Unit 9 | Spanish word only, so far |
+| 2 |  | profesor | teacher (man) | es-profesor.png | a male teacher in front of a blackboard with chalk squiggles (no letters) | Shared | Medium | 5 | Spanish Unit 9 | Spanish word only, so far |
+| 3 | orange | naranja | orange | orange.png | one orange fruit with a leaf | Shared | Low | 4 | Unit 4 | replaces the OpenMoji stand-in |
+| 4 |  | profesora | teacher (woman) | es-profesora.png | a female teacher in front of a blackboard with chalk squiggles (no letters) | Shared | Low | 4 | Spanish Unit 9 | Spanish word only, so far |
+| 5 |  | baño | bathroom | es-bano.png | a small bathroom: a bathtub, a sink and a towel | Shared | Low | 3 | Spanish Unit 8 | Spanish word only, so far |
+| 6 | fenêtre |  | window | fenetre.png | a window with four panes and open curtains | Shared | Low | 3 | At Home (topic) |  |
+| 7 | guitare |  | guitar | guitare.png | an acoustic guitar | Shared | Low | 3 | Music and Songs (topic) |  |
+| 8 | hôpital |  | hospital | hopital.png | a hospital building with a red cross on the front (no words) | Shared | Low | 3 | At the Doctor (topic) |  |
+| 9 | médecins |  | doctors | medecins.png | two doctors in white coats side by side | Shared | Low | 3 | At the Doctor (topic) |  |
+| 10 | mer |  | sea | mer.png | open sea with waves, a strip of sky, no land | Shared | Low | 3 | At the Beach (topic) |  |
+| 11 | musique |  | music | musique.png | two musical notes | Shared | Low | 3 | Music and Songs (topic) |  |
+| 12 | neige |  | snow | neige.png | snowflakes falling over a snowy ground | Shared | Low | 3 | The Weather (topic) |  |
+| 13 | œuf |  | egg | oeuf.png | one brown egg | Shared | Low | 3 | At the Supermarket (topic) |  |
+| 14 | œufs |  | eggs | oeufs.png | three brown eggs together | Shared | Low | 3 | At the Supermarket (topic) |  |
+| 15 | piano |  | piano | piano.png | an upright piano | Shared | Low | 3 | Music and Songs (topic) |  |
+| 16 | plage |  | beach | plage.png | a beach with sand, sea and a parasol | Shared | Low | 3 | At the Beach (topic) |  |
+| 17 | porte | puerta | door | porte.png | a closed wooden front door with a handle | Shared | Low | 3 | At Home (topic) |  |
+| 18 | poulet |  | chicken | poulet.png | a roast chicken on a plate | Shared | Low | 3 | At the Supermarket (topic) |  |
+| 19 | riz |  | rice | riz.png | a bowl of white rice | Shared | Low | 3 | At the Supermarket (topic) |  |
+| 20 | sable |  | sand | sable.png | a small heap of sand with a bucket and spade | Shared | Low | 3 | At the Beach (topic) |  |
+| 21 | soleil |  | sun | soleil.png | a bright yellow sun with rays | Shared | Low | 3 | The Weather (topic) |  |
+| 22 | stylo |  | pen | stylo.png | one ballpoint pen | Shared | Low | 3 | At the Office (topic) |  |
+| 23 | tasse |  | cup | tasse.png | an empty cup on a saucer, seen from the side | Shared | Low | 3 | At the Café (topic) |  |
+| 24 | tomate |  | tomato | tomate.png | one red tomato with its green stalk | Shared | Low | 3 | At the Supermarket (topic) |  |
+| 25 | maison | casa | house | maison.png | a small house with a red roof, a door and two windows | Shared | High | 24 | At Home (topic) | done: in lessons |
+| 26 | enfants | niños | children | enfants.png | two young children standing side by side | Shared | High | 23 | Unit 2 | done: in lessons |
+| 27 | chien | perro | dog | chien.png | a friendly brown dog sitting, seen from the side | Shared | High | 22 | Unit 5 | done: in lessons |
+| 28 | chat | gato | cat | chat.png | one ginger cat sitting | Shared | High | 20 | Unit 5 | done: in lessons |
+| 29 | pomme | manzana | apple | pomme.png | one red apple with a leaf | Shared | High | 20 | Unit 4 | done: in lessons |
+| 30 | livre | libro | book | livre.png | one closed hardback book, red cover, no title | Shared | High | 19 | Unit 2 | done: in lessons |
+| 31 | pain | pan | bread | pain.png | a French baguette and a round loaf | Shared | High | 18 | Unit 4 | done: in lessons |
+| 32 | chats | gatos | cats | chats.png | two cats sitting together | Shared | High | 16 | Unit 6 | done: in lessons |
+| 33 | femme | mujer | woman | femme.png | a woman, head and shoulders, plain top | Shared | High | 16 | Unit 1 | done: in lessons |
+| 34 | livres | libros | books | livres.png | a small stack of three books, no titles | Shared | High | 16 | Unit 6 | done: in lessons |
+| 35 | thé | té | tea | the.png | a cup of tea with a tea bag string over the side | Shared | High | 15 | At the Café (topic) | done: in lessons |
+| 36 | garçon | niño | boy | garcon.png | a boy of about eight, head and shoulders | Shared | High | 14 | Unit 1 | done: in lessons |
+| 37 | lait | leche | milk | lait.png | a glass of milk beside a milk carton (no label text) | Shared | High | 14 | Unit 4 | done: in lessons |
+| 38 | ami | amigo | friend (male) | ami.png | two young men side by side, one arm around the other’s shoulder | Shared | High | 13 | Unit 8 | done: in lessons |
+| 39 | homme | hombre | man | homme.png | a man, head and shoulders, plain top | Shared | High | 13 | Unit 1 | done: in lessons |
+| 40 | lettre | carta | letter | lettre.png | a sealed paper envelope | Shared | High | 13 | Unit 2 | done: in lessons |
+| 41 | chiens | perros | dogs | chiens.png | two dogs side by side | Shared | High | 12 | Unit 6 | done: in lessons |
+| 42 | amie | amiga | friend (female) | amie.png | two young women side by side, smiling, one arm around the other’s shoulder | Shared | High | 11 | Unit 8 | done: in lessons |
+| 43 | souris | ratón | mouse | souris.png | a small grey mouse with a long tail | Shared | High | 11 | Unit 5 | done: in lessons |
+| 44 | blanc | blanco, blanca | white | blanc.png | a glossy white circle, like a paint swatch, with a light grey outline so it shows | Shared | High | 10 | Unit 11 | done: in lessons |
+| 45 | cheval | caballo | horse | cheval.png | a brown horse standing, seen from the side | Shared | High | 10 | Unit 5 | done: in lessons |
+| 46 | enfant |  | child | enfant.png | one young child, head and shoulders | Shared | High | 10 | Unit 1 | done: in lessons |
 | 47 | froid |  | cold | froid.png | a thermometer showing low, blue, beside a snowflake | Shared | High | 10 | The Weather (topic) | done: in lessons |
 | 48 | eau | agua | water | eau.png | a clear glass of water | Shared | Medium | 9 | Unit 4 | done: in lessons |
 | 49 | école | escuela | school | ecole.png | a small school building with a bell and a flag pole (no flag, no words) | Shared | Medium | 9 | Unit 13 | done: in lessons |
