@@ -27,6 +27,11 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md: 44 sentences, 30 checked Tatoeba and 14 drafts, every word in 3 or more; reviewed in content-es/sweep/packs-review.json"
+    },
+    "U06": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 56 sentences, 30 checked Tatoeba and 26 drafts (Tatoeba's checked plurals within these words are few), every word in 3 or more; reviewed in content-es/sweep/packs-review.json"
     }
   },
   "cut_sentences": [],
@@ -353,6 +358,42 @@
     },
     "W183": {
       "hint": "this (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W185": {
+      "hint": "big (plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W186": {
+      "hint": "small (plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W187": {
+      "hint": "small (feminine plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W188": {
+      "hint": "they have (tener)",
+      "source": "short form of Wiktionary"
+    },
+    "W189": {
+      "hint": "they eat (comer)",
+      "source": "short form of Wiktionary"
+    },
+    "W190": {
+      "hint": "they drink (beber)",
+      "source": "short form of Wiktionary"
+    },
+    "W191": {
+      "hint": "boys",
+      "source": "short form of Wiktionary"
+    },
+    "W192": {
+      "hint": "girls",
+      "source": "short form of Wiktionary"
+    },
+    "W193": {
+      "hint": "houses",
       "source": "short form of Wiktionary"
     }
   },

@@ -392,6 +392,22 @@
     "status": "live"
   },
   {
+    "answer_id": "A60121",
+    "sentence_id": "S6012",
+    "direction": "fr_to_en",
+    "answer": "They are big.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A60211",
+    "sentence_id": "S6021",
+    "direction": "fr_to_en",
+    "answer": "Milk doesn't please me.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
     "answer_id": "GS1101-461028",
     "sentence_id": "S1101",
     "direction": "en_to_fr",
@@ -430,5 +446,35 @@
     "source_id": "1448331",
     "status": "live",
     "source_owner": "peibolvig"
+  },
+  {
+    "answer_id": "GS6106-2174584",
+    "sentence_id": "S6106",
+    "direction": "en_to_fr",
+    "answer": "Tengo algunos libros.",
+    "source": "tatoeba",
+    "source_id": "2174584",
+    "status": "live",
+    "source_owner": "marcelostockle"
+  },
+  {
+    "answer_id": "GS6111-1397026",
+    "sentence_id": "S6111",
+    "direction": "en_to_fr",
+    "answer": "Somos hombres.",
+    "source": "tatoeba",
+    "source_id": "1397026",
+    "status": "live",
+    "source_owner": "hayastan"
+  },
+  {
+    "answer_id": "GS6112-5098314",
+    "sentence_id": "S6112",
+    "direction": "en_to_fr",
+    "answer": "Somos mujeres.",
+    "source": "tatoeba",
+    "source_id": "5098314",
+    "status": "live",
+    "source_owner": "don_ramon"
   }
 ]

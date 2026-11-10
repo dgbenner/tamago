@@ -35,6 +35,13 @@
       "example_sentence_ids": "S5004;S5002;S5027",
       "conjugation_lemma": "tener",
       "status": "live"
+    },
+    {
+      "unit_id": "U06",
+      "rule": "For more than one, el becomes los and la becomes las; un becomes unos and una becomes unas (some). Most nouns add -s (libros, casas); a noun ending in a consonant adds -es (mujeres). Adjectives follow: grandes, pequeños. Ser has somos (we are) and son (they are, and ustedes are). In Latin America ustedes is the only you for more than one person, friends or strangers.",
+      "example_sentence_ids": "S6002;S6005;S6101",
+      "conjugation_lemma": "ser",
+      "status": "live"
     }
   ]
 }

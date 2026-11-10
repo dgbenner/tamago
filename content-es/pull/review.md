@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U05 Pets and Animals: tener in the present: tengo, tienes, tiene
+## U06 More Than One: Plurals: los, las, unos, unas; nouns add -s or -es; somos and son; ustedes, not vosotros
 
-30 sentences picked from 71 candidates (target 30 to 40). Grammar point in 29 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 55 candidates (target 30 to 40). Grammar point in 15 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): tengo 3, tienes 5, tiene 13, es 8.
+Contrast forms, sentences each (target 2): el 3, los 1, la 2, las 0, un 2, unos 0, somos 2, son 7.
 
-**Gaps (P08)**, fewer than 3 usable sentences: pájaro (1), pato (0), tortuga (0), ratón (0), animal (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: los (1), las (0), unos (0), unas (0), nosotros (0), ellas (1), somos (2), libros (1), perros (0), gatos (1), manzanas (1), hombres (1), mujeres (1), grandes (1), pequeños (2), pequeñas (0), beben (1), chicos (2), chicas (0), casas (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S5001 | Tengo un gato y un perro. | I have a cat and a dog. |  | [#454990](https://tatoeba.org/en/sentences/show/454990) | Shishir |
-| S5002 | ¿Tiene usted un perro? | Do you have a dog? |  | [#1196716](https://tatoeba.org/en/sentences/show/1196716) | cueyayotl |
-| S5003 | ¿Tiene Tom un gato? | Does Tom have a cat? | Has Tom got a cat? | [#4344977](https://tatoeba.org/en/sentences/show/4344977) | pchamorro |
-| S5004 | Tengo un gato. | I have a cat. |  | [#4587632](https://tatoeba.org/en/sentences/show/4587632) | cueyayotl |
-| S5005 | Tiene un perro. | He has a dog. | She has a dog. | [#5051233](https://tatoeba.org/en/sentences/show/5051233) | don_ramon |
-| S5006 | ¿Tienes casa? | Do you have a house? |  | [#3864978](https://tatoeba.org/en/sentences/show/3864978) | cueyayotl |
-| S5007 | ¿Tienes un libro? | Do you have a book? |  | [#2709190](https://tatoeba.org/en/sentences/show/2709190) | cueyayotl |
-| S5008 | ¿Es un pájaro? | Is it a bird? |  | [#3203236](https://tatoeba.org/en/sentences/show/3203236) | cueyayotl |
-| S5009 | Esto es un caballo. | This is a horse. |  | [#1054322](https://tatoeba.org/en/sentences/show/1054322) | hayastan |
-| S5010 | ¿Tienes el libro? | Do you have the book? |  | [#3527543](https://tatoeba.org/en/sentences/show/3527543) | cueyayotl |
-| S5011 | Este hombre tiene un caballo. | This man has a horse. |  | [#943893](https://tatoeba.org/en/sentences/show/943893) | marcelostockle |
-| S5012 | El niño tiene un caballo. | The boy has a horse. |  | [#3191656](https://tatoeba.org/en/sentences/show/3191656) | cueyayotl |
-| S5013 | Tengo una manzana. | I have an apple. |  | [#4528681](https://tatoeba.org/en/sentences/show/4528681) | Shishir |
-| S5014 | El hombre es un animal. | Man is an animal. |  | [#11827763](https://tatoeba.org/en/sentences/show/11827763) | Seael |
-| S5015 | ¿Tom tiene un gato? | Does Tom have a cat? | Has Tom got a cat? | [#5319587](https://tatoeba.org/en/sentences/show/5319587) | Shishir |
-| S5016 | ¿Tiene casa? | Do you have a house? |  | [#5087453](https://tatoeba.org/en/sentences/show/5087453) | cueyayotl |
-| S5017 | ¿Tienes una casa? | Do you have a house? |  | [#3864979](https://tatoeba.org/en/sentences/show/3864979) | cueyayotl |
-| S5018 | ¿Es un perro? | Is this a dog? |  | [#5227203](https://tatoeba.org/en/sentences/show/5227203) | cueyayotl |
-| S5019 | ¿Eso es un gato? | Is that a cat? |  | [#623882](https://tatoeba.org/en/sentences/show/623882) | Shishir |
-| S5020 | ¿Tienes una casa grande? | Do you have a big house? |  | [#1173900](https://tatoeba.org/en/sentences/show/1173900) | Shishir |
-| S5021 | ¿Es eso un gato? | Is that a cat? |  | [#1689497](https://tatoeba.org/en/sentences/show/1689497) | termito2nd |
-| S5022 | ¿Cómo está el perro? | How's the dog? |  | [#2002091](https://tatoeba.org/en/sentences/show/2002091) | Shishir |
-| S5023 | ¿Tiene usted un libro? | Do you have a book? |  | [#3695847](https://tatoeba.org/en/sentences/show/3695847) | PFO |
-| S5024 | ¿Tiene usted una casa? | Do you have a house? |  | [#3867257](https://tatoeba.org/en/sentences/show/3867257) | cueyayotl |
-| S5025 | ¿Esto es leche? | Is this milk? |  | [#10044306](https://tatoeba.org/en/sentences/show/10044306) | manufrutos |
-| S5026 | Él tiene un perro. | He has a dog. |  | [#377225](https://tatoeba.org/en/sentences/show/377225) | hayastan |
-| S5027 | Tom no tiene gato. | Tom doesn't have a cat. |  | [#1451245](https://tatoeba.org/en/sentences/show/1451245) | Shishir |
-| S5028 | Ella tiene un gato. | She has one cat. |  | [#1580386](https://tatoeba.org/en/sentences/show/1580386) | marcelostockle |
-| S5029 | Tom no tiene un gato. | Tom doesn't have a cat. |  | [#1433289](https://tatoeba.org/en/sentences/show/1433289) | marcelostockle |
-| S5030 | No es un gato. Es un perro. | That's not a cat. That's a dog. |  | [#475645](https://tatoeba.org/en/sentences/show/475645) | Shishir |
+| S6001 | Los niños tienen un perro. | The children have a dog. |  | [#13949966](https://tatoeba.org/en/sentences/show/13949966) | ecorralest101 |
+| S6002 | Ustedes son niños. | You are children. |  | [#1222327](https://tatoeba.org/en/sentences/show/1222327) | marcelostockle |
+| S6003 | Ellos son chicos. | They're boys. |  | [#6600045](https://tatoeba.org/en/sentences/show/6600045) | arh |
+| S6004 | No son niños pequeños. | They are not little children. |  | [#10191913](https://tatoeba.org/en/sentences/show/10191913) | Shishir |
+| S6005 | Somos hombres. | We are men. |  | [#1397026](https://tatoeba.org/en/sentences/show/1397026) | hayastan |
+| S6006 | Somos mujeres. | We are women. |  | [#5098314](https://tatoeba.org/en/sentences/show/5098314) | don_ramon |
+| S6007 | Ellos tienen el caballo. | They have the horse. |  | [#1498577](https://tatoeba.org/en/sentences/show/1498577) | marcelostockle |
+| S6008 | Ustedes comen. | You eat. |  | [#3845178](https://tatoeba.org/en/sentences/show/3845178) | cueyayotl |
+| S6009 | Ellos comen. | They eat. |  | [#3845190](https://tatoeba.org/en/sentences/show/3845190) | cueyayotl |
+| S6010 | Ellas comen. | They eat. |  | [#3845191](https://tatoeba.org/en/sentences/show/3845191) | cueyayotl |
+| S6011 | Ustedes tienen agua. | You have water. |  | [#5683016](https://tatoeba.org/en/sentences/show/5683016) | baudelaire |
+| S6012 | Son grandes. | They're big. | They are big. | [#2189671](https://tatoeba.org/en/sentences/show/2189671) | Shishir |
+| S6013 | Son chicos. | They're boys. |  | [#6600044](https://tatoeba.org/en/sentences/show/6600044) | arh |
+| S6014 | Son pequeños. | They're small. |  | [#6682464](https://tatoeba.org/en/sentences/show/6682464) | arh |
+| S6015 | ¿Tienes manzanas? | Do you have any apples? |  | [#1063171](https://tatoeba.org/en/sentences/show/1063171) | Shishir |
+| S6016 | ¿Tienes gatos? | Do you have cats? |  | [#9006431](https://tatoeba.org/en/sentences/show/9006431) | Shishir |
+| S6017 | Ellos beben leche. | They drink milk. |  | [#8799097](https://tatoeba.org/en/sentences/show/8799097) | Shishir |
+| S6018 | No tengo libros. | I don't have any books. |  | [#9714326](https://tatoeba.org/en/sentences/show/9714326) | JSKabylie |
+| S6019 | El niño tiene un periódico. | The boy has a newspaper. |  | [#1325212](https://tatoeba.org/en/sentences/show/1325212) | marcelostockle |
+| S6020 | La casa no me gusta. | I do not like the house. |  | [#2056331](https://tatoeba.org/en/sentences/show/2056331) | Shishir |
+| S6021 | No me gusta la leche. | I don't like milk. | Milk doesn't please me. | [#10205525](https://tatoeba.org/en/sentences/show/10205525) | Shishir |
+| S6022 | ¿Y ustedes? | And you? |  | [#4621017](https://tatoeba.org/en/sentences/show/4621017) | cueyayotl |
+| S6023 | ¿Tienen casa? | Do you have a house? |  | [#5087454](https://tatoeba.org/en/sentences/show/5087454) | cueyayotl |
+| S6024 | Estoy bien, ¿y ustedes? | I'm fine. How about you guys? |  | [#9816982](https://tatoeba.org/en/sentences/show/9816982) | mialiesperantistas |
+| S6025 | ¿Cómo está el agua? | How's the water? |  | [#9706613](https://tatoeba.org/en/sentences/show/9706613) | Shishir |
+| S6026 | Son ellos. | That's them. |  | [#6763092](https://tatoeba.org/en/sentences/show/6763092) | arh |
+| S6027 | Ellos tienen pan. | They have bread. |  | [#4752314](https://tatoeba.org/en/sentences/show/4752314) | DarkHollow |
+| S6028 | Tienen agua. | They have water. |  | [#1819995](https://tatoeba.org/en/sentences/show/1819995) | Shishir |
+| S6029 | Tienen leche. | They have milk. |  | [#12939284](https://tatoeba.org/en/sentences/show/12939284) | stebnbr |
+| S6030 | Comen pan. | They eat bread. |  | [#13401088](https://tatoeba.org/en/sentences/show/13401088) | Shishir |

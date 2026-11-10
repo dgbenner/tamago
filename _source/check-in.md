@@ -11,6 +11,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 3 is live:** Polite Phrases, 43 sentences (30 Tatoeba, 13 drafts): tú and usted, estar for how you are. Cut lines whose English misled (buenas tardes as good evening, ¿Cómo está usted? as How do you do?).
   - **Unit 4 is live:** Food and Drink, 36 sentences (30 Tatoeba, 6 drafts): como, comes, come; bebo, bebes, bebe; me gusta. Cut como meaning like, a pun and a crush.
   - **Unit 5 is live:** Pets and Animals, 44 sentences (30 Tatoeba, 14 drafts): tengo, tienes, tiene. Tatoeba's checked lines for pato, tortuga and ratón are nearly all "I am a mouse" kinds of sentence, which the brief cuts, so those words are drafted.
+  - **Unit 6 is live:** More Than One, 56 sentences (30 Tatoeba, 26 drafts): los, las, unos, unas; somos, son; ustedes. Widened with the plural forms a plural sentence needs (grandes, pequeños, tienen, comen, beben, chicos, chicas, casas). Plurals within the first six units' words are thin on checked Tatoeba, hence the drafts.
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -478,7 +479,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (66), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (92), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -560,3 +561,32 @@ Every Spanish sentence I wrote (66), for a native speaker of Latin American Span
 - S5112 El perro es un animal. = The dog is an animal.
 - S5113 ¿Es un animal? = Is it an animal?
 - S5114 Sí, tengo un libro. = Yes, I have a book. (QT09 answer)
+
+**U06 More Than One** (26)
+
+- S6101 Los perros son grandes. = The dogs are big. (QT09 answer)
+- S6102 Los gatos son pequeños. = The cats are small.
+- S6103 Las casas son grandes. = The houses are big.
+- S6104 Las casas son pequeñas. = The houses are small.
+- S6105 Las chicas son pequeñas. = The girls are small.
+- S6106 Tengo unos libros. = I have some books.
+- S6107 Tengo unos perros. = I have some dogs.
+- S6108 Comen unas manzanas. = They're eating some apples.
+- S6109 Tengo unas manzanas. = I have some apples. (QT09 answer)
+- S6110 Unas chicas comen pan. = Some girls are eating bread.
+- S6111 Nosotros somos hombres. = We are men.
+- S6112 Nosotros somos mujeres. = We are women.
+- S6113 Ellas son mujeres. = They are women.
+- S6114 Ellas beben agua. = They drink water.
+- S6115 Los hombres beben café. = The men drink coffee.
+- S6116 Las chicas tienen un gato. = The girls have a cat.
+- S6117 Los gatos comen. = The cats eat.
+- S6118 Son casas grandes. = They are big houses.
+- S6119 Los libros son pequeños. = The books are small.
+- S6120 Tengo unos gatos. = I have some cats. (QT09 answer)
+- S6121 Los perros comen pan. = The dogs are eating bread.
+- S6122 Ellas son pequeñas. = They are small.
+- S6123 Los chicos comen pan. = The boys are eating bread. (QT09 answer)
+- S6124 ¿Son grandes los perros? = Are the dogs big? (QT09 question)
+- S6125 ¿Los chicos comen pan? = Are the boys eating bread? (QT09 question)
+- S6126 Nosotros somos niños. = We are children.

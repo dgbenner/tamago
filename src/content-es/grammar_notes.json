@@ -218,5 +218,49 @@
         "source": "https://en.wiktionary.org/wiki/tener#Conjugation"
       }
     ]
+  },
+  {
+    "unit_id": "U06",
+    "rule": "For more than one, el becomes los and la becomes las; un becomes unos and una becomes unas (some). Most nouns add -s (libros, casas); a noun ending in a consonant adds -es (mujeres). Adjectives follow: grandes, pequeños. Ser has somos (we are) and son (they are, and ustedes are). In Latin America ustedes is the only you for more than one person, friends or strangers.",
+    "example_sentence_ids": "S6002;S6005;S6101",
+    "conjugation_lemma": "ser",
+    "status": "live",
+    "examples": [
+      "S6002",
+      "S6005",
+      "S6101"
+    ],
+    "conjugations": [
+      {
+        "lemma": "ser",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "se"
+          },
+          {
+            "person": "tu",
+            "form": "ses"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "se"
+          },
+          {
+            "person": "nous",
+            "form": "sons"
+          },
+          {
+            "person": "vous",
+            "form": "sez"
+          },
+          {
+            "person": "ils, elles",
+            "form": "sent"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/ser#Conjugation"
+      }
+    ]
   }
 ]
