@@ -173,5 +173,57 @@
       "6711182": "an idiom (How does this work?)",
       "10083684": "odd (Where does Tom go to school?) for a dónde va a la escuela"
     }
+  },
+  "U101": {
+    "reject": {
+      "754040": "hace here is does or makes, not the weather hace",
+      "1006269": "odd (The sun is red.)",
+      "1309759": "its English (Where is the rain?) does not match ¿Dónde llueve?",
+      "1943524": "unnatural (el tiempo está frío)",
+      "1943526": "unnatural (el tiempo es frío)",
+      "1943530": "unusual word order (hace tiempo frío)",
+      "4735503": "hace here is does or makes, not the weather hace",
+      "6149386": "an exclamation idiom (¡Qué tiempo!)",
+      "6671857": "hace here is does or makes, not the weather hace",
+      "6873560": "hace here is does or makes, not the weather hace",
+      "9462525": "hace here is does or makes, not the weather hace"
+    }
+  },
+  "U102": {
+    "reject": {
+      "2857698": "its English (Where's your baby?) does not match ¿Y tu bebé?"
+    }
+  },
+  "U201": {
+    "reject": {
+      "4557032": "its English uses an idiom (tied up at the office)"
+    }
+  },
+  "U202": {
+    "reject": {
+      "1306048": "an idiom (Qué dolor = What a pain!)"
+    }
+  },
+  "U205": {
+    "reject": {
+      "559840": "repeats Es un piano viejo.",
+      "672993": "its English (Has she a piano?) is old-fashioned",
+      "1748354": "odd (It isn't music.)",
+      "2351157": "its English (She's no singer) means something else",
+      "3769308": "no here means right?, misleading for the word no"
+    }
+  },
+  "U207": {
+    "reject": {
+      "4524001": "estar verde is a shade beyond A1",
+      "5318152": "missing the opening ¿",
+      "5575239": "repeats the line before it",
+      "9552882": "odd (Women are flowers.)"
+    }
+  },
+  "U208": {
+    "reject": {
+      "10124749": "no here means right?, misleading for the word no"
+    }
   }
 }

@@ -103,5 +103,19 @@
     "unit_id": "U15",
     "unlocks_after": "row 8",
     "notes": ""
+  },
+  {
+    "row": 4,
+    "position": 1,
+    "unit_id": "U100",
+    "unlocks_after": "row 3",
+    "notes": "choose your topic: the packs with topic_node U100, on Units 1 to 5"
+  },
+  {
+    "row": 10,
+    "position": 1,
+    "unit_id": "U200",
+    "unlocks_after": "row 9",
+    "notes": "a second topic: the packs with topic_node U200, on all of A1"
   }
 ]

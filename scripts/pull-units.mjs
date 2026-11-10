@@ -25,7 +25,8 @@ const PACK_TARGET = 15
 // Packs at the second node (topic_node U200, 2026-11-10) draw on all of A1 and need 30 sentences, checked Tatoeba only.
 // Sentences Claude turned down in review are in content/sweep/packs-review.json and never proposed again.
 const REBUILD_BASE = { U101: 8800 }
-const isWidePack = (u) => isPack(u) && u.topic_node === 'U200'
+// Every Spanish pack follows that rule too (Dan's newest pack rule); its first-node packs draw on Units 1 to 5 only.
+const isWidePack = (u) => isPack(u) && (u.topic_node === 'U200' || COURSE !== 'fr')
 const REVIEW_FILE = at('content/sweep/packs-review.json')
 const packReview = (unitId) => (existsSync(REVIEW_FILE) ? JSON.parse(readFileSync(REVIEW_FILE, 'utf8')) : {})[unitId] ?? {}
 // A sentence turned down anywhere in the course stays turned down in every later unit.
@@ -101,7 +102,8 @@ const opened = new Set(units.filter((u) => isLive(u) && !['yes', 'node'].include
 for (const u of units) {
   if (u.is_topic_pick === 'node') continue
   if (onlyUnit && u.unit_id !== onlyUnit) { if (!isPack(u) && isLive(u)) opened.add(u.unit_id); continue }
-  const allowed = new Set([...opened, u.unit_id])
+  const firstFive = units.filter((x) => !['yes', 'node'].includes(x.is_topic_pick)).slice(0, 5).map((x) => x.unit_id)
+  const allowed = COURSE !== 'fr' && isPack(u) && u.topic_node === 'U100' ? new Set([...firstFive, u.unit_id]) : new Set([...opened, u.unit_id])
   if (!isPack(u)) opened.add(u.unit_id)
   // A live pack marked rebuild in packs-review.json (Weather, 2026-11-10) is topped up: its live Tatoeba sentences stay
   // and count toward the targets, new picks take ids from REBUILD_BASE.

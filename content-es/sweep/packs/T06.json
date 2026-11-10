@@ -1,0 +1,979 @@
+{
+  "topic": "Weather",
+  "words": [
+    "sol",
+    "lluvia",
+    "nieve",
+    "frío",
+    "calor",
+    "hace",
+    "llueve",
+    "nieva",
+    "tiempo"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "2926",
+      "owner": "Shishir",
+      "french": "Hace frío.",
+      "english": [
+        "It's cold.",
+        "It is cold.",
+        "The weather is cold."
+      ],
+      "forms": [
+        "hace",
+        "frío"
+      ]
+    },
+    {
+      "source_id": "460408",
+      "owner": "Shishir",
+      "french": "No hace frío.",
+      "english": [
+        "It's not cold."
+      ],
+      "forms": [
+        "hace",
+        "frío"
+      ]
+    },
+    {
+      "source_id": "566126",
+      "owner": "Shishir",
+      "french": "¿Te gusta la lluvia?",
+      "english": [
+        "Do you like rain?"
+      ],
+      "forms": [
+        "lluvia"
+      ]
+    },
+    {
+      "source_id": "571877",
+      "owner": "Shishir",
+      "french": "Hoy hace sol.",
+      "english": [
+        "It is sunny today.",
+        "It's sunny today."
+      ],
+      "forms": [
+        "hace",
+        "sol"
+      ]
+    },
+    {
+      "source_id": "578871",
+      "owner": "Shishir",
+      "french": "Me gusta el sol.",
+      "english": [
+        "I love the sun."
+      ],
+      "forms": [
+        "sol"
+      ]
+    },
+    {
+      "source_id": "610310",
+      "owner": "Shishir",
+      "french": "Hace calor aquí.",
+      "english": [
+        "It's hot in here.",
+        "It's warm in here.",
+        "It's hot here."
+      ],
+      "forms": [
+        "hace",
+        "calor"
+      ]
+    },
+    {
+      "source_id": "639721",
+      "owner": "Shishir",
+      "french": "¡Hace frío hoy!",
+      "english": [
+        "It's cold today!"
+      ],
+      "forms": [
+        "hace",
+        "frío"
+      ]
+    },
+    {
+      "source_id": "639722",
+      "owner": "Shishir",
+      "french": "¡Hoy hace frío!",
+      "english": [
+        "It's cold today!"
+      ],
+      "forms": [
+        "hace",
+        "frío"
+      ]
+    },
+    {
+      "source_id": "645739",
+      "owner": "Leono",
+      "french": "Hoy es un día de sol.",
+      "english": [
+        "It is sunny today.",
+        "It's sunny today."
+      ],
+      "forms": [
+        "sol"
+      ]
+    },
+    {
+      "source_id": "741809",
+      "owner": "Shishir",
+      "french": "Me gusta la nieve.",
+      "english": [
+        "I love snow.",
+        "I like snow.",
+        "I like ice cream."
+      ],
+      "forms": [
+        "nieve"
+      ]
+    },
+    {
+      "source_id": "754040",
+      "owner": "Shishir",
+      "french": "¿Qué hace?",
+      "english": [
+        "What is he doing?",
+        "What does she do?",
+        "What's she doing?",
+        "What does he do?"
+      ],
+      "forms": [
+        "hace"
+      ]
+    },
+    {
+      "source_id": "778960",
+      "owner": "Shishir",
+      "french": "Ahora no tengo tiempo.",
+      "english": [
+        "I don't have time now."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "974803",
+      "owner": "Shishir",
+      "french": "Esta mañana tengo frío.",
+      "english": [
+        "I feel cold this morning."
+      ],
+      "forms": [
+        "frío"
+      ]
+    },
+    {
+      "source_id": "1006269",
+      "owner": "Shishir",
+      "french": "El Sol es rojo.",
+      "english": [
+        "The sun is red."
+      ],
+      "forms": [
+        "sol"
+      ]
+    },
+    {
+      "source_id": "1013650",
+      "owner": "hayastan",
+      "french": "No tengo tiempo ahora.",
+      "english": [
+        "I don't have time now."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "1060957",
+      "owner": "Shishir",
+      "french": "¿No tienes frío?",
+      "english": [
+        "Aren't you cold?"
+      ],
+      "forms": [
+        "frío"
+      ]
+    },
+    {
+      "source_id": "1167579",
+      "owner": "marcelostockle",
+      "french": "No hay un nuevo sol.",
+      "english": [
+        "There is no new sun."
+      ],
+      "forms": [
+        "sol"
+      ]
+    },
+    {
+      "source_id": "1309758",
+      "owner": "marcelostockle",
+      "french": "¿Dónde está la lluvia?",
+      "english": [
+        "Where is the rain?"
+      ],
+      "forms": [
+        "lluvia"
+      ]
+    },
+    {
+      "source_id": "1309759",
+      "owner": "marcelostockle",
+      "french": "¿Dónde llueve?",
+      "english": [
+        "Where is the rain?"
+      ],
+      "forms": [
+        "llueve"
+      ]
+    },
+    {
+      "source_id": "1397898",
+      "owner": "marcelostockle",
+      "french": "¿Tienes tiempo?",
+      "english": [
+        "Do you have some time?"
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "1457722",
+      "owner": "marcelostockle",
+      "french": "¡Eres mi sol!",
+      "english": [
+        "You are my sunshine!"
+      ],
+      "forms": [
+        "sol"
+      ]
+    },
+    {
+      "source_id": "1556182",
+      "owner": "marcelostockle",
+      "french": "No tengo tiempo mañana.",
+      "english": [
+        "I have no time tomorrow."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "1705361",
+      "owner": "marcelostockle",
+      "french": "¡Qué calor hace!",
+      "english": [
+        "How hot it is!"
+      ],
+      "forms": [
+        "calor",
+        "hace"
+      ]
+    },
+    {
+      "source_id": "1715747",
+      "owner": "marcelostockle",
+      "french": "El sol es grande.",
+      "english": [
+        "The sun is big."
+      ],
+      "forms": [
+        "sol"
+      ]
+    },
+    {
+      "source_id": "1751210",
+      "owner": "Shishir",
+      "french": "¿Por qué la nieve es blanca?",
+      "english": [
+        "Why is snow white?"
+      ],
+      "forms": [
+        "nieve"
+      ]
+    },
+    {
+      "source_id": "1765217",
+      "owner": "marcelostockle",
+      "french": "El sol es blanco.",
+      "english": [
+        "The sun is white."
+      ],
+      "forms": [
+        "sol"
+      ]
+    },
+    {
+      "source_id": "1768110",
+      "owner": "Shishir",
+      "french": "Tom tiene frío y está cansado.",
+      "english": [
+        "Tom is cold and tired."
+      ],
+      "forms": [
+        "frío"
+      ]
+    },
+    {
+      "source_id": "1824809",
+      "owner": "Shishir",
+      "french": "¡Esto me hace bien!",
+      "english": [
+        "This makes me feel good.",
+        "This does me good."
+      ],
+      "forms": [
+        "hace"
+      ]
+    },
+    {
+      "source_id": "1923239",
+      "owner": "marcelostockle",
+      "french": "Hoy no hace frío.",
+      "english": [
+        "It is not cold today."
+      ],
+      "forms": [
+        "hace",
+        "frío"
+      ]
+    },
+    {
+      "source_id": "1943524",
+      "owner": "wallebot",
+      "french": "El tiempo está frío ahora.",
+      "english": [
+        "The weather is cold now."
+      ],
+      "forms": [
+        "tiempo",
+        "frío"
+      ]
+    },
+    {
+      "source_id": "1943526",
+      "owner": "wallebot",
+      "french": "El tiempo es frío ahora.",
+      "english": [
+        "The weather is cold now."
+      ],
+      "forms": [
+        "tiempo",
+        "frío"
+      ]
+    },
+    {
+      "source_id": "1943530",
+      "owner": "wallebot",
+      "french": "Ahora hace tiempo frío.",
+      "english": [
+        "The weather is cold now."
+      ],
+      "forms": [
+        "hace",
+        "tiempo",
+        "frío"
+      ]
+    },
+    {
+      "source_id": "2094513",
+      "owner": "Shishir",
+      "french": "Este café está frío.",
+      "english": [
+        "This coffee is cold."
+      ],
+      "forms": [
+        "frío"
+      ]
+    },
+    {
+      "source_id": "2109105",
+      "owner": "marcelostockle",
+      "french": "Está frío.",
+      "english": [
+        "It's cold.",
+        "It is cold.",
+        "It's cool.",
+        "The weather is cold."
+      ],
+      "forms": [
+        "frío"
+      ]
+    },
+    {
+      "source_id": "2258763",
+      "owner": "hayastan",
+      "french": "No me gusta el calor.",
+      "english": [
+        "I don't like the heat."
+      ],
+      "forms": [
+        "calor"
+      ]
+    },
+    {
+      "source_id": "2352715",
+      "owner": "Shishir",
+      "french": "No está frío.",
+      "english": [
+        "It's not cold.",
+        "It isn't cold."
+      ],
+      "forms": [
+        "frío"
+      ]
+    },
+    {
+      "source_id": "2365621",
+      "owner": "marcelostockle",
+      "french": "¡Qué hace calor hoy!",
+      "english": [
+        "How hot it is today!"
+      ],
+      "forms": [
+        "hace",
+        "calor"
+      ]
+    },
+    {
+      "source_id": "2372672",
+      "owner": "hayastan",
+      "french": "No hay tiempo.",
+      "english": [
+        "There's no time.",
+        "There isn't time."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "2416091",
+      "owner": "wallebot",
+      "french": "Hace un tiempo de perros.",
+      "english": [
+        "We're having a rainy spell."
+      ],
+      "forms": [
+        "hace",
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "2679825",
+      "owner": "Shishir",
+      "french": "No tienes tiempo.",
+      "english": [
+        "You don't have the time.",
+        "You don't have time."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "2741928",
+      "owner": "marcelostockle",
+      "french": "¿Tiene tiempo?",
+      "english": [
+        "Do you have some time?"
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "2932029",
+      "owner": "marcelostockle",
+      "french": "Me gusta el calor.",
+      "english": [
+        "I like the heat."
+      ],
+      "forms": [
+        "calor"
+      ]
+    },
+    {
+      "source_id": "3326479",
+      "owner": "gianich73",
+      "french": "¿De qué color es la nieve?",
+      "english": [
+        "What color is snow?"
+      ],
+      "forms": [
+        "nieve"
+      ]
+    },
+    {
+      "source_id": "3796832",
+      "owner": "Seael",
+      "french": "Y ahora, el tiempo.",
+      "english": [
+        "Now it's time for the weather forecast."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "3924607",
+      "owner": "cueyayotl",
+      "french": "¿Tienes tiempo mañana?",
+      "english": [
+        "Do you have time tomorrow?"
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "3924608",
+      "owner": "cueyayotl",
+      "french": "Sí, tengo tiempo mañana.",
+      "english": [
+        "Yes, I have time tomorrow."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "4417705",
+      "owner": "cueyayotl",
+      "french": "Mañana llueve.",
+      "english": [
+        "It rains tomorrow."
+      ],
+      "forms": [
+        "llueve"
+      ]
+    },
+    {
+      "source_id": "4426599",
+      "owner": "cueyayotl",
+      "french": "Él tiene tiempo.",
+      "english": [
+        "He has time."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "4482261",
+      "owner": "cueyayotl",
+      "french": "No me gusta la nieve.",
+      "english": [
+        "I do not like ice cream.",
+        "I don't like snow."
+      ],
+      "forms": [
+        "nieve"
+      ]
+    },
+    {
+      "source_id": "4487590",
+      "owner": "cueyayotl",
+      "french": "¿Tú no tienes calor?",
+      "english": [
+        "Aren't you hot?"
+      ],
+      "forms": [
+        "calor"
+      ]
+    },
+    {
+      "source_id": "4487591",
+      "owner": "cueyayotl",
+      "french": "¿No tienes calor?",
+      "english": [
+        "Aren't you hot?"
+      ],
+      "forms": [
+        "calor"
+      ]
+    },
+    {
+      "source_id": "4487592",
+      "owner": "cueyayotl",
+      "french": "¿No tiene calor?",
+      "english": [
+        "Aren't you hot?"
+      ],
+      "forms": [
+        "calor"
+      ]
+    },
+    {
+      "source_id": "4487593",
+      "owner": "cueyayotl",
+      "french": "¿Usted no tiene calor?",
+      "english": [
+        "Aren't you hot?"
+      ],
+      "forms": [
+        "calor"
+      ]
+    },
+    {
+      "source_id": "4487594",
+      "owner": "cueyayotl",
+      "french": "¿No tienen calor?",
+      "english": [
+        "Aren't you hot?"
+      ],
+      "forms": [
+        "calor"
+      ]
+    },
+    {
+      "source_id": "4487596",
+      "owner": "cueyayotl",
+      "french": "¿Ustedes no tienen calor?",
+      "english": [
+        "Aren't you hot?"
+      ],
+      "forms": [
+        "calor"
+      ]
+    },
+    {
+      "source_id": "4536369",
+      "owner": "cueyayotl",
+      "french": "¿Hay tiempo?",
+      "english": [
+        "Is there time?"
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "4735503",
+      "owner": "lawka",
+      "french": "¿Qué hace él?",
+      "english": [
+        "What is he doing?",
+        "What does he do?"
+      ],
+      "forms": [
+        "hace"
+      ]
+    },
+    {
+      "source_id": "4859590",
+      "owner": "cueyayotl",
+      "french": "Tengo tiempo.",
+      "english": [
+        "I have time.",
+        "I've got time."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "4948104",
+      "owner": "Francisco_M",
+      "french": "Estamos a tiempo.",
+      "english": [
+        "We're on time."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "4948540",
+      "owner": "Francisco_M",
+      "french": "Estás a tiempo.",
+      "english": [
+        "You're on time."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "5147497",
+      "owner": "Kary",
+      "french": "Tom tiene frío.",
+      "english": [
+        "Tom felt cold.",
+        "Tom is cold."
+      ],
+      "forms": [
+        "frío"
+      ]
+    },
+    {
+      "source_id": "5228849",
+      "owner": "cueyayotl",
+      "french": "Es una nieve.",
+      "english": [
+        "It's an ice cream."
+      ],
+      "forms": [
+        "nieve"
+      ]
+    },
+    {
+      "source_id": "5257399",
+      "owner": "cueyayotl",
+      "french": "El sol es amarillo.",
+      "english": [
+        "The sun is yellow."
+      ],
+      "forms": [
+        "sol"
+      ]
+    },
+    {
+      "source_id": "5257400",
+      "owner": "cueyayotl",
+      "french": "La nieve es blanca.",
+      "english": [
+        "The snow is white."
+      ],
+      "forms": [
+        "nieve"
+      ]
+    },
+    {
+      "source_id": "5752543",
+      "owner": "arh",
+      "french": "¿Tiene calor Tom?",
+      "english": [
+        "Is Tom hot?"
+      ],
+      "forms": [
+        "calor"
+      ]
+    },
+    {
+      "source_id": "6092106",
+      "owner": "AbMichael",
+      "french": "Tom también hace eso.",
+      "english": [
+        "Tom does that, too."
+      ],
+      "forms": [
+        "hace"
+      ]
+    },
+    {
+      "source_id": "6149386",
+      "owner": "ulymarrero",
+      "french": "¡Qué tiempo!",
+      "english": [
+        "What weather!"
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "6198590",
+      "owner": "baudelaire",
+      "french": "¿Tienes frío?",
+      "english": [
+        "Are you cold?"
+      ],
+      "forms": [
+        "frío"
+      ]
+    },
+    {
+      "source_id": "6627557",
+      "owner": "Schuager",
+      "french": "Ellos tienen frío.",
+      "english": [
+        "They're cold."
+      ],
+      "forms": [
+        "frío"
+      ]
+    },
+    {
+      "source_id": "6671857",
+      "owner": "UsuarioX",
+      "french": "¿Qué hace Tom ahora?",
+      "english": [
+        "What does Tom do now?"
+      ],
+      "forms": [
+        "hace"
+      ]
+    },
+    {
+      "source_id": "6683680",
+      "owner": "arh",
+      "french": "¿Tienes calor?",
+      "english": [
+        "Are you hot?"
+      ],
+      "forms": [
+        "calor"
+      ]
+    },
+    {
+      "source_id": "6873560",
+      "owner": "marcelostockle",
+      "french": "¿Qué hace Tom los lunes?",
+      "english": [
+        "What does Tom do on Mondays?"
+      ],
+      "forms": [
+        "hace"
+      ]
+    },
+    {
+      "source_id": "7153328",
+      "owner": "arh",
+      "french": "Esto está muy frío.",
+      "english": [
+        "This is very cold."
+      ],
+      "forms": [
+        "frío"
+      ]
+    },
+    {
+      "source_id": "7942493",
+      "owner": "arh",
+      "french": "Ahora no hace calor.",
+      "english": [
+        "It's not hot right now."
+      ],
+      "forms": [
+        "hace",
+        "calor"
+      ]
+    },
+    {
+      "source_id": "9462525",
+      "owner": "ignacio",
+      "french": "¿Quién hace eso?",
+      "english": [
+        "Who does that?"
+      ],
+      "forms": [
+        "hace"
+      ]
+    },
+    {
+      "source_id": "9475859",
+      "owner": "dpcossio",
+      "french": "Llueve y llueve.",
+      "english": [
+        "It's raining and raining."
+      ],
+      "forms": [
+        "llueve",
+        "llueve"
+      ]
+    },
+    {
+      "source_id": "10044463",
+      "owner": "manufrutos",
+      "french": "Tom no hace café.",
+      "english": [
+        "Tom isn't making coffee."
+      ],
+      "forms": [
+        "hace"
+      ]
+    },
+    {
+      "source_id": "10112860",
+      "owner": "manufrutos",
+      "french": "El tiempo es bueno aquí.",
+      "english": [
+        "The weather is nice here."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "10124797",
+      "owner": "manufrutos",
+      "french": "Tom no tiene tiempo.",
+      "english": [
+        "Tom doesn't have time."
+      ],
+      "forms": [
+        "tiempo"
+      ]
+    },
+    {
+      "source_id": "10124836",
+      "owner": "manufrutos",
+      "french": "¿Eso es nieve?",
+      "english": [
+        "Is that snow?"
+      ],
+      "forms": [
+        "nieve"
+      ]
+    },
+    {
+      "source_id": "10202932",
+      "owner": "Shishir",
+      "french": "¿Qué hace aquí este niño?",
+      "english": [
+        "What's that kid doing here?"
+      ],
+      "forms": [
+        "hace"
+      ]
+    },
+    {
+      "source_id": "11796193",
+      "owner": "Seael",
+      "french": "Hace bueno.",
+      "english": [
+        "The weather is good."
+      ],
+      "forms": [
+        "hace"
+      ]
+    },
+    {
+      "source_id": "12566393",
+      "owner": "frankowro",
+      "french": "Come nieve.",
+      "english": [
+        "Eat snow."
+      ],
+      "forms": [
+        "nieve"
+      ]
+    },
+    {
+      "source_id": "12933774",
+      "owner": "ecorralest101",
+      "french": "Tengo frío ahora.",
+      "english": [
+        "I feel cold now."
+      ],
+      "forms": [
+        "frío"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1341 @@
+{
+  "unit_id": "U201",
+  "pulled_at": "2026-11-10",
+  "candidates": 124,
+  "sentences": [
+    {
+      "sentence_id": "S201001",
+      "unit_id": "U201",
+      "french": "Ella está ocupada en su trabajo.",
+      "english": "She's busy with her work.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "678815",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "humbertovs",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201002",
+      "unit_id": "U201",
+      "french": "Tom está muy ocupado en el trabajo.",
+      "english": "Tom is very busy at work.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10028155",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "dagonzalezce",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201003",
+      "unit_id": "U201",
+      "french": "¿Estás ocupado?",
+      "english": "Are you busy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "707994",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201004",
+      "unit_id": "U201",
+      "french": "¿Él trabaja?",
+      "english": "Does he work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1829243",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Does he have a job?"
+      ]
+    },
+    {
+      "sentence_id": "S201005",
+      "unit_id": "U201",
+      "french": "¿Trabaja aquí?",
+      "english": "Does he work here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4599249",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201006",
+      "unit_id": "U201",
+      "french": "¿Hoy trabajas?",
+      "english": "Are you working today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5017762",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201007",
+      "unit_id": "U201",
+      "french": "¿Dónde trabaja?",
+      "english": "Where do you work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6989157",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": [
+        "Where does he work?",
+        "Where does she work?"
+      ]
+    },
+    {
+      "sentence_id": "S201008",
+      "unit_id": "U201",
+      "french": "¿Por qué trabajas aquí?",
+      "english": "Why do you work here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "770935",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201009",
+      "unit_id": "U201",
+      "french": "¿Estás ocupado ahora?",
+      "english": "Are you busy now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "941445",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201010",
+      "unit_id": "U201",
+      "french": "¿Está usted ocupada?",
+      "english": "Are you busy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2881093",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201011",
+      "unit_id": "U201",
+      "french": "¿Trabajas el lunes?",
+      "english": "Do you work on Monday?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5769376",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201012",
+      "unit_id": "U201",
+      "french": "¿Él tiene trabajo?",
+      "english": "Does he have a job?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6692228",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "UsuarioX",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201013",
+      "unit_id": "U201",
+      "french": "¿Tienes una computadora?",
+      "english": "Do you have a computer?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13709821",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201014",
+      "unit_id": "U201",
+      "french": "¿Voy a tu oficina?",
+      "english": "Shall I come to your office?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "480039",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raimondi",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201015",
+      "unit_id": "U201",
+      "french": "¿Voy a su oficina?",
+      "english": "Shall I come to your office?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "480040",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raimondi",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201016",
+      "unit_id": "U201",
+      "french": "¿Hay un teléfono aquí?",
+      "english": "Is there a telephone here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1547965",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201017",
+      "unit_id": "U201",
+      "french": "¿Por qué estás ocupada hoy?",
+      "english": "Why are you busy today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2210165",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201018",
+      "unit_id": "U201",
+      "french": "¿De quién es esta oficina?",
+      "english": "Whose office is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1993757",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201019",
+      "unit_id": "U201",
+      "french": "Tienes un teléfono.",
+      "english": "You have a telephone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1282061",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201020",
+      "unit_id": "U201",
+      "french": "Soy tu jefa.",
+      "english": "I'm your boss.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2474720",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201021",
+      "unit_id": "U201",
+      "french": "Tengo una computadora.",
+      "english": "I own a computer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5097786",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201022",
+      "unit_id": "U201",
+      "french": "Mi teléfono es bonito.",
+      "english": "My telephone is pretty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1102380",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201023",
+      "unit_id": "U201",
+      "french": "La computadora es nueva.",
+      "english": "The computer is new.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1260715",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201024",
+      "unit_id": "U201",
+      "french": "Hoy tengo una reunión.",
+      "english": "I have a meeting today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1496966",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201025",
+      "unit_id": "U201",
+      "french": "Estamos en una reunión.",
+      "english": "We're having a meeting.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4375245",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pchamorro",
+      "other_english": [
+        "We are having a meeting."
+      ]
+    },
+    {
+      "sentence_id": "S201026",
+      "unit_id": "U201",
+      "french": "Voy a una reunión.",
+      "english": "I'm going to a meeting.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4725531",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201027",
+      "unit_id": "U201",
+      "french": "Ella es la jefa.",
+      "english": "She's the boss.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10110737",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "escudo119",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201028",
+      "unit_id": "U201",
+      "french": "Ahora soy tu jefa.",
+      "english": "I'm your boss now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10363060",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201029",
+      "unit_id": "U201",
+      "french": "¿Está ocupado hoy?",
+      "english": "Are you busy today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1425079",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "peibolvig",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S201030",
+      "unit_id": "U201",
+      "french": "¿Dónde trabaja él?",
+      "english": "Where does he work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1827578",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S201001",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201001",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201001",
+      "position": 3,
+      "surface": "ocupada",
+      "word_id": "W529",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201001",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201001",
+      "position": 5,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201001",
+      "position": 6,
+      "surface": "trabajo",
+      "word_id": "W521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201002",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201002",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201002",
+      "position": 3,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201002",
+      "position": 4,
+      "surface": "ocupado",
+      "word_id": "W528",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201002",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201002",
+      "position": 6,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201002",
+      "position": 7,
+      "surface": "trabajo",
+      "word_id": "W521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201003",
+      "position": 1,
+      "surface": "Estás",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201003",
+      "position": 2,
+      "surface": "ocupado",
+      "word_id": "W528",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201004",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201004",
+      "position": 2,
+      "surface": "trabaja",
+      "word_id": "W522",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201005",
+      "position": 1,
+      "surface": "Trabaja",
+      "word_id": "W522",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201005",
+      "position": 2,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201006",
+      "position": 1,
+      "surface": "Hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201006",
+      "position": 2,
+      "surface": "trabajas",
+      "word_id": "W523",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201007",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201007",
+      "position": 2,
+      "surface": "trabaja",
+      "word_id": "W522",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201008",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201008",
+      "position": 2,
+      "surface": "trabajas",
+      "word_id": "W523",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201008",
+      "position": 3,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201009",
+      "position": 1,
+      "surface": "Estás",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201009",
+      "position": 2,
+      "surface": "ocupado",
+      "word_id": "W528",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201009",
+      "position": 3,
+      "surface": "ahora",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201010",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201010",
+      "position": 2,
+      "surface": "usted",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201010",
+      "position": 3,
+      "surface": "ocupada",
+      "word_id": "W529",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201011",
+      "position": 1,
+      "surface": "Trabajas",
+      "word_id": "W523",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201011",
+      "position": 2,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201011",
+      "position": 3,
+      "surface": "lunes",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201012",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201012",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201012",
+      "position": 3,
+      "surface": "trabajo",
+      "word_id": "W521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201013",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201013",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201013",
+      "position": 3,
+      "surface": "computadora",
+      "word_id": "W526",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201014",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201014",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201014",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201014",
+      "position": 4,
+      "surface": "oficina",
+      "word_id": "W520",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201015",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201015",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201015",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201015",
+      "position": 4,
+      "surface": "oficina",
+      "word_id": "W520",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201016",
+      "position": 1,
+      "surface": "Hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201016",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201016",
+      "position": 3,
+      "surface": "teléfono",
+      "word_id": "W527",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201016",
+      "position": 4,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201017",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201017",
+      "position": 2,
+      "surface": "estás",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201017",
+      "position": 3,
+      "surface": "ocupada",
+      "word_id": "W529",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201017",
+      "position": 4,
+      "surface": "hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201018",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201018",
+      "position": 2,
+      "surface": "quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201018",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201018",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201018",
+      "position": 5,
+      "surface": "oficina",
+      "word_id": "W520",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201019",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201019",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201019",
+      "position": 3,
+      "surface": "teléfono",
+      "word_id": "W527",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201020",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201020",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201020",
+      "position": 3,
+      "surface": "jefa",
+      "word_id": "W525",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201021",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201021",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201021",
+      "position": 3,
+      "surface": "computadora",
+      "word_id": "W526",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201022",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201022",
+      "position": 2,
+      "surface": "teléfono",
+      "word_id": "W527",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201022",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201022",
+      "position": 4,
+      "surface": "bonito",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201023",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201023",
+      "position": 2,
+      "surface": "computadora",
+      "word_id": "W526",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201023",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201023",
+      "position": 4,
+      "surface": "nueva",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201024",
+      "position": 1,
+      "surface": "Hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201024",
+      "position": 2,
+      "surface": "tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201024",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201024",
+      "position": 4,
+      "surface": "reunión",
+      "word_id": "W530",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201025",
+      "position": 1,
+      "surface": "Estamos",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201025",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201025",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201025",
+      "position": 4,
+      "surface": "reunión",
+      "word_id": "W530",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201026",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201026",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201026",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201026",
+      "position": 4,
+      "surface": "reunión",
+      "word_id": "W530",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201027",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201027",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201027",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201027",
+      "position": 4,
+      "surface": "jefa",
+      "word_id": "W525",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201028",
+      "position": 1,
+      "surface": "Ahora",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201028",
+      "position": 2,
+      "surface": "soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201028",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201028",
+      "position": 4,
+      "surface": "jefa",
+      "word_id": "W525",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201029",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201029",
+      "position": 2,
+      "surface": "ocupado",
+      "word_id": "W528",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201029",
+      "position": 3,
+      "surface": "hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201030",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201030",
+      "position": 2,
+      "surface": "trabaja",
+      "word_id": "W522",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S201030",
+      "position": 3,
+      "surface": "él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A2010041",
+      "sentence_id": "S201004",
+      "direction": "fr_to_en",
+      "answer": "Does he have a job?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2010071",
+      "sentence_id": "S201007",
+      "direction": "fr_to_en",
+      "answer": "Where does he work?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2010072",
+      "sentence_id": "S201007",
+      "direction": "fr_to_en",
+      "answer": "Where does she work?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2010251",
+      "sentence_id": "S201025",
+      "direction": "fr_to_en",
+      "answer": "We are having a meeting.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

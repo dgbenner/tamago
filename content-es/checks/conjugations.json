@@ -232,5 +232,83 @@
       "person": "ils, elles",
       "form": "{{{ind_p_3p}}}"
     }
+  ],
+  "trabajar": [
+    {
+      "person": "je (j’)",
+      "form": "{{{ind_p_1s}}}"
+    },
+    {
+      "person": "tu",
+      "form": "{{{ind_p_2s}}}"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "{{{ind_p_3s}}}"
+    },
+    {
+      "person": "nous",
+      "form": "{{{ind_p_1p}}}"
+    },
+    {
+      "person": "vous",
+      "form": "{{{ind_p_2p}}}"
+    },
+    {
+      "person": "ils, elles",
+      "form": "{{{ind_p_3p}}}"
+    }
+  ],
+  "doler": [
+    {
+      "person": "je (j’)",
+      "form": "dole"
+    },
+    {
+      "person": "tu",
+      "form": "doles"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "dole"
+    },
+    {
+      "person": "nous",
+      "form": "dolons"
+    },
+    {
+      "person": "vous",
+      "form": "dolez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "dolent"
+    }
+  ],
+  "cantar": [
+    {
+      "person": "je (j’)",
+      "form": "{{{ind_p_1s}}}"
+    },
+    {
+      "person": "tu",
+      "form": "{{{ind_p_2s}}}"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "{{{ind_p_3s}}}"
+    },
+    {
+      "person": "nous",
+      "form": "{{{ind_p_1p}}}"
+    },
+    {
+      "person": "vous",
+      "form": "{{{ind_p_2p}}}"
+    },
+    {
+      "person": "ils, elles",
+      "form": "{{{ind_p_3p}}}"
+    }
   ]
 }

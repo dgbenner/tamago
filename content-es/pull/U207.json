@@ -1,0 +1,1556 @@
+{
+  "unit_id": "U207",
+  "pulled_at": "2026-11-10",
+  "candidates": 30,
+  "sentences": [
+    {
+      "sentence_id": "S207001",
+      "unit_id": "U207",
+      "french": "¿Te gusta este jardín?",
+      "english": "Do you like this garden?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "685465",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207002",
+      "unit_id": "U207",
+      "french": "¿Te gusta esta flor?",
+      "english": "Do you like this flower?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "698581",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207003",
+      "unit_id": "U207",
+      "french": "¿Esto es una flor?",
+      "english": "Is this a flower?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1204739",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "This is a flower?"
+      ]
+    },
+    {
+      "sentence_id": "S207004",
+      "unit_id": "U207",
+      "french": "¿Qué flor es azul?",
+      "english": "What flower is blue?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5319546",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Which flower is blue?"
+      ]
+    },
+    {
+      "sentence_id": "S207005",
+      "unit_id": "U207",
+      "french": "¿La casa tiene un jardín?",
+      "english": "Has the house got a garden?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "753033",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207006",
+      "unit_id": "U207",
+      "french": "Él es jardinero.",
+      "english": "He's a gardener.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3395253",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207007",
+      "unit_id": "U207",
+      "french": "Soy el jardinero.",
+      "english": "I'm the gardener.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3803391",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207008",
+      "unit_id": "U207",
+      "french": "Mi jardín es pequeño.",
+      "english": "My garden is small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "832099",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "LugoIlmer",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207009",
+      "unit_id": "U207",
+      "french": "El árbol es verde.",
+      "english": "The tree is green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2059167",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "HenryGR",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207010",
+      "unit_id": "U207",
+      "french": "Esto es un árbol.",
+      "english": "This is a tree.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5050652",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207011",
+      "unit_id": "U207",
+      "french": "El árbol es viejo.",
+      "english": "The tree is old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9456295",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207012",
+      "unit_id": "U207",
+      "french": "Soy Tom, el jardinero.",
+      "english": "I'm Tom, the gardener.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9741594",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207013",
+      "unit_id": "U207",
+      "french": "Estoy en el jardín.",
+      "english": "I am in the garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1321020",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207014",
+      "unit_id": "U207",
+      "french": "Me gusta tu jardín.",
+      "english": "I like your garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2205327",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207015",
+      "unit_id": "U207",
+      "french": "Estamos en el jardín.",
+      "english": "We're in the garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2711398",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207016",
+      "unit_id": "U207",
+      "french": "La flor es roja.",
+      "english": "The flower is red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3453540",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207017",
+      "unit_id": "U207",
+      "french": "Este jardín es bonito.",
+      "english": "This garden is beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7850890",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207018",
+      "unit_id": "U207",
+      "french": "La flor es amarilla.",
+      "english": "The flower is yellow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9696603",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207019",
+      "unit_id": "U207",
+      "french": "La flor es azul.",
+      "english": "The flower is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10059958",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207020",
+      "unit_id": "U207",
+      "french": "El jardín es pequeño.",
+      "english": "The garden is small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11826943",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207021",
+      "unit_id": "U207",
+      "french": "¡Qué bonita es esta flor!",
+      "english": "How pretty is this flower!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "785169",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207022",
+      "unit_id": "U207",
+      "french": "¡Qué grande es este árbol!",
+      "english": "That tree's so big!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1987471",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207023",
+      "unit_id": "U207",
+      "french": "La flor no es negra.",
+      "english": "The flower isn't black.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2199624",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "The flower is not black."
+      ]
+    },
+    {
+      "sentence_id": "S207024",
+      "unit_id": "U207",
+      "french": "Tom está en el jardín.",
+      "english": "Tom is in the garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2338143",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207025",
+      "unit_id": "U207",
+      "french": "Tu jardín es muy bonito.",
+      "english": "Your garden is very beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9017896",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207026",
+      "unit_id": "U207",
+      "french": "Esta flor azul es bonita.",
+      "english": "This blue flower is beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9687777",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207027",
+      "unit_id": "U207",
+      "french": "La flor amarilla es bonita.",
+      "english": "The yellow flower is pretty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11835650",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207028",
+      "unit_id": "U207",
+      "french": "Los perros están en el jardín.",
+      "english": "The dogs are in the garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1084712",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207029",
+      "unit_id": "U207",
+      "french": "¿Dónde estás? Estoy en el jardín.",
+      "english": "Where are you? I am in the garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5827962",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "baudelaire",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S207030",
+      "unit_id": "U207",
+      "french": "El perro no está en el jardín.",
+      "english": "The dog is not in the garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9703360",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S207001",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207001",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207001",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207001",
+      "position": 4,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207002",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207002",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207002",
+      "position": 3,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207002",
+      "position": 4,
+      "surface": "flor",
+      "word_id": "W568",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207003",
+      "position": 1,
+      "surface": "Esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207003",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207003",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207003",
+      "position": 4,
+      "surface": "flor",
+      "word_id": "W568",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207004",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207004",
+      "position": 2,
+      "surface": "flor",
+      "word_id": "W568",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207004",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207004",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207005",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207005",
+      "position": 2,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207005",
+      "position": 3,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207005",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207005",
+      "position": 5,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207006",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207006",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207006",
+      "position": 3,
+      "surface": "jardinero",
+      "word_id": "W572",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207007",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207007",
+      "position": 2,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207007",
+      "position": 3,
+      "surface": "jardinero",
+      "word_id": "W572",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207008",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207008",
+      "position": 2,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207008",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207008",
+      "position": 4,
+      "surface": "pequeño",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207009",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207009",
+      "position": 2,
+      "surface": "árbol",
+      "word_id": "W570",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207009",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207009",
+      "position": 4,
+      "surface": "verde",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207010",
+      "position": 1,
+      "surface": "Esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207010",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207010",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207010",
+      "position": 4,
+      "surface": "árbol",
+      "word_id": "W570",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207011",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207011",
+      "position": 2,
+      "surface": "árbol",
+      "word_id": "W570",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207011",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207011",
+      "position": 4,
+      "surface": "viejo",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207012",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207012",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207012",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207012",
+      "position": 4,
+      "surface": "jardinero",
+      "word_id": "W572",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207013",
+      "position": 1,
+      "surface": "Estoy",
+      "word_id": "W038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207013",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207013",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207013",
+      "position": 4,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207014",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207014",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207014",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207014",
+      "position": 4,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207015",
+      "position": 1,
+      "surface": "Estamos",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207015",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207015",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207015",
+      "position": 4,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207016",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207016",
+      "position": 2,
+      "surface": "flor",
+      "word_id": "W568",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207016",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207016",
+      "position": 4,
+      "surface": "roja",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207017",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207017",
+      "position": 2,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207017",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207017",
+      "position": 4,
+      "surface": "bonito",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207018",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207018",
+      "position": 2,
+      "surface": "flor",
+      "word_id": "W568",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207018",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207018",
+      "position": 4,
+      "surface": "amarilla",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207019",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207019",
+      "position": 2,
+      "surface": "flor",
+      "word_id": "W568",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207019",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207019",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207020",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207020",
+      "position": 2,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207020",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207020",
+      "position": 4,
+      "surface": "pequeño",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207021",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207021",
+      "position": 2,
+      "surface": "bonita",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207021",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207021",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207021",
+      "position": 5,
+      "surface": "flor",
+      "word_id": "W568",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207022",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207022",
+      "position": 2,
+      "surface": "grande",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207022",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207022",
+      "position": 4,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207022",
+      "position": 5,
+      "surface": "árbol",
+      "word_id": "W570",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207023",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207023",
+      "position": 2,
+      "surface": "flor",
+      "word_id": "W568",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207023",
+      "position": 3,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207023",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207023",
+      "position": 5,
+      "surface": "negra",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207024",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207024",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207024",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207024",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207024",
+      "position": 5,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207025",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207025",
+      "position": 2,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207025",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207025",
+      "position": 4,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207025",
+      "position": 5,
+      "surface": "bonito",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207026",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207026",
+      "position": 2,
+      "surface": "flor",
+      "word_id": "W568",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207026",
+      "position": 3,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207026",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207026",
+      "position": 5,
+      "surface": "bonita",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207027",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207027",
+      "position": 2,
+      "surface": "flor",
+      "word_id": "W568",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207027",
+      "position": 3,
+      "surface": "amarilla",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207027",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207027",
+      "position": 5,
+      "surface": "bonita",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207028",
+      "position": 1,
+      "surface": "Los",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207028",
+      "position": 2,
+      "surface": "perros",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207028",
+      "position": 3,
+      "surface": "están",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207028",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207028",
+      "position": 5,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207028",
+      "position": 6,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207029",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207029",
+      "position": 2,
+      "surface": "estás",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207029",
+      "position": 3,
+      "surface": "Estoy",
+      "word_id": "W038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207029",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207029",
+      "position": 5,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207029",
+      "position": 6,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207030",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207030",
+      "position": 2,
+      "surface": "perro",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207030",
+      "position": 3,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207030",
+      "position": 4,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207030",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207030",
+      "position": 6,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S207030",
+      "position": 7,
+      "surface": "jardín",
+      "word_id": "W567",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A2070031",
+      "sentence_id": "S207003",
+      "direction": "fr_to_en",
+      "answer": "This is a flower?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2070041",
+      "sentence_id": "S207004",
+      "direction": "fr_to_en",
+      "answer": "Which flower is blue?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2070231",
+      "sentence_id": "S207023",
+      "direction": "fr_to_en",
+      "answer": "The flower is not black.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

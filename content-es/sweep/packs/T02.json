@@ -1,0 +1,59 @@
+{
+  "topic": "Dogs",
+  "words": [
+    "perrito",
+    "perritos",
+    "pelota",
+    "paseo",
+    "cola",
+    "ladra"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "1118676",
+      "owner": "Shishir",
+      "french": "Mi gato ladra.",
+      "english": [
+        "My cat barks."
+      ],
+      "forms": [
+        "ladra"
+      ]
+    },
+    {
+      "source_id": "1908647",
+      "owner": "Shishir",
+      "french": "El perro ladra.",
+      "english": [
+        "The dog is barking.",
+        "The dog barks."
+      ],
+      "forms": [
+        "ladra"
+      ]
+    },
+    {
+      "source_id": "2264666",
+      "owner": "cueyayotl",
+      "french": "¿Va usted de paseo?",
+      "english": [
+        "Are you going for a walk?"
+      ],
+      "forms": [
+        "paseo"
+      ]
+    },
+    {
+      "source_id": "6148630",
+      "owner": "Shishir",
+      "french": "Tiene un perrito negro.",
+      "english": [
+        "She has a small black dog."
+      ],
+      "forms": [
+        "perrito"
+      ]
+    }
+  ]
+}

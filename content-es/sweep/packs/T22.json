@@ -1,0 +1,1774 @@
+{
+  "topic": "The office",
+  "words": [
+    "oficina",
+    "trabajo",
+    "trabaja",
+    "trabajas",
+    "jefe",
+    "jefa",
+    "computadora",
+    "teléfono",
+    "ocupado",
+    "ocupada",
+    "reunión"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "480039",
+      "owner": "Raimondi",
+      "french": "¿Voy a tu oficina?",
+      "english": [
+        "Shall I come to your office?"
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "480040",
+      "owner": "Raimondi",
+      "french": "¿Voy a su oficina?",
+      "english": [
+        "Shall I come to your office?"
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "483051",
+      "owner": "Eckhardtgabriel",
+      "french": "No tengo computadora en casa.",
+      "english": [
+        "I don't have a computer at home."
+      ],
+      "forms": [
+        "computadora"
+      ]
+    },
+    {
+      "source_id": "514750",
+      "owner": "Shishir",
+      "french": "Hoy no estoy ocupado.",
+      "english": [
+        "I'm not busy today."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "514751",
+      "owner": "Shishir",
+      "french": "Hoy no estoy ocupada.",
+      "english": [
+        "I'm not busy today."
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "531226",
+      "owner": "Shishir",
+      "french": "Hoy estoy ocupado.",
+      "english": [
+        "I am busy today."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "531228",
+      "owner": "Shishir",
+      "french": "Hoy estoy ocupada.",
+      "english": [
+        "I am busy today."
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "544312",
+      "owner": "Shishir",
+      "french": "¿Te gusta tu nuevo trabajo?",
+      "english": [
+        "Do you like your new job?"
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "592447",
+      "owner": "Leono",
+      "french": "Tú eres el jefe.",
+      "english": [
+        "You're the boss."
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "678815",
+      "owner": "humbertovs",
+      "french": "Ella está ocupada en su trabajo.",
+      "english": [
+        "She's busy with her work."
+      ],
+      "forms": [
+        "ocupada",
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "707994",
+      "owner": "Shishir",
+      "french": "¿Estás ocupado?",
+      "english": [
+        "Are you busy?"
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "770935",
+      "owner": "Shishir",
+      "french": "¿Por qué trabajas aquí?",
+      "english": [
+        "Why do you work here?"
+      ],
+      "forms": [
+        "trabajas"
+      ]
+    },
+    {
+      "source_id": "825569",
+      "owner": "marcelostockle",
+      "french": "Trabajo aquí.",
+      "english": [
+        "I work here."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "939670",
+      "owner": "Shishir",
+      "french": "¿Por qué estás hoy ocupado?",
+      "english": [
+        "Why are you busy today?"
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "941445",
+      "owner": "hayastan",
+      "french": "¿Estás ocupado ahora?",
+      "english": [
+        "Are you busy now?"
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "950688",
+      "owner": "hayastan",
+      "french": "Está muy ocupada.",
+      "english": [
+        "She is very busy."
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "955566",
+      "owner": "cueyayotl",
+      "french": "Ella está muy ocupada.",
+      "english": [
+        "She is very busy."
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "975946",
+      "owner": "Shishir",
+      "french": "Está en la oficina.",
+      "english": [
+        "He's at the office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "1102380",
+      "owner": "Shishir",
+      "french": "Mi teléfono es bonito.",
+      "english": [
+        "My phone is beautiful.",
+        "My telephone is pretty."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "1130869",
+      "owner": "Shishir",
+      "french": "Hoy Tom está muy ocupado.",
+      "english": [
+        "Tom is extremely busy today."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "1144113",
+      "owner": "Shishir",
+      "french": "¿Ella trabaja en la cocina?",
+      "english": [
+        "Does she work in the kitchen?"
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "1165305",
+      "owner": "marcelostockle",
+      "french": "¿Qué es tu trabajo?",
+      "english": [
+        "What's your job?"
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "1172714",
+      "owner": "marcelostockle",
+      "french": "Tom está en el teléfono.",
+      "english": [
+        "Tom is on the phone."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "1173950",
+      "owner": "marcelostockle",
+      "french": "Tom no está en la oficina.",
+      "english": [
+        "Tom's not in the office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "1190129",
+      "owner": "marcelostockle",
+      "french": "Él es mi jefe.",
+      "english": [
+        "He is my boss.",
+        "This is my boss."
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "1249616",
+      "owner": "Shishir",
+      "french": "¿Dónde está el jefe?",
+      "english": [
+        "Where's the boss?"
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "1260715",
+      "owner": "hayastan",
+      "french": "La computadora es nueva.",
+      "english": [
+        "The computer is new."
+      ],
+      "forms": [
+        "computadora"
+      ]
+    },
+    {
+      "source_id": "1282061",
+      "owner": "Shishir",
+      "french": "Tienes un teléfono.",
+      "english": [
+        "You have a telephone."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "1283966",
+      "owner": "marcelostockle",
+      "french": "Ella está ocupada.",
+      "english": [
+        "She's busy."
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "1306030",
+      "owner": "marcelostockle",
+      "french": "Es mi trabajo.",
+      "english": [
+        "It's work.",
+        "It's my job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "1314055",
+      "owner": "Shishir",
+      "french": "Ahora está en el trabajo.",
+      "english": [
+        "She is at work right now."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "1355717",
+      "owner": "marcelostockle",
+      "french": "Ella está en una reunión.",
+      "english": [
+        "She's at a meeting."
+      ],
+      "forms": [
+        "reunión"
+      ]
+    },
+    {
+      "source_id": "1361862",
+      "owner": "marcelostockle",
+      "french": "Estoy cansado de mi trabajo.",
+      "english": [
+        "I am tired of my work."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "1386007",
+      "owner": "marcelostockle",
+      "french": "Tom está en el trabajo.",
+      "english": [
+        "Tom is at work."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "1425079",
+      "owner": "peibolvig",
+      "french": "¿Está ocupado hoy?",
+      "english": [
+        "Are you busy today?"
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "1476329",
+      "owner": "marcelostockle",
+      "french": "Tienes un teléfono en tu casa.",
+      "english": [
+        "You have a telephone at your house."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "1496966",
+      "owner": "marcelostockle",
+      "french": "Hoy tengo una reunión.",
+      "english": [
+        "I have a meeting today."
+      ],
+      "forms": [
+        "reunión"
+      ]
+    },
+    {
+      "source_id": "1498537",
+      "owner": "marcelostockle",
+      "french": "Me gusta mi nuevo trabajo.",
+      "english": [
+        "I like my new job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "1530611",
+      "owner": "marcelostockle",
+      "french": "Tom no va al trabajo el domingo.",
+      "english": [
+        "Tom doesn't go to work on Sunday."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "1535506",
+      "owner": "marcelostockle",
+      "french": "Mañana trabajo.",
+      "english": [
+        "I'm working tomorrow."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "1547965",
+      "owner": "marcelostockle",
+      "french": "¿Hay un teléfono aquí?",
+      "english": [
+        "Is there a telephone here?"
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "1597364",
+      "owner": "hayastan",
+      "french": "Él está muy ocupado ahora.",
+      "english": [
+        "He is very busy now."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "1660984",
+      "owner": "wallebot",
+      "french": "Tengo el día muy ocupado.",
+      "english": [
+        "I'm very busy today."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "1660985",
+      "owner": "wallebot",
+      "french": "Hoy estoy muy ocupado.",
+      "english": [
+        "I'm very busy today."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "1664837",
+      "owner": "hayastan",
+      "french": "La puerta de la oficina es amarilla.",
+      "english": [
+        "The door of the office is yellow."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "1703010",
+      "owner": "marcelostockle",
+      "french": "Ahora no estoy ocupado.",
+      "english": [
+        "I'm not busy now."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "1703011",
+      "owner": "marcelostockle",
+      "french": "No estoy ocupada ahora.",
+      "english": [
+        "I'm not busy now."
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "1807480",
+      "owner": "marcelostockle",
+      "french": "Me gusta tu trabajo.",
+      "english": [
+        "I like your work.",
+        "I like your job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "1827578",
+      "owner": "marcelostockle",
+      "french": "¿Dónde trabaja él?",
+      "english": [
+        "Where does he work?"
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "1829243",
+      "owner": "Shishir",
+      "french": "¿Él trabaja?",
+      "english": [
+        "Does he work?",
+        "Does he have a job?"
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "1831168",
+      "owner": "Shishir",
+      "french": "Me gusta tu teléfono.",
+      "english": [
+        "I like your phone."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "1881147",
+      "owner": "radu107",
+      "french": "No estoy ocupado ahora.",
+      "english": [
+        "I am not busy now."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "1883309",
+      "owner": "marcelostockle",
+      "french": "¿Quién es el jefe aquí?",
+      "english": [
+        "Who is the boss here?"
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "1890399",
+      "owner": "teskmon",
+      "french": "Esta es mi oficina.",
+      "english": [
+        "This is my office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "1901152",
+      "owner": "marcelostockle",
+      "french": "Este es mi teléfono.",
+      "english": [
+        "This is my phone."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "1993312",
+      "owner": "Shishir",
+      "french": "Estoy muy ocupada.",
+      "english": [
+        "I'm very busy.",
+        "I'm busy as a bee."
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "1993757",
+      "owner": "marcelostockle",
+      "french": "¿De quién es esta oficina?",
+      "english": [
+        "Whose office is this?"
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "2005792",
+      "owner": "marcelostockle",
+      "french": "Estoy muy ocupado esta semana.",
+      "english": [
+        "I'm very busy this week."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "2024842",
+      "owner": "Shishir",
+      "french": "¿Dónde está mi teléfono?",
+      "english": [
+        "Where's my phone?"
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "2061869",
+      "owner": "lazarus1907",
+      "french": "No va a la oficina el sábado.",
+      "english": [
+        "He doesn't go to the office on Saturday."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "2115549",
+      "owner": "marcelostockle",
+      "french": "Él está en su oficina.",
+      "english": [
+        "He is at his office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "2139080",
+      "owner": "Shishir",
+      "french": "No trabajo el domingo.",
+      "english": [
+        "I don't work on Sunday."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "2194577",
+      "owner": "Shishir",
+      "french": "¿Te gusta tu jefe?",
+      "english": [
+        "Do you like your boss?"
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "2210165",
+      "owner": "Shishir",
+      "french": "¿Por qué estás ocupada hoy?",
+      "english": [
+        "Why are you busy today?"
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "2246849",
+      "owner": "Shishir",
+      "french": "Ahora estoy en el trabajo.",
+      "english": [
+        "I'm at work now."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "2278537",
+      "owner": "Shishir",
+      "french": "Tom no trabaja aquí.",
+      "english": [
+        "Tom doesn't work here."
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "2378807",
+      "owner": "hayastan",
+      "french": "No me gusta mi trabajo.",
+      "english": [
+        "I don't like my job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "2453973",
+      "owner": "hayastan",
+      "french": "¿Dónde está la oficina de Tom?",
+      "english": [
+        "Where's Tom's office?"
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "2456645",
+      "owner": "hayastan",
+      "french": "Soy el jefe de Tom.",
+      "english": [
+        "I'm Tom's boss."
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "2474720",
+      "owner": "hayastan",
+      "french": "Soy tu jefa.",
+      "english": [
+        "I'm your boss."
+      ],
+      "forms": [
+        "jefa"
+      ]
+    },
+    {
+      "source_id": "2532418",
+      "owner": "Shishir",
+      "french": "Es su trabajo.",
+      "english": [
+        "It's their job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "2597641",
+      "owner": "hayastan",
+      "french": "Esta es la oficina de Tom.",
+      "english": [
+        "It's Tom's office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "2817611",
+      "owner": "marcelostockle",
+      "french": "Este es mi trabajo.",
+      "english": [
+        "This is my job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "2823893",
+      "owner": "Shishir",
+      "french": "¿Trabaja en la cocina?",
+      "english": [
+        "Does she work in the kitchen?"
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "2869479",
+      "owner": "cueyayotl",
+      "french": "Es el trabajo de Tom.",
+      "english": [
+        "It's Tom's job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "2881091",
+      "owner": "cueyayotl",
+      "french": "¿Está usted ocupado?",
+      "english": [
+        "Are you busy?"
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "2881093",
+      "owner": "cueyayotl",
+      "french": "¿Está usted ocupada?",
+      "english": [
+        "Are you busy?"
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "2932086",
+      "owner": "don_ramon",
+      "french": "¿Estás ocupado el lunes?",
+      "english": [
+        "Are you busy on Monday?"
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "2979931",
+      "owner": "hayastan",
+      "french": "Tom no está ocupado.",
+      "english": [
+        "Tom isn't busy."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "2995578",
+      "owner": "marcelostockle",
+      "french": "Tom tiene un trabajo.",
+      "english": [
+        "Tom has a job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "3039922",
+      "owner": "hayastan",
+      "french": "Tom es el nuevo jefe.",
+      "english": [
+        "Tom is the new boss."
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "3135464",
+      "owner": "marcelostockle",
+      "french": "¿Por qué Tom trabaja en casa?",
+      "english": [
+        "Why does Tom work at home?"
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "3141958",
+      "owner": "cueyayotl",
+      "french": "Esta es mi computadora.",
+      "english": [
+        "This is my computer."
+      ],
+      "forms": [
+        "computadora"
+      ]
+    },
+    {
+      "source_id": "3300184",
+      "owner": "gianich73",
+      "french": "¿Usted tiene un teléfono?",
+      "english": [
+        "Do you have a phone?"
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "3300185",
+      "owner": "gianich73",
+      "french": "¿Ella tiene un teléfono?",
+      "english": [
+        "Has she got a phone?"
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "3315985",
+      "owner": "Shishir",
+      "french": "Tom es un hombre muy ocupado.",
+      "english": [
+        "Tom is a very busy man."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "3419128",
+      "owner": "Shishir",
+      "french": "Trabajo en la tienda de mi amigo.",
+      "english": [
+        "I work at my friend's shop."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "3563920",
+      "owner": "marcelostockle",
+      "french": "Ella está en la oficina.",
+      "english": [
+        "She is at the office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "3780204",
+      "owner": "marcelostockle",
+      "french": "Tom está en la oficina de María.",
+      "english": [
+        "Tom is in Mary's office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "3878460",
+      "owner": "heyanapau",
+      "french": "Me gusta esta oficina.",
+      "english": [
+        "I like this office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "4375245",
+      "owner": "pchamorro",
+      "french": "Estamos en una reunión.",
+      "english": [
+        "We are having a meeting.",
+        "We're having a meeting.",
+        "We are at a gathering."
+      ],
+      "forms": [
+        "reunión"
+      ]
+    },
+    {
+      "source_id": "4463366",
+      "owner": "cueyayotl",
+      "french": "Tom es muy bueno en su trabajo.",
+      "english": [
+        "Tom is really good at his job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "4506026",
+      "owner": "cueyayotl",
+      "french": "Esto trabaja.",
+      "english": [
+        "This works."
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "4557032",
+      "owner": "swyter",
+      "french": "Estoy ocupado en la oficina.",
+      "english": [
+        "I am tied up at the office."
+      ],
+      "forms": [
+        "ocupado",
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "4599249",
+      "owner": "Shishir",
+      "french": "¿Trabaja aquí?",
+      "english": [
+        "Does he work here?"
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "4603222",
+      "owner": "Francisco_M",
+      "french": "Me gusta mi trabajo.",
+      "english": [
+        "I like my job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "4692483",
+      "owner": "DarkHollow",
+      "french": "Hay un teléfono en la cocina.",
+      "english": [
+        "There's a phone in the kitchen."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "4725531",
+      "owner": "Shishir",
+      "french": "Voy a una reunión.",
+      "english": [
+        "I'm going to a meeting."
+      ],
+      "forms": [
+        "reunión"
+      ]
+    },
+    {
+      "source_id": "4727870",
+      "owner": "Shishir",
+      "french": "¿A qué hora es la reunión?",
+      "english": [
+        "What time is the meeting?",
+        "What time's the meeting?"
+      ],
+      "forms": [
+        "reunión"
+      ]
+    },
+    {
+      "source_id": "4735796",
+      "owner": "cueyayotl",
+      "french": "El profesor está en el teléfono.",
+      "english": [
+        "The teacher is on the phone.",
+        "The professor is on the phone."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "4781870",
+      "owner": "marcelostockle",
+      "french": "¿Quién es su profesor jefe?",
+      "english": [
+        "Who is their homeroom teacher?"
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "4861639",
+      "owner": "ecorralest101",
+      "french": "Hoy no trabajo.",
+      "english": [
+        "I'm not working today."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "4954807",
+      "owner": "DarkHollow",
+      "french": "¿Por qué no estás en tu oficina?",
+      "english": [
+        "Why aren't you in your office?"
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "5017762",
+      "owner": "don_ramon",
+      "french": "¿Hoy trabajas?",
+      "english": [
+        "Are you working today?"
+      ],
+      "forms": [
+        "trabajas"
+      ]
+    },
+    {
+      "source_id": "5017769",
+      "owner": "don_ramon",
+      "french": "Trabajo de profesor.",
+      "english": [
+        "I work as a teacher."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "5017786",
+      "owner": "don_ramon",
+      "french": "Me gusta este trabajo.",
+      "english": [
+        "I like this job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "5022875",
+      "owner": "don_ramon",
+      "french": "No hay trabajo aquí.",
+      "english": [
+        "There are no jobs here."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "5057089",
+      "owner": "don_ramon",
+      "french": "Eso es trabajo de mujeres.",
+      "english": [
+        "That's a woman's job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "5057091",
+      "owner": "don_ramon",
+      "french": "Eso es trabajo de hombres.",
+      "english": [
+        "That's a man's job."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "5097786",
+      "owner": "don_ramon",
+      "french": "Tengo una computadora.",
+      "english": [
+        "I own a computer."
+      ],
+      "forms": [
+        "computadora"
+      ]
+    },
+    {
+      "source_id": "5207847",
+      "owner": "diegocas33",
+      "french": "El teléfono es rojo.",
+      "english": [
+        "The telephone is red."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "5322263",
+      "owner": "baudelaire",
+      "french": "Estoy ocupada.",
+      "english": [
+        "I am busy."
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "5752548",
+      "owner": "arh",
+      "french": "Tom está ocupado.",
+      "english": [
+        "Tom's busy.",
+        "Tom is busy."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "5769376",
+      "owner": "arh",
+      "french": "¿Trabajas el lunes?",
+      "english": [
+        "Do you work on Monday?"
+      ],
+      "forms": [
+        "trabajas"
+      ]
+    },
+    {
+      "source_id": "5854920",
+      "owner": "arh",
+      "french": "Tom no está en su oficina.",
+      "english": [
+        "Tom isn't in his office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "5979680",
+      "owner": "diegohn",
+      "french": "Ahora soy un hombre ocupado.",
+      "english": [
+        "I'm a busy man right now."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "6610342",
+      "owner": "UsuarioX",
+      "french": "Tom trabaja allí.",
+      "english": [
+        "Tom works there."
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "6686540",
+      "owner": "arh",
+      "french": "¿Cómo voy a la oficina?",
+      "english": [
+        "How do I go to the office?"
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "6692228",
+      "owner": "UsuarioX",
+      "french": "¿Él tiene trabajo?",
+      "english": [
+        "Does he have a job?"
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "6730194",
+      "owner": "arh",
+      "french": "Como en el trabajo.",
+      "english": [
+        "I eat at work."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "6760499",
+      "owner": "swyter",
+      "french": "Tu mujer está en la oficina.",
+      "english": [
+        "Your wife is in your office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "6919757",
+      "owner": "diegohn",
+      "french": "¿Estás en el trabajo?",
+      "english": [
+        "Are you at work?"
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "6989157",
+      "owner": "cueyayotl",
+      "french": "¿Dónde trabaja?",
+      "english": [
+        "Where do you work?",
+        "Where does he work?",
+        "Where does she work?"
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "7256820",
+      "owner": "arh",
+      "french": "Estoy ocupado el sábado.",
+      "english": [
+        "I'm busy on Saturday."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "7274483",
+      "owner": "cueyayotl",
+      "french": "Estoy en el teléfono.",
+      "english": [
+        "I'm on the phone."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "7563478",
+      "owner": "arh",
+      "french": "La reunión es mañana.",
+      "english": [
+        "The meeting is tomorrow."
+      ],
+      "forms": [
+        "reunión"
+      ]
+    },
+    {
+      "source_id": "7918540",
+      "owner": "arh",
+      "french": "Ahora no tengo trabajo.",
+      "english": [
+        "I don't have a job now."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "7943993",
+      "owner": "Seael",
+      "french": "Estoy al teléfono.",
+      "english": [
+        "I'm on the phone."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "7966782",
+      "owner": "pchamorro",
+      "french": "Tom no tiene una oficina.",
+      "english": [
+        "Tom doesn't have an office."
+      ],
+      "forms": [
+        "oficina"
+      ]
+    },
+    {
+      "source_id": "8769826",
+      "owner": "SemperAutumnus",
+      "french": "Tom está ocupado, ¿no?",
+      "english": [
+        "Tom is busy, isn't he?"
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "9370298",
+      "owner": "Shishir",
+      "french": "Ella trabaja en la escuela.",
+      "english": [
+        "She works at the school."
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "9444302",
+      "owner": "Shishir",
+      "french": "Estoy en el trabajo.",
+      "english": [
+        "I'm at work."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "9685210",
+      "owner": "Shishir",
+      "french": "Tom es mi jefe.",
+      "english": [
+        "Tom is my boss."
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "9706683",
+      "owner": "Shishir",
+      "french": "Soy el jefe.",
+      "english": [
+        "I'm the boss."
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "9855724",
+      "owner": "Shishir",
+      "french": "Ahora soy tu jefe.",
+      "english": [
+        "I'm your boss now."
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "10016298",
+      "owner": "Shishir",
+      "french": "Aquí él es el jefe.",
+      "english": [
+        "He's the boss here."
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "10028155",
+      "owner": "dagonzalezce",
+      "french": "Tom está muy ocupado en el trabajo.",
+      "english": [
+        "Tom is very busy at work."
+      ],
+      "forms": [
+        "ocupado",
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "10110737",
+      "owner": "escudo119",
+      "french": "Ella es la jefa.",
+      "english": [
+        "She's the boss."
+      ],
+      "forms": [
+        "jefa"
+      ]
+    },
+    {
+      "source_id": "10147613",
+      "owner": "Shishir",
+      "french": "¿Dónde trabaja ahora?",
+      "english": [
+        "Where does he work now?"
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "10211568",
+      "owner": "manufrutos",
+      "french": "¿Dónde trabaja Tom?",
+      "english": [
+        "Where does Tom work?"
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "10363056",
+      "owner": "Seael",
+      "french": "Ahora tu jefe soy yo.",
+      "english": [
+        "I'm your boss now."
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "10363058",
+      "owner": "Seael",
+      "french": "Ahora tu jefa soy yo.",
+      "english": [
+        "I'm your boss now."
+      ],
+      "forms": [
+        "jefa"
+      ]
+    },
+    {
+      "source_id": "10363060",
+      "owner": "Seael",
+      "french": "Ahora soy tu jefa.",
+      "english": [
+        "I'm your boss now."
+      ],
+      "forms": [
+        "jefa"
+      ]
+    },
+    {
+      "source_id": "10664640",
+      "owner": "Shishir",
+      "french": "Tom no es el jefe.",
+      "english": [
+        "Tom isn't the boss."
+      ],
+      "forms": [
+        "jefe"
+      ]
+    },
+    {
+      "source_id": "11578258",
+      "owner": "Shishir",
+      "french": "Mañana no trabajo.",
+      "english": [
+        "I don't work tomorrow."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "12280208",
+      "owner": "JoseSugaray",
+      "french": "Es trabajo.",
+      "english": [
+        "It's work."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "12442005",
+      "owner": "emma_zunz",
+      "french": "Estoy muy ocupado ahora.",
+      "english": [
+        "I'm very busy now."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "12442006",
+      "owner": "emma_zunz",
+      "french": "Estoy muy ocupada ahora.",
+      "english": [
+        "I'm very busy now."
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "12470405",
+      "owner": "Shishir",
+      "french": "Ahora trabajo aquí.",
+      "english": [
+        "I work here now."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "12713903",
+      "owner": "ecorralest101",
+      "french": "¿Trabaja él aquí?",
+      "english": [
+        "Does he work here?"
+      ],
+      "forms": [
+        "trabaja"
+      ]
+    },
+    {
+      "source_id": "12881936",
+      "owner": "ecorralest101",
+      "french": "¿Tienes un trabajo?",
+      "english": [
+        "Do you have a job?"
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    },
+    {
+      "source_id": "13370568",
+      "owner": "Lernema",
+      "french": "Estoy ocupado mañana.",
+      "english": [
+        "I'm busy tomorrow."
+      ],
+      "forms": [
+        "ocupado"
+      ]
+    },
+    {
+      "source_id": "13527034",
+      "owner": "Seael",
+      "french": "No, está ocupada.",
+      "english": [
+        "No, she's busy."
+      ],
+      "forms": [
+        "ocupada"
+      ]
+    },
+    {
+      "source_id": "13709368",
+      "owner": "ecorralest101",
+      "french": "Tengo un teléfono.",
+      "english": [
+        "I have a phone."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "13709586",
+      "owner": "ecorralest101",
+      "french": "Tengo un teléfono nuevo.",
+      "english": [
+        "I have a new phone.",
+        "I've got a new phone."
+      ],
+      "forms": [
+        "teléfono"
+      ]
+    },
+    {
+      "source_id": "13709600",
+      "owner": "ecorralest101",
+      "french": "Tengo una computadora nueva.",
+      "english": [
+        "I have a new computer."
+      ],
+      "forms": [
+        "computadora"
+      ]
+    },
+    {
+      "source_id": "13709821",
+      "owner": "ecorralest101",
+      "french": "¿Tienes una computadora?",
+      "english": [
+        "Do you have a computer?"
+      ],
+      "forms": [
+        "computadora"
+      ]
+    },
+    {
+      "source_id": "13720424",
+      "owner": "ecorralest101",
+      "french": "El trabajo va bien.",
+      "english": [
+        "Work is going well."
+      ],
+      "forms": [
+        "trabajo"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "topic": "Supermarket",
+  "words": [
+    "carne",
+    "pollo",
+    "arroz",
+    "plátano",
+    "tomate",
+    "huevo",
+    "huevos",
+    "mantequilla",
+    "supermercado"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "2756",
+      "owner": "Shishir",
+      "french": "Por favor, ¿dónde están los huevos?",
+      "english": [
+        "Where are the eggs, please?"
+      ],
+      "forms": [
+        "huevos"
+      ]
+    },
+    {
+      "source_id": "501961",
+      "owner": "Shishir",
+      "french": "Carne, por favor.",
+      "english": [
+        "Meat, please."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "791585",
+      "owner": "Shishir",
+      "french": "Tengo un huevo.",
+      "english": [
+        "I have an egg."
+      ],
+      "forms": [
+        "huevo"
+      ]
+    },
+    {
+      "source_id": "888600",
+      "owner": "Shishir",
+      "french": "¿Tienes arroz?",
+      "english": [
+        "Do you have rice?"
+      ],
+      "forms": [
+        "arroz"
+      ]
+    },
+    {
+      "source_id": "1001801",
+      "owner": "hayastan",
+      "french": "¿Cuántos huevos hay en la cocina?",
+      "english": [
+        "How many eggs are there in the kitchen?"
+      ],
+      "forms": [
+        "huevos"
+      ]
+    },
+    {
+      "source_id": "1142888",
+      "owner": "Shishir",
+      "french": "Como un plátano.",
+      "english": [
+        "I eat a banana."
+      ],
+      "forms": [
+        "plátano"
+      ]
+    },
+    {
+      "source_id": "1258417",
+      "owner": "hayastan",
+      "french": "Me gusta el pollo.",
+      "english": [
+        "I love chicken.",
+        "I like chicken."
+      ],
+      "forms": [
+        "pollo"
+      ]
+    },
+    {
+      "source_id": "1386623",
+      "owner": "marcelostockle",
+      "french": "Tom no come carne.",
+      "english": [
+        "Tom doesn't eat meat.",
+        "Tom doesn't eat any meat."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "1442322",
+      "owner": "marcelostockle",
+      "french": "¿Tienen arroz?",
+      "english": [
+        "Do you have rice?"
+      ],
+      "forms": [
+        "arroz"
+      ]
+    },
+    {
+      "source_id": "1550982",
+      "owner": "marcelostockle",
+      "french": "No como carne.",
+      "english": [
+        "I don't eat meat."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "1560351",
+      "owner": "marcelostockle",
+      "french": "¿Comes carne?",
+      "english": [
+        "Do you eat meat?"
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "2108646",
+      "owner": "marcelostockle",
+      "french": "Tú tienes carne.",
+      "english": [
+        "You have meat."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "2125254",
+      "owner": "Shishir",
+      "french": "Esta carne es buena.",
+      "english": [
+        "This meat is good."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "2335208",
+      "owner": "marcelostockle",
+      "french": "Ellos comen carne.",
+      "english": [
+        "They eat meat."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "2364890",
+      "owner": "Shishir",
+      "french": "Los gatos no comen plátano.",
+      "english": [
+        "Cats don't eat bananas."
+      ],
+      "forms": [
+        "plátano"
+      ]
+    },
+    {
+      "source_id": "2772982",
+      "owner": "marcelostockle",
+      "french": "Esta es carne buena.",
+      "english": [
+        "This is good meat."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "3069108",
+      "owner": "marcelostockle",
+      "french": "Yo como carne.",
+      "english": [
+        "I eat meat."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "3241110",
+      "owner": "Shishir",
+      "french": "¿Tienes huevos?",
+      "english": [
+        "Do you have eggs?"
+      ],
+      "forms": [
+        "huevos"
+      ]
+    },
+    {
+      "source_id": "3717533",
+      "owner": "Seael",
+      "french": "El plátano es amarillo.",
+      "english": [
+        "A banana is yellow."
+      ],
+      "forms": [
+        "plátano"
+      ]
+    },
+    {
+      "source_id": "3834430",
+      "owner": "cueyayotl",
+      "french": "Tienes carne.",
+      "english": [
+        "You have meat."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "4439009",
+      "owner": "Shishir",
+      "french": "Son huevos.",
+      "english": [
+        "They're eggs."
+      ],
+      "forms": [
+        "huevos"
+      ]
+    },
+    {
+      "source_id": "4482208",
+      "owner": "cueyayotl",
+      "french": "Me gusta el arroz.",
+      "english": [
+        "I like rice."
+      ],
+      "forms": [
+        "arroz"
+      ]
+    },
+    {
+      "source_id": "5036787",
+      "owner": "Shishir",
+      "french": "Tom no come carne roja.",
+      "english": [
+        "Tom doesn't eat red meat."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "6682414",
+      "owner": "arh",
+      "french": "Cocina el arroz.",
+      "english": [
+        "Cook the rice."
+      ],
+      "forms": [
+        "arroz"
+      ]
+    },
+    {
+      "source_id": "6686539",
+      "owner": "arh",
+      "french": "¿Cómo voy al supermercado?",
+      "english": [
+        "How do I get to the supermarket?"
+      ],
+      "forms": [
+        "supermercado"
+      ]
+    },
+    {
+      "source_id": "7859572",
+      "owner": "arh",
+      "french": "¿Dónde están los huevos?",
+      "english": [
+        "Where are the eggs?"
+      ],
+      "forms": [
+        "huevos"
+      ]
+    },
+    {
+      "source_id": "8258841",
+      "owner": "fpp",
+      "french": "Pollo, por favor.",
+      "english": [
+        "Chicken, please."
+      ],
+      "forms": [
+        "pollo"
+      ]
+    },
+    {
+      "source_id": "8348448",
+      "owner": "adroguense",
+      "french": "Esto es arroz.",
+      "english": [
+        "This is rice."
+      ],
+      "forms": [
+        "arroz"
+      ]
+    },
+    {
+      "source_id": "8348449",
+      "owner": "adroguense",
+      "french": "Esto es carne.",
+      "english": [
+        "This is meat."
+      ],
+      "forms": [
+        "carne"
+      ]
+    },
+    {
+      "source_id": "9663258",
+      "owner": "baudelaire",
+      "french": "Hay un supermercado grande.",
+      "english": [
+        "There is a large supermarket.",
+        "There's a large supermarket."
+      ],
+      "forms": [
+        "supermercado"
+      ]
+    },
+    {
+      "source_id": "10000885",
+      "owner": "Shishir",
+      "french": "¿Usted tiene arroz?",
+      "english": [
+        "Do you have rice?"
+      ],
+      "forms": [
+        "arroz"
+      ]
+    },
+    {
+      "source_id": "10178543",
+      "owner": "Seael",
+      "french": "Me como un plátano.",
+      "english": [
+        "I eat a banana."
+      ],
+      "forms": [
+        "plátano"
+      ]
+    },
+    {
+      "source_id": "13874980",
+      "owner": "ecorralest101",
+      "french": "Tom come carne.",
+      "english": [
+        "Tom eats meat."
+      ],
+      "forms": [
+        "carne"
+      ]
+    }
+  ]
+}

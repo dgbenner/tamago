@@ -4,23 +4,29 @@
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { loadTatoeba } from './lib/tatoeba.mjs'
+import { at, COURSE } from './lib/course.mjs'
 import { analyse, formIndexFor, loose, norm } from './lib/french.mjs'
 
 const ROOT = join(import.meta.dirname, '..')
-const raw = (t) => JSON.parse(readFileSync(join(ROOT, `content/raw/${t}.json`), 'utf8'))
-const OUT = join(ROOT, 'content/sweep/packs')
+const raw = (t) => JSON.parse(readFileSync(at(`content/raw/${t}.json`), 'utf8'))
+const OUT = at('content/sweep/packs')
 mkdirSync(OUT, { recursive: true })
-export const TOPICS = JSON.parse(readFileSync(join(ROOT, 'content/sweep/pack-words.json'), 'utf8'))
+export const TOPICS = JSON.parse(readFileSync(at('content/sweep/pack-words.json'), 'utf8'))
 
 const words = raw('words')
-const BASE_UNITS = process.env.ALL_A1 ? ['U01', 'U02', 'U03', 'U04', 'U05', 'U06', 'U07', 'U08', 'U09', 'U10', 'U11', 'U12', 'U13'] : ['U01', 'U02', 'U03', 'U04', 'U05'] // the first seven packs' rule; ALL_A1 measures the alternative
+const MAIN = raw('units').filter((u) => !['yes', 'node'].includes(u.is_topic_pick)).sort((a, b) => a.order - b.order).map((u) => u.unit_id)
+const BASE_UNITS = process.env.ALL_A1 ? MAIN : MAIN.slice(0, 5) // all of A1 (13 French units, 15 Spanish), or Units 1 to 5 // the first seven packs' rule; ALL_A1 measures the alternative
 const base = words.filter((w) => BASE_UNITS.includes(w.first_unit))
 const taken = new Set(raw('sentences').map((s) => loose(s.french)))
 const existingForms = new Set(words.map((w) => w.form))
-const NAMES = new Set(raw('sentence_words').filter((r) => r.notes === 'name').map((r) => String(r.surface).toLowerCase()))
+const DECISIONS = JSON.parse(readFileSync(at('content/review-decisions.json'), 'utf8'))
+const NAMES = new Set([...raw('sentence_words').filter((r) => r.notes === 'name').map((r) => String(r.surface)), ...(DECISIONS.names ?? [])].map((x) => x.toLowerCase()))
 const tatoeba = loadTatoeba()
+// A sentence turned down anywhere in the course stays out.
+const REVIEW = (() => { try { return JSON.parse(readFileSync(at('content/sweep/packs-review.json'), 'utf8')) } catch { return {} } })()
+const turnedDown = new Set(Object.values(REVIEW).flatMap((r) => Object.keys(r?.reject ?? {})))
 const trusted = (s) => { const t = tatoeba.trustOf(s); return t.native_owner || t.ok_tag }
-const pool = tatoeba.french.filter((s) => trusted(s) && !/\d/.test(s.text) && !taken.has(loose(s.text)))
+const pool = tatoeba.french.filter((s) => trusted(s) && !/\d/.test(s.text) && !taken.has(loose(s.text)) && !turnedDown.has(String(s.id)))
 const only = process.argv[2]
 for (const [id, t] of Object.entries(TOPICS)) {
   if (only && id !== only) continue

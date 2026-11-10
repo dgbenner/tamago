@@ -1,0 +1,657 @@
+{
+  "topic": "At the doctor",
+  "words": [
+    "doctor",
+    "doctora",
+    "hospital",
+    "enfermera",
+    "fiebre",
+    "cabeza",
+    "dolor",
+    "duele",
+    "salud"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "497525",
+      "owner": "Shishir",
+      "french": "La chica es enfermera.",
+      "english": [
+        "The girl is a nurse."
+      ],
+      "forms": [
+        "enfermera"
+      ]
+    },
+    {
+      "source_id": "531719",
+      "owner": "Shishir",
+      "french": "Eres un doctor.",
+      "english": [
+        "You are a doctor."
+      ],
+      "forms": [
+        "doctor"
+      ]
+    },
+    {
+      "source_id": "545580",
+      "owner": "Shishir",
+      "french": "Ellas no tienen fiebre.",
+      "english": [
+        "They don't have a fever."
+      ],
+      "forms": [
+        "fiebre"
+      ]
+    },
+    {
+      "source_id": "563719",
+      "owner": "Shishir",
+      "french": "Ella es una enfermera.",
+      "english": [
+        "She is a nurse."
+      ],
+      "forms": [
+        "enfermera"
+      ]
+    },
+    {
+      "source_id": "716547",
+      "owner": "Shishir",
+      "french": "¿Qué te duele?",
+      "english": [
+        "What hurts you?"
+      ],
+      "forms": [
+        "duele"
+      ]
+    },
+    {
+      "source_id": "856495",
+      "owner": "Rafp",
+      "french": "No tienes fiebre.",
+      "english": [
+        "You have no fever.",
+        "You don't have a fever."
+      ],
+      "forms": [
+        "fiebre"
+      ]
+    },
+    {
+      "source_id": "880442",
+      "owner": "Shishir",
+      "french": "No tiene fiebre.",
+      "english": [
+        "He doesn't have a fever."
+      ],
+      "forms": [
+        "fiebre"
+      ]
+    },
+    {
+      "source_id": "942467",
+      "owner": "hayastan",
+      "french": "Ella no es doctora.",
+      "english": [
+        "She's not a doctor."
+      ],
+      "forms": [
+        "doctora"
+      ]
+    },
+    {
+      "source_id": "977643",
+      "owner": "Shishir",
+      "french": "¿Tienes fiebre?",
+      "english": [
+        "Do you have a fever?"
+      ],
+      "forms": [
+        "fiebre"
+      ]
+    },
+    {
+      "source_id": "1006321",
+      "owner": "Shishir",
+      "french": "Soy doctor.",
+      "english": [
+        "I'm a doctor.",
+        "I am a doctor."
+      ],
+      "forms": [
+        "doctor"
+      ]
+    },
+    {
+      "source_id": "1057240",
+      "owner": "Shishir",
+      "french": "¿Te duele la cabeza?",
+      "english": [
+        "Have you got a headache?",
+        "Do you have a headache?",
+        "Does your head ache?"
+      ],
+      "forms": [
+        "duele",
+        "cabeza"
+      ]
+    },
+    {
+      "source_id": "1122247",
+      "owner": "Shishir",
+      "french": "¡Gracias, doctor!",
+      "english": [
+        "Thank you, Doctor."
+      ],
+      "forms": [
+        "doctor"
+      ]
+    },
+    {
+      "source_id": "1171976",
+      "owner": "Shishir",
+      "french": "¿Eso duele?",
+      "english": [
+        "Does that hurt?"
+      ],
+      "forms": [
+        "duele"
+      ]
+    },
+    {
+      "source_id": "1205482",
+      "owner": "marcelostockle",
+      "french": "Tú no tienes fiebre.",
+      "english": [
+        "You do not have a fever."
+      ],
+      "forms": [
+        "fiebre"
+      ]
+    },
+    {
+      "source_id": "1237112",
+      "owner": "Shishir",
+      "french": "Él está en el hospital.",
+      "english": [
+        "He is in hospital.",
+        "He's in the hospital.",
+        "He's in hospital.",
+        "He is in the hospital."
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "1237128",
+      "owner": "Shishir",
+      "french": "¿Es doctor?",
+      "english": [
+        "Is he a doctor?",
+        "Does he have a doctorate?",
+        "Are you a doctor?"
+      ],
+      "forms": [
+        "doctor"
+      ]
+    },
+    {
+      "source_id": "1253763",
+      "owner": "hayastan",
+      "french": "Me duele la cabeza ahora.",
+      "english": [
+        "I have a headache now."
+      ],
+      "forms": [
+        "duele",
+        "cabeza"
+      ]
+    },
+    {
+      "source_id": "1264320",
+      "owner": "Shishir",
+      "french": "No tengo fiebre.",
+      "english": [
+        "I have no fever.",
+        "I don't have a fever."
+      ],
+      "forms": [
+        "fiebre"
+      ]
+    },
+    {
+      "source_id": "1306048",
+      "owner": "marcelostockle",
+      "french": "Qué dolor.",
+      "english": [
+        "What a pain!"
+      ],
+      "forms": [
+        "dolor"
+      ]
+    },
+    {
+      "source_id": "1419972",
+      "owner": "marcelostockle",
+      "french": "Ella ahora está en el hospital.",
+      "english": [
+        "She's in the hospital now."
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "1421602",
+      "owner": "hayastan",
+      "french": "María tiene dolor de cabeza.",
+      "english": [
+        "Mary has a headache."
+      ],
+      "forms": [
+        "dolor",
+        "cabeza"
+      ]
+    },
+    {
+      "source_id": "1431291",
+      "owner": "marcelostockle",
+      "french": "Tom está muy bien de salud.",
+      "english": [
+        "Tom is in very good health."
+      ],
+      "forms": [
+        "salud"
+      ]
+    },
+    {
+      "source_id": "1431292",
+      "owner": "marcelostockle",
+      "french": "Tom está bien de salud.",
+      "english": [
+        "Tom is in good health."
+      ],
+      "forms": [
+        "salud"
+      ]
+    },
+    {
+      "source_id": "1458086",
+      "owner": "marcelostockle",
+      "french": "¿Cómo está tu salud?",
+      "english": [
+        "How is your health?"
+      ],
+      "forms": [
+        "salud"
+      ]
+    },
+    {
+      "source_id": "1498557",
+      "owner": "marcelostockle",
+      "french": "¿Ella es doctora?",
+      "english": [
+        "Is she a doctor?"
+      ],
+      "forms": [
+        "doctora"
+      ]
+    },
+    {
+      "source_id": "1530602",
+      "owner": "marcelostockle",
+      "french": "Tom no tiene fiebre.",
+      "english": [
+        "Tom doesn't have a fever."
+      ],
+      "forms": [
+        "fiebre"
+      ]
+    },
+    {
+      "source_id": "1666848",
+      "owner": "marcelostockle",
+      "french": "Aquí duele.",
+      "english": [
+        "It hurts here."
+      ],
+      "forms": [
+        "duele"
+      ]
+    },
+    {
+      "source_id": "1666849",
+      "owner": "marcelostockle",
+      "french": "¿Dónde hay un hospital?",
+      "english": [
+        "Where is a hospital?",
+        "Where is there a hospital?"
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "1666850",
+      "owner": "marcelostockle",
+      "french": "¿Dónde hay un doctor?",
+      "english": [
+        "Where is a doctor?"
+      ],
+      "forms": [
+        "doctor"
+      ]
+    },
+    {
+      "source_id": "1829423",
+      "owner": "Shishir",
+      "french": "Esto no es un hospital.",
+      "english": [
+        "This isn't a hospital."
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "1834074",
+      "owner": "Shishir",
+      "french": "Ahora está en el hospital.",
+      "english": [
+        "She is in hospital now."
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "2081216",
+      "owner": "lazarus1907",
+      "french": "Estás mal de la cabeza.",
+      "english": [
+        "You are deranged."
+      ],
+      "forms": [
+        "cabeza"
+      ]
+    },
+    {
+      "source_id": "2096338",
+      "owner": "Shishir",
+      "french": "Eso no es un hospital.",
+      "english": [
+        "It isn't a hospital."
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "2119510",
+      "owner": "Shishir",
+      "french": "Esto es un hospital.",
+      "english": [
+        "This is a hospital."
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "2267596",
+      "owner": "hayastan",
+      "french": "Estoy muy mal de salud.",
+      "english": [
+        "My health's very bad."
+      ],
+      "forms": [
+        "salud"
+      ]
+    },
+    {
+      "source_id": "2268436",
+      "owner": "cueyayotl",
+      "french": "El enfermo está en el hospital.",
+      "english": [
+        "The patient's in the hospital."
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "2358224",
+      "owner": "marcelostockle",
+      "french": "La mujer es una enfermera.",
+      "english": [
+        "The woman is a nurse."
+      ],
+      "forms": [
+        "enfermera"
+      ]
+    },
+    {
+      "source_id": "2465765",
+      "owner": "teskmon",
+      "french": "¿Dónde está el hospital?",
+      "english": [
+        "Where's the hospital?",
+        "Where is the hospital?"
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "2474719",
+      "owner": "hayastan",
+      "french": "Soy tu doctor.",
+      "english": [
+        "I'm your doctor."
+      ],
+      "forms": [
+        "doctor"
+      ]
+    },
+    {
+      "source_id": "2628737",
+      "owner": "Shishir",
+      "french": "Está en el hospital.",
+      "english": [
+        "He is in hospital.",
+        "He's in the hospital.",
+        "He's in hospital.",
+        "He is in the hospital."
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "2711406",
+      "owner": "Shishir",
+      "french": "Estoy en el hospital.",
+      "english": [
+        "I'm in the hospital."
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "2787411",
+      "owner": "cueyayotl",
+      "french": "La enfermera está enferma.",
+      "english": [
+        "The nurse is ill."
+      ],
+      "forms": [
+        "enfermera"
+      ]
+    },
+    {
+      "source_id": "2883805",
+      "owner": "cueyayotl",
+      "french": "Soy un doctor. ¿Y tú?",
+      "english": [
+        "I'm a doctor. How about you?"
+      ],
+      "forms": [
+        "doctor"
+      ]
+    },
+    {
+      "source_id": "3148593",
+      "owner": "Shishir",
+      "french": "Tom no está en el hospital.",
+      "english": [
+        "Tom's not in the hospital.",
+        "Tom is not in hospital.",
+        "Tom's not in hospital.",
+        "Tom isn't in the hospital."
+      ],
+      "forms": [
+        "hospital"
+      ]
+    },
+    {
+      "source_id": "3192843",
+      "owner": "cueyayotl",
+      "french": "No duele.",
+      "english": [
+        "It doesn't hurt."
+      ],
+      "forms": [
+        "duele"
+      ]
+    },
+    {
+      "source_id": "4371654",
+      "owner": "pchamorro",
+      "french": "Tom es un doctor ahora.",
+      "english": [
+        "Tom is a doctor now."
+      ],
+      "forms": [
+        "doctor"
+      ]
+    },
+    {
+      "source_id": "4506128",
+      "owner": "cueyayotl",
+      "french": "¿Duele esto?",
+      "english": [
+        "Does this hurt?"
+      ],
+      "forms": [
+        "duele"
+      ]
+    },
+    {
+      "source_id": "4506130",
+      "owner": "cueyayotl",
+      "french": "¿Te duele esto?",
+      "english": [
+        "Does this hurt?"
+      ],
+      "forms": [
+        "duele"
+      ]
+    },
+    {
+      "source_id": "4649922",
+      "owner": "cueyayotl",
+      "french": "No soy doctor.",
+      "english": [
+        "I'm not a doctor."
+      ],
+      "forms": [
+        "doctor"
+      ]
+    },
+    {
+      "source_id": "7842349",
+      "owner": "Seael",
+      "french": "¿Cómo va la salud de Tom?",
+      "english": [
+        "How is Tom's health?",
+        "How's Tom's health?"
+      ],
+      "forms": [
+        "salud"
+      ]
+    },
+    {
+      "source_id": "7871977",
+      "owner": "Seael",
+      "french": "Estoy cansado y tengo dolor de cabeza.",
+      "english": [
+        "I'm tired and I have a headache.",
+        "I’m tired and my head hurts."
+      ],
+      "forms": [
+        "dolor",
+        "cabeza"
+      ]
+    },
+    {
+      "source_id": "7872777",
+      "owner": "arh",
+      "french": "Aquí no está la enfermera.",
+      "english": [
+        "The nurse is not here."
+      ],
+      "forms": [
+        "enfermera"
+      ]
+    },
+    {
+      "source_id": "7942448",
+      "owner": "arh",
+      "french": "Están muy mal de salud.",
+      "english": [
+        "They are in very bad health."
+      ],
+      "forms": [
+        "salud"
+      ]
+    },
+    {
+      "source_id": "10093235",
+      "owner": "manufrutos",
+      "french": "¿Cómo estás de salud?",
+      "english": [
+        "How's your health?"
+      ],
+      "forms": [
+        "salud"
+      ]
+    },
+    {
+      "source_id": "13405621",
+      "owner": "Lernema",
+      "french": "¡Hola, Doctor!",
+      "english": [
+        "Hi, Doctor!"
+      ],
+      "forms": [
+        "doctor"
+      ]
+    },
+    {
+      "source_id": "14086972",
+      "owner": "cronopio",
+      "french": "La mujer es enfermera.",
+      "english": [
+        "The woman is a nurse."
+      ],
+      "forms": [
+        "enfermera"
+      ]
+    }
+  ]
+}

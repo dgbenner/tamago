@@ -62,6 +62,37 @@ export const EXTRA = {
 // aquí goes with estar (Where Things Are); mesa joins People and Things.
 export const MOVE = { me: 'U01', te: 'U01', cómo: 'U01', aquí: 'U08', mesa: 'U02' }
 
+// Topic packs (same framework as French): a Your Topic node after Unit 5 (packs on Units 1 to 5 and their own words)
+// and Another Topic after Unit 15 (packs on all of A1). Every Spanish pack follows Dan's newest pack rule: checked
+// Tatoeba only, 30 good sentences or more, each word in 3 or more; a topic that falls short is skipped. Pack words
+// take fixed ids from W501, so the unit words above never move. A word goes to one pack only.
+export const PACKS = [
+  { unit_id: 'U101', node: 'U200', topic_id: 'T06', title: 'The Weather', words: ['sol', 'lluvia', 'nieve', 'frío', 'calor', 'hace', 'llueve', 'nieva', 'tiempo'] },
+  { unit_id: 'U102', node: 'U200', topic_id: 'T29', title: 'Family Life', words: ['madre', 'padre', 'hermano', 'hermana', 'hijo', 'hija', 'bebé', 'padres', 'mamá', 'papá'] },
+  { unit_id: 'U201', node: 'U200', topic_id: 'T22', title: 'At the Office', words: ['oficina', 'trabajo', 'trabaja', 'trabajas', 'jefe', 'jefa', 'computadora', 'teléfono', 'ocupado', 'ocupada', 'reunión'] },
+  { unit_id: 'U202', node: 'U200', topic_id: 'T23', title: 'At the Doctor', words: ['doctor', 'doctora', 'hospital', 'enfermera', 'fiebre', 'cabeza', 'dolor', 'duele', 'salud'] },
+  { unit_id: 'U203', node: 'U200', topic_id: 'T28', title: 'At the Cinema', words: ['película', 'películas', 'cine', 'actor', 'actriz', 'mira', 'televisión', 'historia', 'divertido', 'triste'] },
+  { unit_id: 'U204', node: 'U200', topic_id: 'T11', title: 'At the Hotel', words: ['hotel', 'llave', 'noche', 'habitación', 'piscina'] },
+  { unit_id: 'U205', node: 'U200', topic_id: 'T17', title: 'Music and Songs', words: ['música', 'canción', 'piano', 'guitarra', 'cantante', 'canta'] },
+  { unit_id: 'U206', node: 'U200', topic_id: 'T09', title: 'At the Café', words: ['té', 'azúcar', 'chocolate', 'taza', 'jugo', 'pastel'] },
+  { unit_id: 'U207', node: 'U200', topic_id: 'T19', title: 'In the Garden', words: ['jardín', 'flor', 'flores', 'árbol', 'planta', 'jardinero'] },
+  { unit_id: 'U208', node: 'U200', topic_id: 'T26', title: 'Clothes and Shoes', words: ['ropa', 'camisa', 'vestido', 'zapatos', 'sombrero', 'pantalones', 'falda', 'abrigo'] },
+  { unit_id: 'U209', node: 'U200', topic_id: 'T25', title: 'At the Supermarket', words: ['carne', 'pollo', 'arroz', 'plátano', 'tomate', 'huevo', 'huevos', 'mantequilla', 'supermercado'] },
+  { unit_id: 'U210', node: 'U200', topic_id: 'T30', title: 'At Home', words: ['cuarto', 'silla', 'ventana', 'sala', 'sofá'] },
+  { unit_id: 'U211', node: 'U200', topic_id: 'T01', title: 'At the Airport', words: ['avión', 'aeropuerto', 'boleto', 'maleta', 'maletas', 'viaje', 'piloto', 'pasaporte', 'vuelo'] },
+  { unit_id: 'U212', node: 'U200', topic_id: 'T15', title: 'At the Beach', words: ['playa', 'mar', 'pez', 'peces', 'barco', 'arena'] },
+]
+// Packs dropped after review (under 30 good sentences), and words dropped from a pack (under 3 good sentences).
+export const PACK_SKIPPED = {
+  U101: 'Weather: lluvia, calor, llueve, nieva and tiempo under 3 good sentences; not 30 without them',
+  U203: 'Cinema: 52 candidates, about 9 on the topic (the rest are triste, divertido, or mira as look)',
+  U208: 'Clothes: 29 good sentences once pantalones, abrigo and sombrero (under 3 each) are out',
+  U204: 'Hotels: 28 candidates', U209: 'Supermarket: 19 candidates', U210: 'Home: 19 candidates', U211: 'Airports: 26 candidates', U212: 'Beach: 17 candidates',
+}
+export const PACK_DROP = { U204: ['habitación'], U210: ['cuarto'], U201: ['jefe'], U202: ['doctora', 'enfermera', 'cabeza', 'dolor'], U206: ['pastel'], U207: ['flores', 'planta'], U208: ['pantalones', 'abrigo', 'sombrero'], U205: ['piano'] } // cuarto is fourth in Wiktionary's leading senses
+// Words a pack gains after the first list, with ids after all the packs' (W610 on), so no id moves.
+export const PACK_EXTRA = { U210: ['habitación'] }
+
 if (process.argv[1] === import.meta.filename) {
   put('README', [
     { item: 'Version', notes: 'Spanish workbook v1, 2026-11-10. The 15 A1 units as drafts with their words; no sentences yet.' },
@@ -76,11 +107,23 @@ if (process.argv[1] === import.meta.filename) {
   put('units', UNITS.map((u, i) => ({ unit_id: u.id, lang_id: 'es', cefr: 'A1', order: i + 1, title: u.title, topic: u.title, grammar_point: u.grammar, contrast_sets: u.contrast,
     can_do_ids: '', // filled below with the unit's "I can" statements branch_group: `row ${u.row}`, is_topic_pick: 'no', status: 'draft',
     borrowed_sentence_ids: '', topic_id: '', icon_group: '', icon_file: '', topic_node: '' })), [...header('units'), 'topic_node'].filter((c, i, a) => a.indexOf(c) === i))
+  // Topic nodes and packs (drafts until reviewed).
+  const BUILT = PACKS.filter((p) => !PACK_SKIPPED[p.unit_id])
+  const unitRows = XLSX.utils.sheet_to_json(wb.Sheets.units, { defval: '' })
+  const blank = Object.fromEntries(Object.keys(unitRows[0]).map((k) => [k, '']))
+  unitRows.push({ ...blank, unit_id: 'U100', lang_id: 'es', cefr: 'A1', order: 50, title: 'Your Topic', topic: 'Choose a topic', grammar_point: 'The grammar of Units 1 to 5, on a topic you choose', branch_group: 'row 4', is_topic_pick: 'node', status: 'live' })
+  unitRows.push({ ...blank, unit_id: 'U200', lang_id: 'es', cefr: 'A1', order: 60, title: 'Your Topic', // the only node with packs: Weather (20) and Family (27) fell short on Units 1 to 5
+    topic: 'Choose a topic', grammar_point: 'All of A1, on a topic you choose', branch_group: 'row 10', is_topic_pick: 'node', status: 'live' })
+  for (const p of BUILT) unitRows.push({ ...blank, unit_id: p.unit_id, lang_id: 'es', cefr: 'A1', order: Number(p.unit_id.slice(1)), title: p.title, topic: p.title,
+    grammar_point: p.node === 'U100' ? 'Units 1 to 5, with words for this topic' : 'All of A1, with words for this topic', branch_group: 'topic', is_topic_pick: 'yes', status: 'draft', topic_id: p.topic_id, topic_node: p.node })
+  wb.Sheets.units = XLSX.utils.json_to_sheet(unitRows)
   // The tree: the same shape as French (one unit, then pairs), each row opening when the row above has finished round
   // 1. Topic nodes and "I can" statements come with the units that need them.
   const rows = [...new Set(UNITS.map((u) => u.row))]
-  put('tree_layout', UNITS.map((u) => ({ row: u.row, position: UNITS.filter((x) => x.row === u.row).indexOf(u) + 1, unit_id: u.id,
-    unlocks_after: rows.indexOf(u.row) ? `row ${rows[rows.indexOf(u.row) - 1]}` : '', notes: '' })))
+  put('tree_layout', [...UNITS.map((u) => ({ row: u.row, position: UNITS.filter((x) => x.row === u.row).indexOf(u) + 1, unit_id: u.id,
+    unlocks_after: rows.indexOf(u.row) ? `row ${rows[rows.indexOf(u.row) - 1]}` : '', notes: '' })),
+    { row: 4, position: 1, unit_id: 'U100', unlocks_after: 'row 3', notes: 'choose your topic: the packs with topic_node U100, on Units 1 to 5' },
+    { row: 10, position: 1, unit_id: 'U200', unlocks_after: 'row 9', notes: 'a second topic: the packs with topic_node U200, on all of A1' }])
   // "I can" statements: written for the CEFR self-assessment grid, so a Spanish unit on the same topic as a French
   // one takes its statements; the two estar units get their own, checked against the same grid rows.
   const frCanDo = sheet('can_do')
@@ -109,16 +152,33 @@ if (process.argv[1] === import.meta.filename) {
   for (const [unit, forms] of Object.entries(EXTRA)) for (const form of forms) words.push({ ...words[0], word_id: `W${String(w++).padStart(3, '0')}`, form, first_unit: unit,
     wiktionary_url: `https://en.wiktionary.org/wiki/${encodeURIComponent(form.replace(/ /g, '_'))}#Spanish`, notes: 'added to widen the unit' })
   for (const x of words) if (MOVE[x.form]) x.first_unit = MOVE[x.form]
+  let pw = 501
+  const taken = new Set(words.map((x) => x.form))
+  for (const p of PACKS) for (const form of p.words) {
+    const id = `W${pw++}`
+    if (PACK_SKIPPED[p.unit_id] || PACK_DROP[p.unit_id]?.includes(form)) continue
+    if (taken.has(form)) throw new Error(`${p.unit_id}: ${form} is already in the course`)
+    taken.add(form)
+    words.push({ ...words[0], word_id: id, form, first_unit: p.unit_id, wiktionary_url: `https://en.wiktionary.org/wiki/${encodeURIComponent(form)}#Spanish`, notes: 'topic pack word' })
+  }
+  for (const [unit, forms] of Object.entries(PACK_EXTRA)) for (const form of forms) {
+    const id = `W${pw++}`
+    if (PACK_SKIPPED[unit]) continue
+    if (taken.has(form)) throw new Error(`${unit}: ${form} is already in the course`)
+    taken.add(form)
+    words.push({ ...words[0], word_id: id, form, first_unit: unit, wiktionary_url: `https://en.wiktionary.org/wiki/${encodeURIComponent(form)}#Spanish`, notes: 'topic pack word, added' })
+  }
+  put('topics_pool', sheet('topics_pool').map((t) => { const p = PACKS.find((x) => x.topic_id === t.topic_id && !PACK_SKIPPED[x.unit_id]); return p ? { ...t, status: `pack: ${p.unit_id}` } : t }))
   wb.SheetNames.splice(wb.SheetNames.indexOf('words'), 1); delete wb.Sheets.words
   put('words', words)
   put('content_pull', sheet('content_pull').map((r) => ({ ...r, rule: String(r.rule).replace(/French/g, 'Spanish').replace(/Elided forms \(j', l'\) count as their word\./, 'Multi-word forms (por favor, buenos días) count as their word.') })))
-  for (const n of ['question_types', 'variants', 'rounds', 'round_type_mix', 'lesson_rules', 'phase1_fallbacks', 'cant_swaps', 'flag_reasons', 'topics_pool', 'settings_defaults', 'runtime_schema']) put(n, sheet(n))
+  for (const n of ['question_types', 'variants', 'rounds', 'round_type_mix', 'lesson_rules', 'phase1_fallbacks', 'cant_swaps', 'flag_reasons', 'settings_defaults', 'runtime_schema']) put(n, sheet(n))
   // Feedback: the English lines as in French; Spanish lines as drafts, live only once Tatoeba backs them.
   const es = [['FB40', 'correct', '¡Muy bien!', 'Very good!'], ['FB41', 'correct', '¡Bravo!', 'Well done!'], ['FB42', 'correct', '¡Perfecto!', 'Perfect!'], ['FB43', 'correct', '¡Exacto!', 'Exactly!'],
     ['FB44', 'correct', '¡Eso es!', "That's it!"], ['FB50', 'incorrect', '¡Casi!', 'Almost!'], ['FB51', 'incorrect', 'No exactamente.', 'Not quite.']]
   put('feedback_phrases', [...sheet('feedback_phrases').filter((f) => f.language === 'en'),
     ...es.map(([phrase_id, context, text, english]) => ({ phrase_id, context, language: 'es', text, english, min_level: 'A1', status: 'draft', notes: 'draft: checked against Tatoeba on import' }))])
-  const unitsSheet = XLSX.utils.sheet_to_json(wb.Sheets.units, { defval: '' }).map((r) => ({ ...r, can_do_ids: UNITS.find((u) => u.id === r.unit_id).canDo.join(';') }))
+  const unitsSheet = XLSX.utils.sheet_to_json(wb.Sheets.units, { defval: '' }).map((r) => ({ ...r, can_do_ids: UNITS.find((u) => u.id === r.unit_id)?.canDo.join(';') ?? '' }))
   wb.Sheets.units = XLSX.utils.json_to_sheet(unitsSheet)
   XLSX.writeFile(wb, join(ROOT, to))
   console.log(`Wrote ${to}: ${UNITS.length} units, ${words.length} words`)

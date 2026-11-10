@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 612 (454 matched to Tatoeba, 158 Tamago originals), 0 off, 454 awaiting a ruling. Words with Wiktionary data: 195 of 195. French-to-English answers: 117 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 15.
+Sentences live: 792 (634 matched to Tatoeba, 158 Tamago originals), 0 off, 634 awaiting a ruling. Words with Wiktionary data: 234 of 234. French-to-English answers: 150 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 15.
 
 Unit 1 is approved and live.
 
@@ -173,7 +173,7 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S15102 |  | Sí, me gusta la escuela. | Yes, I like school. | tts |
 | S15103 |  | Sí, yo también voy. | Yes, I'm going too. | tts |
 
-## Words, for a read-through (195)
+## Words, for a read-through (234)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -374,8 +374,47 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W193 | casas | casa | Noun |  | plural of casa (casa: house) | checked |
 | W194 | amigos | amigo | Noun |  | plural of amigo (amigo: friend) | checked |
 | W195 | amigas | amiga | Noun |  | plural of amiga (amiga: female equivalent of amigo, friend) | checked |
+| W510 | madre | madre | Noun |  | mother | checked |
+| W511 | padre | padre | Noun |  | father, parent | checked |
+| W512 | hermano | hermano | Noun |  | brother | checked |
+| W513 | hermana | hermana | Noun |  | sister; female equivalent of hermano | checked |
+| W514 | hijo | hijo | Noun |  | son | checked |
+| W515 | hija | hija | Noun |  | daughter; female equivalent of hijo | checked |
+| W516 | bebé | bebé | Noun |  | baby | checked |
+| W517 | padres | padre | Noun |  | parents | checked |
+| W518 | mamá | mamá | Noun |  | mum, mom | checked |
+| W519 | papá | papá | Noun |  | dad | checked |
+| W520 | oficina | oficina | Noun |  | office | checked |
+| W521 | trabajo | trabajo | Noun |  | work, job | checked |
+| W522 | trabaja | trabajar | Verb |  | inflection of trabajar: third-person singular present indicative second-person singular imperative (trabajar: to work) | checked |
+| W523 | trabajas | trabajar | Verb |  | second-person singular present indicative of trabajar (trabajar: to work) | checked |
+| W525 | jefa | jefa | Noun |  | female equivalent of jefe, boss | checked |
+| W526 | computadora | computadora | Noun |  | computer | checked |
+| W527 | teléfono | teléfono | Noun |  | telephone | checked |
+| W528 | ocupado | ocupado | Adjective |  | occupied | checked |
+| W529 | ocupada | ocupado | Adjective |  | feminine singular of ocupado (ocupado: occupied) | checked |
+| W530 | reunión | reunión | Noun |  | meeting, session, appointment | checked |
+| W531 | doctor | doctor | Noun |  | doctor | checked |
+| W533 | hospital | hospital | Noun |  | hospital | checked |
+| W535 | fiebre | fiebre | Noun |  | fever | checked |
+| W538 | duele | doler | Verb |  | inflection of doler: third-person singular present indicative second-person singular imperative (doler: to hurt [ with dative]) | checked |
+| W539 | salud | salud | Noun |  | health | checked |
+| W555 | música | música | Noun |  | music | checked |
+| W556 | canción | canción | Noun |  | song | checked |
+| W558 | guitarra | guitarra | Noun |  | guitar | checked |
+| W559 | cantante | cantante | Noun |  | singer | checked |
+| W560 | canta | cantar | Verb |  | inflection of cantar: third-person singular present indicative second-person singular imperative (cantar: to sing) | checked |
+| W561 | té | té | Noun |  | tea | checked |
+| W562 | azúcar | azúcar | Noun |  | sugar | checked |
+| W563 | chocolate | chocolate | Noun |  | chocolate .mw-parser-output .defdate{font-size:smaller} | checked |
+| W564 | taza | taza | Noun |  | cup, mug | checked |
+| W565 | jugo | jugo | Noun |  | juice | checked |
+| W567 | jardín | jardín | Noun |  | garden | checked |
+| W568 | flor | flor | Noun |  | flower | checked |
+| W570 | árbol | árbol | Noun |  | tree | checked |
+| W572 | jardinero | jardinero | Noun |  | gardener | checked |
 
-## Matched to Tatoeba (454)
+## Matched to Tatoeba (634)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -681,6 +720,36 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10028 | ¿Esta es su casa? | Is this your house? | [#2051818](https://tatoeba.org/en/sentences/show/2051818) | nancy |  |  | tts |
 | S10029 | ¿Es ella una amiga? | Is she a friend? | [#2707039](https://tatoeba.org/en/sentences/show/2707039) | cueyayotl |  |  | tts |
 | S10030 | ¿Es él un amigo? | Is he a friend? | [#2707041](https://tatoeba.org/en/sentences/show/2707041) | cueyayotl |  |  | tts |
+| S102001 | Mamá, ¿dónde está papá? | Mum, where's Dad? | [#1240491](https://tatoeba.org/en/sentences/show/1240491) | Shishir |  |  | tts |
+| S102002 | ¿Cómo están mamá y papá? | How are mom and dad? | [#5650084](https://tatoeba.org/en/sentences/show/5650084) | cueyayotl |  |  | tts |
+| S102003 | Mi hija tiene un hermano. | My daughter has a brother. | [#10766666](https://tatoeba.org/en/sentences/show/10766666) | JSKabylie |  |  | tts |
+| S102004 | Tengo un hijo y una hija. | I have a son and a daughter. | [#11543282](https://tatoeba.org/en/sentences/show/11543282) | ecorralest101 |  |  | tts |
+| S102005 | Yo tengo un hijo y una hija. | I have a son and a daughter. | [#11543284](https://tatoeba.org/en/sentences/show/11543284) | ecorralest101 |  |  | tts |
+| S102006 | ¿Tienes un hijo? | Do you have a son? | [#1984682](https://tatoeba.org/en/sentences/show/1984682) | Shishir |  |  | tts |
+| S102007 | ¿Está mamá aquí? | Is Mom here? | [#5973374](https://tatoeba.org/en/sentences/show/5973374) | ApioDelPueblo |  |  | tts |
+| S102008 | ¿Tienes un hermano? | Do you have a brother? | [#8016862](https://tatoeba.org/en/sentences/show/8016862) | Seael |  |  | tts |
+| S102009 | ¿Eres su madre? | Are you his mother? | [#13265134](https://tatoeba.org/en/sentences/show/13265134) | Shishir |  |  | tts |
+| S102010 | ¿Dónde está tu padre? | Where is your father? | [#355828](https://tatoeba.org/en/sentences/show/355828) | yorickvidal |  |  | tts |
+| S102011 | ¿Es ella su hermana? | Is she your sister? | [#508611](https://tatoeba.org/en/sentences/show/508611) | Shishir |  |  | tts |
+| S102012 | ¿Tu padre es profesor? | Is your father a teacher? | [#736008](https://tatoeba.org/en/sentences/show/736008) | Shishir |  |  | tts |
+| S102013 | Ana, ¿tienes un hermano? | Do you have a brother, Ana? | [#790021](https://tatoeba.org/en/sentences/show/790021) | Shishir |  |  | tts |
+| S102014 | ¿Ella es tu madre? | Is she your mother? | [#884213](https://tatoeba.org/en/sentences/show/884213) | Shishir |  |  | tts |
+| S102015 | ¿Cómo está tu madre? | How's your mother? | [#1238869](https://tatoeba.org/en/sentences/show/1238869) | Shishir |  |  | tts |
+| S102016 | ¿Cómo está tu padre? | How's your father? | [#1497010](https://tatoeba.org/en/sentences/show/1497010) | marcelostockle |  |  | tts |
+| S102017 | ¿Dónde están tus padres? | Where are your parents? | [#1638641](https://tatoeba.org/en/sentences/show/1638641) | marcelostockle |  |  | tts |
+| S102018 | ¿Dónde está tu hermana? | Where's your sister? | [#1731829](https://tatoeba.org/en/sentences/show/1731829) | marcelostockle |  |  | tts |
+| S102019 | ¿Está tu hermana aquí? | Is your sister here? | [#2073512](https://tatoeba.org/en/sentences/show/2073512) | lazarus1907 |  |  | tts |
+| S102020 | ¿Dónde está tu bebé? | Where's your baby? | [#2857699](https://tatoeba.org/en/sentences/show/2857699) | Besatnias |  |  | tts |
+| S102021 | ¿Está papá en la cocina? | Is Dad in the kitchen? | [#1129865](https://tatoeba.org/en/sentences/show/1129865) | marcelostockle |  |  | tts |
+| S102022 | ¿De quién es este bebé? | Whose baby is this? | [#9582855](https://tatoeba.org/en/sentences/show/9582855) | hayastan |  |  | tts |
+| S102023 | ¿Dónde están los padres de Tom? | Where are Tom's parents? | [#12990382](https://tatoeba.org/en/sentences/show/12990382) | Shishir |  |  | tts |
+| S102024 | Somos padres. | We're parents. | [#9452691](https://tatoeba.org/en/sentences/show/9452691) | ignacio |  |  | tts |
+| S102025 | Eres un bebé. | You're a baby. | [#7851917](https://tatoeba.org/en/sentences/show/7851917) | arh |  |  | tts |
+| S102026 | ¿Usted tiene un hijo? | Do you have a son? | [#1156300](https://tatoeba.org/en/sentences/show/1156300) | marcelostockle |  |  | tts |
+| S102027 | ¿Cómo está tu hermano? | How's your brother? | [#1496996](https://tatoeba.org/en/sentences/show/1496996) | marcelostockle |  |  | tts |
+| S102028 | ¿De quién eres hijo? | Whose son are you? | [#1530469](https://tatoeba.org/en/sentences/show/1530469) | marcelostockle |  |  | tts |
+| S102029 | ¿Dónde está mi padre? | Where's my father? | [#1784819](https://tatoeba.org/en/sentences/show/1784819) | Shishir |  |  | tts |
+| S102030 | ¿Su padre bebe café? | Does his father drink coffee? | [#1788647](https://tatoeba.org/en/sentences/show/1788647) | Shishir |  |  | tts |
 | S11001 | ¿Por qué? | Why? | [#375872](https://tatoeba.org/en/sentences/show/375872) | megamanenm |  |  | tts |
 | S11002 | ¿Dónde estás? | Where are you? | [#2998](https://tatoeba.org/en/sentences/show/2998) | Shishir |  |  | tts |
 | S11003 | ¿Quién eres? | Who are you? | [#356203](https://tatoeba.org/en/sentences/show/356203) | yorickvidal |  |  | tts |
@@ -831,6 +900,156 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S15028 | ¿Te gusta tu escuela? | Do you like your school? | [#5578651](https://tatoeba.org/en/sentences/show/5578651) | Shishir |  |  | tts |
 | S15029 | ¿Y a nosotros qué? | What does this have to do with us? | [#10054001](https://tatoeba.org/en/sentences/show/10054001) | Shishir |  |  | tts |
 | S15030 | ¿Cómo va tu día? | How's your day going? | [#12881465](https://tatoeba.org/en/sentences/show/12881465) | ecorralest101 |  |  | tts |
+| S201001 | Ella está ocupada en su trabajo. | She's busy with her work. | [#678815](https://tatoeba.org/en/sentences/show/678815) | humbertovs |  |  | tts |
+| S201002 | Tom está muy ocupado en el trabajo. | Tom is very busy at work. | [#10028155](https://tatoeba.org/en/sentences/show/10028155) | dagonzalezce |  |  | tts |
+| S201003 | ¿Estás ocupado? | Are you busy? | [#707994](https://tatoeba.org/en/sentences/show/707994) | Shishir |  |  | tts |
+| S201004 | ¿Él trabaja? | Does he work? | [#1829243](https://tatoeba.org/en/sentences/show/1829243) | Shishir |  |  | tts |
+| S201005 | ¿Trabaja aquí? | Does he work here? | [#4599249](https://tatoeba.org/en/sentences/show/4599249) | Shishir |  |  | tts |
+| S201006 | ¿Hoy trabajas? | Are you working today? | [#5017762](https://tatoeba.org/en/sentences/show/5017762) | don_ramon |  |  | tts |
+| S201007 | ¿Dónde trabaja? | Where do you work? | [#6989157](https://tatoeba.org/en/sentences/show/6989157) | cueyayotl |  |  | tts |
+| S201008 | ¿Por qué trabajas aquí? | Why do you work here? | [#770935](https://tatoeba.org/en/sentences/show/770935) | Shishir |  |  | tts |
+| S201009 | ¿Estás ocupado ahora? | Are you busy now? | [#941445](https://tatoeba.org/en/sentences/show/941445) | hayastan |  |  | tts |
+| S201010 | ¿Está usted ocupada? | Are you busy? | [#2881093](https://tatoeba.org/en/sentences/show/2881093) | cueyayotl |  |  | tts |
+| S201011 | ¿Trabajas el lunes? | Do you work on Monday? | [#5769376](https://tatoeba.org/en/sentences/show/5769376) | arh |  |  | tts |
+| S201012 | ¿Él tiene trabajo? | Does he have a job? | [#6692228](https://tatoeba.org/en/sentences/show/6692228) | UsuarioX |  |  | tts |
+| S201013 | ¿Tienes una computadora? | Do you have a computer? | [#13709821](https://tatoeba.org/en/sentences/show/13709821) | ecorralest101 |  |  | tts |
+| S201014 | ¿Voy a tu oficina? | Shall I come to your office? | [#480039](https://tatoeba.org/en/sentences/show/480039) | Raimondi |  |  | tts |
+| S201015 | ¿Voy a su oficina? | Shall I come to your office? | [#480040](https://tatoeba.org/en/sentences/show/480040) | Raimondi |  |  | tts |
+| S201016 | ¿Hay un teléfono aquí? | Is there a telephone here? | [#1547965](https://tatoeba.org/en/sentences/show/1547965) | marcelostockle |  |  | tts |
+| S201017 | ¿Por qué estás ocupada hoy? | Why are you busy today? | [#2210165](https://tatoeba.org/en/sentences/show/2210165) | Shishir |  |  | tts |
+| S201018 | ¿De quién es esta oficina? | Whose office is this? | [#1993757](https://tatoeba.org/en/sentences/show/1993757) | marcelostockle |  |  | tts |
+| S201019 | Tienes un teléfono. | You have a telephone. | [#1282061](https://tatoeba.org/en/sentences/show/1282061) | Shishir |  |  | tts |
+| S201020 | Soy tu jefa. | I'm your boss. | [#2474720](https://tatoeba.org/en/sentences/show/2474720) | hayastan |  |  | tts |
+| S201021 | Tengo una computadora. | I own a computer. | [#5097786](https://tatoeba.org/en/sentences/show/5097786) | don_ramon |  |  | tts |
+| S201022 | Mi teléfono es bonito. | My telephone is pretty. | [#1102380](https://tatoeba.org/en/sentences/show/1102380) | Shishir |  |  | tts |
+| S201023 | La computadora es nueva. | The computer is new. | [#1260715](https://tatoeba.org/en/sentences/show/1260715) | hayastan |  |  | tts |
+| S201024 | Hoy tengo una reunión. | I have a meeting today. | [#1496966](https://tatoeba.org/en/sentences/show/1496966) | marcelostockle |  |  | tts |
+| S201025 | Estamos en una reunión. | We're having a meeting. | [#4375245](https://tatoeba.org/en/sentences/show/4375245) | pchamorro |  |  | tts |
+| S201026 | Voy a una reunión. | I'm going to a meeting. | [#4725531](https://tatoeba.org/en/sentences/show/4725531) | Shishir |  |  | tts |
+| S201027 | Ella es la jefa. | She's the boss. | [#10110737](https://tatoeba.org/en/sentences/show/10110737) | escudo119 |  |  | tts |
+| S201028 | Ahora soy tu jefa. | I'm your boss now. | [#10363060](https://tatoeba.org/en/sentences/show/10363060) | Seael |  |  | tts |
+| S201029 | ¿Está ocupado hoy? | Are you busy today? | [#1425079](https://tatoeba.org/en/sentences/show/1425079) | peibolvig |  |  | tts |
+| S201030 | ¿Dónde trabaja él? | Where does he work? | [#1827578](https://tatoeba.org/en/sentences/show/1827578) | marcelostockle |  |  | tts |
+| S202001 | ¿Tienes fiebre? | Do you have a fever? | [#977643](https://tatoeba.org/en/sentences/show/977643) | Shishir |  |  | tts |
+| S202002 | ¿Eso duele? | Does that hurt? | [#1171976](https://tatoeba.org/en/sentences/show/1171976) | Shishir |  |  | tts |
+| S202003 | ¿Es doctor? | Is he a doctor? | [#1237128](https://tatoeba.org/en/sentences/show/1237128) | Shishir |  |  | tts |
+| S202004 | ¿Duele esto? | Does this hurt? | [#4506128](https://tatoeba.org/en/sentences/show/4506128) | cueyayotl |  |  | tts |
+| S202005 | ¿Qué te duele? | What hurts you? | [#716547](https://tatoeba.org/en/sentences/show/716547) | Shishir |  |  | tts |
+| S202006 | ¿Cómo está tu salud? | How is your health? | [#1458086](https://tatoeba.org/en/sentences/show/1458086) | marcelostockle |  |  | tts |
+| S202007 | ¿Dónde hay un hospital? | Where is a hospital? | [#1666849](https://tatoeba.org/en/sentences/show/1666849) | marcelostockle |  |  | tts |
+| S202008 | ¿Dónde hay un doctor? | Where is a doctor? | [#1666850](https://tatoeba.org/en/sentences/show/1666850) | marcelostockle |  |  | tts |
+| S202009 | ¿Dónde está el hospital? | Where's the hospital? | [#2465765](https://tatoeba.org/en/sentences/show/2465765) | teskmon |  |  | tts |
+| S202010 | ¿Cómo estás de salud? | How's your health? | [#10093235](https://tatoeba.org/en/sentences/show/10093235) | manufrutos |  |  | tts |
+| S202011 | Soy un doctor. ¿Y tú? | I'm a doctor. How about you? | [#2883805](https://tatoeba.org/en/sentences/show/2883805) | cueyayotl |  |  | tts |
+| S202012 | ¿Cómo va la salud de Tom? | How's Tom's health? | [#7842349](https://tatoeba.org/en/sentences/show/7842349) | Seael |  |  | tts |
+| S202013 | No tienes fiebre. | You have no fever. | [#856495](https://tatoeba.org/en/sentences/show/856495) | Rafp |  |  | tts |
+| S202014 | No tiene fiebre. | He doesn't have a fever. | [#880442](https://tatoeba.org/en/sentences/show/880442) | Shishir |  |  | tts |
+| S202015 | Esto es un hospital. | This is a hospital. | [#2119510](https://tatoeba.org/en/sentences/show/2119510) | Shishir |  |  | tts |
+| S202016 | ¿Te duele esto? | Does this hurt? | [#4506130](https://tatoeba.org/en/sentences/show/4506130) | cueyayotl |  |  | tts |
+| S202017 | Soy doctor. | I'm a doctor. | [#1006321](https://tatoeba.org/en/sentences/show/1006321) | Shishir |  |  | tts |
+| S202018 | ¡Gracias, doctor! | Thank you, Doctor. | [#1122247](https://tatoeba.org/en/sentences/show/1122247) | Shishir |  |  | tts |
+| S202019 | Aquí duele. | It hurts here. | [#1666848](https://tatoeba.org/en/sentences/show/1666848) | marcelostockle |  |  | tts |
+| S202020 | No duele. | It doesn't hurt. | [#3192843](https://tatoeba.org/en/sentences/show/3192843) | cueyayotl |  |  | tts |
+| S202021 | ¡Hola, Doctor! | Hi, Doctor! | [#13405621](https://tatoeba.org/en/sentences/show/13405621) | Lernema |  |  | tts |
+| S202022 | Eres un doctor. | You are a doctor. | [#531719](https://tatoeba.org/en/sentences/show/531719) | Shishir |  |  | tts |
+| S202023 | No tengo fiebre. | I have no fever. | [#1264320](https://tatoeba.org/en/sentences/show/1264320) | Shishir |  |  | tts |
+| S202024 | Soy tu doctor. | I'm your doctor. | [#2474719](https://tatoeba.org/en/sentences/show/2474719) | hayastan |  |  | tts |
+| S202025 | No soy doctor. | I'm not a doctor. | [#4649922](https://tatoeba.org/en/sentences/show/4649922) | cueyayotl |  |  | tts |
+| S202026 | Ellas no tienen fiebre. | They don't have a fever. | [#545580](https://tatoeba.org/en/sentences/show/545580) | Shishir |  |  | tts |
+| S202027 | Tú no tienes fiebre. | You do not have a fever. | [#1205482](https://tatoeba.org/en/sentences/show/1205482) | marcelostockle |  |  | tts |
+| S202028 | Tom no tiene fiebre. | Tom doesn't have a fever. | [#1530602](https://tatoeba.org/en/sentences/show/1530602) | marcelostockle |  |  | tts |
+| S202029 | Está en el hospital. | He's in hospital. | [#2628737](https://tatoeba.org/en/sentences/show/2628737) | Shishir |  |  | tts |
+| S202030 | Estoy en el hospital. | I'm in the hospital. | [#2711406](https://tatoeba.org/en/sentences/show/2711406) | Shishir |  |  | tts |
+| S205001 | ¿Quién canta esta canción? | Who sings that song? | [#1625003](https://tatoeba.org/en/sentences/show/1625003) | teskmon |  |  | tts |
+| S205002 | Por favor, canta una canción. | Please sing a song. | [#1089674](https://tatoeba.org/en/sentences/show/1089674) | Shishir |  |  | tts |
+| S205003 | ¿Ella canta? | Does she sing? | [#4764914](https://tatoeba.org/en/sentences/show/4764914) | DarkHollow |  |  | tts |
+| S205004 | ¿Eres cantante? | Are you a singer? | [#6683281](https://tatoeba.org/en/sentences/show/6683281) | UsuarioX |  |  | tts |
+| S205005 | ¿Cuál es tu guitarra? | Which is your guitar? | [#491132](https://tatoeba.org/en/sentences/show/491132) | Shishir |  |  | tts |
+| S205006 | ¿Qué es esta música? | What's this music? | [#2223604](https://tatoeba.org/en/sentences/show/2223604) | Shishir |  |  | tts |
+| S205007 | ¿Qué música te gusta? | What music do you like? | [#9510599](https://tatoeba.org/en/sentences/show/9510599) | eltacodemex |  |  | tts |
+| S205008 | ¿Tom tiene una guitarra? | Does Tom have a guitar? | [#10647411](https://tatoeba.org/en/sentences/show/10647411) | Shishir |  |  | tts |
+| S205009 | ¿De quién es esta guitarra? | Whose guitar is this? | [#502113](https://tatoeba.org/en/sentences/show/502113) | Shishir |  |  | tts |
+| S205010 | Soy cantante. | I'm a singer. | [#12890097](https://tatoeba.org/en/sentences/show/12890097) | ecorralest101 |  |  | tts |
+| S205011 | Ella es cantante. | She's a singer. | [#1468388](https://tatoeba.org/en/sentences/show/1468388) | marcelostockle |  |  | tts |
+| S205012 | Me gusta su música. | I like his music. | [#861223](https://tatoeba.org/en/sentences/show/861223) | manufrutos |  |  | tts |
+| S205013 | Me gusta esta canción. | I like this song. | [#2024903](https://tatoeba.org/en/sentences/show/2024903) | Shishir |  |  | tts |
+| S205014 | ¿Quién canta? | Who is singing? | [#9285930](https://tatoeba.org/en/sentences/show/9285930) | Javea |  |  | tts |
+| S205015 | Canta, por favor. | Please sing. | [#2051712](https://tatoeba.org/en/sentences/show/2051712) | marcelostockle |  |  | tts |
+| S205016 | Tom canta. | Tom sings. | [#3028914](https://tatoeba.org/en/sentences/show/3028914) | cueyayotl |  |  | tts |
+| S205017 | ¡Qué bien canta! | How beautifully she sings! | [#534311](https://tatoeba.org/en/sentences/show/534311) | Shishir |  |  | tts |
+| S205018 | Ella canta bien. | She sings well. | [#1283021](https://tatoeba.org/en/sentences/show/1283021) | marcelostockle |  |  | tts |
+| S205019 | Él canta bien. | He is good at singing. | [#1323140](https://tatoeba.org/en/sentences/show/1323140) | hayastan |  |  | tts |
+| S205020 | Él es cantante. | He is a singer. | [#2707015](https://tatoeba.org/en/sentences/show/2707015) | cueyayotl |  |  | tts |
+| S205021 | No tengo guitarra. | I don't have a guitar. | [#4735825](https://tatoeba.org/en/sentences/show/4735825) | cueyayotl |  |  | tts |
+| S205022 | Tom es cantante. | Tom is a singer. | [#9969840](https://tatoeba.org/en/sentences/show/9969840) | Shishir |  |  | tts |
+| S205023 | Tengo una guitarra. | I have a guitar. | [#13718509](https://tatoeba.org/en/sentences/show/13718509) | ecorralest101 |  |  | tts |
+| S205024 | Él no canta bien. | He doesn't sing well. | [#529180](https://tatoeba.org/en/sentences/show/529180) | Leono |  |  | tts |
+| S205025 | Ella canta muy bien. | She sings very well. | [#567891](https://tatoeba.org/en/sentences/show/567891) | Shishir |  |  | tts |
+| S205026 | Él canta muy bien. | He sings very well. | [#1200433](https://tatoeba.org/en/sentences/show/1200433) | cueyayotl |  |  | tts |
+| S205027 | Esta es mi canción. | This is my song. | [#2351048](https://tatoeba.org/en/sentences/show/2351048) | Shishir |  |  | tts |
+| S205028 | Esto es una canción. | It's a song. | [#2353281](https://tatoeba.org/en/sentences/show/2353281) | Shishir |  |  | tts |
+| S205029 | Me gusta tu canción. | I like your song. | [#2412333](https://tatoeba.org/en/sentences/show/2412333) | marcelostockle |  |  | tts |
+| S205030 | Me gusta la música. | I like music. | [#4070280](https://tatoeba.org/en/sentences/show/4070280) | yadi |  |  | tts |
+| S206001 | Una taza de té, por favor. | A cup of tea, please. | [#710244](https://tatoeba.org/en/sentences/show/710244) | Shishir |  |  | tts |
+| S206002 | Mi té no tiene azúcar. | There's no sugar in my tea. | [#1748442](https://tatoeba.org/en/sentences/show/1748442) | marcelostockle |  |  | tts |
+| S206003 | No hay azúcar en mi té. | There's no sugar in my tea. | [#1748443](https://tatoeba.org/en/sentences/show/1748443) | marcelostockle |  |  | tts |
+| S206004 | ¿Hay azúcar? | Is there any sugar? | [#506027](https://tatoeba.org/en/sentences/show/506027) | Shishir |  |  | tts |
+| S206005 | ¿Te gusta el jugo? | Do you like juice? | [#1932227](https://tatoeba.org/en/sentences/show/1932227) | hayastan |  |  | tts |
+| S206006 | ¿Te gusta el chocolate? | Do you like chocolate? | [#9885467](https://tatoeba.org/en/sentences/show/9885467) | Shishir |  |  | tts |
+| S206007 | Como chocolate. | I eat chocolate. | [#1541817](https://tatoeba.org/en/sentences/show/1541817) | Zaghawa |  |  | tts |
+| S206008 | Jugo, por favor. | Juice, please. | [#10159555](https://tatoeba.org/en/sentences/show/10159555) | ecorralest101 |  |  | tts |
+| S206009 | Jugo de naranja, por favor. | Orange juice, please. | [#1037696](https://tatoeba.org/en/sentences/show/1037696) | hayastan |  |  | tts |
+| S206010 | Me gusta el chocolate. | I like chocolate. | [#1236883](https://tatoeba.org/en/sentences/show/1236883) | Shishir |  |  | tts |
+| S206011 | Me gusta esta taza. | I like this cup. | [#1256536](https://tatoeba.org/en/sentences/show/1256536) | hayastan |  |  | tts |
+| S206012 | Esto es una taza. | This is a cup. | [#8348450](https://tatoeba.org/en/sentences/show/8348450) | adroguense |  |  | tts |
+| S206013 | ¿Bebes té? | Do you drink tea? | [#3674789](https://tatoeba.org/en/sentences/show/3674789) | Seael |  |  | tts |
+| S206014 | ¿Te gusta el té? | Do you like tea? | [#1242953](https://tatoeba.org/en/sentences/show/1242953) | marcelostockle |  |  | tts |
+| S206015 | ¿Dónde está mi té? | Where's my tea? | [#2008094](https://tatoeba.org/en/sentences/show/2008094) | Shishir |  |  | tts |
+| S206016 | ¿Dónde está mi azúcar? | Where's my sugar? | [#7468961](https://tatoeba.org/en/sentences/show/7468961) | arh |  |  | tts |
+| S206017 | Tienen azúcar. | They have sugar. | [#3834364](https://tatoeba.org/en/sentences/show/3834364) | cueyayotl |  |  | tts |
+| S206018 | Bebe té. | Drink tea. | [#3865882](https://tatoeba.org/en/sentences/show/3865882) | cueyayotl |  |  | tts |
+| S206019 | Beben té. | You drink tea. | [#3865889](https://tatoeba.org/en/sentences/show/3865889) | cueyayotl |  |  | tts |
+| S206020 | Es té. | It's tea. | [#9611442](https://tatoeba.org/en/sentences/show/9611442) | Shishir |  |  | tts |
+| S206021 | Tú bebes té. | You drink tea. | [#1467980](https://tatoeba.org/en/sentences/show/1467980) | marcelostockle |  |  | tts |
+| S206022 | No hay azúcar. | There's no sugar. | [#3100038](https://tatoeba.org/en/sentences/show/3100038) | Shishir |  |  | tts |
+| S206023 | Ellos tienen azúcar. | They have sugar. | [#3834367](https://tatoeba.org/en/sentences/show/3834367) | cueyayotl |  |  | tts |
+| S206024 | Ellas tienen azúcar. | They have sugar. | [#3834369](https://tatoeba.org/en/sentences/show/3834369) | cueyayotl |  |  | tts |
+| S206025 | Usted bebe té. | You drink tea. | [#3865885](https://tatoeba.org/en/sentences/show/3865885) | cueyayotl |  |  | tts |
+| S206026 | Ustedes beben té. | You drink tea. | [#3865892](https://tatoeba.org/en/sentences/show/3865892) | cueyayotl |  |  | tts |
+| S206027 | Ella bebe té. | She drinks tea. | [#8786485](https://tatoeba.org/en/sentences/show/8786485) | Shishir |  |  | tts |
+| S206028 | Aquí no hay azúcar. | There's no sugar here. | [#907272](https://tatoeba.org/en/sentences/show/907272) | Shishir |  |  | tts |
+| S206029 | Tom no tiene té. | Tom doesn't have tea. | [#1785396](https://tatoeba.org/en/sentences/show/1785396) | hayastan |  |  | tts |
+| S206030 | Este té está bueno. | This tea tastes good. | [#1834760](https://tatoeba.org/en/sentences/show/1834760) | Shishir |  |  | tts |
+| S207001 | ¿Te gusta este jardín? | Do you like this garden? | [#685465](https://tatoeba.org/en/sentences/show/685465) | Shishir |  |  | tts |
+| S207002 | ¿Te gusta esta flor? | Do you like this flower? | [#698581](https://tatoeba.org/en/sentences/show/698581) | Shishir |  |  | tts |
+| S207003 | ¿Esto es una flor? | Is this a flower? | [#1204739](https://tatoeba.org/en/sentences/show/1204739) | Shishir |  |  | tts |
+| S207004 | ¿Qué flor es azul? | What flower is blue? | [#5319546](https://tatoeba.org/en/sentences/show/5319546) | Shishir |  |  | tts |
+| S207005 | ¿La casa tiene un jardín? | Has the house got a garden? | [#753033](https://tatoeba.org/en/sentences/show/753033) | Shishir |  |  | tts |
+| S207006 | Él es jardinero. | He's a gardener. | [#3395253](https://tatoeba.org/en/sentences/show/3395253) | marcelostockle |  |  | tts |
+| S207007 | Soy el jardinero. | I'm the gardener. | [#3803391](https://tatoeba.org/en/sentences/show/3803391) | cueyayotl |  |  | tts |
+| S207008 | Mi jardín es pequeño. | My garden is small. | [#832099](https://tatoeba.org/en/sentences/show/832099) | LugoIlmer |  |  | tts |
+| S207009 | El árbol es verde. | The tree is green. | [#2059167](https://tatoeba.org/en/sentences/show/2059167) | HenryGR |  |  | tts |
+| S207010 | Esto es un árbol. | This is a tree. | [#5050652](https://tatoeba.org/en/sentences/show/5050652) | don_ramon |  |  | tts |
+| S207011 | El árbol es viejo. | The tree is old. | [#9456295](https://tatoeba.org/en/sentences/show/9456295) | Shishir |  |  | tts |
+| S207012 | Soy Tom, el jardinero. | I'm Tom, the gardener. | [#9741594](https://tatoeba.org/en/sentences/show/9741594) | Shishir |  |  | tts |
+| S207013 | Estoy en el jardín. | I am in the garden. | [#1321020](https://tatoeba.org/en/sentences/show/1321020) | hayastan |  |  | tts |
+| S207014 | Me gusta tu jardín. | I like your garden. | [#2205327](https://tatoeba.org/en/sentences/show/2205327) | Shishir |  |  | tts |
+| S207015 | Estamos en el jardín. | We're in the garden. | [#2711398](https://tatoeba.org/en/sentences/show/2711398) | Shishir |  |  | tts |
+| S207016 | La flor es roja. | The flower is red. | [#3453540](https://tatoeba.org/en/sentences/show/3453540) | marcelostockle |  |  | tts |
+| S207017 | Este jardín es bonito. | This garden is beautiful. | [#7850890](https://tatoeba.org/en/sentences/show/7850890) | Seael |  |  | tts |
+| S207018 | La flor es amarilla. | The flower is yellow. | [#9696603](https://tatoeba.org/en/sentences/show/9696603) | Shishir |  |  | tts |
+| S207019 | La flor es azul. | The flower is blue. | [#10059958](https://tatoeba.org/en/sentences/show/10059958) | Shishir |  |  | tts |
+| S207020 | El jardín es pequeño. | The garden is small. | [#11826943](https://tatoeba.org/en/sentences/show/11826943) | Seael |  |  | tts |
+| S207021 | ¡Qué bonita es esta flor! | How pretty is this flower! | [#785169](https://tatoeba.org/en/sentences/show/785169) | Shishir |  |  | tts |
+| S207022 | ¡Qué grande es este árbol! | That tree's so big! | [#1987471](https://tatoeba.org/en/sentences/show/1987471) | hayastan |  |  | tts |
+| S207023 | La flor no es negra. | The flower isn't black. | [#2199624](https://tatoeba.org/en/sentences/show/2199624) | Shishir |  |  | tts |
+| S207024 | Tom está en el jardín. | Tom is in the garden. | [#2338143](https://tatoeba.org/en/sentences/show/2338143) | hayastan |  |  | tts |
+| S207025 | Tu jardín es muy bonito. | Your garden is very beautiful. | [#9017896](https://tatoeba.org/en/sentences/show/9017896) | Shishir |  |  | tts |
+| S207026 | Esta flor azul es bonita. | This blue flower is beautiful. | [#9687777](https://tatoeba.org/en/sentences/show/9687777) | Shishir |  |  | tts |
+| S207027 | La flor amarilla es bonita. | The yellow flower is pretty. | [#11835650](https://tatoeba.org/en/sentences/show/11835650) | Shishir |  |  | tts |
+| S207028 | Los perros están en el jardín. | The dogs are in the garden. | [#1084712](https://tatoeba.org/en/sentences/show/1084712) | Shishir |  |  | tts |
+| S207029 | ¿Dónde estás? Estoy en el jardín. | Where are you? I am in the garden. | [#5827962](https://tatoeba.org/en/sentences/show/5827962) | baudelaire |  |  | tts |
+| S207030 | El perro no está en el jardín. | The dog is not in the garden. | [#9703360](https://tatoeba.org/en/sentences/show/9703360) | hayastan |  |  | tts |
 | S3107 | ¡Perdón! | Sorry! | [#1771994](https://tatoeba.org/en/sentences/show/1771994) | hayastan |  |  | tts |
 | S11102 | ¿Por qué no comes? | Why aren't you eating? | [#1832006](https://tatoeba.org/en/sentences/show/1832006) | Shishir |  |  | tts |
 | S13110 | Sí, la manzana es roja. | Yes, the apple is red. | [#12531884](https://tatoeba.org/en/sentences/show/12531884) | Shishir |  |  | tts |

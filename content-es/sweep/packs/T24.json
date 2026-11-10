@@ -1,0 +1,72 @@
+{
+  "topic": "Pharmacy",
+  "words": [
+    "farmacia",
+    "medicina",
+    "medicinas",
+    "pastilla",
+    "dolor",
+    "cabeza"
+  ],
+  "clash": [],
+  "candidates": [
+    {
+      "source_id": "1306048",
+      "owner": "marcelostockle",
+      "french": "Qué dolor.",
+      "english": [
+        "What a pain!"
+      ],
+      "forms": [
+        "dolor"
+      ]
+    },
+    {
+      "source_id": "1421602",
+      "owner": "hayastan",
+      "french": "María tiene dolor de cabeza.",
+      "english": [
+        "Mary has a headache."
+      ],
+      "forms": [
+        "dolor",
+        "cabeza"
+      ]
+    },
+    {
+      "source_id": "2081216",
+      "owner": "lazarus1907",
+      "french": "Estás mal de la cabeza.",
+      "english": [
+        "You are deranged."
+      ],
+      "forms": [
+        "cabeza"
+      ]
+    },
+    {
+      "source_id": "2935337",
+      "owner": "hayastan",
+      "french": "Juan es estudiante de medicina.",
+      "english": [
+        "Juan is a medical student."
+      ],
+      "forms": [
+        "medicina"
+      ]
+    },
+    {
+      "source_id": "7871977",
+      "owner": "Seael",
+      "french": "Estoy cansado y tengo dolor de cabeza.",
+      "english": [
+        "I'm tired and I have a headache.",
+        "I’m tired and my head hurts."
+      ],
+      "forms": [
+        "dolor",
+        "cabeza"
+      ]
+    }
+  ]
+}

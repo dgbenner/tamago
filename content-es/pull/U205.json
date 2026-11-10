@@ -1,0 +1,1339 @@
+{
+  "unit_id": "U205",
+  "pulled_at": "2026-11-10",
+  "candidates": 36,
+  "sentences": [
+    {
+      "sentence_id": "S205001",
+      "unit_id": "U205",
+      "french": "¿Quién canta esta canción?",
+      "english": "Who sings that song?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1625003",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "teskmon",
+      "other_english": [
+        "Who sings this song?"
+      ]
+    },
+    {
+      "sentence_id": "S205002",
+      "unit_id": "U205",
+      "french": "Por favor, canta una canción.",
+      "english": "Please sing a song.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1089674",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205003",
+      "unit_id": "U205",
+      "french": "¿Ella canta?",
+      "english": "Does she sing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4764914",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "DarkHollow",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205004",
+      "unit_id": "U205",
+      "french": "¿Eres cantante?",
+      "english": "Are you a singer?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6683281",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "UsuarioX",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205005",
+      "unit_id": "U205",
+      "french": "¿Cuál es tu guitarra?",
+      "english": "Which is your guitar?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "491132",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205006",
+      "unit_id": "U205",
+      "french": "¿Qué es esta música?",
+      "english": "What's this music?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2223604",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205007",
+      "unit_id": "U205",
+      "french": "¿Qué música te gusta?",
+      "english": "What music do you like?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9510599",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "eltacodemex",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205008",
+      "unit_id": "U205",
+      "french": "¿Tom tiene una guitarra?",
+      "english": "Does Tom have a guitar?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10647411",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205009",
+      "unit_id": "U205",
+      "french": "¿De quién es esta guitarra?",
+      "english": "Whose guitar is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "502113",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205010",
+      "unit_id": "U205",
+      "french": "Soy cantante.",
+      "english": "I'm a singer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12890097",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": [
+        "I am a singer."
+      ]
+    },
+    {
+      "sentence_id": "S205011",
+      "unit_id": "U205",
+      "french": "Ella es cantante.",
+      "english": "She's a singer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1468388",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "She is a singer."
+      ]
+    },
+    {
+      "sentence_id": "S205012",
+      "unit_id": "U205",
+      "french": "Me gusta su música.",
+      "english": "I like his music.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "861223",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205013",
+      "unit_id": "U205",
+      "french": "Me gusta esta canción.",
+      "english": "I like this song.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2024903",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205014",
+      "unit_id": "U205",
+      "french": "¿Quién canta?",
+      "english": "Who is singing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9285930",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Javea",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205015",
+      "unit_id": "U205",
+      "french": "Canta, por favor.",
+      "english": "Please sing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2051712",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205016",
+      "unit_id": "U205",
+      "french": "Tom canta.",
+      "english": "Tom sings.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3028914",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": [
+        "Tom is singing."
+      ]
+    },
+    {
+      "sentence_id": "S205017",
+      "unit_id": "U205",
+      "french": "¡Qué bien canta!",
+      "english": "How beautifully she sings!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "534311",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205018",
+      "unit_id": "U205",
+      "french": "Ella canta bien.",
+      "english": "She sings well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1283021",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205019",
+      "unit_id": "U205",
+      "french": "Él canta bien.",
+      "english": "He is good at singing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1323140",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205020",
+      "unit_id": "U205",
+      "french": "Él es cantante.",
+      "english": "He is a singer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707015",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205021",
+      "unit_id": "U205",
+      "french": "No tengo guitarra.",
+      "english": "I don't have a guitar.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4735825",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205022",
+      "unit_id": "U205",
+      "french": "Tom es cantante.",
+      "english": "Tom is a singer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9969840",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205023",
+      "unit_id": "U205",
+      "french": "Tengo una guitarra.",
+      "english": "I have a guitar.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13718509",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205024",
+      "unit_id": "U205",
+      "french": "Él no canta bien.",
+      "english": "He doesn't sing well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "529180",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Leono",
+      "other_english": [
+        "He can't sing well.",
+        "He cannot sing well."
+      ]
+    },
+    {
+      "sentence_id": "S205025",
+      "unit_id": "U205",
+      "french": "Ella canta muy bien.",
+      "english": "She sings very well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "567891",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "She can sing very well."
+      ]
+    },
+    {
+      "sentence_id": "S205026",
+      "unit_id": "U205",
+      "french": "Él canta muy bien.",
+      "english": "He sings very well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1200433",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205027",
+      "unit_id": "U205",
+      "french": "Esta es mi canción.",
+      "english": "This is my song.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2351048",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205028",
+      "unit_id": "U205",
+      "french": "Esto es una canción.",
+      "english": "It's a song.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2353281",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205029",
+      "unit_id": "U205",
+      "french": "Me gusta tu canción.",
+      "english": "I like your song.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2412333",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S205030",
+      "unit_id": "U205",
+      "french": "Me gusta la música.",
+      "english": "I like music.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4070280",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "yadi",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S205001",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205001",
+      "position": 2,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205001",
+      "position": 3,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205001",
+      "position": 4,
+      "surface": "canción",
+      "word_id": "W556",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205002",
+      "position": 1,
+      "surface": "Por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205002",
+      "position": 2,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205002",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205002",
+      "position": 4,
+      "surface": "canción",
+      "word_id": "W556",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205003",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205003",
+      "position": 2,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205004",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205004",
+      "position": 2,
+      "surface": "cantante",
+      "word_id": "W559",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205005",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205005",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205005",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205005",
+      "position": 4,
+      "surface": "guitarra",
+      "word_id": "W558",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205006",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205006",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205006",
+      "position": 3,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205006",
+      "position": 4,
+      "surface": "música",
+      "word_id": "W555",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205007",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205007",
+      "position": 2,
+      "surface": "música",
+      "word_id": "W555",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205007",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205007",
+      "position": 4,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205008",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205008",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205008",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205008",
+      "position": 4,
+      "surface": "guitarra",
+      "word_id": "W558",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205009",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205009",
+      "position": 2,
+      "surface": "quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205009",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205009",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205009",
+      "position": 5,
+      "surface": "guitarra",
+      "word_id": "W558",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205010",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205010",
+      "position": 2,
+      "surface": "cantante",
+      "word_id": "W559",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205011",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205011",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205011",
+      "position": 3,
+      "surface": "cantante",
+      "word_id": "W559",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205012",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205012",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205012",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205012",
+      "position": 4,
+      "surface": "música",
+      "word_id": "W555",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205013",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205013",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205013",
+      "position": 3,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205013",
+      "position": 4,
+      "surface": "canción",
+      "word_id": "W556",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205014",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205014",
+      "position": 2,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205015",
+      "position": 1,
+      "surface": "Canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205015",
+      "position": 2,
+      "surface": "por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205016",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205016",
+      "position": 2,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205017",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205017",
+      "position": 2,
+      "surface": "bien",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205017",
+      "position": 3,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205018",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205018",
+      "position": 2,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205018",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205019",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205019",
+      "position": 2,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205019",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205020",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205020",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205020",
+      "position": 3,
+      "surface": "cantante",
+      "word_id": "W559",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205021",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205021",
+      "position": 2,
+      "surface": "tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205021",
+      "position": 3,
+      "surface": "guitarra",
+      "word_id": "W558",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205022",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205022",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205022",
+      "position": 3,
+      "surface": "cantante",
+      "word_id": "W559",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205023",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205023",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205023",
+      "position": 3,
+      "surface": "guitarra",
+      "word_id": "W558",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205024",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205024",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205024",
+      "position": 3,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205024",
+      "position": 4,
+      "surface": "bien",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205025",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205025",
+      "position": 2,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205025",
+      "position": 3,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205025",
+      "position": 4,
+      "surface": "bien",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205026",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205026",
+      "position": 2,
+      "surface": "canta",
+      "word_id": "W560",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205026",
+      "position": 3,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205026",
+      "position": 4,
+      "surface": "bien",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205027",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205027",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205027",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205027",
+      "position": 4,
+      "surface": "canción",
+      "word_id": "W556",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205028",
+      "position": 1,
+      "surface": "Esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205028",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205028",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205028",
+      "position": 4,
+      "surface": "canción",
+      "word_id": "W556",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205029",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205029",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205029",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205029",
+      "position": 4,
+      "surface": "canción",
+      "word_id": "W556",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205030",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205030",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205030",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S205030",
+      "position": 4,
+      "surface": "música",
+      "word_id": "W555",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A2050011",
+      "sentence_id": "S205001",
+      "direction": "fr_to_en",
+      "answer": "Who sings this song?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2050101",
+      "sentence_id": "S205010",
+      "direction": "fr_to_en",
+      "answer": "I am a singer.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2050111",
+      "sentence_id": "S205011",
+      "direction": "fr_to_en",
+      "answer": "She is a singer.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2050161",
+      "sentence_id": "S205016",
+      "direction": "fr_to_en",
+      "answer": "Tom is singing.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2050241",
+      "sentence_id": "S205024",
+      "direction": "fr_to_en",
+      "answer": "He can't sing well.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2050242",
+      "sentence_id": "S205024",
+      "direction": "fr_to_en",
+      "answer": "He cannot sing well.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A2050251",
+      "sentence_id": "S205025",
+      "direction": "fr_to_en",
+      "answer": "She can sing very well.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

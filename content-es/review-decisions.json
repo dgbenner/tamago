@@ -77,6 +77,21 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md: 33 sentences, 30 checked Tatoeba and 3 drafted answers, every word in 3 or more; reviewed in content-es/sweep/packs-review.json"
+    },
+    "U200": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: the Spanish topic node after Unit 15 (no sentences of its own)"
+    },
+    "U102": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-es/sweep/packs-review.json"
+    },
+    "U100": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: the first topic node; no Spanish pack reached 30 on Units 1 to 5, so it holds none and stays off the tree"
     }
   },
   "cut_sentences": [],
@@ -447,6 +462,106 @@
     },
     "W195": {
       "hint": "friends (women)",
+      "source": "short form of Wiktionary"
+    },
+    "W506": {
+      "hint": "it is, of the weather (hacer)",
+      "source": "short form of Wiktionary"
+    },
+    "W509": {
+      "hint": "weather",
+      "source": "short form of Wiktionary"
+    },
+    "W517": {
+      "hint": "parents",
+      "source": "short form of Wiktionary"
+    },
+    "W524": {
+      "hint": "boss",
+      "source": "short form of Wiktionary"
+    },
+    "W525": {
+      "hint": "boss (woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W528": {
+      "hint": "busy",
+      "source": "short form of Wiktionary"
+    },
+    "W529": {
+      "hint": "busy (ocupado)",
+      "source": "short form of Wiktionary"
+    },
+    "W538": {
+      "hint": "hurts (doler)",
+      "source": "short form of Wiktionary"
+    },
+    "W545": {
+      "hint": "looks at, watches (mirar)",
+      "source": "short form of Wiktionary"
+    },
+    "W560": {
+      "hint": "sings (cantar)",
+      "source": "short form of Wiktionary"
+    },
+    "W563": {
+      "hint": "chocolate",
+      "source": "short form of Wiktionary"
+    },
+    "W571": {
+      "hint": "plant",
+      "source": "short form of Wiktionary"
+    },
+    "W581": {
+      "hint": "meat",
+      "source": "short form of Wiktionary"
+    },
+    "W600": {
+      "hint": "trip",
+      "source": "short form of Wiktionary"
+    },
+    "W609": {
+      "hint": "sand",
+      "source": "short form of Wiktionary"
+    },
+    "W522": {
+      "hint": "works (trabajar)",
+      "source": "short form of Wiktionary"
+    },
+    "W523": {
+      "hint": "you work (trabajar)",
+      "source": "short form of Wiktionary"
+    },
+    "W507": {
+      "hint": "it rains (llover)",
+      "source": "short form of Wiktionary"
+    },
+    "W508": {
+      "hint": "it snows (nevar)",
+      "source": "short form of Wiktionary"
+    },
+    "W534": {
+      "hint": "nurse",
+      "source": "short form of Wiktionary"
+    },
+    "W532": {
+      "hint": "doctor (woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W518": {
+      "hint": "mom",
+      "source": "short form of Wiktionary"
+    },
+    "W521": {
+      "hint": "work, job",
+      "source": "short form of Wiktionary"
+    },
+    "W593": {
+      "hint": "living room",
+      "source": "short form of Wiktionary"
+    },
+    "W595": {
+      "hint": "plane",
       "source": "short form of Wiktionary"
     }
   },

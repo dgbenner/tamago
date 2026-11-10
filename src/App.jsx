@@ -218,7 +218,11 @@ export default function App() {
 
   // R20: a row opens when every unit in the row it names has finished round 1. A unit also has to be live.
   // Only units with content are on the tree: a course still being built (Spanish) shows the units it has so far.
-  const layout = tables.tree_layout.filter((t) => String(tables.units.find((u) => u.unit_id === t.unit_id)?.status).startsWith('live'))
+  // A topic node appears once it has a live pack.
+  const liveUnit = (id) => String(tables.units.find((u) => u.unit_id === id)?.status).startsWith('live')
+  const firstNode = tables.units.filter((u) => u.is_topic_pick === 'node').sort((a, b) => a.order - b.order)[0]?.unit_id
+  const nodeHasPacks = (id) => tables.units.some((u) => u.is_topic_pick === 'yes' && String(u.status).startsWith('live') && (u.topic_node || firstNode) === id)
+  const layout = tables.tree_layout.filter((t) => liveUnit(t.unit_id) && (tables.units.find((u) => u.unit_id === t.unit_id)?.is_topic_pick !== 'node' || nodeHasPacks(t.unit_id)))
   // Topic packs sit at the Your topic node: they open with it, and only the chosen one (or one already started) is on the path.
   const topicNodes = tables.units.filter((u) => u.is_topic_pick === 'node').sort((a, b) => a.order - b.order)
   const isTopicNode = (unitId) => topicNodes.some((n) => n.unit_id === unitId)
