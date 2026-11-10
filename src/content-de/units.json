@@ -37,13 +37,19 @@
     "can_do_ids": "CD05;CD06;CD07;CD08",
     "branch_group": "",
     "is_topic_pick": "",
-    "status": "",
+    "status": "live",
     "borrowed_sentence_ids": [],
     "topic_id": "",
     "icon_group": "nigiri",
     "icon_file": "sake.webp",
     "topic_node": "",
-    "lesson_counts": null
+    "lesson_counts": [
+      5,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "unit_id": "U03",

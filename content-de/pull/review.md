@@ -2,39 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U01 Saying Hello: sein for who you are: ich bin, du bist; ein and eine; nicht
+## U02 People and Things: der, die and das; er, sie and es; ist
 
-26 sentences picked from 26 candidates (target 30 to 40). Grammar point in 21 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 53 candidates (target 30 to 40). Grammar point in 28 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): ein 5, eine 2, bin 11, bist 11.
+Contrast forms, sentences each (target 2): der 3, die 0, das 7, er 3, sie 3, ist 25, bin 2.
 
-**Gaps (P08)**, fewer than 3 usable sentences: tschüss (1), nein (1), eine (2), Mann (0), Frau (2), Junge (1), Mädchen (2), Kind (2). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: die (0), Brief (0), Zeitung (0), Haus (2). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S1001 | Ich bin ich und du bist du. | I am me and you are you. |  | [#8717039](https://tatoeba.org/en/sentences/show/8717039) | dilo1 |
-| S1002 | Bist du ein Mädchen? | Are you a girl? |  | [#13056752](https://tatoeba.org/en/sentences/show/13056752) | Vortarulo |
-| S1003 | Ich bin eine Frau. | I'm a woman. | I am a woman. | [#740897](https://tatoeba.org/en/sentences/show/740897) | Dejo |
-| S1004 | Du bist eine Frau. | You're a woman. | You are a woman. | [#1229187](https://tatoeba.org/en/sentences/show/1229187) | Pfirsichbaeumchen |
-| S1005 | Ich bin ein Kind. | I'm a child. | I am a child. | [#3321292](https://tatoeba.org/en/sentences/show/3321292) | Pfirsichbaeumchen |
-| S1006 | Ja und nein. | Yes and no. |  | [#1021595](https://tatoeba.org/en/sentences/show/1021595) | al_ex_an_der |
-| S1007 | Ich bin ein Mädchen. | I'm a girl. | I am a girl. | [#4094668](https://tatoeba.org/en/sentences/show/4094668) | Pfirsichbaeumchen |
-| S1008 | Ich bin Tom. Und du? | I'm Tom, and you? |  | [#10010157](https://tatoeba.org/en/sentences/show/10010157) | Pfirsichbaeumchen |
-| S1009 | Bist du nicht Tom? | Aren't you Tom? |  | [#785264](https://tatoeba.org/en/sentences/show/785264) | Hans_Adler |
-| S1010 | Hallo, bist du Tom? | Hi, are you Tom? |  | [#4047079](https://tatoeba.org/en/sentences/show/4047079) | g_j |
-| S1011 | Ich bin nicht du. | I'm not you. | I ain't you. | [#3765651](https://tatoeba.org/en/sentences/show/3765651) | Wuzzy |
-| S1012 | Du bist ein Kind. | You're a child. |  | [#8871091](https://tatoeba.org/en/sentences/show/8871091) | wolfgangth |
-| S1013 | Du bist ein Junge. | You're a boy. |  | [#13765046](https://tatoeba.org/en/sentences/show/13765046) | kumakyoo |
-| S1014 | Ich bin nicht Tom. | I'm not Tom. |  | [#2806179](https://tatoeba.org/en/sentences/show/2806179) | Pfirsichbaeumchen |
-| S1015 | Hallo, ich bin Tom. | Hello, I'm Tom. | Hi, I'm Tom. | [#6626050](https://tatoeba.org/en/sentences/show/6626050) | Felixjp |
-| S1016 | Ja. Ich bin Tom. | Yes. I am Tom. |  | [#12530911](https://tatoeba.org/en/sentences/show/12530911) | Vortarulo |
-| S1017 | Ja, ich bin Anna. | Yes, I'm Anna. |  | [#13539253](https://tatoeba.org/en/sentences/show/13539253) | mhr |
-| S1018 | Hallo, Tom! | Hi, Tom. | Hello, Tom! | [#3298512](https://tatoeba.org/en/sentences/show/3298512) | Manfredo |
-| S1019 | Tschüss, Anna! | Goodbye, Anna! |  | [#8648383](https://tatoeba.org/en/sentences/show/8648383) | Melang |
-| S1020 | Und du? | And you? |  | [#522709](https://tatoeba.org/en/sentences/show/522709) | samueldora |
-| S1021 | Und ich? | What about me? |  | [#6625078](https://tatoeba.org/en/sentences/show/6625078) | Felixjp |
-| S1022 | Bist du Tom? | Are you Tom? |  | [#1495921](https://tatoeba.org/en/sentences/show/1495921) | Pfirsichbaeumchen |
-| S1023 | Bist du Mary? | Are you Mary? |  | [#8453009](https://tatoeba.org/en/sentences/show/8453009) | Luiaard |
-| S1024 | Du bist nicht Tom. | You aren't Tom. | You're not Tom. | [#6615634](https://tatoeba.org/en/sentences/show/6615634) | Felixjp |
-| S1025 | Du bist Anna. | You are Anna. |  | [#8768989](https://tatoeba.org/en/sentences/show/8768989) | Yorwba |
-| S1026 | Ich bin ich. | I'm me. | I am me. | [#10203527](https://tatoeba.org/en/sentences/show/10203527) | Pfirsichbaeumchen |
+| S2001 | Das Buch ist groß. | The book is big. |  | [#626257](https://tatoeba.org/en/sentences/show/626257) | kolonjano |
+| S2002 | Das Buch ist klein. | The book is small. |  | [#626265](https://tatoeba.org/en/sentences/show/626265) | kolonjano |
+| S2003 | Das Haus ist groß. | The house is big. | That house is big. | [#2325818](https://tatoeba.org/en/sentences/show/2325818) | Pfirsichbaeumchen |
+| S2004 | Ist er groß? | Is he tall? |  | [#4901295](https://tatoeba.org/en/sentences/show/4901295) | al_ex_an_der |
+| S2005 | Er ist hier! | He is here! | Here he is! | [#356294](https://tatoeba.org/en/sentences/show/356294) | MUIRIEL |
+| S2006 | Hier ist sie! | Here she is! |  | [#1848490](https://tatoeba.org/en/sentences/show/1848490) | Tamy |
+| S2007 | Sie ist hier. | She's here. | She is here. | [#3098190](https://tatoeba.org/en/sentences/show/3098190) | Valodnieks |
+| S2008 | Das Haus ist klein. | The house is small. |  | [#8320538](https://tatoeba.org/en/sentences/show/8320538) | MisterTrouser |
+| S2009 | Sie ist klein. | She's small. | She is small. | [#8682831](https://tatoeba.org/en/sentences/show/8682831) | Pfirsichbaeumchen |
+| S2010 | Es ist ein Buch. | It is a book. |  | [#582667](https://tatoeba.org/en/sentences/show/582667) | samueldora |
+| S2011 | Ist der Junge Tom? | Is that boy Tom? |  | [#6625726](https://tatoeba.org/en/sentences/show/6625726) | Felixjp |
+| S2012 | Der Mann ist groß. | The man is big. | The man is tall. | [#3451850](https://tatoeba.org/en/sentences/show/3451850) | Esperantostern |
+| S2013 | Ist er Tom? | Is he Tom? |  | [#6625724](https://tatoeba.org/en/sentences/show/6625724) | Felixjp |
+| S2014 | Es ist hier. | It's here. |  | [#5284084](https://tatoeba.org/en/sentences/show/5284084) | bonny37 |
+| S2015 | Hier ist es. | Here it is. |  | [#6644807](https://tatoeba.org/en/sentences/show/6644807) | Felixjp |
+| S2016 | Der Junge ist nicht groß. | The boy is not tall. |  | [#8277476](https://tatoeba.org/en/sentences/show/8277476) | Luiaard |
+| S2017 | Ich bin groß. | I'm big. | I'm tall.; I am tall. | [#576296](https://tatoeba.org/en/sentences/show/576296) | Pfirsichbaeumchen |
+| S2018 | Ich bin hier. | I'm here. | I am here. | [#2323643](https://tatoeba.org/en/sentences/show/2323643) | pne |
+| S2019 | Ist das Tom? | Is that Tom? | Is he Tom?; Is it Tom?; Is this Tom? | [#2110998](https://tatoeba.org/en/sentences/show/2110998) | freddy1 |
+| S2020 | Ist Tom hier? | Is Tom here? |  | [#6643370](https://tatoeba.org/en/sentences/show/6643370) | Felixjp |
+| S2021 | Ist Tom groß? | Is Tom big? | Is Tom tall? | [#6643372](https://tatoeba.org/en/sentences/show/6643372) | Felixjp |
+| S2022 | Das Buch ist hier. | The book is here. | That book's over here. | [#3109077](https://tatoeba.org/en/sentences/show/3109077) | Pfirsichbaeumchen |
+| S2023 | Bist du hier? | Are you here? |  | [#4902095](https://tatoeba.org/en/sentences/show/4902095) | al_ex_an_der |
+| S2024 | Tom, bist du hier? | Tom, are you here? | Tom, are you in here? | [#2577461](https://tatoeba.org/en/sentences/show/2577461) | Gulo_Luscus |
+| S2025 | Bist du das, Tom? | Is that you, Tom? |  | [#6626370](https://tatoeba.org/en/sentences/show/6626370) | Felixjp |
+| S2026 | Es ist nicht hier. | It's not here. |  | [#1401082](https://tatoeba.org/en/sentences/show/1401082) | Esperantostern |
+| S2027 | Tom ist klein. | Tom is small. | Tom is short. | [#1527713](https://tatoeba.org/en/sentences/show/1527713) | Pfirsichbaeumchen |
+| S2028 | Hier ist Tom. | Here's Tom. | Here is Tom.; Here comes Tom. | [#1898754](https://tatoeba.org/en/sentences/show/1898754) | Pfirsichbaeumchen |
+| S2029 | Tom ist groß. | Tom is big. | Tom is tall. | [#1938449](https://tatoeba.org/en/sentences/show/1938449) | Pfirsichbaeumchen |
+| S2030 | Tom ist hier. | Tom's here. | Tom is in. | [#4422550](https://tatoeba.org/en/sentences/show/4422550) | Dokuyaku |

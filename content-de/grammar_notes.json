@@ -6,6 +6,13 @@
       "example_sentence_ids": "S1003;S1005;S1009",
       "conjugation_lemma": "sein",
       "status": "live"
+    },
+    {
+      "unit_id": "U02",
+      "rule": "German has three genders, and the word for the shows which: der for masculine nouns (der Mann, der Brief), die for feminine (die Frau, die Zeitung), das for neuter (das Buch, das Haus). Learn each noun with its der, die or das. Er, sie and es (he, she, it) follow the same three: er for a der noun, sie for a die noun, es for a das noun. Ist means is.",
+      "example_sentence_ids": "S2012;S2001;S2104",
+      "conjugation_lemma": "sein",
+      "status": "live"
     }
   ]
 }

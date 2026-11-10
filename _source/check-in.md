@@ -673,7 +673,7 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (12), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (20), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (12)
 
@@ -689,3 +689,14 @@ Every German sentence I wrote (12), for a native speaker of German as spoken in 
 - S1110 Du bist ein Mädchen. = You are a girl.
 - S1111 Bist du ein Kind? = Are you a child?
 - S1112 Bist du eine Frau? = Are you a woman?
+
+**U02 People and Things** (8)
+
+- S2101 Der Brief ist hier. = The letter is here.
+- S2102 Der Brief ist klein. = The letter is small.
+- S2103 Ist der Brief hier? = Is the letter here?
+- S2104 Die Zeitung ist hier. = The newspaper is here.
+- S2105 Die Zeitung ist groß. = The newspaper is big.
+- S2106 Ist die Zeitung hier? = Is the newspaper here?
+- S2107 Die Frau ist hier. = The woman is here.
+- S2108 Ist das Haus groß? = Is the house big?
