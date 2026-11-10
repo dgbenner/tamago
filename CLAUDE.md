@@ -73,11 +73,11 @@ Choices the specs left open, easy to change:
 - Names: audio buttons say what they play; picture choices carry the word's English meaning (`alt`); match pairs and audio choices expose aria-pressed and announce results.
 - Reduced motion: every animation and press transition is off; the opening screen shows the letters already drawn.
 - Tests (scratchpad, wiped between sessions): axe over every screen and question type in light and dark, a keyboard-only run, 200% zoom and 320px reflow, reduced motion. The dev-only `window.__tamago.lesson(unit, round)` hook (on with `VITE_TEST_HOOK=1` builds, never in the live build) opens any round.
-- Developer Notes (bottom of Settings, setting `dev_notes`, default on; turn off before testers): renders the listed _source documents and the newest _review Grades section at build time (src/lib/devnotes.js, explicit file list only); `src/lib/redact.js` blanks key-shaped text and test/devnotes.test.js fails if a shown document holds any.
+- Developer area (src/screens/Developer.jsx, 2026-11-10; replaced Developer Notes in Settings): a quiet dashed "Developer" item last in the tools strip and the desktop panel (setting `developer`, default on; turn off before testers, with Testing shortcuts), and always at the hidden address `#developer`. One page: Testing (Testing shortcuts, Show Developer in Tools, Variant Test Bank, Flag Review, Native-Speaker Check, Forum), then large accordions: Course Snapshot (exact numbers from the shipped content, build time and workbook version via vite `define`), Model Story (_source/model-story.md), Craft Rubric, Latest Grades, Test Notes, Feature List, Question Types, Build Phases, Autonomous Brief, Check-In. Documents render at build time from an explicit file list (src/lib/devnotes.js); `src/lib/redact.js` blanks key-shaped text and test/devnotes.test.js fails if a shown document holds any.
 
 ## Testing
 
-With the Testing shortcuts setting on (default on while Dan is the only user; turn the default off before Phase 4 testers), the right arrow, or a quick swipe left that starts on the right half of a touch screen, marks a question correct and moves on; with an answer on screen it acts as Continue. Attempts made this way carry `test_skip: true`. Real progress on that browser moves with it.
+With the Testing shortcuts setting on (on the Developer page; default on while Dan is the only user; turn the default off before Phase 4 testers), the right arrow, or a quick swipe left that starts on the right half of a touch screen, marks a question correct and moves on; with an answer on screen it acts as Continue. Attempts made this way carry `test_skip: true`. Real progress on that browser moves with it.
 
 ## Answer checking
 

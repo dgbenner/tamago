@@ -4,7 +4,6 @@ import { IconBack, IconSpeaker } from './icons.jsx'
 import { useEffect, useState } from 'react'
 import { explainReady } from '../lib/explain.js'
 import NeedsSetup from './NeedsSetup.jsx'
-import DevNotes from './DevNotes.jsx'
 
 function Segmented({ label, help, value, options, onChange }) {
   return (
@@ -48,7 +47,7 @@ function Item({ title, help, children }) {
   )
 }
 
-export default function Settings({ settings, onChange, onBack, onAbout, onPlacement, onVariants, onProfile, onNativeCheck, onFlags, onForum }) {
+export default function Settings({ settings, onChange, onBack, onAbout, onPlacement, onProfile }) {
   const [explaining, setExplaining] = useState(null)
   useEffect(() => { explainReady().then(setExplaining) }, [])
   return (
@@ -105,20 +104,7 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
         <button onClick={onAbout} className="btn-secondary">About the Content</button>
       </Section>
 
-      <Section title="Testing (For Dan)">
-        <Segmented label="Testing Shortcuts" help="Swipe left from the right side of the screen, or press the right arrow, to pass a question as correct. Passes are marked as tests." value={settings.test_shortcuts}
-          options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ test_shortcuts: v })} />
-        <Item title="Variant Test Bank" help="Switch question variants between live, testing and off.">
-          <button onClick={onVariants} className="btn-secondary">Open the Variant Test Bank</button>
-        </Item>
-        <button onClick={onFlags} className="btn-secondary">Flag Review</button>
-        <button onClick={onNativeCheck} className="btn-secondary">Native-Speaker Check</button>
-        <button onClick={onForum} className="btn-secondary">Forum</button>
-        <Segmented label="Developer Notes" help="The project's documents, at the bottom of this page. Turn off before testers." value={settings.dev_notes ?? 'on'}
-          options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ dev_notes: v })} />
-      </Section>
       </div>
-      {settings.dev_notes !== 'off' && <DevNotes />}
     </main>
   )
 }

@@ -4,6 +4,9 @@ Updated November 9, 2026, late. Working through your test notes (_source/test-no
 
 ## Done since last check-in
 
+- **Developer area:** "Developer" sits last in the tools strip (and the panel on desktop), in a quieter dashed outline. It opens one page: testing controls at the top (Testing shortcuts, Variant Test Bank, Flag Review, Native-Speaker Check, Forum, all moved out of Settings), then large accordions: Course Snapshot (dated, exact numbers), Model Story, Craft Rubric, Latest Grades, Test Notes, Feature List, Question Types, Build Phases, Autonomous Brief and Check-In. Settings now holds only learner settings.
+  - **Model Story** is new (_source/model-story.md): for the builder, the reviewer, the Why? explanations and the practice writer, what each is for, its model, its rules, where its facts come from, what it must never do, its cost limits and how it's graded, plus Tamago's product rules. Two honest gaps it names: Why? explanations aren't graded systematically yet, and the practice writer has no per-device daily cap (only the $5 monthly workspace limit).
+  - **Before testers:** on the Developer page, set Show Developer in Tools and Testing Shortcuts to Off. The page stays open for you at https://tamago-83f.pages.dev/#developer
 - **Content sweep (overnight), before and after:**
 
   | | Before | After |

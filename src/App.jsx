@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, recordings, tables, unitContent } from './lib/content.js'
-import { wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining } from './lib/lesson.js'
+import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { band, skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
@@ -22,6 +22,7 @@ import FlagReview from './screens/FlagReview.jsx'
 import Forum from './screens/Forum.jsx'
 import Make from './screens/Make.jsx'
 import Listening from './screens/Listening.jsx'
+import Developer from './screens/Developer.jsx'
 import { listeningFrom, requestGenerated, sentencesFrom } from './lib/generate.js'
 import { tokenize } from '../scripts/lib/french.mjs'
 
@@ -34,7 +35,7 @@ const DEFAULT_SETTINGS = {
   answer_strictness: defaults.answer_strictness, typed_input: defaults.typed_input, listen_first: defaults.listen_first,
   theme: defaults.theme, cant_listen_until: null, cant_speak_until: null,
   test_shortcuts: 'on', // Dan only for now; turn the default off before testers (Phase 4)
-  dev_notes: 'on', // Developer Notes at the bottom of Settings; turn the default off before testers
+  developer: 'on', // the Developer entry in Tools; turn the default off before testers (#developer always opens it)
   points_and_streaks: defaults.points_and_streaks ?? 'on', weekly_goal: 'none',
 }
 // Monday-start week, for the weekly goal.
@@ -55,7 +56,7 @@ function useWide() {
 }
 
 const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', progress: 'Progress', settings: 'Settings', about: 'About the Content',
-  profile: 'Profile and Backup', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening' }
+  profile: 'Profile and Backup', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening', developer: 'Developer' }
 
 const paused = (until) => until === 'always' || (typeof until === 'number' && until > Date.now())
 
@@ -135,6 +136,16 @@ export default function App() {
       setReady(true)
     })
   }, [])
+
+  // The Developer page's hidden address: #developer opens it, whatever the setting.
+  useEffect(() => {
+    if (!ready) return undefined
+    const open = () => { if (location.hash === '#developer') setScreen('developer') }
+    open()
+    window.addEventListener('hashchange', open)
+    return () => window.removeEventListener('hashchange', open)
+  }, [ready])
+  const leaveDeveloper = () => { if (location.hash) history.replaceState(null, '', location.pathname); setScreen('home') }
 
   useEffect(() => {
     const root = document.documentElement
@@ -682,11 +693,39 @@ export default function App() {
   if (screen === 'flashcards' && flash) return <Flashcards cards={flash.cards} aloud={flash.aloud} onGrade={gradeCard} onDone={() => { markActive(); const back = flash.back ?? 'words'; setFlash(null); setScreen(back) }} />
   if (screen === 'variants') {
     return <VariantBank types={tables.question_types.filter((t) => tables.variants.some((v) => v.type_id === t.type_id))} variants={tables.variants.map((v) => ({ ...v }))}
-      onChange={changeVariant} onBack={() => setScreen('settings')} />
+      onChange={changeVariant} onBack={() => setScreen('developer')} />
   }
   if (screen === 'settings') {
-    return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPlacement={startPlacement} onVariants={() => setScreen('variants')}
-      onProfile={() => setScreen('profile')} onNativeCheck={() => setScreen('native')} onFlags={() => setScreen('flags')} onForum={() => setScreen('forum')} />
+    return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPlacement={startPlacement}
+      onProfile={() => setScreen('profile')} />
+  }
+  if (screen === 'developer') {
+    // Course Snapshot: exact numbers for this version, worked out from the content it ships.
+    const live = (u) => String(u.status).startsWith('live')
+    const mainUnits = tables.units.filter((u) => live(u) && !['yes', 'node'].includes(u.is_topic_pick))
+    const packUnits = tables.units.filter((u) => live(u) && u.is_topic_pick === 'yes')
+    const bySource = (src) => tables.sentences.filter((x) => x.source === src).length
+    const fr = tables.accepted_answers.filter((a) => a.direction === 'fr_to_en').length
+    const n = (x) => x.toLocaleString('en-US')
+    const snapshot = {
+      built: new Date(__BUILD_TIME__).toLocaleString('en-US', { dateStyle: 'long', timeStyle: 'short' }), workbook: __WORKBOOK__,
+      rows: [
+        ['Units', `${n(mainUnits.length)} A1 units, ${n(packUnits.length)} topic packs`],
+        ['Sentences', `${n(tables.sentences.length)}: ${n(bySource('tatoeba'))} from Tatoeba, ${n(bySource('tamago_original'))} written for Tamago`],
+        ['Native-speaker check list', `${n(bySource('tamago_original'))} sentences`],
+        ['Words', n(tables.words.length)],
+        ['Accepted answers', `${n(fr)} English (French to English), ${n(tables.accepted_answers.length - fr)} French (English to French)`],
+        ['Question-and-answer pairs', n(tables.qa_answers.length)],
+        ['Grammar notes', n(tables.grammar_notes.length)],
+        ['"I can" statements', n(tables.can_do.length)],
+        ['Native recordings', `${n(tables.sentences.filter((x) => recordingOf(x)).length + tables.words.filter((w) => w.lingua_libre).length)}: ${n(tables.words.filter((w) => w.lingua_libre).length)} words, ${n(tables.sentences.filter((x) => recordingOf(x)).length)} sentences`],
+        ['Word pictures', n(tables.words.filter((w) => w.image_file).length)],
+        ['Question types built', `${n(tables.question_types.filter((t) => BUILT_TYPES.has(t.type_id)).length)} of ${n(tables.question_types.length)}`],
+        ['Question variants live', `${n(tables.variants.filter((v) => String(v.status).startsWith('live')).length)} of ${n(tables.variants.length)}`],
+      ],
+    }
+    return <Developer settings={settings} onChange={changeSettings} snapshot={snapshot} onBack={leaveDeveloper}
+      onVariants={() => setScreen('variants')} onFlags={() => setScreen('flags')} onNativeCheck={() => setScreen('native')} onForum={() => setScreen('forum')} />
   }
   if (screen === 'profile') return <Profile profile={profile} onChange={(p) => { const n = { ...profile, ...p }; setProfile(n); putKv('profile', n) }} onBack={() => setScreen('settings')} />
   if (screen === 'native') {
@@ -694,15 +733,15 @@ export default function App() {
     const list = tables.sentences.filter((s) => s.source === 'tamago_original')
       .map((s) => ({ ...s, unit_title: `${order.get(s.unit_id).is_topic_pick === 'yes' ? 'Topic' : 'Unit ' + order.get(s.unit_id).order}: ${order.get(s.unit_id).title}` }))
       .sort((x, y) => order.get(x.unit_id).order - order.get(y.unit_id).order || x.sentence_id.localeCompare(y.sentence_id))
-    return <NativeCheck sentences={list} results={nativeResults} onChange={(n) => { setNativeResults(n); putKv('native_check', n) }} onBack={() => setScreen('settings')} />
+    return <NativeCheck sentences={list} results={nativeResults} onChange={(n) => { setNativeResults(n); putKv('native_check', n) }} onBack={() => setScreen('developer')} />
   }
   if (screen === 'flags') {
-    return <FlagReview reasons={tables.flag_reasons} onBack={() => setScreen('settings')} onAccept={(row) => {
+    return <FlagReview reasons={tables.flag_reasons} onBack={() => setScreen('developer')} onAccept={(row) => {
       addAccepted([row])
       getKv('approved_answers').then((list) => putKv('approved_answers', [...(list ?? []), row]))
     }} />
   }
-  if (screen === 'forum') return <Forum onBack={() => setScreen('settings')} />
+  if (screen === 'forum') return <Forum onBack={() => setScreen('developer')} />
   if (screen === 'listening' && passage) return <Listening passage={passage} onDone={() => { markActive(); setPassage(null); setScreen('make') }} onBack={() => { setPassage(null); setScreen('make') }} />
   if (screen === 'about') return <About content={allContent} onBack={() => setScreen('settings')} />
   if (screen === 'note' && note) {
@@ -749,6 +788,7 @@ export default function App() {
         { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Present-tense tables for the verbs you\'ve met, with a quick drill.', onOpen: () => setScreen('verbs') },
         { id: 'study', screen: 'make', label: 'Self-Study', about: 'Your weakest skill, this week\'s sentences, flashcards from your own list, and practice written by Claude.', onOpen: openMakeScreen },
         { id: 'progress', screen: 'progress', label: 'Progress', about: 'Your four skill scores, and the I Can checks for each unit.', onOpen: () => setScreen('progress') },
+        ...(settings.developer !== 'off' ? [{ id: 'developer', screen: 'developer', label: 'Developer', about: 'Testing controls and the project documents. Not part of the course.', quiet: true, onOpen: () => setScreen('developer') }] : []),
       ]}
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}

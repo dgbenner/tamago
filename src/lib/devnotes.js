@@ -1,4 +1,4 @@
-// Developer Notes (Dan, 2026-11-09): the project's own documents, read straight from _source and _review at build time,
+// The Developer page (Dan, 2026-11-10; was Developer Notes in Settings): the project's own documents, read straight from _source and _review at build time,
 // so every deploy carries the current text. Loaded only when the section is opened (a separate chunk).
 // Never shows secrets: anything shaped like a key or token is blanked before rendering, and the test suite checks it.
 import { marked } from 'marked'
@@ -6,20 +6,22 @@ import { gradesSection, redact } from './redact.js'
 
 // Only these files are bundled; nothing else in _source reaches the app.
 const SOURCE = import.meta.glob([
-  '../../_source/craft-review.md', '../../_source/tamago-feature-list.md', '../../_source/question-types.md', '../../_source/build-phases.md',
+  '../../_source/model-story.md', '../../_source/craft-review.md', '../../_source/tamago-feature-list.md', '../../_source/question-types.md', '../../_source/build-phases.md',
   '../../_source/autonomous-build.md', '../../_source/test-notes.md', '../../_source/check-in.md',
 ], { query: '?raw', import: 'default' })
 const REVIEWS = import.meta.glob(['../../_review/*/craft-review.md'], { query: '?raw', import: 'default' })
 
 // In this order: the rubric, the latest grades, then the specs and the running notes.
+// The Developer page's documents, in Dan's order (Course Snapshot comes first, built from the content in the page).
 export const DOCS = [
-  { id: 'craft-review', title: 'Craft Review (the Rubric)', file: 'craft-review.md' },
+  { id: 'model-story', title: 'Model Story', file: 'model-story.md' },
+  { id: 'craft-review', title: 'Craft Rubric', file: 'craft-review.md' },
   { id: 'grades', title: 'Latest Grades', review: true },
+  { id: 'test-notes', title: 'Test Notes', file: 'test-notes.md' },
   { id: 'features', title: 'Feature List', file: 'tamago-feature-list.md' },
   { id: 'question-types', title: 'Question Types', file: 'question-types.md' },
   { id: 'build-phases', title: 'Build Phases', file: 'build-phases.md' },
-  { id: 'autonomous-build', title: 'Autonomous Build', file: 'autonomous-build.md' },
-  { id: 'test-notes', title: 'Test Notes', file: 'test-notes.md' },
+  { id: 'autonomous-build', title: 'Autonomous Brief', file: 'autonomous-build.md' },
   { id: 'check-in', title: 'Check-In', file: 'check-in.md' },
 ]
 

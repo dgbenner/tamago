@@ -11,7 +11,7 @@ test('redact blanks keys and tokens', () => {
 })
 
 test('the documents shown hold nothing key-shaped', () => {
-  const files = ['craft-review.md', 'tamago-feature-list.md', 'question-types.md', 'build-phases.md', 'autonomous-build.md', 'test-notes.md', 'check-in.md'].map((f) => `_source/${f}`)
+  const files = ['model-story.md', 'craft-review.md', 'tamago-feature-list.md', 'question-types.md', 'build-phases.md', 'autonomous-build.md', 'test-notes.md', 'check-in.md'].map((f) => `_source/${f}`)
   for (const d of readdirSync('_review')) files.push(`_review/${d}/craft-review.md`)
   for (const f of files) {
     const text = readFileSync(f, 'utf8')

@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useId, useRef, useState } from 'react'
 import { LogoInline, SushiMark } from './Logo.jsx'
-import { IconBars, IconBook, IconCheckered, IconClose, IconGear, IconLock, IconStudy, IconVerb } from './icons.jsx'
+import { IconBars, IconBook, IconCode, IconCheckered, IconClose, IconGear, IconLock, IconStudy, IconVerb } from './icons.jsx'
 
 // Rounds as a ring of five segments around the unit circle, filling as rounds finish (Dan's test notes). Strength
 // (FSRS, 0 to 4 bars) is folded in: the finished segments fade as the unit's recall drops.
@@ -175,7 +175,7 @@ function Marker({ label }) {
   )
 }
 
-const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars }
+const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars, developer: IconCode }
 // The secondary menu: tools beside the path, as a sideways strip of tiles, out of the tree. (Progress has its own
 // quiet button on a phone; on a wide screen it joins the panel's list.)
 function Tools({ tools }) {
@@ -184,7 +184,8 @@ function Tools({ tools }) {
       {tools.filter((t) => t.id !== 'progress').map((t) => {
         const Icon = TOOL_ICONS[t.id]
         return (
-          <button key={t.id} onClick={t.onOpen} className="flex w-24 shrink-0 snap-start flex-col items-center gap-1 rounded-xl border-2 border-line bg-surface px-2 py-2.5 text-sm font-medium">
+          // Developer is quieter: dashed outline, no fill, muted text; not a learning tool.
+          <button key={t.id} onClick={t.onOpen} className={`flex w-24 shrink-0 snap-start flex-col items-center gap-1 rounded-xl border-2 px-2 py-2.5 text-sm ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface font-medium'}`}>
             <span className="[&_svg]:size-7"><Icon /></span>
             {t.label}
           </button>
@@ -202,7 +203,7 @@ function ToolMenu({ tools }) {
       {tools.map((t) => {
         const Icon = TOOL_ICONS[t.id]
         return (
-          <button key={t.id} onClick={t.onOpen} className="flex items-start gap-3 rounded-xl border-2 border-line bg-surface p-3 text-left hover:border-muted">
+          <button key={t.id} onClick={t.onOpen} className={`flex items-start gap-3 rounded-xl border-2 p-3 text-left hover:border-muted ${t.quiet ? 'mt-3 border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface'}`}>
             <span className="mt-0.5 shrink-0 [&_svg]:size-6"><Icon /></span>
             <span className="flex flex-col gap-0.5">
               <span className="font-semibold">{t.label}</span>

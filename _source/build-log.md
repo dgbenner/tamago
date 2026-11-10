@@ -355,3 +355,24 @@ Part 3, Lingua Libre recordings:
   4.0 13 (some shared files), each credited on About the Content.
 - App: words play their own recording (lesson.js wordRecordingOf) in match pairs, Pick the Picture and flashcards.
 - Tests muted (Chrome --mute-audio, Firefox media.volume_scale 0).
+
+## Developer area (2026-11-10)
+
+- "Developer" is the last item in the tools strip and the desktop panel, styled apart from the learning tools:
+  dashed outline, no fill, muted text, a code icon, and a line saying it isn't part of the course.
+- It opens one page: a Testing block (Testing shortcuts, Show Developer in Tools, and the Variant Test Bank, Flag
+  Review, Native-Speaker Check and Forum screens, all moved out of Settings), then large accordions in Dan's order:
+  Course Snapshot, Model Story, Craft Rubric, Latest Grades, Test Notes, Feature List, Question Types, Build
+  Phases, Autonomous Brief, Check-In. Settings keeps only learner settings (Lessons, Sound and Look, Goals, Your
+  Learning). Developer Notes in Settings is gone; its documents live here.
+- Course Snapshot: dated by the build time and the workbook version (vite define), with exact counts worked out from
+  the shipped content (units, sentences by source, native check list, words, answers by direction, pairs, grammar
+  notes, I can statements, recordings, pictures, question types built, variants live).
+- Model Story (_source/model-story.md): new, in plain language, for the builder, the reviewer, the Why?
+  explanations and the practice writer: purpose, model, rules, sources of facts, what each must never do, cost
+  limits, how each is graded; plus Tamago's product rules. Drafted from the documents and the code; it says where
+  something isn't in place yet (no systematic grading of Why? explanations, no per-device cap on the practice writer).
+- Setting `developer` (default on) hides the item; #developer always opens the page, and Back clears the hash.
+- Checked in Chrome at phone and desktop sizes, light and dark: item order and dashed style, page title, the
+  accordions in order, snapshot, Model Story and grade table rendering, Settings without the testing items, hiding
+  and the hidden address, axe clean on the page.
