@@ -1,9 +1,31 @@
 # Tamago check-in
 
-Updated November 10, 2026. **German is live: all 15 A1 units, nine topic packs and the A1 Final Check, chosen on the opening screen, from the header flag or in Settings.** Fable's review is applied: 15 drafts swapped, the week pair cut, 69 drafts left for the native check. The Spanish course is live: all 15 units, six topic packs, and language switching. Also live: **three French topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
+Updated November 10, 2026. **New: the Asking for Help thread (three help circles per course), conversation scenes, and the conversation partner in Self-Study.** **German is live: all 15 A1 units, nine topic packs and the A1 Final Check, chosen on the opening screen, from the header flag or in Settings.** Fable's review is applied: 15 drafts swapped, the week pair cut, 69 drafts left for the native check. The Spanish course is live: all 15 units, six topic packs, and language switching. Also live: **three French topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
 
 ## Done since last check-in
 
+- **The conversation job, parts 2 to 5: conversations with Claude, live.**
+  - **Scenes on the path:** a Conversations node after Asking About Words (the second help circle). It opens once that circle has had its first lessons. There are three scenes per course: Ordering a Drink, A New Neighbour and Finding the Way.
+    - Each opens with a word prep: its 5 or 6 key words with your pictures, tap to hear.
+    - Claude then speaks a little above the learner's level on purpose.
+  - **Help phrases, one tap away**, from the help circles opened so far: I don't understand, slower please, please repeat, what does it mean, how do you say…, I'm looking for the word….
+    - Tapping a word in Claude's line puts it into "what does … mean" (*Qu'est-ce que « café » veut dire ?*).
+    - "How do you say…" and "I'm looking for the word…" put a frame in the box to finish.
+    - Claude answers each in the course language: it slows down (the voice slows too), repeats word for word, rephrases more simply, explains with simpler words, or gives the word.
+  - **Conversation Partner in Self-Study,** not tied to a circle. Its filters start from the learner's progress, and the learner can change them:
+    - language;
+    - topic: any opened circle, or free;
+    - vocabulary: my words only, or plus a few new;
+    - speed: slow, normal or natural;
+    - corrections: each turn, at the end, or off.
+  - **For every conversation:**
+    - Claude speaks with the device voice. The learner speaks where the browser can listen, and can always type; Can't Speak Now switches to typing.
+    - Claude's English translation is shown only on request.
+    - At the end, the course words Claude used that the learner hadn't met go to the Glossary, with Review the New Words (flashcards). Their meanings come from Tamago's Wiktionary data, never from Claude.
+    - Never graded.
+  - **Cost:** Haiku 5.5 at low effort, with its prompt cached after the first turn, and 14 learner turns per conversation (help taps count). The server holds the limit too, under the Tamago key's $5 monthly cap. A conversation costs well under a cent. It's in the Model Story as section 5.
+  - **Tested in Chrome** with a stand-in for Claude (no API calls): scene, help chips, partner, corrections each turn and at the end, new words. axe found no problems. The real endpoint goes live with this push; I made no real calls before it.
+  - **Fixed on the way:** French *vais*, *vas* and *va* showed leftover stylesheet text in their hints (live since the A1 units). They now read "go (aller, je)", and so on. Also shortened: *nous*, *au*, Spanish *él* and German *hallo*.
 - **The conversation job, part 1: Asking for Help, three help circles in each course.** They sit after the first circle (Asking for Help), after Row 3, about a third of the way in (Asking About Words), and after Row 6, about two thirds in (Finding the Word). They wear the three gunkan sushi in every course: ikura, tobiko, uni. Each is a full circle with five rounds, a grammar note and an "I can" statement written for the CEFR's A1 spoken-interaction row, which is exactly this skill.
   - **What they teach.**
     - Asking for Help: I don't understand, slower please, please repeat (*Je ne comprends pas*, *Más despacio, por favor*, *Sprechen Sie langsamer!*), in both the polite and the friendly forms.

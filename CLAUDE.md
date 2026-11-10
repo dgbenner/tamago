@@ -17,6 +17,10 @@ Three courses: French (content/, src/content/, public/audio/, workbook _source/t
 
 Three help circles per course (scripts/lib/help-circles.mjs; is_topic_pick 'help'; U31 Asking for Help row 1.5, U32 Asking About Words row 3.5, U33 Finding the Word row 6.5; order 1.5, 5.5, 9.5; words W701 on; can_do CD91 to CD93; icons ikura, tobiko, uni). They gate nothing (rows open with the row before), checkpoints skip them, main units never draw on their words (pull opened set). units.borrow_words lists later words a circle's phrases need: pull, import (drafts) and contentForUnit allow them. French workbook v26 (scripts/add-help-circles.mjs); the Spanish and German generators call addHelpCircles.
 
+## Conversations (2026-11-10)
+
+server/converse.mjs (functions/api/converse.js): Haiku 5.5, effort low, structured output (say, english, correction, done; review notes at the end), top-level cache_control, LIMITS 14 learner turns, 240 chars, 400 words. src/lib/converse.js: HELP_PHRASES per course (levels follow the help circles opened), SCENES (3 per course, keys are course words), piecesOf/newWordsIn (french.mjs analyse with partial). src/screens/Conversation.jsx: prep, talk, end; device voice (speakLine), SpeechRecognition where available, typing always; new words to seen_words and an optional flashcard review. Scenes node after the second help circle (Home ScenesNode, kv scenes_done); the partner in Self-Study (Make.jsx Partner). Never graded. Model Story section 5.
+
 ## A1 Final Check (2026-11-10)
 
 src/lib/finalcheck.js: one per course at the end of the path (Home FinalNode and FinalCard), modeled on the course's A1 exam (EXAMS: DELF A1, DELE A1, Goethe-Zertifikat A1: Start Deutsch 1, each with the official sample-paper link). PARTS in exam order: listening QT04 x3 + QT11 x3, reading QT03 x3 + QT06 x3, writing QT08 x2 + QT12 x4, speaking QT13 x3 (never graded). finalItems spreads sentences over the main units round robin; session kind 'final'; first attempts recorded per part (session.results); result kept in kv final_check and shown per skill on Progress. Misses stay out of the review bank.

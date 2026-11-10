@@ -93,8 +93,35 @@ These hold for every AI below, and for the app itself.
   sentences survive, the learner is asked to try again) and the unit tests for that filter. Its French isn't
   checked by a native speaker, and the screen says so.
 
+## 5. The conversation partner (scenes on the path, partner in Self-Study)
+
+- **Purpose:** a short spoken or typed conversation in the course language. Scenes (three per course, after the
+  second help circle) speak a little above the learner's level on purpose, so asking for help is the practice. The
+  partner in Self-Study follows the learner's filters: topic, vocabulary (my words only, or plus a few new), speed
+  (slow, normal, natural), corrections (each turn, at the end, or off).
+- **Model:** Claude Haiku 5.5, the small, low-cost model, at low effort. It returns each line in a fixed shape (the
+  line, an English translation shown only on request, an optional correction, and whether the scene is over). The
+  system prompt and word lists stay the same for a whole conversation, so they are cached after the first turn.
+- **Rules it follows:** speak only the course language, even when explaining; short lines, one question at a time;
+  use the learner's met words (scenes add one or two A1 words a line on purpose; the partner's "plus a few new"
+  allows one now and then); answer every help phrase properly in the course language: slow down, repeat word for
+  word, rephrase more simply, explain a word with simpler words, give the word asked for, or guess the word being
+  described. No grading, no lavish praise, no emoji or markdown.
+- **Where its facts must come from:** for what it says, the conversation itself. For meanings, never from it: the
+  app splits each line with the content pipeline's own splitter, and a course word's meaning and picture come from
+  Tamago's Wiktionary data. Only course words go to the Glossary and Review at the end.
+- **Must never:** speak English to the learner; grade; lecture; feed scores or the review bank (new course words
+  join the Glossary and a flashcard review the learner chooses).
+- **Cost limits:** 14 learner turns per conversation (help taps count), enforced on the server too; 240 characters a
+  line; 400 words sent per list; up to 1,500 output tokens a turn; the same Tamago-only key and $5 monthly workspace
+  limit. A whole conversation costs well under a cent.
+- **How it's graded:** not yet. The help phrases are the thing to check: for each, does Claude slow down, repeat,
+  rephrase or explain in the course language? A fixed set of scripted conversations, one per help phrase per course,
+  scored the same way each time, is the next step. Its lines aren't checked by a native speaker, and nothing it says
+  becomes course content.
+
 ## When something goes wrong
 
 - A learner flags a question or an answer; Dan reviews the flags, and accepted answers fold into the content.
-- The key expires on January 2, 2027, and the free credit ends November 20, 2026. Either way, both Claude
+- The key expires on January 2, 2027, and the free credit ends November 20, 2026. Either way, all three Claude
   features switch off quietly and the rest of the app works as before.
