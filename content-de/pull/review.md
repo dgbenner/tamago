@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U07 Describing Things: Adjectives after the verb don't change: das Haus ist alt, die Katze ist alt; sehr and auch
+## U08 Not and None: nicht for not, kein for not a or no: Ich habe keinen Hund; kein, keine, keinen
 
-30 sentences picked from 162 candidates (target 30 to 40). Grammar point in 17 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 225 candidates (target 30 to 40). Grammar point in 20 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): alt 8, neu 4, jung 5.
+Contrast forms, sentences each (target 2): nicht 3, kein 11, keine 3, keinen 3.
 
 Every new word is in at least 3 sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S7001 | Er ist sehr jung. | He's very young. | He is very young. | [#1433840](https://tatoeba.org/en/sentences/show/1433840) | Zaghawa |
-| S7002 | Sie sind sehr alt. | They are very old. |  | [#1584294](https://tatoeba.org/en/sentences/show/1584294) | Esperantostern |
-| S7003 | Tom ist sehr alt. | Tom is very old. | Tom is really old. | [#1931080](https://tatoeba.org/en/sentences/show/1931080) | Pfirsichbaeumchen |
-| S7004 | Mary ist jung und schön. | Mary is young and beautiful. |  | [#1542753](https://tatoeba.org/en/sentences/show/1542753) | al_ex_an_der |
-| S7005 | Tom ist jung und schön. | Tom is young and beautiful. |  | [#1542754](https://tatoeba.org/en/sentences/show/1542754) | al_ex_an_der |
-| S7006 | Sind sie neu? | Are they new? |  | [#725993](https://tatoeba.org/en/sentences/show/725993) | Dejo |
-| S7007 | Ist es neu? | Is it new? |  | [#1910884](https://tatoeba.org/en/sentences/show/1910884) | Zaghawa |
-| S7008 | Wie alt bist du? | How old are you? | What age are you? | [#480](https://tatoeba.org/en/sentences/show/480) | ludoviko |
-| S7009 | Sind Sie neu hier? | Are you new here? |  | [#721463](https://tatoeba.org/en/sentences/show/721463) | Esperantostern |
-| S7010 | Sie ist jung und schön. | She's young and beautiful. |  | [#1988001](https://tatoeba.org/en/sentences/show/1988001) | Pfirsichbaeumchen |
-| S7011 | Du auch? | You too? | You as well? | [#6599993](https://tatoeba.org/en/sentences/show/6599993) | vevi61 |
-| S7012 | Ist Tom auch hier? | Is Tom here, too? |  | [#3032124](https://tatoeba.org/en/sentences/show/3032124) | Pfirsichbaeumchen |
-| S7013 | Hat Tom ein Auto? | Does Tom have a car? |  | [#6644852](https://tatoeba.org/en/sentences/show/6644852) | Felixjp |
-| S7014 | Ich mag es auch sehr. | I really like it, too. |  | [#8834141](https://tatoeba.org/en/sentences/show/8834141) | wolfgangth |
-| S7015 | Tom hat ein Auto. | Tom has a car. |  | [#1495927](https://tatoeba.org/en/sentences/show/1495927) | Pfirsichbaeumchen |
-| S7016 | Hier ist das Auto. | Here's the car. | Here is the car. | [#2428490](https://tatoeba.org/en/sentences/show/2428490) | Pfirsichbaeumchen |
-| S7017 | Ist sie schön? | Is she pretty? | Is she beautiful? | [#2924891](https://tatoeba.org/en/sentences/show/2924891) | Pfirsichbaeumchen |
-| S7018 | Ist Tom jung? | Is Tom young? |  | [#12609641](https://tatoeba.org/en/sentences/show/12609641) | Dorlota |
-| S7019 | Wie alt bin ich? | How old am I? |  | [#862957](https://tatoeba.org/en/sentences/show/862957) | samueldora |
-| S7020 | Wie alt ist Tom? | How old is Tom? |  | [#2435226](https://tatoeba.org/en/sentences/show/2435226) | Pfirsichbaeumchen |
-| S7021 | Ist Tom nicht schön? | Isn't Tom handsome? |  | [#5212263](https://tatoeba.org/en/sentences/show/5212263) | Esperantostern |
-| S7022 | Wie alt sind sie? | How old are they? |  | [#8883068](https://tatoeba.org/en/sentences/show/8883068) | wolfgangth |
-| S7023 | Ist sie nicht schön? | Isn't she beautiful? |  | [#9988529](https://tatoeba.org/en/sentences/show/9988529) | wolfgangth |
-| S7024 | Ist es nicht schön? | Isn't it nice? |  | [#10015272](https://tatoeba.org/en/sentences/show/10015272) | wolfgangth |
-| S7025 | Wie alt sind die Kinder? | How old are the children? | How old are the kids? | [#1743532](https://tatoeba.org/en/sentences/show/1743532) | Pfirsichbaeumchen |
-| S7026 | Wie sehr magst du Tom? | How much do you like Tom? | How much do you love Tom? | [#3670238](https://tatoeba.org/en/sentences/show/3670238) | Tamy |
-| S7027 | Bist du nicht neu hier? | Aren't you new here? |  | [#6645736](https://tatoeba.org/en/sentences/show/6645736) | Felixjp |
-| S7028 | Wie alt bist du, Tom? | How old are you, Tom? |  | [#8317248](https://tatoeba.org/en/sentences/show/8317248) | Luiaard |
-| S7029 | Sehr gut. Wie geht es dir? | Very good. How are you? |  | [#1729969](https://tatoeba.org/en/sentences/show/1729969) | Esperantostern |
-| S7030 | Sehr schön! | Beautiful! | Lovely!; Very pretty! | [#12971015](https://tatoeba.org/en/sentences/show/12971015) | mhr |
+| S8001 | Hast du kein Geld? | Don't you have any money? | Haven't you got any money? | [#1765860](https://tatoeba.org/en/sentences/show/1765860) | Zaghawa |
+| S8002 | Haben Sie kein Geld? | Don't you have any money? | Haven't you got any money? | [#1765862](https://tatoeba.org/en/sentences/show/1765862) | Zaghawa |
+| S8003 | Ich habe keine Zeit. | I don't have time. | I have no time.; I haven't got time.; I don't have the time. | [#458024](https://tatoeba.org/en/sentences/show/458024) | qcomplex5 |
+| S8004 | Wir haben keine Zeit. | We don't have time. | We have no time. | [#913671](https://tatoeba.org/en/sentences/show/913671) | Sudajaengi |
+| S8005 | Kein Problem! | No problem! | No problem at all! | [#547401](https://tatoeba.org/en/sentences/show/547401) | Espi |
+| S8006 | Du hast keine Zeit. | You don't have time. |  | [#10122974](https://tatoeba.org/en/sentences/show/10122974) | wolfgangth |
+| S8007 | Magst du keinen Kaffee? | Don't you like coffee? |  | [#9996334](https://tatoeba.org/en/sentences/show/9996334) | wolfgangth |
+| S8008 | Tom mag keinen Käse. | Tom doesn't like cheese. | Tom does not like cheese. | [#360973](https://tatoeba.org/en/sentences/show/360973) | Kerstin |
+| S8009 | Tom ist nicht das Problem. | The problem isn't Tom. | Tom isn't the problem.; Tom is not the problem. | [#3018034](https://tatoeba.org/en/sentences/show/3018034) | freddy1 |
+| S8010 | Wir haben das Geld nicht. | We don't have the money. |  | [#3029970](https://tatoeba.org/en/sentences/show/3029970) | Pfirsichbaeumchen |
+| S8011 | Wir haben kein Problem. | We don't have a problem. |  | [#1037461](https://tatoeba.org/en/sentences/show/1037461) | Esperantostern |
+| S8012 | Ich trinke keinen Kaffee. | I don't drink coffee. | I do not drink coffee. | [#448168](https://tatoeba.org/en/sentences/show/448168) | Dominika |
+| S8013 | Hast du Geld? | Do you have money? | Do you have any money? | [#797812](https://tatoeba.org/en/sentences/show/797812) | Manfredo |
+| S8014 | Haben sie Geld? | Do they have money? |  | [#1986486](https://tatoeba.org/en/sentences/show/1986486) | Pfirsichbaeumchen |
+| S8015 | Hat er Geld? | Does he have money? |  | [#1986524](https://tatoeba.org/en/sentences/show/1986524) | Pfirsichbaeumchen |
+| S8016 | Haben wir Zeit? | Do we have time? |  | [#2718693](https://tatoeba.org/en/sentences/show/2718693) | Pfirsichbaeumchen |
+| S8017 | Hat sie Geld? | Does she have money? |  | [#2997811](https://tatoeba.org/en/sentences/show/2997811) | pne |
+| S8018 | Haben wir Geld? | Do we have money? |  | [#6333099](https://tatoeba.org/en/sentences/show/6333099) | Pfirsichbaeumchen |
+| S8019 | Hast du das Geld? | Do you have the money? | Have you got the money? | [#2818798](https://tatoeba.org/en/sentences/show/2818798) | Zaghawa |
+| S8020 | Haben Sie das Geld? | Have you got the money? |  | [#2818801](https://tatoeba.org/en/sentences/show/2818801) | Zaghawa |
+| S8021 | Haben wir das Geld? | Do we have the money? |  | [#8661830](https://tatoeba.org/en/sentences/show/8661830) | Melang |
+| S8022 | Magst du Katzen nicht? | Don't you like cats? |  | [#8964929](https://tatoeba.org/en/sentences/show/8964929) | wolfgangth |
+| S8023 | Zeit ist Geld. | Time is money. |  | [#566025](https://tatoeba.org/en/sentences/show/566025) | al_ex_an_der |
+| S8024 | Er hat kein Geld. | He has no money. |  | [#1560690](https://tatoeba.org/en/sentences/show/1560690) | Zaghawa |
+| S8025 | Sie hat kein Geld. | She has no money. |  | [#1560691](https://tatoeba.org/en/sentences/show/1560691) | Zaghawa |
+| S8026 | Sie haben kein Geld. | They have no money. | They don't have any money. | [#2577533](https://tatoeba.org/en/sentences/show/2577533) | Gulo_Luscus |
+| S8027 | Ich habe kein Problem. | I have no problem. | I don't have a problem. | [#3760733](https://tatoeba.org/en/sentences/show/3760733) | Esperantostern |
+| S8028 | Tom hat kein Geld. | Tom has no money. |  | [#5527133](https://tatoeba.org/en/sentences/show/5527133) | dispy |
+| S8029 | Wir haben kein Geld. | We have no money. |  | [#6641270](https://tatoeba.org/en/sentences/show/6641270) | Felixjp |
+| S8030 | Ich habe auch kein Geld. | I have no money either. | I don't have any money either. | [#12287774](https://tatoeba.org/en/sentences/show/12287774) | Pfirsichbaeumchen |

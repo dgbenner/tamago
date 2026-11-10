@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 259 (207 matched to Tatoeba, 52 Tamago originals), 0 off, 207 awaiting a ruling. Words with Wiktionary data: 160 of 160. French-to-English answers: 90 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 4.
+Sentences live: 289 (237 matched to Tatoeba, 52 Tamago originals), 0 off, 237 awaiting a ruling. Words with Wiktionary data: 160 of 160. French-to-English answers: 106 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 4.
 
 Unit 1 is approved and live.
 
@@ -234,7 +234,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W159 | Deutsch | Deutsch | Proper noun |  | German | checked |
 | W160 | spielen | spielen | Verb |  | to play [with mit ‘with someone/something’] | checked |
 
-## Matched to Tatoeba (207)
+## Matched to Tatoeba (237)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -446,6 +446,36 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S7028 | Wie alt bist du, Tom? | How old are you, Tom? | [#8317248](https://tatoeba.org/en/sentences/show/8317248) | Luiaard |  |  | tts |
 | S7029 | Sehr gut. Wie geht es dir? | Very good. How are you? | [#1729969](https://tatoeba.org/en/sentences/show/1729969) | Esperantostern |  |  | tts |
 | S7030 | Sehr schön! | Beautiful! | [#12971015](https://tatoeba.org/en/sentences/show/12971015) | mhr |  |  | tts |
+| S8001 | Hast du kein Geld? | Don't you have any money? | [#1765860](https://tatoeba.org/en/sentences/show/1765860) | Zaghawa |  |  | tts |
+| S8002 | Haben Sie kein Geld? | Don't you have any money? | [#1765862](https://tatoeba.org/en/sentences/show/1765862) | Zaghawa |  |  | tts |
+| S8003 | Ich habe keine Zeit. | I don't have time. | [#458024](https://tatoeba.org/en/sentences/show/458024) | qcomplex5 |  |  | tts |
+| S8004 | Wir haben keine Zeit. | We don't have time. | [#913671](https://tatoeba.org/en/sentences/show/913671) | Sudajaengi |  |  | tts |
+| S8005 | Kein Problem! | No problem! | [#547401](https://tatoeba.org/en/sentences/show/547401) | Espi |  |  | tts |
+| S8006 | Du hast keine Zeit. | You don't have time. | [#10122974](https://tatoeba.org/en/sentences/show/10122974) | wolfgangth |  |  | tts |
+| S8007 | Magst du keinen Kaffee? | Don't you like coffee? | [#9996334](https://tatoeba.org/en/sentences/show/9996334) | wolfgangth |  |  | tts |
+| S8008 | Tom mag keinen Käse. | Tom doesn't like cheese. | [#360973](https://tatoeba.org/en/sentences/show/360973) | Kerstin |  |  | tts |
+| S8009 | Tom ist nicht das Problem. | The problem isn't Tom. | [#3018034](https://tatoeba.org/en/sentences/show/3018034) | freddy1 |  |  | tts |
+| S8010 | Wir haben das Geld nicht. | We don't have the money. | [#3029970](https://tatoeba.org/en/sentences/show/3029970) | Pfirsichbaeumchen |  |  | tts |
+| S8011 | Wir haben kein Problem. | We don't have a problem. | [#1037461](https://tatoeba.org/en/sentences/show/1037461) | Esperantostern |  |  | tts |
+| S8012 | Ich trinke keinen Kaffee. | I don't drink coffee. | [#448168](https://tatoeba.org/en/sentences/show/448168) | Dominika |  |  | tts |
+| S8013 | Hast du Geld? | Do you have money? | [#797812](https://tatoeba.org/en/sentences/show/797812) | Manfredo |  |  | tts |
+| S8014 | Haben sie Geld? | Do they have money? | [#1986486](https://tatoeba.org/en/sentences/show/1986486) | Pfirsichbaeumchen |  |  | tts |
+| S8015 | Hat er Geld? | Does he have money? | [#1986524](https://tatoeba.org/en/sentences/show/1986524) | Pfirsichbaeumchen |  |  | tts |
+| S8016 | Haben wir Zeit? | Do we have time? | [#2718693](https://tatoeba.org/en/sentences/show/2718693) | Pfirsichbaeumchen |  |  | tts |
+| S8017 | Hat sie Geld? | Does she have money? | [#2997811](https://tatoeba.org/en/sentences/show/2997811) | pne |  |  | tts |
+| S8018 | Haben wir Geld? | Do we have money? | [#6333099](https://tatoeba.org/en/sentences/show/6333099) | Pfirsichbaeumchen |  |  | tts |
+| S8019 | Hast du das Geld? | Do you have the money? | [#2818798](https://tatoeba.org/en/sentences/show/2818798) | Zaghawa |  |  | tts |
+| S8020 | Haben Sie das Geld? | Have you got the money? | [#2818801](https://tatoeba.org/en/sentences/show/2818801) | Zaghawa |  |  | tts |
+| S8021 | Haben wir das Geld? | Do we have the money? | [#8661830](https://tatoeba.org/en/sentences/show/8661830) | Melang |  |  | tts |
+| S8022 | Magst du Katzen nicht? | Don't you like cats? | [#8964929](https://tatoeba.org/en/sentences/show/8964929) | wolfgangth |  |  | tts |
+| S8023 | Zeit ist Geld. | Time is money. | [#566025](https://tatoeba.org/en/sentences/show/566025) | al_ex_an_der |  |  | tts |
+| S8024 | Er hat kein Geld. | He has no money. | [#1560690](https://tatoeba.org/en/sentences/show/1560690) | Zaghawa |  |  | tts |
+| S8025 | Sie hat kein Geld. | She has no money. | [#1560691](https://tatoeba.org/en/sentences/show/1560691) | Zaghawa |  |  | tts |
+| S8026 | Sie haben kein Geld. | They have no money. | [#2577533](https://tatoeba.org/en/sentences/show/2577533) | Gulo_Luscus |  |  | tts |
+| S8027 | Ich habe kein Problem. | I have no problem. | [#3760733](https://tatoeba.org/en/sentences/show/3760733) | Esperantostern |  |  | tts |
+| S8028 | Tom hat kein Geld. | Tom has no money. | [#5527133](https://tatoeba.org/en/sentences/show/5527133) | dispy |  |  | tts |
+| S8029 | Wir haben kein Geld. | We have no money. | [#6641270](https://tatoeba.org/en/sentences/show/6641270) | Felixjp |  |  | tts |
+| S8030 | Ich habe auch kein Geld. | I have no money either. | [#12287774](https://tatoeba.org/en/sentences/show/12287774) | Pfirsichbaeumchen |  |  | tts |
 | S3101 | Hier, bitte. | Here you go. | [#8598450](https://tatoeba.org/en/sentences/show/8598450) | Roujin |  |  | tts |
 
 ## English-to-French answers generated from Tatoeba (4)

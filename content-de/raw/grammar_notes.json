@@ -47,5 +47,12 @@
     "example_sentence_ids": "S7015;S7001;S7004",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U08",
+    "rule": "Kein means no or not a, and it goes in place of ein before a noun: Ich habe kein Geld (I have no money). It takes the same endings as ein: kein for masculine and neuter, keine for feminine and plurals (keine Zeit), keinen for a masculine object (Ich trinke keinen Kaffee). Nicht says not about anything else: about a verb, an adjective, a name, or a noun with der, die or das (Wir haben das Geld nicht).",
+    "example_sentence_ids": "S8024;S8003;S8012",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]
