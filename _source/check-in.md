@@ -10,6 +10,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 2 is live:** People and Things, 43 sentences (30 Tatoeba, 13 drafts); aquí moved to Where Things Are, since in Spanish it goes with estar; widened with este, esta, esto, eso and puerta. Grammar note.
   - **Unit 3 is live:** Polite Phrases, 43 sentences (30 Tatoeba, 13 drafts): tú and usted, estar for how you are. Cut lines whose English misled (buenas tardes as good evening, ¿Cómo está usted? as How do you do?).
   - **Unit 4 is live:** Food and Drink, 36 sentences (30 Tatoeba, 6 drafts): como, comes, come; bebo, bebes, bebe; me gusta. Cut como meaning like, a pun and a crush.
+  - **Unit 5 is live:** Pets and Animals, 44 sentences (30 Tatoeba, 14 drafts): tengo, tienes, tiene. Tatoeba's checked lines for pato, tortuga and ratón are nearly all "I am a mouse" kinds of sentence, which the brief cuts, so those words are drafted.
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -477,7 +478,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (52), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (66), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -542,3 +543,20 @@ Every Spanish sentence I wrote (52), for a native speaker of Latin American Span
 - S4104 Como una naranja. = I'm eating an orange.
 - S4105 Ella come una naranja. = She's eating an orange.
 - S4106 Sí, como pan. = Yes, I eat bread. (QT09 answer)
+
+**U05 Pets and Animals** (14)
+
+- S5101 Tengo un pájaro. = I have a bird.
+- S5102 El pájaro es pequeño. = The bird is small.
+- S5103 Tengo un pato. = I have a duck.
+- S5104 El pato come pan. = The duck is eating bread.
+- S5105 ¿Tienes un pato? = Do you have a duck?
+- S5106 Tengo una tortuga. = I have a turtle.
+- S5107 La tortuga es pequeña. = The turtle is small.
+- S5108 ¿Tienes una tortuga? = Do you have a turtle? (QT09 question)
+- S5109 No, tengo un ratón. = No, I have a mouse. (QT09 answer)
+- S5110 El ratón es pequeño. = The mouse is small.
+- S5111 Ella tiene un ratón. = She has a mouse.
+- S5112 El perro es un animal. = The dog is an animal.
+- S5113 ¿Es un animal? = Is it an animal?
+- S5114 Sí, tengo un libro. = Yes, I have a book. (QT09 answer)

@@ -28,6 +28,13 @@
       "example_sentence_ids": "S4005;S4007;S4008",
       "conjugation_lemma": "comer",
       "status": "live"
+    },
+    {
+      "unit_id": "U05",
+      "rule": "Tener means to have: tengo (I have), tienes (you have), tiene (he, she or usted has). Spanish often drops the a after no: Tom no tiene gato. Animals are masculine or feminine like any noun: el perro, la tortuga.",
+      "example_sentence_ids": "S5004;S5002;S5027",
+      "conjugation_lemma": "tener",
+      "status": "live"
     }
   ]
 }

@@ -77,6 +77,32 @@
       "form": "coment"
     }
   ],
+  "tener": [
+    {
+      "person": "je (j’)",
+      "form": "tène"
+    },
+    {
+      "person": "tu",
+      "form": "tènes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "tène"
+    },
+    {
+      "person": "nous",
+      "form": "tenons"
+    },
+    {
+      "person": "vous",
+      "form": "tenez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "tènent"
+    }
+  ],
   "beber": [
     {
       "person": "je (j’)",
@@ -127,32 +153,6 @@
     {
       "person": "ils, elles",
       "form": "{{{ind_p_3p}}}"
-    }
-  ],
-  "tener": [
-    {
-      "person": "je (j’)",
-      "form": "tène"
-    },
-    {
-      "person": "tu",
-      "form": "tènes"
-    },
-    {
-      "person": "il, elle, on",
-      "form": "tène"
-    },
-    {
-      "person": "nous",
-      "form": "tenons"
-    },
-    {
-      "person": "vous",
-      "form": "tenez"
-    },
-    {
-      "person": "ils, elles",
-      "form": "tènent"
     }
   ],
   "haber": [

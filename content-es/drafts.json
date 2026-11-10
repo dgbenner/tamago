@@ -374,6 +374,104 @@
       "french": "Sí, como pan.",
       "english": "Yes, I eat bread.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S5101",
+      "unit_id": "U05",
+      "french": "Tengo un pájaro.",
+      "english": "I have a bird.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5102",
+      "unit_id": "U05",
+      "french": "El pájaro es pequeño.",
+      "english": "The bird is small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5103",
+      "unit_id": "U05",
+      "french": "Tengo un pato.",
+      "english": "I have a duck.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5104",
+      "unit_id": "U05",
+      "french": "El pato come pan.",
+      "english": "The duck is eating bread.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5105",
+      "unit_id": "U05",
+      "french": "¿Tienes un pato?",
+      "english": "Do you have a duck?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5106",
+      "unit_id": "U05",
+      "french": "Tengo una tortuga.",
+      "english": "I have a turtle.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5107",
+      "unit_id": "U05",
+      "french": "La tortuga es pequeña.",
+      "english": "The turtle is small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5108",
+      "unit_id": "U05",
+      "french": "¿Tienes una tortuga?",
+      "english": "Do you have a turtle?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S5109",
+      "unit_id": "U05",
+      "french": "No, tengo un ratón.",
+      "english": "No, I have a mouse.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S5110",
+      "unit_id": "U05",
+      "french": "El ratón es pequeño.",
+      "english": "The mouse is small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5111",
+      "unit_id": "U05",
+      "french": "Ella tiene un ratón.",
+      "english": "She has a mouse.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5112",
+      "unit_id": "U05",
+      "french": "El perro es un animal.",
+      "english": "The dog is an animal.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5113",
+      "unit_id": "U05",
+      "french": "¿Es un animal?",
+      "english": "Is it an animal?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S5114",
+      "unit_id": "U05",
+      "french": "Sí, tengo un libro.",
+      "english": "Yes, I have a book.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -440,6 +538,22 @@
     {
       "question_sentence_id": "S4103",
       "answer_sentence_id": "S4009"
+    },
+    {
+      "question_sentence_id": "S5108",
+      "answer_sentence_id": "S5109"
+    },
+    {
+      "question_sentence_id": "S5002",
+      "answer_sentence_id": "S5001"
+    },
+    {
+      "question_sentence_id": "S5007",
+      "answer_sentence_id": "S5114"
+    },
+    {
+      "question_sentence_id": "S5003",
+      "answer_sentence_id": "S5027"
     }
   ]
 }
