@@ -7,20 +7,21 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync, rmSync } from 'node:fs'
 import { join } from 'node:path'
 import { normaliseFile } from './lib/loudness.mjs'
+import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 const ROOT = join(import.meta.dirname, '..')
 const file = process.argv[2]
 if (!file) throw new Error('usage: import-native-check.mjs <file>')
 const data = JSON.parse(readFileSync(file, 'utf8'))
 if (data.app !== 'tamago' || data.kind !== 'native_check') throw new Error('Not a Tamago native-check file.')
 
-const OUT = join(ROOT, 'content/native-check.json')
+const OUT = at('content/native-check.json')
 const store = existsSync(OUT) ? JSON.parse(readFileSync(OUT, 'utf8')) : { checks: [], results: {} }
 store.checks.push({ checker: data.checker, license_agreed: Boolean(data.license_agreed), saved_at: data.saved_at, count: data.results.length })
-const AUDIO = join(ROOT, 'public/audio-native')
+const AUDIO = at('public/audio-native')
 mkdirSync(AUDIO, { recursive: true })
 const EXT = { 'audio/webm': 'webm', 'audio/mp4': 'm4a', 'audio/ogg': 'ogg', 'audio/wav': 'wav', 'audio/mpeg': 'mp3' }
 
-const DRAFTS = join(ROOT, 'content/drafts.json')
+const DRAFTS = at('content/drafts.json')
 const drafts = JSON.parse(readFileSync(DRAFTS, 'utf8'))
 const forClaude = []
 for (const r of data.results) {

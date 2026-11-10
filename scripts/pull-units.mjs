@@ -5,10 +5,11 @@ import { existsSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { loadTatoeba } from './lib/tatoeba.mjs'
 import { analyse as analyseWords, formIndexFor as formIndexOf, loose, norm, tokenize } from './lib/french.mjs'
+import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 
 const ROOT = join(import.meta.dirname, '..')
-const raw = (t) => JSON.parse(readFileSync(join(ROOT, `content/raw/${t}.json`), 'utf8'))
-const PULL = join(ROOT, 'content/pull')
+const raw = (t) => JSON.parse(readFileSync(at(`content/raw/${t}.json`), 'utf8'))
+const PULL = at('content/pull')
 const redo = new Set(process.argv.includes('--redo') ? process.argv.slice(process.argv.indexOf('--redo') + 1) : [])
 
 const MIN_WORDS = 2, MAX_WORDS = 7 // P03
@@ -23,7 +24,7 @@ const PACK_TARGET = 15
 // Sentences Claude turned down in review are in content/sweep/packs-review.json and never proposed again.
 const REBUILD_BASE = { U101: 8800 }
 const isWidePack = (u) => isPack(u) && u.topic_node === 'U200'
-const REVIEW_FILE = join(ROOT, 'content/sweep/packs-review.json')
+const REVIEW_FILE = at('content/sweep/packs-review.json')
 const packReview = (unitId) => (existsSync(REVIEW_FILE) ? JSON.parse(readFileSync(REVIEW_FILE, 'utf8')) : {})[unitId] ?? {}
 const rejected = (unitId) => new Set(Object.keys(packReview(unitId).reject ?? {}))
 // Where the plainest linked English isn't the best one, review names another Tatoeba translation of the same sentence.
@@ -36,7 +37,7 @@ const existing = raw('sentences').filter((s) => !s.origin || s.origin === 'workb
 // Names allowed (R21): the ones the workbook already uses. Dan can add more there.
 const NAMES = new Set(raw('sentence_words').filter((r) => r.notes === 'name').map((r) => String(r.surface).toLowerCase()))
 // Part of speech from the Wiktionary check, to tell an article from a pronoun.
-const checkedWords = JSON.parse(readFileSync(join(ROOT, 'content/checks/words.json'), 'utf8'))
+const checkedWords = JSON.parse(readFileSync(at('content/checks/words.json'), 'utf8'))
 const POS = new Map(checkedWords.map((w) => [w.word_id, w.part_of_speech]))
 // A noun's meaning in this course, from Wiktionary: the first sense, or the lemma's for a plural.
 const IRREGULAR = { man: 'men', woman: 'women', child: 'children', mouse: 'mice' }

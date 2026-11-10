@@ -19,22 +19,24 @@ const untar = (a) => ['tar', ['-xjf', a]]
 
 const rows = (file) => readFileSync(join(DIR, file), 'utf8').split('\n').filter(Boolean).map((l) => l.split('\t'))
 
-export function loadTatoeba() {
-  ensure('fra_sentences_detailed.tsv', 'per_language/fra/fra_sentences_detailed.tsv.bz2', bunzip)
+// lang is Tatoeba's ISO 639-3 code: fra (default) or spa. Sentences come back as .french whatever the language,
+// the course's text column (scripts/lib/course.mjs).
+export function loadTatoeba(lang = process.env.COURSE === 'es' ? 'spa' : 'fra') {
+  ensure(`${lang}_sentences_detailed.tsv`, `per_language/${lang}/${lang}_sentences_detailed.tsv.bz2`, bunzip)
   ensure('eng_sentences.tsv', 'per_language/eng/eng_sentences.tsv.bz2', bunzip)
-  ensure('fra-eng_links.tsv', 'per_language/fra/fra-eng_links.tsv.bz2', bunzip)
+  ensure(`${lang}-eng_links.tsv`, `per_language/${lang}/${lang}-eng_links.tsv.bz2`, bunzip)
   ensure('tags.csv', 'tags.tar.bz2', untar)
   ensure('user_languages.csv', 'user_languages.tar.bz2', untar)
 
-  const french = rows('fra_sentences_detailed.tsv').map(([id, , text, owner]) => ({ id, text, owner }))
+  const french = rows(`${lang}_sentences_detailed.tsv`).map(([id, , text, owner]) => ({ id, text, owner }))
   const links = new Map()
-  for (const [fr, en] of rows('fra-eng_links.tsv')) {
+  for (const [fr, en] of rows(`${lang}-eng_links.tsv`)) {
     if (!links.has(fr)) links.set(fr, [])
     links.get(fr).push(en)
   }
   const english = new Map()
   for (const [id, , text] of rows('eng_sentences.tsv')) english.set(id, text)
-  const natives = new Set(rows('user_languages.csv').filter((r) => r[0] === 'fra' && r[1] === '5').map((r) => r[2]))
+  const natives = new Set(rows('user_languages.csv').filter((r) => r[0] === lang && r[1] === '5').map((r) => r[2]))
   const okTagged = new Set(rows('tags.csv').filter((r) => r[1] === 'OK').map((r) => r[0]))
 
   // How often each word appears across Tatoeba's English, for picking the plainest translation.

@@ -4,12 +4,13 @@
 import { readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { createRequire } from 'node:module'
+import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
 const [from, to, note] = process.argv.slice(2)
 if (!from || !to || !note) throw new Error('usage: workbook-sync.mjs <from.xlsx> <to.xlsx> "<changelog line>"')
-const read = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf8'))
+const read = (p) => JSON.parse(readFileSync(at(p), 'utf8'))
 
 const wb = XLSX.readFile(join(ROOT, from))
 const sheet = (name) => XLSX.utils.sheet_to_json(wb.Sheets[name], { defval: '' })

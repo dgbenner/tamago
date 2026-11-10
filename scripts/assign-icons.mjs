@@ -6,10 +6,11 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { randomInt } from 'node:crypto'
+import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 const ROOT = join(import.meta.dirname, '..')
-const read = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf8'))
+const read = (p) => JSON.parse(readFileSync(at(p), 'utf8'))
 const pools = read('content/icons.json')
-const OUT = join(ROOT, 'content/unit-icons.json')
+const OUT = at('content/unit-icons.json')
 const kept = existsSync(OUT) ? read('content/unit-icons.json') : {}
 
 // The A1 tree, planned to its end (autonomous-build.md: the old Duolingo A1 order after Unit 5), so the thirds stay

@@ -1,7 +1,7 @@
 // Splitting French into the course's words. Multi-word forms (au revoir, s'il vous plaît) and elided forms
 // (l', j') count as their word, matched longest first.
 export const norm = (s) => String(s).replace(/[’ʼ]/g, "'").replace(/[  ]/g, ' ').replace(/\s+/g, ' ').trim()
-export const loose = (s) => norm(s).toLowerCase().replace(/[.!?…,;:"«»\s]+/g, ' ').trim()
+export const loose = (s) => norm(s).toLowerCase().replace(/[.!?¿¡…,;:"«»\s]+/g, ' ').trim() // ¿ ¡ for Spanish
 
 export function tokenize(text) {
   const out = []

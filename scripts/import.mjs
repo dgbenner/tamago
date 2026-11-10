@@ -4,11 +4,12 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync
 import { analyse, formIndexFor } from './lib/french.mjs'
 import { join } from 'node:path'
 import { createRequire } from 'node:module'
+import { at, C, COURSE, audioUrl } from './lib/course.mjs'
 
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
-const WORKBOOK = process.argv[2] ?? join(ROOT, '_source/tamago-data-v24.xlsx')
-const OUT = join(ROOT, 'content/raw')
+const WORKBOOK = process.argv[2] ?? join(ROOT, C.workbook) // the course's current workbook, set in scripts/lib/course.mjs
+const OUT = at('content/raw')
 
 const wb = XLSX.readFile(WORKBOOK)
 const tables = {}
@@ -23,12 +24,12 @@ const fail = (msg) => errors.push(msg)
 // Content from outside the workbook, until the workbook catches up. Each row says where it came from.
 for (const t of ['sentences', 'sentence_words', 'accepted_answers', 'qa_answers', 'words']) tables[t] ??= []
 for (const s of tables.sentences) s.origin = 'workbook'
-const decisions = JSON.parse(readFileSync(join(ROOT, 'content/review-decisions.json'), 'utf8'))
+const decisions = JSON.parse(readFileSync(at('content/review-decisions.json'), 'utf8'))
 // Words Dan added to a unit.
 const wordIds = new Set(tables.words.map((w) => w.word_id))
 for (const w of decisions.vocabulary_additions ?? []) if (!wordIds.has(w.word_id)) tables.words.push({ ...w, origin: 'decision' })
 // Sentences pulled from Tatoeba (content/pull/U0x.json).
-const PULL = join(ROOT, 'content/pull')
+const PULL = at('content/pull')
 for (const f of existsSync(PULL) ? readdirSync(PULL).filter((x) => /^U\d+\.json$/.test(x)).sort() : []) {
   const p = JSON.parse(readFileSync(join(PULL, f), 'utf8'))
   const inBook = new Set(tables.sentences.map((s) => s.sentence_id))
@@ -40,27 +41,27 @@ for (const f of existsSync(PULL) ? readdirSync(PULL).filter((x) => /^U\d+\.json$
   tables.qa_answers.push(...p.qa_answers.filter((q) => !qaKeys.has(q.question_sentence_id + '>' + q.answer_sentence_id)))
 }
 // Grammar notes (content/grammar_notes.json) until the workbook has its grammar_notes tab rows.
-const NOTES = join(ROOT, 'content/grammar_notes.json')
+const NOTES = at('content/grammar_notes.json')
 tables.grammar_notes ??= []
 if (existsSync(NOTES)) {
   const have = new Set(tables.grammar_notes.map((n) => n.unit_id))
   for (const n of JSON.parse(readFileSync(NOTES, 'utf8')).notes) if (!have.has(n.unit_id)) tables.grammar_notes.push(n)
 }
 // Pictures for word to image (content/images.json) fill words.image_file where the workbook has none.
-const IMAGES = join(ROOT, 'content/images.json')
+const IMAGES = at('content/images.json')
 if (existsSync(IMAGES)) {
   const img = JSON.parse(readFileSync(IMAGES, 'utf8'))
   for (const w of tables.words) if (!w.image_file && img.words[w.word_id]) w.image_file = `openmoji/${img.words[w.word_id]}.svg`
 }
 // Dan's own pictures (content/pictures.json, from Picture Check) take the place of OpenMoji and picture more words.
-const PICTURES = join(ROOT, 'content/pictures.json')
+const PICTURES = at('content/pictures.json')
 if (existsSync(PICTURES)) {
   const pics = JSON.parse(readFileSync(PICTURES, 'utf8')).words
   for (const w of tables.words) if (pics[w.word_id]) w.image_file = pics[w.word_id]
 }
 
 // can_do statements checked against the CEFR A1 grid (content/cefr_a1.json), until the workbook carries it.
-const CEFR = join(ROOT, 'content/cefr_a1.json')
+const CEFR = at('content/cefr_a1.json')
 if (existsSync(CEFR)) {
   const grid = JSON.parse(readFileSync(CEFR, 'utf8'))
   for (const c of tables.can_do ?? []) {
@@ -70,7 +71,7 @@ if (existsSync(CEFR)) {
 }
 
 // Sentences Claude drafted at Dan's request (content/drafts.json), split into words here.
-const DRAFTS = join(ROOT, 'content/drafts.json')
+const DRAFTS = at('content/drafts.json')
 if (existsSync(DRAFTS)) {
   const drafts = JSON.parse(readFileSync(DRAFTS, 'utf8'))
   const names = new Set(tables.sentence_words.filter((r) => r.notes === 'name').map((r) => String(r.surface).toLowerCase()))
@@ -95,7 +96,7 @@ if (existsSync(DRAFTS)) {
 
 // Unit icons (content/unit-icons.json, from scripts/assign-icons.mjs) fill the units' icon_group and icon_file columns.
 {
-  const ICONS = join(ROOT, 'content/unit-icons.json')
+  const ICONS = at('content/unit-icons.json')
   const icons = existsSync(ICONS) ? JSON.parse(readFileSync(ICONS, 'utf8')) : {}
   for (const u of tables.units) if (icons[u.unit_id] && !u.icon_file) Object.assign(u, { icon_group: icons[u.unit_id].group, icon_file: icons[u.unit_id].file })
 }

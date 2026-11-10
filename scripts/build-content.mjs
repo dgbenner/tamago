@@ -5,12 +5,19 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync
 import { join } from 'node:path'
 import { getFile } from './lib/http.mjs'
 import { normaliseFile } from './lib/loudness.mjs'
+import { at, C, COURSE, audioUrl } from './lib/course.mjs'
+// Lingua Libre names files LL-<language item> (<ISO 639-3>)-<speaker>-<text>.<ext>.
+const LL = `LL-${C.linguaLibre.qid} (${C.linguaLibre.iso})`
+const llEsc = LL.replace(/[()]/g, '\\$&')
+const LL_FILE = new RegExp(`^File:${llEsc}-(.+)\\.[a-z0-9]+$`, 'i')
+const LL_PARTS = new RegExp(`^${llEsc}-([^-]+)-(.+)\\.[a-z0-9]+$`, 'i')
+const LL_SPEAKER = new RegExp(`^${llEsc}-(.+?)-`)
 
 const ROOT = join(import.meta.dirname, '..')
-const read = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf8'))
+const read = (p) => JSON.parse(readFileSync(at(p), 'utf8'))
 const raw = (t) => read(`content/raw/${t}.json`)
-const OUT = join(ROOT, 'src/content')
-const AUDIO = join(ROOT, 'public/audio')
+const OUT = at('src/content')
+const AUDIO = at('public/audio')
 const SHIPPED_AS_IS = ['units', 'question_types', 'variants', 'rounds', 'round_type_mix', 'phase1_fallbacks', 'flag_reasons', 'settings_defaults']
 const fCheck = new Map(read('content/checks/feedback_phrases.json').map((r) => [r.phrase_id, r]))
 
@@ -39,7 +46,7 @@ tables.tree_layout = raw('tree_layout')
 const approved = (unitId) => decisions.units?.[unitId]?.action === 'approve'
 const cut = new Set(decisions.cut_sentences ?? [])
 // The native-speaker check (Phase 4): verdicts, fixes and recordings from scripts/import-native-check.mjs.
-const NATIVE = existsSync(join(ROOT, 'content/native-check.json')) ? JSON.parse(readFileSync(join(ROOT, 'content/native-check.json'), 'utf8')) : { checks: [], results: {} }
+const NATIVE = existsSync(at('content/native-check.json')) ? JSON.parse(readFileSync(at('content/native-check.json'), 'utf8')) : { checks: [], results: {} }
 const nativeLicensed = NATIVE.checks.some((c) => c.license_agreed)
 const squash = (t) => String(t ?? '').trim().replace(/\s+/g, ' ')
 // A fix not yet in the sentence is held back: the sentence doesn't ship until the fix is applied.
@@ -58,7 +65,7 @@ tables.sentences = raw('sentences').flatMap((s) => {
   if (s.audio_source !== c.audio_source) bad.push(`${s.sentence_id} workbook audio ${s.audio_source}, check found ${c.audio_source}`)
   const n = NATIVE.results[s.sentence_id]
   const native_check = n?.verdict ? 'checked by a native speaker' : String(s.status).includes('native check') ? 'needed before Phase 4' : ''
-  const native_recording = n?.audio_file && nativeLicensed && existsSync(join(ROOT, 'public/audio-native', n.audio_file))
+  const native_recording = n?.audio_file && nativeLicensed && existsSync(join(at('public/audio-native'), n.audio_file))
     ? { audio_file: `/audio-native/${n.audio_file}`, speaker: n.checker || 'a native speaker', license: 'CC BY-SA 4.0' } : undefined
   if (s.source === 'tamago_original' && !native_check) bad.push(`${s.sentence_id} is original with no native check marker`)
   return [{ ...s, source_id: String(s.source_id), status: 'live', native_check, source_owner: c.source_owner, english_source: c.english_source, lingua_libre: c.lingua_libre, ...(native_recording ? { native_recording } : {}) }]
@@ -167,23 +174,23 @@ for (const s of tables.sentences.filter((x) => x.lingua_libre)) {
   wanted.add(name)
   // Downloaded once into .cache, then levelled to one loudness on every build (lib/loudness.mjs) and kept as small
   // mono AAC: the service worker caches every recording, so size is install time.
-  const raw = join(ROOT, '.cache/recordings', `${s.sentence_id}.${ext}`)
-  mkdirSync(join(ROOT, '.cache/recordings'), { recursive: true })
+  const raw = join(at('.cache/recordings'), `${s.sentence_id}.${ext}`)
+  mkdirSync(at('.cache/recordings'), { recursive: true })
   await getFile(s.lingua_libre.url, raw)
   normaliseFile(raw, join(AUDIO, name), AAC)
-  const speaker = s.lingua_libre.file.match(/^LL-Q150 \(fra\)-(.+?)-/)?.[1] ?? ''
-  s.lingua_libre = { ...s.lingua_libre, audio_file: `/audio/${name}`, speaker }
+  const speaker = s.lingua_libre.file.match(LL_SPEAKER)?.[1] ?? ''
+  s.lingua_libre = { ...s.lingua_libre, audio_file: `${audioUrl}/${name}`, speaker }
 }
 // Word recordings (content sweep, part 3), the same way: public/audio/<word_id>.<ext>, levelled.
 for (const w of tables.words.filter((x) => x.lingua_libre)) {
   const ext = w.lingua_libre.file.split('.').pop().toLowerCase()
   const name = `${w.word_id}.m4a`
   wanted.add(name)
-  const raw = join(ROOT, '.cache/recordings', `${w.word_id}.${ext}`)
+  const raw = join(at('.cache/recordings'), `${w.word_id}.${ext}`)
   await getFile(w.lingua_libre.url, raw)
   normaliseFile(raw, join(AUDIO, name), AAC)
-  const speaker = w.lingua_libre.file.match(/^LL-Q150 \(fra\)-(.+?)-/)?.[1] ?? ''
-  w.lingua_libre = { ...w.lingua_libre, audio_file: `/audio/${name}`, speaker }
+  const speaker = w.lingua_libre.file.match(LL_SPEAKER)?.[1] ?? ''
+  w.lingua_libre = { ...w.lingua_libre, audio_file: `${audioUrl}/${name}`, speaker }
 }
 for (const f of readdirSync(AUDIO)) if (!wanted.has(f)) rmSync(join(AUDIO, f))
 

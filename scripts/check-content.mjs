@@ -6,11 +6,18 @@ import { join } from 'node:path'
 import { getJson } from './lib/http.mjs'
 import { loadTatoeba } from './lib/tatoeba.mjs'
 import { presentIndicative } from './lib/conjugation.mjs'
+import { at, C, COURSE, audioUrl } from './lib/course.mjs'
+// Lingua Libre names files LL-<language item> (<ISO 639-3>)-<speaker>-<text>.<ext>.
+const LL = `LL-${C.linguaLibre.qid} (${C.linguaLibre.iso})`
+const llEsc = LL.replace(/[()]/g, '\\$&')
+const LL_FILE = new RegExp(`^File:${llEsc}-(.+)\\.[a-z0-9]+$`, 'i')
+const LL_PARTS = new RegExp(`^${llEsc}-([^-]+)-(.+)\\.[a-z0-9]+$`, 'i')
+const LL_SPEAKER = new RegExp(`^${llEsc}-(.+?)-`)
 
 const ROOT = join(import.meta.dirname, '..')
-const read = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf8'))
+const read = (p) => JSON.parse(readFileSync(at(p), 'utf8'))
 const raw = (t) => read(`content/raw/${t}.json`)
-const CHECKS = join(ROOT, 'content/checks')
+const CHECKS = at('content/checks')
 mkdirSync(CHECKS, { recursive: true })
 
 const sentences = raw('sentences')
@@ -125,11 +132,11 @@ function tokenizeReplacement(french, unit) {
 
 // ---------- Lingua Libre (recordings live on Wikimedia Commons) ----------
 async function linguaLibre(text) {
-  const q = `intitle:"LL-Q150 (fra)" intitle:"${loose(text)}"`
+  const q = `intitle:"${LL}" intitle:"${loose(text)}"`
   const res = await getJson(`https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srlimit=50&format=json&srsearch=${encodeURIComponent(q)}`)
   const want = loose(text)
   const hits = (res?.query?.search ?? []).map((r) => r.title).filter((title) => {
-    const m = title.match(/^File:LL-Q150 \(fra\)-(.+)\.[a-z0-9]+$/i)
+    const m = title.match(LL_FILE)
     if (!m) return false
     const rest = m[1]
     const cut = rest.indexOf('-') // speaker-transcription; a second hyphen means a compound like re-bonjour
@@ -274,7 +281,7 @@ const SUBPAGES = ['', '/languages_A_to_L', '/languages_M_to_Z']
 async function french(form) {
   for (const sub of SUBPAGES) {
     const defs = await getJson(`https://en.wiktionary.org/api/rest_v1/page/definition/${title(form)}${encodeURIComponent(sub)}`)
-    const entries = (defs?.fr ?? []).map((e) => ({ pos: e.partOfSpeech, definitions: e.definitions.map((x) => clean(x.definition)).filter(Boolean) }))
+    const entries = (defs?.[C.wiktionaryCode] ?? []).map((e) => ({ pos: e.partOfSpeech, definitions: e.definitions.map((x) => clean(x.definition)).filter(Boolean) }))
     if (entries.length) return entries
   }
   return []
@@ -284,7 +291,7 @@ async function frenchWikitext(form) {
   for (const sub of SUBPAGES) {
     const p = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${title(form)}${encodeURIComponent(sub)}&prop=wikitext&format=json&redirects=1`)
     const wt = p?.parse?.wikitext?.['*'] ?? ''
-    const section = wt.match(/(?:^|\n)==French==\n([\s\S]*?)(?=\n==[^=]|$)/)?.[1]
+    const section = wt.match(new RegExp(`(?:^|\\n)==${C.wiktionarySection}==\\n([\\s\\S]*?)(?=\\n==[^=]|$)`))?.[1]
     if (section) return section
   }
   return ''
@@ -309,7 +316,7 @@ for (const w of words) {
   const definition = entry && (pick?.match ? entry.definitions.find((d) => d.includes(pick.match)) : entry.definitions[0])
   const row = {
     word_id: w.word_id, form: w.form, lemma: w.form, part_of_speech: '', gender: '', gloss: '', gloss_full: '', lemma_gloss: '',
-    wiktionary_url: `https://en.wiktionary.org/wiki/${title(w.form)}#French`,
+    wiktionary_url: `https://en.wiktionary.org/wiki/${title(w.form)}#${C.wiktionarySection}`,
     status: 'flagged', flag_reason: '', other_entries: [],
   }
   if (!definition) {
@@ -349,27 +356,27 @@ const HETEROPHONES = new Set(['est', 'fils', 'as', 'plus', 'tous', 'os', 'sens',
 console.log('Words: Lingua Libre')
 const recordable = wordChecks.filter((r) => !HETEROPHONES.has(r.form) && !/'$/.test(r.form))
 const values = recordable.map((r) => `"${r.form.replace(/"/g, '')}"@fr`).join(' ')
-const sparql = `SELECT ?rep ?audio WHERE { VALUES ?rep { ${values} } ?l dct:language wd:Q150; ontolex:lexicalForm ?f. ?f ontolex:representation ?rep; wdt:P443 ?audio. FILTER(CONTAINS(STR(?audio), "LL-Q150")) }`
+const sparql = `SELECT ?rep ?audio WHERE { VALUES ?rep { ${values} } ?l dct:language wd:${C.wikidataLanguage}; ontolex:lexicalForm ?f. ?f ontolex:representation ?rep; wdt:P443 ?audio. FILTER(CONTAINS(STR(?audio), "LL-${C.linguaLibre.qid}")) }`
 const wd = await getJson(`https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(sparql)}`)
 const filesFor = new Map()
 for (const b of wd?.results?.bindings ?? []) {
   const file = decodeURIComponent(b.audio.value.split('/Special:FilePath/')[1] ?? '')
-  const rest = file.match(/^LL-Q150 \(fra\)-([^-]+)-(.+)\.[a-z0-9]+$/i)
+  const rest = file.match(LL_PARTS)
   if (!rest || loose(rest[2]) !== loose(b.rep.value)) continue // the file must be titled as the word itself
   if (!filesFor.has(b.rep.value)) filesFor.set(b.rep.value, new Set())
   filesFor.get(b.rep.value).add(file)
 }
 for (const r of recordable) {
   if (filesFor.has(r.form)) continue
-  const q = `intitle:"LL-Q150 (fra)" intitle:"${loose(r.form)}"`
+  const q = `intitle:"${LL}" intitle:"${loose(r.form)}"`
   const res = await getJson(`https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srlimit=50&format=json&srsearch=${encodeURIComponent(q)}`)
-  const hits = (res?.query?.search ?? []).map((x) => x.title.replace(/^File:/, '')).filter((t) => { const m = t.match(/^LL-Q150 \(fra\)-([^-]+)-(.+)\.[a-z0-9]+$/i); return m && loose(m[2]) === loose(r.form) })
+  const hits = (res?.query?.search ?? []).map((x) => x.title.replace(/^File:/, '')).filter((t) => { const m = t.match(LL_PARTS); return m && loose(m[2]) === loose(r.form) })
   // A short, common word (chat, une, dix) drowns in near misses (château, chaton), so a title pattern ending in the
   // word itself finds it.
   if (!hits.length) {
-    const pattern = `intitle:"LL-Q150 (fra)" intitle:/-${r.form.replace(/[.?+*|{}[\]()"\\#@&<>~]/g, '\\$&')}.wav/`
+    const pattern = `intitle:"${LL}" intitle:/-${r.form.replace(/[.?+*|{}[\]()"\\#@&<>~]/g, '\\$&')}.wav/`
     const res2 = await getJson(`https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srlimit=50&format=json&srsearch=${encodeURIComponent(pattern)}`)
-    hits.push(...(res2?.query?.search ?? []).map((x) => x.title.replace(/^File:/, '')).filter((t) => { const m = t.match(/^LL-Q150 \(fra\)-([^-]+)-(.+)\.[a-z0-9]+$/i); return m && loose(m[2]) === loose(r.form) }))
+    hits.push(...(res2?.query?.search ?? []).map((x) => x.title.replace(/^File:/, '')).filter((t) => { const m = t.match(LL_PARTS); return m && loose(m[2]) === loose(r.form) }))
   }
   if (hits.length) filesFor.set(r.form, new Set(hits))
 }
@@ -466,6 +473,6 @@ table('French feedback lines', 'Checked against Tatoeba: same French from a trus
 const ll = sentenceChecks.filter((r) => r.lingua_libre && !offIds.has(r.sentence_id))
 table('Lingua Libre recordings', '', ['ID', 'French', 'File', 'License', 'Recordings found'],
   ll.map((r) => [r.sentence_id, esc(r.french), `[${esc(r.lingua_libre.file)}](${encodeURI(r.lingua_libre.url)})`, esc(r.lingua_libre.license), r.lingua_libre.recordings_found]))
-writeFileSync(join(ROOT, 'content/review.md'), md.join('\n'))
+writeFileSync(at('content/review.md'), md.join('\n'))
 
 console.log(`Sentences: ${passed.length} checked, ${reviewed.length} dan_reviewed, ${flagged.length} flagged. Words: ${wordChecks.filter((w) => w.status === 'checked').length} checked. Answers: ${answerChecks.filter((a) => a.status === 'checked').length} checked, ${flaggedAnswers.length} flagged, ${generatedAnswers.length} en_to_fr generated. Lingua Libre: ${ll.length} live sentences, ${wordChecks.filter((w) => w.lingua_libre).length} words. French feedback lines: ${phraseChecks.filter((p) => p.status === 'checked').length} of ${phraseChecks.length} checked.`)
