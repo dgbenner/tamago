@@ -21,6 +21,8 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 13 is live:** Naming Colours, 40 sentences (30 Tatoeba, 10 drafts): colours after the noun, agreement, ¿De qué color es? Cut an idiom (No tengo blanca, I'm broke).
   - **Unit 14 is live:** Days and Times, 39 sentences (30 Tatoeba, 9 drafts): hoy, mañana, ahora, días de la semana, ¿Qué hora es? Cut te llamo meaning I'll call you.
   - **Unit 15 is live:** Going Places, 33 sentences (30 Tatoeba, 3 drafted answers): voy, vas, va; a and al. Cut me voy and te vas (irse, to leave) and ¿Cómo te va? (an idiom). **All 15 Spanish units are now live.**
+  - **Around the units:** sushi icons by difficulty over the 15 units (5 nigiri, 5 maki, 5 temaki; with three temaki pictures, two repeat), a checkpoint after each of rows 2, 3, 6, 8 and 9, and your pictures in Spanish lessons: 44 Spanish words use the shared pictures (yours where made, OpenMoji until then).
+  - **Picture list:** _source/image-list.md now has French, Spanish and Language columns. Nearly every picture is Shared; croissant is French. Four Spanish words get rows of their own (profesor, profesora, estudiante, baño), and rows already in lessons sit at the end, marked done. Picture Check shows the Spanish words too.
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.

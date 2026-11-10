@@ -80,7 +80,7 @@ function PictureCheck() {
                   ? <img src={c.image} alt={c.english ? `Picture for ${c.french}, ${c.english}` : 'Picture with no matching row'} loading="lazy" className="aspect-square w-full rounded-lg bg-white object-contain" />
                   : <div className="flex aspect-square w-full items-center justify-center rounded-lg border-2 border-dashed border-field p-4 text-center text-sm text-muted">To draw: {c.draw}</div>}
                 <p className="flex items-baseline justify-between gap-2">
-                  <span><span lang={TL} className="text-lg font-semibold">{c.french || '—'}</span>{c.also?.length ? <span className="text-sm text-muted"> (also {c.also.join(', ')})</span> : null}</span>
+                  <span><span lang="fr" className="text-lg font-semibold">{c.french || '—'}</span>{c.spanish && c.spanish !== c.french ? <span lang="es" className="text-lg"> · {c.spanish}</span> : null}{c.also?.length ? <span className="text-sm text-muted"> (also {c.also.join(', ')})</span> : null}</span>
                   <span className="rounded-full border-2 border-line px-2 text-sm text-muted">{c.status}</span>
                 </p>
                 <p className="-mt-1 text-muted">{c.english}</p>

@@ -16,10 +16,12 @@ const PICS = join(ROOT, '_source/pictures')
 const OUT = join(ROOT, 'public/picture-check')
 const map = JSON.parse(readFileSync(join(PICS, 'picture-check.json'), 'utf8'))
 
-// The rows of image-list.md: | # | French | English | File | What to draw | Priority | Sentences | Unit | Note |
-const rows = readFileSync(join(ROOT, '_source/image-list.md'), 'utf8').split('\n')
-  .filter((l) => /^\| \d+ \|/.test(l))
-  .map((l) => { const c = l.split('|').slice(1, -1).map((x) => x.trim()); return { n: Number(c[0]), french: c[1], english: c[2], file: c[3], draw: c[4], priority: c[5] } })
+// The rows of image-list.md, read by their column names (| # | French | Spanish | English | File | What to draw | …).
+const lines = readFileSync(join(ROOT, '_source/image-list.md'), 'utf8').split('\n')
+const head = lines.find((l) => l.startsWith('| # |')).split('|').slice(1, -1).map((x) => x.trim())
+const col = (c, name) => c[head.indexOf(name)] ?? ''
+const rows = lines.filter((l) => /^\| \d+ \|/.test(l))
+  .map((l) => { const c = l.split('|').slice(1, -1).map((x) => x.trim()); return { n: Number(c[0]), french: col(c, 'French') || col(c, 'Spanish'), spanish: col(c, 'Spanish'), english: col(c, 'English'), file: col(c, 'File'), draw: col(c, 'What to draw'), priority: col(c, 'Priority') } })
 // One picture per file; rows that reuse another's picture ("same image as bleu") are listed under it.
 const byFile = new Map()
 for (const r of rows.filter((x) => !x.draw.startsWith('same image as'))) if (!byFile.has(r.file)) byFile.set(r.file, { ...r, also: [] })
@@ -45,14 +47,14 @@ for (const img of images) {
   cards.push({
     image: `/picture-check/${web}`, source: `${img.folder}/${img.name}`,
     status: named ? 'Matched' : row ? 'Guessed' : 'No Match',
-    french: row?.french ?? '', also: row?.also ?? [], english: row?.english ?? '', file: row?.file ?? '', draw: row?.draw ?? '',
+    french: row?.french ?? '', spanish: row?.spanish ?? '', also: row?.also ?? [], english: row?.english ?? '', file: row?.file ?? '', draw: row?.draw ?? '',
     note: m?.note ?? '', decision: m?.decision ?? '',
   })
   if (row && m?.decision === 'use') used.push({ row, src: join(PICS, img.folder, img.name) })
 }
 // A row that shares another row's picture (bleue, docteur…) is covered when that picture is.
 const missing = [...byFile.values()].filter((r) => !covered.has(r.file))
-for (const r of missing) cards.push({ image: null, source: '', status: 'Missing', french: r.french, also: r.also, english: r.english, file: r.file, draw: r.draw, note: '' })
+for (const r of missing) cards.push({ image: null, source: '', status: 'Missing', french: r.french, spanish: r.spanish, also: r.also, english: r.english, file: r.file, draw: r.draw, note: '' })
 
 const order = { Matched: 0, Guessed: 1, 'No Match': 2, Missing: 3 }
 cards.sort((a, b) => order[a.status] - order[b.status] || (rows.find((r) => r.file === a.file)?.n ?? 999) - (rows.find((r) => r.file === b.file)?.n ?? 999))
@@ -69,8 +71,7 @@ for (const { row, src } of used) {
   execFileSync('magick', [src, '-resize', '384x384', '-quality', '82', join(ROOT, 'public/images', file)])
   for (const form of [row.french, ...row.also]) {
     const w = words.find((x) => x.form === form && !String(x.status).startsWith('off'))
-    if (!w) throw new Error(`${form}: no such word`)
-    pictures[w.word_id] = file
+    if (w) pictures[w.word_id] = file // a Spanish-only row has no French word; its Spanish word is wired by image-list.mjs
   }
 }
 writeFileSync(join(ROOT, 'content/pictures.json'), JSON.stringify({ _about: "Dan's pictures in lessons (Picture Check decision use), word id to file under public/images. Written by scripts/picture-check.mjs; import.mjs prefers these over OpenMoji.", words: pictures }, null, 2) + '\n')

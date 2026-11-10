@@ -382,7 +382,9 @@ export default function App() {
 
   // Review checkpoints (Phase 3): after rows 2 and 3, a review of every unit above. Open once those units have
   // finished round 1; passing marks it done. It never locks anything.
-  const checkpointRows = [2, 3, 6, 8].filter((r) => layout.some((t) => t.row === r))
+  // Spanish has one more row of units (row 9), so the last row of main units always gets one too.
+  const lastMainRow = Math.max(0, ...layout.filter((t) => !isTopicNode(t.unit_id)).map((t) => t.row))
+  const checkpointRows = [...new Set([2, 3, 6, 8, lastMainRow])].filter((r) => layout.some((t) => t.row === r && !isTopicNode(t.unit_id)))
   const unitsUpTo = (row) => layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id)).map((t) => t.unit_id)
   const startCheckpoint = (row) => {
     const ids = unitsUpTo(row).flatMap(itemsOf)
@@ -750,7 +752,8 @@ export default function App() {
       intro={note.thenStart} wordCount={newWords.length} sampleWords={newWords.slice(0, 4).map((w) => w.form)}
       onDone={() => closeNote(note.thenStart)} onBack={() => closeNote(false)} />
   }
-  const rows = [...new Set(layout.map((t) => t.row))].sort((a, b) => a - b).map((r) => layout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
+  // Each row carries its row number (.row): a course can skip one (Spanish has no row 4 until its topic node exists).
+  const rows = [...new Set(layout.map((t) => t.row))].sort((a, b) => a - b).map((r) => Object.assign(layout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
     // The Your topic node stands for the chosen pack once there is one; it keeps the node's place number.
     const node = tables.units.find((u) => u.unit_id === t.unit_id)
     const id = node.is_topic_pick === 'node' ? topicChoice[node.unit_id] ?? node.unit_id : node.unit_id
@@ -761,7 +764,7 @@ export default function App() {
     const lessons = open && !choosing ? Math.max(lessonsInRound(unitContent(id), roundOf(id)), progress.lessons_done + 1) : 0
     return { unit, progress, open, current: id === currentUnit, lesson: progress.lessons_done + 1, lessons, strength: strength(itemsOf(id), cards), lockedBy: open ? null : lockedByOf(id),
       topic: node.is_topic_pick === 'node' ? { choosing, packs: packsAt(node.unit_id).map((p) => ({ unit_id: p.unit_id, title: p.title, started: progressOf(p.unit_id).lessons_done > 0 })) } : null }
-  }))
+  }), { row: r }))
   const curUnit = tables.units.find((u) => u.unit_id === currentUnit)
   // Levels (Dan's test notes): "Starting Out" until round 1 of a first unit is done; then the level in words, and
   // markers across the tree where finishing the units above would reach the next band (score.js: 10 and 20 of 29).

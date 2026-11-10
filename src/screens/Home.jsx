@@ -266,8 +266,9 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
       <ol className="flex flex-1 flex-col items-center gap-5 pt-1 pb-4">
         {rows.map((row, i) => {
-          const cp = checkpoints.find((x) => x.afterRow === i + 1)
-          const marker = markers.find((m) => m.beforeRow === i + 1)
+          const n = row.row ?? i + 1 // the row's own number, not its place in the list
+          const cp = checkpoints.find((x) => x.afterRow === n)
+          const marker = markers.find((m) => m.beforeRow === n)
           return [
             marker && <Marker key={`m${i}`} label={marker.label} />,
             <li key={i} className="flex justify-center gap-4">
@@ -276,7 +277,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
           ]
         })}
-        {markers.filter((m) => m.beforeRow > rows.length).map((m) => <Marker key={m.label} label={m.label} />)}
+        {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <Marker key={m.label} label={m.label} />)}
       </ol>
 
       {/* Pinned to the bottom, with a line above, so they're always on screen. */}

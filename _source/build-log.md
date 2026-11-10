@@ -490,3 +490,8 @@ Part 3, Lingua Libre recordings:
 - Spanish Unit 13 (Naming Colours): 30 Tatoeba, 10 drafts, 4 QT09 pairs; 4 cuts.
 - Spanish Unit 14 (Days and Times): 30 Tatoeba, 9 drafts, 4 QT09 pairs; 7 cuts.
 - Spanish Unit 15 (Going Places): 30 Tatoeba, 3 drafted answers, 4 QT09 pairs; 10 cuts (irse, idioms). All 15 units live.
+- Spanish around the units: icons (assign-icons.mjs plans 15 units for COURSE=es), checkpoint rows plus the last
+  main row, rows carry their row number (Spanish skips row 4 until its topic node), shared pictures for Spanish
+  words (scripts/image-list.mjs writes content-es/pictures.json from a Spanish-to-French row map), image list with
+  French, Spanish and Language columns (Shared except croissant; four Spanish-only rows), Picture Check reads columns
+  by name. French tree, icons and lesson pictures unchanged.

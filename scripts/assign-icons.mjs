@@ -15,7 +15,8 @@ const kept = existsSync(OUT) ? read('content/unit-icons.json') : {}
 
 // The A1 tree, planned to its end (autonomous-build.md: the old Duolingo A1 order after Unit 5), so the thirds stay
 // put as units are added: 13 units, 5 nigiri, 4 maki, 4 temaki.
-const A1_PLAN = ['U01', 'U02', 'U03', 'U04', 'U05', 'U06', 'U07', 'U08', 'U09', 'U10', 'U11', 'U12', 'U13']
+// Spanish has 15 units (its own order, 2026-11-10): COURSE=es node scripts/assign-icons.mjs.
+const A1_PLAN = Array.from({ length: COURSE === 'es' ? 15 : 13 }, (_, i) => `U${String(i + 1).padStart(2, '0')}`)
 const third = Math.ceil(A1_PLAN.length / 3)
 const groupOf = (i) => (i < third ? 'nigiri' : i < A1_PLAN.length - Math.floor(A1_PLAN.length / 3) ? 'maki' : 'temaki')
 
