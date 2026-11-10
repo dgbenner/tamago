@@ -836,6 +836,30 @@
       "french": "Sí, somos amigos.",
       "english": "Yes, we're friends.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S11101",
+      "unit_id": "U11",
+      "french": "Estoy aquí porque estás aquí.",
+      "english": "I'm here because you're here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S11102",
+      "unit_id": "U11",
+      "french": "¿Por qué no comes?",
+      "english": "Why aren't you eating?",
+      "notes": "QT09 question; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "1832006",
+      "source_owner": "Shishir"
+    },
+    {
+      "sentence_id": "S11103",
+      "unit_id": "U11",
+      "french": "No como porque estoy enfermo.",
+      "english": "I'm not eating because I'm sick.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -998,6 +1022,22 @@
     {
       "question_sentence_id": "S10021",
       "answer_sentence_id": "S10111"
+    },
+    {
+      "question_sentence_id": "S11102",
+      "answer_sentence_id": "S11103"
+    },
+    {
+      "question_sentence_id": "S11002",
+      "answer_sentence_id": "S8013"
+    },
+    {
+      "question_sentence_id": "S11003",
+      "answer_sentence_id": "S1030"
+    },
+    {
+      "question_sentence_id": "S11023",
+      "answer_sentence_id": "S2024"
     }
   ]
 }

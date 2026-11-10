@@ -16,6 +16,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 8 is live:** Where Things Are, 35 sentences (30 Tatoeba, 5 drafts): estar for place (está, están, estamos) and hay for what there is, with aquí and allí.
   - **Unit 9 is live:** Ser or Estar, 37 sentences (30 Tatoeba, 7 drafts): ser for what someone is (soy profesor), estar for how they are now (estoy cansado).
   - **Unit 10 is live:** Mine and Yours, 41 sentences (30 Tatoeba, 11 drafts): mi, tu, su and their plurals; de for whose. Widened with amigos and amigas; cut cómo de grande (Spain usage, beyond A1).
+  - **Unit 11 is live:** Asking Questions, 33 sentences (30 Tatoeba, 3 drafts): qué, quién, dónde, cuál, por qué, porque. Cut idioms (¿Y qué?, ¿Qué hay?) and three copies of "That's because you're a girl".
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -483,7 +484,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (118), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (120), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -632,3 +633,8 @@ Every Spanish sentence I wrote (118), for a native speaker of Latin American Spa
 - S10109 Sí, soy tu amigo. = Yes, I'm your friend. (QT09 answer)
 - S10110 Sí, es mi familia. = Yes, it's my family. (QT09 answer)
 - S10111 Sí, somos amigos. = Yes, we're friends. (QT09 answer)
+
+**U11 Asking Questions** (2)
+
+- S11101 Estoy aquí porque estás aquí. = I'm here because you're here.
+- S11103 No como porque estoy enfermo. = I'm not eating because I'm sick. (QT09 answer)

@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U10 Mine and Yours: Possessives: mi, mis; tu, tus; su, sus; de for whose
+## U11 Asking Questions: Question words carry an accent: qué, quién, dónde, cuál, por qué; porque in the answer
 
-30 sentences picked from 183 candidates (target 30 to 40). Grammar point in 19 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 136 candidates (target 30 to 40). Grammar point in 30 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): mi 4, mis 3, tu 6, tus 0, su 5, sus 1.
+Contrast forms, sentences each (target 2): qué 8, quién 6, por qué 5, porque 1, dónde 7, cuál 3.
 
-**Gaps (P08)**, fewer than 3 usable sentences: tus (0), sus (1), amigas (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: porque (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S10001 | Esta es la carta de mi amigo. | This is my friend's letter. | This is the letter from my friend. | [#1905027](https://tatoeba.org/en/sentences/show/1905027) | zahurdias |
-| S10002 | ¿Eres su amiga? | Are you her friend? |  | [#1502190](https://tatoeba.org/en/sentences/show/1502190) | marcelostockle |
-| S10003 | ¿Eres su amigo? | Are you her friend? |  | [#1502191](https://tatoeba.org/en/sentences/show/1502191) | marcelostockle |
-| S10004 | ¿Eres mi amigo? | Are you my friend? |  | [#2719038](https://tatoeba.org/en/sentences/show/2719038) | cueyayotl |
-| S10005 | ¿Esta es tu familia? | Is this your family? |  | [#2059646](https://tatoeba.org/en/sentences/show/2059646) | Shishir |
-| S10006 | ¿Soy yo tu amiga? | Am I your friend? |  | [#2707036](https://tatoeba.org/en/sentences/show/2707036) | cueyayotl |
-| S10007 | Son mis amigos. | They're my friends. |  | [#2710908](https://tatoeba.org/en/sentences/show/2710908) | Shishir |
-| S10008 | Ellos son mis amigos. | They're my friends. | They are my friends. | [#5057686](https://tatoeba.org/en/sentences/show/5057686) | cueyayotl |
-| S10009 | ¿Es ella mi amiga? | Is she my friend? |  | [#2707031](https://tatoeba.org/en/sentences/show/2707031) | cueyayotl |
-| S10010 | Me gusta tu familia. | I like your family. |  | [#1863947](https://tatoeba.org/en/sentences/show/1863947) | Shishir |
-| S10011 | Tom es un amigo de la familia. | Tom is a friend of the family. |  | [#3246204](https://tatoeba.org/en/sentences/show/3246204) | hayastan |
-| S10012 | Somos los amigos de Tom. | We're Tom's friends. | We're friends of Tom's. | [#2453975](https://tatoeba.org/en/sentences/show/2453975) | hayastan |
-| S10013 | Aquí están sus libros. | Here are your books. |  | [#9171247](https://tatoeba.org/en/sentences/show/9171247) | ignacio |
-| S10014 | ¿Tom es su amigo? | Is Tom your friend? |  | [#8631892](https://tatoeba.org/en/sentences/show/8631892) | cueyayotl |
-| S10015 | ¿Somos amigas? | Are we friends? |  | [#6712731](https://tatoeba.org/en/sentences/show/6712731) | arh |
-| S10016 | No son mis libros. | They aren't my books. |  | [#597708](https://tatoeba.org/en/sentences/show/597708) | Shishir |
-| S10017 | ¿Es él mi amigo? | Is he my friend? |  | [#2707032](https://tatoeba.org/en/sentences/show/2707032) | cueyayotl |
-| S10018 | ¿Soy yo tu amigo? | Am I your friend? |  | [#2707035](https://tatoeba.org/en/sentences/show/2707035) | cueyayotl |
-| S10019 | ¿Es él tu amigo? | Is he your friend? |  | [#3762237](https://tatoeba.org/en/sentences/show/3762237) | marcelostockle |
-| S10020 | ¿Eres amigo de Tom? | Are you a friend of Tom's? |  | [#4552017](https://tatoeba.org/en/sentences/show/4552017) | cueyayotl |
-| S10021 | ¿Somos amigos? | Are we friends? |  | [#2004178](https://tatoeba.org/en/sentences/show/2004178) | Shishir |
-| S10022 | ¿Tiene familia? | Do you have a family? |  | [#5549500](https://tatoeba.org/en/sentences/show/5549500) | ecorralest101 |
-| S10023 | ¿Eres de aquí? | Are you from here? | Are you from around here? | [#576684](https://tatoeba.org/en/sentences/show/576684) | Shishir |
-| S10024 | ¿Ellos son amigos? | Are they friends? |  | [#1681097](https://tatoeba.org/en/sentences/show/1681097) | Shishir |
-| S10025 | ¿Es tu profesor? | Is he your teacher? |  | [#2022146](https://tatoeba.org/en/sentences/show/2022146) | Shishir |
-| S10026 | ¿Es su libro? | Is it his book? | Is it her book?; Is it your book? | [#8106854](https://tatoeba.org/en/sentences/show/8106854) | baudelaire |
-| S10027 | ¿No tienes amigos? | Do you not have friends? |  | [#11996931](https://tatoeba.org/en/sentences/show/11996931) | JSKabylie15 |
-| S10028 | ¿Esta es su casa? | Is this your house? |  | [#2051818](https://tatoeba.org/en/sentences/show/2051818) | nancy |
-| S10029 | ¿Es ella una amiga? | Is she a friend? |  | [#2707039](https://tatoeba.org/en/sentences/show/2707039) | cueyayotl |
-| S10030 | ¿Es él un amigo? | Is he a friend? |  | [#2707041](https://tatoeba.org/en/sentences/show/2707041) | cueyayotl |
+| S11001 | ¿Por qué? | Why? |  | [#375872](https://tatoeba.org/en/sentences/show/375872) | megamanenm |
+| S11002 | ¿Dónde estás? | Where are you? |  | [#2998](https://tatoeba.org/en/sentences/show/2998) | Shishir |
+| S11003 | ¿Quién eres? | Who are you? |  | [#356203](https://tatoeba.org/en/sentences/show/356203) | yorickvidal |
+| S11004 | ¿Por qué no? | Why not? |  | [#504549](https://tatoeba.org/en/sentences/show/504549) | Shishir |
+| S11005 | ¿Quién es? | Who's that? | Who is that?; Who is it? | [#541328](https://tatoeba.org/en/sentences/show/541328) | Shishir |
+| S11006 | ¿Qué eres? | What are you? |  | [#546704](https://tatoeba.org/en/sentences/show/546704) | Shishir |
+| S11007 | ¿Dónde estoy? | Where am I? |  | [#659096](https://tatoeba.org/en/sentences/show/659096) | Shishir |
+| S11008 | ¿Qué tienes? | What do you have? | What have you got?; What's up with you? | [#1013495](https://tatoeba.org/en/sentences/show/1013495) | Shishir |
+| S11009 | ¿Cuál es tu perro? | Which dog is yours? |  | [#456918](https://tatoeba.org/en/sentences/show/456918) | Shishir |
+| S11010 | ¿Cuál es su casa? | Which house is his? |  | [#1807508](https://tatoeba.org/en/sentences/show/1807508) | marcelostockle |
+| S11011 | Ellos están aquí porque son mis amigos. | They're here because they're my friends. |  | [#6627488](https://tatoeba.org/en/sentences/show/6627488) | Schuager |
+| S11012 | ¿Por qué yo? | Why me? |  | [#720463](https://tatoeba.org/en/sentences/show/720463) | Shishir |
+| S11013 | ¿Qué tiene? | What do you have? |  | [#1013498](https://tatoeba.org/en/sentences/show/1013498) | Shishir |
+| S11014 | ¿Quién, yo? | Who? Me? |  | [#1613025](https://tatoeba.org/en/sentences/show/1613025) | hayastan |
+| S11015 | ¿Dónde están? | Where are you? | Where are they?; Where are you guys? | [#1859623](https://tatoeba.org/en/sentences/show/1859623) | marcelostockle |
+| S11016 | ¿Cuál es tu gato? | Which cat is yours? |  | [#2097504](https://tatoeba.org/en/sentences/show/2097504) | Shishir |
+| S11017 | ¿Qué tienen? | What do you have? |  | [#1013499](https://tatoeba.org/en/sentences/show/1013499) | Shishir |
+| S11018 | ¿Qué tengo? | What do I have? |  | [#1190830](https://tatoeba.org/en/sentences/show/1190830) | Shishir |
+| S11019 | ¿De dónde? | From where? |  | [#3849786](https://tatoeba.org/en/sentences/show/3849786) | cueyayotl |
+| S11020 | ¿En dónde? | Where? |  | [#4615213](https://tatoeba.org/en/sentences/show/4615213) | cueyayotl |
+| S11021 | ¿Quién soy? | Who am I? |  | [#10166017](https://tatoeba.org/en/sentences/show/10166017) | Seael |
+| S11022 | ¿De dónde eres? | Where are you from? | From where are you?; Where do you come from? | [#3071](https://tatoeba.org/en/sentences/show/3071) | Shishir |
+| S11023 | ¿Qué es esto? | What's this? | What is this?; What's this thing? | [#449942](https://tatoeba.org/en/sentences/show/449942) | Shishir |
+| S11024 | ¿Qué te gusta? | What do you like? |  | [#512351](https://tatoeba.org/en/sentences/show/512351) | Shishir |
+| S11025 | ¿Qué tiene ella? | What does she have? |  | [#522794](https://tatoeba.org/en/sentences/show/522794) | Shishir |
+| S11026 | ¿Dónde está él? | Where is he? |  | [#696545](https://tatoeba.org/en/sentences/show/696545) | Shishir |
+| S11027 | ¿Por qué están aquí? | Why are they here? |  | [#874986](https://tatoeba.org/en/sentences/show/874986) | Shishir |
+| S11028 | ¿Y por qué no? | And why not? |  | [#1039350](https://tatoeba.org/en/sentences/show/1039350) | Shishir |
+| S11029 | ¿Quién soy yo? | Who am I? |  | [#1172989](https://tatoeba.org/en/sentences/show/1172989) | marcelostockle |
+| S11030 | ¿De quién es? | Whose is it? |  | [#1248533](https://tatoeba.org/en/sentences/show/1248533) | Shishir |
