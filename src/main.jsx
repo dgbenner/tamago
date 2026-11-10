@@ -5,7 +5,7 @@ import { useTables } from './lib/content.js'
 import './index.css'
 
 // Load the chosen course's tables first (src/lib/course.js), then the app, which reads them as it starts.
-const tablesFor = { fr: () => import('./lib/tables-fr.js'), es: () => import('./lib/tables-es.js') }
+const tablesFor = { fr: () => import('./lib/tables-fr.js'), es: () => import('./lib/tables-es.js'), de: () => import('./lib/tables-de.js') }
 tablesFor[course.id]().then(({ tables }) => {
   useTables(tables)
   return import('./App.jsx')

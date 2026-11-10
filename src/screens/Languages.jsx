@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { COURSES, chooseCourse, course } from '../lib/course.js'
 
 // The course flags (Dan, 2026-11-10): on the opening screen at first launch, in the header's language pop-up and in
-// Settings. A course that isn't ready (German) shows faintly and can't be picked; tapping it says "Coming Soon".
+// Settings. A course that isn't ready shows faintly and can't be picked; tapping it says "Coming Soon".
 // Picking another course reloads straight into it; its progress is its own.
 export function FlagRow({ size = 'md', onPick }) {
   const [soon, setSoon] = useState(null)

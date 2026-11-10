@@ -271,8 +271,8 @@ const phraseChecks = (raw('feedback_phrases') ?? []).filter((f) => f.language !=
 
 // ---------- Wiktionary ----------
 console.log('Words: Wiktionary')
-const clean = (html) => String(html).replace(/<[^>]+>/g, '').replace(/&#32;/g, ' ').replace(/&#160;|&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim()
-const shorten = (d) => d.replace(/\s*\([^)]*\)/g, '').trim()
+const clean = (html) => String(html).replace(/<style[\s\S]*?<\/style>/g, '').replace(/<[^>]+>/g, '').replace(/\.mw-parser-output[^}]*\}/g, '').replace(/&#32;/g, ' ').replace(/&#160;|&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/\s+/g, ' ').trim()
+const shorten = (d) => { let x = d; while (/\([^()]*\)/.test(x)) x = x.replace(/\s*\([^()]*\)/g, ''); return x.replace(/\s*[()]\s*/g, ' ').trim() }
 const title = (form) => encodeURIComponent(form.replace(/ /g, '_'))
 
 // Very large pages ("a") keep most languages on subpages; French is then on one of these.
@@ -302,7 +302,9 @@ function genderFrom(section, pos, posIndex, definition) {
   const parts = section.split(new RegExp(`\\n={3,4}${pos}={3,4}\\n`))
   const head = parts[posIndex + 1]?.split('\n').find((l) => l.startsWith('{{')) ?? ''
   const fromNoun = head.match(/\{\{fr-noun\|(?:g=)?(mfbysense|mf|m|f)\b/)?.[1]
-  const fromHead = head.match(/\{\{head\|fr\|[^}]*\bg=(m|f)\b/)?.[1]
+  // German and Spanish headwords (2026-11-10): {{de-noun|m,es,…}}, {{de-noun|g=n}}, {{es-noun|m}}.
+  const fromOther = head.match(/\{\{(?:de|es)-noun\|(?:g=)?(mfbysense|mf|m|f|n)\b/)?.[1]
+  const fromHead = fromOther ?? head.match(/\{\{head\|(?:fr|es|de)\|[^}]*\bg=(m|f|n)\b/)?.[1]
   const g = fromNoun ?? fromHead ?? (/^feminine\b/.test(definition) ? 'f' : /^masculine\b/.test(definition) ? 'm' : '')
   return g === 'mfbysense' || g === 'mf' ? 'm/f' : g
 }
@@ -312,14 +314,21 @@ for (const w of words) {
   const entries = await french(w.form)
   const section = await frenchWikitext(w.form)
   const pick = senses[w.word_id]
-  const entry = entries.find((e) => e.pos === pick?.pos && (!pick.match || e.definitions.some((d) => d.includes(pick.match)))) ?? (pick ? null : entries[0])
+  const entry = pick?.form_of ? null : entries.find((e) => e.pos === pick?.pos && (!pick.match || e.definitions.some((d) => d.includes(pick.match)))) ?? (pick ? null : entries[0])
   const definition = entry && (pick?.match ? entry.definitions.find((d) => d.includes(pick.match)) : entry.definitions[0])
   const row = {
     word_id: w.word_id, form: w.form, lemma: w.form, part_of_speech: '', gender: '', gloss: '', gloss_full: '', lemma_gloss: '',
     wiktionary_url: `https://en.wiktionary.org/wiki/${title(w.form)}#${C.wiktionarySection}`,
     status: 'flagged', flag_reason: '', other_entries: [],
   }
-  if (!definition) {
+  // A form Wiktionary's page files under another verb (trinkst sits under triften there): the pick names the lemma
+  // and person, and the lemma's own Wiktionary conjugation table has to list the form.
+  const table = !definition && pick?.form_of ? await presentIndicative(pick.form_of) : null
+  if (table?.some((t) => t.person.split(', ')[0] === pick.person && t.form === w.form)) {
+    Object.assign(row, { part_of_speech: 'Verb', lemma: pick.form_of, gloss: `${{ ich: 'first-person singular', du: 'second-person singular', er: 'third-person singular', wir: 'first-person plural', ihr: 'second-person plural' }[pick.person] ?? pick.person} present of ${pick.form_of}`, gloss_full: `present tense, ${pick.person}, in Wiktionary's conjugation of ${pick.form_of}`, status: 'checked', wiktionary_url: `https://en.wiktionary.org/wiki/${title(pick.form_of)}#${C.wiktionarySection}` })
+    const lemmaEntry = (await french(pick.form_of)).find((e) => e.pos === 'Verb')
+    row.lemma_gloss = lemmaEntry ? shorten(lemmaEntry.definitions[0]) : ''
+  } else if (!definition) {
     row.flag_reason = entries.length ? 'sense_not_found' : 'no_french_entry'
   } else {
     row.part_of_speech = entry.pos

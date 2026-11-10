@@ -1,0 +1,46 @@
+[
+  {
+    "unit_id": "U01",
+    "rule": "Ich bin says who you are, and du bist says who someone you know well is: both are forms of sein, the verb for who or what someone is. Every noun has a gender and starts with a capital letter: ein goes with a masculine or neuter noun (ein Mann, ein Kind), eine with a feminine one (eine Frau). To say not, put nicht after the verb (Ich bin nicht Tom). In a question the verb comes first: Bist du Tom?",
+    "example_sentence_ids": "S1003;S1005;S1009",
+    "conjugation_lemma": "sein",
+    "status": "live",
+    "examples": [
+      "S1003",
+      "S1005",
+      "S1009"
+    ],
+    "conjugations": [
+      {
+        "lemma": "sein",
+        "present": [
+          {
+            "person": "ich",
+            "form": "bin"
+          },
+          {
+            "person": "du",
+            "form": "bist"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "ist"
+          },
+          {
+            "person": "wir",
+            "form": "sind"
+          },
+          {
+            "person": "ihr",
+            "form": "seid"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "sind"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/sein#Conjugation"
+      }
+    ]
+  }
+]

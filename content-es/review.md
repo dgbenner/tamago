@@ -156,12 +156,12 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W006 | tú | tú | Pronoun |  | you | checked |
 | W007 | soy | ser | Verb |  | first-person singular present indicative of ser (ser: to be) | checked |
 | W008 | eres | ser | Verb |  | second-person singular present indicative of ser; you are (ser: to be) | checked |
-| W009 | un | un | Article |  | an; a | checked |
+| W009 | un | un | Article | m | an; a | checked |
 | W010 | una | un | Article | f | feminine singular of un (un: an; a) | checked |
-| W011 | hombre | hombre | Noun |  | man | checked |
-| W012 | mujer | mujer | Noun |  | woman | checked |
-| W013 | niño | niño | Noun |  | child, boy | checked |
-| W014 | niña | niña | Noun |  | girl, female equivalent of niño | checked |
+| W011 | hombre | hombre | Noun | m | man | checked |
+| W012 | mujer | mujer | Noun | f | woman | checked |
+| W013 | niño | niño | Noun | m | child, boy | checked |
+| W014 | niña | niña | Noun | f | girl, female equivalent of niño | checked |
 | W015 | y | y | Conjunction |  | and | checked |
 | W016 | el | el | Article | m | masculine singular definite article; the | checked |
 | W017 | la | la | Article | f | feminine singular definite article; the | checked |
@@ -169,10 +169,10 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W019 | ella | ella | Pronoun |  | she, her | checked |
 | W020 | es | ser | Verb |  | third-person singular present indicative of ser (ser: to be) | checked |
 | W021 | aquí | aquí | Adverb |  | here | checked |
-| W022 | libro | libro | Noun |  | book | checked |
-| W023 | carta | carta | Noun |  | letter | checked |
-| W024 | periódico | periódico | Noun |  | newspaper | checked |
-| W025 | casa | casa | Noun |  | house | checked |
+| W022 | libro | libro | Noun | m | book | checked |
+| W023 | carta | carta | Noun | f | letter | checked |
+| W024 | periódico | periódico | Noun | m | newspaper | checked |
+| W025 | casa | casa | Noun | f | house | checked |
 | W026 | grande | grande | Adjective |  | big, large | checked |
 | W027 | pequeño | pequeño | Adjective |  | small; little | checked |
 | W028 | pequeña | pequeño | Adjective |  | feminine singular of pequeño (pequeño: small; little) | checked |
@@ -198,25 +198,25 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W048 | bebe | beber | Verb |  | inflection of beber: third-person singular present indicative second-person singular imperative (beber: to drink) | checked |
 | W049 | me | me | Pronoun |  | accusative of yo: me | checked |
 | W050 | te | te | Pronoun |  | dative of tú and vos: to you, for you | checked |
-| W051 | gusta | gustar | Verb |  | inflection of gustar: third-person singular present indicative second-person singular imperative (gustar: translated as "to like", but uses a construction similar to "to please" [with dative ‘liker’]). See the usage notes for more. Compare similar constructions in Italian piacere, Romanian plăcea, German gefallen, Icelandic líka, Czech líbit se, Polish podobać się, Ukrainian подобатися, Russian нравиться, Lithuanian patikti, and South Levantine Arabic عجب. to like in a general sense) | checked |
-| W052 | pan | pan | Noun |  | bread | checked |
-| W053 | agua | agua | Noun |  | water | checked |
-| W054 | leche | leche | Noun |  | milk | checked |
-| W055 | queso | queso | Noun |  | cheese | checked |
-| W056 | manzana | manzana | Noun |  | apple | checked |
-| W057 | naranja | naranja | Noun |  | orange | checked |
-| W058 | café | café | Noun |  | coffee | checked |
+| W051 | gusta | gustar | Verb |  | inflection of gustar: third-person singular present indicative second-person singular imperative (gustar: translated as "to like", but uses a construction similar to "to please" [with dative ‘liker’]. See the usage notes for more. Compare similar constructions in Italian piacere, Romanian plăcea, German gefallen, Icelandic líka, Czech líbit se, Polish podobać się, Ukrainian подобатися, Russian нравиться, Lithuanian patikti, and South Levantine Arabic عجب. to like in a general sense) | checked |
+| W052 | pan | pan | Noun | m | bread | checked |
+| W053 | agua | agua | Noun | f | water | checked |
+| W054 | leche | leche | Noun | f | milk | checked |
+| W055 | queso | queso | Noun | m | cheese | checked |
+| W056 | manzana | manzana | Noun | f | apple | checked |
+| W057 | naranja | naranja | Noun | f | orange | checked |
+| W058 | café | café | Noun | m | coffee | checked |
 | W059 | tengo | tener | Verb |  | first-person singular present indicative of tener (tener: to have; to possess) | checked |
 | W060 | tienes | tener | Verb |  | second-person singular present indicative of tener (tener: to have; to possess) | checked |
 | W061 | tiene | tener | Verb |  | third-person singular present indicative of tener (tener: to have; to possess) | checked |
-| W062 | perro | perro | Noun |  | dog, domesticated for thousands of years and of highly variable appearance because of human breeding) | checked |
-| W063 | gato | gato | Noun |  | cat | checked |
-| W064 | caballo | caballo | Noun |  | horse | checked |
-| W065 | pájaro | pájaro | Noun |  | bird, especially a perching bird | checked |
-| W066 | pato | pato | Noun |  | duck, drake | checked |
-| W067 | tortuga | tortuga | Noun |  | turtle | checked |
-| W068 | ratón | ratón | Noun |  | mouse | checked |
-| W069 | animal | animal | Noun |  | animal | checked |
+| W062 | perro | perro | Noun | m | dog | checked |
+| W063 | gato | gato | Noun | m | cat | checked |
+| W064 | caballo | caballo | Noun | m | horse | checked |
+| W065 | pájaro | pájaro | Noun | m | bird, especially a perching bird | checked |
+| W066 | pato | pato | Noun | m | duck, drake | checked |
+| W067 | tortuga | tortuga | Noun | f | turtle | checked |
+| W068 | ratón | ratón | Noun | m | mouse | checked |
+| W069 | animal | animal | Noun | m | animal | checked |
 | W070 | los | el | Article | m | the | checked |
 | W071 | las | las | Article | f | feminine plural definite article; the | checked |
 | W072 | unos | un | Article | m | masculine plural of un (un: an; a) | checked |
@@ -227,13 +227,13 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W077 | ellas | ellas | Pronoun |  | they, them | checked |
 | W078 | somos | ser | Verb |  | first-person plural present indicative of ser (ser: to be) | checked |
 | W079 | son | ser | Verb |  | third-person plural present indicative of ser (ser: to be) | checked |
-| W080 | libros | libro | Noun |  | plural of libro (libro: book) | checked |
-| W081 | perros | perro | Noun |  | plural of perro (perro: dog, domesticated for thousands of years and of highly variable appearance because of human breeding)) | checked |
-| W082 | gatos | gato | Noun |  | plural of gato (gato: cat) | checked |
-| W083 | niños | niño | Noun |  | plural of niño (niño: child, boy) | checked |
-| W084 | manzanas | manzana | Noun |  | apple | checked |
-| W085 | hombres | hombre | Noun |  | plural of hombre (hombre: man) | checked |
-| W086 | mujeres | mujer | Noun |  | women | checked |
+| W080 | libros | libro | Noun | m | plural of libro (libro: book) | checked |
+| W081 | perros | perro | Noun | m | plural of perro (perro: dog) | checked |
+| W082 | gatos | gato | Noun | m | plural of gato (gato: cat) | checked |
+| W083 | niños | niño | Noun | m | plural of niño (niño: child, boy) | checked |
+| W084 | manzanas | manzana | Noun | f | apple | checked |
+| W085 | hombres | hombre | Noun | m | plural of hombre (hombre: man) | checked |
+| W086 | mujeres | mujer | Noun | f | women | checked |
 | W087 | bueno | bueno | Adjective |  | good | checked |
 | W088 | buena | bueno | Adjective |  | feminine singular of bueno (bueno: good) | checked |
 | W089 | viejo | viejo | Adjective |  | old | checked |
@@ -250,20 +250,20 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W100 | hay | haber | Verb |  | there is, there are | checked |
 | W101 | allí | allí | Adverb |  | there | checked |
 | W102 | en | en | Preposition |  | in, at, on | checked |
-| W103 | mesa | mesa | Noun |  | table | checked |
-| W104 | cama | cama | Noun |  | bed | checked |
-| W105 | cocina | cocina | Noun |  | kitchen | checked |
-| W106 | baño | baño | Noun |  | bathroom | checked |
+| W103 | mesa | mesa | Noun | f | table | checked |
+| W104 | cama | cama | Noun | f | bed | checked |
+| W105 | cocina | cocina | Noun | f | kitchen | checked |
+| W106 | baño | baño | Noun | m | bathroom | checked |
 | W107 | cansado | cansado | Adjective |  | tired, weary, wearied | checked |
 | W108 | cansada | cansado | Adjective |  | feminine singular of cansado (cansado: tired, weary, wearied) | checked |
 | W109 | contento | contento | Adjective |  | happy, glad | checked |
 | W110 | contenta | contento | Adjective |  | feminine singular of contento (contento: content) | checked |
 | W111 | enfermo | enfermo | Adjective |  | sick, ill | checked |
 | W112 | enferma | enfermo | Adjective |  | feminine singular of enfermo (enfermo: sick, ill) | checked |
-| W113 | profesor | profesor | Noun |  | teacher | checked |
-| W114 | profesora | profesora | Noun |  | female equivalent of profesor | checked |
-| W115 | estudiante | estudiante | Noun |  | student | checked |
-| W116 | médico | médico | Noun |  | doctor | checked |
+| W113 | profesor | profesor | Noun | m | teacher | checked |
+| W114 | profesora | profesora | Noun | f | female equivalent of profesor | checked |
+| W115 | estudiante | estudiante | Noun | m/f | student | checked |
+| W116 | médico | médico | Noun | m/f | doctor | checked |
 | W117 | mi | mi | Determiner |  | apocopic form of mío, my | checked |
 | W118 | mis | mi | Determiner |  | plural of mi (mi: apocopic form of mío, my) | checked |
 | W119 | tu | tu | Determiner |  | apocopic form of tuyo, your | checked |
@@ -271,9 +271,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W121 | su | su | Determiner |  | apocopic form of suyo | checked |
 | W122 | sus | su | Determiner |  | plural of su; one's, his, her, its, their (with plural possessee) (su: apocopic form of suyo) | checked |
 | W123 | de | de | Preposition |  | of; 's; used after the thing owned and before the owner | checked |
-| W124 | amigo | amigo | Noun |  | friend | checked |
-| W125 | amiga | amiga | Noun |  | female equivalent of amigo, friend | checked |
-| W126 | familia | familia | Noun |  | family | checked |
+| W124 | amigo | amigo | Noun | m | friend | checked |
+| W125 | amiga | amiga | Noun | f | female equivalent of amigo, friend | checked |
+| W126 | familia | familia | Noun | f | family | checked |
 | W127 | qué | qué | Pronoun |  | what | checked |
 | W128 | quién | quién | Pronoun |  | who?, whom?; whose? | checked |
 | W129 | dónde | dónde | Adverb |  | where?; in what place? | checked |
@@ -305,83 +305,83 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W155 | hoy | hoy | Adverb |  | today, tonight | checked |
 | W156 | mañana | mañana | Adverb |  | tomorrow | checked |
 | W157 | ahora | ahora | Adverb |  | now | checked |
-| W158 | día | día | Noun |  | day | checked |
-| W159 | semana | semana | Noun |  | week | checked |
-| W160 | hora | hora | Noun |  | hour | checked |
-| W161 | lunes | lunes | Noun |  | Monday | checked |
-| W162 | sábado | sábado | Noun |  | Saturday | checked |
-| W163 | domingo | domingo | Noun |  | Sunday | checked |
+| W158 | día | día | Noun | m | day | checked |
+| W159 | semana | semana | Noun | f | week | checked |
+| W160 | hora | hora | Noun | f | hour | checked |
+| W161 | lunes | lunes | Noun | m | Monday | checked |
+| W162 | sábado | sábado | Noun | m | Saturday | checked |
+| W163 | domingo | domingo | Noun | m | Sunday | checked |
 | W164 | voy | ir | Verb |  | first-person singular present indicative of ir (ir: to go, can sometimes be translated with to come) | checked |
 | W165 | vas | ir | Verb |  | inflection of ir: second-person singular present indicative second-person singular voseo present indicative (ir: to go, can sometimes be translated with to come) | checked |
 | W166 | va | ir | Verb |  | third-person singular present indicative of ir (ir: to go, can sometimes be translated with to come) | checked |
 | W167 | a | a | Preposition |  | to | checked |
 | W168 | al | al | Contraction |  | contraction of a +‎ el, literally “at the, to the” | checked |
-| W169 | parque | parque | Noun |  | park | checked |
-| W170 | escuela | escuela | Noun |  | school | checked |
-| W171 | tienda | tienda | Noun |  | shop, store | checked |
-| W172 | ciudad | ciudad | Noun |  | city | checked |
-| W173 | restaurante | restaurante | Noun |  | restaurant | checked |
+| W169 | parque | parque | Noun | m | park | checked |
+| W170 | escuela | escuela | Noun | f | school | checked |
+| W171 | tienda | tienda | Noun | f | shop, store | checked |
+| W172 | ciudad | ciudad | Noun | f | city | checked |
+| W173 | restaurante | restaurante | Noun | m | restaurant | checked |
 | W174 | llamo | llamar | Verb |  | first-person singular present indicative of llamar (llamar: to summon, to call) | checked |
 | W175 | llamas | llamar | Verb |  | second-person singular present indicative of llamar (llamar: to summon, to call) | checked |
-| W176 | chico | chico | Noun |  | boy; kid | checked |
-| W177 | chica | chica | Noun |  | female equivalent of chico: girl | checked |
-| W178 | señor | señor | Noun |  | mister, sir, lord | checked |
-| W179 | señora | señora | Noun |  | Ms; a title or form of address for a woman; formerly for a married, divorced, or widowed woman and now commonly for any adult woman regardless of marital status, depending on the region | checked |
+| W176 | chico | chico | Noun | m | boy; kid | checked |
+| W177 | chica | chica | Noun | f | female equivalent of chico: girl | checked |
+| W178 | señor | señor | Noun | m | mister, sir, lord | checked |
+| W179 | señora | señora | Noun | f | Ms; a title or form of address for a woman; formerly for a married, divorced, or widowed woman and now commonly for any adult woman regardless of marital status, depending on the region | checked |
 | W180 | esto | éste | Pronoun |  | this one | checked |
-| W181 | eso | ése | Pronoun |  | neuter singular of ése; that (ése: that one)) | checked |
+| W181 | eso | ése | Pronoun |  | neuter singular of ése; that (ése: that one) | checked |
 | W182 | este | este | Determiner |  | this | checked |
 | W183 | esta | este | Determiner |  | feminine singular of este (este: this) | checked |
-| W184 | puerta | puerta | Noun |  | door | checked |
+| W184 | puerta | puerta | Noun | f | door | checked |
 | W185 | grandes | grande | Adjective |  | plural of grande (grande: big, large) | checked |
 | W186 | pequeños | pequeño | Adjective |  | masculine plural of pequeño (pequeño: small; little) | checked |
 | W187 | pequeñas | pequeño | Adjective |  | feminine plural of pequeño (pequeño: small; little) | checked |
 | W188 | tienen | tener | Verb |  | third-person plural present indicative of tener (tener: to have; to possess) | checked |
 | W189 | comen | comer | Verb |  | third-person plural present indicative of comer (comer: to eat) | checked |
 | W190 | beben | beber | Verb |  | third-person plural present indicative of beber (beber: to drink) | checked |
-| W191 | chicos | chico | Noun |  | plural of chico (chico: boy; kid) | checked |
-| W192 | chicas | chica | Noun |  | plural of chica (chica: female equivalent of chico: girl) | checked |
-| W193 | casas | casa | Noun |  | plural of casa (casa: house) | checked |
-| W194 | amigos | amigo | Noun |  | plural of amigo (amigo: friend) | checked |
-| W195 | amigas | amiga | Noun |  | plural of amiga (amiga: female equivalent of amigo, friend) | checked |
-| W510 | madre | madre | Noun |  | mother | checked |
-| W511 | padre | padre | Noun |  | father, parent | checked |
-| W512 | hermano | hermano | Noun |  | brother | checked |
-| W513 | hermana | hermana | Noun |  | sister; female equivalent of hermano | checked |
-| W514 | hijo | hijo | Noun |  | son | checked |
-| W515 | hija | hija | Noun |  | daughter; female equivalent of hijo | checked |
-| W516 | bebé | bebé | Noun |  | baby | checked |
-| W517 | padres | padre | Noun |  | parents | checked |
-| W518 | mamá | mamá | Noun |  | mum, mom | checked |
-| W519 | papá | papá | Noun |  | dad | checked |
-| W520 | oficina | oficina | Noun |  | office | checked |
-| W521 | trabajo | trabajo | Noun |  | work, job | checked |
+| W191 | chicos | chico | Noun | m | plural of chico (chico: boy; kid) | checked |
+| W192 | chicas | chica | Noun | f | plural of chica (chica: female equivalent of chico: girl) | checked |
+| W193 | casas | casa | Noun | f | plural of casa (casa: house) | checked |
+| W194 | amigos | amigo | Noun | m | plural of amigo (amigo: friend) | checked |
+| W195 | amigas | amiga | Noun | f | plural of amiga (amiga: female equivalent of amigo, friend) | checked |
+| W510 | madre | madre | Noun | f | mother | checked |
+| W511 | padre | padre | Noun | m | father, parent | checked |
+| W512 | hermano | hermano | Noun | m | brother | checked |
+| W513 | hermana | hermana | Noun | f | sister; female equivalent of hermano | checked |
+| W514 | hijo | hijo | Noun | m | son | checked |
+| W515 | hija | hija | Noun | f | daughter; female equivalent of hijo | checked |
+| W516 | bebé | bebé | Noun | m/f | baby | checked |
+| W517 | padres | padre | Noun | m | parents | checked |
+| W518 | mamá | mamá | Noun | f | mum, mom | checked |
+| W519 | papá | papá | Noun | m | dad | checked |
+| W520 | oficina | oficina | Noun | f | office | checked |
+| W521 | trabajo | trabajo | Noun | m | work, job | checked |
 | W522 | trabaja | trabajar | Verb |  | inflection of trabajar: third-person singular present indicative second-person singular imperative (trabajar: to work) | checked |
 | W523 | trabajas | trabajar | Verb |  | second-person singular present indicative of trabajar (trabajar: to work) | checked |
-| W525 | jefa | jefa | Noun |  | female equivalent of jefe, boss | checked |
-| W526 | computadora | computadora | Noun |  | computer | checked |
-| W527 | teléfono | teléfono | Noun |  | telephone | checked |
+| W525 | jefa | jefa | Noun | f | female equivalent of jefe, boss | checked |
+| W526 | computadora | computadora | Noun | f | computer | checked |
+| W527 | teléfono | teléfono | Noun | m | telephone | checked |
 | W528 | ocupado | ocupado | Adjective |  | occupied | checked |
 | W529 | ocupada | ocupado | Adjective |  | feminine singular of ocupado (ocupado: occupied) | checked |
-| W530 | reunión | reunión | Noun |  | meeting, session, appointment | checked |
-| W531 | doctor | doctor | Noun |  | doctor | checked |
-| W533 | hospital | hospital | Noun |  | hospital | checked |
-| W535 | fiebre | fiebre | Noun |  | fever | checked |
+| W530 | reunión | reunión | Noun | f | meeting, session, appointment | checked |
+| W531 | doctor | doctor | Noun | m | doctor | checked |
+| W533 | hospital | hospital | Noun | m | hospital | checked |
+| W535 | fiebre | fiebre | Noun | f | fever | checked |
 | W538 | duele | doler | Verb |  | inflection of doler: third-person singular present indicative second-person singular imperative (doler: to hurt [ with dative]) | checked |
-| W539 | salud | salud | Noun |  | health | checked |
-| W555 | música | música | Noun |  | music | checked |
-| W556 | canción | canción | Noun |  | song | checked |
-| W558 | guitarra | guitarra | Noun |  | guitar | checked |
-| W559 | cantante | cantante | Noun |  | singer | checked |
+| W539 | salud | salud | Noun | f | health | checked |
+| W555 | música | música | Noun | f | music | checked |
+| W556 | canción | canción | Noun | f | song | checked |
+| W558 | guitarra | guitarra | Noun | f | guitar | checked |
+| W559 | cantante | cantante | Noun | m/f | singer | checked |
 | W560 | canta | cantar | Verb |  | inflection of cantar: third-person singular present indicative second-person singular imperative (cantar: to sing) | checked |
-| W561 | té | té | Noun |  | tea | checked |
+| W561 | té | té | Noun | m | tea | checked |
 | W562 | azúcar | azúcar | Noun |  | sugar | checked |
-| W563 | chocolate | chocolate | Noun |  | chocolate .mw-parser-output .defdate{font-size:smaller} | checked |
-| W564 | taza | taza | Noun |  | cup, mug | checked |
-| W565 | jugo | jugo | Noun |  | juice | checked |
-| W567 | jardín | jardín | Noun |  | garden | checked |
-| W568 | flor | flor | Noun |  | flower | checked |
-| W570 | árbol | árbol | Noun |  | tree | checked |
-| W572 | jardinero | jardinero | Noun |  | gardener | checked |
+| W563 | chocolate | chocolate | Noun | m | chocolate | checked |
+| W564 | taza | taza | Noun | f | cup, mug | checked |
+| W565 | jugo | jugo | Noun | m | juice | checked |
+| W567 | jardín | jardín | Noun | m | garden | checked |
+| W568 | flor | flor | Noun | f | flower | checked |
+| W570 | árbol | árbol | Noun | m | tree | checked |
+| W572 | jardinero | jardinero | Noun | m | gardener | checked |
 
 ## Matched to Tatoeba (665)
 

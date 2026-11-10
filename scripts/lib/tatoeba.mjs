@@ -21,7 +21,7 @@ const rows = (file) => readFileSync(join(DIR, file), 'utf8').split('\n').filter(
 
 // lang is Tatoeba's ISO 639-3 code: fra (default) or spa. Sentences come back as .french whatever the language,
 // the course's text column (scripts/lib/course.mjs).
-export function loadTatoeba(lang = process.env.COURSE === 'es' ? 'spa' : 'fra') {
+export function loadTatoeba(lang = { es: 'spa', de: 'deu' }[process.env.COURSE] ?? 'fra') {
   ensure(`${lang}_sentences_detailed.tsv`, `per_language/${lang}/${lang}_sentences_detailed.tsv.bz2`, bunzip)
   ensure('eng_sentences.tsv', 'per_language/eng/eng_sentences.tsv.bz2', bunzip)
   ensure(`${lang}-eng_links.tsv`, `per_language/${lang}/${lang}-eng_links.tsv.bz2`, bunzip)

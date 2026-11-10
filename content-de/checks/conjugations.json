@@ -1,0 +1,236 @@
+{
+  "sein": [
+    {
+      "person": "ich",
+      "form": "bin"
+    },
+    {
+      "person": "du",
+      "form": "bist"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "ist"
+    },
+    {
+      "person": "wir",
+      "form": "sind"
+    },
+    {
+      "person": "ihr",
+      "form": "seid"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "sind"
+    }
+  ],
+  "gehen": [
+    {
+      "person": "ich",
+      "form": "gehe"
+    },
+    {
+      "person": "du",
+      "form": "gehst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "geht"
+    },
+    {
+      "person": "wir",
+      "form": "gehen"
+    },
+    {
+      "person": "ihr",
+      "form": "geht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "gehen"
+    }
+  ],
+  "essen": [
+    {
+      "person": "ich",
+      "form": "esse"
+    },
+    {
+      "person": "du",
+      "form": "isst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "isst"
+    },
+    {
+      "person": "wir",
+      "form": "essen"
+    },
+    {
+      "person": "ihr",
+      "form": "esst"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "essen"
+    }
+  ],
+  "trinken": [
+    {
+      "person": "ich",
+      "form": "trinke"
+    },
+    {
+      "person": "du",
+      "form": "trinkst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "trinkt"
+    },
+    {
+      "person": "wir",
+      "form": "trinken"
+    },
+    {
+      "person": "ihr",
+      "form": "trinkt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "trinken"
+    }
+  ],
+  "mögen": [
+    {
+      "person": "ich",
+      "form": "mag"
+    },
+    {
+      "person": "du",
+      "form": "magst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "mag"
+    },
+    {
+      "person": "wir",
+      "form": "mögen"
+    },
+    {
+      "person": "ihr",
+      "form": "mögt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "mögen"
+    }
+  ],
+  "haben": [
+    {
+      "person": "ich",
+      "form": "habe"
+    },
+    {
+      "person": "du",
+      "form": "hast"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "hat"
+    },
+    {
+      "person": "wir",
+      "form": "haben"
+    },
+    {
+      "person": "ihr",
+      "form": "habt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "haben"
+    }
+  ],
+  "kommen": [
+    {
+      "person": "ich",
+      "form": "komme"
+    },
+    {
+      "person": "du",
+      "form": "kommst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "kommt"
+    },
+    {
+      "person": "wir",
+      "form": "kommen"
+    },
+    {
+      "person": "ihr",
+      "form": "kommt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "kommen"
+    }
+  ],
+  "geben": [
+    {
+      "person": "ich",
+      "form": "gebe"
+    },
+    {
+      "person": "du",
+      "form": "gibst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "gibt"
+    },
+    {
+      "person": "wir",
+      "form": "geben"
+    },
+    {
+      "person": "ihr",
+      "form": "gebt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "geben"
+    }
+  ],
+  "können": [
+    {
+      "person": "ich",
+      "form": "kann"
+    },
+    {
+      "person": "du",
+      "form": "kannst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "kann"
+    },
+    {
+      "person": "wir",
+      "form": "können"
+    },
+    {
+      "person": "ihr",
+      "form": "könnt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "können"
+    }
+  ]
+}

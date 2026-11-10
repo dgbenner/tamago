@@ -593,3 +593,10 @@ Part 3, Lingua Libre recordings:
 ## 2026-11-10: A1 Final Check
 
 - finalcheck.js (exams, parts, items, scores); buildSession carries part; App startFinal, per-part results, kv final_check, kind final kept out of the bank; Home FinalNode at the end of the tree and FinalCard (exam, parts, last result, start, sample-paper link); Progress section per skill; Lesson shows the part. Unit test added. Checked in Chrome for French and Spanish: parts in order, scores per part, Progress per skill, axe clean.
+
+## 2026-11-10: German, Unit 1
+
+- Pipeline: course.mjs de (Tatoeba deu, Wiktionary German, LL-Q188), loose strips „“, check.js folds ß to ss. Senses for 160 words (content-de/word-senses.json; trinkst via form_of trinken, since Wiktionary files it under triften), 86 short hints. check-content: strips Wiktionary's inline style text from definitions; shorten handles nested brackets; genders from de-noun and es-noun headwords.
+- conjugation.mjs per course: fr-conj-auto as before; es-conj and de-conj from the template on the verb's own page (a bare de-conj guessed weak forms like getrinkt). Spanish tables were wrong before this (French reader on a Spanish table); rebuilt.
+- U01: pulled 37, cut 11 (content-de/sweep/packs-review.json), 26 Tatoeba + 12 drafts S1101 to S1112; approved with grammar note (S1003, S1005, S1009; sein). U100 and U200 nodes approved (shown only with a live pack). Icons from assign-icons COURSE=de.
+- App: main.jsx loads tables-de.js; course.js German ready; Course Snapshot has a German column; vite defines the German workbook version. Chrome: chooser shows German selectable, U01 rounds 1 to 5 with no page errors; npm test 60 pass.

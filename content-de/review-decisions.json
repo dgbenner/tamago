@@ -1,0 +1,383 @@
+{
+  "_about": "Rulings for the German course, the same shape as the French and Spanish ones. Claude records its calls here under autonomous-build.md; Dan can reverse any of them.",
+  "sentences": {},
+  "accepted_answers": {},
+  "units": {
+    "U100": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: the German topic node (no sentences of its own; it shows only once it has a live pack)"
+    },
+    "U200": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: the German topic node (no sentences of its own; it shows only once it has a live pack)"
+    },
+    "U01": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 26 Tatoeba sentences from checked owners after cutting 11 (idioms, quoted dialogue, odd lines, English that renames Maria as Mary); 12 drafts where Tatoeba had too few checked lines (Mann had none)"
+    }
+  },
+  "cut_sentences": [],
+  "vocabulary_additions": [],
+  "hints": {},
+  "borrow": {},
+  "drafting": {},
+  "claude_hints": {
+    "W003": {
+      "hint": "yes",
+      "source": "short form of Wiktionary"
+    },
+    "W005": {
+      "hint": "not",
+      "source": "short form of Wiktionary"
+    },
+    "W007": {
+      "hint": "you (one friend)",
+      "source": "short form of Wiktionary"
+    },
+    "W008": {
+      "hint": "am (sein)",
+      "source": "short form of Wiktionary"
+    },
+    "W009": {
+      "hint": "are (sein, du)",
+      "source": "short form of Wiktionary"
+    },
+    "W010": {
+      "hint": "a, an; one",
+      "source": "short form of Wiktionary"
+    },
+    "W011": {
+      "hint": "a, an (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W014": {
+      "hint": "boy",
+      "source": "short form of Wiktionary"
+    },
+    "W018": {
+      "hint": "the (masculine)",
+      "source": "short form of Wiktionary"
+    },
+    "W019": {
+      "hint": "the (feminine, plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W020": {
+      "hint": "the (neuter)",
+      "source": "short form of Wiktionary"
+    },
+    "W022": {
+      "hint": "she, they; Sie: you (polite)",
+      "source": "short form of Wiktionary"
+    },
+    "W023": {
+      "hint": "it",
+      "source": "short form of Wiktionary"
+    },
+    "W024": {
+      "hint": "is (sein)",
+      "source": "short form of Wiktionary"
+    },
+    "W025": {
+      "hint": "here",
+      "source": "short form of Wiktionary"
+    },
+    "W032": {
+      "hint": "thanks, thank you",
+      "source": "short form of Wiktionary"
+    },
+    "W033": {
+      "hint": "please; you are welcome",
+      "source": "short form of Wiktionary"
+    },
+    "W035": {
+      "hint": "hello, good day",
+      "source": "short form of Wiktionary"
+    },
+    "W039": {
+      "hint": "excuse me, sorry",
+      "source": "short form of Wiktionary"
+    },
+    "W040": {
+      "hint": "how",
+      "source": "short form of Wiktionary"
+    },
+    "W041": {
+      "hint": "goes (gehen); wie geht’s: how are things",
+      "source": "short form of Wiktionary"
+    },
+    "W043": {
+      "hint": "you, to you (du)",
+      "source": "short form of Wiktionary"
+    },
+    "W044": {
+      "hint": "you, to you (Sie)",
+      "source": "short form of Wiktionary"
+    },
+    "W045": {
+      "hint": "eat (essen, ich)",
+      "source": "short form of Wiktionary"
+    },
+    "W046": {
+      "hint": "eats, you eat (essen)",
+      "source": "short form of Wiktionary"
+    },
+    "W047": {
+      "hint": "drink (trinken, ich)",
+      "source": "short form of Wiktionary"
+    },
+    "W048": {
+      "hint": "you drink (trinken, du)",
+      "source": "short form of Wiktionary"
+    },
+    "W049": {
+      "hint": "drinks (trinken)",
+      "source": "short form of Wiktionary"
+    },
+    "W050": {
+      "hint": "like, likes (mögen)",
+      "source": "short form of Wiktionary"
+    },
+    "W051": {
+      "hint": "you like (mögen, du)",
+      "source": "short form of Wiktionary"
+    },
+    "W059": {
+      "hint": "have (haben, ich)",
+      "source": "short form of Wiktionary"
+    },
+    "W060": {
+      "hint": "you have (haben, du)",
+      "source": "short form of Wiktionary"
+    },
+    "W061": {
+      "hint": "has (haben)",
+      "source": "short form of Wiktionary"
+    },
+    "W062": {
+      "hint": "a, an (masculine object)",
+      "source": "short form of Wiktionary"
+    },
+    "W064": {
+      "hint": "cat",
+      "source": "short form of Wiktionary"
+    },
+    "W066": {
+      "hint": "bird",
+      "source": "short form of Wiktionary"
+    },
+    "W071": {
+      "hint": "are (sein: wir, sie, Sie)",
+      "source": "short form of Wiktionary"
+    },
+    "W072": {
+      "hint": "have (haben: wir, sie, Sie)",
+      "source": "short form of Wiktionary"
+    },
+    "W073": {
+      "hint": "to eat; eat (wir, sie, Sie)",
+      "source": "short form of Wiktionary"
+    },
+    "W074": {
+      "hint": "to drink; drink (wir, sie, Sie)",
+      "source": "short form of Wiktionary"
+    },
+    "W075": {
+      "hint": "books",
+      "source": "short form of Wiktionary"
+    },
+    "W076": {
+      "hint": "dogs",
+      "source": "short form of Wiktionary"
+    },
+    "W077": {
+      "hint": "cats",
+      "source": "short form of Wiktionary"
+    },
+    "W078": {
+      "hint": "children",
+      "source": "short form of Wiktionary"
+    },
+    "W079": {
+      "hint": "men",
+      "source": "short form of Wiktionary"
+    },
+    "W081": {
+      "hint": "apples",
+      "source": "short form of Wiktionary"
+    },
+    "W082": {
+      "hint": "houses",
+      "source": "short form of Wiktionary"
+    },
+    "W086": {
+      "hint": "beautiful, nice",
+      "source": "short form of Wiktionary"
+    },
+    "W088": {
+      "hint": "also, too",
+      "source": "short form of Wiktionary"
+    },
+    "W090": {
+      "hint": "no, not a (masculine, neuter)",
+      "source": "short form of Wiktionary"
+    },
+    "W091": {
+      "hint": "no, not a (feminine, plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W092": {
+      "hint": "no, not a (masculine object)",
+      "source": "short form of Wiktionary"
+    },
+    "W096": {
+      "hint": "my",
+      "source": "short form of Wiktionary"
+    },
+    "W097": {
+      "hint": "my (feminine, plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W098": {
+      "hint": "my (masculine object)",
+      "source": "short form of Wiktionary"
+    },
+    "W099": {
+      "hint": "your (du)",
+      "source": "short form of Wiktionary"
+    },
+    "W100": {
+      "hint": "your (du; feminine, plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W101": {
+      "hint": "your (du; masculine object)",
+      "source": "short form of Wiktionary"
+    },
+    "W103": {
+      "hint": "friend (woman), girlfriend",
+      "source": "short form of Wiktionary"
+    },
+    "W105": {
+      "hint": "what",
+      "source": "short form of Wiktionary"
+    },
+    "W108": {
+      "hint": "where from",
+      "source": "short form of Wiktionary"
+    },
+    "W109": {
+      "hint": "why",
+      "source": "short form of Wiktionary"
+    },
+    "W111": {
+      "hint": "come (kommen, ich)",
+      "source": "short form of Wiktionary"
+    },
+    "W112": {
+      "hint": "you come (kommen, du)",
+      "source": "short form of Wiktionary"
+    },
+    "W113": {
+      "hint": "comes (kommen)",
+      "source": "short form of Wiktionary"
+    },
+    "W114": {
+      "hint": "from, out of",
+      "source": "short form of Wiktionary"
+    },
+    "W115": {
+      "hint": "one (counting)",
+      "source": "short form of Wiktionary"
+    },
+    "W125": {
+      "hint": "how many",
+      "source": "short form of Wiktionary"
+    },
+    "W126": {
+      "hint": "gives (geben); es gibt: there is, there are",
+      "source": "short form of Wiktionary"
+    },
+    "W131": {
+      "hint": "white",
+      "source": "short form of Wiktionary"
+    },
+    "W134": {
+      "hint": "which (feminine, plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W136": {
+      "hint": "tomorrow",
+      "source": "short form of Wiktionary"
+    },
+    "W140": {
+      "hint": "clock; o’clock",
+      "source": "short form of Wiktionary"
+    },
+    "W144": {
+      "hint": "on the (am Montag: on Monday)",
+      "source": "short form of Wiktionary"
+    },
+    "W145": {
+      "hint": "go (gehen, ich)",
+      "source": "short form of Wiktionary"
+    },
+    "W146": {
+      "hint": "you go (gehen, du)",
+      "source": "short form of Wiktionary"
+    },
+    "W147": {
+      "hint": "in, into",
+      "source": "short form of Wiktionary"
+    },
+    "W148": {
+      "hint": "home (going there)",
+      "source": "short form of Wiktionary"
+    },
+    "W149": {
+      "hint": "at home",
+      "source": "short form of Wiktionary"
+    },
+    "W150": {
+      "hint": "school",
+      "source": "short form of Wiktionary"
+    },
+    "W154": {
+      "hint": "would like (mögen, ich, er, sie)",
+      "source": "short form of Wiktionary"
+    },
+    "W155": {
+      "hint": "you would like (mögen, du)",
+      "source": "short form of Wiktionary"
+    },
+    "W156": {
+      "hint": "can (können)",
+      "source": "short form of Wiktionary"
+    },
+    "W157": {
+      "hint": "you can (können, du)",
+      "source": "short form of Wiktionary"
+    },
+    "W159": {
+      "hint": "German (the language)",
+      "source": "short form of Wiktionary"
+    },
+    "W160": {
+      "hint": "to play; play (wir, sie, Sie)",
+      "source": "short form of Wiktionary"
+    }
+  },
+  "phrases_off": [],
+  "names": [
+    "Tom",
+    "Maria",
+    "Mary",
+    "Ken",
+    "Peter",
+    "Anna"
+  ],
+  "_names": "Names a German sentence may use (R21): the ones Tatoeba German uses most."
+}

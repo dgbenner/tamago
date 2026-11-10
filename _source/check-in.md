@@ -1,9 +1,12 @@
 # Tamago check-in
 
-Updated November 10, 2026. **The Spanish course is live: all 15 units, six topic packs, and language switching.** Also live: **three French topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
+Updated November 10, 2026. **German has started: Unit 1 is live, and German can be chosen on the opening screen, from the header flag and in Settings.** The Spanish course is live: all 15 units, six topic packs, and language switching. Also live: **three French topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
 
 ## Done since last check-in
 
+- **German, Unit 1 live (Saying Hello).** Standard German as spoken in Germany, du and Sie, after the Goethe-Institut's A1 (Start Deutsch 1) word and grammar lists, on the same framework. 15 units planned in German's own order: Saying Hello, People and Things, Polite Phrases (Sie, Ihnen), Food and Drink, Having Things (haben, einen), More Than One, Describing Things, Not and None (kein), Mine and Yours, Asking Questions (woher, kommen aus), Counting to Ten, Naming Colours, Days and Times, Going Places, Wanting and Can (möchte, kann). Unit 1: 38 sentences, 26 from checked Tatoeba and 12 drafted (Tatoeba's only *Ich bin ein Mann.* comes from an owner with no native or OK signal), on the German native-speaker list at the end of this file. 16 of its 17 words play a Lingua Libre recording. Grammar note, conjugation table for sein, and its "I can" statements. The final check for German follows Start Deutsch 1. Each further unit is committed and pushed as it goes live.
+  - Cut from the Unit 1 pull: 11 lines (idioms like *Ja und?*, quoted dialogue, odd lines like *Ich bin du.*, the old letter-style *Du*, and lines whose English renames Maria as Mary, which would mark a typed "Maria" wrong).
+- **Fixed on the way, Spanish verb tables.** The Verbs tool and grammar notes in Spanish showed nonsense conjugations (*je se, tu ses* for ser): the table reader only understood French tables. It now reads each language's own Wiktionary table, with the Spanish course's persons (yo, tú, él/ella/usted, nosotros, ellos/ellas/ustedes; no vosotros, no vos). Spanish nouns also now carry their gender from Wiktionary (94 of 96), as French did, and some Wiktionary glosses lost broken leftovers (*dog, domesticated for thousands of years…)* is now *dog*; stray stylesheet text after *chocolate* is gone).
 - **A1 Final Check, French and Spanish.** At the end of the path, after the last unit (and after the topic node), modeled on the DELF A1 and DELE A1: four parts in the exams' order, listening (pick what you heard, type what you hear), reading (pick the meaning, build the translation), writing (build and type the translation), speaking (speak and compare). 21 questions from the course's own sentences, spread over every A1 unit; nothing taken from exam papers. Listening, reading and writing are scored per part; speaking is practice, never graded. It opens once every unit has had its first lessons and never locks anything. The result shows per skill on the Progress page, which links to the official free sample papers: France Éducation international's DELF A1 page, the Instituto Cervantes DELE page (its old direct PDF links now redirect there), and, for German, the Goethe-Institut's Start Deutsch 1 practice page.
 - **Content numbers on the Developer page** (Course Snapshot, French and Spanish side by side): sentences split three ways with percentages (Tatoeba checked, Tatoeba reviewed by Fable, drafted by Claude), words and native recordings, units and packs, lessons, distinct questions, and hours to finish A1 from the device's lesson times (the craft review's timings until a device has three or more lessons logged per round). Today: French 766 sentences (62% / 5% / 33%), Spanish 792 (80% / 4% / 16%); about 30 and 34 hours to finish A1.
 - **French drafts swapped for Fable's Use candidates: 40.** The French native-speaker list is now **253** (was 293). Same rules as Spanish: ids kept, Fable's English picks used, each Tatoeba sentence once, a question-and-answer pair changed only for the very same sentence, each swap recorded as a reviewed confirm (workbook v25). 78 drafts had a Use candidate; 38 are held: 29 halves of question-and-answer pairs and 9 whose candidates went to other drafts (listed in the build log). The other Use candidates stay in _review/french-candidates.md as the reserve. Every word still has 3 or more sentences, as before (au revoir has two in Unit 1 and two more in Unit 3, as it did). The file's header now says French native, not Spanish (my script's slip, also fixed).
@@ -667,3 +670,22 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 - S15101 La escuela está allí. = The school is over there. (QT09 answer)
 - S15102 Sí, me gusta la escuela. = Yes, I like school. (QT09 answer)
 - S15103 Sí, yo también voy. = Yes, I'm going too. (QT09 answer)
+
+## German drafted sentences
+
+Every German sentence I wrote (12), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+
+**U01 Saying Hello** (12)
+
+- S1101 Tschüss, Tom! = Bye, Tom!
+- S1102 Tschüss, Maria! = Bye, Maria!
+- S1103 Nein, ich bin nicht Tom. = No, I'm not Tom.
+- S1104 Nein, ich bin Anna. = No, I'm Anna.
+- S1105 Ich bin ein Mann. = I am a man.
+- S1106 Du bist ein Mann. = You are a man.
+- S1107 Bist du ein Mann? = Are you a man?
+- S1108 Ich bin ein Junge. = I am a boy.
+- S1109 Bist du ein Junge? = Are you a boy?
+- S1110 Du bist ein Mädchen. = You are a girl.
+- S1111 Bist du ein Kind? = Are you a child?
+- S1112 Bist du eine Frau? = Are you a woman?

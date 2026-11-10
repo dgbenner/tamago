@@ -1,0 +1,121 @@
+[
+  {
+    "row": 1,
+    "position": 1,
+    "unit_id": "U01",
+    "unlocks_after": "",
+    "notes": ""
+  },
+  {
+    "row": 2,
+    "position": 1,
+    "unit_id": "U02",
+    "unlocks_after": "row 1",
+    "notes": ""
+  },
+  {
+    "row": 2,
+    "position": 2,
+    "unit_id": "U03",
+    "unlocks_after": "row 1",
+    "notes": ""
+  },
+  {
+    "row": 3,
+    "position": 1,
+    "unit_id": "U04",
+    "unlocks_after": "row 2",
+    "notes": ""
+  },
+  {
+    "row": 3,
+    "position": 2,
+    "unit_id": "U05",
+    "unlocks_after": "row 2",
+    "notes": ""
+  },
+  {
+    "row": 5,
+    "position": 1,
+    "unit_id": "U06",
+    "unlocks_after": "row 3",
+    "notes": ""
+  },
+  {
+    "row": 5,
+    "position": 2,
+    "unit_id": "U07",
+    "unlocks_after": "row 3",
+    "notes": ""
+  },
+  {
+    "row": 6,
+    "position": 1,
+    "unit_id": "U08",
+    "unlocks_after": "row 5",
+    "notes": ""
+  },
+  {
+    "row": 6,
+    "position": 2,
+    "unit_id": "U09",
+    "unlocks_after": "row 5",
+    "notes": ""
+  },
+  {
+    "row": 7,
+    "position": 1,
+    "unit_id": "U10",
+    "unlocks_after": "row 6",
+    "notes": ""
+  },
+  {
+    "row": 7,
+    "position": 2,
+    "unit_id": "U11",
+    "unlocks_after": "row 6",
+    "notes": ""
+  },
+  {
+    "row": 8,
+    "position": 1,
+    "unit_id": "U12",
+    "unlocks_after": "row 7",
+    "notes": ""
+  },
+  {
+    "row": 8,
+    "position": 2,
+    "unit_id": "U13",
+    "unlocks_after": "row 7",
+    "notes": ""
+  },
+  {
+    "row": 9,
+    "position": 1,
+    "unit_id": "U14",
+    "unlocks_after": "row 8",
+    "notes": ""
+  },
+  {
+    "row": 9,
+    "position": 2,
+    "unit_id": "U15",
+    "unlocks_after": "row 8",
+    "notes": ""
+  },
+  {
+    "row": 4,
+    "position": 1,
+    "unit_id": "U100",
+    "unlocks_after": "row 3",
+    "notes": "choose your topic: the packs with topic_node U100, on Units 1 to 5"
+  },
+  {
+    "row": 10,
+    "position": 1,
+    "unit_id": "U200",
+    "unlocks_after": "row 9",
+    "notes": "a second topic: the packs with topic_node U200, on all of A1"
+  }
+]

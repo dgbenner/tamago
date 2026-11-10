@@ -1,0 +1,198 @@
+[
+  {
+    "variant_id": "V0101",
+    "type_id": "QT01",
+    "description": "5 pairs on one screen",
+    "status": "live",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0102",
+    "type_id": "QT01",
+    "description": "4 pairs",
+    "status": "live",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0201",
+    "type_id": "QT02",
+    "description": "French word at top, pick the image",
+    "status": "live",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0202",
+    "type_id": "QT02",
+    "description": "English word at top, four images labeled in French",
+    "status": "live",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0301",
+    "type_id": "QT03",
+    "description": "French sentence, 3 English choices",
+    "status": "live",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0302",
+    "type_id": "QT03",
+    "description": "French sentence with audio, 4 English choices",
+    "status": "testing",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0401",
+    "type_id": "QT04",
+    "description": "3 speaker buttons, no text",
+    "status": "live",
+    "use_in_rounds": 3
+  },
+  {
+    "variant_id": "V0402",
+    "type_id": "QT04",
+    "description": "4 speaker buttons, no text",
+    "status": "testing",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0403",
+    "type_id": "QT04",
+    "description": "Text appears after the second play",
+    "status": "testing",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0404",
+    "type_id": "QT04",
+    "description": "Audio plays, pick the English meaning from 3 choices",
+    "status": "live",
+    "use_in_rounds": "1-2"
+  },
+  {
+    "variant_id": "V0501",
+    "type_id": "QT05",
+    "description": "Plain sentence, whole-word chips",
+    "status": "live",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0502",
+    "type_id": "QT05",
+    "description": "Blank inside a speaker's dialogue bubble",
+    "status": "live",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0503",
+    "type_id": "QT05",
+    "description": "Chip is part of a word",
+    "status": "testing",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0601",
+    "type_id": "QT06",
+    "description": "Chips with 2 distractors",
+    "status": "live",
+    "use_in_rounds": "2-4"
+  },
+  {
+    "variant_id": "V0602",
+    "type_id": "QT06",
+    "description": "Read the French, type the English (keyboard)",
+    "status": "live",
+    "use_in_rounds": 5
+  },
+  {
+    "variant_id": "V0701",
+    "type_id": "QT07",
+    "description": "Chips include distractors",
+    "status": "live",
+    "use_in_rounds": "2-5"
+  },
+  {
+    "variant_id": "V0702",
+    "type_id": "QT07",
+    "description": "Only the needed chips, random order",
+    "status": "testing",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V0801",
+    "type_id": "QT08",
+    "description": "Chips with 2 distractors",
+    "status": "live",
+    "use_in_rounds": 3
+  },
+  {
+    "variant_id": "V0802",
+    "type_id": "QT08",
+    "description": "Chips with 4 distractors",
+    "status": "live",
+    "use_in_rounds": "4-5"
+  },
+  {
+    "variant_id": "V0901",
+    "type_id": "QT09",
+    "description": "Speaker asks with audio, answer with chips",
+    "status": "live",
+    "use_in_rounds": "3-4"
+  },
+  {
+    "variant_id": "V0902",
+    "type_id": "QT09",
+    "description": "Speaker asks with audio, answer typed",
+    "status": "live",
+    "use_in_rounds": 5
+  },
+  {
+    "variant_id": "V0903",
+    "type_id": "QT09",
+    "description": "Question written out instead of spoken (Can't listen now)",
+    "status": "live",
+    "use_in_rounds": "cant_listen_now only"
+  },
+  {
+    "variant_id": "V1001",
+    "type_id": "QT10",
+    "description": "Text behind a reveal button",
+    "status": "testing",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V1002",
+    "type_id": "QT10",
+    "description": "Say it aloud, no recording, tap Done",
+    "status": "live",
+    "use_in_rounds": "1-4"
+  },
+  {
+    "variant_id": "V1101",
+    "type_id": "QT11",
+    "description": "Normal speed, slow button",
+    "status": "live",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V1201",
+    "type_id": "QT12",
+    "description": "Keyboard, no chips",
+    "status": "live",
+    "use_in_rounds": ""
+  },
+  {
+    "variant_id": "V1301",
+    "type_id": "QT13",
+    "description": "Imitation: native recording, then the learner's, side by side",
+    "status": "live",
+    "use_in_rounds": 4
+  },
+  {
+    "variant_id": "V1302",
+    "type_id": "QT13",
+    "description": "English prompt, say the French from memory, then play both",
+    "status": "live",
+    "use_in_rounds": 5
+  }
+]

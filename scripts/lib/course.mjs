@@ -17,6 +17,11 @@ export const COURSES = {
     id: 'es', name: 'Spanish', workbook: '_source/tamago-es-data-v1.xlsx',
     tatoeba: 'spa', wiktionaryCode: 'es', wiktionarySection: 'Spanish', linguaLibre: { qid: 'Q1321', iso: 'spa' }, wikidataLanguage: 'Q1321',
   },
+  // German (2026-11-10): standard German as spoken in Germany, du and Sie. Its folders: content-de/, src/content-de/…
+  de: {
+    id: 'de', name: 'German', workbook: '_source/tamago-de-data-v1.xlsx',
+    tatoeba: 'deu', wiktionaryCode: 'de', wiktionarySection: 'German', linguaLibre: { qid: 'Q188', iso: 'deu' }, wikidataLanguage: 'Q188',
+  },
 }
 export const C = COURSES[COURSE]
 if (!C) throw new Error(`COURSE=${COURSE}: no such course`)

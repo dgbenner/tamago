@@ -34,7 +34,7 @@ function Accordion({ title, onOpen, children }) {
   )
 }
 
-// Course Snapshot: both courses side by side, French and Spanish, from each one's shipped tables. The course not
+// Course Snapshot: the courses side by side, French, Spanish and German, from each one's shipped tables. The course not
 // running is loaded only when the accordion opens.
 function CourseSnapshot({ snapshot }) {
   const [rows, setRows] = useState(null)
@@ -43,20 +43,20 @@ function CourseSnapshot({ snapshot }) {
     // Each course's lesson log on this device, for the hours estimate: the running course from its own store, the
     // other only if its database already exists here.
     const logOf = (id, db) => (running.id === id ? getAll('lessons') : lessonLogFor(db))
-    Promise.all([import('../lib/tables-fr.js'), import('../lib/tables-es.js'), logOf('fr', 'tamago'), logOf('es', 'tamago-es')]).then(([fr, es, frLog, esLog]) => {
-      const a = snapshotRows(fr.tables, 'French', { lessonLog: frLog }); const b = snapshotRows(es.tables, 'Spanish', { lessonLog: esLog })
-      setRows(a.map(([label, v], i) => [label, v, b[i][1]]))
+    Promise.all([import('../lib/tables-fr.js'), import('../lib/tables-es.js'), import('../lib/tables-de.js'), logOf('fr', 'tamago'), logOf('es', 'tamago-es'), logOf('de', 'tamago-de')]).then(([fr, es, de, frLog, esLog, deLog]) => {
+      const a = snapshotRows(fr.tables, 'French', { lessonLog: frLog }); const b = snapshotRows(es.tables, 'Spanish', { lessonLog: esLog }); const c = snapshotRows(de.tables, 'German', { lessonLog: deLog })
+      setRows(a.map(([label, v], i) => [label, v, b[i][1], c[i][1]]))
     })
   }
   return (
     <Accordion title="Course Snapshot" onOpen={load}>
-      <p className="mb-3 text-sm text-muted">This version, built {snapshot.built}. Workbooks: French {snapshot.workbooks.fr}, Spanish {snapshot.workbooks.es}.</p>
+      <p className="mb-3 text-sm text-muted">This version, built {snapshot.built}. Workbooks: French {snapshot.workbooks.fr}, Spanish {snapshot.workbooks.es}, German {snapshot.workbooks.de}.</p>
       {!rows ? <p>Loading…</p> : (
         <div className="doc"><div className="doc-table" tabIndex={0} role="region" aria-label="Course Snapshot">
           <table>
-            <thead><tr><th scope="col"></th><th scope="col">French</th><th scope="col">Spanish</th></tr></thead>
+            <thead><tr><th scope="col"></th><th scope="col">French</th><th scope="col">Spanish</th><th scope="col">German</th></tr></thead>
             <tbody>
-              {rows.map(([label, fr, es]) => <tr key={label}><th scope="row">{label}</th><td>{fr}</td><td>{es}</td></tr>)}
+              {rows.map(([label, fr, es, de]) => <tr key={label}><th scope="row">{label}</th><td>{fr}</td><td>{es}</td><td>{de}</td></tr>)}
             </tbody>
           </table>
         </div></div>
