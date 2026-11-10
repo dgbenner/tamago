@@ -22122,17 +22122,25 @@
   {
     "sentence_id": "S3103",
     "position": 1,
-    "surface": "Gute Nacht",
-    "word_id": "W037",
+    "surface": "Tschüss",
+    "word_id": "W002",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S3103",
     "position": 2,
-    "surface": "Anna",
-    "word_id": "",
-    "notes": "name",
+    "surface": "und",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3103",
+    "position": 3,
+    "surface": "gute Nacht",
+    "word_id": "W037",
+    "notes": "",
     "hint_override": ""
   },
   {
@@ -22194,25 +22202,33 @@
   {
     "sentence_id": "S3107",
     "position": 2,
-    "surface": "bist",
-    "word_id": "W009",
+    "surface": "geht",
+    "word_id": "W041",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S3107",
     "position": 3,
-    "surface": "du",
-    "word_id": "W007",
+    "surface": "es",
+    "word_id": "W023",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S3107",
     "position": 4,
-    "surface": "Tom",
-    "word_id": "",
-    "notes": "name",
+    "surface": "Ihnen",
+    "word_id": "W044",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3107",
+    "position": 5,
+    "surface": "gut",
+    "word_id": "W042",
+    "notes": "",
     "hint_override": ""
   },
   {
@@ -22434,8 +22450,16 @@
   {
     "sentence_id": "S5104",
     "position": 4,
-    "surface": "hier",
-    "word_id": "W025",
+    "surface": "ein",
+    "word_id": "W010",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5104",
+    "position": 5,
+    "surface": "Vogel",
+    "word_id": "W066",
     "notes": "",
     "hint_override": ""
   },
@@ -22698,30 +22722,22 @@
   {
     "sentence_id": "S6102",
     "position": 4,
-    "surface": "hier",
-    "word_id": "W025",
+    "surface": "klein",
+    "word_id": "W031",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S6103",
     "position": 1,
-    "surface": "Die",
-    "word_id": "W019",
+    "surface": "Wir",
+    "word_id": "W070",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S6103",
     "position": 2,
-    "surface": "Männer",
-    "word_id": "W079",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S6103",
-    "position": 3,
     "surface": "sind",
     "word_id": "W071",
     "notes": "",
@@ -22729,9 +22745,9 @@
   },
   {
     "sentence_id": "S6103",
-    "position": 4,
-    "surface": "hier",
-    "word_id": "W025",
+    "position": 3,
+    "surface": "Männer",
+    "word_id": "W079",
     "notes": "",
     "hint_override": ""
   },
@@ -22826,8 +22842,8 @@
   {
     "sentence_id": "S6106",
     "position": 4,
-    "surface": "hier",
-    "word_id": "W025",
+    "surface": "groß",
+    "word_id": "W030",
     "notes": "",
     "hint_override": ""
   },
@@ -23242,16 +23258,16 @@
   {
     "sentence_id": "S9105",
     "position": 1,
-    "surface": "Hast",
-    "word_id": "W060",
+    "surface": "Ich",
+    "word_id": "W006",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S9105",
     "position": 2,
-    "surface": "du",
-    "word_id": "W007",
+    "surface": "mag",
+    "word_id": "W050",
     "notes": "",
     "hint_override": ""
   },
@@ -23266,8 +23282,8 @@
   {
     "sentence_id": "S9105",
     "position": 4,
-    "surface": "Apfel",
-    "word_id": "W056",
+    "surface": "Hund",
+    "word_id": "W063",
     "notes": "",
     "hint_override": ""
   },
@@ -23522,16 +23538,48 @@
   {
     "sentence_id": "S11106",
     "position": 2,
-    "surface": "ist",
-    "word_id": "W024",
+    "surface": "hat",
+    "word_id": "W061",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11106",
     "position": 3,
+    "surface": "einen",
+    "word_id": "W062",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11106",
+    "position": 4,
+    "surface": "Hund",
+    "word_id": "W063",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11106",
+    "position": 5,
+    "surface": "und",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11106",
+    "position": 6,
     "surface": "sechs",
     "word_id": "W120",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11106",
+    "position": 7,
+    "surface": "Katzen",
+    "word_id": "W077",
     "notes": "",
     "hint_override": ""
   },
@@ -23570,16 +23618,16 @@
   {
     "sentence_id": "S11108",
     "position": 1,
-    "surface": "Tom",
-    "word_id": "",
-    "notes": "name",
+    "surface": "Sie",
+    "word_id": "W022",
+    "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11108",
     "position": 2,
-    "surface": "ist",
-    "word_id": "W024",
+    "surface": "hat",
+    "word_id": "W061",
     "notes": "",
     "hint_override": ""
   },
@@ -23588,6 +23636,14 @@
     "position": 3,
     "surface": "zehn",
     "word_id": "W124",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11108",
+    "position": 4,
+    "surface": "Kinder",
+    "word_id": "W078",
     "notes": "",
     "hint_override": ""
   },
@@ -23906,16 +23962,16 @@
   {
     "sentence_id": "S13105",
     "position": 1,
-    "surface": "Ist",
-    "word_id": "W024",
+    "surface": "Morgen",
+    "word_id": "W136",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13105",
     "position": 2,
-    "surface": "morgen",
-    "word_id": "W136",
+    "surface": "ist",
+    "word_id": "W024",
     "notes": "",
     "hint_override": ""
   },
@@ -23962,16 +24018,16 @@
   {
     "sentence_id": "S14101",
     "position": 1,
-    "surface": "Der",
-    "word_id": "W018",
+    "surface": "Wie",
+    "word_id": "W040",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S14101",
     "position": 2,
-    "surface": "Park",
-    "word_id": "W151",
+    "surface": "groß",
+    "word_id": "W030",
     "notes": "",
     "hint_override": ""
   },
@@ -23986,8 +24042,16 @@
   {
     "sentence_id": "S14101",
     "position": 4,
-    "surface": "schön",
-    "word_id": "W086",
+    "surface": "der",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S14101",
+    "position": 5,
+    "surface": "Park",
+    "word_id": "W151",
     "notes": "",
     "hint_override": ""
   },
@@ -24058,16 +24122,16 @@
   {
     "sentence_id": "S15101",
     "position": 1,
-    "surface": "Die",
-    "word_id": "W019",
-    "notes": "",
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
     "hint_override": ""
   },
   {
     "sentence_id": "S15101",
     "position": 2,
-    "surface": "Kinder",
-    "word_id": "W078",
+    "surface": "möchte",
+    "word_id": "W154",
     "notes": "",
     "hint_override": ""
   },

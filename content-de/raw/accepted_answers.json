@@ -1830,5 +1830,41 @@
     "answer": "I've got a boat.",
     "source": "tatoeba",
     "status": "pulled"
+  },
+  {
+    "answer_id": "AD0001",
+    "sentence_id": "S3102",
+    "direction": "fr_to_en",
+    "answer": "Hello! How are you?",
+    "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0002",
+    "sentence_id": "S3102",
+    "direction": "fr_to_en",
+    "answer": "Good day! How are you?",
+    "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0003",
+    "sentence_id": "S3106",
+    "direction": "fr_to_en",
+    "answer": "Sorry!",
+    "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0004",
+    "sentence_id": "S13103",
+    "direction": "fr_to_en",
+    "answer": "I have a week’s time.",
+    "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+    "status": "live",
+    "origin": "flag"
   }
 ]

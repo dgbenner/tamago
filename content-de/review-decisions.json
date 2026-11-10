@@ -1,7 +1,119 @@
 {
   "_about": "Rulings for the German course, the same shape as the French and Spanish ones. Claude records its calls here under autonomous-build.md; Dan can reverse any of them.",
-  "sentences": {},
-  "accepted_answers": {},
+  "sentences": {
+    "S1105": {
+      "action": "confirm",
+      "french": "Ich bin ein Mann.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner MUIRIEL has no native or OK signal"
+    },
+    "S1108": {
+      "action": "confirm",
+      "french": "Ich bin ein Junge.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner MUIRIEL has no native or OK signal"
+    },
+    "S3102": {
+      "action": "confirm",
+      "french": "Guten Tag! Wie geht es Ihnen?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner xtofu80 has no native or OK signal"
+    },
+    "S3103": {
+      "action": "confirm",
+      "french": "Tschüss und gute Nacht.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S3107": {
+      "action": "confirm",
+      "french": "Entschuldigung, geht es Ihnen gut?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S5104": {
+      "action": "confirm",
+      "french": "Die Ente ist ein Vogel.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S6102": {
+      "action": "confirm",
+      "french": "Die Bücher sind klein.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner User4473 has no native or OK signal"
+    },
+    "S6103": {
+      "action": "confirm",
+      "french": "Wir sind Männer.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner MUIRIEL has no native or OK signal"
+    },
+    "S6106": {
+      "action": "confirm",
+      "french": "Die Frauen sind groß.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner felix63 has no native or OK signal"
+    },
+    "S9105": {
+      "action": "confirm",
+      "french": "Ich mag deinen Hund.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner mrtaistoi has no native or OK signal"
+    },
+    "S11106": {
+      "action": "confirm",
+      "french": "Er hat einen Hund und sechs Katzen.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner MUIRIEL has no native or OK signal"
+    },
+    "S11108": {
+      "action": "confirm",
+      "french": "Sie hat zehn Kinder.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner human600 has no native or OK signal"
+    },
+    "S13105": {
+      "action": "confirm",
+      "french": "Morgen ist Sonntag.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Alba has no native or OK signal"
+    },
+    "S14101": {
+      "action": "confirm",
+      "french": "Wie groß ist der Park?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner hectorM has no native or OK signal"
+    },
+    "S15101": {
+      "action": "confirm",
+      "french": "Tom möchte spielen.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Lars224 has no native or OK signal"
+    }
+  },
+  "accepted_answers": {
+    "AD0001": {
+      "action": "keep",
+      "answer": "Hello! How are you?",
+      "by": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request"
+    },
+    "AD0002": {
+      "action": "keep",
+      "answer": "Good day! How are you?",
+      "by": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request"
+    },
+    "AD0003": {
+      "action": "keep",
+      "answer": "Sorry!",
+      "by": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request"
+    },
+    "AD0004": {
+      "action": "keep",
+      "answer": "I have a week’s time.",
+      "by": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request"
+    }
+  },
   "units": {
     "U100": {
       "action": "approve",
@@ -134,7 +246,10 @@
       "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
     }
   },
-  "cut_sentences": [],
+  "cut_sentences": [
+    "S13101",
+    "S13102"
+  ],
   "vocabulary_additions": [],
   "hints": {},
   "borrow": {},
@@ -602,5 +717,40 @@
     "London",
     "Paris"
   ],
-  "_names": "Names allowed in German lines: people, and cities spelled the same in English (for kommen aus, Unit 10)"
+  "_names": "Names allowed in German lines: people, and cities spelled the same in English (for kommen aus, Unit 10)",
+  "_cut_sentences": "S13101 and S13102 (the week pair): cut at Dan’s request 2026-11-10 from _review/german-check.md (the present tense sounds unnatural; the fix would need war); S13103 carries Woche.",
+  "accepted_additions": [
+    {
+      "answer_id": "AD0001",
+      "sentence_id": "S3102",
+      "direction": "fr_to_en",
+      "answer": "Hello! How are you?",
+      "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0002",
+      "sentence_id": "S3102",
+      "direction": "fr_to_en",
+      "answer": "Good day! How are you?",
+      "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0003",
+      "sentence_id": "S3106",
+      "direction": "fr_to_en",
+      "answer": "Sorry!",
+      "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0004",
+      "sentence_id": "S13103",
+      "direction": "fr_to_en",
+      "answer": "I have a week’s time.",
+      "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+      "status": "live"
+    }
+  ]
 }

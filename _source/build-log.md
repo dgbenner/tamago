@@ -610,3 +610,9 @@ Part 3, Lingua Libre recordings:
 - Third picture batch (incoming-2026-11-10c), 20 rows, decision use; image-list.mjs DE map and 4 more ES words; all courses without OpenMoji.
 - _review/german-candidates.md: 808 candidates, 86 drafts, 3 same text, 37 covered. Nothing swapped.
 - content-report.mjs includes German: 805 sentences, 719 checked (89%), 86 drafted.
+
+## 2026-11-10: German, Fable's results
+
+- apply-spanish-candidates.mjs is now course-aware (_review/<course>-candidates.md; English picks as pick "…" or English to show: "…"; --keep to leave drafts as they are). COURSE=de --keep S3106: 15 swapped, 20 held (18 QT09 halves, S3108 and S15102 out of candidates).
+- From _review/german-check.md: S13101 and S13102 in cut_sentences, their pair removed from drafts.json; accepted_additions AD0001 to AD0004 (S3102 twice, S3106, S13103), each with a keep decision.
+- German: 803 sentences, 734 Tatoeba, 69 drafts; 59 QT09 pairs.

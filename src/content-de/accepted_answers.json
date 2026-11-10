@@ -1832,6 +1832,42 @@
     "status": "live"
   },
   {
+    "answer_id": "AD0001",
+    "sentence_id": "S3102",
+    "direction": "fr_to_en",
+    "answer": "Hello! How are you?",
+    "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0002",
+    "sentence_id": "S3102",
+    "direction": "fr_to_en",
+    "answer": "Good day! How are you?",
+    "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0003",
+    "sentence_id": "S3106",
+    "direction": "fr_to_en",
+    "answer": "Sorry!",
+    "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0004",
+    "sentence_id": "S13103",
+    "direction": "fr_to_en",
+    "answer": "I have a week’s time.",
+    "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
     "answer_id": "GS10101-10032171",
     "sentence_id": "S10101",
     "direction": "en_to_fr",
@@ -1840,16 +1876,6 @@
     "source_id": "10032171",
     "status": "live",
     "source_owner": "Melang"
-  },
-  {
-    "answer_id": "GS1105-2022825",
-    "sentence_id": "S1105",
-    "direction": "en_to_fr",
-    "answer": "Ich bin ein Mensch.",
-    "source": "tatoeba",
-    "source_id": "2022825",
-    "status": "live",
-    "source_owner": "Tamy"
   },
   {
     "answer_id": "GS3105-4884547",

@@ -1,9 +1,16 @@
 # Tamago check-in
 
-Updated November 10, 2026. **German is live: all 15 A1 units, nine topic packs and the A1 Final Check, chosen on the opening screen, from the header flag or in Settings.** Its trust-rule candidates are in _review/german-candidates.md; nothing swapped. The Spanish course is live: all 15 units, six topic packs, and language switching. Also live: **three French topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
+Updated November 10, 2026. **German is live: all 15 A1 units, nine topic packs and the A1 Final Check, chosen on the opening screen, from the header flag or in Settings.** Fable's review is applied: 15 drafts swapped, the week pair cut, 69 drafts left for the native check. The Spanish course is live: all 15 units, six topic packs, and language switching. Also live: **three French topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
 
 ## Done since last check-in
 
+- **German: Fable's results applied. The German native-speaker list is now 69 (was 86).**
+  - **15 drafts swapped** for Fable's Use candidates, under the French and Spanish rules: ids kept, Fable's English shown where named (*The women are tall*, *Tomorrow is Sunday*, *Bye and good night*…), each Tatoeba sentence used once, question-and-answer pairs untouched. Each swap is recorded as a reviewed confirm. Among them, *Ich bin ein Mann.* and *Ich bin ein Junge.* are now MUIRIEL's identical Tatoeba lines.
+  - **20 held**: 18 are halves of question-and-answer pairs whose Use candidates aren't the same sentence, and 2 (S3108, S15102) lost their only Use candidates to other drafts. The rest of the Use marks stay in _review/german-candidates.md as the reserve.
+  - **One choice of mine:** *Entschuldigung, geht es Ihnen gut?* was the first Use candidate for both S3106 *Entschuldigung!* and S3107 *Entschuldigung, bist du Tom?*. I gave it to S3107, so S3106 stays and can carry the accepted answer "Sorry!" you asked for. The swap count is the same either way.
+  - **Cut:** the week pair S13101 *Wie ist deine Woche?* and S13102 *Meine Woche ist gut.*, as you said. S13103 *Ich habe eine Woche Zeit.* carries Woche alone now. Days and Times keeps three question-and-answer pairs instead of four, since nothing else in the unit answers a question.
+  - **Accepted answers added:** "Hello! How are you?" and "Good day! How are you?" for *Guten Tag! Wie geht es Ihnen?*; "Sorry!" for *Entschuldigung!*; "I have a week's time." for *Ich habe eine Woche Zeit.*
+  - German now: 803 sentences, 734 from Tatoeba (91%), 69 drafted.
 - **German, live: 15 A1 units, 9 topic packs, the final check.** Standard German as spoken in Germany, du and Sie, after the Goethe-Institut's A1 (Start Deutsch 1), on the same framework as French and Spanish. **805 sentences: 719 from checked Tatoeba (89%), 86 drafted (11%)**, the lowest draft share of the three courses; 216 words, 166 with a Lingua Libre recording; 66 words pictured; about 29 hours to finish A1.
   - **Its own order:** Saying Hello (sein, ein and eine), People and Things (der, die, das), Polite Phrases (du and Sie, dir and Ihnen), Food and Drink (verb endings, mögen), Having Things (haben, einen), More Than One (plurals, wir, Sie), Describing Things, **Not and None** (kein, keine, keinen), Mine and Yours, Asking Questions (woher, kommen aus), Counting to Ten (es gibt), Naming Colours, Days and Times (am Montag, Uhr), Going Places (gehen, nach Hause and zu Hause), **Wanting and Can** (möchte, kann). Each has a grammar note, a conjugation table where it has a verb, its "I can" statements and four question-and-answer pairs.
   - **Drafts** fill only what checked Tatoeba can't reach with so few words (Mann, Brief, Zeitung, Ente, Maus, the plurals Bücher and Männer, fünf to zehn, Woche, spielen) and the answers of question pairs. They are on the German native-speaker list at the end of this file.
@@ -179,7 +186,7 @@ Updated November 10, 2026. **German is live: all 15 A1 units, nine topic packs a
    - Commercial emoji check: none of the files is a copy of an Apple, Google, Samsung or Microsoft emoji. The "Emoji" in some file names reads as a generation prompt, not a vendor set. The OpenAI terms assign generated images to you. If the 512 set came from a stock or emoji pack, tell me which, and I'll check its licence.
    - No icon has a face, a character or text.
 2. **Netlify (your call, no hurry).** Builds are stopped and the old site still serves Phase 5 at https://tamago-590.netlify.app. Anyone who had it installed stays on that old version; the new home is https://tamago-83f.pages.dev. Delete the Netlify site whenever you like, or keep it. A custom domain on Cloudflare (for example a subdomain of danbenner.com) is a few clicks when you want one.
-2c. **German native-speaker check:** 86 drafted German sentences, listed at the end of this file, need a native speaker of standard German before testers. Same flow: https://tamago-83f.pages.dev, choose German, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check.
+2c. **German native-speaker check:** 69 drafted German sentences, listed at the end of this file, need a native speaker of standard German before testers. Same flow: https://tamago-83f.pages.dev, choose German, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check.
 2a. **Spanish native-speaker check:** 158 drafted Spanish sentences, listed at the end of this file, need a native speaker of Latin American Spanish before testers. Same flow as French: on their phone, https://tamago-83f.pages.dev, choose Spanish, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check. Most drafts are in the first six units, where Tatoeba's checked sentences within so few words run out; from Unit 7 on, drafting is a handful per unit.
 2b. **Spanish flag (your call):** the course is Latin American Spanish and the flag is Spain's. Send another flag image whenever you like and I'll swap it in.
 3. **Native-speaker check (now 253 French sentences, listed below).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
@@ -682,18 +689,16 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (86), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (71), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
-**U01 Saying Hello** (12)
+**U01 Saying Hello** (10)
 
 - S1101 Tschüss, Tom! = Bye, Tom!
 - S1102 Tschüss, Maria! = Bye, Maria!
 - S1103 Nein, ich bin nicht Tom. = No, I'm not Tom.
 - S1104 Nein, ich bin Anna. = No, I'm Anna.
-- S1105 Ich bin ein Mann. = I am a man.
 - S1106 Du bist ein Mann. = You are a man.
 - S1107 Bist du ein Mann? = Are you a man?
-- S1108 Ich bin ein Junge. = I am a boy.
 - S1109 Bist du ein Junge? = Are you a boy?
 - S1110 Du bist ein Mädchen. = You are a girl.
 - S1111 Bist du ein Kind? = Are you a child?
@@ -710,14 +715,11 @@ Every German sentence I wrote (86), for a native speaker of German as spoken in 
 - S2107 Die Frau ist hier. = The woman is here.
 - S2108 Ist das Haus groß? = Is the house big?
 
-**U03 Polite Phrases** (7)
+**U03 Polite Phrases** (4)
 
-- S3102 Guten Tag! Wie geht es Ihnen? = Good afternoon! How are you?
-- S3103 Gute Nacht, Anna! = Good night, Anna!
 - S3104 Auf Wiedersehen, Tom! = Goodbye, Tom!
 - S3105 Danke und auf Wiedersehen! = Thank you and goodbye!
 - S3106 Entschuldigung! = Excuse me!
-- S3107 Entschuldigung, bist du Tom? = Excuse me, are you Tom?
 - S3108 Entschuldigung, ist das Tom? = Excuse me, is that Tom?
 
 **U04 Food and Drink** (5)
@@ -728,9 +730,8 @@ Every German sentence I wrote (86), for a native speaker of German as spoken in 
 - S4104 Ja, ich trinke Tee. = Yes, I drink tea. (QT09 answer)
 - S4105 Ja, ich mag Käse. = Yes, I like cheese. (QT09 answer)
 
-**U05 Pets and Animals** (7)
+**U05 Pets and Animals** (6)
 
-- S5104 Die Ente ist hier. = The duck is here.
 - S5105 Tom hat eine Ente. = Tom has a duck.
 - S5106 Ist das eine Ente? = Is that a duck?
 - S5107 Ich habe eine Maus. = I have a mouse.
@@ -738,14 +739,11 @@ Every German sentence I wrote (86), for a native speaker of German as spoken in 
 - S5109 Ja, ich habe einen Hund. = Yes, I have a dog. (QT09 answer)
 - S5110 Das Pferd ist ein Tier. = The horse is an animal.
 
-**U06 More Than One** (10)
+**U06 More Than One** (7)
 
 - S6101 Wir haben Bücher. = We have books.
-- S6102 Die Bücher sind hier. = The books are here.
-- S6103 Die Männer sind hier. = The men are here.
 - S6104 Die Männer trinken Kaffee. = The men drink coffee.
 - S6105 Die Frauen essen Brot. = The women eat bread.
-- S6106 Die Frauen sind hier. = The women are here.
 - S6107 Die Häuser sind klein. = The houses are small.
 - S6108 Sind die Häuser groß? = Are the houses big?
 - S6109 Ja, ich habe Äpfel. = Yes, I have apples. (QT09 answer)
@@ -757,29 +755,26 @@ Every German sentence I wrote (86), for a native speaker of German as spoken in 
 - S7102 Ja, es ist neu. = Yes, it is new. (QT09 answer)
 - S7103 Ja, ich bin auch neu hier. = Yes, I'm new here too. (QT09 answer)
 
-**U09 Mine and Yours** (5)
+**U09 Mine and Yours** (4)
 
 - S9101 Ja, ich mag deinen Freund. = Yes, I like your friend. (QT09 answer)
 - S9102 Ja, ich habe dein Buch. = Yes, I have your book. (QT09 answer)
 - S9103 Ja, mein Auto ist neu. = Yes, my car is new. (QT09 answer)
 - S9104 Ja, meine Kinder sind hier. = Yes, my children are here. (QT09 answer)
-- S9105 Hast du deinen Apfel? = Do you have your apple?
 
 **U10 Asking Questions** (2)
 
 - S10101 Ich komme aus Berlin. = I'm from Berlin. (QT09 answer)
 - S10102 Tom kommt aus Hamburg. = Tom is from Hamburg. (QT09 answer)
 
-**U11 Counting to Ten** (10)
+**U11 Counting to Ten** (8)
 
 - S11101 Ich habe fünf Äpfel. = I have five apples. (QT09 answer)
 - S11102 Ich habe neun Bücher. = I have nine books. (QT09 answer)
 - S11103 Tom hat fünf Katzen. = Tom has five cats. (QT09 answer)
 - S11104 Hier sind neun Kinder. = There are nine children here.
 - S11105 Sie ist neun. = She is nine.
-- S11106 Er ist sechs. = He is six.
 - S11107 Sie hat acht Bücher. = She has eight books.
-- S11108 Tom ist zehn. = Tom is ten.
 - S11109 Ich habe sieben Äpfel. = I have seven apples.
 - S11110 Ja, es gibt Milch. = Yes, there is milk. (QT09 answer)
 
@@ -788,24 +783,21 @@ Every German sentence I wrote (86), for a native speaker of German as spoken in 
 - S12101 Nein, das Pferd ist weiß. = No, the horse is white. (QT09 answer)
 - S12103 Ja, der Hund ist schwarz. = Yes, the dog is black. (QT09 answer)
 
-**U13 Days and Times** (6)
+**U13 Days and Times** (5)
 
 - S13101 Wie ist deine Woche? = How is your week?
 - S13102 Meine Woche ist gut. = My week is good. (QT09 answer)
 - S13103 Ich habe eine Woche Zeit. = I have a week.
 - S13104 Ich komme am Sonntag. = I'm coming on Sunday.
-- S13105 Ist morgen Sonntag? = Is tomorrow Sunday?
 - S13106 Nein, heute ist Samstag. = No, today is Saturday. (QT09 answer)
 
-**U14 Going Places** (3)
+**U14 Going Places** (2)
 
-- S14101 Der Park ist schön. = The park is beautiful.
 - S14102 Der Park ist hier. = The park is here. (QT09 answer)
 - S14103 Ja, ich bin zu Hause. = Yes, I'm at home. (QT09 answer)
 
-**U15 Wanting and Can** (6)
+**U15 Wanting and Can** (5)
 
-- S15101 Die Kinder spielen. = The children are playing.
 - S15102 Wir spielen heute. = We're playing today.
 - S15103 Kannst du morgen spielen? = Can you play tomorrow?
 - S15104 Ja, ich kann morgen spielen. = Yes, I can play tomorrow. (QT09 answer)

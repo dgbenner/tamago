@@ -6,24 +6,26 @@ November 10, 2026. Each sentence below fits its unit on every other rule the pul
 
 Under each unit: its drafts, each beside the candidates that could replace it: the same sentence on Tatoeba first, then up to three that teach all the draft's new words; then the unit's other fitting candidates. These haven't had my review for idioms or odd lines; they pass the rules only. Links go to Tatoeba, where the owner and any comments can be checked.
 
+**Review, November 10, 2026.** Only the candidates listed beside a draft were judged (the 3 exact matches and the rest), each for grammar, how it sounds to a German speaker, A1 fit and a true match with its English, and marked **Use** or **Reject** with a reason; the "Other candidates" lists below each unit are unreviewed. Marks are keyed to the Tatoeba sentence, so a sentence beside several drafts carries the same mark each time. Of the 60 distinct sentences beside drafts, 48 are Use and 12 are Reject; 10 Use marks name the English to show instead of Tatoeba's line. Of the 37 drafts that had a candidate, 37 now have at least one usable replacement. Nothing has been swapped.
+
 ## U01 Saying Hello
 
 12 drafts · 4 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S1101 Tschüss, Tom! = Bye, Tom! | none teaches all its new words | | |
-| S1102 Tschüss, Maria! = Bye, Maria! | none teaches all its new words | | |
-| S1103 Nein, ich bin nicht Tom. = No, I'm not Tom. | none teaches all its new words | | |
-| S1104 Nein, ich bin Anna. = No, I'm Anna. | none teaches all its new words | | |
-| S1105 Ich bin ein Mann. = I am a man. | Ich bin ein Mann. = I am a man. [#139166](https://tatoeba.org/en/sentences/show/139166) | MUIRIEL | the same sentence |
-| S1106 Du bist ein Mann. = You are a man. | none teaches all its new words | | |
-| S1107 Bist du ein Mann? = Are you a man? | none teaches all its new words | | |
-| S1108 Ich bin ein Junge. = I am a boy. | Ich bin ein Junge. = I am a boy. [#360793](https://tatoeba.org/en/sentences/show/360793) | MUIRIEL | the same sentence |
-| S1109 Bist du ein Junge? = Are you a boy? | none teaches all its new words | | |
-| S1110 Du bist ein Mädchen. = You are a girl. | none teaches all its new words | | |
-| S1111 Bist du ein Kind? = Are you a child? | none teaches all its new words | | |
-| S1112 Bist du eine Frau? = Are you a woman? | none teaches all its new words | | |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S1101 Tschüss, Tom! = Bye, Tom! | none teaches all its new words | | |  |
+| S1102 Tschüss, Maria! = Bye, Maria! | none teaches all its new words | | |  |
+| S1103 Nein, ich bin nicht Tom. = No, I'm not Tom. | none teaches all its new words | | |  |
+| S1104 Nein, ich bin Anna. = No, I'm Anna. | none teaches all its new words | | |  |
+| S1105 Ich bin ein Mann. = I am a man. | Ich bin ein Mann. = I am a man. [#139166](https://tatoeba.org/en/sentences/show/139166) | MUIRIEL | the same sentence | **Use.** Plain; matches. |
+| S1106 Du bist ein Mann. = You are a man. | none teaches all its new words | | |  |
+| S1107 Bist du ein Mann? = Are you a man? | none teaches all its new words | | |  |
+| S1108 Ich bin ein Junge. = I am a boy. | Ich bin ein Junge. = I am a boy. [#360793](https://tatoeba.org/en/sentences/show/360793) | MUIRIEL | the same sentence | **Use.** Plain; matches. |
+| S1109 Bist du ein Junge? = Are you a boy? | none teaches all its new words | | |  |
+| S1110 Du bist ein Mädchen. = You are a girl. | none teaches all its new words | | |  |
+| S1111 Bist du ein Kind? = Are you a child? | none teaches all its new words | | |  |
+| S1112 Bist du eine Frau? = Are you a woman? | none teaches all its new words | | |  |
 
 Other candidates in this unit (4):
 
@@ -36,16 +38,16 @@ Other candidates in this unit (4):
 
 8 drafts · 15 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S2101 Der Brief ist hier. = The letter is here. | none teaches all its new words | | |
-| S2102 Der Brief ist klein. = The letter is small. | none teaches all its new words | | |
-| S2103 Ist der Brief hier? = Is the letter here? | none teaches all its new words | | |
-| S2104 Die Zeitung ist hier. = The newspaper is here. | none teaches all its new words | | |
-| S2105 Die Zeitung ist groß. = The newspaper is big. | none teaches all its new words | | |
-| S2106 Ist die Zeitung hier? = Is the newspaper here? | none teaches all its new words | | |
-| S2107 Die Frau ist hier. = The woman is here. | none teaches all its new words | | |
-| S2108 Ist das Haus groß? = Is the house big? | none teaches all its new words | | |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S2101 Der Brief ist hier. = The letter is here. | none teaches all its new words | | |  |
+| S2102 Der Brief ist klein. = The letter is small. | none teaches all its new words | | |  |
+| S2103 Ist der Brief hier? = Is the letter here? | none teaches all its new words | | |  |
+| S2104 Die Zeitung ist hier. = The newspaper is here. | none teaches all its new words | | |  |
+| S2105 Die Zeitung ist groß. = The newspaper is big. | none teaches all its new words | | |  |
+| S2106 Ist die Zeitung hier? = Is the newspaper here? | none teaches all its new words | | |  |
+| S2107 Die Frau ist hier. = The woman is here. | none teaches all its new words | | |  |
+| S2108 Ist das Haus groß? = Is the house big? | none teaches all its new words | | |  |
 
 Other candidates in this unit (15):
 
@@ -69,15 +71,15 @@ Other candidates in this unit (15):
 
 7 drafts · 29 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S3102 Guten Tag! Wie geht es Ihnen? = Good afternoon! How are you? | Guten Tag! Wie geht es Ihnen? = Good day, how are you? [#441182](https://tatoeba.org/en/sentences/show/441182) | xtofu80 | the same sentence |
-| S3103 Gute Nacht, Anna! = Good night, Anna! | Tschüss und gute Nacht. = Goodbye and good night. [#11136908](https://tatoeba.org/en/sentences/show/11136908) | carlosalberto | has all its new words (gute Nacht) |
-| S3104 Auf Wiedersehen, Tom! = Goodbye, Tom! | none teaches all its new words | | |
-| S3105 Danke und auf Wiedersehen! = Thank you and goodbye! | none teaches all its new words | | |
-| S3106 Entschuldigung! = Excuse me! | Entschuldigung, geht es Ihnen gut? = Excuse me, are you well? [#11137486](https://tatoeba.org/en/sentences/show/11137486) | carlosalberto | has all its new words (Entschuldigung) |
-| S3107 Entschuldigung, bist du Tom? = Excuse me, are you Tom? | Entschuldigung, geht es Ihnen gut? = Excuse me, are you well? [#11137486](https://tatoeba.org/en/sentences/show/11137486) | carlosalberto | has all its new words (Entschuldigung) |
-| S3108 Entschuldigung, ist das Tom? = Excuse me, is that Tom? | Entschuldigung, geht es Ihnen gut? = Excuse me, are you well? [#11137486](https://tatoeba.org/en/sentences/show/11137486) | carlosalberto | has all its new words (Entschuldigung) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S3102 Guten Tag! Wie geht es Ihnen? = Good afternoon! How are you? | Guten Tag! Wie geht es Ihnen? = Good day, how are you? [#441182](https://tatoeba.org/en/sentences/show/441182) | xtofu80 | the same sentence | **Use.** Standard; English to show: "Good afternoon! How are you?" (Guten Tag serves all day). |
+| S3103 Gute Nacht, Anna! = Good night, Anna! | Tschüss und gute Nacht. = Goodbye and good night. [#11136908](https://tatoeba.org/en/sentences/show/11136908) | carlosalberto | has all its new words (gute Nacht) | **Use.** Natural; English to show: "Bye and good night." |
+| S3104 Auf Wiedersehen, Tom! = Goodbye, Tom! | none teaches all its new words | | |  |
+| S3105 Danke und auf Wiedersehen! = Thank you and goodbye! | none teaches all its new words | | |  |
+| S3106 Entschuldigung! = Excuse me! | Entschuldigung, geht es Ihnen gut? = Excuse me, are you well? [#11137486](https://tatoeba.org/en/sentences/show/11137486) | carlosalberto | has all its new words (Entschuldigung) | **Use.** Natural; English to show: "Excuse me, are you all right?" |
+| S3107 Entschuldigung, bist du Tom? = Excuse me, are you Tom? | Entschuldigung, geht es Ihnen gut? = Excuse me, are you well? [#11137486](https://tatoeba.org/en/sentences/show/11137486) | carlosalberto | has all its new words (Entschuldigung) | **Use.** Natural; English to show: "Excuse me, are you all right?" |
+| S3108 Entschuldigung, ist das Tom? = Excuse me, is that Tom? | Entschuldigung, geht es Ihnen gut? = Excuse me, are you well? [#11137486](https://tatoeba.org/en/sentences/show/11137486) | carlosalberto | has all its new words (Entschuldigung) | **Use.** Natural; English to show: "Excuse me, are you all right?" |
 
 Other candidates in this unit (27):
 
@@ -112,13 +114,13 @@ Other candidates in this unit (27):
 
 5 drafts · 19 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S4101 Das ist ein Apfel. = That is an apple. | none teaches all its new words | | |
-| S4102 Der Apfel ist klein. = The apple is small. | none teaches all its new words | | |
-| S4103 Ja, ich mag Kaffee. = Yes, I like coffee. | none teaches all its new words | | |
-| S4104 Ja, ich trinke Tee. = Yes, I drink tea. | none teaches all its new words | | |
-| S4105 Ja, ich mag Käse. = Yes, I like cheese. | none teaches all its new words | | |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S4101 Das ist ein Apfel. = That is an apple. | none teaches all its new words | | |  |
+| S4102 Der Apfel ist klein. = The apple is small. | none teaches all its new words | | |  |
+| S4103 Ja, ich mag Kaffee. = Yes, I like coffee. | none teaches all its new words | | |  |
+| S4104 Ja, ich trinke Tee. = Yes, I drink tea. | none teaches all its new words | | |  |
+| S4105 Ja, ich mag Käse. = Yes, I like cheese. | none teaches all its new words | | |  |
 
 Other candidates in this unit (19):
 
@@ -146,17 +148,17 @@ Other candidates in this unit (19):
 
 7 drafts · 20 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S5104 Die Ente ist hier. = The duck is here. | Die Ente ist ein Vogel. = The duck is a bird. [#10707340](https://tatoeba.org/en/sentences/show/10707340) | carlosalberto | has all its new words (Ente) |
-| S5105 Tom hat eine Ente. = Tom has a duck. | none teaches all its new words | | |
-| S5106 Ist das eine Ente? = Is that a duck? | Die Ente ist ein Vogel. = The duck is a bird. [#10707340](https://tatoeba.org/en/sentences/show/10707340) | carlosalberto | has all its new words (Ente) |
-| S5107 Ich habe eine Maus. = I have a mouse. | none teaches all its new words | | |
-| S5108 Die Maus ist klein. = The mouse is small. | none teaches all its new words | | |
-| S5109 Ja, ich habe einen Hund. = Yes, I have a dog. | Ich habe einen Hund. = I have a dog. [#351092](https://tatoeba.org/en/sentences/show/351092) | MUIRIEL | has all its new words (habe, einen, Hund) |
-|  | Ich habe eine Katze und einen Hund. = I have a cat and a dog. [#618954](https://tatoeba.org/en/sentences/show/618954) | MUIRIEL | has all its new words (habe, einen, Hund) |
-|  | Ich habe einen Hund und eine Katze. = I have a dog and a cat. [#1286099](https://tatoeba.org/en/sentences/show/1286099) | enteka | has all its new words (habe, einen, Hund) |
-| S5110 Das Pferd ist ein Tier. = The horse is an animal. | none teaches all its new words | | |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S5104 Die Ente ist hier. = The duck is here. | Die Ente ist ein Vogel. = The duck is a bird. [#10707340](https://tatoeba.org/en/sentences/show/10707340) | carlosalberto | has all its new words (Ente) | **Use.** Plain; matches. |
+| S5105 Tom hat eine Ente. = Tom has a duck. | none teaches all its new words | | |  |
+| S5106 Ist das eine Ente? = Is that a duck? | Die Ente ist ein Vogel. = The duck is a bird. [#10707340](https://tatoeba.org/en/sentences/show/10707340) | carlosalberto | has all its new words (Ente) | **Use.** Plain; matches. |
+| S5107 Ich habe eine Maus. = I have a mouse. | none teaches all its new words | | |  |
+| S5108 Die Maus ist klein. = The mouse is small. | none teaches all its new words | | |  |
+| S5109 Ja, ich habe einen Hund. = Yes, I have a dog. | Ich habe einen Hund. = I have a dog. [#351092](https://tatoeba.org/en/sentences/show/351092) | MUIRIEL | has all its new words (habe, einen, Hund) | **Use.** Plain; matches. |
+|  | Ich habe eine Katze und einen Hund. = I have a cat and a dog. [#618954](https://tatoeba.org/en/sentences/show/618954) | MUIRIEL | has all its new words (habe, einen, Hund) | **Use.** Plain; matches. |
+|  | Ich habe einen Hund und eine Katze. = I have a dog and a cat. [#1286099](https://tatoeba.org/en/sentences/show/1286099) | enteka | has all its new words (habe, einen, Hund) | **Use.** Plain; matches. |
+| S5110 Das Pferd ist ein Tier. = The horse is an animal. | none teaches all its new words | | |  |
 
 Other candidates in this unit (16):
 
@@ -181,24 +183,24 @@ Other candidates in this unit (16):
 
 10 drafts · 35 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S6101 Wir haben Bücher. = We have books. | none teaches all its new words | | |
-| S6102 Die Bücher sind hier. = The books are here. | Die Bücher sind klein. = The books are small. [#751101](https://tatoeba.org/en/sentences/show/751101) | User4473 | has all its new words (Bücher, sind) |
-| S6103 Die Männer sind hier. = The men are here. | Wir sind Männer. = We are men. [#383169](https://tatoeba.org/en/sentences/show/383169) | MUIRIEL | has all its new words (Männer, sind) |
-|  | Die Männer sind groß. = The men are big. [#7077727](https://tatoeba.org/en/sentences/show/7077727) | felix63 | has all its new words (Männer, sind) |
-| S6104 Die Männer trinken Kaffee. = The men drink coffee. | none teaches all its new words | | |
-| S6105 Die Frauen essen Brot. = The women eat bread. | none teaches all its new words | | |
-| S6106 Die Frauen sind hier. = The women are here. | Die Frauen sind groß. = The women are big. [#7077734](https://tatoeba.org/en/sentences/show/7077734) | felix63 | has all its new words (Frauen, sind) |
-|  | Sie sind Frauen wie wir. = They are women like us. [#11155179](https://tatoeba.org/en/sentences/show/11155179) | carlosalberto | has all its new words (Frauen, sind) |
-| S6107 Die Häuser sind klein. = The houses are small. | none teaches all its new words | | |
-| S6108 Sind die Häuser groß? = Are the houses big? | none teaches all its new words | | |
-| S6109 Ja, ich habe Äpfel. = Yes, I have apples. | Ich mag Äpfel. = I like apples. [#557212](https://tatoeba.org/en/sentences/show/557212) | MUIRIEL | has all its new words (Äpfel) |
-|  | Magst du Äpfel? = Do you like apples? [#367095](https://tatoeba.org/en/sentences/show/367095) | MUIRIEL | has all its new words (Äpfel) |
-|  | Wir essen Äpfel. = We're eating apples. [#1109875](https://tatoeba.org/en/sentences/show/1109875) | User4473 | has all its new words (Äpfel) |
-| S6110 Ja, ich mag Katzen. = Yes, I like cats. | Ich mag Katzen. = I like cats. [#352770](https://tatoeba.org/en/sentences/show/352770) | MUIRIEL | has all its new words (Katzen) |
-|  | Wir haben Katzen. = We've got cats. [#11975178](https://tatoeba.org/en/sentences/show/11975178) | shekitten | has all its new words (Katzen) |
-|  | Die Katzen trinken Milch. = The cats drink milk. [#11148219](https://tatoeba.org/en/sentences/show/11148219) | carlosalberto | has all its new words (Katzen) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S6101 Wir haben Bücher. = We have books. | none teaches all its new words | | |  |
+| S6102 Die Bücher sind hier. = The books are here. | Die Bücher sind klein. = The books are small. [#751101](https://tatoeba.org/en/sentences/show/751101) | User4473 | has all its new words (Bücher, sind) | **Use.** Plain; matches. |
+| S6103 Die Männer sind hier. = The men are here. | Wir sind Männer. = We are men. [#383169](https://tatoeba.org/en/sentences/show/383169) | MUIRIEL | has all its new words (Männer, sind) | **Use.** Plain; matches. |
+|  | Die Männer sind groß. = The men are big. [#7077727](https://tatoeba.org/en/sentences/show/7077727) | felix63 | has all its new words (Männer, sind) | **Use.** Plain; English to show: "The men are tall." (groß of people is tall). |
+| S6104 Die Männer trinken Kaffee. = The men drink coffee. | none teaches all its new words | | |  |
+| S6105 Die Frauen essen Brot. = The women eat bread. | none teaches all its new words | | |  |
+| S6106 Die Frauen sind hier. = The women are here. | Die Frauen sind groß. = The women are big. [#7077734](https://tatoeba.org/en/sentences/show/7077734) | felix63 | has all its new words (Frauen, sind) | **Use.** Plain; English to show: "The women are tall." |
+|  | Sie sind Frauen wie wir. = They are women like us. [#11155179](https://tatoeba.org/en/sentences/show/11155179) | carlosalberto | has all its new words (Frauen, sind) | **Reject.** "wie" means "like" here, not the "how" the learner knows; odd line. |
+| S6107 Die Häuser sind klein. = The houses are small. | none teaches all its new words | | |  |
+| S6108 Sind die Häuser groß? = Are the houses big? | none teaches all its new words | | |  |
+| S6109 Ja, ich habe Äpfel. = Yes, I have apples. | Ich mag Äpfel. = I like apples. [#557212](https://tatoeba.org/en/sentences/show/557212) | MUIRIEL | has all its new words (Äpfel) | **Use.** Plain; matches. |
+|  | Magst du Äpfel? = Do you like apples? [#367095](https://tatoeba.org/en/sentences/show/367095) | MUIRIEL | has all its new words (Äpfel) | **Use.** Plain; matches. |
+|  | Wir essen Äpfel. = We're eating apples. [#1109875](https://tatoeba.org/en/sentences/show/1109875) | User4473 | has all its new words (Äpfel) | **Use.** Plain; matches. |
+| S6110 Ja, ich mag Katzen. = Yes, I like cats. | Ich mag Katzen. = I like cats. [#352770](https://tatoeba.org/en/sentences/show/352770) | MUIRIEL | has all its new words (Katzen) | **Use.** Plain; matches. |
+|  | Wir haben Katzen. = We've got cats. [#11975178](https://tatoeba.org/en/sentences/show/11975178) | shekitten | has all its new words (Katzen) | **Use.** Plain; English to show: "We have cats." |
+|  | Die Katzen trinken Milch. = The cats drink milk. [#11148219](https://tatoeba.org/en/sentences/show/11148219) | carlosalberto | has all its new words (Katzen) | **Use.** Plain; matches. |
 
 Other candidates in this unit (24):
 
@@ -231,13 +233,13 @@ Other candidates in this unit (24):
 
 3 drafts · 54 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S7101 Ja, Tom ist sehr jung. = Yes, Tom is very young. | none teaches all its new words | | |
-| S7102 Ja, es ist neu. = Yes, it is new. | Bist du neu? = Are you new? [#429830](https://tatoeba.org/en/sentences/show/429830) | MUIRIEL | has all its new words (neu) |
-|  | Ist das neu? = Is that new? [#3135069](https://tatoeba.org/en/sentences/show/3135069) | dinkel_girl | has all its new words (neu) |
-|  | Bist du neu hier? = Are you new here? [#610376](https://tatoeba.org/en/sentences/show/610376) | MUIRIEL | has all its new words (neu) |
-| S7103 Ja, ich bin auch neu hier. = Yes, I'm new here too. | Bist du auch neu? = Are you new, too? [#3265410](https://tatoeba.org/en/sentences/show/3265410) | dinkel_girl | has all its new words (auch, neu) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S7101 Ja, Tom ist sehr jung. = Yes, Tom is very young. | none teaches all its new words | | |  |
+| S7102 Ja, es ist neu. = Yes, it is new. | Bist du neu? = Are you new? [#429830](https://tatoeba.org/en/sentences/show/429830) | MUIRIEL | has all its new words (neu) | **Use.** Natural; matches. |
+|  | Ist das neu? = Is that new? [#3135069](https://tatoeba.org/en/sentences/show/3135069) | dinkel_girl | has all its new words (neu) | **Use.** Plain; matches. |
+|  | Bist du neu hier? = Are you new here? [#610376](https://tatoeba.org/en/sentences/show/610376) | MUIRIEL | has all its new words (neu) | **Use.** Natural; matches. |
+| S7103 Ja, ich bin auch neu hier. = Yes, I'm new here too. | Bist du auch neu? = Are you new, too? [#3265410](https://tatoeba.org/en/sentences/show/3265410) | dinkel_girl | has all its new words (auch, neu) | **Use.** Natural; matches. |
 
 Other candidates in this unit (50):
 
@@ -305,19 +307,19 @@ Other candidates in this unit (31):
 
 5 drafts · 48 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S9101 Ja, ich mag deinen Freund. = Yes, I like your friend. | none teaches all its new words | | |
-| S9102 Ja, ich habe dein Buch. = Yes, I have your book. | Ich mag dein Auto. = I like your car. [#396229](https://tatoeba.org/en/sentences/show/396229) | xtofu80 | has all its new words (dein) |
-|  | Hier ist dein Hund. = Here is your dog. [#394558](https://tatoeba.org/en/sentences/show/394558) | xtofu80 | has all its new words (dein) |
-|  | Dein Hund ist hier. = Here is your dog. [#457382](https://tatoeba.org/en/sentences/show/457382) | xtofu80 | has all its new words (dein) |
-| S9103 Ja, mein Auto ist neu. = Yes, my car is new. | Ich mag mein Haus. = I like my house. [#782908](https://tatoeba.org/en/sentences/show/782908) | Chris | has all its new words (mein) |
-|  | Mein Auto ist neu. = My car is new. [#9118106](https://tatoeba.org/en/sentences/show/9118106) | carlosalberto | has all its new words (mein) |
-|  | Mein Buch ist neu. = My book is new. [#12404331](https://tatoeba.org/en/sentences/show/12404331) | Adelpa | has all its new words (mein) |
-| S9104 Ja, meine Kinder sind hier. = Yes, my children are here. | Meine Katze ist groß. = My cat is big. [#9582980](https://tatoeba.org/en/sentences/show/9582980) | Ahha | has all its new words (meine) |
-|  | Nein... Ich meine, ja. = No... I mean, yes. [#1445915](https://tatoeba.org/en/sentences/show/1445915) | human600 | has all its new words (meine) |
-|  | Meine Bücher sind neu. = My books are new. [#12404393](https://tatoeba.org/en/sentences/show/12404393) | Adelpa | has all its new words (meine) |
-| S9105 Hast du deinen Apfel? = Do you have your apple? | Ich mag deinen Hund. = I like your dog. [#1997785](https://tatoeba.org/en/sentences/show/1997785) | mrtaistoi | has all its new words (deinen) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S9101 Ja, ich mag deinen Freund. = Yes, I like your friend. | none teaches all its new words | | |  |
+| S9102 Ja, ich habe dein Buch. = Yes, I have your book. | Ich mag dein Auto. = I like your car. [#396229](https://tatoeba.org/en/sentences/show/396229) | xtofu80 | has all its new words (dein) | **Use.** Plain; matches. |
+|  | Hier ist dein Hund. = Here is your dog. [#394558](https://tatoeba.org/en/sentences/show/394558) | xtofu80 | has all its new words (dein) | **Use.** Plain; matches. |
+|  | Dein Hund ist hier. = Here is your dog. [#457382](https://tatoeba.org/en/sentences/show/457382) | xtofu80 | has all its new words (dein) | **Use.** Plain; English to show: "Your dog is here." |
+| S9103 Ja, mein Auto ist neu. = Yes, my car is new. | Ich mag mein Haus. = I like my house. [#782908](https://tatoeba.org/en/sentences/show/782908) | Chris | has all its new words (mein) | **Use.** Plain; matches. |
+|  | Mein Auto ist neu. = My car is new. [#9118106](https://tatoeba.org/en/sentences/show/9118106) | carlosalberto | has all its new words (mein) | **Use.** Plain; matches. |
+|  | Mein Buch ist neu. = My book is new. [#12404331](https://tatoeba.org/en/sentences/show/12404331) | Adelpa | has all its new words (mein) | **Use.** Plain; matches. |
+| S9104 Ja, meine Kinder sind hier. = Yes, my children are here. | Meine Katze ist groß. = My cat is big. [#9582980](https://tatoeba.org/en/sentences/show/9582980) | Ahha | has all its new words (meine) | **Use.** Plain; matches. |
+|  | Nein... Ich meine, ja. = No... I mean, yes. [#1445915](https://tatoeba.org/en/sentences/show/1445915) | human600 | has all its new words (meine) | **Reject.** "meine" is the verb "I mean" here, not "my"; a homograph trap with an ellipsis. |
+|  | Meine Bücher sind neu. = My books are new. [#12404393](https://tatoeba.org/en/sentences/show/12404393) | Adelpa | has all its new words (meine) | **Use.** Plain; matches. |
+| S9105 Hast du deinen Apfel? = Do you have your apple? | Ich mag deinen Hund. = I like your dog. [#1997785](https://tatoeba.org/en/sentences/show/1997785) | mrtaistoi | has all its new words (deinen) | **Use.** Plain; matches. |
 
 Other candidates in this unit (38):
 
@@ -352,10 +354,10 @@ Other candidates in this unit (38):
 
 2 drafts · 76 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S10101 Ich komme aus Berlin. = I'm from Berlin. | none teaches all its new words | | |
-| S10102 Tom kommt aus Hamburg. = Tom is from Hamburg. | none teaches all its new words | | |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S10101 Ich komme aus Berlin. = I'm from Berlin. | none teaches all its new words | | |  |
+| S10102 Tom kommt aus Hamburg. = Tom is from Hamburg. | none teaches all its new words | | |  |
 
 Other candidates in this unit (76):
 
@@ -390,24 +392,24 @@ Other candidates in this unit (76):
 
 10 drafts · 35 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S11101 Ich habe fünf Äpfel. = I have five apples. | Sie hat fünf Katzen. = She has five cats. [#11890626](https://tatoeba.org/en/sentences/show/11890626) | enebi | has all its new words (fünf) |
-|  | Ich habe fünf Katzen. = I have five cats. [#8394649](https://tatoeba.org/en/sentences/show/8394649) | Svalbard | has all its new words (fünf) |
-|  | Eins, zwei, drei, vier, fünf. = One, two, three, four, five. [#12993402](https://tatoeba.org/en/sentences/show/12993402) | XZJqz | has all its new words (fünf) |
-| S11102 Ich habe neun Bücher. = I have nine books. | none teaches all its new words | | |
-| S11103 Tom hat fünf Katzen. = Tom has five cats. | Sie hat fünf Katzen. = She has five cats. [#11890626](https://tatoeba.org/en/sentences/show/11890626) | enebi | has all its new words (fünf) |
-|  | Ich habe fünf Katzen. = I have five cats. [#8394649](https://tatoeba.org/en/sentences/show/8394649) | Svalbard | has all its new words (fünf) |
-|  | Eins, zwei, drei, vier, fünf. = One, two, three, four, five. [#12993402](https://tatoeba.org/en/sentences/show/12993402) | XZJqz | has all its new words (fünf) |
-| S11104 Hier sind neun Kinder. = There are nine children here. | none teaches all its new words | | |
-| S11105 Sie ist neun. = She is nine. | none teaches all its new words | | |
-| S11106 Er ist sechs. = He is six. | Er hat einen Hund und sechs Katzen. = He has one dog and six cats. [#356588](https://tatoeba.org/en/sentences/show/356588) | MUIRIEL | has all its new words (sechs) |
-| S11107 Sie hat acht Bücher. = She has eight books. | none teaches all its new words | | |
-| S11108 Tom ist zehn. = Tom is ten. | Sie hat zehn Kinder. = She has ten children. [#355047](https://tatoeba.org/en/sentences/show/355047) | human600 | has all its new words (zehn) |
-| S11109 Ich habe sieben Äpfel. = I have seven apples. | none teaches all its new words | | |
-| S11110 Ja, es gibt Milch. = Yes, there is milk. | Was gibt es? = What is it? [#1010844](https://tatoeba.org/en/sentences/show/1010844) | MUIRIEL | has all its new words (gibt) |
-|  | Es gibt keine. = There aren't any. [#8099067](https://tatoeba.org/en/sentences/show/8099067) | maaster | has all its new words (gibt) |
-|  | Es gibt Wasser. = There is water. [#7489258](https://tatoeba.org/en/sentences/show/7489258) | raggione | has all its new words (gibt) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S11101 Ich habe fünf Äpfel. = I have five apples. | Sie hat fünf Katzen. = She has five cats. [#11890626](https://tatoeba.org/en/sentences/show/11890626) | enebi | has all its new words (fünf) | **Use.** Plain; matches. |
+|  | Ich habe fünf Katzen. = I have five cats. [#8394649](https://tatoeba.org/en/sentences/show/8394649) | Svalbard | has all its new words (fünf) | **Use.** Plain; matches. |
+|  | Eins, zwei, drei, vier, fünf. = One, two, three, four, five. [#12993402](https://tatoeba.org/en/sentences/show/12993402) | XZJqz | has all its new words (fünf) | **Reject.** Bare counting, not a sentence. |
+| S11102 Ich habe neun Bücher. = I have nine books. | none teaches all its new words | | |  |
+| S11103 Tom hat fünf Katzen. = Tom has five cats. | Sie hat fünf Katzen. = She has five cats. [#11890626](https://tatoeba.org/en/sentences/show/11890626) | enebi | has all its new words (fünf) | **Use.** Plain; matches. |
+|  | Ich habe fünf Katzen. = I have five cats. [#8394649](https://tatoeba.org/en/sentences/show/8394649) | Svalbard | has all its new words (fünf) | **Use.** Plain; matches. |
+|  | Eins, zwei, drei, vier, fünf. = One, two, three, four, five. [#12993402](https://tatoeba.org/en/sentences/show/12993402) | XZJqz | has all its new words (fünf) | **Reject.** Bare counting, not a sentence. |
+| S11104 Hier sind neun Kinder. = There are nine children here. | none teaches all its new words | | |  |
+| S11105 Sie ist neun. = She is nine. | none teaches all its new words | | |  |
+| S11106 Er ist sechs. = He is six. | Er hat einen Hund und sechs Katzen. = He has one dog and six cats. [#356588](https://tatoeba.org/en/sentences/show/356588) | MUIRIEL | has all its new words (sechs) | **Use.** Plain; English to show: "He has a dog and six cats." |
+| S11107 Sie hat acht Bücher. = She has eight books. | none teaches all its new words | | |  |
+| S11108 Tom ist zehn. = Tom is ten. | Sie hat zehn Kinder. = She has ten children. [#355047](https://tatoeba.org/en/sentences/show/355047) | human600 | has all its new words (zehn) | **Use.** Plain; matches. |
+| S11109 Ich habe sieben Äpfel. = I have seven apples. | none teaches all its new words | | |  |
+| S11110 Ja, es gibt Milch. = Yes, there is milk. | Was gibt es? = What is it? [#1010844](https://tatoeba.org/en/sentences/show/1010844) | MUIRIEL | has all its new words (gibt) | **Reject.** Idiom ("What's up?"); not the "there is" the draft teaches. |
+|  | Es gibt keine. = There aren't any. [#8099067](https://tatoeba.org/en/sentences/show/8099067) | maaster | has all its new words (gibt) | **Reject.** Elliptical "keine" with no noun; needs context. |
+|  | Es gibt Wasser. = There is water. [#7489258](https://tatoeba.org/en/sentences/show/7489258) | raggione | has all its new words (gibt) | **Use.** Plain; matches. |
 
 Other candidates in this unit (27):
 
@@ -442,14 +444,14 @@ Other candidates in this unit (27):
 
 2 drafts · 56 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S12101 Nein, das Pferd ist weiß. = No, the horse is white. | Ich weiß. = I know. [#358382](https://tatoeba.org/en/sentences/show/358382) | MUIRIEL | has all its new words (weiß) |
-|  | Wer weiß? = Who knows? [#411759](https://tatoeba.org/en/sentences/show/411759) | jerom | has all its new words (weiß) |
-|  | Ist es weiß? = Is it white? [#1314743](https://tatoeba.org/en/sentences/show/1314743) | User4473 | has all its new words (weiß) |
-| S12103 Ja, der Hund ist schwarz. = Yes, the dog is black. | Meine ist schwarz. = Mine is black. [#6676792](https://tatoeba.org/en/sentences/show/6676792) | raggione | has all its new words (schwarz) |
-|  | Ist es nicht schwarz? = Is it not black? [#361007](https://tatoeba.org/en/sentences/show/361007) | Kerstin | has all its new words (schwarz) |
-|  | Das Pferd ist schwarz. = The horse is black. [#4083329](https://tatoeba.org/en/sentences/show/4083329) | nimfeo | has all its new words (schwarz) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S12101 Nein, das Pferd ist weiß. = No, the horse is white. | Ich weiß. = I know. [#358382](https://tatoeba.org/en/sentences/show/358382) | MUIRIEL | has all its new words (weiß) | **Reject.** weiß as "know", the standing cut. |
+|  | Wer weiß? = Who knows? [#411759](https://tatoeba.org/en/sentences/show/411759) | jerom | has all its new words (weiß) | **Reject.** weiß as "know"; idiom. |
+|  | Ist es weiß? = Is it white? [#1314743](https://tatoeba.org/en/sentences/show/1314743) | User4473 | has all its new words (weiß) | **Use.** Plain; matches. |
+| S12103 Ja, der Hund ist schwarz. = Yes, the dog is black. | Meine ist schwarz. = Mine is black. [#6676792](https://tatoeba.org/en/sentences/show/6676792) | raggione | has all its new words (schwarz) | **Reject.** Standalone "Meine" (mine) is past the unit's mein before a noun; needs context. |
+|  | Ist es nicht schwarz? = Is it not black? [#361007](https://tatoeba.org/en/sentences/show/361007) | Kerstin | has all its new words (schwarz) | **Use.** Natural; matches. |
+|  | Das Pferd ist schwarz. = The horse is black. [#4083329](https://tatoeba.org/en/sentences/show/4083329) | nimfeo | has all its new words (schwarz) | **Use.** Plain; matches. |
 
 Other candidates in this unit (50):
 
@@ -484,14 +486,14 @@ Other candidates in this unit (50):
 
 6 drafts · 48 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S13101 Wie ist deine Woche? = How is your week? | none teaches all its new words | | |
-| S13102 Meine Woche ist gut. = My week is good. | none teaches all its new words | | |
-| S13103 Ich habe eine Woche Zeit. = I have a week. | none teaches all its new words | | |
-| S13104 Ich komme am Sonntag. = I'm coming on Sunday. | none teaches all its new words | | |
-| S13105 Ist morgen Sonntag? = Is tomorrow Sunday? | Morgen ist Sonntag. = It is Sunday tomorrow. [#444549](https://tatoeba.org/en/sentences/show/444549) | Alba | has all its new words (morgen, Sonntag) |
-| S13106 Nein, heute ist Samstag. = No, today is Saturday. | Ist heute Samstag? = Is today Saturday? [#9013238](https://tatoeba.org/en/sentences/show/9013238) | Adelpa | has all its new words (heute, Samstag) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S13101 Wie ist deine Woche? = How is your week? | none teaches all its new words | | |  |
+| S13102 Meine Woche ist gut. = My week is good. | none teaches all its new words | | |  |
+| S13103 Ich habe eine Woche Zeit. = I have a week. | none teaches all its new words | | |  |
+| S13104 Ich komme am Sonntag. = I'm coming on Sunday. | none teaches all its new words | | |  |
+| S13105 Ist morgen Sonntag? = Is tomorrow Sunday? | Morgen ist Sonntag. = It is Sunday tomorrow. [#444549](https://tatoeba.org/en/sentences/show/444549) | Alba | has all its new words (morgen, Sonntag) | **Use.** Plain; English to show: "Tomorrow is Sunday." |
+| S13106 Nein, heute ist Samstag. = No, today is Saturday. | Ist heute Samstag? = Is today Saturday? [#9013238](https://tatoeba.org/en/sentences/show/9013238) | Adelpa | has all its new words (heute, Samstag) | **Use.** Plain; matches. |
 
 Other candidates in this unit (46):
 
@@ -526,13 +528,13 @@ Other candidates in this unit (46):
 
 3 drafts · 40 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S14101 Der Park ist schön. = The park is beautiful. | Wie groß ist der Park? = How big is this park? [#1432774](https://tatoeba.org/en/sentences/show/1432774) | hectorM | has all its new words (Park) |
-| S14102 Der Park ist hier. = The park is here. | Wie groß ist der Park? = How big is this park? [#1432774](https://tatoeba.org/en/sentences/show/1432774) | hectorM | has all its new words (Park) |
-| S14103 Ja, ich bin zu Hause. = Yes, I'm at home. | Wo ist zu Hause? = Where is home? [#2295828](https://tatoeba.org/en/sentences/show/2295828) | \N | has all its new words (zu Hause) |
-|  | Ich bin zu Hause. = I am at home. [#375496](https://tatoeba.org/en/sentences/show/375496) | MUIRIEL | has all its new words (zu Hause) |
-|  | Ist Tom zu Hause? = Is Tom at home? [#2262077](https://tatoeba.org/en/sentences/show/2262077) | moskbnea | has all its new words (zu Hause) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S14101 Der Park ist schön. = The park is beautiful. | Wie groß ist der Park? = How big is this park? [#1432774](https://tatoeba.org/en/sentences/show/1432774) | hectorM | has all its new words (Park) | **Use.** Natural; English to show: "How big is the park?" |
+| S14102 Der Park ist hier. = The park is here. | Wie groß ist der Park? = How big is this park? [#1432774](https://tatoeba.org/en/sentences/show/1432774) | hectorM | has all its new words (Park) | **Use.** Natural; English to show: "How big is the park?" |
+| S14103 Ja, ich bin zu Hause. = Yes, I'm at home. | Wo ist zu Hause? = Where is home? [#2295828](https://tatoeba.org/en/sentences/show/2295828) | \N | has all its new words (zu Hause) | **Reject.** Odd, philosophical line; owner account deleted. |
+|  | Ich bin zu Hause. = I am at home. [#375496](https://tatoeba.org/en/sentences/show/375496) | MUIRIEL | has all its new words (zu Hause) | **Use.** Plain; matches. |
+|  | Ist Tom zu Hause? = Is Tom at home? [#2262077](https://tatoeba.org/en/sentences/show/2262077) | moskbnea | has all its new words (zu Hause) | **Use.** Plain; matches. |
 
 Other candidates in this unit (36):
 
@@ -567,18 +569,18 @@ Other candidates in this unit (36):
 
 6 drafts · 35 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S15101 Die Kinder spielen. = The children are playing. | Tom möchte spielen. = Tom wants to play. [#2158698](https://tatoeba.org/en/sentences/show/2158698) | Lars224 | has all its new words (spielen) |
-| S15102 Wir spielen heute. = We're playing today. | Tom möchte spielen. = Tom wants to play. [#2158698](https://tatoeba.org/en/sentences/show/2158698) | Lars224 | has all its new words (spielen) |
-| S15103 Kannst du morgen spielen? = Can you play tomorrow? | none teaches all its new words | | |
-| S15104 Ja, ich kann morgen spielen. = Yes, I can play tomorrow. | none teaches all its new words | | |
-| S15105 Ja, ich möchte Tee. = Yes, I'd like tea. | Tom möchte essen. = Tom wants to eat. [#8897864](https://tatoeba.org/en/sentences/show/8897864) | mramosch | has all its new words (möchte) |
-|  | Tom möchte spielen. = Tom wants to play. [#2158698](https://tatoeba.org/en/sentences/show/2158698) | Lars224 | has all its new words (möchte) |
-|  | Wie viele möchte er? = How many does he want? [#365232](https://tatoeba.org/en/sentences/show/365232) | Wolf | has all its new words (möchte) |
-| S15106 Ja, ich kann Deutsch sprechen. = Yes, I can speak German. | Ich kann Deutsch sprechen. = I can speak German. [#6034180](https://tatoeba.org/en/sentences/show/6034180) | nina99nv | has all its new words (kann, Deutsch, sprechen) |
-|  | Ich kann kein Deutsch sprechen. = I cannot speak German. [#915664](https://tatoeba.org/en/sentences/show/915664) | Fingerhut | has all its new words (kann, Deutsch, sprechen) |
-|  | Ich kann nicht Deutsch sprechen. = I cannot speak German. [#426471](https://tatoeba.org/en/sentences/show/426471) | jerom | has all its new words (kann, Deutsch, sprechen) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S15101 Die Kinder spielen. = The children are playing. | Tom möchte spielen. = Tom wants to play. [#2158698](https://tatoeba.org/en/sentences/show/2158698) | Lars224 | has all its new words (spielen) | **Use.** Plain; matches. |
+| S15102 Wir spielen heute. = We're playing today. | Tom möchte spielen. = Tom wants to play. [#2158698](https://tatoeba.org/en/sentences/show/2158698) | Lars224 | has all its new words (spielen) | **Use.** Plain; matches. |
+| S15103 Kannst du morgen spielen? = Can you play tomorrow? | none teaches all its new words | | |  |
+| S15104 Ja, ich kann morgen spielen. = Yes, I can play tomorrow. | none teaches all its new words | | |  |
+| S15105 Ja, ich möchte Tee. = Yes, I'd like tea. | Tom möchte essen. = Tom wants to eat. [#8897864](https://tatoeba.org/en/sentences/show/8897864) | mramosch | has all its new words (möchte) | **Use.** Plain; matches. |
+|  | Tom möchte spielen. = Tom wants to play. [#2158698](https://tatoeba.org/en/sentences/show/2158698) | Lars224 | has all its new words (möchte) | **Use.** Plain; matches. |
+|  | Wie viele möchte er? = How many does he want? [#365232](https://tatoeba.org/en/sentences/show/365232) | Wolf | has all its new words (möchte) | **Reject.** Elliptical question that needs context. |
+| S15106 Ja, ich kann Deutsch sprechen. = Yes, I can speak German. | Ich kann Deutsch sprechen. = I can speak German. [#6034180](https://tatoeba.org/en/sentences/show/6034180) | nina99nv | has all its new words (kann, Deutsch, sprechen) | **Use.** Plain; matches. |
+|  | Ich kann kein Deutsch sprechen. = I cannot speak German. [#915664](https://tatoeba.org/en/sentences/show/915664) | Fingerhut | has all its new words (kann, Deutsch, sprechen) | **Reject.** Mixed form; natives say "Ich kann kein Deutsch" or "Ich spreche kein Deutsch". |
+|  | Ich kann nicht Deutsch sprechen. = I cannot speak German. [#426471](https://tatoeba.org/en/sentences/show/426471) | jerom | has all its new words (kann, Deutsch, sprechen) | **Reject.** "nicht Deutsch sprechen" is unidiomatic; the natural line is "Ich kann kein Deutsch". |
 
 Other candidates in this unit (29):
 
