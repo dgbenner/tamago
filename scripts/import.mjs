@@ -52,6 +52,12 @@ if (existsSync(IMAGES)) {
   const img = JSON.parse(readFileSync(IMAGES, 'utf8'))
   for (const w of tables.words) if (!w.image_file && img.words[w.word_id]) w.image_file = `openmoji/${img.words[w.word_id]}.svg`
 }
+// Dan's own pictures (content/pictures.json, from Picture Check) take the place of OpenMoji and picture more words.
+const PICTURES = join(ROOT, 'content/pictures.json')
+if (existsSync(PICTURES)) {
+  const pics = JSON.parse(readFileSync(PICTURES, 'utf8')).words
+  for (const w of tables.words) if (pics[w.word_id]) w.image_file = pics[w.word_id]
+}
 
 // can_do statements checked against the CEFR A1 grid (content/cefr_a1.json), until the workbook carries it.
 const CEFR = join(ROOT, 'content/cefr_a1.json')

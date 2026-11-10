@@ -40,7 +40,7 @@ function PictureCheck() {
       {!data ? <p>Loading…</p> : (
         <>
           <p className="mb-4 text-sm text-muted">
-            {data.images} pictures against the {data.rows} rows of image-list.md, {data.made}. {Object.entries(data.counts).map(([k, n]) => `${k} ${n}`).join(' · ')}. None is used in lessons yet.
+            {data.images} pictures against the {data.rows} rows of image-list.md, {data.made}. {Object.entries(data.counts).map(([k, n]) => `${k} ${n}`).join(' · ')}. {data.cards.filter((c) => c.decision === 'use').length} are in lessons (your picks); the rest are alternates or on hold.
             Matched: the file is named as its row. Guessed: Claude's guess from the picture. No Match: no row fits. Missing: a row with no picture yet.
           </p>
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -54,6 +54,7 @@ function PictureCheck() {
                   <span className="rounded-full border-2 border-line px-2 text-sm text-muted">{c.status}</span>
                 </p>
                 <p className="-mt-1 text-muted">{c.english}</p>
+                {c.decision && <p className="text-sm">{c.decision === 'use' ? 'In lessons.' : `${c.decision[0].toUpperCase()}${c.decision.slice(1)}.`}</p>}
                 {c.note && <p className="text-sm text-muted">{c.note}</p>}
                 {c.source && <p className="text-xs break-all text-muted">{c.source}</p>}
               </li>

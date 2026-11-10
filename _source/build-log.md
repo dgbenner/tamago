@@ -451,3 +451,9 @@ Part 3, Lingua Libre recordings:
 - Developer page: Picture Check accordion after Course Snapshot, a grid of cards (picture, French, English, status,
   note, source file), Missing rows as dashed boxes with what to draw. axe clean at 1440 light and 390 dark.
 - Lessons untouched: no image_file changed.
+- Dan's decisions after Picture Check: rabbit animaux, one-tree parc, either turtle, enfant and enfants on hold,
+  doctor and garçons noted as more stylised (kept), the rest go ahead. Glass of water chosen for eau (the list's
+  description). decision field in picture-check.json; scripts/picture-check.mjs now also writes
+  public/images/pictures/<row>.webp (384 px, precached) and content/pictures.json, which import.mjs prefers over
+  OpenMoji. 33 pictures for 36 words; 49 words pictured in all. Checked in Chrome: Pick the Picture in Units 1, 2
+  and 5 loads them.

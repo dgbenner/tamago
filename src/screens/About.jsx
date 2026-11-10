@@ -34,8 +34,9 @@ export default function About({ content, onBack }) {
 
       <section className="flex flex-col gap-2">
         <h2 className="font-semibold">Pictures</h2>
+        {content.words.some((w) => String(w.image_file).startsWith('pictures/')) && <p>Most pictures for word to image were made for Tamago.</p>}
         {content.image_set.map((set) => (
-          <p key={set.name}>Pictures for word to image are <A href={set.url}>{set.name}</A> {set.version}, licensed under <A href={set.license_url}>{set.license}</A>.</p>
+          <p key={set.name}>The others are <A href={set.url}>{set.name}</A> {set.version}, licensed under <A href={set.license_url}>{set.license}</A>.</p>
         ))}
         <p>Verb tables in the grammar notes come from Wiktionary, under the same license as the words.</p>
       </section>

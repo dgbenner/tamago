@@ -39,7 +39,7 @@ test('word to image: pictured words met, the answer among the choices, V0202 has
     for (const q of buildLesson(c, { round: 1, known: allKnown, rng: seeded(seed) }).queue.filter((x) => x.type === 'QT02')) {
       assert.ok(q.choices.some((x) => x.word_id === q.answer))
       assert.equal(q.choices.length, q.variant === 'V0202' ? 4 : 3)
-      assert.ok(q.choices.every((x) => x.image.endsWith('.svg')))
+      assert.ok(q.choices.every((x) => /\.(svg|webp)$/.test(x.image)))
       assert.equal(new Set(q.choices.map((x) => x.word_id)).size, q.choices.length)
     }
   }
