@@ -537,5 +537,5 @@ Part 3, Lingua Libre recordings:
 
 ## 2026-11-10: Spanish drafts swapped (Fable's review)
 
-- scripts/apply-spanish-candidates.mjs: 62 drafts had a Use candidate; 31 swapped (first Use candidate still free; a QT09-pair draft only for the same sentence), 31 held (25 pair halves, 6 whose candidates went to other drafts). Swaps keep ids, take Fable's English picks, and are recorded as confirm decisions with their text. Spanish drafts 158 to 127; every word still in 3 or more.
+- scripts/apply-spanish-candidates.mjs: 62 drafts had a Use candidate; 31 swapped (first Use candidate still free; a QT09-pair draft only for the same sentence), 31 held (24 pair halves, 7 whose candidates went to other drafts). Swaps keep ids, take Fable's English picks, and are recorded as confirm decisions with their text. Spanish drafts 158 to 127; every word still in 3 or more.
 - enfant and enfants pictures approved by Dan; French 76 words and Spanish 58 now use his art.
