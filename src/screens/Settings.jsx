@@ -78,7 +78,7 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
       </Section>
 
       <Section title="Goals">
-        <Segmented label="Points and Streaks" help="Off hides the points, the streak and the weekly goal." value={settings.points_and_streaks}
+        <Segmented label="Streaks" help="Off hides the streak and the weekly goal." value={settings.points_and_streaks}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ points_and_streaks: v })} />
         <Item title="Weekly Goal" help="Days a week you mean to practise. No reminders, and nothing changes if you miss one.">
           <select aria-label="Weekly Goal" value={settings.weekly_goal} onChange={(e) => onChange({ weekly_goal: e.target.value })}

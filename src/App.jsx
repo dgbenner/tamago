@@ -663,7 +663,10 @@ export default function App() {
   for (let d = new Date(days.has(today()) ? Date.now() : Date.now() - 864e5); days.has(d.toLocaleDateString('en-CA')); d = new Date(d.getTime() - 864e5)) streak++
   const thisWeek = activeDays.filter((d) => d >= weekStart()).length
   const goal = settings.weekly_goal === 'none' ? null : Number(settings.weekly_goal)
-  const showPoints = settings.points_and_streaks !== 'off'
+  // Points are never shown (Dan, 2026-11-10): they're still earned, counted and stored (points table) as before.
+  // The setting now governs only the streak and the weekly goal.
+  const showPoints = false
+  const showStreaks = settings.points_and_streaks !== 'off'
 
   // Screens that open in the right-hand panel on wide screens, and as full pages on a phone.
   const panelScreens = {
@@ -789,7 +792,7 @@ export default function App() {
   ] : []
   return (
     <Home rows={rows} markers={markers} levelLabel={levelLabel} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints} logoState={logoState}
-      streakLine={showPoints ? [streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ') : ''}
+      streakLine={showStreaks ? [streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ') : ''}
       onProgress={() => setScreen('progress')}
       tools={[
         { id: 'glossary', screen: 'words', label: 'Glossary', about: 'Every word you\'ve met, how well you know it, and what it means.', onOpen: () => setScreen('words') },

@@ -401,3 +401,11 @@ Part 3, Lingua Libre recordings:
 - Skipped: Cinema (45 candidates, about 20 on the topic after review) and every topic under 30 candidates even with
   all of A1 (check-in.md lists them). Workbook v21 folds both packs in (workbook-sync); rebuilding from v21 gives
   the same content apart from bookkeeping fields and 52 generated en_to_fr answers for the new rows.
+
+## 2026-11-10: Points hidden; picture list
+
+- Points (Dan): never shown. App.jsx `showPoints` is false; points are still earned, counted and stored (points table).
+  The Points and Streaks setting is labelled Streaks and governs only the streak line and weekly goal. Checked at
+  390 and 1440 px: no points on screen, no errors.
+- _source/image-list.md: every picturable A1 word without a picture in the sushi style (97 rows, 92 files), by
+  live sentence count, with a reusable prompt; drop folder _source/pictures/.
