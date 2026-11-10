@@ -530,3 +530,7 @@ Part 3, Lingua Libre recordings:
 ## 2026-11-10: Pictures, second batch
 
 - 40 files from Desktop/more images copied to _source/pictures/incoming-2026-11-10b; mapped in picture-check.json (decision use); image-list ES map gains famille, bébé, hommes, sucre, thé, chocolat, chanteur. French 74 words with Dan's pictures, Spanish 56; 26 rows left.
+
+## 2026-11-10: Spanish trust-rule candidates
+
+- scripts/spanish-candidates.mjs: the pull's filters with the trust test reversed (untrusted only), quoted dialogue and turned-down ids left out; pairs each draft with the same text or candidates holding all its new words (up to three). _review/spanish-candidates.md: 472 candidates, 13 drafts with the same text, 69 drafts covered. Nothing swapped.
