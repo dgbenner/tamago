@@ -51,7 +51,7 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
   const [explaining, setExplaining] = useState(null)
   useEffect(() => { explainReady().then(setExplaining) }, [])
   return (
-    <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
+    <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 lg:max-w-4xl px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="relative flex justify-center">
         <button onClick={onBack} aria-label="Back" className="icon-btn absolute top-0 left-0 -ml-2"><IconBack /></button>
         <Logo />

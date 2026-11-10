@@ -291,3 +291,14 @@ Notes saved to _source/test-notes.md. Decisions at their top settle the open cho
 - Settings in sections: Lessons, Sound and Look, Goals, Your Learning, Testing (For Dan). Title Case across screens.
 - Phone: root font 17px. Audio: Lingua Libre recordings levelled to -16 LUFS on every content build (cached originals in .cache/recordings; short clips need exact gain plus a limiter, since loudnorm can't adapt under 3 s); native-check recordings get the same on import. Spread before: -26.6 to -18.2 LUFS; after: -17.4 to -16.0.
 - Checked: 53 unit tests; Chrome and Firefox at phone size: intro, Can't Listen Now swap and setting, a lesson to the end, placement, level markers, Practice; no page errors.
+
+## Dan's test notes, Pass 2: desktop and iPad (2026-11-09)
+
+- One breakpoint, 1024px: desktop and iPad in landscape. Phones turned sideways (up to about 932px) keep the phone layout.
+- Header: sushi plus wordmark on the left, points and settings on the right, tighter strip.
+- Home in two columns: the path (with its pinned Practice and Next Lesson, side by side) and a sticky right-hand panel. The panel lists Glossary, Verbs, Self-Study and Progress with a line each; a tool opens inside the panel (App's panelScreens render the same screen components; .panel-screen strips their page frame) and Back returns to the list. The path keeps its scroll position while panel screens change.
+- Unit, checkpoint and Practice details: centred pop-ups (the phone keeps the bottom sheet).
+- Lessons: wider column, bigger headings, choices and chips, more space between parts. Root font 17px on wide screens too.
+- Settings: the sections in two columns.
+- iPad landscape only: a touch screen 744px or wider held in portrait shows "Turn your iPad sideways". The manifest's orientation can't be set per device, so this is in the page.
+- Checked in Chrome and Firefox: desktop 1440x900 (panel opens Glossary in place, Back, pop-up centred, buttons side by side, lesson, settings), iPad 1180x820 landscape (two columns, no note), 820x1180 portrait (note), phone landscape 844x390 (phone layout, no note); the Pass 1 phone flow again; 53 unit tests. No page errors.

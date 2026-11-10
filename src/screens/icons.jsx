@@ -20,3 +20,4 @@ export const IconCheckered = () => (
 export const IconBook = () => <svg {...svg}><path d="M4 4.5A1.5 1.5 0 0 1 5.5 3H20v15.5H5.5A1.5 1.5 0 0 0 4 20z" /><path d="M4 20a1.5 1.5 0 0 0 1.5 1.5H20" /><path d="M8 7.5h8M8 11h5" /></svg>
 export const IconVerb = () => <svg {...svg}><path d="M3 18 7.5 6 12 18M4.6 14h5.8" /><path d="M14 9h7M14 13h7M14 17h5" /></svg>
 export const IconStudy = () => <svg {...svg}><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg>
+export const IconBars = () => <svg {...svg}><path d="M4 20V12M10 20V6M16 20v-9M22 20H2" /></svg>

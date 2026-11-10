@@ -124,7 +124,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
   const props = { q, content, settings, cantListen, result, onAnswer: answer, newWords, hideFrench, onHint: (seg) => onHint(q, seg), onTyping: setTyping }
 
   return (
-    <main className="mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-[max(0.75rem,env(safe-area-inset-top))]">
+    <main className="lesson mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-[max(0.75rem,env(safe-area-inset-top))] lg:max-w-2xl">
       <header className="sticky top-0 z-10 -mx-4 flex items-center gap-3 bg-bg px-4 pb-2">
         <button onClick={onExit} aria-label="Leave lesson" className="icon-btn -ml-2"><IconClose /></button>
         <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-line" role="progressbar" aria-valuenow={Math.round(barMax.current * 100)} aria-valuemin={0} aria-valuemax={100}>
@@ -551,7 +551,7 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const fallback = q.speaking ? 'Done.' : good ? 'Nice.' : 'Not quite.'
   return (
     <section aria-live="polite" data-outcome={good ? 'correct' : 'incorrect'} className={`fixed inset-x-0 bottom-0 z-20 border-t-2 bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${good ? 'border-right' : 'border-wrong'}`}>
-      <div className="mx-auto flex max-w-md flex-col gap-3 px-4 pt-4">
+      <div className="mx-auto flex max-w-md flex-col gap-3 px-4 pt-4 lg:max-w-2xl">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
             <p className={`relative font-semibold ${good ? 'text-right-ink' : 'text-wrong'}`}>

@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { LogoInline } from './Logo.jsx'
-import { IconBook, IconCheckered, IconClose, IconGear, IconLock, IconStudy, IconVerb } from './icons.jsx'
+import { LogoInline, SushiMark } from './Logo.jsx'
+import { IconBars, IconBook, IconCheckered, IconClose, IconGear, IconLock, IconStudy, IconVerb } from './icons.jsx'
 
 // Rounds as a ring of five segments around the unit circle, filling as rounds finish (Dan's test notes). Strength
 // (FSRS, 0 to 4 bars) is folded in: the finished segments fade as the unit's recall drops.
@@ -150,17 +150,39 @@ function Marker({ label }) {
   )
 }
 
-const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy }
-// The secondary menu: tools beside the path, as a sideways strip of tiles, out of the tree.
+const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars }
+// The secondary menu: tools beside the path, as a sideways strip of tiles, out of the tree. (Progress has its own
+// quiet button on a phone; on a wide screen it joins the panel's list.)
 function Tools({ tools }) {
   return (
-    <nav aria-label="Tools" className="no-scrollbar -mx-4 flex snap-x gap-2 overflow-x-auto px-4">
-      {tools.map((t) => {
+    <nav aria-label="Tools" className="no-scrollbar -mx-4 flex snap-x gap-2 overflow-x-auto px-4 lg:hidden">
+      {tools.filter((t) => t.id !== 'progress').map((t) => {
         const Icon = TOOL_ICONS[t.id]
         return (
           <button key={t.id} onClick={t.onOpen} className="flex w-24 shrink-0 snap-start flex-col items-center gap-1 rounded-xl border-2 border-line bg-surface px-2 py-2.5 text-sm font-medium">
             <span className="[&_svg]:size-7"><Icon /></span>
             {t.label}
+          </button>
+        )
+      })}
+    </nav>
+  )
+}
+
+// The right-hand panel on a wide screen: each tool with a line on what it's for; a tool opens here, in place.
+function ToolMenu({ tools }) {
+  return (
+    <nav aria-label="Tools" className="flex flex-col gap-2">
+      <h2 className="mb-1 text-lg font-semibold">Tools</h2>
+      {tools.map((t) => {
+        const Icon = TOOL_ICONS[t.id]
+        return (
+          <button key={t.id} onClick={t.onOpen} className="flex items-start gap-3 rounded-xl border-2 border-line bg-surface p-3 text-left hover:border-muted">
+            <span className="mt-0.5 shrink-0 [&_svg]:size-6"><Icon /></span>
+            <span className="flex flex-col gap-0.5">
+              <span className="font-semibold">{t.label}</span>
+              <span className="text-sm text-muted">{t.about}</span>
+            </span>
           </button>
         )
       })}
@@ -177,26 +199,32 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ rows, markers, levelLabel, pointsToday, pointsTotal, showPoints, streakLine, logoState, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
+export default function Home({ wide, panel, rows, markers, levelLabel, pointsToday, pointsTotal, showPoints, streakLine, logoState, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
   practice, onPractice, nextLabel, onNext, inProgress, lastLine, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
   return (
-    <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-4 px-4">
-      {/* Pinned, and short: points, the wordmark, settings. */}
-      <header className="bar-top -mx-4 flex items-center justify-between px-4 pt-[max(0.25rem,env(safe-area-inset-top))] pb-1">
-        <span className="flex w-20 justify-start">{showPoints && <Points total={pointsTotal} today={pointsToday} />}</span>
-        <LogoInline className={logoState === 'wait' ? 'logo-wait' : logoState === 'arrive' ? 'logo-arrive' : ''} />
-        <span className="flex w-20 justify-end"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
+    <main className="home">
+      {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
+          the utilities right, like a desktop site. */}
+      <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(0.25rem,env(safe-area-inset-top))] pb-1 lg:mx-0 lg:px-0 lg:py-1.5">
+        <span className="flex w-20 justify-start lg:order-2 lg:w-auto lg:justify-end">{showPoints && <Points total={pointsTotal} today={pointsToday} />}</span>
+        <span className={`flex items-center gap-2 lg:order-1 lg:mr-auto ${logoState === 'wait' ? 'logo-wait' : logoState === 'arrive' ? 'logo-arrive' : ''}`}>
+          <SushiMark className="hidden w-11 lg:block" />
+          <LogoInline />
+        </span>
+        <span className="flex w-20 justify-end lg:order-3 lg:w-auto"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
       </header>
+
+      <div className="home-path">
 
       <Tools tools={tools} />
 
       {/* Where you are, quietly: the level in italics, and Progress as a low-emphasis button. */}
       <div className="flex items-center justify-between gap-3">
         <p className="text-sm text-muted"><span className="italic">{levelLabel}</span>{streakLine && <span> · {streakLine}</span>}</p>
-        <button onClick={onProgress} className="btn-tertiary -mr-2">Progress</button>
+        <button onClick={onProgress} className="btn-tertiary -mr-2 lg:hidden">Progress</button>
       </div>
 
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
@@ -226,6 +254,18 @@ export default function Home({ rows, markers, levelLabel, pointsToday, pointsTot
           <button onClick={onNext} className="btn-submit truncate">{nextLabel}</button>
         </div>
       </div>
+
+      </div>
+
+      {wide && (
+        <aside className="home-panel" aria-label={panel ? undefined : 'Tools'}>
+          {panel
+            ? <div className="panel-screen">
+                {panel}
+              </div>
+            : <ToolMenu tools={tools} />}
+        </aside>
+      )}
 
       {picked && (
         <UnitCard node={picked} inProgress={inProgress && !picked.current}

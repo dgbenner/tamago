@@ -39,10 +39,25 @@ const DEFAULT_SETTINGS = {
 // Monday-start week, for the weekly goal.
 const weekStart = (d = new Date()) => { const x = new Date(d); x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); return x.toLocaleDateString('en-CA') }
 
+// Desktop and iPad in landscape (Dan's test notes, Pass 2): from 1024px the home becomes two columns, with the tools in a
+// right-hand panel. Phones never reach it, even turned sideways.
+const WIDE = '(min-width: 1024px)'
+function useWide() {
+  const [wide, setWide] = useState(() => window.matchMedia(WIDE).matches)
+  useEffect(() => {
+    const m = window.matchMedia(WIDE)
+    const on = () => setWide(m.matches)
+    m.addEventListener('change', on)
+    return () => m.removeEventListener('change', on)
+  }, [])
+  return wide
+}
+
 const paused = (until) => until === 'always' || (typeof until === 'number' && until > Date.now())
 
 export default function App() {
   const [ready, setReady] = useState(false)
+  const wide = useWide()
   const [screen, setScreen] = useState('home')
   const [settings, setSettings] = useState(DEFAULT_SETTINGS)
   const [bank, setBank] = useState([])
@@ -121,7 +136,13 @@ export default function App() {
   }, [settings.theme])
 
   // The page itself never scrolls (see index.css); #root does.
-  useEffect(() => { document.getElementById('root')?.scrollTo(0, 0) }, [screen])
+  // On a wide screen the panel's screens open beside the path, so the path keeps its place.
+  const PANEL = ['home', 'words', 'verbs', 'progress', 'make']
+  const lastScreen = useRef(screen)
+  useEffect(() => {
+    if (!(wide && PANEL.includes(screen) && PANEL.includes(lastScreen.current))) document.getElementById('root')?.scrollTo(0, 0)
+    lastScreen.current = screen
+  }, [screen])
 
   const changeSettings = (patch) => {
     const next = { ...settings, ...patch }
@@ -571,22 +592,34 @@ export default function App() {
   const goal = settings.weekly_goal === 'none' ? null : Number(settings.weekly_goal)
   const showPoints = settings.points_and_streaks !== 'off'
 
-  if (screen === 'words') {
+  // Screens that open in the right-hand panel on wide screens, and as full pages on a phone.
+  const panelScreens = {
+    words: () => {
     return <Words words={metWords()} units={[...tables.units].sort((a, b) => a.order - b.order)} recallOf={recallOf} examplesOf={examplesOf} tableOf={tableOf}
       onMatch={startMatch} onFlashcards={startFlashcards} onBack={() => setScreen('home')} />
-  }
-  if (screen === 'flashcards' && flash) return <Flashcards cards={flash.cards} aloud={flash.aloud} onGrade={gradeCard} onDone={() => { markActive(); const back = flash.back ?? 'words'; setFlash(null); setScreen(back) }} />
-  if (screen === 'verbs') {
+  },
+    verbs: () => {
     const lemmas = new Set(metWords().filter((w) => w.part_of_speech === 'Verb').map((w) => w.lemma))
     return <Verbs tables={tables.conjugations.filter((t) => lemmas.has(t.lemma))} strict={settings.answer_strictness === 'strict'} onBack={() => setScreen('home')} />
+  },
+    progress: () => {
+    return <Progress scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
+      onCheck={startCheck} onBack={() => setScreen('home')} />
+  },
+    make: () => {
+    const graded = ['reading', 'listening', 'writing']
+    const canWeak = weakest(openUnits.flatMap(itemsOf), cards, 1).length > 0
+    const weakSkill = canWeak ? graded.reduce((lo, s) => (scores[s].score < scores[lo].score ? s : lo), graded[0]) : null
+    return <Make weakSkill={weakSkill ? weakSkill[0].toUpperCase() + weakSkill.slice(1) : null} weekCount={weekIds.length} metCount={metWords().length} listMatch={listMatch}
+      onWeak={() => startWeakSkill(weakSkill)} onWeek={startWeek} onList={(words) => startFlashcards(false, words, 'make')}
+      onSentences={startGenerated} onListening={startListening} status={makeStatus} onBack={() => setScreen('home')} />
+  },
   }
+  if (panelScreens[screen] && !wide) return panelScreens[screen]()
+  if (screen === 'flashcards' && flash) return <Flashcards cards={flash.cards} aloud={flash.aloud} onGrade={gradeCard} onDone={() => { markActive(); const back = flash.back ?? 'words'; setFlash(null); setScreen(back) }} />
   if (screen === 'variants') {
     return <VariantBank types={tables.question_types.filter((t) => tables.variants.some((v) => v.type_id === t.type_id))} variants={tables.variants.map((v) => ({ ...v }))}
       onChange={changeVariant} onBack={() => setScreen('settings')} />
-  }
-  if (screen === 'progress') {
-    return <Progress scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
-      onCheck={startCheck} onBack={() => setScreen('home')} />
   }
   if (screen === 'settings') {
     return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPlacement={startPlacement} onVariants={() => setScreen('variants')}
@@ -607,14 +640,6 @@ export default function App() {
     }} />
   }
   if (screen === 'forum') return <Forum onBack={() => setScreen('settings')} />
-  if (screen === 'make') {
-    const graded = ['reading', 'listening', 'writing']
-    const canWeak = weakest(openUnits.flatMap(itemsOf), cards, 1).length > 0
-    const weakSkill = canWeak ? graded.reduce((lo, s) => (scores[s].score < scores[lo].score ? s : lo), graded[0]) : null
-    return <Make weakSkill={weakSkill ? weakSkill[0].toUpperCase() + weakSkill.slice(1) : null} weekCount={weekIds.length} metCount={metWords().length} listMatch={listMatch}
-      onWeak={() => startWeakSkill(weakSkill)} onWeek={startWeek} onList={(words) => startFlashcards(false, words, 'make')}
-      onSentences={startGenerated} onListening={startListening} status={makeStatus} onBack={() => setScreen('home')} />
-  }
   if (screen === 'listening' && passage) return <Listening passage={passage} onDone={() => { markActive(); setPassage(null); setScreen('make') }} onBack={() => { setPassage(null); setScreen('make') }} />
   if (screen === 'about') return <About content={allContent} onBack={() => setScreen('settings')} />
   if (screen === 'note' && note) {
@@ -657,10 +682,12 @@ export default function App() {
       streakLine={showPoints ? [streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ') : ''}
       onProgress={() => setScreen('progress')}
       tools={[
-        { id: 'glossary', label: 'Glossary', onOpen: () => setScreen('words') },
-        { id: 'verbs', label: 'Verbs', onOpen: () => setScreen('verbs') },
-        { id: 'study', label: 'Self-Study', onOpen: openMakeScreen },
+        { id: 'glossary', screen: 'words', label: 'Glossary', about: 'Every word you\'ve met, how well you know it, and what it means.', onOpen: () => setScreen('words') },
+        { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Present-tense tables for the verbs you\'ve met, with a quick drill.', onOpen: () => setScreen('verbs') },
+        { id: 'study', screen: 'make', label: 'Self-Study', about: 'Your weakest skill, this week\'s sentences, flashcards from your own list, and practice written by Claude.', onOpen: openMakeScreen },
+        { id: 'progress', screen: 'progress', label: 'Progress', about: 'Your four skill scores, and the I Can checks for each unit.', onOpen: () => setScreen('progress') },
       ]}
+      wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
       onCheckpoint={startCheckpoint}
       onSkipCheckpoint={(row) => setCheckpointsSkipped((m) => { const n = { ...m, [row]: today() }; putKv('checkpoints_skipped', n); return n })}
@@ -678,6 +705,11 @@ export default function App() {
   return (
     <>
       {view()}
+      <div className="turn-note" role="alert">
+        <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2" /><path d="M2 14a8 8 0 0 0 8 8M22 10A8 8 0 0 0 14 2" /></svg>
+        <p className="text-xl font-semibold">Turn your iPad sideways</p>
+        <p className="text-muted">Tamago on iPad works in landscape.</p>
+      </div>
       {splash && <Splash onDone={() => setSplash(false)} onFade={() => setLogoState((v) => (v === 'wait' ? 'arrive' : v))} />}
     </>
   )

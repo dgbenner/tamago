@@ -1,9 +1,10 @@
 # Tamago check-in
 
-Updated November 9, 2026, late. Working through your test notes (_source/test-notes.md) in three passes. **Pass 1 (all devices) is live** at https://tamago-83f.pages.dev; Pass 2 (desktop and iPad) and Pass 3 (Glossary) follow.
+Updated November 9, 2026, late. Working through your test notes (_source/test-notes.md) in three passes. **Passes 1 (all devices) and 2 (desktop and iPad) are live** at https://tamago-83f.pages.dev; Pass 3 (Glossary) follows.
 
 ## Done since last check-in
 
+- **Test notes, Pass 2 (desktop and iPad in landscape):** the logo with its sushi sits left and points and settings right, in a shorter strip. Home uses the width: the path on the left, and a right-hand panel listing Glossary, Verbs, Self-Study and Progress with a line on each; a tool opens in the panel, beside the path. Unit and checkpoint details open as centred pop-ups. Practice and Next Lesson sit side by side. Lessons have bigger items and more room; Settings are in two columns. An iPad held upright asks to be turned sideways.
 - **Test notes, Pass 1 (all devices):**
   - Opening screen more fluid (one eased curve per letter, a little faster, held a little longer); it fades fast while the header logo rises into place. The logo no longer jumps: the sushi is a small preloaded image with its space reserved.
   - Home: short pinned header and footer, each with a thin line; points in one style at every value, zero included; Glossary, Verbs and Self-Study as a sideways strip of tiles above the tree; the level in italics with Progress as a quiet button; "Starting Out" until you finish round 1 of a unit, then level markers across the tree (Very Early A1, Early A1, High A1, A2).
@@ -32,6 +33,7 @@ Updated November 9, 2026, late. Working through your test notes (_source/test-no
 
 ## Decisions made
 
+- **Test notes, Pass 2:** desktop and iPad share one layout from 1024px wide, so a phone turned sideways keeps the phone layout. Unit details open as a centred pop-up (your notes), while the tools open in the right-hand panel (your decision on the secondary menu).
 - **Test notes:** Practice with nothing to bring back yet says so and offers the next lesson, rather than going gray. Skip on a checkpoint just marks it skipped; checkpoints never lock anything, so it can still be taken. "Finishing your first unit" for the level label means finishing its round 1 (that's when the next units open). Level markers sit where finishing the units above reaches the next band; the band itself follows your weakest skill, as on the Progress page.
 - **Cuts:** 41 pulled sentences, for idioms ("un vieux de la vieille", "Ça va bien maintenant !"), misleading senses ("ma petite amie" glossed as "my little friend", "C'est neuf." meaning new, "un bleu" meaning a bruise or a freshman, "tu suis" from suivre), odd lines ("We are in two") and one typo ("Il va a l'école").
 - **No topic words in the main units:** the first pull drew words from the live topic packs (famille, café, maison…). I fixed the pull so main units never use a pack's words, since a pack is one optional choice.
