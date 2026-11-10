@@ -1,0 +1,867 @@
+{
+  "unit_id": "U31",
+  "pulled_at": "2026-11-10",
+  "candidates": 19,
+  "sentences": [
+    {
+      "sentence_id": "S31001",
+      "unit_id": "U31",
+      "french": "Sprich langsamer!",
+      "english": "Speak more slowly!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1807054",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pne",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31002",
+      "unit_id": "U31",
+      "french": "Sprich bitte langsamer.",
+      "english": "Speak slower, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4094666",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Nachtiris",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31003",
+      "unit_id": "U31",
+      "french": "Sprechen Sie langsamer! Ich verstehe Sie nicht.",
+      "english": "Speak more slowly; I can't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8244401",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31004",
+      "unit_id": "U31",
+      "french": "Noch einmal?",
+      "english": "One more time?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4799946",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bonny37",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31005",
+      "unit_id": "U31",
+      "french": "Verstehst du sie?",
+      "english": "Do you understand her?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2980094",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pne",
+      "other_english": [
+        "Do you understand them?"
+      ]
+    },
+    {
+      "sentence_id": "S31006",
+      "unit_id": "U31",
+      "french": "Verstehst du Tom?",
+      "english": "Do you understand Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6641996",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31007",
+      "unit_id": "U31",
+      "french": "Verstehst du nicht?",
+      "english": "Don't you get it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6641998",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": [
+        "Do you not understand?"
+      ]
+    },
+    {
+      "sentence_id": "S31008",
+      "unit_id": "U31",
+      "french": "Ich verstehe.",
+      "english": "I see.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "547386",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Espi",
+      "other_english": [
+        "I understand.",
+        "I get it.",
+        "I do understand.",
+        "I'm catching on."
+      ]
+    },
+    {
+      "sentence_id": "S31009",
+      "unit_id": "U31",
+      "french": "Nicht noch einmal!",
+      "english": "Not again!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "660232",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31010",
+      "unit_id": "U31",
+      "french": "Sprich, bitte.",
+      "english": "Speak, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1725494",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jakov",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31011",
+      "unit_id": "U31",
+      "french": "Noch einmal, bitte.",
+      "english": "Once more, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4543860",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ruth_tatoeba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31012",
+      "unit_id": "U31",
+      "french": "Ich verstehe Tom.",
+      "english": "I understand Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6619569",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31013",
+      "unit_id": "U31",
+      "french": "Du verstehst nicht.",
+      "english": "You don't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "478075",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Espi",
+      "other_english": [
+        "You're not getting it."
+      ]
+    },
+    {
+      "sentence_id": "S31014",
+      "unit_id": "U31",
+      "french": "Sprechen Sie langsamer!",
+      "english": "Speak more slowly!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1807053",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pne",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31015",
+      "unit_id": "U31",
+      "french": "Ja, ich verstehe.",
+      "english": "Yes, I understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12592117",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": [
+        "Yes, I understood."
+      ]
+    },
+    {
+      "sentence_id": "S31016",
+      "unit_id": "U31",
+      "french": "Bitte sprechen Sie langsamer.",
+      "english": "Speak slower, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "712510",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": [
+        "Please speak more slowly."
+      ]
+    },
+    {
+      "sentence_id": "S31017",
+      "unit_id": "U31",
+      "french": "Ich verstehe sie nicht.",
+      "english": "I don't understand her.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1726231",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "I don't understand them.",
+        "I do not understand her."
+      ]
+    },
+    {
+      "sentence_id": "S31018",
+      "unit_id": "U31",
+      "french": "Ich verstehe Tom nicht.",
+      "english": "I don't understand Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6643895",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31019",
+      "unit_id": "U31",
+      "french": "Nein, du verstehst nicht.",
+      "english": "No, you don't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8100552",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manese",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S31001",
+      "position": 1,
+      "surface": "Sprich",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31001",
+      "position": 2,
+      "surface": "langsamer",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 1,
+      "surface": "Sprich",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 2,
+      "surface": "bitte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 3,
+      "surface": "langsamer",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 1,
+      "surface": "Sprechen",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 3,
+      "surface": "langsamer",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 4,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 5,
+      "surface": "verstehe",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 6,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 7,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31004",
+      "position": 1,
+      "surface": "Noch einmal",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31005",
+      "position": 1,
+      "surface": "Verstehst",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31005",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31005",
+      "position": 3,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31006",
+      "position": 1,
+      "surface": "Verstehst",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31006",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31006",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31007",
+      "position": 1,
+      "surface": "Verstehst",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31007",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31007",
+      "position": 3,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31008",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31008",
+      "position": 2,
+      "surface": "verstehe",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31009",
+      "position": 1,
+      "surface": "Nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31009",
+      "position": 2,
+      "surface": "noch einmal",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31010",
+      "position": 1,
+      "surface": "Sprich",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31010",
+      "position": 2,
+      "surface": "bitte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31011",
+      "position": 1,
+      "surface": "Noch einmal",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31011",
+      "position": 2,
+      "surface": "bitte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31012",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31012",
+      "position": 2,
+      "surface": "verstehe",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31012",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 2,
+      "surface": "verstehst",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 3,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 1,
+      "surface": "Sprechen",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 3,
+      "surface": "langsamer",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 1,
+      "surface": "Ja",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 2,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 3,
+      "surface": "verstehe",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31016",
+      "position": 1,
+      "surface": "Bitte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31016",
+      "position": 2,
+      "surface": "sprechen",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31016",
+      "position": 3,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31016",
+      "position": 4,
+      "surface": "langsamer",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31017",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31017",
+      "position": 2,
+      "surface": "verstehe",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31017",
+      "position": 3,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31017",
+      "position": 4,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31018",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31018",
+      "position": 2,
+      "surface": "verstehe",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31018",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31018",
+      "position": 4,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31019",
+      "position": 1,
+      "surface": "Nein",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31019",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31019",
+      "position": 3,
+      "surface": "verstehst",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31019",
+      "position": 4,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A310051",
+      "sentence_id": "S31005",
+      "direction": "fr_to_en",
+      "answer": "Do you understand them?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310071",
+      "sentence_id": "S31007",
+      "direction": "fr_to_en",
+      "answer": "Do you not understand?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310081",
+      "sentence_id": "S31008",
+      "direction": "fr_to_en",
+      "answer": "I understand.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310082",
+      "sentence_id": "S31008",
+      "direction": "fr_to_en",
+      "answer": "I get it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310083",
+      "sentence_id": "S31008",
+      "direction": "fr_to_en",
+      "answer": "I do understand.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310084",
+      "sentence_id": "S31008",
+      "direction": "fr_to_en",
+      "answer": "I'm catching on.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310131",
+      "sentence_id": "S31013",
+      "direction": "fr_to_en",
+      "answer": "You're not getting it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310151",
+      "sentence_id": "S31015",
+      "direction": "fr_to_en",
+      "answer": "Yes, I understood.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310161",
+      "sentence_id": "S31016",
+      "direction": "fr_to_en",
+      "answer": "Please speak more slowly.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310171",
+      "sentence_id": "S31017",
+      "direction": "fr_to_en",
+      "answer": "I don't understand them.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310172",
+      "sentence_id": "S31017",
+      "direction": "fr_to_en",
+      "answer": "I do not understand her.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

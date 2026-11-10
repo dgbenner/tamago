@@ -677,6 +677,162 @@
       "french": "Ja, ich kann Deutsch sprechen.",
       "english": "Yes, I can speak German.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S31101",
+      "unit_id": "U31",
+      "french": "Ich verstehe nicht.",
+      "english": "I don't understand.",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S31102",
+      "unit_id": "U31",
+      "french": "Wiederholen Sie bitte.",
+      "english": "Please repeat.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S31103",
+      "unit_id": "U31",
+      "french": "Wiederholen Sie bitte langsamer.",
+      "english": "Please repeat more slowly.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S31104",
+      "unit_id": "U31",
+      "french": "Bitte wiederholen!",
+      "english": "Please repeat!",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S31105",
+      "unit_id": "U31",
+      "french": "Verstehst du?",
+      "english": "Do you understand?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S32101",
+      "unit_id": "U32",
+      "french": "Wie sagt man das auf Deutsch?",
+      "english": "How do you say that in German?",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S32102",
+      "unit_id": "U32",
+      "french": "Wie sagt man „danke“ auf Englisch?",
+      "english": "How do you say \"danke\" in English?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S32103",
+      "unit_id": "U32",
+      "french": "Was bedeutet das?",
+      "english": "What does that mean?",
+      "notes": "help circle draft: the core phrase; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "450015",
+      "source_owner": "al_ex_an_der"
+    },
+    {
+      "sentence_id": "S32104",
+      "unit_id": "U32",
+      "french": "Was heißt das auf Englisch?",
+      "english": "What does that mean in English?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S32105",
+      "unit_id": "U32",
+      "french": "Wie sagt man das?",
+      "english": "How do you say that?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "761540",
+      "source_owner": "Dejo"
+    },
+    {
+      "sentence_id": "S32106",
+      "unit_id": "U32",
+      "french": "Was bedeutet das Wort „Haus“?",
+      "english": "What does the word \"Haus\" mean?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S32107",
+      "unit_id": "U32",
+      "french": "Ich verstehe das Wort nicht.",
+      "english": "I don't understand the word.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33101",
+      "unit_id": "U33",
+      "french": "Ich suche das Wort.",
+      "english": "I'm looking for the word.",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S33102",
+      "unit_id": "U33",
+      "french": "Das ist ein Ding für Wasser.",
+      "english": "It's a thing for water.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33103",
+      "unit_id": "U33",
+      "french": "Das ist ein Ding für Brot.",
+      "english": "It's a thing for bread.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33104",
+      "unit_id": "U33",
+      "french": "Wie nennt man das?",
+      "english": "What do you call that?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "1482090",
+      "source_owner": "Manfredo"
+    },
+    {
+      "sentence_id": "S33105",
+      "unit_id": "U33",
+      "french": "Wie nennt man das Ding?",
+      "english": "What do you call the thing?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33106",
+      "unit_id": "U33",
+      "french": "Das ist eine Sache für Kinder.",
+      "english": "That's a thing for children.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33107",
+      "unit_id": "U33",
+      "french": "Das ist eine Sache für Tee.",
+      "english": "It's a thing for tea.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33108",
+      "unit_id": "U33",
+      "french": "Er heißt Tom.",
+      "english": "His name is Tom.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S33109",
+      "unit_id": "U33",
+      "french": "Sie heißt Anna.",
+      "english": "Her name is Anna.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -915,6 +1071,34 @@
     {
       "question_sentence_id": "S15004",
       "answer_sentence_id": "S15008"
+    },
+    {
+      "question_sentence_id": "S31105",
+      "answer_sentence_id": "S31015"
+    },
+    {
+      "question_sentence_id": "S31006",
+      "answer_sentence_id": "S31018"
+    },
+    {
+      "question_sentence_id": "S32007",
+      "answer_sentence_id": "S1017"
+    },
+    {
+      "question_sentence_id": "S32004",
+      "answer_sentence_id": "S32019"
+    },
+    {
+      "question_sentence_id": "S32003",
+      "answer_sentence_id": "S32020"
+    },
+    {
+      "question_sentence_id": "S33013",
+      "answer_sentence_id": "S33108"
+    },
+    {
+      "question_sentence_id": "S33015",
+      "answer_sentence_id": "S33109"
     }
   ]
 }

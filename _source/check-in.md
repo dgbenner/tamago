@@ -4,6 +4,16 @@ Updated November 10, 2026. **German is live: all 15 A1 units, nine topic packs a
 
 ## Done since last check-in
 
+- **The conversation job, part 1: Asking for Help, three help circles in each course.** They sit after the first circle (Asking for Help), after Row 3, about a third of the way in (Asking About Words), and after Row 6, about two thirds in (Finding the Word). They wear the three gunkan sushi in every course: ikura, tobiko, uni. Each is a full circle with five rounds, a grammar note and an "I can" statement written for the CEFR's A1 spoken-interaction row, which is exactly this skill.
+  - **What they teach.**
+    - Asking for Help: I don't understand, slower please, please repeat (*Je ne comprends pas*, *Más despacio, por favor*, *Sprechen Sie langsamer!*), in both the polite and the friendly forms.
+    - Asking About Words: how do you say…, what does … mean (*Qu'est-ce que ça veut dire ?*, *¿Cómo se dice…?*, *Was bedeutet das?*).
+    - Finding the Word: I'm looking for the word…, it's a thing for…, what's it called (*Je cherche le mot*, *Es una cosa para el agua*, *Wie nennt man das?*).
+  - **They don't lock anything.** The next row still opens with the row before, so nobody's progress changes, and checkpoints neither review nor wait for them. Main units never use their words.
+  - **Borrowed words.** Where a phrase needs a word a later unit teaches, the circle borrows it: its hint shows on tap, but it isn't taught as new there. Examples: *s'il vous plaît* and *qu'est-ce que* in French, *por favor*, *qué* and *en* in Spanish, *bitte*, *was* and *Deutsch* in German.
+  - **Content:** Tatoeba first, the same rules. French: 76 Tatoeba lines and 15 drafts. Spanish: 71 and 20. German: 75 and 21. Drafts go only where Tatoeba's checked lines lack the core phrase itself (*Je ne comprends pas.* has no checked French line, nor *Repite, por favor.*, *Ich verstehe nicht.* or *Ich suche das Wort.*). They're on the native-speaker lists below.
+  - **Cut in review:** *suis* from *suivre* (I don't follow), *plus* as "no longer", *sé* as "be!", *para* as "stop", *auf* as "up", *ihr* commands, idioms and sayings.
+  - **One gap in German:** *Ich weiß nicht* (I don't know) can't be taught. *weiß* is already the course's word for "white", and a form can be only one word in the engine. The circle teaches *Weißt du…?* (do you know…?) instead. Allowing one form to carry two words would fix it; it's a change to the engine, not to content.
 - **German: Fable's results applied. The German native-speaker list is now 69 (was 86).**
   - **15 drafts swapped** for Fable's Use candidates, under the French and Spanish rules: ids kept, Fable's English shown where named (*The women are tall*, *Tomorrow is Sunday*, *Bye and good night*…), each Tatoeba sentence used once, question-and-answer pairs untouched. Each swap is recorded as a reviewed confirm. Among them, *Ich bin ein Mann.* and *Ich bin ein Junge.* are now MUIRIEL's identical Tatoeba lines.
   - **20 held**: 18 are halves of question-and-answer pairs whose Use candidates aren't the same sentence, and 2 (S3108, S15102) lost their only Use candidates to other drafts. The rest of the Use marks stay in _review/german-candidates.md as the reserve.
@@ -741,7 +751,7 @@ Every Spanish sentence I wrote (146), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (69), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (87), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (10)
 
@@ -853,3 +863,30 @@ Every German sentence I wrote (69), for a native speaker of German as spoken in 
 - S15104 Ja, ich kann morgen spielen. = Yes, I can play tomorrow. (QT09 answer)
 - S15105 Ja, ich möchte Tee. = Yes, I'd like tea. (QT09 answer)
 - S15106 Ja, ich kann Deutsch sprechen. = Yes, I can speak German. (QT09 answer)
+
+**U31 Asking for Help** (5)
+
+- S31101 Ich verstehe nicht. = I don't understand.
+- S31102 Wiederholen Sie bitte. = Please repeat.
+- S31103 Wiederholen Sie bitte langsamer. = Please repeat more slowly.
+- S31104 Bitte wiederholen! = Please repeat!
+- S31105 Verstehst du? = Do you understand?
+
+**U32 Asking About Words** (5)
+
+- S32101 Wie sagt man das auf Deutsch? = How do you say that in German?
+- S32102 Wie sagt man „danke“ auf Englisch? = How do you say "danke" in English?
+- S32104 Was heißt das auf Englisch? = What does that mean in English?
+- S32106 Was bedeutet das Wort „Haus“? = What does the word "Haus" mean?
+- S32107 Ich verstehe das Wort nicht. = I don't understand the word.
+
+**U33 Finding the Word** (8)
+
+- S33101 Ich suche das Wort. = I'm looking for the word.
+- S33102 Das ist ein Ding für Wasser. = It's a thing for water.
+- S33103 Das ist ein Ding für Brot. = It's a thing for bread.
+- S33105 Wie nennt man das Ding? = What do you call the thing?
+- S33106 Das ist eine Sache für Kinder. = That's a thing for children.
+- S33107 Das ist eine Sache für Tee. = It's a thing for tea.
+- S33108 Er heißt Tom. = His name is Tom. (QT09 answer)
+- S33109 Sie heißt Anna. = Her name is Anna. (QT09 answer)

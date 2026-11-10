@@ -220,5 +220,39 @@
     "reject": {
       "9447201": "a saying, odd as a lesson line (Fish where there are fish)"
     }
+  },
+  "U31": {
+    "reject": {
+      "3674603": "quoted dialogue, odd as a lesson line"
+    }
+  },
+  "U32": {
+    "reject": {
+      "1258828": "a saying, odd as a lesson line",
+      "2456755": "idiom (Auf, auf! = Let’s go)",
+      "3102932": "sagt as the ihr command, with a quote",
+      "4942637": "sagt as the ihr command, misleading for er sagt",
+      "6625069": "idiom (What’s it to you?)",
+      "6625513": "auf as up, misleading for auf Deutsch",
+      "6626001": "auf as up, misleading for auf Deutsch",
+      "6626382": "auf as up, misleading for auf Deutsch",
+      "7592419": "English renames the name as Mary, misleading for typed answers",
+      "8739251": "odd on its own (What is a word?)",
+      "9373845": "English renames the name as Mary, misleading for typed answers",
+      "9694845": "a saying, odd as a lesson line",
+      "10760562": "auf as open, misleading for auf Deutsch",
+      "12450539": "ihr commands, misleading for er sagt",
+      "13601556": "sagt as the ihr command, misleading for er sagt"
+    }
+  },
+  "U33": {
+    "reject": {
+      "1324298": "often sarcastic (Good for you)",
+      "1683930": "idiom (You know how it is)",
+      "3561124": "idiom (You know how they are)",
+      "6642499": "English renames the name as Mary, misleading for typed answers",
+      "6645133": "English renames the name as Mary, misleading for typed answers",
+      "7856168": "idiom (You know what he’s like)"
+    }
   }
 }

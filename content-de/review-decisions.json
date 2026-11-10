@@ -244,6 +244,21 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-de/sweep/packs-review.json"
+    },
+    "U31": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 19 Tatoeba sentences from checked owners after cutting 1 (quoted dialogue); 5 drafts for the phrases checked Tatoeba lacks (Ich verstehe nicht., Wiederholen Sie bitte.)"
+    },
+    "U32": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 26 Tatoeba sentences from checked owners after cutting 15 (auf as up or open, ihr commands like Sagt es Tom, sayings, idioms, odd lines); 7 drafts for the phrases checked Tatoeba lacks (Wie sagt man das auf Deutsch?, Was bedeutet das?)"
+    },
+    "U33": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after cutting 4 (idioms like Du weißt, wie es ist); 9 drafts for the phrases checked Tatoeba lacks (Ich suche das Wort., Das ist ein Ding für …, Wie nennt man das?) and 2 answers for the question pairs"
     }
   },
   "cut_sentences": [

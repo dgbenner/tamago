@@ -104,6 +104,27 @@
       "example_sentence_ids": "S15008;S15001;S15007",
       "conjugation_lemma": "können",
       "status": "live"
+    },
+    {
+      "unit_id": "U31",
+      "rule": "Three phrases keep a conversation going when you're lost. Ich verstehe nicht: I don't understand (nicht goes after the verb). Langsamer, bitte: slower, please. Noch einmal, bitte: once more, please. To ask someone politely, start with the verb and Sie: Sprechen Sie langsamer! Wiederholen Sie bitte. To a friend, sprich: Sprich langsamer!",
+      "example_sentence_ids": "S31101;S31001;S31102",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U32",
+      "rule": "Two questions get you a word you don't know. Was bedeutet das? or Was heißt das? asks what something means. Wie sagt man das auf Deutsch? asks how to say something: man is one or you, and auf Deutsch is in German. Heißen also gives names: Wie heißt sie? What is her name?",
+      "example_sentence_ids": "S32103;S32101;S32001",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U33",
+      "rule": "When the word won't come, talk around it. Ich suche das Wort: I'm looking for the word. Das ist ein Ding für Wasser: it's a thing for water (für is for). Wie nennt man das? asks what something is called. Weißt du …? asks do you know …? (from wissen, to know; careful, weiß is also white).",
+      "example_sentence_ids": "S33101;S33102;S33104",
+      "conjugation_lemma": "",
+      "status": "live"
     }
   ]
 }
