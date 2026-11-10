@@ -4,6 +4,11 @@ Updated November 10, 2026. **Three topic packs at a second Your Topic node (Offi
 
 ## Done since last check-in
 
+- **Picture Check** on the Developer page (https://tamago-83f.pages.dev/#developer), second accordion: your 39 pictures, each large with its French, English and status, then the 57 rows still Missing (with what to draw). None is used in lessons yet.
+  - The files are copied as you sent them to _source/pictures/incoming-2026-11-10/. None was named like its row (they carry ChatGPT's titles), so all 39 are **Guessed**, from the picture itself. No Match: none.
+  - Doubles: two of each for eau (a glass and a drop; the drop could be meant for bleu), parc, animaux (one has a rabbit instead of the bird) and tortue (the two turtle files are identical copies).
+  - Worth your eye: the man with a thermometer I put at fièvre, the blanket-and-tissue one at malade; the second smiling boy at enfant; two women in sweaters at femmes and the arm-around pair at amie; two boys at garçons; two apples at pommes (the list asked for three).
+  - The matches are in _source/pictures/picture-check.json; change a row there, or tell me, and the page follows.
 - **Fixes from the 2026-11-10 craft review and French check:**
   - **Opening screen:** still on every launch. It now clears with one crossfade of about half a second that reveals home in place; the header logo no longer rises, and nothing on home moves.
   - **"Close." and "Almost."** appear only for a near miss: one word wrong, missing or extra, or two letters off. An answer nowhere near gets "Not quite.", "Here's the answer." and the like.

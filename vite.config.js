@@ -13,7 +13,8 @@ function serviceWorker() {
     name: 'tamago-service-worker',
     apply: 'build',
     closeBundle() {
-      const files = walk('dist').filter((f) => !f.endsWith('sw.js') && !/[\\/]_(headers|redirects)$/.test(f)) // host config files are never served
+      // host config files are never served; the Picture Check images are for the Developer page only, so they aren't cached offline
+      const files = walk('dist').filter((f) => !f.endsWith('sw.js') && !/[\\/]_(headers|redirects)$/.test(f) && !/[\\/]picture-check[\\/]/.test(f))
       const hash = createHash('sha1')
       for (const f of files) hash.update(readFileSync(f))
       // The page is cached as / because Cloudflare Pages answers /index.html with a redirect to /, and a

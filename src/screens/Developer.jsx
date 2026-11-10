@@ -30,6 +30,41 @@ function Accordion({ title, onOpen, children }) {
   )
 }
 
+// Picture Check (Dan, 2026-11-10): Dan's pictures against the rows of _source/image-list.md, before any go into a
+// lesson (scripts/picture-check.mjs). Loaded the first time the accordion opens; the images load as they scroll in.
+function PictureCheck() {
+  const [data, setData] = useState(null)
+  const load = () => { if (!data) import('../dev/picture-check.json').then((m) => setData(m.default)) }
+  return (
+    <Accordion title="Picture Check" onOpen={load}>
+      {!data ? <p>Loading…</p> : (
+        <>
+          <p className="mb-4 text-sm text-muted">
+            {data.images} pictures against the {data.rows} rows of image-list.md, {data.made}. {Object.entries(data.counts).map(([k, n]) => `${k} ${n}`).join(' · ')}. None is used in lessons yet.
+            Matched: the file is named as its row. Guessed: Claude's guess from the picture. No Match: no row fits. Missing: a row with no picture yet.
+          </p>
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {data.cards.map((c, i) => (
+              <li key={i} className="flex flex-col gap-2 rounded-xl border-2 border-line p-3">
+                {c.image
+                  ? <img src={c.image} alt={c.english ? `Picture for ${c.french}, ${c.english}` : 'Picture with no matching row'} loading="lazy" className="aspect-square w-full rounded-lg bg-white object-contain" />
+                  : <div className="flex aspect-square w-full items-center justify-center rounded-lg border-2 border-dashed border-field p-4 text-center text-sm text-muted">To draw: {c.draw}</div>}
+                <p className="flex items-baseline justify-between gap-2">
+                  <span><span lang="fr" className="text-lg font-semibold">{c.french || '—'}</span>{c.also?.length ? <span className="text-sm text-muted"> (also {c.also.join(', ')})</span> : null}</span>
+                  <span className="rounded-full border-2 border-line px-2 text-sm text-muted">{c.status}</span>
+                </p>
+                <p className="-mt-1 text-muted">{c.english}</p>
+                {c.note && <p className="text-sm text-muted">{c.note}</p>}
+                {c.source && <p className="text-xs break-all text-muted">{c.source}</p>}
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+    </Accordion>
+  )
+}
+
 function Doc({ doc, lib, loadLib }) {
   const [html, setHtml] = useState(null)
   const open = async () => {
@@ -85,6 +120,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
             </table>
           </div></div>
         </Accordion>
+        <PictureCheck />
         {TITLES.map(([id]) => <Doc key={id} doc={docFor(id)} lib={lib} loadLib={loadLib} />)}
       </div>
     </main>

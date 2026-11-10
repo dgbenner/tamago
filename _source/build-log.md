@@ -440,3 +440,14 @@ Part 3, Lingua Libre recordings:
 - French: scripts/apply-french-check.mjs to workbook v24 (S3106, S7355 fixed, ids kept, sentence_words rebuilt;
   drafts.json kept in step); five fr_to_en answers (AF ids) recorded as Claude's keep decisions in
   review-decisions.json. Skipped: S6053 to S6056 (off since the Weather rebuild); S6152, S6158, S6159, S6160 kept (Dan).
+
+## 2026-11-10: Picture Check
+
+- Dan's 39 pictures copied unchanged to _source/pictures/incoming-2026-11-10/ (Desktop originals left alone).
+- Matching: by file name first (none matched; ChatGPT titles), then by looking at each picture: all 39 Guessed,
+  with notes where another row could fit (_source/pictures/picture-check.json).
+- scripts/picture-check.mjs: 480 px webp copies in public/picture-check/ (588 KB), excluded from the service worker
+  precache; src/dev/picture-check.json, a lazily loaded chunk. Rows that reuse another row's picture show under it.
+- Developer page: Picture Check accordion after Course Snapshot, a grid of cards (picture, French, English, status,
+  note, source file), Missing rows as dashed boxes with what to draw. axe clean at 1440 light and 390 dark.
+- Lessons untouched: no image_file changed.

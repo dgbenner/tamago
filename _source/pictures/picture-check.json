@@ -1,0 +1,162 @@
+{
+  "_about": "Which row of _source/image-list.md each of Dan's pictures is for. A file named exactly as the File column is Matched; every other row here is Claude's guess from looking at the picture (Guessed), with a note where it could be another word. file: null means No Match. None of these is used in lessons until Dan says so.",
+  "made": "2026-11-10",
+  "files": {
+    "Charming Apple Shopfront Icon-1.png": {
+      "file": "magasin.png",
+      "note": "shop front with an awning"
+    },
+    "Cheerful Boy Emoji Portrait-2.png": {
+      "file": "garcon.png",
+      "note": ""
+    },
+    "Cheerful Dog, Cat, and Rabbit Trio-3.png": {
+      "file": "animaux.png",
+      "note": "a rabbit where the list asked for a bird; the other animaux picture has the bird"
+    },
+    "Cheerful Girl with Pigtails-3.png": {
+      "file": "fille.png",
+      "note": ""
+    },
+    "Colorful Cartoon Park with Bench-5.png": {
+      "file": "parc.png",
+      "note": "two trees, path and bench, as described"
+    },
+    "Colorful Emoji Schoolhouse Icon-4.png": {
+      "file": "ecole.png",
+      "note": ""
+    },
+    "Cozy Orange and Gray Cat Duo-1.png": {
+      "file": "chats.png",
+      "note": ""
+    },
+    "Cute Green Turtle Side View-3(1).png": {
+      "file": "tortue.png",
+      "note": "the same file twice: this one is a byte-for-byte copy of Cute Green Turtle Side View-3"
+    },
+    "Cute Green Turtle Side View-3.png": {
+      "file": "tortue.png",
+      "note": ""
+    },
+    "Cute Grey Mouse with Curling Pink Tail-3.png": {
+      "file": "souris.png",
+      "note": ""
+    },
+    "Friendly Brown Dog with Red Collar.png": {
+      "file": "chien.png",
+      "note": ""
+    },
+    "Friendly Doctor Portrait with Stethoscope-2.png": {
+      "file": "medecin.png",
+      "note": "also covers docteur, which shares the picture"
+    },
+    "Friendly Emoji-Style Best Friends-2.png": {
+      "file": "amie.png",
+      "note": "two women, arm around the shoulder"
+    },
+    "Glass of Water Icon-1.png": {
+      "file": "eau.png",
+      "note": ""
+    },
+    "Glossy Bearded Man Avatar-3.png": {
+      "file": "homme.png",
+      "note": ""
+    },
+    "Glossy Black Sphere Icon-2.png": {
+      "file": "noir.png",
+      "note": "also covers noire"
+    },
+    "Glossy Blue Water Droplet-3.png": {
+      "file": "eau.png",
+      "note": "a second eau (a drop, like the stand-in); could be meant for bleu, but bleu asked for a circle"
+    },
+    "Glossy Brown Horse Emoji-1.png": {
+      "file": "cheval.png",
+      "note": ""
+    },
+    "Glossy Emoji-Style Office Workspace-4.png": {
+      "file": "bureau.png",
+      "note": ""
+    },
+    "Glossy Red Apple Pair-1.png": {
+      "file": "pommes.png",
+      "note": "two apples where the list asked for three"
+    },
+    "Glossy Red Apple with Green Leaf-2.png": {
+      "file": "pomme.png",
+      "note": ""
+    },
+    "Glossy Red Hardcover Book-3.png": {
+      "file": "livre.png",
+      "note": ""
+    },
+    "Glossy Stack of Colorful Books-1.png": {
+      "file": "livres.png",
+      "note": ""
+    },
+    "Glossy White Orb Button-4.png": {
+      "file": "blanc.png",
+      "note": "also covers blanche"
+    },
+    "Golden Baguette and Rustic Boule-4.png": {
+      "file": "pain.png",
+      "note": ""
+    },
+    "Happy Pets with a Perched Songbird-6.png": {
+      "file": "animaux.png",
+      "note": "dog, cat and bird, as described"
+    },
+    "Polished 3D Park Bench Scene-2.png": {
+      "file": "parc.png",
+      "note": "a second parc: one tree and a bench"
+    },
+    "Sealed Envelope with Red Wax Seal-4.png": {
+      "file": "lettre.png",
+      "note": ""
+    },
+    "Sick Man Wrapped in Blanket-4.png": {
+      "file": "fievre.png",
+      "note": "thermometer in the mouth reads as fever; could also be malade"
+    },
+    "Sick Man Wrapped in Blue Blanket-3.png": {
+      "file": "malade.png",
+      "note": "blanket and tissue, as described for malade"
+    },
+    "Smiling Boy Emoji Portrait-1.png": {
+      "file": "enfant.png",
+      "note": "a young child; could be a second garçon"
+    },
+    "Smiling Boy and Girl Duo.png": {
+      "file": "enfants.png",
+      "note": ""
+    },
+    "Smiling Friends in Blue and Olive-2.png": {
+      "file": "ami.png",
+      "note": "two young men, arm around the shoulder"
+    },
+    "Smiling Friends in Sweaters-5.png": {
+      "file": "femmes.png",
+      "note": "two women side by side; could be a second amie"
+    },
+    "Smiling Friends_ Blue Hoodie and Green Tee-4.png": {
+      "file": "garcons.png",
+      "note": "two boys side by side; could be ami"
+    },
+    "Smiling Ginger Tabby Cat-1.png": {
+      "file": "chat.png",
+      "note": ""
+    },
+    "Smiling Girls in Pink and Purple-4.png": {
+      "file": "filles.png",
+      "note": ""
+    },
+    "Smiling Woman Emoji Portrait-2.png": {
+      "file": "femme.png",
+      "note": ""
+    },
+    "Two Happy Cartoon Dogs-1.png": {
+      "file": "chiens.png",
+      "note": ""
+    }
+  }
+}
