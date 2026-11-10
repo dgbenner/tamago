@@ -73,7 +73,7 @@ Updated November 9, 2026, late. Working through your test notes (_source/test-no
    - Commercial emoji check: none of the files is a copy of an Apple, Google, Samsung or Microsoft emoji. The "Emoji" in some file names reads as a generation prompt, not a vendor set. The OpenAI terms assign generated images to you. If the 512 set came from a stock or emoji pack, tell me which, and I'll check its licence.
    - No icon has a face, a character or text.
 2. **Netlify (your call, no hurry).** Builds are stopped and the old site still serves Phase 5 at https://tamago-590.netlify.app. Anyone who had it installed stays on that old version; the new home is https://tamago-83f.pages.dev. Delete the Netlify site whenever you like, or keep it. A custom domain on Cloudflare (for example a subdomain of danbenner.com) is a few clicks when you want one.
-3. **Native-speaker check (now 303 sentences: 18 in Unit 1 and the 285 drafts listed below).** Arrange the person. On their phone they open https://tamago-83f.pages.dev, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
+3. **Native-speaker check (now 300 sentences: 18 in Unit 1 and the 282 drafts listed below).** Arrange the person. On their phone they open https://tamago-83f.pages.dev, then Settings, then Native-speaker check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
 4. **Claude explanations and Claude-written practice: key added 2026-11-09.** Key tamago-cloudflare, in its own Anthropic workspace (Tamago) with a $5 monthly spend limit, stored only as a Cloudflare Pages secret (TAMAGO_ANTHROPIC_API_KEY). **The key expires January 2, 2027**; after that both features switch off quietly until a new key replaces it (Console, Tamago workspace, then the same secret in Cloudflare and a redeploy).
    - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output; one explanation is a few hundred tokens. Claude-written practice uses Opus 5.5 ($4 and $20 per million), a few cents a set. The $5 cap stops everything for the rest of the month if it's ever reached.
 5. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
@@ -148,7 +148,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S4110 Tu aimes le pain ? = Do you like bread?
 - S4111 Elle mange un sandwich. = She's eating a sandwich.
 
-**U05 Animals** (12)
+**U05 Animals** (11)
 
 - S5101 Tu as un chien ? = Do you have a dog? (QT09 question)
 - S5102 Oui, j'ai un petit chien. = Yes, I have a small dog. (QT09 answer)
@@ -161,7 +161,6 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S5109 La tortue est petite. = The tortoise is small.
 - S5110 J'ai une tortue et un oiseau. = I have a tortoise and a bird.
 - S5111 Le canard mange. = The duck is eating.
-- S5112 La souris est petite. = The mouse is small.
 
 **U06 Plurals** (23)
 
@@ -189,9 +188,8 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S7072 Tu manges des pommes ? = Are you eating apples? (QT09 question)
 - S7073 Non, je mange du pain. = No, I'm eating bread. (QT09 answer)
 
-**U07 Adjectives** (11)
+**U07 Adjectives** (10)
 
-- S7151 Le cheval est vieux. = The horse is old.
 - S7153 Il est très vieux. = He is very old.
 - S7154 C'est une vieille lettre. = It's an old letter.
 - S7155 Le pain est bon ? = Is the bread good? (QT09 question)
@@ -203,12 +201,11 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S7161 La pomme est bonne ? = Is the apple good? (QT09 question)
 - S7162 Oui, elle est très bonne. = Yes, it's very good. (QT09 answer)
 
-**U08 Possessives** (22)
+**U08 Possessives** (21)
 
 - S7251 C'est ma pomme. = It's my apple.
 - S7252 Voici ma lettre. = Here is my letter.
 - S7253 Ma tortue est petite. = My tortoise is small.
-- S7254 Mes chats sont ici. = My cats are here.
 - S7255 Ta pomme est ici. = Your apple is here.
 - S7256 C'est ta lettre. = It's your letter.
 - S7257 Voici ta tortue. = Here is your tortoise.
@@ -344,7 +341,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 - S6054 Il a chaud. = He's hot.
 - S6055 Le soleil est grand. = The sun is big.
 - S6056 Tu as du temps ? = Do you have time?
-- S6057 Il a du temps. = He has time.
+- S6057 Il a du temps. = He has time. [note: here temps means time, not weather; check it reads naturally in the Weather topic]
 
 **U102 Family** (12)
 

@@ -6376,38 +6376,6 @@
     "hint_override": ""
   },
   {
-    "sentence_id": "S5112",
-    "position": 1,
-    "surface": "La",
-    "word_id": "W020",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S5112",
-    "position": 2,
-    "surface": "souris",
-    "word_id": "W074",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S5112",
-    "position": 3,
-    "surface": "est",
-    "word_id": "W025",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S5112",
-    "position": 4,
-    "surface": "petite",
-    "word_id": "W204",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
     "sentence_id": "S6001",
     "position": 1,
     "surface": "Il",
@@ -18808,38 +18776,6 @@
     "hint_override": ""
   },
   {
-    "sentence_id": "S7151",
-    "position": 1,
-    "surface": "Le",
-    "word_id": "W019",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7151",
-    "position": 2,
-    "surface": "cheval",
-    "word_id": "W070",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7151",
-    "position": 3,
-    "surface": "est",
-    "word_id": "W025",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7151",
-    "position": 4,
-    "surface": "vieux",
-    "word_id": "W416",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
     "sentence_id": "S7152",
     "position": 1,
     "surface": "C'est",
@@ -19292,38 +19228,6 @@
     "position": 4,
     "surface": "petite",
     "word_id": "W204",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7254",
-    "position": 1,
-    "surface": "Mes",
-    "word_id": "W423",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7254",
-    "position": 2,
-    "surface": "chats",
-    "word_id": "W406",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7254",
-    "position": 3,
-    "surface": "sont",
-    "word_id": "W028",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S7254",
-    "position": 4,
-    "surface": "ici",
-    "word_id": "W206",
     "notes": "",
     "hint_override": ""
   },
@@ -23044,6 +22948,102 @@
     "position": 6,
     "surface": "ville",
     "word_id": "W470",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5112",
+    "position": 1,
+    "surface": "La",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5112",
+    "position": 2,
+    "surface": "souris",
+    "word_id": "W074",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5112",
+    "position": 3,
+    "surface": "est",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5112",
+    "position": 4,
+    "surface": "grande",
+    "word_id": "W202",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7151",
+    "position": 1,
+    "surface": "Il",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7151",
+    "position": 2,
+    "surface": "est",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7151",
+    "position": 3,
+    "surface": "vieux",
+    "word_id": "W416",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7254",
+    "position": 1,
+    "surface": "Mes",
+    "word_id": "W423",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7254",
+    "position": 2,
+    "surface": "chats",
+    "word_id": "W406",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7254",
+    "position": 3,
+    "surface": "sont",
+    "word_id": "W028",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7254",
+    "position": 4,
+    "surface": "mes",
+    "word_id": "W423",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7254",
+    "position": 5,
+    "surface": "enfants",
+    "word_id": "W033",
     "notes": "",
     "hint_override": ""
   }

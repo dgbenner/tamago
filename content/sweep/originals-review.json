@@ -1,0 +1,22 @@
+{
+  "_about": "Claude's review of content/sweep/originals.json (2026-11-10). replace: take the proposal (or the alternative named by source_id). reject: keep the draft, with the reason.",
+  "S5112": {
+    "action": "replace"
+  },
+  "S6057": {
+    "action": "reject",
+    "reason": "\"avoir le temps\" is time, but in the Weather pack temps means weather; misleading there (the draft has the same sense: flagged for the native check)"
+  },
+  "S7151": {
+    "action": "replace",
+    "source_id": "821565",
+    "reason": "the plainer alternative: He is old"
+  },
+  "S7154": {
+    "action": "reject",
+    "reason": "the draft teaches vieille before the noun, the unit's grammar point; \"Tu es vieille.\" loses it"
+  },
+  "S7254": {
+    "action": "replace"
+  }
+}

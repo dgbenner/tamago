@@ -1,0 +1,2292 @@
+{
+  "made_at": "2026-11-10",
+  "proposals": [
+    {
+      "sentence_id": "S0011",
+      "unit_id": "U01",
+      "french": "Tu es une fille.",
+      "english": "You are a girl.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S0016",
+      "unit_id": "U01",
+      "french": "Un homme et une femme.",
+      "english": "A man and a woman.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S0017",
+      "unit_id": "U01",
+      "french": "Un garçon et une fille.",
+      "english": "A boy and a girl.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S0018",
+      "unit_id": "U01",
+      "french": "Bonjour, je suis Paul.",
+      "english": "Hello, I am Paul.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S0019",
+      "unit_id": "U01",
+      "french": "Bonjour, je suis Marie.",
+      "english": "Hello, I am Marie.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S0020",
+      "unit_id": "U01",
+      "french": "Merci, au revoir.",
+      "english": "Thank you, goodbye.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S0021",
+      "unit_id": "U01",
+      "french": "Oui, je suis une femme.",
+      "english": "Yes, I am a woman.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0022",
+      "unit_id": "U01",
+      "french": "Non, je suis un homme.",
+      "english": "No, I am a man.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0023",
+      "unit_id": "U01",
+      "french": "Tu es un garçon ?",
+      "english": "Are you a boy?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0024",
+      "unit_id": "U01",
+      "french": "Non, je suis une fille.",
+      "english": "No, I am a girl.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0025",
+      "unit_id": "U01",
+      "french": "Tu es Paul ?",
+      "english": "Are you Paul?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0026",
+      "unit_id": "U01",
+      "french": "Oui, je suis Paul.",
+      "english": "Yes, I am Paul.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0027",
+      "unit_id": "U01",
+      "french": "C'est une fille ?",
+      "english": "Is it a girl?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0028",
+      "unit_id": "U01",
+      "french": "Non, c'est un garçon.",
+      "english": "No, it is a boy.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0029",
+      "unit_id": "U01",
+      "french": "Tu es un enfant ?",
+      "english": "Are you a child?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0030",
+      "unit_id": "U01",
+      "french": "Non, je suis une femme.",
+      "english": "No, I am a woman.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0039",
+      "unit_id": "U01",
+      "french": "Tu es une femme ?",
+      "english": "Are you a woman?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S0040",
+      "unit_id": "U01",
+      "french": "Tu es un homme ?",
+      "english": "Are you a man?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S2101",
+      "unit_id": "U02",
+      "french": "Le livre est ici ?",
+      "english": "Is the book here?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S2102",
+      "unit_id": "U02",
+      "french": "Oui, le livre est ici.",
+      "english": "Yes, the book is here.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S2103",
+      "unit_id": "U02",
+      "french": "Les enfants sont ici ?",
+      "english": "Are the children here?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S2104",
+      "unit_id": "U02",
+      "french": "Oui, les enfants sont ici.",
+      "english": "Yes, the children are here.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S2105",
+      "unit_id": "U02",
+      "french": "La lettre est ici ?",
+      "english": "Is the letter here?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S2106",
+      "unit_id": "U02",
+      "french": "Oui, voici la lettre.",
+      "english": "Yes, here is the letter.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S2107",
+      "unit_id": "U02",
+      "french": "Elle est grande ?",
+      "english": "Is she tall?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S2108",
+      "unit_id": "U02",
+      "french": "Non, elle est petite.",
+      "english": "No, she is short.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S2109",
+      "unit_id": "U02",
+      "french": "Voici les hommes.",
+      "english": "Here are the men.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2110",
+      "unit_id": "U02",
+      "french": "Voici le journal.",
+      "english": "Here is the newspaper.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2111",
+      "unit_id": "U02",
+      "french": "Les femmes sont ici.",
+      "english": "The women are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2112",
+      "unit_id": "U02",
+      "french": "Les hommes et les femmes sont ici.",
+      "english": "The men and the women are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2113",
+      "unit_id": "U02",
+      "french": "Les garçons sont ici.",
+      "english": "The boys are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2114",
+      "unit_id": "U02",
+      "french": "Voici les garçons et les filles.",
+      "english": "Here are the boys and the girls.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2115",
+      "unit_id": "U02",
+      "french": "Les filles sont ici.",
+      "english": "The girls are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2116",
+      "unit_id": "U02",
+      "french": "Les garçons ? Ils sont ici.",
+      "english": "The boys? They are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2117",
+      "unit_id": "U02",
+      "french": "Les hommes ? Ils sont ici.",
+      "english": "The men? They are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2118",
+      "unit_id": "U02",
+      "french": "Les filles ? Elles sont ici.",
+      "english": "The girls? They are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2119",
+      "unit_id": "U02",
+      "french": "Voici les enfants.",
+      "english": "Here are the children.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2120",
+      "unit_id": "U02",
+      "french": "Voici les femmes.",
+      "english": "Here are the women.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2121",
+      "unit_id": "U02",
+      "french": "La lettre est petite.",
+      "english": "The letter is small.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2122",
+      "unit_id": "U02",
+      "french": "Le journal est ici.",
+      "english": "The newspaper is here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S2123",
+      "unit_id": "U02",
+      "french": "Le garçon ? Il est ici.",
+      "english": "The boy? He is here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3101",
+      "unit_id": "U03",
+      "french": "Vous êtes Paul ?",
+      "english": "Are you Paul?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S3102",
+      "unit_id": "U03",
+      "french": "Non, je suis Marie.",
+      "english": "No, I'm Marie.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S3103",
+      "unit_id": "U03",
+      "french": "Ça va, Marie ?",
+      "english": "Are you OK, Marie?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S3104",
+      "unit_id": "U03",
+      "french": "Oui, ça va bien.",
+      "english": "Yes, I'm fine.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S3105",
+      "unit_id": "U03",
+      "french": "Tu es Marie ?",
+      "english": "Are you Marie?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S3106",
+      "unit_id": "U03",
+      "french": "Oui, bonsoir ! Je suis Marie.",
+      "english": "Yes, good evening! I'm Marie.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S3107",
+      "unit_id": "U03",
+      "french": "Comment ça va, Paul ?",
+      "english": "How are you, Paul?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S3108",
+      "unit_id": "U03",
+      "french": "Bien, merci, Marie.",
+      "english": "Fine, thanks, Marie.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S3109",
+      "unit_id": "U03",
+      "french": "Excusez-moi, vous êtes Paul ?",
+      "english": "Excuse me, are you Paul?",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3110",
+      "unit_id": "U03",
+      "french": "Excusez-moi, s'il vous plaît.",
+      "english": "Excuse me, please.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3111",
+      "unit_id": "U03",
+      "french": "Excusez-moi, je suis Marie.",
+      "english": "Excuse me, I'm Marie.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3112",
+      "unit_id": "U03",
+      "french": "Pardon, tu es Paul ?",
+      "english": "Sorry, are you Paul?",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3113",
+      "unit_id": "U03",
+      "french": "Pardon, Marie !",
+      "english": "Sorry, Marie!",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3114",
+      "unit_id": "U03",
+      "french": "Pardon, c'est ici ?",
+      "english": "Excuse me, is it here?",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3115",
+      "unit_id": "U03",
+      "french": "Paul, s'il te plaît !",
+      "english": "Paul, please!",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3116",
+      "unit_id": "U03",
+      "french": "Oui, s'il te plaît.",
+      "english": "Yes, please.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3117",
+      "unit_id": "U03",
+      "french": "Bonsoir, Paul !",
+      "english": "Good evening, Paul!",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3118",
+      "unit_id": "U03",
+      "french": "Bonne nuit, Marie.",
+      "english": "Good night, Marie.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3119",
+      "unit_id": "U03",
+      "french": "De rien, Paul.",
+      "english": "You're welcome, Paul.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S3120",
+      "unit_id": "U03",
+      "french": "Au revoir, à bientôt !",
+      "english": "Goodbye, see you soon!",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S4101",
+      "unit_id": "U04",
+      "french": "Tu manges une pomme ?",
+      "english": "Are you eating an apple?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S4102",
+      "unit_id": "U04",
+      "french": "Oui, je mange une pomme.",
+      "english": "Yes, I'm eating an apple.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S4103",
+      "unit_id": "U04",
+      "french": "Tu aimes le fromage ?",
+      "english": "Do you like cheese?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S4104",
+      "unit_id": "U04",
+      "french": "Oui, j'aime bien le fromage.",
+      "english": "Yes, I quite like cheese.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S4105",
+      "unit_id": "U04",
+      "french": "Tu manges du pain ?",
+      "english": "Are you eating bread?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S4106",
+      "unit_id": "U04",
+      "french": "Non, je mange un sandwich.",
+      "english": "No, I'm eating a sandwich.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S4107",
+      "unit_id": "U04",
+      "french": "Tu aimes le lait ?",
+      "english": "Do you like milk?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S4108",
+      "unit_id": "U04",
+      "french": "Non, j'aime l'eau.",
+      "english": "No, I like water.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S4109",
+      "unit_id": "U04",
+      "french": "Il mange une orange.",
+      "english": "He's eating an orange.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S4110",
+      "unit_id": "U04",
+      "french": "Tu aimes le pain ?",
+      "english": "Do you like bread?",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S4111",
+      "unit_id": "U04",
+      "french": "Elle mange un sandwich.",
+      "english": "She's eating a sandwich.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S5101",
+      "unit_id": "U05",
+      "french": "Tu as un chien ?",
+      "english": "Do you have a dog?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S5102",
+      "unit_id": "U05",
+      "french": "Oui, j'ai un petit chien.",
+      "english": "Yes, I have a small dog.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S5103",
+      "unit_id": "U05",
+      "french": "Tu as un chat ?",
+      "english": "Do you have a cat?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S5104",
+      "unit_id": "U05",
+      "french": "Non, j'ai une tortue.",
+      "english": "No, I have a tortoise.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S5105",
+      "unit_id": "U05",
+      "french": "Il a un cheval ?",
+      "english": "Does he have a horse?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S5106",
+      "unit_id": "U05",
+      "french": "Oui, il a un grand cheval.",
+      "english": "Yes, he has a big horse.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S5107",
+      "unit_id": "U05",
+      "french": "Tu as un oiseau ?",
+      "english": "Do you have a bird?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S5108",
+      "unit_id": "U05",
+      "french": "Non, j'ai un canard.",
+      "english": "No, I have a duck.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S5109",
+      "unit_id": "U05",
+      "french": "La tortue est petite.",
+      "english": "The tortoise is small.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S5110",
+      "unit_id": "U05",
+      "french": "J'ai une tortue et un oiseau.",
+      "english": "I have a tortoise and a bird.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S5111",
+      "unit_id": "U05",
+      "french": "Le canard mange.",
+      "english": "The duck is eating.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S5112",
+      "unit_id": "U05",
+      "french": "La souris est petite.",
+      "english": "The mouse is small.",
+      "outcome": "replace",
+      "new_french": "La souris est grande.",
+      "new_english": "The mouse is big.",
+      "other_english": [],
+      "source_id": "13801590",
+      "source_owner": "Rovo",
+      "trust": "native owner",
+      "alternatives": [],
+      "words": [
+        {
+          "surface": "La",
+          "word_id": "W020",
+          "name": false
+        },
+        {
+          "surface": "souris",
+          "word_id": "W074",
+          "name": false
+        },
+        {
+          "surface": "est",
+          "word_id": "W025",
+          "name": false
+        },
+        {
+          "surface": "grande",
+          "word_id": "W202",
+          "name": false
+        }
+      ]
+    },
+    {
+      "sentence_id": "S6051",
+      "unit_id": "U101",
+      "french": "Elle aime la pluie.",
+      "english": "She likes the rain.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6052",
+      "unit_id": "U101",
+      "french": "J'aime le soleil.",
+      "english": "I like the sun.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6053",
+      "unit_id": "U101",
+      "french": "Voici le soleil !",
+      "english": "Here is the sun!",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6054",
+      "unit_id": "U101",
+      "french": "Il a chaud.",
+      "english": "He's hot.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6151",
+      "unit_id": "U102",
+      "french": "La mère et le père sont ici.",
+      "english": "The mother and the father are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6152",
+      "unit_id": "U102",
+      "french": "Voici le père.",
+      "english": "Here is the father.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6153",
+      "unit_id": "U102",
+      "french": "J'ai un fils.",
+      "english": "I have a son.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6154",
+      "unit_id": "U102",
+      "french": "Le fils est petit.",
+      "english": "The son is small.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6155",
+      "unit_id": "U102",
+      "french": "Le bébé est ici.",
+      "english": "The baby is here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6156",
+      "unit_id": "U102",
+      "french": "Les parents sont ici.",
+      "english": "The parents are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6157",
+      "unit_id": "U102",
+      "french": "Voici les parents.",
+      "english": "Here are the parents.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6251",
+      "unit_id": "U103",
+      "french": "La chambre est petite.",
+      "english": "The room is small.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6252",
+      "unit_id": "U103",
+      "french": "Voici la chambre.",
+      "english": "Here is the room.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6253",
+      "unit_id": "U103",
+      "french": "C'est une grande chambre.",
+      "english": "It's a big room.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6254",
+      "unit_id": "U103",
+      "french": "Le lit est ici.",
+      "english": "The bed is here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6255",
+      "unit_id": "U103",
+      "french": "Le lit est grand.",
+      "english": "The bed is big.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6256",
+      "unit_id": "U103",
+      "french": "J'ai un petit lit.",
+      "english": "I have a small bed.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6257",
+      "unit_id": "U103",
+      "french": "La porte est petite.",
+      "english": "The door is small.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6258",
+      "unit_id": "U103",
+      "french": "Voici la porte.",
+      "english": "Here is the door.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6259",
+      "unit_id": "U103",
+      "french": "C'est une grande porte.",
+      "english": "It's a big door.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6260",
+      "unit_id": "U103",
+      "french": "La fenêtre est grande.",
+      "english": "The window is big.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6261",
+      "unit_id": "U103",
+      "french": "Voici la fenêtre.",
+      "english": "Here is the window.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6262",
+      "unit_id": "U103",
+      "french": "La table et la chaise sont ici.",
+      "english": "The table and the chair are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6263",
+      "unit_id": "U103",
+      "french": "Voici une chaise.",
+      "english": "Here is a chair.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6264",
+      "unit_id": "U103",
+      "french": "La cuisine est petite.",
+      "english": "The kitchen is small.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6265",
+      "unit_id": "U103",
+      "french": "Voici la cuisine.",
+      "english": "Here is the kitchen.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6266",
+      "unit_id": "U103",
+      "french": "C'est une petite fenêtre.",
+      "english": "It's a small window.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6351",
+      "unit_id": "U104",
+      "french": "Il aime la musique.",
+      "english": "He likes music.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6352",
+      "unit_id": "U104",
+      "french": "J'aime la chanson.",
+      "english": "I like the song.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6353",
+      "unit_id": "U104",
+      "french": "Il a un piano.",
+      "english": "He has a piano.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6354",
+      "unit_id": "U104",
+      "french": "Le piano est grand.",
+      "english": "The piano is big.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6355",
+      "unit_id": "U104",
+      "french": "Elle a une guitare.",
+      "english": "She has a guitar.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6356",
+      "unit_id": "U104",
+      "french": "J'aime la guitare.",
+      "english": "I like the guitar.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6451",
+      "unit_id": "U105",
+      "french": "J'aime le chocolat.",
+      "english": "I like chocolate.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6452",
+      "unit_id": "U105",
+      "french": "Une tasse de café, s'il vous plaît.",
+      "english": "A cup of coffee, please.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6453",
+      "unit_id": "U105",
+      "french": "Une tasse de thé, s'il te plaît.",
+      "english": "A cup of tea, please.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6454",
+      "unit_id": "U105",
+      "french": "La tasse est petite.",
+      "english": "The cup is small.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6455",
+      "unit_id": "U105",
+      "french": "Un croissant, s'il vous plaît.",
+      "english": "A croissant, please.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6456",
+      "unit_id": "U105",
+      "french": "Je mange un croissant.",
+      "english": "I'm eating a croissant.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6457",
+      "unit_id": "U105",
+      "french": "Le croissant est grand.",
+      "english": "The croissant is big.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6551",
+      "unit_id": "U106",
+      "french": "Je mange du poulet.",
+      "english": "I'm eating chicken.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6552",
+      "unit_id": "U106",
+      "french": "Je mange du riz.",
+      "english": "I'm eating rice.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6553",
+      "unit_id": "U106",
+      "french": "Du riz, s'il vous plaît.",
+      "english": "Rice, please.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6554",
+      "unit_id": "U106",
+      "french": "Je mange une banane.",
+      "english": "I'm eating a banana.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6555",
+      "unit_id": "U106",
+      "french": "C'est une tomate.",
+      "english": "It's a tomato.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6556",
+      "unit_id": "U106",
+      "french": "Je mange une tomate.",
+      "english": "I'm eating a tomato.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6557",
+      "unit_id": "U106",
+      "french": "J'ai un œuf.",
+      "english": "I have an egg.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6558",
+      "unit_id": "U106",
+      "french": "Voici un œuf.",
+      "english": "Here is an egg.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6559",
+      "unit_id": "U106",
+      "french": "J'aime les œufs.",
+      "english": "I like eggs.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6560",
+      "unit_id": "U106",
+      "french": "Du beurre, s'il vous plaît.",
+      "english": "Butter, please.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6561",
+      "unit_id": "U106",
+      "french": "J'aime le beurre.",
+      "english": "I like butter.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6651",
+      "unit_id": "U107",
+      "french": "Voici la plage.",
+      "english": "Here is the beach.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6652",
+      "unit_id": "U107",
+      "french": "La plage est grande.",
+      "english": "The beach is big.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6653",
+      "unit_id": "U107",
+      "french": "J'aime la mer.",
+      "english": "I like the sea.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6654",
+      "unit_id": "U107",
+      "french": "La mer est grande.",
+      "english": "The sea is big.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6655",
+      "unit_id": "U107",
+      "french": "Voici la mer.",
+      "english": "Here is the sea.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6656",
+      "unit_id": "U107",
+      "french": "J'ai un bateau.",
+      "english": "I have a boat.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6657",
+      "unit_id": "U107",
+      "french": "Le bateau est petit.",
+      "english": "The boat is small.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6659",
+      "unit_id": "U107",
+      "french": "J'aime le sable.",
+      "english": "I like the sand.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6660",
+      "unit_id": "U107",
+      "french": "Le sable est ici.",
+      "english": "The sand is here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6055",
+      "unit_id": "U101",
+      "french": "Le soleil est grand.",
+      "english": "The sun is big.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6056",
+      "unit_id": "U101",
+      "french": "Tu as du temps ?",
+      "english": "Do you have time?",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6057",
+      "unit_id": "U101",
+      "french": "Il a du temps.",
+      "english": "He has time.",
+      "outcome": "replace",
+      "new_french": "Tu as le temps.",
+      "new_english": "You have time.",
+      "other_english": [],
+      "source_id": "4040774",
+      "source_owner": "ikui",
+      "trust": "native owner",
+      "alternatives": [],
+      "words": [
+        {
+          "surface": "Tu",
+          "word_id": "W007",
+          "name": false
+        },
+        {
+          "surface": "as",
+          "word_id": "W066",
+          "name": false
+        },
+        {
+          "surface": "le",
+          "word_id": "W019",
+          "name": false
+        },
+        {
+          "surface": "temps",
+          "word_id": "W306",
+          "name": false
+        }
+      ]
+    },
+    {
+      "sentence_id": "S6158",
+      "unit_id": "U102",
+      "french": "Voici la mère.",
+      "english": "Here is the mother.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6159",
+      "unit_id": "U102",
+      "french": "La mère est ici.",
+      "english": "The mother is here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6160",
+      "unit_id": "U102",
+      "french": "Le père est ici.",
+      "english": "The father is here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6161",
+      "unit_id": "U102",
+      "french": "Les parents et les enfants sont ici.",
+      "english": "The parents and the children are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6162",
+      "unit_id": "U102",
+      "french": "Voici le bébé.",
+      "english": "Here is the baby.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6357",
+      "unit_id": "U104",
+      "french": "Voici la chanson.",
+      "english": "Here is the song.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S6562",
+      "unit_id": "U106",
+      "french": "Il mange une banane.",
+      "english": "He's eating a banana.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7051",
+      "unit_id": "U06",
+      "french": "J'ai des livres.",
+      "english": "I have books.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7052",
+      "unit_id": "U06",
+      "french": "Les livres sont ici.",
+      "english": "The books are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7053",
+      "unit_id": "U06",
+      "french": "Voici les livres.",
+      "english": "Here are the books.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7054",
+      "unit_id": "U06",
+      "french": "J'ai des lettres.",
+      "english": "I have letters.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7055",
+      "unit_id": "U06",
+      "french": "Les lettres sont ici.",
+      "english": "The letters are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7056",
+      "unit_id": "U06",
+      "french": "Voici des lettres.",
+      "english": "Here are some letters.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7057",
+      "unit_id": "U06",
+      "french": "Voici les chats.",
+      "english": "Here are the cats.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7058",
+      "unit_id": "U06",
+      "french": "Il mange des pommes.",
+      "english": "He's eating apples.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7059",
+      "unit_id": "U06",
+      "french": "J'aime les pommes.",
+      "english": "I like apples.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7060",
+      "unit_id": "U06",
+      "french": "Voici des pommes.",
+      "english": "Here are some apples.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7061",
+      "unit_id": "U06",
+      "french": "J'ai des oiseaux.",
+      "english": "I have birds.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7062",
+      "unit_id": "U06",
+      "french": "Les oiseaux sont ici.",
+      "english": "The birds are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7063",
+      "unit_id": "U06",
+      "french": "J'aime les oiseaux.",
+      "english": "I like birds.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7064",
+      "unit_id": "U06",
+      "french": "Voici les chevaux.",
+      "english": "Here are the horses.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7065",
+      "unit_id": "U06",
+      "french": "J'aime les chevaux.",
+      "english": "I like horses.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7066",
+      "unit_id": "U06",
+      "french": "Vous êtes des enfants ?",
+      "english": "Are you children?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7067",
+      "unit_id": "U06",
+      "french": "Non, nous sommes des hommes.",
+      "english": "No, we are men.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7068",
+      "unit_id": "U06",
+      "french": "Tu as des chats ?",
+      "english": "Do you have cats?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7069",
+      "unit_id": "U06",
+      "french": "Oui, j'ai des chats.",
+      "english": "Yes, I have cats.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7070",
+      "unit_id": "U06",
+      "french": "Les chiens sont ici ?",
+      "english": "Are the dogs here?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7071",
+      "unit_id": "U06",
+      "french": "Oui, les chiens sont ici.",
+      "english": "Yes, the dogs are here.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7072",
+      "unit_id": "U06",
+      "french": "Tu manges des pommes ?",
+      "english": "Are you eating apples?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7073",
+      "unit_id": "U06",
+      "french": "Non, je mange du pain.",
+      "english": "No, I'm eating bread.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7151",
+      "unit_id": "U07",
+      "french": "Le cheval est vieux.",
+      "english": "The horse is old.",
+      "outcome": "replace",
+      "new_french": "Tu es vieux.",
+      "new_english": "You're old.",
+      "other_english": [],
+      "source_id": "4655363",
+      "source_owner": "sacredceltic",
+      "trust": "native owner",
+      "alternatives": [
+        {
+          "french": "Vous êtes vieux.",
+          "english": "You're old.",
+          "source_id": "4655365",
+          "source_owner": "sacredceltic"
+        },
+        {
+          "french": "Ils sont vieux.",
+          "english": "They're old.",
+          "source_id": "5371958",
+          "source_owner": "Aiji"
+        },
+        {
+          "french": "Il est vieux.",
+          "english": "He is old.",
+          "source_id": "821565",
+          "source_owner": "sacredceltic"
+        }
+      ],
+      "words": [
+        {
+          "surface": "Tu",
+          "word_id": "W007",
+          "name": false
+        },
+        {
+          "surface": "es",
+          "word_id": "W009",
+          "name": false
+        },
+        {
+          "surface": "vieux",
+          "word_id": "W416",
+          "name": false
+        }
+      ]
+    },
+    {
+      "sentence_id": "S7153",
+      "unit_id": "U07",
+      "french": "Il est très vieux.",
+      "english": "He is very old.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7154",
+      "unit_id": "U07",
+      "french": "C'est une vieille lettre.",
+      "english": "It's an old letter.",
+      "outcome": "replace",
+      "new_french": "Tu es vieille.",
+      "new_english": "You're old.",
+      "other_english": [],
+      "source_id": "4655364",
+      "source_owner": "sacredceltic",
+      "trust": "native owner",
+      "alternatives": [
+        {
+          "french": "Vous êtes vieille.",
+          "english": "You're old.",
+          "source_id": "4655368",
+          "source_owner": "sacredceltic"
+        }
+      ],
+      "words": [
+        {
+          "surface": "Tu",
+          "word_id": "W007",
+          "name": false
+        },
+        {
+          "surface": "es",
+          "word_id": "W009",
+          "name": false
+        },
+        {
+          "surface": "vieille",
+          "word_id": "W417",
+          "name": false
+        }
+      ]
+    },
+    {
+      "sentence_id": "S7155",
+      "unit_id": "U07",
+      "french": "Le pain est bon ?",
+      "english": "Is the bread good?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7156",
+      "unit_id": "U07",
+      "french": "Oui, le pain est très bon.",
+      "english": "Yes, the bread is very good.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7157",
+      "unit_id": "U07",
+      "french": "Elle est gentille ?",
+      "english": "Is she nice?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7158",
+      "unit_id": "U07",
+      "french": "Oui, elle est très gentille.",
+      "english": "Yes, she's very nice.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7159",
+      "unit_id": "U07",
+      "french": "Le chien est vieux ?",
+      "english": "Is the dog old?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7160",
+      "unit_id": "U07",
+      "french": "Non, il est jeune.",
+      "english": "No, he's young.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7161",
+      "unit_id": "U07",
+      "french": "La pomme est bonne ?",
+      "english": "Is the apple good?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7162",
+      "unit_id": "U07",
+      "french": "Oui, elle est très bonne.",
+      "english": "Yes, it's very good.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7251",
+      "unit_id": "U08",
+      "french": "C'est ma pomme.",
+      "english": "It's my apple.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7252",
+      "unit_id": "U08",
+      "french": "Voici ma lettre.",
+      "english": "Here is my letter.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7253",
+      "unit_id": "U08",
+      "french": "Ma tortue est petite.",
+      "english": "My tortoise is small.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7254",
+      "unit_id": "U08",
+      "french": "Mes chats sont ici.",
+      "english": "My cats are here.",
+      "outcome": "replace",
+      "new_french": "Mes chats sont mes enfants.",
+      "new_english": "My cats are my children.",
+      "other_english": [],
+      "source_id": "10091044",
+      "source_owner": "Rovo",
+      "trust": "native owner",
+      "alternatives": [],
+      "words": [
+        {
+          "surface": "Mes",
+          "word_id": "W423",
+          "name": false
+        },
+        {
+          "surface": "chats",
+          "word_id": "W406",
+          "name": false
+        },
+        {
+          "surface": "sont",
+          "word_id": "W028",
+          "name": false
+        },
+        {
+          "surface": "mes",
+          "word_id": "W423",
+          "name": false
+        },
+        {
+          "surface": "enfants",
+          "word_id": "W033",
+          "name": false
+        }
+      ]
+    },
+    {
+      "sentence_id": "S7255",
+      "unit_id": "U08",
+      "french": "Ta pomme est ici.",
+      "english": "Your apple is here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7256",
+      "unit_id": "U08",
+      "french": "C'est ta lettre.",
+      "english": "It's your letter.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7257",
+      "unit_id": "U08",
+      "french": "Voici ta tortue.",
+      "english": "Here is your tortoise.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7258",
+      "unit_id": "U08",
+      "french": "Tes livres sont ici.",
+      "english": "Your books are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7259",
+      "unit_id": "U08",
+      "french": "Voici tes lettres.",
+      "english": "Here are your letters.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7260",
+      "unit_id": "U08",
+      "french": "J'aime tes chiens.",
+      "english": "I like your dogs.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7261",
+      "unit_id": "U08",
+      "french": "Elle mange sa pomme.",
+      "english": "She's eating her apple.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7262",
+      "unit_id": "U08",
+      "french": "Il a sa lettre.",
+      "english": "He has his letter.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7263",
+      "unit_id": "U08",
+      "french": "C'est sa tortue.",
+      "english": "It's her tortoise.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7264",
+      "unit_id": "U08",
+      "french": "Il aime ses chats.",
+      "english": "He likes his cats.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7265",
+      "unit_id": "U08",
+      "french": "C'est ton chien ?",
+      "english": "Is it your dog?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7266",
+      "unit_id": "U08",
+      "french": "Oui, c'est mon chien.",
+      "english": "Yes, it's my dog.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7267",
+      "unit_id": "U08",
+      "french": "C'est ta pomme ?",
+      "english": "Is it your apple?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7268",
+      "unit_id": "U08",
+      "french": "Non, c'est sa pomme.",
+      "english": "No, it's her apple.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7269",
+      "unit_id": "U08",
+      "french": "Tes enfants sont ici ?",
+      "english": "Are your children here?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7270",
+      "unit_id": "U08",
+      "french": "Oui, mes enfants sont ici.",
+      "english": "Yes, my children are here.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7271",
+      "unit_id": "U08",
+      "french": "Ton ami mange ?",
+      "english": "Is your friend eating?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7272",
+      "unit_id": "U08",
+      "french": "Oui, mon ami mange un sandwich.",
+      "english": "Yes, my friend is eating a sandwich.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7351",
+      "unit_id": "U09",
+      "french": "Qu'est-ce que tu manges ?",
+      "english": "What are you eating?",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7352",
+      "unit_id": "U09",
+      "french": "Quel livre ?",
+      "english": "Which book?",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7353",
+      "unit_id": "U09",
+      "french": "Quelle pomme ?",
+      "english": "Which apple?",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7354",
+      "unit_id": "U09",
+      "french": "Quelle lettre est ici ?",
+      "english": "Which letter is here?",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7355",
+      "unit_id": "U09",
+      "french": "Je mange parce que j'aime le pain.",
+      "english": "I'm eating because I like bread.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7356",
+      "unit_id": "U09",
+      "french": "Il est ici parce que tu es ici.",
+      "english": "He is here because you are here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7357",
+      "unit_id": "U09",
+      "french": "Où est le chat ?",
+      "english": "Where is the cat?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7358",
+      "unit_id": "U09",
+      "french": "Le chat est ici.",
+      "english": "The cat is here.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7359",
+      "unit_id": "U09",
+      "french": "Qui est ici ?",
+      "english": "Who is here?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7360",
+      "unit_id": "U09",
+      "french": "Paul est ici.",
+      "english": "Paul is here.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7361",
+      "unit_id": "U09",
+      "french": "Qu'est-ce que tu aimes ?",
+      "english": "What do you like?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7363",
+      "unit_id": "U09",
+      "french": "Est-ce que tu as un chien ?",
+      "english": "Do you have a dog?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7364",
+      "unit_id": "U09",
+      "french": "Oui, j'ai un chien.",
+      "english": "Yes, I have a dog.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7451",
+      "unit_id": "U10",
+      "french": "J'ai quatre chats.",
+      "english": "I have four cats.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7452",
+      "unit_id": "U10",
+      "french": "Il a quatre livres.",
+      "english": "He has four books.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7453",
+      "unit_id": "U10",
+      "french": "Elle a cinq livres.",
+      "english": "She has five books.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7454",
+      "unit_id": "U10",
+      "french": "Nous sommes cinq.",
+      "english": "There are five of us.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7455",
+      "unit_id": "U10",
+      "french": "J'ai six pommes.",
+      "english": "I have six apples.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7456",
+      "unit_id": "U10",
+      "french": "Elle a six oiseaux.",
+      "english": "She has six birds.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7457",
+      "unit_id": "U10",
+      "french": "Il a sept chats.",
+      "english": "He has seven cats.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7458",
+      "unit_id": "U10",
+      "french": "J'ai sept livres.",
+      "english": "I have seven books.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7459",
+      "unit_id": "U10",
+      "french": "J'ai huit pommes.",
+      "english": "I have eight apples.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7460",
+      "unit_id": "U10",
+      "french": "Il a huit chiens.",
+      "english": "He has eight dogs.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7461",
+      "unit_id": "U10",
+      "french": "Nous sommes huit.",
+      "english": "There are eight of us.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7462",
+      "unit_id": "U10",
+      "french": "J'ai neuf livres.",
+      "english": "I have nine books.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7463",
+      "unit_id": "U10",
+      "french": "Elle a neuf chats.",
+      "english": "She has nine cats.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7464",
+      "unit_id": "U10",
+      "french": "Nous sommes neuf.",
+      "english": "There are nine of us.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7465",
+      "unit_id": "U10",
+      "french": "J'ai dix pommes.",
+      "english": "I have ten apples.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7466",
+      "unit_id": "U10",
+      "french": "Il a dix oiseaux.",
+      "english": "He has ten birds.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7467",
+      "unit_id": "U10",
+      "french": "Nous sommes dix.",
+      "english": "There are ten of us.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7468",
+      "unit_id": "U10",
+      "french": "Tu as combien de chats ?",
+      "english": "How many cats do you have?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7470",
+      "unit_id": "U10",
+      "french": "Il a combien de chiens ?",
+      "english": "How many dogs does he have?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7472",
+      "unit_id": "U10",
+      "french": "Tu as combien de livres ?",
+      "english": "How many books do you have?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7551",
+      "unit_id": "U11",
+      "french": "Le livre est vert.",
+      "english": "The book is green.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7552",
+      "unit_id": "U11",
+      "french": "J'ai un livre vert.",
+      "english": "I have a green book.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7553",
+      "unit_id": "U11",
+      "french": "La pomme est verte.",
+      "english": "The apple is green.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7554",
+      "unit_id": "U11",
+      "french": "C'est une pomme verte.",
+      "english": "It's a green apple.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7555",
+      "unit_id": "U11",
+      "french": "La tortue est verte.",
+      "english": "The tortoise is green.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7557",
+      "unit_id": "U11",
+      "french": "La souris est noire.",
+      "english": "The mouse is black.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7558",
+      "unit_id": "U11",
+      "french": "C'est une souris noire.",
+      "english": "It's a black mouse.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7559",
+      "unit_id": "U11",
+      "french": "Elle a une souris noire.",
+      "english": "She has a black mouse.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7560",
+      "unit_id": "U11",
+      "french": "La lettre est blanche.",
+      "english": "The letter is white.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7561",
+      "unit_id": "U11",
+      "french": "J'ai une souris blanche.",
+      "english": "I have a white mouse.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7562",
+      "unit_id": "U11",
+      "french": "La lettre est bleue.",
+      "english": "The letter is blue.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7574",
+      "unit_id": "U11",
+      "french": "C'est une lettre bleue.",
+      "english": "It's a blue letter.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7563",
+      "unit_id": "U11",
+      "french": "C'est une pomme jaune.",
+      "english": "It's a yellow apple.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7564",
+      "unit_id": "U11",
+      "french": "Le canard est jaune.",
+      "english": "The duck is yellow.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7565",
+      "unit_id": "U11",
+      "french": "J'ai un livre bleu.",
+      "english": "I have a blue book.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7566",
+      "unit_id": "U11",
+      "french": "Le chat est noir ?",
+      "english": "Is the cat black?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7567",
+      "unit_id": "U11",
+      "french": "Non, il est blanc.",
+      "english": "No, it's white.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7568",
+      "unit_id": "U11",
+      "french": "La pomme est rouge ?",
+      "english": "Is the apple red?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7569",
+      "unit_id": "U11",
+      "french": "Non, elle est verte.",
+      "english": "No, it's green.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7570",
+      "unit_id": "U11",
+      "french": "Le livre est bleu ?",
+      "english": "Is the book blue?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7571",
+      "unit_id": "U11",
+      "french": "Non, il est jaune.",
+      "english": "No, it's yellow.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7572",
+      "unit_id": "U11",
+      "french": "La souris est blanche ?",
+      "english": "Is the mouse white?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7573",
+      "unit_id": "U11",
+      "french": "Oui, elle est blanche.",
+      "english": "Yes, it's white.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7651",
+      "unit_id": "U12",
+      "french": "Demain, c'est dimanche.",
+      "english": "Tomorrow is Sunday.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7652",
+      "unit_id": "U12",
+      "french": "Demain, je mange ici.",
+      "english": "Tomorrow I'm eating here.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7653",
+      "unit_id": "U12",
+      "french": "Paul est ici demain.",
+      "english": "Paul is here tomorrow.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7654",
+      "unit_id": "U12",
+      "french": "Je mange du pain le matin.",
+      "english": "I eat bread in the morning.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7655",
+      "unit_id": "U12",
+      "french": "Le matin, je mange une pomme.",
+      "english": "In the morning, I eat an apple.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7656",
+      "unit_id": "U12",
+      "french": "Il mange le matin.",
+      "english": "He eats in the morning.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7657",
+      "unit_id": "U12",
+      "french": "Le soir, je mange du fromage.",
+      "english": "In the evening, I eat cheese.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7658",
+      "unit_id": "U12",
+      "french": "Il mange le soir.",
+      "english": "He eats in the evening.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7659",
+      "unit_id": "U12",
+      "french": "J'aime le soir.",
+      "english": "I like the evening.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7660",
+      "unit_id": "U12",
+      "french": "C'est une bonne semaine.",
+      "english": "It's a good week.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7661",
+      "unit_id": "U12",
+      "french": "Lundi est un jour de la semaine.",
+      "english": "Monday is a day of the week.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7664",
+      "unit_id": "U12",
+      "french": "Dimanche est un jour de la semaine.",
+      "english": "Sunday is a day of the week.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7662",
+      "unit_id": "U12",
+      "french": "Il est une heure.",
+      "english": "It's one o'clock.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7663",
+      "unit_id": "U12",
+      "french": "J'ai une heure.",
+      "english": "I have an hour.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7665",
+      "unit_id": "U12",
+      "french": "C'est lundi aujourd'hui ?",
+      "english": "Is it Monday today?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7666",
+      "unit_id": "U12",
+      "french": "Non, aujourd'hui c'est dimanche.",
+      "english": "No, today is Sunday.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7667",
+      "unit_id": "U12",
+      "french": "Tu manges maintenant ?",
+      "english": "Are you eating now?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7668",
+      "unit_id": "U12",
+      "french": "Oui, je mange maintenant.",
+      "english": "Yes, I'm eating now.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7669",
+      "unit_id": "U12",
+      "french": "Tu es ici demain ?",
+      "english": "Are you here tomorrow?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7670",
+      "unit_id": "U12",
+      "french": "Oui, je suis ici demain.",
+      "english": "Yes, I'm here tomorrow.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7671",
+      "unit_id": "U12",
+      "french": "Tu manges le matin ?",
+      "english": "Do you eat in the morning?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7672",
+      "unit_id": "U12",
+      "french": "Non, je mange le soir.",
+      "english": "No, I eat in the evening.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7751",
+      "unit_id": "U13",
+      "french": "La ville est grande.",
+      "english": "The town is big.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7752",
+      "unit_id": "U13",
+      "french": "Je vais au magasin.",
+      "english": "I'm going to the shop.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7753",
+      "unit_id": "U13",
+      "french": "Le magasin est petit.",
+      "english": "The shop is small.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7754",
+      "unit_id": "U13",
+      "french": "Elle va au magasin.",
+      "english": "She's going to the shop.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7755",
+      "unit_id": "U13",
+      "french": "Le chat est dans le parc.",
+      "english": "The cat is in the park.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7756",
+      "unit_id": "U13",
+      "french": "Je suis dans le magasin.",
+      "english": "I'm in the shop.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7757",
+      "unit_id": "U13",
+      "french": "Le chien est dans le restaurant.",
+      "english": "The dog is in the restaurant.",
+      "outcome": "kept: no match on Tatoeba"
+    },
+    {
+      "sentence_id": "S7758",
+      "unit_id": "U13",
+      "french": "Tu vas au parc ?",
+      "english": "Are you going to the park?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7759",
+      "unit_id": "U13",
+      "french": "Oui, je vais au parc.",
+      "english": "Yes, I'm going to the park.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7760",
+      "unit_id": "U13",
+      "french": "Où est-ce que tu vas ?",
+      "english": "Where are you going?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7761",
+      "unit_id": "U13",
+      "french": "Je vais au restaurant.",
+      "english": "I'm going to the restaurant.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7762",
+      "unit_id": "U13",
+      "french": "Il va à l'école ?",
+      "english": "Is he going to school?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7763",
+      "unit_id": "U13",
+      "french": "Oui, il va à l'école.",
+      "english": "Yes, he's going to school.",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7764",
+      "unit_id": "U13",
+      "french": "Où est le magasin ?",
+      "english": "Where is the shop?",
+      "outcome": "kept: question-and-answer pair"
+    },
+    {
+      "sentence_id": "S7765",
+      "unit_id": "U13",
+      "french": "Le magasin est dans la ville.",
+      "english": "The shop is in the town.",
+      "outcome": "kept: question-and-answer pair"
+    }
+  ]
+}
