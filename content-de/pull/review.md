@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U03 Polite Phrases: Set phrases; du for friends, Sie for strangers: Wie geht es dir? Wie geht es Ihnen?
+## U04 Food and Drink: Verbs in the present: ich esse, du isst; ich trinke, du trinkst, er trinkt; ich mag
 
-30 sentences picked from 76 candidates (target 30 to 40). Grammar point in 20 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 110 candidates (target 30 to 40). Grammar point in 18 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): dir 9, Ihnen 7, guten Morgen 3, guten Abend 3.
+Contrast forms, sentences each (target 2): esse 3, isst 3, trinke 3, trinkst 3, mag 3, magst 4.
 
-**Gaps (P08)**, fewer than 3 usable sentences: bitte (2), guten Tag (2), gute Nacht (2), auf Wiedersehen (1), Entschuldigung (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: Apfel (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S3001 | Guten Abend! Wie geht es dir? | Good evening. How are you? |  | [#6985674](https://tatoeba.org/en/sentences/show/6985674) | Pfirsichbaeumchen |
-| S3002 | Guten Abend! Wie geht es Ihnen? | Good evening. How are you? |  | [#6985676](https://tatoeba.org/en/sentences/show/6985676) | Pfirsichbaeumchen |
-| S3003 | Guten Tag! Wie geht es dir? | Good day, how are you? |  | [#9932785](https://tatoeba.org/en/sentences/show/9932785) | grasweg3 |
-| S3004 | Danke, gut. Und Ihnen? | Fine, thank you. And you? |  | [#532241](https://tatoeba.org/en/sentences/show/532241) | Pfirsichbaeumchen |
-| S3005 | Danke, gut. Und dir? | Fine, thank you. And you? |  | [#532242](https://tatoeba.org/en/sentences/show/532242) | Pfirsichbaeumchen |
-| S3006 | Geht es Ihnen gut? | Are you OK? | Are you all right? | [#1324279](https://tatoeba.org/en/sentences/show/1324279) | al_ex_an_der |
-| S3007 | Guten Morgen! | Good morning. | Good morning! | [#382123](https://tatoeba.org/en/sentences/show/382123) | Dorenda |
-| S3008 | Guten Morgen, Tom. | Good morning, Tom. |  | [#6471469](https://tatoeba.org/en/sentences/show/6471469) | wolfgangth |
-| S3009 | Guten Abend. Wie geht es? | Good evening. How's it going? |  | [#5707117](https://tatoeba.org/en/sentences/show/5707117) | halfdan |
-| S3010 | Hallo Tom. Guten Morgen. | Hi, Tom. Good morning! |  | [#2153221](https://tatoeba.org/en/sentences/show/2153221) | Vortarulo |
-| S3011 | Gut, danke! | Fine, thanks. |  | [#9969368](https://tatoeba.org/en/sentences/show/9969368) | wolfgangth |
-| S3012 | Gute Nacht! | Good night. | Goodnight!; Good night! | [#438752](https://tatoeba.org/en/sentences/show/438752) | xtofu80 |
-| S3013 | Guten Tag! | Good afternoon. | Good day!; Good afternoon! | [#676082](https://tatoeba.org/en/sentences/show/676082) | Manfredo |
-| S3014 | Auf Wiedersehen. | Goodbye. |  | [#4238069](https://tatoeba.org/en/sentences/show/4238069) | JWeighardt |
-| S3015 | Ja, bitte. | Yes, please. |  | [#779214](https://tatoeba.org/en/sentences/show/779214) | BraveSentry |
-| S3016 | Hier bitte. | There you are. | There they are. | [#1493496](https://tatoeba.org/en/sentences/show/1493496) | al_ex_an_der |
-| S3017 | Gute Nacht, Tom! | Good night, Tom. |  | [#2649926](https://tatoeba.org/en/sentences/show/2649926) | Pfirsichbaeumchen |
-| S3018 | Wie geht es Ihnen? | How are you? |  | [#373322](https://tatoeba.org/en/sentences/show/373322) | Pfirsichbaeumchen |
-| S3019 | Hallo! Wie geht es dir? | Hello, how are you? | Hello! How are you?; Hi! How are you? | [#427048](https://tatoeba.org/en/sentences/show/427048) | Cilyan |
-| S3020 | Wie geht es Ihnen, Tom? | How are you, Tom? |  | [#1341269](https://tatoeba.org/en/sentences/show/1341269) | Zaghawa |
-| S3021 | Geht es dir gut, Tom? | Tom, are you okay? | Are you all right, Tom? | [#1875410](https://tatoeba.org/en/sentences/show/1875410) | Pfirsichbaeumchen |
-| S3022 | Tom, wie geht es dir? | Tom, how's it going? |  | [#6625099](https://tatoeba.org/en/sentences/show/6625099) | Felixjp |
-| S3023 | Hallo! Wie geht es Ihnen? | Hello! How are you? | Hi! How are you? | [#12544314](https://tatoeba.org/en/sentences/show/12544314) | Waldelfe |
-| S3024 | Wie geht es dir und Tom? | How are things with you and Tom? |  | [#6624932](https://tatoeba.org/en/sentences/show/6624932) | Felixjp |
-| S3025 | Hallo, Peter! Wie geht es dir? | Hello, Peter, how are you? |  | [#10931151](https://tatoeba.org/en/sentences/show/10931151) | Pfirsichbaeumchen |
-| S3026 | Gut. Und dir? | Good. And you? | Fine. And you? | [#451327](https://tatoeba.org/en/sentences/show/451327) | Pfirsichbaeumchen |
-| S3027 | Gut. Und Ihnen? | Good. And you? | Fine. And you? | [#3900488](https://tatoeba.org/en/sentences/show/3900488) | Trinkschokolade |
-| S3028 | Wie geht es Mary? | How is Mary? |  | [#1313767](https://tatoeba.org/en/sentences/show/1313767) | al_ex_an_der |
-| S3029 | Geht es Tom gut? | Is Tom well? | Is Tom alright?; Is Tom all right?; Is Tom doing OK?; Is Tom doing okay? | [#2969736](https://tatoeba.org/en/sentences/show/2969736) | Pfirsichbaeumchen |
-| S3030 | Wie gut bist du? | How good are you? |  | [#6641443](https://tatoeba.org/en/sentences/show/6641443) | Felixjp |
+| S4001 | Ich mag Milch und Brot. | I like milk and bread. |  | [#873950](https://tatoeba.org/en/sentences/show/873950) | Esperantostern |
+| S4002 | Ich esse und trinke. | I eat and drink. |  | [#2669686](https://tatoeba.org/en/sentences/show/2669686) | Pfirsichbaeumchen |
+| S4003 | Trinkst du Milch? | Do you drink milk? | Are you drinking milk? | [#2234763](https://tatoeba.org/en/sentences/show/2234763) | Zaghawa |
+| S4004 | Magst du Kaffee? | Do you like coffee? |  | [#2739818](https://tatoeba.org/en/sentences/show/2739818) | al_ex_an_der |
+| S4005 | Trinkst du Tee? | Do you drink tea? |  | [#3675045](https://tatoeba.org/en/sentences/show/3675045) | Esperantostern |
+| S4006 | Magst du Käse? | Do you like cheese? |  | [#8636835](https://tatoeba.org/en/sentences/show/8636835) | Melang |
+| S4007 | Ich mag Tee. | I like tea. |  | [#341686](https://tatoeba.org/en/sentences/show/341686) | MUIRIEL |
+| S4008 | Ich esse Brot. | I eat bread. | I'm eating bread.; I am eating bread. | [#942240](https://tatoeba.org/en/sentences/show/942240) | Sudajaengi |
+| S4009 | Ich trinke Kaffee. | I drink coffee. | I'm drinking coffee.; I'm drinking the coffee.; I am drinking coffee. | [#1000345](https://tatoeba.org/en/sentences/show/1000345) | Pfirsichbaeumchen |
+| S4010 | Du isst Brot. | You eat bread. | You're eating bread. | [#8320406](https://tatoeba.org/en/sentences/show/8320406) | MisterTrouser |
+| S4011 | Tom trinkt Tee und Mary trinkt Kaffee. | Tom drinks tea and Mary drinks coffee. | Tom drinks tea while Mary drinks coffee. | [#10047380](https://tatoeba.org/en/sentences/show/10047380) | sakslane |
+| S4012 | Trinkt er Milch? | Is he drinking milk? | Does he drink milk? | [#2234764](https://tatoeba.org/en/sentences/show/2234764) | Zaghawa |
+| S4013 | Trinkst du Wasser? | Do you drink water? |  | [#10061351](https://tatoeba.org/en/sentences/show/10061351) | wolfgangth |
+| S4014 | Tom mag Käse. | Tom likes cheese. |  | [#580643](https://tatoeba.org/en/sentences/show/580643) | samueldora |
+| S4015 | Er trinkt Wasser. | He drinks water. | He's drinking water. | [#2732338](https://tatoeba.org/en/sentences/show/2732338) | Pfirsichbaeumchen |
+| S4016 | Ich esse Käse. | I eat cheese. | I'm eating cheese.; I am eating cheese. | [#3813565](https://tatoeba.org/en/sentences/show/3813565) | Pfirsichbaeumchen |
+| S4017 | Ich trinke Wasser. | I drink water. | I'm drinking water. | [#4258960](https://tatoeba.org/en/sentences/show/4258960) | Pfirsichbaeumchen |
+| S4018 | Isst sie? | Is she eating? |  | [#13417250](https://tatoeba.org/en/sentences/show/13417250) | mhr |
+| S4019 | Isst er? | Is he eating? |  | [#13417253](https://tatoeba.org/en/sentences/show/13417253) | mhr |
+| S4020 | Magst du es? | You like it? | Do you like it? | [#625612](https://tatoeba.org/en/sentences/show/625612) | kolonjano |
+| S4021 | Der Apfel ist groß. | The apple is big. | The apple is large. | [#13790984](https://tatoeba.org/en/sentences/show/13790984) | mhr |
+| S4022 | Trinkt sie Milch? | Does she drink milk? |  | [#2234765](https://tatoeba.org/en/sentences/show/2234765) | Zaghawa |
+| S4023 | Trinkt Tom Kaffee? | Does Tom drink coffee? |  | [#3493657](https://tatoeba.org/en/sentences/show/3493657) | al_ex_an_der |
+| S4024 | Trinkt sie Kaffee? | Does she drink coffee? |  | [#5185154](https://tatoeba.org/en/sentences/show/5185154) | Esperantostern |
+| S4025 | Trinkt er Kaffee? | Is he drinking coffee? | Does he drink coffee? | [#5206441](https://tatoeba.org/en/sentences/show/5206441) | jaz1313 |
+| S4026 | Trinkt er Tee? | Does he drink tea? |  | [#5692008](https://tatoeba.org/en/sentences/show/5692008) | Esperantostern |
+| S4027 | Trinkt Tom Milch? | Does Tom drink milk? |  | [#10061314](https://tatoeba.org/en/sentences/show/10061314) | wolfgangth |
+| S4028 | Ist das Kaffee? | Is that coffee? |  | [#3374025](https://tatoeba.org/en/sentences/show/3374025) | Pfirsichbaeumchen |
+| S4029 | Wie ist das Wasser? | How's the water? |  | [#1985837](https://tatoeba.org/en/sentences/show/1985837) | Pfirsichbaeumchen |
+| S4030 | Magst du Tom nicht? | Don't you like Tom? | Do you not like Tom? | [#6625684](https://tatoeba.org/en/sentences/show/6625684) | Felixjp |

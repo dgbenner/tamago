@@ -2440,6 +2440,790 @@
     "hint_override": ""
   },
   {
+    "sentence_id": "S4001",
+    "position": 1,
+    "surface": "Ich",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4001",
+    "position": 2,
+    "surface": "mag",
+    "word_id": "W050",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4001",
+    "position": 3,
+    "surface": "Milch",
+    "word_id": "W054",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4001",
+    "position": 4,
+    "surface": "und",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4001",
+    "position": 5,
+    "surface": "Brot",
+    "word_id": "W052",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4002",
+    "position": 1,
+    "surface": "Ich",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4002",
+    "position": 2,
+    "surface": "esse",
+    "word_id": "W045",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4002",
+    "position": 3,
+    "surface": "und",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4002",
+    "position": 4,
+    "surface": "trinke",
+    "word_id": "W047",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4003",
+    "position": 1,
+    "surface": "Trinkst",
+    "word_id": "W048",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4003",
+    "position": 2,
+    "surface": "du",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4003",
+    "position": 3,
+    "surface": "Milch",
+    "word_id": "W054",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4004",
+    "position": 1,
+    "surface": "Magst",
+    "word_id": "W051",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4004",
+    "position": 2,
+    "surface": "du",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4004",
+    "position": 3,
+    "surface": "Kaffee",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4005",
+    "position": 1,
+    "surface": "Trinkst",
+    "word_id": "W048",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4005",
+    "position": 2,
+    "surface": "du",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4005",
+    "position": 3,
+    "surface": "Tee",
+    "word_id": "W058",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4006",
+    "position": 1,
+    "surface": "Magst",
+    "word_id": "W051",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4006",
+    "position": 2,
+    "surface": "du",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4006",
+    "position": 3,
+    "surface": "Käse",
+    "word_id": "W055",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4007",
+    "position": 1,
+    "surface": "Ich",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4007",
+    "position": 2,
+    "surface": "mag",
+    "word_id": "W050",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4007",
+    "position": 3,
+    "surface": "Tee",
+    "word_id": "W058",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4008",
+    "position": 1,
+    "surface": "Ich",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4008",
+    "position": 2,
+    "surface": "esse",
+    "word_id": "W045",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4008",
+    "position": 3,
+    "surface": "Brot",
+    "word_id": "W052",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4009",
+    "position": 1,
+    "surface": "Ich",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4009",
+    "position": 2,
+    "surface": "trinke",
+    "word_id": "W047",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4009",
+    "position": 3,
+    "surface": "Kaffee",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4010",
+    "position": 1,
+    "surface": "Du",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4010",
+    "position": 2,
+    "surface": "isst",
+    "word_id": "W046",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4010",
+    "position": 3,
+    "surface": "Brot",
+    "word_id": "W052",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4011",
+    "position": 1,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4011",
+    "position": 2,
+    "surface": "trinkt",
+    "word_id": "W049",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4011",
+    "position": 3,
+    "surface": "Tee",
+    "word_id": "W058",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4011",
+    "position": 4,
+    "surface": "und",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4011",
+    "position": 5,
+    "surface": "Mary",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4011",
+    "position": 6,
+    "surface": "trinkt",
+    "word_id": "W049",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4011",
+    "position": 7,
+    "surface": "Kaffee",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4012",
+    "position": 1,
+    "surface": "Trinkt",
+    "word_id": "W049",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4012",
+    "position": 2,
+    "surface": "er",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4012",
+    "position": 3,
+    "surface": "Milch",
+    "word_id": "W054",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4013",
+    "position": 1,
+    "surface": "Trinkst",
+    "word_id": "W048",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4013",
+    "position": 2,
+    "surface": "du",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4013",
+    "position": 3,
+    "surface": "Wasser",
+    "word_id": "W053",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4014",
+    "position": 1,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4014",
+    "position": 2,
+    "surface": "mag",
+    "word_id": "W050",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4014",
+    "position": 3,
+    "surface": "Käse",
+    "word_id": "W055",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4015",
+    "position": 1,
+    "surface": "Er",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4015",
+    "position": 2,
+    "surface": "trinkt",
+    "word_id": "W049",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4015",
+    "position": 3,
+    "surface": "Wasser",
+    "word_id": "W053",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4016",
+    "position": 1,
+    "surface": "Ich",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4016",
+    "position": 2,
+    "surface": "esse",
+    "word_id": "W045",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4016",
+    "position": 3,
+    "surface": "Käse",
+    "word_id": "W055",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4017",
+    "position": 1,
+    "surface": "Ich",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4017",
+    "position": 2,
+    "surface": "trinke",
+    "word_id": "W047",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4017",
+    "position": 3,
+    "surface": "Wasser",
+    "word_id": "W053",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4018",
+    "position": 1,
+    "surface": "Isst",
+    "word_id": "W046",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4018",
+    "position": 2,
+    "surface": "sie",
+    "word_id": "W022",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4019",
+    "position": 1,
+    "surface": "Isst",
+    "word_id": "W046",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4019",
+    "position": 2,
+    "surface": "er",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4020",
+    "position": 1,
+    "surface": "Magst",
+    "word_id": "W051",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4020",
+    "position": 2,
+    "surface": "du",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4020",
+    "position": 3,
+    "surface": "es",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4021",
+    "position": 1,
+    "surface": "Der",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4021",
+    "position": 2,
+    "surface": "Apfel",
+    "word_id": "W056",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4021",
+    "position": 3,
+    "surface": "ist",
+    "word_id": "W024",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4021",
+    "position": 4,
+    "surface": "groß",
+    "word_id": "W030",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4022",
+    "position": 1,
+    "surface": "Trinkt",
+    "word_id": "W049",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4022",
+    "position": 2,
+    "surface": "sie",
+    "word_id": "W022",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4022",
+    "position": 3,
+    "surface": "Milch",
+    "word_id": "W054",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4023",
+    "position": 1,
+    "surface": "Trinkt",
+    "word_id": "W049",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4023",
+    "position": 2,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4023",
+    "position": 3,
+    "surface": "Kaffee",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4024",
+    "position": 1,
+    "surface": "Trinkt",
+    "word_id": "W049",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4024",
+    "position": 2,
+    "surface": "sie",
+    "word_id": "W022",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4024",
+    "position": 3,
+    "surface": "Kaffee",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4025",
+    "position": 1,
+    "surface": "Trinkt",
+    "word_id": "W049",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4025",
+    "position": 2,
+    "surface": "er",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4025",
+    "position": 3,
+    "surface": "Kaffee",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4026",
+    "position": 1,
+    "surface": "Trinkt",
+    "word_id": "W049",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4026",
+    "position": 2,
+    "surface": "er",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4026",
+    "position": 3,
+    "surface": "Tee",
+    "word_id": "W058",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4027",
+    "position": 1,
+    "surface": "Trinkt",
+    "word_id": "W049",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4027",
+    "position": 2,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4027",
+    "position": 3,
+    "surface": "Milch",
+    "word_id": "W054",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4028",
+    "position": 1,
+    "surface": "Ist",
+    "word_id": "W024",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4028",
+    "position": 2,
+    "surface": "das",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4028",
+    "position": 3,
+    "surface": "Kaffee",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4029",
+    "position": 1,
+    "surface": "Wie",
+    "word_id": "W040",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4029",
+    "position": 2,
+    "surface": "ist",
+    "word_id": "W024",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4029",
+    "position": 3,
+    "surface": "das",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4029",
+    "position": 4,
+    "surface": "Wasser",
+    "word_id": "W053",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4030",
+    "position": 1,
+    "surface": "Magst",
+    "word_id": "W051",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4030",
+    "position": 2,
+    "surface": "du",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4030",
+    "position": 3,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4030",
+    "position": 4,
+    "surface": "nicht",
+    "word_id": "W005",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S1101",
     "position": 1,
     "surface": "Tschüss",
@@ -3237,6 +4021,166 @@
     "surface": "Tom",
     "word_id": "",
     "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4101",
+    "position": 1,
+    "surface": "Das",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4101",
+    "position": 2,
+    "surface": "ist",
+    "word_id": "W024",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4101",
+    "position": 3,
+    "surface": "ein",
+    "word_id": "W010",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4101",
+    "position": 4,
+    "surface": "Apfel",
+    "word_id": "W056",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4102",
+    "position": 1,
+    "surface": "Der",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4102",
+    "position": 2,
+    "surface": "Apfel",
+    "word_id": "W056",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4102",
+    "position": 3,
+    "surface": "ist",
+    "word_id": "W024",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4102",
+    "position": 4,
+    "surface": "klein",
+    "word_id": "W031",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4103",
+    "position": 1,
+    "surface": "Ja",
+    "word_id": "W003",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4103",
+    "position": 2,
+    "surface": "ich",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4103",
+    "position": 3,
+    "surface": "mag",
+    "word_id": "W050",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4103",
+    "position": 4,
+    "surface": "Kaffee",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4104",
+    "position": 1,
+    "surface": "Ja",
+    "word_id": "W003",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4104",
+    "position": 2,
+    "surface": "ich",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4104",
+    "position": 3,
+    "surface": "trinke",
+    "word_id": "W047",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4104",
+    "position": 4,
+    "surface": "Tee",
+    "word_id": "W058",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4105",
+    "position": 1,
+    "surface": "Ja",
+    "word_id": "W003",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4105",
+    "position": 2,
+    "surface": "ich",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4105",
+    "position": 3,
+    "surface": "mag",
+    "word_id": "W050",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4105",
+    "position": 4,
+    "surface": "Käse",
+    "word_id": "W055",
+    "notes": "",
     "hint_override": ""
   }
 ]

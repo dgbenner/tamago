@@ -19,5 +19,12 @@
     "example_sentence_ids": "S3001;S3002;S3004",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U04",
+    "rule": "German verbs change their ending with the person: ich esse, du isst, er isst; ich trinke, du trinkst, er trinkt. The ich form ends in -e, the du form in -st, the er, sie and es form in -t. Mögen (to like) is irregular: ich mag, du magst, er mag. In a question the verb comes first: Trinkst du Milch? German needs no word for some: Ich trinke Wasser is I drink water.",
+    "example_sentence_ids": "S4017;S4013;S4007",
+    "conjugation_lemma": "trinken",
+    "status": "live"
   }
 ]

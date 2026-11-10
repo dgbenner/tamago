@@ -199,7 +199,107 @@
       "french": "Entschuldigung, ist das Tom?",
       "english": "Excuse me, is that Tom?",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S4101",
+      "unit_id": "U04",
+      "french": "Das ist ein Apfel.",
+      "english": "That is an apple.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S4102",
+      "unit_id": "U04",
+      "french": "Der Apfel ist klein.",
+      "english": "The apple is small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S4103",
+      "unit_id": "U04",
+      "french": "Ja, ich mag Kaffee.",
+      "english": "Yes, I like coffee.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S4104",
+      "unit_id": "U04",
+      "french": "Ja, ich trinke Tee.",
+      "english": "Yes, I drink tea.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S4105",
+      "unit_id": "U04",
+      "french": "Ja, ich mag Käse.",
+      "english": "Yes, I like cheese.",
+      "notes": "QT09 answer"
     }
   ],
-  "qa_answers": []
+  "qa_answers": [
+    {
+      "question_sentence_id": "S1022",
+      "answer_sentence_id": "S1016"
+    },
+    {
+      "question_sentence_id": "S1002",
+      "answer_sentence_id": "S1007"
+    },
+    {
+      "question_sentence_id": "S1111",
+      "answer_sentence_id": "S1005"
+    },
+    {
+      "question_sentence_id": "S1112",
+      "answer_sentence_id": "S1003"
+    },
+    {
+      "question_sentence_id": "S2020",
+      "answer_sentence_id": "S2030"
+    },
+    {
+      "question_sentence_id": "S2021",
+      "answer_sentence_id": "S2029"
+    },
+    {
+      "question_sentence_id": "S2103",
+      "answer_sentence_id": "S2101"
+    },
+    {
+      "question_sentence_id": "S2106",
+      "answer_sentence_id": "S2104"
+    },
+    {
+      "question_sentence_id": "S3018",
+      "answer_sentence_id": "S3004"
+    },
+    {
+      "question_sentence_id": "S3019",
+      "answer_sentence_id": "S3005"
+    },
+    {
+      "question_sentence_id": "S3021",
+      "answer_sentence_id": "S3026"
+    },
+    {
+      "question_sentence_id": "S3002",
+      "answer_sentence_id": "S3027"
+    },
+    {
+      "question_sentence_id": "S4013",
+      "answer_sentence_id": "S4017"
+    },
+    {
+      "question_sentence_id": "S4004",
+      "answer_sentence_id": "S4103"
+    },
+    {
+      "question_sentence_id": "S4005",
+      "answer_sentence_id": "S4104"
+    },
+    {
+      "question_sentence_id": "S4006",
+      "answer_sentence_id": "S4105"
+    }
+  ]
 }

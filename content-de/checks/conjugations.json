@@ -25,6 +25,32 @@
       "form": "sind"
     }
   ],
+  "trinken": [
+    {
+      "person": "ich",
+      "form": "trinke"
+    },
+    {
+      "person": "du",
+      "form": "trinkst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "trinkt"
+    },
+    {
+      "person": "wir",
+      "form": "trinken"
+    },
+    {
+      "person": "ihr",
+      "form": "trinkt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "trinken"
+    }
+  ],
   "gehen": [
     {
       "person": "ich",
@@ -75,32 +101,6 @@
     {
       "person": "sie, Sie",
       "form": "essen"
-    }
-  ],
-  "trinken": [
-    {
-      "person": "ich",
-      "form": "trinke"
-    },
-    {
-      "person": "du",
-      "form": "trinkst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "trinkt"
-    },
-    {
-      "person": "wir",
-      "form": "trinken"
-    },
-    {
-      "person": "ihr",
-      "form": "trinkt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "trinken"
     }
   ],
   "mögen": [

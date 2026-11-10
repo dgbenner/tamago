@@ -673,7 +673,7 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (27), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (32), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (12)
 
@@ -710,3 +710,11 @@ Every German sentence I wrote (27), for a native speaker of German as spoken in 
 - S3106 Entschuldigung! = Excuse me!
 - S3107 Entschuldigung, bist du Tom? = Excuse me, are you Tom?
 - S3108 Entschuldigung, ist das Tom? = Excuse me, is that Tom?
+
+**U04 Food and Drink** (5)
+
+- S4101 Das ist ein Apfel. = That is an apple.
+- S4102 Der Apfel ist klein. = The apple is small.
+- S4103 Ja, ich mag Kaffee. = Yes, I like coffee. (QT09 answer)
+- S4104 Ja, ich trinke Tee. = Yes, I drink tea. (QT09 answer)
+- S4105 Ja, ich mag Käse. = Yes, I like cheese. (QT09 answer)

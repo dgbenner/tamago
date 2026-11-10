@@ -1,0 +1,1412 @@
+{
+  "unit_id": "U04",
+  "pulled_at": "2026-11-10",
+  "candidates": 110,
+  "sentences": [
+    {
+      "sentence_id": "S4001",
+      "unit_id": "U04",
+      "french": "Ich mag Milch und Brot.",
+      "english": "I like milk and bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "873950",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4002",
+      "unit_id": "U04",
+      "french": "Ich esse und trinke.",
+      "english": "I eat and drink.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2669686",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4003",
+      "unit_id": "U04",
+      "french": "Trinkst du Milch?",
+      "english": "Do you drink milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2234763",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": [
+        "Are you drinking milk?"
+      ]
+    },
+    {
+      "sentence_id": "S4004",
+      "unit_id": "U04",
+      "french": "Magst du Kaffee?",
+      "english": "Do you like coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2739818",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4005",
+      "unit_id": "U04",
+      "french": "Trinkst du Tee?",
+      "english": "Do you drink tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3675045",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4006",
+      "unit_id": "U04",
+      "french": "Magst du Käse?",
+      "english": "Do you like cheese?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8636835",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Melang",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4007",
+      "unit_id": "U04",
+      "french": "Ich mag Tee.",
+      "english": "I like tea.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "341686",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MUIRIEL",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4008",
+      "unit_id": "U04",
+      "french": "Ich esse Brot.",
+      "english": "I eat bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "942240",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sudajaengi",
+      "other_english": [
+        "I'm eating bread.",
+        "I am eating bread."
+      ]
+    },
+    {
+      "sentence_id": "S4009",
+      "unit_id": "U04",
+      "french": "Ich trinke Kaffee.",
+      "english": "I drink coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1000345",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "I'm drinking coffee.",
+        "I'm drinking the coffee.",
+        "I am drinking coffee."
+      ]
+    },
+    {
+      "sentence_id": "S4010",
+      "unit_id": "U04",
+      "french": "Du isst Brot.",
+      "english": "You eat bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8320406",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MisterTrouser",
+      "other_english": [
+        "You're eating bread."
+      ]
+    },
+    {
+      "sentence_id": "S4011",
+      "unit_id": "U04",
+      "french": "Tom trinkt Tee und Mary trinkt Kaffee.",
+      "english": "Tom drinks tea and Mary drinks coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10047380",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sakslane",
+      "other_english": [
+        "Tom drinks tea while Mary drinks coffee."
+      ]
+    },
+    {
+      "sentence_id": "S4012",
+      "unit_id": "U04",
+      "french": "Trinkt er Milch?",
+      "english": "Is he drinking milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2234764",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": [
+        "Does he drink milk?"
+      ]
+    },
+    {
+      "sentence_id": "S4013",
+      "unit_id": "U04",
+      "french": "Trinkst du Wasser?",
+      "english": "Do you drink water?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10061351",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4014",
+      "unit_id": "U04",
+      "french": "Tom mag Käse.",
+      "english": "Tom likes cheese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "580643",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "samueldora",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4015",
+      "unit_id": "U04",
+      "french": "Er trinkt Wasser.",
+      "english": "He drinks water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2732338",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "He's drinking water."
+      ]
+    },
+    {
+      "sentence_id": "S4016",
+      "unit_id": "U04",
+      "french": "Ich esse Käse.",
+      "english": "I eat cheese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3813565",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "I'm eating cheese.",
+        "I am eating cheese."
+      ]
+    },
+    {
+      "sentence_id": "S4017",
+      "unit_id": "U04",
+      "french": "Ich trinke Wasser.",
+      "english": "I drink water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4258960",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "I'm drinking water."
+      ]
+    },
+    {
+      "sentence_id": "S4018",
+      "unit_id": "U04",
+      "french": "Isst sie?",
+      "english": "Is she eating?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13417250",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mhr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4019",
+      "unit_id": "U04",
+      "french": "Isst er?",
+      "english": "Is he eating?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13417253",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mhr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4020",
+      "unit_id": "U04",
+      "french": "Magst du es?",
+      "english": "You like it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "625612",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "kolonjano",
+      "other_english": [
+        "Do you like it?"
+      ]
+    },
+    {
+      "sentence_id": "S4021",
+      "unit_id": "U04",
+      "french": "Der Apfel ist groß.",
+      "english": "The apple is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13790984",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mhr",
+      "other_english": [
+        "The apple is large."
+      ]
+    },
+    {
+      "sentence_id": "S4022",
+      "unit_id": "U04",
+      "french": "Trinkt sie Milch?",
+      "english": "Does she drink milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2234765",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4023",
+      "unit_id": "U04",
+      "french": "Trinkt Tom Kaffee?",
+      "english": "Does Tom drink coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3493657",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4024",
+      "unit_id": "U04",
+      "french": "Trinkt sie Kaffee?",
+      "english": "Does she drink coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5185154",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4025",
+      "unit_id": "U04",
+      "french": "Trinkt er Kaffee?",
+      "english": "Is he drinking coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5206441",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "jaz1313",
+      "other_english": [
+        "Does he drink coffee?"
+      ]
+    },
+    {
+      "sentence_id": "S4026",
+      "unit_id": "U04",
+      "french": "Trinkt er Tee?",
+      "english": "Does he drink tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5692008",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4027",
+      "unit_id": "U04",
+      "french": "Trinkt Tom Milch?",
+      "english": "Does Tom drink milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10061314",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4028",
+      "unit_id": "U04",
+      "french": "Ist das Kaffee?",
+      "english": "Is that coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3374025",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4029",
+      "unit_id": "U04",
+      "french": "Wie ist das Wasser?",
+      "english": "How's the water?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1985837",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4030",
+      "unit_id": "U04",
+      "french": "Magst du Tom nicht?",
+      "english": "Don't you like Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6625684",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": [
+        "Do you not like Tom?"
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S4001",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 3,
+      "surface": "Milch",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 4,
+      "surface": "und",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 5,
+      "surface": "Brot",
+      "word_id": "W052",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 2,
+      "surface": "esse",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 3,
+      "surface": "und",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 4,
+      "surface": "trinke",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 1,
+      "surface": "Trinkst",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 3,
+      "surface": "Milch",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 1,
+      "surface": "Magst",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 3,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 1,
+      "surface": "Trinkst",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 3,
+      "surface": "Tee",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 1,
+      "surface": "Magst",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 3,
+      "surface": "Käse",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 3,
+      "surface": "Tee",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 2,
+      "surface": "esse",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 3,
+      "surface": "Brot",
+      "word_id": "W052",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 2,
+      "surface": "trinke",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 3,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 2,
+      "surface": "isst",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 3,
+      "surface": "Brot",
+      "word_id": "W052",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 2,
+      "surface": "trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 3,
+      "surface": "Tee",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 4,
+      "surface": "und",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 5,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 6,
+      "surface": "trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 7,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 1,
+      "surface": "Trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 3,
+      "surface": "Milch",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 1,
+      "surface": "Trinkst",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 3,
+      "surface": "Wasser",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4014",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4014",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4014",
+      "position": 3,
+      "surface": "Käse",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 2,
+      "surface": "trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 3,
+      "surface": "Wasser",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 2,
+      "surface": "esse",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 3,
+      "surface": "Käse",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 2,
+      "surface": "trinke",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 3,
+      "surface": "Wasser",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4018",
+      "position": 1,
+      "surface": "Isst",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4018",
+      "position": 2,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4019",
+      "position": 1,
+      "surface": "Isst",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4019",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 1,
+      "surface": "Magst",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 1,
+      "surface": "Der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 2,
+      "surface": "Apfel",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 4,
+      "surface": "groß",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 1,
+      "surface": "Trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 2,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 3,
+      "surface": "Milch",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 1,
+      "surface": "Trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 3,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4024",
+      "position": 1,
+      "surface": "Trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4024",
+      "position": 2,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4024",
+      "position": 3,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4025",
+      "position": 1,
+      "surface": "Trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4025",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4025",
+      "position": 3,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 1,
+      "surface": "Trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 3,
+      "surface": "Tee",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 1,
+      "surface": "Trinkt",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 3,
+      "surface": "Milch",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 2,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 3,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 3,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 4,
+      "surface": "Wasser",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 1,
+      "surface": "Magst",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 4,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A40031",
+      "sentence_id": "S4003",
+      "direction": "fr_to_en",
+      "answer": "Are you drinking milk?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40081",
+      "sentence_id": "S4008",
+      "direction": "fr_to_en",
+      "answer": "I'm eating bread.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40082",
+      "sentence_id": "S4008",
+      "direction": "fr_to_en",
+      "answer": "I am eating bread.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40091",
+      "sentence_id": "S4009",
+      "direction": "fr_to_en",
+      "answer": "I'm drinking coffee.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40092",
+      "sentence_id": "S4009",
+      "direction": "fr_to_en",
+      "answer": "I'm drinking the coffee.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40093",
+      "sentence_id": "S4009",
+      "direction": "fr_to_en",
+      "answer": "I am drinking coffee.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40101",
+      "sentence_id": "S4010",
+      "direction": "fr_to_en",
+      "answer": "You're eating bread.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40111",
+      "sentence_id": "S4011",
+      "direction": "fr_to_en",
+      "answer": "Tom drinks tea while Mary drinks coffee.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40121",
+      "sentence_id": "S4012",
+      "direction": "fr_to_en",
+      "answer": "Does he drink milk?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40151",
+      "sentence_id": "S4015",
+      "direction": "fr_to_en",
+      "answer": "He's drinking water.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40161",
+      "sentence_id": "S4016",
+      "direction": "fr_to_en",
+      "answer": "I'm eating cheese.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40162",
+      "sentence_id": "S4016",
+      "direction": "fr_to_en",
+      "answer": "I am eating cheese.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40171",
+      "sentence_id": "S4017",
+      "direction": "fr_to_en",
+      "answer": "I'm drinking water.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40201",
+      "sentence_id": "S4020",
+      "direction": "fr_to_en",
+      "answer": "Do you like it?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40211",
+      "sentence_id": "S4021",
+      "direction": "fr_to_en",
+      "answer": "The apple is large.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40251",
+      "sentence_id": "S4025",
+      "direction": "fr_to_en",
+      "answer": "Does he drink coffee?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40301",
+      "sentence_id": "S4030",
+      "direction": "fr_to_en",
+      "answer": "Do you not like Tom?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
