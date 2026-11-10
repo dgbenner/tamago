@@ -600,3 +600,13 @@ Part 3, Lingua Libre recordings:
 - conjugation.mjs per course: fr-conj-auto as before; es-conj and de-conj from the template on the verb's own page (a bare de-conj guessed weak forms like getrinkt). Spanish tables were wrong before this (French reader on a Spanish table); rebuilt.
 - U01: pulled 37, cut 11 (content-de/sweep/packs-review.json), 26 Tatoeba + 12 drafts S1101 to S1112; approved with grammar note (S1003, S1005, S1009; sein). U100 and U200 nodes approved (shown only with a live pack). Icons from assign-icons COURSE=de.
 - App: main.jsx loads tables-de.js; course.js German ready; Course Snapshot has a German column; vite defines the German workbook version. Chrome: chooser shows German selectable, U01 rounds 1 to 5 with no page errors; npm test 60 pass.
+
+## 2026-11-10: German, Units 2 to 15, packs, pictures, candidates
+
+- Units 2 to 15 pulled, reviewed (content-de/sweep/packs-review.json), drafted where Tatoeba ran out (content-de/drafts.json), approved with grammar notes, four QT09 pairs each, shipped one commit per unit. names: Berlin, Hamburg, London, Paris (U10).
+- pull-units and trust-candidates: noun meanings read /\bplural of / and add the word's hint (Katze "house cat"); U05 rebuilt.
+- Packs: make-german-workbook PACKS (U101, U102, U201, U202, U204, U205, U206, U209, U212 built; U203, U207, U208, U210, U211 skipped), PACK_DROP for words under 3; pack word senses and hints; approved like Spanish (no grammar notes).
+- Final check in German: Chrome run of parts, scores, Progress, axe clean.
+- Third picture batch (incoming-2026-11-10c), 20 rows, decision use; image-list.mjs DE map and 4 more ES words; all courses without OpenMoji.
+- _review/german-candidates.md: 808 candidates, 86 drafts, 3 same text, 37 covered. Nothing swapped.
+- content-report.mjs includes German: 805 sentences, 719 checked (89%), 86 drafted.
