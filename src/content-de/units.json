@@ -219,13 +219,19 @@
     "can_do_ids": "CD33;CD34;CD35;CD36",
     "branch_group": "",
     "is_topic_pick": "",
-    "status": "",
+    "status": "live",
     "borrowed_sentence_ids": [],
     "topic_id": "",
     "icon_group": "maki",
     "icon_file": "glossy-tuna-maki-sushi-roll-5.webp",
     "topic_node": "",
-    "lesson_counts": null
+    "lesson_counts": [
+      5,
+      4,
+      4,
+      4,
+      5
+    ]
   },
   {
     "unit_id": "U10",

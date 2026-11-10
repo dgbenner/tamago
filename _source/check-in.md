@@ -673,7 +673,7 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (52), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (57), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (12)
 
@@ -747,3 +747,11 @@ Every German sentence I wrote (52), for a native speaker of German as spoken in 
 - S7101 Ja, Tom ist sehr jung. = Yes, Tom is very young. (QT09 answer)
 - S7102 Ja, es ist neu. = Yes, it is new. (QT09 answer)
 - S7103 Ja, ich bin auch neu hier. = Yes, I'm new here too. (QT09 answer)
+
+**U09 Mine and Yours** (5)
+
+- S9101 Ja, ich mag deinen Freund. = Yes, I like your friend. (QT09 answer)
+- S9102 Ja, ich habe dein Buch. = Yes, I have your book. (QT09 answer)
+- S9103 Ja, mein Auto ist neu. = Yes, my car is new. (QT09 answer)
+- S9104 Ja, meine Kinder sind hier. = Yes, my children are here. (QT09 answer)
+- S9105 Hast du deinen Apfel? = Do you have your apple?

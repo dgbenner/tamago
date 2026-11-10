@@ -374,6 +374,41 @@
       "french": "Ja, ich bin auch neu hier.",
       "english": "Yes, I'm new here too.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S9101",
+      "unit_id": "U09",
+      "french": "Ja, ich mag deinen Freund.",
+      "english": "Yes, I like your friend.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S9102",
+      "unit_id": "U09",
+      "french": "Ja, ich habe dein Buch.",
+      "english": "Yes, I have your book.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S9103",
+      "unit_id": "U09",
+      "french": "Ja, mein Auto ist neu.",
+      "english": "Yes, my car is new.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S9104",
+      "unit_id": "U09",
+      "french": "Ja, meine Kinder sind hier.",
+      "english": "Yes, my children are here.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S9105",
+      "unit_id": "U09",
+      "french": "Hast du deinen Apfel?",
+      "english": "Do you have your apple?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
     }
   ],
   "qa_answers": [
@@ -504,6 +539,22 @@
     {
       "question_sentence_id": "S8007",
       "answer_sentence_id": "S8012"
+    },
+    {
+      "question_sentence_id": "S9001",
+      "answer_sentence_id": "S9101"
+    },
+    {
+      "question_sentence_id": "S9010",
+      "answer_sentence_id": "S9102"
+    },
+    {
+      "question_sentence_id": "S9013",
+      "answer_sentence_id": "S9103"
+    },
+    {
+      "question_sentence_id": "S9027",
+      "answer_sentence_id": "S9104"
     }
   ]
 }

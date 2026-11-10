@@ -54,5 +54,12 @@
     "example_sentence_ids": "S8024;S8003;S8012",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U09",
+    "rule": "Mein (my) and dein (your, to a friend) take the same endings as ein: mein Freund, meine Freundin, mein Buch, and for plurals meine Kinder. A masculine object takes -en: Ich trinke meinen Kaffee, Magst du meinen Freund? Freund is a friend or a boyfriend, Freundin a friend who is a woman or a girlfriend.",
+    "example_sentence_ids": "S9001;S9007;S9013",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]
