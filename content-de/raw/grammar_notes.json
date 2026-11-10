@@ -68,5 +68,12 @@
     "example_sentence_ids": "S10002;S10013;S10022",
     "conjugation_lemma": "kommen",
     "status": "live"
+  },
+  {
+    "unit_id": "U11",
+    "rule": "Numbers come before the noun and don't change: zwei Hunde, drei Bücher. When counting, one is eins; before a noun it is ein or eine (ein Hund). Wie viele asks how many and takes a plural: Wie viele Kinder hast du? Es gibt means there is or there are, for one thing or many: Gibt es Milch? Ja, es gibt Milch.",
+    "example_sentence_ids": "S11027;S11004;S11012",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]

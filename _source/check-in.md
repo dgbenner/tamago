@@ -673,7 +673,7 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (60), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (69), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (12)
 
@@ -756,8 +756,20 @@ Every German sentence I wrote (60), for a native speaker of German as spoken in 
 - S9104 Ja, meine Kinder sind hier. = Yes, my children are here. (QT09 answer)
 - S9105 Hast du deinen Apfel? = Do you have your apple?
 
-**U10 Asking Questions** (3)
+**U10 Asking Questions** (2)
 
 - S10101 Ich komme aus Berlin. = I'm from Berlin. (QT09 answer)
 - S10102 Tom kommt aus Hamburg. = Tom is from Hamburg. (QT09 answer)
-- S10103 Ich trinke Tee. = I'll have tea. (QT09 answer)
+
+**U11 Counting to Ten** (10)
+
+- S11101 Ich habe fünf Äpfel. = I have five apples. (QT09 answer)
+- S11102 Ich habe neun Bücher. = I have nine books. (QT09 answer)
+- S11103 Tom hat fünf Katzen. = Tom has five cats. (QT09 answer)
+- S11104 Hier sind neun Kinder. = There are nine children here.
+- S11105 Sie ist neun. = She is nine.
+- S11106 Er ist sechs. = He is six.
+- S11107 Sie hat acht Bücher. = She has eight books.
+- S11108 Tom ist zehn. = Tom is ten.
+- S11109 Ich habe sieben Äpfel. = I have seven apples.
+- S11110 Ja, es gibt Milch. = Yes, there is milk. (QT09 answer)

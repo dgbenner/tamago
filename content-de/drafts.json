@@ -428,7 +428,80 @@
       "sentence_id": "S10103",
       "unit_id": "U10",
       "french": "Ich trinke Tee.",
-      "english": "I'll have tea.",
+      "english": "I drink tea.",
+      "notes": "QT09 answer; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "8320443",
+      "source_owner": "MisterTrouser"
+    },
+    {
+      "sentence_id": "S11101",
+      "unit_id": "U11",
+      "french": "Ich habe fünf Äpfel.",
+      "english": "I have five apples.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S11102",
+      "unit_id": "U11",
+      "french": "Ich habe neun Bücher.",
+      "english": "I have nine books.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S11103",
+      "unit_id": "U11",
+      "french": "Tom hat fünf Katzen.",
+      "english": "Tom has five cats.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S11104",
+      "unit_id": "U11",
+      "french": "Hier sind neun Kinder.",
+      "english": "There are nine children here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S11105",
+      "unit_id": "U11",
+      "french": "Sie ist neun.",
+      "english": "She is nine.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S11106",
+      "unit_id": "U11",
+      "french": "Er ist sechs.",
+      "english": "He is six.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S11107",
+      "unit_id": "U11",
+      "french": "Sie hat acht Bücher.",
+      "english": "She has eight books.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S11108",
+      "unit_id": "U11",
+      "french": "Tom ist zehn.",
+      "english": "Tom is ten.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S11109",
+      "unit_id": "U11",
+      "french": "Ich habe sieben Äpfel.",
+      "english": "I have seven apples.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S11110",
+      "unit_id": "U11",
+      "french": "Ja, es gibt Milch.",
+      "english": "Yes, there is milk.",
       "notes": "QT09 answer"
     }
   ],
@@ -592,6 +665,22 @@
     {
       "question_sentence_id": "S10027",
       "answer_sentence_id": "S10019"
+    },
+    {
+      "question_sentence_id": "S11029",
+      "answer_sentence_id": "S11101"
+    },
+    {
+      "question_sentence_id": "S11014",
+      "answer_sentence_id": "S11102"
+    },
+    {
+      "question_sentence_id": "S11028",
+      "answer_sentence_id": "S11103"
+    },
+    {
+      "question_sentence_id": "S11012",
+      "answer_sentence_id": "S11110"
     }
   ]
 }

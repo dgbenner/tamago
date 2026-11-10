@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U10 Asking Questions: Question words come first, the verb second: Wo ist…? Woher kommst du? Ich komme aus…
+## U11 Counting to Ten: Numbers one to ten; wie viele with a plural; es gibt for there is
 
-30 sentences picked from 176 candidates (target 30 to 40). Grammar point in 14 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 80 candidates (target 30 to 40). Grammar point in 11 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): wer 3, wo 3, woher 5, was 3.
+Contrast forms, sentences each (target 2): eins 3, zehn 2, zwei 3, drei 3.
 
-**Gaps (P08)**, fewer than 3 usable sentences: aus (2). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: fünf (1), sechs (2), sieben (2), acht (2), neun (0), zehn (2). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S10001 | Wer kommt? | Who's coming? | Who'll come?; Who is coming? | [#2204344](https://tatoeba.org/en/sentences/show/2204344) | Pfirsichbaeumchen |
-| S10002 | Woher kommst du? | Where are you from? | Where do you come from?; Where did you come from? | [#378034](https://tatoeba.org/en/sentences/show/378034) | MUIRIEL |
-| S10003 | Woher kommt Tom? | Where's Tom from? | Where is Tom from? | [#1906966](https://tatoeba.org/en/sentences/show/1906966) | Pfirsichbaeumchen |
-| S10004 | Wer kommt nicht? | Who's not coming? |  | [#8240804](https://tatoeba.org/en/sentences/show/8240804) | driini |
-| S10005 | Woher kommst du, Tom? | Where are you from, Tom? |  | [#6640952](https://tatoeba.org/en/sentences/show/6640952) | Felixjp |
-| S10006 | Wo sind wir? | Where are we? |  | [#518431](https://tatoeba.org/en/sentences/show/518431) | Espi |
-| S10007 | Was trinken Sie? | What will you drink? | What are you going to drink?; What would you like to drink? | [#536180](https://tatoeba.org/en/sentences/show/536180) | Pfirsichbaeumchen |
-| S10008 | Wo ist er? | Where is he? | Where is it? | [#651286](https://tatoeba.org/en/sentences/show/651286) | kolonjano |
-| S10009 | Was ist gut? | What's good? |  | [#2204235](https://tatoeba.org/en/sentences/show/2204235) | Pfirsichbaeumchen |
-| S10010 | Warum kommst du nicht? | Why don't you come? |  | [#6641823](https://tatoeba.org/en/sentences/show/6641823) | Felixjp |
-| S10011 | Wer bin ich? | Who am I? |  | [#556318](https://tatoeba.org/en/sentences/show/556318) | samueldora |
-| S10012 | Wann kommt er? | When will he come? | When does he come? | [#783510](https://tatoeba.org/en/sentences/show/783510) | Chris |
-| S10013 | Wann kommt Tom? | When's Tom coming? | When is Tom coming? | [#6641962](https://tatoeba.org/en/sentences/show/6641962) | Felixjp |
-| S10014 | Warum kommt Tom nicht? | Why isn't Tom coming? |  | [#6641821](https://tatoeba.org/en/sentences/show/6641821) | Felixjp |
-| S10015 | Warum kommt sie nicht? | Why isn't she coming? |  | [#12162318](https://tatoeba.org/en/sentences/show/12162318) | mhr |
-| S10016 | Wo ist Paris? | Where is Paris? |  | [#772480](https://tatoeba.org/en/sentences/show/772480) | Esperantostern |
-| S10017 | Was trinkst du? | What're you drinking? | What are you going to drink? | [#2283529](https://tatoeba.org/en/sentences/show/2283529) | Pfirsichbaeumchen |
-| S10018 | Wann trinkst du Kaffee? | When do you drink coffee? |  | [#1854829](https://tatoeba.org/en/sentences/show/1854829) | Esperantostern |
-| S10019 | Ich komme nicht. | I'm not coming. |  | [#6644245](https://tatoeba.org/en/sentences/show/6644245) | Felixjp |
-| S10020 | Ich komme auch. | I'm coming, too. |  | [#6644264](https://tatoeba.org/en/sentences/show/6644264) | Felixjp |
-| S10021 | Hier komme ich. | Here I come. |  | [#6644801](https://tatoeba.org/en/sentences/show/6644801) | Felixjp |
-| S10022 | Ich bin aus Paris. | I'm from Paris. |  | [#10032170](https://tatoeba.org/en/sentences/show/10032170) | Melang |
-| S10023 | Ich bin aus Berlin. | I'm from Berlin. |  | [#10032171](https://tatoeba.org/en/sentences/show/10032171) | Melang |
-| S10024 | Woher kommt er? | Where is he from? | Where does he come from? | [#7364565](https://tatoeba.org/en/sentences/show/7364565) | Pfirsichbaeumchen |
-| S10025 | Woher kommt das Geld? | Where does money come from? |  | [#10075007](https://tatoeba.org/en/sentences/show/10075007) | Pfirsichbaeumchen |
-| S10026 | Warum kommst du nicht auch? | Why don't you come, too? |  | [#6641828](https://tatoeba.org/en/sentences/show/6641828) | Felixjp |
-| S10027 | Kommst du? | Are you coming? |  | [#1811957](https://tatoeba.org/en/sentences/show/1811957) | Pfirsichbaeumchen |
-| S10028 | Kommt Tom? | Is Tom coming? |  | [#3207243](https://tatoeba.org/en/sentences/show/3207243) | Pfirsichbaeumchen |
-| S10029 | Nein, warum? | No, why? |  | [#8084933](https://tatoeba.org/en/sentences/show/8084933) | Luiaard |
-| S10030 | Ja, warum? | Yes, why? |  | [#8627343](https://tatoeba.org/en/sentences/show/8627343) | Melang |
+| S11001 | Hast du eins? | Do you have one? |  | [#957305](https://tatoeba.org/en/sentences/show/957305) | Sudajaengi |
+| S11002 | Bist du zehn? | Are you ten years old? |  | [#1611274](https://tatoeba.org/en/sentences/show/1611274) | Esperantostern |
+| S11003 | Hast du zwei Bücher? | You have two books? | You've got two books?; Do you have two books? | [#521409](https://tatoeba.org/en/sentences/show/521409) | Espi |
+| S11004 | Wie viele Äpfel gibt es? | How many apples are there? |  | [#4610316](https://tatoeba.org/en/sentences/show/4610316) | feyzo |
+| S11005 | Ja, zwei. | Yes, two. |  | [#606216](https://tatoeba.org/en/sentences/show/606216) | virgil |
+| S11006 | Tom ist drei. | Tom is three. |  | [#10072512](https://tatoeba.org/en/sentences/show/10072512) | wolfgangth |
+| S11007 | Tom hat eins. | Tom has one. |  | [#10095254](https://tatoeba.org/en/sentences/show/10095254) | wolfgangth |
+| S11008 | Drei Kaffee, bitte. | Three coffees, please. |  | [#13175947](https://tatoeba.org/en/sentences/show/13175947) | Vortarulo |
+| S11009 | Er hat zehn Kinder. | He has ten children. |  | [#1343950](https://tatoeba.org/en/sentences/show/1343950) | Eldad |
+| S11010 | Ich habe drei Hunde. | I have three dogs. |  | [#509940](https://tatoeba.org/en/sentences/show/509940) | Espi |
+| S11011 | Er hat zwei Hunde. | He has two dogs. |  | [#541224](https://tatoeba.org/en/sentences/show/541224) | Manfredo |
+| S11012 | Gibt es Milch? | Is there milk? | Is there any milk? | [#3150227](https://tatoeba.org/en/sentences/show/3150227) | faehrmann |
+| S11013 | Gibt es Kaffee? | Is there coffee? | Is there any coffee? | [#12272462](https://tatoeba.org/en/sentences/show/12272462) | Augustus |
+| S11014 | Wie viele Bücher hast du? | How many books do you have? | How many books have you got? | [#431160](https://tatoeba.org/en/sentences/show/431160) | MikeDee |
+| S11015 | Wie viele Bücher haben Sie? | How many books do you have? |  | [#582772](https://tatoeba.org/en/sentences/show/582772) | Pfirsichbaeumchen |
+| S11016 | Sie ist acht. | She is eight. | She's eight years old. | [#1218687](https://tatoeba.org/en/sentences/show/1218687) | samueldora |
+| S11017 | Er ist acht. | He is eight. | He's eight years old. | [#2140974](https://tatoeba.org/en/sentences/show/2140974) | Vortarulo |
+| S11018 | Du hast vier Hunde. | You have four dogs. |  | [#558670](https://tatoeba.org/en/sentences/show/558670) | Shishir |
+| S11019 | Er hat auch eins. | He has one too. |  | [#2980727](https://tatoeba.org/en/sentences/show/2980727) | pne |
+| S11020 | Du hast sieben Kinder. | You have seven children. | You have seven kids. | [#3703404](https://tatoeba.org/en/sentences/show/3703404) | Esperantostern |
+| S11021 | Tom hat sechs Kinder. | Tom has six children. |  | [#4685231](https://tatoeba.org/en/sentences/show/4685231) | maaster |
+| S11022 | Er hat vier Kinder. | He has four children. | He has four kids. | [#8862584](https://tatoeba.org/en/sentences/show/8862584) | wolfgangth |
+| S11023 | Ich habe vier Kinder. | I have four children. |  | [#8875673](https://tatoeba.org/en/sentences/show/8875673) | wolfgangth |
+| S11024 | Sie hat sieben Kinder. | She has seven children. | She's got seven children. | [#10084353](https://tatoeba.org/en/sentences/show/10084353) | wolfgangth |
+| S11025 | Die Frau hat fünf Kinder. | The woman has five children. |  | [#2516199](https://tatoeba.org/en/sentences/show/2516199) | lio |
+| S11026 | Sie hat einen Hund und sechs Katzen. | She has a dog and six cats. |  | [#884562](https://tatoeba.org/en/sentences/show/884562) | Esperantostern |
+| S11027 | Wie viele Kinder hast du? | How many children do you have? |  | [#976623](https://tatoeba.org/en/sentences/show/976623) | Esperantostern |
+| S11028 | Wie viele Katzen hat Tom? | How many cats does Tom have? |  | [#2633958](https://tatoeba.org/en/sentences/show/2633958) | Pfirsichbaeumchen |
+| S11029 | Wie viele Äpfel hast du? | How many apples do you have? |  | [#3107877](https://tatoeba.org/en/sentences/show/3107877) | freddy1 |
+| S11030 | Wie viele Katzen hast du? | How many cats do you have? |  | [#4131678](https://tatoeba.org/en/sentences/show/4131678) | Pfirsichbaeumchen |
