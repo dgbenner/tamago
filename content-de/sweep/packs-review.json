@@ -95,5 +95,18 @@
     "reject": {
       "1513297": "English idiom (How do you take your coffee), misleading for typed answers"
     }
+  },
+  "U10": {
+    "reject": {
+      "522812": "idiomatic (Was hat sie? usually asks what’s wrong)",
+      "1341366": "idiomatic (Was hast du? usually asks what’s wrong)",
+      "1341368": "idiomatic (Was haben Sie? usually asks what’s wrong)",
+      "1458226": "English (a Parisian) misleading for typed answers",
+      "1551057": "odd on its own (Fine. Where?)",
+      "1940721": "idiom (ausgehen, running short)",
+      "2067629": "odd (You’re what?)",
+      "2067630": "odd (You’re what?)",
+      "2204229": "geht as goes, before gehen is taught"
+    }
   }
 }

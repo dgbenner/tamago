@@ -77,6 +77,32 @@
       "form": "haben"
     }
   ],
+  "kommen": [
+    {
+      "person": "ich",
+      "form": "komme"
+    },
+    {
+      "person": "du",
+      "form": "kommst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "kommt"
+    },
+    {
+      "person": "wir",
+      "form": "kommen"
+    },
+    {
+      "person": "ihr",
+      "form": "kommt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "kommen"
+    }
+  ],
   "gehen": [
     {
       "person": "ich",
@@ -153,32 +179,6 @@
     {
       "person": "sie, Sie",
       "form": "mögen"
-    }
-  ],
-  "kommen": [
-    {
-      "person": "ich",
-      "form": "komme"
-    },
-    {
-      "person": "du",
-      "form": "kommst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "kommt"
-    },
-    {
-      "person": "wir",
-      "form": "kommen"
-    },
-    {
-      "person": "ihr",
-      "form": "kommt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "kommen"
     }
   ],
   "geben": [

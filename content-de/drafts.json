@@ -409,6 +409,27 @@
       "french": "Hast du deinen Apfel?",
       "english": "Do you have your apple?",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10101",
+      "unit_id": "U10",
+      "french": "Ich komme aus Berlin.",
+      "english": "I'm from Berlin.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10102",
+      "unit_id": "U10",
+      "french": "Tom kommt aus Hamburg.",
+      "english": "Tom is from Hamburg.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10103",
+      "unit_id": "U10",
+      "french": "Ich trinke Tee.",
+      "english": "I'll have tea.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -555,6 +576,22 @@
     {
       "question_sentence_id": "S9027",
       "answer_sentence_id": "S9104"
+    },
+    {
+      "question_sentence_id": "S10002",
+      "answer_sentence_id": "S10101"
+    },
+    {
+      "question_sentence_id": "S10003",
+      "answer_sentence_id": "S10102"
+    },
+    {
+      "question_sentence_id": "S10007",
+      "answer_sentence_id": "S10103"
+    },
+    {
+      "question_sentence_id": "S10027",
+      "answer_sentence_id": "S10019"
     }
   ]
 }

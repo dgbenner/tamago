@@ -61,5 +61,12 @@
     "example_sentence_ids": "S9001;S9007;S9013",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U10",
+    "rule": "Question words come first and the verb second: Wo ist er? Wann kommt Tom? Warum kommst du nicht? Was trinken Sie? Wer bin ich? Woher asks where from, and kommen aus answers it: Woher kommst du? Ich komme aus Berlin. Kommen is regular: ich komme, du kommst, er kommt.",
+    "example_sentence_ids": "S10002;S10013;S10022",
+    "conjugation_lemma": "kommen",
+    "status": "live"
   }
 ]

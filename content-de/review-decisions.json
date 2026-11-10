@@ -57,6 +57,11 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after cutting 1 (an English idiom); 5 drafts: 4 answers for the question pairs and 1 more line for deinen"
+    },
+    "U10": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after cutting 9 (idioms like Was hast du?, geht before gehen is taught, English that misleads, odd lines); Berlin, Hamburg, London and Paris allowed as names, spelled the same in English; 3 drafts, answers for the question pairs"
     }
   },
   "cut_sentences": [],
@@ -417,7 +422,11 @@
     "Mary",
     "Ken",
     "Peter",
-    "Anna"
+    "Anna",
+    "Berlin",
+    "Hamburg",
+    "London",
+    "Paris"
   ],
-  "_names": "Names a German sentence may use (R21): the ones Tatoeba German uses most."
+  "_names": "Names allowed in German lines: people, and cities spelled the same in English (for kommen aus, Unit 10)"
 }
