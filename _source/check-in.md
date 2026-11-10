@@ -14,6 +14,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 6 is live:** More Than One, 56 sentences (30 Tatoeba, 26 drafts): los, las, unos, unas; somos, son; ustedes. Widened with the plural forms a plural sentence needs (grandes, pequeños, tienen, comen, beben, chicos, chicas, casas). Plurals within the first six units' words are thin on checked Tatoeba, hence the drafts.
   - **Unit 7 is live:** Describing Things, 33 sentences (30 Tatoeba, 3 drafted answers): agreement (bueno, buena), muy, también. From here Tatoeba has plenty, so drafting drops away.
   - **Unit 8 is live:** Where Things Are, 35 sentences (30 Tatoeba, 5 drafts): estar for place (está, están, estamos) and hay for what there is, with aquí and allí.
+  - **Unit 9 is live:** Ser or Estar, 37 sentences (30 Tatoeba, 7 drafts): ser for what someone is (soy profesor), estar for how they are now (estoy cansado).
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -481,7 +482,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (100), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (107), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -606,3 +607,13 @@ Every Spanish sentence I wrote (100), for a native speaker of Latin American Spa
 - S8103 El baño está allí. = The bathroom is over there.
 - S8104 Sí, hay leche. = Yes, there's milk. (QT09 answer)
 - S8105 No, no hay pan. = No, there's no bread. (QT09 answer)
+
+**U09 Ser or Estar** (7)
+
+- S9101 Ella está contenta. = She's happy.
+- S9102 María está muy contenta. = María is very happy.
+- S9103 Ella es profesora. = She's a teacher.
+- S9104 Soy profesora. = I'm a teacher.
+- S9105 ¿Es usted profesora? = Are you a teacher? (QT09 question)
+- S9106 Sí, soy profesora. = Yes, I'm a teacher. (QT09 answer)
+- S9107 Sí, es médico. = Yes, he's a doctor. (QT09 answer)

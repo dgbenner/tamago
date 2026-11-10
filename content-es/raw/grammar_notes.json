@@ -54,5 +54,12 @@
     "example_sentence_ids": "S8013;S8002;S8030",
     "conjugation_lemma": "estar",
     "status": "live"
+  },
+  {
+    "unit_id": "U09",
+    "rule": "Spanish has two verbs for to be. Ser says what someone or something is: a name, a job, what kind of thing (soy profesor, eres estudiante, es médico). Estar says how someone is now, or where: estoy cansado, está enferma, estás contento. A job takes no un or una after ser: soy estudiante.",
+    "example_sentence_ids": "S9002;S9010;S9018",
+    "conjugation_lemma": "estar",
+    "status": "live"
   }
 ]

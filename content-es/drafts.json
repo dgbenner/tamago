@@ -710,6 +710,55 @@
       "french": "No, no hay pan.",
       "english": "No, there's no bread.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S9101",
+      "unit_id": "U09",
+      "french": "Ella está contenta.",
+      "english": "She's happy.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9102",
+      "unit_id": "U09",
+      "french": "María está muy contenta.",
+      "english": "María is very happy.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9103",
+      "unit_id": "U09",
+      "french": "Ella es profesora.",
+      "english": "She's a teacher.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9104",
+      "unit_id": "U09",
+      "french": "Soy profesora.",
+      "english": "I'm a teacher.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S9105",
+      "unit_id": "U09",
+      "french": "¿Es usted profesora?",
+      "english": "Are you a teacher?",
+      "notes": "QT09 question"
+    },
+    {
+      "sentence_id": "S9106",
+      "unit_id": "U09",
+      "french": "Sí, soy profesora.",
+      "english": "Yes, I'm a teacher.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S9107",
+      "unit_id": "U09",
+      "french": "Sí, es médico.",
+      "english": "Yes, he's a doctor.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -840,6 +889,22 @@
     {
       "question_sentence_id": "S8020",
       "answer_sentence_id": "S8014"
+    },
+    {
+      "question_sentence_id": "S9105",
+      "answer_sentence_id": "S9106"
+    },
+    {
+      "question_sentence_id": "S9005",
+      "answer_sentence_id": "S9028"
+    },
+    {
+      "question_sentence_id": "S9003",
+      "answer_sentence_id": "S9018"
+    },
+    {
+      "question_sentence_id": "S9004",
+      "answer_sentence_id": "S9107"
     }
   ]
 }

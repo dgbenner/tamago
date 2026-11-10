@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U08 Where Things Are: estar for where something is: está, están, estamos; hay for what there is
+## U09 Ser or Estar: ser for what someone is (a teacher, a student), estar for how they are right now (tired, happy, ill)
 
-30 sentences picked from 98 candidates (target 30 to 40). Grammar point in 28 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 221 candidates (target 30 to 40). Grammar point in 30 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): está 5, hay 7, están 11, aquí 15, allí 4.
+Contrast forms, sentences each (target 2): es 3, está 3, soy 5, estoy 7, eres 6, estás 7.
 
-**Gaps (P08)**, fewer than 3 usable sentences: cama (1), baño (2). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: contenta (1), profesora (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S8001 | Hay baño aquí. | There is a bathroom here. |  | [#5168504](https://tatoeba.org/en/sentences/show/5168504) | cueyayotl |
-| S8002 | Hay un gato en la cocina. | There is a cat in the kitchen. |  | [#490858](https://tatoeba.org/en/sentences/show/490858) | Shishir |
-| S8003 | ¿Están ellos aquí? | Are they here? |  | [#6683670](https://tatoeba.org/en/sentences/show/6683670) | arh |
-| S8004 | Están allí. | They're there. |  | [#6600103](https://tatoeba.org/en/sentences/show/6600103) | arh |
-| S8005 | No están allí. | They aren't there. | They're not there. | [#5016912](https://tatoeba.org/en/sentences/show/5016912) | don_ramon |
-| S8006 | Está en una cocina. | It is in a kitchen. |  | [#2314603](https://tatoeba.org/en/sentences/show/2314603) | Shishir |
-| S8007 | Tom está en cama. | Tom is in bed. |  | [#3116952](https://tatoeba.org/en/sentences/show/3116952) | marcelostockle |
-| S8008 | Aquí estamos. | Here we are. |  | [#522353](https://tatoeba.org/en/sentences/show/522353) | Shishir |
-| S8009 | ¿Hay leche? | Is there milk? | Is there any milk? | [#2940975](https://tatoeba.org/en/sentences/show/2940975) | hayastan |
-| S8010 | ¿Estás allí? | Are you in there? |  | [#6601705](https://tatoeba.org/en/sentences/show/6601705) | arh |
-| S8011 | Estamos aquí. | We're here. | We are here. | [#1656329](https://tatoeba.org/en/sentences/show/1656329) | marcelostockle |
-| S8012 | En eso estamos. | We're looking into that. |  | [#5566599](https://tatoeba.org/en/sentences/show/5566599) | swyter |
-| S8013 | Estoy en la cocina. | I'm in the kitchen. |  | [#5165683](https://tatoeba.org/en/sentences/show/5165683) | ecorralest101 |
-| S8014 | Tom está en el baño. | Tom is in the bathroom. |  | [#2338144](https://tatoeba.org/en/sentences/show/2338144) | hayastan |
-| S8015 | ¿Están ellas aquí? | Are they here? |  | [#6683671](https://tatoeba.org/en/sentences/show/6683671) | arh |
-| S8016 | ¿Está aquí? | Is it here? | Is she here? | [#1236618](https://tatoeba.org/en/sentences/show/1236618) | Shishir |
-| S8017 | ¿Están bien? | Are you guys OK? |  | [#3562591](https://tatoeba.org/en/sentences/show/3562591) | ficion |
-| S8018 | ¿Hay pan? | Is there any bread? |  | [#4409919](https://tatoeba.org/en/sentences/show/4409919) | ecorralest101 |
-| S8019 | ¿Eres nuevo aquí? | Are you new here? |  | [#580845](https://tatoeba.org/en/sentences/show/580845) | Shishir |
-| S8020 | ¿Está aquí Tom? | Is Tom here? |  | [#2409262](https://tatoeba.org/en/sentences/show/2409262) | Shishir |
-| S8021 | Y ustedes, ¿cómo están? | And you, how are you? |  | [#950334](https://tatoeba.org/en/sentences/show/950334) | hayastan |
-| S8022 | ¿Cómo están los niños? | How are the children? |  | [#2867736](https://tatoeba.org/en/sentences/show/2867736) | teskmon |
-| S8023 | ¿Cómo es el agua aquí? | How's the water here? |  | [#956674](https://tatoeba.org/en/sentences/show/956674) | hayastan |
-| S8024 | ¡Aquí están! | Here they are! |  | [#1701689](https://tatoeba.org/en/sentences/show/1701689) | marcelostockle |
-| S8025 | Están aquí. | They're here. | They are here. | [#2002327](https://tatoeba.org/en/sentences/show/2002327) | Shishir |
-| S8026 | Aquí hay libros. | There are books here. |  | [#2104055](https://tatoeba.org/en/sentences/show/2104055) | Shishir |
-| S8027 | No están aquí. | They aren't here. |  | [#5026101](https://tatoeba.org/en/sentences/show/5026101) | don_ramon |
-| S8028 | Ellos están allí. | They're there. |  | [#6600104](https://tatoeba.org/en/sentences/show/6600104) | arh |
-| S8029 | Hay un libro aquí. | There's a book here. |  | [#945704](https://tatoeba.org/en/sentences/show/945704) | hayastan |
-| S8030 | Aquí hay una manzana. | There's an apple here. |  | [#1215736](https://tatoeba.org/en/sentences/show/1215736) | wallebot |
+| S9001 | Estás cansado, yo también estoy cansada. | You're tired. I'm also tired. |  | [#1784324](https://tatoeba.org/en/sentences/show/1784324) | Shishir |
+| S9002 | Soy profesor, no soy estudiante. | I'm a teacher, not a student. | I am a teacher, not a student. | [#1086897](https://tatoeba.org/en/sentences/show/1086897) | Shishir |
+| S9003 | ¿Estás contento? | Are you happy? |  | [#685492](https://tatoeba.org/en/sentences/show/685492) | MondCivitano |
+| S9004 | ¿Es médico? | Is he a doctor? |  | [#1037653](https://tatoeba.org/en/sentences/show/1037653) | Shishir |
+| S9005 | ¿Eres estudiante? | Are you a student? |  | [#1248449](https://tatoeba.org/en/sentences/show/1248449) | Shishir |
+| S9006 | ¿Eres profesor? | Are you a teacher? |  | [#2074818](https://tatoeba.org/en/sentences/show/2074818) | Shishir |
+| S9007 | ¿Él es médico? | Is he a doctor? |  | [#2224826](https://tatoeba.org/en/sentences/show/2224826) | marcelostockle |
+| S9008 | ¿No está cansado? | Aren't you tired? |  | [#5053672](https://tatoeba.org/en/sentences/show/5053672) | don_ramon |
+| S9009 | Señor, ¿está usted enfermo? | Sir, are you ill? |  | [#9051339](https://tatoeba.org/en/sentences/show/9051339) | Galko |
+| S9010 | Estoy enferma. | I'm sick. | I am sick. | [#1989704](https://tatoeba.org/en/sentences/show/1989704) | Shishir |
+| S9011 | ¿No estás cansada? | Aren't you tired? | Aren't you sleepy?; Are you not tired? | [#540018](https://tatoeba.org/en/sentences/show/540018) | Shishir |
+| S9012 | ¿Tú eres médico? | Are you a doctor? |  | [#1190137](https://tatoeba.org/en/sentences/show/1190137) | marcelostockle |
+| S9013 | ¿Es usted profesor? | Are you a teacher? |  | [#4776825](https://tatoeba.org/en/sentences/show/4776825) | alegarvid |
+| S9014 | ¿Eres estudiante nueva? | Are you a new student? |  | [#6730075](https://tatoeba.org/en/sentences/show/6730075) | arh |
+| S9015 | ¡Estás enfermo! | You're sick! |  | [#871038](https://tatoeba.org/en/sentences/show/871038) | Shishir |
+| S9016 | Estás cansado. | You're tired. |  | [#1829302](https://tatoeba.org/en/sentences/show/1829302) | Shishir |
+| S9017 | Estás cansada. | You're tired. |  | [#1829303](https://tatoeba.org/en/sentences/show/1829303) | Shishir |
+| S9018 | Estoy muy contento. | I'm very pleased. | I am overjoyed.; I am very pleased. | [#866409](https://tatoeba.org/en/sentences/show/866409) | Shishir |
+| S9019 | Estoy muy contenta. | I'm very pleased. | I am overjoyed. | [#1139994](https://tatoeba.org/en/sentences/show/1139994) | Shishir |
+| S9020 | Tom está enfermo. | Tom's sick. | Tom is sick. | [#1306044](https://tatoeba.org/en/sentences/show/1306044) | marcelostockle |
+| S9021 | No estoy contento. | I'm not satisfied. |  | [#2001462](https://tatoeba.org/en/sentences/show/2001462) | Shishir |
+| S9022 | No estás enferma. | You're not sick. |  | [#2019450](https://tatoeba.org/en/sentences/show/2019450) | Shishir |
+| S9023 | No estoy enferma. | I'm not sick. |  | [#2416415](https://tatoeba.org/en/sentences/show/2416415) | hayastan |
+| S9024 | ¿Eres un estudiante nuevo? | You're a new student? |  | [#998498](https://tatoeba.org/en/sentences/show/998498) | Shishir |
+| S9025 | ¿Tú eres un estudiante? | Are you a student? |  | [#1190146](https://tatoeba.org/en/sentences/show/1190146) | marcelostockle |
+| S9026 | Soy estudiante. ¿Y tú? | I'm a student. And you? |  | [#3958650](https://tatoeba.org/en/sentences/show/3958650) | senryakun |
+| S9027 | Yo soy estudiante. ¿Y tú? | I'm a student. How about you? |  | [#7254184](https://tatoeba.org/en/sentences/show/7254184) | Juanpa |
+| S9028 | Soy estudiante. | I'm a student. | I am a student. | [#574254](https://tatoeba.org/en/sentences/show/574254) | Shishir |
+| S9029 | Soy médico. | I'm a doctor. |  | [#1006320](https://tatoeba.org/en/sentences/show/1006320) | Shishir |
+| S9030 | Estoy muy cansado. | I'm very tired. | I'm so tired.; I am very tired. | [#377265](https://tatoeba.org/en/sentences/show/377265) | hayastan |

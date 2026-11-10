@@ -483,3 +483,4 @@ Part 3, Lingua Libre recordings:
 - Spanish Unit 6 (More Than One): widened with plural adjectives and verbs; 30 Tatoeba, 26 drafts, 4 QT09 pairs; 10 cuts (como as like, I am a dog, an idiom).
 - Spanish Unit 7 (Describing Things): 30 Tatoeba, 3 drafted QT09 answers; 5 cuts (too for very, bueno as well, estar nuances).
 - Spanish Unit 8 (Where Things Are): 30 Tatoeba, 5 drafts, 4 QT09 pairs; 6 cuts (llamas as flames, aquí as there, bueno as well).
+- Spanish Unit 9 (Ser or Estar): 30 Tatoeba, 7 drafts, 4 QT09 pairs; 6 cuts (tag no, enfermar, English mismatches).
