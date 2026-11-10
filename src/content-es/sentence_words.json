@@ -13976,6 +13976,782 @@
     "hint_override": ""
   },
   {
+    "sentence_id": "S202001",
+    "position": 1,
+    "surface": "Tienes",
+    "word_id": "W060",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202001",
+    "position": 2,
+    "surface": "fiebre",
+    "word_id": "W535",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202002",
+    "position": 1,
+    "surface": "Eso",
+    "word_id": "W181",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202002",
+    "position": 2,
+    "surface": "duele",
+    "word_id": "W538",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202003",
+    "position": 1,
+    "surface": "Es",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202003",
+    "position": 2,
+    "surface": "doctor",
+    "word_id": "W531",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202004",
+    "position": 1,
+    "surface": "Duele",
+    "word_id": "W538",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202004",
+    "position": 2,
+    "surface": "esto",
+    "word_id": "W180",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202005",
+    "position": 1,
+    "surface": "Qué",
+    "word_id": "W127",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202005",
+    "position": 2,
+    "surface": "te",
+    "word_id": "W050",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202005",
+    "position": 3,
+    "surface": "duele",
+    "word_id": "W538",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202006",
+    "position": 1,
+    "surface": "Cómo",
+    "word_id": "W037",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202006",
+    "position": 2,
+    "surface": "está",
+    "word_id": "W040",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202006",
+    "position": 3,
+    "surface": "tu",
+    "word_id": "W119",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202006",
+    "position": 4,
+    "surface": "salud",
+    "word_id": "W539",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202007",
+    "position": 1,
+    "surface": "Dónde",
+    "word_id": "W129",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202007",
+    "position": 2,
+    "surface": "hay",
+    "word_id": "W100",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202007",
+    "position": 3,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202007",
+    "position": 4,
+    "surface": "hospital",
+    "word_id": "W533",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202008",
+    "position": 1,
+    "surface": "Dónde",
+    "word_id": "W129",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202008",
+    "position": 2,
+    "surface": "hay",
+    "word_id": "W100",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202008",
+    "position": 3,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202008",
+    "position": 4,
+    "surface": "doctor",
+    "word_id": "W531",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202009",
+    "position": 1,
+    "surface": "Dónde",
+    "word_id": "W129",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202009",
+    "position": 2,
+    "surface": "está",
+    "word_id": "W040",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202009",
+    "position": 3,
+    "surface": "el",
+    "word_id": "W016",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202009",
+    "position": 4,
+    "surface": "hospital",
+    "word_id": "W533",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202010",
+    "position": 1,
+    "surface": "Cómo",
+    "word_id": "W037",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202010",
+    "position": 2,
+    "surface": "estás",
+    "word_id": "W039",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202010",
+    "position": 3,
+    "surface": "de",
+    "word_id": "W123",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202010",
+    "position": 4,
+    "surface": "salud",
+    "word_id": "W539",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202011",
+    "position": 1,
+    "surface": "Soy",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202011",
+    "position": 2,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202011",
+    "position": 3,
+    "surface": "doctor",
+    "word_id": "W531",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202011",
+    "position": 4,
+    "surface": "Y",
+    "word_id": "W015",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202011",
+    "position": 5,
+    "surface": "tú",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202012",
+    "position": 1,
+    "surface": "Cómo",
+    "word_id": "W037",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202012",
+    "position": 2,
+    "surface": "va",
+    "word_id": "W166",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202012",
+    "position": 3,
+    "surface": "la",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202012",
+    "position": 4,
+    "surface": "salud",
+    "word_id": "W539",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202012",
+    "position": 5,
+    "surface": "de",
+    "word_id": "W123",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202012",
+    "position": 6,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202013",
+    "position": 1,
+    "surface": "No",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202013",
+    "position": 2,
+    "surface": "tienes",
+    "word_id": "W060",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202013",
+    "position": 3,
+    "surface": "fiebre",
+    "word_id": "W535",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202014",
+    "position": 1,
+    "surface": "No",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202014",
+    "position": 2,
+    "surface": "tiene",
+    "word_id": "W061",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202014",
+    "position": 3,
+    "surface": "fiebre",
+    "word_id": "W535",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202015",
+    "position": 1,
+    "surface": "Esto",
+    "word_id": "W180",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202015",
+    "position": 2,
+    "surface": "es",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202015",
+    "position": 3,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202015",
+    "position": 4,
+    "surface": "hospital",
+    "word_id": "W533",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202016",
+    "position": 1,
+    "surface": "Te",
+    "word_id": "W050",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202016",
+    "position": 2,
+    "surface": "duele",
+    "word_id": "W538",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202016",
+    "position": 3,
+    "surface": "esto",
+    "word_id": "W180",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202017",
+    "position": 1,
+    "surface": "Soy",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202017",
+    "position": 2,
+    "surface": "doctor",
+    "word_id": "W531",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202018",
+    "position": 1,
+    "surface": "Gracias",
+    "word_id": "W029",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202018",
+    "position": 2,
+    "surface": "doctor",
+    "word_id": "W531",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202019",
+    "position": 1,
+    "surface": "Aquí",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202019",
+    "position": 2,
+    "surface": "duele",
+    "word_id": "W538",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202020",
+    "position": 1,
+    "surface": "No",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202020",
+    "position": 2,
+    "surface": "duele",
+    "word_id": "W538",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202021",
+    "position": 1,
+    "surface": "Hola",
+    "word_id": "W001",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202021",
+    "position": 2,
+    "surface": "Doctor",
+    "word_id": "W531",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202022",
+    "position": 1,
+    "surface": "Eres",
+    "word_id": "W008",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202022",
+    "position": 2,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202022",
+    "position": 3,
+    "surface": "doctor",
+    "word_id": "W531",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202023",
+    "position": 1,
+    "surface": "No",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202023",
+    "position": 2,
+    "surface": "tengo",
+    "word_id": "W059",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202023",
+    "position": 3,
+    "surface": "fiebre",
+    "word_id": "W535",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202024",
+    "position": 1,
+    "surface": "Soy",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202024",
+    "position": 2,
+    "surface": "tu",
+    "word_id": "W119",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202024",
+    "position": 3,
+    "surface": "doctor",
+    "word_id": "W531",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202025",
+    "position": 1,
+    "surface": "No",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202025",
+    "position": 2,
+    "surface": "soy",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202025",
+    "position": 3,
+    "surface": "doctor",
+    "word_id": "W531",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202026",
+    "position": 1,
+    "surface": "Ellas",
+    "word_id": "W077",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202026",
+    "position": 2,
+    "surface": "no",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202026",
+    "position": 3,
+    "surface": "tienen",
+    "word_id": "W188",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202026",
+    "position": 4,
+    "surface": "fiebre",
+    "word_id": "W535",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202027",
+    "position": 1,
+    "surface": "Tú",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202027",
+    "position": 2,
+    "surface": "no",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202027",
+    "position": 3,
+    "surface": "tienes",
+    "word_id": "W060",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202027",
+    "position": 4,
+    "surface": "fiebre",
+    "word_id": "W535",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202028",
+    "position": 1,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202028",
+    "position": 2,
+    "surface": "no",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202028",
+    "position": 3,
+    "surface": "tiene",
+    "word_id": "W061",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202028",
+    "position": 4,
+    "surface": "fiebre",
+    "word_id": "W535",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202029",
+    "position": 1,
+    "surface": "Está",
+    "word_id": "W040",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202029",
+    "position": 2,
+    "surface": "en",
+    "word_id": "W102",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202029",
+    "position": 3,
+    "surface": "el",
+    "word_id": "W016",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202029",
+    "position": 4,
+    "surface": "hospital",
+    "word_id": "W533",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202030",
+    "position": 1,
+    "surface": "Estoy",
+    "word_id": "W038",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202030",
+    "position": 2,
+    "surface": "en",
+    "word_id": "W102",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202030",
+    "position": 3,
+    "surface": "el",
+    "word_id": "W016",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S202030",
+    "position": 4,
+    "surface": "hospital",
+    "word_id": "W533",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S1101",
     "position": 1,
     "surface": "Cómo",
