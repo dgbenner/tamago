@@ -673,7 +673,7 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (71), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (77), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (12)
 
@@ -778,3 +778,12 @@ Every German sentence I wrote (71), for a native speaker of German as spoken in 
 
 - S12101 Nein, das Pferd ist weiß. = No, the horse is white. (QT09 answer)
 - S12103 Ja, der Hund ist schwarz. = Yes, the dog is black. (QT09 answer)
+
+**U13 Days and Times** (6)
+
+- S13101 Wie ist deine Woche? = How is your week?
+- S13102 Meine Woche ist gut. = My week is good. (QT09 answer)
+- S13103 Ich habe eine Woche Zeit. = I have a week.
+- S13104 Ich komme am Sonntag. = I'm coming on Sunday.
+- S13105 Ist morgen Sonntag? = Is tomorrow Sunday?
+- S13106 Nein, heute ist Samstag. = No, today is Saturday. (QT09 answer)

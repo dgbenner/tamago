@@ -527,6 +527,48 @@
       "french": "Ja, der Hund ist schwarz.",
       "english": "Yes, the dog is black.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S13101",
+      "unit_id": "U13",
+      "french": "Wie ist deine Woche?",
+      "english": "How is your week?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S13102",
+      "unit_id": "U13",
+      "french": "Meine Woche ist gut.",
+      "english": "My week is good.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S13103",
+      "unit_id": "U13",
+      "french": "Ich habe eine Woche Zeit.",
+      "english": "I have a week.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S13104",
+      "unit_id": "U13",
+      "french": "Ich komme am Sonntag.",
+      "english": "I'm coming on Sunday.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S13105",
+      "unit_id": "U13",
+      "french": "Ist morgen Sonntag?",
+      "english": "Is tomorrow Sunday?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S13106",
+      "unit_id": "U13",
+      "french": "Nein, heute ist Samstag.",
+      "english": "No, today is Saturday.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -721,6 +763,22 @@
     {
       "question_sentence_id": "S12030",
       "answer_sentence_id": "S12103"
+    },
+    {
+      "question_sentence_id": "S13101",
+      "answer_sentence_id": "S13102"
+    },
+    {
+      "question_sentence_id": "S13004",
+      "answer_sentence_id": "S13106"
+    },
+    {
+      "question_sentence_id": "S13021",
+      "answer_sentence_id": "S13006"
+    },
+    {
+      "question_sentence_id": "S13020",
+      "answer_sentence_id": "S13005"
     }
   ]
 }
