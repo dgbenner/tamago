@@ -7,7 +7,8 @@ const ROOT = join(import.meta.dirname, '..')
 const drafts = JSON.parse(readFileSync(at('content/drafts.json'), 'utf8')).sentences
 const units = JSON.parse(readFileSync(at('content/raw/units.json'), 'utf8'))
 const off = new Set(JSON.parse(readFileSync(at('content/raw/sentences.json'), 'utf8')).filter((s) => String(s.status).startsWith('off')).map((s) => s.sentence_id))
-const live = drafts.filter((d) => !off.has(d.sentence_id) && d.source !== 'tatoeba') // a draft later found on Tatoeba isn't ours
+const cut = new Set(JSON.parse(readFileSync(at('content/review-decisions.json'), 'utf8')).cut_sentences ?? []) // cut drafts don't ship
+const live = drafts.filter((d) => !off.has(d.sentence_id) && !cut.has(d.sentence_id) && d.source !== 'tatoeba') // a draft later found on Tatoeba isn't ours
 const HEAD = `## ${C.name} drafted sentences`
 const lines = [HEAD, '', `Every ${C.name} sentence I wrote (${live.length}), for a native speaker${C.id === 'es' ? ' of Latin American Spanish' : C.id === 'de' ? ' of German as spoken in Germany' : ''}. Tatoeba sentences aren't listed.`, '']
 for (const u of units) {
