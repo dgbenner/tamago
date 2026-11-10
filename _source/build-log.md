@@ -323,3 +323,35 @@ Developer Notes:
 - Bottom of Settings, collapsed; one collapsible item per document in Dan's order: craft-review.md, the newest _review Grades section, tamago-feature-list.md, question-types.md, build-phases.md, autonomous-build.md, test-notes.md, check-in.md. Rendered by marked at build time from an explicit file list (nothing else in _source is bundled), loaded only when opened; raw HTML shows as text; tables scroll inside their own box.
 - Setting dev_notes (Testing (For Dan)), default on; off hides the section. Turn the default off before testers, with test_shortcuts.
 - No secrets: src/lib/redact.js blanks key-shaped text (Anthropic, GitHub, AWS, Slack, JWT, long mixed tokens, key = value) and test/devnotes.test.js fails the suite if any shown document contains one. Today none does; check-in names the key (tamago-cloudflare) but holds no value.
+
+## Content sweep (2026-11-10, overnight)
+
+Part 1, Tamago originals against checked Tatoeba (owner a native French speaker, or tagged OK):
+- scripts/sweep-originals.mjs: for each of the 303 originals, a Tatoeba sentence with every one of the draft's new
+  words for its unit, its grammar forms, the same statement or question form, only the unit's allowed words, 2 to
+  7 words, not in the course (cut rows included). The 105 sentences in question-and-answer pairs stay as drafts.
+- 5 proposals, 193 with no match. Relaxing the form, the grammar forms or the length to 9 words found at most 7,
+  so the strict rule stood. Review: 3 replaced (S5112 La souris est grande., S7151 Il est vieux., S7254 Mes chats
+  sont mes enfants.), 2 rejected (S6057: temps as time in the Weather pack; S7154: loses vieille before the noun).
+- Workbook v18. Sentences: 393 Tatoeba (was 390), 300 originals (was 303). Native check list: 300.
+
+Part 2, accepted answers:
+- scripts/sweep-answers.mjs: every English sentence Tatoeba links to each of the 393 live Tatoeba sentences. 564
+  English answers were already accepted (main English plus the pulls' extras); 32 more links. The noun-sense filter
+  dropped 15, too strictly (kid, kids, siblings, city are right), so all 32 were reviewed by hand: 24 added, 8 left
+  out (idiom, embellishment, context-bound, or misleading, as "I have three sons." for trois enfants; 3 were
+  contractions the checker already accepts).
+- Workbook v19. fr_to_en answers: 197 (was 173). test/answers.test.js: every added answer passes the checker and
+  every refused one still fails.
+
+Part 3, Lingua Libre recordings:
+- Words: Commons searches word by word hit its rate limit (429, 30 s waits). Wikidata's French lexemes link their
+  Lingua Libre files, so one query found most; the rest came from Commons searches, with a title-pattern search for
+  short words that drown in near misses (chat, une, dix). The user agent now names the app's address, as Wikimedia
+  asks. Heterophones (est, fils, as) and elided forms (l', j') are skipped.
+- 204 of 209 words now have a recording (was 0); sentences stay at 14 (full sentences are rarely recorded; the
+  sentence search already finds short phrases). All 218 levelled: -18.2 to -15.7 LUFS, median -16.2. Shipped as
+  mono AAC: 2.3 MB for all 218 (14 WAVs were 1.2 MB). Licences: CC BY-SA 4.0 128, CC0 38, CC BY-SA 3.0 14, CC BY
+  4.0 13 (some shared files), each credited on About the Content.
+- App: words play their own recording (lesson.js wordRecordingOf) in match pairs, Pick the Picture and flashcards.
+- Tests muted (Chrome --mute-audio, Firefox media.volume_scale 0).

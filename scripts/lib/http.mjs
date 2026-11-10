@@ -5,12 +5,19 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
 const CACHE = join(import.meta.dirname, '../../.cache/http')
-const UA = 'TamagoContentCheck/0.1 (personal language-learning app)'
+// Wikimedia asks automated clients to say who they are and how to reach them: the app's address, no personal details.
+const UA = 'TamagoContentCheck/0.2 (https://tamago-83f.pages.dev; personal language-learning app)'
 const SPACING_MS = 1500
 const MAX_TRIES = 6
 let last = 0
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+
+// The cached answer for a URL, or undefined without asking the network.
+export function cachedJson(url) {
+  const file = join(CACHE, createHash('sha1').update(url).digest('hex') + '.json')
+  return existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : undefined
+}
 
 export async function getJson(url) {
   mkdirSync(CACHE, { recursive: true })

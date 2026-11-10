@@ -4,6 +4,24 @@ Updated November 9, 2026, late. Working through your test notes (_source/test-no
 
 ## Done since last check-in
 
+- **Content sweep (overnight), before and after:**
+
+  | | Before | After |
+  | --- | --- | --- |
+  | Tamago originals | 303 | 300 |
+  | Tatoeba sentences | 390 | 393 |
+  | Native-speaker check list | 303 | 300 |
+  | Extra English answers accepted | 173 | 197 |
+  | Words with a native recording | 0 of 209 | 204 of 209 |
+  | Sentences with a native recording | 14 | 14 |
+  | Recordings in all | 14 | 218 |
+  | Loudness spread of recordings | -18.2 to -26.6 LUFS (before Pass 1) | -15.7 to -18.2 LUFS |
+  | Audio download | 1.2 MB | 2.3 MB |
+
+  - Originals: only 5 had a checked Tatoeba sentence teaching the same words and grammar within the unit's words, and I took 3 (S5112, S7151, S7254). The other two would have lost the point of the sentence. 105 originals are question-and-answer pairs written together, so they stay; 193 had no match. Tatoeba's fitting sentences were already in the course from the earlier pulls.
+  - Answers: 24 more English answers count as right (kid and kids for enfant(s), siblings, city, Farewell, How's it going? and so on). 8 linked translations stayed out as idioms or misleading ("You've got mail." for Tu as une lettre, "I have three sons." for trois enfants).
+  - Recordings: every word with a Lingua Libre recording now plays it in Match the Pairs, Pick the Picture and flashcards, levelled to the same volume as the rest. The five without are deliberate: est, as and fils sound different by meaning, and l' and j' aren't words on their own. Every speaker is credited on About the Content.
+- **New topic packs: none built.** Under the rules of the first seven packs (Units 1 to 5 plus the pack's own words, each new word in at least 3 sentences, checked Tatoeba only, no drafted French), none of the 23 remaining topics reaches 30 good sentences. Details under Waiting for Dan.
 - **Pass 4, accessibility (WCAG 2.2 AA):**
   - Keyboard: every question type can be answered on desktop with Tab and Enter alone. Enter checks; on a word or choice not yet picked, Enter picks it; after an answer, focus is on Continue and Enter goes on. Focus stays put when a picked chip or matched pair disappears. Unit and checkpoint details are proper dialogs (Escape closes them and focus returns).
   - Focus: a blue ring shows wherever the keyboard is, in light and dark, and never hides under the pinned bars.
@@ -57,6 +75,10 @@ Updated November 9, 2026, late. Working through your test notes (_source/test-no
 
 ## Waiting for Dan
 
+0. **Topic packs: all 23 skipped.** Candidate sentences from checked Tatoeba with Units 1 to 5 plus each topic's own words (before my review):
+   - Close: At the Doctor 42 (24 after review and the 3-per-word rule), Cinema 38 (20 after), The Office 29.
+   - Far: Pharmacy 24, Colors and Art 14, Museums 13, Cooking 13, Soccer 12, Chinese Food 8, Train Travel 7, Gardening 6, Airports 5, Bakery 5, Hiking 5, Cats 4, Ocean Life 4, Tree Types 3, Dogs 2, Hotels 2, Birds 2, Cloud Types 1, Cycling 1, Clothing 0.
+   - The limit is the Units 1 to 5 vocabulary: no dans, très, mon, pas or à, so most real sentences fall outside it. If packs could use all 13 A1 units (A1 is complete now), the counts before review become: The Office 102, At the Doctor 82, Cinema 65, Pharmacy 47, Soccer 33, Train Travel 32, Colors and Art 31. Several would likely reach 30. Say if you want that rule, and I'll build them under it.
 0. **Accessibility items I couldn't fix:**
    - **iPad landscape only vs WCAG 1.3.4.** AA says an app mustn't lock itself to one orientation, so the "Turn your iPad sideways" note fails AA. Your Pass 2 notes asked for it, so I left it. Say the word and I'll remove it (an upright iPad would then get the phone layout).
    - **Listening and speaking questions** need hearing and a voice by design. The alternative is the Can't Listen Now / Can't Speak Now button on each of those questions (and in Settings), which swaps them for reading and writing. There's no transcript for listening questions, since that would give the answer away.

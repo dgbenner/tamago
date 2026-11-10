@@ -89,7 +89,7 @@ tables.words = raw('words').flatMap((w) => {
   // Claude's hints under autonomous-build.md: a short form or a better-fitting Wiktionary sense, with its source.
   else if (decisions.claude_hints?.[w.word_id]) { filled.hint = decisions.claude_hints[w.word_id].hint; filled.hint_source = decisions.claude_hints[w.word_id].source }
   if (!filled.hint) { filled.hint = hintFrom(c); filled.hint_source = 'Wiktionary (built)' }
-  return [{ ...filled, gloss_full: c.gloss_full, lemma_gloss: c.lemma_gloss }]
+  return [{ ...filled, gloss_full: c.gloss_full, lemma_gloss: c.lemma_gloss, ...(c.lingua_libre ? { lingua_libre: c.lingua_libre } : {}) }]
 })
 
 // Answers: workbook rows, plus the en_to_fr rows the check generated.
@@ -157,19 +157,32 @@ for (const w of tables.words.filter((x) => x.image_file)) {
 tables.image_set = [IMAGE_SET]
 
 // Recordings.
+const AAC = ['-ac', '1', '-c:a', 'aac', '-b:a', '64k']
 mkdirSync(AUDIO, { recursive: true })
 const wanted = new Set()
 for (const s of tables.sentences.filter((x) => x.lingua_libre)) {
   const ext = s.lingua_libre.file.split('.').pop().toLowerCase()
-  const name = `${s.sentence_id}.${ext}`
+  const name = `${s.sentence_id}.m4a`
   wanted.add(name)
-  // Downloaded once into .cache, then levelled to one loudness on every build (lib/loudness.mjs).
-  const raw = join(ROOT, '.cache/recordings', name)
+  // Downloaded once into .cache, then levelled to one loudness on every build (lib/loudness.mjs) and kept as small
+  // mono AAC: the service worker caches every recording, so size is install time.
+  const raw = join(ROOT, '.cache/recordings', `${s.sentence_id}.${ext}`)
   mkdirSync(join(ROOT, '.cache/recordings'), { recursive: true })
   await getFile(s.lingua_libre.url, raw)
-  normaliseFile(raw, join(AUDIO, name))
+  normaliseFile(raw, join(AUDIO, name), AAC)
   const speaker = s.lingua_libre.file.match(/^LL-Q150 \(fra\)-(.+?)-/)?.[1] ?? ''
   s.lingua_libre = { ...s.lingua_libre, audio_file: `/audio/${name}`, speaker }
+}
+// Word recordings (content sweep, part 3), the same way: public/audio/<word_id>.<ext>, levelled.
+for (const w of tables.words.filter((x) => x.lingua_libre)) {
+  const ext = w.lingua_libre.file.split('.').pop().toLowerCase()
+  const name = `${w.word_id}.m4a`
+  wanted.add(name)
+  const raw = join(ROOT, '.cache/recordings', `${w.word_id}.${ext}`)
+  await getFile(w.lingua_libre.url, raw)
+  normaliseFile(raw, join(AUDIO, name), AAC)
+  const speaker = w.lingua_libre.file.match(/^LL-Q150 \(fra\)-(.+?)-/)?.[1] ?? ''
+  w.lingua_libre = { ...w.lingua_libre, audio_file: `/audio/${name}`, speaker }
 }
 for (const f of readdirSync(AUDIO)) if (!wanted.has(f)) rmSync(join(AUDIO, f))
 
@@ -181,5 +194,5 @@ if (existsSync(join(ROOT, 'public/content'))) rmSync(join(ROOT, 'public/content'
 const awaiting = raw('sentences').filter((s) => !live.has(s.sentence_id) && !cut.has(s.sentence_id) && !String(s.status).startsWith('off')).map((s) => s.sentence_id)
 const original = tables.sentences.filter((s) => s.source === 'tamago_original').length
 const fr = tables.accepted_answers.filter((a) => a.direction === 'fr_to_en').length
-console.log(`Shipped: ${tables.sentences.length} sentences (${tables.sentences.length - original} Tatoeba, ${original} Tamago originals), ${tables.words.length} words, ${fr} fr_to_en and ${tables.accepted_answers.length - fr} en_to_fr answers, ${tables.qa_answers.length} qa_answers, ${tables.feedback_phrases.length} feedback lines (${tables.feedback_phrases.filter((f) => f.language === 'fr').length} French), ${wanted.size} recordings. U01 status: ${tables.units[0].status}.${awaiting.length ? ` Not live, awaiting a ruling: ${awaiting.join(', ')}.` : ''}`)
+console.log(`Shipped: ${tables.sentences.length} sentences (${tables.sentences.length - original} Tatoeba, ${original} Tamago originals), ${tables.words.length} words, ${fr} fr_to_en and ${tables.accepted_answers.length - fr} en_to_fr answers, ${tables.qa_answers.length} qa_answers, ${tables.feedback_phrases.length} feedback lines (${tables.feedback_phrases.filter((f) => f.language === 'fr').length} French), ${wanted.size} recordings (${tables.words.filter((w) => w.lingua_libre).length} of them words). U01 status: ${tables.units[0].status}.${awaiting.length ? ` Not live, awaiting a ruling: ${awaiting.join(', ')}.` : ''}`)
 if (heldBack.length) console.log(`Held back until their native-speaker fix is applied: ${heldBack.join(', ')}.`)

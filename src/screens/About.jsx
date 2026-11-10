@@ -7,6 +7,7 @@ export default function About({ content, onBack }) {
   const tatoeba = content.sentences.filter((s) => s.source === 'tatoeba')
   const owners = [...new Set(tatoeba.map((s) => s.source_owner))].sort((a, b) => a.localeCompare(b))
   const recordings = content.sentences.filter((s) => s.lingua_libre)
+  const wordRecordings = content.words.filter((w) => w.lingua_libre)
   const nativeRecorded = content.sentences.filter((s) => s.native_recording)
   const originals = content.sentences.filter((s) => s.source === 'tamago_original').length
   return (
@@ -45,6 +46,9 @@ export default function About({ content, onBack }) {
         <ul className="flex flex-col gap-1 text-sm text-muted">
           {recordings.map((s) => (
             <li key={s.sentence_id}><span lang="fr">{s.french}</span> by {s.lingua_libre.speaker}, {s.lingua_libre.license}. <A href={`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(s.lingua_libre.file)}`}>Source</A></li>
+          ))}
+          {wordRecordings.map((w) => (
+            <li key={w.word_id}><span lang="fr">{w.form}</span> by {w.lingua_libre.speaker}, {w.lingua_libre.license}. <A href={`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(w.lingua_libre.file)}`}>Source</A></li>
           ))}
         </ul>
         {nativeRecorded.length > 0 && (

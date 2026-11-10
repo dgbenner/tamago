@@ -39,4 +39,4 @@ export function addAccepted(rows) {
   for (const r of rows) if (!have.has(`${r.sentence_id}|${r.direction}|${r.answer}`)) tables.accepted_answers.push({ ...r, status: 'live' })
   cache.clear()
 }
-export const recordings = sentences.map((s) => s.native_recording?.audio_file ?? s.lingua_libre?.audio_file).filter(Boolean)
+export const recordings = [...sentences.map((s) => s.native_recording?.audio_file ?? s.lingua_libre?.audio_file), ...words.map((w) => w.lingua_libre?.audio_file)].filter(Boolean)

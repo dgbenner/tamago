@@ -222,6 +222,8 @@ export function segmentFrench(c, s) {
 
 // A native speaker's recording from the Phase 4 check plays first, then Lingua Libre's, then the device voice.
 export const recordingOf = (s) => s?.native_recording?.audio_file ?? s?.lingua_libre?.audio_file ?? null
+// A word's own recording (Lingua Libre, content sweep part 3), else a one-word sentence's recording, else none (TTS).
+export const wordRecordingOf = (c, w) => w?.lingua_libre?.audio_file ?? recordingOf(c.sentences.find((s) => recordingOf(s) && normalize(s.french, 'fr') === normalize(w.form, 'fr'))) ?? null
 const audioOf = (s) => ({ sentence_id: s.sentence_id, french: s.french, file: recordingOf(s) })
 const answersFor = (c, s, direction) => c.accepted_answers.filter((a) => a.sentence_id === s.sentence_id && a.direction === direction).map((a) => a.answer)
 const chipCase = (row) => (row.notes === 'name' ? row.surface : String(row.surface).toLowerCase())
@@ -299,7 +301,7 @@ export function makeWordImage(c, word, pool, round, rng, last) {
   if (last) last.QT02 = variant
   const n = variant === 'V0202' ? 4 : 3
   const others = shuffle(pool.filter((w) => w.word_id !== word.word_id && w.hint !== word.hint), rng).slice(0, n - 1)
-  const fileFor = (w) => recordingOf(c.sentences.find((s) => recordingOf(s) && normalize(s.french, 'fr') === normalize(w.form, 'fr')))
+  const fileFor = (w) => wordRecordingOf(c, w)
   return {
     qid: `QT02-${word.word_id}-${Math.floor(rng() * 1e9)}`, type: 'QT02', variant, round, skill: c.typeById.get('QT02').skill,
     word_ids: [word.word_id], word_id: word.word_id, form: word.form, hint: word.hint,
@@ -311,7 +313,7 @@ export function makeWordImage(c, word, pool, round, rng, last) {
 }
 
 export function makeMatchPairs(c, words, round, rng) {
-  const fileFor = (w) => recordingOf(c.sentences.find((s) => recordingOf(s) && normalize(s.french, 'fr') === normalize(w.form, 'fr')))
+  const fileFor = (w) => wordRecordingOf(c, w)
   const pairs = words.map((w) => ({ word_id: w.word_id, form: w.form, hint: w.hint, audio: { french: w.form, file: fileFor(w) } }))
   return {
     qid: `QT01-${words.map((w) => w.word_id).join('')}-${Math.floor(rng() * 1e9)}`, type: 'QT01', round, skill: c.typeById.get('QT01').skill,

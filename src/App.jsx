@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, recordings, tables, unitContent } from './lib/content.js'
-import { indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining } from './lib/lesson.js'
+import { wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { band, skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
@@ -345,7 +345,7 @@ export default function App() {
     const due = met.filter((w) => deck[w.word_id] && isDue(deck[w.word_id])).sort((a, b) => new Date(deck[a.word_id].due) - new Date(deck[b.word_id].due))
     const fresh = met.filter((w) => !deck[w.word_id])
     const pick = [...due, ...fresh].slice(0, 10)
-    const fileFor = (w) => tables.sentences.find((s) => s.lingua_libre?.audio_file && s.french.replace(/[.!?]/g, '').trim().toLowerCase() === w.form)?.lingua_libre.audio_file ?? null
+    const fileFor = (w) => wordRecordingOf(allContent, w)
     setFlash({ aloud, back, cards: pick.map((w) => ({ word_id: w.word_id, form: w.form, hint: w.hint, audio: { french: w.form, file: fileFor(w) }, example: examplesOf(w.word_id)[0] ?? null })) })
     setScreen('flashcards')
   }

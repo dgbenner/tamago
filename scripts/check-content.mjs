@@ -340,6 +340,57 @@ for (const w of words) {
   wordChecks.push(row)
 }
 
+// Word recordings on Lingua Libre (content sweep, part 3). Wikidata's French lexemes link their Lingua Libre files,
+// so one query finds most of them; the words Wikidata doesn't link are searched on Commons one by one, at the polite
+// pace of lib/http.mjs. Licences and file addresses come from Commons, fifty files a request. A form spelled
+// the same but said differently by meaning (est "is" or "east", fils "son" or "threads") is skipped: the recording
+// can't say which one it is. Elided forms (j', l') aren't words on their own.
+const HETEROPHONES = new Set(['est', 'fils', 'as', 'plus', 'tous', 'os', 'sens', 'vis', 'content', 'couvent'])
+console.log('Words: Lingua Libre')
+const recordable = wordChecks.filter((r) => !HETEROPHONES.has(r.form) && !/'$/.test(r.form))
+const values = recordable.map((r) => `"${r.form.replace(/"/g, '')}"@fr`).join(' ')
+const sparql = `SELECT ?rep ?audio WHERE { VALUES ?rep { ${values} } ?l dct:language wd:Q150; ontolex:lexicalForm ?f. ?f ontolex:representation ?rep; wdt:P443 ?audio. FILTER(CONTAINS(STR(?audio), "LL-Q150")) }`
+const wd = await getJson(`https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(sparql)}`)
+const filesFor = new Map()
+for (const b of wd?.results?.bindings ?? []) {
+  const file = decodeURIComponent(b.audio.value.split('/Special:FilePath/')[1] ?? '')
+  const rest = file.match(/^LL-Q150 \(fra\)-([^-]+)-(.+)\.[a-z0-9]+$/i)
+  if (!rest || loose(rest[2]) !== loose(b.rep.value)) continue // the file must be titled as the word itself
+  if (!filesFor.has(b.rep.value)) filesFor.set(b.rep.value, new Set())
+  filesFor.get(b.rep.value).add(file)
+}
+for (const r of recordable) {
+  if (filesFor.has(r.form)) continue
+  const q = `intitle:"LL-Q150 (fra)" intitle:"${loose(r.form)}"`
+  const res = await getJson(`https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srlimit=50&format=json&srsearch=${encodeURIComponent(q)}`)
+  const hits = (res?.query?.search ?? []).map((x) => x.title.replace(/^File:/, '')).filter((t) => { const m = t.match(/^LL-Q150 \(fra\)-([^-]+)-(.+)\.[a-z0-9]+$/i); return m && loose(m[2]) === loose(r.form) })
+  // A short, common word (chat, une, dix) drowns in near misses (château, chaton), so a title pattern ending in the
+  // word itself finds it.
+  if (!hits.length) {
+    const pattern = `intitle:"LL-Q150 (fra)" intitle:/-${r.form.replace(/[.?+*|{}[\]()"\\#@&<>~]/g, '\\$&')}.wav/`
+    const res2 = await getJson(`https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6&srlimit=50&format=json&srsearch=${encodeURIComponent(pattern)}`)
+    hits.push(...(res2?.query?.search ?? []).map((x) => x.title.replace(/^File:/, '')).filter((t) => { const m = t.match(/^LL-Q150 \(fra\)-([^-]+)-(.+)\.[a-z0-9]+$/i); return m && loose(m[2]) === loose(r.form) }))
+  }
+  if (hits.length) filesFor.set(r.form, new Set(hits))
+}
+// One file per word (the first by name, as for sentences), with its licence and address.
+const chosen = new Map([...filesFor].map(([form, set]) => [form, [...set].sort()[0]]))
+const infoFor = new Map()
+const titles = [...new Set(chosen.values())]
+for (let i = 0; i < titles.length; i += 50) {
+  const batch = titles.slice(i, i + 50).map((t) => `File:${t}`).join('|')
+  const info = await getJson(`https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=url|extmetadata&format=json&titles=${encodeURIComponent(batch)}`)
+  for (const page of Object.values(info?.query?.pages ?? {})) {
+    const ii = page.imageinfo?.[0]
+    if (ii) infoFor.set(page.title.replace(/^File:/, ''), { url: ii.url, license: ii.extmetadata?.LicenseShortName?.value ?? '' })
+  }
+}
+for (const row of wordChecks) {
+  const file = recordable.includes(row) ? chosen.get(row.form) : null
+  const info = file && infoFor.get(file)
+  row.lingua_libre = info && /^CC/.test(info.license) ? { file, url: info.url, license: info.license, recordings_found: filesFor.get(row.form).size } : null
+}
+
 // ---------- Output ----------
 const save = (name, rows) => writeFileSync(join(CHECKS, `${name}.json`), JSON.stringify(rows, null, 2) + '\n')
 save('sentences', sentenceChecks)
@@ -417,4 +468,4 @@ table('Lingua Libre recordings', '', ['ID', 'French', 'File', 'License', 'Record
   ll.map((r) => [r.sentence_id, esc(r.french), `[${esc(r.lingua_libre.file)}](${encodeURI(r.lingua_libre.url)})`, esc(r.lingua_libre.license), r.lingua_libre.recordings_found]))
 writeFileSync(join(ROOT, 'content/review.md'), md.join('\n'))
 
-console.log(`Sentences: ${passed.length} checked, ${reviewed.length} dan_reviewed, ${flagged.length} flagged. Words: ${wordChecks.filter((w) => w.status === 'checked').length} checked. Answers: ${answerChecks.filter((a) => a.status === 'checked').length} checked, ${flaggedAnswers.length} flagged, ${generatedAnswers.length} en_to_fr generated. Lingua Libre: ${ll.length} live sentences. French feedback lines: ${phraseChecks.filter((p) => p.status === 'checked').length} of ${phraseChecks.length} checked.`)
+console.log(`Sentences: ${passed.length} checked, ${reviewed.length} dan_reviewed, ${flagged.length} flagged. Words: ${wordChecks.filter((w) => w.status === 'checked').length} checked. Answers: ${answerChecks.filter((a) => a.status === 'checked').length} checked, ${flaggedAnswers.length} flagged, ${generatedAnswers.length} en_to_fr generated. Lingua Libre: ${ll.length} live sentences, ${wordChecks.filter((w) => w.lingua_libre).length} words. French feedback lines: ${phraseChecks.filter((p) => p.status === 'checked').length} of ${phraseChecks.length} checked.`)

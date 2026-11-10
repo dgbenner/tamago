@@ -17,6 +17,8 @@ From 2026-11-09 the build runs under `_source/autonomous-build.md`: phase by pha
 2. `check`: Tatoeba, Wiktionary and Lingua Libre to `content/checks/` and `content/review.md`. Generates the en_to_fr answers (workbook README). Downloads are cached in `.cache/`.
 3. `build:content`: writes `src/content/`, bundled into the app, and copies recordings to `public/audio/`. The workbook's status is the gate, and the build fails if the checks disagree with it.
 
+Content sweep (2026-11-10): `scripts/sweep-originals.mjs` and `scripts/sweep-answers.mjs` propose checked Tatoeba replacements for originals and extra linked English answers into content/sweep/; Claude reviews them (originals-review.json, answers-review.json) and `scripts/apply-sweep.mjs` folds them into the next workbook. Word recordings: the check finds Lingua Libre files through Wikidata lexemes, then Commons searches (plain, then a title pattern), skipping heterophones (est, fils, as, plus, tous…) and elided forms; recordings ship as levelled mono AAC (.m4a) in public/audio, named by sentence or word id. `scripts/pack-feasibility.mjs` counts candidates for new topic packs (content/sweep/pack-words.json).
+
 Dan's rulings go in `content/review-decisions.json` (also accepted_additions, from `node scripts/import-flags.mjs <file>`). The native-speaker check comes back as a file: `node scripts/import-native-check.mjs <file>` writes content/native-check.json and public/audio-native/ (m4a via ffmpeg, only with the checker's CC BY-SA consent); a fix to a workbook row holds that sentence back until the workbook has it. Wiktionary sense choices go in `content/word-senses.json`.
 
 Standing decisions:
