@@ -481,3 +481,4 @@ Part 3, Lingua Libre recordings:
 - Spanish Unit 4 (Food and Drink): 30 Tatoeba, 6 drafts, 4 QT09 pairs; 5 cuts.
 - Spanish Unit 5 (Pets and Animals): 30 Tatoeba, 14 drafts, 4 QT09 pairs; 6 cuts (I am a mouse, insults).
 - Spanish Unit 6 (More Than One): widened with plural adjectives and verbs; 30 Tatoeba, 26 drafts, 4 QT09 pairs; 10 cuts (como as like, I am a dog, an idiom).
+- Spanish Unit 7 (Describing Things): 30 Tatoeba, 3 drafted QT09 answers; 5 cuts (too for very, bueno as well, estar nuances).

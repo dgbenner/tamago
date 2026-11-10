@@ -654,6 +654,27 @@
       "french": "Nosotros somos niños.",
       "english": "We are children.",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S7101",
+      "unit_id": "U07",
+      "french": "Sí, soy nuevo.",
+      "english": "Yes, I'm new.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S7102",
+      "unit_id": "U07",
+      "french": "Sí, es nuevo.",
+      "english": "Yes, it's new.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S7103",
+      "unit_id": "U07",
+      "french": "Sí, Tom es muy bueno.",
+      "english": "Yes, Tom is very good.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -752,6 +773,22 @@
     {
       "question_sentence_id": "S6016",
       "answer_sentence_id": "S6120"
+    },
+    {
+      "question_sentence_id": "S7004",
+      "answer_sentence_id": "S7101"
+    },
+    {
+      "question_sentence_id": "S7007",
+      "answer_sentence_id": "S7102"
+    },
+    {
+      "question_sentence_id": "S7008",
+      "answer_sentence_id": "S7022"
+    },
+    {
+      "question_sentence_id": "S7014",
+      "answer_sentence_id": "S7103"
     }
   ]
 }
