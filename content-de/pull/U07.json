@@ -1,0 +1,1537 @@
+{
+  "unit_id": "U07",
+  "pulled_at": "2026-11-10",
+  "candidates": 162,
+  "sentences": [
+    {
+      "sentence_id": "S7001",
+      "unit_id": "U07",
+      "french": "Er ist sehr jung.",
+      "english": "He's very young.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1433840",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": [
+        "He is very young."
+      ]
+    },
+    {
+      "sentence_id": "S7002",
+      "unit_id": "U07",
+      "french": "Sie sind sehr alt.",
+      "english": "They are very old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1584294",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7003",
+      "unit_id": "U07",
+      "french": "Tom ist sehr alt.",
+      "english": "Tom is very old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1931080",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Tom is really old."
+      ]
+    },
+    {
+      "sentence_id": "S7004",
+      "unit_id": "U07",
+      "french": "Mary ist jung und schön.",
+      "english": "Mary is young and beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1542753",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7005",
+      "unit_id": "U07",
+      "french": "Tom ist jung und schön.",
+      "english": "Tom is young and beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1542754",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7006",
+      "unit_id": "U07",
+      "french": "Sind sie neu?",
+      "english": "Are they new?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "725993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dejo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7007",
+      "unit_id": "U07",
+      "french": "Ist es neu?",
+      "english": "Is it new?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1910884",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7008",
+      "unit_id": "U07",
+      "french": "Wie alt bist du?",
+      "english": "How old are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "480",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ludoviko",
+      "other_english": [
+        "What age are you?"
+      ]
+    },
+    {
+      "sentence_id": "S7009",
+      "unit_id": "U07",
+      "french": "Sind Sie neu hier?",
+      "english": "Are you new here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "721463",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7010",
+      "unit_id": "U07",
+      "french": "Sie ist jung und schön.",
+      "english": "She's young and beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1988001",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7011",
+      "unit_id": "U07",
+      "french": "Du auch?",
+      "english": "You too?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6599993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "vevi61",
+      "other_english": [
+        "You as well?"
+      ]
+    },
+    {
+      "sentence_id": "S7012",
+      "unit_id": "U07",
+      "french": "Ist Tom auch hier?",
+      "english": "Is Tom here, too?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3032124",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7013",
+      "unit_id": "U07",
+      "french": "Hat Tom ein Auto?",
+      "english": "Does Tom have a car?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6644852",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7014",
+      "unit_id": "U07",
+      "french": "Ich mag es auch sehr.",
+      "english": "I really like it, too.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8834141",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7015",
+      "unit_id": "U07",
+      "french": "Tom hat ein Auto.",
+      "english": "Tom has a car.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1495927",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7016",
+      "unit_id": "U07",
+      "french": "Hier ist das Auto.",
+      "english": "Here's the car.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2428490",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Here is the car."
+      ]
+    },
+    {
+      "sentence_id": "S7017",
+      "unit_id": "U07",
+      "french": "Ist sie schön?",
+      "english": "Is she pretty?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2924891",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Is she beautiful?"
+      ]
+    },
+    {
+      "sentence_id": "S7018",
+      "unit_id": "U07",
+      "french": "Ist Tom jung?",
+      "english": "Is Tom young?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12609641",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dorlota",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7019",
+      "unit_id": "U07",
+      "french": "Wie alt bin ich?",
+      "english": "How old am I?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "862957",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "samueldora",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7020",
+      "unit_id": "U07",
+      "french": "Wie alt ist Tom?",
+      "english": "How old is Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2435226",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7021",
+      "unit_id": "U07",
+      "french": "Ist Tom nicht schön?",
+      "english": "Isn't Tom handsome?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5212263",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7022",
+      "unit_id": "U07",
+      "french": "Wie alt sind sie?",
+      "english": "How old are they?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8883068",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7023",
+      "unit_id": "U07",
+      "french": "Ist sie nicht schön?",
+      "english": "Isn't she beautiful?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9988529",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7024",
+      "unit_id": "U07",
+      "french": "Ist es nicht schön?",
+      "english": "Isn't it nice?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10015272",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7025",
+      "unit_id": "U07",
+      "french": "Wie alt sind die Kinder?",
+      "english": "How old are the children?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1743532",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "How old are the kids?"
+      ]
+    },
+    {
+      "sentence_id": "S7026",
+      "unit_id": "U07",
+      "french": "Wie sehr magst du Tom?",
+      "english": "How much do you like Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3670238",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tamy",
+      "other_english": [
+        "How much do you love Tom?"
+      ]
+    },
+    {
+      "sentence_id": "S7027",
+      "unit_id": "U07",
+      "french": "Bist du nicht neu hier?",
+      "english": "Aren't you new here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6645736",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7028",
+      "unit_id": "U07",
+      "french": "Wie alt bist du, Tom?",
+      "english": "How old are you, Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8317248",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7029",
+      "unit_id": "U07",
+      "french": "Sehr gut. Wie geht es dir?",
+      "english": "Very good. How are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1729969",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S7030",
+      "unit_id": "U07",
+      "french": "Sehr schön!",
+      "english": "Beautiful!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12971015",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mhr",
+      "other_english": [
+        "Lovely!",
+        "Very pretty!"
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S7001",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7001",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7001",
+      "position": 3,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7001",
+      "position": 4,
+      "surface": "jung",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7002",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7002",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7002",
+      "position": 3,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7002",
+      "position": 4,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 3,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7003",
+      "position": 4,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7004",
+      "position": 1,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7004",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7004",
+      "position": 3,
+      "surface": "jung",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7004",
+      "position": 4,
+      "surface": "und",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7004",
+      "position": 5,
+      "surface": "schön",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7005",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7005",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7005",
+      "position": 3,
+      "surface": "jung",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7005",
+      "position": 4,
+      "surface": "und",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7005",
+      "position": 5,
+      "surface": "schön",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7006",
+      "position": 1,
+      "surface": "Sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7006",
+      "position": 2,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7006",
+      "position": 3,
+      "surface": "neu",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7007",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7007",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7007",
+      "position": 3,
+      "surface": "neu",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7008",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7008",
+      "position": 2,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7008",
+      "position": 3,
+      "surface": "bist",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7008",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 1,
+      "surface": "Sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 3,
+      "surface": "neu",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7009",
+      "position": 4,
+      "surface": "hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7010",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7010",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7010",
+      "position": 3,
+      "surface": "jung",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7010",
+      "position": 4,
+      "surface": "und",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7010",
+      "position": 5,
+      "surface": "schön",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7011",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7011",
+      "position": 2,
+      "surface": "auch",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7012",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7012",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7012",
+      "position": 3,
+      "surface": "auch",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7012",
+      "position": 4,
+      "surface": "hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7013",
+      "position": 1,
+      "surface": "Hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7013",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7013",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7013",
+      "position": 4,
+      "surface": "Auto",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7014",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7014",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7014",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7014",
+      "position": 4,
+      "surface": "auch",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7014",
+      "position": 5,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7015",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7015",
+      "position": 2,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7015",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7015",
+      "position": 4,
+      "surface": "Auto",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7016",
+      "position": 1,
+      "surface": "Hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7016",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7016",
+      "position": 3,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7016",
+      "position": 4,
+      "surface": "Auto",
+      "word_id": "W089",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7017",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7017",
+      "position": 2,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7017",
+      "position": 3,
+      "surface": "schön",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7018",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7018",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7018",
+      "position": 3,
+      "surface": "jung",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7019",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7019",
+      "position": 2,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7019",
+      "position": 3,
+      "surface": "bin",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7019",
+      "position": 4,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7020",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7020",
+      "position": 2,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7020",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7020",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7021",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7021",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7021",
+      "position": 3,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7021",
+      "position": 4,
+      "surface": "schön",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7022",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7022",
+      "position": 2,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7022",
+      "position": 3,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7022",
+      "position": 4,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7023",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7023",
+      "position": 2,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7023",
+      "position": 3,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7023",
+      "position": 4,
+      "surface": "schön",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7024",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7024",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7024",
+      "position": 3,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7024",
+      "position": 4,
+      "surface": "schön",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7025",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7025",
+      "position": 2,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7025",
+      "position": 3,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7025",
+      "position": 4,
+      "surface": "die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7025",
+      "position": 5,
+      "surface": "Kinder",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7026",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7026",
+      "position": 2,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7026",
+      "position": 3,
+      "surface": "magst",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7026",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7026",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7027",
+      "position": 1,
+      "surface": "Bist",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7027",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7027",
+      "position": 3,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7027",
+      "position": 4,
+      "surface": "neu",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7027",
+      "position": 5,
+      "surface": "hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7028",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7028",
+      "position": 2,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7028",
+      "position": 3,
+      "surface": "bist",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7028",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7028",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7029",
+      "position": 1,
+      "surface": "Sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7029",
+      "position": 2,
+      "surface": "gut",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7029",
+      "position": 3,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7029",
+      "position": 4,
+      "surface": "geht",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7029",
+      "position": 5,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7029",
+      "position": 6,
+      "surface": "dir",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7030",
+      "position": 1,
+      "surface": "Sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S7030",
+      "position": 2,
+      "surface": "schön",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A70011",
+      "sentence_id": "S7001",
+      "direction": "fr_to_en",
+      "answer": "He is very young.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70031",
+      "sentence_id": "S7003",
+      "direction": "fr_to_en",
+      "answer": "Tom is really old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70081",
+      "sentence_id": "S7008",
+      "direction": "fr_to_en",
+      "answer": "What age are you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70111",
+      "sentence_id": "S7011",
+      "direction": "fr_to_en",
+      "answer": "You as well?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70161",
+      "sentence_id": "S7016",
+      "direction": "fr_to_en",
+      "answer": "Here is the car.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70171",
+      "sentence_id": "S7017",
+      "direction": "fr_to_en",
+      "answer": "Is she beautiful?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70251",
+      "sentence_id": "S7025",
+      "direction": "fr_to_en",
+      "answer": "How old are the kids?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70261",
+      "sentence_id": "S7026",
+      "direction": "fr_to_en",
+      "answer": "How much do you love Tom?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70301",
+      "sentence_id": "S7030",
+      "direction": "fr_to_en",
+      "answer": "Lovely!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A70302",
+      "sentence_id": "S7030",
+      "direction": "fr_to_en",
+      "answer": "Very pretty!",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

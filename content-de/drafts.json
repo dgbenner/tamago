@@ -353,6 +353,27 @@
       "french": "Ja, ich mag Katzen.",
       "english": "Yes, I like cats.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S7101",
+      "unit_id": "U07",
+      "french": "Ja, Tom ist sehr jung.",
+      "english": "Yes, Tom is very young.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S7102",
+      "unit_id": "U07",
+      "french": "Ja, es ist neu.",
+      "english": "Yes, it is new.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S7103",
+      "unit_id": "U07",
+      "french": "Ja, ich bin auch neu hier.",
+      "english": "Yes, I'm new here too.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -451,6 +472,22 @@
     {
       "question_sentence_id": "S6028",
       "answer_sentence_id": "S6004"
+    },
+    {
+      "question_sentence_id": "S7013",
+      "answer_sentence_id": "S7015"
+    },
+    {
+      "question_sentence_id": "S7018",
+      "answer_sentence_id": "S7101"
+    },
+    {
+      "question_sentence_id": "S7007",
+      "answer_sentence_id": "S7102"
+    },
+    {
+      "question_sentence_id": "S7009",
+      "answer_sentence_id": "S7103"
     }
   ]
 }
