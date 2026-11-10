@@ -304,6 +304,21 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md (Dan: packs Tatoeba only, 30 or more, every word in 3 or more): 30 checked Tatoeba sentences, reviewed in content-es/sweep/packs-review.json"
+    },
+    "U31": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 20 Tatoeba sentences from checked owners after cutting 1 (¡Cómo habla!, an exclamation); 9 drafts for the phrases checked Tatoeba lacks (Repite, por favor., ¿Entiendes?)"
+    },
+    "U32": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 29 Tatoeba sentences from checked owners after cutting 3 (English that misleads for quiere decir, odd lines); 3 drafts for phrases checked Tatoeba lacks"
+    },
+    "U33": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 22 Tatoeba sentences from checked owners after cutting 8 (sé as be from ser, para as stop, sirve as serve!, an idiom); 8 drafts for the phrases checked Tatoeba lacks (Busco la palabra., Es una cosa para …, ¿Para qué sirve?)"
     }
   },
   "cut_sentences": [],

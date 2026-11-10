@@ -536,7 +536,7 @@ Every French sentence I wrote (267), for the native-speaker check. Tatoeba sente
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (127), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (146), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (16)
 
@@ -709,6 +709,34 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 - S15101 La escuela está allí. = The school is over there. (QT09 answer)
 - S15102 Sí, me gusta la escuela. = Yes, I like school. (QT09 answer)
 - S15103 Sí, yo también voy. = Yes, I'm going too. (QT09 answer)
+
+**U31 Asking for Help** (8)
+
+- S31101 Repite, por favor. = Please repeat.
+- S31102 Repita, por favor. = Please repeat.
+- S31103 Repite, por favor. No entiendo. = Please repeat. I don't understand.
+- S31104 Repita más despacio, por favor. = Please repeat more slowly.
+- S31105 Repite más despacio, por favor. = Please repeat more slowly.
+- S31106 No entiendo. Repita, por favor. = I don't understand. Please repeat.
+- S31108 Otra vez, por favor. = Again, please.
+- S31109 ¿Me entiendes? = Do you understand me?
+
+**U32 Asking About Words** (3)
+
+- S32101 ¿Qué quiere decir eso? = What does that mean?
+- S32102 ¿Qué quiere decir «gracias»? = What does "gracias" mean?
+- S32103 ¿Cómo se dice «gracias» en inglés? = How do you say "gracias" in English?
+
+**U33 Finding the Word** (8)
+
+- S33101 Busco la palabra. = I'm looking for the word.
+- S33102 Busco una palabra. = I'm looking for a word.
+- S33103 Busco la palabra en español. = I'm looking for the word in Spanish.
+- S33104 Es una cosa para el agua. = It's a thing for water.
+- S33105 Es una cosa para el pan. = It's a thing for bread.
+- S33106 ¿Para qué sirve? = What is it for?
+- S33107 Sirve para el agua. = It's for water.
+- S33108 Sirve para el pan. = It's for bread.
 
 
 ## German drafted sentences

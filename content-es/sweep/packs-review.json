@@ -225,5 +225,29 @@
     "reject": {
       "10124749": "no here means right?, misleading for the word no"
     }
+  },
+  "U31": {
+    "reject": {
+      "1271497": "exclamation (How she talks!), misleading for cómo and habla"
+    }
+  },
+  "U32": {
+    "reject": {
+      "945501": "English (What’re you saying?) misleading for quiere decir",
+      "1320971": "odd (Is THIS edible?)",
+      "10091185": "odd on its own (What is a word?)"
+    }
+  },
+  "U33": {
+    "reject": {
+      "580596": "sirve as serve!, misleading for sirve para",
+      "2062784": "sé as be (ser), misleading for sé (I know)",
+      "4567917": "sé as be (ser), misleading for sé (I know)",
+      "6600051": "idiom (That'll do)",
+      "6673555": "para as stop (parar), misleading for para",
+      "6675133": "para as stop (parar), misleading for para",
+      "7842061": "sé as be (ser), misleading for sé (I know)",
+      "7932307": "sé as be (ser), misleading for sé (I know)"
+    }
   }
 }

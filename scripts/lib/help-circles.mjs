@@ -21,8 +21,8 @@ export const HELP = {
   },
   es: {
     U31: { grammar: 'No entiendo; más despacio; repite, por favor', words: ['entiendo', 'entiendes', 'despacio', 'más', 'repite', 'repita', 'habla', 'hable', 'otra vez'], borrow: ['por favor'] },
-    U32: { grammar: '¿Cómo se dice…? ¿Qué significa…?', words: ['se', 'dice', 'significa', 'quiere', 'decir', 'palabra', 'español', 'inglés'], borrow: ['qué'] },
-    U33: { grammar: 'Busco la palabra…; es una cosa para…; no sé', words: ['busco', 'sé', 'cosa', 'para', 'llama', 'sirve'], borrow: [] },
+    U32: { grammar: '¿Cómo se dice…? ¿Qué significa…?', words: ['se', 'dice', 'significa', 'quiere', 'decir', 'palabra', 'español', 'inglés'], borrow: ['qué', 'en'] },
+    U33: { grammar: 'Busco la palabra…; es una cosa para…; no sé', words: ['busco', 'sé', 'cosa', 'para', 'llama', 'sirve'], borrow: ['qué'] },
   },
   de: {
     U31: { grammar: 'Ich verstehe nicht; langsamer, bitte; noch einmal', words: ['verstehe', 'verstehst', 'langsamer', 'noch einmal', 'sprich', 'wiederholen'], borrow: ['bitte', 'sprechen', 'sie'] },

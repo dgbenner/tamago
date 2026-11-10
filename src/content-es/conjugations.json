@@ -194,7 +194,7 @@
       },
       {
         "person": "él, ella, usted",
-        "form": "ha , hay"
+        "form": "ha, hay"
       },
       {
         "person": "nosotros, nosotras",
@@ -310,5 +310,239 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/cantar#Conjugation"
+  },
+  {
+    "lemma": "entender",
+    "present": [
+      {
+        "person": "yo",
+        "form": "entiendo"
+      },
+      {
+        "person": "tú",
+        "form": "entiendes"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "entiende"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "entendemos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "entienden"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/entender#Conjugation"
+  },
+  {
+    "lemma": "repetir",
+    "present": [
+      {
+        "person": "yo",
+        "form": "repito"
+      },
+      {
+        "person": "tú",
+        "form": "repites"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "repite"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "repetimos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "repiten"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/repetir#Conjugation"
+  },
+  {
+    "lemma": "hablar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "hablo"
+      },
+      {
+        "person": "tú",
+        "form": "hablas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "habla"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "hablamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "hablan"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/hablar#Conjugation"
+  },
+  {
+    "lemma": "decir",
+    "present": [
+      {
+        "person": "yo",
+        "form": "digo"
+      },
+      {
+        "person": "tú",
+        "form": "dices"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "dice"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "decimos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "dicen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/decir#Conjugation"
+  },
+  {
+    "lemma": "significar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "significo"
+      },
+      {
+        "person": "tú",
+        "form": "significas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "significa"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "significamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "significan"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/significar#Conjugation"
+  },
+  {
+    "lemma": "querer",
+    "present": [
+      {
+        "person": "yo",
+        "form": "quiero"
+      },
+      {
+        "person": "tú",
+        "form": "quieres"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "quiere"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "queremos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "quieren"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/querer#Conjugation"
+  },
+  {
+    "lemma": "buscar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "busco"
+      },
+      {
+        "person": "tú",
+        "form": "buscas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "busca"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "buscamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "buscan"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/buscar#Conjugation"
+  },
+  {
+    "lemma": "saber",
+    "present": [
+      {
+        "person": "yo",
+        "form": "sé"
+      },
+      {
+        "person": "tú",
+        "form": "sabes"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "sabe"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "sabemos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "saben"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/saber#Conjugation"
+  },
+  {
+    "lemma": "servir",
+    "present": [
+      {
+        "person": "yo",
+        "form": "sirvo"
+      },
+      {
+        "person": "tú",
+        "form": "sirves"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "sirve"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "servimos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "sirven"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/servir#Conjugation"
   }
 ]

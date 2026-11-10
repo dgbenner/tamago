@@ -103,5 +103,26 @@
     "example_sentence_ids": "S15003;S15006;S15024",
     "conjugation_lemma": "ir",
     "status": "live"
+  },
+  {
+    "unit_id": "U31",
+    "rule": "Three phrases keep a conversation going when you're lost. No entiendo: I don't understand. Más despacio, por favor: more slowly, please. Repite, por favor: please repeat. Use the usted forms (hable, repita) with someone you don't know, the tú forms (habla, repite) with a friend. Otra vez is again.",
+    "example_sentence_ids": "S31020;S31001;S31101",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U32",
+    "rule": "Two questions get you a word you don't know. ¿Qué significa …? or ¿Qué quiere decir …? asks what something means (querer decir, literally to want to say, is to mean). ¿Cómo se dice … en español? asks how to say something: se dice is one says. Español and inglés name the languages, with no capital letter.",
+    "example_sentence_ids": "S32001;S32002;S32101",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U33",
+    "rule": "When the word won't come, talk around it. Busco la palabra: I'm looking for the word. Es una cosa para el agua: it's a thing for water (para is for). ¿Para qué sirve? asks what something is for; sirve para answers it. ¿Cómo se llama esto? asks what something is called. And No sé, I don't know, is always allowed.",
+    "example_sentence_ids": "S33101;S33104;S33001",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]

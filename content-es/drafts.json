@@ -1239,6 +1239,149 @@
       "french": "Sí, yo también voy.",
       "english": "Yes, I'm going too.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S31101",
+      "unit_id": "U31",
+      "french": "Repite, por favor.",
+      "english": "Please repeat.",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S31102",
+      "unit_id": "U31",
+      "french": "Repita, por favor.",
+      "english": "Please repeat.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S31103",
+      "unit_id": "U31",
+      "french": "Repite, por favor. No entiendo.",
+      "english": "Please repeat. I don't understand.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S31104",
+      "unit_id": "U31",
+      "french": "Repita más despacio, por favor.",
+      "english": "Please repeat more slowly.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S31105",
+      "unit_id": "U31",
+      "french": "Repite más despacio, por favor.",
+      "english": "Please repeat more slowly.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S31106",
+      "unit_id": "U31",
+      "french": "No entiendo. Repita, por favor.",
+      "english": "I don't understand. Please repeat.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S31107",
+      "unit_id": "U31",
+      "french": "¿Entiendes?",
+      "english": "Do you understand?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "884993",
+      "source_owner": "Zifre"
+    },
+    {
+      "sentence_id": "S31108",
+      "unit_id": "U31",
+      "french": "Otra vez, por favor.",
+      "english": "Again, please.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S31109",
+      "unit_id": "U31",
+      "french": "¿Me entiendes?",
+      "english": "Do you understand me?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S32101",
+      "unit_id": "U32",
+      "french": "¿Qué quiere decir eso?",
+      "english": "What does that mean?",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S32102",
+      "unit_id": "U32",
+      "french": "¿Qué quiere decir «gracias»?",
+      "english": "What does \"gracias\" mean?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S32103",
+      "unit_id": "U32",
+      "french": "¿Cómo se dice «gracias» en inglés?",
+      "english": "How do you say \"gracias\" in English?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33101",
+      "unit_id": "U33",
+      "french": "Busco la palabra.",
+      "english": "I'm looking for the word.",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S33102",
+      "unit_id": "U33",
+      "french": "Busco una palabra.",
+      "english": "I'm looking for a word.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33103",
+      "unit_id": "U33",
+      "french": "Busco la palabra en español.",
+      "english": "I'm looking for the word in Spanish.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33104",
+      "unit_id": "U33",
+      "french": "Es una cosa para el agua.",
+      "english": "It's a thing for water.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33105",
+      "unit_id": "U33",
+      "french": "Es una cosa para el pan.",
+      "english": "It's a thing for bread.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33106",
+      "unit_id": "U33",
+      "french": "¿Para qué sirve?",
+      "english": "What is it for?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33107",
+      "unit_id": "U33",
+      "french": "Sirve para el agua.",
+      "english": "It's for water.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S33108",
+      "unit_id": "U33",
+      "french": "Sirve para el pan.",
+      "english": "It's for bread.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
     }
   ],
   "qa_answers": [
@@ -1481,6 +1624,30 @@
     {
       "question_sentence_id": "S15022",
       "answer_sentence_id": "S15103"
+    },
+    {
+      "question_sentence_id": "S31107",
+      "answer_sentence_id": "S31020"
+    },
+    {
+      "question_sentence_id": "S31109",
+      "answer_sentence_id": "S31009"
+    },
+    {
+      "question_sentence_id": "S32008",
+      "answer_sentence_id": "S32014"
+    },
+    {
+      "question_sentence_id": "S32020",
+      "answer_sentence_id": "S32015"
+    },
+    {
+      "question_sentence_id": "S33106",
+      "answer_sentence_id": "S33107"
+    },
+    {
+      "question_sentence_id": "S33001",
+      "answer_sentence_id": "S33003"
     }
   ]
 }
