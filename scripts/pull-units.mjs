@@ -15,10 +15,18 @@ const MIN_WORDS = 2, MAX_WORDS = 7 // P03
 const TARGET_MIN = 30, TARGET_MAX = 40, PER_WORD = 3 // P04
 const GRAMMAR_MIN = 10, CONTRAST_MIN = 2 // P05
 const QUESTIONS_MIN = 4 // P06
-const ID_BASE = { U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600, U06: 7000, U07: 7100, U08: 7200, U09: 7300, U10: 7400, U11: 7500, U12: 7600, U13: 7700 }
+const ID_BASE = { U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600, U06: 7000, U07: 7100, U08: 7200, U09: 7300, U10: 7400, U11: 7500, U12: 7600, U13: 7700, U201: 8000, U202: 8100, U203: 8200, U204: 8300, U205: 8400, U206: 8500, U207: 8600, U208: 8700 }
 // A topic pack (is_topic_pick yes) is one node: a smaller target, and it draws only on Units 1 to 5 plus its own words.
 const isPack = (u) => u.is_topic_pick === 'yes'
 const PACK_TARGET = 15
+// Packs at the second node (topic_node U200, 2026-11-10) draw on all of A1 and need 30 sentences, checked Tatoeba only.
+// Sentences Claude turned down in review are in content/sweep/packs-review.json and never proposed again.
+const isWidePack = (u) => isPack(u) && u.topic_node === 'U200'
+const REVIEW_FILE = join(ROOT, 'content/sweep/packs-review.json')
+const packReview = (unitId) => (existsSync(REVIEW_FILE) ? JSON.parse(readFileSync(REVIEW_FILE, 'utf8')) : {})[unitId] ?? {}
+const rejected = (unitId) => new Set(Object.keys(packReview(unitId).reject ?? {}))
+// Where the plainest linked English isn't the best one, review names another Tatoeba translation of the same sentence.
+const englishPick = (unitId, sourceId, english) => { const e = packReview(unitId).english?.[sourceId]; return e && english.includes(e) ? [e, ...english.filter((x) => x !== e)] : english }
 
 const units = raw('units').sort((a, b) => a.order - b.order)
 const words = raw('words')
@@ -31,16 +39,17 @@ const checkedWords = JSON.parse(readFileSync(join(ROOT, 'content/checks/words.js
 const POS = new Map(checkedWords.map((w) => [w.word_id, w.part_of_speech]))
 // A noun's meaning in this course, from Wiktionary: the first sense, or the lemma's for a plural.
 const IRREGULAR = { man: 'men', woman: 'women', child: 'children', mouse: 'mice' }
+// Every alternative Wiktionary gives counts ("movie, film"; "color/colour"; "physician; doctor"), not only the first.
 const nounMeaning = new Map(checkedWords.filter((w) => w.part_of_speech === 'Noun').map((w) => {
-  const g = (/^plural of /.test(w.gloss) ? w.lemma_gloss : w.gloss).split(/[,;(]/)[0].trim().toLowerCase().replace(/^(a|an|the) /, '')
+  const g = (/^plural of /.test(w.gloss) ? w.lemma_gloss : w.gloss).replace(/\([^)]*\)/g, '').split(/[,;/]/).map((x) => x.trim().toLowerCase().replace(/^(a|an|the) /, '')).filter((x) => /^[a-z' -]+$/.test(x))
   return [w.word_id, g]
 }))
 // The English carries each noun in the sense the course teaches: "J'ai une fille" as "daughter" doesn't count for girl.
 const carriesNouns = (english, parts) => parts.every((p) => {
-  const g = nounMeaning.get(p.word_id)
-  if (!g) return true
+  const gs = nounMeaning.get(p.word_id)
+  if (!gs?.length) return true
   const e = english.toLowerCase()
-  return [g, g + 's', g + 'es', IRREGULAR[g]].filter(Boolean).some((x) => new RegExp(`\\b${x}\\b`).test(e))
+  return gs.some((g) => [g, g + 's', g + 'es', IRREGULAR[g]].filter(Boolean).some((x) => new RegExp(`\\b${x}\\b`).test(e)))
 })
 
 
@@ -100,8 +109,9 @@ for (const u of units) {
     const index = formIndexFor(allowed)
     const seen = new Set()
     const candidates = []
+    const turnedDown = rejected(u.unit_id)
     for (const s of tatoeba.french) {
-      if (!trusted(s)) continue
+      if (!trusted(s) || turnedDown.has(String(s.id))) continue
       const key = loose(s.text)
       if (taken.has(key) || seen.has(key)) continue
       if (/\d/.test(s.text)) continue
@@ -112,7 +122,7 @@ for (const u of units) {
       const english = [...new Set(tatoeba.englishFor(s.id))].filter((e) => carriesNouns(e, a.parts)).sort((x, y) => plainness(x) - plainness(y))
       if (!english.length) continue
       seen.add(key)
-      candidates.push({ s, parts: a.parts, english, forms: a.parts.map((p) => (p.word_id ? formOf.get(p.word_id) : null)).filter(Boolean) })
+      candidates.push({ s, parts: a.parts, english: englishPick(u.unit_id, String(s.id), english), forms: a.parts.map((p) => (p.word_id ? formOf.get(p.word_id) : null)).filter(Boolean) })
     }
 
     // P04 and P05: greedy picks, each time the sentence that does most for what is still short.
@@ -130,7 +140,7 @@ for (const u of units) {
       return g - c.parts.length * 0.01
     }
     const pool = [...candidates].sort((a, b) => Number(a.s.id) - Number(b.s.id))
-    const target = isPack(u) ? PACK_TARGET : TARGET_MIN
+    const target = isWidePack(u) ? TARGET_MIN : isPack(u) ? PACK_TARGET : TARGET_MIN
     while (chosen.length < TARGET_MAX && pool.length) {
       let best = 0
       for (let i = 1; i < pool.length; i++) if (gain(pool[i]) > gain(pool[best])) best = i

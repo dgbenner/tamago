@@ -58,6 +58,9 @@ function useWide() {
 const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', progress: 'Progress', settings: 'Settings', about: 'About the Content',
   profile: 'Profile and Backup', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening', developer: 'Developer' }
 
+// A topic pack belongs to the node in its topic_node column; packs from before the column belong to the first node.
+const packNode = (unit, nodes) => unit?.topic_node || nodes[0]?.unit_id
+const topicKey = (nodeId) => (nodeId === 'U100' ? 'topic_choice' : `topic_choice_${nodeId}`)
 const paused = (until) => until === 'always' || (typeof until === 'number' && until > Date.now())
 
 export default function App() {
@@ -94,8 +97,9 @@ export default function App() {
   const [wordMisses, setWordMisses] = useState({})
   const [variantStatus, setVariantStatus] = useState({})
   const [flash, setFlash] = useState(null)
-  // Phase 3: the topic chosen at the Your topic node (a pack unit id), or null.
-  const [topicChoice, setTopicChoice] = useState(null)
+  // Phase 3: the topic chosen at each Your Topic node (node unit id to a pack unit id). Since 2026-11-10 there are two
+  // nodes: U100 after Unit 5 (packs on Units 1 to 5) and U200 after Unit 13 (packs on all of A1).
+  const [topicChoice, setTopicChoice] = useState({})
   // Phase 4: profile (screen name), native-speaker check results.
   const [profile, setProfile] = useState({})
   const [nativeResults, setNativeResults] = useState({})
@@ -128,7 +132,8 @@ export default function App() {
       setCheckpointsSkipped(s.kv.checkpoints_skipped ?? {})
       setWordMisses(s.kv.word_misses ?? {})
       applyVariants(s.kv.variant_status ?? {})
-      if (s.kv.topic_choice) setTopicChoice(s.kv.topic_choice)
+      // The first node's choice keeps its old key (topic_choice); later nodes use topic_choice_<node>.
+      setTopicChoice(Object.fromEntries(tables.units.filter((u) => u.is_topic_pick === 'node').map((n) => [n.unit_id, s.kv[topicKey(n.unit_id)]]).filter(([, v]) => v)))
       setProfile(s.kv.profile ?? {})
       setNativeResults(s.kv.native_check ?? {})
       if (s.kv.approved_answers?.length) addAccepted(s.kv.approved_answers)
@@ -205,11 +210,14 @@ export default function App() {
   // R20: a row opens when every unit in the row it names has finished round 1. A unit also has to be live.
   const layout = tables.tree_layout
   // Topic packs sit at the Your topic node: they open with it, and only the chosen one (or one already started) is on the path.
-  const topicNode = tables.units.find((u) => u.is_topic_pick === 'node')
+  const topicNodes = tables.units.filter((u) => u.is_topic_pick === 'node').sort((a, b) => a.order - b.order)
+  const isTopicNode = (unitId) => topicNodes.some((n) => n.unit_id === unitId)
   const packs = tables.units.filter((u) => u.is_topic_pick === 'yes' && String(u.status).startsWith('live')).sort((a, b) => a.order - b.order)
+  const nodeOfPack = (unitId) => packNode(tables.units.find((u) => u.unit_id === unitId), topicNodes)
   const isPack = (unitId) => packs.some((p) => p.unit_id === unitId)
-  const onPath = (u) => u.is_topic_pick !== 'node' && (u.is_topic_pick !== 'yes' || u.unit_id === topicChoice || (progressByUnit[u.unit_id]?.lessons_done ?? 0) > 0)
-  const rowOf = (unitId) => layout.find((t) => t.unit_id === (isPack(unitId) ? topicNode?.unit_id : unitId))
+  const packsAt = (nodeId) => packs.filter((p) => nodeOfPack(p.unit_id) === nodeId)
+  const onPath = (u) => u.is_topic_pick !== 'node' && (u.is_topic_pick !== 'yes' || u.unit_id === topicChoice[nodeOfPack(u.unit_id)] || (progressByUnit[u.unit_id]?.lessons_done ?? 0) > 0)
+  const rowOf = (unitId) => layout.find((t) => t.unit_id === (isPack(unitId) ? nodeOfPack(unitId) : unitId))
   const isOpen = (unitId) => {
     const unit = tables.units.find((u) => u.unit_id === unitId)
     if (!String(unit?.status).startsWith('live')) return false
@@ -365,7 +373,7 @@ export default function App() {
   // Review checkpoints (Phase 3): after rows 2 and 3, a review of every unit above. Open once those units have
   // finished round 1; passing marks it done. It never locks anything.
   const checkpointRows = [2, 3, 6, 8].filter((r) => layout.some((t) => t.row === r))
-  const unitsUpTo = (row) => layout.filter((t) => t.row <= row && t.unit_id !== topicNode?.unit_id).map((t) => t.unit_id)
+  const unitsUpTo = (row) => layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id)).map((t) => t.unit_id)
   const startCheckpoint = (row) => {
     const ids = unitsUpTo(row).flatMap(itemsOf)
     const weakestFirst = weakest(ids, cards, 10)
@@ -754,19 +762,19 @@ export default function App() {
   const rows = [...new Set(layout.map((t) => t.row))].sort((a, b) => a - b).map((r) => layout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
     // The Your topic node stands for the chosen pack once there is one; it keeps the node's place number.
     const node = tables.units.find((u) => u.unit_id === t.unit_id)
-    const id = node.is_topic_pick === 'node' ? topicChoice ?? node.unit_id : node.unit_id
+    const id = node.is_topic_pick === 'node' ? topicChoice[node.unit_id] ?? node.unit_id : node.unit_id
     const unit = id === node.unit_id ? node : { ...tables.units.find((u) => u.unit_id === id), order: node.order }
     const progress = progressOf(id)
     const open = isOpen(id)
-    const choosing = id === topicNode?.unit_id
+    const choosing = node.is_topic_pick === 'node' && id === node.unit_id
     const lessons = open && !choosing ? Math.max(lessonsInRound(unitContent(id), roundOf(id)), progress.lessons_done + 1) : 0
     return { unit, progress, open, current: id === currentUnit, lesson: progress.lessons_done + 1, lessons, strength: strength(itemsOf(id), cards), lockedBy: open ? null : lockedByOf(id),
-      topic: node.is_topic_pick === 'node' ? { choosing, packs: packs.map((p) => ({ unit_id: p.unit_id, title: p.title, started: progressOf(p.unit_id).lessons_done > 0 })) } : null }
+      topic: node.is_topic_pick === 'node' ? { choosing, packs: packsAt(node.unit_id).map((p) => ({ unit_id: p.unit_id, title: p.title, started: progressOf(p.unit_id).lessons_done > 0 })) } : null }
   }))
   const curUnit = tables.units.find((u) => u.unit_id === currentUnit)
   // Levels (Dan's test notes): "Starting Out" until round 1 of a first unit is done; then the level in words, and
   // markers across the tree where finishing the units above would reach the next band (score.js: 10 and 20 of 29).
-  const mainA1 = layout.filter((t) => t.unit_id !== topicNode?.unit_id)
+  const mainA1 = layout.filter((t) => !isTopicNode(t.unit_id))
   const started = mainA1.some((t) => progressOf(t.unit_id).round_reached >= 1) || packs.some((p) => progressOf(p.unit_id).round_reached >= 1)
   const titleCase = (t) => t.replace(/(^|\s)([a-z])/g, (m, sp, ch) => sp + ch.toUpperCase())
   const lowest = ['reading', 'listening', 'writing', 'speaking'].map((k) => scores[k]).sort((p, q) => p.score - q.score)[0]
@@ -800,7 +808,7 @@ export default function App() {
       inProgress={Boolean(session)} lastLine={lastLine}
       onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
       onGrammarNote={(id) => { setNote({ unitId: id, thenStart: false }); setScreen('note') }} hasNote={(id) => Boolean(noteFor(id))}
-      onChooseTopic={(id) => { setTopicChoice(id); putKv('topic_choice', id); if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
+      onChooseTopic={(id) => { const at = nodeOfPack(id); setTopicChoice((c) => ({ ...c, [at]: id })); putKv(topicKey(at), id); if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
       onSettings={() => setScreen('settings')} />
   )
   }

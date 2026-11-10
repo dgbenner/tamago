@@ -96,5 +96,12 @@
     "unit_id": "U13",
     "unlocks_after": "row 7",
     "notes": ""
+  },
+  {
+    "row": 9,
+    "position": 1,
+    "unit_id": "U200",
+    "unlocks_after": "row 8",
+    "notes": "a second topic: the packs with topic_node U200, on all of A1"
   }
 ]

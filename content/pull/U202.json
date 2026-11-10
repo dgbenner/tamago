@@ -1,0 +1,1499 @@
+{
+  "unit_id": "U202",
+  "pulled_at": "2026-11-10",
+  "candidates": 55,
+  "sentences": [
+    {
+      "sentence_id": "S8101",
+      "unit_id": "U202",
+      "french": "Qui est malade ?",
+      "english": "Who's sick?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3469074",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Lulantis",
+      "other_english": [
+        "Who's ill?"
+      ]
+    },
+    {
+      "sentence_id": "S8102",
+      "unit_id": "U202",
+      "french": "Où est l'hôpital ?",
+      "english": "Where's the hospital?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3627804",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fleur74",
+      "other_english": [
+        "Where is the hospital?"
+      ]
+    },
+    {
+      "sentence_id": "S8103",
+      "unit_id": "U202",
+      "french": "Où est le médecin ?",
+      "english": "Where's the doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5662067",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "Where is the doctor?"
+      ]
+    },
+    {
+      "sentence_id": "S8104",
+      "unit_id": "U202",
+      "french": "Où est le docteur ?",
+      "english": "Where's the doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5662068",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "Where is the doctor?"
+      ]
+    },
+    {
+      "sentence_id": "S8105",
+      "unit_id": "U202",
+      "french": "Est-ce que j'ai de la fièvre ?",
+      "english": "Do I have a fever?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6373721",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8106",
+      "unit_id": "U202",
+      "french": "Bonjour Docteur !",
+      "english": "Good morning, doctor!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "482481",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8107",
+      "unit_id": "U202",
+      "french": "Merci, docteur.",
+      "english": "Thank you, Doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10147597",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8108",
+      "unit_id": "U202",
+      "french": "Il est malade.",
+      "english": "He's ill.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "133247",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "He is sick.",
+        "He is ill."
+      ]
+    },
+    {
+      "sentence_id": "S8109",
+      "unit_id": "U202",
+      "french": "Elle est médecin.",
+      "english": "She's a doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "133864",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "She is a doctor."
+      ]
+    },
+    {
+      "sentence_id": "S8110",
+      "unit_id": "U202",
+      "french": "Il est médecin.",
+      "english": "He's a doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "342052",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pierrephi",
+      "other_english": [
+        "He is a doctor."
+      ]
+    },
+    {
+      "sentence_id": "S8111",
+      "unit_id": "U202",
+      "french": "Je suis malade.",
+      "english": "I'm sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "459031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I'm ill.",
+        "I am sick.",
+        "I have been sick.",
+        "I'm sick!"
+      ]
+    },
+    {
+      "sentence_id": "S8112",
+      "unit_id": "U202",
+      "french": "Nous sommes médecins.",
+      "english": "We're doctors.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "742186",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "We are doctors."
+      ]
+    },
+    {
+      "sentence_id": "S8113",
+      "unit_id": "U202",
+      "french": "Nous sommes malades.",
+      "english": "We're sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2078700",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": [
+        "We are sick."
+      ]
+    },
+    {
+      "sentence_id": "S8114",
+      "unit_id": "U202",
+      "french": "Vous êtes malades.",
+      "english": "You're sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2078702",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": [
+        "You're ill.",
+        "You are ill."
+      ]
+    },
+    {
+      "sentence_id": "S8115",
+      "unit_id": "U202",
+      "french": "Ils sont malades.",
+      "english": "They're sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2078706",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": [
+        "They're ill.",
+        "They are ill."
+      ]
+    },
+    {
+      "sentence_id": "S8116",
+      "unit_id": "U202",
+      "french": "Ils sont médecins.",
+      "english": "They're doctors.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4729426",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "They are doctors."
+      ]
+    },
+    {
+      "sentence_id": "S8117",
+      "unit_id": "U202",
+      "french": "Elles sont médecins.",
+      "english": "They're doctors.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4729429",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "They are doctors."
+      ]
+    },
+    {
+      "sentence_id": "S8118",
+      "unit_id": "U202",
+      "french": "C'est un hôpital.",
+      "english": "It's a hospital.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6055147",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "verdakoro",
+      "other_english": [
+        "This is a hospital."
+      ]
+    },
+    {
+      "sentence_id": "S8119",
+      "unit_id": "U202",
+      "french": "Voici l'hôpital.",
+      "english": "Here is the hospital.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6759322",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GB3",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8120",
+      "unit_id": "U202",
+      "french": "J'ai la fièvre.",
+      "english": "I have a fever.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10505355",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pkill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8121",
+      "unit_id": "U202",
+      "french": "Tu as de la fièvre.",
+      "english": "You've got a fever.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4599959",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8122",
+      "unit_id": "U202",
+      "french": "Vous êtes docteur.",
+      "english": "You are a doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "406149",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Scott",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8123",
+      "unit_id": "U202",
+      "french": "Je suis médecin.",
+      "english": "I'm a doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "448675",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": [
+        "I am a doctor."
+      ]
+    },
+    {
+      "sentence_id": "S8124",
+      "unit_id": "U202",
+      "french": "Vous êtes médecin.",
+      "english": "You are a doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "561910",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8125",
+      "unit_id": "U202",
+      "french": "Tu es malade !",
+      "english": "You're sick!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1156512",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Korekorin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8126",
+      "unit_id": "U202",
+      "french": "Vous êtes malade !",
+      "english": "You're sick!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1156517",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Korekorin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8127",
+      "unit_id": "U202",
+      "french": "Elle est malade.",
+      "english": "She's sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2078696",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": [
+        "She is sick.",
+        "She is ill."
+      ]
+    },
+    {
+      "sentence_id": "S8128",
+      "unit_id": "U202",
+      "french": "Marie est malade.",
+      "english": "Mary is sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2078698",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8129",
+      "unit_id": "U202",
+      "french": "Elles sont malades.",
+      "english": "They're sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2078709",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": [
+        "They're ill.",
+        "They are sick.",
+        "They are ill."
+      ]
+    },
+    {
+      "sentence_id": "S8130",
+      "unit_id": "U202",
+      "french": "Voici le docteur.",
+      "english": "Here's the doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12835577",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S8101",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8101",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8101",
+      "position": 3,
+      "surface": "malade",
+      "word_id": "W521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8102",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8102",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8102",
+      "position": 3,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8102",
+      "position": 4,
+      "surface": "hôpital",
+      "word_id": "W523",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8103",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8103",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8103",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8103",
+      "position": 4,
+      "surface": "médecin",
+      "word_id": "W517",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8104",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8104",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8104",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8104",
+      "position": 4,
+      "surface": "docteur",
+      "word_id": "W519",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8105",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8105",
+      "position": 2,
+      "surface": "j'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8105",
+      "position": 3,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8105",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8105",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8105",
+      "position": 6,
+      "surface": "fièvre",
+      "word_id": "W526",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8106",
+      "position": 1,
+      "surface": "Bonjour",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8106",
+      "position": 2,
+      "surface": "Docteur",
+      "word_id": "W519",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8107",
+      "position": 1,
+      "surface": "Merci",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8107",
+      "position": 2,
+      "surface": "docteur",
+      "word_id": "W519",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8108",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8108",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8108",
+      "position": 3,
+      "surface": "malade",
+      "word_id": "W521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8109",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8109",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8109",
+      "position": 3,
+      "surface": "médecin",
+      "word_id": "W517",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8110",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8110",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8110",
+      "position": 3,
+      "surface": "médecin",
+      "word_id": "W517",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8111",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8111",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8111",
+      "position": 3,
+      "surface": "malade",
+      "word_id": "W521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8112",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8112",
+      "position": 2,
+      "surface": "sommes",
+      "word_id": "W403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8112",
+      "position": 3,
+      "surface": "médecins",
+      "word_id": "W518",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8113",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8113",
+      "position": 2,
+      "surface": "sommes",
+      "word_id": "W403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8113",
+      "position": 3,
+      "surface": "malades",
+      "word_id": "W522",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8114",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8114",
+      "position": 2,
+      "surface": "êtes",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8114",
+      "position": 3,
+      "surface": "malades",
+      "word_id": "W522",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8115",
+      "position": 1,
+      "surface": "Ils",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8115",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8115",
+      "position": 3,
+      "surface": "malades",
+      "word_id": "W522",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8116",
+      "position": 1,
+      "surface": "Ils",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8116",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8116",
+      "position": 3,
+      "surface": "médecins",
+      "word_id": "W518",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8117",
+      "position": 1,
+      "surface": "Elles",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8117",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8117",
+      "position": 3,
+      "surface": "médecins",
+      "word_id": "W518",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8118",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8118",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8118",
+      "position": 3,
+      "surface": "hôpital",
+      "word_id": "W523",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8119",
+      "position": 1,
+      "surface": "Voici",
+      "word_id": "W205",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8119",
+      "position": 2,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8119",
+      "position": 3,
+      "surface": "hôpital",
+      "word_id": "W523",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8120",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8120",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8120",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8120",
+      "position": 4,
+      "surface": "fièvre",
+      "word_id": "W526",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8121",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8121",
+      "position": 2,
+      "surface": "as",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8121",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8121",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8121",
+      "position": 5,
+      "surface": "fièvre",
+      "word_id": "W526",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8122",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8122",
+      "position": 2,
+      "surface": "êtes",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8122",
+      "position": 3,
+      "surface": "docteur",
+      "word_id": "W519",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8123",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8123",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8123",
+      "position": 3,
+      "surface": "médecin",
+      "word_id": "W517",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8124",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8124",
+      "position": 2,
+      "surface": "êtes",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8124",
+      "position": 3,
+      "surface": "médecin",
+      "word_id": "W517",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8125",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8125",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8125",
+      "position": 3,
+      "surface": "malade",
+      "word_id": "W521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8126",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8126",
+      "position": 2,
+      "surface": "êtes",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8126",
+      "position": 3,
+      "surface": "malade",
+      "word_id": "W521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8127",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8127",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8127",
+      "position": 3,
+      "surface": "malade",
+      "word_id": "W521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8128",
+      "position": 1,
+      "surface": "Marie",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8128",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8128",
+      "position": 3,
+      "surface": "malade",
+      "word_id": "W521",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8129",
+      "position": 1,
+      "surface": "Elles",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8129",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8129",
+      "position": 3,
+      "surface": "malades",
+      "word_id": "W522",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8130",
+      "position": 1,
+      "surface": "Voici",
+      "word_id": "W205",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8130",
+      "position": 2,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8130",
+      "position": 3,
+      "surface": "docteur",
+      "word_id": "W519",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A81011",
+      "sentence_id": "S8101",
+      "direction": "fr_to_en",
+      "answer": "Who's ill?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81021",
+      "sentence_id": "S8102",
+      "direction": "fr_to_en",
+      "answer": "Where is the hospital?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81031",
+      "sentence_id": "S8103",
+      "direction": "fr_to_en",
+      "answer": "Where is the doctor?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81041",
+      "sentence_id": "S8104",
+      "direction": "fr_to_en",
+      "answer": "Where is the doctor?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81081",
+      "sentence_id": "S8108",
+      "direction": "fr_to_en",
+      "answer": "He is sick.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81082",
+      "sentence_id": "S8108",
+      "direction": "fr_to_en",
+      "answer": "He is ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81091",
+      "sentence_id": "S8109",
+      "direction": "fr_to_en",
+      "answer": "She is a doctor.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81101",
+      "sentence_id": "S8110",
+      "direction": "fr_to_en",
+      "answer": "He is a doctor.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81111",
+      "sentence_id": "S8111",
+      "direction": "fr_to_en",
+      "answer": "I'm ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81112",
+      "sentence_id": "S8111",
+      "direction": "fr_to_en",
+      "answer": "I am sick.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81113",
+      "sentence_id": "S8111",
+      "direction": "fr_to_en",
+      "answer": "I have been sick.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81114",
+      "sentence_id": "S8111",
+      "direction": "fr_to_en",
+      "answer": "I'm sick!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81121",
+      "sentence_id": "S8112",
+      "direction": "fr_to_en",
+      "answer": "We are doctors.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81131",
+      "sentence_id": "S8113",
+      "direction": "fr_to_en",
+      "answer": "We are sick.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81141",
+      "sentence_id": "S8114",
+      "direction": "fr_to_en",
+      "answer": "You're ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81142",
+      "sentence_id": "S8114",
+      "direction": "fr_to_en",
+      "answer": "You are ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81151",
+      "sentence_id": "S8115",
+      "direction": "fr_to_en",
+      "answer": "They're ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81152",
+      "sentence_id": "S8115",
+      "direction": "fr_to_en",
+      "answer": "They are ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81161",
+      "sentence_id": "S8116",
+      "direction": "fr_to_en",
+      "answer": "They are doctors.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81171",
+      "sentence_id": "S8117",
+      "direction": "fr_to_en",
+      "answer": "They are doctors.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81181",
+      "sentence_id": "S8118",
+      "direction": "fr_to_en",
+      "answer": "This is a hospital.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81231",
+      "sentence_id": "S8123",
+      "direction": "fr_to_en",
+      "answer": "I am a doctor.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81271",
+      "sentence_id": "S8127",
+      "direction": "fr_to_en",
+      "answer": "She is sick.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81272",
+      "sentence_id": "S8127",
+      "direction": "fr_to_en",
+      "answer": "She is ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81291",
+      "sentence_id": "S8129",
+      "direction": "fr_to_en",
+      "answer": "They're ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81292",
+      "sentence_id": "S8129",
+      "direction": "fr_to_en",
+      "answer": "They are sick.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A81293",
+      "sentence_id": "S8129",
+      "direction": "fr_to_en",
+      "answer": "They are ill.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

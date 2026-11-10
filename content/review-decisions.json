@@ -205,6 +205,16 @@
       "action": "approve",
       "on": "2026-11-09",
       "by": "Claude under autonomous-build.md: new A1 unit, Tatoeba plus drafts to 3 per word and 4 QT09 pairs"
+    },
+    "U200": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: the second choose-your-topic node, after Unit 13 (no sentences of its own)"
+    },
+    "U201": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md (Dan: packs on all of A1, Tatoeba only): 30 checked Tatoeba sentences, every word in 3 or more, reviewed in content/sweep/packs-review.json"
     }
   },
   "cut_sentences": [
@@ -407,6 +417,38 @@
     },
     "W346": {
       "hint": "boat",
+      "source": "short form of Wiktionary"
+    },
+    "W502": {
+      "hint": "computer",
+      "source": "short form of Wiktionary"
+    },
+    "W514": {
+      "hint": "busy",
+      "source": "short form of Wiktionary"
+    },
+    "W550": {
+      "hint": "ball",
+      "source": "short form of Wiktionary"
+    },
+    "W581": {
+      "hint": "cake",
+      "source": "short form of Wiktionary"
+    },
+    "W582": {
+      "hint": "cakes",
+      "source": "short form of Wiktionary"
+    },
+    "W586": {
+      "hint": "salt",
+      "source": "short form of Wiktionary"
+    },
+    "W553": {
+      "hint": "to play (jouer)",
+      "source": "short form of Wiktionary"
+    },
+    "W554": {
+      "hint": "to play (jouer)",
       "source": "short form of Wiktionary"
     }
   },

@@ -25,6 +25,19 @@
   "clash": [],
   "candidates": [
     {
+      "source_id": "4253",
+      "owner": "TRANG",
+      "french": "J'ai un chat dans la gorge.",
+      "english": [
+        "I've got a frog in my throat.",
+        "I have a frog in my throat.",
+        "My throat is scratchy."
+      ],
+      "forms": [
+        "gorge"
+      ]
+    },
+    {
       "source_id": "10967",
       "owner": "sacredceltic",
       "french": "J'ai un rhume.",
@@ -50,6 +63,20 @@
       ]
     },
     {
+      "source_id": "131249",
+      "owner": "nimfeo",
+      "french": "Il est très malade.",
+      "english": [
+        "He's very ill.",
+        "He is very sick.",
+        "He is very ill.",
+        "He's very sick."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
       "source_id": "133247",
       "owner": "sacredceltic",
       "french": "Il est malade.",
@@ -63,6 +90,17 @@
       ]
     },
     {
+      "source_id": "133410",
+      "owner": "gillux",
+      "french": "C'est un bon docteur.",
+      "english": [
+        "He is a good doctor."
+      ],
+      "forms": [
+        "docteur"
+      ]
+    },
+    {
       "source_id": "133864",
       "owner": "Micsmithel",
       "french": "Elle est médecin.",
@@ -72,6 +110,19 @@
       ],
       "forms": [
         "médecin"
+      ]
+    },
+    {
+      "source_id": "134963",
+      "owner": "sacredceltic",
+      "french": "J'ai mal au ventre.",
+      "english": [
+        "I have a stomachache.",
+        "I have a stomach ache."
+      ],
+      "forms": [
+        "mal",
+        "ventre"
       ]
     },
     {
@@ -137,6 +188,18 @@
       ]
     },
     {
+      "source_id": "528818",
+      "owner": "sacredceltic",
+      "french": "Comment va ton rhume ?",
+      "english": [
+        "How's your cold?",
+        "How's the cold?"
+      ],
+      "forms": [
+        "rhume"
+      ]
+    },
+    {
       "source_id": "561910",
       "owner": "sacredceltic",
       "french": "Vous êtes médecin.",
@@ -156,6 +219,18 @@
       ],
       "forms": [
         "docteurs"
+      ]
+    },
+    {
+      "source_id": "742186",
+      "owner": "Aiji",
+      "french": "Nous sommes médecins.",
+      "english": [
+        "We are doctors.",
+        "We're doctors."
+      ],
+      "forms": [
+        "médecins"
       ]
     },
     {
@@ -180,6 +255,17 @@
       ],
       "forms": [
         "malade"
+      ]
+    },
+    {
+      "source_id": "1072809",
+      "owner": "nimfeo",
+      "french": "C'est un bon médecin.",
+      "english": [
+        "He is a good doctor."
+      ],
+      "forms": [
+        "médecin"
       ]
     },
     {
@@ -217,6 +303,40 @@
       ]
     },
     {
+      "source_id": "1286601",
+      "owner": "sacredceltic",
+      "french": "Elle est maintenant à l'hôpital.",
+      "english": [
+        "She's in the hospital now.",
+        "She is in hospital now."
+      ],
+      "forms": [
+        "hôpital"
+      ]
+    },
+    {
+      "source_id": "1536626",
+      "owner": "sacredceltic",
+      "french": "La vieille femme est médecin.",
+      "english": [
+        "The old woman is a doctor."
+      ],
+      "forms": [
+        "médecin"
+      ]
+    },
+    {
+      "source_id": "1781895",
+      "owner": "kenigberg",
+      "french": "Va à l'hôpital.",
+      "english": [
+        "Go to the hospital."
+      ],
+      "forms": [
+        "hôpital"
+      ]
+    },
+    {
       "source_id": "2078696",
       "owner": "Amastan",
       "french": "Elle est malade.",
@@ -238,6 +358,18 @@
       ],
       "forms": [
         "malade"
+      ]
+    },
+    {
+      "source_id": "2078700",
+      "owner": "Amastan",
+      "french": "Nous sommes malades.",
+      "english": [
+        "We're sick.",
+        "We are sick."
+      ],
+      "forms": [
+        "malades"
       ]
     },
     {
@@ -292,6 +424,54 @@
       ]
     },
     {
+      "source_id": "3469074",
+      "owner": "Lulantis",
+      "french": "Qui est malade ?",
+      "english": [
+        "Who's ill?",
+        "Who's sick?"
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "3627804",
+      "owner": "fleur74",
+      "french": "Où est l'hôpital ?",
+      "english": [
+        "Where is the hospital?",
+        "Where's the hospital?"
+      ],
+      "forms": [
+        "hôpital"
+      ]
+    },
+    {
+      "source_id": "3660796",
+      "owner": "sacredceltic",
+      "french": "Sa fille est malade.",
+      "english": [
+        "His daughter is sick.",
+        "Her daughter is sick."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "3660838",
+      "owner": "sacredceltic",
+      "french": "Sa fille est infirmière.",
+      "english": [
+        "His daughter is a nurse.",
+        "Her daughter is a nurse."
+      ],
+      "forms": [
+        "infirmière"
+      ]
+    },
+    {
       "source_id": "4702251",
       "owner": "sacredceltic",
       "french": "Il a du ventre.",
@@ -327,6 +507,52 @@
       ]
     },
     {
+      "source_id": "5452339",
+      "owner": "alexisslay",
+      "french": "Je vais à l'hôpital.",
+      "english": [
+        "I'm going to the hospital."
+      ],
+      "forms": [
+        "hôpital"
+      ]
+    },
+    {
+      "source_id": "5662067",
+      "owner": "Aiji",
+      "french": "Où est le médecin ?",
+      "english": [
+        "Where's the doctor?",
+        "Where is the doctor?"
+      ],
+      "forms": [
+        "médecin"
+      ]
+    },
+    {
+      "source_id": "5662068",
+      "owner": "Aiji",
+      "french": "Où est le docteur ?",
+      "english": [
+        "Where's the doctor?",
+        "Where is the doctor?"
+      ],
+      "forms": [
+        "docteur"
+      ]
+    },
+    {
+      "source_id": "5822169",
+      "owner": "Yemana",
+      "french": "C'est un très bon médecin.",
+      "english": [
+        "He is a very good doctor."
+      ],
+      "forms": [
+        "médecin"
+      ]
+    },
+    {
       "source_id": "6055147",
       "owner": "verdakoro",
       "french": "C'est un hôpital.",
@@ -336,6 +562,61 @@
       ],
       "forms": [
         "hôpital"
+      ]
+    },
+    {
+      "source_id": "6166695",
+      "owner": "felix63",
+      "french": "Elle est malade aujourd'hui.",
+      "english": [
+        "She is sick today."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "6210326",
+      "owner": "Aiji",
+      "french": "Je suis médecin maintenant.",
+      "english": [
+        "I'm a doctor now."
+      ],
+      "forms": [
+        "médecin"
+      ]
+    },
+    {
+      "source_id": "6373721",
+      "owner": "Aiji",
+      "french": "Est-ce que j'ai de la fièvre ?",
+      "english": [
+        "Do I have a fever?"
+      ],
+      "forms": [
+        "fièvre"
+      ]
+    },
+    {
+      "source_id": "6623692",
+      "owner": "Micsmithel",
+      "french": "Vous êtes très malade.",
+      "english": [
+        "You're very sick."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "6715369",
+      "owner": "felix63",
+      "french": "Mon médecin est très gentil.",
+      "english": [
+        "My doctor is very kind."
+      ],
+      "forms": [
+        "médecin"
       ]
     },
     {
@@ -350,6 +631,62 @@
       ]
     },
     {
+      "source_id": "6775729",
+      "owner": "Micsmithel",
+      "french": "Comment va la santé ?",
+      "english": [
+        "How's your health?"
+      ],
+      "forms": [
+        "santé"
+      ]
+    },
+    {
+      "source_id": "6863679",
+      "owner": "GB3",
+      "french": "Un de mes enfants est malade.",
+      "english": [
+        "One of my children is sick."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "6890807",
+      "owner": "GB3",
+      "french": "Mes enfants sont malades.",
+      "english": [
+        "My children are sick."
+      ],
+      "forms": [
+        "malades"
+      ]
+    },
+    {
+      "source_id": "7695977",
+      "owner": "Maxence",
+      "french": "Il est médecin maintenant.",
+      "english": [
+        "He's a doctor now."
+      ],
+      "forms": [
+        "médecin"
+      ]
+    },
+    {
+      "source_id": "7698427",
+      "owner": "Maxence",
+      "french": "J'ai très mal à la tête.",
+      "english": [
+        "My head really hurts."
+      ],
+      "forms": [
+        "mal",
+        "tête"
+      ]
+    },
+    {
       "source_id": "7769794",
       "owner": "Aiji",
       "french": "Je suis dentiste.",
@@ -361,6 +698,17 @@
       ]
     },
     {
+      "source_id": "8386421",
+      "owner": "Aiji",
+      "french": "J'ai un ami qui est docteur.",
+      "english": [
+        "I have a friend who's a doctor."
+      ],
+      "forms": [
+        "docteur"
+      ]
+    },
+    {
       "source_id": "8758554",
       "owner": "Aiji",
       "french": "C'est un grand hôpital.",
@@ -369,6 +717,29 @@
       ],
       "forms": [
         "hôpital"
+      ]
+    },
+    {
+      "source_id": "9092594",
+      "owner": "Julien_PDC",
+      "french": "Ma fille est malade.",
+      "english": [
+        "My daughter is sick.",
+        "My daughter is ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "9092608",
+      "owner": "Julien_PDC",
+      "french": "Ta fille est malade.",
+      "english": [
+        "Your daughter is sick."
+      ],
+      "forms": [
+        "malade"
       ]
     },
     {
@@ -394,6 +765,18 @@
       ]
     },
     {
+      "source_id": "10505605",
+      "owner": "pkill",
+      "french": "J'ai mal à la tête.",
+      "english": [
+        "I have a headache."
+      ],
+      "forms": [
+        "mal",
+        "tête"
+      ]
+    },
+    {
       "source_id": "10642533",
       "owner": "AutoBot",
       "french": "J'ai un mal de tête.",
@@ -414,6 +797,28 @@
       ],
       "forms": [
         "fièvre"
+      ]
+    },
+    {
+      "source_id": "10686928",
+      "owner": "AutoBot",
+      "french": "J'ai la fièvre jaune.",
+      "english": [
+        "I have yellow fever."
+      ],
+      "forms": [
+        "fièvre"
+      ]
+    },
+    {
+      "source_id": "10699662",
+      "owner": "lbdx",
+      "french": "Mon enfant est malade.",
+      "english": [
+        "My child is sick."
+      ],
+      "forms": [
+        "malade"
       ]
     },
     {
@@ -450,11 +855,56 @@
       ]
     },
     {
+      "source_id": "11154051",
+      "owner": "lbdx",
+      "french": "Je suis à l'hôpital.",
+      "english": [
+        "I'm in the hospital.",
+        "I'm at the hospital."
+      ],
+      "forms": [
+        "hôpital"
+      ]
+    },
+    {
+      "source_id": "11715199",
+      "owner": "Aiji",
+      "french": "Il a une belle tête.",
+      "english": [
+        "He has a nice face."
+      ],
+      "forms": [
+        "tête"
+      ]
+    },
+    {
+      "source_id": "11988500",
+      "owner": "lbdx",
+      "french": "Ma femme est malade.",
+      "english": [
+        "My wife is ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
       "source_id": "12003304",
       "owner": "calypsow",
       "french": "Le chien est malade.",
       "english": [
         "The dog is ill."
+      ],
+      "forms": [
+        "malade"
+      ]
+    },
+    {
+      "source_id": "12078951",
+      "owner": "felix63",
+      "french": "Elle est vieille et malade.",
+      "english": [
+        "She is old and ill."
       ],
       "forms": [
         "malade"
@@ -514,6 +964,17 @@
       ],
       "forms": [
         "médecin"
+      ]
+    },
+    {
+      "source_id": "13348253",
+      "owner": "genes1s",
+      "french": "C'est un bon hôpital.",
+      "english": [
+        "This is a good hospital."
+      ],
+      "forms": [
+        "hôpital"
       ]
     }
   ]

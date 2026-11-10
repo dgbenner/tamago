@@ -376,3 +376,24 @@ Part 3, Lingua Libre recordings:
 - Checked in Chrome at phone and desktop sizes, light and dark: item order and dashed style, page title, the
   accordions in order, snapshot, Model Story and grade table rendering, Settings without the testing items, hiding
   and the hidden address, axe clean on the page.
+
+## 2026-11-10: Topic packs on all of A1, at a second Your Topic node
+
+- Dan's decisions: packs may use every A1 word, behind a second Your Topic node after Unit 13; build every pack
+  that reaches 30 good sentences, checked Tatoeba only; cut S6057 from the Weather pack.
+- Workbook v20 (scripts/add-topic-packs-2.mjs): node U200 "Another Topic" in tree row 9 (opens after row 8), a new
+  units column topic_node (U100 for the first seven packs, U200 for the new ones), the packs that qualified as
+  units, their words (W501 on), topics_pool status, S6057 off.
+- App: any number of Your Topic nodes. Each pack is listed at its own node; each node keeps its own choice
+  (kv topic_choice for U100 as before, topic_choice_U200 for the second). Placement, checkpoints and level markers
+  skip every node.
+- Pull (scripts/pull-units.mjs): packs at U200 draw on all live main units, aim at 30, and skip what review turned
+  down (content/sweep/packs-review.json, which can also pick which linked English leads). The English check now
+  accepts every alternative Wiktionary lists ("movie, film", "physician; doctor", "color/colour"), not only the
+  first; that had been turning down good sentences for film, médecin, valise and couleur.
+- Wiktionary senses chosen for the new words (content/word-senses.json): bureau as office, but as goal, billet as
+  ticket, plat as dish, joue as the verb, mal as pain, occupé as busy; short hints in claude_hints where Wiktionary's
+  first wording is long or carries markup (computer, cake, salt, busy, ball, to play).
+- Words with fewer than 3 good sentences were dropped from each pack (the first packs' rule) and the pull redone.
+- Built: At the Office (U201, 30 sentences, 8 words: bureau, travail, travaille, travaillent, patron, occupé,
+  occupée, stylo). Skipped topics are listed in check-in.md.

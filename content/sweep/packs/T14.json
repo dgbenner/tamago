@@ -13,6 +13,17 @@
   "clash": [],
   "candidates": [
     {
+      "source_id": "9032",
+      "owner": "sacredceltic",
+      "french": "Ton sac est ici.",
+      "english": [
+        "Here is your bag."
+      ],
+      "forms": [
+        "sac"
+      ]
+    },
+    {
       "source_id": "134661",
       "owner": "sacredceltic",
       "french": "Elle marche.",
@@ -23,6 +34,17 @@
       ],
       "forms": [
         "marche"
+      ]
+    },
+    {
+      "source_id": "920745",
+      "owner": "sacredceltic",
+      "french": "Voici ton sac.",
+      "english": [
+        "Here is your bag."
+      ],
+      "forms": [
+        "sac"
       ]
     },
     {
@@ -37,11 +59,66 @@
       ]
     },
     {
+      "source_id": "1383058",
+      "owner": "sacredceltic",
+      "french": "Je vais à la montagne.",
+      "english": [
+        "I go to the mountain."
+      ],
+      "forms": [
+        "montagne"
+      ]
+    },
+    {
+      "source_id": "1997960",
+      "owner": "sacredceltic",
+      "french": "Où est le sac ?",
+      "english": [
+        "Where's the bag?"
+      ],
+      "forms": [
+        "sac"
+      ]
+    },
+    {
       "source_id": "2508097",
       "owner": "nimfeo",
       "french": "C'est un sac.",
       "english": [
         "This is a bag."
+      ],
+      "forms": [
+        "sac"
+      ]
+    },
+    {
+      "source_id": "3627779",
+      "owner": "fleur74",
+      "french": "Où est ton sac ?",
+      "english": [
+        "Where's your bag?"
+      ],
+      "forms": [
+        "sac"
+      ]
+    },
+    {
+      "source_id": "4718484",
+      "owner": "Joelle",
+      "french": "Où est mon sac ?",
+      "english": [
+        "Where is my bag?"
+      ],
+      "forms": [
+        "sac"
+      ]
+    },
+    {
+      "source_id": "5927173",
+      "owner": "Aiji",
+      "french": "C'est ton sac, non ?",
+      "english": [
+        "This is your bag, isn't it?"
       ],
       "forms": [
         "sac"
@@ -67,6 +144,28 @@
       ],
       "forms": [
         "forêt"
+      ]
+    },
+    {
+      "source_id": "8703358",
+      "owner": "Julien_PDC",
+      "french": "Nous sommes dans la forêt.",
+      "english": [
+        "We're in the forest."
+      ],
+      "forms": [
+        "forêt"
+      ]
+    },
+    {
+      "source_id": "12480583",
+      "owner": "always",
+      "french": "Il a son sac.",
+      "english": [
+        "He has her bag."
+      ],
+      "forms": [
+        "sac"
       ]
     }
   ]

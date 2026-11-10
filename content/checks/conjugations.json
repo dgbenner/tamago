@@ -154,5 +154,31 @@
       "person": "ils, elles",
       "form": "chantent"
     }
+  ],
+  "travailler": [
+    {
+      "person": "je (j’)",
+      "form": "travaille"
+    },
+    {
+      "person": "tu",
+      "form": "travailles"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "travaille"
+    },
+    {
+      "person": "nous",
+      "form": "travaillons"
+    },
+    {
+      "person": "vous",
+      "form": "travaillez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "travaillent"
+    }
   ]
 }

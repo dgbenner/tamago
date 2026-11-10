@@ -273,8 +273,12 @@ test('QT09 shows and builds the fullest listed answer', () => {
 })
 
 test('topic packs: lessons build in every round, no QT09 without pairs, and no other pack leaks in', () => {
-  const packs = tables.units.filter((u) => u.is_topic_pick === 'yes')
-  assert.equal(packs.length, 7)
+  const packs = tables.units.filter((u) => u.is_topic_pick === 'yes' && String(u.status).startsWith('live'))
+  assert.ok(packs.length >= 8)
+  // Each pack belongs to a Your Topic node on the tree: the first seven to U100, those on all of A1 to U200.
+  const nodes = new Set(tables.units.filter((u) => u.is_topic_pick === 'node').map((u) => u.unit_id))
+  assert.ok(packs.every((p) => nodes.has(p.topic_node || 'U100') && tables.tree_layout.some((t) => t.unit_id === (p.topic_node || 'U100'))))
+  assert.ok(nodes.has('U200') && packs.some((p) => p.topic_node === 'U200'))
   for (const p of packs) {
     const pc = contentForUnit(tables, p.unit_id)
     const units = new Set(pc.sentences.map((s) => s.unit_id))

@@ -1,0 +1,34 @@
+{
+  "_about": "Claude's review of the sentences pulled for the second-node topic packs (2026-11-10, Dan: all of A1, checked Tatoeba only, 30 or more good sentences, each new word in 3 or more). reject: Tatoeba id to the reason; the pull never proposes these again. english: Tatoeba id to the linked English that should lead.",
+  "U201": {
+    "reject": {
+      "799972": "occupé here is 'taken, occupied', not the 'busy' the pack teaches",
+      "848661": "'Au travail !' is an idiom (Get to work!)"
+    },
+    "english": {
+      "8984379": "I'm working!"
+    }
+  },
+  "U202": {
+    "reject": {},
+    "english": {
+      "528818": "How's your cold?"
+    }
+  },
+  "U203": {
+    "reject": {
+      "1978205": "regarde here means look, not watching a film or TV: off the topic",
+      "1978208": "regarde here means look, not watching a film or TV: off the topic",
+      "5868202": "regarde here means look, not watching a film or TV: off the topic",
+      "6463253": "regarde here means look, not watching a film or TV: off the topic",
+      "7270346": "regarde here means look, not watching a film or TV: off the topic",
+      "7801897": "regarde here means look, not watching a film or TV: off the topic",
+      "7956661": "\"Très drôle !\" linked only to \"Funny!\", which drops très",
+      "9252911": "'Regarde la télé ici.' reads unnaturally on its own",
+      "9552532": "regarde here means look, not watching a film or TV: off the topic"
+    },
+    "english": {
+      "4320549": "It's sad."
+    }
+  }
+}

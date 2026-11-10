@@ -1,7 +1,7 @@
 // Developer Notes must never show a key: redact() blanks key-shaped text, and the documents it shows hold none.
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { readFileSync, readdirSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { gradesSection, redact } from '../src/lib/redact.js'
 
 test('redact blanks keys and tokens', () => {
@@ -12,7 +12,8 @@ test('redact blanks keys and tokens', () => {
 
 test('the documents shown hold nothing key-shaped', () => {
   const files = ['model-story.md', 'craft-review.md', 'tamago-feature-list.md', 'question-types.md', 'build-phases.md', 'autonomous-build.md', 'test-notes.md', 'check-in.md'].map((f) => `_source/${f}`)
-  for (const d of readdirSync('_review')) files.push(`_review/${d}/craft-review.md`)
+  // A review still in progress has screenshots but no report yet.
+  for (const d of readdirSync('_review')) if (existsSync(`_review/${d}/craft-review.md`)) files.push(`_review/${d}/craft-review.md`)
   for (const f of files) {
     const text = readFileSync(f, 'utf8')
     assert.equal(redact(text), text, `${f} has something that looks like a key`)
