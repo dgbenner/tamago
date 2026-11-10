@@ -1,5 +1,7 @@
 // Progress on the device (IndexedDB), using the workbook's runtime_schema table names. Reads happen once at
 // startup; after that the app works from memory and writes behind, so saving never slows a question.
+// Each course has its own database (French keeps the original 'tamago'), so progress never mixes.
+import { course } from './course.js'
 const STORES = {
   attempts: 'attempt_id', lessons: 'lesson_id', review_bank: 'sentence_id', hints_log: 'hint_id',
   unit_progress: 'unit_id', points: 'date', flags: 'flag_id', kv: 'key',
@@ -10,7 +12,7 @@ function open() {
   if (dbPromise) return dbPromise
   dbPromise = new Promise((resolve) => {
     let req
-    try { req = indexedDB.open('tamago', 1) } catch { return resolve(null) }
+    try { req = indexedDB.open(course.db, 1) } catch { return resolve(null) }
     req.onupgradeneeded = () => {
       for (const [name, keyPath] of Object.entries(STORES)) {
         if (!req.result.objectStoreNames.contains(name)) req.result.createObjectStore(name, { keyPath })

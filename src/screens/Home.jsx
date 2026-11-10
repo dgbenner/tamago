@@ -1,6 +1,8 @@
 import { createContext, useContext, useEffect, useId, useRef, useState } from 'react'
 import { LogoInline, SushiMark } from './Logo.jsx'
 import { IconBars, IconBook, IconCode, IconCheckered, IconClose, IconGear, IconLock, IconStudy, IconVerb } from './icons.jsx'
+import { TL, course } from '../lib/course.js'
+import { FlagRow } from './Languages.jsx'
 
 // Rounds as a ring of five segments around the unit circle, filling as rounds finish (Dan's test notes). Strength
 // (FSRS, 0 to 4 bars) is folded in: the finished segments fade as the unit's recall drops.
@@ -125,7 +127,7 @@ function UnitCard({ node, inProgress, onStart, onClose, onGrammarNote, hasNote, 
       </> : !open ? <>
         <p className="mt-2 text-muted">{unit.grammar_point}</p>
         <p className="mt-4">Locked for now. It opens when you've finished round 1 of {lockedBy}.</p>
-        <p className="mt-2 text-sm text-muted">Units open in order, so each one builds on the words before it. Know some French already? The placement check in Settings can open several at once.</p>
+        <p className="mt-2 text-sm text-muted">Units open in order, so each one builds on the words before it. Know some {course.name} already? The placement check in Settings can open several at once.</p>
       </> : <>
         <p className="mt-2 text-muted">{unit.grammar_point}</p>
         <p className="mt-3 text-sm text-muted">{where}</p>
@@ -231,12 +233,17 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
+  const [languages, setLanguages] = useState(false)
   return (
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
           the utilities right, like a desktop site. */}
       <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(0.25rem,env(safe-area-inset-top))] pb-1 lg:mx-0 lg:px-0 lg:py-1.5">
-        <span className="flex w-20 justify-start lg:order-2 lg:w-auto lg:justify-end">{showPoints && <Points total={pointsTotal} today={pointsToday} />}</span>
+        {/* The course flag (points sat here until they were hidden): opens the language pop-up. */}
+        <span className="flex w-20 items-center justify-start gap-2 lg:order-2 lg:w-auto lg:justify-end">
+          {showPoints && <Points total={pointsTotal} today={pointsToday} />}
+          <button onClick={() => setLanguages(true)} aria-label={`Language: ${course.name}`} className="icon-btn -ml-2 lg:ml-0"><img src={course.flag} alt="" className="h-8 w-8 object-contain" /></button>
+        </span>
         <span className="flex items-center gap-2 lg:order-1 lg:mr-auto">
           <SushiMark className="hidden w-11 lg:block" />
           <LogoInline />
@@ -307,6 +314,13 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
         <CheckpointCard cp={cpPicked} onClose={() => setCpPicked(null)}
           onStart={() => { setCpPicked(null); onCheckpoint(cpPicked.afterRow) }}
           onSkip={() => { setCpPicked(null); onSkipCheckpoint(cpPicked.afterRow) }} />
+      )}
+      {languages && (
+        <Sheet onClose={() => setLanguages(false)}>
+          <SheetHead title="Language" onClose={() => setLanguages(false)} />
+          <p className="mt-2 mb-4 text-muted">Each language keeps its own progress.</p>
+          <FlagRow />
+        </Sheet>
       )}
       {practiceNote && (
         <Sheet onClose={() => setPracticeNote(false)}>

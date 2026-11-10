@@ -4,6 +4,7 @@ import { useRecorder } from '../lib/recorder.js'
 import { getKv, putKv, remove } from '../lib/store.js'
 import { download, stamp } from '../lib/files.js'
 import { IconBack, IconSpeaker } from './icons.jsx'
+import { TL, course } from '../lib/course.js'
 
 // The native-speaker check (Phase 4), for the person Dan arranges. Every sentence Tamago wrote itself (source
 // tamago_original), one at a time: natural or not, a corrected version, a note, and a recording. Results stay on
@@ -41,7 +42,7 @@ export default function NativeCheck({ sentences, results, onChange, onBack }) {
         <h1 className="text-xl font-semibold">Native-Speaker Check</h1>
       </header>
       <p className="text-sm text-muted">
-        For a native French speaker. Is each sentence something a French speaker would say, and does the English match?
+        For a native {course.name} speaker. Is each sentence something a {course.name} speaker would say, and does the English match?
         Fix anything that's off, and record the sentence if you can. When you're done, save the results and send the file to Dan.
       </p>
       <label className="flex flex-col gap-1">
@@ -93,7 +94,7 @@ function Card({ s, r, set, position }) {
       <div className="flex items-start gap-3">
         <button onClick={() => play({ french: s.french, file: null })} aria-label="Play the computer voice" className="icon-btn -m-1 shrink-0 [&_svg]:size-5"><IconSpeaker /></button>
         <div>
-          <p lang="fr" className="text-xl">{s.french}</p>
+          <p lang={TL} className="text-xl">{s.french}</p>
           <p className="text-muted">{s.english}</p>
         </div>
       </div>
@@ -106,8 +107,8 @@ function Card({ s, r, set, position }) {
       {r.verdict === 'fix' && (
         <>
           <label className="flex flex-col gap-1">
-            <span className="text-sm font-medium">Corrected French</span>
-            <input lang="fr" defaultValue={r.french_fix ?? s.french} onBlur={(e) => set({ french_fix: e.target.value.trim() })} autoCapitalize="sentences"
+            <span className="text-sm font-medium">Corrected {course.name}</span>
+            <input lang={TL} defaultValue={r.french_fix ?? s.french} onBlur={(e) => set({ french_fix: e.target.value.trim() })} autoCapitalize="sentences"
               className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base" />
           </label>
           <label className="flex flex-col gap-1">
@@ -123,7 +124,7 @@ function Card({ s, r, set, position }) {
           className="rounded-xl border-2 border-field bg-surface px-3 py-2 text-base" />
       </label>
       <div className="flex flex-col gap-2">
-        <p className="text-sm font-medium">Recording{r.verdict === 'fix' ? ' (of the corrected French)' : ''}</p>
+        <p className="text-sm font-medium">Recording{r.verdict === 'fix' ? ` (of the corrected ${course.name})` : ''}</p>
         {rec.state === 'unavailable'
           ? <p className="text-sm text-muted">No microphone here, or permission was refused.</p>
           : (

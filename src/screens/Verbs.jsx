@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { checkTyped } from '../lib/check.js'
 import { IconBack, IconClose } from './icons.jsx'
+import { TL } from '../lib/course.js'
 
 // The verb conjugation trainer. Tables are Wiktionary's present indicative; the drill asks one person at a time.
 export default function Verbs({ tables, strict, onBack }) {
@@ -16,11 +17,11 @@ export default function Verbs({ tables, strict, onBack }) {
       {tables.map((t) => (
         <section key={t.lemma} className="flex flex-col gap-2 rounded-xl border-2 border-line bg-surface p-3">
           <div className="flex items-center justify-between">
-            <h2 lang="fr" className="text-lg font-semibold">{t.lemma}</h2>
+            <h2 lang={TL} className="text-lg font-semibold">{t.lemma}</h2>
             <button onClick={() => setDrill(t)} className="btn-secondary min-h-10 px-4 text-sm">Practise</button>
           </div>
           <table className="w-full text-left text-sm">
-            <tbody>{t.present.map((r) => <tr key={r.person}><td lang="fr" className="py-0.5 pr-4 text-muted">{r.person}</td><td lang="fr" className="font-semibold">{r.form}</td></tr>)}</tbody>
+            <tbody>{t.present.map((r) => <tr key={r.person}><td lang={TL} className="py-0.5 pr-4 text-muted">{r.person}</td><td lang={TL} className="font-semibold">{r.form}</td></tr>)}</tbody>
           </table>
           <a href={t.source} target="_blank" rel="noreferrer" className="text-xs text-muted underline underline-offset-2">Present tense, from Wiktionary</a>
         </section>
@@ -57,17 +58,17 @@ function Drill({ table, strict, onDone }) {
         <button onClick={onDone} aria-label="Leave the drill" className="icon-btn -ml-2"><IconClose /></button>
         <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-line"><div className="h-full rounded-full bg-green" style={{ width: `${(i / order.length) * 100}%` }} /></div>
       </header>
-      <h1 className="text-xl font-semibold"><span lang="fr">{table.lemma}</span>, present</h1>
-      <p lang="fr" className="text-2xl">{row.person} …</p>
+      <h1 className="text-xl font-semibold"><span lang={TL}>{table.lemma}</span>, present</h1>
+      <p lang={TL} className="text-2xl">{row.person} …</p>
       <form onSubmit={(e) => { e.preventDefault(); if (result) next(); else if (text.trim()) check() }}>
-        <input lang="fr" autoFocus value={text} disabled={Boolean(result)} onChange={(e) => setText(e.target.value)} aria-label="The verb form"
+        <input lang={TL} autoFocus value={text} disabled={Boolean(result)} onChange={(e) => setText(e.target.value)} aria-label="The verb form"
           autoCapitalize="off" autoCorrect="off" autoComplete="off" spellCheck={false}
           className="w-full rounded-xl border-2 border-field bg-surface px-4 py-3 text-lg outline-none focus:border-ink" />
       </form>
       {result
         ? (
           <div className="flex flex-col gap-3">
-            <p className={result.correct ? 'font-semibold text-right-ink' : 'font-semibold text-wrong'}>{result.correct ? 'Right.' : 'The form is'} <span lang="fr" className="text-ink">{row.form}</span></p>
+            <p className={result.correct ? 'font-semibold text-right-ink' : 'font-semibold text-wrong'}>{result.correct ? 'Right.' : 'The form is'} <span lang={TL} className="text-ink">{row.form}</span></p>
             <button onClick={next} className="btn-primary">Continue</button>
           </div>
         )

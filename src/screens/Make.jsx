@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { generateReady } from '../lib/generate.js'
 import NeedsSetup from './NeedsSetup.jsx'
 import { IconBack } from './icons.jsx'
+import { TL, course } from '../lib/course.js'
 
 // Learner-guided practice (Phase 5): the learner asks, Tamago builds it in its own question shapes.
 // Lesson on a weak point, a test on this week's sentences and flashcards from a list need nothing outside the app.
@@ -38,8 +39,8 @@ export default function Make({ weakSkill, weekCount, metCount, listMatch, onWeak
         <button onClick={onWeek} disabled={!weekCount} className="btn-secondary">Test This Week</button>
       </Block>
 
-      <Block title="Flashcards from Your List" text="Paste French words or text. Words Tamago knows become flashcards, with their meanings from Wiktionary.">
-        <textarea aria-label="French words or text" value={list} onChange={(e) => setList(e.target.value)} rows={3} lang="fr" placeholder="pomme, fromage, chat…"
+      <Block title="Flashcards from Your List" text={`Paste ${course.name} words or text. Words Tamago knows become flashcards, with their meanings from Wiktionary.`}>
+        <textarea aria-label={`${course.name} words or text`} value={list} onChange={(e) => setList(e.target.value)} rows={3} lang={TL} placeholder={course.sample}
           className="rounded-xl border-2 border-field bg-surface px-3 py-2 text-base" />
         {match && <p className="text-sm text-muted">{match.words.length} found{match.missing.length ? ` · not in Tamago yet: ${match.missing.join(', ')}` : ''}</p>}
         <button onClick={() => onList(match.words)} disabled={!match?.words.length} className="btn-secondary">Make flashcards</button>
@@ -59,7 +60,7 @@ export default function Make({ weakSkill, weekCount, metCount, listMatch, onWeak
           {status && <p role="status" className="text-sm text-muted">{status}</p>}
         </Block>
       )}
-      <NeedsSetup title="Conversation">A short spoken or typed exchange with Claude in French, kept to the words you know. Needs an API key and its own design pass.</NeedsSetup>
+      <NeedsSetup title="Conversation">A short spoken or typed exchange with Claude in {course.name}, kept to the words you know. Needs an API key and its own design pass.</NeedsSetup>
     </main>
   )
 }

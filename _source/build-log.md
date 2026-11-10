@@ -457,3 +457,22 @@ Part 3, Lingua Libre recordings:
   public/images/pictures/<row>.webp (384 px, precached) and content/pictures.json, which import.mjs prefers over
   OpenMoji. 33 pictures for 36 words; 49 words pictured in all. Checked in Chrome: Pick the Picture in Units 1, 2
   and 5 loads them.
+
+## 2026-11-10: Spanish course and language switching (start)
+
+- Pipeline: scripts/lib/course.mjs, `COURSE=es` moves every path to Spanish's own folders (content-es, src/content-es,
+  public/audio-es, .cache/recordings-es) and switches Tatoeba (spa), Wiktionary (Spanish), Lingua Libre
+  (LL-Q1321 (spa), Wikidata Q1321). French rebuilt byte for byte the same.
+- Spanish workbook v1 (scripts/make-spanish-workbook.mjs): machinery tabs copied from French v24; 15 units after the
+  PCIC A1 inventory (Dan: content, count and order follow Spanish); "I can" statements carried over where the topic
+  matches, new ones for Where Things Are and Ser or Estar against the same CEFR grid rows; Spanish feedback lines as
+  drafts. Word senses in content-es/word-senses.json, short hints in claude_hints.
+- Unit 1: widened (llamo, llamas, chico, chica, señor, señora; me, te, cómo moved to Unit 1), 8 cuts, 21 drafts
+  (Tatoeba's checked pool for the first unit's words is 30 sentences), 4 QT09 pairs. Live.
+- App: course.js (choice, first launch, shared settings), tables per course loaded in main.jsx, IndexedDB per
+  course, device voice per course (es-MX first), lang attributes and visible "French" text from the course, ¿ ¡ in
+  answer checking, feedback lines in either course language, Languages.jsx flag row (opening screen, header pop-up,
+  Settings), German Coming Soon, tree shows live units only, Course Snapshot for both courses (src/lib/snapshot.js).
+- Checked in Chrome: chooser (axe clean), German tap, Spanish pick reloads to Spanish home without the opening
+  screen, Spanish lesson with lang="es", reopen keeps Spanish, switch back by the header and Settings, two
+  databases, an existing French learner not asked; all five rounds of Spanish Unit 1 run with no errors.

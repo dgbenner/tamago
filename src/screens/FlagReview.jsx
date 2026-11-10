@@ -3,6 +3,7 @@ import { getAll, put } from '../lib/store.js'
 import { download, stamp } from '../lib/files.js'
 import NeedsSetup from './NeedsSetup.jsx'
 import { IconBack } from './icons.jsx'
+import { TL } from '../lib/course.js'
 
 // Flag review (answer flags, version 2), for Dan. "My answer should be accepted" flags with a typed or built answer
 // can be accepted: the answer counts on this device at once, and "Save for Claude" carries it into the content
@@ -45,9 +46,9 @@ export default function FlagReview({ reasons, onAccept, onBack }) {
             {list.map((f) => (
               <div key={f.flag_id} className="flex flex-col gap-2 rounded-xl border-2 border-line bg-surface p-3">
                 <p className="text-sm text-muted">{f.sentence_id} · {f.type_id} · {reasonOf(f.reason_id)} · {new Date(f.flagged_at).toLocaleDateString()}{!open(f) ? ` · ${f.status}` : ''}</p>
-                {f.french && <p lang="fr">{f.french}</p>}
+                {f.french && <p lang={TL}>{f.french}</p>}
                 {f.english && <p className="text-muted">{f.english}</p>}
-                {f.given && <p><span className="text-sm text-muted">Answer given: </span><span lang={f.direction === 'en_to_fr' ? 'fr' : 'en'}>{f.given}</span></p>}
+                {f.given && <p><span className="text-sm text-muted">Answer given: </span><span lang={f.direction === 'en_to_fr' ? TL : 'en'}>{f.given}</span></p>}
                 {open(f) && (
                   <div className="flex gap-2">
                     <button onClick={() => decide(f, 'dismissed')} className="btn-secondary flex-1">{g.title === 'Answers to review' ? 'Not right' : 'Done'}</button>

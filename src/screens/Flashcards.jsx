@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { play } from '../lib/audio.js'
 import { IconClose, IconSpeaker } from './icons.jsx'
+import { TL } from '../lib/course.js'
 
 // FSRS flashcards: French on the front; meaning and an example on the back; the learner grades their own recall.
 // With "say aloud" on, the card plays and asks to be said before turning.
@@ -25,13 +26,13 @@ export default function Flashcards({ cards, aloud, onGrade, onDone }) {
         <span className="text-sm text-muted">Card {i + 1} of {cards.length}</span>
       </header>
       <section className="flex flex-1 flex-col items-center justify-center gap-4 rounded-2xl border-4 border-line bg-surface p-6 text-center">
-        <p lang="fr" className="text-3xl font-semibold">{card.form}</p>
+        <p lang={TL} className="text-3xl font-semibold">{card.form}</p>
         <button onClick={() => play(card.audio)} aria-label="Play the word" className="icon-btn border-2 border-line"><IconSpeaker /></button>
         {aloud && !shown && <p className="text-sm text-muted">Say it aloud, then turn the card.</p>}
         {shown && (
           <>
             <p className="text-xl">{card.hint}</p>
-            {card.example && <p className="text-muted"><span lang="fr">{card.example.french}</span><br />{card.example.english}</p>}
+            {card.example && <p className="text-muted"><span lang={TL}>{card.example.french}</span><br />{card.example.english}</p>}
           </>
         )}
       </section>

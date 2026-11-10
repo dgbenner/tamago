@@ -227,6 +227,13 @@ button {
     @apply fixed inset-0 z-50 flex items-center justify-center bg-bg;
     animation: splash-out 500ms ease-in-out 3200ms forwards; /* drawn by about 0.75s, then held about 2.4s */
   }
+  /* First launch: the opening screen waits for a language, then fades at once. */
+  .splash.splash-hold {
+    animation: none;
+  }
+  .splash.splash-now {
+    animation: splash-out 500ms ease-in-out forwards;
+  }
   /* A dash longer than the stroke, offset past its end: nothing shows, not even a round cap, until it moves. */
   .splash-draw {
     stroke-dasharray: 1 2;

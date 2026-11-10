@@ -1,0 +1,236 @@
+{
+  "ser": [
+    {
+      "person": "je (j’)",
+      "form": "se"
+    },
+    {
+      "person": "tu",
+      "form": "ses"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "se"
+    },
+    {
+      "person": "nous",
+      "form": "sons"
+    },
+    {
+      "person": "vous",
+      "form": "sez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "sent"
+    }
+  ],
+  "estar": [
+    {
+      "person": "je (j’)",
+      "form": "{{{ind_p_1s}}}"
+    },
+    {
+      "person": "tu",
+      "form": "{{{ind_p_2s}}}"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "{{{ind_p_3s}}}"
+    },
+    {
+      "person": "nous",
+      "form": "{{{ind_p_1p}}}"
+    },
+    {
+      "person": "vous",
+      "form": "{{{ind_p_2p}}}"
+    },
+    {
+      "person": "ils, elles",
+      "form": "{{{ind_p_3p}}}"
+    }
+  ],
+  "comer": [
+    {
+      "person": "je (j’)",
+      "form": "come"
+    },
+    {
+      "person": "tu",
+      "form": "comes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "come"
+    },
+    {
+      "person": "nous",
+      "form": "comons"
+    },
+    {
+      "person": "vous",
+      "form": "comez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "coment"
+    }
+  ],
+  "beber": [
+    {
+      "person": "je (j’)",
+      "form": "bèbe"
+    },
+    {
+      "person": "tu",
+      "form": "bèbes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "bèbe"
+    },
+    {
+      "person": "nous",
+      "form": "bebons"
+    },
+    {
+      "person": "vous",
+      "form": "bebez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "bèbent"
+    }
+  ],
+  "gustar": [
+    {
+      "person": "je (j’)",
+      "form": "{{{ind_p_1s}}}"
+    },
+    {
+      "person": "tu",
+      "form": "{{{ind_p_2s}}}"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "{{{ind_p_3s}}}"
+    },
+    {
+      "person": "nous",
+      "form": "{{{ind_p_1p}}}"
+    },
+    {
+      "person": "vous",
+      "form": "{{{ind_p_2p}}}"
+    },
+    {
+      "person": "ils, elles",
+      "form": "{{{ind_p_3p}}}"
+    }
+  ],
+  "tener": [
+    {
+      "person": "je (j’)",
+      "form": "tène"
+    },
+    {
+      "person": "tu",
+      "form": "tènes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "tène"
+    },
+    {
+      "person": "nous",
+      "form": "tenons"
+    },
+    {
+      "person": "vous",
+      "form": "tenez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "tènent"
+    }
+  ],
+  "haber": [
+    {
+      "person": "je (j’)",
+      "form": "habe"
+    },
+    {
+      "person": "tu",
+      "form": "habes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "habe"
+    },
+    {
+      "person": "nous",
+      "form": "habons"
+    },
+    {
+      "person": "vous",
+      "form": "habez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "habent"
+    }
+  ],
+  "ir": [
+    {
+      "person": "je (j’)",
+      "form": "is"
+    },
+    {
+      "person": "tu",
+      "form": "is"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "it"
+    },
+    {
+      "person": "nous",
+      "form": "issons"
+    },
+    {
+      "person": "vous",
+      "form": "issez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "issent"
+    }
+  ],
+  "llamar": [
+    {
+      "person": "je (j’)",
+      "form": "{{{ind_p_1s}}}"
+    },
+    {
+      "person": "tu",
+      "form": "{{{ind_p_2s}}}"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "{{{ind_p_3s}}}"
+    },
+    {
+      "person": "nous",
+      "form": "{{{ind_p_1p}}}"
+    },
+    {
+      "person": "vous",
+      "form": "{{{ind_p_2p}}}"
+    },
+    {
+      "person": "ils, elles",
+      "form": "{{{ind_p_3p}}}"
+    }
+  ]
+}

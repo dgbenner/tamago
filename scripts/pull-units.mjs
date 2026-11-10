@@ -35,7 +35,9 @@ const words = raw('words').filter((w) => !String(w.status).startsWith('off')) //
 // The workbook's own sentences; the pulls and drafts merged at import are not in the way of a fresh pull.
 const existing = raw('sentences').filter((s) => !s.origin || s.origin === 'workbook')
 // Names allowed (R21): the ones the workbook already uses. Dan can add more there.
-const NAMES = new Set(raw('sentence_words').filter((r) => r.notes === 'name').map((r) => String(r.surface).toLowerCase()))
+// A course's decisions can list more (Spanish starts with no sentences, so it lists its names there).
+const DECISIONS = JSON.parse(readFileSync(at('content/review-decisions.json'), 'utf8'))
+const NAMES = new Set([...raw('sentence_words').filter((r) => r.notes === 'name').map((r) => String(r.surface)), ...(DECISIONS.names ?? [])].map((x) => x.toLowerCase()))
 // Part of speech from the Wiktionary check, to tell an article from a pronoun.
 const checkedWords = JSON.parse(readFileSync(at('content/checks/words.json'), 'utf8'))
 const POS = new Map(checkedWords.map((w) => [w.word_id, w.part_of_speech]))
@@ -178,7 +180,8 @@ for (const u of units) {
     // P06 puts questions and their answers in the unit, on top of the picks.
     for (const { q, answers } of questions) for (const c of [q, ...answers]) if (!chosen.includes(c)) chosen.push(c)
 
-    const base = rebuild ? REBUILD_BASE[u.unit_id] : ID_BASE[u.unit_id]
+    // Spanish ids by unit number: U01 from S1001, U15 from S15001 (the French ids are a fixed table).
+    const base = rebuild ? REBUILD_BASE[u.unit_id] : COURSE === 'fr' ? ID_BASE[u.unit_id] : Number(u.unit_id.slice(1)) * 1000
     const sentences = chosen.map((c, i) => ({
       sentence_id: `S${String(base + i + 1).padStart(4, '0')}`, unit_id: u.unit_id, french: norm(c.s.text), english: c.english[0],
       pair_id: '', source: 'tatoeba', source_id: c.s.id, status: 'pulled: awaiting approval', audio_source: 'tts', max_round: 5,

@@ -4,6 +4,7 @@ import { checkTyped, diffMarks, nearMiss } from '../lib/check.js'
 import { useRecorder } from '../lib/recorder.js'
 import { play, stop } from '../lib/audio.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconSpeaker } from './icons.jsx'
+import { TL, course } from '../lib/course.js'
 
 const PROMPT = {
   QT01: 'Match the Pairs', QT02: 'Pick the Picture', QT10: 'Say It Aloud', QT13: 'Speak and Compare', QT03: 'Pick the Meaning', QT04: 'Pick What You Heard', QT05: 'Fill in the Blank', QT06: 'Translate',
@@ -30,7 +31,7 @@ function pickPhrase(phrases, q, r, kind, lastId) {
   const context = r.typo ? 'typo' : r.accent ? 'accent' : r.correct ? 'correct' : 'incorrect'
   const comesBack = kind === 'lesson' && !q.reask
   const pool = phrases.filter((p) => p.context === context && p.phrase_id !== lastId && (p.phrase_id !== 'FB24' || comesBack) && (r.near || !NEAR_ONLY.has(p.phrase_id)))
-  const french = pool.filter((p) => p.language === 'fr')
+  const french = pool.filter((p) => p.language !== 'en') // the course language's lines
   const english = pool.filter((p) => p.language === 'en')
   const from = french.length && Math.random() < FRENCH_RATE ? french : english.length ? english : pool
   return from.length ? from[Math.floor(Math.random() * from.length)] : null
@@ -201,7 +202,7 @@ function SpeakerButton({ audio, slow, label = 'Play', large }) {
 function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
   const [open, setOpen] = useState(null)
   return (
-    <p lang="fr" className="text-2xl leading-relaxed">
+    <p lang={TL} className="text-2xl leading-relaxed">
       {q.segments.map((seg, i) => {
         if (i === blankIndex) {
           return <span key={i} className="mx-1 inline-block min-w-16 border-b-4 border-ink px-1 text-center font-semibold">{filled ?? ' '}</span>
@@ -261,7 +262,7 @@ function WordImage({ q, result, onAnswer, newWords }) {
       <div className="flex items-center gap-3">
         {q.variant === 'V0202'
           ? <p className="text-2xl">{q.hint}</p>
-          : <><p lang="fr" className="relative text-2xl">{q.form}{newWords.has(q.word_id) && <span className="new-dot absolute -top-0.5 left-full ml-0.5 size-1.5" aria-hidden="true" />}</p><SpeakerButton audio={q.audio} label="Play the word" /></>}
+          : <><p lang={TL} className="relative text-2xl">{q.form}{newWords.has(q.word_id) && <span className="new-dot absolute -top-0.5 left-full ml-0.5 size-1.5" aria-hidden="true" />}</p><SpeakerButton audio={q.audio} label="Play the word" /></>}
       </div>
       <div className={`grid gap-3 ${q.choices.length === 4 ? 'grid-cols-2' : 'grid-cols-3'}`}>
         {q.choices.map((ch, i) => {
@@ -271,7 +272,7 @@ function WordImage({ q, result, onAnswer, newWords }) {
               onClick={() => { setChosen(ch.word_id); onAnswer({ correct: ch.word_id === q.answer }) }}
               className={`choice flex flex-col items-center justify-center gap-1 p-2 text-center ${state}`}>
               <img src={ch.image} alt="" className="h-20 w-20" />
-              {ch.label && <span lang="fr" className="text-base">{ch.label}</span>}
+              {ch.label && <span lang={TL} className="text-base">{ch.label}</span>}
             </button>
           )
         })}
@@ -298,7 +299,7 @@ function Speak({ q, result, onAnswer, newWords, onHint }) {
           </div>
           {reveal || result
             ? <FrenchText q={q} newWords={newWords} onHint={onHint} />
-            : <button onClick={() => setReveal(true)} className="self-start text-sm text-muted underline underline-offset-4">Show the French</button>}
+            : <button onClick={() => setReveal(true)} className="self-start text-sm text-muted underline underline-offset-4">Show the {course.name}</button>}
         </div>
       )}
       {!result && compare && (
@@ -362,7 +363,7 @@ function PickHeard({ q, result, onAnswer }) {
             <button key={a.sentence_id} aria-label={result ? undefined : `Choice ${i + 1}, plays its sentence`} aria-pressed={result ? undefined : chosen === a.sentence_id}
               onClick={() => { play(a); if (!result) setChosen(a.sentence_id) }} className={`choice flex items-center gap-3 ${state}`}>
               <span aria-hidden="true"><IconSpeaker /></span>
-              {result ? <span lang="fr">{a.french}</span> : <span className="text-muted">{i + 1}</span>}
+              {result ? <span lang={TL}>{a.french}</span> : <span className="text-muted">{i + 1}</span>}
             </button>
           )
         })}
@@ -417,7 +418,7 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
     <div className="grid grid-cols-2 gap-2.5">
       <div className="flex flex-col gap-2.5">
         {q.pairs.map((p) => (
-          <button key={p.form} lang="fr" disabled={matched.includes(p.form) || Boolean(result)} aria-pressed={form === p.form} onClick={(e) => { if (meaning && q.pairs.find((x) => x.form === p.form).hint === meaning) focusNeighbour(e.currentTarget); tapForm(p) }}
+          <button key={p.form} lang={TL} disabled={matched.includes(p.form) || Boolean(result)} aria-pressed={form === p.form} onClick={(e) => { if (meaning && q.pairs.find((x) => x.form === p.form).hint === meaning) focusNeighbour(e.currentTarget); tapForm(p) }}
             onAnimationEnd={endShake}
             className={`${cell(form === p.form, matched.includes(p.form), wrong?.f === p.form)} flex items-center justify-center`}>
             {/* Only the word is centred: the speaker hangs to its left and the new-word dot to its right. */}
@@ -455,7 +456,7 @@ function FillBlank({ q, result, onAnswer, newWords, onHint }) {
         {q.choices.map((choice) => {
           const right = choice.toLowerCase() === q.answer
           const state = !result ? '' : right ? 'choice-right' : choice === chosen ? 'choice-wrong' : 'opacity-60'
-          return <button key={choice} lang="fr" disabled={Boolean(result)} onClick={() => { setChosen(choice); onAnswer({ correct: right }) }} className={`chip ${state}`}>{choice}</button>
+          return <button key={choice} lang={TL} disabled={Boolean(result)} onClick={() => { setChosen(choice); onAnswer({ correct: right }) }} className={`chip ${state}`}>{choice}</button>
         })}
       </div>
     </>
@@ -501,12 +502,12 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
         <>
           {/* Your answer so far, then the word bank. Picking a word keeps keyboard focus in the bank (on the next word
               still there); removing one returns focus to the answer. */}
-          <div lang={q.lang} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className="flex min-h-14 flex-wrap gap-2 border-b-2 border-line pb-2">
+          <div lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className="flex min-h-14 flex-wrap gap-2 border-b-2 border-line pb-2">
             {picked.map((chipIndex) => (
               <button key={chipIndex} disabled={Boolean(result)} aria-label={`${q.chips[chipIndex]}, remove`} onClick={(e) => { focusNeighbour(e.currentTarget); setPicked(picked.filter((i) => i !== chipIndex)) }} className="chip">{q.chips[chipIndex]}</button>
             ))}
           </div>
-          <div lang={q.lang} role="group" aria-label="Words to choose from" className="flex flex-wrap gap-2">
+          <div lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label="Words to choose from" className="flex flex-wrap gap-2">
             {q.chips.map((chip, i) => (
               <button key={i} disabled={picked.includes(i) || Boolean(result)} onClick={(e) => { focusNeighbour(e.currentTarget); setPicked([...picked, i]) }} className={`chip ${picked.includes(i) ? 'opacity-25' : ''}`}>{chip}</button>
             ))}
@@ -541,9 +542,9 @@ function TypedInput({ q, value, onChange, disabled, onSubmit }) {
   return (
     <form onSubmit={(e) => { e.preventDefault(); if (value.trim() && !disabled) onSubmit() }}>
       <input
-        lang={q.lang} autoFocus value={value} disabled={disabled} onChange={(e) => onChange(e.target.value)}
+        lang={q.lang === 'en' ? 'en' : TL} autoFocus value={value} disabled={disabled} onChange={(e) => onChange(e.target.value)}
         autoCapitalize="off" autoCorrect="off" autoComplete="off" spellCheck={false} enterKeyHint="done"
-        aria-label={q.lang === 'en' ? 'Your answer in English' : 'Your answer in French'} placeholder={q.lang === 'en' ? 'Type in English' : 'Type in French'}
+        aria-label={q.lang === 'en' ? 'Your answer in English' : `Your answer in ${course.name}`} placeholder={q.lang === 'en' ? 'Type in English' : `Type in ${course.name}`}
         className="w-full rounded-xl border-2 border-field bg-surface px-4 py-3 text-lg outline-none focus:border-ink"
       />
     </form>
@@ -598,12 +599,12 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
             <p className={`relative font-semibold ${good ? 'text-right-ink' : 'text-wrong'}`}>
-              {phrase?.language === 'fr' ? (
-                <button lang="fr" onClick={() => setMeaning(!meaning)} aria-expanded={meaning} className="underline decoration-dotted decoration-2 underline-offset-4">{phrase.text}</button>
+              {phrase && phrase.language !== 'en' ? (
+                <button lang={TL} onClick={() => setMeaning(!meaning)} aria-expanded={meaning} className="underline decoration-dotted decoration-2 underline-offset-4">{phrase.text}</button>
               ) : (phrase?.text ?? fallback)}
               {meaning && <span role="tooltip" className="absolute bottom-full left-0 z-10 mb-1 w-max max-w-[min(18rem,80vw)] rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base font-normal text-ink shadow-md">{phrase.english}</span>}
             </p>
-            {shown && <p lang={isPairs ? undefined : q.lang === 'en' && !LISTENING.has(q.type) ? 'en' : 'fr'} className="mt-0.5 break-words">
+            {shown && <p lang={isPairs ? undefined : q.lang === 'en' && !LISTENING.has(q.type) ? 'en' : TL} className="mt-0.5 break-words">
               {marks ? marks.map((m, i) => (m.mark ? <strong key={i} className="underline decoration-2 underline-offset-4">{m.text}</strong> : <span key={i}>{m.text}</span>)) : shown}
             </p>}
             {other && <p className="break-words text-muted">{other}</p>}

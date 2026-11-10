@@ -1,0 +1,47 @@
+[
+  {
+    "round": 1,
+    "name": "Exposure",
+    "purpose": "Recognize every new word; imitation speaking",
+    "choices": 3,
+    "distractor_chips": 0,
+    "prefill": "full",
+    "new_word_tag": "yes"
+  },
+  {
+    "round": 2,
+    "name": "Guided",
+    "purpose": "Short sentences with chips",
+    "choices": 3,
+    "distractor_chips": "1 for QT07 (contrast word); QT06 keeps 2",
+    "prefill": "high",
+    "new_word_tag": "first sight only"
+  },
+  {
+    "round": 3,
+    "name": "Build",
+    "purpose": "English to French with chips",
+    "choices": 4,
+    "distractor_chips": 2,
+    "prefill": "medium",
+    "new_word_tag": "no"
+  },
+  {
+    "round": 4,
+    "name": "Partial recall",
+    "purpose": "Typing starts; fewer chip questions, each with more distractors",
+    "choices": "none",
+    "distractor_chips": 4,
+    "prefill": "low",
+    "new_word_tag": "no"
+  },
+  {
+    "round": 5,
+    "name": "Recall",
+    "purpose": "Keyboard only, nothing pre-filled; speech from memory",
+    "choices": "none",
+    "distractor_chips": "none",
+    "prefill": "none",
+    "new_word_tag": "no"
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "phrase_id": "FB01",
+    "context": "correct",
+    "language": "en",
+    "text": "Nice.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB02",
+    "context": "correct",
+    "language": "en",
+    "text": "That's it.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB03",
+    "context": "correct",
+    "language": "en",
+    "text": "Exactly.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB04",
+    "context": "correct",
+    "language": "en",
+    "text": "You've got it.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB05",
+    "context": "correct",
+    "language": "en",
+    "text": "Spot on.",
+    "english": "",
+    "min_level": "A1",
+    "status": "off: retired in the craft review",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB06",
+    "context": "correct",
+    "language": "en",
+    "text": "Clean.",
+    "english": "",
+    "min_level": "A1",
+    "status": "off: retired in the craft review",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB07",
+    "context": "correct",
+    "language": "en",
+    "text": "Yes. Keep going.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB08",
+    "context": "correct",
+    "language": "en",
+    "text": "Right on.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB20",
+    "context": "incorrect",
+    "language": "en",
+    "text": "Not quite.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB21",
+    "context": "incorrect",
+    "language": "en",
+    "text": "Close.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB22",
+    "context": "incorrect",
+    "language": "en",
+    "text": "Here's the answer.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB23",
+    "context": "incorrect",
+    "language": "en",
+    "text": "Worth another look.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB24",
+    "context": "incorrect",
+    "language": "en",
+    "text": "This one comes back later.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": "use when the item is re-asked"
+  },
+  {
+    "phrase_id": "FB25",
+    "context": "incorrect",
+    "language": "en",
+    "text": "Almost.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB30",
+    "context": "typo",
+    "language": "en",
+    "text": "Right. Watch the spelling.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB31",
+    "context": "accent",
+    "language": "en",
+    "text": "Right. Note the accent.",
+    "english": "",
+    "min_level": "A1",
+    "status": "live",
+    "notes": ""
+  },
+  {
+    "phrase_id": "FB40",
+    "context": "correct",
+    "language": "es",
+    "text": "¡Muy bien!",
+    "english": "Very good!",
+    "min_level": "A1",
+    "status": "draft",
+    "notes": "draft: checked against Tatoeba on import"
+  },
+  {
+    "phrase_id": "FB41",
+    "context": "correct",
+    "language": "es",
+    "text": "¡Bravo!",
+    "english": "Well done!",
+    "min_level": "A1",
+    "status": "draft",
+    "notes": "draft: checked against Tatoeba on import"
+  },
+  {
+    "phrase_id": "FB42",
+    "context": "correct",
+    "language": "es",
+    "text": "¡Perfecto!",
+    "english": "Perfect!",
+    "min_level": "A1",
+    "status": "draft",
+    "notes": "draft: checked against Tatoeba on import"
+  },
+  {
+    "phrase_id": "FB43",
+    "context": "correct",
+    "language": "es",
+    "text": "¡Exacto!",
+    "english": "Exactly!",
+    "min_level": "A1",
+    "status": "draft",
+    "notes": "draft: checked against Tatoeba on import"
+  },
+  {
+    "phrase_id": "FB44",
+    "context": "correct",
+    "language": "es",
+    "text": "¡Eso es!",
+    "english": "That's it!",
+    "min_level": "A1",
+    "status": "draft",
+    "notes": "draft: checked against Tatoeba on import"
+  },
+  {
+    "phrase_id": "FB50",
+    "context": "incorrect",
+    "language": "es",
+    "text": "¡Casi!",
+    "english": "Almost!",
+    "min_level": "A1",
+    "status": "draft",
+    "notes": "draft: checked against Tatoeba on import"
+  },
+  {
+    "phrase_id": "FB51",
+    "context": "incorrect",
+    "language": "es",
+    "text": "No exactamente.",
+    "english": "Not quite.",
+    "min_level": "A1",
+    "status": "draft",
+    "notes": "draft: checked against Tatoeba on import"
+  }
+]

@@ -1,0 +1,338 @@
+{
+  "_about": "Rulings for the Spanish course, the same shape as content/review-decisions.json. Claude records its calls here under autonomous-build.md; Dan can reverse any of them.",
+  "sentences": {},
+  "accepted_answers": {},
+  "units": {
+    "U01": {
+      "action": "approve",
+      "on": "2026-11-10",
+      "by": "Claude under autonomous-build.md: 51 sentences, 30 checked Tatoeba and 21 drafts (Tatoeba has too few checked lines for the first unit), every word in 3 or more; reviewed in content-es/sweep/packs-review.json"
+    }
+  },
+  "cut_sentences": [],
+  "vocabulary_additions": [],
+  "hints": {},
+  "borrow": {},
+  "drafting": {},
+  "claude_hints": {
+    "W004": {
+      "hint": "no, not",
+      "source": "short form of Wiktionary"
+    },
+    "W062": {
+      "hint": "dog",
+      "source": "short form of Wiktionary"
+    },
+    "W010": {
+      "hint": "a, an (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W009": {
+      "hint": "a, an",
+      "source": "short form of Wiktionary"
+    },
+    "W072": {
+      "hint": "some",
+      "source": "short form of Wiktionary"
+    },
+    "W073": {
+      "hint": "some (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W114": {
+      "hint": "teacher (woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W033": {
+      "hint": "good evening, good night",
+      "source": "short form of Wiktionary"
+    },
+    "W007": {
+      "hint": "I am (ser)",
+      "source": "short form of Wiktionary"
+    },
+    "W008": {
+      "hint": "you are (ser)",
+      "source": "short form of Wiktionary"
+    },
+    "W020": {
+      "hint": "is (ser)",
+      "source": "short form of Wiktionary"
+    },
+    "W078": {
+      "hint": "we are (ser)",
+      "source": "short form of Wiktionary"
+    },
+    "W079": {
+      "hint": "are (ser)",
+      "source": "short form of Wiktionary"
+    },
+    "W038": {
+      "hint": "I am (estar)",
+      "source": "short form of Wiktionary"
+    },
+    "W039": {
+      "hint": "you are (estar)",
+      "source": "short form of Wiktionary"
+    },
+    "W040": {
+      "hint": "is (estar)",
+      "source": "short form of Wiktionary"
+    },
+    "W098": {
+      "hint": "are (estar)",
+      "source": "short form of Wiktionary"
+    },
+    "W099": {
+      "hint": "we are (estar)",
+      "source": "short form of Wiktionary"
+    },
+    "W059": {
+      "hint": "I have (tener)",
+      "source": "short form of Wiktionary"
+    },
+    "W060": {
+      "hint": "you have (tener)",
+      "source": "short form of Wiktionary"
+    },
+    "W061": {
+      "hint": "has (tener)",
+      "source": "short form of Wiktionary"
+    },
+    "W043": {
+      "hint": "I eat (comer)",
+      "source": "short form of Wiktionary"
+    },
+    "W044": {
+      "hint": "you eat (comer)",
+      "source": "short form of Wiktionary"
+    },
+    "W045": {
+      "hint": "eats (comer)",
+      "source": "short form of Wiktionary"
+    },
+    "W046": {
+      "hint": "I drink (beber)",
+      "source": "short form of Wiktionary"
+    },
+    "W047": {
+      "hint": "you drink (beber)",
+      "source": "short form of Wiktionary"
+    },
+    "W048": {
+      "hint": "drinks (beber)",
+      "source": "short form of Wiktionary"
+    },
+    "W051": {
+      "hint": "pleases, is liked (gustar)",
+      "source": "short form of Wiktionary"
+    },
+    "W164": {
+      "hint": "I go (ir)",
+      "source": "short form of Wiktionary"
+    },
+    "W165": {
+      "hint": "you go (ir)",
+      "source": "short form of Wiktionary"
+    },
+    "W166": {
+      "hint": "goes (ir)",
+      "source": "short form of Wiktionary"
+    },
+    "W100": {
+      "hint": "there is, there are",
+      "source": "short form of Wiktionary"
+    },
+    "W117": {
+      "hint": "my",
+      "source": "short form of Wiktionary"
+    },
+    "W119": {
+      "hint": "your",
+      "source": "short form of Wiktionary"
+    },
+    "W121": {
+      "hint": "his, her, your, their",
+      "source": "short form of Wiktionary"
+    },
+    "W118": {
+      "hint": "my (plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W120": {
+      "hint": "your (plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W122": {
+      "hint": "his, her, your, their (plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W035": {
+      "hint": "you are welcome",
+      "source": "short form of Wiktionary"
+    },
+    "W049": {
+      "hint": "me",
+      "source": "short form of Wiktionary"
+    },
+    "W050": {
+      "hint": "you, to you",
+      "source": "short form of Wiktionary"
+    },
+    "W096": {
+      "hint": "very",
+      "source": "short form of Wiktionary"
+    },
+    "W015": {
+      "hint": "and",
+      "source": "short form of Wiktionary"
+    },
+    "W167": {
+      "hint": "to",
+      "source": "short form of Wiktionary"
+    },
+    "W123": {
+      "hint": "of, from",
+      "source": "short form of Wiktionary"
+    },
+    "W168": {
+      "hint": "to the (a + el)",
+      "source": "short form of Wiktionary"
+    },
+    "W142": {
+      "hint": "how many",
+      "source": "short form of Wiktionary"
+    },
+    "W143": {
+      "hint": "how many (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W028": {
+      "hint": "small (pequeño)",
+      "source": "short form of Wiktionary"
+    },
+    "W108": {
+      "hint": "tired (cansado)",
+      "source": "short form of Wiktionary"
+    },
+    "W110": {
+      "hint": "happy (contento)",
+      "source": "short form of Wiktionary"
+    },
+    "W112": {
+      "hint": "sick (enfermo)",
+      "source": "short form of Wiktionary"
+    },
+    "W095": {
+      "hint": "pretty (bonito)",
+      "source": "short form of Wiktionary"
+    },
+    "W153": {
+      "hint": "yellow (amarillo)",
+      "source": "short form of Wiktionary"
+    },
+    "W084": {
+      "hint": "apples",
+      "source": "short form of Wiktionary"
+    },
+    "W080": {
+      "hint": "books",
+      "source": "short form of Wiktionary"
+    },
+    "W082": {
+      "hint": "cats",
+      "source": "short form of Wiktionary"
+    },
+    "W083": {
+      "hint": "children, boys",
+      "source": "short form of Wiktionary"
+    },
+    "W085": {
+      "hint": "men",
+      "source": "short form of Wiktionary"
+    },
+    "W086": {
+      "hint": "women",
+      "source": "short form of Wiktionary"
+    },
+    "W081": {
+      "hint": "dogs",
+      "source": "short form of Wiktionary"
+    },
+    "W145": {
+      "hint": "red (rojo)",
+      "source": "short form of Wiktionary"
+    },
+    "W149": {
+      "hint": "black (negro)",
+      "source": "short form of Wiktionary"
+    },
+    "W151": {
+      "hint": "white (blanco)",
+      "source": "short form of Wiktionary"
+    },
+    "W088": {
+      "hint": "good (bueno)",
+      "source": "short form of Wiktionary"
+    },
+    "W090": {
+      "hint": "old (viejo)",
+      "source": "short form of Wiktionary"
+    },
+    "W092": {
+      "hint": "new (nuevo)",
+      "source": "short form of Wiktionary"
+    },
+    "W014": {
+      "hint": "girl",
+      "source": "short form of Wiktionary"
+    },
+    "W076": {
+      "hint": "they",
+      "source": "short form of Wiktionary"
+    },
+    "W077": {
+      "hint": "they (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W075": {
+      "hint": "you (plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W005": {
+      "hint": "I",
+      "source": "short form of Wiktionary"
+    },
+    "W174": {
+      "hint": "I am called (llamarse)",
+      "source": "short form of Wiktionary"
+    },
+    "W175": {
+      "hint": "you are called (llamarse)",
+      "source": "short form of Wiktionary"
+    },
+    "W177": {
+      "hint": "girl",
+      "source": "short form of Wiktionary"
+    },
+    "W179": {
+      "hint": "Mrs, madam",
+      "source": "short form of Wiktionary"
+    },
+    "W178": {
+      "hint": "Mr, sir",
+      "source": "short form of Wiktionary"
+    }
+  },
+  "phrases_off": [],
+  "names": [
+    "Tom",
+    "María",
+    "Juan",
+    "Ana",
+    "Pedro",
+    "Carlos",
+    "Luis"
+  ],
+  "_names": "Names a Spanish sentence may use (R21): the ones Tatoeba Spanish uses most."
+}

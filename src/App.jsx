@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, recordings, tables, unitContent } from './lib/content.js'
+import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, skipSplash } from './lib/course.js'
 import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { band, skillScores } from './lib/score.js'
@@ -76,7 +77,8 @@ export default function App() {
   const [session, setSession] = useState(null)
   const [ending, setEnding] = useState(null)
   const [lastLine, setLastLine] = useState(null) // a passed lesson's score, shown on home instead of on its own screen
-  const [splash, setSplash] = useState(true)
+  const [splash, setSplash] = useState(!skipSplash) // a course switch reloads straight to home
+  const [chooser, setChooser] = useState(firstLaunch) // first launch: the opening screen asks for a language
   const seenWords = useRef(new Set())
   const roundSeen = useRef({})
   const carry = useRef([])
@@ -115,7 +117,11 @@ export default function App() {
       if (s.kv.current_unit && tables.units.some((u) => u.unit_id === s.kv.current_unit)) setCurrentUnit(s.kv.current_unit)
       setPointsToday(s.points.find((p) => p.date === today())?.amount ?? 0)
       setPointsTotal(s.points.reduce((n, p) => n + p.amount, 0))
-      if (s.kv.settings) setSettings({ ...DEFAULT_SETTINGS, ...s.kv.settings })
+      // Settings are shared across courses: the shared copy wins, else this course's own.
+      const shared = sharedSettings()
+      if (shared || s.kv.settings) setSettings({ ...DEFAULT_SETTINGS, ...(s.kv.settings ?? {}), ...(shared ?? {}) })
+      // Someone who already has progress here isn't new: no language question, this course stays.
+      if (firstLaunch && (s.progress.length || s.points.length || s.bank.length)) { chooseCourse(course.id); setChooser(false) }
       seenWords.current = new Set(s.kv.seen_words ?? [])
       // Rounds seen, per unit. Older installs kept Unit 1's alone under round_seen.
       roundSeen.current = s.kv.round_seen_by_unit ?? (s.kv.round_seen ? { [FIRST_UNIT]: s.kv.round_seen } : {})
@@ -184,6 +190,7 @@ export default function App() {
     const next = { ...settings, ...patch }
     setSettings(next)
     putKv('settings', next)
+    saveSharedSettings(next) // settings are shared across courses
   }
 
   // The variant test bank changes the shared variant rows in place, so every unit's lessons see it.
@@ -210,7 +217,8 @@ export default function App() {
   const contentFor = (s) => s?.kind === 'generated' ? generatedContent(s) : (['review', 'practice', 'placement', 'words', 'checkpoint'].includes(s?.kind) ? allContent : unitContent(s?.unit_id ?? currentUnit))
 
   // R20: a row opens when every unit in the row it names has finished round 1. A unit also has to be live.
-  const layout = tables.tree_layout
+  // Only units with content are on the tree: a course still being built (Spanish) shows the units it has so far.
+  const layout = tables.tree_layout.filter((t) => String(tables.units.find((u) => u.unit_id === t.unit_id)?.status).startsWith('live'))
   // Topic packs sit at the Your topic node: they open with it, and only the chosen one (or one already started) is on the path.
   const topicNodes = tables.units.filter((u) => u.is_topic_pick === 'node').sort((a, b) => a.order - b.order)
   const isTopicNode = (unitId) => topicNodes.some((n) => n.unit_id === unitId)
@@ -713,30 +721,8 @@ export default function App() {
       onProfile={() => setScreen('profile')} />
   }
   if (screen === 'developer') {
-    // Course Snapshot: exact numbers for this version, worked out from the content it ships.
-    const live = (u) => String(u.status).startsWith('live')
-    const mainUnits = tables.units.filter((u) => live(u) && !['yes', 'node'].includes(u.is_topic_pick))
-    const packUnits = tables.units.filter((u) => live(u) && u.is_topic_pick === 'yes')
-    const bySource = (src) => tables.sentences.filter((x) => x.source === src).length
-    const fr = tables.accepted_answers.filter((a) => a.direction === 'fr_to_en').length
-    const n = (x) => x.toLocaleString('en-US')
-    const snapshot = {
-      built: new Date(__BUILD_TIME__).toLocaleString('en-US', { dateStyle: 'long', timeStyle: 'short' }), workbook: __WORKBOOK__,
-      rows: [
-        ['Units', `${n(mainUnits.length)} A1 units, ${n(packUnits.length)} topic packs`],
-        ['Sentences', `${n(tables.sentences.length)}: ${n(bySource('tatoeba'))} from Tatoeba, ${n(bySource('tamago_original'))} written for Tamago`],
-        ['Native-speaker check list', `${n(bySource('tamago_original'))} sentences`],
-        ['Words', n(tables.words.length)],
-        ['Accepted answers', `${n(fr)} English (French to English), ${n(tables.accepted_answers.length - fr)} French (English to French)`],
-        ['Question-and-answer pairs', n(tables.qa_answers.length)],
-        ['Grammar notes', n(tables.grammar_notes.length)],
-        ['"I can" statements', n(tables.can_do.length)],
-        ['Native recordings', `${n(tables.sentences.filter((x) => recordingOf(x)).length + tables.words.filter((w) => w.lingua_libre).length)}: ${n(tables.words.filter((w) => w.lingua_libre).length)} words, ${n(tables.sentences.filter((x) => recordingOf(x)).length)} sentences`],
-        ['Word pictures', n(tables.words.filter((w) => w.image_file).length)],
-        ['Question types built', `${n(tables.question_types.filter((t) => BUILT_TYPES.has(t.type_id)).length)} of ${n(tables.question_types.length)}`],
-        ['Question variants live', `${n(tables.variants.filter((v) => String(v.status).startsWith('live')).length)} of ${n(tables.variants.length)}`],
-      ],
-    }
+    // Course Snapshot: exact numbers for both courses, worked out from the content each ships (src/lib/snapshot.js).
+    const snapshot = { built: new Date(__BUILD_TIME__).toLocaleString('en-US', { dateStyle: 'long', timeStyle: 'short' }), workbooks: __WORKBOOKS__ }
     return <Developer settings={settings} onChange={changeSettings} snapshot={snapshot} onBack={leaveDeveloper}
       onVariants={() => setScreen('variants')} onFlags={() => setScreen('flags')} onNativeCheck={() => setScreen('native')} onForum={() => setScreen('forum')} />
   }
@@ -826,7 +812,7 @@ export default function App() {
         <p className="text-xl font-semibold">Turn your iPad sideways</p>
         <p className="text-muted">Tamago on iPad works in landscape.</p>
       </div>
-      {splash && <Splash onDone={() => setSplash(false)} />}
+      {splash && <Splash onDone={() => setSplash(false)} choose={chooser} />}
     </>
   )
 }

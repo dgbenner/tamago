@@ -143,7 +143,7 @@ tables.conjugations = Object.entries(conjugations).filter(([, t]) => t).map(([le
 const phrasesOff = new Set(decisions.phrases_off?.ids ?? [])
 tables.feedback_phrases = raw('feedback_phrases').flatMap((f) => {
   if (phrasesOff.has(f.phrase_id)) return []
-  if (f.language === 'fr') return fCheck.get(f.phrase_id)?.status === 'checked' ? [{ ...f, status: 'live', source_id: fCheck.get(f.phrase_id).source_id }] : []
+  if (f.language !== 'en') return fCheck.get(f.phrase_id)?.status === 'checked' ? [{ ...f, status: 'live', source_id: fCheck.get(f.phrase_id).source_id }] : []
   return isLive(f) ? [f] : []
 })
 
@@ -182,6 +182,7 @@ for (const s of tables.sentences.filter((x) => x.lingua_libre)) {
   s.lingua_libre = { ...s.lingua_libre, audio_file: `${audioUrl}/${name}`, speaker }
 }
 // Word recordings (content sweep, part 3), the same way: public/audio/<word_id>.<ext>, levelled.
+mkdirSync(at('.cache/recordings'), { recursive: true })
 for (const w of tables.words.filter((x) => x.lingua_libre)) {
   const ext = w.lingua_libre.file.split('.').pop().toLowerCase()
   const name = `${w.word_id}.m4a`
@@ -202,5 +203,5 @@ if (existsSync(join(ROOT, 'public/content'))) rmSync(join(ROOT, 'public/content'
 const awaiting = raw('sentences').filter((s) => !live.has(s.sentence_id) && !cut.has(s.sentence_id) && !String(s.status).startsWith('off')).map((s) => s.sentence_id)
 const original = tables.sentences.filter((s) => s.source === 'tamago_original').length
 const fr = tables.accepted_answers.filter((a) => a.direction === 'fr_to_en').length
-console.log(`Shipped: ${tables.sentences.length} sentences (${tables.sentences.length - original} Tatoeba, ${original} Tamago originals), ${tables.words.length} words, ${fr} fr_to_en and ${tables.accepted_answers.length - fr} en_to_fr answers, ${tables.qa_answers.length} qa_answers, ${tables.feedback_phrases.length} feedback lines (${tables.feedback_phrases.filter((f) => f.language === 'fr').length} French), ${wanted.size} recordings (${tables.words.filter((w) => w.lingua_libre).length} of them words). U01 status: ${tables.units[0].status}.${awaiting.length ? ` Not live, awaiting a ruling: ${awaiting.join(', ')}.` : ''}`)
+console.log(`Shipped: ${tables.sentences.length} sentences (${tables.sentences.length - original} Tatoeba, ${original} Tamago originals), ${tables.words.length} words, ${fr} fr_to_en and ${tables.accepted_answers.length - fr} en_to_fr answers, ${tables.qa_answers.length} qa_answers, ${tables.feedback_phrases.length} feedback lines (${tables.feedback_phrases.filter((f) => f.language !== 'en').length} ${C.name}), ${wanted.size} recordings (${tables.words.filter((w) => w.lingua_libre).length} of them words). U01 status: ${tables.units[0].status}.${awaiting.length ? ` Not live, awaiting a ruling: ${awaiting.join(', ')}.` : ''}`)
 if (heldBack.length) console.log(`Held back until their native-speaker fix is applied: ${heldBack.join(', ')}.`)

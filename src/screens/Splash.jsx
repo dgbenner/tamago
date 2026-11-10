@@ -1,4 +1,6 @@
-import { useEffect, useLayoutEffect, useRef } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { chooseCourse } from '../lib/course.js'
+import { FlagRow } from './Languages.jsx'
 import { LETTERS, LetterStrokes, SushiMark, VIEW, viewBox } from './Logo.jsx'
 
 // Each letter is revealed by its own mask, which follows the same strokes.
@@ -10,12 +12,17 @@ const easedTime = (progress) => Math.acos(1 - 2 * progress) / Math.PI
 
 // Shows each time the app opens, never inside a lesson. A tap skips it. It clears with one crossfade (about half a
 // second) that reveals the home screen in place, already drawn underneath; nothing on home moves (Dan, 2026-11-10).
-export default function Splash({ onDone }) {
+// On first launch (choose) it also shows "Choose Your Language" under the logo and waits: picking the running course
+// starts the fade at once; picking another reloads into it.
+export default function Splash({ onDone, choose = false }) {
   const svg = useRef(null)
+  const [held, setHeld] = useState(choose)
+  useEffect(() => { if (!choose) setHeld(false) }, [choose])
   useEffect(() => {
+    if (held) return
     const safety = setTimeout(onDone, 4800)
     return () => clearTimeout(safety)
-  }, [])
+  }, [held])
   // Before the first paint: measure every stroke and give it its slice of the letter's eased time.
   useLayoutEffect(() => {
     LETTERS.forEach((strokes, i) => {
@@ -33,9 +40,10 @@ export default function Splash({ onDone }) {
       })
     })
   }, [])
-  const skip = () => onDone()
+  const skip = () => { if (!held) onDone() }
+  const pick = (id) => { if (chooseCourse(id)) setHeld('picked') }
   return (
-    <div className="splash" onClick={skip}
+    <div className={`splash ${held === true ? 'splash-hold' : held === 'picked' ? 'splash-now' : ''}`} onClick={skip}
       onAnimationEnd={(e) => { if (e.animationName === 'splash-out') onDone() }}>
       <div className="flex w-[min(84vw,380px)] flex-col items-center">
         <svg ref={svg} className="w-full" viewBox={viewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -49,6 +57,12 @@ export default function Splash({ onDone }) {
           {LETTERS.map((strokes, i) => <LetterStrokes key={i} d={strokes.join('')} mask={`url(#letter-${i})`} />)}
         </svg>
         <SushiMark className="relative z-10 -mt-[9%] w-[40%]" />
+        {held === true && (
+          <div className="mt-8 flex flex-col items-center gap-4">
+            <h1 className="text-xl font-semibold">Choose Your Language</h1>
+            <FlagRow size="lg" onPick={pick} />
+          </div>
+        )}
       </div>
     </div>
   )

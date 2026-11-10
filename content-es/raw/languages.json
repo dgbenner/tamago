@@ -1,0 +1,30 @@
+[
+  {
+    "lang_id": "fr",
+    "name": "French",
+    "ui_language": "en",
+    "status": "active",
+    "order": 1
+  },
+  {
+    "lang_id": "es",
+    "name": "Spanish",
+    "ui_language": "en",
+    "status": "active",
+    "order": 2
+  },
+  {
+    "lang_id": "de",
+    "name": "German",
+    "ui_language": "en",
+    "status": "planned",
+    "order": 3
+  },
+  {
+    "lang_id": "it",
+    "name": "Italian",
+    "ui_language": "en",
+    "status": "possible",
+    "order": 4
+  }
+]

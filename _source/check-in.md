@@ -1,9 +1,20 @@
 # Tamago check-in
 
-Updated November 10, 2026. **Three topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
+Updated November 10, 2026. **Spanish has begun: language switching and Spanish Unit 1 are live.** **Three topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
 
 ## Done since last check-in
 
+- **Spanish, under way.** English to Latin American Spanish (ustedes, never vosotros), on the same framework as French: rounds, question types, topic nodes, checkpoints, grammar notes, "I can" statements.
+  - **Its own order:** 15 units after the PCIC A1 inventory (as taught in the Complutense A1.1 programme; the Cervantes site was down): Saying Hello (soy, eres; un, una), People and Things (el, la; es), Polite Phrases (usted; estoy bien), Food and Drink (-er verbs; me gusta), Pets and Animals (tener), More Than One (plurals; ustedes), Describing Things (agreement), **Where Things Are** (estar for place, hay), **Ser or Estar**, Mine and Yours, Asking Questions, Counting to Ten, Naming Colours, Days and Times, Going Places. A unit appears on the tree once it's built; each is committed and pushed as it goes live.
+  - **Unit 1 is live:** 51 sentences, 30 from checked Tatoeba and 21 drafted (marked, on the Spanish native-speaker list). Tatoeba's shortest classics (¿Cómo te llamas?, Adiós., Soy una niña.) are mostly owned by people with no native or OK signal, so the first unit needed drafts; later units have far more to draw on. 22 of its 24 words play a Lingua Libre recording, levelled like the French ones. Grammar note and four "I can" statements.
+  - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
+- **Language switching:**
+  - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
+  - After that: a small flag in the header (where points used to sit) opens a Language pop-up, and Settings has a Language row with all the flags. The language you pick opens next time; switching reloads straight to home, without the opening screen.
+  - German shows faintly and says "German: Coming Soon".
+  - Progress is separate per language (French keeps its data; Spanish has its own store). Settings are shared.
+  - Your flags (from the Desktop) are used directly, copied to _source/flags/. The Spanish flag is Spain's, for a Latin American course; say if you'd rather another.
+- **Course Snapshot** on the Developer page shows French and Spanish side by side.
 - **Your pictures are in lessons.** 33 of them now show in Pick the Picture for 36 words (blanche, noire and docteur share theirs), in place of the OpenMoji stand-ins where there was one: homme, femme, garçon, fille, pomme, pain, eau, chat, chien, cheval, tortue, souris, noir, blanc, école, parc, magasin, and new words such as livre, lettre, ami, amie, bureau and médecin. As you chose: the rabbit animaux, the one-tree parc, one turtle, and the glass for eau. On hold until you check them: enfant and enfants. Your side note is recorded on the doctor and garçons pictures (more stylised than the rest). 13 words still use OpenMoji until their pictures arrive (lait, fromage, orange, sandwich, oiseau, canard, the four colours, ville, restaurant, and enfant), so a question can mix the two styles for now. About the Content says most pictures were made for Tamago.
 - **Picture Check** on the Developer page (https://tamago-83f.pages.dev/#developer), second accordion: your 39 pictures, each large with its French, English and status, then the 57 rows still Missing (with what to draw). None is used in lessons yet.
   - The files are copied as you sent them to _source/pictures/incoming-2026-11-10/. None was named like its row (they carry ChatGPT's titles), so all 39 are **Guessed**, from the picture itself. No Match: none.

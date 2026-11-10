@@ -1,5 +1,6 @@
 import Logo from './Logo.jsx'
 import { IconBack } from './icons.jsx'
+import { TL } from '../lib/course.js'
 
 const A = ({ href, children }) => <a href={href} target="_blank" rel="noreferrer" className="inline-block min-h-6 py-0.5 underline underline-offset-2">{children}</a>
 
@@ -46,10 +47,10 @@ export default function About({ content, onBack }) {
         <p>Native recordings come from <A href="https://lingualibre.org">Lingua Libre</A>. Other audio is your device's text-to-speech.</p>
         <ul className="flex flex-col gap-1 text-sm text-muted">
           {recordings.map((s) => (
-            <li key={s.sentence_id}><span lang="fr">{s.french}</span> by {s.lingua_libre.speaker}, {s.lingua_libre.license}. <A href={`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(s.lingua_libre.file)}`}>Source</A></li>
+            <li key={s.sentence_id}><span lang={TL}>{s.french}</span> by {s.lingua_libre.speaker}, {s.lingua_libre.license}. <A href={`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(s.lingua_libre.file)}`}>Source</A></li>
           ))}
           {wordRecordings.map((w) => (
-            <li key={w.word_id}><span lang="fr">{w.form}</span> by {w.lingua_libre.speaker}, {w.lingua_libre.license}. <A href={`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(w.lingua_libre.file)}`}>Source</A></li>
+            <li key={w.word_id}><span lang={TL}>{w.form}</span> by {w.lingua_libre.speaker}, {w.lingua_libre.license}. <A href={`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(w.lingua_libre.file)}`}>Source</A></li>
           ))}
         </ul>
         {nativeRecorded.length > 0 && (

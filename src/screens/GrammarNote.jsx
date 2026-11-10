@@ -1,6 +1,7 @@
 import { recordingOf } from '../lib/lesson.js'
 import { play } from '../lib/audio.js'
 import { IconBack, IconSpeaker } from './icons.jsx'
+import { TL } from '../lib/course.js'
 
 // A unit's grammar note: the rule in plain words, examples from the unit with audio, and the verb table from
 // Wiktionary. Shown once before the unit's first lesson, with a short intro saying what this screen is and what the
@@ -19,7 +20,7 @@ export default function GrammarNote({ unit, note, sentenceById, onDone, doneLabe
       {intro && (
         <div className="flex flex-col gap-2 rounded-xl border-2 border-line bg-surface p-4">
           <p>A short note on the idea this unit is built on. Read it, tap an example to hear it, then start your first lesson.</p>
-          {wordCount > 0 && <p className="text-sm text-muted">New in this unit: {wordCount} words, among them <span lang="fr">{sampleWords.join(', ')}</span>.</p>}
+          {wordCount > 0 && <p className="text-sm text-muted">New in this unit: {wordCount} words, among them <span lang={TL}>{sampleWords.join(', ')}</span>.</p>}
         </div>
       )}
 
@@ -30,7 +31,7 @@ export default function GrammarNote({ unit, note, sentenceById, onDone, doneLabe
           <li key={s.sentence_id} className="flex items-start gap-3 rounded-xl border-2 border-line bg-surface p-3">
             <button onClick={() => play({ french: s.french, file: recordingOf(s) })} aria-label={`Play: ${s.french}`} className="icon-btn -m-1 shrink-0 [&_svg]:size-5"><IconSpeaker /></button>
             <div>
-              <p lang="fr" className="text-lg">{s.french}</p>
+              <p lang={TL} className="text-lg">{s.french}</p>
               <p className="text-muted">{s.english}</p>
             </div>
           </li>
@@ -39,13 +40,13 @@ export default function GrammarNote({ unit, note, sentenceById, onDone, doneLabe
 
       {note.conjugations.filter((t) => t.present).map((t) => (
         <section key={t.lemma} className="flex flex-col gap-2">
-          <h2 className="font-semibold"><span lang="fr">{t.lemma}</span>, present</h2>
+          <h2 className="font-semibold"><span lang={TL}>{t.lemma}</span>, present</h2>
           <table className="w-full border-collapse text-left">
             <tbody>
               {t.present.map((row) => (
                 <tr key={row.person} className="border-b-2 border-line">
-                  <td lang="fr" className="py-1.5 pr-4 text-muted">{row.person}</td>
-                  <td lang="fr" className="py-1.5 font-semibold">{row.form}</td>
+                  <td lang={TL} className="py-1.5 pr-4 text-muted">{row.person}</td>
+                  <td lang={TL} className="py-1.5 font-semibold">{row.form}</td>
                 </tr>
               ))}
             </tbody>

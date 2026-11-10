@@ -4,6 +4,8 @@ import { IconBack, IconSpeaker } from './icons.jsx'
 import { useEffect, useState } from 'react'
 import { explainReady } from '../lib/explain.js'
 import NeedsSetup from './NeedsSetup.jsx'
+import { TL, course } from '../lib/course.js'
+import { FlagRow } from './Languages.jsx'
 
 function Segmented({ label, help, value, options, onChange }) {
   return (
@@ -57,12 +59,16 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
         <Logo />
       </header>
       <h1 className="text-xl font-semibold">Settings</h1>
+      {/* Language: every course flag. Each course keeps its own progress; picking another opens it. */}
+      <Item title="Language" help="Each language keeps its own progress. The one you pick opens next time.">
+        <FlagRow />
+      </Item>
       <div className="settings-grid">
       <Section title="Lessons">
         <Segmented label="Answer Checking" help="Lenient accepts a one-letter typo and a missing accent." value={settings.answer_strictness}
           options={[['lenient', 'Lenient'], ['strict', 'Strict']]} onChange={(v) => onChange({ answer_strictness: v })} />
         <Segmented label="Typed Answers" value={settings.typed_input} options={[['chips', 'Word Chips'], ['keyboard', 'Keyboard']]} onChange={(v) => onChange({ typed_input: v })} />
-        <Segmented label="Listen First" help="Audio plays with the French hidden until you answer." value={settings.listen_first}
+        <Segmented label="Listen First" help={`Audio plays with the ${course.name} hidden until you answer.`} value={settings.listen_first}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ listen_first: v })} />
         <Segmented label="Can't Listen Now" help="Audio questions swap for reading and writing. Also on every listening question, at the bottom." value={pauseValue(settings.cant_listen_until)}
           options={PAUSE_OPTIONS} onChange={(v) => onChange({ cant_listen_until: pauseUntil(v) })} />
@@ -90,7 +96,7 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
       </Section>
 
       <Section title="Your Learning">
-        <Item title="Placement Check" help="Know some French already? Three questions per unit; units you pass open the next ones. Nothing is taken away.">
+        <Item title="Placement Check" help={`Know some ${course.name} already? Three questions per unit; units you pass open the next ones. Nothing is taken away.`}>
           <button onClick={onPlacement} className="btn-secondary">Start the Placement Check</button>
         </Item>
         <Item title="Profile and Backup" help="Your name, and a backup file of your progress you can restore on another device.">

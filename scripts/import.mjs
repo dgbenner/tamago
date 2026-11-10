@@ -74,7 +74,7 @@ if (existsSync(CEFR)) {
 const DRAFTS = at('content/drafts.json')
 if (existsSync(DRAFTS)) {
   const drafts = JSON.parse(readFileSync(DRAFTS, 'utf8'))
-  const names = new Set(tables.sentence_words.filter((r) => r.notes === 'name').map((r) => String(r.surface).toLowerCase()))
+  const names = new Set([...tables.sentence_words.filter((r) => r.notes === 'name').map((r) => String(r.surface)), ...(decisions.names ?? [])].map((x) => x.toLowerCase()))
   const unitOrder = new Map(tables.units.map((u) => [u.unit_id, u.order]))
   const inBook = new Set(tables.sentences.map((s) => s.sentence_id))
   for (const d of drafts.sentences) {
@@ -217,8 +217,8 @@ for (const [i, c] of (tables.cant_swaps ?? []).entries()) {
 // feedback_phrases: known contexts and languages; French lines carry their English.
 for (const [i, f] of (tables.feedback_phrases ?? []).entries()) {
   if (!['correct', 'incorrect', 'typo', 'accent'].includes(f.context)) fail(`feedback_phrases row ${i + 2}: unknown context "${f.context}"`)
-  if (!['en', 'fr'].includes(f.language)) fail(`feedback_phrases row ${i + 2}: unknown language "${f.language}"`)
-  if (f.language === 'fr' && !f.english) fail(`feedback_phrases row ${i + 2}: French line without its English`)
+  if (!['en', COURSE].includes(f.language)) fail(`feedback_phrases row ${i + 2}: unknown language "${f.language}"`)
+  if (f.language !== 'en' && !f.english) fail(`feedback_phrases row ${i + 2}: course-language line without its English`)
 }
 // variants: use_in_rounds reads empty, "3", "1-2" or "<setting> only".
 for (const [i, v] of tables.variants.entries()) {

@@ -2,11 +2,19 @@
 const elements = new Map()
 let utterance = null // held so the browser doesn't drop it mid-sentence
 
-// iOS Safari fills the voice list late and may never fire voiceschanged, so ask every time.
+import { course } from './course.js'
+
+// iOS Safari fills the voice list late and may never fire voiceschanged, so ask every time. The course's voice:
+// for Spanish a Latin American one (es-MX, es-US, es-419) before any other Spanish voice.
 function frenchVoice() {
   const voices = window.speechSynthesis?.getVoices() ?? []
-  return voices.find((v) => v.lang?.replace('_', '-') === 'fr-FR' && v.localService)
-    ?? voices.find((v) => v.lang?.toLowerCase().startsWith('fr')) ?? null
+  const tag = (v) => v.lang?.replace('_', '-')
+  for (const want of course.voice) {
+    const local = voices.find((v) => (want.includes('-') ? tag(v) === want : tag(v)?.toLowerCase().startsWith(want)) && v.localService)
+    const any = voices.find((v) => (want.includes('-') ? tag(v) === want : tag(v)?.toLowerCase().startsWith(want)))
+    if (local ?? any) return local ?? any
+  }
+  return null
 }
 
 // False only when the device lists its voices and none is French. An empty list just means "not loaded yet".
@@ -49,7 +57,7 @@ function speak(audio, slow) {
   utterance = new SpeechSynthesisUtterance(audio.french)
   const voice = frenchVoice()
   if (voice) utterance.voice = voice
-  utterance.lang = voice?.lang ?? 'fr-FR'
+  utterance.lang = voice?.lang ?? course.voice[0]
   utterance.rate = slow ? 0.55 : 0.9
   speechSynthesis.speak(utterance)
 }
@@ -62,7 +70,7 @@ export function speakAll(lines, { slow = false, onEnd } = {}) {
   lines.forEach((text, i) => {
     const u = new SpeechSynthesisUtterance(text)
     if (voice) u.voice = voice
-    u.lang = voice?.lang ?? 'fr-FR'
+    u.lang = voice?.lang ?? course.voice[0]
     u.rate = slow ? 0.55 : 0.9
     if (i === lines.length - 1 && onEnd) u.onend = onEnd
     speechSynthesis.speak(u)

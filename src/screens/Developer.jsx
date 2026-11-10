@@ -1,5 +1,7 @@
 import { useState } from 'react'
+import { snapshotRows } from '../lib/snapshot.js'
 import { IconBack } from './icons.jsx'
+import { TL } from '../lib/course.js'
 
 // The Developer area (Dan, 2026-11-10): everything for building and testing Tamago, out of Settings and away from the
 // learning tools. Testing controls first, then one large accordion per document: Course Snapshot (built from the
@@ -30,6 +32,34 @@ function Accordion({ title, onOpen, children }) {
   )
 }
 
+// Course Snapshot: both courses side by side, French and Spanish, from each one's shipped tables. The course not
+// running is loaded only when the accordion opens.
+function CourseSnapshot({ snapshot }) {
+  const [rows, setRows] = useState(null)
+  const load = () => {
+    if (rows) return
+    Promise.all([import('../lib/tables-fr.js'), import('../lib/tables-es.js')]).then(([fr, es]) => {
+      const a = snapshotRows(fr.tables, 'French'); const b = snapshotRows(es.tables, 'Spanish')
+      setRows(a.map(([label, v], i) => [label, v, b[i][1]]))
+    })
+  }
+  return (
+    <Accordion title="Course Snapshot" onOpen={load}>
+      <p className="mb-3 text-sm text-muted">This version, built {snapshot.built}. Workbooks: French {snapshot.workbooks.fr}, Spanish {snapshot.workbooks.es}.</p>
+      {!rows ? <p>Loading…</p> : (
+        <div className="doc"><div className="doc-table" tabIndex={0} role="region" aria-label="Course Snapshot">
+          <table>
+            <thead><tr><th scope="col"></th><th scope="col">French</th><th scope="col">Spanish</th></tr></thead>
+            <tbody>
+              {rows.map(([label, fr, es]) => <tr key={label}><th scope="row">{label}</th><td>{fr}</td><td>{es}</td></tr>)}
+            </tbody>
+          </table>
+        </div></div>
+      )}
+    </Accordion>
+  )
+}
+
 // Picture Check (Dan, 2026-11-10): Dan's pictures against the rows of _source/image-list.md, before any go into a
 // lesson (scripts/picture-check.mjs). Loaded the first time the accordion opens; the images load as they scroll in.
 function PictureCheck() {
@@ -50,7 +80,7 @@ function PictureCheck() {
                   ? <img src={c.image} alt={c.english ? `Picture for ${c.french}, ${c.english}` : 'Picture with no matching row'} loading="lazy" className="aspect-square w-full rounded-lg bg-white object-contain" />
                   : <div className="flex aspect-square w-full items-center justify-center rounded-lg border-2 border-dashed border-field p-4 text-center text-sm text-muted">To draw: {c.draw}</div>}
                 <p className="flex items-baseline justify-between gap-2">
-                  <span><span lang="fr" className="text-lg font-semibold">{c.french || '—'}</span>{c.also?.length ? <span className="text-sm text-muted"> (also {c.also.join(', ')})</span> : null}</span>
+                  <span><span lang={TL} className="text-lg font-semibold">{c.french || '—'}</span>{c.also?.length ? <span className="text-sm text-muted"> (also {c.also.join(', ')})</span> : null}</span>
                   <span className="rounded-full border-2 border-line px-2 text-sm text-muted">{c.status}</span>
                 </p>
                 <p className="-mt-1 text-muted">{c.english}</p>
@@ -111,16 +141,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
       </section>
 
       <div className="flex flex-col gap-3">
-        <Accordion title="Course Snapshot">
-          <p className="mb-3 text-sm text-muted">This version, built {snapshot.built} from workbook {snapshot.workbook}.</p>
-          <div className="doc"><div className="doc-table" tabIndex={0} role="region" aria-label="Course Snapshot">
-            <table>
-              <tbody>
-                {snapshot.rows.map(([label, value]) => <tr key={label}><th scope="row">{label}</th><td>{value}</td></tr>)}
-              </tbody>
-            </table>
-          </div></div>
-        </Accordion>
+        <CourseSnapshot snapshot={snapshot} />
         <PictureCheck />
         {TITLES.map(([id]) => <Doc key={id} doc={docFor(id)} lib={lib} loadLib={loadLib} />)}
       </div>

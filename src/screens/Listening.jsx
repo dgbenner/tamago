@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { speakAll, stop } from '../lib/audio.js'
 import { IconBack, IconSpeaker } from './icons.jsx'
+import { TL, course } from '../lib/course.js'
 
 // QT20 listening comprehension (Phase 5): a short exchange, heard first, then questions in English. The French text
 // opens on request or once every question is answered. Not graded into scores; it's practice the learner asked for.
@@ -35,13 +36,13 @@ export default function Listening({ passage, onDone, onBack }) {
           <ol className="flex flex-col gap-2">
             {passage.lines.map((l, i) => (
               <li key={i} className="rounded-xl border-2 border-line bg-surface p-3">
-                <p lang="fr"><span className="text-muted">{l.speaker}: </span>{l.french}</p>
+                <p lang={TL}><span className="text-muted">{l.speaker}: </span>{l.french}</p>
                 <p className="text-sm text-muted">{l.english}</p>
               </li>
             ))}
           </ol>
         )
-        : <button onClick={() => setShowText(true)} className="btn-secondary">Show the French</button>}
+        : <button onClick={() => setShowText(true)} className="btn-secondary">Show the {course.name}</button>}
       {done && <p className="text-lg">{right} of {passage.questions.length}.</p>}
       {done && <button onClick={onDone} className="btn-primary">Continue</button>}
       <p className="text-xs text-muted">Written by Claude from your words; not checked by a native speaker.</p>

@@ -258,7 +258,7 @@ generatedAnswers.sort((x, y) => x.sentence_id.localeCompare(y.sentence_id) || x.
 
 // ---------- French feedback lines (feedback_phrases) ----------
 // A French line ships when Tatoeba has it, from a trusted owner, linked to its English.
-const phraseChecks = (raw('feedback_phrases') ?? []).filter((f) => f.language === 'fr').map((f) => {
+const phraseChecks = (raw('feedback_phrases') ?? []).filter((f) => f.language !== 'en').map((f) => {
   const found = (byLoose.get(loose(f.text)) ?? []).filter(trusted)
   const linked = found.find((c) => tatoeba.englishFor(c.id).some((e) => looseEn(e) === looseEn(f.english)))
   const linkedEnglish = [...new Set(found.flatMap((c) => tatoeba.englishFor(c.id)))]

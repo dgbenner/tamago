@@ -4,7 +4,7 @@ const CONTRACTIONS = [[/\bi'm\b/g, 'i am'], [/\byou're\b/g, 'you are'], [/\bhe's
 // Lower case, straight apostrophes, no punctuation (so a space before ? or ! never matters), single spaces.
 export function normalize(text, lang) {
   let t = String(text).toLowerCase().replace(/[’ʼ]/g, "'").replace(/[  ]/g, ' ')
-    .replace(/[.,!?;:…"«»()]/g, ' ').replace(/'\s+/g, "'").replace(/\s+/g, ' ').trim()
+    .replace(/[.,!?¿¡;:…"«»()]/g, ' ').replace(/'\s+/g, "'").replace(/\s+/g, ' ').trim()
   if (lang === 'en') for (const [re, to] of CONTRACTIONS) t = t.replace(re, to)
   return t
 }
