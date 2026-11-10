@@ -122,6 +122,16 @@ const ES = {
   table: ['mesa'], lit: ['cama'], porte: ['puerta'], cuisine: ['cocina'], journal: ['periódico'], animaux: [],
   famille: ['familia'], bébé: ['bebé'], hommes: ['hombres'], sucre: ['azúcar'], thé: ['té'], chocolat: ['chocolate'], chanteur: ['cantante'],
 }
+// The German words for each French row (2026-11-10), the same way: German words reuse the row's picture.
+const DE = {
+  homme: ['Mann'], femme: ['Frau'], garçon: ['Junge'], fille: ['Mädchen'], enfant: ['Kind'], enfants: ['Kinder'], pain: ['Brot'], eau: ['Wasser'], lait: ['Milch'], fromage: ['Käse'],
+  pomme: ['Apfel'], pommes: ['Äpfel'], chien: ['Hund'], chiens: ['Hunde'], chat: ['Katze'], chats: ['Katzen'], cheval: ['Pferd'], oiseau: ['Vogel'], canard: ['Ente'], souris: ['Maus'],
+  rouge: ['rot'], bleu: ['blau'], vert: ['grün'], noir: ['schwarz'], blanc: ['weiß'], jaune: ['gelb'], ville: ['Stadt'], école: ['Schule'], parc: ['Park'], restaurant: ['Restaurant'],
+  livre: ['Buch'], livres: ['Bücher'], lettre: ['Brief'], ami: ['Freund'], amie: ['Freundin'], médecin: ['Arzt'], malade: ['krank'], femmes: ['Frauen'], hommes: ['Männer'],
+  café: ['Kaffee'], maison: ['Haus'], journal: ['Zeitung'], famille: ['Familie'], sucre: ['Zucker'], thé: ['Tee'], chocolat: ['Schokolade'], chanteur: ['Sänger'], hôpital: ['Krankenhaus'],
+  fièvre: ['Fieber'], viande: ['Fleisch'], poisson: ['Fisch'], riz: ['Reis'], banane: ['Banane'], œufs: ['Eier'], plage: ['Strand'], mer: ['Meer'], bateau: ['Boot'], neige: ['Schnee'],
+  soleil: ['Sonne'], froid: ['kalt'], chaud: ['heiß'], cuisine: [], musique: ['Musik'], piano: ['Klavier'], guitare: ['Gitarre'], tasse: ['Tasse'], bureau: ['Büro'],
+}
 // Food and culture items that belong to one language; everything else is Shared.
 const LANGUAGE = { croissant: 'French' }
 // Spanish words with no French row: pictured only in the Spanish course.
@@ -198,4 +208,14 @@ for (const r of rows) for (const f of r.es) {
   if (esw && file) pictures[esw.word_id] = file
 }
 writeFileSync(R + 'content-es/pictures.json', JSON.stringify({ _about: 'Spanish words that use a shared picture (scripts/image-list.mjs): Dan\'s where it is made, else the OpenMoji stand-in of the French word on the same row.', words: pictures }, null, 2) + '\n')
+// German words that use a shared picture, the same way (content-de/pictures.json).
+const dePictures = {}
+const deWords = JSON.parse(readFileSync(R + 'content-de/raw/words.json', 'utf8'))
+for (const r of rows) for (const f of DE[r.form] ?? []) {
+  const dew = deWords.find((x) => x.form === f && !String(x.status).startsWith('off'))
+  const file = r.form ? frByForm.get(r.form)?.image_file : null
+  if (dew && file) dePictures[dew.word_id] = file
+}
+writeFileSync(R + 'content-de/pictures.json', JSON.stringify({ _about: 'German words that use a shared picture (scripts/image-list.mjs): Dan\'s where it is made, else the OpenMoji stand-in of the French word on the same row.', words: dePictures }, null, 2) + '\n')
+console.log(`German words with a picture: ${Object.keys(dePictures).length}`)
 console.log(`${rows.length} rows (${todo.length} to make), ${new Set(rows.map((r) => r.file)).size} files; Spanish words with a picture: ${Object.keys(pictures).length}`)
