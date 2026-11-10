@@ -318,3 +318,20 @@ test('every live main unit builds lessons in all five rounds, from a learner who
     }
   }
 })
+
+test('final A1 check: four parts in exam order, the course\'s own A1 sentences, each once, speaking ungraded', async () => {
+  const { finalItems, finalScores, PARTS } = await import('../src/lib/finalcheck.js')
+  const all = indexContent(tables)
+  const mains = tables.units.filter((u) => String(u.status).startsWith('live') && !['yes', 'node'].includes(u.is_topic_pick)).map((u) => u.unit_id)
+  const items = finalItems(all, mains, seeded(7))
+  assert.deepEqual([...new Set(items.map((i) => i.part))], ['listening', 'reading', 'writing', 'speaking'])
+  assert.equal(items.length, PARTS.flatMap((p) => p.items).reduce((n, [, , c]) => n + c, 0))
+  assert.equal(new Set(items.map((i) => i.sentence_id)).size, items.length)
+  assert.ok(items.every((i) => mains.includes(i.unit_id)))
+  const s = buildSession(all, 'final', items, { rng: seeded(7) })
+  assert.ok(s.queue.filter((q) => q.part === 'speaking').every((q) => q.speaking))
+  assert.equal(s.graded, items.filter((i) => i.part !== 'speaking').length)
+  const scores = finalScores([{ part: 'reading', correct: true }, { part: 'reading', correct: false }, { part: 'speaking', speaking: true }])
+  assert.deepEqual(scores.reading, { right: 1, total: 2 })
+  assert.deepEqual(scores.speaking, { done: 1 })
+})

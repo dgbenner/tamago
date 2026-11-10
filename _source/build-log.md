@@ -589,3 +589,7 @@ Part 3, Lingua Libre recordings:
 ## 2026-11-10: Content numbers report
 
 - src/lib/snapshot.js contentNumbers: three-way sentence split (Fable = Tatoeba rows whose notes name Fable's review), words with Lingua Libre, units/packs, lessons from units.lesson_counts, distinct questions (each unit's sentences per sentence type in each round's mix, QT09 for questions with answers, QT01 per word, QT02 per pictured word), hours = lessons x minutes per round (median of the device's lessons log per round with 3 or more, else 3/4/5/7/7 from the craft review). lessonLogFor reads the other course's log only if the browser lists its database, so it never creates one. scripts/content-report.mjs prints the same numbers.
+
+## 2026-11-10: A1 Final Check
+
+- finalcheck.js (exams, parts, items, scores); buildSession carries part; App startFinal, per-part results, kv final_check, kind final kept out of the bank; Home FinalNode at the end of the tree and FinalCard (exam, parts, last result, start, sample-paper link); Progress section per skill; Lesson shows the part. Unit test added. Checked in Chrome for French and Spanish: parts in order, scores per part, Progress per skill, axe clean.

@@ -1,6 +1,7 @@
 import { explain } from '../lib/explain.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { checkTyped, diffMarks, nearMiss } from '../lib/check.js'
+import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
 import { play, stop } from '../lib/audio.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconSpeaker } from './icons.jsx'
@@ -162,6 +163,8 @@ export default function Lesson({ session, content, settings, seenWords, cantList
       </header>
 
       <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : showCantNow ? 'pb-1' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
+        {/* The final A1 check names the part a question belongs to (listening, reading, writing, speaking). */}
+        {q.part && <p className="-mb-3 text-sm font-medium text-muted">{PART_LABEL[q.part]}</p>}
         <div className="flex items-center gap-2">
           <h1 ref={headingRef} tabIndex={-1} className="text-xl font-semibold outline-none">{headingFor(q, { hideFrench, result, typing })}</h1>
           {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="tag"><span className="new-dot" aria-hidden="true" />New</span>}

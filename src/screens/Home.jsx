@@ -127,6 +127,42 @@ function CheckpointCard({ cp, onStart, onSkip, onClose }) {
   )
 }
 
+// The final A1 check (finalcheck.js): after the whole tree, its sheet names the exam it's modeled on, the four
+// parts, the last result per skill, and links to the official free sample papers.
+function FinalNode({ fc, onPick }) {
+  return (
+    <button onClick={onPick} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-4 py-1.5 font-semibold ${fc.available || fc.last ? 'text-ink' : 'text-muted'}`}>
+      <span className="[&_svg]:size-4"><IconCheckered /></span>
+      A1 Final Check
+      {fc.last && <span className="text-right-ink">✓</span>}
+    </button>
+  )
+}
+function FinalCard({ fc, onStart, onClose }) {
+  const s = fc.last?.scores
+  return (
+    <Sheet onClose={onClose}>
+      <SheetHead kicker={`Modeled on the ${fc.exam.name}`} title="A1 Final Check" onClose={onClose} />
+      <p className="mt-2">Four parts, in the order of the {fc.exam.name}: listening, reading, writing, then speaking. Every question uses this course's own sentences, from all of its units.</p>
+      <p className="mt-2 text-sm text-muted">Listening, reading and writing are scored. Speaking is practice and never graded. It never locks anything; take it as often as you like.</p>
+      {s && (
+        <div className="mt-4">
+          <p className="text-sm text-muted">Last time, {fc.last.date}:</p>
+          <ul className="mt-1 flex flex-col gap-0.5">
+            {['listening', 'reading', 'writing'].map((k) => <li key={k}><span className="font-medium capitalize">{k}</span> {s[k]?.right ?? 0} of {s[k]?.total ?? 0}</li>)}
+            <li><span className="font-medium">Speaking</span> practised, not graded</li>
+          </ul>
+        </div>
+      )}
+      {fc.available
+        ? <button onClick={onStart} className="btn-submit mt-5 w-full">{fc.last ? 'Take It Again' : 'Start the Final Check'}</button>
+        : <p className="mt-4 text-sm">It opens when you've finished the first lessons of every unit.</p>}
+      <a href={fc.exam.samples} target="_blank" rel="noopener noreferrer" className="btn-secondary mt-3 flex w-full items-center justify-center">Official {fc.exam.name} Sample Papers</a>
+      <p className="mt-1 text-center text-xs text-muted">Free, from the {fc.exam.body}. Opens their site.</p>
+    </Sheet>
+  )
+}
+
 export function CheckpointNode({ cp, onPick }) {
   return (
     <button onClick={() => onPick(cp)} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-3 py-1 text-sm ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
@@ -200,11 +236,12 @@ function Points({ total, today }) {
 }
 
 export default function Home({ wide, panel, rows, markers, levelLabel, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
-  practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
+  finalCheck, onFinal, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
   const [languages, setLanguages] = useState(false)
+  const [finalOpen, setFinalOpen] = useState(false)
   return (
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
@@ -249,6 +286,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
           ]
         })}
+        {finalCheck && <li><FinalNode fc={finalCheck} onPick={() => setFinalOpen(true)} /></li>}
         {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <Marker key={m.label} label={m.label} />)}
       </ol>
 
@@ -288,6 +326,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
           onStart={() => { setCpPicked(null); onCheckpoint(cpPicked.afterRow) }}
           onSkip={() => { setCpPicked(null); onSkipCheckpoint(cpPicked.afterRow) }} />
       )}
+      {finalOpen && <FinalCard fc={finalCheck} onClose={() => setFinalOpen(false)} onStart={() => { setFinalOpen(false); onFinal() }} />}
       {languages && (
         <Sheet onClose={() => setLanguages(false)}>
           <SheetHead title="Language" onClose={() => setLanguages(false)} />

@@ -25,6 +25,7 @@ import Make from './screens/Make.jsx'
 import Listening from './screens/Listening.jsx'
 import Developer from './screens/Developer.jsx'
 import { firstCircleMarker } from './screens/CircleNode.jsx'
+import { EXAMS, finalItems, finalLine, finalScores } from './lib/finalcheck.js'
 import { listeningFrom, requestGenerated, sentencesFrom } from './lib/generate.js'
 import { tokenize } from '../scripts/lib/french.mjs'
 
@@ -99,6 +100,8 @@ export default function App() {
   const [checkpointsSkipped, setCheckpointsSkipped] = useState({})
   // Pass 3: words got wrong, for the Glossary's Missed (word_id to the date); a later right answer clears them.
   const [wordMisses, setWordMisses] = useState({})
+  // The final A1 check's last result (kv final_check: date and per-part scores).
+  const [finalCheck, setFinalCheck] = useState(null)
   const [variantStatus, setVariantStatus] = useState({})
   const [flash, setFlash] = useState(null)
   // Phase 3: the topic chosen at each Your Topic node (node unit id to a pack unit id). Since 2026-11-10 there are two
@@ -142,6 +145,7 @@ export default function App() {
       setCheckpoints(s.kv.checkpoints ?? {})
       setCheckpointsSkipped(s.kv.checkpoints_skipped ?? {})
       setWordMisses(s.kv.word_misses ?? {})
+      setFinalCheck(s.kv.final_check ?? null)
       applyVariants(s.kv.variant_status ?? {})
       // The first node's choice keeps its old key (topic_choice); later nodes use topic_choice_<node>.
       // A choice counts only while the pack is still at that node (Weather moved to the second node on 2026-11-10).
@@ -220,7 +224,7 @@ export default function App() {
     if (!generated.current.has(s.id)) generated.current.set(s.id, indexContent({ ...tables, sentences: [...tables.sentences, ...s.generated.sentences], sentence_words: [...tables.sentence_words, ...s.generated.sentence_words] }))
     return generated.current.get(s.id)
   }
-  const contentFor = (s) => s?.kind === 'generated' ? generatedContent(s) : (['review', 'practice', 'placement', 'words', 'checkpoint'].includes(s?.kind) ? allContent : unitContent(s?.unit_id ?? currentUnit))
+  const contentFor = (s) => s?.kind === 'generated' ? generatedContent(s) : (['review', 'practice', 'placement', 'words', 'checkpoint', 'final'].includes(s?.kind) ? allContent : unitContent(s?.unit_id ?? currentUnit))
 
   // R20: a row opens when every unit in the row it names has finished round 1. A unit also has to be live.
   // Only units with content are on the tree: a course still being built (Spanish) shows the units it has so far.
@@ -396,6 +400,10 @@ export default function App() {
   const lastMainRow = Math.max(0, ...layout.filter((t) => !isTopicNode(t.unit_id)).map((t) => t.row))
   const checkpointRows = [...new Set([2, 3, 6, 8, lastMainRow])].filter((r) => layout.some((t) => t.row === r && !isTopicNode(t.unit_id)))
   const unitsUpTo = (row) => layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id)).map((t) => t.unit_id)
+  // The final A1 check: four parts over every A1 unit's sentences, modeled on the course's A1 exam (finalcheck.js).
+  const mainUnitIds = layout.filter((t) => !isTopicNode(t.unit_id)).map((t) => t.unit_id)
+  const startFinal = () => begin(buildSession(allContent, 'final', finalItems(allContent, mainUnitIds), { settings: lessonModes() }))
+  const finalInfo = { exam: EXAMS[course.id], available: mainUnitIds.length > 0 && mainUnitIds.every((u) => progressOf(u).round_reached >= 1), last: finalCheck }
   const startCheckpoint = (row) => {
     const ids = unitsUpTo(row).flatMap(itemsOf)
     const weakestFirst = weakest(ids, cards, 10)
@@ -465,6 +473,8 @@ export default function App() {
     if (first && !q.speaking && !result.testSkip && session.kind !== 'placement') noteWordMisses(q, result)
     let next = session
     if (session.kind === 'placement' && first) next = { ...next, placement: [...(next.placement ?? []), { unit_id: q.unit_id, correct: result.correct }] }
+    // The final check scores each part from first attempts (speaking counted as done, never graded).
+    if (first && q.part) next = { ...next, results: [...(next.results ?? []), { part: q.part, correct: Boolean(result.correct), speaking: Boolean(q.speaking) }] }
     // Speaking is never graded: it earns a point when done (R14) and stays out of the score and the pass.
     if (q.speaking) {
       addPoint()
@@ -483,7 +493,7 @@ export default function App() {
         ? reaskFor(contentFor(session), q, { cantListen: lessonModes().cantListen, missedWord: result.missedWord, known: seenWords.current }) : null
       if (reask) next = { ...next, queue: [...next.queue, reask] }
       // Round 1 misses stay out of the bank, and so do misses in a placement or an "I can" check (they test, they don't teach).
-      if (q.round >= 2 && !['placement', 'check', 'generated'].includes(session.kind)) addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
+      if (q.round >= 2 && !['placement', 'check', 'generated', 'final'].includes(session.kind)) addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
     }
     if (session.kind === 'review' && result.correct) {
       setBank((b) => b.flatMap((e) => {
@@ -575,6 +585,13 @@ export default function App() {
       const passed = s.firstCorrect >= mark
       if (passed) setCheckpoints((m) => { const n = { ...m, [s.row]: today() }; putKv('checkpoints', n); return n })
       setEnding({ line: `${s.firstCorrect} of ${s.graded}.${passed ? '' : ` Pass is ${mark}; try it again any time.`}` })
+      return
+    }
+    if (s.kind === 'final') {
+      const scores = finalScores(s.results)
+      const record = { date: today(), scores }
+      setFinalCheck(record); putKv('final_check', record)
+      setEnding({ line: finalLine(scores), back: 'home' })
       return
     }
     if (s.kind === 'check') {
@@ -710,7 +727,7 @@ export default function App() {
     return <Verbs tables={tables.conjugations.filter((t) => lemmas.has(t.lemma))} strict={settings.answer_strictness === 'strict'} onBack={() => setScreen('home')} />
   },
     progress: () => {
-    return <Progress scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
+    return <Progress finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
       onCheck={startCheck} onBack={() => setScreen('home')} />
   },
     make: () => {
@@ -822,7 +839,7 @@ export default function App() {
       ]}
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
-      onCheckpoint={startCheckpoint}
+      onCheckpoint={startCheckpoint} finalCheck={finalInfo} onFinal={startFinal}
       onSkipCheckpoint={(row) => setCheckpointsSkipped((m) => { const n = { ...m, [row]: today() }; putKv('checkpoints_skipped', n); return n })}
       practice={{ mistakes: bank.length, ready: bank.length > 0 || practiceIds().length > 0 }} onPractice={startPracticeMix}
       nextLabel={`Next Lesson: ${curUnit?.title ?? ''}`}

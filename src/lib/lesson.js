@@ -538,7 +538,7 @@ export function buildSession(c, kind, items, { settings = {}, rng = Math.random,
     let type = it.type
     if (settings.cantListen && AUDIO_TYPES.has(type)) type = 'QT03'
     if (!supports(c, type, s, it.round)) type = 'QT03'
-    return [{ ...makeQuestion(c, type, s, it.round, rng, null, { cantListen: settings.cantListen }), unit_id: it.unit_id }]
+    return [{ ...makeQuestion(c, type, s, it.round, rng, null, { cantListen: settings.cantListen }), unit_id: it.unit_id, ...(it.part ? { part: it.part } : {}) }]
   })
   return {
     id: `${kind[0].toUpperCase()}${Math.floor(rng() * 1e12)}`, kind, started_at: Date.now(), ...extra,

@@ -4,7 +4,7 @@ const NAMES = { reading: 'Reading', listening: 'Listening', writing: 'Writing', 
 
 // The full picture, kept off the home screen: per-skill score and CEFR band, what A1 complete needs, and the
 // "I can" checklist. A statement is ticked only after a short check of that skill (learning-methods 17).
-export default function Progress({ scores, units, canDo, checked, isOpen, progressOf, onCheck, onBack }) {
+export default function Progress({ finalCheck, scores, units, canDo, checked, isOpen, progressOf, onCheck, onBack }) {
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="flex items-center gap-2">
@@ -25,6 +25,29 @@ export default function Progress({ scores, units, canDo, checked, isOpen, progre
         ))}
         <p className="text-sm text-muted">Scores use the 0 to 160 scale. They move only for new learning: a round finished for the first time, or a review item cleared on three different days.</p>
       </section>
+
+      {/* The final A1 check, per skill (finalcheck.js): its last result, speaking practised but never graded. */}
+      {finalCheck && (
+        <section className="flex flex-col gap-2">
+          <h2 className="font-semibold">A1 Final Check</h2>
+          <p className="text-sm text-muted">Modeled on the {finalCheck.exam.name}, with this course's own sentences.{finalCheck.last ? ` Last taken ${finalCheck.last.date}.` : ''}</p>
+          {finalCheck.last ? (
+            <ul className="flex flex-col gap-1">
+              {['listening', 'reading', 'writing'].map((k) => {
+                const p = finalCheck.last.scores[k] ?? { right: 0, total: 0 }
+                return (
+                  <li key={k} className="flex items-baseline justify-between">
+                    <span className="font-medium">{NAMES[k] ?? k}</span>
+                    <span>{p.right} of {p.total}{p.total ? <span className="text-sm text-muted"> · {Math.round((p.right * 100) / p.total)}%</span> : null}</span>
+                  </li>
+                )
+              })}
+              <li className="flex items-baseline justify-between"><span className="font-medium">{NAMES.speaking ?? 'Speaking'}</span><span className="text-sm text-muted">practised, not graded</span></li>
+            </ul>
+          ) : <p>Not taken yet. {finalCheck.available ? 'It\'s open: find it at the end of the path.' : 'It opens when every unit has had its first lessons.'}</p>}
+          <a href={finalCheck.exam.samples} target="_blank" rel="noopener noreferrer" className="self-start text-sm underline underline-offset-4">Official {finalCheck.exam.name} sample papers ({finalCheck.exam.body})</a>
+        </section>
+      )}
 
       <section className="flex flex-col gap-2">
         <h2 className="font-semibold">What A1 Takes, for Each Skill</h2>
