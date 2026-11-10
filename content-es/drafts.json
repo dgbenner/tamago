@@ -986,6 +986,79 @@
       "french": "Tom tiene dos gatos.",
       "english": "Tom has two cats.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S13101",
+      "unit_id": "U13",
+      "french": "Mi libro es rojo.",
+      "english": "My book is red.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S13103",
+      "unit_id": "U13",
+      "french": "Tengo una mesa negra.",
+      "english": "I have a black table.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S13104",
+      "unit_id": "U13",
+      "french": "Esta casa es negra.",
+      "english": "This house is black.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S13105",
+      "unit_id": "U13",
+      "french": "El pájaro es amarillo.",
+      "english": "The bird is yellow.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S13106",
+      "unit_id": "U13",
+      "french": "La casa es amarilla.",
+      "english": "The house is yellow.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S13107",
+      "unit_id": "U13",
+      "french": "Tengo una carta amarilla.",
+      "english": "I have a yellow letter.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S13108",
+      "unit_id": "U13",
+      "french": "El libro es verde.",
+      "english": "The book is green.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S13109",
+      "unit_id": "U13",
+      "french": "Mi casa es blanca.",
+      "english": "My house is white.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S13110",
+      "unit_id": "U13",
+      "french": "Sí, la manzana es roja.",
+      "english": "Yes, the apple is red.",
+      "notes": "QT09 answer; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "12531884",
+      "source_owner": "Shishir"
+    },
+    {
+      "sentence_id": "S13111",
+      "unit_id": "U13",
+      "french": "Él tiene un perro negro.",
+      "english": "He has a black dog.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
     }
   ],
   "qa_answers": [
@@ -1180,6 +1253,22 @@
     {
       "question_sentence_id": "S12019",
       "answer_sentence_id": "S12118"
+    },
+    {
+      "question_sentence_id": "S13027",
+      "answer_sentence_id": "S13105"
+    },
+    {
+      "question_sentence_id": "S13028",
+      "answer_sentence_id": "S13108"
+    },
+    {
+      "question_sentence_id": "S13030",
+      "answer_sentence_id": "S13109"
+    },
+    {
+      "question_sentence_id": "S13007",
+      "answer_sentence_id": "S13110"
     }
   ]
 }

@@ -18,6 +18,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 10 is live:** Mine and Yours, 41 sentences (30 Tatoeba, 11 drafts): mi, tu, su and their plurals; de for whose. Widened with amigos and amigas; cut cómo de grande (Spain usage, beyond A1).
   - **Unit 11 is live:** Asking Questions, 33 sentences (30 Tatoeba, 3 drafts): qué, quién, dónde, cuál, por qué, porque. Cut idioms (¿Y qué?, ¿Qué hay?) and three copies of "That's because you're a girl".
   - **Unit 12 is live:** Counting to Ten, 48 sentences (30 Tatoeba, 18 drafts): dos to diez, cuántos and cuántas, hay. Tatoeba writes most numbers above four as digits, which the pull leaves out, so five to ten are drafted.
+  - **Unit 13 is live:** Naming Colours, 40 sentences (30 Tatoeba, 10 drafts): colours after the noun, agreement, ¿De qué color es? Cut an idiom (No tengo blanca, I'm broke).
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -485,7 +486,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (138), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (147), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -660,3 +661,15 @@ Every Spanish sentence I wrote (138), for a native speaker of Latin American Spa
 - S12116 ¿Cuántas casas tienes? = How many houses do you have?
 - S12117 ¿Cuántas amigas tienes? = How many friends do you have?
 - S12118 Tom tiene dos gatos. = Tom has two cats. (QT09 answer)
+
+**U13 Naming Colours** (9)
+
+- S13101 Mi libro es rojo. = My book is red.
+- S13103 Tengo una mesa negra. = I have a black table.
+- S13104 Esta casa es negra. = This house is black.
+- S13105 El pájaro es amarillo. = The bird is yellow. (QT09 answer)
+- S13106 La casa es amarilla. = The house is yellow. (QT09 answer)
+- S13107 Tengo una carta amarilla. = I have a yellow letter.
+- S13108 El libro es verde. = The book is green. (QT09 answer)
+- S13109 Mi casa es blanca. = My house is white. (QT09 answer)
+- S13111 Él tiene un perro negro. = He has a black dog.

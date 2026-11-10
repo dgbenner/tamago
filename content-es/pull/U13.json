@@ -1,0 +1,1518 @@
+{
+  "unit_id": "U13",
+  "pulled_at": "2026-11-10",
+  "candidates": 69,
+  "sentences": [
+    {
+      "sentence_id": "S13001",
+      "unit_id": "U13",
+      "french": "¿Por qué es azul y blanco?",
+      "english": "Why is it blue and white?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5319988",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13002",
+      "unit_id": "U13",
+      "french": "La manzana es roja y amarilla.",
+      "english": "The apple is red and yellow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5257396",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13003",
+      "unit_id": "U13",
+      "french": "¿Es negro?",
+      "english": "Is it black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10179326",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Jeigmz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13004",
+      "unit_id": "U13",
+      "french": "¿No es negro?",
+      "english": "Isn't it black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1237276",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Is it not black?"
+      ]
+    },
+    {
+      "sentence_id": "S13005",
+      "unit_id": "U13",
+      "french": "¿No es negra?",
+      "english": "Isn't it black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5157512",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": [
+        "Is it not black?"
+      ]
+    },
+    {
+      "sentence_id": "S13006",
+      "unit_id": "U13",
+      "french": "¿Esto es blanco?",
+      "english": "Is it white?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12531827",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13007",
+      "unit_id": "U13",
+      "french": "¿La manzana es roja?",
+      "english": "Is the apple red?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2223075",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13008",
+      "unit_id": "U13",
+      "french": "¿Por qué es blanca la leche?",
+      "english": "Why is milk white?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10044329",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13009",
+      "unit_id": "U13",
+      "french": "Es rojo.",
+      "english": "It's red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5769257",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13010",
+      "unit_id": "U13",
+      "french": "Esta mesa es blanca.",
+      "english": "This table is white.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2709179",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13011",
+      "unit_id": "U13",
+      "french": "Eso no es amarillo; es verde.",
+      "english": "This is not yellow; it's green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2055330",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13012",
+      "unit_id": "U13",
+      "french": "Su libro es rojo.",
+      "english": "His book is red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3148902",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13013",
+      "unit_id": "U13",
+      "french": "¿Es azul?",
+      "english": "Is it blue?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9706887",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13014",
+      "unit_id": "U13",
+      "french": "¿Esto es azul?",
+      "english": "Is this blue?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10124573",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13015",
+      "unit_id": "U13",
+      "french": "¿Te gusta este color?",
+      "english": "Do you like this color?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1004263",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13016",
+      "unit_id": "U13",
+      "french": "¿Qué color te gusta?",
+      "english": "What color do you like?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1689661",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13017",
+      "unit_id": "U13",
+      "french": "¿De qué color es?",
+      "english": "What color is it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2980399",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "What colour is it?"
+      ]
+    },
+    {
+      "sentence_id": "S13018",
+      "unit_id": "U13",
+      "french": "¿Tu perro es blanco?",
+      "english": "Is your dog white?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10274600",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13019",
+      "unit_id": "U13",
+      "french": "Este gato es negro. ¿El perro también?",
+      "english": "This cat is black. Is the dog, too?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1547923",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13020",
+      "unit_id": "U13",
+      "french": "Es verde.",
+      "english": "It's green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2191998",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13021",
+      "unit_id": "U13",
+      "french": "La mesa es verde.",
+      "english": "The table is green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1355604",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13022",
+      "unit_id": "U13",
+      "french": "Tengo una casa roja.",
+      "english": "I have a red house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2717715",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13023",
+      "unit_id": "U13",
+      "french": "El libro es amarillo.",
+      "english": "The book is yellow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5257415",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13024",
+      "unit_id": "U13",
+      "french": "La leche es blanca.",
+      "english": "Milk is white.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10274601",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13025",
+      "unit_id": "U13",
+      "french": "¿De qué color es esto?",
+      "english": "What color is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2299448",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13026",
+      "unit_id": "U13",
+      "french": "¿Qué color tiene el pájaro?",
+      "english": "What colour is the bird?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5115258",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13027",
+      "unit_id": "U13",
+      "french": "¿De qué color es el pájaro?",
+      "english": "What colour is the bird?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5047294",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "albrusgher",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13028",
+      "unit_id": "U13",
+      "french": "¿De qué color es el libro?",
+      "english": "What color is the book?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5257421",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13029",
+      "unit_id": "U13",
+      "french": "¿De qué color es este gato?",
+      "english": "What color is this cat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5319544",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13030",
+      "unit_id": "U13",
+      "french": "¿De qué color es tu casa?",
+      "english": "What color is your house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10211607",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": [
+        "What colour is your house?"
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S13001",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 3,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 4,
+      "surface": "y",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 5,
+      "surface": "blanco",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 2,
+      "surface": "manzana",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 4,
+      "surface": "roja",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 5,
+      "surface": "y",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 6,
+      "surface": "amarilla",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 2,
+      "surface": "negro",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 3,
+      "surface": "negro",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 3,
+      "surface": "negra",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13006",
+      "position": 1,
+      "surface": "Esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13006",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13006",
+      "position": 3,
+      "surface": "blanco",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 2,
+      "surface": "manzana",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 4,
+      "surface": "roja",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 3,
+      "surface": "blanca",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 5,
+      "surface": "leche",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13009",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13009",
+      "position": 2,
+      "surface": "rojo",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 2,
+      "surface": "mesa",
+      "word_id": "W103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 4,
+      "surface": "blanca",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 1,
+      "surface": "Eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 4,
+      "surface": "amarillo",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 5,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 6,
+      "surface": "verde",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13012",
+      "position": 1,
+      "surface": "Su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13012",
+      "position": 2,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13012",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13012",
+      "position": 4,
+      "surface": "rojo",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13013",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13013",
+      "position": 2,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 1,
+      "surface": "Esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 3,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13015",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13015",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13015",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13015",
+      "position": 4,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 2,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 4,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13017",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13017",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13017",
+      "position": 3,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13017",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 2,
+      "surface": "perro",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 4,
+      "surface": "blanco",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 2,
+      "surface": "gato",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 4,
+      "surface": "negro",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 5,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 6,
+      "surface": "perro",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 7,
+      "surface": "también",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 2,
+      "surface": "verde",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 2,
+      "surface": "mesa",
+      "word_id": "W103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 4,
+      "surface": "verde",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 3,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 4,
+      "surface": "roja",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 2,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 4,
+      "surface": "amarillo",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 2,
+      "surface": "leche",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 4,
+      "surface": "blanca",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 3,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 5,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 2,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 3,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 5,
+      "surface": "pájaro",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 3,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 5,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 6,
+      "surface": "pájaro",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 3,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 5,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 6,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 3,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 5,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 6,
+      "surface": "gato",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 3,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 5,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 6,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A130041",
+      "sentence_id": "S13004",
+      "direction": "fr_to_en",
+      "answer": "Is it not black?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130051",
+      "sentence_id": "S13005",
+      "direction": "fr_to_en",
+      "answer": "Is it not black?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130171",
+      "sentence_id": "S13017",
+      "direction": "fr_to_en",
+      "answer": "What colour is it?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130301",
+      "sentence_id": "S13030",
+      "direction": "fr_to_en",
+      "answer": "What colour is your house?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
