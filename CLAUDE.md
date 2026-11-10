@@ -63,6 +63,16 @@ Choices the specs left open, easy to change:
 - Phone and wide screens: root font 17px (everything in rem scales). Recordings are levelled to -16 LUFS at build (scripts/lib/loudness.mjs).
 - The opening screen (draws on with one eased curve per letter, holds about 2.4 seconds, fades fast while the header logo rises into place) is a deliberate exception to the feature list's "no loading screens" (Dan, 2026-11-07). It stays out of lessons. The green may be adjusted later.
 
+## Accessibility (WCAG 2.2 AA, Pass 4)
+
+- Keyboard: every question type works with Tab and Enter. Enter checks (any button marked `data-check`), except on a choice or chip not yet picked, where it picks; after an answer, focus is on Continue and Enter continues. Focus follows picked chips and matched pairs (`focusNeighbour`). Each new question focuses its heading (typed questions focus the field). Sheets are modal dialogs (focus inside, Tab trapped, Escape, focus returned). Each screen sets its title and focuses its heading.
+- Focus ring: `:focus-visible` 3px `--focus` (blue) in both themes; none on headings that receive programmatic focus. `#root` has scroll padding so focus isn't hidden under the bars; at 520px or less of height the bars unpin.
+- Contrast tokens were nudged only as far as AA needs: `--orange` #d3460f (white text), light `--muted` #645e53, points chip #1f6dfb, and `--field` (light #979287, dark #6a6660) for text-field and menu edges (3:1). Don't dim text with opacity.
+- Names: audio buttons say what they play; picture choices carry the word's English meaning (`alt`); match pairs and audio choices expose aria-pressed and announce results.
+- Reduced motion: every animation and press transition is off; the opening screen shows the letters already drawn.
+- Tests (scratchpad, wiped between sessions): axe over every screen and question type in light and dark, a keyboard-only run, 200% zoom and 320px reflow, reduced motion. The dev-only `window.__tamago.lesson(unit, round)` hook (on with `VITE_TEST_HOOK=1` builds, never in the live build) opens any round.
+- Developer Notes (bottom of Settings, setting `dev_notes`, default on; turn off before testers): renders the listed _source documents and the newest _review Grades section at build time (src/lib/devnotes.js, explicit file list only); `src/lib/redact.js` blanks key-shaped text and test/devnotes.test.js fails if a shown document holds any.
+
 ## Testing
 
 With the Testing shortcuts setting on (default on while Dan is the only user; turn the default off before Phase 4 testers), the right arrow, or a quick swipe left that starts on the right half of a touch screen, marks a question correct and moves on; with an answer on screen it acts as Continue. Attempts made this way carry `test_skip: true`. Real progress on that browser moves with it.

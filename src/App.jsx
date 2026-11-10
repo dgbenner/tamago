@@ -34,6 +34,7 @@ const DEFAULT_SETTINGS = {
   answer_strictness: defaults.answer_strictness, typed_input: defaults.typed_input, listen_first: defaults.listen_first,
   theme: defaults.theme, cant_listen_until: null, cant_speak_until: null,
   test_shortcuts: 'on', // Dan only for now; turn the default off before testers (Phase 4)
+  dev_notes: 'on', // Developer Notes at the bottom of Settings; turn the default off before testers
   points_and_streaks: defaults.points_and_streaks ?? 'on', weekly_goal: 'none',
 }
 // Monday-start week, for the weekly goal.
@@ -52,6 +53,9 @@ function useWide() {
   }, [])
   return wide
 }
+
+const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', progress: 'Progress', settings: 'Settings', about: 'About the Content',
+  profile: 'Profile and Backup', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening' }
 
 const paused = (until) => until === 'always' || (typeof until === 'number' && until > Date.now())
 
@@ -143,7 +147,18 @@ export default function App() {
   const PANEL = ['home', 'words', 'verbs', 'progress', 'make']
   const lastScreen = useRef(screen)
   useEffect(() => {
-    if (!(wide && PANEL.includes(screen) && PANEL.includes(lastScreen.current))) document.getElementById('root')?.scrollTo(0, 0)
+    const inPanel = wide && PANEL.includes(screen) && PANEL.includes(lastScreen.current)
+    if (!inPanel) document.getElementById('root')?.scrollTo(0, 0)
+    // Each screen has its own page title (WCAG 2.4.2), and moving to a screen moves focus to its heading, so a screen
+    // reader announces where you are (2.4.3). Lessons place their own focus. The first load leaves focus alone.
+    document.title = `${SCREEN_TITLES[screen] ?? 'Tamago'}${screen === 'home' ? '' : ' · Tamago'}`
+    if (lastScreen.current !== screen && screen !== 'lesson') {
+      window.setTimeout(() => {
+        const scope = inPanel || (wide && PANEL.includes(screen) && screen !== 'home') ? document.querySelector('.home-panel') : document
+        const h = scope?.querySelector('h1:not(.sr-only), h2') ?? document.querySelector('h1')
+        if (h) { if (!h.hasAttribute('tabindex')) h.setAttribute('tabindex', '-1'); h.focus({ preventScroll: true }) }
+      }, 0)
+    }
     lastScreen.current = screen
   }, [screen])
 
@@ -221,6 +236,16 @@ export default function App() {
     putKv('carry', [])
     begin(lesson)
   }
+  // Development only (stripped from the live build): open any round of any unit, so tests can reach every question type.
+  useEffect(() => {
+    if (!import.meta.env.DEV && import.meta.env.VITE_TEST_HOOK !== '1') return
+    window.__tamago = {
+      lesson: (unitId, round) => {
+        const uc = unitContent(unitId)
+        begin(buildLesson(uc, { round, unit_id: unitId, known: new Set([...seenWords.current, ...uc.wordOrder]), settings: lessonModes() }))
+      },
+    }
+  })
   // The grammar note comes before a unit's first lesson, once.
   const noteFor = (unitId) => tables.grammar_notes.find((n) => n.unit_id === unitId)
   const startUnit = (unitId) => {

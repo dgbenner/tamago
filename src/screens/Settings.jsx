@@ -4,6 +4,7 @@ import { IconBack, IconSpeaker } from './icons.jsx'
 import { useEffect, useState } from 'react'
 import { explainReady } from '../lib/explain.js'
 import NeedsSetup from './NeedsSetup.jsx'
+import DevNotes from './DevNotes.jsx'
 
 function Segmented({ label, help, value, options, onChange }) {
   return (
@@ -81,8 +82,8 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
         <Segmented label="Points and Streaks" help="Off hides the points, the streak and the weekly goal." value={settings.points_and_streaks}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ points_and_streaks: v })} />
         <Item title="Weekly Goal" help="Days a week you mean to practise. No reminders, and nothing changes if you miss one.">
-          <select value={settings.weekly_goal} onChange={(e) => onChange({ weekly_goal: e.target.value })}
-            className="min-h-11 rounded-xl border-2 border-line bg-surface px-3 text-base">
+          <select aria-label="Weekly Goal" value={settings.weekly_goal} onChange={(e) => onChange({ weekly_goal: e.target.value })}
+            className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base">
             <option value="none">None</option>
             {[1, 2, 3, 4, 5, 6, 7].map((n) => <option key={n} value={String(n)}>{n} {n === 1 ? 'Day' : 'Days'}</option>)}
           </select>
@@ -113,8 +114,11 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
         <button onClick={onFlags} className="btn-secondary">Flag Review</button>
         <button onClick={onNativeCheck} className="btn-secondary">Native-Speaker Check</button>
         <button onClick={onForum} className="btn-secondary">Forum</button>
+        <Segmented label="Developer Notes" help="The project's documents, at the bottom of this page. Turn off before testers." value={settings.dev_notes ?? 'on'}
+          options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ dev_notes: v })} />
       </Section>
       </div>
+      {settings.dev_notes !== 'off' && <DevNotes />}
     </main>
   )
 }

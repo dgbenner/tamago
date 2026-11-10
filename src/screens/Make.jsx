@@ -39,8 +39,8 @@ export default function Make({ weakSkill, weekCount, metCount, listMatch, onWeak
       </Block>
 
       <Block title="Flashcards from Your List" text="Paste French words or text. Words Tamago knows become flashcards, with their meanings from Wiktionary.">
-        <textarea value={list} onChange={(e) => setList(e.target.value)} rows={3} lang="fr" placeholder="pomme, fromage, chat…"
-          className="rounded-xl border-2 border-line bg-surface px-3 py-2 text-base" />
+        <textarea aria-label="French words or text" value={list} onChange={(e) => setList(e.target.value)} rows={3} lang="fr" placeholder="pomme, fromage, chat…"
+          className="rounded-xl border-2 border-field bg-surface px-3 py-2 text-base" />
         {match && <p className="text-sm text-muted">{match.words.length} found{match.missing.length ? ` · not in Tamago yet: ${match.missing.join(', ')}` : ''}</p>}
         <button onClick={() => onList(match.words)} disabled={!match?.words.length} className="btn-secondary">Make flashcards</button>
       </Block>
@@ -50,8 +50,8 @@ export default function Make({ weakSkill, weekCount, metCount, listMatch, onWeak
       )}
       {ready && (
         <Block title="Written by Claude" text={enough ? 'From the words you\'ve met, checked against them; any line with another word is dropped. Not checked by a native speaker.' : 'Meet 20 words first.'}>
-          <input value={focus} onChange={(e) => setFocus(e.target.value)} maxLength={80} placeholder="About… (optional)"
-            className="min-h-11 rounded-xl border-2 border-line bg-surface px-3 text-base" />
+          <input aria-label="Topic for the practice (optional)" value={focus} onChange={(e) => setFocus(e.target.value)} maxLength={80} placeholder="About… (optional)"
+            className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base" />
           <div className="flex gap-2">
             <button onClick={() => onSentences(focus)} disabled={!enough || Boolean(status)} className="btn-secondary flex-1">New sentences</button>
             <button onClick={() => onListening(focus)} disabled={!enough || Boolean(status)} className="btn-secondary flex-1">Listening</button>

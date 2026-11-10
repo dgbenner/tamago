@@ -109,6 +109,31 @@ export default function Lesson({ session, content, settings, seenWords, cantList
     }
   }, [result, session, settings.test_shortcuts])
 
+  // Keyboard (WCAG 2.1.1): Enter checks the answer. On a choice or chip that isn't picked yet, Enter picks it (the
+  // button's own action), so Enter works through a whole question: pick, pick, check.
+  const mainRef = useRef(null)
+  useEffect(() => {
+    if (result) return undefined
+    const onKey = (e) => {
+      if (e.key !== 'Enter' || e.repeat || e.metaKey || e.ctrlKey || e.altKey) return
+      const t = e.target
+      if (t instanceof HTMLInputElement || t instanceof HTMLTextAreaElement) return // a field submits itself
+      if (t instanceof HTMLButtonElement && !t.disabled && t.dataset.check === undefined && t.getAttribute('aria-pressed') !== 'true') return
+      const check = mainRef.current?.querySelector('[data-check]:not(:disabled)')
+      if (!check) return
+      e.preventDefault()
+      check.click()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [result, q.qid])
+  // A new question: focus its heading, so a screen reader starts there and Tab goes to the first control.
+  // A typed question focuses its field instead (autoFocus).
+  const headingRef = useRef(null)
+  useEffect(() => {
+    if (!mainRef.current?.querySelector('input[autofocus], input:focus')) headingRef.current?.focus({ preventScroll: true })
+  }, [q.qid])
+
   useEffect(() => {
     if (!result) return undefined
     // A test skip goes straight on, once the session holds its answer.
@@ -124,17 +149,17 @@ export default function Lesson({ session, content, settings, seenWords, cantList
   const props = { q, content, settings, cantListen, result, onAnswer: answer, newWords, hideFrench, onHint: (seg) => onHint(q, seg), onTyping: setTyping }
 
   return (
-    <main className="lesson mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-[max(0.75rem,env(safe-area-inset-top))] lg:max-w-2xl">
+    <main ref={mainRef} className="lesson mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-[max(0.75rem,env(safe-area-inset-top))] lg:max-w-2xl">
       <header className="sticky top-0 z-10 -mx-4 flex items-center gap-3 bg-bg px-4 pb-2">
         <button onClick={onExit} aria-label="Leave lesson" className="icon-btn -ml-2"><IconClose /></button>
-        <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-line" role="progressbar" aria-valuenow={Math.round(barMax.current * 100)} aria-valuemin={0} aria-valuemax={100}>
+        <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-line" role="progressbar" aria-label="Lesson progress" aria-valuenow={Math.round(barMax.current * 100)} aria-valuemin={0} aria-valuemax={100}>
           <div className="h-full rounded-full bg-green" style={{ width: `${barMax.current * 100}%` }} />
         </div>
       </header>
 
       <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : showCantNow ? 'pb-1' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
         <div className="flex items-center gap-2">
-          <h1 className="text-xl font-semibold">{headingFor(q, { hideFrench, result, typing })}</h1>
+          <h1 ref={headingRef} tabIndex={-1} className="text-xl font-semibold outline-none">{headingFor(q, { hideFrench, result, typing })}</h1>
           {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="tag"><span className="new-dot" aria-hidden="true" />New</span>}
         </div>
         <Question key={q.qid} {...props} />
@@ -143,7 +168,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
       {/* Old Duolingo's switch, on the question itself: faint, bottom centre. It pauses for an hour, like Settings. */}
       {showCantNow && (
         <div className="flex justify-center pb-[max(0.5rem,env(safe-area-inset-bottom))]">
-          <button onClick={() => onCantNow(q.speaking ? 'speak' : 'listen')} className="btn-tertiary text-xs opacity-70">
+          <button onClick={() => onCantNow(q.speaking ? 'speak' : 'listen')} className="btn-tertiary text-xs">
             {q.speaking ? "Can't Speak Now" : "Can't Listen Now"}
           </button>
         </div>
@@ -163,7 +188,7 @@ function Question({ q, ...rest }) {
 function SpeakerButton({ audio, slow, label = 'Play', large }) {
   return (
     <button onClick={() => play(audio, { slow })} aria-label={label} className={`inline-flex items-center justify-center gap-2 rounded-xl border-2 border-line bg-surface ${large ? 'h-16 w-16' : 'min-h-11 min-w-11 px-3'}`}>
-      <IconSpeaker />
+      <span aria-hidden="true"><IconSpeaker /></span>
       {slow && <span className="text-sm">Slow</span>}
     </button>
   )
@@ -182,13 +207,13 @@ function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
         return (
           <span key={i} className="relative">
             <button
-              onClick={() => { setOpen(open === i ? null : i); if (open !== i) onHint(seg) }}
+              onClick={() => { setOpen(open === i ? null : i); if (open !== i) onHint(seg) }} aria-expanded={open === i} aria-describedby={open === i ? `hint-${q.qid}-${i}` : undefined}
               className="underline decoration-dotted decoration-2 underline-offset-4"
             >{seg.text}</button>
             {/* The new-word dot sits on the word like a superscript, not between words like a bullet. */}
             {newWords.has(seg.word_id) && <span className="new-dot absolute -top-0.5 left-full ml-0.5 size-1.5" aria-hidden="true" />}
             {open === i && (
-              <span role="tooltip" lang="en" className="absolute top-full left-0 z-10 mt-1 whitespace-nowrap rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base shadow-md">{seg.hint}</span>
+              <span id={`hint-${q.qid}-${i}`} role="tooltip" lang="en" className="absolute top-full left-0 z-10 mt-1 w-max max-w-[min(18rem,80vw)] rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base shadow-md">{seg.hint}</span>
             )}
           </span>
         )
@@ -239,7 +264,7 @@ function WordImage({ q, result, onAnswer, newWords }) {
         {q.choices.map((ch, i) => {
           const state = !result ? '' : ch.word_id === q.answer ? 'choice-right' : ch.word_id === chosen ? 'choice-wrong' : 'opacity-60'
           return (
-            <button key={ch.word_id} aria-label={ch.label ?? `Picture ${i + 1}`} disabled={Boolean(result)}
+            <button key={ch.word_id} aria-label={ch.label ?? (ch.alt ? `Picture: ${ch.alt}` : `Picture ${i + 1}`)} disabled={Boolean(result)}
               onClick={() => { setChosen(ch.word_id); onAnswer({ correct: ch.word_id === q.answer }) }}
               className={`choice flex flex-col items-center justify-center gap-1 p-2 text-center ${state}`}>
               <img src={ch.image} alt="" className="h-20 w-20" />
@@ -293,7 +318,7 @@ function Speak({ q, result, onAnswer, newWords, onHint }) {
       {!result && !compare && <p className="text-sm text-muted">Say it aloud, then tap Done.</p>}
       {!result && (
         <div className="action-row">
-          <button onClick={done} disabled={compare && rec.state !== 'done' && rec.state !== 'unavailable'} className="btn-submit w-full">Done</button>
+          <button data-check onClick={done} disabled={compare && rec.state !== 'done' && rec.state !== 'unavailable'} className="btn-submit w-full">Done</button>
         </div>
       )}
     </>
@@ -331,14 +356,15 @@ function PickHeard({ q, result, onAnswer }) {
         {q.audioChoices.map((a, i) => {
           const state = !result ? (chosen === a.sentence_id ? 'choice-selected' : '') : a.sentence_id === q.answer ? 'choice-right' : a.sentence_id === chosen ? 'choice-wrong' : 'opacity-60'
           return (
-            <button key={a.sentence_id} aria-label={`Choice ${i + 1}`} onClick={() => { play(a); if (!result) setChosen(a.sentence_id) }} className={`choice flex items-center gap-3 ${state}`}>
-              <IconSpeaker />
+            <button key={a.sentence_id} aria-label={result ? undefined : `Choice ${i + 1}, plays its sentence`} aria-pressed={result ? undefined : chosen === a.sentence_id}
+              onClick={() => { play(a); if (!result) setChosen(a.sentence_id) }} className={`choice flex items-center gap-3 ${state}`}>
+              <span aria-hidden="true"><IconSpeaker /></span>
               {result ? <span lang="fr">{a.french}</span> : <span className="text-muted">{i + 1}</span>}
             </button>
           )
         })}
       </div>
-      {!result && <div className="action-row"><button disabled={!chosen} onClick={() => onAnswer({ correct: chosen === q.answer })} className="btn-submit w-full">Check</button></div>}
+      {!result && <div className="action-row"><button data-check disabled={!chosen} onClick={() => onAnswer({ correct: chosen === q.answer })} className="btn-submit w-full">Check</button></div>}
     </>
   )
 }
@@ -388,12 +414,12 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
     <div className="grid grid-cols-2 gap-2.5">
       <div className="flex flex-col gap-2.5">
         {q.pairs.map((p) => (
-          <button key={p.form} lang="fr" disabled={matched.includes(p.form) || Boolean(result)} onClick={() => tapForm(p)}
+          <button key={p.form} lang="fr" disabled={matched.includes(p.form) || Boolean(result)} aria-pressed={form === p.form} onClick={(e) => { if (meaning && q.pairs.find((x) => x.form === p.form).hint === meaning) focusNeighbour(e.currentTarget); tapForm(p) }}
             onAnimationEnd={endShake}
             className={`${cell(form === p.form, matched.includes(p.form), wrong?.f === p.form)} flex items-center justify-center`}>
             {/* Only the word is centred: the speaker hangs to its left and the new-word dot to its right. */}
             <span className="relative">
-              {!cantListen && <span className="absolute top-1/2 right-full mr-1.5 -translate-y-1/2 opacity-60 [&_svg]:size-4"><IconSpeaker /></span>}
+              {!cantListen && <span aria-hidden="true" className="absolute top-1/2 right-full mr-1.5 -translate-y-1/2 opacity-60 [&_svg]:size-4"><IconSpeaker /></span>}
               {p.form}
               {newWords.has(p.word_id) && !matched.includes(p.form) && <span className="new-dot absolute top-1/2 left-full ml-1.5 -translate-y-1/2" aria-hidden="true" />}
             </span>
@@ -402,12 +428,14 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
       </div>
       <div className="flex flex-col gap-2.5">
         {q.meanings.map((m) => (
-          <button key={m} lang="en" disabled={isMatchedMeaning(m) || Boolean(result)} onClick={() => tapMeaning(m)}
+          <button key={m} lang="en" disabled={isMatchedMeaning(m) || Boolean(result)} aria-pressed={meaning === m} onClick={(e) => { if (form && q.pairs.find((x) => x.form === form).hint === m) focusNeighbour(e.currentTarget); tapMeaning(m) }}
             onAnimationEnd={endShake} className={cell(meaning === m, isMatchedMeaning(m), wrong?.m === m)}>{m}</button>
         ))}
       </div>
     </div>
     {!result && <p className="min-h-6 text-sm text-muted">{revealed ? `${revealed.form} = ${revealed.hint}` : ''}</p>}
+    {/* What a screen reader hears after each pair. */}
+    <p className="sr-only" aria-live="polite">{wrong ? `${wrong.f} and ${wrong.m} don't match.` : matched.length ? `Matched ${matched.at(-1)}. ${q.pairs.length - matched.length} left.` : ''}</p>
     </>
   )
 }
@@ -444,7 +472,7 @@ function promptFor(q, { newWords, hideFrench, result, onHint }) {
   }
   if (q.type === 'QT07') return <SpeakerButton audio={q.audio} large label="Play the sentence" />
   if (q.type === 'QT11') {
-    return <div className="flex items-center gap-3"><SpeakerButton audio={q.audio} large label="Play the sentence" /><SpeakerButton audio={q.audio} slow label="Play slowly" /></div>
+    return <div className="flex items-center gap-3"><SpeakerButton audio={q.audio} large label="Play the sentence" /><SpeakerButton audio={q.audio} slow label="Slow: play the sentence slowly" /></div>
   }
   return <p className="text-2xl leading-relaxed">{q.english}</p>
 }
@@ -468,14 +496,16 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
         <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} onSubmit={() => check(text)} />
       ) : (
         <>
-          <div lang={q.lang} className="flex min-h-14 flex-wrap gap-2 border-b-2 border-line pb-2">
+          {/* Your answer so far, then the word bank. Picking a word keeps keyboard focus in the bank (on the next word
+              still there); removing one returns focus to the answer. */}
+          <div lang={q.lang} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className="flex min-h-14 flex-wrap gap-2 border-b-2 border-line pb-2">
             {picked.map((chipIndex) => (
-              <button key={chipIndex} disabled={Boolean(result)} onClick={() => setPicked(picked.filter((i) => i !== chipIndex))} className="chip">{q.chips[chipIndex]}</button>
+              <button key={chipIndex} disabled={Boolean(result)} aria-label={`${q.chips[chipIndex]}, remove`} onClick={(e) => { focusNeighbour(e.currentTarget); setPicked(picked.filter((i) => i !== chipIndex)) }} className="chip">{q.chips[chipIndex]}</button>
             ))}
           </div>
-          <div lang={q.lang} className="flex flex-wrap gap-2">
+          <div lang={q.lang} role="group" aria-label="Words to choose from" className="flex flex-wrap gap-2">
             {q.chips.map((chip, i) => (
-              <button key={i} disabled={picked.includes(i) || Boolean(result)} onClick={() => setPicked([...picked, i])} className={`chip ${picked.includes(i) ? 'opacity-25' : ''}`}>{chip}</button>
+              <button key={i} disabled={picked.includes(i) || Boolean(result)} onClick={(e) => { focusNeighbour(e.currentTarget); setPicked([...picked, i]) }} className={`chip ${picked.includes(i) ? 'opacity-25' : ''}`}>{chip}</button>
             ))}
           </div>
         </>
@@ -487,11 +517,21 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
           <button onClick={() => setTyping(!typing)} aria-label={typing ? 'Use word chips' : 'Use the keyboard'} className="icon-btn border-2 border-line">
             {typing ? <IconChips /> : <IconKeyboard />}
           </button>
-          <button disabled={typing ? !text.trim() : picked.length === 0} onClick={() => check(typing ? text : answerText)} className="btn-submit flex-1">Check</button>
+          <button data-check disabled={typing ? !text.trim() : picked.length === 0} onClick={() => check(typing ? text : answerText)} className="btn-submit flex-1">Check</button>
         </div>
       )}
     </>
   )
+}
+
+// A button that's about to go away or be disabled hands keyboard focus to the next usable button in its group (or the
+// one before), else to the question's Check button. Pointer users never see it.
+function focusNeighbour(el) {
+  if (!el.matches(':focus-visible')) return
+  const group = [...el.parentElement.querySelectorAll('button')]
+  const i = group.indexOf(el)
+  const next = [...group.slice(i + 1), ...group.slice(0, i).reverse()].find((b) => !b.disabled)
+  window.setTimeout(() => (next ?? el.closest('main')?.querySelector('[data-check]'))?.focus(), 0)
 }
 
 function TypedInput({ q, value, onChange, disabled, onSubmit }) {
@@ -501,7 +541,7 @@ function TypedInput({ q, value, onChange, disabled, onSubmit }) {
         lang={q.lang} autoFocus value={value} disabled={disabled} onChange={(e) => onChange(e.target.value)}
         autoCapitalize="off" autoCorrect="off" autoComplete="off" spellCheck={false} enterKeyHint="done"
         aria-label={q.lang === 'en' ? 'Your answer in English' : 'Your answer in French'} placeholder={q.lang === 'en' ? 'Type in English' : 'Type in French'}
-        className="w-full rounded-xl border-2 border-line bg-surface px-4 py-3 text-lg outline-none focus:border-ink"
+        className="w-full rounded-xl border-2 border-field bg-surface px-4 py-3 text-lg outline-none focus:border-ink"
       />
     </form>
   )
@@ -517,7 +557,7 @@ function Typed({ q, content, settings, result, onAnswer, newWords, hideFrench, o
     <>
       {promptFor(q, { newWords, hideFrench, result, onHint })}
       <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} onSubmit={check} />
-      {!result && <div className="check-row"><button disabled={!text.trim()} onClick={check} className="btn-submit flex-1">Check</button></div>}
+      {!result && <div className="check-row"><button data-check disabled={!text.trim()} onClick={check} className="btn-submit flex-1">Check</button></div>}
     </>
   )
 }
@@ -556,9 +596,9 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
           <div className="min-w-0">
             <p className={`relative font-semibold ${good ? 'text-right-ink' : 'text-wrong'}`}>
               {phrase?.language === 'fr' ? (
-                <button lang="fr" onClick={() => setMeaning(!meaning)} className="underline decoration-dotted decoration-2 underline-offset-4">{phrase.text}</button>
+                <button lang="fr" onClick={() => setMeaning(!meaning)} aria-expanded={meaning} className="underline decoration-dotted decoration-2 underline-offset-4">{phrase.text}</button>
               ) : (phrase?.text ?? fallback)}
-              {meaning && <span role="tooltip" className="absolute bottom-full left-0 z-10 mb-1 whitespace-nowrap rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base font-normal text-ink shadow-md">{phrase.english}</span>}
+              {meaning && <span role="tooltip" className="absolute bottom-full left-0 z-10 mb-1 w-max max-w-[min(18rem,80vw)] rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base font-normal text-ink shadow-md">{phrase.english}</span>}
             </p>
             {shown && <p lang={isPairs ? undefined : q.lang === 'en' && !LISTENING.has(q.type) ? 'en' : 'fr'} className="mt-0.5 break-words">
               {marks ? marks.map((m, i) => (m.mark ? <strong key={i} className="underline decoration-2 underline-offset-4">{m.text}</strong> : <span key={i}>{m.text}</span>)) : shown}
@@ -569,8 +609,8 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
               : <button onClick={() => setShowWhy(true)} className="mt-1 text-sm text-muted underline decoration-dotted decoration-2 underline-offset-4">Why?</button>)}
           </div>
           <div className="flex shrink-0 text-muted">
-            <button onClick={() => setPanel(panel === 'flag' ? null : 'flag')} aria-label="Flag this question" className="icon-btn"><IconFlag /></button>
-            <button onClick={() => setPanel(panel === 'comment' ? null : 'comment')} aria-label="Comments" className="icon-btn"><IconComment /></button>
+            <button onClick={() => setPanel(panel === 'flag' ? null : 'flag')} aria-label="Flag this question" aria-expanded={panel === 'flag'} className="icon-btn"><IconFlag /></button>
+            <button onClick={() => setPanel(panel === 'comment' ? null : 'comment')} aria-label="Comments" aria-expanded={panel === 'comment'} className="icon-btn"><IconComment /></button>
           </div>
         </div>
         {panel === 'comment' && <p className="text-sm text-muted">Discussions need setup: they open once sign-in and a server are in place.</p>}

@@ -28,7 +28,7 @@ export default function GrammarNote({ unit, note, sentenceById, onDone, doneLabe
       <ul className="flex flex-col gap-2">
         {note.examples.map((id) => sentenceById.get(id)).filter(Boolean).map((s) => (
           <li key={s.sentence_id} className="flex items-start gap-3 rounded-xl border-2 border-line bg-surface p-3">
-            <button onClick={() => play({ french: s.french, file: recordingOf(s) })} aria-label="Play" className="icon-btn -m-1 shrink-0 [&_svg]:size-5"><IconSpeaker /></button>
+            <button onClick={() => play({ french: s.french, file: recordingOf(s) })} aria-label={`Play: ${s.french}`} className="icon-btn -m-1 shrink-0 [&_svg]:size-5"><IconSpeaker /></button>
             <div>
               <p lang="fr" className="text-lg">{s.french}</p>
               <p className="text-muted">{s.english}</p>

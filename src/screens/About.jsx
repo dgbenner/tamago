@@ -1,7 +1,7 @@
 import Logo from './Logo.jsx'
 import { IconBack } from './icons.jsx'
 
-const A = ({ href, children }) => <a href={href} target="_blank" rel="noreferrer" className="underline underline-offset-2">{children}</a>
+const A = ({ href, children }) => <a href={href} target="_blank" rel="noreferrer" className="inline-block min-h-6 py-0.5 underline underline-offset-2">{children}</a>
 
 export default function About({ content, onBack }) {
   const tatoeba = content.sentences.filter((s) => s.source === 'tatoeba')

@@ -304,7 +304,8 @@ export function makeWordImage(c, word, pool, round, rng, last) {
     qid: `QT02-${word.word_id}-${Math.floor(rng() * 1e9)}`, type: 'QT02', variant, round, skill: c.typeById.get('QT02').skill,
     word_ids: [word.word_id], word_id: word.word_id, form: word.form, hint: word.hint,
     audio: { french: word.form, file: fileFor(word) },
-    choices: shuffle([word, ...others], rng).map((w) => ({ word_id: w.word_id, image: `/images/${w.image_file}`, label: variant === 'V0202' ? w.form : null })),
+    // alt: what the picture shows, in English, so a screen reader can answer (WCAG 1.1.1).
+    choices: shuffle([word, ...others], rng).map((w) => ({ word_id: w.word_id, image: `/images/${w.image_file}`, label: variant === 'V0202' ? w.form : null, alt: w.hint })),
     answer: word.word_id, shown: `${word.form} = ${word.hint}`,
   }
 }

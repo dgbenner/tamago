@@ -62,7 +62,7 @@ function Drill({ table, strict, onDone }) {
       <form onSubmit={(e) => { e.preventDefault(); if (result) next(); else if (text.trim()) check() }}>
         <input lang="fr" autoFocus value={text} disabled={Boolean(result)} onChange={(e) => setText(e.target.value)} aria-label="The verb form"
           autoCapitalize="off" autoCorrect="off" autoComplete="off" spellCheck={false}
-          className="w-full rounded-xl border-2 border-line bg-surface px-4 py-3 text-lg outline-none focus:border-ink" />
+          className="w-full rounded-xl border-2 border-field bg-surface px-4 py-3 text-lg outline-none focus:border-ink" />
       </form>
       {result
         ? (

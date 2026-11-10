@@ -6,16 +6,18 @@
   --bg: #fffbf2;
   --surface: #ffffff;
   --ink: #1c1a17;
-  --muted: #6b6459;
+  --muted: #645e53;
   --line: #e7dfcf;
   --accent: #ffc21a;
   --accent-ink: #1c1a17;
   --green: #0b7a43;
-  --orange: #d9480f;
+  --orange: #d3460f;
   --logo-green: #0b7a43;
   --logo-orange: #e8590c;
   --right: #1b7a43;
   --wrong: #b3261e;
+  --focus: #1f5fd6;
+  --field: #979287;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,11 +31,13 @@
     --accent: #ffc21a;
     --accent-ink: #1c1a17;
     --green: #0b7a43;
-    --orange: #d9480f;
+    --orange: #d3460f;
     --logo-green: #22b573;
     --logo-orange: #ff7a2e;
     --right: #5fd08f;
     --wrong: #ff8a80;
+    --focus: #8ab4ff;
+    --field: #6a6660;
   }
 }
 
@@ -47,11 +51,13 @@
   --accent: #ffc21a;
   --accent-ink: #1c1a17;
   --green: #0b7a43;
-  --orange: #d9480f;
+  --orange: #d3460f;
   --logo-green: #22b573;
   --logo-orange: #ff7a2e;
   --right: #5fd08f;
   --wrong: #ff8a80;
+  --focus: #8ab4ff;
+  --field: #6a6660;
 }
 
 @theme inline {
@@ -60,6 +66,8 @@
   --color-ink: var(--ink);
   --color-muted: var(--muted);
   --color-line: var(--line);
+  /* Text fields and menus: an edge with 3:1 contrast (WCAG 1.4.11). */
+  --color-field: var(--field);
   --color-accent: var(--accent);
   --color-accent-ink: var(--accent-ink);
   --color-green: var(--green);
@@ -110,6 +118,31 @@ input {
 }
 button {
   touch-action: manipulation;
+}
+
+/* Keyboard focus is always visible (WCAG 2.4.7): a blue ring outside the element, in both themes. Mouse and touch
+   don't show it. */
+:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+}
+/* Headings that receive focus when a screen or question opens aren't controls: no ring on them. */
+[tabindex='-1']:focus-visible {
+  outline: none;
+}
+/* Zoomed in, or on a very short screen (WCAG 1.4.4, 1.4.10): the header and footer stop being pinned, so they never
+   cover most of the page. */
+@media (max-height: 520px) {
+  .bar-top,
+  .bar-bottom,
+  .action-row {
+    position: static;
+  }
+}
+/* A focused item is never hidden under the pinned header or footer (WCAG 2.4.11). */
+#root {
+  scroll-padding-top: 5rem;
+  scroll-padding-bottom: 10rem;
 }
 
 @layer components {
@@ -243,6 +276,33 @@ button {
   .settings-grid {
     @apply flex flex-col gap-6;
   }
+  /* Developer Notes: a plain reading layout for the rendered documents. */
+  .doc {
+    @apply text-base leading-relaxed;
+    user-select: text;
+    -webkit-user-select: text;
+    overflow-wrap: anywhere;
+  }
+  .doc h1 { @apply mt-2 mb-3 text-xl font-semibold; }
+  .doc h2 { @apply mt-5 mb-2 text-lg font-semibold; }
+  .doc h3, .doc h4 { @apply mt-4 mb-2 font-semibold; }
+  .doc p, .doc ul, .doc ol, .doc pre, .doc blockquote { @apply mb-3; }
+  .doc ul { @apply list-disc pl-5; }
+  .doc ol { @apply list-decimal pl-5; }
+  .doc li { @apply mb-1; }
+  .doc li > ul, .doc li > ol { @apply mt-1 mb-0; }
+  .doc a { @apply underline underline-offset-2; }
+  .doc code { @apply rounded bg-line px-1 text-[0.9em]; }
+  .doc pre { @apply overflow-x-auto rounded-lg bg-line p-3 text-sm; }
+  .doc pre code { @apply bg-transparent p-0; }
+  .doc blockquote { @apply border-l-4 border-line pl-3 text-muted; }
+  .doc hr { @apply my-4 border-t-2 border-line; }
+  .doc-table { @apply mb-3 overflow-x-auto; }
+  .doc table { @apply w-full border-collapse text-sm; }
+  .doc th, .doc td { @apply border-2 border-line px-2 py-1.5 text-left align-top; overflow-wrap: normal; word-break: normal; min-width: 5.5rem; }
+  .doc td:last-child, .doc th:last-child { min-width: 14rem; }
+  .doc th { @apply font-semibold; }
+  .devnotes > summary, .devnotes details > summary { list-style-position: inside; }
   /* Low-emphasis button: no fill, no border. */
   .btn-tertiary {
     @apply inline-flex min-h-9 items-center rounded-lg px-2 text-sm text-muted underline-offset-4 hover:underline;
@@ -267,6 +327,7 @@ button {
     }
     .btn-primary:active:not(:disabled), .btn-submit:active:not(:disabled), .btn-secondary:active:not(:disabled), .choice:active:not(:disabled), .chip:active:not(:disabled) {
       transform: none;
+      transition: none;
     }
   }
 }

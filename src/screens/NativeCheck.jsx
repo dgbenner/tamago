@@ -47,7 +47,7 @@ export default function NativeCheck({ sentences, results, onChange, onBack }) {
       <label className="flex flex-col gap-1">
         <span className="text-sm font-medium">Your name (optional, for the credits)</span>
         <input value={results.$checker ?? ''} maxLength={60} onChange={(e) => onChange({ ...results, $checker: e.target.value })}
-          className="min-h-11 rounded-xl border-2 border-line bg-surface px-3 text-base" />
+          className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base" />
       </label>
       <label className="flex items-start gap-2 text-sm">
         <input type="checkbox" checked={Boolean(results.$license)} onChange={(e) => onChange({ ...results, $license: e.target.checked })} className="mt-1 size-4" />
@@ -108,19 +108,19 @@ function Card({ s, r, set, position }) {
           <label className="flex flex-col gap-1">
             <span className="text-sm font-medium">Corrected French</span>
             <input lang="fr" defaultValue={r.french_fix ?? s.french} onBlur={(e) => set({ french_fix: e.target.value.trim() })} autoCapitalize="sentences"
-              className="min-h-11 rounded-xl border-2 border-line bg-surface px-3 text-base" />
+              className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base" />
           </label>
           <label className="flex flex-col gap-1">
             <span className="text-sm font-medium">Corrected English (if it changes)</span>
             <input defaultValue={r.english_fix ?? s.english} onBlur={(e) => set({ english_fix: e.target.value.trim() })}
-              className="min-h-11 rounded-xl border-2 border-line bg-surface px-3 text-base" />
+              className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base" />
           </label>
         </>
       )}
       <label className="flex flex-col gap-1">
         <span className="text-sm font-medium">Note (optional)</span>
         <textarea defaultValue={r.note ?? ''} rows={2} onBlur={(e) => set({ note: e.target.value.trim() })}
-          className="rounded-xl border-2 border-line bg-surface px-3 py-2 text-base" />
+          className="rounded-xl border-2 border-field bg-surface px-3 py-2 text-base" />
       </label>
       <div className="flex flex-col gap-2">
         <p className="text-sm font-medium">Recording{r.verdict === 'fix' ? ' (of the corrected French)' : ''}</p>

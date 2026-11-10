@@ -52,7 +52,7 @@ export default function Glossary({ words, groups, statusOf, examplesOf, tableOf,
           <span className="font-medium">Show All A1 Words</span>
         </label>
         <input type="search" value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Find a word, in French or English"
-          className="min-h-11 rounded-xl border-2 border-line bg-surface px-3 text-base" aria-label="Find a word" />
+          className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base" aria-label="Find a word" />
         {/* The four kinds, each a filter: tap one to show only it, tap again for all. */}
         <div className="flex flex-wrap gap-2" role="group" aria-label="Show by how well you know them">
           {ORDER.filter((k) => k !== 'new' || all).map((k) => (
@@ -78,10 +78,10 @@ export default function Glossary({ words, groups, statusOf, examplesOf, tableOf,
               const isOpen = open === w.word_id
               const table = tableOf(w)
               return (
-                <div key={w.word_id} className={`rounded-xl border-2 border-line bg-surface ${st === 'new' ? 'opacity-75' : ''}`}>
+                <div key={w.word_id} className="rounded-xl border-2 border-line bg-surface">
                   <button onClick={() => setOpen(isOpen ? null : w.word_id)} aria-expanded={isOpen} className="flex w-full items-center gap-3 px-3 py-2 text-left">
                     <span lang="fr" className="font-semibold">{w.form}</span>
-                    <span className="flex-1 truncate text-muted">{w.hint}</span>
+                    <span className="flex-1 text-muted">{w.hint}</span>
                     <span className={`inline-flex items-center gap-1.5 text-xs ${st === 'missed' ? 'text-wrong' : 'text-muted'}`}><Dot status={st} />{STATUS[st].label}</span>
                   </button>
                   {isOpen && (

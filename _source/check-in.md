@@ -1,9 +1,18 @@
 # Tamago check-in
 
-Updated November 9, 2026, late. Working through your test notes (_source/test-notes.md) in three passes. **All three passes of your test notes are live** at https://tamago-83f.pages.dev.
+Updated November 9, 2026, late. Working through your test notes (_source/test-notes.md) in three passes. **All three passes of your test notes, Pass 4 (accessibility, WCAG 2.2 AA) and Developer Notes are live** at https://tamago-83f.pages.dev.
 
 ## Done since last check-in
 
+- **Pass 4, accessibility (WCAG 2.2 AA):**
+  - Keyboard: every question type can be answered on desktop with Tab and Enter alone. Enter checks; on a word or choice not yet picked, Enter picks it; after an answer, focus is on Continue and Enter goes on. Focus stays put when a picked chip or matched pair disappears. Unit and checkpoint details are proper dialogs (Escape closes them and focus returns).
+  - Focus: a blue ring shows wherever the keyboard is, in light and dark, and never hides under the pinned bars.
+  - Screen readers: every control and audio button says what it does ("Play the sentence", "Choice 2, plays its sentence", "Picture: cat"); chosen items and matched pairs are announced; each screen has its own title and heading.
+  - Contrast: a few colours moved by a hair to pass. The orange fill, the blue points chip and the gray secondary text are each a shade darker, and text fields got a slightly stronger edge. Nothing else in the look changed.
+  - Zoom: at 200% and at a 320 px width nothing is cut off and nothing scrolls sideways; on very short screens the header and footer stop being pinned.
+  - Reduced motion: with the device asking for it, nothing moves; the opening screen shows the letters already drawn.
+  - Checked with axe (the standard automated WCAG checker) on every screen and question type, light and dark, phone and desktop: no violations. Keyboard-only runs in Chrome and Firefox answered all 13 question types.
+- **Developer Notes:** at the bottom of Settings, collapsed. Inside, one item per document: the craft review rubric, the latest grade table, the feature list, question types, build phases, autonomous build, your test notes and this check-in. They're read from _source and _review at each deploy, so they stay current. Read only. One setting hides the whole section (Settings, Testing (For Dan), Developer Notes). Keys and secrets can't appear: anything key-shaped is blanked, and the tests fail if a document ever contains one.
 - **Test notes, Pass 3 (the Glossary):** Words is now the Glossary. It opens on your own words, each marked Learned, Missed, Fading or Not Yet, with a count for each that doubles as a filter. Show All A1 Words adds the whole level (209 words); there's a search box for French or English. A2 joins when its content exists.
 - **Test notes, Pass 2 (desktop and iPad in landscape):** the logo with its sushi sits left and points and settings right, in a shorter strip. Home uses the width: the path on the left, and a right-hand panel listing Glossary, Verbs, Self-Study and Progress with a line on each; a tool opens in the panel, beside the path. Unit and checkpoint details open as centred pop-ups. Practice and Next Lesson sit side by side. Lessons have bigger items and more room; Settings are in two columns. An iPad held upright asks to be turned sideways.
 - **Test notes, Pass 1 (all devices):**
@@ -34,6 +43,8 @@ Updated November 9, 2026, late. Working through your test notes (_source/test-no
 
 ## Decisions made
 
+- **Pass 4:** a picture choice is read aloud by its English meaning ("Picture: cat"), which makes Pick the Picture work like Pick the Meaning for someone who can't see the pictures. Enter on a choice that answers straight away (Pick the Meaning) answers it, as a tap does.
+- **Developer Notes:** on by default for now, like Testing shortcuts; both get turned off before testers. Only the eight documents you named are bundled; nothing else in _source reaches the app.
 - **Test notes, Pass 3:** a word counts as Missed when you get it wrong in Match the Pairs or Pick the Picture, or leave it out of a French answer; a later right answer clears it. A choice between whole sentences can't say which word tripped you, so it doesn't mark one. Fading means known but with recall under 80% now.
 - **Test notes, Pass 2:** desktop and iPad share one layout from 1024px wide, so a phone turned sideways keeps the phone layout. Unit details open as a centred pop-up (your notes), while the tools open in the right-hand panel (your decision on the secondary menu).
 - **Test notes:** Practice with nothing to bring back yet says so and offers the next lesson, rather than going gray. Skip on a checkpoint just marks it skipped; checkpoints never lock anything, so it can still be taken. "Finishing your first unit" for the level label means finishing its round 1 (that's when the next units open). Level markers sit where finishing the units above reaches the next band; the band itself follows your weakest skill, as on the Progress page.
@@ -46,6 +57,12 @@ Updated November 9, 2026, late. Working through your test notes (_source/test-no
 
 ## Waiting for Dan
 
+0. **Accessibility items I couldn't fix:**
+   - **iPad landscape only vs WCAG 1.3.4.** AA says an app mustn't lock itself to one orientation, so the "Turn your iPad sideways" note fails AA. Your Pass 2 notes asked for it, so I left it. Say the word and I'll remove it (an upright iPad would then get the phone layout).
+   - **Listening and speaking questions** need hearing and a voice by design. The alternative is the Can't Listen Now / Can't Speak Now button on each of those questions (and in Settings), which swaps them for reading and writing. There's no transcript for listening questions, since that would give the answer away.
+   - **Speak and Compare with a dismissed microphone prompt:** if someone closes the browser's microphone question without answering, Done stays off until they record. Can't Speak Now on that question gets them past it.
+   - **No person has used it with a screen reader yet** (VoiceOver or NVDA). The structure and labels pass the automated checks, but a real screen-reader session belongs in testing, ideally with someone who uses one daily.
+   - **Not covered by AA, not done:** Windows high-contrast mode (forced colours) wasn't tested.
 1. **Icons:**
    - Unclear group: Ikura.png, Tobiko.png and Uni.png (gunkan; filed under maki for now).
    - Side art: none came in this batch (miso soup, ice cream, yakitori and so on). Send it and the off-path nodes will get side icons.

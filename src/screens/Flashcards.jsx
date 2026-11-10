@@ -26,7 +26,7 @@ export default function Flashcards({ cards, aloud, onGrade, onDone }) {
       </header>
       <section className="flex flex-1 flex-col items-center justify-center gap-4 rounded-2xl border-4 border-line bg-surface p-6 text-center">
         <p lang="fr" className="text-3xl font-semibold">{card.form}</p>
-        <button onClick={() => play(card.audio)} aria-label="Play" className="icon-btn border-2 border-line"><IconSpeaker /></button>
+        <button onClick={() => play(card.audio)} aria-label="Play the word" className="icon-btn border-2 border-line"><IconSpeaker /></button>
         {aloud && !shown && <p className="text-sm text-muted">Say it aloud, then turn the card.</p>}
         {shown && (
           <>
