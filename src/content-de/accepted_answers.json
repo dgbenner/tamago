@@ -224,6 +224,142 @@
     "status": "live"
   },
   {
+    "answer_id": "A30061",
+    "sentence_id": "S3006",
+    "direction": "fr_to_en",
+    "answer": "Are you all right?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30071",
+    "sentence_id": "S3007",
+    "direction": "fr_to_en",
+    "answer": "Good morning!",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30121",
+    "sentence_id": "S3012",
+    "direction": "fr_to_en",
+    "answer": "Goodnight!",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30122",
+    "sentence_id": "S3012",
+    "direction": "fr_to_en",
+    "answer": "Good night!",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30131",
+    "sentence_id": "S3013",
+    "direction": "fr_to_en",
+    "answer": "Good day!",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30132",
+    "sentence_id": "S3013",
+    "direction": "fr_to_en",
+    "answer": "Good afternoon!",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30161",
+    "sentence_id": "S3016",
+    "direction": "fr_to_en",
+    "answer": "There they are.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30191",
+    "sentence_id": "S3019",
+    "direction": "fr_to_en",
+    "answer": "Hello! How are you?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30192",
+    "sentence_id": "S3019",
+    "direction": "fr_to_en",
+    "answer": "Hi! How are you?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30211",
+    "sentence_id": "S3021",
+    "direction": "fr_to_en",
+    "answer": "Are you all right, Tom?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30231",
+    "sentence_id": "S3023",
+    "direction": "fr_to_en",
+    "answer": "Hi! How are you?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30261",
+    "sentence_id": "S3026",
+    "direction": "fr_to_en",
+    "answer": "Fine. And you?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30271",
+    "sentence_id": "S3027",
+    "direction": "fr_to_en",
+    "answer": "Fine. And you?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30291",
+    "sentence_id": "S3029",
+    "direction": "fr_to_en",
+    "answer": "Is Tom alright?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30292",
+    "sentence_id": "S3029",
+    "direction": "fr_to_en",
+    "answer": "Is Tom all right?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30293",
+    "sentence_id": "S3029",
+    "direction": "fr_to_en",
+    "answer": "Is Tom doing OK?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A30294",
+    "sentence_id": "S3029",
+    "direction": "fr_to_en",
+    "answer": "Is Tom doing okay?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
     "answer_id": "GS1105-2022825",
     "sentence_id": "S1105",
     "direction": "en_to_fr",
@@ -232,5 +368,35 @@
     "source_id": "2022825",
     "status": "live",
     "source_owner": "Tamy"
+  },
+  {
+    "answer_id": "GS3105-4884547",
+    "sentence_id": "S3105",
+    "direction": "en_to_fr",
+    "answer": "Danke schön und auf Wiedersehen!",
+    "source": "tatoeba",
+    "source_id": "4884547",
+    "status": "live",
+    "source_owner": "Pfirsichbaeumchen"
+  },
+  {
+    "answer_id": "GS3106-499092",
+    "sentence_id": "S3106",
+    "direction": "en_to_fr",
+    "answer": "Entschuldigen Sie!",
+    "source": "tatoeba",
+    "source_id": "499092",
+    "status": "live",
+    "source_owner": "Pfirsichbaeumchen"
+  },
+  {
+    "answer_id": "GS3106-7769449",
+    "sentence_id": "S3106",
+    "direction": "en_to_fr",
+    "answer": "Verzeihung?",
+    "source": "tatoeba",
+    "source_id": "7769449",
+    "status": "live",
+    "source_owner": "Yorwba"
   }
 ]

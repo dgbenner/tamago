@@ -673,7 +673,7 @@ Every Spanish sentence I wrote (127), for a native speaker of Latin American Spa
 
 ## German drafted sentences
 
-Every German sentence I wrote (20), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (27), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (12)
 
@@ -700,3 +700,13 @@ Every German sentence I wrote (20), for a native speaker of German as spoken in 
 - S2106 Ist die Zeitung hier? = Is the newspaper here?
 - S2107 Die Frau ist hier. = The woman is here.
 - S2108 Ist das Haus groß? = Is the house big?
+
+**U03 Polite Phrases** (7)
+
+- S3102 Guten Tag! Wie geht es Ihnen? = Good afternoon! How are you?
+- S3103 Gute Nacht, Anna! = Good night, Anna!
+- S3104 Auf Wiedersehen, Tom! = Goodbye, Tom!
+- S3105 Danke und auf Wiedersehen! = Thank you and goodbye!
+- S3106 Entschuldigung! = Excuse me!
+- S3107 Entschuldigung, bist du Tom? = Excuse me, are you Tom?
+- S3108 Entschuldigung, ist das Tom? = Excuse me, is that Tom?

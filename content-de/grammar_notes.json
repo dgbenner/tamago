@@ -13,6 +13,13 @@
       "example_sentence_ids": "S2012;S2001;S2104",
       "conjugation_lemma": "sein",
       "status": "live"
+    },
+    {
+      "unit_id": "U03",
+      "rule": "German has two words for you. Du is for one friend, a child or family; Sie, always with a capital S, is the polite you for an adult you don't know well, and it works for one person or several. Wie geht es dir? asks a friend how they are; Wie geht es Ihnen? asks politely. Dir and Ihnen are the forms of du and Sie after geht es. Guten Morgen, guten Tag and guten Abend are hellos; gute Nacht and auf Wiedersehen are goodbyes.",
+      "example_sentence_ids": "S3001;S3002;S3004",
+      "conjugation_lemma": "",
+      "status": "live"
     }
   ]
 }
