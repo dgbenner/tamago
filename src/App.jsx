@@ -12,7 +12,7 @@ import About from './screens/About.jsx'
 import Splash from './screens/Splash.jsx'
 import GrammarNote from './screens/GrammarNote.jsx'
 import Progress from './screens/Progress.jsx'
-import Words from './screens/Words.jsx'
+import Glossary from './screens/Glossary.jsx'
 import Flashcards from './screens/Flashcards.jsx'
 import Verbs from './screens/Verbs.jsx'
 import VariantBank from './screens/VariantBank.jsx'
@@ -85,6 +85,8 @@ export default function App() {
   const [deck, setDeck] = useState({})
   const [checkpoints, setCheckpoints] = useState({})
   const [checkpointsSkipped, setCheckpointsSkipped] = useState({})
+  // Pass 3: words got wrong, for the Glossary's Missed (word_id to the date); a later right answer clears them.
+  const [wordMisses, setWordMisses] = useState({})
   const [variantStatus, setVariantStatus] = useState({})
   const [flash, setFlash] = useState(null)
   // Phase 3: the topic chosen at the Your topic node (a pack unit id), or null.
@@ -119,6 +121,7 @@ export default function App() {
       setDeck(s.kv.flashcards ?? {})
       setCheckpoints(s.kv.checkpoints ?? {})
       setCheckpointsSkipped(s.kv.checkpoints_skipped ?? {})
+      setWordMisses(s.kv.word_misses ?? {})
       applyVariants(s.kv.variant_status ?? {})
       if (s.kv.topic_choice) setTopicChoice(s.kv.topic_choice)
       setProfile(s.kv.profile ?? {})
@@ -393,6 +396,7 @@ export default function App() {
     if (first && !q.speaking && !['placement', 'generated'].includes(session.kind)) {
       setCards((cs) => { const next = rate(cs, q.sentence_id ?? q.word_ids[0], result); putKv('fsrs_cards', next); return next })
     }
+    if (first && !q.speaking && !result.testSkip && session.kind !== 'placement') noteWordMisses(q, result)
     let next = session
     if (session.kind === 'placement' && first) next = { ...next, placement: [...(next.placement ?? []), { unit_id: q.unit_id, correct: result.correct }] }
     // Speaking is never graded: it earns a point when done (R14) and stays out of the score and the pass.
@@ -447,6 +451,31 @@ export default function App() {
     const next = swapRemaining(contentFor(session), session, modes)
     setSession(next)
     putKv('current_session', next)
+  }
+
+  // Which words an answer missed: the word in a match pair or picture, or, for an answer written in French, each word of
+  // the sentence the answer left out. A choice between sentences can't say which word was the problem, so it marks none.
+  const wordsOf = (text) => new Set(String(text).toLowerCase().normalize('NFC').split(/[^a-zà-ÿœæ]+/).filter(Boolean))
+  const noteWordMisses = (q, result) => {
+    const segs = (q.segments ?? []).filter((x) => x.word_id)
+    let missed = []
+    if (!result.correct) {
+      if (result.missedWord) missed = [result.missedWord]
+      else if (q.type === 'QT02') missed = q.word_ids ?? []
+      else if (q.lang === 'fr' && q.type !== 'QT09' && typeof result.given === 'string') { // QT09's answer is another sentence
+        const given = wordsOf(result.given)
+        missed = segs.filter((x) => [...wordsOf(x.text)].some((w) => !given.has(w))).map((x) => x.word_id)
+      }
+    }
+    const cleared = result.correct ? [...segs.map((x) => x.word_id), ...(q.word_ids ?? [])] : []
+    if (!missed.length && !cleared.some((id) => wordMisses[id])) return
+    setWordMisses((m) => {
+      const n = { ...m }
+      for (const id of cleared) delete n[id]
+      for (const id of missed) n[id] = today()
+      putKv('word_misses', n)
+      return n
+    })
   }
 
   const onHint = (q, seg) => {
@@ -595,8 +624,17 @@ export default function App() {
   // Screens that open in the right-hand panel on wide screens, and as full pages on a phone.
   const panelScreens = {
     words: () => {
-    return <Words words={metWords()} units={[...tables.units].sort((a, b) => a.order - b.order)} recallOf={recallOf} examplesOf={examplesOf} tableOf={tableOf}
-      onMatch={startMatch} onFlashcards={startFlashcards} onBack={() => setScreen('home')} />
+    // The Glossary: every A1 word (main units, then the topics), each Learned, Missed, Fading or Not Yet.
+    const a1 = [...tables.units].filter((u) => u.cefr === 'A1' && String(u.status).startsWith('live') && u.is_topic_pick !== 'node').sort((a, b) => a.order - b.order)
+    const inA1 = new Set(a1.map((u) => u.unit_id))
+    const statusOf = (id) => {
+      if (!seenWords.current.has(id)) return 'new'
+      if (wordMisses[id]) return 'missed'
+      const r = recallOf(id)
+      return r !== null && r < 0.8 ? 'fading' : 'learned'
+    }
+    return <Glossary words={tables.words.filter((w) => inA1.has(w.first_unit))} groups={a1.map((u) => ({ unit_id: u.unit_id, title: u.is_topic_pick === 'yes' ? `${u.title} (Topic)` : u.title }))}
+      statusOf={statusOf} examplesOf={examplesOf} tableOf={tableOf} onMatch={startMatch} onFlashcards={startFlashcards} onBack={() => setScreen('home')} />
   },
     verbs: () => {
     const lemmas = new Set(metWords().filter((w) => w.part_of_speech === 'Verb').map((w) => w.lemma))

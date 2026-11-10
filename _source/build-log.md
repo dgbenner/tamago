@@ -302,3 +302,11 @@ Notes saved to _source/test-notes.md. Decisions at their top settle the open cho
 - Settings: the sections in two columns.
 - iPad landscape only: a touch screen 744px or wider held in portrait shows "Turn your iPad sideways". The manifest's orientation can't be set per device, so this is in the page.
 - Checked in Chrome and Firefox: desktop 1440x900 (panel opens Glossary in place, Back, pop-up centred, buttons side by side, lesson, settings), iPad 1180x820 landscape (two columns, no note), 820x1180 portrait (note), phone landscape 844x390 (phone layout, no note); the Pass 1 phone flow again; 53 unit tests. No page errors.
+
+## Dan's test notes, Pass 3: the Glossary (2026-11-09)
+
+- Words became the Glossary (src/screens/Glossary.jsx). It opens on the learner's own words with a status each: Learned, Missed, Fading, Not Yet. "Show All A1 Words" adds the rest of the level (209 words, main units then the topics, grouped by unit title); A2 waits for its content.
+- Missed needed new data: kv word_misses (word_id to date). A first answer records a miss for the mismatched word in Match the Pairs (not on first sight, as before), the word in Pick the Picture, or each word of the sentence that a French answer (typed or built; not Answer the Question, whose answer is another sentence) left out. Choices between whole sentences can't say which word was wrong, so they record none. A later right first answer containing the word clears it. Test skips and placement record nothing.
+- Fading: met and FSRS recall under 0.8. Learned: met otherwise. Not Yet: not met.
+- Status chips filter (tap again for all), a search over French and English, and the existing Match, Flashcards, examples with audio and verb tables. Opens in the right-hand panel on wide screens.
+- Checked in Chrome and Firefox, phone and desktop: empty state, Show All A1 Words (209 Not Yet), search, two lessons with a real mismatch on a known word (shows as Missed, and alone under the Missed filter); Passes 1 and 2 again; 53 unit tests. No page errors.
