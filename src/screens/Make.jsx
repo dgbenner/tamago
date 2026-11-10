@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react'
 import { generateReady } from '../lib/generate.js'
+import { converseReady } from '../lib/converse.js'
 import NeedsSetup from './NeedsSetup.jsx'
 import { IconBack } from './icons.jsx'
-import { TL, course } from '../lib/course.js'
+import { COURSES, TL, chooseCourse, course } from '../lib/course.js'
 
 // Learner-guided practice (Phase 5): the learner asks, Tamago builds it in its own question shapes.
 // Lesson on a weak point, a test on this week's sentences and flashcards from a list need nothing outside the app.
@@ -17,11 +18,56 @@ function Block({ title, text, children }) {
   )
 }
 
-export default function Make({ weakSkill, weekCount, metCount, listMatch, onWeak, onWeek, onList, onSentences, onListening, status, onBack }) {
+// A filter: a labelled row of choices, like a segmented control.
+function Choice({ label, value, options, onChange }) {
+  return (
+    <fieldset className="flex flex-col gap-1">
+      <legend className="mb-1 text-sm text-muted">{label}</legend>
+      <div className="flex flex-wrap gap-2">
+        {options.map(([v, text]) => (
+          <button key={v} type="button" onClick={() => onChange(v)} aria-pressed={value === v}
+            className={`rounded-full border-2 px-3 py-1 text-sm ${value === v ? 'border-orange bg-orange text-white' : 'border-line bg-surface'}`}>{text}</button>
+        ))}
+      </div>
+    </fieldset>
+  )
+}
+
+// The conversation partner (Dan, 2026-11-10): not tied to a circle. Filters the learner can change, with defaults
+// from their progress.
+function Partner({ partner, onStart }) {
+  const [f, setF] = useState(partner.defaults)
+  const set = (k) => (v) => setF((x) => ({ ...x, [k]: v }))
+  const enough = partner.metCount >= 10
+  return (
+    <Block title="Conversation Partner" text={enough ? `Talk with Claude in ${course.name}, spoken or typed. Never graded; new words go to your Glossary.` : 'Meet 10 words first.'}>
+      <label className="flex flex-col gap-1">
+        <span className="text-sm text-muted">Language</span>
+        <select value={course.id} onChange={(e) => chooseCourse(e.target.value)} className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base">
+          {COURSES.filter((c) => c.ready).map((c) => <option key={c.id} value={c.id}>{c.name}</option>)}
+        </select>
+      </label>
+      <label className="flex flex-col gap-1">
+        <span className="text-sm text-muted">Topic</span>
+        <select value={f.topic} onChange={(e) => set('topic')(e.target.value)} className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base">
+          <option value="free">Free conversation</option>
+          {partner.topics.map((t) => <option key={t} value={t}>{t}</option>)}
+        </select>
+      </label>
+      <Choice label="Vocabulary" value={f.vocabulary} onChange={set('vocabulary')} options={[['mine', 'My Words Only'], ['few', 'My Words Plus a Few New']]} />
+      <Choice label="Speed" value={f.speed} onChange={set('speed')} options={[['slow', 'Slow'], ['normal', 'Normal'], ['natural', 'Natural']]} />
+      <Choice label="Corrections" value={f.corrections} onChange={set('corrections')} options={[['each', 'Each Turn'], ['end', 'At the End'], ['off', 'Off']]} />
+      <button onClick={() => onStart(f)} disabled={!enough} className="btn-secondary">Start a Conversation</button>
+    </Block>
+  )
+}
+
+export default function Make({ weakSkill, weekCount, metCount, listMatch, onWeak, onWeek, onList, onSentences, onListening, status, onBack, partner, onPartner }) {
   const [list, setList] = useState('')
   const [focus, setFocus] = useState('')
   const [ready, setReady] = useState(null)
-  useEffect(() => { generateReady().then(setReady) }, [])
+  const [talkReady, setTalkReady] = useState(null)
+  useEffect(() => { generateReady().then(setReady); converseReady().then(setTalkReady) }, [])
   const match = list.trim() ? listMatch(list) : null
   const enough = metCount >= 20
   return (
@@ -60,7 +106,8 @@ export default function Make({ weakSkill, weekCount, metCount, listMatch, onWeak
           {status && <p role="status" className="text-sm text-muted">{status}</p>}
         </Block>
       )}
-      <NeedsSetup title="Conversation">A short spoken or typed exchange with Claude in {course.name}, kept to the words you know. Needs an API key and its own design pass.</NeedsSetup>
+      {talkReady === false && <NeedsSetup title="Conversation Partner">A short spoken or typed exchange with Claude in {course.name}, kept to the words you know. Needs the API key.</NeedsSetup>}
+      {talkReady && partner && <Partner partner={partner} onStart={onPartner} />}
     </main>
   )
 }

@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useId, useRef, useState } from 'react'
 import { LogoInline, SushiMark } from './Logo.jsx'
-import { IconBars, IconBook, IconCode, IconCheckered, IconClose, IconGear, IconLock, IconStudy, IconVerb } from './icons.jsx'
+import { IconBars, IconBook, IconCode, IconCheckered, IconClose, IconComment, IconGear, IconLock, IconStudy, IconVerb } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
 import CircleNode from './CircleNode.jsx'
@@ -163,6 +163,40 @@ function FinalCard({ fc, onStart, onClose }) {
   )
 }
 
+// Conversation scenes (Dan, 2026-11-10): three per course, after the second help circle. Claude speaks a little
+// above the learner's level so that asking for help is the practice. Never graded, never locks anything.
+function ScenesNode({ sc, onPick }) {
+  const done = sc.scenes.filter((x) => x.done).length
+  return (
+    <button onClick={onPick} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-4 py-1.5 font-semibold ${sc.available ? 'text-ink' : 'text-muted'}`}>
+      <span className="[&_svg]:size-4"><IconComment /></span>
+      Conversations
+      {done > 0 && <span className="text-sm font-normal text-muted">{done} of {sc.scenes.length}</span>}
+    </button>
+  )
+}
+function ScenesCard({ sc, onStart, onClose }) {
+  return (
+    <Sheet onClose={onClose}>
+      <SheetHead kicker="Talk with Claude" title="Conversations" onClose={onClose} />
+      <p className="mt-2">Short scenes, spoken or typed. Claude speaks a little above your level on purpose, so use the help phrases: slower, again, what does it mean.</p>
+      <p className="mt-2 text-sm text-muted">Each starts with its key words. Never graded; new words go to your Glossary.</p>
+      {sc.available ? (
+        <ul className="mt-4 flex flex-col gap-2">
+          {sc.scenes.map((x) => (
+            <li key={x.id}>
+              <button onClick={() => onStart(x)} className="flex w-full items-center justify-between rounded-xl border-2 border-line bg-surface p-3 text-left">
+                <span className="font-semibold">{x.title}</span>
+                {x.done && <span className="text-right-ink" aria-label="done">✓</span>}
+              </button>
+            </li>
+          ))}
+        </ul>
+      ) : <p className="mt-4 text-sm">They open when you've finished the first lessons of Asking About Words.</p>}
+    </Sheet>
+  )
+}
+
 export function CheckpointNode({ cp, onPick }) {
   return (
     <button onClick={() => onPick(cp)} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-3 py-1 text-sm ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
@@ -236,12 +270,13 @@ function Points({ total, today }) {
 }
 
 export default function Home({ wide, panel, rows, markers, levelLabel, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
-  finalCheck, onFinal, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
+  finalCheck, onFinal, scenes, onScene, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
   const [languages, setLanguages] = useState(false)
   const [finalOpen, setFinalOpen] = useState(false)
+  const [scenesOpen, setScenesOpen] = useState(false)
   return (
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
@@ -284,6 +319,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
               {row.map((node) => <Node key={node.unit.unit_id} node={node} onPick={setPicked} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
+            scenes && scenes.afterRow === n && <li key={`sc${i}`}><ScenesNode sc={scenes} onPick={() => setScenesOpen(true)} /></li>,
           ]
         })}
         {finalCheck && <li><FinalNode fc={finalCheck} onPick={() => setFinalOpen(true)} /></li>}
@@ -326,6 +362,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
           onStart={() => { setCpPicked(null); onCheckpoint(cpPicked.afterRow) }}
           onSkip={() => { setCpPicked(null); onSkipCheckpoint(cpPicked.afterRow) }} />
       )}
+      {scenesOpen && <ScenesCard sc={scenes} onClose={() => setScenesOpen(false)} onStart={(x) => { setScenesOpen(false); onScene(x) }} />}
       {finalOpen && <FinalCard fc={finalCheck} onClose={() => setFinalOpen(false)} onStart={() => { setFinalOpen(false); onFinal() }} />}
       {languages && (
         <Sheet onClose={() => setLanguages(false)}>

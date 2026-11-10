@@ -24,6 +24,8 @@ import Forum from './screens/Forum.jsx'
 import Make from './screens/Make.jsx'
 import Listening from './screens/Listening.jsx'
 import Developer from './screens/Developer.jsx'
+import Conversation from './screens/Conversation.jsx'
+import { SCENES } from './lib/converse.js'
 import { firstCircleMarker } from './screens/CircleNode.jsx'
 import { EXAMS, finalItems, finalLine, finalScores } from './lib/finalcheck.js'
 import { listeningFrom, requestGenerated, sentencesFrom } from './lib/generate.js'
@@ -70,6 +72,9 @@ export default function App() {
   const [ready, setReady] = useState(false)
   const wide = useWide()
   const [screen, setScreen] = useState('home')
+  // A conversation in progress (Dan, 2026-11-10): a scene from the path or the partner from Self-Study.
+  const [convo, setConvo] = useState(null)
+  const [scenesDone, setScenesDone] = useState({})
   const [settings, setSettings] = useState(DEFAULT_SETTINGS)
   const [bank, setBank] = useState([])
   const [progressByUnit, setProgressByUnit] = useState({})
@@ -143,6 +148,7 @@ export default function App() {
       setActiveDays(s.kv.active_days ?? [])
       setDeck(s.kv.flashcards ?? {})
       setCheckpoints(s.kv.checkpoints ?? {})
+      setScenesDone(s.kv.scenes_done ?? {})
       setCheckpointsSkipped(s.kv.checkpoints_skipped ?? {})
       setWordMisses(s.kv.word_misses ?? {})
       setFinalCheck(s.kv.final_check ?? null)
@@ -405,6 +411,25 @@ export default function App() {
   // The final A1 check: four parts over every A1 unit's sentences, modeled on the course's A1 exam (finalcheck.js).
   const mainUnitIds = layout.filter((t) => !isTopicNode(t.unit_id)).map((t) => t.unit_id)
   const startFinal = () => begin(buildSession(allContent, 'final', finalItems(allContent, mainUnitIds), { settings: lessonModes() }))
+  // Conversations (2026-11-10). Help phrases follow the help circles opened (1 to 3); scenes open once the second help
+  // circle has had its first lessons. Claude gets the learner's words and the course's A1 words, as forms only.
+  const helpIds = ['U31', 'U32', 'U33'].filter((id) => tables.units.some((u) => u.unit_id === id && String(u.status).startsWith('live')))
+  const helpLevel = helpIds.filter((id) => isOpen(id)).length
+  const sceneInfo = helpIds[1] ? { afterRow: rowOf(helpIds[1])?.row, available: progressOf(helpIds[1]).round_reached >= 1, scenes: (SCENES[course.id] ?? []).map((sc) => ({ ...sc, done: scenesDone[sc.id] ?? null })) } : null
+  const a1Forms = [...new Set(tables.words.filter((w) => !packs.some((p) => p.unit_id === w.first_unit)).map((w) => w.form))]
+  const startConversation = (mode, scene, settingsFor, back) => setConvo({ mode, scene, settings: settingsFor, back }) || setScreen('converse')
+  const conversationEnded = (found, c) => {
+    for (const w of found) seenWords.current.add(w.word_id)
+    if (found.length) putKv('seen_words', [...seenWords.current])
+    if (c.mode === 'scene') setScenesDone((m) => { const n = { ...m, [c.scene.id]: today() }; putKv('scenes_done', n); return n })
+    markActive()
+  }
+  // The partner's defaults come from progress: the circle in hand, the learner's words, a gentler speed early on.
+  const partnerDefaults = () => {
+    const met = metWords().length
+    return { topic: tables.units.find((u) => u.unit_id === currentUnit)?.title ?? 'free', vocabulary: met < 80 ? 'mine' : 'few', speed: met < 60 ? 'slow' : 'normal', corrections: 'end' }
+  }
+  const partnerTopics = tables.units.filter((u) => onPath(u) && isOpen(u.unit_id) && u.is_topic_pick !== 'node').sort((a, b) => a.order - b.order).map((u) => u.title)
   const finalInfo = { exam: EXAMS[course.id], available: mainUnitIds.length > 0 && mainUnitIds.every((u) => progressOf(u).round_reached >= 1), last: finalCheck }
   const startCheckpoint = (row) => {
     const ids = unitsUpTo(row).flatMap(itemsOf)
@@ -738,10 +763,20 @@ export default function App() {
     const weakSkill = canWeak ? graded.reduce((lo, s) => (scores[s].score < scores[lo].score ? s : lo), graded[0]) : null
     return <Make weakSkill={weakSkill ? weakSkill[0].toUpperCase() + weakSkill.slice(1) : null} weekCount={weekIds.length} metCount={metWords().length} listMatch={listMatch}
       onWeak={() => startWeakSkill(weakSkill)} onWeek={startWeek} onList={(words) => startFlashcards(false, words, 'make')}
-      onSentences={startGenerated} onListening={startListening} status={makeStatus} onBack={() => setScreen('home')} />
+      onSentences={startGenerated} onListening={startListening} status={makeStatus} onBack={() => setScreen('home')}
+      partner={{ defaults: partnerDefaults(), topics: partnerTopics, metCount: metWords().length }}
+      onPartner={(f) => startConversation('partner', f.topic === 'free'
+        ? { id: 'partner', title: 'Conversation', setting: 'A friendly, free conversation about everyday things.', ai: 'a friendly conversation partner', learner: 'a learner' }
+        : { id: 'partner', title: f.topic, setting: `A friendly conversation about ${f.topic.toLowerCase()}, using that topic's words.`, ai: 'a friendly conversation partner', learner: 'a learner' }, f, 'make')} />
   },
   }
   if (panelScreens[screen] && !wide) return panelScreens[screen]()
+  if (screen === 'converse' && convo) {
+    return <Conversation key={convo.scene.id + convo.mode} mode={convo.mode} scene={convo.scene} settings={convo.settings} known={metWords().map((w) => w.form)} pool={a1Forms}
+      names={courseNames.slice(0, 8)} helpLevel={helpLevel} words={tables.words} metIds={new Set(seenWords.current)} cantSpeak={paused(settings.cant_speak_until)}
+      onEnd={(found) => conversationEnded(found, convo)} onReview={(found) => { const back = convo.back; setConvo(null); startFlashcards(false, found, back) }}
+      onBack={() => { const back = convo.back; setConvo(null); setScreen(back) }} />
+  }
   if (screen === 'flashcards' && flash) return <Flashcards cards={flash.cards} aloud={flash.aloud} onGrade={gradeCard} onDone={() => { markActive(); const back = flash.back ?? 'words'; setFlash(null); setScreen(back) }} />
   if (screen === 'variants') {
     return <VariantBank types={tables.question_types.filter((t) => tables.variants.some((v) => v.type_id === t.type_id))} variants={tables.variants.map((v) => ({ ...v }))}
@@ -844,6 +879,7 @@ export default function App() {
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
       onCheckpoint={startCheckpoint} finalCheck={finalInfo} onFinal={startFinal}
+      scenes={sceneInfo} onScene={(sc) => startConversation('scene', sc, { speed: 'normal', corrections: 'end', vocabulary: 'few' }, 'home')}
       onSkipCheckpoint={(row) => setCheckpointsSkipped((m) => { const n = { ...m, [row]: today() }; putKv('checkpoints_skipped', n); return n })}
       practice={{ mistakes: bank.length, ready: bank.length > 0 || practiceIds().length > 0 }} onPractice={startPracticeMix}
       nextLabel={`Next Lesson: ${curUnit?.title ?? ''}`}

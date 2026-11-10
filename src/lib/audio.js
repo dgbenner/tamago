@@ -76,3 +76,16 @@ export function speakAll(lines, { slow = false, onEnd } = {}) {
     speechSynthesis.speak(u)
   })
 }
+
+// One line of a conversation (2026-11-10) at a chosen rate (slow, normal, natural); onEnd when it's spoken.
+export function speakLine(text, rate = 0.85, onEnd) {
+  stop()
+  if (!('speechSynthesis' in window) || !text) { onEnd?.(); return }
+  utterance = new SpeechSynthesisUtterance(text)
+  const voice = frenchVoice()
+  if (voice) utterance.voice = voice
+  utterance.lang = voice?.lang ?? course.voice[0]
+  utterance.rate = rate
+  if (onEnd) utterance.onend = onEnd
+  speechSynthesis.speak(utterance)
+}

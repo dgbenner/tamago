@@ -15,8 +15,9 @@ export const formIndexFor = (words) => words
   .map((w) => ({ word_id: w.word_id, parts: tokenize(w.form).map((t) => t.text.toLowerCase()) }))
   .sort((a, b) => b.parts.length - a.parts.length)
 
-// Returns { parts: [{ surface, word_id, name }], count } or { unknown } naming the first word not in the index.
-export function analyse(text, formIndex, { names = new Set() } = {}) {
+// Returns { parts: [{ surface, word_id, name, at, end }], count } or { unknown } naming the first word not in the index.
+// partial (conversations, 2026-11-10): carry on past an unknown word, marking it unknown, instead of stopping.
+export function analyse(text, formIndex, { names = new Set(), partial = false } = {}) {
   const toks = tokenize(text)
   const lower = toks.map((t) => t.text.toLowerCase())
   const parts = []
@@ -24,11 +25,12 @@ export function analyse(text, formIndex, { names = new Set() } = {}) {
     const hit = formIndex.find((f) => f.parts.every((p, k) => lower[i + k] === p))
     if (hit) {
       const last = toks[i + hit.parts.length - 1]
-      parts.push({ surface: norm(text).slice(toks[i].at, last.at + last.text.length), word_id: hit.word_id })
+      parts.push({ surface: norm(text).slice(toks[i].at, last.at + last.text.length), word_id: hit.word_id, at: toks[i].at, end: last.at + last.text.length })
       i += hit.parts.length
       continue
     }
-    if (names.has(lower[i])) { parts.push({ surface: toks[i].text, word_id: '', name: true }); i++; continue }
+    if (names.has(lower[i])) { parts.push({ surface: toks[i].text, word_id: '', name: true, at: toks[i].at, end: toks[i].at + toks[i].text.length }); i++; continue }
+    if (partial) { parts.push({ surface: toks[i].text, word_id: '', unknown: true, at: toks[i].at, end: toks[i].at + toks[i].text.length }); i++; continue }
     return { unknown: toks[i].text }
   }
   return { parts, count: toks.length }
