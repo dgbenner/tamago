@@ -13,6 +13,7 @@ Updated November 10, 2026. **Spanish has begun: language switching and Spanish U
   - **Unit 5 is live:** Pets and Animals, 44 sentences (30 Tatoeba, 14 drafts): tengo, tienes, tiene. Tatoeba's checked lines for pato, tortuga and ratón are nearly all "I am a mouse" kinds of sentence, which the brief cuts, so those words are drafted.
   - **Unit 6 is live:** More Than One, 56 sentences (30 Tatoeba, 26 drafts): los, las, unos, unas; somos, son; ustedes. Widened with the plural forms a plural sentence needs (grandes, pequeños, tienen, comen, beben, chicos, chicas, casas). Plurals within the first six units' words are thin on checked Tatoeba, hence the drafts.
   - **Unit 7 is live:** Describing Things, 33 sentences (30 Tatoeba, 3 drafted answers): agreement (bueno, buena), muy, también. From here Tatoeba has plenty, so drafting drops away.
+  - **Unit 8 is live:** Where Things Are, 35 sentences (30 Tatoeba, 5 drafts): estar for place (está, están, estamos) and hay for what there is, with aquí and allí.
   - I widened Unit 1 before drafting, as the brief says: me llamo / te llamas, chico, chica, señor, señora. 8 pulled lines cut (odd, idiomatic, or no meaning "right?").
 - **Language switching:**
   - First launch: "Choose Your Language" under the logo with your three flags; the opening screen waits for a pick. Anyone who already has French progress isn't asked.
@@ -480,7 +481,7 @@ Every sentence I wrote, for the native-speaker check. Tatoeba sentences aren't l
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (95), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (100), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (21)
 
@@ -597,3 +598,11 @@ Every Spanish sentence I wrote (95), for a native speaker of Latin American Span
 - S7101 Sí, soy nuevo. = Yes, I'm new. (QT09 answer)
 - S7102 Sí, es nuevo. = Yes, it's new. (QT09 answer)
 - S7103 Sí, Tom es muy bueno. = Yes, Tom is very good. (QT09 answer)
+
+**U08 Where Things Are** (5)
+
+- S8101 El gato está en la cama. = The cat is on the bed.
+- S8102 Hay una cama aquí. = There's a bed here.
+- S8103 El baño está allí. = The bathroom is over there.
+- S8104 Sí, hay leche. = Yes, there's milk. (QT09 answer)
+- S8105 No, no hay pan. = No, there's no bread. (QT09 answer)

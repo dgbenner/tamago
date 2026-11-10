@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U07 Describing Things: Adjectives agree with the noun (bueno, buena) and usually come after it; muy
+## U08 Where Things Are: estar for where something is: está, están, estamos; hay for what there is
 
-30 sentences picked from 103 candidates (target 30 to 40). Grammar point in 19 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 98 candidates (target 30 to 40). Grammar point in 28 (target 10). Questions for QT09: 0 (target 4).
 
-Contrast forms, sentences each (target 2): bueno 4, buena 3, viejo 3, vieja 3, nuevo 3, nueva 3.
+Contrast forms, sentences each (target 2): está 5, hay 7, están 11, aquí 15, allí 4.
 
-Every new word is in at least 3 sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: cama (1), baño (2). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S7001 | Es muy bueno. | It's very good. |  | [#1280018](https://tatoeba.org/en/sentences/show/1280018) | marcelostockle |
-| S7002 | Soy muy viejo. | I'm really old. |  | [#2094551](https://tatoeba.org/en/sentences/show/2094551) | Shishir |
-| S7003 | Es muy viejo. | It's very old. |  | [#2532482](https://tatoeba.org/en/sentences/show/2532482) | Shishir |
-| S7004 | ¿Eres nuevo? | Are you new? |  | [#530655](https://tatoeba.org/en/sentences/show/530655) | Shishir |
-| S7005 | ¿Eres nueva? | Are you new? |  | [#1596405](https://tatoeba.org/en/sentences/show/1596405) | marcelostockle |
-| S7006 | ¿Está bueno? | Is it good? |  | [#2409091](https://tatoeba.org/en/sentences/show/2409091) | Shishir |
-| S7007 | ¿Esto es nuevo? | Is this new? |  | [#3338515](https://tatoeba.org/en/sentences/show/3338515) | Shishir |
-| S7008 | ¿Está buena la leche? | Is the milk good? |  | [#1277818](https://tatoeba.org/en/sentences/show/1277818) | marcelostockle |
-| S7009 | Es muy vieja. | It's very old. |  | [#7966012](https://tatoeba.org/en/sentences/show/7966012) | Seael |
-| S7010 | Soy muy vieja. | I'm very old. |  | [#11096563](https://tatoeba.org/en/sentences/show/11096563) | Masatami |
-| S7011 | Yo también soy joven. | I'm young, too. | I am young, too. | [#3270316](https://tatoeba.org/en/sentences/show/3270316) | Shishir |
-| S7012 | Esta casa es muy buena. | This house is very good. |  | [#1003120](https://tatoeba.org/en/sentences/show/1003120) | Shishir |
-| S7013 | Es una casa nueva. | That's a new house. |  | [#1645942](https://tatoeba.org/en/sentences/show/1645942) | marcelostockle |
-| S7014 | ¿Tom es bueno? | Is Tom good? |  | [#2409264](https://tatoeba.org/en/sentences/show/2409264) | Shishir |
-| S7015 | ¿Es eso nuevo? | Is that new? |  | [#6688826](https://tatoeba.org/en/sentences/show/6688826) | arh |
-| S7016 | Es muy joven. | She's very young. | She is very young. | [#2002099](https://tatoeba.org/en/sentences/show/2002099) | Shishir |
-| S7017 | Es muy bonito. | It's very beautiful. |  | [#2120623](https://tatoeba.org/en/sentences/show/2120623) | Shishir |
-| S7018 | Eres muy bonita. | You're very beautiful. | You're really pretty.; You are very beautiful. | [#3850914](https://tatoeba.org/en/sentences/show/3850914) | cueyayotl |
-| S7019 | Ella es muy bonita. | She's very beautiful. |  | [#955344](https://tatoeba.org/en/sentences/show/955344) | cueyayotl |
-| S7020 | Tom es muy viejo. | Tom is very old. |  | [#1284308](https://tatoeba.org/en/sentences/show/1284308) | marcelostockle |
-| S7021 | Él es muy joven. | He is very young. |  | [#1433837](https://tatoeba.org/en/sentences/show/1433837) | marcelostockle |
-| S7022 | Sí, la leche está muy buena. | Yes, the milk is very good. |  | [#1667049](https://tatoeba.org/en/sentences/show/1667049) | marcelostockle |
-| S7023 | Yo también. | Me too. | Me, too.; So do I. | [#731630](https://tatoeba.org/en/sentences/show/731630) | Shishir |
-| S7024 | Es vieja. | She is old. |  | [#2353307](https://tatoeba.org/en/sentences/show/2353307) | Shishir |
-| S7025 | No es bonita. | She is not beautiful. |  | [#2857965](https://tatoeba.org/en/sentences/show/2857965) | cueyayotl |
-| S7026 | Estoy bien también. | I'm fine too. | I am also fine. | [#12883195](https://tatoeba.org/en/sentences/show/12883195) | ecorralest101 |
-| S7027 | Es un bonito libro. | This is a beautiful book. |  | [#2104043](https://tatoeba.org/en/sentences/show/2104043) | Shishir |
-| S7028 | El perro es bonito. | The dog is beautiful. |  | [#2104058](https://tatoeba.org/en/sentences/show/2104058) | Shishir |
-| S7029 | La casa es nueva. | The house is new. |  | [#2903849](https://tatoeba.org/en/sentences/show/2903849) | hayastan |
-| S7030 | ¿Es esto bueno? | Is this nice? |  | [#3836360](https://tatoeba.org/en/sentences/show/3836360) | cueyayotl |
+| S8001 | Hay baño aquí. | There is a bathroom here. |  | [#5168504](https://tatoeba.org/en/sentences/show/5168504) | cueyayotl |
+| S8002 | Hay un gato en la cocina. | There is a cat in the kitchen. |  | [#490858](https://tatoeba.org/en/sentences/show/490858) | Shishir |
+| S8003 | ¿Están ellos aquí? | Are they here? |  | [#6683670](https://tatoeba.org/en/sentences/show/6683670) | arh |
+| S8004 | Están allí. | They're there. |  | [#6600103](https://tatoeba.org/en/sentences/show/6600103) | arh |
+| S8005 | No están allí. | They aren't there. | They're not there. | [#5016912](https://tatoeba.org/en/sentences/show/5016912) | don_ramon |
+| S8006 | Está en una cocina. | It is in a kitchen. |  | [#2314603](https://tatoeba.org/en/sentences/show/2314603) | Shishir |
+| S8007 | Tom está en cama. | Tom is in bed. |  | [#3116952](https://tatoeba.org/en/sentences/show/3116952) | marcelostockle |
+| S8008 | Aquí estamos. | Here we are. |  | [#522353](https://tatoeba.org/en/sentences/show/522353) | Shishir |
+| S8009 | ¿Hay leche? | Is there milk? | Is there any milk? | [#2940975](https://tatoeba.org/en/sentences/show/2940975) | hayastan |
+| S8010 | ¿Estás allí? | Are you in there? |  | [#6601705](https://tatoeba.org/en/sentences/show/6601705) | arh |
+| S8011 | Estamos aquí. | We're here. | We are here. | [#1656329](https://tatoeba.org/en/sentences/show/1656329) | marcelostockle |
+| S8012 | En eso estamos. | We're looking into that. |  | [#5566599](https://tatoeba.org/en/sentences/show/5566599) | swyter |
+| S8013 | Estoy en la cocina. | I'm in the kitchen. |  | [#5165683](https://tatoeba.org/en/sentences/show/5165683) | ecorralest101 |
+| S8014 | Tom está en el baño. | Tom is in the bathroom. |  | [#2338144](https://tatoeba.org/en/sentences/show/2338144) | hayastan |
+| S8015 | ¿Están ellas aquí? | Are they here? |  | [#6683671](https://tatoeba.org/en/sentences/show/6683671) | arh |
+| S8016 | ¿Está aquí? | Is it here? | Is she here? | [#1236618](https://tatoeba.org/en/sentences/show/1236618) | Shishir |
+| S8017 | ¿Están bien? | Are you guys OK? |  | [#3562591](https://tatoeba.org/en/sentences/show/3562591) | ficion |
+| S8018 | ¿Hay pan? | Is there any bread? |  | [#4409919](https://tatoeba.org/en/sentences/show/4409919) | ecorralest101 |
+| S8019 | ¿Eres nuevo aquí? | Are you new here? |  | [#580845](https://tatoeba.org/en/sentences/show/580845) | Shishir |
+| S8020 | ¿Está aquí Tom? | Is Tom here? |  | [#2409262](https://tatoeba.org/en/sentences/show/2409262) | Shishir |
+| S8021 | Y ustedes, ¿cómo están? | And you, how are you? |  | [#950334](https://tatoeba.org/en/sentences/show/950334) | hayastan |
+| S8022 | ¿Cómo están los niños? | How are the children? |  | [#2867736](https://tatoeba.org/en/sentences/show/2867736) | teskmon |
+| S8023 | ¿Cómo es el agua aquí? | How's the water here? |  | [#956674](https://tatoeba.org/en/sentences/show/956674) | hayastan |
+| S8024 | ¡Aquí están! | Here they are! |  | [#1701689](https://tatoeba.org/en/sentences/show/1701689) | marcelostockle |
+| S8025 | Están aquí. | They're here. | They are here. | [#2002327](https://tatoeba.org/en/sentences/show/2002327) | Shishir |
+| S8026 | Aquí hay libros. | There are books here. |  | [#2104055](https://tatoeba.org/en/sentences/show/2104055) | Shishir |
+| S8027 | No están aquí. | They aren't here. |  | [#5026101](https://tatoeba.org/en/sentences/show/5026101) | don_ramon |
+| S8028 | Ellos están allí. | They're there. |  | [#6600104](https://tatoeba.org/en/sentences/show/6600104) | arh |
+| S8029 | Hay un libro aquí. | There's a book here. |  | [#945704](https://tatoeba.org/en/sentences/show/945704) | hayastan |
+| S8030 | Aquí hay una manzana. | There's an apple here. |  | [#1215736](https://tatoeba.org/en/sentences/show/1215736) | wallebot |

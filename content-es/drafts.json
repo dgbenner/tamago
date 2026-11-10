@@ -675,6 +675,41 @@
       "french": "Sí, Tom es muy bueno.",
       "english": "Yes, Tom is very good.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S8101",
+      "unit_id": "U08",
+      "french": "El gato está en la cama.",
+      "english": "The cat is on the bed.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S8102",
+      "unit_id": "U08",
+      "french": "Hay una cama aquí.",
+      "english": "There's a bed here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S8103",
+      "unit_id": "U08",
+      "french": "El baño está allí.",
+      "english": "The bathroom is over there.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S8104",
+      "unit_id": "U08",
+      "french": "Sí, hay leche.",
+      "english": "Yes, there's milk.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S8105",
+      "unit_id": "U08",
+      "french": "No, no hay pan.",
+      "english": "No, there's no bread.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -789,6 +824,22 @@
     {
       "question_sentence_id": "S7014",
       "answer_sentence_id": "S7103"
+    },
+    {
+      "question_sentence_id": "S8003",
+      "answer_sentence_id": "S8025"
+    },
+    {
+      "question_sentence_id": "S8009",
+      "answer_sentence_id": "S8104"
+    },
+    {
+      "question_sentence_id": "S8018",
+      "answer_sentence_id": "S8105"
+    },
+    {
+      "question_sentence_id": "S8020",
+      "answer_sentence_id": "S8014"
     }
   ]
 }

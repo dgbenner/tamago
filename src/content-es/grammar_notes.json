@@ -275,5 +275,49 @@
       "S7011"
     ],
     "conjugations": []
+  },
+  {
+    "unit_id": "U08",
+    "rule": "Estar says where someone or something is: estoy en la cocina, Tom está aquí, están allí. Hay means there is or there are, and it says what exists, usually with un, una or no article: hay un gato en la cocina, hay pan. So: el libro está aquí (the book you know is here), but hay un libro aquí (there's a book here). Aquí is here; allí is there.",
+    "example_sentence_ids": "S8013;S8002;S8030",
+    "conjugation_lemma": "estar",
+    "status": "live",
+    "examples": [
+      "S8013",
+      "S8002",
+      "S8030"
+    ],
+    "conjugations": [
+      {
+        "lemma": "estar",
+        "present": [
+          {
+            "person": "je (j’)",
+            "form": "{{{ind_p_1s}}}"
+          },
+          {
+            "person": "tu",
+            "form": "{{{ind_p_2s}}}"
+          },
+          {
+            "person": "il, elle, on",
+            "form": "{{{ind_p_3s}}}"
+          },
+          {
+            "person": "nous",
+            "form": "{{{ind_p_1p}}}"
+          },
+          {
+            "person": "vous",
+            "form": "{{{ind_p_2p}}}"
+          },
+          {
+            "person": "ils, elles",
+            "form": "{{{ind_p_3p}}}"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/estar#Conjugation"
+      }
+    ]
   }
 ]
