@@ -2,9 +2,9 @@
    from a --lab-* variable the panel sets on <html>; the defaults below equal the live app, so nothing moves until a
    slider does. */
 :root {
-  --lab-splash-width: 380px; --lab-splash-y: 0px; --lab-splash-wordmark: 100%; --lab-splash-sushi: 40%; --lab-splash-sushi-x: 0px; --lab-splash-overlap: -9%;
-  --lab-choose-top: 34px; --lab-choose-x: 0px; --lab-choose-y: 0px; --lab-choose-scale: 1; --lab-choose-title: 21.25px; --lab-choose-gap: 17px;
-  --lab-flag-size: 85px; --lab-flag-gap: 17px; --lab-flag-label: 14.875px;
+  --lab-splash-width: 430px; --lab-splash-y: 0px; --lab-splash-wordmark: 114%; --lab-splash-sushi: 37%; --lab-splash-sushi-x: 0px; --lab-splash-overlap: -14.5%;
+  --lab-choose-top: 64.6px; --lab-choose-x: 0px; --lab-choose-y: 0px; --lab-choose-scale: 1; --lab-choose-title: 19.55px; --lab-choose-gap: 0px;
+  --lab-flag-size: 85px; --lab-flag-gap: 2.125px; --lab-flag-label: 14.875px;
   --lab-hdr-pt: 6.4px; --lab-hdr-pb: 6.4px;
   --lab-brand-x: 0px; --lab-brand-y: 0px; --lab-brand-scale: 1; --lab-brand-sushi: 46.75px; --lab-brand-sushi-y: 0px; --lab-brand-wordmark: 103px; --lab-brand-gap: 8.5px;
   --lab-tools-x: 0px; --lab-tools-y: 0px; --lab-tools-scale: 1; --lab-tools-flag: 34px; --lab-tools-gear: 24px; --lab-tools-gap: 12.75px;
@@ -12,7 +12,7 @@
 }
 
 /* Opening screen */
-.splash-stack { width: min(84vw, var(--lab-splash-width)); transform: translateY(var(--lab-splash-y)); }
+.splash-stack { width: min(84vw, var(--lab-splash-width)); transform: translateY(calc(2px + var(--lab-splash-y))); }
 .splash-wordmark { width: var(--lab-splash-wordmark); }
 .splash-sushi { width: var(--lab-splash-sushi); margin-top: var(--lab-splash-overlap); transform: translateX(var(--lab-splash-sushi-x)); }
 .splash-choose { margin-top: var(--lab-choose-top); gap: var(--lab-choose-gap); transform: translate(var(--lab-choose-x), var(--lab-choose-y)) scale(var(--lab-choose-scale)); transform-origin: top center; }

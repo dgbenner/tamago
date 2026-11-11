@@ -47,8 +47,8 @@ export default function Splash({ onDone, choose = false }) {
   return (
     <div className={`splash ${held === true ? 'splash-hold' : held === 'picked' ? 'splash-now' : ''}`} onClick={skip}
       onAnimationEnd={(e) => { if (e.animationName === 'splash-out') onDone() }}>
-      <div className="splash-stack flex w-[min(84vw,380px)] flex-col items-center">
-        <svg ref={svg} className="splash-wordmark w-full" viewBox={viewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
+      <div className="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">
+        <svg ref={svg} className="splash-wordmark w-[114%] max-w-none" viewBox={viewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
           <defs>
             {LETTERS.map((strokes, i) => (
               <mask key={i} id={`letter-${i}`} maskUnits="userSpaceOnUse" {...VIEW}>
@@ -58,10 +58,10 @@ export default function Splash({ onDone, choose = false }) {
           </defs>
           {LETTERS.map((strokes, i) => <LetterStrokes key={i} d={strokes.join('')} mask={`url(#letter-${i})`} />)}
         </svg>
-        <SushiMark className="splash-sushi relative z-10 -mt-[9%] w-[40%]" />
+        <SushiMark className="splash-sushi relative z-10 -mt-[14.5%] w-[37%]" />
         {held === true && (
-          <div className="splash-choose mt-8 flex flex-col items-center gap-4">
-            <h1 className="text-xl font-semibold">Choose Your Language</h1>
+          <div className="splash-choose mt-[3.8rem] flex flex-col items-center gap-0">
+            <h1 className="text-[1.15rem] font-semibold">Choose Your Language</h1>
             <FlagRow size="lg" onPick={pick} />
           </div>
         )}
