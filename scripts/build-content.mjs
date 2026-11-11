@@ -163,6 +163,13 @@ for (const w of tables.words.filter((x) => x.image_file)) {
   if (code) await getFile(IMAGE_SET.file_url.replace('{code}', code), join(ROOT, 'public/images', w.image_file))
 }
 tables.image_set = [IMAGE_SET]
+// The course's official A1 word list (A1 Complete, 2026-11-10): its source and license for About the Content, and its
+// headwords for A1 coverage on Progress. One row; empty when the course has none.
+{
+  const f = at('content/a1-list.json')
+  const l = existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : null
+  tables.a1_list = l ? [{ source: l.source, license: l.license ?? '', citation: l.citation ?? '', words: l.words }] : []
+}
 
 // Recordings.
 const AAC = ['-ac', '1', '-c:a', 'aac', '-b:a', '64k']

@@ -20,8 +20,9 @@ import grammar_notes from '../content-de/grammar_notes.json'
 import can_do from '../content-de/can_do.json'
 import conjugations from '../content-de/conjugations.json'
 import image_set from '../content-de/image_set.json'
+import a1_list from '../content-de/a1_list.json'
 
 export const tables = {
-  units, sentences, words, sentence_words, accepted_answers, question_types, variants, rounds, tree_layout, grammar_notes, image_set, can_do, conjugations,
+  units, sentences, words, sentence_words, accepted_answers, question_types, variants, rounds, tree_layout, grammar_notes, image_set, can_do, conjugations, a1_list,
   round_type_mix, phase1_fallbacks, cant_swaps, flag_reasons, settings_defaults, qa_answers, feedback_phrases,
 }
