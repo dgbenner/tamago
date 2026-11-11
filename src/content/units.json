@@ -989,7 +989,7 @@
     "can_do_ids": "CD210",
     "branch_group": "row 14",
     "is_topic_pick": "no",
-    "status": "draft",
+    "status": "live",
     "borrowed_sentence_ids": [],
     "topic_id": "",
     "icon_group": "",
@@ -998,7 +998,13 @@
     "borrow_words": "",
     "part": 2,
     "tasks": "T03",
-    "lesson_counts": null
+    "lesson_counts": [
+      6,
+      5,
+      5,
+      5,
+      6
+    ]
   },
   {
     "unit_id": "U47",
@@ -1012,7 +1018,7 @@
     "can_do_ids": "CD211",
     "branch_group": "row 14",
     "is_topic_pick": "no",
-    "status": "draft",
+    "status": "live",
     "borrowed_sentence_ids": [],
     "topic_id": "",
     "icon_group": "",
@@ -1021,7 +1027,13 @@
     "borrow_words": "",
     "part": 2,
     "tasks": "T04",
-    "lesson_counts": null
+    "lesson_counts": [
+      6,
+      4,
+      4,
+      4,
+      5
+    ]
   },
   {
     "unit_id": "U36",
@@ -1035,7 +1047,7 @@
     "can_do_ids": "CD212",
     "branch_group": "row 14.5",
     "is_topic_pick": "help",
-    "status": "draft",
+    "status": "live",
     "borrowed_sentence_ids": [],
     "topic_id": "",
     "icon_group": "",
@@ -1044,7 +1056,13 @@
     "borrow_words": "",
     "part": 2,
     "tasks": "T13",
-    "lesson_counts": null
+    "lesson_counts": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
   },
   {
     "unit_id": "U48",
@@ -1058,7 +1076,7 @@
     "can_do_ids": "CD213;CD214",
     "branch_group": "row 15",
     "is_topic_pick": "no",
-    "status": "draft",
+    "status": "live",
     "borrowed_sentence_ids": [],
     "topic_id": "",
     "icon_group": "",
@@ -1067,7 +1085,13 @@
     "borrow_words": "",
     "part": 2,
     "tasks": "T04",
-    "lesson_counts": null
+    "lesson_counts": [
+      8,
+      5,
+      5,
+      5,
+      5
+    ]
   },
   {
     "unit_id": "U49",

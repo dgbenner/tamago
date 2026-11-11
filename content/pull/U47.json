@@ -1,0 +1,1496 @@
+{
+  "unit_id": "U47",
+  "pulled_at": "2026-11-11",
+  "candidates": 38,
+  "sentences": [
+    {
+      "sentence_id": "S10601",
+      "unit_id": "U47",
+      "french": "Je voudrais acheter un sandwich.",
+      "english": "I would like to order a sandwich.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "479013",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10602",
+      "unit_id": "U47",
+      "french": "Vous voulez acheter des livres.",
+      "english": "You want to buy books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2326799",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10603",
+      "unit_id": "U47",
+      "french": "Qu'est-ce que tu voudrais ?",
+      "english": "What would you like?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3256419",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10604",
+      "unit_id": "U47",
+      "french": "Quel fruit est rouge ?",
+      "english": "What fruit is red?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "467970",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "Which fruit is red?"
+      ]
+    },
+    {
+      "sentence_id": "S10605",
+      "unit_id": "U47",
+      "french": "Qu'est-ce que vous voulez maintenant ?",
+      "english": "What do you want now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1091649",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10606",
+      "unit_id": "U47",
+      "french": "Quel fruit est vert ?",
+      "english": "Which fruit is green?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1120123",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sibelius",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10607",
+      "unit_id": "U47",
+      "french": "Où est le marché ?",
+      "english": "Where's the market?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3627467",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fleur74",
+      "other_english": [
+        "Where is the market?"
+      ]
+    },
+    {
+      "sentence_id": "S10608",
+      "unit_id": "U47",
+      "french": "Vous voulez une pomme ?",
+      "english": "Want an apple?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8703351",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": [
+        "Do you want an apple?"
+      ]
+    },
+    {
+      "sentence_id": "S10609",
+      "unit_id": "U47",
+      "french": "Qui va acheter ça pour nous ?",
+      "english": "Who'll buy that for us?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12298818",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10610",
+      "unit_id": "U47",
+      "french": "Mange des fruits !",
+      "english": "Eat fruit!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1084287",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10611",
+      "unit_id": "U47",
+      "french": "Mange tes légumes !",
+      "english": "Eat your vegetables.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1925510",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10612",
+      "unit_id": "U47",
+      "french": "Mange le fruit !",
+      "english": "Eat the fruit!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8659474",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10613",
+      "unit_id": "U47",
+      "french": "Mange des légumes.",
+      "english": "Eat vegetables.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8984240",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10614",
+      "unit_id": "U47",
+      "french": "Je mange des fruits.",
+      "english": "I eat fruit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1121067",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I'm eating fruit."
+      ]
+    },
+    {
+      "sentence_id": "S10615",
+      "unit_id": "U47",
+      "french": "J'aime les fruits.",
+      "english": "I like fruit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1121499",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10616",
+      "unit_id": "U47",
+      "french": "Tu achètes du pain.",
+      "english": "You buy bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2104431",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10617",
+      "unit_id": "U47",
+      "french": "Il achète du pain.",
+      "english": "He buys bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2112701",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10618",
+      "unit_id": "U47",
+      "french": "Elle achète du pain.",
+      "english": "She buys bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2112705",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": [
+        "She is buying bread."
+      ]
+    },
+    {
+      "sentence_id": "S10619",
+      "unit_id": "U47",
+      "french": "Je vais au marché.",
+      "english": "I go to the market.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5241655",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sicerabibax",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10620",
+      "unit_id": "U47",
+      "french": "On va au marché.",
+      "english": "We're going to the market.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8030982",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10621",
+      "unit_id": "U47",
+      "french": "J'aime les légumes.",
+      "english": "I enjoy vegetables.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11383359",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "saillier",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10622",
+      "unit_id": "U47",
+      "french": "Je voudrais de l'eau.",
+      "english": "I'd like some water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10705554",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "AutoBot",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10623",
+      "unit_id": "U47",
+      "french": "Vous voulez de l'eau ?",
+      "english": "Do you want some water?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5416495",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pititnatole",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10624",
+      "unit_id": "U47",
+      "french": "Qu'est-ce que vous voulez nous dire ?",
+      "english": "What do you want to tell us?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7986241",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10625",
+      "unit_id": "U47",
+      "french": "Est-ce que vous voulez du lait ?",
+      "english": "Do you want some milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8755874",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10626",
+      "unit_id": "U47",
+      "french": "J'ai un fruit.",
+      "english": "I have a fruit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1123126",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10627",
+      "unit_id": "U47",
+      "french": "Tu aimes les fruits.",
+      "english": "You like fruit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4818225",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mariezou",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10628",
+      "unit_id": "U47",
+      "french": "Elle mange des fruits.",
+      "english": "She eats fruit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5249353",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martin9",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10629",
+      "unit_id": "U47",
+      "french": "Mange plus de fruits.",
+      "english": "Eat more fruit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5326390",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10630",
+      "unit_id": "U47",
+      "french": "Le fruit est jaune.",
+      "english": "The fruit is yellow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8602635",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S10601",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10601",
+      "position": 2,
+      "surface": "voudrais",
+      "word_id": "W879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10601",
+      "position": 3,
+      "surface": "acheter",
+      "word_id": "W876",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10601",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10601",
+      "position": 5,
+      "surface": "sandwich",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10602",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10602",
+      "position": 2,
+      "surface": "voulez",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10602",
+      "position": 3,
+      "surface": "acheter",
+      "word_id": "W876",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10602",
+      "position": 4,
+      "surface": "des",
+      "word_id": "W401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10602",
+      "position": 5,
+      "surface": "livres",
+      "word_id": "W404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10603",
+      "position": 1,
+      "surface": "Qu'est-ce que",
+      "word_id": "W435",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10603",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10603",
+      "position": 3,
+      "surface": "voudrais",
+      "word_id": "W879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10604",
+      "position": 1,
+      "surface": "Quel",
+      "word_id": "W436",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10604",
+      "position": 2,
+      "surface": "fruit",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10604",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10604",
+      "position": 4,
+      "surface": "rouge",
+      "word_id": "W450",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10605",
+      "position": 1,
+      "surface": "Qu'est-ce que",
+      "word_id": "W435",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10605",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10605",
+      "position": 3,
+      "surface": "voulez",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10605",
+      "position": 4,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10606",
+      "position": 1,
+      "surface": "Quel",
+      "word_id": "W436",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10606",
+      "position": 2,
+      "surface": "fruit",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10606",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10606",
+      "position": 4,
+      "surface": "vert",
+      "word_id": "W453",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10607",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10607",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10607",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10607",
+      "position": 4,
+      "surface": "marché",
+      "word_id": "W875",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10608",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10608",
+      "position": 2,
+      "surface": "voulez",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10608",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10608",
+      "position": 4,
+      "surface": "pomme",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10609",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10609",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10609",
+      "position": 3,
+      "surface": "acheter",
+      "word_id": "W876",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10609",
+      "position": 4,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10609",
+      "position": 5,
+      "surface": "pour",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10609",
+      "position": 6,
+      "surface": "nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10610",
+      "position": 1,
+      "surface": "Mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10610",
+      "position": 2,
+      "surface": "des",
+      "word_id": "W401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10610",
+      "position": 3,
+      "surface": "fruits",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10611",
+      "position": 1,
+      "surface": "Mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10611",
+      "position": 2,
+      "surface": "tes",
+      "word_id": "W426",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10611",
+      "position": 3,
+      "surface": "légumes",
+      "word_id": "W883",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10612",
+      "position": 1,
+      "surface": "Mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10612",
+      "position": 2,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10612",
+      "position": 3,
+      "surface": "fruit",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10613",
+      "position": 1,
+      "surface": "Mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10613",
+      "position": 2,
+      "surface": "des",
+      "word_id": "W401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10613",
+      "position": 3,
+      "surface": "légumes",
+      "word_id": "W883",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10614",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10614",
+      "position": 2,
+      "surface": "mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10614",
+      "position": 3,
+      "surface": "des",
+      "word_id": "W401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10614",
+      "position": 4,
+      "surface": "fruits",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10615",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10615",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10615",
+      "position": 3,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10615",
+      "position": 4,
+      "surface": "fruits",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10616",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10616",
+      "position": 2,
+      "surface": "achètes",
+      "word_id": "W878",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10616",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10616",
+      "position": 4,
+      "surface": "pain",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10617",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10617",
+      "position": 2,
+      "surface": "achète",
+      "word_id": "W877",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10617",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10617",
+      "position": 4,
+      "surface": "pain",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10618",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10618",
+      "position": 2,
+      "surface": "achète",
+      "word_id": "W877",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10618",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10618",
+      "position": 4,
+      "surface": "pain",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10619",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10619",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10619",
+      "position": 3,
+      "surface": "au",
+      "word_id": "W476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10619",
+      "position": 4,
+      "surface": "marché",
+      "word_id": "W875",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10620",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10620",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10620",
+      "position": 3,
+      "surface": "au",
+      "word_id": "W476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10620",
+      "position": 4,
+      "surface": "marché",
+      "word_id": "W875",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10621",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10621",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10621",
+      "position": 3,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10621",
+      "position": 4,
+      "surface": "légumes",
+      "word_id": "W883",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10622",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10622",
+      "position": 2,
+      "surface": "voudrais",
+      "word_id": "W879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10622",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10622",
+      "position": 4,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10622",
+      "position": 5,
+      "surface": "eau",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10623",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10623",
+      "position": 2,
+      "surface": "voulez",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10623",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10623",
+      "position": 4,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10623",
+      "position": 5,
+      "surface": "eau",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10624",
+      "position": 1,
+      "surface": "Qu'est-ce que",
+      "word_id": "W435",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10624",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10624",
+      "position": 3,
+      "surface": "voulez",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10624",
+      "position": 4,
+      "surface": "nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10624",
+      "position": 5,
+      "surface": "dire",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10625",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10625",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10625",
+      "position": 3,
+      "surface": "voulez",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10625",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10625",
+      "position": 5,
+      "surface": "lait",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10626",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10626",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10626",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10626",
+      "position": 4,
+      "surface": "fruit",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10627",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10627",
+      "position": 2,
+      "surface": "aimes",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10627",
+      "position": 3,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10627",
+      "position": 4,
+      "surface": "fruits",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10628",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10628",
+      "position": 2,
+      "surface": "mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10628",
+      "position": 3,
+      "surface": "des",
+      "word_id": "W401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10628",
+      "position": 4,
+      "surface": "fruits",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10629",
+      "position": 1,
+      "surface": "Mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10629",
+      "position": 2,
+      "surface": "plus",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10629",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10629",
+      "position": 4,
+      "surface": "fruits",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10630",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10630",
+      "position": 2,
+      "surface": "fruit",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10630",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10630",
+      "position": 4,
+      "surface": "jaune",
+      "word_id": "W459",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A106041",
+      "sentence_id": "S10604",
+      "direction": "fr_to_en",
+      "answer": "Which fruit is red?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A106071",
+      "sentence_id": "S10607",
+      "direction": "fr_to_en",
+      "answer": "Where is the market?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A106081",
+      "sentence_id": "S10608",
+      "direction": "fr_to_en",
+      "answer": "Do you want an apple?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A106141",
+      "sentence_id": "S10614",
+      "direction": "fr_to_en",
+      "answer": "I'm eating fruit.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A106181",
+      "sentence_id": "S10618",
+      "direction": "fr_to_en",
+      "answer": "She is buying bread.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

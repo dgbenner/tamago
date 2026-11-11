@@ -544,5 +544,57 @@
       "S10466"
     ],
     "conjugations": []
+  },
+  {
+    "unit_id": "U46",
+    "rule": "Countries take en for in and to: j'habite en France, je vais en Italie. Nationalities and languages share a word, with no capital letter: il est allemand (German, the person), je parle allemand (the language). For a woman, most add -e: elle est allemande. Une langue is a language.",
+    "example_sentence_ids": "S10561;S10502;S10514",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S10561",
+      "S10502",
+      "S10514"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U47",
+    "rule": "Je voudrais is the polite way to ask for something: I would like (from vouloir: je veux is I want, je voudrais is softer). A quantity takes de: un kilo de pommes. Acheter, to buy, adds an accent in j'achète, tu achètes, il achète. Des fruits, des légumes: des is some, for more than one.",
+    "example_sentence_ids": "S10662;S10603;S10661",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S10662",
+      "S10603",
+      "S10661"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U36",
+    "rule": "Say when you've understood, and check that you have. J'ai compris: I understood (compris is the past of comprendre). Tu as compris ? asks. D'accord means OK, agreed: je suis d'accord, I agree. C'est vrai ? Is that true? And exactement, exactly, confirms.",
+    "example_sentence_ids": "S11110;S11161;S11104",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S11110",
+      "S11161",
+      "S11104"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U48",
+    "rule": "Ça coûte combien ? or Combien ça coûte ? asks the price. Coûter goes like parler: ça coûte (it costs), ils coûtent (they cost). French says the euros first, then the cents: trois euros cinquante is 3,50 €, with a comma for the decimal point. Cher means expensive (and, before a name, dear): c'est cher, la pomme est chère.",
+    "example_sentence_ids": "S10703;S10701;S10766",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S10703",
+      "S10701",
+      "S10766"
+    ],
+    "conjugations": []
   }
 ]

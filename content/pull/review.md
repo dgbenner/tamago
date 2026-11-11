@@ -2,41 +2,49 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U45 Where You Live: J'habite à … ; habiter like parler; près de, loin de
+## U48 How Much Is It?: Ça coûte combien ? Ça coûte … euros; c'est cher
 
-28 sentences picked from 28 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+31 sentences picked from 37 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 2 (target 4).
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: habites (1), habitez (1), habiter (2), rue (1), pays (2), étage (2), près (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: prix (0), coûtent (0), euro (0), euros (2), chère (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S10401 | J'habite en appartement. | I live in a flat. | I live in an apartment. | [#1503919](https://tatoeba.org/en/sentences/show/1503919) | martin9 |
-| S10402 | J'habite dans un appartement. | I live in a flat. | I live in an apartment. | [#606504](https://tatoeba.org/en/sentences/show/606504) | qdii |
-| S10403 | Dans quelle rue ? | On what street? | In which street? | [#1158566](https://tatoeba.org/en/sentences/show/1158566) | sacredceltic |
-| S10404 | C'est encore loin ? | Is it still far? |  | [#1318125](https://tatoeba.org/en/sentences/show/1318125) | Mutusen |
-| S10405 | Tu habites où ? | Where do you live? |  | [#2707050](https://tatoeba.org/en/sentences/show/2707050) | Julien_PDC |
-| S10406 | Vous habitez où ? | Where do you live? | Where are you living?; Where do you guys live? | [#2707051](https://tatoeba.org/en/sentences/show/2707051) | Aiji |
-| S10407 | Qui habite ici ? | Who lives here? |  | [#8650215](https://tatoeba.org/en/sentences/show/8650215) | felix63 |
-| S10408 | À quel étage ? | Which floor? |  | [#9552566](https://tatoeba.org/en/sentences/show/9552566) | Micsmithel |
-| S10409 | Quelle est votre adresse ? | What's your address? | What is your address? | [#3627274](https://tatoeba.org/en/sentences/show/3627274) | sacredceltic |
-| S10410 | Quelle est ton adresse ? | What's your address? | What is your address? | [#3627275](https://tatoeba.org/en/sentences/show/3627275) | sacredceltic |
-| S10411 | Voici l'adresse. | Here's the address. |  | [#1635801](https://tatoeba.org/en/sentences/show/1635801) | sacredceltic |
-| S10412 | Je suis loin. | I'm far away. |  | [#5240742](https://tatoeba.org/en/sentences/show/5240742) | Iriep |
-| S10413 | Il est loin. | It is far. | It is far way.; He is far away. | [#5240747](https://tatoeba.org/en/sentences/show/5240747) | Iriep |
-| S10414 | J'aime mon pays. | I love my country. |  | [#3480929](https://tatoeba.org/en/sentences/show/3480929) | Lulantis |
-| S10415 | Elle cherche un appartement. | She's looking for an apartment. | She is looking for an apartment. | [#4511868](https://tatoeba.org/en/sentences/show/4511868) | Amastan |
-| S10416 | C'est un grand pays. | It's a big country. |  | [#5386894](https://tatoeba.org/en/sentences/show/5386894) | alexisslay |
-| S10417 | Je vais habiter en ville. | I'll live in the city. |  | [#1987252](https://tatoeba.org/en/sentences/show/1987252) | nimfeo |
-| S10418 | Il va habiter en ville. | He's going to live in the city. |  | [#4076182](https://tatoeba.org/en/sentences/show/4076182) | Amastan |
-| S10419 | Nous sommes au bon étage. | We're on the right floor. |  | [#6322075](https://tatoeba.org/en/sentences/show/6322075) | Aiji |
-| S10420 | Elle est loin. | She's far away. |  | [#5259860](https://tatoeba.org/en/sentences/show/5259860) | Iriep |
-| S10421 | J'ai ton adresse. | I've got your address. |  | [#12498217](https://tatoeba.org/en/sentences/show/12498217) | Rovo |
-| S10422 | J'ai son adresse. | I have his address. | I have her address. | [#12498233](https://tatoeba.org/en/sentences/show/12498233) | Rovo |
-| S10423 | Je sais où il habite. | I know where he lives. |  | [#127584](https://tatoeba.org/en/sentences/show/127584) | sacredceltic |
-| S10424 | J'habite dans une ville. | I live in a town. |  | [#1649821](https://tatoeba.org/en/sentences/show/1649821) | nimfeo |
-| S10425 | Je suis dans mon appartement. | I'm in my apartment. | I'm in my flat. | [#5964247](https://tatoeba.org/en/sentences/show/5964247) | Aiji |
-| S10426 | J'aime bien ton appartement. | I like your apartment. |  | [#11167786](https://tatoeba.org/en/sentences/show/11167786) | blizb |
-| S10427 | J'habite dans une grande ville. | I live in a big city. |  | [#127472](https://tatoeba.org/en/sentences/show/127472) | Julien_PDC |
-| S10428 | Je ne sais pas où il habite. | I don't know where he lives. |  | [#126567](https://tatoeba.org/en/sentences/show/126567) | TRANG |
+| S10701 | Ça coûte trente euros. | That costs 30 euros. |  | [#3256248](https://tatoeba.org/en/sentences/show/3256248) | Aiji |
+| S10702 | Ça coûte vingt euros. | It costs twenty euros. |  | [#8760607](https://tatoeba.org/en/sentences/show/8760607) | Julien_PDC |
+| S10703 | Ça coûte combien ? | How much is it? | That costs how much?; How much does this cost? | [#4295](https://tatoeba.org/en/sentences/show/4295) | TRANG |
+| S10704 | Qui va payer ? | Who will pay? |  | [#1078224](https://tatoeba.org/en/sentences/show/1078224) | sacredceltic |
+| S10705 | Où est l'argent ? | Where's the money? |  | [#1211215](https://tatoeba.org/en/sentences/show/1211215) | sacredceltic |
+| S10706 | Où est mon argent ? | Where's my money? | Where is my money? | [#1820433](https://tatoeba.org/en/sentences/show/1820433) | sacredceltic |
+| S10707 | Où est votre argent ? | Where is your money? |  | [#3627870](https://tatoeba.org/en/sentences/show/3627870) | fleur74 |
+| S10708 | Où est la carte ? | Where's the map? |  | [#5306741](https://tatoeba.org/en/sentences/show/5306741) | Aiji |
+| S10709 | Est-ce que le restaurant est cher ? | Is the restaurant expensive? |  | [#6867433](https://tatoeba.org/en/sentences/show/6867433) | felix63 |
+| S10710 | Qui va payer pour ça ? | Who'll pay for this? | Who's going to pay for that?; Who's going to pay for this? | [#7124897](https://tatoeba.org/en/sentences/show/7124897) | Aiji |
+| S10711 | Est-ce que tu as une carte ? | Do you have a map? |  | [#7970984](https://tatoeba.org/en/sentences/show/7970984) | Aiji |
+| S10712 | C'est cher. | It's expensive. | That's expensive.; This is expensive. | [#4548407](https://tatoeba.org/en/sentences/show/4548407) | sacredceltic |
+| S10713 | Voilà, monsieur. | Here you go, sir. |  | [#11790334](https://tatoeba.org/en/sentences/show/11790334) | lbdx |
+| S10714 | C'est très cher ! | It's very expensive. | That is very expensive! | [#859133](https://tatoeba.org/en/sentences/show/859133) | sacredceltic |
+| S10715 | Voilà ton chien ! | Here is your dog! |  | [#1825160](https://tatoeba.org/en/sentences/show/1825160) | sacredceltic |
+| S10716 | Voici la carte ! | Here's the map. | Here is the map. | [#1968223](https://tatoeba.org/en/sentences/show/1968223) | sacredceltic |
+| S10717 | Je voudrais payer. | I'd like to pay. |  | [#7563246](https://tatoeba.org/en/sentences/show/7563246) | Micsmithel |
+| S10718 | Voilà un livre, ici. | There's a book here. |  | [#1501120](https://tatoeba.org/en/sentences/show/1501120) | martin9 |
+| S10719 | Combien est-ce que ça coûte ? | What's the price? | How much is it?; What does that cost?; What does it cost?; How much does that cost? | [#883817](https://tatoeba.org/en/sentences/show/883817) | sacredceltic |
+| S10720 | Combien coûte une pomme ? | How much is an apple? | How much does an apple cost? | [#1544591](https://tatoeba.org/en/sentences/show/1544591) | sacredceltic |
+| S10721 | Tu as l'argent ? | Do you have the money? |  | [#7290482](https://tatoeba.org/en/sentences/show/7290482) | Aiji |
+| S10722 | Est-ce que tu as l'argent ? | Have you got the money? |  | [#1156746](https://tatoeba.org/en/sentences/show/1156746) | Korekorin |
+| S10723 | Tu as de l'argent ? | Do you have some money? |  | [#7696456](https://tatoeba.org/en/sentences/show/7696456) | Maxence |
+| S10724 | C'est ton argent. | It's your money. |  | [#4542978](https://tatoeba.org/en/sentences/show/4542978) | sacredceltic |
+| S10725 | C'est votre argent. | It's your money. |  | [#4542979](https://tatoeba.org/en/sentences/show/4542979) | sacredceltic |
+| S10726 | C'est mon argent. | That's my money. | This is my money.; This money is mine. | [#6670593](https://tatoeba.org/en/sentences/show/6670593) | GB3 |
+| S10727 | Il veut l'argent. | He wants the money. |  | [#902066](https://tatoeba.org/en/sentences/show/902066) | U2FS |
+| S10728 | Il aime l'argent. | He likes money. |  | [#1804287](https://tatoeba.org/en/sentences/show/1804287) | sacredceltic |
+| S10729 | Elle aime l'argent. | She likes money. |  | [#1804288](https://tatoeba.org/en/sentences/show/1804288) | sacredceltic |
+| S10730 | Je voudrais payer s'il vous plaît. | I would like to pay, please. |  | [#6723202](https://tatoeba.org/en/sentences/show/6723202) | felix63 |
+| S10731 | J'ai de l'argent. | I have money. | I have got some money. | [#10869](https://tatoeba.org/en/sentences/show/10869) | pfif |
+
+**QT09 questions and answers**
+
+- S10721 Tu as l'argent ?: J'ai de l'argent. / Oui. / Non.
+- S10723 Tu as de l'argent ?: J'ai de l'argent. / Oui. / Non.

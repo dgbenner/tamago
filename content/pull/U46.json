@@ -1,0 +1,1514 @@
+{
+  "unit_id": "U46",
+  "pulled_at": "2026-11-11",
+  "candidates": 70,
+  "sentences": [
+    {
+      "sentence_id": "S10501",
+      "unit_id": "U46",
+      "french": "Vous êtes chinois ?",
+      "english": "Are you Chinese?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5149921",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nbrr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10502",
+      "unit_id": "U46",
+      "french": "Je suis allemand, et vous ?",
+      "english": "I'm German, and you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6137675",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "christian63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10503",
+      "unit_id": "U46",
+      "french": "Qui parle bien l'allemand ?",
+      "english": "Who speaks German well?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6688850",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10504",
+      "unit_id": "U46",
+      "french": "Vous êtes espagnol, c'est ça ?",
+      "english": "You are Spanish, right?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8165635",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Gaeiie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10505",
+      "unit_id": "U46",
+      "french": "Parlez italien !",
+      "english": "Speak Italian!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9020298",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10506",
+      "unit_id": "U46",
+      "french": "Parle italien !",
+      "english": "Speak Italian!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9020299",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10507",
+      "unit_id": "U46",
+      "french": "Je suis américain.",
+      "english": "I am American.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7392",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bruno",
+      "other_english": [
+        "I am an American."
+      ]
+    },
+    {
+      "sentence_id": "S10508",
+      "unit_id": "U46",
+      "french": "Je suis Japonais.",
+      "english": "I'm Japanese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "14873",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "I am Japanese.",
+        "I am a Japanese."
+      ]
+    },
+    {
+      "sentence_id": "S10509",
+      "unit_id": "U46",
+      "french": "Il est Américain.",
+      "english": "He's American.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "130693",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "He is American.",
+        "He is an American."
+      ]
+    },
+    {
+      "sentence_id": "S10510",
+      "unit_id": "U46",
+      "french": "Elle parle chinois.",
+      "english": "She speaks Chinese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "551912",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zmoo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10511",
+      "unit_id": "U46",
+      "french": "Je suis Italien.",
+      "english": "I'm Italian.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "716949",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "I am Italian."
+      ]
+    },
+    {
+      "sentence_id": "S10512",
+      "unit_id": "U46",
+      "french": "Je suis étranger.",
+      "english": "I am a foreigner.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "750818",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gillux",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10513",
+      "unit_id": "U46",
+      "french": "Il parle chinois.",
+      "english": "He speaks Chinese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2206660",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10514",
+      "unit_id": "U46",
+      "french": "Je parle allemand.",
+      "english": "I speak German.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3056738",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10515",
+      "unit_id": "U46",
+      "french": "Vous parlez japonais.",
+      "english": "You speak Japanese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3710092",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Eldad",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10516",
+      "unit_id": "U46",
+      "french": "C'est un étranger.",
+      "english": "He's a stranger.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4706272",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "He's a foreigner.",
+        "He is a stranger."
+      ]
+    },
+    {
+      "sentence_id": "S10517",
+      "unit_id": "U46",
+      "french": "Il est japonais.",
+      "english": "He's Japanese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5762957",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yemana",
+      "other_english": [
+        "He is Japanese."
+      ]
+    },
+    {
+      "sentence_id": "S10518",
+      "unit_id": "U46",
+      "french": "Elle parle espagnol.",
+      "english": "She speaks Spanish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8659468",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10519",
+      "unit_id": "U46",
+      "french": "Il est étranger.",
+      "english": "He's foreign.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10033964",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10520",
+      "unit_id": "U46",
+      "french": "Elle parle bien espagnol.",
+      "english": "She speaks Spanish well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "590803",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10521",
+      "unit_id": "U46",
+      "french": "Il parle dix langues.",
+      "english": "He speaks ten languages.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "993982",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "U2FS",
+      "other_english": [
+        "He can speak ten languages."
+      ]
+    },
+    {
+      "sentence_id": "S10522",
+      "unit_id": "U46",
+      "french": "Elle parle dix langues.",
+      "english": "She speaks ten languages.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1720391",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10523",
+      "unit_id": "U46",
+      "french": "Je comprends votre langue.",
+      "english": "I understand your language.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1816079",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10524",
+      "unit_id": "U46",
+      "french": "Je vais en France.",
+      "english": "I'm going to France.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5301601",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maraboule",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10525",
+      "unit_id": "U46",
+      "french": "Il habite en Angleterre.",
+      "english": "He lives in England.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7098044",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10526",
+      "unit_id": "U46",
+      "french": "Je suis de France.",
+      "english": "I'm from France.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7851156",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "theachaean",
+      "other_english": [
+        "I am from France."
+      ]
+    },
+    {
+      "sentence_id": "S10527",
+      "unit_id": "U46",
+      "french": "J'habite en France.",
+      "english": "I live in France.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8532920",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10528",
+      "unit_id": "U46",
+      "french": "Je suis bon en langues.",
+      "english": "I'm good at languages.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7637401",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tras",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10529",
+      "unit_id": "U46",
+      "french": "Le français est une langue.",
+      "english": "French is a language.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8741248",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10530",
+      "unit_id": "U46",
+      "french": "J'ai un ami en Angleterre.",
+      "english": "I have a friend in England.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7384",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bruno",
+      "other_english": [
+        "I've got a friend in England."
+      ]
+    },
+    {
+      "sentence_id": "S10531",
+      "unit_id": "U46",
+      "french": "Il ne parle pas ma langue.",
+      "english": "He doesn't speak my language.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2432530",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S10501",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10501",
+      "position": 2,
+      "surface": "êtes",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10501",
+      "position": 3,
+      "surface": "chinois",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10502",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10502",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10502",
+      "position": 3,
+      "surface": "allemand",
+      "word_id": "W866",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10502",
+      "position": 4,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10502",
+      "position": 5,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10503",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10503",
+      "position": 2,
+      "surface": "parle",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10503",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10503",
+      "position": 4,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10503",
+      "position": 5,
+      "surface": "allemand",
+      "word_id": "W866",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10504",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10504",
+      "position": 2,
+      "surface": "êtes",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10504",
+      "position": 3,
+      "surface": "espagnol",
+      "word_id": "W867",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10504",
+      "position": 4,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10504",
+      "position": 5,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10505",
+      "position": 1,
+      "surface": "Parlez",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10505",
+      "position": 2,
+      "surface": "italien",
+      "word_id": "W868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10506",
+      "position": 1,
+      "surface": "Parle",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10506",
+      "position": 2,
+      "surface": "italien",
+      "word_id": "W868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10507",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10507",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10507",
+      "position": 3,
+      "surface": "américain",
+      "word_id": "W869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10508",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10508",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10508",
+      "position": 3,
+      "surface": "Japonais",
+      "word_id": "W871",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10509",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10509",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10509",
+      "position": 3,
+      "surface": "Américain",
+      "word_id": "W869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10510",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10510",
+      "position": 2,
+      "surface": "parle",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10510",
+      "position": 3,
+      "surface": "chinois",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10511",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10511",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10511",
+      "position": 3,
+      "surface": "Italien",
+      "word_id": "W868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10512",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10512",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10512",
+      "position": 3,
+      "surface": "étranger",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10513",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10513",
+      "position": 2,
+      "surface": "parle",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10513",
+      "position": 3,
+      "surface": "chinois",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10514",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10514",
+      "position": 2,
+      "surface": "parle",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10514",
+      "position": 3,
+      "surface": "allemand",
+      "word_id": "W866",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10515",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10515",
+      "position": 2,
+      "surface": "parlez",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10515",
+      "position": 3,
+      "surface": "japonais",
+      "word_id": "W871",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10516",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10516",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10516",
+      "position": 3,
+      "surface": "étranger",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10517",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10517",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10517",
+      "position": 3,
+      "surface": "japonais",
+      "word_id": "W871",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10518",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10518",
+      "position": 2,
+      "surface": "parle",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10518",
+      "position": 3,
+      "surface": "espagnol",
+      "word_id": "W867",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10519",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10519",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10519",
+      "position": 3,
+      "surface": "étranger",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10520",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10520",
+      "position": 2,
+      "surface": "parle",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10520",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10520",
+      "position": 4,
+      "surface": "espagnol",
+      "word_id": "W867",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10521",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10521",
+      "position": 2,
+      "surface": "parle",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10521",
+      "position": 3,
+      "surface": "dix",
+      "word_id": "W448",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10521",
+      "position": 4,
+      "surface": "langues",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10522",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10522",
+      "position": 2,
+      "surface": "parle",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10522",
+      "position": 3,
+      "surface": "dix",
+      "word_id": "W448",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10522",
+      "position": 4,
+      "surface": "langues",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10523",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10523",
+      "position": 2,
+      "surface": "comprends",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10523",
+      "position": 3,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10523",
+      "position": 4,
+      "surface": "langue",
+      "word_id": "W872",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10524",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10524",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10524",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10524",
+      "position": 4,
+      "surface": "France",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10525",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10525",
+      "position": 2,
+      "surface": "habite",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10525",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10525",
+      "position": 4,
+      "surface": "Angleterre",
+      "word_id": "W864",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10526",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10526",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10526",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10526",
+      "position": 4,
+      "surface": "France",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10527",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10527",
+      "position": 2,
+      "surface": "habite",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10527",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10527",
+      "position": 4,
+      "surface": "France",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10528",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10528",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10528",
+      "position": 3,
+      "surface": "bon",
+      "word_id": "W411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10528",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10528",
+      "position": 5,
+      "surface": "langues",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10529",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10529",
+      "position": 2,
+      "surface": "français",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10529",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10529",
+      "position": 4,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10529",
+      "position": 5,
+      "surface": "langue",
+      "word_id": "W872",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10530",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10530",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10530",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10530",
+      "position": 4,
+      "surface": "ami",
+      "word_id": "W430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10530",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10530",
+      "position": 6,
+      "surface": "Angleterre",
+      "word_id": "W864",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10531",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10531",
+      "position": 2,
+      "surface": "ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10531",
+      "position": 3,
+      "surface": "parle",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10531",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10531",
+      "position": 5,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10531",
+      "position": 6,
+      "surface": "langue",
+      "word_id": "W872",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A105071",
+      "sentence_id": "S10507",
+      "direction": "fr_to_en",
+      "answer": "I am an American.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105081",
+      "sentence_id": "S10508",
+      "direction": "fr_to_en",
+      "answer": "I am Japanese.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105082",
+      "sentence_id": "S10508",
+      "direction": "fr_to_en",
+      "answer": "I am a Japanese.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105091",
+      "sentence_id": "S10509",
+      "direction": "fr_to_en",
+      "answer": "He is American.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105092",
+      "sentence_id": "S10509",
+      "direction": "fr_to_en",
+      "answer": "He is an American.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105111",
+      "sentence_id": "S10511",
+      "direction": "fr_to_en",
+      "answer": "I am Italian.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105161",
+      "sentence_id": "S10516",
+      "direction": "fr_to_en",
+      "answer": "He's a foreigner.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105162",
+      "sentence_id": "S10516",
+      "direction": "fr_to_en",
+      "answer": "He is a stranger.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105171",
+      "sentence_id": "S10517",
+      "direction": "fr_to_en",
+      "answer": "He is Japanese.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105211",
+      "sentence_id": "S10521",
+      "direction": "fr_to_en",
+      "answer": "He can speak ten languages.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105261",
+      "sentence_id": "S10526",
+      "direction": "fr_to_en",
+      "answer": "I am from France.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A105301",
+      "sentence_id": "S10530",
+      "direction": "fr_to_en",
+      "answer": "I've got a friend in England.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

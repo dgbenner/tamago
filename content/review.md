@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 1065 (744 matched to Tatoeba, 321 Tamago originals), 71 off, 231 awaiting a ruling. Words with Wiktionary data: 361 of 361. French-to-English answers: 340 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 422.
+Sentences live: 1220 (866 matched to Tatoeba, 354 Tamago originals), 71 off, 353 awaiting a ruling. Words with Wiktionary data: 361 of 361. French-to-English answers: 392 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 429.
 
 Unit 1 is approved and live.
 
@@ -34,7 +34,7 @@ Candidates use only Unit 1 words, have 6 words or fewer, have a linked English t
 | S6056 |  | Tu as du temps ?<br>Do you have time? | none |
 | S6057 |  | Il a du temps.<br>He has time. | none |
 
-## Tamago originals: native-speaker check needed before Phase 4 (321)
+## Tamago originals: native-speaker check needed before Phase 4 (354)
 
 Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 
@@ -361,6 +361,39 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S10467 |  | J'aime habiter en ville. | I like living in the city. | tts |
 | S10468 |  | C'est un beau pays. | It's a beautiful country. | tts |
 | S10469 |  | L'appartement est à quel étage ? | Which floor is the apartment on? | tts |
+| S10561 |  | J'habite en Allemagne. | I live in Germany. | tts |
+| S10562 |  | Il va en Allemagne. | He's going to Germany. | tts |
+| S10563 |  | Tu habites en Allemagne ? | Do you live in Germany? | tts |
+| S10564 |  | J'habite en Italie. | I live in Italy. | tts |
+| S10565 |  | Elle va en Italie. | She's going to Italy. | tts |
+| S10566 |  | Vous habitez en Italie ? | Do you live in Italy? | tts |
+| S10567 |  | J'habite en Espagne. | I live in Spain. | tts |
+| S10568 |  | Il va en Espagne. | He's going to Spain. | tts |
+| S10569 |  | Tu vas en Espagne ? | Are you going to Spain? | tts |
+| S10570 |  | Je vais en Angleterre. | I'm going to England. | tts |
+| S10571 |  | Tu es américain ? | Are you American? | tts |
+| S10572 |  | Oui, je vais en Espagne. | Yes, I'm going to Spain. | tts |
+| S10573 |  | Non, je suis allemand. | No, I'm German. | tts |
+| S10661 |  | J'achète un kilo de pommes. | I'm buying a kilo of apples. | tts |
+| S10662 |  | Je voudrais un kilo de pommes, s'il vous plaît. | I'd like a kilo of apples, please. | tts |
+| S10663 |  | Tu achètes des légumes ? | Are you buying vegetables? | tts |
+| S10664 |  | Tu achètes des fruits au marché ? | Do you buy fruit at the market? | tts |
+| S10665 |  | Un kilo de fromage, s'il vous plaît. | A kilo of cheese, please. | tts |
+| S10666 |  | Oui, j'achète des légumes. | Yes, I'm buying vegetables. | tts |
+| S11161 |  | Tu as compris ? | Did you understand? | tts |
+| S11162 |  | Oui, j'ai compris. | Yes, I understood. | tts |
+| S10761 |  | Quel est le prix ? | What's the price? | tts |
+| S10762 |  | Le prix, c'est dix euros. | The price is ten euros. | tts |
+| S10763 |  | C'est un bon prix. | It's a good price. | tts |
+| S10764 |  | Les pommes coûtent deux euros. | The apples cost two euros. | tts |
+| S10765 |  | Combien coûtent les fruits ? | How much is the fruit? | tts |
+| S10766 |  | Les légumes coûtent trois euros le kilo. | The vegetables cost three euros a kilo. | tts |
+| S10767 |  | Ça coûte un euro. | It costs one euro. | tts |
+| S10768 |  | Le pain coûte un euro. | The bread costs one euro. | tts |
+| S10769 |  | La pomme coûte un euro. | The apple costs one euro. | tts |
+| S10770 |  | La ville est chère. | The city is expensive. | tts |
+| S10771 |  | La pomme est chère. | The apple is expensive. | tts |
+| S10772 |  | Elle est chère ? | Is it expensive? | tts |
 
 ## Words, for a read-through (361)
 
@@ -730,7 +763,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W907 | peu | peu | Adverb |  | little; not very much/many | checked |
 | W908 | trop | trop | Adverb |  | too; too much | checked |
 
-## Matched to Tatoeba (744)
+## Matched to Tatoeba (866)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -1371,6 +1404,36 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S11006 | Attendez ici, s'il vous plaît. | Please wait here. | [#427463](https://tatoeba.org/en/sentences/show/427463) | Archibald |  |  | tts |
 | S11007 | Ne m'attendez pas. | Don't wait for me. | [#135130](https://tatoeba.org/en/sentences/show/135130) | Cocorico |  |  | tts |
 | S11008 | Je sais qui vous attendez. | I know who you're waiting for. | [#7853310](https://tatoeba.org/en/sentences/show/7853310) | Aiji |  |  | tts |
+| S11101 | D'accord ? | OK? | [#2825711](https://tatoeba.org/en/sentences/show/2825711) | Rovo |  |  | tts |
+| S11102 | C'est vrai ? | Seriously? | [#181681](https://tatoeba.org/en/sentences/show/181681) | gillux |  |  | tts |
+| S11103 | Pas vrai ? | Not true? | [#4839181](https://tatoeba.org/en/sentences/show/4839181) | sacredceltic |  |  | tts |
+| S11104 | Tu es d'accord ? | Do you agree? | [#1082423](https://tatoeba.org/en/sentences/show/1082423) | sysko |  |  | tts |
+| S11105 | Parlez français, d'accord ? | Speak French, OK? | [#8737418](https://tatoeba.org/en/sentences/show/8737418) | Julien_PDC |  |  | tts |
+| S11106 | C'est ton vrai nom ? | Is that your real name? | [#11188417](https://tatoeba.org/en/sentences/show/11188417) | lbdx |  |  | tts |
+| S11107 | Est-ce que j'ai bien compris ? | Did I get it right? | [#1832474](https://tatoeba.org/en/sentences/show/1832474) | sacredceltic |  |  | tts |
+| S11108 | Qu'est-ce que ça veut dire exactement ? | What does that mean, exactly? | [#4767609](https://tatoeba.org/en/sentences/show/4767609) | Doremi391 |  |  | tts |
+| S11109 | Pas exactement. | Not exactly. | [#9025532](https://tatoeba.org/en/sentences/show/9025532) | Micsmithel |  |  | tts |
+| S11110 | J'ai compris. | I understood. | [#1313534](https://tatoeba.org/en/sentences/show/1313534) | sacredceltic |  |  | tts |
+| S11111 | Il a compris. | He understood. | [#2937419](https://tatoeba.org/en/sentences/show/2937419) | Amastan |  |  | tts |
+| S11112 | C'est exactement ça. | That's exactly it. | [#3667863](https://tatoeba.org/en/sentences/show/3667863) | sacredceltic |  |  | tts |
+| S11113 | Est-ce que c'est son vrai nom ? | Is that his real name? | [#11561657](https://tatoeba.org/en/sentences/show/11561657) | Aiji |  |  | tts |
+| S11114 | C'est d'accord. | Ok. | [#683954](https://tatoeba.org/en/sentences/show/683954) | sacredceltic |  |  | tts |
+| S11115 | Bon, d'accord ! | Fair enough! | [#7412320](https://tatoeba.org/en/sentences/show/7412320) | lbdx |  |  | tts |
+| S11116 | Elle a compris. | She understood. | [#2937425](https://tatoeba.org/en/sentences/show/2937425) | Amastan |  |  | tts |
+| S11117 | D'accord, très bien. | Ok, very good. | [#3256236](https://tatoeba.org/en/sentences/show/3256236) | Micsmithel |  |  | tts |
+| S11118 | Oui, c'est vrai ! | Yes, it's true! | [#3646828](https://tatoeba.org/en/sentences/show/3646828) | sacredceltic |  |  | tts |
+| S11119 | Ils sont d'accord. | They agree. | [#4729397](https://tatoeba.org/en/sentences/show/4729397) | sacredceltic |  |  | tts |
+| S11120 | Elles sont d'accord. | They agree. | [#4729398](https://tatoeba.org/en/sentences/show/4729398) | sacredceltic |  |  | tts |
+| S11121 | D'accord, à demain ! | OK, see you tomorrow. | [#11979241](https://tatoeba.org/en/sentences/show/11979241) | zogwarg |  |  | tts |
+| S11122 | Oui, oui, exactement ! | Yes, yes, exactly! | [#13452065](https://tatoeba.org/en/sentences/show/13452065) | Rovo |  |  | tts |
+| S11123 | Bien. Je suis d'accord. | OK. I agree. | [#549522](https://tatoeba.org/en/sentences/show/549522) | zmoo |  |  | tts |
+| S11124 | C'est mon vrai nom. | That's my real name. | [#3599320](https://tatoeba.org/en/sentences/show/3599320) | sacredceltic |  |  | tts |
+| S11125 | C'est pas du vrai. | It's not the real thing. | [#4206443](https://tatoeba.org/en/sentences/show/4206443) | Scorpionvenin14 |  |  | tts |
+| S11126 | Ça va, j'ai compris. | I'm fine, I understand. | [#6559865](https://tatoeba.org/en/sentences/show/6559865) | Blabla |  |  | tts |
+| S11127 | J'ai compris ça. | I understood that. | [#7411753](https://tatoeba.org/en/sentences/show/7411753) | lbdx |  |  | tts |
+| S11128 | Oui ! Je suis d'accord. | Yes! I agree. | [#7701610](https://tatoeba.org/en/sentences/show/7701610) | Maxence |  |  | tts |
+| S11129 | À vrai dire, oui. | Actually, yes. | [#10505497](https://tatoeba.org/en/sentences/show/10505497) | pkill |  |  | tts |
+| S11130 | Je ne sais pas exactement. | I don't know exactly. | [#128828](https://tatoeba.org/en/sentences/show/128828) | gillux |  |  | tts |
 | S10001 | Quel est votre nom, Monsieur ? | What is your name, sir? | [#1495015](https://tatoeba.org/en/sentences/show/1495015) | sacredceltic |  |  | tts |
 | S10002 | Quel est votre prénom ? | What's your first name? | [#14501](https://tatoeba.org/en/sentences/show/14501) | sacredceltic |  |  | tts |
 | S10003 | Quel est votre nom ? | What's your name? | [#497402](https://tatoeba.org/en/sentences/show/497402) | Bruno |  |  | tts |
@@ -1479,6 +1542,98 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10426 | J'aime bien ton appartement. | I like your apartment. | [#11167786](https://tatoeba.org/en/sentences/show/11167786) | blizb |  |  | tts |
 | S10427 | J'habite dans une grande ville. | I live in a big city. | [#127472](https://tatoeba.org/en/sentences/show/127472) | Julien_PDC |  |  | tts |
 | S10428 | Je ne sais pas où il habite. | I don't know where he lives. | [#126567](https://tatoeba.org/en/sentences/show/126567) | TRANG |  |  | tts |
+| S10501 | Vous êtes chinois ? | Are you Chinese? | [#5149921](https://tatoeba.org/en/sentences/show/5149921) | nbrr |  |  | tts |
+| S10502 | Je suis allemand, et vous ? | I'm German, and you? | [#6137675](https://tatoeba.org/en/sentences/show/6137675) | christian63 |  |  | tts |
+| S10503 | Qui parle bien l'allemand ? | Who speaks German well? | [#6688850](https://tatoeba.org/en/sentences/show/6688850) | felix63 |  |  | tts |
+| S10504 | Vous êtes espagnol, c'est ça ? | You are Spanish, right? | [#8165635](https://tatoeba.org/en/sentences/show/8165635) | Gaeiie |  |  | tts |
+| S10505 | Parlez italien ! | Speak Italian! | [#9020298](https://tatoeba.org/en/sentences/show/9020298) | Micsmithel |  |  | tts |
+| S10506 | Parle italien ! | Speak Italian! | [#9020299](https://tatoeba.org/en/sentences/show/9020299) | Micsmithel |  |  | tts |
+| S10507 | Je suis américain. | I am American. | [#7392](https://tatoeba.org/en/sentences/show/7392) | Bruno |  |  | tts |
+| S10508 | Je suis Japonais. | I'm Japanese. | [#14873](https://tatoeba.org/en/sentences/show/14873) | Aiji |  |  | tts |
+| S10509 | Il est Américain. | He's American. | [#130693](https://tatoeba.org/en/sentences/show/130693) | Aiji |  |  | tts |
+| S10510 | Elle parle chinois. | She speaks Chinese. | [#551912](https://tatoeba.org/en/sentences/show/551912) | zmoo |  |  | tts |
+| S10511 | Je suis Italien. | I'm Italian. | [#716949](https://tatoeba.org/en/sentences/show/716949) | Micsmithel |  |  | tts |
+| S10512 | Je suis étranger. | I am a foreigner. | [#750818](https://tatoeba.org/en/sentences/show/750818) | gillux |  |  | tts |
+| S10513 | Il parle chinois. | He speaks Chinese. | [#2206660](https://tatoeba.org/en/sentences/show/2206660) | Rovo |  |  | tts |
+| S10514 | Je parle allemand. | I speak German. | [#3056738](https://tatoeba.org/en/sentences/show/3056738) | Rovo |  |  | tts |
+| S10515 | Vous parlez japonais. | You speak Japanese. | [#3710092](https://tatoeba.org/en/sentences/show/3710092) | Eldad |  |  | tts |
+| S10516 | C'est un étranger. | He's a stranger. | [#4706272](https://tatoeba.org/en/sentences/show/4706272) | sacredceltic |  |  | tts |
+| S10517 | Il est japonais. | He's Japanese. | [#5762957](https://tatoeba.org/en/sentences/show/5762957) | Yemana |  |  | tts |
+| S10518 | Elle parle espagnol. | She speaks Spanish. | [#8659468](https://tatoeba.org/en/sentences/show/8659468) | Micsmithel |  |  | tts |
+| S10519 | Il est étranger. | He's foreign. | [#10033964](https://tatoeba.org/en/sentences/show/10033964) | Micsmithel |  |  | tts |
+| S10520 | Elle parle bien espagnol. | She speaks Spanish well. | [#590803](https://tatoeba.org/en/sentences/show/590803) | qdii |  |  | tts |
+| S10521 | Il parle dix langues. | He speaks ten languages. | [#993982](https://tatoeba.org/en/sentences/show/993982) | U2FS |  |  | tts |
+| S10522 | Elle parle dix langues. | She speaks ten languages. | [#1720391](https://tatoeba.org/en/sentences/show/1720391) | Micsmithel |  |  | tts |
+| S10523 | Je comprends votre langue. | I understand your language. | [#1816079](https://tatoeba.org/en/sentences/show/1816079) | sacredceltic |  |  | tts |
+| S10524 | Je vais en France. | I'm going to France. | [#5301601](https://tatoeba.org/en/sentences/show/5301601) | maraboule |  |  | tts |
+| S10525 | Il habite en Angleterre. | He lives in England. | [#7098044](https://tatoeba.org/en/sentences/show/7098044) | Micsmithel |  |  | tts |
+| S10526 | Je suis de France. | I'm from France. | [#7851156](https://tatoeba.org/en/sentences/show/7851156) | theachaean |  |  | tts |
+| S10527 | J'habite en France. | I live in France. | [#8532920](https://tatoeba.org/en/sentences/show/8532920) | Julien_PDC |  |  | tts |
+| S10528 | Je suis bon en langues. | I'm good at languages. | [#7637401](https://tatoeba.org/en/sentences/show/7637401) | tras |  |  | tts |
+| S10529 | Le français est une langue. | French is a language. | [#8741248](https://tatoeba.org/en/sentences/show/8741248) | Julien_PDC |  |  | tts |
+| S10530 | J'ai un ami en Angleterre. | I have a friend in England. | [#7384](https://tatoeba.org/en/sentences/show/7384) | Bruno |  |  | tts |
+| S10531 | Il ne parle pas ma langue. | He doesn't speak my language. | [#2432530](https://tatoeba.org/en/sentences/show/2432530) | Aiji |  |  | tts |
+| S10601 | Je voudrais acheter un sandwich. | I would like to order a sandwich. | [#479013](https://tatoeba.org/en/sentences/show/479013) | Micsmithel |  |  | tts |
+| S10602 | Vous voulez acheter des livres. | You want to buy books. | [#2326799](https://tatoeba.org/en/sentences/show/2326799) | Amastan |  |  | tts |
+| S10603 | Qu'est-ce que tu voudrais ? | What would you like? | [#3256419](https://tatoeba.org/en/sentences/show/3256419) | nimfeo |  |  | tts |
+| S10604 | Quel fruit est rouge ? | What fruit is red? | [#467970](https://tatoeba.org/en/sentences/show/467970) | sacredceltic |  |  | tts |
+| S10605 | Qu'est-ce que vous voulez maintenant ? | What do you want now? | [#1091649](https://tatoeba.org/en/sentences/show/1091649) | alexmarcelo |  |  | tts |
+| S10606 | Quel fruit est vert ? | Which fruit is green? | [#1120123](https://tatoeba.org/en/sentences/show/1120123) | Sibelius |  |  | tts |
+| S10607 | Où est le marché ? | Where's the market? | [#3627467](https://tatoeba.org/en/sentences/show/3627467) | fleur74 |  |  | tts |
+| S10608 | Vous voulez une pomme ? | Want an apple? | [#8703351](https://tatoeba.org/en/sentences/show/8703351) | Julien_PDC |  |  | tts |
+| S10609 | Qui va acheter ça pour nous ? | Who'll buy that for us? | [#12298818](https://tatoeba.org/en/sentences/show/12298818) | Rovo |  |  | tts |
+| S10610 | Mange des fruits ! | Eat fruit! | [#1084287](https://tatoeba.org/en/sentences/show/1084287) | nimfeo |  |  | tts |
+| S10611 | Mange tes légumes ! | Eat your vegetables. | [#1925510](https://tatoeba.org/en/sentences/show/1925510) | sacredceltic |  |  | tts |
+| S10612 | Mange le fruit ! | Eat the fruit! | [#8659474](https://tatoeba.org/en/sentences/show/8659474) | Micsmithel |  |  | tts |
+| S10613 | Mange des légumes. | Eat vegetables. | [#8984240](https://tatoeba.org/en/sentences/show/8984240) | Micsmithel |  |  | tts |
+| S10614 | Je mange des fruits. | I eat fruit. | [#1121067](https://tatoeba.org/en/sentences/show/1121067) | sacredceltic |  |  | tts |
+| S10615 | J'aime les fruits. | I like fruit. | [#1121499](https://tatoeba.org/en/sentences/show/1121499) | sacredceltic |  |  | tts |
+| S10616 | Tu achètes du pain. | You buy bread. | [#2104431](https://tatoeba.org/en/sentences/show/2104431) | Amastan |  |  | tts |
+| S10617 | Il achète du pain. | He buys bread. | [#2112701](https://tatoeba.org/en/sentences/show/2112701) | Amastan |  |  | tts |
+| S10618 | Elle achète du pain. | She buys bread. | [#2112705](https://tatoeba.org/en/sentences/show/2112705) | Amastan |  |  | tts |
+| S10619 | Je vais au marché. | I go to the market. | [#5241655](https://tatoeba.org/en/sentences/show/5241655) | sicerabibax |  |  | tts |
+| S10620 | On va au marché. | We're going to the market. | [#8030982](https://tatoeba.org/en/sentences/show/8030982) | Aiji |  |  | tts |
+| S10621 | J'aime les légumes. | I enjoy vegetables. | [#11383359](https://tatoeba.org/en/sentences/show/11383359) | saillier |  |  | tts |
+| S10622 | Je voudrais de l'eau. | I'd like some water. | [#10705554](https://tatoeba.org/en/sentences/show/10705554) | AutoBot |  |  | tts |
+| S10623 | Vous voulez de l'eau ? | Do you want some water? | [#5416495](https://tatoeba.org/en/sentences/show/5416495) | pititnatole |  |  | tts |
+| S10624 | Qu'est-ce que vous voulez nous dire ? | What do you want to tell us? | [#7986241](https://tatoeba.org/en/sentences/show/7986241) | Aiji |  |  | tts |
+| S10625 | Est-ce que vous voulez du lait ? | Do you want some milk? | [#8755874](https://tatoeba.org/en/sentences/show/8755874) | Aiji |  |  | tts |
+| S10626 | J'ai un fruit. | I have a fruit. | [#1123126](https://tatoeba.org/en/sentences/show/1123126) | sacredceltic |  |  | tts |
+| S10627 | Tu aimes les fruits. | You like fruit. | [#4818225](https://tatoeba.org/en/sentences/show/4818225) | mariezou |  |  | tts |
+| S10628 | Elle mange des fruits. | She eats fruit. | [#5249353](https://tatoeba.org/en/sentences/show/5249353) | martin9 |  |  | tts |
+| S10629 | Mange plus de fruits. | Eat more fruit. | [#5326390](https://tatoeba.org/en/sentences/show/5326390) | Aiji |  |  | tts |
+| S10630 | Le fruit est jaune. | The fruit is yellow. | [#8602635](https://tatoeba.org/en/sentences/show/8602635) | Aiji |  |  | tts |
+| S10701 | Ça coûte trente euros. | That costs 30 euros. | [#3256248](https://tatoeba.org/en/sentences/show/3256248) | Aiji |  |  | tts |
+| S10702 | Ça coûte vingt euros. | It costs twenty euros. | [#8760607](https://tatoeba.org/en/sentences/show/8760607) | Julien_PDC |  |  | tts |
+| S10703 | Ça coûte combien ? | How much is it? | [#4295](https://tatoeba.org/en/sentences/show/4295) | TRANG |  |  | tts |
+| S10704 | Qui va payer ? | Who will pay? | [#1078224](https://tatoeba.org/en/sentences/show/1078224) | sacredceltic |  |  | tts |
+| S10705 | Où est l'argent ? | Where's the money? | [#1211215](https://tatoeba.org/en/sentences/show/1211215) | sacredceltic |  |  | tts |
+| S10706 | Où est mon argent ? | Where's my money? | [#1820433](https://tatoeba.org/en/sentences/show/1820433) | sacredceltic |  |  | tts |
+| S10707 | Où est votre argent ? | Where is your money? | [#3627870](https://tatoeba.org/en/sentences/show/3627870) | fleur74 |  |  | tts |
+| S10708 | Où est la carte ? | Where's the map? | [#5306741](https://tatoeba.org/en/sentences/show/5306741) | Aiji |  |  | tts |
+| S10709 | Est-ce que le restaurant est cher ? | Is the restaurant expensive? | [#6867433](https://tatoeba.org/en/sentences/show/6867433) | felix63 |  |  | tts |
+| S10710 | Qui va payer pour ça ? | Who'll pay for this? | [#7124897](https://tatoeba.org/en/sentences/show/7124897) | Aiji |  |  | tts |
+| S10711 | Est-ce que tu as une carte ? | Do you have a map? | [#7970984](https://tatoeba.org/en/sentences/show/7970984) | Aiji |  |  | tts |
+| S10712 | C'est cher. | It's expensive. | [#4548407](https://tatoeba.org/en/sentences/show/4548407) | sacredceltic |  |  | tts |
+| S10713 | Voilà, monsieur. | Here you go, sir. | [#11790334](https://tatoeba.org/en/sentences/show/11790334) | lbdx |  |  | tts |
+| S10714 | C'est très cher ! | It's very expensive. | [#859133](https://tatoeba.org/en/sentences/show/859133) | sacredceltic |  |  | tts |
+| S10715 | Voilà ton chien ! | Here is your dog! | [#1825160](https://tatoeba.org/en/sentences/show/1825160) | sacredceltic |  |  | tts |
+| S10716 | Voici la carte ! | Here's the map. | [#1968223](https://tatoeba.org/en/sentences/show/1968223) | sacredceltic |  |  | tts |
+| S10717 | Je voudrais payer. | I'd like to pay. | [#7563246](https://tatoeba.org/en/sentences/show/7563246) | Micsmithel |  |  | tts |
+| S10718 | Voilà un livre, ici. | There's a book here. | [#1501120](https://tatoeba.org/en/sentences/show/1501120) | martin9 |  |  | tts |
+| S10719 | Combien est-ce que ça coûte ? | What's the price? | [#883817](https://tatoeba.org/en/sentences/show/883817) | sacredceltic |  |  | tts |
+| S10720 | Combien coûte une pomme ? | How much is an apple? | [#1544591](https://tatoeba.org/en/sentences/show/1544591) | sacredceltic |  |  | tts |
+| S10721 | Tu as l'argent ? | Do you have the money? | [#7290482](https://tatoeba.org/en/sentences/show/7290482) | Aiji |  |  | tts |
+| S10722 | Est-ce que tu as l'argent ? | Have you got the money? | [#1156746](https://tatoeba.org/en/sentences/show/1156746) | Korekorin |  |  | tts |
+| S10723 | Tu as de l'argent ? | Do you have some money? | [#7696456](https://tatoeba.org/en/sentences/show/7696456) | Maxence |  |  | tts |
+| S10724 | C'est ton argent. | It's your money. | [#4542978](https://tatoeba.org/en/sentences/show/4542978) | sacredceltic |  |  | tts |
+| S10725 | C'est votre argent. | It's your money. | [#4542979](https://tatoeba.org/en/sentences/show/4542979) | sacredceltic |  |  | tts |
+| S10726 | C'est mon argent. | That's my money. | [#6670593](https://tatoeba.org/en/sentences/show/6670593) | GB3 |  |  | tts |
+| S10727 | Il veut l'argent. | He wants the money. | [#902066](https://tatoeba.org/en/sentences/show/902066) | U2FS |  |  | tts |
+| S10728 | Il aime l'argent. | He likes money. | [#1804287](https://tatoeba.org/en/sentences/show/1804287) | sacredceltic |  |  | tts |
+| S10729 | Elle aime l'argent. | She likes money. | [#1804288](https://tatoeba.org/en/sentences/show/1804288) | sacredceltic |  |  | tts |
+| S10730 | Je voudrais payer s'il vous plaît. | I would like to pay, please. | [#6723202](https://tatoeba.org/en/sentences/show/6723202) | felix63 |  |  | tts |
+| S10731 | J'ai de l'argent. | I have money. | [#10869](https://tatoeba.org/en/sentences/show/10869) | pfif |  |  | tts |
 | S9161 | Qu'est-ce que ça veut dire ? | What does that mean? | [#2224260](https://tatoeba.org/en/sentences/show/2224260) | sacredceltic |  |  | tts |
 
 ## Off in the workbook (71)
@@ -1559,7 +1714,7 @@ Set to off by the workbook owner. Not shipped.
 | S7729 | À elle. | It's her turn. | pulled from Tatoeba under content_pull |
 | S7730 | À trois ! | On the count of three! | pulled from Tatoeba under content_pull |
 
-## English-to-French answers generated from Tatoeba (422)
+## English-to-French answers generated from Tatoeba (429)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -1599,6 +1754,13 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S10464 | Do you live here? | Résides-tu ici ? | [#1115899](https://tatoeba.org/en/sentences/show/1115899) | sacredceltic |
 | S10464 | Do you live here? | Tu vis ici ? | [#4081046](https://tatoeba.org/en/sentences/show/4081046) | sbamsbamsbam |
 | S10464 | Do you live here? | Vivez-vous ici ? | [#8943](https://tatoeba.org/en/sentences/show/8943) | Cocorico |
+| S10571 | Are you American? | Es-tu Étasunien ? | [#1978524](https://tatoeba.org/en/sentences/show/1978524) | sacredceltic |
+| S10571 | Are you American? | Es-tu Étasunienne ? | [#1978525](https://tatoeba.org/en/sentences/show/1978525) | sacredceltic |
+| S10571 | Are you American? | Êtes-vous Étasunien ? | [#1978520](https://tatoeba.org/en/sentences/show/1978520) | sacredceltic |
+| S10571 | Are you American? | Êtes-vous Étasunienne ? | [#1978527](https://tatoeba.org/en/sentences/show/1978527) | sacredceltic |
+| S10571 | Are you American? | Êtes-vous Étasuniennes ? | [#1978529](https://tatoeba.org/en/sentences/show/1978529) | sacredceltic |
+| S10571 | Are you American? | Êtes-vous Étasuniens ? | [#1978528](https://tatoeba.org/en/sentences/show/1978528) | sacredceltic |
+| S10761 | What's the price? | Combien est-ce que ça coûte ? | [#883817](https://tatoeba.org/en/sentences/show/883817) | sacredceltic |
 | S11061 | Can you repeat that, please? | Pourriez-vous répéter ça s'il vous plaît ? | [#4085](https://tatoeba.org/en/sentences/show/4085) | TRANG |
 | S11061 | Can you repeat that, please? | Pourriez-vous répéter cela s'il vous plait ? | [#846921](https://tatoeba.org/en/sentences/show/846921) | sacredceltic |
 | S11061 | Can you repeat that, please? | Pouvez-vous répéter cela, s'il vous plaît ? | [#13592](https://tatoeba.org/en/sentences/show/13592) | sacredceltic |

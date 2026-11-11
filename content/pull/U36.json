@@ -1,0 +1,1443 @@
+{
+  "unit_id": "U36",
+  "pulled_at": "2026-11-11",
+  "candidates": 35,
+  "sentences": [
+    {
+      "sentence_id": "S11101",
+      "unit_id": "U36",
+      "french": "D'accord ?",
+      "english": "OK?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2825711",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11102",
+      "unit_id": "U36",
+      "french": "C'est vrai ?",
+      "english": "Seriously?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "181681",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gillux",
+      "other_english": [
+        "No kidding?",
+        "Is that true?",
+        "Is it true?",
+        "Is this true?"
+      ]
+    },
+    {
+      "sentence_id": "S11103",
+      "unit_id": "U36",
+      "french": "Pas vrai ?",
+      "english": "Not true?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4839181",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11104",
+      "unit_id": "U36",
+      "french": "Tu es d'accord ?",
+      "english": "Do you agree?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1082423",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sysko",
+      "other_english": [
+        "Are you cool with that?"
+      ]
+    },
+    {
+      "sentence_id": "S11105",
+      "unit_id": "U36",
+      "french": "Parlez français, d'accord ?",
+      "english": "Speak French, OK?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8737418",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11106",
+      "unit_id": "U36",
+      "french": "C'est ton vrai nom ?",
+      "english": "Is that your real name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11188417",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": [
+        "Is this your real name?"
+      ]
+    },
+    {
+      "sentence_id": "S11107",
+      "unit_id": "U36",
+      "french": "Est-ce que j'ai bien compris ?",
+      "english": "Did I get it right?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1832474",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11108",
+      "unit_id": "U36",
+      "french": "Qu'est-ce que ça veut dire exactement ?",
+      "english": "What does that mean, exactly?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4767609",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Doremi391",
+      "other_english": [
+        "Exactly what does that mean?"
+      ]
+    },
+    {
+      "sentence_id": "S11109",
+      "unit_id": "U36",
+      "french": "Pas exactement.",
+      "english": "Not exactly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9025532",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11110",
+      "unit_id": "U36",
+      "french": "J'ai compris.",
+      "english": "I understood.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1313534",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I get it.",
+        "I got it.",
+        "I get the picture.",
+        "I've figured it out."
+      ]
+    },
+    {
+      "sentence_id": "S11111",
+      "unit_id": "U36",
+      "french": "Il a compris.",
+      "english": "He understood.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2937419",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": [
+        "He's understood.",
+        "He has understood."
+      ]
+    },
+    {
+      "sentence_id": "S11112",
+      "unit_id": "U36",
+      "french": "C'est exactement ça.",
+      "english": "That's exactly it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3667863",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "That's exactly right.",
+        "It really hits the nail on the head."
+      ]
+    },
+    {
+      "sentence_id": "S11113",
+      "unit_id": "U36",
+      "french": "Est-ce que c'est son vrai nom ?",
+      "english": "Is that his real name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11561657",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11114",
+      "unit_id": "U36",
+      "french": "C'est d'accord.",
+      "english": "Ok.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "683954",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "Agreed."
+      ]
+    },
+    {
+      "sentence_id": "S11115",
+      "unit_id": "U36",
+      "french": "Bon, d'accord !",
+      "english": "Fair enough!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7412320",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": [
+        "Alright already!"
+      ]
+    },
+    {
+      "sentence_id": "S11116",
+      "unit_id": "U36",
+      "french": "Elle a compris.",
+      "english": "She understood.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2937425",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11117",
+      "unit_id": "U36",
+      "french": "D'accord, très bien.",
+      "english": "Ok, very good.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3256236",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11118",
+      "unit_id": "U36",
+      "french": "Oui, c'est vrai !",
+      "english": "Yes, it's true!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3646828",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11119",
+      "unit_id": "U36",
+      "french": "Ils sont d'accord.",
+      "english": "They agree.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4729397",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11120",
+      "unit_id": "U36",
+      "french": "Elles sont d'accord.",
+      "english": "They agree.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4729398",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11121",
+      "unit_id": "U36",
+      "french": "D'accord, à demain !",
+      "english": "OK, see you tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11979241",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zogwarg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11122",
+      "unit_id": "U36",
+      "french": "Oui, oui, exactement !",
+      "english": "Yes, yes, exactly!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13452065",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11123",
+      "unit_id": "U36",
+      "french": "Bien. Je suis d'accord.",
+      "english": "OK. I agree.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "549522",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zmoo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11124",
+      "unit_id": "U36",
+      "french": "C'est mon vrai nom.",
+      "english": "That's my real name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3599320",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11125",
+      "unit_id": "U36",
+      "french": "C'est pas du vrai.",
+      "english": "It's not the real thing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4206443",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Scorpionvenin14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11126",
+      "unit_id": "U36",
+      "french": "Ça va, j'ai compris.",
+      "english": "I'm fine, I understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6559865",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Blabla",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11127",
+      "unit_id": "U36",
+      "french": "J'ai compris ça.",
+      "english": "I understood that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7411753",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11128",
+      "unit_id": "U36",
+      "french": "Oui ! Je suis d'accord.",
+      "english": "Yes! I agree.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7701610",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Maxence",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11129",
+      "unit_id": "U36",
+      "french": "À vrai dire, oui.",
+      "english": "Actually, yes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10505497",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pkill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11130",
+      "unit_id": "U36",
+      "french": "Je ne sais pas exactement.",
+      "english": "I don't know exactly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "128828",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gillux",
+      "other_english": [
+        "I do not know exactly."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S11101",
+      "position": 1,
+      "surface": "D'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11102",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11102",
+      "position": 2,
+      "surface": "vrai",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11103",
+      "position": 1,
+      "surface": "Pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11103",
+      "position": 2,
+      "surface": "vrai",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11104",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11104",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11104",
+      "position": 3,
+      "surface": "d'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11105",
+      "position": 1,
+      "surface": "Parlez",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11105",
+      "position": 2,
+      "surface": "français",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11105",
+      "position": 3,
+      "surface": "d'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11106",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11106",
+      "position": 2,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11106",
+      "position": 3,
+      "surface": "vrai",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11106",
+      "position": 4,
+      "surface": "nom",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11107",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11107",
+      "position": 2,
+      "surface": "j'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11107",
+      "position": 3,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11107",
+      "position": 4,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11107",
+      "position": 5,
+      "surface": "compris",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11108",
+      "position": 1,
+      "surface": "Qu'est-ce que",
+      "word_id": "W435",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11108",
+      "position": 2,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11108",
+      "position": 3,
+      "surface": "veut",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11108",
+      "position": 4,
+      "surface": "dire",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11108",
+      "position": 5,
+      "surface": "exactement",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11109",
+      "position": 1,
+      "surface": "Pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11109",
+      "position": 2,
+      "surface": "exactement",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11110",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11110",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11110",
+      "position": 3,
+      "surface": "compris",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11111",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11111",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11111",
+      "position": 3,
+      "surface": "compris",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11112",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11112",
+      "position": 2,
+      "surface": "exactement",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11112",
+      "position": 3,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11113",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11113",
+      "position": 2,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11113",
+      "position": 3,
+      "surface": "son",
+      "word_id": "W427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11113",
+      "position": 4,
+      "surface": "vrai",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11113",
+      "position": 5,
+      "surface": "nom",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11114",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11114",
+      "position": 2,
+      "surface": "d'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11115",
+      "position": 1,
+      "surface": "Bon",
+      "word_id": "W411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11115",
+      "position": 2,
+      "surface": "d'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11116",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11116",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11116",
+      "position": 3,
+      "surface": "compris",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11117",
+      "position": 1,
+      "surface": "D'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11117",
+      "position": 2,
+      "surface": "très",
+      "word_id": "W420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11117",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11118",
+      "position": 1,
+      "surface": "Oui",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11118",
+      "position": 2,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11118",
+      "position": 3,
+      "surface": "vrai",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11119",
+      "position": 1,
+      "surface": "Ils",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11119",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11119",
+      "position": 3,
+      "surface": "d'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11120",
+      "position": 1,
+      "surface": "Elles",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11120",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11120",
+      "position": 3,
+      "surface": "d'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11121",
+      "position": 1,
+      "surface": "D'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11121",
+      "position": 2,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11121",
+      "position": 3,
+      "surface": "demain",
+      "word_id": "W461",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11122",
+      "position": 1,
+      "surface": "Oui",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11122",
+      "position": 2,
+      "surface": "oui",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11122",
+      "position": 3,
+      "surface": "exactement",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11123",
+      "position": 1,
+      "surface": "Bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11123",
+      "position": 2,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11123",
+      "position": 3,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11123",
+      "position": 4,
+      "surface": "d'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11124",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11124",
+      "position": 2,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11124",
+      "position": 3,
+      "surface": "vrai",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11124",
+      "position": 4,
+      "surface": "nom",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11125",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11125",
+      "position": 2,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11125",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11125",
+      "position": 4,
+      "surface": "vrai",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11126",
+      "position": 1,
+      "surface": "Ça va",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11126",
+      "position": 2,
+      "surface": "j'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11126",
+      "position": 3,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11126",
+      "position": 4,
+      "surface": "compris",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11127",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11127",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11127",
+      "position": 3,
+      "surface": "compris",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11127",
+      "position": 4,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11128",
+      "position": 1,
+      "surface": "Oui",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11128",
+      "position": 2,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11128",
+      "position": 3,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11128",
+      "position": 4,
+      "surface": "d'accord",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11129",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11129",
+      "position": 2,
+      "surface": "vrai",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11129",
+      "position": 3,
+      "surface": "dire",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11129",
+      "position": 4,
+      "surface": "oui",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11130",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11130",
+      "position": 2,
+      "surface": "ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11130",
+      "position": 3,
+      "surface": "sais",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11130",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11130",
+      "position": 5,
+      "surface": "exactement",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A111021",
+      "sentence_id": "S11102",
+      "direction": "fr_to_en",
+      "answer": "No kidding?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111022",
+      "sentence_id": "S11102",
+      "direction": "fr_to_en",
+      "answer": "Is that true?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111023",
+      "sentence_id": "S11102",
+      "direction": "fr_to_en",
+      "answer": "Is it true?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111024",
+      "sentence_id": "S11102",
+      "direction": "fr_to_en",
+      "answer": "Is this true?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111041",
+      "sentence_id": "S11104",
+      "direction": "fr_to_en",
+      "answer": "Are you cool with that?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111061",
+      "sentence_id": "S11106",
+      "direction": "fr_to_en",
+      "answer": "Is this your real name?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111081",
+      "sentence_id": "S11108",
+      "direction": "fr_to_en",
+      "answer": "Exactly what does that mean?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111101",
+      "sentence_id": "S11110",
+      "direction": "fr_to_en",
+      "answer": "I get it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111102",
+      "sentence_id": "S11110",
+      "direction": "fr_to_en",
+      "answer": "I got it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111103",
+      "sentence_id": "S11110",
+      "direction": "fr_to_en",
+      "answer": "I get the picture.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111104",
+      "sentence_id": "S11110",
+      "direction": "fr_to_en",
+      "answer": "I've figured it out.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111111",
+      "sentence_id": "S11111",
+      "direction": "fr_to_en",
+      "answer": "He's understood.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111112",
+      "sentence_id": "S11111",
+      "direction": "fr_to_en",
+      "answer": "He has understood.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111121",
+      "sentence_id": "S11112",
+      "direction": "fr_to_en",
+      "answer": "That's exactly right.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111122",
+      "sentence_id": "S11112",
+      "direction": "fr_to_en",
+      "answer": "It really hits the nail on the head.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111141",
+      "sentence_id": "S11114",
+      "direction": "fr_to_en",
+      "answer": "Agreed.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111151",
+      "sentence_id": "S11115",
+      "direction": "fr_to_en",
+      "answer": "Alright already!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A111301",
+      "sentence_id": "S11130",
+      "direction": "fr_to_en",
+      "answer": "I do not know exactly.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": [
+    {
+      "question_sentence_id": "S11104",
+      "answer_sentence_id": "S11123"
+    },
+    {
+      "question_sentence_id": "S11104",
+      "answer_sentence_id": "S11128"
+    },
+    {
+      "question_sentence_id": "S11104",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S11104",
+      "answer_sentence_id": "S0005"
+    }
+  ]
+}
