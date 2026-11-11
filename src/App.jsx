@@ -798,7 +798,17 @@ export default function App() {
     return <Verbs tables={tables.conjugations.filter((t) => lemmas.has(t.lemma))} strict={settings.answer_strictness === 'strict'} onBack={() => setScreen('home')} />
   },
     progress: () => {
-    return <Progress finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
+    // A1 coverage (A1 Complete, section 6): list words met (a course word counts for its lemma), tasks whose circles
+    // have finished round 1, and the part.
+    const list = tables.a1_list?.[0]
+    const fold = (x) => String(x).toLowerCase().trim()
+    const listKeys = new Set((list?.words ?? []).map(fold))
+    const keysOf = (w) => [fold(w.lemma || w.form), fold(w.form)]
+    const metKeys = new Set(metWords().flatMap(keysOf).filter((k) => listKeys.has(k)))
+    const courseKeys = new Set(tables.words.flatMap(keysOf).filter((k) => listKeys.has(k)))
+    const taskDone = new Set(tables.units.filter((u) => u.tasks && progressOf(u.unit_id).round_reached >= 1).flatMap((u) => String(u.tasks).split(';')))
+    const coverage = list ? { met: metKeys.size, course: courseKeys.size, total: listKeys.size, source: list.source.split(',')[0], tasks: (tables.a1_tasks ?? []).map((t) => ({ ...t, done: taskDone.has(t.task_id) })), part: partOf(currentUnit), parts: Math.max(1, ...(tables.parts ?? []).map((x) => x.part)) } : null
+    return <Progress coverage={coverage} finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
       onCheck={startCheck} onBack={() => setScreen('home')} />
   },
     make: () => {

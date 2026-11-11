@@ -4,13 +4,34 @@ const NAMES = { reading: 'Reading', listening: 'Listening', writing: 'Writing', 
 
 // The full picture, kept off the home screen: per-skill score and CEFR band, what A1 complete needs, and the
 // "I can" checklist. A statement is ticked only after a short check of that skill (learning-methods 17).
-export default function Progress({ finalCheck, scores, units, canDo, checked, isOpen, progressOf, onCheck, onBack }) {
+export default function Progress({ coverage, finalCheck, scores, units, canDo, checked, isOpen, progressOf, onCheck, onBack }) {
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="flex items-center gap-2">
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
         <h1 className="text-xl font-semibold">Progress</h1>
       </header>
+
+      {/* A1 coverage (A1 Complete, 2026-11-10): measured against the course's official A1 word list and the thirteen
+          A1 tasks, so "A1 complete" means a level people understand. */}
+      {coverage && (
+        <section className="flex flex-col gap-3" aria-labelledby="cov-h">
+          <h2 id="cov-h" className="font-semibold">A1 Coverage</h2>
+          <div className="flex flex-col gap-1.5">
+            <div className="flex items-baseline justify-between"><span className="font-medium">A1 words</span><span className="font-semibold">{Math.round((coverage.met * 100) / coverage.total)}%</span></div>
+            <div className="h-2.5 overflow-hidden rounded-full bg-line"><div className="h-full rounded-full bg-green" style={{ width: `${(coverage.met * 100) / coverage.total}%` }} /></div>
+            <p className="text-sm text-muted">You've met {coverage.met} of the {coverage.total} words on the A1 word list ({coverage.source}). The course teaches {coverage.course} of them so far; more come with each part.</p>
+          </div>
+          <div className="flex items-baseline justify-between"><span className="font-medium">A1 tasks</span><span className="font-semibold">{coverage.tasks.filter((t) => t.done).length} of {coverage.tasks.length}</span></div>
+          <details className="-mt-2 text-sm">
+            <summary className="cursor-pointer text-muted">The thirteen A1 tasks</summary>
+            <ul className="mt-2 flex flex-col gap-1">
+              {coverage.tasks.map((t) => <li key={t.task_id} className="flex gap-2"><span aria-hidden="true" className={t.done ? 'text-right-ink' : 'text-muted'}>{t.done ? '✓' : '·'}</span><span className={t.done ? '' : 'text-muted'}>{t.task}{t.done ? '' : ' (not yet)'}</span></li>)}
+            </ul>
+          </details>
+          <div className="flex items-baseline justify-between"><span className="font-medium">Part</span><span className="font-semibold">{coverage.part} of {coverage.parts}</span></div>
+        </section>
+      )}
 
       <section className="flex flex-col gap-3">
         {Object.entries(scores).map(([skill, s]) => (
@@ -44,7 +65,7 @@ export default function Progress({ finalCheck, scores, units, canDo, checked, is
               })}
               <li className="flex items-baseline justify-between"><span className="font-medium">{NAMES.speaking ?? 'Speaking'}</span><span className="text-sm text-muted">practised, not graded</span></li>
             </ul>
-          ) : <p>Not taken yet. {finalCheck.available ? 'It\'s open: find it at the end of the path.' : 'It opens when every unit has had its first lessons.'}</p>}
+          ) : <p>Not taken yet. {finalCheck.available ? 'It\'s open: find it at the end of the last part.' : 'It opens when every unit has had its first lessons.'}</p>}
           <a href={finalCheck.exam.samples} target="_blank" rel="noopener noreferrer" className="self-start text-sm underline underline-offset-4">Official {finalCheck.exam.name} sample papers ({finalCheck.exam.body})</a>
         </section>
       )}
