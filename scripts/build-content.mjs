@@ -40,6 +40,9 @@ tables.units = tables.units.map((u) => ({
   borrowed_sentence_ids: decisions.borrow?.[u.unit_id] ?? String(u.borrowed_sentence_ids ?? '').split(';').filter(Boolean),
 }))
 tables.tree_layout = raw('tree_layout')
+// A1 Complete (2026-11-10): the parts (one shown at a time on the tree) and the thirteen A1 tasks.
+tables.parts = (raw('parts') ?? []).map((p) => ({ ...p, part: Number(p.part) }))
+tables.a1_tasks = raw('a1_tasks') ?? []
 
 // Sentences: live in the workbook and passed by the check, with the same source.
 // A pulled or drafted sentence ships once its unit is approved, unless Dan cut it.

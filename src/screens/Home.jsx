@@ -197,6 +197,75 @@ function ScenesCard({ sc, onStart, onClose }) {
   )
 }
 
+// A1 in parts (A1 Complete, 2026-11-10). The part review closes a part: ten questions over its circles, never
+// locking anything. Then the cap, and the next part as one banner: its title and what it covers, not its circles.
+function PartReviewCard({ part, onStart, onClose }) {
+  const r = part.review
+  return (
+    <Sheet onClose={onClose}>
+      <SheetHead kicker={r.done ? 'Passed' : 'Optional'} title={`Part ${part.n} Review`} onClose={onClose} />
+      <p className="mt-2">A short review of Part {part.n}, {part.title}:</p>
+      <ul className="mt-2 flex flex-col gap-1">{r.units.map((t) => <li key={t} className="font-medium">{t}</li>)}</ul>
+      <p className="mt-2 text-sm text-muted">Ten questions, the ones you're likeliest to have forgotten first. It never locks anything.</p>
+      {r.available
+        ? <button onClick={onStart} className="btn-submit mt-5 w-full">{r.done ? 'Take It Again' : 'Start the Review'}</button>
+        : <p className="mt-4 text-sm">It opens when you've finished the first lessons of every circle in this part.</p>}
+    </Sheet>
+  )
+}
+function PartEnd({ part, onReview, onPartView }) {
+  const next = part.next
+  return (
+    <>
+      {part.review && (
+        <li>
+          <button onClick={onReview} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-4 py-1.5 font-semibold ${part.review.available ? 'text-ink' : 'text-muted'}`}>
+            <span className="[&_svg]:size-4"><IconCheckered /></span>
+            Part {part.n} Review
+            {part.review.done && <span className="text-right-ink">✓</span>}
+          </button>
+        </li>
+      )}
+      <li className="flex w-full items-center gap-3 text-sm font-semibold text-muted" aria-label={`End of A1, Part ${part.n} of ${part.total}`}>
+        <span className="h-0.5 flex-1 bg-line" />
+        <span>End of A1 · Part {part.n} of {part.total}</span>
+        <span className="h-0.5 flex-1 bg-line" />
+      </li>
+      {next && (
+        <li className="w-full">
+          <div className={`flex flex-col gap-1 rounded-2xl border-2 border-line bg-surface p-4 ${next.unlocked && next.built ? '' : 'opacity-80'}`}>
+            <p className="flex items-center gap-2 text-sm text-muted">
+              {!(next.unlocked && next.built) && <span className="[&_svg]:size-4"><IconLock /></span>}
+              A1 · Part {next.n} of {part.total}
+            </p>
+            <p className="text-lg font-semibold">{next.title}</p>
+            <p className="text-sm text-muted">{next.summary}</p>
+            {next.unlocked && next.built
+              ? <button onClick={() => onPartView(next.n)} className="btn-submit mt-3">Go to Part {next.n}</button>
+              : <p className="mt-2 text-sm">{next.unlocked ? 'Being written. It opens here as soon as it\'s ready.' : `Opens when every circle in Part ${part.n} has finished its first lessons.`}</p>}
+          </div>
+        </li>
+      )}
+    </>
+  )
+}
+// The part switcher, at the top of the tree once more than one part is open.
+function PartSwitcher({ part, onPartView }) {
+  return (
+    <div className="flex flex-col items-center gap-2">
+      <p className="text-sm font-semibold text-muted">A1 · Part {part.n} of {part.total}{part.title ? `: ${part.title}` : ''}</p>
+      {part.switcher.length > 1 && (
+        <div className="flex flex-wrap justify-center gap-2" role="group" aria-label="Parts">
+          {part.switcher.map((x) => (
+            <button key={x.n} onClick={() => onPartView(x.n)} aria-pressed={x.n === part.n} aria-label={`Part ${x.n}: ${x.title}`}
+              className={`rounded-full border-2 px-3 py-1 text-sm ${x.n === part.n ? 'border-orange bg-orange text-white' : 'border-line bg-surface'}`}>Part {x.n}</button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export function CheckpointNode({ cp, onPick }) {
   return (
     <button onClick={() => onPick(cp)} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-3 py-1 text-sm ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
@@ -270,13 +339,14 @@ function Points({ total, today }) {
 }
 
 export default function Home({ wide, panel, rows, markers, levelLabel, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
-  finalCheck, onFinal, scenes, onScene, onTestPass, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
+  finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
   const [languages, setLanguages] = useState(false)
   const [finalOpen, setFinalOpen] = useState(false)
   const [scenesOpen, setScenesOpen] = useState(false)
+  const [reviewOpen, setReviewOpen] = useState(false)
   return (
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
@@ -308,6 +378,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
 
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
       {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
+      {part && <PartSwitcher part={part} onPartView={onPartView} />}
       <ol className="flex flex-1 flex-col items-center gap-24 pt-1 pb-24">
         {rows.map((row, i) => {
           const n = row.row ?? i + 1 // the row's own number, not its place in the list
@@ -323,6 +394,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
           ]
         })}
         {finalCheck && <li><FinalNode fc={finalCheck} onPick={() => setFinalOpen(true)} /></li>}
+        {part && <PartEnd part={part} onReview={() => setReviewOpen(true)} onPartView={onPartView} />}
         {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <Marker key={m.label} label={m.label} />)}
       </ol>
 
@@ -362,6 +434,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
           onStart={() => { setCpPicked(null); onCheckpoint(cpPicked.afterRow) }}
           onSkip={() => { setCpPicked(null); onSkipCheckpoint(cpPicked.afterRow) }} />
       )}
+      {reviewOpen && part?.review && <PartReviewCard part={part} onClose={() => setReviewOpen(false)} onStart={() => { setReviewOpen(false); onPartReview() }} />}
       {scenesOpen && <ScenesCard sc={scenes} onClose={() => setScenesOpen(false)} onStart={(x) => { setScenesOpen(false); onScene(x) }} />}
       {finalOpen && <FinalCard fc={finalCheck} onClose={() => setFinalOpen(false)} onStart={() => { setFinalOpen(false); onFinal() }} />}
       {languages && (
