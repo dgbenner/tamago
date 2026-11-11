@@ -364,22 +364,25 @@ function Tools({ tools }) {
 
 // The right-hand panel on a wide screen: each tool with a line on what it's for; a tool opens here, in place.
 function ToolMenu({ tools }) {
+  const card = (t) => {
+    const Icon = TOOL_ICONS[t.id]
+    return (
+      <button key={t.id} onClick={t.onOpen} className={`@container flex items-start gap-3 rounded-xl border-2 p-3 text-left hover:border-muted ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface'}`}>
+        <span className={`mt-0.5 shrink-0 [&_svg]:size-6 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
+        {/* Developer: tiny type at half strength, like the carousel's dev jump. */}
+        <span className="flex flex-col gap-0.5">
+          <span className={t.quiet ? 'dev-tiny font-semibold' : 'font-semibold'}>{t.label}</span>
+          <span className={`max-w-[80cqw] ${t.quiet ? 'dev-tiny' : 'text-sm text-muted'}`}>{t.about}</span>
+        </span>
+      </button>
+    )
+  }
   return (
-    // Every card the height of the tallest, evenly spaced; each line at most 80% of the card's width (Dan, 2026-11-11).
-    <nav aria-label="Tools" className="grid auto-rows-fr gap-2">
-      {tools.map((t) => {
-        const Icon = TOOL_ICONS[t.id]
-        return (
-          <button key={t.id} onClick={t.onOpen} className={`@container flex items-start gap-3 rounded-xl border-2 p-3 text-left hover:border-muted ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface'}`}>
-            <span className={`mt-0.5 shrink-0 [&_svg]:size-6 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
-            {/* Developer: tiny type at half strength, like the carousel's dev jump. */}
-            <span className="flex flex-col gap-0.5">
-              <span className={t.quiet ? 'dev-tiny font-semibold' : 'font-semibold'}>{t.label}</span>
-              <span className={`max-w-[80cqw] ${t.quiet ? 'dev-tiny' : 'text-sm text-muted'}`}>{t.about}</span>
-            </span>
-          </button>
-        )
-      })}
+    // The learning tools: every card the height of the tallest, evenly spaced; each line at most 80% of the card's
+    // width. Developer sits below, out of the matching, and stays short (Dan, 2026-11-11).
+    <nav aria-label="Tools" className="flex flex-col gap-2">
+      <div className="grid auto-rows-fr gap-2">{tools.filter((t) => !t.quiet).map(card)}</div>
+      {tools.filter((t) => t.quiet).map(card)}
     </nav>
   )
 }
