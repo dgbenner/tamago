@@ -4,6 +4,12 @@ Updated November 10, 2026. **New: the Asking for Help thread (three help circles
 
 ## Done since last check-in
 
+- **A1 Complete, step 1: official lists loaded, coverage measured (stopped here for you, as the spec says).** The spec is saved as _source/a1-complete.md, and the numbers come from scripts/a1-coverage.mjs.
+  - **German:** the Goethe-Institut Start Deutsch 1 Wortliste, 627 main entries (the list says about 650; its indented sub-entries aren't counted). The course teaches **118 (19%)**, every one in 3 or more sentences; 91 (15%) are on the main path without the topic packs.
+  - **Spanish:** the PCIC A1 column of the general and specific notion inventories, 534 words. The course teaches **106 (20%)**; 88 (16%) on the main path. The Cervantes site was down for maintenance, so I read the Internet Archive's copy.
+  - **French:** there is no free official DELF A1 word list. The reference is the book *Niveau A1 pour le français: un référentiel* (Didier); France Éducation international's free inventory covers grammar and functions, not vocabulary. Your call is under Waiting for Dan.
+  - **The spec's themes, all three courses:** numbers to 100, about 10 of 29 (one to ten only); prices 0 or 1; times 2 or 3; days 6 or 7 of 13; months 0; dates 0.
+  - **Rough size of the gap:** reaching 90% means about 450 more German words and about 375 more Spanish words. At 15 to 20 new words a circle, that's roughly 25 to 30 more circles each: Parts 2 to 4.
 - **Ready to go public (your switch).**
   - **History scan:** no secrets in any of the 126 commits. The only key-shaped strings are the deliberate fakes in the redaction test.
   - **The 19 square sushi images** (Aji, Amaebi, Anago, Chutoro, Ebi, Hamachi, Hirame, Hotate, Ika, Maguro, Otoro, Saba, Sake, Tai, Tako, Unagi, Ikura, Tobiko, Uni; I earlier said 21, wrongly) are moved out of the repo into a tamago-held folder next to it, sources and app copies both. The circles that used them now wear the confirmed glossy set; the help circles wear the three glossy rolls.
@@ -210,6 +216,7 @@ Updated November 10, 2026. **New: the Asking for Help thread (three help circles
 
 ## Waiting for Dan
 
+- **A1 Complete: the French word list.** No free official list exists. Options: (a) you get *Niveau A1 pour le français: un référentiel* (Didier, 2007) and send its lexical inventory, the true reference; (b) I build an interim French list from the same A1 notions as the Goethe and PCIC lists, marked as a stand-in until (a). Recommended: (b) now, replaced by (a) if you get the book.
 0. **Accessibility items I couldn't fix:**
    - **iPad landscape only vs WCAG 1.3.4.** AA says an app mustn't lock itself to one orientation, so the "Turn your iPad sideways" note fails AA. Your Pass 2 notes asked for it, so I left it. Say the word and I'll remove it (an upright iPad would then get the phone layout).
    - **Listening and speaking questions** need hearing and a voice by design. The alternative is the Can't Listen Now / Can't Speak Now button on each of those questions (and in Settings), which swaps them for reading and writing. There's no transcript for listening questions, since that would give the answer away.
