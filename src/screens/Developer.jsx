@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { lessonLogFor, snapshotRows } from '../lib/snapshot.js'
-import { getAll } from '../lib/store.js'
+import { getAll, resetProgress } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
 import { IconBack } from './icons.jsx'
-import { TL } from '../lib/course.js'
+import { TL, course, reloadSkippingSplash } from '../lib/course.js'
 
 // The Developer area (Dan, 2026-11-10): everything for building and testing Tamago, out of Settings and away from the
 // learning tools. Testing controls first, then one large accordion per document: Course Snapshot (built from the
@@ -119,6 +119,23 @@ function Doc({ doc, lib, loadLib }) {
 const TITLES = [['model-story', 'Model Story'], ['craft-review', 'Craft Rubric'], ['grades', 'Latest Grades'], ['test-notes', 'Test Notes'], ['features', 'Feature List'],
   ['question-types', 'Question Types'], ['build-phases', 'Build Phases'], ['autonomous-build', 'Autonomous Brief'], ['check-in', 'Check-In']]
 
+// Reset Progress (Dan, 2026-11-10): wipes this language's progress on this device, after a confirmation on the page.
+function ResetProgress() {
+  const [asking, setAsking] = useState(false)
+  const [busy, setBusy] = useState(false)
+  if (!asking) return <button onClick={() => setAsking(true)} className="btn-secondary">Reset Progress</button>
+  return (
+    <div role="alertdialog" aria-labelledby="reset-h" aria-describedby="reset-d" className="flex flex-col gap-3 rounded-xl border-2 border-wrong p-4">
+      <p id="reset-h" className="font-semibold">Reset {course.name} progress?</p>
+      <p id="reset-d" className="text-sm">This wipes every lesson, score, word met, review item and checkpoint in {course.name} on this device. It can't be undone. Settings, flags and the other languages stay as they are.</p>
+      <div className="flex gap-2">
+        <button autoFocus onClick={() => setAsking(false)} className="btn-secondary flex-1">Cancel</button>
+        <button disabled={busy} onClick={async () => { setBusy(true); await resetProgress(); reloadSkippingSplash() }} className="btn-submit flex-1">Wipe {course.name} Progress</button>
+      </div>
+    </div>
+  )
+}
+
 export default function Developer({ settings, onChange, snapshot, onBack, onVariants, onFlags, onNativeCheck, onForum }) {
   const [lib, setLib] = useState(null)
   const loadLib = () => import('../lib/devnotes.js').then((l) => { setLib(l); return l })
@@ -133,7 +150,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
 
       <section className="flex flex-col gap-5 rounded-xl border-2 border-dashed border-field p-5">
         <h2 className="text-lg font-semibold">Testing</h2>
-        <Segmented label="Testing Shortcuts" help="Swipe left from the right side of the screen, or press the right arrow, to pass a question as correct. Passes are marked as tests." value={settings.test_shortcuts}
+        <Segmented label="Testing Shortcuts" help="In a lesson: swipe left from the right side of the screen, or press the right arrow, to pass a question as correct. On the tree: swipe a circle right to left, or press the right arrow while it has focus, to pass its next lesson without playing it. Passes are marked as tests." value={settings.test_shortcuts}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ test_shortcuts: v })} />
         <Segmented label="Show Developer in Tools" help={`Off hides this page's entry before testers. It stays open at ${location.origin}/#developer`} value={settings.developer ?? 'on'}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ developer: v })} />
@@ -143,6 +160,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
           <button onClick={onNativeCheck} className="btn-secondary">Native-Speaker Check</button>
           <button onClick={onForum} className="btn-secondary">Forum</button>
         </div>
+        <ResetProgress />
       </section>
 
       <div className="flex flex-col gap-3">

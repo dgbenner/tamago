@@ -595,6 +595,51 @@ export default function App() {
     })
   }
 
+  // A passed lesson's bookkeeping: what it showed, misses to carry, and the circle's progress. Shared by a real
+  // lesson and the tree's test pass (Testing Shortcuts, 2026-11-10).
+  const recordPass = (s) => {
+    const unitSeen = roundSeen.current[s.unit_id] ?? {}
+    const seen = unitSeen[s.round] ?? { sentences: {}, words: {} }
+    for (const q of s.queue.slice(0, s.size)) {
+      if (q.sentence_id) seen.sentences[q.sentence_id] = (seen.sentences[q.sentence_id] ?? 0) + 1
+      for (const id of q.word_ids ?? []) seen.words[id] = (seen.words[id] ?? 0) + 1
+    }
+    roundSeen.current = { ...roundSeen.current, [s.unit_id]: { ...unitSeen, [s.round]: seen } }
+    putKv('round_seen_by_unit', roundSeen.current)
+    carry.current = (s.misses ?? []).map((m) => ({ ...m, unit_id: s.unit_id }))
+    putKv('carry', carry.current)
+    const progress = progressOf(s.unit_id)
+    const uc = unitContent(s.unit_id)
+    if (s.round === roundOf(s.unit_id) && progress.round_reached < 5) {
+      const done = progress.lessons_done + 1
+      // A round runs its full count, and longer only if a miss kept a sentence or word from appearing.
+      const covered = uc.sentences.every((x) => seen.sentences[x.sentence_id]) && uc.wordOrder.every((id) => seenWords.current.has(id))
+      const count = lessonsInRound(uc, s.round)
+      const roundDone = (done >= count && covered) || done >= count + 3
+      const nextProgress = { ...progress, round_reached: roundDone ? s.round : progress.round_reached, lessons_done: roundDone ? 0 : done }
+      setProgressByUnit((p) => ({ ...p, [s.unit_id]: nextProgress }))
+      put('unit_progress', nextProgress)
+    }
+  }
+  // Testing Shortcuts on the tree: the circle's next lesson, built as it would be and passed without being played. Its
+  // questions count as seen and as answered right, marked as tests, so the circle moves on exactly as after a lesson.
+  const testPass = (unitId) => {
+    if (!isOpen(unitId) || progressOf(unitId).round_reached >= 5) return
+    const round = roundOf(unitId)
+    const s = buildLesson(unitContent(unitId), { round, unit_id: unitId, seen: roundSeen.current[unitId]?.[round] ?? {}, known: seenWords.current, settings: lessonModes() })
+    const graded = s.queue.slice(0, s.size).filter((q) => !q.speaking).length
+    for (const q of s.queue.slice(0, s.size)) {
+      for (const seg of q.segments ?? []) if (seg.word_id) seenWords.current.add(seg.word_id)
+      for (const id of q.word_ids ?? []) seenWords.current.add(id)
+      const t = tally.current
+      t[unitId] ??= {}; t[unitId][q.round] ??= {}; t[unitId][q.round][q.skill] = (t[unitId][q.round][q.skill] ?? 0) + 1
+    }
+    putKv('seen_words', [...seenWords.current]); putKv('skill_tally', tally.current)
+    if (unitId !== currentUnit) { setCurrentUnit(unitId); putKv('current_unit', unitId) }
+    put('lessons', { lesson_id: s.id, unit_id: unitId, round, score: graded, graded_count: graded, passed: true, test_skip: true, duration_ms: null, finished_at: new Date().toISOString() })
+    recordPass({ ...s, firstCorrect: graded, graded, misses: [] })
+    setLastLine(`Passed for testing: ${tables.units.find((u) => u.unit_id === unitId)?.title}, round ${round}`)
+  }
   const finish = (s) => {
     remove('kv', 'current_session')
     setSession(null)
@@ -657,28 +702,7 @@ export default function App() {
       setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size}. Pass is ${mark}, so this lesson repeats in new question types.`, retry: s })
       return
     }
-    const unitSeen = roundSeen.current[s.unit_id] ?? {}
-    const seen = unitSeen[s.round] ?? { sentences: {}, words: {} }
-    for (const q of s.queue.slice(0, s.size)) {
-      if (q.sentence_id) seen.sentences[q.sentence_id] = (seen.sentences[q.sentence_id] ?? 0) + 1
-      for (const id of q.word_ids ?? []) seen.words[id] = (seen.words[id] ?? 0) + 1
-    }
-    roundSeen.current = { ...roundSeen.current, [s.unit_id]: { ...unitSeen, [s.round]: seen } }
-    putKv('round_seen_by_unit', roundSeen.current)
-    carry.current = (s.misses ?? []).map((m) => ({ ...m, unit_id: s.unit_id }))
-    putKv('carry', carry.current)
-    const progress = progressOf(s.unit_id)
-    const uc = unitContent(s.unit_id)
-    if (s.round === roundOf(s.unit_id) && progress.round_reached < 5) {
-      const done = progress.lessons_done + 1
-      // A round runs its full count, and longer only if a miss kept a sentence or word from appearing.
-      const covered = uc.sentences.every((x) => seen.sentences[x.sentence_id]) && uc.wordOrder.every((id) => seenWords.current.has(id))
-      const count = lessonsInRound(uc, s.round)
-      const roundDone = (done >= count && covered) || done >= count + 3
-      const nextProgress = { ...progress, round_reached: roundDone ? s.round : progress.round_reached, lessons_done: roundDone ? 0 : done }
-      setProgressByUnit((p) => ({ ...p, [s.unit_id]: nextProgress }))
-      put('unit_progress', nextProgress)
-    }
+    recordPass(s)
     // A passed lesson goes straight back to home; its score shows there as one line that fades by itself (Dan, 2026-11-10).
     setLastLine(`${s.firstCorrect} of ${s.graded ?? s.size}`)
     setScreen('home')
@@ -879,6 +903,7 @@ export default function App() {
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
       onCheckpoint={startCheckpoint} finalCheck={finalInfo} onFinal={startFinal}
+      onTestPass={settings.test_shortcuts === 'on' ? testPass : null}
       scenes={sceneInfo} onScene={(sc) => startConversation('scene', sc, { speed: 'normal', corrections: 'end', vocabulary: 'few' }, 'home')}
       onSkipCheckpoint={(row) => setCheckpointsSkipped((m) => { const n = { ...m, [row]: today() }; putKv('checkpoints_skipped', n); return n })}
       practice={{ mistakes: bank.length, ready: bank.length > 0 || practiceIds().length > 0 }} onPractice={startPracticeMix}

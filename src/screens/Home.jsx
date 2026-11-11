@@ -8,12 +8,12 @@ import CircleNode from './CircleNode.jsx'
 // A tree node is a circle (Circle Lab design, approved 2026-11-10; src/screens/CircleNode.jsx): its sushi on a warm
 // disc, one ring that fills across all its lessons, the title. "Start Here" and "Your Progress" show on the first
 // circle only, the first time; a "?" stands for Your Topic until one is chosen.
-function Node({ node, onPick }) {
+function Node({ node, onPick, onTestPass }) {
   const { unit, open, circle, strength, topic, marker } = node
   return (
     <CircleNode title={unit.title} icon={unit.icon_file ? `/icons/${unit.icon_group}/${unit.icon_file}` : null} glyph={topic?.choosing ? '?' : null}
       locked={!open} lessonsDone={circle.done} lessonsTotal={circle.total} recall={strength?.items > 0 ? strength.recall : null} marker={marker}
-      onPick={() => onPick(node)} />
+      onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
   )
 }
 
@@ -270,7 +270,7 @@ function Points({ total, today }) {
 }
 
 export default function Home({ wide, panel, rows, markers, levelLabel, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
-  finalCheck, onFinal, scenes, onScene, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
+  finalCheck, onFinal, scenes, onScene, onTestPass, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
@@ -316,7 +316,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
           return [
             marker && <Marker key={`m${i}`} label={marker.label} />,
             <li key={i} className="flex justify-center gap-4">
-              {row.map((node) => <Node key={node.unit.unit_id} node={node} onPick={setPicked} />)}
+              {row.map((node) => <Node key={node.unit.unit_id} node={node} onPick={setPicked} onTestPass={onTestPass} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
             scenes && scenes.afterRow === n && <li key={`sc${i}`}><ScenesNode sc={scenes} onPick={() => setScenesOpen(true)} /></li>,

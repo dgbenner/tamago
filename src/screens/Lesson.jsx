@@ -484,6 +484,10 @@ function promptFor(q, { newWords, hideFrench, result, onHint }) {
   return <p className="text-2xl leading-relaxed">{q.english}</p>
 }
 
+// Typing to pick chips (Dan, 2026-11-10): letters typed with no field focused pick from the chip bank. Matching ignores
+// case, accents and punctuation (e matches é); chips that read the same count as one.
+const foldChip = (t) => String(t).normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/[’ʼ]/g, "'").replace(/[.,!?¿¡;:«»„“”"…]/g, '').trim()
+
 function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, onHint, onTyping }) {
   const [typing, setTypingState] = useState(settings.typed_input === 'keyboard')
   useEffect(() => { onTyping?.(typing) }, [typing])
@@ -496,6 +500,45 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
     onAnswer({ ...checkTyped(value, q.accepted, { strict: settings.answer_strictness === 'strict', lang: q.lang, vocabulary: content.vocabulary[q.lang] }), given: value })
   }
   const answerText = picked.map((i) => q.chips[i]).join(' ')
+  // The letters typed so far, and the chips they still match. One match (by text) moves into the answer at once;
+  // several wait for more letters, and a space or Enter takes the shortest exact match. Backspace takes back a letter,
+  // or with none typed, the last placed chip.
+  const [typed, setTyped] = useState('')
+  const free = q.chips ? q.chips.map((c, i) => i).filter((i) => !picked.includes(i)) : []
+  const matching = (pre) => free.filter((i) => foldChip(q.chips[i]).startsWith(pre))
+  const lit = typed ? new Set(matching(typed)) : new Set()
+  useEffect(() => { setTyped('') }, [q.qid])
+  useEffect(() => {
+    if (typing || result || !q.chips) return undefined
+    const place = (i) => { setPicked((p) => [...p, i]); setTyped('') }
+    const onKey = (e) => {
+      if (e.metaKey || e.ctrlKey || e.altKey || e.repeat) return
+      const t = e.target
+      if (t instanceof HTMLInputElement || t instanceof HTMLTextAreaElement || t?.isContentEditable) return
+      if (e.key === 'Backspace') {
+        e.preventDefault()
+        if (typed) setTyped(typed.slice(0, -1))
+        else setPicked((p) => p.slice(0, -1))
+        return
+      }
+      if ((e.key === ' ' || e.key === 'Enter') && typed) {
+        e.preventDefault(); e.stopPropagation()
+        const exact = matching(typed).filter((i) => foldChip(q.chips[i]) === typed).sort((a, b) => q.chips[a].length - q.chips[b].length)
+        if (exact.length) place(exact[0])
+        return
+      }
+      if (e.key.length !== 1 || !/[\p{L}'’-]/u.test(e.key)) return
+      const next = typed + foldChip(e.key)
+      const hits = matching(next)
+      if (!hits.length) { e.preventDefault(); return }
+      e.preventDefault()
+      const texts = new Set(hits.map((i) => foldChip(q.chips[i])))
+      if (texts.size === 1) place(hits[0])
+      else setTyped(next)
+    }
+    window.addEventListener('keydown', onKey, true)
+    return () => window.removeEventListener('keydown', onKey, true)
+  }, [typing, result, q.qid, typed, picked])
   return (
     <>
       {promptFor(q, { newWords, hideFrench, result, onHint })}
@@ -512,9 +555,10 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
           </div>
           <div lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label="Words to choose from" className="flex flex-wrap gap-2">
             {q.chips.map((chip, i) => (
-              <button key={i} disabled={picked.includes(i) || Boolean(result)} onClick={(e) => { focusNeighbour(e.currentTarget); setPicked([...picked, i]) }} className={`chip ${picked.includes(i) ? 'opacity-25' : ''}`}>{chip}</button>
+              <button key={i} disabled={picked.includes(i) || Boolean(result)} onClick={(e) => { focusNeighbour(e.currentTarget); setTyped(''); setPicked([...picked, i]) }} className={`chip ${picked.includes(i) ? 'opacity-25' : ''} ${lit.has(i) ? 'chip-lit' : ''}`}>{chip}</button>
             ))}
           </div>
+          <p role="status" className="min-h-5 text-sm text-muted">{typed ? `Typed “${typed}”: ${lit.size} words match. Keep typing, or press Space for the exact word.` : ''}</p>
         </>
       )}
       {/* One place for Check (craft review, fix 2): the check-row sits under the answer area; on a phone with

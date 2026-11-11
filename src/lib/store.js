@@ -88,3 +88,20 @@ export async function restoreAll(backup) {
     t.onerror = () => reject(t.error)
   })
 }
+
+// Testing (Dan, 2026-11-10): wipes this course's progress on the device. Kept: settings, the profile, flags, the
+// native-speaker check, approved answers and variant switches (none of them progress). The caller reloads.
+const KEEP_KV = new Set(['settings', 'profile', 'native_check', 'approved_answers', 'variant_status'])
+export async function resetProgress() {
+  const db = await open()
+  if (!db) return
+  const wipe = ['attempts', 'lessons', 'review_bank', 'hints_log', 'unit_progress', 'points']
+  const keys = (await getAll('kv')).map((r) => r.key).filter((k) => !KEEP_KV.has(k))
+  await new Promise((resolve, reject) => {
+    const t = db.transaction([...wipe, 'kv'], 'readwrite')
+    for (const s of wipe) t.objectStore(s).clear()
+    for (const k of keys) t.objectStore('kv').delete(k)
+    t.oncomplete = resolve
+    t.onerror = () => reject(t.error)
+  })
+}

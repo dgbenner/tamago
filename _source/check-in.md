@@ -4,6 +4,9 @@ Updated November 10, 2026. **New: the Asking for Help thread (three help circles
 
 ## Done since last check-in
 
+- **Typing to pick word chips, for everyone.** On any question with a word bank, letters typed (with no text field in use) pick chips. As soon as only one chip matches the letters so far, it moves into the answer. If several match (*e* for *est* and *eau*), they all get an orange edge until more letters narrow it down. Space or Enter takes the shortest exact match, and Backspace takes back a letter, or the last placed chip. Matching ignores case, accents and punctuation. The keyboard toggle for typing whole answers is unchanged.
+- **Testing Shortcuts on the tree** (only while that setting is on): swiping a circle right to left, or pressing the right arrow while it has focus, passes its next lesson without playing it. Its questions count as seen and right, marked as tests, and a line at the bottom says "Passed for testing".
+- **Reset Progress** in the Testing block on the Developer page, with a confirmation on the page. It wipes the current language's lessons, scores, words met, review items, checkpoints and scenes on this device. It keeps settings, flags, the native-speaker check and the other languages.
 - **The conversation job, parts 2 to 5: conversations with Claude, live.**
   - **Scenes on the path:** a Conversations node after Asking About Words (the second help circle). It opens once that circle has had its first lessons. There are three scenes per course: Ordering a Drink, A New Neighbour and Finding the Way.
     - Each opens with a word prep: its 5 or 6 key words with your pictures, tap to hear.

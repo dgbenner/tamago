@@ -1,3 +1,4 @@
+import { useRef } from 'react'
 import { IconLock } from './icons.jsx'
 
 // The new tree circle (Dan, 2026-11-10; in the lab at /lab.html, not on the live tree yet). The learner sees a circle
@@ -35,12 +36,25 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
   return parts.join(' · ')
 }
 
-export default function CircleNode({ title, icon, glyph = null, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick }) {
+// onTestPass (Testing Shortcuts only, 2026-11-10): a right-to-left swipe on the circle, or the right arrow while it
+// has focus, passes its next lesson without playing it.
+export default function CircleNode({ title, icon, glyph = null, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null }) {
+  const start = useRef(null)
+  const swiped = useRef(false)
+  const test = onTestPass ? {
+    onKeyDown: (e) => { if (e.key === 'ArrowRight') { e.preventDefault(); onTestPass() } },
+    onPointerDown: (e) => { start.current = { x: e.clientX, y: e.clientY }; swiped.current = false },
+    onPointerUp: (e) => {
+      const d = start.current; start.current = null
+      if (d && d.x - e.clientX > 40 && Math.abs(e.clientY - d.y) < 40) { swiped.current = true; onTestPass() }
+    },
+    style: { touchAction: 'pan-y' },
+  } : {}
   const state = circleState({ locked, lessonsDone, lessonsTotal })
   const share = state === 'locked' ? 0 : Math.min(1, lessonsDone / lessonsTotal)
   const opacity = state === 'finished' ? ringOpacity(recall) : 1
   return (
-    <button onClick={onPick} aria-label={`${title}. ${circleLine({ locked, lessonsDone, lessonsTotal, recall })}${marker ? `. ${MARKERS[marker]}` : ''}`}
+    <button {...test} onClick={() => { if (swiped.current) { swiped.current = false; return } onPick() }} aria-label={`${title}. ${circleLine({ locked, lessonsDone, lessonsTotal, recall })}${marker ? `. ${MARKERS[marker]}` : ''}`}
       className="flex w-32 flex-col items-center gap-1.5" data-state={state}>
       {/* The marker sits above the circle and keeps its space on every circle, so rows line up. */}
       <span className={`flex h-5 items-center gap-1 text-xs font-semibold text-ring ${marker ? '' : 'invisible'}`} aria-hidden="true">
