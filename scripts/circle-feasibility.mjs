@@ -1,8 +1,12 @@
-// Scratch: how many checked Tatoeba sentences each help circle can reach (deleted after use).
+// How many checked Tatoeba sentences planned circles can reach before they are added (help circles, 2026-11-10; A1
+// Complete parts). HELP is a JSON list of circles in order: { id, after (main units before it, by order), own (forms),
+// borrow (later forms it may use), base (optional: unit ids whose words it may use, in place of after) }. Each circle
+// builds on the ones before it. SHOW=<id> lists its candidates.
+// Usage: COURSE=fr HELP='[...]' node scripts/circle-feasibility.mjs
 import { readFileSync } from 'node:fs'
-import { at, COURSE } from './scripts/lib/course.mjs'
-import { loadTatoeba } from './scripts/lib/tatoeba.mjs'
-import { analyse, formIndexFor, loose, norm } from './scripts/lib/french.mjs'
+import { at, COURSE } from './lib/course.mjs'
+import { loadTatoeba } from './lib/tatoeba.mjs'
+import { analyse, formIndexFor, loose, norm } from './lib/french.mjs'
 const raw = (t) => JSON.parse(readFileSync(at(`content/raw/${t}.json`), 'utf8'))
 const H = JSON.parse(process.env.HELP)
 const words = raw('words').filter((w) => !String(w.status).startsWith('off'))
@@ -13,7 +17,7 @@ const pool = t.french.filter((s) => { const r = t.trustOf(s); return (r.native_o
 const names = new Set(['tom', 'maria', 'marie', 'mary', 'anna', 'ken', 'peter'])
 let prevOwn = []
 for (const h of H) {
-  const base = words.filter((w) => units.slice(0, h.after).includes(w.first_unit) || h.borrow.includes(w.form))
+  const base = words.filter((w) => (h.base ? h.base.includes(w.first_unit) : units.slice(0, h.after).includes(w.first_unit)) || (h.borrow ?? []).includes(w.form))
   const own = h.own.filter((f) => !words.some((w) => w.form === f)).map((form, i) => ({ word_id: `${h.id}_${i}`, form }))
   const clash = h.own.filter((f) => words.some((w) => w.form === f))
   const index = formIndexFor([...base, ...prevOwn, ...own])
