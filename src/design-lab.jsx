@@ -13,7 +13,7 @@ try {
 } catch { /* private mode */ }
 
 const STORE = 'tamago-design-lab'
-const BAKE = 6 // bump on every bake: stored sliders from an older bake are dropped, so they never stack on the new live values
+const BAKE = 7 // bump on every bake: stored sliders from an older bake are dropped, so they never stack on the new live values
 
 // Every control: key (the CSS variable is --lab-<key>), label, range, unit and the live app's current value as default.
 // Root font is 17px on desktop, so rem values are given here in px at that size.
@@ -64,7 +64,7 @@ const SECTIONS = [
         { key: 'brand-sushi', label: 'Sushi width', min: 16, max: 140, step: 1, unit: 'px', def: 37 },
         { key: 'brand-sushi-y', label: 'Sushi up / down', min: -40, max: 40, step: 1, unit: 'px', def: 0 },
         { key: 'brand-wordmark', label: 'Wordmark width', min: 40, max: 300, step: 1, unit: 'px', def: 92 },
-        { key: 'brand-gap', label: 'Sushi to wordmark (negative tucks it under the T)', min: -40, max: 60, step: 0.5, unit: 'px', def: 8.5 },
+        { key: 'brand-gap', label: 'Sushi to wordmark (negative tucks it under the T)', min: -40, max: 60, step: 0.5, unit: 'px', def: 3 },
       ] },
       { title: 'Right: flag and gear', controls: [
         { key: 'tools-x', label: 'Left / right', min: -300, max: 100, step: 1, unit: 'px', def: 0 },

@@ -287,7 +287,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
           {showPoints && <Points total={pointsTotal} today={pointsToday} />}
           <button onClick={() => setLanguages(true)} aria-label={`Language: ${course.name}`} className="icon-btn -ml-2 lg:ml-0"><img src={course.flag} alt="" className="h-8 w-8 object-contain" /></button>
         </span>
-        <span className="hdr-brand flex items-center gap-2 lg:order-1 lg:mr-auto lg:ml-[2px]">
+        <span className="hdr-brand flex items-center gap-2 lg:order-1 lg:mr-auto lg:ml-[2px] lg:gap-[3px]">
           <SushiMark className="hdr-sushi relative hidden w-11 lg:block lg:w-[2.18rem] lg:-top-[2px]" />
           <LogoInline className="hdr-wordmark" />
         </span>
