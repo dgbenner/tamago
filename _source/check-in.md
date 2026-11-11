@@ -19,7 +19,7 @@ Updated November 10, 2026. **New: French A1 Part 2, Everyday Life, is built: 12 
     - How much do the fruits cost?
     - Could you spell it, please?
   - **Answer choices are always shuffled.** Read and Answer items are written with the right choice first; each showing now reorders them, and the answer follows. The listening passages Claude writes in Self-Study are shuffled too, since a model tends to put the answer first. Every other choice set was already shuffled. A test covers it.
-- **French core target:** content/a1-list.json now also holds FLELex's 600 most frequent A1 words (by their frequency in A1 textbooks), in order, as the core. The full 1,196 stays as the stretch goal. scripts/a1-coverage.mjs reports both.
+- **French core target (176 of 600 taught, 29%; 149 on the main path, 25%):** content/a1-list.json now also holds FLELex's 600 most frequent A1 words (by their frequency in A1 textbooks), in order, as the core. The full 1,196 stays as the stretch goal. scripts/a1-coverage.mjs reports both.
 - **A1 Complete, step 3: French Part 2, Everyday Life (stopped here for you to try it, as the spec says).** Local and on GitHub, so live at https://tamago-83f.pages.dev once the deploy finishes.
   - **Twelve circles on rows 11 to 15:** nine main circles and three help circles.
     - Main: Your Name, Please; Phone Numbers; Age and Birthdays; Numbers to 100; Where You Live; Countries and Languages; At the Market; How Much Is It?; Bottles and Bags.

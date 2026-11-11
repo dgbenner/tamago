@@ -20,6 +20,9 @@ for (const r of t.sentence_words) if (r.word_id && live.has(r.sentence_id)) (sen
 // Each course word under its lemma and its form.
 const byKey = new Map()
 for (const w of t.words) for (const k of new Set([fold(w.lemma || w.form), fold(w.form)])) (byKey.get(k) ?? byKey.set(k, []).get(k)).push(w)
+// French elided forms teach their headword (j' is je, c'est carries ce), which FLELex lists in full.
+const ELIDED = { fr: { "j'": 'je', "l'": 'le', "s'": 'se', "m'": 'me', "t'": 'te', "d'": 'de', "n'": 'ne', "qu'": 'que', "c'": 'ce', "c'est": 'ce' } }[COURSE] ?? {}
+for (const w of t.words) { const k = ELIDED[fold(w.form)]; if (k) (byKey.get(k) ?? byKey.set(k, []).get(k)).push(w) }
 
 function measure(words, { pathOnly = false } = {}) {
   let taught = 0, covered = 0
