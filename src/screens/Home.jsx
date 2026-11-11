@@ -281,7 +281,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
           the utilities right, like a desktop site. */}
-      <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(0.25rem,env(safe-area-inset-top))] pb-1 lg:mx-0 lg:px-0 lg:pt-[2.5px] lg:pb-0">
+      <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(2px,env(safe-area-inset-top))] pb-0 lg:mx-0 lg:px-0 lg:pt-[2.5px]">
         {/* The course flag (points sat here until they were hidden): opens the language pop-up. */}
         <span className="hdr-lang flex w-20 items-center justify-start gap-2 lg:order-2 lg:w-auto lg:justify-end lg:-translate-x-px">
           {showPoints && <Points total={pointsTotal} today={pointsToday} />}

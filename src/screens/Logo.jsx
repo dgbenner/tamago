@@ -53,7 +53,7 @@ export default function Logo() {
 export function LogoInline({ className = '' }) {
   return (
     <div role="img" aria-label="Tamago" className={className}>
-      <svg className="block w-[103px] lg:w-[92px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
+      <svg className="block w-[92px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
         <g className="wm-letters">{LETTERS.map((strokes, i) => <Letter key={i} i={i}><path d={strokes.join('')} stroke="var(--accent)" strokeWidth="15" /></Letter>)}</g>
       </svg>
     </div>
