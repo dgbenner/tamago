@@ -2089,6 +2089,76 @@
       "french": "C'est une chose pour le pain.",
       "english": "It's a thing for bread.",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10061",
+      "unit_id": "U41",
+      "french": "Je m'appelle Paul.",
+      "english": "My name is Paul.",
+      "notes": "QT09 answer; the core phrase"
+    },
+    {
+      "sentence_id": "S10062",
+      "unit_id": "U41",
+      "french": "Vous vous appelez comment ?",
+      "english": "What's your name?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10063",
+      "unit_id": "U41",
+      "french": "Tu t'appelles Marie ?",
+      "english": "Is your name Marie?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10064",
+      "unit_id": "U41",
+      "french": "Mon prénom, c'est Paul.",
+      "english": "My first name is Paul.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10065",
+      "unit_id": "U41",
+      "french": "Bonjour, Madame. Vous vous appelez comment ?",
+      "english": "Hello, madam. What's your name?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10066",
+      "unit_id": "U41",
+      "french": "Oui, je m'appelle Marie.",
+      "english": "Yes, my name is Marie.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10961",
+      "unit_id": "U34",
+      "french": "Vous pouvez épeler, s'il vous plaît ?",
+      "english": "Can you spell it, please?",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S10962",
+      "unit_id": "U34",
+      "french": "Tu peux épeler ton nom ?",
+      "english": "Can you spell your name?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10963",
+      "unit_id": "U34",
+      "french": "Comment ça s'écrit ?",
+      "english": "How do you spell that?",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S10964",
+      "unit_id": "U34",
+      "french": "Je peux épeler mon nom.",
+      "english": "I can spell my name.",
+      "notes": "QT09 answer"
     }
   ],
   "qa_answers": [
@@ -2435,6 +2505,22 @@
     {
       "question_sentence_id": "S9207",
       "answer_sentence_id": "S9222"
+    },
+    {
+      "question_sentence_id": "S10004",
+      "answer_sentence_id": "S10061"
+    },
+    {
+      "question_sentence_id": "S10002",
+      "answer_sentence_id": "S10064"
+    },
+    {
+      "question_sentence_id": "S10063",
+      "answer_sentence_id": "S10066"
+    },
+    {
+      "question_sentence_id": "S10962",
+      "answer_sentence_id": "S10964"
     }
   ]
 }

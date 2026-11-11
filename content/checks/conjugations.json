@@ -440,5 +440,239 @@
       "person": "ils, elles",
       "form": "appèlent"
     }
+  ],
+  "écrire": [
+    {
+      "person": "je (j’)",
+      "form": "écris"
+    },
+    {
+      "person": "tu",
+      "form": "écris"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "écrit"
+    },
+    {
+      "person": "nous",
+      "form": "écrivons"
+    },
+    {
+      "person": "vous",
+      "form": "écrivez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "écrivent"
+    }
+  ],
+  "épeler": [
+    {
+      "person": "je (j’)",
+      "form": "épèle"
+    },
+    {
+      "person": "tu",
+      "form": "épèles"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "épèle"
+    },
+    {
+      "person": "nous",
+      "form": "épelons"
+    },
+    {
+      "person": "vous",
+      "form": "épelez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "épèlent"
+    }
+  ],
+  "pouvoir": [
+    {
+      "person": "je (j’)",
+      "form": "peux"
+    },
+    {
+      "person": "tu",
+      "form": "peux"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "peut"
+    },
+    {
+      "person": "nous",
+      "form": "pouvons"
+    },
+    {
+      "person": "vous",
+      "form": "pouvez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "peuvent"
+    }
+  ],
+  "attendre": [
+    {
+      "person": "je (j’)",
+      "form": "attends"
+    },
+    {
+      "person": "tu",
+      "form": "attends"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "attend"
+    },
+    {
+      "person": "nous",
+      "form": "attendons"
+    },
+    {
+      "person": "vous",
+      "form": "attendez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "attendent"
+    }
+  ],
+  "noter": [
+    {
+      "person": "je (j’)",
+      "form": "note"
+    },
+    {
+      "person": "tu",
+      "form": "notes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "note"
+    },
+    {
+      "person": "nous",
+      "form": "notons"
+    },
+    {
+      "person": "vous",
+      "form": "notez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "notent"
+    }
+  ],
+  "habiter": [
+    {
+      "person": "je (j’)",
+      "form": "habite"
+    },
+    {
+      "person": "tu",
+      "form": "habites"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "habite"
+    },
+    {
+      "person": "nous",
+      "form": "habitons"
+    },
+    {
+      "person": "vous",
+      "form": "habitez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "habitent"
+    }
+  ],
+  "acheter": [
+    {
+      "person": "je (j’)",
+      "form": "achète"
+    },
+    {
+      "person": "tu",
+      "form": "achètes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "achète"
+    },
+    {
+      "person": "nous",
+      "form": "achetons"
+    },
+    {
+      "person": "vous",
+      "form": "achetez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "achètent"
+    }
+  ],
+  "coûter": [
+    {
+      "person": "je (j’)",
+      "form": "coûte"
+    },
+    {
+      "person": "tu",
+      "form": "coûtes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "coûte"
+    },
+    {
+      "person": "nous",
+      "form": "coûtons"
+    },
+    {
+      "person": "vous",
+      "form": "coûtez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "coûtent"
+    }
+  ],
+  "payer": [
+    {
+      "person": "je (j’)",
+      "form": "paye or paie"
+    },
+    {
+      "person": "tu",
+      "form": "payes or paies"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "paye or paie"
+    },
+    {
+      "person": "nous",
+      "form": "payons"
+    },
+    {
+      "person": "vous",
+      "form": "payez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "payent or paient"
+    }
   ]
 }

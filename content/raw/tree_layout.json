@@ -124,5 +124,89 @@
     "unit_id": "U33",
     "unlocks_after": "row 6",
     "notes": "Asking for Help thread: a help circle, gates nothing"
+  },
+  {
+    "row": 11,
+    "position": 1,
+    "unit_id": "U41",
+    "unlocks_after": "",
+    "notes": "A1 Part 2"
+  },
+  {
+    "row": 11.5,
+    "position": 1,
+    "unit_id": "U34",
+    "unlocks_after": "row 11",
+    "notes": "A1 Part 2 help circle, gates nothing"
+  },
+  {
+    "row": 12,
+    "position": 1,
+    "unit_id": "U42",
+    "unlocks_after": "row 11",
+    "notes": "A1 Part 2"
+  },
+  {
+    "row": 12,
+    "position": 2,
+    "unit_id": "U43",
+    "unlocks_after": "row 11",
+    "notes": "A1 Part 2"
+  },
+  {
+    "row": 12.5,
+    "position": 1,
+    "unit_id": "U35",
+    "unlocks_after": "row 12",
+    "notes": "A1 Part 2 help circle, gates nothing"
+  },
+  {
+    "row": 13,
+    "position": 1,
+    "unit_id": "U44",
+    "unlocks_after": "row 12",
+    "notes": "A1 Part 2"
+  },
+  {
+    "row": 13,
+    "position": 2,
+    "unit_id": "U45",
+    "unlocks_after": "row 12",
+    "notes": "A1 Part 2"
+  },
+  {
+    "row": 14,
+    "position": 1,
+    "unit_id": "U46",
+    "unlocks_after": "row 13",
+    "notes": "A1 Part 2"
+  },
+  {
+    "row": 14,
+    "position": 2,
+    "unit_id": "U47",
+    "unlocks_after": "row 13",
+    "notes": "A1 Part 2"
+  },
+  {
+    "row": 14.5,
+    "position": 1,
+    "unit_id": "U36",
+    "unlocks_after": "row 14",
+    "notes": "A1 Part 2 help circle, gates nothing"
+  },
+  {
+    "row": 15,
+    "position": 1,
+    "unit_id": "U48",
+    "unlocks_after": "row 14",
+    "notes": "A1 Part 2"
+  },
+  {
+    "row": 15,
+    "position": 2,
+    "unit_id": "U49",
+    "unlocks_after": "row 14",
+    "notes": "A1 Part 2"
   }
 ]

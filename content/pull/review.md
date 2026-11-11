@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U33 Finding the Word: Je cherche le mot…; c'est une chose pour…; je ne sais pas
+## U34 Spelling It Out: Comment ça s'écrit ? Vous pouvez épeler ?
 
-30 sentences picked from 93 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 50 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: chose (2). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: épeler (0), pouvez (2). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S9201 | Tu sais comment ça s'appelle ? | Do you know what this thing's called? |  | [#10071743](https://tatoeba.org/en/sentences/show/10071743) | lbdx |
-| S9202 | Je sais comment ça s'appelle. | I know what it's called. |  | [#8272629](https://tatoeba.org/en/sentences/show/8272629) | Rockaround |
-| S9203 | Comment ça s'appelle ? | What's that called? | What's it called?; What's this called?; What is it called?; What is this called? | [#7744909](https://tatoeba.org/en/sentences/show/7744909) | lbdx |
-| S9204 | Je cherche un livre pour enfants. | I'm looking for a children's book. |  | [#4339666](https://tatoeba.org/en/sentences/show/4339666) | michelnialon |
-| S9205 | Je ne sais pas qui il cherche. | I don't know who he's looking for. |  | [#1086402](https://tatoeba.org/en/sentences/show/1086402) | nimfeo |
-| S9206 | Pour vous ? | For you? |  | [#7801750](https://tatoeba.org/en/sentences/show/7801750) | theachaean |
-| S9207 | C'est pour qui ? | Who's it for? | Who is this for?; Who are these for? | [#7356057](https://tatoeba.org/en/sentences/show/7356057) | Micsmithel |
-| S9208 | Est-ce que c'est une bonne chose ? | Is that a good thing? |  | [#9077927](https://tatoeba.org/en/sentences/show/9077927) | Aiji |
-| S9209 | Je ne sais pas qui elle cherche. | I don't know who she's looking for. |  | [#12151875](https://tatoeba.org/en/sentences/show/12151875) | Rovo |
-| S9210 | C'est une bonne chose. | It's a good thing. | That's a good thing.; This is a good thing. | [#1984915](https://tatoeba.org/en/sentences/show/1984915) | sacredceltic |
-| S9211 | Comment s'appelle ton chien ? | What's your dog's name? | What's the name of your dog? | [#5381247](https://tatoeba.org/en/sentences/show/5381247) | Aiji |
-| S9212 | Comment s'appelle le cheval ? | What's the horse's name? |  | [#6456034](https://tatoeba.org/en/sentences/show/6456034) | Aiji |
-| S9213 | Est-ce que tu sais ? | Do you know? |  | [#9025130](https://tatoeba.org/en/sentences/show/9025130) | Micsmithel |
-| S9214 | Est-ce que tu sais pourquoi ? | Do you know why? |  | [#5389564](https://tatoeba.org/en/sentences/show/5389564) | Aiji |
-| S9215 | Tu sais qui c'est ? | Do you know who it is? |  | [#6035256](https://tatoeba.org/en/sentences/show/6035256) | christian63 |
-| S9216 | Ils sont pour qui ? | Who are these for? |  | [#7356058](https://tatoeba.org/en/sentences/show/7356058) | Micsmithel |
-| S9217 | Qu'est-ce que tu ne sais pas ? | What is it that you don't know? |  | [#8700573](https://tatoeba.org/en/sentences/show/8700573) | Julien_PDC |
-| S9218 | Est-ce que tu sais où elle est ? | Do you know where she is? |  | [#133632](https://tatoeba.org/en/sentences/show/133632) | sacredceltic |
-| S9219 | Je sais. | I know. |  | [#134976](https://tatoeba.org/en/sentences/show/134976) | sacredceltic |
-| S9220 | Tu sais. | You know. |  | [#8984467](https://tatoeba.org/en/sentences/show/8984467) | Micsmithel |
-| S9221 | Pour ici, s'il vous plaît. | For here, please. |  | [#399082](https://tatoeba.org/en/sentences/show/399082) | qdii |
-| S9222 | C'est pour vous. | It's for you. | This is for you. | [#458258](https://tatoeba.org/en/sentences/show/458258) | sacredceltic |
-| S9223 | Je sais ça. | I know this. |  | [#2468061](https://tatoeba.org/en/sentences/show/2468061) | sacredceltic |
-| S9224 | Merci pour ça ! | Thanks for that. |  | [#3951968](https://tatoeba.org/en/sentences/show/3951968) | nimfeo |
-| S9225 | Je vous cherche. | I am looking for you. |  | [#4130759](https://tatoeba.org/en/sentences/show/4130759) | Scorpionvenin14 |
-| S9226 | Je suis pour. | I'm for it. |  | [#4594043](https://tatoeba.org/en/sentences/show/4594043) | sacredceltic |
-| S9227 | Je sais pourquoi. | I know why. |  | [#4594178](https://tatoeba.org/en/sentences/show/4594178) | sacredceltic |
-| S9228 | Je sais où. | I know where. |  | [#6965824](https://tatoeba.org/en/sentences/show/6965824) | Yemana |
-| S9229 | Je sais qui. | I know who. |  | [#6965825](https://tatoeba.org/en/sentences/show/6965825) | Yemana |
-| S9230 | Tu sais comment. | You know how. |  | [#7528067](https://tatoeba.org/en/sentences/show/7528067) | Micsmithel |
+| S10901 | Je peux écrire en anglais. | I can write in English. |  | [#4642494](https://tatoeba.org/en/sentences/show/4642494) | Amastan |
+| S10902 | Je ne peux pas écrire ça. | I can't write that. |  | [#8620384](https://tatoeba.org/en/sentences/show/8620384) | Aiji |
+| S10903 | Est-ce que tu aimes écrire ? | Do you like writing? |  | [#4199632](https://tatoeba.org/en/sentences/show/4199632) | olivier |
+| S10904 | Qui a écrit ça ? | Who wrote that? |  | [#6773879](https://tatoeba.org/en/sentences/show/6773879) | Micsmithel |
+| S10905 | Qui a écrit la lettre ? | Who wrote the letter? |  | [#928277](https://tatoeba.org/en/sentences/show/928277) | sacredceltic |
+| S10906 | Comment s'écrit ton nom ? | How is your name spelled? |  | [#948280](https://tatoeba.org/en/sentences/show/948280) | sacredceltic |
+| S10907 | Oui, tu peux. | Yes, you can. |  | [#9548909](https://tatoeba.org/en/sentences/show/9548909) | Julien_PDC |
+| S10908 | Non, vous ne pouvez pas. | No, you can't. |  | [#3630885](https://tatoeba.org/en/sentences/show/3630885) | sacredceltic |
+| S10909 | Vous ne pouvez pas dire ça. | You can't say that. |  | [#7971043](https://tatoeba.org/en/sentences/show/7971043) | Aiji |
+| S10910 | Qui a écrit une lettre ? | Who wrote a letter? |  | [#1723862](https://tatoeba.org/en/sentences/show/1723862) | alexmarcelo |
+| S10911 | Comment s'écrit votre nom ? | How is your name spelled? |  | [#7745611](https://tatoeba.org/en/sentences/show/7745611) | lbdx |
+| S10912 | Est-ce que tu as écrit ça ? | Did you write this? |  | [#7793925](https://tatoeba.org/en/sentences/show/7793925) | Aiji |
+| S10913 | Il écrit. | He's writing. | He is writing. | [#3138119](https://tatoeba.org/en/sentences/show/3138119) | Julien_PDC |
+| S10914 | Elle écrit. | She's writing. |  | [#3138120](https://tatoeba.org/en/sentences/show/3138120) | Julien_PDC |
+| S10915 | J'aime écrire. | I love to write. |  | [#8395844](https://tatoeba.org/en/sentences/show/8395844) | Aiji |
+| S10916 | Le garçon écrit. | The boy is writing. |  | [#8701695](https://tatoeba.org/en/sentences/show/8701695) | Micsmithel |
+| S10917 | C'est bien écrit. | This is well written. |  | [#9162536](https://tatoeba.org/en/sentences/show/9162536) | Julien_PDC |
+| S10918 | Il écrit des livres. | He writes books. |  | [#817441](https://tatoeba.org/en/sentences/show/817441) | sacredceltic |
+| S10919 | Il écrit un livre. | He's writing a book. |  | [#3138121](https://tatoeba.org/en/sentences/show/3138121) | Julien_PDC |
+| S10920 | Elle écrit un livre. | She's writing a book. |  | [#3138122](https://tatoeba.org/en/sentences/show/3138122) | Julien_PDC |
+| S10921 | J'ai écrit ça. | I wrote that. |  | [#4681791](https://tatoeba.org/en/sentences/show/4681791) | sacredceltic |
+| S10922 | C'est écrit en français. | It's written in French. |  | [#7745705](https://tatoeba.org/en/sentences/show/7745705) | lbdx |
+| S10923 | Je ne peux pas ! | I can't! |  | [#8724432](https://tatoeba.org/en/sentences/show/8724432) | Micsmithel |
+| S10924 | J'aime écrire ici. | I like to write here. |  | [#11146263](https://tatoeba.org/en/sentences/show/11146263) | Aiji |
+| S10925 | Je vais écrire une lettre. | I'm going to write a letter. | I am going to write a letter. | [#6353](https://tatoeba.org/en/sentences/show/6353) | TRANG |
+| S10926 | Il a écrit une lettre. | He wrote a letter. | He has written a letter. | [#374025](https://tatoeba.org/en/sentences/show/374025) | zmoo |
+| S10927 | Elle écrit une lettre maintenant. | She is writing a letter now. |  | [#397632](https://tatoeba.org/en/sentences/show/397632) | sysko |
+| S10928 | Il a écrit deux livres. | He has written two books. |  | [#461247](https://tatoeba.org/en/sentences/show/461247) | sacredceltic |
+| S10929 | J'ai écrit le livre. | I wrote the book. |  | [#1129766](https://tatoeba.org/en/sentences/show/1129766) | Salutlolo |
+| S10930 | J'ai écrit trois livres. | I've written three books. |  | [#2322186](https://tatoeba.org/en/sentences/show/2322186) | Amastan |

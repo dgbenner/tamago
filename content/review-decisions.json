@@ -505,6 +505,16 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md: 29 Tatoeba sentences from checked owners after cutting 6 (en as about it, s' as if, rooting for, English that misleads, an odd line); 3 drafts for the phrases checked Tatoeba lacks (Je cherche le mot., C'est une chose pour …)"
+    },
+    "U41": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: 25 Tatoeba sentences from checked owners after cutting 6 (plus as no longer, colloquial T'as, idioms, quoted and odd lines); 6 drafts for the name phrases checked Tatoeba lacks (Je m'appelle Paul., Vous vous appelez comment ?)"
+    },
+    "U34": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: 27 Tatoeba sentences from checked owners after cutting 3 (an idiom, bare Je peux. and Vous pouvez.); 4 drafts for the spelling phrases checked Tatoeba lacks (Comment ça s'écrit ?, Vous pouvez épeler ?)"
     }
   },
   "cut_sentences": [
@@ -867,6 +877,438 @@
     },
     "W480": {
       "hint": "goes (aller)",
+      "source": "short form of Wiktionary"
+    },
+    "W801": {
+      "hint": "name",
+      "source": "short form of Wiktionary"
+    },
+    "W802": {
+      "hint": "first name",
+      "source": "short form of Wiktionary"
+    },
+    "W803": {
+      "hint": "Mr; sir",
+      "source": "short form of Wiktionary"
+    },
+    "W804": {
+      "hint": "Mrs; madam",
+      "source": "short form of Wiktionary"
+    },
+    "W805": {
+      "hint": "call (appeler); tu t’appelles: your name is",
+      "source": "short form of Wiktionary"
+    },
+    "W806": {
+      "hint": "call (appeler); vous vous appelez: your name is",
+      "source": "short form of Wiktionary"
+    },
+    "W807": {
+      "hint": "me, myself (je m’appelle: my name is)",
+      "source": "short form of Wiktionary"
+    },
+    "W808": {
+      "hint": "you, yourself (tu t’appelles: your name is)",
+      "source": "short form of Wiktionary"
+    },
+    "W809": {
+      "hint": "your (vous)",
+      "source": "short form of Wiktionary"
+    },
+    "W810": {
+      "hint": "writes (écrire); ça s’écrit: it’s spelled",
+      "source": "short form of Wiktionary"
+    },
+    "W811": {
+      "hint": "to write",
+      "source": "short form of Wiktionary"
+    },
+    "W812": {
+      "hint": "to spell",
+      "source": "short form of Wiktionary"
+    },
+    "W813": {
+      "hint": "can (pouvoir, vous)",
+      "source": "short form of Wiktionary"
+    },
+    "W814": {
+      "hint": "can (pouvoir, je, tu)",
+      "source": "short form of Wiktionary"
+    },
+    "W815": {
+      "hint": "telephone",
+      "source": "short form of Wiktionary"
+    },
+    "W816": {
+      "hint": "number",
+      "source": "short form of Wiktionary"
+    },
+    "W817": {
+      "hint": "mobile phone",
+      "source": "short form of Wiktionary"
+    },
+    "W818": {
+      "hint": "to call",
+      "source": "short form of Wiktionary"
+    },
+    "W819": {
+      "hint": "zero",
+      "source": "short form of Wiktionary"
+    },
+    "W820": {
+      "hint": "eleven",
+      "source": "short form of Wiktionary"
+    },
+    "W821": {
+      "hint": "twelve",
+      "source": "short form of Wiktionary"
+    },
+    "W822": {
+      "hint": "thirteen",
+      "source": "short form of Wiktionary"
+    },
+    "W823": {
+      "hint": "fourteen",
+      "source": "short form of Wiktionary"
+    },
+    "W824": {
+      "hint": "fifteen",
+      "source": "short form of Wiktionary"
+    },
+    "W825": {
+      "hint": "sixteen",
+      "source": "short form of Wiktionary"
+    },
+    "W826": {
+      "hint": "seventeen",
+      "source": "short form of Wiktionary"
+    },
+    "W827": {
+      "hint": "eighteen",
+      "source": "short form of Wiktionary"
+    },
+    "W828": {
+      "hint": "nineteen",
+      "source": "short form of Wiktionary"
+    },
+    "W829": {
+      "hint": "twenty",
+      "source": "short form of Wiktionary"
+    },
+    "W830": {
+      "hint": "age",
+      "source": "short form of Wiktionary"
+    },
+    "W831": {
+      "hint": "years (j’ai vingt ans: I am twenty)",
+      "source": "short form of Wiktionary"
+    },
+    "W832": {
+      "hint": "birthday",
+      "source": "short form of Wiktionary"
+    },
+    "W833": {
+      "hint": "born",
+      "source": "short form of Wiktionary"
+    },
+    "W834": {
+      "hint": "born (a woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W835": {
+      "hint": "month",
+      "source": "short form of Wiktionary"
+    },
+    "W836": {
+      "hint": "year",
+      "source": "short form of Wiktionary"
+    },
+    "W837": {
+      "hint": "to repeat",
+      "source": "short form of Wiktionary"
+    },
+    "W838": {
+      "hint": "moment",
+      "source": "short form of Wiktionary"
+    },
+    "W839": {
+      "hint": "wait (attendre, vous)",
+      "source": "short form of Wiktionary"
+    },
+    "W840": {
+      "hint": "to note, write down",
+      "source": "short form of Wiktionary"
+    },
+    "W841": {
+      "hint": "note",
+      "source": "short form of Wiktionary"
+    },
+    "W842": {
+      "hint": "thirty",
+      "source": "short form of Wiktionary"
+    },
+    "W843": {
+      "hint": "forty",
+      "source": "short form of Wiktionary"
+    },
+    "W844": {
+      "hint": "fifty",
+      "source": "short form of Wiktionary"
+    },
+    "W845": {
+      "hint": "sixty",
+      "source": "short form of Wiktionary"
+    },
+    "W846": {
+      "hint": "seventy",
+      "source": "short form of Wiktionary"
+    },
+    "W847": {
+      "hint": "eighty",
+      "source": "short form of Wiktionary"
+    },
+    "W848": {
+      "hint": "ninety",
+      "source": "short form of Wiktionary"
+    },
+    "W849": {
+      "hint": "hundred",
+      "source": "short form of Wiktionary"
+    },
+    "W850": {
+      "hint": "live (habiter, je, il, elle)",
+      "source": "short form of Wiktionary"
+    },
+    "W851": {
+      "hint": "live (habiter, tu)",
+      "source": "short form of Wiktionary"
+    },
+    "W852": {
+      "hint": "live (habiter, vous)",
+      "source": "short form of Wiktionary"
+    },
+    "W853": {
+      "hint": "to live (in a place)",
+      "source": "short form of Wiktionary"
+    },
+    "W854": {
+      "hint": "street",
+      "source": "short form of Wiktionary"
+    },
+    "W855": {
+      "hint": "address",
+      "source": "short form of Wiktionary"
+    },
+    "W856": {
+      "hint": "apartment, flat",
+      "source": "short form of Wiktionary"
+    },
+    "W857": {
+      "hint": "country",
+      "source": "short form of Wiktionary"
+    },
+    "W858": {
+      "hint": "floor, storey",
+      "source": "short form of Wiktionary"
+    },
+    "W859": {
+      "hint": "near",
+      "source": "short form of Wiktionary"
+    },
+    "W860": {
+      "hint": "far",
+      "source": "short form of Wiktionary"
+    },
+    "W861": {
+      "hint": "France",
+      "source": "short form of Wiktionary"
+    },
+    "W862": {
+      "hint": "Germany",
+      "source": "short form of Wiktionary"
+    },
+    "W863": {
+      "hint": "Italy",
+      "source": "short form of Wiktionary"
+    },
+    "W864": {
+      "hint": "England",
+      "source": "short form of Wiktionary"
+    },
+    "W865": {
+      "hint": "Spain",
+      "source": "short form of Wiktionary"
+    },
+    "W866": {
+      "hint": "German",
+      "source": "short form of Wiktionary"
+    },
+    "W867": {
+      "hint": "Spanish",
+      "source": "short form of Wiktionary"
+    },
+    "W868": {
+      "hint": "Italian",
+      "source": "short form of Wiktionary"
+    },
+    "W869": {
+      "hint": "American",
+      "source": "short form of Wiktionary"
+    },
+    "W870": {
+      "hint": "Chinese",
+      "source": "short form of Wiktionary"
+    },
+    "W871": {
+      "hint": "Japanese",
+      "source": "short form of Wiktionary"
+    },
+    "W872": {
+      "hint": "language",
+      "source": "short form of Wiktionary"
+    },
+    "W873": {
+      "hint": "languages",
+      "source": "short form of Wiktionary"
+    },
+    "W874": {
+      "hint": "foreign; abroad",
+      "source": "short form of Wiktionary"
+    },
+    "W875": {
+      "hint": "market",
+      "source": "short form of Wiktionary"
+    },
+    "W876": {
+      "hint": "to buy",
+      "source": "short form of Wiktionary"
+    },
+    "W877": {
+      "hint": "buy (acheter, je, il, elle)",
+      "source": "short form of Wiktionary"
+    },
+    "W878": {
+      "hint": "buy (acheter, tu)",
+      "source": "short form of Wiktionary"
+    },
+    "W879": {
+      "hint": "would like (vouloir, je)",
+      "source": "short form of Wiktionary"
+    },
+    "W880": {
+      "hint": "want (vouloir, vous)",
+      "source": "short form of Wiktionary"
+    },
+    "W881": {
+      "hint": "kilo",
+      "source": "short form of Wiktionary"
+    },
+    "W882": {
+      "hint": "fruit (more than one)",
+      "source": "short form of Wiktionary"
+    },
+    "W883": {
+      "hint": "vegetables",
+      "source": "short form of Wiktionary"
+    },
+    "W884": {
+      "hint": "fruit",
+      "source": "short form of Wiktionary"
+    },
+    "W885": {
+      "hint": "OK, all right",
+      "source": "short form of Wiktionary"
+    },
+    "W886": {
+      "hint": "understood",
+      "source": "short form of Wiktionary"
+    },
+    "W887": {
+      "hint": "exactly",
+      "source": "short form of Wiktionary"
+    },
+    "W888": {
+      "hint": "true",
+      "source": "short form of Wiktionary"
+    },
+    "W889": {
+      "hint": "price",
+      "source": "short form of Wiktionary"
+    },
+    "W890": {
+      "hint": "costs (coûter)",
+      "source": "short form of Wiktionary"
+    },
+    "W891": {
+      "hint": "cost (coûter, ils, elles)",
+      "source": "short form of Wiktionary"
+    },
+    "W892": {
+      "hint": "euro",
+      "source": "short form of Wiktionary"
+    },
+    "W893": {
+      "hint": "euros",
+      "source": "short form of Wiktionary"
+    },
+    "W894": {
+      "hint": "expensive; dear",
+      "source": "short form of Wiktionary"
+    },
+    "W895": {
+      "hint": "expensive; dear (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W896": {
+      "hint": "to pay",
+      "source": "short form of Wiktionary"
+    },
+    "W897": {
+      "hint": "card; map; menu",
+      "source": "short form of Wiktionary"
+    },
+    "W898": {
+      "hint": "money",
+      "source": "short form of Wiktionary"
+    },
+    "W899": {
+      "hint": "here is, there you go",
+      "source": "short form of Wiktionary"
+    },
+    "W900": {
+      "hint": "bottle",
+      "source": "short form of Wiktionary"
+    },
+    "W901": {
+      "hint": "packet",
+      "source": "short form of Wiktionary"
+    },
+    "W902": {
+      "hint": "box; tin",
+      "source": "short form of Wiktionary"
+    },
+    "W903": {
+      "hint": "glass",
+      "source": "short form of Wiktionary"
+    },
+    "W904": {
+      "hint": "bag",
+      "source": "short form of Wiktionary"
+    },
+    "W905": {
+      "hint": "enough",
+      "source": "short form of Wiktionary"
+    },
+    "W906": {
+      "hint": "a lot, much, many",
+      "source": "short form of Wiktionary"
+    },
+    "W907": {
+      "hint": "little, not much",
+      "source": "short form of Wiktionary"
+    },
+    "W908": {
+      "hint": "too, too much",
       "source": "short form of Wiktionary"
     }
   },

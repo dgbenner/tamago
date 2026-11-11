@@ -364,11 +364,16 @@ for (const w of words) {
 const HETEROPHONES = new Set(['est', 'fils', 'as', 'plus', 'tous', 'os', 'sens', 'vis', 'content', 'couvent'])
 console.log('Words: Lingua Libre')
 const recordable = wordChecks.filter((r) => !HETEROPHONES.has(r.form) && !/'$/.test(r.form))
-const values = recordable.map((r) => `"${r.form.replace(/"/g, '')}"@fr`).join(' ')
-const sparql = `SELECT ?rep ?audio WHERE { VALUES ?rep { ${values} } ?l dct:language wd:${C.wikidataLanguage}; ontolex:lexicalForm ?f. ?f ontolex:representation ?rep; wdt:P443 ?audio. FILTER(CONTAINS(STR(?audio), "LL-${C.linguaLibre.qid}")) }`
-const wd = await getJson(`https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(sparql)}`)
+// In batches (a single query for 360 words is a URL Wikidata refuses, 431), with the course's own language tag.
+const bindings = []
+for (let i = 0; i < recordable.length; i += 120) {
+  const values = recordable.slice(i, i + 120).map((r) => `"${r.form.replace(/"/g, '')}"@${C.wiktionaryCode}`).join(' ')
+  const sparql = `SELECT ?rep ?audio WHERE { VALUES ?rep { ${values} } ?l dct:language wd:${C.wikidataLanguage}; ontolex:lexicalForm ?f. ?f ontolex:representation ?rep; wdt:P443 ?audio. FILTER(CONTAINS(STR(?audio), "LL-${C.linguaLibre.qid}")) }`
+  const wd = await getJson(`https://query.wikidata.org/sparql?format=json&query=${encodeURIComponent(sparql)}`)
+  bindings.push(...(wd?.results?.bindings ?? []))
+}
 const filesFor = new Map()
-for (const b of wd?.results?.bindings ?? []) {
+for (const b of bindings) {
   const file = decodeURIComponent(b.audio.value.split('/Special:FilePath/')[1] ?? '')
   const rest = file.match(LL_PARTS)
   if (!rest || loose(rest[2]) !== loose(b.rep.value)) continue // the file must be titled as the word itself

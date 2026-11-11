@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 865 (598 matched to Tatoeba, 267 Tamago originals), 71 off, 85 awaiting a ruling. Words with Wiktionary data: 253 of 253. French-to-English answers: 300 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 402.
+Sentences live: 935 (658 matched to Tatoeba, 277 Tamago originals), 71 off, 145 awaiting a ruling. Words with Wiktionary data: 361 of 361. French-to-English answers: 311 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 408.
 
 Unit 1 is approved and live.
 
@@ -34,7 +34,7 @@ Candidates use only Unit 1 words, have 6 words or fewer, have a linked English t
 | S6056 |  | Tu as du temps ?<br>Do you have time? | none |
 | S6057 |  | Il a du temps.<br>He has time. | none |
 
-## Tamago originals: native-speaker check needed before Phase 4 (267)
+## Tamago originals: native-speaker check needed before Phase 4 (277)
 
 Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 
@@ -307,8 +307,18 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S9261 |  | Je cherche le mot. | I'm looking for the word. | tts |
 | S9262 |  | C'est une chose pour l'eau. | It's a thing for water. | tts |
 | S9263 |  | C'est une chose pour le pain. | It's a thing for bread. | tts |
+| S10061 |  | Je m'appelle Paul. | My name is Paul. | tts |
+| S10062 |  | Vous vous appelez comment ? | What's your name? | tts |
+| S10063 |  | Tu t'appelles Marie ? | Is your name Marie? | tts |
+| S10064 |  | Mon prénom, c'est Paul. | My first name is Paul. | tts |
+| S10065 |  | Bonjour, Madame. Vous vous appelez comment ? | Hello, madam. What's your name? | tts |
+| S10066 |  | Oui, je m'appelle Marie. | Yes, my name is Marie. | tts |
+| S10961 |  | Vous pouvez épeler, s'il vous plaît ? | Can you spell it, please? | tts |
+| S10962 |  | Tu peux épeler ton nom ? | Can you spell your name? | tts |
+| S10963 |  | Comment ça s'écrit ? | How do you spell that? | tts |
+| S10964 |  | Je peux épeler mon nom. | I can spell my name. | tts |
 
-## Words, for a read-through (253)
+## Words, for a read-through (361)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -567,8 +577,116 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W724 | pour | pour | Preposition |  | for | checked |
 | W725 | s' | s' | Pronoun |  | Elision of se before a word beginning with a vowel. | checked |
 | W726 | appelle | appeler | Verb |  | inflection of appeler: first/third-person singular present indicative/subjunctive second-person singular imperative (appeler: to call) | checked |
+| W801 | nom | nom | Noun | m | name | checked |
+| W802 | prénom | prénom | Noun | m | first name, given name | checked |
+| W803 | monsieur | address | Noun | m | mister, sir (a title or form of address for a man, used with or without the name in direct or third-person address) | checked |
+| W804 | madame | address | Noun | f | a title or form of address for a woman, formerly for a married woman and now commonly for any adult woman regardless of marital status, used both in direct and third-person address | checked |
+| W805 | appelles | appeler | Verb |  | second-person singular present indicative/subjunctive of appeler (appeler: to call) | checked |
+| W806 | appelez | appeler | Verb |  | inflection of appeler: second-person plural present indicative second-person plural imperative (appeler: to call) | checked |
+| W807 | m' | m' | Pronoun |  | prevocalic form of me | checked |
+| W808 | t' | t' | Pronoun |  | elided form of te | checked |
+| W809 | votre | votre | Determiner |  | your, belonging to you | checked |
+| W810 | écrit | écrire | Verb |  | third-person singular present indicative of écrire (écrire: to write) | checked |
+| W811 | écrire | écrire | Verb |  | to write | checked |
+| W812 | épeler | épeler | Verb |  | to spell | checked |
+| W813 | pouvez | pouvoir | Verb |  | second-person plural present indicative of pouvoir (pouvoir: can, to be able to) | checked |
+| W814 | peux | pouvoir | Verb |  | first/second-person singular present indicative of pouvoir (pouvoir: can, to be able to) | checked |
+| W815 | téléphone | téléphone | Noun | m | telephone | checked |
+| W816 | numéro | numéro | Noun | m | number | checked |
+| W817 | portable | portable | Noun | m | ellipsis of téléphone portable: mobile phone | checked |
+| W818 | appeler | appeler | Verb |  | to call | checked |
+| W819 | zéro | zéro | Numeral |  | zero | checked |
+| W820 | onze | onze | Numeral |  | eleven | checked |
+| W821 | douze | douze | Numeral |  | twelve | checked |
+| W822 | treize | treize | Numeral |  | thirteen | checked |
+| W823 | quatorze | quatorze | Numeral |  | fourteen | checked |
+| W824 | quinze | quinze | Numeral |  | fifteen | checked |
+| W825 | seize | seize | Numeral |  | sixteen | checked |
+| W826 | dix-sept | dix-sept | Numeral |  | seventeen | checked |
+| W827 | dix-huit | dix-huit | Numeral |  | eighteen | checked |
+| W828 | dix-neuf | dix-neuf | Numeral |  | nineteen | checked |
+| W829 | vingt | vingt | Numeral |  | twenty | checked |
+| W830 | âge | âge | Noun | m | age | checked |
+| W831 | ans | an | Noun | m | plural of an (an: year) | checked |
+| W832 | anniversaire | anniversaire | Noun | m | birthday | checked |
+| W833 | né | né | Participle |  | past participle of naître | checked |
+| W834 | née | né | Participle |  | feminine singular of né ("to be born") (né: past participle of naître) | checked |
+| W835 | mois | mois | Noun | m | month | checked |
+| W836 | année | année | Noun | f | year | checked |
+| W837 | répéter | répéter | Verb |  | to repeat | checked |
+| W838 | moment | moment | Noun | m | moment | checked |
+| W839 | attendez | attendre | Verb |  | inflection of attendre: second-person plural present indicative second-person plural imperative (attendre: to wait for, to await) | checked |
+| W840 | noter | noter | Verb |  | to note | checked |
+| W841 | note | note | Noun | f | note | checked |
+| W842 | trente | trente | Numeral |  | thirty | checked |
+| W843 | quarante | quarante | Numeral |  | forty | checked |
+| W844 | cinquante | cinquante | Numeral |  | fifty | checked |
+| W845 | soixante | soixante | Numeral |  | sixty | checked |
+| W846 | soixante-dix | soixante-dix | Numeral |  | seventy | checked |
+| W847 | quatre-vingts | quatre-vingts | Numeral |  | eighty, 80 | checked |
+| W848 | quatre-vingt-dix | quatre-vingt-dix | Numeral |  | ninety | checked |
+| W849 | cent | cent | Numeral |  | hundred | checked |
+| W850 | habite | habiter | Verb |  | inflection of habiter: first/third-person singular present indicative/subjunctive second-person singular imperative (habiter: to live in, to occupy) | checked |
+| W851 | habites | habiter | Verb |  | second-person singular present indicative/subjunctive of habiter (habiter: to live in, to occupy) | checked |
+| W852 | habitez | habiter | Verb |  | inflection of habiter: second-person plural present indicative second-person plural imperative (habiter: to live in, to occupy) | checked |
+| W853 | habiter | habiter | Verb |  | to live in, to occupy | checked |
+| W854 | rue | rue | Noun | f | street, road | checked |
+| W855 | adresse | adresse | Noun | f | address | checked |
+| W856 | appartement | appartement | Noun | m | apartment, flat | checked |
+| W857 | pays | pays | Noun | m | land; region; home ground; homeland; home country; country; nation | checked |
+| W858 | étage | étage | Noun | m | floor, storey | checked |
+| W859 | près | près | Adverb |  | near; close | checked |
+| W860 | loin | loin | Adverb |  | far, distant | checked |
+| W861 | France | France | Proper noun |  | France | checked |
+| W862 | Allemagne | Allemagne | Proper noun |  | Germany | checked |
+| W863 | Italie | Italie | Proper noun |  | Italy | checked |
+| W864 | Angleterre | Angleterre | Proper noun |  | England | checked |
+| W865 | Espagne | Espagne | Proper noun |  | Spain | checked |
+| W866 | allemand | allemand | Noun | m | German | checked |
+| W867 | espagnol | espagnol | Adjective |  | Spanish, from or otherwise related to Spain, its people etc. | checked |
+| W868 | italien | italien | Adjective |  | Italian | checked |
+| W869 | américain | américain | Adjective |  | of or pertaining to America; American | checked |
+| W870 | chinois | chinois | Noun | m | Chinese | checked |
+| W871 | japonais | japonais | Noun | m | the Japanese language | checked |
+| W872 | langue | langue | Noun | f | language | checked |
+| W873 | langues | langue | Noun | f | plural of langue (langue: tongue) | checked |
+| W874 | étranger | étranger | Adjective |  | foreign | checked |
+| W875 | marché | marché | Noun | m | market | checked |
+| W876 | acheter | acheter | Verb |  | to purchase; buy | checked |
+| W877 | achète | acheter | Verb |  | inflection of acheter: first/third-person singular present indicative/subjunctive second-person singular imperative (acheter: to purchase; buy) | checked |
+| W878 | achètes | acheter | Verb |  | second-person singular present indicative/subjunctive of acheter (acheter: to purchase; buy) | checked |
+| W879 | voudrais | vouloir | Verb |  | first-person singular conditional of vouloir (vouloir: to want, wish, desire) | checked |
+| W880 | voulez | vouloir | Verb |  | second-person plural present indicative of vouloir (vouloir: to want, wish, desire) | checked |
+| W881 | kilo | kilo | Noun | m | kilo | checked |
+| W882 | fruits | fruit | Noun | m | plural of fruit (fruit: fruit) | checked |
+| W883 | légumes | légume | Noun | m | plural of légume (légume: vegetable) | checked |
+| W884 | fruit | fruit | Noun | m | fruit | checked |
+| W885 | d'accord | d'accord | Interjection |  | sure!, OK!, of course!, naturally! | checked |
+| W886 | compris | compris | Participle |  | past participle of comprendre | checked |
+| W887 | exactement | exactement | Adverb |  | exactly, quite | checked |
+| W888 | vrai | vrai | Adjective |  | true | checked |
+| W889 | prix | prix | Noun | m | price | checked |
+| W890 | coûte | coûter | Verb |  | inflection of coûter: first/third-person singular present indicative/subjunctive second-person singular imperative (coûter: to cost) | checked |
+| W891 | coûtent | coûter | Verb |  | third-person plural present indicative/subjunctive of coûter (coûter: to cost) | checked |
+| W892 | euro | euro | Noun | m | euro | checked |
+| W893 | euros | euro | Noun | m | plural of euro (euro: euro) | checked |
+| W894 | cher | cher | Adjective |  | expensive, costly | checked |
+| W895 | chère | cher | Adjective |  | feminine singular of cher (cher: dear, beloved) | checked |
+| W896 | payer | payer | Verb |  | to pay | checked |
+| W897 | carte | carte | Noun | f | card | checked |
+| W898 | argent | argent | Noun | m | money, cash | checked |
+| W899 | voilà | voilà | Verb |  | there is, there comes | checked |
+| W900 | bouteille | bouteille | Noun | f | bottle | checked |
+| W901 | paquet | paquet | Noun | m | packet | checked |
+| W902 | boîte | boîte | Noun | f | box | checked |
+| W903 | verre | verre | Noun | m | glass | checked |
+| W904 | sac | sac | Noun | m | bag, sack | checked |
+| W905 | assez | assez | Adverb |  | to a sufficient or moderate degree; enough; sufficiently | checked |
+| W906 | beaucoup | beaucoup | Adverb |  | much, very much, a lot [with de ‘of’] | checked |
+| W907 | peu | peu | Adverb |  | little; not very much/many | checked |
+| W908 | trop | trop | Adverb |  | too; too much | checked |
 
-## Matched to Tatoeba (598)
+## Matched to Tatoeba (658)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -1171,6 +1289,66 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S9228 | Je sais où. | I know where. | [#6965824](https://tatoeba.org/en/sentences/show/6965824) | Yemana |  |  | tts |
 | S9229 | Je sais qui. | I know who. | [#6965825](https://tatoeba.org/en/sentences/show/6965825) | Yemana |  |  | tts |
 | S9230 | Tu sais comment. | You know how. | [#7528067](https://tatoeba.org/en/sentences/show/7528067) | Micsmithel |  |  | tts |
+| S10901 | Je peux écrire en anglais. | I can write in English. | [#4642494](https://tatoeba.org/en/sentences/show/4642494) | Amastan |  |  | tts |
+| S10902 | Je ne peux pas écrire ça. | I can't write that. | [#8620384](https://tatoeba.org/en/sentences/show/8620384) | Aiji |  |  | tts |
+| S10903 | Est-ce que tu aimes écrire ? | Do you like writing? | [#4199632](https://tatoeba.org/en/sentences/show/4199632) | olivier |  |  | tts |
+| S10904 | Qui a écrit ça ? | Who wrote that? | [#6773879](https://tatoeba.org/en/sentences/show/6773879) | Micsmithel |  |  | tts |
+| S10905 | Qui a écrit la lettre ? | Who wrote the letter? | [#928277](https://tatoeba.org/en/sentences/show/928277) | sacredceltic |  |  | tts |
+| S10906 | Comment s'écrit ton nom ? | How is your name spelled? | [#948280](https://tatoeba.org/en/sentences/show/948280) | sacredceltic |  |  | tts |
+| S10907 | Oui, tu peux. | Yes, you can. | [#9548909](https://tatoeba.org/en/sentences/show/9548909) | Julien_PDC |  |  | tts |
+| S10908 | Non, vous ne pouvez pas. | No, you can't. | [#3630885](https://tatoeba.org/en/sentences/show/3630885) | sacredceltic |  |  | tts |
+| S10909 | Vous ne pouvez pas dire ça. | You can't say that. | [#7971043](https://tatoeba.org/en/sentences/show/7971043) | Aiji |  |  | tts |
+| S10910 | Qui a écrit une lettre ? | Who wrote a letter? | [#1723862](https://tatoeba.org/en/sentences/show/1723862) | alexmarcelo |  |  | tts |
+| S10911 | Comment s'écrit votre nom ? | How is your name spelled? | [#7745611](https://tatoeba.org/en/sentences/show/7745611) | lbdx |  |  | tts |
+| S10912 | Est-ce que tu as écrit ça ? | Did you write this? | [#7793925](https://tatoeba.org/en/sentences/show/7793925) | Aiji |  |  | tts |
+| S10913 | Il écrit. | He's writing. | [#3138119](https://tatoeba.org/en/sentences/show/3138119) | Julien_PDC |  |  | tts |
+| S10914 | Elle écrit. | She's writing. | [#3138120](https://tatoeba.org/en/sentences/show/3138120) | Julien_PDC |  |  | tts |
+| S10915 | J'aime écrire. | I love to write. | [#8395844](https://tatoeba.org/en/sentences/show/8395844) | Aiji |  |  | tts |
+| S10916 | Le garçon écrit. | The boy is writing. | [#8701695](https://tatoeba.org/en/sentences/show/8701695) | Micsmithel |  |  | tts |
+| S10917 | C'est bien écrit. | This is well written. | [#9162536](https://tatoeba.org/en/sentences/show/9162536) | Julien_PDC |  |  | tts |
+| S10918 | Il écrit des livres. | He writes books. | [#817441](https://tatoeba.org/en/sentences/show/817441) | sacredceltic |  |  | tts |
+| S10919 | Il écrit un livre. | He's writing a book. | [#3138121](https://tatoeba.org/en/sentences/show/3138121) | Julien_PDC |  |  | tts |
+| S10920 | Elle écrit un livre. | She's writing a book. | [#3138122](https://tatoeba.org/en/sentences/show/3138122) | Julien_PDC |  |  | tts |
+| S10921 | J'ai écrit ça. | I wrote that. | [#4681791](https://tatoeba.org/en/sentences/show/4681791) | sacredceltic |  |  | tts |
+| S10922 | C'est écrit en français. | It's written in French. | [#7745705](https://tatoeba.org/en/sentences/show/7745705) | lbdx |  |  | tts |
+| S10923 | Je ne peux pas ! | I can't! | [#8724432](https://tatoeba.org/en/sentences/show/8724432) | Micsmithel |  |  | tts |
+| S10924 | J'aime écrire ici. | I like to write here. | [#11146263](https://tatoeba.org/en/sentences/show/11146263) | Aiji |  |  | tts |
+| S10925 | Je vais écrire une lettre. | I'm going to write a letter. | [#6353](https://tatoeba.org/en/sentences/show/6353) | TRANG |  |  | tts |
+| S10926 | Il a écrit une lettre. | He wrote a letter. | [#374025](https://tatoeba.org/en/sentences/show/374025) | zmoo |  |  | tts |
+| S10927 | Elle écrit une lettre maintenant. | She is writing a letter now. | [#397632](https://tatoeba.org/en/sentences/show/397632) | sysko |  |  | tts |
+| S10928 | Il a écrit deux livres. | He has written two books. | [#461247](https://tatoeba.org/en/sentences/show/461247) | sacredceltic |  |  | tts |
+| S10929 | J'ai écrit le livre. | I wrote the book. | [#1129766](https://tatoeba.org/en/sentences/show/1129766) | Salutlolo |  |  | tts |
+| S10930 | J'ai écrit trois livres. | I've written three books. | [#2322186](https://tatoeba.org/en/sentences/show/2322186) | Amastan |  |  | tts |
+| S10001 | Quel est votre nom, Monsieur ? | What is your name, sir? | [#1495015](https://tatoeba.org/en/sentences/show/1495015) | sacredceltic |  |  | tts |
+| S10002 | Quel est votre prénom ? | What's your first name? | [#14501](https://tatoeba.org/en/sentences/show/14501) | sacredceltic |  |  | tts |
+| S10003 | Quel est votre nom ? | What's your name? | [#497402](https://tatoeba.org/en/sentences/show/497402) | Bruno |  |  | tts |
+| S10004 | Comment tu t'appelles ? | What's your name? | [#4306539](https://tatoeba.org/en/sentences/show/4306539) | gillux |  |  | tts |
+| S10005 | Salut, comment tu t'appelles ? | Hello, what's your name? | [#584560](https://tatoeba.org/en/sentences/show/584560) | qdii |  |  | tts |
+| S10006 | Quel est encore votre nom ? | What's your name again? | [#2041078](https://tatoeba.org/en/sentences/show/2041078) | sacredceltic |  |  | tts |
+| S10007 | Quel est son prénom ? | What's his first name? | [#3640187](https://tatoeba.org/en/sentences/show/3640187) | sacredceltic |  |  | tts |
+| S10008 | Qu'est-ce que t'en sais ? | What do you know about this? | [#8741723](https://tatoeba.org/en/sentences/show/8741723) | Julien_PDC |  |  | tts |
+| S10009 | Tu m'aimes encore ? | Do you still love me? | [#13378127](https://tatoeba.org/en/sentences/show/13378127) | lbdx |  |  | tts |
+| S10010 | Tu ne m'aimes plus ? | Don't you love me anymore? | [#3292481](https://tatoeba.org/en/sentences/show/3292481) | gillux |  |  | tts |
+| S10011 | Est-ce que mon chat m'aime ? | Does my cat love me? | [#11268030](https://tatoeba.org/en/sentences/show/11268030) | lbdx |  |  | tts |
+| S10012 | Bonjour Monsieur ! | Hello sir! | [#482478](https://tatoeba.org/en/sentences/show/482478) | sacredceltic |  |  | tts |
+| S10013 | Bonjour Madame ! | Hello Madam! | [#482479](https://tatoeba.org/en/sentences/show/482479) | sacredceltic |  |  | tts |
+| S10014 | Bonsoir Madame ! | Good evening, madam! | [#1143749](https://tatoeba.org/en/sentences/show/1143749) | sacredceltic |  |  | tts |
+| S10015 | Merci, Monsieur. | Thank you, sir. | [#1383036](https://tatoeba.org/en/sentences/show/1383036) | sacredceltic |  |  | tts |
+| S10016 | Appelez maintenant. | Call now. | [#6615863](https://tatoeba.org/en/sentences/show/6615863) | GB3 |  |  | tts |
+| S10017 | Quel est le nom de votre ami ? | What is your friend's name? | [#2265448](https://tatoeba.org/en/sentences/show/2265448) | sacredceltic |  |  | tts |
+| S10018 | Quel est le nom de votre amie ? | What is your friend's name? | [#2265450](https://tatoeba.org/en/sentences/show/2265450) | sacredceltic |  |  | tts |
+| S10019 | Quel est le nom de votre cheval ? | What's your horse's name? | [#7267191](https://tatoeba.org/en/sentences/show/7267191) | Aiji |  |  | tts |
+| S10020 | Quel est ton nom ? | What's your name? | [#1097924](https://tatoeba.org/en/sentences/show/1097924) | nimfeo |  |  | tts |
+| S10021 | Quel est son nom ? | What's his name? | [#1997944](https://tatoeba.org/en/sentences/show/1997944) | sacredceltic |  |  | tts |
+| S10022 | Où est votre école ? | Where's your school? | [#3627868](https://tatoeba.org/en/sentences/show/3627868) | fleur74 |  |  | tts |
+| S10023 | Où est votre chien ? | Where's your dog? | [#3627873](https://tatoeba.org/en/sentences/show/3627873) | fleur74 |  |  | tts |
+| S10024 | Où est votre ami ? | Where's your friend? | [#5902192](https://tatoeba.org/en/sentences/show/5902192) | Joelle |  |  | tts |
+| S10025 | Où est votre amie ? | Where's your friend? | [#5902193](https://tatoeba.org/en/sentences/show/5902193) | Joelle |  |  | tts |
+| S10026 | Est-ce que c'est ton nom ? | Is that your name? | [#6772133](https://tatoeba.org/en/sentences/show/6772133) | Micsmithel |  |  | tts |
+| S10027 | Comment est votre magasin ? | What is your store like? | [#6798875](https://tatoeba.org/en/sentences/show/6798875) | Micsmithel |  |  | tts |
+| S10028 | Qui est votre ami ? | Who's your friend? | [#7802631](https://tatoeba.org/en/sentences/show/7802631) | Aiji |  |  | tts |
+| S10029 | Qui est votre amie ? | Who's your friend? | [#7802632](https://tatoeba.org/en/sentences/show/7802632) | Aiji |  |  | tts |
+| S10030 | T'es un garçon ? | Are you a boy? | [#11899495](https://tatoeba.org/en/sentences/show/11899495) | zogwarg |  |  | tts |
 | S9161 | Qu'est-ce que ça veut dire ? | What does that mean? | [#2224260](https://tatoeba.org/en/sentences/show/2224260) | sacredceltic |  |  | tts |
 
 ## Off in the workbook (71)
@@ -1251,7 +1429,7 @@ Set to off by the workbook owner. Not shipped.
 | S7729 | À elle. | It's her turn. | pulled from Tatoeba under content_pull |
 | S7730 | À trois ! | On the count of three! | pulled from Tatoeba under content_pull |
 
-## English-to-French answers generated from Tatoeba (402)
+## English-to-French answers generated from Tatoeba (408)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -1274,6 +1452,12 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S0036 | You're a child. | Tu es un enfant. | [#7763129](https://tatoeba.org/en/sentences/show/7763129) | sacredceltic |
 | S0036 | You're a child. | Vous êtes un enfant. | [#7763127](https://tatoeba.org/en/sentences/show/7763127) | sacredceltic |
 | S0036 | You're a child. | Vous êtes une enfant. | [#7763126](https://tatoeba.org/en/sentences/show/7763126) | sacredceltic |
+| S10062 | What's your name? | Comment t'appelles-tu ? | [#451070](https://tatoeba.org/en/sentences/show/451070) | manuk7 |
+| S10062 | What's your name? | Comment te nomme-t-on ? | [#1147470](https://tatoeba.org/en/sentences/show/1147470) | sacredceltic |
+| S10062 | What's your name? | Comment tu t'appelles ? | [#4306539](https://tatoeba.org/en/sentences/show/4306539) | gillux |
+| S10062 | What's your name? | Comment vous appelez-vous ? | [#338111](https://tatoeba.org/en/sentences/show/338111) | shiboy |
+| S10062 | What's your name? | Quel est ton nom ? | [#1097924](https://tatoeba.org/en/sentences/show/1097924) | nimfeo |
+| S10062 | What's your name? | Quel est votre nom ? | [#497402](https://tatoeba.org/en/sentences/show/497402) | Bruno |
 | S2003 | Are they here? | Elles sont ici ? | [#5259932](https://tatoeba.org/en/sentences/show/5259932) | Iriep |
 | S2003 | Are they here? | Elles sont là ? | [#5259909](https://tatoeba.org/en/sentences/show/5259909) | Iriep |
 | S2003 | Are they here? | Ils sont là ? | [#5240676](https://tatoeba.org/en/sentences/show/5240676) | Iriep |
