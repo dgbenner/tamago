@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "id": "R101",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "Au marché",
+    "lines": [
+      "Fruits et légumes",
+      "Pommes : 2 € le kilo",
+      "Le marché : lundi et dimanche"
+    ],
+    "questions": [
+      {
+        "question": "How much is a kilo of apples?",
+        "choices": [
+          "€2",
+          "€3",
+          "€20"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is the market on?",
+        "choices": [
+          "Monday and Sunday",
+          "Every day",
+          "Only on Sunday"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R102",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Les prix",
+    "lines": [
+      "Pain : 1 €",
+      "Fromage : 4,50 €",
+      "Lait : 1,20 €",
+      "Eau : 0,80 €"
+    ],
+    "questions": [
+      {
+        "question": "How much is the cheese?",
+        "choices": [
+          "€1.20",
+          "€4.50",
+          "€0.80"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What costs €1?",
+        "choices": [
+          "The bread",
+          "The milk",
+          "The water"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R103",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Un message de Marie",
+    "lines": [
+      "Paul,",
+      "Tu peux acheter une bouteille de lait, un paquet de fromage et un kilo de pommes ?",
+      "Merci !",
+      "Marie"
+    ],
+    "questions": [
+      {
+        "question": "What does Marie want from the shop?",
+        "choices": [
+          "Milk, cheese and apples",
+          "Bread and water",
+          "Fruit and vegetables"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much milk?",
+        "choices": [
+          "One bottle",
+          "Two bottles",
+          "A kilo"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  }
+]

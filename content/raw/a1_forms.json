@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Je m'appelle Paul Martin. J'ai quarante ans. J'habite au dix, rue du Parc, à Lyon.",
+    "fields_json": "[{\"key\":\"last\",\"label\":\"Nom\",\"rule\":\"text\",\"answer\":\"Martin\"},{\"key\":\"first\",\"label\":\"Prénom\",\"rule\":\"text\",\"answer\":\"Paul\"},{\"key\":\"age\",\"label\":\"Âge\",\"rule\":\"number\",\"answer\":\"40\"},{\"key\":\"address\",\"label\":\"Adresse\",\"rule\":\"text\",\"answer\":\"10, rue du Parc\",\"also\":[\"10 rue du Parc\",\"dix, rue du Parc\",\"dix rue du Parc\"]},{\"key\":\"town\",\"label\":\"Ville\",\"rule\":\"text\",\"answer\":\"Lyon\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Je m'appelle Marie Dubois. J'ai trente ans. Je suis française. J'habite en Allemagne. Mon numéro, c'est le zéro six, onze, quinze, dix-neuf, vingt.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Prénom\",\"rule\":\"text\",\"answer\":\"Marie\"},{\"key\":\"last\",\"label\":\"Nom\",\"rule\":\"text\",\"answer\":\"Dubois\"},{\"key\":\"age\",\"label\":\"Âge\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Nationalité\",\"rule\":\"text\",\"answer\":\"française\",\"also\":[\"francaise\",\"français\"]},{\"key\":\"country\",\"label\":\"Pays\",\"rule\":\"text\",\"answer\":\"Allemagne\"},{\"key\":\"tel\",\"label\":\"Téléphone\",\"rule\":\"phone\",\"answer\":\"06 11 15 19 20\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

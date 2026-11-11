@@ -1,9 +1,20 @@
 # Tamago check-in
 
-Updated November 10, 2026. **New: the Asking for Help thread (three help circles per course), conversation scenes, and the conversation partner in Self-Study.** **German is live: all 15 A1 units, nine topic packs and the A1 Final Check, chosen on the opening screen, from the header flag or in Settings.** Fable's review is applied: 15 drafts swapped, the week pair cut, 69 drafts left for the native check. The Spanish course is live: all 15 units, six topic packs, and language switching. Also live: **three French topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
+Updated November 10, 2026. **New: French A1 Part 2, Everyday Life, is built: 12 circles, ready for you to try.** **New: the Asking for Help thread (three help circles per course), conversation scenes, and the conversation partner in Self-Study.** **German is live: all 15 A1 units, nine topic packs and the A1 Final Check, chosen on the opening screen, from the header flag or in Settings.** Fable's review is applied: 15 drafts swapped, the week pair cut, 69 drafts left for the native check. The Spanish course is live: all 15 units, six topic packs, and language switching. Also live: **three French topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
 
 ## Done since last check-in
 
+- **A1 Complete, step 3: French Part 2, Everyday Life (stopped here for you to try it, as the spec says).** Local and on GitHub, so live at https://tamago-83f.pages.dev once the deploy finishes.
+  - **Twelve circles on rows 11 to 15:** nine main circles and three help circles.
+    - Main: Your Name, Please; Phone Numbers; Age and Birthdays; Numbers to 100; Where You Live; Countries and Languages; At the Market; How Much Is It?; Bottles and Bags.
+    - Help: Spelling It Out, Checking Numbers, Checking You Understood.
+    - Each circle has its grammar note, an "I can" statement, question-and-answer pairs and its sushi.
+  - **To reach it:** finish round 1 of every Part 1 circle, then use the banner's Go to Part 2, or the part switcher. With Testing Shortcuts on, swiping a circle right to left passes a lesson, so Part 1 can be skipped through quickly.
+  - **Sentences:** French now has 1,262. 899 are checked Tatoeba; 363 are drafts for the native check, 96 of them new in Part 2.
+  - **Task items:** 22, all drafts for the native check: 14 Write What You Hear, 2 Fill In the Form, 3 Read and Answer, 3 Write a Message. Each lesson in a circle that has them takes one item, mid-lesson. The Part 2 Review is set at the middle of the part and at the end.
+  - **A1 coverage, French (FLELex):** 208 words taught (17%, was 13%); 166 on the main path (14%, was 9%). Numbers to 100 are now complete, 29 of 29, and prices 6 of 7 (centime is missing). Times, days, months and dates are still thin and are left for later parts.
+  - **The quality pass, ready for Fable:** _review/french-part2-candidates.md lists 217 Tatoeba sentences that are kept out only by the trust rule, set beside the 96 Part 2 drafts. 5 drafts are word for word on Tatoeba from an unchecked owner, and 33 have a candidate that teaches all the same new words. Nothing is swapped yet. The Part 1 file, _review/french-candidates.md, with Fable's marks, is untouched. Once Fable has marked the Part 2 file, I'll swap in the Use candidates the same way as before.
+  - **Cut on the way:** idioms, *cher* meaning dear, and every line where Tatoeba's English named a different person (Mary for Marie).
 - **A1 Complete, step 2: the framework, live.** Nothing new to learn yet; Part 2 writes the content.
   - **Parts.** The current tree is A1 · Part 1, First Steps. The parts tab in each workbook plans 4 parts for German and Spanish and 6 for French, from each gap at about 12 new words a circle (FLELex A1 is nearly twice the Goethe list). The tree shows one part:
     - "A1 · Part 1 of 4: First Steps" at the top;
@@ -252,7 +263,7 @@ Updated November 10, 2026. **New: the Asking for Help thread (three help circles
 2c. **German native-speaker check:** 69 drafted German sentences, listed at the end of this file, need a native speaker of standard German before testers. Same flow: https://tamago-83f.pages.dev, choose German, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check.
 2a. **Spanish native-speaker check:** 158 drafted Spanish sentences, listed at the end of this file, need a native speaker of Latin American Spanish before testers. Same flow as French: on their phone, https://tamago-83f.pages.dev, choose Spanish, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check. Most drafts are in the first six units, where Tatoeba's checked sentences within so few words run out; from Unit 7 on, drafting is a handful per unit.
 2b. **Spanish flag (your call):** the course is Latin American Spanish and the flag is Spain's. Send another flag image whenever you like and I'll swap it in.
-3. **Native-speaker check (now 253 French sentences, listed below).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
+3. **Native-speaker check (now 363 French sentences, listed below, 96 of them from Part 2, plus Part 2's 22 task items).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
 4. **The Claude features (explanations, written practice, conversations)** run on a Tamago-only key, stored only as a Cloudflare Pages secret (TAMAGO_ANTHROPIC_API_KEY), under a $5 monthly spend cap. If the key lapses or the cap is reached, they switch off quietly and the rest of the app works as before.
    - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output; one explanation is a few hundred tokens. Claude-written practice uses Opus 5.5 ($4 and $20 per million), a few cents a set. The $5 cap stops everything for the rest of the month if it's ever reached.
 5. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
@@ -262,7 +273,7 @@ Updated November 10, 2026. **New: the Asking for Help thread (three help circles
 
 ## Drafted sentences
 
-Every French sentence I wrote (267), for the native-speaker check. Tatoeba sentences aren't listed.
+Every French sentence I wrote (363), for the native-speaker check. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (18)
 
@@ -527,6 +538,22 @@ Every French sentence I wrote (267), for the native-speaker check. Tatoeba sente
 - S7764 Où est le magasin ? = Where is the shop?
 - S7765 Le magasin est dans la ville. = The shop is in the town.
 
+**U41 Your Name, Please** (6)
+
+- S10061 Je m'appelle Paul. = My name is Paul. (QT09 answer)
+- S10062 Vous vous appelez comment ? = What's your name?
+- S10063 Tu t'appelles Marie ? = Is your name Marie?
+- S10064 Mon prénom, c'est Paul. = My first name is Paul. (QT09 answer)
+- S10065 Bonjour, Madame. Vous vous appelez comment ? = Hello, madam. What's your name?
+- S10066 Oui, je m'appelle Marie. = Yes, my name is Marie. (QT09 answer)
+
+**U34 Spelling It Out** (4)
+
+- S10961 Vous pouvez épeler, s'il vous plaît ? = Can you spell it, please?
+- S10962 Tu peux épeler ton nom ? = Can you spell your name?
+- S10963 Comment ça s'écrit ? = How do you spell that?
+- S10964 Je peux épeler mon nom. = I can spell my name. (QT09 answer)
+
 **U102 Family Life** (7)
 
 - S6151 La mère et le père sont ici. = The mother and the father are here.
@@ -536,6 +563,20 @@ Every French sentence I wrote (267), for the native-speaker check. Tatoeba sente
 - S6159 La mère est ici. = The mother is here.
 - S6160 Le père est ici. = The father is here.
 - S6161 Les parents et les enfants sont ici. = The parents and the children are here.
+
+**U42 Phone Numbers** (11)
+
+- S10161 Mon numéro, c'est le zéro six, onze, quinze, dix-neuf, vingt. = My number is 06 11 15 19 20. (QT09 answer)
+- S10162 C'est le zéro six, douze, seize, dix-sept, treize. = It's 06 12 16 17 13.
+- S10163 Mon numéro de portable, c'est le zéro sept, quatorze, dix-huit, onze, douze. = My mobile number is 07 14 18 11 12.
+- S10164 Son numéro, c'est le zéro six, treize, quinze, seize, vingt. = His number is 06 13 15 16 20.
+- S10165 Le numéro, c'est le zéro sept, dix-sept, dix-huit, dix-neuf, quatorze. = The number is 07 17 18 19 14.
+- S10166 Appelez le zéro six, onze, douze, vingt, quinze. = Call 06 11 12 20 15.
+- S10167 C'est le zéro six, treize, quatorze, seize, dix-sept. = It's 06 13 14 16 17.
+- S10168 Mon numéro, c'est le zéro sept, dix-huit, dix-neuf, onze, douze. = My number is 07 18 19 11 12.
+- S10169 Tu as un portable ? = Do you have a mobile phone?
+- S10170 Oui, j'ai un portable. = Yes, I have a mobile phone. (QT09 answer)
+- S10171 Je vais appeler Paul. = I'm going to call Paul.
 
 **U103 At Home** (15)
 
@@ -555,6 +596,24 @@ Every French sentence I wrote (267), for the native-speaker check. Tatoeba sente
 - S6265 Voici la cuisine. = Here is the kitchen.
 - S6266 C'est une petite fenêtre. = It's a small window.
 
+**U43 Age and Birthdays** (7)
+
+- S10261 Elle est née aujourd'hui. = She was born today.
+- S10262 Mon chien est né ici. = My dog was born here.
+- S10263 Il a six mois. = He is six months old.
+- S10264 Mon chat a deux mois. = My cat is two months old.
+- S10265 Le chien a trois mois. = The dog is three months old.
+- S10266 Bonne année, Marie ! = Happy New Year, Marie!
+- S10267 C'est une bonne année. = It's a good year.
+
+**U35 Checking Numbers** (5)
+
+- S11061 Vous pouvez répéter, s'il vous plaît ? = Can you repeat that, please?
+- S11062 Pardon, vous pouvez répéter le numéro ? = Sorry, can you repeat the number?
+- S11063 Tu peux répéter ? = Can you repeat that?
+- S11064 Un moment, je vais noter. = One moment, I'll write it down.
+- S11065 Je vais noter le numéro. = I'm going to write down the number.
+
 **U104 Music and Songs** (7)
 
 - S6351 Il aime la musique. = He likes music.
@@ -565,6 +624,21 @@ Every French sentence I wrote (267), for the native-speaker check. Tatoeba sente
 - S6356 J'aime la guitare. = I like the guitar.
 - S6357 Voici la chanson. = Here is the song.
 
+**U44 Numbers to 100** (12)
+
+- S10361 Trente, quarante, cinquante, soixante. = Thirty, forty, fifty, sixty.
+- S10362 Soixante-dix, quatre-vingts, quatre-vingt-dix, cent. = Seventy, eighty, ninety, a hundred.
+- S10363 Il a cinquante ans. = He is fifty years old.
+- S10364 Elle a soixante-dix ans. = She is seventy years old.
+- S10365 Il a quatre-vingt-dix ans. = He is ninety years old.
+- S10366 Elle a cent ans ! = She is a hundred years old! (QT09 answer)
+- S10367 J'ai cinquante ans. = I am fifty years old.
+- S10368 C'est le zéro six, cinquante, soixante-dix, quatre-vingt-dix, quarante. = It's 06 50 70 90 40.
+- S10369 Elle a soixante ans. = She is sixty years old.
+- S10370 Elle a quatre-vingts ans. = She is eighty years old.
+- S10371 Il a cent ans. = He is a hundred years old.
+- S10372 Elle a quel âge ? = How old is she?
+
 **U105 At the Café** (6)
 
 - S6452 Une tasse de café, s'il vous plaît. = A cup of coffee, please.
@@ -573,6 +647,18 @@ Every French sentence I wrote (267), for the native-speaker check. Tatoeba sente
 - S6455 Un croissant, s'il vous plaît. = A croissant, please.
 - S6456 Je mange un croissant. = I'm eating a croissant.
 - S6457 Le croissant est grand. = The croissant is big.
+
+**U45 Where You Live** (9)
+
+- S10461 J'habite au dix, rue du Parc. = I live at 10, rue du Parc. (QT09 answer)
+- S10462 Tu habites dans quelle rue ? = Which street do you live on?
+- S10463 Tu habites près de l'école ? = Do you live near the school?
+- S10464 Vous habitez ici ? = Do you live here?
+- S10465 Vous habitez près du parc ? = Do you live near the park?
+- S10466 J'habite près du parc. = I live near the park. (QT09 answer)
+- S10467 J'aime habiter en ville. = I like living in the city.
+- S10468 C'est un beau pays. = It's a beautiful country.
+- S10469 L'appartement est à quel étage ? = Which floor is the apartment on?
 
 **U106 At the Supermarket** (8)
 
@@ -585,6 +671,22 @@ Every French sentence I wrote (267), for the native-speaker check. Tatoeba sente
 - S6561 J'aime le beurre. = I like butter.
 - S6562 Il mange une banane. = He's eating a banana.
 
+**U46 Countries and Languages** (13)
+
+- S10561 J'habite en Allemagne. = I live in Germany.
+- S10562 Il va en Allemagne. = He's going to Germany.
+- S10563 Tu habites en Allemagne ? = Do you live in Germany?
+- S10564 J'habite en Italie. = I live in Italy.
+- S10565 Elle va en Italie. = She's going to Italy.
+- S10566 Vous habitez en Italie ? = Do you live in Italy?
+- S10567 J'habite en Espagne. = I live in Spain.
+- S10568 Il va en Espagne. = He's going to Spain.
+- S10569 Tu vas en Espagne ? = Are you going to Spain?
+- S10570 Je vais en Angleterre. = I'm going to England.
+- S10571 Tu es américain ? = Are you American?
+- S10572 Oui, je vais en Espagne. = Yes, I'm going to Spain. (QT09 answer)
+- S10573 Non, je suis allemand. = No, I'm German. (QT09 answer)
+
 **U107 At the Beach** (9)
 
 - S6651 Voici la plage. = Here is the beach.
@@ -596,6 +698,47 @@ Every French sentence I wrote (267), for the native-speaker check. Tatoeba sente
 - S6657 Le bateau est petit. = The boat is small.
 - S6659 J'aime le sable. = I like the sand.
 - S6660 Le sable est ici. = The sand is here.
+
+**U47 At the Market** (6)
+
+- S10661 J'achète un kilo de pommes. = I'm buying a kilo of apples.
+- S10662 Je voudrais un kilo de pommes, s'il vous plaît. = I'd like a kilo of apples, please.
+- S10663 Tu achètes des légumes ? = Are you buying vegetables?
+- S10664 Tu achètes des fruits au marché ? = Do you buy fruit at the market?
+- S10665 Un kilo de fromage, s'il vous plaît. = A kilo of cheese, please.
+- S10666 Oui, j'achète des légumes. = Yes, I'm buying vegetables. (QT09 answer)
+
+**U36 Checking You Understood** (2)
+
+- S11161 Tu as compris ? = Did you understand?
+- S11162 Oui, j'ai compris. = Yes, I understood. (QT09 answer)
+
+**U48 How Much Is It?** (12)
+
+- S10761 Quel est le prix ? = What's the price?
+- S10762 Le prix, c'est dix euros. = The price is ten euros.
+- S10763 C'est un bon prix. = It's a good price.
+- S10764 Les pommes coûtent deux euros. = The apples cost two euros. (QT09 answer)
+- S10765 Combien coûtent les fruits ? = How much is the fruit?
+- S10766 Les légumes coûtent trois euros le kilo. = The vegetables cost three euros a kilo.
+- S10767 Ça coûte un euro. = It costs one euro.
+- S10768 Le pain coûte un euro. = The bread costs one euro.
+- S10769 La pomme coûte un euro. = The apple costs one euro.
+- S10770 La ville est chère. = The city is expensive.
+- S10771 La pomme est chère. = The apple is expensive.
+- S10772 Elle est chère ? = Is it expensive?
+
+**U49 Bottles and Bags** (9)
+
+- S10862 Une bouteille de lait, s'il vous plaît. = A bottle of milk, please.
+- S10863 La bouteille est dans le sac. = The bottle is in the bag.
+- S10864 Un paquet de fromage, s'il vous plaît. = A packet of cheese, please.
+- S10865 Le paquet est dans le sac. = The packet is in the bag.
+- S10866 C'est un petit paquet. = It's a small packet.
+- S10867 Où est la boîte ? = Where's the box?
+- S10868 La boîte est dans le sac. = The box is in the bag.
+- S10869 C'est une grande boîte. = It's a big box.
+- S10870 Un verre d'eau, s'il vous plaît. = A glass of water, please.
 
 ## Spanish drafted sentences
 

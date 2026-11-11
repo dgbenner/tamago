@@ -417,7 +417,12 @@ export default function App() {
   // finished round 1; passing marks it done. It never locks anything.
   // Spanish has one more row of units (row 9), so the last row of main units always gets one too.
   const lastMainRow = Math.max(0, ...layout.filter((t) => !isTopicNode(t.unit_id)).map((t) => t.row))
-  const checkpointRows = [...new Set([2, 3, 6, 8, lastMainRow])].filter((r) => layout.some((t) => t.row === r && !isTopicNode(t.unit_id)))
+  // Part 1 keeps its rows; each later part (A1 Complete) gets one mid-part and one at its last row of circles.
+  const partOfRow = (r) => Math.max(1, ...layout.filter((t) => t.row === r).map((t) => partOf(t.unit_id)))
+  const part1Last = Math.max(0, ...layout.filter((t) => !isTopicNode(t.unit_id) && partOf(t.unit_id) === 1 && Number.isInteger(t.row)).map((t) => t.row))
+  const laterRows = (n) => [...new Set(layout.filter((t) => !isTopicNode(t.unit_id) && partOf(t.unit_id) === n && Number.isInteger(t.row)).map((t) => t.row))].sort((a, b) => a - b)
+  const laterCheckpoints = [...new Set(layout.map((t) => partOf(t.unit_id)))].filter((n) => n > 1).flatMap((n) => { const rs = laterRows(n); return rs.length ? [rs[Math.min(2, rs.length - 1)], rs.at(-1)] : [] })
+  const checkpointRows = [...new Set([2, 3, 6, 8, part1Last, ...laterCheckpoints])].filter((r) => layout.some((t) => t.row === r && !isTopicNode(t.unit_id)))
   // Help circles (2026-11-10) don't gate anything, so a checkpoint neither reviews nor waits for them.
   const isHelpUnit = (unitId) => tables.units.find((u) => u.unit_id === unitId)?.is_topic_pick === 'help'
   const unitsUpTo = (row) => layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id) && !isHelpUnit(t.unit_id)).map((t) => t.unit_id)
@@ -942,7 +947,7 @@ export default function App() {
     ...(shownPart === lastPart ? [{ beforeRow: rowNumbers.at(-1) + 1, label: 'A2' }] : []),
   ] : []
   return (
-    <Home rows={rows} markers={markers} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
+    <Home rows={rows} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
       streakLine={showStreaks ? [streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ') : ''}
       onProgress={() => setScreen('progress')}
       tools={[

@@ -2,49 +2,48 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U48 How Much Is It?: Ça coûte combien ? Ça coûte … euros; c'est cher
+## U49 Bottles and Bags: Une bouteille de …, un paquet de …: de after a quantity; beaucoup de, assez de, trop de
 
-31 sentences picked from 37 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 2 (target 4).
+31 sentences picked from 155 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 1 (target 4).
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: prix (0), coûtent (0), euro (0), euros (2), chère (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: bouteille (0), paquet (0), boîte (0), verre (2). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S10701 | Ça coûte trente euros. | That costs 30 euros. |  | [#3256248](https://tatoeba.org/en/sentences/show/3256248) | Aiji |
-| S10702 | Ça coûte vingt euros. | It costs twenty euros. |  | [#8760607](https://tatoeba.org/en/sentences/show/8760607) | Julien_PDC |
-| S10703 | Ça coûte combien ? | How much is it? | That costs how much?; How much does this cost? | [#4295](https://tatoeba.org/en/sentences/show/4295) | TRANG |
-| S10704 | Qui va payer ? | Who will pay? |  | [#1078224](https://tatoeba.org/en/sentences/show/1078224) | sacredceltic |
-| S10705 | Où est l'argent ? | Where's the money? |  | [#1211215](https://tatoeba.org/en/sentences/show/1211215) | sacredceltic |
-| S10706 | Où est mon argent ? | Where's my money? | Where is my money? | [#1820433](https://tatoeba.org/en/sentences/show/1820433) | sacredceltic |
-| S10707 | Où est votre argent ? | Where is your money? |  | [#3627870](https://tatoeba.org/en/sentences/show/3627870) | fleur74 |
-| S10708 | Où est la carte ? | Where's the map? |  | [#5306741](https://tatoeba.org/en/sentences/show/5306741) | Aiji |
-| S10709 | Est-ce que le restaurant est cher ? | Is the restaurant expensive? |  | [#6867433](https://tatoeba.org/en/sentences/show/6867433) | felix63 |
-| S10710 | Qui va payer pour ça ? | Who'll pay for this? | Who's going to pay for that?; Who's going to pay for this? | [#7124897](https://tatoeba.org/en/sentences/show/7124897) | Aiji |
-| S10711 | Est-ce que tu as une carte ? | Do you have a map? |  | [#7970984](https://tatoeba.org/en/sentences/show/7970984) | Aiji |
-| S10712 | C'est cher. | It's expensive. | That's expensive.; This is expensive. | [#4548407](https://tatoeba.org/en/sentences/show/4548407) | sacredceltic |
-| S10713 | Voilà, monsieur. | Here you go, sir. |  | [#11790334](https://tatoeba.org/en/sentences/show/11790334) | lbdx |
-| S10714 | C'est très cher ! | It's very expensive. | That is very expensive! | [#859133](https://tatoeba.org/en/sentences/show/859133) | sacredceltic |
-| S10715 | Voilà ton chien ! | Here is your dog! |  | [#1825160](https://tatoeba.org/en/sentences/show/1825160) | sacredceltic |
-| S10716 | Voici la carte ! | Here's the map. | Here is the map. | [#1968223](https://tatoeba.org/en/sentences/show/1968223) | sacredceltic |
-| S10717 | Je voudrais payer. | I'd like to pay. |  | [#7563246](https://tatoeba.org/en/sentences/show/7563246) | Micsmithel |
-| S10718 | Voilà un livre, ici. | There's a book here. |  | [#1501120](https://tatoeba.org/en/sentences/show/1501120) | martin9 |
-| S10719 | Combien est-ce que ça coûte ? | What's the price? | How much is it?; What does that cost?; What does it cost?; How much does that cost? | [#883817](https://tatoeba.org/en/sentences/show/883817) | sacredceltic |
-| S10720 | Combien coûte une pomme ? | How much is an apple? | How much does an apple cost? | [#1544591](https://tatoeba.org/en/sentences/show/1544591) | sacredceltic |
-| S10721 | Tu as l'argent ? | Do you have the money? |  | [#7290482](https://tatoeba.org/en/sentences/show/7290482) | Aiji |
-| S10722 | Est-ce que tu as l'argent ? | Have you got the money? |  | [#1156746](https://tatoeba.org/en/sentences/show/1156746) | Korekorin |
-| S10723 | Tu as de l'argent ? | Do you have some money? |  | [#7696456](https://tatoeba.org/en/sentences/show/7696456) | Maxence |
-| S10724 | C'est ton argent. | It's your money. |  | [#4542978](https://tatoeba.org/en/sentences/show/4542978) | sacredceltic |
-| S10725 | C'est votre argent. | It's your money. |  | [#4542979](https://tatoeba.org/en/sentences/show/4542979) | sacredceltic |
-| S10726 | C'est mon argent. | That's my money. | This is my money.; This money is mine. | [#6670593](https://tatoeba.org/en/sentences/show/6670593) | GB3 |
-| S10727 | Il veut l'argent. | He wants the money. |  | [#902066](https://tatoeba.org/en/sentences/show/902066) | U2FS |
-| S10728 | Il aime l'argent. | He likes money. |  | [#1804287](https://tatoeba.org/en/sentences/show/1804287) | sacredceltic |
-| S10729 | Elle aime l'argent. | She likes money. |  | [#1804288](https://tatoeba.org/en/sentences/show/1804288) | sacredceltic |
-| S10730 | Je voudrais payer s'il vous plaît. | I would like to pay, please. |  | [#6723202](https://tatoeba.org/en/sentences/show/6723202) | felix63 |
-| S10731 | J'ai de l'argent. | I have money. | I have got some money. | [#10869](https://tatoeba.org/en/sentences/show/10869) | pfif |
+| S10801 | Trop d'argent ? | Too much money? |  | [#896351](https://tatoeba.org/en/sentences/show/896351) | sacredceltic |
+| S10802 | C'est beaucoup trop. | That's way too much. |  | [#11698058](https://tatoeba.org/en/sentences/show/11698058) | Aiji |
+| S10803 | C'est beaucoup trop petit. | It's far too small. |  | [#1737807](https://tatoeba.org/en/sentences/show/1737807) | sacredceltic |
+| S10804 | C'est beaucoup d'argent. | That's a lot of money. |  | [#1851204](https://tatoeba.org/en/sentences/show/1851204) | Rovo |
+| S10805 | Il a peu d'argent. | He has little money. |  | [#538945](https://tatoeba.org/en/sentences/show/538945) | sacredceltic |
+| S10806 | Où est le sac ? | Where's the bag? |  | [#1997960](https://tatoeba.org/en/sentences/show/1997960) | sacredceltic |
+| S10807 | Où est ton sac ? | Where's your bag? |  | [#3627779](https://tatoeba.org/en/sentences/show/3627779) | fleur74 |
+| S10808 | Où est mon sac ? | Where is my bag? |  | [#4718484](https://tatoeba.org/en/sentences/show/4718484) | Joelle |
+| S10809 | C'est à qui le verre ? | Whose glass is it? | Who does the glass belong to? | [#3421731](https://tatoeba.org/en/sentences/show/3421731) | Urusai |
+| S10810 | J'ai peu d'argent. | I have little money. | I haven't got much money. | [#564146](https://tatoeba.org/en/sentences/show/564146) | sacredceltic |
+| S10811 | Il a assez d'argent. | He has enough money. |  | [#1070296](https://tatoeba.org/en/sentences/show/1070296) | sacredceltic |
+| S10812 | Elle a assez d'argent. | She has enough money. |  | [#1902654](https://tatoeba.org/en/sentences/show/1902654) | sacredceltic |
+| S10813 | J'ai assez d'argent. | I have enough money. |  | [#1902661](https://tatoeba.org/en/sentences/show/1902661) | sacredceltic |
+| S10814 | J'ai très peu d'argent. | I have very little money. |  | [#10718583](https://tatoeba.org/en/sentences/show/10718583) | lbdx |
+| S10815 | C'est mon verre. | It's my glass. |  | [#6085231](https://tatoeba.org/en/sentences/show/6085231) | christian63 |
+| S10816 | Est-ce que c'est trop ? | Is it too much? |  | [#11587811](https://tatoeba.org/en/sentences/show/11587811) | engone |
+| S10817 | Il est d'où ? | From where is he? |  | [#1262616](https://tatoeba.org/en/sentences/show/1262616) | sacredceltic |
+| S10818 | C'est ton sac, non ? | This is your bag, isn't it? |  | [#5927173](https://tatoeba.org/en/sentences/show/5927173) | Aiji |
+| S10819 | C'est près d'ici ? | Is it nearby? | Is it near here? | [#7414757](https://tatoeba.org/en/sentences/show/7414757) | lbdx |
+| S10820 | Vous appelez d'Allemagne ? | Are you ringing from Germany? | Are you phoning from Germany? | [#7701884](https://tatoeba.org/en/sentences/show/7701884) | Maxence |
+| S10821 | Où est votre sac ? | Where's your bag? |  | [#9073607](https://tatoeba.org/en/sentences/show/9073607) | Aiji |
+| S10822 | Tu es d'ici ? | Are you from here? |  | [#10946524](https://tatoeba.org/en/sentences/show/10946524) | Rovo |
+| S10823 | Il est beaucoup trop petit. | It's way too small. |  | [#11951746](https://tatoeba.org/en/sentences/show/11951746) | lbdx |
+| S10824 | Merci beaucoup ! | Many thanks. | Thanks very much.; Thank you very much.; Thanks a lot!; Thank you very much! | [#3381](https://tatoeba.org/en/sentences/show/3381) | kurisutofu |
+| S10825 | C'est trop ! | That's too much! |  | [#11876](https://tatoeba.org/en/sentences/show/11876) | sacredceltic |
+| S10826 | C'est beaucoup ! | That's a lot! |  | [#1097853](https://tatoeba.org/en/sentences/show/1097853) | sacredceltic |
+| S10827 | Mange beaucoup ! | Eat a lot! |  | [#7938771](https://tatoeba.org/en/sentences/show/7938771) | Micsmithel |
+| S10828 | C'est trop cher ! | It's too expensive. | It's too expensive!; It is too expensive! | [#3539](https://tatoeba.org/en/sentences/show/3539) | zmoo |
+| S10829 | Assez pour aujourd'hui. | That's enough for today. |  | [#8428](https://tatoeba.org/en/sentences/show/8428) | sacredceltic |
+| S10830 | Elle parle beaucoup. | She talks a lot. |  | [#134133](https://tatoeba.org/en/sentences/show/134133) | sysko |
+| S10831 | Je suis d'ici. | I'm from here. |  | [#8332333](https://tatoeba.org/en/sentences/show/8332333) | theachaean |
 
 **QT09 questions and answers**
 
-- S10721 Tu as l'argent ?: J'ai de l'argent. / Oui. / Non.
-- S10723 Tu as de l'argent ?: J'ai de l'argent. / Oui. / Non.
+- S10822 Tu es d'ici ?: Je suis d'ici. / Oui. / Non.

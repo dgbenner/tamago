@@ -313,7 +313,9 @@ test('every live main unit builds lessons in all five rounds, from a learner who
       assert.ok(lessonsInRound(uc, round) >= 1, `${u.unit_id} round ${round}`)
       for (let seed = 1; seed <= 6; seed++) {
         const l = buildLesson(uc, { round, known: round === 1 ? before : new Set([...before, ...uc.wordOrder]), unit_id: u.unit_id, rng: seeded(seed * round) })
-        assert.equal(l.queue.length, 10, `${u.unit_id} round ${round}`)
+        // Ten questions, plus at most one A1 task item (QT14 to QT17) where the circle has them.
+        assert.equal(l.queue.filter((q) => !q.item_id).length, 10, `${u.unit_id} round ${round}`)
+        assert.ok(l.queue.filter((q) => q.item_id).length <= 1, `${u.unit_id} round ${round}: one task item at most`)
       }
     }
   }

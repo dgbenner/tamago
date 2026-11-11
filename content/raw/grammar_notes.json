@@ -187,5 +187,12 @@
     "example_sentence_ids": "S10703;S10701;S10766",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U49",
+    "rule": "A quantity takes de, or d' before a vowel: une bouteille d'eau, un paquet de fromage, un verre de lait. The same goes for beaucoup de, peu de, assez de and trop de: beaucoup d'argent, a lot of money. Trop is too or too much: c'est trop cher.",
+    "example_sentence_ids": "S10861;S10804;S10813",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]

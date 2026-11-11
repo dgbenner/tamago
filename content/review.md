@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 1220 (866 matched to Tatoeba, 354 Tamago originals), 71 off, 353 awaiting a ruling. Words with Wiktionary data: 361 of 361. French-to-English answers: 392 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 429.
+Sentences live: 1262 (899 matched to Tatoeba, 363 Tamago originals), 71 off, 386 awaiting a ruling. Words with Wiktionary data: 362 of 362. French-to-English answers: 402 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 429.
 
 Unit 1 is approved and live.
 
@@ -34,7 +34,7 @@ Candidates use only Unit 1 words, have 6 words or fewer, have a linked English t
 | S6056 |  | Tu as du temps ?<br>Do you have time? | none |
 | S6057 |  | Il a du temps.<br>He has time. | none |
 
-## Tamago originals: native-speaker check needed before Phase 4 (354)
+## Tamago originals: native-speaker check needed before Phase 4 (363)
 
 Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 
@@ -394,8 +394,17 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S10770 |  | La ville est chère. | The city is expensive. | tts |
 | S10771 |  | La pomme est chère. | The apple is expensive. | tts |
 | S10772 |  | Elle est chère ? | Is it expensive? | tts |
+| S10862 |  | Une bouteille de lait, s'il vous plaît. | A bottle of milk, please. | tts |
+| S10863 |  | La bouteille est dans le sac. | The bottle is in the bag. | tts |
+| S10864 |  | Un paquet de fromage, s'il vous plaît. | A packet of cheese, please. | tts |
+| S10865 |  | Le paquet est dans le sac. | The packet is in the bag. | tts |
+| S10866 |  | C'est un petit paquet. | It's a small packet. | tts |
+| S10867 |  | Où est la boîte ? | Where's the box? | tts |
+| S10868 |  | La boîte est dans le sac. | The box is in the bag. | tts |
+| S10869 |  | C'est une grande boîte. | It's a big box. | tts |
+| S10870 |  | Un verre d'eau, s'il vous plaît. | A glass of water, please. | tts |
 
-## Words, for a read-through (361)
+## Words, for a read-through (362)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -762,8 +771,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W906 | beaucoup | beaucoup | Adverb |  | much, very much, a lot [with de ‘of’] | checked |
 | W907 | peu | peu | Adverb |  | little; not very much/many | checked |
 | W908 | trop | trop | Adverb |  | too; too much | checked |
+| W909 | d' | d' | Preposition |  | apocopic form of de: of | checked |
 
-## Matched to Tatoeba (866)
+## Matched to Tatoeba (899)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -1634,7 +1644,40 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10729 | Elle aime l'argent. | She likes money. | [#1804288](https://tatoeba.org/en/sentences/show/1804288) | sacredceltic |  |  | tts |
 | S10730 | Je voudrais payer s'il vous plaît. | I would like to pay, please. | [#6723202](https://tatoeba.org/en/sentences/show/6723202) | felix63 |  |  | tts |
 | S10731 | J'ai de l'argent. | I have money. | [#10869](https://tatoeba.org/en/sentences/show/10869) | pfif |  |  | tts |
+| S10801 | Trop d'argent ? | Too much money? | [#896351](https://tatoeba.org/en/sentences/show/896351) | sacredceltic |  |  | tts |
+| S10802 | C'est beaucoup trop. | That's way too much. | [#11698058](https://tatoeba.org/en/sentences/show/11698058) | Aiji |  |  | tts |
+| S10803 | C'est beaucoup trop petit. | It's far too small. | [#1737807](https://tatoeba.org/en/sentences/show/1737807) | sacredceltic |  |  | tts |
+| S10804 | C'est beaucoup d'argent. | That's a lot of money. | [#1851204](https://tatoeba.org/en/sentences/show/1851204) | Rovo |  |  | tts |
+| S10805 | Il a peu d'argent. | He has little money. | [#538945](https://tatoeba.org/en/sentences/show/538945) | sacredceltic |  |  | tts |
+| S10806 | Où est le sac ? | Where's the bag? | [#1997960](https://tatoeba.org/en/sentences/show/1997960) | sacredceltic |  |  | tts |
+| S10807 | Où est ton sac ? | Where's your bag? | [#3627779](https://tatoeba.org/en/sentences/show/3627779) | fleur74 |  |  | tts |
+| S10808 | Où est mon sac ? | Where is my bag? | [#4718484](https://tatoeba.org/en/sentences/show/4718484) | Joelle |  |  | tts |
+| S10809 | C'est à qui le verre ? | Whose glass is it? | [#3421731](https://tatoeba.org/en/sentences/show/3421731) | Urusai |  |  | tts |
+| S10810 | J'ai peu d'argent. | I have little money. | [#564146](https://tatoeba.org/en/sentences/show/564146) | sacredceltic |  |  | tts |
+| S10811 | Il a assez d'argent. | He has enough money. | [#1070296](https://tatoeba.org/en/sentences/show/1070296) | sacredceltic |  |  | tts |
+| S10812 | Elle a assez d'argent. | She has enough money. | [#1902654](https://tatoeba.org/en/sentences/show/1902654) | sacredceltic |  |  | tts |
+| S10813 | J'ai assez d'argent. | I have enough money. | [#1902661](https://tatoeba.org/en/sentences/show/1902661) | sacredceltic |  |  | tts |
+| S10814 | J'ai très peu d'argent. | I have very little money. | [#10718583](https://tatoeba.org/en/sentences/show/10718583) | lbdx |  |  | tts |
+| S10815 | C'est mon verre. | It's my glass. | [#6085231](https://tatoeba.org/en/sentences/show/6085231) | christian63 |  |  | tts |
+| S10816 | Est-ce que c'est trop ? | Is it too much? | [#11587811](https://tatoeba.org/en/sentences/show/11587811) | engone |  |  | tts |
+| S10817 | Il est d'où ? | From where is he? | [#1262616](https://tatoeba.org/en/sentences/show/1262616) | sacredceltic |  |  | tts |
+| S10818 | C'est ton sac, non ? | This is your bag, isn't it? | [#5927173](https://tatoeba.org/en/sentences/show/5927173) | Aiji |  |  | tts |
+| S10819 | C'est près d'ici ? | Is it nearby? | [#7414757](https://tatoeba.org/en/sentences/show/7414757) | lbdx |  |  | tts |
+| S10820 | Vous appelez d'Allemagne ? | Are you ringing from Germany? | [#7701884](https://tatoeba.org/en/sentences/show/7701884) | Maxence |  |  | tts |
+| S10821 | Où est votre sac ? | Where's your bag? | [#9073607](https://tatoeba.org/en/sentences/show/9073607) | Aiji |  |  | tts |
+| S10822 | Tu es d'ici ? | Are you from here? | [#10946524](https://tatoeba.org/en/sentences/show/10946524) | Rovo |  |  | tts |
+| S10823 | Il est beaucoup trop petit. | It's way too small. | [#11951746](https://tatoeba.org/en/sentences/show/11951746) | lbdx |  |  | tts |
+| S10824 | Merci beaucoup ! | Many thanks. | [#3381](https://tatoeba.org/en/sentences/show/3381) | kurisutofu |  |  | lingua_libre |
+| S10825 | C'est trop ! | That's too much! | [#11876](https://tatoeba.org/en/sentences/show/11876) | sacredceltic |  |  | tts |
+| S10826 | C'est beaucoup ! | That's a lot! | [#1097853](https://tatoeba.org/en/sentences/show/1097853) | sacredceltic |  |  | tts |
+| S10827 | Mange beaucoup ! | Eat a lot! | [#7938771](https://tatoeba.org/en/sentences/show/7938771) | Micsmithel |  |  | tts |
+| S10828 | C'est trop cher ! | It's too expensive. | [#3539](https://tatoeba.org/en/sentences/show/3539) | zmoo |  |  | tts |
+| S10829 | Assez pour aujourd'hui. | That's enough for today. | [#8428](https://tatoeba.org/en/sentences/show/8428) | sacredceltic |  |  | tts |
+| S10830 | Elle parle beaucoup. | She talks a lot. | [#134133](https://tatoeba.org/en/sentences/show/134133) | sysko |  |  | tts |
+| S10831 | Je suis d'ici. | I'm from here. | [#8332333](https://tatoeba.org/en/sentences/show/8332333) | theachaean |  |  | tts |
 | S9161 | Qu'est-ce que ça veut dire ? | What does that mean? | [#2224260](https://tatoeba.org/en/sentences/show/2224260) | sacredceltic |  |  | tts |
+| S10861 | Je voudrais une bouteille d'eau. | I'd like a bottle of water. | [#8405324](https://tatoeba.org/en/sentences/show/8405324) | Aiji |  |  | tts |
+| S10871 | Voici ton sac. | Here is your bag. | [#920745](https://tatoeba.org/en/sentences/show/920745) | sacredceltic |  |  | tts |
 
 ## Off in the workbook (71)
 
@@ -2166,7 +2209,7 @@ Checked against Tatoeba: same French from a trusted owner, linked to the listed 
 | FB51 | Pas tout à fait. | Not quite. | flagged |  | Tatoeba links other English: Not exactly. |
 | FB52 | D'accord, on continue. | Okay, let's keep going. | flagged |  | not in Tatoeba from a trusted owner |
 
-## Lingua Libre recordings (18)
+## Lingua Libre recordings (19)
 
 | ID | French | File | License | Recordings found |
 | --- | --- | --- | --- | --- |
@@ -2188,3 +2231,4 @@ Checked against Tatoeba: same French from a trusted owner, linked to the listed 
 | S9122 | C'est ça. | [LL-Q150 (fra)-Lepticed7-c’est ça.wav](https://upload.wikimedia.org/wikipedia/commons/d/d9/LL-Q150_%2528fra%2529-Lepticed7-c%25E2%2580%2599est_%25C3%25A7a.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
 | S10206 | Bon anniversaire ! | [LL-Q150 (fra)-LoquaxFR-bon anniversaire.wav](https://upload.wikimedia.org/wikipedia/commons/1/1f/LL-Q150_%2528fra%2529-LoquaxFR-bon_anniversaire.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
 | S10207 | Bonne année ! | [LL-Q150 (fra)-Fabricio Cardenas (Culex)-bonne année.wav](https://upload.wikimedia.org/wikipedia/commons/4/48/LL-Q150_%2528fra%2529-Fabricio_Cardenas_%2528Culex%2529-bonne_ann%25C3%25A9e.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 3 |
+| S10824 | Merci beaucoup ! | [LL-Q150 (fra)-Justforoc-merci beaucoup.wav](https://upload.wikimedia.org/wikipedia/commons/a/a0/LL-Q150_%2528fra%2529-Justforoc-merci_beaucoup.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 3 |

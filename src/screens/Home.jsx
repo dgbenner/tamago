@@ -233,7 +233,7 @@ function PartEnd({ part, onReview, onPartView }) {
       </li>
       {next && (
         <li className="w-full">
-          <div className={`flex flex-col gap-1 rounded-2xl border-2 border-line bg-surface p-4 ${next.unlocked && next.built ? '' : 'opacity-80'}`}>
+          <div className={`flex flex-col gap-1 rounded-2xl border-2 border-line bg-surface p-4`}>
             <p className="flex items-center gap-2 text-sm text-muted">
               {!(next.unlocked && next.built) && <span className="[&_svg]:size-4"><IconLock /></span>}
               A1 · Part {next.n} of {part.total}

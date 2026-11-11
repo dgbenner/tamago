@@ -616,3 +616,11 @@ Part 3, Lingua Libre recordings:
 - apply-spanish-candidates.mjs is now course-aware (_review/<course>-candidates.md; English picks as pick "…" or English to show: "…"; --keep to leave drafts as they are). COURSE=de --keep S3106: 15 swapped, 20 held (18 QT09 halves, S3108 and S15102 out of candidates).
 - From _review/german-check.md: S13101 and S13102 in cut_sentences, their pair removed from drafts.json; accepted_additions AD0001 to AD0004 (S3102 twice, S3106, S13103), each with a keep decision.
 - German: 803 sentences, 734 Tatoeba, 69 drafts; 59 QT09 pairs.
+
+## 2026-11-10: A1 Complete, French Part 2
+
+- scripts/add-part2-fr.mjs: v27 to v28. 12 circles (U41 to U49 main, U34 to U36 help) on rows 11 to 15, words W801 to W909, can_do CD201 on, 22 task items (a1_listen N101 to N114, a1_forms F101 to F102, a1_texts R101 to R103, a1_prompts P101 to P103, status draft), parts Part 2 live.
+- Each circle: pulled, reviewed into content/sweep/packs-review.json, drafted (content/drafts.json), approved with a grammar note, then course-build. check-content batches the Wikidata Lingua Libre query (a URL that was too long gave 431) and uses the course's language code. Senses picked for adresse, prix, argent, cher and langue.
+- App: later parts get checkpoints (middle and last row); level markers are filtered to the rows shown; the part banner's opacity is removed (contrast). Icons: later parts' main circles get nigiri, maki or temaki by thirds, and help circles get the glossy rolls.
+- trust-candidates.mjs takes PART=n and writes _review/<course>-part<n>-candidates.md. French Part 2: 217 candidates, 96 drafts, 5 same text, 33 covered.
+- French: 1,262 sentences, 899 Tatoeba, 363 drafts. FLELex coverage: 208 words (17%), 166 on the main path. npm test: 70 pass. Chrome: Part 2 unlocks, the switcher and banner work, the QT17 phone item works in a U42 lesson, axe is clean.

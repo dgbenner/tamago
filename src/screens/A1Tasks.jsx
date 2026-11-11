@@ -106,8 +106,8 @@ export function WriteMessage({ q, result, onAnswer }) {
   )
 }
 
-const ASK = { number: 'Write the number', price: 'Write the price', time: 'Write the time', date: 'Write the date (day/month)' }
-const HINT = { number: '47', price: '3.50', time: '14:30', date: '12/3' }
+const ASK = { phone: 'Write the phone number', number: 'Write the number', price: 'Write the price', time: 'Write the time', date: 'Write the date (day/month)' }
+const HINT = { phone: '06 12 34 56 78', number: '47', price: '3.50', time: '14:30', date: '12/3' }
 // QT17: hear a number, price, time or date and write it in figures; checked as a value. With Can't Listen Now the
 // words are shown instead.
 export function ListenNumber({ q, result, onAnswer }) {

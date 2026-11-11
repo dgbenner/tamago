@@ -39,6 +39,21 @@ A1_PLAN.forEach((id, i) => {
 // The Asking for Help thread (2026-11-10) has a look of its own in every course: the three gunkan, in order.
 // (The gunkan they first wore are held out of the repo until their source is confirmed, 2026-11-10: the three rolls.)
 for (const [id, file] of [['U31', 'glossy-california-roll-emoji-7.webp'], ['U32', 'glossy-salmon-avocado-sushi-roll-6.webp'], ['U33', 'glossy-tuna-maki-sushi-roll-5.webp']]) kept[id] = { group: 'maki', file }
+// A1 Complete parts (2026-11-10): a later part's circles get the same easy-to-hard run of groups, and its help
+// circles the help thread's three rolls.
+const allUnits = read('content/raw/units.json')
+for (const n of [...new Set(allUnits.map((u) => Number(u.part || 1)))].filter((n) => n > 1)) {
+  const main = allUnits.filter((u) => Number(u.part) === n && u.is_topic_pick !== 'help').sort((a, b) => a.order - b.order).map((u) => u.unit_id)
+  const t = Math.ceil(main.length / 3)
+  main.forEach((id, i) => {
+    const group = i < t ? 'nigiri' : i < main.length - Math.floor(main.length / 3) ? 'maki' : 'temaki'
+    if (kept[id]?.group === group) return
+    const file = pick(group, new Set(Object.entries(kept).filter(([k, v]) => v.group === group && main.includes(k)).map(([, v]) => v.file)))
+    if (file) kept[id] = { group, file }
+  })
+  const rolls = ['glossy-california-roll-emoji-7.webp', 'glossy-salmon-avocado-sushi-roll-6.webp', 'glossy-tuna-maki-sushi-roll-5.webp']
+  allUnits.filter((u) => Number(u.part) === n && u.is_topic_pick === 'help').sort((a, b) => a.order - b.order).forEach((u, i) => { kept[u.unit_id] = { group: 'maki', file: rolls[i % 3] } })
+}
 // Side icons for nodes outside the path, once there is side art.
 for (const id of ['U100', 'checkpoint_2', 'checkpoint_3', 'make']) {
   if (kept[id] || !(pools.sides ?? []).length) continue

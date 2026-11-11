@@ -33,8 +33,43 @@ export const PART2_FR = [
   { unit_id: 'U48', order: 108, row: 15, after: 'row 14', title: 'How Much Is It?', grammar: 'Ça coûte combien ? Ça coûte … euros; c\'est cher', tasks: 'T04',
     words: ['prix', 'coûte', 'coûtent', 'euro', 'euros', 'cher', 'chère', 'payer', 'carte', 'argent', 'voilà'] },
   { unit_id: 'U49', order: 109, row: 15, after: 'row 14', title: 'Bottles and Bags', grammar: 'Une bouteille de …, un paquet de …: de after a quantity; beaucoup de, assez de, trop de', tasks: 'T04',
-    words: ['bouteille', 'paquet', 'boîte', 'verre', 'sac', 'assez', 'beaucoup', 'peu', 'trop'] },
+    words: ['bouteille', 'paquet', 'boîte', 'verre', 'sac', 'assez', 'beaucoup', 'peu', 'trop', "d'"] },
 ]
+
+// The part's A1 task items (QT14 to QT17), written for Tamago from the part's words (Tatoeba has nothing in these
+// shapes), so drafts for the native-speaker check. Prices and numbers are said the French way.
+const DRAFT = 'draft: written for Tamago, native check'
+export const ITEMS = {
+  a1_listen: [
+    ['N101', 'U42', 'number', 'quinze', '15'], ['N102', 'U42', 'number', 'dix-sept', '17'], ['N103', 'U42', 'phone', 'zéro six, onze, quinze, dix-neuf, vingt', '06 11 15 19 20'],
+    ['N104', 'U42', 'phone', 'zéro sept, douze, seize, dix-huit, quatorze', '07 12 16 18 14'],
+    ['N105', 'U43', 'number', "J'ai trente-deux ans.", '32'], ['N106', 'U43', 'number', 'Il a dix-huit ans.', '18'],
+    ['N107', 'U44', 'number', 'soixante-dix', '70'], ['N108', 'U44', 'number', 'quatre-vingt-dix', '90'], ['N109', 'U44', 'number', 'quarante-cinq', '45'], ['N110', 'U44', 'number', 'quatre-vingt-dix-neuf', '99'],
+    ['N111', 'U48', 'price', 'trois euros cinquante', '3.50'], ['N112', 'U48', 'price', 'dix euros', '10'], ['N113', 'U48', 'price', 'un euro vingt', '1.20'], ['N114', 'U48', 'price', 'vingt-cinq euros', '25'],
+  ].map(([id, unit_id, kind, say, answer]) => ({ id, unit_id, kind, say, answer, status: DRAFT, notes: '' })),
+  a1_forms: [
+    { id: 'F101', unit_id: 'U45', card: "Je m'appelle Paul Martin. J'ai quarante ans. J'habite au dix, rue du Parc, à Lyon.",
+      fields: [{ key: 'last', label: 'Nom', rule: 'text', answer: 'Martin' }, { key: 'first', label: 'Prénom', rule: 'text', answer: 'Paul' }, { key: 'age', label: 'Âge', rule: 'number', answer: '40' },
+        { key: 'address', label: 'Adresse', rule: 'text', answer: '10, rue du Parc', also: ['10 rue du Parc', 'dix, rue du Parc', 'dix rue du Parc'] }, { key: 'town', label: 'Ville', rule: 'text', answer: 'Lyon' }] },
+    { id: 'F102', unit_id: 'U46', card: "Je m'appelle Marie Dubois. J'ai trente ans. Je suis française. J'habite en Allemagne. Mon numéro, c'est le zéro six, onze, quinze, dix-neuf, vingt.",
+      fields: [{ key: 'first', label: 'Prénom', rule: 'text', answer: 'Marie' }, { key: 'last', label: 'Nom', rule: 'text', answer: 'Dubois' }, { key: 'age', label: 'Âge', rule: 'number', answer: '30' },
+        { key: 'nat', label: 'Nationalité', rule: 'text', answer: 'française', also: ['francaise', 'français'] }, { key: 'country', label: 'Pays', rule: 'text', answer: 'Allemagne' },
+        { key: 'tel', label: 'Téléphone', rule: 'phone', answer: '06 11 15 19 20' }] },
+  ].map((f) => ({ id: f.id, unit_id: f.unit_id, card: f.card, fields_json: JSON.stringify(f.fields), status: DRAFT, notes: '' })),
+  a1_texts: [
+    { id: 'R101', unit_id: 'U47', kind: 'sign', title: 'Au marché', lines: ['Fruits et légumes', 'Pommes : 2 € le kilo', 'Le marché : lundi et dimanche'],
+      questions: [{ question: 'How much is a kilo of apples?', choices: ['€2', '€3', '€20'], answer: 0 }, { question: 'When is the market on?', choices: ['Monday and Sunday', 'Every day', 'Only on Sunday'], answer: 0 }] },
+    { id: 'R102', unit_id: 'U48', kind: 'menu', title: 'Les prix', lines: ['Pain : 1 €', 'Fromage : 4,50 €', 'Lait : 1,20 €', 'Eau : 0,80 €'],
+      questions: [{ question: 'How much is the cheese?', choices: ['€1.20', '€4.50', '€0.80'], answer: 1 }, { question: 'What costs €1?', choices: ['The bread', 'The milk', 'The water'], answer: 0 }] },
+    { id: 'R103', unit_id: 'U49', kind: 'message', title: 'Un message de Marie', lines: ['Paul,', 'Tu peux acheter une bouteille de lait, un paquet de fromage et un kilo de pommes ?', 'Merci !', 'Marie'],
+      questions: [{ question: 'What does Marie want from the shop?', choices: ['Milk, cheese and apples', 'Bread and water', 'Fruit and vegetables'], answer: 0 }, { question: 'How much milk?', choices: ['One bottle', 'Two bottles', 'A kilo'], answer: 0 }] },
+  ].map((t) => ({ id: t.id, unit_id: t.unit_id, kind: t.kind, title: t.title, lines: t.lines.join('\n'), questions_json: JSON.stringify(t.questions), source: 'written for Tamago', status: DRAFT, notes: '' })),
+  a1_prompts: [
+    { id: 'P101', unit_id: 'U45', prompt: 'Write a short message to a new friend: your name, how old you are and where you live.', points: 'your name;your age;where you live', min_words: 20, max_words: 35 },
+    { id: 'P102', unit_id: 'U46', prompt: 'Write a short postcard about yourself: where you are from, where you live and which languages you speak.', points: 'where you are from;where you live;your languages', min_words: 30, max_words: 40 },
+    { id: 'P103', unit_id: 'U49', prompt: 'Write a short message to a friend: what to buy at the market, and how much of each.', points: 'two or three things;how much of each', min_words: 20, max_words: 35 },
+  ].map((x) => ({ ...x, status: DRAFT, notes: '' })),
+}
 
 // Words taken out in review, kept in place (status off) so no id moves.
 const OFF = { note: 'the noun note looks like je note (I write it down), misleading in a help circle' }
@@ -91,7 +126,11 @@ if (process.argv[1] === import.meta.filename) {
       wiktionary_url: `https://en.wiktionary.org/wiki/${encodeURIComponent(form)}#French`, status: OFF[form] ? `off: ${OFF[form]}` : 'pull from Wiktionary', notes: 'A1 Part 2 word' })
   }
   wb.Sheets.words = XLSX.utils.json_to_sheet(words)
-  const parts = sheet('parts').map((p) => (Number(p.part) === 2 ? { ...p, status: 'building' } : p))
+  for (const [tab, rows] of Object.entries(ITEMS)) {
+    const keep = sheet(tab).filter((r) => !rows.some((x) => x.id === r.id))
+    wb.Sheets[tab] = XLSX.utils.json_to_sheet([...keep, ...rows])
+  }
+  const parts = sheet('parts').map((p) => (Number(p.part) === 2 ? { ...p, status: 'live' } : p))
   wb.Sheets.parts = XLSX.utils.json_to_sheet(parts)
   const r = XLSX.utils.sheet_to_json(wb.Sheets.README, { header: 1, defval: '' })
   r.push([`Changes to ${to.match(/v(\d+)/)[0]}`, `A1 · Part 2, Everyday Life: ${PART2_FR.length} circles as drafts (${PART2_FR.filter((u) => u.help).length} help circles), rows 11 to 15, words from W801, "I can" statements from CD201.`])

@@ -2698,6 +2698,89 @@
       "french": "Elle est chère ?",
       "english": "Is it expensive?",
       "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10861",
+      "unit_id": "U49",
+      "french": "Je voudrais une bouteille d'eau.",
+      "english": "I'd like a bottle of water.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "8405324",
+      "source_owner": "Aiji"
+    },
+    {
+      "sentence_id": "S10862",
+      "unit_id": "U49",
+      "french": "Une bouteille de lait, s'il vous plaît.",
+      "english": "A bottle of milk, please.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10863",
+      "unit_id": "U49",
+      "french": "La bouteille est dans le sac.",
+      "english": "The bottle is in the bag.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10864",
+      "unit_id": "U49",
+      "french": "Un paquet de fromage, s'il vous plaît.",
+      "english": "A packet of cheese, please.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10865",
+      "unit_id": "U49",
+      "french": "Le paquet est dans le sac.",
+      "english": "The packet is in the bag.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10866",
+      "unit_id": "U49",
+      "french": "C'est un petit paquet.",
+      "english": "It's a small packet.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10867",
+      "unit_id": "U49",
+      "french": "Où est la boîte ?",
+      "english": "Where's the box?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10868",
+      "unit_id": "U49",
+      "french": "La boîte est dans le sac.",
+      "english": "The box is in the bag.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10869",
+      "unit_id": "U49",
+      "french": "C'est une grande boîte.",
+      "english": "It's a big box.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10870",
+      "unit_id": "U49",
+      "french": "Un verre d'eau, s'il vous plaît.",
+      "english": "A glass of water, please.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10871",
+      "unit_id": "U49",
+      "french": "Voici ton sac.",
+      "english": "Here is your bag.",
+      "notes": "QT09 answer; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "920745",
+      "source_owner": "sacredceltic"
     }
   ],
   "qa_answers": [
@@ -3136,6 +3219,14 @@
     {
       "question_sentence_id": "S10761",
       "answer_sentence_id": "S10762"
+    },
+    {
+      "question_sentence_id": "S10807",
+      "answer_sentence_id": "S10871"
+    },
+    {
+      "question_sentence_id": "S10822",
+      "answer_sentence_id": "S10831"
     }
   ]
 }

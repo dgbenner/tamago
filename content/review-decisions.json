@@ -560,6 +560,11 @@
       "action": "approve",
       "on": "2026-11-11",
       "by": "Claude under autonomous-build.md: Tatoeba sentences from checked owners after cutting 15 (cher and chère as dear, which would mislead beside expensive; an idiom, quoted and odd lines); 12 drafts for prix, coûtent, euro and chère"
+    },
+    "U49": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: 28 Tatoeba sentences from checked owners after cutting 10 (idioms like C'est peu dire, assez as quite, plus, elliptic D'où ?, a mismatched English); 11 drafts for bouteille, paquet, boîte and verre, and an answer"
     }
   },
   "cut_sentences": [
@@ -1354,6 +1359,10 @@
     },
     "W908": {
       "hint": "too, too much",
+      "source": "short form of Wiktionary"
+    },
+    "W909": {
+      "hint": "of (de before a vowel: une bouteille d'eau)",
       "source": "short form of Wiktionary"
     }
   },

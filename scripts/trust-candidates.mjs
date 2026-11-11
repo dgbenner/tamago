@@ -54,11 +54,15 @@ const taken = new Set(sentences.map((s) => lkey(s.french)))
 const untrusted = tatoeba.french.filter((s) => { const t = tatoeba.trustOf(s); return !t.native_owner && !t.ok_tag })
 const formOf = new Map(words.map((w) => [w.word_id, w.form]))
 const off = new Set(sentences.filter((s) => String(s.status).startsWith('off')).map((s) => s.sentence_id))
-const drafts = sentences.filter((s) => s.source === 'tamago_original' && !off.has(s.sentence_id))
+// PART=2 (A1 Complete, 2026-11-10): report one part's circles only, earlier parts' words still known; its own file.
+const PART = Number(process.env.PART || 0)
+const partOf = new Map(allUnits.map((u) => [u.unit_id, Number(u.part || 1)]))
+const inPart = (id) => !PART || partOf.get(id) === PART
+const drafts = sentences.filter((s) => s.source === 'tamago_original' && !off.has(s.sentence_id) && inPart(s.unit_id))
 
-const OUT = join(ROOT, `_review/${C.name.toLowerCase()}-candidates.md`)
+const OUT = join(ROOT, `_review/${C.name.toLowerCase()}${PART ? `-part${PART}` : ''}-candidates.md`)
 if (existsSync(OUT) && /\*\*(Use|Reject)/.test(readFileSync(OUT, 'utf8'))) throw new Error(`${OUT} carries review marks; not overwriting it`)
-const out = [`# ${C.name}: Tatoeba sentences kept out only by the trust rule`, '',
+const out = [`# ${C.name}${PART ? `, A1 Part ${PART}` : ''}: Tatoeba sentences kept out only by the trust rule`, '',
   `November 10, 2026. Each sentence below fits its unit on every other rule the pull applies (every word known by then or a listed name, 2 to 7 words, no digits, articles before a noun or adjective, linked English that carries the unit's nouns, not already in the course, not turned down in review). The only thing missing is the trust signal: its owner hasn't declared ${C.name} native, and it has no OK tag. Nothing has been swapped.`, '',
   'Under each unit: its drafts, each beside the candidates that could replace it: the same sentence on Tatoeba first, then up to three that teach all the draft\'s new words; then the unit\'s other fitting candidates. These haven\'t had my review for idioms or odd lines; they pass the rules only. Links go to Tatoeba, where the owner and any comments can be checked.', '']
 const link = (s) => `[#${s.id}](https://tatoeba.org/en/sentences/show/${s.id})`
@@ -71,6 +75,7 @@ for (const u of units) {
   const pack = u.is_topic_pick === 'yes'
   if (!pack) opened.add(u.unit_id)
   const allowed = !pack ? opened : new Set([...((u.topic_node || 'U100') === 'U100' ? firstFive : mains.map((m) => m.unit_id)), u.unit_id])
+  if (!inPart(u.unit_id)) continue
   const index = formIndexOf(words.filter((w) => allowed.has(w.first_unit)))
   const own = new Set(words.filter((w) => w.first_unit === u.unit_id).map((w) => w.word_id))
   const cands = []
