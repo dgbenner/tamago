@@ -107,6 +107,10 @@ Choices the specs left open, easy to change:
 
 With the Testing shortcuts setting on (on the Developer page; default on while Dan is the only user; turn the default off before Phase 4 testers), the right arrow, or a quick swipe left that starts on the right half of a touch screen, marks a question correct and moves on; with an answer on screen it acts as Continue. On the tree, the right arrow (nothing focused, no sheet open) or a swipe left that starts at the screen's right edge (touch events, 32px) passes the current circle's next lesson without playing it, and the ring updates at once; a focused circle also takes the arrow, and a swipe on a circle passes that circle (src/screens/Home.jsx, CircleNode.jsx, App testPass). Reset Progress is in the Developer page's Testing block, with an on-page confirmation. Attempts made this way carry `test_skip: true`. Real progress on that browser moves with it.
 
+Mobile smoke test (2026-11-11), required before every push: `npm run smoke` (test/mobile-smoke.mjs; Playwright WebKit, iPhone and iPad emulation with touch, fresh cache) opens home, a circle and a lesson, answers three or more questions by tapping, finishes, then taps Practice and Next Lesson. It fails on a page error, a tap that leads nowhere, a page that stops answering, or more than 16 audio players. The pre-push hook in .githooks runs it (`core.hooksPath`, set by npm install's `prepare`); never push around it. `npm run smoke -- https://tamago-83f.pages.dev` checks the live site. First time on a machine: `npx playwright install webkit`. Desktop Chrome and Firefox passing says nothing about iPhone or iPad.
+
+Audio players (2026-11-11): never one audio element per recording. Safari, and so every iOS browser, slows down steeply with the number of audio elements on a page; 441 preloaded at startup froze lessons on iPhone and iPad. src/lib/audio.js keeps at most MAX_PLAYERS (12), reused; Lesson.jsx readies only the current question's recordings and the next two (`preload(filesIn(...))`). test/audio.test.js holds the limit.
+
 ## Answer checking
 
 In addition to question-types.md section 7:

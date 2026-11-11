@@ -3,7 +3,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { checkTyped, diffMarks, nearMiss } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
-import { play, stop } from '../lib/audio.js'
+import { filesIn, play, preload, stop } from '../lib/audio.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconSpeaker } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
 import { FormFill, ListenNumber, ReadText, WriteMessage } from './A1Tasks.jsx'
@@ -56,6 +56,10 @@ export default function Lesson({ session, content, settings, seenWords, cantList
   // Listen first: audio with the French hidden until the answer. A sentence with a new word stays visible,
   // since the word has to be shown to be taught.
   const hideFrench = useMemo(() => LISTEN_FIRST.has(q.type) && settings.listen_first === 'on' && !cantListen && newWords.size === 0, [q.qid])
+
+  // This question's recordings and the next two questions' are made ready, so nothing waits between questions. Never
+  // the whole course: Safari freezes with hundreds of audio players (audio.js).
+  useEffect(() => { preload(filesIn(session.queue.slice(session.index, session.index + 3))) }, [q.qid])
 
   useEffect(() => {
     if (LISTENING.has(q.type) || q.type === 'QT10' || (q.type === 'QT13' && q.variant !== 'V1302') || (q.type === 'QT02' && q.variant === 'V0201')

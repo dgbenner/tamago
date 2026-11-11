@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
-import { addAccepted, allContent, recordings, tables, unitContent } from './lib/content.js'
+import { addAccepted, allContent, tables, unitContent } from './lib/content.js'
 import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, skipSplash } from './lib/course.js'
 import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining, buildCatchUp, catchUpItems } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
-import { hasFrenchVoice, preload, stop } from './lib/audio.js'
+import { hasFrenchVoice, stop } from './lib/audio.js'
 import Home from './screens/Home.jsx'
 import Lesson from './screens/Lesson.jsx'
 import Settings from './screens/Settings.jsx'
@@ -128,7 +128,6 @@ export default function App() {
   const [passage, setPassage] = useState(null)
 
   useEffect(() => {
-    preload(recordings)
     loadState().then((s) => {
       setBank(s.bank)
       setProgressByUnit(Object.fromEntries(s.progress.map((p) => [p.unit_id, p])))

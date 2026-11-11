@@ -1,5 +1,9 @@
 // Native recording when there is one, browser speech otherwise. No network either way once installed.
-const elements = new Map()
+// A few audio players, reused (2026-11-11). Safari, and so every iOS browser, slows down steeply with the number of
+// audio elements a page holds: one per recording (441 for French) froze lessons on iPhone and iPad. So the page never
+// makes more than MAX_PLAYERS; a recording that needs one takes over the player that was used longest ago.
+export const MAX_PLAYERS = 12
+const players = new Map() // recording file to its player, the one used longest ago first
 let utterance = null // held so the browser doesn't drop it mid-sentence
 
 import { course } from './course.js'
@@ -23,26 +27,49 @@ export function hasFrenchVoice() {
   return speechSynthesis.getVoices().length === 0 || frenchVoice() !== null
 }
 
-export function preload(files) {
-  for (const f of files) {
-    if (elements.has(f)) continue
-    const el = new Audio(f)
+function playerFor(file) {
+  let el = players.get(file)
+  if (el) players.delete(file) // set again below, as the most recently used
+  else if (players.size < MAX_PLAYERS) {
+    el = new Audio()
     el.preload = 'auto'
-    elements.set(f, el)
+    el.src = file
+  } else {
+    const [oldest, player] = players.entries().next().value
+    players.delete(oldest)
+    el = player
+    el.pause()
+    el.src = file
   }
+  players.set(file, el)
+  return el
+}
+
+// The recordings a question (or any content) refers to: every `file` under it, each once, in order.
+export function filesIn(value, found = []) {
+  if (!value || typeof value !== 'object') return found
+  for (const [key, v] of Object.entries(value)) {
+    if (key === 'file') { if (typeof v === 'string' && v && !found.includes(v)) found.push(v) } else filesIn(v, found)
+  }
+  return found
+}
+
+// Gets the next recordings ready, the first in the list first. Only as many as there are players: never a whole course.
+export function preload(files) {
+  const wanted = [...new Set(files)].filter(Boolean).slice(0, MAX_PLAYERS)
+  for (const f of wanted.reverse()) playerFor(f) // the first ends up the most recently used, so it's taken over last
 }
 
 export function stop() {
   // Safari can swallow a sentence spoken right after a needless cancel.
   if (window.speechSynthesis?.speaking || window.speechSynthesis?.pending) speechSynthesis.cancel()
-  for (const el of elements.values()) el.pause()
+  for (const el of players.values()) el.pause()
 }
 
 export function play(audio, { slow = false } = {}) {
   stop()
   if (audio.file) {
-    const el = elements.get(audio.file) ?? new Audio(audio.file)
-    elements.set(audio.file, el)
+    const el = playerFor(audio.file)
     el.currentTime = 0
     el.playbackRate = slow ? 0.7 : 1
     // A recording this browser can't play falls back to the device voice rather than silence.

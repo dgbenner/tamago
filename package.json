@@ -10,12 +10,15 @@
     "build:content": "node scripts/build-content.mjs",
     "content": "npm run -s import && npm run -s check && npm run -s build:content",
     "test": "node --test test/*.test.js",
-    "pull": "node scripts/pull-units.mjs"
+    "pull": "node scripts/pull-units.mjs",
+    "smoke": "node test/mobile-smoke.mjs",
+    "prepare": "git config core.hooksPath .githooks || true"
   },
   "type": "module",
   "devDependencies": {
     "@tailwindcss/vite": "^4.3.5",
     "@vitejs/plugin-react": "^6.2.1",
+    "playwright": "1.64.0",
     "tailwindcss": "^4.3.5",
     "vite": "^8.3.6",
     "xlsx": "^0.18.5"
