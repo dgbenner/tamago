@@ -22,6 +22,11 @@
   --disc: #f6efe0;
   --focus: #1c1a17; /* the ink, so the ring is the app's own, not the browser's blue (craft review 2026-11-10) */
   --field: #979287;
+  /* Toasts (Dan, 2026-11-11): one plain colour per kind, a pale fill with dark text of the same hue. */
+  --toast-info-bg: #e7effc; --toast-info-ink: #1d4785;
+  --toast-success-bg: #e3f3e8; --toast-success-ink: #145c33;
+  --toast-warning-bg: #fdf1d8; --toast-warning-ink: #7a4b00;
+  --toast-error-bg: #fbe4e2; --toast-error-ink: #8c1d16;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,6 +48,10 @@
     --focus: #8ab4ff;
     --field: #6a6660;
     --ring: #22b573;
+    --toast-info-bg: #1b2a40; --toast-info-ink: #b9d2ff;
+    --toast-success-bg: #15301f; --toast-success-ink: #a6e6bd;
+    --toast-warning-bg: #3a2c10; --toast-warning-ink: #f5d38a;
+    --toast-error-bg: #3d1a17; --toast-error-ink: #ffb4ab;
   }
 }
 
@@ -64,6 +73,10 @@
   --focus: #8ab4ff;
   --field: #6a6660;
   --ring: #22b573;
+  --toast-info-bg: #1b2a40; --toast-info-ink: #b9d2ff;
+  --toast-success-bg: #15301f; --toast-success-ink: #a6e6bd;
+  --toast-warning-bg: #3a2c10; --toast-warning-ink: #f5d38a;
+  --toast-error-bg: #3d1a17; --toast-error-ink: #ffb4ab;
 }
 
 @theme inline {
@@ -282,11 +295,19 @@ button.chip-drag {
     stroke-dashoffset: 1.01;
     animation: splash-draw 300ms linear both;
   }
-  /* After a lesson: the score above the bottom bar, held about 3 seconds, then faded out. */
-  .result-line {
-    @apply pointer-events-none absolute inset-x-0 -top-9 mx-auto w-fit rounded-full bg-bg px-3 py-1 text-sm text-muted;
-    animation: result-out 600ms ease-in 3000ms forwards;
+  /* Toasts (Dan, 2026-11-11): at the top of the screen, sliding down, held about 3 seconds, then sliding back up.
+     One container, one plain colour per kind: info, success, warning, error. */
+  .toast-region {
+    @apply pointer-events-none fixed inset-x-0 top-0 z-40 flex justify-center px-4 pt-[max(0.75rem,env(safe-area-inset-top))];
   }
+  .toast {
+    @apply w-fit max-w-md rounded-xl border px-4 py-2.5 text-center text-sm font-medium shadow-[0_2px_10px_rgb(0_0_0/0.14)];
+    animation: toast-in 260ms ease-out both, toast-out 260ms ease-in 3200ms forwards;
+  }
+  .toast-info { background: var(--toast-info-bg); color: var(--toast-info-ink); border-color: color-mix(in srgb, var(--toast-info-ink) 25%, transparent); }
+  .toast-success { background: var(--toast-success-bg); color: var(--toast-success-ink); border-color: color-mix(in srgb, var(--toast-success-ink) 25%, transparent); }
+  .toast-warning { background: var(--toast-warning-bg); color: var(--toast-warning-ink); border-color: color-mix(in srgb, var(--toast-warning-ink) 25%, transparent); }
+  .toast-error { background: var(--toast-error-bg); color: var(--toast-error-ink); border-color: color-mix(in srgb, var(--toast-error-ink) 25%, transparent); }
   /* The tool strip scrolls sideways without a visible bar. */
   .no-scrollbar {
     scrollbar-width: none;
@@ -355,6 +376,10 @@ button.chip-drag {
     @apply inline-flex min-h-9 items-center rounded-lg px-2 text-sm text-muted underline-offset-4 hover:underline;
   }
   @media (prefers-reduced-motion: reduce) {
+    /* A toast appears in place and fades; no slide. */
+    .toast {
+      animation: toast-fade 260ms linear 3200ms forwards;
+    }
     .splash-draw {
       animation: none;
       stroke-dashoffset: 0;
@@ -383,7 +408,9 @@ button.chip-drag {
 @media (min-width: 1024px) {
   .home {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 400px;
+    /* Eight and four of a twelve-column grid (Dan, 2026-11-11): the panel was a fixed 400px, about four and a half
+       columns on desktop and five on an iPad; one column narrower gives the tree the room. */
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
     column-gap: 3rem;
     align-items: start;
     max-width: 72rem;
@@ -476,8 +503,14 @@ button.chip-drag {
   }
 }
 
-@keyframes result-out {
+@keyframes toast-in {
+  from { transform: translateY(calc(-100% - 1rem)); opacity: 0; }
+}
+@keyframes toast-fade {
   to { opacity: 0; visibility: hidden; }
+}
+@keyframes toast-out {
+  to { transform: translateY(calc(-100% - 1rem)); opacity: 0; visibility: hidden; }
 }
 @keyframes splash-draw {
   to { stroke-dashoffset: 0; }

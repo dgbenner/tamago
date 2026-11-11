@@ -1,6 +1,6 @@
 // Shorter tree titles (Dan, 2026-11-11): 2 to 3 words, Title Case, "+" for "and", US spelling. French Part 1 is Dan's
 // list; Spanish and German follow it where the circle is the same, and the same style where it isn't. French Part 2
-// waits ("No Part 2 until Part 1 is clean"). Writes the next workbook version; rerun after regenerating a Spanish or
+// followed in round 2. Writes the next workbook version; rerun after regenerating a Spanish or
 // German workbook with its make-*-workbook script, which writes the old titles back.
 // Usage: COURSE=fr|es|de node scripts/retitle-units.mjs <from.xlsx> <to.xlsx>
 import { join } from 'node:path'
@@ -16,15 +16,18 @@ export const SHARED = {
   'Food and Drink': 'Food + Drink', 'Pets and Animals': 'Animals', 'Asking About Words': 'Conversation Help',
   'Your Topic': 'Pick Your Own', 'Another Topic': 'Pick Your Own', 'More Than One': 'Plurals',
   'Counting to Ten': 'Intro to Numbers', 'Naming Colours': 'Colors', 'Days and Times': 'Time',
+  // Round 2 (Dan, 2026-11-11): every "and" becomes "+", in all parts; a title needn't cover everything in the circle.
+  'Mine and Yours': 'Mine + Yours', 'Music and Songs': 'Music', 'Age and Birthdays': 'Birthdays',
+  'Countries and Languages': 'Countries + Languages', 'Bottles and Bags': 'Bottles + Bags', 'Body and Feelings': 'Body + Feelings',
 }
 // Circles only one course has.
 export const OWN = {
   fr: {},
-  es: { 'Body and Feelings': 'Body + Feelings' },
+  es: {},
   de: { 'Not and None': 'Not + None', 'Wanting and Can': 'Want + Can', 'People and Feelings': 'People + Feelings' },
 }
-// French Part 2 keeps its titles for now.
-const KEEP_PARTS = { fr: [2], es: [], de: [] }
+// French Part 2 kept its titles in the first round; since round 2 every part follows the same rules.
+const KEEP_PARTS = { fr: [], es: [], de: [] }
 
 const [from, to] = process.argv.slice(2)
 if (!from || !to) throw new Error('usage: COURSE=fr|es|de node scripts/retitle-units.mjs <from.xlsx> <to.xlsx>')

@@ -396,7 +396,7 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ wide, versionLine, panel, rows, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
+export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
   finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
@@ -468,7 +468,9 @@ export default function Home({ wide, versionLine, panel, rows, markers, pointsTo
           const marker = i > 0 && markers.find((m) => m.beforeRow === n) // going down the path only, never at the top
           return [
             marker && <Marker key={`m${i}`} label={marker.label} />,
-            <li key={i} className="flex justify-center gap-4 lg:gap-[4.9rem]">
+            // Responsive spacing (Dan, 2026-11-11): each circle takes an equal share up to its full size, the gap shrinks
+            // with the screen, so a row of three always fits the tree, titles included.
+            <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
               {row.map((node) => <Node key={node.unit.unit_id} node={node} onPick={setPicked} onTestPass={onTestPass} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
@@ -481,18 +483,19 @@ export default function Home({ wide, versionLine, panel, rows, markers, pointsTo
         {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <Marker key={m.label} label={m.label} />)}
       </ol>
 
+      {/* Toasts (Dan, 2026-11-11): the last lesson's score ("8 of 9") and testing notes slide down from the top, hold,
+          and slide back up by themselves; no tap. Kinds: info, success, warning, error. */}
+      <div className="toast-region" aria-live="polite">
+        {lastLine && <p key={lastLine.id} className={`toast toast-${lastLine.kind ?? 'info'}`}
+          onAnimationEnd={(e) => { if (e.animationName === 'toast-out' || e.animationName === 'toast-fade') onLastLineGone() }}>{lastLine.text}</p>}
+      </div>
+
       {/* Pinned to the bottom, with a line above, so they're always on screen. */}
       <div className="bar-bottom -mx-4 mt-auto flex flex-col gap-3 px-4 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))]">
-        {/* The last lesson's score, "8 of 9": one line just above the bar that fades by itself; no screen, no tap.
-            It floats, so nothing moves when it goes. */}
-        {lastLine && <p role="status" className="result-line" onAnimationEnd={onLastLineGone}>{lastLine}</p>}
         {/* Only Next Lesson is pinned; Practice Mistakes is a tool (Dan, 2026-11-11). */}
         <div className="bottom-buttons">
           <button onClick={onNext} className="btn-submit">{nextLabel}</button>
         </div>
-        {/* The version's name on home too (Dan, 2026-11-11): after an update the page reloads straight here, so the
-            opening screen alone never shows a new name on its first load. Developer setting on only. */}
-        {versionLine && <p data-version className="-mt-1 text-sm text-muted">{versionLine}</p>}
       </div>
 
       </div>

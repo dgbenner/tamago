@@ -11,7 +11,6 @@ import Lesson from './screens/Lesson.jsx'
 import Settings from './screens/Settings.jsx'
 import About from './screens/About.jsx'
 import Splash from './screens/Splash.jsx'
-import { version } from './lib/version.js'
 import GrammarNote from './screens/GrammarNote.jsx'
 import Progress from './screens/Progress.jsx'
 import Glossary from './screens/Glossary.jsx'
@@ -89,7 +88,8 @@ export default function App() {
   const [pointsTotal, setPointsTotal] = useState(0)
   const [session, setSession] = useState(null)
   const [ending, setEnding] = useState(null)
-  const [lastLine, setLastLine] = useState(null) // a passed lesson's score, shown on home instead of on its own screen
+  const [lastLine, setLastLine] = useState(null) // a toast on home: { id, kind: info|success|warning|error, text }
+  const toast = (kind, text) => setLastLine({ id: Date.now(), kind, text })
   const [splash, setSplash] = useState(true) // the opening screen and version name on every launch (Dan, 2026-11-11)
   // First launch: the opening screen asks for a language, but only once the saved state shows nobody has used this
   // course here yet (a learner with progress is never asked, and never sees the flags flash and vanish).
@@ -690,7 +690,7 @@ export default function App() {
     if (unitId !== currentUnit) { setCurrentUnit(unitId); putKv('current_unit', unitId) }
     put('lessons', { lesson_id: s.id, unit_id: unitId, round, score: graded, graded_count: graded, passed: true, test_skip: true, duration_ms: null, finished_at: new Date().toISOString() })
     recordPass({ ...s, firstCorrect: graded, graded, misses: [] })
-    setLastLine(`Passed for testing: ${tables.units.find((u) => u.unit_id === unitId)?.title}, round ${round}`)
+    toast('info', `Passed for testing: ${tables.units.find((u) => u.unit_id === unitId)?.title}, round ${round}`)
   }
   // Dev: Jump Here (Testing Shortcuts, Dan 2026-11-11): every circle in the parts before part n counts as round 1
   // complete (its words as met), so part n opens, and the tree shows it with its first circle in hand. Circles
@@ -712,7 +712,7 @@ export default function App() {
     setPartView(n); putKv('part_view', n)
     leaveDeveloper()
     const title = parts.find((p) => p.part === n)?.title
-    setLastLine(`Jumped for testing: Part ${n}${title ? `, ${title},` : ''} is open`)
+    toast('info', `Jumped for testing: Part ${n}${title ? `, ${title},` : ''} is open`)
   }
   // A jump asked for on the Developer page for another language runs once that language has loaded (takeDevJump).
   useEffect(() => {
@@ -795,7 +795,7 @@ export default function App() {
     }
     recordPass(s)
     // A passed lesson goes straight back to home; its score shows there as one line that fades by itself (Dan, 2026-11-10).
-    setLastLine(`${s.firstCorrect} of ${s.graded ?? s.size}`)
+    toast('success', `${s.firstCorrect} of ${s.graded ?? s.size}`)
     setScreen('home')
   }
 
@@ -1007,7 +1007,7 @@ export default function App() {
     ...(shownPart === lastPart ? [{ beforeRow: rowNumbers.at(-1) + 1, label: 'A2' }] : []),
   ] : []
   return (
-    <Home versionLine={settings.developer !== 'off' ? `Version ${version.name}` : ''} rows={rows} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
+    <Home rows={rows} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
       tools={[
         { id: 'glossary', screen: 'words', label: 'Glossary', about: 'Every word and its meaning, and what you\'ve learned', onOpen: () => setScreen('words') },
         { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Present-tense tables and practice', onOpen: () => setScreen('verbs') },

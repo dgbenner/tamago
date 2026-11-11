@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 11, 2026. **New: cleanup round 2: carousel cards with A1 and part pills, tiny dev jump, rewritten descriptions, chevron arrows, equal heights; Practice Mistakes moved into Tools (alphabetical, Developer last and tiny); only Next Lesson pinned.**
+Updated November 11, 2026. **New: version name off home; tools panel 4 of 12 columns; tree rows of three fit at every width; every title "and" is now "+" (Birthdays, Music); toasts at the top in four plain colours.**
 
 ## Done since last check-in
 

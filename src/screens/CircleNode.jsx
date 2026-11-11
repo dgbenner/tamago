@@ -57,12 +57,12 @@ export default function CircleNode({ title, icon, glyph = null, locked = false, 
   const opacity = state === 'finished' ? ringOpacity(recall) : 1
   return (
     <button {...test} onClick={() => { if (swiped.current) { swiped.current = false; return } onPick() }} aria-label={`${marker ? `${MARKERS[marker]} ` : ''}${title}. ${caption ?? circleLine({ locked, lessonsDone, lessonsTotal, recall })}`}
-      className="flex w-32 flex-col items-center gap-1.5" data-state={state}>
+      className="flex w-32 min-w-0 shrink flex-col items-center gap-1.5" data-state={state}>
       {/* The marker sits above the circle and keeps its space on every circle, so rows line up. */}
       <span className={`flex h-5 items-center gap-1 text-xs font-semibold text-ring ${marker ? '' : 'invisible'}`} aria-hidden="true">
         <span className="size-2 rounded-full bg-ring" />{MARKERS[marker] ?? MARKERS.start}
       </span>{' '}{/* keeps "Start Here" and the title apart as words for label-in-name checks */}
-      <span className="relative flex size-24 items-center justify-center rounded-full">
+      <span className="relative flex aspect-square w-full max-w-24 items-center justify-center rounded-full">
         <svg viewBox="0 0 100 100" className="absolute inset-0 size-full -rotate-90" aria-hidden="true">
           <circle cx="50" cy="50" r="40" fill="var(--disc)" fillOpacity={state === 'locked' ? 0.3 : 1} />
           <circle cx="50" cy="50" r={R} fill="none" strokeWidth="6" stroke="var(--line)" />
@@ -74,9 +74,9 @@ export default function CircleNode({ title, icon, glyph = null, locked = false, 
         {state === 'locked'
           ? <span className="relative text-muted [&_svg]:size-8"><IconLock /></span>
           : glyph ? <span className="relative text-4xl font-semibold text-[#645e53]">{glyph}</span>
-            : icon ? <img src={icon} alt="" className="relative size-[4.25rem] object-contain" /> : null}
+            : icon ? <img src={icon} alt="" className="relative aspect-square w-[71%] object-contain" /> : null}
       </span>
-      <span className={`text-base leading-tight font-semibold ${state === 'locked' ? 'text-muted' : ''}`}>{title}</span>
+      <span className={`max-w-full text-base leading-tight font-semibold break-words ${state === 'locked' ? 'text-muted' : ''}`}>{title}</span>
       {caption && showCaption && <>{' '}<span className="-mt-1 text-sm text-muted">{caption}</span></>}
     </button>
   )
