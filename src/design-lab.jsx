@@ -53,17 +53,17 @@ const SECTIONS = [
     title: 'Home Header',
     groups: [
       { title: 'Bar', controls: [
-        { key: 'hdr-pt', label: 'Padding above', min: 0, max: 60, step: 0.5, unit: 'px', def: 6.4 },
-        { key: 'hdr-pb', label: 'Padding below', min: 0, max: 60, step: 0.5, unit: 'px', def: 6.4 },
+        { key: 'hdr-pt', label: 'Padding above', min: 0, max: 60, step: 0.5, unit: 'px', def: 2.5 },
+        { key: 'hdr-pb', label: 'Padding below', min: 0, max: 60, step: 0.5, unit: 'px', def: 0 },
       ] },
       { title: 'Left: sushi and wordmark', controls: [
         { key: 'brand-x', label: 'Left / right', min: -100, max: 300, step: 1, unit: 'px', def: 0 },
         { key: 'brand-y', label: 'Up / down', min: -60, max: 60, step: 1, unit: 'px', def: 0 },
         { key: 'brand-scale', label: 'Scale (both)', min: 0.4, max: 2.5, step: 0.01, unit: '', def: 1 },
-        { key: 'brand-sushi', label: 'Sushi width', min: 16, max: 140, step: 1, unit: 'px', def: 46.75 },
+        { key: 'brand-sushi', label: 'Sushi width', min: 16, max: 140, step: 1, unit: 'px', def: 37 },
         { key: 'brand-sushi-y', label: 'Sushi up / down', min: -40, max: 40, step: 1, unit: 'px', def: 0 },
-        { key: 'brand-wordmark', label: 'Wordmark width', min: 40, max: 300, step: 1, unit: 'px', def: 103 },
-        { key: 'brand-gap', label: 'Sushi to wordmark', min: -20, max: 60, step: 1, unit: 'px', def: 8.5 },
+        { key: 'brand-wordmark', label: 'Wordmark width', min: 40, max: 300, step: 1, unit: 'px', def: 92 },
+        { key: 'brand-gap', label: 'Sushi to wordmark', min: -20, max: 60, step: 1, unit: 'px', def: 7.5 },
       ] },
       { title: 'Right: flag and gear', controls: [
         { key: 'tools-x', label: 'Left / right', min: -300, max: 100, step: 1, unit: 'px', def: 0 },
@@ -71,7 +71,7 @@ const SECTIONS = [
         { key: 'tools-scale', label: 'Scale (both)', min: 0.4, max: 2.5, step: 0.01, unit: '', def: 1 },
         { key: 'tools-flag', label: 'Flag size', min: 16, max: 80, step: 1, unit: 'px', def: 34 },
         { key: 'tools-gear', label: 'Gear size', min: 16, max: 80, step: 1, unit: 'px', def: 24 },
-        { key: 'tools-gap', label: 'Flag to gear', min: -20, max: 80, step: 1, unit: 'px', def: 12.75 },
+        { key: 'tools-gap', label: 'Flag to gear', min: -20, max: 80, step: 1, unit: 'px', def: 6.8 },
       ] },
     ],
   },

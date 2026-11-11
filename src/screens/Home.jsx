@@ -281,17 +281,17 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
           the utilities right, like a desktop site. */}
-      <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(0.25rem,env(safe-area-inset-top))] pb-1 lg:mx-0 lg:px-0 lg:py-1.5">
+      <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(0.25rem,env(safe-area-inset-top))] pb-1 lg:mx-0 lg:px-0 lg:pt-[2.5px] lg:pb-0">
         {/* The course flag (points sat here until they were hidden): opens the language pop-up. */}
-        <span className="hdr-lang flex w-20 items-center justify-start gap-2 lg:order-2 lg:w-auto lg:justify-end">
+        <span className="hdr-lang flex w-20 items-center justify-start gap-2 lg:order-2 lg:w-auto lg:justify-end lg:-translate-x-px">
           {showPoints && <Points total={pointsTotal} today={pointsToday} />}
           <button onClick={() => setLanguages(true)} aria-label={`Language: ${course.name}`} className="icon-btn -ml-2 lg:ml-0"><img src={course.flag} alt="" className="h-8 w-8 object-contain" /></button>
         </span>
-        <span className="hdr-brand flex items-center gap-2 lg:order-1 lg:mr-auto">
-          <SushiMark className="hdr-sushi hidden w-11 lg:block" />
+        <span className="hdr-brand flex items-center gap-2 lg:order-1 lg:mr-auto lg:ml-px lg:gap-[0.44rem]">
+          <SushiMark className="hdr-sushi relative hidden w-11 lg:block lg:w-[2.18rem] lg:-top-[0.18rem]" />
           <LogoInline className="hdr-wordmark" />
         </span>
-        <span className="hdr-gear flex w-20 justify-end lg:order-3 lg:w-auto"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
+        <span className="hdr-gear flex w-20 justify-end lg:order-3 lg:w-auto lg:-ml-[0.35rem] lg:-translate-x-px"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
       </header>
 
       <div className="home-path">

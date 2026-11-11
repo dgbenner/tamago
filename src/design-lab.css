@@ -5,9 +5,9 @@
   --lab-splash-width: 430px; --lab-splash-y: 0px; --lab-splash-wordmark: 114%; --lab-splash-sushi: 37%; --lab-splash-sushi-x: 0px; --lab-splash-overlap: -14.5%;
   --lab-choose-top: 64.6px; --lab-choose-x: 0px; --lab-choose-y: 0px; --lab-choose-scale: 1; --lab-choose-title: 19.55px; --lab-choose-gap: 0px;
   --lab-flag-size: 85px; --lab-flag-gap: 2.125px; --lab-flag-label: 14.875px;
-  --lab-hdr-pt: 6.4px; --lab-hdr-pb: 6.4px;
-  --lab-brand-x: 0px; --lab-brand-y: 0px; --lab-brand-scale: 1; --lab-brand-sushi: 46.75px; --lab-brand-sushi-y: 0px; --lab-brand-wordmark: 103px; --lab-brand-gap: 8.5px;
-  --lab-tools-x: 0px; --lab-tools-y: 0px; --lab-tools-scale: 1; --lab-tools-flag: 34px; --lab-tools-gear: 24px; --lab-tools-gap: 12.75px;
+  --lab-hdr-pt: 2.5px; --lab-hdr-pb: 0px;
+  --lab-brand-x: 0px; --lab-brand-y: 0px; --lab-brand-scale: 1; --lab-brand-sushi: 37px; --lab-brand-sushi-y: 0px; --lab-brand-wordmark: 92px; --lab-brand-gap: 7.5px;
+  --lab-tools-x: 0px; --lab-tools-y: 0px; --lab-tools-scale: 1; --lab-tools-flag: 34px; --lab-tools-gear: 24px; --lab-tools-gap: 6.8px;
   --lab-tree-gap: 102px; --lab-tree-row-gap: 17px; --lab-circle-scale: 1; --lab-tree-top: 4.25px;
 }
 
@@ -40,7 +40,7 @@
 .hdr-lang, .hdr-gear { transform: translate(var(--lab-tools-x), var(--lab-tools-y)) scale(var(--lab-tools-scale)); transform-origin: right center; }
 .hdr-lang img { width: var(--lab-tools-flag); height: var(--lab-tools-flag); }
 .hdr-gear svg { width: var(--lab-tools-gear); height: var(--lab-tools-gear); }
-.hdr-gear { margin-left: calc(var(--lab-tools-gap) - 12.75px); }
+.hdr-gear { margin-left: calc(var(--lab-tools-gap) - 12.75px); } /* the header's own gap-3 is 12.75px; live is 6.8px */
 
 /* Tree: zoom scales a circle and its title together, keeping the layout honest (a transform would leave the gaps behind). */
 .home-tree { row-gap: var(--lab-tree-gap); padding-top: var(--lab-tree-top); }
