@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 11, 2026. **New: Part 1 cleanup (no new work, no Part 2): the opening screen and version name on every launch, and the newest version on the first load with a connection; nothing above the first circle but Start Here (first use only); a plain line at the end of the part; shorter tree titles in all three courses; new tool descriptions; copy rules in CLAUDE.md.**
+Updated November 11, 2026. **New: cleanup round 2: carousel cards with A1 and part pills, tiny dev jump, rewritten descriptions, chevron arrows, equal heights; Practice Mistakes moved into Tools (alphabetical, Developer last and tiny); only Next Lesson pinned.**
 
 ## Done since last check-in
 

@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useId, useRef, useState } from 'react'
 import { LogoInline, SushiMark } from './Logo.jsx'
-import { IconBars, IconBook, IconCode, IconCheckered, IconClose, IconComment, IconGear, IconLock, IconStudy, IconVerb } from './icons.jsx'
+import { IconBack, IconBars, IconBook, IconCode, IconCheckered, IconClose, IconComment, IconForward, IconGear, IconLock, IconRepeat, IconStudy, IconVerb } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
 import CircleNode from './CircleNode.jsx'
@@ -227,28 +227,23 @@ function PartEnd({ part, onReview, onPartView, onJumpPart }) {
       )}
       {/* The end of the part: a plain line (Dan, 2026-11-11). */}
       <li className="w-full" aria-hidden="true"><span className="block h-0.5 w-full bg-line" /></li>
-      {part.upcoming?.length > 0 && <li className="w-full"><PartCarousel part={part} onPartView={onPartView} onJumpPart={onJumpPart} /></li>}
+      {part.upcoming?.length > 0 && <li className="w-full"><PartCarousel part={part} onJumpPart={onJumpPart} /></li>}
     </>
   )
 }
 // The parts still ahead, as a carousel (Dan, 2026-11-11): one card on screen, left and right arrows, a swipe, or the
 // arrow keys while it has focus. Each card: the part's title, summary and whether it's open. With Testing Shortcuts
 // on, each card also has Dev: Jump Here. The tree's own test shortcuts ignore arrows and swipes in here.
-function PartCarousel({ part, onPartView, onJumpPart }) {
+function PartCarousel({ part, onJumpPart }) {
   const cards = part.upcoming
   const [at, setAt] = useState(0)
   const i = Math.min(at, cards.length - 1)
   const go = (d) => setAt((x) => Math.max(0, Math.min(cards.length - 1, Math.min(x, cards.length - 1) + d)))
   const swipe = useRef(null)
-  const lockNote = (c) => {
-    if (c.unlocked && c.built) return null
-    if (c.unlocked) return 'Being written. It opens here as soon as it\'s ready.'
-    return c.n === part.n + 1 ? `Opens when every circle in Part ${part.n} has finished its first lessons.` : `Opens after Part ${c.n - 1}.`
-  }
   return (
-    <section data-carousel aria-roledescription="carousel" aria-label="Parts still ahead" className="flex flex-col gap-2"
+    <section data-carousel aria-roledescription="carousel" aria-label="Parts still ahead"
       onKeyDown={(e) => {
-        if (e.target.closest('button[data-jump], button[data-go]')) return
+        if (e.target.closest('button[data-jump]')) return
         if (e.key === 'ArrowRight') { e.preventDefault(); e.stopPropagation(); go(1) }
         if (e.key === 'ArrowLeft') { e.preventDefault(); e.stopPropagation(); go(-1) }
       }}
@@ -259,36 +254,43 @@ function PartCarousel({ part, onPartView, onJumpPart }) {
         const dx = t.clientX - s.x
         if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(t.clientY - s.y) * 1.5) go(dx < 0 ? 1 : -1)
       }}>
+      {/* Chevron arrows either side, centred on the card's height; the track stretches every card to the tallest. */}
       <div className="flex items-center gap-2">
-        <button onClick={() => go(-1)} disabled={i === 0} aria-label="Previous part" className="carousel-arrow">‹</button>
+        <button onClick={() => go(-1)} disabled={i === 0} aria-label="Previous part" className="carousel-arrow"><IconBack /></button>
         <div className="min-w-0 flex-1 overflow-hidden rounded-2xl">
-          <div className="carousel-track flex" style={{ left: `-${i * 100}%` }}>
-            {cards.map((c, k) => (
-              <div key={c.n} role="group" aria-roledescription="slide" aria-label={`Part ${c.n} of ${part.total}`} aria-hidden={k !== i} inert={k !== i}
-                className="flex w-full shrink-0 flex-col gap-1 rounded-2xl border-2 border-line bg-surface p-4">
-                <p className="flex items-center gap-2 text-sm text-muted">
-                  {!(c.unlocked && c.built) && <span className="[&_svg]:size-4"><IconLock /></span>}
-                  A1 · Part {c.n} of {part.total}{!(c.unlocked && c.built) && <span className="sr-only">, locked</span>}
-                </p>
-                <p className="text-lg font-semibold">{c.title}</p>
-                <p className="text-sm text-muted">{c.summary}</p>
-                {lockNote(c)
-                  ? <p className="mt-2 text-sm">{lockNote(c)}</p>
-                  : <button data-go onClick={() => onPartView(c.n)} className="btn-submit mt-3">Go to Part {c.n}</button>}
-                {onJumpPart && (c.built
-                  ? <button data-jump onClick={() => onJumpPart(c.n)} className="dev-jump mt-3">Dev: Jump Here</button>
-                  : <p className="mt-3 text-xs text-muted">Dev: no circles built for this part yet.</p>)}
-              </div>
-            ))}
+          <div className="carousel-track flex items-stretch" style={{ left: `-${i * 100}%` }}>
+            {cards.map((c, k) => {
+              const locked = !(c.unlocked && c.built)
+              return (
+                <div key={c.n} role="group" aria-roledescription="slide" aria-label={`Part ${c.n} of ${part.total}${locked ? ', locked' : ''}`} aria-hidden={k !== i} inert={k !== i}
+                  className="flex w-full shrink-0 flex-col gap-1 rounded-2xl border-2 border-line bg-surface p-4">
+                  {/* Top, centred: the lock if locked, "A1", and a pill per part, green up to this one (ring green). */}
+                  <div className="mb-1 flex items-center justify-center gap-2 text-sm text-muted" aria-hidden="true">
+                    {locked && <span className="[&_svg]:size-4"><IconLock /></span>}
+                    <span>A1</span>
+                    <span className="flex gap-1">
+                      {Array.from({ length: part.total }, (_, n) => <span key={n} className={`h-1.5 w-4 rounded-full ${n < c.n ? 'bg-ring' : 'bg-field'}`} />)}
+                    </span>
+                  </div>
+                  <div className="flex items-baseline justify-between gap-3">
+                    <p className="text-lg font-semibold">{c.title}</p>
+                    {/* Dev: tiny, half strength, no box; fainter and inactive where the part has no circles yet. */}
+                    {onJumpPart && (c.built
+                      ? <button data-jump onClick={() => onJumpPart(c.n)} className="dev-tiny shrink-0">Dev: Jump Here</button>
+                      : <span className="dev-tiny dev-tiny-off shrink-0" aria-hidden="true">Dev: Jump Here</span>)}
+                  </div>
+                  <p className="text-sm text-muted">{c.summary}</p>
+                </div>
+              )
+            })}
           </div>
         </div>
-        <button onClick={() => go(1)} disabled={i === cards.length - 1} aria-label="Next part" className="carousel-arrow">›</button>
+        <button onClick={() => go(1)} disabled={i === cards.length - 1} aria-label="Next part" className="carousel-arrow"><IconForward /></button>
       </div>
-      <p className="text-center text-sm text-muted" aria-live="polite">Part {cards[i].n} · {i + 1} of {cards.length} ahead</p>
+      <p className="sr-only" aria-live="polite">Part {cards[i].n}: {cards[i].title}</p>
     </section>
   )
 }
-// The part switcher, at the top of the tree once more than one part is open.
 // Catch-Up (A1 Complete 9): a circle with a side dish, filled for this learner from the circles above it. No lessons of
 // its own, so no ring. No line under the title (Dan, 2026-11-11); how much is waiting is on its card, and in the
 // circle's spoken name.
@@ -336,7 +338,11 @@ function Marker({ label }) {
   )
 }
 
-const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars, developer: IconCode }
+const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars, practice: IconRepeat, developer: IconCode }
+// Tools in alphabetical order, Developer (the quiet one) always last (Dan, 2026-11-11).
+const toolOrder = (tools) => [...tools.filter((t) => !t.quiet).sort((a, b) => a.label.localeCompare(b.label)), ...tools.filter((t) => t.quiet)]
+// Practice Mistakes' line: never "mistakes", nothing critical; the count changes.
+const practiceAbout = (p) => (p.mistakes ? `Strengthen ${p.mistakes} recent sticking ${p.mistakes === 1 ? 'point' : 'points'}` : p.ready ? 'Strengthen what\'s likeliest to fade' : 'Fills up after a lesson or two')
 // The secondary menu: tools beside the path, as a sideways strip of tiles, out of the tree. Progress is one of them
 // (Dan, 2026-11-11: the row that held its button and the streak is gone).
 function Tools({ tools }) {
@@ -346,9 +352,9 @@ function Tools({ tools }) {
         const Icon = TOOL_ICONS[t.id]
         return (
           // Developer is quieter: dashed outline, no fill, muted text; not a learning tool.
-          <button key={t.id} onClick={t.onOpen} className={`flex w-24 shrink-0 snap-start flex-col items-center gap-1 rounded-xl border-2 px-2 py-2.5 text-sm ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface font-medium'}`}>
-            <span className="[&_svg]:size-7"><Icon /></span>
-            {t.label}
+          <button key={t.id} onClick={t.onOpen} className={`flex w-24 shrink-0 snap-start flex-col items-center gap-1 rounded-xl border-2 px-2 py-2.5 text-center text-sm leading-tight ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface font-medium'}`}>
+            <span className={`[&_svg]:size-7 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
+            <span className={t.quiet ? 'dev-tiny' : ''}>{t.label}</span>
           </button>
         )
       })}
@@ -364,10 +370,11 @@ function ToolMenu({ tools }) {
         const Icon = TOOL_ICONS[t.id]
         return (
           <button key={t.id} onClick={t.onOpen} className={`flex items-start gap-3 rounded-xl border-2 p-3 text-left hover:border-muted ${t.quiet ? 'mt-3 border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface'}`}>
-            <span className="mt-0.5 shrink-0 [&_svg]:size-6"><Icon /></span>
+            <span className={`mt-0.5 shrink-0 [&_svg]:size-6 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
+            {/* Developer: tiny type at half strength, like the carousel's dev jump. */}
             <span className="flex flex-col gap-0.5">
-              <span className="font-semibold">{t.label}</span>
-              <span className="text-sm text-muted">{t.about}</span>
+              <span className={t.quiet ? 'dev-tiny font-semibold' : 'font-semibold'}>{t.label}</span>
+              <span className={t.quiet ? 'dev-tiny' : 'text-sm text-muted'}>{t.about}</span>
             </span>
           </button>
         )
@@ -391,6 +398,8 @@ export default function Home({ wide, versionLine, panel, rows, markers, pointsTo
   const [cpPicked, setCpPicked] = useState(null)
   const [cuPicked, setCuPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
+  // Practice moved from the bottom bar into the tools (Dan, 2026-11-11).
+  const allTools = toolOrder([...tools, { id: 'practice', label: 'Practice Mistakes', about: practiceAbout(practice), onOpen: () => (practice.ready ? onPractice() : setPracticeNote(true)) }])
   const [languages, setLanguages] = useState(false)
   const [finalOpen, setFinalOpen] = useState(false)
   const [scenesOpen, setScenesOpen] = useState(false)
@@ -439,7 +448,7 @@ export default function Home({ wide, versionLine, panel, rows, markers, pointsTo
       <div className="home-path">
         <h1 className="sr-only">Tamago: your path</h1>
 
-      <Tools tools={tools} />
+      <Tools tools={allTools} />
 
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
       {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
@@ -471,10 +480,8 @@ export default function Home({ wide, versionLine, panel, rows, markers, pointsTo
         {/* The last lesson's score, "8 of 9": one line just above the bar that fades by itself; no screen, no tap.
             It floats, so nothing moves when it goes. */}
         {lastLine && <p role="status" className="result-line" onAnimationEnd={onLastLineGone}>{lastLine}</p>}
+        {/* Only Next Lesson is pinned; Practice Mistakes is a tool (Dan, 2026-11-11). */}
         <div className="bottom-buttons">
-          <button onClick={() => (practice.ready ? onPractice() : setPracticeNote(true))} className="btn-secondary">
-            Practice{practice.mistakes ? ` · ${practice.mistakes} ${practice.mistakes === 1 ? 'Mistake' : 'Mistakes'}` : ''}
-          </button>
           <button onClick={onNext} className="btn-submit">{nextLabel}</button>
         </div>
         {/* The version's name on home too (Dan, 2026-11-11): after an update the page reloads straight here, so the
@@ -490,7 +497,7 @@ export default function Home({ wide, versionLine, panel, rows, markers, pointsTo
             ? <div className="panel-screen">
                 {panel}
               </div>
-            : <ToolMenu tools={tools} />}
+            : <ToolMenu tools={allTools} />}
         </aside>
       )}
 
@@ -518,9 +525,9 @@ export default function Home({ wide, versionLine, panel, rows, markers, pointsTo
       )}
       {practiceNote && (
         <Sheet onClose={() => setPracticeNote(false)}>
-          <SheetHead title="Practice" onClose={() => setPracticeNote(false)} />
-          <p className="mt-2">Practice brings back your mistakes first, then the things you're likeliest to forget.</p>
-          <p className="mt-2 text-sm text-muted">There's nothing to bring back yet. Do a lesson or two and it fills up.</p>
+          <SheetHead title="Practice Mistakes" onClose={() => setPracticeNote(false)} />
+          <p className="mt-2">Recent sticking points first, then what's likeliest to fade.</p>
+          <p className="mt-2 text-sm text-muted">Nothing to bring back yet. A lesson or two fills it up.</p>
           <button onClick={() => { setPracticeNote(false); onNext() }} className="btn-submit mt-5 w-full">{nextLabel}</button>
         </Sheet>
       )}

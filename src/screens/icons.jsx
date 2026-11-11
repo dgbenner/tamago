@@ -3,6 +3,9 @@ const svg = { width: 24, height: 24, viewBox: '0 0 24 24', fill: 'none', stroke:
 export const IconGear = () => <svg {...svg}><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-2.9 1.2V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-2.9-1.2l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0-1.2-2.9H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.2-2.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3h.1a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 2.9 1.2l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9v.1a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z" /></svg>
 export const IconClose = () => <svg {...svg}><path d="M18 6 6 18M6 6l12 12" /></svg>
 export const IconBack = () => <svg {...svg}><path d="m15 18-6-6 6-6" /></svg>
+export const IconForward = () => <svg {...svg}><path d="m9 18 6-6-6-6" /></svg>
+// Practice Mistakes: two arrows going round.
+export const IconRepeat = () => <svg {...svg}><path d="M17 2l4 4-4 4" /><path d="M3 11V9a3 3 0 0 1 3-3h15" /><path d="M7 22l-4-4 4-4" /><path d="M21 13v2a3 3 0 0 1-3 3H3" /></svg>
 export const IconSpeaker = () => <svg {...svg}><path d="M11 5 6 9H3v6h3l5 4z" /><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13" /></svg>
 export const IconFlag = () => <svg {...svg}><path d="M5 21V4M5 4h12l-2.5 4L17 12H5" /></svg>
 export const IconComment = () => <svg {...svg}><path d="M21 12a8 8 0 0 1-11.6 7.1L4 21l1.9-5.4A8 8 0 1 1 21 12z" /></svg>

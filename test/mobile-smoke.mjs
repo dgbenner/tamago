@@ -1,7 +1,7 @@
 // Mobile smoke test (2026-11-11). Must pass before every push: the pre-push hook in .githooks runs it (npm run smoke).
 // In WebKit, the engine of every iPhone and iPad browser, with iPhone and iPad emulation and touch, on a fresh cache:
 // read the version name on the opening screen, open home, open a circle, start a lesson, answer three questions by
-// tapping (a recording and a spoken sentence must each start once, within 0.2 s, on a tap and on replay), finish the lesson, tap Practice, tap Next Lesson. It fails if a tap doesn't lead where it should, if the page throws, if the page stops answering (the
+// tapping (a recording and a spoken sentence must each start once, within 0.2 s, on a tap and on replay), finish the lesson, tap Practice Mistakes (a tool since 2026-11-11), tap Next Lesson. It fails if a tap doesn't lead where it should, if the page throws, if the page stops answering (the
 // freeze of 2026-11-10, when one audio player per recording locked Safari), or if the page makes too many players.
 //
 //   npm run smoke                                  builds the app and tests the build
@@ -225,8 +225,8 @@ async function run(name) {
     await bottom.waitFor()
     await alive()
 
-    at('tapping Practice')
-    await bottom.locator('.btn-secondary').tap()
+    at('tapping Practice Mistakes in the tools')
+    await page.locator('button:visible', { hasText: 'Practice Mistakes' }).first().tap()
     await Promise.race([page.locator('main.lesson').waitFor(), page.locator('[role=dialog]').waitFor()])
     await alive()
     if (await inLesson()) {
