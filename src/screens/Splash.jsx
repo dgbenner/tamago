@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { chooseCourse } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
-import { LETTERS, Letter, LetterStrokes, SushiMark, VIEW, viewBox } from './Logo.jsx'
+import { LETTERS, Letter, LetterStrokes, SushiMark, VIEW, splashViewBox } from './Logo.jsx'
 
 // Each letter is revealed by its own mask, which follows the same strokes.
 const LETTER_MS = 260
@@ -48,7 +48,7 @@ export default function Splash({ onDone, choose = false }) {
     <div className={`splash ${held === true ? 'splash-hold' : held === 'picked' ? 'splash-now' : ''}`} onClick={skip}
       onAnimationEnd={(e) => { if (e.animationName === 'splash-out') onDone() }}>
       <div className="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">
-        <svg ref={svg} className="splash-wordmark w-full max-w-none md:w-[114%]" viewBox={viewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
+        <svg ref={svg} className="splash-wordmark w-full max-w-none md:w-[114%]" viewBox={splashViewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
           <defs>
             {LETTERS.map((strokes, i) => (
               <mask key={i} id={`letter-${i}`} maskUnits="userSpaceOnUse" {...VIEW}>
@@ -56,7 +56,7 @@ export default function Splash({ onDone, choose = false }) {
               </mask>
             ))}
           </defs>
-          <g className="wm-letters">{LETTERS.map((strokes, i) => <Letter key={i} i={i}><LetterStrokes d={strokes.join('')} mask={`url(#letter-${i})`} /></Letter>)}</g>
+          <g className="wm-letters">{LETTERS.map((strokes, i) => <Letter key={i} i={i} spaced><LetterStrokes d={strokes.join('')} mask={`url(#letter-${i})`} /></Letter>)}</g>
         </svg>
         <SushiMark className="splash-sushi relative z-10 -mt-[14.5%] w-[37%]" />
         {held === true && (

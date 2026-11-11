@@ -7,16 +7,17 @@ export const LETTERS = [
   ['M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5', 'M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121'], // g
   ['M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45'], // o
 ]
-// Letter spacing: how far each letter moves right of its drawn position (Dan's design lab, 2026-11-10). The same gaps
-// apply to every wordmark; the view widens by the total so the word stays centred.
-export const LETTER_X = [0, 0, 0, 0, 0, 0]
-const EXTRA = LETTER_X[LETTER_X.length - 1]
-export const VIEW = { x: -16, y: -6, width: 482 + EXTRA, height: 156 }
+export const VIEW = { x: -16, y: -6, width: 482, height: 156 }
 export const viewBox = `${VIEW.x} ${VIEW.y} ${VIEW.width} ${VIEW.height}`
+// Letter spacing for the opening screen only (Dan's design lab, 2026-11-10): how far each letter moves from its drawn
+// position; its view narrows by the total so the word stays centred. The small wordmarks keep the drawn spacing.
+export const LETTER_X = [0, -2, -8.5, -12.5, -15.5, -18.5]
+const SPLASH_VIEW = { ...VIEW, width: VIEW.width + LETTER_X[LETTER_X.length - 1] } // the masks keep the full VIEW: their region moves with each letter
+export const splashViewBox = `${SPLASH_VIEW.x} ${SPLASH_VIEW.y} ${SPLASH_VIEW.width} ${SPLASH_VIEW.height}`
 
-// One letter's group: the hook the design lab moves (className wm-letter, data-letter) and the baked offset.
-export function Letter({ i, children }) {
-  return <g className="wm-letter" data-letter={i} transform={`translate(${LETTER_X[i]} 0)`}>{children}</g>
+// One letter's group: the hook the design lab moves (className wm-letter, data-letter), with the spacing when asked.
+export function Letter({ i, spaced = false, children }) {
+  return <g className="wm-letter" data-letter={i} transform={spaced ? `translate(${LETTER_X[i]} 0)` : undefined}>{children}</g>
 }
 
 export function LetterStrokes({ d, mask }) {
