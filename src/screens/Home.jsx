@@ -269,7 +269,7 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ wide, panel, rows, markers, levelLabel, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
+export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
   finalCheck, onFinal, scenes, onScene, onTestPass, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
@@ -299,10 +299,10 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
 
       <Tools tools={tools} />
 
-      {/* Where you are, quietly: "Starting Out" in italics until the tree shows level markers (then the caption would
-          repeat the first one), the streak if on, and Progress as a low-emphasis button. */}
-      <div className="flex items-center justify-between gap-3">
-        <p className="text-sm text-muted">{[!markers.length && <span key="level" className="italic">{levelLabel}</span>, streakLine && <span key="streak">{streakLine}</span>].filter(Boolean).flatMap((x, i) => (i ? [' · ', x] : [x]))}</p>
+      {/* The streak if on, and Progress as a low-emphasis button on a phone. The level caption ("Starting Out") is gone
+          (Dan, 2026-11-10): the tree's level markers say where you are. On a wide screen with no streak the row is empty. */}
+      <div className={`flex items-center justify-between gap-3 ${streakLine ? '' : 'lg:hidden'}`}>
+        <p className="text-sm text-muted">{streakLine}</p>
         <button onClick={onProgress} className="btn-tertiary -mr-2 lg:hidden">Progress</button>
       </div>
 
