@@ -3,7 +3,7 @@ import { a1QuestionFor } from './a1types.js'
 // Rule numbers (R01...) refer to the workbook's lesson_rules tab.
 import { normalize } from './check.js'
 
-export const BUILT_TYPES = new Set(['QT01', 'QT02', 'QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT09', 'QT10', 'QT11', 'QT12', 'QT13', 'QT14', 'QT15', 'QT16', 'QT17'])
+export const BUILT_TYPES = new Set(['QT01', 'QT02', 'QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT09', 'QT10', 'QT11', 'QT12', 'QT13', 'QT14', 'QT15', 'QT16', 'QT17', 'QT18'])
 // Word to image needs at least 3 pictured words to choose between.
 const MIN_PICTURES = 3
 const pictured = (c) => c.words.filter((w) => w.image_file)
@@ -77,7 +77,7 @@ export function contentForUnit(t, unitId) {
   const earlier = new Set(t.units.filter((u) => u.order <= unit.order && (u.is_topic_pick !== 'yes' || u.unit_id === unitId)).map((u) => u.unit_id))
   const usedHere = new Set(t.sentence_words.filter((r) => ids.has(r.sentence_id)).map((r) => r.word_id))
   return indexContent({
-    ...t, unit_id: unitId, allSentences: t.sentences,
+    ...t, unit_id: unitId, mix: unit.mix ?? '', allSentences: t.sentences,
     sentences: t.sentences.filter((s) => ids.has(s.sentence_id)),
     // Plus any later word the unit's own sentences use (a help circle borrows a few, 2026-11-10); never new here.
     words: t.words.filter((w) => earlier.has(w.first_unit) || usedHere.has(w.word_id)),
@@ -95,7 +95,8 @@ function swapRule(c, setting, type, round) {
 // One entry per question slot, with the workbook type it came from (swapped_from in runtime_schema).
 export function mixSlots(c, round, { cantListen = false, cantSpeak = false } = {}) {
   const out = []
-  for (const m of c.round_type_mix.filter((x) => x.round === round)) {
+  // A vocabulary circle (units.mix 'vocab', A1 Complete 9) has its own word-focused mix; every other circle the main one.
+  for (const m of c.round_type_mix.filter((x) => x.round === round && (x.mix ?? '') === (c.mix ?? ''))) {
     let type = m.type_id
     // A type not built yet, or word to image in a unit with too few pictures, takes its phase1_fallbacks row.
     // Answer the question in a unit with no question pairs (the topic packs) does the same.
@@ -326,6 +327,20 @@ export function makeMatchPairs(c, words, round, rng) {
   }
 }
 
+// QT18 Type the word (A1 Complete 9): the English meaning, and the picture where there is one; the course word typed.
+// A noun is right with or without an article.
+const ARTICLES = { fr: ['le', 'la', "l'", 'les', 'un', 'une', 'des'], es: ['el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas'], de: ['der', 'die', 'das', 'den', 'dem', 'ein', 'eine', 'einen'] }
+export function makeTypeWord(c, word, round, rng) {
+  const articles = word.part_of_speech === 'Noun' ? ARTICLES[word.lang_id] ?? [] : []
+  return {
+    qid: `QT18-${word.word_id}-${Math.floor(rng() * 1e9)}`, type: 'QT18', variant: 'QT18-1', round, skill: 'writing', lang: 'fr',
+    word_ids: [word.word_id], word_id: word.word_id, form: word.form, hint: word.hint, english: word.hint,
+    image: word.image_file ? `/images/${word.image_file}` : null,
+    accepted: [word.form, ...articles.map((a) => (a.endsWith("'") ? `${a}${word.form}` : `${a} ${word.form}`))],
+    audio: { french: word.form, file: wordRecordingOf(c, word) }, shown: `${word.form} = ${word.hint}`,
+  }
+}
+
 // ---------- A lesson ----------
 const seenCount = (map, id) => map?.[id] ?? 0
 const leastSeen = (list, idOf, seen, rng) => shuffle(list, rng).sort((a, b) => seenCount(seen, idOf(a)) - seenCount(seen, idOf(b)))
@@ -390,6 +405,7 @@ export function buildLesson(c, { round, seen = {}, known = new Set(), settings =
   const retrySentences = retry?.filter((q) => q.sentence_id).map((q) => ({ s: c.sentenceById.get(q.sentence_id), before: q.type }))
   const retryWords = retry?.filter((q) => q.type === 'QT01').map((q) => q.word_ids.map((id) => c.wordById.get(id)))
   const usedPictures = new Set()
+  const usedTyped = new Set()
   let carryWord = !retry && carry?.word_id ? carry.word_id : null
 
   // Most constrained types choose first, so one-word sentences stay available for the types that can use them.
@@ -408,6 +424,15 @@ export function buildLesson(c, { round, seen = {}, known = new Set(), settings =
         continue
       }
       type = c.phase1_fallbacks.find((f) => f.round === round && f.missing_type === 'QT02' && !String(f.status ?? '').startsWith('off'))?.substitute_type ?? 'QT03'
+    }
+    if (type === 'QT18') {
+      // The circle's own words already met, the least seen first; a retry asks the same words again.
+      const again = retry?.find((q) => q.type === 'QT18' && !usedTyped.has(q.word_id))
+      const own = c.words.filter((w) => ownWord(c, w.word_id) && w.hint && scope.allowed.has(w.word_id) && !scope.newWords.includes(w.word_id))
+      const pool = own.length ? own : c.words.filter((w) => ownWord(c, w.word_id) && w.hint)
+      const word = again ? c.wordById.get(again.word_id) : leastSeen(pool.filter((w) => !usedTyped.has(w.word_id)), (w) => w.word_id, seen.words, rng)[0] ?? leastSeen(pool, (w) => w.word_id, seen.words, rng)[0]
+      if (word) { usedTyped.add(word.word_id); assigned[i] = makeTypeWord(c, word, round, rng); continue }
+      type = 'QT12'
     }
     if (type === 'QT01') {
       const words = retryWords?.length ? retryWords.shift() : pickWordSet(c, scope, seen.words, usedWords, rng, carryWord)
@@ -506,16 +531,16 @@ export function simplestSentenceWith(c, wordId, known) {
 
 export function reaskFor(c, q, { rng = Math.random, cantListen = false, missedWord = null, known = new Set(c.wordOrder) } = {}) {
   let s
-  if (q.type === 'QT01' || q.type === 'QT02') s = simplestSentenceWith(c, missedWord ?? q.word_ids[0], known)
+  if (q.type === 'QT01' || q.type === 'QT02' || q.type === 'QT18') s = simplestSentenceWith(c, missedWord ?? q.word_ids[0], known)
   else if (q.type === 'QT09') s = c.sentenceById.get(c.qaByQuestion.get(q.sentence_id)[0]) // QT09's content is its answer
   else s = c.sentenceById.get(q.sentence_id)
   if (!s) return null
-  const options = q.type === 'QT01' || q.type === 'QT02' ? ['QT03', 'QT06'] : EASIER[q.type] ?? ['QT03']
+  const options = q.type === 'QT01' || q.type === 'QT02' || q.type === 'QT18' ? ['QT03', 'QT06'] : EASIER[q.type] ?? ['QT03']
   // R06: the same round's types or one round easier.
   const allowed = new Set([q.round, q.round - 1].filter((r) => r >= 1).flatMap((r) => effectiveMix(c, r, { cantListen }).map((m) => m.type)))
   const usable = (t) => allowed.has(t) && inRounds(c, t, q.round) && !(cantListen && AUDIO_TYPES.has(t)) && supports(c, t, s, q.round)
   // With Can't listen on in round 1 no other type is open, so the same type returns with new choices.
-  const type = options.find(usable) ?? (!['QT01', 'QT02'].includes(q.type) && usable(q.type) ? q.type : null)
+  const type = options.find(usable) ?? (!['QT01', 'QT02', 'QT18'].includes(q.type) && usable(q.type) ? q.type : null)
   if (!type) return null
   return { ...makeQuestion(c, type, s, q.round, rng, null, { cantListen }), reask: true }
 }
@@ -594,4 +619,51 @@ export function swapRemaining(c, session, { cantListen = false, cantSpeak = fals
     return swapped
   })
   return { ...session, queue, graded: queue.slice(0, session.size).filter((q) => !q.speaking).length }
+}
+
+// ---------- Catch-Up (A1 Complete 9) ----------
+// A slot in the tree that fills itself for each learner, over the circles above it (units): first the sentences they
+// got wrong (the review bank), then the words they missed, then the words they've seen only once or twice
+// (exposure: word_id → times shown). No five-round climb: each item comes at the round its circle last reached
+// (reachedOf). Up to ten items; an empty list means there's nothing to catch up on yet.
+const CATCHUP_SENTENCE_TYPES = new Set(['QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT11', 'QT12'])
+export function catchUpItems(c, { units, bank = [], wordMisses = {}, exposure = {}, met = new Set(), reachedOf = () => 1, limit = LESSON_SIZE }) {
+  const roundOfUnit = (u) => Math.min(5, Math.max(1, reachedOf(u) || 1))
+  const sentences = bank.map((e) => ({ e, s: c.sentenceById.get(e.sentence_id) })).filter((x) => x.s && units.has(x.s.unit_id))
+    .map((x) => ({ kind: 'sentence', sentence_id: x.s.sentence_id, unit_id: x.s.unit_id, type: x.e.type_id, round: roundOfUnit(x.s.unit_id) }))
+  const inScope = (w) => w && units.has(w.first_unit) && met.has(w.word_id) && w.hint
+  const missed = Object.keys(wordMisses).map((id) => c.wordById.get(id)).filter(inScope)
+  const missedIds = new Set(missed.map((w) => w.word_id))
+  const thin = c.words.filter((w) => inScope(w) && !missedIds.has(w.word_id) && (exposure[w.word_id] ?? 0) >= 1 && (exposure[w.word_id] ?? 0) <= 2)
+    .sort((a, b) => (exposure[a.word_id] ?? 0) - (exposure[b.word_id] ?? 0))
+  const words = [...missed, ...thin].map((w) => ({ kind: 'word', word_id: w.word_id, unit_id: w.first_unit, round: roundOfUnit(w.first_unit), missed: missedIds.has(w.word_id) }))
+  // Mistakes first, but leave room for words: at most half the session is sentences while words are waiting.
+  const first = sentences.slice(0, words.length ? Math.ceil(limit / 2) : limit)
+  const ws = words.slice(0, limit - first.length)
+  return [...first, ...ws, ...sentences.slice(first.length, first.length + limit - first.length - ws.length)]
+}
+
+export function buildCatchUp(c, items, { settings = {}, rng = Math.random, slot_id = '' } = {}) {
+  const queue = []
+  const pickType = (s, round, before) => {
+    const open = effectiveMix(c, round, settings).map((m) => m.type).filter((t) => CATCHUP_SENTENCE_TYPES.has(t) && supports(c, t, s, round))
+    return open.includes(before) ? before : open.length ? pick(open, rng) : 'QT03'
+  }
+  // Round-1 words come back as one match-pairs board (2 to 5 words); later words are typed (QT18).
+  const firstRound = items.filter((x) => x.kind === 'word' && x.round < 2).map((x) => c.wordById.get(x.word_id))
+  for (const it of items) {
+    if (it.kind === 'sentence') {
+      const s = c.sentenceById.get(it.sentence_id)
+      queue.push({ ...makeQuestion(c, pickType(s, it.round, it.type), s, it.round, rng, null, { cantListen: settings.cantListen }), unit_id: it.unit_id })
+    } else if (it.round >= 2) queue.push({ ...makeTypeWord(c, c.wordById.get(it.word_id), it.round, rng), unit_id: it.unit_id })
+  }
+  if (firstRound.length >= 2) queue.splice(Math.min(1, queue.length), 0, makeMatchPairs(c, firstRound.slice(0, 5), 1, rng))
+  else if (firstRound.length === 1) {
+    const s = simplestSentenceWith(c, firstRound[0].word_id, new Set(c.words.map((w) => w.word_id)))
+    if (s) queue.push(makeQuestion(c, 'QT03', s, 1, rng, null, { cantListen: settings.cantListen }))
+  }
+  return {
+    id: `K${Math.floor(rng() * 1e12)}`, kind: 'catchup', slot_id, started_at: Date.now(),
+    queue, size: queue.length, graded: queue.filter((q) => q.skill !== 'speaking').length, index: 0, firstCorrect: 0, firstWrong: 0, misses: [],
+  }
 }

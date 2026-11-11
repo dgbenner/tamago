@@ -19,8 +19,8 @@ const TARGET_MIN = 30, TARGET_MAX = 40, PER_WORD = 3 // P04
 const GRAMMAR_MIN = 10, CONTRAST_MIN = 2 // P05
 const QUESTIONS_MIN = 4 // P06
 // Help circles (2026-11-10): U31 to U33, the Asking for Help thread.
-// A1 Part 2 (2026-11-10): U41 to U49 and its help circles U34 to U36.
-const ID_BASE = { U41: 10000, U42: 10100, U43: 10200, U44: 10300, U45: 10400, U46: 10500, U47: 10600, U48: 10700, U49: 10800, U34: 10900, U35: 11000, U36: 11100, U31: 9000, U32: 9100, U33: 9200, U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600, U06: 7000, U07: 7100, U08: 7200, U09: 7300, U10: 7400, U11: 7500, U12: 7600, U13: 7700, U201: 8000, U202: 8100, U203: 8200, U204: 8300, U205: 8400, U206: 8500, U207: 8600, U208: 8700 }
+// A1 Part 2 (2026-11-10): U41 to U49 and its help circles U34 to U36; its vocabulary circles U51 to U55.
+const ID_BASE = { U41: 10000, U42: 10100, U43: 10200, U44: 10300, U45: 10400, U46: 10500, U47: 10600, U48: 10700, U49: 10800, U34: 10900, U35: 11000, U36: 11100, U51: 11200, U52: 11300, U53: 11400, U54: 11500, U55: 11600, U31: 9000, U32: 9100, U33: 9200, U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600, U06: 7000, U07: 7100, U08: 7200, U09: 7300, U10: 7400, U11: 7500, U12: 7600, U13: 7700, U201: 8000, U202: 8100, U203: 8200, U204: 8300, U205: 8400, U206: 8500, U207: 8600, U208: 8700 }
 // A topic pack (is_topic_pick yes) is one node: a smaller target, and it draws only on Units 1 to 5 plus its own words.
 const isPack = (u) => u.is_topic_pick === 'yes'
 const PACK_TARGET = 15
@@ -106,6 +106,7 @@ const isLive = (u) => String(u.status).startsWith('live') || DECISIONS.units?.[u
 // their phrase words. A help circle draws on the main units and help circles before it (by order), its own words, and
 // the few later words its phrases need (borrow_words column: forms separated by ;).
 const isHelp = (u) => u.is_topic_pick === 'help'
+const orderOf = new Map(units.map((u) => [u.unit_id, u.order]))
 const opened = new Set(units.filter((u) => isLive(u) && !['yes', 'node', 'help'].includes(u.is_topic_pick)).map((u) => u.unit_id))
 for (const u of units) {
   if (u.is_topic_pick === 'node') continue
@@ -115,7 +116,9 @@ for (const u of units) {
     : COURSE !== 'fr' && isPack(u) && u.topic_node === 'U100' ? new Set([...firstFive, u.unit_id])
       // A later part opens only once every circle of the part before has finished round 1, help circles included, so
       // a main circle there may use the earlier parts' help words too (ne … pas, comprends).
-      : new Set([...opened, ...units.filter((x) => isHelp(x) && Number(x.part || 1) < Number(u.part || 1)).map((x) => x.unit_id), u.unit_id])
+      // Only circles before it in order: a circle placed between others (the vocabulary circles, A1 Complete 9) must not
+      // draw on the approved circles after it.
+      : new Set([...[...opened].filter((id) => (orderOf.get(id) ?? 0) < u.order), ...units.filter((x) => isHelp(x) && Number(x.part || 1) < Number(u.part || 1)).map((x) => x.unit_id), u.unit_id])
   if (!isPack(u) && !isHelp(u)) opened.add(u.unit_id)
   const borrowed = isHelp(u) ? new Set(String(u.borrow_words ?? '').split(';').map((x) => x.trim()).filter(Boolean)) : new Set()
   // A live pack marked rebuild in packs-review.json (Weather, 2026-11-10) is topped up: its live Tatoeba sentences stay

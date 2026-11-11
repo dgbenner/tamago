@@ -11,7 +11,7 @@ import { FormFill, ListenNumber, ReadText, WriteMessage } from './A1Tasks.jsx'
 const PROMPT = {
   QT01: 'Match the Pairs', QT02: 'Pick the Picture', QT10: 'Say It Aloud', QT13: 'Speak and Compare', QT03: 'Pick the Meaning', QT04: 'Pick What You Heard', QT05: 'Fill in the Blank', QT06: 'Translate',
   QT07: 'Tap What You Hear', QT08: 'Translate', QT09: 'Answer the Question', QT11: 'Type What You Hear', QT12: 'Translate',
-  QT14: 'Read and Answer', QT15: 'Fill In the Form', QT16: 'Write a Message', QT17: 'Write What You Hear',
+  QT14: 'Read and Answer', QT15: 'Fill In the Form', QT16: 'Write a Message', QT17: 'Write What You Hear', QT18: 'Type the Word',
 }
 const LISTENING = new Set(['QT04', 'QT07', 'QT11'])
 const LISTEN_FIRST = new Set(['QT03', 'QT06'])
@@ -191,7 +191,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
 
 function Question({ q, ...rest }) {
   const typedOnly = Boolean(q.typed)
-  const C = typedOnly ? Typed : { QT01: MatchPairs, QT02: WordImage, QT10: Speak, QT13: Speak, QT03: PickMeaning, QT04: PickHeard, QT05: FillBlank, QT06: Build, QT07: Build, QT08: Build, QT09: Build, QT11: Typed, QT12: Typed, QT14: ReadText, QT15: FormFill, QT16: WriteMessage, QT17: ListenNumber }[q.type]
+  const C = typedOnly ? Typed : { QT01: MatchPairs, QT02: WordImage, QT10: Speak, QT13: Speak, QT03: PickMeaning, QT04: PickHeard, QT05: FillBlank, QT06: Build, QT07: Build, QT08: Build, QT09: Build, QT11: Typed, QT12: Typed, QT14: ReadText, QT15: FormFill, QT16: WriteMessage, QT17: ListenNumber, QT18: TypeWord }[q.type]
   return <C q={q} {...rest} />
 }
 
@@ -616,6 +616,25 @@ function Typed({ q, content, settings, result, onAnswer, newWords, hideFrench, o
   )
 }
 
+// QT18 Type the word (A1 Complete 9): the meaning in English, the picture if the word has one; type the word.
+function TypeWord({ q, content, settings, result, onAnswer }) {
+  const [text, setText] = useState('')
+  const check = () => {
+    document.activeElement?.blur()
+    onAnswer({ ...checkTyped(text, q.accepted, { strict: settings.answer_strictness === 'strict', lang: 'fr', vocabulary: content.vocabulary.fr }), given: text })
+  }
+  return (
+    <>
+      <div className="flex items-center gap-4">
+        {q.image && <img src={q.image} alt="" className="h-20 w-20 shrink-0" />}
+        <p lang="en" className="text-2xl leading-relaxed">{q.hint}</p>
+      </div>
+      <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} onSubmit={check} />
+      {!result && <div className="check-row"><button data-check disabled={!text.trim()} onClick={check} className="btn-submit flex-1">Check</button></div>}
+    </>
+  )
+}
+
 function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const [panel, setPanel] = useState(null)
   const [flagged, setFlagged] = useState(false)
@@ -639,7 +658,7 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const [showWhy, setShowWhy] = useState(false)
   useEffect(() => {
     let live = true
-    if (!good && result.given?.trim() && q.accepted?.length) explain(q, result.given).then((t) => live && setWhy(t))
+    if (!good && result.given?.trim() && q.accepted?.length && q.sentence_id) explain(q, result.given).then((t) => live && setWhy(t))
     return () => { live = false }
   }, [])
   const fallback = q.speaking || q.ungraded ? 'Done.' : good ? 'Nice.' : 'Not quite.'

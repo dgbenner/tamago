@@ -199,5 +199,70 @@
       "4578451": "elliptic (From where?)",
       "13692624": "plus in a comparison, misleading for plus (more slowly)"
     }
+  },
+  "U51": {
+    "reject": {
+      "685977": "English does not match (le petit village as a small village)",
+      "3543806": "idiom (à deux pas)",
+      "7668340": "English is stilted (Whom is she with?)",
+      "10051708": "idiom (à une heure de bus)"
+    }
+  },
+  "U52": {
+    "reject": {
+      "4693240": "danse as the verb danser, misleading for the noun",
+      "4930427": "danse as the verb danser, misleading for the noun",
+      "5719543": "colloquial, drops ne",
+      "5798811": "danse as the verb danser, misleading for the noun",
+      "8008885": "idiom (C est à qui de jouer)",
+      "8304667": "idiom (En joue, take aim)",
+      "8690519": "danse as the verb danser, misleading for the noun",
+      "8717566": "English renames the name as Mary, misleading for typed answers",
+      "8984320": "danse as the verb danser, misleading for the noun",
+      "10505413": "idiom (C est la fête)",
+      "10505414": "idiom (C est l heure de la fête)"
+    },
+    "english": {
+      "435206": "Have a good trip!"
+    }
+  },
+  "U53": {
+    "reject": {
+      "1047578": "idiom (Du calme)",
+      "1143732": "odd (Heureuse année, the set phrase is Bonne année)",
+      "1688126": "en, not taught",
+      "1711566": "verb se contenter, misleading for content",
+      "1913961": "seul as lonely, misleading for alone",
+      "4223764": "calme as the verb calmer",
+      "4320549": "English elliptic (Sad.)",
+      "4653964": "colloquial (T es)",
+      "5539250": "odd line",
+      "7751758": "English renames the name as Mary, misleading for typed answers",
+      "8717560": "English renames the name as Mary, misleading for typed answers",
+      "11621146": "plus in a comparison"
+    }
+  },
+  "U54": {
+    "reject": {
+      "651563": "colloquial (T es)",
+      "6133584": "English renames the name as Mary, misleading for typed answers",
+      "9557826": "nationality with a capital as an adjective",
+      "10026507": "idiom (Pas de mais)",
+      "11485008": "idiom",
+      "14037531": "idiom (Ou bien)"
+    }
+  },
+  "U55": {
+    "reject": {
+      "13479": "English renames the name as Mary, misleading for typed answers",
+      "376666": "idiom (sur mon chemin, in my way)",
+      "528865": "idiom (sur mon chemin, in my way)",
+      "1832515": "repeats en chemin",
+      "8267435": "idiom (En route)",
+      "8624799": "odd (une bonne nature)",
+      "10088729": "repeats en chemin",
+      "11238326": "repeats en chemin",
+      "11571819": "idiom (sur le chemin, in the way)"
+    }
   }
 }

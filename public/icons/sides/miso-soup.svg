@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Catch-Up's side dish (A1 Complete 9): a bowl of miso soup, drawn for Tamago until side-dish art arrives. -->
+  <defs>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8322a"/><stop offset="1" stop-color="#7a1c17"/></linearGradient>
+    <radialGradient id="soup" cx="0.45" cy="0.4" r="0.7"><stop offset="0" stop-color="#e9c48a"/><stop offset="1" stop-color="#c8955a"/></radialGradient>
+  </defs>
+  <g fill="none" stroke="#c9bfae" stroke-width="4" stroke-linecap="round" opacity="0.9">
+    <path d="M46 34c-6-8 6-12 0-20"/><path d="M64 30c-6-8 6-12 0-20"/><path d="M82 34c-6-8 6-12 0-20"/>
+  </g>
+  <ellipse cx="64" cy="62" rx="48" ry="14" fill="url(#soup)"/>
+  <path d="M16 62c0 28 22 44 48 44s48-16 48-44c-4 9-24 16-48 16s-44-7-48-16z" fill="url(#bowl)"/>
+  <path d="M28 76c8 14 22 21 36 21" fill="none" stroke="#fff" stroke-opacity="0.35" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="64" cy="62" rx="48" ry="14" fill="none" stroke="#5e1410" stroke-width="2.5"/>
+  <g fill="#f6efe0" stroke="#d8ccb4" stroke-width="1"><rect x="44" y="56" width="10" height="9" rx="1.5"/><rect x="68" y="58" width="10" height="9" rx="1.5"/><rect x="58" y="52" width="9" height="8" rx="1.5"/></g>
+  <g fill="#4f8f3a"><circle cx="38" cy="62" r="2.6"/><circle cx="84" cy="56" r="2.6"/><circle cx="90" cy="64" r="2.2"/><circle cx="52" cy="68" r="2.2"/></g>
+  <path d="M40 116h48" stroke="#7a1c17" stroke-width="6" stroke-linecap="round"/>
+</svg>

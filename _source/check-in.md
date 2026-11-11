@@ -1,9 +1,30 @@
 # Tamago check-in
 
-Updated November 10, 2026. **New: French A1 Part 2, Everyday Life, is built: 12 circles, ready for you to try.** **New: the Asking for Help thread (three help circles per course), conversation scenes, and the conversation partner in Self-Study.** **German is live: all 15 A1 units, nine topic packs and the A1 Final Check, chosen on the opening screen, from the header flag or in Settings.** Fable's review is applied: 15 drafts swapped, the week pair cut, 69 drafts left for the native check. The Spanish course is live: all 15 units, six topic packs, and language switching. Also live: **three French topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
+Updated November 10, 2026. **New: vocabulary and Catch-Up circles (section 9). French Part 2 now closes a quarter of the gap to the core goal.** **New: French A1 Part 2, Everyday Life, is built: 12 circles, ready for you to try.** **New: the Asking for Help thread (three help circles per course), conversation scenes, and the conversation partner in Self-Study.** **German is live: all 15 A1 units, nine topic packs and the A1 Final Check, chosen on the opening screen, from the header flag or in Settings.** Fable's review is applied: 15 drafts swapped, the week pair cut, 69 drafts left for the native check. The Spanish course is live: all 15 units, six topic packs, and language switching. Also live: **three French topic packs at a second Your Topic node (Office, Doctor and the rebuilt Weather), the content sweep and the Developer area are live** at https://tamago-83f.pages.dev.
 
 ## Done since last check-in
 
+- **Section 9, French: vocabulary circles and Catch-Up circles, live.** (Section 9 is saved at the end of _source/a1-complete.md.)
+  - **Five vocabulary circles in Part 2,** one in each row beside its situation circles. Their themes stay clear of Parts 3 to 5:
+    - Around Town (cinéma, gare, hôtel, musée, bus, train, vélo, voiture, avec…);
+    - Free Time (film, photo, fête, cadeau, voyage, vacances, regarder, écouter, jouer, lire…);
+    - Body and Feelings (main, tête, pied, yeux, dos, cheveux, content, heureux, triste, peur, seul…);
+    - People (gens, copain, copine, voisin, étudiant, élève, professeur, mais, aussi, ou…);
+    - Outdoors (montagne, campagne, arbre, fleur, route, pont, chemin, sud, sur…).
+  - **Their lessons are word-focused:** Match the Pairs and Pick the Picture first, then the new Type the Word, then short sentences. Type the Word shows the English, and the picture where there is one; a noun is right with or without its article.
+  - **Sentences:** 151 Tatoeba lines kept after the review (idioms, colloquial lines and misleading senses cut, such as *danse* used as the verb). There are 69 drafts where Tatoeba had fewer than 3 sentences for a word; *musée*, *pont* and *sud* had none at all.
+  - **Catch-Up, four slots:** after Part 1 rows 5 and 7, and after Part 2 rows 12 and 14.
+    - **What it holds:** each one fills itself from the circles above it: your mistakes first, then the words you missed, then the words you've seen only once or twice.
+    - **How it plays:** each item comes back at the round its circle has reached, with no five rounds. Round-1 words come back as one Match the Pairs board, later ones as Type the Word.
+    - **When:** it opens once its row is reached, never locks anything, and refills as you go. The circle shows "3 to catch up", or "Nothing yet".
+  - **The Catch-Up icon** is a bowl of miso soup I drew as a stand-in until side-dish art arrives.
+  - **Coverage, French:**
+    - **Core (FLELex's 600 most frequent A1 words):** 242 taught (40%), 214 on the main path (36%).
+    - **Full list (1,196):** 280 (23%).
+    - **Part 2's share:** the goal is 90% of the core, 540 words. Part 1 left a gap of 439, a quarter of that is 110, and Part 2 now adds 113.
+  - **Fixed on the way:**
+    - The pull let a circle use words from approved circles after it, which only mattered once circles were placed between others. It now uses only the circles before it in order.
+    - The first circle's spoken name now reads "Start Here" first, as it is seen (WCAG 2.5.3, label in name).
 - **French Part 2: Fable's results applied. The French native-speaker list is now 349 (was 363).**
   - **14 drafts swapped for Fable's Use candidates** (_review/french-part2-candidates.md), by the Part 1 rules: ids kept, Fable's English picks used, each Tatoeba sentence used once, pairs untouched. 12 are held: 7 halves of question-and-answer pairs, and 5 whose candidates went to other drafts. The held drafts are listed in the build log.
   - **The fixes from _review/french-part2-check.md:**
@@ -289,7 +310,7 @@ Updated November 10, 2026. **New: French A1 Part 2, Everyday Life, is built: 12 
 
 ## Drafted sentences
 
-Every French sentence I wrote (349), for the native-speaker check. Tatoeba sentences aren't listed.
+Every French sentence I wrote (414), for the native-speaker check. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (18)
 
@@ -563,6 +584,23 @@ Every French sentence I wrote (349), for the native-speaker check. Tatoeba sente
 - S10065 Bonjour, Madame. Vous vous appelez comment ? = Hello, madam. What's your name?
 - S10066 Oui, je m'appelle Marie. = Yes, my name is Marie. (QT09 answer)
 
+**U51 Around Town** (14)
+
+- S11261 Où est le musée ? = Where is the museum?
+- S11262 Je vais au musée avec Paul. = I'm going to the museum with Paul.
+- S11263 C'est un grand musée. = It's a big museum.
+- S11264 La piscine est grande. = The swimming pool is big.
+- S11265 Tu vas à la piscine ? = Are you going to the swimming pool?
+- S11266 Je vais à l'école en bus. = I go to school by bus.
+- S11267 Où est le bus ? = Where is the bus?
+- S11268 Où est le cinéma ? = Where is the cinema?
+- S11269 C'est le métro. = It's the metro.
+- S11270 C'est un petit village. = It's a small village.
+- S11271 Le village est petit. = The village is small.
+- S11272 C'est ton bus ? = Is that your bus?
+- S11273 Je vais à la gare. = I'm going to the station.
+- S11274 Où est le métro ? = Where is the metro?
+
 **U34 Spelling It Out** (3)
 
 - S10961 Vous pouvez épeler, s'il vous plaît ? = Can you spell it, please?
@@ -618,6 +656,20 @@ Every French sentence I wrote (349), for the native-speaker check. Tatoeba sente
 - S10265 Le chien a trois mois. = The dog is three months old.
 - S10267 C'est une bonne année. = It's a good year.
 
+**U52 Free Time** (11)
+
+- S11361 J'aime la danse. = I like dance.
+- S11362 C'est une belle danse. = It's a beautiful dance.
+- S11363 Il aime la danse. = He likes dance.
+- S11364 C'est un jeu. = It's a game.
+- S11365 C'est mon jeu. = It's my game.
+- S11366 Tu as un jeu ? = Do you have a game?
+- S11368 Tu aimes le ski ? = Do you like skiing?
+- S11369 Elle aime le ski. = She likes skiing.
+- S11370 C'est une belle photo. = It's a beautiful photo.
+- S11371 C'est un beau voyage. = It's a beautiful trip.
+- S11372 C'est une belle fête. = It's a lovely party.
+
 **U35 Checking Numbers** (5)
 
 - S11061 Vous pouvez répéter, s'il vous plaît ? = Can you repeat that, please?
@@ -669,6 +721,21 @@ Every French sentence I wrote (349), for the native-speaker check. Tatoeba sente
 - S10467 J'aime habiter en ville. = I like living in the city.
 - S10469 L'appartement est à quel étage ? = Which floor is the apartment on?
 
+**U53 Body and Feelings** (12)
+
+- S11461 C'est ma main. = It's my hand.
+- S11462 Ma main est petite. = My hand is small.
+- S11463 C'est ma tête. = It's my head.
+- S11464 Il a une grande tête. = He has a big head.
+- S11465 C'est mon dos. = It's my back.
+- S11466 Le chien a un dos noir. = The dog has a black back.
+- S11467 Le dos du chat est blanc. = The cat's back is white.
+- S11468 J'aime mes cheveux. = I like my hair.
+- S11469 Elle aime ses cheveux. = She likes her hair.
+- S11471 Tu as peur ? = Are you afraid?
+- S11472 La tête du chien est petite. = The dog's head is small.
+- S11473 Le chat a peur. = The cat is afraid.
+
 **U106 At the Supermarket** (8)
 
 - S6553 Du riz, s'il vous plaît. = Rice, please.
@@ -714,6 +781,21 @@ Every French sentence I wrote (349), for the native-speaker check. Tatoeba sente
 - S10665 Un kilo de fromage, s'il vous plaît. = A kilo of cheese, please.
 - S10666 Oui, j'achète des légumes. = Yes, I'm buying vegetables. (QT09 answer)
 
+**U54 People** (12)
+
+- S11561 J'aime les gens. = I like people.
+- S11562 Elle aime les gens. = She likes people.
+- S11563 C'est mon copain. = He's my friend.
+- S11564 Paul est mon copain. = Paul is my friend.
+- S11565 C'est ma copine. = She's my friend.
+- S11566 Marie est ma copine. = Marie is my friend.
+- S11567 Je suis élève. = I'm a pupil.
+- S11568 C'est un bon élève. = He's a good pupil.
+- S11569 C'est un client. = He's a customer.
+- S11570 Le client est content. = The customer is pleased.
+- S11571 Qui est la dame ? = Who is the lady?
+- S11572 J'aime le pain, mais pas le fromage. = I like bread, but not cheese.
+
 **U36 Checking You Understood** (2)
 
 - S11161 Tu as compris ? = Did you understand?
@@ -741,6 +823,25 @@ Every French sentence I wrote (349), for the native-speaker check. Tatoeba sente
 - S10865 Le paquet est dans le sac. = The packet is in the bag.
 - S10866 C'est un petit paquet. = It's a small packet.
 - S10868 La boîte est dans le sac. = The box is in the bag.
+
+**U55 Outdoors** (16)
+
+- S11661 La montagne est belle. = The mountain is beautiful.
+- S11662 J'aime la montagne. = I like the mountains.
+- S11663 Le chat est dans l'arbre. = The cat is in the tree.
+- S11664 La terre est noire. = The soil is black.
+- S11665 La terre est rouge ici. = The soil is red here.
+- S11666 Le vent est froid. = The wind is cold.
+- S11667 J'aime le vent. = I like the wind.
+- S11668 J'aime la nature. = I like nature.
+- S11669 C'est un pont. = It's a bridge.
+- S11670 Le pont est grand. = The bridge is big.
+- S11671 Où est le pont ? = Where is the bridge?
+- S11672 J'habite dans le sud. = I live in the south.
+- S11673 Il va dans le sud. = He's going to the south.
+- S11674 Elle habite dans le sud de la France. = She lives in the south of France.
+- S11675 Où est la route ? = Where is the road?
+- S11676 Il aime la nature. = He likes nature.
 
 ## Spanish drafted sentences
 

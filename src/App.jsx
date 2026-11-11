@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, recordings, tables, unitContent } from './lib/content.js'
 import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, skipSplash } from './lib/course.js'
-import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining } from './lib/lesson.js'
+import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining, buildCatchUp, catchUpItems } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
@@ -110,6 +110,8 @@ export default function App() {
   const [checkpointsSkipped, setCheckpointsSkipped] = useState({})
   // Pass 3: words got wrong, for the Glossary's Missed (word_id to the date); a later right answer clears them.
   const [wordMisses, setWordMisses] = useState({})
+  // Catch-Up (A1 Complete 9): how often each word was shown in Catch-Up sessions, on top of the lessons' counts.
+  const [catchupSeen, setCatchupSeen] = useState({})
   // The final A1 check's last result (kv final_check: date and per-part scores).
   const [finalCheck, setFinalCheck] = useState(null)
   const [variantStatus, setVariantStatus] = useState({})
@@ -158,6 +160,7 @@ export default function App() {
       if (s.kv.part_view) setPartView(s.kv.part_view)
       setCheckpointsSkipped(s.kv.checkpoints_skipped ?? {})
       setWordMisses(s.kv.word_misses ?? {})
+      setCatchupSeen(s.kv.catchup_seen ?? {})
       setFinalCheck(s.kv.final_check ?? null)
       applyVariants(s.kv.variant_status ?? {})
       // The first node's choice keeps its old key (topic_choice); later nodes use topic_choice_<node>.
@@ -237,7 +240,7 @@ export default function App() {
     if (!generated.current.has(s.id)) generated.current.set(s.id, indexContent({ ...tables, sentences: [...tables.sentences, ...s.generated.sentences], sentence_words: [...tables.sentence_words, ...s.generated.sentence_words] }))
     return generated.current.get(s.id)
   }
-  const contentFor = (s) => s?.kind === 'generated' ? generatedContent(s) : (['review', 'practice', 'placement', 'words', 'checkpoint', 'final'].includes(s?.kind) ? allContent : unitContent(s?.unit_id ?? currentUnit))
+  const contentFor = (s) => s?.kind === 'generated' ? generatedContent(s) : (['review', 'practice', 'placement', 'words', 'checkpoint', 'final', 'catchup'].includes(s?.kind) ? allContent : unitContent(s?.unit_id ?? currentUnit))
 
   // R20: a row opens when every unit in the row it names has finished round 1. A unit also has to be live.
   // Only units with content are on the tree: a course still being built (Spanish) shows the units it has so far.
@@ -426,6 +429,28 @@ export default function App() {
   // Help circles (2026-11-10) don't gate anything, so a checkpoint neither reviews nor waits for them.
   const isHelpUnit = (unitId) => tables.units.find((u) => u.unit_id === unitId)?.is_topic_pick === 'help'
   const unitsUpTo = (row) => layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id) && !isHelpUnit(t.unit_id)).map((t) => t.unit_id)
+  // Catch-Up (A1 Complete 9): slots after a row (catch_up tab), each filled for this learner from the circles above it:
+  // their mistakes, the words they missed, the words seen only once or twice. Open once its row is reached; never
+  // locks anything; refills as misses come in. Exposure counts each word in what lessons and Catch-Ups showed.
+  const exposure = (() => {
+    const n = { ...catchupSeen }
+    for (const byRound of Object.values(roundSeen.current)) for (const seen of Object.values(byRound ?? {})) {
+      for (const [id, k] of Object.entries(seen.words ?? {})) n[id] = (n[id] ?? 0) + k
+      for (const [sid, k] of Object.entries(seen.sentences ?? {})) for (const r of allContent.swBySentence.get(sid) ?? []) if (r.word_id) n[r.word_id] = (n[r.word_id] ?? 0) + k
+    }
+    return n
+  })()
+  const catchUpUnits = (row) => new Set([
+    ...layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id)).map((t) => t.unit_id),
+    ...packs.filter((p) => onPath(p) && (rowOf(p.unit_id)?.row ?? Infinity) <= row).map((p) => p.unit_id),
+  ])
+  const catchUpFor = (row) => catchUpItems(allContent, { units: catchUpUnits(row), bank, wordMisses, exposure, met: seenWords.current, reachedOf: (u) => progressOf(u).round_reached })
+  const catchUps = (tables.catch_up ?? []).filter((c) => layout.some((t) => t.row === c.after_row)).map((c) => {
+    const items = catchUpFor(c.after_row)
+    return { ...c, afterRow: c.after_row, available: layout.filter((t) => t.row === c.after_row).some((t) => isOpen(t.unit_id)),
+      count: items.length, mistakes: items.filter((x) => x.kind === 'sentence' || x.missed).length }
+  })
+  const startCatchUp = (c) => { const items = catchUpFor(c.afterRow); if (items.length) begin(buildCatchUp(allContent, items, { settings: lessonModes(), slot_id: c.slot_id })) }
   // The final A1 check: four parts over every A1 unit's sentences, modeled on the course's A1 exam (finalcheck.js).
   const mainUnitIds = layout.filter((t) => !isTopicNode(t.unit_id)).map((t) => t.unit_id)
   const startFinal = () => begin(buildSession(allContent, 'final', finalItems(allContent, mainUnitIds), { settings: lessonModes() }))
@@ -549,7 +574,7 @@ export default function App() {
       // Round 1 misses stay out of the bank, and so do misses in a placement or an "I can" check (they test, they don't teach).
       if (q.round >= 2 && !q.item_id && !['placement', 'check', 'generated', 'final'].includes(session.kind)) addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
     }
-    if (session.kind === 'review' && result.correct) {
+    if ((session.kind === 'review' || session.kind === 'catchup') && result.correct) {
       setBank((b) => b.flatMap((e) => {
         if (e.sentence_id !== q.sentence_id) return [e]
         // Leaves after three correct answers on three different days.
@@ -671,6 +696,16 @@ export default function App() {
     remove('kv', 'current_session')
     setSession(null)
     markActive()
+    if (s.kind === 'catchup') {
+      setCatchupSeen((m) => {
+        const n = { ...m }
+        for (const q of s.queue) for (const id of new Set([...(q.word_ids ?? []), ...(q.segments ?? []).map((x) => x.word_id).filter(Boolean)])) n[id] = (n[id] ?? 0) + 1
+        putKv('catchup_seen', n)
+        return n
+      })
+      setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size} correct.`, back: 'home' })
+      return
+    }
     if (s.kind === 'review' || s.kind === 'practice' || s.kind === 'generated') {
       setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size} correct.`, back: s.back ?? 'home' })
       return
@@ -959,6 +994,7 @@ export default function App() {
       ]}
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
+      catchUps={catchUps.filter((c) => rows.some((r) => r.row === c.afterRow))} onCatchUp={startCatchUp}
       onCheckpoint={startCheckpoint} finalCheck={shownPart === lastPart ? finalInfo : null} onFinal={startFinal}
       part={partInfo} onPartView={(n) => { setPartView(n); putKv('part_view', n) }} onPartReview={() => startPartReview(shownPart)}
       onTestPass={settings.test_shortcuts === 'on' ? testPass : null}

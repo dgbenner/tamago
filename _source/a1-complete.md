@@ -89,3 +89,33 @@ same answer bar.
 2. Framework: parts, the cap and banner, the part switcher, QT14 to QT17, A1 coverage on Progress.
 3. Part 2 for one language first (French), with its quality pass. Stop for Dan to try it.
 4. Then Part 2 for Spanish and German, then further parts.
+
+## 9. Vocabulary and Catch-Up circles (added November 10)
+
+French Part 2 added about 50 A1 words (13% to 17% of FLELex), about 4 per circle. At that pace the parts won't
+reach the target. Two additions fix it.
+
+### Vocabulary circles (content, per language)
+
+- A themed cluster of 12 to 15 list words each (Around the House, Clothes, Food, Weather, Jobs).
+- Word-focused mix: match pairs, pick the picture, type the word, short sentences using the words.
+- Two or three per part, placed between the situation circles.
+- Situation circles also aim for 8 to 12 new list words each.
+- Target: each part closes about a quarter of the gap to the coverage goal.
+
+### Catch-Up circles (framework, built once)
+
+- Slots in the tree, about two per part, that fill themselves for each learner from: (1) words and sentences the
+  learner has missed; (2) words seen only once or twice.
+- Always available once reached; never lock anything; refill as new misses come in.
+- Same lesson engine, but they skip the five-round help levels: each item uses the round it last reached.
+- Shown with their own icon (a side dish) and the title "Catch-Up".
+
+### French target
+
+Measure French against the 600 most frequent FLELex A1 words as the core target, with the full 1,196 as a stretch
+goal.
+
+Then: build Catch-Up circles into the framework, add two to French Parts 1 and 2, and add vocabulary circles to
+French Part 2 until it closes about a quarter of the gap. Push, report the new French coverage and draft count, and
+stop.

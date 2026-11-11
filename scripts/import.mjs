@@ -182,18 +182,27 @@ for (const [id, members] of pairs) {
   if (members.length !== 2) fail(`pair_id ${id}: expected 2 sentences, got ${members.join(', ')}`)
 }
 
+// catch_up (A1 Complete 9): each slot follows a row of the tree.
+for (const c of (tables.catch_up ?? []).filter((x) => x.slot_id)) {
+  if (!(tables.tree_layout ?? []).some((t) => Number(t.row) === Number(c.after_row))) fail(`catch_up ${c.slot_id}: no tree row ${c.after_row}`)
+}
+
 // round_type_mix: the rules of thumb from question-types.md section 4.
 const typeById = new Map(tables.question_types.map((t) => [t.type_id, t]))
-for (const r of tables.rounds) {
-  const rows = (tables.round_type_mix ?? []).filter((m) => m.round === r.round)
+// Each mix on its own (A1 Complete 9: '' for situation circles, 'vocab' for vocabulary circles).
+const mixes = [...new Set((tables.round_type_mix ?? []).map((m) => m.mix ?? ''))]
+for (const u of tables.units) if (u.mix && !mixes.includes(u.mix)) fail(`units ${u.unit_id}: mix "${u.mix}" has no round_type_mix rows`)
+for (const mix of mixes) for (const r of tables.rounds) {
+  const rows = (tables.round_type_mix ?? []).filter((m) => m.round === r.round && (m.mix ?? '') === mix)
+  const where = `round_type_mix${mix ? ` (${mix})` : ''} round ${r.round}`
   const total = rows.reduce((n, m) => n + m.questions_per_10, 0)
-  if (total !== 10) fail(`round_type_mix round ${r.round}: adds to ${total}, not 10`)
-  if (!rows.some((m) => typeById.get(m.type_id)?.skill === 'listening')) fail(`round_type_mix round ${r.round}: no listening type`)
+  if (total !== 10) fail(`${where}: adds to ${total}, not 10`)
+  if (!rows.some((m) => typeById.get(m.type_id)?.skill === 'listening')) fail(`${where}: no listening type`)
   for (const m of rows) {
     const t = typeById.get(m.type_id)
-    if (m.questions_per_10 > 3) fail(`round_type_mix round ${r.round}: ${m.type_id} more than 3 times`)
+    if (m.questions_per_10 > 3) fail(`${where}: ${m.type_id} more than 3 times`)
     if (t && (r.round < t.first_round || r.round > t.last_round)) {
-      fail(`round_type_mix round ${r.round}: ${m.type_id} outside its rounds ${t.first_round} to ${t.last_round}`)
+      fail(`${where}: ${m.type_id} outside its rounds ${t.first_round} to ${t.last_round}`)
     }
   }
 }

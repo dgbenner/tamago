@@ -10,7 +10,8 @@ const dir = at('src/content')
 const t = Object.fromEntries(readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => [f.replace('.json', ''), JSON.parse(readFileSync(`${dir}/${f}`, 'utf8'))]))
 const listFile = at('content/a1-list.json')
 const list = existsSync(listFile) ? JSON.parse(readFileSync(listFile, 'utf8')) : null
-const fold = (s) => String(s).toLowerCase().normalize('NFC').trim()
+// œ folds to oe (FLELex writes oeil, Wiktionary œil).
+const fold = (s) => String(s).toLowerCase().normalize('NFC').replace(/œ/g, 'oe').trim()
 
 // Where a word sits: the main path (A1 units and help circles) or an optional topic pack.
 const kind = new Map(t.units.map((u) => [u.unit_id, u.is_topic_pick === 'yes' ? 'pack' : 'path']))
@@ -20,8 +21,9 @@ for (const r of t.sentence_words) if (r.word_id && live.has(r.sentence_id)) (sen
 // Each course word under its lemma and its form.
 const byKey = new Map()
 for (const w of t.words) for (const k of new Set([fold(w.lemma || w.form), fold(w.form)])) (byKey.get(k) ?? byKey.set(k, []).get(k)).push(w)
-// French elided forms teach their headword (j' is je, c'est carries ce), which FLELex lists in full.
-const ELIDED = { fr: { "j'": 'je', "l'": 'le', "s'": 'se', "m'": 'me', "t'": 'te', "d'": 'de', "n'": 'ne', "qu'": 'que', "c'": 'ce', "c'est": 'ce' } }[COURSE] ?? {}
+// French elided forms teach their headword (j' is je, c'est carries ce), which FLELex lists in full; FLELex lists
+// vacances under vacance.
+const ELIDED = { fr: { "j'": 'je', "l'": 'le', "s'": 'se', "m'": 'me', "t'": 'te', "d'": 'de', "n'": 'ne', "qu'": 'que', "c'": 'ce', "c'est": 'ce', vacances: 'vacance' } }[COURSE] ?? {}
 for (const w of t.words) { const k = ELIDED[fold(w.form)]; if (k) (byKey.get(k) ?? byKey.set(k, []).get(k)).push(w) }
 
 function measure(words, { pathOnly = false } = {}) {

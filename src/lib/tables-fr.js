@@ -26,9 +26,10 @@ import a1_tasks from '../content/a1_tasks.json'
 import a1_texts from '../content/a1_texts.json'
 import a1_forms from '../content/a1_forms.json'
 import a1_prompts from '../content/a1_prompts.json'
+import catch_up from '../content/catch_up.json'
 import a1_listen from '../content/a1_listen.json'
 
 export const tables = {
-  units, sentences, words, sentence_words, accepted_answers, question_types, variants, rounds, tree_layout, grammar_notes, image_set, can_do, conjugations, a1_list, parts, a1_tasks, a1_texts, a1_forms, a1_prompts, a1_listen,
+  units, sentences, words, sentence_words, accepted_answers, question_types, variants, rounds, tree_layout, grammar_notes, image_set, can_do, conjugations, a1_list, parts, a1_tasks, a1_texts, a1_forms, a1_prompts, a1_listen, catch_up,
   round_type_mix, phase1_fallbacks, cant_swaps, flag_reasons, settings_defaults, qa_answers, feedback_phrases,
 }

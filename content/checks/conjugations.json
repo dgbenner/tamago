@@ -129,6 +129,32 @@
       "form": "vont"
     }
   ],
+  "lire": [
+    {
+      "person": "je (j’)",
+      "form": "lis"
+    },
+    {
+      "person": "tu",
+      "form": "lis"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "lit"
+    },
+    {
+      "person": "nous",
+      "form": "lisons"
+    },
+    {
+      "person": "vous",
+      "form": "lisez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "lisent"
+    }
+  ],
   "chanter": [
     {
       "person": "je (j’)",
@@ -673,6 +699,84 @@
     {
       "person": "ils, elles",
       "form": "payent or paient"
+    }
+  ],
+  "regarder": [
+    {
+      "person": "je (j’)",
+      "form": "regarde"
+    },
+    {
+      "person": "tu",
+      "form": "regardes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "regarde"
+    },
+    {
+      "person": "nous",
+      "form": "regardons"
+    },
+    {
+      "person": "vous",
+      "form": "regardez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "regardent"
+    }
+  ],
+  "écouter": [
+    {
+      "person": "je (j’)",
+      "form": "écoute"
+    },
+    {
+      "person": "tu",
+      "form": "écoutes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "écoute"
+    },
+    {
+      "person": "nous",
+      "form": "écoutons"
+    },
+    {
+      "person": "vous",
+      "form": "écoutez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "écoutent"
+    }
+  ],
+  "jouer": [
+    {
+      "person": "je (j’)",
+      "form": "joue"
+    },
+    {
+      "person": "tu",
+      "form": "joues"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "joue"
+    },
+    {
+      "person": "nous",
+      "form": "jouons"
+    },
+    {
+      "person": "vous",
+      "form": "jouez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "jouent"
     }
   ]
 }

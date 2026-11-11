@@ -38,7 +38,9 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
 
 // onTestPass (Testing Shortcuts only, 2026-11-10): a right-to-left swipe on the circle, or the right arrow while it
 // has focus, passes its next lesson without playing it.
-export default function CircleNode({ title, icon, glyph = null, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null }) {
+export default function CircleNode({ title, icon, glyph = null, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null, caption = null, ring = true }) {
+  // caption (Catch-Up, A1 Complete 9): a quiet line under the title, also read out in place of the lesson count; ring
+  // false: no lesson ring, since a Catch-Up circle has no lessons of its own.
   const start = useRef(null)
   const swiped = useRef(false)
   const test = onTestPass ? {
@@ -54,17 +56,17 @@ export default function CircleNode({ title, icon, glyph = null, locked = false, 
   const share = state === 'locked' ? 0 : Math.min(1, lessonsDone / lessonsTotal)
   const opacity = state === 'finished' ? ringOpacity(recall) : 1
   return (
-    <button {...test} onClick={() => { if (swiped.current) { swiped.current = false; return } onPick() }} aria-label={`${title}. ${circleLine({ locked, lessonsDone, lessonsTotal, recall })}${marker ? `. ${MARKERS[marker]}` : ''}`}
+    <button {...test} onClick={() => { if (swiped.current) { swiped.current = false; return } onPick() }} aria-label={`${marker ? `${MARKERS[marker]} ` : ''}${title}. ${caption ?? circleLine({ locked, lessonsDone, lessonsTotal, recall })}`}
       className="flex w-32 flex-col items-center gap-1.5" data-state={state}>
       {/* The marker sits above the circle and keeps its space on every circle, so rows line up. */}
       <span className={`flex h-5 items-center gap-1 text-xs font-semibold text-ring ${marker ? '' : 'invisible'}`} aria-hidden="true">
         <span className="size-2 rounded-full bg-ring" />{MARKERS[marker] ?? MARKERS.start}
-      </span>
+      </span>{' '}{/* keeps "Start Here" and the title apart as words for label-in-name checks */}
       <span className="relative flex size-24 items-center justify-center rounded-full">
         <svg viewBox="0 0 100 100" className="absolute inset-0 size-full -rotate-90" aria-hidden="true">
           <circle cx="50" cy="50" r="40" fill="var(--disc)" fillOpacity={state === 'locked' ? 0.3 : 1} />
           <circle cx="50" cy="50" r={R} fill="none" strokeWidth="6" stroke="var(--line)" />
-          {share > 0 && (
+          {ring && share > 0 && (
             <circle cx="50" cy="50" r={R} fill="none" strokeWidth="6" strokeLinecap="round" stroke="var(--ring)" strokeOpacity={opacity}
               strokeDasharray={`${share * LEN} ${LEN}`} />
           )}
@@ -75,6 +77,7 @@ export default function CircleNode({ title, icon, glyph = null, locked = false, 
             : icon ? <img src={icon} alt="" className="relative size-[4.25rem] object-contain" /> : null}
       </span>
       <span className={`text-base leading-tight font-semibold ${state === 'locked' ? 'text-muted' : ''}`}>{title}</span>
+      {caption && <>{' '}<span className="-mt-1 text-sm text-muted">{caption}</span></>}
     </button>
   )
 }

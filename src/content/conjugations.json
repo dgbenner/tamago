@@ -150,6 +150,36 @@
     "source": "https://en.wiktionary.org/wiki/aller#Conjugation"
   },
   {
+    "lemma": "lire",
+    "present": [
+      {
+        "person": "je (j’)",
+        "form": "lis"
+      },
+      {
+        "person": "tu",
+        "form": "lis"
+      },
+      {
+        "person": "il, elle, on",
+        "form": "lit"
+      },
+      {
+        "person": "nous",
+        "form": "lisons"
+      },
+      {
+        "person": "vous",
+        "form": "lisez"
+      },
+      {
+        "person": "ils, elles",
+        "form": "lisent"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/lire#Conjugation"
+  },
+  {
     "lemma": "chanter",
     "present": [
       {
@@ -778,5 +808,95 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/payer#Conjugation"
+  },
+  {
+    "lemma": "regarder",
+    "present": [
+      {
+        "person": "je (j’)",
+        "form": "regarde"
+      },
+      {
+        "person": "tu",
+        "form": "regardes"
+      },
+      {
+        "person": "il, elle, on",
+        "form": "regarde"
+      },
+      {
+        "person": "nous",
+        "form": "regardons"
+      },
+      {
+        "person": "vous",
+        "form": "regardez"
+      },
+      {
+        "person": "ils, elles",
+        "form": "regardent"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/regarder#Conjugation"
+  },
+  {
+    "lemma": "écouter",
+    "present": [
+      {
+        "person": "je (j’)",
+        "form": "écoute"
+      },
+      {
+        "person": "tu",
+        "form": "écoutes"
+      },
+      {
+        "person": "il, elle, on",
+        "form": "écoute"
+      },
+      {
+        "person": "nous",
+        "form": "écoutons"
+      },
+      {
+        "person": "vous",
+        "form": "écoutez"
+      },
+      {
+        "person": "ils, elles",
+        "form": "écoutent"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/%C3%A9couter#Conjugation"
+  },
+  {
+    "lemma": "jouer",
+    "present": [
+      {
+        "person": "je (j’)",
+        "form": "joue"
+      },
+      {
+        "person": "tu",
+        "form": "joues"
+      },
+      {
+        "person": "il, elle, on",
+        "form": "joue"
+      },
+      {
+        "person": "nous",
+        "form": "jouons"
+      },
+      {
+        "person": "vous",
+        "form": "jouez"
+      },
+      {
+        "person": "ils, elles",
+        "form": "jouent"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/jouer#Conjugation"
   }
 ]

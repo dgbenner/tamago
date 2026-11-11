@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 1264 (915 matched to Tatoeba, 349 Tamago originals), 71 off, 402 awaiting a ruling. Words with Wiktionary data: 363 of 363. French-to-English answers: 408 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 426.
+Sentences live: 1488 (1074 matched to Tatoeba, 414 Tamago originals), 71 off, 561 awaiting a ruling. Words with Wiktionary data: 437 of 437. French-to-English answers: 473 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 434.
 
 Unit 1 is approved and live.
 
@@ -34,7 +34,7 @@ Candidates use only Unit 1 words, have 6 words or fewer, have a linked English t
 | S6056 |  | Tu as du temps ?<br>Do you have time? | none |
 | S6057 |  | Il a du temps.<br>He has time. | none |
 
-## Tamago originals: native-speaker check needed before Phase 4 (349)
+## Tamago originals: native-speaker check needed before Phase 4 (414)
 
 Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 
@@ -389,8 +389,73 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S10865 |  | Le paquet est dans le sac. | The packet is in the bag. | tts |
 | S10866 |  | C'est un petit paquet. | It's a small packet. | tts |
 | S10868 |  | La boîte est dans le sac. | The box is in the bag. | tts |
+| S11261 |  | Où est le musée ? | Where is the museum? | tts |
+| S11262 |  | Je vais au musée avec Paul. | I'm going to the museum with Paul. | tts |
+| S11263 |  | C'est un grand musée. | It's a big museum. | tts |
+| S11264 |  | La piscine est grande. | The swimming pool is big. | tts |
+| S11265 |  | Tu vas à la piscine ? | Are you going to the swimming pool? | tts |
+| S11266 |  | Je vais à l'école en bus. | I go to school by bus. | tts |
+| S11267 |  | Où est le bus ? | Where is the bus? | tts |
+| S11268 |  | Où est le cinéma ? | Where is the cinema? | tts |
+| S11269 |  | C'est le métro. | It's the metro. | tts |
+| S11270 |  | C'est un petit village. | It's a small village. | tts |
+| S11271 |  | Le village est petit. | The village is small. | tts |
+| S11272 |  | C'est ton bus ? | Is that your bus? | tts |
+| S11273 |  | Je vais à la gare. | I'm going to the station. | tts |
+| S11274 |  | Où est le métro ? | Where is the metro? | tts |
+| S11361 |  | J'aime la danse. | I like dance. | tts |
+| S11362 |  | C'est une belle danse. | It's a beautiful dance. | tts |
+| S11363 |  | Il aime la danse. | He likes dance. | tts |
+| S11364 |  | C'est un jeu. | It's a game. | tts |
+| S11365 |  | C'est mon jeu. | It's my game. | tts |
+| S11366 |  | Tu as un jeu ? | Do you have a game? | tts |
+| S11368 |  | Tu aimes le ski ? | Do you like skiing? | tts |
+| S11369 |  | Elle aime le ski. | She likes skiing. | tts |
+| S11370 |  | C'est une belle photo. | It's a beautiful photo. | tts |
+| S11371 |  | C'est un beau voyage. | It's a beautiful trip. | tts |
+| S11372 |  | C'est une belle fête. | It's a lovely party. | tts |
+| S11461 |  | C'est ma main. | It's my hand. | tts |
+| S11462 |  | Ma main est petite. | My hand is small. | tts |
+| S11463 |  | C'est ma tête. | It's my head. | tts |
+| S11464 |  | Il a une grande tête. | He has a big head. | tts |
+| S11465 |  | C'est mon dos. | It's my back. | tts |
+| S11466 |  | Le chien a un dos noir. | The dog has a black back. | tts |
+| S11467 |  | Le dos du chat est blanc. | The cat's back is white. | tts |
+| S11468 |  | J'aime mes cheveux. | I like my hair. | tts |
+| S11469 |  | Elle aime ses cheveux. | She likes her hair. | tts |
+| S11471 |  | Tu as peur ? | Are you afraid? | tts |
+| S11472 |  | La tête du chien est petite. | The dog's head is small. | tts |
+| S11473 |  | Le chat a peur. | The cat is afraid. | tts |
+| S11561 |  | J'aime les gens. | I like people. | tts |
+| S11562 |  | Elle aime les gens. | She likes people. | tts |
+| S11563 |  | C'est mon copain. | He's my friend. | tts |
+| S11564 |  | Paul est mon copain. | Paul is my friend. | tts |
+| S11565 |  | C'est ma copine. | She's my friend. | tts |
+| S11566 |  | Marie est ma copine. | Marie is my friend. | tts |
+| S11567 |  | Je suis élève. | I'm a pupil. | tts |
+| S11568 |  | C'est un bon élève. | He's a good pupil. | tts |
+| S11569 |  | C'est un client. | He's a customer. | tts |
+| S11570 |  | Le client est content. | The customer is pleased. | tts |
+| S11571 |  | Qui est la dame ? | Who is the lady? | tts |
+| S11572 |  | J'aime le pain, mais pas le fromage. | I like bread, but not cheese. | tts |
+| S11661 |  | La montagne est belle. | The mountain is beautiful. | tts |
+| S11662 |  | J'aime la montagne. | I like the mountains. | tts |
+| S11663 |  | Le chat est dans l'arbre. | The cat is in the tree. | tts |
+| S11664 |  | La terre est noire. | The soil is black. | tts |
+| S11665 |  | La terre est rouge ici. | The soil is red here. | tts |
+| S11666 |  | Le vent est froid. | The wind is cold. | tts |
+| S11667 |  | J'aime le vent. | I like the wind. | tts |
+| S11668 |  | J'aime la nature. | I like nature. | tts |
+| S11669 |  | C'est un pont. | It's a bridge. | tts |
+| S11670 |  | Le pont est grand. | The bridge is big. | tts |
+| S11671 |  | Où est le pont ? | Where is the bridge? | tts |
+| S11672 |  | J'habite dans le sud. | I live in the south. | tts |
+| S11673 |  | Il va dans le sud. | He's going to the south. | tts |
+| S11674 |  | Elle habite dans le sud de la France. | She lives in the south of France. | tts |
+| S11675 |  | Où est la route ? | Where is the road? | tts |
+| S11676 |  | Il aime la nature. | He likes nature. | tts |
 
-## Words, for a read-through (363)
+## Words, for a read-through (437)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -759,8 +824,82 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W908 | trop | trop | Adverb |  | too; too much | checked |
 | W909 | d' | d' | Preposition |  | apocopic form of de: of | checked |
 | W910 | biscuits | biscuit | Noun | m | plural of biscuit (biscuit: biscuit) | checked |
+| W1001 | cinéma | cinéma | Noun | m | cinema, filmmaking | checked |
+| W1002 | gare | gare | Noun | f | railway station | checked |
+| W1003 | hôtel | hôtel | Noun | m | hotel | checked |
+| W1004 | église | église | Noun | f | church | checked |
+| W1005 | musée | musée | Noun | m | museum | checked |
+| W1006 | piscine | piscine | Noun | f | swimming pool | checked |
+| W1007 | bus | bus | Noun | m/f | bus | checked |
+| W1008 | train | train | Noun | m | train | checked |
+| W1009 | vélo | vélo | Noun | m | bike, bicycle, cycle | checked |
+| W1010 | voiture | voiture | Noun | f | car | checked |
+| W1011 | métro | métro | Noun | m | metro; subway , underground , Tube | checked |
+| W1012 | village | village | Noun | m | village | checked |
+| W1013 | avec | avec | Preposition |  | with | checked |
+| W1014 | film | film | Noun | m | movie, film | checked |
+| W1015 | photo | photo | Noun | f | photo | checked |
+| W1016 | jeu | jeu | Noun | m | game | checked |
+| W1017 | danse | danse | Noun | f | dance | checked |
+| W1018 | ski | ski | Noun | m | ski | checked |
+| W1019 | fête | fête | Noun | f | party | checked |
+| W1020 | cadeau | cadeau | Noun | m | present, gift | checked |
+| W1021 | voyage | voyage | Noun | m | trip, journey, voyage | checked |
+| W1022 | vacances | vacance | Noun | f | plural of vacance (vacance: vacancy) | checked |
+| W1023 | jardin | jardin | Noun | m | garden | checked |
+| W1024 | regarde | regarder | Verb |  | inflection of regarder: first/third-person singular present indicative/subjunctive second-person singular imperative (regarder: to look at) | checked |
+| W1025 | regarder | regarder | Verb |  | to look at | checked |
+| W1026 | écoute | écouter | Verb |  | inflection of écouter: first/third-person singular present indicative/subjunctive second-person singular imperative (écouter: to listen) | checked |
+| W1027 | joue | jouer | Verb |  | inflection of jouer: first/third-person singular present indicative/subjunctive second-person singular imperative (jouer: to play [with à]) | checked |
+| W1028 | jouer | jouer | Verb |  | to play [with à] | checked |
+| W1029 | lis | lire | Verb |  | inflection of lire: first/second-person singular present indicative second-person singular present imperative (lire: to read) | checked |
+| W1030 | lire | lire | Verb |  | to read | checked |
+| W1031 | main | main | Noun | f | hand | checked |
+| W1032 | tête | tête | Noun | f | head | checked |
+| W1033 | pied | pied | Noun | m | foot | checked |
+| W1034 | yeux | œil | Noun | m | plural of œil, eyes (œil: eye, organ that is sensitive to light, helping organisms to see) | checked |
+| W1035 | dos | a | Noun | m | back (of a person) (a: a, the name of the Latin-script letter A) | checked |
+| W1036 | cheveux | cheveu | Noun | m | plural of cheveu (cheveu: a headhair) | checked |
+| W1037 | content | content | Adjective |  | content, satisfied, pleased | checked |
+| W1038 | contente | content | Adjective |  | feminine singular of content (content: content, satisfied, pleased) | checked |
+| W1039 | heureux | heureux | Adjective |  | happy | checked |
+| W1040 | heureuse | heureux | Adjective |  | feminine singular of heureux (heureux: happy) | checked |
+| W1041 | triste | triste | Adjective |  | sad | checked |
+| W1042 | peur | peur | Noun | f | fear | checked |
+| W1043 | sympa | sympa | Adjective |  | nice; likeable | checked |
+| W1044 | calme | calme | Adjective |  | calm | checked |
+| W1045 | seul | seul | Adjective |  | alone | checked |
+| W1046 | seule | seul | Adjective |  | feminine singular of seul (seul: lonely) | checked |
+| W1047 | gens | gens | Noun | m | set of people | checked |
+| W1048 | dame | dame | Noun | f | lady | checked |
+| W1049 | copain | copain | Noun | m | friend, chum, mate , pal, buddy | checked |
+| W1050 | copine | copine | Noun | f | female equivalent of copain: female friend, girl friend, chum, pal | checked |
+| W1051 | voisin | voisin | Noun | m | neighbour, neighbor | checked |
+| W1052 | voisine | voisine | Noun | f | female equivalent of voisin | checked |
+| W1053 | étudiant | étudiant | Noun | m | student | checked |
+| W1054 | étudiante | étudiant | Noun | f | feminine singular of étudiant (étudiant: student) | checked |
+| W1055 | élève | élève | Noun | m/f | schoolboy, pupil, student | checked |
+| W1056 | professeur | professeur | Noun | m | teacher | checked |
+| W1057 | touriste | touriste | Noun | m/f | tourist, holidaymaker, sightseer | checked |
+| W1058 | client | client | Noun | m | customer | checked |
+| W1059 | mais | mais | Conjunction |  | but, although | checked |
+| W1060 | aussi | aussi | Adverb |  | too, also, as well | checked |
+| W1061 | ou | ou | Conjunction |  | or | checked |
+| W1062 | montagne | montagne | Noun | f | mountain | checked |
+| W1063 | campagne | campagne | Noun | f | country, countryside | checked |
+| W1064 | arbre | arbre | Noun | m | tree | checked |
+| W1065 | fleur | fleur | Noun | f | flower; bloom; blossom; collectively, the reproductive organs and the envelope which surrounds them in angiosperms | checked |
+| W1066 | fleurs | fleur | Noun | f | plural of fleur (fleur: flower; bloom; blossom; collectively, the reproductive organs and the envelope which surrounds them in angiosperms) | checked |
+| W1067 | terre | terre | Noun | f | earth; soil | checked |
+| W1068 | vent | vent | Noun | m | wind | checked |
+| W1069 | nature | nature | Noun | f | nature | checked |
+| W1070 | route | route | Noun | f | road | checked |
+| W1071 | pont | pont | Noun | m | bridge | checked |
+| W1072 | chemin | chemin | Noun | m | path, way, road | checked |
+| W1073 | sud | sud | Noun | m | south | checked |
+| W1074 | sur | sur | Preposition |  | on, upon | checked |
 
-## Matched to Tatoeba (915)
+## Matched to Tatoeba (1074)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -1664,6 +1803,163 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10831 | Je suis d'ici. | I'm from here. | [#8332333](https://tatoeba.org/en/sentences/show/8332333) | theachaean |  |  | tts |
 | S10852 | Plus de biscuits ! | No more biscuits! | [#2319109](https://tatoeba.org/en/sentences/show/2319109) | sacredceltic |  |  | tts |
 | S10851 | J'aime les biscuits. | I like biscuits. | [#5299447](https://tatoeba.org/en/sentences/show/5299447) | pititnatole |  |  | tts |
+| S11201 | Je vais à l'église en voiture. | I go to church by car. | [#6366](https://tatoeba.org/en/sentences/show/6366) | mrtaistoi |  |  | tts |
+| S11202 | C'est ta voiture ? | Is that your car? | [#1291239](https://tatoeba.org/en/sentences/show/1291239) | slegros |  |  | tts |
+| S11203 | Je parle avec qui ? | Who am I talking with? | [#3647](https://tatoeba.org/en/sentences/show/3647) | TRANG |  |  | tts |
+| S11204 | Où est ma voiture ? | Where's my car? | [#7725](https://tatoeba.org/en/sentences/show/7725) | sacredceltic |  |  | tts |
+| S11205 | Où est la gare ? | Where's the station? | [#136614](https://tatoeba.org/en/sentences/show/136614) | Aiji |  |  | tts |
+| S11206 | Est-ce que c'est votre vélo ? | Is that your bicycle? | [#331103](https://tatoeba.org/en/sentences/show/331103) | themiska |  |  | tts |
+| S11207 | On va au cinéma ? | Are we going to the cinema? | [#1098980](https://tatoeba.org/en/sentences/show/1098980) | Eldad |  |  | tts |
+| S11208 | Où est l'hôtel ? | Where is the hotel? | [#2508115](https://tatoeba.org/en/sentences/show/2508115) | Aiji |  |  | tts |
+| S11209 | Où est le vélo ? | Where is the bicycle? | [#6195363](https://tatoeba.org/en/sentences/show/6195363) | Sorgan |  |  | tts |
+| S11210 | Où est mon vélo ? | Where's my bike? | [#7411723](https://tatoeba.org/en/sentences/show/7411723) | lbdx |  |  | tts |
+| S11211 | Où est votre hôtel ? | Where's your hotel? | [#8269919](https://tatoeba.org/en/sentences/show/8269919) | Aiji |  |  | tts |
+| S11212 | Où est ton hôtel ? | Where's your hotel? | [#8269920](https://tatoeba.org/en/sentences/show/8269920) | Aiji |  |  | tts |
+| S11213 | Avec qui est-ce que je parle ? | With whom am I speaking? | [#478643](https://tatoeba.org/en/sentences/show/478643) | sacredceltic |  |  | tts |
+| S11214 | Qui est ici avec vous ? | Who's here with you? | [#3639818](https://tatoeba.org/en/sentences/show/3639818) | sacredceltic |  |  | tts |
+| S11215 | Excusez-moi, où est le métro ? | Excuse me. Where's the subway? | [#4586638](https://tatoeba.org/en/sentences/show/4586638) | pfpillon |  |  | tts |
+| S11216 | À quelle heure est ton train ? | What time's your train? | [#6587487](https://tatoeba.org/en/sentences/show/6587487) | GB3 |  |  | tts |
+| S11217 | À quelle heure est votre train ? | What time's your train? | [#6587488](https://tatoeba.org/en/sentences/show/6587488) | GB3 |  |  | tts |
+| S11218 | C'est une église. | That's a church. | [#4451317](https://tatoeba.org/en/sentences/show/4451317) | franlexcois |  |  | tts |
+| S11219 | C'est un village. | It's a village. | [#6059959](https://tatoeba.org/en/sentences/show/6059959) | christian63 |  |  | tts |
+| S11220 | À la piscine ! | To the swimming pool! | [#7477639](https://tatoeba.org/en/sentences/show/7477639) | Micsmithel |  |  | tts |
+| S11221 | Je vais au cinéma. | I'm going to the cinema. | [#5992174](https://tatoeba.org/en/sentences/show/5992174) | christian63 |  |  | tts |
+| S11222 | Je vais à l'église. | I'm going to church. | [#6463233](https://tatoeba.org/en/sentences/show/6463233) | Aiji |  |  | tts |
+| S11223 | Il est à la gare. | He's at the station. | [#11791908](https://tatoeba.org/en/sentences/show/11791908) | Zahia_Ntmazirt |  |  | tts |
+| S11224 | Ne mange pas dans le train. | Don't eat on the train. | [#13343800](https://tatoeba.org/en/sentences/show/13343800) | genes1s |  |  | tts |
+| S11225 | Est-ce que c'est votre voiture ? | Is this your car? | [#331102](https://tatoeba.org/en/sentences/show/331102) | themiska |  |  | tts |
+| S11226 | Où est la voiture ? | Where's the car? | [#6005526](https://tatoeba.org/en/sentences/show/6005526) | Aiji |  |  | tts |
+| S11227 | Où est ton vélo ? | Where's your bike? | [#10791041](https://tatoeba.org/en/sentences/show/10791041) | felix63 |  |  | tts |
+| S11228 | Est-ce que tu as une voiture ? | Do you have a car? | [#6773904](https://tatoeba.org/en/sentences/show/6773904) | Micsmithel |  |  | tts |
+| S11229 | Tu ne manges pas avec nous ? | Aren't you going to eat with us? | [#11916841](https://tatoeba.org/en/sentences/show/11916841) | lbdx |  |  | tts |
+| S11230 | Qui est la fille dans ta voiture ? | Who is the girl in your car? | [#3507490](https://tatoeba.org/en/sentences/show/3507490) | Aiji |  |  | tts |
+| S11301 | Regarde le film. | Watch the movie. | [#11837599](https://tatoeba.org/en/sentences/show/11837599) | Amastan |  |  | tts |
+| S11302 | Je regarde un film. | I'm watching a movie. | [#3667118](https://tatoeba.org/en/sentences/show/3667118) | fleur74 |  |  | tts |
+| S11303 | Il va regarder un film. | He's going to watch a movie. | [#4075959](https://tatoeba.org/en/sentences/show/4075959) | Amastan |  |  | tts |
+| S11304 | J'aime regarder jouer les enfants. | I enjoy watching children play. | [#997363](https://tatoeba.org/en/sentences/show/997363) | sacredceltic |  |  | tts |
+| S11305 | Le chat aime jouer dans le jardin. | The cat loves playing in the garden. | [#2928682](https://tatoeba.org/en/sentences/show/2928682) | Blabla |  |  | tts |
+| S11306 | Qui regarde ? | Who's watching? | [#2206208](https://tatoeba.org/en/sentences/show/2206208) | sacredceltic |  |  | tts |
+| S11307 | Qu'est-ce que tu lis ? | What're you reading? | [#4575264](https://tatoeba.org/en/sentences/show/4575264) | gillux |  |  | tts |
+| S11308 | Vous êtes en vacances ici ? | Are you on vacation here? | [#6299282](https://tatoeba.org/en/sentences/show/6299282) | Scorpionvenin14 |  |  | tts |
+| S11309 | Pourquoi est-ce que tu lis ça ? | Why are you reading that? | [#7067828](https://tatoeba.org/en/sentences/show/7067828) | Aiji |  |  | tts |
+| S11310 | Tu ne lis pas de livres ? | Don't you read books? | [#9997561](https://tatoeba.org/en/sentences/show/9997561) | felix63 |  |  | tts |
+| S11311 | Écoute bien. | Listen well. | [#13739](https://tatoeba.org/en/sentences/show/13739) | dominiko |  |  | tts |
+| S11312 | Bon voyage ! | Have a good trip! | [#435206](https://tatoeba.org/en/sentences/show/435206) | qdii |  |  | lingua_libre |
+| S11313 | Écoute ça ! | Listen to this! | [#1407117](https://tatoeba.org/en/sentences/show/1407117) | sacredceltic |  |  | tts |
+| S11314 | J'écoute. | I'm listening. | [#3469017](https://tatoeba.org/en/sentences/show/3469017) | Lulantis |  |  | tts |
+| S11315 | Je joue. | I'm playing. | [#7821807](https://tatoeba.org/en/sentences/show/7821807) | theachaean |  |  | tts |
+| S11316 | Il joue. | He plays. | [#7821821](https://tatoeba.org/en/sentences/show/7821821) | theachaean |  |  | tts |
+| S11317 | Joue maintenant. | Play now. | [#8703223](https://tatoeba.org/en/sentences/show/8703223) | Julien_PDC |  |  | tts |
+| S11318 | Quelle fête ! | What a great party! | [#10365016](https://tatoeba.org/en/sentences/show/10365016) | sacredceltic |  |  | tts |
+| S11319 | Quel beau jardin. | What a beautiful garden! | [#15785](https://tatoeba.org/en/sentences/show/15785) | TRANG |  |  | tts |
+| S11320 | C'est sa photo. | It is his photo. | [#535427](https://tatoeba.org/en/sentences/show/535427) | zmoo |  |  | tts |
+| S11321 | J'aime lire. | I like reading. | [#1276212](https://tatoeba.org/en/sentences/show/1276212) | sacredceltic |  |  | tts |
+| S11322 | C'est un cadeau. | It's a gift. | [#7876070](https://tatoeba.org/en/sentences/show/7876070) | Rockaround |  |  | tts |
+| S11323 | Voici une photo. | Here is a photo. | [#8690330](https://tatoeba.org/en/sentences/show/8690330) | Micsmithel |  |  | tts |
+| S11324 | Je suis en vacances. | I'm on vacation. | [#6538](https://tatoeba.org/en/sentences/show/6538) | TRANG |  |  | tts |
+| S11325 | Merci pour votre cadeau. | Thanks for your gift. | [#13260](https://tatoeba.org/en/sentences/show/13260) | sacredceltic |  |  | tts |
+| S11326 | Merci pour le cadeau. | Thanks for the gift. | [#751004](https://tatoeba.org/en/sentences/show/751004) | Cocorico |  |  | tts |
+| S11327 | Ils sont au jardin. | They're in the garden. | [#1366922](https://tatoeba.org/en/sentences/show/1366922) | sacredceltic |  |  | tts |
+| S11328 | Bon voyage à vous ! | A pleasant trip to you! | [#2199962](https://tatoeba.org/en/sentences/show/2199962) | Aiji |  |  | tts |
+| S11329 | Elle est en vacances. | She's on vacation. | [#4676988](https://tatoeba.org/en/sentences/show/4676988) | thowas |  |  | tts |
+| S11330 | La fête est lundi. | The party's Monday. | [#6935891](https://tatoeba.org/en/sentences/show/6935891) | Aiji |  |  | tts |
+| S11331 | Le chien veut jouer. | The dog wants to play. | [#8681814](https://tatoeba.org/en/sentences/show/8681814) | Julien_PDC |  |  | tts |
+| S11332 | J'aime lire des livres. | I like reading books. | [#127542](https://tatoeba.org/en/sentences/show/127542) | sysko |  |  | tts |
+| S11333 | C'est un livre à lire. | This is a book to read. | [#488739](https://tatoeba.org/en/sentences/show/488739) | sacredceltic |  |  | tts |
+| S11334 | Je ne vais pas regarder. | I'm not going to look. | [#4862750](https://tatoeba.org/en/sentences/show/4862750) | sacredceltic |  |  | tts |
+| S11401 | Elle est heureuse et contente. | She's happy and satisfied. | [#1684820](https://tatoeba.org/en/sentences/show/1684820) | sacredceltic |  |  | tts |
+| S11402 | Je suis heureux et content. | I'm happy and satisfied. | [#1684822](https://tatoeba.org/en/sentences/show/1684822) | sacredceltic |  |  | tts |
+| S11403 | Vous habitez seul ? | Do you live alone? | [#6219294](https://tatoeba.org/en/sentences/show/6219294) | Aiji |  |  | tts |
+| S11404 | Il est seul, non? | He's alone, isn't he? | [#8660511](https://tatoeba.org/en/sentences/show/8660511) | Julien_PDC |  |  | tts |
+| S11405 | Comment va ton pied ? | How's your foot? | [#9167298](https://tatoeba.org/en/sentences/show/9167298) | simias |  |  | tts |
+| S11406 | Du calme ! | Quiet! | [#1589203](https://tatoeba.org/en/sentences/show/1589203) | sacredceltic |  |  | tts |
+| S11407 | C'est triste ! | Sad! | [#4578478](https://tatoeba.org/en/sentences/show/4578478) | sacredceltic |  |  | tts |
+| S11408 | C'est calme. | It's quiet. | [#5814297](https://tatoeba.org/en/sentences/show/5814297) | Aiji |  |  | tts |
+| S11409 | C'est sympa. | This is cool. | [#7553114](https://tatoeba.org/en/sentences/show/7553114) | Aiji |  |  | tts |
+| S11410 | Quel calme ! | How peaceful! | [#9745755](https://tatoeba.org/en/sentences/show/9745755) | Micsmithel |  |  | tts |
+| S11411 | C'est très triste. | It's very sad. | [#12898](https://tatoeba.org/en/sentences/show/12898) | engone |  |  | tts |
+| S11412 | Je suis triste. | I'm sad. | [#333733](https://tatoeba.org/en/sentences/show/333733) | sysko |  |  | tts |
+| S11413 | Je mange seul. | I eat alone. | [#2415913](https://tatoeba.org/en/sentences/show/2415913) | sacredceltic |  |  | tts |
+| S11414 | Je mange seule. | I eat alone. | [#2415914](https://tatoeba.org/en/sentences/show/2415914) | sacredceltic |  |  | tts |
+| S11415 | Je suis seule. | I'm alone. | [#4592157](https://tatoeba.org/en/sentences/show/4592157) | sacredceltic |  |  | tts |
+| S11416 | Vous êtes sympa. | You're nice. | [#4654501](https://tatoeba.org/en/sentences/show/4654501) | sacredceltic |  |  | tts |
+| S11417 | Ils sont sympa. | They're cool. | [#4729681](https://tatoeba.org/en/sentences/show/4729681) | sacredceltic |  |  | tts |
+| S11418 | Je suis content. | I'm glad. | [#5369590](https://tatoeba.org/en/sentences/show/5369590) | Aiji |  |  | tts |
+| S11419 | Tu es content. | You're satisfied. | [#6886725](https://tatoeba.org/en/sentences/show/6886725) | sacredceltic |  |  | tts |
+| S11420 | Vous êtes contente. | You're satisfied. | [#6886727](https://tatoeba.org/en/sentences/show/6886727) | sacredceltic |  |  | tts |
+| S11421 | Je suis très heureux. | I'm very happy. | [#1017252](https://tatoeba.org/en/sentences/show/1017252) | sacredceltic |  |  | tts |
+| S11422 | Je suis très heureuse. | I'm very happy. | [#1017257](https://tatoeba.org/en/sentences/show/1017257) | sacredceltic |  |  | tts |
+| S11423 | C'est une chose heureuse. | It's a happy thing. | [#1181802](https://tatoeba.org/en/sentences/show/1181802) | sacredceltic |  |  | tts |
+| S11424 | J'aime tes yeux ! | I like your eyes! | [#1181978](https://tatoeba.org/en/sentences/show/1181978) | sacredceltic |  |  | tts |
+| S11425 | J'aime tes cheveux. | I like your hair. | [#1998795](https://tatoeba.org/en/sentences/show/1998795) | sacredceltic |  |  | tts |
+| S11426 | Mon chat est heureux. | My cat is happy. | [#2195982](https://tatoeba.org/en/sentences/show/2195982) | sacredceltic |  |  | tts |
+| S11427 | J'en suis contente. | I'm happy with that. | [#2251690](https://tatoeba.org/en/sentences/show/2251690) | sacredceltic |  |  | tts |
+| S11428 | J'ai deux yeux. | I have two eyes. | [#3239932](https://tatoeba.org/en/sentences/show/3239932) | sacredceltic |  |  | tts |
+| S11429 | J'ai des yeux. | I have eyes. | [#3566810](https://tatoeba.org/en/sentences/show/3566810) | sacredceltic |  |  | tts |
+| S11430 | Je ne suis pas seule. | I'm not alone. | [#4299265](https://tatoeba.org/en/sentences/show/4299265) | nimfeo |  |  | tts |
+| S11431 | J'ai un livre à la main. | I have a book in my hand. | [#6361](https://tatoeba.org/en/sentences/show/6361) | PERCE_NEIGE |  |  | tts |
+| S11432 | Elle va à l'école à pied. | She goes to school on foot. | [#134660](https://tatoeba.org/en/sentences/show/134660) | zmoo |  |  | tts |
+| S11433 | Je vais à l'école à pied. | I go to school on foot. | [#351410](https://tatoeba.org/en/sentences/show/351410) | Barbiche0 |  |  | tts |
+| S11501 | Oui, je suis aussi étudiant. | Yes, I'm a student too. | [#2667152](https://tatoeba.org/en/sentences/show/2667152) | Julien_PDC |  |  | tts |
+| S11502 | Oui ou non ? | Yes or no? | [#569861](https://tatoeba.org/en/sentences/show/569861) | sacredceltic |  |  | tts |
+| S11503 | Grand ou petit ? | Large or small? | [#7499495](https://tatoeba.org/en/sentences/show/7499495) | Micsmithel |  |  | tts |
+| S11504 | Qui est votre professeur ? | Who's your teacher? | [#1564372](https://tatoeba.org/en/sentences/show/1564372) | sacredceltic |  |  | tts |
+| S11505 | Qui est ta copine ? | Who is your friend? | [#2254182](https://tatoeba.org/en/sentences/show/2254182) | sacredceltic |  |  | tts |
+| S11506 | Où est ton copain ? | Where is your friend? | [#5983719](https://tatoeba.org/en/sentences/show/5983719) | christian63 |  |  | tts |
+| S11507 | Qui est mon professeur ? | Who's my teacher? | [#6627280](https://tatoeba.org/en/sentences/show/6627280) | GB3 |  |  | tts |
+| S11508 | C'est français ou anglais ? | Is this French or English? | [#7745836](https://tatoeba.org/en/sentences/show/7745836) | lbdx |  |  | tts |
+| S11509 | Comment s'appelle son professeur ? | What's his teacher's name? | [#3680358](https://tatoeba.org/en/sentences/show/3680358) | maydoo |  |  | tts |
+| S11510 | Je suis étudiant. | I'm a student. | [#6692](https://tatoeba.org/en/sentences/show/6692) | U2FS |  |  | tts |
+| S11511 | Je suis touriste. | I'm a tourist. | [#514787](https://tatoeba.org/en/sentences/show/514787) | Micsmithel |  |  | tts |
+| S11512 | C'est mon voisin. | He's my neighbour. | [#784541](https://tatoeba.org/en/sentences/show/784541) | Julien_PDC |  |  | tts |
+| S11513 | C'est un étudiant. | He is a student. | [#1123136](https://tatoeba.org/en/sentences/show/1123136) | sacredceltic |  |  | tts |
+| S11514 | C'est un touriste. | He's a tourist. | [#6590331](https://tatoeba.org/en/sentences/show/6590331) | GB3 |  |  | tts |
+| S11515 | C'est ma voisine. | She's my neighbour. | [#9046114](https://tatoeba.org/en/sentences/show/9046114) | Micsmithel |  |  | tts |
+| S11516 | Tu es une étudiante. | You are a student. | [#1865756](https://tatoeba.org/en/sentences/show/1865756) | Aiji |  |  | tts |
+| S11517 | Vous êtes une étudiante. | You are a student. | [#1865759](https://tatoeba.org/en/sentences/show/1865759) | Aiji |  |  | tts |
+| S11518 | Je vous aime aussi. | I love you, too. | [#1974622](https://tatoeba.org/en/sentences/show/1974622) | Aiji |  |  | tts |
+| S11519 | Je suis votre voisin. | I'm your neighbor. | [#3466465](https://tatoeba.org/en/sentences/show/3466465) | Lulantis |  |  | tts |
+| S11520 | Je parle aussi français. | I speak French, too. | [#3790450](https://tatoeba.org/en/sentences/show/3790450) | Aristys |  |  | tts |
+| S11521 | Mon voisin est sympa. | My neighbor is nice. | [#5920544](https://tatoeba.org/en/sentences/show/5920544) | Aiji |  |  | tts |
+| S11522 | Ma voisine est gentille. | My neighbour is nice. | [#5920545](https://tatoeba.org/en/sentences/show/5920545) | Aiji |  |  | tts |
+| S11523 | Je suis un touriste. | I'm a tourist. | [#6462964](https://tatoeba.org/en/sentences/show/6462964) | Aiji |  |  | tts |
+| S11524 | Mais je t'aime ! | But I love you! | [#10087314](https://tatoeba.org/en/sentences/show/10087314) | Rovo |  |  | tts |
+| S11525 | Elle est une jeune étudiante. | She's a young student. | [#2604285](https://tatoeba.org/en/sentences/show/2604285) | Julien_PDC |  |  | tts |
+| S11526 | Je suis avec un client. | I'm with a customer. | [#3093169](https://tatoeba.org/en/sentences/show/3093169) | Blabla |  |  | tts |
+| S11527 | J'aime regarder les gens. | I like watching people. | [#4686098](https://tatoeba.org/en/sentences/show/4686098) | sacredceltic |  |  | tts |
+| S11528 | La dame est encore seule. | The lady is still alone. | [#6112663](https://tatoeba.org/en/sentences/show/6112663) | christian63 |  |  | tts |
+| S11529 | C'est une voisine très sympa. | She's a very friendly neighbour. | [#11982826](https://tatoeba.org/en/sentences/show/11982826) | lbdx |  |  | tts |
+| S11530 | Je ne suis pas un élève. | I'm not a pupil. | [#1995311](https://tatoeba.org/en/sentences/show/1995311) | sacredceltic |  |  | tts |
+| S11531 | Excusez-moi mais je ne comprends pas. | Sorry, but I don't understand. | [#6219281](https://tatoeba.org/en/sentences/show/6219281) | Aiji |  |  | tts |
+| S11532 | La dame a plus de quatre-vingts ans. | The lady is over eighty years old. | [#2659976](https://tatoeba.org/en/sentences/show/2659976) | Rovo |  |  | tts |
+| S11601 | Je suis sur la route. | I'm on the road. | [#8064883](https://tatoeba.org/en/sentences/show/8064883) | Aiji |  |  | tts |
+| S11602 | Je suis sur le chemin du magasin. | I'm on the way to the store. | [#7967345](https://tatoeba.org/en/sentences/show/7967345) | Aiji |  |  | tts |
+| S11603 | C'est une fleur ? | This is a flower? | [#8553167](https://tatoeba.org/en/sentences/show/8553167) | Aiji |  |  | tts |
+| S11604 | Où sont les fleurs maintenant ? | Where are the flowers now? | [#8080144](https://tatoeba.org/en/sentences/show/8080144) | Aiji |  |  | tts |
+| S11605 | Quel vent ! | What a strong wind! | [#830240](https://tatoeba.org/en/sentences/show/830240) | RaspaKrusto |  |  | tts |
+| S11606 | C'est un arbre. | That's a tree. | [#2267540](https://tatoeba.org/en/sentences/show/2267540) | MartinShadock |  |  | tts |
+| S11607 | Regarde la route ! | Watch the road. | [#3473598](https://tatoeba.org/en/sentences/show/3473598) | sacredceltic |  |  | tts |
+| S11608 | Tu as deux fleurs. | You have two flowers. | [#1135687](https://tatoeba.org/en/sentences/show/1135687) | nimfeo |  |  | tts |
+| S11609 | Je suis en chemin. | I'm on my way. | [#1475217](https://tatoeba.org/en/sentences/show/1475217) | martin9 |  |  | tts |
+| S11610 | Elle est en chemin. | She's on her way. | [#1832518](https://tatoeba.org/en/sentences/show/1832518) | sacredceltic |  |  | tts |
+| S11611 | La nature est belle. | Nature is beautiful. | [#2264049](https://tatoeba.org/en/sentences/show/2264049) | sacredceltic |  |  | tts |
+| S11612 | L'arbre est vert. | The tree is green. | [#2422728](https://tatoeba.org/en/sentences/show/2422728) | Aiji |  |  | tts |
+| S11613 | J'aime les fleurs. | I like flowers. | [#4682051](https://tatoeba.org/en/sentences/show/4682051) | sacredceltic |  |  | tts |
+| S11614 | La fleur est rouge. | The flower is red. | [#5315480](https://tatoeba.org/en/sentences/show/5315480) | Aiji |  |  | tts |
+| S11615 | La Terre est belle. | The earth is beautiful. | [#12416828](https://tatoeba.org/en/sentences/show/12416828) | zogwarg |  |  | tts |
+| S11616 | J'habite à la campagne. | I live in the country. | [#129496](https://tatoeba.org/en/sentences/show/129496) | qdii |  |  | tts |
+| S11617 | J'aime regarder la campagne. | I like watching the countryside. | [#1121486](https://tatoeba.org/en/sentences/show/1121486) | sacredceltic |  |  | tts |
+| S11618 | Je vais à la montagne. | I go to the mountain. | [#1383058](https://tatoeba.org/en/sentences/show/1383058) | sacredceltic |  |  | tts |
+| S11619 | Cherche la ville sur la carte. | Look up the town on the map. | [#12208](https://tatoeba.org/en/sentences/show/12208) | nimfeo |  |  | tts |
+| S11620 | Elle a une fleur à la main. | She has a flower in her hand. | [#938325](https://tatoeba.org/en/sentences/show/938325) | sacredceltic |  |  | tts |
+| S11621 | Je suis un garçon de la campagne. | I'm a country boy. | [#10282570](https://tatoeba.org/en/sentences/show/10282570) | Micsmithel |  |  | tts |
+| S11622 | J'achète des fleurs. | I buy flowers. | [#8718717](https://tatoeba.org/en/sentences/show/8718717) | Micsmithel |  |  | tts |
+| S11623 | Merci pour les fleurs ! | Thank you for the flowers. | [#11322260](https://tatoeba.org/en/sentences/show/11322260) | aleUCY |  |  | tts |
+| S11624 | Elle aime beaucoup les fleurs. | She loves flowers. | [#134210](https://tatoeba.org/en/sentences/show/134210) | nimfeo |  |  | tts |
+| S11625 | Merci encore pour les fleurs. | Thanks again for the flowers. | [#8618896](https://tatoeba.org/en/sentences/show/8618896) | felix63 |  |  | tts |
+| S11626 | C'est un livre sur les animaux. | It's a book on animals. | [#9547779](https://tatoeba.org/en/sentences/show/9547779) | Aiji |  |  | tts |
+| S11627 | Je lis un livre sur les animaux. | I'm reading a book about animals. | [#432721](https://tatoeba.org/en/sentences/show/432721) | linkmauve |  |  | tts |
+| S11628 | J'en sais très peu sur elle. | I know very little about her. | [#1776151](https://tatoeba.org/en/sentences/show/1776151) | sacredceltic |  |  | tts |
 | S9161 | Qu'est-ce que ça veut dire ? | What does that mean? | [#2224260](https://tatoeba.org/en/sentences/show/2224260) | sacredceltic |  |  | tts |
 | S10963 | Comment ça s'écrit ? | How do you spell that? | [#12611806](https://tatoeba.org/en/sentences/show/12611806) | Adelpa | confirm |  | tts |
 | S10262 | Tu es né où ? | Where were you born? | [#430746](https://tatoeba.org/en/sentences/show/430746) | Pharamp | confirm |  | tts |
@@ -1681,6 +1977,8 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10869 | Il est dans la boîte. | It is in the box. | [#13684456](https://tatoeba.org/en/sentences/show/13684456) | mervert1 | confirm |  | tts |
 | S10870 | Je voudrais un verre d'eau. | I'd like a glass of water. | [#1757613](https://tatoeba.org/en/sentences/show/1757613) | Zaghawa | confirm |  | tts |
 | S10871 | Voici ton sac. | Here is your bag. | [#920745](https://tatoeba.org/en/sentences/show/920745) | sacredceltic |  |  | tts |
+| S11367 | J'aime le ski. | I like skiing. | [#7211](https://tatoeba.org/en/sentences/show/7211) | sacredceltic |  |  | tts |
+| S11470 | J'ai peur. | I'm afraid. | [#1111882](https://tatoeba.org/en/sentences/show/1111882) | alexmarcelo |  |  | tts |
 
 ## Off in the workbook (71)
 
@@ -1760,7 +2058,7 @@ Set to off by the workbook owner. Not shipped.
 | S7729 | À elle. | It's her turn. | pulled from Tatoeba under content_pull |
 | S7730 | À trois ! | On the count of three! | pulled from Tatoeba under content_pull |
 
-## English-to-French answers generated from Tatoeba (426)
+## English-to-French answers generated from Tatoeba (434)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -1807,6 +2105,14 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S11061 | Can you repeat that, please? | Pourriez-vous répéter ça s'il vous plaît ? | [#4085](https://tatoeba.org/en/sentences/show/4085) | TRANG |
 | S11061 | Can you repeat that, please? | Pourriez-vous répéter cela s'il vous plait ? | [#846921](https://tatoeba.org/en/sentences/show/846921) | sacredceltic |
 | S11061 | Can you repeat that, please? | Pouvez-vous répéter cela, s'il vous plaît ? | [#13592](https://tatoeba.org/en/sentences/show/13592) | sacredceltic |
+| S11266 | I go to school by bus. | Je vais en cours en bus. | [#6696](https://tatoeba.org/en/sentences/show/6696) | U2FS |
+| S11273 | I'm going to the station. | Je vais à la station. | [#5369783](https://tatoeba.org/en/sentences/show/5369783) | Aiji |
+| S11471 | Are you afraid? | Avez-vous peur ? | [#1485273](https://tatoeba.org/en/sentences/show/1485273) | arnxy20 |
+| S11563 | He's my friend. | C'est mon ami. | [#551908](https://tatoeba.org/en/sentences/show/551908) | zmoo |
+| S11563 | He's my friend. | Il est mon ami. | [#132332](https://tatoeba.org/en/sentences/show/132332) | Micsmithel |
+| S11565 | She's my friend. | C'est mon amie. | [#1650867](https://tatoeba.org/en/sentences/show/1650867) | sacredceltic |
+| S11565 | She's my friend. | Elle est mon amie. | [#1650868](https://tatoeba.org/en/sentences/show/1650868) | felix63 |
+| S11671 | Where is the bridge? | Où se trouve le pont ? | [#1548856](https://tatoeba.org/en/sentences/show/1548856) | sacredceltic |
 | S2003 | Are they here? | Elles sont ici ? | [#5259932](https://tatoeba.org/en/sentences/show/5259932) | Iriep |
 | S2003 | Are they here? | Elles sont là ? | [#5259909](https://tatoeba.org/en/sentences/show/5259909) | Iriep |
 | S2003 | Are they here? | Ils sont là ? | [#5240676](https://tatoeba.org/en/sentences/show/5240676) | Iriep |
@@ -2209,7 +2515,7 @@ Checked against Tatoeba: same French from a trusted owner, linked to the listed 
 | FB51 | Pas tout à fait. | Not quite. | flagged |  | Tatoeba links other English: Not exactly. |
 | FB52 | D'accord, on continue. | Okay, let's keep going. | flagged |  | not in Tatoeba from a trusted owner |
 
-## Lingua Libre recordings (19)
+## Lingua Libre recordings (20)
 
 | ID | French | File | License | Recordings found |
 | --- | --- | --- | --- | --- |
@@ -2232,3 +2538,4 @@ Checked against Tatoeba: same French from a trusted owner, linked to the listed 
 | S10206 | Bon anniversaire ! | [LL-Q150 (fra)-LoquaxFR-bon anniversaire.wav](https://upload.wikimedia.org/wikipedia/commons/1/1f/LL-Q150_%2528fra%2529-LoquaxFR-bon_anniversaire.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
 | S10207 | Bonne année ! | [LL-Q150 (fra)-Fabricio Cardenas (Culex)-bonne année.wav](https://upload.wikimedia.org/wikipedia/commons/4/48/LL-Q150_%2528fra%2529-Fabricio_Cardenas_%2528Culex%2529-bonne_ann%25C3%25A9e.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 3 |
 | S10824 | Merci beaucoup ! | [LL-Q150 (fra)-Justforoc-merci beaucoup.wav](https://upload.wikimedia.org/wikipedia/commons/a/a0/LL-Q150_%2528fra%2529-Justforoc-merci_beaucoup.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 3 |
+| S11312 | Bon voyage ! | [LL-Q150 (fra)-LoquaxFR-bon voyage.wav](https://upload.wikimedia.org/wikipedia/commons/0/03/LL-Q150_%2528fra%2529-LoquaxFR-bon_voyage.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |

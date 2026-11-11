@@ -2,48 +2,41 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U49 Bottles and Bags: Une bouteille de …, un paquet de …: de after a quantity; beaucoup de, assez de, trop de
+## U55 Outdoors: À la montagne, à la campagne: à la for places outside; sur la route, sur le pont
 
-31 sentences picked from 155 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 1 (target 4).
+28 sentences picked from 28 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: bouteille (0), paquet (0), boîte (0), verre (2). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: montagne (1), arbre (2), terre (1), vent (1), nature (1), route (2), pont (0), sud (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S10801 | Trop d'argent ? | Too much money? |  | [#896351](https://tatoeba.org/en/sentences/show/896351) | sacredceltic |
-| S10802 | C'est beaucoup trop. | That's way too much. |  | [#11698058](https://tatoeba.org/en/sentences/show/11698058) | Aiji |
-| S10803 | C'est beaucoup trop petit. | It's far too small. |  | [#1737807](https://tatoeba.org/en/sentences/show/1737807) | sacredceltic |
-| S10804 | C'est beaucoup d'argent. | That's a lot of money. |  | [#1851204](https://tatoeba.org/en/sentences/show/1851204) | Rovo |
-| S10805 | Il a peu d'argent. | He has little money. |  | [#538945](https://tatoeba.org/en/sentences/show/538945) | sacredceltic |
-| S10806 | Où est le sac ? | Where's the bag? |  | [#1997960](https://tatoeba.org/en/sentences/show/1997960) | sacredceltic |
-| S10807 | Où est ton sac ? | Where's your bag? |  | [#3627779](https://tatoeba.org/en/sentences/show/3627779) | fleur74 |
-| S10808 | Où est mon sac ? | Where is my bag? |  | [#4718484](https://tatoeba.org/en/sentences/show/4718484) | Joelle |
-| S10809 | C'est à qui le verre ? | Whose glass is it? | Who does the glass belong to? | [#3421731](https://tatoeba.org/en/sentences/show/3421731) | Urusai |
-| S10810 | J'ai peu d'argent. | I have little money. | I haven't got much money. | [#564146](https://tatoeba.org/en/sentences/show/564146) | sacredceltic |
-| S10811 | Il a assez d'argent. | He has enough money. |  | [#1070296](https://tatoeba.org/en/sentences/show/1070296) | sacredceltic |
-| S10812 | Elle a assez d'argent. | She has enough money. |  | [#1902654](https://tatoeba.org/en/sentences/show/1902654) | sacredceltic |
-| S10813 | J'ai assez d'argent. | I have enough money. |  | [#1902661](https://tatoeba.org/en/sentences/show/1902661) | sacredceltic |
-| S10814 | J'ai très peu d'argent. | I have very little money. |  | [#10718583](https://tatoeba.org/en/sentences/show/10718583) | lbdx |
-| S10815 | C'est mon verre. | It's my glass. |  | [#6085231](https://tatoeba.org/en/sentences/show/6085231) | christian63 |
-| S10816 | Est-ce que c'est trop ? | Is it too much? |  | [#11587811](https://tatoeba.org/en/sentences/show/11587811) | engone |
-| S10817 | Il est d'où ? | From where is he? |  | [#1262616](https://tatoeba.org/en/sentences/show/1262616) | sacredceltic |
-| S10818 | C'est ton sac, non ? | This is your bag, isn't it? |  | [#5927173](https://tatoeba.org/en/sentences/show/5927173) | Aiji |
-| S10819 | C'est près d'ici ? | Is it nearby? | Is it near here? | [#7414757](https://tatoeba.org/en/sentences/show/7414757) | lbdx |
-| S10820 | Vous appelez d'Allemagne ? | Are you ringing from Germany? | Are you phoning from Germany? | [#7701884](https://tatoeba.org/en/sentences/show/7701884) | Maxence |
-| S10821 | Où est votre sac ? | Where's your bag? |  | [#9073607](https://tatoeba.org/en/sentences/show/9073607) | Aiji |
-| S10822 | Tu es d'ici ? | Are you from here? |  | [#10946524](https://tatoeba.org/en/sentences/show/10946524) | Rovo |
-| S10823 | Il est beaucoup trop petit. | It's way too small. |  | [#11951746](https://tatoeba.org/en/sentences/show/11951746) | lbdx |
-| S10824 | Merci beaucoup ! | Many thanks. | Thanks very much.; Thank you very much.; Thanks a lot!; Thank you very much! | [#3381](https://tatoeba.org/en/sentences/show/3381) | kurisutofu |
-| S10825 | C'est trop ! | That's too much! |  | [#11876](https://tatoeba.org/en/sentences/show/11876) | sacredceltic |
-| S10826 | C'est beaucoup ! | That's a lot! |  | [#1097853](https://tatoeba.org/en/sentences/show/1097853) | sacredceltic |
-| S10827 | Mange beaucoup ! | Eat a lot! |  | [#7938771](https://tatoeba.org/en/sentences/show/7938771) | Micsmithel |
-| S10828 | C'est trop cher ! | It's too expensive. | It's too expensive!; It is too expensive! | [#3539](https://tatoeba.org/en/sentences/show/3539) | zmoo |
-| S10829 | Assez pour aujourd'hui. | That's enough for today. |  | [#8428](https://tatoeba.org/en/sentences/show/8428) | sacredceltic |
-| S10830 | Elle parle beaucoup. | She talks a lot. |  | [#134133](https://tatoeba.org/en/sentences/show/134133) | sysko |
-| S10831 | Je suis d'ici. | I'm from here. |  | [#8332333](https://tatoeba.org/en/sentences/show/8332333) | theachaean |
-
-**QT09 questions and answers**
-
-- S10822 Tu es d'ici ?: Je suis d'ici. / Oui. / Non.
+| S11601 | Je suis sur la route. | I'm on the road. |  | [#8064883](https://tatoeba.org/en/sentences/show/8064883) | Aiji |
+| S11602 | Je suis sur le chemin du magasin. | I'm on the way to the store. |  | [#7967345](https://tatoeba.org/en/sentences/show/7967345) | Aiji |
+| S11603 | C'est une fleur ? | This is a flower? |  | [#8553167](https://tatoeba.org/en/sentences/show/8553167) | Aiji |
+| S11604 | Où sont les fleurs maintenant ? | Where are the flowers now? |  | [#8080144](https://tatoeba.org/en/sentences/show/8080144) | Aiji |
+| S11605 | Quel vent ! | What a strong wind! |  | [#830240](https://tatoeba.org/en/sentences/show/830240) | RaspaKrusto |
+| S11606 | C'est un arbre. | That's a tree. |  | [#2267540](https://tatoeba.org/en/sentences/show/2267540) | MartinShadock |
+| S11607 | Regarde la route ! | Watch the road. |  | [#3473598](https://tatoeba.org/en/sentences/show/3473598) | sacredceltic |
+| S11608 | Tu as deux fleurs. | You have two flowers. |  | [#1135687](https://tatoeba.org/en/sentences/show/1135687) | nimfeo |
+| S11609 | Je suis en chemin. | I'm on my way. | I'm on my way now. | [#1475217](https://tatoeba.org/en/sentences/show/1475217) | martin9 |
+| S11610 | Elle est en chemin. | She's on her way. |  | [#1832518](https://tatoeba.org/en/sentences/show/1832518) | sacredceltic |
+| S11611 | La nature est belle. | Nature is beautiful. |  | [#2264049](https://tatoeba.org/en/sentences/show/2264049) | sacredceltic |
+| S11612 | L'arbre est vert. | The tree is green. |  | [#2422728](https://tatoeba.org/en/sentences/show/2422728) | Aiji |
+| S11613 | J'aime les fleurs. | I like flowers. | I love flowers. | [#4682051](https://tatoeba.org/en/sentences/show/4682051) | sacredceltic |
+| S11614 | La fleur est rouge. | The flower is red. |  | [#5315480](https://tatoeba.org/en/sentences/show/5315480) | Aiji |
+| S11615 | La Terre est belle. | The earth is beautiful. |  | [#12416828](https://tatoeba.org/en/sentences/show/12416828) | zogwarg |
+| S11616 | J'habite à la campagne. | I live in the country. |  | [#129496](https://tatoeba.org/en/sentences/show/129496) | qdii |
+| S11617 | J'aime regarder la campagne. | I like watching the countryside. |  | [#1121486](https://tatoeba.org/en/sentences/show/1121486) | sacredceltic |
+| S11618 | Je vais à la montagne. | I go to the mountain. |  | [#1383058](https://tatoeba.org/en/sentences/show/1383058) | sacredceltic |
+| S11619 | Cherche la ville sur la carte. | Look up the town on the map. |  | [#12208](https://tatoeba.org/en/sentences/show/12208) | nimfeo |
+| S11620 | Elle a une fleur à la main. | She has a flower in her hand. | She's holding a flower in her hand. | [#938325](https://tatoeba.org/en/sentences/show/938325) | sacredceltic |
+| S11621 | Je suis un garçon de la campagne. | I'm a country boy. |  | [#10282570](https://tatoeba.org/en/sentences/show/10282570) | Micsmithel |
+| S11622 | J'achète des fleurs. | I buy flowers. |  | [#8718717](https://tatoeba.org/en/sentences/show/8718717) | Micsmithel |
+| S11623 | Merci pour les fleurs ! | Thank you for the flowers. | Thank you for the flowers! | [#11322260](https://tatoeba.org/en/sentences/show/11322260) | aleUCY |
+| S11624 | Elle aime beaucoup les fleurs. | She loves flowers. | She is very fond of flowers. | [#134210](https://tatoeba.org/en/sentences/show/134210) | nimfeo |
+| S11625 | Merci encore pour les fleurs. | Thanks again for the flowers. |  | [#8618896](https://tatoeba.org/en/sentences/show/8618896) | felix63 |
+| S11626 | C'est un livre sur les animaux. | It's a book on animals. | This is a book about animals. | [#9547779](https://tatoeba.org/en/sentences/show/9547779) | Aiji |
+| S11627 | Je lis un livre sur les animaux. | I'm reading a book about animals. | I am reading a book about animals. | [#432721](https://tatoeba.org/en/sentences/show/432721) | linkmauve |
+| S11628 | J'en sais très peu sur elle. | I know very little about her. |  | [#1776151](https://tatoeba.org/en/sentences/show/1776151) | sacredceltic |

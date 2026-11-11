@@ -679,6 +679,31 @@
       "action": "approve",
       "on": "2026-11-11",
       "by": "Claude under autonomous-build.md: 28 Tatoeba sentences from checked owners after cutting 10 (idioms like C'est peu dire, assez as quite, plus, elliptic D'où ?, a mismatched English); 11 drafts for bouteille, paquet, boîte and verre, and an answer"
+    },
+    "U51": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), pulled Tatoeba reviewed (2 idioms cut, 2 English picks), 14 drafts where Tatoeba had under 3 for a word"
+    },
+    "U52": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), pulled Tatoeba reviewed (4 idioms or colloquial lines cut, 5 lines with danse as the verb cut), 12 drafts where Tatoeba had under 3 for a word"
+    },
+    "U53": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), pulled Tatoeba reviewed (10 idioms, odd lines and misleading senses cut), 13 drafts where Tatoeba had under 3 for a word"
+    },
+    "U54": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), pulled Tatoeba reviewed (5 idioms or colloquial lines cut), 12 drafts where Tatoeba had under 3 for a word"
+    },
+    "U55": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), pulled Tatoeba reviewed (5 idioms or odd lines cut, 3 repeats of en chemin cut), 16 drafts where Tatoeba had under 3 for a word"
     }
   },
   "cut_sentences": [
@@ -1481,6 +1506,150 @@
     },
     "W910": {
       "hint": "biscuits",
+      "source": "short form of Wiktionary"
+    },
+    "W1003": {
+      "hint": "hotel",
+      "source": "short form of Wiktionary"
+    },
+    "W1019": {
+      "hint": "party",
+      "source": "short form of Wiktionary"
+    },
+    "W1047": {
+      "hint": "people",
+      "source": "short form of Wiktionary"
+    },
+    "W1058": {
+      "hint": "customer",
+      "source": "short form of Wiktionary"
+    },
+    "W1037": {
+      "hint": "pleased",
+      "source": "short form of Wiktionary"
+    },
+    "W1045": {
+      "hint": "alone",
+      "source": "short form of Wiktionary"
+    },
+    "W1022": {
+      "hint": "holidays, vacation",
+      "source": "short form of Wiktionary"
+    },
+    "W1036": {
+      "hint": "hair",
+      "source": "short form of Wiktionary"
+    },
+    "W1034": {
+      "hint": "eyes",
+      "source": "short form of Wiktionary"
+    },
+    "W1066": {
+      "hint": "flowers (more than one)",
+      "source": "short form of Wiktionary"
+    },
+    "W1038": {
+      "hint": "pleased (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W1040": {
+      "hint": "happy (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W1046": {
+      "hint": "alone (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W1052": {
+      "hint": "neighbour (a woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W1054": {
+      "hint": "student (a woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W1050": {
+      "hint": "friend (a woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W1049": {
+      "hint": "friend",
+      "source": "short form of Wiktionary"
+    },
+    "W1024": {
+      "hint": "look at, watch (regarder, je, il, elle)",
+      "source": "short form of Wiktionary"
+    },
+    "W1025": {
+      "hint": "to look at, to watch",
+      "source": "short form of Wiktionary"
+    },
+    "W1026": {
+      "hint": "listen (écouter, je, il, elle)",
+      "source": "short form of Wiktionary"
+    },
+    "W1027": {
+      "hint": "play (jouer, je, il, elle)",
+      "source": "short form of Wiktionary"
+    },
+    "W1029": {
+      "hint": "read (lire, je, tu)",
+      "source": "short form of Wiktionary"
+    },
+    "W1011": {
+      "hint": "metro, subway",
+      "source": "short form of Wiktionary"
+    },
+    "W1055": {
+      "hint": "pupil, student",
+      "source": "short form of Wiktionary"
+    },
+    "W1002": {
+      "hint": "station",
+      "source": "short form of Wiktionary"
+    },
+    "W1063": {
+      "hint": "countryside",
+      "source": "short form of Wiktionary"
+    },
+    "W1072": {
+      "hint": "path, way",
+      "source": "short form of Wiktionary"
+    },
+    "W1074": {
+      "hint": "on",
+      "source": "short form of Wiktionary"
+    },
+    "W1013": {
+      "hint": "with",
+      "source": "short form of Wiktionary"
+    },
+    "W1059": {
+      "hint": "but",
+      "source": "short form of Wiktionary"
+    },
+    "W1060": {
+      "hint": "too, also",
+      "source": "short form of Wiktionary"
+    },
+    "W1061": {
+      "hint": "or",
+      "source": "short form of Wiktionary"
+    },
+    "W1028": {
+      "hint": "to play",
+      "source": "short form of Wiktionary"
+    },
+    "W1009": {
+      "hint": "bike, bicycle",
+      "source": "short form of Wiktionary"
+    },
+    "W1021": {
+      "hint": "trip, journey",
+      "source": "short form of Wiktionary"
+    },
+    "W1057": {
+      "hint": "tourist",
       "source": "short form of Wiktionary"
     }
   },

@@ -194,5 +194,40 @@
     "example_sentence_ids": "S10861;S10804;S10813",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U51",
+    "rule": "à + le = au (au cinéma, au musée), à la, à l' (à la gare, à l'hôtel); en voiture, en bus, en train",
+    "example_sentence_ids": "S11201;S11223;S11262;S11266",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U52",
+    "rule": "-er verbs: je regarde, tu écoutes, il joue; lire: je lis, tu lis; aimer + a verb: j'aime lire",
+    "example_sentence_ids": "S11302;S11316;S11307;S11321",
+    "conjugation_lemma": "lire",
+    "status": "live"
+  },
+  {
+    "unit_id": "U53",
+    "rule": "Adjectives agree with the person: il est content, elle est contente; heureux, heureuse; seul, seule. Avoir peur: j'ai peur",
+    "example_sentence_ids": "S11402;S11401;S11415;S11470",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U54",
+    "rule": "Un voisin, une voisine; un étudiant, une étudiante: the feminine adds -e. Mais (but), aussi (too), ou (or)",
+    "example_sentence_ids": "S11512;S11515;S11510;S11516",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U55",
+    "rule": "À la campagne, à la montagne: à la for places outside; sur la route (on the road); en chemin (on the way)",
+    "example_sentence_ids": "S11616;S11618;S11601;S11609",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]

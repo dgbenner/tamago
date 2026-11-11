@@ -636,3 +636,11 @@ Part 3, Lingua Libre recordings:
 - a1types.js shuffledChoices: QT14 choices are shuffled per showing, with the answer index remapped. generate.js applies it to QT20 passages. Test added; npm test: 71 pass.
 - a1-list.json core: 600 headwords by FLELex freq_A1 (the highest across a headword's tags). a1-coverage.mjs prints core and full.
 - French: 1,264 sentences, 915 Tatoeba, 349 drafts.
+
+## 2026-11-10: Section 9, French (vocabulary and Catch-Up circles)
+
+- Workbook v29 (scripts/add-vocab-fr.mjs, scripts/lib/vocab-catchup.mjs): QT18, round_type_mix.mix plus VOCAB_MIX, units.mix, catch_up C01 to C04, U51 to U55 (W1001 to W1074, CD251 to CD255). Import validates each mix and each slot's row; build-content ships catch_up ([] where a course has no tab); tables-*.js import it.
+- lesson.js: mixSlots by c.mix; makeTypeWord; the QT18 branch in buildLesson (the circle's own met words, least seen); reask treats QT18 like a word type; catchUpItems and buildCatchUp. App: catchUps, exposure, startCatchUp, kind catchup (bank credit, catchup_seen on finish). Home: CatchUpNode and CatchUpCard. CircleNode: caption and ring props; the marker is read first, with a space before the title (axe label-content-name-mismatch on a fresh first circle).
+- Senses for the 74 words (word-senses.json; hôtel modern sense, fête party, seul alone, client customer, verb forms by lemma), hints for plurals, feminines and verb forms. Pull and review per circle in content/sweep/packs-review.json; drafts S11261 to S11676; each circle approved with a grammar note.
+- pull-units: the opened set is cut at u.order. a1-coverage: œ to oe, vacances to vacance.
+- French: 1,488 sentences, 1,074 Tatoeba, 414 drafts. Core 242 of 600 (40%), main path 214; full 280 of 1,196 (23%). npm test: 75 pass (test/vocab-catchup.test.js). Chrome: Catch-Up locked, then open at row 5, filled by misses, its session; Type the Word right and wrong; axe clean on the tree, the sheet, a Catch-Up question and QT18.

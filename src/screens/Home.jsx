@@ -266,6 +266,30 @@ function PartSwitcher({ part, onPartView }) {
   )
 }
 
+// Catch-Up (A1 Complete 9): a circle with a side dish, filled for this learner from the circles above it. No lessons of
+// its own, so no ring; the caption says how much is waiting.
+const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.count ? `${cu.count} to catch up` : 'Nothing yet')
+function CatchUpNode({ cu, onPick }) {
+  return <CircleNode title={cu.title} icon="/icons/sides/miso-soup.svg" locked={!cu.available} ring={false} caption={catchUpCaption(cu)} onPick={() => onPick(cu)} />
+}
+function CatchUpCard({ cu, onStart, onClose }) {
+  return (
+    <Sheet onClose={onClose}>
+      <SheetHead kicker="Made for You" title="Catch-Up" onClose={onClose} />
+      <p className="mt-2">It fills itself from the circles above it: what you've got wrong, then the words you've seen only once or twice.</p>
+      <p className="mt-2 text-sm text-muted">Each comes back at the level you've reached, so there are no rounds. It never locks anything, and it refills as you go.</p>
+      {!cu.available
+        ? <p className="mt-4 text-sm">It opens when you reach the row above it.</p>
+        : cu.count
+          ? <>
+              <p className="mt-4 font-medium">{cu.count} {cu.count === 1 ? 'item' : 'items'}{cu.mistakes ? `, ${cu.mistakes} of them ${cu.mistakes === 1 ? 'a mistake' : 'mistakes'}` : ''}</p>
+              <button onClick={onStart} className="btn-submit mt-5 w-full">Start Catch-Up</button>
+            </>
+          : <p className="mt-4 text-sm">Nothing to catch up on yet. It fills as you do lessons.</p>}
+    </Sheet>
+  )
+}
+
 export function CheckpointNode({ cp, onPick }) {
   return (
     <button onClick={() => onPick(cp)} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-3 py-1 text-sm ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
@@ -338,10 +362,11 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
+export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
   finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
+  const [cuPicked, setCuPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
   const [languages, setLanguages] = useState(false)
   const [finalOpen, setFinalOpen] = useState(false)
@@ -406,6 +431,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
         {rows.map((row, i) => {
           const n = row.row ?? i + 1 // the row's own number, not its place in the list
           const cp = checkpoints.find((x) => x.afterRow === n)
+          const cu = catchUps.find((x) => x.afterRow === n)
           const marker = markers.find((m) => m.beforeRow === n)
           return [
             marker && <Marker key={`m${i}`} label={marker.label} />,
@@ -413,6 +439,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
               {row.map((node) => <Node key={node.unit.unit_id} node={node} onPick={setPicked} onTestPass={onTestPass} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
+            cu && <li key={`cu${i}`} className="flex justify-center"><CatchUpNode cu={cu} onPick={setCuPicked} /></li>,
             scenes && scenes.afterRow === n && <li key={`sc${i}`}><ScenesNode sc={scenes} onPick={() => setScenesOpen(true)} /></li>,
           ]
         })}
@@ -457,6 +484,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
           onStart={() => { setCpPicked(null); onCheckpoint(cpPicked.afterRow) }}
           onSkip={() => { setCpPicked(null); onSkipCheckpoint(cpPicked.afterRow) }} />
       )}
+      {cuPicked && <CatchUpCard cu={catchUps.find((x) => x.slot_id === cuPicked.slot_id) ?? cuPicked} onClose={() => setCuPicked(null)} onStart={() => { setCuPicked(null); onCatchUp(cuPicked) }} />}
       {reviewOpen && part?.review && <PartReviewCard part={part} onClose={() => setReviewOpen(false)} onStart={() => { setReviewOpen(false); onPartReview() }} />}
       {scenesOpen && <ScenesCard sc={scenes} onClose={() => setScenesOpen(false)} onStart={(x) => { setScenesOpen(false); onScene(x) }} />}
       {finalOpen && <FinalCard fc={finalCheck} onClose={() => setFinalOpen(false)} onStart={() => { setFinalOpen(false); onFinal() }} />}
