@@ -14,7 +14,7 @@ export const A1_TYPES = {
 }
 
 // Case, accents and punctuation don't count (e matches é); spaces collapse.
-export const foldText = (t) => String(t ?? '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/ß/g, 'ss').replace(/[’ʼ]/g, "'").replace(/[.,!?¿¡;:«»„“”"()]/g, ' ').replace(/\s+/g, ' ').trim()
+export const foldText = (t) => String(t ?? '').normalize('NFD').replace(/\p{M}/gu, '').toLowerCase().replace(/ß/g, 'ss').replace(/[’ʼ]/g, "'").replace(/[^\p{L}\p{N}\s'-]/gu, ' ').replace(/\s+/g, ' ').trim()
 const digits = (t) => String(t ?? '').replace(/\D/g, '')
 
 // A value as the learner might write it, by kind:

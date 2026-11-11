@@ -3,6 +3,7 @@ import { lessonLogFor, snapshotRows } from '../lib/snapshot.js'
 import { getAll, resetProgress } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
 import { IconBack } from './icons.jsx'
+import { version } from '../lib/version.js'
 import { TL, course, reloadSkippingSplash } from '../lib/course.js'
 
 // The Developer area (Dan, 2026-11-10): everything for building and testing Tamago, out of Settings and away from the
@@ -147,6 +148,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
         <h1 className="text-xl font-semibold">Developer</h1>
       </header>
       <p className="-mt-3 text-sm text-muted">For building and testing Tamago. Not part of the course.</p>
+      <p data-version className="-mt-3">Version {version.name} · Deploy {version.number}</p>
 
       <section className="flex flex-col gap-5 rounded-xl border-2 border-dashed border-field p-5">
         <h2 className="text-lg font-semibold">Testing</h2>

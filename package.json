@@ -12,7 +12,8 @@
     "test": "node --test test/*.test.js",
     "pull": "node scripts/pull-units.mjs",
     "smoke": "node test/mobile-smoke.mjs",
-    "prepare": "git config core.hooksPath .githooks || true"
+    "prepare": "git config core.hooksPath .githooks || true",
+    "bump": "node scripts/bump-version.mjs"
   },
   "type": "module",
   "devDependencies": {

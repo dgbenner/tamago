@@ -1,5 +1,19 @@
 #!/bin/sh
-# Every push must pass the mobile smoke test (CLAUDE.md, Testing): iPhone and iPad emulation in WebKit, with touch.
+# Before every push (CLAUDE.md, Testing):
+# 1. a push to main is a deploy, so it must carry the next version name (src/version.json, `npm run bump`);
+# 2. the mobile smoke test must pass: iPhone and iPad emulation in WebKit, with touch.
 # Turned on for this clone by `git config core.hooksPath .githooks` (npm install does it, package.json "prepare").
 cd "$(git rev-parse --show-toplevel)" || exit 1
+number() { node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).number)}catch{console.log("")}})'; }
+while read -r local_ref local_sha remote_ref remote_sha; do
+  [ "$remote_ref" = "refs/heads/main" ] || continue
+  new=$(git show "$local_sha:src/version.json" 2>/dev/null | number)
+  old=$(git show "$remote_sha:src/version.json" 2>/dev/null | number)
+  [ -n "$old" ] || continue # main has no version yet: this push gives it its first
+  if [ "$new" != "$((old + 1))" ]; then
+    echo "Push stopped: every deploy gets the next version name. Main is deploy $old; this push is deploy ${new:-none}."
+    echo "Run: npm run bump, commit src/version.json, and push again."
+    exit 1
+  fi
+done
 npm run -s smoke || { echo "Push stopped: the mobile smoke test failed. Fix it before pushing."; exit 1; }

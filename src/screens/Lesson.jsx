@@ -473,16 +473,15 @@ function FillBlank({ q, result, onAnswer, newWords, onHint }) {
   )
 }
 
-function promptFor(q, { newWords, hideFrench, result, onHint }) {
+export function promptFor(q, { newWords, hideFrench, result, onHint }) {
   if (q.type === 'QT06') {
     return hideFrench && !result ? <SpeakerButton audio={q.audio} large label="Play the sentence" /> : <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>
   }
   if (q.type === 'QT09') {
-    return (
-      <SpeakerBubble>
-        {q.variant === 'V0903' || result ? <FrenchText q={q} newWords={newWords} onHint={onHint} /> : <SpeakerButton audio={q.audio} label="Play the question" />}
-      </SpeakerBubble>
-    )
+    // While the question is only heard, the speaker shows alone: no picture beside it (Dan, 2026-11-11). The bubble
+    // with its picture is for the written question.
+    if (q.variant !== 'V0903' && !result) return <SpeakerButton audio={q.audio} large label="Play the question" />
+    return <SpeakerBubble><FrenchText q={q} newWords={newWords} onHint={onHint} /></SpeakerBubble>
   }
   if (q.type === 'QT07') return <SpeakerButton audio={q.audio} large label="Play the sentence" />
   if (q.type === 'QT11') {

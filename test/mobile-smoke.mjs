@@ -1,7 +1,7 @@
 // Mobile smoke test (2026-11-11). Must pass before every push: the pre-push hook in .githooks runs it (npm run smoke).
 // In WebKit, the engine of every iPhone and iPad browser, with iPhone and iPad emulation and touch, on a fresh cache:
-// open home, open a circle, start a lesson, answer three questions by tapping, finish the lesson, tap Practice, tap
-// Next Lesson. It fails if a tap doesn't lead where it should, if the page throws, if the page stops answering (the
+// read the version name on the opening screen, open home, open a circle, start a lesson, answer three questions by
+// tapping (a recording must be heard on the first tap and on replay), finish the lesson, tap Practice, tap Next Lesson. It fails if a tap doesn't lead where it should, if the page throws, if the page stops answering (the
 // freeze of 2026-11-10, when one audio player per recording locked Safari), or if the page makes too many players.
 //
 //   npm run smoke                                  builds the app and tests the build
@@ -10,7 +10,12 @@
 import { mkdtempSync, rmSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join } from 'node:path'
+import { readFileSync } from 'node:fs'
 import { devices, webkit } from 'playwright'
+import { versionName } from '../src/lib/version.js'
+
+// The version this checkout would deploy; a site under test must show the same name on its opening screen.
+const VERSION = versionName(JSON.parse(readFileSync(new URL('../src/version.json', import.meta.url), 'utf8')).number)
 
 const DEVICES = ['iPhone 14', 'iPad Pro 11 landscape']
 const FROZEN_MS = 3000 // a page that takes longer than this to answer counts as frozen
@@ -39,7 +44,13 @@ async function run(name) {
   await page.addInitScript(() => {
     const Real = window.Audio
     window.__audioPlayers = 0
-    window.Audio = function Audio(...args) { window.__audioPlayers++; return new Real(...args) }
+    window.__recordingsHeard = 0 // times a recording really started sounding
+    window.Audio = function Audio(...args) {
+      window.__audioPlayers++
+      const el = new Real(...args)
+      el.addEventListener('playing', () => { window.__recordingsHeard++ })
+      return el
+    }
     window.Audio.prototype = Real.prototype
   })
   let step = 'opening the page'
@@ -67,6 +78,7 @@ async function run(name) {
     }
     return null
   }, index)
+  let soundChecked = false
   const exact = (text) => new RegExp(`^\\s*${text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*$`)
   // Answers the question on screen by tapping, where this test knows how; says whether it did.
   const tapAnswer = async (q) => {
@@ -74,7 +86,16 @@ async function run(name) {
     if (q.typed) return false
     if (q.type === 'QT01') {
       for (const pair of q.pairs) {
-        await lesson.locator('.grid > div').nth(0).locator('button').filter({ hasText: exact(pair.form) }).tap()
+        const word = lesson.locator('.grid > div').nth(0).locator('button').filter({ hasText: exact(pair.form) })
+        // A word with a recording must be heard on the first tap, and again on a second tap (the replay).
+        if (pair.audio?.file && !soundChecked) {
+          for (const tap of ['the first tap', 'a second tap (replay)']) {
+            const before = await page.evaluate(() => window.__recordingsHeard)
+            await word.tap()
+            await page.waitForFunction((n) => window.__recordingsHeard > n, before, { timeout: 4000 }).catch(() => { throw new Error(`no sound on ${tap} of a word with a recording`) })
+          }
+          soundChecked = true
+        } else await word.tap()
         await lesson.locator('.grid > div').nth(1).locator('button').filter({ hasText: exact(pair.hint) }).tap()
         await alive()
       }
@@ -125,6 +146,13 @@ async function run(name) {
 
   try {
     await page.goto(url, { waitUntil: 'load' })
+    at('reading the version name on the opening screen')
+    const shown = (await page.locator('.splash [data-version]').textContent()).trim()
+    if (shown !== `Version ${VERSION}`) throw new Error(`the opening screen says "${shown}", this checkout is "Version ${VERSION}"`)
+    const box = await page.locator('.splash [data-version]').boundingBox()
+    const view = page.viewportSize()
+    if (!(box.x < view.width / 4 && box.y > view.height * 0.8 && box.height >= 16)) throw new Error('the version name is not in the lower left at a readable size')
+
     at('picking a language on the opening screen')
     await page.locator('.splash-choose button').first().tap()
     await page.locator('.splash').waitFor({ state: 'detached' })
@@ -184,8 +212,9 @@ async function run(name) {
     at('counting audio players')
     const players = await page.evaluate(() => window.__audioPlayers)
     if (players > MAX_AUDIO_PLAYERS) throw new Error(`the page made ${players} audio players (at most ${MAX_AUDIO_PLAYERS})`)
+    if (!soundChecked) throw new Error('no question had a recording to check the sound on')
     if (errors.length) throw new Error(`the page threw: ${errors.join(' | ')}`)
-    console.log(`ok    ${name} (WebKit ${browser.version()}): ${answered} questions, ${tapped} by tapping; Practice and Next Lesson open; ${players} audio players`)
+    console.log(`ok    ${name} (WebKit ${browser.version()}): Version ${VERSION}; ${answered} questions, ${tapped} by tapping; sound on first tap and replay; Practice and Next Lesson open; ${players} audio players`)
     return true
   } catch (e) {
     console.log(`FAIL  ${name} (WebKit ${browser.version()}), while ${step}: ${String(e.message ?? e).split('\n')[0]}`)
