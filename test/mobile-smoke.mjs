@@ -1,7 +1,7 @@
 // Mobile smoke test (2026-11-11). Must pass before every push: the pre-push hook in .githooks runs it (npm run smoke).
 // In WebKit, the engine of every iPhone and iPad browser, with iPhone and iPad emulation and touch, on a fresh cache:
 // read the version name on the opening screen, open home, open a circle, start a lesson, answer three questions by
-// tapping (a recording must be heard on the first tap and on replay), finish the lesson, tap Practice, tap Next Lesson. It fails if a tap doesn't lead where it should, if the page throws, if the page stops answering (the
+// tapping (a recording and a spoken sentence must each start once, within 0.2 s, on a tap and on replay), finish the lesson, tap Practice, tap Next Lesson. It fails if a tap doesn't lead where it should, if the page throws, if the page stops answering (the
 // freeze of 2026-11-10, when one audio player per recording locked Safari), or if the page makes too many players.
 //
 //   npm run smoke                                  builds the app and tests the build
@@ -21,6 +21,8 @@ const DEVICES = ['iPhone 14', 'iPad Pro 11 landscape']
 const FROZEN_MS = 3000 // a page that takes longer than this to answer counts as frozen
 const MAX_AUDIO_PLAYERS = 16
 const TAPPED_ANSWERS = 3
+const SOUND_MS = 200 // from a tap to the sound starting (Dan, 2026-11-11)
+const OWN_WAIT_MS = 100 // the most the page itself may add on a fast machine
 
 let url = process.argv[2]
 let server = null
@@ -40,18 +42,26 @@ async function run(name) {
   page.setDefaultTimeout(8000)
   const errors = []
   page.on('pageerror', (e) => errors.push(e.message))
-  // Count the audio players the page makes.
+  // Watch the page's sound: the audio players it makes, and every sound it starts, timed from the last tap.
   await page.addInitScript(() => {
-    const Real = window.Audio
+    const sounds = [] // { kind, ms from the last tap to the start }; kind: 'recording' (decoded, through Web Audio), 'audio element', 'voice'
+    let tapped = 0
+    window.__sounds = sounds
     window.__audioPlayers = 0
-    window.__recordingsHeard = 0 // times a recording really started sounding
+    document.addEventListener('touchstart', () => { tapped = performance.now() }, true)
+    const heard = (kind) => sounds.push({ kind, ms: Math.round(performance.now() - tapped) })
+    const Real = window.Audio
     window.Audio = function Audio(...args) {
       window.__audioPlayers++
       const el = new Real(...args)
-      el.addEventListener('playing', () => { window.__recordingsHeard++ })
+      el.addEventListener('playing', () => heard('audio element'))
       return el
     }
     window.Audio.prototype = Real.prototype
+    const start = AudioBufferSourceNode.prototype.start
+    AudioBufferSourceNode.prototype.start = function (...args) { if (this.buffer?.length > 1) heard('recording'); return start.apply(this, args) }
+    const speak = speechSynthesis.speak.bind(speechSynthesis)
+    speechSynthesis.speak = (u) => { u.addEventListener('start', () => heard('voice')); return speak(u) }
   })
   let step = 'opening the page'
   const at = (s) => { step = s }
@@ -78,7 +88,23 @@ async function run(name) {
     }
     return null
   }, index)
-  let soundChecked = false
+  // Taps, then expects exactly one sound of that kind, started within SOUND_MS of the tap.
+  const checked = { recording: false, voice: false }
+  const timings = []
+  const soundAfter = async (tap, kind, what) => {
+    await page.waitForTimeout(350) // into the last sound, or just past it: a replay
+    const before = await page.evaluate(() => window.__sounds.length)
+    await tap()
+    await page.waitForFunction((n) => window.__sounds.length > n, before, { timeout: 4000 }).catch(() => { throw new Error(`no sound on ${what}`) })
+    await page.waitForTimeout(450) // anything said twice, or late, shows up by now
+    const news = await page.evaluate((n) => window.__sounds.slice(n), before)
+    if (news.length !== 1) throw new Error(`${news.length} sounds started on ${what} (stutter)`)
+    if (news[0].kind !== kind) throw new Error(`${what} was played by the ${news[0].kind} path`)
+    // On this machine a cancel finishes at once and a decoded recording starts at once, so anything over OWN_WAIT_MS
+    // is a wait the page itself added (the fixed 150 ms of 2026-11-11 was one); SOUND_MS is the target on a device.
+    if (news[0].ms > Math.min(SOUND_MS, OWN_WAIT_MS)) throw new Error(`sound started ${news[0].ms} ms after ${what} (limit ${Math.min(SOUND_MS, OWN_WAIT_MS)} ms)`)
+    timings.push(news[0].ms)
+  }
   const exact = (text) => new RegExp(`^\\s*${text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\s*$`)
   // Answers the question on screen by tapping, where this test knows how; says whether it did.
   const tapAnswer = async (q) => {
@@ -87,14 +113,11 @@ async function run(name) {
     if (q.type === 'QT01') {
       for (const pair of q.pairs) {
         const word = lesson.locator('.grid > div').nth(0).locator('button').filter({ hasText: exact(pair.form) })
-        // A word with a recording must be heard on the first tap, and again on a second tap (the replay).
-        if (pair.audio?.file && !soundChecked) {
-          for (const tap of ['the first tap', 'a second tap (replay)']) {
-            const before = await page.evaluate(() => window.__recordingsHeard)
-            await word.tap()
-            await page.waitForFunction((n) => window.__recordingsHeard > n, before, { timeout: 4000 }).catch(() => { throw new Error(`no sound on ${tap} of a word with a recording`) })
-          }
-          soundChecked = true
+        // A word with a recording must be heard on the first tap and again on a second tap (the replay), each time
+        // once and within SOUND_MS of the tap.
+        if (pair.audio?.file && !checked.recording) {
+          for (const tap of ['the first tap', 'a second tap (replay)']) await soundAfter(() => word.tap(), 'recording', `${tap} of a word with a recording`)
+          checked.recording = true
         } else await word.tap()
         await lesson.locator('.grid > div').nth(1).locator('button').filter({ hasText: exact(pair.hint) }).tap()
         await alive()
@@ -191,6 +214,17 @@ async function run(name) {
     await bottom.waitFor()
     await alive()
 
+    // A sentence with no recording is spoken by the device voice: Settings' Test Sound is one. It must sound once and
+    // in time, on a tap and on a replay while it is still being spoken.
+    at('checking the device voice (Settings, Test Sound)')
+    await page.getByRole('button', { name: 'Settings' }).tap()
+    const testSound = page.getByRole('button', { name: 'Test Sound' })
+    for (const tap of ['a tap', 'a second tap (replay)']) await soundAfter(() => testSound.tap(), 'voice', `${tap} on a spoken sentence`)
+    checked.voice = true
+    await page.getByRole('button', { name: 'Back', exact: true }).first().tap()
+    await bottom.waitFor()
+    await alive()
+
     at('tapping Practice')
     await bottom.locator('.btn-secondary').tap()
     await Promise.race([page.locator('main.lesson').waitFor(), page.locator('[role=dialog]').waitFor()])
@@ -212,9 +246,10 @@ async function run(name) {
     at('counting audio players')
     const players = await page.evaluate(() => window.__audioPlayers)
     if (players > MAX_AUDIO_PLAYERS) throw new Error(`the page made ${players} audio players (at most ${MAX_AUDIO_PLAYERS})`)
-    if (!soundChecked) throw new Error('no question had a recording to check the sound on')
+    if (!checked.recording) throw new Error('no question had a recording to check the sound on')
+    if (!checked.voice) throw new Error('no question had a spoken sentence to check the sound on')
     if (errors.length) throw new Error(`the page threw: ${errors.join(' | ')}`)
-    console.log(`ok    ${name} (WebKit ${browser.version()}): Version ${VERSION}; ${answered} questions, ${tapped} by tapping; sound on first tap and replay; Practice and Next Lesson open; ${players} audio players`)
+    console.log(`ok    ${name} (WebKit ${browser.version()}): Version ${VERSION}; ${answered} questions, ${tapped} by tapping; sound on tap and replay ${timings.join(', ')} ms after the tap; Practice and Next Lesson open; ${players} audio players`)
     return true
   } catch (e) {
     console.log(`FAIL  ${name} (WebKit ${browser.version()}), while ${step}: ${String(e.message ?? e).split('\n')[0]}`)

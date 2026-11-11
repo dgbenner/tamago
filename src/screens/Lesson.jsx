@@ -243,11 +243,12 @@ function FirstSight({ q, newWords, except = null }) {
   return <p className="text-sm text-muted">{lines.map((seg) => `${seg.text.toLowerCase()} = ${seg.hint}`).join(', ')}</p>
 }
 
-// A dialogue speaker. The image slot holds a placeholder until the animal characters exist.
-function SpeakerBubble({ children }) {
+// A dialogue speaker's bubble. No picture for now (Dan, 2026-11-11): the sushi logo stood in for a character and is
+// gone everywhere. The character's place is kept below, commented out, for when the animal characters exist.
+export function SpeakerBubble({ children }) {
   return (
     <div className="flex items-start gap-3">
-      <img src="/logo.webp" width="384" height="256" alt="" className="h-12 w-12 shrink-0 object-contain" />
+      {/* The character goes here: <img src={character.image} alt="" className="h-12 w-12 shrink-0 object-contain" /> */}
       <div className="rounded-2xl rounded-tl-sm border-2 border-line bg-surface px-4 py-3">{children}</div>
     </div>
   )
@@ -478,8 +479,8 @@ export function promptFor(q, { newWords, hideFrench, result, onHint }) {
     return hideFrench && !result ? <SpeakerButton audio={q.audio} large label="Play the sentence" /> : <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>
   }
   if (q.type === 'QT09') {
-    // While the question is only heard, the speaker shows alone: no picture beside it (Dan, 2026-11-11). The bubble
-    // with its picture is for the written question.
+    // While the question is only heard, the speaker shows alone (Dan, 2026-11-11). The bubble is for the written
+    // question.
     if (q.variant !== 'V0903' && !result) return <SpeakerButton audio={q.audio} large label="Play the question" />
     return <SpeakerBubble><FrenchText q={q} newWords={newWords} onHint={onHint} /></SpeakerBubble>
   }
