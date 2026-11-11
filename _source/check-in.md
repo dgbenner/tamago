@@ -289,6 +289,15 @@ Updated November 10, 2026. **New: vocabulary and Catch-Up circles (section 9). F
 
 ## Waiting for Dan
 
+- **Fable's review of the new drafts (nothing swapped, as you said).** These are the candidates files for tonight's vocabulary circles, made the same way as before:
+  - _review/french-vocab-candidates.md: 165 candidates for 65 drafts; 7 are word for word on Tatoeba, and 40 have a candidate that teaches all the same new words.
+  - _review/spanish-vocab-candidates.md: 108 candidates for 48 drafts; 3 word for word, 30 covered.
+  - _review/german-vocab-candidates.md: 102 candidates for 50 drafts; 2 word for word, 16 covered.
+- **Icons:**
+  - **Side-dish art for Catch-Up:** the bowl of miso soup is my stand-in. Send side-dish art and it goes on the Catch-Up circles.
+  - **Help-roll icons on other circles (from before tonight):** since the 19 square images were held out, the maki group holds only the three help rolls, so some ordinary circles wear the help circles' icons (French Units 6 to 9, Numbers to 100, Where You Live, Countries and Languages, At the Market, Body and Feelings). Confirm the 19 images, or send more maki art, and they'll be told apart again.
+- **Pictures for the vocabulary circles:** most of their nouns (cinéma, gare, vélo, fleur, coche, Bahnhof, Fahrrad…) have no picture yet, so their Pick the Picture questions show other words. Say the word and I'll add them to _source/image-list.md.
+
 0. **Accessibility items I couldn't fix:**
    - **iPad landscape only vs WCAG 1.3.4.** AA says an app mustn't lock itself to one orientation, so the "Turn your iPad sideways" note fails AA. Your Pass 2 notes asked for it, so I left it. Say the word and I'll remove it (an upright iPad would then get the phone layout).
    - **Listening and speaking questions** need hearing and a voice by design. The alternative is the Can't Listen Now / Can't Speak Now button on each of those questions (and in Settings), which swaps them for reading and writing. There's no transcript for listening questions, since that would give the answer away.
@@ -305,10 +314,10 @@ Updated November 10, 2026. **New: vocabulary and Catch-Up circles (section 9). F
    - Commercial emoji check: none of the files is a copy of an Apple, Google, Samsung or Microsoft emoji. The "Emoji" in some file names reads as a generation prompt, not a vendor set. The OpenAI terms assign generated images to you. If the 512 set came from a stock or emoji pack, tell me which, and I'll check its licence.
    - No icon has a face, a character or text.
 2. **Netlify (your call, no hurry).** Builds are stopped and the old site still serves Phase 5 at https://tamago-590.netlify.app. Anyone who had it installed stays on that old version; the new home is https://tamago-83f.pages.dev. Delete the Netlify site whenever you like, or keep it. A custom domain on Cloudflare (for example a subdomain of a domain you own) is a few clicks when you want one.
-2c. **German native-speaker check:** 69 drafted German sentences, listed at the end of this file, need a native speaker of standard German before testers. Same flow: https://tamago-83f.pages.dev, choose German, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check.
-2a. **Spanish native-speaker check:** 158 drafted Spanish sentences, listed at the end of this file, need a native speaker of Latin American Spanish before testers. Same flow as French: on their phone, https://tamago-83f.pages.dev, choose Spanish, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check. Most drafts are in the first six units, where Tatoeba's checked sentences within so few words run out; from Unit 7 on, drafting is a handful per unit.
+2c. **German native-speaker check:** 137 drafted German sentences, listed at the end of this file, need a native speaker of standard German before testers. Same flow: https://tamago-83f.pages.dev, choose German, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check.
+2a. **Spanish native-speaker check:** 194 drafted Spanish sentences, listed at the end of this file, need a native speaker of Latin American Spanish before testers. Same flow as French: on their phone, https://tamago-83f.pages.dev, choose Spanish, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check. Most drafts are in the first six units, where Tatoeba's checked sentences within so few words run out; from Unit 7 on, drafting is a handful per unit.
 2b. **Spanish flag (your call):** the course is Latin American Spanish and the flag is Spain's. Send another flag image whenever you like and I'll swap it in.
-3. **Native-speaker check (now 349 French sentences, listed below, plus Part 2's 22 task items).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
+3. **Native-speaker check (now 414 French sentences, listed below, plus Part 2's 22 task items).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
 4. **The Claude features (explanations, written practice, conversations)** run on a Tamago-only key, stored only as a Cloudflare Pages secret (TAMAGO_ANTHROPIC_API_KEY), under a $5 monthly spend cap. If the key lapses or the cap is reached, they switch off quietly and the rest of the app works as before.
    - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output; one explanation is a few hundred tokens. Claude-written practice uses Opus 5.5 ($4 and $20 per million), a few cents a set. The $5 cap stops everything for the rest of the month if it's ever reached.
 5. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
@@ -853,7 +862,7 @@ Every French sentence I wrote (414), for the native-speaker check. Tatoeba sente
 
 ## Spanish drafted sentences
 
-Every Spanish sentence I wrote (146), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
+Every Spanish sentence I wrote (194), for a native speaker of Latin American Spanish. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (16)
 
@@ -1055,10 +1064,67 @@ Every Spanish sentence I wrote (146), for a native speaker of Latin American Spa
 - S33107 Sirve para el agua. = It's for water.
 - S33108 Sirve para el pan. = It's for bread.
 
+**U51 Body and Feelings** (19)
+
+- S51101 El pie es grande. = The foot is big.
+- S51102 Tengo un pie grande. = I have a big foot.
+- S51103 Tom tiene un pie pequeño. = Tom has a small foot.
+- S51104 Tiene dientes pequeños. = He has small teeth.
+- S51105 Tengo dientes grandes. = I have big teeth.
+- S51106 Los dientes son pequeños. = The teeth are small.
+- S51107 Es una cara bonita. = It's a pretty face.
+- S51108 Tiene una cara pequeña. = She has a small face.
+- S51109 Tiene el pelo bonito. = She has nice hair.
+- S51110 Las manos son grandes. = The hands are big.
+- S51111 La nariz es pequeña. = The nose is small.
+- S51112 Tiene una nariz pequeña. = She has a small nose.
+- S51113 Soy alegre. = I'm cheerful.
+- S51114 Ella es alegre. = She's cheerful.
+- S51115 Él es simpático. = He's nice.
+- S51116 Ella es simpática. = She's nice.
+- S51117 Eres simpática. = You're nice.
+- S51118 Tom es serio. = Tom is serious.
+- S51119 Soy serio. = I'm serious.
+
+**U52 Free Time** (15)
+
+- S52101 Me gusta la película. = I like the film.
+- S52102 Es una película. = It's a film.
+- S52103 Es una fiesta. = It's a party.
+- S52104 Me gusta el fútbol. = I like football.
+- S52105 El fútbol es bueno. = Football is good.
+- S52106 ¿Te gusta jugar? = Do you like to play?
+- S52107 No me gusta jugar. = I don't like to play.
+- S52108 Me gusta escuchar. = I like to listen.
+- S52109 ¿Te gusta escuchar? = Do you like to listen?
+- S52110 Escucho. = I'm listening.
+- S52111 No escucho. = I'm not listening.
+- S52112 ¿Estás de vacaciones? = Are you on vacation?
+- S52113 Tom lee un libro. = Tom reads a book.
+- S52114 Ella lee. = She reads.
+- S52115 Él lee una carta. = He reads a letter.
+
+**U53 Around Town** (14)
+
+- S53101 Voy al museo. = I'm going to the museum.
+- S53102 Estamos en el cine. = We're at the cinema.
+- S53103 Voy al teatro. = I'm going to the theater.
+- S53104 El teatro es grande. = The theater is big.
+- S53105 ¿Dónde está el teatro? = Where is the theater?
+- S53106 Voy en taxi. = I'm going by taxi.
+- S53107 Es un taxi. = It's a taxi.
+- S53108 La plaza es grande. = The square is big.
+- S53109 ¿Dónde está la plaza? = Where is the square?
+- S53110 Es una calle bonita. = It's a pretty street.
+- S53111 La calle es pequeña. = The street is small.
+- S53112 ¿Dónde está la calle? = Where is the street?
+- S53113 Es un pueblo pequeño. = It's a small town.
+- S53114 El hotel es bonito. = The hotel is pretty.
+
 
 ## German drafted sentences
 
-Every German sentence I wrote (87), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
+Every German sentence I wrote (137), for a native speaker of German as spoken in Germany. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (10)
 
@@ -1197,3 +1263,62 @@ Every German sentence I wrote (87), for a native speaker of German as spoken in 
 - S33107 Das ist eine Sache für Tee. = It's a thing for tea.
 - S33108 Er heißt Tom. = His name is Tom. (QT09 answer)
 - S33109 Sie heißt Anna. = Her name is Anna. (QT09 answer)
+
+**U51 People and Feelings** (12)
+
+- S51101 Wer ist der Herr? = Who is the gentleman?
+- S51102 Der Herr ist allein. = The gentleman is alone.
+- S51103 Der Herr ist müde. = The gentleman is tired.
+- S51105 Hast du Hunger? = Are you hungry?
+- S51106 Tom hat Hunger. = Tom is hungry.
+- S51107 Ich habe Durst. = I'm thirsty.
+- S51108 Hast du Durst? = Are you thirsty?
+- S51109 Wir haben Durst. = We're thirsty.
+- S51110 Das Baby ist müde. = The baby is tired.
+- S51111 Das ist lustig. = That's funny.
+- S51112 Das Baby ist ruhig. = The baby is quiet.
+- S51113 Du bist ein Mensch. = You're a human being.
+
+**U52 Free Time** (22)
+
+- S52101 Der Film ist gut. = The film is good.
+- S52102 Ist der Film gut? = Is the film good?
+- S52103 Das ist ein Film. = That's a film.
+- S52104 Das ist ein Foto. = That's a photo.
+- S52105 Ich mag das Foto. = I like the photo.
+- S52106 Das Foto ist gut. = The photo is good.
+- S52107 Die Party ist gut. = The party is good.
+- S52108 Ich mag die Party. = I like the party.
+- S52110 Tom hat ein Hobby. = Tom has a hobby.
+- S52111 Das ist ein Geschenk. = That's a present.
+- S52112 Ich mag das Geschenk. = I like the present.
+- S52113 Hast du ein Geschenk? = Do you have a present?
+- S52114 Ich habe Urlaub. = I'm on holiday.
+- S52115 Hast du Urlaub? = Are you on holiday?
+- S52116 Tom hat Urlaub. = Tom is on holiday.
+- S52117 Ich habe Freizeit. = I have free time.
+- S52118 Hast du Freizeit? = Do you have free time?
+- S52119 Wir haben Freizeit. = We have free time.
+- S52120 Hören Sie? = Can you hear?
+- S52121 Ich höre. = I'm listening.
+- S52122 Ich höre nicht. = I'm not listening.
+- S52123 Sie schwimmen nicht. = They don't swim.
+
+**U53 Around Town** (16)
+
+- S53101 Wo ist das Taxi? = Where is the taxi?
+- S53102 Das Taxi kommt. = The taxi is coming.
+- S53103 Ist das ein Taxi? = Is that a taxi?
+- S53104 Wo ist das Kino? = Where is the cinema?
+- S53105 Das Kino ist groß. = The cinema is big.
+- S53106 Ist das ein Kino? = Is that a cinema?
+- S53107 Das Dorf ist klein. = The village is small.
+- S53108 Wo ist das Dorf? = Where is the village?
+- S53109 Das ist ein Dorf. = That's a village.
+- S53110 Wo ist die Straße? = Where is the street?
+- S53111 Die Straße ist groß. = The street is big.
+- S53112 Das ist die Straße. = That's the street.
+- S53113 Wo ist der Flughafen? = Where is the airport?
+- S53114 Das Café ist klein. = The café is small.
+- S53115 Ist das ein Café? = Is that a café?
+- S53116 Ist das der Bus? = Is that the bus?
