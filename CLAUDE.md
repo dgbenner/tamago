@@ -101,7 +101,7 @@ Choices the specs left open, easy to change:
 
 ## Testing
 
-With the Testing shortcuts setting on (on the Developer page; default on while Dan is the only user; turn the default off before Phase 4 testers), the right arrow, or a quick swipe left that starts on the right half of a touch screen, marks a question correct and moves on; with an answer on screen it acts as Continue. Attempts made this way carry `test_skip: true`. Real progress on that browser moves with it.
+With the Testing shortcuts setting on (on the Developer page; default on while Dan is the only user; turn the default off before Phase 4 testers), the right arrow, or a quick swipe left that starts on the right half of a touch screen, marks a question correct and moves on; with an answer on screen it acts as Continue. On the tree, the right arrow (nothing focused, no sheet open) or a swipe left that starts at the screen's right edge (touch events, 32px) passes the current circle's next lesson without playing it, and the ring updates at once; a focused circle also takes the arrow, and a swipe on a circle passes that circle (src/screens/Home.jsx, CircleNode.jsx, App testPass). Reset Progress is in the Developer page's Testing block, with an on-page confirmation. Attempts made this way carry `test_skip: true`. Real progress on that browser moves with it.
 
 ## Answer checking
 

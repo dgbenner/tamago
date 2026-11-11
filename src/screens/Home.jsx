@@ -347,6 +347,29 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
   const [finalOpen, setFinalOpen] = useState(false)
   const [scenesOpen, setScenesOpen] = useState(false)
   const [reviewOpen, setReviewOpen] = useState(false)
+  // Testing Shortcuts on the tree (Dan, 2026-11-10): the right arrow anywhere on the tree, or a swipe that starts at the
+  // right edge of the screen and moves left, passes the current circle's next lesson without playing it. Not while a
+  // sheet is open or a field has the focus. (A circle that has the focus still takes the arrow for itself.)
+  const sheetOpen = Boolean(picked || cpPicked || finalOpen || scenesOpen || reviewOpen || languages || practiceNote)
+  const current = rows.flat().find((n) => n.current && n.open && !n.topic?.choosing)
+  useEffect(() => {
+    if (!onTestPass || !current || sheetOpen) return undefined
+    const pass = () => onTestPass(current.unit.unit_id)
+    const typing = () => document.activeElement?.matches('input, textarea, select, [contenteditable]')
+    const onKey = (e) => {
+      if (e.key !== 'ArrowRight' || e.repeat || e.metaKey || e.altKey || e.ctrlKey || e.shiftKey || typing()) return
+      if (e.target.closest?.('[data-state]')) return // a focused circle handles its own arrow
+      e.preventDefault(); pass()
+    }
+    // Touch events, not pointer events: the browser cancels a pointer as soon as it starts panning.
+    let start = null
+    const down = (e) => { const t = e.touches[0]; start = e.touches.length === 1 && t.clientX >= window.innerWidth - 32 ? { x: t.clientX, y: t.clientY } : null }
+    const up = (e) => { const d = start; const t = e.changedTouches[0]; start = null; if (d && t && d.x - t.clientX > 60 && Math.abs(t.clientY - d.y) < 60) pass() }
+    window.addEventListener('keydown', onKey)
+    window.addEventListener('touchstart', down, { passive: true })
+    window.addEventListener('touchend', up)
+    return () => { window.removeEventListener('keydown', onKey); window.removeEventListener('touchstart', down); window.removeEventListener('touchend', up) }
+  }, [onTestPass, current?.unit.unit_id, sheetOpen])
   return (
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
