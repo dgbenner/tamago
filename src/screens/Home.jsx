@@ -438,10 +438,12 @@ export default function Home({ wide, versionLine, panel, rows, markers, pointsTo
           {showPoints && <Points total={pointsTotal} today={pointsToday} />}
           <button onClick={() => setLanguages(true)} aria-label={`Language: ${course.name}`} className="icon-btn -ml-2 lg:ml-0"><img src={course.flag} alt="" className="h-8 w-8 object-contain" /></button>
         </span>
-        <span className="hdr-brand flex items-center gap-2 lg:order-1 lg:mr-auto lg:ml-[2px] lg:gap-[3px]">
+        {/* The logo reloads the app, opening screen and version name included, as on a fresh launch (Dan, 2026-11-11). */}
+        <button type="button" onClick={() => window.location.reload()} aria-label="Tamago, reload"
+          className="hdr-brand flex cursor-pointer items-center gap-2 rounded-lg lg:order-1 lg:mr-auto lg:ml-[2px] lg:gap-[3px]">
           <SushiMark className="hdr-sushi relative hidden w-11 lg:block lg:w-[2.18rem] lg:-top-[2px]" />
           <LogoInline className="hdr-wordmark" />
-        </span>
+        </button>
         <span className="hdr-gear flex w-20 justify-end lg:order-3 lg:w-auto lg:-ml-[1.1rem] lg:-translate-x-[2px]"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
       </header>
 

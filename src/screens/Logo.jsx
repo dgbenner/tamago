@@ -52,10 +52,10 @@ export default function Logo() {
 // too busy; the opening screen keeps all three.
 export function LogoInline({ className = '' }) {
   return (
-    <div role="img" aria-label="Tamago" className={className}>
+    <span role="img" aria-label="Tamago" className={`block ${className}`}>
       <svg className="block w-[92px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
         <g className="wm-letters">{LETTERS.map((strokes, i) => <Letter key={i} i={i}><path d={strokes.join('')} stroke="var(--accent)" strokeWidth="15" /></Letter>)}</g>
       </svg>
-    </div>
+    </span>
   )
 }
