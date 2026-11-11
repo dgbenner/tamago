@@ -26,8 +26,8 @@
     "unit_id": "U49",
     "kind": "message",
     "title": "Un message de Marie",
-    "lines": "Paul,\nTu peux acheter une bouteille de lait, un paquet de fromage et un kilo de pommes ?\nMerci !\nMarie",
-    "questions_json": "[{\"question\":\"What does Marie want from the shop?\",\"choices\":[\"Milk, cheese and apples\",\"Bread and water\",\"Fruit and vegetables\"],\"answer\":0},{\"question\":\"How much milk?\",\"choices\":[\"One bottle\",\"Two bottles\",\"A kilo\"],\"answer\":0}]",
+    "lines": "Paul,\nTu peux acheter une bouteille de lait, un paquet de biscuits et un kilo de pommes ?\nMerci !\nMarie",
+    "questions_json": "[{\"question\":\"What does Marie want from the shop?\",\"choices\":[\"Milk, biscuits and apples\",\"Bread and water\",\"Fruit and vegetables\"],\"answer\":0},{\"question\":\"How much milk?\",\"choices\":[\"One bottle\",\"Two bottles\",\"A kilo\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
     "notes": ""

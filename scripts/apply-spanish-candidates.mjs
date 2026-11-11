@@ -13,7 +13,8 @@ const dry = process.argv.includes('--dry')
 // --keep S3106,…: drafts left as they are (German S3106 Entschuldigung! carries the accepted answer Sorry!), so their
 // candidates can go to the next draft.
 const keep = new Set((process.argv[process.argv.indexOf('--keep') + 1] ?? '').split(',').filter((x) => process.argv.includes('--keep') && x))
-const FILE = `_review/${C.name.toLowerCase()}-candidates.md`
+// FILE=_review/french-part2-candidates.md for a later part's file (A1 Complete).
+const FILE = process.env.FILE || `_review/${C.name.toLowerCase()}-candidates.md`
 const md = readFileSync(join(ROOT, FILE), 'utf8').split('\n')
 const picks = new Map()
 const options = new Map()
@@ -54,7 +55,7 @@ if (!dry) {
     const d = drafts.sentences.find((x) => x.sentence_id === p.id)
     if (!d) throw new Error(`${p.id}: not a draft`)
     Object.assign(d, { french: p.french, english: p.english, source: 'tatoeba', source_id: p.source_id, source_owner: p.owner,
-      notes: `${d.notes ?? ''}; swapped 2026-11-10 for Tatoeba #${p.source_id} (Fable's review: Use)${p.picked ? `, English picked by Fable over "${p.tatoebaEnglish}"` : ''}; was the draft "${d.french}"`.replace(/^; /, '') })
+      notes: `${d.notes ?? ''}; swapped 2026-11-10 for Tatoeba #${p.source_id} (Fable's review of ${FILE}: Use)${p.picked ? `, English picked by Fable over "${p.tatoebaEnglish}"` : ''}; was the draft "${d.french}"`.replace(/^; /, '') })
     dec.sentences[p.id] = { action: 'confirm', french: p.french, english_source: p.picked ? 'Fable review pick' : '', by: `Fable's review of ${FILE} (Use), applied by Claude at Dan's request, 2026-11-10: owner ${p.owner} has no native or OK signal` }
   }
   writeFileSync(dpath, JSON.stringify(drafts, null, 2) + '\n')

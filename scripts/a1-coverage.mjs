@@ -70,6 +70,12 @@ if (list) {
   console.log(`A1 list: ${list.words.length} words (${list.source.split(',')[0]})`)
   console.log(`  taught anywhere: ${all.taught} (${pct(all.taught, all.total)}); in 3+ sentences: ${all.covered} (${pct(all.covered, all.total)})`)
   console.log(`  main path only (units and help circles): taught ${path.taught} (${pct(path.taught, path.total)}); in 3+ sentences: ${path.covered} (${pct(path.covered, path.total)})`)
+  // French core target (Dan, 2026-11-10): the list's 600 most frequent A1 words; the full list is the stretch goal.
+  if (list.core) {
+    const core = measure(list.core), corePath = measure(list.core, { pathOnly: true })
+    console.log(`Core: the ${list.core.length} most frequent: taught ${core.taught} (${pct(core.taught, core.total)}); in 3+ sentences ${core.covered} (${pct(core.covered, core.total)}); main path ${corePath.taught} (${pct(corePath.taught, corePath.total)})`)
+    if (process.argv.includes('--missing')) console.log(`  core missing, most frequent first: ${core.missing.join(', ')}`)
+  }
   if (process.argv.includes('--missing')) { console.log(`  thin (under 3): ${all.thin.join(', ')}`); console.log(`  missing: ${all.missing.join(', ')}`) }
 } else console.log('A1 list: none loaded (no official list stored for this course)')
 for (const [name, words] of Object.entries(THEMES[COURSE])) {

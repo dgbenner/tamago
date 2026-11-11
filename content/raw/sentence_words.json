@@ -37400,6 +37400,62 @@
     "hint_override": ""
   },
   {
+    "sentence_id": "S10852",
+    "position": 1,
+    "surface": "Plus",
+    "word_id": "W708",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10852",
+    "position": 2,
+    "surface": "de",
+    "word_id": "W064",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10852",
+    "position": 3,
+    "surface": "biscuits",
+    "word_id": "W910",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10851",
+    "position": 1,
+    "surface": "J'",
+    "word_id": "W055",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10851",
+    "position": 2,
+    "surface": "aime",
+    "word_id": "W053",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10851",
+    "position": 3,
+    "surface": "les",
+    "word_id": "W022",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10851",
+    "position": 4,
+    "surface": "biscuits",
+    "word_id": "W910",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S9061",
     "position": 1,
     "surface": "Je",
@@ -38970,30 +39026,22 @@
   {
     "sentence_id": "S10262",
     "position": 1,
-    "surface": "Mon",
-    "word_id": "W421",
+    "surface": "Tu",
+    "word_id": "W007",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10262",
     "position": 2,
-    "surface": "chien",
-    "word_id": "W069",
+    "surface": "es",
+    "word_id": "W009",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10262",
     "position": 3,
-    "surface": "est",
-    "word_id": "W025",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S10262",
-    "position": 4,
     "surface": "né",
     "word_id": "W833",
     "notes": "",
@@ -39001,23 +39049,31 @@
   },
   {
     "sentence_id": "S10262",
-    "position": 5,
-    "surface": "ici",
-    "word_id": "W206",
+    "position": 4,
+    "surface": "où",
+    "word_id": "W433",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10263",
     "position": 1,
-    "surface": "Il",
-    "word_id": "W023",
+    "surface": "Une",
+    "word_id": "W012",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10263",
     "position": 2,
+    "surface": "année",
+    "word_id": "W836",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10263",
+    "position": 3,
     "surface": "a",
     "word_id": "W067",
     "notes": "",
@@ -39025,15 +39081,15 @@
   },
   {
     "sentence_id": "S10263",
-    "position": 3,
-    "surface": "six",
-    "word_id": "W444",
+    "position": 4,
+    "surface": "douze",
+    "word_id": "W821",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10263",
-    "position": 4,
+    "position": 5,
     "surface": "mois",
     "word_id": "W835",
     "notes": "",
@@ -39122,14 +39178,22 @@
   {
     "sentence_id": "S10266",
     "position": 1,
-    "surface": "Bonne",
-    "word_id": "W412",
+    "surface": "En",
+    "word_id": "W718",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10266",
     "position": 2,
+    "surface": "quelle",
+    "word_id": "W437",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10266",
+    "position": 3,
     "surface": "année",
     "word_id": "W836",
     "notes": "",
@@ -39137,10 +39201,34 @@
   },
   {
     "sentence_id": "S10266",
-    "position": 3,
-    "surface": "Marie",
-    "word_id": "",
-    "notes": "name",
+    "position": 4,
+    "surface": "est",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10266",
+    "position": 5,
+    "surface": "né",
+    "word_id": "W833",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10266",
+    "position": 6,
+    "surface": "ton",
+    "word_id": "W424",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10266",
+    "position": 7,
+    "surface": "chien",
+    "word_id": "W069",
+    "notes": "",
     "hint_override": ""
   },
   {
@@ -39682,8 +39770,8 @@
   {
     "sentence_id": "S10370",
     "position": 1,
-    "surface": "Elle",
-    "word_id": "W024",
+    "surface": "Il",
+    "word_id": "W023",
     "notes": "",
     "hint_override": ""
   },
@@ -39698,6 +39786,22 @@
   {
     "sentence_id": "S10370",
     "position": 3,
+    "surface": "plus",
+    "word_id": "W708",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10370",
+    "position": 4,
+    "surface": "de",
+    "word_id": "W064",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10370",
+    "position": 5,
     "surface": "quatre-vingts",
     "word_id": "W847",
     "notes": "",
@@ -39705,7 +39809,7 @@
   },
   {
     "sentence_id": "S10370",
-    "position": 4,
+    "position": 6,
     "surface": "ans",
     "word_id": "W831",
     "notes": "",
@@ -40066,24 +40170,24 @@
   {
     "sentence_id": "S10468",
     "position": 1,
-    "surface": "C'est",
-    "word_id": "W010",
+    "surface": "J'",
+    "word_id": "W055",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10468",
     "position": 2,
-    "surface": "un",
-    "word_id": "W011",
+    "surface": "aime",
+    "word_id": "W053",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10468",
     "position": 3,
-    "surface": "beau",
-    "word_id": "W413",
+    "surface": "ton",
+    "word_id": "W424",
     "notes": "",
     "hint_override": ""
   },
@@ -40242,16 +40346,16 @@
   {
     "sentence_id": "S10564",
     "position": 1,
-    "surface": "J'",
-    "word_id": "W055",
+    "surface": "Nous",
+    "word_id": "W402",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10564",
     "position": 2,
-    "surface": "habite",
-    "word_id": "W850",
+    "surface": "sommes",
+    "word_id": "W403",
     "notes": "",
     "hint_override": ""
   },
@@ -41362,40 +41466,32 @@
   {
     "sentence_id": "S10862",
     "position": 1,
-    "surface": "Une",
-    "word_id": "W012",
+    "surface": "Il",
+    "word_id": "W023",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10862",
     "position": 2,
-    "surface": "bouteille",
-    "word_id": "W900",
+    "surface": "a",
+    "word_id": "W067",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10862",
     "position": 3,
-    "surface": "de",
-    "word_id": "W064",
+    "surface": "une",
+    "word_id": "W012",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10862",
     "position": 4,
-    "surface": "lait",
-    "word_id": "W059",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S10862",
-    "position": 5,
-    "surface": "s'il vous plaît",
-    "word_id": "W037",
+    "surface": "bouteille",
+    "word_id": "W900",
     "notes": "",
     "hint_override": ""
   },
@@ -41474,8 +41570,8 @@
   {
     "sentence_id": "S10864",
     "position": 4,
-    "surface": "fromage",
-    "word_id": "W060",
+    "surface": "biscuits",
+    "word_id": "W910",
     "notes": "",
     "hint_override": ""
   },
@@ -41650,30 +41746,38 @@
   {
     "sentence_id": "S10869",
     "position": 1,
-    "surface": "C'est",
-    "word_id": "W010",
+    "surface": "Il",
+    "word_id": "W023",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10869",
     "position": 2,
-    "surface": "une",
-    "word_id": "W012",
+    "surface": "est",
+    "word_id": "W025",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10869",
     "position": 3,
-    "surface": "grande",
-    "word_id": "W202",
+    "surface": "dans",
+    "word_id": "W477",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10869",
     "position": 4,
+    "surface": "la",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10869",
+    "position": 5,
     "surface": "boîte",
     "word_id": "W902",
     "notes": "",
@@ -41682,14 +41786,30 @@
   {
     "sentence_id": "S10870",
     "position": 1,
-    "surface": "Un",
-    "word_id": "W011",
+    "surface": "Je",
+    "word_id": "W006",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S10870",
     "position": 2,
+    "surface": "voudrais",
+    "word_id": "W879",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10870",
+    "position": 3,
+    "surface": "un",
+    "word_id": "W011",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10870",
+    "position": 4,
     "surface": "verre",
     "word_id": "W903",
     "notes": "",
@@ -41697,7 +41817,7 @@
   },
   {
     "sentence_id": "S10870",
-    "position": 3,
+    "position": 5,
     "surface": "d'",
     "word_id": "W909",
     "notes": "",
@@ -41705,17 +41825,9 @@
   },
   {
     "sentence_id": "S10870",
-    "position": 4,
+    "position": 6,
     "surface": "eau",
     "word_id": "W058",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S10870",
-    "position": 5,
-    "surface": "s'il vous plaît",
-    "word_id": "W037",
     "notes": "",
     "hint_override": ""
   },

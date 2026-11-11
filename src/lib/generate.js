@@ -2,6 +2,7 @@
 // line must split into words the learner has met (the same splitter the content pipeline uses), so hints and
 // meanings come from Tamago's Wiktionary data, never from the model. Off until the function reports it's set up.
 import { analyse, formIndexFor } from '../../scripts/lib/french.mjs'
+import { shuffledChoices } from './a1types.js'
 
 const URL_ = '/api/generate'
 let ready = null
@@ -48,7 +49,7 @@ export function listeningFrom(result, words, names) {
   const lines = (result?.lines ?? []).map((l) => ({ speaker: l.speaker === 'B' ? 'B' : 'A', french: String(l.french ?? '').trim(), english: String(l.english ?? '').trim() }))
   if (lines.length < 2 || lines.length > 8 || lines.some((l) => !l.french || !fit(l.french, words, names))) return null
   const questions = (result?.questions ?? []).filter((q) => Array.isArray(q.choices) && q.choices.length >= 2 && q.choices.length <= 4 && Number.isInteger(q.answer) && q.answer >= 0 && q.answer < q.choices.length)
-    .map((q) => ({ question: String(q.question), choices: q.choices.map(String), answer: q.answer }))
+    .map((q) => shuffledChoices({ question: String(q.question), choices: q.choices.map(String), answer: q.answer })) // in a fresh order: a model tends to write the answer first
   if (!questions.length) return null
   return { title: String(result.title ?? 'Listening'), lines, questions }
 }

@@ -624,3 +624,15 @@ Part 3, Lingua Libre recordings:
 - App: later parts get checkpoints (middle and last row); level markers are filtered to the rows shown; the part banner's opacity is removed (contrast). Icons: later parts' main circles get nigiri, maki or temaki by thirds, and help circles get the glossy rolls.
 - trust-candidates.mjs takes PART=n and writes _review/<course>-part<n>-candidates.md. French Part 2: 217 candidates, 96 drafts, 5 same text, 33 covered.
 - French: 1,262 sentences, 899 Tatoeba, 363 drafts. FLELex coverage: 208 words (17%), 166 on the main path. npm test: 70 pass. Chrome: Part 2 unlocks, the switcher and banner work, the QT17 phone item works in a U42 lesson, axe is clean.
+
+## 2026-11-10: French Part 2, Fable's results
+
+- apply-spanish-candidates.mjs takes FILE= for a part's file. Part 2: 26 drafts with a Use candidate, 14 swapped, 12 held. Held as pair halves: S10061, S10063, S10064, S10066, S10571, S10573, S10765. Held because their candidates were taken: S10264, S10265, S10267, S10565, S10566.
+- From _review/french-part2-check.md:
+  - S10864 is now "Un paquet de biscuits, s'il vous plaît.".
+  - add-part2-fr.mjs: R103's text and answer, N105 is "J'ai vingt ans." = 20, and biscuits is W910 in U49 (senses Noun; hint "biscuits", which is what Wiktionary gives).
+  - S10851 "J'aime les biscuits." and S10852 "Plus de biscuits !" were added from a trial pull of U49 to content/pull/U49.json, with new ids, so no existing id moved.
+  - accepted_additions AD0001 to AD0006 have keep decisions.
+- a1types.js shuffledChoices: QT14 choices are shuffled per showing, with the answer index remapped. generate.js applies it to QT20 passages. Test added; npm test: 71 pass.
+- a1-list.json core: 600 headwords by FLELex freq_A1 (the highest across a headword's tags). a1-coverage.mjs prints core and full.
+- French: 1,264 sentences, 915 Tatoeba, 349 drafts.

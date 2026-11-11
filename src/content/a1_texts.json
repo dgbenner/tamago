@@ -71,7 +71,7 @@
     "title": "Un message de Marie",
     "lines": [
       "Paul,",
-      "Tu peux acheter une bouteille de lait, un paquet de fromage et un kilo de pommes ?",
+      "Tu peux acheter une bouteille de lait, un paquet de biscuits et un kilo de pommes ?",
       "Merci !",
       "Marie"
     ],
@@ -79,7 +79,7 @@
       {
         "question": "What does Marie want from the shop?",
         "choices": [
-          "Milk, cheese and apples",
+          "Milk, biscuits and apples",
           "Bread and water",
           "Fruit and vegetables"
         ],

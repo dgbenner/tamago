@@ -483,6 +483,36 @@
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "theachaean",
       "other_english": []
+    },
+    {
+      "sentence_id": "S10852",
+      "unit_id": "U49",
+      "french": "Plus de biscuits !",
+      "english": "No more biscuits!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2319109",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull; added 2026-11-10 for biscuits (Fable's Part 2 fix of S10864)",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10851",
+      "unit_id": "U49",
+      "french": "J'aime les biscuits.",
+      "english": "I like biscuits.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5299447",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull; added 2026-11-10 for biscuits (Fable's Part 2 fix of S10864)",
+      "source_owner": "pititnatole",
+      "other_english": []
     }
   ],
   "sentence_words": [
@@ -1427,6 +1457,62 @@
       "position": 4,
       "surface": "ici",
       "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10852",
+      "position": 1,
+      "surface": "Plus",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10852",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10852",
+      "position": 3,
+      "surface": "biscuits",
+      "word_id": "W910",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10851",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10851",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10851",
+      "position": 3,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10851",
+      "position": 4,
+      "surface": "biscuits",
+      "word_id": "W910",
       "notes": "",
       "hint_override": ""
     }

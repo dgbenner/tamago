@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 1262 (899 matched to Tatoeba, 363 Tamago originals), 71 off, 386 awaiting a ruling. Words with Wiktionary data: 362 of 362. French-to-English answers: 402 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 429.
+Sentences live: 1264 (915 matched to Tatoeba, 349 Tamago originals), 71 off, 402 awaiting a ruling. Words with Wiktionary data: 363 of 363. French-to-English answers: 408 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 426.
 
 Unit 1 is approved and live.
 
@@ -34,7 +34,7 @@ Candidates use only Unit 1 words, have 6 words or fewer, have a linked English t
 | S6056 |  | Tu as du temps ?<br>Do you have time? | none |
 | S6057 |  | Il a du temps.<br>He has time. | none |
 
-## Tamago originals: native-speaker check needed before Phase 4 (363)
+## Tamago originals: native-speaker check needed before Phase 4 (349)
 
 Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 
@@ -315,7 +315,6 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S10066 |  | Oui, je m'appelle Marie. | Yes, my name is Marie. | tts |
 | S10961 |  | Vous pouvez épeler, s'il vous plaît ? | Can you spell it, please? | tts |
 | S10962 |  | Tu peux épeler ton nom ? | Can you spell your name? | tts |
-| S10963 |  | Comment ça s'écrit ? | How do you spell that? | tts |
 | S10964 |  | Je peux épeler mon nom. | I can spell my name. | tts |
 | S10161 |  | Mon numéro, c'est le zéro six, onze, quinze, dix-neuf, vingt. | My number is 06 11 15 19 20. | tts |
 | S10162 |  | C'est le zéro six, douze, seize, dix-sept, treize. | It's 06 12 16 17 13. | tts |
@@ -329,11 +328,8 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S10170 |  | Oui, j'ai un portable. | Yes, I have a mobile phone. | tts |
 | S10171 |  | Je vais appeler Paul. | I'm going to call Paul. | tts |
 | S10261 |  | Elle est née aujourd'hui. | She was born today. | tts |
-| S10262 |  | Mon chien est né ici. | My dog was born here. | tts |
-| S10263 |  | Il a six mois. | He is six months old. | tts |
 | S10264 |  | Mon chat a deux mois. | My cat is two months old. | tts |
 | S10265 |  | Le chien a trois mois. | The dog is three months old. | tts |
-| S10266 |  | Bonne année, Marie ! | Happy New Year, Marie! | tts |
 | S10267 |  | C'est une bonne année. | It's a good year. | tts |
 | S11061 |  | Vous pouvez répéter, s'il vous plaît ? | Can you repeat that, please? | tts |
 | S11062 |  | Pardon, vous pouvez répéter le numéro ? | Sorry, can you repeat the number? | tts |
@@ -349,28 +345,22 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S10367 |  | J'ai cinquante ans. | I am fifty years old. | tts |
 | S10368 |  | C'est le zéro six, cinquante, soixante-dix, quatre-vingt-dix, quarante. | It's 06 50 70 90 40. | tts |
 | S10369 |  | Elle a soixante ans. | She is sixty years old. | tts |
-| S10370 |  | Elle a quatre-vingts ans. | She is eighty years old. | tts |
 | S10371 |  | Il a cent ans. | He is a hundred years old. | tts |
 | S10372 |  | Elle a quel âge ? | How old is she? | tts |
 | S10461 |  | J'habite au dix, rue du Parc. | I live at 10, rue du Parc. | tts |
 | S10462 |  | Tu habites dans quelle rue ? | Which street do you live on? | tts |
 | S10463 |  | Tu habites près de l'école ? | Do you live near the school? | tts |
-| S10464 |  | Vous habitez ici ? | Do you live here? | tts |
 | S10465 |  | Vous habitez près du parc ? | Do you live near the park? | tts |
 | S10466 |  | J'habite près du parc. | I live near the park. | tts |
 | S10467 |  | J'aime habiter en ville. | I like living in the city. | tts |
-| S10468 |  | C'est un beau pays. | It's a beautiful country. | tts |
 | S10469 |  | L'appartement est à quel étage ? | Which floor is the apartment on? | tts |
 | S10561 |  | J'habite en Allemagne. | I live in Germany. | tts |
 | S10562 |  | Il va en Allemagne. | He's going to Germany. | tts |
 | S10563 |  | Tu habites en Allemagne ? | Do you live in Germany? | tts |
-| S10564 |  | J'habite en Italie. | I live in Italy. | tts |
 | S10565 |  | Elle va en Italie. | She's going to Italy. | tts |
 | S10566 |  | Vous habitez en Italie ? | Do you live in Italy? | tts |
-| S10567 |  | J'habite en Espagne. | I live in Spain. | tts |
 | S10568 |  | Il va en Espagne. | He's going to Spain. | tts |
 | S10569 |  | Tu vas en Espagne ? | Are you going to Spain? | tts |
-| S10570 |  | Je vais en Angleterre. | I'm going to England. | tts |
 | S10571 |  | Tu es américain ? | Are you American? | tts |
 | S10572 |  | Oui, je vais en Espagne. | Yes, I'm going to Spain. | tts |
 | S10573 |  | Non, je suis allemand. | No, I'm German. | tts |
@@ -394,17 +384,13 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S10770 |  | La ville est chère. | The city is expensive. | tts |
 | S10771 |  | La pomme est chère. | The apple is expensive. | tts |
 | S10772 |  | Elle est chère ? | Is it expensive? | tts |
-| S10862 |  | Une bouteille de lait, s'il vous plaît. | A bottle of milk, please. | tts |
 | S10863 |  | La bouteille est dans le sac. | The bottle is in the bag. | tts |
-| S10864 |  | Un paquet de fromage, s'il vous plaît. | A packet of cheese, please. | tts |
+| S10864 |  | Un paquet de biscuits, s'il vous plaît. | A packet of biscuits, please. | tts |
 | S10865 |  | Le paquet est dans le sac. | The packet is in the bag. | tts |
 | S10866 |  | C'est un petit paquet. | It's a small packet. | tts |
-| S10867 |  | Où est la boîte ? | Where's the box? | tts |
 | S10868 |  | La boîte est dans le sac. | The box is in the bag. | tts |
-| S10869 |  | C'est une grande boîte. | It's a big box. | tts |
-| S10870 |  | Un verre d'eau, s'il vous plaît. | A glass of water, please. | tts |
 
-## Words, for a read-through (362)
+## Words, for a read-through (363)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -772,8 +758,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W907 | peu | peu | Adverb |  | little; not very much/many | checked |
 | W908 | trop | trop | Adverb |  | too; too much | checked |
 | W909 | d' | d' | Preposition |  | apocopic form of de: of | checked |
+| W910 | biscuits | biscuit | Noun | m | plural of biscuit (biscuit: biscuit) | checked |
 
-## Matched to Tatoeba (899)
+## Matched to Tatoeba (915)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -1675,8 +1662,24 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10829 | Assez pour aujourd'hui. | That's enough for today. | [#8428](https://tatoeba.org/en/sentences/show/8428) | sacredceltic |  |  | tts |
 | S10830 | Elle parle beaucoup. | She talks a lot. | [#134133](https://tatoeba.org/en/sentences/show/134133) | sysko |  |  | tts |
 | S10831 | Je suis d'ici. | I'm from here. | [#8332333](https://tatoeba.org/en/sentences/show/8332333) | theachaean |  |  | tts |
+| S10852 | Plus de biscuits ! | No more biscuits! | [#2319109](https://tatoeba.org/en/sentences/show/2319109) | sacredceltic |  |  | tts |
+| S10851 | J'aime les biscuits. | I like biscuits. | [#5299447](https://tatoeba.org/en/sentences/show/5299447) | pititnatole |  |  | tts |
 | S9161 | Qu'est-ce que ça veut dire ? | What does that mean? | [#2224260](https://tatoeba.org/en/sentences/show/2224260) | sacredceltic |  |  | tts |
+| S10963 | Comment ça s'écrit ? | How do you spell that? | [#12611806](https://tatoeba.org/en/sentences/show/12611806) | Adelpa | confirm |  | tts |
+| S10262 | Tu es né où ? | Where were you born? | [#430746](https://tatoeba.org/en/sentences/show/430746) | Pharamp | confirm |  | tts |
+| S10263 | Une année a douze mois. | A year has twelve months. | [#449025](https://tatoeba.org/en/sentences/show/449025) | jerom | confirm |  | tts |
+| S10266 | En quelle année est né ton chien ? | What year was your dog born? | [#1185572](https://tatoeba.org/en/sentences/show/1185572) | Eldad | confirm | Fable review pick | tts |
+| S10370 | Il a plus de quatre-vingts ans. | He is over eighty years old. | [#13818863](https://tatoeba.org/en/sentences/show/13818863) | mervert1 | confirm |  | tts |
+| S10464 | Vous habitez ici ? | Do you live here? | [#488027](https://tatoeba.org/en/sentences/show/488027) | Goofy | confirm |  | tts |
+| S10468 | J'aime ton pays. | I like your country. | [#3362437](https://tatoeba.org/en/sentences/show/3362437) | maydoo | confirm | Fable review pick | tts |
+| S10564 | Nous sommes en Italie. | We're in Italy. | [#10751178](https://tatoeba.org/en/sentences/show/10751178) | glossboss | confirm |  | tts |
+| S10567 | J'habite en Espagne. | I live in Spain. | [#13217392](https://tatoeba.org/en/sentences/show/13217392) | menaud | confirm |  | tts |
+| S10570 | Je vais en Angleterre. | I am going to England. | [#9123119](https://tatoeba.org/en/sentences/show/9123119) | carlosalberto | confirm |  | tts |
 | S10861 | Je voudrais une bouteille d'eau. | I'd like a bottle of water. | [#8405324](https://tatoeba.org/en/sentences/show/8405324) | Aiji |  |  | tts |
+| S10862 | Il a une bouteille ? | Does he have a bottle? | [#13711857](https://tatoeba.org/en/sentences/show/13711857) | menaud | confirm |  | tts |
+| S10867 | Où est la boîte ? | Where's the box? | [#13783998](https://tatoeba.org/en/sentences/show/13783998) | mervert1 | confirm |  | tts |
+| S10869 | Il est dans la boîte. | It is in the box. | [#13684456](https://tatoeba.org/en/sentences/show/13684456) | mervert1 | confirm |  | tts |
+| S10870 | Je voudrais un verre d'eau. | I'd like a glass of water. | [#1757613](https://tatoeba.org/en/sentences/show/1757613) | Zaghawa | confirm |  | tts |
 | S10871 | Voici ton sac. | Here is your bag. | [#920745](https://tatoeba.org/en/sentences/show/920745) | sacredceltic |  |  | tts |
 
 ## Off in the workbook (71)
@@ -1757,7 +1760,7 @@ Set to off by the workbook owner. Not shipped.
 | S7729 | À elle. | It's her turn. | pulled from Tatoeba under content_pull |
 | S7730 | À trois ! | On the count of three! | pulled from Tatoeba under content_pull |
 
-## English-to-French answers generated from Tatoeba (429)
+## English-to-French answers generated from Tatoeba (426)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -1794,9 +1797,6 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S10169 | Do you have a mobile phone? | Avez-vous un téléphone mobile ? | [#541803](https://tatoeba.org/en/sentences/show/541803) | sacredceltic |
 | S10169 | Do you have a mobile phone? | Disposes-tu d'un téléphone portable ? | [#1490216](https://tatoeba.org/en/sentences/show/1490216) | sacredceltic |
 | S10169 | Do you have a mobile phone? | Disposez-vous d'un téléphone portable ? | [#1490217](https://tatoeba.org/en/sentences/show/1490217) | sacredceltic |
-| S10464 | Do you live here? | Résides-tu ici ? | [#1115899](https://tatoeba.org/en/sentences/show/1115899) | sacredceltic |
-| S10464 | Do you live here? | Tu vis ici ? | [#4081046](https://tatoeba.org/en/sentences/show/4081046) | sbamsbamsbam |
-| S10464 | Do you live here? | Vivez-vous ici ? | [#8943](https://tatoeba.org/en/sentences/show/8943) | Cocorico |
 | S10571 | Are you American? | Es-tu Étasunien ? | [#1978524](https://tatoeba.org/en/sentences/show/1978524) | sacredceltic |
 | S10571 | Are you American? | Es-tu Étasunienne ? | [#1978525](https://tatoeba.org/en/sentences/show/1978525) | sacredceltic |
 | S10571 | Are you American? | Êtes-vous Étasunien ? | [#1978520](https://tatoeba.org/en/sentences/show/1978520) | sacredceltic |

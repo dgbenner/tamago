@@ -341,6 +341,90 @@
       "french": "J'ai un œuf.",
       "english_source": "",
       "by": "Fable's review of _review/french-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner gamma has no native or OK signal"
+    },
+    "S10963": {
+      "action": "confirm",
+      "french": "Comment ça s'écrit ?",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Adelpa has no native or OK signal"
+    },
+    "S10262": {
+      "action": "confirm",
+      "french": "Tu es né où ?",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Pharamp has no native or OK signal"
+    },
+    "S10263": {
+      "action": "confirm",
+      "french": "Une année a douze mois.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner jerom has no native or OK signal"
+    },
+    "S10266": {
+      "action": "confirm",
+      "french": "En quelle année est né ton chien ?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Eldad has no native or OK signal"
+    },
+    "S10370": {
+      "action": "confirm",
+      "french": "Il a plus de quatre-vingts ans.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner mervert1 has no native or OK signal"
+    },
+    "S10464": {
+      "action": "confirm",
+      "french": "Vous habitez ici ?",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Goofy has no native or OK signal"
+    },
+    "S10468": {
+      "action": "confirm",
+      "french": "J'aime ton pays.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner maydoo has no native or OK signal"
+    },
+    "S10564": {
+      "action": "confirm",
+      "french": "Nous sommes en Italie.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner glossboss has no native or OK signal"
+    },
+    "S10567": {
+      "action": "confirm",
+      "french": "J'habite en Espagne.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner menaud has no native or OK signal"
+    },
+    "S10570": {
+      "action": "confirm",
+      "french": "Je vais en Angleterre.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S10862": {
+      "action": "confirm",
+      "french": "Il a une bouteille ?",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner menaud has no native or OK signal"
+    },
+    "S10867": {
+      "action": "confirm",
+      "french": "Où est la boîte ?",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner mervert1 has no native or OK signal"
+    },
+    "S10869": {
+      "action": "confirm",
+      "french": "Il est dans la boîte.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner mervert1 has no native or OK signal"
+    },
+    "S10870": {
+      "action": "confirm",
+      "french": "Je voudrais un verre d'eau.",
+      "english_source": "",
+      "by": "Fable's review of _review/french-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Zaghawa has no native or OK signal"
     }
   },
   "accepted_answers": {
@@ -368,6 +452,36 @@
       "action": "keep",
       "answer": "No, it's his apple.",
       "by": "Claude under autonomous-build.md, from the French check of 2026-11-10 (Dan: add the accepted-answer notes from its Keep rows): sa is his or her"
+    },
+    "AD0001": {
+      "action": "keep",
+      "answer": "Hello, ma'am. What's your name?",
+      "by": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request"
+    },
+    "AD0002": {
+      "action": "keep",
+      "answer": "Tu es américaine ?",
+      "by": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request"
+    },
+    "AD0003": {
+      "action": "keep",
+      "answer": "Non, je suis allemande.",
+      "by": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request"
+    },
+    "AD0004": {
+      "action": "keep",
+      "answer": "C'est combien ?",
+      "by": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request"
+    },
+    "AD0005": {
+      "action": "keep",
+      "answer": "How much do the fruits cost?",
+      "by": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request"
+    },
+    "AD0006": {
+      "action": "keep",
+      "answer": "Could you spell it, please?",
+      "by": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request"
     }
   },
   "units": {
@@ -1364,6 +1478,10 @@
     "W909": {
       "hint": "of (de before a vowel: une bouteille d'eau)",
       "source": "short form of Wiktionary"
+    },
+    "W910": {
+      "hint": "biscuits",
+      "source": "short form of Wiktionary"
     }
   },
   "phrases_off": {
@@ -1372,5 +1490,55 @@
       "FB05",
       "FB06"
     ]
-  }
+  },
+  "accepted_additions": [
+    {
+      "answer_id": "AD0001",
+      "sentence_id": "S10065",
+      "direction": "fr_to_en",
+      "answer": "Hello, ma'am. What's your name?",
+      "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0002",
+      "sentence_id": "S10571",
+      "direction": "en_to_fr",
+      "answer": "Tu es américaine ?",
+      "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0003",
+      "sentence_id": "S10573",
+      "direction": "en_to_fr",
+      "answer": "Non, je suis allemande.",
+      "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0004",
+      "sentence_id": "S10761",
+      "direction": "en_to_fr",
+      "answer": "C'est combien ?",
+      "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0005",
+      "sentence_id": "S10765",
+      "direction": "fr_to_en",
+      "answer": "How much do the fruits cost?",
+      "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0006",
+      "sentence_id": "S10961",
+      "direction": "fr_to_en",
+      "answer": "Could you spell it, please?",
+      "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+      "status": "live"
+    }
+  ]
 }

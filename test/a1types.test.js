@@ -46,3 +46,14 @@ test('a circle gives one task item in the rounds that fit, least seen first; Can
   assert.ok(a1QuestionFor(c, 'U40', 2, { cantListen: true }).readInstead)
   assert.equal(a1QuestionFor(c, 'U99', 4), null)
 })
+
+test('Read and Answer choices are shuffled, the answer following its choice', () => {
+  const item = { id: 'R1', kind: 'sign', lines: ['x'], questions: [{ question: 'q', choices: ['right', 'b', 'c'], answer: 0 }] }
+  const firsts = new Set()
+  for (let i = 0; i < 40; i++) {
+    const q = makeA1Question('QT14', item, 3).questions[0]
+    assert.equal(q.choices[q.answer], 'right')
+    firsts.add(q.choices[0])
+  }
+  assert.ok(firsts.size > 1)
+})

@@ -69,10 +69,18 @@ export const wordCount = (t) => String(t ?? '').trim().split(/\s+/).filter((w) =
 
 const inRounds = (type, round) => round >= A1_TYPES[type].rounds[0] && round <= A1_TYPES[type].rounds[1]
 
+// A QT14 question's choices in a fresh order each time, the answer index following its choice (Fable's Part 2
+// check, 2026-11-10: items are written with the right choice first).
+export function shuffledChoices(x, rng = Math.random) {
+  const order = x.choices.map((_, i) => i)
+  for (let i = order.length - 1; i > 0; i--) { const j = Math.floor(rng() * (i + 1)); [order[i], order[j]] = [order[j], order[i]] }
+  return { ...x, choices: order.map((i) => x.choices[i]), answer: order.indexOf(x.answer) }
+}
+
 // A question for one item. QT16 is never graded (ungraded: done counts, like speaking, but no swap).
-export function makeA1Question(type, item, round, { cantListen = false } = {}) {
+export function makeA1Question(type, item, round, { cantListen = false, rng = Math.random } = {}) {
   const base = { qid: `${type}-${item.id}-${Math.floor(Math.random() * 1e9)}`, type, round, skill: A1_TYPES[type].skill, item_id: item.id, variant: `${type}-1` }
-  if (type === 'QT14') return { ...base, kind: item.kind, title: item.title ?? '', lines: item.lines, questions: item.questions }
+  if (type === 'QT14') return { ...base, kind: item.kind, title: item.title ?? '', lines: item.lines, questions: item.questions.map((x) => shuffledChoices(x, rng)) }
   if (type === 'QT15') return { ...base, card: item.card, fields: item.fields }
   if (type === 'QT16') return { ...base, ungraded: true, prompt: item.prompt, points: item.points ?? [], min: item.min_words ?? 20, max: item.max_words ?? 40 }
   // QT17: heard, or with Can't Listen Now, read (the words written out) and answered the same way.
@@ -88,5 +96,5 @@ export function a1QuestionFor(c, unitId, round, { seen = {}, cantListen = false,
   }
   if (!pool.length) return null
   pool.sort((a, b) => (seen[a.item.id] ?? 0) - (seen[b.item.id] ?? 0) || rng() - 0.5)
-  return makeA1Question(pool[0].type, pool[0].item, round, { cantListen })
+  return makeA1Question(pool[0].type, pool[0].item, round, { cantListen, rng })
 }

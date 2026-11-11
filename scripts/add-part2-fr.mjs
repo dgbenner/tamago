@@ -33,7 +33,7 @@ export const PART2_FR = [
   { unit_id: 'U48', order: 108, row: 15, after: 'row 14', title: 'How Much Is It?', grammar: 'Ça coûte combien ? Ça coûte … euros; c\'est cher', tasks: 'T04',
     words: ['prix', 'coûte', 'coûtent', 'euro', 'euros', 'cher', 'chère', 'payer', 'carte', 'argent', 'voilà'] },
   { unit_id: 'U49', order: 109, row: 15, after: 'row 14', title: 'Bottles and Bags', grammar: 'Une bouteille de …, un paquet de …: de after a quantity; beaucoup de, assez de, trop de', tasks: 'T04',
-    words: ['bouteille', 'paquet', 'boîte', 'verre', 'sac', 'assez', 'beaucoup', 'peu', 'trop', "d'"] },
+    words: ['bouteille', 'paquet', 'boîte', 'verre', 'sac', 'assez', 'beaucoup', 'peu', 'trop', "d'", 'biscuits'] }, // biscuits: Fable's Part 2 check (S10864, R103), 2026-11-10
 ]
 
 // The part's A1 task items (QT14 to QT17), written for Tamago from the part's words (Tatoeba has nothing in these
@@ -43,7 +43,7 @@ export const ITEMS = {
   a1_listen: [
     ['N101', 'U42', 'number', 'quinze', '15'], ['N102', 'U42', 'number', 'dix-sept', '17'], ['N103', 'U42', 'phone', 'zéro six, onze, quinze, dix-neuf, vingt', '06 11 15 19 20'],
     ['N104', 'U42', 'phone', 'zéro sept, douze, seize, dix-huit, quatorze', '07 12 16 18 14'],
-    ['N105', 'U43', 'number', "J'ai trente-deux ans.", '32'], ['N106', 'U43', 'number', 'Il a dix-huit ans.', '18'],
+    ['N105', 'U43', 'number', "J'ai vingt ans.", '20'], ['N106', 'U43', 'number', 'Il a dix-huit ans.', '18'],
     ['N107', 'U44', 'number', 'soixante-dix', '70'], ['N108', 'U44', 'number', 'quatre-vingt-dix', '90'], ['N109', 'U44', 'number', 'quarante-cinq', '45'], ['N110', 'U44', 'number', 'quatre-vingt-dix-neuf', '99'],
     ['N111', 'U48', 'price', 'trois euros cinquante', '3.50'], ['N112', 'U48', 'price', 'dix euros', '10'], ['N113', 'U48', 'price', 'un euro vingt', '1.20'], ['N114', 'U48', 'price', 'vingt-cinq euros', '25'],
   ].map(([id, unit_id, kind, say, answer]) => ({ id, unit_id, kind, say, answer, status: DRAFT, notes: '' })),
@@ -61,8 +61,8 @@ export const ITEMS = {
       questions: [{ question: 'How much is a kilo of apples?', choices: ['€2', '€3', '€20'], answer: 0 }, { question: 'When is the market on?', choices: ['Monday and Sunday', 'Every day', 'Only on Sunday'], answer: 0 }] },
     { id: 'R102', unit_id: 'U48', kind: 'menu', title: 'Les prix', lines: ['Pain : 1 €', 'Fromage : 4,50 €', 'Lait : 1,20 €', 'Eau : 0,80 €'],
       questions: [{ question: 'How much is the cheese?', choices: ['€1.20', '€4.50', '€0.80'], answer: 1 }, { question: 'What costs €1?', choices: ['The bread', 'The milk', 'The water'], answer: 0 }] },
-    { id: 'R103', unit_id: 'U49', kind: 'message', title: 'Un message de Marie', lines: ['Paul,', 'Tu peux acheter une bouteille de lait, un paquet de fromage et un kilo de pommes ?', 'Merci !', 'Marie'],
-      questions: [{ question: 'What does Marie want from the shop?', choices: ['Milk, cheese and apples', 'Bread and water', 'Fruit and vegetables'], answer: 0 }, { question: 'How much milk?', choices: ['One bottle', 'Two bottles', 'A kilo'], answer: 0 }] },
+    { id: 'R103', unit_id: 'U49', kind: 'message', title: 'Un message de Marie', lines: ['Paul,', 'Tu peux acheter une bouteille de lait, un paquet de biscuits et un kilo de pommes ?', 'Merci !', 'Marie'],
+      questions: [{ question: 'What does Marie want from the shop?', choices: ['Milk, biscuits and apples', 'Bread and water', 'Fruit and vegetables'], answer: 0 }, { question: 'How much milk?', choices: ['One bottle', 'Two bottles', 'A kilo'], answer: 0 }] },
   ].map((t) => ({ id: t.id, unit_id: t.unit_id, kind: t.kind, title: t.title, lines: t.lines.join('\n'), questions_json: JSON.stringify(t.questions), source: 'written for Tamago', status: DRAFT, notes: '' })),
   a1_prompts: [
     { id: 'P101', unit_id: 'U45', prompt: 'Write a short message to a new friend: your name, how old you are and where you live.', points: 'your name;your age;where you live', min_words: 20, max_words: 35 },

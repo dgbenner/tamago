@@ -3096,6 +3096,60 @@
     "status": "live"
   },
   {
+    "answer_id": "AD0001",
+    "sentence_id": "S10065",
+    "direction": "fr_to_en",
+    "answer": "Hello, ma'am. What's your name?",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0002",
+    "sentence_id": "S10571",
+    "direction": "en_to_fr",
+    "answer": "Tu es américaine ?",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0003",
+    "sentence_id": "S10573",
+    "direction": "en_to_fr",
+    "answer": "Non, je suis allemande.",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0004",
+    "sentence_id": "S10761",
+    "direction": "en_to_fr",
+    "answer": "C'est combien ?",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0005",
+    "sentence_id": "S10765",
+    "direction": "fr_to_en",
+    "answer": "How much do the fruits cost?",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0006",
+    "sentence_id": "S10961",
+    "direction": "fr_to_en",
+    "answer": "Could you spell it, please?",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
     "answer_id": "GS0001-8090721",
     "sentence_id": "S0001",
     "direction": "en_to_fr",
@@ -3404,36 +3458,6 @@
     "source_id": "1490217",
     "status": "live",
     "source_owner": "sacredceltic"
-  },
-  {
-    "answer_id": "GS10464-1115899",
-    "sentence_id": "S10464",
-    "direction": "en_to_fr",
-    "answer": "Résides-tu ici ?",
-    "source": "tatoeba",
-    "source_id": "1115899",
-    "status": "live",
-    "source_owner": "sacredceltic"
-  },
-  {
-    "answer_id": "GS10464-4081046",
-    "sentence_id": "S10464",
-    "direction": "en_to_fr",
-    "answer": "Tu vis ici ?",
-    "source": "tatoeba",
-    "source_id": "4081046",
-    "status": "live",
-    "source_owner": "sbamsbamsbam"
-  },
-  {
-    "answer_id": "GS10464-8943",
-    "sentence_id": "S10464",
-    "direction": "en_to_fr",
-    "answer": "Vivez-vous ici ?",
-    "source": "tatoeba",
-    "source_id": "8943",
-    "status": "live",
-    "source_owner": "Cocorico"
   },
   {
     "answer_id": "GS10571-1978524",

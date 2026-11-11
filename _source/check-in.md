@@ -4,6 +4,22 @@ Updated November 10, 2026. **New: French A1 Part 2, Everyday Life, is built: 12 
 
 ## Done since last check-in
 
+- **French Part 2: Fable's results applied. The French native-speaker list is now 349 (was 363).**
+  - **14 drafts swapped for Fable's Use candidates** (_review/french-part2-candidates.md), by the Part 1 rules: ids kept, Fable's English picks used, each Tatoeba sentence used once, pairs untouched. 12 are held: 7 halves of question-and-answer pairs, and 5 whose candidates went to other drafts. The held drafts are listed in the build log.
+  - **The fixes from _review/french-part2-check.md:**
+    - S10864 is now "Un paquet de biscuits, s'il vous plaît." (A packet of biscuits, please.).
+    - Marie's message R103 asks for a packet of biscuits, and its first answer reads "Milk, biscuits and apples".
+    - N105 is "J'ai vingt ans." (20).
+    - Biscuits is a new Unit 49 word. Wiktionary gives only "biscuit", so the hint is "biscuits". It has two checked Tatoeba lines, "J'aime les biscuits." and "Plus de biscuits !", so it's in 3 sentences.
+  - **Six accepted answers from the check:**
+    - Hello, ma'am. What's your name?
+    - Tu es américaine ?
+    - Non, je suis allemande.
+    - C'est combien ? (for What's the price?)
+    - How much do the fruits cost?
+    - Could you spell it, please?
+  - **Answer choices are always shuffled.** Read and Answer items are written with the right choice first; each showing now reorders them, and the answer follows. The listening passages Claude writes in Self-Study are shuffled too, since a model tends to put the answer first. Every other choice set was already shuffled. A test covers it.
+- **French core target:** content/a1-list.json now also holds FLELex's 600 most frequent A1 words (by their frequency in A1 textbooks), in order, as the core. The full 1,196 stays as the stretch goal. scripts/a1-coverage.mjs reports both.
 - **A1 Complete, step 3: French Part 2, Everyday Life (stopped here for you to try it, as the spec says).** Local and on GitHub, so live at https://tamago-83f.pages.dev once the deploy finishes.
   - **Twelve circles on rows 11 to 15:** nine main circles and three help circles.
     - Main: Your Name, Please; Phone Numbers; Age and Birthdays; Numbers to 100; Where You Live; Countries and Languages; At the Market; How Much Is It?; Bottles and Bags.
@@ -263,7 +279,7 @@ Updated November 10, 2026. **New: French A1 Part 2, Everyday Life, is built: 12 
 2c. **German native-speaker check:** 69 drafted German sentences, listed at the end of this file, need a native speaker of standard German before testers. Same flow: https://tamago-83f.pages.dev, choose German, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check.
 2a. **Spanish native-speaker check:** 158 drafted Spanish sentences, listed at the end of this file, need a native speaker of Latin American Spanish before testers. Same flow as French: on their phone, https://tamago-83f.pages.dev, choose Spanish, then https://tamago-83f.pages.dev/#developer and Native-Speaker Check. Most drafts are in the first six units, where Tatoeba's checked sentences within so few words run out; from Unit 7 on, drafting is a handful per unit.
 2b. **Spanish flag (your call):** the course is Latin American Spanish and the flag is Spain's. Send another flag image whenever you like and I'll swap it in.
-3. **Native-speaker check (now 363 French sentences, listed below, 96 of them from Part 2, plus Part 2's 22 task items).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
+3. **Native-speaker check (now 349 French sentences, listed below, plus Part 2's 22 task items).** Arrange the person. On their phone they open https://tamago-83f.pages.dev/#developer, then Native-Speaker Check. When they're done they tap Save the results and send you the file. Put it in _source/ and I'll fold it in.
 4. **The Claude features (explanations, written practice, conversations)** run on a Tamago-only key, stored only as a Cloudflare Pages secret (TAMAGO_ANTHROPIC_API_KEY), under a $5 monthly spend cap. If the key lapses or the cap is reached, they switch off quietly and the rest of the app works as before.
    - Cost: Haiku 5.5 is $0.10 per million input tokens and $0.50 per million output; one explanation is a few hundred tokens. Claude-written practice uses Opus 5.5 ($4 and $20 per million), a few cents a set. The $5 cap stops everything for the rest of the month if it's ever reached.
 5. **Sign-in, sync, discussions, flags from testers (a new account).** These need an account service with a database. My suggestion is Supabase (https://supabase.com, free tier, sign-in by email link). Say yes and create the project, and I'll walk you through the keys one step at a time.
@@ -273,7 +289,7 @@ Updated November 10, 2026. **New: French A1 Part 2, Everyday Life, is built: 12 
 
 ## Drafted sentences
 
-Every French sentence I wrote (363), for the native-speaker check. Tatoeba sentences aren't listed.
+Every French sentence I wrote (349), for the native-speaker check. Tatoeba sentences aren't listed.
 
 **U01 Saying Hello** (18)
 
@@ -547,11 +563,10 @@ Every French sentence I wrote (363), for the native-speaker check. Tatoeba sente
 - S10065 Bonjour, Madame. Vous vous appelez comment ? = Hello, madam. What's your name?
 - S10066 Oui, je m'appelle Marie. = Yes, my name is Marie. (QT09 answer)
 
-**U34 Spelling It Out** (4)
+**U34 Spelling It Out** (3)
 
 - S10961 Vous pouvez épeler, s'il vous plaît ? = Can you spell it, please?
 - S10962 Tu peux épeler ton nom ? = Can you spell your name?
-- S10963 Comment ça s'écrit ? = How do you spell that?
 - S10964 Je peux épeler mon nom. = I can spell my name. (QT09 answer)
 
 **U102 Family Life** (7)
@@ -596,14 +611,11 @@ Every French sentence I wrote (363), for the native-speaker check. Tatoeba sente
 - S6265 Voici la cuisine. = Here is the kitchen.
 - S6266 C'est une petite fenêtre. = It's a small window.
 
-**U43 Age and Birthdays** (7)
+**U43 Age and Birthdays** (4)
 
 - S10261 Elle est née aujourd'hui. = She was born today.
-- S10262 Mon chien est né ici. = My dog was born here.
-- S10263 Il a six mois. = He is six months old.
 - S10264 Mon chat a deux mois. = My cat is two months old.
 - S10265 Le chien a trois mois. = The dog is three months old.
-- S10266 Bonne année, Marie ! = Happy New Year, Marie!
 - S10267 C'est une bonne année. = It's a good year.
 
 **U35 Checking Numbers** (5)
@@ -624,7 +636,7 @@ Every French sentence I wrote (363), for the native-speaker check. Tatoeba sente
 - S6356 J'aime la guitare. = I like the guitar.
 - S6357 Voici la chanson. = Here is the song.
 
-**U44 Numbers to 100** (12)
+**U44 Numbers to 100** (11)
 
 - S10361 Trente, quarante, cinquante, soixante. = Thirty, forty, fifty, sixty.
 - S10362 Soixante-dix, quatre-vingts, quatre-vingt-dix, cent. = Seventy, eighty, ninety, a hundred.
@@ -635,7 +647,6 @@ Every French sentence I wrote (363), for the native-speaker check. Tatoeba sente
 - S10367 J'ai cinquante ans. = I am fifty years old.
 - S10368 C'est le zéro six, cinquante, soixante-dix, quatre-vingt-dix, quarante. = It's 06 50 70 90 40.
 - S10369 Elle a soixante ans. = She is sixty years old.
-- S10370 Elle a quatre-vingts ans. = She is eighty years old.
 - S10371 Il a cent ans. = He is a hundred years old.
 - S10372 Elle a quel âge ? = How old is she?
 
@@ -648,16 +659,14 @@ Every French sentence I wrote (363), for the native-speaker check. Tatoeba sente
 - S6456 Je mange un croissant. = I'm eating a croissant.
 - S6457 Le croissant est grand. = The croissant is big.
 
-**U45 Where You Live** (9)
+**U45 Where You Live** (7)
 
 - S10461 J'habite au dix, rue du Parc. = I live at 10, rue du Parc. (QT09 answer)
 - S10462 Tu habites dans quelle rue ? = Which street do you live on?
 - S10463 Tu habites près de l'école ? = Do you live near the school?
-- S10464 Vous habitez ici ? = Do you live here?
 - S10465 Vous habitez près du parc ? = Do you live near the park?
 - S10466 J'habite près du parc. = I live near the park. (QT09 answer)
 - S10467 J'aime habiter en ville. = I like living in the city.
-- S10468 C'est un beau pays. = It's a beautiful country.
 - S10469 L'appartement est à quel étage ? = Which floor is the apartment on?
 
 **U106 At the Supermarket** (8)
@@ -671,18 +680,15 @@ Every French sentence I wrote (363), for the native-speaker check. Tatoeba sente
 - S6561 J'aime le beurre. = I like butter.
 - S6562 Il mange une banane. = He's eating a banana.
 
-**U46 Countries and Languages** (13)
+**U46 Countries and Languages** (10)
 
 - S10561 J'habite en Allemagne. = I live in Germany.
 - S10562 Il va en Allemagne. = He's going to Germany.
 - S10563 Tu habites en Allemagne ? = Do you live in Germany?
-- S10564 J'habite en Italie. = I live in Italy.
 - S10565 Elle va en Italie. = She's going to Italy.
 - S10566 Vous habitez en Italie ? = Do you live in Italy?
-- S10567 J'habite en Espagne. = I live in Spain.
 - S10568 Il va en Espagne. = He's going to Spain.
 - S10569 Tu vas en Espagne ? = Are you going to Spain?
-- S10570 Je vais en Angleterre. = I'm going to England.
 - S10571 Tu es américain ? = Are you American?
 - S10572 Oui, je vais en Espagne. = Yes, I'm going to Spain. (QT09 answer)
 - S10573 Non, je suis allemand. = No, I'm German. (QT09 answer)
@@ -728,17 +734,13 @@ Every French sentence I wrote (363), for the native-speaker check. Tatoeba sente
 - S10771 La pomme est chère. = The apple is expensive.
 - S10772 Elle est chère ? = Is it expensive?
 
-**U49 Bottles and Bags** (9)
+**U49 Bottles and Bags** (5)
 
-- S10862 Une bouteille de lait, s'il vous plaît. = A bottle of milk, please.
 - S10863 La bouteille est dans le sac. = The bottle is in the bag.
-- S10864 Un paquet de fromage, s'il vous plaît. = A packet of cheese, please.
+- S10864 Un paquet de biscuits, s'il vous plaît. = A packet of biscuits, please.
 - S10865 Le paquet est dans le sac. = The packet is in the bag.
 - S10866 C'est un petit paquet. = It's a small packet.
-- S10867 Où est la boîte ? = Where's the box?
 - S10868 La boîte est dans le sac. = The box is in the bag.
-- S10869 C'est une grande boîte. = It's a big box.
-- S10870 Un verre d'eau, s'il vous plaît. = A glass of water, please.
 
 ## Spanish drafted sentences
 

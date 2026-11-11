@@ -3222,5 +3222,59 @@
     "answer": "It is too expensive!",
     "source": "tatoeba",
     "status": "pulled"
+  },
+  {
+    "answer_id": "AD0001",
+    "sentence_id": "S10065",
+    "direction": "fr_to_en",
+    "answer": "Hello, ma'am. What's your name?",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0002",
+    "sentence_id": "S10571",
+    "direction": "en_to_fr",
+    "answer": "Tu es américaine ?",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0003",
+    "sentence_id": "S10573",
+    "direction": "en_to_fr",
+    "answer": "Non, je suis allemande.",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0004",
+    "sentence_id": "S10761",
+    "direction": "en_to_fr",
+    "answer": "C'est combien ?",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0005",
+    "sentence_id": "S10765",
+    "direction": "fr_to_en",
+    "answer": "How much do the fruits cost?",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0006",
+    "sentence_id": "S10961",
+    "direction": "fr_to_en",
+    "answer": "Could you spell it, please?",
+    "source": "French Part 2 check of 2026-11-10 (_review/french-part2-check.md), added at Dan's request",
+    "status": "live",
+    "origin": "flag"
   }
 ]
