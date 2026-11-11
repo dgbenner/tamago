@@ -6,7 +6,7 @@ import { FlagRow } from './Languages.jsx'
 import CircleNode from './CircleNode.jsx'
 
 // A tree node is a circle (Circle Lab design, approved 2026-11-10; src/screens/CircleNode.jsx): its sushi on a warm
-// disc, one ring that fills across all its lessons, the title. "Start Here" and "Your Progress" show on the first
+// disc, one ring that fills across all its lessons, the title. "Start Here" shows on the first
 // circle only, the first time; a "?" stands for Your Topic until one is chosen.
 function Node({ node, onPick, onTestPass }) {
   const { unit, open, circle, strength, topic, marker } = node
@@ -225,11 +225,8 @@ function PartEnd({ part, onReview, onPartView, onJumpPart }) {
           </button>
         </li>
       )}
-      <li className="flex w-full items-center gap-3 text-sm font-semibold text-muted" aria-label={`End of A1, Part ${part.n} of ${part.total}`}>
-        <span className="h-0.5 flex-1 bg-line" />
-        <span>End of A1 · Part {part.n} of {part.total}</span>
-        <span className="h-0.5 flex-1 bg-line" />
-      </li>
+      {/* The end of the part: a plain line (Dan, 2026-11-11). */}
+      <li className="w-full" aria-hidden="true"><span className="block h-0.5 w-full bg-line" /></li>
       {part.upcoming?.length > 0 && <li className="w-full"><PartCarousel part={part} onPartView={onPartView} onJumpPart={onJumpPart} /></li>}
     </>
   )
@@ -292,27 +289,12 @@ function PartCarousel({ part, onPartView, onJumpPart }) {
   )
 }
 // The part switcher, at the top of the tree once more than one part is open.
-function PartSwitcher({ part, onPartView }) {
-  return (
-    <div className="flex flex-col items-center gap-2">
-      <p className="text-sm font-semibold text-muted">A1 · Part {part.n} of {part.total}{part.title ? `: ${part.title}` : ''}</p>
-      {part.switcher.length > 1 && (
-        <div className="flex flex-wrap justify-center gap-2" role="group" aria-label="Parts">
-          {part.switcher.map((x) => (
-            <button key={x.n} onClick={() => onPartView(x.n)} aria-pressed={x.n === part.n} aria-label={`Part ${x.n}: ${x.title}`}
-              className={`rounded-full border-2 px-3 py-1 text-sm ${x.n === part.n ? 'border-orange bg-orange text-white' : 'border-line bg-surface'}`}>Part {x.n}</button>
-          ))}
-        </div>
-      )}
-    </div>
-  )
-}
-
 // Catch-Up (A1 Complete 9): a circle with a side dish, filled for this learner from the circles above it. No lessons of
-// its own, so no ring; the caption says how much is waiting.
+// its own, so no ring. No line under the title (Dan, 2026-11-11); how much is waiting is on its card, and in the
+// circle's spoken name.
 const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.count ? `${cu.count} to catch up` : 'Nothing yet')
 function CatchUpNode({ cu, onPick }) {
-  return <CircleNode title={cu.title} icon="/icons/sides/miso-soup.svg" locked={!cu.available} ring={false} caption={catchUpCaption(cu)} onPick={() => onPick(cu)} />
+  return <CircleNode title={cu.title} icon="/icons/sides/miso-soup.svg" locked={!cu.available} ring={false} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
 }
 function CatchUpCard({ cu, onStart, onClose }) {
   return (
@@ -355,12 +337,12 @@ function Marker({ label }) {
 }
 
 const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars, developer: IconCode }
-// The secondary menu: tools beside the path, as a sideways strip of tiles, out of the tree. (Progress has its own
-// quiet button on a phone; on a wide screen it joins the panel's list.)
+// The secondary menu: tools beside the path, as a sideways strip of tiles, out of the tree. Progress is one of them
+// (Dan, 2026-11-11: the row that held its button and the streak is gone).
 function Tools({ tools }) {
   return (
     <nav aria-label="Tools" className="no-scrollbar -mx-4 flex snap-x gap-2 overflow-x-auto px-4 lg:hidden">
-      {tools.filter((t) => t.id !== 'progress').map((t) => {
+      {tools.map((t) => {
         const Icon = TOOL_ICONS[t.id]
         return (
           // Developer is quieter: dashed outline, no fill, muted text; not a learning tool.
@@ -378,7 +360,6 @@ function Tools({ tools }) {
 function ToolMenu({ tools }) {
   return (
     <nav aria-label="Tools" className="flex flex-col gap-2">
-      <h2 className="mb-1 text-lg font-semibold">Tools</h2>
       {tools.map((t) => {
         const Icon = TOOL_ICONS[t.id]
         return (
@@ -404,7 +385,7 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ wide, versionLine, panel, rows, markers, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
+export default function Home({ wide, versionLine, panel, rows, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
   finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
@@ -460,22 +441,16 @@ export default function Home({ wide, versionLine, panel, rows, markers, pointsTo
 
       <Tools tools={tools} />
 
-      {/* The streak if on, and Progress as a low-emphasis button on a phone. The level caption ("Starting Out") is gone
-          (Dan, 2026-11-10): the tree's level markers say where you are. On a wide screen with no streak the row is empty. */}
-      <div className={`flex items-center justify-between gap-3 ${streakLine ? '' : 'lg:hidden'}`}>
-        <p className="text-sm text-muted">{streakLine}</p>
-        <button onClick={onProgress} className="btn-tertiary -mr-2 lg:hidden">Progress</button>
-      </div>
-
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
       {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
-      {part && <PartSwitcher part={part} onPartView={onPartView} />}
+      {/* Nothing between the tools and the first circle (Dan, 2026-11-11): no streak, no part header or switcher, no level
+          line; "Start Here" on the first circle, first use only. */}
       <ol className="home-tree flex flex-1 flex-col items-center gap-y-[2.7rem] pt-[1.9rem] pb-24 lg:[&>li]:[zoom:1.11]">
         {rows.map((row, i) => {
           const n = row.row ?? i + 1 // the row's own number, not its place in the list
           const cp = checkpoints.find((x) => x.afterRow === n)
           const cu = catchUps.find((x) => x.afterRow === n)
-          const marker = markers.find((m) => m.beforeRow === n)
+          const marker = i > 0 && markers.find((m) => m.beforeRow === n) // going down the path only, never at the top
           return [
             marker && <Marker key={`m${i}`} label={marker.label} />,
             <li key={i} className="flex justify-center gap-4 lg:gap-[4.9rem]">

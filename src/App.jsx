@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, tables, unitContent } from './lib/content.js'
-import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, skipSplash, takeDevJump } from './lib/course.js'
+import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, takeDevJump } from './lib/course.js'
 import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining, buildCatchUp, catchUpItems } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
@@ -90,7 +90,7 @@ export default function App() {
   const [session, setSession] = useState(null)
   const [ending, setEnding] = useState(null)
   const [lastLine, setLastLine] = useState(null) // a passed lesson's score, shown on home instead of on its own screen
-  const [splash, setSplash] = useState(!skipSplash) // a course switch reloads straight to home
+  const [splash, setSplash] = useState(true) // the opening screen and version name on every launch (Dan, 2026-11-11)
   // First launch: the opening screen asks for a language, but only once the saved state shows nobody has used this
   // course here yet (a learner with progress is never asked, and never sees the flags flash and vanish).
   const [chooser, setChooser] = useState(false)
@@ -839,15 +839,9 @@ export default function App() {
     tally: tally.current, clears,
     canDo: tables.can_do.filter((d) => a1Units.some((u) => u.unit_id === d.unit_id)).map((d) => ({ skill: d.skill, checked: Boolean(canDoChecked[d.can_do_id]) })),
   })
-  const days = new Set(activeDays)
-  let streak = 0
-  for (let d = new Date(days.has(today()) ? Date.now() : Date.now() - 864e5); days.has(d.toLocaleDateString('en-CA')); d = new Date(d.getTime() - 864e5)) streak++
-  const thisWeek = activeDays.filter((d) => d >= weekStart()).length
-  const goal = settings.weekly_goal === 'none' ? null : Number(settings.weekly_goal)
-  // Points are never shown (Dan, 2026-11-10): they're still earned, counted and stored (points table) as before.
-  // The setting now governs only the streak and the weekly goal.
+  // Points are never shown (Dan, 2026-11-10): they're still earned, counted and stored (points table) as before. The
+  // streak and weekly goal are off home too (Dan, 2026-11-11); active days are still recorded.
   const showPoints = false
-  const showStreaks = settings.points_and_streaks !== 'off'
 
   // Screens that open in the right-hand panel on wide screens, and as full pages on a phone.
   const panelScreens = {
@@ -962,7 +956,7 @@ export default function App() {
     const before = counts.slice(0, p.round_reached).reduce((a, b) => a + b, 0)
     return { done: before + Math.min(p.lessons_done, counts[p.round_reached] - 1), total }
   }
-  // "Start Here" and "Your Progress": on the first circle only, while nothing else has been started.
+  // "Start Here": on the first circle only, before any lesson anywhere.
   const firstUnit = layout[0]?.unit_id
   const startedElsewhere = Object.values(progressByUnit).some((p) => p.unit_id !== firstUnit && (p.lessons_done > 0 || p.round_reached > 0))
   const firstMarker = (unitId) => (unitId === firstUnit && !startedElsewhere ? firstCircleMarker(circleOf(unitId).done) : null)
@@ -996,8 +990,8 @@ export default function App() {
       topic: node.is_topic_pick === 'node' ? { choosing, packs: packsAt(node.unit_id).map((p) => ({ unit_id: p.unit_id, title: p.title, started: progressOf(p.unit_id).lessons_done > 0 })) } : null }
   }), { row: r }))
   const curUnit = tables.units.find((u) => u.unit_id === currentUnit)
-  // Levels (Dan's test notes): "Starting Out" until round 1 of a first unit is done; then the level in words, and
-  // markers across the tree where finishing the units above would reach the next band (score.js: 10 and 20 of 29).
+  // Levels: markers across the tree where finishing the units above would reach the next band (score.js: 10 and 20 of
+  // 29). Going down the path only, never at the top (Dan, 2026-11-11: no "Very Early A1" line over the first circle).
   const mainA1 = layout.filter((t) => !isTopicNode(t.unit_id))
   const started = mainA1.some((t) => progressOf(t.unit_id).round_reached >= 1) || packs.some((p) => progressOf(p.unit_id).round_reached >= 1)
   const rowNumbers = [...new Set(layout.map((t) => t.row))].sort((p, q) => p - q)
@@ -1005,7 +999,6 @@ export default function App() {
   const rowAfter = (r) => rowNumbers[rowNumbers.indexOf(r) + 1] ?? r + 1
   const rowReaching = (share) => rowNumbers.find((r) => mainA1.filter((t) => t.row <= r).length / mainA1.length >= share)
   const markers = started ? [
-    { beforeRow: 1, label: 'Very Early A1' },
     { beforeRow: rowAfter(rowReaching(10 / 29)), label: 'Early A1' },
     { beforeRow: rowAfter(rowReaching(20 / 29)), label: 'High A1' },
     // A2 begins after the last part only.
@@ -1013,14 +1006,12 @@ export default function App() {
   ] : []
   return (
     <Home versionLine={settings.developer !== 'off' ? `Version ${version.name}` : ''} rows={rows} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
-      streakLine={showStreaks ? [streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ') : ''}
-      onProgress={() => setScreen('progress')}
       tools={[
-        { id: 'glossary', screen: 'words', label: 'Glossary', about: 'Every word you\'ve met, how well you know it, and what it means.', onOpen: () => setScreen('words') },
-        { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Present-tense tables for the verbs you\'ve met, with a quick drill.', onOpen: () => setScreen('verbs') },
-        { id: 'study', screen: 'make', label: 'Self-Study', about: 'Your weakest skill, this week\'s sentences, flashcards from your own list, and practice written by Claude.', onOpen: openMakeScreen },
-        { id: 'progress', screen: 'progress', label: 'Progress', about: 'Your four skill scores, and the I Can checks for each unit.', onOpen: () => setScreen('progress') },
-        ...(settings.developer !== 'off' ? [{ id: 'developer', screen: 'developer', label: 'Developer', about: 'Testing controls and the project documents. Not part of the course.', quiet: true, onOpen: () => setScreen('developer') }] : []),
+        { id: 'glossary', screen: 'words', label: 'Glossary', about: 'Every word and its meaning, and what you\'ve learned', onOpen: () => setScreen('words') },
+        { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Present-tense tables and practice', onOpen: () => setScreen('verbs') },
+        { id: 'study', screen: 'make', label: 'Self-Study', about: 'Flashcards, weak spots, quick tests and conversation practice', onOpen: openMakeScreen },
+        { id: 'progress', screen: 'progress', label: 'Progress', about: 'CEFR levels in reading, writing, listening and speaking', onOpen: () => setScreen('progress') },
+        ...(settings.developer !== 'off' ? [{ id: 'developer', screen: 'developer', label: 'Developer', about: 'Testing controls, not part of the course', quiet: true, onOpen: () => setScreen('developer') }] : []),
       ]}
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}

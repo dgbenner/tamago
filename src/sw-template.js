@@ -35,8 +35,15 @@ self.addEventListener('fetch', (event) => {
   const { request } = event
   const url = new URL(request.url)
   if (request.method !== 'GET' || url.origin !== self.location.origin) return
+  // Opening the app (Dan, 2026-11-11): with a connection, the page comes from the network every time, so a launch
+  // after a deploy opens the newest version straight away; the saved copy is only for when there's no connection.
+  // The fresh page isn't saved over the old one: its files are cached together by the new worker's install.
+  if (request.mode === 'navigate') {
+    event.respondWith(fetch(request, { cache: 'no-cache' }).catch(async () => (await caches.match('/')) ?? Response.error()))
+    return
+  }
   event.respondWith((async () => {
-    const key = request.mode === 'navigate' ? '/' : url.pathname
+    const key = url.pathname
     const cached = await caches.match(key)
     if (!cached) return fetch(request)
     return request.headers.has('range') ? rangeResponse(request, cached) : cached

@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { course, reloadSkippingSplash } from './lib/course.js'
+import { course } from './lib/course.js'
 import { useTables } from './lib/content.js'
 import './index.css'
 
@@ -23,9 +23,7 @@ document.addEventListener('touchstart', () => {}, { passive: true })
 if (navigator.audioSession) navigator.audioSession.type = 'playback'
 
 if (import.meta.env.PROD && 'serviceWorker' in navigator) {
-  // A new version takes over on opening. Reload once so it shows straight away; a lesson in progress resumes.
-  if (navigator.serviceWorker.controller) {
-    navigator.serviceWorker.addEventListener('controllerchange', reloadSkippingSplash, { once: true }) // straight to home, no second opening screen
-  }
-  navigator.serviceWorker.register('/sw.js')
+  // The worker fetches the page fresh on every launch with a connection (sw-template.js), so this launch is already
+  // the newest version; a new worker only refreshes the offline copy, with no reload (Dan, 2026-11-11).
+  navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' })
 }

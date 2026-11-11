@@ -4,7 +4,7 @@ import { getAll, resetProgress } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
 import { IconBack } from './icons.jsx'
 import { site, version } from '../lib/version.js'
-import { COURSES, TL, course, jumpInCourse, reloadSkippingSplash } from '../lib/course.js'
+import { COURSES, TL, course, jumpInCourse } from '../lib/course.js'
 import partsFr from '../content/parts.json'
 import partsEs from '../content-es/parts.json'
 import partsDe from '../content-de/parts.json'
@@ -162,7 +162,7 @@ function ResetProgress() {
       <p id="reset-d" className="text-sm">This wipes every lesson, score, word met, review item and checkpoint in {course.name} on this device. It can't be undone. Settings, flags and the other languages stay as they are.</p>
       <div className="flex gap-2">
         <button autoFocus onClick={() => setAsking(false)} className="btn-secondary flex-1">Cancel</button>
-        <button disabled={busy} onClick={async () => { setBusy(true); await resetProgress(); reloadSkippingSplash() }} className="btn-submit flex-1">Wipe {course.name} Progress</button>
+        <button disabled={busy} onClick={async () => { setBusy(true); await resetProgress(); window.location.reload() }} className="btn-submit flex-1">Wipe {course.name} Progress</button>
       </div>
     </div>
   )

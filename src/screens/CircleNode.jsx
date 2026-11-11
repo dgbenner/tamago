@@ -17,10 +17,10 @@ const LEN = 2 * Math.PI * R
 // How strong a finished ring looks for a recall from 0 to 1: full at 90% and above, faint (0.25) at 50% and below.
 export const ringOpacity = (recall) => (recall == null ? 1 : Math.min(1, Math.max(0.25, 0.25 + ((recall - 0.5) / 0.4) * 0.75)))
 
-// The first-use marker, on the very first circle only (Dan, 2026-11-10): "Start Here" before any lesson, "Your
-// Progress" once after the first lesson (so the filling ring is pointed out), then never again.
-export const MARKERS = { start: 'Start Here', progress: 'Your Progress' }
-export const firstCircleMarker = (lessonsDone) => (lessonsDone === 0 ? 'start' : lessonsDone === 1 ? 'progress' : null)
+// The first-use marker, on the very first circle only: "Start Here" before any lesson, then never again (Dan,
+// 2026-11-11: "Your Progress" after the first lesson is gone).
+export const MARKERS = { start: 'Start Here' }
+export const firstCircleMarker = (lessonsDone) => (lessonsDone === 0 ? 'start' : null)
 
 export function circleState({ locked, lessonsDone, lessonsTotal }) {
   if (locked) return 'locked'
@@ -38,7 +38,7 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
 
 // onTestPass (Testing Shortcuts only, 2026-11-10): a right-to-left swipe on the circle, or the right arrow while it
 // has focus, passes its next lesson without playing it.
-export default function CircleNode({ title, icon, glyph = null, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null, caption = null, ring = true }) {
+export default function CircleNode({ title, icon, glyph = null, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null, caption = null, showCaption = true, ring = true }) {
   // caption (Catch-Up, A1 Complete 9): a quiet line under the title, also read out in place of the lesson count; ring
   // false: no lesson ring, since a Catch-Up circle has no lessons of its own.
   const start = useRef(null)
@@ -77,7 +77,7 @@ export default function CircleNode({ title, icon, glyph = null, locked = false, 
             : icon ? <img src={icon} alt="" className="relative size-[4.25rem] object-contain" /> : null}
       </span>
       <span className={`text-base leading-tight font-semibold ${state === 'locked' ? 'text-muted' : ''}`}>{title}</span>
-      {caption && <>{' '}<span className="-mt-1 text-sm text-muted">{caption}</span></>}
+      {caption && showCaption && <>{' '}<span className="-mt-1 text-sm text-muted">{caption}</span></>}
     </button>
   )
 }
