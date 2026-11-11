@@ -4,6 +4,12 @@ Updated November 10, 2026. **New: the Asking for Help thread (three help circles
 
 ## Done since last check-in
 
+- **A1 Complete, step 1: official lists loaded, coverage measured (stopped here for you, as the spec says).** The spec is saved as _source/a1-complete.md, and the numbers come from scripts/a1-coverage.mjs.
+  - **German:** the Goethe-Institut Start Deutsch 1 Wortliste, 627 main entries (the list says about 650; its indented sub-entries aren't counted). The course teaches **118 (19%)**, every one in 3 or more sentences; 91 (15%) are on the main path without the topic packs.
+  - **Spanish:** the PCIC A1 column of the general and specific notion inventories, 534 words. The course teaches **106 (20%)**; 88 (16%) on the main path. The Cervantes site was down for maintenance, so I read the Internet Archive's copy.
+  - **French (your choice):** the A1 level of FLELex (CEFRLex, CENTAL, UCLouvain), 1,196 words, licensed CC BY-NC-SA 4.0, stored as headwords with its source and credited on About the Content. The course teaches **152 (13%)**; 110 (9%) on the main path. It's nearly twice the Goethe list's size, so French needs more parts than German or Spanish to reach 90%.
+  - **The spec's themes, all three courses:** numbers to 100, about 10 of 29 (one to ten only); prices 0 or 1; times 2 or 3; days 6 or 7 of 13; months 0; dates 0.
+  - **Rough size of the gap:** reaching 90% means about 450 more German words and about 375 more Spanish words. At 15 to 20 new words a circle, that's roughly 25 to 30 more circles each: Parts 2 to 4.
 - **Ready to go public (your switch).**
   - **History scan:** no secrets in any of the 126 commits. The only key-shaped strings are the deliberate fakes in the redaction test.
   - **The 19 square sushi images** (Aji, Amaebi, Anago, Chutoro, Ebi, Hamachi, Hirame, Hotate, Ika, Maguro, Otoro, Saba, Sake, Tai, Tako, Unagi, Ikura, Tobiko, Uni; I earlier said 21, wrongly) are moved out of the repo into a tamago-held folder next to it, sources and app copies both. The circles that used them now wear the confirmed glossy set; the help circles wear the three glossy rolls.

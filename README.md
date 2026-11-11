@@ -56,6 +56,9 @@ The **code** is under the [MIT License](LICENSE). The **content** keeps its own 
 | Sentences written for Tamago, and content built from the sources above | This project | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 | Word pictures and sushi art | Made for Tamago | Not covered by the MIT License; all rights reserved |
 | A few fallback pictures | [OpenMoji](https://openmoji.org) | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| French A1 word list (headwords only, to measure coverage) | [FLELex](https://cental.uclouvain.be/cefrlex/flelex/), CEFRLex project, CENTAL, UCLouvain (François, Gala, Watrin and Fairon, LREC 2014) | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
+| German A1 word list (headwords only, to measure coverage) | Goethe-Institut, Start Deutsch 1 Wortliste | © Goethe-Institut; headwords only, for reference |
+| Spanish A1 word list (words only, to measure coverage) | Instituto Cervantes, Plan curricular (PCIC), A1 notions | © Instituto Cervantes; words only, for reference |
 | CEFR self-assessment grid (`_source/reference/`) | Council of Europe, via Europass | © Council of Europe, included for reference only |
 
 Tamago is an independent project, not affiliated with Tatoeba, Wiktionary, Lingua Libre, the Council of Europe or the bodies behind the DELF, DELE and Goethe exams.

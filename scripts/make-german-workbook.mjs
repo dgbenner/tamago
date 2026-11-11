@@ -8,6 +8,7 @@ import { join } from 'node:path'
 import { createRequire } from 'node:module'
 const XLSX = createRequire(import.meta.url)('xlsx')
 import { addHelpCircles } from './lib/help-circles.mjs'
+import { addA1Plan } from './lib/a1-plan.mjs'
 const ROOT = join(import.meta.dirname, '..')
 const [from, to] = process.argv.slice(2)
 const fr = XLSX.readFile(join(ROOT, from))
@@ -171,6 +172,8 @@ if (process.argv[1] === import.meta.filename) {
   wb.Sheets.units = XLSX.utils.json_to_sheet(unitsSheet)
   // The Asking for Help thread (2026-11-10): three help circles, from scripts/lib/help-circles.mjs.
   addHelpCircles(wb, XLSX, 'de')
+  // A1 Complete (2026-11-10): parts, tasks, and part and tasks columns on units.
+  addA1Plan(wb, XLSX, 'de')
   XLSX.writeFile(wb, join(ROOT, to))
   console.log(`Wrote ${to}: ${UNITS.length} units, ${words.length} words`)
 }

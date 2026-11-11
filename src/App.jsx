@@ -75,6 +75,9 @@ export default function App() {
   // A conversation in progress (Dan, 2026-11-10): a scene from the path or the partner from Self-Study.
   const [convo, setConvo] = useState(null)
   const [scenesDone, setScenesDone] = useState({})
+  // A1 in parts (A1 Complete, 2026-11-10): the part the tree shows, and part reviews passed.
+  const [partView, setPartView] = useState(null)
+  const [partReviews, setPartReviews] = useState({})
   const [settings, setSettings] = useState(DEFAULT_SETTINGS)
   const [bank, setBank] = useState([])
   const [progressByUnit, setProgressByUnit] = useState({})
@@ -149,6 +152,8 @@ export default function App() {
       setDeck(s.kv.flashcards ?? {})
       setCheckpoints(s.kv.checkpoints ?? {})
       setScenesDone(s.kv.scenes_done ?? {})
+      setPartReviews(s.kv.part_reviews ?? {})
+      if (s.kv.part_view) setPartView(s.kv.part_view)
       setCheckpointsSkipped(s.kv.checkpoints_skipped ?? {})
       setWordMisses(s.kv.word_misses ?? {})
       setFinalCheck(s.kv.final_check ?? null)
@@ -248,9 +253,15 @@ export default function App() {
   const packsAt = (nodeId) => packs.filter((p) => nodeOfPack(p.unit_id) === nodeId)
   const onPath = (u) => u.is_topic_pick !== 'node' && (u.is_topic_pick !== 'yes' || u.unit_id === topicChoice[nodeOfPack(u.unit_id)] || (progressByUnit[u.unit_id]?.lessons_done ?? 0) > 0)
   const rowOf = (unitId) => layout.find((t) => t.unit_id === (isPack(unitId) ? nodeOfPack(unitId) : unitId))
+  // Parts: a part opens when every circle of the part before it has finished round 1 (R20, as rows do).
+  const partOf = (unitId) => Number(tables.units.find((u) => u.unit_id === (isPack(unitId) ? nodeOfPack(unitId) : unitId))?.part || 1)
+  const partCircles = (n) => layout.filter((t) => !isTopicNode(t.unit_id) && partOf(t.unit_id) === n).map((t) => t.unit_id)
+  const partDone = (n) => partCircles(n).length > 0 && partCircles(n).every((u) => progressOf(u).round_reached >= 1)
+  const partUnlocked = (n) => n <= 1 || (partUnlocked(n - 1) && partDone(n - 1))
   const isOpen = (unitId) => {
     const unit = tables.units.find((u) => u.unit_id === unitId)
     if (!String(unit?.status).startsWith('live')) return false
+    if (!partUnlocked(partOf(unitId))) return false
     const after = String(rowOf(unitId)?.unlocks_after ?? '').match(/^row (\d+)$/)
     if (!after) return true
     return layout.filter((t) => t.row === Number(after[1])).every((t) => progressOf(t.unit_id).round_reached >= 1)
@@ -439,6 +450,14 @@ export default function App() {
     begin(buildSession(allContent, 'checkpoint', items, { settings: lessonModes(), row }))
   }
 
+  // The part review: ten questions over the part's circles, likeliest-forgotten first. It never locks anything.
+  const startPartReview = (n) => {
+    const ids = partCircles(n).flatMap(itemsOf)
+    const weakestFirst = weakest(ids, cards, 10)
+    const rest = ids.filter((id) => !weakestFirst.includes(id)).sort(() => Math.random() - 0.5)
+    const items = [...weakestFirst, ...rest].slice(0, 10).map((id) => { const u = allContent.sentenceById.get(id).unit_id; const reached = progressOf(u).round_reached; return { sentence_id: id, type: practiceType(reached), round: Math.min(reached + 1, 5), unit_id: u } })
+    begin(buildSession(allContent, 'checkpoint', items, { settings: lessonModes(), row: `part${n}` }))
+  }
   const markActive = () => setActiveDays((d) => { if (d.includes(today())) return d; const next = [...d, today()].slice(-400); putKv('active_days', next); return next })
 
   // Practice (Dan's test notes: Review and Practice weak skills are one button): the review bank's mistakes first,
@@ -655,7 +674,8 @@ export default function App() {
     if (s.kind === 'checkpoint') {
       const mark = passMark(s.graded)
       const passed = s.firstCorrect >= mark
-      if (passed) setCheckpoints((m) => { const n = { ...m, [s.row]: today() }; putKv('checkpoints', n); return n })
+      if (passed && String(s.row).startsWith('part')) setPartReviews((m) => { const n = { ...m, [s.row.slice(4)]: today() }; putKv('part_reviews', n); return n })
+      else if (passed) setCheckpoints((m) => { const n = { ...m, [s.row]: today() }; putKv('checkpoints', n); return n })
       setEnding({ line: `${s.firstCorrect} of ${s.graded}.${passed ? '' : ` Pass is ${mark}; try it again any time.`}` })
       return
     }
@@ -778,7 +798,17 @@ export default function App() {
     return <Verbs tables={tables.conjugations.filter((t) => lemmas.has(t.lemma))} strict={settings.answer_strictness === 'strict'} onBack={() => setScreen('home')} />
   },
     progress: () => {
-    return <Progress finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
+    // A1 coverage (A1 Complete, section 6): list words met (a course word counts for its lemma), tasks whose circles
+    // have finished round 1, and the part.
+    const list = tables.a1_list?.[0]
+    const fold = (x) => String(x).toLowerCase().trim()
+    const listKeys = new Set((list?.words ?? []).map(fold))
+    const keysOf = (w) => [fold(w.lemma || w.form), fold(w.form)]
+    const metKeys = new Set(metWords().flatMap(keysOf).filter((k) => listKeys.has(k)))
+    const courseKeys = new Set(tables.words.flatMap(keysOf).filter((k) => listKeys.has(k)))
+    const taskDone = new Set(tables.units.filter((u) => u.tasks && progressOf(u.unit_id).round_reached >= 1).flatMap((u) => String(u.tasks).split(';')))
+    const coverage = list ? { met: metKeys.size, course: courseKeys.size, total: listKeys.size, source: list.source.split(',')[0], tasks: (tables.a1_tasks ?? []).map((t) => ({ ...t, done: taskDone.has(t.task_id) })), part: partOf(currentUnit), parts: Math.max(1, ...(tables.parts ?? []).map((x) => x.part)) } : null
+    return <Progress coverage={coverage} finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
       onCheck={startCheck} onBack={() => setScreen('home')} />
   },
     make: () => {
@@ -858,7 +888,20 @@ export default function App() {
   const startedElsewhere = Object.values(progressByUnit).some((p) => p.unit_id !== firstUnit && (p.lessons_done > 0 || p.round_reached > 0))
   const firstMarker = (unitId) => (unitId === firstUnit && !startedElsewhere ? firstCircleMarker(circleOf(unitId).done) : null)
   // Each row carries its row number (.row): a course can skip one (Spanish has no row 4 until its topic node exists).
-  const rows = [...new Set(layout.map((t) => t.row))].sort((a, b) => a - b).map((r) => Object.assign(layout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
+  // The tree shows one part at a time: the part chosen in the switcher, else the part of the circle in hand.
+  const partList = [...(tables.parts ?? [])].sort((a, b) => a.part - b.part)
+  const lastPart = Math.max(1, ...partList.map((x) => x.part))
+  const builtParts = partList.filter((x) => partCircles(x.part).length > 0 && partUnlocked(x.part)).map((x) => x.part)
+  const shownPart = builtParts.includes(partView) ? partView : builtParts.includes(partOf(currentUnit)) ? partOf(currentUnit) : (builtParts.at(-1) ?? 1)
+  const shownLayout = layout.filter((t) => partOf(t.unit_id) === shownPart)
+  const nextPart = partList.find((x) => x.part === shownPart + 1)
+  const partInfo = partList.length ? {
+    n: shownPart, total: lastPart, title: partList.find((x) => x.part === shownPart)?.title ?? '',
+    switcher: builtParts.map((n) => ({ n, title: partList.find((x) => x.part === n)?.title ?? '' })),
+    review: shownPart < lastPart ? { available: partDone(shownPart), done: partReviews[shownPart] ?? null, units: partCircles(shownPart).map((u) => tables.units.find((x) => x.unit_id === u).title) } : null,
+    next: nextPart ? { n: nextPart.part, title: nextPart.title, summary: nextPart.summary, unlocked: partUnlocked(nextPart.part), built: partCircles(nextPart.part).length > 0 } : null,
+  } : null
+  const rows = [...new Set(shownLayout.map((t) => t.row))].sort((a, b) => a - b).map((r) => Object.assign(shownLayout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
     // The Your topic node stands for the chosen pack once there is one; it keeps the node's place number.
     const node = tables.units.find((u) => u.unit_id === t.unit_id)
     const id = node.is_topic_pick === 'node' ? topicChoice[node.unit_id] ?? node.unit_id : node.unit_id
@@ -884,7 +927,8 @@ export default function App() {
     { beforeRow: 1, label: 'Very Early A1' },
     { beforeRow: rowAfter(rowReaching(10 / 29)), label: 'Early A1' },
     { beforeRow: rowAfter(rowReaching(20 / 29)), label: 'High A1' },
-    { beforeRow: rowNumbers.at(-1) + 1, label: 'A2' },
+    // A2 begins after the last part only.
+    ...(shownPart === lastPart ? [{ beforeRow: rowNumbers.at(-1) + 1, label: 'A2' }] : []),
   ] : []
   return (
     <Home rows={rows} markers={markers} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
@@ -899,7 +943,8 @@ export default function App() {
       ]}
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
       checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
-      onCheckpoint={startCheckpoint} finalCheck={finalInfo} onFinal={startFinal}
+      onCheckpoint={startCheckpoint} finalCheck={shownPart === lastPart ? finalInfo : null} onFinal={startFinal}
+      part={partInfo} onPartView={(n) => { setPartView(n); putKv('part_view', n) }} onPartReview={() => startPartReview(shownPart)}
       onTestPass={settings.test_shortcuts === 'on' ? testPass : null}
       scenes={sceneInfo} onScene={(sc) => startConversation('scene', sc, { speed: 'normal', corrections: 'end', vocabulary: 'few' }, 'home')}
       onSkipCheckpoint={(row) => setCheckpointsSkipped((m) => { const n = { ...m, [row]: today() }; putKv('checkpoints_skipped', n); return n })}

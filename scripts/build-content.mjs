@@ -40,6 +40,9 @@ tables.units = tables.units.map((u) => ({
   borrowed_sentence_ids: decisions.borrow?.[u.unit_id] ?? String(u.borrowed_sentence_ids ?? '').split(';').filter(Boolean),
 }))
 tables.tree_layout = raw('tree_layout')
+// A1 Complete (2026-11-10): the parts (one shown at a time on the tree) and the thirteen A1 tasks.
+tables.parts = (raw('parts') ?? []).map((p) => ({ ...p, part: Number(p.part) }))
+tables.a1_tasks = raw('a1_tasks') ?? []
 
 // Sentences: live in the workbook and passed by the check, with the same source.
 // A pulled or drafted sentence ships once its unit is approved, unless Dan cut it.
@@ -163,6 +166,13 @@ for (const w of tables.words.filter((x) => x.image_file)) {
   if (code) await getFile(IMAGE_SET.file_url.replace('{code}', code), join(ROOT, 'public/images', w.image_file))
 }
 tables.image_set = [IMAGE_SET]
+// The course's official A1 word list (A1 Complete, 2026-11-10): its source and license for About the Content, and its
+// headwords for A1 coverage on Progress. One row; empty when the course has none.
+{
+  const f = at('content/a1-list.json')
+  const l = existsSync(f) ? JSON.parse(readFileSync(f, 'utf8')) : null
+  tables.a1_list = l ? [{ source: l.source, license: l.license ?? '', citation: l.citation ?? '', words: l.words }] : []
+}
 
 // Recordings.
 const AAC = ['-ac', '1', '-c:a', 'aac', '-b:a', '64k']

@@ -11,6 +11,7 @@ export default function About({ content, onBack }) {
   const wordRecordings = content.words.filter((w) => w.lingua_libre)
   const nativeRecorded = content.sentences.filter((s) => s.native_recording)
   const originals = content.sentences.filter((s) => s.source === 'tamago_original').length
+  const list = content.a1_list?.[0] ?? null
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="relative flex justify-center">
@@ -32,6 +33,15 @@ export default function About({ content, onBack }) {
         <h2 className="font-semibold">Words and Hints</h2>
         <p>Parts of speech, genders, definitions and hints come from <A href="https://en.wiktionary.org">Wiktionary</A>, licensed under <A href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</A>. Hints may be shortened. Content built from these sources is shared under the same license.</p>
       </section>
+
+      {list && (
+        <section className="flex flex-col gap-2">
+          <h2 className="font-semibold">The A1 Word List</h2>
+          {/flelex/i.test(list.source)
+            ? <p>The French A1 word list is the A1 level of <A href="https://cental.uclouvain.be/cefrlex/flelex/">FLELex</A> (CEFRLex project, CENTAL, UCLouvain), licensed under <A href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</A>. Tamago uses its headwords to measure how much of A1 the course covers.{list.citation ? ` ${list.citation}` : ''}</p>
+            : <p>Tamago measures how much of A1 the course covers against an official list, using its headwords only: {list.source}.</p>}
+        </section>
+      )}
 
       <section className="flex flex-col gap-2">
         <h2 className="font-semibold">Pictures</h2>
