@@ -2159,6 +2159,314 @@
       "french": "Je peux épeler mon nom.",
       "english": "I can spell my name.",
       "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10161",
+      "unit_id": "U42",
+      "french": "Mon numéro, c'est le zéro six, onze, quinze, dix-neuf, vingt.",
+      "english": "My number is 06 11 15 19 20.",
+      "notes": "QT09 answer; a phone number read in pairs, the French way"
+    },
+    {
+      "sentence_id": "S10162",
+      "unit_id": "U42",
+      "french": "C'est le zéro six, douze, seize, dix-sept, treize.",
+      "english": "It's 06 12 16 17 13.",
+      "notes": "a phone number read in pairs"
+    },
+    {
+      "sentence_id": "S10163",
+      "unit_id": "U42",
+      "french": "Mon numéro de portable, c'est le zéro sept, quatorze, dix-huit, onze, douze.",
+      "english": "My mobile number is 07 14 18 11 12.",
+      "notes": "a phone number read in pairs"
+    },
+    {
+      "sentence_id": "S10164",
+      "unit_id": "U42",
+      "french": "Son numéro, c'est le zéro six, treize, quinze, seize, vingt.",
+      "english": "His number is 06 13 15 16 20.",
+      "notes": "a phone number read in pairs"
+    },
+    {
+      "sentence_id": "S10165",
+      "unit_id": "U42",
+      "french": "Le numéro, c'est le zéro sept, dix-sept, dix-huit, dix-neuf, quatorze.",
+      "english": "The number is 07 17 18 19 14.",
+      "notes": "a phone number read in pairs"
+    },
+    {
+      "sentence_id": "S10166",
+      "unit_id": "U42",
+      "french": "Appelez le zéro six, onze, douze, vingt, quinze.",
+      "english": "Call 06 11 12 20 15.",
+      "notes": "a phone number read in pairs"
+    },
+    {
+      "sentence_id": "S10167",
+      "unit_id": "U42",
+      "french": "C'est le zéro six, treize, quatorze, seize, dix-sept.",
+      "english": "It's 06 13 14 16 17.",
+      "notes": "a phone number read in pairs"
+    },
+    {
+      "sentence_id": "S10168",
+      "unit_id": "U42",
+      "french": "Mon numéro, c'est le zéro sept, dix-huit, dix-neuf, onze, douze.",
+      "english": "My number is 07 18 19 11 12.",
+      "notes": "a phone number read in pairs"
+    },
+    {
+      "sentence_id": "S10169",
+      "unit_id": "U42",
+      "french": "Tu as un portable ?",
+      "english": "Do you have a mobile phone?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10170",
+      "unit_id": "U42",
+      "french": "Oui, j'ai un portable.",
+      "english": "Yes, I have a mobile phone.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10171",
+      "unit_id": "U42",
+      "french": "Je vais appeler Paul.",
+      "english": "I'm going to call Paul.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10261",
+      "unit_id": "U43",
+      "french": "Elle est née aujourd'hui.",
+      "english": "She was born today.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10262",
+      "unit_id": "U43",
+      "french": "Mon chien est né ici.",
+      "english": "My dog was born here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10263",
+      "unit_id": "U43",
+      "french": "Il a six mois.",
+      "english": "He is six months old.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10264",
+      "unit_id": "U43",
+      "french": "Mon chat a deux mois.",
+      "english": "My cat is two months old.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10265",
+      "unit_id": "U43",
+      "french": "Le chien a trois mois.",
+      "english": "The dog is three months old.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10266",
+      "unit_id": "U43",
+      "french": "Bonne année, Marie !",
+      "english": "Happy New Year, Marie!",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10267",
+      "unit_id": "U43",
+      "french": "C'est une bonne année.",
+      "english": "It's a good year.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S11061",
+      "unit_id": "U35",
+      "french": "Vous pouvez répéter, s'il vous plaît ?",
+      "english": "Can you repeat that, please?",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S11062",
+      "unit_id": "U35",
+      "french": "Pardon, vous pouvez répéter le numéro ?",
+      "english": "Sorry, can you repeat the number?",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S11063",
+      "unit_id": "U35",
+      "french": "Tu peux répéter ?",
+      "english": "Can you repeat that?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S11064",
+      "unit_id": "U35",
+      "french": "Un moment, je vais noter.",
+      "english": "One moment, I'll write it down.",
+      "notes": "help circle draft: the core phrase"
+    },
+    {
+      "sentence_id": "S11065",
+      "unit_id": "U35",
+      "french": "Je vais noter le numéro.",
+      "english": "I'm going to write down the number.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10361",
+      "unit_id": "U44",
+      "french": "Trente, quarante, cinquante, soixante.",
+      "english": "Thirty, forty, fifty, sixty.",
+      "notes": "counting by tens"
+    },
+    {
+      "sentence_id": "S10362",
+      "unit_id": "U44",
+      "french": "Soixante-dix, quatre-vingts, quatre-vingt-dix, cent.",
+      "english": "Seventy, eighty, ninety, a hundred.",
+      "notes": "counting by tens"
+    },
+    {
+      "sentence_id": "S10363",
+      "unit_id": "U44",
+      "french": "Il a cinquante ans.",
+      "english": "He is fifty years old.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10364",
+      "unit_id": "U44",
+      "french": "Elle a soixante-dix ans.",
+      "english": "She is seventy years old.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10365",
+      "unit_id": "U44",
+      "french": "Il a quatre-vingt-dix ans.",
+      "english": "He is ninety years old.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10366",
+      "unit_id": "U44",
+      "french": "Elle a cent ans !",
+      "english": "She is a hundred years old!",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10367",
+      "unit_id": "U44",
+      "french": "J'ai cinquante ans.",
+      "english": "I am fifty years old.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10368",
+      "unit_id": "U44",
+      "french": "C'est le zéro six, cinquante, soixante-dix, quatre-vingt-dix, quarante.",
+      "english": "It's 06 50 70 90 40.",
+      "notes": "a phone number read in pairs"
+    },
+    {
+      "sentence_id": "S10369",
+      "unit_id": "U44",
+      "french": "Elle a soixante ans.",
+      "english": "She is sixty years old.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10370",
+      "unit_id": "U44",
+      "french": "Elle a quatre-vingts ans.",
+      "english": "She is eighty years old.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10371",
+      "unit_id": "U44",
+      "french": "Il a cent ans.",
+      "english": "He is a hundred years old.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10372",
+      "unit_id": "U44",
+      "french": "Elle a quel âge ?",
+      "english": "How old is she?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10461",
+      "unit_id": "U45",
+      "french": "J'habite au dix, rue du Parc.",
+      "english": "I live at 10, rue du Parc.",
+      "notes": "QT09 answer; an address the French way"
+    },
+    {
+      "sentence_id": "S10462",
+      "unit_id": "U45",
+      "french": "Tu habites dans quelle rue ?",
+      "english": "Which street do you live on?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10463",
+      "unit_id": "U45",
+      "french": "Tu habites près de l'école ?",
+      "english": "Do you live near the school?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10464",
+      "unit_id": "U45",
+      "french": "Vous habitez ici ?",
+      "english": "Do you live here?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10465",
+      "unit_id": "U45",
+      "french": "Vous habitez près du parc ?",
+      "english": "Do you live near the park?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10466",
+      "unit_id": "U45",
+      "french": "J'habite près du parc.",
+      "english": "I live near the park.",
+      "notes": "QT09 answer"
+    },
+    {
+      "sentence_id": "S10467",
+      "unit_id": "U45",
+      "french": "J'aime habiter en ville.",
+      "english": "I like living in the city.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10468",
+      "unit_id": "U45",
+      "french": "C'est un beau pays.",
+      "english": "It's a beautiful country.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S10469",
+      "unit_id": "U45",
+      "french": "L'appartement est à quel étage ?",
+      "english": "Which floor is the apartment on?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
     }
   ],
   "qa_answers": [
@@ -2521,6 +2829,42 @@
     {
       "question_sentence_id": "S10962",
       "answer_sentence_id": "S10964"
+    },
+    {
+      "question_sentence_id": "S10108",
+      "answer_sentence_id": "S10161"
+    },
+    {
+      "question_sentence_id": "S10169",
+      "answer_sentence_id": "S10170"
+    },
+    {
+      "question_sentence_id": "S10202",
+      "answer_sentence_id": "S10218"
+    },
+    {
+      "question_sentence_id": "S10201",
+      "answer_sentence_id": "S10208"
+    },
+    {
+      "question_sentence_id": "S10205",
+      "answer_sentence_id": "S10215"
+    },
+    {
+      "question_sentence_id": "S10372",
+      "answer_sentence_id": "S10366"
+    },
+    {
+      "question_sentence_id": "S10405",
+      "answer_sentence_id": "S10461"
+    },
+    {
+      "question_sentence_id": "S10406",
+      "answer_sentence_id": "S10466"
+    },
+    {
+      "question_sentence_id": "S10410",
+      "answer_sentence_id": "S10461"
     }
   ]
 }

@@ -1,0 +1,1470 @@
+{
+  "unit_id": "U45",
+  "pulled_at": "2026-11-11",
+  "candidates": 28,
+  "sentences": [
+    {
+      "sentence_id": "S10401",
+      "unit_id": "U45",
+      "french": "J'habite en appartement.",
+      "english": "I live in a flat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1503919",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martin9",
+      "other_english": [
+        "I live in an apartment."
+      ]
+    },
+    {
+      "sentence_id": "S10402",
+      "unit_id": "U45",
+      "french": "J'habite dans un appartement.",
+      "english": "I live in a flat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "606504",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": [
+        "I live in an apartment."
+      ]
+    },
+    {
+      "sentence_id": "S10403",
+      "unit_id": "U45",
+      "french": "Dans quelle rue ?",
+      "english": "On what street?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1158566",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "In which street?"
+      ]
+    },
+    {
+      "sentence_id": "S10404",
+      "unit_id": "U45",
+      "french": "C'est encore loin ?",
+      "english": "Is it still far?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1318125",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mutusen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10405",
+      "unit_id": "U45",
+      "french": "Tu habites où ?",
+      "english": "Where do you live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10406",
+      "unit_id": "U45",
+      "french": "Vous habitez où ?",
+      "english": "Where do you live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707051",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "Where are you living?",
+        "Where do you guys live?"
+      ]
+    },
+    {
+      "sentence_id": "S10407",
+      "unit_id": "U45",
+      "french": "Qui habite ici ?",
+      "english": "Who lives here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8650215",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10408",
+      "unit_id": "U45",
+      "french": "À quel étage ?",
+      "english": "Which floor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9552566",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10409",
+      "unit_id": "U45",
+      "french": "Quelle est votre adresse ?",
+      "english": "What's your address?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3627274",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "What is your address?"
+      ]
+    },
+    {
+      "sentence_id": "S10410",
+      "unit_id": "U45",
+      "french": "Quelle est ton adresse ?",
+      "english": "What's your address?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3627275",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "What is your address?"
+      ]
+    },
+    {
+      "sentence_id": "S10411",
+      "unit_id": "U45",
+      "french": "Voici l'adresse.",
+      "english": "Here's the address.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1635801",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10412",
+      "unit_id": "U45",
+      "french": "Je suis loin.",
+      "english": "I'm far away.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5240742",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Iriep",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10413",
+      "unit_id": "U45",
+      "french": "Il est loin.",
+      "english": "It is far.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5240747",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Iriep",
+      "other_english": [
+        "It is far way.",
+        "He is far away."
+      ]
+    },
+    {
+      "sentence_id": "S10414",
+      "unit_id": "U45",
+      "french": "J'aime mon pays.",
+      "english": "I love my country.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3480929",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Lulantis",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10415",
+      "unit_id": "U45",
+      "french": "Elle cherche un appartement.",
+      "english": "She's looking for an apartment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4511868",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": [
+        "She is looking for an apartment."
+      ]
+    },
+    {
+      "sentence_id": "S10416",
+      "unit_id": "U45",
+      "french": "C'est un grand pays.",
+      "english": "It's a big country.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5386894",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexisslay",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10417",
+      "unit_id": "U45",
+      "french": "Je vais habiter en ville.",
+      "english": "I'll live in the city.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1987252",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10418",
+      "unit_id": "U45",
+      "french": "Il va habiter en ville.",
+      "english": "He's going to live in the city.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4076182",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10419",
+      "unit_id": "U45",
+      "french": "Nous sommes au bon étage.",
+      "english": "We're on the right floor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6322075",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10420",
+      "unit_id": "U45",
+      "french": "Elle est loin.",
+      "english": "She's far away.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5259860",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Iriep",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10421",
+      "unit_id": "U45",
+      "french": "J'ai ton adresse.",
+      "english": "I've got your address.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12498217",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10422",
+      "unit_id": "U45",
+      "french": "J'ai son adresse.",
+      "english": "I have his address.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12498233",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": [
+        "I have her address."
+      ]
+    },
+    {
+      "sentence_id": "S10423",
+      "unit_id": "U45",
+      "french": "Je sais où il habite.",
+      "english": "I know where he lives.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "127584",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10424",
+      "unit_id": "U45",
+      "french": "J'habite dans une ville.",
+      "english": "I live in a town.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1649821",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10425",
+      "unit_id": "U45",
+      "french": "Je suis dans mon appartement.",
+      "english": "I'm in my apartment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5964247",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "I'm in my flat."
+      ]
+    },
+    {
+      "sentence_id": "S10426",
+      "unit_id": "U45",
+      "french": "J'aime bien ton appartement.",
+      "english": "I like your apartment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11167786",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "blizb",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10427",
+      "unit_id": "U45",
+      "french": "J'habite dans une grande ville.",
+      "english": "I live in a big city.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "127472",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10428",
+      "unit_id": "U45",
+      "french": "Je ne sais pas où il habite.",
+      "english": "I don't know where he lives.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "126567",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "TRANG",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S10401",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10401",
+      "position": 2,
+      "surface": "habite",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10401",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10401",
+      "position": 4,
+      "surface": "appartement",
+      "word_id": "W856",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10402",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10402",
+      "position": 2,
+      "surface": "habite",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10402",
+      "position": 3,
+      "surface": "dans",
+      "word_id": "W477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10402",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10402",
+      "position": 5,
+      "surface": "appartement",
+      "word_id": "W856",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10403",
+      "position": 1,
+      "surface": "Dans",
+      "word_id": "W477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10403",
+      "position": 2,
+      "surface": "quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10403",
+      "position": 3,
+      "surface": "rue",
+      "word_id": "W854",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10404",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10404",
+      "position": 2,
+      "surface": "encore",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10404",
+      "position": 3,
+      "surface": "loin",
+      "word_id": "W860",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10405",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10405",
+      "position": 2,
+      "surface": "habites",
+      "word_id": "W851",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10405",
+      "position": 3,
+      "surface": "où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10406",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10406",
+      "position": 2,
+      "surface": "habitez",
+      "word_id": "W852",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10406",
+      "position": 3,
+      "surface": "où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10407",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10407",
+      "position": 2,
+      "surface": "habite",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10407",
+      "position": 3,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10408",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10408",
+      "position": 2,
+      "surface": "quel",
+      "word_id": "W436",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10408",
+      "position": 3,
+      "surface": "étage",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10409",
+      "position": 1,
+      "surface": "Quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10409",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10409",
+      "position": 3,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10409",
+      "position": 4,
+      "surface": "adresse",
+      "word_id": "W855",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10410",
+      "position": 1,
+      "surface": "Quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10410",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10410",
+      "position": 3,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10410",
+      "position": 4,
+      "surface": "adresse",
+      "word_id": "W855",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10411",
+      "position": 1,
+      "surface": "Voici",
+      "word_id": "W205",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10411",
+      "position": 2,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10411",
+      "position": 3,
+      "surface": "adresse",
+      "word_id": "W855",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10412",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10412",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10412",
+      "position": 3,
+      "surface": "loin",
+      "word_id": "W860",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10413",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10413",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10413",
+      "position": 3,
+      "surface": "loin",
+      "word_id": "W860",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10414",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10414",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10414",
+      "position": 3,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10414",
+      "position": 4,
+      "surface": "pays",
+      "word_id": "W857",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10415",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10415",
+      "position": 2,
+      "surface": "cherche",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10415",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10415",
+      "position": 4,
+      "surface": "appartement",
+      "word_id": "W856",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10416",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10416",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10416",
+      "position": 3,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10416",
+      "position": 4,
+      "surface": "pays",
+      "word_id": "W857",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10417",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10417",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10417",
+      "position": 3,
+      "surface": "habiter",
+      "word_id": "W853",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10417",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10417",
+      "position": 5,
+      "surface": "ville",
+      "word_id": "W470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10418",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10418",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10418",
+      "position": 3,
+      "surface": "habiter",
+      "word_id": "W853",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10418",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10418",
+      "position": 5,
+      "surface": "ville",
+      "word_id": "W470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10419",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10419",
+      "position": 2,
+      "surface": "sommes",
+      "word_id": "W403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10419",
+      "position": 3,
+      "surface": "au",
+      "word_id": "W476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10419",
+      "position": 4,
+      "surface": "bon",
+      "word_id": "W411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10419",
+      "position": 5,
+      "surface": "étage",
+      "word_id": "W858",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10420",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10420",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10420",
+      "position": 3,
+      "surface": "loin",
+      "word_id": "W860",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10421",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10421",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10421",
+      "position": 3,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10421",
+      "position": 4,
+      "surface": "adresse",
+      "word_id": "W855",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10422",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10422",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10422",
+      "position": 3,
+      "surface": "son",
+      "word_id": "W427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10422",
+      "position": 4,
+      "surface": "adresse",
+      "word_id": "W855",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10423",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10423",
+      "position": 2,
+      "surface": "sais",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10423",
+      "position": 3,
+      "surface": "où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10423",
+      "position": 4,
+      "surface": "il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10423",
+      "position": 5,
+      "surface": "habite",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10424",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10424",
+      "position": 2,
+      "surface": "habite",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10424",
+      "position": 3,
+      "surface": "dans",
+      "word_id": "W477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10424",
+      "position": 4,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10424",
+      "position": 5,
+      "surface": "ville",
+      "word_id": "W470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10425",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10425",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10425",
+      "position": 3,
+      "surface": "dans",
+      "word_id": "W477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10425",
+      "position": 4,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10425",
+      "position": 5,
+      "surface": "appartement",
+      "word_id": "W856",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10426",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10426",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10426",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10426",
+      "position": 4,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10426",
+      "position": 5,
+      "surface": "appartement",
+      "word_id": "W856",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10427",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10427",
+      "position": 2,
+      "surface": "habite",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10427",
+      "position": 3,
+      "surface": "dans",
+      "word_id": "W477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10427",
+      "position": 4,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10427",
+      "position": 5,
+      "surface": "grande",
+      "word_id": "W202",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10427",
+      "position": 6,
+      "surface": "ville",
+      "word_id": "W470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10428",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10428",
+      "position": 2,
+      "surface": "ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10428",
+      "position": 3,
+      "surface": "sais",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10428",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10428",
+      "position": 5,
+      "surface": "où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10428",
+      "position": 6,
+      "surface": "il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10428",
+      "position": 7,
+      "surface": "habite",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A104011",
+      "sentence_id": "S10401",
+      "direction": "fr_to_en",
+      "answer": "I live in an apartment.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104021",
+      "sentence_id": "S10402",
+      "direction": "fr_to_en",
+      "answer": "I live in an apartment.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104031",
+      "sentence_id": "S10403",
+      "direction": "fr_to_en",
+      "answer": "In which street?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104061",
+      "sentence_id": "S10406",
+      "direction": "fr_to_en",
+      "answer": "Where are you living?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104062",
+      "sentence_id": "S10406",
+      "direction": "fr_to_en",
+      "answer": "Where do you guys live?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104091",
+      "sentence_id": "S10409",
+      "direction": "fr_to_en",
+      "answer": "What is your address?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104101",
+      "sentence_id": "S10410",
+      "direction": "fr_to_en",
+      "answer": "What is your address?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104131",
+      "sentence_id": "S10413",
+      "direction": "fr_to_en",
+      "answer": "It is far way.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104132",
+      "sentence_id": "S10413",
+      "direction": "fr_to_en",
+      "answer": "He is far away.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104151",
+      "sentence_id": "S10415",
+      "direction": "fr_to_en",
+      "answer": "She is looking for an apartment.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104221",
+      "sentence_id": "S10422",
+      "direction": "fr_to_en",
+      "answer": "I have her address.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A104251",
+      "sentence_id": "S10425",
+      "direction": "fr_to_en",
+      "answer": "I'm in my flat.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

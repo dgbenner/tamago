@@ -1,0 +1,359 @@
+{
+  "unit_id": "U44",
+  "pulled_at": "2026-11-11",
+  "candidates": 7,
+  "sentences": [
+    {
+      "sentence_id": "S10301",
+      "unit_id": "U44",
+      "french": "Il a trente ans.",
+      "english": "He is thirty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "586538",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10302",
+      "unit_id": "U44",
+      "french": "J'ai trente ans.",
+      "english": "I am thirty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1148020",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10303",
+      "unit_id": "U44",
+      "french": "Elle a quarante ans.",
+      "english": "She is forty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1517149",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10304",
+      "unit_id": "U44",
+      "french": "Il a quarante ans.",
+      "english": "He's forty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8030992",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "theachaean",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10305",
+      "unit_id": "U44",
+      "french": "Il a soixante ans.",
+      "english": "He is sixty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8031033",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "theachaean",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10306",
+      "unit_id": "U44",
+      "french": "Il a quatre-vingts ans.",
+      "english": "He is eighty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8031068",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "theachaean",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10307",
+      "unit_id": "U44",
+      "french": "J'ai maintenant trente ans.",
+      "english": "I'm 30 years old now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8721352",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": [
+        "I'm thirty years old now."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S10301",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10301",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10301",
+      "position": 3,
+      "surface": "trente",
+      "word_id": "W842",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10301",
+      "position": 4,
+      "surface": "ans",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10302",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10302",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10302",
+      "position": 3,
+      "surface": "trente",
+      "word_id": "W842",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10302",
+      "position": 4,
+      "surface": "ans",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10303",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10303",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10303",
+      "position": 3,
+      "surface": "quarante",
+      "word_id": "W843",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10303",
+      "position": 4,
+      "surface": "ans",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10304",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10304",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10304",
+      "position": 3,
+      "surface": "quarante",
+      "word_id": "W843",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10304",
+      "position": 4,
+      "surface": "ans",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10305",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10305",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10305",
+      "position": 3,
+      "surface": "soixante",
+      "word_id": "W845",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10305",
+      "position": 4,
+      "surface": "ans",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10306",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10306",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10306",
+      "position": 3,
+      "surface": "quatre-vingts",
+      "word_id": "W847",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10306",
+      "position": 4,
+      "surface": "ans",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10307",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10307",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10307",
+      "position": 3,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10307",
+      "position": 4,
+      "surface": "trente",
+      "word_id": "W842",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10307",
+      "position": 5,
+      "surface": "ans",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A103071",
+      "sentence_id": "S10307",
+      "direction": "fr_to_en",
+      "answer": "I'm thirty years old now.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 935 (658 matched to Tatoeba, 277 Tamago originals), 71 off, 145 awaiting a ruling. Words with Wiktionary data: 361 of 361. French-to-English answers: 311 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 408.
+Sentences live: 1065 (744 matched to Tatoeba, 321 Tamago originals), 71 off, 231 awaiting a ruling. Words with Wiktionary data: 361 of 361. French-to-English answers: 340 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 422.
 
 Unit 1 is approved and live.
 
@@ -34,7 +34,7 @@ Candidates use only Unit 1 words, have 6 words or fewer, have a linked English t
 | S6056 |  | Tu as du temps ?<br>Do you have time? | none |
 | S6057 |  | Il a du temps.<br>He has time. | none |
 
-## Tamago originals: native-speaker check needed before Phase 4 (277)
+## Tamago originals: native-speaker check needed before Phase 4 (321)
 
 Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 
@@ -317,6 +317,50 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S10962 |  | Tu peux épeler ton nom ? | Can you spell your name? | tts |
 | S10963 |  | Comment ça s'écrit ? | How do you spell that? | tts |
 | S10964 |  | Je peux épeler mon nom. | I can spell my name. | tts |
+| S10161 |  | Mon numéro, c'est le zéro six, onze, quinze, dix-neuf, vingt. | My number is 06 11 15 19 20. | tts |
+| S10162 |  | C'est le zéro six, douze, seize, dix-sept, treize. | It's 06 12 16 17 13. | tts |
+| S10163 |  | Mon numéro de portable, c'est le zéro sept, quatorze, dix-huit, onze, douze. | My mobile number is 07 14 18 11 12. | tts |
+| S10164 |  | Son numéro, c'est le zéro six, treize, quinze, seize, vingt. | His number is 06 13 15 16 20. | tts |
+| S10165 |  | Le numéro, c'est le zéro sept, dix-sept, dix-huit, dix-neuf, quatorze. | The number is 07 17 18 19 14. | tts |
+| S10166 |  | Appelez le zéro six, onze, douze, vingt, quinze. | Call 06 11 12 20 15. | tts |
+| S10167 |  | C'est le zéro six, treize, quatorze, seize, dix-sept. | It's 06 13 14 16 17. | tts |
+| S10168 |  | Mon numéro, c'est le zéro sept, dix-huit, dix-neuf, onze, douze. | My number is 07 18 19 11 12. | tts |
+| S10169 |  | Tu as un portable ? | Do you have a mobile phone? | tts |
+| S10170 |  | Oui, j'ai un portable. | Yes, I have a mobile phone. | tts |
+| S10171 |  | Je vais appeler Paul. | I'm going to call Paul. | tts |
+| S10261 |  | Elle est née aujourd'hui. | She was born today. | tts |
+| S10262 |  | Mon chien est né ici. | My dog was born here. | tts |
+| S10263 |  | Il a six mois. | He is six months old. | tts |
+| S10264 |  | Mon chat a deux mois. | My cat is two months old. | tts |
+| S10265 |  | Le chien a trois mois. | The dog is three months old. | tts |
+| S10266 |  | Bonne année, Marie ! | Happy New Year, Marie! | tts |
+| S10267 |  | C'est une bonne année. | It's a good year. | tts |
+| S11061 |  | Vous pouvez répéter, s'il vous plaît ? | Can you repeat that, please? | tts |
+| S11062 |  | Pardon, vous pouvez répéter le numéro ? | Sorry, can you repeat the number? | tts |
+| S11063 |  | Tu peux répéter ? | Can you repeat that? | tts |
+| S11064 |  | Un moment, je vais noter. | One moment, I'll write it down. | tts |
+| S11065 |  | Je vais noter le numéro. | I'm going to write down the number. | tts |
+| S10361 |  | Trente, quarante, cinquante, soixante. | Thirty, forty, fifty, sixty. | tts |
+| S10362 |  | Soixante-dix, quatre-vingts, quatre-vingt-dix, cent. | Seventy, eighty, ninety, a hundred. | tts |
+| S10363 |  | Il a cinquante ans. | He is fifty years old. | tts |
+| S10364 |  | Elle a soixante-dix ans. | She is seventy years old. | tts |
+| S10365 |  | Il a quatre-vingt-dix ans. | He is ninety years old. | tts |
+| S10366 |  | Elle a cent ans ! | She is a hundred years old! | tts |
+| S10367 |  | J'ai cinquante ans. | I am fifty years old. | tts |
+| S10368 |  | C'est le zéro six, cinquante, soixante-dix, quatre-vingt-dix, quarante. | It's 06 50 70 90 40. | tts |
+| S10369 |  | Elle a soixante ans. | She is sixty years old. | tts |
+| S10370 |  | Elle a quatre-vingts ans. | She is eighty years old. | tts |
+| S10371 |  | Il a cent ans. | He is a hundred years old. | tts |
+| S10372 |  | Elle a quel âge ? | How old is she? | tts |
+| S10461 |  | J'habite au dix, rue du Parc. | I live at 10, rue du Parc. | tts |
+| S10462 |  | Tu habites dans quelle rue ? | Which street do you live on? | tts |
+| S10463 |  | Tu habites près de l'école ? | Do you live near the school? | tts |
+| S10464 |  | Vous habitez ici ? | Do you live here? | tts |
+| S10465 |  | Vous habitez près du parc ? | Do you live near the park? | tts |
+| S10466 |  | J'habite près du parc. | I live near the park. | tts |
+| S10467 |  | J'aime habiter en ville. | I like living in the city. | tts |
+| S10468 |  | C'est un beau pays. | It's a beautiful country. | tts |
+| S10469 |  | L'appartement est à quel étage ? | Which floor is the apartment on? | tts |
 
 ## Words, for a read-through (361)
 
@@ -686,7 +730,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W907 | peu | peu | Adverb |  | little; not very much/many | checked |
 | W908 | trop | trop | Adverb |  | too; too much | checked |
 
-## Matched to Tatoeba (658)
+## Matched to Tatoeba (744)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -1319,6 +1363,14 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10928 | Il a écrit deux livres. | He has written two books. | [#461247](https://tatoeba.org/en/sentences/show/461247) | sacredceltic |  |  | tts |
 | S10929 | J'ai écrit le livre. | I wrote the book. | [#1129766](https://tatoeba.org/en/sentences/show/1129766) | Salutlolo |  |  | tts |
 | S10930 | J'ai écrit trois livres. | I've written three books. | [#2322186](https://tatoeba.org/en/sentences/show/2322186) | Amastan |  |  | tts |
+| S11001 | Attendez un moment. | Hang on a moment. | [#12620](https://tatoeba.org/en/sentences/show/12620) | sak_sm |  |  | tts |
+| S11002 | Qu'est-ce que vous attendez ? | What are you guys waiting for? | [#11702299](https://tatoeba.org/en/sentences/show/11702299) | Aiji |  |  | tts |
+| S11003 | Attendez ici. | Wait here. | [#1845895](https://tatoeba.org/en/sentences/show/1845895) | sacredceltic |  |  | tts |
+| S11004 | Un moment, s'il vous plaît. | Just one moment, please. | [#6044993](https://tatoeba.org/en/sentences/show/6044993) | PERCE_NEIGE |  |  | tts |
+| S11005 | Je vais noter ça. | I'm going to write that down. | [#10960509](https://tatoeba.org/en/sentences/show/10960509) | lbdx |  |  | tts |
+| S11006 | Attendez ici, s'il vous plaît. | Please wait here. | [#427463](https://tatoeba.org/en/sentences/show/427463) | Archibald |  |  | tts |
+| S11007 | Ne m'attendez pas. | Don't wait for me. | [#135130](https://tatoeba.org/en/sentences/show/135130) | Cocorico |  |  | tts |
+| S11008 | Je sais qui vous attendez. | I know who you're waiting for. | [#7853310](https://tatoeba.org/en/sentences/show/7853310) | Aiji |  |  | tts |
 | S10001 | Quel est votre nom, Monsieur ? | What is your name, sir? | [#1495015](https://tatoeba.org/en/sentences/show/1495015) | sacredceltic |  |  | tts |
 | S10002 | Quel est votre prénom ? | What's your first name? | [#14501](https://tatoeba.org/en/sentences/show/14501) | sacredceltic |  |  | tts |
 | S10003 | Quel est votre nom ? | What's your name? | [#497402](https://tatoeba.org/en/sentences/show/497402) | Bruno |  |  | tts |
@@ -1349,6 +1401,84 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10028 | Qui est votre ami ? | Who's your friend? | [#7802631](https://tatoeba.org/en/sentences/show/7802631) | Aiji |  |  | tts |
 | S10029 | Qui est votre amie ? | Who's your friend? | [#7802632](https://tatoeba.org/en/sentences/show/7802632) | Aiji |  |  | tts |
 | S10030 | T'es un garçon ? | Are you a boy? | [#11899495](https://tatoeba.org/en/sentences/show/11899495) | zogwarg |  |  | tts |
+| S10101 | Voici mon numéro de téléphone. | Here's my telephone number. | [#11499](https://tatoeba.org/en/sentences/show/11499) | sacredceltic |  |  | tts |
+| S10102 | J'ai son numéro de téléphone. | I have his telephone number. | [#2186573](https://tatoeba.org/en/sentences/show/2186573) | sacredceltic |  |  | tts |
+| S10103 | Quel est le numéro ? | What's the number? | [#584906](https://tatoeba.org/en/sentences/show/584906) | sacredceltic |  |  | tts |
+| S10104 | C'est un portable. | This is a mobile phone. | [#11177561](https://tatoeba.org/en/sentences/show/11177561) | blizb |  |  | tts |
+| S10105 | Il parle au téléphone. | He's talking on the telephone. | [#133003](https://tatoeba.org/en/sentences/show/133003) | Micsmithel |  |  | tts |
+| S10106 | Je vous ai dit de m'appeler. | I told you to call me. | [#5167538](https://tatoeba.org/en/sentences/show/5167538) | sacredceltic |  |  | tts |
+| S10107 | Je t'ai dit de m'appeler. | I told you to call me. | [#5167541](https://tatoeba.org/en/sentences/show/5167541) | sacredceltic |  |  | tts |
+| S10108 | Quel est ton numéro ? | What's your number? | [#1368109](https://tatoeba.org/en/sentences/show/1368109) | sacredceltic |  |  | tts |
+| S10109 | Quel est votre numéro ? | What's your number? | [#1368110](https://tatoeba.org/en/sentences/show/1368110) | sacredceltic |  |  | tts |
+| S10110 | Tu as quel numéro ? | Which number do you have? | [#8684768](https://tatoeba.org/en/sentences/show/8684768) | Julien_PDC |  |  | tts |
+| S10111 | Le téléphone est rouge. | The telephone is red. | [#5208329](https://tatoeba.org/en/sentences/show/5208329) | martin9 |  |  | tts |
+| S10112 | Tu as mon numéro. | You've got my number. | [#6957169](https://tatoeba.org/en/sentences/show/6957169) | HaleBopp |  |  | tts |
+| S10113 | J'ai ton numéro. | I have your number. | [#10971494](https://tatoeba.org/en/sentences/show/10971494) | lbdx |  |  | tts |
+| S10201 | Quel est votre âge ? | What's your age? | [#1147442](https://tatoeba.org/en/sentences/show/1147442) | sacredceltic |  |  | tts |
+| S10202 | Quel est ton âge ? | What's your age? | [#1147444](https://tatoeba.org/en/sentences/show/1147444) | sacredceltic |  |  | tts |
+| S10203 | C'est son anniversaire aujourd'hui ? | Is today her birthday? | [#11602531](https://tatoeba.org/en/sentences/show/11602531) | Rovo |  |  | tts |
+| S10204 | Tu es née où ? | Where were you born? | [#12225904](https://tatoeba.org/en/sentences/show/12225904) | Orange |  |  | tts |
+| S10205 | C'est ton anniversaire aujourd'hui, non ? | Today's your birthday, isn't it? | [#6949138](https://tatoeba.org/en/sentences/show/6949138) | vlecomte |  |  | tts |
+| S10206 | Bon anniversaire ! | Happy birthday! | [#10913](https://tatoeba.org/en/sentences/show/10913) | sacredceltic |  |  | lingua_libre |
+| S10207 | Bonne année ! | Happy New Year! | [#14185](https://tatoeba.org/en/sentences/show/14185) | sacredceltic |  |  | lingua_libre |
+| S10208 | J'ai dix-huit ans. | I'm 18 years old. | [#129841](https://tatoeba.org/en/sentences/show/129841) | nimfeo |  |  | tts |
+| S10209 | Il a huit ans. | He's eight years old. | [#130651](https://tatoeba.org/en/sentences/show/130651) | gillux |  |  | tts |
+| S10210 | Il a mon âge. | He's my age. | [#899099](https://tatoeba.org/en/sentences/show/899099) | sacredceltic |  |  | tts |
+| S10211 | Elle a vingt ans. | She is twenty years old. | [#4479452](https://tatoeba.org/en/sentences/show/4479452) | mouche |  |  | tts |
+| S10212 | Je suis né ici. | I was born here. | [#4579565](https://tatoeba.org/en/sentences/show/4579565) | sacredceltic |  |  | tts |
+| S10213 | Je suis née ici. | I was born here. | [#4579566](https://tatoeba.org/en/sentences/show/4579566) | sacredceltic |  |  | tts |
+| S10214 | Il est né ici. | He was born here. | [#12013292](https://tatoeba.org/en/sentences/show/12013292) | lbdx |  |  | tts |
+| S10215 | C'est mon anniversaire ! | It's my birthday! | [#8640068](https://tatoeba.org/en/sentences/show/8640068) | Julien_PDC |  |  | tts |
+| S10216 | Demain, c'est mon anniversaire. | Tomorrow's my birthday. | [#831538](https://tatoeba.org/en/sentences/show/831538) | sacredceltic |  |  | tts |
+| S10217 | Demain est mon anniversaire. | Tomorrow's my birthday. | [#1330312](https://tatoeba.org/en/sentences/show/1330312) | sacredceltic |  |  | tts |
+| S10218 | J'ai quatorze ans. | I'm fourteen years old. | [#6813322](https://tatoeba.org/en/sentences/show/6813322) | Micsmithel |  |  | tts |
+| S10219 | J'ai ton âge. | I'm your age. | [#7411691](https://tatoeba.org/en/sentences/show/7411691) | lbdx |  |  | tts |
+| S10220 | Elle a dix-sept ans. | She's seventeen years old. | [#7555301](https://tatoeba.org/en/sentences/show/7555301) | Aiji |  |  | tts |
+| S10221 | J'ai huit ans. | I'm eight years old. | [#7851088](https://tatoeba.org/en/sentences/show/7851088) | theachaean |  |  | tts |
+| S10222 | J'ai neuf ans. | I'm nine years old. | [#7851089](https://tatoeba.org/en/sentences/show/7851089) | theachaean |  |  | tts |
+| S10223 | Il a six ans. | He's six years old. | [#8030896](https://tatoeba.org/en/sentences/show/8030896) | theachaean |  |  | tts |
+| S10224 | Il a sept ans. | He's seven years old. | [#8030897](https://tatoeba.org/en/sentences/show/8030897) | theachaean |  |  | tts |
+| S10225 | Il a douze ans. | He is twelve years old. | [#8030903](https://tatoeba.org/en/sentences/show/8030903) | theachaean |  |  | tts |
+| S10226 | Il a seize ans. | He's sixteen years old. | [#8030908](https://tatoeba.org/en/sentences/show/8030908) | theachaean |  |  | tts |
+| S10227 | Il a dix-sept ans. | He is seventeen years old. | [#8030917](https://tatoeba.org/en/sentences/show/8030917) | theachaean |  |  | tts |
+| S10228 | Il a votre âge. | He's your age. | [#8597588](https://tatoeba.org/en/sentences/show/8597588) | Aiji |  |  | tts |
+| S10229 | Aujourd'hui est mon anniversaire. | Today is my birthday. | [#8620641](https://tatoeba.org/en/sentences/show/8620641) | sacredceltic |  |  | tts |
+| S10230 | Aujourd'hui, c'est ton anniversaire. | Today is your birthday. | [#11221324](https://tatoeba.org/en/sentences/show/11221324) | lbdx |  |  | tts |
+| S10301 | Il a trente ans. | He is thirty years old. | [#586538](https://tatoeba.org/en/sentences/show/586538) | qdii |  |  | tts |
+| S10302 | J'ai trente ans. | I am thirty years old. | [#1148020](https://tatoeba.org/en/sentences/show/1148020) | sacredceltic |  |  | tts |
+| S10303 | Elle a quarante ans. | She is forty years old. | [#1517149](https://tatoeba.org/en/sentences/show/1517149) | Rovo |  |  | tts |
+| S10304 | Il a quarante ans. | He's forty years old. | [#8030992](https://tatoeba.org/en/sentences/show/8030992) | theachaean |  |  | tts |
+| S10305 | Il a soixante ans. | He is sixty years old. | [#8031033](https://tatoeba.org/en/sentences/show/8031033) | theachaean |  |  | tts |
+| S10306 | Il a quatre-vingts ans. | He is eighty years old. | [#8031068](https://tatoeba.org/en/sentences/show/8031068) | theachaean |  |  | tts |
+| S10307 | J'ai maintenant trente ans. | I'm 30 years old now. | [#8721352](https://tatoeba.org/en/sentences/show/8721352) | Julien_PDC |  |  | tts |
+| S10401 | J'habite en appartement. | I live in a flat. | [#1503919](https://tatoeba.org/en/sentences/show/1503919) | martin9 |  |  | tts |
+| S10402 | J'habite dans un appartement. | I live in a flat. | [#606504](https://tatoeba.org/en/sentences/show/606504) | qdii |  |  | tts |
+| S10403 | Dans quelle rue ? | On what street? | [#1158566](https://tatoeba.org/en/sentences/show/1158566) | sacredceltic |  |  | tts |
+| S10404 | C'est encore loin ? | Is it still far? | [#1318125](https://tatoeba.org/en/sentences/show/1318125) | Mutusen |  |  | tts |
+| S10405 | Tu habites où ? | Where do you live? | [#2707050](https://tatoeba.org/en/sentences/show/2707050) | Julien_PDC |  |  | tts |
+| S10406 | Vous habitez où ? | Where do you live? | [#2707051](https://tatoeba.org/en/sentences/show/2707051) | Aiji |  |  | tts |
+| S10407 | Qui habite ici ? | Who lives here? | [#8650215](https://tatoeba.org/en/sentences/show/8650215) | felix63 |  |  | tts |
+| S10408 | À quel étage ? | Which floor? | [#9552566](https://tatoeba.org/en/sentences/show/9552566) | Micsmithel |  |  | tts |
+| S10409 | Quelle est votre adresse ? | What's your address? | [#3627274](https://tatoeba.org/en/sentences/show/3627274) | sacredceltic |  |  | tts |
+| S10410 | Quelle est ton adresse ? | What's your address? | [#3627275](https://tatoeba.org/en/sentences/show/3627275) | sacredceltic |  |  | tts |
+| S10411 | Voici l'adresse. | Here's the address. | [#1635801](https://tatoeba.org/en/sentences/show/1635801) | sacredceltic |  |  | tts |
+| S10412 | Je suis loin. | I'm far away. | [#5240742](https://tatoeba.org/en/sentences/show/5240742) | Iriep |  |  | tts |
+| S10413 | Il est loin. | It is far. | [#5240747](https://tatoeba.org/en/sentences/show/5240747) | Iriep |  |  | tts |
+| S10414 | J'aime mon pays. | I love my country. | [#3480929](https://tatoeba.org/en/sentences/show/3480929) | Lulantis |  |  | tts |
+| S10415 | Elle cherche un appartement. | She's looking for an apartment. | [#4511868](https://tatoeba.org/en/sentences/show/4511868) | Amastan |  |  | tts |
+| S10416 | C'est un grand pays. | It's a big country. | [#5386894](https://tatoeba.org/en/sentences/show/5386894) | alexisslay |  |  | tts |
+| S10417 | Je vais habiter en ville. | I'll live in the city. | [#1987252](https://tatoeba.org/en/sentences/show/1987252) | nimfeo |  |  | tts |
+| S10418 | Il va habiter en ville. | He's going to live in the city. | [#4076182](https://tatoeba.org/en/sentences/show/4076182) | Amastan |  |  | tts |
+| S10419 | Nous sommes au bon étage. | We're on the right floor. | [#6322075](https://tatoeba.org/en/sentences/show/6322075) | Aiji |  |  | tts |
+| S10420 | Elle est loin. | She's far away. | [#5259860](https://tatoeba.org/en/sentences/show/5259860) | Iriep |  |  | tts |
+| S10421 | J'ai ton adresse. | I've got your address. | [#12498217](https://tatoeba.org/en/sentences/show/12498217) | Rovo |  |  | tts |
+| S10422 | J'ai son adresse. | I have his address. | [#12498233](https://tatoeba.org/en/sentences/show/12498233) | Rovo |  |  | tts |
+| S10423 | Je sais où il habite. | I know where he lives. | [#127584](https://tatoeba.org/en/sentences/show/127584) | sacredceltic |  |  | tts |
+| S10424 | J'habite dans une ville. | I live in a town. | [#1649821](https://tatoeba.org/en/sentences/show/1649821) | nimfeo |  |  | tts |
+| S10425 | Je suis dans mon appartement. | I'm in my apartment. | [#5964247](https://tatoeba.org/en/sentences/show/5964247) | Aiji |  |  | tts |
+| S10426 | J'aime bien ton appartement. | I like your apartment. | [#11167786](https://tatoeba.org/en/sentences/show/11167786) | blizb |  |  | tts |
+| S10427 | J'habite dans une grande ville. | I live in a big city. | [#127472](https://tatoeba.org/en/sentences/show/127472) | Julien_PDC |  |  | tts |
+| S10428 | Je ne sais pas où il habite. | I don't know where he lives. | [#126567](https://tatoeba.org/en/sentences/show/126567) | TRANG |  |  | tts |
 | S9161 | Qu'est-ce que ça veut dire ? | What does that mean? | [#2224260](https://tatoeba.org/en/sentences/show/2224260) | sacredceltic |  |  | tts |
 
 ## Off in the workbook (71)
@@ -1429,7 +1559,7 @@ Set to off by the workbook owner. Not shipped.
 | S7729 | À elle. | It's her turn. | pulled from Tatoeba under content_pull |
 | S7730 | À trois ! | On the count of three! | pulled from Tatoeba under content_pull |
 
-## English-to-French answers generated from Tatoeba (408)
+## English-to-French answers generated from Tatoeba (422)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -1458,6 +1588,20 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S10062 | What's your name? | Comment vous appelez-vous ? | [#338111](https://tatoeba.org/en/sentences/show/338111) | shiboy |
 | S10062 | What's your name? | Quel est ton nom ? | [#1097924](https://tatoeba.org/en/sentences/show/1097924) | nimfeo |
 | S10062 | What's your name? | Quel est votre nom ? | [#497402](https://tatoeba.org/en/sentences/show/497402) | Bruno |
+| S10169 | Do you have a mobile phone? | As-tu un natel ? | [#535418](https://tatoeba.org/en/sentences/show/535418) | qdii |
+| S10169 | Do you have a mobile phone? | As-tu un portable ? | [#541798](https://tatoeba.org/en/sentences/show/541798) | sacredceltic |
+| S10169 | Do you have a mobile phone? | As-tu un téléphone mobile ? | [#541802](https://tatoeba.org/en/sentences/show/541802) | sacredceltic |
+| S10169 | Do you have a mobile phone? | Avez-vous un natel ? | [#535423](https://tatoeba.org/en/sentences/show/535423) | qdii |
+| S10169 | Do you have a mobile phone? | Avez-vous un portable ? | [#541799](https://tatoeba.org/en/sentences/show/541799) | sacredceltic |
+| S10169 | Do you have a mobile phone? | Avez-vous un téléphone mobile ? | [#541803](https://tatoeba.org/en/sentences/show/541803) | sacredceltic |
+| S10169 | Do you have a mobile phone? | Disposes-tu d'un téléphone portable ? | [#1490216](https://tatoeba.org/en/sentences/show/1490216) | sacredceltic |
+| S10169 | Do you have a mobile phone? | Disposez-vous d'un téléphone portable ? | [#1490217](https://tatoeba.org/en/sentences/show/1490217) | sacredceltic |
+| S10464 | Do you live here? | Résides-tu ici ? | [#1115899](https://tatoeba.org/en/sentences/show/1115899) | sacredceltic |
+| S10464 | Do you live here? | Tu vis ici ? | [#4081046](https://tatoeba.org/en/sentences/show/4081046) | sbamsbamsbam |
+| S10464 | Do you live here? | Vivez-vous ici ? | [#8943](https://tatoeba.org/en/sentences/show/8943) | Cocorico |
+| S11061 | Can you repeat that, please? | Pourriez-vous répéter ça s'il vous plaît ? | [#4085](https://tatoeba.org/en/sentences/show/4085) | TRANG |
+| S11061 | Can you repeat that, please? | Pourriez-vous répéter cela s'il vous plait ? | [#846921](https://tatoeba.org/en/sentences/show/846921) | sacredceltic |
+| S11061 | Can you repeat that, please? | Pouvez-vous répéter cela, s'il vous plaît ? | [#13592](https://tatoeba.org/en/sentences/show/13592) | sacredceltic |
 | S2003 | Are they here? | Elles sont ici ? | [#5259932](https://tatoeba.org/en/sentences/show/5259932) | Iriep |
 | S2003 | Are they here? | Elles sont là ? | [#5259909](https://tatoeba.org/en/sentences/show/5259909) | Iriep |
 | S2003 | Are they here? | Ils sont là ? | [#5240676](https://tatoeba.org/en/sentences/show/5240676) | Iriep |
@@ -1860,7 +2004,7 @@ Checked against Tatoeba: same French from a trusted owner, linked to the listed 
 | FB51 | Pas tout à fait. | Not quite. | flagged |  | Tatoeba links other English: Not exactly. |
 | FB52 | D'accord, on continue. | Okay, let's keep going. | flagged |  | not in Tatoeba from a trusted owner |
 
-## Lingua Libre recordings (16)
+## Lingua Libre recordings (18)
 
 | ID | French | File | License | Recordings found |
 | --- | --- | --- | --- | --- |
@@ -1880,3 +2024,5 @@ Checked against Tatoeba: same French from a trusted owner, linked to the listed 
 | S7726 | À demain. | [LL-Q150 (fra)-LoquaxFR-à demain.wav](https://upload.wikimedia.org/wikipedia/commons/8/81/LL-Q150_%2528fra%2529-LoquaxFR-%25C3%25A0_demain.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
 | S9113 | C'est bien dit. | [LL-Q150 (fra)-LoquaxFR-c’est bien dit.wav](https://upload.wikimedia.org/wikipedia/commons/c/c5/LL-Q150_%2528fra%2529-LoquaxFR-c%25E2%2580%2599est_bien_dit.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 1 |
 | S9122 | C'est ça. | [LL-Q150 (fra)-Lepticed7-c’est ça.wav](https://upload.wikimedia.org/wikipedia/commons/d/d9/LL-Q150_%2528fra%2529-Lepticed7-c%25E2%2580%2599est_%25C3%25A7a.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
+| S10206 | Bon anniversaire ! | [LL-Q150 (fra)-LoquaxFR-bon anniversaire.wav](https://upload.wikimedia.org/wikipedia/commons/1/1f/LL-Q150_%2528fra%2529-LoquaxFR-bon_anniversaire.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
+| S10207 | Bonne année ! | [LL-Q150 (fra)-Fabricio Cardenas (Culex)-bonne année.wav](https://upload.wikimedia.org/wikipedia/commons/4/48/LL-Q150_%2528fra%2529-Fabricio_Cardenas_%2528Culex%2529-bonne_ann%25C3%25A9e.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 3 |

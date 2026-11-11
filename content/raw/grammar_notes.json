@@ -124,5 +124,40 @@
     "example_sentence_ids": "S10963;S10961;S10906",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U42",
+    "rule": "French phone numbers have ten digits, read in pairs: 06 11 15 19 20 is zéro six, onze, quinze, dix-neuf, vingt. From eleven to sixteen each number has its own word (onze, douze, treize, quatorze, quinze, seize); seventeen to nineteen are ten and seven, ten and eight, ten and nine, with hyphens (dix-sept, dix-huit, dix-neuf). Quel est ton numéro ? asks someone's number.",
+    "example_sentence_ids": "S10161;S10166;S10108",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U43",
+    "rule": "French gives your age with avoir, to have: J'ai vingt ans is I am twenty (literally I have twenty years). Quel est ton âge ? asks it. Né and née mean born, with être: il est né ici, elle est née ici (née for a woman). Bon anniversaire ! is happy birthday.",
+    "example_sentence_ids": "S10218;S10202;S10261",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U35",
+    "rule": "Numbers go by fast, so check them. Pardon, vous pouvez répéter ? asks for it again (pouvoir plus the verb as it is). Un moment, s'il vous plaît, or Attendez un moment, buys you time. Je vais noter says you'll write it down: je vais plus a verb is what you're about to do.",
+    "example_sentence_ids": "S11062;S11004;S11064",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U44",
+    "rule": "The tens: trente (30), quarante (40), cinquante (50), soixante (60). Then French counts on from sixty: soixante-dix is sixty-ten (70), quatre-vingts is four twenties (80), quatre-vingt-dix is four twenties and ten (90), and cent is a hundred. Ages take avoir: elle a soixante ans.",
+    "example_sentence_ids": "S10361;S10362;S10363",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U45",
+    "rule": "J'habite means I live: habiter goes like parler (j'habite, tu habites, il habite, vous habitez). Tu habites où ? asks where. A French address puts the number first, then the street: dix, rue du Parc. Près de is near, loin de far from; de and le make du (près du parc).",
+    "example_sentence_ids": "S10405;S10461;S10466",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]

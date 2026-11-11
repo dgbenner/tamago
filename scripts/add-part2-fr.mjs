@@ -36,6 +36,9 @@ export const PART2_FR = [
     words: ['bouteille', 'paquet', 'boîte', 'verre', 'sac', 'assez', 'beaucoup', 'peu', 'trop'] },
 ]
 
+// Words taken out in review, kept in place (status off) so no id moves.
+const OFF = { note: 'the noun note looks like je note (I write it down), misleading in a help circle' }
+
 // "I can" statements for the part, on the CEFR self-assessment grid's A1 rows.
 const CAN_DO = {
   U41: [['speaking', 'Spoken interaction', 'I can say my name and ask someone theirs, politely or to a friend.']],
@@ -85,7 +88,7 @@ if (process.argv[1] === import.meta.filename) {
     if (taken.has(form)) throw new Error(`${u.unit_id}: ${form} is already in the course`)
     taken.add(form)
     words.push({ word_id: `W${n++}`, lang_id: 'fr', form, lemma: '', part_of_speech: '', gender: '', gloss: '', hint: '', hint_source: '', first_unit: u.unit_id, needs_image: 'no', image_file: '',
-      wiktionary_url: `https://en.wiktionary.org/wiki/${encodeURIComponent(form)}#French`, status: 'pull from Wiktionary', notes: 'A1 Part 2 word' })
+      wiktionary_url: `https://en.wiktionary.org/wiki/${encodeURIComponent(form)}#French`, status: OFF[form] ? `off: ${OFF[form]}` : 'pull from Wiktionary', notes: 'A1 Part 2 word' })
   }
   wb.Sheets.words = XLSX.utils.json_to_sheet(words)
   const parts = sheet('parts').map((p) => (Number(p.part) === 2 ? { ...p, status: 'building' } : p))

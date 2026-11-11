@@ -1,0 +1,358 @@
+{
+  "unit_id": "U35",
+  "pulled_at": "2026-11-11",
+  "candidates": 8,
+  "sentences": [
+    {
+      "sentence_id": "S11001",
+      "unit_id": "U35",
+      "french": "Attendez un moment.",
+      "english": "Hang on a moment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12620",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sak_sm",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11002",
+      "unit_id": "U35",
+      "french": "Qu'est-ce que vous attendez ?",
+      "english": "What are you guys waiting for?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11702299",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11003",
+      "unit_id": "U35",
+      "french": "Attendez ici.",
+      "english": "Wait here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1845895",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "You guys wait here."
+      ]
+    },
+    {
+      "sentence_id": "S11004",
+      "unit_id": "U35",
+      "french": "Un moment, s'il vous plaît.",
+      "english": "Just one moment, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6044993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PERCE_NEIGE",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11005",
+      "unit_id": "U35",
+      "french": "Je vais noter ça.",
+      "english": "I'm going to write that down.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10960509",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11006",
+      "unit_id": "U35",
+      "french": "Attendez ici, s'il vous plaît.",
+      "english": "Please wait here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "427463",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Archibald",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11007",
+      "unit_id": "U35",
+      "french": "Ne m'attendez pas.",
+      "english": "Don't wait for me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "135130",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Cocorico",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S11008",
+      "unit_id": "U35",
+      "french": "Je sais qui vous attendez.",
+      "english": "I know who you're waiting for.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7853310",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S11001",
+      "position": 1,
+      "surface": "Attendez",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11001",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11001",
+      "position": 3,
+      "surface": "moment",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11002",
+      "position": 1,
+      "surface": "Qu'est-ce que",
+      "word_id": "W435",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11002",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11002",
+      "position": 3,
+      "surface": "attendez",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11003",
+      "position": 1,
+      "surface": "Attendez",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11003",
+      "position": 2,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11004",
+      "position": 1,
+      "surface": "Un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11004",
+      "position": 2,
+      "surface": "moment",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11004",
+      "position": 3,
+      "surface": "s'il vous plaît",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11005",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11005",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11005",
+      "position": 3,
+      "surface": "noter",
+      "word_id": "W840",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11005",
+      "position": 4,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11006",
+      "position": 1,
+      "surface": "Attendez",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11006",
+      "position": 2,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11006",
+      "position": 3,
+      "surface": "s'il vous plaît",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11007",
+      "position": 1,
+      "surface": "Ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11007",
+      "position": 2,
+      "surface": "m'",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11007",
+      "position": 3,
+      "surface": "attendez",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11007",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11008",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11008",
+      "position": 2,
+      "surface": "sais",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11008",
+      "position": 3,
+      "surface": "qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11008",
+      "position": 4,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S11008",
+      "position": 5,
+      "surface": "attendez",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A110031",
+      "sentence_id": "S11003",
+      "direction": "fr_to_en",
+      "answer": "You guys wait here.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
