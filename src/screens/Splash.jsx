@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { chooseCourse } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
-import { version } from '../lib/version.js'
+import { site, version } from '../lib/version.js'
 import { LETTERS, Letter, LetterStrokes, SushiMark, VIEW, splashViewBox } from './Logo.jsx'
 
 // Each letter is revealed by its own mask, which follows the same strokes.
@@ -68,7 +68,10 @@ export default function Splash({ onDone, choose = false }) {
         )}
       </div>
       {/* The version's name, lower left (Dan, 2026-11-11): which deploy this device is running. */}
-      <p data-version className="absolute bottom-[max(1rem,env(safe-area-inset-bottom))] left-[max(1rem,env(safe-area-inset-left))] text-base text-muted">Version {version.name}</p>
+      <div className="absolute bottom-[max(1rem,env(safe-area-inset-bottom))] left-[max(1rem,env(safe-area-inset-left))] flex items-center gap-2">
+        <p data-version className="text-base text-muted">Version {version.name}</p>
+        {site && <span data-site className="site-tag">{site}</span>}
+      </div>
     </div>
   )
 }

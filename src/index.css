@@ -127,6 +127,10 @@ input {
 button {
   touch-action: manipulation;
 }
+/* Word chips are dragged (chip drag and drop), so a finger on one must not pan the page. Unlayered, like the rule above. */
+button.chip-drag {
+  touch-action: none;
+}
 
 /* Keyboard focus is always visible (WCAG 2.4.7): a 3px ring outside the element, ink in light, light blue in dark. Mouse and touch
    don't show it. */
@@ -176,6 +180,22 @@ button {
   }
   /* Chips the typed letters still match (typing to pick chips): the orange edge of a selected item, no fill. */
   .chip-lit { border-color: var(--orange); }
+  /* Which site a build is on, beside the version name, on any site but main (version.js `site`). */
+  .site-tag { @apply rounded-md border-2 border-orange px-1.5 text-sm font-semibold text-orange; }
+  /* Chip drag and drop (Lesson.jsx useChipDrag): a press on a chip is the app's, not the page's (no scroll, no text
+     selection, no iOS callout), so a finger can drag it; the copy under the finger, the orange drop bar, and the
+     bank's outline when a drop there takes a chip out. */
+  .chip-drag { touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; cursor: grab; }
+  .chip-drag:disabled { cursor: default; }
+  .chip-dragging, .chip-dragging * { cursor: grabbing !important; user-select: none; -webkit-user-select: none; }
+  .chip-ghost {
+    position: fixed; left: 0; top: 0; z-index: 60; display: none; pointer-events: none; text-align: center;
+    border-color: var(--orange); box-shadow: 0 10px 24px rgb(0 0 0 / 0.22); will-change: transform;
+  }
+  .drop-marker {
+    position: absolute; display: none; width: 4px; margin-left: -2px; border-radius: 2px; background: var(--orange); pointer-events: none;
+  }
+  .drop-bank { outline: 3px dashed var(--orange); outline-offset: 6px; }
   /* Indicators stay quiet. Yellow, green and orange fills are for things you can act on. */
   .tag {
     @apply inline-flex items-center gap-1.5 rounded-md bg-line px-2 py-0.5 text-xs text-muted;

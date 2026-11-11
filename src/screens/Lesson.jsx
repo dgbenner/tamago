@@ -1,5 +1,7 @@
 import { explain } from '../lib/explain.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
+import { DRAG_START, applyDrop, dropIndex, markerAt } from '../lib/chipdrag.js'
 import { checkTyped, diffMarks, nearMiss } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
@@ -100,6 +102,8 @@ export default function Lesson({ session, content, settings, seenWords, cantList
     let start = null
     const onStart = (e) => {
       const t = e.touches[0]
+      // A press on a word chip is a drag (chip drag and drop), never this swipe.
+      if (e.target instanceof Element && e.target.closest('[data-drag-chip]')) { start = null; return }
       start = e.touches.length === 1 && t.clientX > window.innerWidth / 2 ? { x: t.clientX, y: t.clientY, at: Date.now() } : null
     }
     const onEnd = (e) => {
@@ -514,6 +518,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
   const free = q.chips ? q.chips.map((c, i) => i).filter((i) => !picked.includes(i)) : []
   const matching = (pre) => free.filter((i) => foldChip(q.chips[i]).startsWith(pre))
   const lit = typed ? new Set(matching(typed)) : new Set()
+  const drag = useChipDrag({ picked, setPicked, chips: q.chips, lang: q.lang === 'en' ? 'en' : TL, disabled: Boolean(result) || typing, onDrop: () => setTyped('') })
   useEffect(() => { setTyped('') }, [q.qid])
   useEffect(() => {
     if (typing || result || !q.chips) return undefined
@@ -555,17 +560,25 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
         <>
           {/* Your answer so far, then the word bank. Picking a word keeps keyboard focus in the bank (on the next word
               still there); removing one returns focus to the answer. */}
-          <div lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className="flex min-h-14 flex-wrap gap-2 border-b-2 border-line pb-2">
+          {/* Chips can also be dragged (drag and drop): from the bank into the answer at the marker, within the
+              answer to reorder, or back to the bank. Tapping and typing still pick; keyboard users pick and remove. */}
+          <div ref={drag.answerRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className={`relative flex min-h-14 flex-wrap gap-2 border-b-2 pb-2 ${drag.over === 'answer' ? 'border-orange' : 'border-line'}`}>
             {picked.map((chipIndex) => (
-              <button key={chipIndex} disabled={Boolean(result)} aria-label={`${q.chips[chipIndex]}, remove`} onClick={(e) => { focusNeighbour(e.currentTarget); setPicked(picked.filter((i) => i !== chipIndex)) }} className="chip">{q.chips[chipIndex]}</button>
+              <button key={chipIndex} data-drag-chip disabled={Boolean(result)} aria-label={`${q.chips[chipIndex]}, remove`} onPointerDown={(e) => drag.begin(e, chipIndex)}
+                onClick={(e) => { if (drag.ate()) return; focusNeighbour(e.currentTarget); setPicked(picked.filter((i) => i !== chipIndex)) }}
+                className={`chip chip-drag ${drag.chip === chipIndex ? 'opacity-30' : ''}`}>{q.chips[chipIndex]}</button>
             ))}
+            <span ref={drag.markerRef} aria-hidden="true" className="drop-marker" />
           </div>
-          <div lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label="Words to choose from" className="flex flex-wrap gap-2">
+          <div ref={drag.bankRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label="Words to choose from" className={`flex flex-wrap gap-2 rounded-xl ${drag.over === 'bank' ? 'drop-bank' : ''}`}>
             {q.chips.map((chip, i) => (
-              <button key={i} disabled={picked.includes(i) || Boolean(result)} onClick={(e) => { focusNeighbour(e.currentTarget); setTyped(''); setPicked([...picked, i]) }} className={`chip ${picked.includes(i) ? 'opacity-25' : ''} ${lit.has(i) ? 'chip-lit' : ''}`}>{chip}</button>
+              <button key={i} data-drag-chip disabled={picked.includes(i) || Boolean(result)} onPointerDown={(e) => drag.begin(e, i)}
+                onClick={(e) => { if (drag.ate()) return; focusNeighbour(e.currentTarget); setTyped(''); setPicked([...picked, i]) }}
+                className={`chip chip-drag ${picked.includes(i) || drag.chip === i ? 'opacity-25' : ''} ${lit.has(i) ? 'chip-lit' : ''}`}>{chip}</button>
             ))}
           </div>
-          <p role="status" className="min-h-5 text-sm text-muted">{typed ? `Typed “${typed}”: ${lit.size} words match. Keep typing, or press Space for the exact word.` : ''}</p>
+          {drag.ghost}
+          <p role="status" className="min-h-5 text-sm text-muted">{typed ? `Typed “${typed}”: ${lit.size} words match. Keep typing, or press Space for the exact word.` : drag.said}</p>
         </>
       )}
       {/* One place for Check (craft review, fix 2): the check-row sits under the answer area; on a phone with
@@ -580,6 +593,123 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
       )}
     </>
   )
+}
+
+// Drag and drop for word chips (Dan, 2026-11-11), with a mouse, a finger or a pen (pointer events). A press that
+// travels DRAG_START px becomes a drag: a copy of the chip follows the pointer, an orange bar marks where it will
+// land in the answer, and the bank lights when a drop there would take the chip out. Letting go elsewhere puts
+// everything back. A drag never counts as a tap (`ate`). Moves go straight to the DOM, not through React, so the
+// copy keeps up with the finger.
+function useChipDrag({ picked, setPicked, chips, lang, disabled, onDrop }) {
+  const answerRef = useRef(null), bankRef = useRef(null), markerRef = useRef(null), ghostRef = useRef(null)
+  const live = useRef(null) // the press or drag under way
+  const eat = useRef(0) // when a drag ended: the click that follows it is not a tap (a new press clears it)
+  const [chip, setChip] = useState(null) // the chip being dragged, faded where it was
+  const [over, setOver] = useState(null) // 'answer' or 'bank' while a drop there would do something
+  const [said, setSaid] = useState('') // what the last drop did, for screen readers
+  const state = useRef({ picked, disabled })
+  state.current = { picked, disabled }
+
+  const inside = (el, x, y, pad) => {
+    if (!el) return false
+    const r = el.getBoundingClientRect()
+    return x >= r.left - pad && x <= r.right + pad && y >= r.top - pad && y <= r.bottom + pad
+  }
+  const answerRects = (except) => [...(answerRef.current?.querySelectorAll('[data-drag-chip]') ?? [])]
+    .filter((el) => el !== except).map((el) => el.getBoundingClientRect())
+  // Where a drop at (x, y) would go, and the marker for it.
+  const target = (d, x, y) => {
+    if (inside(answerRef.current, x, y, 24)) {
+      const rects = answerRects(d.from === 'answer' ? d.el : null)
+      return { zone: 'answer', index: dropIndex(rects, x, y), rects }
+    }
+    if (d.from === 'answer' && inside(bankRef.current, x, y, 16)) return { zone: 'bank' }
+    return null
+  }
+  const showMarker = (t) => {
+    const m = markerRef.current
+    if (!m) return
+    if (t?.zone !== 'answer') { m.style.display = 'none'; return }
+    const box = answerRef.current.getBoundingClientRect()
+    const at = markerAt(t.rects, t.index, box)
+    Object.assign(m.style, { display: 'block', left: `${at.left}px`, top: `${at.top}px`, height: `${at.height}px` })
+  }
+  const end = () => {
+    const d = live.current
+    live.current = null
+    window.removeEventListener('pointermove', move)
+    window.removeEventListener('pointerup', up)
+    window.removeEventListener('pointercancel', cancel)
+    if (d?.active) {
+      eat.current = Date.now()
+      document.documentElement.classList.remove('chip-dragging')
+      if (ghostRef.current) ghostRef.current.style.display = 'none'
+      showMarker(null)
+      setChip(null)
+      setOver(null)
+    }
+    return d
+  }
+  function move(e) {
+    const d = live.current
+    if (!d || e.pointerId !== d.pointerId) return
+    if (!d.active) {
+      if (Math.hypot(e.clientX - d.x, e.clientY - d.y) < DRAG_START) return
+      d.active = true
+      const r = d.el.getBoundingClientRect()
+      d.offX = d.x - r.left
+      // On a touch screen the copy rides a little above the fingertip, so the finger doesn't hide the word.
+      d.offY = d.y - r.top + (d.touch ? 28 : 0)
+      const g = ghostRef.current
+      if (g) {
+        // The copy takes the chip's own size and type (lesson chips are larger on wide screens).
+        const cs = getComputedStyle(d.el)
+        g.textContent = chips[d.chip]
+        Object.assign(g.style, { width: `${r.width}px`, height: `${r.height}px`, fontSize: cs.fontSize, lineHeight: `${r.height - 8}px`, display: 'block' })
+      }
+      document.documentElement.classList.add('chip-dragging')
+      setChip(d.chip)
+    }
+    e.preventDefault()
+    if (ghostRef.current) ghostRef.current.style.transform = `translate(${e.clientX - d.offX}px, ${e.clientY - d.offY}px) scale(1.06)`
+    const t = target(d, e.clientX, e.clientY)
+    showMarker(t)
+    const zone = t?.zone ?? null
+    if (zone !== d.zone) { d.zone = zone; setOver(zone) }
+  }
+  function up(e) {
+    const d = live.current
+    if (!d || e.pointerId !== d.pointerId) return
+    if (!d.active) { end(); return }
+    const t = target(d, e.clientX, e.clientY)
+    end()
+    if (!t || state.current.disabled) return
+    const before = state.current.picked
+    const next = applyDrop(before, d.chip, t)
+    if (next.join() === before.join()) return
+    dropped.current = next
+    setPicked(next)
+    onDrop?.()
+    const word = chips[d.chip]
+    setSaid(t.zone === 'bank' ? `${word} taken out.` : `${word} placed, word ${next.indexOf(d.chip) + 1} of ${next.length}.`)
+  }
+  function cancel(e) { if (live.current && e.pointerId === live.current.pointerId) end() }
+  const begin = (e, i) => {
+    eat.current = 0
+    if (state.current.disabled || e.button !== 0 || live.current) return
+    const from = answerRef.current?.contains(e.currentTarget) ? 'answer' : 'bank'
+    live.current = { chip: i, from, el: e.currentTarget, pointerId: e.pointerId, touch: e.pointerType === 'touch', x: e.clientX, y: e.clientY, active: false, zone: null }
+    window.addEventListener('pointermove', move, { passive: false })
+    window.addEventListener('pointerup', up)
+    window.addEventListener('pointercancel', cancel)
+  }
+  // The announcement is for the drop that made this answer; a tap or typed pick after it clears it.
+  const dropped = useRef(null)
+  useEffect(() => { if (dropped.current !== picked) setSaid('') }, [picked])
+  useEffect(() => () => { end() }, [])
+  useEffect(() => { if (disabled) end() }, [disabled])
+  const ghost = typeof document === 'undefined' ? null : createPortal(<div ref={ghostRef} aria-hidden="true" lang={lang} className="chip chip-ghost" />, document.body)
+  return { answerRef, bankRef, markerRef, begin, chip, over, said, ghost, ate: () => { const was = eat.current && Date.now() - eat.current < 1000; eat.current = 0; return was } }
 }
 
 // A button that's about to go away or be disabled hands keyboard focus to the next usable button in its group (or the
