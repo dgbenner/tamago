@@ -11,6 +11,7 @@ import Lesson from './screens/Lesson.jsx'
 import Settings from './screens/Settings.jsx'
 import About from './screens/About.jsx'
 import Splash from './screens/Splash.jsx'
+import { version } from './lib/version.js'
 import GrammarNote from './screens/GrammarNote.jsx'
 import Progress from './screens/Progress.jsx'
 import Glossary from './screens/Glossary.jsx'
@@ -1011,7 +1012,7 @@ export default function App() {
     ...(shownPart === lastPart ? [{ beforeRow: rowNumbers.at(-1) + 1, label: 'A2' }] : []),
   ] : []
   return (
-    <Home rows={rows} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
+    <Home versionLine={settings.developer !== 'off' ? `Version ${version.name}` : ''} rows={rows} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
       streakLine={showStreaks ? [streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ') : ''}
       onProgress={() => setScreen('progress')}
       tools={[

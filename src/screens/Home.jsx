@@ -404,7 +404,7 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
+export default function Home({ wide, versionLine, panel, rows, markers, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
   finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
@@ -502,6 +502,9 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
           </button>
           <button onClick={onNext} className="btn-submit">{nextLabel}</button>
         </div>
+        {/* The version's name on home too (Dan, 2026-11-11): after an update the page reloads straight here, so the
+            opening screen alone never shows a new name on its first load. Developer setting on only. */}
+        {versionLine && <p data-version className="-mt-1 text-sm text-muted">{versionLine}</p>}
       </div>
 
       </div>
