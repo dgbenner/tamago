@@ -227,21 +227,21 @@ function PartEnd({ part, onReview, onPartView, onJumpPart }) {
       )}
       {/* The end of the part: a plain line (Dan, 2026-11-11). */}
       <li className="w-full" aria-hidden="true"><span className="block h-0.5 w-full bg-line" /></li>
-      {part.upcoming?.length > 0 && <li className="w-full"><PartCarousel part={part} onJumpPart={onJumpPart} /></li>}
+      {part.cards?.length > 1 && <li className="w-full"><PartCarousel key={part.n} part={part} onJumpPart={onJumpPart} /></li>}
     </>
   )
 }
-// The parts still ahead, as a carousel (Dan, 2026-11-11): one card on screen, left and right arrows, a swipe, or the
+// Every part, as a carousel (Dan, 2026-11-11): it opens on the part after this one and steps back to earlier ones; one card on screen, left and right arrows, a swipe, or the
 // arrow keys while it has focus. Each card: the part's title, summary and whether it's open. With Testing Shortcuts
 // on, each card also has Dev: Jump Here. The tree's own test shortcuts ignore arrows and swipes in here.
 function PartCarousel({ part, onJumpPart }) {
-  const cards = part.upcoming
-  const [at, setAt] = useState(0)
+  const cards = part.cards
+  const [at, setAt] = useState(part.start)
   const i = Math.min(at, cards.length - 1)
   const go = (d) => setAt((x) => Math.max(0, Math.min(cards.length - 1, Math.min(x, cards.length - 1) + d)))
   const swipe = useRef(null)
   return (
-    <section data-carousel aria-roledescription="carousel" aria-label="Parts still ahead"
+    <section data-carousel aria-roledescription="carousel" aria-label="Parts"
       onKeyDown={(e) => {
         if (e.target.closest('button[data-jump]')) return
         if (e.key === 'ArrowRight') { e.preventDefault(); e.stopPropagation(); go(1) }
@@ -365,16 +365,17 @@ function Tools({ tools }) {
 // The right-hand panel on a wide screen: each tool with a line on what it's for; a tool opens here, in place.
 function ToolMenu({ tools }) {
   return (
-    <nav aria-label="Tools" className="flex flex-col gap-2">
+    // Every card the height of the tallest, evenly spaced; each line at most 80% of the card's width (Dan, 2026-11-11).
+    <nav aria-label="Tools" className="grid auto-rows-fr gap-2">
       {tools.map((t) => {
         const Icon = TOOL_ICONS[t.id]
         return (
-          <button key={t.id} onClick={t.onOpen} className={`flex items-start gap-3 rounded-xl border-2 p-3 text-left hover:border-muted ${t.quiet ? 'mt-3 border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface'}`}>
+          <button key={t.id} onClick={t.onOpen} className={`@container flex items-start gap-3 rounded-xl border-2 p-3 text-left hover:border-muted ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface'}`}>
             <span className={`mt-0.5 shrink-0 [&_svg]:size-6 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
             {/* Developer: tiny type at half strength, like the carousel's dev jump. */}
             <span className="flex flex-col gap-0.5">
               <span className={t.quiet ? 'dev-tiny font-semibold' : 'font-semibold'}>{t.label}</span>
-              <span className={t.quiet ? 'dev-tiny' : 'text-sm text-muted'}>{t.about}</span>
+              <span className={`max-w-[80cqw] ${t.quiet ? 'dev-tiny' : 'text-sm text-muted'}`}>{t.about}</span>
             </span>
           </button>
         )
