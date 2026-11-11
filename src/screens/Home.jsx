@@ -308,7 +308,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
 
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
       {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
-      <ol className="home-tree flex flex-1 flex-col items-center gap-y-[2.7rem] pt-0 pb-24 lg:[&>li]:[zoom:1.11]">
+      <ol className="home-tree flex flex-1 flex-col items-center gap-y-[2.7rem] pt-[1.9rem] pb-24 lg:[&>li]:[zoom:1.11]">
         {rows.map((row, i) => {
           const n = row.row ?? i + 1 // the row's own number, not its place in the list
           const cp = checkpoints.find((x) => x.afterRow === n)

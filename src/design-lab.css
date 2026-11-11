@@ -8,7 +8,7 @@
   --lab-hdr-pt: 2.5px; --lab-hdr-pb: 0px;
   --lab-brand-x: 0px; --lab-brand-y: 0px; --lab-brand-scale: 1; --lab-brand-sushi: 37px; --lab-brand-sushi-y: 0px; --lab-brand-wordmark: 92px; --lab-brand-gap: 8.5px;
   --lab-tools-x: 0px; --lab-tools-y: 0px; --lab-tools-scale: 1; --lab-tools-flag: 34px; --lab-tools-gear: 24px; --lab-tools-gap: -6px;
-  --lab-tree-gap: 46px; --lab-tree-row-gap: 83px; --lab-circle-scale: 1.11; --lab-tree-top: 0px;
+  --lab-tree-gap: 46px; --lab-tree-row-gap: 83px; --lab-circle-scale: 1.11; --lab-tree-top: 32px;
 }
 
 /* Opening screen */
@@ -34,7 +34,8 @@
 
 /* Home header */
 .home-header { padding-top: var(--lab-hdr-pt); padding-bottom: var(--lab-hdr-pb); }
-.hdr-brand { transform: translate(var(--lab-brand-x), var(--lab-brand-y)) scale(var(--lab-brand-scale)); transform-origin: left center; gap: var(--lab-brand-gap); }
+.hdr-brand { transform: translate(var(--lab-brand-x), var(--lab-brand-y)) scale(var(--lab-brand-scale)); transform-origin: left center; gap: 0; }
+.hdr-wordmark { margin-left: var(--lab-brand-gap); } /* a margin, not a gap, so it can go negative and tuck the sushi under the T */
 .hdr-sushi { width: var(--lab-brand-sushi); transform: translateY(var(--lab-brand-sushi-y)); }
 .hdr-wordmark svg { width: var(--lab-brand-wordmark); }
 .hdr-lang, .hdr-gear { transform: translate(var(--lab-tools-x), var(--lab-tools-y)) scale(var(--lab-tools-scale)); transform-origin: right center; }
