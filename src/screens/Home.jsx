@@ -288,7 +288,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
           <button onClick={() => setLanguages(true)} aria-label={`Language: ${course.name}`} className="icon-btn -ml-2 lg:ml-0"><img src={course.flag} alt="" className="h-8 w-8 object-contain" /></button>
         </span>
         <span className="hdr-brand flex items-center gap-2 lg:order-1 lg:mr-auto lg:ml-px lg:gap-[0.44rem]">
-          <SushiMark className="hdr-sushi relative hidden w-11 lg:block lg:w-[2.18rem] lg:-top-[0.18rem]" />
+          <SushiMark className="hdr-sushi relative hidden w-11 lg:block lg:w-[2.18rem] lg:-top-[0.12rem]" />
           <LogoInline className="hdr-wordmark" />
         </span>
         <span className="hdr-gear flex w-20 justify-end lg:order-3 lg:w-auto lg:-ml-[0.35rem] lg:-translate-x-px"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
