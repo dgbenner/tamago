@@ -13,6 +13,7 @@ try {
 } catch { /* private mode */ }
 
 const STORE = 'tamago-design-lab'
+const BAKE = 5 // bump on every bake: stored sliders from an older bake are dropped, so they never stack on the new live values
 
 // Every control: key (the CSS variable is --lab-<key>), label, range, unit and the live app's current value as default.
 // Root font is 17px on desktop, so rem values are given here in px at that size.
@@ -63,7 +64,7 @@ const SECTIONS = [
         { key: 'brand-sushi', label: 'Sushi width', min: 16, max: 140, step: 1, unit: 'px', def: 37 },
         { key: 'brand-sushi-y', label: 'Sushi up / down', min: -40, max: 40, step: 1, unit: 'px', def: 0 },
         { key: 'brand-wordmark', label: 'Wordmark width', min: 40, max: 300, step: 1, unit: 'px', def: 92 },
-        { key: 'brand-gap', label: 'Sushi to wordmark', min: -20, max: 60, step: 1, unit: 'px', def: 7.5 },
+        { key: 'brand-gap', label: 'Sushi to wordmark', min: 0, max: 60, step: 1, unit: 'px', def: 8.5 },
       ] },
       { title: 'Right: flag and gear', controls: [
         { key: 'tools-x', label: 'Left / right', min: -300, max: 100, step: 1, unit: 'px', def: 0 },
@@ -71,7 +72,7 @@ const SECTIONS = [
         { key: 'tools-scale', label: 'Scale (both)', min: 0.4, max: 2.5, step: 0.01, unit: '', def: 1 },
         { key: 'tools-flag', label: 'Flag size', min: 16, max: 80, step: 1, unit: 'px', def: 34 },
         { key: 'tools-gear', label: 'Gear size', min: 16, max: 80, step: 1, unit: 'px', def: 24 },
-        { key: 'tools-gap', label: 'Flag to gear', min: -20, max: 80, step: 1, unit: 'px', def: 6.8 },
+        { key: 'tools-gap', label: 'Flag to gear', min: -20, max: 80, step: 1, unit: 'px', def: -6 },
       ] },
     ],
   },
@@ -79,10 +80,10 @@ const SECTIONS = [
     title: 'Tree',
     groups: [
       { title: 'Circles', controls: [
-        { key: 'tree-gap', label: 'Vertical spacing (between rows)', min: 0, max: 260, step: 1, unit: 'px', def: 102 },
-        { key: 'tree-row-gap', label: 'Sideways spacing (within a row)', min: 0, max: 120, step: 1, unit: 'px', def: 17 },
-        { key: 'circle-scale', label: 'Circle scale (title scales with it)', min: 0.4, max: 2.2, step: 0.01, unit: '', def: 1 },
-        { key: 'tree-top', label: 'Space above the tree', min: 0, max: 160, step: 1, unit: 'px', def: 4.25 },
+        { key: 'tree-gap', label: 'Vertical spacing (between rows)', min: 0, max: 260, step: 1, unit: 'px', def: 46 },
+        { key: 'tree-row-gap', label: 'Sideways spacing (within a row)', min: 0, max: 160, step: 1, unit: 'px', def: 83 },
+        { key: 'circle-scale', label: 'Circle scale (title scales with it)', min: 0.4, max: 2.2, step: 0.01, unit: '', def: 1.11 },
+        { key: 'tree-top', label: 'Space above the tree', min: 0, max: 160, step: 1, unit: 'px', def: 0 },
       ] },
     ],
   },
@@ -90,7 +91,7 @@ const SECTIONS = [
 const ALL = SECTIONS.flatMap((s) => s.groups.flatMap((g) => g.controls))
 const DEFAULTS = Object.fromEntries(ALL.map((c) => [c.key, c.def]))
 
-const load = () => { try { return { ...DEFAULTS, ...JSON.parse(localStorage.getItem(STORE) ?? '{}') } } catch { return { ...DEFAULTS } } }
+const load = () => { try { const saved = JSON.parse(localStorage.getItem(STORE) ?? '{}'); return saved.bake === BAKE ? { ...DEFAULTS, ...saved.values } : { ...DEFAULTS } } catch { return { ...DEFAULTS } } }
 const apply = (values) => {
   const root = document.documentElement
   for (const c of ALL) root.style.setProperty(`--lab-${c.key}`, `${values[c.key]}${c.unit}`)
@@ -121,7 +122,7 @@ function Panel({ splash, setSplash }) {
   const [side, setSide] = useState('right')
   const [theme, setTheme] = useState(() => document.documentElement.dataset.theme ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'))
   const [copied, setCopied] = useState(false)
-  useEffect(() => { apply(values); try { localStorage.setItem(STORE, JSON.stringify(values)) } catch { /* */ } }, [values])
+  useEffect(() => { apply(values); try { localStorage.setItem(STORE, JSON.stringify({ bake: BAKE, values })) } catch { /* */ } }, [values])
   useEffect(() => { document.documentElement.dataset.theme = theme }, [theme])
   const set = (key, v) => setValues((s) => ({ ...s, [key]: v }))
   const changedOnly = Object.fromEntries(ALL.filter((c) => values[c.key] !== c.def).map((c) => [c.key, `${values[c.key]}${c.unit}`]))
