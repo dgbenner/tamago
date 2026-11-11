@@ -7,7 +7,7 @@ import { gradesSection, redact } from '../src/lib/redact.js'
 test('redact blanks keys and tokens', () => {
   const samples = ['sk-ant-api03-AbC123xyz_456-defGHI', 'ghp_' + 'a1B2c3D4e5F6g7H8i9J0k1L2', 'AKIAABCDEFGHIJKLMNOP', 'TAMAGO_ANTHROPIC_API_KEY=sk-ant-zzzzzzzzzzzz', 'token: abcd1234efgh5678']
   for (const s of samples) assert.ok(redact(s).includes('[removed]'), s)
-  assert.equal(redact('Key tamago-cloudflare, stored as a Cloudflare Pages secret (TAMAGO_ANTHROPIC_API_KEY).'), 'Key tamago-cloudflare, stored as a Cloudflare Pages secret (TAMAGO_ANTHROPIC_API_KEY).')
+  assert.equal(redact('Key tamago-key, stored as a Cloudflare Pages secret (TAMAGO_ANTHROPIC_API_KEY).'), 'Key tamago-key, stored as a Cloudflare Pages secret (TAMAGO_ANTHROPIC_API_KEY).')
 })
 
 test('the documents shown hold nothing key-shaped', () => {

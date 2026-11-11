@@ -6,7 +6,7 @@ Kept under _source/autonomous-build.md. Newest phase first.
 
 **Built**
 
-- Netlify deploys paused at Dan's request (50% of monthly credits): `ignore = "exit 0"` in netlify.toml skips the build on every push. Verified: the live bundle stayed index-86-Nu7X1.js after pushes.
+- Netlify deploys paused at Dan's request: `ignore = "exit 0"` in netlify.toml skips the build on every push. Verified: the live bundle stayed index-86-Nu7X1.js after pushes.
 - Unit icons:
   - Dan's 35 sushi images are in _source/icons/{nigiri,maki,temaki}, with 192 px webp copies in public/icons. content/icons.json lists them.
   - scripts/assign-icons.mjs assigns by difficulty over the planned 13 A1 units: 5 nigiri, 4 maki, 4 temaki. Picks are random, used once before any repeat, and kept in content/unit-icons.json.
@@ -322,7 +322,7 @@ Accessibility:
 Developer Notes:
 - Bottom of Settings, collapsed; one collapsible item per document in Dan's order: craft-review.md, the newest _review Grades section, tamago-feature-list.md, question-types.md, build-phases.md, autonomous-build.md, test-notes.md, check-in.md. Rendered by marked at build time from an explicit file list (nothing else in _source is bundled), loaded only when opened; raw HTML shows as text; tables scroll inside their own box.
 - Setting dev_notes (Testing (For Dan)), default on; off hides the section. Turn the default off before testers, with test_shortcuts.
-- No secrets: src/lib/redact.js blanks key-shaped text (Anthropic, GitHub, AWS, Slack, JWT, long mixed tokens, key = value) and test/devnotes.test.js fails the suite if any shown document contains one. Today none does; check-in names the key (tamago-cloudflare) but holds no value.
+- No secrets: src/lib/redact.js blanks key-shaped text (Anthropic, GitHub, AWS, Slack, JWT, long mixed tokens, key = value) and test/devnotes.test.js fails the suite if any shown document contains one. Today none does; check-in names the key (the Tamago key) but holds no value.
 
 ## Content sweep (2026-11-10, overnight)
 
@@ -443,7 +443,7 @@ Part 3, Lingua Libre recordings:
 
 ## 2026-11-10: Picture Check
 
-- Dan's 39 pictures copied unchanged to _source/pictures/incoming-2026-11-10/ (Desktop originals left alone).
+- Dan's 39 pictures copied unchanged to _source/pictures/incoming-2026-11-10/ (originals left alone).
 - Matching: by file name first (none matched; ChatGPT titles), then by looking at each picture: all 39 Guessed,
   with notes where another row could fit (_source/pictures/picture-check.json).
 - scripts/picture-check.mjs: 480 px webp copies in public/picture-check/ (588 KB), excluded from the service worker
@@ -529,7 +529,7 @@ Part 3, Lingua Libre recordings:
 
 ## 2026-11-10: Pictures, second batch
 
-- 40 files from Desktop/more images copied to _source/pictures/incoming-2026-11-10b; mapped in picture-check.json (decision use); image-list ES map gains famille, bébé, hommes, sucre, thé, chocolat, chanteur. French 74 words with Dan's pictures, Spanish 56; 26 rows left.
+- 40 files from Dan's "more images" folder copied to _source/pictures/incoming-2026-11-10b; mapped in picture-check.json (decision use); image-list ES map gains famille, bébé, hommes, sucre, thé, chocolat, chanteur. French 74 words with Dan's pictures, Spanish 56; 26 rows left.
 
 ## 2026-11-10: Spanish trust-rule candidates
 

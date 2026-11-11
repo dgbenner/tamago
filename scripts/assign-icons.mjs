@@ -20,6 +20,8 @@ const A1_PLAN = Array.from({ length: { es: 15, de: 15 }[COURSE] ?? 13 }, (_, i) 
 const third = Math.ceil(A1_PLAN.length / 3)
 const groupOf = (i) => (i < third ? 'nigiri' : i < A1_PLAN.length - Math.floor(A1_PLAN.length / 3) ? 'maki' : 'temaki')
 
+// A kept pick whose picture is no longer in the pool (held out of the repo) is picked again.
+for (const [id, k] of Object.entries(kept)) if (!(pools[k.group] ?? []).some((x) => x.file === k.file)) delete kept[id]
 const pick = (group, taken) => {
   const list = pools[group] ?? []
   if (!list.length) return null
@@ -35,7 +37,8 @@ A1_PLAN.forEach((id, i) => {
   if (file) kept[id] = { group, file }
 })
 // The Asking for Help thread (2026-11-10) has a look of its own in every course: the three gunkan, in order.
-for (const [id, file] of [['U31', 'ikura.webp'], ['U32', 'tobiko.webp'], ['U33', 'uni.webp']]) kept[id] = { group: 'maki', file }
+// (The gunkan they first wore are held out of the repo until their source is confirmed, 2026-11-10: the three rolls.)
+for (const [id, file] of [['U31', 'glossy-california-roll-emoji-7.webp'], ['U32', 'glossy-salmon-avocado-sushi-roll-6.webp'], ['U33', 'glossy-tuna-maki-sushi-roll-5.webp']]) kept[id] = { group: 'maki', file }
 // Side icons for nodes outside the path, once there is side art.
 for (const id of ['U100', 'checkpoint_2', 'checkpoint_3', 'make']) {
   if (kept[id] || !(pools.sides ?? []).length) continue

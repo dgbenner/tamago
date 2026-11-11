@@ -123,5 +123,5 @@ These hold for every AI below, and for the app itself.
 ## When something goes wrong
 
 - A learner flags a question or an answer; Dan reviews the flags, and accepted answers fold into the content.
-- The key expires on January 2, 2027, and the free credit ends November 20, 2026. Either way, all three Claude
+- If the key lapses or the monthly cap is reached, all three Claude
   features switch off quietly and the rest of the app works as before.

@@ -25,7 +25,7 @@ function States() {
     <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-7">
       {STATES.map((s) => (
         <li key={s.label} className="flex flex-col items-center gap-2 rounded-xl border-2 border-line bg-surface p-3 text-center">
-          <CircleNode title="Saying Hello" icon={icon('nigiri', 'aji.webp')} lessonsTotal={TOTAL} {...s.props} />
+          <CircleNode title="Saying Hello" icon={icon('nigiri', 'glossy-salmon-nigiri-sushi-3.webp')} lessonsTotal={TOTAL} {...s.props} />
           <p className="font-semibold">{s.label}</p>
           <p className="text-sm text-muted">{s.note}</p>
         </li>
@@ -41,7 +41,7 @@ function Live() {
   return (
     <div className="flex flex-col items-center gap-4 rounded-xl border-2 border-line bg-surface p-5 sm:flex-row sm:items-start sm:gap-8">
       <div className="flex flex-col items-center gap-2">
-        <CircleNode title="Saying Hello" icon={icon('nigiri', 'aji.webp')} marker={firstCircleMarker(done)} {...props} />
+        <CircleNode title="Saying Hello" icon={icon('nigiri', 'glossy-salmon-nigiri-sushi-3.webp')} marker={firstCircleMarker(done)} {...props} />
         <p className="text-sm" role="status">{circleLine(props)}</p>
       </div>
       <div className="flex w-full max-w-sm flex-col gap-4">
@@ -57,7 +57,7 @@ function Live() {
 
 // A short tree: the same rows as home (one, then pairs), a checkpoint after the second row.
 const TREE = [
-  [{ title: 'Saying Hello', icon: icon('nigiri', 'aji.webp'), lessonsDone: TOTAL, recall: 0.95 }],
+  [{ title: 'Saying Hello', icon: icon('nigiri', 'glossy-salmon-nigiri-sushi-3.webp'), lessonsDone: TOTAL, recall: 0.95 }],
   [{ title: 'People and Things', icon: icon('nigiri', 'amaebi.webp'), lessonsDone: TOTAL, recall: 0.9 }, { title: 'Polite Phrases', icon: icon('nigiri', 'anago.webp'), lessonsDone: TOTAL, recall: 0.55 }],
   'checkpoint',
   [{ title: 'Food and Drink', icon: icon('nigiri', 'chutoro.webp'), lessonsDone: 8, recall: 0.85 }, { title: 'Pets and Animals', icon: icon('maki', 'glossy-california-roll-emoji-7.webp'), lessonsDone: 0 }],
