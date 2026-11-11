@@ -23,8 +23,12 @@ import image_set from '../content-de/image_set.json'
 import a1_list from '../content-de/a1_list.json'
 import parts from '../content-de/parts.json'
 import a1_tasks from '../content-de/a1_tasks.json'
+import a1_texts from '../content-de/a1_texts.json'
+import a1_forms from '../content-de/a1_forms.json'
+import a1_prompts from '../content-de/a1_prompts.json'
+import a1_listen from '../content-de/a1_listen.json'
 
 export const tables = {
-  units, sentences, words, sentence_words, accepted_answers, question_types, variants, rounds, tree_layout, grammar_notes, image_set, can_do, conjugations, a1_list, parts, a1_tasks,
+  units, sentences, words, sentence_words, accepted_answers, question_types, variants, rounds, tree_layout, grammar_notes, image_set, can_do, conjugations, a1_list, parts, a1_tasks, a1_texts, a1_forms, a1_prompts, a1_listen,
   round_type_mix, phase1_fallbacks, cant_swaps, flag_reasons, settings_defaults, qa_answers, feedback_phrases,
 }

@@ -136,7 +136,7 @@ function ResetProgress() {
   )
 }
 
-export default function Developer({ settings, onChange, snapshot, onBack, onVariants, onFlags, onNativeCheck, onForum }) {
+export default function Developer({ settings, onChange, snapshot, onBack, onVariants, onFlags, onNativeCheck, onForum, onTryA1 }) {
   const [lib, setLib] = useState(null)
   const loadLib = () => import('../lib/devnotes.js').then((l) => { setLib(l); return l })
   const docFor = (id) => lib?.DOCS.find((d) => d.id === id) ?? { id, title: TITLES.find((t) => t[0] === id)[1] }
@@ -159,6 +159,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
           <button onClick={onFlags} className="btn-secondary">Flag Review</button>
           <button onClick={onNativeCheck} className="btn-secondary">Native-Speaker Check</button>
           <button onClick={onForum} className="btn-secondary">Forum</button>
+          <button onClick={onTryA1} className="btn-secondary sm:col-span-2">Try the A1 Task Types</button>
         </div>
         <ResetProgress />
       </section>

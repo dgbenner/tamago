@@ -51,6 +51,22 @@ export function addA1Plan(wb, XLSX, lang) {
   }
   put('parts', PARTS[lang])
   put('a1_tasks', A1_TASKS.map(([task_id, task]) => ({ task_id, task })))
+  // The A1 task question types' items (QT14 to QT17), empty until the parts write them. One row per item, tied to a
+  // circle; questions and fields as JSON in a cell.
+  const tab = (n, cols) => { if (!wb.SheetNames.includes(n)) { wb.SheetNames.push(n); wb.Sheets[n] = XLSX.utils.aoa_to_sheet([cols]) } }
+  tab('a1_texts', ['id', 'unit_id', 'kind', 'title', 'lines', 'questions_json', 'source', 'status', 'notes'])
+  tab('a1_forms', ['id', 'unit_id', 'card', 'fields_json', 'status', 'notes'])
+  tab('a1_prompts', ['id', 'unit_id', 'prompt', 'points', 'min_words', 'max_words', 'status', 'notes'])
+  tab('a1_listen', ['id', 'unit_id', 'kind', 'say', 'answer', 'status', 'notes'])
+  // The four types join the question_types tab (their logic: src/lib/a1types.js).
+  const qt = XLSX.utils.sheet_to_json(wb.Sheets.question_types, { defval: '' }).filter((q) => !['QT14', 'QT15', 'QT16', 'QT17'].includes(q.type_id))
+  qt.push(
+    { type_id: 'QT14', key: 'read_text', name: 'Read a short text and answer', skill: 'reading', recognition_or_recall: 'recognition', input: 'choice', needs_audio: 'no', needs_image: 'no', first_round: 2, last_round: 5, notes: 'A menu, sign, timetable or message from known words, then 2 to 3 questions (A1 Complete)' },
+    { type_id: 'QT15', key: 'fill_form', name: 'Fill in a form', skill: 'writing', recognition_or_recall: 'recall', input: 'fields', needs_audio: 'no', needs_image: 'no', first_round: 3, last_round: 5, notes: 'Name, age, address, nationality, phone from a short card; checked by rules (A1 Complete)' },
+    { type_id: 'QT16', key: 'write_message', name: 'Write a short message', skill: 'writing', recognition_or_recall: 'recall', input: 'text', needs_audio: 'no', needs_image: 'no', first_round: 4, last_round: 5, notes: 'Claude gives feedback on meaning, grammar and missing points; not scored; counts as done (A1 Complete)' },
+    { type_id: 'QT17', key: 'listen_number', name: 'Listen and write the number', skill: 'listening', recognition_or_recall: 'recall', input: 'typed', needs_audio: 'yes', needs_image: 'no', first_round: 2, last_round: 5, notes: 'Number, price, time or date; checked as a value, not text; read instead with Can\'t Listen Now (A1 Complete)' },
+  )
+  wb.Sheets.question_types = XLSX.utils.json_to_sheet(qt)
   const units = XLSX.utils.sheet_to_json(wb.Sheets.units, { defval: '' }).map((u) => ({ ...u, part: u.part || 1, tasks: UNIT_TASKS[u.unit_id] ?? u.tasks ?? '' }))
   wb.Sheets.units = XLSX.utils.json_to_sheet(units)
 }

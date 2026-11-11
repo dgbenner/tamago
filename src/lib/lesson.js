@@ -1,8 +1,9 @@
+import { a1QuestionFor } from './a1types.js'
 // Builds lessons from content. Pure: no React, no storage, so it runs under node --test.
 // Rule numbers (R01...) refer to the workbook's lesson_rules tab.
 import { normalize } from './check.js'
 
-export const BUILT_TYPES = new Set(['QT01', 'QT02', 'QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT09', 'QT10', 'QT11', 'QT12', 'QT13'])
+export const BUILT_TYPES = new Set(['QT01', 'QT02', 'QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT09', 'QT10', 'QT11', 'QT12', 'QT13', 'QT14', 'QT15', 'QT16', 'QT17'])
 // Word to image needs at least 3 pictured words to choose between.
 const MIN_PICTURES = 3
 const pictured = (c) => c.words.filter((w) => w.image_file)
@@ -448,9 +449,13 @@ export function buildLesson(c, { round, seen = {}, known = new Set(), settings =
     if (slot.from !== assigned[i].type && (assigned[i].type === slot.type || slot.type === 'QT02')) assigned[i].swapped_from = slot.from
   })
 
+  // A1 Complete (2026-11-10): a circle with A1 task items (QT14 to QT17) gives one per lesson, mid-lesson.
+  const task = retry ? null : a1QuestionFor(c, unit_id, round, { seen: seen.sentences ?? {}, cantListen: settings.cantListen, rng })
+  if (task) assigned.splice(Math.floor(assigned.length / 2), 0, task)
+
   return {
     id: `L${Math.floor(rng() * 1e12)}`, kind: 'lesson', unit_id, round, started_at: Date.now(),
-    queue: assigned, size: assigned.length, graded: assigned.filter((q) => q.skill !== 'speaking').length,
+    queue: assigned, size: assigned.length, graded: assigned.filter((q) => q.skill !== 'speaking' && !q.ungraded).length,
     index: 0, firstCorrect: 0, firstWrong: 0, misses: [],
   }
 }
@@ -573,6 +578,8 @@ export function placementItems(unitContents, rng = Math.random) {
 // The current question is rebuilt even when its type stays (a Listen first one shows its French again).
 export function swapRemaining(c, session, { cantListen = false, cantSpeak = false }, rng = Math.random) {
   const queue = session.queue.map((q, i) => {
+    // A number heard (QT17) is read instead, the same question otherwise.
+    if (i >= session.index && q.type === 'QT17' && cantListen) return { ...q, readInstead: true, skill: 'reading' }
     if (i < session.index || !q.sentence_id) return q
     let type = q.type
     if (cantSpeak && q.speaking) type = swapRule(c, 'cant_speak_now', type, q.round)?.type ?? 'QT08'

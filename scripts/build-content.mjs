@@ -43,6 +43,16 @@ tables.tree_layout = raw('tree_layout')
 // A1 Complete (2026-11-10): the parts (one shown at a time on the tree) and the thirteen A1 tasks.
 tables.parts = (raw('parts') ?? []).map((p) => ({ ...p, part: Number(p.part) }))
 tables.a1_tasks = raw('a1_tasks') ?? []
+// The A1 task question types' items (QT14 to QT17): live rows, or rows of an approved circle; JSON cells parsed.
+{
+  const rawOr = (n) => { try { return raw(n) ?? [] } catch { return [] } }
+  const ok = (r) => !String(r.status).startsWith('off') && (String(r.status).startsWith('live') || decisions.units?.[r.unit_id]?.action === 'approve')
+  const json = (x, d) => { try { return x ? JSON.parse(x) : d } catch { bad.push(`A1 task item: bad JSON ${String(x).slice(0, 40)}`); return d } }
+  tables.a1_texts = rawOr('a1_texts').filter(ok).map((r) => ({ id: r.id, unit_id: r.unit_id, kind: r.kind, title: r.title, lines: String(r.lines).split('\n').filter(Boolean), questions: json(r.questions_json, []), source: r.source }))
+  tables.a1_forms = rawOr('a1_forms').filter(ok).map((r) => ({ id: r.id, unit_id: r.unit_id, card: r.card, fields: json(r.fields_json, []) }))
+  tables.a1_prompts = rawOr('a1_prompts').filter(ok).map((r) => ({ id: r.id, unit_id: r.unit_id, prompt: r.prompt, points: String(r.points).split(';').map((x) => x.trim()).filter(Boolean), min_words: Number(r.min_words) || 20, max_words: Number(r.max_words) || 40 }))
+  tables.a1_listen = rawOr('a1_listen').filter(ok).map((r) => ({ id: r.id, unit_id: r.unit_id, kind: r.kind, say: r.say, answer: String(r.answer) }))
+}
 
 // Sentences: live in the workbook and passed by the check, with the same source.
 // A pulled or drafted sentence ships once its unit is approved, unless Dan cut it.

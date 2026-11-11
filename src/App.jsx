@@ -26,6 +26,8 @@ import Listening from './screens/Listening.jsx'
 import Developer from './screens/Developer.jsx'
 import Conversation from './screens/Conversation.jsx'
 import { SCENES } from './lib/converse.js'
+import { makeA1Question } from './lib/a1types.js'
+import { A1_SAMPLES } from './dev/a1-samples.js'
 import { firstCircleMarker } from './screens/CircleNode.jsx'
 import { EXAMS, finalItems, finalLine, finalScores } from './lib/finalcheck.js'
 import { listeningFrom, requestGenerated, sentencesFrom } from './lib/generate.js'
@@ -496,8 +498,8 @@ export default function App() {
   const onAnswer = (q, result) => {
     const first = !q.reask
     put('attempts', {
-      attempt_id: uid(), lesson_id: session.id, sentence_id: q.sentence_id ?? q.word_ids.join(';'), type_id: q.type, variant_id: q.variant,
-      round: q.round, skill: result.hidden ? 'listening' : q.skill, first_attempt: first, correct: q.speaking ? null : result.correct, typo_accepted: Boolean(result.typo), graded: q.skill !== 'speaking', swapped_from: q.swapped_from ?? null, test_skip: Boolean(result.testSkip), answered_at: new Date().toISOString(),
+      attempt_id: uid(), lesson_id: session.id, sentence_id: q.sentence_id ?? q.item_id ?? q.word_ids.join(';'), type_id: q.type, variant_id: q.variant,
+      round: q.round, skill: result.hidden ? 'listening' : q.skill, first_attempt: first, correct: q.speaking || q.ungraded ? null : result.correct, typo_accepted: Boolean(result.typo), graded: q.skill !== 'speaking' && !q.ungraded, swapped_from: q.swapped_from ?? null, test_skip: Boolean(result.testSkip), answered_at: new Date().toISOString(),
     })
     for (const seg of q.segments ?? []) if (seg.word_id) seenWords.current.add(seg.word_id)
     for (const id of q.word_ids ?? []) seenWords.current.add(id)
@@ -513,16 +515,17 @@ export default function App() {
       putKv('skill_tally', t)
     }
     // First attempts rate the item on the FSRS schedule (placement excluded: it tests, it doesn't teach).
-    if (first && !q.speaking && !['placement', 'generated'].includes(session.kind)) {
+    // A1 task items (QT14 to QT17) have no card of their own; their sentences' words already do.
+    if (first && !q.speaking && !q.item_id && !['placement', 'generated'].includes(session.kind)) {
       setCards((cs) => { const next = rate(cs, q.sentence_id ?? q.word_ids[0], result); putKv('fsrs_cards', next); return next })
     }
-    if (first && !q.speaking && !result.testSkip && session.kind !== 'placement') noteWordMisses(q, result)
+    if (first && !q.speaking && !q.item_id && !result.testSkip && session.kind !== 'placement') noteWordMisses(q, result)
     let next = session
     if (session.kind === 'placement' && first) next = { ...next, placement: [...(next.placement ?? []), { unit_id: q.unit_id, correct: result.correct }] }
     // The final check scores each part from first attempts (speaking counted as done, never graded).
     if (first && q.part) next = { ...next, results: [...(next.results ?? []), { part: q.part, correct: Boolean(result.correct), speaking: Boolean(q.speaking) }] }
     // Speaking is never graded: it earns a point when done (R14) and stays out of the score and the pass.
-    if (q.speaking) {
+    if (q.speaking || q.ungraded) {
       addPoint()
       setSession(next)
       putKv('current_session', next)
@@ -535,11 +538,11 @@ export default function App() {
     }
     if (!result.correct) {
       // One re-ask only: a wrong re-ask shows the answer and the lesson moves on.
-      const reask = session.kind === 'lesson' && first
+      const reask = session.kind === 'lesson' && first && !q.item_id
         ? reaskFor(contentFor(session), q, { cantListen: lessonModes().cantListen, missedWord: result.missedWord, known: seenWords.current }) : null
       if (reask) next = { ...next, queue: [...next.queue, reask] }
       // Round 1 misses stay out of the bank, and so do misses in a placement or an "I can" check (they test, they don't teach).
-      if (q.round >= 2 && !['placement', 'check', 'generated', 'final'].includes(session.kind)) addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
+      if (q.round >= 2 && !q.item_id && !['placement', 'check', 'generated', 'final'].includes(session.kind)) addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
     }
     if (session.kind === 'review' && result.correct) {
       setBank((b) => b.flatMap((e) => {
@@ -620,7 +623,7 @@ export default function App() {
     const unitSeen = roundSeen.current[s.unit_id] ?? {}
     const seen = unitSeen[s.round] ?? { sentences: {}, words: {} }
     for (const q of s.queue.slice(0, s.size)) {
-      if (q.sentence_id) seen.sentences[q.sentence_id] = (seen.sentences[q.sentence_id] ?? 0) + 1
+      if (q.sentence_id || q.item_id) seen.sentences[q.sentence_id ?? q.item_id] = (seen.sentences[q.sentence_id ?? q.item_id] ?? 0) + 1
       for (const id of q.word_ids ?? []) seen.words[id] = (seen.words[id] ?? 0) + 1
     }
     roundSeen.current = { ...roundSeen.current, [s.unit_id]: { ...unitSeen, [s.round]: seen } }
@@ -646,7 +649,7 @@ export default function App() {
     if (!isOpen(unitId) || progressOf(unitId).round_reached >= 5) return
     const round = roundOf(unitId)
     const s = buildLesson(unitContent(unitId), { round, unit_id: unitId, seen: roundSeen.current[unitId]?.[round] ?? {}, known: seenWords.current, settings: lessonModes() })
-    const graded = s.queue.slice(0, s.size).filter((q) => !q.speaking).length
+    const graded = s.queue.slice(0, s.size).filter((q) => !q.speaking && !q.ungraded).length
     for (const q of s.queue.slice(0, s.size)) {
       for (const seg of q.segments ?? []) if (seg.word_id) seenWords.current.add(seg.word_id)
       for (const id of q.word_ids ?? []) seenWords.current.add(id)
@@ -844,6 +847,14 @@ export default function App() {
     // Course Snapshot: exact numbers for both courses, worked out from the content each ships (src/lib/snapshot.js).
     const snapshot = { built: new Date(__BUILD_TIME__).toLocaleString('en-US', { dateStyle: 'long', timeStyle: 'short' }), workbooks: __WORKBOOKS__ }
     return <Developer settings={settings} onChange={changeSettings} snapshot={snapshot} onBack={leaveDeveloper}
+      onTryA1={() => {
+        // The four A1 task types on samples (Developer only): a practice session, kept out of scores and review.
+        const sm = A1_SAMPLES[course.id]
+        const queue = ['QT14', 'QT15', 'QT17', 'QT16'].map((t) => makeA1Question(t, sm[t], 4, { cantListen: lessonModes().cantListen }))
+        const s = { id: `A${Date.now()}`, kind: 'generated', back: 'developer', started_at: Date.now(), queue, size: queue.length, graded: queue.filter((q) => !q.ungraded).length, index: 0, firstCorrect: 0, firstWrong: 0, misses: [], generated: { sentences: [], sentence_words: [] } }
+        generated.current.set(s.id, allContent)
+        begin(s)
+      }}
       onVariants={() => setScreen('variants')} onFlags={() => setScreen('flags')} onNativeCheck={() => setScreen('native')} onForum={() => setScreen('forum')} />
   }
   if (screen === 'profile') return <Profile profile={profile} onChange={(p) => { const n = { ...profile, ...p }; setProfile(n); putKv('profile', n) }} onBack={() => setScreen('settings')} />

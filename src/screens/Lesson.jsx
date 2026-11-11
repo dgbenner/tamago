@@ -6,10 +6,12 @@ import { useRecorder } from '../lib/recorder.js'
 import { play, stop } from '../lib/audio.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconSpeaker } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
+import { FormFill, ListenNumber, ReadText, WriteMessage } from './A1Tasks.jsx'
 
 const PROMPT = {
   QT01: 'Match the Pairs', QT02: 'Pick the Picture', QT10: 'Say It Aloud', QT13: 'Speak and Compare', QT03: 'Pick the Meaning', QT04: 'Pick What You Heard', QT05: 'Fill in the Blank', QT06: 'Translate',
   QT07: 'Tap What You Hear', QT08: 'Translate', QT09: 'Answer the Question', QT11: 'Type What You Hear', QT12: 'Translate',
+  QT14: 'Read and Answer', QT15: 'Fill In the Form', QT16: 'Write a Message', QT17: 'Write What You Hear',
 }
 const LISTENING = new Set(['QT04', 'QT07', 'QT11'])
 const LISTEN_FIRST = new Set(['QT03', 'QT06'])
@@ -20,6 +22,7 @@ const SHOWS_FRENCH = new Set(['QT01', 'QT02', 'QT03', 'QT05', 'QT06']) // the Ne
 function headingFor(q, { hideFrench, result, typing }) {
   if (hideFrench && !result) return q.type === 'QT03' ? 'Listen and Pick the Meaning' : 'Listen and Translate'
   if (q.type === 'QT07' && (typing || q.typed)) return 'Type What You Hear'
+  if (q.type === 'QT17' && q.readInstead) return 'Write the Number'
   return PROMPT[q.type]
 }
 
@@ -188,7 +191,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
 
 function Question({ q, ...rest }) {
   const typedOnly = Boolean(q.typed)
-  const C = typedOnly ? Typed : { QT01: MatchPairs, QT02: WordImage, QT10: Speak, QT13: Speak, QT03: PickMeaning, QT04: PickHeard, QT05: FillBlank, QT06: Build, QT07: Build, QT08: Build, QT09: Build, QT11: Typed, QT12: Typed }[q.type]
+  const C = typedOnly ? Typed : { QT01: MatchPairs, QT02: WordImage, QT10: Speak, QT13: Speak, QT03: PickMeaning, QT04: PickHeard, QT05: FillBlank, QT06: Build, QT07: Build, QT08: Build, QT09: Build, QT11: Typed, QT12: Typed, QT14: ReadText, QT15: FormFill, QT16: WriteMessage, QT17: ListenNumber }[q.type]
   return <C q={q} {...rest} />
 }
 
@@ -639,7 +642,7 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
     if (!good && result.given?.trim() && q.accepted?.length) explain(q, result.given).then((t) => live && setWhy(t))
     return () => { live = false }
   }, [])
-  const fallback = q.speaking ? 'Done.' : good ? 'Nice.' : 'Not quite.'
+  const fallback = q.speaking || q.ungraded ? 'Done.' : good ? 'Nice.' : 'Not quite.'
   return (
     <section aria-live="polite" data-outcome={good ? 'correct' : 'incorrect'} className={`fixed inset-x-0 bottom-0 z-20 border-t-2 bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${good ? 'border-right' : 'border-wrong'}`}>
       <div className="mx-auto flex max-w-md flex-col gap-3 px-4 pt-4 lg:max-w-2xl">

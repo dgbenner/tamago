@@ -60,6 +60,15 @@ const TURN = {
     done: { type: 'boolean', description: 'True when the scene has reached a natural end.' },
   },
 }
+const MESSAGE = {
+  type: 'object', additionalProperties: false, required: ['meaning', 'grammar', 'missing', 'better'],
+  properties: {
+    meaning: { type: 'string', description: 'One plain English sentence: does the message get its point across?' },
+    grammar: { type: 'array', items: { type: 'string' }, description: 'Up to 3 short English notes on mistakes, each quoting the words and the fix.' },
+    missing: { type: 'array', items: { type: 'string' }, description: 'Points of the task the message does not cover yet, in English.' },
+    better: { type: 'string', description: 'The message rewritten correctly in the course language, staying close to what the learner wrote.' },
+  },
+}
 const REVIEW = {
   type: 'object', additionalProperties: false, required: ['notes'],
   properties: { notes: { type: 'array', items: { type: 'object', additionalProperties: false, required: ['said', 'better', 'why'], properties: { said: { type: 'string' }, better: { type: 'string' }, why: { type: 'string' } } } } },
@@ -75,6 +84,25 @@ export async function handle(req, key) {
   let b
   try { b = await req.json() } catch { return json({ error: 'body' }, 400) }
   if (!LANG[b.lang]) return json({ error: 'lang' }, 400)
+  // QT16 (A1 Complete): notes on a short written message. Not scored; one call per message.
+  if (b.kind === 'message') {
+    const client = new Anthropic({ apiKey: key })
+    try {
+      const res = await client.messages.create({
+        model: MODEL, max_tokens: 1500,
+        output_config: { effort: 'low', format: { type: 'json_schema', schema: MESSAGE } },
+        system: `You read a short message an English speaker learning ${LANG[b.lang]} at CEFR A1 wrote for a task, and give brief, kind notes in plain English. No praise beyond a word, no grade, no markdown. Judge only against A1: simple sentences are right.`,
+        messages: [{ role: 'user', content: `Task: ${clip(b.prompt, 300)}\nPoints to cover: ${(Array.isArray(b.points) ? b.points : []).slice(0, 6).map((p) => clip(p, 120)).join('; ') || 'none listed'}\nThe learner's message:\n${clip(b.text, 800)}` }],
+      })
+      if (res.stop_reason === 'refusal' || res.stop_reason === 'max_tokens') return json({ result: null })
+      return json({ result: JSON.parse(res.content.filter((c) => c.type === 'text').map((c) => c.text).join('')) })
+    } catch (error) {
+      if (error instanceof SyntaxError) return json({ result: null })
+      if (error instanceof Anthropic.RateLimitError) return json({ error: 'busy' }, 429)
+      if (error instanceof Anthropic.APIError) return json({ error: 'api' }, 502)
+      return json({ error: 'network' }, 502)
+    }
+  }
   const kind = b.kind === 'review' ? 'review' : 'turn'
   const history = (Array.isArray(b.messages) ? b.messages : []).slice(0, LIMITS.turns * 2 + 2)
   const learnerTurns = history.filter((m) => m.role === 'learner').length

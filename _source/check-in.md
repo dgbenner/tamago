@@ -4,6 +4,23 @@ Updated November 10, 2026. **New: the Asking for Help thread (three help circles
 
 ## Done since last check-in
 
+- **A1 Complete, step 2: the framework, live.** Nothing new to learn yet; Part 2 writes the content.
+  - **Parts.** The current tree is A1 · Part 1, First Steps. The parts tab in each workbook plans 4 parts for German and Spanish and 6 for French, from each gap at about 12 new words a circle (FLELex A1 is nearly twice the Goethe list). The tree shows one part:
+    - "A1 · Part 1 of 4: First Steps" at the top;
+    - its circles;
+    - the Part 1 Review (ten questions over the part, never locking anything);
+    - the cap, "End of A1 · Part 1 of 4";
+    - Part 2 as one locked banner with its title and summary (Everyday Life: spelling and phone numbers, age, address and nationality, numbers to 100, prices and shopping).
+  - **Unlocking.** A part opens when every circle of the part before has finished round 1. The banner then offers "Go to Part 2", or says it's being written. A part switcher appears at the top once more than one part is open.
+  - **The final check** moves to the end of the last part, as the spec says, so it's off the tree until that part exists. Its results still show on Progress.
+  - **A1 Coverage on Progress:** A1 words (the learner's share of the course's list, with what the course teaches so far), A1 tasks (of 13, with the list), and the part.
+    - **Tasks.** The thirteen A1 tasks are in an a1_tasks tab. A circle tags the tasks it teaches outright: so far Saying Hello (T01) and the help circles (T13).
+  - **Four new question types,** working in all three courses. They're Read and Answer (QT14), Fill In the Form (QT15), Write a Message (QT16) and Write What You Hear (QT17).
+    - **Data and lessons:** their items go in four new workbook tabs, tied to a circle. A lesson takes one, mid-lesson, where its circle has them.
+    - **Checking:** QT15 checks each field by its rule (text ignoring case and accents; numbers and phones as digits). QT17 checks values, not text, so 3,50 €, 3.50 and €3.50 are the same, as are 14h30, 14:30 and 14.30, and dates match on day and month.
+    - **Can't Listen Now** turns QT17 into reading the number written out.
+    - **QT16** counts as done when sent and is never scored. Claude's notes (meaning, mistakes, points not covered, a tidier version) appear when they arrive, and Continue never waits.
+    - **Try them** on samples: Developer page, Try the A1 Task Types. The samples are marked as samples and are not course content.
 - **A1 Complete, step 1: official lists loaded, coverage measured (stopped here for you, as the spec says).** The spec is saved as _source/a1-complete.md, and the numbers come from scripts/a1-coverage.mjs.
   - **German:** the Goethe-Institut Start Deutsch 1 Wortliste, 627 main entries (the list says about 650; its indented sub-entries aren't counted). The course teaches **118 (19%)**, every one in 3 or more sentences; 91 (15%) are on the main path without the topic packs.
   - **Spanish:** the PCIC A1 column of the general and specific notion inventories, 534 words. The course teaches **106 (20%)**; 88 (16%) on the main path. The Cervantes site was down for maintenance, so I read the Internet Archive's copy.

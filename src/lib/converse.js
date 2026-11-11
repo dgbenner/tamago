@@ -17,6 +17,16 @@ export async function requestTurn(body, kind = 'turn') {
   } catch { return { error: 'offline' } }
 }
 
+// QT16 (A1 Complete): Claude's notes on a short message, in English: meaning, grammar, points not covered, and a
+// tidier version. Null when it can't be had (no key, offline); the question is already done either way.
+export async function requestFeedback({ lang, prompt, points, text }) {
+  try {
+    const r = await fetch(URL_, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ kind: 'message', lang, prompt, points, text }) })
+    if (!r.ok) return null
+    return (await r.json()).result ?? null
+  } catch { return null }
+}
+
 // The help phrases, one tap away: the ones from the help circles the learner has opened (level 1 to 3). Most send at
 // once; "say" and "word" put a frame in the box to finish. meaning takes the word picked in Claude's line, if any.
 export const HELP_PHRASES = {
