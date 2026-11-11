@@ -7,9 +7,10 @@ import { COURSES, chooseCourse, course } from '../lib/course.js'
 export function FlagRow({ size = 'md', onPick }) {
   const [soon, setSoon] = useState(null)
   const px = size === 'lg' ? 'h-20 w-20' : 'h-14 w-14'
+  const gap = size === 'lg' ? 'gap-0.5' : 'gap-4' // the opening screen's flags sit close together (Dan's design lab, 2026-11-10)
   return (
     <div className="flex flex-col items-center gap-2">
-      <ul className="flex flex-wrap items-start justify-center gap-4">
+      <ul className={`flex flex-wrap items-start justify-center ${gap}`}>
         {COURSES.map((c) => {
           const current = c.id === course.id
           return (

@@ -338,7 +338,7 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ wide, panel, rows, markers, levelLabel, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
+export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint,
   finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
@@ -351,17 +351,17 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
           the utilities right, like a desktop site. */}
-      <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(0.25rem,env(safe-area-inset-top))] pb-1 lg:mx-0 lg:px-0 lg:py-1.5">
+      <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(2px,env(safe-area-inset-top))] pb-0 lg:mx-0 lg:px-0 lg:pt-[2.5px]">
         {/* The course flag (points sat here until they were hidden): opens the language pop-up. */}
-        <span className="flex w-20 items-center justify-start gap-2 lg:order-2 lg:w-auto lg:justify-end">
+        <span className="hdr-lang flex w-20 items-center justify-start gap-2 lg:order-2 lg:w-auto lg:justify-end lg:-translate-x-[2px]">
           {showPoints && <Points total={pointsTotal} today={pointsToday} />}
           <button onClick={() => setLanguages(true)} aria-label={`Language: ${course.name}`} className="icon-btn -ml-2 lg:ml-0"><img src={course.flag} alt="" className="h-8 w-8 object-contain" /></button>
         </span>
-        <span className="flex items-center gap-2 lg:order-1 lg:mr-auto">
-          <SushiMark className="hidden w-11 lg:block" />
-          <LogoInline />
+        <span className="hdr-brand flex items-center gap-2 lg:order-1 lg:mr-auto lg:ml-[2px] lg:gap-[3px]">
+          <SushiMark className="hdr-sushi relative hidden w-11 lg:block lg:w-[2.18rem] lg:-top-[2px]" />
+          <LogoInline className="hdr-wordmark" />
         </span>
-        <span className="flex w-20 justify-end lg:order-3 lg:w-auto"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
+        <span className="hdr-gear flex w-20 justify-end lg:order-3 lg:w-auto lg:-ml-[1.1rem] lg:-translate-x-[2px]"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
       </header>
 
       <div className="home-path">
@@ -369,24 +369,24 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
 
       <Tools tools={tools} />
 
-      {/* Where you are, quietly: "Starting Out" in italics until the tree shows level markers (then the caption would
-          repeat the first one), the streak if on, and Progress as a low-emphasis button. */}
-      <div className="flex items-center justify-between gap-3">
-        <p className="text-sm text-muted">{[!markers.length && <span key="level" className="italic">{levelLabel}</span>, streakLine && <span key="streak">{streakLine}</span>].filter(Boolean).flatMap((x, i) => (i ? [' · ', x] : [x]))}</p>
+      {/* The streak if on, and Progress as a low-emphasis button on a phone. The level caption ("Starting Out") is gone
+          (Dan, 2026-11-10): the tree's level markers say where you are. On a wide screen with no streak the row is empty. */}
+      <div className={`flex items-center justify-between gap-3 ${streakLine ? '' : 'lg:hidden'}`}>
+        <p className="text-sm text-muted">{streakLine}</p>
         <button onClick={onProgress} className="btn-tertiary -mr-2 lg:hidden">Progress</button>
       </div>
 
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
       {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
       {part && <PartSwitcher part={part} onPartView={onPartView} />}
-      <ol className="flex flex-1 flex-col items-center gap-24 pt-1 pb-24">
+      <ol className="home-tree flex flex-1 flex-col items-center gap-y-[2.7rem] pt-[1.9rem] pb-24 lg:[&>li]:[zoom:1.11]">
         {rows.map((row, i) => {
           const n = row.row ?? i + 1 // the row's own number, not its place in the list
           const cp = checkpoints.find((x) => x.afterRow === n)
           const marker = markers.find((m) => m.beforeRow === n)
           return [
             marker && <Marker key={`m${i}`} label={marker.label} />,
-            <li key={i} className="flex justify-center gap-4">
+            <li key={i} className="flex justify-center gap-4 lg:gap-[4.9rem]">
               {row.map((node) => <Node key={node.unit.unit_id} node={node} onPick={setPicked} onTestPass={onTestPass} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,

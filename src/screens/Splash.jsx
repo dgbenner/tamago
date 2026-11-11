@@ -1,7 +1,7 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { chooseCourse } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
-import { LETTERS, LetterStrokes, SushiMark, VIEW, viewBox } from './Logo.jsx'
+import { LETTERS, Letter, LetterStrokes, SushiMark, VIEW, splashViewBox } from './Logo.jsx'
 
 // Each letter is revealed by its own mask, which follows the same strokes.
 const LETTER_MS = 260
@@ -47,8 +47,8 @@ export default function Splash({ onDone, choose = false }) {
   return (
     <div className={`splash ${held === true ? 'splash-hold' : held === 'picked' ? 'splash-now' : ''}`} onClick={skip}
       onAnimationEnd={(e) => { if (e.animationName === 'splash-out') onDone() }}>
-      <div className="flex w-[min(84vw,380px)] flex-col items-center">
-        <svg ref={svg} className="w-full" viewBox={viewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
+      <div className="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">
+        <svg ref={svg} className="splash-wordmark w-full max-w-none md:w-[114%]" viewBox={splashViewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
           <defs>
             {LETTERS.map((strokes, i) => (
               <mask key={i} id={`letter-${i}`} maskUnits="userSpaceOnUse" {...VIEW}>
@@ -56,12 +56,12 @@ export default function Splash({ onDone, choose = false }) {
               </mask>
             ))}
           </defs>
-          {LETTERS.map((strokes, i) => <LetterStrokes key={i} d={strokes.join('')} mask={`url(#letter-${i})`} />)}
+          <g className="wm-letters">{LETTERS.map((strokes, i) => <Letter key={i} i={i} spaced><LetterStrokes d={strokes.join('')} mask={`url(#letter-${i})`} /></Letter>)}</g>
         </svg>
-        <SushiMark className="relative z-10 -mt-[9%] w-[40%]" />
+        <SushiMark className="splash-sushi relative z-10 -mt-[14.5%] w-[37%]" />
         {held === true && (
-          <div className="mt-8 flex flex-col items-center gap-4">
-            <h1 className="text-xl font-semibold">Choose Your Language</h1>
+          <div className="splash-choose mt-[3.8rem] flex flex-col items-center gap-0">
+            <h1 className="text-[1.15rem] font-semibold">Choose Your Language</h1>
             <FlagRow size="lg" onPick={pick} />
           </div>
         )}

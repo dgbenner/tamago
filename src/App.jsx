@@ -3,7 +3,7 @@ import { addAccepted, allContent, recordings, tables, unitContent } from './lib/
 import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, skipSplash } from './lib/course.js'
 import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
-import { band, skillScores } from './lib/score.js'
+import { skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
 import { hasFrenchVoice, preload, stop } from './lib/audio.js'
 import Home from './screens/Home.jsx'
@@ -930,9 +930,6 @@ export default function App() {
   // markers across the tree where finishing the units above would reach the next band (score.js: 10 and 20 of 29).
   const mainA1 = layout.filter((t) => !isTopicNode(t.unit_id))
   const started = mainA1.some((t) => progressOf(t.unit_id).round_reached >= 1) || packs.some((p) => progressOf(p.unit_id).round_reached >= 1)
-  const titleCase = (t) => t.replace(/(^|\s)([a-z])/g, (m, sp, ch) => sp + ch.toUpperCase())
-  const lowest = ['reading', 'listening', 'writing', 'speaking'].map((k) => scores[k]).sort((p, q) => p.score - q.score)[0]
-  const levelLabel = started ? titleCase(lowest?.band ?? band(0)) : 'Starting Out'
   const rowNumbers = [...new Set(layout.map((t) => t.row))].sort((p, q) => p - q)
   // The row after a given one (rows can be 1.5 for a help circle); one past the last when it's the last.
   const rowAfter = (r) => rowNumbers[rowNumbers.indexOf(r) + 1] ?? r + 1
@@ -945,7 +942,7 @@ export default function App() {
     ...(shownPart === lastPart ? [{ beforeRow: rowNumbers.at(-1) + 1, label: 'A2' }] : []),
   ] : []
   return (
-    <Home rows={rows} markers={markers} levelLabel={levelLabel} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
+    <Home rows={rows} markers={markers} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
       streakLine={showStreaks ? [streak > 1 && `${streak}-day streak`, goal && `${thisWeek} of ${goal} days this week`].filter(Boolean).join(' · ') : ''}
       onProgress={() => setScreen('progress')}
       tools={[

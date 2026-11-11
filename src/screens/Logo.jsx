@@ -9,6 +9,16 @@ export const LETTERS = [
 ]
 export const VIEW = { x: -16, y: -6, width: 482, height: 156 }
 export const viewBox = `${VIEW.x} ${VIEW.y} ${VIEW.width} ${VIEW.height}`
+// Letter spacing for the opening screen only (Dan's design lab, 2026-11-10): how far each letter moves from its drawn
+// position; its view narrows by the total so the word stays centred. The small wordmarks keep the drawn spacing.
+export const LETTER_X = [0, -2, -8.5, -12.5, -15.5, -18.5]
+const SPLASH_VIEW = { ...VIEW, width: VIEW.width + LETTER_X[LETTER_X.length - 1] } // the masks keep the full VIEW: their region moves with each letter
+export const splashViewBox = `${SPLASH_VIEW.x} ${SPLASH_VIEW.y} ${SPLASH_VIEW.width} ${SPLASH_VIEW.height}`
+
+// One letter's group: the hook the design lab moves (className wm-letter, data-letter), with the spacing when asked.
+export function Letter({ i, spaced = false, children }) {
+  return <g className="wm-letter" data-letter={i} transform={spaced ? `translate(${LETTER_X[i]} 0)` : undefined}>{children}</g>
+}
 
 export function LetterStrokes({ d, mask }) {
   return (
@@ -31,7 +41,7 @@ export default function Logo() {
   return (
     <div className="flex w-36 flex-col items-center">
       <svg className="w-full" viewBox={viewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
-        {LETTERS.map((strokes, i) => <LetterStrokes key={i} d={strokes.join('')} />)}
+        <g className="wm-letters">{LETTERS.map((strokes, i) => <Letter key={i} i={i}><LetterStrokes d={strokes.join('')} /></Letter>)}</g>
       </svg>
       <SushiMark className="relative z-10 -mt-[9%] w-[40%]" />
     </div>
@@ -43,8 +53,8 @@ export default function Logo() {
 export function LogoInline({ className = '' }) {
   return (
     <div role="img" aria-label="Tamago" className={className}>
-      <svg className="block w-[103px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
-        {LETTERS.map((strokes, i) => <path key={i} d={strokes.join('')} stroke="var(--accent)" strokeWidth="15" />)}
+      <svg className="block w-[92px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
+        <g className="wm-letters">{LETTERS.map((strokes, i) => <Letter key={i} i={i}><path d={strokes.join('')} stroke="var(--accent)" strokeWidth="15" /></Letter>)}</g>
       </svg>
     </div>
   )
