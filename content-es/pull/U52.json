@@ -1,0 +1,1436 @@
+{
+  "unit_id": "U52",
+  "pulled_at": "2026-11-11",
+  "candidates": 34,
+  "sentences": [
+    {
+      "sentence_id": "S52001",
+      "unit_id": "U52",
+      "french": "El fútbol es un deporte.",
+      "english": "Football is a sport.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2620441",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52002",
+      "unit_id": "U52",
+      "french": "¿Te gusta nadar?",
+      "english": "Do you like swimming?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3670737",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52003",
+      "unit_id": "U52",
+      "french": "¿Te gusta leer?",
+      "english": "Do you like reading?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9988161",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": [
+        "Do you like to read?"
+      ]
+    },
+    {
+      "sentence_id": "S52004",
+      "unit_id": "U52",
+      "french": "¿Te gusta el deporte?",
+      "english": "Do you like sports?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2099247",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Do you like the sport?"
+      ]
+    },
+    {
+      "sentence_id": "S52005",
+      "unit_id": "U52",
+      "french": "¿Dónde está su foto?",
+      "english": "Where's his photo?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2294380",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52006",
+      "unit_id": "U52",
+      "french": "¿Qué te gusta leer?",
+      "english": "What do you like to read?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10211681",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52007",
+      "unit_id": "U52",
+      "french": "¿Estás en esta foto?",
+      "english": "Are you in this photo?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11904972",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52008",
+      "unit_id": "U52",
+      "french": "¿Te gusta leer libros?",
+      "english": "Do you like reading books?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13703543",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52009",
+      "unit_id": "U52",
+      "french": "¿De quién es esta foto?",
+      "english": "Whose photo is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2317315",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52010",
+      "unit_id": "U52",
+      "french": "¿Es esta la nueva película?",
+      "english": "Is this the new film?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11731090",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52011",
+      "unit_id": "U52",
+      "french": "Me gusta nadar.",
+      "english": "I like swimming.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "536567",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "I like to swim."
+      ]
+    },
+    {
+      "sentence_id": "S52012",
+      "unit_id": "U52",
+      "french": "No leo libros.",
+      "english": "I do not read books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "644848",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52013",
+      "unit_id": "U52",
+      "french": "Leo el libro.",
+      "english": "I read the book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1003088",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "I am reading the book."
+      ]
+    },
+    {
+      "sentence_id": "S52014",
+      "unit_id": "U52",
+      "french": "Estoy de vacaciones.",
+      "english": "I'm on vacation.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1256538",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": [
+        "I'm on holiday."
+      ]
+    },
+    {
+      "sentence_id": "S52015",
+      "unit_id": "U52",
+      "french": "Él juega allí.",
+      "english": "He plays there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1302121",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52016",
+      "unit_id": "U52",
+      "french": "Leo una carta.",
+      "english": "I read a letter.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2011068",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "I am reading a letter."
+      ]
+    },
+    {
+      "sentence_id": "S52017",
+      "unit_id": "U52",
+      "french": "Él juega bien.",
+      "english": "He plays well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2253573",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": [
+        "He plays a good game."
+      ]
+    },
+    {
+      "sentence_id": "S52018",
+      "unit_id": "U52",
+      "french": "Juega muy bien.",
+      "english": "He plays very well.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2716663",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52019",
+      "unit_id": "U52",
+      "french": "Yo escucho eso.",
+      "english": "I hear that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3562836",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ficion",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52020",
+      "unit_id": "U52",
+      "french": "Me gusta bailar.",
+      "english": "I like to dance.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4570678",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52021",
+      "unit_id": "U52",
+      "french": "Estamos de vacaciones.",
+      "english": "We're on vacation.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4948536",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Francisco_M",
+      "other_english": [
+        "We are on vacation."
+      ]
+    },
+    {
+      "sentence_id": "S52022",
+      "unit_id": "U52",
+      "french": "¡Lee el libro!",
+      "english": "Read the book!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10060819",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52023",
+      "unit_id": "U52",
+      "french": "Me gusta jugar.",
+      "english": "I like to play.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10091159",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52024",
+      "unit_id": "U52",
+      "french": "Te gusta bailar.",
+      "english": "You like dancing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13703539",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": [
+        "You like to dance."
+      ]
+    },
+    {
+      "sentence_id": "S52025",
+      "unit_id": "U52",
+      "french": "Me gusta el deporte.",
+      "english": "I like sports.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1446360",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "I like sport."
+      ]
+    },
+    {
+      "sentence_id": "S52026",
+      "unit_id": "U52",
+      "french": "Por favor, lee este libro.",
+      "english": "Please read this book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3414178",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gianich73",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52027",
+      "unit_id": "U52",
+      "french": "No me gusta nadar.",
+      "english": "I don't like swimming.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3774692",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "I don't like to swim."
+      ]
+    },
+    {
+      "sentence_id": "S52028",
+      "unit_id": "U52",
+      "french": "Están en una fiesta.",
+      "english": "They're at a party.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7865135",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52029",
+      "unit_id": "U52",
+      "french": "También me gusta bailar.",
+      "english": "I like dancing too.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12701793",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S52030",
+      "unit_id": "U52",
+      "french": "Esta no es una fiesta.",
+      "english": "This isn't a party.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1901115",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S52001",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 2,
+      "surface": "fútbol",
+      "word_id": "W1019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52001",
+      "position": 5,
+      "surface": "deporte",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52002",
+      "position": 3,
+      "surface": "nadar",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52003",
+      "position": 3,
+      "surface": "leer",
+      "word_id": "W1024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52004",
+      "position": 4,
+      "surface": "deporte",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52005",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52005",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52005",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52005",
+      "position": 4,
+      "surface": "foto",
+      "word_id": "W1016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52006",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52006",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52006",
+      "position": 3,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52006",
+      "position": 4,
+      "surface": "leer",
+      "word_id": "W1024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52007",
+      "position": 1,
+      "surface": "Estás",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52007",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52007",
+      "position": 3,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52007",
+      "position": 4,
+      "surface": "foto",
+      "word_id": "W1016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52008",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52008",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52008",
+      "position": 3,
+      "surface": "leer",
+      "word_id": "W1024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52008",
+      "position": 4,
+      "surface": "libros",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 2,
+      "surface": "quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52009",
+      "position": 5,
+      "surface": "foto",
+      "word_id": "W1016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52010",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52010",
+      "position": 2,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52010",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52010",
+      "position": 4,
+      "surface": "nueva",
+      "word_id": "W092",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52010",
+      "position": 5,
+      "surface": "película",
+      "word_id": "W1015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52011",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52011",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52011",
+      "position": 3,
+      "surface": "nadar",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52012",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52012",
+      "position": 2,
+      "surface": "leo",
+      "word_id": "W1025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52012",
+      "position": 3,
+      "surface": "libros",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52013",
+      "position": 1,
+      "surface": "Leo",
+      "word_id": "W1025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52013",
+      "position": 2,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52013",
+      "position": 3,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52014",
+      "position": 1,
+      "surface": "Estoy",
+      "word_id": "W038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52014",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52014",
+      "position": 3,
+      "surface": "vacaciones",
+      "word_id": "W1029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52015",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52015",
+      "position": 2,
+      "surface": "juega",
+      "word_id": "W1023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52015",
+      "position": 3,
+      "surface": "allí",
+      "word_id": "W101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52016",
+      "position": 1,
+      "surface": "Leo",
+      "word_id": "W1025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52016",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52016",
+      "position": 3,
+      "surface": "carta",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52017",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52017",
+      "position": 2,
+      "surface": "juega",
+      "word_id": "W1023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52017",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52018",
+      "position": 1,
+      "surface": "Juega",
+      "word_id": "W1023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52018",
+      "position": 2,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52018",
+      "position": 3,
+      "surface": "bien",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52019",
+      "position": 1,
+      "surface": "Yo",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52019",
+      "position": 2,
+      "surface": "escucho",
+      "word_id": "W1028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52019",
+      "position": 3,
+      "surface": "eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52020",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52020",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52020",
+      "position": 3,
+      "surface": "bailar",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52021",
+      "position": 1,
+      "surface": "Estamos",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52021",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52021",
+      "position": 3,
+      "surface": "vacaciones",
+      "word_id": "W1029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52022",
+      "position": 1,
+      "surface": "Lee",
+      "word_id": "W1026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52022",
+      "position": 2,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52022",
+      "position": 3,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52023",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52023",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52023",
+      "position": 3,
+      "surface": "jugar",
+      "word_id": "W1022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52024",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52024",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52024",
+      "position": 3,
+      "surface": "bailar",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52025",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52025",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52025",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52025",
+      "position": 4,
+      "surface": "deporte",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52026",
+      "position": 1,
+      "surface": "Por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52026",
+      "position": 2,
+      "surface": "lee",
+      "word_id": "W1026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52026",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52026",
+      "position": 4,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52027",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52027",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52027",
+      "position": 3,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52027",
+      "position": 4,
+      "surface": "nadar",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52028",
+      "position": 1,
+      "surface": "Están",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52028",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52028",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52028",
+      "position": 4,
+      "surface": "fiesta",
+      "word_id": "W1017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52029",
+      "position": 1,
+      "surface": "También",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52029",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52029",
+      "position": 3,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52029",
+      "position": 4,
+      "surface": "bailar",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52030",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52030",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52030",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52030",
+      "position": 4,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S52030",
+      "position": 5,
+      "surface": "fiesta",
+      "word_id": "W1017",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A520031",
+      "sentence_id": "S52003",
+      "direction": "fr_to_en",
+      "answer": "Do you like to read?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520041",
+      "sentence_id": "S52004",
+      "direction": "fr_to_en",
+      "answer": "Do you like the sport?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520111",
+      "sentence_id": "S52011",
+      "direction": "fr_to_en",
+      "answer": "I like to swim.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520131",
+      "sentence_id": "S52013",
+      "direction": "fr_to_en",
+      "answer": "I am reading the book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520141",
+      "sentence_id": "S52014",
+      "direction": "fr_to_en",
+      "answer": "I'm on holiday.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520161",
+      "sentence_id": "S52016",
+      "direction": "fr_to_en",
+      "answer": "I am reading a letter.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520171",
+      "sentence_id": "S52017",
+      "direction": "fr_to_en",
+      "answer": "He plays a good game.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520211",
+      "sentence_id": "S52021",
+      "direction": "fr_to_en",
+      "answer": "We are on vacation.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520241",
+      "sentence_id": "S52024",
+      "direction": "fr_to_en",
+      "answer": "You like to dance.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520251",
+      "sentence_id": "S52025",
+      "direction": "fr_to_en",
+      "answer": "I like sport.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A520271",
+      "sentence_id": "S52027",
+      "direction": "fr_to_en",
+      "answer": "I don't like to swim.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

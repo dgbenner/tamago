@@ -480,5 +480,78 @@
       "S33104"
     ],
     "conjugations": []
+  },
+  {
+    "unit_id": "U51",
+    "rule": "Der Lehrer, die Lehrerin: -in for a woman. Sein + an adjective: bist du glücklich? Haben for hunger and thirst: ich habe Hunger",
+    "example_sentence_ids": "S51005;S51008;S51003;S51104",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S51005",
+      "S51008",
+      "S51003",
+      "S51104"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U52",
+    "rule": "Ich lese, er liest: lesen changes its vowel (ich lese, du liest, er liest). Ich mag + a noun: er mag Sport",
+    "example_sentence_ids": "S52011;S52010;S52018;S52012",
+    "conjugation_lemma": "lesen",
+    "status": "live",
+    "examples": [
+      "S52011",
+      "S52010",
+      "S52018",
+      "S52012"
+    ],
+    "conjugations": [
+      {
+        "lemma": "lesen",
+        "present": [
+          {
+            "person": "ich",
+            "form": "lese"
+          },
+          {
+            "person": "du",
+            "form": "liest"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "liest"
+          },
+          {
+            "person": "wir",
+            "form": "lesen"
+          },
+          {
+            "person": "ihr",
+            "form": "lest"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "lesen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/lesen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U53",
+    "rule": "Mit (with): geht Tom mit dir? Am Bahnhof (at the station): am = an dem",
+    "example_sentence_ids": "S53008;S53001;S53016;S53004",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S53008",
+      "S53001",
+      "S53016",
+      "S53004"
+    ],
+    "conjugations": []
   }
 ]

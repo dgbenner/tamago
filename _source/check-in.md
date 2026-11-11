@@ -4,6 +4,14 @@ Updated November 10, 2026. **New: vocabulary and Catch-Up circles (section 9). F
 
 ## Done since last check-in
 
+- **Spanish and German: vocabulary and Catch-Up circles in Part 1, live.** Part 2 isn't started in either, as you said.
+  - **Spanish:** Body and Feelings (row 5), Free Time (row 7) and Around Town (row 9), 43 PCIC words. 90 Tatoeba lines kept and 48 drafts. **PCIC coverage 144 of 534 (27%, was 20%)**, 126 on the main path (24%).
+  - **German:** Free Time (row 5), People and Feelings (row 7) and Around Town (row 9), 43 Goethe words. Tatoeba had no readable German lines for body words that early (Kopf, Hand, Fuß: none), so the row-7 circle teaches people words instead (Leute, Mensch, Herr, Gast, Lehrer, Lehrerin…). 96 Tatoeba lines kept and 52 drafts. **Goethe coverage 157 of 627 (25%, was 19%)**, 130 on the main path (21%).
+  - **Catch-Up:** two slots in each course, after rows 5 and 7, the same as French Part 1.
+  - **Cut in review:**
+    - Spanish *lee* used as a command;
+    - German *mit* as the particle of *mitkommen*, and *Was ist mit…?*;
+    - lines whose English didn't match.
 - **Section 9, French: vocabulary circles and Catch-Up circles, live.** (Section 9 is saved at the end of _source/a1-complete.md.)
   - **Five vocabulary circles in Part 2,** one in each row beside its situation circles. Their themes stay clear of Parts 3 to 5:
     - Around Town (cinéma, gare, hôtel, musée, bus, train, vélo, voiture, avec…);

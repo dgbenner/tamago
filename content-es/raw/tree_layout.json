@@ -138,5 +138,26 @@
     "unit_id": "U33",
     "unlocks_after": "row 6",
     "notes": "Asking for Help thread: a help circle, gates nothing"
+  },
+  {
+    "row": 5,
+    "position": 3,
+    "unit_id": "U51",
+    "unlocks_after": "row 3",
+    "notes": "A1 Part 1 vocabulary circle"
+  },
+  {
+    "row": 7,
+    "position": 3,
+    "unit_id": "U52",
+    "unlocks_after": "row 6",
+    "notes": "A1 Part 1 vocabulary circle"
+  },
+  {
+    "row": 9,
+    "position": 3,
+    "unit_id": "U53",
+    "unlocks_after": "row 8",
+    "notes": "A1 Part 1 vocabulary circle"
   }
 ]

@@ -130,6 +130,32 @@
     "source": "https://en.wiktionary.org/wiki/ir#Conjugation"
   },
   {
+    "lemma": "leer",
+    "present": [
+      {
+        "person": "yo",
+        "form": "leo"
+      },
+      {
+        "person": "tú",
+        "form": "lees"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "lee"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "leemos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "leen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/leer#Conjugation"
+  },
+  {
     "lemma": "beber",
     "present": [
       {
@@ -544,5 +570,57 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/servir#Conjugation"
+  },
+  {
+    "lemma": "jugar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "juego"
+      },
+      {
+        "person": "tú",
+        "form": "juegas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "juega"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "jugamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "juegan"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/jugar#Conjugation"
+  },
+  {
+    "lemma": "escuchar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "escucho"
+      },
+      {
+        "person": "tú",
+        "form": "escuchas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "escucha"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "escuchamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "escuchan"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/escuchar#Conjugation"
   }
 ]

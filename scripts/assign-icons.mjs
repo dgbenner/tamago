@@ -42,6 +42,22 @@ for (const [id, file] of [['U31', 'glossy-california-roll-emoji-7.webp'], ['U32'
 // A1 Complete parts (2026-11-10): a later part's circles get the same easy-to-hard run of groups, and its help
 // circles the help thread's three rolls.
 const allUnits = read('content/raw/units.json')
+// Part 1 vocabulary circles (A1 Complete 9) take the group of the circle just before them in order, with a picture
+// of that group not used yet where one is left.
+for (const u of allUnits.filter((x) => Number(x.part || 1) === 1 && x.mix === 'vocab')) {
+  const before = A1_PLAN.filter((id) => (allUnits.find((x) => x.unit_id === id)?.order ?? 0) < u.order).at(-1)
+  const helpRolls0 = ['glossy-california-roll-emoji-7.webp', 'glossy-salmon-avocado-sushi-roll-6.webp', 'glossy-tuna-maki-sushi-roll-5.webp']
+  // Its row's group, else the first group with a picture that isn't a help roll (the maki left are the rolls).
+  const group = [kept[before]?.group ?? 'nigiri', 'nigiri', 'temaki'].find((g) => (pools[g] ?? []).some((x) => !helpRolls0.includes(x.file)))
+  const helpRolls = ['glossy-california-roll-emoji-7.webp', 'glossy-salmon-avocado-sushi-roll-6.webp', 'glossy-tuna-maki-sushi-roll-5.webp']
+  if (kept[u.unit_id]?.group === group && !helpRolls.includes(kept[u.unit_id].file)) continue
+  // Never the help thread's rolls: those mark the help circles.
+  const list = (pools[group] ?? []).filter((x) => !helpRolls.includes(x.file))
+  const used = new Set(Object.values(kept).filter((k) => k.group === group).map((k) => k.file))
+  const from = list.filter((x) => !used.has(x.file)).length ? list.filter((x) => !used.has(x.file)) : list
+  const file = from.length ? from[randomInt(from.length)].file : null
+  if (file) kept[u.unit_id] = { group, file }
+}
 for (const n of [...new Set(allUnits.map((u) => Number(u.part || 1)))].filter((n) => n > 1)) {
   const main = allUnits.filter((u) => Number(u.part) === n && u.is_topic_pick !== 'help').sort((a, b) => a.order - b.order).map((u) => u.unit_id)
   const t = Math.ceil(main.length / 3)

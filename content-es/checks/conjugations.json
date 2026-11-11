@@ -109,6 +109,28 @@
       "form": "van"
     }
   ],
+  "leer": [
+    {
+      "person": "yo",
+      "form": "leo"
+    },
+    {
+      "person": "tú",
+      "form": "lees"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "lee"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "leemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "leen"
+    }
+  ],
   "beber": [
     {
       "person": "yo",
@@ -459,6 +481,50 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "sirven"
+    }
+  ],
+  "jugar": [
+    {
+      "person": "yo",
+      "form": "juego"
+    },
+    {
+      "person": "tú",
+      "form": "juegas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "juega"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "jugamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "juegan"
+    }
+  ],
+  "escuchar": [
+    {
+      "person": "yo",
+      "form": "escucho"
+    },
+    {
+      "person": "tú",
+      "form": "escuchas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "escucha"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "escuchamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "escuchan"
     }
   ]
 }

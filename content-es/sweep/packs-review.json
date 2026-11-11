@@ -249,5 +249,30 @@
       "7842061": "sé as be (ser), misleading for sé (I know)",
       "7932307": "sé as be (ser), misleading for sé (I know)"
     }
+  },
+  "U51": {
+    "reject": {
+      "1278522": "repeats guapa",
+      "1421655": "English renames the name as Mary, misleading for typed answers",
+      "2120621": "repeats guapa",
+      "3098094": "repeats guapa",
+      "5027133": "English does not match (grande as long)",
+      "5752562": "English does not match (alegre as funny)"
+    }
+  },
+  "U52": {
+    "reject": {
+      "1283000": "lee as a command, misleading for reads",
+      "4505706": "lee as a command, misleading for reads",
+      "6688853": "lee as a command, misleading for reads",
+      "7974213": "idiom (no tengo por qué)"
+    }
+  },
+  "U53": {
+    "reject": {
+      "1080901": "English does not match (el hotel as a hotel)",
+      "4508608": "elliptic",
+      "6549342": "English does not match (llamo as can I call)"
+    }
   }
 }

@@ -124,5 +124,26 @@
     "example_sentence_ids": "S33101;S33104;S33001",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U51",
+    "rule": "Adjectives agree: él es guapo, ella es guapa; simpático, simpática. Tener for features: tengo las manos pequeñas",
+    "example_sentence_ids": "S51011;S51025;S51006;S51017",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U52",
+    "rule": "Me gusta + a verb: me gusta nadar, me gusta bailar. -er verbs: leo, lee; jugar: juega",
+    "example_sentence_ids": "S52011;S52020;S52013;S52017",
+    "conjugation_lemma": "leer",
+    "status": "live"
+  },
+  {
+    "unit_id": "U53",
+    "rule": "En autobús, en tren, en taxi: en for how you travel; voy al cine, a la estación; con (with)",
+    "example_sentence_ids": "S53016;S53017;S53003;S53005",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]

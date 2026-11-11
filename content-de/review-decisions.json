@@ -259,6 +259,21 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after cutting 4 (idioms like Du weißt, wie es ist); 9 drafts for the phrases checked Tatoeba lacks (Ich suche das Wort., Das ist ein Ding für …, Wie nennt man das?) and 2 answers for the question pairs"
+    },
+    "U51": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), People and Feelings (Tatoeba had no readable body-word lines by row 7), pulled Tatoeba reviewed (3 odd or misleading lines cut), 13 drafts where Tatoeba had under 3 for a word"
+    },
+    "U52": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), pulled Tatoeba reviewed (1 awkward line cut), 23 drafts where Tatoeba had under 3 for a word (the leisure nouns had none readable by row 5)"
+    },
+    "U53": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), pulled Tatoeba reviewed (mit as the mitkommen particle and Was ist mit cut, 4 other odd lines cut), 16 drafts where Tatoeba had under 3 for a word"
     }
   },
   "cut_sentences": [
@@ -796,6 +811,98 @@
     },
     "W001": {
       "hint": "hello",
+      "source": "short form of Wiktionary"
+    },
+    "W1004": {
+      "hint": "guest",
+      "source": "short form of Wiktionary"
+    },
+    "W1005": {
+      "hint": "partner",
+      "source": "short form of Wiktionary"
+    },
+    "W1035": {
+      "hint": "train",
+      "source": "short form of Wiktionary"
+    },
+    "W1033": {
+      "hint": "station",
+      "source": "short form of Wiktionary"
+    },
+    "W1027": {
+      "hint": "read (lesen, ich)",
+      "source": "short form of Wiktionary"
+    },
+    "W1028": {
+      "hint": "reads, you read (lesen)",
+      "source": "short form of Wiktionary"
+    },
+    "W1030": {
+      "hint": "hear (hören, ich)",
+      "source": "short form of Wiktionary"
+    },
+    "W1029": {
+      "hint": "to hear, to listen",
+      "source": "short form of Wiktionary"
+    },
+    "W1025": {
+      "hint": "free time",
+      "source": "short form of Wiktionary"
+    },
+    "W1006": {
+      "hint": "baby",
+      "source": "short form of Wiktionary"
+    },
+    "W1019": {
+      "hint": "football",
+      "source": "short form of Wiktionary"
+    },
+    "W1032": {
+      "hint": "to swim",
+      "source": "short form of Wiktionary"
+    },
+    "W1017": {
+      "hint": "photo",
+      "source": "short form of Wiktionary"
+    },
+    "W1007": {
+      "hint": "teacher",
+      "source": "short form of Wiktionary"
+    },
+    "W1013": {
+      "hint": "quiet, calm",
+      "source": "short form of Wiktionary"
+    },
+    "W1021": {
+      "hint": "hobby",
+      "source": "short form of Wiktionary"
+    },
+    "W1008": {
+      "hint": "teacher (a woman)",
+      "source": "short form of Wiktionary"
+    },
+    "W1042": {
+      "hint": "café",
+      "source": "short form of Wiktionary"
+    },
+    "W1039": {
+      "hint": "street, road",
+      "source": "short form of Wiktionary"
+    },
+    "W1010": {
+      "hint": "happy",
+      "source": "short form of Wiktionary"
+    },
+    "W1001": {
+      "hint": "people",
+      "source": "short form of Wiktionary"
+    },
+    "W1002": {
+      "hint": "person, human being",
+      "source": "short form of Wiktionary"
+    },
+    "W1003": {
+      "hint": "man, gentleman",
       "source": "short form of Wiktionary"
     }
   },

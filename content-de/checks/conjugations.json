@@ -155,6 +155,32 @@
       "form": "können"
     }
   ],
+  "lesen": [
+    {
+      "person": "ich",
+      "form": "lese"
+    },
+    {
+      "person": "du",
+      "form": "liest"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "liest"
+    },
+    {
+      "person": "wir",
+      "form": "lesen"
+    },
+    {
+      "person": "ihr",
+      "form": "lest"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "lesen"
+    }
+  ],
   "essen": [
     {
       "person": "ich",
@@ -543,6 +569,32 @@
     {
       "person": "sie, Sie",
       "form": "wissen"
+    }
+  ],
+  "hören": [
+    {
+      "person": "ich",
+      "form": "höre"
+    },
+    {
+      "person": "du",
+      "form": "hörst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "hört"
+    },
+    {
+      "person": "wir",
+      "form": "hören"
+    },
+    {
+      "person": "ihr",
+      "form": "hört"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "hören"
     }
   ]
 }

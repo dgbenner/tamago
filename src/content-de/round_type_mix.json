@@ -3,168 +3,385 @@
     "round": 1,
     "type_id": "QT01",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 1,
     "type_id": "QT02",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 1,
     "type_id": "QT03",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 1,
     "type_id": "QT04",
     "questions_per_10": 3,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 1,
     "type_id": "QT10",
     "questions_per_10": 1,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 2,
     "type_id": "QT03",
     "questions_per_10": 1,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 2,
     "type_id": "QT04",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 2,
     "type_id": "QT05",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 2,
     "type_id": "QT06",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 2,
     "type_id": "QT07",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 2,
     "type_id": "QT10",
     "questions_per_10": 1,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 3,
     "type_id": "QT05",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 3,
     "type_id": "QT07",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 3,
     "type_id": "QT08",
     "questions_per_10": 3,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 3,
     "type_id": "QT09",
     "questions_per_10": 1,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 3,
     "type_id": "QT10",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 4,
     "type_id": "QT06",
     "questions_per_10": 1,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 4,
     "type_id": "QT07",
     "questions_per_10": 1,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 4,
     "type_id": "QT08",
     "questions_per_10": 1,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 4,
     "type_id": "QT09",
     "questions_per_10": 1,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 4,
     "type_id": "QT11",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 4,
     "type_id": "QT12",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 4,
     "type_id": "QT13",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 5,
     "type_id": "QT06",
     "questions_per_10": 1,
-    "notes": "variant V0602"
+    "notes": "variant V0602",
+    "mix": ""
   },
   {
     "round": 5,
     "type_id": "QT09",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 5,
     "type_id": "QT11",
     "questions_per_10": 2,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 5,
     "type_id": "QT12",
     "questions_per_10": 3,
-    "notes": ""
+    "notes": "",
+    "mix": ""
   },
   {
     "round": 5,
     "type_id": "QT13",
     "questions_per_10": 2,
-    "notes": "variant V1302"
+    "notes": "variant V1302",
+    "mix": ""
+  },
+  {
+    "round": 1,
+    "type_id": "QT01",
+    "questions_per_10": 3,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 1,
+    "type_id": "QT02",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 1,
+    "type_id": "QT03",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 1,
+    "type_id": "QT04",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 1,
+    "type_id": "QT10",
+    "questions_per_10": 1,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 2,
+    "type_id": "QT01",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 2,
+    "type_id": "QT02",
+    "questions_per_10": 1,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 2,
+    "type_id": "QT18",
+    "questions_per_10": 3,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 2,
+    "type_id": "QT03",
+    "questions_per_10": 1,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 2,
+    "type_id": "QT04",
+    "questions_per_10": 1,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 2,
+    "type_id": "QT07",
+    "questions_per_10": 1,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 2,
+    "type_id": "QT10",
+    "questions_per_10": 1,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 3,
+    "type_id": "QT18",
+    "questions_per_10": 3,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 3,
+    "type_id": "QT05",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 3,
+    "type_id": "QT08",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 3,
+    "type_id": "QT07",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 3,
+    "type_id": "QT10",
+    "questions_per_10": 1,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 4,
+    "type_id": "QT18",
+    "questions_per_10": 3,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 4,
+    "type_id": "QT08",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 4,
+    "type_id": "QT12",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 4,
+    "type_id": "QT11",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 4,
+    "type_id": "QT13",
+    "questions_per_10": 1,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 5,
+    "type_id": "QT18",
+    "questions_per_10": 3,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 5,
+    "type_id": "QT12",
+    "questions_per_10": 3,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 5,
+    "type_id": "QT11",
+    "questions_per_10": 2,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 5,
+    "type_id": "QT06",
+    "questions_per_10": 1,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
+  },
+  {
+    "round": 5,
+    "type_id": "QT13",
+    "questions_per_10": 1,
+    "notes": "vocabulary circle",
+    "mix": "vocab"
   }
 ]

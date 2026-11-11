@@ -20,6 +20,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "T01",
+    "mix": "",
     "lesson_counts": [
       9,
       6,
@@ -49,6 +50,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       8,
       5,
@@ -78,6 +80,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       6,
       5,
@@ -107,6 +110,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       7,
       4,
@@ -136,6 +140,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       8,
       5,
@@ -165,6 +170,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       10,
       6,
@@ -194,6 +200,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       6,
       4,
@@ -223,6 +230,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       6,
       4,
@@ -252,6 +260,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       5,
       4,
@@ -281,6 +290,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       7,
       5,
@@ -310,6 +320,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       6,
       4,
@@ -339,6 +350,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       8,
       5,
@@ -368,6 +380,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       7,
       4,
@@ -397,6 +410,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       5,
       4,
@@ -426,6 +440,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       6,
       4,
@@ -454,7 +469,8 @@
     "topic_node": "",
     "borrow_words": "",
     "part": 1,
-    "tasks": ""
+    "tasks": "",
+    "mix": ""
   },
   {
     "unit_id": "U200",
@@ -476,7 +492,8 @@
     "topic_node": "",
     "borrow_words": "",
     "part": 1,
-    "tasks": ""
+    "tasks": "",
+    "mix": ""
   },
   {
     "unit_id": "U102",
@@ -499,6 +516,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       5,
       3,
@@ -528,6 +546,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       4,
       3,
@@ -557,6 +576,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       4,
       3,
@@ -586,6 +606,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       5,
       3,
@@ -615,6 +636,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       5,
       3,
@@ -644,6 +666,7 @@
     "borrow_words": "",
     "part": 1,
     "tasks": "",
+    "mix": "",
     "lesson_counts": [
       5,
       3,
@@ -673,6 +696,7 @@
     "borrow_words": "por favor",
     "part": 1,
     "tasks": "T13",
+    "mix": "",
     "lesson_counts": [
       4,
       3,
@@ -702,6 +726,7 @@
     "borrow_words": "qué;en",
     "part": 1,
     "tasks": "T13",
+    "mix": "",
     "lesson_counts": [
       6,
       4,
@@ -731,12 +756,103 @@
     "borrow_words": "qué",
     "part": 1,
     "tasks": "T13",
+    "mix": "",
     "lesson_counts": [
       7,
       4,
       5,
       5,
       5
+    ]
+  },
+  {
+    "unit_id": "U51",
+    "lang_id": "es",
+    "cefr": "A1",
+    "order": 7.2,
+    "title": "Body and Feelings",
+    "topic": "Body and Feelings",
+    "grammar_point": "Es simpático, es simpática: adjectives agree; tengo el pelo…, tiene los ojos…: tener for features",
+    "contrast_sets": "",
+    "can_do_ids": "CD251",
+    "branch_group": "row 5",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "glossy-salmon-nigiri-sushi-4.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 1,
+    "tasks": "",
+    "mix": "vocab",
+    "lesson_counts": [
+      7,
+      10,
+      7,
+      7,
+      7
+    ]
+  },
+  {
+    "unit_id": "U52",
+    "lang_id": "es",
+    "cefr": "A1",
+    "order": 11.2,
+    "title": "Free Time",
+    "topic": "Free Time",
+    "grammar_point": "Me gusta + a verb (me gusta leer); leo, lee: -er verbs; jugar al fútbol",
+    "contrast_sets": "",
+    "can_do_ids": "CD252",
+    "branch_group": "row 7",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "temaki",
+    "icon_file": "temaki-hand-roll-with-fresh-fillings-2.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 1,
+    "tasks": "",
+    "mix": "vocab",
+    "lesson_counts": [
+      9,
+      12,
+      7,
+      7,
+      7
+    ]
+  },
+  {
+    "unit_id": "U53",
+    "lang_id": "es",
+    "cefr": "A1",
+    "order": 15.2,
+    "title": "Around Town",
+    "topic": "Around Town",
+    "grammar_point": "En coche, en autobús, en tren: en for how you travel; con (with)",
+    "contrast_sets": "",
+    "can_do_ids": "CD253",
+    "branch_group": "row 9",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "temaki",
+    "icon_file": "glossy-salmon-temaki-hand-roll-1.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 1,
+    "tasks": "",
+    "mix": "vocab",
+    "lesson_counts": [
+      7,
+      9,
+      7,
+      7,
+      7
     ]
   }
 ]

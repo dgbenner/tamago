@@ -180,6 +180,36 @@
     "source": "https://en.wiktionary.org/wiki/k%C3%B6nnen#Conjugation"
   },
   {
+    "lemma": "lesen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "lese"
+      },
+      {
+        "person": "du",
+        "form": "liest"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "liest"
+      },
+      {
+        "person": "wir",
+        "form": "lesen"
+      },
+      {
+        "person": "ihr",
+        "form": "lest"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "lesen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/lesen#Conjugation"
+  },
+  {
     "lemma": "essen",
     "present": [
       {
@@ -628,5 +658,35 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/wissen#Conjugation"
+  },
+  {
+    "lemma": "hören",
+    "present": [
+      {
+        "person": "ich",
+        "form": "höre"
+      },
+      {
+        "person": "du",
+        "form": "hörst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "hört"
+      },
+      {
+        "person": "wir",
+        "form": "hören"
+      },
+      {
+        "person": "ihr",
+        "form": "hört"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "hören"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/h%C3%B6ren#Conjugation"
   }
 ]

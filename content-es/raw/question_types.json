@@ -283,5 +283,20 @@
     "last_round": 5,
     "skill_when_listen_first": "",
     "notes_last_round": ""
+  },
+  {
+    "type_id": "QT18",
+    "key": "type_word",
+    "name": "Type the word",
+    "skill": "writing",
+    "recognition_or_recall": "recall",
+    "input": "keyboard",
+    "needs_audio": "no",
+    "needs_image": "optional",
+    "notes": "Vocabulary and Catch-Up circles (A1 Complete 9): the English meaning, and the picture where the word has one; the course word is typed, with or without its article. Checked as a typed answer.",
+    "first_round": 2,
+    "last_round": 5,
+    "skill_when_listen_first": "",
+    "notes_last_round": ""
   }
 ]

@@ -319,6 +319,21 @@
       "action": "approve",
       "on": "2026-11-10",
       "by": "Claude under autonomous-build.md: 22 Tatoeba sentences from checked owners after cutting 8 (sé as be from ser, para as stop, sirve as serve!, an idiom); 8 drafts for the phrases checked Tatoeba lacks (Busco la palabra., Es una cosa para …, ¿Para qué sirve?)"
+    },
+    "U51": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), pulled Tatoeba reviewed (2 mismatched English cut, 3 repeats cut), 19 drafts where Tatoeba had under 3 for a word"
+    },
+    "U52": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), pulled Tatoeba reviewed (3 lines with lee as a command cut, 1 idiom cut), 15 drafts where Tatoeba had under 3 for a word"
+    },
+    "U53": {
+      "action": "approve",
+      "on": "2026-11-11",
+      "by": "Claude under autonomous-build.md: vocabulary circle (A1 Complete 9), pulled Tatoeba reviewed (2 mismatched English cut, 1 elliptic line cut), 14 drafts where Tatoeba had under 3 for a word"
     }
   },
   "cut_sentences": [],
@@ -873,6 +888,90 @@
     },
     "W018": {
       "hint": "he, him",
+      "source": "short form of Wiktionary"
+    },
+    "W1002": {
+      "hint": "eyes",
+      "source": "short form of Wiktionary"
+    },
+    "W1003": {
+      "hint": "hands",
+      "source": "short form of Wiktionary"
+    },
+    "W1007": {
+      "hint": "teeth",
+      "source": "short form of Wiktionary"
+    },
+    "W1029": {
+      "hint": "holidays, vacation",
+      "source": "short form of Wiktionary"
+    },
+    "W1010": {
+      "hint": "nice (simpático)",
+      "source": "short form of Wiktionary"
+    },
+    "W1014": {
+      "hint": "good-looking (guapo)",
+      "source": "short form of Wiktionary"
+    },
+    "W1013": {
+      "hint": "good-looking",
+      "source": "short form of Wiktionary"
+    },
+    "W1023": {
+      "hint": "plays (jugar)",
+      "source": "short form of Wiktionary"
+    },
+    "W1025": {
+      "hint": "I read (leer)",
+      "source": "short form of Wiktionary"
+    },
+    "W1026": {
+      "hint": "reads (leer)",
+      "source": "short form of Wiktionary"
+    },
+    "W1028": {
+      "hint": "I listen (escuchar)",
+      "source": "short form of Wiktionary"
+    },
+    "W1027": {
+      "hint": "to listen to",
+      "source": "short form of Wiktionary"
+    },
+    "W1011": {
+      "hint": "serious",
+      "source": "short form of Wiktionary"
+    },
+    "W1012": {
+      "hint": "shy",
+      "source": "short form of Wiktionary"
+    },
+    "W1008": {
+      "hint": "cheerful",
+      "source": "short form of Wiktionary"
+    },
+    "W1009": {
+      "hint": "nice",
+      "source": "short form of Wiktionary"
+    },
+    "W1040": {
+      "hint": "square",
+      "source": "short form of Wiktionary"
+    },
+    "W1042": {
+      "hint": "town, village",
+      "source": "short form of Wiktionary"
+    },
+    "W1031": {
+      "hint": "cinema",
+      "source": "short form of Wiktionary"
+    },
+    "W1037": {
+      "hint": "bus",
+      "source": "short form of Wiktionary"
+    },
+    "W1036": {
+      "hint": "car",
       "source": "short form of Wiktionary"
     }
   },

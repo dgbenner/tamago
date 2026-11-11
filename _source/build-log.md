@@ -644,3 +644,10 @@ Part 3, Lingua Libre recordings:
 - Senses for the 74 words (word-senses.json; hôtel modern sense, fête party, seul alone, client customer, verb forms by lemma), hints for plurals, feminines and verb forms. Pull and review per circle in content/sweep/packs-review.json; drafts S11261 to S11676; each circle approved with a grammar note.
 - pull-units: the opened set is cut at u.order. a1-coverage: œ to oe, vacances to vacance.
 - French: 1,488 sentences, 1,074 Tatoeba, 414 drafts. Core 242 of 600 (40%), main path 214; full 280 of 1,196 (23%). npm test: 75 pass (test/vocab-catchup.test.js). Chrome: Catch-Up locked, then open at row 5, filled by misses, its session; Type the Word right and wrong; axe clean on the tree, the sheet, a Catch-Up question and QT18.
+
+## 2026-11-10: Section 9, Spanish and German Part 1
+
+- scripts/add-vocab-part1.mjs: es and de v1 to v2 (course.mjs). U51 to U53 (words W1001 to W1043, CD251 to CD253), C01 and C02, the section 9 framework.
+- Spanish: senses (guapo Adjective, leo by leer, pie foot), hints; U51 19 drafts, U52 15, U53 14. German: U51 rebuilt as People and Feelings (W1001 to W1008 now people words; senses and hints redone; packs-review U51 cleared), U52 moved to row 5 (order 7.2), Zug by the railway sense; U51 13 drafts, U52 23, U53 16.
+- assign-icons: Part 1 vocabulary circles by the group before them, help rolls excluded (the maki pool holds only the rolls, so nigiri).
+- Spanish 1,030 sentences (836 Tatoeba, 194 drafts); German 1,045 (908 Tatoeba, 137 drafts). npm test 75 pass; Chrome: both trees show the circles and slots, U52 round 3 runs with Type the Word, axe clean, no page errors.
