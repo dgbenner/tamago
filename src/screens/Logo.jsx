@@ -7,8 +7,17 @@ export const LETTERS = [
   ['M369 72.5A27.5 27.5 0 1 0 314 72.5A27.5 27.5 0 1 0 369 72.5', 'M369 45V103C369 124 355 134 341 134C330 134 321 129 317 121'], // g
   ['M422.5 45A27.5 27.5 0 1 0 422.5 100A27.5 27.5 0 1 0 422.5 45'], // o
 ]
-export const VIEW = { x: -16, y: -6, width: 482, height: 156 }
+// Letter spacing: how far each letter moves right of its drawn position (Dan's design lab, 2026-11-10). The same gaps
+// apply to every wordmark; the view widens by the total so the word stays centred.
+export const LETTER_X = [0, 0, 0, 0, 0, 0]
+const EXTRA = LETTER_X[LETTER_X.length - 1]
+export const VIEW = { x: -16, y: -6, width: 482 + EXTRA, height: 156 }
 export const viewBox = `${VIEW.x} ${VIEW.y} ${VIEW.width} ${VIEW.height}`
+
+// One letter's group: the hook the design lab moves (className wm-letter, data-letter) and the baked offset.
+export function Letter({ i, children }) {
+  return <g className="wm-letter" data-letter={i} transform={`translate(${LETTER_X[i]} 0)`}>{children}</g>
+}
 
 export function LetterStrokes({ d, mask }) {
   return (
@@ -31,7 +40,7 @@ export default function Logo() {
   return (
     <div className="flex w-36 flex-col items-center">
       <svg className="w-full" viewBox={viewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
-        {LETTERS.map((strokes, i) => <LetterStrokes key={i} d={strokes.join('')} />)}
+        <g className="wm-letters">{LETTERS.map((strokes, i) => <Letter key={i} i={i}><LetterStrokes d={strokes.join('')} /></Letter>)}</g>
       </svg>
       <SushiMark className="relative z-10 -mt-[9%] w-[40%]" />
     </div>
@@ -44,7 +53,7 @@ export function LogoInline({ className = '' }) {
   return (
     <div role="img" aria-label="Tamago" className={className}>
       <svg className="block w-[103px]" viewBox={viewBox} aria-hidden="true" fill="none" strokeLinecap="round" strokeLinejoin="round">
-        {LETTERS.map((strokes, i) => <path key={i} d={strokes.join('')} stroke="var(--accent)" strokeWidth="15" />)}
+        <g className="wm-letters">{LETTERS.map((strokes, i) => <Letter key={i} i={i}><path d={strokes.join('')} stroke="var(--accent)" strokeWidth="15" /></Letter>)}</g>
       </svg>
     </div>
   )

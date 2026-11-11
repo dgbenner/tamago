@@ -28,6 +28,14 @@ const SECTIONS = [
         { key: 'splash-sushi-x', label: 'Sushi left / right', min: -200, max: 200, step: 1, unit: 'px', def: 0 },
         { key: 'splash-overlap', label: 'Sushi overlap (up is negative)', min: -40, max: 30, step: 0.5, unit: '%', def: -14.5 },
       ] },
+      { title: 'Letter spacing (wordmark units, about 1px each on this screen)', controls: [
+        { key: 'wm-track', label: 'Tracking (every gap)', min: -40, max: 80, step: 0.5, unit: '', def: 0 },
+        { key: 'wm-gap1', label: 'T to a', min: -60, max: 100, step: 0.5, unit: '', def: 0 },
+        { key: 'wm-gap2', label: 'a to m', min: -60, max: 100, step: 0.5, unit: '', def: 0 },
+        { key: 'wm-gap3', label: 'm to a', min: -60, max: 100, step: 0.5, unit: '', def: 0 },
+        { key: 'wm-gap4', label: 'a to g', min: -60, max: 100, step: 0.5, unit: '', def: 0 },
+        { key: 'wm-gap5', label: 'g to o', min: -60, max: 100, step: 0.5, unit: '', def: 0 },
+      ] },
       { title: 'Choose Your Language', controls: [
         { key: 'choose-top', label: 'Space above', min: 0, max: 160, step: 1, unit: 'px', def: 64.6 },
         { key: 'choose-x', label: 'Left / right', min: -300, max: 300, step: 1, unit: 'px', def: 0 },
@@ -86,6 +94,12 @@ const load = () => { try { return { ...DEFAULTS, ...JSON.parse(localStorage.getI
 const apply = (values) => {
   const root = document.documentElement
   for (const c of ALL) root.style.setProperty(`--lab-${c.key}`, `${values[c.key]}${c.unit}`)
+  // Letter spacing: each letter moves by the gaps before it (plus tracking per gap), on top of the baked LETTER_X;
+  // the whole word shifts left by half the total so it stays centred.
+  let x = 0
+  const xs = LETTER_X.map((baked, i) => { if (i) x += values['wm-track'] + values[`wm-gap${i}`]; return baked + x })
+  xs.forEach((v, i) => root.style.setProperty(`--lab-wm-x${i}`, `${v}px`))
+  root.style.setProperty('--lab-wm-shift', `${-(xs[5] - LETTER_X[5]) / 2}px`)
 }
 
 function Slider({ c, value, onChange }) {
@@ -111,7 +125,9 @@ function Panel({ splash, setSplash }) {
   useEffect(() => { document.documentElement.dataset.theme = theme }, [theme])
   const set = (key, v) => setValues((s) => ({ ...s, [key]: v }))
   const changedOnly = Object.fromEntries(ALL.filter((c) => values[c.key] !== c.def).map((c) => [c.key, `${values[c.key]}${c.unit}`]))
-  const text = JSON.stringify(changedOnly, null, 2)
+  let lx = 0
+  const letterX = LETTER_X.map((baked, i) => { if (i) lx += values['wm-track'] + values[`wm-gap${i}`]; return Math.round((baked + lx) * 2) / 2 })
+  const text = JSON.stringify(changedOnly, null, 2) + (letterX.some((v, i) => v !== LETTER_X[i]) ? `\n\nLETTER_X = [${letterX.join(', ')}]` : '')
   const copy = async () => { try { await navigator.clipboard.writeText(text); setCopied(true); setTimeout(() => setCopied(false), 1200) } catch { /* */ } }
   if (!open) return <button className="lab-reopen" onClick={() => setOpen(true)}>Lab</button>
   return (
@@ -154,7 +170,7 @@ const tablesFor = { fr: () => import('./lib/tables-fr.js'), es: () => import('./
 const [{ course }, { useTables }] = await Promise.all([import('./lib/course.js'), import('./lib/content.js')])
 const { tables } = await tablesFor[course.id]()
 useTables(tables)
-const [{ default: App }, { default: Splash }] = await Promise.all([import('./App.jsx'), import('./screens/Splash.jsx')])
+const [{ default: App }, { default: Splash }, { LETTER_X }] = await Promise.all([import('./App.jsx'), import('./screens/Splash.jsx'), import('./screens/Logo.jsx')])
 
 function Lab() {
   const [splash, setSplash] = useState(false)

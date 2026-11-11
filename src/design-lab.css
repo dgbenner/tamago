@@ -21,6 +21,16 @@
 .splash-choose img { width: var(--lab-flag-size); height: var(--lab-flag-size); }
 .splash-choose button > span { font-size: var(--lab-flag-label); }
 
+/* Wordmark letter spacing: CSS transforms on the SVG groups, in the drawing's own units; the SVG shows what spills past its box. */
+.splash-wordmark, .hdr-wordmark svg { overflow: visible; }
+.wm-letters { transform: translateX(var(--lab-wm-shift, 0px)); }
+.wm-letter[data-letter='0'] { transform: translateX(var(--lab-wm-x0, 0px)); }
+.wm-letter[data-letter='1'] { transform: translateX(var(--lab-wm-x1, 0px)); }
+.wm-letter[data-letter='2'] { transform: translateX(var(--lab-wm-x2, 0px)); }
+.wm-letter[data-letter='3'] { transform: translateX(var(--lab-wm-x3, 0px)); }
+.wm-letter[data-letter='4'] { transform: translateX(var(--lab-wm-x4, 0px)); }
+.wm-letter[data-letter='5'] { transform: translateX(var(--lab-wm-x5, 0px)); }
+
 /* Home header */
 .home-header { padding-top: var(--lab-hdr-pt); padding-bottom: var(--lab-hdr-pb); }
 .hdr-brand { transform: translate(var(--lab-brand-x), var(--lab-brand-y)) scale(var(--lab-brand-scale)); transform-origin: left center; gap: var(--lab-brand-gap); }
