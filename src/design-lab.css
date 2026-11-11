@@ -1,0 +1,66 @@
+/* Design Lab only (design-lab.html). Unlayered, so every rule here beats the app's Tailwind utilities. Each value comes
+   from a --lab-* variable the panel sets on <html>; the defaults below equal the live app, so nothing moves until a
+   slider does. */
+:root {
+  --lab-splash-width: 380px; --lab-splash-y: 0px; --lab-splash-wordmark: 100%; --lab-splash-sushi: 40%; --lab-splash-sushi-x: 0px; --lab-splash-overlap: -9%;
+  --lab-choose-top: 34px; --lab-choose-x: 0px; --lab-choose-y: 0px; --lab-choose-scale: 1; --lab-choose-title: 21.25px; --lab-choose-gap: 17px;
+  --lab-flag-size: 85px; --lab-flag-gap: 17px; --lab-flag-label: 14.875px;
+  --lab-hdr-pt: 6.4px; --lab-hdr-pb: 6.4px;
+  --lab-brand-x: 0px; --lab-brand-y: 0px; --lab-brand-scale: 1; --lab-brand-sushi: 46.75px; --lab-brand-sushi-y: 0px; --lab-brand-wordmark: 103px; --lab-brand-gap: 8.5px;
+  --lab-tools-x: 0px; --lab-tools-y: 0px; --lab-tools-scale: 1; --lab-tools-flag: 34px; --lab-tools-gear: 24px; --lab-tools-gap: 12.75px;
+  --lab-tree-gap: 102px; --lab-tree-row-gap: 17px; --lab-circle-scale: 1; --lab-tree-top: 4.25px;
+}
+
+/* Opening screen */
+.splash-stack { width: min(84vw, var(--lab-splash-width)); transform: translateY(var(--lab-splash-y)); }
+.splash-wordmark { width: var(--lab-splash-wordmark); }
+.splash-sushi { width: var(--lab-splash-sushi); margin-top: var(--lab-splash-overlap); transform: translateX(var(--lab-splash-sushi-x)); }
+.splash-choose { margin-top: var(--lab-choose-top); gap: var(--lab-choose-gap); transform: translate(var(--lab-choose-x), var(--lab-choose-y)) scale(var(--lab-choose-scale)); transform-origin: top center; }
+.splash-choose h1 { font-size: var(--lab-choose-title); }
+.splash-choose ul { gap: var(--lab-flag-gap); }
+.splash-choose img { width: var(--lab-flag-size); height: var(--lab-flag-size); }
+.splash-choose button > span { font-size: var(--lab-flag-label); }
+
+/* Home header */
+.home-header { padding-top: var(--lab-hdr-pt); padding-bottom: var(--lab-hdr-pb); }
+.hdr-brand { transform: translate(var(--lab-brand-x), var(--lab-brand-y)) scale(var(--lab-brand-scale)); transform-origin: left center; gap: var(--lab-brand-gap); }
+.hdr-sushi { width: var(--lab-brand-sushi); transform: translateY(var(--lab-brand-sushi-y)); }
+.hdr-wordmark svg { width: var(--lab-brand-wordmark); }
+.hdr-lang, .hdr-gear { transform: translate(var(--lab-tools-x), var(--lab-tools-y)) scale(var(--lab-tools-scale)); transform-origin: right center; }
+.hdr-lang img { width: var(--lab-tools-flag); height: var(--lab-tools-flag); }
+.hdr-gear svg { width: var(--lab-tools-gear); height: var(--lab-tools-gear); }
+.hdr-gear { margin-left: calc(var(--lab-tools-gap) - 12.75px); }
+
+/* Tree: zoom scales a circle and its title together, keeping the layout honest (a transform would leave the gaps behind). */
+.home-tree { row-gap: var(--lab-tree-gap); padding-top: var(--lab-tree-top); }
+.home-tree > li { column-gap: var(--lab-tree-row-gap); zoom: var(--lab-circle-scale); }
+
+/* The panel */
+.lab-panel {
+  position: fixed; top: 84px; bottom: 12px; z-index: 100; width: 340px; overflow-y: auto; overscroll-behavior: contain;
+  padding: 10px 12px 16px; border-radius: 12px; border: 1px solid rgba(0, 0, 0, 0.12); background: rgba(255, 255, 255, 0.96); color: #1c1a17;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18); font: 12.5px/1.35 -apple-system, system-ui, sans-serif; user-select: none; -webkit-user-select: none;
+}
+.lab-right { right: 12px; }
+.lab-left { left: 12px; }
+.lab-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; font-size: 14px; }
+.lab-head-tools { display: flex; gap: 4px; }
+.lab-panel button { border: 1px solid rgba(0, 0, 0, 0.18); border-radius: 6px; background: #fff; padding: 2px 8px; font: inherit; cursor: pointer; }
+.lab-panel button:disabled { opacity: 0.35; cursor: default; }
+.lab-toggle { display: flex; align-items: center; gap: 6px; margin: 6px 0 10px; font-weight: 600; }
+.lab-panel details { margin-bottom: 6px; border-top: 1px solid rgba(0, 0, 0, 0.1); padding-top: 6px; }
+.lab-panel summary { cursor: pointer; font-weight: 700; font-size: 13px; padding: 2px 0; }
+.lab-note { margin: 2px 0 6px; color: #645e53; }
+.lab-panel fieldset { border: 0; margin: 4px 0 8px; padding: 0; }
+.lab-panel legend { font-weight: 600; color: #645e53; padding: 0; margin-bottom: 2px; display: flex; gap: 8px; align-items: baseline; }
+.lab-reset { font-size: 11px; padding: 0 6px; }
+.lab-row { display: grid; grid-template-columns: 1fr 64px 18px 24px; align-items: center; column-gap: 6px; padding: 2px 0; }
+.lab-label { grid-column: 1 / -1; color: #1c1a17; }
+.lab-changed .lab-label { color: #d3460f; font-weight: 600; }
+.lab-row input[type='range'] { width: 100%; accent-color: #0b7a43; margin: 0; }
+.lab-row input[type='number'] { width: 64px; border: 1px solid rgba(0, 0, 0, 0.18); border-radius: 6px; padding: 1px 4px; font: inherit; background: #fff; user-select: text; -webkit-user-select: text; }
+.lab-unit { color: #645e53; }
+.lab-row button { padding: 0 4px; }
+.lab-panel textarea { width: 100%; box-sizing: border-box; font: 11px/1.4 ui-monospace, Menlo, monospace; border: 1px solid rgba(0, 0, 0, 0.18); border-radius: 6px; padding: 6px; user-select: text; -webkit-user-select: text; background: #fff; color: #1c1a17; }
+.lab-actions { display: flex; gap: 6px; margin-top: 6px; }
+.lab-reopen { position: fixed; right: 12px; top: 84px; z-index: 100; border: 1px solid rgba(0, 0, 0, 0.18); border-radius: 8px; background: rgba(255, 255, 255, 0.96); padding: 4px 12px; font: 600 13px -apple-system, system-ui, sans-serif; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18); cursor: pointer; }

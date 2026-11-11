@@ -283,15 +283,15 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
           the utilities right, like a desktop site. */}
       <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(0.25rem,env(safe-area-inset-top))] pb-1 lg:mx-0 lg:px-0 lg:py-1.5">
         {/* The course flag (points sat here until they were hidden): opens the language pop-up. */}
-        <span className="flex w-20 items-center justify-start gap-2 lg:order-2 lg:w-auto lg:justify-end">
+        <span className="hdr-lang flex w-20 items-center justify-start gap-2 lg:order-2 lg:w-auto lg:justify-end">
           {showPoints && <Points total={pointsTotal} today={pointsToday} />}
           <button onClick={() => setLanguages(true)} aria-label={`Language: ${course.name}`} className="icon-btn -ml-2 lg:ml-0"><img src={course.flag} alt="" className="h-8 w-8 object-contain" /></button>
         </span>
-        <span className="flex items-center gap-2 lg:order-1 lg:mr-auto">
-          <SushiMark className="hidden w-11 lg:block" />
-          <LogoInline />
+        <span className="hdr-brand flex items-center gap-2 lg:order-1 lg:mr-auto">
+          <SushiMark className="hdr-sushi hidden w-11 lg:block" />
+          <LogoInline className="hdr-wordmark" />
         </span>
-        <span className="flex w-20 justify-end lg:order-3 lg:w-auto"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
+        <span className="hdr-gear flex w-20 justify-end lg:order-3 lg:w-auto"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
       </header>
 
       <div className="home-path">
@@ -308,7 +308,7 @@ export default function Home({ wide, panel, rows, markers, levelLabel, pointsTod
 
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
       {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
-      <ol className="flex flex-1 flex-col items-center gap-24 pt-1 pb-24">
+      <ol className="home-tree flex flex-1 flex-col items-center gap-24 pt-1 pb-24">
         {rows.map((row, i) => {
           const n = row.row ?? i + 1 // the row's own number, not its place in the list
           const cp = checkpoints.find((x) => x.afterRow === n)
