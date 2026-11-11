@@ -1,10 +1,8 @@
 #!/bin/sh
-# Before every push (CLAUDE.md, Testing and "Two sites"):
-# 1. dev is the working site: a push to dev must carry the next version name (`npm run bump`), one past the
-#    highest on dev and main;
-# 2. main is the stable site and changes only by a promote: the pushed commit must already be on GitHub's dev
-#    (`git merge --ff-only origin/dev` on main), so main gets exactly what dev showed, under the same name;
-# 3. the mobile smoke test must pass, for a push to either: iPhone and iPad emulation in WebKit, with touch.
+# Before every push (CLAUDE.md, Testing and "One site"):
+# 1. a push to main (the live site) or to dev (kept for later, unused) must carry the next version name
+#    (`npm run bump`), one past the highest on main and dev;
+# 2. the mobile smoke test must pass: iPhone and iPad emulation in WebKit, with touch.
 # Turned on for this clone by `git config core.hooksPath .githooks` (npm install does it, package.json "prepare").
 cd "$(git rev-parse --show-toplevel)" || exit 1
 number() { node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).number)}catch{console.log("")}})'; }
@@ -14,18 +12,19 @@ git fetch -q origin 2>/dev/null
 while read -r local_ref local_sha remote_ref remote_sha; do
   [ "$local_sha" = "$zero" ] && continue # deleting a branch
   case "$remote_ref" in
-    refs/heads/dev)
+    refs/heads/main|refs/heads/dev)
+      [ "$local_sha" = "$remote_sha" ] && continue # nothing new on this branch
       new=$(at "$local_sha"); dev=$(at origin/dev); main=$(at origin/main)
       top=${dev:-0}; [ "${main:-0}" -gt "$top" ] && top=$main
-      if [ "$top" -gt 0 ] && [ "$new" != "$((top + 1))" ] && [ "$local_sha" != "$(git rev-parse -q --verify origin/dev)" ]; then
-        echo "Push stopped: every push to dev gets the next version name. The highest so far is deploy $top; this push is deploy ${new:-none}."
+      # The next name, one past the highest on either branch; or, for main, the name dev already shows and main
+      # doesn't yet (main taking dev's work).
+      ok=no
+      [ "$top" -eq 0 ] && ok=yes
+      [ "${new:-0}" -eq "$((top + 1))" ] && ok=yes
+      [ "$remote_ref" = refs/heads/main ] && [ "${new:-0}" -eq "$top" ] && [ "${main:-0}" -lt "$top" ] && ok=yes
+      if [ "$ok" = no ]; then
+        echo "Push stopped: every deploy gets the next version name. The highest so far is deploy $top; this push is deploy ${new:-none}."
         echo "Run: npm run bump, commit src/version.json, and push again."
-        exit 1
-      fi ;;
-    refs/heads/main)
-      if ! git merge-base --is-ancestor "$local_sha" origin/dev 2>/dev/null; then
-        echo "Push stopped: main changes only by a promote, and this commit isn't on dev."
-        echo "Push the work to dev first; on Dan's \"promote\": git checkout main && git merge --ff-only origin/dev && git push origin main"
         exit 1
       fi ;;
   esac
