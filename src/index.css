@@ -181,6 +181,11 @@ button.chip-drag {
   /* Chips the typed letters still match (typing to pick chips): the orange edge of a selected item, no fill. */
   .chip-lit { border-color: var(--orange); }
   /* Which site a build is on, beside the version name, on any site but main (version.js `site`). */
+  /* The parts carousel under the part cap (Home.jsx PartCarousel): arrows beside one card, the cards on a track. */
+  .carousel-arrow { @apply flex size-11 shrink-0 items-center justify-center rounded-full border-2 border-line bg-surface text-2xl font-semibold; }
+  .carousel-arrow:disabled { @apply text-muted opacity-40; }
+  /* Slides by `left`, not transform: Firefox snaps composited layers to whole pixels, which judders. */
+  .carousel-track { position: relative; left: 0; transition: left 0.28s ease; }
   .site-tag { @apply rounded-md border-2 border-orange px-1.5 text-sm font-semibold text-orange; }
   /* Chip drag and drop (Lesson.jsx useChipDrag): a press on a chip is the app's, not the page's (no scroll, no text
      selection, no iOS callout), so a finger can drag it; the copy under the finger, the orange drop bar, and the
@@ -353,6 +358,9 @@ button.chip-drag {
     }
     .pair-shake {
       animation: none;
+    }
+    .carousel-track {
+      transition: none;
     }
     .btn-primary, .btn-submit, .btn-secondary, .choice, .chip {
       transition: none;

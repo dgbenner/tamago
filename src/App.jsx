@@ -950,6 +950,8 @@ export default function App() {
     switcher: builtParts.map((n) => ({ n, title: partList.find((x) => x.part === n)?.title ?? '' })),
     review: shownPart < lastPart ? { available: partDone(shownPart), done: partReviews[shownPart] ?? null, units: partCircles(shownPart).map((u) => tables.units.find((x) => x.unit_id === u).title) } : null,
     next: nextPart ? { n: nextPart.part, title: nextPart.title, summary: nextPart.summary, unlocked: partUnlocked(nextPart.part), built: partCircles(nextPart.part).length > 0 } : null,
+    // Every part after this one, for the carousel under the cap (Dan, 2026-11-11).
+    upcoming: partList.filter((x) => x.part > shownPart).map((x) => ({ n: x.part, title: x.title, summary: x.summary, unlocked: partUnlocked(x.part), built: partCircles(x.part).length > 0 })),
   } : null
   const rows = [...new Set(shownLayout.map((t) => t.row))].sort((a, b) => a - b).map((r) => Object.assign(shownLayout.filter((t) => t.row === r).sort((a, b) => a.position - b.position).map((t) => {
     // The Your topic node stands for the chosen pack once there is one; it keeps the node's place number.

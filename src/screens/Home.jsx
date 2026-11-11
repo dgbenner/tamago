@@ -214,7 +214,6 @@ function PartReviewCard({ part, onStart, onClose }) {
   )
 }
 function PartEnd({ part, onReview, onPartView }) {
-  const next = part.next
   return (
     <>
       {part.review && (
@@ -231,22 +230,62 @@ function PartEnd({ part, onReview, onPartView }) {
         <span>End of A1 · Part {part.n} of {part.total}</span>
         <span className="h-0.5 flex-1 bg-line" />
       </li>
-      {next && (
-        <li className="w-full">
-          <div className={`flex flex-col gap-1 rounded-2xl border-2 border-line bg-surface p-4`}>
-            <p className="flex items-center gap-2 text-sm text-muted">
-              {!(next.unlocked && next.built) && <span className="[&_svg]:size-4"><IconLock /></span>}
-              A1 · Part {next.n} of {part.total}
-            </p>
-            <p className="text-lg font-semibold">{next.title}</p>
-            <p className="text-sm text-muted">{next.summary}</p>
-            {next.unlocked && next.built
-              ? <button onClick={() => onPartView(next.n)} className="btn-submit mt-3">Go to Part {next.n}</button>
-              : <p className="mt-2 text-sm">{next.unlocked ? 'Being written. It opens here as soon as it\'s ready.' : `Opens when every circle in Part ${part.n} has finished its first lessons.`}</p>}
-          </div>
-        </li>
-      )}
+      {part.upcoming?.length > 0 && <li className="w-full"><PartCarousel part={part} onPartView={onPartView} /></li>}
     </>
+  )
+}
+// The parts still ahead, as a carousel (Dan, 2026-11-11): one card on screen, left and right arrows, a swipe, or the
+// arrow keys while it has focus. Each card: the part's title, summary and whether it's open. The tree's own test
+// shortcuts ignore arrows and swipes in here.
+function PartCarousel({ part, onPartView }) {
+  const cards = part.upcoming
+  const [at, setAt] = useState(0)
+  const i = Math.min(at, cards.length - 1)
+  const go = (d) => setAt((x) => Math.max(0, Math.min(cards.length - 1, Math.min(x, cards.length - 1) + d)))
+  const swipe = useRef(null)
+  const lockNote = (c) => {
+    if (c.unlocked && c.built) return null
+    if (c.unlocked) return 'Being written. It opens here as soon as it\'s ready.'
+    return c.n === part.n + 1 ? `Opens when every circle in Part ${part.n} has finished its first lessons.` : `Opens after Part ${c.n - 1}.`
+  }
+  return (
+    <section data-carousel aria-roledescription="carousel" aria-label="Parts still ahead" className="flex flex-col gap-2"
+      onKeyDown={(e) => {
+        if (e.target.closest('button[data-go]')) return
+        if (e.key === 'ArrowRight') { e.preventDefault(); e.stopPropagation(); go(1) }
+        if (e.key === 'ArrowLeft') { e.preventDefault(); e.stopPropagation(); go(-1) }
+      }}
+      onTouchStart={(e) => { const t = e.touches[0]; swipe.current = e.touches.length === 1 ? { x: t.clientX, y: t.clientY } : null }}
+      onTouchEnd={(e) => {
+        const s = swipe.current, t = e.changedTouches[0]; swipe.current = null
+        if (!s || !t) return
+        const dx = t.clientX - s.x
+        if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(t.clientY - s.y) * 1.5) go(dx < 0 ? 1 : -1)
+      }}>
+      <div className="flex items-center gap-2">
+        <button onClick={() => go(-1)} disabled={i === 0} aria-label="Previous part" className="carousel-arrow">‹</button>
+        <div className="min-w-0 flex-1 overflow-hidden rounded-2xl">
+          <div className="carousel-track flex" style={{ left: `-${i * 100}%` }}>
+            {cards.map((c, k) => (
+              <div key={c.n} role="group" aria-roledescription="slide" aria-label={`Part ${c.n} of ${part.total}`} aria-hidden={k !== i} inert={k !== i}
+                className="flex w-full shrink-0 flex-col gap-1 rounded-2xl border-2 border-line bg-surface p-4">
+                <p className="flex items-center gap-2 text-sm text-muted">
+                  {!(c.unlocked && c.built) && <span className="[&_svg]:size-4"><IconLock /></span>}
+                  A1 · Part {c.n} of {part.total}{!(c.unlocked && c.built) && <span className="sr-only">, locked</span>}
+                </p>
+                <p className="text-lg font-semibold">{c.title}</p>
+                <p className="text-sm text-muted">{c.summary}</p>
+                {lockNote(c)
+                  ? <p className="mt-2 text-sm">{lockNote(c)}</p>
+                  : <button data-go onClick={() => onPartView(c.n)} className="btn-submit mt-3">Go to Part {c.n}</button>}
+              </div>
+            ))}
+          </div>
+        </div>
+        <button onClick={() => go(1)} disabled={i === cards.length - 1} aria-label="Next part" className="carousel-arrow">›</button>
+      </div>
+      <p className="text-center text-sm text-muted" aria-live="polite">Part {cards[i].n} · {i + 1} of {cards.length} ahead</p>
+    </section>
   )
 }
 // The part switcher, at the top of the tree once more than one part is open.
@@ -384,11 +423,12 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
     const onKey = (e) => {
       if (e.key !== 'ArrowRight' || e.repeat || e.metaKey || e.altKey || e.ctrlKey || e.shiftKey || typing()) return
       if (e.target.closest?.('[data-state]')) return // a focused circle handles its own arrow
+      if (e.target.closest?.('[data-carousel]')) return // the parts carousel takes its own arrows
       e.preventDefault(); pass()
     }
     // Touch events, not pointer events: the browser cancels a pointer as soon as it starts panning.
     let start = null
-    const down = (e) => { const t = e.touches[0]; start = e.touches.length === 1 && t.clientX >= window.innerWidth - 32 ? { x: t.clientX, y: t.clientY } : null }
+    const down = (e) => { const t = e.touches[0]; start = e.touches.length === 1 && !e.target.closest?.('[data-carousel]') && t.clientX >= window.innerWidth - 32 ? { x: t.clientX, y: t.clientY } : null }
     const up = (e) => { const d = start; const t = e.changedTouches[0]; start = null; if (d && t && d.x - t.clientX > 60 && Math.abs(t.clientY - d.y) < 60) pass() }
     window.addEventListener('keydown', onKey)
     window.addEventListener('touchstart', down, { passive: true })
