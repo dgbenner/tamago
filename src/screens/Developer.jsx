@@ -4,7 +4,10 @@ import { getAll, resetProgress } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
 import { IconBack } from './icons.jsx'
 import { site, version } from '../lib/version.js'
-import { TL, course, reloadSkippingSplash } from '../lib/course.js'
+import { COURSES, TL, course, jumpInCourse, reloadSkippingSplash } from '../lib/course.js'
+import partsFr from '../content/parts.json'
+import partsEs from '../content-es/parts.json'
+import partsDe from '../content-de/parts.json'
 
 // The Developer area (Dan, 2026-11-10): everything for building and testing Tamago, out of Settings and away from the
 // learning tools. Testing controls first, then one large accordion per document: Course Snapshot (built from the
@@ -120,6 +123,34 @@ function Doc({ doc, lib, loadLib }) {
 const TITLES = [['model-story', 'Model Story'], ['craft-review', 'Craft Rubric'], ['grades', 'Latest Grades'], ['test-notes', 'Test Notes'], ['features', 'Feature List'],
   ['question-types', 'Question Types'], ['build-phases', 'Build Phases'], ['autonomous-build', 'Autonomous Brief'], ['check-in', 'Check-In']]
 
+// Jump to Part (Dan, 2026-11-11): for each language, a button per part that marks every circle in the earlier parts
+// as round 1 complete and opens that part, as Dev: Jump Here does on the tree. Another language opens first (a
+// reload), then jumps. A part with no circles yet can't be jumped to.
+const PARTS = { fr: partsFr, es: partsEs, de: partsDe }
+function JumpToPart({ onJumpPart }) {
+  return (
+    <div className="flex flex-col gap-3">
+      <p className="font-semibold">Jump to Part</p>
+      {COURSES.filter((c) => c.ready).map((c) => (
+        <div key={c.id} role="group" aria-label={`Jump to a part of ${c.name}`} className="flex flex-col gap-2">
+          <p className="text-sm text-muted">{c.name}{c.id === course.id ? ' (this language)' : ''}</p>
+          <div className="flex flex-wrap gap-2">
+            {[...PARTS[c.id]].sort((a, b) => a.part - b.part).map((p) => {
+              const built = p.status === 'live'
+              return (
+                <button key={p.part} disabled={!built} title={built ? p.title : `${p.title}: no circles built yet`}
+                  aria-label={`Jump to ${c.name} Part ${p.part}, ${p.title}${built ? '' : ', not built yet'}`}
+                  onClick={() => (c.id === course.id ? onJumpPart(p.part) : jumpInCourse(c.id, p.part))}
+                  className="dev-jump disabled:opacity-40">Part {p.part}</button>
+              )
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
+
 // Reset Progress (Dan, 2026-11-10): wipes this language's progress on this device, after a confirmation on the page.
 function ResetProgress() {
   const [asking, setAsking] = useState(false)
@@ -137,7 +168,7 @@ function ResetProgress() {
   )
 }
 
-export default function Developer({ settings, onChange, snapshot, onBack, onVariants, onFlags, onNativeCheck, onForum, onTryA1 }) {
+export default function Developer({ settings, onChange, snapshot, onBack, onVariants, onFlags, onNativeCheck, onForum, onTryA1, onJumpPart }) {
   const [lib, setLib] = useState(null)
   const loadLib = () => import('../lib/devnotes.js').then((l) => { setLib(l); return l })
   const docFor = (id) => lib?.DOCS.find((d) => d.id === id) ?? { id, title: TITLES.find((t) => t[0] === id)[1] }
@@ -163,6 +194,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
           <button onClick={onForum} className="btn-secondary">Forum</button>
           <button onClick={onTryA1} className="btn-secondary sm:col-span-2">Try the A1 Task Types</button>
         </div>
+        <JumpToPart onJumpPart={onJumpPart} />
         <ResetProgress />
       </section>
 

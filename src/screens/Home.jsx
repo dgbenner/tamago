@@ -213,7 +213,7 @@ function PartReviewCard({ part, onStart, onClose }) {
     </Sheet>
   )
 }
-function PartEnd({ part, onReview, onPartView }) {
+function PartEnd({ part, onReview, onPartView, onJumpPart }) {
   return (
     <>
       {part.review && (
@@ -230,14 +230,14 @@ function PartEnd({ part, onReview, onPartView }) {
         <span>End of A1 · Part {part.n} of {part.total}</span>
         <span className="h-0.5 flex-1 bg-line" />
       </li>
-      {part.upcoming?.length > 0 && <li className="w-full"><PartCarousel part={part} onPartView={onPartView} /></li>}
+      {part.upcoming?.length > 0 && <li className="w-full"><PartCarousel part={part} onPartView={onPartView} onJumpPart={onJumpPart} /></li>}
     </>
   )
 }
 // The parts still ahead, as a carousel (Dan, 2026-11-11): one card on screen, left and right arrows, a swipe, or the
-// arrow keys while it has focus. Each card: the part's title, summary and whether it's open. The tree's own test
-// shortcuts ignore arrows and swipes in here.
-function PartCarousel({ part, onPartView }) {
+// arrow keys while it has focus. Each card: the part's title, summary and whether it's open. With Testing Shortcuts
+// on, each card also has Dev: Jump Here. The tree's own test shortcuts ignore arrows and swipes in here.
+function PartCarousel({ part, onPartView, onJumpPart }) {
   const cards = part.upcoming
   const [at, setAt] = useState(0)
   const i = Math.min(at, cards.length - 1)
@@ -251,7 +251,7 @@ function PartCarousel({ part, onPartView }) {
   return (
     <section data-carousel aria-roledescription="carousel" aria-label="Parts still ahead" className="flex flex-col gap-2"
       onKeyDown={(e) => {
-        if (e.target.closest('button[data-go]')) return
+        if (e.target.closest('button[data-jump], button[data-go]')) return
         if (e.key === 'ArrowRight') { e.preventDefault(); e.stopPropagation(); go(1) }
         if (e.key === 'ArrowLeft') { e.preventDefault(); e.stopPropagation(); go(-1) }
       }}
@@ -278,6 +278,9 @@ function PartCarousel({ part, onPartView }) {
                 {lockNote(c)
                   ? <p className="mt-2 text-sm">{lockNote(c)}</p>
                   : <button data-go onClick={() => onPartView(c.n)} className="btn-submit mt-3">Go to Part {c.n}</button>}
+                {onJumpPart && (c.built
+                  ? <button data-jump onClick={() => onJumpPart(c.n)} className="dev-jump mt-3">Dev: Jump Here</button>
+                  : <p className="mt-3 text-xs text-muted">Dev: no circles built for this part yet.</p>)}
               </div>
             ))}
           </div>
@@ -402,7 +405,7 @@ function Points({ total, today }) {
 }
 
 export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, streakLine, tools, onProgress, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
-  finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
+  finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
   const [cpPicked, setCpPicked] = useState(null)
   const [cuPicked, setCuPicked] = useState(null)
@@ -484,7 +487,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
           ]
         })}
         {finalCheck && <li><FinalNode fc={finalCheck} onPick={() => setFinalOpen(true)} /></li>}
-        {part && <PartEnd part={part} onReview={() => setReviewOpen(true)} onPartView={onPartView} />}
+        {part && <PartEnd part={part} onReview={() => setReviewOpen(true)} onPartView={onPartView} onJumpPart={onJumpPart} />}
         {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <Marker key={m.label} label={m.label} />)}
       </ol>
 

@@ -33,6 +33,12 @@ export function reloadSkippingSplash() { write(sessionStorage, SKIP, '1'); windo
 // True once, on the launch such a reload opens.
 export const skipSplash = (() => { const v = read(sessionStorage, SKIP); if (v) { try { sessionStorage.removeItem(SKIP) } catch { /* */ } } return Boolean(v) })()
 
+// Dev: Jump to Part on the Developer page for another language (Dan, 2026-11-11): the part waits here across the
+// reload that opens that language, and App jumps once the course has loaded. Read once.
+const JUMP = 'tamago-dev-jump'
+export function jumpInCourse(id, part) { write(sessionStorage, JUMP, String(part)); write(localStorage, KEY, id); reloadSkippingSplash() }
+export function takeDevJump() { const v = Number(read(sessionStorage, JUMP)); if (v) { try { sessionStorage.removeItem(JUMP) } catch { /* */ } } return v || 0 }
+
 // Settings are shared across courses: a copy lives outside the course databases.
 const SETTINGS = 'tamago-settings'
 export const sharedSettings = () => { try { return JSON.parse(read(localStorage, SETTINGS) ?? 'null') } catch { return null } }

@@ -186,6 +186,8 @@ button.chip-drag {
   .carousel-arrow:disabled { @apply text-muted opacity-40; }
   /* Slides by `left`, not transform: Firefox snaps composited layers to whole pixels, which judders. */
   .carousel-track { position: relative; left: 0; transition: left 0.28s ease; }
+  /* Developer-only buttons in the learner's screens: dashed, like the Developer item in Tools. */
+  .dev-jump { @apply rounded-xl border-2 border-dashed border-field px-4 py-2 text-sm font-semibold text-muted; }
   .site-tag { @apply rounded-md border-2 border-orange px-1.5 text-sm font-semibold text-orange; }
   /* Chip drag and drop (Lesson.jsx useChipDrag): a press on a chip is the app's, not the page's (no scroll, no text
      selection, no iOS callout), so a finger can drag it; the copy under the finger, the orange drop bar, and the

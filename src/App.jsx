@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, tables, unitContent } from './lib/content.js'
-import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, skipSplash } from './lib/course.js'
+import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, skipSplash, takeDevJump } from './lib/course.js'
 import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining, buildCatchUp, catchUpItems } from './lib/lesson.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
@@ -691,6 +691,34 @@ export default function App() {
     recordPass({ ...s, firstCorrect: graded, graded, misses: [] })
     setLastLine(`Passed for testing: ${tables.units.find((u) => u.unit_id === unitId)?.title}, round ${round}`)
   }
+  // Dev: Jump Here (Testing Shortcuts, Dan 2026-11-11): every circle in the parts before part n counts as round 1
+  // complete (its words as met), so part n opens, and the tree shows it with its first circle in hand. Circles
+  // already past round 1 keep their progress. Written to the store as ordinary progress, so it stays.
+  const jumpToPart = (n) => {
+    const updates = {}
+    const parts = tables.parts ?? [] // not partList: that is declared below the screens that return early (Developer)
+    for (const x of parts.filter((p) => p.part < n)) {
+      for (const u of partCircles(x.part)) {
+        const p = progressOf(u)
+        if (p.round_reached < 1) { updates[u] = { ...p, round_reached: 1, lessons_done: 0 }; put('unit_progress', updates[u]) }
+        for (const id of unitContent(u).wordOrder) seenWords.current.add(id)
+      }
+    }
+    putKv('seen_words', [...seenWords.current])
+    setProgressByUnit((p) => ({ ...p, ...updates }))
+    const first = layout.filter((t) => !isTopicNode(t.unit_id) && partOf(t.unit_id) === n).sort((a, b) => a.row - b.row || a.position - b.position)[0]?.unit_id
+    if (first) { setCurrentUnit(first); putKv('current_unit', first) }
+    setPartView(n); putKv('part_view', n)
+    leaveDeveloper()
+    const title = parts.find((p) => p.part === n)?.title
+    setLastLine(`Jumped for testing: Part ${n}${title ? `, ${title},` : ''} is open`)
+  }
+  // A jump asked for on the Developer page for another language runs once that language has loaded (takeDevJump).
+  useEffect(() => {
+    if (!ready) return
+    const n = takeDevJump()
+    if (n) jumpToPart(n)
+  }, [ready])
   const finish = (s) => {
     remove('kv', 'current_session')
     setSession(null)
@@ -885,7 +913,7 @@ export default function App() {
   if (screen === 'developer') {
     // Course Snapshot: exact numbers for both courses, worked out from the content each ships (src/lib/snapshot.js).
     const snapshot = { built: new Date(__BUILD_TIME__).toLocaleString('en-US', { dateStyle: 'long', timeStyle: 'short' }), workbooks: __WORKBOOKS__ }
-    return <Developer settings={settings} onChange={changeSettings} snapshot={snapshot} onBack={leaveDeveloper}
+    return <Developer settings={settings} onChange={changeSettings} snapshot={snapshot} onBack={leaveDeveloper} onJumpPart={jumpToPart}
       onTryA1={() => {
         // The four A1 task types on samples (Developer only): a practice session, kept out of scores and review.
         const sm = A1_SAMPLES[course.id]
@@ -998,6 +1026,7 @@ export default function App() {
       catchUps={catchUps.filter((c) => rows.some((r) => r.row === c.afterRow))} onCatchUp={startCatchUp}
       onCheckpoint={startCheckpoint} finalCheck={shownPart === lastPart ? finalInfo : null} onFinal={startFinal}
       part={partInfo} onPartView={(n) => { setPartView(n); putKv('part_view', n) }} onPartReview={() => startPartReview(shownPart)}
+      onJumpPart={settings.test_shortcuts === 'on' ? jumpToPart : null}
       onTestPass={settings.test_shortcuts === 'on' ? testPass : null}
       scenes={sceneInfo} onScene={(sc) => startConversation('scene', sc, { speed: 'normal', corrections: 'end', vocabulary: 'few' }, 'home')}
       onSkipCheckpoint={(row) => setCheckpointsSkipped((m) => { const n = { ...m, [row]: today() }; putKv('checkpoints_skipped', n); return n })}
