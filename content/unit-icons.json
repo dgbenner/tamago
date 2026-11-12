@@ -1,56 +1,4 @@
 {
-  "U01": {
-    "group": "nigiri",
-    "file": "glossy-tuna-nigiri-on-dark-gradient-2.webp"
-  },
-  "U03": {
-    "group": "nigiri",
-    "file": "glossy-salmon-nigiri-sushi-4.webp"
-  },
-  "U06": {
-    "group": "maki",
-    "file": "glossy-california-roll-emoji-7.webp"
-  },
-  "U07": {
-    "group": "maki",
-    "file": "glossy-tuna-maki-sushi-roll-5.webp"
-  },
-  "U10": {
-    "group": "temaki",
-    "file": "glossy-salmon-temaki-hand-roll-1.webp"
-  },
-  "U11": {
-    "group": "temaki",
-    "file": "temaki-hand-roll-with-fresh-fillings-2.webp"
-  },
-  "U12": {
-    "group": "temaki",
-    "file": "glossy-unagi-temaki-hand-roll-3.webp"
-  },
-  "U13": {
-    "group": "temaki",
-    "file": "temaki-hand-roll-with-fresh-fillings-2.webp"
-  },
-  "U02": {
-    "group": "nigiri",
-    "file": "maguro-tuna-nigiri-emoji-1.webp"
-  },
-  "U04": {
-    "group": "nigiri",
-    "file": "glossy-otoro-nigiri-sushi-3.webp"
-  },
-  "U05": {
-    "group": "nigiri",
-    "file": "hamachi-nigiri-sushi-emoji-5.webp"
-  },
-  "U08": {
-    "group": "maki",
-    "file": "glossy-salmon-avocado-sushi-roll-6.webp"
-  },
-  "U09": {
-    "group": "maki",
-    "file": "glossy-salmon-avocado-sushi-roll-6.webp"
-  },
   "U31": {
     "group": "maki",
     "file": "glossy-california-roll-emoji-7.webp"
@@ -63,41 +11,57 @@
     "group": "maki",
     "file": "glossy-tuna-maki-sushi-roll-5.webp"
   },
-  "U41": {
+  "U01": {
     "group": "nigiri",
-    "file": "maguro-tuna-nigiri-emoji-1.webp"
+    "file": "glossy-salmon-nigiri-sushi-4.webp"
   },
-  "U42": {
+  "U02": {
     "group": "nigiri",
-    "file": "glossy-sea-bream-nigiri-sushi-6.webp"
+    "file": "unagi.webp"
   },
-  "U43": {
+  "U03": {
     "group": "nigiri",
-    "file": "glossy-tuna-nigiri-emoji-1.webp"
+    "file": "glossy-otoro-nigiri-sushi-3.webp"
   },
-  "U44": {
+  "U04": {
+    "group": "nigiri",
+    "file": "amaebi.webp"
+  },
+  "U05": {
+    "group": "nigiri",
+    "file": "hamachi-nigiri-sushi-emoji-5.webp"
+  },
+  "U06": {
+    "group": "nigiri",
+    "file": "tai.webp"
+  },
+  "U07": {
+    "group": "nigiri",
+    "file": "glossy-chutoro-nigiri-sushi-2.webp"
+  },
+  "U08": {
     "group": "maki",
-    "file": "glossy-salmon-avocado-sushi-roll-6.webp"
+    "file": "uni.webp"
   },
-  "U45": {
+  "U09": {
     "group": "maki",
-    "file": "glossy-tuna-maki-sushi-roll-5.webp"
+    "file": "ikura.webp"
   },
-  "U46": {
+  "U10": {
     "group": "maki",
-    "file": "glossy-california-roll-emoji-7.webp"
+    "file": "tobiko.webp"
   },
-  "U47": {
-    "group": "maki",
-    "file": "glossy-tuna-maki-sushi-roll-5.webp"
-  },
-  "U48": {
+  "U11": {
     "group": "temaki",
     "file": "glossy-unagi-temaki-hand-roll-3.webp"
   },
-  "U49": {
+  "U12": {
     "group": "temaki",
     "file": "temaki-hand-roll-with-fresh-fillings-2.webp"
+  },
+  "U13": {
+    "group": "temaki",
+    "file": "glossy-salmon-temaki-hand-roll-1.webp"
   },
   "U34": {
     "group": "maki",
@@ -111,24 +75,60 @@
     "group": "maki",
     "file": "glossy-tuna-maki-sushi-roll-5.webp"
   },
+  "U41": {
+    "group": "nigiri",
+    "file": "hirame.webp"
+  },
   "U51": {
+    "group": "nigiri",
+    "file": "saba.webp"
+  },
+  "U42": {
     "group": "nigiri",
     "file": "glossy-tuna-nigiri-on-dark-gradient-2.webp"
   },
+  "U43": {
+    "group": "nigiri",
+    "file": "hotate.webp"
+  },
   "U52": {
     "group": "nigiri",
-    "file": "hamachi-nigiri-sushi-emoji-5.webp"
+    "file": "chutoro.webp"
+  },
+  "U44": {
+    "group": "nigiri",
+    "file": "aji.webp"
+  },
+  "U45": {
+    "group": "nigiri",
+    "file": "maguro.webp"
   },
   "U53": {
+    "group": "nigiri",
+    "file": "otoro.webp"
+  },
+  "U46": {
     "group": "maki",
-    "file": "glossy-tuna-maki-sushi-roll-5.webp"
+    "file": "ikura.webp"
+  },
+  "U47": {
+    "group": "maki",
+    "file": "uni.webp"
   },
   "U54": {
+    "group": "maki",
+    "file": "tobiko.webp"
+  },
+  "U48": {
     "group": "temaki",
-    "file": "glossy-salmon-temaki-hand-roll-1.webp"
+    "file": "glossy-unagi-temaki-hand-roll-3.webp"
+  },
+  "U49": {
+    "group": "temaki",
+    "file": "temaki-hand-roll-with-fresh-fillings-2.webp"
   },
   "U55": {
     "group": "temaki",
-    "file": "glossy-unagi-temaki-hand-roll-3.webp"
+    "file": "glossy-salmon-temaki-hand-roll-1.webp"
   }
 }

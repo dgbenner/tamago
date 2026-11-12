@@ -1,79 +1,75 @@
-// Unit icons from Dan's sushi art (content/icons.json, made from _source/icons). Tree units get an icon by
-// difficulty: the first third of the A1 units nigiri, the middle third maki, the last third temaki. Within a group
-// the pick is random, once per unit, then kept in content/unit-icons.json; a group's icons are used before any
-// repeats. Nodes outside the normal path (checkpoints, Your topic, Make) take a random side icon once side art exists.
-// Usage: node scripts/assign-icons.mjs
-import { readFileSync, writeFileSync, existsSync } from 'node:fs'
-import { join } from 'node:path'
-import { randomInt } from 'node:crypto'
-import { at, C, COURSE, audioUrl } from './lib/course.mjs'
-const ROOT = join(import.meta.dirname, '..')
+// Unit icons from Dan's sushi art (content/icons.json, made from _source/icons; Dan made the square set with ChatGPT,
+// and they are back in rotation since 2026-11-11). Rules (Dan, 2026-11-10 and 2026-11-11):
+//   - Easy to hard: in each part, the first third of the main circles nigiri, the middle third maki, the last third
+//     temaki. A vocabulary circle takes the type of the circle just before it.
+//   - The help thread: each part's help circles wear the three rolls, in order (California, salmon-avocado, tuna),
+//     and no other circle wears them.
+//   - No image twice in a part, and none across a part boundary: a part's opening circles never wear an image from
+//     the close of the part before (the BOUNDARY window), and an image the part before used at all comes last in
+//     line. So no image repeats from one circle to the next.
+//   - Where a type has fewer images than circles, the circles at the edge of its run borrow from the neighbouring
+//     type (temaki's first ones become maki, maki's first ones nigiri), keeping the easy-to-hard order; an image
+//     repeats only when every type is used up.
+// The picks are a fixed shuffle per course and part, so a rerun gives the same tree. Writes content/unit-icons.json
+// for the course; import.mjs fills the units' icon columns from it. test/icons.test.js holds the rules.
+// Usage: COURSE=fr|es|de node scripts/assign-icons.mjs
+import { readFileSync, writeFileSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { at, C } from './lib/course.mjs'
 const read = (p) => JSON.parse(readFileSync(at(p), 'utf8'))
 const pools = read('content/icons.json')
 const OUT = at('content/unit-icons.json')
-const kept = existsSync(OUT) ? read('content/unit-icons.json') : {}
+export const BOUNDARY = 6
+const ROLLS = ['glossy-california-roll-emoji-7.webp', 'glossy-salmon-avocado-sushi-roll-6.webp', 'glossy-tuna-maki-sushi-roll-5.webp']
+const TYPES = ['nigiri', 'maki', 'temaki']
 
-// The A1 tree, planned to its end (autonomous-build.md: the old Duolingo A1 order after Unit 5), so the thirds stay
-// put as units are added: 13 units, 5 nigiri, 4 maki, 4 temaki.
-// Spanish has 15 units (its own order, 2026-11-10): COURSE=es node scripts/assign-icons.mjs.
-const A1_PLAN = Array.from({ length: { es: 15, de: 15 }[COURSE] ?? 13 }, (_, i) => `U${String(i + 1).padStart(2, '0')}`) // French 13, Spanish 15, German 15
-const third = Math.ceil(A1_PLAN.length / 3)
-const groupOf = (i) => (i < third ? 'nigiri' : i < A1_PLAN.length - Math.floor(A1_PLAN.length / 3) ? 'maki' : 'temaki')
+// A fixed shuffle: each file sorted by a hash of the course, part and file name.
+const shuffled = (list, salt) => [...list].sort((a, b) => hash(salt + a).localeCompare(hash(salt + b)))
+const hash = (s) => createHash('sha1').update(s).digest('hex')
 
-// A kept pick whose picture is no longer in the pool (held out of the repo) is picked again.
-for (const [id, k] of Object.entries(kept)) if (!(pools[k.group] ?? []).some((x) => x.file === k.file)) delete kept[id]
-const pick = (group, taken) => {
-  const list = pools[group] ?? []
-  if (!list.length) return null
-  const fresh = list.filter((x) => !taken.has(x.file))
-  const from = fresh.length ? fresh : list
-  return from[randomInt(from.length)].file
-}
-A1_PLAN.forEach((id, i) => {
-  const group = groupOf(i)
-  if (kept[id]?.group === group) return
-  const taken = new Set(Object.values(kept).filter((k) => k.group === group).map((k) => k.file))
-  const file = pick(group, taken)
-  if (file) kept[id] = { group, file }
-})
-// The Asking for Help thread (2026-11-10) has a look of its own in every course: the three gunkan, in order.
-// (The gunkan they first wore are held out of the repo until their source is confirmed, 2026-11-10: the three rolls.)
-for (const [id, file] of [['U31', 'glossy-california-roll-emoji-7.webp'], ['U32', 'glossy-salmon-avocado-sushi-roll-6.webp'], ['U33', 'glossy-tuna-maki-sushi-roll-5.webp']]) kept[id] = { group: 'maki', file }
-// A1 Complete parts (2026-11-10): a later part's circles get the same easy-to-hard run of groups, and its help
-// circles the help thread's three rolls.
-const allUnits = read('content/raw/units.json')
-// Part 1 vocabulary circles (A1 Complete 9) take the group of the circle just before them in order, with a picture
-// of that group not used yet where one is left.
-for (const u of allUnits.filter((x) => Number(x.part || 1) === 1 && x.mix === 'vocab')) {
-  const before = A1_PLAN.filter((id) => (allUnits.find((x) => x.unit_id === id)?.order ?? 0) < u.order).at(-1)
-  const helpRolls0 = ['glossy-california-roll-emoji-7.webp', 'glossy-salmon-avocado-sushi-roll-6.webp', 'glossy-tuna-maki-sushi-roll-5.webp']
-  // Its row's group, else the first group with a picture that isn't a help roll (the maki left are the rolls).
-  const group = [kept[before]?.group ?? 'nigiri', 'nigiri', 'temaki'].find((g) => (pools[g] ?? []).some((x) => !helpRolls0.includes(x.file)))
-  const helpRolls = ['glossy-california-roll-emoji-7.webp', 'glossy-salmon-avocado-sushi-roll-6.webp', 'glossy-tuna-maki-sushi-roll-5.webp']
-  if (kept[u.unit_id]?.group === group && !helpRolls.includes(kept[u.unit_id].file)) continue
-  // Never the help thread's rolls: those mark the help circles.
-  const list = (pools[group] ?? []).filter((x) => !helpRolls.includes(x.file))
-  const used = new Set(Object.values(kept).filter((k) => k.group === group).map((k) => k.file))
-  const from = list.filter((x) => !used.has(x.file)).length ? list.filter((x) => !used.has(x.file)) : list
-  const file = from.length ? from[randomInt(from.length)].file : null
-  if (file) kept[u.unit_id] = { group, file }
-}
-for (const n of [...new Set(allUnits.map((u) => Number(u.part || 1)))].filter((n) => n > 1)) {
-  const main = allUnits.filter((u) => Number(u.part) === n && u.is_topic_pick !== 'help').sort((a, b) => a.order - b.order).map((u) => u.unit_id)
-  const t = Math.ceil(main.length / 3)
-  main.forEach((id, i) => {
-    const group = i < t ? 'nigiri' : i < main.length - Math.floor(main.length / 3) ? 'maki' : 'temaki'
-    if (kept[id]?.group === group) return
-    const file = pick(group, new Set(Object.entries(kept).filter(([k, v]) => v.group === group && main.includes(k)).map(([, v]) => v.file)))
-    if (file) kept[id] = { group, file }
+const units = read('content/raw/units.json')
+const parts = [...new Set(units.map((u) => Number(u.part || 1)))].sort((a, b) => a - b)
+const out = {}
+let before = [] // the part before's images, in path order
+for (const part of parts) {
+  // The circles of this part on the path, in order (topic packs and their nodes have no sushi).
+  const path = units.filter((u) => Number(u.part || 1) === part && !['yes', 'node'].includes(u.is_topic_pick)).sort((a, b) => a.order - b.order)
+  const main = path.filter((u) => u.is_topic_pick !== 'help' && u.mix !== 'vocab')
+  const third = Math.ceil(main.length / 3)
+  const typeOfMain = new Map(main.map((u, i) => [u.unit_id, i < third ? 'nigiri' : i < main.length - Math.floor(main.length / 3) ? 'maki' : 'temaki']))
+  // Wanted type per sushi circle (help circles aside), in order.
+  const sushi = path.filter((u) => u.is_topic_pick !== 'help')
+  const wanted = []
+  for (const u of sushi) wanted.push(typeOfMain.get(u.unit_id) ?? wanted.at(-1) ?? 'nigiri')
+  // Each type's images, the rolls kept for the help thread.
+  const avail = Object.fromEntries(TYPES.map((t) => [t, (pools[t] ?? []).map((x) => x.file).filter((f) => !ROLLS.includes(f))]))
+  // Borrow: from the hardest type down, a type with more circles than images hands its first circles to the type
+  // before it.
+  for (let t = TYPES.length - 1; t > 0; t--) {
+    let over = wanted.filter((w) => w === TYPES[t]).length - avail[TYPES[t]].length
+    for (let i = 0; i < wanted.length && over > 0; i++) if (wanted[i] === TYPES[t]) { wanted[i] = TYPES[t - 1]; over-- }
+  }
+  // The help circles' rolls are this part's too.
+  const help = path.filter((u) => u.is_topic_pick === 'help')
+  help.forEach((u, i) => { out[u.unit_id] = { group: 'maki', file: ROLLS[i % ROLLS.length] } })
+  const used = new Set(help.map((u, i) => ROLLS[i % ROLLS.length]))
+  const closing = new Set(before.slice(-BOUNDARY))
+  const lastPart = new Set(before)
+  const queue = Object.fromEntries(TYPES.map((t) => [t, shuffled(avail[t], `${C.id}:${part}:`)
+    .sort((a, b) => Number(lastPart.has(a)) - Number(lastPart.has(b)))])) // images the part before used come last
+  sushi.forEach((u, i) => {
+    const opening = path.indexOf(u) < BOUNDARY
+    const ok = (f) => !used.has(f) && !(opening && closing.has(f))
+    // Its type first, then the neighbours, nearest first; a repeat only when every type is used up.
+    const order = [wanted[i], ...TYPES.filter((t) => t !== wanted[i]).sort((a, b) => Math.abs(TYPES.indexOf(a) - TYPES.indexOf(wanted[i])) - Math.abs(TYPES.indexOf(b) - TYPES.indexOf(wanted[i])))]
+    let group = order.find((t) => queue[t].some(ok))
+    let file = group && queue[group].find(ok)
+    if (!file) { group = wanted[i]; file = queue[group][i % queue[group].length]; console.warn(`${u.unit_id}: every image used, ${file} repeats`) }
+    used.add(file)
+    out[u.unit_id] = { group, file }
   })
-  const rolls = ['glossy-california-roll-emoji-7.webp', 'glossy-salmon-avocado-sushi-roll-6.webp', 'glossy-tuna-maki-sushi-roll-5.webp']
-  allUnits.filter((u) => Number(u.part) === n && u.is_topic_pick === 'help').sort((a, b) => a.order - b.order).forEach((u, i) => { kept[u.unit_id] = { group: 'maki', file: rolls[i % 3] } })
+  before = path.map((u) => out[u.unit_id].file)
+  console.log(`Part ${part}: ${path.map((u) => `${u.unit_id} ${out[u.unit_id].group}/${out[u.unit_id].file.replace('.webp', '')}`).join(', ')}`)
 }
-// Side icons for nodes outside the path, once there is side art.
-for (const id of ['U100', 'checkpoint_2', 'checkpoint_3', 'make']) {
-  if (kept[id] || !(pools.sides ?? []).length) continue
-  kept[id] = { group: 'sides', file: pick('sides', new Set()) }
-}
-writeFileSync(OUT, JSON.stringify(kept, null, 2) + '\n')
-console.log(Object.entries(kept).map(([k, v]) => `${k} ${v.group}/${v.file}`).join('\n'))
+writeFileSync(OUT, JSON.stringify(out, null, 2) + '\n')
+console.log(`Wrote ${C.id} unit icons`)

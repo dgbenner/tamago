@@ -11,7 +11,7 @@ From 2026-11-09 the build runs under `_source/autonomous-build.md`: phase by pha
 
 ## Public repo (2026-11-10)
 
-README.md (screenshots in docs/screenshots), LICENSE (MIT, code only; content keeps its credited licenses). The 19 square sushi images of unconfirmed origin are held outside the repo (a tamago-held folder next to it) until Dan confirms their source; content/icons.json lists only the confirmed glossy set. Keep personal paths, emails and account notes out of tracked files.
+README.md (screenshots in docs/screenshots), LICENSE (MIT, code only; content keeps its credited licenses). The 19 square sushi images are Dan's own, made with ChatGPT (confirmed 2026-11-11), and are back in content/icons.json with the glossy set. Keep personal paths, emails and account notes out of tracked files.
 
 ## Courses (2026-11-10)
 
@@ -68,7 +68,7 @@ Choices the specs left open, easy to change:
 - Topic packs (is_topic_pick yes) sit behind the Your topic node (U100, is_topic_pick node); one is chosen at a time (kv topic_choice), each keeps its progress, and none draws on another. Packs stay out of placement, checkpoints and scores until chosen or started. A second node, U200 Another Topic (row 9, after Unit 13), holds the packs with topic_node U200, built on all of A1 from checked Tatoeba only (Office U201, Doctor U202, and Weather U101, rebuilt there 2026-11-10); each node keeps its own choice (kv topic_choice, topic_choice_U200). Pull review for these packs: content/sweep/packs-review.json (reject, english, rebuild). Words with status off (pluie, temps) don't ship. QT09 in a unit without question pairs takes the phase1_fallbacks rows marked "no question pairs".
 - Claude's hints go in decisions.claude_hints with their source; Dan's stay in decisions.hints.
 - Make your own (Phase 5): Claude-written French is re-split with scripts/lib/french.mjs against the learner's met words and dropped if any word is outside them; generated sessions (kind generated) stay out of FSRS, the review bank and the skill tally.
-- Unit icons: Dan's sushi art in _source/icons, by difficulty over the 13 A1 units (scripts/assign-icons.mjs, picks kept in content/unit-icons.json). Main units never draw on topic-pack words (pull-units opened set).
+- Unit icons (Dan, 2026-11-11): Dan's sushi art in _source/icons (26 nigiri, 6 maki, 3 temaki), assigned by `COURSE=x node scripts/assign-icons.mjs` into content/unit-icons.json (a fixed shuffle, so reruns match), then import. Each part runs easy to hard (nigiri, maki, temaki by thirds of its main circles; a vocabulary circle takes the type before it); a type short of images lends its first circles to the type before it; help circles wear the three rolls in order and nothing else does; no image twice in a part, and a part's first 6 circles never wear one from the last 6 of the part before. test/icons.test.js fails on any repeat. Rerun it whenever circles are added. Main units never draw on topic-pack words (pull-units opened set).
 - Lessons per round: enough to cover every live sentence (`lessonsInRound`), currently see `lessonsInRound`. A round can run past its count only if a sentence or word hasn't appeared yet.
 - New words arrive in the order the workbook's sentences first use them. Early lessons have few usable sentences, so one may appear twice, in different types.
 - First sight on match pairs: tapping a new word shows its meaning below the grid. Other types show it under the sentence.

@@ -660,3 +660,9 @@ Part 3, Lingua Libre recordings:
   - Spanish v6: S51102 "Tengo los pies grandes.", S51103 "Tom tiene los pies pequeños."; new word W1044 pies (U51, hint feet). S51119 also accepts "I'm a serious person." (AD0001). S53114's "nice" was skipped because the draft was swapped.
   - German v6: S52117 to S52119 take viel, S52120 shows "Are you listening?", S53111 "Die Straße ist lang."; new words W1044 viel (U52, Determiner) and W1045 lang (U53, Adjective). S52123 also accepts "You don't swim." (AD0005).
 - Drafts shipped: French 414 to 390, Spanish 194 to 176, German 137 to 127. npm test 127 pass.
+
+## 2026-11-11: Sushi icons, all 35 in rotation
+
+- The 19 square images are Dan's (ChatGPT), back in _source/icons and content/icons.json; public/icons made by make-icons.mjs (the 16 existing files unchanged).
+- assign-icons.mjs rewritten: per part, easy to hard by thirds, borrowing from the type before where a type runs short, help rolls kept, no image twice in a part, the first 6 of a part clear of the last 6 before it, a fixed shuffle per course and part. Rerun for French, Spanish and German, then import and build.
+- test/icons.test.js: images exist, no repeat in a part, across a boundary or circle to circle, help rolls in order and nowhere else. npm test 139 pass.

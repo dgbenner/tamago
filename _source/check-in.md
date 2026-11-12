@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 11, 2026. **New: Fable's vocabulary review applied in all three courses (Use candidates swapped in, check fixes made, ami and amie for copain and copine, German viel and lang); drafts now French 390, Spanish 176, German 127.**
+Updated November 11, 2026. **New: all 35 sushi images in rotation (the 19 square ones are back); no image twice in a part or across a part boundary, easy-to-hard order kept, help rolls kept; a test holds it.**
 
 ## Done since last check-in
 
