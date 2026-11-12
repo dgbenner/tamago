@@ -25,3 +25,5 @@ export const IconVerb = () => <svg {...svg}><path d="M3 18 7.5 6 12 18M4.6 14h5.
 export const IconStudy = () => <svg {...svg}><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" /></svg>
 export const IconBars = () => <svg {...svg}><path d="M4 20V12M10 20V6M16 20v-9M22 20H2" /></svg>
 export const IconCode = () => <svg {...svg}><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14" /></svg>
+// Why? (Dan, 2026-11-12): a question mark in a circle, first of the answer bar's icons.
+export const IconWhy = () => <svg {...svg}><circle cx="12" cy="12" r="9" /><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.6" /><path d="M12 17h.01" /></svg>

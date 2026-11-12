@@ -374,12 +374,10 @@ export default function App() {
       },
     }
   })
-  // The grammar note comes before a unit's first lesson, once.
+  // The grammar note no longer comes first (Dan, 2026-11-12): a circle goes straight into its lesson, and the note
+  // opens from the small book icon on the circle (CircleNode onNote).
   const noteFor = (unitId) => tables.grammar_notes.find((n) => n.unit_id === unitId)
-  const startUnit = (unitId) => {
-    if (noteFor(unitId) && !notesSeen.current.has(unitId)) { setNote({ unitId, thenStart: true }); setScreen('note'); return }
-    startLesson(unitId)
-  }
+  const startUnit = (unitId) => startLesson(unitId)
   const closeNote = (start) => {
     const { unitId } = note
     notesSeen.current.add(unitId)
@@ -592,7 +590,7 @@ export default function App() {
     const first = !q.reask
     put('attempts', {
       attempt_id: uid(), lesson_id: session.id, sentence_id: q.sentence_id ?? q.item_id ?? q.word_ids.join(';'), type_id: q.type, variant_id: q.variant,
-      round: q.round, skill: result.hidden ? 'listening' : q.skill, first_attempt: first, correct: q.speaking || q.ungraded ? null : result.correct, typo_accepted: Boolean(result.typo), graded: q.skill !== 'speaking' && !q.ungraded, swapped_from: q.swapped_from ?? null, test_skip: Boolean(result.testSkip), answered_at: new Date().toISOString(),
+      round: q.round, skill: result.hidden ? 'listening' : result.wordsShown && q.skill === 'listening' ? 'reading' : q.skill, first_attempt: first, correct: q.speaking || q.ungraded ? null : result.correct, typo_accepted: Boolean(result.typo), graded: q.skill !== 'speaking' && !q.ungraded, swapped_from: q.swapped_from ?? null, test_skip: Boolean(result.testSkip), answered_at: new Date().toISOString(),
     })
     for (const seg of q.segments ?? []) if (seg.word_id) seenWords.current.add(seg.word_id)
     for (const id of q.word_ids ?? []) seenWords.current.add(id)
@@ -600,7 +598,7 @@ export default function App() {
 
     // Lesson answers feed the score by skill (R12: after swaps and Listen first).
     if (session.kind === 'lesson' && first) {
-      const skill = result.hidden ? 'listening' : q.skill
+      const skill = result.hidden ? 'listening' : result.wordsShown && q.skill === 'listening' ? 'reading' : q.skill
       const t = tally.current
       t[session.unit_id] ??= {}
       t[session.unit_id][q.round] ??= {}

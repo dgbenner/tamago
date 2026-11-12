@@ -19,9 +19,13 @@ const prompt = (q, result = null) => renderToStaticMarkup(promptFor(q, { newWord
 // Dan, 2026-11-11: on Answer the Question a sushi picture showed before the speaker. The speaker shows alone.
 test('Answer the Question, heard: the speaker shows alone, with no picture before it', () => {
   const html = prompt(question)
-  assert.match(html, /^<button[^>]*aria-label="Play the question"/, 'the speaker button comes first, and is all there is')
+  assert.match(html, /^<div[^>]*data-audio-help[^>]*><button[^>]*aria-label="Play the question"/, 'the speaker button comes first, and is all there is')
   assert.doesNotMatch(html, /<img/, 'no picture')
-  assert.equal(html.match(/<button/g).length, 1)
+  assert.equal(html.match(/<button/g).length, 1, 'no Slow up front: Slow and Show Words come after the first replay (Dan, 2026-11-12)')
+  assert.doesNotMatch(html, /Tu es Paul/, 'the words stay hidden until Show Words')
+})
+test('Answer the Question: the speaker\'s question is in quotes, so it reads as speech (Dan, 2026-11-12)', () => {
+  assert.match(prompt({ ...question, variant: 'V0903' }), /«\u202f<\/span>.*Tu es Paul.*\u202f»/s)
 })
 test('Answer the Question, written (V0903) or answered: the question is shown as text', () => {
   assert.match(prompt({ ...question, variant: 'V0903' }), /Tu es Paul/)

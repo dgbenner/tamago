@@ -2,12 +2,15 @@ import { a1QuestionFor } from './a1types.js'
 // Builds lessons from content. Pure: no React, no storage, so it runs under node --test.
 // Rule numbers (R01...) refer to the workbook's lesson_rules tab.
 import { normalize } from './check.js'
+import { notByEar } from './by-ear.js'
 
 export const BUILT_TYPES = new Set(['QT01', 'QT02', 'QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT09', 'QT10', 'QT11', 'QT12', 'QT13', 'QT14', 'QT15', 'QT16', 'QT17', 'QT18'])
 // Word to image needs at least 3 pictured words to choose between.
 const MIN_PICTURES = 3
 const pictured = (c) => c.words.filter((w) => w.image_file)
 const AUDIO_TYPES = new Set(['QT04', 'QT07', 'QT11'])
+// Types where the sentence is heard before it's seen: a line that's confusing by ear never goes here (by-ear.js).
+const HEARD_TYPES = new Set(['QT04', 'QT07', 'QT10', 'QT11', 'QT13'])
 const MAX_NEW_WORDS = 4 // R01
 const PASS_SHARE = 0.7 // R05
 export const LESSON_SIZE = 10
@@ -199,6 +202,7 @@ function englishChipDistractors(c, s, n, rng) {
 
 // ---------- One question ----------
 export function supports(c, type, s, round) {
+  if (HEARD_TYPES.has(type) && notByEar(s)) return false
   const rows = c.swBySentence.get(s.sentence_id) ?? []
   if (type === 'QT05') return rows.length >= 2 && rows.some((r) => r.word_id)
   if (type === 'QT09') return (c.qaByQuestion.get(s.sentence_id)?.length ?? 0) > 0
@@ -239,6 +243,7 @@ export function makeQuestion(c, type, s, round, rng, last, { cantListen = false,
     qid: `${type}-${s.sentence_id}-${Math.floor(rng() * 1e9)}`, type, variant, round, skill: c.typeById.get(type).skill,
     sentence_id: s.sentence_id, french: s.french, english: s.english,
     segments: segmentFrench(c, s), audio: audioOf(s),
+    ...(notByEar(s) ? { notByEar: true } : {}), // never listen-first (Lesson.jsx)
   }
   const meaningChoices = () => {
     const others = similarSentences(c, s, rng, 2, pool, (x) => x.english !== s.english && !answersFor(c, s, 'fr_to_en').includes(x.english))
@@ -247,7 +252,7 @@ export function makeQuestion(c, type, s, round, rng, last, { cantListen = false,
   if (type === 'QT03') return { ...base, choices: meaningChoices(), answer: s.english, shown: s.english }
   if (type === 'QT04') {
     if (variant === 'V0404') return { ...base, choices: meaningChoices(), answer: s.english, shown: s.french }
-    const others = similarSentences(c, s, rng, 2, pool)
+    const others = similarSentences(c, s, rng, 2, pool, (x) => !notByEar(x))
     return { ...base, audioChoices: shuffle([s, ...others], rng).map(audioOf), answer: s.sentence_id, shown: s.french }
   }
   if (type === 'QT05') {

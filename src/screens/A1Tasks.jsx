@@ -3,7 +3,7 @@ import { play } from '../lib/audio.js'
 import { checkForm, readValue, sameValue, wordCount } from '../lib/a1types.js'
 import { requestFeedback } from '../lib/converse.js'
 import { TL, course } from '../lib/course.js'
-import { IconSpeaker } from './icons.jsx'
+import AudioHelp from './AudioHelp.jsx'
 
 // The A1 task question types (A1 Complete, 2026-11-10; logic in src/lib/a1types.js). No timers; Check is the only
 // commitment; nothing here waits on the network before the learner can go on.
@@ -109,8 +109,8 @@ export function WriteMessage({ q, result, onAnswer }) {
 const ASK = { phone: 'Write the phone number', number: 'Write the number', price: 'Write the price', time: 'Write the time', date: 'Write the date (day/month)' }
 const HINT = { phone: '06 12 34 56 78', number: '47', price: '3.50', time: '14:30', date: '12/3' }
 // QT17: hear a number, price, time or date and write it in figures; checked as a value. With Can't Listen Now the
-// words are shown instead.
-export function ListenNumber({ q, result, onAnswer }) {
+// words are shown instead. Slow and Show Words come after the first replay (AudioHelp, Dan 2026-11-12).
+export function ListenNumber({ q, result, onAnswer, wordsShown, onShowWords }) {
   const [text, setText] = useState('')
   useEffect(() => { if (!q.readInstead) play(q.audio) }, [q.qid])
   const check = () => { document.activeElement?.blur(); onAnswer({ correct: sameValue(q.kind, q.answer, text), given: text }) }
@@ -119,10 +119,7 @@ export function ListenNumber({ q, result, onAnswer }) {
       {q.readInstead
         ? <p lang={TL} className="text-2xl">{q.audio.french}</p>
         : (
-          <div className="flex items-center gap-3">
-            <button onClick={() => play(q.audio)} aria-label="Play it again" className="inline-flex h-16 w-16 items-center justify-center rounded-xl border-2 border-line bg-surface"><IconSpeaker /></button>
-            <button onClick={() => play(q.audio, { slow: true })} aria-label="Play it slowly" className="min-h-11 rounded-xl border-2 border-line bg-surface px-3 text-sm">Slow</button>
-          </div>
+          <AudioHelp audio={q.audio} label="Play it again" words={<p lang={TL} className="text-2xl">{q.audio.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} />
         )}
       <p className="font-medium">{ASK[q.kind] ?? 'Write it in figures'}</p>
       <form onSubmit={(e) => { e.preventDefault(); if (text.trim() && !result) check() }}>

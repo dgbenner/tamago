@@ -183,7 +183,7 @@ test('slow playback keeps the pitch: it uses an audio element', async () => {
   const [file] = recordings
   audio.play({ french: 'x', file }, { slow: true })
   assert.equal(web.started.length, 0)
-  assert.equal(made.find((p) => p.src === file).playbackRate, 0.7)
+  assert.equal(made.find((p) => p.src === file).playbackRate, 0.6) // clearly slower (Dan, 2026-11-12)
 })
 
 test('a sleeping Web Audio context (iOS after a call) is woken, and the sound comes from an audio element meanwhile', async () => {

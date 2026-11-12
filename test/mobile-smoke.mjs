@@ -1,6 +1,6 @@
 // Mobile smoke test (2026-11-11). Must pass before every push: the pre-push hook in .githooks runs it (npm run smoke).
 // In WebKit, the engine of every iPhone and iPad browser, with iPhone and iPad emulation and touch, on a fresh cache:
-// read the version name on the opening screen, open home, open a circle, start a lesson, answer three questions by
+// read the version name on the opening screen, open home, tap a circle (straight into a lesson), answer three questions by
 // tapping (a recording and a spoken sentence must each start once, within 0.2 s, on a tap and on replay), finish the lesson, tap Practice Mistakes (a tool since 2026-11-11), tap Next Lesson, then sign in with a mock admin, open the admin user list and sign out (accounts layer 1). It fails if a tap doesn't lead where it should, if the page throws, if the page stops answering (the
 // freeze of 2026-11-10, when one audio player per recording locked Safari), or if the page makes too many players.
 //
@@ -182,17 +182,8 @@ async function run(name) {
     await page.locator('.splash').waitFor({ state: 'detached' })
     await alive()
 
-    at('opening a circle from home')
+    at('opening a lesson from a circle (straight in, no sheet or note first)')
     await page.locator('button[data-state]').first().tap()
-    const sheet = page.locator('[role=dialog]')
-    await sheet.waitFor()
-    await alive()
-
-    at('starting the lesson from the circle')
-    await sheet.locator('.btn-submit').tap()
-    const startLesson = page.getByRole('button', { name: 'Start Lesson' })
-    await Promise.race([startLesson.waitFor(), page.locator('main.lesson').waitFor()])
-    if (await startLesson.count()) await startLesson.tap() // the grammar note comes first, once
     await page.locator('main.lesson').waitFor()
     await alive()
 

@@ -230,9 +230,14 @@ function say(mine, text, rate, onEnd, attempt = 0) {
   }, DROPPED_AFTER)
 }
 
+// Slow (Dan, 2026-11-12: "Slow sounds the same as normal speed"): some device voices barely change with the rate, so
+// slow also puts a short pause between words (a comma the voice honours), and the rate drops further.
+export const SLOW_RATE = 0.45
+export const RECORDING_SLOW = 0.6
+export const slowText = (text) => String(text).replace(/([^\s,;:.!?¿¡])\s+(?=[^\s,;:.!?»“”„])/gu, '$1, ')
 function speak(audio, slow, mine = job) {
   if (!('speechSynthesis' in window) || !audio.french) return
-  whenVoiceFree(mine, () => say(mine, audio.french, slow ? 0.55 : 0.9))
+  whenVoiceFree(mine, () => say(mine, slow ? slowText(audio.french) : audio.french, slow ? SLOW_RATE : 0.9))
 }
 
 // ---- Playing ----
@@ -256,7 +261,7 @@ export function play(audio, { slow = false } = {}) {
   }
   const el = playerFor(audio.file)
   try { el.currentTime = 0 } catch { /* not loaded yet: it starts at the beginning anyway */ }
-  el.playbackRate = slow ? 0.7 : 1
+  el.playbackRate = slow ? RECORDING_SLOW : 1
   // A recording this browser can't or won't play falls back to the device voice rather than silence.
   let fellBack = false
   const fallBack = () => {

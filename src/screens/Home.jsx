@@ -8,12 +8,14 @@ import CircleNode from './CircleNode.jsx'
 // A tree node is a circle (Circle Lab design, approved 2026-11-10; src/screens/CircleNode.jsx): its sushi on a warm
 // disc, one ring that fills across all its lessons, the title. "Start Here" shows on the first
 // circle only, the first time. Pick Your Own wears its misc dish, before and after a topic is chosen (Dan, 2026-11-11).
-function Node({ node, onPick, onTestPass }) {
+// Tapping an open circle goes straight into its lesson (Dan, 2026-11-12); the sheet stays for a locked circle (why
+// it's locked) and for Pick Your Own (choosing or changing the topic). The grammar note has its own small icon.
+function Node({ node, onPick, onTestPass, onNote }) {
   const { unit, open, circle, strength, topic, marker } = node
   return (
     <CircleNode title={unit.title} icon={unit.icon_file ? `/sushi/${unit.icon_group}/${unit.icon_file}` : null}
       locked={!open} lessonsDone={circle.done} lessonsTotal={circle.total} recall={strength?.items > 0 ? strength.recall : null} marker={marker}
-      onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
+      onNote={onNote} onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
   )
 }
 
@@ -471,7 +473,9 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
             // Responsive spacing (Dan, 2026-11-11): each circle takes an equal share up to its full size, the gap shrinks
             // with the screen, so a row of three always fits the tree, titles included.
             <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
-              {row.map((node) => <Node key={node.unit.unit_id} node={node} onPick={setPicked} onTestPass={onTestPass} />)}
+              {row.map((node) => <Node key={node.unit.unit_id} node={node} onTestPass={onTestPass}
+                onPick={(n) => (n.open && !n.topic ? onStartUnit(n.unit.unit_id) : setPicked(n))}
+                onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => onGrammarNote(node.unit.unit_id) : null} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
             cu && <li key={`cu${i}`} className="flex justify-center"><CatchUpNode cu={cu} onPick={setCuPicked} /></li>,

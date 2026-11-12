@@ -172,7 +172,8 @@ test('a re-ask is the same content in a different type, allowed in that round', 
       for (const q of buildLesson(c, { round, known: allKnown, rng: seeded(seed + round) }).queue.filter((x) => !x.speaking)) {
         const r = reaskFor(c, q, { rng: seeded(3) })
         assert.ok(r && r.reask, `${q.type} round ${round}`)
-        assert.notEqual(r.type, q.type)
+        // A line cut from listening (by-ear.js) may have no other type open, so the same type returns with new choices.
+        if (!q.notByEar) assert.notEqual(r.type, q.type)
         const t = c.typeById.get(r.type)
         assert.ok(round >= t.first_round && round <= t.last_round, `${r.type} in round ${round}`)
         if (q.sentence_id && q.type !== 'QT09') assert.equal(r.sentence_id, q.sentence_id)
