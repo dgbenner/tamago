@@ -706,3 +706,8 @@ Part 3, Lingua Libre recordings:
 - A Supabase build now carries no mock and no demo strings (getAuth compares the raw build variable so the unused branch drops; checked by building both); mock.js refuses to start in a Supabase build.
 - Pre-push: gitleaks (`npm run secrets`, .gitleaks.toml allowing only the two fake test keys) before the smoke test; checked that a real-format Anthropic key is caught.
 - Version names: tonight's run continues (Meerkat 13, Narwhal 14, then the reset made 15 Aardvark and 16 Badger); this deploy is Otter (daily 15); a new day still starts at Aardvark.
+
+## November 12, 2026
+
+- Another account's progress on the device: never merged. Device owner = last account synced (localStorage tamago-owner:<course>, falling back to an old sync marker); a different account signing in gets DeviceElsewhere.jsx, "Start Fresh or Bring This Device's Progress?", Start Fresh first and primary. Start Fresh: resetProgress, claim, sync (the account's copy comes down), reload. Bring: forget this account's stale marker, claim, sync (upload, or Which Progress to Keep when the account has its own). Checked in Chrome on the local app: 1 lesson made with admin, learner signs in and sees the question; Start Fresh leaves 0 lessons and the learner as owner; then Bring for admin shows "This device: 2 lessons · Account: 1 lesson". Unit test for belongsElsewhere.
+- Version names: one running alphabet, no daily reset (Dan): Otter (deploy 17) is followed by Penguin, and Zebra by Aardvark. version.json `daily` became `seq`; --reset removed; tests and smoke test follow.

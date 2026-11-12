@@ -16,7 +16,7 @@ import { versionName } from '../src/lib/version.js'
 import { DEMO_ACCOUNTS, demoPhrase } from '../src/lib/auth/mock-demo.js' // a test fixture, not a secret
 
 // The version this checkout would deploy; a site under test must show the same name on its opening screen.
-const VERSION = (({ number, daily }) => versionName(daily ?? number))(JSON.parse(readFileSync(new URL('../src/version.json', import.meta.url), 'utf8')))
+const VERSION = (({ number, seq }) => versionName(seq ?? number))(JSON.parse(readFileSync(new URL('../src/version.json', import.meta.url), 'utf8')))
 
 const DEVICES = ['iPhone 14', 'iPad Pro 11 landscape']
 const FROZEN_MS = 3000 // a page that takes longer than this to answer counts as frozen

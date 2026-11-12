@@ -2,9 +2,9 @@
 // The app works with no account; signing in only adds a copy of progress in the account and a record of sessions.
 import { useEffect, useState } from 'react'
 import { AUTH_MODE } from './config.js'
-import { dumpAll, restoreAll } from '../store.js'
-import { chooseSync } from './sync-rule.js'
-export { chooseSync }
+import { dumpAll, restoreAll, resetProgress } from '../store.js'
+import { belongsElsewhere, chooseSync } from './sync-rule.js'
+export { belongsElsewhere, chooseSync }
 
 let auth = null
 let loading = null
@@ -50,7 +50,20 @@ const hasProgress = (dump) => (dump?.stores?.lessons ?? []).length + (dump?.stor
 
 const markerKey = (course, userId) => `tamago-sync:${course}:${userId}`
 const readMarker = (course, userId) => { try { return JSON.parse(localStorage.getItem(markerKey(course, userId))) } catch { return null } }
-const writeMarker = (course, userId, m) => { try { localStorage.setItem(markerKey(course, userId), JSON.stringify(m)) } catch { /* private mode: asks again next time */ } }
+const writeMarker = (course, userId, m) => { try { localStorage.setItem(markerKey(course, userId), JSON.stringify(m)); claimDevice(course, userId) } catch { /* private mode: asks again next time */ } }
+// The account this course's device progress belongs to: the last one it synced with. Before the owner key existed,
+// a sync marker for another account says the same.
+const ownerKey = (course) => `tamago-owner:${course}`
+function deviceOwner(course) {
+  try {
+    const owner = localStorage.getItem(ownerKey(course))
+    if (owner) return owner
+    const prefix = `tamago-sync:${course}:`
+    for (let i = 0; i < localStorage.length; i++) { const k = localStorage.key(i); if (k?.startsWith(prefix)) return k.slice(prefix.length) }
+  } catch { /* no storage: nothing to go on */ }
+  return null
+}
+function claimDevice(course, userId) { try { localStorage.setItem(ownerKey(course), userId) } catch { /* private mode */ } }
 
 async function upload(a, course, userId, local) {
   const summary = progressSummary(local)
@@ -62,12 +75,15 @@ async function download(a, course, userId, remote) {
   writeMarker(course, userId, { saved_at: remote.saved_at, lessons: progressSummary(remote.snapshot).lessons_done })
 }
 // On sign-in, and on opening a course while signed in. Returns { action, device, account } with each side's summary;
-// on 'ask' nothing has changed yet and the caller shows the choice, then calls settleSync.
+// on 'ask' nothing has changed yet and the caller shows the choice, then calls settleSync. On 'elsewhere' the device's
+// progress belongs to another account: nothing has changed, and the caller asks Start Fresh or Bring, then calls
+// startFresh or bringDevice.
 export async function syncCourse(a, course, user) {
   if (!a || !user) return { action: 'none' }
   const local = await dumpAll()
-  const remote = await a.loadProgress(course).catch(() => null)
   const device = progressSummary(local)
+  if (belongsElsewhere({ localAny: hasProgress(local), owner: deviceOwner(course), userId: user.id })) return { action: 'elsewhere', device }
+  const remote = await a.loadProgress(course).catch(() => null)
   const account = remote?.snapshot ? progressSummary(remote.snapshot) : null
   const action = chooseSync({ local: { any: hasProgress(local), lessons: device.lessons_done }, remote: remote?.snapshot ? { any: hasProgress(remote.snapshot), saved_at: remote.saved_at } : null, marker: readMarker(course, user.id) })
   if (action === 'upload') await upload(a, course, user.id, local)
@@ -79,6 +95,20 @@ export async function syncCourse(a, course, user) {
 export async function settleSync(a, course, user, pick) {
   if (pick === 'device') return upload(a, course, user.id, await dumpAll())
   return download(a, course, user.id, await a.loadProgress(course))
+}
+// Another account's progress on the device. Start Fresh wipes this course's progress on the device (the other account
+// keeps its own copy), then syncs as usual; Bring makes it this account's: saved there if the account has none, else the learner picks (ask).
+export async function startFresh(a, course, user) {
+  await resetProgress()
+  claimDevice(course, user.id)
+  return syncCourse(a, course, user)
+}
+export async function bringDevice(a, course, user) {
+  // This device's last sync with the account was of other progress, so it says nothing now: forget it, and an account
+  // that has progress of its own gets the Which Progress to Keep question instead of being overwritten.
+  try { localStorage.removeItem(markerKey(course, user.id)) } catch { /* private mode */ }
+  claimDevice(course, user.id)
+  return syncCourse(a, course, user)
 }
 // After a lesson: the account's copy follows, a moment later so a run of lessons saves once.
 let timer = null

@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 11, 2026. **New: accounts decisions in (ask the learner which progress to keep, sign-in history in the console, invite-only sign-up, backup on the Developer page); demo password moved to a marked test fixture after GitGuardian's flag; gitleaks secret scan before every push; this deploy is Otter.**
+Updated November 12, 2026. **New: signing in on a device with another account's progress asks Start Fresh (default) or Bring, never merges; version names are one running alphabet with no daily reset (Otter, then Penguin).**
 
 ## Done since last check-in
 

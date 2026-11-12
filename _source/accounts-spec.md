@@ -268,6 +268,7 @@ create policy "invites: invitee accepts own" on public.invites for update using 
 5. **The account's copy is not trimmed yet.** Each course's copy holds every answer ever given, so it grows with use. **For later:** once it gets large (a Supabase row comfortably holds a few MB), keep a summary of old answers and drop the answers themselves, or keep only the last few months of them.
 6. **The backup file** moved to the Developer page. Done.
 7. **Sign-up is invite only.** Admins create invites in the console. Invites stay off on the real service until Dan approves. Done.
+8. **Another account's progress on the device is never merged** (November 12). The device remembers which account its progress belongs to: the last one it synced with (`tamago-owner:<course>` in localStorage; older devices fall back to their sync marker). Signing in to a different account asks "Start Fresh or Bring This Device's Progress?", and Start Fresh is the default (first, the main button). Start Fresh clears that course's progress from the device and takes the account's copy; the other account keeps its own. Bring makes the device's progress this account's: saved to the account if it has none, otherwise Which Progress to Keep asks, with both counts. Progress made before any sign-in belongs to no one, so decision 1 applies. Done (DeviceElsewhere.jsx).
 
 ## Security
 

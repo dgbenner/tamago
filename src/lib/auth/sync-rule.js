@@ -12,3 +12,8 @@ export function chooseSync({ local, remote, marker }) {
   if (marker && marker.lessons === local.lessons) return 'download'
   return 'ask'
 }
+
+// Whose progress is on this device (Dan, 2026-11-12): the account it last synced with. Signing in to a different
+// account never merges it in: the learner is asked to start fresh (the default) or bring this device's progress.
+// Progress made before any sign-in belongs to no one and follows the rule above.
+export const belongsElsewhere = ({ localAny, owner, userId }) => Boolean(localAny && owner && owner !== userId)

@@ -4,7 +4,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { createMockAuth, memoryStore } from '../src/lib/auth/mock.js'
 import { can, deviceType } from '../src/lib/auth/config.js'
-import { chooseSync } from '../src/lib/auth/sync-rule.js'
+import { belongsElsewhere, chooseSync } from '../src/lib/auth/sync-rule.js'
 import { demoPhrase } from '../src/lib/auth/mock-demo.js' // test fixture, not a secret
 
 // Passwords here are made up for the test, built at runtime: none is real.
@@ -143,4 +143,11 @@ test('device types for the sign-in history', () => {
   assert.equal(deviceType('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Firefox', 0), 'Mac')
   assert.equal(deviceType('Mozilla/5.0 (Linux; Android 14; Pixel 8) Mobile', 5), 'Android Phone')
   assert.equal(deviceType('Mozilla/5.0 (Windows NT 10.0; Win64; x64)', 0), 'Windows PC')
+})
+
+test('another account\'s progress on the device is never merged: the learner is asked first', () => {
+  assert.equal(belongsElsewhere({ localAny: true, owner: 'a', userId: 'b' }), true, 'made with another account: ask')
+  assert.equal(belongsElsewhere({ localAny: true, owner: 'b', userId: 'b' }), false, 'this account\'s own')
+  assert.equal(belongsElsewhere({ localAny: true, owner: null, userId: 'b' }), false, 'made before any sign-in: the usual rule')
+  assert.equal(belongsElsewhere({ localAny: false, owner: 'a', userId: 'b' }), false, 'nothing on the device')
 })

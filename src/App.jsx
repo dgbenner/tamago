@@ -26,8 +26,9 @@ import Listening from './screens/Listening.jsx'
 import Developer from './screens/Developer.jsx'
 import Conversation from './screens/Conversation.jsx'
 import Account from './screens/Account.jsx'
-import { saveSoon, settleSync, syncCourse, useAuth } from './lib/auth/index.js'
+import { bringDevice, saveSoon, settleSync, startFresh, syncCourse, useAuth } from './lib/auth/index.js'
 import ProgressChoice from './screens/ProgressChoice.jsx'
+import DeviceElsewhere from './screens/DeviceElsewhere.jsx'
 import { SCENES } from './lib/converse.js'
 import { makeA1Question } from './lib/a1types.js'
 import { A1_SAMPLES } from './dev/a1-samples.js'
@@ -66,7 +67,7 @@ function useWide() {
 }
 
 const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', progress: 'Progress', settings: 'Settings', about: 'About the Content',
-  profile: 'Profile', account: 'Sign In', 'progress-choice': 'Which Progress to Keep', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening', developer: 'Developer' }
+  profile: 'Profile', account: 'Sign In', 'progress-choice': 'Which Progress to Keep', elsewhere: 'Start Fresh or Bring Progress', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening', developer: 'Developer' }
 
 // A topic pack belongs to the node in its topic_node column; packs from before the column belong to the first node.
 const packNode = (unit, nodes) => unit?.topic_node || nodes[0]?.unit_id
@@ -207,6 +208,7 @@ export default function App() {
   const afterSync = (r, u, how) => {
     if (r.action === 'download') { location.reload(); return }
     if (r.action === 'ask') { setChoice({ device: r.device, account: r.account, how, name: u.screen_name }); setScreen('progress-choice'); return }
+    if (r.action === 'elsewhere') { setChoice({ device: r.device, how, user: u }); setScreen('elsewhere'); return }
     if (how) toast('success', r.action === 'upload' && !r.account ? 'Progress Saved to Your Account' : how === 'invite' ? 'Account Created' : `Signed In as ${u.screen_name}`)
     if (how) setScreen('home')
   }
@@ -228,6 +230,15 @@ export default function App() {
     setChoice(null)
     toast('success', 'Progress Saved to Your Account')
     setScreen('home')
+  }
+  // Another account's progress on the device: Start Fresh clears it and takes the account's (a reload either way, so
+  // the screens drop the old progress); Bring makes it this account's, then syncs as usual (saved, or the choice above).
+  const pickElsewhere = async (pick) => {
+    const u = choice.user
+    if (pick === 'fresh') { await startFresh(account.auth, course.id, u); location.reload(); return }
+    const r = await bringDevice(account.auth, course.id, u)
+    setChoice(null)
+    afterSync(r, u, choice.how ?? 'signin')
   }
   const signOut = async () => {
     await account.auth?.signOut()
@@ -979,6 +990,7 @@ export default function App() {
   if (screen === 'profile') return <Profile profile={profile} onChange={(p) => { const n = { ...profile, ...p }; setProfile(n); putKv('profile', n) }} onBack={() => setScreen('settings')}
     auth={accountShown?.auth ?? null} user={accountShown?.user ?? null} onSignIn={() => { setAccountStart({ mode: 'signin' }); setScreen('account') }} onSignOut={signOut} />
   if (screen === 'account' && account.auth) return <Account auth={account.auth} start={accountStart?.mode ?? 'signin'} token={accountStart?.token ?? null} code={accountStart?.code ?? null} onSignedIn={signedIn} onBack={() => setScreen('settings')} />
+  if (screen === 'elsewhere' && choice) return <DeviceElsewhere device={choice.device} courseName={course.name} onPick={pickElsewhere} />
   if (screen === 'progress-choice' && choice) return <ProgressChoice device={choice.device} account={choice.account} courseName={course.name} onPick={pickProgress} />
   if (screen === 'native') {
     const order = new Map(tables.units.map((u) => [u.unit_id, u]))
