@@ -7,7 +7,7 @@ Every piece of Tamago food art, 90 images. Made by `node scripts/sushi-catalog.m
 - **Main circles:** nigiri for the easiest third of each part, maki for the middle, temaki for the hardest. A vocabulary circle takes the type of the circle before it.
 - **Help circles:** the three help rolls, in order: California roll, salmon avocado roll, tekka maki. Nothing else wears them.
 - **Pick Your Own:** a misc dish instead of the "?", kept after a topic is chosen.
-- **Catch-Up:** the new miso soup.
+- **Brush-Up** (was Catch-Up): the new miso soup.
 - **Checkpoints:** the flag. The tamago sushi is the logo only.
 - **Dessert:** not on the tree. Held for a later special use.
 - **No image twice** within a part or across a part boundary (a part's first 6 places never use one from the last 6 of the part before), **and no two similar colours side by side.** Red, orange and pink are one tone (red-toned: tuna, salmon, shrimp), so two red-toned pieces never sit together; white, yellow, green, brown, silver and pale pink mix in between.
@@ -134,7 +134,7 @@ Every piece of Tamago food art, 90 images. Made by `node scripts/sushi-catalog.m
 | `kakiage` | Kakiage (vegetable tempura) | yellow | French Part 1, Pick Your Own (U200) |  |
 | `seared-scallops` | Seared scallops | brown | not used yet |  |
 | `kani-sunomono` | Kani sunomono (crab and cucumber salad) | white | not used yet |  |
-| `miso-soup` | Miso soup | brown | Catch-Up, every course | Catch-Up |
+| `miso-soup` | Miso soup | brown | Brush-Up, every course | Brush-Up |
 | `tamago-nigiri` (no app copy) | Tamago nigiri (sweet omelette) | yellow | the logo only | logo |
 
 ## Dessert (7)

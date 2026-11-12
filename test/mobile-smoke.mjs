@@ -15,7 +15,7 @@ import { devices, webkit } from 'playwright'
 import { versionName } from '../src/lib/version.js'
 
 // The version this checkout would deploy; a site under test must show the same name on its opening screen.
-const VERSION = versionName(JSON.parse(readFileSync(new URL('../src/version.json', import.meta.url), 'utf8')).number)
+const VERSION = (({ number, daily }) => versionName(daily ?? number))(JSON.parse(readFileSync(new URL('../src/version.json', import.meta.url), 'utf8')))
 
 const DEVICES = ['iPhone 14', 'iPad Pro 11 landscape']
 const FROZEN_MS = 3000 // a page that takes longer than this to answer counts as frozen

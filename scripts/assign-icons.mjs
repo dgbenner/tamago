@@ -3,11 +3,11 @@
 //   - Main circles, in each part: nigiri for the easiest third, maki for the middle, temaki for the hardest. A
 //     vocabulary circle takes the type of the circle before it.
 //   - Help circles: the three help rolls, in order; nothing else wears them.
-//   - Pick Your Own: a misc dish. Catch-Up: the miso soup (Home.jsx). Checkpoints: the flag. The tamago sushi is the
+//   - Pick Your Own: a misc dish. Brush-Up: the miso soup (Home.jsx). Checkpoints: the flag. The tamago sushi is the
 //     logo only; desserts are held, never on the tree.
 //   - No image twice in a part, and none across a part boundary: a part's opening circles (the BOUNDARY window) never
 //     wear an image from the close of the part before, and images the part before used come last in line.
-//   - No two similar colours side by side, in path order (tree rows, left to right, Catch-Up and help circles in
+//   - No two similar colours side by side, in path order (tree rows, left to right, Brush-Up and help circles in
 //     place): red, orange and pink are one tone (red-toned), so two red-toned pieces never sit together.
 //   - Where a type has fewer images than circles, the circles at the edge of its run borrow from the type before it,
 //     keeping the easy-to-hard order; a colour clash also borrows from a neighbouring type before giving way. An image
@@ -74,7 +74,7 @@ for (const part of parts) {
   let last = 'nigiri'
   for (const e of path) { if (kind(e) === 'main') last = e.want; else if (kind(e) === 'vocab') e.want = last; else if (kind(e) === 'pick') e.want = 'misc' }
   // Pools: tree images of each type, help rolls kept back.
-  const pool = (t) => META.filter((m) => m.category === t && !HELP_ROLLS.includes(m.slug) && m.note !== 'logo' && m.note !== 'Catch-Up')
+  const pool = (t) => META.filter((m) => m.category === t && !HELP_ROLLS.includes(m.slug) && m.note !== 'logo' && m.note !== 'Brush-Up')
   // Borrow for shortage: from the hardest type down, a type with more circles than images hands its first circles
   // to the type before it.
   for (let t = TYPES.length - 1; t > 0; t--) {

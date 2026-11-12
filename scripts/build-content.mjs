@@ -44,7 +44,8 @@ tables.tree_layout = raw('tree_layout')
 tables.parts = (raw('parts') ?? []).map((p) => ({ ...p, part: Number(p.part) }))
 tables.a1_tasks = raw('a1_tasks') ?? []
 // Catch-Up slots (A1 Complete 9): after a row; a course without the tab ships none.
-try { tables.catch_up = (raw('catch_up') ?? []).filter((c) => c.slot_id && String(c.status).startsWith('live')).map((c) => ({ slot_id: c.slot_id, part: Number(c.part), after_row: Number(c.after_row), title: c.title || 'Catch-Up' })) } catch { tables.catch_up = [] }
+// The Brush-Up name is app wording, the same in every course (Dan, 2026-11-11: was Catch-Up).
+try { tables.catch_up = (raw('catch_up') ?? []).filter((c) => c.slot_id && String(c.status).startsWith('live')).map((c) => ({ slot_id: c.slot_id, part: Number(c.part), after_row: Number(c.after_row), title: 'Brush-Up' })) } catch { tables.catch_up = [] }
 // The A1 task question types' items (QT14 to QT17): live rows, or rows of an approved circle; JSON cells parsed.
 {
   const rawOr = (n) => { try { return raw(n) ?? [] } catch { return [] } }

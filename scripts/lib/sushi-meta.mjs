@@ -100,7 +100,7 @@ export const META = [
   ['Miscellaneous/Golden Vegetable Kakiage Tempura-2.png', 'kakiage', 'Kakiage (vegetable tempura)', 'misc', 'yellow'],
   ['Miscellaneous/Golden-Seared Scallop Trio with Chives-1.png', 'seared-scallops', 'Seared scallops', 'misc', 'brown'],
   ['Miscellaneous/Kani Sunomono Salad in Speckled Ramekin-2.png', 'kani-sunomono', 'Kani sunomono (crab and cucumber salad)', 'misc', 'white'],
-  ['Miscellaneous/Miso Soup with Tofu and Wakame.png', 'miso-soup', 'Miso soup', 'misc', 'brown', 'Catch-Up'],
+  ['Miscellaneous/Miso Soup with Tofu and Wakame.png', 'miso-soup', 'Miso soup', 'misc', 'brown', 'Brush-Up'],
   ['Miscellaneous/Tamago Nigiri Sushi Emoji.png', 'tamago-nigiri', 'Tamago nigiri (sweet omelette)', 'misc', 'yellow', 'logo'],
   // Dessert: held for a later special use, never on the tree
   ['Dessert/Chocolate-Drizzled Tempura Ice Cream-1.png', 'tempura-ice-cream', 'Tempura ice cream', 'dessert', 'yellow'],

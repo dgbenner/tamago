@@ -33,7 +33,7 @@ export function addVocabFramework(XLSX, wb, { slots = [], vocabUnits = [] } = {}
   wb.Sheets.round_type_mix = XLSX.utils.json_to_sheet(mix)
   const units = sheet('units').map((u) => ({ ...u, mix: vocabUnits.includes(u.unit_id) ? 'vocab' : (u.mix ?? '') }))
   wb.Sheets.units = XLSX.utils.json_to_sheet(units)
-  const rows = slots.map((s) => ({ slot_id: s.slot_id, part: s.part, after_row: s.after_row, title: 'Catch-Up', status: 'live', notes: s.notes ?? '' }))
+  const rows = slots.map((s) => ({ slot_id: s.slot_id, part: s.part, after_row: s.after_row, title: 'Brush-Up', status: 'live', notes: s.notes ?? '' }))
   if (!wb.SheetNames.includes('catch_up')) wb.SheetNames.push('catch_up')
   wb.Sheets.catch_up = XLSX.utils.json_to_sheet(rows.length ? rows : [{ slot_id: '', part: '', after_row: '', title: '', status: '', notes: '' }])
 }

@@ -67,12 +67,12 @@ for (const dir of ['src/content', 'src/content-es', 'src/content-de']) {
     }
   })
 
-  test(`${dir}: help circles wear the rolls in order, Pick Your Own a misc dish, Catch-Up the miso soup`, () => {
+  test(`${dir}: help circles wear the rolls in order, Pick Your Own a misc dish, Brush-Up the miso soup`, () => {
     for (const path of parts) {
       path.filter((e) => e.kind === 'help').forEach((e, i) => assert.equal(e.slug, ROLLS[i % ROLLS.length], e.id))
       for (const e of path.filter((x) => x.kind !== 'help')) assert.ok(!ROLLS.includes(e.slug), `${e.id} wears a help roll`)
       for (const e of path.filter((x) => x.kind === 'node')) assert.equal(bySlug.get(e.slug).category, 'misc', `${e.id} wears ${e.slug}`)
-      for (const e of path.filter((x) => !['catchup'].includes(x.kind))) assert.notEqual(e.slug, MISO, `${e.id} wears the Catch-Up miso soup`)
+      for (const e of path.filter((x) => !['catchup'].includes(x.kind))) assert.notEqual(e.slug, MISO, `${e.id} wears the Brush-Up miso soup`)
     }
   })
 }

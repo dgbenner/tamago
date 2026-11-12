@@ -41,7 +41,7 @@ for (const [name, dir] of COURSES) {
     used.get(file.replace('.webp', ''))?.push(`${name} Part ${u.part || 1}, ${u.title} (${id})`)
   }
 }
-used.get('miso-soup').push('Catch-Up, every course')
+used.get('miso-soup').push('Brush-Up, every course')
 used.get('tamago-nigiri').push('the logo only')
 
 // Duplicates: the same file twice, or the same dish in the same category.
@@ -56,7 +56,7 @@ const entries = META.map((m) => {
   return {
     slug: m.slug, file: madeFor(m) ? `/sushi/${m.category}/${m.slug}.webp` : null, file_2x: madeFor(m) ? `/sushi/${m.category}/${m.slug}@2x.webp` : null,
     original: `${R2.prefix}${m.path}`, dish: m.dish, category: m.category, color: m.color, tone: toneOf(m.color),
-    role: HELP_ROLLS.includes(m.slug) ? 'help roll' : m.note === 'Catch-Up' ? 'Catch-Up' : m.note === 'logo' ? 'logo' : m.category === 'dessert' ? 'held' : m.category === 'misc' ? 'misc' : 'tree',
+    role: HELP_ROLLS.includes(m.slug) ? 'help roll' : m.note === 'Brush-Up' ? 'Brush-Up' : m.note === 'logo' ? 'logo' : m.category === 'dessert' ? 'held' : m.category === 'misc' ? 'misc' : 'tree',
     used: where.length ? where : m.category === 'dessert' ? ['held for a later special use'] : ['not used yet'],
     same_dish_as: same, note: m.note, sha1: h,
   }
@@ -99,7 +99,7 @@ md.push('## Usage rules', '',
   '- **Main circles:** nigiri for the easiest third of each part, maki for the middle, temaki for the hardest. A vocabulary circle takes the type of the circle before it.',
   '- **Help circles:** the three help rolls, in order: California roll, salmon avocado roll, tekka maki. Nothing else wears them.',
   '- **Pick Your Own:** a misc dish instead of the "?", kept after a topic is chosen.',
-  '- **Catch-Up:** the new miso soup.',
+  '- **Brush-Up** (was Catch-Up): the new miso soup.',
   '- **Checkpoints:** the flag. The tamago sushi is the logo only.',
   '- **Dessert:** not on the tree. Held for a later special use.',
   '- **No image twice** within a part or across a part boundary (a part\'s first 6 places never use one from the last 6 of the part before), **and no two similar colours side by side.** Red, orange and pink are one tone (red-toned: tuna, salmon, shrimp), so two red-toned pieces never sit together; white, yellow, green, brown, silver and pale pink mix in between.',
@@ -113,7 +113,7 @@ md.push('## Duplicates', '',
 for (const c of CATEGORIES) {
   const list = entries.filter((e) => e.category === c)
   md.push(`## ${c[0].toUpperCase()}${c.slice(1)} (${list.length})`, '', '| Image | Dish | Colour | Used | Notes |', '| --- | --- | --- | --- | --- |')
-  for (const e of list) md.push(`| ${e.file ? `\`${e.slug}\`` : `\`${e.slug}\` (no app copy)`} | ${e.dish} | ${e.color} | ${e.used.join('; ')} | ${[e.role !== 'tree' && e.role !== 'misc' ? e.role : '', e.same_dish_as.length ? `same dish as ${e.same_dish_as.join(', ')}` : '', e.note && !['logo', 'Catch-Up'].includes(e.note) && !e.note.startsWith('help roll') ? e.note : ''].filter(Boolean).join('; ')} |`)
+  for (const e of list) md.push(`| ${e.file ? `\`${e.slug}\`` : `\`${e.slug}\` (no app copy)`} | ${e.dish} | ${e.color} | ${e.used.join('; ')} | ${[e.role !== 'tree' && e.role !== 'misc' ? e.role : '', e.same_dish_as.length ? `same dish as ${e.same_dish_as.join(', ')}` : '', e.note && !['logo', 'Brush-Up'].includes(e.note) && !e.note.startsWith('help roll') ? e.note : ''].filter(Boolean).join('; ')} |`)
   md.push('')
 }
 md.push('## What is short', '', `Targets: ${TREE.map((c) => `${c} ${TARGET[c]}`).join(', ')} (two neighbouring parts without a repeat), misc ${TARGET.misc}; at least ${MIN_PER_COLOUR} of each calm colour (${CALM.join(', ')}) in each tree type, and no more than half red-toned. Help rolls, the miso soup, the logo and desserts are not counted.`, '')

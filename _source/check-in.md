@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 11, 2026. **New (committed, not pushed): sushi kept inside the disc (long nigiri and the hand rolls were poking past it); each course has its own nigiri and dish order; Self-Study "Extra reps with tough areas", Glossary "See which words are sticking". Topics to talk about under Waiting for Dan.**
+Updated November 11, 2026. **New: Catch-Up is now Brush-Up; toasts in Title Case; version names start over at Aardvark each day (this deploy is Aardvark); sushi kept inside the disc; each course its own nigiri order; Self-Study "Extra reps with tough areas", Glossary "See which words are sticking".**
 
 ## Done since last check-in
 
@@ -291,7 +291,7 @@ Updated November 11, 2026. **New (committed, not pushed): sushi kept inside the 
 
 **To talk about (Dan, 2026-11-11):**
 - Why the Conversations node, the Checkpoints and the Part 1 review each look different (pill buttons, small flag pills, the end-of-part review), and whether each is needed.
-- What "Catch-Up" means to a learner: the name isn't self-explanatory.
+- Catch-Up renamed Brush-Up (done, 2026-11-11).
 - Sushi sizing: Dan will look closely tomorrow (pieces now capped to stay inside the disc).
 
 - **Fable's review of the new drafts (nothing swapped, as you said).** These are the candidates files for tonight's vocabulary circles, made the same way as before:

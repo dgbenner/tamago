@@ -690,7 +690,7 @@ export default function App() {
     if (unitId !== currentUnit) { setCurrentUnit(unitId); putKv('current_unit', unitId) }
     put('lessons', { lesson_id: s.id, unit_id: unitId, round, score: graded, graded_count: graded, passed: true, test_skip: true, duration_ms: null, finished_at: new Date().toISOString() })
     recordPass({ ...s, firstCorrect: graded, graded, misses: [] })
-    toast('info', `Passed for testing: ${tables.units.find((u) => u.unit_id === unitId)?.title}, round ${round}`)
+    toast('info', `Passed for Testing: ${tables.units.find((u) => u.unit_id === unitId)?.title}, Round ${round}`)
   }
   // Dev: Jump Here (Testing Shortcuts, Dan 2026-11-11): every circle in the parts before part n counts as round 1
   // complete (its words as met), so part n opens, and the tree shows it with its first circle in hand. Circles
@@ -712,7 +712,7 @@ export default function App() {
     setPartView(n); putKv('part_view', n)
     leaveDeveloper()
     const title = parts.find((p) => p.part === n)?.title
-    toast('info', `Jumped for testing: Part ${n}${title ? `, ${title},` : ''} is open`)
+    toast('info', `Jumped for Testing: Part ${n}${title ? `, ${title}` : ''}`)
   }
   // A jump asked for on the Developer page for another language runs once that language has loaded (takeDevJump).
   useEffect(() => {

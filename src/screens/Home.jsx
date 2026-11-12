@@ -291,17 +291,17 @@ function PartCarousel({ part, onJumpPart }) {
     </section>
   )
 }
-// Catch-Up (A1 Complete 9): a circle with a side dish, filled for this learner from the circles above it. No lessons of
+// Brush-Up (was Catch-Up; renamed by Dan, 2026-11-11; A1 Complete 9): a circle with a side dish, filled for this learner from the circles above it. No lessons of
 // its own, so no ring. No line under the title (Dan, 2026-11-11); how much is waiting is on its card, and in the
 // circle's spoken name.
-const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.count ? `${cu.count} to catch up` : 'Nothing yet')
+const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.count ? `${cu.count} to brush up` : 'Nothing yet')
 function CatchUpNode({ cu, onPick }) {
   return <CircleNode title={cu.title} icon="/sushi/misc/miso-soup.webp" locked={!cu.available} ring={false} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
 }
 function CatchUpCard({ cu, onStart, onClose }) {
   return (
     <Sheet onClose={onClose}>
-      <SheetHead kicker="Made for You" title="Catch-Up" onClose={onClose} />
+      <SheetHead kicker="Made for You" title="Brush-Up" onClose={onClose} />
       <p className="mt-2">It fills itself from the circles above it: what you've got wrong, then the words you've seen only once or twice.</p>
       <p className="mt-2 text-sm text-muted">Each comes back at the level you've reached, so there are no rounds. It never locks anything, and it refills as you go.</p>
       {!cu.available
@@ -309,9 +309,9 @@ function CatchUpCard({ cu, onStart, onClose }) {
         : cu.count
           ? <>
               <p className="mt-4 font-medium">{cu.count} {cu.count === 1 ? 'item' : 'items'}{cu.mistakes ? `, ${cu.mistakes} of them ${cu.mistakes === 1 ? 'a mistake' : 'mistakes'}` : ''}</p>
-              <button onClick={onStart} className="btn-submit mt-5 w-full">Start Catch-Up</button>
+              <button onClick={onStart} className="btn-submit mt-5 w-full">Start Brush-Up</button>
             </>
-          : <p className="mt-4 text-sm">Nothing to catch up on yet. It fills as you do lessons.</p>}
+          : <p className="mt-4 text-sm">Nothing to brush up yet. It fills as you do lessons.</p>}
     </Sheet>
   )
 }

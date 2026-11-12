@@ -682,3 +682,10 @@ Part 3, Lingua Libre recordings:
 - assign-icons.mjs: a course prefers images the earlier courses (French, Spanish, German) don't use in the same part, and a dish family (tuna, eel, scallop, salmon…) other than theirs at the same circle, so the three trees no longer show the same order. Temaki stay alike near the ends: 8 images for about 7 places a course.
 - Tools: Self-Study "Extra reps with tough areas", Glossary "See which words are sticking".
 - npm test 142 pass.
+
+## 2026-11-11: Brush-Up, Title Case toasts, daily version names (Aardvark, deploy 15)
+
+- Catch-Up renamed Brush-Up everywhere it shows (build-content sets the name for every course; the sheet's button and empty line; catalog and docs). Code and data keep catchUp / catch_up.
+- Toasts in Title Case: "Passed for Testing: <circle>, Round N", "Jumped for Testing: Part N, <title>".
+- Version names restart at Aardvark each day: version.json number (for good), day, daily; bump --reset started today over (deploy 15 is Aardvark). version.test.js updated.
+- Pushed with the earlier local commit (sushi inside the disc, per-course nigiri order, Self-Study and Glossary lines).
