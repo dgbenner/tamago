@@ -689,3 +689,11 @@ Part 3, Lingua Libre recordings:
 - Toasts in Title Case: "Passed for Testing: <circle>, Round N", "Jumped for Testing: Part N, <title>".
 - Version names restart at Aardvark each day: version.json number (for good), day, daily; bump --reset started today over (deploy 15 is Aardvark). version.test.js updated.
 - Pushed with the earlier local commit (sushi inside the disc, per-course nigiri order, Self-Study and Glossary lines).
+
+## 2026-11-11: Accounts, layer 1 (Badger, deploy 16)
+
+- _source/accounts-spec.md: Supabase setup steps for Dan (project, auth with sign-up off, redirect URLs, SQL, keys, Cloudflare variables and the one secret, making himself admin), roles, data model (profiles, progress, sessions; comments and reviews as placeholders), screens by role, progress rules, flags, the full SQL with row-level security, open questions.
+- SQL run in PGlite with stand-ins for Supabase's auth schema: every policy behaves; caught and fixed the guard trigger blocking "make yourself admin" from the SQL editor.
+- src/lib/auth (config, index, mock, supabase), Account.jsx, Profile.jsx as account Profile, Settings Account section (mock: Developer on only), /admin console (AdminApp.jsx: Users with search, details, reset, on/off, role, recent sessions; Review and Contribute placeholders), server/admin-user.mjs + functions/api/admin-user.js (inert until secrets exist). @supabase/supabase-js added; left out of the bundle in mock mode.
+- First sign-in moves the course's device progress into the account; sessions recorded per finished lesson.
+- test/accounts.test.js (7); smoke test adds sign-in, /admin user list and sign-out (iPhone and iPad pass). axe clean on Settings, Sign In, Forgot, Profile, console and Review in light and dark (turned-off rows were dimmed with opacity; now a dashed border). npm test 149 pass.

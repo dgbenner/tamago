@@ -4,7 +4,13 @@ import { course } from './lib/course.js'
 import { useTables } from './lib/content.js'
 import './index.css'
 
+// The console (accounts layer 1, 2026-11-11) is its own small app at /admin, loaded without any course.
+if (location.pathname.startsWith('/admin')) {
+  import('./admin/AdminApp.jsx').then(({ default: AdminApp }) => createRoot(document.getElementById('root')).render(<StrictMode><AdminApp /></StrictMode>))
+} else startApp()
+
 // Load the chosen course's tables first (src/lib/course.js), then the app, which reads them as it starts.
+function startApp() {
 const tablesFor = { fr: () => import('./lib/tables-fr.js'), es: () => import('./lib/tables-es.js'), de: () => import('./lib/tables-de.js') }
 tablesFor[course.id]().then(({ tables }) => {
   useTables(tables)
@@ -16,6 +22,7 @@ tablesFor[course.id]().then(({ tables }) => {
     </StrictMode>,
   )
 })
+}
 
 // Safari only applies :active styles on a page that listens for touches.
 document.addEventListener('touchstart', () => {}, { passive: true })

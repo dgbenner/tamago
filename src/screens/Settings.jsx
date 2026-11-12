@@ -6,6 +6,7 @@ import { explainReady } from '../lib/explain.js'
 import NeedsSetup from './NeedsSetup.jsx'
 import { TL, course } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
+import { can } from '../lib/auth/config.js'
 
 function Segmented({ label, help, value, options, onChange }) {
   return (
@@ -49,7 +50,28 @@ function Item({ title, help, children }) {
   )
 }
 
-export default function Settings({ settings, onChange, onBack, onAbout, onPlacement, onProfile }) {
+// Account (accounts layer 1, Dan, 2026-11-11): the sign-in entry point, here and never on the tree. Signed in: the
+// name, Profile, the console areas the role reaches, and Sign Out. Shown only when App passes an account service.
+function AccountSection({ auth, user, onSignIn, onProfile, onSignOut }) {
+  if (!auth) return null
+  const link = (path, label) => <a href={path} className="btn-secondary text-center">{label}</a>
+  return (
+    <Item title="Account" help={user ? null : `Optional. Signing in keeps a copy of your progress in your account; everything works without one.${auth.mode === 'mock' ? ' Mock accounts for now, on this device only.' : ''}`}>
+      {user ? (
+        <div className="flex flex-col gap-2">
+          <p className="-mt-1 text-sm" data-signed-in>Signed in as <span className="font-semibold">{user.screen_name}</span> ({user.email}){auth.mode === 'mock' ? ', mock account' : ''}</p>
+          <button onClick={onProfile} className="btn-secondary">Profile</button>
+          {can.users(user) && link('/admin', 'Admin Console')}
+          {!can.users(user) && can.review(user) && link('/admin/review', 'Review')}
+          {!can.users(user) && can.contribute(user) && link('/admin/contribute', 'Contribute')}
+          <button onClick={onSignOut} className="btn-secondary">Sign Out</button>
+        </div>
+      ) : <button onClick={onSignIn} className="btn-secondary">Sign In</button>}
+    </Item>
+  )
+}
+
+export default function Settings({ settings, onChange, onBack, onAbout, onPlacement, onProfile, account = null, onSignIn, onSignOut }) {
   const [explaining, setExplaining] = useState(null)
   useEffect(() => { explainReady().then(setExplaining) }, [])
   return (
@@ -59,6 +81,7 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
         <Logo />
       </header>
       <h1 className="text-xl font-semibold">Settings</h1>
+      <AccountSection auth={account?.auth} user={account?.user} onSignIn={onSignIn} onProfile={onProfile} onSignOut={onSignOut} />
       {/* Language: every course flag. Each course keeps its own progress; picking another opens it. */}
       <Item title="Language" help="Each language keeps its own progress. The one you pick opens next time.">
         <FlagRow />
@@ -99,9 +122,10 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
         <Item title="Placement Check" help={`Know some ${course.name} already? Three questions per unit; units you pass open the next ones. Nothing is taken away.`}>
           <button onClick={onPlacement} className="btn-secondary">Start the Placement Check</button>
         </Item>
-        <Item title="Profile and Backup" help="Your name, and a backup file of your progress you can restore on another device.">
+        {/* Signed in, Account's Profile opens the same screen (with the backup), so this one steps aside. */}
+        {!account?.user && <Item title="Profile and Backup" help="Your name, and a backup file of your progress you can restore on another device.">
           <button onClick={onProfile} className="btn-secondary">Profile and Backup</button>
-        </Item>
+        </Item>}
         <Item title="Mistake Explanations">
           {explaining
             ? <p className="-mt-1 text-sm text-muted">On. After a wrong typed answer, a Why? link appears once Claude's explanation is ready.</p>

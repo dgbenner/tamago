@@ -133,6 +133,10 @@ In addition to question-types.md section 7:
 - Typing another known word ("un" for "une") is a wrong word, not a typo. Words under 3 letters get no typo allowance.
 - QT07 and QT11 accept only the sentence heard, not en_to_fr alternates. English contractions equal their long forms.
 
+## Accounts, layer 1 (2026-11-11; _source/accounts-spec.md)
+
+Optional accounts: the app works the same with none. src/lib/auth: config.js (VITE_AUTH mock | supabase | off, default mock; VITE_SIGNUP=open; roles; `can`), index.js (getAuth, useAuth, syncCourse: on sign-in a course's device progress goes into the account, an empty device takes the account's copy, else more lessons wins; saveSoon after lessons), mock.js (device-only, IndexedDB tamago-accounts-mock, demo accounts admin/reviewer/contributor/learner@tamago.test, password tamago-mock; reset "emails" come back as a link), supabase.js (same interface, not run yet; the bundle leaves it out unless VITE_AUTH=supabase). Screens: Settings Account section (mock: only while Developer is on), src/screens/Account.jsx (Sign In, Sign Up, Forgot, Reset at /account/reset), Profile.jsx doubles as the account Profile. Console: /admin, its own app (main.jsx, src/admin/AdminApp.jsx): Users (admin), Review and Contribute placeholders. server/admin-user.mjs + functions/api/admin-user.js turn accounts off and on with the service role (TAMAGO_SUPABASE_URL, TAMAGO_SUPABASE_SERVICE_ROLE_KEY). Sessions are recorded after each finished lesson. Public sign-up stays off until Dan approves. test/accounts.test.js; the smoke test signs in, opens /admin's list and signs out.
+
 ## Rules in every phase
 
 - Speed between questions comes first. No loading spinners inside a lesson.

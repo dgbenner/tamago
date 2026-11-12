@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 11, 2026. **New: Catch-Up is now Brush-Up; toasts in Title Case; version names start over at Aardvark each day (this deploy is Aardvark); sushi kept inside the disc; each course its own nigiri order; Self-Study "Extra reps with tough areas", Glossary "See which words are sticking".**
+Updated November 11, 2026. **New: accounts, layer 1, on the mock (sign in, sign up, forgot and reset password, Profile, sign out; /admin console with users, details, reset, on/off, role and sessions; Review and Contribute placeholders). Supabase steps and open questions in _source/accounts-spec.md.**
 
 ## Done since last check-in
 
@@ -288,6 +288,8 @@ Updated November 11, 2026. **New: Catch-Up is now Brush-Up; toasts in Title Case
 - **No side icons yet:** Your topic, the review checkpoints and Make keep no icon until side art arrives. Your topic no longer shows a number, so it doesn't clash with the new Unit 6. Its order moved from 6 to 50 in the workbook.
 
 ## Waiting for Dan
+
+**Accounts (2026-11-11):** the Supabase steps are at the top of _source/accounts-spec.md; nothing is set up outside the repo. Seven open questions at its end (progress conflicts, sign-out on shared devices, what "sessions" means, email confirmation, size of the account copy, where the backup lives, when sign-up opens).
 
 **To talk about (Dan, 2026-11-11):**
 - Why the Conversations node, the Checkpoints and the Part 1 review each look different (pill buttons, small flag pills, the end-of-part review), and whether each is needed.

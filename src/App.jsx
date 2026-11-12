@@ -25,6 +25,8 @@ import Make from './screens/Make.jsx'
 import Listening from './screens/Listening.jsx'
 import Developer from './screens/Developer.jsx'
 import Conversation from './screens/Conversation.jsx'
+import Account from './screens/Account.jsx'
+import { saveSoon, syncCourse, useAuth } from './lib/auth/index.js'
 import { SCENES } from './lib/converse.js'
 import { makeA1Question } from './lib/a1types.js'
 import { A1_SAMPLES } from './dev/a1-samples.js'
@@ -63,7 +65,7 @@ function useWide() {
 }
 
 const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', progress: 'Progress', settings: 'Settings', about: 'About the Content',
-  profile: 'Profile and Backup', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening', developer: 'Developer' }
+  profile: 'Profile and Backup', account: 'Sign In', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening', developer: 'Developer' }
 
 // A topic pack belongs to the node in its topic_node column; packs from before the column belong to the first node.
 const packNode = (unit, nodes) => unit?.topic_node || nodes[0]?.unit_id
@@ -90,6 +92,10 @@ export default function App() {
   const [ending, setEnding] = useState(null)
   const [lastLine, setLastLine] = useState(null) // a toast on home: { id, kind: info|success|warning|error, text }
   const toast = (kind, text) => setLastLine({ id: Date.now(), kind, text })
+  // Accounts, layer 1 (Dan, 2026-11-11; _source/accounts-spec.md). Optional: the app works the same with no account.
+  // Mock accounts show only while Developer is on (Dan the only user); the real service shows to everyone.
+  const account = useAuth()
+  const [accountStart, setAccountStart] = useState(null) // { mode, token } for the Account screen
   const [splash, setSplash] = useState(true) // the opening screen and version name on every launch (Dan, 2026-11-11)
   // First launch: the opening screen asks for a language, but only once the saved state shows nobody has used this
   // course here yet (a learner with progress is never asked, and never sees the flags flash and vanish).
@@ -184,6 +190,34 @@ export default function App() {
     window.addEventListener('hashchange', open)
     return () => window.removeEventListener('hashchange', open)
   }, [ready])
+  // A password-reset link lands on /account/reset (the mock's link, or Supabase's email): open the Reset screen.
+  useEffect(() => {
+    if (location.pathname !== '/account/reset') return
+    setAccountStart({ mode: 'reset', token: new URLSearchParams(location.search).get('token') })
+    setScreen('account')
+    history.replaceState(null, '', '/')
+  }, [])
+  // Signed in on opening a course: its progress and the account's copy meet once per launch (auth/index.js syncCourse).
+  const synced = useRef(false)
+  useEffect(() => {
+    if (!ready || !account.user || synced.current) return
+    synced.current = true
+    syncCourse(account.auth, course.id).then((r) => { if (r === 'restored') location.reload() }).catch(() => {})
+  }, [ready, account.user])
+  const signedIn = async (u, how) => {
+    synced.current = true
+    const r = await syncCourse(account.auth, course.id).catch(() => 'none')
+    if (r === 'restored') { location.reload(); return }
+    toast('success', r === 'moved' ? 'Progress Saved to Your Account' : how === 'signup' ? 'Account Created' : `Signed In as ${u.screen_name}`)
+    setScreen('home')
+  }
+  const signOut = async () => {
+    await account.auth?.signOut()
+    synced.current = false
+    toast('info', 'Signed Out. Progress Stays on This Device')
+    setScreen('home')
+  }
+  const accountShown = account.auth && (account.auth.mode !== 'mock' || settings.developer !== 'off') ? account : null
   const leaveDeveloper = () => { if (location.hash) history.replaceState(null, '', location.pathname); setScreen('home') }
 
   useEffect(() => {
@@ -789,6 +823,11 @@ export default function App() {
     const mark = passMark(s.graded ?? s.size)
     const passed = s.firstCorrect >= mark
     put('lessons', { lesson_id: s.id, unit_id: s.unit_id, round: s.round, score: s.firstCorrect, graded_count: s.graded ?? s.size, passed, duration_ms: s.started_at ? Date.now() - s.started_at : null, finished_at: new Date().toISOString() })
+    if (account.user) {
+      account.auth.recordSession({ course: course.id, kind: s.kind ?? 'lesson', unit_id: s.unit_id ?? null, unit_title: tables.units.find((u) => u.unit_id === s.unit_id)?.title ?? null, round: s.round ?? null,
+        score: s.firstCorrect, size: s.graded ?? s.size, passed, started_at: s.started_at ? new Date(s.started_at).toISOString() : null, finished_at: new Date().toISOString() }).catch(() => {})
+      saveSoon(account.auth, course.id)
+    }
     if (!passed) {
       setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size}. Pass is ${mark}, so this lesson repeats in new question types.`, retry: s })
       return
@@ -903,7 +942,7 @@ export default function App() {
   }
   if (screen === 'settings') {
     return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPlacement={startPlacement}
-      onProfile={() => setScreen('profile')} />
+      onProfile={() => setScreen('profile')} account={accountShown} onSignIn={() => { setAccountStart({ mode: 'signin' }); setScreen('account') }} onSignOut={signOut} />
   }
   if (screen === 'developer') {
     // Course Snapshot: exact numbers for both courses, worked out from the content each ships (src/lib/snapshot.js).
@@ -919,7 +958,9 @@ export default function App() {
       }}
       onVariants={() => setScreen('variants')} onFlags={() => setScreen('flags')} onNativeCheck={() => setScreen('native')} onForum={() => setScreen('forum')} />
   }
-  if (screen === 'profile') return <Profile profile={profile} onChange={(p) => { const n = { ...profile, ...p }; setProfile(n); putKv('profile', n) }} onBack={() => setScreen('settings')} />
+  if (screen === 'profile') return <Profile profile={profile} onChange={(p) => { const n = { ...profile, ...p }; setProfile(n); putKv('profile', n) }} onBack={() => setScreen('settings')}
+    auth={accountShown?.auth ?? null} user={accountShown?.user ?? null} onSignIn={() => { setAccountStart({ mode: 'signin' }); setScreen('account') }} onSignOut={signOut} />
+  if (screen === 'account' && account.auth) return <Account auth={account.auth} start={accountStart?.mode ?? 'signin'} token={accountStart?.token ?? null} onSignedIn={signedIn} onBack={() => setScreen('settings')} />
   if (screen === 'native') {
     const order = new Map(tables.units.map((u) => [u.unit_id, u]))
     const list = tables.sentences.filter((s) => s.source === 'tamago_original')

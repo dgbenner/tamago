@@ -1,7 +1,7 @@
 // Mobile smoke test (2026-11-11). Must pass before every push: the pre-push hook in .githooks runs it (npm run smoke).
 // In WebKit, the engine of every iPhone and iPad browser, with iPhone and iPad emulation and touch, on a fresh cache:
 // read the version name on the opening screen, open home, open a circle, start a lesson, answer three questions by
-// tapping (a recording and a spoken sentence must each start once, within 0.2 s, on a tap and on replay), finish the lesson, tap Practice Mistakes (a tool since 2026-11-11), tap Next Lesson. It fails if a tap doesn't lead where it should, if the page throws, if the page stops answering (the
+// tapping (a recording and a spoken sentence must each start once, within 0.2 s, on a tap and on replay), finish the lesson, tap Practice Mistakes (a tool since 2026-11-11), tap Next Lesson, then sign in with a mock admin, open the admin user list and sign out (accounts layer 1). It fails if a tap doesn't lead where it should, if the page throws, if the page stops answering (the
 // freeze of 2026-11-10, when one audio player per recording locked Safari), or if the page makes too many players.
 //
 //   npm run smoke                                  builds the app and tests the build
@@ -248,8 +248,41 @@ async function run(name) {
     if (players > MAX_AUDIO_PLAYERS) throw new Error(`the page made ${players} audio players (at most ${MAX_AUDIO_PLAYERS})`)
     if (!checked.recording) throw new Error('no question had a recording to check the sound on')
     if (!checked.voice) throw new Error('no question had a spoken sentence to check the sound on')
+
+    // Accounts, layer 1 (2026-11-11): sign in from Settings with a mock admin, open the console's user list, sign out.
+    at('signing in (Settings, Account)')
+    if (await inLesson()) await page.getByRole('button', { name: 'Leave lesson' }).tap()
+    await bottom.waitFor()
+    await page.getByRole('button', { name: 'Settings' }).tap()
+    await page.getByRole('button', { name: 'Sign In', exact: true }).tap()
+    await page.getByLabel('Email').fill('admin@tamago.test')
+    await page.getByLabel('Password').fill('tamago-mock')
+    await page.getByRole('button', { name: 'Sign In', exact: true }).tap()
+    await bottom.waitFor()
+    await page.getByRole('button', { name: 'Settings' }).tap()
+    await page.locator('[data-signed-in]').waitFor()
+    await alive()
+
+    at('opening the admin user list (/admin)')
+    await page.goto(new URL('/admin', url).href, { waitUntil: 'load' })
+    const users = page.locator('[data-user-list] li')
+    await users.nth(3).waitFor()
+    await users.filter({ hasText: 'learner@tamago.test' }).locator('button').tap()
+    await page.locator('[data-user-details]').waitFor()
+    await alive()
+
+    at('signing out (Settings, Account)')
+    await page.goto(url, { waitUntil: 'load' })
+    await page.locator('.splash').waitFor({ state: 'detached' })
+    await page.getByRole('button', { name: 'Settings' }).tap()
+    await page.locator('[data-signed-in]').waitFor()
+    await page.getByRole('button', { name: 'Sign Out' }).tap()
+    await bottom.waitFor()
+    await page.getByRole('button', { name: 'Settings' }).tap()
+    await page.getByRole('button', { name: 'Sign In', exact: true }).waitFor()
+    await alive()
     if (errors.length) throw new Error(`the page threw: ${errors.join(' | ')}`)
-    console.log(`ok    ${name} (WebKit ${browser.version()}): Version ${VERSION}; ${answered} questions, ${tapped} by tapping; sound on tap and replay ${timings.join(', ')} ms after the tap; Practice and Next Lesson open; ${players} audio players`)
+    console.log(`ok    ${name} (WebKit ${browser.version()}): Version ${VERSION}; ${answered} questions, ${tapped} by tapping; sound on tap and replay ${timings.join(', ')} ms after the tap; Practice and Next Lesson open; ${players} audio players; sign-in, admin user list and sign-out work`)
     return true
   } catch (e) {
     console.log(`FAIL  ${name} (WebKit ${browser.version()}), while ${step}: ${String(e.message ?? e).split('\n')[0]}`)
