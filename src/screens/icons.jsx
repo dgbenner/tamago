@@ -33,10 +33,8 @@ export const IconBars = () => <svg {...svg}><path d="M4 20V12M10 20V6M16 20v-9M2
 export const IconCode = () => <svg {...svg}><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14" /></svg>
 // Why? (Dan, 2026-11-12): a question mark in a circle, first of the answer bar's icons.
 export const IconWhy = () => <svg {...svg}><circle cx="12" cy="12" r="9" /><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.6" /><path d="M12 17h.01" /></svg>
-// Grammar note options for review (Dan, 2026-11-12, batch 4: "a book, not a bookmark"): Lucide's book-open and
-// notebook-pen (ISC licence), alternating across the open circles. The stroke is set so the weight matches the Tools'
-// 28 px icons when shown at 20 px (1.8 × 28 / 20).
-export const IconBookOpen = () => <svg {...svg} strokeWidth={2.5}><path d="M12 7v14" /><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z" /></svg>
+// Grammar note (Dan, 2026-11-12, batch 5): Lucide's notebook-pen (ISC licence). The stroke is set so the weight
+// matches the Tools' 28 px icons when shown at 20 px (1.8 × 28 / 20).
 export const IconNotebookPen = () => <svg {...svg} strokeWidth={2.5}><path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4" /><path d="M2 6h4" /><path d="M2 10h4" /><path d="M2 14h4" /><path d="M2 18h4" /><path d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" /></svg>
 // Recording (batch 4): a microphone with the speaker's own two wave arcs beside it, as they sit beside the speaker;
 // while recording the arcs come on one after the other (.icon-live in index.css).

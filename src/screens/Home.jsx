@@ -4,18 +4,19 @@ import { IconBack, IconBars, IconBook, IconCode, IconCheckered, IconClose, IconC
 import { TL, course } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
 import CircleNode from './CircleNode.jsx'
+import { GrammarNoteBody } from './GrammarNote.jsx'
 
 // A tree node is a circle (Circle Lab design, approved 2026-11-10; src/screens/CircleNode.jsx): its sushi on a warm
 // disc, one ring that fills across all its lessons, the title. "Start Here" shows on the first
 // circle only, the first time. Pick Your Own wears its misc dish, before and after a topic is chosen (Dan, 2026-11-11).
 // Tapping an open circle goes straight into its lesson (Dan, 2026-11-12); the sheet stays for a locked circle (why
 // it's locked) and for Pick Your Own (choosing or changing the topic). The grammar note has its own small icon.
-function Node({ node, onPick, onTestPass, onNote, noteIcon }) {
+function Node({ node, onPick, onTestPass, onNote }) {
   const { unit, open, circle, strength, topic, marker } = node
   return (
     <CircleNode title={unit.title} icon={unit.icon_file ? `/sushi/${unit.icon_group}/${unit.icon_file}` : null}
       locked={!open} lessonsDone={circle.done} lessonsTotal={circle.total} recall={strength?.items > 0 ? strength.recall : null} marker={marker}
-      onNote={onNote} noteIcon={noteIcon} onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
+      onNote={onNote} onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
   )
 }
 
@@ -81,6 +82,23 @@ function SheetHead({ kicker, title, onClose }) {
 }
 
 // Unit details. The unit number lives here and nowhere else on home.
+// The grammar note over the tree (Dan, 2026-11-12, batch 5): a centred pop-up on desktop and iPad, a bottom sheet that
+// rises on iPhone. Start Lesson for a circle not started yet, else Next Lesson, the wording of the Next Lesson button;
+// Back closes it.
+function NoteSheet({ node, note, sentenceById, onStart, onClose }) {
+  const started = node.progress.round_reached > 0 || node.progress.lessons_done > 0
+  return (
+    <Sheet onClose={onClose}>
+      <SheetHead kicker="Grammar Note" title={node.unit.title} onClose={onClose} />
+      <div className="mt-4 flex flex-col gap-5"><GrammarNoteBody note={note} sentenceById={sentenceById} /></div>
+      <div className="sticky -bottom-5 -mx-5 mt-5 flex flex-col items-center gap-1 bg-surface px-5 pt-3 pb-1 lg:-bottom-6">
+        <button onClick={onStart} className="btn-submit w-full" data-note-start>{started ? 'Next Lesson' : 'Start Lesson'}</button>
+        <button onClick={onClose} className="btn-tertiary">Back</button>
+      </div>
+    </Sheet>
+  )
+}
+
 function UnitCard({ node, inProgress, onStart, onClose, onGrammarNote, hasNote, onChooseTopic }) {
   const { unit, open, progress, topic, lockedBy, lesson, lessons } = node
   const [switching, setSwitching] = useState(false)
@@ -399,10 +417,9 @@ function Points({ total, today }) {
 }
 
 export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
-  finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
+  finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, hasNote, noteOf, sentenceById }) {
   const [picked, setPicked] = useState(null)
-  // Grammar note icons alternate book, notebook, book… across the open circles that have a note (Dan, batch 4).
-  const noteIcons = new Map(rows.flat().filter((n) => n.open && !n.topic?.choosing && hasNote(n.unit.unit_id)).map((n, i) => [n.unit.unit_id, i % 2 ? 'notebook' : 'book']))
+  const [notePicked, setNotePicked] = useState(null) // the circle whose grammar note is open
   const [cpPicked, setCpPicked] = useState(null)
   const [cuPicked, setCuPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
@@ -477,8 +494,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
             <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
               {row.map((node) => <Node key={node.unit.unit_id} node={node} onTestPass={onTestPass}
                 onPick={(n) => (n.open && !n.topic ? onStartUnit(n.unit.unit_id) : setPicked(n))}
-                onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => onGrammarNote(node.unit.unit_id) : null}
-                noteIcon={noteIcons.get(node.unit.unit_id)} />)}
+                onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => setNotePicked(node) : null} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
             cu && <li key={`cu${i}`} className="flex justify-center"><CatchUpNode cu={cu} onPick={setCuPicked} /></li>,
@@ -521,13 +537,15 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
         <UnitCard node={picked} inProgress={inProgress && !picked.current}
           onStart={() => { setPicked(null); onStartUnit(picked.unit.unit_id) }} onClose={() => setPicked(null)}
           onChooseTopic={(id) => { setPicked(null); onChooseTopic(id) }}
-          hasNote={hasNote(picked.unit.unit_id)} onGrammarNote={() => { setPicked(null); onGrammarNote(picked.unit.unit_id) }} />
+          hasNote={hasNote(picked.unit.unit_id)} onGrammarNote={() => { setPicked(null); setNotePicked(picked) }} />
       )}
       {cpPicked && (
         <CheckpointCard cp={cpPicked} onClose={() => setCpPicked(null)}
           onStart={() => { setCpPicked(null); onCheckpoint(cpPicked.afterRow) }}
           onSkip={() => { setCpPicked(null); onSkipCheckpoint(cpPicked.afterRow) }} />
       )}
+      {notePicked && <NoteSheet node={notePicked} note={noteOf(notePicked.unit.unit_id)} sentenceById={sentenceById}
+        onClose={() => setNotePicked(null)} onStart={() => { setNotePicked(null); onStartUnit(notePicked.unit.unit_id) }} />}
       {cuPicked && <CatchUpCard cu={catchUps.find((x) => x.slot_id === cuPicked.slot_id) ?? cuPicked} onClose={() => setCuPicked(null)} onStart={() => { setCuPicked(null); onCatchUp(cuPicked) }} />}
       {reviewOpen && part?.review && <PartReviewCard part={part} onClose={() => setReviewOpen(false)} onStart={() => { setReviewOpen(false); onPartReview() }} />}
       {scenesOpen && <ScenesCard sc={scenes} onClose={() => setScenesOpen(false)} onStart={(x) => { setScenesOpen(false); onScene(x) }} />}

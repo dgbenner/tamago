@@ -1099,7 +1099,7 @@ export default function App() {
       onNext={() => (session ? startLesson() : startUnit(currentUnit))}
       inProgress={Boolean(session)} lastLine={lastLine} onLastLineGone={() => setLastLine(null)}
       onStartUnit={(id) => { if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
-      onGrammarNote={(id) => { setNote({ unitId: id, thenStart: false }); setScreen('note') }} hasNote={(id) => Boolean(noteFor(id))}
+      hasNote={(id) => Boolean(noteFor(id))} noteOf={noteFor} sentenceById={allContent.sentenceById}
       onChooseTopic={(id) => { const at = nodeOfPack(id); setTopicChoice((c) => ({ ...c, [at]: id })); putKv(topicKey(at), id); if (session && id !== currentUnit) { remove('kv', 'current_session'); setSession(null) } startUnit(id) }}
       onSettings={() => setScreen('settings')} />
   )
