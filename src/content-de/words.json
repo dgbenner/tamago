@@ -6896,5 +6896,59 @@
       "audio_file": "/audio-de/W1043.m4a",
       "speaker": "Djknusper"
     }
+  },
+  {
+    "word_id": "W1044",
+    "lang_id": "de",
+    "form": "viel",
+    "lemma": "viel",
+    "part_of_speech": "Determiner",
+    "gender": "",
+    "gloss": "much, many",
+    "hint": "much, a lot",
+    "hint_source": "short form of Wiktionary",
+    "first_unit": "U52",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/viel#German",
+    "status": "pull from Wiktionary",
+    "notes": "added 2026-11-11, for the Freizeit fixes (S52117 to S52119)",
+    "gloss_full": "much, many",
+    "lemma_gloss": "",
+    "lingua_libre": {
+      "file": "LL-Q188 (deu)-Natschoba-viel.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/LL-Q188_%28deu%29-Natschoba-viel.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1,
+      "audio_file": "/audio-de/W1044.m4a",
+      "speaker": "Natschoba"
+    }
+  },
+  {
+    "word_id": "W1045",
+    "lang_id": "de",
+    "form": "lang",
+    "lemma": "lang",
+    "part_of_speech": "Adjective",
+    "gender": "",
+    "gloss": "long; lengthy",
+    "hint": "long",
+    "hint_source": "short form of Wiktionary",
+    "first_unit": "U53",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/lang#German",
+    "status": "pull from Wiktionary",
+    "notes": "added 2026-11-11, for the street fix (S53111)",
+    "gloss_full": "long; lengthy (in space or time)",
+    "lemma_gloss": "",
+    "lingua_libre": {
+      "file": "LL-Q188 (deu)-Djknusper-lang.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/LL-Q188_%28deu%29-Djknusper-lang.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 8,
+      "audio_file": "/audio-de/W1045.m4a",
+      "speaker": "Djknusper"
+    }
   }
 ]

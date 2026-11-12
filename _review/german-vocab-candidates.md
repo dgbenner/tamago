@@ -6,37 +6,39 @@ November 10, 2026. Each sentence below fits its unit on every other rule the pul
 
 Under each unit: its drafts, each beside the candidates that could replace it: the same sentence on Tatoeba first, then up to three that teach all the draft's new words; then the unit's other fitting candidates. These haven't had my review for idioms or odd lines; they pass the rules only. Links go to Tatoeba, where the owner and any comments can be checked.
 
+**Review, November 11, 2026.** Only the candidates listed beside a draft were judged (exact matches first), each for grammar, how it sounds to a German speaker, A1 fit and a true match with its English, and marked **Use** or **Reject** with a reason; the "Other candidates" lists below each unit are unreviewed. Marks are keyed to the Tatoeba sentence, so a sentence beside several drafts carries the same mark each time. Of the 15 distinct sentences beside drafts, 13 are Use and 2 are Reject; 3 Use marks name the English to show instead of Tatoeba's line. Of the 16 drafts that had a candidate, 13 now have at least one usable replacement; S52114, S52115, S52116 lost every candidate they had. Nothing has been swapped.
+
 ## U52 Free Time
 
 22 drafts · 25 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S52101 Der Film ist gut. = The film is good. | none teaches all its new words | | |
-| S52102 Ist der Film gut? = Is the film good? | none teaches all its new words | | |
-| S52103 Das ist ein Film. = That's a film. | none teaches all its new words | | |
-| S52104 Das ist ein Foto. = That's a photo. | none teaches all its new words | | |
-| S52105 Ich mag das Foto. = I like the photo. | none teaches all its new words | | |
-| S52106 Das Foto ist gut. = The photo is good. | none teaches all its new words | | |
-| S52107 Die Party ist gut. = The party is good. | none teaches all its new words | | |
-| S52108 Ich mag die Party. = I like the party. | none teaches all its new words | | |
-| S52110 Tom hat ein Hobby. = Tom has a hobby. | Hat Tom ein Hobby? = Does Tom have a hobby? [#8828691](https://tatoeba.org/en/sentences/show/8828691) | mramosch | has all its new words (Hobby) |
-| S52111 Das ist ein Geschenk. = That's a present. | none teaches all its new words | | |
-| S52112 Ich mag das Geschenk. = I like the present. | none teaches all its new words | | |
-| S52113 Hast du ein Geschenk? = Do you have a present? | none teaches all its new words | | |
-| S52114 Ich habe Urlaub. = I'm on holiday. | Ich bin auf Urlaub. = I'm on vacation. [#12575417](https://tatoeba.org/en/sentences/show/12575417) | Adelpa | has all its new words (Urlaub) |
-| S52115 Hast du Urlaub? = Are you on holiday? | Ich bin auf Urlaub. = I'm on vacation. [#12575417](https://tatoeba.org/en/sentences/show/12575417) | Adelpa | has all its new words (Urlaub) |
-| S52116 Tom hat Urlaub. = Tom is on holiday. | Ich bin auf Urlaub. = I'm on vacation. [#12575417](https://tatoeba.org/en/sentences/show/12575417) | Adelpa | has all its new words (Urlaub) |
-| S52117 Ich habe Freizeit. = I have free time. | none teaches all its new words | | |
-| S52118 Hast du Freizeit? = Do you have free time? | none teaches all its new words | | |
-| S52119 Wir haben Freizeit. = We have free time. | none teaches all its new words | | |
-| S52120 Hören Sie? = Can you hear? | none teaches all its new words | | |
-| S52121 Ich höre. = I'm listening. | Ich höre. = I'm listening. [#5622538](https://tatoeba.org/en/sentences/show/5622538) | list | the same sentence |
-|  | Ich höre es nicht. = I can't hear it. [#989115](https://tatoeba.org/en/sentences/show/989115) | MUIRIEL | has all its new words (höre) |
-|  | Ich höre nicht gut. = I don't hear well. [#9153767](https://tatoeba.org/en/sentences/show/9153767) | nusia2302 | has all its new words (höre) |
-| S52122 Ich höre nicht. = I'm not listening. | Ich höre es nicht. = I can't hear it. [#989115](https://tatoeba.org/en/sentences/show/989115) | MUIRIEL | has all its new words (höre) |
-|  | Ich höre nicht gut. = I don't hear well. [#9153767](https://tatoeba.org/en/sentences/show/9153767) | nusia2302 | has all its new words (höre) |
-| S52123 Sie schwimmen nicht. = They don't swim. | none teaches all its new words | | |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S52101 Der Film ist gut. = The film is good. | none teaches all its new words | | |  |
+| S52102 Ist der Film gut? = Is the film good? | none teaches all its new words | | |  |
+| S52103 Das ist ein Film. = That's a film. | none teaches all its new words | | |  |
+| S52104 Das ist ein Foto. = That's a photo. | none teaches all its new words | | |  |
+| S52105 Ich mag das Foto. = I like the photo. | none teaches all its new words | | |  |
+| S52106 Das Foto ist gut. = The photo is good. | none teaches all its new words | | |  |
+| S52107 Die Party ist gut. = The party is good. | none teaches all its new words | | |  |
+| S52108 Ich mag die Party. = I like the party. | none teaches all its new words | | |  |
+| S52110 Tom hat ein Hobby. = Tom has a hobby. | Hat Tom ein Hobby? = Does Tom have a hobby? [#8828691](https://tatoeba.org/en/sentences/show/8828691) | mramosch | has all its new words (Hobby) | **Use.** Plain; matches. |
+| S52111 Das ist ein Geschenk. = That's a present. | none teaches all its new words | | |  |
+| S52112 Ich mag das Geschenk. = I like the present. | none teaches all its new words | | |  |
+| S52113 Hast du ein Geschenk? = Do you have a present? | none teaches all its new words | | |  |
+| S52114 Ich habe Urlaub. = I'm on holiday. | Ich bin auf Urlaub. = I'm on vacation. [#12575417](https://tatoeba.org/en/sentences/show/12575417) | Adelpa | has all its new words (Urlaub) | **Reject.** "auf Urlaub" is Austrian; in Germany it is "im Urlaub" or "Ich habe Urlaub". |
+| S52115 Hast du Urlaub? = Are you on holiday? | Ich bin auf Urlaub. = I'm on vacation. [#12575417](https://tatoeba.org/en/sentences/show/12575417) | Adelpa | has all its new words (Urlaub) | **Reject.** "auf Urlaub" is Austrian; in Germany it is "im Urlaub" or "Ich habe Urlaub". |
+| S52116 Tom hat Urlaub. = Tom is on holiday. | Ich bin auf Urlaub. = I'm on vacation. [#12575417](https://tatoeba.org/en/sentences/show/12575417) | Adelpa | has all its new words (Urlaub) | **Reject.** "auf Urlaub" is Austrian; in Germany it is "im Urlaub" or "Ich habe Urlaub". |
+| S52117 Ich habe Freizeit. = I have free time. | none teaches all its new words | | |  |
+| S52118 Hast du Freizeit? = Do you have free time? | none teaches all its new words | | |  |
+| S52119 Wir haben Freizeit. = We have free time. | none teaches all its new words | | |  |
+| S52120 Hören Sie? = Can you hear? | none teaches all its new words | | |  |
+| S52121 Ich höre. = I'm listening. | Ich höre. = I'm listening. [#5622538](https://tatoeba.org/en/sentences/show/5622538) | list | the same sentence | **Use.** Plain; matches. |
+|  | Ich höre es nicht. = I can't hear it. [#989115](https://tatoeba.org/en/sentences/show/989115) | MUIRIEL | has all its new words (höre) | **Use.** Natural; English to show: "I don't hear it." |
+|  | Ich höre nicht gut. = I don't hear well. [#9153767](https://tatoeba.org/en/sentences/show/9153767) | nusia2302 | has all its new words (höre) | **Use.** Natural; matches. |
+| S52122 Ich höre nicht. = I'm not listening. | Ich höre es nicht. = I can't hear it. [#989115](https://tatoeba.org/en/sentences/show/989115) | MUIRIEL | has all its new words (höre) | **Use.** Natural; English to show: "I don't hear it." |
+|  | Ich höre nicht gut. = I don't hear well. [#9153767](https://tatoeba.org/en/sentences/show/9153767) | nusia2302 | has all its new words (höre) | **Use.** Natural; matches. |
+| S52123 Sie schwimmen nicht. = They don't swim. | none teaches all its new words | | |  |
 
 Other candidates in this unit (21):
 
@@ -66,22 +68,22 @@ Other candidates in this unit (21):
 
 12 drafts · 49 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S51101 Wer ist der Herr? = Who is the gentleman? | none teaches all its new words | | |
-| S51102 Der Herr ist allein. = The gentleman is alone. | none teaches all its new words | | |
-| S51103 Der Herr ist müde. = The gentleman is tired. | none teaches all its new words | | |
-| S51105 Hast du Hunger? = Are you hungry? | none teaches all its new words | | |
-| S51106 Tom hat Hunger. = Tom is hungry. | none teaches all its new words | | |
-| S51107 Ich habe Durst. = I'm thirsty. | none teaches all its new words | | |
-| S51108 Hast du Durst? = Are you thirsty? | none teaches all its new words | | |
-| S51109 Wir haben Durst. = We're thirsty. | none teaches all its new words | | |
-| S51110 Das Baby ist müde. = The baby is tired. | none teaches all its new words | | |
-| S51111 Das ist lustig. = That's funny. | Hunde sind lustig. = Dogs are funny. [#11839422](https://tatoeba.org/en/sentences/show/11839422) | shekitten | has all its new words (lustig) |
-|  | Du bist nicht sehr lustig. = You're not very funny. [#8474093](https://tatoeba.org/en/sentences/show/8474093) | felix63 | has all its new words (lustig) |
-| S51112 Das Baby ist ruhig. = The baby is quiet. | none teaches all its new words | | |
-| S51113 Du bist ein Mensch. = You're a human being. | Der Mensch liest ein Buch. = The man is reading a book. [#13233867](https://tatoeba.org/en/sentences/show/13233867) | Ooneykcall | has all its new words (Mensch) |
-|  | Eine Katze ist kein Mensch! = A cat is not a person! [#1087708](https://tatoeba.org/en/sentences/show/1087708) | Katheriinne | has all its new words (Mensch) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S51101 Wer ist der Herr? = Who is the gentleman? | none teaches all its new words | | |  |
+| S51102 Der Herr ist allein. = The gentleman is alone. | none teaches all its new words | | |  |
+| S51103 Der Herr ist müde. = The gentleman is tired. | none teaches all its new words | | |  |
+| S51105 Hast du Hunger? = Are you hungry? | none teaches all its new words | | |  |
+| S51106 Tom hat Hunger. = Tom is hungry. | none teaches all its new words | | |  |
+| S51107 Ich habe Durst. = I'm thirsty. | none teaches all its new words | | |  |
+| S51108 Hast du Durst? = Are you thirsty? | none teaches all its new words | | |  |
+| S51109 Wir haben Durst. = We're thirsty. | none teaches all its new words | | |  |
+| S51110 Das Baby ist müde. = The baby is tired. | none teaches all its new words | | |  |
+| S51111 Das ist lustig. = That's funny. | Hunde sind lustig. = Dogs are funny. [#11839422](https://tatoeba.org/en/sentences/show/11839422) | shekitten | has all its new words (lustig) | **Use.** Plain; matches. |
+|  | Du bist nicht sehr lustig. = You're not very funny. [#8474093](https://tatoeba.org/en/sentences/show/8474093) | felix63 | has all its new words (lustig) | **Use.** Natural, if blunt; matches. |
+| S51112 Das Baby ist ruhig. = The baby is quiet. | none teaches all its new words | | |  |
+| S51113 Du bist ein Mensch. = You're a human being. | Der Mensch liest ein Buch. = The man is reading a book. [#13233867](https://tatoeba.org/en/sentences/show/13233867) | Ooneykcall | has all its new words (Mensch) | **Reject.** "Der Mensch" for "the man" is odd; a native says "Der Mann". |
+|  | Eine Katze ist kein Mensch! = A cat is not a person! [#1087708](https://tatoeba.org/en/sentences/show/1087708) | Katheriinne | has all its new words (Mensch) | **Use.** Natural; matches. |
 
 Other candidates in this unit (45):
 
@@ -116,26 +118,26 @@ Other candidates in this unit (45):
 
 16 drafts · 28 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S53101 Wo ist das Taxi? = Where is the taxi? | none teaches all its new words | | |
-| S53102 Das Taxi kommt. = The taxi is coming. | none teaches all its new words | | |
-| S53103 Ist das ein Taxi? = Is that a taxi? | none teaches all its new words | | |
-| S53104 Wo ist das Kino? = Where is the cinema? | none teaches all its new words | | |
-| S53105 Das Kino ist groß. = The cinema is big. | none teaches all its new words | | |
-| S53106 Ist das ein Kino? = Is that a cinema? | none teaches all its new words | | |
-| S53107 Das Dorf ist klein. = The village is small. | Es ist ein Dorf. = It's a village. [#6059968](https://tatoeba.org/en/sentences/show/6059968) | christian63 | has all its new words (Dorf) |
-| S53108 Wo ist das Dorf? = Where is the village? | Es ist ein Dorf. = It's a village. [#6059968](https://tatoeba.org/en/sentences/show/6059968) | christian63 | has all its new words (Dorf) |
-| S53109 Das ist ein Dorf. = That's a village. | Es ist ein Dorf. = It's a village. [#6059968](https://tatoeba.org/en/sentences/show/6059968) | christian63 | has all its new words (Dorf) |
-| S53110 Wo ist die Straße? = Where is the street? | Die Straße ist nicht gut. = The road is not good. [#12049427](https://tatoeba.org/en/sentences/show/12049427) | carlosalberto | has all its new words (Straße) |
-| S53111 Die Straße ist groß. = The street is big. | Die Straße ist nicht gut. = The road is not good. [#12049427](https://tatoeba.org/en/sentences/show/12049427) | carlosalberto | has all its new words (Straße) |
-| S53112 Das ist die Straße. = That's the street. | Die Straße ist nicht gut. = The road is not good. [#12049427](https://tatoeba.org/en/sentences/show/12049427) | carlosalberto | has all its new words (Straße) |
-| S53113 Wo ist der Flughafen? = Where is the airport? | Wo ist der Flughafen? = Where's the airport? [#403052](https://tatoeba.org/en/sentences/show/403052) | Ramses | the same sentence |
-|  | Ich bin jetzt am Flughafen. = I'm at the airport now. [#338755](https://tatoeba.org/en/sentences/show/338755) | Sprachprofi | has all its new words (Flughafen) |
-|  | Jetzt bin ich am Flughafen. = I'm at the airport now. [#917276](https://tatoeba.org/en/sentences/show/917276) | Fingerhut | has all its new words (Flughafen) |
-| S53114 Das Café ist klein. = The café is small. | none teaches all its new words | | |
-| S53115 Ist das ein Café? = Is that a café? | none teaches all its new words | | |
-| S53116 Ist das der Bus? = Is that the bus? | Wo ist der Bus in die Stadt? = Where's the bus for the city? [#2997617](https://tatoeba.org/en/sentences/show/2997617) | raggione | has all its new words (Bus) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S53101 Wo ist das Taxi? = Where is the taxi? | none teaches all its new words | | |  |
+| S53102 Das Taxi kommt. = The taxi is coming. | none teaches all its new words | | |  |
+| S53103 Ist das ein Taxi? = Is that a taxi? | none teaches all its new words | | |  |
+| S53104 Wo ist das Kino? = Where is the cinema? | none teaches all its new words | | |  |
+| S53105 Das Kino ist groß. = The cinema is big. | none teaches all its new words | | |  |
+| S53106 Ist das ein Kino? = Is that a cinema? | none teaches all its new words | | |  |
+| S53107 Das Dorf ist klein. = The village is small. | Es ist ein Dorf. = It's a village. [#6059968](https://tatoeba.org/en/sentences/show/6059968) | christian63 | has all its new words (Dorf) | **Use.** Plain; matches. |
+| S53108 Wo ist das Dorf? = Where is the village? | Es ist ein Dorf. = It's a village. [#6059968](https://tatoeba.org/en/sentences/show/6059968) | christian63 | has all its new words (Dorf) | **Use.** Plain; matches. |
+| S53109 Das ist ein Dorf. = That's a village. | Es ist ein Dorf. = It's a village. [#6059968](https://tatoeba.org/en/sentences/show/6059968) | christian63 | has all its new words (Dorf) | **Use.** Plain; matches. |
+| S53110 Wo ist die Straße? = Where is the street? | Die Straße ist nicht gut. = The road is not good. [#12049427](https://tatoeba.org/en/sentences/show/12049427) | carlosalberto | has all its new words (Straße) | **Use.** Plain; English to show: "The street is not good." |
+| S53111 Die Straße ist groß. = The street is big. | Die Straße ist nicht gut. = The road is not good. [#12049427](https://tatoeba.org/en/sentences/show/12049427) | carlosalberto | has all its new words (Straße) | **Use.** Plain; English to show: "The street is not good." |
+| S53112 Das ist die Straße. = That's the street. | Die Straße ist nicht gut. = The road is not good. [#12049427](https://tatoeba.org/en/sentences/show/12049427) | carlosalberto | has all its new words (Straße) | **Use.** Plain; English to show: "The street is not good." |
+| S53113 Wo ist der Flughafen? = Where is the airport? | Wo ist der Flughafen? = Where's the airport? [#403052](https://tatoeba.org/en/sentences/show/403052) | Ramses | the same sentence | **Use.** Standard; matches. |
+|  | Ich bin jetzt am Flughafen. = I'm at the airport now. [#338755](https://tatoeba.org/en/sentences/show/338755) | Sprachprofi | has all its new words (Flughafen) | **Use.** Natural; matches. |
+|  | Jetzt bin ich am Flughafen. = I'm at the airport now. [#917276](https://tatoeba.org/en/sentences/show/917276) | Fingerhut | has all its new words (Flughafen) | **Use.** Natural; matches. |
+| S53114 Das Café ist klein. = The café is small. | none teaches all its new words | | |  |
+| S53115 Ist das ein Café? = Is that a café? | none teaches all its new words | | |  |
+| S53116 Ist das der Bus? = Is that the bus? | Wo ist der Bus in die Stadt? = Where's the bus for the city? [#2997617](https://tatoeba.org/en/sentences/show/2997617) | raggione | has all its new words (Bus) | **Use.** Natural; English to show: "Where is the bus into town?" |
 
 Other candidates in this unit (23):
 

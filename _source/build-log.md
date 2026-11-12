@@ -651,3 +651,12 @@ Part 3, Lingua Libre recordings:
 - Spanish: senses (guapo Adjective, leo by leer, pie foot), hints; U51 19 drafts, U52 15, U53 14. German: U51 rebuilt as People and Feelings (W1001 to W1008 now people words; senses and hints redone; packs-review U51 cleared), U52 moved to row 5 (order 7.2), Zug by the railway sense; U51 13 drafts, U52 23, U53 16.
 - assign-icons: Part 1 vocabulary circles by the group before them, help rolls excluded (the maki pool holds only the rolls, so nigiri).
 - Spanish 1,030 sentences (836 Tatoeba, 194 drafts); German 1,045 (908 Tatoeba, 137 drafts). npm test 75 pass; Chrome: both trees show the circles and slots, U52 round 3 runs with Type the Word, axe clean, no page errors.
+
+## 2026-11-11: Vocabulary circles, Fable's review
+
+- Use candidates from _review/<course>-vocab-candidates.md, with Fable's English picks (apply-spanish-candidates.mjs, FILE=): French 24 swapped, 6 held (candidates already used); Spanish 18 swapped, 10 held; German 9 swapped, 4 held.
+- scripts/apply-vocab-check.mjs folds in the three check files (fixes on drafts that were swapped are skipped):
+  - French v33: S11363 "He likes dancing." (S11361 was swapped). Copain and copine become ami and amie (Dan): "Paul est mon ami.", "Marie est mon amie."; "C'est mon ami Paul." and "C'est mon amie Marie." since "C'est mon ami." and "C'est mon amie." were already in the course. W1049 copain and W1050 copine are off.
+  - Spanish v6: S51102 "Tengo los pies grandes.", S51103 "Tom tiene los pies pequeños."; new word W1044 pies (U51, hint feet). S51119 also accepts "I'm a serious person." (AD0001). S53114's "nice" was skipped because the draft was swapped.
+  - German v6: S52117 to S52119 take viel, S52120 shows "Are you listening?", S53111 "Die Straße ist lang."; new words W1044 viel (U52, Determiner) and W1045 lang (U53, Adjective). S52123 also accepts "You don't swim." (AD0005).
+- Drafts shipped: French 414 to 390, Spanish 194 to 176, German 137 to 127. npm test 127 pass.

@@ -10,16 +10,16 @@ export const COURSE = process.env.COURSE ?? 'fr'
 
 export const COURSES = {
   fr: {
-    id: 'fr', name: 'French', workbook: '_source/tamago-data-v32.xlsx',
+    id: 'fr', name: 'French', workbook: '_source/tamago-data-v33.xlsx',
     tatoeba: 'fra', wiktionaryCode: 'fr', wiktionarySection: 'French', linguaLibre: { qid: 'Q150', iso: 'fra' }, wikidataLanguage: 'Q150',
   },
   es: {
-    id: 'es', name: 'Spanish', workbook: '_source/tamago-es-data-v5.xlsx',
+    id: 'es', name: 'Spanish', workbook: '_source/tamago-es-data-v6.xlsx',
     tatoeba: 'spa', wiktionaryCode: 'es', wiktionarySection: 'Spanish', linguaLibre: { qid: 'Q1321', iso: 'spa' }, wikidataLanguage: 'Q1321',
   },
   // German (2026-11-10): standard German as spoken in Germany, du and Sie. Its folders: content-de/, src/content-de/…
   de: {
-    id: 'de', name: 'German', workbook: '_source/tamago-de-data-v5.xlsx',
+    id: 'de', name: 'German', workbook: '_source/tamago-de-data-v6.xlsx',
     tatoeba: 'deu', wiktionaryCode: 'de', wiktionarySection: 'German', linguaLibre: { qid: 'Q188', iso: 'deu' }, wikidataLanguage: 'Q188',
   },
 }

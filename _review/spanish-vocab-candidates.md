@@ -6,32 +6,34 @@ November 10, 2026. Each sentence below fits its unit on every other rule the pul
 
 Under each unit: its drafts, each beside the candidates that could replace it: the same sentence on Tatoeba first, then up to three that teach all the draft's new words; then the unit's other fitting candidates. These haven't had my review for idioms or odd lines; they pass the rules only. Links go to Tatoeba, where the owner and any comments can be checked.
 
+**Review, November 11, 2026.** Only the candidates listed beside a draft were judged (exact matches first), each for grammar, how it sounds to a Latin American Spanish speaker, A1 fit and a true match with its English, and marked **Use** or **Reject** with a reason; the "Other candidates" lists below each unit are unreviewed. Marks are keyed to the Tatoeba sentence, so a sentence beside several drafts carries the same mark each time. Of the 26 distinct sentences beside drafts, 23 are Use and 3 are Reject; 4 Use marks name the English to show instead of Tatoeba's line. Of the 30 drafts that had a candidate, 28 now have at least one usable replacement; S52110, S52111 lost every candidate they had. Nothing has been swapped.
+
 ## U51 Body and Feelings
 
 19 drafts · 19 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S51101 El pie es grande. = The foot is big. | none teaches all its new words | | |
-| S51102 Tengo un pie grande. = I have a big foot. | none teaches all its new words | | |
-| S51103 Tom tiene un pie pequeño. = Tom has a small foot. | none teaches all its new words | | |
-| S51104 Tiene dientes pequeños. = He has small teeth. | La tortuga no tiene dientes. = The turtle has no teeth. [#13001394](https://tatoeba.org/en/sentences/show/13001394) | araneo | has all its new words (dientes) |
-| S51105 Tengo dientes grandes. = I have big teeth. | La tortuga no tiene dientes. = The turtle has no teeth. [#13001394](https://tatoeba.org/en/sentences/show/13001394) | araneo | has all its new words (dientes) |
-| S51106 Los dientes son pequeños. = The teeth are small. | La tortuga no tiene dientes. = The turtle has no teeth. [#13001394](https://tatoeba.org/en/sentences/show/13001394) | araneo | has all its new words (dientes) |
-| S51107 Es una cara bonita. = It's a pretty face. | Tiene una cara muy bonita. = She has a very pretty face. [#456694](https://tatoeba.org/en/sentences/show/456694) | lukaszpp | has all its new words (cara) |
-| S51108 Tiene una cara pequeña. = She has a small face. | Tiene una cara muy bonita. = She has a very pretty face. [#456694](https://tatoeba.org/en/sentences/show/456694) | lukaszpp | has all its new words (cara) |
-| S51109 Tiene el pelo bonito. = She has nice hair. | none teaches all its new words | | |
-| S51110 Las manos son grandes. = The hands are big. | Él tiene manos grandes. = He has big hands. [#1170867](https://tatoeba.org/en/sentences/show/1170867) | darinmex | has all its new words (manos) |
-|  | Tom tiene las manos grandes. = Tom has big hands. [#1207073](https://tatoeba.org/en/sentences/show/1207073) | lorcon | has all its new words (manos) |
-| S51111 La nariz es pequeña. = The nose is small. | none teaches all its new words | | |
-| S51112 Tiene una nariz pequeña. = She has a small nose. | none teaches all its new words | | |
-| S51113 Soy alegre. = I'm cheerful. | none teaches all its new words | | |
-| S51114 Ella es alegre. = She's cheerful. | none teaches all its new words | | |
-| S51115 Él es simpático. = He's nice. | Él es simpático. = He is delightful. [#12533254](https://tatoeba.org/en/sentences/show/12533254) | opalandwoof | the same sentence |
-| S51116 Ella es simpática. = She's nice. | ¿Ella es simpática? = Is she nice? [#872256](https://tatoeba.org/en/sentences/show/872256) | japegon | has all its new words (simpática) |
-| S51117 Eres simpática. = You're nice. | ¿Ella es simpática? = Is she nice? [#872256](https://tatoeba.org/en/sentences/show/872256) | japegon | has all its new words (simpática) |
-| S51118 Tom es serio. = Tom is serious. | Él no es serio. = He's not serious. [#1238418](https://tatoeba.org/en/sentences/show/1238418) | aliamondano | has all its new words (serio) |
-| S51119 Soy serio. = I'm serious. | Él no es serio. = He's not serious. [#1238418](https://tatoeba.org/en/sentences/show/1238418) | aliamondano | has all its new words (serio) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S51101 El pie es grande. = The foot is big. | none teaches all its new words | | |  |
+| S51102 Tengo un pie grande. = I have a big foot. | none teaches all its new words | | |  |
+| S51103 Tom tiene un pie pequeño. = Tom has a small foot. | none teaches all its new words | | |  |
+| S51104 Tiene dientes pequeños. = He has small teeth. | La tortuga no tiene dientes. = The turtle has no teeth. [#13001394](https://tatoeba.org/en/sentences/show/13001394) | araneo | has all its new words (dientes) | **Use.** Natural; matches. |
+| S51105 Tengo dientes grandes. = I have big teeth. | La tortuga no tiene dientes. = The turtle has no teeth. [#13001394](https://tatoeba.org/en/sentences/show/13001394) | araneo | has all its new words (dientes) | **Use.** Natural; matches. |
+| S51106 Los dientes son pequeños. = The teeth are small. | La tortuga no tiene dientes. = The turtle has no teeth. [#13001394](https://tatoeba.org/en/sentences/show/13001394) | araneo | has all its new words (dientes) | **Use.** Natural; matches. |
+| S51107 Es una cara bonita. = It's a pretty face. | Tiene una cara muy bonita. = She has a very pretty face. [#456694](https://tatoeba.org/en/sentences/show/456694) | lukaszpp | has all its new words (cara) | **Use.** Natural; matches. |
+| S51108 Tiene una cara pequeña. = She has a small face. | Tiene una cara muy bonita. = She has a very pretty face. [#456694](https://tatoeba.org/en/sentences/show/456694) | lukaszpp | has all its new words (cara) | **Use.** Natural; matches. |
+| S51109 Tiene el pelo bonito. = She has nice hair. | none teaches all its new words | | |  |
+| S51110 Las manos son grandes. = The hands are big. | Él tiene manos grandes. = He has big hands. [#1170867](https://tatoeba.org/en/sentences/show/1170867) | darinmex | has all its new words (manos) | **Use.** Plain; matches. |
+|  | Tom tiene las manos grandes. = Tom has big hands. [#1207073](https://tatoeba.org/en/sentences/show/1207073) | lorcon | has all its new words (manos) | **Use.** Natural, with the article Spanish uses for body parts; matches. |
+| S51111 La nariz es pequeña. = The nose is small. | none teaches all its new words | | |  |
+| S51112 Tiene una nariz pequeña. = She has a small nose. | none teaches all its new words | | |  |
+| S51113 Soy alegre. = I'm cheerful. | none teaches all its new words | | |  |
+| S51114 Ella es alegre. = She's cheerful. | none teaches all its new words | | |  |
+| S51115 Él es simpático. = He's nice. | Él es simpático. = He is delightful. [#12533254](https://tatoeba.org/en/sentences/show/12533254) | opalandwoof | the same sentence | **Use.** Plain; English to show: "He's nice." |
+| S51116 Ella es simpática. = She's nice. | ¿Ella es simpática? = Is she nice? [#872256](https://tatoeba.org/en/sentences/show/872256) | japegon | has all its new words (simpática) | **Use.** Plain; matches. |
+| S51117 Eres simpática. = You're nice. | ¿Ella es simpática? = Is she nice? [#872256](https://tatoeba.org/en/sentences/show/872256) | japegon | has all its new words (simpática) | **Use.** Plain; matches. |
+| S51118 Tom es serio. = Tom is serious. | Él no es serio. = He's not serious. [#1238418](https://tatoeba.org/en/sentences/show/1238418) | aliamondano | has all its new words (serio) | **Use.** Plain; matches. |
+| S51119 Soy serio. = I'm serious. | Él no es serio. = He's not serious. [#1238418](https://tatoeba.org/en/sentences/show/1238418) | aliamondano | has all its new words (serio) | **Use.** Plain; matches. |
 
 Other candidates in this unit (13):
 
@@ -53,34 +55,34 @@ Other candidates in this unit (13):
 
 15 drafts · 33 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S52101 Me gusta la película. = I like the film. | none teaches all its new words | | |
-| S52102 Es una película. = It's a film. | none teaches all its new words | | |
-| S52103 Es una fiesta. = It's a party. | Es mi fiesta. = It's my party. [#11187299](https://tatoeba.org/en/sentences/show/11187299) | DJ_Saidez | has all its new words (fiesta) |
-|  | ¿Dónde es la fiesta? = Where's the party? [#687687](https://tatoeba.org/en/sentences/show/687687) | lukaszpp | has all its new words (fiesta) |
-| S52104 Me gusta el fútbol. = I like football. | none teaches all its new words | | |
-| S52105 El fútbol es bueno. = Football is good. | none teaches all its new words | | |
-| S52106 ¿Te gusta jugar? = Do you like to play? | Tom no quiere jugar. = Tom doesn't want to play. [#10358601](https://tatoeba.org/en/sentences/show/10358601) | DJ_Saidez | has all its new words (jugar) |
-|  | Mi perro quiere jugar. = My dog wants to play. [#9998455](https://tatoeba.org/en/sentences/show/9998455) | samir_t | has all its new words (jugar) |
-| S52107 No me gusta jugar. = I don't like to play. | Tom no quiere jugar. = Tom doesn't want to play. [#10358601](https://tatoeba.org/en/sentences/show/10358601) | DJ_Saidez | has all its new words (jugar) |
-|  | Mi perro quiere jugar. = My dog wants to play. [#9998455](https://tatoeba.org/en/sentences/show/9998455) | samir_t | has all its new words (jugar) |
-| S52108 Me gusta escuchar. = I like to listen. | none teaches all its new words | | |
-| S52109 ¿Te gusta escuchar? = Do you like to listen? | none teaches all its new words | | |
-| S52110 Escucho. = I'm listening. | Te escucho bien. = I hear you clear. [#1207252](https://tatoeba.org/en/sentences/show/1207252) | rafmagon | has all its new words (escucho) |
-| S52111 No escucho. = I'm not listening. | Te escucho bien. = I hear you clear. [#1207252](https://tatoeba.org/en/sentences/show/1207252) | rafmagon | has all its new words (escucho) |
-| S52112 ¿Estás de vacaciones? = Are you on vacation? | ¿Estás de vacaciones? = Are you on holiday? [#434251](https://tatoeba.org/en/sentences/show/434251) | lukaszpp | the same sentence |
-|  | Él está de vacaciones. = He is away on holiday. [#854525](https://tatoeba.org/en/sentences/show/854525) | arcepi | has all its new words (vacaciones) |
-|  | Estoy aquí de vacaciones. = I am here on holiday. [#3746786](https://tatoeba.org/en/sentences/show/3746786) | frantheviking | has all its new words (vacaciones) |
-| S52113 Tom lee un libro. = Tom reads a book. | Él lee. = He reads. [#13420928](https://tatoeba.org/en/sentences/show/13420928) | Adelpa | has all its new words (lee) |
-|  | Lee libros. = Read books. [#12656320](https://tatoeba.org/en/sentences/show/12656320) | Tom9358 | has all its new words (lee) |
-|  | Ella no lee. = She doesn't read. [#12923563](https://tatoeba.org/en/sentences/show/12923563) | PolyTrekker | has all its new words (lee) |
-| S52114 Ella lee. = She reads. | Él lee. = He reads. [#13420928](https://tatoeba.org/en/sentences/show/13420928) | Adelpa | has all its new words (lee) |
-|  | Lee libros. = Read books. [#12656320](https://tatoeba.org/en/sentences/show/12656320) | Tom9358 | has all its new words (lee) |
-|  | Ella no lee. = She doesn't read. [#12923563](https://tatoeba.org/en/sentences/show/12923563) | PolyTrekker | has all its new words (lee) |
-| S52115 Él lee una carta. = He reads a letter. | Él lee. = He reads. [#13420928](https://tatoeba.org/en/sentences/show/13420928) | Adelpa | has all its new words (lee) |
-|  | Lee libros. = Read books. [#12656320](https://tatoeba.org/en/sentences/show/12656320) | Tom9358 | has all its new words (lee) |
-|  | Ella no lee. = She doesn't read. [#12923563](https://tatoeba.org/en/sentences/show/12923563) | PolyTrekker | has all its new words (lee) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S52101 Me gusta la película. = I like the film. | none teaches all its new words | | |  |
+| S52102 Es una película. = It's a film. | none teaches all its new words | | |  |
+| S52103 Es una fiesta. = It's a party. | Es mi fiesta. = It's my party. [#11187299](https://tatoeba.org/en/sentences/show/11187299) | DJ_Saidez | has all its new words (fiesta) | **Use.** Plain; matches. |
+|  | ¿Dónde es la fiesta? = Where's the party? [#687687](https://tatoeba.org/en/sentences/show/687687) | lukaszpp | has all its new words (fiesta) | **Use.** Natural; ser for where an event is, as Spanish has it; matches. |
+| S52104 Me gusta el fútbol. = I like football. | none teaches all its new words | | |  |
+| S52105 El fútbol es bueno. = Football is good. | none teaches all its new words | | |  |
+| S52106 ¿Te gusta jugar? = Do you like to play? | Tom no quiere jugar. = Tom doesn't want to play. [#10358601](https://tatoeba.org/en/sentences/show/10358601) | DJ_Saidez | has all its new words (jugar) | **Use.** Plain; matches. |
+|  | Mi perro quiere jugar. = My dog wants to play. [#9998455](https://tatoeba.org/en/sentences/show/9998455) | samir_t | has all its new words (jugar) | **Use.** Natural; matches. |
+| S52107 No me gusta jugar. = I don't like to play. | Tom no quiere jugar. = Tom doesn't want to play. [#10358601](https://tatoeba.org/en/sentences/show/10358601) | DJ_Saidez | has all its new words (jugar) | **Use.** Plain; matches. |
+|  | Mi perro quiere jugar. = My dog wants to play. [#9998455](https://tatoeba.org/en/sentences/show/9998455) | samir_t | has all its new words (jugar) | **Use.** Natural; matches. |
+| S52108 Me gusta escuchar. = I like to listen. | none teaches all its new words | | |  |
+| S52109 ¿Te gusta escuchar? = Do you like to listen? | none teaches all its new words | | |  |
+| S52110 Escucho. = I'm listening. | Te escucho bien. = I hear you clear. [#1207252](https://tatoeba.org/en/sentences/show/1207252) | rafmagon | has all its new words (escucho) | **Reject.** Object te is past the unit, and the English is broken ("clear"). |
+| S52111 No escucho. = I'm not listening. | Te escucho bien. = I hear you clear. [#1207252](https://tatoeba.org/en/sentences/show/1207252) | rafmagon | has all its new words (escucho) | **Reject.** Object te is past the unit, and the English is broken ("clear"). |
+| S52112 ¿Estás de vacaciones? = Are you on vacation? | ¿Estás de vacaciones? = Are you on holiday? [#434251](https://tatoeba.org/en/sentences/show/434251) | lukaszpp | the same sentence | **Use.** Standard; English to show: "Are you on vacation?" |
+|  | Él está de vacaciones. = He is away on holiday. [#854525](https://tatoeba.org/en/sentences/show/854525) | arcepi | has all its new words (vacaciones) | **Use.** Natural; English to show: "He is on vacation." |
+|  | Estoy aquí de vacaciones. = I am here on holiday. [#3746786](https://tatoeba.org/en/sentences/show/3746786) | frantheviking | has all its new words (vacaciones) | **Use.** Natural; English to show: "I'm here on vacation." |
+| S52113 Tom lee un libro. = Tom reads a book. | Él lee. = He reads. [#13420928](https://tatoeba.org/en/sentences/show/13420928) | Adelpa | has all its new words (lee) | **Use.** Plain; matches. |
+|  | Lee libros. = Read books. [#12656320](https://tatoeba.org/en/sentences/show/12656320) | Tom9358 | has all its new words (lee) | **Reject.** Imperative; the learner reads "Lee" as "he reads". |
+|  | Ella no lee. = She doesn't read. [#12923563](https://tatoeba.org/en/sentences/show/12923563) | PolyTrekker | has all its new words (lee) | **Use.** Plain; matches. |
+| S52114 Ella lee. = She reads. | Él lee. = He reads. [#13420928](https://tatoeba.org/en/sentences/show/13420928) | Adelpa | has all its new words (lee) | **Use.** Plain; matches. |
+|  | Lee libros. = Read books. [#12656320](https://tatoeba.org/en/sentences/show/12656320) | Tom9358 | has all its new words (lee) | **Reject.** Imperative; the learner reads "Lee" as "he reads". |
+|  | Ella no lee. = She doesn't read. [#12923563](https://tatoeba.org/en/sentences/show/12923563) | PolyTrekker | has all its new words (lee) | **Use.** Plain; matches. |
+| S52115 Él lee una carta. = He reads a letter. | Él lee. = He reads. [#13420928](https://tatoeba.org/en/sentences/show/13420928) | Adelpa | has all its new words (lee) | **Use.** Plain; matches. |
+|  | Lee libros. = Read books. [#12656320](https://tatoeba.org/en/sentences/show/12656320) | Tom9358 | has all its new words (lee) | **Reject.** Imperative; the learner reads "Lee" as "he reads". |
+|  | Ella no lee. = She doesn't read. [#12923563](https://tatoeba.org/en/sentences/show/12923563) | PolyTrekker | has all its new words (lee) | **Use.** Plain; matches. |
 
 Other candidates in this unit (23):
 
@@ -112,24 +114,24 @@ Other candidates in this unit (23):
 
 14 drafts · 56 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S53101 Voy al museo. = I'm going to the museum. | Voy al museo. = I'm going to the museum. [#12192238](https://tatoeba.org/en/sentences/show/12192238) | Adelpa | the same sentence |
-|  | ¿Dónde está el museo? = Where is the museum? [#560908](https://tatoeba.org/en/sentences/show/560908) | darinmex | has all its new words (museo) |
-| S53102 Estamos en el cine. = We're at the cinema. | none teaches all its new words | | |
-| S53103 Voy al teatro. = I'm going to the theater. | none teaches all its new words | | |
-| S53104 El teatro es grande. = The theater is big. | none teaches all its new words | | |
-| S53105 ¿Dónde está el teatro? = Where is the theater? | none teaches all its new words | | |
-| S53106 Voy en taxi. = I'm going by taxi. | Estoy en el taxi. = I'm in the taxi. [#10054454](https://tatoeba.org/en/sentences/show/10054454) | Ricardo14 | has all its new words (taxi) |
-| S53107 Es un taxi. = It's a taxi. | Estoy en el taxi. = I'm in the taxi. [#10054454](https://tatoeba.org/en/sentences/show/10054454) | Ricardo14 | has all its new words (taxi) |
-| S53108 La plaza es grande. = The square is big. | ¿Estás en la plaza? = Are you in the square? [#2992190](https://tatoeba.org/en/sentences/show/2992190) | alexmarcelo | has all its new words (plaza) |
-| S53109 ¿Dónde está la plaza? = Where is the square? | ¿Estás en la plaza? = Are you in the square? [#2992190](https://tatoeba.org/en/sentences/show/2992190) | alexmarcelo | has all its new words (plaza) |
-| S53110 Es una calle bonita. = It's a pretty street. | ¿Hay una escuela en tu calle? = Is there a school on your street? [#10716788](https://tatoeba.org/en/sentences/show/10716788) | carlosalberto | has all its new words (calle) |
-| S53111 La calle es pequeña. = The street is small. | ¿Hay una escuela en tu calle? = Is there a school on your street? [#10716788](https://tatoeba.org/en/sentences/show/10716788) | carlosalberto | has all its new words (calle) |
-| S53112 ¿Dónde está la calle? = Where is the street? | ¿Hay una escuela en tu calle? = Is there a school on your street? [#10716788](https://tatoeba.org/en/sentences/show/10716788) | carlosalberto | has all its new words (calle) |
-| S53113 Es un pueblo pequeño. = It's a small town. | Al pueblo. = To the village. [#464251](https://tatoeba.org/en/sentences/show/464251) | lukaszpp | has all its new words (pueblo) |
-|  | Él es de este pueblo. = He is from this town. [#1317484](https://tatoeba.org/en/sentences/show/1317484) | arashi_29 | has all its new words (pueblo) |
-| S53114 El hotel es bonito. = The hotel is pretty. | ¿Cómo voy al hotel? = How do I get to the hotel? [#8819374](https://tatoeba.org/en/sentences/show/8819374) | carlosalberto | has all its new words (hotel) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S53101 Voy al museo. = I'm going to the museum. | Voy al museo. = I'm going to the museum. [#12192238](https://tatoeba.org/en/sentences/show/12192238) | Adelpa | the same sentence | **Use.** Plain; matches. |
+|  | ¿Dónde está el museo? = Where is the museum? [#560908](https://tatoeba.org/en/sentences/show/560908) | darinmex | has all its new words (museo) | **Use.** Standard; matches. |
+| S53102 Estamos en el cine. = We're at the cinema. | none teaches all its new words | | |  |
+| S53103 Voy al teatro. = I'm going to the theater. | none teaches all its new words | | |  |
+| S53104 El teatro es grande. = The theater is big. | none teaches all its new words | | |  |
+| S53105 ¿Dónde está el teatro? = Where is the theater? | none teaches all its new words | | |  |
+| S53106 Voy en taxi. = I'm going by taxi. | Estoy en el taxi. = I'm in the taxi. [#10054454](https://tatoeba.org/en/sentences/show/10054454) | Ricardo14 | has all its new words (taxi) | **Use.** Plain; matches. |
+| S53107 Es un taxi. = It's a taxi. | Estoy en el taxi. = I'm in the taxi. [#10054454](https://tatoeba.org/en/sentences/show/10054454) | Ricardo14 | has all its new words (taxi) | **Use.** Plain; matches. |
+| S53108 La plaza es grande. = The square is big. | ¿Estás en la plaza? = Are you in the square? [#2992190](https://tatoeba.org/en/sentences/show/2992190) | alexmarcelo | has all its new words (plaza) | **Use.** Plain; matches. |
+| S53109 ¿Dónde está la plaza? = Where is the square? | ¿Estás en la plaza? = Are you in the square? [#2992190](https://tatoeba.org/en/sentences/show/2992190) | alexmarcelo | has all its new words (plaza) | **Use.** Plain; matches. |
+| S53110 Es una calle bonita. = It's a pretty street. | ¿Hay una escuela en tu calle? = Is there a school on your street? [#10716788](https://tatoeba.org/en/sentences/show/10716788) | carlosalberto | has all its new words (calle) | **Use.** Natural; matches. |
+| S53111 La calle es pequeña. = The street is small. | ¿Hay una escuela en tu calle? = Is there a school on your street? [#10716788](https://tatoeba.org/en/sentences/show/10716788) | carlosalberto | has all its new words (calle) | **Use.** Natural; matches. |
+| S53112 ¿Dónde está la calle? = Where is the street? | ¿Hay una escuela en tu calle? = Is there a school on your street? [#10716788](https://tatoeba.org/en/sentences/show/10716788) | carlosalberto | has all its new words (calle) | **Use.** Natural; matches. |
+| S53113 Es un pueblo pequeño. = It's a small town. | Al pueblo. = To the village. [#464251](https://tatoeba.org/en/sentences/show/464251) | lukaszpp | has all its new words (pueblo) | **Reject.** Fragment. |
+|  | Él es de este pueblo. = He is from this town. [#1317484](https://tatoeba.org/en/sentences/show/1317484) | arashi_29 | has all its new words (pueblo) | **Use.** Natural; matches. |
+| S53114 El hotel es bonito. = The hotel is pretty. | ¿Cómo voy al hotel? = How do I get to the hotel? [#8819374](https://tatoeba.org/en/sentences/show/8819374) | carlosalberto | has all its new words (hotel) | **Use.** Natural; matches. |
 
 Other candidates in this unit (49):
 

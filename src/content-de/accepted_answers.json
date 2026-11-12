@@ -2348,6 +2348,15 @@
     "origin": "flag"
   },
   {
+    "answer_id": "AD0005",
+    "sentence_id": "S52123",
+    "direction": "fr_to_en",
+    "answer": "You don't swim.",
+    "source": "German vocabulary check of 2026-11-11 (_review/german-vocab-check.md), added at Dan's request: Sie as formal you",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
     "answer_id": "GS10101-10032171",
     "sentence_id": "S10101",
     "direction": "en_to_fr",
@@ -2408,16 +2417,6 @@
     "source_owner": "Espi"
   },
   {
-    "answer_id": "GS51111-1907062",
-    "sentence_id": "S51111",
-    "direction": "en_to_fr",
-    "answer": "Das ist komisch.",
-    "source": "tatoeba",
-    "source_id": "1907062",
-    "status": "live",
-    "source_owner": "Pfirsichbaeumchen"
-  },
-  {
     "answer_id": "GS52114-360795",
     "sentence_id": "S52114",
     "direction": "en_to_fr",
@@ -2428,23 +2427,13 @@
     "source_owner": "MUIRIEL"
   },
   {
-    "answer_id": "GS52121-10166416",
-    "sentence_id": "S52121",
+    "answer_id": "GS52120-1288730",
+    "sentence_id": "S52120",
     "direction": "en_to_fr",
-    "answer": "Ich höre gerade zu.",
+    "answer": "Hörst du zu?",
     "source": "tatoeba",
-    "source_id": "10166416",
+    "source_id": "1288730",
     "status": "live",
-    "source_owner": "wolfgangth"
-  },
-  {
-    "answer_id": "GS52122-6644296",
-    "sentence_id": "S52122",
-    "direction": "en_to_fr",
-    "answer": "Ich höre nicht zu.",
-    "source": "tatoeba",
-    "source_id": "6644296",
-    "status": "live",
-    "source_owner": "Felixjp"
+    "source_owner": "Esperantostern"
   }
 ]

@@ -45202,24 +45202,24 @@
   {
     "sentence_id": "S11263",
     "position": 1,
-    "surface": "C'est",
-    "word_id": "W010",
+    "surface": "Il",
+    "word_id": "W023",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11263",
     "position": 2,
-    "surface": "un",
-    "word_id": "W011",
+    "surface": "est",
+    "word_id": "W025",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11263",
     "position": 3,
-    "surface": "grand",
-    "word_id": "W201",
+    "surface": "au",
+    "word_id": "W476",
     "notes": "",
     "hint_override": ""
   },
@@ -45234,32 +45234,40 @@
   {
     "sentence_id": "S11264",
     "position": 1,
-    "surface": "La",
-    "word_id": "W020",
+    "surface": "Je",
+    "word_id": "W006",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11264",
     "position": 2,
-    "surface": "piscine",
-    "word_id": "W1006",
+    "surface": "vais",
+    "word_id": "W478",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11264",
     "position": 3,
-    "surface": "est",
-    "word_id": "W025",
+    "surface": "à",
+    "word_id": "W475",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11264",
     "position": 4,
-    "surface": "grande",
-    "word_id": "W202",
+    "surface": "la",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11264",
+    "position": 5,
+    "surface": "piscine",
+    "word_id": "W1006",
     "notes": "",
     "hint_override": ""
   },
@@ -45394,30 +45402,38 @@
   {
     "sentence_id": "S11268",
     "position": 1,
-    "surface": "Où",
-    "word_id": "W433",
+    "surface": "Aujourd'hui",
+    "word_id": "W460",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11268",
     "position": 2,
-    "surface": "est",
-    "word_id": "W025",
+    "surface": "je",
+    "word_id": "W006",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11268",
     "position": 3,
-    "surface": "le",
-    "word_id": "W019",
+    "surface": "vais",
+    "word_id": "W478",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11268",
     "position": 4,
+    "surface": "au",
+    "word_id": "W476",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11268",
+    "position": 5,
     "surface": "cinéma",
     "word_id": "W1001",
     "notes": "",
@@ -45426,22 +45442,54 @@
   {
     "sentence_id": "S11269",
     "position": 1,
-    "surface": "C'est",
-    "word_id": "W010",
+    "surface": "Je",
+    "word_id": "W006",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11269",
     "position": 2,
-    "surface": "le",
-    "word_id": "W019",
+    "surface": "vais",
+    "word_id": "W478",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11269",
     "position": 3,
+    "surface": "à",
+    "word_id": "W475",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11269",
+    "position": 4,
+    "surface": "l'",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11269",
+    "position": 5,
+    "surface": "école",
+    "word_id": "W471",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11269",
+    "position": 6,
+    "surface": "en",
+    "word_id": "W718",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11269",
+    "position": 7,
     "surface": "métro",
     "word_id": "W1011",
     "notes": "",
@@ -45514,22 +45562,54 @@
   {
     "sentence_id": "S11272",
     "position": 1,
-    "surface": "C'est",
-    "word_id": "W010",
+    "surface": "Il",
+    "word_id": "W023",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11272",
     "position": 2,
-    "surface": "ton",
-    "word_id": "W424",
+    "surface": "va",
+    "word_id": "W480",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11272",
     "position": 3,
+    "surface": "à",
+    "word_id": "W475",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11272",
+    "position": 4,
+    "surface": "l'",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11272",
+    "position": 5,
+    "surface": "école",
+    "word_id": "W471",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11272",
+    "position": 6,
+    "surface": "en",
+    "word_id": "W718",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11272",
+    "position": 7,
     "surface": "bus",
     "word_id": "W1007",
     "notes": "",
@@ -45610,30 +45690,14 @@
   {
     "sentence_id": "S11361",
     "position": 1,
-    "surface": "J'",
-    "word_id": "W055",
+    "surface": "Il",
+    "word_id": "W023",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11361",
     "position": 2,
-    "surface": "aime",
-    "word_id": "W053",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11361",
-    "position": 3,
-    "surface": "la",
-    "word_id": "W020",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11361",
-    "position": 4,
     "surface": "danse",
     "word_id": "W1017",
     "notes": "",
@@ -45642,32 +45706,24 @@
   {
     "sentence_id": "S11362",
     "position": 1,
-    "surface": "C'est",
-    "word_id": "W010",
-    "notes": "",
+    "surface": "Marie",
+    "word_id": "",
+    "notes": "name",
     "hint_override": ""
   },
   {
     "sentence_id": "S11362",
     "position": 2,
-    "surface": "une",
-    "word_id": "W012",
+    "surface": "danse",
+    "word_id": "W1017",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11362",
     "position": 3,
-    "surface": "belle",
-    "word_id": "W414",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11362",
-    "position": 4,
-    "surface": "danse",
-    "word_id": "W1017",
+    "surface": "bien",
+    "word_id": "W048",
     "notes": "",
     "hint_override": ""
   },
@@ -45724,6 +45780,22 @@
     "position": 3,
     "surface": "jeu",
     "word_id": "W1016",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11364",
+    "position": 4,
+    "surface": "pour",
+    "word_id": "W724",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11364",
+    "position": 5,
+    "surface": "enfants",
+    "word_id": "W033",
     "notes": "",
     "hint_override": ""
   },
@@ -45898,14 +45970,6 @@
   {
     "sentence_id": "S11370",
     "position": 3,
-    "surface": "belle",
-    "word_id": "W414",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11370",
-    "position": 4,
     "surface": "photo",
     "word_id": "W1015",
     "notes": "",
@@ -46306,16 +46370,16 @@
   {
     "sentence_id": "S11471",
     "position": 1,
-    "surface": "Tu",
-    "word_id": "W007",
+    "surface": "Il",
+    "word_id": "W023",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11471",
     "position": 2,
-    "surface": "as",
-    "word_id": "W066",
+    "surface": "a",
+    "word_id": "W067",
     "notes": "",
     "hint_override": ""
   },
@@ -46324,6 +46388,22 @@
     "position": 3,
     "surface": "peur",
     "word_id": "W1042",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11471",
+    "position": 4,
+    "surface": "du",
+    "word_id": "W063",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11471",
+    "position": 5,
+    "surface": "chien",
+    "word_id": "W069",
     "notes": "",
     "hint_override": ""
   },
@@ -46490,9 +46570,17 @@
   {
     "sentence_id": "S11563",
     "position": 3,
-    "surface": "copain",
-    "word_id": "W1049",
+    "surface": "ami",
+    "word_id": "W430",
     "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11563",
+    "position": 4,
+    "surface": "Paul",
+    "word_id": "",
+    "notes": "name",
     "hint_override": ""
   },
   {
@@ -46522,8 +46610,8 @@
   {
     "sentence_id": "S11564",
     "position": 4,
-    "surface": "copain",
-    "word_id": "W1049",
+    "surface": "ami",
+    "word_id": "W430",
     "notes": "",
     "hint_override": ""
   },
@@ -46538,17 +46626,25 @@
   {
     "sentence_id": "S11565",
     "position": 2,
-    "surface": "ma",
-    "word_id": "W422",
+    "surface": "mon",
+    "word_id": "W421",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11565",
     "position": 3,
-    "surface": "copine",
-    "word_id": "W1050",
+    "surface": "amie",
+    "word_id": "W431",
     "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11565",
+    "position": 4,
+    "surface": "Marie",
+    "word_id": "",
+    "notes": "name",
     "hint_override": ""
   },
   {
@@ -46570,16 +46666,16 @@
   {
     "sentence_id": "S11566",
     "position": 3,
-    "surface": "ma",
-    "word_id": "W422",
+    "surface": "mon",
+    "word_id": "W421",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11566",
     "position": 4,
-    "surface": "copine",
-    "word_id": "W1050",
+    "surface": "amie",
+    "word_id": "W431",
     "notes": "",
     "hint_override": ""
   },
@@ -46642,14 +46738,22 @@
   {
     "sentence_id": "S11569",
     "position": 1,
-    "surface": "C'est",
-    "word_id": "W010",
+    "surface": "Vous",
+    "word_id": "W049",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11569",
     "position": 2,
+    "surface": "êtes",
+    "word_id": "W050",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11569",
+    "position": 3,
     "surface": "un",
     "word_id": "W011",
     "notes": "",
@@ -46657,7 +46761,15 @@
   },
   {
     "sentence_id": "S11569",
-    "position": 3,
+    "position": 4,
+    "surface": "bon",
+    "word_id": "W411",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11569",
+    "position": 5,
     "surface": "client",
     "word_id": "W1058",
     "notes": "",
@@ -46682,38 +46794,46 @@
   {
     "sentence_id": "S11570",
     "position": 3,
-    "surface": "est",
-    "word_id": "W025",
+    "surface": "veut",
+    "word_id": "W714",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11570",
     "position": 4,
-    "surface": "content",
-    "word_id": "W1037",
+    "surface": "acheter",
+    "word_id": "W876",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11570",
+    "position": 5,
+    "surface": "mon",
+    "word_id": "W421",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11570",
+    "position": 6,
+    "surface": "chien",
+    "word_id": "W069",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11571",
     "position": 1,
-    "surface": "Qui",
-    "word_id": "W432",
+    "surface": "C'est",
+    "word_id": "W010",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11571",
     "position": 2,
-    "surface": "est",
-    "word_id": "W025",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11571",
-    "position": 3,
     "surface": "la",
     "word_id": "W020",
     "notes": "",
@@ -46721,7 +46841,7 @@
   },
   {
     "sentence_id": "S11571",
-    "position": 4,
+    "position": 3,
     "surface": "dame",
     "word_id": "W1048",
     "notes": "",
@@ -46730,64 +46850,16 @@
   {
     "sentence_id": "S11572",
     "position": 1,
-    "surface": "J'",
-    "word_id": "W055",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11572",
-    "position": 2,
-    "surface": "aime",
-    "word_id": "W053",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11572",
-    "position": 3,
-    "surface": "le",
-    "word_id": "W019",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11572",
-    "position": 4,
-    "surface": "pain",
-    "word_id": "W056",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11572",
-    "position": 5,
-    "surface": "mais",
+    "surface": "Mais",
     "word_id": "W1059",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11572",
-    "position": 6,
-    "surface": "pas",
-    "word_id": "W702",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11572",
-    "position": 7,
-    "surface": "le",
-    "word_id": "W019",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11572",
-    "position": 8,
-    "surface": "fromage",
-    "word_id": "W060",
+    "position": 2,
+    "surface": "pourquoi",
+    "word_id": "W438",
     "notes": "",
     "hint_override": ""
   },
@@ -46818,8 +46890,8 @@
   {
     "sentence_id": "S11661",
     "position": 4,
-    "surface": "belle",
-    "word_id": "W414",
+    "surface": "verte",
+    "word_id": "W454",
     "notes": "",
     "hint_override": ""
   },
@@ -47042,32 +47114,32 @@
   {
     "sentence_id": "S11668",
     "position": 1,
-    "surface": "J'",
-    "word_id": "W055",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11668",
-    "position": 2,
-    "surface": "aime",
-    "word_id": "W053",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S11668",
-    "position": 3,
-    "surface": "la",
+    "surface": "La",
     "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S11668",
-    "position": 4,
+    "position": 2,
     "surface": "nature",
     "word_id": "W1069",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11668",
+    "position": 3,
+    "surface": "est",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11668",
+    "position": 4,
+    "surface": "verte",
+    "word_id": "W454",
     "notes": "",
     "hint_override": ""
   },
@@ -47338,9 +47410,9 @@
   {
     "sentence_id": "S11676",
     "position": 1,
-    "surface": "Il",
-    "word_id": "W023",
-    "notes": "",
+    "surface": "Marie",
+    "word_id": "",
+    "notes": "name",
     "hint_override": ""
   },
   {

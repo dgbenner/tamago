@@ -14979,16 +14979,17 @@
   {
     "sentence_id": "S51111",
     "unit_id": "U51",
-    "french": "Das ist lustig.",
-    "english": "That's funny.",
+    "french": "Hunde sind lustig.",
+    "english": "Dogs are funny.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "11839422",
+    "source_owner": "shekitten",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #11839422 (Fable's review of _review/german-vocab-candidates.md: Use); was the draft \"Das ist lustig.\""
   },
   {
     "sentence_id": "S51112",
@@ -15007,16 +15008,17 @@
   {
     "sentence_id": "S51113",
     "unit_id": "U51",
-    "french": "Du bist ein Mensch.",
-    "english": "You're a human being.",
+    "french": "Eine Katze ist kein Mensch!",
+    "english": "A cat is not a person!",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "1087708",
+    "source_owner": "Katheriinne",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #1087708 (Fable's review of _review/german-vocab-candidates.md: Use); was the draft \"Du bist ein Mensch.\""
   },
   {
     "sentence_id": "S52101",
@@ -15148,16 +15150,17 @@
   {
     "sentence_id": "S52110",
     "unit_id": "U52",
-    "french": "Tom hat ein Hobby.",
-    "english": "Tom has a hobby.",
+    "french": "Hat Tom ein Hobby?",
+    "english": "Does Tom have a hobby?",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "8828691",
+    "source_owner": "mramosch",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #8828691 (Fable's review of _review/german-vocab-candidates.md: Use); was the draft \"Tom hat ein Hobby.\""
   },
   {
     "sentence_id": "S52111",
@@ -15246,22 +15249,23 @@
   {
     "sentence_id": "S52117",
     "unit_id": "U52",
-    "french": "Ich habe Freizeit.",
-    "english": "I have free time.",
+    "french": "Ich habe viel Freizeit.",
+    "english": "I have a lot of free time.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "10095177",
+    "source_owner": "wolfgangth",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-11 from _review/german-vocab-check.md: Freizeit needs a measure to sound German; was \"Ich habe Freizeit. = I have free time.\"; drafted, then found on Tatoeba from a checked owner"
   },
   {
     "sentence_id": "S52118",
     "unit_id": "U52",
-    "french": "Hast du Freizeit?",
-    "english": "Do you have free time?",
+    "french": "Hast du viel Freizeit?",
+    "english": "Do you have a lot of free time?",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -15269,13 +15273,13 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-11 from _review/german-vocab-check.md: as S52117; was \"Hast du Freizeit? = Do you have free time?\""
   },
   {
     "sentence_id": "S52119",
     "unit_id": "U52",
-    "french": "Wir haben Freizeit.",
-    "english": "We have free time.",
+    "french": "Wir haben viel Freizeit.",
+    "english": "We have a lot of free time.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -15283,13 +15287,13 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-11 from _review/german-vocab-check.md: as S52117; was \"Wir haben Freizeit. = We have free time.\""
   },
   {
     "sentence_id": "S52120",
     "unit_id": "U52",
     "french": "Hören Sie?",
-    "english": "Can you hear?",
+    "english": "Are you listening?",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -15297,7 +15301,7 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-11 from _review/german-vocab-check.md: \"Hören Sie?\" is first heard as \"Are you listening?\"; was \"Hören Sie? = Can you hear?\""
   },
   {
     "sentence_id": "S52121",
@@ -15305,27 +15309,29 @@
     "french": "Ich höre.",
     "english": "I'm listening.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "5622538",
+    "source_owner": "list",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #5622538 (Fable's review of _review/german-vocab-candidates.md: Use); was the draft \"Ich höre.\""
   },
   {
     "sentence_id": "S52122",
     "unit_id": "U52",
-    "french": "Ich höre nicht.",
-    "english": "I'm not listening.",
+    "french": "Ich höre es nicht.",
+    "english": "I don't hear it.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "989115",
+    "source_owner": "MUIRIEL",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #989115 (Fable's review of _review/german-vocab-candidates.md: Use), English picked by Fable over \"I can't hear it.\"; was the draft \"Ich höre nicht.\""
   },
   {
     "sentence_id": "S52123",
@@ -15428,16 +15434,17 @@
   {
     "sentence_id": "S53107",
     "unit_id": "U53",
-    "french": "Das Dorf ist klein.",
-    "english": "The village is small.",
+    "french": "Es ist ein Dorf.",
+    "english": "It's a village.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "6059968",
+    "source_owner": "christian63",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #6059968 (Fable's review of _review/german-vocab-candidates.md: Use); was the draft \"Das Dorf ist klein.\""
   },
   {
     "sentence_id": "S53108",
@@ -15470,22 +15477,23 @@
   {
     "sentence_id": "S53110",
     "unit_id": "U53",
-    "french": "Wo ist die Straße?",
-    "english": "Where is the street?",
+    "french": "Die Straße ist nicht gut.",
+    "english": "The street is not good.",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "12049427",
+    "source_owner": "carlosalberto",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #12049427 (Fable's review of _review/german-vocab-candidates.md: Use), English picked by Fable over \"The road is not good.\"; was the draft \"Wo ist die Straße?\""
   },
   {
     "sentence_id": "S53111",
     "unit_id": "U53",
-    "french": "Die Straße ist groß.",
-    "english": "The street is big.",
+    "french": "Die Straße ist lang.",
+    "english": "The street is long.",
     "pair_id": "",
     "source": "tamago_original",
     "source_id": "",
@@ -15493,7 +15501,7 @@
     "origin": "draft",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; fixed 2026-11-11 from _review/german-vocab-check.md: a street is lang or breit, not groß; was \"Die Straße ist groß. = The street is big.\""
   },
   {
     "sentence_id": "S53112",
@@ -15513,15 +15521,16 @@
     "sentence_id": "S53113",
     "unit_id": "U53",
     "french": "Wo ist der Flughafen?",
-    "english": "Where is the airport?",
+    "english": "Where's the airport?",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "403052",
+    "source_owner": "Ramses",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #403052 (Fable's review of _review/german-vocab-candidates.md: Use); was the draft \"Wo ist der Flughafen?\""
   },
   {
     "sentence_id": "S53114",
@@ -15554,15 +15563,16 @@
   {
     "sentence_id": "S53116",
     "unit_id": "U53",
-    "french": "Ist das der Bus?",
-    "english": "Is that the bus?",
+    "french": "Wo ist der Bus in die Stadt?",
+    "english": "Where is the bus into town?",
     "pair_id": "",
-    "source": "tamago_original",
-    "source_id": "",
-    "status": "live: native check before Phase 4",
-    "origin": "draft",
+    "source": "tatoeba",
+    "source_id": "2997617",
+    "source_owner": "raggione",
+    "status": "pulled: awaiting approval",
+    "origin": "pull",
     "audio_source": "tts",
     "max_round": 5,
-    "notes": "draft: Tatoeba had too few checked sentences for this word"
+    "notes": "draft: Tatoeba had too few checked sentences for this word; swapped 2026-11-10 for Tatoeba #2997617 (Fable's review of _review/german-vocab-candidates.md: Use), English picked by Fable over \"Where's the bus for the city?\"; was the draft \"Ist das der Bus?\""
   }
 ]

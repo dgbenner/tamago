@@ -186,9 +186,123 @@
       "english_source": "",
       "by": "Fable's review of _review/spanish-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal",
       "french": "Mañana es sábado."
+    },
+    "S51104": {
+      "action": "confirm",
+      "french": "La tortuga no tiene dientes.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner araneo has no native or OK signal"
+    },
+    "S51107": {
+      "action": "confirm",
+      "french": "Tiene una cara muy bonita.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner lukaszpp has no native or OK signal"
+    },
+    "S51110": {
+      "action": "confirm",
+      "french": "Él tiene manos grandes.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner darinmex has no native or OK signal"
+    },
+    "S51115": {
+      "action": "confirm",
+      "french": "Él es simpático.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner opalandwoof has no native or OK signal"
+    },
+    "S51116": {
+      "action": "confirm",
+      "french": "¿Ella es simpática?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner japegon has no native or OK signal"
+    },
+    "S51118": {
+      "action": "confirm",
+      "french": "Él no es serio.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner aliamondano has no native or OK signal"
+    },
+    "S52103": {
+      "action": "confirm",
+      "french": "Es mi fiesta.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner DJ_Saidez has no native or OK signal"
+    },
+    "S52106": {
+      "action": "confirm",
+      "french": "Tom no quiere jugar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner DJ_Saidez has no native or OK signal"
+    },
+    "S52107": {
+      "action": "confirm",
+      "french": "Mi perro quiere jugar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner samir_t has no native or OK signal"
+    },
+    "S52112": {
+      "action": "confirm",
+      "french": "¿Estás de vacaciones?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner lukaszpp has no native or OK signal"
+    },
+    "S52113": {
+      "action": "confirm",
+      "french": "Él lee.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Adelpa has no native or OK signal"
+    },
+    "S52114": {
+      "action": "confirm",
+      "french": "Ella no lee.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner PolyTrekker has no native or OK signal"
+    },
+    "S53101": {
+      "action": "confirm",
+      "french": "Voy al museo.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Adelpa has no native or OK signal"
+    },
+    "S53106": {
+      "action": "confirm",
+      "french": "Estoy en el taxi.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Ricardo14 has no native or OK signal"
+    },
+    "S53108": {
+      "action": "confirm",
+      "french": "¿Estás en la plaza?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner alexmarcelo has no native or OK signal"
+    },
+    "S53110": {
+      "action": "confirm",
+      "french": "¿Hay una escuela en tu calle?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S53113": {
+      "action": "confirm",
+      "french": "Él es de este pueblo.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner arashi_29 has no native or OK signal"
+    },
+    "S53114": {
+      "action": "confirm",
+      "french": "¿Cómo voy al hotel?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
     }
   },
-  "accepted_answers": {},
+  "accepted_answers": {
+    "AD0001": {
+      "action": "keep",
+      "answer": "I'm a serious person.",
+      "by": "Spanish vocabulary check of 2026-11-11 (_review/spanish-vocab-check.md), added at Dan's request: \"I'm serious\" can read as \"I mean it\""
+    }
+  },
   "units": {
     "U01": {
       "action": "approve",
@@ -973,6 +1087,10 @@
     "W1036": {
       "hint": "car",
       "source": "short form of Wiktionary"
+    },
+    "W1044": {
+      "hint": "feet",
+      "source": "short form of Wiktionary"
     }
   },
   "phrases_off": [],
@@ -985,5 +1103,15 @@
     "Carlos",
     "Luis"
   ],
-  "_names": "Names a Spanish sentence may use (R21): the ones Tatoeba Spanish uses most."
+  "_names": "Names a Spanish sentence may use (R21): the ones Tatoeba Spanish uses most.",
+  "accepted_additions": [
+    {
+      "answer_id": "AD0001",
+      "sentence_id": "S51119",
+      "direction": "fr_to_en",
+      "answer": "I'm a serious person.",
+      "source": "Spanish vocabulary check of 2026-11-11 (_review/spanish-vocab-check.md), added at Dan's request: \"I'm serious\" can read as \"I mean it\"",
+      "status": "live"
+    }
+  ]
 }

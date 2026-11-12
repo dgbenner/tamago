@@ -6,32 +6,34 @@ November 10, 2026. Each sentence below fits its unit on every other rule the pul
 
 Under each unit: its drafts, each beside the candidates that could replace it: the same sentence on Tatoeba first, then up to three that teach all the draft's new words; then the unit's other fitting candidates. These haven't had my review for idioms or odd lines; they pass the rules only. Links go to Tatoeba, where the owner and any comments can be checked.
 
+**Review, November 11, 2026.** Only the candidates listed beside a draft were judged (exact matches first), each for grammar, how it sounds to a French speaker, A1 fit and a true match with its English, and marked **Use** or **Reject** with a reason; the "Other candidates" lists below each unit are unreviewed. Marks are keyed to the Tatoeba sentence, so a sentence beside several drafts carries the same mark each time. Of the 38 distinct sentences beside drafts, 27 are Use and 11 are Reject; 6 Use marks name the English to show instead of Tatoeba's line. Of the 40 drafts that had a candidate, 30 now have at least one usable replacement; S11271, S11461, S11462, S11561, S11562, S11563, S11564, S11663, S11664, S11665 lost every candidate they had. Nothing has been swapped.
+
 ## U51 Around Town
 
 14 drafts · 36 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S11261 Où est le musée ? = Where is the museum? | Où est le musée ? = Where is the museum? [#120109](https://tatoeba.org/en/sentences/show/120109) | 9h0ost | the same sentence |
-|  | Il est au musée. = He's at the museum. [#12202729](https://tatoeba.org/en/sentences/show/12202729) | hustledynamo | has all its new words (musée) |
-|  | Elle est au musée. = She's at the museum. [#12202730](https://tatoeba.org/en/sentences/show/12202730) | hustledynamo | has all its new words (musée) |
-| S11262 Je vais au musée avec Paul. = I'm going to the museum with Paul. | none teaches all its new words | | |
-| S11263 C'est un grand musée. = It's a big museum. | Il est au musée. = He's at the museum. [#12202729](https://tatoeba.org/en/sentences/show/12202729) | hustledynamo | has all its new words (musée) |
-|  | Elle est au musée. = She's at the museum. [#12202730](https://tatoeba.org/en/sentences/show/12202730) | hustledynamo | has all its new words (musée) |
-| S11264 La piscine est grande. = The swimming pool is big. | Je vais à la piscine. = I am going to the swimming pool. [#1010006](https://tatoeba.org/en/sentences/show/1010006) | elgranjuego | has all its new words (piscine) |
-| S11265 Tu vas à la piscine ? = Are you going to the swimming pool? | Je vais à la piscine. = I am going to the swimming pool. [#1010006](https://tatoeba.org/en/sentences/show/1010006) | elgranjuego | has all its new words (piscine) |
-| S11266 Je vais à l'école en bus. = I go to school by bus. | Je vais à l'école en bus. = I go to school by bus. [#7572](https://tatoeba.org/en/sentences/show/7572) | NomadSoul | the same sentence |
-|  | Il va à l'école en bus. = He goes to school by bus. [#131770](https://tatoeba.org/en/sentences/show/131770) | Pharamp | has all its new words (bus) |
-| S11267 Où est le bus ? = Where is the bus? | Où est le bus ? = Where is the bus? [#2300515](https://tatoeba.org/en/sentences/show/2300515) | Zaghawa | the same sentence |
-|  | Il va à l'école en bus. = He goes to school by bus. [#131770](https://tatoeba.org/en/sentences/show/131770) | Pharamp | has all its new words (bus) |
-| S11268 Où est le cinéma ? = Where is the cinema? | Aujourd'hui, je vais au cinéma. = Today, I'm going to the cinema. [#12631638](https://tatoeba.org/en/sentences/show/12631638) | Adelpa | has all its new words (cinéma) |
-| S11269 C'est le métro. = It's the metro. | Je vais à l'école en métro. = I ride the subway to school. [#1251736](https://tatoeba.org/en/sentences/show/1251736) | rene1596 | has all its new words (métro) |
-| S11270 C'est un petit village. = It's a small village. | C'est un petit village. = This is a small village. [#3934068](https://tatoeba.org/en/sentences/show/3934068) | Kamo | the same sentence |
-|  | Quel est ton village ? = What is your village? [#8836460](https://tatoeba.org/en/sentences/show/8836460) | samir_t | has all its new words (village) |
-| S11271 Le village est petit. = The village is small. | Quel est ton village ? = What is your village? [#8836460](https://tatoeba.org/en/sentences/show/8836460) | samir_t | has all its new words (village) |
-| S11272 C'est ton bus ? = Is that your bus? | Il va à l'école en bus. = He goes to school by bus. [#131770](https://tatoeba.org/en/sentences/show/131770) | Pharamp | has all its new words (bus) |
-| S11273 Je vais à la gare. = I'm going to the station. | none teaches all its new words | | |
-| S11274 Où est le métro ? = Where is the metro? | Je vais à l'école en métro. = I ride the subway to school. [#1251736](https://tatoeba.org/en/sentences/show/1251736) | rene1596 | has all its new words (métro) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S11261 Où est le musée ? = Where is the museum? | Où est le musée ? = Where is the museum? [#120109](https://tatoeba.org/en/sentences/show/120109) | 9h0ost | the same sentence | **Use.** Standard; matches. |
+|  | Il est au musée. = He's at the museum. [#12202729](https://tatoeba.org/en/sentences/show/12202729) | hustledynamo | has all its new words (musée) | **Use.** Plain; matches. |
+|  | Elle est au musée. = She's at the museum. [#12202730](https://tatoeba.org/en/sentences/show/12202730) | hustledynamo | has all its new words (musée) | **Use.** Plain; matches. |
+| S11262 Je vais au musée avec Paul. = I'm going to the museum with Paul. | none teaches all its new words | | |  |
+| S11263 C'est un grand musée. = It's a big museum. | Il est au musée. = He's at the museum. [#12202729](https://tatoeba.org/en/sentences/show/12202729) | hustledynamo | has all its new words (musée) | **Use.** Plain; matches. |
+|  | Elle est au musée. = She's at the museum. [#12202730](https://tatoeba.org/en/sentences/show/12202730) | hustledynamo | has all its new words (musée) | **Use.** Plain; matches. |
+| S11264 La piscine est grande. = The swimming pool is big. | Je vais à la piscine. = I am going to the swimming pool. [#1010006](https://tatoeba.org/en/sentences/show/1010006) | elgranjuego | has all its new words (piscine) | **Use.** Plain; matches. |
+| S11265 Tu vas à la piscine ? = Are you going to the swimming pool? | Je vais à la piscine. = I am going to the swimming pool. [#1010006](https://tatoeba.org/en/sentences/show/1010006) | elgranjuego | has all its new words (piscine) | **Use.** Plain; matches. |
+| S11266 Je vais à l'école en bus. = I go to school by bus. | Je vais à l'école en bus. = I go to school by bus. [#7572](https://tatoeba.org/en/sentences/show/7572) | NomadSoul | the same sentence | **Use.** Plain; matches. |
+|  | Il va à l'école en bus. = He goes to school by bus. [#131770](https://tatoeba.org/en/sentences/show/131770) | Pharamp | has all its new words (bus) | **Use.** Plain; matches. |
+| S11267 Où est le bus ? = Where is the bus? | Où est le bus ? = Where is the bus? [#2300515](https://tatoeba.org/en/sentences/show/2300515) | Zaghawa | the same sentence | **Use.** Plain; matches. |
+|  | Il va à l'école en bus. = He goes to school by bus. [#131770](https://tatoeba.org/en/sentences/show/131770) | Pharamp | has all its new words (bus) | **Use.** Plain; matches. |
+| S11268 Où est le cinéma ? = Where is the cinema? | Aujourd'hui, je vais au cinéma. = Today, I'm going to the cinema. [#12631638](https://tatoeba.org/en/sentences/show/12631638) | Adelpa | has all its new words (cinéma) | **Use.** Natural; matches. |
+| S11269 C'est le métro. = It's the metro. | Je vais à l'école en métro. = I ride the subway to school. [#1251736](https://tatoeba.org/en/sentences/show/1251736) | rene1596 | has all its new words (métro) | **Use.** Plain; English to show: "I go to school by metro." |
+| S11270 C'est un petit village. = It's a small village. | C'est un petit village. = This is a small village. [#3934068](https://tatoeba.org/en/sentences/show/3934068) | Kamo | the same sentence | **Use.** Plain; matches. |
+|  | Quel est ton village ? = What is your village? [#8836460](https://tatoeba.org/en/sentences/show/8836460) | samir_t | has all its new words (village) | **Reject.** Odd question in both languages. |
+| S11271 Le village est petit. = The village is small. | Quel est ton village ? = What is your village? [#8836460](https://tatoeba.org/en/sentences/show/8836460) | samir_t | has all its new words (village) | **Reject.** Odd question in both languages. |
+| S11272 C'est ton bus ? = Is that your bus? | Il va à l'école en bus. = He goes to school by bus. [#131770](https://tatoeba.org/en/sentences/show/131770) | Pharamp | has all its new words (bus) | **Use.** Plain; matches. |
+| S11273 Je vais à la gare. = I'm going to the station. | none teaches all its new words | | |  |
+| S11274 Où est le métro ? = Where is the metro? | Je vais à l'école en métro. = I ride the subway to school. [#1251736](https://tatoeba.org/en/sentences/show/1251736) | rene1596 | has all its new words (métro) | **Use.** Plain; English to show: "I go to school by metro." |
 
 Other candidates in this unit (29):
 
@@ -66,24 +68,24 @@ Other candidates in this unit (29):
 
 11 drafts · 46 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S11361 J'aime la danse. = I like dance. | Il danse. = He dances. [#11664958](https://tatoeba.org/en/sentences/show/11664958) | LdjuherTaqvaylit | has all its new words (danse) |
-|  | Marie danse bien. = Mary can dance well. [#423625](https://tatoeba.org/en/sentences/show/423625) | Scott | has all its new words (danse) |
-| S11362 C'est une belle danse. = It's a beautiful dance. | Il danse. = He dances. [#11664958](https://tatoeba.org/en/sentences/show/11664958) | LdjuherTaqvaylit | has all its new words (danse) |
-|  | Marie danse bien. = Mary can dance well. [#423625](https://tatoeba.org/en/sentences/show/423625) | Scott | has all its new words (danse) |
-| S11363 Il aime la danse. = He likes dance. | Il danse. = He dances. [#11664958](https://tatoeba.org/en/sentences/show/11664958) | LdjuherTaqvaylit | has all its new words (danse) |
-|  | Marie danse bien. = Mary can dance well. [#423625](https://tatoeba.org/en/sentences/show/423625) | Scott | has all its new words (danse) |
-| S11364 C'est un jeu. = It's a game. | C'est un jeu pour enfants. = It's a game for children. [#13389963](https://tatoeba.org/en/sentences/show/13389963) | Ioan_Cristian | has all its new words (jeu) |
-| S11365 C'est mon jeu. = It's my game. | C'est un jeu pour enfants. = It's a game for children. [#13389963](https://tatoeba.org/en/sentences/show/13389963) | Ioan_Cristian | has all its new words (jeu) |
-| S11366 Tu as un jeu ? = Do you have a game? | C'est un jeu pour enfants. = It's a game for children. [#13389963](https://tatoeba.org/en/sentences/show/13389963) | Ioan_Cristian | has all its new words (jeu) |
-| S11368 Tu aimes le ski ? = Do you like skiing? | none teaches all its new words | | |
-| S11369 Elle aime le ski. = She likes skiing. | none teaches all its new words | | |
-| S11370 C'est une belle photo. = It's a beautiful photo. | C'est une photo. = This is a photo. [#8393460](https://tatoeba.org/en/sentences/show/8393460) | Adelpa | has all its new words (photo) |
-|  | Quelle belle photo ! = What a beautiful photo! [#10458154](https://tatoeba.org/en/sentences/show/10458154) | Adelpa | has all its new words (photo) |
-|  | Il regarde la photo de son ami. = He is looking at the photo of his friend. [#2605759](https://tatoeba.org/en/sentences/show/2605759) | albouni7 | has all its new words (photo) |
-| S11371 C'est un beau voyage. = It's a beautiful trip. | none teaches all its new words | | |
-| S11372 C'est une belle fête. = It's a lovely party. | none teaches all its new words | | |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S11361 J'aime la danse. = I like dance. | Il danse. = He dances. [#11664958](https://tatoeba.org/en/sentences/show/11664958) | LdjuherTaqvaylit | has all its new words (danse) | **Use.** Plain; danse is the verb here, a fair second sense beside la danse. |
+|  | Marie danse bien. = Mary can dance well. [#423625](https://tatoeba.org/en/sentences/show/423625) | Scott | has all its new words (danse) | **Use.** Natural; English to show: "Marie dances well." |
+| S11362 C'est une belle danse. = It's a beautiful dance. | Il danse. = He dances. [#11664958](https://tatoeba.org/en/sentences/show/11664958) | LdjuherTaqvaylit | has all its new words (danse) | **Use.** Plain; danse is the verb here, a fair second sense beside la danse. |
+|  | Marie danse bien. = Mary can dance well. [#423625](https://tatoeba.org/en/sentences/show/423625) | Scott | has all its new words (danse) | **Use.** Natural; English to show: "Marie dances well." |
+| S11363 Il aime la danse. = He likes dance. | Il danse. = He dances. [#11664958](https://tatoeba.org/en/sentences/show/11664958) | LdjuherTaqvaylit | has all its new words (danse) | **Use.** Plain; danse is the verb here, a fair second sense beside la danse. |
+|  | Marie danse bien. = Mary can dance well. [#423625](https://tatoeba.org/en/sentences/show/423625) | Scott | has all its new words (danse) | **Use.** Natural; English to show: "Marie dances well." |
+| S11364 C'est un jeu. = It's a game. | C'est un jeu pour enfants. = It's a game for children. [#13389963](https://tatoeba.org/en/sentences/show/13389963) | Ioan_Cristian | has all its new words (jeu) | **Use.** Plain; matches. |
+| S11365 C'est mon jeu. = It's my game. | C'est un jeu pour enfants. = It's a game for children. [#13389963](https://tatoeba.org/en/sentences/show/13389963) | Ioan_Cristian | has all its new words (jeu) | **Use.** Plain; matches. |
+| S11366 Tu as un jeu ? = Do you have a game? | C'est un jeu pour enfants. = It's a game for children. [#13389963](https://tatoeba.org/en/sentences/show/13389963) | Ioan_Cristian | has all its new words (jeu) | **Use.** Plain; matches. |
+| S11368 Tu aimes le ski ? = Do you like skiing? | none teaches all its new words | | |  |
+| S11369 Elle aime le ski. = She likes skiing. | none teaches all its new words | | |  |
+| S11370 C'est une belle photo. = It's a beautiful photo. | C'est une photo. = This is a photo. [#8393460](https://tatoeba.org/en/sentences/show/8393460) | Adelpa | has all its new words (photo) | **Use.** Plain; matches. |
+|  | Quelle belle photo ! = What a beautiful photo! [#10458154](https://tatoeba.org/en/sentences/show/10458154) | Adelpa | has all its new words (photo) | **Reject.** Exclamative quelle. |
+|  | Il regarde la photo de son ami. = He is looking at the photo of his friend. [#2605759](https://tatoeba.org/en/sentences/show/2605759) | albouni7 | has all its new words (photo) | **Use.** Natural; matches. |
+| S11371 C'est un beau voyage. = It's a beautiful trip. | none teaches all its new words | | |  |
+| S11372 C'est une belle fête. = It's a lovely party. | none teaches all its new words | | |  |
 
 Other candidates in this unit (40):
 
@@ -118,20 +120,20 @@ Other candidates in this unit (40):
 
 12 drafts · 32 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S11461 C'est ma main. = It's my hand. | Ta main est noire. = Your hand is black. [#12203272](https://tatoeba.org/en/sentences/show/12203272) | LdjuherTaqvaylit | has all its new words (main) |
-| S11462 Ma main est petite. = My hand is small. | Ta main est noire. = Your hand is black. [#12203272](https://tatoeba.org/en/sentences/show/12203272) | LdjuherTaqvaylit | has all its new words (main) |
-| S11463 C'est ma tête. = It's my head. | none teaches all its new words | | |
-| S11464 Il a une grande tête. = He has a big head. | none teaches all its new words | | |
-| S11465 C'est mon dos. = It's my back. | none teaches all its new words | | |
-| S11466 Le chien a un dos noir. = The dog has a black back. | none teaches all its new words | | |
-| S11467 Le dos du chat est blanc. = The cat's back is white. | none teaches all its new words | | |
-| S11468 J'aime mes cheveux. = I like my hair. | J'aime mes cheveux. = I love my hair. [#12200182](https://tatoeba.org/en/sentences/show/12200182) | hustledynamo | the same sentence |
-| S11469 Elle aime ses cheveux. = She likes her hair. | none teaches all its new words | | |
-| S11471 Tu as peur ? = Are you afraid? | Il a peur du chien. = He is in fear of the dog. [#367921](https://tatoeba.org/en/sentences/show/367921) | rike | has all its new words (peur) |
-| S11472 La tête du chien est petite. = The dog's head is small. | none teaches all its new words | | |
-| S11473 Le chat a peur. = The cat is afraid. | Il a peur du chien. = He is in fear of the dog. [#367921](https://tatoeba.org/en/sentences/show/367921) | rike | has all its new words (peur) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S11461 C'est ma main. = It's my hand. | Ta main est noire. = Your hand is black. [#12203272](https://tatoeba.org/en/sentences/show/12203272) | LdjuherTaqvaylit | has all its new words (main) | **Reject.** Odd line (a black hand). |
+| S11462 Ma main est petite. = My hand is small. | Ta main est noire. = Your hand is black. [#12203272](https://tatoeba.org/en/sentences/show/12203272) | LdjuherTaqvaylit | has all its new words (main) | **Reject.** Odd line (a black hand). |
+| S11463 C'est ma tête. = It's my head. | none teaches all its new words | | |  |
+| S11464 Il a une grande tête. = He has a big head. | none teaches all its new words | | |  |
+| S11465 C'est mon dos. = It's my back. | none teaches all its new words | | |  |
+| S11466 Le chien a un dos noir. = The dog has a black back. | none teaches all its new words | | |  |
+| S11467 Le dos du chat est blanc. = The cat's back is white. | none teaches all its new words | | |  |
+| S11468 J'aime mes cheveux. = I like my hair. | J'aime mes cheveux. = I love my hair. [#12200182](https://tatoeba.org/en/sentences/show/12200182) | hustledynamo | the same sentence | **Use.** Plain; English to show: "I like my hair." |
+| S11469 Elle aime ses cheveux. = She likes her hair. | none teaches all its new words | | |  |
+| S11471 Tu as peur ? = Are you afraid? | Il a peur du chien. = He is in fear of the dog. [#367921](https://tatoeba.org/en/sentences/show/367921) | rike | has all its new words (peur) | **Use.** Natural; English to show: "He is afraid of the dog." |
+| S11472 La tête du chien est petite. = The dog's head is small. | none teaches all its new words | | |  |
+| S11473 Le chat a peur. = The cat is afraid. | Il a peur du chien. = He is in fear of the dog. [#367921](https://tatoeba.org/en/sentences/show/367921) | rike | has all its new words (peur) | **Use.** Natural; English to show: "He is afraid of the dog." |
 
 Other candidates in this unit (30):
 
@@ -166,26 +168,26 @@ Other candidates in this unit (30):
 
 12 drafts · 34 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S11561 J'aime les gens. = I like people. | On a les gens. = We have the people. [#12381866](https://tatoeba.org/en/sentences/show/12381866) | menaud | has all its new words (gens) |
-|  | Les gens sont les gens. = People are people. [#13714982](https://tatoeba.org/en/sentences/show/13714982) | rul | has all its new words (gens) |
-| S11562 Elle aime les gens. = She likes people. | On a les gens. = We have the people. [#12381866](https://tatoeba.org/en/sentences/show/12381866) | menaud | has all its new words (gens) |
-|  | Les gens sont les gens. = People are people. [#13714982](https://tatoeba.org/en/sentences/show/13714982) | rul | has all its new words (gens) |
-| S11563 C'est mon copain. = He's my friend. | J'ai un copain qui m'aime. = I have a friend who loves me. [#384227](https://tatoeba.org/en/sentences/show/384227) | MUIRIEL | has all its new words (copain) |
-| S11564 Paul est mon copain. = Paul is my friend. | J'ai un copain qui m'aime. = I have a friend who loves me. [#384227](https://tatoeba.org/en/sentences/show/384227) | MUIRIEL | has all its new words (copain) |
-| S11565 C'est ma copine. = She's my friend. | none teaches all its new words | | |
-| S11566 Marie est ma copine. = Marie is my friend. | none teaches all its new words | | |
-| S11567 Je suis élève. = I'm a pupil. | none teaches all its new words | | |
-| S11568 C'est un bon élève. = He's a good pupil. | none teaches all its new words | | |
-| S11569 C'est un client. = He's a customer. | Vous êtes un bon client. = You are a good customer. [#1688964](https://tatoeba.org/en/sentences/show/1688964) | belgavox | has all its new words (client) |
-|  | Le client veut acheter mon chien. = The customer wants to buy my dog. [#10702709](https://tatoeba.org/en/sentences/show/10702709) | carlosalberto | has all its new words (client) |
-| S11570 Le client est content. = The customer is pleased. | Vous êtes un bon client. = You are a good customer. [#1688964](https://tatoeba.org/en/sentences/show/1688964) | belgavox | has all its new words (client) |
-|  | Le client veut acheter mon chien. = The customer wants to buy my dog. [#10702709](https://tatoeba.org/en/sentences/show/10702709) | carlosalberto | has all its new words (client) |
-| S11571 Qui est la dame ? = Who is the lady? | C'est la dame. = It's the lady. [#1227531](https://tatoeba.org/en/sentences/show/1227531) | Ketutar | has all its new words (dame) |
-| S11572 J'aime le pain, mais pas le fromage. = I like bread, but not cheese. | Non, mais ! = Seriously?! [#11260881](https://tatoeba.org/en/sentences/show/11260881) | Igider | has all its new words (mais) |
-|  | Mais pourquoi ? = But why? [#237235](https://tatoeba.org/en/sentences/show/237235) | hortusdei | has all its new words (mais) |
-|  | Oui, mais tu es un garçon. = Yes, but you're a boy. [#12048694](https://tatoeba.org/en/sentences/show/12048694) | LdjuherTaqvaylit | has all its new words (mais) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S11561 J'aime les gens. = I like people. | On a les gens. = We have the people. [#12381866](https://tatoeba.org/en/sentences/show/12381866) | menaud | has all its new words (gens) | **Reject.** Context-bound and odd; "on" is past the unit. |
+|  | Les gens sont les gens. = People are people. [#13714982](https://tatoeba.org/en/sentences/show/13714982) | rul | has all its new words (gens) | **Reject.** A platitude, idiom-like. |
+| S11562 Elle aime les gens. = She likes people. | On a les gens. = We have the people. [#12381866](https://tatoeba.org/en/sentences/show/12381866) | menaud | has all its new words (gens) | **Reject.** Context-bound and odd; "on" is past the unit. |
+|  | Les gens sont les gens. = People are people. [#13714982](https://tatoeba.org/en/sentences/show/13714982) | rul | has all its new words (gens) | **Reject.** A platitude, idiom-like. |
+| S11563 C'est mon copain. = He's my friend. | J'ai un copain qui m'aime. = I have a friend who loves me. [#384227](https://tatoeba.org/en/sentences/show/384227) | MUIRIEL | has all its new words (copain) | **Reject.** Relative "qui" and object m' are past the unit; a love line. |
+| S11564 Paul est mon copain. = Paul is my friend. | J'ai un copain qui m'aime. = I have a friend who loves me. [#384227](https://tatoeba.org/en/sentences/show/384227) | MUIRIEL | has all its new words (copain) | **Reject.** Relative "qui" and object m' are past the unit; a love line. |
+| S11565 C'est ma copine. = She's my friend. | none teaches all its new words | | |  |
+| S11566 Marie est ma copine. = Marie is my friend. | none teaches all its new words | | |  |
+| S11567 Je suis élève. = I'm a pupil. | none teaches all its new words | | |  |
+| S11568 C'est un bon élève. = He's a good pupil. | none teaches all its new words | | |  |
+| S11569 C'est un client. = He's a customer. | Vous êtes un bon client. = You are a good customer. [#1688964](https://tatoeba.org/en/sentences/show/1688964) | belgavox | has all its new words (client) | **Use.** Natural; matches. |
+|  | Le client veut acheter mon chien. = The customer wants to buy my dog. [#10702709](https://tatoeba.org/en/sentences/show/10702709) | carlosalberto | has all its new words (client) | **Use.** Grammatical; matches. |
+| S11570 Le client est content. = The customer is pleased. | Vous êtes un bon client. = You are a good customer. [#1688964](https://tatoeba.org/en/sentences/show/1688964) | belgavox | has all its new words (client) | **Use.** Natural; matches. |
+|  | Le client veut acheter mon chien. = The customer wants to buy my dog. [#10702709](https://tatoeba.org/en/sentences/show/10702709) | carlosalberto | has all its new words (client) | **Use.** Grammatical; matches. |
+| S11571 Qui est la dame ? = Who is the lady? | C'est la dame. = It's the lady. [#1227531](https://tatoeba.org/en/sentences/show/1227531) | Ketutar | has all its new words (dame) | **Use.** Plain; matches. |
+| S11572 J'aime le pain, mais pas le fromage. = I like bread, but not cheese. | Non, mais ! = Seriously?! [#11260881](https://tatoeba.org/en/sentences/show/11260881) | Igider | has all its new words (mais) | **Reject.** Interjection idiom. |
+|  | Mais pourquoi ? = But why? [#237235](https://tatoeba.org/en/sentences/show/237235) | hortusdei | has all its new words (mais) | **Use.** Standard question; matches. |
+|  | Oui, mais tu es un garçon. = Yes, but you're a boy. [#12048694](https://tatoeba.org/en/sentences/show/12048694) | LdjuherTaqvaylit | has all its new words (mais) | **Use.** Natural; matches. |
 
 Other candidates in this unit (25):
 
@@ -219,31 +221,31 @@ Other candidates in this unit (25):
 
 16 drafts · 17 candidates that fit
 
-| Draft | Could be replaced by | Owner | Why it fits |
-| --- | --- | --- | --- |
-| S11661 La montagne est belle. = The mountain is beautiful. | La montagne est verte. = The mountain is green. [#963702](https://tatoeba.org/en/sentences/show/963702) | Quazel | has all its new words (montagne) |
-| S11662 J'aime la montagne. = I like the mountains. | J'aime la montagne. = I love the mountains. [#9370250](https://tatoeba.org/en/sentences/show/9370250) | Adelpa | the same sentence |
-|  | La montagne est verte. = The mountain is green. [#963702](https://tatoeba.org/en/sentences/show/963702) | Quazel | has all its new words (montagne) |
-| S11663 Le chat est dans l'arbre. = The cat is in the tree. | L'arbre est bon. = The tree is good. [#10518398](https://tatoeba.org/en/sentences/show/10518398) | carlosalberto | has all its new words (arbre) |
-| S11664 La terre est noire. = The soil is black. | Aime la Terre. = Love the earth. [#13620619](https://tatoeba.org/en/sentences/show/13620619) | Adelpa | has all its new words (terre) |
-|  | Il est terre à terre. = He's down to earth. [#1653635](https://tatoeba.org/en/sentences/show/1653635) | Scott | has all its new words (terre) |
-|  | Je ne suis pas né sur Terre. = I wasn't born on Earth. [#10327495](https://tatoeba.org/en/sentences/show/10327495) | nonong | has all its new words (terre) |
-| S11665 La terre est rouge ici. = The soil is red here. | Aime la Terre. = Love the earth. [#13620619](https://tatoeba.org/en/sentences/show/13620619) | Adelpa | has all its new words (terre) |
-|  | Il est terre à terre. = He's down to earth. [#1653635](https://tatoeba.org/en/sentences/show/1653635) | Scott | has all its new words (terre) |
-|  | Je ne suis pas né sur Terre. = I wasn't born on Earth. [#10327495](https://tatoeba.org/en/sentences/show/10327495) | nonong | has all its new words (terre) |
-| S11666 Le vent est froid. = The wind is cold. | none teaches all its new words | | |
-| S11667 J'aime le vent. = I like the wind. | none teaches all its new words | | |
-| S11668 J'aime la nature. = I like nature. | La nature est verte. = Nature is green. [#11844133](https://tatoeba.org/en/sentences/show/11844133) | carlosalberto | has all its new words (nature) |
-|  | Marie aime la nature. = Mary is a lover of nature. [#12788652](https://tatoeba.org/en/sentences/show/12788652) | Adelpa | has all its new words (nature) |
-| S11669 C'est un pont. = It's a bridge. | none teaches all its new words | | |
-| S11670 Le pont est grand. = The bridge is big. | none teaches all its new words | | |
-| S11671 Où est le pont ? = Where is the bridge? | Où est le pont ? = Where is the bridge? [#1536163](https://tatoeba.org/en/sentences/show/1536163) | Anne_Paen | the same sentence |
-| S11672 J'habite dans le sud. = I live in the south. | none teaches all its new words | | |
-| S11673 Il va dans le sud. = He's going to the south. | none teaches all its new words | | |
-| S11674 Elle habite dans le sud de la France. = She lives in the south of France. | none teaches all its new words | | |
-| S11675 Où est la route ? = Where is the road? | none teaches all its new words | | |
-| S11676 Il aime la nature. = He likes nature. | La nature est verte. = Nature is green. [#11844133](https://tatoeba.org/en/sentences/show/11844133) | carlosalberto | has all its new words (nature) |
-|  | Marie aime la nature. = Mary is a lover of nature. [#12788652](https://tatoeba.org/en/sentences/show/12788652) | Adelpa | has all its new words (nature) |
+| Draft | Could be replaced by | Owner | Why it fits | Verdict |
+| --- | --- | --- | --- | --- |
+| S11661 La montagne est belle. = The mountain is beautiful. | La montagne est verte. = The mountain is green. [#963702](https://tatoeba.org/en/sentences/show/963702) | Quazel | has all its new words (montagne) | **Use.** Plain; matches. |
+| S11662 J'aime la montagne. = I like the mountains. | J'aime la montagne. = I love the mountains. [#9370250](https://tatoeba.org/en/sentences/show/9370250) | Adelpa | the same sentence | **Use.** Plain; English to show: "I like the mountains." |
+|  | La montagne est verte. = The mountain is green. [#963702](https://tatoeba.org/en/sentences/show/963702) | Quazel | has all its new words (montagne) | **Use.** Plain; matches. |
+| S11663 Le chat est dans l'arbre. = The cat is in the tree. | L'arbre est bon. = The tree is good. [#10518398](https://tatoeba.org/en/sentences/show/10518398) | carlosalberto | has all its new words (arbre) | **Reject.** Odd line. |
+| S11664 La terre est noire. = The soil is black. | Aime la Terre. = Love the earth. [#13620619](https://tatoeba.org/en/sentences/show/13620619) | Adelpa | has all its new words (terre) | **Reject.** Imperative slogan. |
+|  | Il est terre à terre. = He's down to earth. [#1653635](https://tatoeba.org/en/sentences/show/1653635) | Scott | has all its new words (terre) | **Reject.** Idiom. |
+|  | Je ne suis pas né sur Terre. = I wasn't born on Earth. [#10327495](https://tatoeba.org/en/sentences/show/10327495) | nonong | has all its new words (terre) | **Reject.** Odd line. |
+| S11665 La terre est rouge ici. = The soil is red here. | Aime la Terre. = Love the earth. [#13620619](https://tatoeba.org/en/sentences/show/13620619) | Adelpa | has all its new words (terre) | **Reject.** Imperative slogan. |
+|  | Il est terre à terre. = He's down to earth. [#1653635](https://tatoeba.org/en/sentences/show/1653635) | Scott | has all its new words (terre) | **Reject.** Idiom. |
+|  | Je ne suis pas né sur Terre. = I wasn't born on Earth. [#10327495](https://tatoeba.org/en/sentences/show/10327495) | nonong | has all its new words (terre) | **Reject.** Odd line. |
+| S11666 Le vent est froid. = The wind is cold. | none teaches all its new words | | |  |
+| S11667 J'aime le vent. = I like the wind. | none teaches all its new words | | |  |
+| S11668 J'aime la nature. = I like nature. | La nature est verte. = Nature is green. [#11844133](https://tatoeba.org/en/sentences/show/11844133) | carlosalberto | has all its new words (nature) | **Use.** Plain; matches. |
+|  | Marie aime la nature. = Mary is a lover of nature. [#12788652](https://tatoeba.org/en/sentences/show/12788652) | Adelpa | has all its new words (nature) | **Use.** Plain; English to show: "Marie likes nature." |
+| S11669 C'est un pont. = It's a bridge. | none teaches all its new words | | |  |
+| S11670 Le pont est grand. = The bridge is big. | none teaches all its new words | | |  |
+| S11671 Où est le pont ? = Where is the bridge? | Où est le pont ? = Where is the bridge? [#1536163](https://tatoeba.org/en/sentences/show/1536163) | Anne_Paen | the same sentence | **Use.** Standard; matches. |
+| S11672 J'habite dans le sud. = I live in the south. | none teaches all its new words | | |  |
+| S11673 Il va dans le sud. = He's going to the south. | none teaches all its new words | | |  |
+| S11674 Elle habite dans le sud de la France. = She lives in the south of France. | none teaches all its new words | | |  |
+| S11675 Où est la route ? = Where is the road? | none teaches all its new words | | |  |
+| S11676 Il aime la nature. = He likes nature. | La nature est verte. = Nature is green. [#11844133](https://tatoeba.org/en/sentences/show/11844133) | carlosalberto | has all its new words (nature) | **Use.** Plain; matches. |
+|  | Marie aime la nature. = Mary is a lover of nature. [#12788652](https://tatoeba.org/en/sentences/show/12788652) | Adelpa | has all its new words (nature) | **Use.** Plain; English to show: "Marie likes nature." |
 
 Other candidates in this unit (10):
 

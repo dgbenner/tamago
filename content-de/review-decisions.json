@@ -90,6 +90,60 @@
       "french": "Tom möchte spielen.",
       "english_source": "",
       "by": "Fable's review of _review/german-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Lars224 has no native or OK signal"
+    },
+    "S52110": {
+      "action": "confirm",
+      "french": "Hat Tom ein Hobby?",
+      "english_source": "",
+      "by": "Fable's review of _review/german-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner mramosch has no native or OK signal"
+    },
+    "S52121": {
+      "action": "confirm",
+      "french": "Ich höre.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner list has no native or OK signal"
+    },
+    "S52122": {
+      "action": "confirm",
+      "french": "Ich höre es nicht.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/german-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner MUIRIEL has no native or OK signal"
+    },
+    "S51111": {
+      "action": "confirm",
+      "french": "Hunde sind lustig.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner shekitten has no native or OK signal"
+    },
+    "S51113": {
+      "action": "confirm",
+      "french": "Eine Katze ist kein Mensch!",
+      "english_source": "",
+      "by": "Fable's review of _review/german-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Katheriinne has no native or OK signal"
+    },
+    "S53107": {
+      "action": "confirm",
+      "french": "Es ist ein Dorf.",
+      "english_source": "",
+      "by": "Fable's review of _review/german-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner christian63 has no native or OK signal"
+    },
+    "S53110": {
+      "action": "confirm",
+      "french": "Die Straße ist nicht gut.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/german-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner carlosalberto has no native or OK signal"
+    },
+    "S53113": {
+      "action": "confirm",
+      "french": "Wo ist der Flughafen?",
+      "english_source": "",
+      "by": "Fable's review of _review/german-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner Ramses has no native or OK signal"
+    },
+    "S53116": {
+      "action": "confirm",
+      "french": "Wo ist der Bus in die Stadt?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/german-vocab-candidates.md (Use), applied by Claude at Dan's request, 2026-11-10: owner raggione has no native or OK signal"
     }
   },
   "accepted_answers": {
@@ -112,6 +166,11 @@
       "action": "keep",
       "answer": "I have a week’s time.",
       "by": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request"
+    },
+    "AD0005": {
+      "action": "keep",
+      "answer": "You don't swim.",
+      "by": "German vocabulary check of 2026-11-11 (_review/german-vocab-check.md), added at Dan's request: Sie as formal you"
     }
   },
   "units": {
@@ -904,6 +963,14 @@
     "W1003": {
       "hint": "man, gentleman",
       "source": "short form of Wiktionary"
+    },
+    "W1044": {
+      "hint": "much, a lot",
+      "source": "short form of Wiktionary"
+    },
+    "W1045": {
+      "hint": "long",
+      "source": "short form of Wiktionary"
     }
   },
   "phrases_off": [],
@@ -952,6 +1019,14 @@
       "direction": "fr_to_en",
       "answer": "I have a week’s time.",
       "source": "German check of 2026-11-10 (_review/german-check.md), added at Dan’s request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0005",
+      "sentence_id": "S52123",
+      "direction": "fr_to_en",
+      "answer": "You don't swim.",
+      "source": "German vocabulary check of 2026-11-11 (_review/german-vocab-check.md), added at Dan's request: Sie as formal you",
       "status": "live"
     }
   ]

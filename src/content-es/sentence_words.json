@@ -27402,24 +27402,24 @@
   {
     "sentence_id": "S51102",
     "position": 2,
-    "surface": "un",
-    "word_id": "W009",
+    "surface": "los",
+    "word_id": "W070",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51102",
     "position": 3,
-    "surface": "pie",
-    "word_id": "W1005",
+    "surface": "pies",
+    "word_id": "W1044",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51102",
     "position": 4,
-    "surface": "grande",
-    "word_id": "W026",
+    "surface": "grandes",
+    "word_id": "W185",
     "notes": "",
     "hint_override": ""
   },
@@ -27442,48 +27442,64 @@
   {
     "sentence_id": "S51103",
     "position": 3,
-    "surface": "un",
-    "word_id": "W009",
+    "surface": "los",
+    "word_id": "W070",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51103",
     "position": 4,
-    "surface": "pie",
-    "word_id": "W1005",
+    "surface": "pies",
+    "word_id": "W1044",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51103",
     "position": 5,
-    "surface": "pequeño",
-    "word_id": "W027",
+    "surface": "pequeños",
+    "word_id": "W186",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51104",
     "position": 1,
-    "surface": "Tiene",
-    "word_id": "W061",
+    "surface": "La",
+    "word_id": "W017",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51104",
     "position": 2,
-    "surface": "dientes",
-    "word_id": "W1007",
+    "surface": "tortuga",
+    "word_id": "W067",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51104",
     "position": 3,
-    "surface": "pequeños",
-    "word_id": "W186",
+    "surface": "no",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51104",
+    "position": 4,
+    "surface": "tiene",
+    "word_id": "W061",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51104",
+    "position": 5,
+    "surface": "dientes",
+    "word_id": "W1007",
     "notes": "",
     "hint_override": ""
   },
@@ -27546,8 +27562,8 @@
   {
     "sentence_id": "S51107",
     "position": 1,
-    "surface": "Es",
-    "word_id": "W020",
+    "surface": "Tiene",
+    "word_id": "W061",
     "notes": "",
     "hint_override": ""
   },
@@ -27570,6 +27586,14 @@
   {
     "sentence_id": "S51107",
     "position": 4,
+    "surface": "muy",
+    "word_id": "W096",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51107",
+    "position": 5,
     "surface": "bonita",
     "word_id": "W095",
     "notes": "",
@@ -27642,24 +27666,24 @@
   {
     "sentence_id": "S51110",
     "position": 1,
-    "surface": "Las",
-    "word_id": "W071",
+    "surface": "Él",
+    "word_id": "W018",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51110",
     "position": 2,
-    "surface": "manos",
-    "word_id": "W1003",
+    "surface": "tiene",
+    "word_id": "W061",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51110",
     "position": 3,
-    "surface": "son",
-    "word_id": "W079",
+    "surface": "manos",
+    "word_id": "W1003",
     "notes": "",
     "hint_override": ""
   },
@@ -27842,14 +27866,22 @@
   {
     "sentence_id": "S51118",
     "position": 1,
-    "surface": "Tom",
-    "word_id": "",
-    "notes": "name",
+    "surface": "Él",
+    "word_id": "W018",
+    "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51118",
     "position": 2,
+    "surface": "no",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51118",
+    "position": 3,
     "surface": "es",
     "word_id": "W020",
     "notes": "",
@@ -27857,7 +27889,7 @@
   },
   {
     "sentence_id": "S51118",
-    "position": 3,
+    "position": 4,
     "surface": "serio",
     "word_id": "W1011",
     "notes": "",
@@ -27946,8 +27978,8 @@
   {
     "sentence_id": "S52103",
     "position": 2,
-    "surface": "una",
-    "word_id": "W010",
+    "surface": "mi",
+    "word_id": "W117",
     "notes": "",
     "hint_override": ""
   },
@@ -28026,22 +28058,30 @@
   {
     "sentence_id": "S52106",
     "position": 1,
-    "surface": "Te",
-    "word_id": "W050",
-    "notes": "",
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
     "hint_override": ""
   },
   {
     "sentence_id": "S52106",
     "position": 2,
-    "surface": "gusta",
-    "word_id": "W051",
+    "surface": "no",
+    "word_id": "W004",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S52106",
     "position": 3,
+    "surface": "quiere",
+    "word_id": "W713",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52106",
+    "position": 4,
     "surface": "jugar",
     "word_id": "W1022",
     "notes": "",
@@ -28050,24 +28090,24 @@
   {
     "sentence_id": "S52107",
     "position": 1,
-    "surface": "No",
-    "word_id": "W004",
+    "surface": "Mi",
+    "word_id": "W117",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S52107",
     "position": 2,
-    "surface": "me",
-    "word_id": "W049",
+    "surface": "perro",
+    "word_id": "W062",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S52107",
     "position": 3,
-    "surface": "gusta",
-    "word_id": "W051",
+    "surface": "quiere",
+    "word_id": "W713",
     "notes": "",
     "hint_override": ""
   },
@@ -28178,9 +28218,9 @@
   {
     "sentence_id": "S52113",
     "position": 1,
-    "surface": "Tom",
-    "word_id": "",
-    "notes": "name",
+    "surface": "Él",
+    "word_id": "W018",
+    "notes": "",
     "hint_override": ""
   },
   {
@@ -28188,22 +28228,6 @@
     "position": 2,
     "surface": "lee",
     "word_id": "W1026",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S52113",
-    "position": 3,
-    "surface": "un",
-    "word_id": "W009",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S52113",
-    "position": 4,
-    "surface": "libro",
-    "word_id": "W022",
     "notes": "",
     "hint_override": ""
   },
@@ -28218,6 +28242,14 @@
   {
     "sentence_id": "S52114",
     "position": 2,
+    "surface": "no",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52114",
+    "position": 3,
     "surface": "lee",
     "word_id": "W1026",
     "notes": "",
@@ -28402,8 +28434,8 @@
   {
     "sentence_id": "S53106",
     "position": 1,
-    "surface": "Voy",
-    "word_id": "W164",
+    "surface": "Estoy",
+    "word_id": "W038",
     "notes": "",
     "hint_override": ""
   },
@@ -28418,6 +28450,14 @@
   {
     "sentence_id": "S53106",
     "position": 3,
+    "surface": "el",
+    "word_id": "W016",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53106",
+    "position": 4,
     "surface": "taxi",
     "word_id": "W1039",
     "notes": "",
@@ -28450,32 +28490,32 @@
   {
     "sentence_id": "S53108",
     "position": 1,
-    "surface": "La",
-    "word_id": "W017",
+    "surface": "Estás",
+    "word_id": "W039",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53108",
     "position": 2,
-    "surface": "plaza",
-    "word_id": "W1040",
+    "surface": "en",
+    "word_id": "W102",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53108",
     "position": 3,
-    "surface": "es",
-    "word_id": "W020",
+    "surface": "la",
+    "word_id": "W017",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53108",
     "position": 4,
-    "surface": "grande",
-    "word_id": "W026",
+    "surface": "plaza",
+    "word_id": "W1040",
     "notes": "",
     "hint_override": ""
   },
@@ -28514,8 +28554,8 @@
   {
     "sentence_id": "S53110",
     "position": 1,
-    "surface": "Es",
-    "word_id": "W020",
+    "surface": "Hay",
+    "word_id": "W100",
     "notes": "",
     "hint_override": ""
   },
@@ -28530,16 +28570,32 @@
   {
     "sentence_id": "S53110",
     "position": 3,
-    "surface": "calle",
-    "word_id": "W1041",
+    "surface": "escuela",
+    "word_id": "W170",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53110",
     "position": 4,
-    "surface": "bonita",
-    "word_id": "W095",
+    "surface": "en",
+    "word_id": "W102",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53110",
+    "position": 5,
+    "surface": "tu",
+    "word_id": "W119",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53110",
+    "position": 6,
+    "surface": "calle",
+    "word_id": "W1041",
     "notes": "",
     "hint_override": ""
   },
@@ -28610,64 +28666,72 @@
   {
     "sentence_id": "S53113",
     "position": 1,
-    "surface": "Es",
-    "word_id": "W020",
+    "surface": "Él",
+    "word_id": "W018",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53113",
     "position": 2,
-    "surface": "un",
-    "word_id": "W009",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S53113",
-    "position": 3,
-    "surface": "pueblo",
-    "word_id": "W1042",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S53113",
-    "position": 4,
-    "surface": "pequeño",
-    "word_id": "W027",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S53114",
-    "position": 1,
-    "surface": "El",
-    "word_id": "W016",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S53114",
-    "position": 2,
-    "surface": "hotel",
-    "word_id": "W1034",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S53114",
-    "position": 3,
     "surface": "es",
     "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
+    "sentence_id": "S53113",
+    "position": 3,
+    "surface": "de",
+    "word_id": "W123",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53113",
+    "position": 4,
+    "surface": "este",
+    "word_id": "W182",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53113",
+    "position": 5,
+    "surface": "pueblo",
+    "word_id": "W1042",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53114",
+    "position": 1,
+    "surface": "Cómo",
+    "word_id": "W037",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53114",
+    "position": 2,
+    "surface": "voy",
+    "word_id": "W164",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53114",
+    "position": 3,
+    "surface": "al",
+    "word_id": "W168",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S53114",
     "position": 4,
-    "surface": "bonito",
-    "word_id": "W094",
+    "surface": "hotel",
+    "word_id": "W1034",
     "notes": "",
     "hint_override": ""
   }

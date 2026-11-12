@@ -30474,16 +30474,16 @@
   {
     "sentence_id": "S51111",
     "position": 1,
-    "surface": "Das",
-    "word_id": "W020",
+    "surface": "Hunde",
+    "word_id": "W076",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51111",
     "position": 2,
-    "surface": "ist",
-    "word_id": "W024",
+    "surface": "sind",
+    "word_id": "W071",
     "notes": "",
     "hint_override": ""
   },
@@ -30530,30 +30530,38 @@
   {
     "sentence_id": "S51113",
     "position": 1,
-    "surface": "Du",
-    "word_id": "W007",
+    "surface": "Eine",
+    "word_id": "W011",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51113",
     "position": 2,
-    "surface": "bist",
-    "word_id": "W009",
+    "surface": "Katze",
+    "word_id": "W064",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51113",
     "position": 3,
-    "surface": "ein",
-    "word_id": "W010",
+    "surface": "ist",
+    "word_id": "W024",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S51113",
     "position": 4,
+    "surface": "kein",
+    "word_id": "W090",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51113",
+    "position": 5,
     "surface": "Mensch",
     "word_id": "W1002",
     "notes": "",
@@ -30850,17 +30858,17 @@
   {
     "sentence_id": "S52110",
     "position": 1,
-    "surface": "Tom",
-    "word_id": "",
-    "notes": "name",
+    "surface": "Hat",
+    "word_id": "W061",
+    "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S52110",
     "position": 2,
-    "surface": "hat",
-    "word_id": "W061",
-    "notes": "",
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
     "hint_override": ""
   },
   {
@@ -31066,6 +31074,14 @@
   {
     "sentence_id": "S52117",
     "position": 3,
+    "surface": "viel",
+    "word_id": "W1044",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52117",
+    "position": 4,
     "surface": "Freizeit",
     "word_id": "W1025",
     "notes": "",
@@ -31090,6 +31106,14 @@
   {
     "sentence_id": "S52118",
     "position": 3,
+    "surface": "viel",
+    "word_id": "W1044",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52118",
+    "position": 4,
     "surface": "Freizeit",
     "word_id": "W1025",
     "notes": "",
@@ -31114,6 +31138,14 @@
   {
     "sentence_id": "S52119",
     "position": 3,
+    "surface": "viel",
+    "word_id": "W1044",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52119",
+    "position": 4,
     "surface": "Freizeit",
     "word_id": "W1025",
     "notes": "",
@@ -31170,6 +31202,14 @@
   {
     "sentence_id": "S52122",
     "position": 3,
+    "surface": "es",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52122",
+    "position": 4,
     "surface": "nicht",
     "word_id": "W005",
     "notes": "",
@@ -31386,22 +31426,14 @@
   {
     "sentence_id": "S53107",
     "position": 1,
-    "surface": "Das",
-    "word_id": "W020",
+    "surface": "Es",
+    "word_id": "W023",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53107",
     "position": 2,
-    "surface": "Dorf",
-    "word_id": "W1038",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S53107",
-    "position": 3,
     "surface": "ist",
     "word_id": "W024",
     "notes": "",
@@ -31409,9 +31441,17 @@
   },
   {
     "sentence_id": "S53107",
+    "position": 3,
+    "surface": "ein",
+    "word_id": "W010",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53107",
     "position": 4,
-    "surface": "klein",
-    "word_id": "W031",
+    "surface": "Dorf",
+    "word_id": "W1038",
     "notes": "",
     "hint_override": ""
   },
@@ -31482,14 +31522,22 @@
   {
     "sentence_id": "S53110",
     "position": 1,
-    "surface": "Wo",
-    "word_id": "W107",
+    "surface": "Die",
+    "word_id": "W019",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53110",
     "position": 2,
+    "surface": "Straße",
+    "word_id": "W1039",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53110",
+    "position": 3,
     "surface": "ist",
     "word_id": "W024",
     "notes": "",
@@ -31497,17 +31545,17 @@
   },
   {
     "sentence_id": "S53110",
-    "position": 3,
-    "surface": "die",
-    "word_id": "W019",
+    "position": 4,
+    "surface": "nicht",
+    "word_id": "W005",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53110",
-    "position": 4,
-    "surface": "Straße",
-    "word_id": "W1039",
+    "position": 5,
+    "surface": "gut",
+    "word_id": "W042",
     "notes": "",
     "hint_override": ""
   },
@@ -31538,8 +31586,8 @@
   {
     "sentence_id": "S53111",
     "position": 4,
-    "surface": "groß",
-    "word_id": "W030",
+    "surface": "lang",
+    "word_id": "W1045",
     "notes": "",
     "hint_override": ""
   },
@@ -31674,16 +31722,16 @@
   {
     "sentence_id": "S53116",
     "position": 1,
-    "surface": "Ist",
-    "word_id": "W024",
+    "surface": "Wo",
+    "word_id": "W107",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53116",
     "position": 2,
-    "surface": "das",
-    "word_id": "W020",
+    "surface": "ist",
+    "word_id": "W024",
     "notes": "",
     "hint_override": ""
   },
@@ -31700,6 +31748,30 @@
     "position": 4,
     "surface": "Bus",
     "word_id": "W1034",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53116",
+    "position": 5,
+    "surface": "in",
+    "word_id": "W147",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53116",
+    "position": 6,
+    "surface": "die",
+    "word_id": "W019",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53116",
+    "position": 7,
+    "surface": "Stadt",
+    "word_id": "W152",
     "notes": "",
     "hint_override": ""
   }

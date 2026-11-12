@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 1488 (1074 matched to Tatoeba, 414 Tamago originals), 71 off, 561 awaiting a ruling. Words with Wiktionary data: 437 of 437. French-to-English answers: 473 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 434.
+Sentences live: 1488 (1098 matched to Tatoeba, 390 Tamago originals), 71 off, 585 awaiting a ruling. Words with Wiktionary data: 437 of 437. French-to-English answers: 473 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 427.
 
 Unit 1 is approved and live.
 
@@ -34,7 +34,7 @@ Candidates use only Unit 1 words, have 6 words or fewer, have a linked English t
 | S6056 |  | Tu as du temps ?<br>Do you have time? | none |
 | S6057 |  | Il a du temps.<br>He has time. | none |
 
-## Tamago originals: native-speaker check needed before Phase 4 (414)
+## Tamago originals: native-speaker check needed before Phase 4 (390)
 
 Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 
@@ -389,29 +389,16 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S10865 |  | Le paquet est dans le sac. | The packet is in the bag. | tts |
 | S10866 |  | C'est un petit paquet. | It's a small packet. | tts |
 | S10868 |  | La boîte est dans le sac. | The box is in the bag. | tts |
-| S11261 |  | Où est le musée ? | Where is the museum? | tts |
 | S11262 |  | Je vais au musée avec Paul. | I'm going to the museum with Paul. | tts |
-| S11263 |  | C'est un grand musée. | It's a big museum. | tts |
-| S11264 |  | La piscine est grande. | The swimming pool is big. | tts |
 | S11265 |  | Tu vas à la piscine ? | Are you going to the swimming pool? | tts |
-| S11266 |  | Je vais à l'école en bus. | I go to school by bus. | tts |
-| S11267 |  | Où est le bus ? | Where is the bus? | tts |
-| S11268 |  | Où est le cinéma ? | Where is the cinema? | tts |
-| S11269 |  | C'est le métro. | It's the metro. | tts |
-| S11270 |  | C'est un petit village. | It's a small village. | tts |
 | S11271 |  | Le village est petit. | The village is small. | tts |
-| S11272 |  | C'est ton bus ? | Is that your bus? | tts |
 | S11273 |  | Je vais à la gare. | I'm going to the station. | tts |
 | S11274 |  | Où est le métro ? | Where is the metro? | tts |
-| S11361 |  | J'aime la danse. | I like dance. | tts |
-| S11362 |  | C'est une belle danse. | It's a beautiful dance. | tts |
-| S11363 |  | Il aime la danse. | He likes dance. | tts |
-| S11364 |  | C'est un jeu. | It's a game. | tts |
+| S11363 |  | Il aime la danse. | He likes dancing. | tts |
 | S11365 |  | C'est mon jeu. | It's my game. | tts |
 | S11366 |  | Tu as un jeu ? | Do you have a game? | tts |
 | S11368 |  | Tu aimes le ski ? | Do you like skiing? | tts |
 | S11369 |  | Elle aime le ski. | She likes skiing. | tts |
-| S11370 |  | C'est une belle photo. | It's a beautiful photo. | tts |
 | S11371 |  | C'est un beau voyage. | It's a beautiful trip. | tts |
 | S11372 |  | C'est une belle fête. | It's a lovely party. | tts |
 | S11461 |  | C'est ma main. | It's my hand. | tts |
@@ -421,39 +408,28 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S11465 |  | C'est mon dos. | It's my back. | tts |
 | S11466 |  | Le chien a un dos noir. | The dog has a black back. | tts |
 | S11467 |  | Le dos du chat est blanc. | The cat's back is white. | tts |
-| S11468 |  | J'aime mes cheveux. | I like my hair. | tts |
 | S11469 |  | Elle aime ses cheveux. | She likes her hair. | tts |
-| S11471 |  | Tu as peur ? | Are you afraid? | tts |
 | S11472 |  | La tête du chien est petite. | The dog's head is small. | tts |
 | S11473 |  | Le chat a peur. | The cat is afraid. | tts |
 | S11561 |  | J'aime les gens. | I like people. | tts |
 | S11562 |  | Elle aime les gens. | She likes people. | tts |
-| S11563 |  | C'est mon copain. | He's my friend. | tts |
-| S11564 |  | Paul est mon copain. | Paul is my friend. | tts |
-| S11565 |  | C'est ma copine. | She's my friend. | tts |
-| S11566 |  | Marie est ma copine. | Marie is my friend. | tts |
+| S11563 |  | C'est mon ami Paul. | This is my friend Paul. | tts |
+| S11564 |  | Paul est mon ami. | Paul is my friend. | tts |
+| S11565 |  | C'est mon amie Marie. | This is my friend Marie. | tts |
+| S11566 |  | Marie est mon amie. | Marie is my friend. | tts |
 | S11567 |  | Je suis élève. | I'm a pupil. | tts |
 | S11568 |  | C'est un bon élève. | He's a good pupil. | tts |
-| S11569 |  | C'est un client. | He's a customer. | tts |
-| S11570 |  | Le client est content. | The customer is pleased. | tts |
-| S11571 |  | Qui est la dame ? | Who is the lady? | tts |
-| S11572 |  | J'aime le pain, mais pas le fromage. | I like bread, but not cheese. | tts |
-| S11661 |  | La montagne est belle. | The mountain is beautiful. | tts |
-| S11662 |  | J'aime la montagne. | I like the mountains. | tts |
 | S11663 |  | Le chat est dans l'arbre. | The cat is in the tree. | tts |
 | S11664 |  | La terre est noire. | The soil is black. | tts |
 | S11665 |  | La terre est rouge ici. | The soil is red here. | tts |
 | S11666 |  | Le vent est froid. | The wind is cold. | tts |
 | S11667 |  | J'aime le vent. | I like the wind. | tts |
-| S11668 |  | J'aime la nature. | I like nature. | tts |
 | S11669 |  | C'est un pont. | It's a bridge. | tts |
 | S11670 |  | Le pont est grand. | The bridge is big. | tts |
-| S11671 |  | Où est le pont ? | Where is the bridge? | tts |
 | S11672 |  | J'habite dans le sud. | I live in the south. | tts |
 | S11673 |  | Il va dans le sud. | He's going to the south. | tts |
 | S11674 |  | Elle habite dans le sud de la France. | She lives in the south of France. | tts |
 | S11675 |  | Où est la route ? | Where is the road? | tts |
-| S11676 |  | Il aime la nature. | He likes nature. | tts |
 
 ## Words, for a read-through (437)
 
@@ -899,7 +875,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1073 | sud | sud | Noun | m | south | checked |
 | W1074 | sur | sur | Preposition |  | on, upon | checked |
 
-## Matched to Tatoeba (1074)
+## Matched to Tatoeba (1098)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -1977,8 +1953,32 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10869 | Il est dans la boîte. | It is in the box. | [#13684456](https://tatoeba.org/en/sentences/show/13684456) | mervert1 | confirm |  | tts |
 | S10870 | Je voudrais un verre d'eau. | I'd like a glass of water. | [#1757613](https://tatoeba.org/en/sentences/show/1757613) | Zaghawa | confirm |  | tts |
 | S10871 | Voici ton sac. | Here is your bag. | [#920745](https://tatoeba.org/en/sentences/show/920745) | sacredceltic |  |  | tts |
+| S11261 | Où est le musée ? | Where is the museum? | [#120109](https://tatoeba.org/en/sentences/show/120109) | 9h0ost | confirm |  | tts |
+| S11263 | Il est au musée. | He's at the museum. | [#12202729](https://tatoeba.org/en/sentences/show/12202729) | hustledynamo | confirm |  | tts |
+| S11264 | Je vais à la piscine. | I am going to the swimming pool. | [#1010006](https://tatoeba.org/en/sentences/show/1010006) | elgranjuego | confirm |  | tts |
+| S11266 | Je vais à l'école en bus. | I go to school by bus. | [#7572](https://tatoeba.org/en/sentences/show/7572) | NomadSoul | confirm |  | tts |
+| S11267 | Où est le bus ? | Where is the bus? | [#2300515](https://tatoeba.org/en/sentences/show/2300515) | Zaghawa | confirm |  | tts |
+| S11268 | Aujourd'hui, je vais au cinéma. | Today, I'm going to the cinema. | [#12631638](https://tatoeba.org/en/sentences/show/12631638) | Adelpa | confirm |  | tts |
+| S11269 | Je vais à l'école en métro. | I go to school by metro. | [#1251736](https://tatoeba.org/en/sentences/show/1251736) | rene1596 | confirm | Fable review pick | tts |
+| S11270 | C'est un petit village. | This is a small village. | [#3934068](https://tatoeba.org/en/sentences/show/3934068) | Kamo | confirm |  | tts |
+| S11272 | Il va à l'école en bus. | He goes to school by bus. | [#131770](https://tatoeba.org/en/sentences/show/131770) | Pharamp | confirm |  | tts |
+| S11361 | Il danse. | He dances. | [#11664958](https://tatoeba.org/en/sentences/show/11664958) | LdjuherTaqvaylit | confirm |  | tts |
+| S11362 | Marie danse bien. | Marie dances well. | [#423625](https://tatoeba.org/en/sentences/show/423625) | Scott | confirm | Fable review pick | tts |
+| S11364 | C'est un jeu pour enfants. | It's a game for children. | [#13389963](https://tatoeba.org/en/sentences/show/13389963) | Ioan_Cristian | confirm |  | tts |
 | S11367 | J'aime le ski. | I like skiing. | [#7211](https://tatoeba.org/en/sentences/show/7211) | sacredceltic |  |  | tts |
+| S11370 | C'est une photo. | This is a photo. | [#8393460](https://tatoeba.org/en/sentences/show/8393460) | Adelpa | confirm |  | tts |
+| S11468 | J'aime mes cheveux. | I like my hair. | [#12200182](https://tatoeba.org/en/sentences/show/12200182) | hustledynamo | confirm | Fable review pick | tts |
 | S11470 | J'ai peur. | I'm afraid. | [#1111882](https://tatoeba.org/en/sentences/show/1111882) | alexmarcelo |  |  | tts |
+| S11471 | Il a peur du chien. | He is afraid of the dog. | [#367921](https://tatoeba.org/en/sentences/show/367921) | rike | confirm | Fable review pick | tts |
+| S11569 | Vous êtes un bon client. | You are a good customer. | [#1688964](https://tatoeba.org/en/sentences/show/1688964) | belgavox | confirm |  | tts |
+| S11570 | Le client veut acheter mon chien. | The customer wants to buy my dog. | [#10702709](https://tatoeba.org/en/sentences/show/10702709) | carlosalberto | confirm |  | tts |
+| S11571 | C'est la dame. | It's the lady. | [#1227531](https://tatoeba.org/en/sentences/show/1227531) | Ketutar | confirm |  | tts |
+| S11572 | Mais pourquoi ? | But why? | [#237235](https://tatoeba.org/en/sentences/show/237235) | hortusdei | confirm |  | tts |
+| S11661 | La montagne est verte. | The mountain is green. | [#963702](https://tatoeba.org/en/sentences/show/963702) | Quazel | confirm |  | tts |
+| S11662 | J'aime la montagne. | I like the mountains. | [#9370250](https://tatoeba.org/en/sentences/show/9370250) | Adelpa | confirm | Fable review pick | tts |
+| S11668 | La nature est verte. | Nature is green. | [#11844133](https://tatoeba.org/en/sentences/show/11844133) | carlosalberto | confirm |  | tts |
+| S11671 | Où est le pont ? | Where is the bridge? | [#1536163](https://tatoeba.org/en/sentences/show/1536163) | Anne_Paen | confirm |  | tts |
+| S11676 | Marie aime la nature. | Marie likes nature. | [#12788652](https://tatoeba.org/en/sentences/show/12788652) | Adelpa | confirm | Fable review pick | tts |
 
 ## Off in the workbook (71)
 
@@ -2058,7 +2058,7 @@ Set to off by the workbook owner. Not shipped.
 | S7729 | À elle. | It's her turn. | pulled from Tatoeba under content_pull |
 | S7730 | À trois ! | On the count of three! | pulled from Tatoeba under content_pull |
 
-## English-to-French answers generated from Tatoeba (434)
+## English-to-French answers generated from Tatoeba (427)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -2105,14 +2105,7 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S11061 | Can you repeat that, please? | Pourriez-vous répéter ça s'il vous plaît ? | [#4085](https://tatoeba.org/en/sentences/show/4085) | TRANG |
 | S11061 | Can you repeat that, please? | Pourriez-vous répéter cela s'il vous plait ? | [#846921](https://tatoeba.org/en/sentences/show/846921) | sacredceltic |
 | S11061 | Can you repeat that, please? | Pouvez-vous répéter cela, s'il vous plaît ? | [#13592](https://tatoeba.org/en/sentences/show/13592) | sacredceltic |
-| S11266 | I go to school by bus. | Je vais en cours en bus. | [#6696](https://tatoeba.org/en/sentences/show/6696) | U2FS |
 | S11273 | I'm going to the station. | Je vais à la station. | [#5369783](https://tatoeba.org/en/sentences/show/5369783) | Aiji |
-| S11471 | Are you afraid? | Avez-vous peur ? | [#1485273](https://tatoeba.org/en/sentences/show/1485273) | arnxy20 |
-| S11563 | He's my friend. | C'est mon ami. | [#551908](https://tatoeba.org/en/sentences/show/551908) | zmoo |
-| S11563 | He's my friend. | Il est mon ami. | [#132332](https://tatoeba.org/en/sentences/show/132332) | Micsmithel |
-| S11565 | She's my friend. | C'est mon amie. | [#1650867](https://tatoeba.org/en/sentences/show/1650867) | sacredceltic |
-| S11565 | She's my friend. | Elle est mon amie. | [#1650868](https://tatoeba.org/en/sentences/show/1650868) | felix63 |
-| S11671 | Where is the bridge? | Où se trouve le pont ? | [#1548856](https://tatoeba.org/en/sentences/show/1548856) | sacredceltic |
 | S2003 | Are they here? | Elles sont ici ? | [#5259932](https://tatoeba.org/en/sentences/show/5259932) | Iriep |
 | S2003 | Are they here? | Elles sont là ? | [#5259909](https://tatoeba.org/en/sentences/show/5259909) | Iriep |
 | S2003 | Are they here? | Ils sont là ? | [#5240676](https://tatoeba.org/en/sentences/show/5240676) | Iriep |

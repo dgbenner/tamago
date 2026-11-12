@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 11, 2026. **New: version name off home; tools panel 4 of 12 columns; tree rows of three fit at every width; every title "and" is now "+" (Birthdays, Music); toasts at the top in four plain colours.**
+Updated November 11, 2026. **New: Fable's vocabulary review applied in all three courses (Use candidates swapped in, check fixes made, ami and amie for copain and copine, German viel and lang); drafts now French 390, Spanish 176, German 127.**
 
 ## Done since last check-in
 

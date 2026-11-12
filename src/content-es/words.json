@@ -7826,5 +7826,32 @@
       "audio_file": "/audio-es/W1043.m4a",
       "speaker": "Rodelar"
     }
+  },
+  {
+    "word_id": "W1044",
+    "lang_id": "es",
+    "form": "pies",
+    "lemma": "pie",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "plural of pie",
+    "hint": "feet",
+    "hint_source": "short form of Wiktionary",
+    "first_unit": "U51",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/pies#Spanish",
+    "status": "pull from Wiktionary",
+    "notes": "added 2026-11-11, plural of pie, for the plural fix (S51102, S51103)",
+    "gloss_full": "plural of pie",
+    "lemma_gloss": "foot",
+    "lingua_libre": {
+      "file": "LL-Q1321 (spa)-Marreromarco-pies.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/LL-Q1321_%28spa%29-Marreromarco-pies.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1,
+      "audio_file": "/audio-es/W1044.m4a",
+      "speaker": "Marreromarco"
+    }
   }
 ]
