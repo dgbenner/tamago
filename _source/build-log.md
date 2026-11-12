@@ -675,3 +675,10 @@ Part 3, Lingua Libre recordings:
 - App: art at 78% of the circle (was 71%) with a 2x srcset; Pick Your Own shows its dish (no "?"), kept after a topic is chosen; Catch-Up uses the new miso soup. Checked in Chrome at 320 and 1280 px: nothing cut off.
 - Tools: new lines for Glossary, Progress, Self-Study and Verbs.
 - test/icons.test.js rewritten for the catalog rules. npm test 142 pass.
+
+## 2026-11-11: Sushi fit, per-course order, two Tools lines (committed, not pushed)
+
+- make-icons.mjs: MAX_RADIUS 0.45, no visible pixel farther from the centre than that share of the square, so long nigiri and diagonal temaki stay inside the disc (they crossed it at the lower left and upper right).
+- assign-icons.mjs: a course prefers images the earlier courses (French, Spanish, German) don't use in the same part, and a dish family (tuna, eel, scallop, salmon…) other than theirs at the same circle, so the three trees no longer show the same order. Temaki stay alike near the ends: 8 images for about 7 places a course.
+- Tools: Self-Study "Extra reps with tough areas", Glossary "See which words are sticking".
+- npm test 142 pass.

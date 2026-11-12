@@ -38,8 +38,8 @@ Every piece of Tamago food art, 90 images. Made by `node scripts/sushi-catalog.m
 
 | Image | Dish | Colour | Used | Notes |
 | --- | --- | --- | --- | --- |
-| `aburi-salmon-nigiri` | Aburi salmon nigiri with spicy mayo | orange | German Part 1, People + Things (U02) |  |
-| `anago-nigiri` | Anago nigiri (glazed sea eel) | brown | Spanish Part 1, Food + Drink (U04) | same dish as anago-nigiri-sq |
+| `aburi-salmon-nigiri` | Aburi salmon nigiri with spicy mayo | orange | German Part 1, Say Hi (U01) |  |
+| `anago-nigiri` | Anago nigiri (glazed sea eel) | brown | Spanish Part 1, Polite Phrases (U03) | same dish as anago-nigiri-sq |
 | `amaebi-nigiri` | Amaebi nigiri (sweet shrimp) | pink | not used yet | same dish as amaebi-nigiri-sq |
 | `beef-tataki-nigiri` | Beef tataki nigiri | red | not used yet |  |
 | `chutoro-nigiri` | Chūtoro nigiri (medium-fat tuna) | red | not used yet | same dish as chutoro-nigiri-sq |
@@ -50,25 +50,25 @@ Every piece of Tamago food art, 90 images. Made by `node scripts/sushi-catalog.m
 | `hotate-nigiri` | Hotate nigiri (scallop) | white | French Part 1, Polite Phrases (U03) | same dish as hotate-nigiri-sq |
 | `ika-nigiri` | Ika nigiri (squid) | white | not used yet | same dish as ika-nigiri-sq |
 | `tai-nigiri` | Tai nigiri (sea bream) | white | not used yet | same dish as tai-nigiri-sq |
-| `ebi-nigiri` | Ebi nigiri (shrimp) | orange | not used yet | same dish as ebi-nigiri-sq |
+| `ebi-nigiri` | Ebi nigiri (shrimp) | orange | German Part 1, People + Things (U02) | same dish as ebi-nigiri-sq |
 | `maguro-nigiri-1` | Maguro nigiri (tuna) | red | French Part 2, Phone Numbers (U42) | same dish as maguro-nigiri-2, maguro-nigiri-3, maguro-nigiri-sq |
 | `maguro-nigiri-2` | Maguro nigiri (tuna) | red | French Part 1, Say Hi (U01) | same dish as maguro-nigiri-1, maguro-nigiri-3, maguro-nigiri-sq |
-| `unagi-nigiri` | Unagi nigiri (freshwater eel) | brown | Spanish Part 1, People + Things (U02) | same dish as unagi-nigiri-sq |
+| `unagi-nigiri` | Unagi nigiri (freshwater eel) | brown | Spanish Part 1, Say Hi (U01) | same dish as unagi-nigiri-sq |
 | `hamachi-nigiri-4` | Hamachi nigiri (yellowtail) | pink | French Part 1, Food + Drink (U04) | same dish as hamachi-nigiri-5, hamachi-nigiri-sq |
 | `otoro-nigiri` | Ōtoro nigiri (fatty tuna) | pink | not used yet | same dish as otoro-nigiri-sq |
-| `hamachi-nigiri-5` | Hamachi nigiri (yellowtail) | pale pink | not used yet | same dish as hamachi-nigiri-4, hamachi-nigiri-sq |
+| `hamachi-nigiri-5` | Hamachi nigiri (yellowtail) | pale pink | Spanish Part 1, Animals (U05) | same dish as hamachi-nigiri-4, hamachi-nigiri-sq |
 | `maguro-nigiri-3` | Maguro nigiri (tuna) | red | not used yet | same dish as maguro-nigiri-1, maguro-nigiri-2, maguro-nigiri-sq |
 | `saba-nigiri` | Saba nigiri (mackerel) | silver | French Part 1, Animals (U05) | same dish as saba-nigiri-sq |
 | `aji-nigiri-sq` | Aji nigiri (horse mackerel) | silver | not used yet |  |
 | `amaebi-nigiri-sq` | Amaebi nigiri (sweet shrimp) | pink | not used yet | same dish as amaebi-nigiri |
-| `anago-nigiri-sq` | Anago nigiri (glazed sea eel) | brown | German Part 1, Food + Drink (U04) | same dish as anago-nigiri |
-| `chutoro-nigiri-sq` | Chūtoro nigiri (medium-fat tuna) | red | Spanish Part 1, Say Hi (U01) | same dish as chutoro-nigiri |
+| `anago-nigiri-sq` | Anago nigiri (glazed sea eel) | brown | German Part 1, Animals (U05) | same dish as anago-nigiri |
+| `chutoro-nigiri-sq` | Chūtoro nigiri (medium-fat tuna) | red | Spanish Part 1, People + Things (U02) | same dish as chutoro-nigiri |
 | `ebi-nigiri-sq` | Ebi nigiri (shrimp) | orange | not used yet | same dish as ebi-nigiri |
 | `hamachi-nigiri-sq` | Hamachi nigiri (yellowtail) | pale pink | French Part 2, Around Town (U51) | same dish as hamachi-nigiri-4, hamachi-nigiri-5 |
-| `hirame-nigiri-sq` | Hirame nigiri (flounder) | white | Spanish Part 1, Animals (U05) |  |
-| `hotate-nigiri-sq` | Hotate nigiri (scallop) | white | Spanish Part 1, Polite Phrases (U03); German Part 1, Polite Phrases (U03) | same dish as hotate-nigiri |
-| `ika-nigiri-sq` | Ika nigiri (squid) | white | French Part 2, Your Name, Please (U41); German Part 1, Animals (U05) | same dish as ika-nigiri |
-| `maguro-nigiri-sq` | Maguro nigiri (tuna) | red | German Part 1, Say Hi (U01) | same dish as maguro-nigiri-1, maguro-nigiri-2, maguro-nigiri-3 |
+| `hirame-nigiri-sq` | Hirame nigiri (flounder) | white | not used yet |  |
+| `hotate-nigiri-sq` | Hotate nigiri (scallop) | white | Spanish Part 1, Food + Drink (U04) | same dish as hotate-nigiri |
+| `ika-nigiri-sq` | Ika nigiri (squid) | white | French Part 2, Your Name, Please (U41); German Part 1, Polite Phrases (U03) | same dish as ika-nigiri |
+| `maguro-nigiri-sq` | Maguro nigiri (tuna) | red | German Part 1, Food + Drink (U04) | same dish as maguro-nigiri-1, maguro-nigiri-2, maguro-nigiri-3 |
 | `otoro-nigiri-sq` | Ōtoro nigiri (fatty tuna) | pink | French Part 2, Free Time (U52) | same dish as otoro-nigiri |
 | `saba-nigiri-sq` | Saba nigiri (mackerel) | silver | not used yet | same dish as saba-nigiri |
 | `sake-nigiri-sq` | Salmon nigiri | orange | not used yet | same dish as salmon-nigiri-3, salmon-nigiri-4, salmon-mayo-nigiri |
@@ -80,31 +80,31 @@ Every piece of Tamago food art, 90 images. Made by `node scripts/sushi-catalog.m
 
 | Image | Dish | Colour | Used | Notes |
 | --- | --- | --- | --- | --- |
-| `unakyu-maki` | Unakyu maki (eel and cucumber) | brown | French Part 2, Countries + Languages (U46); Spanish Part 1, Ser or Estar (U09); German Part 1, Mine + Yours (U09) |  |
+| `unakyu-maki` | Unakyu maki (eel and cucumber) | brown | French Part 2, Countries + Languages (U46); Spanish Part 1, Describing Things (U07); German Part 1, Mine + Yours (U09) |  |
 | `california-roll` | California roll | white | French Part 1, Getting Help (U31); French Part 2, Spelling It Out (U34); Spanish Part 1, Getting Help (U31); German Part 1, Getting Help (U31) | help roll |
 | `kappa-maki` | Kappa maki (cucumber) | green | French Part 2, Where You Live (U45); Spanish Part 1, Plurals (U06) |  |
 | `philadelphia-roll` | Philadelphia roll | orange | French Part 1, Plurals (U06); German Part 1, Free Time (U52) |  |
 | `salmon-avocado-roll` | Salmon avocado roll | orange | French Part 1, Conversation Help (U32); French Part 2, Checking Numbers (U35); Spanish Part 1, Conversation Help (U32); German Part 1, Conversation Help (U32) | help roll |
-| `takuan-maki` | Takuan maki (pickled radish) | yellow | French Part 1, Asking Questions (U09); Spanish Part 1, Where Things Are (U08); German Part 1, Asking Questions (U10) |  |
-| `ebi-tempura-roll` | Ebi tempura roll | orange | not used yet | the original has a checkerboard painted in, not transparency; the app copy has it lifted out |
+| `takuan-maki` | Takuan maki (pickled radish) | yellow | French Part 1, Asking Questions (U09); German Part 1, Asking Questions (U10) |  |
+| `ebi-tempura-roll` | Ebi tempura roll | orange | Spanish Part 1, Where Things Are (U08) | the original has a checkerboard painted in, not transparency; the app copy has it lifted out |
 | `tekka-maki` | Tekka maki (tuna) | red | French Part 1, Finding the Word (U33); French Part 2, Checking You Understood (U36); Spanish Part 1, Finding the Word (U33); German Part 1, Finding the Word (U33) | help roll |
-| `negihama-maki` | Negihama maki (yellowtail and scallion) | pale pink | French Part 2, Numbers to 100 (U44); Spanish Part 1, Mine + Yours (U10); German Part 1, Describing Things (U07) |  |
+| `negihama-maki` | Negihama maki (yellowtail and scallion) | pale pink | French Part 2, Numbers to 100 (U44); Spanish Part 1, Ser or Estar (U09); German Part 1, Describing Things (U07) |  |
 | `ikura-gunkan-sq` | Ikura gunkan (salmon roe) | orange | French Part 2, Body + Feelings (U53); Spanish Part 1, Body + Feelings (U51) |  |
 | `tobiko-gunkan-sq` | Tobiko gunkan (flying fish roe) | orange | French Part 1, Mine + Yours (U08); German Part 1, Plurals (U06) |  |
-| `uni-gunkan-sq` | Uni gunkan (sea urchin) | yellow | French Part 1, Describing Things (U07); Spanish Part 1, Describing Things (U07); German Part 1, Not + None (U08) |  |
+| `uni-gunkan-sq` | Uni gunkan (sea urchin) | yellow | French Part 1, Describing Things (U07); Spanish Part 1, Mine + Yours (U10); German Part 1, Not + None (U08) |  |
 
 ## Temaki (8)
 
 | Image | Dish | Colour | Used | Notes |
 | --- | --- | --- | --- | --- |
-| `wakame-temaki` | Wakame temaki (seaweed) | green | French Part 1, Intro to Numbers (U10); Spanish Part 1, Time (U14); German Part 1, Want + Can (U15) |  |
-| `ikura-temaki` | Ikura temaki (salmon roe) | orange | French Part 1, Colors (U11); German Part 1, Intro to Numbers (U11) |  |
-| `negitoro-temaki` | Negitoro temaki (tuna and scallion) | pink | French Part 2, At the Market (U47); Spanish Part 1, Free Time (U52) |  |
-| `salmon-temaki` | Salmon temaki | orange | French Part 2, Bottles + Bags (U49); Spanish Part 1, Going Places (U15); German Part 1, Colors (U12) |  |
-| `hotate-temaki` | Hotate temaki (scallop) | white | French Part 2, How Much Is It? (U48); Spanish Part 1, Around Town (U53); German Part 1, Around Town (U53) |  |
-| `unagi-temaki` | Unagi temaki (eel) | brown | French Part 1, Going Places (U13); Spanish Part 1, Colors (U13); German Part 1, Time (U13) |  |
-| `uni-temaki` | Uni temaki (sea urchin) | yellow | French Part 1, Time (U12); French Part 2, Outdoors (U55); Spanish Part 1, Asking Questions (U11); German Part 1, Going Places (U14) |  |
-| `kani-temaki` | Kani temaki (crab) | white | French Part 2, People (U54); Spanish Part 1, Intro to Numbers (U12); German Part 1, People + Feelings (U51) |  |
+| `wakame-temaki` | Wakame temaki (seaweed) | green | French Part 1, Intro to Numbers (U10); Spanish Part 1, Around Town (U53); German Part 1, Want + Can (U15) |  |
+| `ikura-temaki` | Ikura temaki (salmon roe) | orange | French Part 1, Colors (U11); German Part 1, Colors (U12) |  |
+| `negitoro-temaki` | Negitoro temaki (tuna and scallion) | pink | French Part 2, At the Market (U47); Spanish Part 1, Asking Questions (U11) |  |
+| `salmon-temaki` | Salmon temaki | orange | French Part 2, Bottles + Bags (U49); Spanish Part 1, Intro to Numbers (U12); German Part 1, People + Feelings (U51) |  |
+| `hotate-temaki` | Hotate temaki (scallop) | white | French Part 2, How Much Is It? (U48); Spanish Part 1, Colors (U13); German Part 1, Around Town (U53) |  |
+| `unagi-temaki` | Unagi temaki (eel) | brown | French Part 1, Going Places (U13); Spanish Part 1, Going Places (U15); German Part 1, Going Places (U14) |  |
+| `uni-temaki` | Uni temaki (sea urchin) | yellow | French Part 1, Time (U12); French Part 2, Outdoors (U55); Spanish Part 1, Time (U14); German Part 1, Time (U13) |  |
+| `kani-temaki` | Kani temaki (crab) | white | French Part 2, People (U54); Spanish Part 1, Free Time (U52); German Part 1, Intro to Numbers (U11) |  |
 
 ## Misc (26)
 
@@ -113,25 +113,25 @@ Every piece of Tamago food art, 90 images. Made by `node scripts/sushi-catalog.m
 | `korokke` | Potato korokke | brown | not used yet |  |
 | `kabocha-tempura` | Kabocha tempura (pumpkin) | yellow | not used yet |  |
 | `asparagus-bacon-skewer` | Asparagus bacon skewer | green | not used yet |  |
-| `chawanmushi` | Chawanmushi (savoury egg custard) | white | not used yet |  |
+| `chawanmushi` | Chawanmushi (savoury egg custard) | white | Spanish Part 1, Pick Your Own (U200) |  |
 | `edamame` | Edamame | green | not used yet |  |
 | `gyoza` | Gyoza | yellow | not used yet |  |
 | `inari` | Inari sushi | brown | not used yet |  |
 | `gyudon` | Gyudon (beef bowl) | brown | not used yet |  |
-| `oyakodon` | Oyakodon (chicken and egg bowl) | yellow | not used yet |  |
+| `oyakodon` | Oyakodon (chicken and egg bowl) | yellow | German Part 1, Pick Your Own (U200) |  |
 | `katsudon` | Katsudon (pork cutlet bowl) | yellow | not used yet |  |
 | `korean-street-toast` | Korean street toast | brown | not used yet | Korean, not Japanese |
 | `tebasaki` | Tebasaki (glazed chicken wings) | brown | not used yet |  |
 | `satsumaimo-tempura` | Sweet potato tempura | yellow | not used yet |  |
 | `takoyaki` | Takoyaki | brown | not used yet |  |
-| `tendon` | Tendon (tempura rice bowl) | yellow | French Part 1, Pick Your Own (U100); Spanish Part 1, Pick Your Own (U200) |  |
+| `tendon` | Tendon (tempura rice bowl) | yellow | French Part 1, Pick Your Own (U100) |  |
 | `shumai` | Shumai | white | not used yet |  |
 | `wakame-salad` | Wakame salad | green | German Part 1, Pick Your Own (U100) |  |
 | `yakitori` | Yakitori negima | brown | not used yet |  |
 | `agedashi-tofu` | Agedashi tofu | yellow | Spanish Part 1, Pick Your Own (U100) |  |
 | `broccoli-tempura` | Broccoli tempura | green | not used yet |  |
 | `ebi-tempura` | Ebi tempura (shrimp) | yellow | not used yet |  |
-| `kakiage` | Kakiage (vegetable tempura) | yellow | French Part 1, Pick Your Own (U200); German Part 1, Pick Your Own (U200) |  |
+| `kakiage` | Kakiage (vegetable tempura) | yellow | French Part 1, Pick Your Own (U200) |  |
 | `seared-scallops` | Seared scallops | brown | not used yet |  |
 | `kani-sunomono` | Kani sunomono (crab and cucumber salad) | white | not used yet |  |
 | `miso-soup` | Miso soup | brown | Catch-Up, every course | Catch-Up |

@@ -15,7 +15,8 @@
 // The picks are a fixed shuffle per course and part, so a rerun gives the same tree. Writes content/unit-icons.json
 // for the course; import.mjs fills the units' icon columns from it. test/icons.test.js holds the rules.
 // Usage: COURSE=fr|es|de node scripts/assign-icons.mjs
-import { readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { join } from 'node:path'
 import { createHash } from 'node:crypto'
 import { at, C } from './lib/course.mjs'
 import { META, HELP_ROLLS, toneOf } from './lib/sushi-meta.mjs'
@@ -26,6 +27,26 @@ const bySlug = new Map(META.map((m) => [m.slug, m]))
 const MISO = bySlug.get('miso-soup')
 const hash = (s) => createHash('sha1').update(s).digest('hex')
 const dishOf = (m) => m.dish.replace(/ \(.*/, '').replace(/ with .*/, '').toLowerCase()
+
+// Each course looks different (Dan, 2026-11-11): a course prefers images the courses before it (French, then Spanish,
+// then German) don't use in the same part, so no two courses show the same pieces in the same order.
+const ROOT = join(import.meta.dirname, '..')
+const RANK = [['fr', 'content'], ['es', 'content-es'], ['de', 'content-de']]
+const earlier = RANK.slice(0, RANK.findIndex(([id]) => id === C.id)).map(([, dir]) => {
+  const f = join(ROOT, dir, 'unit-icons.json')
+  const us = JSON.parse(readFileSync(join(ROOT, dir, 'raw/units.json'), 'utf8'))
+  return existsSync(f) ? Object.entries(JSON.parse(readFileSync(f, 'utf8'))).map(([id, v]) => ({ part: Number(us.find((u) => u.unit_id === id)?.part || 1), slug: v.file.replace('.webp', '') })) : []
+}).flat()
+const takenElsewhere = (part) => new Set(earlier.filter((e) => e.part === part).map((e) => e.slug))
+// Dish families, so French tuna, Spanish chūtoro and German ōtoro in the same place still count as the same look.
+const FAMILIES = [['tuna', /maguro|toro|tuna|tekka/], ['eel', /unagi|anago|eel|unakyu/], ['scallop', /hotate|scallop/], ['salmon', /salmon|sake-|philadelphia/],
+  ['shrimp', /ebi|amaebi/], ['white fish', /tai-|hirame|hamachi|negihama/], ['mackerel', /saba|aji/], ['squid', /ika-|tako/], ['roe', /ikura|tobiko/], ['uni', /uni-/]]
+const familyOf = (slug) => FAMILIES.find(([, re]) => re.test(slug))?.[0] ?? slug
+const earlierAt = new Map()
+for (const [, dir] of RANK.slice(0, RANK.findIndex(([id]) => id === C.id))) {
+  const f = join(ROOT, dir, 'unit-icons.json')
+  if (existsSync(f)) for (const [id, v] of Object.entries(JSON.parse(readFileSync(f, 'utf8')))) earlierAt.set(id, [...(earlierAt.get(id) ?? []), familyOf(v.file.replace('.webp', ''))])
+}
 
 const units = read('content/raw/units.json')
 const unitOf = new Map(units.map((u) => [u.unit_id, u]))
@@ -64,7 +85,8 @@ for (const part of parts) {
   const dishes = new Set([...used].map((s) => dishOf(bySlug.get(s))))
   const closing = new Set(before.slice(-BOUNDARY))
   const lastPart = new Set(before)
-  const queue = (t) => pool(t).sort((a, b) => Number(lastPart.has(a.slug)) - Number(lastPart.has(b.slug)) || Number(dishes.has(dishOf(a))) - Number(dishes.has(dishOf(b))) || hash(`${C.id}:${part}:${a.slug}`).localeCompare(hash(`${C.id}:${part}:${b.slug}`)))
+  const elsewhere = takenElsewhere(part)
+  const queue = (t, id) => pool(t).sort((a, b) => Number(lastPart.has(a.slug)) - Number(lastPart.has(b.slug)) || Number((earlierAt.get(id) ?? []).includes(familyOf(a.slug))) - Number((earlierAt.get(id) ?? []).includes(familyOf(b.slug))) || Number(elsewhere.has(a.slug)) - Number(elsewhere.has(b.slug)) || Number(dishes.has(dishOf(a))) - Number(dishes.has(dishOf(b))) || hash(`${C.id}:${part}:${a.slug}`).localeCompare(hash(`${C.id}:${part}:${b.slug}`)))
   const neighbours = (t) => (t === 'misc' ? ['misc'] : [t, ...TYPES.filter((x) => x !== t).sort((a, b) => Math.abs(TYPES.indexOf(a) - TYPES.indexOf(t)) - Math.abs(TYPES.indexOf(b) - TYPES.indexOf(t)))])
   path.forEach((e, i) => {
     if (e.slug) return
@@ -76,7 +98,7 @@ for (const part of parts) {
     const order = neighbours(e.want)
     let m
     for (const test of [(x) => free(x) && calm(x), free]) {
-      for (const t of order) { m = queue(t).find(test); if (m) break }
+      for (const t of order) { m = queue(t, e.unit.unit_id).find(test); if (m) break }
       if (m) break
       console.warn(`${e.unit.unit_id}: no ${e.want} that keeps the colours apart`)
     }

@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 11, 2026. **New: sushi catalog (90 images, originals in R2 bucket tamago-sushi, shortages and a ChatGPT prompt in _source/sushi-catalog.md); art 10% larger; Pick Your Own wears a dish; new miso soup on Catch-Up; no two red-toned pieces side by side; new Tools lines.**
+Updated November 11, 2026. **New (committed, not pushed): sushi kept inside the disc (long nigiri and the hand rolls were poking past it); each course has its own nigiri and dish order; Self-Study "Extra reps with tough areas", Glossary "See which words are sticking". Topics to talk about under Waiting for Dan.**
 
 ## Done since last check-in
 
@@ -288,6 +288,11 @@ Updated November 11, 2026. **New: sushi catalog (90 images, originals in R2 buck
 - **No side icons yet:** Your topic, the review checkpoints and Make keep no icon until side art arrives. Your topic no longer shows a number, so it doesn't clash with the new Unit 6. Its order moved from 6 to 50 in the workbook.
 
 ## Waiting for Dan
+
+**To talk about (Dan, 2026-11-11):**
+- Why the Conversations node, the Checkpoints and the Part 1 review each look different (pill buttons, small flag pills, the end-of-part review), and whether each is needed.
+- What "Catch-Up" means to a learner: the name isn't self-explanatory.
+- Sushi sizing: Dan will look closely tomorrow (pieces now capped to stay inside the disc).
 
 - **Fable's review of the new drafts (nothing swapped, as you said).** These are the candidates files for tonight's vocabulary circles, made the same way as before:
   - _review/french-vocab-candidates.md: 165 candidates for 65 drafts; 7 are word for word on Tatoeba, and 40 have a candidate that teaches all the same new words.

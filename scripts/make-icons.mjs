@@ -17,6 +17,10 @@ const OUT = join(ROOT, 'public/sushi')
 export const SIZES = { '': 80, '@2x': 160 }
 const AREA = 0.4 // the visible area as a share of the square
 const MAX_SIDE = 0.94 // the longest side, as a share of the square
+// No visible pixel farther from the centre than this share of the square, so long pieces (nigiri lying across, a
+// diagonal hand roll) stay inside the disc instead of poking past it at two corners (Dan, 2026-11-11). The disc is 80%
+// of the circle and the art box 78% of it, so the disc's edge is at 0.51 of the square; 0.45 leaves a margin.
+const MAX_RADIUS = 0.45
 const magick = (...args) => execFileSync('magick', args, { encoding: 'utf8' }).trim()
 export const madeFor = (m) => m.category !== 'dessert' && m.note !== 'logo'
 
@@ -36,9 +40,16 @@ for (const m of META.filter(madeFor)) {
   const box = magick(src, '-alpha', 'extract', '-threshold', '25%', '-format', '%@', 'info:')
   const [, w, h] = box.match(/^(\d+)x(\d+)/).map(Number)
   const area = Number(magick(src, '-crop', box, '+repage', '-alpha', 'extract', '-threshold', '50%', '-format', '%[fx:mean*w*h]', 'info:'))
+  // The farthest visible pixel from the centre of the trimmed piece, read from a small copy, in original pixels.
+  const k = 240 / Math.max(w, h)
+  const sw = Math.max(1, Math.round(w * k)), sh = Math.max(1, Math.round(h * k))
+  const alpha = execFileSync('magick', [src, '-crop', box, '+repage', '-resize', `${sw}x${sh}!`, '-alpha', 'extract', '-depth', '8', 'gray:-'], { maxBuffer: 1 << 24 })
+  let r2 = 0
+  for (let y = 0; y < sh; y++) for (let x = 0; x < sw; x++) if (alpha[y * sw + x] >= 64) r2 = Math.max(r2, (x + 0.5 - sw / 2) ** 2 + (y + 0.5 - sh / 2) ** 2)
+  const radius = Math.sqrt(r2) / k
   for (const [suffix, size] of Object.entries(SIZES)) {
     let s = Math.sqrt((AREA * size * size) / area)
-    s = Math.min(s, (MAX_SIDE * size) / Math.max(w, h))
+    s = Math.min(s, (MAX_SIDE * size) / Math.max(w, h), (MAX_RADIUS * size) / radius)
     const W = Math.max(1, Math.round(w * s)), H = Math.max(1, Math.round(h * s))
     magick(src, '-crop', box, '+repage', '-filter', 'Lanczos', '-resize', `${W}x${H}!`, '-background', 'none', '-gravity', 'center', '-extent', `${size}x${size}`,
       '-strip', '-define', 'webp:method=6', '-quality', '86', join(OUT, m.category, `${m.slug}${suffix}.webp`))
