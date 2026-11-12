@@ -6,7 +6,7 @@ import { checkTyped, diffMarks } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
 import { filesIn, play, preload, stop } from '../lib/audio.js'
-import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconSpeaker, IconWhy } from './icons.jsx'
+import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconMic, IconSpeaker, IconWhy } from './icons.jsx'
 import { questionLabel } from '../lib/question-names.js'
 import AudioHelp from './AudioHelp.jsx'
 import { TL, course } from '../lib/course.js'
@@ -155,15 +155,19 @@ export default function Lesson({ session, content, settings, seenWords, cantList
   const props = { q, content, settings, cantListen, result, onAnswer: answer, newWords, hideFrench, wordsShown, onShowWords: () => setWordsShown(true), onHint: (seg) => onHint(q, seg), onTyping: setTyping }
 
   return (
-    <main ref={mainRef} className="lesson mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-[max(0.75rem,env(safe-area-inset-top))] lg:max-w-2xl">
+    // Desktop (Dan, 2026-11-12): laid out like a landscape tablet, a fixed 56rem column, controls where they were.
+    <main ref={mainRef} className="lesson mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-[max(0.75rem,env(safe-area-inset-top))] lg:max-w-4xl">
       <header className="sticky top-0 z-10 -mx-4 flex items-center gap-3 bg-bg px-4 pb-2">
         <button onClick={onExit} aria-label="Leave lesson" className="icon-btn -ml-2"><IconClose /></button>
         <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-line" role="progressbar" aria-label="Lesson progress" aria-valuenow={Math.round(barMax.current * 100)} aria-valuemin={0} aria-valuemax={100}>
-          <div className="h-full rounded-full bg-green" style={{ width: `${barMax.current * 100}%` }} />
+          {/* Slides from the old value to the new one as the next question loads (Dan, 2026-11-12). */}
+          <div className="h-full rounded-full bg-green transition-[width] duration-500 ease-in-out motion-reduce:transition-none" style={{ width: `${barMax.current * 100}%` }} />
         </div>
       </header>
 
-      <div className={`flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : showCantNow ? 'pb-1' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
+      {/* A new question's parts appear top to bottom, the heading first, fast; only opacity and a small lift animate, so
+          everything takes taps and typing from the first frame (Dan, 2026-11-12; .q-enter in index.css). */}
+      <div key={q.qid} className={`q-enter flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : showCantNow ? 'pb-1' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
         {/* The final A1 check names the part a question belongs to (listening, reading, writing, speaking). */}
         {q.part && <p className="-mb-3 text-sm font-medium text-muted">{PART_LABEL[q.part]}</p>}
         <div className="flex items-center gap-2">
@@ -182,7 +186,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         </div>
       )}
       {/* The question type, lower left, while Developer is on (Dan, 2026-11-12): "QT11 · Type What You Hear". */}
-      {settings.developer !== 'off' && <p data-qtype className="pb-[max(0.5rem,env(safe-area-inset-bottom))] text-xs text-muted">{questionLabel(q.type, course.name)}</p>}
+      {settings.developer !== 'off' && <p data-qtype className="pointer-events-none fixed bottom-[max(0.25rem,env(safe-area-inset-bottom))] left-2 z-30 text-xs text-muted">{questionLabel(q.type, course.name)}</p>}
 
       {result && !result.testSkip && <AnswerBar q={q} result={result} cantListen={cantListen} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id, result)} onContinue={advance} />}
     </main>
@@ -325,13 +329,15 @@ function Speak({ q, result, onAnswer, newWords, onHint }) {
           ? <p className="text-sm text-muted">Recording isn't available here. Say it aloud, then tap Done.</p>
           : (
             <div className="flex flex-wrap items-center gap-2">
-              {rec.state === 'recording'
-                ? <button onClick={rec.stop} className="btn-secondary px-5">Stop</button>
-                : <button onClick={rec.start} className="btn-secondary px-5">{rec.state === 'done' ? 'Record again' : 'Record'}</button>}
+              {/* Dan, 2026-11-12: Record Voice; while recording a microphone with waves rising from its top and Stop
+                  Recording; then Model and Yours with speakers, and Record Again as a text link like Slow. */}
+              {rec.state === 'idle' && <button onClick={rec.start} className="btn-secondary inline-flex items-center gap-2 px-5 [&_svg]:h-6 [&_svg]:w-5"><IconMic />Record Voice</button>}
+              {rec.state === 'recording' && <button onClick={rec.stop} className="btn-secondary inline-flex items-center gap-2 px-5 [&_svg]:h-7 [&_svg]:w-6" data-recording><IconMic waves />Stop Recording</button>}
               {rec.state === 'done' && (
                 <>
-                  <button onClick={() => play(q.audio)} className="btn-secondary px-4">{model}</button>
-                  <button onClick={rec.playBack} className="btn-secondary px-4">Yours</button>
+                  <button onClick={() => play(q.audio)} className="btn-secondary inline-flex items-center gap-2 px-4"><span aria-hidden="true"><IconSpeaker /></span>{model}</button>
+                  <button onClick={rec.playBack} className="btn-secondary inline-flex items-center gap-2 px-4"><span aria-hidden="true"><IconSpeaker /></span>Yours</button>
+                  <button onClick={rec.start} className="btn-tertiary text-xs">Record Again</button>
                 </>
               )}
             </div>
@@ -813,7 +819,7 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const fallback = q.speaking || q.ungraded ? 'Done.' : good ? 'Right!' : 'Incorrect'
   return (
     <section aria-live="polite" data-outcome={good ? 'correct' : 'incorrect'} className={`fixed inset-x-0 bottom-0 z-20 border-t-2 bg-surface pb-[max(1rem,env(safe-area-inset-bottom))] ${good ? 'border-right' : 'border-wrong'}`}>
-      <div className="mx-auto flex max-w-md flex-col gap-3 px-4 pt-4 lg:max-w-2xl">
+      <div className="mx-auto flex max-w-md flex-col gap-3 px-4 pt-4 lg:max-w-4xl">
         <div className="flex items-start justify-between gap-3">
           <div className="min-w-0">
             <p className={`relative font-semibold ${good ? 'text-right-ink' : 'text-wrong'}`}>

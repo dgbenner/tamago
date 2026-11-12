@@ -27,3 +27,13 @@ export const IconBars = () => <svg {...svg}><path d="M4 20V12M10 20V6M16 20v-9M2
 export const IconCode = () => <svg {...svg}><path d="m8 8-4 4 4 4M16 8l4 4-4 4M13.5 5l-3 14" /></svg>
 // Why? (Dan, 2026-11-12): a question mark in a circle, first of the answer bar's icons.
 export const IconWhy = () => <svg {...svg}><circle cx="12" cy="12" r="9" /><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.6" /><path d="M12 17h.01" /></svg>
+// Grammar note (Dan, 2026-11-12, batch 3): Lucide's "bookmark" (ISC licence), drawn like the Tools icons. The stroke is
+// set so the weight matches the Tools' 28 px icons when shown at 20 px (1.8 × 28 / 20).
+export const IconBookmark = () => <svg {...svg} strokeWidth={2.5}><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" /></svg>
+// Recording (batch 3): a microphone, with three waves above it that the CSS animates outward while recording.
+export const IconMic = ({ waves = false }) => (
+  <svg {...svg} viewBox="0 0 24 30" height={30}>
+    {waves && <g className="mic-waves"><path d="M9 4.5a5 5 0 0 1 6 0" /><path d="M7 2.2a8 8 0 0 1 10 0" /><path d="M5 0a11 11 0 0 1 14 0" /></g>}
+    <rect x="9" y="8" width="6" height="11" rx="3" /><path d="M5.5 16a6.5 6.5 0 0 0 13 0M12 22.5V27M9 27h6" />
+  </svg>
+)

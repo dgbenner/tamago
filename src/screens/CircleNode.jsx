@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import { IconBook, IconLock } from './icons.jsx'
+import { IconBookmark, IconLock } from './icons.jsx'
 
 // The new tree circle (Dan, 2026-11-10; in the lab at /lab.html, not on the live tree yet). The learner sees a circle
 // and its lessons, named by its title: no unit numbers, no rounds, no segments. The five rounds still run underneath;
@@ -39,8 +39,8 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
 
 // onTestPass (Testing Shortcuts only, 2026-11-10): a right-to-left swipe on the circle, or the right arrow while it
 // has focus, passes its next lesson without playing it.
-// onNote (Dan, 2026-11-12): the grammar note opens from a small gray book at the circle's lower right, its bottom on
-// the circle's bottom edge; only on an open circle that has a note. Tapping the circle itself goes straight to a lesson.
+// onNote (Dan, 2026-11-12): the grammar note opens from a small gray bookmark at the circle's lower right, about 25 px
+// out from the circle (batch 3), its bottom on the circle's bottom edge; only on an open circle that has a note. Tapping the circle itself goes straight to a lesson.
 // The wrapper is a size container so the icon can follow the disc (min(100%, 6rem) wide, under the 1.625rem marker).
 export default function CircleNode({ onNote = null, ...props }) {
   const button = <CircleButton {...props} />
@@ -49,9 +49,9 @@ export default function CircleNode({ onNote = null, ...props }) {
     <div className="relative flex w-32 min-w-0 shrink justify-center [container-type:inline-size]">
       {button}
       <button onClick={onNote} aria-label={`Grammar Note: ${props.title}`} data-note-icon
-        className="absolute flex size-7 items-center justify-center rounded-full text-muted [&_svg]:size-4"
-        style={{ left: 'calc(50% + min(100cqw, 6rem) / 2 - 1rem)', top: 'calc(1.625rem + min(100cqw, 6rem) - 1.75rem)' }}>
-        <IconBook />
+        className="absolute flex size-7 items-center justify-center rounded-full text-muted [&_svg]:size-5"
+        style={{ left: 'calc(50% + min(100cqw, 6rem) / 2 - 1rem + 25px)', top: 'calc(1.625rem + min(100cqw, 6rem) - 1.75rem)' }}>
+        <IconBookmark />
       </button>
     </div>
   )

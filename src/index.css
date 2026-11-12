@@ -526,3 +526,21 @@ button.chip-drag {
   20%, 60% { transform: translateX(-6px); }
   40%, 80% { transform: translateX(6px); }
 }
+
+/* Question entrance (Dan, 2026-11-12): each part of a new question fades up in turn, heading first, 50 ms apart and
+   200 ms each. Opacity and a 4 px lift only; nothing waits on it, and taps and typing work from the first frame. */
+@keyframes q-in { from { opacity: 0; transform: translateY(4px); } }
+.q-enter > * { animation: q-in 200ms ease-out backwards; }
+.q-enter > :nth-child(2) { animation-delay: 50ms; }
+.q-enter > :nth-child(3) { animation-delay: 100ms; }
+.q-enter > :nth-child(4) { animation-delay: 150ms; }
+.q-enter > :nth-child(n + 5) { animation-delay: 200ms; }
+/* While recording, three waves rise from the microphone's top and fade, one after another. */
+@keyframes mic-wave { 0% { opacity: 0; transform: translateY(3px); } 40% { opacity: 1; } 100% { opacity: 0; transform: translateY(-2px); } }
+.mic-waves path { animation: mic-wave 1.2s ease-out infinite; }
+.mic-waves path:nth-child(2) { animation-delay: 0.2s; }
+.mic-waves path:nth-child(3) { animation-delay: 0.4s; }
+@media (prefers-reduced-motion: reduce) {
+  .q-enter > * { animation: none; }
+  .mic-waves path { animation: none; }
+}

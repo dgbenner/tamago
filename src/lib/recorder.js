@@ -11,6 +11,7 @@ export function useRecorder() {
   const audio = useRef(null)
 
   useEffect(() => () => {
+    audio.current?.pause() // "Yours" never plays on into the next question (Dan, 2026-11-12)
     rec.current?.stream?.getTracks().forEach((t) => t.stop())
     if (url) URL.revokeObjectURL(url)
   }, [url])

@@ -198,12 +198,14 @@ function whenVoiceFree(mine, fn) {
 function hush() {
   const synth = window.speechSynthesis
   waiting = null
-  // Cancel only when a sentence of ours is still out: Safari can lose the next sentence after a needless cancel.
-  if (!synth || live.size === 0) return
+  // Cancel only when something is still out: Safari can lose the next sentence after a needless cancel. "Out" is a
+  // sentence of ours, or the voice saying it is still speaking: a sentence the page lost track of kept playing into
+  // the next question (Dan, 2026-11-12).
+  if (!synth || (live.size === 0 && !synth.speaking && !synth.pending)) return
   const speaking = [...live].find((u) => u.started) ?? live.values().next().value
   synth.cancel() // some browsers report the end inside this call, others a moment later
   cancelledAt = Date.now()
-  const reported = !live.has(speaking)
+  const reported = !speaking || !live.has(speaking)
   live.clear()
   if (!reported) live.add(speaking)
 }
