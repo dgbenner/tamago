@@ -19,7 +19,7 @@ test('expected shares come from the round mix and add up to 1', () => {
   const s = expectedShares(units[0].content, 1)
   assert.ok(Math.abs(SKILLS.reduce((n, k) => n + s[k], 0) - 1) < 1e-9)
   assert.equal(s.writing, 0) // round 1 has no writing questions
-  assert.ok(s.speaking > 0)
+  assert.equal(s.speaking, 0) // no speaking in round 1 since the speaking shift (2026-11-12)
 })
 
 test('nothing done scores 0; every A1 round done reaches 29 and stops short of A2', () => {

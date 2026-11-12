@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { playOutside, stop as stopSound } from './audio.js'
 
 // Records the learner for speak-and-compare (nothing leaves the device, nothing is kept after the question), and the
 // native speaker in the native-speaker check, which keeps the recording (blob).
@@ -10,13 +11,16 @@ export function useRecorder() {
   const rec = useRef(null)
   const audio = useRef(null)
 
-  useEffect(() => () => {
-    audio.current?.pause() // "Yours" never plays on into the next question (Dan, 2026-11-12)
-    rec.current?.stream?.getTracks().forEach((t) => t.stop())
-    if (url) URL.revokeObjectURL(url)
-  }, [url])
+  // Leaving the question stops everything (Dan, 2026-11-12): the playback of "Yours", and a recording in progress.
+  useEffect(() => () => { stopRecorder(); audio.current?.pause() }, [])
+  useEffect(() => () => { if (url) URL.revokeObjectURL(url) }, [url])
+  function stopRecorder() {
+    const r = rec.current
+    if (r?.state === 'recording') { r.onstop = null; try { r.stop() } catch { /* already stopped */ } }
+    r?.stream?.getTracks().forEach((t) => t.stop())
+  }
 
-  const start = async () => {
+  const begin = async () => {
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
       const r = new MediaRecorder(stream)
@@ -37,12 +41,17 @@ export function useRecorder() {
     }
   }
   const stop = () => rec.current?.state === 'recording' && rec.current.stop()
+  // Through audio.js, so a new question (stop) ends it and the Yours speaker shows it playing.
   const playBack = () => {
     if (!url) return
     audio.current ??= new Audio()
     audio.current.src = url
-    audio.current.play().catch(() => {})
+    playOutside(audio.current, `yours:${url}`)
+  }
+  const start = async () => {
+    stopSound() // the model or an earlier playback never records over itself
+    return begin()
   }
   const reset = () => { setBlob(null); setUrl(null); setState((s) => (s === 'unavailable' ? s : 'idle')) }
-  return { state, start, stop, playBack, blob, reset }
+  return { state, start, stop, playBack, blob, reset, key: url ? `yours:${url}` : null }
 }

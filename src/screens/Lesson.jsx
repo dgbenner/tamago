@@ -5,10 +5,11 @@ import { DRAG_START, applyDrop, dropIndex, markerAt } from '../lib/chipdrag.js'
 import { checkTyped, diffMarks } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
-import { filesIn, play, preload, stop } from '../lib/audio.js'
+import { audioKey, filesIn, play, preload, stop } from '../lib/audio.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconMic, IconSpeaker, IconWhy } from './icons.jsx'
 import { questionLabel } from '../lib/question-names.js'
 import AudioHelp from './AudioHelp.jsx'
+import { usePlaying } from '../lib/use-playing.js'
 import { TL, course } from '../lib/course.js'
 import { FormFill, ListenNumber, ReadText, WriteMessage } from './A1Tasks.jsx'
 
@@ -199,10 +200,14 @@ function Question({ q, ...rest }) {
   return <C q={q} {...rest} />
 }
 
+// A speaker icon that shows its sound playing (batch 4).
+function PlayingSpeaker({ audio }) { return <IconSpeaker playing={usePlaying(audioKey(audio))} /> }
+
 function SpeakerButton({ audio, slow, label = 'Play', large }) {
+  const playing = usePlaying(audioKey(audio))
   return (
     <button onClick={() => play(audio, { slow })} aria-label={label} className={`inline-flex items-center justify-center gap-2 rounded-xl border-2 border-line bg-surface ${large ? 'h-16 w-16' : 'min-h-11 min-w-11 px-3'}`}>
-      <span aria-hidden="true"><IconSpeaker /></span>
+      <span aria-hidden="true"><IconSpeaker playing={playing} /></span>
       {slow && <span className="text-sm">Slow</span>}
     </button>
   )
@@ -311,6 +316,8 @@ function Speak({ q, result, onAnswer, newWords, onHint }) {
   const rec = useRecorder()
   const model = q.native ? 'Native Recording' : 'Model'
   const done = () => { rec.stop(); onAnswer({ correct: true, speaking: true }) }
+  const modelPlaying = usePlaying(audioKey(q.audio))
+  const yoursPlaying = usePlaying(rec.key)
   return (
     <>
       {fromMemory && !result ? <p className="text-2xl leading-relaxed">{q.english}</p> : (
@@ -331,12 +338,12 @@ function Speak({ q, result, onAnswer, newWords, onHint }) {
             <div className="flex flex-wrap items-center gap-2">
               {/* Dan, 2026-11-12: Record Voice; while recording a microphone with waves rising from its top and Stop
                   Recording; then Model and Yours with speakers, and Record Again as a text link like Slow. */}
-              {rec.state === 'idle' && <button onClick={rec.start} className="btn-secondary inline-flex items-center gap-2 px-5 [&_svg]:h-6 [&_svg]:w-5"><IconMic />Record Voice</button>}
-              {rec.state === 'recording' && <button onClick={rec.stop} className="btn-secondary inline-flex items-center gap-2 px-5 [&_svg]:h-7 [&_svg]:w-6" data-recording><IconMic waves />Stop Recording</button>}
+              {rec.state === 'idle' && <button onClick={rec.start} className="btn-secondary inline-flex items-center gap-2 px-5"><span aria-hidden="true"><IconMic /></span>Record Voice</button>}
+              {rec.state === 'recording' && <button onClick={rec.stop} className="btn-secondary inline-flex items-center gap-2 px-5" data-recording><span aria-hidden="true"><IconMic live /></span>Stop Recording</button>}
               {rec.state === 'done' && (
                 <>
-                  <button onClick={() => play(q.audio)} className="btn-secondary inline-flex items-center gap-2 px-4"><span aria-hidden="true"><IconSpeaker /></span>{model}</button>
-                  <button onClick={rec.playBack} className="btn-secondary inline-flex items-center gap-2 px-4"><span aria-hidden="true"><IconSpeaker /></span>Yours</button>
+                  <button onClick={() => play(q.audio)} className="btn-secondary inline-flex items-center gap-2 px-4"><span aria-hidden="true"><IconSpeaker playing={modelPlaying} /></span>{model}</button>
+                  <button onClick={rec.playBack} className="btn-secondary inline-flex items-center gap-2 px-4"><span aria-hidden="true"><IconSpeaker playing={yoursPlaying} /></span>Yours</button>
                   <button onClick={rec.start} className="btn-tertiary text-xs">Record Again</button>
                 </>
               )}
@@ -386,7 +393,7 @@ function PickHeard({ q, result, onAnswer, wordsShown, onShowWords }) {
           return (
             <button key={a.sentence_id} aria-label={result ? undefined : `Choice ${i + 1}, plays its sentence`} aria-pressed={result ? undefined : chosen === a.sentence_id}
               onClick={() => { play(a); if (!result) setChosen(a.sentence_id) }} className={`choice flex items-center gap-3 ${state}`}>
-              <span aria-hidden="true"><IconSpeaker /></span>
+              <span aria-hidden="true"><PlayingSpeaker audio={a} /></span>
               {result ? <span lang={TL}>{a.french}</span> : <span className="text-muted">{i + 1}</span>}
               {state === 'choice-wrong' && <WrongMark className="ml-auto" />}
             </button>

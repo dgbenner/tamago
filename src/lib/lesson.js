@@ -95,11 +95,30 @@ function swapRule(c, setting, type, round) {
   return c.cant_swaps.find((x) => x.setting === setting && x.type === type && round >= x.rule.from && round <= x.rule.to)?.rule ?? null
 }
 
+// Speaking questions are low value for now (Dan, 2026-11-12, batch 4): far fewer of them, and their slots go to graded
+// types, Answer the Question first. Per round and mix: how many speaking slots per 10 stay, and the type the rest
+// become. The workbook's round_type_mix keeps its rows; this is applied on top, for every course.
+export const SPEAKING_SHIFT = {
+  '1:': { keep: 0, to: 'QT03' }, '2:': { keep: 0, to: 'QT06' }, '3:': { keep: 1, to: 'QT09' }, '4:': { keep: 1, to: 'QT09' }, '5:': { keep: 1, to: 'QT09' },
+  '1:vocab': { keep: 0, to: 'QT02' }, '2:vocab': { keep: 0, to: 'QT18' }, '3:vocab': { keep: 0, to: 'QT18' }, '4:vocab': { keep: 0, to: 'QT12' }, '5:vocab': { keep: 0, to: 'QT12' },
+}
+const SPEAKING = new Set(['QT10', 'QT13'])
+function mixRows(c, round) {
+  const rows = c.round_type_mix.filter((x) => x.round === round && (x.mix ?? '') === (c.mix ?? ''))
+  const shift = SPEAKING_SHIFT[`${round}:${c.mix ?? ''}`]
+  if (!shift) return rows
+  return rows.flatMap((m) => {
+    if (!SPEAKING.has(m.type_id)) return [m]
+    const kept = Math.min(shift.keep, m.questions_per_10)
+    return [{ ...m, questions_per_10: kept }, { ...m, type_id: shift.to, questions_per_10: m.questions_per_10 - kept, notes: `from ${m.type_id} (speaking shift)` }]
+  })
+}
+
 // One entry per question slot, with the workbook type it came from (swapped_from in runtime_schema).
 export function mixSlots(c, round, { cantListen = false, cantSpeak = false } = {}) {
   const out = []
   // A vocabulary circle (units.mix 'vocab', A1 Complete 9) has its own word-focused mix; every other circle the main one.
-  for (const m of c.round_type_mix.filter((x) => x.round === round && (x.mix ?? '') === (c.mix ?? ''))) {
+  for (const m of mixRows(c, round)) {
     let type = m.type_id
     // A type not built yet, or word to image in a unit with too few pictures, takes its phase1_fallbacks row.
     // Answer the question in a unit with no question pairs (the topic packs) does the same.
@@ -204,7 +223,7 @@ function englishChipDistractors(c, s, n, rng) {
 export function supports(c, type, s, round) {
   if (HEARD_TYPES.has(type) && notByEar(s)) return false
   const rows = c.swBySentence.get(s.sentence_id) ?? []
-  if (type === 'QT05') return rows.length >= 2 && rows.some((r) => r.word_id)
+  if (type === 'QT05') return rows.length >= 2 && rows.some((r) => r.word_id && c.wordById.has(r.word_id)) // a blank needs a word this circle knows
   if (type === 'QT09') return (c.qaByQuestion.get(s.sentence_id)?.length ?? 0) > 0
   if (type === 'QT07' || type === 'QT08') return rows.length >= 2 || chipDistractorCount(type, round) > 0
   return true
@@ -256,7 +275,7 @@ export function makeQuestion(c, type, s, round, rng, last, { cantListen = false,
     return { ...base, audioChoices: shuffle([s, ...others], rng).map(audioOf), answer: s.sentence_id, shown: s.french }
   }
   if (type === 'QT05') {
-    const rows = c.swBySentence.get(s.sentence_id).filter((r) => r.word_id)
+    const rows = c.swBySentence.get(s.sentence_id).filter((r) => r.word_id && c.wordById.has(r.word_id))
     const contrastRows = rows.filter((r) => c.contrast.has(c.wordById.get(r.word_id)?.form))
     const blankRow = pick(contrastRows.length && rng() < 0.7 ? contrastRows : rows, rng)
     const blankIndex = base.segments.findIndex((seg) => seg.word_id === blankRow.word_id)

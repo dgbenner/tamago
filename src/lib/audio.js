@@ -26,6 +26,31 @@ import { course } from './course.js'
 
 let job = 0 // every play and every stop starts a new job; what an older one left waiting does nothing
 
+// What's playing now (Dan, 2026-11-12, batch 4), for the speaker icons' playing state: a key per sound (the recording's
+// file, else its words; "yours:…" for the learner's own recording), null when nothing plays. Every sound ends it.
+let nowKey = null
+const listeners = new Set()
+export const audioKey = (audio) => audio?.file ?? audio?.french ?? null
+export const nowPlaying = () => nowKey
+export function onPlaying(fn) { listeners.add(fn); return () => listeners.delete(fn) }
+function setNow(key) { if (nowKey === key) return; nowKey = key; for (const fn of listeners) fn(key) }
+// Sounds made outside this module (the learner's recording played back): stop() stops them too.
+const outside = new Set()
+export function playOutside(el, key) {
+  stop()
+  const mine = job
+  outside.add(el)
+  el.onended = el.onpause = () => { if (mine === job) setNow(null) }
+  el.play()?.catch?.(() => { if (mine === job) setNow(null) })
+  setNow(key)
+}
+// For tests: is any sound still going? Players, the decoded sound, outside sounds, the device voice.
+export function anythingPlaying() {
+  return Boolean(sounding) || [...players.values(), ...outside].some((el) => !el.paused && !el.ended)
+    || Boolean(typeof window !== 'undefined' && window.speechSynthesis?.speaking)
+}
+if (typeof window !== 'undefined') window.__tamagoAudio = { playing: anythingPlaying, now: nowPlaying, outside: () => [...outside].filter((el) => !el.paused && !el.ended).length }
+
 // ---- Recordings through Web Audio ----
 let ctx // undefined: not tried yet; null: not available here
 const decoded = new Map() // recording file to its decoded sound, or to the promise of it; least recently used first
@@ -59,15 +84,16 @@ function decode(file) {
   while (decoded.size > MAX_DECODED) decoded.delete(decoded.keys().next().value)
 }
 const readySound = (file) => { const s = decoded.get(file); return s && typeof s.then !== 'function' ? s : null }
-function startSound(sound) {
+function startSound(sound, key = null, mine = job) {
   const source = ctx.createBufferSource()
   const gain = ctx.createGain()
   source.buffer = sound
   source.connect(gain)
   gain.connect(ctx.destination)
-  source.onended = () => { if (sounding?.source === source) sounding = null }
+  source.onended = () => { if (sounding?.source === source) sounding = null; if (mine === job) setNow(null) }
   source.start()
   sounding = { source, gain }
+  setNow(key)
 }
 function stopSound() {
   if (!sounding) return
@@ -222,7 +248,7 @@ function say(mine, text, rate, onEnd, attempt = 0) {
   let heard = false // started, ended or failed: the voice took it
   u.onstart = () => { heard = true; u.started = true }
   u.onend = () => { heard = true; live.delete(u); onEnd?.() }
-  u.onerror = () => { heard = true; live.delete(u) }
+  u.onerror = () => { heard = true; live.delete(u); onEnd?.() }
   live.add(u) // also keeps it from being collected mid-sentence
   synth.speak(u)
   setTimeout(() => {
@@ -239,15 +265,20 @@ export const RECORDING_SLOW = 0.6
 export const slowText = (text) => String(text).replace(/([^\s,;:.!?¿¡])\s+(?=[^\s,;:.!?»“”„])/gu, '$1, ')
 function speak(audio, slow, mine = job) {
   if (!('speechSynthesis' in window) || !audio.french) return
-  whenVoiceFree(mine, () => say(mine, slow ? slowText(audio.french) : audio.french, slow ? SLOW_RATE : 0.9))
+  setNow(audioKey(audio))
+  whenVoiceFree(mine, () => say(mine, slow ? slowText(audio.french) : audio.french, slow ? SLOW_RATE : 0.9, () => { if (mine === job) setNow(null) }))
 }
 
 // ---- Playing ----
+// Stops every sound: recordings, the device voice, and outside sounds such as the learner's own recording. A new
+// question always calls it (Lesson.jsx), so nothing plays on into the next one (Dan, 2026-11-12).
 export function stop() {
   job++
   hush()
   stopSound()
   for (const el of players.values()) el.pause()
+  for (const el of outside) el.pause()
+  setNow(null)
 }
 
 export function play(audio, { slow = false } = {}) {
@@ -258,12 +289,14 @@ export function play(audio, { slow = false } = {}) {
   if (c && c.state !== 'running') c.resume?.()?.catch?.(() => {})
   if (c && !slow) {
     const sound = readySound(audio.file)
-    if (sound && c.state === 'running') { startSound(sound); return }
+    if (sound && c.state === 'running') { startSound(sound, audioKey(audio), mine); return }
     decode(audio.file) // ready for the next tap
   }
   const el = playerFor(audio.file)
   try { el.currentTime = 0 } catch { /* not loaded yet: it starts at the beginning anyway */ }
   el.playbackRate = slow ? RECORDING_SLOW : 1
+  el.onended = () => { if (mine === job) setNow(null) }
+  setNow(audioKey(audio))
   // A recording this browser can't or won't play falls back to the device voice rather than silence.
   let fellBack = false
   const fallBack = () => {

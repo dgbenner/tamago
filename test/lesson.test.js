@@ -16,22 +16,24 @@ function seeded(seed) {
 const types = (mix) => Object.fromEntries(mix.map((m) => [m.type, m.n]))
 const wordsIn = (s) => c.swBySentence.get(s.sentence_id).map((r) => r.word_id).filter(Boolean)
 
-test('Phase 2b mixes: every type built, so the workbook mix runs as written', () => {
-  assert.deepEqual(types(effectiveMix(c, 1)), { QT01: 2, QT02: 2, QT03: 2, QT04: 3, QT10: 1 })
-  assert.deepEqual(types(effectiveMix(c, 2)), { QT03: 1, QT04: 2, QT05: 2, QT06: 2, QT07: 2, QT10: 1 })
-  assert.deepEqual(types(effectiveMix(c, 3)), { QT05: 2, QT07: 2, QT08: 3, QT09: 1, QT10: 2 })
-  assert.deepEqual(types(effectiveMix(c, 4)), { QT06: 1, QT07: 1, QT08: 1, QT09: 1, QT11: 2, QT12: 2, QT13: 2 })
-  assert.deepEqual(types(effectiveMix(c, 5)), { QT06: 1, QT09: 2, QT11: 2, QT12: 3, QT13: 2 })
+// The workbook mix, with the speaking shift on top (Dan, 2026-11-12, batch 4): no speaking in rounds 1 and 2, one in
+// rounds 3 to 5, the freed slots to graded types, Answer the Question first.
+test('mixes: the workbook mix with far fewer speaking questions, their slots to graded types', () => {
+  assert.deepEqual(types(effectiveMix(c, 1)), { QT01: 2, QT02: 2, QT03: 3, QT04: 3 })
+  assert.deepEqual(types(effectiveMix(c, 2)), { QT03: 1, QT04: 2, QT05: 2, QT06: 3, QT07: 2 })
+  assert.deepEqual(types(effectiveMix(c, 3)), { QT05: 2, QT07: 2, QT08: 3, QT09: 2, QT10: 1 })
+  assert.deepEqual(types(effectiveMix(c, 4)), { QT06: 1, QT07: 1, QT08: 1, QT09: 2, QT11: 2, QT12: 2, QT13: 1 })
+  assert.deepEqual(types(effectiveMix(c, 5)), { QT06: 1, QT09: 3, QT11: 2, QT12: 3, QT13: 1 })
 })
 
 test("Can't speak swaps the speaking types per cant_swaps", () => {
-  assert.deepEqual(types(effectiveMix(c, 1, { cantSpeak: true })), { QT01: 2, QT02: 2, QT03: 2, QT04: 4 })
-  assert.deepEqual(types(effectiveMix(c, 4, { cantSpeak: true })), { QT06: 1, QT07: 1, QT08: 1, QT09: 1, QT11: 2, QT12: 4 })
+  assert.deepEqual(types(effectiveMix(c, 1, { cantSpeak: true })), { QT01: 2, QT02: 2, QT03: 3, QT04: 3 }) // no speaking left to swap
+  assert.deepEqual(types(effectiveMix(c, 4, { cantSpeak: true })), { QT06: 1, QT07: 1, QT08: 1, QT09: 2, QT11: 2, QT12: 3 })
 })
 
 test('a unit without enough pictures runs word to image on its fallback', () => {
   const bare = contentForUnit({ ...tables, words: tables.words.map((w) => ({ ...w, image_file: '' })) }, 'U01')
-  assert.deepEqual(types(effectiveMix(bare, 1)), { QT01: 2, QT03: 4, QT04: 3, QT10: 1 })
+  assert.deepEqual(types(effectiveMix(bare, 1)), { QT01: 2, QT03: 5, QT04: 3 })
 })
 
 test('word to image: pictured words met, the answer among the choices, V0202 has four', () => {
@@ -59,7 +61,7 @@ test('pass mark is 70% of graded questions, rounded up', () => {
   assert.equal(passMark(10), 7)
   assert.equal(passMark(9), 7)
   assert.equal(passMark(8), 6)
-  assert.equal(buildLesson(c, { round: 3, known: allKnown, rng: seeded(1) }).graded, 8) // two speaking questions aren't graded
+  assert.equal(buildLesson(c, { round: 3, known: allKnown, rng: seeded(1) }).graded, 9) // one speaking question isn't graded
 })
 
 test('round 1: at most 4 new words a lesson, sentences only from met words, new words first', () => {

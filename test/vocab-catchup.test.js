@@ -16,7 +16,7 @@ test('vocabulary circles take the word-focused mix; situation circles keep the m
   const v = contentForUnit(tables, vocab[0].unit_id)
   const types = (c, r) => Object.fromEntries(effectiveMix(c, r).map((m) => [m.type, m.n]))
   assert.equal(types(v, 1).QT01, 3)
-  assert.equal(types(v, 3).QT18, 3)
+  assert.equal(types(v, 3).QT18, 4) // three, plus the speaking slot moved over (2026-11-12)
   assert.equal(types(contentForUnit(tables, 'U01'), 3).QT18, undefined)
 })
 
@@ -26,8 +26,8 @@ test('Type the word asks a word of the circle, met already, and takes it with or
   const known = new Set(c.wordOrder)
   const lesson = buildLesson(c, { round: 3, unit_id: u.unit_id, known, rng: seeded(3) })
   const typed = lesson.queue.filter((q) => q.type === 'QT18')
-  assert.equal(typed.length, 3)
-  assert.equal(new Set(typed.map((q) => q.word_id)).size, 3)
+  assert.equal(typed.length, 4)
+  assert.equal(new Set(typed.map((q) => q.word_id)).size, 4)
   for (const q of typed) {
     assert.equal(c.wordById.get(q.word_id).first_unit, u.unit_id)
     assert.ok(checkTyped(q.form, q.accepted).correct)

@@ -10,12 +10,12 @@ import CircleNode from './CircleNode.jsx'
 // circle only, the first time. Pick Your Own wears its misc dish, before and after a topic is chosen (Dan, 2026-11-11).
 // Tapping an open circle goes straight into its lesson (Dan, 2026-11-12); the sheet stays for a locked circle (why
 // it's locked) and for Pick Your Own (choosing or changing the topic). The grammar note has its own small icon.
-function Node({ node, onPick, onTestPass, onNote }) {
+function Node({ node, onPick, onTestPass, onNote, noteIcon }) {
   const { unit, open, circle, strength, topic, marker } = node
   return (
     <CircleNode title={unit.title} icon={unit.icon_file ? `/sushi/${unit.icon_group}/${unit.icon_file}` : null}
       locked={!open} lessonsDone={circle.done} lessonsTotal={circle.total} recall={strength?.items > 0 ? strength.recall : null} marker={marker}
-      onNote={onNote} onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
+      onNote={onNote} noteIcon={noteIcon} onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
   )
 }
 
@@ -401,6 +401,8 @@ function Points({ total, today }) {
 export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
   finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, onGrammarNote, hasNote }) {
   const [picked, setPicked] = useState(null)
+  // Grammar note icons alternate book, notebook, book… across the open circles that have a note (Dan, batch 4).
+  const noteIcons = new Map(rows.flat().filter((n) => n.open && !n.topic?.choosing && hasNote(n.unit.unit_id)).map((n, i) => [n.unit.unit_id, i % 2 ? 'notebook' : 'book']))
   const [cpPicked, setCpPicked] = useState(null)
   const [cuPicked, setCuPicked] = useState(null)
   const [practiceNote, setPracticeNote] = useState(false)
@@ -475,7 +477,8 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
             <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
               {row.map((node) => <Node key={node.unit.unit_id} node={node} onTestPass={onTestPass}
                 onPick={(n) => (n.open && !n.topic ? onStartUnit(n.unit.unit_id) : setPicked(n))}
-                onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => onGrammarNote(node.unit.unit_id) : null} />)}
+                onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => onGrammarNote(node.unit.unit_id) : null}
+                noteIcon={noteIcons.get(node.unit.unit_id)} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
             cu && <li key={`cu${i}`} className="flex justify-center"><CatchUpNode cu={cu} onPick={setCuPicked} /></li>,
