@@ -7,11 +7,11 @@ import CircleNode from './CircleNode.jsx'
 
 // A tree node is a circle (Circle Lab design, approved 2026-11-10; src/screens/CircleNode.jsx): its sushi on a warm
 // disc, one ring that fills across all its lessons, the title. "Start Here" shows on the first
-// circle only, the first time; a "?" stands for Your Topic until one is chosen.
+// circle only, the first time. Pick Your Own wears its misc dish, before and after a topic is chosen (Dan, 2026-11-11).
 function Node({ node, onPick, onTestPass }) {
   const { unit, open, circle, strength, topic, marker } = node
   return (
-    <CircleNode title={unit.title} icon={unit.icon_file ? `/icons/${unit.icon_group}/${unit.icon_file}` : null} glyph={topic?.choosing ? '?' : null}
+    <CircleNode title={unit.title} icon={unit.icon_file ? `/sushi/${unit.icon_group}/${unit.icon_file}` : null}
       locked={!open} lessonsDone={circle.done} lessonsTotal={circle.total} recall={strength?.items > 0 ? strength.recall : null} marker={marker}
       onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
   )
@@ -296,7 +296,7 @@ function PartCarousel({ part, onJumpPart }) {
 // circle's spoken name.
 const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.count ? `${cu.count} to catch up` : 'Nothing yet')
 function CatchUpNode({ cu, onPick }) {
-  return <CircleNode title={cu.title} icon="/icons/sides/miso-soup.svg" locked={!cu.available} ring={false} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
+  return <CircleNode title={cu.title} icon="/sushi/misc/miso-soup.webp" locked={!cu.available} ring={false} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
 }
 function CatchUpCard({ cu, onStart, onClose }) {
   return (

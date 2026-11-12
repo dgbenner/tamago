@@ -666,3 +666,12 @@ Part 3, Lingua Libre recordings:
 - The 19 square images are Dan's (ChatGPT), back in _source/icons and content/icons.json; public/icons made by make-icons.mjs (the 16 existing files unchanged).
 - assign-icons.mjs rewritten: per part, easy to hard by thirds, borrowing from the type before where a type runs short, help rolls kept, no image twice in a part, the first 6 of a part clear of the last 6 before it, a fixed shuffle per course and part. Rerun for French, Spanish and German, then import and build.
 - test/icons.test.js: images exist, no repeat in a part, across a boundary or circle to circle, help rolls in order and nowhere else. npm test 139 pass.
+
+## 2026-11-11: Sushi catalog; new Tools lines
+
+- Dan's new art (Desktop: Maki 9, Nigiri 21, Temaki 8, Miscellaneous 26 with street food, Dessert 7) plus the 19 square images: 90 originals, untouched, in R2 bucket tamago-sushi (new, private) under originals/, and in _source/sushi-originals (gitignored). 16 Desktop files were the same files as the old glossy set. _source/icons, public/icons and content/icons.json retired.
+- scripts/lib/sushi-meta.mjs (dish, category, colour by eye from contact sheets), scripts/make-icons.mjs (public/sushi, 80 px and @2x 160 px WebP; the tempura shrimp roll's painted checkerboard lifted from the app copy), scripts/sushi-catalog.mjs (content/sushi-catalog.json, _source/sushi-catalog.md with rules, duplicates, shortages and a ChatGPT prompt).
+- assign-icons.mjs: screen order (rows, Catch-Up in place), thirds, help rolls, misc on Pick Your Own, tone rule (red, orange, pink one tone), boundary window 6, a new dish before a repeated one. All three courses reassigned; no warnings.
+- App: art at 78% of the circle (was 71%) with a 2x srcset; Pick Your Own shows its dish (no "?"), kept after a topic is chosen; Catch-Up uses the new miso soup. Checked in Chrome at 320 and 1280 px: nothing cut off.
+- Tools: new lines for Glossary, Progress, Self-Study and Verbs.
+- test/icons.test.js rewritten for the catalog rules. npm test 142 pass.

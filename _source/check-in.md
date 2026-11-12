@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 11, 2026. **New: all 35 sushi images in rotation (the 19 square ones are back); no image twice in a part or across a part boundary, easy-to-hard order kept, help rolls kept; a test holds it.**
+Updated November 11, 2026. **New: sushi catalog (90 images, originals in R2 bucket tamago-sushi, shortages and a ChatGPT prompt in _source/sushi-catalog.md); art 10% larger; Pick Your Own wears a dish; new miso soup on Catch-Up; no two red-toned pieces side by side; new Tools lines.**
 
 ## Done since last check-in
 

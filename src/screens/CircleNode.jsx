@@ -7,7 +7,8 @@ import { IconLock } from './icons.jsx'
 // fill and the first-use marker.
 // Every circle has a warm off-white disc inside the ring (--disc, the same in light and dark), so the soft white edges
 // of the sushi art never show on dark; a locked circle keeps the disc faint, with the lock on it. The sushi images are
-// trimmed and scaled to the same visible area (scripts/make-icons.mjs), so every piece looks the same size.
+// trimmed and scaled to the same visible area (scripts/make-icons.mjs), so every piece looks the same size; they show at
+// 78% of the circle (10% larger than the first 71%, Dan, 2026-11-11), with a 2x file for sharp screens.
 //   locked       gray, with a lock
 //   in progress  the ring fills, lessonsDone of lessonsTotal
 //   finished     a full ring; as recall drops the ring fades (faint below about 80%)
@@ -38,7 +39,7 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
 
 // onTestPass (Testing Shortcuts only, 2026-11-10): a right-to-left swipe on the circle, or the right arrow while it
 // has focus, passes its next lesson without playing it.
-export default function CircleNode({ title, icon, glyph = null, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null, caption = null, showCaption = true, ring = true }) {
+export default function CircleNode({ title, icon, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null, caption = null, showCaption = true, ring = true }) {
   // caption (Catch-Up, A1 Complete 9): a quiet line under the title, also read out in place of the lesson count; ring
   // false: no lesson ring, since a Catch-Up circle has no lessons of its own.
   const start = useRef(null)
@@ -73,8 +74,7 @@ export default function CircleNode({ title, icon, glyph = null, locked = false, 
         </svg>
         {state === 'locked'
           ? <span className="relative text-muted [&_svg]:size-8"><IconLock /></span>
-          : glyph ? <span className="relative text-4xl font-semibold text-[#645e53]">{glyph}</span>
-            : icon ? <img src={icon} alt="" className="relative aspect-square w-[71%] object-contain" /> : null}
+          : icon ? <img src={icon} srcSet={`${icon} 1x, ${icon.replace(/\.webp$/, '@2x.webp')} 2x`} alt="" className="relative aspect-square w-[78%] object-contain" /> : null}
       </span>
       <span className={`max-w-full text-base leading-tight font-semibold break-words ${state === 'locked' ? 'text-muted' : ''}`}>{title}</span>
       {caption && showCaption && <>{' '}<span className="-mt-1 text-sm text-muted">{caption}</span></>}

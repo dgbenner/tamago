@@ -28,7 +28,7 @@ if (!C) throw new Error(`COURSE=${COURSE}: no such course`)
 
 // A repo-relative path, moved to the course's own folder when the course isn't French. Shared files stay put.
 const MOVED = [['content/', 'content-es/'], ['src/content', 'src/content-es'], ['public/audio-native', 'public/audio-native-es'], ['public/audio', 'public/audio-es'], ['.cache/recordings', '.cache/recordings-es']]
-const SHARED = new Set(['content/icons.json'])
+const SHARED = new Set(['content/sushi-catalog.json'])
 export function at(p) {
   if (COURSE === 'fr' || SHARED.has(p)) return join(ROOT, p)
   const hit = MOVED.find(([from]) => p === from.replace(/\/$/, '') || p.startsWith(from))

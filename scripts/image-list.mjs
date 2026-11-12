@@ -178,7 +178,7 @@ const out = [
   '',
   '## The prompt',
   '',
-  'Attach one sushi icon as the style reference (for example `_source/icons/nigiri/Ebi.png`) and use this each time, changing only the last line:',
+  'Attach one sushi icon as the style reference (for example `_source/sushi-originals/Square Set/Nigiri/Ebi.png`) and use this each time, changing only the last line:',
   '',
   '```',
   'Make an icon in exactly the same style as the attached sushi image: a single emoji-style object, softly lit and',

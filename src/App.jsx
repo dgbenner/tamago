@@ -982,7 +982,7 @@ export default function App() {
     // The Your topic node stands for the chosen pack once there is one; it keeps the node's place number.
     const node = tables.units.find((u) => u.unit_id === t.unit_id)
     const id = node.is_topic_pick === 'node' ? topicChoice[node.unit_id] ?? node.unit_id : node.unit_id
-    const unit = id === node.unit_id ? node : { ...tables.units.find((u) => u.unit_id === id), order: node.order }
+    const unit = id === node.unit_id ? node : { ...tables.units.find((u) => u.unit_id === id), order: node.order, icon_group: node.icon_group, icon_file: node.icon_file } // keeps the node's dish
     const progress = progressOf(id)
     const open = isOpen(id)
     const choosing = node.is_topic_pick === 'node' && id === node.unit_id
@@ -1009,10 +1009,10 @@ export default function App() {
   return (
     <Home rows={rows} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
       tools={[
-        { id: 'glossary', screen: 'words', label: 'Glossary', about: 'Every word and its meaning, and what you\'ve learned', onOpen: () => setScreen('words') },
-        { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Present-tense tables and practice', onOpen: () => setScreen('verbs') },
-        { id: 'study', screen: 'make', label: 'Self-Study', about: 'Flashcards, weak spots, quick tests and conversation practice', onOpen: openMakeScreen },
-        { id: 'progress', screen: 'progress', label: 'Progress', about: 'CEFR levels in reading, writing, listening and speaking', onOpen: () => setScreen('progress') },
+        { id: 'glossary', screen: 'words', label: 'Glossary', about: 'Look up any word and see what’s sticking', onOpen: () => setScreen('words') },
+        { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Get every present-tense form right', onOpen: () => setScreen('verbs') },
+        { id: 'study', screen: 'make', label: 'Self-Study', about: 'Extra reps with flashcards, quick tests and conversation', onOpen: openMakeScreen },
+        { id: 'progress', screen: 'progress', label: 'Progress', about: 'Track your CEFR level in all four skills', onOpen: () => setScreen('progress') },
         ...(settings.developer !== 'off' ? [{ id: 'developer', screen: 'developer', label: 'Developer', about: 'Testing controls, not part of the course', quiet: true, onOpen: () => setScreen('developer') }] : []),
       ]}
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}

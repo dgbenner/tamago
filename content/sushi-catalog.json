@@ -1,0 +1,1668 @@
+{
+  "_about": "Every piece of Tamago food art: the app copy (WebP, 80px and @2x 160px), the untouched original in R2 (bucket tamago-sushi), dish, category, main colour, tone (red, orange and pink are red-toned), role and where it is used. Made by scripts/sushi-catalog.mjs; rules in _source/sushi-catalog.md.",
+  "r2_bucket": "tamago-sushi",
+  "replaced": [
+    {
+      "file": "/icons/sides/miso-soup.svg",
+      "by": "miso-soup",
+      "why": "the old placeholder miso soup, replaced by the new one (Dan, 2026-11-11)"
+    }
+  ],
+  "images": [
+    {
+      "slug": "aburi-salmon-nigiri",
+      "file": "/sushi/nigiri/aburi-salmon-nigiri.webp",
+      "file_2x": "/sushi/nigiri/aburi-salmon-nigiri@2x.webp",
+      "original": "originals/Nigiri/Aburi Salmon Nigiri with Spicy Mayo.png",
+      "dish": "Aburi salmon nigiri with spicy mayo",
+      "category": "nigiri",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "German Part 1, People + Things (U02)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "266c722c791f3c378db0d1a3a90c9ce370f6d0fd"
+    },
+    {
+      "slug": "anago-nigiri",
+      "file": "/sushi/nigiri/anago-nigiri.webp",
+      "file_2x": "/sushi/nigiri/anago-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glazed Anago Nigiri with Sesame-2.png",
+      "dish": "Anago nigiri (glazed sea eel)",
+      "category": "nigiri",
+      "color": "brown",
+      "tone": "brown",
+      "role": "tree",
+      "used": [
+        "Spanish Part 1, Food + Drink (U04)"
+      ],
+      "same_dish_as": [
+        "anago-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "baff9779ec0e6b5d6fb878768c9d6c9a383a6ad0"
+    },
+    {
+      "slug": "amaebi-nigiri",
+      "file": "/sushi/nigiri/amaebi-nigiri.webp",
+      "file_2x": "/sushi/nigiri/amaebi-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Amaebi Nigiri Sushi Icon-1.png",
+      "dish": "Amaebi nigiri (sweet shrimp)",
+      "category": "nigiri",
+      "color": "pink",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "amaebi-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "72534c7fdfe8a21fc22811bddcda4e90f6c9cfbf"
+    },
+    {
+      "slug": "beef-tataki-nigiri",
+      "file": "/sushi/nigiri/beef-tataki-nigiri.webp",
+      "file_2x": "/sushi/nigiri/beef-tataki-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Beef Tataki Nigiri with Garnishes-1.png",
+      "dish": "Beef tataki nigiri",
+      "category": "nigiri",
+      "color": "red",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "4470338d567e17ad72ea8589d7bfa8656932c110"
+    },
+    {
+      "slug": "chutoro-nigiri",
+      "file": "/sushi/nigiri/chutoro-nigiri.webp",
+      "file_2x": "/sushi/nigiri/chutoro-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Chūtoro Nigiri Sushi-2.png",
+      "dish": "Chūtoro nigiri (medium-fat tuna)",
+      "category": "nigiri",
+      "color": "red",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "chutoro-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "337c63f9bff72e6edce8328bedfae30298f7aae8"
+    },
+    {
+      "slug": "tako-nigiri",
+      "file": "/sushi/nigiri/tako-nigiri.webp",
+      "file_2x": "/sushi/nigiri/tako-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Octopus Nigiri Sushi Icon-1.png",
+      "dish": "Tako nigiri (octopus)",
+      "category": "nigiri",
+      "color": "white",
+      "tone": "white",
+      "role": "tree",
+      "used": [
+        "French Part 2, Birthdays (U43)"
+      ],
+      "same_dish_as": [
+        "tako-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "0de4b2673a350127589cf2ffe86e17495727dfd3"
+    },
+    {
+      "slug": "salmon-nigiri-3",
+      "file": "/sushi/nigiri/salmon-nigiri-3.webp",
+      "file_2x": "/sushi/nigiri/salmon-nigiri-3@2x.webp",
+      "original": "originals/Nigiri/Glossy Salmon Nigiri Sushi-3.png",
+      "dish": "Salmon nigiri",
+      "category": "nigiri",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "salmon-nigiri-4",
+        "salmon-mayo-nigiri",
+        "sake-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "3513f1dbbd87b440eb8b435f4bce8c3096c86784"
+    },
+    {
+      "slug": "salmon-nigiri-4",
+      "file": "/sushi/nigiri/salmon-nigiri-4.webp",
+      "file_2x": "/sushi/nigiri/salmon-nigiri-4@2x.webp",
+      "original": "originals/Nigiri/Glossy Salmon Nigiri Sushi-4.png",
+      "dish": "Salmon nigiri",
+      "category": "nigiri",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "salmon-nigiri-3",
+        "salmon-mayo-nigiri",
+        "sake-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "f0b88d35b1bece4f2837015bbfe1928ce1e5b459"
+    },
+    {
+      "slug": "salmon-mayo-nigiri",
+      "file": "/sushi/nigiri/salmon-mayo-nigiri.webp",
+      "file_2x": "/sushi/nigiri/salmon-mayo-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Salmon Nigiri with Spicy Mayo-2.png",
+      "dish": "Salmon nigiri with spicy mayo",
+      "category": "nigiri",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "salmon-nigiri-3",
+        "salmon-nigiri-4",
+        "sake-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "251d5814d5ee6e91e84af4a1481c7af4fa89e342"
+    },
+    {
+      "slug": "hotate-nigiri",
+      "file": "/sushi/nigiri/hotate-nigiri.webp",
+      "file_2x": "/sushi/nigiri/hotate-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Scallop Nigiri Sushi Icon-2.png",
+      "dish": "Hotate nigiri (scallop)",
+      "category": "nigiri",
+      "color": "white",
+      "tone": "white",
+      "role": "tree",
+      "used": [
+        "French Part 1, Polite Phrases (U03)"
+      ],
+      "same_dish_as": [
+        "hotate-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "d79d0ba53af62a867afe446b42ecaabf6fb0d62e"
+    },
+    {
+      "slug": "ika-nigiri",
+      "file": "/sushi/nigiri/ika-nigiri.webp",
+      "file_2x": "/sushi/nigiri/ika-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Scored Squid Nigiri-2.png",
+      "dish": "Ika nigiri (squid)",
+      "category": "nigiri",
+      "color": "white",
+      "tone": "white",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "ika-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "01df35b86e1edc6e685f2e0c154255658ad06332"
+    },
+    {
+      "slug": "tai-nigiri",
+      "file": "/sushi/nigiri/tai-nigiri.webp",
+      "file_2x": "/sushi/nigiri/tai-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Sea Bream Nigiri Sushi-6.png",
+      "dish": "Tai nigiri (sea bream)",
+      "category": "nigiri",
+      "color": "white",
+      "tone": "white",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "tai-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "8eea98af4c2eee24b63fbb8182919daac1b7be31"
+    },
+    {
+      "slug": "ebi-nigiri",
+      "file": "/sushi/nigiri/ebi-nigiri.webp",
+      "file_2x": "/sushi/nigiri/ebi-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Shrimp Nigiri Sushi-2.png",
+      "dish": "Ebi nigiri (shrimp)",
+      "category": "nigiri",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "ebi-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "99003bfd83f5e996500ece188272c7d91e86b45c"
+    },
+    {
+      "slug": "maguro-nigiri-1",
+      "file": "/sushi/nigiri/maguro-nigiri-1.webp",
+      "file_2x": "/sushi/nigiri/maguro-nigiri-1@2x.webp",
+      "original": "originals/Nigiri/Glossy Tuna Nigiri Emoji-1.png",
+      "dish": "Maguro nigiri (tuna)",
+      "category": "nigiri",
+      "color": "red",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "French Part 2, Phone Numbers (U42)"
+      ],
+      "same_dish_as": [
+        "maguro-nigiri-2",
+        "maguro-nigiri-3",
+        "maguro-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "2664afa8afad250d3ded0cfff9fc2bf3cf1ae5f4"
+    },
+    {
+      "slug": "maguro-nigiri-2",
+      "file": "/sushi/nigiri/maguro-nigiri-2.webp",
+      "file_2x": "/sushi/nigiri/maguro-nigiri-2@2x.webp",
+      "original": "originals/Nigiri/Glossy Tuna Nigiri on Dark Gradient-2.png",
+      "dish": "Maguro nigiri (tuna)",
+      "category": "nigiri",
+      "color": "red",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "French Part 1, Say Hi (U01)"
+      ],
+      "same_dish_as": [
+        "maguro-nigiri-1",
+        "maguro-nigiri-3",
+        "maguro-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "4fab0f2f1e729fee6018a934ed0eb1001823ef5a"
+    },
+    {
+      "slug": "unagi-nigiri",
+      "file": "/sushi/nigiri/unagi-nigiri.webp",
+      "file_2x": "/sushi/nigiri/unagi-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Unagi Nigiri Sushi-1.png",
+      "dish": "Unagi nigiri (freshwater eel)",
+      "category": "nigiri",
+      "color": "brown",
+      "tone": "brown",
+      "role": "tree",
+      "used": [
+        "Spanish Part 1, People + Things (U02)"
+      ],
+      "same_dish_as": [
+        "unagi-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "625d47bd923a152a52a320722db06810b9ea363c"
+    },
+    {
+      "slug": "hamachi-nigiri-4",
+      "file": "/sushi/nigiri/hamachi-nigiri-4.webp",
+      "file_2x": "/sushi/nigiri/hamachi-nigiri-4@2x.webp",
+      "original": "originals/Nigiri/Glossy Yellowtail Nigiri Sushi-4.png",
+      "dish": "Hamachi nigiri (yellowtail)",
+      "category": "nigiri",
+      "color": "pink",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "French Part 1, Food + Drink (U04)"
+      ],
+      "same_dish_as": [
+        "hamachi-nigiri-5",
+        "hamachi-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "34758eaa430b4d6741761e3ac1073c9004f379ec"
+    },
+    {
+      "slug": "otoro-nigiri",
+      "file": "/sushi/nigiri/otoro-nigiri.webp",
+      "file_2x": "/sushi/nigiri/otoro-nigiri@2x.webp",
+      "original": "originals/Nigiri/Glossy Ōtoro Nigiri Sushi-3.png",
+      "dish": "Ōtoro nigiri (fatty tuna)",
+      "category": "nigiri",
+      "color": "pink",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "otoro-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "a2350db5582fb53070b591afaf0b828f75d1123e"
+    },
+    {
+      "slug": "hamachi-nigiri-5",
+      "file": "/sushi/nigiri/hamachi-nigiri-5.webp",
+      "file_2x": "/sushi/nigiri/hamachi-nigiri-5@2x.webp",
+      "original": "originals/Nigiri/Hamachi Nigiri Sushi Emoji-5.png",
+      "dish": "Hamachi nigiri (yellowtail)",
+      "category": "nigiri",
+      "color": "pale pink",
+      "tone": "pale pink",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "hamachi-nigiri-4",
+        "hamachi-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "4afee7960d6fb0de05b57f4fb400bbac7cc45ce8"
+    },
+    {
+      "slug": "maguro-nigiri-3",
+      "file": "/sushi/nigiri/maguro-nigiri-3.webp",
+      "file_2x": "/sushi/nigiri/maguro-nigiri-3@2x.webp",
+      "original": "originals/Nigiri/Maguro Tuna Nigiri Emoji-1.png",
+      "dish": "Maguro nigiri (tuna)",
+      "category": "nigiri",
+      "color": "red",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "maguro-nigiri-1",
+        "maguro-nigiri-2",
+        "maguro-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "47ad535d20163a29863194b9263f5b97cfccaf8e"
+    },
+    {
+      "slug": "saba-nigiri",
+      "file": "/sushi/nigiri/saba-nigiri.webp",
+      "file_2x": "/sushi/nigiri/saba-nigiri@2x.webp",
+      "original": "originals/Nigiri/Realistic Saba Nigiri on Transparent Background-1.png",
+      "dish": "Saba nigiri (mackerel)",
+      "category": "nigiri",
+      "color": "silver",
+      "tone": "silver",
+      "role": "tree",
+      "used": [
+        "French Part 1, Animals (U05)"
+      ],
+      "same_dish_as": [
+        "saba-nigiri-sq"
+      ],
+      "note": "",
+      "sha1": "649f047aab6b329f78166387727a5b0e4101025d"
+    },
+    {
+      "slug": "aji-nigiri-sq",
+      "file": "/sushi/nigiri/aji-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/aji-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Aji.png",
+      "dish": "Aji nigiri (horse mackerel)",
+      "category": "nigiri",
+      "color": "silver",
+      "tone": "silver",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "ba579e62408cb1b78729c5b0d8c4322000cfc39c"
+    },
+    {
+      "slug": "amaebi-nigiri-sq",
+      "file": "/sushi/nigiri/amaebi-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/amaebi-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Amaebi.png",
+      "dish": "Amaebi nigiri (sweet shrimp)",
+      "category": "nigiri",
+      "color": "pink",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "amaebi-nigiri"
+      ],
+      "note": "",
+      "sha1": "357f90a9e0a90f5dda83abe931a1ad6a29467c13"
+    },
+    {
+      "slug": "anago-nigiri-sq",
+      "file": "/sushi/nigiri/anago-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/anago-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Anago.png",
+      "dish": "Anago nigiri (glazed sea eel)",
+      "category": "nigiri",
+      "color": "brown",
+      "tone": "brown",
+      "role": "tree",
+      "used": [
+        "German Part 1, Food + Drink (U04)"
+      ],
+      "same_dish_as": [
+        "anago-nigiri"
+      ],
+      "note": "",
+      "sha1": "647b796f837c69ac5e4407d48dcb86dcca22906b"
+    },
+    {
+      "slug": "chutoro-nigiri-sq",
+      "file": "/sushi/nigiri/chutoro-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/chutoro-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Chutoro.png",
+      "dish": "Chūtoro nigiri (medium-fat tuna)",
+      "category": "nigiri",
+      "color": "red",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "Spanish Part 1, Say Hi (U01)"
+      ],
+      "same_dish_as": [
+        "chutoro-nigiri"
+      ],
+      "note": "",
+      "sha1": "7a9cce6f6d9f97ec963333b0bbea98992552d499"
+    },
+    {
+      "slug": "ebi-nigiri-sq",
+      "file": "/sushi/nigiri/ebi-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/ebi-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Ebi.png",
+      "dish": "Ebi nigiri (shrimp)",
+      "category": "nigiri",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "ebi-nigiri"
+      ],
+      "note": "",
+      "sha1": "6c78507be3cd70f341bdc8a2b5db1de7a2080c06"
+    },
+    {
+      "slug": "hamachi-nigiri-sq",
+      "file": "/sushi/nigiri/hamachi-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/hamachi-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Hamachi.png",
+      "dish": "Hamachi nigiri (yellowtail)",
+      "category": "nigiri",
+      "color": "pale pink",
+      "tone": "pale pink",
+      "role": "tree",
+      "used": [
+        "French Part 2, Around Town (U51)"
+      ],
+      "same_dish_as": [
+        "hamachi-nigiri-4",
+        "hamachi-nigiri-5"
+      ],
+      "note": "",
+      "sha1": "d391a5371f0b10a6ffe71743ae67c985bdc59942"
+    },
+    {
+      "slug": "hirame-nigiri-sq",
+      "file": "/sushi/nigiri/hirame-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/hirame-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Hirame.png",
+      "dish": "Hirame nigiri (flounder)",
+      "category": "nigiri",
+      "color": "white",
+      "tone": "white",
+      "role": "tree",
+      "used": [
+        "Spanish Part 1, Animals (U05)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "8d729d6ecbdc9872f84e9538ab85e6871b3abe9e"
+    },
+    {
+      "slug": "hotate-nigiri-sq",
+      "file": "/sushi/nigiri/hotate-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/hotate-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Hotate.png",
+      "dish": "Hotate nigiri (scallop)",
+      "category": "nigiri",
+      "color": "white",
+      "tone": "white",
+      "role": "tree",
+      "used": [
+        "Spanish Part 1, Polite Phrases (U03)",
+        "German Part 1, Polite Phrases (U03)"
+      ],
+      "same_dish_as": [
+        "hotate-nigiri"
+      ],
+      "note": "",
+      "sha1": "667d1caac5a90785212ba225d20226fc621b1789"
+    },
+    {
+      "slug": "ika-nigiri-sq",
+      "file": "/sushi/nigiri/ika-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/ika-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Ika.png",
+      "dish": "Ika nigiri (squid)",
+      "category": "nigiri",
+      "color": "white",
+      "tone": "white",
+      "role": "tree",
+      "used": [
+        "French Part 2, Your Name, Please (U41)",
+        "German Part 1, Animals (U05)"
+      ],
+      "same_dish_as": [
+        "ika-nigiri"
+      ],
+      "note": "",
+      "sha1": "96ecf725ea7a31f617696852f96338528d27297b"
+    },
+    {
+      "slug": "maguro-nigiri-sq",
+      "file": "/sushi/nigiri/maguro-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/maguro-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Maguro.png",
+      "dish": "Maguro nigiri (tuna)",
+      "category": "nigiri",
+      "color": "red",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "German Part 1, Say Hi (U01)"
+      ],
+      "same_dish_as": [
+        "maguro-nigiri-1",
+        "maguro-nigiri-2",
+        "maguro-nigiri-3"
+      ],
+      "note": "",
+      "sha1": "5463dcac1413e0abf71d38958a3b9e8e4c404fb7"
+    },
+    {
+      "slug": "otoro-nigiri-sq",
+      "file": "/sushi/nigiri/otoro-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/otoro-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Otoro.png",
+      "dish": "Ōtoro nigiri (fatty tuna)",
+      "category": "nigiri",
+      "color": "pink",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "French Part 2, Free Time (U52)"
+      ],
+      "same_dish_as": [
+        "otoro-nigiri"
+      ],
+      "note": "",
+      "sha1": "261b254cac393e6779459899f21dee1fb74ca0df"
+    },
+    {
+      "slug": "saba-nigiri-sq",
+      "file": "/sushi/nigiri/saba-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/saba-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Saba.png",
+      "dish": "Saba nigiri (mackerel)",
+      "category": "nigiri",
+      "color": "silver",
+      "tone": "silver",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "saba-nigiri"
+      ],
+      "note": "",
+      "sha1": "8f5d612dbef2cbbf1239e5b838e0a3fd929227d3"
+    },
+    {
+      "slug": "sake-nigiri-sq",
+      "file": "/sushi/nigiri/sake-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/sake-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Sake.png",
+      "dish": "Salmon nigiri",
+      "category": "nigiri",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "salmon-nigiri-3",
+        "salmon-nigiri-4",
+        "salmon-mayo-nigiri"
+      ],
+      "note": "",
+      "sha1": "2356c2d84a0869bf81956e58dd4184fe387af17e"
+    },
+    {
+      "slug": "tai-nigiri-sq",
+      "file": "/sushi/nigiri/tai-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/tai-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Tai.png",
+      "dish": "Tai nigiri (sea bream)",
+      "category": "nigiri",
+      "color": "pale pink",
+      "tone": "pale pink",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "tai-nigiri"
+      ],
+      "note": "",
+      "sha1": "bc5919d9fd7f12a64c46f2a3ad53e55ad999ecc8"
+    },
+    {
+      "slug": "tako-nigiri-sq",
+      "file": "/sushi/nigiri/tako-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/tako-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Tako.png",
+      "dish": "Tako nigiri (octopus)",
+      "category": "nigiri",
+      "color": "white",
+      "tone": "white",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [
+        "tako-nigiri"
+      ],
+      "note": "",
+      "sha1": "0ca81b77c4ed475abf06bdc70dee43b40e4ab428"
+    },
+    {
+      "slug": "unagi-nigiri-sq",
+      "file": "/sushi/nigiri/unagi-nigiri-sq.webp",
+      "file_2x": "/sushi/nigiri/unagi-nigiri-sq@2x.webp",
+      "original": "originals/Square Set/Nigiri/Unagi.png",
+      "dish": "Unagi nigiri (freshwater eel)",
+      "category": "nigiri",
+      "color": "brown",
+      "tone": "brown",
+      "role": "tree",
+      "used": [
+        "French Part 1, People + Things (U02)"
+      ],
+      "same_dish_as": [
+        "unagi-nigiri"
+      ],
+      "note": "",
+      "sha1": "67d1bd1d0b211cc6556ad9e903bc851849fd7046"
+    },
+    {
+      "slug": "unakyu-maki",
+      "file": "/sushi/maki/unakyu-maki.webp",
+      "file_2x": "/sushi/maki/unakyu-maki@2x.webp",
+      "original": "originals/Maki/Glazed Eel and Cucumber Maki Sticker.png",
+      "dish": "Unakyu maki (eel and cucumber)",
+      "category": "maki",
+      "color": "brown",
+      "tone": "brown",
+      "role": "tree",
+      "used": [
+        "French Part 2, Countries + Languages (U46)",
+        "Spanish Part 1, Ser or Estar (U09)",
+        "German Part 1, Mine + Yours (U09)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "8a7ea84e07e17397e8c72de8cd0b98dfb36d804a"
+    },
+    {
+      "slug": "california-roll",
+      "file": "/sushi/maki/california-roll.webp",
+      "file_2x": "/sushi/maki/california-roll@2x.webp",
+      "original": "originals/Maki/Glossy California Roll Emoji-7.png",
+      "dish": "California roll",
+      "category": "maki",
+      "color": "white",
+      "tone": "white",
+      "role": "help roll",
+      "used": [
+        "French Part 1, Getting Help (U31)",
+        "French Part 2, Spelling It Out (U34)",
+        "Spanish Part 1, Getting Help (U31)",
+        "German Part 1, Getting Help (U31)"
+      ],
+      "same_dish_as": [],
+      "note": "help roll 1",
+      "sha1": "1873bfd61367745753ce3e3864d6ae303c770e79"
+    },
+    {
+      "slug": "kappa-maki",
+      "file": "/sushi/maki/kappa-maki.webp",
+      "file_2x": "/sushi/maki/kappa-maki@2x.webp",
+      "original": "originals/Maki/Glossy Cucumber Maki Roll.png",
+      "dish": "Kappa maki (cucumber)",
+      "category": "maki",
+      "color": "green",
+      "tone": "green",
+      "role": "tree",
+      "used": [
+        "French Part 2, Where You Live (U45)",
+        "Spanish Part 1, Plurals (U06)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "d377d45f6b55933b0536d3b50f4254221a4c7371"
+    },
+    {
+      "slug": "philadelphia-roll",
+      "file": "/sushi/maki/philadelphia-roll.webp",
+      "file_2x": "/sushi/maki/philadelphia-roll@2x.webp",
+      "original": "originals/Maki/Glossy Philadelphia Roll Sushi.png",
+      "dish": "Philadelphia roll",
+      "category": "maki",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "French Part 1, Plurals (U06)",
+        "German Part 1, Free Time (U52)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "70f60a64c025dfa182809e5d258b0baf736aa9ea"
+    },
+    {
+      "slug": "salmon-avocado-roll",
+      "file": "/sushi/maki/salmon-avocado-roll.webp",
+      "file_2x": "/sushi/maki/salmon-avocado-roll@2x.webp",
+      "original": "originals/Maki/Glossy Salmon Avocado Sushi Roll-6.png",
+      "dish": "Salmon avocado roll",
+      "category": "maki",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "help roll",
+      "used": [
+        "French Part 1, Conversation Help (U32)",
+        "French Part 2, Checking Numbers (U35)",
+        "Spanish Part 1, Conversation Help (U32)",
+        "German Part 1, Conversation Help (U32)"
+      ],
+      "same_dish_as": [],
+      "note": "help roll 2",
+      "sha1": "9ec7a4a93345ba82dadd1b380681c8fbd7a70688"
+    },
+    {
+      "slug": "takuan-maki",
+      "file": "/sushi/maki/takuan-maki.webp",
+      "file_2x": "/sushi/maki/takuan-maki@2x.webp",
+      "original": "originals/Maki/Glossy Takuan Maki Sushi Roll.png",
+      "dish": "Takuan maki (pickled radish)",
+      "category": "maki",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "tree",
+      "used": [
+        "French Part 1, Asking Questions (U09)",
+        "Spanish Part 1, Where Things Are (U08)",
+        "German Part 1, Asking Questions (U10)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "5fe5a60ca404cd91ba3c19b5a1c2a81172f09cf5"
+    },
+    {
+      "slug": "ebi-tempura-roll",
+      "file": "/sushi/maki/ebi-tempura-roll.webp",
+      "file_2x": "/sushi/maki/ebi-tempura-roll@2x.webp",
+      "original": "originals/Maki/Glossy Tempura Shrimp Sushi   Roll.png",
+      "dish": "Ebi tempura roll",
+      "category": "maki",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "the original has a checkerboard painted in, not transparency; the app copy has it lifted out",
+      "sha1": "e61902f0fddbb8fd3d87954f6cf2a1c2fa97cf33"
+    },
+    {
+      "slug": "tekka-maki",
+      "file": "/sushi/maki/tekka-maki.webp",
+      "file_2x": "/sushi/maki/tekka-maki@2x.webp",
+      "original": "originals/Maki/Glossy Tuna Maki Sushi Roll-5.png",
+      "dish": "Tekka maki (tuna)",
+      "category": "maki",
+      "color": "red",
+      "tone": "red-toned",
+      "role": "help roll",
+      "used": [
+        "French Part 1, Finding the Word (U33)",
+        "French Part 2, Checking You Understood (U36)",
+        "Spanish Part 1, Finding the Word (U33)",
+        "German Part 1, Finding the Word (U33)"
+      ],
+      "same_dish_as": [],
+      "note": "help roll 3",
+      "sha1": "be4fb901710b298d757e478e88f093f327c266f3"
+    },
+    {
+      "slug": "negihama-maki",
+      "file": "/sushi/maki/negihama-maki.webp",
+      "file_2x": "/sushi/maki/negihama-maki@2x.webp",
+      "original": "originals/Maki/Glossy Yellowtail Scallion Sushi Roll.png",
+      "dish": "Negihama maki (yellowtail and scallion)",
+      "category": "maki",
+      "color": "pale pink",
+      "tone": "pale pink",
+      "role": "tree",
+      "used": [
+        "French Part 2, Numbers to 100 (U44)",
+        "Spanish Part 1, Mine + Yours (U10)",
+        "German Part 1, Describing Things (U07)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "5f6e97cd42b2968fbe103c969d67499afd9acc74"
+    },
+    {
+      "slug": "ikura-gunkan-sq",
+      "file": "/sushi/maki/ikura-gunkan-sq.webp",
+      "file_2x": "/sushi/maki/ikura-gunkan-sq@2x.webp",
+      "original": "originals/Square Set/Maki/Ikura.png",
+      "dish": "Ikura gunkan (salmon roe)",
+      "category": "maki",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "French Part 2, Body + Feelings (U53)",
+        "Spanish Part 1, Body + Feelings (U51)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "1689820631d0a129f4d3104d9ba4f318d9a38090"
+    },
+    {
+      "slug": "tobiko-gunkan-sq",
+      "file": "/sushi/maki/tobiko-gunkan-sq.webp",
+      "file_2x": "/sushi/maki/tobiko-gunkan-sq@2x.webp",
+      "original": "originals/Square Set/Maki/Tobiko.png",
+      "dish": "Tobiko gunkan (flying fish roe)",
+      "category": "maki",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "French Part 1, Mine + Yours (U08)",
+        "German Part 1, Plurals (U06)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "4e6607339ea0928d9723604536d82fc84eb4a28e"
+    },
+    {
+      "slug": "uni-gunkan-sq",
+      "file": "/sushi/maki/uni-gunkan-sq.webp",
+      "file_2x": "/sushi/maki/uni-gunkan-sq@2x.webp",
+      "original": "originals/Square Set/Maki/Uni.png",
+      "dish": "Uni gunkan (sea urchin)",
+      "category": "maki",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "tree",
+      "used": [
+        "French Part 1, Describing Things (U07)",
+        "Spanish Part 1, Describing Things (U07)",
+        "German Part 1, Not + None (U08)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "52f542a796b7f60d80f4e56927210deddcac45ce"
+    },
+    {
+      "slug": "wakame-temaki",
+      "file": "/sushi/temaki/wakame-temaki.webp",
+      "file_2x": "/sushi/temaki/wakame-temaki@2x.webp",
+      "original": "originals/Temaki/Glossy Emerald Wakame Temaki Roll.png",
+      "dish": "Wakame temaki (seaweed)",
+      "category": "temaki",
+      "color": "green",
+      "tone": "green",
+      "role": "tree",
+      "used": [
+        "French Part 1, Intro to Numbers (U10)",
+        "Spanish Part 1, Time (U14)",
+        "German Part 1, Want + Can (U15)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "89ba4515f26ec7b8c4c5fcf3c076e324e3d07de6"
+    },
+    {
+      "slug": "ikura-temaki",
+      "file": "/sushi/temaki/ikura-temaki.webp",
+      "file_2x": "/sushi/temaki/ikura-temaki@2x.webp",
+      "original": "originals/Temaki/Glossy Ikura Temaki Sushi Roll-1.png",
+      "dish": "Ikura temaki (salmon roe)",
+      "category": "temaki",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "French Part 1, Colors (U11)",
+        "German Part 1, Intro to Numbers (U11)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "86c1a7c874b2a52fd2b92db59810c5f1591d910f"
+    },
+    {
+      "slug": "negitoro-temaki",
+      "file": "/sushi/temaki/negitoro-temaki.webp",
+      "file_2x": "/sushi/temaki/negitoro-temaki@2x.webp",
+      "original": "originals/Temaki/Glossy Negitoro Tuna Hand Roll-2.png",
+      "dish": "Negitoro temaki (tuna and scallion)",
+      "category": "temaki",
+      "color": "pink",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "French Part 2, At the Market (U47)",
+        "Spanish Part 1, Free Time (U52)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "473c68a509ba17a5fae063434612086c5a0c799a"
+    },
+    {
+      "slug": "salmon-temaki",
+      "file": "/sushi/temaki/salmon-temaki.webp",
+      "file_2x": "/sushi/temaki/salmon-temaki@2x.webp",
+      "original": "originals/Temaki/Glossy Salmon Temaki Hand Roll-1.png",
+      "dish": "Salmon temaki",
+      "category": "temaki",
+      "color": "orange",
+      "tone": "red-toned",
+      "role": "tree",
+      "used": [
+        "French Part 2, Bottles + Bags (U49)",
+        "Spanish Part 1, Going Places (U15)",
+        "German Part 1, Colors (U12)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "245a1148e70392fe1e6df4bb93b41ce2ad09cf0c"
+    },
+    {
+      "slug": "hotate-temaki",
+      "file": "/sushi/temaki/hotate-temaki.webp",
+      "file_2x": "/sushi/temaki/hotate-temaki@2x.webp",
+      "original": "originals/Temaki/Glossy Scallop Temaki Roll-1.png",
+      "dish": "Hotate temaki (scallop)",
+      "category": "temaki",
+      "color": "white",
+      "tone": "white",
+      "role": "tree",
+      "used": [
+        "French Part 2, How Much Is It? (U48)",
+        "Spanish Part 1, Around Town (U53)",
+        "German Part 1, Around Town (U53)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "7e83cab7e7ae9c02b30adca9b11062f84c8e6f0c"
+    },
+    {
+      "slug": "unagi-temaki",
+      "file": "/sushi/temaki/unagi-temaki.webp",
+      "file_2x": "/sushi/temaki/unagi-temaki@2x.webp",
+      "original": "originals/Temaki/Glossy Unagi Temaki Hand Roll-3.png",
+      "dish": "Unagi temaki (eel)",
+      "category": "temaki",
+      "color": "brown",
+      "tone": "brown",
+      "role": "tree",
+      "used": [
+        "French Part 1, Going Places (U13)",
+        "Spanish Part 1, Colors (U13)",
+        "German Part 1, Time (U13)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "f7e866159d59b1890f88713478fb4af4562d2495"
+    },
+    {
+      "slug": "uni-temaki",
+      "file": "/sushi/temaki/uni-temaki.webp",
+      "file_2x": "/sushi/temaki/uni-temaki@2x.webp",
+      "original": "originals/Temaki/Glossy Uni Temaki Hand Roll-2.png",
+      "dish": "Uni temaki (sea urchin)",
+      "category": "temaki",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "tree",
+      "used": [
+        "French Part 1, Time (U12)",
+        "French Part 2, Outdoors (U55)",
+        "Spanish Part 1, Asking Questions (U11)",
+        "German Part 1, Going Places (U14)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "bf2d6439066ee4d707397e288a87f8b734e0ca0f"
+    },
+    {
+      "slug": "kani-temaki",
+      "file": "/sushi/temaki/kani-temaki.webp",
+      "file_2x": "/sushi/temaki/kani-temaki@2x.webp",
+      "original": "originals/Temaki/Temaki Hand Roll with Fresh Fillings-2.png",
+      "dish": "Kani temaki (crab)",
+      "category": "temaki",
+      "color": "white",
+      "tone": "white",
+      "role": "tree",
+      "used": [
+        "French Part 2, People (U54)",
+        "Spanish Part 1, Intro to Numbers (U12)",
+        "German Part 1, People + Feelings (U51)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "82cfc572306959d3eb9d202928ea417681e6f243"
+    },
+    {
+      "slug": "korokke",
+      "file": "/sushi/misc/korokke.webp",
+      "file_2x": "/sushi/misc/korokke@2x.webp",
+      "original": "originals/Miscellaneous/Crispy Golden Potato Korokke-2.png",
+      "dish": "Potato korokke",
+      "category": "misc",
+      "color": "brown",
+      "tone": "brown",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "acffbae355e7b9182defa9c117a85e1b026965c3"
+    },
+    {
+      "slug": "kabocha-tempura",
+      "file": "/sushi/misc/kabocha-tempura.webp",
+      "file_2x": "/sushi/misc/kabocha-tempura@2x.webp",
+      "original": "originals/Miscellaneous/Crispy Tempura Kabocha Slices.png",
+      "dish": "Kabocha tempura (pumpkin)",
+      "category": "misc",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "ecc0b86b98b1f177e7a2c1ee8a7cda36576e9ee7"
+    },
+    {
+      "slug": "asparagus-bacon-skewer",
+      "file": "/sushi/misc/asparagus-bacon-skewer.webp",
+      "file_2x": "/sushi/misc/asparagus-bacon-skewer@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Asparagus Bacon Skewer-1.png",
+      "dish": "Asparagus bacon skewer",
+      "category": "misc",
+      "color": "green",
+      "tone": "green",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "b429febb0516cfcde85abb768757c149fe934589"
+    },
+    {
+      "slug": "chawanmushi",
+      "file": "/sushi/misc/chawanmushi.webp",
+      "file_2x": "/sushi/misc/chawanmushi@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Chawanmushi Ceramic Cup-2.png",
+      "dish": "Chawanmushi (savoury egg custard)",
+      "category": "misc",
+      "color": "white",
+      "tone": "white",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "0f6fddfeeaabebf62d866abc0114458d62e9bf8a"
+    },
+    {
+      "slug": "edamame",
+      "file": "/sushi/misc/edamame.webp",
+      "file_2x": "/sushi/misc/edamame@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Edamame Pods and Beans-2.png",
+      "dish": "Edamame",
+      "category": "misc",
+      "color": "green",
+      "tone": "green",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "85369f32a90715f91c607e464e82183d258360b0"
+    },
+    {
+      "slug": "gyoza",
+      "file": "/sushi/misc/gyoza.webp",
+      "file_2x": "/sushi/misc/gyoza@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Golden Gyoza Cluster-1.png",
+      "dish": "Gyoza",
+      "category": "misc",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "6b5e9f2b48235fdcfa901d14456ec27f3fc1f642"
+    },
+    {
+      "slug": "inari",
+      "file": "/sushi/misc/inari.webp",
+      "file_2x": "/sushi/misc/inari@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Golden Inari Sushi Duo-1.png",
+      "dish": "Inari sushi",
+      "category": "misc",
+      "color": "brown",
+      "tone": "brown",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "d93c4ce43d6f08951afb27ccc1fcb897cbd2cbe4"
+    },
+    {
+      "slug": "gyudon",
+      "file": "/sushi/misc/gyudon.webp",
+      "file_2x": "/sushi/misc/gyudon@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Gyudon with Pickled Ginger-1.png",
+      "dish": "Gyudon (beef bowl)",
+      "category": "misc",
+      "color": "brown",
+      "tone": "brown",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "f17d1b4ad730b089fd9ca08974db604648adb3df"
+    },
+    {
+      "slug": "oyakodon",
+      "file": "/sushi/misc/oyakodon.webp",
+      "file_2x": "/sushi/misc/oyakodon@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Japanese Oyakodon Bowl-2.png",
+      "dish": "Oyakodon (chicken and egg bowl)",
+      "category": "misc",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "d982c36cb8bb983e01fc9e39851d93bc82cb76f2"
+    },
+    {
+      "slug": "katsudon",
+      "file": "/sushi/misc/katsudon.webp",
+      "file_2x": "/sushi/misc/katsudon@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Katsudon Rice Bowl-1.png",
+      "dish": "Katsudon (pork cutlet bowl)",
+      "category": "misc",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "ff74ba815b6eb41acb12f23776913e779f5ca675"
+    },
+    {
+      "slug": "korean-street-toast",
+      "file": "/sushi/misc/korean-street-toast.webp",
+      "file_2x": "/sushi/misc/korean-street-toast@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Korean Street Toast Sandwich.png",
+      "dish": "Korean street toast",
+      "category": "misc",
+      "color": "brown",
+      "tone": "brown",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "Korean, not Japanese",
+      "sha1": "416f1873e45bdb3b00c0d0ff91463a1effc498c6"
+    },
+    {
+      "slug": "tebasaki",
+      "file": "/sushi/misc/tebasaki.webp",
+      "file_2x": "/sushi/misc/tebasaki@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Sesame-Glazed Chicken Wings-2.png",
+      "dish": "Tebasaki (glazed chicken wings)",
+      "category": "misc",
+      "color": "brown",
+      "tone": "brown",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "0e14e7c8a1b1079bd13d868a44abd0c0516ec340"
+    },
+    {
+      "slug": "satsumaimo-tempura",
+      "file": "/sushi/misc/satsumaimo-tempura.webp",
+      "file_2x": "/sushi/misc/satsumaimo-tempura@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Sweet Potato Tempura Slices-1.png",
+      "dish": "Sweet potato tempura",
+      "category": "misc",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "9748562bda197742e00aaec68ddc5e57458e3a43"
+    },
+    {
+      "slug": "takoyaki",
+      "file": "/sushi/misc/takoyaki.webp",
+      "file_2x": "/sushi/misc/takoyaki@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Takoyaki in Wooden Boat.png",
+      "dish": "Takoyaki",
+      "category": "misc",
+      "color": "brown",
+      "tone": "brown",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "5cd3c42a88f0a2c399c00d2886549a8885680822"
+    },
+    {
+      "slug": "tendon",
+      "file": "/sushi/misc/tendon.webp",
+      "file_2x": "/sushi/misc/tendon@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Tempura Rice Bowl Emoji-2.png",
+      "dish": "Tendon (tempura rice bowl)",
+      "category": "misc",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "misc",
+      "used": [
+        "French Part 1, Pick Your Own (U100)",
+        "Spanish Part 1, Pick Your Own (U200)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "ed18dd5ca2af2e74c1ccd91842751ad48d2d7b4c"
+    },
+    {
+      "slug": "shumai",
+      "file": "/sushi/misc/shumai.webp",
+      "file_2x": "/sushi/misc/shumai@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Trio of Orange-Topped Shumai-2.png",
+      "dish": "Shumai",
+      "category": "misc",
+      "color": "white",
+      "tone": "white",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "f7008d321e0d6b1465813571d3fcd923c06927e0"
+    },
+    {
+      "slug": "wakame-salad",
+      "file": "/sushi/misc/wakame-salad.webp",
+      "file_2x": "/sushi/misc/wakame-salad@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Wakame Seaweed Salad Ramekin-1.png",
+      "dish": "Wakame salad",
+      "category": "misc",
+      "color": "green",
+      "tone": "green",
+      "role": "misc",
+      "used": [
+        "German Part 1, Pick Your Own (U100)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "157ce758c1384cb830fe026262cd6254ecf9b211"
+    },
+    {
+      "slug": "yakitori",
+      "file": "/sushi/misc/yakitori.webp",
+      "file_2x": "/sushi/misc/yakitori@2x.webp",
+      "original": "originals/Miscellaneous/Glossy Yakitori Negima Skewer-1.png",
+      "dish": "Yakitori negima",
+      "category": "misc",
+      "color": "brown",
+      "tone": "brown",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "fa41ab37b8f501e54f435e488f6bddaeab104db5"
+    },
+    {
+      "slug": "agedashi-tofu",
+      "file": "/sushi/misc/agedashi-tofu.webp",
+      "file_2x": "/sushi/misc/agedashi-tofu@2x.webp",
+      "original": "originals/Miscellaneous/Golden Agedashi Tofu with Daikon and Scallions-2.png",
+      "dish": "Agedashi tofu",
+      "category": "misc",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "misc",
+      "used": [
+        "Spanish Part 1, Pick Your Own (U100)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "31069ac9d2bede7ca6bd2be0960179bebd002662"
+    },
+    {
+      "slug": "broccoli-tempura",
+      "file": "/sushi/misc/broccoli-tempura.webp",
+      "file_2x": "/sushi/misc/broccoli-tempura@2x.webp",
+      "original": "originals/Miscellaneous/Golden Broccoli Tempura Duo.png",
+      "dish": "Broccoli tempura",
+      "category": "misc",
+      "color": "green",
+      "tone": "green",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "8fbe8804cb45c2206024823331e8d2bdd212e071"
+    },
+    {
+      "slug": "ebi-tempura",
+      "file": "/sushi/misc/ebi-tempura.webp",
+      "file_2x": "/sushi/misc/ebi-tempura@2x.webp",
+      "original": "originals/Miscellaneous/Golden Tempura Shrimp Duo.png",
+      "dish": "Ebi tempura (shrimp)",
+      "category": "misc",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "e2b640792e8e43efc90221dda4c9b253d03b39e8"
+    },
+    {
+      "slug": "kakiage",
+      "file": "/sushi/misc/kakiage.webp",
+      "file_2x": "/sushi/misc/kakiage@2x.webp",
+      "original": "originals/Miscellaneous/Golden Vegetable Kakiage Tempura-2.png",
+      "dish": "Kakiage (vegetable tempura)",
+      "category": "misc",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "misc",
+      "used": [
+        "French Part 1, Pick Your Own (U200)",
+        "German Part 1, Pick Your Own (U200)"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "ea614156fef976cdfc0f4bf2f907ded227cc18ff"
+    },
+    {
+      "slug": "seared-scallops",
+      "file": "/sushi/misc/seared-scallops.webp",
+      "file_2x": "/sushi/misc/seared-scallops@2x.webp",
+      "original": "originals/Miscellaneous/Golden-Seared Scallop Trio with Chives-1.png",
+      "dish": "Seared scallops",
+      "category": "misc",
+      "color": "brown",
+      "tone": "brown",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "1001585bb7a4fef59f717fb1701f07bc9885e355"
+    },
+    {
+      "slug": "kani-sunomono",
+      "file": "/sushi/misc/kani-sunomono.webp",
+      "file_2x": "/sushi/misc/kani-sunomono@2x.webp",
+      "original": "originals/Miscellaneous/Kani Sunomono Salad in Speckled Ramekin-2.png",
+      "dish": "Kani sunomono (crab and cucumber salad)",
+      "category": "misc",
+      "color": "white",
+      "tone": "white",
+      "role": "misc",
+      "used": [
+        "not used yet"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "f0d42c3f7364033df9a789ce05077f30d18fb2b7"
+    },
+    {
+      "slug": "miso-soup",
+      "file": "/sushi/misc/miso-soup.webp",
+      "file_2x": "/sushi/misc/miso-soup@2x.webp",
+      "original": "originals/Miscellaneous/Miso Soup with Tofu and Wakame.png",
+      "dish": "Miso soup",
+      "category": "misc",
+      "color": "brown",
+      "tone": "brown",
+      "role": "Catch-Up",
+      "used": [
+        "Catch-Up, every course"
+      ],
+      "same_dish_as": [],
+      "note": "Catch-Up",
+      "sha1": "652dcb0d55c1cbaea36c6293f498e3678b718f98"
+    },
+    {
+      "slug": "tamago-nigiri",
+      "file": null,
+      "file_2x": null,
+      "original": "originals/Miscellaneous/Tamago Nigiri Sushi Emoji.png",
+      "dish": "Tamago nigiri (sweet omelette)",
+      "category": "misc",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "logo",
+      "used": [
+        "the logo only"
+      ],
+      "same_dish_as": [],
+      "note": "logo",
+      "sha1": "8271374763ad8566c60116fedb7886db3841d013"
+    },
+    {
+      "slug": "tempura-ice-cream",
+      "file": null,
+      "file_2x": null,
+      "original": "originals/Dessert/Chocolate-Drizzled Tempura Ice Cream-1.png",
+      "dish": "Tempura ice cream",
+      "category": "dessert",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "held",
+      "used": [
+        "held for a later special use"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "369d2ebb3557b80301fc096043032e2dc8ca4b87"
+    },
+    {
+      "slug": "purin",
+      "file": null,
+      "file_2x": null,
+      "original": "originals/Dessert/Glossy Caramel Purin on Speckled Saucer-1.png",
+      "dish": "Purin (caramel custard)",
+      "category": "dessert",
+      "color": "yellow",
+      "tone": "yellow",
+      "role": "held",
+      "used": [
+        "held for a later special use"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "2b895da747cc744ee8989e435b8c7df6c1e81284"
+    },
+    {
+      "slug": "hanami-dango",
+      "file": null,
+      "file_2x": null,
+      "original": "originals/Dessert/Glossy Hanami Dango Skewer-2.png",
+      "dish": "Hanami dango",
+      "category": "dessert",
+      "color": "pink",
+      "tone": "red-toned",
+      "role": "held",
+      "used": [
+        "held for a later special use"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "4853279a85ebf8c043dde191694cbc5e5305b16a"
+    },
+    {
+      "slug": "matcha-cheesecake",
+      "file": null,
+      "file_2x": null,
+      "original": "originals/Dessert/Glossy Matcha Cheesecake Slice-2.png",
+      "dish": "Matcha cheesecake",
+      "category": "dessert",
+      "color": "green",
+      "tone": "green",
+      "role": "held",
+      "used": [
+        "held for a later special use"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "9dc5ced3490d9f241ac3d46503a8183cac33f53d"
+    },
+    {
+      "slug": "matcha-ice-cream",
+      "file": null,
+      "file_2x": null,
+      "original": "originals/Dessert/Matcha Ice Cream in Patterned Ceramic Bowl-1.png",
+      "dish": "Matcha ice cream",
+      "category": "dessert",
+      "color": "green",
+      "tone": "green",
+      "role": "held",
+      "used": [
+        "held for a later special use"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "2be75528b0276c36ca8758a95cdfca9970dfdc93"
+    },
+    {
+      "slug": "mochi-trio",
+      "file": null,
+      "file_2x": null,
+      "original": "originals/Dessert/Matcha Mochi Trio with Cutaway.png",
+      "dish": "Mochi trio (matcha and strawberry)",
+      "category": "dessert",
+      "color": "pink",
+      "tone": "red-toned",
+      "role": "held",
+      "used": [
+        "held for a later special use"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "490e2cc29c45dcc1bf41e24704f1095810ca3401"
+    },
+    {
+      "slug": "ichigo-daifuku",
+      "file": null,
+      "file_2x": null,
+      "original": "originals/Dessert/Photorealistic Ichigo Daifuku Close-Up.png",
+      "dish": "Ichigo daifuku (strawberry mochi)",
+      "category": "dessert",
+      "color": "pink",
+      "tone": "red-toned",
+      "role": "held",
+      "used": [
+        "held for a later special use"
+      ],
+      "same_dish_as": [],
+      "note": "",
+      "sha1": "155f68489b281808693eb7c655aa3489cdf78617"
+    }
+  ]
+}

@@ -5,3 +5,6 @@ dist
 .env*
 .netlify
 .wrangler/
+
+# Sushi originals: kept untouched in R2 (bucket tamago-sushi); see _source/sushi-catalog.md
+_source/sushi-originals/
