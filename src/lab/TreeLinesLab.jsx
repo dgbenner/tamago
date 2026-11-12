@@ -146,7 +146,7 @@ function Lines({ geo, pulse }) {
 
 export default function TreeLinesLab() {
   const [theme, setTheme] = useState(() => (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'))
-  const [interval, setIntervalS] = useState(5)
+  const [interval, setIntervalS] = useState(15) // a third of the first speed (Dan, 2026-11-12)
   const [opacity, setOpacity] = useState(0.7)
   const [glow, setGlow] = useState(true)
   const [hidden, setHidden] = useState(document.hidden)
@@ -176,7 +176,7 @@ export default function TreeLinesLab() {
       <header className="tl-controls sticky top-0 z-10 -mx-4 flex flex-wrap items-center gap-x-5 gap-y-2 border-b-2 border-line bg-bg px-4 py-2 text-sm">
         <h1 className="mr-auto font-semibold">Tree Lines Lab</h1>
         <label className="flex items-center gap-2">Pulse {interval}s
-          <input type="range" min="2" max="6" step="0.5" value={interval} onChange={(e) => setIntervalS(Number(e.target.value))} className="w-24" /></label>
+          <input type="range" min="6" max="18" step="1" value={interval} onChange={(e) => setIntervalS(Number(e.target.value))} className="w-24" /></label>
         <label className="flex items-center gap-2">Lines {Math.round(opacity * 100)}%
           <input type="range" min="0.2" max="1" step="0.05" value={opacity} onChange={(e) => setOpacity(Number(e.target.value))} className="w-24" /></label>
         <label className="flex items-center gap-2"><input type="checkbox" checked={glow} onChange={(e) => setGlow(e.target.checked)} /> Glow</label>

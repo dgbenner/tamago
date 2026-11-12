@@ -10,7 +10,7 @@
 .tree-lines-gray .tl-dotted { stroke-width: 2.6; stroke-linecap: round; stroke-dasharray: 0 7; }
 
 .tl-pulse .tl-band, .tl-pulse .tl-lit, .tl-pulse .tl-ring {
-  animation-duration: var(--pulse, 5s); animation-iteration-count: infinite; animation-timing-function: ease-in-out;
+  animation-duration: var(--pulse, 15s); animation-iteration-count: infinite; animation-timing-function: ease-in-out;
 }
 [data-paused] .tl-pulse .tl-band, [data-paused] .tl-pulse .tl-lit, [data-paused] .tl-pulse .tl-ring { animation-play-state: paused; }
 
