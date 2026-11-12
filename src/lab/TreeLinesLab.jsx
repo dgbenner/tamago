@@ -2,11 +2,13 @@
 // with the real CircleNode and sample progress, with thin lines joining each circle to the next in tree order and a
 // calm pulse from the last finished circle to the current one.
 //
-// Lines: one SVG behind the circles. Between two rows, every circle of the upper row runs to a junction midway, and
+// Lines: one SVG behind the circles, touching each disc's edge and running under the titles (so the gray is very
+// light). Between two rows, every circle of the upper row runs to a junction midway, and
 // the junction runs to every circle of the lower row, so rows of 2 or 3 branch out and join again. A line into a locked
 // circle is dotted; into a reached one, solid. Same gray (--tree-line, tuned per theme).
-// Pulse: SVG and CSS only (tree-lines.css). One sequence per cycle on a shared clock: the ring leaves the finished
-// circle, the line turns green, the dot travels down, the current circle's outline shows, all settle. No per-frame
+// Pulse (Dan's second pass, 2026-11-12): SVG and CSS only (tree-lines.css). The gray lines stay; a lit stretch, like a
+// train, runs from the top of the tree down every reached line to the current circle, lighting each circle's outline
+// from the top down as it passes; as it arrives a ring radiates from the current circle, then it all fades. No per-frame
 // JavaScript: the geometry is measured once (and again on resize), and the browser runs the animation. It pauses while
 // the tab is hidden or the current circle is off screen, and isn't drawn at all under reduced motion.
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
@@ -41,16 +43,14 @@ function buildRows() {
 }
 const ROWS = buildRows()
 const NODES = ROWS.flat()
-const LAST_FINISHED = (() => { // the finished circle in the row just above the current one, rightmost
-  const ci = ROWS.findIndex((row) => row.some((n) => n.current))
-  return ROWS[ci - 1]?.filter((n) => !n.locked).at(-1)?.id
-})()
+const CURRENT_ID = NODES.find((n) => n.current)?.id
 
 const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches
-const GAP_BELOW = 6 // px between a title and its line
-const GAP_ABOVE = 10 // px between a line and the next disc (room for the current circle's outline)
+const EDGE = 0.96 // the ring's outer edge, as a share of the disc's half-width (CircleNode: r 45 + half of stroke 6, of 50)
+const TRAIN = 150 // px: the lit stretch that travels down the lines
 
-// Measures every disc and title once, and again whenever the tree changes size. Not per frame.
+// Measures every disc, title and marker once, and again whenever the tree changes size (a wider window moves the
+// circles, so the lines follow). Not per frame.
 function useGeometry(box) {
   const [geo, setGeo] = useState(null)
   useLayoutEffect(() => {
@@ -64,7 +64,8 @@ function useGeometry(box) {
         const disc = el?.querySelector('.aspect-square')
         if (!disc) continue
         const d = disc.getBoundingClientRect(), b = el.firstElementChild.getBoundingClientRect()
-        at[n.id] = { cx: d.left - o.left + d.width / 2, cy: d.top - o.top + d.height / 2, r: d.width / 2, top: d.top - o.top, bottom: b.bottom - o.top }
+        const cx = d.left - o.left + d.width / 2, cy = d.top - o.top + d.height / 2, r = d.width / 2
+        at[n.id] = { cx, cy, r, discTop: cy - r * EDGE, discBottom: cy + r * EDGE, top: b.top - o.top, bottom: b.bottom - o.top }
       }
       setGeo({ w: o.width, h: o.height, at })
     }
@@ -76,48 +77,67 @@ function useGeometry(box) {
   return geo
 }
 
-// The lines between row i and row i+1: every upper circle to the junction, the junction to every lower circle.
+// The lines between row i and row i+1. Each line leaves a disc at its bottom edge and goes straight down under the
+// title; every upper circle runs into a junction midway, the junction branches to every lower circle, and each branch
+// comes straight down onto the next disc's top edge.
 function gapPaths(geo, upper, lower) {
   const ups = upper.map((n) => geo.at[n.id]).filter(Boolean), downs = lower.map((n) => geo.at[n.id]).filter(Boolean)
   if (!ups.length || !downs.length) return null
-  const y0 = Math.max(...ups.map((g) => g.bottom)) + GAP_BELOW
-  const y1 = Math.min(...downs.map((g) => g.top)) - GAP_ABOVE
+  const y0 = Math.max(...ups.map((g) => g.bottom))
+  const y1 = Math.min(...downs.map((g) => g.top))
   const j = { x: geo.w / 2, y: (y0 + y1) / 2 }
   const curve = (x0, ya, x1, yb) => {
     const m = (ya + yb) / 2
-    return x0 === x1 || Math.abs(x0 - x1) < 0.5 ? `M${x0} ${ya}V${yb}` : `M${x0} ${ya}C${x0} ${m} ${x1} ${m} ${x1} ${yb}`
+    return Math.abs(x0 - x1) < 0.5 ? `L${x1} ${yb}` : `L${x0} ${ya}C${x0} ${m} ${x1} ${m} ${x1} ${yb}`
   }
   // A short shared stem at the junction, so two rows of two read as join-then-branch rather than an X.
   const stem = upper.length > 1 && lower.length > 1 ? Math.min(14, (y1 - y0) / 4) : 0
-  const into = upper.map((n, i) => ({ from: n.id, d: curve(ups[i].cx, ups[i].bottom + GAP_BELOW, j.x, j.y - stem / 2) + (stem ? `V${j.y + stem / 2}` : '') }))
-  const out = lower.map((n, i) => ({ to: n.id, locked: n.locked, d: curve(j.x, j.y + stem / 2, downs[i].cx, downs[i].top - GAP_ABOVE) }))
-  return { j, into, out, anyOpen: lower.some((n) => !n.locked) }
+  const into = upper.map((n, i) => ({ from: n, d: `M${ups[i].cx} ${ups[i].discBottom}` + curve(ups[i].cx, y0, j.x, j.y - stem / 2) + (stem ? `V${j.y + stem / 2}` : '') }))
+  const out = lower.map((n, i) => ({ to: n, d: `M${j.x} ${j.y + stem / 2}` + curve(j.x, j.y + stem / 2, downs[i].cx, y1) + `L${downs[i].cx} ${downs[i].discTop}` }))
+  return { into, out, anyOpen: lower.some((n) => !n.locked) }
 }
 
+// Gray lines, and the pulse: a copy of the route already travelled (every line between reached circles, and a thin
+// outline round each reached circle) drawn in green, seen only through a soft band that slides from the top of the
+// tree to the current circle. Branches at the same height light together. One mask, so one moving part.
 function Lines({ geo, pulse }) {
-  const segs = []
-  let pulsePath = null
+  const segs = [], lit = []
   for (let i = 0; i < ROWS.length - 1; i++) {
     const g = gapPaths(geo, ROWS[i], ROWS[i + 1])
     if (!g) continue
-    g.into.forEach((p) => segs.push({ key: `${i}i${p.from}`, d: p.d, dotted: !g.anyOpen }))
-    g.out.forEach((p) => segs.push({ key: `${i}o${p.to}`, d: p.d, dotted: p.locked }))
-    const from = g.into.find((p) => p.from === LAST_FINISHED), to = g.out.find((p) => ROWS[i + 1].find((n) => n.id === p.to)?.current)
-    if (from && to) pulsePath = from.d + to.d.replace(/^M[^CV]+/, '') // one continuous path through the junction
+    g.into.forEach((p) => { segs.push({ key: `${i}i${p.from.id}`, d: p.d, dotted: !g.anyOpen }); if (!p.from.locked && g.anyOpen) lit.push(p.d) })
+    g.out.forEach((p) => { segs.push({ key: `${i}o${p.to.id}`, d: p.d, dotted: p.to.locked }); if (!p.to.locked) lit.push(p.d) })
   }
-  const a = geo.at[LAST_FINISHED], c = NODES.find((n) => n.current) && geo.at[NODES.find((n) => n.current).id]
+  const reached = NODES.filter((n) => !n.locked && geo.at[n.id]).map((n) => ({ id: n.id, ...geo.at[n.id] }))
+  const cur = geo.at[CURRENT_ID]
+  const first = geo.at[NODES[0].id]
+  const start = first ? first.discTop - TRAIN : 0
+  const travel = cur ? cur.discBottom + 6 - TRAIN - start : 0
   return (
     <svg className="tree-lines" width={geo.w} height={geo.h} viewBox={`0 0 ${geo.w} ${geo.h}`} aria-hidden="true">
       <g className="tree-lines-gray">
         {segs.map((s) => <path key={s.key} d={s.d} className={s.dotted ? 'tl-dotted' : 'tl-solid'} />)}
       </g>
-      {pulse && pulsePath && a && c && (
-        <g className="tl-pulse" key={pulse.key}>
-          <circle className="tl-ring" cx={a.cx} cy={a.cy} r={a.r * 0.96} />
-          <path className="tl-green" d={pulsePath} pathLength="100" />
-          {pulse.glow && <path className="tl-dot tl-dot-glow" d={pulsePath} pathLength="100" />}
-          <path className="tl-dot" d={pulsePath} pathLength="100" />
-          <circle className="tl-outline" cx={c.cx} cy={c.cy} r={c.r * 1.06} />
+      {pulse && cur && (
+        <g className="tl-pulse" key={pulse.key} style={{ '--tl-travel': `${travel}px` }}>
+          <defs>
+            {/* The train: a faint tail above, full strength towards the front, a short soft nose. */}
+            <linearGradient id="tl-train-fade" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stopColor="#fff" stopOpacity="0" />
+              <stop offset="0.75" stopColor="#fff" stopOpacity="1" />
+              <stop offset="0.92" stopColor="#fff" stopOpacity="1" />
+              <stop offset="1" stopColor="#fff" stopOpacity="0" />
+            </linearGradient>
+            <mask id="tl-train" maskUnits="userSpaceOnUse" x="0" y="0" width={geo.w} height={geo.h}>
+              <rect className="tl-band" x="0" y={start} width={geo.w} height={TRAIN} fill="url(#tl-train-fade)" />
+            </mask>
+          </defs>
+          <g className="tl-lit" mask="url(#tl-train)">
+            {pulse.glow && lit.map((d, i) => <path key={`g${i}`} d={d} className="tl-lit-glow" />)}
+            {lit.map((d, i) => <path key={i} d={d} className="tl-lit-line" />)}
+            {reached.map((g) => <circle key={g.id} cx={g.cx} cy={g.cy} r={g.r * 1.08} className="tl-lit-outline" />)}
+          </g>
+          <circle className="tl-ring" cx={cur.cx} cy={cur.cy} r={cur.r * EDGE} />
         </g>
       )}
     </svg>
@@ -126,7 +146,7 @@ function Lines({ geo, pulse }) {
 
 export default function TreeLinesLab() {
   const [theme, setTheme] = useState(() => (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'))
-  const [interval, setIntervalS] = useState(3)
+  const [interval, setIntervalS] = useState(5)
   const [opacity, setOpacity] = useState(0.7)
   const [glow, setGlow] = useState(true)
   const [hidden, setHidden] = useState(document.hidden)
@@ -144,6 +164,7 @@ export default function TreeLinesLab() {
   useEffect(() => {
     const el = box.current?.querySelector('[data-current]')
     if (!el) return
+    el.scrollIntoView({ block: 'center' }) // the pulse runs only while the current circle is on screen
     const io = new IntersectionObserver(([e]) => setOffscreen(!e.isIntersecting))
     io.observe(el)
     return () => io.disconnect()

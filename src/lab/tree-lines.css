@@ -1,53 +1,41 @@
-/* Tree Lines lab (2026-11-12). Gray lines behind the circles, and one pulse from the last finished circle to the
-   current one. Only opacity, transform and stroke-dashoffset animate: nothing that moves layout. Every part of the
-   pulse shares one clock (--pulse, the interval), so a cycle is a single sequence:
-     0 to 34%   a ring leaves the finished circle and fades
-     22 to 34%  the line below it turns green
-     34 to 76%  the dot travels down to the current circle
-     74 to 94%  the current circle's outline shows and fades; the line goes back to gray
-     94 to 100% rest */
+/* Tree Lines lab (2026-11-12, second pass). Gray lines behind the circles, touching each disc and running under the
+   titles; and one pulse down the route already travelled. Only transform and opacity animate. Every part shares one
+   clock (--pulse, the interval):
+     0 to 72%   the train slides from above the first circle to the current one (ease-in-out); each reached circle's
+                outline lights from the top down as it passes, and the current one lights while the train arrives
+     62 to 90%  a ring radiates from the current circle and fades
+     74 to 92%  the train fades where it stopped; then rest */
 .tree-lines { position: absolute; top: 0; left: 0; pointer-events: none; overflow: visible; }
 .tree-lines-gray path { fill: none; stroke: var(--tree-line); stroke-width: 2; opacity: var(--tl-opacity, 0.7); }
 .tree-lines-gray .tl-dotted { stroke-width: 2.6; stroke-linecap: round; stroke-dasharray: 0 7; }
 
-.tl-pulse > * { fill: none; animation-duration: var(--pulse, 3s); animation-iteration-count: infinite; animation-timing-function: ease-in-out; }
-[data-paused] .tl-pulse > * { animation-play-state: paused; }
+.tl-pulse .tl-band, .tl-pulse .tl-lit, .tl-pulse .tl-ring {
+  animation-duration: var(--pulse, 5s); animation-iteration-count: infinite; animation-timing-function: ease-in-out;
+}
+[data-paused] .tl-pulse .tl-band, [data-paused] .tl-pulse .tl-lit, [data-paused] .tl-pulse .tl-ring { animation-play-state: paused; }
 
-.tl-ring { stroke: var(--ring); stroke-width: 2; vector-effect: non-scaling-stroke; transform-box: fill-box; transform-origin: center; opacity: 0; animation-name: tl-ring; }
+.tl-lit path, .tl-lit circle { fill: none; stroke: var(--ring); }
+.tl-lit-line { stroke-width: 2.5; stroke-linecap: round; }
+.tl-lit-glow { stroke-width: 9; stroke-linecap: round; opacity: 0.18; }
+.tl-lit-outline { stroke-width: 2.5; }
+
+.tl-band { animation-name: tl-band; }
+@keyframes tl-band {
+  0% { transform: translateY(0); }
+  72%, 100% { transform: translateY(var(--tl-travel)); }
+}
+.tl-lit { opacity: 0; animation-name: tl-lit; }
+@keyframes tl-lit {
+  0% { opacity: 0; }
+  6%, 74% { opacity: 1; }
+  92%, 100% { opacity: 0; }
+}
+
+.tl-ring { fill: none; stroke: var(--ring); stroke-width: 2; vector-effect: non-scaling-stroke; transform-box: fill-box; transform-origin: center; opacity: 0; animation-name: tl-ring; }
 @keyframes tl-ring {
-  0% { opacity: 0; transform: scale(1); }
-  6% { opacity: 0.5; }
-  34%, 100% { opacity: 0; transform: scale(1.45); }
-}
-
-.tl-green { stroke: var(--ring); stroke-width: 2; opacity: 0; animation-name: tl-green; }
-@keyframes tl-green {
-  0%, 22% { opacity: 0; }
-  34%, 76% { opacity: 0.85; }
-  94%, 100% { opacity: 0; }
-}
-
-.tl-dot { stroke: var(--ring); stroke-width: 6; stroke-linecap: round; stroke-dasharray: 0 200; stroke-dashoffset: 0; opacity: 0; animation-name: tl-dot; }
-.tl-dot-glow { stroke-width: 16; }
-@keyframes tl-dot {
-  0%, 30% { opacity: 0; stroke-dashoffset: 0; }
-  34% { opacity: 1; stroke-dashoffset: 0; }
-  76% { opacity: 1; stroke-dashoffset: -100; }
-  84%, 100% { opacity: 0; stroke-dashoffset: -100; }
-}
-.tl-dot-glow { animation-name: tl-glow; }
-@keyframes tl-glow {
-  0%, 30% { opacity: 0; stroke-dashoffset: 0; }
-  34% { opacity: 0.2; stroke-dashoffset: 0; }
-  76% { opacity: 0.2; stroke-dashoffset: -100; }
-  84%, 100% { opacity: 0; stroke-dashoffset: -100; }
-}
-
-.tl-outline { stroke: var(--ring); stroke-width: 2.5; opacity: 0; animation-name: tl-outline; }
-@keyframes tl-outline {
-  0%, 74% { opacity: 0; }
-  82% { opacity: 0.9; }
-  94%, 100% { opacity: 0; }
+  0%, 62% { opacity: 0; transform: scale(1); }
+  68% { opacity: 0.5; }
+  90%, 100% { opacity: 0; transform: scale(1.45); }
 }
 
 @media (prefers-reduced-motion: reduce) { .tl-pulse { display: none; } }
