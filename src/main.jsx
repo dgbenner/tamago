@@ -5,7 +5,10 @@ import { useTables } from './lib/content.js'
 import './index.css'
 
 // The console (accounts layer 1, 2026-11-11) is its own small app at /admin, loaded without any course.
-if (location.pathname.startsWith('/admin')) {
+// Tree Lines lab (branch lab/tree-lines only, 2026-11-12): a standalone page at /lab/tree-lines, never merged to main.
+if (location.pathname.startsWith('/lab/tree-lines')) {
+  import('./lab/TreeLinesLab.jsx').then(({ default: Lab }) => createRoot(document.getElementById('root')).render(<StrictMode><Lab /></StrictMode>))
+} else if (location.pathname.startsWith('/admin')) {
   import('./admin/AdminApp.jsx').then(({ default: AdminApp }) => createRoot(document.getElementById('root')).render(<StrictMode><AdminApp /></StrictMode>))
 } else startApp()
 

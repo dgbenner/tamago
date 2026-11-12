@@ -8,6 +8,8 @@
   --ink: #1c1a17;
   --muted: #645e53;
   --line: #e7dfcf;
+  /* Tree lines (lab/tree-lines, 2026-11-12): a quiet gray between circles, tuned per theme. */
+  --tree-line: #d8d3c9;
   --accent: #ffc21a;
   --accent-ink: #1c1a17;
   --green: #0b7a43;
@@ -37,6 +39,8 @@
     --ink: #f6f1e6;
     --muted: #a89f8f;
     --line: #38322a;
+  --tree-line: #3a3631;
+    --tree-line: #3a3631;
     --accent: #ffc21a;
     --accent-ink: #1c1a17;
     --green: #0b7a43;
