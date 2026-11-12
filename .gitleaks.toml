@@ -1,0 +1,9 @@
+# Secret scan (gitleaks), run before every push by .githooks/pre-push and by `npm run secrets` (Dan, 2026-11-11).
+# The default rules, plus an allowlist of exactly the fake keys the redaction tests need (test/devnotes.test.js checks
+# that key-shaped text is blanked, so it has to contain some). Anything else key-shaped stops the push.
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Fake keys in test/devnotes.test.js, there to prove redaction works"
+regexes = ['''AKIAABCDEFGHIJKLMNOP''', '''abcd1234efgh5678''']

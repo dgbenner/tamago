@@ -3,6 +3,7 @@ import { lessonLogFor, snapshotRows } from '../lib/snapshot.js'
 import { getAll, resetProgress } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
 import { IconBack } from './icons.jsx'
+import Backup from './Backup.jsx'
 import { site, version } from '../lib/version.js'
 import { COURSES, TL, course, jumpInCourse } from '../lib/course.js'
 import partsFr from '../content/parts.json'
@@ -195,6 +196,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
           <button onClick={onTryA1} className="btn-secondary sm:col-span-2">Try the A1 Task Types</button>
         </div>
         <JumpToPart onJumpPart={onJumpPart} />
+        <Backup />
         <ResetProgress />
       </section>
 

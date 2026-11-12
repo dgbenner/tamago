@@ -4,8 +4,8 @@ import { ROLES, can } from '../lib/auth/config.js'
 import { LogoInline } from '../screens/Logo.jsx'
 
 // The console (accounts layer 1, Dan, 2026-11-11; _source/accounts-spec.md), its own small app at /admin, loaded
-// without the course. Sections by role: Users (admins: list with search, details, password reset, turn off or on,
-// role, recent sessions), Review (reviewers and admins) and Contribute (contributors and admins), both placeholders
+// without the course. Sections by role: Users (admins: invites, since sign-up is invite only; list with search,
+// details, password reset, turn off or on, role, recent sign-ins and sessions), Review (reviewers and admins) and Contribute (contributors and admins), both placeholders
 // until their work is built. Everyone else is told it's for staff, with a way back to Tamago.
 const SECTIONS = [
   { path: '/admin', label: 'Users', allowed: can.users },
@@ -57,6 +57,7 @@ function Users({ auth, me }) {
     <div className="grid gap-6 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
       <section className="flex flex-col gap-3">
         <h1 className="text-2xl font-semibold">Users</h1>
+        <Invites auth={auth} onChanged={() => load()} />
         <input type="search" aria-label="Search Users" placeholder="Search by Email or Screen Name" value={q} onChange={(e) => setQ(e.target.value)}
           className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base" />
         {error && <p role="alert" className="text-sm text-wrong">{error}</p>}
@@ -81,12 +82,55 @@ function Users({ auth, me }) {
   )
 }
 
+// Invites (Dan, 2026-11-11): sign-up is invite only. An admin enters an email (and a role); Supabase emails the link,
+// the mock shows it. Pending invites are listed and can be withdrawn. Off on the real service until Dan approves.
+function Invites({ auth, onChanged }) {
+  const [email, setEmail] = useState('')
+  const [role, setRole] = useState('learner')
+  const [list, setList] = useState([])
+  const [note, setNote] = useState({ kind: '', text: '', link: null })
+  const load = () => auth.admin.listInvites().then(setList).catch(() => {})
+  useEffect(() => { load() }, [])
+  const create = async (e) => {
+    e.preventDefault()
+    try { const inv = await auth.admin.createInvite({ email, role }); setEmail(''); setNote({ kind: 'ok', text: `Invite made for ${inv.email}.`, link: inv.link }); load(); onChanged() } catch (err) { setNote({ kind: 'error', text: err.message, link: null }) }
+  }
+  const pending = list.filter((x) => !x.accepted_at)
+  return (
+    <section className="flex flex-col gap-3 rounded-xl border-2 border-line p-4" aria-labelledby="invites-heading" data-invites>
+      <h2 id="invites-heading" className="text-lg font-semibold">Invites</h2>
+      {!auth.invitesOpen ? <p className="text-sm text-muted">Sign-up is by invite only, and invites are off until Dan approves them.</p> : (
+        <form onSubmit={create} className="flex flex-wrap items-end gap-2">
+          <label className="flex min-w-0 flex-1 flex-col gap-1 text-sm"><span className="font-medium">Email</span>
+            <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base" /></label>
+          <label className="flex flex-col gap-1 text-sm"><span className="font-medium">Role</span>
+            <select value={role} onChange={(e) => setRole(e.target.value)} className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base">
+              {ROLES.map((r) => <option key={r} value={r}>{ROLE_NAMES[r]}</option>)}
+            </select></label>
+          <button type="submit" className="btn-secondary">Create Invite</button>
+        </form>
+      )}
+      {note.text && <p role={note.kind === 'error' ? 'alert' : 'status'} className={`text-sm ${note.kind === 'error' ? 'text-wrong' : ''}`}>{note.text}
+        {note.link && <> Mock email link: <a className="underline break-all" href={note.link}>{note.link}</a></>}</p>}
+      {pending.length > 0 && <ul className="flex flex-col gap-1 text-sm">
+        {pending.map((x) => (
+          <li key={x.code} className="flex items-center justify-between gap-2">
+            <span className="min-w-0 truncate">{x.email} · {ROLE_NAMES[x.role] ?? 'Learner'} · sent {when(x.created_at)}</span>
+            <button onClick={async () => { await auth.admin.withdrawInvite(x.code); load() }} className="shrink-0 underline">Withdraw</button>
+          </li>
+        ))}
+      </ul>}
+    </section>
+  )
+}
+
 function UserDetails({ auth, me, id, onChanged }) {
   const [u, setU] = useState(null)
   const [sessions, setSessions] = useState([])
+  const [signIns, setSignIns] = useState([])
   const [note, setNote] = useState({ kind: '', text: '', link: null })
   const heading = useRef(null)
-  const load = async () => { setU(await auth.admin.getUser(id)); setSessions(await auth.admin.sessions(id)) }
+  const load = async () => { setU(await auth.admin.getUser(id)); setSessions(await auth.admin.sessions(id)); setSignIns(await auth.admin.signIns(id)) }
   useEffect(() => { load().then(() => heading.current?.focus()).catch((e) => setNote({ kind: 'error', text: e.message })) }, [id])
   const act = async (fn, ok) => {
     try { const r = await fn(); setNote({ kind: 'ok', text: ok, link: r?.link ?? null }); await load(); onChanged() } catch (e) { setNote({ kind: 'error', text: e.message, link: null }) }
@@ -129,6 +173,15 @@ function UserDetails({ auth, me, id, onChanged }) {
         {self && <p className="text-sm text-muted">Your own account can’t be turned off or lose its admin role here.</p>}
         {note.text && <p role={note.kind === 'error' ? 'alert' : 'status'} className={`text-sm ${note.kind === 'error' ? 'text-wrong' : ''}`}>{note.text}
           {note.link && auth.mode === 'mock' && <> Mock email link: <a className="underline" href={note.link}>{note.link}</a></>}</p>}
+      </div>
+      <div className="flex flex-col gap-2">
+        <h3 className="font-semibold">Recent Sign-Ins</h3>
+        {signIns.length ? (
+          <table className="w-full text-sm" data-sign-ins>
+            <thead><tr className="text-left text-muted"><th className="font-medium">When</th><th className="font-medium">Device</th></tr></thead>
+            <tbody>{signIns.map((x) => <tr key={x.id}><td>{when(x.at)}</td><td>{x.device}</td></tr>)}</tbody>
+          </table>
+        ) : <p className="text-sm text-muted">No sign-ins yet.</p>}
       </div>
       <div className="flex flex-col gap-2">
         <h3 className="font-semibold">Recent Sessions</h3>

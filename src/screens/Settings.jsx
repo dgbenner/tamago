@@ -122,9 +122,9 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
         <Item title="Placement Check" help={`Know some ${course.name} already? Three questions per unit; units you pass open the next ones. Nothing is taken away.`}>
           <button onClick={onPlacement} className="btn-secondary">Start the Placement Check</button>
         </Item>
-        {/* Signed in, Account's Profile opens the same screen (with the backup), so this one steps aside. */}
-        {!account?.user && <Item title="Profile and Backup" help="Your name, and a backup file of your progress you can restore on another device.">
-          <button onClick={onProfile} className="btn-secondary">Profile and Backup</button>
+        {/* Signed in, Account's Profile opens the same screen, so this one steps aside. */}
+        {!account?.user && <Item title="Profile" help="Your screen name. The backup file is on the Developer page.">
+          <button onClick={onProfile} className="btn-secondary">Profile</button>
         </Item>}
         <Item title="Mistake Explanations">
           {explaining

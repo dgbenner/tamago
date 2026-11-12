@@ -13,7 +13,8 @@
     "pull": "node scripts/pull-units.mjs",
     "smoke": "node test/mobile-smoke.mjs",
     "prepare": "git config core.hooksPath .githooks || true",
-    "bump": "node scripts/bump-version.mjs"
+    "bump": "node scripts/bump-version.mjs",
+    "secrets": "gitleaks git . --config .gitleaks.toml --redact --no-banner"
   },
   "type": "module",
   "devDependencies": {

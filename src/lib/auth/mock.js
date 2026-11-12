@@ -1,9 +1,11 @@
 // The mock account service (accounts layer 1, Dan, 2026-11-11): the same interface as auth/supabase.js, kept on this
 // device. Users, sessions, progress copies and reset links live in a small key-value store (IndexedDB in the
 // browser, a Map in tests). Passwords are stored as SHA-256 hashes, never plain. Nothing is sent anywhere: a reset
-// "email" comes back as a link the screen shows, marked as the mock's. Demo accounts (config.js MOCK_ACCOUNTS) are
-// made on first use, with a few sample learners so the console has something to list.
-import { MOCK_ACCOUNTS, MOCK_PASSWORD, ROLES, SIGNUP_OPEN, checkPassword, checkScreenName } from './config.js'
+// "email" comes back as a link the screen shows, marked as the mock's. Demo accounts (mock-demo.js, a test fixture) are
+// made on first use, with a few sample learners so the console has something to list. Sign-up is by invite only:
+// an admin creates an invite (a one-time link, 14 days), and the invitee sets a screen name and password from it.
+import { AUTH_MODE, INVITES_OPEN, ROLES, checkPassword, checkScreenName, deviceType } from './config.js'
+import { DEMO_ACCOUNTS, demoPhrase } from './mock-demo.js'
 
 export function idbStore(name = 'tamago-accounts-mock') {
   let db = null
@@ -37,9 +39,9 @@ export function createMockAuth({ store = idbStore(), session = sessionSlot() } =
 
   async function seed() {
     if (await store.get('seeded')) return
-    const pw = await hash(MOCK_PASSWORD)
+    const pw = await hash(demoPhrase())
     const day = 86400000
-    const list = MOCK_ACCOUNTS.map(([email, screen_name, role], i) => ({ id: id(), email, screen_name, role, password: pw, disabled: false, created_at: new Date(Date.now() - (30 - i) * day).toISOString(), last_active_at: null }))
+    const list = DEMO_ACCOUNTS.map(([email, screen_name, role], i) => ({ id: id(), email, screen_name, role, password: pw, disabled: false, created_at: new Date(Date.now() - (30 - i) * day).toISOString(), last_active_at: null }))
     SAMPLE.forEach((name, i) => list.push({ id: id(), email: `${name.toLowerCase().normalize('NFD').replace(/[^a-z]/g, '')}@example.test`, screen_name: name, role: 'learner', password: pw, disabled: i === 6, created_at: new Date(Date.now() - (20 - i * 2) * day).toISOString(), last_active_at: new Date(Date.now() - i * day * 0.7).toISOString() }))
     const sessions = []
     list.slice(3).forEach((u, i) => {
@@ -49,8 +51,11 @@ export function createMockAuth({ store = idbStore(), session = sessionSlot() } =
       }
       store.set(`summary:${u.id}:${COURSES[i % 3]}`, { course: COURSES[i % 3], lessons_done: 4 + i * 3, circles_started: 2 + (i % 4), words_met: 20 + i * 9, updated_at: list[3 + i]?.last_active_at ?? now() })
     })
+    const devices = ['iPhone', 'Mac', 'iPad', 'Android Phone', 'Windows PC']
+    const signIns = list.slice(3).flatMap((u, i) => [0, 1, 2].map((k) => ({ id: id(), user_id: u.id, at: new Date(Date.now() - (k * 2.1 + i * 0.5) * day).toISOString(), device: devices[(i + k) % devices.length] })))
     await saveUsers(list)
     await store.set('sessions', sessions)
+    await store.set('sign_ins', signIns)
     await store.set('seeded', true)
   }
   const init = () => ready ?? (ready = (async () => {
@@ -67,24 +72,41 @@ export function createMockAuth({ store = idbStore(), session = sessionSlot() } =
     if (u) { u.last_active_at = now(); await saveUsers(list); if (current?.id === userId) current = u }
   }
   const mustBeAdmin = () => { if (current?.role !== 'admin') throw new Error('Admins only.') }
+  const logSignIn = async (userId) => {
+    const list = (await store.get('sign_ins')) ?? []
+    list.push({ id: id(), user_id: userId, at: now(), device: deviceType() })
+    await store.set('sign_ins', list.slice(-2000))
+  }
+  const findInvite = async (code) => {
+    const inv = ((await store.get('invites')) ?? []).find((x) => x.code === code)
+    if (!inv || inv.accepted_at || inv.revoked) throw new Error('This invite has already been used or was withdrawn.')
+    if (Date.parse(inv.expires_at) < Date.now()) throw new Error('This invite has expired. Ask for a new one.')
+    return inv
+  }
 
   const api = {
     mode: 'mock',
-    signupOpen: SIGNUP_OPEN,
+    demo: { emails: DEMO_ACCOUNTS.map(([e]) => e), phrase: demoPhrase() },
+    invitesOpen: INVITES_OPEN,
     async session() { await init(); return publicUser(current) },
     onChange(f) { listeners.add(f); return () => listeners.delete(f) },
 
-    async signUp({ email, password, screenName }) {
+    // The invite behind a link, for the screen to show its email; throws if used, withdrawn or expired.
+    async readInvite(code) { await init(); const inv = await findInvite(code); return { email: inv.email } },
+    async acceptInvite({ code, password, screenName }) {
       await init()
-      if (!SIGNUP_OPEN) throw new Error('Sign-up isn’t open yet.')
-      const e = clean(email)
-      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e)) throw new Error('Enter an email address.')
-      const bad = checkPassword(password) || checkScreenName(screenName)
+      if (!INVITES_OPEN) throw new Error('Sign-up isn’t open yet.')
+      const inv = await findInvite(code)
+      const bad = checkScreenName(screenName) || checkPassword(password)
       if (bad) throw new Error(bad)
       const list = await users()
-      if (list.some((u) => u.email === e)) throw new Error('That email already has an account. Sign in instead.')
-      const u = { id: id(), email: e, screen_name: screenName.trim(), role: 'learner', password: await hash(password), disabled: false, created_at: now(), last_active_at: now() }
+      if (list.some((u) => u.email === inv.email)) throw new Error('That email already has an account. Sign in instead.')
+      const u = { id: id(), email: inv.email, screen_name: screenName.trim(), role: inv.role ?? 'learner', password: await hash(password), disabled: false, created_at: now(), last_active_at: now() }
       list.push(u); await saveUsers(list)
+      const invites = (await store.get('invites')) ?? []
+      Object.assign(invites.find((x) => x.code === code), { accepted_at: now(), user_id: u.id })
+      await store.set('invites', invites)
+      await logSignIn(u.id)
       current = u; session.set(u.id); emit()
       return publicUser(u)
     },
@@ -94,6 +116,7 @@ export function createMockAuth({ store = idbStore(), session = sessionSlot() } =
       if (!u || u.password !== (await hash(password))) throw new Error('That email and password don’t match.')
       if (u.disabled) throw new Error('This account is turned off. Ask for help to turn it back on.')
       await touch(u.id)
+      await logSignIn(u.id)
       current = (await users()).find((x) => x.id === u.id); session.set(u.id); emit()
       return publicUser(current)
     },
@@ -150,11 +173,14 @@ export function createMockAuth({ store = idbStore(), session = sessionSlot() } =
       if (!current) return null
       return (await store.get(`progress:${current.id}:${course}`)) ?? null
     },
+    // Returns the copy's saved_at, which the device keeps to tell later whether the account changed elsewhere.
     async saveProgress(course, snapshot, summary) {
-      if (!current) return
-      await store.set(`progress:${current.id}:${course}`, { snapshot, saved_at: now() })
-      await store.set(`summary:${current.id}:${course}`, { course, ...summary, updated_at: now() })
+      if (!current) return null
+      const saved_at = now()
+      await store.set(`progress:${current.id}:${course}`, { snapshot, summary, saved_at })
+      await store.set(`summary:${current.id}:${course}`, { course, ...summary, updated_at: saved_at })
       await touch(current.id)
+      return saved_at
     },
     async recordSession(row) {
       if (!current) return
@@ -181,6 +207,35 @@ export function createMockAuth({ store = idbStore(), session = sessionSlot() } =
       async sessions(userId, { limit = 20 } = {}) {
         await init(); mustBeAdmin()
         return ((await store.get('sessions')) ?? []).filter((s) => s.user_id === userId).sort((a, b) => b.finished_at.localeCompare(a.finished_at)).slice(0, limit)
+      },
+      async signIns(userId, { limit = 20 } = {}) {
+        await init(); mustBeAdmin()
+        return ((await store.get('sign_ins')) ?? []).filter((s) => s.user_id === userId).sort((a, b) => b.at.localeCompare(a.at)).slice(0, limit)
+      },
+      // Invites (sign-up is invite only): a one-time link for one email, valid 14 days.
+      async createInvite({ email, role = 'learner' }) {
+        await init(); mustBeAdmin()
+        if (!INVITES_OPEN) throw new Error('Invites are off until Dan approves them.')
+        const e = clean(email)
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(e)) throw new Error('Enter an email address.')
+        if (!ROLES.includes(role)) throw new Error('Unknown role.')
+        if ((await users()).some((u) => u.email === e)) throw new Error('That email already has an account.')
+        const invites = (await store.get('invites')) ?? []
+        const inv = { code: id(), email: e, role, created_by: current.id, created_at: now(), expires_at: new Date(Date.now() + 14 * 86400000).toISOString(), accepted_at: null }
+        invites.push(inv); await store.set('invites', invites)
+        return { ...inv, link: `/account/invite?code=${inv.code}` }
+      },
+      async listInvites() {
+        await init(); mustBeAdmin()
+        return ((await store.get('invites')) ?? []).filter((x) => !x.revoked).sort((a, b) => b.created_at.localeCompare(a.created_at))
+      },
+      async withdrawInvite(code) {
+        await init(); mustBeAdmin()
+        const invites = (await store.get('invites')) ?? []
+        const inv = invites.find((x) => x.code === code)
+        if (inv && !inv.accepted_at) inv.revoked = true
+        await store.set('invites', invites)
+        return true
       },
       async sendPasswordReset(userId) {
         await init(); mustBeAdmin()
@@ -219,4 +274,5 @@ export function sessionSlot(key = 'tamago-auth-session') {
   }
 }
 
-export const create = () => createMockAuth()
+// Never on the real service: a supabase build doesn't include this file, and if it were ever reached there it refuses.
+export const create = () => { if (AUTH_MODE === 'supabase') throw new Error('The mock account service is off in a Supabase build.'); return createMockAuth() }

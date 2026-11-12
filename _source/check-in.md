@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 11, 2026. **New: accounts, layer 1, on the mock (sign in, sign up, forgot and reset password, Profile, sign out; /admin console with users, details, reset, on/off, role and sessions; Review and Contribute placeholders). Supabase steps and open questions in _source/accounts-spec.md.**
+Updated November 11, 2026. **New: accounts decisions in (ask the learner which progress to keep, sign-in history in the console, invite-only sign-up, backup on the Developer page); demo password moved to a marked test fixture after GitGuardian's flag; gitleaks secret scan before every push; this deploy is Otter.**
 
 ## Done since last check-in
 
@@ -289,7 +289,7 @@ Updated November 11, 2026. **New: accounts, layer 1, on the mock (sign in, sign 
 
 ## Waiting for Dan
 
-**Accounts (2026-11-11):** the Supabase steps are at the top of _source/accounts-spec.md; nothing is set up outside the repo. Seven open questions at its end (progress conflicts, sign-out on shared devices, what "sessions" means, email confirmation, size of the account copy, where the backup lives, when sign-up opens).
+**Accounts (2026-11-11):** the Supabase steps are at the top of _source/accounts-spec.md; nothing is set up outside the repo. Dan's seven decisions are in (spec, Decisions). Waiting: Supabase setup, and approval to open invites.
 
 **To talk about (Dan, 2026-11-11):**
 - Why the Conversations node, the Checkpoints and the Part 1 review each look different (pill buttons, small flag pills, the end-of-part review), and whether each is needed.

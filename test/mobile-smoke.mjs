@@ -13,6 +13,7 @@ import { join } from 'node:path'
 import { readFileSync } from 'node:fs'
 import { devices, webkit } from 'playwright'
 import { versionName } from '../src/lib/version.js'
+import { DEMO_ACCOUNTS, demoPhrase } from '../src/lib/auth/mock-demo.js' // a test fixture, not a secret
 
 // The version this checkout would deploy; a site under test must show the same name on its opening screen.
 const VERSION = (({ number, daily }) => versionName(daily ?? number))(JSON.parse(readFileSync(new URL('../src/version.json', import.meta.url), 'utf8')))
@@ -255,8 +256,8 @@ async function run(name) {
     await bottom.waitFor()
     await page.getByRole('button', { name: 'Settings' }).tap()
     await page.getByRole('button', { name: 'Sign In', exact: true }).tap()
-    await page.getByLabel('Email').fill('admin@tamago.test')
-    await page.getByLabel('Password').fill('tamago-mock')
+    await page.getByLabel('Email').fill(DEMO_ACCOUNTS[0][0])
+    await page.getByLabel('Password').fill(demoPhrase())
     await page.getByRole('button', { name: 'Sign In', exact: true }).tap()
     await bottom.waitFor()
     await page.getByRole('button', { name: 'Settings' }).tap()

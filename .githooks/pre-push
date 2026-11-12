@@ -2,7 +2,8 @@
 # Before every push (CLAUDE.md, Testing and "One site"):
 # 1. a push to main (the live site) or to dev (kept for later, unused) must carry the next version name
 #    (`npm run bump`), one past the highest on main and dev;
-# 2. the mobile smoke test must pass: iPhone and iPad emulation in WebKit, with touch.
+# 2. the secret scan must pass: gitleaks over the history (.gitleaks.toml), so no key or password goes out;
+# 3. the mobile smoke test must pass: iPhone and iPad emulation in WebKit, with touch.
 # Turned on for this clone by `git config core.hooksPath .githooks` (npm install does it, package.json "prepare").
 cd "$(git rev-parse --show-toplevel)" || exit 1
 number() { node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).number)}catch{console.log("")}})'; }
@@ -29,4 +30,6 @@ while read -r local_ref local_sha remote_ref remote_sha; do
       fi ;;
   esac
 done
+command -v gitleaks >/dev/null 2>&1 || { echo "Push stopped: the secret scan needs gitleaks. Install it (brew install gitleaks) and push again."; exit 1; }
+npm run -s secrets || { echo "Push stopped: the secret scan found something that looks like a secret (above). Remove it before pushing."; exit 1; }
 npm run -s smoke || { echo "Push stopped: the mobile smoke test failed. Fix it before pushing."; exit 1; }

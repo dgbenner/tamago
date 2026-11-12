@@ -5,7 +5,7 @@
 // security is what keeps data private). Turning an account off needs the service-role key, so it goes through
 // the Pages Function /api/admin-user, which checks that the caller is an admin.
 import { createClient } from '@supabase/supabase-js'
-import { ROLES, SIGNUP_OPEN, checkPassword, checkScreenName } from './config.js'
+import { INVITES_OPEN, ROLES, checkPassword, checkScreenName, deviceType } from './config.js'
 
 const COURSES = ['fr', 'es', 'de']
 const friendly = (error) => {
@@ -38,24 +38,44 @@ export function create() {
   })
   const touch = () => current && sb.from('profiles').update({ last_active_at: new Date().toISOString() }).eq('id', current.id)
   const token = async () => (await sb.auth.getSession()).data.session?.access_token
+  // Admin actions that need the service-role key go through the Pages Function, which checks the caller is an admin.
+  const server = async (body) => {
+    const res = await fetch('/api/admin-user', { method: 'POST', headers: { 'content-type': 'application/json', authorization: `Bearer ${await token()}` }, body: JSON.stringify(body) })
+    const out = await res.json().catch(() => ({}))
+    if (!res.ok) throw new Error(out.error ?? 'That didn’t work.')
+    return out
+  }
 
   const api = {
     mode: 'supabase',
-    signupOpen: SIGNUP_OPEN,
+    invitesOpen: INVITES_OPEN,
     async session() { const { data } = await sb.auth.getSession(); return set(data.session?.user ?? null) },
     onChange(f) { listeners.add(f); return () => listeners.delete(f) },
-    async signUp({ email, password, screenName }) {
-      if (!SIGNUP_OPEN) throw new Error('Sign-up isn’t open yet.')
-      const bad = checkPassword(password) || checkScreenName(screenName)
+    // Sign-up is by invite only: Supabase emails the invite, its link signs the invitee in here (/account/invite),
+    // and they set a screen name and password. The code in the link is Supabase's own; nothing to look up.
+    async readInvite() {
+      const u = (await sb.auth.getSession()).data.session?.user
+      if (!u) throw new Error('This invite link has expired or was already used. Ask for a new one.')
+      return { email: u.email }
+    },
+    async acceptInvite({ password, screenName }) {
+      if (!INVITES_OPEN) throw new Error('Sign-up isn’t open yet.')
+      const bad = checkScreenName(screenName) || checkPassword(password)
       if (bad) throw new Error(bad)
-      const data = must(await sb.auth.signUp({ email, password, options: { data: { screen_name: screenName.trim() } } }))
-      return set(data.user)
+      const { data: { user } } = await sb.auth.getUser()
+      if (!user) throw new Error('This invite link has expired or was already used. Ask for a new one.')
+      must(await sb.auth.updateUser({ password }))
+      must(await sb.from('profiles').update({ screen_name: screenName.trim() }).eq('id', user.id))
+      await sb.from('invites').update({ accepted_at: new Date().toISOString() }).eq('email', user.email).is('accepted_at', null)
+      await sb.from('sign_ins').insert({ user_id: user.id, device: deviceType() })
+      return set(user)
     },
     async signIn({ email, password }) {
       const data = must(await sb.auth.signInWithPassword({ email, password }))
       const u = await set(data.user)
       if (u?.disabled) { await sb.auth.signOut(); throw new Error(friendly('disabled')) }
       await touch()
+      await sb.from('sign_ins').insert({ user_id: u.id, device: deviceType() })
       return u
     },
     async signOut() { await sb.auth.signOut(); await set(null) },
@@ -92,9 +112,11 @@ export function create() {
       return data ?? null
     },
     async saveProgress(course, snapshot, summary) {
-      if (!current) return
-      must(await sb.from('progress').upsert({ user_id: current.id, course, snapshot, summary, saved_at: new Date().toISOString() }))
+      if (!current) return null
+      const saved_at = new Date().toISOString()
+      must(await sb.from('progress').upsert({ user_id: current.id, course, snapshot, summary, saved_at }))
       await touch()
+      return saved_at
     },
     async recordSession(row) {
       if (!current) return
@@ -116,15 +138,22 @@ export function create() {
       async sessions(userId, { limit = 20 } = {}) {
         return must(await sb.from('sessions').select('*').eq('user_id', userId).order('finished_at', { ascending: false }).limit(limit))
       },
+      async signIns(userId, { limit = 20 } = {}) {
+        return must(await sb.from('sign_ins').select('*').eq('user_id', userId).order('at', { ascending: false }).limit(limit))
+      },
+      async createInvite({ email, role = 'learner' }) {
+        if (!INVITES_OPEN) throw new Error('Invites are off until Dan approves them.')
+        return server({ action: 'invite', email, role })
+      },
+      async listInvites() {
+        return must(await sb.from('invites').select('*').is('revoked_at', null).order('created_at', { ascending: false }).limit(100)).map((r) => ({ ...r, code: r.id }))
+      },
+      async withdrawInvite(code) { return server({ action: 'withdraw', invite_id: code }) },
       async sendPasswordReset(userId) {
         const p = must(await sb.from('profiles').select('email').eq('id', userId).single())
         return api.requestPasswordReset(p.email)
       },
-      async setDisabled(userId, disabled) {
-        const res = await fetch('/api/admin-user', { method: 'POST', headers: { 'content-type': 'application/json', authorization: `Bearer ${await token()}` }, body: JSON.stringify({ user_id: userId, disabled: Boolean(disabled) }) })
-        if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error ?? 'That didn’t work.')
-        return true
-      },
+      async setDisabled(userId, disabled) { await server({ action: 'disable', user_id: userId, disabled: Boolean(disabled) }); return true },
       async setRole(userId, role) {
         if (!ROLES.includes(role)) throw new Error('Unknown role.')
         must(await sb.from('profiles').update({ role }).eq('id', userId))
