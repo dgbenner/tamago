@@ -340,3 +340,12 @@ test('final A1 check: four parts in exam order, the course\'s own A1 sentences, 
   assert.deepEqual(scores.reading, { right: 1, total: 2 })
   assert.deepEqual(scores.speaking, { done: 1 })
 })
+
+// Crash fix (playthrough audit, 2026-11-12): a later round for a learner who hasn't met its words (a topic pack, a Dev
+// jump) used to throw when no sentence fit a slot; it now falls back to a type a sentence supports.
+test('a later round never crashes for a learner who has met none of its words', () => {
+  for (let round = 3; round <= 5; round++) {
+    const l = buildLesson(c, { round, known: new Set(), rng: seeded(round) })
+    assert.equal(l.queue.filter((q) => !q.item_id).length, 10, `round ${round}`)
+  }
+})

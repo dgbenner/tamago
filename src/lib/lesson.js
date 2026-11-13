@@ -477,6 +477,17 @@ export function buildLesson(c, { round, seen = {}, known = new Set(), settings =
       const second = open.filter((x) => !usedPairs.has(`${x.sentence_id}${type}`))
       s = leastSeen(fresh.length ? fresh : second.length ? second : open, (x) => x.sentence_id, counts, rng)[0]
     }
+    if (!s) {
+      // Crash fix (playthrough audit, 2026-11-12): no sentence in scope fits this type, as for a learner who hasn't met
+      // the words this round expects (a topic pack, a Dev jump). Never a blank lesson: the easiest type a sentence in
+      // scope supports, else any of the circle's sentences; a slot nothing fits is left out.
+      const pool = scope.sentences.length ? scope.sentences : c.sentences
+      for (const alt of ['QT03', 'QT06', 'QT04']) {
+        const fit = pool.filter((x) => supports(c, alt, x, round))
+        if (fit.length) { type = alt; s = leastSeen(fit, (x) => x.sentence_id, counts, rng)[0]; break }
+      }
+      if (!s) continue
+    }
     usedPairs.add(s.sentence_id)
     usedPairs.add(`${s.sentence_id}${type}`)
     counts[s.sentence_id] = (counts[s.sentence_id] ?? 0) + 1
@@ -495,9 +506,10 @@ export function buildLesson(c, { round, seen = {}, known = new Set(), settings =
   }
 
   slotList.forEach((slot, i) => {
-    if (slot.from !== assigned[i].type && (assigned[i].type === slot.type || slot.type === 'QT02')) assigned[i].swapped_from = slot.from
+    if (assigned[i] && slot.from !== assigned[i].type && (assigned[i].type === slot.type || slot.type === 'QT02')) assigned[i].swapped_from = slot.from
   })
 
+  for (let k = assigned.length - 1; k >= 0; k--) if (!assigned[k]) assigned.splice(k, 1) // slots nothing could fill
   // A1 Complete (2026-11-10): a circle with A1 task items (QT14 to QT17) gives one per lesson, mid-lesson.
   const task = retry ? null : a1QuestionFor(c, unit_id, round, { seen: seen.sentences ?? {}, cantListen: settings.cantListen, rng })
   if (task) assigned.splice(Math.floor(assigned.length / 2), 0, task)
