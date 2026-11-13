@@ -276,18 +276,37 @@ button.chip-drag {
     transform: scale(1.05);
     transition-duration: 30ms;
   }
-  /* Opening screen: the letters draw on one after another, hold, then one crossfade of about half a second reveals
-     the home screen in place (Splash.jsx sets each stroke's timing from its length, so the pen keeps one speed). */
+  /* Opening screen (Dan, 2026-11-13): a gauze curtain over the home screen, which is already drawn underneath: the page
+     colour at --gauze opacity, with a fine woven-dot texture. Leaving, the logo and version fade in 180 ms while the
+     curtain itself is handed to the halftone canvas (Splash.jsx halftoneOut), and taps already reach the home screen. */
   .splash {
-    @apply fixed inset-0 z-50 flex items-center justify-center bg-bg;
-    animation: splash-out 500ms ease-in-out 3200ms forwards; /* drawn by about 0.75s, then held about 2.4s */
+    @apply fixed inset-0 z-50 flex items-center justify-center;
+    /* the page colour with a faint ink tint, so the halftone dots read against the home screen as they shrink */
+    background-color: color-mix(in srgb, color-mix(in srgb, var(--bg) 90%, var(--ink)) calc(var(--gauze, 0.84) * 100%), transparent);
   }
-  /* First launch: the opening screen waits for a language, then fades at once. */
-  .splash.splash-hold {
-    animation: none;
+  .splash::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: radial-gradient(circle at center, color-mix(in srgb, var(--ink) 9%, transparent) 0 0.8px, transparent 1.3px);
+    background-size: 5px 5px;
   }
-  .splash.splash-now {
-    animation: splash-out 500ms ease-in-out forwards;
+  .splash-dots {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  .splash.splash-leaving {
+    background-color: transparent;
+    pointer-events: none;
+  }
+  .splash.splash-leaving::before,
+  .splash.splash-leaving > :not(.splash-dots) {
+    opacity: 0;
+    transition: opacity 180ms ease-out;
   }
   /* A dash longer than the stroke, offset past its end: nothing shows, not even a round cap, until it moves. */
   .splash-draw {
@@ -383,6 +402,9 @@ button.chip-drag {
     .splash-draw {
       animation: none;
       stroke-dashoffset: 0;
+    }
+    .splash {
+      transition: background-color 300ms linear;
     }
     .pair-out {
       animation: none;
@@ -514,9 +536,6 @@ button.chip-drag {
 }
 @keyframes splash-draw {
   to { stroke-dashoffset: 0; }
-}
-@keyframes splash-out {
-  to { opacity: 0; visibility: hidden; }
 }
 @keyframes pair-out {
   to { opacity: 0; transform: scale(0.85); visibility: hidden; }

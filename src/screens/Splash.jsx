@@ -11,20 +11,43 @@ const STAGGER_MS = 90
 // each joint, and settles at the end (Dan's test notes: more fluid, a little faster). easeInOutSine and its inverse.
 const easedTime = (progress) => Math.acos(1 - 2 * progress) / Math.PI
 
-// Shows each time the app opens, never inside a lesson. A tap skips it. It clears with one crossfade (about half a
-// second) that reveals the home screen in place, already drawn underneath; nothing on home moves (Dan, 2026-11-10).
-// On first launch (choose) it also shows "Choose Your Language" under the logo and waits: picking the running course
-// starts the fade at once; picking another reloads into it.
+// Shows each time the app opens, never inside a lesson (Dan, 2026-11-13: a gauze curtain). The home screen is already
+// drawn underneath and shows through a translucent sheet of the page colour with a fine woven-dot texture, so it's
+// plain the app is right there; the wordmark and sushi sit over it at full strength. It leaves by itself after the
+// letters draw and a short hold, or at once on any tap, click or key, with the halftone wipe from the Cunk countdown:
+// the curtain becomes a grid of dots that shrink away corner to corner (halftoneOut, a canvas, about 0.75 s), and taps
+// reach the home screen from the moment it starts. Reduced motion: a short fade. On first launch (choose) it shows
+// "Choose Your Language" and waits: picking the running course leaves at once; picking another reloads into it.
+const HOLD_MS = 3000 // letters drawn by about 0.75 s, then held
+const DOT = 26 // CSS px between dot centres
+const SWEEP = 0.7 // how staggered the corner-to-corner sweep is (0: every dot at once)
+const SHRINK_MS = 750
+const GAUZE = 0.84 // the curtain's opacity over the home screen
+
 export default function Splash({ onDone, choose = false }) {
   const svg = useRef(null)
+  const canvas = useRef(null)
   // The question can arrive a moment after the screen opens (once saved state is read), so it comes straight from
   // the prop; only "picked" is this screen's own.
   const [picked, setPicked] = useState(false)
+  const [leaving, setLeaving] = useState(false)
   const held = picked ? 'picked' : choose
+  const left = useRef(false)
+  const leave = () => {
+    if (left.current) return
+    left.current = true
+    // The canvas draws its first, full frame before the curtain's own colour goes, so nothing blinks.
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches && canvas.current) halftoneOut(canvas.current, onDone)
+    else setTimeout(onDone, 300)
+    setLeaving(true)
+  }
   useEffect(() => {
-    if (held) return
-    const safety = setTimeout(onDone, 4800)
-    return () => clearTimeout(safety)
+    if (held === true) return undefined
+    if (held === 'picked') { leave(); return undefined }
+    const auto = setTimeout(leave, HOLD_MS)
+    const onKey = () => leave()
+    window.addEventListener('keydown', onKey)
+    return () => { clearTimeout(auto); window.removeEventListener('keydown', onKey) }
   }, [held])
   // Before the first paint: measure every stroke and give it its slice of the letter's eased time.
   useLayoutEffect(() => {
@@ -43,11 +66,11 @@ export default function Splash({ onDone, choose = false }) {
       })
     })
   }, [])
-  const skip = () => { if (!held) onDone() }
+  const skip = () => { if (!held) leave() }
   const pick = (id) => { if (chooseCourse(id)) setPicked(true) }
   return (
-    <div className={`splash ${held === true ? 'splash-hold' : held === 'picked' ? 'splash-now' : ''}`} onClick={skip}
-      onAnimationEnd={(e) => { if (e.animationName === 'splash-out') onDone() }}>
+    <div className={`splash ${leaving ? 'splash-leaving' : ''}`} onClick={skip} style={{ '--gauze': GAUZE }}>
+      <canvas ref={canvas} className="splash-dots" aria-hidden="true" />
       <div className="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">
         <svg ref={svg} className="splash-wordmark w-full max-w-none md:w-[114%]" viewBox={splashViewBox} role="img" aria-label="Tamago" fill="none" strokeLinecap="round" strokeLinejoin="round">
           <defs>
@@ -74,4 +97,45 @@ export default function Splash({ onDone, choose = false }) {
       </div>
     </div>
   )
+}
+
+// The halftone wipe (from the Cunk countdown's clip transitions): the curtain is drawn as overlapping dots that cover it
+// completely, then every dot shrinks to nothing, the top-left ones first. One path filled once a frame, so overlaps
+// never darken. Then onDone.
+function halftoneOut(el, onDone) {
+  const dpr = Math.min(window.devicePixelRatio || 1, 2)
+  const W = (el.width = Math.ceil(window.innerWidth * dpr))
+  const H = (el.height = Math.ceil(window.innerHeight * dpr))
+  const ctx = el.getContext('2d')
+  // exactly the curtain's own colour, alpha included (read before it goes transparent)
+  const curtain = getComputedStyle(el.parentElement).backgroundColor
+  const s = DOT * dpr
+  const R = s * 0.73 // 0.7071·s already covers a square cell
+  const cols = Math.ceil(W / s) + 1
+  const rows = Math.ceil(H / s) + 1
+  ctx.fillStyle = curtain
+  const t0 = performance.now()
+  let done = false
+  const finish = () => { if (!done) { done = true; onDone() } }
+  const safety = setTimeout(finish, SHRINK_MS + 400)
+  const frame = (now) => {
+    const p = Math.min(1, Math.max(0, (now - t0) / SHRINK_MS))
+    ctx.clearRect(0, 0, W, H)
+    ctx.beginPath()
+    for (let j = 0; j < rows; j++) {
+      const y = j * s
+      for (let i = 0; i < cols; i++) {
+        const x = i * s
+        const local = Math.min(1, Math.max(0, p * (1 + SWEEP) - ((x + y) / (W + H)) * SWEEP))
+        const r = R * (1 - local) * (1 - local * 0.15)
+        if (r <= 0.01) continue
+        ctx.moveTo(x + r, y)
+        ctx.arc(x, y, r, 0, Math.PI * 2)
+      }
+    }
+    ctx.fill()
+    if (p < 1) requestAnimationFrame(frame)
+    else { clearTimeout(safety); finish() }
+  }
+  frame(t0)
 }
