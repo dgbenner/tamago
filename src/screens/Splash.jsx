@@ -22,7 +22,7 @@ const HOLD_MS = 3000 // letters drawn by about 0.75 s, then held
 const DOT = 26 // CSS px between dot centres
 const SWEEP = 0.7 // how staggered the corner-to-corner sweep is (0: every dot at once)
 const SHRINK_MS = 750
-const GAUZE = 0.84 // the curtain's opacity over the home screen
+const GAUZE = 0.9 // the curtain's opacity over the home screen (0.84 at first; Dan, 2026-11-13: a touch less showing through)
 
 export default function Splash({ onDone, choose = false }) {
   const svg = useRef(null)

@@ -325,10 +325,14 @@ export default function App() {
   const partOf = (unitId) => Number(tables.units.find((u) => u.unit_id === (isPack(unitId) ? nodeOfPack(unitId) : unitId))?.part || 1)
   const partCircles = (n) => layout.filter((t) => !isTopicNode(t.unit_id) && partOf(t.unit_id) === n).map((t) => t.unit_id)
   const partDone = (n) => partCircles(n).length > 0 && partCircles(n).every((u) => progressOf(u).round_reached >= 1)
-  const partUnlocked = (n) => n <= 1 || (partUnlocked(n - 1) && partDone(n - 1))
+  // German is fully unlocked for testing (Dan, 2026-11-13): every circle, part, checkpoint, scene and the final check
+  // open, whatever the progress. French and Spanish keep their locks.
+  const SHOT_UNLOCK = course.id === 'de'
+  const partUnlocked = (n) => SHOT_UNLOCK || n <= 1 || (partUnlocked(n - 1) && partDone(n - 1))
   const isOpen = (unitId) => {
     const unit = tables.units.find((u) => u.unit_id === unitId)
     if (!String(unit?.status).startsWith('live')) return false
+    if (SHOT_UNLOCK) return true
     if (!partUnlocked(partOf(unitId))) return false
     const after = String(rowOf(unitId)?.unlocks_after ?? '').match(/^row (\d+)$/)
     if (!after) return true
@@ -519,7 +523,7 @@ export default function App() {
   // circle has had its first lessons. Claude gets the learner's words and the course's A1 words, as forms only.
   const helpIds = ['U31', 'U32', 'U33'].filter((id) => tables.units.some((u) => u.unit_id === id && String(u.status).startsWith('live')))
   const helpLevel = helpIds.filter((id) => isOpen(id)).length
-  const sceneInfo = helpIds[1] ? { afterRow: rowOf(helpIds[1])?.row, available: progressOf(helpIds[1]).round_reached >= 1, scenes: (SCENES[course.id] ?? []).map((sc) => ({ ...sc, done: scenesDone[sc.id] ?? null })) } : null
+  const sceneInfo = helpIds[1] ? { afterRow: rowOf(helpIds[1])?.row, available: SHOT_UNLOCK || progressOf(helpIds[1]).round_reached >= 1, scenes: (SCENES[course.id] ?? []).map((sc) => ({ ...sc, done: scenesDone[sc.id] ?? null })) } : null
   const a1Forms = [...new Set(tables.words.filter((w) => !packs.some((p) => p.unit_id === w.first_unit)).map((w) => w.form))]
   const startConversation = (mode, scene, settingsFor, back) => setConvo({ mode, scene, settings: settingsFor, back }) || setScreen('converse')
   const conversationEnded = (found, c) => {
@@ -534,7 +538,7 @@ export default function App() {
     return { topic: tables.units.find((u) => u.unit_id === currentUnit)?.title ?? 'free', vocabulary: met < 80 ? 'mine' : 'few', speed: met < 60 ? 'slow' : 'normal', corrections: 'end' }
   }
   const partnerTopics = tables.units.filter((u) => onPath(u) && isOpen(u.unit_id) && u.is_topic_pick !== 'node').sort((a, b) => a.order - b.order).map((u) => u.title)
-  const finalInfo = { exam: EXAMS[course.id], available: mainUnitIds.length > 0 && mainUnitIds.every((u) => progressOf(u).round_reached >= 1), last: finalCheck }
+  const finalInfo = { exam: EXAMS[course.id], available: SHOT_UNLOCK || (mainUnitIds.length > 0 && mainUnitIds.every((u) => progressOf(u).round_reached >= 1)), last: finalCheck }
   const startCheckpoint = (row) => {
     const ids = unitsUpTo(row).flatMap(itemsOf)
     const weakestFirst = weakest(ids, cards, 10)
@@ -1041,7 +1045,7 @@ export default function App() {
   const partInfo = partList.length ? {
     n: shownPart, total: lastPart, title: partList.find((x) => x.part === shownPart)?.title ?? '',
     switcher: builtParts.map((n) => ({ n, title: partList.find((x) => x.part === n)?.title ?? '' })),
-    review: shownPart < lastPart ? { available: partDone(shownPart), done: partReviews[shownPart] ?? null, units: partCircles(shownPart).map((u) => tables.units.find((x) => x.unit_id === u).title) } : null,
+    review: shownPart < lastPart ? { available: SHOT_UNLOCK || partDone(shownPart), done: partReviews[shownPart] ?? null, units: partCircles(shownPart).map((u) => tables.units.find((x) => x.unit_id === u).title) } : null,
     next: nextPart ? { n: nextPart.part, title: nextPart.title, summary: nextPart.summary, unlocked: partUnlocked(nextPart.part), built: partCircles(nextPart.part).length > 0 } : null,
     // Every part, finished and current included, for the carousel at the end of the part (Dan, 2026-11-11). It opens on
     // the part after this one (this one when it's the last); the left arrow steps back through earlier parts.
@@ -1086,7 +1090,7 @@ export default function App() {
         ...(settings.developer !== 'off' ? [{ id: 'developer', screen: 'developer', label: 'Developer', about: 'Testing controls, not part of the course', quiet: true, onOpen: () => setScreen('developer') }] : []),
       ]}
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
-      checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
+      checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: SHOT_UNLOCK || unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
       catchUps={catchUps.filter((c) => rows.some((r) => r.row === c.afterRow))} onCatchUp={startCatchUp}
       onCheckpoint={startCheckpoint} finalCheck={shownPart === lastPart ? finalInfo : null} onFinal={startFinal}
       part={partInfo} onPartView={(n) => { setPartView(n); putKv('part_view', n) }} onPartReview={() => startPartReview(shownPart)}
