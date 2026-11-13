@@ -120,9 +120,12 @@ export default function Conversation({ mode, scene, settings, known, pool, names
     )
   }
 
+  // While talking (Dan, 2026-11-13) the screen is exactly the window's height: the header and the reply bar stay put
+  // and only the dialogue between them scrolls. Before and after, the page scrolls as a whole.
+  const talk = phase === 'talk'
   return (
-    <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-4 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-6">
-      <header className="flex items-center gap-2">
+    <main className={`mx-auto flex max-w-md flex-col gap-4 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] ${talk ? 'h-dvh overflow-hidden pb-[max(0.75rem,env(safe-area-inset-bottom))]' : 'min-h-dvh pb-6'}`}>
+      <header className="flex shrink-0 items-center gap-2">
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
         <h1 className="text-xl font-semibold">{scene.title}</h1>
         {phase === 'talk' && <span className="ml-auto text-sm text-muted">{left} {left === 1 ? 'turn' : 'turns'} left</span>}
@@ -148,7 +151,7 @@ export default function Conversation({ mode, scene, settings, known, pool, names
       )}
 
       {phase !== 'prep' && (
-        <ol className="flex flex-1 flex-col gap-3" aria-live="polite">
+        <ol className={`flex flex-1 flex-col gap-3 ${talk ? '-mx-4 min-h-0 overflow-y-auto px-4 pb-2' : ''}`} aria-live="polite">
           {turns.map((t, i) => (t.role === 'ai'
             ? (
               <li key={i} className="self-start rounded-2xl border-2 border-line bg-surface p-3">
@@ -172,7 +175,7 @@ export default function Conversation({ mode, scene, settings, known, pool, names
       )}
 
       {phase === 'talk' && (
-        <div className="sticky bottom-0 flex flex-col gap-2 bg-bg pt-2">
+        <div className="flex shrink-0 flex-col gap-2 border-t-2 border-line bg-bg pt-3">
           {error && <p role="alert" className="text-sm">{error} <button onClick={() => next(turns)} className="btn-tertiary">Try Again</button></p>}
           {phrases.length > 0 && (
             <div className="no-scrollbar -mx-4 flex gap-2 overflow-x-auto px-4" role="group" aria-label="Help phrases">
