@@ -712,11 +712,12 @@ export function swapRemaining(c, session, { cantListen = false, cantSpeak = fals
 // (exposure: word_id → times shown). No five-round climb: each item comes at the round its circle last reached
 // (reachedOf). Up to ten items; an empty list means there's nothing to catch up on yet.
 const CATCHUP_SENTENCE_TYPES = new Set(['QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT11', 'QT12'])
-export function catchUpItems(c, { units, bank = [], wordMisses = {}, exposure = {}, met = new Set(), reachedOf = () => 1, limit = LESSON_SIZE }) {
+// cleared ('s:<id>' / 'w:<id>', Dan 2026-11-14): items answered right in a Brush-Up, left out until missed again.
+export function catchUpItems(c, { units, bank = [], wordMisses = {}, exposure = {}, met = new Set(), reachedOf = () => 1, limit = LESSON_SIZE, cleared = {} }) {
   const roundOfUnit = (u) => Math.min(5, Math.max(1, reachedOf(u) || 1))
-  const sentences = bank.map((e) => ({ e, s: c.sentenceById.get(e.sentence_id) })).filter((x) => x.s && units.has(x.s.unit_id))
+  const sentences = bank.map((e) => ({ e, s: c.sentenceById.get(e.sentence_id) })).filter((x) => x.s && units.has(x.s.unit_id) && !cleared[`s:${x.s.sentence_id}`])
     .map((x) => ({ kind: 'sentence', sentence_id: x.s.sentence_id, unit_id: x.s.unit_id, type: x.e.type_id, round: roundOfUnit(x.s.unit_id) }))
-  const inScope = (w) => w && units.has(w.first_unit) && met.has(w.word_id) && w.hint
+  const inScope = (w) => w && units.has(w.first_unit) && met.has(w.word_id) && w.hint && !cleared[`w:${w.word_id}`]
   const missed = Object.keys(wordMisses).map((id) => c.wordById.get(id)).filter(inScope)
   const missedIds = new Set(missed.map((w) => w.word_id))
   const thin = c.words.filter((w) => inScope(w) && !missedIds.has(w.word_id) && (exposure[w.word_id] ?? 0) >= 1 && (exposure[w.word_id] ?? 0) <= 2)
@@ -745,7 +746,7 @@ export function buildCatchUp(c, items, { settings = {}, rng = Math.random, slot_
   if (firstRound.length >= 2) queue.splice(Math.min(1, queue.length), 0, makeMatchPairs(c, firstRound.slice(0, 5), 1, rng))
   else if (firstRound.length === 1) {
     const s = simplestSentenceWith(c, firstRound[0].word_id, new Set(c.words.map((w) => w.word_id)))
-    if (s) queue.push(makeQuestion(c, 'QT03', s, 1, rng, null, { cantListen: settings.cantListen }))
+    if (s) queue.push({ ...makeQuestion(c, 'QT03', s, 1, rng, null, { cantListen: settings.cantListen }), catchup_word: firstRound[0].word_id })
   }
   return {
     id: `K${Math.floor(rng() * 1e12)}`, kind: 'catchup', slot_id, started_at: Date.now(),

@@ -331,9 +331,10 @@ function PartCarousel({ part, onJumpPart }) {
 // Brush-Up (was Catch-Up; renamed by Dan, 2026-11-11; A1 Complete 9): a circle with a side dish, filled for this learner from the circles above it. No lessons of
 // its own, so no ring. No line under the title (Dan, 2026-11-11); how much is waiting is on its card, and in the
 // circle's spoken name.
-const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.count ? `${cu.count} to brush up` : 'Nothing yet')
+const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.count ? `${cu.count} to brush up` : cu.done ? 'All brushed up' : 'Nothing yet')
 function CatchUpNode({ cu, onPick }) {
-  return <CircleNode title={cu.title} icon="/sushi/misc/miso-soup.webp" locked={!cu.available} ring={false} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
+  // A full green ring once nothing is left to brush up (Dan, 2026-11-14); no ring while items wait or before any lessons.
+  return <CircleNode title={cu.title} icon="/sushi/misc/miso-soup.webp" locked={!cu.available} ring={Boolean(cu.done)} lessonsDone={cu.done ? 1 : 0} lessonsTotal={1} recall={cu.done ? 1 : null} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
 }
 function CatchUpCard({ cu, onStart, onClose }) {
   return (
@@ -348,7 +349,9 @@ function CatchUpCard({ cu, onStart, onClose }) {
               <p className="mt-4 font-medium">{cu.count} {cu.count === 1 ? 'item' : 'items'}{cu.mistakes ? `, ${cu.mistakes} of them ${cu.mistakes === 1 ? 'a mistake' : 'mistakes'}` : ''}</p>
               <button onClick={onStart} className="btn-submit mt-5 w-full">Start Brush-Up</button>
             </>
-          : <p className="mt-4 text-sm">Nothing to brush up yet. It fills as you do lessons.</p>}
+          : cu.done
+            ? <p className="mt-4 text-sm">All brushed up. Anything missed in the circles above comes back here.</p>
+            : <p className="mt-4 text-sm">Nothing to brush up yet. It fills as you do lessons.</p>}
     </Sheet>
   )
 }

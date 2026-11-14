@@ -62,3 +62,21 @@ test('Catch-Up slots sit after rows that exist, two per French part so far', () 
   for (const c of tables.catch_up) byPart[c.part] = (byPart[c.part] ?? 0) + 1
   assert.deepEqual(byPart, { 1: 2, 2: 2 })
 })
+
+// Dan, 2026-11-14: an item answered right in a Brush-Up leaves it at once (finished circles above or not); a later miss
+// clears the mark in App, so it comes back. Everything cleared means the Brush-Up is done.
+test('Brush-Up: items answered right there leave it; all cleared leaves nothing', () => {
+  const units = new Set(['U01', 'U02', 'U03'])
+  const s = tables.sentences.find((x) => x.unit_id === 'U02')
+  const words = tables.words.filter((w) => units.has(w.first_unit) && w.hint)
+  const met = new Set(words.map((w) => w.word_id))
+  const exposure = Object.fromEntries(words.map((w, i) => [w.word_id, i < 3 ? 1 : 9]))
+  const args = { units, bank: [{ sentence_id: s.sentence_id, type_id: 'QT08' }], wordMisses: { [words[5].word_id]: '2026-11-10' }, exposure, met, reachedOf: () => 2 }
+  const all4 = catchUpItems(all, args)
+  assert.equal(all4.length, 5)
+  const some = catchUpItems(all, { ...args, cleared: { [`s:${s.sentence_id}`]: 'x', [`w:${words[5].word_id}`]: 'x' } })
+  assert.equal(some.length, 3)
+  assert.ok(some.every((x) => x.kind === 'word' && !x.missed))
+  const cleared = Object.fromEntries(all4.map((x) => [x.kind === 'sentence' ? `s:${x.sentence_id}` : `w:${x.word_id}`, 'x']))
+  assert.equal(catchUpItems(all, { ...args, cleared }).length, 0)
+})

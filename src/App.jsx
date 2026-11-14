@@ -123,6 +123,13 @@ export default function App() {
   const [wordMisses, setWordMisses] = useState({})
   // Catch-Up (A1 Complete 9): how often each word was shown in Catch-Up sessions, on top of the lessons' counts.
   const [catchupSeen, setCatchupSeen] = useState({})
+  // Brush-Up items answered right there (Dan, 2026-11-14): 's:<sentence>' or 'w:<word>' → date. A cleared item leaves
+  // every Brush-Up at once, finished circles above or not; a later miss of it anywhere brings it back.
+  const [catchupCleared, setCatchupCleared] = useState({})
+  // A Brush-Up finished clean is settled (slot_id → date): from then on only misses fill it again, not words that are
+  // merely new or seldom seen, so its green ring goes only when something above it is got wrong (Dan, 2026-11-14).
+  const [catchupSettled, setCatchupSettled] = useState({})
+  const unclear = (keys) => setCatchupCleared((m) => { if (!keys.some((k) => m[k])) return m; const n = { ...m }; for (const k of keys) delete n[k]; putKv('catchup_cleared', n); return n })
   // The final A1 check's last result (kv final_check: date and per-part scores).
   const [finalCheck, setFinalCheck] = useState(null)
   const [variantStatus, setVariantStatus] = useState({})
@@ -171,6 +178,8 @@ export default function App() {
       setCheckpointsSkipped(s.kv.checkpoints_skipped ?? {})
       setWordMisses(s.kv.word_misses ?? {})
       setCatchupSeen(s.kv.catchup_seen ?? {})
+      setCatchupCleared(s.kv.catchup_cleared ?? {})
+      setCatchupSettled(s.kv.catchup_settled ?? {})
       setFinalCheck(s.kv.final_check ?? null)
       applyVariants(s.kv.variant_status ?? {})
       // The first node's choice keeps its old key (topic_choice); later nodes use topic_choice_<node>.
@@ -527,13 +536,22 @@ export default function App() {
     ...layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id)).map((t) => t.unit_id),
     ...packs.filter((p) => onPath(p) && (rowOf(p.unit_id)?.row ?? Infinity) <= row).map((p) => p.unit_id),
   ])
-  const catchUpFor = (row) => catchUpItems(allContent, { units: catchUpUnits(row), bank, wordMisses, exposure, met: seenWords.current, reachedOf: (u) => progressOf(u).round_reached })
+  const catchUpFor = (row) => catchUpItems(allContent, { units: catchUpUnits(row), bank, wordMisses, exposure, met: seenWords.current, reachedOf: (u) => progressOf(u).round_reached, cleared: catchupCleared })
+  const catchUpForSlot = (c) => { const items = catchUpFor(c.after_row); return catchupSettled[c.slot_id] ? items.filter((x) => x.kind === 'sentence' || x.missed) : items }
   const catchUps = (tables.catch_up ?? []).filter((c) => layout.some((t) => t.row === c.after_row)).map((c) => {
-    const items = catchUpFor(c.after_row)
-    return { ...c, afterRow: c.after_row, available: layout.filter((t) => t.row === c.after_row).some((t) => isOpen(t.unit_id)),
+    const items = catchUpForSlot(c)
+    const available = layout.filter((t) => t.row === c.after_row).some((t) => isOpen(t.unit_id))
+    // Done (green ring): open, nothing left to brush up, and lessons done above it (an untouched part isn't done).
+    const started = [...catchUpUnits(c.after_row)].some((u) => progressOf(u).lessons_done > 0)
+    return { ...c, afterRow: c.after_row, available, done: available && started && items.length === 0,
       count: items.length, mistakes: items.filter((x) => x.kind === 'sentence' || x.missed).length }
   })
-  const startCatchUp = (c) => { const items = catchUpFor(c.afterRow); if (items.length) begin(buildCatchUp(allContent, items, { settings: lessonModes(), slot_id: c.slot_id })) }
+  const startCatchUp = (c) => { const items = catchUpForSlot(c); if (items.length) begin(buildCatchUp(allContent, items, { settings: lessonModes(), slot_id: c.slot_id })) }
+  const newlyDone = catchUps.filter((c) => c.done && !catchupSettled[c.slot_id]).map((c) => c.slot_id).join(',')
+  useEffect(() => {
+    if (!newlyDone) return
+    setCatchupSettled((m) => { const n = { ...m }; for (const id of newlyDone.split(',')) n[id] = today(); putKv('catchup_settled', n); return n })
+  }, [newlyDone])
   // The final A1 check: four parts over every A1 unit's sentences, modeled on the course's A1 exam (finalcheck.js).
   const mainUnitIds = layout.filter((t) => !isTopicNode(t.unit_id)).map((t) => t.unit_id)
   const startFinal = () => begin(buildSession(allContent, 'final', finalItems(allContent, mainUnitIds), { settings: lessonModes() }))
@@ -591,6 +609,7 @@ export default function App() {
   }
 
   const addToBank = (sentence_id, type_id) => {
+    if (sentence_id) unclear([`s:${sentence_id}`])
     setBank((b) => {
       if (!sentence_id || b.some((e) => e.sentence_id === sentence_id)) return b
       const row = { sentence_id, type_id, correct_in_review: 0, correct_days: [], added_at: new Date().toISOString() }
@@ -657,6 +676,12 @@ export default function App() {
       // Round 1 misses stay out of the bank, and so do misses in a placement or an "I can" check (they test, they don't teach).
       if (q.round >= 2 && !q.item_id && !['placement', 'check', 'generated', 'final'].includes(session.kind)) addToBank(q.sentence_id ?? reask?.sentence_id, q.type)
     }
+    // Brush-Up: a right answer (a testing pass too) clears the item it was asked for, sentence or word(s).
+    if (session.kind === 'catchup' && result.correct) {
+      const keys = q.type === 'QT01' ? (q.pairs ?? []).filter((p) => p.word_id !== result.missedPair?.word_id).map((p) => `w:${p.word_id}`)
+        : q.catchup_word ? [`w:${q.catchup_word}`] : q.type === 'QT18' ? (q.word_ids ?? []).map((id) => `w:${id}`) : q.sentence_id ? [`s:${q.sentence_id}`] : []
+      if (keys.length) setCatchupCleared((m) => { const n = { ...m }; for (const k of keys) n[k] = today(); putKv('catchup_cleared', n); return n })
+    }
     if ((session.kind === 'review' || session.kind === 'catchup') && result.correct) {
       setBank((b) => b.flatMap((e) => {
         if (e.sentence_id !== q.sentence_id) return [e]
@@ -707,6 +732,7 @@ export default function App() {
     }
     const cleared = result.correct ? [...segs.map((x) => x.word_id), ...(q.word_ids ?? [])] : []
     if (!missed.length && !cleared.some((id) => wordMisses[id])) return
+    if (missed.length) unclear(missed.map((id) => `w:${id}`))
     setWordMisses((m) => {
       const n = { ...m }
       for (const id of cleared) delete n[id]
