@@ -18704,6 +18704,22 @@
     "hint_override": ""
   },
   {
+    "sentence_id": "S3113",
+    "position": 3,
+    "surface": "E",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3113",
+    "position": 4,
+    "surface": "tu",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
     "sentence_id": "S3114",
     "position": 1,
     "surface": "Non",
@@ -19010,24 +19026,32 @@
   {
     "sentence_id": "S5101",
     "position": 1,
-    "surface": "Ho",
-    "word_id": "W066",
+    "surface": "L'",
+    "word_id": "W020",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S5101",
     "position": 2,
-    "surface": "un",
-    "word_id": "W009",
+    "surface": "uccello",
+    "word_id": "W072",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S5101",
     "position": 3,
-    "surface": "uccello",
-    "word_id": "W072",
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5101",
+    "position": 4,
+    "surface": "piccolo",
+    "word_id": "W031",
     "notes": "",
     "hint_override": ""
   },
@@ -19162,22 +19186,14 @@
   {
     "sentence_id": "S5106",
     "position": 1,
-    "surface": "No",
-    "word_id": "W003",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S5106",
-    "position": 2,
-    "surface": "non",
+    "surface": "Non",
     "word_id": "W004",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S5106",
-    "position": 3,
+    "position": 2,
     "surface": "mangio",
     "word_id": "W049",
     "notes": "",
@@ -19185,7 +19201,7 @@
   },
   {
     "sentence_id": "S5106",
-    "position": 4,
+    "position": 3,
     "surface": "pesce",
     "word_id": "W073",
     "notes": "",
@@ -20202,32 +20218,32 @@
   {
     "sentence_id": "S8105",
     "position": 1,
-    "surface": "Sì",
-    "word_id": "W002",
+    "surface": "Il",
+    "word_id": "W018",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S8105",
     "position": 2,
-    "surface": "ha",
-    "word_id": "W068",
+    "surface": "giardino",
+    "word_id": "W116",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S8105",
     "position": 3,
-    "surface": "un",
-    "word_id": "W009",
+    "surface": "è",
+    "word_id": "W023",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S8105",
     "position": 4,
-    "surface": "giardino",
-    "word_id": "W116",
+    "surface": "piccolo",
+    "word_id": "W031",
     "notes": "",
     "hint_override": ""
   },
@@ -21146,6 +21162,14 @@
   {
     "sentence_id": "S10108",
     "position": 3,
+    "surface": "una",
+    "word_id": "W010",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10108",
+    "position": 4,
     "surface": "mia",
     "word_id": "W130",
     "notes": "",
@@ -21153,7 +21177,7 @@
   },
   {
     "sentence_id": "S10108",
-    "position": 4,
+    "position": 5,
     "surface": "amica",
     "word_id": "W139",
     "notes": "",
@@ -21666,8 +21690,8 @@
   {
     "sentence_id": "S53109",
     "position": 1,
-    "surface": "Sono",
-    "word_id": "W007",
+    "surface": "Siamo",
+    "word_id": "W082",
     "notes": "",
     "hint_override": ""
   },
@@ -21754,9 +21778,9 @@
   {
     "sentence_id": "S53112",
     "position": 1,
-    "surface": "Sì",
-    "word_id": "W002",
-    "notes": "",
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
     "hint_override": ""
   },
   {
@@ -21778,16 +21802,16 @@
   {
     "sentence_id": "S53112",
     "position": 4,
-    "surface": "bicicletta",
-    "word_id": "W1044",
+    "surface": "bella",
+    "word_id": "W103",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S53112",
     "position": 5,
-    "surface": "nuova",
-    "word_id": "W100",
+    "surface": "bicicletta",
+    "word_id": "W1044",
     "notes": "",
     "hint_override": ""
   },
@@ -22002,7 +22026,7 @@
   {
     "sentence_id": "S12109",
     "position": 1,
-    "surface": "Mary",
+    "surface": "Maria",
     "word_id": "",
     "notes": "name",
     "hint_override": ""
@@ -22130,14 +22154,22 @@
   {
     "sentence_id": "S13103",
     "position": 1,
-    "surface": "Sì",
-    "word_id": "W002",
+    "surface": "La",
+    "word_id": "W019",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13103",
     "position": 2,
+    "surface": "casa",
+    "word_id": "W028",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13103",
+    "position": 3,
     "surface": "è",
     "word_id": "W023",
     "notes": "",
@@ -22145,7 +22177,7 @@
   },
   {
     "sentence_id": "S13103",
-    "position": 3,
+    "position": 4,
     "surface": "rossa",
     "word_id": "W163",
     "notes": "",
@@ -22154,22 +22186,30 @@
   {
     "sentence_id": "S13104",
     "position": 1,
-    "surface": "No",
-    "word_id": "W003",
+    "surface": "Ho",
+    "word_id": "W066",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13104",
     "position": 2,
-    "surface": "è",
-    "word_id": "W023",
+    "surface": "una",
+    "word_id": "W010",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13104",
     "position": 3,
+    "surface": "mela",
+    "word_id": "W062",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13104",
+    "position": 4,
     "surface": "verde",
     "word_id": "W165",
     "notes": "",
@@ -22178,14 +22218,22 @@
   {
     "sentence_id": "S13105",
     "position": 1,
-    "surface": "No",
-    "word_id": "W003",
+    "surface": "Il",
+    "word_id": "W018",
     "notes": "",
     "hint_override": ""
   },
   {
     "sentence_id": "S13105",
     "position": 2,
+    "surface": "gatto",
+    "word_id": "W070",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13105",
+    "position": 3,
     "surface": "è",
     "word_id": "W023",
     "notes": "",
@@ -22193,7 +22241,7 @@
   },
   {
     "sentence_id": "S13105",
-    "position": 3,
+    "position": 4,
     "surface": "bianco",
     "word_id": "W168",
     "notes": "",
@@ -22784,46 +22832,6 @@
     "hint_override": ""
   },
   {
-    "sentence_id": "S51105",
-    "position": 1,
-    "surface": "Che",
-    "word_id": "W145",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S51105",
-    "position": 2,
-    "surface": "cosa",
-    "word_id": "W144",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S51105",
-    "position": 3,
-    "surface": "hai",
-    "word_id": "W067",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S51105",
-    "position": 4,
-    "surface": "in",
-    "word_id": "W110",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
-    "sentence_id": "S51105",
-    "position": 5,
-    "surface": "testa",
-    "word_id": "W1008",
-    "notes": "",
-    "hint_override": ""
-  },
-  {
     "sentence_id": "S51106",
     "position": 1,
     "surface": "Il",
@@ -23122,8 +23130,8 @@
   {
     "sentence_id": "S51113",
     "position": 5,
-    "surface": "sta",
-    "word_id": "W046",
+    "surface": "va",
+    "word_id": "W184",
     "notes": "",
     "hint_override": ""
   },
@@ -23196,6 +23204,2990 @@
     "position": 4,
     "surface": "piedi",
     "word_id": "W1005",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1201",
+    "position": 1,
+    "surface": "Tu",
+    "word_id": "W006",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1201",
+    "position": 2,
+    "surface": "sei",
+    "word_id": "W008",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1201",
+    "position": 3,
+    "surface": "Mary",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1202",
+    "position": 1,
+    "surface": "Sei",
+    "word_id": "W008",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1202",
+    "position": 2,
+    "surface": "Mary",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1203",
+    "position": 1,
+    "surface": "Non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1203",
+    "position": 2,
+    "surface": "sono",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1203",
+    "position": 3,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1203",
+    "position": 4,
+    "surface": "ragazzo",
+    "word_id": "W013",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1203",
+    "position": 5,
+    "surface": "Sono",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1203",
+    "position": 6,
+    "surface": "una",
+    "word_id": "W010",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S1203",
+    "position": 7,
+    "surface": "ragazza",
+    "word_id": "W014",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S2201",
+    "position": 1,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S2201",
+    "position": 2,
+    "surface": "e",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S2201",
+    "position": 3,
+    "surface": "Maria",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S2201",
+    "position": 4,
+    "surface": "sono",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S2201",
+    "position": 5,
+    "surface": "qui",
+    "word_id": "W024",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3201",
+    "position": 1,
+    "surface": "Arrivederci",
+    "word_id": "W040",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3201",
+    "position": 2,
+    "surface": "e",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3201",
+    "position": 3,
+    "surface": "buona notte",
+    "word_id": "W039",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3202",
+    "position": 1,
+    "surface": "Scusa",
+    "word_id": "W041",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3202",
+    "position": 2,
+    "surface": "stai",
+    "word_id": "W045",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3202",
+    "position": 3,
+    "surface": "bene",
+    "word_id": "W047",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3203",
+    "position": 1,
+    "surface": "Parli",
+    "word_id": "W708",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3203",
+    "position": 2,
+    "surface": "bene",
+    "word_id": "W047",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3204",
+    "position": 1,
+    "surface": "Parla",
+    "word_id": "W707",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S3204",
+    "position": 2,
+    "surface": "male",
+    "word_id": "W048",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4201",
+    "position": 1,
+    "surface": "Non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4201",
+    "position": 2,
+    "surface": "bevo",
+    "word_id": "W052",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4201",
+    "position": 3,
+    "surface": "più",
+    "word_id": "W704",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4201",
+    "position": 4,
+    "surface": "caffè",
+    "word_id": "W063",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4202",
+    "position": 1,
+    "surface": "Ti",
+    "word_id": "W056",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4202",
+    "position": 2,
+    "surface": "capisco",
+    "word_id": "W701",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S4202",
+    "position": 3,
+    "surface": "bene",
+    "word_id": "W047",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5201",
+    "position": 1,
+    "surface": "Il",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5201",
+    "position": 2,
+    "surface": "pesce",
+    "word_id": "W073",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5201",
+    "position": 3,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5201",
+    "position": 4,
+    "surface": "piccolo",
+    "word_id": "W031",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5202",
+    "position": 1,
+    "surface": "La",
+    "word_id": "W019",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5202",
+    "position": 2,
+    "surface": "donna",
+    "word_id": "W012",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5202",
+    "position": 3,
+    "surface": "mangia",
+    "word_id": "W051",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5202",
+    "position": 4,
+    "surface": "pesce",
+    "word_id": "W073",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5202",
+    "position": 5,
+    "surface": "e",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5202",
+    "position": 6,
+    "surface": "beve",
+    "word_id": "W054",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5202",
+    "position": 7,
+    "surface": "vino",
+    "word_id": "W065",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5203",
+    "position": 1,
+    "surface": "Io",
+    "word_id": "W005",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5203",
+    "position": 2,
+    "surface": "non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5203",
+    "position": 3,
+    "surface": "sono",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5203",
+    "position": 4,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5203",
+    "position": 5,
+    "surface": "gatto",
+    "word_id": "W070",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5204",
+    "position": 1,
+    "surface": "Non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5204",
+    "position": 2,
+    "surface": "sono",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5204",
+    "position": 3,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5204",
+    "position": 4,
+    "surface": "gatto",
+    "word_id": "W070",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5205",
+    "position": 1,
+    "surface": "Questo",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5205",
+    "position": 2,
+    "surface": "bambino",
+    "word_id": "W015",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5205",
+    "position": 3,
+    "surface": "ha",
+    "word_id": "W068",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5205",
+    "position": 4,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5205",
+    "position": 5,
+    "surface": "gatto",
+    "word_id": "W070",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5206",
+    "position": 1,
+    "surface": "Il",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5206",
+    "position": 2,
+    "surface": "gatto",
+    "word_id": "W070",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5206",
+    "position": 3,
+    "surface": "mangia",
+    "word_id": "W051",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5206",
+    "position": 4,
+    "surface": "l'",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5206",
+    "position": 5,
+    "surface": "uccello",
+    "word_id": "W072",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5207",
+    "position": 1,
+    "surface": "Il",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5207",
+    "position": 2,
+    "surface": "cavallo",
+    "word_id": "W071",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5207",
+    "position": 3,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5207",
+    "position": 4,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5207",
+    "position": 5,
+    "surface": "animale",
+    "word_id": "W075",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5208",
+    "position": 1,
+    "surface": "Come",
+    "word_id": "W043",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5208",
+    "position": 2,
+    "surface": "sta",
+    "word_id": "W046",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5208",
+    "position": 3,
+    "surface": "l'",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5208",
+    "position": 4,
+    "surface": "uccello",
+    "word_id": "W072",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5209",
+    "position": 1,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5209",
+    "position": 2,
+    "surface": "ha",
+    "word_id": "W068",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5209",
+    "position": 3,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S5209",
+    "position": 4,
+    "surface": "gatto",
+    "word_id": "W070",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S32201",
+    "position": 1,
+    "surface": "Lui",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S32201",
+    "position": 2,
+    "surface": "parla",
+    "word_id": "W707",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S32201",
+    "position": 3,
+    "surface": "inglese",
+    "word_id": "W718",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S32202",
+    "position": 1,
+    "surface": "Lei",
+    "word_id": "W022",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S32202",
+    "position": 2,
+    "surface": "parla",
+    "word_id": "W707",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S32202",
+    "position": 3,
+    "surface": "inglese",
+    "word_id": "W718",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6201",
+    "position": 1,
+    "surface": "Abbiamo",
+    "word_id": "W084",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6201",
+    "position": 2,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6201",
+    "position": 3,
+    "surface": "cane",
+    "word_id": "W069",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6201",
+    "position": 4,
+    "surface": "e",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6201",
+    "position": 5,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6201",
+    "position": 6,
+    "surface": "gatto",
+    "word_id": "W070",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6202",
+    "position": 1,
+    "surface": "Non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6202",
+    "position": 2,
+    "surface": "siamo",
+    "word_id": "W082",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6202",
+    "position": 3,
+    "surface": "bambini",
+    "word_id": "W089",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6202",
+    "position": 4,
+    "surface": "siamo",
+    "word_id": "W082",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S6202",
+    "position": 5,
+    "surface": "uomini",
+    "word_id": "W091",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7201",
+    "position": 1,
+    "surface": "Abbiamo",
+    "word_id": "W084",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7201",
+    "position": 2,
+    "surface": "una",
+    "word_id": "W010",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7201",
+    "position": 3,
+    "surface": "macchina",
+    "word_id": "W106",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7202",
+    "position": 1,
+    "surface": "Sono",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7202",
+    "position": 2,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7202",
+    "position": 3,
+    "surface": "uomo",
+    "word_id": "W011",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7202",
+    "position": 4,
+    "surface": "molto",
+    "word_id": "W104",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7202",
+    "position": 5,
+    "surface": "vecchio",
+    "word_id": "W097",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7203",
+    "position": 1,
+    "surface": "Non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7203",
+    "position": 2,
+    "surface": "mi",
+    "word_id": "W055",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7203",
+    "position": 3,
+    "surface": "piace",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7203",
+    "position": 4,
+    "surface": "questa",
+    "word_id": "W026",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7203",
+    "position": 5,
+    "surface": "macchina",
+    "word_id": "W106",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7204",
+    "position": 1,
+    "surface": "Bevo",
+    "word_id": "W052",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7204",
+    "position": 2,
+    "surface": "molto",
+    "word_id": "W104",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7204",
+    "position": 3,
+    "surface": "caffè",
+    "word_id": "W063",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7205",
+    "position": 1,
+    "surface": "I",
+    "word_id": "W076",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7205",
+    "position": 2,
+    "surface": "bambini",
+    "word_id": "W089",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7205",
+    "position": 3,
+    "surface": "hanno",
+    "word_id": "W086",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7205",
+    "position": 4,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7205",
+    "position": 5,
+    "surface": "vecchio",
+    "word_id": "W097",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S7205",
+    "position": 6,
+    "surface": "libro",
+    "word_id": "W027",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52201",
+    "position": 1,
+    "surface": "Questo",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52201",
+    "position": 2,
+    "surface": "non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52201",
+    "position": 3,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52201",
+    "position": 4,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52201",
+    "position": 5,
+    "surface": "gioco",
+    "word_id": "W1021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52202",
+    "position": 1,
+    "surface": "Il",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52202",
+    "position": 2,
+    "surface": "dottore",
+    "word_id": "W029",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52202",
+    "position": 3,
+    "surface": "legge",
+    "word_id": "W1031",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52202",
+    "position": 4,
+    "surface": "molti",
+    "word_id": "W094",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52202",
+    "position": 5,
+    "surface": "libri",
+    "word_id": "W087",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52203",
+    "position": 1,
+    "surface": "Ti",
+    "word_id": "W056",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52203",
+    "position": 2,
+    "surface": "piace",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S52203",
+    "position": 3,
+    "surface": "leggere",
+    "word_id": "W1029",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8201",
+    "position": 1,
+    "surface": "Abbiamo",
+    "word_id": "W084",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8201",
+    "position": 2,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8201",
+    "position": 3,
+    "surface": "tavolo",
+    "word_id": "W112",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8201",
+    "position": 4,
+    "surface": "in",
+    "word_id": "W110",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8201",
+    "position": 5,
+    "surface": "cucina",
+    "word_id": "W114",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8202",
+    "position": 1,
+    "surface": "Abbiamo",
+    "word_id": "W084",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8202",
+    "position": 2,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8202",
+    "position": 3,
+    "surface": "grande",
+    "word_id": "W030",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8202",
+    "position": 4,
+    "surface": "giardino",
+    "word_id": "W116",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8203",
+    "position": 1,
+    "surface": "Ho",
+    "word_id": "W066",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8203",
+    "position": 2,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8203",
+    "position": 3,
+    "surface": "tavolo",
+    "word_id": "W112",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8204",
+    "position": 1,
+    "surface": "Il",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8204",
+    "position": 2,
+    "surface": "libro",
+    "word_id": "W027",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8204",
+    "position": 3,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8204",
+    "position": 4,
+    "surface": "sul",
+    "word_id": "W111",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8204",
+    "position": 5,
+    "surface": "tavolo",
+    "word_id": "W112",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8205",
+    "position": 1,
+    "surface": "Come",
+    "word_id": "W043",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8205",
+    "position": 2,
+    "surface": "si",
+    "word_id": "W711",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8205",
+    "position": 3,
+    "surface": "dice",
+    "word_id": "W712",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8205",
+    "position": 4,
+    "surface": "in",
+    "word_id": "W110",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S8205",
+    "position": 5,
+    "surface": "italiano",
+    "word_id": "W717",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S9201",
+    "position": 1,
+    "surface": "Non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S9201",
+    "position": 2,
+    "surface": "sono",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S9201",
+    "position": 3,
+    "surface": "stanca",
+    "word_id": "W118",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S9202",
+    "position": 1,
+    "surface": "I",
+    "word_id": "W076",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S9202",
+    "position": 2,
+    "surface": "bambini",
+    "word_id": "W089",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S9202",
+    "position": 3,
+    "surface": "hanno",
+    "word_id": "W086",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S9202",
+    "position": 4,
+    "surface": "fame",
+    "word_id": "W123",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33201",
+    "position": 1,
+    "surface": "È",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33201",
+    "position": 2,
+    "surface": "per",
+    "word_id": "W724",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33201",
+    "position": 3,
+    "surface": "noi",
+    "word_id": "W079",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33202",
+    "position": 1,
+    "surface": "Questo",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33202",
+    "position": 2,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33202",
+    "position": 3,
+    "surface": "per",
+    "word_id": "W724",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33202",
+    "position": 4,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33203",
+    "position": 1,
+    "surface": "Come",
+    "word_id": "W043",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33203",
+    "position": 2,
+    "surface": "si",
+    "word_id": "W711",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33203",
+    "position": 3,
+    "surface": "chiama",
+    "word_id": "W725",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33203",
+    "position": 4,
+    "surface": "questo",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S33203",
+    "position": 5,
+    "surface": "gioco",
+    "word_id": "W1021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10201",
+    "position": 1,
+    "surface": "Lui",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10201",
+    "position": 2,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10201",
+    "position": 3,
+    "surface": "mio",
+    "word_id": "W129",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10201",
+    "position": 4,
+    "surface": "padre",
+    "word_id": "W141",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10202",
+    "position": 1,
+    "surface": "Questo",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10202",
+    "position": 2,
+    "surface": "animale",
+    "word_id": "W075",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10202",
+    "position": 3,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10202",
+    "position": 4,
+    "surface": "mio",
+    "word_id": "W129",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10203",
+    "position": 1,
+    "surface": "Sono",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10203",
+    "position": 2,
+    "surface": "una",
+    "word_id": "W010",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10203",
+    "position": 3,
+    "surface": "madre",
+    "word_id": "W142",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10204",
+    "position": 1,
+    "surface": "No",
+    "word_id": "W003",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10204",
+    "position": 2,
+    "surface": "questo",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10204",
+    "position": 3,
+    "surface": "libro",
+    "word_id": "W027",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10204",
+    "position": 4,
+    "surface": "non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10204",
+    "position": 5,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S10204",
+    "position": 6,
+    "surface": "mio",
+    "word_id": "W129",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11201",
+    "position": 1,
+    "surface": "Perché",
+    "word_id": "W149",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11201",
+    "position": 2,
+    "surface": "sono",
+    "word_id": "W007",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11201",
+    "position": 3,
+    "surface": "qui",
+    "word_id": "W024",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11202",
+    "position": 1,
+    "surface": "Perché",
+    "word_id": "W149",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11202",
+    "position": 2,
+    "surface": "non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11202",
+    "position": 3,
+    "surface": "mangi",
+    "word_id": "W050",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11203",
+    "position": 1,
+    "surface": "Perché",
+    "word_id": "W149",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11203",
+    "position": 2,
+    "surface": "mio",
+    "word_id": "W129",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11203",
+    "position": 3,
+    "surface": "padre",
+    "word_id": "W141",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11203",
+    "position": 4,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11203",
+    "position": 5,
+    "surface": "in",
+    "word_id": "W110",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11203",
+    "position": 6,
+    "surface": "cucina",
+    "word_id": "W114",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11204",
+    "position": 1,
+    "surface": "Chi",
+    "word_id": "W143",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11204",
+    "position": 2,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11204",
+    "position": 3,
+    "surface": "questa",
+    "word_id": "W026",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11204",
+    "position": 4,
+    "surface": "ragazza",
+    "word_id": "W014",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11205",
+    "position": 1,
+    "surface": "Che",
+    "word_id": "W145",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11205",
+    "position": 2,
+    "surface": "cosa",
+    "word_id": "W144",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11205",
+    "position": 3,
+    "surface": "significa",
+    "word_id": "W713",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11205",
+    "position": 4,
+    "surface": "questo",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11206",
+    "position": 1,
+    "surface": "Che",
+    "word_id": "W145",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11206",
+    "position": 2,
+    "surface": "cosa",
+    "word_id": "W144",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11207",
+    "position": 1,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11207",
+    "position": 2,
+    "surface": "dove",
+    "word_id": "W146",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11207",
+    "position": 3,
+    "surface": "sei",
+    "word_id": "W008",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11208",
+    "position": 1,
+    "surface": "Chi",
+    "word_id": "W143",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11208",
+    "position": 2,
+    "surface": "siamo",
+    "word_id": "W082",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11209",
+    "position": 1,
+    "surface": "Di",
+    "word_id": "W137",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11209",
+    "position": 2,
+    "surface": "chi",
+    "word_id": "W143",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11209",
+    "position": 3,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11209",
+    "position": 4,
+    "surface": "questo",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11209",
+    "position": 5,
+    "surface": "cavallo",
+    "word_id": "W071",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11210",
+    "position": 1,
+    "surface": "Dov'è",
+    "word_id": "W147",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11210",
+    "position": 2,
+    "surface": "tua",
+    "word_id": "W134",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11210",
+    "position": 3,
+    "surface": "madre",
+    "word_id": "W142",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11210",
+    "position": 4,
+    "surface": "ragazzo",
+    "word_id": "W013",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11211",
+    "position": 1,
+    "surface": "Di",
+    "word_id": "W137",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11211",
+    "position": 2,
+    "surface": "chi",
+    "word_id": "W143",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11211",
+    "position": 3,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11211",
+    "position": 4,
+    "surface": "il",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11211",
+    "position": 5,
+    "surface": "bambino",
+    "word_id": "W015",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11212",
+    "position": 1,
+    "surface": "Bevo",
+    "word_id": "W052",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11212",
+    "position": 2,
+    "surface": "acqua",
+    "word_id": "W059",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11212",
+    "position": 3,
+    "surface": "quando",
+    "word_id": "W148",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11212",
+    "position": 4,
+    "surface": "ho",
+    "word_id": "W066",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11212",
+    "position": 5,
+    "surface": "sete",
+    "word_id": "W124",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11213",
+    "position": 1,
+    "surface": "Che",
+    "word_id": "W145",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11213",
+    "position": 2,
+    "surface": "cosa",
+    "word_id": "W144",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11213",
+    "position": 3,
+    "surface": "dice",
+    "word_id": "W712",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11213",
+    "position": 4,
+    "surface": "tua",
+    "word_id": "W134",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11213",
+    "position": 5,
+    "surface": "madre",
+    "word_id": "W142",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11214",
+    "position": 1,
+    "surface": "Cosa",
+    "word_id": "W144",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11214",
+    "position": 2,
+    "surface": "dice",
+    "word_id": "W712",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11214",
+    "position": 3,
+    "surface": "tua",
+    "word_id": "W134",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S11214",
+    "position": 4,
+    "surface": "madre",
+    "word_id": "W142",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53201",
+    "position": 1,
+    "surface": "È",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53201",
+    "position": 2,
+    "surface": "con",
+    "word_id": "W1046",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53201",
+    "position": 3,
+    "surface": "lui",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53202",
+    "position": 1,
+    "surface": "Lui",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53202",
+    "position": 2,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53202",
+    "position": 3,
+    "surface": "con",
+    "word_id": "W1046",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53202",
+    "position": 4,
+    "surface": "lei",
+    "word_id": "W022",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53203",
+    "position": 1,
+    "surface": "Lei",
+    "word_id": "W022",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53203",
+    "position": 2,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53203",
+    "position": 3,
+    "surface": "con",
+    "word_id": "W1046",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53203",
+    "position": 4,
+    "surface": "lui",
+    "word_id": "W021",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53204",
+    "position": 1,
+    "surface": "Siamo",
+    "word_id": "W082",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53204",
+    "position": 2,
+    "surface": "in",
+    "word_id": "W110",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S53204",
+    "position": 3,
+    "surface": "vacanza",
+    "word_id": "W1045",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12201",
+    "position": 1,
+    "surface": "Siamo",
+    "word_id": "W082",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12201",
+    "position": 2,
+    "surface": "in",
+    "word_id": "W110",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12201",
+    "position": 3,
+    "surface": "quattro",
+    "word_id": "W154",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12201",
+    "position": 4,
+    "surface": "in",
+    "word_id": "W110",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12201",
+    "position": 5,
+    "surface": "famiglia",
+    "word_id": "W140",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12202",
+    "position": 1,
+    "surface": "Un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12202",
+    "position": 2,
+    "surface": "tavolo",
+    "word_id": "W112",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12202",
+    "position": 3,
+    "surface": "per",
+    "word_id": "W724",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12202",
+    "position": 4,
+    "surface": "due",
+    "word_id": "W152",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12202",
+    "position": 5,
+    "surface": "per favore",
+    "word_id": "W035",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12203",
+    "position": 1,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12203",
+    "position": 2,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12203",
+    "position": 3,
+    "surface": "uno",
+    "word_id": "W151",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12203",
+    "position": 4,
+    "surface": "di",
+    "word_id": "W137",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12203",
+    "position": 5,
+    "surface": "noi",
+    "word_id": "W079",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12204",
+    "position": 1,
+    "surface": "Siamo",
+    "word_id": "W082",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12204",
+    "position": 2,
+    "surface": "in",
+    "word_id": "W110",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S12204",
+    "position": 3,
+    "surface": "cinque",
+    "word_id": "W155",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13201",
+    "position": 1,
+    "surface": "Non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13201",
+    "position": 2,
+    "surface": "ci sono",
+    "word_id": "W108",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13201",
+    "position": 3,
+    "surface": "gatti",
+    "word_id": "W088",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13201",
+    "position": 4,
+    "surface": "blu",
+    "word_id": "W164",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13202",
+    "position": 1,
+    "surface": "L'",
+    "word_id": "W020",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13202",
+    "position": 2,
+    "surface": "acqua",
+    "word_id": "W059",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13202",
+    "position": 3,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13202",
+    "position": 4,
+    "surface": "verde",
+    "word_id": "W165",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13203",
+    "position": 1,
+    "surface": "Ho",
+    "word_id": "W066",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13203",
+    "position": 2,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13203",
+    "position": 3,
+    "surface": "gatto",
+    "word_id": "W070",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13203",
+    "position": 4,
+    "surface": "bianco",
+    "word_id": "W168",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13204",
+    "position": 1,
+    "surface": "Pane",
+    "word_id": "W058",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13204",
+    "position": 2,
+    "surface": "bianco",
+    "word_id": "W168",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13204",
+    "position": 3,
+    "surface": "per favore",
+    "word_id": "W035",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13205",
+    "position": 1,
+    "surface": "Non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13205",
+    "position": 2,
+    "surface": "mi",
+    "word_id": "W055",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13205",
+    "position": 3,
+    "surface": "piace",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13205",
+    "position": 4,
+    "surface": "il",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13205",
+    "position": 5,
+    "surface": "rosso",
+    "word_id": "W162",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13206",
+    "position": 1,
+    "surface": "Bevo",
+    "word_id": "W052",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13206",
+    "position": 2,
+    "surface": "tè",
+    "word_id": "W064",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13206",
+    "position": 3,
+    "surface": "verde",
+    "word_id": "W165",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13206",
+    "position": 4,
+    "surface": "non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13206",
+    "position": 5,
+    "surface": "nero",
+    "word_id": "W166",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13207",
+    "position": 1,
+    "surface": "Abbiamo",
+    "word_id": "W084",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13207",
+    "position": 2,
+    "surface": "un",
+    "word_id": "W009",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13207",
+    "position": 3,
+    "surface": "cane",
+    "word_id": "W069",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13207",
+    "position": 4,
+    "surface": "nero",
+    "word_id": "W166",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13208",
+    "position": 1,
+    "surface": "Mi",
+    "word_id": "W055",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13208",
+    "position": 2,
+    "surface": "piace",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13208",
+    "position": 3,
+    "surface": "il",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13208",
+    "position": 4,
+    "surface": "colore",
+    "word_id": "W172",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13208",
+    "position": 5,
+    "surface": "di",
+    "word_id": "W137",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13208",
+    "position": 6,
+    "surface": "questa",
+    "word_id": "W026",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S13208",
+    "position": 7,
+    "surface": "macchina",
+    "word_id": "W106",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S14201",
+    "position": 1,
+    "surface": "Adesso",
+    "word_id": "W175",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S14201",
+    "position": 2,
+    "surface": "ho",
+    "word_id": "W066",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S14201",
+    "position": 3,
+    "surface": "fame",
+    "word_id": "W123",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S14202",
+    "position": 1,
+    "surface": "Perché",
+    "word_id": "W149",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S14202",
+    "position": 2,
+    "surface": "sei",
+    "word_id": "W008",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S14202",
+    "position": 3,
+    "surface": "triste",
+    "word_id": "W120",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S14202",
+    "position": 4,
+    "surface": "adesso",
+    "word_id": "W175",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15201",
+    "position": 1,
+    "surface": "Domani",
+    "word_id": "W174",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15201",
+    "position": 2,
+    "surface": "io",
+    "word_id": "W005",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15201",
+    "position": 3,
+    "surface": "non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15201",
+    "position": 4,
+    "surface": "vado",
+    "word_id": "W182",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15201",
+    "position": 5,
+    "surface": "al",
+    "word_id": "W186",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15201",
+    "position": 6,
+    "surface": "cinema",
+    "word_id": "W1033",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15202",
+    "position": 1,
+    "surface": "Lei",
+    "word_id": "W022",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15202",
+    "position": 2,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15202",
+    "position": 3,
+    "surface": "a",
+    "word_id": "W185",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15202",
+    "position": 4,
+    "surface": "casa",
+    "word_id": "W028",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15203",
+    "position": 1,
+    "surface": "A",
+    "word_id": "W185",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15203",
+    "position": 2,
+    "surface": "loro",
+    "word_id": "W081",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15203",
+    "position": 3,
+    "surface": "non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15203",
+    "position": 4,
+    "surface": "piace",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15203",
+    "position": 5,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15204",
+    "position": 1,
+    "surface": "La",
+    "word_id": "W019",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15204",
+    "position": 2,
+    "surface": "ragazza",
+    "word_id": "W014",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15204",
+    "position": 3,
+    "surface": "va",
+    "word_id": "W184",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15204",
+    "position": 4,
+    "surface": "a",
+    "word_id": "W185",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15204",
+    "position": 5,
+    "surface": "scuola",
+    "word_id": "W189",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15205",
+    "position": 1,
+    "surface": "Cosa",
+    "word_id": "W144",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15205",
+    "position": 2,
+    "surface": "non",
+    "word_id": "W004",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15205",
+    "position": 3,
+    "surface": "piace",
+    "word_id": "W057",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15205",
+    "position": 4,
+    "surface": "a",
+    "word_id": "W185",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15205",
+    "position": 5,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15206",
+    "position": 1,
+    "surface": "Il",
+    "word_id": "W018",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15206",
+    "position": 2,
+    "surface": "giovane",
+    "word_id": "W101",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15206",
+    "position": 3,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15206",
+    "position": 4,
+    "surface": "a",
+    "word_id": "W185",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15206",
+    "position": 5,
+    "surface": "Roma",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15207",
+    "position": 1,
+    "surface": "Questo",
+    "word_id": "W025",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15207",
+    "position": 2,
+    "surface": "autobus",
+    "word_id": "W1038",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15207",
+    "position": 3,
+    "surface": "va",
+    "word_id": "W184",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15207",
+    "position": 4,
+    "surface": "in",
+    "word_id": "W110",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15207",
+    "position": 5,
+    "surface": "città",
+    "word_id": "W191",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15208",
+    "position": 1,
+    "surface": "Tom",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15208",
+    "position": 2,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15208",
+    "position": 3,
+    "surface": "a",
+    "word_id": "W185",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15208",
+    "position": 4,
+    "surface": "casa",
+    "word_id": "W028",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15208",
+    "position": 5,
+    "surface": "perché",
+    "word_id": "W149",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15208",
+    "position": 6,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S15208",
+    "position": 7,
+    "surface": "malato",
+    "word_id": "W121",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51201",
+    "position": 1,
+    "surface": "Maria",
+    "word_id": "",
+    "notes": "name",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51201",
+    "position": 2,
+    "surface": "è",
+    "word_id": "W023",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51201",
+    "position": 3,
+    "surface": "alta",
+    "word_id": "W1015",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51201",
+    "position": 4,
+    "surface": "e",
+    "word_id": "W017",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51201",
+    "position": 5,
+    "surface": "forte",
+    "word_id": "W033",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51202",
+    "position": 1,
+    "surface": "Sei",
+    "word_id": "W008",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51202",
+    "position": 2,
+    "surface": "più",
+    "word_id": "W704",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51202",
+    "position": 3,
+    "surface": "alta",
+    "word_id": "W1015",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51202",
+    "position": 4,
+    "surface": "di",
+    "word_id": "W137",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51202",
+    "position": 5,
+    "surface": "lei",
+    "word_id": "W022",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51203",
+    "position": 1,
+    "surface": "Sei",
+    "word_id": "W008",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51203",
+    "position": 2,
+    "surface": "una",
+    "word_id": "W010",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51203",
+    "position": 3,
+    "surface": "donna",
+    "word_id": "W012",
+    "notes": "",
+    "hint_override": ""
+  },
+  {
+    "sentence_id": "S51203",
+    "position": 4,
+    "surface": "alta",
+    "word_id": "W1015",
     "notes": "",
     "hint_override": ""
   }

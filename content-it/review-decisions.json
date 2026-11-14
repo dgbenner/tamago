@@ -1,7 +1,606 @@
 {
   "_about": "Rulings for the Italian course, the same shape as the French, Spanish and German ones. Claude records its calls here under autonomous-build.md; Dan can reverse any of them.",
-  "sentences": {},
-  "accepted_answers": {},
+  "sentences": {
+    "S3113": {
+      "action": "confirm",
+      "french": "Bene, grazie. E tu?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner Dario has no native or OK signal"
+    },
+    "S5106": {
+      "action": "confirm",
+      "french": "Non mangio pesce.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner VPZ has no native or OK signal"
+    },
+    "S52102": {
+      "action": "confirm",
+      "french": "Mi piace il calcio.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner miravalles has no native or OK signal"
+    },
+    "S8105": {
+      "action": "confirm",
+      "french": "Il giardino è piccolo.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner Seael has no native or OK signal"
+    },
+    "S53109": {
+      "action": "confirm",
+      "french": "Siamo con Tom.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    },
+    "S53112": {
+      "action": "confirm",
+      "french": "Tom ha una bella bicicletta.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner Ricardo14 has no native or OK signal"
+    },
+    "S13103": {
+      "action": "confirm",
+      "french": "La casa è rossa.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner Seael has no native or OK signal"
+    },
+    "S13104": {
+      "action": "confirm",
+      "french": "Ho una mela verde.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S13105": {
+      "action": "confirm",
+      "french": "Il gatto è bianco.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S1201": {
+      "action": "confirm",
+      "french": "Tu sei Mary?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Luiaard has no native or OK signal"
+    },
+    "S1202": {
+      "action": "confirm",
+      "french": "Sei Mary?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Luiaard has no native or OK signal"
+    },
+    "S1203": {
+      "action": "confirm",
+      "french": "Non sono un ragazzo. Sono una ragazza.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner VPZ has no native or OK signal"
+    },
+    "S2201": {
+      "action": "confirm",
+      "french": "Tom e Maria sono qui.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S3201": {
+      "action": "confirm",
+      "french": "Arrivederci e buona notte.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S3202": {
+      "action": "confirm",
+      "french": "Scusa, stai bene?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S3203": {
+      "action": "confirm",
+      "french": "Parli bene.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S3204": {
+      "action": "confirm",
+      "french": "Parla male.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S4201": {
+      "action": "confirm",
+      "french": "Non bevo più caffè.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S4202": {
+      "action": "confirm",
+      "french": "Ti capisco bene.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S5201": {
+      "action": "confirm",
+      "french": "Il pesce è piccolo.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S5202": {
+      "action": "confirm",
+      "french": "La donna mangia pesce e beve vino.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S5203": {
+      "action": "confirm",
+      "french": "Io non sono un gatto.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner marvinibahs2020 has no native or OK signal"
+    },
+    "S5204": {
+      "action": "confirm",
+      "french": "Non sono un gatto.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner marvinibahs2020 has no native or OK signal"
+    },
+    "S5205": {
+      "action": "confirm",
+      "french": "Questo bambino ha un gatto.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S5206": {
+      "action": "confirm",
+      "french": "Il gatto mangia l'uccello.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S5207": {
+      "action": "confirm",
+      "french": "Il cavallo è un animale.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S5208": {
+      "action": "confirm",
+      "french": "Come sta l'uccello?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    },
+    "S5209": {
+      "action": "confirm",
+      "french": "Tom ha un gatto?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner mervert1 has no native or OK signal"
+    },
+    "S32201": {
+      "action": "confirm",
+      "french": "Lui parla inglese.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner halfb1t has no native or OK signal"
+    },
+    "S32202": {
+      "action": "confirm",
+      "french": "Lei parla inglese.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S6201": {
+      "action": "confirm",
+      "french": "Abbiamo un cane e un gatto.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Luiaard has no native or OK signal"
+    },
+    "S6202": {
+      "action": "confirm",
+      "french": "Non siamo bambini, siamo uomini.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S7201": {
+      "action": "confirm",
+      "french": "Abbiamo una macchina.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Ricardo14 has no native or OK signal"
+    },
+    "S7202": {
+      "action": "confirm",
+      "french": "Sono un uomo molto vecchio.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S7203": {
+      "action": "confirm",
+      "french": "Non mi piace questa macchina.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S7204": {
+      "action": "confirm",
+      "french": "Bevo molto caffè.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S7205": {
+      "action": "confirm",
+      "french": "I bambini hanno un vecchio libro.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner ninefi has no native or OK signal"
+    },
+    "S52201": {
+      "action": "confirm",
+      "french": "Questo non è un gioco!",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S52202": {
+      "action": "confirm",
+      "french": "Il dottore legge molti libri.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S52203": {
+      "action": "confirm",
+      "french": "Ti piace leggere?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S8201": {
+      "action": "confirm",
+      "french": "Abbiamo un tavolo in cucina.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S8202": {
+      "action": "confirm",
+      "french": "Abbiamo un grande giardino.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Luiaard has no native or OK signal"
+    },
+    "S8203": {
+      "action": "confirm",
+      "french": "Ho un tavolo.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S8204": {
+      "action": "confirm",
+      "french": "Il libro è sul tavolo.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner everylanguage has no native or OK signal"
+    },
+    "S8205": {
+      "action": "confirm",
+      "french": "Come si dice in italiano?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S9201": {
+      "action": "confirm",
+      "french": "Non sono stanca.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S9202": {
+      "action": "confirm",
+      "french": "I bambini hanno fame.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S33201": {
+      "action": "confirm",
+      "french": "È per noi?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S33202": {
+      "action": "confirm",
+      "french": "Questo è per Tom.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S33203": {
+      "action": "confirm",
+      "french": "Come si chiama questo gioco?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S10201": {
+      "action": "confirm",
+      "french": "Lui è mio padre.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Derbnik has no native or OK signal"
+    },
+    "S10202": {
+      "action": "confirm",
+      "french": "Questo animale è mio.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S10203": {
+      "action": "confirm",
+      "french": "Sono una madre.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S10204": {
+      "action": "confirm",
+      "french": "No, questo libro non è mio.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S11201": {
+      "action": "confirm",
+      "french": "Perché sono qui?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Shadd has no native or OK signal"
+    },
+    "S11202": {
+      "action": "confirm",
+      "french": "Perché non mangi?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner koala has no native or OK signal"
+    },
+    "S11203": {
+      "action": "confirm",
+      "french": "Perché mio padre è in cucina?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner shauna76 has no native or OK signal"
+    },
+    "S11204": {
+      "action": "confirm",
+      "french": "Chi è questa ragazza?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner nickyeow has no native or OK signal"
+    },
+    "S11205": {
+      "action": "confirm",
+      "french": "Che cosa significa questo?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner riccioberto has no native or OK signal"
+    },
+    "S11206": {
+      "action": "confirm",
+      "french": "Che cosa?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S11207": {
+      "action": "confirm",
+      "french": "Tom, dove sei?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S11208": {
+      "action": "confirm",
+      "french": "Chi siamo?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S11209": {
+      "action": "confirm",
+      "french": "Di chi è questo cavallo?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S11210": {
+      "action": "confirm",
+      "french": "Dov'è tua madre, ragazzo?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S11211": {
+      "action": "confirm",
+      "french": "Di chi è il bambino?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S11212": {
+      "action": "confirm",
+      "french": "Bevo acqua quando ho sete.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S11213": {
+      "action": "confirm",
+      "french": "Che cosa dice tua madre?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    },
+    "S11214": {
+      "action": "confirm",
+      "french": "Cosa dice tua madre?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    },
+    "S53201": {
+      "action": "confirm",
+      "french": "È con lui.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    },
+    "S53202": {
+      "action": "confirm",
+      "french": "Lui è con lei.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S53203": {
+      "action": "confirm",
+      "french": "Lei è con lui.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S53204": {
+      "action": "confirm",
+      "french": "Siamo in vacanza.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S12201": {
+      "action": "confirm",
+      "french": "Siamo in quattro in famiglia.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S12202": {
+      "action": "confirm",
+      "french": "Un tavolo per due, per favore.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S12203": {
+      "action": "confirm",
+      "french": "Tom è uno di noi.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S12204": {
+      "action": "confirm",
+      "french": "Siamo in cinque.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner glossboss has no native or OK signal"
+    },
+    "S13201": {
+      "action": "confirm",
+      "french": "Non ci sono gatti blu.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S13202": {
+      "action": "confirm",
+      "french": "L'acqua è verde.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner ecorralest101 has no native or OK signal"
+    },
+    "S13203": {
+      "action": "confirm",
+      "french": "Ho un gatto bianco.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S13204": {
+      "action": "confirm",
+      "french": "Pane bianco, per favore.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S13205": {
+      "action": "confirm",
+      "french": "Non mi piace il rosso.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S13206": {
+      "action": "confirm",
+      "french": "Bevo tè verde, non nero.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S13207": {
+      "action": "confirm",
+      "french": "Abbiamo un cane nero.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Proxima5 has no native or OK signal"
+    },
+    "S13208": {
+      "action": "confirm",
+      "french": "Mi piace il colore di questa macchina.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner mervert1 has no native or OK signal"
+    },
+    "S14201": {
+      "action": "confirm",
+      "french": "Adesso ho fame.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S14202": {
+      "action": "confirm",
+      "french": "Perché sei triste adesso?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Lyte3000 has no native or OK signal"
+    },
+    "S15201": {
+      "action": "confirm",
+      "french": "Domani io non vado al cinema.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Virgilia has no native or OK signal"
+    },
+    "S15202": {
+      "action": "confirm",
+      "french": "Lei è a casa?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S15203": {
+      "action": "confirm",
+      "french": "A loro non piace Tom.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S15204": {
+      "action": "confirm",
+      "french": "La ragazza va a scuola.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S15205": {
+      "action": "confirm",
+      "french": "Cosa non piace a Tom?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner koala has no native or OK signal"
+    },
+    "S15206": {
+      "action": "confirm",
+      "french": "Il giovane è a Roma?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S15207": {
+      "action": "confirm",
+      "french": "Questo autobus va in città.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S15208": {
+      "action": "confirm",
+      "french": "Tom è a casa perché è malato.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S51201": {
+      "action": "confirm",
+      "french": "Maria è alta e forte.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S51202": {
+      "action": "confirm",
+      "french": "Sei più alta di lei.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner mervert1 has no native or OK signal"
+    },
+    "S51203": {
+      "action": "confirm",
+      "french": "Sei una donna alta.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    }
+  },
+  "accepted_answers": {
+    "AD0001": {
+      "action": "keep",
+      "answer": "Excuse me, are you Tom?",
+      "by": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request"
+    },
+    "AD0002": {
+      "action": "keep",
+      "answer": "Sì, bevo il caffè.",
+      "by": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request"
+    },
+    "AD0003": {
+      "action": "keep",
+      "answer": "Ho due figli.",
+      "by": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request"
+    }
+  },
   "units": {
     "U01": {
       "action": "approve",
@@ -114,7 +713,8 @@
     "S2030",
     "S4021",
     "S5020",
-    "S13024"
+    "S13024",
+    "S51105"
   ],
   "vocabulary_additions": [],
   "hints": {},
@@ -1191,6 +1791,31 @@
     "Parigi"
   ],
   "_names": "Names allowed in Italian lines: people, and a few cities",
-  "accepted_additions": [],
-  "_cut_sentences": "Cut after the last pull, for the reasons recorded against their Tatoeba ids in content-it/sweep/packs-review.json"
+  "accepted_additions": [
+    {
+      "answer_id": "AD0001",
+      "sentence_id": "S3109",
+      "direction": "fr_to_en",
+      "answer": "Excuse me, are you Tom?",
+      "source": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0002",
+      "sentence_id": "S4105",
+      "direction": "en_to_fr",
+      "answer": "Sì, bevo il caffè.",
+      "source": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0003",
+      "sentence_id": "S12110",
+      "direction": "en_to_fr",
+      "answer": "Ho due figli.",
+      "source": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request",
+      "status": "live"
+    }
+  ],
+  "_cut_sentences": "Cut after the last pull, for the reasons recorded against their Tatoeba ids in content-it/sweep/packs-review.json. S51105 (Che cosa hai in testa?): cut from Fable's check of 2026-11-14, it is heard as What are you thinking?"
 }

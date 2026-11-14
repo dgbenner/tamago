@@ -1926,5 +1926,32 @@
     "answer": "Whose bike is this?",
     "source": "tatoeba",
     "status": "pulled"
+  },
+  {
+    "answer_id": "AD0001",
+    "sentence_id": "S3109",
+    "direction": "fr_to_en",
+    "answer": "Excuse me, are you Tom?",
+    "source": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0002",
+    "sentence_id": "S4105",
+    "direction": "en_to_fr",
+    "answer": "Sì, bevo il caffè.",
+    "source": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0003",
+    "sentence_id": "S12110",
+    "direction": "en_to_fr",
+    "answer": "Ho due figli.",
+    "source": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request",
+    "status": "live",
+    "origin": "flag"
   }
 ]
