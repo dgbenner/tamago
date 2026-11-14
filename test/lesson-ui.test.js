@@ -23,7 +23,7 @@ test('Answer the Question, heard: the bubble holds the speaker alone', () => {
   assert.match(html, /data-speaker-bubble/)
   assert.match(html, /data-avatar/)
   assert.match(html, /data-audio-help[^>]*><button[^>]*aria-label="Play the question"/)
-  assert.match(html, /data-avatar[^>]*><img[^>]*src="\/images\/pictures\/(homme|femme)\.webp"/, 'the speaker is an adult from the lesson pictures (Dan, 2026-11-14)')
+  assert.match(html, /data-avatar[^>]*><img[^>]*src="\/images\/speakers\/(female|male)-[a-z-]+\.webp"/, "the speaker is one of Dan's adult avatars, named by gender (Dan, 2026-11-14)")
   assert.equal(html.match(/<button/g).length, 1, 'no Slow up front: Slow and Show Words come after the first replay (Dan, 2026-11-12)')
   assert.doesNotMatch(html, /Tu es Paul/, 'the words stay hidden until Show Words')
 })

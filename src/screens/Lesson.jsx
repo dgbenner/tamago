@@ -261,20 +261,26 @@ function FirstSight({ q, newWords, except = null }) {
 // picture and the bubble are ringed in the accent, so the speaker reads at a glance. The character's place, for when
 // the animal characters exist, is this SPEAKERS list.
 // The picture follows the voice (Dan, 2026-11-14): a recording's speaker, else the device voice, as tagged in the Voice
-// Lab (voice-gender.js). Untagged sources fall back to one of the two, the same one per question.
-const SPEAKERS = { female: '/images/pictures/femme.webp', male: '/images/pictures/homme.webp' }
+// Lab (voice-gender.js). Speakers are Dan's adult avatars, named by gender (public/images/speakers; originals in
+// _source/speakers, kept out of the repo); a question always gets the same one from its voice's group. Untagged
+// sources pick from everyone. The two children wait for the Child tag (child-female-chestnut, child-male-glasses).
+const SPEAKERS = {
+  female: ['female-blonde', 'female-wavy-pink', 'female-earrings-coral', 'female-black-hair', 'female-gold-earrings', 'female-chestnut'],
+  male: ['male-bearded-brown', 'male-glasses-black-hair', 'male-curly-beard', 'male-beard-green', 'male-blond-glasses'],
+}
+const speakerUrl = (name) => `/images/speakers/${name}.webp`
 export const speakerFor = (q, voiceName = courseVoiceName()) => {
   const gender = genderOf(q?.audio?.file ? speakerKey(q.audio.speaker) : voiceName ? voiceKey(voiceName) : null)
-  if (gender) return SPEAKERS[gender]
-  const n = [...String(q?.sentence_id ?? q?.qid ?? '')].reduce((t, ch) => t + ch.charCodeAt(0), 0)
-  return n % 2 ? SPEAKERS.male : SPEAKERS.female
+  const pool = gender ? SPEAKERS[gender] : [...SPEAKERS.female, ...SPEAKERS.male]
+  const n = [...String(q?.sentence_id ?? q?.qid ?? '')].reduce((t, ch) => t * 31 + ch.charCodeAt(0) >>> 0, 7)
+  return speakerUrl(pool[n % pool.length])
 }
 export function SpeakerBubble({ children, speaker = null }) {
   return (
     <div data-speaker-bubble className="speaker-row flex items-end gap-3 pr-8">
       <span data-avatar aria-hidden="true" className="speaker-ring flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-disc text-muted">
         {speaker
-          ? <img src={speaker} alt="" className="size-full scale-125 object-cover object-[50%_30%]" />
+          ? <img src={speaker} alt="" className="size-full object-cover" />
           : <svg viewBox="0 0 24 24" className="mt-2 size-10" fill="currentColor"><circle cx="12" cy="8" r="4.2" /><path d="M3.5 23c0-5 3.8-8.6 8.5-8.6s8.5 3.6 8.5 8.6z" /></svg>}
       </span>
       <div className="speaker-ring min-w-0 rounded-2xl rounded-bl-sm bg-surface px-4 py-3">{children}</div>
