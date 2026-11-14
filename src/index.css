@@ -611,3 +611,8 @@ button.chip-drag {
   .circle-node:not([data-state='locked']):hover .circle-disc, .circle-node:not([data-state='locked']):active .circle-disc,
   .note-icon:active, .tree-pill[data-live]:active, .carousel-arrow:not(:disabled):active { transform: none; }
 }
+
+/* Answer the Question's reply bubble (Dan, 2026-11-14): the learner's side of the chat, a soft blue like a sent message. */
+.reply-bubble { background: var(--toast-info-bg); border-color: transparent; }
+.reply-bubble.border-orange { border-color: var(--orange); }
+.reply-bubble.focus-within\:border-ink:focus-within { border-color: var(--ink); }

@@ -171,7 +171,8 @@ export default function Lesson({ session, content, settings, seenWords, cantList
       <div key={q.qid} className={`q-enter flex flex-1 flex-col gap-5 pt-5 ${result ? 'pb-56' : showCantNow ? 'pb-1' : 'pb-[max(1rem,env(safe-area-inset-bottom))]'}`}>
         {/* The final A1 check names the part a question belongs to (listening, reading, writing, speaking). */}
         {q.part && <p className="-mb-3 text-sm font-medium text-muted">{PART_LABEL[q.part]}</p>}
-        <div className="flex items-center gap-2">
+        {/* Answer the Question is a chat (Dan, 2026-11-14): no instruction line; the heading stays for screen readers. */}
+        <div className={q.type === 'QT09' ? 'sr-only' : 'flex items-center gap-2'}>
           <h1 ref={headingRef} tabIndex={-1} className="text-xl font-semibold outline-none">{headingFor(q, { hideFrench, typing })}</h1>
           {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="tag"><span className="new-dot" aria-hidden="true" />New</span>}
         </div>
@@ -219,14 +220,10 @@ function WrongMark({ className = '' }) {
 }
 
 // The French, with a dotted underline on each word that has a hint.
-// Quotation marks in the course language's own style, for speech.
-const QUOTES = { fr: ['«\u202f', '\u202f»'], es: ['“', '”'], de: ['„', '“'] }
-function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null, quoted = false }) {
+function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
   const [open, setOpen] = useState(null)
-  const [qOpen, qClose] = QUOTES[course.id] ?? ['“', '”']
   return (
     <p lang={TL} className="text-2xl leading-relaxed">
-      {quoted && <span aria-hidden="true">{qOpen}</span>}
       {q.segments.map((seg, i) => {
         if (i === blankIndex) {
           return <span key={i} className="mx-1 inline-block min-w-16 border-b-4 border-ink px-1 text-center font-semibold">{filled ?? ' '}</span>
@@ -246,7 +243,6 @@ function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null, quo
           </span>
         )
       })}
-      {quoted && <span aria-hidden="true">{qClose}</span>}
     </p>
   )
 }
@@ -258,13 +254,24 @@ function FirstSight({ q, newWords, except = null }) {
   return <p className="text-sm text-muted">{lines.map((seg) => `${seg.text.toLowerCase()} = ${seg.hint}`).join(', ')}</p>
 }
 
-// A dialogue speaker's bubble. No picture for now (Dan, 2026-11-11): the sushi logo stood in for a character and is
-// gone everywhere. The character's place is kept below, commented out, for when the animal characters exist.
+// Answer the Question is a chat (Dan, 2026-11-14), and the only question type with bubbles: the speaker's question in
+// a bubble on the left with a small avatar, the learner's reply building in a bubble on the right. The avatar is a
+// placeholder figure until the animal characters exist; the character's place is kept in the comment below.
 export function SpeakerBubble({ children }) {
   return (
-    <div className="flex items-start gap-3">
-      {/* The character goes here: <img src={character.image} alt="" className="h-12 w-12 shrink-0 object-contain" /> */}
-      <div className="rounded-2xl rounded-tl-sm border-2 border-line bg-surface px-4 py-3">{children}</div>
+    <div data-speaker-bubble className="flex items-end gap-2.5 pr-8">
+      {/* The character goes here: <img src={character.image} alt="" className="h-10 w-10 shrink-0 object-contain" /> */}
+      <span data-avatar aria-hidden="true" className="flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-disc text-muted">
+        <svg viewBox="0 0 24 24" className="mt-2 size-8" fill="currentColor"><circle cx="12" cy="8" r="4.2" /><path d="M3.5 23c0-5 3.8-8.6 8.5-8.6s8.5 3.6 8.5 8.6z" /></svg>
+      </span>
+      <div className="min-w-0 rounded-2xl rounded-bl-sm border-2 border-line bg-surface px-4 py-3">{children}</div>
+    </div>
+  )
+}
+export function ReplyBubble({ children, className = '' }) {
+  return (
+    <div data-reply-bubble className="flex justify-end pl-12">
+      <div className={`reply-bubble relative w-full rounded-2xl rounded-br-sm border-2 px-3 py-2.5 ${className}`}>{children}</div>
     </div>
   )
 }
@@ -482,7 +489,7 @@ function FillBlank({ q, result, onAnswer, newWords, onHint }) {
   return (
     <>
       <p className="text-muted">{q.english}</p>
-      {q.variant === 'V0502' ? <SpeakerBubble>{text}</SpeakerBubble> : text}
+      {text}
       <FirstSight q={q} newWords={newWords} except={q.blankIndex} />
       <div className="flex flex-wrap gap-2">
         {q.choices.map((choice) => {
@@ -501,12 +508,11 @@ export function promptFor(q, { newWords, hideFrench, result, onHint, wordsShown,
     return hideFrench && !result ? <AudioHelp audio={q.audio} words={<><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>} wordsShown={wordsShown} onShowWords={onShowWords} /> : <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>
   }
   if (q.type === 'QT09') {
-    // While the question is only heard, the speaker shows alone (Dan, 2026-11-11). The bubble is for the written
-    // question.
-    // The speaker's question is in quotes, so it reads as speech, not an instruction (Dan, 2026-11-12).
-    const bubble = <SpeakerBubble><FrenchText q={q} newWords={newWords} onHint={onHint} quoted /></SpeakerBubble>
-    if (q.variant !== 'V0903' && !result) return <AudioHelp audio={q.audio} label="Play the question" words={bubble} wordsShown={wordsShown} onShowWords={onShowWords} />
-    return bubble
+    // While the question is only heard, the bubble holds the speaker alone (Dan, 2026-11-11); Show Words puts the words
+    // under it. No quotes: the bubble already marks it as speech (Dan, 2026-11-14).
+    const words = <FrenchText q={q} newWords={newWords} onHint={onHint} />
+    if (q.variant !== 'V0903' && !result) return <SpeakerBubble><div className="flex flex-col gap-3"><AudioHelp audio={q.audio} label="Play the question" words={words} wordsShown={wordsShown} onShowWords={onShowWords} /></div></SpeakerBubble>
+    return <SpeakerBubble>{words}</SpeakerBubble>
   }
   if ((q.type === 'QT07' || q.type === 'QT11') && !result) return <AudioHelp audio={q.audio} words={<p lang={TL} className="text-2xl leading-relaxed">{q.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} />
   if (q.type === 'QT07' || q.type === 'QT11') return <SpeakerButton audio={q.audio} large label="Play the sentence" />
@@ -574,14 +580,16 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
     <>
       {promptFor(q, { newWords, hideFrench, result, onHint, wordsShown, onShowWords })}
       {typing ? (
-        <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={wrong} onSubmit={() => check(text)} />
+        q.type === 'QT09'
+          ? <ReplyBubble className="focus-within:border-ink"><TypedInput q={q} bare value={text} onChange={setText} disabled={Boolean(result)} wrong={wrong} onSubmit={() => check(text)} /></ReplyBubble>
+          : <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={wrong} onSubmit={() => check(text)} />
       ) : (
         <>
           {/* Your answer so far, then the word bank. Picking a word keeps keyboard focus in the bank (on the next word
               still there); removing one returns focus to the answer. */}
           {/* Chips can also be dragged (drag and drop): from the bank into the answer at the marker, within the
               answer to reorder, or back to the bank. Tapping and typing still pick; keyboard users pick and remove. */}
-          <div ref={drag.answerRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className={`relative flex min-h-14 flex-wrap gap-2 border-b-2 pb-2 ${drag.over === 'answer' ? 'border-orange' : 'border-line'}`}>
+{q.type === 'QT09' ? <ReplyBubble className={drag.over === 'answer' ? 'border-orange' : ''}>          <div ref={drag.answerRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className="relative flex min-h-11 flex-wrap items-center gap-2">
             {picked.map((chipIndex) => (
               <button key={chipIndex} data-drag-chip disabled={Boolean(result)} aria-label={`${q.chips[chipIndex]}, remove`} onPointerDown={(e) => drag.begin(e, chipIndex)}
                 onClick={(e) => { if (drag.ate()) return; focusNeighbour(e.currentTarget); setPicked(picked.filter((i) => i !== chipIndex)) }}
@@ -589,7 +597,16 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
             ))}
             {wrong && <WrongMark className="ml-auto self-center" />}
             <span ref={drag.markerRef} aria-hidden="true" className="drop-marker" />
-          </div>
+          </div></ReplyBubble> : (
+                    <div ref={drag.answerRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className={`relative flex min-h-14 flex-wrap gap-2 border-b-2 pb-2 ${drag.over === 'answer' ? 'border-orange' : 'border-line'}`}>
+            {picked.map((chipIndex) => (
+              <button key={chipIndex} data-drag-chip disabled={Boolean(result)} aria-label={`${q.chips[chipIndex]}, remove`} onPointerDown={(e) => drag.begin(e, chipIndex)}
+                onClick={(e) => { if (drag.ate()) return; focusNeighbour(e.currentTarget); setPicked(picked.filter((i) => i !== chipIndex)) }}
+                className={`chip chip-drag ${drag.chip === chipIndex ? 'opacity-30' : ''} ${wrong ? 'text-wrong' : ''}`}>{q.chips[chipIndex]}</button>
+            ))}
+            {wrong && <WrongMark className="ml-auto self-center" />}
+            <span ref={drag.markerRef} aria-hidden="true" className="drop-marker" />
+          </div>)}
           <div ref={drag.bankRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label="Words to choose from" className={`flex flex-wrap gap-2 rounded-xl ${drag.over === 'bank' ? 'drop-bank' : ''}`}>
             {q.chips.map((chip, i) => (
               <button key={i} data-drag-chip disabled={picked.includes(i) || Boolean(result)} onPointerDown={(e) => drag.begin(e, i)}
@@ -742,14 +759,15 @@ function focusNeighbour(el) {
   window.setTimeout(() => (next ?? el.closest('main')?.querySelector('[data-check]'))?.focus(), 0)
 }
 
-function TypedInput({ q, value, onChange, disabled, onSubmit, wrong = false }) {
+// bare: inside the reply bubble, which draws the box.
+function TypedInput({ q, value, onChange, disabled, onSubmit, wrong = false, bare = false }) {
   return (
     <form onSubmit={(e) => { e.preventDefault(); if (value.trim() && !disabled) onSubmit() }} className="flex items-center gap-3">
       <input
         lang={q.lang === 'en' ? 'en' : TL} autoFocus value={value} disabled={disabled} onChange={(e) => onChange(e.target.value)}
         autoCapitalize="off" autoCorrect="off" autoComplete="off" spellCheck={false} enterKeyHint="done"
         aria-label={q.lang === 'en' ? 'Your answer in English' : `Your answer in ${course.name}`} placeholder={q.lang === 'en' ? 'Type in English' : `Type in ${course.name}`}
-        className={`w-full min-w-0 flex-1 rounded-xl border-2 border-field bg-surface px-4 py-3 text-lg outline-none focus:border-ink ${wrong ? 'text-wrong' : ''}`}
+        className={`w-full min-w-0 flex-1 text-lg outline-none ${bare ? 'bg-transparent px-1 py-1' : 'rounded-xl border-2 border-field bg-surface px-4 py-3 focus:border-ink'} ${wrong ? 'text-wrong' : ''}`}
       />
       {wrong && <WrongMark />}
     </form>
@@ -765,7 +783,9 @@ function Typed({ q, content, settings, result, onAnswer, newWords, hideFrench, o
   return (
     <>
       {promptFor(q, { newWords, hideFrench, result, onHint, wordsShown, onShowWords })}
-      <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} />
+      {q.type === 'QT09'
+        ? <ReplyBubble className="focus-within:border-ink"><TypedInput q={q} bare value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} /></ReplyBubble>
+        : <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} />}
       {!result && <div className="check-row"><button data-check disabled={!text.trim()} onClick={check} className="btn-submit flex-1">Check</button></div>}
     </>
   )
@@ -797,9 +817,15 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const [panel, setPanel] = useState(null)
   const [flagged, setFlagged] = useState(false)
   const qaAnswer = q.answers?.find((a) => a.french === (result.matched ?? q.shown)) ?? q.answers?.[0]
+  // Answer the Question (Dan, 2026-11-14): a sample reply under the verdict. Right, it's another listed reply when there
+  // is one (never the learner's own again); with a typo or accent marks, the reply they meant, marked; wrong, the
+  // fullest reply.
+  const isChat = q.type === 'QT09' && q.answers?.length > 0
+  const sample = !isChat ? null : !result.correct ? q.answers[0] : (result.typo || result.accent) ? qaAnswer
+    : q.answers.find((a) => foldAnswer(a.french) !== foldAnswer(result.given ?? result.matched ?? '')) ?? qaAnswer
   // The French plays when the bar appears, without holding up Continue.
   useEffect(() => {
-    if (!cantListen && q.audio) play(qaAnswer?.audio ?? q.audio)
+    if (!cantListen && q.audio) play((sample ?? qaAnswer)?.audio ?? q.audio)
   }, [])
   // What to show: the accepted answer they matched, else the main one, plus the other language for sentences.
   // Match pairs ends with every pair matched: a clean board shows nothing, a mistapped pair is named.
@@ -814,7 +840,7 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const other = otherLine && same(result.given, otherLine) ? null : otherLine
   const good = result.correct
   // A typo or a missing accent: the letters that differ are marked in the answer shown.
-  const marks = (result.typo || result.accent) && result.given ? diffMarks(shown, result.given) : null
+  const marks = (result.typo || result.accent) && result.given ? diffMarks(isChat ? sample.french : shown, result.given) : null
   const [meaning, setMeaning] = useState(false)
   const phrase = result.phrase
   // A wrong typed answer may get an explanation (Phase 4); it shows only once it has arrived.
@@ -837,10 +863,15 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
               ) : (phrase?.text ?? fallback)}
               {meaning && <span role="tooltip" className="absolute bottom-full left-0 z-10 mb-1 w-max max-w-[min(18rem,80vw)] rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base font-normal text-ink shadow-md">{phrase.english}</span>}
             </p>
-            {shown && <p lang={isPairs ? undefined : q.lang === 'en' && !LISTENING.has(q.type) ? 'en' : TL} className="mt-0.5 break-words">
+            {isChat && <div data-sample-reply className="mt-1">
+              <p className="text-sm text-muted">Sample Reply</p>
+              <p lang={TL} className="break-words">{marks ? marks.map((m, i) => (m.mark ? <strong key={i} className="underline decoration-2 underline-offset-4">{m.text}</strong> : <span key={i}>{m.text}</span>)) : sample.french}</p>
+              <p className="break-words text-muted">{sample.english}</p>
+            </div>}
+            {!isChat && shown && <p lang={isPairs ? undefined : q.lang === 'en' && !LISTENING.has(q.type) ? 'en' : TL} className="mt-0.5 break-words">
               {marks ? marks.map((m, i) => (m.mark ? <strong key={i} className="underline decoration-2 underline-offset-4">{m.text}</strong> : <span key={i}>{m.text}</span>)) : shown}
             </p>}
-            {other && <p className="break-words text-muted">{other}</p>}
+            {!isChat && other && <p className="break-words text-muted">{other}</p>}
             {why && showWhy && <p className="mt-1 break-words text-sm" data-why>{why}</p>}
           </div>
           {/* Right side: Why? (once an explanation has arrived), flag, comment (Dan, 2026-11-12). */}

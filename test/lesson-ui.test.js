@@ -8,7 +8,7 @@ globalThis.sessionStorage = storage()
 globalThis.window = globalThis
 const { createServer } = await import('vite')
 const vite = await createServer({ configFile: false, logLevel: 'silent', appType: 'custom', server: { middlewareMode: true, hmr: false, ws: false }, optimizeDeps: { noDiscovery: true } })
-const { promptFor, SpeakerBubble } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
+const { promptFor, SpeakerBubble, ReplyBubble } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
 const { createElement } = await import('react')
 const { renderToStaticMarkup } = await import('react-dom/server')
 test.after(() => vite.close())
@@ -16,29 +16,32 @@ test.after(() => vite.close())
 const question = { type: 'QT09', variant: 'V0901', qid: 'q1', lang: 'fr', french: 'Tu es Paul ?', segments: [{ text: 'Tu es Paul ?' }], audio: { french: 'Tu es Paul ?', file: null } }
 const prompt = (q, result = null) => renderToStaticMarkup(promptFor(q, { newWords: new Set(), hideFrench: false, result, onHint: () => {} }))
 
-// Dan, 2026-11-11: on Answer the Question a sushi picture showed before the speaker. The speaker shows alone.
-test('Answer the Question, heard: the speaker shows alone, with no picture before it', () => {
+// Answer the Question is a chat (Dan, 2026-11-14): the question in a speaker bubble on the left with a small avatar,
+// no quotes inside it; while it's only heard, the bubble holds the speaker alone (Dan, 2026-11-11).
+test('Answer the Question, heard: the bubble holds the speaker alone', () => {
   const html = prompt(question)
-  assert.match(html, /^<div[^>]*data-audio-help[^>]*><button[^>]*aria-label="Play the question"/, 'the speaker button comes first, and is all there is')
+  assert.match(html, /data-speaker-bubble/)
+  assert.match(html, /data-avatar/)
+  assert.match(html, /data-audio-help[^>]*><button[^>]*aria-label="Play the question"/)
   assert.doesNotMatch(html, /<img/, 'no picture')
   assert.equal(html.match(/<button/g).length, 1, 'no Slow up front: Slow and Show Words come after the first replay (Dan, 2026-11-12)')
   assert.doesNotMatch(html, /Tu es Paul/, 'the words stay hidden until Show Words')
 })
-test('Answer the Question: the speaker\'s question is in quotes, so it reads as speech (Dan, 2026-11-12)', () => {
-  assert.match(prompt({ ...question, variant: 'V0903' }), /«\u202f<\/span>.*Tu es Paul.*\u202f»/s)
-})
-test('Answer the Question, written (V0903) or answered: the question is shown as text', () => {
-  assert.match(prompt({ ...question, variant: 'V0903' }), /Tu es Paul/)
-  assert.match(prompt(question, { correct: true }), /Tu es Paul/)
-})
-
-// Dan, 2026-11-11: no picture in any speech bubble (the sushi logo stood in for a character). The place stays in the
-// code, commented out.
-test('a speech bubble shows its words and no picture', () => {
-  for (const html of [prompt({ ...question, variant: 'V0903' }), prompt(question, { correct: true }), renderToStaticMarkup(createElement(SpeakerBubble, null, 'Bonjour'))]) {
-    assert.doesNotMatch(html, /<img|logo\.webp|<svg/)
+test('Answer the Question, written (V0903) or answered: the question is in the bubble, with no quotes', () => {
+  for (const html of [prompt({ ...question, variant: 'V0903' }), prompt(question, { correct: true })]) {
+    assert.match(html, /data-speaker-bubble.*Tu es Paul/s)
+    assert.doesNotMatch(html, /[«»“”„]/)
+    assert.doesNotMatch(html, /<img|logo\.webp/, 'the avatar is a placeholder, not the logo')
   }
-  assert.match(renderToStaticMarkup(createElement(SpeakerBubble, null, 'Bonjour')), /Bonjour/)
+})
+test('the reply bubble holds what it is given', () => {
+  assert.match(renderToStaticMarkup(createElement(ReplyBubble, null, 'Oui')), /data-reply-bubble.*Oui/s)
+})
+test('no other question type uses bubbles', () => {
+  for (const type of ['QT03', 'QT06', 'QT07', 'QT08', 'QT11', 'QT12']) {
+    const html = renderToStaticMarkup(promptFor({ ...question, type, english: 'Are you Paul?' }, { newWords: new Set(), hideFrench: false, result: { correct: true }, onHint: () => {} }))
+    assert.doesNotMatch(html, /data-speaker-bubble|data-reply-bubble/, type)
+  }
 })
 test('the logo picture is used by the logo alone, and the character\'s place is kept in a comment', async () => {
   const { readFileSync, readdirSync } = await import('node:fs')

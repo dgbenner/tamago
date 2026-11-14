@@ -379,6 +379,21 @@ export default function App() {
       },
     }
   })
+  // Development only: ?try=QT09 (any type) opens a lesson of just that question type, chips first then typed, from
+  // the first live circle that has it, so a layout can be seen straight away.
+  useEffect(() => {
+    if (!import.meta.env.DEV) return
+    const m = /[?&]try=(QT\d\d)/.exec(location.search)
+    if (!m) return
+    history.replaceState(null, '', location.pathname)
+    const units = [...tables.units].sort((x, y) => x.order - y.order).filter((u) => String(u.status).startsWith('live') && !['node', 'yes'].includes(u.is_topic_pick))
+    for (const round of [3, 4, 5]) for (const u of units) {
+      const uc = unitContent(u.unit_id)
+      const built = buildLesson(uc, { round, unit_id: u.unit_id, known: new Set([...seenWords.current, ...uc.wordOrder]), settings: lessonModes() })
+      const queue = built.queue.filter((q) => q.type === m[1])
+      if (queue.length) { begin({ ...built, queue, size: queue.length }); return }
+    }
+  }, [])
   // The grammar note no longer comes first (Dan, 2026-11-12): a circle goes straight into its lesson, and the note
   // opens from the small book icon on the circle (CircleNode onNote).
   const noteFor = (unitId) => tables.grammar_notes.find((n) => n.unit_id === unitId)
