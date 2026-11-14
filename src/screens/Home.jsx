@@ -87,11 +87,25 @@ function SheetHead({ kicker, title, onClose }) {
 // Back closes it.
 function NoteSheet({ node, note, sentenceById, onStart, onClose }) {
   const started = node.progress.round_reached > 0 || node.progress.lessons_done > 0
+  // A fade above the buttons while the note runs on past the fold, so the verb table reads as scrollable (craft review,
+  // 2026-11-14); gone once the end is in view.
+  const barRef = useRef(null)
+  const [more, setMore] = useState(false)
+  useEffect(() => {
+    const box = barRef.current?.closest('.sheet')
+    if (!box) return undefined
+    const update = () => setMore(box.scrollHeight - box.scrollTop - box.clientHeight > 4)
+    update()
+    box.addEventListener('scroll', update, { passive: true })
+    window.addEventListener('resize', update)
+    return () => { box.removeEventListener('scroll', update); window.removeEventListener('resize', update) }
+  }, [])
   return (
     <Sheet onClose={onClose}>
       <SheetHead kicker="Grammar Note" title={node.unit.title} onClose={onClose} />
       <div className="mt-4 flex flex-col gap-5"><GrammarNoteBody note={note} sentenceById={sentenceById} /></div>
-      <div className="sticky -bottom-5 -mx-5 mt-5 flex flex-col items-center gap-1 bg-surface px-5 pt-3 pb-1 lg:-bottom-6">
+      <div ref={barRef} className="sticky -bottom-5 -mx-5 mt-5 flex flex-col items-center gap-1 bg-surface px-5 pt-3 pb-1 lg:-bottom-6">
+        {more && <span data-note-fade aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-full h-16 bg-linear-to-t from-surface via-surface/70 to-transparent" />}
         <button onClick={onStart} className="btn-submit w-full" data-note-start>{started ? 'Next Lesson' : 'Start Lesson'}</button>
         <button onClick={onClose} className="btn-tertiary">Back</button>
       </div>
@@ -278,16 +292,19 @@ function PartCarousel({ part, onJumpPart }) {
       <div className="flex items-center gap-2">
         <button onClick={() => go(-1)} disabled={i === 0} aria-label="Previous part" className="carousel-arrow"><IconBack /></button>
         <div className="min-w-0 flex-1 overflow-hidden rounded-2xl">
-          <div className="carousel-track flex items-stretch" style={{ left: `-${i * 100}%` }}>
+          <div className="carousel-track flex items-start lg:items-stretch" style={{ left: `-${i * 100}%` }}>
             {cards.map((c, k) => {
               const locked = !(c.unlocked && c.built)
               return (
                 <div key={c.n} role="group" aria-roledescription="slide" aria-label={`Part ${c.n} of ${part.total}${locked ? ', locked' : ''}`} aria-hidden={k !== i} inert={k !== i}
                   className="flex w-full shrink-0 flex-col gap-1 rounded-2xl border-2 border-line bg-surface p-4">
-                  {/* Top, centred: the lock if locked, "A1", and a pill per part, green up to this one (ring green). */}
-                  <div className="mb-1 flex items-center justify-center gap-2 text-sm text-muted" aria-hidden="true">
-                    {locked && <span className="[&_svg]:size-4"><IconLock /></span>}
-                    <span>A1</span>
+                  {/* Top, centred (craft review, 2026-11-14): which part this is and where it stands, then a pill per part
+                      of A1, green up to this one, so the pills read as "part 2 of 6". */}
+                  <div className="mb-1 flex flex-col items-center gap-1.5 text-sm text-muted" aria-hidden="true">
+                    <span className="flex items-center gap-1.5">
+                      {locked && <span className="[&_svg]:size-4"><IconLock /></span>}
+                      A1 · Part {c.n} of {part.total}{c.n === part.n ? ' · This Part' : c.n === part.n + 1 ? ' · Next' : c.n < part.n ? ' · Earlier' : ''}
+                    </span>
                     <span className="flex gap-1">
                       {Array.from({ length: part.total }, (_, n) => <span key={n} className={`h-1.5 w-4 rounded-full ${n < c.n ? 'bg-ring' : 'bg-field'}`} />)}
                     </span>

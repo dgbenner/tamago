@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { play } from '../lib/audio.js'
 import { checkForm, readValue, sameValue, wordCount } from '../lib/a1types.js'
 import { requestFeedback } from '../lib/converse.js'
@@ -11,31 +11,42 @@ import AudioHelp from './AudioHelp.jsx'
 const KIND_LABEL = { menu: 'Menu', sign: 'Sign', notice: 'Notice', timetable: 'Timetable', message: 'Message' }
 
 // QT14: the text, styled by what it is, then 2 or 3 questions. Right when every question is.
+// Craft review (Fable, 2026-11-14): picks wait for Check, like every other type (no submit on the last pick); the text
+// and choices are compact and the questions sit side by side on wide screens, so the whole task is in view; a wrong
+// answer puts its corrections in the answer bar.
 export function ReadText({ q, result, onAnswer }) {
   const [picked, setPicked] = useState({})
-  const pick = (i, k) => {
-    if (picked[i] !== undefined || result) return
-    const next = { ...picked, [i]: k }
-    setPicked(next)
-    if (Object.keys(next).length === q.questions.length) onAnswer({ correct: q.questions.every((x, j) => next[j] === x.answer), given: Object.values(next).join(',') })
+  const all = Object.keys(picked).length === q.questions.length
+  const pick = (i, k) => { if (!result) setPicked((p) => ({ ...p, [i]: k })) }
+  const check = () => {
+    document.activeElement?.blur()
+    const right = q.questions.filter((x, j) => picked[j] === x.answer).length
+    const fixes = q.questions.flatMap((x, j) => (picked[j] === x.answer ? [] : [`${x.question} ${x.choices[x.answer]}`]))
+    onAnswer({ correct: right === q.questions.length, given: Object.values(picked).join(','), corrections: fixes.length ? [`${right} of ${q.questions.length} right`, ...fixes] : null })
   }
   return (
     <>
-      <figure className={`rounded-2xl border-2 border-line bg-surface p-4 ${q.kind === 'sign' ? 'text-center' : ''}`}>
-        <figcaption className="mb-2 text-sm text-muted">{KIND_LABEL[q.kind] ?? 'Text'}{q.title ? `: ${q.title}` : ''}</figcaption>
-        <div lang={TL} className={`flex flex-col gap-1 ${q.kind === 'sign' ? 'text-2xl font-semibold' : 'text-lg'}`}>
+      <figure className={`rounded-2xl border-2 border-line bg-surface p-3 ${q.kind === 'sign' ? 'text-center' : ''}`}>
+        <figcaption className="mb-1 text-sm text-muted">{KIND_LABEL[q.kind] ?? 'Text'}{q.title ? `: ${q.title}` : ''}</figcaption>
+        <div lang={TL} className={`flex flex-col gap-0.5 ${q.kind === 'sign' ? 'text-xl font-semibold' : 'text-lg'}`}>
           {q.lines.map((l, i) => <p key={i}>{l}</p>)}
         </div>
       </figure>
-      {q.questions.map((x, i) => (
-        <fieldset key={i} className="flex flex-col gap-2">
-          <legend className="mb-2 font-medium">{x.question}</legend>
-          {x.choices.map((c, k) => {
-            const state = picked[i] === undefined ? '' : k === x.answer ? 'choice-right' : picked[i] === k ? 'choice-wrong' : ''
-            return <button key={k} lang={x.lang === 'course' ? TL : undefined} disabled={picked[i] !== undefined || Boolean(result)} aria-pressed={picked[i] === k} onClick={() => pick(i, k)} className={`choice ${state}`}>{c}</button>
-          })}
-        </fieldset>
-      ))}
+      <div className="grid gap-4 lg:grid-cols-2">
+        {q.questions.map((x, i) => (
+          <fieldset key={i} className="flex flex-col gap-1.5">
+            <legend className="mb-1.5 font-medium">{x.question}</legend>
+            {/* Short choices sit side by side on a phone, so both questions fit above Check. */}
+            <div className="flex flex-wrap gap-2 lg:flex-col lg:gap-1.5">
+            {x.choices.map((c, k) => {
+              const state = !result ? (picked[i] === k ? 'choice-selected' : '') : k === x.answer ? 'choice-right' : picked[i] === k ? 'choice-wrong' : 'opacity-60'
+              return <button key={k} lang={x.lang === 'course' ? TL : undefined} disabled={Boolean(result)} aria-pressed={picked[i] === k} onClick={() => pick(i, k)} data-wrong={state === 'choice-wrong' ? '' : undefined} className={`choice min-h-11 py-1.5 text-base ${state}`}>{c}</button>
+            })}
+            </div>
+          </fieldset>
+        ))}
+      </div>
+      {!result && <div className="check-row action-row"><button data-check disabled={!all} onClick={check} className="btn-submit flex-1">Check</button></div>}
     </>
   )
 }
@@ -49,7 +60,9 @@ export function FormFill({ q, result, onAnswer }) {
     document.activeElement?.blur()
     const r = checkForm(q.fields, values)
     setChecked(r)
-    onAnswer({ correct: r.correct, given: q.fields.map((f) => values[f.key] ?? '').join(' | ') })
+    // The corrections go in the answer bar too (craft review, 2026-11-14), so the bar never hides them.
+    const fixes = r.results.filter((x) => !x.ok).map((x) => `${q.fields.find((f) => f.key === x.key)?.label}: ${x.expected}`)
+    onAnswer({ correct: r.correct, given: q.fields.map((f) => values[f.key] ?? '').join(' | '), corrections: fixes.length ? fixes : null })
   }
   return (
     <>
@@ -63,8 +76,8 @@ export function FormFill({ q, result, onAnswer }) {
               <input value={values[f.key] ?? ''} onChange={(e) => setValues((v) => ({ ...v, [f.key]: e.target.value }))} disabled={Boolean(result)} lang={TL}
                 inputMode={f.rule === 'number' || f.rule === 'phone' ? 'numeric' : 'text'} autoComplete="off" autoCapitalize="off" spellCheck={false}
                 aria-invalid={r ? !r.ok : undefined}
-                className={`min-h-11 rounded-xl border-2 bg-surface px-3 text-lg ${r ? (r.ok ? 'border-right' : 'border-wrong') : 'border-field'}`} />
-              {r && !r.ok && <span className="text-sm">Expected: <span lang={TL}>{r.expected}</span></span>}
+                className={`min-h-11 rounded-xl border-2 bg-surface px-3 text-lg outline-none ${r ? (r.ok ? 'border-right' : 'border-wrong') : 'border-field focus:border-ink'}`} />
+              {r && !r.ok && <span data-wrong className="text-sm">Expected: <span lang={TL}>{r.expected}</span></span>}
             </label>
           )
         })}
@@ -79,21 +92,29 @@ export function FormFill({ q, result, onAnswer }) {
 export function WriteMessage({ q, result, onAnswer }) {
   const [text, setText] = useState('')
   const [feedback, setFeedback] = useState(null)
+  // After Done (craft review, 2026-11-14): a line says the notes are on the way, until they arrive or turn out to be off.
+  const [waiting, setWaiting] = useState(false)
+  const notesRef = useRef(null)
   const n = wordCount(text)
   const send = () => {
     document.activeElement?.blur()
     onAnswer({ correct: true, given: text, speaking: true }) // speaking: no praise line, like a spoken answer: "Done."
-    requestFeedback({ lang: course.id, prompt: q.prompt, points: q.points, text }).then((f) => setFeedback(f))
+    setWaiting(true)
+    requestFeedback({ lang: course.id, prompt: q.prompt, points: q.points, text }).then((f) => { setFeedback(f); setWaiting(false) }, () => setWaiting(false))
   }
+  useEffect(() => { if (feedback || waiting) notesRef.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' }) }, [feedback, waiting])
+  // The points are listed once, as bullets; the sentence keeps only the task (craft review, 2026-11-14).
+  const task = q.points.length ? q.prompt.replace(/:.*$/, '.') : q.prompt
   return (
     <>
-      <p className="text-lg">{q.prompt}</p>
+      <p className="text-lg">{task}</p>
       {q.points.length > 0 && <ul className="-mt-2 list-disc pl-5 text-muted">{q.points.map((p) => <li key={p}>{p}</li>)}</ul>}
       <textarea value={text} onChange={(e) => setText(e.target.value)} disabled={Boolean(result)} rows={6} lang={TL} aria-label={`Your message in ${course.name}`} aria-describedby="wc"
-        className="rounded-xl border-2 border-field bg-surface px-3 py-2 text-lg" />
+        className="rounded-xl border-2 border-field bg-surface px-3 py-2 text-lg outline-none focus:border-ink" />
       <p id="wc" className="-mt-2 text-sm text-muted">{n} {n === 1 ? 'word' : 'words'} · aim for {q.min} to {q.max}</p>
+      {waiting && !feedback && <p ref={notesRef} role="status" className="text-sm text-muted">Claude's notes on your message are on the way…</p>}
       {feedback && (
-        <section aria-live="polite" className="flex flex-col gap-1 rounded-xl border-2 border-line p-3 text-sm">
+        <section ref={notesRef} aria-live="polite" className="flex flex-col gap-1 rounded-xl border-2 border-line p-3 text-sm">
           <h2 className="font-semibold">Claude's notes</h2>
           {feedback.meaning && <p>{feedback.meaning}</p>}
           {feedback.grammar?.length > 0 && <ul className="list-disc pl-5">{feedback.grammar.map((g, i) => <li key={i}>{g}</li>)}</ul>}
@@ -121,11 +142,10 @@ export function ListenNumber({ q, result, onAnswer, wordsShown, onShowWords }) {
         : (
           <AudioHelp audio={q.audio} label="Play it again" words={<p lang={TL} className="text-2xl">{q.audio.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} />
         )}
-      <p className="font-medium">{ASK[q.kind] ?? 'Write it in figures'}</p>
       <form onSubmit={(e) => { e.preventDefault(); if (text.trim() && !result) check() }}>
         <input autoFocus value={text} onChange={(e) => setText(e.target.value)} disabled={Boolean(result)} inputMode={q.kind === 'number' ? 'numeric' : 'text'}
           placeholder={`For example ${HINT[q.kind] ?? '47'}`} aria-label={ASK[q.kind] ?? 'Your answer'} autoComplete="off"
-          className="w-full rounded-xl border-2 border-field bg-surface px-4 py-3 text-lg" />
+          className="w-full rounded-xl border-2 border-field bg-surface px-4 py-3 text-lg outline-none focus:border-ink" />
       </form>
       {text.trim() && !result && readValue(q.kind, text) === null && <p className="text-sm text-muted">Write it in figures, like {HINT[q.kind]}.</p>}
       {!result && <div className="check-row"><button data-check disabled={!text.trim()} onClick={check} className="btn-submit flex-1">Check</button></div>}

@@ -10,7 +10,7 @@ export const A1_TYPES = {
   QT14: { name: 'Read and Answer', skill: 'reading', table: 'a1_texts', rounds: [2, 5] },
   QT15: { name: 'Fill In the Form', skill: 'writing', table: 'a1_forms', rounds: [3, 5] },
   QT16: { name: 'Write a Message', skill: 'writing', table: 'a1_prompts', rounds: [4, 5] },
-  QT17: { name: 'Write What You Hear', skill: 'listening', table: 'a1_listen', rounds: [2, 5] },
+  QT17: { name: 'Write the Number', skill: 'listening', table: 'a1_listen', rounds: [2, 5] },
 }
 
 // Case, accents and punctuation don't count (e matches é); spaces collapse.

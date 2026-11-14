@@ -17,7 +17,7 @@ import { FormFill, ListenNumber, ReadText, WriteMessage } from './A1Tasks.jsx'
 const PROMPT = {
   QT01: 'Match the Pairs', QT02: 'Pick the Picture', QT10: 'Say It Aloud', QT13: 'Speak and Compare', QT03: 'Pick the Meaning', QT04: 'Pick What You Heard', QT05: 'Fill in the Blank', QT06: 'Translate',
   QT07: 'Tap What You Hear', QT08: 'Translate', QT09: 'Answer the Question', QT11: 'Type What You Hear', QT12: 'Translate',
-  QT14: 'Read and Answer', QT15: 'Fill In the Form', QT16: 'Write a Message', QT17: 'Write What You Hear', QT18: 'Type the Word',
+  QT14: 'Read and Answer', QT15: 'Fill In the Form', QT16: 'Write a Message', QT17: 'Write the Number', QT18: 'Type the Word',
 }
 const LISTENING = new Set(['QT04', 'QT07', 'QT11'])
 const LISTEN_FIRST = new Set(['QT03', 'QT06'])
@@ -29,7 +29,6 @@ const SHOWS_FRENCH = new Set(['QT01', 'QT02', 'QT03', 'QT05', 'QT06']) // the Ne
 function headingFor(q, { hideFrench, typing }) {
   if (hideFrench) return q.type === 'QT03' ? 'Listen and Pick the Meaning' : 'Listen and Translate'
   if (q.type === 'QT07' && (typing || q.typed)) return 'Type What You Hear'
-  if (q.type === 'QT17' && q.readInstead) return 'Write the Number'
   return PROMPT[q.type]
 }
 
@@ -142,6 +141,15 @@ export default function Lesson({ session, content, settings, seenWords, cantList
     if (!mainRef.current?.querySelector('input[autofocus], input:focus')) headingRef.current?.focus({ preventScroll: true })
   }, [q.qid])
 
+  // A wrong answer: the first marked item is scrolled into view, so the answer bar never covers it (craft review, 2026-11-14).
+  useEffect(() => {
+    if (!result || result.correct || result.testSkip) return
+    const wrong = mainRef.current?.querySelector('[data-wrong], .choice-wrong, [data-wrong-mark]')
+    const bar = document.querySelector('section[data-outcome]')
+    if (!wrong || !bar) return
+    const r = wrong.getBoundingClientRect(), top = bar.getBoundingClientRect().top
+    if (r.bottom > top - 12) window.scrollBy({ top: r.bottom - top + 24, behavior: 'smooth' })
+  }, [result])
   useEffect(() => {
     if (!result) return undefined
     // A test skip goes straight on, once the session holds its answer.
@@ -165,6 +173,9 @@ export default function Lesson({ session, content, settings, seenWords, cantList
           {/* Slides from the old value to the new one as the next question loads (Dan, 2026-11-12). */}
           <div className="h-full rounded-full bg-green transition-[width] duration-500 ease-in-out motion-reduce:transition-none" style={{ width: `${barMax.current * 100}%` }} />
         </div>
+        {/* The question type while Developer is on: in the top bar on phones, so it never covers content (craft review,
+            2026-11-14); lower left on wide screens. */}
+        {settings.developer !== 'off' && <p data-qtype className="pointer-events-none absolute right-4 -bottom-2.5 text-[0.625rem] text-muted lg:hidden">{questionLabel(q.type, course.name)}</p>}
       </header>
 
       {/* A new question's parts appear top to bottom, the heading first, fast; only opacity and a small lift animate, so
@@ -189,7 +200,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         </div>
       )}
       {/* The question type, lower left, while Developer is on (Dan, 2026-11-12): "QT11 · Type What You Hear". */}
-      {settings.developer !== 'off' && <p data-qtype className="pointer-events-none fixed bottom-[max(0.25rem,env(safe-area-inset-bottom))] left-2 z-30 text-xs text-muted">{questionLabel(q.type, course.name)}</p>}
+      {settings.developer !== 'off' && <p data-qtype className="pointer-events-none fixed bottom-[max(0.25rem,env(safe-area-inset-bottom))] left-2 z-30 hidden text-xs text-muted lg:block">{questionLabel(q.type, course.name)}</p>}
 
       {result && !result.testSkip && <AnswerBar q={q} result={result} cantListen={cantListen} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id, result)} onContinue={advance} />}
     </main>
@@ -221,7 +232,7 @@ function WrongMark({ className = '' }) {
 }
 
 // The French, with a dotted underline on each word that has a hint.
-function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
+function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null, markNewOnly = false }) {
   const [open, setOpen] = useState(null)
   return (
     <p lang={TL} className="text-2xl leading-relaxed">
@@ -234,7 +245,7 @@ function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null }) {
           <span key={i} className="relative">
             <button
               onClick={() => { setOpen(open === i ? null : i); if (open !== i) onHint(seg) }} aria-expanded={open === i} aria-describedby={open === i ? `hint-${q.qid}-${i}` : undefined}
-              className="underline decoration-dotted decoration-2 underline-offset-4"
+              className={markNewOnly && !newWords.has(seg.word_id) ? '' : 'underline decoration-dotted decoration-2 underline-offset-4'}
             >{seg.text}</button>
             {/* The new-word dot sits on the word like a superscript, not between words like a bullet. */}
             {newWords.has(seg.word_id) && <span className="new-dot absolute -top-0.5 left-full ml-0.5 size-1.5" aria-hidden="true" />}
@@ -306,10 +317,12 @@ function HeardFrom({ q, children }) {
     </div>
   )
 }
-export function ReplyBubble({ children, className = '' }) {
+// The reply starts as a short bubble and grows with the answer (craft review, 2026-11-14: no empty full-width slab);
+// wide: typed replies, which need the room for the field.
+export function ReplyBubble({ children, className = '', wide = false }) {
   return (
     <div data-reply-bubble className="flex justify-end pl-12">
-      <div className={`reply-bubble relative w-full rounded-2xl rounded-br-sm border-2 px-3 py-2.5 ${className}`}>{children}</div>
+      <div className={`reply-bubble relative min-w-20 max-w-full rounded-2xl rounded-br-sm border-2 px-3 py-2 ${wide ? 'w-full' : ''} ${className}`}>{children}</div>
     </div>
   )
 }
@@ -555,8 +568,9 @@ export function promptFor(q, { newWords, hideFrench, result, onHint, wordsShown,
   if (q.type === 'QT09') {
     // While the question is only heard, the bubble holds the speaker alone (Dan, 2026-11-11); Show Words puts the words
     // under it. No quotes: the bubble already marks it as speech (Dan, 2026-11-14).
-    const words = <FrenchText q={q} newWords={newWords} onHint={onHint} />
-    if (q.variant !== 'V0903' && !result) return <SpeakerBubble speaker={speakerFor(q)}><div className="flex flex-col gap-3"><AudioHelp audio={q.audio} label="Play the question" words={words} wordsShown={wordsShown} onShowWords={onShowWords} /></div></SpeakerBubble>
+    // Every word still opens its hint on a tap; only new words carry the dotted line (craft review, 2026-11-14).
+    const words = <FrenchText q={q} newWords={newWords} onHint={onHint} markNewOnly />
+    if (q.variant !== 'V0903' && !result) return <SpeakerBubble speaker={speakerFor(q)}><div className="flex flex-col gap-3"><AudioHelp bare audio={q.audio} label="Play the question" words={words} wordsShown={wordsShown} onShowWords={onShowWords} /></div></SpeakerBubble>
     return <SpeakerBubble speaker={speakerFor(q)}>{words}</SpeakerBubble>
   }
   if ((q.type === 'QT07' || q.type === 'QT11') && !result) return <AudioHelp audio={q.audio} words={<p lang={TL} className="text-2xl leading-relaxed">{q.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} />
@@ -626,7 +640,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
       {promptFor(q, { newWords, hideFrench, result, onHint, wordsShown, onShowWords })}
       {typing ? (
         q.type === 'QT09'
-          ? <ReplyBubble className="focus-within:border-ink"><TypedInput q={q} bare value={text} onChange={setText} disabled={Boolean(result)} wrong={wrong} onSubmit={() => check(text)} /></ReplyBubble>
+          ? <ReplyBubble wide className="focus-within:border-ink"><TypedInput q={q} bare value={text} onChange={setText} disabled={Boolean(result)} wrong={wrong} onSubmit={() => check(text)} /></ReplyBubble>
           : <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={wrong} onSubmit={() => check(text)} />
       ) : (
         <>
@@ -634,7 +648,8 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
               still there); removing one returns focus to the answer. */}
           {/* Chips can also be dragged (drag and drop): from the bank into the answer at the marker, within the
               answer to reorder, or back to the bank. Tapping and typing still pick; keyboard users pick and remove. */}
-{q.type === 'QT09' ? <ReplyBubble className={drag.over === 'answer' ? 'border-orange' : ''}>          <div ref={drag.answerRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className="relative flex min-h-11 flex-wrap items-center gap-2">
+{q.type === 'QT09' ? <ReplyBubble className={drag.over === 'answer' ? 'border-orange' : ''}>          <div ref={drag.answerRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className="relative flex min-h-9 flex-wrap items-center justify-end gap-2">
+            {picked.length === 0 && <span aria-hidden="true" className="px-1 text-lg text-muted">…</span>}
             {picked.map((chipIndex) => (
               <button key={chipIndex} data-drag-chip disabled={Boolean(result)} aria-label={`${q.chips[chipIndex]}, remove`} onPointerDown={(e) => drag.begin(e, chipIndex)}
                 onClick={(e) => { if (drag.ate()) return; focusNeighbour(e.currentTarget); setPicked(picked.filter((i) => i !== chipIndex)) }}
@@ -829,7 +844,7 @@ function Typed({ q, content, settings, result, onAnswer, newWords, hideFrench, o
     <>
       {promptFor(q, { newWords, hideFrench, result, onHint, wordsShown, onShowWords })}
       {q.type === 'QT09'
-        ? <ReplyBubble className="focus-within:border-ink"><TypedInput q={q} bare value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} /></ReplyBubble>
+        ? <ReplyBubble wide className="focus-within:border-ink"><TypedInput q={q} bare value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} /></ReplyBubble>
         : <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} />}
       {!result && <div className="check-row"><button data-check disabled={!text.trim()} onClick={check} className="btn-submit flex-1">Check</button></div>}
     </>
@@ -921,6 +936,8 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
               {marks ? marks.map((m, i) => (m.mark ? <strong key={i} className="underline decoration-2 underline-offset-4">{m.text}</strong> : <span key={i}>{m.text}</span>)) : shown}
             </p>}
             {!isChat && other && <p className="break-words text-muted">{other}</p>}
+            {/* Read and Answer, Fill the Form: what was wrong, in the bar itself (craft review, 2026-11-14). */}
+            {!good && result.corrections?.length > 0 && <ul data-corrections className="mt-0.5 flex flex-col gap-0.5">{result.corrections.map((c, i) => <li key={i} className={`break-words ${i === 0 && /of \d+ right$/.test(c) ? 'text-muted' : ''}`}>{c}</li>)}</ul>}
             {why && showWhy && <p className="mt-1 break-words text-sm" data-why>{why}</p>}
           </div>
           {/* Right side: Why? (once an explanation has arrived), flag, comment (Dan, 2026-11-12). */}
