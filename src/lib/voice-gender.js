@@ -9,4 +9,7 @@ export const speakerKey = (name) => `speaker:${name}`
 export const TAG_LABELS = { female: 'Female', male: 'Male' }
 // 'female', 'male' or null (untagged, or tagged unsure).
 export const genderOf = (key) => (key && (TAGS[key] === 'female' || TAGS[key] === 'male') ? TAGS[key] : null)
+// A child's voice (Dan, 2026-11-14): its own tag beside the gender, "child:speaker:<name>": true.
+export const childKey = (key) => `child:${key}`
+export const isChild = (key) => Boolean(key && TAGS[childKey(key)] === true)
 export const allTags = () => ({ ...TAGS })

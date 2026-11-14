@@ -48,7 +48,7 @@ function TagButtons({ value, onTag }) {
   )
 }
 
-function Row({ title, note, onPlay, value, onTag }) {
+function Row({ title, note, onPlay, value, onTag, child, onChild }) {
   return (
     <li className="flex flex-wrap items-center gap-3 rounded-xl border-2 border-line bg-surface px-4 py-3">
       <button onClick={onPlay} aria-label={`Play ${title}`} className="icon-btn shrink-0 border-2 border-line">▶</button>
@@ -57,6 +57,7 @@ function Row({ title, note, onPlay, value, onTag }) {
         {note && <p className="text-sm text-muted">{note}</p>}
       </div>
       <TagButtons value={value} onTag={onTag} />
+      <label className="flex items-center gap-1.5 text-sm"><input type="checkbox" checked={child} onChange={(e) => onChild(e.target.checked)} className="size-4" />Child</label>
     </li>
   )
 }
@@ -105,7 +106,7 @@ function CourseSection({ course, voices, tags, onTag, player }) {
         {mine.length === 0 && <p className="text-sm text-muted">No {course.name} voice on this browser.</p>}
         <ul className="flex flex-col gap-2">
           {mine.map((v) => (
-            <Row key={v.voiceURI} title={v.name} value={tags[`voice:${v.name}`] ?? null} onTag={(g) => onTag(`voice:${v.name}`, g)} onPlay={() => say(v)}
+            <Row key={v.voiceURI} title={v.name} value={tags[`voice:${v.name}`] ?? null} onTag={(g) => onTag(`voice:${v.name}`, g)} child={tags[`child:voice:${v.name}`] === true} onChild={(on) => onTag(`child:voice:${v.name}`, on || null)} onPlay={() => say(v)}
               note={[v.lang, v.localService ? 'on the device' : 'online', used?.voiceURI === v.voiceURI ? 'the app uses this one here' : ''].filter(Boolean).join(' · ')} />
           ))}
         </ul>
@@ -115,7 +116,7 @@ function CourseSection({ course, voices, tags, onTag, player }) {
         <p className="text-sm text-muted">Everyone whose recordings ship, by name. A tag covers all their files. Play goes through their files in turn.</p>
         <ul className="flex flex-col gap-2">
           {speakers.map((s) => (
-            <Row key={s.name} title={s.name} value={tags[`speaker:${s.name}`] ?? null} onTag={(g) => onTag(`speaker:${s.name}`, g)}
+            <Row key={s.name} title={s.name} value={tags[`speaker:${s.name}`] ?? null} onTag={(g) => onTag(`speaker:${s.name}`, g)} child={tags[`child:speaker:${s.name}`] === true} onChild={(on) => onTag(`child:speaker:${s.name}`, on || null)}
               note={`${s.files.length} ${s.files.length === 1 ? 'recording' : 'recordings'} · ${s.files.slice(0, 4).map((f) => f.text).join(', ')}${s.files.length > 4 ? '…' : ''}`}
               onPlay={() => player(s)} />
           ))}
@@ -149,7 +150,7 @@ function VoiceLab() {
     <main className="mx-auto flex max-w-3xl flex-col gap-10 px-4 py-8">
       <header className="flex flex-col gap-2">
         <h1 className="text-3xl font-semibold">Voice Lab</h1>
-        <p className="text-muted">Tag each voice by ear. Answer the Question shows the woman for a Female voice and the man for a Male one; Unsure and untagged pick either. Tags save as you go to src/lib/voice-genders.json.</p>
+        <p className="text-muted">Tag each voice by ear. Answer the Question shows a woman for a Female voice and a man for a Male one, the girl or the boy when Child is ticked; Unsure and untagged pick any adult. Tags save as you go to src/lib/voice-genders.json.</p>
         <p role="status" className="min-h-5 text-sm text-muted">{status}</p>
       </header>
       {COURSES.filter((c) => c.ready).map((c) => <CourseSection key={c.id} course={c} voices={voices} tags={tags} onTag={onTag} player={player} />)}

@@ -6,7 +6,7 @@ import { checkTyped, diffMarks } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
 import { audioKey, courseVoiceName, filesIn, play, preload, stop } from '../lib/audio.js'
-import { genderOf, speakerKey, voiceKey } from '../lib/voice-gender.js'
+import { genderOf, isChild, speakerKey, voiceKey } from '../lib/voice-gender.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconMic, IconSpeaker, IconWhy } from './icons.jsx'
 import { questionLabel } from '../lib/question-names.js'
 import AudioHelp from './AudioHelp.jsx'
@@ -263,14 +263,18 @@ function FirstSight({ q, newWords, except = null }) {
 // The picture follows the voice (Dan, 2026-11-14): a recording's speaker, else the device voice, as tagged in the Voice
 // Lab (voice-gender.js). Speakers are Dan's adult avatars, named by gender (public/images/speakers; originals in
 // _source/speakers, kept out of the repo); a question always gets the same one from its voice's group. Untagged
-// sources pick from everyone. The two children wait for the Child tag (child-female-chestnut, child-male-glasses).
+// sources pick from every adult. A voice tagged Child gets the girl or the boy.
 const SPEAKERS = {
   female: ['female-blonde', 'female-wavy-pink', 'female-earrings-coral', 'female-black-hair', 'female-gold-earrings', 'female-chestnut'],
   male: ['male-bearded-brown', 'male-glasses-black-hair', 'male-curly-beard', 'male-beard-green', 'male-blond-glasses'],
 }
+const CHILDREN = { female: 'child-female-chestnut', male: 'child-male-glasses' }
 const speakerUrl = (name) => `/images/speakers/${name}.webp`
 export const speakerFor = (q, voiceName = courseVoiceName()) => {
-  const gender = genderOf(q?.audio?.file ? speakerKey(q.audio.speaker) : voiceName ? voiceKey(voiceName) : null)
+  const key = q?.audio?.file ? speakerKey(q.audio.speaker) : voiceName ? voiceKey(voiceName) : null
+  const gender = genderOf(key)
+  // A child's voice gets a child (Dan, 2026-11-14): the girl or the boy, by the voice's gender.
+  if (gender && isChild(key)) return speakerUrl(CHILDREN[gender])
   const pool = gender ? SPEAKERS[gender] : [...SPEAKERS.female, ...SPEAKERS.male]
   const n = [...String(q?.sentence_id ?? q?.qid ?? '')].reduce((t, ch) => t * 31 + ch.charCodeAt(0) >>> 0, 7)
   return speakerUrl(pool[n % pool.length])

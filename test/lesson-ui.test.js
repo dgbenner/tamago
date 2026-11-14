@@ -8,7 +8,7 @@ globalThis.sessionStorage = storage()
 globalThis.window = globalThis
 const { createServer } = await import('vite')
 const vite = await createServer({ configFile: false, logLevel: 'silent', appType: 'custom', server: { middlewareMode: true, hmr: false, ws: false }, optimizeDeps: { noDiscovery: true } })
-const { promptFor, SpeakerBubble, ReplyBubble } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
+const { promptFor, SpeakerBubble, ReplyBubble, speakerFor } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
 const { createElement } = await import('react')
 const { renderToStaticMarkup } = await import('react-dom/server')
 test.after(() => vite.close())
@@ -48,4 +48,15 @@ test('the logo picture is used by the logo alone', async () => {
   const dir = new URL('../src/screens/', import.meta.url)
   const users = readdirSync(dir).filter((f) => /logo\.webp/.test(readFileSync(new URL(f, dir), 'utf8').replace(/\{\/\*[\s\S]*?\*\/\}/g, '')))
   assert.deepEqual(users, ['Logo.jsx'])
+})
+
+// The speaker follows the voice's tags (Dan, 2026-11-14): a child's recording gets a child, by gender.
+test('a voice tagged Child gets the girl or the boy; an adult voice gets an adult of its gender', () => {
+  const rec = (speaker) => ({ ...question, audio: { file: '/audio/x.m4a', speaker } })
+  assert.match(speakerFor(rec('Aemines4')), /child-male-glasses/)
+  assert.match(speakerFor(rec('Lilie B. (BiblioCanet66)')), /child-female-chestnut/)
+  assert.match(speakerFor(rec('Aemines2')), /\/female-/)
+  assert.match(speakerFor(rec('Aemines1')), /\/male-/)
+  assert.match(speakerFor(question, 'Thomas'), /\/male-/)
+  assert.match(speakerFor(question, 'Amélie'), /\/female-/)
 })

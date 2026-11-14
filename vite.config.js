@@ -46,7 +46,7 @@ function voiceLabSave() {
         req.on('end', () => {
           try {
             const tags = JSON.parse(body)
-            const clean = Object.fromEntries(Object.entries(tags).filter(([k, v]) => /^(voice|speaker):/.test(k) && ['female', 'male', 'unsure'].includes(v)).sort(([a], [b]) => a.localeCompare(b)))
+            const clean = Object.fromEntries(Object.entries(tags).filter(([k, v]) => (/^(voice|speaker):/.test(k) && ['female', 'male', 'unsure'].includes(v)) || (/^child:(voice|speaker):/.test(k) && v === true)).sort(([a], [b]) => a.localeCompare(b)))
             writeFileSync('src/lib/voice-genders.json', `${JSON.stringify(clean, null, 1)}\n`)
             res.setHeader('content-type', 'application/json'); res.end(JSON.stringify({ saved: Object.keys(clean).length }))
           } catch (e) { res.statusCode = 400; res.end(String(e)) }
