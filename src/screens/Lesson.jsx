@@ -255,16 +255,21 @@ function FirstSight({ q, newWords, except = null }) {
 }
 
 // Answer the Question is a chat (Dan, 2026-11-14), and the only question type with bubbles: the speaker's question in
-// a bubble on the left with a small avatar, the learner's reply building in a bubble on the right. The avatar is a
-// placeholder figure until the animal characters exist; the character's place is kept in the comment below.
-export function SpeakerBubble({ children }) {
+// a bubble on the left with the speaker's picture, the learner's reply building in a bubble on the right. Speakers are
+// adults from the lesson pictures (homme, femme; Dan, 2026-11-14), the same one for a question every time. Both the
+// picture and the bubble are ringed in the accent, so the speaker reads at a glance. The character's place, for when
+// the animal characters exist, is this SPEAKERS list.
+const SPEAKERS = ['/images/pictures/femme.webp', '/images/pictures/homme.webp']
+export const speakerFor = (q) => SPEAKERS[[...String(q?.sentence_id ?? q?.qid ?? '')].reduce((n, ch) => n + ch.charCodeAt(0), 0) % SPEAKERS.length]
+export function SpeakerBubble({ children, speaker = null }) {
   return (
-    <div data-speaker-bubble className="flex items-end gap-2.5 pr-8">
-      {/* The character goes here: <img src={character.image} alt="" className="h-10 w-10 shrink-0 object-contain" /> */}
-      <span data-avatar aria-hidden="true" className="flex size-10 shrink-0 items-center justify-center overflow-hidden rounded-full bg-disc text-muted">
-        <svg viewBox="0 0 24 24" className="mt-2 size-8" fill="currentColor"><circle cx="12" cy="8" r="4.2" /><path d="M3.5 23c0-5 3.8-8.6 8.5-8.6s8.5 3.6 8.5 8.6z" /></svg>
+    <div data-speaker-bubble className="speaker-row flex items-end gap-3 pr-8">
+      <span data-avatar aria-hidden="true" className="speaker-ring flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-disc text-muted">
+        {speaker
+          ? <img src={speaker} alt="" className="size-full scale-125 object-cover object-[50%_30%]" />
+          : <svg viewBox="0 0 24 24" className="mt-2 size-10" fill="currentColor"><circle cx="12" cy="8" r="4.2" /><path d="M3.5 23c0-5 3.8-8.6 8.5-8.6s8.5 3.6 8.5 8.6z" /></svg>}
       </span>
-      <div className="min-w-0 rounded-2xl rounded-bl-sm border-2 border-line bg-surface px-4 py-3">{children}</div>
+      <div className="speaker-ring min-w-0 rounded-2xl rounded-bl-sm bg-surface px-4 py-3">{children}</div>
     </div>
   )
 }
@@ -511,8 +516,8 @@ export function promptFor(q, { newWords, hideFrench, result, onHint, wordsShown,
     // While the question is only heard, the bubble holds the speaker alone (Dan, 2026-11-11); Show Words puts the words
     // under it. No quotes: the bubble already marks it as speech (Dan, 2026-11-14).
     const words = <FrenchText q={q} newWords={newWords} onHint={onHint} />
-    if (q.variant !== 'V0903' && !result) return <SpeakerBubble><div className="flex flex-col gap-3"><AudioHelp audio={q.audio} label="Play the question" words={words} wordsShown={wordsShown} onShowWords={onShowWords} /></div></SpeakerBubble>
-    return <SpeakerBubble>{words}</SpeakerBubble>
+    if (q.variant !== 'V0903' && !result) return <SpeakerBubble speaker={speakerFor(q)}><div className="flex flex-col gap-3"><AudioHelp audio={q.audio} label="Play the question" words={words} wordsShown={wordsShown} onShowWords={onShowWords} /></div></SpeakerBubble>
+    return <SpeakerBubble speaker={speakerFor(q)}>{words}</SpeakerBubble>
   }
   if ((q.type === 'QT07' || q.type === 'QT11') && !result) return <AudioHelp audio={q.audio} words={<p lang={TL} className="text-2xl leading-relaxed">{q.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} />
   if (q.type === 'QT07' || q.type === 'QT11') return <SpeakerButton audio={q.audio} large label="Play the sentence" />

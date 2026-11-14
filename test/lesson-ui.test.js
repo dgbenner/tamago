@@ -23,7 +23,7 @@ test('Answer the Question, heard: the bubble holds the speaker alone', () => {
   assert.match(html, /data-speaker-bubble/)
   assert.match(html, /data-avatar/)
   assert.match(html, /data-audio-help[^>]*><button[^>]*aria-label="Play the question"/)
-  assert.doesNotMatch(html, /<img/, 'no picture')
+  assert.match(html, /data-avatar[^>]*><img[^>]*src="\/images\/pictures\/(homme|femme)\.webp"/, 'the speaker is an adult from the lesson pictures (Dan, 2026-11-14)')
   assert.equal(html.match(/<button/g).length, 1, 'no Slow up front: Slow and Show Words come after the first replay (Dan, 2026-11-12)')
   assert.doesNotMatch(html, /Tu es Paul/, 'the words stay hidden until Show Words')
 })
@@ -31,7 +31,7 @@ test('Answer the Question, written (V0903) or answered: the question is in the b
   for (const html of [prompt({ ...question, variant: 'V0903' }), prompt(question, { correct: true })]) {
     assert.match(html, /data-speaker-bubble.*Tu es Paul/s)
     assert.doesNotMatch(html, /[«»“”„]/)
-    assert.doesNotMatch(html, /<img|logo\.webp/, 'the avatar is a placeholder, not the logo')
+    assert.doesNotMatch(html, /logo\.webp/, 'never the logo')
   }
 })
 test('the reply bubble holds what it is given', () => {
@@ -43,10 +43,9 @@ test('no other question type uses bubbles', () => {
     assert.doesNotMatch(html, /data-speaker-bubble|data-reply-bubble/, type)
   }
 })
-test('the logo picture is used by the logo alone, and the character\'s place is kept in a comment', async () => {
+test('the logo picture is used by the logo alone', async () => {
   const { readFileSync, readdirSync } = await import('node:fs')
   const dir = new URL('../src/screens/', import.meta.url)
   const users = readdirSync(dir).filter((f) => /logo\.webp/.test(readFileSync(new URL(f, dir), 'utf8').replace(/\{\/\*[\s\S]*?\*\/\}/g, '')))
   assert.deepEqual(users, ['Logo.jsx'])
-  assert.match(readFileSync(new URL('Lesson.jsx', dir), 'utf8'), /\{\/\* The character goes here:/)
 })

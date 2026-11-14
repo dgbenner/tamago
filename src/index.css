@@ -616,3 +616,13 @@ button.chip-drag {
 .reply-bubble { background: var(--toast-info-bg); border-color: transparent; }
 .reply-bubble.border-orange { border-color: var(--orange); }
 .reply-bubble.focus-within\:border-ink:focus-within { border-color: var(--ink); }
+
+/* Answer the Question's speaker (Dan, 2026-11-14): the picture and the bubble both ringed in the accent, with one soft
+   pulse as the question comes up. */
+.speaker-ring { border: 3px solid var(--accent); }
+.speaker-row .speaker-ring { animation: speaker-pulse 900ms ease-out 150ms 1 both; }
+@keyframes speaker-pulse {
+  0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 70%, transparent); }
+  100% { box-shadow: 0 0 0 10px color-mix(in srgb, var(--accent) 0%, transparent); }
+}
+@media (prefers-reduced-motion: reduce) { .speaker-row .speaker-ring { animation: none; } }
