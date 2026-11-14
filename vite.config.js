@@ -56,12 +56,28 @@ function voiceLabSave() {
   }
 }
 
+// StatCounter (Dan, 2026-11-14; project "Tamago Dev", 13366867): added only to Cloudflare's builds (CF_PAGES is set
+// there), so local runs, test builds and the smoke test's own builds count nothing. Invisible counter, no cookies
+// banner needed by the app itself.
+const STATCOUNTER = `<!-- Default Statcounter code for Tamago Dev https://tamago-83f.pages.dev/ -->
+<script type="text/javascript">var sc_project=13366867; var sc_invisible=1; var sc_security="8f9aac0f";</script>
+<script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+<noscript><div class="statcounter"><a title="web statistics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/13366867/0/8f9aac0f/1/" alt="web statistics" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->`
+function statCounter() {
+  return {
+    name: 'tamago-statcounter',
+    apply: 'build',
+    transformIndexHtml(html) { return process.env.CF_PAGES ? html.replace('</body>', `${STATCOUNTER}\n  </body>`) : html },
+  }
+}
+
 // For the Developer page's Course Snapshot: when this build was made, and from which workbook version.
 // Each course's current workbook version, from scripts/lib/course.mjs (French tamago-data-vN, Spanish tamago-es-data-vN).
 const COURSE_FILE = readFileSync('scripts/lib/course.mjs', 'utf8')
 const WORKBOOKS = { fr: COURSE_FILE.match(/tamago-data-(v\d+)\.xlsx/)?.[1] ?? '', es: COURSE_FILE.match(/tamago-es-data-(v\d+)\.xlsx/)?.[1] ?? '', de: COURSE_FILE.match(/tamago-de-data-(v\d+)\.xlsx/)?.[1] ?? '' }
 export default defineConfig({
-  plugins: [react(), tailwindcss(), serviceWorker(), voiceLabSave()],
+  plugins: [react(), tailwindcss(), serviceWorker(), voiceLabSave(), statCounter()],
   // Which site this build is for (Cloudflare Pages sets CF_PAGES_BRANCH): main is the stable site, dev the working one.
   define: { __BUILD_TIME__: JSON.stringify(new Date().toISOString()), __WORKBOOKS__: JSON.stringify(WORKBOOKS), __DEPLOY_BRANCH__: JSON.stringify(process.env.CF_PAGES_BRANCH ?? '') },
 })

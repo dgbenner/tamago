@@ -39,6 +39,10 @@ server/converse.mjs (functions/api/converse.js): Haiku 5.5, effort low, structur
 
 src/lib/finalcheck.js: one per course at the end of the path (Home FinalNode and FinalCard), modeled on the course's A1 exam (EXAMS: DELF A1, DELE A1, Goethe-Zertifikat A1: Start Deutsch 1, each with the official sample-paper link). PARTS in exam order: listening QT04 x3 + QT11 x3, reading QT03 x3 + QT06 x3, writing QT08 x2 + QT12 x4, speaking QT13 x3 (never graded). finalItems spreads sentences over the main units round robin; session kind 'final'; first attempts recorded per part (session.results); result kept in kv final_check and shown per skill on Progress. Misses stay out of the review bank.
 
+## Analytics (2026-11-14)
+
+StatCounter, project "Tamago Dev" (13366867), invisible counter: vite.config.js statCounter() adds it to index.html only when CF_PAGES is set, so only Cloudflare's builds count; local dev, test builds and the smoke test's local runs don't (smoke runs against the live address do).
+
 ## Content pipeline
 
 `npm run content` runs three steps (`npm run pull` proposes sentences for draft units; `content/drafts.json` holds drafted sentences; decisions also carry cut_sentences, vocabulary_additions, hints and borrow until the workbook absorbs them):
