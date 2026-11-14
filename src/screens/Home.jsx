@@ -358,7 +358,7 @@ function Marker({ label }) {
   )
 }
 
-const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars, practice: IconRepeat, developer: IconCode }
+const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars, practice: IconRepeat, talk: IconComment, developer: IconCode }
 // Tools in alphabetical order, Developer (the quiet one) always last (Dan, 2026-11-11).
 const toolOrder = (tools) => [...tools.filter((t) => !t.quiet).sort((a, b) => a.label.localeCompare(b.label)), ...tools.filter((t) => t.quiet)]
 // Practice Mistakes' line: never "mistakes", nothing critical; the count changes.

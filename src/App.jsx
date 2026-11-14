@@ -22,6 +22,7 @@ import NativeCheck from './screens/NativeCheck.jsx'
 import FlagReview from './screens/FlagReview.jsx'
 import Forum from './screens/Forum.jsx'
 import Make from './screens/Make.jsx'
+import Conversations from './screens/Conversations.jsx'
 import Listening from './screens/Listening.jsx'
 import Developer from './screens/Developer.jsx'
 import Conversation from './screens/Conversation.jsx'
@@ -66,7 +67,7 @@ function useWide() {
   return wide
 }
 
-const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', progress: 'Progress', settings: 'Settings', about: 'About the Content',
+const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', talk: 'Conversations', progress: 'Progress', settings: 'Settings', about: 'About the Content',
   profile: 'Profile', account: 'Sign In', 'progress-choice': 'Which Progress to Keep', elsewhere: 'Start Fresh or Bring Progress', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening', developer: 'Developer' }
 
 // A topic pack belongs to the node in its topic_node column; packs from before the column belong to the first node.
@@ -257,7 +258,7 @@ export default function App() {
 
   // The page itself never scrolls (see index.css); #root does.
   // On a wide screen the panel's screens open beside the path, so the path keeps its place.
-  const PANEL = ['home', 'words', 'verbs', 'progress', 'make']
+  const PANEL = ['home', 'words', 'verbs', 'progress', 'make', 'talk']
   const lastScreen = useRef(screen)
   useEffect(() => {
     const inPanel = wide && PANEL.includes(screen) && PANEL.includes(lastScreen.current)
@@ -952,12 +953,13 @@ export default function App() {
     const weakSkill = canWeak ? graded.reduce((lo, s) => (scores[s].score < scores[lo].score ? s : lo), graded[0]) : null
     return <Make weakSkill={weakSkill ? weakSkill[0].toUpperCase() + weakSkill.slice(1) : null} weekCount={weekIds.length} metCount={metWords().length} listMatch={listMatch}
       onWeak={() => startWeakSkill(weakSkill)} onWeek={startWeek} onList={(words) => startFlashcards(false, words, 'make')}
-      onSentences={startGenerated} onListening={startListening} status={makeStatus} onBack={() => setScreen('home')}
-      partner={{ defaults: partnerDefaults(), topics: partnerTopics, metCount: metWords().length }}
+      onSentences={startGenerated} onListening={startListening} status={makeStatus} onBack={() => setScreen('home')} />
+  },
+    // Conversations (Dan, 2026-11-13): the conversation partner as a tool of its own, moved out of Self-Study.
+    talk: () => <Conversations partner={{ defaults: partnerDefaults(), topics: partnerTopics, metCount: metWords().length }} onBack={() => setScreen('home')}
       onPartner={(f) => startConversation('partner', f.topic === 'free'
         ? { id: 'partner', title: 'Conversation', setting: 'A friendly, free conversation about everyday things.', ai: 'a friendly conversation partner', learner: 'a learner' }
-        : { id: 'partner', title: f.topic, setting: `A friendly conversation about ${f.topic.toLowerCase()}, using that topic's words.`, ai: 'a friendly conversation partner', learner: 'a learner' }, f, 'make')} />
-  },
+        : { id: 'partner', title: f.topic, setting: `A friendly conversation about ${f.topic.toLowerCase()}, using that topic's words.`, ai: 'a friendly conversation partner', learner: 'a learner' }, f, 'talk')} />,
   }
   if (panelScreens[screen] && !wide) return panelScreens[screen]()
   if (screen === 'converse' && convo) {
@@ -1086,6 +1088,7 @@ export default function App() {
         { id: 'glossary', screen: 'words', label: 'Glossary', about: 'See which words are sticking', onOpen: () => setScreen('words') },
         { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Get every present-tense form right', onOpen: () => setScreen('verbs') },
         { id: 'study', screen: 'make', label: 'Self-Study', about: 'Extra reps with tough areas', onOpen: openMakeScreen },
+        { id: 'talk', screen: 'talk', label: 'Conversations', about: 'Talk with Claude, spoken or typed', onOpen: () => setScreen('talk') },
         { id: 'progress', screen: 'progress', label: 'Progress', about: 'Track your CEFR level in all four skills', onOpen: () => setScreen('progress') },
         ...(settings.developer !== 'off' ? [{ id: 'developer', screen: 'developer', label: 'Developer', about: 'Testing controls, not part of the course', quiet: true, onOpen: () => setScreen('developer') }] : []),
       ]}
