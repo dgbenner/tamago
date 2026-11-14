@@ -39,8 +39,9 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
 
 // onTestPass (Testing Shortcuts only, 2026-11-10): a right-to-left swipe on the circle, or the right arrow while it
 // has focus, passes its next lesson without playing it.
-// onNote (Dan, 2026-11-12): the grammar note opens from a small gray notebook (Lucide's notebook-pen, batch 5) at the circle's lower right, about 25 px
-// out from the circle (batch 3), its bottom on the circle's bottom edge; only on an open circle that has a note. Tapping the circle itself goes straight to a lesson.
+// onNote (Dan, 2026-11-12): the grammar note opens from a small gray notebook (Lucide's notebook-pen, batch 5) beside the
+// circle's right edge, centred on it vertically, about 8 px out, at 80% size and 40% opacity (Dan, 2026-11-13); only on
+// an open circle that has a note. Tapping the circle itself goes straight to a lesson.
 // The wrapper is a size container so the icon can follow the disc (min(100%, 6rem) wide, under the 1.625rem marker).
 export default function CircleNode({ onNote = null, ...props }) {
   const button = <CircleButton {...props} />
@@ -49,8 +50,8 @@ export default function CircleNode({ onNote = null, ...props }) {
     <div className="relative flex w-32 min-w-0 shrink justify-center [container-type:inline-size]">
       {button}
       <button onClick={onNote} aria-label={`Grammar Note: ${props.title}`} data-note-icon
-        className="absolute flex size-7 items-center justify-center rounded-full text-muted [&_svg]:size-5"
-        style={{ left: 'calc(50% + min(100cqw, 6rem) / 2 - 1rem + 25px)', top: 'calc(1.625rem + min(100cqw, 6rem) - 1.75rem)' }}>
+        className="note-icon absolute flex size-7 items-center justify-center rounded-full text-muted opacity-40 [&_svg]:size-5 [&_svg]:origin-left [&_svg]:scale-80"
+        style={{ left: 'calc(50% + min(100cqw, 6rem) / 2 - 1rem + 21px)', top: 'calc(1.625rem + min(100cqw, 6rem) / 2 - 0.875rem)' }}>
         <IconNotebookPen />
       </button>
     </div>
@@ -76,15 +77,15 @@ function CircleButton({ title, icon, locked = false, lessonsDone = 0, lessonsTot
   const opacity = state === 'finished' ? ringOpacity(recall) : 1
   return (
     <button {...test} onClick={() => { if (swiped.current) { swiped.current = false; return } onPick() }} aria-label={`${marker ? `${MARKERS[marker]} ` : ''}${title}. ${caption ?? circleLine({ locked, lessonsDone, lessonsTotal, recall })}`}
-      className="flex w-32 min-w-0 shrink flex-col items-center gap-1.5" data-state={state}>
+      className="circle-node flex w-32 min-w-0 shrink flex-col items-center gap-1.5" data-state={state}>
       {/* The marker sits above the circle and keeps its space on every circle, so rows line up. */}
       <span className={`flex h-5 items-center gap-1 text-xs font-semibold text-ring ${marker ? '' : 'invisible'}`} aria-hidden="true">
         <span className="size-2 rounded-full bg-ring" />{MARKERS[marker] ?? MARKERS.start}
       </span>{' '}{/* keeps "Start Here" and the title apart as words for label-in-name checks */}
-      <span className="relative flex aspect-square w-full max-w-24 items-center justify-center rounded-full">
+      <span className="circle-disc relative flex aspect-square w-full max-w-24 items-center justify-center rounded-full">
         <svg viewBox="0 0 100 100" className="absolute inset-0 size-full -rotate-90" aria-hidden="true">
           <circle cx="50" cy="50" r="40" fill="var(--disc)" fillOpacity={state === 'locked' ? 0.3 : 1} />
-          <circle cx="50" cy="50" r={R} fill="none" strokeWidth="6" stroke="var(--line)" />
+          <circle className="circle-track" cx="50" cy="50" r={R} fill="none" strokeWidth="6" stroke="var(--line)" />
           {ring && share > 0 && (
             <circle cx="50" cy="50" r={R} fill="none" strokeWidth="6" strokeLinecap="round" stroke="var(--ring)" strokeOpacity={opacity}
               strokeDasharray={`${share * LEN} ${LEN}`} />

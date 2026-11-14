@@ -19,6 +19,7 @@
   /* The tree's circles (2026-11-10): the ring's one accent, and a warm off-white disc behind the sushi in both themes,
      so the soft white edges of the art never show on dark. */
   --ring: #0b7a43;
+  --electric: #1f6dfb; /* hover on small icons (Dan, 2026-11-13) */
   --disc: #f6efe0;
   --focus: #1c1a17; /* the ink, so the ring is the app's own, not the browser's blue (craft review 2026-11-10) */
   --field: #979287;
@@ -48,6 +49,8 @@
     --focus: #8ab4ff;
     --field: #6a6660;
     --ring: #22b573;
+  --electric: #5c9bff;
+    --electric: #5c9bff;
     --toast-info-bg: #1b2a40; --toast-info-ink: #b9d2ff;
     --toast-success-bg: #15301f; --toast-success-ink: #a6e6bd;
     --toast-warning-bg: #3a2c10; --toast-warning-ink: #f5d38a;
@@ -270,7 +273,7 @@ button.chip-drag {
   }
   /* Grows while pressed, then snaps back. */
   .btn-primary, .btn-submit, .btn-secondary, .choice, .chip {
-    transition: transform 120ms ease-out;
+    transition: transform 120ms ease-out, background-color 120ms ease-out;
   }
   .btn-primary:active:not(:disabled), .btn-submit:active:not(:disabled), .btn-secondary:active:not(:disabled), .choice:active:not(:disabled), .chip:active:not(:disabled) {
     transform: scale(1.05);
@@ -576,3 +579,34 @@ button.chip-drag {
 .sheet { animation: sheet-up 280ms cubic-bezier(0.2, 0.8, 0.2, 1); }
 @media (min-width: 1024px) { .sheet { animation: sheet-pop 200ms ease-out; } }
 @media (prefers-reduced-motion: reduce) { .sheet-backdrop, .sheet { animation: none; } }
+
+/* Hover and press states (Dan, 2026-11-13). Hover only where there's a pointer to hover with, so a tap on a phone
+   never leaves a highlight behind; press everywhere. Nothing on locked circles or checkpoints and scenes not open yet.
+   Checkpoints and Conversations share one pill style (.tree-pill). */
+.tree-pill {
+  display: inline-flex; align-items: center; gap: 0.5rem; border-radius: 9999px; border: 2px solid var(--line);
+  padding: 0.375rem 1rem; font-size: 0.875rem; line-height: 1.25rem; font-weight: 600;
+  transition: transform 120ms ease-out, border-color 120ms ease-out, background-color 120ms ease-out;
+}
+.tree-pill svg { width: 1rem; height: 1rem; }
+.circle-node .circle-disc { transition: transform 160ms ease-out; }
+.circle-node .circle-track { transition: stroke 160ms ease-out; }
+.note-icon { transition: color 120ms ease-out, opacity 120ms ease-out, transform 120ms ease-out; }
+.carousel-arrow { transition: transform 120ms ease-out, background-color 120ms ease-out, box-shadow 120ms ease-out; }
+@media (hover: hover) {
+  .circle-node:not([data-state='locked']):hover .circle-disc { transform: scale(1.06); }
+  .circle-node:not([data-state='locked']):hover .circle-track { stroke: color-mix(in srgb, var(--ring) 45%, var(--line)); }
+  .note-icon:hover { color: var(--electric); opacity: 1; }
+  .tree-pill[data-live]:hover { border-color: var(--ring); background-color: var(--surface); }
+  .carousel-arrow:not(:disabled):hover { background-color: color-mix(in srgb, var(--surface) 90%, var(--ink)); box-shadow: 0 2px 8px rgb(0 0 0 / 0.22); }
+  .btn-submit:not(:disabled):hover { background-color: color-mix(in srgb, var(--accent) 88%, var(--ink)); }
+}
+.circle-node:not([data-state='locked']):active .circle-disc { transform: scale(0.97); transition-duration: 40ms; }
+.note-icon:active { transform: scale(0.88); color: var(--electric); opacity: 1; transition-duration: 40ms; }
+.tree-pill[data-live]:active { transform: scale(0.95); transition-duration: 40ms; }
+.carousel-arrow:not(:disabled):active { transform: scale(0.9); transition-duration: 40ms; }
+@media (prefers-reduced-motion: reduce) {
+  .circle-node .circle-disc, .note-icon, .tree-pill, .carousel-arrow { transition: none; }
+  .circle-node:not([data-state='locked']):hover .circle-disc, .circle-node:not([data-state='locked']):active .circle-disc,
+  .note-icon:active, .tree-pill[data-live]:active, .carousel-arrow:not(:disabled):active { transform: none; }
+}

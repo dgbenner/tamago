@@ -188,7 +188,7 @@ function FinalCard({ fc, onStart, onClose }) {
 function ScenesNode({ sc, onPick }) {
   const done = sc.scenes.filter((x) => x.done).length
   return (
-    <button onClick={onPick} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-4 py-1.5 font-semibold ${sc.available ? 'text-ink' : 'text-muted'}`}>
+    <button onClick={onPick} data-live={sc.available ? '' : undefined} className={`tree-pill ${sc.available ? 'text-ink' : 'text-muted'}`}>
       <span className="[&_svg]:size-4"><IconComment /></span>
       Conversations
       {done > 0 && <span className="text-sm font-normal text-muted">{done} of {sc.scenes.length}</span>}
@@ -338,7 +338,7 @@ function CatchUpCard({ cu, onStart, onClose }) {
 
 export function CheckpointNode({ cp, onPick }) {
   return (
-    <button onClick={() => onPick(cp)} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-3 py-1 text-sm ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
+    <button onClick={() => onPick(cp)} data-live={cp.available || cp.done ? '' : undefined} className={`tree-pill ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
       <span className="[&_svg]:size-4"><IconCheckered /></span>
       Checkpoint
       {cp.done && <span className="text-right-ink">✓</span>}
