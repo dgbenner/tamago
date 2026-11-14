@@ -279,15 +279,30 @@ export const speakerFor = (q, voiceName = courseVoiceName()) => {
   const n = [...String(q?.sentence_id ?? q?.qid ?? '')].reduce((t, ch) => t * 31 + ch.charCodeAt(0) >>> 0, 7)
   return speakerUrl(pool[n % pool.length])
 }
+function SpeakerAvatar({ speaker }) {
+  return (
+    <span data-avatar aria-hidden="true" className="speaker-ring flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-disc text-muted">
+      {speaker
+        ? <img src={speaker} alt="" className="size-full object-cover" />
+        : <svg viewBox="0 0 24 24" className="mt-2 size-10" fill="currentColor"><circle cx="12" cy="8" r="4.2" /><path d="M3.5 23c0-5 3.8-8.6 8.5-8.6s8.5 3.6 8.5 8.6z" /></svg>}
+    </span>
+  )
+}
 export function SpeakerBubble({ children, speaker = null }) {
   return (
     <div data-speaker-bubble className="speaker-row flex items-end gap-3 pr-8">
-      <span data-avatar aria-hidden="true" className="speaker-ring flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-disc text-muted">
-        {speaker
-          ? <img src={speaker} alt="" className="size-full object-cover" />
-          : <svg viewBox="0 0 24 24" className="mt-2 size-10" fill="currentColor"><circle cx="12" cy="8" r="4.2" /><path d="M3.5 23c0-5 3.8-8.6 8.5-8.6s8.5 3.6 8.5 8.6z" /></svg>}
-      </span>
+      <SpeakerAvatar speaker={speaker} />
       <div className="speaker-ring min-w-0 rounded-2xl rounded-bl-sm bg-surface px-4 py-3">{children}</div>
+    </div>
+  )
+}
+// Pick What You Heard and Pick the Meaning when heard (Dan, 2026-11-14): the speaker's picture beside the play button, matched to the voice like Answer
+// the Question, ringed and pulsing the same way. No bubble: bubbles stay Answer the Question's.
+function HeardFrom({ q, children }) {
+  return (
+    <div data-heard-from className="speaker-row flex items-start gap-3">
+      <SpeakerAvatar speaker={speakerFor(q)} />
+      <div className="flex min-w-0 flex-col gap-3">{children}</div>
     </div>
   )
 }
@@ -394,8 +409,12 @@ function PickMeaning({ q, result, onAnswer, newWords, hideFrench, onHint, wordsS
   const [chosen, setChosen] = useState(null)
   return (
     <>
-      {hideFrench && !result
-        ? <AudioHelp audio={q.audio} words={<><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>} wordsShown={wordsShown} onShowWords={onShowWords} />
+      {/* The speaker's picture (Dan, 2026-11-14) when the sentence is heard (listen first; kept after the answer so nothing
+          moves) or is a question ("Le livre est ici ?"), so it reads as someone asking. A plain statement read: none. */}
+      {hideFrench || /[?¿]/.test(q.french)
+        ? <HeardFrom q={q}>{result || !hideFrench
+          ? <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>
+          : <AudioHelp audio={q.audio} words={<><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>} wordsShown={wordsShown} onShowWords={onShowWords} />}</HeardFrom>
         : <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>}
       <ChoiceList choices={q.choices} result={result} chosen={chosen} answer={q.answer} lang="en"
         onPick={(choice) => { setChosen(choice); onAnswer({ correct: choice === q.answer, given: choice, against: [q.answer], lang: 'en' }) }} />
@@ -408,7 +427,7 @@ function PickHeard({ q, result, onAnswer, wordsShown, onShowWords }) {
   if (q.variant === 'V0404') {
     return (
       <>
-        <AudioHelp audio={q.audio} words={<p lang={TL} className="text-2xl leading-relaxed">{q.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} />
+        <HeardFrom q={q}><AudioHelp audio={q.audio} words={<p lang={TL} className="text-2xl leading-relaxed">{q.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} /></HeardFrom>
         <ChoiceList choices={q.choices} result={result} chosen={chosen} answer={q.answer} lang="en"
           onPick={(choice) => { setChosen(choice); onAnswer({ correct: choice === q.answer, given: choice, against: [q.answer], lang: 'en' }) }} />
       </>
@@ -416,7 +435,7 @@ function PickHeard({ q, result, onAnswer, wordsShown, onShowWords }) {
   }
   return (
     <>
-      <AudioHelp audio={q.audio} words={<p lang={TL} className="text-2xl leading-relaxed">{q.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} />
+      <HeardFrom q={q}><AudioHelp audio={q.audio} words={<p lang={TL} className="text-2xl leading-relaxed">{q.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} /></HeardFrom>
       <div className="flex flex-col gap-2.5">
         {q.audioChoices.map((a, i) => {
           const state = !result ? (chosen === a.sentence_id ? 'choice-selected' : '') : a.sentence_id === q.answer ? 'choice-right' : a.sentence_id === chosen ? 'choice-wrong' : 'opacity-60'

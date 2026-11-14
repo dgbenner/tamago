@@ -385,9 +385,11 @@ export default function App() {
     if (!import.meta.env.DEV) return
     const m = /[?&]try=(QT\d\d)/.exec(location.search)
     if (!m) return
+    const search = location.search
     history.replaceState(null, '', location.pathname)
-    const units = [...tables.units].sort((x, y) => x.order - y.order).filter((u) => String(u.status).startsWith('live') && !['node', 'yes'].includes(u.is_topic_pick))
-    for (const round of [3, 4, 5]) for (const u of units) {
+    const only = /[?&]unit=(U\d+)/.exec(search)?.[1] // &unit=U03 starts from that circle
+    const units = [...tables.units].sort((x, y) => x.order - y.order).filter((u) => String(u.status).startsWith('live') && !['node', 'yes'].includes(u.is_topic_pick) && (!only || u.unit_id === only))
+    for (const round of [1, 2, 3, 4, 5]) for (const u of units) {
       const uc = unitContent(u.unit_id)
       const built = buildLesson(uc, { round, unit_id: u.unit_id, known: new Set([...seenWords.current, ...uc.wordOrder]), settings: lessonModes() })
       const queue = built.queue.filter((q) => q.type === m[1])

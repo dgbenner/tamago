@@ -60,3 +60,7 @@ test('a voice tagged Child gets the girl or the boy; an adult voice gets an adul
   assert.match(speakerFor(question, 'Thomas'), /\/male-/)
   assert.match(speakerFor(question, 'Amélie'), /\/female-/)
 })
+
+test('Pick What You Heard shows the speaker\'s picture, with no bubble (Dan, 2026-11-14)', () => {
+  assert.match(speakerFor({ type: 'QT04', sentence_id: 'S1', audio: { file: '/audio/x.m4a', speaker: 'Aemines1' } }), /\/male-/)
+})
