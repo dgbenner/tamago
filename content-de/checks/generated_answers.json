@@ -80,16 +80,6 @@
     "source_owner": "Yorwba"
   },
   {
-    "answer_id": "GS41102-1935119",
-    "sentence_id": "S41102",
-    "direction": "en_to_fr",
-    "answer": "Ich heiße Tom.",
-    "source": "tatoeba",
-    "source_id": "1935119",
-    "status": "checked",
-    "source_owner": "Pfirsichbaeumchen"
-  },
-  {
     "answer_id": "GS42106-4354234",
     "sentence_id": "S42106",
     "direction": "en_to_fr",
@@ -338,5 +328,25 @@
     "source_id": "7413645",
     "status": "checked",
     "source_owner": "Yorwba"
+  },
+  {
+    "answer_id": "GS57129-1325384",
+    "sentence_id": "S57129",
+    "direction": "en_to_fr",
+    "answer": "Du bist zu spät.",
+    "source": "tatoeba",
+    "source_id": "1325384",
+    "status": "checked",
+    "source_owner": "al_ex_an_der"
+  },
+  {
+    "answer_id": "GS57129-1909220",
+    "sentence_id": "S57129",
+    "direction": "en_to_fr",
+    "answer": "Du kommst spät.",
+    "source": "tatoeba",
+    "source_id": "1909220",
+    "status": "checked",
+    "source_owner": "Pfirsichbaeumchen"
   }
 ]

@@ -120,6 +120,10 @@ const late = [
   { unit_id: 'U55', words: ['Klasse', 'Fehler', 'Beispiel', 'fragen', 'antworten', 'erklären', 'Satz', 'Text', 'Aufgabe', 'Lösung', 'Test', 'Unterricht', 'Bild'] },
   { unit_id: 'U57', words: ['kurz', 'laut', 'leise', 'hell', 'kaputt', 'frei', 'besetzt', 'fertig', 'möglich', 'spät', 'breit', 'aber', 'oder'] },
   { unit_id: 'U58', words: ['draußen', 'wandern', 'Wind', 'Welt', 'immer', 'oft'] },
+  // From Fable's German Part 2 check (2026-11-14): "Tom kommt zu spät" needs zu (only zu Hause was known), and a
+  // mountain is hoch, not groß. Both on the Goethe list.
+  { unit_id: 'U57', words: ['zu'] },
+  { unit_id: 'U58', words: ['hoch'] },
 ]
 
 export default { situation, vocab, items, canDo, late, off: {} }

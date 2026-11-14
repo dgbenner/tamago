@@ -723,3 +723,10 @@ Part 3, Lingua Libre recordings:
 - assign-icons: a part's first circle is checked against the last of the part before (Spanish U200 and U41 were both white). by-ear: "No, no tengo celular.", "No, no tengo bolsa.", "Ja, ja, genau!" out of listening.
 - Audits on the new parts: word audit 0 early words and 0 lessons over 4 (Spanish 1,147 lessons, German 1,281); every-lesson check 0 issues (11,598 and 12,959 questions); browser pass Spanish 129 flags to 0 (126 Sample Reply repeats, 3 false sound flags), German 0. npm test 167 pass.
 - Quality pass for Fable, nothing swapped: _review/spanish-part2-candidates.md (613 candidates, 138 drafts, 5 same text, 75 covered), _review/german-part2-candidates.md (618, 191, 10, 109).
+
+## 2026-11-14: Fable's Part 2 reviews applied (Spanish, German)
+
+- scripts/apply-part-candidates.mjs: parses the marked candidates file (tables and bullets, Use/Reject, "English to show") and the check file's "Swap: #id"; brings in every Use candidate as a reviewed Tatoeba row (drafts.json, S<unit>201 on, confirm decisions); swaps keep the draft id.
+- Spanish: 344 Use (333 brought in, 11 swaps), 87 Rejects and the unreviewed tails left out, 38 English picks. S48108 "Aquí tiene un peso." S48103 now asks about apples, so its pair answer is S48110. AD0002 to AD0005 (mexicana twice, verduras, floor five) with keep decisions (a keep carries its answer text, or the check flags it). 1,882 sentences (1,579 Tatoeba, 303 drafts).
+- German: 330 Use (317 brought in, 13 swaps), 100 Rejects left out, 39 English picks. Fixes S42104 (null, acht, sechzehn: not the 08/15 idiom), S55105, S47106, S57127 (zu spät), S58101 (hoch). zu and hoch late words (W1184, W1185) with drafts so each has 3; S42125 for fünfzehn. 2,049 shipped (1,740 Tatoeba, 309 drafts). Goethe 261 of 627 (42%).
+- Audits after: word audit 0 and 0 in both (Spanish 1,398 lessons, German 1,543); every-lesson check 0 (14,184 and 15,650 questions); browser pass Part 2 0 and 0. npm test 167 pass.

@@ -1,6 +1,6 @@
 # Tamago check-in
 
-Updated November 14, 2026. **New: A1 Part 2 is live in Spanish and German, in French Part 2's format. Both quality-pass files are ready for Fable; nothing is swapped.**
+Updated November 14, 2026. **New: Fable's Part 2 reviews are applied in Spanish and German: 333 and 317 Tatoeba lines brought in, 11 and 13 drafts swapped, fixes made. Drafts now 303 (Spanish) and 309 (German). German coverage 42%.**
 
 ## Done since last check-in
 
@@ -45,9 +45,4 @@ Updated November 14, 2026. **New: A1 Part 2 is live in Spanish and German, in Fr
 
 ## Waiting for Dan
 
-- **Fable's review:**
-  - _review/spanish-part2-candidates.md: 613 candidates for 138 drafts; 5 are word for word on Tatoeba, 75 have a candidate covering the same words.
-  - _review/german-part2-candidates.md: 618 candidates for 191 drafts; 10 word for word, 109 covered.
-
-  The swaps happen after Fable marks the files.
-- **Native-speaker check:** the new drafts join the list, as before.
+- Native-speaker check: the remaining drafts (Spanish 303, German 309) are on the list, as before.

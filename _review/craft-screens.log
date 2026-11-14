@@ -1,0 +1,253 @@
+shot home-tree-desktop-light
+shot home-carousel-desktop-light
+shot home-carousel-next-desktop-light
+FAIL desktop light locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('[data-note-icon]').first()
+    - locator resolved to <button data-note-icon="true" aria-label="Grammar Note: Say Hi" class="note-icon absolute flex size-7 items-center justify-center rounded-full text-muted opacity-40 [&_svg]:size-5 [&_svg]:origin-left [&_svg]:scale-80">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <svg role="img" fill="none" aria-label="Tamago" stroke-linecap="round" stroke-linejoin="round" viewBox="-16 -6 463.5 156" class="splash-wordmark w-full max-w-none md:w-[114%]">…</svg> from <div class="splash ">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <svg role="img" fill="none" aria-label="Tamago" stroke-linecap="round" stroke-linejoin="round" viewBox="-16 -6 463.5 156" class="splash-wordmark w-full max-w-none md:w-[114%]">…</svg> from <div class="splash ">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="splash ">…</div> intercepts pointer events
+  14 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <svg role="img" fill="none" aria-label="Tamago" stroke-linecap="round" stroke-linejoin="round" viewBox="-16 -6 463.5 156" class="splash-wordmark w-full max-w-none md:w-[114%]">…</svg> from <div class="splash ">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <svg role="img" fill="none" aria-label="Tamago" stroke-linecap="round" stroke-linejoin="round" viewBox="-16 -6 463.5 156" class="splash-wordmark w-full max-w-none md:w-[114%]">…</svg> from <div class="splash ">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash ">…</div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash ">…</div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <svg role="img" fill="none" aria-label="Tamago" stroke-linecap="round" stroke-linejoin="round" viewBox="-16 -6 463.5 156" class="splash-wordmark w-full max-w-none md:w-[114%]">…</svg> from <div class="splash ">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+shot home-tree-desktop-dark
+shot home-carousel-desktop-dark
+shot home-carousel-next-desktop-dark
+FAIL desktop dark locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('[data-note-icon]').first()
+    - locator resolved to <button data-note-icon="true" aria-label="Grammar Note: Say Hi" class="note-icon absolute flex size-7 items-center justify-center rounded-full text-muted opacity-40 [&_svg]:size-5 [&_svg]:origin-left [&_svg]:scale-80">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <svg role="img" fill="none" aria-label="Tamago" stroke-linecap="round" stroke-linejoin="round" viewBox="-16 -6 463.5 156" class="splash-wordmark w-full max-w-none md:w-[114%]">…</svg> from <div class="splash ">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <svg role="img" fill="none" aria-label="Tamago" stroke-linecap="round" stroke-linejoin="round" viewBox="-16 -6 463.5 156" class="splash-wordmark w-full max-w-none md:w-[114%]">…</svg> from <div class="splash ">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="splash ">…</div> intercepts pointer events
+  14 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <svg role="img" fill="none" aria-label="Tamago" stroke-linecap="round" stroke-linejoin="round" viewBox="-16 -6 463.5 156" class="splash-wordmark w-full max-w-none md:w-[114%]">…</svg> from <div class="splash ">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <svg role="img" fill="none" aria-label="Tamago" stroke-linecap="round" stroke-linejoin="round" viewBox="-16 -6 463.5 156" class="splash-wordmark w-full max-w-none md:w-[114%]">…</svg> from <div class="splash ">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash ">…</div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash ">…</div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+shot home-tree-phone-light
+shot home-carousel-phone-light
+shot home-carousel-next-phone-light
+FAIL phone light locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('[data-note-icon]').first()
+    - locator resolved to <button data-note-icon="true" aria-label="Grammar Note: Say Hi" class="note-icon absolute flex size-7 items-center justify-center rounded-full text-muted opacity-40 [&_svg]:size-5 [&_svg]:origin-left [&_svg]:scale-80">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">…</div> from <div class="splash ">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">…</div> from <div class="splash ">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="splash ">…</div> intercepts pointer events
+  14 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">…</div> from <div class="splash ">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">…</div> from <div class="splash ">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash ">…</div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash ">…</div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">…</div> from <div class="splash ">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
+shot home-tree-phone-dark
+shot home-carousel-phone-dark
+shot home-carousel-next-phone-dark
+FAIL phone dark locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('[data-note-icon]').first()
+    - locator resolved to <button data-note-icon="true" aria-label="Grammar Note: Say Hi" class="note-icon absolute flex size-7 items-center justify-center rounded-full text-muted opacity-40 [&_svg]:size-5 [&_svg]:origin-left [&_svg]:scale-80">…</button>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">…</div> from <div class="splash ">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">…</div> from <div class="splash ">…</div> subtree intercepts pointer events
+  2 × retrying click action
+      - waiting 100ms
+      - waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="splash ">…</div> intercepts pointer events
+  14 × retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">…</div> from <div class="splash ">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">…</div> from <div class="splash ">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash ">…</div> intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+       - waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="splash ">…</div> intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - <div class="splash-stack flex w-[min(84vw,430px)] translate-y-[2px] flex-col items-center">…</div> from <div class="splash ">…</div> subtree intercepts pointer events
+  - retrying click action
+    - waiting 500ms
+
