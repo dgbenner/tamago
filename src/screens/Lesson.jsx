@@ -297,7 +297,7 @@ function WordImage({ q, result, onAnswer, newWords }) {
             <button key={ch.word_id} aria-label={ch.label ?? (ch.alt ? `Picture: ${ch.alt}` : `Picture ${i + 1}`)} disabled={Boolean(result)}
               onClick={() => { setChosen(ch.word_id); onAnswer({ correct: ch.word_id === q.answer }) }}
               className={`choice flex flex-col items-center justify-center gap-1 p-2 text-center ${state}`}>
-              <img src={ch.image} alt="" className="h-20 w-20" />
+              <img src={ch.image} alt="" className="h-20 w-20 rounded-xl" />
               {ch.label && <span lang={TL} className="text-base">{ch.label}</span>}
               {state === 'choice-wrong' && <WrongMark className="text-xs" />}
             </button>
@@ -781,7 +781,7 @@ function TypeWord({ q, content, settings, result, onAnswer }) {
   return (
     <>
       <div className="flex items-center gap-4">
-        {q.image && <img src={q.image} alt="" className="h-20 w-20 shrink-0" />}
+        {q.image && <img src={q.image} alt="" className="h-20 w-20 shrink-0 rounded-xl" />}
         <p lang="en" className="text-2xl leading-relaxed">{q.hint}</p>
       </div>
       <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} />

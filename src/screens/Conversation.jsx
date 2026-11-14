@@ -139,7 +139,7 @@ export default function Conversation({ mode, scene, settings, known, pool, names
             {keyWords.map((w) => (
               <li key={w.word_id}>
                 <button onClick={() => speakLine(w.form, rate)} className="flex w-full flex-col items-center gap-1 rounded-xl border-2 border-line bg-surface p-3">
-                  {w.image_file ? <img src={`/images/${w.image_file}`} alt="" className="h-16 w-16 object-contain" /> : <span className="h-2" />}
+                  {w.image_file ? <img src={`/images/${w.image_file}`} alt="" className="h-16 w-16 rounded-xl object-contain" /> : <span className="h-2" />}
                   <span lang={TL} className="font-semibold">{w.form}</span>
                   <span className="text-sm text-muted">{w.hint}</span>
                 </button>
