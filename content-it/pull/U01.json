@@ -1,0 +1,1455 @@
+{
+  "unit_id": "U01",
+  "pulled_at": "2026-11-14",
+  "candidates": 56,
+  "sentences": [
+    {
+      "sentence_id": "S1001",
+      "unit_id": "U01",
+      "french": "Tu sei una donna, non un uomo.",
+      "english": "You're a woman, not a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6708664",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1002",
+      "unit_id": "U01",
+      "french": "Sei una donna, non un uomo.",
+      "english": "You're a woman, not a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6708663",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1003",
+      "unit_id": "U01",
+      "french": "Io sono una donna, non una ragazza.",
+      "english": "I am a woman, not a girl.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6740033",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1004",
+      "unit_id": "U01",
+      "french": "Io non sono un uomo!",
+      "english": "I'm not a man!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1584492",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "I am not a man!"
+      ]
+    },
+    {
+      "sentence_id": "S1005",
+      "unit_id": "U01",
+      "french": "Non sei tu, sono io!",
+      "english": "It's not you, it's me!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4758401",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1006",
+      "unit_id": "U01",
+      "french": "Sì e no.",
+      "english": "Yes and no.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "378822",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1007",
+      "unit_id": "U01",
+      "french": "Ciao, tu sei Tom?",
+      "english": "Hi, are you Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7096281",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1008",
+      "unit_id": "U01",
+      "french": "Sei una ragazza?",
+      "english": "Are you a girl?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11365493",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1009",
+      "unit_id": "U01",
+      "french": "Tu non sei una ragazza.",
+      "english": "You aren't a girl.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3578229",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "You're not a girl."
+      ]
+    },
+    {
+      "sentence_id": "S1010",
+      "unit_id": "U01",
+      "french": "Ciao, sei Tom?",
+      "english": "Hi, are you Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7096280",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1011",
+      "unit_id": "U01",
+      "french": "Io sono un ragazzo.",
+      "english": "I am a boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4461158",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1012",
+      "unit_id": "U01",
+      "french": "E tu?",
+      "english": "And you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1003624",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "What about you?",
+        "How about you?"
+      ]
+    },
+    {
+      "sentence_id": "S1013",
+      "unit_id": "U01",
+      "french": "No, non io, tu!",
+      "english": "No, not me, you!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "375150",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "kar1j",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1014",
+      "unit_id": "U01",
+      "french": "Io sono un bambino.",
+      "english": "I am a child.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5116472",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1015",
+      "unit_id": "U01",
+      "french": "Tu sei un bambino.",
+      "english": "You're a child.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5836734",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1016",
+      "unit_id": "U01",
+      "french": "E Tom?",
+      "english": "What about Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3140030",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1017",
+      "unit_id": "U01",
+      "french": "Sono un ragazzo.",
+      "english": "I am a boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "375671",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1018",
+      "unit_id": "U01",
+      "french": "Sono un bambino.",
+      "english": "I am a child.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5116470",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1019",
+      "unit_id": "U01",
+      "french": "Sì, io sono Anna.",
+      "english": "Yes, I am Anna.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7915379",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1020",
+      "unit_id": "U01",
+      "french": "Ciao, sono Tom.",
+      "english": "Hello, I'm Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5578269",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "dnnywld",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1021",
+      "unit_id": "U01",
+      "french": "Sì, sono Anna.",
+      "english": "Yes, I am Anna.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7915378",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1022",
+      "unit_id": "U01",
+      "french": "Non sei un uomo?",
+      "english": "Are you not a man?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11915914",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1023",
+      "unit_id": "U01",
+      "french": "Non sei una donna?",
+      "english": "Are you not a woman?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13300978",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1024",
+      "unit_id": "U01",
+      "french": "Tu non sei Tom?",
+      "english": "Aren't you Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1260249",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1025",
+      "unit_id": "U01",
+      "french": "Io non sono una donna.",
+      "english": "I'm not a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3893808",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1026",
+      "unit_id": "U01",
+      "french": "Sono una donna, non una ragazza.",
+      "english": "I am a woman, not a girl.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6739964",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1027",
+      "unit_id": "U01",
+      "french": "Sei tu?",
+      "english": "Is that you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1260025",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Is it you?"
+      ]
+    },
+    {
+      "sentence_id": "S1028",
+      "unit_id": "U01",
+      "french": "Non sei Tom?",
+      "english": "Aren't you Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1260247",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1029",
+      "unit_id": "U01",
+      "french": "Tom, sei tu?",
+      "english": "Tom, is that you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5571688",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "dnnywld",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1030",
+      "unit_id": "U01",
+      "french": "Tu sei Tom?",
+      "english": "Are you Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10636969",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S1001",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 4,
+      "surface": "donna",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 5,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 6,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 7,
+      "surface": "uomo",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 1,
+      "surface": "Sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 3,
+      "surface": "donna",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 4,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 5,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 6,
+      "surface": "uomo",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 2,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 4,
+      "surface": "donna",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 5,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 6,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 7,
+      "surface": "ragazza",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 3,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 5,
+      "surface": "uomo",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 4,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 5,
+      "surface": "io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 1,
+      "surface": "Sì",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 2,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 3,
+      "surface": "no",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 1,
+      "surface": "Ciao",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 3,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 1,
+      "surface": "Sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 3,
+      "surface": "ragazza",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 3,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 4,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 5,
+      "surface": "ragazza",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1010",
+      "position": 1,
+      "surface": "Ciao",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1010",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1010",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 2,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 4,
+      "surface": "ragazzo",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1012",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1012",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1013",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1013",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1013",
+      "position": 3,
+      "surface": "io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1013",
+      "position": 4,
+      "surface": "tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 2,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 4,
+      "surface": "bambino",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 4,
+      "surface": "bambino",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1016",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1016",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1017",
+      "position": 1,
+      "surface": "Sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1017",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1017",
+      "position": 3,
+      "surface": "ragazzo",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1018",
+      "position": 1,
+      "surface": "Sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1018",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1018",
+      "position": 3,
+      "surface": "bambino",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1019",
+      "position": 1,
+      "surface": "Sì",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1019",
+      "position": 2,
+      "surface": "io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1019",
+      "position": 3,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1019",
+      "position": 4,
+      "surface": "Anna",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1020",
+      "position": 1,
+      "surface": "Ciao",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1020",
+      "position": 2,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1020",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1021",
+      "position": 1,
+      "surface": "Sì",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1021",
+      "position": 2,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1021",
+      "position": 3,
+      "surface": "Anna",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1022",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1022",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1022",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1022",
+      "position": 4,
+      "surface": "uomo",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1023",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1023",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1023",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1023",
+      "position": 4,
+      "surface": "donna",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1024",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1024",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1024",
+      "position": 3,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1024",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1025",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1025",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1025",
+      "position": 3,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1025",
+      "position": 4,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1025",
+      "position": 5,
+      "surface": "donna",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1026",
+      "position": 1,
+      "surface": "Sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1026",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1026",
+      "position": 3,
+      "surface": "donna",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1026",
+      "position": 4,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1026",
+      "position": 5,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1026",
+      "position": 6,
+      "surface": "ragazza",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1027",
+      "position": 1,
+      "surface": "Sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1027",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1028",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1028",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1028",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1029",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1029",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1029",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1030",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1030",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1030",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A10041",
+      "sentence_id": "S1004",
+      "direction": "fr_to_en",
+      "answer": "I am not a man!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10091",
+      "sentence_id": "S1009",
+      "direction": "fr_to_en",
+      "answer": "You're not a girl.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10121",
+      "sentence_id": "S1012",
+      "direction": "fr_to_en",
+      "answer": "What about you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10122",
+      "sentence_id": "S1012",
+      "direction": "fr_to_en",
+      "answer": "How about you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10271",
+      "sentence_id": "S1027",
+      "direction": "fr_to_en",
+      "answer": "Is it you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

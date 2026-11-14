@@ -1,0 +1,1378 @@
+{
+  "unit_id": "U32",
+  "pulled_at": "2026-11-14",
+  "candidates": 96,
+  "sentences": [
+    {
+      "sentence_id": "S32001",
+      "unit_id": "U32",
+      "french": "Cosa vuol dire questa parola?",
+      "english": "What does this word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2669166",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32002",
+      "unit_id": "U32",
+      "french": "Che vuol dire questa parola?",
+      "english": "What does this word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2669168",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32003",
+      "unit_id": "U32",
+      "french": "Come si dice questo in italiano?",
+      "english": "How do you say that in Italian?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4421",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32004",
+      "unit_id": "U32",
+      "french": "Che cosa vuol dire questa parola?",
+      "english": "What does this word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2669167",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32005",
+      "unit_id": "U32",
+      "french": "Che significa questa parola?",
+      "english": "What does this word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "837824",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "riccioberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32006",
+      "unit_id": "U32",
+      "french": "Cosa significa questa parola?",
+      "english": "What does this word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1688586",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32007",
+      "unit_id": "U32",
+      "french": "Che cosa significa questa parola?",
+      "english": "What does this word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1688584",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32008",
+      "unit_id": "U32",
+      "french": "Parli italiano?",
+      "english": "Do you speak Italian?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4405",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32009",
+      "unit_id": "U32",
+      "french": "Parla inglese?",
+      "english": "Do you speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "348759",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zipangu",
+      "other_english": [
+        "Does he speak English?"
+      ]
+    },
+    {
+      "sentence_id": "S32010",
+      "unit_id": "U32",
+      "french": "Parli inglese?",
+      "english": "Do you speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "379134",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": [
+        "Can you speak English?"
+      ]
+    },
+    {
+      "sentence_id": "S32011",
+      "unit_id": "U32",
+      "french": "Cosa dice?",
+      "english": "What does he say?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1603375",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "viorayli",
+      "other_english": [
+        "What do you say?",
+        "What does it say?"
+      ]
+    },
+    {
+      "sentence_id": "S32012",
+      "unit_id": "U32",
+      "french": "Che dice?",
+      "english": "What does he say?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1603377",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "viorayli",
+      "other_english": [
+        "What say you?",
+        "What do you say?",
+        "What does it say?"
+      ]
+    },
+    {
+      "sentence_id": "S32013",
+      "unit_id": "U32",
+      "french": "Lei parla inglese?",
+      "english": "Do you speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2246873",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mayahueli",
+      "other_english": [
+        "Does she speak English?"
+      ]
+    },
+    {
+      "sentence_id": "S32014",
+      "unit_id": "U32",
+      "french": "Tu parli italiano?",
+      "english": "Do you speak Italian?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2703678",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32015",
+      "unit_id": "U32",
+      "french": "Cosa vuol dire?",
+      "english": "What does it mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2592047",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32016",
+      "unit_id": "U32",
+      "french": "Che cosa vuol dire?",
+      "english": "What does it mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2592048",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32017",
+      "unit_id": "U32",
+      "french": "Cosa significa?",
+      "english": "What does it mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2592046",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32018",
+      "unit_id": "U32",
+      "french": "Che significa?",
+      "english": "What does it mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2592053",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32019",
+      "unit_id": "U32",
+      "french": "Questo cosa significa?",
+      "english": "What does this mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "342145",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "grantortino",
+      "other_english": [
+        "What does this stand for?"
+      ]
+    },
+    {
+      "sentence_id": "S32020",
+      "unit_id": "U32",
+      "french": "Che cosa significa?",
+      "english": "What does it mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "578262",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "What does this mean?"
+      ]
+    },
+    {
+      "sentence_id": "S32021",
+      "unit_id": "U32",
+      "french": "Lei parla italiano?",
+      "english": "Do you speak Italian?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2703680",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32022",
+      "unit_id": "U32",
+      "french": "Tu parli inglese?",
+      "english": "Do you speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2795532",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32023",
+      "unit_id": "U32",
+      "french": "Cosa significa questo?",
+      "english": "What does this mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3408335",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32024",
+      "unit_id": "U32",
+      "french": "Cosa dice questo?",
+      "english": "What does this say?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3495817",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32025",
+      "unit_id": "U32",
+      "french": "Che dice questo?",
+      "english": "What does this say?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3495821",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32026",
+      "unit_id": "U32",
+      "french": "Che cosa dice?",
+      "english": "What does he say?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3795506",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "What do you say?",
+        "What does it say?"
+      ]
+    },
+    {
+      "sentence_id": "S32027",
+      "unit_id": "U32",
+      "french": "Lui parla inglese?",
+      "english": "Does he speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5054744",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32028",
+      "unit_id": "U32",
+      "french": "Capisci l'italiano?",
+      "english": "Do you understand Italian?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5973641",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "dnnywld",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32029",
+      "unit_id": "U32",
+      "french": "Ti piace l'inglese?",
+      "english": "Do you like English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "380879",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ver",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32030",
+      "unit_id": "U32",
+      "french": "Mi scusi. Parla inglese?",
+      "english": "Excuse me. Do you speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1055122",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S32001",
+      "position": 1,
+      "surface": "Cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 2,
+      "surface": "vuol",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 3,
+      "surface": "dire",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 4,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 5,
+      "surface": "parola",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 2,
+      "surface": "vuol",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 3,
+      "surface": "dire",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 4,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 5,
+      "surface": "parola",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 1,
+      "surface": "Come",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 2,
+      "surface": "si",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 3,
+      "surface": "dice",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 4,
+      "surface": "questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 5,
+      "surface": "in",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 6,
+      "surface": "italiano",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 2,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 3,
+      "surface": "vuol",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 4,
+      "surface": "dire",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 5,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 6,
+      "surface": "parola",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 2,
+      "surface": "significa",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 3,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 4,
+      "surface": "parola",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 1,
+      "surface": "Cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 2,
+      "surface": "significa",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 3,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 4,
+      "surface": "parola",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 2,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 3,
+      "surface": "significa",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 4,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 5,
+      "surface": "parola",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 1,
+      "surface": "Parli",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 2,
+      "surface": "italiano",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 1,
+      "surface": "Parla",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 2,
+      "surface": "inglese",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 1,
+      "surface": "Parli",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 2,
+      "surface": "inglese",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 1,
+      "surface": "Cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 2,
+      "surface": "dice",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 2,
+      "surface": "dice",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 1,
+      "surface": "Lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 2,
+      "surface": "parla",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 3,
+      "surface": "inglese",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 2,
+      "surface": "parli",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 3,
+      "surface": "italiano",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 1,
+      "surface": "Cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 2,
+      "surface": "vuol",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 3,
+      "surface": "dire",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 2,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 3,
+      "surface": "vuol",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 4,
+      "surface": "dire",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 1,
+      "surface": "Cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 2,
+      "surface": "significa",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32018",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32018",
+      "position": 2,
+      "surface": "significa",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32019",
+      "position": 1,
+      "surface": "Questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32019",
+      "position": 2,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32019",
+      "position": 3,
+      "surface": "significa",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32020",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32020",
+      "position": 2,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32020",
+      "position": 3,
+      "surface": "significa",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32021",
+      "position": 1,
+      "surface": "Lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32021",
+      "position": 2,
+      "surface": "parla",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32021",
+      "position": 3,
+      "surface": "italiano",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32022",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32022",
+      "position": 2,
+      "surface": "parli",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32022",
+      "position": 3,
+      "surface": "inglese",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32023",
+      "position": 1,
+      "surface": "Cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32023",
+      "position": 2,
+      "surface": "significa",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32023",
+      "position": 3,
+      "surface": "questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32024",
+      "position": 1,
+      "surface": "Cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32024",
+      "position": 2,
+      "surface": "dice",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32024",
+      "position": 3,
+      "surface": "questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32025",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32025",
+      "position": 2,
+      "surface": "dice",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32025",
+      "position": 3,
+      "surface": "questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32026",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32026",
+      "position": 2,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32026",
+      "position": 3,
+      "surface": "dice",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32027",
+      "position": 1,
+      "surface": "Lui",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32027",
+      "position": 2,
+      "surface": "parla",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32027",
+      "position": 3,
+      "surface": "inglese",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32028",
+      "position": 1,
+      "surface": "Capisci",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32028",
+      "position": 2,
+      "surface": "l'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32028",
+      "position": 3,
+      "surface": "italiano",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 3,
+      "surface": "l'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 4,
+      "surface": "inglese",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 2,
+      "surface": "scusi",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 3,
+      "surface": "Parla",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 4,
+      "surface": "inglese",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A320091",
+      "sentence_id": "S32009",
+      "direction": "fr_to_en",
+      "answer": "Does he speak English?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320101",
+      "sentence_id": "S32010",
+      "direction": "fr_to_en",
+      "answer": "Can you speak English?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320111",
+      "sentence_id": "S32011",
+      "direction": "fr_to_en",
+      "answer": "What do you say?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320112",
+      "sentence_id": "S32011",
+      "direction": "fr_to_en",
+      "answer": "What does it say?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320121",
+      "sentence_id": "S32012",
+      "direction": "fr_to_en",
+      "answer": "What say you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320122",
+      "sentence_id": "S32012",
+      "direction": "fr_to_en",
+      "answer": "What do you say?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320123",
+      "sentence_id": "S32012",
+      "direction": "fr_to_en",
+      "answer": "What does it say?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320131",
+      "sentence_id": "S32013",
+      "direction": "fr_to_en",
+      "answer": "Does she speak English?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320191",
+      "sentence_id": "S32019",
+      "direction": "fr_to_en",
+      "answer": "What does this stand for?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320201",
+      "sentence_id": "S32020",
+      "direction": "fr_to_en",
+      "answer": "What does this mean?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320261",
+      "sentence_id": "S32026",
+      "direction": "fr_to_en",
+      "answer": "What do you say?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320262",
+      "sentence_id": "S32026",
+      "direction": "fr_to_en",
+      "answer": "What does it say?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

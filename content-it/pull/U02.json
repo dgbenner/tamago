@@ -1,0 +1,1415 @@
+{
+  "unit_id": "U02",
+  "pulled_at": "2026-11-14",
+  "candidates": 165,
+  "sentences": [
+    {
+      "sentence_id": "S2001",
+      "unit_id": "U02",
+      "french": "Questa è la casa.",
+      "english": "This is the house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4403668",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2002",
+      "unit_id": "U02",
+      "french": "Questo libro è piccolo.",
+      "english": "This book is small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "373935",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": [
+        "This is a small book."
+      ]
+    },
+    {
+      "sentence_id": "S2003",
+      "unit_id": "U02",
+      "french": "Il libro è grande.",
+      "english": "The book is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "851715",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2004",
+      "unit_id": "U02",
+      "french": "Il libro è piccolo.",
+      "english": "The book is small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1447156",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2005",
+      "unit_id": "U02",
+      "french": "La casa è piccola.",
+      "english": "The house is small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2422693",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2006",
+      "unit_id": "U02",
+      "french": "Questa è una casa grande.",
+      "english": "This is a big house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2584480",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "This is a large house."
+      ]
+    },
+    {
+      "sentence_id": "S2007",
+      "unit_id": "U02",
+      "french": "Il dottore è qui.",
+      "english": "The doctor is here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13105555",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2008",
+      "unit_id": "U02",
+      "french": "Lui è un dottore?",
+      "english": "Is he a doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1607816",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2009",
+      "unit_id": "U02",
+      "french": "Questo è un libro piccolo.",
+      "english": "This is a small book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1447127",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2010",
+      "unit_id": "U02",
+      "french": "Lui è forte.",
+      "english": "He's strong.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1117323",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2011",
+      "unit_id": "U02",
+      "french": "Lei non è qui.",
+      "english": "She's not here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1004032",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "She is not here."
+      ]
+    },
+    {
+      "sentence_id": "S2012",
+      "unit_id": "U02",
+      "french": "L'uomo è forte.",
+      "english": "The man is strong.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3100736",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2013",
+      "unit_id": "U02",
+      "french": "L'uomo è grande.",
+      "english": "The man is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9708300",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2014",
+      "unit_id": "U02",
+      "french": "Lei è una donna forte.",
+      "english": "You're a strong woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13300964",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2015",
+      "unit_id": "U02",
+      "french": "Sono un dottore qui.",
+      "english": "I'm a doctor here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7702383",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2016",
+      "unit_id": "U02",
+      "french": "Io sono Tom e lei è Mary.",
+      "english": "I'm Tom, and she's Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10071222",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "I'm Tom and she is Mary."
+      ]
+    },
+    {
+      "sentence_id": "S2017",
+      "unit_id": "U02",
+      "french": "È lui?",
+      "english": "Is that him?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3493264",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2018",
+      "unit_id": "U02",
+      "french": "È piccola?",
+      "english": "Is it small?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6933449",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2019",
+      "unit_id": "U02",
+      "french": "Questo è Tom?",
+      "english": "Is this Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2731133",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2020",
+      "unit_id": "U02",
+      "french": "Questa è Mary?",
+      "english": "Is this Mary?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12259060",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dizro",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2021",
+      "unit_id": "U02",
+      "french": "La casa è grande.",
+      "english": "The house is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2983685",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2022",
+      "unit_id": "U02",
+      "french": "È qui?",
+      "english": "Is he here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1213575",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Is it here?",
+        "Are you here?",
+        "Is she here?"
+      ]
+    },
+    {
+      "sentence_id": "S2023",
+      "unit_id": "U02",
+      "french": "È lei?",
+      "english": "Is that her?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1260026",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Is that you?",
+        "Is it you?"
+      ]
+    },
+    {
+      "sentence_id": "S2024",
+      "unit_id": "U02",
+      "french": "È piccolo?",
+      "english": "Is it small?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6933448",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2025",
+      "unit_id": "U02",
+      "french": "È un dottore?",
+      "english": "Is he a doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1607814",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Are you a doctor?"
+      ]
+    },
+    {
+      "sentence_id": "S2026",
+      "unit_id": "U02",
+      "french": "È qui Tom?",
+      "english": "Is Tom here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3838141",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2027",
+      "unit_id": "U02",
+      "french": "Non è lei?",
+      "english": "Isn't that her?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5719488",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2028",
+      "unit_id": "U02",
+      "french": "Non è lui?",
+      "english": "Isn't that him?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5719489",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2029",
+      "unit_id": "U02",
+      "french": "Lui è Tom?",
+      "english": "Is he Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6996414",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S2030",
+      "unit_id": "U02",
+      "french": "E lei è...?",
+      "english": "And you are...?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9712007",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S2001",
+      "position": 1,
+      "surface": "Questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2001",
+      "position": 4,
+      "surface": "casa",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 1,
+      "surface": "Questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 2,
+      "surface": "libro",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2002",
+      "position": 4,
+      "surface": "piccolo",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 2,
+      "surface": "libro",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2003",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 2,
+      "surface": "libro",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2004",
+      "position": 4,
+      "surface": "piccolo",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2005",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2005",
+      "position": 2,
+      "surface": "casa",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2005",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2005",
+      "position": 4,
+      "surface": "piccola",
+      "word_id": "W032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 1,
+      "surface": "Questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 4,
+      "surface": "casa",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2006",
+      "position": 5,
+      "surface": "grande",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2007",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2007",
+      "position": 2,
+      "surface": "dottore",
+      "word_id": "W029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2007",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2007",
+      "position": 4,
+      "surface": "qui",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2008",
+      "position": 1,
+      "surface": "Lui",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2008",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2008",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2008",
+      "position": 4,
+      "surface": "dottore",
+      "word_id": "W029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2009",
+      "position": 1,
+      "surface": "Questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2009",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2009",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2009",
+      "position": 4,
+      "surface": "libro",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2009",
+      "position": 5,
+      "surface": "piccolo",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2010",
+      "position": 1,
+      "surface": "Lui",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2010",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2010",
+      "position": 3,
+      "surface": "forte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2011",
+      "position": 1,
+      "surface": "Lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2011",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2011",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2011",
+      "position": 4,
+      "surface": "qui",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2012",
+      "position": 1,
+      "surface": "L'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2012",
+      "position": 2,
+      "surface": "uomo",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2012",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2012",
+      "position": 4,
+      "surface": "forte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2013",
+      "position": 1,
+      "surface": "L'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2013",
+      "position": 2,
+      "surface": "uomo",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2013",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2013",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2014",
+      "position": 1,
+      "surface": "Lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2014",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2014",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2014",
+      "position": 4,
+      "surface": "donna",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2014",
+      "position": 5,
+      "surface": "forte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2015",
+      "position": 1,
+      "surface": "Sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2015",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2015",
+      "position": 3,
+      "surface": "dottore",
+      "word_id": "W029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2015",
+      "position": 4,
+      "surface": "qui",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2016",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2016",
+      "position": 2,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2016",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2016",
+      "position": 4,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2016",
+      "position": 5,
+      "surface": "lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2016",
+      "position": 6,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2016",
+      "position": 7,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2017",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2017",
+      "position": 2,
+      "surface": "lui",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2018",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2018",
+      "position": 2,
+      "surface": "piccola",
+      "word_id": "W032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2019",
+      "position": 1,
+      "surface": "Questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2019",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2019",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2020",
+      "position": 1,
+      "surface": "Questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2020",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2020",
+      "position": 3,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2021",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2021",
+      "position": 2,
+      "surface": "casa",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2021",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2021",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2022",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2022",
+      "position": 2,
+      "surface": "qui",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2023",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2023",
+      "position": 2,
+      "surface": "lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2024",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2024",
+      "position": 2,
+      "surface": "piccolo",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2025",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2025",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2025",
+      "position": 3,
+      "surface": "dottore",
+      "word_id": "W029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2026",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2026",
+      "position": 2,
+      "surface": "qui",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2026",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2027",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2027",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2027",
+      "position": 3,
+      "surface": "lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2028",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2028",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2028",
+      "position": 3,
+      "surface": "lui",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2029",
+      "position": 1,
+      "surface": "Lui",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2029",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2029",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2030",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2030",
+      "position": 2,
+      "surface": "lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S2030",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A20021",
+      "sentence_id": "S2002",
+      "direction": "fr_to_en",
+      "answer": "This is a small book.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20061",
+      "sentence_id": "S2006",
+      "direction": "fr_to_en",
+      "answer": "This is a large house.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20111",
+      "sentence_id": "S2011",
+      "direction": "fr_to_en",
+      "answer": "She is not here.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20161",
+      "sentence_id": "S2016",
+      "direction": "fr_to_en",
+      "answer": "I'm Tom and she is Mary.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20221",
+      "sentence_id": "S2022",
+      "direction": "fr_to_en",
+      "answer": "Is it here?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20222",
+      "sentence_id": "S2022",
+      "direction": "fr_to_en",
+      "answer": "Are you here?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20223",
+      "sentence_id": "S2022",
+      "direction": "fr_to_en",
+      "answer": "Is she here?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20231",
+      "sentence_id": "S2023",
+      "direction": "fr_to_en",
+      "answer": "Is that you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20232",
+      "sentence_id": "S2023",
+      "direction": "fr_to_en",
+      "answer": "Is it you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A20251",
+      "sentence_id": "S2025",
+      "direction": "fr_to_en",
+      "answer": "Are you a doctor?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

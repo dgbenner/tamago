@@ -1,0 +1,548 @@
+{
+  "essere": [
+    {
+      "person": "io",
+      "form": "sono"
+    },
+    {
+      "person": "tu",
+      "form": "sei"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "è"
+    },
+    {
+      "person": "noi",
+      "form": "siamo"
+    },
+    {
+      "person": "voi",
+      "form": "siete"
+    },
+    {
+      "person": "loro",
+      "form": "sono"
+    }
+  ],
+  "stare": [
+    {
+      "person": "io",
+      "form": "sto"
+    },
+    {
+      "person": "tu",
+      "form": "stai"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "sta"
+    },
+    {
+      "person": "noi",
+      "form": "stiamo"
+    },
+    {
+      "person": "voi",
+      "form": "state"
+    },
+    {
+      "person": "loro",
+      "form": "stanno"
+    }
+  ],
+  "mangiare": [
+    {
+      "person": "io",
+      "form": "mangio"
+    },
+    {
+      "person": "tu",
+      "form": "mangi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "mangia"
+    },
+    {
+      "person": "noi",
+      "form": "mangiamo"
+    },
+    {
+      "person": "voi",
+      "form": "mangiate"
+    },
+    {
+      "person": "loro",
+      "form": "mangiano"
+    }
+  ],
+  "bere": [
+    {
+      "person": "io",
+      "form": "bevo"
+    },
+    {
+      "person": "tu",
+      "form": "bevi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "beve"
+    },
+    {
+      "person": "noi",
+      "form": "beviamo"
+    },
+    {
+      "person": "voi",
+      "form": "bevete"
+    },
+    {
+      "person": "loro",
+      "form": "bevono"
+    }
+  ],
+  "avere": [
+    {
+      "person": "io",
+      "form": "ho"
+    },
+    {
+      "person": "tu",
+      "form": "hai"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "ha"
+    },
+    {
+      "person": "noi",
+      "form": "abbiamo"
+    },
+    {
+      "person": "voi",
+      "form": "avete"
+    },
+    {
+      "person": "loro",
+      "form": "hanno"
+    }
+  ],
+  "cantare": [
+    {
+      "person": "io",
+      "form": "canto"
+    },
+    {
+      "person": "tu",
+      "form": "canti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "canta"
+    },
+    {
+      "person": "noi",
+      "form": "cantiamo"
+    },
+    {
+      "person": "voi",
+      "form": "cantate"
+    },
+    {
+      "person": "loro",
+      "form": "cantano"
+    }
+  ],
+  "leggere": [
+    {
+      "person": "io",
+      "form": "leggo"
+    },
+    {
+      "person": "tu",
+      "form": "leggi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "legge"
+    },
+    {
+      "person": "noi",
+      "form": "leggiamo"
+    },
+    {
+      "person": "voi",
+      "form": "leggete"
+    },
+    {
+      "person": "loro",
+      "form": "leggono"
+    }
+  ],
+  "esserci": [
+    {
+      "person": "io",
+      "form": "ci"
+    },
+    {
+      "person": "tu",
+      "form": "ci"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "ci"
+    },
+    {
+      "person": "noi",
+      "form": "ci"
+    },
+    {
+      "person": "voi",
+      "form": "ci"
+    },
+    {
+      "person": "loro",
+      "form": "ci"
+    }
+  ],
+  "sapere": [
+    {
+      "person": "io",
+      "form": "so"
+    },
+    {
+      "person": "tu",
+      "form": "sai"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "sa"
+    },
+    {
+      "person": "noi",
+      "form": "sappiamo"
+    },
+    {
+      "person": "voi",
+      "form": "sapete"
+    },
+    {
+      "person": "loro",
+      "form": "sanno"
+    }
+  ],
+  "andare": [
+    {
+      "person": "io",
+      "form": "vado"
+    },
+    {
+      "person": "tu",
+      "form": "vai"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "va"
+    },
+    {
+      "person": "noi",
+      "form": "andiamo"
+    },
+    {
+      "person": "voi",
+      "form": "andate"
+    },
+    {
+      "person": "loro",
+      "form": "vanno"
+    }
+  ],
+  "piacere": [
+    {
+      "person": "io",
+      "form": "piaccio"
+    },
+    {
+      "person": "tu",
+      "form": "piaci"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "piace"
+    },
+    {
+      "person": "noi",
+      "form": "piacciamo"
+    },
+    {
+      "person": "voi",
+      "form": "piacete"
+    },
+    {
+      "person": "loro",
+      "form": "piacciono"
+    }
+  ],
+  "capire": [
+    {
+      "person": "io",
+      "form": "capisco"
+    },
+    {
+      "person": "tu",
+      "form": "capisci"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "capisce"
+    },
+    {
+      "person": "noi",
+      "form": "capiamo"
+    },
+    {
+      "person": "voi",
+      "form": "capite"
+    },
+    {
+      "person": "loro",
+      "form": "capiscono"
+    }
+  ],
+  "ripetere": [
+    {
+      "person": "io",
+      "form": "ripeto"
+    },
+    {
+      "person": "tu",
+      "form": "ripeti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "ripete"
+    },
+    {
+      "person": "noi",
+      "form": "ripetiamo"
+    },
+    {
+      "person": "voi",
+      "form": "ripetete"
+    },
+    {
+      "person": "loro",
+      "form": "ripetono"
+    }
+  ],
+  "parlare": [
+    {
+      "person": "io",
+      "form": "parlo"
+    },
+    {
+      "person": "tu",
+      "form": "parli"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "parla"
+    },
+    {
+      "person": "noi",
+      "form": "parliamo"
+    },
+    {
+      "person": "voi",
+      "form": "parlate"
+    },
+    {
+      "person": "loro",
+      "form": "parlano"
+    }
+  ],
+  "dire": [
+    {
+      "person": "io",
+      "form": "dico"
+    },
+    {
+      "person": "tu",
+      "form": "dici"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "dice"
+    },
+    {
+      "person": "noi",
+      "form": "diciamo"
+    },
+    {
+      "person": "voi",
+      "form": "dite"
+    },
+    {
+      "person": "loro",
+      "form": "dicono"
+    }
+  ],
+  "significare": [
+    {
+      "person": "io",
+      "form": "significo"
+    },
+    {
+      "person": "tu",
+      "form": "significhi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "significa"
+    },
+    {
+      "person": "noi",
+      "form": "significhiamo"
+    },
+    {
+      "person": "voi",
+      "form": "significate"
+    },
+    {
+      "person": "loro",
+      "form": "significano"
+    }
+  ],
+  "cercare": [
+    {
+      "person": "io",
+      "form": "cerco"
+    },
+    {
+      "person": "tu",
+      "form": "cerchi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "cerca"
+    },
+    {
+      "person": "noi",
+      "form": "cerchiamo"
+    },
+    {
+      "person": "voi",
+      "form": "cercate"
+    },
+    {
+      "person": "loro",
+      "form": "cercano"
+    }
+  ],
+  "chiamare": [
+    {
+      "person": "io",
+      "form": "chiamo"
+    },
+    {
+      "person": "tu",
+      "form": "chiami"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "chiama"
+    },
+    {
+      "person": "noi",
+      "form": "chiamiamo"
+    },
+    {
+      "person": "voi",
+      "form": "chiamate"
+    },
+    {
+      "person": "loro",
+      "form": "chiamano"
+    }
+  ],
+  "servire": [
+    {
+      "person": "io",
+      "form": "servo"
+    },
+    {
+      "person": "tu",
+      "form": "servi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "serve"
+    },
+    {
+      "person": "noi",
+      "form": "serviamo"
+    },
+    {
+      "person": "voi",
+      "form": "servite"
+    },
+    {
+      "person": "loro",
+      "form": "servono"
+    }
+  ],
+  "nuotare": [
+    {
+      "person": "io",
+      "form": "nuoto"
+    },
+    {
+      "person": "tu",
+      "form": "nuoti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "nuota"
+    },
+    {
+      "person": "noi",
+      "form": "nuotiamo"
+    },
+    {
+      "person": "voi",
+      "form": "nuotate"
+    },
+    {
+      "person": "loro",
+      "form": "nuotano"
+    }
+  ],
+  "ballare": [
+    {
+      "person": "io",
+      "form": "ballo"
+    },
+    {
+      "person": "tu",
+      "form": "balli"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "balla"
+    },
+    {
+      "person": "noi",
+      "form": "balliamo"
+    },
+    {
+      "person": "voi",
+      "form": "ballate"
+    },
+    {
+      "person": "loro",
+      "form": "ballano"
+    }
+  ]
+}

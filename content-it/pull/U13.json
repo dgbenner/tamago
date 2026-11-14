@@ -1,0 +1,1484 @@
+{
+  "unit_id": "U13",
+  "pulled_at": "2026-11-14",
+  "candidates": 187,
+  "sentences": [
+    {
+      "sentence_id": "S13001",
+      "unit_id": "U13",
+      "french": "Abbiamo un cane nero e bianco.",
+      "english": "We have a black and white dog.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "350388",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13002",
+      "unit_id": "U13",
+      "french": "Ho un cane bianco e nero.",
+      "english": "I have a black and white dog.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "384856",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13003",
+      "unit_id": "U13",
+      "french": "Mi piace il colore rosso.",
+      "english": "I like the colour red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2076081",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sirio60",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13004",
+      "unit_id": "U13",
+      "french": "Il rosso è un colore.",
+      "english": "Red is a color.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13269974",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Red is a colour."
+      ]
+    },
+    {
+      "sentence_id": "S13005",
+      "unit_id": "U13",
+      "french": "Mi piace il colore bianco.",
+      "english": "I like the color white.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11732550",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13006",
+      "unit_id": "U13",
+      "french": "È nera?",
+      "english": "Is it black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6572644",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13007",
+      "unit_id": "U13",
+      "french": "Non è nera?",
+      "english": "Isn't it black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1389716",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Is it not black?"
+      ]
+    },
+    {
+      "sentence_id": "S13008",
+      "unit_id": "U13",
+      "french": "La mela è rossa?",
+      "english": "Is the apple red?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3102725",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13009",
+      "unit_id": "U13",
+      "french": "È bianca.",
+      "english": "It's white.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1255274",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "She is white."
+      ]
+    },
+    {
+      "sentence_id": "S13010",
+      "unit_id": "U13",
+      "french": "È rossa.",
+      "english": "It's red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4257754",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13011",
+      "unit_id": "U13",
+      "french": "È verde, non giallo.",
+      "english": "It's green, not yellow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13953541",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13012",
+      "unit_id": "U13",
+      "french": "È verde, non gialla.",
+      "english": "It's green, not yellow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13953542",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13013",
+      "unit_id": "U13",
+      "french": "È molto bianca.",
+      "english": "It's very white.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6858927",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "You're very white."
+      ]
+    },
+    {
+      "sentence_id": "S13014",
+      "unit_id": "U13",
+      "french": "Ti piace il colore giallo?",
+      "english": "Do you like the yellow colour?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13953498",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13015",
+      "unit_id": "U13",
+      "french": "È nero?",
+      "english": "Is it black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6572643",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13016",
+      "unit_id": "U13",
+      "french": "La mela è gialla?",
+      "english": "Is this apple yellow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7003966",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13017",
+      "unit_id": "U13",
+      "french": "Questo è vino rosso?",
+      "english": "Is this red wine?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10152026",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13018",
+      "unit_id": "U13",
+      "french": "Hai una macchina blu?",
+      "english": "Do you have a blue car?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10525328",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13019",
+      "unit_id": "U13",
+      "french": "Avete una macchina blu?",
+      "english": "Do you have a blue car?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10525330",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13020",
+      "unit_id": "U13",
+      "french": "Tom ha una macchina nera?",
+      "english": "Does Tom have a black car?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7478215",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13021",
+      "unit_id": "U13",
+      "french": "Mi piace il colore verde.",
+      "english": "I like the green colour.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1020328",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "riccioberto",
+      "other_english": [
+        "I like the colour green."
+      ]
+    },
+    {
+      "sentence_id": "S13022",
+      "unit_id": "U13",
+      "french": "Mi piace il colore blu.",
+      "english": "I like the color blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3203437",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13023",
+      "unit_id": "U13",
+      "french": "Mi piace il colore giallo.",
+      "english": "I like the colour yellow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13953558",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13024",
+      "unit_id": "U13",
+      "french": "Io sono bianca.",
+      "english": "I am white.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13211449",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13025",
+      "unit_id": "U13",
+      "french": "Ho una casa rossa.",
+      "english": "I have a red house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2714849",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13026",
+      "unit_id": "U13",
+      "french": "La macchina è gialla.",
+      "english": "The car is yellow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3966972",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13027",
+      "unit_id": "U13",
+      "french": "Non è nero?",
+      "english": "Isn't it black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1389715",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Is it not black?"
+      ]
+    },
+    {
+      "sentence_id": "S13028",
+      "unit_id": "U13",
+      "french": "Che colore è?",
+      "english": "What colour is it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2797787",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13029",
+      "unit_id": "U13",
+      "french": "Ti piace questo colore?",
+      "english": "Do you like this color?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "378140",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": [
+        "Do you like this colour?"
+      ]
+    },
+    {
+      "sentence_id": "S13030",
+      "unit_id": "U13",
+      "french": "Il cavallo è nero?",
+      "english": "Is the horse black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2132836",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S13001",
+      "position": 1,
+      "surface": "Abbiamo",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 3,
+      "surface": "cane",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 4,
+      "surface": "nero",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 5,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 6,
+      "surface": "bianco",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 1,
+      "surface": "Ho",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 3,
+      "surface": "cane",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 4,
+      "surface": "bianco",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 5,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 6,
+      "surface": "nero",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 4,
+      "surface": "colore",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 5,
+      "surface": "rosso",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 2,
+      "surface": "rosso",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 5,
+      "surface": "colore",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 4,
+      "surface": "colore",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 5,
+      "surface": "bianco",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13006",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13006",
+      "position": 2,
+      "surface": "nera",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 3,
+      "surface": "nera",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 2,
+      "surface": "mela",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 4,
+      "surface": "rossa",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13009",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13009",
+      "position": 2,
+      "surface": "bianca",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 2,
+      "surface": "rossa",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 2,
+      "surface": "verde",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 3,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 4,
+      "surface": "giallo",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13012",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13012",
+      "position": 2,
+      "surface": "verde",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13012",
+      "position": 3,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13012",
+      "position": 4,
+      "surface": "gialla",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13013",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13013",
+      "position": 2,
+      "surface": "molto",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13013",
+      "position": 3,
+      "surface": "bianca",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 4,
+      "surface": "colore",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 5,
+      "surface": "giallo",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13015",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13015",
+      "position": 2,
+      "surface": "nero",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 2,
+      "surface": "mela",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 4,
+      "surface": "gialla",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13017",
+      "position": 1,
+      "surface": "Questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13017",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13017",
+      "position": 3,
+      "surface": "vino",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13017",
+      "position": 4,
+      "surface": "rosso",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 1,
+      "surface": "Hai",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 3,
+      "surface": "macchina",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 4,
+      "surface": "blu",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 1,
+      "surface": "Avete",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 3,
+      "surface": "macchina",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 4,
+      "surface": "blu",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 2,
+      "surface": "ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 4,
+      "surface": "macchina",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 5,
+      "surface": "nera",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 4,
+      "surface": "colore",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 5,
+      "surface": "verde",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 4,
+      "surface": "colore",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 5,
+      "surface": "blu",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 4,
+      "surface": "colore",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 5,
+      "surface": "giallo",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 2,
+      "surface": "sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 3,
+      "surface": "bianca",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 1,
+      "surface": "Ho",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 3,
+      "surface": "casa",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 4,
+      "surface": "rossa",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 2,
+      "surface": "macchina",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 4,
+      "surface": "gialla",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 3,
+      "surface": "nero",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 1,
+      "surface": "Che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 2,
+      "surface": "colore",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 3,
+      "surface": "questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 4,
+      "surface": "colore",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 2,
+      "surface": "cavallo",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 4,
+      "surface": "nero",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A130041",
+      "sentence_id": "S13004",
+      "direction": "fr_to_en",
+      "answer": "Red is a colour.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130071",
+      "sentence_id": "S13007",
+      "direction": "fr_to_en",
+      "answer": "Is it not black?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130091",
+      "sentence_id": "S13009",
+      "direction": "fr_to_en",
+      "answer": "She is white.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130131",
+      "sentence_id": "S13013",
+      "direction": "fr_to_en",
+      "answer": "You're very white.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130211",
+      "sentence_id": "S13021",
+      "direction": "fr_to_en",
+      "answer": "I like the colour green.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130271",
+      "sentence_id": "S13027",
+      "direction": "fr_to_en",
+      "answer": "Is it not black?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130291",
+      "sentence_id": "S13029",
+      "direction": "fr_to_en",
+      "answer": "Do you like this colour?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
