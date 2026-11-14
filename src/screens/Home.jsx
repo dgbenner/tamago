@@ -342,7 +342,8 @@ export function CheckpointNode({ cp, onPick }) {
       <span className="[&_svg]:size-4"><IconCheckered /></span>
       Checkpoint
       {cp.done && <span className="text-right-ink">✓</span>}
-      {cp.skipped && !cp.done && <span className="text-xs text-muted">Skipped</span>}
+      {/* Italic, lighter and smaller than the pill's label, same colour (Dan, 2026-11-14). */}
+      {cp.skipped && !cp.done && <span className="text-[0.6875rem] font-normal italic text-muted">Skipped</span>}
     </button>
   )
 }
