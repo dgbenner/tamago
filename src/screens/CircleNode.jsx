@@ -58,7 +58,7 @@ export default function CircleNode({ onNote = null, ...props }) {
   )
 }
 
-function CircleButton({ title, icon, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null, caption = null, showCaption = true, ring = true }) {
+function CircleButton({ title, icon, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null, caption = null, showCaption = true, ring = true, badge = null }) {
   // caption (Catch-Up, A1 Complete 9): a quiet line under the title, also read out in place of the lesson count; ring
   // false: no lesson ring, since a Catch-Up circle has no lessons of its own.
   const start = useRef(null)
@@ -94,6 +94,9 @@ function CircleButton({ title, icon, locked = false, lessonsDone = 0, lessonsTot
         {state === 'locked'
           ? <span className="relative text-muted [&_svg]:size-8"><IconLock /></span>
           : icon ? <img src={icon} srcSet={`${icon} 1x, ${icon.replace(/\.webp$/, '@2x.webp')} 2x`} alt="" className="relative aspect-square w-[78%] object-contain" /> : null}
+        {/* badge (Brush-Up, Dan 2026-11-14): how many items wait inside, over the circle's lower right; muted like every
+            indicator, never a colour fill. The caption already says it aloud. */}
+        {badge != null && <span data-badge aria-hidden="true" className="absolute right-0 bottom-0 flex h-6 min-w-6 items-center justify-center rounded-full border-2 border-line bg-surface px-1.5 text-xs font-medium text-ink">{badge}</span>}
       </span>
       <span className={`max-w-full text-base leading-tight font-semibold break-words ${state === 'locked' ? 'text-muted' : ''}`}>{title}</span>
       {caption && showCaption && <>{' '}<span className="-mt-1 text-sm text-muted">{caption}</span></>}

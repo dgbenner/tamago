@@ -334,7 +334,7 @@ function PartCarousel({ part, onJumpPart }) {
 const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.count ? `${cu.count} to brush up` : cu.done ? 'All brushed up' : 'Nothing yet')
 function CatchUpNode({ cu, onPick }) {
   // A full green ring once nothing is left to brush up (Dan, 2026-11-14); no ring while items wait or before any lessons.
-  return <CircleNode title={cu.title} icon="/sushi/misc/miso-soup.webp" locked={!cu.available} ring={Boolean(cu.done)} lessonsDone={cu.done ? 1 : 0} lessonsTotal={1} recall={cu.done ? 1 : null} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
+  return <CircleNode title={cu.title} icon="/sushi/misc/miso-soup.webp" locked={!cu.available} ring={Boolean(cu.done)} lessonsDone={cu.done ? 1 : 0} lessonsTotal={1} recall={cu.done ? 1 : null} badge={cu.available && cu.count ? cu.count : null} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
 }
 function CatchUpCard({ cu, onStart, onClose }) {
   return (

@@ -536,10 +536,11 @@ export default function App() {
     ...layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id)).map((t) => t.unit_id),
     ...packs.filter((p) => onPath(p) && (rowOf(p.unit_id)?.row ?? Infinity) <= row).map((p) => p.unit_id),
   ])
-  const catchUpFor = (row) => catchUpItems(allContent, { units: catchUpUnits(row), bank, wordMisses, exposure, met: seenWords.current, reachedOf: (u) => progressOf(u).round_reached, cleared: catchupCleared })
-  const catchUpForSlot = (c) => { const items = catchUpFor(c.after_row); return catchupSettled[c.slot_id] ? items.filter((x) => x.kind === 'sentence' || x.missed) : items }
+  const catchUpFor = (row, limit) => catchUpItems(allContent, { units: catchUpUnits(row), bank, wordMisses, exposure, met: seenWords.current, reachedOf: (u) => progressOf(u).round_reached, cleared: catchupCleared, ...(limit ? { limit } : {}) })
+  const catchUpForSlot = (c, limit) => { const items = catchUpFor(c.after_row, limit); return catchupSettled[c.slot_id] ? items.filter((x) => x.kind === 'sentence' || x.missed) : items }
   const catchUps = (tables.catch_up ?? []).filter((c) => layout.some((t) => t.row === c.after_row)).map((c) => {
-    const items = catchUpForSlot(c)
+    // Everything waiting, not just one session's ten: the badge and the caption count it all (Dan, 2026-11-14).
+    const items = catchUpForSlot(c, Infinity)
     const available = layout.filter((t) => t.row === c.after_row).some((t) => isOpen(t.unit_id))
     // Done (green ring): open, nothing left to brush up, and lessons done above it (an untouched part isn't done).
     const started = [...catchUpUnits(c.after_row)].some((u) => progressOf(u).lessons_done > 0)
