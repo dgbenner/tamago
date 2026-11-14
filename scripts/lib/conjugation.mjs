@@ -54,4 +54,21 @@ async function german(lemma) {
   return out.every((x) => x.form && !/[{}]/.test(x.form)) ? out : null
 }
 
-export const presentIndicative = { fr: french, es: spanish, de: german }[COURSE]
+// Italian (2026-11-14): {{it-conj|…}} as written on the verb's page. The table prints stress marks that are not
+// spelling (hò, màngio, capìsco), so each form is read from its link's title, which is the word as written.
+async function italian(lemma) {
+  const r = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${encodeURIComponent(lemma)}&prop=wikitext&format=json`)
+  const section = ('\n' + (r?.parse?.wikitext?.['*'] ?? '')).split(/\n==(?!=)/).find((s) => s.startsWith(`${C.wiktionarySection}==`)) ?? ''
+  const template = section.match(/\{\{it-conj(?:\|[^{}]*)?\}\}/)?.[0]
+  if (!template) return null
+  const html = await render(lemma, template)
+  const rows = [...html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/g)].map((m) => [...m[1].matchAll(/<t[hd][^>]*>([\s\S]*?)<\/t[hd]>/g)].map((c) => c[1]))
+  const at = rows.findIndex((row) => text(row[0] ?? '') === 'indicative' && text(row[1] ?? '') === 'io')
+  const row = rows[at + 1]
+  if (at < 0 || !row || text(row[0]) !== 'present' || row.length < 7) return null
+  const form = (cell) => cell.match(/<a [^>]*title="([^"#(]+?)(?: \(page does not exist\))?"/)?.[1]?.trim() ?? ''
+  const out = [['io', 1], ['tu', 2], ['lui, lei, Lei', 3], ['noi', 4], ['voi', 5], ['loro', 6]].map(([person, i]) => ({ person, form: form(row[i]) }))
+  return out.every((x) => x.form && !/[{}<>]/.test(x.form)) ? out : null
+}
+
+export const presentIndicative = { fr: french, es: spanish, de: german, it: italian }[COURSE]

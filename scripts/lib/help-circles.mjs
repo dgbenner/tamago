@@ -29,6 +29,11 @@ export const HELP = {
     U32: { grammar: 'Wie sagt man…? Was bedeutet…? Was heißt…?', words: ['sagt', 'man', 'heißt', 'bedeutet', 'Wort', 'auf', 'Englisch'], borrow: ['was', 'Deutsch'] },
     U33: { grammar: 'Ich suche das Wort…; das ist ein Ding für…; weißt du…?', words: ['suche', 'Ding', 'Sache', 'für', 'nennt', 'weißt'], borrow: [] },
   },
+  it: {
+    U31: { grammar: 'Non capisco; più lentamente; ripeti, per favore', words: ['capisco', 'capisci', 'lentamente', 'più', 'ripeti', 'ripeta', 'parla', 'parli', 'ancora', 'piano'], borrow: ['per favore', 'non'] },
+    U32: { grammar: 'Come si dice…? Cosa significa…? Cosa vuol dire…?', words: ['si', 'dice', 'significa', 'vuol', 'dire', 'parola', 'italiano', 'inglese'], borrow: ['cosa', 'che', 'in', 'come'] },
+    U33: { grammar: 'Cerco la parola…; è una cosa per…; non lo so', words: ['cerco', 'cerca', 'so', 'sai', 'lo', 'per', 'chiama', 'serve'], borrow: ['cosa'] },
+  },
 }
 
 // "I can" statements, written for the CEFR self-assessment grid's A1 spoken interaction row, which is this thread:
@@ -69,7 +74,7 @@ export function addHelpCircles(wb, XLSX, lang) {
 
   const words = sheet('words').filter((w) => !/^W7\d\d$/.test(w.word_id))
   const taken = new Set(words.map((w) => w.form))
-  const section = { fr: 'French', es: 'Spanish', de: 'German' }[lang]
+  const section = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian' }[lang]
   let n = 701
   for (const h of HELP_ROWS) for (const form of spec[h.unit_id].words) {
     if (taken.has(form)) throw new Error(`${h.unit_id}: ${form} is already in the course`)

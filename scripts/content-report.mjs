@@ -7,7 +7,7 @@ import { contentNumbers } from '../src/lib/snapshot.js'
 const ROOT = join(import.meta.dirname, '..')
 const load = (dir) => Object.fromEntries(readdirSync(join(ROOT, dir)).filter((f) => f.endsWith('.json')).map((f) => [f.slice(0, -5), JSON.parse(readFileSync(join(ROOT, dir, f), 'utf8'))]))
 const pct = (x, t) => `${Math.round((x * 100) / t)}%`
-for (const [name, dir] of [['French', 'src/content'], ['Spanish', 'src/content-es'], ['German', 'src/content-de']]) {
+for (const [name, dir] of [['French', 'src/content'], ['Spanish', 'src/content-es'], ['German', 'src/content-de'], ['Italian', 'src/content-it']]) {
   const c = contentNumbers(load(dir))
   console.log(JSON.stringify({ name, ...c, pctChecked: pct(c.checked, c.sentences), pctFable: pct(c.fable, c.sentences), pctDrafted: pct(c.drafted, c.sentences), pctRecorded: pct(c.recorded, c.words), minutes: c.minutes.map((m) => m.min) }))
 }

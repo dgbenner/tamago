@@ -1,0 +1,164 @@
+[
+  {
+    "rule_id": "R01",
+    "topic": "New words",
+    "rule": "No more than 4 new words per lesson. A sentence is used only when its other words have been met. In round 1, a sentence may appear twice in one lesson if it's in two different types. Use the 4-pair QT01 variant (V0102) when fewer than 5 words are available.",
+    "notes": "starting number, tune with use"
+  },
+  {
+    "rule_id": "R02",
+    "topic": "First sight",
+    "rule": "A new word's meaning shows at first sight. On QT01, a wrong tap on a new word isn't a miss.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R03",
+    "topic": "Distractors",
+    "rule": "At least one wrong chip is a contrast from the unit's contrast_sets (un/une, suis/es).",
+    "notes": ""
+  },
+  {
+    "rule_id": "R04",
+    "topic": "QT09 answers",
+    "rule": "Accept any answer listed in qa_answers for the question.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R05",
+    "topic": "Pass mark",
+    "rule": "Speaking questions earn a point but don't count toward the pass. Pass is 70% of graded questions, rounded up.",
+    "notes": "replaces 7 of 10"
+  },
+  {
+    "rule_id": "R06",
+    "topic": "Re-asks",
+    "rule": "A miss returns at the end of the lesson as a different type: the same round's type or one round easier (a missed QT12 returns as QT08). A wrong re-ask shows the answer and the lesson moves on; the item stays in the bank.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R07",
+    "topic": "Next lesson",
+    "rule": "A missed item also fills one slot in the next lesson, at its original type.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R08",
+    "topic": "Review bank entry",
+    "rule": "Misses in rounds 2 to 5 go in. Round 1 misses and hinted words don't go in. Hints are still logged.",
+    "notes": "correction: earlier rule put hinted words in"
+  },
+  {
+    "rule_id": "R09",
+    "topic": "Review bank exit",
+    "rule": "An item leaves after three correct answers on three different days.",
+    "notes": "replaces three in a row"
+  },
+  {
+    "rule_id": "R10",
+    "topic": "Answer bar audio",
+    "rule": "The French plays on every question when the answer bar appears, without blocking Continue.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R11",
+    "topic": "Model audio label",
+    "rule": "QT13 says 'native' only where a Lingua Libre recording exists. The native-speaker check before Phase 4 also records the rest.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R12",
+    "topic": "Swaps and scoring",
+    "rule": "A swapped question feeds the replacement's skill. The swapped-out skill doesn't move.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R13",
+    "topic": "Type cap",
+    "rule": "No type more than 3 times per lesson, counted before swaps and fallbacks.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R14",
+    "topic": "Points",
+    "rule": "1 point per first-attempt correct answer or completed speaking question, shown on home only.",
+    "notes": "temporary"
+  },
+  {
+    "rule_id": "R15",
+    "topic": "Hints",
+    "rule": "Show only the short hint at A1.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R16",
+    "topic": "Lesson time",
+    "rule": "Log how long each lesson takes, by round.",
+    "notes": "checks whether 10 questions fills 10 minutes"
+  },
+  {
+    "rule_id": "R17",
+    "topic": "Variants",
+    "rule": "A variant with rounds in use_in_rounds is the only variant of its type used in those rounds. Variants with use_in_rounds empty rotate in any round no listed variant covers. A variant marked for a setting is used only under that setting.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R18",
+    "topic": "Feedback lines",
+    "rule": "The answer bar shows a rotating line from feedback_phrases for the context, not a fixed Correct or Incorrect. No line repeats back to back. French lines appear at french_feedback_rate and carry the dotted underline for their meaning.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R19",
+    "topic": "Match pairs",
+    "rule": "A correct pair animates out together. No green outline. A wrong pair shakes and stays.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R20",
+    "topic": "Unlocking",
+    "rule": "A row opens when every unit in the row above has finished round 1. Rounds 2 to 5 of a unit can be done any time after it opens.",
+    "notes": "starting rule; tune with use"
+  },
+  {
+    "rule_id": "R21",
+    "topic": "Unit order within a lesson",
+    "rule": "A lesson draws only on its own unit's words plus words from units already opened. Names (Paul, Marie) are allowed in any unit.",
+    "notes": ""
+  },
+  {
+    "rule_id": "R22",
+    "topic": "Score",
+    "rule": "A round finished for the first time adds to each skill by its share of that round's answers (after swaps). Every A1 round brings a skill to 29; each review item cleared adds 0.1. A skill reaches 30 (A2) only with every A1 unit through round 5 and every A1 I can for it checked; until then it stops at 29.9.",
+    "notes": "Phase 2c; the rate was open in the feature list"
+  },
+  {
+    "rule_id": "R23",
+    "topic": "Strength",
+    "rule": "Each item has an FSRS card; a first attempt rates it (right Good, typo Hard, wrong Again). A unit shows 0 to 4 bars from its items' average recall now: 90% or more 4, 80% 3, 70% 2, less 1.",
+    "notes": "Phase 2c"
+  },
+  {
+    "rule_id": "R24",
+    "topic": "Practice weak skills",
+    "rule": "The ten items with the lowest recall across open units, in a type that fits the unit's stage (round 1 to 2 Pick the meaning, 3 to 4 build English to French, 5 typed). Earns points; moves no score or round.",
+    "notes": "Phase 2c"
+  },
+  {
+    "rule_id": "R25",
+    "topic": "I can checks",
+    "rule": "A statement ticks only after a check: three of the unit's sentences in its skill (listening Pick what you heard, reading Pick the meaning, writing typed translation, speaking Speak from memory), all graded ones right. Opens once the unit has finished round 1.",
+    "notes": "Phase 2c; learning-methods 17"
+  },
+  {
+    "rule_id": "R26",
+    "topic": "Placement",
+    "rule": "Three questions per unit in tree order. A unit with 2 of 3 right counts round 1 as done, up to the first unit that falls short. Never lowers progress. Misses stay out of the review bank.",
+    "notes": "Phase 2c"
+  },
+  {
+    "rule_id": "R27",
+    "topic": "Streak and weekly goal",
+    "rule": "A day counts when any session is finished. The streak shows from 2 days; the weekly goal counts days since Monday. Both hide with Points and streaks off. No reminders and no message after a missed day.",
+    "notes": "Phase 2c"
+  }
+]

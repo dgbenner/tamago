@@ -1,0 +1,240 @@
+{
+ "_about": "Pull review for the Italian course: Tatoeba sentences turned down (reject, by Tatoeba id, with the reason) and English picks (english) per circle.",
+ "U01": {
+  "reject": {
+   "612664": "English doesn't match the Italian",
+   "1527564": "a two-line dialogue in quotes",
+   "4726763": "repeats a word (no, no, no): not for listening",
+   "4726765": "repeats a word (no, no e no): not for listening",
+   "6573628": "sono as they are, before plurals are taught",
+   "9712006": "trails off",
+   "13355285": "odd on its own"
+  }
+ },
+ "U31": {
+  "reject": {
+   "1313630": "a polite command that reads as you don't speak",
+   "2847054": "a polite command that reads as you don't speak",
+   "4952128": "odd on its own",
+   "5610802": "piano as softly, the circle teaches slowly",
+   "5610804": "piano as softly, the circle teaches slowly",
+   "5767432": "odd on its own",
+   "8785231": "rude on its own"
+  },
+  "english": {
+   "991857": "I understand."
+  }
+ },
+ "U02": {
+  "reject": {
+   "1098079": "odd (The man is a woman)",
+   "2435200": "lei as polite you, before Lei is taught",
+   "2435201": "lei as polite you, before Lei is taught",
+   "2565033": "lei as polite you, before Lei is taught",
+   "3179929": "odd structure this early",
+   "3378546": "lei as polite you, before Lei is taught",
+   "3589522": "lei as polite you, before Lei is taught",
+   "3628969": "English doesn't match",
+   "4415746": "odd on its own",
+   "5060684": "lei as polite you, before Lei is taught",
+   "5292942": "lei as polite you, before Lei is taught",
+   "5326818": "lei as polite you, before Lei is taught",
+   "6573647": "sono as they are, before plurals",
+   "9712007": "trails off",
+   "10678991": "odd (Is this you?)",
+   "10678992": "odd (Is this you?)",
+   "13014044": "polite you, before Lei is taught",
+   "13300964": "lei as polite you, before Lei is taught"
+  },
+  "english": {
+   "1260026": "Is that her?"
+  }
+ },
+ "U03": {
+  "reject": {
+   "382155": "a two-line dialogue in quotes",
+   "1805227": "ambiguous (I or they)",
+   "3144973": "ambiguous (he or it)",
+   "3638400": "a two-line dialogue in quotes",
+   "3638401": "a two-line dialogue in quotes",
+   "10000024": "scusa as excuse, the circle teaches sorry"
+  }
+ },
+ "U04": {
+  "reject": {
+   "1311084": "commands, not taught",
+   "2244227": "odd (Eat me)",
+   "10146518": "a command, not taught",
+   "10146520": "polite command that reads as you eat",
+   "11082292": "a command, not taught",
+   "11082294": "polite command that reads as you eat",
+   "11084381": "a command, not taught",
+   "11710084": "a two-line dialogue in quotes",
+   "14020649": "a command, not taught",
+   "14020650": "polite command that reads as you eat"
+  },
+  "english": {
+   "1168723": "Does he drink coffee?"
+  }
+ },
+ "U05": {
+  "english": {
+   "1195299": "Do you have a dog?",
+   "8476758": "He has a horse."
+  },
+  "reject": {
+   "3759627": "an insult in English (He's an animal)",
+   "3759628": "an insult in English",
+   "5021770": "idiom (eats like a bird)",
+   "6277082": "an insult",
+   "11322329": "ragazza as girlfriend; the English says girl",
+   "11322331": "ragazza as girlfriend; the English says girl",
+   "11722503": "odd on its own",
+   "12478882": "odd on its own",
+   "13289354": "odd (I'm a bird)",
+   "14023595": "odd (I'm a bird)",
+   "14023596": "odd (I'm a bird)"
+  }
+ },
+ "U32": {
+  "reject": {
+   "715735": "italiano as a nationality; the circle teaches the language",
+   "2230674": "subjunctive, far past this level",
+   "2703683": "means speaking in Italian right now; the English says can you",
+   "2703685": "means speaking in Italian right now; the English says can you",
+   "7679707": "si as oneself in a command",
+   "11454573": "si as oneself in a command, not the circle's si dice",
+   "13250122": "inglese as a nationality; the circle teaches the language"
+  },
+  "english": {
+   "1603375": "What does he say?",
+   "1603377": "What does he say?",
+   "3795506": "What does he say?"
+  }
+ },
+ "U06": {
+  "reject": {
+   "703835": "idiom (Boys will be boys)",
+   "2975609": "idiom (We've got this)",
+   "11741189": "loro as theirs, not taught"
+  }
+ },
+ "U07": {
+  "reject": {
+   "5723432": "odd (I'm not very good)",
+   "7891611": "odd (I'm very good)",
+   "7891612": "odd (I'm very good)"
+  }
+ },
+ "U52": {
+  "reject": {
+   "2552647": "polite Lei where the English says you; ambiguous with she",
+   "5283179": "infinitive as a command, not taught",
+   "5709713": "gioco as I play; the circle teaches the game",
+   "5709714": "gioco as I play; the circle teaches the game",
+   "11781101": "infinitive as a command, not taught",
+   "11934108": "infinitive as a command, not taught",
+   "13317399": "odd (Hello, music!)"
+  },
+  "english": {
+   "1283045": "She sings well.",
+   "4586699": "She reads."
+  }
+ },
+ "U08": {
+  "reject": {
+   "610137": "bagno as bath; the circle teaches bathroom",
+   "3594132": "odd on its own"
+  }
+ },
+ "U33": {
+  "reject": {
+   "4233104": "sta per as about to, not taught",
+   "4754464": "a saying (cherchez la femme)",
+   "5837446": "off topic",
+   "5837447": "off topic",
+   "13279898": "cerca read as you look for",
+   "13279899": "polite Lei where the English says you look for",
+   "13431958": "odd on its own"
+  }
+ },
+ "U10": {
+  "reject": {
+   "2749293": "polite Lei with my friend reads oddly",
+   "2749296": "polite Lei with my friend reads oddly",
+   "3264267": "ambiguous: the Italian also means is she his mother",
+   "12045919": "odd (You're mine)",
+   "12045920": "odd (You're mine)"
+  }
+ },
+ "U11": {
+  "reject": {
+   "1833333": "second of the same long line",
+   "1833334": "third of the same long line",
+   "2357277": "odd (Which one is you?)",
+   "2524301": "chi è che, a structure not taught",
+   "4272393": "chi è che, a structure not taught",
+   "9008576": "third of the same pattern",
+   "9729725": "odd topic"
+  }
+ },
+ "U53": {
+  "reject": {
+   "1238994": "stai as stay, taught as how you are",
+   "13504781": "odd (I have a bus)"
+  }
+ },
+ "U12": {
+  "reject": {
+   "1149000": "a calque of the English",
+   "10333469": "a calque of the English"
+  }
+ },
+ "U13": {
+  "reject": {
+   "8672441": "reads as a remark about race",
+   "13211444": "reads as a remark about race",
+   "13211448": "reads as a remark about race",
+   "13211449": "reads as a remark about race"
+  }
+ },
+ "U14": {
+  "reject": {
+   "2412043": "c'è as will you be there",
+   "2412044": "c'è as will you be there",
+   "2742571": "fourth of the same line",
+   "2742576": "fourth of the same line",
+   "3050212": "odd word order",
+   "5508610": "polite Lei where the English says you; reads as where is he",
+   "6741506": "a two-line dialogue in quotes",
+   "11605665": "idiom (Is today the day?)"
+  }
+ },
+ "U15": {
+  "reject": {
+   "633785": "English doesn't match (have school)"
+  },
+  "english": {
+   "3646301": "How does he go to school?"
+  }
+ },
+ "U51": {
+  "reject": {
+   "709906": "a fixed phrase (alto as up)",
+   "1883229": "idiom",
+   "1883230": "idiom",
+   "1883231": "idiom",
+   "5387765": "English idiom (a big mouth)",
+   "5387768": "English doesn't match (lei, he)",
+   "6122464": "English idiom (a big mouth)",
+   "6697157": "rude on its own",
+   "6918715": "idiom",
+   "9723474": "rude on its own",
+   "9723475": "rude on its own",
+   "13383737": "odd on its own"
+  },
+  "english": {
+   "1158661": "She has long hair."
+  }
+ }
+}

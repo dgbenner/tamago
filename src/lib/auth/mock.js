@@ -27,7 +27,7 @@ const clean = (email) => String(email ?? '').trim().toLowerCase()
 const publicUser = (u) => u && ({ id: u.id, email: u.email, screen_name: u.screen_name, role: u.role, disabled: u.disabled, created_at: u.created_at, last_active_at: u.last_active_at })
 
 const SAMPLE = ['Mika', 'Jonas', 'Priya', 'Lucía', 'Tom', 'Aiko', 'Noah', 'Sofia']
-const COURSES = ['fr', 'es', 'de']
+const COURSES = ['fr', 'es', 'de', 'it']
 
 export function createMockAuth({ store = idbStore(), session = sessionSlot() } = {}) {
   const listeners = new Set()

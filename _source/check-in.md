@@ -1,8 +1,10 @@
 # Tamago check-in
 
-Updated November 14, 2026. **New: French Parts 3 and 4 are built; FLELex core coverage is 435 of 600 (73%, was 40%). Capitals and accents now get a note in the answer bar. Fable reviews the Part 3 and Part 4 candidates and drafts together; nothing is swapped.**
+Updated November 14, 2026. **New: Italian is merged and wired in, visible only while Developer is on; its audits are clean. Earlier today: French Parts 3 and 4 are built; FLELex core coverage is 435 of 600 (73%, was 40%). Capitals and accents now get a note in the answer bar. Fable reviews the Part 3 and Part 4 candidates and drafts together; nothing is swapped.**
 
 ## Done since last check-in
+
+- **Italian, Developer only:** Builder 2's branch merged into main and wired into every per-course list. With Developer off it shows as Coming Soon. Audits on Italian Part 1: word audit 0 and 0 (665 lessons), every-lesson check 0 (6,650 questions), browser pass 0 flags.
 
 - **Capitals and accents:** a missing capital or accent counts as right by default, and the answer bar shows a short note with the letter in bold ("Don't forget the capital: **D**an", "Watch the accent: caf**é**"). In Strict both count as wrong. Answers built from word chips can't miss a capital, since chips are shown in lower case.
 - **French Part 3, Time and Plans:** 17 circles, Brush-Up C05 and C06, and 32 task items.
@@ -19,6 +21,9 @@ Updated November 14, 2026. **New: French Parts 3 and 4 are built; FLELex core co
 - **Audits:** both clean on Parts 3 and 4. The Part 3 browser pass found 13 Read and Answer texts that repeated a choice between their two questions; they're fixed, down to 0.
 
 ## Waiting for Dan
+
+- **Italian approval:** once approved, drop `devOnly` in src/lib/course.js.
+- **Italian final check:** CELI Impatto (A1), Università per Stranieri di Perugia, link https://www.cvcl.it; confirm the exam and the sample-paper link.
 
 - **Fable's review of Parts 3 and 4 together:**
   - Part 3: _review/french-part3-candidates.md (639 candidates for 144 drafts) and _review/french-part3-drafts.md.
