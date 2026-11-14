@@ -267,7 +267,9 @@ export function segmentFrench(c, s) {
 export const recordingOf = (s) => s?.native_recording?.audio_file ?? s?.lingua_libre?.audio_file ?? null
 // A word's own recording (Lingua Libre, content sweep part 3), else a one-word sentence's recording, else none (TTS).
 export const wordRecordingOf = (c, w) => w?.lingua_libre?.audio_file ?? recordingOf(c.sentences.find((s) => recordingOf(s) && normalize(s.french, 'fr') === normalize(w.form, 'fr'))) ?? null
-const audioOf = (s) => ({ sentence_id: s.sentence_id, french: s.french, file: recordingOf(s) })
+// A recording carries its speaker (native checker or Lingua Libre username), for the speaker's picture (voice-gender.js).
+const speakerOf = (s) => (s?.native_recording?.audio_file ? s.native_recording.speaker : s?.lingua_libre?.audio_file ? s.lingua_libre.speaker : null) ?? null
+const audioOf = (s) => ({ sentence_id: s.sentence_id, french: s.french, file: recordingOf(s), speaker: speakerOf(s) })
 const answersFor = (c, s, direction) => c.accepted_answers.filter((a) => a.sentence_id === s.sentence_id && a.direction === direction).map((a) => a.answer)
 const chipCase = (row) => (row.notes === 'name' ? row.surface : String(row.surface).toLowerCase())
 

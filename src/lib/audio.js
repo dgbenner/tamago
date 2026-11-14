@@ -188,6 +188,9 @@ function frenchVoice() {
   return null
 }
 
+// The name of the device voice the course speaks with, or null (the Voice Lab and the speaker's picture use it).
+export const courseVoiceName = () => frenchVoice()?.name ?? null
+
 // False only when the device lists its voices and none is French. An empty list just means "not loaded yet".
 export function hasFrenchVoice() {
   if (!('speechSynthesis' in window)) return false

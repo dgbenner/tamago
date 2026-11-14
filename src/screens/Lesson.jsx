@@ -5,7 +5,8 @@ import { DRAG_START, applyDrop, dropIndex, markerAt } from '../lib/chipdrag.js'
 import { checkTyped, diffMarks } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
-import { audioKey, filesIn, play, preload, stop } from '../lib/audio.js'
+import { audioKey, courseVoiceName, filesIn, play, preload, stop } from '../lib/audio.js'
+import { genderOf, speakerKey, voiceKey } from '../lib/voice-gender.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconMic, IconSpeaker, IconWhy } from './icons.jsx'
 import { questionLabel } from '../lib/question-names.js'
 import AudioHelp from './AudioHelp.jsx'
@@ -259,8 +260,15 @@ function FirstSight({ q, newWords, except = null }) {
 // adults from the lesson pictures (homme, femme; Dan, 2026-11-14), the same one for a question every time. Both the
 // picture and the bubble are ringed in the accent, so the speaker reads at a glance. The character's place, for when
 // the animal characters exist, is this SPEAKERS list.
-const SPEAKERS = ['/images/pictures/femme.webp', '/images/pictures/homme.webp']
-export const speakerFor = (q) => SPEAKERS[[...String(q?.sentence_id ?? q?.qid ?? '')].reduce((n, ch) => n + ch.charCodeAt(0), 0) % SPEAKERS.length]
+// The picture follows the voice (Dan, 2026-11-14): a recording's speaker, else the device voice, as tagged in the Voice
+// Lab (voice-gender.js). Untagged sources fall back to one of the two, the same one per question.
+const SPEAKERS = { female: '/images/pictures/femme.webp', male: '/images/pictures/homme.webp' }
+export const speakerFor = (q, voiceName = courseVoiceName()) => {
+  const gender = genderOf(q?.audio?.file ? speakerKey(q.audio.speaker) : voiceName ? voiceKey(voiceName) : null)
+  if (gender) return SPEAKERS[gender]
+  const n = [...String(q?.sentence_id ?? q?.qid ?? '')].reduce((t, ch) => t + ch.charCodeAt(0), 0)
+  return n % 2 ? SPEAKERS.male : SPEAKERS.female
+}
 export function SpeakerBubble({ children, speaker = null }) {
   return (
     <div data-speaker-bubble className="speaker-row flex items-end gap-3 pr-8">
