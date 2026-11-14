@@ -1,0 +1,1226 @@
+{
+  "unit_id": "U91",
+  "pulled_at": "2026-11-14",
+  "candidates": 123,
+  "sentences": [
+    {
+      "sentence_id": "S14901",
+      "unit_id": "U91",
+      "french": "De quelle couleur est ta robe ?",
+      "english": "What color is your dress?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5964198",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14903",
+      "unit_id": "U91",
+      "french": "De quelle couleur est votre pantalon ?",
+      "english": "What color are your pants?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9027449",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Equilingual",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14904",
+      "unit_id": "U91",
+      "french": "C'est une jolie robe.",
+      "english": "That's a pretty dress.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3599203",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "That's a nice dress."
+      ]
+    },
+    {
+      "sentence_id": "S14905",
+      "unit_id": "U91",
+      "french": "J'aime porter de vieux vêtements.",
+      "english": "I like wearing old clothes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2383897",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14908",
+      "unit_id": "U91",
+      "french": "Où sont les chaussures ?",
+      "english": "Where are the shoes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "335969",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "trotter",
+      "other_english": [
+        "Where're the shoes?"
+      ]
+    },
+    {
+      "sentence_id": "S14909",
+      "unit_id": "U91",
+      "french": "Où sont mes vêtements ?",
+      "english": "Where are my clothes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1997395",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14910",
+      "unit_id": "U91",
+      "french": "Où sont mes chaussures ?",
+      "english": "Where are my shoes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707284",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "chtof",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14911",
+      "unit_id": "U91",
+      "french": "Où est ma chemise ?",
+      "english": "Where's my shirt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3628079",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fleur74",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14912",
+      "unit_id": "U91",
+      "french": "Où est ta chemise ?",
+      "english": "Where's your shirt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3692482",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elliv",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14913",
+      "unit_id": "U91",
+      "french": "Où est ton manteau ?",
+      "english": "Where's your coat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4199383",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "olivier",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14914",
+      "unit_id": "U91",
+      "french": "Combien coûte la chemise ?",
+      "english": "How much does the shirt cost?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4435714",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14915",
+      "unit_id": "U91",
+      "french": "Où est votre chapeau ?",
+      "english": "Where's your hat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5998801",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14916",
+      "unit_id": "U91",
+      "french": "Où est mon pantalon ?",
+      "english": "Where are my pants?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6823093",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": [
+        "Where are my trousers?"
+      ]
+    },
+    {
+      "sentence_id": "S14917",
+      "unit_id": "U91",
+      "french": "Il est joli, non ?",
+      "english": "It's pretty, isn't it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8951756",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14918",
+      "unit_id": "U91",
+      "french": "Elle est jolie, non ?",
+      "english": "She's pretty, isn't she?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8952537",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": [
+        "She's cute, isn't she?"
+      ]
+    },
+    {
+      "sentence_id": "S14919",
+      "unit_id": "U91",
+      "french": "Est-ce que tu aimes mes chaussures ?",
+      "english": "Do you like my shoes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8010303",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14920",
+      "unit_id": "U91",
+      "french": "Est-ce que tu vas vraiment porter ça ?",
+      "english": "Are you really going to wear that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11603905",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14921",
+      "unit_id": "U91",
+      "french": "Qui est la femme au chapeau rouge ?",
+      "english": "Who's the woman with the red hat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3245303",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14923",
+      "unit_id": "U91",
+      "french": "C'est joli.",
+      "english": "That's pretty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "837673",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "That's nice.",
+        "This is pretty."
+      ]
+    },
+    {
+      "sentence_id": "S14924",
+      "unit_id": "U91",
+      "french": "C'est mon manteau.",
+      "english": "That's my coat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "470435",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14926",
+      "unit_id": "U91",
+      "french": "Mets des vêtements !",
+      "english": "Put some clothes on.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2226542",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14927",
+      "unit_id": "U91",
+      "french": "Prends ton manteau.",
+      "english": "Get your coat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4199373",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "olivier",
+      "other_english": [
+        "Take your coat."
+      ]
+    },
+    {
+      "sentence_id": "S14930",
+      "unit_id": "U91",
+      "french": "Où est ma chemise blanche ?",
+      "english": "Where's my white shirt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8572733",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S14901",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14901",
+      "position": 2,
+      "surface": "quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14901",
+      "position": 3,
+      "surface": "couleur",
+      "word_id": "W1810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14901",
+      "position": 4,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14901",
+      "position": 5,
+      "surface": "ta",
+      "word_id": "W425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14901",
+      "position": 6,
+      "surface": "robe",
+      "word_id": "W1804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14903",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14903",
+      "position": 2,
+      "surface": "quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14903",
+      "position": 3,
+      "surface": "couleur",
+      "word_id": "W1810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14903",
+      "position": 4,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14903",
+      "position": 5,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14903",
+      "position": 6,
+      "surface": "pantalon",
+      "word_id": "W1805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14904",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14904",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14904",
+      "position": 3,
+      "surface": "jolie",
+      "word_id": "W1812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14904",
+      "position": 4,
+      "surface": "robe",
+      "word_id": "W1804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14905",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14905",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14905",
+      "position": 3,
+      "surface": "porter",
+      "word_id": "W1803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14905",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14905",
+      "position": 5,
+      "surface": "vieux",
+      "word_id": "W416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14905",
+      "position": 6,
+      "surface": "vêtements",
+      "word_id": "W1802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14908",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14908",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14908",
+      "position": 3,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14908",
+      "position": 4,
+      "surface": "chaussures",
+      "word_id": "W1807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14909",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14909",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14909",
+      "position": 3,
+      "surface": "mes",
+      "word_id": "W423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14909",
+      "position": 4,
+      "surface": "vêtements",
+      "word_id": "W1802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14910",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14910",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14910",
+      "position": 3,
+      "surface": "mes",
+      "word_id": "W423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14910",
+      "position": 4,
+      "surface": "chaussures",
+      "word_id": "W1807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14911",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14911",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14911",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14911",
+      "position": 4,
+      "surface": "chemise",
+      "word_id": "W1806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14912",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14912",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14912",
+      "position": 3,
+      "surface": "ta",
+      "word_id": "W425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14912",
+      "position": 4,
+      "surface": "chemise",
+      "word_id": "W1806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14913",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14913",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14913",
+      "position": 3,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14913",
+      "position": 4,
+      "surface": "manteau",
+      "word_id": "W1809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14914",
+      "position": 1,
+      "surface": "Combien",
+      "word_id": "W449",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14914",
+      "position": 2,
+      "surface": "coûte",
+      "word_id": "W890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14914",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14914",
+      "position": 4,
+      "surface": "chemise",
+      "word_id": "W1806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14915",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14915",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14915",
+      "position": 3,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14915",
+      "position": 4,
+      "surface": "chapeau",
+      "word_id": "W1808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14916",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14916",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14916",
+      "position": 3,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14916",
+      "position": 4,
+      "surface": "pantalon",
+      "word_id": "W1805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14917",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14917",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14917",
+      "position": 3,
+      "surface": "joli",
+      "word_id": "W1811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14917",
+      "position": 4,
+      "surface": "non",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14918",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14918",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14918",
+      "position": 3,
+      "surface": "jolie",
+      "word_id": "W1812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14918",
+      "position": 4,
+      "surface": "non",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14919",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14919",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14919",
+      "position": 3,
+      "surface": "aimes",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14919",
+      "position": 4,
+      "surface": "mes",
+      "word_id": "W423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14919",
+      "position": 5,
+      "surface": "chaussures",
+      "word_id": "W1807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14920",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14920",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14920",
+      "position": 3,
+      "surface": "vas",
+      "word_id": "W479",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14920",
+      "position": 4,
+      "surface": "vraiment",
+      "word_id": "W1412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14920",
+      "position": 5,
+      "surface": "porter",
+      "word_id": "W1803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14920",
+      "position": 6,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14921",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14921",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14921",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14921",
+      "position": 4,
+      "surface": "femme",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14921",
+      "position": 5,
+      "surface": "au",
+      "word_id": "W476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14921",
+      "position": 6,
+      "surface": "chapeau",
+      "word_id": "W1808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14921",
+      "position": 7,
+      "surface": "rouge",
+      "word_id": "W450",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14923",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14923",
+      "position": 2,
+      "surface": "joli",
+      "word_id": "W1811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14924",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14924",
+      "position": 2,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14924",
+      "position": 3,
+      "surface": "manteau",
+      "word_id": "W1809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14926",
+      "position": 1,
+      "surface": "Mets",
+      "word_id": "W1428",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14926",
+      "position": 2,
+      "surface": "des",
+      "word_id": "W401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14926",
+      "position": 3,
+      "surface": "vêtements",
+      "word_id": "W1802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14927",
+      "position": 1,
+      "surface": "Prends",
+      "word_id": "W1433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14927",
+      "position": 2,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14927",
+      "position": 3,
+      "surface": "manteau",
+      "word_id": "W1809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14930",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14930",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14930",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14930",
+      "position": 4,
+      "surface": "chemise",
+      "word_id": "W1806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14930",
+      "position": 5,
+      "surface": "blanche",
+      "word_id": "W458",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A149041",
+      "sentence_id": "S14904",
+      "direction": "fr_to_en",
+      "answer": "That's a nice dress.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A149081",
+      "sentence_id": "S14908",
+      "direction": "fr_to_en",
+      "answer": "Where're the shoes?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A149161",
+      "sentence_id": "S14916",
+      "direction": "fr_to_en",
+      "answer": "Where are my trousers?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A149181",
+      "sentence_id": "S14918",
+      "direction": "fr_to_en",
+      "answer": "She's cute, isn't she?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A149231",
+      "sentence_id": "S14923",
+      "direction": "fr_to_en",
+      "answer": "That's nice.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A149232",
+      "sentence_id": "S14923",
+      "direction": "fr_to_en",
+      "answer": "This is pretty.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A149271",
+      "sentence_id": "S14927",
+      "direction": "fr_to_en",
+      "answer": "Take your coat.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

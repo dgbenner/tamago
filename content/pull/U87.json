@@ -1,0 +1,985 @@
+{
+  "unit_id": "U87",
+  "pulled_at": "2026-11-14",
+  "candidates": 136,
+  "sentences": [
+    {
+      "sentence_id": "S14302",
+      "unit_id": "U87",
+      "french": "Je peux entrer ?",
+      "english": "Can I come in?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "431328",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": [
+        "May I come in?"
+      ]
+    },
+    {
+      "sentence_id": "S14306",
+      "unit_id": "U87",
+      "french": "Je peux entrer maintenant ?",
+      "english": "Can I come in now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4526928",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pfpillon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14307",
+      "unit_id": "U87",
+      "french": "Tu ne reviens pas ?",
+      "english": "Are you not coming back?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11911546",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zogwarg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14308",
+      "unit_id": "U87",
+      "french": "D'où est-ce que tu reviens ?",
+      "english": "Where did you come back from?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1083315",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14309",
+      "unit_id": "U87",
+      "french": "Est-ce que vous pouvez continuer de marcher ?",
+      "english": "Are you able to keep walking?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8613081",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14310",
+      "unit_id": "U87",
+      "french": "Tu vas revenir ici la semaine prochaine ?",
+      "english": "Will you come back here again next week?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11670082",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Adrien_FR",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14311",
+      "unit_id": "U87",
+      "french": "Je reviens.",
+      "english": "I'll be back.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "127968",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I'll come back."
+      ]
+    },
+    {
+      "sentence_id": "S14312",
+      "unit_id": "U87",
+      "french": "Va marcher !",
+      "english": "Take a walk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4625996",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14313",
+      "unit_id": "U87",
+      "french": "Je rentre.",
+      "english": "I'm coming in.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8325664",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": [
+        "I'm on my way home."
+      ]
+    },
+    {
+      "sentence_id": "S14314",
+      "unit_id": "U87",
+      "french": "Tu peux entrer.",
+      "english": "You can come in.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "425484",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": [
+        "You can come in here."
+      ]
+    },
+    {
+      "sentence_id": "S14315",
+      "unit_id": "U87",
+      "french": "Tu peux rentrer.",
+      "english": "You can go back.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5291382",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14316",
+      "unit_id": "U87",
+      "french": "Rentre chez toi.",
+      "english": "Go home.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7166299",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "Go back home.",
+        "Go home!",
+        "Go back home!"
+      ]
+    },
+    {
+      "sentence_id": "S14317",
+      "unit_id": "U87",
+      "french": "Rentre dans la voiture.",
+      "english": "Get into the car.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "128267",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sbgodin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14319",
+      "unit_id": "U87",
+      "french": "Le taxi est là.",
+      "english": "The taxi is here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4578535",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "The taxi's here."
+      ]
+    },
+    {
+      "sentence_id": "S14320",
+      "unit_id": "U87",
+      "french": "Tu peux y retourner.",
+      "english": "You can go back.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5291383",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14322",
+      "unit_id": "U87",
+      "french": "Je vais revenir demain.",
+      "english": "I'm going to come back tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9065946",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14326",
+      "unit_id": "U87",
+      "french": "Je préfère vous appeler un taxi.",
+      "english": "I prefer to call you a taxi.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6030766",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sicerabibax",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14327",
+      "unit_id": "U87",
+      "french": "Je prends un taxi et j'arrive.",
+      "english": "I'll grab a taxi and be right there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9761510",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14330",
+      "unit_id": "U87",
+      "french": "Reviens demain.",
+      "english": "Come back tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1410533",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "Come again tomorrow."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S14302",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14302",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14302",
+      "position": 3,
+      "surface": "entrer",
+      "word_id": "W1659",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14306",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14306",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14306",
+      "position": 3,
+      "surface": "entrer",
+      "word_id": "W1659",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14306",
+      "position": 4,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14307",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14307",
+      "position": 2,
+      "surface": "ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14307",
+      "position": 3,
+      "surface": "reviens",
+      "word_id": "W1661",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14307",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14308",
+      "position": 1,
+      "surface": "D'",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14308",
+      "position": 2,
+      "surface": "où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14308",
+      "position": 3,
+      "surface": "est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14308",
+      "position": 4,
+      "surface": "tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14308",
+      "position": 5,
+      "surface": "reviens",
+      "word_id": "W1661",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14309",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14309",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14309",
+      "position": 3,
+      "surface": "pouvez",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14309",
+      "position": 4,
+      "surface": "continuer",
+      "word_id": "W1639",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14309",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14309",
+      "position": 6,
+      "surface": "marcher",
+      "word_id": "W1655",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14310",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14310",
+      "position": 2,
+      "surface": "vas",
+      "word_id": "W479",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14310",
+      "position": 3,
+      "surface": "revenir",
+      "word_id": "W1660",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14310",
+      "position": 4,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14310",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14310",
+      "position": 6,
+      "surface": "semaine",
+      "word_id": "W466",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14310",
+      "position": 7,
+      "surface": "prochaine",
+      "word_id": "W1224",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14311",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14311",
+      "position": 2,
+      "surface": "reviens",
+      "word_id": "W1661",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14312",
+      "position": 1,
+      "surface": "Va",
+      "word_id": "W480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14312",
+      "position": 2,
+      "surface": "marcher",
+      "word_id": "W1655",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14313",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14313",
+      "position": 2,
+      "surface": "rentre",
+      "word_id": "W1658",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14314",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14314",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14314",
+      "position": 3,
+      "surface": "entrer",
+      "word_id": "W1659",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14315",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14315",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14315",
+      "position": 3,
+      "surface": "rentrer",
+      "word_id": "W1657",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14316",
+      "position": 1,
+      "surface": "Rentre",
+      "word_id": "W1658",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14316",
+      "position": 2,
+      "surface": "chez",
+      "word_id": "W1648",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14316",
+      "position": 3,
+      "surface": "toi",
+      "word_id": "W1416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14317",
+      "position": 1,
+      "surface": "Rentre",
+      "word_id": "W1658",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14317",
+      "position": 2,
+      "surface": "dans",
+      "word_id": "W477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14317",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14317",
+      "position": 4,
+      "surface": "voiture",
+      "word_id": "W1010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14319",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14319",
+      "position": 2,
+      "surface": "taxi",
+      "word_id": "W1663",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14319",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14319",
+      "position": 4,
+      "surface": "là",
+      "word_id": "W1628",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14320",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14320",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14320",
+      "position": 3,
+      "surface": "y",
+      "word_id": "W1403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14320",
+      "position": 4,
+      "surface": "retourner",
+      "word_id": "W1662",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14322",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14322",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14322",
+      "position": 3,
+      "surface": "revenir",
+      "word_id": "W1660",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14322",
+      "position": 4,
+      "surface": "demain",
+      "word_id": "W461",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14326",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14326",
+      "position": 2,
+      "surface": "préfère",
+      "word_id": "W1440",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14326",
+      "position": 3,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14326",
+      "position": 4,
+      "surface": "appeler",
+      "word_id": "W818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14326",
+      "position": 5,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14326",
+      "position": 6,
+      "surface": "taxi",
+      "word_id": "W1663",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14327",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14327",
+      "position": 2,
+      "surface": "prends",
+      "word_id": "W1433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14327",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14327",
+      "position": 4,
+      "surface": "taxi",
+      "word_id": "W1663",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14327",
+      "position": 5,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14327",
+      "position": 6,
+      "surface": "j'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14327",
+      "position": 7,
+      "surface": "arrive",
+      "word_id": "W1285",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14330",
+      "position": 1,
+      "surface": "Reviens",
+      "word_id": "W1661",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14330",
+      "position": 2,
+      "surface": "demain",
+      "word_id": "W461",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A143021",
+      "sentence_id": "S14302",
+      "direction": "fr_to_en",
+      "answer": "May I come in?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A143111",
+      "sentence_id": "S14311",
+      "direction": "fr_to_en",
+      "answer": "I'll come back.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A143131",
+      "sentence_id": "S14313",
+      "direction": "fr_to_en",
+      "answer": "I'm on my way home.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A143141",
+      "sentence_id": "S14314",
+      "direction": "fr_to_en",
+      "answer": "You can come in here.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A143161",
+      "sentence_id": "S14316",
+      "direction": "fr_to_en",
+      "answer": "Go back home.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A143162",
+      "sentence_id": "S14316",
+      "direction": "fr_to_en",
+      "answer": "Go home!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A143163",
+      "sentence_id": "S14316",
+      "direction": "fr_to_en",
+      "answer": "Go back home!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A143191",
+      "sentence_id": "S14319",
+      "direction": "fr_to_en",
+      "answer": "The taxi's here.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A143301",
+      "sentence_id": "S14330",
+      "direction": "fr_to_en",
+      "answer": "Come again tomorrow.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

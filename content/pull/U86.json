@@ -1,0 +1,1171 @@
+{
+  "unit_id": "U86",
+  "pulled_at": "2026-11-14",
+  "candidates": 22,
+  "sentences": [
+    {
+      "sentence_id": "S14201",
+      "unit_id": "U86",
+      "french": "Où est la pharmacie ?",
+      "english": "Where's the pharmacy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4099413",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GB3",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14202",
+      "unit_id": "U86",
+      "french": "Est-ce que la banque est ouverte ?",
+      "english": "Is the bank open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "572284",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14203",
+      "unit_id": "U86",
+      "french": "Excusez-moi. C'est ça la pharmacie ?",
+      "english": "Excuse me. Is that the pharmacy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "587569",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14204",
+      "unit_id": "U86",
+      "french": "La banque est aussi là, non ?",
+      "english": "The bank is there too, isn't it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "530187",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14205",
+      "unit_id": "U86",
+      "french": "À quelle heure ferme la boulangerie ?",
+      "english": "What time does the baker's close?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1004877",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "U2FS",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14206",
+      "unit_id": "U86",
+      "french": "La poste ferme à quelle heure ?",
+      "english": "What time does the post office close?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8630034",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14207",
+      "unit_id": "U86",
+      "french": "Quel grand supermarché !",
+      "english": "What a big supermarket!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "658826",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "U2FS",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14208",
+      "unit_id": "U86",
+      "french": "La banque ferme.",
+      "english": "The bank is closing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11941868",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14209",
+      "unit_id": "U86",
+      "french": "Le supermarché est ouvert.",
+      "english": "The supermarket is open.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "606515",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14210",
+      "unit_id": "U86",
+      "french": "Je vais au supermarché.",
+      "english": "I'm going to the supermarket.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5986332",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "christian63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14211",
+      "unit_id": "U86",
+      "french": "La boulangerie est fermée.",
+      "english": "The bakery is closed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6379890",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14212",
+      "unit_id": "U86",
+      "french": "La poste est fermée.",
+      "english": "The post office is closed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7790924",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14213",
+      "unit_id": "U86",
+      "french": "Je vais à la poste.",
+      "english": "I'm going to the post office.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8630285",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14214",
+      "unit_id": "U86",
+      "french": "La boulangerie du village a fermé.",
+      "english": "The village bakery has closed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8615424",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Blabla",
+      "other_english": [
+        "The bakery in the village has closed."
+      ]
+    },
+    {
+      "sentence_id": "S14215",
+      "unit_id": "U86",
+      "french": "Marie va au supermarché.",
+      "english": "Mary goes to the supermarket.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6326950",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14216",
+      "unit_id": "U86",
+      "french": "Je vais à la banque.",
+      "english": "I'm going to the bank.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6632",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "TRANG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14217",
+      "unit_id": "U86",
+      "french": "Je suis à la banque.",
+      "english": "I'm at the bank.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5149826",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nbrr",
+      "other_english": [
+        "I am at the bank."
+      ]
+    },
+    {
+      "sentence_id": "S14218",
+      "unit_id": "U86",
+      "french": "Nous sommes à la banque.",
+      "english": "We're at the bank.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6631151",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14219",
+      "unit_id": "U86",
+      "french": "La banque est fermée le dimanche.",
+      "english": "The bank is closed on Sunday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1778378",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14220",
+      "unit_id": "U86",
+      "french": "Ne va pas à la poste.",
+      "english": "Don't go to the post office.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12284166",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MeLearningJapanese",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S14221",
+      "unit_id": "U86",
+      "french": "Tout votre argent est à la banque.",
+      "english": "All your money is in the bank.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6549400",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S14201",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14201",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14201",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14201",
+      "position": 4,
+      "surface": "pharmacie",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14202",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14202",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14202",
+      "position": 3,
+      "surface": "banque",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14202",
+      "position": 4,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14202",
+      "position": 5,
+      "surface": "ouverte",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14203",
+      "position": 1,
+      "surface": "Excusez-moi",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14203",
+      "position": 2,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14203",
+      "position": 3,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14203",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14203",
+      "position": 5,
+      "surface": "pharmacie",
+      "word_id": "W1653",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14204",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14204",
+      "position": 2,
+      "surface": "banque",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14204",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14204",
+      "position": 4,
+      "surface": "aussi",
+      "word_id": "W1060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14204",
+      "position": 5,
+      "surface": "là",
+      "word_id": "W1628",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14204",
+      "position": 6,
+      "surface": "non",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14205",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14205",
+      "position": 2,
+      "surface": "quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14205",
+      "position": 3,
+      "surface": "heure",
+      "word_id": "W467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14205",
+      "position": 4,
+      "surface": "ferme",
+      "word_id": "W1307",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14205",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14205",
+      "position": 6,
+      "surface": "boulangerie",
+      "word_id": "W1652",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14206",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14206",
+      "position": 2,
+      "surface": "poste",
+      "word_id": "W1650",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14206",
+      "position": 3,
+      "surface": "ferme",
+      "word_id": "W1307",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14206",
+      "position": 4,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14206",
+      "position": 5,
+      "surface": "quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14206",
+      "position": 6,
+      "surface": "heure",
+      "word_id": "W467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14207",
+      "position": 1,
+      "surface": "Quel",
+      "word_id": "W436",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14207",
+      "position": 2,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14207",
+      "position": 3,
+      "surface": "supermarché",
+      "word_id": "W1654",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14208",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14208",
+      "position": 2,
+      "surface": "banque",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14208",
+      "position": 3,
+      "surface": "ferme",
+      "word_id": "W1307",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14209",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14209",
+      "position": 2,
+      "surface": "supermarché",
+      "word_id": "W1654",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14209",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14209",
+      "position": 4,
+      "surface": "ouvert",
+      "word_id": "W1276",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14210",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14210",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14210",
+      "position": 3,
+      "surface": "au",
+      "word_id": "W476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14210",
+      "position": 4,
+      "surface": "supermarché",
+      "word_id": "W1654",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14211",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14211",
+      "position": 2,
+      "surface": "boulangerie",
+      "word_id": "W1652",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14211",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14211",
+      "position": 4,
+      "surface": "fermée",
+      "word_id": "W1279",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14212",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14212",
+      "position": 2,
+      "surface": "poste",
+      "word_id": "W1650",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14212",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14212",
+      "position": 4,
+      "surface": "fermée",
+      "word_id": "W1279",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14213",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14213",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14213",
+      "position": 3,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14213",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14213",
+      "position": 5,
+      "surface": "poste",
+      "word_id": "W1650",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14214",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14214",
+      "position": 2,
+      "surface": "boulangerie",
+      "word_id": "W1652",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14214",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14214",
+      "position": 4,
+      "surface": "village",
+      "word_id": "W1012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14214",
+      "position": 5,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14214",
+      "position": 6,
+      "surface": "fermé",
+      "word_id": "W1278",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14215",
+      "position": 1,
+      "surface": "Marie",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14215",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14215",
+      "position": 3,
+      "surface": "au",
+      "word_id": "W476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14215",
+      "position": 4,
+      "surface": "supermarché",
+      "word_id": "W1654",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14216",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14216",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14216",
+      "position": 3,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14216",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14216",
+      "position": 5,
+      "surface": "banque",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14217",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14217",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14217",
+      "position": 3,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14217",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14217",
+      "position": 5,
+      "surface": "banque",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14218",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14218",
+      "position": 2,
+      "surface": "sommes",
+      "word_id": "W403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14218",
+      "position": 3,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14218",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14218",
+      "position": 5,
+      "surface": "banque",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14219",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14219",
+      "position": 2,
+      "surface": "banque",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14219",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14219",
+      "position": 4,
+      "surface": "fermée",
+      "word_id": "W1279",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14219",
+      "position": 5,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14219",
+      "position": 6,
+      "surface": "dimanche",
+      "word_id": "W469",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14220",
+      "position": 1,
+      "surface": "Ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14220",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14220",
+      "position": 3,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14220",
+      "position": 4,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14220",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14220",
+      "position": 6,
+      "surface": "poste",
+      "word_id": "W1650",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14221",
+      "position": 1,
+      "surface": "Tout",
+      "word_id": "W1402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14221",
+      "position": 2,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14221",
+      "position": 3,
+      "surface": "argent",
+      "word_id": "W898",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14221",
+      "position": 4,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14221",
+      "position": 5,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14221",
+      "position": 6,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S14221",
+      "position": 7,
+      "surface": "banque",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A142141",
+      "sentence_id": "S14214",
+      "direction": "fr_to_en",
+      "answer": "The bakery in the village has closed.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A142171",
+      "sentence_id": "S14217",
+      "direction": "fr_to_en",
+      "answer": "I am at the bank.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

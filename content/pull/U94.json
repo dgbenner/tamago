@@ -1,0 +1,1406 @@
+{
+  "unit_id": "U94",
+  "pulled_at": "2026-11-14",
+  "candidates": 43,
+  "sentences": [
+    {
+      "sentence_id": "S15201",
+      "unit_id": "U94",
+      "french": "Il raconte toujours la même histoire.",
+      "english": "He's forever telling the same story.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8996433",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15202",
+      "unit_id": "U94",
+      "french": "Il me raconte toujours la même histoire.",
+      "english": "He always tells me the same story.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9547010",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15203",
+      "unit_id": "U94",
+      "french": "Comment expliquer ça ?",
+      "english": "How do we explain this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3601355",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15204",
+      "unit_id": "U94",
+      "french": "Tu ris de moi ?",
+      "english": "Are you laughing at me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1092070",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15205",
+      "unit_id": "U94",
+      "french": "Quelle est leur histoire ?",
+      "english": "What's their story?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2436672",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15206",
+      "unit_id": "U94",
+      "french": "Vous pouvez expliquer ça ?",
+      "english": "Can you explain that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6462351",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lapinhibou",
+      "other_english": [
+        "Can you explain this?"
+      ]
+    },
+    {
+      "sentence_id": "S15207",
+      "unit_id": "U94",
+      "french": "Comment est-ce que j'explique ça ?",
+      "english": "How do I explain this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3601356",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15208",
+      "unit_id": "U94",
+      "french": "Est-ce que tu peux m'expliquer ça ?",
+      "english": "Can you explain this to me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11603890",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15209",
+      "unit_id": "U94",
+      "french": "Je ris.",
+      "english": "I'm laughing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2153273",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "I am laughing."
+      ]
+    },
+    {
+      "sentence_id": "S15210",
+      "unit_id": "U94",
+      "french": "Ne ris pas.",
+      "english": "Don't laugh.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1776457",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15211",
+      "unit_id": "U94",
+      "french": "Tu vas rire.",
+      "english": "You will laugh.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2275019",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "You're going to laugh."
+      ]
+    },
+    {
+      "sentence_id": "S15212",
+      "unit_id": "U94",
+      "french": "J'aime rire.",
+      "english": "I like to laugh.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2383920",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15213",
+      "unit_id": "U94",
+      "french": "Ça explique tout.",
+      "english": "That explains everything.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4894152",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "This explains everything."
+      ]
+    },
+    {
+      "sentence_id": "S15214",
+      "unit_id": "U94",
+      "french": "J'entends rire.",
+      "english": "I hear laughing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6000334",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "PERCE_NEIGE",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15215",
+      "unit_id": "U94",
+      "french": "J'oublie de lui téléphoner.",
+      "english": "I forget to telephone him.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "495932",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15216",
+      "unit_id": "U94",
+      "french": "Je vous présente Monsieur Petit.",
+      "english": "Meet Mr. Petit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "873775",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15217",
+      "unit_id": "U94",
+      "french": "Si vous voulez, vous pouvez me téléphoner.",
+      "english": "If you want, you can phone me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1585689",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15218",
+      "unit_id": "U94",
+      "french": "Je peux expliquer.",
+      "english": "I can explain.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4679095",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15219",
+      "unit_id": "U94",
+      "french": "S'il vous plaît, continuez votre histoire.",
+      "english": "Please go on with your story.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15220",
+      "unit_id": "U94",
+      "french": "C'est une bonne histoire.",
+      "english": "It's a good story.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3599372",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "That's a good story."
+      ]
+    },
+    {
+      "sentence_id": "S15221",
+      "unit_id": "U94",
+      "french": "C'est une belle histoire.",
+      "english": "It's a beautiful story.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3650004",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "That's a beautiful story.",
+        "That's a nice story."
+      ]
+    },
+    {
+      "sentence_id": "S15224",
+      "unit_id": "U94",
+      "french": "Votre histoire est triste.",
+      "english": "Your story is sad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4850285",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sicerabibax",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15226",
+      "unit_id": "U94",
+      "french": "C'est une triste histoire.",
+      "english": "It's a sad story.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10539034",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15227",
+      "unit_id": "U94",
+      "french": "Je peux tout expliquer.",
+      "english": "I can explain it all.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10767766",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15228",
+      "unit_id": "U94",
+      "french": "J'ai entendu l'histoire.",
+      "english": "I have heard the story.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1317214",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15229",
+      "unit_id": "U94",
+      "french": "Ne ris pas de moi !",
+      "english": "Don't make fun of me!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1331401",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15230",
+      "unit_id": "U94",
+      "french": "J'adore vous voir rire.",
+      "english": "I love to see you laugh.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2186602",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S15201",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15201",
+      "position": 2,
+      "surface": "raconte",
+      "word_id": "W1836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15201",
+      "position": 3,
+      "surface": "toujours",
+      "word_id": "W1407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15201",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15201",
+      "position": 5,
+      "surface": "même",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15201",
+      "position": 6,
+      "surface": "histoire",
+      "word_id": "W1837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15202",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15202",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15202",
+      "position": 3,
+      "surface": "raconte",
+      "word_id": "W1836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15202",
+      "position": 4,
+      "surface": "toujours",
+      "word_id": "W1407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15202",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15202",
+      "position": 6,
+      "surface": "même",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15202",
+      "position": 7,
+      "surface": "histoire",
+      "word_id": "W1837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15203",
+      "position": 1,
+      "surface": "Comment",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15203",
+      "position": 2,
+      "surface": "expliquer",
+      "word_id": "W1838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15203",
+      "position": 3,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15204",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15204",
+      "position": 2,
+      "surface": "ris",
+      "word_id": "W1841",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15204",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15204",
+      "position": 4,
+      "surface": "moi",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15205",
+      "position": 1,
+      "surface": "Quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15205",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15205",
+      "position": 3,
+      "surface": "leur",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15205",
+      "position": 4,
+      "surface": "histoire",
+      "word_id": "W1837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15206",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15206",
+      "position": 2,
+      "surface": "pouvez",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15206",
+      "position": 3,
+      "surface": "expliquer",
+      "word_id": "W1838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15206",
+      "position": 4,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15207",
+      "position": 1,
+      "surface": "Comment",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15207",
+      "position": 2,
+      "surface": "est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15207",
+      "position": 3,
+      "surface": "j'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15207",
+      "position": 4,
+      "surface": "explique",
+      "word_id": "W1839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15207",
+      "position": 5,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15208",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15208",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15208",
+      "position": 3,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15208",
+      "position": 4,
+      "surface": "m'",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15208",
+      "position": 5,
+      "surface": "expliquer",
+      "word_id": "W1838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15208",
+      "position": 6,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15209",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15209",
+      "position": 2,
+      "surface": "ris",
+      "word_id": "W1841",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15210",
+      "position": 1,
+      "surface": "Ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15210",
+      "position": 2,
+      "surface": "ris",
+      "word_id": "W1841",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15210",
+      "position": 3,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15211",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15211",
+      "position": 2,
+      "surface": "vas",
+      "word_id": "W479",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15211",
+      "position": 3,
+      "surface": "rire",
+      "word_id": "W1840",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15212",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15212",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15212",
+      "position": 3,
+      "surface": "rire",
+      "word_id": "W1840",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15213",
+      "position": 1,
+      "surface": "Ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15213",
+      "position": 2,
+      "surface": "explique",
+      "word_id": "W1839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15213",
+      "position": 3,
+      "surface": "tout",
+      "word_id": "W1402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15214",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15214",
+      "position": 2,
+      "surface": "entends",
+      "word_id": "W1211",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15214",
+      "position": 3,
+      "surface": "rire",
+      "word_id": "W1840",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15215",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15215",
+      "position": 2,
+      "surface": "oublie",
+      "word_id": "W1437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15215",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15215",
+      "position": 4,
+      "surface": "lui",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15215",
+      "position": 5,
+      "surface": "téléphoner",
+      "word_id": "W1844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15216",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15216",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15216",
+      "position": 3,
+      "surface": "présente",
+      "word_id": "W1842",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15216",
+      "position": 4,
+      "surface": "Monsieur",
+      "word_id": "W803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15216",
+      "position": 5,
+      "surface": "Petit",
+      "word_id": "W203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15217",
+      "position": 1,
+      "surface": "Si",
+      "word_id": "W1813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15217",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15217",
+      "position": 3,
+      "surface": "voulez",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15217",
+      "position": 4,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15217",
+      "position": 5,
+      "surface": "pouvez",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15217",
+      "position": 6,
+      "surface": "me",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15217",
+      "position": 7,
+      "surface": "téléphoner",
+      "word_id": "W1844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15218",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15218",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15218",
+      "position": 3,
+      "surface": "expliquer",
+      "word_id": "W1838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15219",
+      "position": 1,
+      "surface": "S'il vous plaît",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15219",
+      "position": 2,
+      "surface": "continuez",
+      "word_id": "W1638",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15219",
+      "position": 3,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15219",
+      "position": 4,
+      "surface": "histoire",
+      "word_id": "W1837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15220",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15220",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15220",
+      "position": 3,
+      "surface": "bonne",
+      "word_id": "W412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15220",
+      "position": 4,
+      "surface": "histoire",
+      "word_id": "W1837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15221",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15221",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15221",
+      "position": 3,
+      "surface": "belle",
+      "word_id": "W414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15221",
+      "position": 4,
+      "surface": "histoire",
+      "word_id": "W1837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15224",
+      "position": 1,
+      "surface": "Votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15224",
+      "position": 2,
+      "surface": "histoire",
+      "word_id": "W1837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15224",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15224",
+      "position": 4,
+      "surface": "triste",
+      "word_id": "W1041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15226",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15226",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15226",
+      "position": 3,
+      "surface": "triste",
+      "word_id": "W1041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15226",
+      "position": 4,
+      "surface": "histoire",
+      "word_id": "W1837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15227",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15227",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15227",
+      "position": 3,
+      "surface": "tout",
+      "word_id": "W1402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15227",
+      "position": 4,
+      "surface": "expliquer",
+      "word_id": "W1838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15228",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15228",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15228",
+      "position": 3,
+      "surface": "entendu",
+      "word_id": "W1212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15228",
+      "position": 4,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15228",
+      "position": 5,
+      "surface": "histoire",
+      "word_id": "W1837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15229",
+      "position": 1,
+      "surface": "Ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15229",
+      "position": 2,
+      "surface": "ris",
+      "word_id": "W1841",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15229",
+      "position": 3,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15229",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15229",
+      "position": 5,
+      "surface": "moi",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15230",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15230",
+      "position": 2,
+      "surface": "adore",
+      "word_id": "W1439",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15230",
+      "position": 3,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15230",
+      "position": 4,
+      "surface": "voir",
+      "word_id": "W1255",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15230",
+      "position": 5,
+      "surface": "rire",
+      "word_id": "W1840",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A152061",
+      "sentence_id": "S15206",
+      "direction": "fr_to_en",
+      "answer": "Can you explain this?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A152091",
+      "sentence_id": "S15209",
+      "direction": "fr_to_en",
+      "answer": "I am laughing.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A152111",
+      "sentence_id": "S15211",
+      "direction": "fr_to_en",
+      "answer": "You're going to laugh.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A152131",
+      "sentence_id": "S15213",
+      "direction": "fr_to_en",
+      "answer": "This explains everything.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A152201",
+      "sentence_id": "S15220",
+      "direction": "fr_to_en",
+      "answer": "That's a good story.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A152211",
+      "sentence_id": "S15221",
+      "direction": "fr_to_en",
+      "answer": "That's a beautiful story.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A152212",
+      "sentence_id": "S15221",
+      "direction": "fr_to_en",
+      "answer": "That's a nice story.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

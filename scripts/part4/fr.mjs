@@ -1,0 +1,141 @@
+// French A1 · Part 4, Out and About (Dan, 2026-11-14), in Part 3's format: the café and the restaurant (T07), asking and
+// following the way (T08), shops, getting around and travelling; the help thread goes on (T13). Words from the FLELex
+// core 600 where they fit, checked against Tatoeba first (scripts/circle-feasibility.mjs). Vocabulary circles: clothes,
+// linking words, sport, telling and asking, changing and deciding; themes stay clear of Part 5 (home, family, work).
+// Read and Answer has three texts per circle that has it.
+// Used by scripts/add-part.mjs (COURSE=fr PART=4).
+const DRAFT = 'draft: written for Tamago, native check'
+
+const situation = [
+  { unit_id: 'U81', order: 121, row: 21, after: '', title: 'At the Café', tasks: 'T07',
+    grammar: "Je bois, tu bois, il boit: boire; un café, une bière, du vin: asking for a drink; l'addition, s'il vous plaît",
+    words: ['bois', 'boit', 'boire', 'vin', 'bière', 'jus', 'addition', 'commande', 'prenez', 'soif'] },
+  { unit_id: 'U26', order: 121.5, row: 21.5, after: 'row 21', title: 'Excuse Me', help: true, tasks: 'T13',
+    grammar: "Excusez-moi, j'ai une question. Je peux vous demander … ?", words: ['excusez', 'question', 'demander', 'demande', 'poser'] },
+  { unit_id: 'U82', order: 122, row: 22, after: 'row 21', title: 'At the Restaurant', tasks: 'T07',
+    grammar: "J'ai faim, j'ai soif: avoir for hunger and thirst; je voudrais le menu; c'est délicieux",
+    words: ['menu', 'plat', 'dessert', 'salade', 'soupe', 'gâteau', 'faim', 'délicieux', 'goût'] },
+  { unit_id: 'U83', order: 123, row: 22, after: 'row 21', title: 'Asking the Way', tasks: 'T08',
+    grammar: "À gauche, à droite, tout droit; c'est là, c'est là-bas; à côté de",
+    words: ['gauche', 'droite', 'droit', 'là', 'là-bas', 'côté', 'coin'] },
+  { unit_id: 'U27', order: 123.5, row: 22.5, after: 'row 22', title: "I'm Lost", help: true, tasks: 'T08;T13',
+    grammar: "Je suis perdu, perdue. C'est par là ? Vous avez un plan ?", words: ['par', 'perdu', 'perdue', 'plan'] },
+  { unit_id: 'U84', order: 124, row: 23, after: 'row 22', title: 'Following Directions', tasks: 'T08',
+    grammar: 'Traversez, continuez, suivez: directions in the vous command; la place, le feu',
+    words: ['traverse', 'traversez', 'continuez', 'continuer', 'suivez', 'place', 'feu'] },
+  { unit_id: 'U85', order: 125, row: 23, after: 'row 22', title: 'Where It Is', tasks: 'T08',
+    grammar: "Devant, derrière, entre, sous, en face de: where things are; chez (chez moi: at my place)",
+    words: ['devant', 'derrière', 'entre', 'sous', 'face', 'chez', 'vers'] },
+  { unit_id: 'U86', order: 126, row: 24, after: 'row 23', title: 'Shops + Services', tasks: 'T07;T09',
+    grammar: "À la poste, à la banque, à la boulangerie: à la for places; il y a une pharmacie près d'ici ?",
+    words: ['poste', 'banque', 'boulangerie', 'pharmacie', 'supermarché'] },
+  { unit_id: 'U87', order: 127, row: 24, after: 'row 23', title: 'Getting Around', tasks: 'T08',
+    grammar: "Je marche, je rentre, je reviens: verbs of moving; à pied, en taxi",
+    words: ['marcher', 'marche', 'rentrer', 'rentre', 'entrer', 'revenir', 'reviens', 'retourner', 'taxi'] },
+  { unit_id: 'U28', order: 127.5, row: 24.5, after: 'row 24', title: 'Explaining a Problem', help: true, tasks: 'T13',
+    grammar: "J'ai un problème. J'ai besoin d'aide. C'est grave ?", words: ['problème', 'besoin', 'grave'] },
+  { unit_id: 'U88', order: 128, row: 25, after: 'row 24', title: 'Travelling', tasks: 'T08;T09',
+    grammar: "Aller à Paris en avion; un billet aller-retour; à l'aéroport",
+    words: ['valise', 'billet', 'aller', 'avion', 'aéroport', 'voyager'] },
+  { unit_id: 'U89', order: 129, row: 25, after: 'row 24', title: 'Comparing', tasks: 'T07',
+    grammar: 'Plus grand que, moins cher que: comparing; meilleur (better); un nouveau livre, une nouvelle voiture',
+    words: ['meilleur', 'différent', 'important', 'nouveau', 'nouvelle', 'difficile', 'facile'] },
+]
+
+const vocab = [
+  { unit_id: 'U91', order: 121.2, row: 21, after: '', title: 'Clothes',
+    grammar: "Il porte une robe, elle porte un chapeau: porter for what you wear; joli, jolie agree",
+    words: ['vêtement', 'vêtements', 'porter', 'robe', 'pantalon', 'chemise', 'chaussures', 'chapeau', 'manteau', 'couleur', 'joli', 'jolie'] },
+  { unit_id: 'U92', order: 123.2, row: 22, after: 'row 21', title: 'Linking Words',
+    grammar: "Si (if), donc (so), sans (without), contre (against); bientôt, vite, enfin, presque: how and when",
+    words: ['si', 'donc', 'sans', 'contre', 'surtout', 'presque', 'enfin', 'bientôt', 'vite', 'juste', 'longtemps'] },
+  { unit_id: 'U93', order: 125.2, row: 23, after: 'row 22', title: 'Sport',
+    grammar: "Jouer au tennis, jouer au foot: jouer à; gagner, perdre; il gagne, il perd",
+    words: ['sport', 'équipe', 'gagner', 'gagne', 'perdre', 'perd', 'match', 'ballon', 'course', 'courir', 'nager', 'tennis'] },
+  { unit_id: 'U94', order: 127.2, row: 24, after: 'row 23', title: 'Telling + Asking',
+    grammar: "Raconter une histoire, expliquer une question; je te présente Paul: introducing someone",
+    words: ['raconte', 'histoire', 'expliquer', 'explique', 'rire', 'ris', 'présente', 'propose', 'téléphoner'] },
+  { unit_id: 'U95', order: 129.2, row: 25, after: 'row 24', title: 'Changing + Deciding',
+    grammar: "J'apprends le français; il devient grand; j'espère que …; arrête !",
+    words: ['changer', 'change', 'devient', 'décider', 'décide', 'espère', 'apprendre', 'apprends', 'arrête', 'laisse'] },
+]
+
+const listen = [
+  ['N301', 'U81', 'price', 'Un café, deux euros cinquante.', '2.50'], ['N302', 'U81', 'price', 'Une bière, quatre euros.', '4'],
+  ['N303', 'U82', 'price', 'Le plat du jour, douze euros.', '12'], ['N304', 'U82', 'price', 'Le dessert, six euros cinquante.', '6.50'],
+  ['N305', 'U87', 'number', 'Prenez le bus numéro vingt-trois.', '23'], ['N306', 'U87', 'number', 'Le métro, ligne quatre.', '4'],
+  ['N307', 'U88', 'time', "L'avion part à quinze heures quarante.", '15:40'], ['N308', 'U88', 'number', 'Votre chambre, c\'est la chambre trente-deux.', '32'],
+]
+const texts = [
+  { id: 'R301', unit_id: 'U81', kind: 'menu', title: 'Café de la Place', lines: ['Café : 2 €', 'Thé : 2,50 €', 'Jus d\'orange : 3,50 €', 'Bière : 4 €'],
+    questions: [{ question: 'How much is the orange juice?', choices: ['€3.50', '€2.50', '€4'], answer: 0 }, { question: 'What is the cheapest drink?', choices: ['Coffee', 'Tea', 'Beer'], answer: 0 }] },
+  { id: 'R302', unit_id: 'U81', kind: 'sign', title: 'Au café', lines: ['Ici, on commande au bar.', 'Pas de vin avant midi.'],
+    questions: [{ question: 'Where do you order?', choices: ['At the bar', 'At the table', 'Outside'], answer: 0 }, { question: 'When can you have wine?', choices: ['From noon', 'In the morning', 'Never'], answer: 0 }] },
+  { id: 'R303', unit_id: 'U81', kind: 'message', title: 'Un message de Marie', lines: ['Paul,', 'Je suis au café en face de la gare.', 'Je prends un thé. Tu viens ?'],
+    questions: [{ question: 'Where is Marie?', choices: ['At the café opposite the station', 'At the station', 'At home'], answer: 0 }, { question: 'What is she drinking?', choices: ['Tea', 'Coffee', 'Juice'], answer: 0 }] },
+  { id: 'R304', unit_id: 'U82', kind: 'menu', title: 'Menu du jour – 15 €', lines: ['Entrée : soupe ou salade', 'Plat : poulet et riz', 'Dessert : gâteau au chocolat'],
+    questions: [{ question: 'How much is the menu?', choices: ['€15', '€5', '€50'], answer: 0 }, { question: 'What is the main course?', choices: ['Chicken and rice', 'Soup', 'Chocolate cake'], answer: 0 }] },
+  { id: 'R305', unit_id: 'U82', kind: 'notice', title: 'Le restaurant', lines: ['Ouvert du mardi au dimanche', 'Midi : 12h – 14h', 'Soir : 19h – 22h', 'Fermé le lundi'],
+    questions: [{ question: 'Which day is the restaurant closed?', choices: ['Monday', 'Sunday', 'Tuesday'], answer: 0 }, { question: 'What time does dinner start?', choices: ['7 pm', '12 noon', '10 pm'], answer: 0 }] },
+  { id: 'R306', unit_id: 'U82', kind: 'menu', title: 'Les desserts', lines: ['Gâteau : 5 €', 'Glace : 4 €', 'Fruits : 3 €'],
+    questions: [{ question: 'How much is the cake?', choices: ['€5', '€4', '€3'], answer: 0 }, { question: 'Which dessert costs €3?', choices: ['Fruit', 'Ice cream', 'Cake'], answer: 0 }] },
+  { id: 'R307', unit_id: 'U84', kind: 'message', title: 'Chez moi', lines: ['Tu sors de la gare, tu tournes à gauche.', 'Tu continues tout droit.', 'Ma maison est en face du parc.'],
+    questions: [{ question: 'Which way do you turn at the station?', choices: ['Left', 'Right', 'Straight on'], answer: 0 }, { question: 'Where is the house?', choices: ['Opposite the park', 'Next to the station', 'Behind the school'], answer: 0 }] },
+  { id: 'R308', unit_id: 'U84', kind: 'sign', title: 'Le musée', lines: ['Musée →  à droite, 200 m', 'Parking ←  à gauche'],
+    questions: [{ question: 'Where is the museum?', choices: ['To the right', 'To the left', 'Behind you'], answer: 0 }, { question: 'How far is the museum?', choices: ['200 m', '2 km', '20 m'], answer: 0 }] },
+  { id: 'R309', unit_id: 'U84', kind: 'message', title: 'Le restaurant', lines: ['Traversez la place.', 'Le restaurant est derrière l\'église, à côté de la banque.'],
+    questions: [{ question: 'What do you cross?', choices: ['The square', 'The bridge', 'The road'], answer: 0 }, { question: 'What is next to the restaurant?', choices: ['The bank', 'The church', 'The park'], answer: 0 }] },
+  { id: 'R310', unit_id: 'U86', kind: 'notice', title: 'La boulangerie', lines: ['Ouvert tous les jours de 7h à 19h', 'Le dimanche : 7h – 13h'],
+    questions: [{ question: 'When does the bakery close on Sunday?', choices: ['1 pm', '7 pm', '7 am'], answer: 0 }, { question: 'Is it open every day?', choices: ['Yes', 'No, not on Sunday', 'No, not on Monday'], answer: 0 }] },
+  { id: 'R311', unit_id: 'U86', kind: 'sign', title: 'La poste', lines: ['La poste', 'Du lundi au vendredi : 9h – 18h', 'Samedi : 9h – 12h'],
+    questions: [{ question: 'When does the post office close on Saturday?', choices: ['Noon', '6 pm', '9 am'], answer: 0 }, { question: 'Is it open on Sunday?', choices: ['No', 'Yes, in the morning', 'Yes, all day'], answer: 0 }] },
+  { id: 'R312', unit_id: 'U86', kind: 'message', title: 'Un message de Paul', lines: ['Marie,', 'Tu peux passer à la pharmacie ?', 'Moi, je vais à la banque et au supermarché.'],
+    questions: [{ question: 'Where should Marie go?', choices: ['To the pharmacy', 'To the bank', 'To the supermarket'], answer: 0 }, { question: 'Where is Paul going?', choices: ['The bank and the supermarket', 'The pharmacy', 'The post office'], answer: 0 }] },
+  { id: 'R313', unit_id: 'U88', kind: 'timetable', title: "L'aéroport", lines: ['Vol pour Rome : départ 10h30', 'Vol pour Londres : départ 13h15', 'Vol pour Berlin : départ 17h45'],
+    questions: [{ question: 'When is the flight to London?', choices: ['13:15', '10:30', '17:45'], answer: 0 }, { question: 'Where does the 17:45 flight go?', choices: ['Berlin', 'Rome', 'London'], answer: 0 }] },
+  { id: 'R314', unit_id: 'U88', kind: 'notice', title: "À l'hôtel", lines: ['Petit-déjeuner : 7h – 10h', 'Les chambres : avant 11h, s\'il vous plaît.'],
+    questions: [{ question: 'Until when is breakfast?', choices: ['10:00', '11:00', '7:00'], answer: 0 }, { question: 'When should you leave your room?', choices: ['Before 11:00', 'After 11:00', 'Before 10:00'], answer: 0 }] },
+  { id: 'R315', unit_id: 'U88', kind: 'message', title: 'Une carte de Paul', lines: ['Je suis à Rome !', "L'hôtel est près de la gare.", 'Je rentre lundi en avion.'],
+    questions: [{ question: 'Where is Paul?', choices: ['In Rome', 'In Paris', 'In London'], answer: 0 }, { question: 'How is he going home?', choices: ['By plane', 'By train', 'By car'], answer: 0 }] },
+]
+const items = {
+  a1_listen: listen.map(([id, unit_id, kind, say, answer]) => ({ id, unit_id, kind, say, answer, status: DRAFT, notes: '' })),
+  a1_forms: [
+    { id: 'F301', unit_id: 'U88', card: "Bonjour, je m'appelle Paul Martin. Je voudrais une chambre pour deux nuits, du dix au douze mai. Mon numéro, c'est le zéro six, onze, quinze, dix-neuf, vingt.",
+      fields: [{ key: 'last', label: 'Nom', rule: 'text', answer: 'Martin' }, { key: 'nights', label: 'Nuits', rule: 'number', answer: '2' }, { key: 'from', label: 'Arrivée', rule: 'text', answer: '10 mai', also: ['10/5', 'le 10 mai', 'dix mai'] }, { key: 'tel', label: 'Téléphone', rule: 'phone', answer: '06 11 15 19 20' }] },
+    { id: 'F302', unit_id: 'U82', card: "Une table pour quatre personnes, samedi soir à huit heures, au nom de Marie Dubois.",
+      fields: [{ key: 'name', label: 'Nom', rule: 'text', answer: 'Dubois' }, { key: 'people', label: 'Personnes', rule: 'number', answer: '4' }, { key: 'day', label: 'Jour', rule: 'text', answer: 'samedi', also: ['Samedi'] }, { key: 'time', label: 'Heure', rule: 'text', answer: '20h', also: ['20:00', '8h', '8:00', 'huit heures', '20h00'] }] },
+  ].map((f) => ({ id: f.id, unit_id: f.unit_id, card: f.card, fields_json: JSON.stringify(f.fields), status: DRAFT, notes: '' })),
+  a1_texts: texts.map((t) => ({ id: t.id, unit_id: t.unit_id, kind: t.kind, title: t.title, lines: t.lines.join('\n'), questions_json: JSON.stringify(t.questions), source: 'written for Tamago', status: DRAFT, notes: '' })),
+  a1_prompts: [
+    { id: 'P301', unit_id: 'U82', prompt: 'Write a short message to a friend about a restaurant: where it is, what you ate and what it cost.', points: 'where it is;what you ate;the price', min_words: 25, max_words: 40 },
+    { id: 'P302', unit_id: 'U84', prompt: 'Write a short message to a friend: how to get to your home from the station.', points: 'leaving the station;two directions;where your home is', min_words: 25, max_words: 40 },
+    { id: 'P303', unit_id: 'U88', prompt: 'Write a short postcard from a trip: where you are, your hotel and when you go home.', points: 'where you are;your hotel;when you go home', min_words: 25, max_words: 40 },
+  ].map((x) => ({ ...x, status: DRAFT, notes: '' })),
+}
+
+const canDo = {
+  U81: [['speaking', 'Spoken interaction', 'I can order a drink and ask for the bill.']],
+  U26: [['speaking', 'Spoken interaction', 'I can get someone\'s attention politely and ask a question.']],
+  U82: [['speaking', 'Spoken interaction', 'I can order a simple meal.'], ['reading', 'Reading', 'I can understand a simple menu.']],
+  U83: [['speaking', 'Spoken interaction', 'I can ask the way and understand left, right and straight on.']],
+  U27: [['speaking', 'Spoken interaction', "I can say I'm lost and ask if it's this way."]],
+  U84: [['listening', 'Listening', 'I can follow simple directions.']],
+  U85: [['speaking', 'Spoken production', 'I can say where something is: in front, behind, between, opposite.']],
+  U86: [['reading', 'Reading', 'I can understand the opening times of shops and services.']],
+  U87: [['speaking', 'Spoken production', 'I can say how I get around: on foot, by bus, by taxi.']],
+  U28: [['speaking', 'Spoken interaction', 'I can say I have a problem and need help.']],
+  U88: [['reading', 'Reading', 'I can understand a flight time or a hotel notice.']],
+  U89: [['speaking', 'Spoken production', 'I can compare two things simply: better, different, easier.']],
+  U91: [['speaking', 'Spoken production', 'I can say what someone is wearing.']],
+  U92: [['reading', 'Reading', 'I can understand the words that link a sentence: if, so, without, soon.']],
+  U93: [['speaking', 'Spoken production', 'I can talk about sport: playing, winning, losing.']],
+  U94: [['speaking', 'Spoken interaction', 'I can introduce someone and tell a short story.']],
+  U95: [['speaking', 'Spoken production', 'I can say what I am learning, deciding or hoping.']],
+}
+
+export default {
+  part: 4, wordBase: 1601, vocabBase: 1801, cdBase: 401,
+  slots: [{ slot_id: 'C07', part: 4, after_row: 22 }, { slot_id: 'C08', part: 4, after_row: 24 }],
+  situation, vocab, items, canDo, late: [], off: {},
+}
