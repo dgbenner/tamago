@@ -63,21 +63,58 @@ function isTypo(input, answer, vocabulary) {
   return word.length >= 3 && distance(word, typed) === 1 && !vocabulary.has(typed)
 }
 
-// accepted[0] is the main answer. Returns { correct, typo, accent, matched }; matched is the accepted text to show.
-export function checkTyped(input, accepted, { strict = false, lang = 'fr', vocabulary = new Set() } = {}) {
+// Capitals (Dan, 2026-11-14): the words whose capital the learner left out, from the accepted text, with the letters
+// that should be capitals. The very first letter of a sentence never counts (nobody is marked down for "je suis"); a
+// single word typed on its own (Type the Word: German Hund) does. Only when both have the same words.
+const casedWords = (t) => String(t).normalize('NFC').replace(/[’ʼ‘`´]/g, "'").replace(/[^\p{L}\p{M}\p{N}\s'-]/gu, ' ').split(/\s+/).map((w) => w.replace(/^['-]+|['-]+$/g, '')).filter(Boolean)
+export function capitalMisses(given, matched, { word = false } = {}) {
+  const a = casedWords(matched), b = casedWords(given)
+  if (a.length !== b.length) return []
+  const out = []
+  a.forEach((w, i) => {
+    const g = b[i]
+    if ([...w].length !== [...g].length || fold(w.toLowerCase()) !== fold(g.toLowerCase())) return
+    const W = [...w], G = [...g]
+    const at = W.map((ch, k) => (ch !== ch.toLowerCase() && G[k] === G[k].toLowerCase() && !(i === 0 && k === 0 && !word) ? k : -1)).filter((k) => k >= 0)
+    if (at.length) out.push({ word: w, at })
+  })
+  return out
+}
+// Accents (same day): the words of the accepted text whose accents the learner left out, with the letters to mark.
+export function accentMisses(given, matched) {
+  const a = casedWords(matched), b = casedWords(given)
+  if (a.length !== b.length) return []
+  return a.flatMap((w, i) => {
+    const g = b[i]
+    if (w.toLowerCase() === g.toLowerCase() || fold(w.toLowerCase()) !== fold(g.toLowerCase())) return []
+    const runs = diffMarks(w, g)
+    return runs.some((r) => r.mark) ? [{ word: w, runs }] : []
+  })
+}
+
+// accepted[0] is the main answer. Returns { correct, typo, accent, capitals, matched }; matched is the accepted text to
+// show. cased: false for answers built from word chips (shown in lower case), which can't miss a capital; word: true
+// for a single word typed on its own. Lenient (the default): a missing capital or accent is right, with a note; strict:
+// either is wrong.
+export function checkTyped(input, accepted, { strict = false, lang = 'fr', vocabulary = new Set(), cased = true, word = false } = {}) {
   const typed = readings(input, lang)
-  const miss = { correct: false, typo: false, accent: false, matched: accepted[0] }
+  const miss = { correct: false, typo: false, accent: false, capitals: [], matched: accepted[0] }
   if (!typed.main) return miss
   const answers = accepted.map((a) => ({ text: a, ...readings(a, lang) }))
   const same = (as) => answers.find((a) => a.all.some((r) => typed.all.some((t) => as(r) === as(t))))
+  const caps = (m) => (cased ? capitalMisses(input, m, { word }) : [])
   const exact = same((x) => x)
-  if (exact) return { correct: true, typo: false, accent: false, matched: exact.text }
+  if (exact) {
+    const capitals = caps(exact.text)
+    if (strict && capitals.length) return { ...miss, capitals }
+    return { correct: true, typo: false, accent: false, capitals, matched: exact.text }
+  }
   if (strict) return miss
   const accent = same(fold)
-  if (accent) return { correct: true, typo: false, accent: true, matched: accent.text }
+  if (accent) return { correct: true, typo: false, accent: true, capitals: caps(accent.text), matched: accent.text }
   const foldedVocabulary = new Set([...vocabulary].flatMap((w) => [w, ...String(w).split(/['-]/)]).map(fold))
   const slip = answers.find((a) => isTypo(fold(typed.main), fold(a.main), foldedVocabulary) || isTypo(fold(typed.spaced), fold(a.spaced), foldedVocabulary))
-  if (slip) return { correct: true, typo: true, accent: false, matched: slip.text }
+  if (slip) return { correct: true, typo: true, accent: false, capitals: [], matched: slip.text }
   return miss
 }
 

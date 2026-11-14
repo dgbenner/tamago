@@ -2,7 +2,7 @@ import { explain } from '../lib/explain.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { DRAG_START, applyDrop, dropIndex, markerAt } from '../lib/chipdrag.js'
-import { checkTyped, diffMarks } from '../lib/check.js'
+import { accentMisses, checkTyped, diffMarks } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
 import { audioKey, courseVoiceName, filesIn, play, preload, stop } from '../lib/audio.js'
@@ -592,7 +592,8 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
   const check = (value) => {
     document.activeElement?.blur()
     // The answer as given travels with the result, so a flag can carry it to Flag review.
-    onAnswer({ ...checkTyped(value, q.accepted, { strict: settings.answer_strictness === 'strict', lang: q.lang, vocabulary: content.vocabulary[q.lang] }), given: value })
+    // Chips are shown in lower case, so only a typed answer can miss a capital.
+    onAnswer({ ...checkTyped(value, q.accepted, { strict: settings.answer_strictness === 'strict', lang: q.lang, vocabulary: content.vocabulary[q.lang], cased: typing }), given: value })
   }
   const answerText = picked.map((i) => q.chips[i]).join(' ')
   // The letters typed so far, and the chips they still match. One match (by text) moves into the answer at once;
@@ -856,7 +857,7 @@ function TypeWord({ q, content, settings, result, onAnswer }) {
   const [text, setText] = useState('')
   const check = () => {
     document.activeElement?.blur()
-    onAnswer({ ...checkTyped(text, q.accepted, { strict: settings.answer_strictness === 'strict', lang: 'fr', vocabulary: content.vocabulary.fr }), given: text })
+    onAnswer({ ...checkTyped(text, q.accepted, { strict: settings.answer_strictness === 'strict', lang: 'fr', vocabulary: content.vocabulary.fr, word: true }), given: text })
   }
   return (
     <>
@@ -873,7 +874,7 @@ function TypeWord({ q, content, settings, result, onAnswer }) {
 // For "is this the learner's own answer": case, punctuation, apostrophe style and spacing don't count; accents do.
 const foldAnswer = (t) => String(t).toLowerCase().replace(/[’ʼ]/g, "'").replace(/[^\p{L}\p{N}' ]/gu, ' ').replace(/\s+/g, ' ').trim()
 
-function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
+export function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const [panel, setPanel] = useState(null)
   const [flagged, setFlagged] = useState(false)
   const qaAnswer = q.answers?.find((a) => a.french === (result.matched ?? q.shown)) ?? q.answers?.[0]
@@ -903,7 +904,10 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   const other = otherLine && same(result.given, otherLine) ? null : otherLine
   const good = result.correct
   // A typo or a missing accent: the letters that differ are marked in the answer shown.
-  const marks = (result.typo || result.accent) && result.given ? diffMarks(isChat ? sample.french : shown, result.given) : null
+  const marks = result.typo && result.given ? diffMarks(isChat ? sample.french : shown, result.given) : null
+  // Capitals and accents (Dan, 2026-11-14): a short note per word, the letter in bold. Right by default; wrong in Strict.
+  const accentNotes = result.accent && result.given ? accentMisses(result.given, result.matched ?? shown) : []
+  const capitalNotes = result.capitals ?? []
   const [meaning, setMeaning] = useState(false)
   const phrase = result.phrase
   // A wrong typed answer may get an explanation (Phase 4); it shows only once it has arrived.
@@ -937,6 +941,10 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
             </p>}
             {!isChat && other && <p className="break-words text-muted">{other}</p>}
             {/* Read and Answer, Fill the Form: what was wrong, in the bar itself (craft review, 2026-11-14). */}
+            {(accentNotes.length > 0 || capitalNotes.length > 0) && <div data-letter-notes className="mt-0.5 flex flex-col gap-0.5 text-sm">
+              {capitalNotes.map((c, i) => <p key={`c${i}`}>Don't forget the capital: <span lang={q.lang === 'en' ? 'en' : TL}>{[...c.word].map((ch, k) => (c.at.includes(k) ? <strong key={k}>{ch}</strong> : ch))}</span></p>)}
+              {accentNotes.map((a, i) => <p key={`a${i}`}>Watch the accent: <span lang={q.lang === 'en' ? 'en' : TL}>{a.runs.map((r, k) => (r.mark ? <strong key={k}>{r.text}</strong> : <span key={k}>{r.text}</span>))}</span></p>)}
+            </div>}
             {!good && result.corrections?.length > 0 && <ul data-corrections className="mt-0.5 flex flex-col gap-0.5">{result.corrections.map((c, i) => <li key={i} className={`break-words ${i === 0 && /of \d+ right$/.test(c) ? 'text-muted' : ''}`}>{c}</li>)}</ul>}
             {why && showWhy && <p className="mt-1 break-words text-sm" data-why>{why}</p>}
           </div>

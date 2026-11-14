@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { checkTyped, diffMarks, normalize } from '../src/lib/check.js'
+import { accentMisses, checkTyped, diffMarks, normalize } from '../src/lib/check.js'
 
 const vocabulary = new Set(['je', 'suis', 'une', 'un', 'femme', 'es', 'et', 'tu', 'garçon'])
 const fr = (input, accepted, extra = {}) => checkTyped(input, accepted, { lang: 'fr', vocabulary, ...extra })
@@ -130,4 +130,27 @@ test('lenient is the default: Strict is a choice in Settings, off until chosen',
 test('a wrong word is still wrong, punctuation or not', () => {
   assert.equal(fr('Oui, je suis un femme', ['Oui, je suis une femme.']).correct, false)
   assert.equal(fr('Non je suis une femme', ['Oui, je suis une femme.']).correct, false)
+})
+
+// Capitals and accents (Dan, 2026-11-14): right by default with a note naming the word; wrong in Strict. A sentence's
+// first letter never counts; chip answers (lower case) can't miss a capital; a single typed word can.
+test('a missing capital is right with a note, wrong in strict', () => {
+  const r = checkTyped('je suis dan', ['Je suis Dan.'])
+  assert.equal(r.correct, true)
+  assert.deepEqual(r.capitals, [{ word: 'Dan', at: [0] }])
+  assert.equal(checkTyped('je suis dan', ['Je suis Dan.'], { strict: true }).correct, false)
+  assert.deepEqual(checkTyped('Je suis Dan', ['Je suis Dan.'], { strict: true }).capitals, [])
+  assert.deepEqual(checkTyped('ich habe einen hund', ['Ich habe einen Hund.'], { cased: false, strict: true }).capitals, [])
+  assert.equal(checkTyped('ich habe einen hund', ['Ich habe einen Hund.'], { cased: false, strict: true }).correct, true)
+  assert.deepEqual(checkTyped('hund', ['Hund'], { word: true }).capitals, [{ word: 'Hund', at: [0] }])
+})
+test('a missing accent is right with a note naming the word', () => {
+  const r = checkTyped('un cafe', ['Un café.'])
+  assert.equal(r.correct, true)
+  assert.equal(r.accent, true)
+  const notes = accentMisses('un cafe', 'Un café.')
+  assert.equal(notes.length, 1)
+  assert.equal(notes[0].word, 'café')
+  assert.equal(notes[0].runs.filter((x) => x.mark).map((x) => x.text).join(''), 'é')
+  assert.equal(checkTyped('un cafe', ['Un café.'], { strict: true }).correct, false)
 })

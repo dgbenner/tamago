@@ -73,3 +73,13 @@ test('Pick the Meaning shows the speaker only for a question put to the learner 
   assert.equal(askedToYou({ french: 'Tu es ici.', english: "You're here." }), false)
   assert.equal(askedToYou({ french: 'Elles sont ici ?', english: 'Are they here?' }), false)
 })
+
+// Capitals and accents (Dan, 2026-11-14): the bar names the word with the letter in bold.
+test('the answer bar notes a missing capital and a missing accent, the letter in bold', async () => {
+  const { AnswerBar } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
+  const q = { type: 'QT12', qid: 'q9', lang: 'fr', sentence_id: 'S1', french: 'Dan aime le café.', english: 'Dan likes coffee.', shown: 'Dan aime le café.', accepted: ['Dan aime le café.'], audio: { file: null } }
+  const result = { correct: true, accent: true, typo: false, capitals: [], given: 'Dan aime le cafe', matched: 'Dan aime le café.' }
+  const html = renderToStaticMarkup(createElement(AnswerBar, { q, result: { ...result, capitals: [{ word: 'Paul', at: [0] }] }, cantListen: true, flagReasons: [], onFlag: () => {}, onContinue: () => {} }))
+  assert.match(html, /Don&#x27;t forget the capital: <span[^>]*><strong>P<\/strong>aul/)
+  assert.match(html, /Watch the accent: <span[^>]*><span>caf<\/span><strong>é<\/strong>/)
+})
