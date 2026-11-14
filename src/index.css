@@ -589,13 +589,14 @@ button.chip-drag {
   transition: transform 120ms ease-out, border-color 120ms ease-out, background-color 120ms ease-out;
 }
 .tree-pill svg { width: 1rem; height: 1rem; }
-.circle-node .circle-disc { transition: transform 160ms ease-out; }
-.circle-node .circle-track { transition: stroke 160ms ease-out; }
+/* Leaving: a quick snap back with a small bounce, just past rest and back (Dan, 2026-11-13). Arriving: an easy 160 ms. */
+.circle-node .circle-disc { transition: transform 260ms cubic-bezier(0.2, 1.9, 0.45, 1); }
+.circle-node .circle-track { transition: stroke 100ms ease-out; }
 .note-icon { transition: color 120ms ease-out, opacity 120ms ease-out, transform 120ms ease-out; }
 .carousel-arrow { transition: transform 120ms ease-out, background-color 120ms ease-out, box-shadow 120ms ease-out; }
 @media (hover: hover) {
-  .circle-node:not([data-state='locked']):hover .circle-disc { transform: scale(1.06); }
-  .circle-node:not([data-state='locked']):hover .circle-track { stroke: color-mix(in srgb, var(--ring) 45%, var(--line)); }
+  .circle-node:not([data-state='locked']):hover .circle-disc { transform: scale(1.06); transition: transform 160ms ease-out; }
+  .circle-node:not([data-state='locked']):hover .circle-track { stroke: color-mix(in srgb, var(--ring) 45%, var(--line)); transition: stroke 160ms ease-out; }
   .note-icon:hover { color: var(--electric); opacity: 1; }
   .tree-pill[data-live]:hover { border-color: var(--ring); background-color: var(--surface); }
   .carousel-arrow:not(:disabled):hover { background-color: color-mix(in srgb, var(--surface) 90%, var(--ink)); box-shadow: 0 2px 8px rgb(0 0 0 / 0.22); }
