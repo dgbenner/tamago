@@ -60,7 +60,8 @@ test('Catch-Up slots sit after rows that exist, two per French part so far', () 
   for (const c of tables.catch_up) assert.ok(tables.tree_layout.some((t) => Number(t.row) === c.after_row), c.slot_id)
   const byPart = {}
   for (const c of tables.catch_up) byPart[c.part] = (byPart[c.part] ?? 0) + 1
-  assert.deepEqual(byPart, { 1: 2, 2: 2 })
+  // Two per live part (Part 3, 2026-11-14: C05 and C06).
+  assert.deepEqual(byPart, Object.fromEntries(tables.parts.filter((p) => p.status === 'live').map((p) => [p.part, 2])))
 })
 
 // Dan, 2026-11-14: an item answered right in a Brush-Up leaves it at once (finished circles above or not); a later miss

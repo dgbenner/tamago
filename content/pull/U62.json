@@ -1,0 +1,1215 @@
+{
+  "unit_id": "U62",
+  "pulled_at": "2026-11-14",
+  "candidates": 45,
+  "sentences": [
+    {
+      "sentence_id": "S12101",
+      "unit_id": "U62",
+      "french": "On est vendredi ?",
+      "english": "Is it Friday?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5149952",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nbrr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12103",
+      "unit_id": "U62",
+      "french": "Qui est le prochain?",
+      "english": "Who's next?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3673848",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "dafp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12104",
+      "unit_id": "U62",
+      "french": "Qui est le dernier ?",
+      "english": "Who's the last one?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7853203",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12105",
+      "unit_id": "U62",
+      "french": "Bon week-end.",
+      "english": "Have a nice weekend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9397",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "Have a nice weekend!"
+      ]
+    },
+    {
+      "sentence_id": "S12106",
+      "unit_id": "U62",
+      "french": "C'est samedi.",
+      "english": "It's Saturday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1541801",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martin9",
+      "other_english": [
+        "It is Saturday."
+      ]
+    },
+    {
+      "sentence_id": "S12107",
+      "unit_id": "U62",
+      "french": "C'est mercredi.",
+      "english": "It's Wednesday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2190214",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "It is Wednesday."
+      ]
+    },
+    {
+      "sentence_id": "S12108",
+      "unit_id": "U62",
+      "french": "À jeudi !",
+      "english": "See you on Thursday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2356595",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ankio",
+      "other_english": [
+        "Until Thursday!"
+      ]
+    },
+    {
+      "sentence_id": "S12109",
+      "unit_id": "U62",
+      "french": "À mardi !",
+      "english": "See you on Tuesday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10141984",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12110",
+      "unit_id": "U62",
+      "french": "À mercredi !",
+      "english": "See you on Wednesday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10141985",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12111",
+      "unit_id": "U62",
+      "french": "À vendredi !",
+      "english": "See you on Friday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10141986",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12112",
+      "unit_id": "U62",
+      "french": "À samedi !",
+      "english": "See you on Saturday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10141987",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12114",
+      "unit_id": "U62",
+      "french": "À la prochaine !",
+      "english": "See you!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "591489",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12115",
+      "unit_id": "U62",
+      "french": "Aujourd'hui c'est samedi.",
+      "english": "Today is Saturday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "781618",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "It's Saturday today."
+      ]
+    },
+    {
+      "sentence_id": "S12116",
+      "unit_id": "U62",
+      "french": "C'est le dernier.",
+      "english": "It's the last one.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1583884",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12117",
+      "unit_id": "U62",
+      "french": "Aujourd'hui, c'est mardi.",
+      "english": "Today is Tuesday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3256310",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12118",
+      "unit_id": "U62",
+      "french": "On est mardi.",
+      "english": "It's Tuesday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8823510",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "It is Tuesday."
+      ]
+    },
+    {
+      "sentence_id": "S12119",
+      "unit_id": "U62",
+      "french": "On est jeudi.",
+      "english": "It's Thursday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9754396",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "It is Thursday."
+      ]
+    },
+    {
+      "sentence_id": "S12120",
+      "unit_id": "U62",
+      "french": "À lundi prochain.",
+      "english": "See you again next Monday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10670575",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12121",
+      "unit_id": "U62",
+      "french": "C'est le dernier train.",
+      "english": "This is the last train.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "810254",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12122",
+      "unit_id": "U62",
+      "french": "Il joue le jeudi.",
+      "english": "He plays on Thursdays.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3270902",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12123",
+      "unit_id": "U62",
+      "french": "À la semaine prochaine !",
+      "english": "See you next week!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6014280",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "christian63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12124",
+      "unit_id": "U62",
+      "french": "J'aime le vendredi !",
+      "english": "I love Fridays!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10628250",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "AutoBot",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12125",
+      "unit_id": "U62",
+      "french": "Je suis la prochaine.",
+      "english": "I'm up next.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11595147",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Adrien_FR",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12126",
+      "unit_id": "U62",
+      "french": "Il m'a écrit hier.",
+      "english": "He wrote to me yesterday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "129949",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12129",
+      "unit_id": "U62",
+      "french": "Hier, il a écrit une lettre.",
+      "english": "He wrote a letter yesterday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6479",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Archibald",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12130",
+      "unit_id": "U62",
+      "french": "Elle est née l'année dernière.",
+      "english": "She was born last year.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1317242",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S12131",
+      "unit_id": "U62",
+      "french": "J'ai écrit une lettre hier.",
+      "english": "I wrote a letter yesterday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6400172",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S12101",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12101",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12101",
+      "position": 3,
+      "surface": "vendredi",
+      "word_id": "W1219",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12103",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12103",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12103",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12103",
+      "position": 4,
+      "surface": "prochain",
+      "word_id": "W1223",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12104",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12104",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12104",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12104",
+      "position": 4,
+      "surface": "dernier",
+      "word_id": "W1225",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12105",
+      "position": 1,
+      "surface": "Bon",
+      "word_id": "W411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12105",
+      "position": 2,
+      "surface": "week-end",
+      "word_id": "W1221",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12106",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12106",
+      "position": 2,
+      "surface": "samedi",
+      "word_id": "W1220",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12107",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12107",
+      "position": 2,
+      "surface": "mercredi",
+      "word_id": "W1217",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12108",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12108",
+      "position": 2,
+      "surface": "jeudi",
+      "word_id": "W1218",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12109",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12109",
+      "position": 2,
+      "surface": "mardi",
+      "word_id": "W1216",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12110",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12110",
+      "position": 2,
+      "surface": "mercredi",
+      "word_id": "W1217",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12111",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12111",
+      "position": 2,
+      "surface": "vendredi",
+      "word_id": "W1219",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12112",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12112",
+      "position": 2,
+      "surface": "samedi",
+      "word_id": "W1220",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12114",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12114",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12114",
+      "position": 3,
+      "surface": "prochaine",
+      "word_id": "W1224",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12115",
+      "position": 1,
+      "surface": "Aujourd'hui",
+      "word_id": "W460",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12115",
+      "position": 2,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12115",
+      "position": 3,
+      "surface": "samedi",
+      "word_id": "W1220",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12116",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12116",
+      "position": 2,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12116",
+      "position": 3,
+      "surface": "dernier",
+      "word_id": "W1225",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12117",
+      "position": 1,
+      "surface": "Aujourd'hui",
+      "word_id": "W460",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12117",
+      "position": 2,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12117",
+      "position": 3,
+      "surface": "mardi",
+      "word_id": "W1216",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12118",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12118",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12118",
+      "position": 3,
+      "surface": "mardi",
+      "word_id": "W1216",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12119",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12119",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12119",
+      "position": 3,
+      "surface": "jeudi",
+      "word_id": "W1218",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12120",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12120",
+      "position": 2,
+      "surface": "lundi",
+      "word_id": "W468",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12120",
+      "position": 3,
+      "surface": "prochain",
+      "word_id": "W1223",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12121",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12121",
+      "position": 2,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12121",
+      "position": 3,
+      "surface": "dernier",
+      "word_id": "W1225",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12121",
+      "position": 4,
+      "surface": "train",
+      "word_id": "W1008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12122",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12122",
+      "position": 2,
+      "surface": "joue",
+      "word_id": "W1027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12122",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12122",
+      "position": 4,
+      "surface": "jeudi",
+      "word_id": "W1218",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12123",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12123",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12123",
+      "position": 3,
+      "surface": "semaine",
+      "word_id": "W466",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12123",
+      "position": 4,
+      "surface": "prochaine",
+      "word_id": "W1224",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12124",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12124",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12124",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12124",
+      "position": 4,
+      "surface": "vendredi",
+      "word_id": "W1219",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12125",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12125",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12125",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12125",
+      "position": 4,
+      "surface": "prochaine",
+      "word_id": "W1224",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12126",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12126",
+      "position": 2,
+      "surface": "m'",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12126",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12126",
+      "position": 4,
+      "surface": "écrit",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12126",
+      "position": 5,
+      "surface": "hier",
+      "word_id": "W1222",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12129",
+      "position": 1,
+      "surface": "Hier",
+      "word_id": "W1222",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12129",
+      "position": 2,
+      "surface": "il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12129",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12129",
+      "position": 4,
+      "surface": "écrit",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12129",
+      "position": 5,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12129",
+      "position": 6,
+      "surface": "lettre",
+      "word_id": "W035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12130",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12130",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12130",
+      "position": 3,
+      "surface": "née",
+      "word_id": "W834",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12130",
+      "position": 4,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12130",
+      "position": 5,
+      "surface": "année",
+      "word_id": "W836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12130",
+      "position": 6,
+      "surface": "dernière",
+      "word_id": "W1226",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12131",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12131",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12131",
+      "position": 3,
+      "surface": "écrit",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12131",
+      "position": 4,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12131",
+      "position": 5,
+      "surface": "lettre",
+      "word_id": "W035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S12131",
+      "position": 6,
+      "surface": "hier",
+      "word_id": "W1222",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A121051",
+      "sentence_id": "S12105",
+      "direction": "fr_to_en",
+      "answer": "Have a nice weekend!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A121061",
+      "sentence_id": "S12106",
+      "direction": "fr_to_en",
+      "answer": "It is Saturday.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A121071",
+      "sentence_id": "S12107",
+      "direction": "fr_to_en",
+      "answer": "It is Wednesday.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A121081",
+      "sentence_id": "S12108",
+      "direction": "fr_to_en",
+      "answer": "Until Thursday!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A121151",
+      "sentence_id": "S12115",
+      "direction": "fr_to_en",
+      "answer": "It's Saturday today.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A121181",
+      "sentence_id": "S12118",
+      "direction": "fr_to_en",
+      "answer": "It is Tuesday.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A121191",
+      "sentence_id": "S12119",
+      "direction": "fr_to_en",
+      "answer": "It is Thursday.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

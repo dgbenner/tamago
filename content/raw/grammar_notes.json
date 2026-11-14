@@ -229,5 +229,124 @@
     "example_sentence_ids": "S11616;S11618;S11601;S11609",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U61",
+    "rule": "To give the time: il est + the hour + heures (il est cinq heures). Half past is et demie, quarter past et quart, quarter to moins le quart: il est dix heures moins le quart. Midi is noon. Tôt is early, tard is late.",
+    "example_sentence_ids": "S12061;S12062;S12067",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U71",
+    "rule": "How often: toujours (always), souvent (often), parfois (sometimes), jamais (never; ne … jamais: je ne mange jamais de viande). Y means there: tu y vas souvent ? Que joins two parts: je sais que c'est vrai. Tout is all, everything.",
+    "example_sentence_ids": "S13202;S13224;S13205",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U37",
+    "rule": "When you didn't hear: Pardon ? or, to a friend, Quoi ? Then say why: je ne vous entends pas (I can't hear you), je n'ai pas entendu (I didn't hear). A man says désolé, a woman désolée.",
+    "example_sentence_ids": "S12961;S12901;S12963",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U62",
+    "rule": "Days take no capital: lundi, mardi … dimanche. On est mardi (it's Tuesday); le mardi means every Tuesday. Prochain and dernier agree: le mois prochain, la semaine prochaine, la semaine dernière. Hier is yesterday.",
+    "example_sentence_ids": "S12169;S12161;S12163",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U63",
+    "rule": "Months take no capital: janvier, février … décembre. In a month is en: en juillet. Seasons: en été, en hiver, en automne, but au printemps. Dates use the plain number (le deux mai), except the first: le premier mai.",
+    "example_sentence_ids": "S12206;S12261;S12273",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U72",
+    "rule": "After a preposition or alone, French uses moi, toi, lui, elle, nous, vous, eux: avec moi, chez toi, c'est eux. Personne and rien take ne: personne ne dit rien. Notre, nos: our; leur: their; chaque: each.",
+    "example_sentence_ids": "S13361;S13362;S13301",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U38",
+    "rule": "To ask for a moment: Un instant, s'il vous plaît, or Attends (to a friend), Attendez (polite). To say you're thinking: Je réfléchis. Voyons… means let's see.",
+    "example_sentence_ids": "S13061;S13063;S13062",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U64",
+    "rule": "A plan uses aller + a verb: on va voir un film, je vais sortir. Venir is irregular: je viens, tu viens, il vient. Tu viens avec moi ? asks someone along; tu es libre lundi ? asks if they're free.",
+    "example_sentence_ids": "S12361;S12368;S12365",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U65",
+    "rule": "Some verbs take me for things you do to yourself: je me lève (I get up). To put the day in order: d'abord (first), puis or ensuite (then), après (after), avant (before): d'abord je me lève, puis je mange.",
+    "example_sentence_ids": "S12461;S12464;S12469",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U73",
+    "rule": "Everyday verbs in the present: je prends (prendre), je mets (mettre), je donne (donner), je trouve (trouver), j'aide (aider), j'oublie (oublier), je montre (montrer). Passer un week-end: to spend a weekend.",
+    "example_sentence_ids": "S13464;S13462;S13463",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U66",
+    "rule": "Signs use the adjective alone: Ouvert, Fermé, Entrée, Sortie. In a sentence it agrees: le magasin est fermé, la porte est fermée, la piscine est ouverte. Attention means careful: attention au chien !",
+    "example_sentence_ids": "S12564;S12569;S12571",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U67",
+    "rule": "Trains and buses partir (leave) and arriver (arrive): le train part à huit heures, il arrive à dix heures. Le départ and l'arrivée are the nouns. Depuis is since (je suis ici depuis samedi); pendant is during.",
+    "example_sentence_ids": "S12661;S12674;S12666",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U74",
+    "rule": "To say what you like: j'adore, j'aime, je préfère, je déteste + le, la, les (je déteste le fromage) or + a verb (je préfère lire). Ça me plaît: I like it. To give an opinion: je pense que, je crois que + a sentence.",
+    "example_sentence_ids": "S13561;S13563;S13562",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U39",
+    "rule": "To say you don't know: Aucune idée (no idea) or Je ne sais pas. Not sure: je ne suis pas sûr (a man), pas sûre (a woman). To leave it open: C'est possible. Bien sûr means of course.",
+    "example_sentence_ids": "S13161;S13162;S13101",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U68",
+    "rule": "At a station: monter dans le train (get on), descendre du train or à la gare (get off). Montez, descendez: the vous command, as in announcements. Le train a du retard: the train is late.",
+    "example_sentence_ids": "S12761;S12765;S12763",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U69",
+    "rule": "Instructions use the command form: to a friend, the tu form without tu (ouvre, ferme, choisis, réponds); politely or to several people, the vous form without vous (ouvrez, fermez, écoutez, répondez).",
+    "example_sentence_ids": "S12861;S12862;S12863",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U75",
+    "rule": "To visit a place is visiter (je vais visiter le château); to meet someone is rencontrer. Tout le monde means everyone, not the whole world. Célèbre: famous; ancien: old.",
+    "example_sentence_ids": "S13672;S13661;S13677",
+    "conjugation_lemma": "",
+    "status": "live"
   }
 ]

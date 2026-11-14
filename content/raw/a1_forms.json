@@ -14,5 +14,21 @@
     "fields_json": "[{\"key\":\"first\",\"label\":\"Prénom\",\"rule\":\"text\",\"answer\":\"Marie\"},{\"key\":\"last\",\"label\":\"Nom\",\"rule\":\"text\",\"answer\":\"Dubois\"},{\"key\":\"age\",\"label\":\"Âge\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Nationalité\",\"rule\":\"text\",\"answer\":\"française\",\"also\":[\"francaise\",\"français\"]},{\"key\":\"country\",\"label\":\"Pays\",\"rule\":\"text\",\"answer\":\"Allemagne\"},{\"key\":\"tel\",\"label\":\"Téléphone\",\"rule\":\"phone\",\"answer\":\"06 11 15 19 20\"}]",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "Paul et Marie vont au cinéma samedi à huit heures et demie. Le rendez-vous est devant la gare.",
+    "fields_json": "[{\"key\":\"day\",\"label\":\"Jour\",\"rule\":\"text\",\"answer\":\"samedi\",\"also\":[\"Samedi\"]},{\"key\":\"time\",\"label\":\"Heure\",\"rule\":\"text\",\"answer\":\"20h30\",\"also\":[\"20:30\",\"8h30\",\"8:30\",\"huit heures et demie\"]},{\"key\":\"place\",\"label\":\"Lieu\",\"rule\":\"text\",\"answer\":\"la gare\",\"also\":[\"gare\",\"devant la gare\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Je m'appelle Marie. Je me lève à sept heures. Je commence le travail à neuf heures et je finis à cinq heures.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Prénom\",\"rule\":\"text\",\"answer\":\"Marie\"},{\"key\":\"up\",\"label\":\"Lever\",\"rule\":\"text\",\"answer\":\"7h\",\"also\":[\"7:00\",\"7h00\",\"sept heures\",\"7\"]},{\"key\":\"start\",\"label\":\"Début du travail\",\"rule\":\"text\",\"answer\":\"9h\",\"also\":[\"9:00\",\"9h00\",\"neuf heures\",\"9\"]},{\"key\":\"end\",\"label\":\"Fin du travail\",\"rule\":\"text\",\"answer\":\"17h\",\"also\":[\"17:00\",\"5h\",\"5:00\",\"cinq heures\",\"17h00\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

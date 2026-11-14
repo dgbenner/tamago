@@ -96,5 +96,482 @@
       }
     ],
     "source": "written for Tamago"
+  },
+  {
+    "id": "R201",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "La piscine",
+    "lines": [
+      "Ouvert du lundi au vendredi : 9h – 20h",
+      "Samedi : 10h – 18h",
+      "Dimanche : fermé"
+    ],
+    "questions": [
+      {
+        "question": "When is the pool closed?",
+        "choices": [
+          "Sunday",
+          "Saturday",
+          "Monday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it open on Saturday?",
+        "choices": [
+          "10:00",
+          "9:00",
+          "18:00"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R202",
+    "unit_id": "U62",
+    "kind": "message",
+    "title": "Un message de Paul",
+    "lines": [
+      "Marie,",
+      "Le cinéma, mercredi ? Je suis libre mercredi et jeudi.",
+      "Samedi, je travaille.",
+      "Paul"
+    ],
+    "questions": [
+      {
+        "question": "When is Paul free?",
+        "choices": [
+          "Wednesday and Thursday",
+          "Saturday",
+          "Every day"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does Paul do on Saturday?",
+        "choices": [
+          "He works",
+          "He goes to the cinema",
+          "He stays home"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R203",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "Le musée",
+    "lines": [
+      "Le musée est fermé le mardi.",
+      "Visite pour les enfants : mercredi à 14h"
+    ],
+    "questions": [
+      {
+        "question": "Which day is the museum closed?",
+        "choices": [
+          "Tuesday",
+          "Wednesday",
+          "Monday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is the visit for children?",
+        "choices": [
+          "Wednesday at 2 pm",
+          "Tuesday at 2 pm",
+          "Wednesday at 4 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R204",
+    "unit_id": "U63",
+    "kind": "notice",
+    "title": "Les vacances",
+    "lines": [
+      "L'école est fermée du 20 décembre au 4 janvier.",
+      "Retour : le lundi 5 janvier"
+    ],
+    "questions": [
+      {
+        "question": "Which day of the week does school start again?",
+        "choices": [
+          "Monday",
+          "Sunday",
+          "Saturday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When do the holidays begin?",
+        "choices": [
+          "20 December",
+          "5 January",
+          "4 January"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R205",
+    "unit_id": "U63",
+    "kind": "sign",
+    "title": "La fête",
+    "lines": [
+      "Grande fête du village",
+      "Samedi 21 juin, à partir de 18h",
+      "Musique et danse"
+    ],
+    "questions": [
+      {
+        "question": "When is the village party?",
+        "choices": [
+          "Saturday 21 June",
+          "Sunday 21 June",
+          "Saturday 21 July"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it start?",
+        "choices": [
+          "6 pm",
+          "8 pm",
+          "9 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R206",
+    "unit_id": "U63",
+    "kind": "message",
+    "title": "Une carte de Marie",
+    "lines": [
+      "En été, nous allons à la mer en juillet.",
+      "En hiver, nous allons à la montagne.",
+      "Et toi ?"
+    ],
+    "questions": [
+      {
+        "question": "Where does Marie go in July?",
+        "choices": [
+          "To the sea",
+          "To the mountains",
+          "To the countryside"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When does she go to the mountains?",
+        "choices": [
+          "In winter",
+          "In July",
+          "In spring"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R207",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "Au magasin",
+    "lines": [
+      "Entrée",
+      "Ouvert de 9h à 19h",
+      "Fermé le dimanche"
+    ],
+    "questions": [
+      {
+        "question": "When is the shop closed?",
+        "choices": [
+          "On Sunday",
+          "On Saturday",
+          "Every evening"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it close?",
+        "choices": [
+          "7 pm",
+          "9 pm",
+          "9 am"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R208",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "À la gare",
+    "lines": [
+      "Attention : sortie à gauche",
+      "Toilettes : quai 2",
+      "Information : à l'entrée"
+    ],
+    "questions": [
+      {
+        "question": "Where are the toilets?",
+        "choices": [
+          "Platform 2",
+          "Platform 1",
+          "Near the café"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where can you get information?",
+        "choices": [
+          "At the entrance",
+          "At the exit",
+          "On the train"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R209",
+    "unit_id": "U66",
+    "kind": "notice",
+    "title": "Le parking",
+    "lines": [
+      "Parking du centre",
+      "Ouvert la nuit",
+      "Gratuit le dimanche"
+    ],
+    "questions": [
+      {
+        "question": "Is the car park open at night?",
+        "choices": [
+          "Yes",
+          "No",
+          "Only on Sunday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is it free?",
+        "choices": [
+          "On Sunday",
+          "At night",
+          "Every day"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R210",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Train pour Lyon",
+    "lines": [
+      "Départ : 8h15 – Arrivée : 10h20",
+      "Départ : 12h40 – Arrivée : 14h45",
+      "Départ : 18h00 – Arrivée : 20h05"
+    ],
+    "questions": [
+      {
+        "question": "When does the 12:40 train arrive?",
+        "choices": [
+          "14:45",
+          "10:20",
+          "20:05"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time is the first train?",
+        "choices": [
+          "8:15",
+          "12:40",
+          "18:00"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R211",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Bus 12",
+    "lines": [
+      "Départ de la gare : 7h, 7h30, 8h",
+      "Le dimanche : un bus toutes les heures"
+    ],
+    "questions": [
+      {
+        "question": "Where does the bus leave from?",
+        "choices": [
+          "The station",
+          "The centre",
+          "The school"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How often is the bus on Sunday?",
+        "choices": [
+          "Every hour",
+          "Every half hour",
+          "Not at all"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R212",
+    "unit_id": "U67",
+    "kind": "message",
+    "title": "Un message de Paul",
+    "lines": [
+      "J'arrive à la gare à 17h30.",
+      "Mon train part de Paris à 15h.",
+      "À ce soir !"
+    ],
+    "questions": [
+      {
+        "question": "When does Paul arrive?",
+        "choices": [
+          "17:30",
+          "15:00",
+          "7:30"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where does his train leave from?",
+        "choices": [
+          "Paris",
+          "Lyon",
+          "The station in town"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R213",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "En classe",
+    "lines": [
+      "Écoutez le texte.",
+      "Répondez aux questions.",
+      "Choisissez une image."
+    ],
+    "questions": [
+      {
+        "question": "What do you do first?",
+        "choices": [
+          "Listen to the text",
+          "Answer the questions",
+          "Choose a picture"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What do you choose?",
+        "choices": [
+          "A picture",
+          "A text",
+          "A question"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R214",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "La porte",
+    "lines": [
+      "Fermez la porte, s'il vous plaît.",
+      "Attention : ouvrez doucement."
+    ],
+    "questions": [
+      {
+        "question": "What should you do with the door?",
+        "choices": [
+          "Close it",
+          "Leave it open",
+          "Lock it"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How should you open it?",
+        "choices": [
+          "Gently",
+          "Quickly",
+          "With a key"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R215",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "Le jeu",
+    "lines": [
+      "Choisis un numéro.",
+      "Tourne la carte.",
+      "Réponds à la question."
+    ],
+    "questions": [
+      {
+        "question": "What do you turn over?",
+        "choices": [
+          "The card",
+          "The number",
+          "The page"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What do you do last?",
+        "choices": [
+          "Answer the question",
+          "Choose a number",
+          "Turn the card"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
   }
 ]

@@ -24,8 +24,8 @@
     "lesson_counts": [
       7,
       4,
-      4,
-      4,
+      5,
+      5,
       5
     ]
   },
@@ -54,9 +54,9 @@
     "lesson_counts": [
       9,
       6,
-      6,
-      6,
-      7
+      7,
+      7,
+      8
     ]
   },
   {
@@ -90,9 +90,9 @@
     "lesson_counts": [
       9,
       6,
-      6,
-      6,
-      7
+      7,
+      7,
+      8
     ]
   },
   {
@@ -122,7 +122,7 @@
       5,
       5,
       5,
-      5
+      6
     ]
   },
   {
@@ -152,7 +152,7 @@
       4,
       5,
       5,
-      5
+      6
     ]
   },
   {
@@ -413,9 +413,9 @@
     "lesson_counts": [
       8,
       5,
-      5,
-      5,
-      6
+      6,
+      6,
+      7
     ]
   },
   {
@@ -443,8 +443,8 @@
     "lesson_counts": [
       7,
       4,
-      4,
-      4,
+      5,
+      5,
       5
     ]
   },
@@ -475,7 +475,7 @@
       5,
       6,
       6,
-      6
+      7
     ]
   },
   {
@@ -503,8 +503,8 @@
     "lesson_counts": [
       7,
       4,
-      4,
-      4,
+      5,
+      5,
       5
     ]
   },
@@ -535,7 +535,7 @@
       4,
       5,
       5,
-      5
+      6
     ]
   },
   {
@@ -565,7 +565,7 @@
       5,
       6,
       6,
-      6
+      7
     ]
   },
   {
@@ -593,8 +593,8 @@
     "lesson_counts": [
       6,
       4,
-      4,
-      4,
+      5,
+      5,
       5
     ]
   },
@@ -623,7 +623,7 @@
     "lesson_counts": [
       6,
       4,
-      4,
+      5,
       4,
       5
     ]
@@ -738,7 +738,7 @@
       4,
       4,
       4,
-      4
+      5
     ]
   },
   {
@@ -768,7 +768,7 @@
       4,
       4,
       4,
-      4
+      5
     ]
   },
   {
@@ -798,7 +798,7 @@
       4,
       4,
       4,
-      4
+      5
     ]
   },
   {
@@ -826,8 +826,8 @@
     "lesson_counts": [
       6,
       4,
-      4,
-      4,
+      5,
+      5,
       5
     ]
   },
@@ -856,8 +856,8 @@
     "lesson_counts": [
       6,
       4,
-      4,
-      4,
+      5,
+      5,
       5
     ]
   },
@@ -884,11 +884,11 @@
     "tasks": "T02",
     "mix": "",
     "lesson_counts": [
-      4,
+      5,
       3,
       3,
       3,
-      3
+      4
     ]
   },
   {
@@ -916,8 +916,8 @@
     "lesson_counts": [
       5,
       4,
-      4,
-      4,
+      5,
+      5,
       5
     ]
   },
@@ -976,8 +976,8 @@
     "lesson_counts": [
       3,
       2,
-      2,
-      2,
+      3,
+      3,
       3
     ]
   },
@@ -1006,8 +1006,8 @@
     "lesson_counts": [
       7,
       4,
-      4,
-      4,
+      5,
+      5,
       5
     ]
   },
@@ -1036,8 +1036,8 @@
     "lesson_counts": [
       6,
       5,
-      5,
-      5,
+      6,
+      6,
       6
     ]
   },
@@ -1066,8 +1066,8 @@
     "lesson_counts": [
       6,
       4,
-      4,
-      4,
+      5,
+      5,
       5
     ]
   },
@@ -1094,11 +1094,11 @@
     "tasks": "T13",
     "mix": "",
     "lesson_counts": [
+      5,
       4,
       4,
       4,
-      4,
-      4
+      5
     ]
   },
   {
@@ -1128,7 +1128,7 @@
       5,
       5,
       5,
-      5
+      6
     ]
   },
   {
@@ -1156,8 +1156,8 @@
     "lesson_counts": [
       6,
       5,
-      5,
-      5,
+      6,
+      6,
       6
     ]
   },
@@ -1185,8 +1185,8 @@
     "mix": "vocab",
     "lesson_counts": [
       7,
-      9,
-      7,
+      11,
+      8,
       7,
       7
     ]
@@ -1214,9 +1214,9 @@
     "tasks": "",
     "mix": "vocab",
     "lesson_counts": [
-      10,
       12,
-      7,
+      16,
+      8,
       7,
       7
     ]
@@ -1244,9 +1244,9 @@
     "tasks": "",
     "mix": "vocab",
     "lesson_counts": [
-      10,
       12,
-      7,
+      16,
+      8,
       7,
       7
     ]
@@ -1274,11 +1274,11 @@
     "tasks": "",
     "mix": "vocab",
     "lesson_counts": [
-      9,
       11,
+      14,
       7,
-      7,
-      7
+      6,
+      6
     ]
   },
   {
@@ -1304,11 +1304,521 @@
     "tasks": "",
     "mix": "vocab",
     "lesson_counts": [
-      9,
       11,
+      15,
+      8,
+      7,
+      7
+    ]
+  },
+  {
+    "unit_id": "U61",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 111,
+    "title": "What Time Is It?",
+    "topic": "What Time Is It?",
+    "grammar_point": "Il est trois heures; trois heures et demie, et quart, moins le quart; à midi; tôt and tard",
+    "contrast_sets": "",
+    "can_do_ids": "CD301;CD302",
+    "branch_group": "row 16",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "aji-nigiri-sq.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T05",
+    "mix": "",
+    "lesson_counts": [
+      6,
+      5,
+      5,
+      5,
+      6
+    ]
+  },
+  {
+    "unit_id": "U71",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 111.2,
+    "title": "Little Words",
+    "topic": "Little Words",
+    "grammar_point": "Toujours, souvent, parfois, jamais: how often; ne … jamais; je pense que …: que joins two parts",
+    "contrast_sets": "",
+    "can_do_ids": "CD303",
+    "branch_group": "row 16",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "salmon-nigiri-4.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "",
+    "mix": "vocab",
+    "lesson_counts": [
+      5,
+      8,
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "unit_id": "U37",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 111.5,
+    "title": "Didn't Catch That",
+    "topic": "Didn't Catch That",
+    "grammar_point": "Pardon ? Quoi ? Je n'ai pas entendu. Désolé, désolée",
+    "contrast_sets": "",
+    "can_do_ids": "CD304",
+    "branch_group": "row 16.5",
+    "is_topic_pick": "help",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "maki",
+    "icon_file": "california-roll.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T13",
+    "mix": "",
+    "lesson_counts": [
+      3,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  {
+    "unit_id": "U62",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 112,
+    "title": "Days of the Week",
+    "topic": "Days of the Week",
+    "grammar_point": "Lundi (on Monday), le lundi (every Monday); la semaine prochaine, le week-end dernier: prochain and dernier agree",
+    "contrast_sets": "",
+    "can_do_ids": "CD305",
+    "branch_group": "row 17",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "anago-nigiri.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T05;T09",
+    "mix": "",
+    "lesson_counts": [
+      5,
+      4,
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "unit_id": "U63",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 113,
+    "title": "Months + Seasons",
+    "topic": "Months + Seasons",
+    "grammar_point": "En janvier, en été, en hiver, but au printemps; le premier mai, le deux mai: premier only for the first",
+    "contrast_sets": "",
+    "can_do_ids": "CD306;CD307",
+    "branch_group": "row 17",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "ika-nigiri.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T05;T09",
+    "mix": "",
+    "lesson_counts": [
+      9,
+      6,
       7,
       7,
       7
+    ]
+  },
+  {
+    "unit_id": "U72",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 113.2,
+    "title": "Me + You",
+    "topic": "Me + You",
+    "grammar_point": "Moi, toi, lui, eux: after a preposition (avec moi, chez toi); personne and rien with ne",
+    "contrast_sets": "",
+    "can_do_ids": "CD308",
+    "branch_group": "row 17",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "nigiri",
+    "icon_file": "maguro-nigiri-sq.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "",
+    "mix": "vocab",
+    "lesson_counts": [
+      8,
+      11,
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "unit_id": "U38",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 113.5,
+    "title": "Thinking It Over",
+    "topic": "Thinking It Over",
+    "grammar_point": "Un instant. Attends, je réfléchis. Voyons…",
+    "contrast_sets": "",
+    "can_do_ids": "CD309",
+    "branch_group": "row 17.5",
+    "is_topic_pick": "help",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "maki",
+    "icon_file": "salmon-avocado-roll.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T13",
+    "mix": "",
+    "lesson_counts": [
+      4,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "unit_id": "U64",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 114,
+    "title": "Making Plans",
+    "topic": "Making Plans",
+    "grammar_point": "Tu viens ? On va voir un film: aller + a verb for a plan; venir: je viens, il vient; sortir: je sors",
+    "contrast_sets": "",
+    "can_do_ids": "CD310",
+    "branch_group": "row 18",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "maki",
+    "icon_file": "takuan-maki.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T05",
+    "mix": "",
+    "lesson_counts": [
+      5,
+      4,
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "unit_id": "U65",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 115,
+    "title": "My Day",
+    "topic": "My Day",
+    "grammar_point": "Je me lève, je dors: verbs with me; d'abord, ensuite, puis, après: putting the day in order",
+    "contrast_sets": "",
+    "can_do_ids": "CD311",
+    "branch_group": "row 18",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "maki",
+    "icon_file": "philadelphia-roll.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T05",
+    "mix": "",
+    "lesson_counts": [
+      7,
+      4,
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "unit_id": "U73",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 115.2,
+    "title": "Doing Things",
+    "topic": "Doing Things",
+    "grammar_point": "Je prends, je mets, je donne: everyday verbs in the present; aider + a person (j'aide Paul)",
+    "contrast_sets": "",
+    "can_do_ids": "CD312",
+    "branch_group": "row 18",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "maki",
+    "icon_file": "uni-gunkan-sq.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "",
+    "mix": "vocab",
+    "lesson_counts": [
+      8,
+      11,
+      6,
+      5,
+      5
+    ]
+  },
+  {
+    "unit_id": "U66",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 116,
+    "title": "Signs + Notices",
+    "topic": "Signs + Notices",
+    "grammar_point": "Ouvert, fermé: the forms on a sign; le magasin est fermé, la porte est fermée: they agree",
+    "contrast_sets": "",
+    "can_do_ids": "CD313",
+    "branch_group": "row 19",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "maki",
+    "icon_file": "ebi-tempura-roll.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T09",
+    "mix": "",
+    "lesson_counts": [
+      6,
+      4,
+      4,
+      4,
+      5
+    ]
+  },
+  {
+    "unit_id": "U67",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 117,
+    "title": "Timetables",
+    "topic": "Timetables",
+    "grammar_point": "Le train part à huit heures, il arrive à dix heures: partir and arriver; depuis, pendant",
+    "contrast_sets": "",
+    "can_do_ids": "CD314",
+    "branch_group": "row 19",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "temaki",
+    "icon_file": "wakame-temaki.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T09",
+    "mix": "",
+    "lesson_counts": [
+      5,
+      4,
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "unit_id": "U74",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 117.2,
+    "title": "Likes + Opinions",
+    "topic": "Likes + Opinions",
+    "grammar_point": "J'adore, je préfère, je déteste + le, la, les; je pense que, je crois que; ça me plaît",
+    "contrast_sets": "",
+    "can_do_ids": "CD315",
+    "branch_group": "row 19",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "temaki",
+    "icon_file": "ikura-temaki.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "",
+    "mix": "vocab",
+    "lesson_counts": [
+      8,
+      10,
+      5,
+      5,
+      5
+    ]
+  },
+  {
+    "unit_id": "U39",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 117.5,
+    "title": "Not Sure",
+    "topic": "Not Sure",
+    "grammar_point": "Je ne suis pas sûr, pas sûre. Aucune idée. C'est possible.",
+    "contrast_sets": "",
+    "can_do_ids": "CD316",
+    "branch_group": "row 19.5",
+    "is_topic_pick": "help",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "maki",
+    "icon_file": "tekka-maki.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T13",
+    "mix": "",
+    "lesson_counts": [
+      4,
+      3,
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "unit_id": "U68",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 118,
+    "title": "Announcements",
+    "topic": "Announcements",
+    "grammar_point": "Descendez, montez: the vous command; le train a du retard",
+    "contrast_sets": "",
+    "can_do_ids": "CD317",
+    "branch_group": "row 20",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "temaki",
+    "icon_file": "unagi-temaki.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T12",
+    "mix": "",
+    "lesson_counts": [
+      3,
+      2,
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "unit_id": "U69",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 119,
+    "title": "Instructions",
+    "topic": "Instructions",
+    "grammar_point": "Ouvrez, fermez, écoutez: the vous command is the vous form without vous; ouvre, ferme for tu",
+    "contrast_sets": "",
+    "can_do_ids": "CD318",
+    "branch_group": "row 20",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "temaki",
+    "icon_file": "salmon-temaki.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "T12",
+    "mix": "",
+    "lesson_counts": [
+      4,
+      3,
+      4,
+      4,
+      4
+    ]
+  },
+  {
+    "unit_id": "U75",
+    "lang_id": "fr",
+    "cefr": "A1",
+    "order": 119.2,
+    "title": "Places to Visit",
+    "topic": "Places to Visit",
+    "grammar_point": "Visiter un château, rencontrer des gens; le monde: tout le monde (everyone)",
+    "contrast_sets": "",
+    "can_do_ids": "CD319",
+    "branch_group": "row 20",
+    "is_topic_pick": "no",
+    "status": "live",
+    "borrowed_sentence_ids": [],
+    "topic_id": "",
+    "icon_group": "temaki",
+    "icon_file": "uni-temaki.webp",
+    "topic_node": "",
+    "borrow_words": "",
+    "part": 3,
+    "tasks": "",
+    "mix": "vocab",
+    "lesson_counts": [
+      9,
+      12,
+      6,
+      6,
+      6
     ]
   }
 ]
