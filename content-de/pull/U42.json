@@ -1,0 +1,1656 @@
+{
+  "unit_id": "U42",
+  "pulled_at": "2026-11-14",
+  "candidates": 29,
+  "sentences": [
+    {
+      "sentence_id": "S42001",
+      "unit_id": "U42",
+      "french": "Kann ich anrufen?",
+      "english": "Can I call?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6459585",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ruth_tatoeba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42002",
+      "unit_id": "U42",
+      "french": "Hast du ein Handy?",
+      "english": "Do you have a mobile?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "535428",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dejo",
+      "other_english": [
+        "Have you got a mobile?",
+        "Do you have a cell phone?",
+        "Do you have a mobile phone?",
+        "Have you got a mobile phone?"
+      ]
+    },
+    {
+      "sentence_id": "S42003",
+      "unit_id": "U42",
+      "french": "Haben Sie ein Handy?",
+      "english": "Do you have a mobile?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "535431",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": [
+        "Have you got a mobile?",
+        "Do you have a cell phone?",
+        "Do you have a mobile phone?",
+        "Have you got a mobile phone?"
+      ]
+    },
+    {
+      "sentence_id": "S42004",
+      "unit_id": "U42",
+      "french": "Wo ist mein Handy?",
+      "english": "Where's my mobile?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1814448",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tamy",
+      "other_english": [
+        "Where is my mobile?",
+        "Where's my cell phone?"
+      ]
+    },
+    {
+      "sentence_id": "S42005",
+      "unit_id": "U42",
+      "french": "Wie ist deine Nummer?",
+      "english": "What's your number?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10967047",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": [
+        "What's your phone number?"
+      ]
+    },
+    {
+      "sentence_id": "S42006",
+      "unit_id": "U42",
+      "french": "Möchtest du meine Telefonnummer?",
+      "english": "Would you like my phone number?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13178432",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42007",
+      "unit_id": "U42",
+      "french": "Kann ich deine Telefonnummer haben?",
+      "english": "Can I have your phone number?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "452201",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Can I have your telephone number?"
+      ]
+    },
+    {
+      "sentence_id": "S42008",
+      "unit_id": "U42",
+      "french": "Kann ich bitte deine Nummer haben?",
+      "english": "Can I have your number, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5346483",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "RandomUsername",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42009",
+      "unit_id": "U42",
+      "french": "Kann ich bitte Ihre Nummer haben?",
+      "english": "Can I have your number, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5346484",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "RandomUsername",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42010",
+      "unit_id": "U42",
+      "french": "Sie ist siebzehn.",
+      "english": "She's seventeen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2765318",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "She's seventeen years old.",
+        "She is aged seventeen."
+      ]
+    },
+    {
+      "sentence_id": "S42011",
+      "unit_id": "U42",
+      "french": "Ich bin achtzehn.",
+      "english": "I'm eighteen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2993855",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "freddy1",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42012",
+      "unit_id": "U42",
+      "french": "Tom ist dreizehn.",
+      "english": "Tom is thirteen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6615323",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42013",
+      "unit_id": "U42",
+      "french": "Ich bin dreizehn.",
+      "english": "I'm thirteen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8679307",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Melang",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42014",
+      "unit_id": "U42",
+      "french": "Sie ist zwölf.",
+      "english": "She's 12 years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8768984",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42015",
+      "unit_id": "U42",
+      "french": "Ich habe dreizehn Katzen.",
+      "english": "I have 13 cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "551579",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": [
+        "I have thirteen cats.",
+        "I keep thirteen cats."
+      ]
+    },
+    {
+      "sentence_id": "S42016",
+      "unit_id": "U42",
+      "french": "Es ist jetzt elf.",
+      "english": "It's eleven now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1599835",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42017",
+      "unit_id": "U42",
+      "french": "Er hat elf Kinder.",
+      "english": "He has eleven children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2229934",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42018",
+      "unit_id": "U42",
+      "french": "Er hat zwanzig Kinder.",
+      "english": "He has twenty children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4706678",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bonny37",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42019",
+      "unit_id": "U42",
+      "french": "Es ist zwölf Uhr.",
+      "english": "It's twelve o'clock.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6174056",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sprachensprech",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42020",
+      "unit_id": "U42",
+      "french": "Es ist elf Uhr.",
+      "english": "It's eleven o'clock.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8472869",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42021",
+      "unit_id": "U42",
+      "french": "Ich habe deine Telefonnummer nicht.",
+      "english": "I don't have your phone number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10900825",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Headfirst1745",
+      "other_english": [
+        "I don't have your telephone number.",
+        "I haven't got your phone number.",
+        "I haven't got your telephone number."
+      ]
+    },
+    {
+      "sentence_id": "S42022",
+      "unit_id": "U42",
+      "french": "Er hat kein Handy.",
+      "english": "He has no mobile.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1814444",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tamy",
+      "other_english": [
+        "He doesn't have a mobile.",
+        "He hasn't got a mobile.",
+        "He does not have a mobile.",
+        "He doesn't have a mobile phone."
+      ]
+    },
+    {
+      "sentence_id": "S42023",
+      "unit_id": "U42",
+      "french": "Hier ist meine Nummer.",
+      "english": "Here's my number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2810116",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Here is my number."
+      ]
+    },
+    {
+      "sentence_id": "S42024",
+      "unit_id": "U42",
+      "french": "Ich habe keine Nummer.",
+      "english": "I don't have a number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5218491",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": [
+        "I haven't got a number."
+      ]
+    },
+    {
+      "sentence_id": "S42025",
+      "unit_id": "U42",
+      "french": "Ich suche mein Handy.",
+      "english": "I'm looking for my phone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10465027",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": [
+        "I'm looking for my mobile.",
+        "I'm looking for my mobile phone."
+      ]
+    },
+    {
+      "sentence_id": "S42026",
+      "unit_id": "U42",
+      "french": "Ich habe kein Handy.",
+      "english": "I haven't got a mobile.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10703389",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sakslane",
+      "other_english": [
+        "I don't have a mobile phone."
+      ]
+    },
+    {
+      "sentence_id": "S42027",
+      "unit_id": "U42",
+      "french": "Mein Handy ist schön.",
+      "english": "My phone is beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12521100",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Naina",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42028",
+      "unit_id": "U42",
+      "french": "Ich habe deine Nummer nicht.",
+      "english": "I don't have your number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1455570",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Espi",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42029",
+      "unit_id": "U42",
+      "french": "Es ist jetzt elf Uhr.",
+      "english": "It's eleven o'clock now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9974271",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S42001",
+      "position": 1,
+      "surface": "Kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 2,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 3,
+      "surface": "anrufen",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 1,
+      "surface": "Hast",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 4,
+      "surface": "Handy",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 1,
+      "surface": "Haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 4,
+      "surface": "Handy",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 3,
+      "surface": "mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 4,
+      "surface": "Handy",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 3,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 4,
+      "surface": "Nummer",
+      "word_id": "W812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 3,
+      "surface": "meine",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 4,
+      "surface": "Telefonnummer",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 1,
+      "surface": "Kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 2,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 3,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 4,
+      "surface": "Telefonnummer",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 5,
+      "surface": "haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 1,
+      "surface": "Kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 2,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 3,
+      "surface": "bitte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 4,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 5,
+      "surface": "Nummer",
+      "word_id": "W812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 6,
+      "surface": "haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 1,
+      "surface": "Kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 2,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 3,
+      "surface": "bitte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 4,
+      "surface": "Ihre",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 5,
+      "surface": "Nummer",
+      "word_id": "W812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 6,
+      "surface": "haben",
+      "word_id": "W072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 3,
+      "surface": "siebzehn",
+      "word_id": "W823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42011",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42011",
+      "position": 2,
+      "surface": "bin",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42011",
+      "position": 3,
+      "surface": "achtzehn",
+      "word_id": "W824",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 3,
+      "surface": "dreizehn",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 2,
+      "surface": "bin",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 3,
+      "surface": "dreizehn",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 3,
+      "surface": "zwölf",
+      "word_id": "W818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 3,
+      "surface": "dreizehn",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 4,
+      "surface": "Katzen",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 3,
+      "surface": "jetzt",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 4,
+      "surface": "elf",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 2,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 3,
+      "surface": "elf",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 4,
+      "surface": "Kinder",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 2,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 3,
+      "surface": "zwanzig",
+      "word_id": "W826",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 4,
+      "surface": "Kinder",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 3,
+      "surface": "zwölf",
+      "word_id": "W818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 4,
+      "surface": "Uhr",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 3,
+      "surface": "elf",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 4,
+      "surface": "Uhr",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 3,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 4,
+      "surface": "Telefonnummer",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 5,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 2,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 3,
+      "surface": "kein",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 4,
+      "surface": "Handy",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 1,
+      "surface": "Hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 3,
+      "surface": "meine",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 4,
+      "surface": "Nummer",
+      "word_id": "W812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 3,
+      "surface": "keine",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 4,
+      "surface": "Nummer",
+      "word_id": "W812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 2,
+      "surface": "suche",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 3,
+      "surface": "mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 4,
+      "surface": "Handy",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42026",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42026",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42026",
+      "position": 3,
+      "surface": "kein",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42026",
+      "position": 4,
+      "surface": "Handy",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 1,
+      "surface": "Mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 2,
+      "surface": "Handy",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 4,
+      "surface": "schön",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 3,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 4,
+      "surface": "Nummer",
+      "word_id": "W812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 5,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 3,
+      "surface": "jetzt",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 4,
+      "surface": "elf",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 5,
+      "surface": "Uhr",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A420021",
+      "sentence_id": "S42002",
+      "direction": "fr_to_en",
+      "answer": "Have you got a mobile?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420022",
+      "sentence_id": "S42002",
+      "direction": "fr_to_en",
+      "answer": "Do you have a cell phone?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420023",
+      "sentence_id": "S42002",
+      "direction": "fr_to_en",
+      "answer": "Do you have a mobile phone?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420024",
+      "sentence_id": "S42002",
+      "direction": "fr_to_en",
+      "answer": "Have you got a mobile phone?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420031",
+      "sentence_id": "S42003",
+      "direction": "fr_to_en",
+      "answer": "Have you got a mobile?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420032",
+      "sentence_id": "S42003",
+      "direction": "fr_to_en",
+      "answer": "Do you have a cell phone?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420033",
+      "sentence_id": "S42003",
+      "direction": "fr_to_en",
+      "answer": "Do you have a mobile phone?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420034",
+      "sentence_id": "S42003",
+      "direction": "fr_to_en",
+      "answer": "Have you got a mobile phone?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420041",
+      "sentence_id": "S42004",
+      "direction": "fr_to_en",
+      "answer": "Where is my mobile?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420042",
+      "sentence_id": "S42004",
+      "direction": "fr_to_en",
+      "answer": "Where's my cell phone?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420051",
+      "sentence_id": "S42005",
+      "direction": "fr_to_en",
+      "answer": "What's your phone number?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420071",
+      "sentence_id": "S42007",
+      "direction": "fr_to_en",
+      "answer": "Can I have your telephone number?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420101",
+      "sentence_id": "S42010",
+      "direction": "fr_to_en",
+      "answer": "She's seventeen years old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420102",
+      "sentence_id": "S42010",
+      "direction": "fr_to_en",
+      "answer": "She is aged seventeen.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420151",
+      "sentence_id": "S42015",
+      "direction": "fr_to_en",
+      "answer": "I have thirteen cats.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420152",
+      "sentence_id": "S42015",
+      "direction": "fr_to_en",
+      "answer": "I keep thirteen cats.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420211",
+      "sentence_id": "S42021",
+      "direction": "fr_to_en",
+      "answer": "I don't have your telephone number.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420212",
+      "sentence_id": "S42021",
+      "direction": "fr_to_en",
+      "answer": "I haven't got your phone number.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420213",
+      "sentence_id": "S42021",
+      "direction": "fr_to_en",
+      "answer": "I haven't got your telephone number.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420221",
+      "sentence_id": "S42022",
+      "direction": "fr_to_en",
+      "answer": "He doesn't have a mobile.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420222",
+      "sentence_id": "S42022",
+      "direction": "fr_to_en",
+      "answer": "He hasn't got a mobile.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420223",
+      "sentence_id": "S42022",
+      "direction": "fr_to_en",
+      "answer": "He does not have a mobile.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420224",
+      "sentence_id": "S42022",
+      "direction": "fr_to_en",
+      "answer": "He doesn't have a mobile phone.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420231",
+      "sentence_id": "S42023",
+      "direction": "fr_to_en",
+      "answer": "Here is my number.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420241",
+      "sentence_id": "S42024",
+      "direction": "fr_to_en",
+      "answer": "I haven't got a number.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420251",
+      "sentence_id": "S42025",
+      "direction": "fr_to_en",
+      "answer": "I'm looking for my mobile.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420252",
+      "sentence_id": "S42025",
+      "direction": "fr_to_en",
+      "answer": "I'm looking for my mobile phone.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420261",
+      "sentence_id": "S42026",
+      "direction": "fr_to_en",
+      "answer": "I don't have a mobile phone.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

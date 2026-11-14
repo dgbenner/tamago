@@ -1,0 +1,1336 @@
+{
+  "unit_id": "U55",
+  "pulled_at": "2026-11-14",
+  "candidates": 93,
+  "sentences": [
+    {
+      "sentence_id": "S55001",
+      "unit_id": "U55",
+      "french": "¿Tienes papel?",
+      "english": "Do you have paper?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "539401",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55002",
+      "unit_id": "U55",
+      "french": "¿Tienes un lápiz?",
+      "english": "Do you have a pencil?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "868470",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": [
+        "Have you got a pencil?"
+      ]
+    },
+    {
+      "sentence_id": "S55003",
+      "unit_id": "U55",
+      "french": "¿Te gusta estudiar?",
+      "english": "Do you like to study?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "922303",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55004",
+      "unit_id": "U55",
+      "french": "¿Tienes un diccionario?",
+      "english": "Do you have a dictionary?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2654904",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55005",
+      "unit_id": "U55",
+      "french": "¿Es una silla?",
+      "english": "Is it a chair?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3203234",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55006",
+      "unit_id": "U55",
+      "french": "¿Tienen un diccionario?",
+      "english": "Do they have a dictionary?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5045060",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55008",
+      "unit_id": "U55",
+      "french": "¿Tiene usted papel?",
+      "english": "Do you have paper?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11701812",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55010",
+      "unit_id": "U55",
+      "french": "¿Tienes un lápiz rojo?",
+      "english": "Do you have a red pencil?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1457234",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55011",
+      "unit_id": "U55",
+      "french": "¿No tienes un bolígrafo?",
+      "english": "Don't you have a pen?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1496829",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55012",
+      "unit_id": "U55",
+      "french": "¿Qué significa esta pregunta?",
+      "english": "What does this question mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1657164",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55013",
+      "unit_id": "U55",
+      "french": "¿Dónde está el mapa?",
+      "english": "Where's the map?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1993816",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55015",
+      "unit_id": "U55",
+      "french": "¿En qué página estás?",
+      "english": "What page are you on?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4718870",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55017",
+      "unit_id": "U55",
+      "french": "¿Dónde está el bolígrafo?",
+      "english": "Where's the pen?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7248137",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Leono",
+      "other_english": [
+        "Where is the pen?"
+      ]
+    },
+    {
+      "sentence_id": "S55018",
+      "unit_id": "U55",
+      "french": "¿Esto es una pregunta?",
+      "english": "Is this a question?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10162848",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55019",
+      "unit_id": "U55",
+      "french": "¿De quién es este bolígrafo?",
+      "english": "Whose pen is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "849948",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55020",
+      "unit_id": "U55",
+      "french": "¿En qué página está Tom?",
+      "english": "What page is Tom on?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3602969",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ficion",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55022",
+      "unit_id": "U55",
+      "french": "¿Cuántos chicos hay en esta clase?",
+      "english": "How many boys are there in this class?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "514878",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55023",
+      "unit_id": "U55",
+      "french": "¿Cuántos chicos hay en tu clase?",
+      "english": "How many boys are there in your class?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1076519",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55025",
+      "unit_id": "U55",
+      "french": "En este mapa, ¿dónde estoy yo?",
+      "english": "Where am I on this map?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7968486",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55026",
+      "unit_id": "U55",
+      "french": "No estudio.",
+      "english": "I don't study.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5296605",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "baudelaire",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55027",
+      "unit_id": "U55",
+      "french": "Voy a estudiar.",
+      "english": "I'm going to study.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "496844",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "I am going to study."
+      ]
+    },
+    {
+      "sentence_id": "S55029",
+      "unit_id": "U55",
+      "french": "Tom quiere aprender.",
+      "english": "Tom wants to learn.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2166437",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55030",
+      "unit_id": "U55",
+      "french": "Tengo el mapa.",
+      "english": "I have the map.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10799457",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "saverius",
+      "other_english": [
+        "I've got the map."
+      ]
+    },
+    {
+      "sentence_id": "S55031",
+      "unit_id": "U55",
+      "french": "Mañana tengo un examen.",
+      "english": "I have an exam tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "484464",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yolanda",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55032",
+      "unit_id": "U55",
+      "french": "Estudio en la escuela.",
+      "english": "I study at school.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1045289",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55034",
+      "unit_id": "U55",
+      "french": "Estoy aquí para aprender.",
+      "english": "I'm here to learn.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3882762",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55035",
+      "unit_id": "U55",
+      "french": "Me gusta aprender español.",
+      "english": "I like learning Spanish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12891437",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55036",
+      "unit_id": "U55",
+      "french": "Tengo un examen el lunes.",
+      "english": "I have an exam on Monday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4548419",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S55001",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55001",
+      "position": 2,
+      "surface": "papel",
+      "word_id": "W1117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55002",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55002",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55002",
+      "position": 3,
+      "surface": "lápiz",
+      "word_id": "W1119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55003",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55003",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55003",
+      "position": 3,
+      "surface": "estudiar",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55004",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55004",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55004",
+      "position": 3,
+      "surface": "diccionario",
+      "word_id": "W1120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55005",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55005",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55005",
+      "position": 3,
+      "surface": "silla",
+      "word_id": "W1122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55006",
+      "position": 1,
+      "surface": "Tienen",
+      "word_id": "W188",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55006",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55006",
+      "position": 3,
+      "surface": "diccionario",
+      "word_id": "W1120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55008",
+      "position": 1,
+      "surface": "Tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55008",
+      "position": 2,
+      "surface": "usted",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55008",
+      "position": 3,
+      "surface": "papel",
+      "word_id": "W1117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55010",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55010",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55010",
+      "position": 3,
+      "surface": "lápiz",
+      "word_id": "W1119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55010",
+      "position": 4,
+      "surface": "rojo",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55011",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55011",
+      "position": 2,
+      "surface": "tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55011",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55011",
+      "position": 4,
+      "surface": "bolígrafo",
+      "word_id": "W1118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55012",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55012",
+      "position": 2,
+      "surface": "significa",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55012",
+      "position": 3,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55012",
+      "position": 4,
+      "surface": "pregunta",
+      "word_id": "W1115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55013",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55013",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55013",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55013",
+      "position": 4,
+      "surface": "mapa",
+      "word_id": "W1121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55015",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55015",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55015",
+      "position": 3,
+      "surface": "página",
+      "word_id": "W1116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55015",
+      "position": 4,
+      "surface": "estás",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55017",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55017",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55017",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55017",
+      "position": 4,
+      "surface": "bolígrafo",
+      "word_id": "W1118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55018",
+      "position": 1,
+      "surface": "Esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55018",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55018",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55018",
+      "position": 4,
+      "surface": "pregunta",
+      "word_id": "W1115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55019",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55019",
+      "position": 2,
+      "surface": "quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55019",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55019",
+      "position": 4,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55019",
+      "position": 5,
+      "surface": "bolígrafo",
+      "word_id": "W1118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55020",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55020",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55020",
+      "position": 3,
+      "surface": "página",
+      "word_id": "W1116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55020",
+      "position": 4,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55020",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55022",
+      "position": 1,
+      "surface": "Cuántos",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55022",
+      "position": 2,
+      "surface": "chicos",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55022",
+      "position": 3,
+      "surface": "hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55022",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55022",
+      "position": 5,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55022",
+      "position": 6,
+      "surface": "clase",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55023",
+      "position": 1,
+      "surface": "Cuántos",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55023",
+      "position": 2,
+      "surface": "chicos",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55023",
+      "position": 3,
+      "surface": "hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55023",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55023",
+      "position": 5,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55023",
+      "position": 6,
+      "surface": "clase",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55025",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55025",
+      "position": 2,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55025",
+      "position": 3,
+      "surface": "mapa",
+      "word_id": "W1121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55025",
+      "position": 4,
+      "surface": "dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55025",
+      "position": 5,
+      "surface": "estoy",
+      "word_id": "W038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55025",
+      "position": 6,
+      "surface": "yo",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55026",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55026",
+      "position": 2,
+      "surface": "estudio",
+      "word_id": "W1125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55027",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55027",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55027",
+      "position": 3,
+      "surface": "estudiar",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55029",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55029",
+      "position": 2,
+      "surface": "quiere",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55029",
+      "position": 3,
+      "surface": "aprender",
+      "word_id": "W1126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55030",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55030",
+      "position": 2,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55030",
+      "position": 3,
+      "surface": "mapa",
+      "word_id": "W1121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55031",
+      "position": 1,
+      "surface": "Mañana",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55031",
+      "position": 2,
+      "surface": "tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55031",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55031",
+      "position": 4,
+      "surface": "examen",
+      "word_id": "W1123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55032",
+      "position": 1,
+      "surface": "Estudio",
+      "word_id": "W1125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55032",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55032",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55032",
+      "position": 4,
+      "surface": "escuela",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55034",
+      "position": 1,
+      "surface": "Estoy",
+      "word_id": "W038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55034",
+      "position": 2,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55034",
+      "position": 3,
+      "surface": "para",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55034",
+      "position": 4,
+      "surface": "aprender",
+      "word_id": "W1126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55035",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55035",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55035",
+      "position": 3,
+      "surface": "aprender",
+      "word_id": "W1126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55035",
+      "position": 4,
+      "surface": "español",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55036",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55036",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55036",
+      "position": 3,
+      "surface": "examen",
+      "word_id": "W1123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55036",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55036",
+      "position": 5,
+      "surface": "lunes",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A550021",
+      "sentence_id": "S55002",
+      "direction": "fr_to_en",
+      "answer": "Have you got a pencil?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550171",
+      "sentence_id": "S55017",
+      "direction": "fr_to_en",
+      "answer": "Where is the pen?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550271",
+      "sentence_id": "S55027",
+      "direction": "fr_to_en",
+      "answer": "I am going to study.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550301",
+      "sentence_id": "S55030",
+      "direction": "fr_to_en",
+      "answer": "I've got the map.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

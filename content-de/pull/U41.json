@@ -1,0 +1,1586 @@
+{
+  "unit_id": "U41",
+  "pulled_at": "2026-11-14",
+  "candidates": 132,
+  "sentences": [
+    {
+      "sentence_id": "S41001",
+      "unit_id": "U41",
+      "french": "Wie ist Ihr Name?",
+      "english": "What's your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "444710",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "landano",
+      "other_english": [
+        "What is your name?"
+      ]
+    },
+    {
+      "sentence_id": "S41002",
+      "unit_id": "U41",
+      "french": "Wie heißen Ihre Kinder?",
+      "english": "What are your children's names?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5882687",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41003",
+      "unit_id": "U41",
+      "french": "Wie heißen Ihre Katzen?",
+      "english": "What are your cats' names?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10037230",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41004",
+      "unit_id": "U41",
+      "french": "Was bedeutet Ihr Name?",
+      "english": "What does your name mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11827507",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41005",
+      "unit_id": "U41",
+      "french": "Wie heißen sie?",
+      "english": "What are their names?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4819473",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41006",
+      "unit_id": "U41",
+      "french": "Was ist Ihr Hobby?",
+      "english": "What's your hobby?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1308841",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41007",
+      "unit_id": "U41",
+      "french": "Welche Katze ist Ihre?",
+      "english": "Which cat is yours?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1572934",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41008",
+      "unit_id": "U41",
+      "french": "Ist Tom dein Name?",
+      "english": "Is Tom your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6625716",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41009",
+      "unit_id": "U41",
+      "french": "Ich heiße Tom. Und du?",
+      "english": "My name's Tom. What's yours?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5573712",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "My name is Tom. What's yours?"
+      ]
+    },
+    {
+      "sentence_id": "S41010",
+      "unit_id": "U41",
+      "french": "Ich heiße Maria. Und wie heißt du?",
+      "english": "My name is Mary, what's yours?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6934353",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "My name is Mary. What's yours?"
+      ]
+    },
+    {
+      "sentence_id": "S41011",
+      "unit_id": "U41",
+      "french": "Hallo! Ich heiße Tom. Wie heißt du?",
+      "english": "Hi, my name's Tom. What's yours?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7644953",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Hi, my name is Tom. What's yours?",
+        "Hi, my name is Tom. What is yours?",
+        "Hi, my name is Tom. What's your name?"
+      ]
+    },
+    {
+      "sentence_id": "S41012",
+      "unit_id": "U41",
+      "french": "Tom ist mein Vorname.",
+      "english": "Tom is my first name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6469944",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41013",
+      "unit_id": "U41",
+      "french": "Mein Vorname ist nicht Tom.",
+      "english": "My first name is not Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6469947",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41014",
+      "unit_id": "U41",
+      "french": "Wo ist Ihr Haus?",
+      "english": "Where is your house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1391364",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dejo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41015",
+      "unit_id": "U41",
+      "french": "Wer ist Ihr Lehrer?",
+      "english": "Who's your teacher?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1562587",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Who is your teacher?"
+      ]
+    },
+    {
+      "sentence_id": "S41016",
+      "unit_id": "U41",
+      "french": "Wo ist Ihr Geld?",
+      "english": "Where's your money?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2262533",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": [
+        "Where is your money?"
+      ]
+    },
+    {
+      "sentence_id": "S41017",
+      "unit_id": "U41",
+      "french": "Wo ist Ihr Hund?",
+      "english": "Where's your dog?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2293101",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41018",
+      "unit_id": "U41",
+      "french": "Ist er Ihr Lehrer?",
+      "english": "Is he your teacher?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2448522",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41019",
+      "unit_id": "U41",
+      "french": "Wo ist Ihr Freund?",
+      "english": "Where's your friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2918212",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Manfredo",
+      "other_english": [
+        "Where is your friend?"
+      ]
+    },
+    {
+      "sentence_id": "S41020",
+      "unit_id": "U41",
+      "french": "Wie heißt Ihre Katze?",
+      "english": "What's your cat's name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3130492",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41021",
+      "unit_id": "U41",
+      "french": "Wie heißt Ihr Hund?",
+      "english": "What's the name of your dog?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3362491",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "What is the name of your dog?"
+      ]
+    },
+    {
+      "sentence_id": "S41022",
+      "unit_id": "U41",
+      "french": "Ist dein Name Tom?",
+      "english": "Is your name Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6625728",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41023",
+      "unit_id": "U41",
+      "french": "Wo ist Ihre Schule?",
+      "english": "Where's your school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7281663",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "kutschektar",
+      "other_english": [
+        "Where is your school?"
+      ]
+    },
+    {
+      "sentence_id": "S41024",
+      "unit_id": "U41",
+      "french": "Wie heißt Ihre Freundin?",
+      "english": "What's your girlfriend's name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8461980",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41025",
+      "unit_id": "U41",
+      "french": "Wie ist Ihr Englisch?",
+      "english": "How's your English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9996771",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41026",
+      "unit_id": "U41",
+      "french": "Wie heißen deine Katzen?",
+      "english": "What are your cats' names?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10037227",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41027",
+      "unit_id": "U41",
+      "french": "Guten Morgen, wie heißen Sie?",
+      "english": "Good morning, what is your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10303993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "scholarmed",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41028",
+      "unit_id": "U41",
+      "french": "Sind Ihre Kinder hier?",
+      "english": "Are your children here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11254318",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JyojiFujisaki",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41029",
+      "unit_id": "U41",
+      "french": "Was bedeutet dein Name?",
+      "english": "What does your name mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11827402",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "maaster",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41030",
+      "unit_id": "U41",
+      "french": "Trinken Ihre Kinder Milch?",
+      "english": "Do your children drink milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12166115",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mhr",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S41001",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41001",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41001",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41001",
+      "position": 4,
+      "surface": "Name",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 2,
+      "surface": "heißen",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 3,
+      "surface": "Ihre",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 4,
+      "surface": "Kinder",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 2,
+      "surface": "heißen",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 3,
+      "surface": "Ihre",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 4,
+      "surface": "Katzen",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 2,
+      "surface": "bedeutet",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 4,
+      "surface": "Name",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 2,
+      "surface": "heißen",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 3,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 4,
+      "surface": "Hobby",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 1,
+      "surface": "Welche",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 2,
+      "surface": "Katze",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 4,
+      "surface": "Ihre",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 3,
+      "surface": "dein",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 4,
+      "surface": "Name",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 2,
+      "surface": "heiße",
+      "word_id": "W803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 4,
+      "surface": "Und",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 5,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 2,
+      "surface": "heiße",
+      "word_id": "W803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 3,
+      "surface": "Maria",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 4,
+      "surface": "Und",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 5,
+      "surface": "wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 6,
+      "surface": "heißt",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 7,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 1,
+      "surface": "Hallo",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 2,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 3,
+      "surface": "heiße",
+      "word_id": "W803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 5,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 6,
+      "surface": "heißt",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 7,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 3,
+      "surface": "mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 4,
+      "surface": "Vorname",
+      "word_id": "W802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 1,
+      "surface": "Mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 2,
+      "surface": "Vorname",
+      "word_id": "W802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 4,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41014",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41014",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41014",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41014",
+      "position": 4,
+      "surface": "Haus",
+      "word_id": "W029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 1,
+      "surface": "Wer",
+      "word_id": "W106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 4,
+      "surface": "Lehrer",
+      "word_id": "W1007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41016",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41016",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41016",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41016",
+      "position": 4,
+      "surface": "Geld",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 4,
+      "surface": "Hund",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 2,
+      "surface": "er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 4,
+      "surface": "Lehrer",
+      "word_id": "W1007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 4,
+      "surface": "Freund",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 2,
+      "surface": "heißt",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 3,
+      "surface": "Ihre",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 4,
+      "surface": "Katze",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 2,
+      "surface": "heißt",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 4,
+      "surface": "Hund",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41022",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41022",
+      "position": 2,
+      "surface": "dein",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41022",
+      "position": 3,
+      "surface": "Name",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41022",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41023",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41023",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41023",
+      "position": 3,
+      "surface": "Ihre",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41023",
+      "position": 4,
+      "surface": "Schule",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41024",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41024",
+      "position": 2,
+      "surface": "heißt",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41024",
+      "position": 3,
+      "surface": "Ihre",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41024",
+      "position": 4,
+      "surface": "Freundin",
+      "word_id": "W103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41025",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41025",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41025",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41025",
+      "position": 4,
+      "surface": "Englisch",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41026",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41026",
+      "position": 2,
+      "surface": "heißen",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41026",
+      "position": 3,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41026",
+      "position": 4,
+      "surface": "Katzen",
+      "word_id": "W077",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41027",
+      "position": 1,
+      "surface": "Guten Morgen",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41027",
+      "position": 2,
+      "surface": "wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41027",
+      "position": 3,
+      "surface": "heißen",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41027",
+      "position": 4,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41028",
+      "position": 1,
+      "surface": "Sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41028",
+      "position": 2,
+      "surface": "Ihre",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41028",
+      "position": 3,
+      "surface": "Kinder",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41028",
+      "position": 4,
+      "surface": "hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41029",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41029",
+      "position": 2,
+      "surface": "bedeutet",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41029",
+      "position": 3,
+      "surface": "dein",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41029",
+      "position": 4,
+      "surface": "Name",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41030",
+      "position": 1,
+      "surface": "Trinken",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41030",
+      "position": 2,
+      "surface": "Ihre",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41030",
+      "position": 3,
+      "surface": "Kinder",
+      "word_id": "W078",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41030",
+      "position": 4,
+      "surface": "Milch",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A410011",
+      "sentence_id": "S41001",
+      "direction": "fr_to_en",
+      "answer": "What is your name?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410091",
+      "sentence_id": "S41009",
+      "direction": "fr_to_en",
+      "answer": "My name is Tom. What's yours?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410101",
+      "sentence_id": "S41010",
+      "direction": "fr_to_en",
+      "answer": "My name is Mary. What's yours?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410111",
+      "sentence_id": "S41011",
+      "direction": "fr_to_en",
+      "answer": "Hi, my name is Tom. What's yours?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410112",
+      "sentence_id": "S41011",
+      "direction": "fr_to_en",
+      "answer": "Hi, my name is Tom. What is yours?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410113",
+      "sentence_id": "S41011",
+      "direction": "fr_to_en",
+      "answer": "Hi, my name is Tom. What's your name?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410151",
+      "sentence_id": "S41015",
+      "direction": "fr_to_en",
+      "answer": "Who is your teacher?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410161",
+      "sentence_id": "S41016",
+      "direction": "fr_to_en",
+      "answer": "Where is your money?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410191",
+      "sentence_id": "S41019",
+      "direction": "fr_to_en",
+      "answer": "Where is your friend?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410211",
+      "sentence_id": "S41021",
+      "direction": "fr_to_en",
+      "answer": "What is the name of your dog?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410231",
+      "sentence_id": "S41023",
+      "direction": "fr_to_en",
+      "answer": "Where is your school?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

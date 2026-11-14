@@ -1,0 +1,925 @@
+{
+  "unit_id": "U47",
+  "pulled_at": "2026-11-14",
+  "candidates": 184,
+  "sentences": [
+    {
+      "sentence_id": "S47001",
+      "unit_id": "U47",
+      "french": "¿Qué verdura quieres comprar?",
+      "english": "What vegetables do you want to buy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4749465",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47002",
+      "unit_id": "U47",
+      "french": "¿Qué quieres comprar?",
+      "english": "What do you want to buy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1786792",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47003",
+      "unit_id": "U47",
+      "french": "¿Quieres comprar leche?",
+      "english": "Do you want to buy some milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10044371",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47004",
+      "unit_id": "U47",
+      "french": "Quiero huevos.",
+      "english": "I want eggs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9706882",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47005",
+      "unit_id": "U47",
+      "french": "¿Cómo quieres los huevos?",
+      "english": "How would you like your eggs?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1334166",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47006",
+      "unit_id": "U47",
+      "french": "¿Tienes huevos?",
+      "english": "Do you have eggs?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3241110",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47007",
+      "unit_id": "U47",
+      "french": "¿Qué compras?",
+      "english": "What are you buying?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7536641",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47009",
+      "unit_id": "U47",
+      "french": "¿Por qué no comes verdura?",
+      "english": "Why don't you eat vegetables?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2908",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47010",
+      "unit_id": "U47",
+      "french": "¿Dónde está el mercado?",
+      "english": "Where is the market?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3742058",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47011",
+      "unit_id": "U47",
+      "french": "Quiero comprar.",
+      "english": "I want to buy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "562529",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47012",
+      "unit_id": "U47",
+      "french": "Como fruta.",
+      "english": "I eat fruit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1546442",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47013",
+      "unit_id": "U47",
+      "french": "Comen fruta.",
+      "english": "They eat fruit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10106320",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47014",
+      "unit_id": "U47",
+      "french": "¡Come fruta!",
+      "english": "Eat fruit!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13614996",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47015",
+      "unit_id": "U47",
+      "french": "Voy al mercado.",
+      "english": "I go to the market.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5546581",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "baudelaire",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47016",
+      "unit_id": "U47",
+      "french": "Compro unas gafas.",
+      "english": "I'm buying some glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8324036",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47018",
+      "unit_id": "U47",
+      "french": "Yo te compro uno nuevo.",
+      "english": "I'll buy you a new one.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2893722",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "I'm buying you a new one."
+      ]
+    },
+    {
+      "sentence_id": "S47020",
+      "unit_id": "U47",
+      "french": "¿Por qué quieres comprar eso?",
+      "english": "Why do you want to buy that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2372091",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47021",
+      "unit_id": "U47",
+      "french": "¿Por qué quieres comprar este libro?",
+      "english": "Why do you want to buy this book?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1281776",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47023",
+      "unit_id": "U47",
+      "french": "¿Qué quieres?",
+      "english": "What do you want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2802",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "What is it that you want?"
+      ]
+    },
+    {
+      "sentence_id": "S47025",
+      "unit_id": "U47",
+      "french": "¿Quieres bailar?",
+      "english": "Do you want to dance?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "539408",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Would you like to dance?"
+      ]
+    },
+    {
+      "sentence_id": "S47026",
+      "unit_id": "U47",
+      "french": "¿Cuántos quieres?",
+      "english": "How many do you want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1032757",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47027",
+      "unit_id": "U47",
+      "french": "¿Cuál quieres?",
+      "english": "Which one do you want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1993801",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S47028",
+      "unit_id": "U47",
+      "french": "¿Quieres más?",
+      "english": "Do you want more?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2319977",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "Would you like any more?"
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S47001",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47001",
+      "position": 2,
+      "surface": "verdura",
+      "word_id": "W877",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47001",
+      "position": 3,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47001",
+      "position": 4,
+      "surface": "comprar",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47002",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47002",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47002",
+      "position": 3,
+      "surface": "comprar",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47003",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47003",
+      "position": 2,
+      "surface": "comprar",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47003",
+      "position": 3,
+      "surface": "leche",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47004",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47004",
+      "position": 2,
+      "surface": "huevos",
+      "word_id": "W878",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47005",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47005",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47005",
+      "position": 3,
+      "surface": "los",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47005",
+      "position": 4,
+      "surface": "huevos",
+      "word_id": "W878",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47006",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47006",
+      "position": 2,
+      "surface": "huevos",
+      "word_id": "W878",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47007",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47007",
+      "position": 2,
+      "surface": "compras",
+      "word_id": "W872",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47009",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47009",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47009",
+      "position": 3,
+      "surface": "comes",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47009",
+      "position": 4,
+      "surface": "verdura",
+      "word_id": "W877",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47010",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47010",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47010",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47010",
+      "position": 4,
+      "surface": "mercado",
+      "word_id": "W869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47011",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47011",
+      "position": 2,
+      "surface": "comprar",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47012",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47012",
+      "position": 2,
+      "surface": "fruta",
+      "word_id": "W876",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47013",
+      "position": 1,
+      "surface": "Comen",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47013",
+      "position": 2,
+      "surface": "fruta",
+      "word_id": "W876",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47014",
+      "position": 1,
+      "surface": "Come",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47014",
+      "position": 2,
+      "surface": "fruta",
+      "word_id": "W876",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47015",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47015",
+      "position": 2,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47015",
+      "position": 3,
+      "surface": "mercado",
+      "word_id": "W869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47016",
+      "position": 1,
+      "surface": "Compro",
+      "word_id": "W871",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47016",
+      "position": 2,
+      "surface": "unas",
+      "word_id": "W073",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47016",
+      "position": 3,
+      "surface": "gafas",
+      "word_id": "W1109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47018",
+      "position": 1,
+      "surface": "Yo",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47018",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47018",
+      "position": 3,
+      "surface": "compro",
+      "word_id": "W871",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47018",
+      "position": 4,
+      "surface": "uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47018",
+      "position": 5,
+      "surface": "nuevo",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47020",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47020",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47020",
+      "position": 3,
+      "surface": "comprar",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47020",
+      "position": 4,
+      "surface": "eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47021",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47021",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47021",
+      "position": 3,
+      "surface": "comprar",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47021",
+      "position": 4,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47021",
+      "position": 5,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47023",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47023",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47025",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47025",
+      "position": 2,
+      "surface": "bailar",
+      "word_id": "W1020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47026",
+      "position": 1,
+      "surface": "Cuántos",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47026",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47027",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47027",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47028",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S47028",
+      "position": 2,
+      "surface": "más",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A470181",
+      "sentence_id": "S47018",
+      "direction": "fr_to_en",
+      "answer": "I'm buying you a new one.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A470231",
+      "sentence_id": "S47023",
+      "direction": "fr_to_en",
+      "answer": "What is it that you want?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A470251",
+      "sentence_id": "S47025",
+      "direction": "fr_to_en",
+      "answer": "Would you like to dance?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A470281",
+      "sentence_id": "S47028",
+      "direction": "fr_to_en",
+      "answer": "Would you like any more?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -284,7 +284,17 @@ async function french(form) {
     const entries = (defs?.[C.wiktionaryCode] ?? []).map((e) => ({ pos: e.partOfSpeech, definitions: e.definitions.map((x) => clean(x.definition)).filter(Boolean) }))
     if (entries.length) return entries
   }
-  return []
+  // Wiktionary's summary leaves out some headings (Spanish cien sits under ===Number===; mucha has none listed): read
+  // the course's section of the page itself, each part-of-speech heading and its # definitions (2026-11-14).
+  const section = await frenchWikitext(form)
+  const out = []
+  for (const m of section.matchAll(/\n===+ *(Number|Numeral|Adjective|Determiner|Noun|Verb|Adverb|Pronoun|Interjection|Preposition|Conjunction|Proper noun) *===+\n([\s\S]*?)(?=\n===|$)/g)) {
+    const defs = [...m[2].matchAll(/^# (?!:)(.+)$/gm)].map((d) => d[1]
+      .replace(/\{\{(?:feminine singular of|feminine of|plural of|masculine plural of|feminine plural of)\|[a-z]+\|([^}|]+)[^}]*\}\}/g, 'feminine singular of $1')
+      .replace(/\{\{gl\|([^}]*)\}\}/g, '($1)').replace(/\{\{[^}]*\}\}/g, '').replace(/\[\[(?:[^\]|]*\|)?([^\]]*)\]\]/g, '$1').replace(/'''?/g, '').trim()).filter(Boolean)
+    if (defs.length) out.push({ pos: m[1] === 'Number' ? 'Numeral' : m[1], definitions: defs })
+  }
+  return out
 }
 
 async function frenchWikitext(form) {

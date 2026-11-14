@@ -1772,6 +1772,1022 @@
       "source": "tatoeba",
       "source_id": "8819374",
       "source_owner": "carlosalberto"
+    },
+    {
+      "sentence_id": "S41101",
+      "unit_id": "U41",
+      "french": "¿Cuál es tu apellido?",
+      "english": "What's your last name?",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S41102",
+      "unit_id": "U41",
+      "french": "Mi apellido es López.",
+      "english": "My last name is López.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S41103",
+      "unit_id": "U41",
+      "french": "Encantado, María.",
+      "english": "Nice to meet you, María.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S41104",
+      "unit_id": "U41",
+      "french": "Encantada, señor.",
+      "english": "Nice to meet you, sir.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S41105",
+      "unit_id": "U41",
+      "french": "Hola, soy Tom. Encantado.",
+      "english": "Hi, I'm Tom. Nice to meet you.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S41106",
+      "unit_id": "U41",
+      "french": "Hola, soy Ana. Encantada.",
+      "english": "Hi, I'm Ana. Nice to meet you.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S41107",
+      "unit_id": "U41",
+      "french": "Encantado, señora López.",
+      "english": "Nice to meet you, Mrs. López.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S41108",
+      "unit_id": "U41",
+      "french": "Encantada, Juan.",
+      "english": "Nice to meet you, Juan.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S41109",
+      "unit_id": "U41",
+      "french": "¿Cómo se llama usted?",
+      "english": "What's your name?",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S41110",
+      "unit_id": "U41",
+      "french": "Me llamo Carlos García.",
+      "english": "My name is Carlos García.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S41111",
+      "unit_id": "U41",
+      "french": "Me llaman Luis.",
+      "english": "They call me Luis.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S41112",
+      "unit_id": "U41",
+      "french": "¿Cómo te llaman tus amigos?",
+      "english": "What do your friends call you?",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S41113",
+      "unit_id": "U41",
+      "french": "Mi nombre es Pedro.",
+      "english": "My name is Pedro.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S54101",
+      "unit_id": "U54",
+      "french": "Llevo una camisa blanca.",
+      "english": "I'm wearing a white shirt.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S54102",
+      "unit_id": "U54",
+      "french": "¿Llevas pantalones hoy?",
+      "english": "Are you wearing pants today?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S54103",
+      "unit_id": "U54",
+      "french": "Los pantalones están en la cama.",
+      "english": "The pants are on the bed.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S34101",
+      "unit_id": "U34",
+      "french": "¿Cómo se escribe?",
+      "english": "How do you spell it?",
+      "notes": "draft: help phrase checked Tatoeba lacks"
+    },
+    {
+      "sentence_id": "S34102",
+      "unit_id": "U34",
+      "french": "¿Cómo se escribe su nombre?",
+      "english": "How do you spell your name?",
+      "notes": "draft: help phrase checked Tatoeba lacks"
+    },
+    {
+      "sentence_id": "S34103",
+      "unit_id": "U34",
+      "french": "¿Puede deletrear eso, por favor?",
+      "english": "Can you spell that, please?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S34104",
+      "unit_id": "U34",
+      "french": "Esta letra es muy pequeña.",
+      "english": "This letter is very small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S34105",
+      "unit_id": "U34",
+      "french": "No entiendo esta letra.",
+      "english": "I don't understand this letter.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S42101",
+      "unit_id": "U42",
+      "french": "Mi número es cero, once, quince, diecisiete.",
+      "english": "My number is zero, eleven, fifteen, seventeen.",
+      "notes": "QT09 pair; draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42102",
+      "unit_id": "U42",
+      "french": "Mi número es cero, catorce, dieciocho, diecinueve.",
+      "english": "My number is zero, fourteen, eighteen, nineteen.",
+      "notes": "QT09 pair; draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42103",
+      "unit_id": "U42",
+      "french": "Su número es cero, doce, catorce, dieciséis.",
+      "english": "Her number is zero, twelve, fourteen, sixteen.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42104",
+      "unit_id": "U42",
+      "french": "¿Cuál es el número de Tom?",
+      "english": "What's Tom's number?",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S42105",
+      "unit_id": "U42",
+      "french": "El número de Tom es cero, trece, diecinueve, veinte.",
+      "english": "Tom's number is zero, thirteen, nineteen, twenty.",
+      "notes": "QT09 pair; draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42106",
+      "unit_id": "U42",
+      "french": "No, no tengo celular.",
+      "english": "No, I don't have a cell phone.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S42107",
+      "unit_id": "U42",
+      "french": "Trece más dos es quince.",
+      "english": "Thirteen plus two is fifteen.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42108",
+      "unit_id": "U42",
+      "french": "Diez más seis es dieciséis.",
+      "english": "Ten plus six is sixteen.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42109",
+      "unit_id": "U42",
+      "french": "Once más tres es catorce.",
+      "english": "Eleven plus three is fourteen.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42110",
+      "unit_id": "U42",
+      "french": "Doce más cinco es diecisiete.",
+      "english": "Twelve plus five is seventeen.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42111",
+      "unit_id": "U42",
+      "french": "Nueve más nueve es dieciocho.",
+      "english": "Nine plus nine is eighteen.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42112",
+      "unit_id": "U42",
+      "french": "Diez más diez es veinte.",
+      "english": "Ten plus ten is twenty.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42113",
+      "unit_id": "U42",
+      "french": "Hay once niños en el parque.",
+      "english": "There are eleven children in the park.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42114",
+      "unit_id": "U42",
+      "french": "Hay trece libros aquí.",
+      "english": "There are thirteen books here.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42115",
+      "unit_id": "U42",
+      "french": "Hay quince perros.",
+      "english": "There are fifteen dogs.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42116",
+      "unit_id": "U42",
+      "french": "Tom tiene dieciséis libros.",
+      "english": "Tom has sixteen books.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42117",
+      "unit_id": "U42",
+      "french": "Hay diecisiete gatos en la casa.",
+      "english": "There are seventeen cats in the house.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S42118",
+      "unit_id": "U42",
+      "french": "Mi celular es nuevo.",
+      "english": "My cell phone is new.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S42119",
+      "unit_id": "U42",
+      "french": "Voy a llamar a mi madre.",
+      "english": "I'm going to call my mother.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S43101",
+      "unit_id": "U43",
+      "french": "¿Cuántos años tienes?",
+      "english": "How old are you?",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S43102",
+      "unit_id": "U43",
+      "french": "Tengo veinte años.",
+      "english": "I'm twenty years old.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S43103",
+      "unit_id": "U43",
+      "french": "Sí, hoy es mi cumpleaños.",
+      "english": "Yes, today is my birthday.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S43104",
+      "unit_id": "U43",
+      "french": "No, tengo doce años.",
+      "english": "No, I'm twelve years old.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S43105",
+      "unit_id": "U43",
+      "french": "Mi cumpleaños es este mes.",
+      "english": "My birthday is this month.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S43106",
+      "unit_id": "U43",
+      "french": "Tengo un mes de vacaciones.",
+      "english": "I have a month of vacation.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S55101",
+      "unit_id": "U55",
+      "french": "La silla es pequeña.",
+      "english": "The chair is small.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S55102",
+      "unit_id": "U55",
+      "french": "Hay una silla en la cocina.",
+      "english": "There's a chair in the kitchen.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S55103",
+      "unit_id": "U55",
+      "french": "Estudio español.",
+      "english": "I study Spanish.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S55104",
+      "unit_id": "U55",
+      "french": "Tengo una pregunta.",
+      "english": "I have a question.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "338693",
+      "source_owner": "Sprachprofi"
+    },
+    {
+      "sentence_id": "S55105",
+      "unit_id": "U55",
+      "french": "Me gusta estudiar en casa.",
+      "english": "I like studying at home.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S55106",
+      "unit_id": "U55",
+      "french": "El examen es hoy.",
+      "english": "The exam is today.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S55107",
+      "unit_id": "U55",
+      "french": "Mi lápiz es amarillo.",
+      "english": "My pencil is yellow.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S55108",
+      "unit_id": "U55",
+      "french": "Mi clase es grande.",
+      "english": "My class is big.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S55109",
+      "unit_id": "U55",
+      "french": "Estoy en la página cinco.",
+      "english": "I'm on page five.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S55110",
+      "unit_id": "U55",
+      "french": "El papel es blanco.",
+      "english": "The paper is white.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S55111",
+      "unit_id": "U55",
+      "french": "Busco un diccionario.",
+      "english": "I'm looking for a dictionary.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S35101",
+      "unit_id": "U35",
+      "french": "¿Puede repetir el número?",
+      "english": "Can you repeat the number?",
+      "notes": "draft: help phrase checked Tatoeba lacks"
+    },
+    {
+      "sentence_id": "S35102",
+      "unit_id": "U35",
+      "french": "¿Puede repetir, por favor?",
+      "english": "Could you repeat that, please?",
+      "notes": "draft: help phrase checked Tatoeba lacks"
+    },
+    {
+      "sentence_id": "S44101",
+      "unit_id": "U44",
+      "french": "Veinte más treinta son cincuenta.",
+      "english": "Twenty plus thirty is fifty.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S44102",
+      "unit_id": "U44",
+      "french": "Cincuenta más diez son sesenta.",
+      "english": "Fifty plus ten is sixty.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S44103",
+      "unit_id": "U44",
+      "french": "Treinta más treinta son sesenta.",
+      "english": "Thirty plus thirty is sixty.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S44104",
+      "unit_id": "U44",
+      "french": "Sesenta más diez son setenta.",
+      "english": "Sixty plus ten is seventy.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S44105",
+      "unit_id": "U44",
+      "french": "Setenta más diez son ochenta.",
+      "english": "Seventy plus ten is eighty.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S44106",
+      "unit_id": "U44",
+      "french": "Cuarenta más cincuenta son noventa.",
+      "english": "Forty plus fifty is ninety.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S44107",
+      "unit_id": "U44",
+      "french": "Noventa más diez son cien.",
+      "english": "Ninety plus ten is a hundred.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S44108",
+      "unit_id": "U44",
+      "french": "Ella tiene noventa años.",
+      "english": "She's ninety years old.",
+      "notes": "draft: Tatoeba writes numbers as digits, so checked sentences with this word are too few"
+    },
+    {
+      "sentence_id": "S44109",
+      "unit_id": "U44",
+      "french": "¿Cuántos años tiene Tom?",
+      "english": "How old is Tom?",
+      "notes": "QT09 pair; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "2629619",
+      "source_owner": "Shishir"
+    },
+    {
+      "sentence_id": "S44110",
+      "unit_id": "U44",
+      "french": "¿Cuántos años tiene él?",
+      "english": "How old is he?",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S44111",
+      "unit_id": "U44",
+      "french": "¿Tienes cuarenta años?",
+      "english": "Are you forty?",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S44112",
+      "unit_id": "U44",
+      "french": "No, tengo cincuenta años.",
+      "english": "No, I'm fifty.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S44113",
+      "unit_id": "U44",
+      "french": "¿Tienes treinta años?",
+      "english": "Are you thirty?",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S44114",
+      "unit_id": "U44",
+      "french": "Sí, tengo treinta años.",
+      "english": "Yes, I'm thirty.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S45101",
+      "unit_id": "U45",
+      "french": "Mi dirección es calle Juárez, número diez.",
+      "english": "My address is 10 Juárez Street.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S45102",
+      "unit_id": "U45",
+      "french": "Vivo en este país.",
+      "english": "I live in this country.",
+      "notes": "QT09 pair; draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S45103",
+      "unit_id": "U45",
+      "french": "No, Tom vive cerca.",
+      "english": "No, Tom lives nearby.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S45104",
+      "unit_id": "U45",
+      "french": "Me gusta vivir aquí.",
+      "english": "I like living here.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "1820035",
+      "source_owner": "Shishir"
+    },
+    {
+      "sentence_id": "S45105",
+      "unit_id": "U45",
+      "french": "Vivo en el piso cinco.",
+      "english": "I live on the fifth floor.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S56101",
+      "unit_id": "U56",
+      "french": "Tom es bajo.",
+      "english": "Tom is short.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "2137823",
+      "source_owner": "Shishir"
+    },
+    {
+      "sentence_id": "S56102",
+      "unit_id": "U56",
+      "french": "Mi padre es bajo y delgado.",
+      "english": "My father is short and thin.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S56103",
+      "unit_id": "U56",
+      "french": "Ana es baja.",
+      "english": "Ana is short.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S56104",
+      "unit_id": "U56",
+      "french": "Mi madre es baja y delgada.",
+      "english": "My mother is short and thin.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S56105",
+      "unit_id": "U56",
+      "french": "María es delgada.",
+      "english": "María is thin.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S56106",
+      "unit_id": "U56",
+      "french": "Él es alto y moreno.",
+      "english": "He's tall and dark-haired.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S56107",
+      "unit_id": "U56",
+      "french": "Tom es moreno.",
+      "english": "Tom has dark hair.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S56108",
+      "unit_id": "U56",
+      "french": "Mi hermano es moreno.",
+      "english": "My brother has dark hair.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S56109",
+      "unit_id": "U56",
+      "french": "Mi padre tiene barba.",
+      "english": "My father has a beard.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S56110",
+      "unit_id": "U56",
+      "french": "Mi pelo es corto.",
+      "english": "My hair is short.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S46101",
+      "unit_id": "U46",
+      "french": "Sí, soy mexicano.",
+      "english": "Yes, I'm Mexican.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S46102",
+      "unit_id": "U46",
+      "french": "No, soy de México.",
+      "english": "No, I'm from Mexico.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S46103",
+      "unit_id": "U46",
+      "french": "Sí, hablo francés.",
+      "english": "Yes, I speak French.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S46104",
+      "unit_id": "U46",
+      "french": "No, soy mexicano.",
+      "english": "No, I'm Mexican.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S47101",
+      "unit_id": "U47",
+      "french": "Quiero comprar fruta.",
+      "english": "I want to buy fruit.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S47102",
+      "unit_id": "U47",
+      "french": "Compro un kilo de manzanas.",
+      "english": "I'm buying a kilo of apples.",
+      "notes": "QT09 pair; draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S47103",
+      "unit_id": "U47",
+      "french": "El mercado está cerca.",
+      "english": "The market is nearby.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S47104",
+      "unit_id": "U47",
+      "french": "No, quiero comprar huevos.",
+      "english": "No, I want to buy eggs.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S47105",
+      "unit_id": "U47",
+      "french": "Quiero un kilo.",
+      "english": "I want a kilo.",
+      "notes": "QT09 pair; draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S47106",
+      "unit_id": "U47",
+      "french": "Un kilo de queso, por favor.",
+      "english": "A kilo of cheese, please.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S47107",
+      "unit_id": "U47",
+      "french": "¿Compras fruta en el mercado?",
+      "english": "Do you buy fruit at the market?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S47108",
+      "unit_id": "U47",
+      "french": "¿Dónde compras el pan?",
+      "english": "Where do you buy bread?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S47109",
+      "unit_id": "U47",
+      "french": "Compro verdura en el mercado.",
+      "english": "I buy vegetables at the market.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S57101",
+      "unit_id": "U57",
+      "french": "El café es malo.",
+      "english": "The coffee is bad.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S57102",
+      "unit_id": "U57",
+      "french": "No es malo.",
+      "english": "It's not bad.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S57103",
+      "unit_id": "U57",
+      "french": "El perro es feo.",
+      "english": "The dog is ugly.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S57104",
+      "unit_id": "U57",
+      "french": "Mi coche es lento.",
+      "english": "My car is slow.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S57105",
+      "unit_id": "U57",
+      "french": "El libro es interesante.",
+      "english": "The book is interesting.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S57106",
+      "unit_id": "U57",
+      "french": "El parque está abierto.",
+      "english": "The park is open.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S57107",
+      "unit_id": "U57",
+      "french": "El hotel está cerrado.",
+      "english": "The hotel is closed.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S36101",
+      "unit_id": "U36",
+      "french": "De acuerdo.",
+      "english": "OK.",
+      "notes": "draft: help phrase checked Tatoeba lacks"
+    },
+    {
+      "sentence_id": "S36102",
+      "unit_id": "U36",
+      "french": "Sí, de acuerdo.",
+      "english": "Yes, all right.",
+      "notes": "draft: help phrase checked Tatoeba lacks"
+    },
+    {
+      "sentence_id": "S36103",
+      "unit_id": "U36",
+      "french": "Hablas español, ¿verdad?",
+      "english": "You speak Spanish, right?",
+      "notes": "draft: help phrase checked Tatoeba lacks"
+    },
+    {
+      "sentence_id": "S36104",
+      "unit_id": "U36",
+      "french": "Es tu número, ¿verdad?",
+      "english": "It's your number, right?",
+      "notes": "draft: help phrase checked Tatoeba lacks"
+    },
+    {
+      "sentence_id": "S36105",
+      "unit_id": "U36",
+      "french": "Exacto.",
+      "english": "Exactly.",
+      "notes": "draft: help phrase checked Tatoeba lacks"
+    },
+    {
+      "sentence_id": "S36106",
+      "unit_id": "U36",
+      "french": "Comprendo, gracias.",
+      "english": "I understand, thanks.",
+      "notes": "draft: help phrase checked Tatoeba lacks"
+    },
+    {
+      "sentence_id": "S48101",
+      "unit_id": "U48",
+      "french": "¿Cuánto cuesta?",
+      "english": "How much does it cost?",
+      "notes": "QT09 pair; draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48102",
+      "unit_id": "U48",
+      "french": "Cuesta cien pesos.",
+      "english": "It costs a hundred pesos.",
+      "notes": "QT09 pair; draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48103",
+      "unit_id": "U48",
+      "french": "¿Cuánto cuestan los huevos?",
+      "english": "How much are the eggs?",
+      "notes": "QT09 pair; draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48104",
+      "unit_id": "U48",
+      "french": "Los huevos cuestan cuarenta pesos.",
+      "english": "The eggs cost forty pesos.",
+      "notes": "QT09 pair; draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48105",
+      "unit_id": "U48",
+      "french": "¿Cuánto es?",
+      "english": "How much is it?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word; drafted, then found on Tatoeba from a checked owner",
+      "source": "tatoeba",
+      "source_id": "988375",
+      "source_owner": "Shishir"
+    },
+    {
+      "sentence_id": "S48106",
+      "unit_id": "U48",
+      "french": "Cuesta un peso.",
+      "english": "It costs one peso.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48107",
+      "unit_id": "U48",
+      "french": "Tengo un peso.",
+      "english": "I have one peso.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48108",
+      "unit_id": "U48",
+      "french": "Aquí está un peso.",
+      "english": "Here's one peso.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48109",
+      "unit_id": "U48",
+      "french": "Cuesta diez pesos.",
+      "english": "It costs ten pesos.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48110",
+      "unit_id": "U48",
+      "french": "Las manzanas cuestan treinta pesos.",
+      "english": "The apples cost thirty pesos.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48111",
+      "unit_id": "U48",
+      "french": "Los libros cuestan cien pesos.",
+      "english": "The books cost a hundred pesos.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48112",
+      "unit_id": "U48",
+      "french": "¿Cuál es el precio?",
+      "english": "What's the price?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48113",
+      "unit_id": "U48",
+      "french": "Quiero pagar, por favor.",
+      "english": "I'd like to pay, please.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48114",
+      "unit_id": "U48",
+      "french": "No tengo tarjeta.",
+      "english": "I don't have a card.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S48115",
+      "unit_id": "U48",
+      "french": "¿Tienes tarjeta?",
+      "english": "Do you have a card?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S49101",
+      "unit_id": "U49",
+      "french": "Un paquete de galletas, por favor.",
+      "english": "A packet of cookies, please.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S49102",
+      "unit_id": "U49",
+      "french": "¿Qué hay en el paquete?",
+      "english": "What's in the package?",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S49103",
+      "unit_id": "U49",
+      "french": "Tengo bastante dinero.",
+      "english": "I have enough money.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S49104",
+      "unit_id": "U49",
+      "french": "Quiero un poco de agua.",
+      "english": "I'd like a little water.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S49105",
+      "unit_id": "U49",
+      "french": "Hay poco pan.",
+      "english": "There isn't much bread.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S49106",
+      "unit_id": "U49",
+      "french": "Me gusta mucho.",
+      "english": "I like it a lot.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S49107",
+      "unit_id": "U49",
+      "french": "Hay manzanas en la caja.",
+      "english": "There are apples in the box.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S49108",
+      "unit_id": "U49",
+      "french": "Sí, una bolsa, por favor.",
+      "english": "Yes, a bag, please.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S49109",
+      "unit_id": "U49",
+      "french": "Tu botella está en la mesa.",
+      "english": "Your bottle is on the table.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S49110",
+      "unit_id": "U49",
+      "french": "No, no tengo bolsa.",
+      "english": "No, I don't have a bag.",
+      "notes": "QT09 pair"
+    },
+    {
+      "sentence_id": "S58101",
+      "unit_id": "U58",
+      "french": "Me gusta el mar.",
+      "english": "I like the sea.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S58102",
+      "unit_id": "U58",
+      "french": "El mar está frío hoy.",
+      "english": "The sea is cold today.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S58103",
+      "unit_id": "U58",
+      "french": "Hay un lago en el parque.",
+      "english": "There's a lake in the park.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
+    },
+    {
+      "sentence_id": "S58104",
+      "unit_id": "U58",
+      "french": "El cielo está bonito hoy.",
+      "english": "The sky is beautiful today.",
+      "notes": "draft: Tatoeba had too few checked sentences for this word"
     }
   ],
   "qa_answers": [
@@ -2038,6 +3054,170 @@
     {
       "question_sentence_id": "S33001",
       "answer_sentence_id": "S33003"
+    },
+    {
+      "question_sentence_id": "S41001",
+      "answer_sentence_id": "S41014"
+    },
+    {
+      "question_sentence_id": "S41101",
+      "answer_sentence_id": "S41102"
+    },
+    {
+      "question_sentence_id": "S41109",
+      "answer_sentence_id": "S41110"
+    },
+    {
+      "question_sentence_id": "S41002",
+      "answer_sentence_id": "S41113"
+    },
+    {
+      "question_sentence_id": "S41112",
+      "answer_sentence_id": "S41006"
+    },
+    {
+      "question_sentence_id": "S42005",
+      "answer_sentence_id": "S42101"
+    },
+    {
+      "question_sentence_id": "S42006",
+      "answer_sentence_id": "S42102"
+    },
+    {
+      "question_sentence_id": "S42104",
+      "answer_sentence_id": "S42105"
+    },
+    {
+      "question_sentence_id": "S42004",
+      "answer_sentence_id": "S42106"
+    },
+    {
+      "question_sentence_id": "S43101",
+      "answer_sentence_id": "S43102"
+    },
+    {
+      "question_sentence_id": "S43007",
+      "answer_sentence_id": "S43014"
+    },
+    {
+      "question_sentence_id": "S43008",
+      "answer_sentence_id": "S43103"
+    },
+    {
+      "question_sentence_id": "S43005",
+      "answer_sentence_id": "S43104"
+    },
+    {
+      "question_sentence_id": "S44109",
+      "answer_sentence_id": "S44005"
+    },
+    {
+      "question_sentence_id": "S44110",
+      "answer_sentence_id": "S44006"
+    },
+    {
+      "question_sentence_id": "S44111",
+      "answer_sentence_id": "S44112"
+    },
+    {
+      "question_sentence_id": "S44113",
+      "answer_sentence_id": "S44114"
+    },
+    {
+      "question_sentence_id": "S45012",
+      "answer_sentence_id": "S45007"
+    },
+    {
+      "question_sentence_id": "S45014",
+      "answer_sentence_id": "S45101"
+    },
+    {
+      "question_sentence_id": "S45003",
+      "answer_sentence_id": "S45102"
+    },
+    {
+      "question_sentence_id": "S45020",
+      "answer_sentence_id": "S45009"
+    },
+    {
+      "question_sentence_id": "S45004",
+      "answer_sentence_id": "S45103"
+    },
+    {
+      "question_sentence_id": "S46002",
+      "answer_sentence_id": "S46005"
+    },
+    {
+      "question_sentence_id": "S46009",
+      "answer_sentence_id": "S46101"
+    },
+    {
+      "question_sentence_id": "S46013",
+      "answer_sentence_id": "S46102"
+    },
+    {
+      "question_sentence_id": "S46003",
+      "answer_sentence_id": "S46103"
+    },
+    {
+      "question_sentence_id": "S46030",
+      "answer_sentence_id": "S46104"
+    },
+    {
+      "question_sentence_id": "S47002",
+      "answer_sentence_id": "S47101"
+    },
+    {
+      "question_sentence_id": "S47007",
+      "answer_sentence_id": "S47102"
+    },
+    {
+      "question_sentence_id": "S47010",
+      "answer_sentence_id": "S47103"
+    },
+    {
+      "question_sentence_id": "S47003",
+      "answer_sentence_id": "S47104"
+    },
+    {
+      "question_sentence_id": "S47026",
+      "answer_sentence_id": "S47105"
+    },
+    {
+      "question_sentence_id": "S48101",
+      "answer_sentence_id": "S48001"
+    },
+    {
+      "question_sentence_id": "S48010",
+      "answer_sentence_id": "S48102"
+    },
+    {
+      "question_sentence_id": "S48009",
+      "answer_sentence_id": "S48015"
+    },
+    {
+      "question_sentence_id": "S48004",
+      "answer_sentence_id": "S48027"
+    },
+    {
+      "question_sentence_id": "S48103",
+      "answer_sentence_id": "S48104"
+    },
+    {
+      "question_sentence_id": "S49013",
+      "answer_sentence_id": "S49107"
+    },
+    {
+      "question_sentence_id": "S49005",
+      "answer_sentence_id": "S49108"
+    },
+    {
+      "question_sentence_id": "S49012",
+      "answer_sentence_id": "S49109"
+    },
+    {
+      "question_sentence_id": "S49003",
+      "answer_sentence_id": "S49110"
     }
   ]
 }

@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Me llamo Juan López. Tengo cuarenta años. Vivo en la calle Juárez, número diez, en Guadalajara.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Nombre\",\"rule\":\"text\",\"answer\":\"Juan\"},{\"key\":\"last\",\"label\":\"Apellido\",\"rule\":\"text\",\"answer\":\"López\",\"also\":[\"Lopez\"]},{\"key\":\"age\",\"label\":\"Edad\",\"rule\":\"number\",\"answer\":\"40\"},{\"key\":\"address\",\"label\":\"Dirección\",\"rule\":\"text\",\"answer\":\"Calle Juárez 10\",\"also\":[\"calle Juárez, 10\",\"Calle Juarez 10\",\"calle Juárez número diez\",\"Juárez 10\"]},{\"key\":\"town\",\"label\":\"Ciudad\",\"rule\":\"text\",\"answer\":\"Guadalajara\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Me llamo Ana Torres. Tengo treinta años. Soy mexicana. Vivo en España. Mi número es el cero, seis, once, quince, diecinueve, veinte.",
+    "fields_json": "[{\"key\":\"first\",\"label\":\"Nombre\",\"rule\":\"text\",\"answer\":\"Ana\"},{\"key\":\"last\",\"label\":\"Apellido\",\"rule\":\"text\",\"answer\":\"Torres\"},{\"key\":\"age\",\"label\":\"Edad\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Nacionalidad\",\"rule\":\"text\",\"answer\":\"mexicana\",\"also\":[\"mexicano\"]},{\"key\":\"country\",\"label\":\"País\",\"rule\":\"text\",\"answer\":\"España\",\"also\":[\"Espana\"]},{\"key\":\"tel\",\"label\":\"Teléfono\",\"rule\":\"phone\",\"answer\":\"06 11 15 19 20\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

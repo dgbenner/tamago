@@ -2268,6 +2268,906 @@
     "reason": ""
   },
   {
+    "answer_id": "A340011",
+    "sentence_id": "S34001",
+    "answer": "Are you able to swim?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "787461",
+    "reason": ""
+  },
+  {
+    "answer_id": "A340081",
+    "sentence_id": "S34008",
+    "answer": "Can you spell it out?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3006093",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410011",
+    "sentence_id": "S41001",
+    "answer": "What is your name?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "444710",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410091",
+    "sentence_id": "S41009",
+    "answer": "My name is Tom. What's yours?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "5573712",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410101",
+    "sentence_id": "S41010",
+    "answer": "My name is Mary. What's yours?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "6934353",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410111",
+    "sentence_id": "S41011",
+    "answer": "Hi, my name is Tom. What's yours?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "7644953",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410112",
+    "sentence_id": "S41011",
+    "answer": "Hi, my name is Tom. What is yours?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "7644953",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410113",
+    "sentence_id": "S41011",
+    "answer": "Hi, my name is Tom. What's your name?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "7644953",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410151",
+    "sentence_id": "S41015",
+    "answer": "Who is your teacher?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1562587",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410161",
+    "sentence_id": "S41016",
+    "answer": "Where is your money?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2262533",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410191",
+    "sentence_id": "S41019",
+    "answer": "Where is your friend?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2918212",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410211",
+    "sentence_id": "S41021",
+    "answer": "What is the name of your dog?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3362491",
+    "reason": ""
+  },
+  {
+    "answer_id": "A410231",
+    "sentence_id": "S41023",
+    "answer": "Where is your school?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "7281663",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420021",
+    "sentence_id": "S42002",
+    "answer": "Have you got a mobile?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "535428",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420022",
+    "sentence_id": "S42002",
+    "answer": "Do you have a cell phone?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "535428",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420023",
+    "sentence_id": "S42002",
+    "answer": "Do you have a mobile phone?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "535428",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420024",
+    "sentence_id": "S42002",
+    "answer": "Have you got a mobile phone?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "535428",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420031",
+    "sentence_id": "S42003",
+    "answer": "Have you got a mobile?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "535431",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420032",
+    "sentence_id": "S42003",
+    "answer": "Do you have a cell phone?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "535431",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420033",
+    "sentence_id": "S42003",
+    "answer": "Do you have a mobile phone?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "535431",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420034",
+    "sentence_id": "S42003",
+    "answer": "Have you got a mobile phone?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "535431",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420041",
+    "sentence_id": "S42004",
+    "answer": "Where is my mobile?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1814448",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420042",
+    "sentence_id": "S42004",
+    "answer": "Where's my cell phone?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1814448",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420051",
+    "sentence_id": "S42005",
+    "answer": "What's your phone number?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "10967047",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420071",
+    "sentence_id": "S42007",
+    "answer": "Can I have your telephone number?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "452201",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420101",
+    "sentence_id": "S42010",
+    "answer": "She's seventeen years old.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2765318",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420102",
+    "sentence_id": "S42010",
+    "answer": "She is aged seventeen.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2765318",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420151",
+    "sentence_id": "S42015",
+    "answer": "I have thirteen cats.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "551579",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420152",
+    "sentence_id": "S42015",
+    "answer": "I keep thirteen cats.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "551579",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420211",
+    "sentence_id": "S42021",
+    "answer": "I don't have your telephone number.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "10900825",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420212",
+    "sentence_id": "S42021",
+    "answer": "I haven't got your phone number.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "10900825",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420213",
+    "sentence_id": "S42021",
+    "answer": "I haven't got your telephone number.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "10900825",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420221",
+    "sentence_id": "S42022",
+    "answer": "He doesn't have a mobile.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1814444",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420222",
+    "sentence_id": "S42022",
+    "answer": "He hasn't got a mobile.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1814444",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420223",
+    "sentence_id": "S42022",
+    "answer": "He does not have a mobile.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1814444",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420224",
+    "sentence_id": "S42022",
+    "answer": "He doesn't have a mobile phone.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1814444",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420231",
+    "sentence_id": "S42023",
+    "answer": "Here is my number.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2810116",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420241",
+    "sentence_id": "S42024",
+    "answer": "I haven't got a number.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "5218491",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420251",
+    "sentence_id": "S42025",
+    "answer": "I'm looking for my mobile.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "10465027",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420252",
+    "sentence_id": "S42025",
+    "answer": "I'm looking for my mobile phone.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "10465027",
+    "reason": ""
+  },
+  {
+    "answer_id": "A420261",
+    "sentence_id": "S42026",
+    "answer": "I don't have a mobile phone.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "10703389",
+    "reason": ""
+  },
+  {
+    "answer_id": "A430031",
+    "sentence_id": "S43003",
+    "answer": "When is your birthday?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "619973",
+    "reason": ""
+  },
+  {
+    "answer_id": "A430061",
+    "sentence_id": "S43006",
+    "answer": "When is your birthday?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2349640",
+    "reason": ""
+  },
+  {
+    "answer_id": "A430161",
+    "sentence_id": "S43016",
+    "answer": "When is Tom's birthday?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2458667",
+    "reason": ""
+  },
+  {
+    "answer_id": "A430171",
+    "sentence_id": "S43017",
+    "answer": "When is your birthday?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3073789",
+    "reason": ""
+  },
+  {
+    "answer_id": "A430231",
+    "sentence_id": "S43023",
+    "answer": "Tomorrow is my birthday.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "370483",
+    "reason": ""
+  },
+  {
+    "answer_id": "A430251",
+    "sentence_id": "S43025",
+    "answer": "Today is Tom's birthday.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1692688",
+    "reason": ""
+  },
+  {
+    "answer_id": "A430252",
+    "sentence_id": "S43025",
+    "answer": "It's Tom's birthday today!",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1692688",
+    "reason": ""
+  },
+  {
+    "answer_id": "A430281",
+    "sentence_id": "S43028",
+    "answer": "Today is my birthday.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "8244480",
+    "reason": ""
+  },
+  {
+    "answer_id": "A430282",
+    "sentence_id": "S43028",
+    "answer": "It's my birthday today.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "8244480",
+    "reason": ""
+  },
+  {
+    "answer_id": "A440011",
+    "sentence_id": "S44001",
+    "answer": "I'm thirty years old.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3385324",
+    "reason": ""
+  },
+  {
+    "answer_id": "A440012",
+    "sentence_id": "S44001",
+    "answer": "I am thirty years old.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3385324",
+    "reason": ""
+  },
+  {
+    "answer_id": "A440021",
+    "sentence_id": "S44002",
+    "answer": "Tom is thirty.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3445111",
+    "reason": ""
+  },
+  {
+    "answer_id": "A440022",
+    "sentence_id": "S44002",
+    "answer": "Tom is thirty years old.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3445111",
+    "reason": ""
+  },
+  {
+    "answer_id": "A440031",
+    "sentence_id": "S44003",
+    "answer": "I am 30 years old now.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2765321",
+    "reason": ""
+  },
+  {
+    "answer_id": "A440101",
+    "sentence_id": "S44010",
+    "answer": "I am thirty years old.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3386124",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450011",
+    "sentence_id": "S45001",
+    "answer": "Where do you stay?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "392883",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450031",
+    "sentence_id": "S45003",
+    "answer": "Do you live by yourself?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "826517",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450091",
+    "sentence_id": "S45009",
+    "answer": "Where are you living now?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "503378",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450111",
+    "sentence_id": "S45011",
+    "answer": "What is your postcode?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "5402063",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450121",
+    "sentence_id": "S45012",
+    "answer": "What is your postcode?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "5402064",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450131",
+    "sentence_id": "S45013",
+    "answer": "Are you living alone here?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "8223825",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450141",
+    "sentence_id": "S45014",
+    "answer": "Which one is your flat?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "11182926",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450181",
+    "sentence_id": "S45018",
+    "answer": "Does the flat have a garden?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "11454157",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450182",
+    "sentence_id": "S45018",
+    "answer": "Has the flat got a garden?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "11454157",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450221",
+    "sentence_id": "S45022",
+    "answer": "He has an apartment.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2797807",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450222",
+    "sentence_id": "S45022",
+    "answer": "He lives in a flat.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2797807",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450223",
+    "sentence_id": "S45022",
+    "answer": "He lives in an apartment.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2797807",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450231",
+    "sentence_id": "S45023",
+    "answer": "Here is my address.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3322307",
+    "reason": ""
+  },
+  {
+    "answer_id": "A450261",
+    "sentence_id": "S45026",
+    "answer": "Does Tom live by himself?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "8883751",
+    "reason": ""
+  },
+  {
+    "answer_id": "A460021",
+    "sentence_id": "S46002",
+    "answer": "One speaks French in France.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "642278",
+    "reason": ""
+  },
+  {
+    "answer_id": "A460041",
+    "sentence_id": "S46004",
+    "answer": "I speak English, French and Spanish.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "13937714",
+    "reason": ""
+  },
+  {
+    "answer_id": "A460221",
+    "sentence_id": "S46022",
+    "answer": "I am from Spain.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "4709131",
+    "reason": ""
+  },
+  {
+    "answer_id": "A460271",
+    "sentence_id": "S46027",
+    "answer": "Can Tom speak French?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2447387",
+    "reason": ""
+  },
+  {
+    "answer_id": "A460272",
+    "sentence_id": "S46027",
+    "answer": "Is Tom able to speak French?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2447387",
+    "reason": ""
+  },
+  {
+    "answer_id": "A460281",
+    "sentence_id": "S46028",
+    "answer": "Can he speak French?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "9996830",
+    "reason": ""
+  },
+  {
+    "answer_id": "A460301",
+    "sentence_id": "S46030",
+    "answer": "Can you speak French well?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2451828",
+    "reason": ""
+  },
+  {
+    "answer_id": "A460302",
+    "sentence_id": "S46030",
+    "answer": "Are you good at speaking French?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2451828",
+    "reason": ""
+  },
+  {
+    "answer_id": "A470041",
+    "sentence_id": "S47004",
+    "answer": "Will you buy it?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "7738789",
+    "reason": ""
+  },
+  {
+    "answer_id": "A470042",
+    "sentence_id": "S47004",
+    "answer": "Are you buying it?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "7738789",
+    "reason": ""
+  },
+  {
+    "answer_id": "A470043",
+    "sentence_id": "S47004",
+    "answer": "Are you going to buy it?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "7738789",
+    "reason": ""
+  },
+  {
+    "answer_id": "A470121",
+    "sentence_id": "S47012",
+    "answer": "I need a vacation!",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "982052",
+    "reason": ""
+  },
+  {
+    "answer_id": "A470131",
+    "sentence_id": "S47013",
+    "answer": "I need some money.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1109108",
+    "reason": ""
+  },
+  {
+    "answer_id": "A470132",
+    "sentence_id": "S47013",
+    "answer": "I'm in need of money.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1109108",
+    "reason": ""
+  },
+  {
+    "answer_id": "A470151",
+    "sentence_id": "S47015",
+    "answer": "I'm eating tomatoes.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "7140938",
+    "reason": ""
+  },
+  {
+    "answer_id": "A470181",
+    "sentence_id": "S47018",
+    "answer": "I love tomatoes.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "8288906",
+    "reason": ""
+  },
+  {
+    "answer_id": "A470291",
+    "sentence_id": "S47029",
+    "answer": "I'm eating fruit.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1548899",
+    "reason": ""
+  },
+  {
+    "answer_id": "A470292",
+    "sentence_id": "S47029",
+    "answer": "I am eating fruit.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1548899",
+    "reason": ""
+  },
+  {
+    "answer_id": "A480021",
+    "sentence_id": "S48002",
+    "answer": "Can I pay with a card?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "912341",
+    "reason": ""
+  },
+  {
+    "answer_id": "A480121",
+    "sentence_id": "S48012",
+    "answer": "How much are these pants?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "518811",
+    "reason": ""
+  },
+  {
+    "answer_id": "A480271",
+    "sentence_id": "S48027",
+    "answer": "The bill, please.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "687077",
+    "reason": ""
+  },
+  {
+    "answer_id": "A480272",
+    "sentence_id": "S48027",
+    "answer": "Give me the bill, please.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "687077",
+    "reason": ""
+  },
+  {
+    "answer_id": "A480273",
+    "sentence_id": "S48027",
+    "answer": "I'd like the bill, please.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "687077",
+    "reason": ""
+  },
+  {
+    "answer_id": "A490011",
+    "sentence_id": "S49001",
+    "answer": "No more biscuits!",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2318603",
+    "reason": ""
+  },
+  {
+    "answer_id": "A490021",
+    "sentence_id": "S49002",
+    "answer": "There's no water left in the bottle.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "5609061",
+    "reason": ""
+  },
+  {
+    "answer_id": "A490081",
+    "sentence_id": "S49008",
+    "answer": "Where is my bag?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3702348",
+    "reason": ""
+  },
+  {
+    "answer_id": "A490141",
+    "sentence_id": "S49014",
+    "answer": "Would you like a glass of water?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "4046037",
+    "reason": ""
+  },
+  {
+    "answer_id": "A490171",
+    "sentence_id": "S49017",
+    "answer": "Tom is eating biscuits.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2366134",
+    "reason": ""
+  },
+  {
+    "answer_id": "A490201",
+    "sentence_id": "S49020",
+    "answer": "We don't have too much time.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1777671",
+    "reason": ""
+  },
+  {
+    "answer_id": "A490221",
+    "sentence_id": "S49022",
+    "answer": "Have we got enough milk?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "7091720",
+    "reason": ""
+  },
+  {
     "answer_id": "A510091",
     "sentence_id": "S51009",
     "answer": "Are you coming alone?",
@@ -2598,6 +3498,483 @@
     "status": "checked",
     "source": "tatoeba",
     "source_id": "12328198",
+    "reason": ""
+  },
+  {
+    "answer_id": "A540011",
+    "sentence_id": "S54001",
+    "answer": "My foot is aching.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "759275",
+    "reason": ""
+  },
+  {
+    "answer_id": "A540012",
+    "sentence_id": "S54001",
+    "answer": "I have a pain in my foot.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "759275",
+    "reason": ""
+  },
+  {
+    "answer_id": "A540081",
+    "sentence_id": "S54008",
+    "answer": "What have you got in your hand?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1008230",
+    "reason": ""
+  },
+  {
+    "answer_id": "A540091",
+    "sentence_id": "S54009",
+    "answer": "What have you got in your hand?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1008231",
+    "reason": ""
+  },
+  {
+    "answer_id": "A540092",
+    "sentence_id": "S54009",
+    "answer": "What are you holding in your hand?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1008231",
+    "reason": ""
+  },
+  {
+    "answer_id": "A540111",
+    "sentence_id": "S54011",
+    "answer": "Open your mouth!",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2212603",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550021",
+    "sentence_id": "S55002",
+    "answer": "I'm revising for my exam.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "8379133",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550031",
+    "sentence_id": "S55003",
+    "answer": "I am learning for a test.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "9199315",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550032",
+    "sentence_id": "S55003",
+    "answer": "I am studying for a test.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "9199315",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550091",
+    "sentence_id": "S55009",
+    "answer": "Any questions?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1428990",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550141",
+    "sentence_id": "S55014",
+    "answer": "Do you have school today?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1496946",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550151",
+    "sentence_id": "S55015",
+    "answer": "Why are you learning English?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1910909",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550152",
+    "sentence_id": "S55015",
+    "answer": "What do you learn English for?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1910909",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550191",
+    "sentence_id": "S55019",
+    "answer": "When are you sitting your exam?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "4153463",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550201",
+    "sentence_id": "S55020",
+    "answer": "Where's that pencil?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "4735682",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550202",
+    "sentence_id": "S55020",
+    "answer": "Where is that pencil?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "4735682",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550221",
+    "sentence_id": "S55022",
+    "answer": "Do you have a biro?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "5384901",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550222",
+    "sentence_id": "S55022",
+    "answer": "Have you got a biro?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "5384901",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550281",
+    "sentence_id": "S55028",
+    "answer": "How many pens have you got?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "9056711",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550282",
+    "sentence_id": "S55028",
+    "answer": "How many biros do you have?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "9056711",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550283",
+    "sentence_id": "S55028",
+    "answer": "How many biros have you got?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "9056711",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550321",
+    "sentence_id": "S55032",
+    "answer": "Why aren't you learning English?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "11833658",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550361",
+    "sentence_id": "S55036",
+    "answer": "My bad.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "474167",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550362",
+    "sentence_id": "S55036",
+    "answer": "My fault.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "474167",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550371",
+    "sentence_id": "S55037",
+    "answer": "Let's study English.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2634707",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550381",
+    "sentence_id": "S55038",
+    "answer": "I am learning German.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3685927",
+    "reason": ""
+  },
+  {
+    "answer_id": "A550391",
+    "sentence_id": "S55039",
+    "answer": "This paper is white.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "880702",
+    "reason": ""
+  },
+  {
+    "answer_id": "A560051",
+    "sentence_id": "S56005",
+    "answer": "Tom is wearing glasses.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2707984",
+    "reason": ""
+  },
+  {
+    "answer_id": "A560081",
+    "sentence_id": "S56008",
+    "answer": "Which shoes are you going to wear today?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "10302966",
+    "reason": ""
+  },
+  {
+    "answer_id": "A560111",
+    "sentence_id": "S56011",
+    "answer": "Where is your jacket?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3078828",
+    "reason": ""
+  },
+  {
+    "answer_id": "A560171",
+    "sentence_id": "S56017",
+    "answer": "I'm not wearing glasses.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "6596297",
+    "reason": ""
+  },
+  {
+    "answer_id": "A560301",
+    "sentence_id": "S56030",
+    "answer": "Tom is dressed in black today.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "8594779",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570021",
+    "sentence_id": "S57002",
+    "answer": "French is difficult, isn't it?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2456144",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570051",
+    "sentence_id": "S57005",
+    "answer": "Is it good or bad?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "11432381",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570052",
+    "sentence_id": "S57005",
+    "answer": "Is this good or bad?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "11432381",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570053",
+    "sentence_id": "S57005",
+    "answer": "Is that a good or a bad thing?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "11432381",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570054",
+    "sentence_id": "S57005",
+    "answer": "Is that a good thing or a bad thing?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "11432381",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570081",
+    "sentence_id": "S57008",
+    "answer": "Is Tom finished?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3943832",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570231",
+    "sentence_id": "S57023",
+    "answer": "Speak softly.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2063403",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570232",
+    "sentence_id": "S57023",
+    "answer": "Keep your voice down.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "2063403",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570251",
+    "sentence_id": "S57025",
+    "answer": "Quiet, please.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "7015330",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570321",
+    "sentence_id": "S57032",
+    "answer": "It's simple.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1313715",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570341",
+    "sentence_id": "S57034",
+    "answer": "Speak slowly, please.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1555959",
+    "reason": ""
+  },
+  {
+    "answer_id": "A570371",
+    "sentence_id": "S57037",
+    "answer": "I'm a quick learner.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1970711",
+    "reason": ""
+  },
+  {
+    "answer_id": "A580031",
+    "sentence_id": "S58003",
+    "answer": "Is Tom out?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "6476622",
+    "reason": ""
+  },
+  {
+    "answer_id": "A580081",
+    "sentence_id": "S58008",
+    "answer": "Are you by yourself a lot?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "12584094",
+    "reason": ""
+  },
+  {
+    "answer_id": "A580091",
+    "sentence_id": "S58009",
+    "answer": "Are you by yourself a lot?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "12584096",
+    "reason": ""
+  },
+  {
+    "answer_id": "A580101",
+    "sentence_id": "S58010",
+    "answer": "How come the sky is blue?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "1056306",
+    "reason": ""
+  },
+  {
+    "answer_id": "A580121",
+    "sentence_id": "S58012",
+    "answer": "Why are you always on your own?",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "5883034",
+    "reason": ""
+  },
+  {
+    "answer_id": "A580181",
+    "sentence_id": "S58018",
+    "answer": "This river is beautiful.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "622197",
+    "reason": ""
+  },
+  {
+    "answer_id": "A580241",
+    "sentence_id": "S58024",
+    "answer": "The world is a big place.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "3842928",
+    "reason": ""
+  },
+  {
+    "answer_id": "A580271",
+    "sentence_id": "S58027",
+    "answer": "That tree is big.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "8320536",
+    "reason": ""
+  },
+  {
+    "answer_id": "A580272",
+    "sentence_id": "S58027",
+    "answer": "The tree is large.",
+    "status": "checked",
+    "source": "tatoeba",
+    "source_id": "8320536",
     "reason": ""
   },
   {

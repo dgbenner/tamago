@@ -2,43 +2,46 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U53 Around Town: Mit dem Bus, mit dem Zug, mit dem Fahrrad: mit + dem for how you travel
+## U58 Outdoors: Der Berg, der Wald, der See: im Wald, am See (in dem, an dem)
 
-30 sentences picked from 89 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+33 sentences picked from 149 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: Taxi (0), Kino (0), Dorf (0), Straße (0), Flughafen (2), Café (1). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: Berg (1), Wald (1), See (1), Wind (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S53001 | Wo ist der Bahnhof? | Where is the station? | Where's the train station?; Where's the railway station?; Where is the train station?; Where is the railway station? | [#544538](https://tatoeba.org/en/sentences/show/544538) | jakov |
-| S53002 | Wo ist das Café? | Where is the coffee shop? |  | [#608780](https://tatoeba.org/en/sentences/show/608780) | virgil |
-| S53003 | Wann geht der Zug? | When does the train go? | When does the train leave?; When does the train depart?; What time does the train leave?; What time does the train depart? | [#1849207](https://tatoeba.org/en/sentences/show/1849207) | Esperantostern |
-| S53004 | Hast du ein Fahrrad? | Do you have a bicycle? |  | [#1970038](https://tatoeba.org/en/sentences/show/1970038) | Esperantostern |
-| S53005 | Wo ist der Zug? | Where is the train? |  | [#1990116](https://tatoeba.org/en/sentences/show/1990116) | Manfredo |
-| S53006 | Wo ist der Bus? | Where is the bus? |  | [#2300513](https://tatoeba.org/en/sentences/show/2300513) | Zaghawa |
-| S53007 | Haben Sie ein Fahrrad? | Do you have a bicycle? |  | [#3082399](https://tatoeba.org/en/sentences/show/3082399) | Pfirsichbaeumchen |
-| S53008 | Geht Tom mit dir? | Is Tom going with you? |  | [#6626055](https://tatoeba.org/en/sentences/show/6626055) | Felixjp |
-| S53009 | Wann kommt der Bus? | When's the bus coming? | When will the bus be here? | [#8494701](https://tatoeba.org/en/sentences/show/8494701) | felix63 |
-| S53010 | Hast du kein Fahrrad? | Don't you have a bicycle? |  | [#8894166](https://tatoeba.org/en/sentences/show/8894166) | wolfgangth |
-| S53011 | Kann ich mit Tom sprechen? | Can I speak to Tom? | Can I speak with Tom?; May I speak to Tom? | [#1977811](https://tatoeba.org/en/sentences/show/1977811) | Pfirsichbaeumchen |
-| S53012 | Bist du mit Tom hier? | Are you here with Tom? |  | [#12639943](https://tatoeba.org/en/sentences/show/12639943) | Waldelfe |
-| S53013 | Der Zug kommt! | Here comes the train! | The train is arriving!; The train's coming! | [#615531](https://tatoeba.org/en/sentences/show/615531) | virgil |
-| S53014 | Tom ist am Flughafen. | Tom is at the airport. |  | [#2634584](https://tatoeba.org/en/sentences/show/2634584) | Pfirsichbaeumchen |
-| S53015 | Maria ist am Flughafen. | Maria is at the airport. |  | [#10504590](https://tatoeba.org/en/sentences/show/10504590) | wolfgangth |
-| S53016 | Er ist am Bahnhof. | He's at the station. | He's at the railway station. | [#11792774](https://tatoeba.org/en/sentences/show/11792774) | Zahia_Ntmazirt |
-| S53017 | Sie ist am Bahnhof. | She's at the station. | She's at the railway station. | [#12328198](https://tatoeba.org/en/sentences/show/12328198) | mhr |
-| S53018 | Es ist mein Bus. | It's my bus. |  | [#12527993](https://tatoeba.org/en/sentences/show/12527993) | mayabe |
-| S53019 | Hat Tom ein Fahrrad? | Does Tom have a bicycle? |  | [#10071927](https://tatoeba.org/en/sentences/show/10071927) | wolfgangth |
-| S53020 | Wie alt ist dein Fahrrad? | How old is your bicycle? |  | [#10071934](https://tatoeba.org/en/sentences/show/10071934) | wolfgangth |
-| S53021 | Welche Farbe hat dein Fahrrad? | What colour is your bicycle? |  | [#10071958](https://tatoeba.org/en/sentences/show/10071958) | wolfgangth |
-| S53022 | Warum hast du kein Fahrrad? | Why don't you have a bicycle? |  | [#12598232](https://tatoeba.org/en/sentences/show/12598232) | Waldelfe |
-| S53023 | Warum haben Sie kein Fahrrad? | Why don't you have a bicycle? |  | [#12598233](https://tatoeba.org/en/sentences/show/12598233) | Waldelfe |
-| S53024 | Sind Sie mit Tom hier? | Are you here with Tom? |  | [#12639945](https://tatoeba.org/en/sentences/show/12639945) | Waldelfe |
-| S53025 | Wo ist der Tee mit Milch? | Where is the tea with milk? |  | [#470154](https://tatoeba.org/en/sentences/show/470154) | Espi |
-| S53026 | Wo kann ich mit dir sprechen? | Where can I speak with you? |  | [#1113351](https://tatoeba.org/en/sentences/show/1113351) | Pfirsichbaeumchen |
-| S53027 | Wo kann ich mit Ihnen sprechen? | Where can I speak with you? |  | [#1113353](https://tatoeba.org/en/sentences/show/1113353) | Pfirsichbaeumchen |
-| S53028 | Warum gehst du nicht mit Tom? | Why don't you go with Tom? |  | [#6641883](https://tatoeba.org/en/sentences/show/6641883) | Felixjp |
-| S53029 | Warum bist du nicht mit Tom? | Why aren't you with Tom? |  | [#6641927](https://tatoeba.org/en/sentences/show/6641927) | Felixjp |
-| S53030 | Wie kommst du mit Tom aus? | How do you get along with Tom? |  | [#8494858](https://tatoeba.org/en/sentences/show/8494858) | brauchinet |
+| S58001 | Wie oft gehst du wandern? | How often do you go hiking? |  | [#12747309](https://tatoeba.org/en/sentences/show/12747309) | Waldelfe |
+| S58002 | Wandern Sie? | Do you hike? |  | [#7409804](https://tatoeba.org/en/sentences/show/7409804) | Pfirsichbaeumchen |
+| S58003 | Ist Tom draußen? | Is Tom outside? | Is Tom out? | [#6476622](https://tatoeba.org/en/sentences/show/6476622) | Pfirsichbaeumchen |
+| S58004 | Bist du draußen? | Are you outside? |  | [#12632621](https://tatoeba.org/en/sentences/show/12632621) | Waldelfe |
+| S58005 | Sind Sie draußen? | Are you outside? |  | [#12632623](https://tatoeba.org/en/sentences/show/12632623) | Waldelfe |
+| S58006 | Tut Tom das immer? | Does Tom always do that? |  | [#8833546](https://tatoeba.org/en/sentences/show/8833546) | wolfgangth |
+| S58007 | Sprechen Sie immer Französisch? | Do you always speak French? |  | [#8833550](https://tatoeba.org/en/sentences/show/8833550) | wolfgangth |
+| S58008 | Bist du oft allein? | Are you alone a lot? | Are you by yourself a lot? | [#12584094](https://tatoeba.org/en/sentences/show/12584094) | Waldelfe |
+| S58009 | Sind Sie oft allein? | Are you alone a lot? | Are you by yourself a lot? | [#12584096](https://tatoeba.org/en/sentences/show/12584096) | Waldelfe |
+| S58010 | Warum ist der Himmel blau? | Why is the sky blue? | How come the sky is blue? | [#1056306](https://tatoeba.org/en/sentences/show/1056306) | al_ex_an_der |
+| S58011 | Welche Farbe hat der Himmel? | What colour is the sky? |  | [#3325980](https://tatoeba.org/en/sentences/show/3325980) | al_ex_an_der |
+| S58012 | Warum bist du immer allein? | Why are you always alone? | Why are you always on your own? | [#5883034](https://tatoeba.org/en/sentences/show/5883034) | Pfirsichbaeumchen |
+| S58013 | Wo sind die Blumen jetzt? | Where are the flowers now? |  | [#8543008](https://tatoeba.org/en/sentences/show/8543008) | Luiaard |
+| S58014 | Weißt du, warum der Himmel blau ist? | Do you know why the sky is blue? |  | [#2187813](https://tatoeba.org/en/sentences/show/2187813) | freddy1 |
+| S58015 | Wandern ist schön. | Walking is nice. |  | [#1637724](https://tatoeba.org/en/sentences/show/1637724) | al_ex_an_der |
+| S58016 | Ich kaufe Blumen. | I buy flowers. |  | [#8084962](https://tatoeba.org/en/sentences/show/8084962) | Luiaard |
+| S58017 | Ich mag Blumen. | I like flowers. |  | [#13810919](https://tatoeba.org/en/sentences/show/13810919) | kumakyoo |
+| S58018 | Der Fluss ist schön. | The river is beautiful. | This river is beautiful. | [#622197](https://tatoeba.org/en/sentences/show/622197) | BraveSentry |
+| S58019 | Der Berg ist grün. | The mountain is green. |  | [#978124](https://tatoeba.org/en/sentences/show/978124) | Esperantostern |
+| S58020 | Der See ist groß. | The lake is big. |  | [#1137137](https://tatoeba.org/en/sentences/show/1137137) | Esperantostern |
+| S58021 | Der Fluss ist breit. | The river is wide. |  | [#1314898](https://tatoeba.org/en/sentences/show/1314898) | Pfirsichbaeumchen |
+| S58022 | Der Baum ist grün. | The tree is green. |  | [#2089166](https://tatoeba.org/en/sentences/show/2089166) | Esperantostern |
+| S58023 | Die Blume ist rot. | The flower is red. |  | [#2979234](https://tatoeba.org/en/sentences/show/2979234) | jeedrek |
+| S58024 | Die Welt ist groß. | It's a big world. | The world is a big place. | [#3842928](https://tatoeba.org/en/sentences/show/3842928) | Zaghawa |
+| S58025 | Die Blume ist gelb. | The flower is yellow. |  | [#4308374](https://tatoeba.org/en/sentences/show/4308374) | Wuzzy |
+| S58026 | Die Blume ist schön. | The flower is beautiful. |  | [#6005485](https://tatoeba.org/en/sentences/show/6005485) | wolfgangth |
+| S58027 | Der Baum ist groß. | The tree is big. | That tree is big.; The tree is large. | [#8320536](https://tatoeba.org/en/sentences/show/8320536) | MisterTrouser |
+| S58028 | Der Baum ist klein. | The tree is small. |  | [#8320537](https://tatoeba.org/en/sentences/show/8320537) | MisterTrouser |
+| S58029 | Es ist viel Wind. | There's a lot of wind. |  | [#8791753](https://tatoeba.org/en/sentences/show/8791753) | Pfirsichbaeumchen |
+| S58030 | Ich wohne am Fluss. | I live by the river. |  | [#12064173](https://tatoeba.org/en/sentences/show/12064173) | Pfirsichbaeumchen |
+| S58031 | Der Wald ist klein. | The forest is small. |  | [#12334851](https://tatoeba.org/en/sentences/show/12334851) | Pfirsichbaeumchen |
+| S58032 | Die Welt ist sehr klein. | The world is very small. |  | [#8887322](https://tatoeba.org/en/sentences/show/8887322) | wolfgangth |
+| S58033 | Meine Welt ist auch deine Welt. | My world is your world too. |  | [#980923](https://tatoeba.org/en/sentences/show/980923) | Esperantostern |

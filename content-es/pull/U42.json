@@ -1,0 +1,1100 @@
+{
+  "unit_id": "U42",
+  "pulled_at": "2026-11-14",
+  "candidates": 31,
+  "sentences": [
+    {
+      "sentence_id": "S42001",
+      "unit_id": "U42",
+      "french": "¡Eres el número uno!",
+      "english": "You are number one!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1526328",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42002",
+      "unit_id": "U42",
+      "french": "¿Tienes uno?",
+      "english": "Do you have one?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "497500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42003",
+      "unit_id": "U42",
+      "french": "¿Tienes dieciocho?",
+      "english": "Are you 18?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6600587",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42004",
+      "unit_id": "U42",
+      "french": "¿Tienes celular?",
+      "english": "Do you have a cell phone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6694192",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "UsuarioX",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42005",
+      "unit_id": "U42",
+      "french": "¿Cuál es tu número?",
+      "english": "What's your number?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1406135",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "What is your number?"
+      ]
+    },
+    {
+      "sentence_id": "S42006",
+      "unit_id": "U42",
+      "french": "¿Cuál es su número?",
+      "english": "What's your number?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2343192",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "What is your number?"
+      ]
+    },
+    {
+      "sentence_id": "S42008",
+      "unit_id": "U42",
+      "french": "Tengo diecinueve.",
+      "english": "I'm 19.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5769211",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42009",
+      "unit_id": "U42",
+      "french": "Tengo doce.",
+      "english": "I'm twelve.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6712755",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42010",
+      "unit_id": "U42",
+      "french": "Tiene veinte niños.",
+      "english": "He has twenty children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4701773",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42012",
+      "unit_id": "U42",
+      "french": "Tom no tiene celular.",
+      "english": "Tom doesn't have a cell phone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3012432",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42013",
+      "unit_id": "U42",
+      "french": "Voy a llamar a Tom.",
+      "english": "I'll call Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2122962",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42014",
+      "unit_id": "U42",
+      "french": "Te voy a llamar en una hora.",
+      "english": "I will call you in an hour.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1610018",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42015",
+      "unit_id": "U42",
+      "french": "¡Tengo uno!",
+      "english": "I got one!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1690655",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42016",
+      "unit_id": "U42",
+      "french": "Ella quiere uno.",
+      "english": "She wants one.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1753941",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42017",
+      "unit_id": "U42",
+      "french": "Uno es azul.",
+      "english": "One is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2721405",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42018",
+      "unit_id": "U42",
+      "french": "Hay uno más.",
+      "english": "There's one more.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3949451",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42019",
+      "unit_id": "U42",
+      "french": "Yo tengo uno.",
+      "english": "I have one.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6600128",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42020",
+      "unit_id": "U42",
+      "french": "No tengo tu número.",
+      "english": "I don't have your number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1455561",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42022",
+      "unit_id": "U42",
+      "french": "No tengo el número.",
+      "english": "I don't have the number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2379187",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42023",
+      "unit_id": "U42",
+      "french": "Aquí tienes mi número.",
+      "english": "Here's my number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2946447",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42024",
+      "unit_id": "U42",
+      "french": "Llama a este número.",
+      "english": "Call this number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9706848",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42025",
+      "unit_id": "U42",
+      "french": "Este es su número.",
+      "english": "This is his number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10200763",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "This is her number."
+      ]
+    },
+    {
+      "sentence_id": "S42027",
+      "unit_id": "U42",
+      "french": "Uno más dos es tres.",
+      "english": "One plus two equals three.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5130046",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": [
+        "One plus two is equal to three."
+      ]
+    },
+    {
+      "sentence_id": "S42029",
+      "unit_id": "U42",
+      "french": "No tengo el número de Tom.",
+      "english": "I don't have Tom's number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3067591",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S42001",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 2,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 3,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 4,
+      "surface": "uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 2,
+      "surface": "uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 2,
+      "surface": "dieciocho",
+      "word_id": "W825",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 2,
+      "surface": "celular",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 2,
+      "surface": "diecinueve",
+      "word_id": "W826",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 2,
+      "surface": "doce",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 1,
+      "surface": "Tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 2,
+      "surface": "veinte",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 3,
+      "surface": "niños",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 3,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 4,
+      "surface": "celular",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 3,
+      "surface": "llamar",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 2,
+      "surface": "voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 4,
+      "surface": "llamar",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 6,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 7,
+      "surface": "hora",
+      "word_id": "W160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 2,
+      "surface": "uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 2,
+      "surface": "quiere",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 3,
+      "surface": "uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 1,
+      "surface": "Uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 3,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 1,
+      "surface": "Hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 2,
+      "surface": "uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 3,
+      "surface": "más",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 1,
+      "surface": "Yo",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 2,
+      "surface": "tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 3,
+      "surface": "uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 2,
+      "surface": "tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 2,
+      "surface": "tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 1,
+      "surface": "Aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 2,
+      "surface": "tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 1,
+      "surface": "Llama",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 1,
+      "surface": "Uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 2,
+      "surface": "más",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 3,
+      "surface": "dos",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 5,
+      "surface": "tres",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 2,
+      "surface": "tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A420051",
+      "sentence_id": "S42005",
+      "direction": "fr_to_en",
+      "answer": "What is your number?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420061",
+      "sentence_id": "S42006",
+      "direction": "fr_to_en",
+      "answer": "What is your number?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420251",
+      "sentence_id": "S42025",
+      "direction": "fr_to_en",
+      "answer": "This is her number.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420271",
+      "sentence_id": "S42027",
+      "direction": "fr_to_en",
+      "answer": "One plus two is equal to three.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

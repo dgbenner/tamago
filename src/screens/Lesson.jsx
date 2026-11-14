@@ -879,6 +879,9 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   // Never the learner's own answer again (Dan, 2026-11-12): it's already on screen above. A correction (typo or
   // accent marks, or a wrong answer) still shows.
   const same = (a, b) => a != null && b != null && foldAnswer(a) === foldAnswer(b)
+  // Right, with the only listed reply being the learner's own (Dan's rule: never their own answer again, 2026-11-12):
+  // no Sample Reply, just what their reply means (audit, 2026-11-14).
+  const ownSample = isChat && result.correct && !(result.typo || result.accent) && same(result.given ?? result.matched, sample.french)
   const shown = answerShown && same(result.given, answerShown) && !(result.typo || result.accent) ? null : answerShown
   const otherLine = q.sentence_id ? (qaAnswer ? qaAnswer.english : q.type === 'QT03' || q.type === 'QT06' ? q.french : q.english) : null
   // Nor in the second line: Pick What You Heard by meaning shows the sentence heard, not the English picked (2026-11-13).
@@ -908,7 +911,8 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
               ) : (phrase?.text ?? fallback)}
               {meaning && <span role="tooltip" className="absolute bottom-full left-0 z-10 mb-1 w-max max-w-[min(18rem,80vw)] rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base font-normal text-ink shadow-md">{phrase.english}</span>}
             </p>
-            {isChat && <div data-sample-reply className="mt-1">
+            {ownSample && <p className="mt-0.5 break-words text-muted">{sample.english}</p>}
+            {isChat && !ownSample && <div data-sample-reply className="mt-1">
               <p className="text-sm text-muted">Sample Reply</p>
               <p lang={TL} className="break-words">{marks ? marks.map((m, i) => (m.mark ? <strong key={i} className="underline decoration-2 underline-offset-4">{m.text}</strong> : <span key={i}>{m.text}</span>)) : sample.french}</p>
               <p className="break-words text-muted">{sample.english}</p>

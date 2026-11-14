@@ -1,1 +1,128 @@
-[]
+[
+  {
+    "id": "N101",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "fünfzehn",
+    "answer": "15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N102",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "siebzehn",
+    "answer": "17",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N103",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "null, sechs, elf, fünfzehn, neunzehn, zwanzig",
+    "answer": "06 11 15 19 20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N104",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "null, sieben, zwölf, sechzehn, achtzehn, vierzehn",
+    "answer": "07 12 16 18 14",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N105",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Ich bin zwanzig Jahre alt.",
+    "answer": "20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N106",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Sie ist achtzehn Jahre alt.",
+    "answer": "18",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N107",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "siebzig",
+    "answer": "70",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N108",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "neunzig",
+    "answer": "90",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N109",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "fünfundvierzig",
+    "answer": "45",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N110",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "neunundneunzig",
+    "answer": "99",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N111",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "drei Euro fünfzig",
+    "answer": "3.50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N112",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "zehn Euro",
+    "answer": "10",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N113",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "ein Euro zwanzig",
+    "answer": "1.20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N114",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "fünfundzwanzig Euro",
+    "answer": "25",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

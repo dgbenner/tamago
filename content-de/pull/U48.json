@@ -1,0 +1,1486 @@
+{
+  "unit_id": "U48",
+  "pulled_at": "2026-11-14",
+  "candidates": 61,
+  "sentences": [
+    {
+      "sentence_id": "S48001",
+      "unit_id": "U48",
+      "french": "Zahlen Sie in bar?",
+      "english": "Will you pay cash?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2272199",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48002",
+      "unit_id": "U48",
+      "french": "Kann ich mit Karte zahlen?",
+      "english": "Can I pay by card?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "912341",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Sudajaengi",
+      "other_english": [
+        "Can I pay with a card?"
+      ]
+    },
+    {
+      "sentence_id": "S48003",
+      "unit_id": "U48",
+      "french": "Kann ich mit Karte bezahlen?",
+      "english": "Can I pay by card?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3301182",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48004",
+      "unit_id": "U48",
+      "french": "Kann ich in Euro zahlen?",
+      "english": "Can I pay in euros?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3341297",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48005",
+      "unit_id": "U48",
+      "french": "Der Tee kostet zwei Euro.",
+      "english": "The tea costs two euros.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1551108",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zaghawa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48006",
+      "unit_id": "U48",
+      "french": "Tom möchte nicht bar bezahlen.",
+      "english": "Tom doesn't want to pay in cash.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8667099",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Melang",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48007",
+      "unit_id": "U48",
+      "french": "Sind sie zusammen?",
+      "english": "Are they together?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13072722",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48008",
+      "unit_id": "U48",
+      "french": "Was ist Ihr Preis?",
+      "english": "What's your price?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6641634",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48009",
+      "unit_id": "U48",
+      "french": "Was ist der Preis?",
+      "english": "What is the price?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6641644",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48010",
+      "unit_id": "U48",
+      "french": "Was kostet das Brot?",
+      "english": "How much does bread cost?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11236021",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mborus",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48011",
+      "unit_id": "U48",
+      "french": "Wohnen Sie drei zusammen?",
+      "english": "Do you three live together?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12592765",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48012",
+      "unit_id": "U48",
+      "french": "Wie viel kostet die Hose?",
+      "english": "How much do the trousers cost?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "518811",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MUIRIEL",
+      "other_english": [
+        "How much are these pants?"
+      ]
+    },
+    {
+      "sentence_id": "S48013",
+      "unit_id": "U48",
+      "french": "Wie teuer ist ein Apfel?",
+      "english": "How much is an apple?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1544228",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48014",
+      "unit_id": "U48",
+      "french": "Wie viel kannst du bezahlen?",
+      "english": "How much can you pay?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8154909",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48015",
+      "unit_id": "U48",
+      "french": "Nein. Ich möchte bar zahlen.",
+      "english": "No. I want to pay in cash.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1165390",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48016",
+      "unit_id": "U48",
+      "french": "Gute Nacht zusammen!",
+      "english": "Good night, everybody!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13376402",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48017",
+      "unit_id": "U48",
+      "french": "Schuhe sind teuer.",
+      "english": "Shoes are expensive.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10005506",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48018",
+      "unit_id": "U48",
+      "french": "Es ist sehr teuer.",
+      "english": "It is very expensive.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "796925",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48019",
+      "unit_id": "U48",
+      "french": "Der Preis ist gut.",
+      "english": "The price is good.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6645424",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48020",
+      "unit_id": "U48",
+      "french": "Es ist sehr billig.",
+      "english": "It's very cheap.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7523344",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48021",
+      "unit_id": "U48",
+      "french": "Äpfel sind hier billig.",
+      "english": "Apples are cheap here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8241459",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48022",
+      "unit_id": "U48",
+      "french": "Kartoffeln sind sehr billig.",
+      "english": "Potatoes are very cheap.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12293916",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mayabe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48023",
+      "unit_id": "U48",
+      "french": "Kann ich Sie morgen bezahlen?",
+      "english": "Can I pay you tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12654357",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48024",
+      "unit_id": "U48",
+      "french": "Kostet das Gemüse hier viel?",
+      "english": "Do these vegetables cost a lot?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13683707",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48025",
+      "unit_id": "U48",
+      "french": "Wie viel kostet dein Handy?",
+      "english": "How much does your phone cost?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13729508",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Naina",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48026",
+      "unit_id": "U48",
+      "french": "Wie viel kostet Ihr Handy?",
+      "english": "How much does your phone cost?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13729511",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Naina",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48027",
+      "unit_id": "U48",
+      "french": "Zahlen bitte!",
+      "english": "The check, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "687077",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Hans07",
+      "other_english": [
+        "The bill, please.",
+        "Give me the bill, please.",
+        "I'd like the bill, please."
+      ]
+    },
+    {
+      "sentence_id": "S48028",
+      "unit_id": "U48",
+      "french": "Sie bezahlen.",
+      "english": "You're paying.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2204147",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48029",
+      "unit_id": "U48",
+      "french": "Wir bezahlen.",
+      "english": "We're paying.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2204148",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48030",
+      "unit_id": "U48",
+      "french": "Ich möchte zahlen.",
+      "english": "I'd like to pay.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "547392",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Espi",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S48001",
+      "position": 1,
+      "surface": "Zahlen",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48001",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48001",
+      "position": 3,
+      "surface": "in",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48001",
+      "position": 4,
+      "surface": "bar",
+      "word_id": "W890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 1,
+      "surface": "Kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 2,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 3,
+      "surface": "mit",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 4,
+      "surface": "Karte",
+      "word_id": "W889",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 5,
+      "surface": "zahlen",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 1,
+      "surface": "Kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 2,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 3,
+      "surface": "mit",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 4,
+      "surface": "Karte",
+      "word_id": "W889",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 5,
+      "surface": "bezahlen",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 1,
+      "surface": "Kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 2,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 3,
+      "surface": "in",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 4,
+      "surface": "Euro",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 5,
+      "surface": "zahlen",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48005",
+      "position": 1,
+      "surface": "Der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48005",
+      "position": 2,
+      "surface": "Tee",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48005",
+      "position": 3,
+      "surface": "kostet",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48005",
+      "position": 4,
+      "surface": "zwei",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48005",
+      "position": 5,
+      "surface": "Euro",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48006",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48006",
+      "position": 2,
+      "surface": "möchte",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48006",
+      "position": 3,
+      "surface": "nicht",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48006",
+      "position": 4,
+      "surface": "bar",
+      "word_id": "W890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48006",
+      "position": 5,
+      "surface": "bezahlen",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48007",
+      "position": 1,
+      "surface": "Sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48007",
+      "position": 2,
+      "surface": "sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48007",
+      "position": 3,
+      "surface": "zusammen",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 4,
+      "surface": "Preis",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 3,
+      "surface": "der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 4,
+      "surface": "Preis",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 2,
+      "surface": "kostet",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 3,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 4,
+      "surface": "Brot",
+      "word_id": "W052",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48011",
+      "position": 1,
+      "surface": "Wohnen",
+      "word_id": "W848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48011",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48011",
+      "position": 3,
+      "surface": "drei",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48011",
+      "position": 4,
+      "surface": "zusammen",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 2,
+      "surface": "viel",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 3,
+      "surface": "kostet",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 4,
+      "surface": "die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 5,
+      "surface": "Hose",
+      "word_id": "W1123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 2,
+      "surface": "teuer",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 4,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 5,
+      "surface": "Apfel",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 2,
+      "surface": "viel",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 3,
+      "surface": "kannst",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 5,
+      "surface": "bezahlen",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 1,
+      "surface": "Nein",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 2,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 3,
+      "surface": "möchte",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 4,
+      "surface": "bar",
+      "word_id": "W890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 5,
+      "surface": "zahlen",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 1,
+      "surface": "Gute Nacht",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 2,
+      "surface": "zusammen",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48017",
+      "position": 1,
+      "surface": "Schuhe",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48017",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48017",
+      "position": 3,
+      "surface": "teuer",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48018",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48018",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48018",
+      "position": 3,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48018",
+      "position": 4,
+      "surface": "teuer",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48019",
+      "position": 1,
+      "surface": "Der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48019",
+      "position": 2,
+      "surface": "Preis",
+      "word_id": "W886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48019",
+      "position": 3,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48019",
+      "position": 4,
+      "surface": "gut",
+      "word_id": "W042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 3,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 4,
+      "surface": "billig",
+      "word_id": "W891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48021",
+      "position": 1,
+      "surface": "Äpfel",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48021",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48021",
+      "position": 3,
+      "surface": "hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48021",
+      "position": 4,
+      "surface": "billig",
+      "word_id": "W891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48022",
+      "position": 1,
+      "surface": "Kartoffeln",
+      "word_id": "W876",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48022",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48022",
+      "position": 3,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48022",
+      "position": 4,
+      "surface": "billig",
+      "word_id": "W891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 1,
+      "surface": "Kann",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 2,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 3,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 4,
+      "surface": "morgen",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 5,
+      "surface": "bezahlen",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48024",
+      "position": 1,
+      "surface": "Kostet",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48024",
+      "position": 2,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48024",
+      "position": 3,
+      "surface": "Gemüse",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48024",
+      "position": 4,
+      "surface": "hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48024",
+      "position": 5,
+      "surface": "viel",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48025",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48025",
+      "position": 2,
+      "surface": "viel",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48025",
+      "position": 3,
+      "surface": "kostet",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48025",
+      "position": 4,
+      "surface": "dein",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48025",
+      "position": 5,
+      "surface": "Handy",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 2,
+      "surface": "viel",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 3,
+      "surface": "kostet",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 4,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 5,
+      "surface": "Handy",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48027",
+      "position": 1,
+      "surface": "Zahlen",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48027",
+      "position": 2,
+      "surface": "bitte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48028",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48028",
+      "position": 2,
+      "surface": "bezahlen",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48029",
+      "position": 1,
+      "surface": "Wir",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48029",
+      "position": 2,
+      "surface": "bezahlen",
+      "word_id": "W887",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48030",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48030",
+      "position": 2,
+      "surface": "möchte",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48030",
+      "position": 3,
+      "surface": "zahlen",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A480021",
+      "sentence_id": "S48002",
+      "direction": "fr_to_en",
+      "answer": "Can I pay with a card?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480121",
+      "sentence_id": "S48012",
+      "direction": "fr_to_en",
+      "answer": "How much are these pants?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480271",
+      "sentence_id": "S48027",
+      "direction": "fr_to_en",
+      "answer": "The bill, please.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480272",
+      "sentence_id": "S48027",
+      "direction": "fr_to_en",
+      "answer": "Give me the bill, please.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480273",
+      "sentence_id": "S48027",
+      "direction": "fr_to_en",
+      "answer": "I'd like the bill, please.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

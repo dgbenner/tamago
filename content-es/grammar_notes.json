@@ -147,6 +147,125 @@
       "example_sentence_ids": "S53016;S53017;S53003;S53005",
       "conjugation_lemma": "",
       "status": "live"
+    },
+    {
+      "unit_id": "U41",
+      "rule": "To ask a name: ¿Cómo te llamas? to a friend, ¿Cómo se llama usted? politely (usted takes the él form). Mi nombre es … and me llamo … both give your name; apellido is the last name. On meeting someone, a man says encantado and a woman says encantada.",
+      "example_sentence_ids": "S41109;S41014;S41105",
+      "conjugation_lemma": "llamar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U54",
+      "rule": "Llevar is the verb for what you wear: llevo gafas, ¿llevas zapatos?, María lleva un vestido. La ropa means clothes and is always singular: ¿Dónde está mi ropa? Pantalones and zapatos come in the plural.",
+      "example_sentence_ids": "S54101;S54102;S54103",
+      "conjugation_lemma": "llevar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U34",
+      "rule": "To ask how a word is spelled: ¿Cómo se escribe? To ask someone to spell it: ¿Puede deletrear …? (usted) or ¿Puedes deletrear …? (tú). Poder is followed straight by the verb: puedo leer, puede escribir.",
+      "example_sentence_ids": "S34101;S34001;S34103",
+      "conjugation_lemma": "poder",
+      "status": "live"
+    },
+    {
+      "unit_id": "U42",
+      "rule": "Numbers 0 to 20: cero, uno … diez, once, doce, trece, catorce, quince, then dieciséis to diecinueve as one word each, and veinte. Phone numbers are often read in pairs: cero, once, quince. To ask for a number: ¿Cuál es tu número? (tú) or ¿Cuál es su número? (usted).",
+      "example_sentence_ids": "S42005;S42101;S42107",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U43",
+      "rule": "Spanish gives age with tener: tengo veinte años, ¿cuántos años tienes? (literally how many years do you have). ¿Cuál es tu edad? asks the same thing. On someone's birthday: ¡Feliz cumpleaños!",
+      "example_sentence_ids": "S43101;S43102;S43008",
+      "conjugation_lemma": "tener",
+      "status": "live"
+    },
+    {
+      "unit_id": "U55",
+      "rule": "Classroom words: la clase, la pregunta, la página, el papel, el lápiz. Estudiar is a regular -ar verb (estudio, estudias, estudia); aprender is an -er verb (aprendo, aprendes). Me gusta + a verb: me gusta estudiar, me gusta aprender español.",
+      "example_sentence_ids": "S55103;S55104;S55105",
+      "conjugation_lemma": "estudiar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U35",
+      "rule": "To check a number: ¿Puede repetir? (usted) or ¿Puedes repetir? (tú). To ask for time: Un momento, por favor, or Espera (tú). To confirm: Es correcto, or Sí, es correcto.",
+      "example_sentence_ids": "S35101;S35001;S35102",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U44",
+      "rule": "The tens: treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien. Between a ten and a unit comes y: treinta y uno, ochenta y cinco. Cien is a hundred exactly.",
+      "example_sentence_ids": "S44101;S44107;S44109",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U45",
+      "rule": "Vivir is a regular -ir verb: vivo, vives, vive. Where you live takes en: vivo en un apartamento. Cerca de and lejos de say how near or far: vivo lejos de aquí.",
+      "example_sentence_ids": "S45007;S45009;S45012",
+      "conjugation_lemma": "vivir",
+      "status": "live"
+    },
+    {
+      "unit_id": "U56",
+      "rule": "Ser describes what someone is like: es alto, es baja, es moreno. Adjectives agree: alto, alta; delgado, delgada. Inteligente is the same for both. Tener gives features: tiene barba, tiene el pelo largo.",
+      "example_sentence_ids": "S56102;S56104;S56106",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U46",
+      "rule": "Ser de gives where someone is from: soy de México, es de Francia. Nationalities agree: mexicano, mexicana. Languages and nationalities take no capital in Spanish: hablo francés. Hablar is a regular -ar verb: hablo, hablas, habla.",
+      "example_sentence_ids": "S46013;S46102;S46002",
+      "conjugation_lemma": "hablar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U47",
+      "rule": "Querer changes its stem: quiero, quieres, quiere. Quiero + a noun asks for something (quiero huevos); quiero + a verb says what you want to do (quiero comprar fruta). A quantity takes de: un kilo de manzanas.",
+      "example_sentence_ids": "S47101;S47102;S47002",
+      "conjugation_lemma": "querer",
+      "status": "live"
+    },
+    {
+      "unit_id": "U57",
+      "rule": "Adjectives in -o change for a woman or a feminine noun (rápido, rápida); fácil, difícil and interesante are the same for both. Ser says what something is like (es fácil); estar says how it is now (el museo está cerrado). Tener frío is to be cold.",
+      "example_sentence_ids": "S57102;S57105;S57106",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U36",
+      "rule": "To say you understand: Comprendo. To agree: De acuerdo, or Claro (of course). To check: add ¿verdad? to the end of a sentence (hablas español, ¿verdad?). Exacto means exactly.",
+      "example_sentence_ids": "S36101;S36103;S36105",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U48",
+      "rule": "To ask a price: ¿Cuánto cuesta? for one thing, ¿Cuánto cuestan? for more than one (costar changes o to ue). Cuesta cien pesos. Es caro (expensive), es barato (cheap).",
+      "example_sentence_ids": "S48101;S48102;S48103",
+      "conjugation_lemma": "costar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U49",
+      "rule": "A container or amount takes de before what's in it: una botella de agua, un paquete de galletas, un vaso de leche. Mucho is a lot, poco is not much, bastante is enough or quite: tengo bastante dinero, hay poco pan.",
+      "example_sentence_ids": "S49101;S49104;S49103",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U58",
+      "rule": "Where you are takes en: en la playa, en el campo, en el bosque. Where you go takes a: voy a la playa. El campo here is the countryside; el sol, el mar, el cielo take el.",
+      "example_sentence_ids": "S58101;S58010;S58103",
+      "conjugation_lemma": "",
+      "status": "live"
     }
   ]
 }

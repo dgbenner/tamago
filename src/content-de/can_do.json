@@ -658,5 +658,205 @@
     "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Reading",
     "cefr_row": "Reading",
     "cefr_descriptor": "I can understand familiar names, words and very simple sentences, for example on notices and posters or in catalogues."
+  },
+  {
+    "can_do_id": "CD201",
+    "unit_id": "U41",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can say my name and ask someone theirs, politely or to a friend.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken interaction",
+    "cefr_row": "Spoken interaction",
+    "cefr_descriptor": "I can interact in a simple way provided the other person is prepared to repeat or rephrase things at a slower rate of speech and help me formulate what I'm trying to say. I can ask and answer simple questions in areas of immediate need or on very familiar topics."
+  },
+  {
+    "can_do_id": "CD202",
+    "unit_id": "U54",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can name parts of the body and say where it hurts.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken production",
+    "cefr_row": "Spoken production",
+    "cefr_descriptor": "I can use simple phrases and sentences to describe where I live and people I know."
+  },
+  {
+    "can_do_id": "CD203",
+    "unit_id": "U34",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can ask how a word or a name is spelled, and spell my own.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken interaction",
+    "cefr_row": "Spoken interaction",
+    "cefr_descriptor": "I can interact in a simple way provided the other person is prepared to repeat or rephrase things at a slower rate of speech and help me formulate what I'm trying to say. I can ask and answer simple questions in areas of immediate need or on very familiar topics."
+  },
+  {
+    "can_do_id": "CD204",
+    "unit_id": "U42",
+    "skill": "listening",
+    "cefr": "A1",
+    "statement": "I can understand a phone number said slowly.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Listening",
+    "cefr_row": "Listening",
+    "cefr_descriptor": "I can understand familiar words and very basic phrases concerning myself, my family and immediate concrete surroundings when people speak slowly and clearly."
+  },
+  {
+    "can_do_id": "CD205",
+    "unit_id": "U42",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can give my phone number.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken production",
+    "cefr_row": "Spoken production",
+    "cefr_descriptor": "I can use simple phrases and sentences to describe where I live and people I know."
+  },
+  {
+    "can_do_id": "CD206",
+    "unit_id": "U43",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can ask and say how old someone is.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken interaction",
+    "cefr_row": "Spoken interaction",
+    "cefr_descriptor": "I can interact in a simple way provided the other person is prepared to repeat or rephrase things at a slower rate of speech and help me formulate what I'm trying to say. I can ask and answer simple questions in areas of immediate need or on very familiar topics."
+  },
+  {
+    "can_do_id": "CD207",
+    "unit_id": "U55",
+    "skill": "reading",
+    "cefr": "A1",
+    "statement": "I can understand everyday words for the classroom.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Reading",
+    "cefr_row": "Reading",
+    "cefr_descriptor": "I can understand familiar names, words and very simple sentences, for example on notices and posters or in catalogues."
+  },
+  {
+    "can_do_id": "CD208",
+    "unit_id": "U35",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can ask someone to repeat a number and check that I have it right.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken interaction",
+    "cefr_row": "Spoken interaction",
+    "cefr_descriptor": "I can interact in a simple way provided the other person is prepared to repeat or rephrase things at a slower rate of speech and help me formulate what I'm trying to say. I can ask and answer simple questions in areas of immediate need or on very familiar topics."
+  },
+  {
+    "can_do_id": "CD209",
+    "unit_id": "U44",
+    "skill": "listening",
+    "cefr": "A1",
+    "statement": "I can understand numbers up to 100 said slowly.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Listening",
+    "cefr_row": "Listening",
+    "cefr_descriptor": "I can understand familiar words and very basic phrases concerning myself, my family and immediate concrete surroundings when people speak slowly and clearly."
+  },
+  {
+    "can_do_id": "CD210",
+    "unit_id": "U45",
+    "skill": "writing",
+    "cefr": "A1",
+    "statement": "I can write where I live: my street, my town, my country.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Writing",
+    "cefr_row": "Writing",
+    "cefr_descriptor": "I can write a short, simple postcard, for example sending holiday greetings. I can fill in forms with personal details, for example entering my name, nationality and address on a hotel registration form."
+  },
+  {
+    "can_do_id": "CD211",
+    "unit_id": "U45",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can say where I live.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken production",
+    "cefr_row": "Spoken production",
+    "cefr_descriptor": "I can use simple phrases and sentences to describe where I live and people I know."
+  },
+  {
+    "can_do_id": "CD212",
+    "unit_id": "U56",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can say what someone is wearing.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken production",
+    "cefr_row": "Spoken production",
+    "cefr_descriptor": "I can use simple phrases and sentences to describe where I live and people I know."
+  },
+  {
+    "can_do_id": "CD213",
+    "unit_id": "U46",
+    "skill": "reading",
+    "cefr": "A1",
+    "statement": "I can understand which country someone comes from and which languages they speak.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Reading",
+    "cefr_row": "Reading",
+    "cefr_descriptor": "I can understand familiar names, words and very simple sentences, for example on notices and posters or in catalogues."
+  },
+  {
+    "can_do_id": "CD214",
+    "unit_id": "U47",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can ask for things at a market and say how much I want.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken interaction",
+    "cefr_row": "Spoken interaction",
+    "cefr_descriptor": "I can interact in a simple way provided the other person is prepared to repeat or rephrase things at a slower rate of speech and help me formulate what I'm trying to say. I can ask and answer simple questions in areas of immediate need or on very familiar topics."
+  },
+  {
+    "can_do_id": "CD215",
+    "unit_id": "U57",
+    "skill": "reading",
+    "cefr": "A1",
+    "statement": "I can understand simple descriptions: easy or hard, fast or slow, open or closed.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Reading",
+    "cefr_row": "Reading",
+    "cefr_descriptor": "I can understand familiar names, words and very simple sentences, for example on notices and posters or in catalogues."
+  },
+  {
+    "can_do_id": "CD216",
+    "unit_id": "U36",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can say that I have understood, or check that I have.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken interaction",
+    "cefr_row": "Spoken interaction",
+    "cefr_descriptor": "I can interact in a simple way provided the other person is prepared to repeat or rephrase things at a slower rate of speech and help me formulate what I'm trying to say. I can ask and answer simple questions in areas of immediate need or on very familiar topics."
+  },
+  {
+    "can_do_id": "CD217",
+    "unit_id": "U48",
+    "skill": "listening",
+    "cefr": "A1",
+    "statement": "I can understand prices.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Listening",
+    "cefr_row": "Listening",
+    "cefr_descriptor": "I can understand familiar words and very basic phrases concerning myself, my family and immediate concrete surroundings when people speak slowly and clearly."
+  },
+  {
+    "can_do_id": "CD218",
+    "unit_id": "U48",
+    "skill": "speaking",
+    "cefr": "A1",
+    "statement": "I can ask how much something costs.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Spoken interaction",
+    "cefr_row": "Spoken interaction",
+    "cefr_descriptor": "I can interact in a simple way provided the other person is prepared to repeat or rephrase things at a slower rate of speech and help me formulate what I'm trying to say. I can ask and answer simple questions in areas of immediate need or on very familiar topics."
+  },
+  {
+    "can_do_id": "CD219",
+    "unit_id": "U49",
+    "skill": "reading",
+    "cefr": "A1",
+    "statement": "I can understand quantities on a shopping list.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Reading",
+    "cefr_row": "Reading",
+    "cefr_descriptor": "I can understand familiar names, words and very simple sentences, for example on notices and posters or in catalogues."
+  },
+  {
+    "can_do_id": "CD220",
+    "unit_id": "U58",
+    "skill": "reading",
+    "cefr": "A1",
+    "statement": "I can recognise everyday words for the countryside and the outdoors.",
+    "source": "checked against CEFR self-assessment grid (Europass copy, Council of Europe 2004-2020), A1, Reading",
+    "cefr_row": "Reading",
+    "cefr_descriptor": "I can understand familiar names, words and very simple sentences, for example on notices and posters or in catalogues."
   }
 ]

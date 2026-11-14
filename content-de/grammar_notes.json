@@ -146,6 +146,125 @@
       "example_sentence_ids": "S53008;S53001;S53016;S53004",
       "conjugation_lemma": "",
       "status": "live"
+    },
+    {
+      "unit_id": "U41",
+      "rule": "Wie heißen Sie? is the polite question, Wie heißt du? the friendly one; Sie takes the -en form like wir. Ihr Name, Ihre Kinder: Ihr with a capital is the polite your.",
+      "example_sentence_ids": "S41027;S41011;S41001",
+      "conjugation_lemma": "heißen",
+      "status": "live"
+    },
+    {
+      "unit_id": "U54",
+      "rule": "Mein Kopf tut weh: wehtun for pain, with the part of the body first. Mein Arm, meine Hand: mein before der and das words, meine before die words and plurals.",
+      "example_sentence_ids": "S54001;S54014;S54019",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U34",
+      "rule": "Wie schreibt man das? asks how a word is spelled. Können Sie das buchstabieren?: können goes second, the other verb goes to the end.",
+      "example_sentence_ids": "S34101;S34102;S34008",
+      "conjugation_lemma": "können",
+      "status": "live"
+    },
+    {
+      "unit_id": "U42",
+      "rule": "Numbers 0 to 20: dreizehn to neunzehn are the unit plus -zehn (sechzehn and siebzehn drop a letter). Meine Nummer ist null, eins, zwei: phone numbers are read out digit by digit or in pairs.",
+      "example_sentence_ids": "S42005;S42103;S42112",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U43",
+      "rule": "Ich bin zehn Jahre alt: sein for age, with Jahre alt. Ich habe heute Geburtstag: haben for a birthday. Wo bist du geboren?: geboren with sein.",
+      "example_sentence_ids": "S43008;S43028;S43004",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U35",
+      "rule": "Einen Moment, bitte. and Einen Augenblick, bitte. ask someone to wait. Ist das richtig? checks; Ja, das ist richtig. or Nein, das ist falsch. answers.",
+      "example_sentence_ids": "S35101;S35106;S35109",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U44",
+      "rule": "Tens to 100: dreißig, vierzig … neunzig end in -zig (dreißig in -ßig); hundert is a hundred. Einundzwanzig: the unit first, then und, then the ten.",
+      "example_sentence_ids": "S44001;S44105;S44113",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U45",
+      "rule": "Ich wohne, du wohnst, er wohnt, wir wohnen: regular verbs. Wo wohnst du? Ich wohne hier. Ist das weit? Nein, es ist nah.",
+      "example_sentence_ids": "S45001;S45020;S45006",
+      "conjugation_lemma": "wohnen",
+      "status": "live"
+    },
+    {
+      "unit_id": "U56",
+      "rule": "Ich trage, du trägst, er trägt: tragen takes an umlaut with du and er. Die Hose, das Hemd, der Rock: die Schuhe and die Kleidung are plural or a group.",
+      "example_sentence_ids": "S56006;S56001;S56024",
+      "conjugation_lemma": "tragen",
+      "status": "live"
+    },
+    {
+      "unit_id": "U46",
+      "rule": "Ich komme aus Deutschland: aus for where you are from. Ich spreche, du sprichst, er spricht: sprechen changes e to i with du and er. Languages: Deutsch, Englisch, Französisch, Spanisch.",
+      "example_sentence_ids": "S46022;S46005;S46010",
+      "conjugation_lemma": "sprechen",
+      "status": "live"
+    },
+    {
+      "unit_id": "U47",
+      "rule": "Ich kaufe, du kaufst, er kauft: regular verbs. Ein Kilo Äpfel: no word for of after a quantity. Ich brauche …: brauchen with the thing you need.",
+      "example_sentence_ids": "S47001;S47103;S47106",
+      "conjugation_lemma": "kaufen",
+      "status": "live"
+    },
+    {
+      "unit_id": "U36",
+      "rule": "Hast du verstanden? Ja, ich habe verstanden. Stimmt das? Ja, das stimmt. Genau! and Klar! say yes, that's it.",
+      "example_sentence_ids": "S36003;S36018;S36101",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U48",
+      "rule": "Was kostet das? Das kostet zwei Euro: kostet for one thing, kosten for more than one. Kann ich mit Karte zahlen? Oder bar?",
+      "example_sentence_ids": "S48010;S48108;S48002",
+      "conjugation_lemma": "kosten",
+      "status": "live"
+    },
+    {
+      "unit_id": "U49",
+      "rule": "Eine Flasche Wasser, ein Glas Milch, eine Packung Kekse: no word for of after a quantity. Genug, wenig and mehr go before the noun: genug Geld, wenig Zeit, mehr Kaffee.",
+      "example_sentence_ids": "S49014;S49006;S49101",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U55",
+      "rule": "Ich lerne, du lernst, er lernt: regular verbs take -e, -st, -t (fragen, antworten, erklären too). Der Tisch, der Satz, die Frage, die Aufgabe, das Papier, das Bild: learn each noun with der, die or das.",
+      "example_sentence_ids": "S55038;S55013;S55111",
+      "conjugation_lemma": "lernen",
+      "status": "live"
+    },
+    {
+      "unit_id": "U57",
+      "rule": "Das ist einfach, das ist schwierig: an adjective after sein never changes its ending. Aber joins two opposites (nicht einfach, aber möglich); oder offers a choice (gut oder schlecht?).",
+      "example_sentence_ids": "S57001;S57005;S57108",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U58",
+      "rule": "Der Berg, der Wald, der See, der Fluss, der Baum, der Himmel, der Wind: most outdoor words are der words; die Blume, die Welt. Der See is a lake; die See is the sea. Immer and oft say how often: Bist du oft draußen?",
+      "example_sentence_ids": "S58101;S58105;S58106",
+      "conjugation_lemma": "",
+      "status": "live"
     }
   ]
 }

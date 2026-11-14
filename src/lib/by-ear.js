@@ -10,7 +10,7 @@ export function repeatsAWord(text) {
 // Cut from listening.
 export const NOT_BY_EAR = new Set([
   'Non, non et non !', 'Oui, oui, exactement !', // French
-  'No, no me llamo Tom.', 'No, no entiendo.', 'No, no hay pan.', // Spanish: "No, no …" sounds like "no no"
+  'No, no me llamo Tom.', 'No, no entiendo.', 'No, no hay pan.', 'No, no tengo celular.', 'No, no tengo bolsa.', 'Ja, ja, genau!', // Spanish: "No, no …" sounds like "no no"
 ])
 // Kept: the repeat is ordinary grammar or clear by ear.
 export const FINE_BY_EAR = new Set(['Vous vous appelez comment ?', 'Bonjour, Madame. Vous vous appelez comment ?', 'Dos y dos son cuatro.'])

@@ -1,0 +1,1465 @@
+{
+  "unit_id": "U58",
+  "pulled_at": "2026-11-14",
+  "candidates": 39,
+  "sentences": [
+    {
+      "sentence_id": "S58001",
+      "unit_id": "U58",
+      "french": "¿Cómo se llama este río?",
+      "english": "What is the name of this river?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "449725",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58002",
+      "unit_id": "U58",
+      "french": "¿Este autobús va a la playa?",
+      "english": "Does this bus go to the beach?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "841939",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58003",
+      "unit_id": "U58",
+      "french": "¿Te gusta vivir en el campo?",
+      "english": "Do you like to live in the country?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1573478",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58004",
+      "unit_id": "U58",
+      "french": "El cielo es azul.",
+      "english": "The sky is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "539388",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58005",
+      "unit_id": "U58",
+      "french": "Me gusta el sol.",
+      "english": "I love the sun.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "578871",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58006",
+      "unit_id": "U58",
+      "french": "El sol es rojo.",
+      "english": "The sun is red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1185872",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58007",
+      "unit_id": "U58",
+      "french": "El lago es grande.",
+      "english": "The lake is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1595429",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58008",
+      "unit_id": "U58",
+      "french": "Estamos en el bosque.",
+      "english": "We're in the forest.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1656333",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "We are in the forest."
+      ]
+    },
+    {
+      "sentence_id": "S58009",
+      "unit_id": "U58",
+      "french": "El sol es grande.",
+      "english": "The sun is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1715747",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58010",
+      "unit_id": "U58",
+      "french": "Voy a la playa.",
+      "english": "I'm going to the beach.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2110643",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58011",
+      "unit_id": "U58",
+      "french": "Estoy en la playa.",
+      "english": "I'm at the beach.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2127446",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58012",
+      "unit_id": "U58",
+      "french": "La montaña es verde.",
+      "english": "The mountain is green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2137924",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58013",
+      "unit_id": "U58",
+      "french": "El mar es azul.",
+      "english": "The sea is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3667145",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58014",
+      "unit_id": "U58",
+      "french": "Quiero vivir en el campo.",
+      "english": "I want to live in the country.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "656227",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "I want to live in the countryside."
+      ]
+    },
+    {
+      "sentence_id": "S58015",
+      "unit_id": "U58",
+      "french": "¿El cielo es azul? Sí.",
+      "english": "Is the sky blue? Yes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "811759",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58017",
+      "unit_id": "U58",
+      "french": "Tom está en el bosque.",
+      "english": "Tom is in the forest.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5939751",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58018",
+      "unit_id": "U58",
+      "french": "Vivo cerca de un bosque.",
+      "english": "I live near a forest.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9972291",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58020",
+      "unit_id": "U58",
+      "french": "El lago está lejos de aquí.",
+      "english": "The lake is a long way from here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1359654",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58021",
+      "unit_id": "U58",
+      "french": "Esta montaña no es muy alta.",
+      "english": "This mountain isn't very tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1785365",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58022",
+      "unit_id": "U58",
+      "french": "Hay un río cerca de casa.",
+      "english": "There's a river near the house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2251500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58023",
+      "unit_id": "U58",
+      "french": "Su casa está cerca de un río.",
+      "english": "His house is near a river.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1396300",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58024",
+      "unit_id": "U58",
+      "french": "Tiene una casa grande en la montaña.",
+      "english": "He has a big house on the mountain.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2386861",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "diegohn",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58026",
+      "unit_id": "U58",
+      "french": "El sol es amarillo.",
+      "english": "The sun is yellow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5257399",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58027",
+      "unit_id": "U58",
+      "french": "Me gusta mucho el sol.",
+      "english": "I love the sun.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1023224",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "I really love the sun.",
+        "I like the sun a lot."
+      ]
+    },
+    {
+      "sentence_id": "S58029",
+      "unit_id": "U58",
+      "french": "Ella vive en el campo.",
+      "english": "She lives in the country.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1291776",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58030",
+      "unit_id": "U58",
+      "french": "No me gusta la playa.",
+      "english": "I don't like the beach.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2375719",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S58001",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58001",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58001",
+      "position": 3,
+      "surface": "llama",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58001",
+      "position": 4,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58001",
+      "position": 5,
+      "surface": "río",
+      "word_id": "W1154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58002",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58002",
+      "position": 2,
+      "surface": "autobús",
+      "word_id": "W1037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58002",
+      "position": 3,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58002",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58002",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58002",
+      "position": 6,
+      "surface": "playa",
+      "word_id": "W1150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58003",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58003",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58003",
+      "position": 3,
+      "surface": "vivir",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58003",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58003",
+      "position": 5,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58003",
+      "position": 6,
+      "surface": "campo",
+      "word_id": "W1152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58004",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58004",
+      "position": 2,
+      "surface": "cielo",
+      "word_id": "W1158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58004",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58004",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58005",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58005",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58005",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58005",
+      "position": 4,
+      "surface": "sol",
+      "word_id": "W1155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58006",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58006",
+      "position": 2,
+      "surface": "sol",
+      "word_id": "W1155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58006",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58006",
+      "position": 4,
+      "surface": "rojo",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58007",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58007",
+      "position": 2,
+      "surface": "lago",
+      "word_id": "W1156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58007",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58007",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58008",
+      "position": 1,
+      "surface": "Estamos",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58008",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58008",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58008",
+      "position": 4,
+      "surface": "bosque",
+      "word_id": "W1157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58009",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58009",
+      "position": 2,
+      "surface": "sol",
+      "word_id": "W1155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58009",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58009",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58010",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58010",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58010",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58010",
+      "position": 4,
+      "surface": "playa",
+      "word_id": "W1150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58011",
+      "position": 1,
+      "surface": "Estoy",
+      "word_id": "W038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58011",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58011",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58011",
+      "position": 4,
+      "surface": "playa",
+      "word_id": "W1150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58012",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58012",
+      "position": 2,
+      "surface": "montaña",
+      "word_id": "W1151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58012",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58012",
+      "position": 4,
+      "surface": "verde",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58013",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58013",
+      "position": 2,
+      "surface": "mar",
+      "word_id": "W1153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58013",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58013",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58014",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58014",
+      "position": 2,
+      "surface": "vivir",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58014",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58014",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58014",
+      "position": 5,
+      "surface": "campo",
+      "word_id": "W1152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58015",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58015",
+      "position": 2,
+      "surface": "cielo",
+      "word_id": "W1158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58015",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58015",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58015",
+      "position": 5,
+      "surface": "Sí",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58017",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58017",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58017",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58017",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58017",
+      "position": 5,
+      "surface": "bosque",
+      "word_id": "W1157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58018",
+      "position": 1,
+      "surface": "Vivo",
+      "word_id": "W847",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58018",
+      "position": 2,
+      "surface": "cerca",
+      "word_id": "W855",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58018",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58018",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58018",
+      "position": 5,
+      "surface": "bosque",
+      "word_id": "W1157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58020",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58020",
+      "position": 2,
+      "surface": "lago",
+      "word_id": "W1156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58020",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58020",
+      "position": 4,
+      "surface": "lejos",
+      "word_id": "W856",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58020",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58020",
+      "position": 6,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58021",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58021",
+      "position": 2,
+      "surface": "montaña",
+      "word_id": "W1151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58021",
+      "position": 3,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58021",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58021",
+      "position": 5,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58021",
+      "position": 6,
+      "surface": "alta",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58022",
+      "position": 1,
+      "surface": "Hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58022",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58022",
+      "position": 3,
+      "surface": "río",
+      "word_id": "W1154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58022",
+      "position": 4,
+      "surface": "cerca",
+      "word_id": "W855",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58022",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58022",
+      "position": 6,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 1,
+      "surface": "Su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 2,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 4,
+      "surface": "cerca",
+      "word_id": "W855",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 6,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 7,
+      "surface": "río",
+      "word_id": "W1154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 1,
+      "surface": "Tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 3,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 6,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 7,
+      "surface": "montaña",
+      "word_id": "W1151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58026",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58026",
+      "position": 2,
+      "surface": "sol",
+      "word_id": "W1155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58026",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58026",
+      "position": 4,
+      "surface": "amarillo",
+      "word_id": "W152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58027",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58027",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58027",
+      "position": 3,
+      "surface": "mucho",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58027",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58027",
+      "position": 5,
+      "surface": "sol",
+      "word_id": "W1155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58029",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58029",
+      "position": 2,
+      "surface": "vive",
+      "word_id": "W849",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58029",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58029",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58029",
+      "position": 5,
+      "surface": "campo",
+      "word_id": "W1152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58030",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58030",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58030",
+      "position": 3,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58030",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58030",
+      "position": 5,
+      "surface": "playa",
+      "word_id": "W1150",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A580081",
+      "sentence_id": "S58008",
+      "direction": "fr_to_en",
+      "answer": "We are in the forest.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A580141",
+      "sentence_id": "S58014",
+      "direction": "fr_to_en",
+      "answer": "I want to live in the countryside.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A580271",
+      "sentence_id": "S58027",
+      "direction": "fr_to_en",
+      "answer": "I really love the sun.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A580272",
+      "sentence_id": "S58027",
+      "direction": "fr_to_en",
+      "answer": "I like the sun a lot.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -544,5 +544,469 @@
       "S53005"
     ],
     "conjugations": []
+  },
+  {
+    "unit_id": "U41",
+    "rule": "To ask a name: ¿Cómo te llamas? to a friend, ¿Cómo se llama usted? politely (usted takes the él form). Mi nombre es … and me llamo … both give your name; apellido is the last name. On meeting someone, a man says encantado and a woman says encantada.",
+    "example_sentence_ids": "S41109;S41014;S41105",
+    "conjugation_lemma": "llamar",
+    "status": "live",
+    "examples": [
+      "S41109",
+      "S41014",
+      "S41105"
+    ],
+    "conjugations": [
+      {
+        "lemma": "llamar",
+        "present": [
+          {
+            "person": "yo",
+            "form": "llamo"
+          },
+          {
+            "person": "tú",
+            "form": "llamas"
+          },
+          {
+            "person": "él, ella, usted",
+            "form": "llama"
+          },
+          {
+            "person": "nosotros, nosotras",
+            "form": "llamamos"
+          },
+          {
+            "person": "ellos, ellas, ustedes",
+            "form": "llaman"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/llamar#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U54",
+    "rule": "Llevar is the verb for what you wear: llevo gafas, ¿llevas zapatos?, María lleva un vestido. La ropa means clothes and is always singular: ¿Dónde está mi ropa? Pantalones and zapatos come in the plural.",
+    "example_sentence_ids": "S54101;S54102;S54103",
+    "conjugation_lemma": "llevar",
+    "status": "live",
+    "examples": [
+      "S54101",
+      "S54102",
+      "S54103"
+    ],
+    "conjugations": [
+      {
+        "lemma": "llevar",
+        "present": [
+          {
+            "person": "yo",
+            "form": "llevo"
+          },
+          {
+            "person": "tú",
+            "form": "llevas"
+          },
+          {
+            "person": "él, ella, usted",
+            "form": "lleva"
+          },
+          {
+            "person": "nosotros, nosotras",
+            "form": "llevamos"
+          },
+          {
+            "person": "ellos, ellas, ustedes",
+            "form": "llevan"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/llevar#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U34",
+    "rule": "To ask how a word is spelled: ¿Cómo se escribe? To ask someone to spell it: ¿Puede deletrear …? (usted) or ¿Puedes deletrear …? (tú). Poder is followed straight by the verb: puedo leer, puede escribir.",
+    "example_sentence_ids": "S34101;S34001;S34103",
+    "conjugation_lemma": "poder",
+    "status": "live",
+    "examples": [
+      "S34101",
+      "S34001",
+      "S34103"
+    ],
+    "conjugations": [
+      {
+        "lemma": "poder",
+        "present": [
+          {
+            "person": "yo",
+            "form": "puedo"
+          },
+          {
+            "person": "tú",
+            "form": "puedes"
+          },
+          {
+            "person": "él, ella, usted",
+            "form": "puede"
+          },
+          {
+            "person": "nosotros, nosotras",
+            "form": "podemos"
+          },
+          {
+            "person": "ellos, ellas, ustedes",
+            "form": "pueden"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/poder#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U42",
+    "rule": "Numbers 0 to 20: cero, uno … diez, once, doce, trece, catorce, quince, then dieciséis to diecinueve as one word each, and veinte. Phone numbers are often read in pairs: cero, once, quince. To ask for a number: ¿Cuál es tu número? (tú) or ¿Cuál es su número? (usted).",
+    "example_sentence_ids": "S42005;S42101;S42107",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S42005",
+      "S42101",
+      "S42107"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U43",
+    "rule": "Spanish gives age with tener: tengo veinte años, ¿cuántos años tienes? (literally how many years do you have). ¿Cuál es tu edad? asks the same thing. On someone's birthday: ¡Feliz cumpleaños!",
+    "example_sentence_ids": "S43101;S43102;S43008",
+    "conjugation_lemma": "tener",
+    "status": "live",
+    "examples": [
+      "S43101",
+      "S43102",
+      "S43008"
+    ],
+    "conjugations": [
+      {
+        "lemma": "tener",
+        "present": [
+          {
+            "person": "yo",
+            "form": "tengo"
+          },
+          {
+            "person": "tú",
+            "form": "tienes"
+          },
+          {
+            "person": "él, ella, usted",
+            "form": "tiene"
+          },
+          {
+            "person": "nosotros, nosotras",
+            "form": "tenemos"
+          },
+          {
+            "person": "ellos, ellas, ustedes",
+            "form": "tienen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/tener#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U55",
+    "rule": "Classroom words: la clase, la pregunta, la página, el papel, el lápiz. Estudiar is a regular -ar verb (estudio, estudias, estudia); aprender is an -er verb (aprendo, aprendes). Me gusta + a verb: me gusta estudiar, me gusta aprender español.",
+    "example_sentence_ids": "S55103;S55104;S55105",
+    "conjugation_lemma": "estudiar",
+    "status": "live",
+    "examples": [
+      "S55103",
+      "S55104",
+      "S55105"
+    ],
+    "conjugations": [
+      {
+        "lemma": "estudiar",
+        "present": [
+          {
+            "person": "yo",
+            "form": "estudio"
+          },
+          {
+            "person": "tú",
+            "form": "estudias"
+          },
+          {
+            "person": "él, ella, usted",
+            "form": "estudia"
+          },
+          {
+            "person": "nosotros, nosotras",
+            "form": "estudiamos"
+          },
+          {
+            "person": "ellos, ellas, ustedes",
+            "form": "estudian"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/estudiar#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U35",
+    "rule": "To check a number: ¿Puede repetir? (usted) or ¿Puedes repetir? (tú). To ask for time: Un momento, por favor, or Espera (tú). To confirm: Es correcto, or Sí, es correcto.",
+    "example_sentence_ids": "S35101;S35001;S35102",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S35101",
+      "S35001",
+      "S35102"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U44",
+    "rule": "The tens: treinta, cuarenta, cincuenta, sesenta, setenta, ochenta, noventa, cien. Between a ten and a unit comes y: treinta y uno, ochenta y cinco. Cien is a hundred exactly.",
+    "example_sentence_ids": "S44101;S44107;S44109",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S44101",
+      "S44107",
+      "S44109"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U45",
+    "rule": "Vivir is a regular -ir verb: vivo, vives, vive. Where you live takes en: vivo en un apartamento. Cerca de and lejos de say how near or far: vivo lejos de aquí.",
+    "example_sentence_ids": "S45007;S45009;S45012",
+    "conjugation_lemma": "vivir",
+    "status": "live",
+    "examples": [
+      "S45007",
+      "S45009",
+      "S45012"
+    ],
+    "conjugations": [
+      {
+        "lemma": "vivir",
+        "present": [
+          {
+            "person": "yo",
+            "form": "vivo"
+          },
+          {
+            "person": "tú",
+            "form": "vives"
+          },
+          {
+            "person": "él, ella, usted",
+            "form": "vive"
+          },
+          {
+            "person": "nosotros, nosotras",
+            "form": "vivimos"
+          },
+          {
+            "person": "ellos, ellas, ustedes",
+            "form": "viven"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/vivir#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U56",
+    "rule": "Ser describes what someone is like: es alto, es baja, es moreno. Adjectives agree: alto, alta; delgado, delgada. Inteligente is the same for both. Tener gives features: tiene barba, tiene el pelo largo.",
+    "example_sentence_ids": "S56102;S56104;S56106",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S56102",
+      "S56104",
+      "S56106"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U46",
+    "rule": "Ser de gives where someone is from: soy de México, es de Francia. Nationalities agree: mexicano, mexicana. Languages and nationalities take no capital in Spanish: hablo francés. Hablar is a regular -ar verb: hablo, hablas, habla.",
+    "example_sentence_ids": "S46013;S46102;S46002",
+    "conjugation_lemma": "hablar",
+    "status": "live",
+    "examples": [
+      "S46013",
+      "S46102",
+      "S46002"
+    ],
+    "conjugations": [
+      {
+        "lemma": "hablar",
+        "present": [
+          {
+            "person": "yo",
+            "form": "hablo"
+          },
+          {
+            "person": "tú",
+            "form": "hablas"
+          },
+          {
+            "person": "él, ella, usted",
+            "form": "habla"
+          },
+          {
+            "person": "nosotros, nosotras",
+            "form": "hablamos"
+          },
+          {
+            "person": "ellos, ellas, ustedes",
+            "form": "hablan"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/hablar#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U47",
+    "rule": "Querer changes its stem: quiero, quieres, quiere. Quiero + a noun asks for something (quiero huevos); quiero + a verb says what you want to do (quiero comprar fruta). A quantity takes de: un kilo de manzanas.",
+    "example_sentence_ids": "S47101;S47102;S47002",
+    "conjugation_lemma": "querer",
+    "status": "live",
+    "examples": [
+      "S47101",
+      "S47102",
+      "S47002"
+    ],
+    "conjugations": [
+      {
+        "lemma": "querer",
+        "present": [
+          {
+            "person": "yo",
+            "form": "quiero"
+          },
+          {
+            "person": "tú",
+            "form": "quieres"
+          },
+          {
+            "person": "él, ella, usted",
+            "form": "quiere"
+          },
+          {
+            "person": "nosotros, nosotras",
+            "form": "queremos"
+          },
+          {
+            "person": "ellos, ellas, ustedes",
+            "form": "quieren"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/querer#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U57",
+    "rule": "Adjectives in -o change for a woman or a feminine noun (rápido, rápida); fácil, difícil and interesante are the same for both. Ser says what something is like (es fácil); estar says how it is now (el museo está cerrado). Tener frío is to be cold.",
+    "example_sentence_ids": "S57102;S57105;S57106",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S57102",
+      "S57105",
+      "S57106"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U36",
+    "rule": "To say you understand: Comprendo. To agree: De acuerdo, or Claro (of course). To check: add ¿verdad? to the end of a sentence (hablas español, ¿verdad?). Exacto means exactly.",
+    "example_sentence_ids": "S36101;S36103;S36105",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S36101",
+      "S36103",
+      "S36105"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U48",
+    "rule": "To ask a price: ¿Cuánto cuesta? for one thing, ¿Cuánto cuestan? for more than one (costar changes o to ue). Cuesta cien pesos. Es caro (expensive), es barato (cheap).",
+    "example_sentence_ids": "S48101;S48102;S48103",
+    "conjugation_lemma": "costar",
+    "status": "live",
+    "examples": [
+      "S48101",
+      "S48102",
+      "S48103"
+    ],
+    "conjugations": [
+      {
+        "lemma": "costar",
+        "present": [
+          {
+            "person": "yo",
+            "form": "cuesto"
+          },
+          {
+            "person": "tú",
+            "form": "cuestas"
+          },
+          {
+            "person": "él, ella, usted",
+            "form": "cuesta"
+          },
+          {
+            "person": "nosotros, nosotras",
+            "form": "costamos"
+          },
+          {
+            "person": "ellos, ellas, ustedes",
+            "form": "cuestan"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/costar#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U49",
+    "rule": "A container or amount takes de before what's in it: una botella de agua, un paquete de galletas, un vaso de leche. Mucho is a lot, poco is not much, bastante is enough or quite: tengo bastante dinero, hay poco pan.",
+    "example_sentence_ids": "S49101;S49104;S49103",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S49101",
+      "S49104",
+      "S49103"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U58",
+    "rule": "Where you are takes en: en la playa, en el campo, en el bosque. Where you go takes a: voy a la playa. El campo here is the countryside; el sol, el mar, el cielo take el.",
+    "example_sentence_ids": "S58101;S58010;S58103",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S58101",
+      "S58010",
+      "S58103"
+    ],
+    "conjugations": []
   }
 ]

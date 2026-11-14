@@ -1,0 +1,580 @@
+{
+  "unit_id": "U44",
+  "pulled_at": "2026-11-14",
+  "candidates": 12,
+  "sentences": [
+    {
+      "sentence_id": "S44001",
+      "unit_id": "U44",
+      "french": "Treinta más setenta son cien.",
+      "english": "Thirty plus seventy is one hundred.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13688563",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44002",
+      "unit_id": "U44",
+      "french": "Tengo cuarenta años.",
+      "english": "I'm forty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1055483",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44003",
+      "unit_id": "U44",
+      "french": "Tiene cien años.",
+      "english": "He is 100 years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4431480",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "It is 100 years old.",
+        "She is 100 years old."
+      ]
+    },
+    {
+      "sentence_id": "S44004",
+      "unit_id": "U44",
+      "french": "Ahora tengo treinta años.",
+      "english": "I am 30 years old now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "771832",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44005",
+      "unit_id": "U44",
+      "french": "Tom tiene treinta años.",
+      "english": "Tom is thirty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2115787",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44006",
+      "unit_id": "U44",
+      "french": "Él tiene cuarenta años.",
+      "english": "He's forty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4566563",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44007",
+      "unit_id": "U44",
+      "french": "Tengo ochenta y cinco años.",
+      "english": "I am eighty-five years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1225798",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wallebot",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44008",
+      "unit_id": "U44",
+      "french": "Tiene más de cien años.",
+      "english": "It's more than a hundred years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2470317",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44009",
+      "unit_id": "U44",
+      "french": "Ahora tiene ochenta y un años.",
+      "english": "She is now eighty-one years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1415540",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44010",
+      "unit_id": "U44",
+      "french": "Tiene treinta y uno.",
+      "english": "He's thirty-one.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4638361",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44011",
+      "unit_id": "U44",
+      "french": "Él tiene más de treinta.",
+      "english": "He's over thirty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1289273",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S44001",
+      "position": 1,
+      "surface": "Treinta",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44001",
+      "position": 2,
+      "surface": "más",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44001",
+      "position": 3,
+      "surface": "setenta",
+      "word_id": "W843",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44001",
+      "position": 4,
+      "surface": "son",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44001",
+      "position": 5,
+      "surface": "cien",
+      "word_id": "W846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44002",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44002",
+      "position": 2,
+      "surface": "cuarenta",
+      "word_id": "W840",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44002",
+      "position": 3,
+      "surface": "años",
+      "word_id": "W828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 1,
+      "surface": "Tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 2,
+      "surface": "cien",
+      "word_id": "W846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 3,
+      "surface": "años",
+      "word_id": "W828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 1,
+      "surface": "Ahora",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 2,
+      "surface": "tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 3,
+      "surface": "treinta",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 4,
+      "surface": "años",
+      "word_id": "W828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 3,
+      "surface": "treinta",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 4,
+      "surface": "años",
+      "word_id": "W828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 3,
+      "surface": "cuarenta",
+      "word_id": "W840",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 4,
+      "surface": "años",
+      "word_id": "W828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44007",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44007",
+      "position": 2,
+      "surface": "ochenta",
+      "word_id": "W844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44007",
+      "position": 3,
+      "surface": "y",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44007",
+      "position": 4,
+      "surface": "cinco",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44007",
+      "position": 5,
+      "surface": "años",
+      "word_id": "W828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44008",
+      "position": 1,
+      "surface": "Tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44008",
+      "position": 2,
+      "surface": "más",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44008",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44008",
+      "position": 4,
+      "surface": "cien",
+      "word_id": "W846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44008",
+      "position": 5,
+      "surface": "años",
+      "word_id": "W828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 1,
+      "surface": "Ahora",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 3,
+      "surface": "ochenta",
+      "word_id": "W844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 4,
+      "surface": "y",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 5,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 6,
+      "surface": "años",
+      "word_id": "W828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44010",
+      "position": 1,
+      "surface": "Tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44010",
+      "position": 2,
+      "surface": "treinta",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44010",
+      "position": 3,
+      "surface": "y",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44010",
+      "position": 4,
+      "surface": "uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44011",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44011",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44011",
+      "position": 3,
+      "surface": "más",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44011",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44011",
+      "position": 5,
+      "surface": "treinta",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A440031",
+      "sentence_id": "S44003",
+      "direction": "fr_to_en",
+      "answer": "It is 100 years old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A440032",
+      "sentence_id": "S44003",
+      "direction": "fr_to_en",
+      "answer": "She is 100 years old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -210,6 +210,216 @@
     "source": "https://en.wiktionary.org/wiki/lesen#Conjugation"
   },
   {
+    "lemma": "heißen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "heiße"
+      },
+      {
+        "person": "du",
+        "form": "heißt"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "heißt"
+      },
+      {
+        "person": "wir",
+        "form": "heißen"
+      },
+      {
+        "person": "ihr",
+        "form": "heißt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "heißen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/hei%C3%9Fen#Conjugation"
+  },
+  {
+    "lemma": "wohnen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "wohne"
+      },
+      {
+        "person": "du",
+        "form": "wohnst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "wohnt"
+      },
+      {
+        "person": "wir",
+        "form": "wohnen"
+      },
+      {
+        "person": "ihr",
+        "form": "wohnt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "wohnen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/wohnen#Conjugation"
+  },
+  {
+    "lemma": "tragen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "trage"
+      },
+      {
+        "person": "du",
+        "form": "trägst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "trägt"
+      },
+      {
+        "person": "wir",
+        "form": "tragen"
+      },
+      {
+        "person": "ihr",
+        "form": "tragt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "tragen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/tragen#Conjugation"
+  },
+  {
+    "lemma": "sprechen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "spreche"
+      },
+      {
+        "person": "du",
+        "form": "sprichst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "spricht"
+      },
+      {
+        "person": "wir",
+        "form": "sprechen"
+      },
+      {
+        "person": "ihr",
+        "form": "sprecht"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "sprechen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/sprechen#Conjugation"
+  },
+  {
+    "lemma": "kaufen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "kaufe"
+      },
+      {
+        "person": "du",
+        "form": "kaufst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "kauft"
+      },
+      {
+        "person": "wir",
+        "form": "kaufen"
+      },
+      {
+        "person": "ihr",
+        "form": "kauft"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "kaufen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/kaufen#Conjugation"
+  },
+  {
+    "lemma": "kosten",
+    "present": [
+      {
+        "person": "ich",
+        "form": "koste"
+      },
+      {
+        "person": "du",
+        "form": "kostest"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "kostet"
+      },
+      {
+        "person": "wir",
+        "form": "kosten"
+      },
+      {
+        "person": "ihr",
+        "form": "kostet"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "kosten"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/kosten#Conjugation"
+  },
+  {
+    "lemma": "lernen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "lerne"
+      },
+      {
+        "person": "du",
+        "form": "lernst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "lernt"
+      },
+      {
+        "person": "wir",
+        "form": "lernen"
+      },
+      {
+        "person": "ihr",
+        "form": "lernt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "lernen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/lernen#Conjugation"
+  },
+  {
     "lemma": "essen",
     "present": [
       {
@@ -450,36 +660,6 @@
     "source": "https://en.wiktionary.org/wiki/verstehen#Conjugation"
   },
   {
-    "lemma": "sprechen",
-    "present": [
-      {
-        "person": "ich",
-        "form": "spreche"
-      },
-      {
-        "person": "du",
-        "form": "sprichst"
-      },
-      {
-        "person": "er, sie, es",
-        "form": "spricht"
-      },
-      {
-        "person": "wir",
-        "form": "sprechen"
-      },
-      {
-        "person": "ihr",
-        "form": "sprecht"
-      },
-      {
-        "person": "sie, Sie",
-        "form": "sprechen"
-      }
-    ],
-    "source": "https://en.wiktionary.org/wiki/sprechen#Conjugation"
-  },
-  {
     "lemma": "sagen",
     "present": [
       {
@@ -508,36 +688,6 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/sagen#Conjugation"
-  },
-  {
-    "lemma": "heißen",
-    "present": [
-      {
-        "person": "ich",
-        "form": "heiße"
-      },
-      {
-        "person": "du",
-        "form": "heißt"
-      },
-      {
-        "person": "er, sie, es",
-        "form": "heißt"
-      },
-      {
-        "person": "wir",
-        "form": "heißen"
-      },
-      {
-        "person": "ihr",
-        "form": "heißt"
-      },
-      {
-        "person": "sie, Sie",
-        "form": "heißen"
-      }
-    ],
-    "source": "https://en.wiktionary.org/wiki/hei%C3%9Fen#Conjugation"
   },
   {
     "lemma": "bedeuten",
@@ -688,5 +838,125 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/h%C3%B6ren#Conjugation"
+  },
+  {
+    "lemma": "schreiben",
+    "present": [
+      {
+        "person": "ich",
+        "form": "schreibe"
+      },
+      {
+        "person": "du",
+        "form": "schreibst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "schreibt"
+      },
+      {
+        "person": "wir",
+        "form": "schreiben"
+      },
+      {
+        "person": "ihr",
+        "form": "schreibt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "schreiben"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/schreiben#Conjugation"
+  },
+  {
+    "lemma": "brauchen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "brauche"
+      },
+      {
+        "person": "du",
+        "form": "brauchst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "braucht"
+      },
+      {
+        "person": "wir",
+        "form": "brauchen"
+      },
+      {
+        "person": "ihr",
+        "form": "braucht"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "brauchen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/brauchen#Conjugation"
+  },
+  {
+    "lemma": "stimmen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "stimme"
+      },
+      {
+        "person": "du",
+        "form": "stimmst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "stimmt"
+      },
+      {
+        "person": "wir",
+        "form": "stimmen"
+      },
+      {
+        "person": "ihr",
+        "form": "stimmt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "stimmen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/stimmen#Conjugation"
+  },
+  {
+    "lemma": "tun",
+    "present": [
+      {
+        "person": "ich",
+        "form": "tue"
+      },
+      {
+        "person": "du",
+        "form": "tust"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "tut"
+      },
+      {
+        "person": "wir",
+        "form": "tun"
+      },
+      {
+        "person": "ihr",
+        "form": "tut"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "tun"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/tun#Conjugation"
   }
 ]

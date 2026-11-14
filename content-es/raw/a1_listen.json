@@ -1,1 +1,128 @@
-[]
+[
+  {
+    "id": "N101",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "quince",
+    "answer": "15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N102",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "diecisiete",
+    "answer": "17",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N103",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "cero, seis, once, quince, diecinueve, veinte",
+    "answer": "06 11 15 19 20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N104",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "cero, siete, doce, dieciséis, dieciocho, catorce",
+    "answer": "07 12 16 18 14",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N105",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Tengo veinte años.",
+    "answer": "20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N106",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Ella tiene dieciocho años.",
+    "answer": "18",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N107",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "setenta",
+    "answer": "70",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N108",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "noventa",
+    "answer": "90",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N109",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "cuarenta y cinco",
+    "answer": "45",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N110",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "noventa y nueve",
+    "answer": "99",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N111",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "treinta pesos",
+    "answer": "30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N112",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "diez pesos",
+    "answer": "10",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N113",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "cien pesos",
+    "answer": "100",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N114",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "cincuenta pesos",
+    "answer": "50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

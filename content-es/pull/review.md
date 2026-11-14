@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U53 Around Town: En coche, en autobús, en tren: en for how you travel; con (with)
+## U58 Outdoors: En la playa, en el campo: en for where you are; el mar, el sol
 
-30 sentences picked from 92 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 39 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: museo (2), cine (2), teatro (0), taxi (1), plaza (1), calle (0), pueblo (2). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: mar (1), lago (2). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S53001 | ¿Dónde está la estación de tren? | Where is the train station? |  | [#549015](https://tatoeba.org/en/sentences/show/549015) | Shishir |
-| S53002 | ¿Qué autobús va a la estación? | Which bus goes to the station? |  | [#3256788](https://tatoeba.org/en/sentences/show/3256788) | Shishir |
-| S53003 | Están en la estación de tren. | They're at the train station. |  | [#10090937](https://tatoeba.org/en/sentences/show/10090937) | manufrutos |
-| S53004 | ¿Tienes coche? | Do you have a car? | Have you got a car? | [#528492](https://tatoeba.org/en/sentences/show/528492) | Shishir |
-| S53005 | ¿Estás con Tom? | Are you with Tom? |  | [#10028803](https://tatoeba.org/en/sentences/show/10028803) | Shishir |
-| S53006 | ¿Dónde está mi coche? | Where's my car? | Where is my car? | [#530553](https://tatoeba.org/en/sentences/show/530553) | Shishir |
-| S53007 | ¿Tiene usted un coche? | Do you have a car? |  | [#710333](https://tatoeba.org/en/sentences/show/710333) | Zifre |
-| S53008 | ¿Dónde está el autobús? | Where is the bus? |  | [#1116477](https://tatoeba.org/en/sentences/show/1116477) | Shishir |
-| S53009 | ¿Dónde está el tren? | Where is the train? |  | [#1116478](https://tatoeba.org/en/sentences/show/1116478) | Shishir |
-| S53010 | ¿Dónde está el taxi? | Where is the taxi? |  | [#2421412](https://tatoeba.org/en/sentences/show/2421412) | hayastan |
-| S53011 | ¿Dónde está el hotel? | Where is the hotel? |  | [#3108836](https://tatoeba.org/en/sentences/show/3108836) | marcelostockle |
-| S53012 | ¿Con quién está ella? | Who's she with? |  | [#6626976](https://tatoeba.org/en/sentences/show/6626976) | Schuager |
-| S53013 | ¿Por qué estás con ellos? | Why are you with them? |  | [#6627511](https://tatoeba.org/en/sentences/show/6627511) | Schuager |
-| S53014 | ¿Va Tom a la iglesia? | Does Tom go to church? |  | [#3602957](https://tatoeba.org/en/sentences/show/3602957) | ficion |
-| S53015 | ¿Tom va a la iglesia? | Does Tom go to church? |  | [#3602958](https://tatoeba.org/en/sentences/show/3602958) | ficion |
-| S53016 | ¿Él va a la escuela en autobús? | Does he go to school by bus? |  | [#1332207](https://tatoeba.org/en/sentences/show/1332207) | Shishir |
-| S53017 | Voy al cine. | I'm going to the cinema. |  | [#1431614](https://tatoeba.org/en/sentences/show/1431614) | Shishir |
-| S53018 | Es un hotel. | This is a hotel. |  | [#2131524](https://tatoeba.org/en/sentences/show/2131524) | Shishir |
-| S53019 | Comen en el hotel. | They take their meals at the hotel. |  | [#1089099](https://tatoeba.org/en/sentences/show/1089099) | Shishir |
-| S53020 | Eso es una iglesia. | That's a church. |  | [#2351059](https://tatoeba.org/en/sentences/show/2351059) | Shishir |
-| S53021 | Voy a la plaza. | I'm going to the square. |  | [#5322341](https://tatoeba.org/en/sentences/show/5322341) | baudelaire |
-| S53022 | No estamos en el cine. | We are not at the cinema. |  | [#2815746](https://tatoeba.org/en/sentences/show/2815746) | marcelostockle |
-| S53023 | Eso no es un museo. | That's not a museum. |  | [#5668353](https://tatoeba.org/en/sentences/show/5668353) | arh |
-| S53024 | Ellos están en el museo. | They are at the museum. |  | [#10306754](https://tatoeba.org/en/sentences/show/10306754) | saverius |
-| S53025 | Este es un pueblo bonito. | This is a pretty town. |  | [#13634127](https://tatoeba.org/en/sentences/show/13634127) | stebnbr |
-| S53026 | Él es de un pueblo pequeño. | He's from a small town. |  | [#6626916](https://tatoeba.org/en/sentences/show/6626916) | Schuager |
-| S53027 | ¿Dónde está la estación? | Where is the station? |  | [#730471](https://tatoeba.org/en/sentences/show/730471) | Shishir |
-| S53028 | ¿Este es tu coche? | Is this your car? |  | [#1276660](https://tatoeba.org/en/sentences/show/1276660) | Shishir |
-| S53029 | ¿Dónde está el coche? | Where's the car? |  | [#2216295](https://tatoeba.org/en/sentences/show/2216295) | Shishir |
-| S53030 | ¿Este coche es nuevo? | Is this car new? | Is that a new car? | [#2238440](https://tatoeba.org/en/sentences/show/2238440) | Shishir |
+| S58001 | ¿Cómo se llama este río? | What is the name of this river? |  | [#449725](https://tatoeba.org/en/sentences/show/449725) | Shishir |
+| S58002 | ¿Este autobús va a la playa? | Does this bus go to the beach? |  | [#841939](https://tatoeba.org/en/sentences/show/841939) | Shishir |
+| S58003 | ¿Te gusta vivir en el campo? | Do you like to live in the country? |  | [#1573478](https://tatoeba.org/en/sentences/show/1573478) | marcelostockle |
+| S58004 | El cielo es azul. | The sky is blue. |  | [#539388](https://tatoeba.org/en/sentences/show/539388) | Shishir |
+| S58005 | Me gusta el sol. | I love the sun. |  | [#578871](https://tatoeba.org/en/sentences/show/578871) | Shishir |
+| S58006 | El sol es rojo. | The sun is red. |  | [#1185872](https://tatoeba.org/en/sentences/show/1185872) | marcelostockle |
+| S58007 | El lago es grande. | The lake is big. |  | [#1595429](https://tatoeba.org/en/sentences/show/1595429) | Shishir |
+| S58008 | Estamos en el bosque. | We're in the forest. | We are in the forest. | [#1656333](https://tatoeba.org/en/sentences/show/1656333) | marcelostockle |
+| S58009 | El sol es grande. | The sun is big. |  | [#1715747](https://tatoeba.org/en/sentences/show/1715747) | marcelostockle |
+| S58010 | Voy a la playa. | I'm going to the beach. |  | [#2110643](https://tatoeba.org/en/sentences/show/2110643) | marcelostockle |
+| S58011 | Estoy en la playa. | I'm at the beach. |  | [#2127446](https://tatoeba.org/en/sentences/show/2127446) | marcelostockle |
+| S58012 | La montaña es verde. | The mountain is green. |  | [#2137924](https://tatoeba.org/en/sentences/show/2137924) | Shishir |
+| S58013 | El mar es azul. | The sea is blue. |  | [#3667145](https://tatoeba.org/en/sentences/show/3667145) | Seael |
+| S58014 | Quiero vivir en el campo. | I want to live in the country. | I want to live in the countryside. | [#656227](https://tatoeba.org/en/sentences/show/656227) | Shishir |
+| S58015 | ¿El cielo es azul? Sí. | Is the sky blue? Yes. |  | [#811759](https://tatoeba.org/en/sentences/show/811759) | Shishir |
+| S58016 | Él vive en el campo. | He dwells in the country. |  | [#1283936](https://tatoeba.org/en/sentences/show/1283936) | marcelostockle |
+| S58017 | Tom está en el bosque. | Tom is in the forest. |  | [#5939751](https://tatoeba.org/en/sentences/show/5939751) | arh |
+| S58018 | Vivo cerca de un bosque. | I live near a forest. |  | [#9972291](https://tatoeba.org/en/sentences/show/9972291) | arh |
+| S58019 | ¿Es azul el cielo? Sí. | Is the sky blue? Yes. |  | [#12403654](https://tatoeba.org/en/sentences/show/12403654) | arh |
+| S58020 | El lago está lejos de aquí. | The lake is a long way from here. |  | [#1359654](https://tatoeba.org/en/sentences/show/1359654) | Shishir |
+| S58021 | Esta montaña no es muy alta. | This mountain isn't very tall. |  | [#1785365](https://tatoeba.org/en/sentences/show/1785365) | marcelostockle |
+| S58022 | Hay un río cerca de casa. | There's a river near the house. |  | [#2251500](https://tatoeba.org/en/sentences/show/2251500) | hayastan |
+| S58023 | Su casa está cerca de un río. | His house is near a river. |  | [#1396300](https://tatoeba.org/en/sentences/show/1396300) | hayastan |
+| S58024 | Tiene una casa grande en la montaña. | He has a big house on the mountain. |  | [#2386861](https://tatoeba.org/en/sentences/show/2386861) | diegohn |
+| S58025 | El sol es blanco. | The sun is white. |  | [#1765217](https://tatoeba.org/en/sentences/show/1765217) | marcelostockle |
+| S58026 | El sol es amarillo. | The sun is yellow. |  | [#5257399](https://tatoeba.org/en/sentences/show/5257399) | cueyayotl |
+| S58027 | Me gusta mucho el sol. | I love the sun. | I really love the sun.; I like the sun a lot. | [#1023224](https://tatoeba.org/en/sentences/show/1023224) | Shishir |
+| S58028 | No hay un nuevo sol. | There is no new sun. |  | [#1167579](https://tatoeba.org/en/sentences/show/1167579) | marcelostockle |
+| S58029 | Ella vive en el campo. | She lives in the country. |  | [#1291776](https://tatoeba.org/en/sentences/show/1291776) | Shishir |
+| S58030 | No me gusta la playa. | I don't like the beach. |  | [#2375719](https://tatoeba.org/en/sentences/show/2375719) | hayastan |

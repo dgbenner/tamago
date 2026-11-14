@@ -181,6 +181,188 @@
       "form": "lesen"
     }
   ],
+  "heißen": [
+    {
+      "person": "ich",
+      "form": "heiße"
+    },
+    {
+      "person": "du",
+      "form": "heißt"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "heißt"
+    },
+    {
+      "person": "wir",
+      "form": "heißen"
+    },
+    {
+      "person": "ihr",
+      "form": "heißt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "heißen"
+    }
+  ],
+  "wohnen": [
+    {
+      "person": "ich",
+      "form": "wohne"
+    },
+    {
+      "person": "du",
+      "form": "wohnst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "wohnt"
+    },
+    {
+      "person": "wir",
+      "form": "wohnen"
+    },
+    {
+      "person": "ihr",
+      "form": "wohnt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "wohnen"
+    }
+  ],
+  "tragen": [
+    {
+      "person": "ich",
+      "form": "trage"
+    },
+    {
+      "person": "du",
+      "form": "trägst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "trägt"
+    },
+    {
+      "person": "wir",
+      "form": "tragen"
+    },
+    {
+      "person": "ihr",
+      "form": "tragt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "tragen"
+    }
+  ],
+  "sprechen": [
+    {
+      "person": "ich",
+      "form": "spreche"
+    },
+    {
+      "person": "du",
+      "form": "sprichst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "spricht"
+    },
+    {
+      "person": "wir",
+      "form": "sprechen"
+    },
+    {
+      "person": "ihr",
+      "form": "sprecht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "sprechen"
+    }
+  ],
+  "kaufen": [
+    {
+      "person": "ich",
+      "form": "kaufe"
+    },
+    {
+      "person": "du",
+      "form": "kaufst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "kauft"
+    },
+    {
+      "person": "wir",
+      "form": "kaufen"
+    },
+    {
+      "person": "ihr",
+      "form": "kauft"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "kaufen"
+    }
+  ],
+  "kosten": [
+    {
+      "person": "ich",
+      "form": "koste"
+    },
+    {
+      "person": "du",
+      "form": "kostest"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "kostet"
+    },
+    {
+      "person": "wir",
+      "form": "kosten"
+    },
+    {
+      "person": "ihr",
+      "form": "kostet"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "kosten"
+    }
+  ],
+  "lernen": [
+    {
+      "person": "ich",
+      "form": "lerne"
+    },
+    {
+      "person": "du",
+      "form": "lernst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "lernt"
+    },
+    {
+      "person": "wir",
+      "form": "lernen"
+    },
+    {
+      "person": "ihr",
+      "form": "lernt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "lernen"
+    }
+  ],
   "essen": [
     {
       "person": "ich",
@@ -389,32 +571,6 @@
       "form": "verstehen"
     }
   ],
-  "sprechen": [
-    {
-      "person": "ich",
-      "form": "spreche"
-    },
-    {
-      "person": "du",
-      "form": "sprichst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "spricht"
-    },
-    {
-      "person": "wir",
-      "form": "sprechen"
-    },
-    {
-      "person": "ihr",
-      "form": "sprecht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "sprechen"
-    }
-  ],
   "sagen": [
     {
       "person": "ich",
@@ -439,32 +595,6 @@
     {
       "person": "sie, Sie",
       "form": "sagen"
-    }
-  ],
-  "heißen": [
-    {
-      "person": "ich",
-      "form": "heiße"
-    },
-    {
-      "person": "du",
-      "form": "heißt"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "heißt"
-    },
-    {
-      "person": "wir",
-      "form": "heißen"
-    },
-    {
-      "person": "ihr",
-      "form": "heißt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "heißen"
     }
   ],
   "bedeuten": [
@@ -595,6 +725,110 @@
     {
       "person": "sie, Sie",
       "form": "hören"
+    }
+  ],
+  "schreiben": [
+    {
+      "person": "ich",
+      "form": "schreibe"
+    },
+    {
+      "person": "du",
+      "form": "schreibst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "schreibt"
+    },
+    {
+      "person": "wir",
+      "form": "schreiben"
+    },
+    {
+      "person": "ihr",
+      "form": "schreibt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "schreiben"
+    }
+  ],
+  "brauchen": [
+    {
+      "person": "ich",
+      "form": "brauche"
+    },
+    {
+      "person": "du",
+      "form": "brauchst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "braucht"
+    },
+    {
+      "person": "wir",
+      "form": "brauchen"
+    },
+    {
+      "person": "ihr",
+      "form": "braucht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "brauchen"
+    }
+  ],
+  "stimmen": [
+    {
+      "person": "ich",
+      "form": "stimme"
+    },
+    {
+      "person": "du",
+      "form": "stimmst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "stimmt"
+    },
+    {
+      "person": "wir",
+      "form": "stimmen"
+    },
+    {
+      "person": "ihr",
+      "form": "stimmt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "stimmen"
+    }
+  ],
+  "tun": [
+    {
+      "person": "ich",
+      "form": "tue"
+    },
+    {
+      "person": "du",
+      "form": "tust"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "tut"
+    },
+    {
+      "person": "wir",
+      "form": "tun"
+    },
+    {
+      "person": "ihr",
+      "form": "tut"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "tun"
     }
   ]
 }

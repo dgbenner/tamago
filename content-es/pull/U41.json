@@ -1,0 +1,1062 @@
+{
+  "unit_id": "U41",
+  "pulled_at": "2026-11-14",
+  "candidates": 20,
+  "sentences": [
+    {
+      "sentence_id": "S41001",
+      "unit_id": "U41",
+      "french": "¿Cuál es tu nombre?",
+      "english": "What's your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1213833",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "What is your name?"
+      ]
+    },
+    {
+      "sentence_id": "S41002",
+      "unit_id": "U41",
+      "french": "¿Cuál es su nombre, señor?",
+      "english": "What is your name, sir?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1713586",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41003",
+      "unit_id": "U41",
+      "french": "Hola, ¿cuál es tu nombre?",
+      "english": "Hello, what's your name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4622552",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41004",
+      "unit_id": "U41",
+      "french": "¿Cuál es el apellido de ella?",
+      "english": "What's her last name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10093232",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41005",
+      "unit_id": "U41",
+      "french": "¿Cuál es el apellido de él?",
+      "english": "What's his last name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10093233",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41006",
+      "unit_id": "U41",
+      "french": "Mis amigos me llaman Tom.",
+      "english": "My friends call me Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2970194",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41007",
+      "unit_id": "U41",
+      "french": "¿Cuál es el nombre de él?",
+      "english": "What is his name?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3274853",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Kary",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41008",
+      "unit_id": "U41",
+      "french": "¡Repita su nombre!",
+      "english": "Repeat your name!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "803666",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41009",
+      "unit_id": "U41",
+      "french": "Tu nombre, por favor.",
+      "english": "Your name, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1890524",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "teskmon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41010",
+      "unit_id": "U41",
+      "french": "Su nombre, por favor.",
+      "english": "Your name, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2039204",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41011",
+      "unit_id": "U41",
+      "french": "Es un nombre.",
+      "english": "It is a name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5229488",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41012",
+      "unit_id": "U41",
+      "french": "¡Repite tu nombre!",
+      "english": "Repeat your name!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8655954",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41013",
+      "unit_id": "U41",
+      "french": "Yo sé tu nombre.",
+      "english": "I know your name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "395877",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41014",
+      "unit_id": "U41",
+      "french": "Mi nombre es Tom.",
+      "english": "My name's Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1307074",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "My name is Tom."
+      ]
+    },
+    {
+      "sentence_id": "S41015",
+      "unit_id": "U41",
+      "french": "María es su nombre.",
+      "english": "Maria is her name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5014570",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41016",
+      "unit_id": "U41",
+      "french": "Me gusta mi nombre.",
+      "english": "I like my name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13265099",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41017",
+      "unit_id": "U41",
+      "french": "Sé cuál es su nombre.",
+      "english": "I know his name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1207302",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "I know what his name is."
+      ]
+    },
+    {
+      "sentence_id": "S41018",
+      "unit_id": "U41",
+      "french": "No me gusta tu nombre.",
+      "english": "I don't like your name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1894296",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41019",
+      "unit_id": "U41",
+      "french": "Su nombre es muy bonito.",
+      "english": "Her name is very beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10181453",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41020",
+      "unit_id": "U41",
+      "french": "No te voy a decir mi nombre.",
+      "english": "I'm not going to tell you my name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2944670",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S41001",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41001",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41001",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41001",
+      "position": 4,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 4,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 5,
+      "surface": "señor",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 1,
+      "surface": "Hola",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 2,
+      "surface": "cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 4,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 5,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 4,
+      "surface": "apellido",
+      "word_id": "W802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 6,
+      "surface": "ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 4,
+      "surface": "apellido",
+      "word_id": "W802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 6,
+      "surface": "él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 1,
+      "surface": "Mis",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 2,
+      "surface": "amigos",
+      "word_id": "W194",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 3,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 4,
+      "surface": "llaman",
+      "word_id": "W803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 4,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 6,
+      "surface": "él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 1,
+      "surface": "Repita",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 2,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 3,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 2,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 3,
+      "surface": "por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 1,
+      "surface": "Su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 2,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 3,
+      "surface": "por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 3,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 1,
+      "surface": "Repite",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 3,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 1,
+      "surface": "Yo",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 2,
+      "surface": "sé",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 4,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41014",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41014",
+      "position": 2,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41014",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41014",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 1,
+      "surface": "María",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 4,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41016",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41016",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41016",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41016",
+      "position": 4,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 1,
+      "surface": "Sé",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 2,
+      "surface": "cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 4,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 5,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 3,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 4,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 5,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 1,
+      "surface": "Su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 2,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 4,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 5,
+      "surface": "bonito",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 3,
+      "surface": "voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 5,
+      "surface": "decir",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 6,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 7,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A410011",
+      "sentence_id": "S41001",
+      "direction": "fr_to_en",
+      "answer": "What is your name?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410141",
+      "sentence_id": "S41014",
+      "direction": "fr_to_en",
+      "answer": "My name is Tom.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A410171",
+      "sentence_id": "S41017",
+      "direction": "fr_to_en",
+      "answer": "I know what his name is.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

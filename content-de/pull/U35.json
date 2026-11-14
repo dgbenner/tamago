@@ -1,0 +1,332 @@
+{
+  "unit_id": "U35",
+  "pulled_at": "2026-11-14",
+  "candidates": 7,
+  "sentences": [
+    {
+      "sentence_id": "S35001",
+      "unit_id": "U35",
+      "french": "Was ist richtig?",
+      "english": "Which is correct?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9969419",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35002",
+      "unit_id": "U35",
+      "french": "Du heißt Tom, richtig?",
+      "english": "Your name is Tom, correct?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5222997",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35003",
+      "unit_id": "U35",
+      "french": "Warum ist das falsch?",
+      "english": "Why is that wrong?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8071382",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35004",
+      "unit_id": "U35",
+      "french": "Einen Augenblick!",
+      "english": "Just a moment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4699819",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tarsier",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35005",
+      "unit_id": "U35",
+      "french": "Er tut es richtig.",
+      "english": "He's doing it right.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1697630",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35006",
+      "unit_id": "U35",
+      "french": "Ich weiß, was falsch ist.",
+      "english": "I know what's wrong.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2182899",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35007",
+      "unit_id": "U35",
+      "french": "Ich weiß, was richtig ist.",
+      "english": "I know what's right.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2182901",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S35001",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35001",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35001",
+      "position": 3,
+      "surface": "richtig",
+      "word_id": "W835",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35002",
+      "position": 1,
+      "surface": "Du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35002",
+      "position": 2,
+      "surface": "heißt",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35002",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35002",
+      "position": 4,
+      "surface": "richtig",
+      "word_id": "W835",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35003",
+      "position": 1,
+      "surface": "Warum",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35003",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35003",
+      "position": 3,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35003",
+      "position": 4,
+      "surface": "falsch",
+      "word_id": "W836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35004",
+      "position": 1,
+      "surface": "Einen",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35004",
+      "position": 2,
+      "surface": "Augenblick",
+      "word_id": "W834",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35005",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35005",
+      "position": 2,
+      "surface": "tut",
+      "word_id": "W1109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35005",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35005",
+      "position": 4,
+      "surface": "richtig",
+      "word_id": "W835",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35006",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35006",
+      "position": 2,
+      "surface": "weiß",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35006",
+      "position": 3,
+      "surface": "was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35006",
+      "position": 4,
+      "surface": "falsch",
+      "word_id": "W836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35006",
+      "position": 5,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35007",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35007",
+      "position": 2,
+      "surface": "weiß",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35007",
+      "position": 3,
+      "surface": "was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35007",
+      "position": 4,
+      "surface": "richtig",
+      "word_id": "W835",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35007",
+      "position": 5,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

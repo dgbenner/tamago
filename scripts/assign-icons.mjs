@@ -90,7 +90,9 @@ for (const part of parts) {
   const neighbours = (t) => (t === 'misc' ? ['misc'] : [t, ...TYPES.filter((x) => x !== t).sort((a, b) => Math.abs(TYPES.indexOf(a) - TYPES.indexOf(t)) - Math.abs(TYPES.indexOf(b) - TYPES.indexOf(t)))])
   path.forEach((e, i) => {
     if (e.slug) return
-    const prev = path[i - 1]?.slug && bySlug.get(path[i - 1].slug)
+    // The first circle of a part sits after the last of the part before (2026-11-14: Spanish U200 and U41 both white).
+    const prevSlug = i === 0 ? before.at(-1) : path[i - 1]?.slug
+    const prev = prevSlug && bySlug.get(prevSlug)
     const next = path[i + 1]?.slug && bySlug.get(path[i + 1].slug) // fixed neighbours ahead: a help roll or the miso soup
     const opening = i < BOUNDARY
     const free = (m) => !used.has(m.slug) && !(opening && closing.has(m.slug))

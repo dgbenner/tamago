@@ -1,0 +1,540 @@
+{
+  "unit_id": "U35",
+  "pulled_at": "2026-11-14",
+  "candidates": 18,
+  "sentences": [
+    {
+      "sentence_id": "S35001",
+      "unit_id": "U35",
+      "french": "Espera un momento.",
+      "english": "Wait a moment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1237074",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35003",
+      "unit_id": "U35",
+      "french": "Espera, ¿qué?",
+      "english": "Wait, what?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10092924",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35004",
+      "unit_id": "U35",
+      "french": "¿Puede repetir eso de nuevo?",
+      "english": "Could you repeat that again?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1054334",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35005",
+      "unit_id": "U35",
+      "french": "¿Puedes repetir la pregunta, por favor?",
+      "english": "Can you please repeat the question?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2101788",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35006",
+      "unit_id": "U35",
+      "french": "Un momento...",
+      "english": "Just a moment ...",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1043651",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35007",
+      "unit_id": "U35",
+      "french": "Es correcto.",
+      "english": "It's right.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2006315",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "That's correct.",
+        "This is correct."
+      ]
+    },
+    {
+      "sentence_id": "S35008",
+      "unit_id": "U35",
+      "french": "Un momento, por favor.",
+      "english": "Just a moment, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1327449",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35009",
+      "unit_id": "U35",
+      "french": "Eso es correcto.",
+      "english": "That's correct.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1684182",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "That is correct."
+      ]
+    },
+    {
+      "sentence_id": "S35010",
+      "unit_id": "U35",
+      "french": "Sí, es correcto.",
+      "english": "Yes. That's right.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2209095",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35011",
+      "unit_id": "U35",
+      "french": "¿A quién espera?",
+      "english": "Who are you waiting for?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6706896",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35012",
+      "unit_id": "U35",
+      "french": "Espera aquí.",
+      "english": "Wait here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1946392",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35013",
+      "unit_id": "U35",
+      "french": "Espera, Tom.",
+      "english": "Hang on, Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4279794",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S35015",
+      "unit_id": "U35",
+      "french": "Espera a María.",
+      "english": "Wait for Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3866817",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S35001",
+      "position": 1,
+      "surface": "Espera",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35001",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35001",
+      "position": 3,
+      "surface": "momento",
+      "word_id": "W836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35003",
+      "position": 1,
+      "surface": "Espera",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35003",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35004",
+      "position": 1,
+      "surface": "Puede",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35004",
+      "position": 2,
+      "surface": "repetir",
+      "word_id": "W835",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35004",
+      "position": 3,
+      "surface": "eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35004",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35004",
+      "position": 5,
+      "surface": "nuevo",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35005",
+      "position": 1,
+      "surface": "Puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35005",
+      "position": 2,
+      "surface": "repetir",
+      "word_id": "W835",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35005",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35005",
+      "position": 4,
+      "surface": "pregunta",
+      "word_id": "W1115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35005",
+      "position": 5,
+      "surface": "por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35006",
+      "position": 1,
+      "surface": "Un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35006",
+      "position": 2,
+      "surface": "momento",
+      "word_id": "W836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35007",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35007",
+      "position": 2,
+      "surface": "correcto",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35008",
+      "position": 1,
+      "surface": "Un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35008",
+      "position": 2,
+      "surface": "momento",
+      "word_id": "W836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35008",
+      "position": 3,
+      "surface": "por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35009",
+      "position": 1,
+      "surface": "Eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35009",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35009",
+      "position": 3,
+      "surface": "correcto",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35010",
+      "position": 1,
+      "surface": "Sí",
+      "word_id": "W003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35010",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35010",
+      "position": 3,
+      "surface": "correcto",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35011",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35011",
+      "position": 2,
+      "surface": "quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35011",
+      "position": 3,
+      "surface": "espera",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35012",
+      "position": 1,
+      "surface": "Espera",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35012",
+      "position": 2,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35013",
+      "position": 1,
+      "surface": "Espera",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35013",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35015",
+      "position": 1,
+      "surface": "Espera",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35015",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S35015",
+      "position": 3,
+      "surface": "María",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A350071",
+      "sentence_id": "S35007",
+      "direction": "fr_to_en",
+      "answer": "That's correct.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A350072",
+      "sentence_id": "S35007",
+      "direction": "fr_to_en",
+      "answer": "This is correct.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A350091",
+      "sentence_id": "S35009",
+      "direction": "fr_to_en",
+      "answer": "That is correct.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

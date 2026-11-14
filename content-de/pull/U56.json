@@ -1,0 +1,1560 @@
+{
+  "unit_id": "U56",
+  "pulled_at": "2026-11-14",
+  "candidates": 33,
+  "sentences": [
+    {
+      "sentence_id": "S56001",
+      "unit_id": "U56",
+      "french": "Trägst du eine Brille?",
+      "english": "Do you wear glasses?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1920778",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56002",
+      "unit_id": "U56",
+      "french": "Warum trägst du mein Kleid?",
+      "english": "Why are you wearing my dress?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2481059",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56003",
+      "unit_id": "U56",
+      "french": "Warum trägst du kein Kleid?",
+      "english": "Why don't you wear a dress?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2597656",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56004",
+      "unit_id": "U56",
+      "french": "Warum trägt Tom einen Mantel?",
+      "english": "Why is Tom wearing a coat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8123699",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56005",
+      "unit_id": "U56",
+      "french": "Tom trägt eine Brille.",
+      "english": "Tom wears glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707984",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Tom is wearing glasses."
+      ]
+    },
+    {
+      "sentence_id": "S56006",
+      "unit_id": "U56",
+      "french": "Ich trage eine Brille.",
+      "english": "I wear glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3541111",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JWeighardt",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56007",
+      "unit_id": "U56",
+      "french": "Warum trägst du meine Schuhe?",
+      "english": "Why are you wearing my shoes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10017927",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Melang",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56008",
+      "unit_id": "U56",
+      "french": "Welche Schuhe trägst du heute?",
+      "english": "Which shoes will you wear today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10302966",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Which shoes are you going to wear today?"
+      ]
+    },
+    {
+      "sentence_id": "S56009",
+      "unit_id": "U56",
+      "french": "Was trägst du für Schuhe?",
+      "english": "What shoes are you wearing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12185843",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56010",
+      "unit_id": "U56",
+      "french": "Wo ist deine Kleidung?",
+      "english": "Where are your clothes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1712639",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56011",
+      "unit_id": "U56",
+      "french": "Wo ist deine Jacke?",
+      "english": "Where's your jacket?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3078828",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hsuan07",
+      "other_english": [
+        "Where is your jacket?"
+      ]
+    },
+    {
+      "sentence_id": "S56012",
+      "unit_id": "U56",
+      "french": "Wo ist mein Hemd?",
+      "english": "Where's my shirt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3331999",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56013",
+      "unit_id": "U56",
+      "french": "Wo ist mein Mantel?",
+      "english": "Where's my coat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5331716",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56014",
+      "unit_id": "U56",
+      "french": "Wo ist meine Kleidung?",
+      "english": "Where are my clothes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7413083",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56015",
+      "unit_id": "U56",
+      "french": "Welche Farbe hat dein Mantel?",
+      "english": "What colour is your coat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8473290",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56016",
+      "unit_id": "U56",
+      "french": "Tom trägt keine Brille.",
+      "english": "Tom doesn't wear glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4258737",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56017",
+      "unit_id": "U56",
+      "french": "Ich trage keine Brille.",
+      "english": "I don't wear glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6596297",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manese",
+      "other_english": [
+        "I'm not wearing glasses."
+      ]
+    },
+    {
+      "sentence_id": "S56018",
+      "unit_id": "U56",
+      "french": "Ich mag dein Hemd.",
+      "english": "I like your shirt.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7369803",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56019",
+      "unit_id": "U56",
+      "french": "Ich mag Ihr Hemd.",
+      "english": "I like your shirt.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7369804",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56020",
+      "unit_id": "U56",
+      "french": "Was für Schuhe trägst du?",
+      "english": "What shoes do you wear?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12188684",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56021",
+      "unit_id": "U56",
+      "french": "Sind deine Schuhe neu?",
+      "english": "Are your shoes new?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8079992",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56022",
+      "unit_id": "U56",
+      "french": "Welche Farbe hat Ihr Mantel?",
+      "english": "What colour is your coat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8473293",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56023",
+      "unit_id": "U56",
+      "french": "Weißt du, wo meine Brille ist?",
+      "english": "Do you know where my glasses are?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4046011",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56024",
+      "unit_id": "U56",
+      "french": "Sie trägt eine Brille.",
+      "english": "She wears glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7712121",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56025",
+      "unit_id": "U56",
+      "french": "Der Mann trägt eine Brille.",
+      "english": "The man is wearing a pair of glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1048837",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56026",
+      "unit_id": "U56",
+      "french": "Tom trägt jetzt eine Brille.",
+      "english": "Tom wears glasses now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8822674",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56027",
+      "unit_id": "U56",
+      "french": "Tom trägt blau.",
+      "english": "Tom is wearing blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5778035",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bonny37",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56028",
+      "unit_id": "U56",
+      "french": "Tom trägt Rot.",
+      "english": "Tom is wearing red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7441643",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56029",
+      "unit_id": "U56",
+      "french": "Hier sind deine Schuhe.",
+      "english": "Your shoes are here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "679981",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "BraveSentry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S56030",
+      "unit_id": "U56",
+      "french": "Tom trägt heute Schwarz.",
+      "english": "Tom is wearing black today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8594779",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "Tom is dressed in black today."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S56001",
+      "position": 1,
+      "surface": "Trägst",
+      "word_id": "W1133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56001",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56001",
+      "position": 3,
+      "surface": "eine",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56001",
+      "position": 4,
+      "surface": "Brille",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56002",
+      "position": 1,
+      "surface": "Warum",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56002",
+      "position": 2,
+      "surface": "trägst",
+      "word_id": "W1133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56002",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56002",
+      "position": 4,
+      "surface": "mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56002",
+      "position": 5,
+      "surface": "Kleid",
+      "word_id": "W1126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56003",
+      "position": 1,
+      "surface": "Warum",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56003",
+      "position": 2,
+      "surface": "trägst",
+      "word_id": "W1133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56003",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56003",
+      "position": 4,
+      "surface": "kein",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56003",
+      "position": 5,
+      "surface": "Kleid",
+      "word_id": "W1126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56004",
+      "position": 1,
+      "surface": "Warum",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56004",
+      "position": 2,
+      "surface": "trägt",
+      "word_id": "W1132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56004",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56004",
+      "position": 4,
+      "surface": "einen",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56004",
+      "position": 5,
+      "surface": "Mantel",
+      "word_id": "W1129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56005",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56005",
+      "position": 2,
+      "surface": "trägt",
+      "word_id": "W1132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56005",
+      "position": 3,
+      "surface": "eine",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56005",
+      "position": 4,
+      "surface": "Brille",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56006",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56006",
+      "position": 2,
+      "surface": "trage",
+      "word_id": "W1131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56006",
+      "position": 3,
+      "surface": "eine",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56006",
+      "position": 4,
+      "surface": "Brille",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56007",
+      "position": 1,
+      "surface": "Warum",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56007",
+      "position": 2,
+      "surface": "trägst",
+      "word_id": "W1133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56007",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56007",
+      "position": 4,
+      "surface": "meine",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56007",
+      "position": 5,
+      "surface": "Schuhe",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56008",
+      "position": 1,
+      "surface": "Welche",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56008",
+      "position": 2,
+      "surface": "Schuhe",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56008",
+      "position": 3,
+      "surface": "trägst",
+      "word_id": "W1133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56008",
+      "position": 4,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56008",
+      "position": 5,
+      "surface": "heute",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56009",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56009",
+      "position": 2,
+      "surface": "trägst",
+      "word_id": "W1133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56009",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56009",
+      "position": 4,
+      "surface": "für",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56009",
+      "position": 5,
+      "surface": "Schuhe",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56010",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56010",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56010",
+      "position": 3,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56010",
+      "position": 4,
+      "surface": "Kleidung",
+      "word_id": "W1122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56011",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56011",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56011",
+      "position": 3,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56011",
+      "position": 4,
+      "surface": "Jacke",
+      "word_id": "W1127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56012",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56012",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56012",
+      "position": 3,
+      "surface": "mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56012",
+      "position": 4,
+      "surface": "Hemd",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56013",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56013",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56013",
+      "position": 3,
+      "surface": "mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56013",
+      "position": 4,
+      "surface": "Mantel",
+      "word_id": "W1129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56014",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56014",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56014",
+      "position": 3,
+      "surface": "meine",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56014",
+      "position": 4,
+      "surface": "Kleidung",
+      "word_id": "W1122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56015",
+      "position": 1,
+      "surface": "Welche",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56015",
+      "position": 2,
+      "surface": "Farbe",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56015",
+      "position": 3,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56015",
+      "position": 4,
+      "surface": "dein",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56015",
+      "position": 5,
+      "surface": "Mantel",
+      "word_id": "W1129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56016",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56016",
+      "position": 2,
+      "surface": "trägt",
+      "word_id": "W1132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56016",
+      "position": 3,
+      "surface": "keine",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56016",
+      "position": 4,
+      "surface": "Brille",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56017",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56017",
+      "position": 2,
+      "surface": "trage",
+      "word_id": "W1131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56017",
+      "position": 3,
+      "surface": "keine",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56017",
+      "position": 4,
+      "surface": "Brille",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56018",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56018",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56018",
+      "position": 3,
+      "surface": "dein",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56018",
+      "position": 4,
+      "surface": "Hemd",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56019",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56019",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56019",
+      "position": 3,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56019",
+      "position": 4,
+      "surface": "Hemd",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56020",
+      "position": 1,
+      "surface": "Was",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56020",
+      "position": 2,
+      "surface": "für",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56020",
+      "position": 3,
+      "surface": "Schuhe",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56020",
+      "position": 4,
+      "surface": "trägst",
+      "word_id": "W1133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56020",
+      "position": 5,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56021",
+      "position": 1,
+      "surface": "Sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56021",
+      "position": 2,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56021",
+      "position": 3,
+      "surface": "Schuhe",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56021",
+      "position": 4,
+      "surface": "neu",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56022",
+      "position": 1,
+      "surface": "Welche",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56022",
+      "position": 2,
+      "surface": "Farbe",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56022",
+      "position": 3,
+      "surface": "hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56022",
+      "position": 4,
+      "surface": "Ihr",
+      "word_id": "W805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56022",
+      "position": 5,
+      "surface": "Mantel",
+      "word_id": "W1129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56023",
+      "position": 1,
+      "surface": "Weißt",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56023",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56023",
+      "position": 3,
+      "surface": "wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56023",
+      "position": 4,
+      "surface": "meine",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56023",
+      "position": 5,
+      "surface": "Brille",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56023",
+      "position": 6,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56024",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56024",
+      "position": 2,
+      "surface": "trägt",
+      "word_id": "W1132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56024",
+      "position": 3,
+      "surface": "eine",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56024",
+      "position": 4,
+      "surface": "Brille",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56025",
+      "position": 1,
+      "surface": "Der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56025",
+      "position": 2,
+      "surface": "Mann",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56025",
+      "position": 3,
+      "surface": "trägt",
+      "word_id": "W1132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56025",
+      "position": 4,
+      "surface": "eine",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56025",
+      "position": 5,
+      "surface": "Brille",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56026",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56026",
+      "position": 2,
+      "surface": "trägt",
+      "word_id": "W1132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56026",
+      "position": 3,
+      "surface": "jetzt",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56026",
+      "position": 4,
+      "surface": "eine",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56026",
+      "position": 5,
+      "surface": "Brille",
+      "word_id": "W1130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56027",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56027",
+      "position": 2,
+      "surface": "trägt",
+      "word_id": "W1132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56027",
+      "position": 3,
+      "surface": "blau",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56028",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56028",
+      "position": 2,
+      "surface": "trägt",
+      "word_id": "W1132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56028",
+      "position": 3,
+      "surface": "Rot",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56029",
+      "position": 1,
+      "surface": "Hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56029",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56029",
+      "position": 3,
+      "surface": "deine",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56029",
+      "position": 4,
+      "surface": "Schuhe",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56030",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56030",
+      "position": 2,
+      "surface": "trägt",
+      "word_id": "W1132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56030",
+      "position": 3,
+      "surface": "heute",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S56030",
+      "position": 4,
+      "surface": "Schwarz",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A560051",
+      "sentence_id": "S56005",
+      "direction": "fr_to_en",
+      "answer": "Tom is wearing glasses.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A560081",
+      "sentence_id": "S56008",
+      "direction": "fr_to_en",
+      "answer": "Which shoes are you going to wear today?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A560111",
+      "sentence_id": "S56011",
+      "direction": "fr_to_en",
+      "answer": "Where is your jacket?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A560171",
+      "sentence_id": "S56017",
+      "direction": "fr_to_en",
+      "answer": "I'm not wearing glasses.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A560301",
+      "sentence_id": "S56030",
+      "direction": "fr_to_en",
+      "answer": "Tom is dressed in black today.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

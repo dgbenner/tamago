@@ -1,0 +1,988 @@
+{
+  "unit_id": "U43",
+  "pulled_at": "2026-11-14",
+  "candidates": 78,
+  "sentences": [
+    {
+      "sentence_id": "S43001",
+      "unit_id": "U43",
+      "french": "¿Cuántos meses hay en un año?",
+      "english": "How many months are there in a year?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1822041",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43002",
+      "unit_id": "U43",
+      "french": "¡Feliz año!",
+      "english": "Happy New Year!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3206623",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43004",
+      "unit_id": "U43",
+      "french": "¿Eres feliz?",
+      "english": "Are you happy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "849798",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43005",
+      "unit_id": "U43",
+      "french": "¿Tienes diez años?",
+      "english": "Are you ten years old?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "742165",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43006",
+      "unit_id": "U43",
+      "french": "¿En qué mes estamos?",
+      "english": "What month is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "595513",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43007",
+      "unit_id": "U43",
+      "french": "¿Cuál es tu edad?",
+      "english": "What's your age?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1469844",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "What is your age?"
+      ]
+    },
+    {
+      "sentence_id": "S43008",
+      "unit_id": "U43",
+      "french": "¿Hoy es tu cumpleaños?",
+      "english": "Is it your birthday today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3030920",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43009",
+      "unit_id": "U43",
+      "french": "¿Es hoy su cumpleaños?",
+      "english": "Is it his birthday today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3870710",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43010",
+      "unit_id": "U43",
+      "french": "¿Por qué hay doce meses?",
+      "english": "Why are there twelve months?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7410781",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43012",
+      "unit_id": "U43",
+      "french": "¿Dónde es la fiesta de cumpleaños?",
+      "english": "Where is the birthday party?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7147850",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43013",
+      "unit_id": "U43",
+      "french": "Un año tiene doce meses.",
+      "english": "A year has twelve months.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "552511",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Leono",
+      "other_english": [
+        "One year has twelve months.",
+        "There are twelve months in a year."
+      ]
+    },
+    {
+      "sentence_id": "S43014",
+      "unit_id": "U43",
+      "french": "Tengo dieciséis años.",
+      "english": "I am sixteen years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "536304",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43015",
+      "unit_id": "U43",
+      "french": "Ella tiene mi edad.",
+      "english": "She's my age.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2794221",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43016",
+      "unit_id": "U43",
+      "french": "Él tiene mi edad.",
+      "english": "He's the same age as I am.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11838481",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43017",
+      "unit_id": "U43",
+      "french": "¿No eres feliz?",
+      "english": "Aren't you happy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "578930",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43019",
+      "unit_id": "U43",
+      "french": "¿Qué año es?",
+      "english": "What year is it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1284326",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43023",
+      "unit_id": "U43",
+      "french": "¿En qué año estamos?",
+      "english": "What year is it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1294965",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43025",
+      "unit_id": "U43",
+      "french": "¿Estás feliz ahora, Tom?",
+      "english": "Are you happy now, Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2154915",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43028",
+      "unit_id": "U43",
+      "french": "¿Es el cumpleaños de Tom mañana?",
+      "english": "Is it Tom's birthday tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9465394",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ignacio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43029",
+      "unit_id": "U43",
+      "french": "Es feliz.",
+      "english": "He is happy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "528432",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S43030",
+      "unit_id": "U43",
+      "french": "Soy feliz.",
+      "english": "I'm happy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "627075",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Leono",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S43001",
+      "position": 1,
+      "surface": "Cuántos",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43001",
+      "position": 2,
+      "surface": "meses",
+      "word_id": "W833",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43001",
+      "position": 3,
+      "surface": "hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43001",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43001",
+      "position": 5,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43001",
+      "position": 6,
+      "surface": "año",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43002",
+      "position": 1,
+      "surface": "Feliz",
+      "word_id": "W834",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43002",
+      "position": 2,
+      "surface": "año",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43004",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43004",
+      "position": 2,
+      "surface": "feliz",
+      "word_id": "W834",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43005",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43005",
+      "position": 2,
+      "surface": "diez",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43005",
+      "position": 3,
+      "surface": "años",
+      "word_id": "W828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43006",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43006",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43006",
+      "position": 3,
+      "surface": "mes",
+      "word_id": "W832",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43006",
+      "position": 4,
+      "surface": "estamos",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43007",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43007",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43007",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43007",
+      "position": 4,
+      "surface": "edad",
+      "word_id": "W830",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43008",
+      "position": 1,
+      "surface": "Hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43008",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43008",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43008",
+      "position": 4,
+      "surface": "cumpleaños",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43009",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43009",
+      "position": 2,
+      "surface": "hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43009",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43009",
+      "position": 4,
+      "surface": "cumpleaños",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43010",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43010",
+      "position": 2,
+      "surface": "hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43010",
+      "position": 3,
+      "surface": "doce",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43010",
+      "position": 4,
+      "surface": "meses",
+      "word_id": "W833",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43012",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43012",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43012",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43012",
+      "position": 4,
+      "surface": "fiesta",
+      "word_id": "W1017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43012",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43012",
+      "position": 6,
+      "surface": "cumpleaños",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43013",
+      "position": 1,
+      "surface": "Un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43013",
+      "position": 2,
+      "surface": "año",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43013",
+      "position": 3,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43013",
+      "position": 4,
+      "surface": "doce",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43013",
+      "position": 5,
+      "surface": "meses",
+      "word_id": "W833",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43014",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43014",
+      "position": 2,
+      "surface": "dieciséis",
+      "word_id": "W823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43014",
+      "position": 3,
+      "surface": "años",
+      "word_id": "W828",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43015",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43015",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43015",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43015",
+      "position": 4,
+      "surface": "edad",
+      "word_id": "W830",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43016",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43016",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43016",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43016",
+      "position": 4,
+      "surface": "edad",
+      "word_id": "W830",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43017",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43017",
+      "position": 2,
+      "surface": "eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43017",
+      "position": 3,
+      "surface": "feliz",
+      "word_id": "W834",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43019",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43019",
+      "position": 2,
+      "surface": "año",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43019",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43023",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43023",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43023",
+      "position": 3,
+      "surface": "año",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43023",
+      "position": 4,
+      "surface": "estamos",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43025",
+      "position": 1,
+      "surface": "Estás",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43025",
+      "position": 2,
+      "surface": "feliz",
+      "word_id": "W834",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43025",
+      "position": 3,
+      "surface": "ahora",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43025",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43028",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43028",
+      "position": 2,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43028",
+      "position": 3,
+      "surface": "cumpleaños",
+      "word_id": "W831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43028",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43028",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43028",
+      "position": 6,
+      "surface": "mañana",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43029",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43029",
+      "position": 2,
+      "surface": "feliz",
+      "word_id": "W834",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43030",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S43030",
+      "position": 2,
+      "surface": "feliz",
+      "word_id": "W834",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A430071",
+      "sentence_id": "S43007",
+      "direction": "fr_to_en",
+      "answer": "What is your age?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A430131",
+      "sentence_id": "S43013",
+      "direction": "fr_to_en",
+      "answer": "One year has twelve months.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A430132",
+      "sentence_id": "S43013",
+      "direction": "fr_to_en",
+      "answer": "There are twelve months in a year.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

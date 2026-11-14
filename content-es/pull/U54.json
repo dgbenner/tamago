@@ -1,0 +1,1394 @@
+{
+  "unit_id": "U54",
+  "pulled_at": "2026-11-14",
+  "candidates": 64,
+  "sentences": [
+    {
+      "sentence_id": "S54001",
+      "unit_id": "U54",
+      "french": "¿Llevas zapatos?",
+      "english": "Are you wearing shoes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10124744",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54002",
+      "unit_id": "U54",
+      "french": "¿Por qué no llevas un vestido?",
+      "english": "Why don't you wear a dress?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2667236",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "teskmon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54003",
+      "unit_id": "U54",
+      "french": "Llevo gafas.",
+      "english": "I wear glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12890698",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54004",
+      "unit_id": "U54",
+      "french": "Él lleva sombrero.",
+      "english": "He is wearing a hat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1250913",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54005",
+      "unit_id": "U54",
+      "french": "No lleva sombrero.",
+      "english": "He has no hat on.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2055558",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "He isn't wearing a hat.",
+        "He doesn't have a hat on."
+      ]
+    },
+    {
+      "sentence_id": "S54006",
+      "unit_id": "U54",
+      "french": "No llevo reloj.",
+      "english": "I don't wear a watch.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7916795",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54007",
+      "unit_id": "U54",
+      "french": "El chico lleva gafas.",
+      "english": "The boy wears glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1003027",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "The boy is wearing glasses."
+      ]
+    },
+    {
+      "sentence_id": "S54008",
+      "unit_id": "U54",
+      "french": "¿Dónde está mi reloj?",
+      "english": "Where's my watch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "497588",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Where is my watch?",
+        "Where is my clock?"
+      ]
+    },
+    {
+      "sentence_id": "S54009",
+      "unit_id": "U54",
+      "french": "¿Dónde están los zapatos?",
+      "english": "Where're the shoes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "842343",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zifre",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54010",
+      "unit_id": "U54",
+      "french": "¿Qué falda te gusta?",
+      "english": "Which skirt do you like?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1546744",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54011",
+      "unit_id": "U54",
+      "french": "¿Dónde está tu ropa?",
+      "english": "Where are your clothes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2047427",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54012",
+      "unit_id": "U54",
+      "french": "¿Dónde está tu reloj?",
+      "english": "Where's your watch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2097505",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54013",
+      "unit_id": "U54",
+      "french": "¿Dónde está su sombrero?",
+      "english": "Where's your hat?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4492412",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54014",
+      "unit_id": "U54",
+      "french": "¿No es tu camisa?",
+      "english": "Isn't that your shirt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5140950",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54015",
+      "unit_id": "U54",
+      "french": "¿Dónde está mi camisa?",
+      "english": "Where's my shirt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5147708",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54016",
+      "unit_id": "U54",
+      "french": "¿Te gusta mi ropa?",
+      "english": "Do you like my clothes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6453717",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "diegohn",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54017",
+      "unit_id": "U54",
+      "french": "¿Dónde están mis pantalones?",
+      "english": "Where are my pants?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9211760",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ignacio",
+      "other_english": [
+        "Where are my trousers?"
+      ]
+    },
+    {
+      "sentence_id": "S54018",
+      "unit_id": "U54",
+      "french": "¿Dónde está mi ropa?",
+      "english": "Where are my clothes?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9706615",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54019",
+      "unit_id": "U54",
+      "french": "¿De quién es esta camisa?",
+      "english": "Whose shirt is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "545591",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54020",
+      "unit_id": "U54",
+      "french": "¿De qué color es tu vestido?",
+      "english": "What color is your dress?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12531905",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54021",
+      "unit_id": "U54",
+      "french": "Hoy, María lleva un vestido nuevo.",
+      "english": "Mary is wearing a new dress today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2815173",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54022",
+      "unit_id": "U54",
+      "french": "Tienes mis gafas.",
+      "english": "You have my glasses.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3562631",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ficion",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54023",
+      "unit_id": "U54",
+      "french": "Tus zapatos están aquí.",
+      "english": "Your shoes are here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "475270",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54024",
+      "unit_id": "U54",
+      "french": "La falda es verde.",
+      "english": "The skirt is green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1160417",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54025",
+      "unit_id": "U54",
+      "french": "Me gusta tu chaqueta.",
+      "english": "I like your jacket.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3303176",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54026",
+      "unit_id": "U54",
+      "french": "Tu falda es bonita.",
+      "english": "Your skirt is pretty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13679816",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54027",
+      "unit_id": "U54",
+      "french": "No me gusta esta chaqueta.",
+      "english": "I don't like this jacket.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "515925",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S54029",
+      "unit_id": "U54",
+      "french": "No me gusta la chaqueta roja.",
+      "english": "I don't like the red jacket.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1539906",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S54001",
+      "position": 1,
+      "surface": "Llevas",
+      "word_id": "W1113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54001",
+      "position": 2,
+      "surface": "zapatos",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 3,
+      "surface": "llevas",
+      "word_id": "W1113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54002",
+      "position": 5,
+      "surface": "vestido",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 1,
+      "surface": "Llevo",
+      "word_id": "W1111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54003",
+      "position": 2,
+      "surface": "gafas",
+      "word_id": "W1109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 2,
+      "surface": "lleva",
+      "word_id": "W1112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54004",
+      "position": 3,
+      "surface": "sombrero",
+      "word_id": "W1108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54005",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54005",
+      "position": 2,
+      "surface": "lleva",
+      "word_id": "W1112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54005",
+      "position": 3,
+      "surface": "sombrero",
+      "word_id": "W1108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 2,
+      "surface": "llevo",
+      "word_id": "W1111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54006",
+      "position": 3,
+      "surface": "reloj",
+      "word_id": "W1110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 2,
+      "surface": "chico",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 3,
+      "surface": "lleva",
+      "word_id": "W1112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54007",
+      "position": 4,
+      "surface": "gafas",
+      "word_id": "W1109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54008",
+      "position": 4,
+      "surface": "reloj",
+      "word_id": "W1110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54009",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54009",
+      "position": 2,
+      "surface": "están",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54009",
+      "position": 3,
+      "surface": "los",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54009",
+      "position": 4,
+      "surface": "zapatos",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54010",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54010",
+      "position": 2,
+      "surface": "falda",
+      "word_id": "W1103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54010",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54010",
+      "position": 4,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54011",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54011",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54011",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54011",
+      "position": 4,
+      "surface": "ropa",
+      "word_id": "W1101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54012",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54012",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54012",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54012",
+      "position": 4,
+      "surface": "reloj",
+      "word_id": "W1110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54013",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54013",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54013",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54013",
+      "position": 4,
+      "surface": "sombrero",
+      "word_id": "W1108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54014",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54014",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54014",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54014",
+      "position": 4,
+      "surface": "camisa",
+      "word_id": "W1104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54015",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54015",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54015",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54015",
+      "position": 4,
+      "surface": "camisa",
+      "word_id": "W1104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54016",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54016",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54016",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54016",
+      "position": 4,
+      "surface": "ropa",
+      "word_id": "W1101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54017",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54017",
+      "position": 2,
+      "surface": "están",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54017",
+      "position": 3,
+      "surface": "mis",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54017",
+      "position": 4,
+      "surface": "pantalones",
+      "word_id": "W1102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54018",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54018",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54018",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54018",
+      "position": 4,
+      "surface": "ropa",
+      "word_id": "W1101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54019",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54019",
+      "position": 2,
+      "surface": "quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54019",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54019",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54019",
+      "position": 5,
+      "surface": "camisa",
+      "word_id": "W1104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54020",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54020",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54020",
+      "position": 3,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54020",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54020",
+      "position": 5,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54020",
+      "position": 6,
+      "surface": "vestido",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54021",
+      "position": 1,
+      "surface": "Hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54021",
+      "position": 2,
+      "surface": "María",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54021",
+      "position": 3,
+      "surface": "lleva",
+      "word_id": "W1112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54021",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54021",
+      "position": 5,
+      "surface": "vestido",
+      "word_id": "W1106",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54021",
+      "position": 6,
+      "surface": "nuevo",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54022",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54022",
+      "position": 2,
+      "surface": "mis",
+      "word_id": "W118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54022",
+      "position": 3,
+      "surface": "gafas",
+      "word_id": "W1109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54023",
+      "position": 1,
+      "surface": "Tus",
+      "word_id": "W120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54023",
+      "position": 2,
+      "surface": "zapatos",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54023",
+      "position": 3,
+      "surface": "están",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54023",
+      "position": 4,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54024",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54024",
+      "position": 2,
+      "surface": "falda",
+      "word_id": "W1103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54024",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54024",
+      "position": 4,
+      "surface": "verde",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54025",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54025",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54025",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54025",
+      "position": 4,
+      "surface": "chaqueta",
+      "word_id": "W1107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54026",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54026",
+      "position": 2,
+      "surface": "falda",
+      "word_id": "W1103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54026",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54026",
+      "position": 4,
+      "surface": "bonita",
+      "word_id": "W095",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54027",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54027",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54027",
+      "position": 3,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54027",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54027",
+      "position": 5,
+      "surface": "chaqueta",
+      "word_id": "W1107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 3,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 5,
+      "surface": "chaqueta",
+      "word_id": "W1107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S54029",
+      "position": 6,
+      "surface": "roja",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A540051",
+      "sentence_id": "S54005",
+      "direction": "fr_to_en",
+      "answer": "He isn't wearing a hat.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540052",
+      "sentence_id": "S54005",
+      "direction": "fr_to_en",
+      "answer": "He doesn't have a hat on.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540071",
+      "sentence_id": "S54007",
+      "direction": "fr_to_en",
+      "answer": "The boy is wearing glasses.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540081",
+      "sentence_id": "S54008",
+      "direction": "fr_to_en",
+      "answer": "Where is my watch?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540082",
+      "sentence_id": "S54008",
+      "direction": "fr_to_en",
+      "answer": "Where is my clock?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A540171",
+      "sentence_id": "S54017",
+      "direction": "fr_to_en",
+      "answer": "Where are my trousers?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

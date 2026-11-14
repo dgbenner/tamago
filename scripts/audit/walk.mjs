@@ -5,7 +5,8 @@
 import { readFileSync, readdirSync } from 'node:fs'
 import { buildLesson, contentForUnit, lessonsInRound } from '../../src/lib/lesson.js'
 
-export const COURSES = [['French', 'content', 'fr'], ['Spanish', 'content-es', 'es'], ['German', 'content-de', 'de']]
+// AUDIT_COURSES=Spanish,German limits a run to those courses (2026-11-14).
+export const COURSES = [['French', 'content', 'fr'], ['Spanish', 'content-es', 'es'], ['German', 'content-de', 'de']].filter(([name]) => !process.env.AUDIT_COURSES || process.env.AUDIT_COURSES.split(',').includes(name))
 export const seeded = (seed) => { let x = seed; return () => { x = (x * 1664525 + 1013904223) % 4294967296; return x / 4294967296 } }
 export function tablesOf(dir) {
   const t = {}

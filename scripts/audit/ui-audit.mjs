@@ -109,7 +109,9 @@ async function worker([course, dir, cid], device) {
     await page.locator('[data-check]').click()
   }
   const units = treeOrder(tablesOf(dir))
-  for (const u of maxCircles ? units.slice(0, Number(maxCircles)) : units) {
+  // PART=2 runs one part's circles only (2026-11-14).
+  const inPart = units.filter((u) => !process.env.PART || Number(u.part || 1) === Number(process.env.PART))
+  for (const u of maxCircles ? inPart.slice(0, Number(maxCircles)) : inPart) {
     for (let r = 1; r <= 5; r++) for (const pass of ['right', 'wrong']) {
       const w = { circle: u.title, unit: u.unit_id, round: r, pass, qi: -1 }
       errors = []
@@ -132,9 +134,12 @@ async function worker([course, dir, cid], device) {
           const started = await page.waitForFunction((n) => window.__sound > n, mark, { timeout: 800 }).then(() => true).catch(() => false)
           if (!started) await flag(w, q, `no sound started on load (${q.audio?.file ? 'recording ' + q.audio.file : 'device voice'})`, 'medium', false)
         }
+        // Taken before answering: a skipped question (QT14, QT15) moves on at once, and the next one's sound can start
+        // before a mark taken afterwards (2026-11-14: three false 'no sound' flags after Read and Answer).
+        const before = await page.evaluate(() => window.__sound)
         const how = await answer(q, pass === 'right').catch((e) => `failed: ${e.message.split('\n')[0]}`)
         if (how?.startsWith?.('failed')) { if (q.type !== 'QT01') await flag(w, q, `could not answer: ${how}`, 'high'); await page.keyboard.press('ArrowRight'); await page.waitForTimeout(150); continue }
-        if (how === 'skipped') { mark = await page.evaluate(() => window.__sound); await page.waitForTimeout(200); continue }
+        if (how === 'skipped') { mark = before; await page.waitForTimeout(200); continue }
         const bar = page.locator('section[data-outcome]')
         try { await bar.waitFor({ timeout: 4000 }) } catch { await flag(w, q, 'stuck: no answer bar after answering', 'critical'); await page.keyboard.press('ArrowRight'); await page.waitForTimeout(200); continue }
         const text = (await bar.innerText()).split('\n').map((x) => x.trim()).filter((x) => x && x !== 'Continue')

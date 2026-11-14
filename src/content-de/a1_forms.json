@@ -1,1 +1,91 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Ich heiße Tom Becker. Ich bin vierzig Jahre alt. Ich wohne in der Parkstraße zehn, in Hamburg.",
+    "fields": [
+      {
+        "key": "last",
+        "label": "Name",
+        "rule": "text",
+        "answer": "Becker"
+      },
+      {
+        "key": "first",
+        "label": "Vorname",
+        "rule": "text",
+        "answer": "Tom"
+      },
+      {
+        "key": "age",
+        "label": "Alter",
+        "rule": "number",
+        "answer": "40"
+      },
+      {
+        "key": "address",
+        "label": "Adresse",
+        "rule": "text",
+        "answer": "Parkstraße 10",
+        "also": [
+          "Parkstrasse 10",
+          "Parkstraße zehn",
+          "Parkstr. 10"
+        ]
+      },
+      {
+        "key": "town",
+        "label": "Stadt",
+        "rule": "text",
+        "answer": "Hamburg"
+      }
+    ]
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Ich heiße Anna Weber. Ich bin dreißig Jahre alt. Ich komme aus Österreich. Ich wohne in Deutschland. Meine Nummer ist null, sechs, elf, fünfzehn, neunzehn, zwanzig.",
+    "fields": [
+      {
+        "key": "first",
+        "label": "Vorname",
+        "rule": "text",
+        "answer": "Anna"
+      },
+      {
+        "key": "last",
+        "label": "Name",
+        "rule": "text",
+        "answer": "Weber"
+      },
+      {
+        "key": "age",
+        "label": "Alter",
+        "rule": "number",
+        "answer": "30"
+      },
+      {
+        "key": "from",
+        "label": "Herkunftsland",
+        "rule": "text",
+        "answer": "Österreich",
+        "also": [
+          "Oesterreich",
+          "Osterreich"
+        ]
+      },
+      {
+        "key": "country",
+        "label": "Wohnort (Land)",
+        "rule": "text",
+        "answer": "Deutschland"
+      },
+      {
+        "key": "tel",
+        "label": "Telefon",
+        "rule": "phone",
+        "answer": "06 11 15 19 20"
+      }
+    ]
+  }
+]

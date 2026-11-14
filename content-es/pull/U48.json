@@ -1,0 +1,995 @@
+{
+  "unit_id": "U48",
+  "pulled_at": "2026-11-14",
+  "candidates": 69,
+  "sentences": [
+    {
+      "sentence_id": "S48001",
+      "unit_id": "U48",
+      "french": "Cuesta tres dólares.",
+      "english": "It costs three dollars.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7997593",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48002",
+      "unit_id": "U48",
+      "french": "Este libro cuesta cuatro dólares.",
+      "english": "This book costs 4 dollars.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1132709",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "This book costs four dollars."
+      ]
+    },
+    {
+      "sentence_id": "S48003",
+      "unit_id": "U48",
+      "french": "El libro cuesta cinco dólares.",
+      "english": "The book costs five dollars.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11505488",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48004",
+      "unit_id": "U48",
+      "french": "¿Tienes dinero?",
+      "english": "Do you have money?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "685497",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MondCivitano",
+      "other_english": [
+        "Do you have any money?"
+      ]
+    },
+    {
+      "sentence_id": "S48007",
+      "unit_id": "U48",
+      "french": "Barato, ¿no?",
+      "english": "Cheap, isn't it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9696013",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shadow96",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48008",
+      "unit_id": "U48",
+      "french": "¿Cuál es más caro?",
+      "english": "Which one is more expensive?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1205950",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48009",
+      "unit_id": "U48",
+      "french": "¿Quién va a pagar?",
+      "english": "Who's paying?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1771949",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": [
+        "Who will pay?"
+      ]
+    },
+    {
+      "sentence_id": "S48010",
+      "unit_id": "U48",
+      "french": "¿Cuál es el precio de este reloj?",
+      "english": "What is the price of this watch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1396906",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48011",
+      "unit_id": "U48",
+      "french": "¡Qué caro!",
+      "english": "How expensive!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "767235",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48012",
+      "unit_id": "U48",
+      "french": "Es caro.",
+      "english": "It's expensive.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9443921",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ignacio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48013",
+      "unit_id": "U48",
+      "french": "Es muy barato.",
+      "english": "It's very cheap.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1308723",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "It is really cheap."
+      ]
+    },
+    {
+      "sentence_id": "S48014",
+      "unit_id": "U48",
+      "french": "No es barato.",
+      "english": "It's not cheap.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1869431",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48015",
+      "unit_id": "U48",
+      "french": "Voy a pagar.",
+      "english": "I'm going to pay.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2968912",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48016",
+      "unit_id": "U48",
+      "french": "Aquí está mi tarjeta.",
+      "english": "Here's my card.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1279968",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48017",
+      "unit_id": "U48",
+      "french": "El precio está bien.",
+      "english": "The price is good.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12701842",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48020",
+      "unit_id": "U48",
+      "french": "¿Dónde está tu dinero?",
+      "english": "Where's your money?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1748410",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "Where is your money?"
+      ]
+    },
+    {
+      "sentence_id": "S48023",
+      "unit_id": "U48",
+      "french": "¿De quién es este dinero?",
+      "english": "Whose money is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1139946",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48026",
+      "unit_id": "U48",
+      "french": "Esta camisa cuesta más de cincuenta dólares.",
+      "english": "This shirt costs more than fifty dollars.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1704756",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48027",
+      "unit_id": "U48",
+      "french": "Tengo dinero.",
+      "english": "I have money.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "546952",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48028",
+      "unit_id": "U48",
+      "french": "Quiero dinero.",
+      "english": "I want money.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4456338",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S48029",
+      "unit_id": "U48",
+      "french": "Siete dólares, por favor.",
+      "english": "Seven dollars, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "492976",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "That'll be seven dollars, please."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S48001",
+      "position": 1,
+      "surface": "Cuesta",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48001",
+      "position": 2,
+      "surface": "tres",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48001",
+      "position": 3,
+      "surface": "dólares",
+      "word_id": "W889",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 2,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 3,
+      "surface": "cuesta",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 4,
+      "surface": "cuatro",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48002",
+      "position": 5,
+      "surface": "dólares",
+      "word_id": "W889",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 2,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 3,
+      "surface": "cuesta",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 4,
+      "surface": "cinco",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48003",
+      "position": 5,
+      "surface": "dólares",
+      "word_id": "W889",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48004",
+      "position": 2,
+      "surface": "dinero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48007",
+      "position": 1,
+      "surface": "Barato",
+      "word_id": "W891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48007",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 3,
+      "surface": "más",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48008",
+      "position": 4,
+      "surface": "caro",
+      "word_id": "W890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48009",
+      "position": 4,
+      "surface": "pagar",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 4,
+      "surface": "precio",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 6,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48010",
+      "position": 7,
+      "surface": "reloj",
+      "word_id": "W1110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48011",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48011",
+      "position": 2,
+      "surface": "caro",
+      "word_id": "W890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48012",
+      "position": 2,
+      "surface": "caro",
+      "word_id": "W890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 2,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48013",
+      "position": 3,
+      "surface": "barato",
+      "word_id": "W891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48014",
+      "position": 3,
+      "surface": "barato",
+      "word_id": "W891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48015",
+      "position": 3,
+      "surface": "pagar",
+      "word_id": "W892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 1,
+      "surface": "Aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48016",
+      "position": 4,
+      "surface": "tarjeta",
+      "word_id": "W894",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48017",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48017",
+      "position": 2,
+      "surface": "precio",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48017",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48017",
+      "position": 4,
+      "surface": "bien",
+      "word_id": "W041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48020",
+      "position": 4,
+      "surface": "dinero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 2,
+      "surface": "quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 4,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48023",
+      "position": 5,
+      "surface": "dinero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 2,
+      "surface": "camisa",
+      "word_id": "W1104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 3,
+      "surface": "cuesta",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 4,
+      "surface": "más",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 6,
+      "surface": "cincuenta",
+      "word_id": "W841",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48026",
+      "position": 7,
+      "surface": "dólares",
+      "word_id": "W889",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48027",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48027",
+      "position": 2,
+      "surface": "dinero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48028",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48028",
+      "position": 2,
+      "surface": "dinero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48029",
+      "position": 1,
+      "surface": "Siete",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48029",
+      "position": 2,
+      "surface": "dólares",
+      "word_id": "W889",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S48029",
+      "position": 3,
+      "surface": "por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A480021",
+      "sentence_id": "S48002",
+      "direction": "fr_to_en",
+      "answer": "This book costs four dollars.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480041",
+      "sentence_id": "S48004",
+      "direction": "fr_to_en",
+      "answer": "Do you have any money?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480091",
+      "sentence_id": "S48009",
+      "direction": "fr_to_en",
+      "answer": "Who will pay?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480131",
+      "sentence_id": "S48013",
+      "direction": "fr_to_en",
+      "answer": "It is really cheap.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480201",
+      "sentence_id": "S48020",
+      "direction": "fr_to_en",
+      "answer": "Where is your money?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A480291",
+      "sentence_id": "S48029",
+      "direction": "fr_to_en",
+      "answer": "That'll be seven dollars, please.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -1,0 +1,816 @@
+{
+  "unit_id": "U44",
+  "pulled_at": "2026-11-14",
+  "candidates": 14,
+  "sentences": [
+    {
+      "sentence_id": "S44001",
+      "unit_id": "U44",
+      "french": "Ich bin dreißig.",
+      "english": "I'm thirty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3385324",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "I'm thirty years old.",
+        "I am thirty years old."
+      ]
+    },
+    {
+      "sentence_id": "S44002",
+      "unit_id": "U44",
+      "french": "Tom ist dreißig.",
+      "english": "Tom's thirty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3445111",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pne",
+      "other_english": [
+        "Tom is thirty.",
+        "Tom is thirty years old."
+      ]
+    },
+    {
+      "sentence_id": "S44003",
+      "unit_id": "U44",
+      "french": "Ich bin jetzt dreißig.",
+      "english": "I'm thirty now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2765321",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "I am 30 years old now."
+      ]
+    },
+    {
+      "sentence_id": "S44004",
+      "unit_id": "U44",
+      "french": "Ich bin vierzig Jahre alt.",
+      "english": "I'm forty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1053117",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44005",
+      "unit_id": "U44",
+      "french": "Er ist sechzig Jahre alt.",
+      "english": "He is sixty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8768983",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yorwba",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44006",
+      "unit_id": "U44",
+      "french": "Sie ist vierzig Jahre alt.",
+      "english": "She is forty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10072458",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44007",
+      "unit_id": "U44",
+      "french": "Er ist neunzig Jahre alt.",
+      "english": "He's ninety years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10072569",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44008",
+      "unit_id": "U44",
+      "french": "Ich bin fünfzig Jahre alt.",
+      "english": "I'm fifty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12163309",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tc14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44009",
+      "unit_id": "U44",
+      "french": "Sie sind vierzig Jahre alt.",
+      "english": "They're forty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12163613",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mhr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44010",
+      "unit_id": "U44",
+      "french": "Ich bin dreißig Jahre alt.",
+      "english": "I'm thirty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3386124",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": [
+        "I am thirty years old."
+      ]
+    },
+    {
+      "sentence_id": "S44011",
+      "unit_id": "U44",
+      "french": "Anna ist dreißig Jahre alt.",
+      "english": "Anna is thirty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12279556",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mhr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44012",
+      "unit_id": "U44",
+      "french": "Er ist vierzig Jahre alt.",
+      "english": "He's forty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12851645",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mhr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44013",
+      "unit_id": "U44",
+      "french": "Tom ist jetzt dreißig Jahre alt.",
+      "english": "Tom is now thirty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8821016",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wolfgangth",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44014",
+      "unit_id": "U44",
+      "french": "Er ist jetzt dreißig Jahre alt.",
+      "english": "He's thirty years old now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13250094",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S44001",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44001",
+      "position": 2,
+      "surface": "bin",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44001",
+      "position": 3,
+      "surface": "dreißig",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44002",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44002",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44002",
+      "position": 3,
+      "surface": "dreißig",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 2,
+      "surface": "bin",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 3,
+      "surface": "jetzt",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 4,
+      "surface": "dreißig",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 2,
+      "surface": "bin",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 3,
+      "surface": "vierzig",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 4,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 5,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 3,
+      "surface": "sechzig",
+      "word_id": "W840",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 4,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 5,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 3,
+      "surface": "vierzig",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 4,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 5,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44007",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44007",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44007",
+      "position": 3,
+      "surface": "neunzig",
+      "word_id": "W843",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44007",
+      "position": 4,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44007",
+      "position": 5,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44008",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44008",
+      "position": 2,
+      "surface": "bin",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44008",
+      "position": 3,
+      "surface": "fünfzig",
+      "word_id": "W839",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44008",
+      "position": 4,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44008",
+      "position": 5,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 2,
+      "surface": "sind",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 3,
+      "surface": "vierzig",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 4,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44009",
+      "position": 5,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44010",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44010",
+      "position": 2,
+      "surface": "bin",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44010",
+      "position": 3,
+      "surface": "dreißig",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44010",
+      "position": 4,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44010",
+      "position": 5,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44011",
+      "position": 1,
+      "surface": "Anna",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44011",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44011",
+      "position": 3,
+      "surface": "dreißig",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44011",
+      "position": 4,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44011",
+      "position": 5,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44012",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44012",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44012",
+      "position": 3,
+      "surface": "vierzig",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44012",
+      "position": 4,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44012",
+      "position": 5,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44013",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44013",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44013",
+      "position": 3,
+      "surface": "jetzt",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44013",
+      "position": 4,
+      "surface": "dreißig",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44013",
+      "position": 5,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44013",
+      "position": 6,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44014",
+      "position": 1,
+      "surface": "Er",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44014",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44014",
+      "position": 3,
+      "surface": "jetzt",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44014",
+      "position": 4,
+      "surface": "dreißig",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44014",
+      "position": 5,
+      "surface": "Jahre",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44014",
+      "position": 6,
+      "surface": "alt",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A440011",
+      "sentence_id": "S44001",
+      "direction": "fr_to_en",
+      "answer": "I'm thirty years old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A440012",
+      "sentence_id": "S44001",
+      "direction": "fr_to_en",
+      "answer": "I am thirty years old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A440021",
+      "sentence_id": "S44002",
+      "direction": "fr_to_en",
+      "answer": "Tom is thirty.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A440022",
+      "sentence_id": "S44002",
+      "direction": "fr_to_en",
+      "answer": "Tom is thirty years old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A440031",
+      "sentence_id": "S44003",
+      "direction": "fr_to_en",
+      "answer": "I am 30 years old now.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A440101",
+      "sentence_id": "S44010",
+      "direction": "fr_to_en",
+      "answer": "I am thirty years old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

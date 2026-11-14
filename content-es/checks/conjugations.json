@@ -131,6 +131,182 @@
       "form": "leen"
     }
   ],
+  "llamar": [
+    {
+      "person": "yo",
+      "form": "llamo"
+    },
+    {
+      "person": "tú",
+      "form": "llamas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "llama"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "llamamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "llaman"
+    }
+  ],
+  "llevar": [
+    {
+      "person": "yo",
+      "form": "llevo"
+    },
+    {
+      "person": "tú",
+      "form": "llevas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "lleva"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "llevamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "llevan"
+    }
+  ],
+  "poder": [
+    {
+      "person": "yo",
+      "form": "puedo"
+    },
+    {
+      "person": "tú",
+      "form": "puedes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "puede"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "podemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "pueden"
+    }
+  ],
+  "estudiar": [
+    {
+      "person": "yo",
+      "form": "estudio"
+    },
+    {
+      "person": "tú",
+      "form": "estudias"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "estudia"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "estudiamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "estudian"
+    }
+  ],
+  "vivir": [
+    {
+      "person": "yo",
+      "form": "vivo"
+    },
+    {
+      "person": "tú",
+      "form": "vives"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "vive"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "vivimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "viven"
+    }
+  ],
+  "hablar": [
+    {
+      "person": "yo",
+      "form": "hablo"
+    },
+    {
+      "person": "tú",
+      "form": "hablas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "habla"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "hablamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "hablan"
+    }
+  ],
+  "querer": [
+    {
+      "person": "yo",
+      "form": "quiero"
+    },
+    {
+      "person": "tú",
+      "form": "quieres"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "quiere"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "queremos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "quieren"
+    }
+  ],
+  "costar": [
+    {
+      "person": "yo",
+      "form": "cuesto"
+    },
+    {
+      "person": "tú",
+      "form": "cuestas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "cuesta"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "costamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "cuestan"
+    }
+  ],
   "beber": [
     {
       "person": "yo",
@@ -195,28 +371,6 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "han"
-    }
-  ],
-  "llamar": [
-    {
-      "person": "yo",
-      "form": "llamo"
-    },
-    {
-      "person": "tú",
-      "form": "llamas"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "llama"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "llamamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "llaman"
     }
   ],
   "trabajar": [
@@ -329,28 +483,6 @@
       "form": "repiten"
     }
   ],
-  "hablar": [
-    {
-      "person": "yo",
-      "form": "hablo"
-    },
-    {
-      "person": "tú",
-      "form": "hablas"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "habla"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "hablamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "hablan"
-    }
-  ],
   "decir": [
     {
       "person": "yo",
@@ -393,28 +525,6 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "significan"
-    }
-  ],
-  "querer": [
-    {
-      "person": "yo",
-      "form": "quiero"
-    },
-    {
-      "person": "tú",
-      "form": "quieres"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "quiere"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "queremos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "quieren"
     }
   ],
   "buscar": [
@@ -525,6 +635,116 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "escuchan"
+    }
+  ],
+  "escribir": [
+    {
+      "person": "yo",
+      "form": "escribo"
+    },
+    {
+      "person": "tú",
+      "form": "escribes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "escribe"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "escribimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "escriben"
+    }
+  ],
+  "esperar": [
+    {
+      "person": "yo",
+      "form": "espero"
+    },
+    {
+      "person": "tú",
+      "form": "esperas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "espera"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "esperamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "esperan"
+    }
+  ],
+  "comprar": [
+    {
+      "person": "yo",
+      "form": "compro"
+    },
+    {
+      "person": "tú",
+      "form": "compras"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "compra"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "compramos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "compran"
+    }
+  ],
+  "comprender": [
+    {
+      "person": "yo",
+      "form": "comprendo"
+    },
+    {
+      "person": "tú",
+      "form": "comprendes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "comprende"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "comprendemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "comprenden"
+    }
+  ],
+  "aprender": [
+    {
+      "person": "yo",
+      "form": "aprendo"
+    },
+    {
+      "person": "tú",
+      "form": "aprendes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "aprende"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "aprendemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "aprenden"
     }
   ]
 }

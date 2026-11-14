@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "id": "N101",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "fünfzehn",
+    "answer": "15"
+  },
+  {
+    "id": "N102",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "siebzehn",
+    "answer": "17"
+  },
+  {
+    "id": "N103",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "null, sechs, elf, fünfzehn, neunzehn, zwanzig",
+    "answer": "06 11 15 19 20"
+  },
+  {
+    "id": "N104",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "null, sieben, zwölf, sechzehn, achtzehn, vierzehn",
+    "answer": "07 12 16 18 14"
+  },
+  {
+    "id": "N105",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Ich bin zwanzig Jahre alt.",
+    "answer": "20"
+  },
+  {
+    "id": "N106",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Sie ist achtzehn Jahre alt.",
+    "answer": "18"
+  },
+  {
+    "id": "N107",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "siebzig",
+    "answer": "70"
+  },
+  {
+    "id": "N108",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "neunzig",
+    "answer": "90"
+  },
+  {
+    "id": "N109",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "fünfundvierzig",
+    "answer": "45"
+  },
+  {
+    "id": "N110",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "neunundneunzig",
+    "answer": "99"
+  },
+  {
+    "id": "N111",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "drei Euro fünfzig",
+    "answer": "3.50"
+  },
+  {
+    "id": "N112",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "zehn Euro",
+    "answer": "10"
+  },
+  {
+    "id": "N113",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "ein Euro zwanzig",
+    "answer": "1.20"
+  },
+  {
+    "id": "N114",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "fünfundzwanzig Euro",
+    "answer": "25"
+  }
+]

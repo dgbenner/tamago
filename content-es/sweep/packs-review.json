@@ -274,5 +274,184 @@
       "4508608": "elliptic",
       "6549342": "English does not match (llamo as can I call)"
     }
+  },
+  "U41": {
+    "reject": {
+      "512332": "wrong sense (encantada as haunted)",
+      "578954": "idiom (llaman a la puerta: someone is knocking)",
+      "1634606": "colloquial me sé",
+      "1785384": "odd question",
+      "1918210": "near duplicate of Yo sé tu nombre",
+      "5229490": "near duplicate of Es un nombre",
+      "5566752": "idiom (to name names)",
+      "7536632": "elliptic",
+      "10181454": "near duplicate"
+    }
+  },
+  "U54": {
+    "reject": {
+      "1001509": "wrong sense (llevarse bien: get along)",
+      "1207782": "odd (is your watch correct)",
+      "1248550": "wrong sense (llevar as give a ride)",
+      "1289356": "wrong sense (llevar as lead to)",
+      "1972288": "wrong sense (llevar as give a ride)",
+      "6692474": "wrong sense (llevar as lead to)",
+      "7958279": "wrong sense (llevar as give a ride)",
+      "10097458": "wrong sense (llevar as take somewhere)",
+      "10513593": "wrong sense (llevar as give a ride)"
+    }
+  },
+  "U34": {
+    "reject": {
+      "1400464": "English reads as permission (you may swim)",
+      "1508836": "odd question",
+      "1806183": "odd question",
+      "4986558": "duplicate of the tú question",
+      "5022753": "odd (what more can you say)",
+      "5022754": "odd (what more can you say)",
+      "5115269": "duplicate of Él escribe libros",
+      "9996558": "near duplicate"
+    }
+  },
+  "U42": {
+    "reject": {
+      "1213953": "English reads oddly (I keep thirteen cats)",
+      "1651338": "too many uno lines",
+      "1684190": "too many uno lines",
+      "1963195": "too many uno lines",
+      "3033102": "too many uno lines",
+      "4345046": "too many uno lines"
+    }
+  },
+  "U43": {
+    "reject": {
+      "578931": "too many feliz lines",
+      "1350929": "too many feliz lines",
+      "1939797": "too many feliz lines",
+      "2042215": "too many feliz lines",
+      "3255101": "too many feliz lines",
+      "5250824": "too many feliz lines",
+      "5922463": "English reads oddly",
+      "6813217": "too many feliz lines",
+      "9340812": "near duplicate of ¡Feliz año!"
+    }
+  },
+  "U55": {
+    "reject": {
+      "1103005": "near duplicate",
+      "1535987": "wrong sense (para as stop)",
+      "2122408": "English does not match (niños as boys)",
+      "2654905": "duplicate (usted)",
+      "5059343": "odd (the question is what for)",
+      "6627371": "English reads oddly",
+      "9928121": "odd question",
+      "11701813": "duplicate (ustedes)"
+    }
+  },
+  "U35": {
+    "reject": {
+      "1101448": "wrong sense (esperar as expect)",
+      "4947965": "English reads oddly",
+      "6003282": "near duplicate of Espera a María",
+      "6600057": "está correcto, and the English says okay",
+      "6600073": "está correcto, and the English says OK"
+    }
+  },
+  "U44": {
+    "reject": {
+      "519534": "odd (no more than a hundred books)"
+    }
+  },
+  "U45": {
+    "reject": {
+      "1280916": "near duplicate of ¿Él vive aquí?",
+      "1694482": "dark (tired of living)",
+      "2707086": "duplicate of ¿Usted vive aquí?",
+      "3189094": "odd question",
+      "3796564": "odd (what do I live for)",
+      "5198058": "unusual word order"
+    }
+  },
+  "U56": {
+    "reject": {
+      "740036": "peninsular construction (cómo de alto)",
+      "1237174": "wrong sense (baja as lower)",
+      "1748291": "wrong sense (corto as I cut)",
+      "2744067": "wrong sense (bajo as under)",
+      "4554080": "wrong sense (más bajo as quieter)",
+      "5566476": "wrong sense (baja as come down)"
+    }
+  },
+  "U46": {
+    "reject": {
+      "3724712": "odd (the women are in Mexico)"
+    }
+  },
+  "U47": {
+    "reject": {
+      "460405": "wrong sense (querer as love)",
+      "1672848": "different sense (ir de compras: go shopping)",
+      "2707062": "too many quieres lines",
+      "2893723": "near duplicate",
+      "3929649": "too many quieres lines",
+      "13436906": "near duplicate",
+      "13709422": "odd question"
+    }
+  },
+  "U57": {
+    "reject": {
+      "1542248": "odd question",
+      "2893685": "idiom (qué hay de malo: what is wrong)",
+      "3467836": "rude",
+      "5628592": "idiom (what is wrong with that)",
+      "11367410": "odd"
+    }
+  },
+  "U36": {
+    "reject": {
+      "1198552": "near duplicate",
+      "1263752": "awkward",
+      "1266256": "idiom (a decir verdad)",
+      "1266460": "idiom (a decir verdad)",
+      "1490437": "not a help phrase",
+      "1852172": "philosophical, not a help phrase",
+      "2258989": "different sense (a clear day)",
+      "5194740": "unusual (en un acuerdo)",
+      "5569504": "English reads oddly",
+      "7918574": "idiom (I do not mince words)"
+    }
+  },
+  "U48": {
+    "reject": {
+      "507312": "English reads oddly",
+      "1209948": "too many dinero lines",
+      "1945980": "too many dinero lines",
+      "2024843": "too many dinero lines",
+      "2042208": "too many dinero lines",
+      "2678413": "too many dinero lines",
+      "6592079": "odd",
+      "7931201": "too many dinero lines",
+      "11706967": "near duplicate"
+    }
+  },
+  "U49": {
+    "reject": {
+      "2061503": "wrong sense (llevar as carry)",
+      "2097862": "English has an error (Who is bag)",
+      "3837406": "colloquial (¿a poco?)",
+      "3837407": "colloquial (¿a poco sí?)",
+      "5755848": "English does not match",
+      "6627314": "English has an error (Who is this box for)",
+      "7299828": "odd question",
+      "10179339": "rude"
+    }
+  },
+  "U58": {
+    "reject": {
+      "1167579": "odd",
+      "1283936": "English reads oddly (dwells)",
+      "1765217": "odd (the sun is white)",
+      "12403654": "duplicate of ¿El cielo es azul? Sí."
+    }
   }
 }

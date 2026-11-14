@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "id": "R101",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "En el mercado",
+    "lines": [
+      "Frutas y verduras",
+      "Manzanas: 30 pesos el kilo",
+      "El mercado: lunes y domingo"
+    ],
+    "questions": [
+      {
+        "question": "How much is a kilo of apples?",
+        "choices": [
+          "30 pesos",
+          "40 pesos",
+          "13 pesos"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is the market on?",
+        "choices": [
+          "Monday and Sunday",
+          "Every day",
+          "Only on Sunday"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R102",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Los precios",
+    "lines": [
+      "Pan: 10 pesos",
+      "Queso: 45 pesos",
+      "Leche: 25 pesos",
+      "Agua: 12 pesos"
+    ],
+    "questions": [
+      {
+        "question": "How much is the cheese?",
+        "choices": [
+          "25 pesos",
+          "45 pesos",
+          "12 pesos"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What costs 10 pesos?",
+        "choices": [
+          "The bread",
+          "The milk",
+          "The water"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R103",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Un mensaje de María",
+    "lines": [
+      "Tom:",
+      "¿Puedes comprar una botella de leche, un paquete de galletas y un kilo de manzanas?",
+      "¡Gracias!",
+      "María"
+    ],
+    "questions": [
+      {
+        "question": "What does María want from the shop?",
+        "choices": [
+          "Milk, cookies and apples",
+          "Bread and water",
+          "Fruit and vegetables"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much milk?",
+        "choices": [
+          "One bottle",
+          "Two bottles",
+          "A kilo"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  }
+]

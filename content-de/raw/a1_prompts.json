@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "P101",
+    "unit_id": "U45",
+    "prompt": "Write a short message to a new friend: your name, how old you are and where you live.",
+    "points": "your name;your age;where you live",
+    "min_words": 20,
+    "max_words": 35,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P102",
+    "unit_id": "U46",
+    "prompt": "Write a short postcard about yourself: where you are from, where you live and which languages you speak.",
+    "points": "where you are from;where you live;your languages",
+    "min_words": 30,
+    "max_words": 40,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P103",
+    "unit_id": "U49",
+    "prompt": "Write a short message to a friend: what to buy at the market, and how much of each.",
+    "points": "two or three things;how much of each",
+    "min_words": 20,
+    "max_words": 35,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

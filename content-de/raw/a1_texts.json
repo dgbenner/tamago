@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "R101",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "Auf dem Markt",
+    "lines": "Obst und Gemüse\nÄpfel: 2 € das Kilo\nDer Markt: Montag und Samstag",
+    "questions_json": "[{\"question\":\"How much is a kilo of apples?\",\"choices\":[\"€2\",\"€3\",\"€20\"],\"answer\":0},{\"question\":\"When is the market on?\",\"choices\":[\"Monday and Saturday\",\"Every day\",\"Only on Saturday\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R102",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Die Preise",
+    "lines": "Brot: 1 €\nKäse: 4,50 €\nMilch: 1,20 €\nWasser: 0,80 €",
+    "questions_json": "[{\"question\":\"How much is the cheese?\",\"choices\":[\"€1.20\",\"€4.50\",\"€0.80\"],\"answer\":1},{\"question\":\"What costs €1?\",\"choices\":[\"The bread\",\"The milk\",\"The water\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R103",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Eine Nachricht von Anna",
+    "lines": "Tom,\nkannst du eine Flasche Milch, eine Packung Kekse und ein Kilo Äpfel kaufen?\nDanke!\nAnna",
+    "questions_json": "[{\"question\":\"What does Anna want from the shop?\",\"choices\":[\"Milk, cookies and apples\",\"Bread and water\",\"Fruit and vegetables\"],\"answer\":0},{\"question\":\"How much milk?\",\"choices\":[\"One bottle\",\"Two bottles\",\"A kilo\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]
