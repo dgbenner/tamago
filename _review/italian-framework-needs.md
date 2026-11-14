@@ -67,12 +67,22 @@ Italian entry and changes nothing for French, Spanish or German.
 - `scripts/check-content.mjs`: `it-noun` joins the headword patterns that give a noun's gender.
 - New file: `scripts/make-italian-workbook.mjs`.
 
-## 5. The official A1 list is not loaded
+## 5. The A1 list: Kelly, standing in for the Profilo
 
-The Profilo della lingua italiana (Spinelli and Parizzi, La Nuova Italia, 2010) keeps its A1 inventories and word
-lists on the book's CD-ROM. The Perugia site for it, https://www.unistrapg.it/profilo_lingua_italiana/site/index.html,
-has the presentation and learner samples only, not the inventories, and no other copy was found online. Nothing was
-stored in its place: `content-it/a1-list.json` does not exist, and coverage against the Profilo cannot be reported
-until Dan has the book (about 35 euros). Once the A1 list is in hand it goes in `content-it/a1-list.json` in the same
-shape as the other three, and `COURSE=it node scripts/a1-coverage.mjs` reports coverage. `scripts/a1-coverage.mjs`
-also needs an Italian `THEMES` entry (numbers, prices, times, days, months, dates) before it will run.
+The Profilo della lingua italiana (Spinelli and Parizzi, La Nuova Italia, 2010) keeps its A1 inventories on the
+book's CD-ROM; the Perugia site for it has the presentation and learner samples only. Dan's call (2026-11-14): don't
+buy it, use a free graded list as FLELex is used for French.
+
+Loaded: the Italian Kelly list (https://ssharoff.github.io/kelly/, `it_m3.xls`), every entry marked A1: 1,013
+entries, 966 words once entries such as "il, lo, la" are split. Licence CC BY-NC-SA 2.0, the same family as FLELex.
+It is in `content-it/a1-list.json` with its source and citation, and ships as `a1_list`.
+
+Coverage after Part 1: 111 of 966 (11%), 110 of them in 3 or more sentences.
+
+Read the number with care. Kelly grades by frequency in a web corpus, so its A1 holds many words no beginner course
+teaches first (articolo, presidente, governo, sistema, progetto, regione) and leaves out everyday ones a syllabus list
+would have. Spanish and German stood at 27% and 25% of their syllabus lists after Part 1; Italian's 11% is mostly the
+list, not the course. A core of the most frequent Kelly words, as French uses the 600 most frequent FLELex words,
+would be a fairer target; that is Dan's call.
+
+`scripts/a1-coverage.mjs` has an Italian entry for the theme sets (numbers, prices, times, days, months, dates).
