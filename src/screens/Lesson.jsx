@@ -46,7 +46,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
   }, [q.qid])
   // Listen first: audio with the French hidden until the answer. A sentence with a new word stays visible,
   // since the word has to be shown to be taught.
-  const hideFrench = useMemo(() => LISTEN_FIRST.has(q.type) && settings.listen_first === 'on' && !cantListen && newWords.size === 0 && !q.notByEar, [q.qid])
+  const hideFrench = useMemo(() => LISTEN_FIRST.has(q.type) && settings.listen_first === 'on' && !cantListen && newWords.size === 0 && !q.notByEar && q.listenFirst !== false, [q.qid])
   // Listen first (Dan, 2026-11-12): the sentence plays once on load; the first tap on the speaker plays it again and
   // brings up Show Words, which shows it. Shown words make the answer a reading one (result.hidden false).
   const [wordsShown, setWordsShown] = useState(false)
@@ -809,7 +809,9 @@ function AnswerBar({ q, result, cantListen, flagReasons, onFlag, onContinue }) {
   // accent marks, or a wrong answer) still shows.
   const same = (a, b) => a != null && b != null && foldAnswer(a) === foldAnswer(b)
   const shown = answerShown && same(result.given, answerShown) && !(result.typo || result.accent) ? null : answerShown
-  const other = q.sentence_id ? (qaAnswer ? qaAnswer.english : q.type === 'QT03' || q.type === 'QT06' ? q.french : q.english) : null
+  const otherLine = q.sentence_id ? (qaAnswer ? qaAnswer.english : q.type === 'QT03' || q.type === 'QT06' ? q.french : q.english) : null
+  // Nor in the second line: Pick What You Heard by meaning shows the sentence heard, not the English picked (2026-11-13).
+  const other = otherLine && same(result.given, otherLine) ? null : otherLine
   const good = result.correct
   // A typo or a missing accent: the letters that differ are marked in the answer shown.
   const marks = (result.typo || result.accent) && result.given ? diffMarks(shown, result.given) : null

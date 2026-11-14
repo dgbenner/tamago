@@ -22,13 +22,14 @@ test('mixes: the workbook mix with far fewer speaking questions, their slots to 
   assert.deepEqual(types(effectiveMix(c, 1)), { QT01: 2, QT02: 2, QT03: 3, QT04: 3 })
   assert.deepEqual(types(effectiveMix(c, 2)), { QT03: 1, QT04: 2, QT05: 2, QT06: 3, QT07: 2 })
   assert.deepEqual(types(effectiveMix(c, 3)), { QT05: 2, QT07: 2, QT08: 3, QT09: 2, QT10: 1 })
-  assert.deepEqual(types(effectiveMix(c, 4)), { QT06: 1, QT07: 1, QT08: 1, QT09: 2, QT11: 2, QT12: 2, QT13: 1 })
-  assert.deepEqual(types(effectiveMix(c, 5)), { QT06: 1, QT09: 3, QT11: 2, QT12: 3, QT13: 1 })
+  // Rounds 4 and 5 also give one Type in French slot to Build in English, for reading (2026-11-13).
+  assert.deepEqual(types(effectiveMix(c, 4)), { QT06: 2, QT07: 1, QT08: 1, QT09: 2, QT11: 2, QT12: 1, QT13: 1 })
+  assert.deepEqual(types(effectiveMix(c, 5)), { QT06: 2, QT09: 3, QT11: 2, QT12: 2, QT13: 1 })
 })
 
 test("Can't speak swaps the speaking types per cant_swaps", () => {
   assert.deepEqual(types(effectiveMix(c, 1, { cantSpeak: true })), { QT01: 2, QT02: 2, QT03: 3, QT04: 3 }) // no speaking left to swap
-  assert.deepEqual(types(effectiveMix(c, 4, { cantSpeak: true })), { QT06: 1, QT07: 1, QT08: 1, QT09: 2, QT11: 2, QT12: 3 })
+  assert.deepEqual(types(effectiveMix(c, 4, { cantSpeak: true })), { QT06: 2, QT07: 1, QT08: 1, QT09: 2, QT11: 2, QT12: 2 })
 })
 
 test('a unit without enough pictures runs word to image on its fallback', () => {

@@ -1,5 +1,14 @@
 // Rule-based answer checking (question-types.md section 7, plus the rulings in CLAUDE.md).
-const CONTRACTIONS = [[/\bi'm\b/g, 'i am'], [/\byou're\b/g, 'you are'], [/\bhe's\b/g, 'he is'], [/\bshe's\b/g, 'she is'], [/\bit's\b/g, 'it is']]
+// English contractions count as their long forms (2026-11-13: more of them, so "You're" and "You are" are one answer, in
+// checking and in keeping two choices from reading alike).
+const CONTRACTIONS = [
+  [/\bi'm\b/g, 'i am'], [/\byou're\b/g, 'you are'], [/\bwe're\b/g, 'we are'], [/\bthey're\b/g, 'they are'],
+  [/\bhe's\b/g, 'he is'], [/\bshe's\b/g, 'she is'], [/\bit's\b/g, 'it is'], [/\bthat's\b/g, 'that is'], [/\bwhat's\b/g, 'what is'],
+  [/\bthere's\b/g, 'there is'], [/\bwhere's\b/g, 'where is'], [/\bwho's\b/g, 'who is'], [/\bhow's\b/g, 'how is'],
+  [/\bi've\b/g, 'i have'], [/\byou've\b/g, 'you have'], [/\bwe've\b/g, 'we have'], [/\bthey've\b/g, 'they have'],
+  [/\b(i|you|he|she|it|we|they) ?'ll\b/g, '$1 will'], [/\bcan't\b/g, 'can not'], [/\bcannot\b/g, 'can not'], [/\bwon't\b/g, 'will not'],
+  [/\b(is|are|was|were|do|does|did|has|have|had|could|should|would|must|need)n't\b/g, '$1 not'],
+]
 
 // Lower case, straight apostrophes, single spaces, and no punctuation or symbols anywhere in the text: commas, periods,
 // question and exclamation marks, quotes, dashes, brackets and the rest, wherever they sit (Dan, 2026-11-11). Only an
@@ -8,6 +17,11 @@ function clean(text) {
   return String(text).normalize('NFC').toLowerCase().replace(/[’ʼ‘`´]/g, "'").replace(/[‐‑]/g, '-')
     .replace(/[^\p{L}\p{M}\p{N}\s'-]/gu, ' ').replace(/'\s+/g, "'")
     .split(/\s+/).map((word) => word.replace(/^['-]+|['-]+$/g, '')).filter(Boolean).join(' ')
+}
+// Two texts that count as the same answer (any reading in common): "You're sick." and "You are sick!" do.
+export function sameAnswer(a, b, lang) {
+  const ra = readings(a, lang).all
+  return readings(b, lang).all.some((r) => ra.includes(r))
 }
 export function normalize(text, lang) {
   let t = clean(text)

@@ -105,3 +105,25 @@ export async function resetProgress() {
     t.onerror = () => reject(t.error)
   })
 }
+
+// Reset This Language (Dan, 2026-11-13): this course back to first use, Start Here included: its progress (above) and
+// its account sync records on this device. Settings, the profile and the other languages stay. The caller reloads.
+export async function resetLanguage() {
+  await resetProgress()
+  try {
+    for (const k of Object.keys(localStorage)) if (k.startsWith(`tamago-sync:${course.id}:`) || k === `tamago-owner:${course.id}`) localStorage.removeItem(k)
+  } catch { /* private mode */ }
+}
+// Reset Everything (Dan, 2026-11-13): every course, settings, sign-in and the offline copy, as a brand-new user. Closes
+// this page's own connection first so the databases can go, then the caller reloads.
+export async function resetEverything(names) {
+  try { (await dbPromise)?.close() } catch { /* not open */ }
+  dbPromise = null
+  const listed = (await indexedDB.databases?.().catch(() => null))?.map((d) => d.name).filter(Boolean) ?? []
+  await Promise.all([...new Set([...names, ...listed])].map((name) => new Promise((resolve) => {
+    const r = indexedDB.deleteDatabase(name); r.onsuccess = r.onerror = r.onblocked = () => resolve()
+  })))
+  try { localStorage.clear(); sessionStorage.clear() } catch { /* private mode */ }
+  try { for (const k of await caches.keys()) await caches.delete(k) } catch { /* no cache storage */ }
+  try { for (const reg of await navigator.serviceWorker.getRegistrations()) await reg.unregister() } catch { /* no workers */ }
+}

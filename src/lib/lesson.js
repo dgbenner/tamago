@@ -1,7 +1,7 @@
 import { a1QuestionFor } from './a1types.js'
 // Builds lessons from content. Pure: no React, no storage, so it runs under node --test.
 // Rule numbers (R01...) refer to the workbook's lesson_rules tab.
-import { normalize } from './check.js'
+import { normalize, sameAnswer } from './check.js'
 import { notByEar } from './by-ear.js'
 
 export const BUILT_TYPES = new Set(['QT01', 'QT02', 'QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT09', 'QT10', 'QT11', 'QT12', 'QT13', 'QT14', 'QT15', 'QT16', 'QT17', 'QT18'])
@@ -73,7 +73,11 @@ export function indexContent(t) {
 // and the ones before it. Sentences and words of QT09 answers from other units come along for lookups.
 export function contentForUnit(t, unitId) {
   const unit = t.units.find((u) => u.unit_id === unitId)
-  const ids = new Set([...t.sentences.filter((s) => s.unit_id === unitId).map((s) => s.sentence_id), ...(unit.borrowed_sentence_ids ?? [])])
+  // A sentence using a word that isn't in the word list (one turned off, like copine) is left out: its meaning can't be
+  // shown, and it can never be met (2026-11-13).
+  const listed = new Set(t.words.map((w) => w.word_id))
+  const unlisted = new Set(t.sentence_words.filter((r) => r.word_id && !listed.has(r.word_id)).map((r) => r.sentence_id))
+  const ids = new Set([...t.sentences.filter((s) => s.unit_id === unitId).map((s) => s.sentence_id), ...(unit.borrowed_sentence_ids ?? [])].filter((id) => !unlisted.has(id)))
   const qa = t.qa_answers.filter((q) => ids.has(q.question_sentence_id))
   const withAnswers = new Set([...ids, ...qa.map((q) => q.answer_sentence_id)])
   // Earlier units, never another topic pack (a pack is one choice among several).
@@ -103,16 +107,28 @@ export const SPEAKING_SHIFT = {
   '1:vocab': { keep: 0, to: 'QT02' }, '2:vocab': { keep: 0, to: 'QT18' }, '3:vocab': { keep: 0, to: 'QT18' }, '4:vocab': { keep: 0, to: 'QT12' }, '5:vocab': { keep: 0, to: 'QT12' },
 }
 const SPEAKING = new Set(['QT10', 'QT13'])
+// Reading in rounds 4 and 5 (2026-11-13: it was 0%): one Type in the language slot becomes Build in English, which is
+// a reading question there (listen-first is off from round 4, LISTEN_FIRST_RATE), so reading is about 20%.
+export const READING_SHIFT = { '4:': { from: 'QT12', to: 'QT06' }, '5:': { from: 'QT12', to: 'QT06' } }
 function mixRows(c, round) {
-  const rows = c.round_type_mix.filter((x) => x.round === round && (x.mix ?? '') === (c.mix ?? ''))
+  let rows = c.round_type_mix.filter((x) => x.round === round && (x.mix ?? '') === (c.mix ?? ''))
   const shift = SPEAKING_SHIFT[`${round}:${c.mix ?? ''}`]
-  if (!shift) return rows
-  return rows.flatMap((m) => {
-    if (!SPEAKING.has(m.type_id)) return [m]
-    const kept = Math.min(shift.keep, m.questions_per_10)
-    return [{ ...m, questions_per_10: kept }, { ...m, type_id: shift.to, questions_per_10: m.questions_per_10 - kept, notes: `from ${m.type_id} (speaking shift)` }]
-  })
+  if (shift) {
+    rows = rows.flatMap((m) => {
+      if (!SPEAKING.has(m.type_id)) return [m]
+      const kept = Math.min(shift.keep, m.questions_per_10)
+      return [{ ...m, questions_per_10: kept }, { ...m, type_id: shift.to, questions_per_10: m.questions_per_10 - kept, notes: `from ${m.type_id} (speaking shift)` }]
+    })
+  }
+  const reading = READING_SHIFT[`${round}:${c.mix ?? ''}`]
+  const from = reading && rows.find((m) => m.type_id === reading.from && m.questions_per_10 >= 2)
+  if (from) rows = [...rows.map((m) => (m === from ? { ...m, questions_per_10: m.questions_per_10 - 1 } : m)), { ...from, type_id: reading.to, questions_per_10: 1, notes: `from ${reading.from} (reading shift)` }]
+  return rows
 }
+// Listen-first (Pick the Meaning and Build in English heard before they're read) on only part of those questions, so
+// listening is about 45% of rounds 1 and 2 and the rest is reading (2026-11-13: it was 56 to 64%); none from round 4,
+// where those questions are the round's reading. The lesson marks each question (q.listenFirst; Lesson.jsx).
+export const LISTEN_FIRST_RATE = { 1: 0.6, 2: 0.3, 3: 1, 4: 0, 5: 0 }
 
 // One entry per question slot, with the workbook type it came from (swapped_from in runtime_schema).
 export function mixSlots(c, round, { cantListen = false, cantSpeak = false } = {}) {
@@ -190,7 +206,7 @@ function similarSentences(c, s, rng, n, pool, usable = () => true) {
   const out = []
   for (const x of [...fromPool, ...rest]) {
     if (out.length >= n) break
-    if (x.english !== s.english && !out.some((o) => o.english === x.english || frenchKey(o) === frenchKey(x))) out.push(x)
+    if (!sameAnswer(x.english, s.english, 'en') && !out.some((o) => sameAnswer(o.english, x.english, 'en') || frenchKey(o) === frenchKey(x))) out.push(x)
   }
   return out
 }
@@ -265,7 +281,9 @@ export function makeQuestion(c, type, s, round, rng, last, { cantListen = false,
     ...(notByEar(s) ? { notByEar: true } : {}), // never listen-first (Lesson.jsx)
   }
   const meaningChoices = () => {
-    const others = similarSentences(c, s, rng, 2, pool, (x) => x.english !== s.english && !answersFor(c, s, 'fr_to_en').includes(x.english))
+    // Never a choice that is also right: not the answer in other words or punctuation, nor any accepted meaning (2026-11-13).
+    const okMeanings = [s.english, ...answersFor(c, s, 'fr_to_en')]
+    const others = similarSentences(c, s, rng, 2, pool, (x) => !okMeanings.some((m) => sameAnswer(x.english, m, 'en')))
     return shuffle([s.english, ...others.map((x) => x.english)], rng)
   }
   if (type === 'QT03') return { ...base, choices: meaningChoices(), answer: s.english, shown: s.english }
@@ -323,12 +341,24 @@ export function makeQuestion(c, type, s, round, rng, last, { cantListen = false,
 // A word gets a native recording when a one-word sentence has one; otherwise browser speech.
 // Word to image (QT02): V0201 shows the French word and three pictures; V0202 the English word and four pictures
 // labelled in French. Only words already met or new in this lesson, and only pictured ones.
+const hintCore = (h) => String(h ?? '').toLowerCase().replace(/\(.*?\)/g, '').replace(/[^\p{L}\p{N}' ]/gu, ' ').replace(/\s+/g, ' ').trim()
+// A cognate reads the same as its meaning (sandwich = sandwich, téléphone = telephone): no pair to match, so Match Pairs
+// leaves it out (2026-11-13).
+const foldWord = (t) => String(t ?? '').toLowerCase().normalize('NFD').replace(/\p{M}/gu, '').replace(/\(.*?\)/g, '').replace(/[^\p{L}' ]/gu, ' ').replace(/\s+/g, ' ').trim()
+export const isCognate = (w) => String(w?.hint ?? '').split(/[,;]/).map(foldWord).includes(foldWord(w?.form))
 export function makeWordImage(c, word, pool, round, rng, last) {
   let variant = variantFor(c, 'QT02', round, rng, last)
   if (variant === 'V0202' && pool.length < 4) variant = 'V0201'
   if (last) last.QT02 = variant
   const n = variant === 'V0202' ? 4 : 3
-  const others = shuffle(pool.filter((w) => w.word_id !== word.word_id && w.hint !== word.hint), rng).slice(0, n - 1)
+  // Every picture and every meaning once (2026-11-13: bleu and bleue share a picture; ami and amie a meaning).
+  const others = []
+  const seenImages = new Set([word.image_file]), seenMeanings = new Set([hintCore(word.hint)])
+  for (const w of shuffle(pool.filter((x) => x.word_id !== word.word_id), rng)) {
+    if (others.length >= n - 1) break
+    if (seenImages.has(w.image_file) || seenMeanings.has(hintCore(w.hint))) continue
+    others.push(w); seenImages.add(w.image_file); seenMeanings.add(hintCore(w.hint))
+  }
   const fileFor = (w) => wordRecordingOf(c, w)
   return {
     qid: `QT02-${word.word_id}-${Math.floor(rng() * 1e9)}`, type: 'QT02', variant, round, skill: c.typeById.get('QT02').skill,
@@ -373,10 +403,26 @@ const leastSeen = (list, idOf, seen, rng) => shuffle(list, rng).sort((a, b) => s
 // In a unit's lessons only the unit's own words are new (R01); words from earlier units are always allowed, since the
 // tree, or placement, has already brought the learner past them.
 const ownWord = (c, id) => !c.unit_id || c.wordById.get(id)?.first_unit === c.unit_id
+// Word order fix (2026-11-13): a word a help circle borrows from a later circle isn't known yet either, so it counts as
+// new, toward the 4, and is introduced on the board like the circle's own; and a sentence using a word that isn't in the
+// word list (one turned off, like copine) is never used, since its meaning can't be shown.
 export function lessonScope(c, known, round) {
-  const newWords = c.wordOrder.filter((id) => ownWord(c, id) && !known.has(id)).slice(0, MAX_NEW_WORDS)
-  const allowed = new Set([...known, ...c.wordOrder.filter((id) => !ownWord(c, id)), ...newWords])
-  const sentences = c.sentences.filter((s) => s.max_round >= round && wordIds(c, s).every((id) => allowed.has(id)))
+  const order = new Map((c.units ?? []).map((u) => [u.unit_id, u.order]))
+  const mine = order.get(c.unit_id) ?? Infinity
+  const listed = (id) => c.wordById.has(id)
+  const toIntroduce = (id) => listed(id) && (ownWord(c, id) || (order.get(c.wordById.get(id).first_unit) ?? Infinity) > mine)
+  // Two new words with one meaning (bleu and bleue) can't share a board, so the second waits for the next lesson.
+  const newWords = []
+  const meanings = new Set()
+  for (const id of c.wordOrder) {
+    if (newWords.length >= MAX_NEW_WORDS) break
+    if (!toIntroduce(id) || known.has(id)) continue
+    const m = hintCore(c.wordById.get(id).hint)
+    if (meanings.has(m)) continue
+    meanings.add(m); newWords.push(id)
+  }
+  const allowed = new Set([...known, ...c.wordOrder.filter((id) => !toIntroduce(id)), ...newWords])
+  const sentences = c.sentences.filter((s) => s.max_round >= round && (c.swBySentence.get(s.sentence_id) ?? []).every((r) => !r.word_id || c.wordById.has(r.word_id)) && wordIds(c, s).every((id) => allowed.has(id)))
   return { newWords, allowed, sentences }
 }
 
@@ -385,7 +431,7 @@ function pickWordSet(c, scope, seenWords, used, rng, first = null) {
   const hints = new Set()
   const take = (list) => {
     for (const w of list) {
-      if (out.length < 5 && !hints.has(w.hint) && !out.includes(w)) { out.push(w); hints.add(w.hint) }
+      if (out.length < 5 && !hints.has(hintCore(w.hint)) && !out.includes(w) && !isCognate(w)) { out.push(w); hints.add(hintCore(w.hint)) }
     }
   }
   if (first && c.wordById.has(first)) take([c.wordById.get(first)])
@@ -510,6 +556,7 @@ export function buildLesson(c, { round, seen = {}, known = new Set(), settings =
   })
 
   for (let k = assigned.length - 1; k >= 0; k--) if (!assigned[k]) assigned.splice(k, 1) // slots nothing could fill
+  for (const q of assigned) if (q.type === 'QT03' || q.type === 'QT06') q.listenFirst = rng() < (LISTEN_FIRST_RATE[round] ?? 1)
   // A1 Complete (2026-11-10): a circle with A1 task items (QT14 to QT17) gives one per lesson, mid-lesson.
   const task = retry ? null : a1QuestionFor(c, unit_id, round, { seen: seen.sentences ?? {}, cantListen: settings.cantListen, rng })
   if (task) assigned.splice(Math.floor(assigned.length / 2), 0, task)

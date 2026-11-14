@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { lessonLogFor, snapshotRows } from '../lib/snapshot.js'
-import { getAll, resetProgress } from '../lib/store.js'
+import { getAll, resetEverything, resetLanguage } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
 import { IconBack } from './icons.jsx'
 import Backup from './Backup.jsx'
@@ -152,19 +152,33 @@ function JumpToPart({ onJumpPart }) {
   )
 }
 
-// Reset Progress (Dan, 2026-11-10): wipes this language's progress on this device, after a confirmation on the page.
-function ResetProgress() {
+// Two resets (Dan, 2026-11-13; Reset Progress before), each asking on the page first.
+//   Reset This Language: this course only, back to first use (Start Here again); other courses and settings stay.
+//   Reset Everything: every course, settings, sign-in and the offline copy; reloads as a brand-new user.
+function ResetButton({ id, label, title, text, confirm, run }) {
   const [asking, setAsking] = useState(false)
   const [busy, setBusy] = useState(false)
-  if (!asking) return <button onClick={() => setAsking(true)} className="btn-secondary">Reset Progress</button>
+  if (!asking) return <button onClick={() => setAsking(true)} className="btn-secondary" data-reset={id}>{label}</button>
   return (
-    <div role="alertdialog" aria-labelledby="reset-h" aria-describedby="reset-d" className="flex flex-col gap-3 rounded-xl border-2 border-wrong p-4">
-      <p id="reset-h" className="font-semibold">Reset {course.name} progress?</p>
-      <p id="reset-d" className="text-sm">This wipes every lesson, score, word met, review item and checkpoint in {course.name} on this device. It can't be undone. Settings, flags and the other languages stay as they are.</p>
+    <div role="alertdialog" aria-labelledby={`${id}-h`} aria-describedby={`${id}-d`} className="flex flex-col gap-3 rounded-xl border-2 border-wrong p-4">
+      <p id={`${id}-h`} className="font-semibold">{title}</p>
+      <p id={`${id}-d`} className="text-sm">{text}</p>
       <div className="flex gap-2">
         <button autoFocus onClick={() => setAsking(false)} className="btn-secondary flex-1">Cancel</button>
-        <button disabled={busy} onClick={async () => { setBusy(true); await resetProgress(); window.location.reload() }} className="btn-submit flex-1">Wipe {course.name} Progress</button>
+        <button disabled={busy} onClick={async () => { setBusy(true); await run() }} className="btn-submit flex-1" data-reset-confirm={id}>{confirm}</button>
       </div>
+    </div>
+  )
+}
+function Resets() {
+  return (
+    <div className="grid gap-2 sm:grid-cols-2">
+      <ResetButton id="reset-language" label="Reset This Language" title={`Reset ${course.name}?`}
+        text={`${course.name} goes back to first use on this device: every lesson, score, word met, review item and checkpoint, and Start Here returns. It can't be undone. Settings, flags and the other languages stay as they are.`}
+        confirm={`Reset ${course.name}`} run={async () => { await resetLanguage(); window.location.replace('/') }} />
+      <ResetButton id="reset-everything" label="Reset Everything" title="Reset everything?"
+        text="Every language's progress, all settings, the sign-in and the offline copy are cleared from this device, and Tamago opens as it does for a brand-new user. It can't be undone."
+        confirm="Reset Everything" run={async () => { await resetEverything([...COURSES.map((c) => c.db), 'tamago-accounts-mock']); window.location.replace('/') }} />
     </div>
   )
 }
@@ -197,7 +211,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
         </div>
         <JumpToPart onJumpPart={onJumpPart} />
         <Backup />
-        <ResetProgress />
+        <Resets />
       </section>
 
       <div className="flex flex-col gap-3">
