@@ -8,7 +8,7 @@ globalThis.sessionStorage = storage()
 globalThis.window = globalThis
 const { createServer } = await import('vite')
 const vite = await createServer({ configFile: false, logLevel: 'silent', appType: 'custom', server: { middlewareMode: true, hmr: false, ws: false }, optimizeDeps: { noDiscovery: true } })
-const { promptFor, SpeakerBubble, ReplyBubble, speakerFor } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
+const { promptFor, SpeakerBubble, ReplyBubble, speakerFor, askedToYou } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
 const { createElement } = await import('react')
 const { renderToStaticMarkup } = await import('react-dom/server')
 test.after(() => vite.close())
@@ -63,4 +63,13 @@ test('a voice tagged Child gets the girl or the boy; an adult voice gets an adul
 
 test('Pick What You Heard shows the speaker\'s picture, with no bubble (Dan, 2026-11-14)', () => {
   assert.match(speakerFor({ type: 'QT04', sentence_id: 'S1', audio: { file: '/audio/x.m4a', speaker: 'Aemines1' } }), /\/male-/)
+})
+
+test('Pick the Meaning shows the speaker only for a question put to the learner (Dan, 2026-11-14)', () => {
+  assert.equal(askedToYou({ french: 'Tu es Paul ?', english: 'Are you Paul?' }), true)
+  assert.equal(askedToYou({ french: '¿Comes pan?', english: 'Do you eat bread?' }), true)
+  assert.equal(askedToYou({ french: 'Wo ist dein Auto?', english: 'Where is your car?' }), true)
+  assert.equal(askedToYou({ french: 'Le livre est ici ?', english: 'Is the book here?' }), false)
+  assert.equal(askedToYou({ french: 'Tu es ici.', english: "You're here." }), false)
+  assert.equal(askedToYou({ french: 'Elles sont ici ?', english: 'Are they here?' }), false)
 })

@@ -296,7 +296,7 @@ export function SpeakerBubble({ children, speaker = null }) {
     </div>
   )
 }
-// Pick What You Heard and Pick the Meaning when heard (Dan, 2026-11-14): the speaker's picture beside the play button, matched to the voice like Answer
+// Pick What You Heard, and Pick the Meaning when it's a question to the learner (Dan, 2026-11-14): the speaker's picture beside the play button, matched to the voice like Answer
 // the Question, ringed and pulsing the same way. No bubble: bubbles stay Answer the Question's.
 function HeardFrom({ q, children }) {
   return (
@@ -405,13 +405,16 @@ function Speak({ q, result, onAnswer, newWords, onHint }) {
   )
 }
 
+// A question put to the learner: it ends as a question and its English says you or your (same for every course).
+export const askedToYou = (q) => /[?¿]/.test(q.french ?? '') && /\byou(r|rs|rself|rselves)?\b/i.test(q.english ?? '')
+
 function PickMeaning({ q, result, onAnswer, newWords, hideFrench, onHint, wordsShown, onShowWords }) {
   const [chosen, setChosen] = useState(null)
   return (
     <>
-      {/* The speaker's picture (Dan, 2026-11-14) when the sentence is heard (listen first; kept after the answer so nothing
-          moves) or is a question ("Le livre est ici ?"), so it reads as someone asking. A plain statement read: none. */}
-      {hideFrench || /[?¿]/.test(q.french)
+      {/* The speaker's picture only for a question put to the learner (Dan, 2026-11-14): a question whose English says
+          you or your ("Tu es Paul ?", not "Le livre est ici ?"). Kept after the answer so nothing moves. */}
+      {askedToYou(q)
         ? <HeardFrom q={q}>{result || !hideFrench
           ? <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>
           : <AudioHelp audio={q.audio} words={<><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>} wordsShown={wordsShown} onShowWords={onShowWords} />}</HeardFrom>
