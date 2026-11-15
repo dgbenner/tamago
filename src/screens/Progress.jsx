@@ -1,5 +1,5 @@
 import { IconBack } from './icons.jsx'
-import { A1_HOURS, paceOf } from '../lib/pace.js'
+import { A1_HOURS, TYPICAL_WEEKLY_HOURS, paceOf } from '../lib/pace.js'
 
 const NAMES = { reading: 'Reading', listening: 'Listening', writing: 'Writing', speaking: 'Speaking' }
 
@@ -8,8 +8,8 @@ const NAMES = { reading: 'Reading', listening: 'Listening', writing: 'Writing', 
 // Total hours of active learning (Dan, 2026-11-15): one decimal, "0.4 hours", "12 hours" from ten up.
 const hours = (ms) => { const h = ms / 3_600_000; const v = h >= 10 ? Math.round(h) : Number(h.toFixed(1)); return `${v} ${v === 1 ? 'hour' : 'hours'}` }
 
-export default function Progress({ coverage, finalCheck, scores, units, canDo, checked, isOpen, progressOf, activeMs = 0, share = 0, onCheck, onExam, onBack }) {
-  const pace = paceOf(activeMs, share)
+export default function Progress({ coverage, finalCheck, scores, units, canDo, checked, isOpen, progressOf, activeMs = 0, startedAt = null, onCheck, onExam, onBack }) {
+  const pace = paceOf(activeMs, startedAt)
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="flex items-center gap-2">
@@ -22,7 +22,7 @@ export default function Progress({ coverage, finalCheck, scores, units, canDo, c
           <h2 id="time-h" className="font-semibold">Time Learning</h2>
           <span data-time-learning className="font-semibold">{hours(activeMs)}</span>
         </div>
-        {/* Pace (Dan, 2026-11-15; src/lib/pace.js): hours against the typical time for A1, the typical band shaded. */}
+        {/* Pace (Dan, 2026-11-15; src/lib/pace.js): hours a week against a typical week; the bar is hours toward A1, the typical band shaded. */}
         {pace && (
           <>
             <div className="relative h-2.5 overflow-hidden rounded-full bg-line" aria-hidden="true">
@@ -30,7 +30,8 @@ export default function Progress({ coverage, finalCheck, scores, units, canDo, c
               <div className="absolute inset-y-0 left-0 rounded-full bg-green" style={{ width: `${Math.max(2, pace.bar * 100)}%` }} />
             </div>
             <p className="text-sm"><span data-pace className="font-medium">{pace.label}</span><span className="text-muted"> · {pace.line}</span></p>
-            <p className="text-xs text-muted">Most learners reach A1 in about {A1_HOURS.low} to {A1_HOURS.high} hours of guided study.</p>
+            {pace.estimate && <p data-pace-estimate className="text-sm">{pace.estimate}</p>}
+            <p className="text-xs text-muted">{pace.weekLine}. A typical pace is about {TYPICAL_WEEKLY_HOURS} a week; most learners reach A1 in {A1_HOURS.low} to {A1_HOURS.high} hours of guided study.</p>
           </>
         )}
       </section>

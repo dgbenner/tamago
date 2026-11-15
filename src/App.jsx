@@ -100,6 +100,9 @@ export default function App() {
   // screen, the page visible, and the learner has tapped, typed or touched in the last minute, so a phone left open on
   // a question stops counting. Shown on Progress as total hours; no nudges or comparisons.
   const activeMs = useRef(0)
+  // When the learner started this course (kv course_started): the first counted lesson time, for Progress's weekly pace.
+  // A learner from before it existed takes the date of their earliest lesson.
+  const courseStarted = useRef(null)
   const [lastLine, setLastLine] = useState(null) // a toast on home: { id, kind: info|success|warning|error, text }
   const toast = (kind, text) => setLastLine({ id: Date.now(), kind, text })
   // Accounts, layer 1 (Dan, 2026-11-11; _source/accounts-spec.md). Optional: the app works the same with no account.
@@ -189,6 +192,11 @@ export default function App() {
       setCatchupSettled(s.kv.catchup_settled ?? {})
       setFinalCheck(s.kv.final_check ?? null)
       activeMs.current = Number(s.kv.active_ms) || 0
+      courseStarted.current = s.kv.course_started ?? null
+      if (!courseStarted.current) getAll('lessons').then((rows) => {
+        const first = rows.map((r) => r.finished_at).filter(Boolean).sort()[0]
+        if (first && !courseStarted.current) { courseStarted.current = first; putKv('course_started', first) }
+      }).catch(() => {})
       applyVariants(s.kv.variant_status ?? {})
       // The first node's choice keeps its old key (topic_choice); later nodes use topic_choice_<node>.
       // A choice counts only while the pack is still at that node (Weather moved to the second node on 2026-11-10).
@@ -309,6 +317,7 @@ export default function App() {
     const tick = setInterval(() => {
       if (document.visibilityState !== 'visible' || Date.now() - last > IDLE) return
       activeMs.current += TICK; unsaved += TICK
+      if (!courseStarted.current) { courseStarted.current = new Date().toISOString(); putKv('course_started', courseStarted.current) }
       if (unsaved >= 30_000) save()
     }, TICK)
     return () => { clearInterval(tick); save(); for (const e of events) window.removeEventListener(e, touch); document.removeEventListener('visibilitychange', onHide) }
@@ -1041,7 +1050,7 @@ export default function App() {
     exam: () => <RealExam onBack={() => setScreen('progress')} />,
     progress: () => {
     const coverage = a1Coverage()
-    return <Progress coverage={coverage} finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf} onExam={() => setScreen('exam')} activeMs={activeMs.current} share={courseShare()}
+    return <Progress coverage={coverage} finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf} onExam={() => setScreen('exam')} activeMs={activeMs.current} startedAt={courseStarted.current}
       onCheck={startCheck} onBack={() => setScreen('home')} />
   },
     make: () => {
@@ -1116,8 +1125,6 @@ export default function App() {
   // A circle's ring (Circle Lab, 2026-11-10): lessons done out of the lessons planned across its five rounds, so it
   // fills the same however many lessons a circle has. A round that runs long never pushes the fill past its share, and
   // the fill never goes back.
-  // How much of the course is done, for Progress's pace: lessons done of all planned, over every circle on the path.
-  const courseShare = () => { const c = mainUnitIds.map(circleOf); const total = c.reduce((t, x) => t + x.total, 0); return total ? c.reduce((t, x) => t + x.done, 0) / total : 0 }
   const circleOf = (unitId) => {
     // Counted at build time (units.lesson_counts): simulating lessons here froze startup for seconds.
     const unit = tables.units.find((u) => u.unit_id === unitId)

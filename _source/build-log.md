@@ -826,3 +826,4 @@ Part 3, Lingua Libre recordings:
 - Answer the Question: a faint Hint link shows how a reply could start; costs nothing, logged as kind reply_start.
 - Checked in Chrome: hint, a flag made from a lesson, Accept, the export file, pace on Progress; import picked up a sample export once and left nothing behind.
 - Circle overview: an info icon above each circle's grammar notebook opens About This Circle (covers, grammar, new words, A1 task, round progress); modal on wide screens, bottom sheet on phones.
+- Pace made time-based (Dan): hours a week since starting against 5 a week; Ahead of pace / On pace / Room to add time; 'At this pace, A1 in about N months'.
