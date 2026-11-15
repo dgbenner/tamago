@@ -31,7 +31,7 @@ try {
   const micLive = () => page.evaluate(() => window.__streams.some((s) => s.getTracks().some((t) => t.readyState === 'live')))
   const sound = () => page.evaluate(() => ({ playing: window.__tamagoAudio.playing(), now: window.__tamagoAudio.now(), outside: window.__tamagoAudio.outside() }))
   await page.goto(url)
-  await page.locator('.splash-choose button').first().click()
+  await page.locator('.splash-choose button[aria-label="French"]').click() // by name: flags are alphabetical, Dutch first
   await page.locator('.splash').waitFor({ state: 'detached' })
   // A speaking question: open rounds 4 and 5 of the first circle until one has Speak and Compare.
   const findSpeak = async () => {
