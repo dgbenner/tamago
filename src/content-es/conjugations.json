@@ -806,6 +806,32 @@
     "source": "https://en.wiktionary.org/wiki/necesitar#Conjugation"
   },
   {
+    "lemma": "ayudar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "ayudo"
+      },
+      {
+        "person": "tú",
+        "form": "ayudas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "ayuda"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "ayudamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "ayudan"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/ayudar#Conjugation"
+  },
+  {
     "lemma": "pedir",
     "present": [
       {
@@ -884,6 +910,32 @@
     "source": "https://en.wiktionary.org/wiki/lavar#Conjugation"
   },
   {
+    "lemma": "bañar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "baño"
+      },
+      {
+        "person": "tú",
+        "form": "bañas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "baña"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "bañamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "bañan"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/ba%C3%B1ar#Conjugation"
+  },
+  {
     "lemma": "conocer",
     "present": [
       {
@@ -910,30 +962,30 @@
     "source": "https://en.wiktionary.org/wiki/conocer#Conjugation"
   },
   {
-    "lemma": "conducir",
+    "lemma": "manejar",
     "present": [
       {
         "person": "yo",
-        "form": "conduzco"
+        "form": "manejo"
       },
       {
         "person": "tú",
-        "form": "conduces"
+        "form": "manejas"
       },
       {
         "person": "él, ella, usted",
-        "form": "conduce"
+        "form": "maneja"
       },
       {
         "person": "nosotros, nosotras",
-        "form": "conducimos"
+        "form": "manejamos"
       },
       {
         "person": "ellos, ellas, ustedes",
-        "form": "conducen"
+        "form": "manejan"
       }
     ],
-    "source": "https://en.wiktionary.org/wiki/conducir#Conjugation"
+    "source": "https://en.wiktionary.org/wiki/manejar#Conjugation"
   },
   {
     "lemma": "vender",
@@ -1014,30 +1066,30 @@
     "source": "https://en.wiktionary.org/wiki/mandar#Conjugation"
   },
   {
-    "lemma": "alquilar",
+    "lemma": "rentar",
     "present": [
       {
         "person": "yo",
-        "form": "alquilo"
+        "form": "rento"
       },
       {
         "person": "tú",
-        "form": "alquilas"
+        "form": "rentas"
       },
       {
         "person": "él, ella, usted",
-        "form": "alquila"
+        "form": "renta"
       },
       {
         "person": "nosotros, nosotras",
-        "form": "alquilamos"
+        "form": "rentamos"
       },
       {
         "person": "ellos, ellas, ustedes",
-        "form": "alquilan"
+        "form": "rentan"
       }
     ],
-    "source": "https://en.wiktionary.org/wiki/alquilar#Conjugation"
+    "source": "https://en.wiktionary.org/wiki/rentar#Conjugation"
   },
   {
     "lemma": "beber",
@@ -2026,6 +2078,32 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/encontrar#Conjugation"
+  },
+  {
+    "lemma": "conducir",
+    "present": [
+      {
+        "person": "yo",
+        "form": "conduzco"
+      },
+      {
+        "person": "tú",
+        "form": "conduces"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "conduce"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "conducimos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "conducen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/conducir#Conjugation"
   },
   {
     "lemma": "dedicar",

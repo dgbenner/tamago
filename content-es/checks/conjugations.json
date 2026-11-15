@@ -681,6 +681,28 @@
       "form": "necesitan"
     }
   ],
+  "ayudar": [
+    {
+      "person": "yo",
+      "form": "ayudo"
+    },
+    {
+      "person": "tú",
+      "form": "ayudas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "ayuda"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "ayudamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "ayudan"
+    }
+  ],
   "pedir": [
     {
       "person": "yo",
@@ -747,6 +769,28 @@
       "form": "lavan"
     }
   ],
+  "bañar": [
+    {
+      "person": "yo",
+      "form": "baño"
+    },
+    {
+      "person": "tú",
+      "form": "bañas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "baña"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "bañamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "bañan"
+    }
+  ],
   "conocer": [
     {
       "person": "yo",
@@ -769,26 +813,26 @@
       "form": "conocen"
     }
   ],
-  "conducir": [
+  "manejar": [
     {
       "person": "yo",
-      "form": "conduzco"
+      "form": "manejo"
     },
     {
       "person": "tú",
-      "form": "conduces"
+      "form": "manejas"
     },
     {
       "person": "él, ella, usted",
-      "form": "conduce"
+      "form": "maneja"
     },
     {
       "person": "nosotros, nosotras",
-      "form": "conducimos"
+      "form": "manejamos"
     },
     {
       "person": "ellos, ellas, ustedes",
-      "form": "conducen"
+      "form": "manejan"
     }
   ],
   "vender": [
@@ -857,26 +901,26 @@
       "form": "mandan"
     }
   ],
-  "alquilar": [
+  "rentar": [
     {
       "person": "yo",
-      "form": "alquilo"
+      "form": "rento"
     },
     {
       "person": "tú",
-      "form": "alquilas"
+      "form": "rentas"
     },
     {
       "person": "él, ella, usted",
-      "form": "alquila"
+      "form": "renta"
     },
     {
       "person": "nosotros, nosotras",
-      "form": "alquilamos"
+      "form": "rentamos"
     },
     {
       "person": "ellos, ellas, ustedes",
-      "form": "alquilan"
+      "form": "rentan"
     }
   ],
   "beber": [
@@ -1713,6 +1757,28 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "encuentran"
+    }
+  ],
+  "conducir": [
+    {
+      "person": "yo",
+      "form": "conduzco"
+    },
+    {
+      "person": "tú",
+      "form": "conduces"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "conduce"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "conducimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "conducen"
     }
   ],
   "dedicar": [

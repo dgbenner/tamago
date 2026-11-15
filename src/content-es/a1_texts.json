@@ -580,8 +580,8 @@
     "kind": "menu",
     "title": "Menú del día",
     "lines": [
-      "Primer plato: sopa o ensalada",
-      "Segundo plato: pollo con arroz o pescado",
+      "Entrada: sopa o ensalada",
+      "Plato fuerte: pollo con arroz o pescado",
       "Postre: fruta",
       "90 pesos"
     ],
@@ -679,7 +679,7 @@
     "title": "Un mensaje de Ana",
     "lines": [
       "Mi casa está cerca de la estación.",
-      "Sigue todo recto y cruza la plaza.",
+      "Sigue derecho y cruza la plaza.",
       "Mi calle está a la derecha, al lado del banco."
     ],
     "questions": [
@@ -711,7 +711,7 @@
     "title": "En la calle",
     "lines": [
       "Museo: a 200 metros, a la izquierda",
-      "Catedral: todo recto",
+      "Catedral: derecho",
       "Estación: a la derecha"
     ],
     "questions": [
@@ -772,9 +772,9 @@
     "id": "R307",
     "unit_id": "U86",
     "kind": "notice",
-    "title": "Se alquila",
+    "title": "Se renta",
     "lines": [
-      "Apartamento en el centro",
+      "Departamento en el centro",
       "Dos habitaciones, sala y terraza",
       "Con garaje",
       "8,000 pesos al mes"
@@ -839,8 +839,8 @@
     "kind": "notice",
     "title": "Habitación",
     "lines": [
-      "Se alquila habitación para estudiante",
-      "Con armario, cama y mesa",
+      "Se renta habitación para estudiante",
+      "Con clóset, cama y mesa",
       "Cerca de la universidad"
     ],
     "questions": [
@@ -935,8 +935,8 @@
     "kind": "notice",
     "title": "La empresa",
     "lines": [
-      "Empresa de transporte busca conductor",
-      "Con carné de conducir",
+      "Empresa de transporte busca chofer",
+      "Con licencia de manejar",
       "Horario: de lunes a viernes"
     ],
     "questions": [

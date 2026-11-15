@@ -155,7 +155,7 @@
   },
   {
     "unit_id": "U54",
-    "rule": "Llevar is the verb for what you wear: llevo gafas, ¿llevas zapatos?, María lleva un vestido. La ropa means clothes and is always singular: ¿Dónde está mi ropa? Pantalones and zapatos come in the plural.",
+    "rule": "Llevar is the verb for what you wear: llevo lentes, ¿llevas zapatos?, María lleva un vestido. La ropa means clothes and is always singular: ¿Dónde está mi ropa? Pantalones and zapatos come in the plural.",
     "example_sentence_ids": "S54101;S54102;S54103",
     "conjugation_lemma": "llevar",
     "status": "live"
@@ -204,8 +204,8 @@
   },
   {
     "unit_id": "U45",
-    "rule": "Vivir is a regular -ir verb: vivo, vives, vive. Where you live takes en: vivo en un apartamento. Cerca de and lejos de say how near or far: vivo lejos de aquí.",
-    "example_sentence_ids": "S45007;S45009;S45012",
+    "rule": "Vivir is a regular -ir verb: vivo, vives, vive. Where you live takes en: vivo en un departamento. Cerca de and lejos de say how near or far: vivo lejos de aquí.",
+    "example_sentence_ids": "S45301;S45009;S45012",
     "conjugation_lemma": "vivir",
     "status": "live"
   },
@@ -386,14 +386,14 @@
   },
   {
     "unit_id": "U81",
-    "rule": "Ordering a drink or a snack. ¿Qué va a tomar? asks what you'll have; tomar means to take and also to have a drink. Quisiera is the polite way to ask: Quisiera un café, I would like a coffee. Hunger and thirst use tener, to have: Tengo hambre, Tengo sed. Otro and otra mean another, with no un or una: otro café, otra cerveza. Algo is something or anything: ¿Algo más? To pay, ask for la cuenta. A waiter is un mesero in most of Latin America and un camarero in Spain. Agua con gas is sparkling water, and sin gas is still.",
+    "rule": "Ordering a drink or a snack. ¿Qué va a tomar? asks what you'll have; tomar means to take and also to have a drink. Quisiera is the polite way to ask: Quisiera un café, I would like a coffee. Hunger and thirst use tener, to have: Tengo hambre, Tengo sed. Otro and otra mean another, with no un or una: otro café, otra cerveza. Algo is something or anything: ¿Algo más? To pay, ask for la cuenta. A waiter is un mesero (un camarero in Spain). Agua con gas is sparkling water, and sin gas is still.",
     "example_sentence_ids": "S81020;S81116;S81112",
     "conjugation_lemma": "tomar",
     "status": "live"
   },
   {
     "unit_id": "U91",
-    "rule": "Things to carry. Llave is key and llaves is keys; nouns ending in a vowel add -s. Muchos means many and pocos means few; both agree with the noun: muchos libros, pocos amigos. Cosas is things. Una tarjeta de crédito is a credit card. Un billete is a banknote: un billete de cien pesos. Spain uses euros and céntimos.",
+    "rule": "Things to carry. Llave is key and llaves is keys; nouns ending in a vowel add -s. Muchos means many and pocos means few; both agree with the noun: muchos libros, pocos amigos. Cosas is things. Una tarjeta de crédito is a credit card. Un billete is a banknote: un billete de cien pesos. Spain uses euros and céntimos; the course counts in pesos.",
     "example_sentence_ids": "S91008;S91011;S91012",
     "conjugation_lemma": "",
     "status": "live"
@@ -402,20 +402,20 @@
     "unit_id": "U26",
     "rule": "Getting someone's attention politely. Disculpe is for a stranger or anyone you call usted; disculpa is for a friend. Necesito is I need, and necesita is he, she or you (usted) need: Necesito ayuda. Ayuda is help, and ayudar is to help. ¿Me puedes ayudar? asks a friend for help; ¿Me puede ayudar? asks a stranger.",
     "example_sentence_ids": "S26002;S26007;S26012",
-    "conjugation_lemma": "necesitar",
+    "conjugation_lemma": "necesitar;ayudar",
     "status": "live"
   },
   {
     "unit_id": "U82",
-    "rule": "A set meal has courses: de primer plato (first course), de segundo (second) and de postre (for dessert). Primero shortens to primer before a masculine noun: el primer día. Pedir is to ask for or to order, and its e changes to i: pido, I order. When food tastes good, use estar with rico or rica: La sopa está muy rica. With ser, rico means rich: Es rico. ¿Qué hay de postre? asks what there is for dessert.",
+    "rule": "A set meal has courses: de entrada (to start), the plato fuerte (main dish) and de postre (for dessert). Spain says de primer plato and de segundo. Primero shortens to primer before a masculine noun: el primer día. Pedir is to ask for or to order, and its e changes to i: pido, I order. When food tastes good, use estar with rico or rica: La sopa está muy rica. With ser, rico means rich: Es rico. ¿Qué hay de postre? asks what there is for dessert.",
     "example_sentence_ids": "S82012;S82102;S82111",
     "conjugation_lemma": "pedir",
     "status": "live"
   },
   {
     "unit_id": "U83",
-    "rule": "Asking the way. A la derecha is to the right and a la izquierda is to the left. Straight ahead is todo recto, or derecho in much of Latin America. Al lado de means next to, and al final de means at the end of; de and el join into del: al lado del banco. Sigue tells one person to keep going and cruza to cross; siga is the usted form. Está a cien metros says how far it is. Acá and allá are common in Latin America for here and there.",
-    "example_sentence_ids": "S83101;S83102;S83109",
+    "rule": "Asking the way. A la derecha is to the right and a la izquierda is to the left. Straight ahead is derecho (todo recto in Spain). Al lado de means next to, and al final de means at the end of; de and el join into del: al lado del banco. Sigue tells one person to keep going and cruza to cross; siga is the usted form. Está a cien metros says how far it is. Acá and allá are common in Latin America for here and there.",
+    "example_sentence_ids": "S83101;S83110;S83109",
     "conjugation_lemma": "seguir",
     "status": "live"
   },
@@ -423,7 +423,7 @@
     "unit_id": "U92",
     "rule": "Verbs for washing and getting ready take a pronoun. In the I form it is me: me lavo, I wash (myself). In the dictionary form it is se, joined to the end: lavarse, bañarse. With parts of the body Spanish says the, not my: Me lavo las manos, I wash my hands. Bañarse is to take a bath, and also to go for a swim: bañarse en el mar.",
     "example_sentence_ids": "S92007;S92102;S92104",
-    "conjugation_lemma": "lavar",
+    "conjugation_lemma": "lavar;bañar",
     "status": "live"
   },
   {
@@ -435,9 +435,9 @@
   },
   {
     "unit_id": "U84",
-    "rule": "How you travel is en: en carro, en bicicleta, en metro. On foot is a pie, and Voy andando means I walk there. To drive is manejar in Latin America and conducir in Spain; both are understood everywhere. Distance takes a: Está a un kilómetro, La playa está a quince kilómetros. Al norte, al sur and al oeste say where something lies; en el norte says where you are.",
+    "rule": "How you travel is en: en carro, en bicicleta, en metro. On foot is a pie, and Voy andando means I walk there. To drive is manejar (conducir in Spain): manejo, maneja. Distance takes a: Está a un kilómetro, La playa está a quince kilómetros. Al norte, al sur and al oeste say where something lies; en el norte says where you are.",
     "example_sentence_ids": "S84010;S84009;S84107",
-    "conjugation_lemma": "conducir",
+    "conjugation_lemma": "manejar",
     "status": "live"
   },
   {
@@ -456,7 +456,7 @@
   },
   {
     "unit_id": "U86",
-    "rule": "Describing a home. Tener says what it has: La casa tiene una terraza. Hay says what there is: ¿Cuántas habitaciones hay en tu casa? Estar says where things are: El sofá está en la sala. Una habitación is a room, and often a bedroom; el dormitorio is the bedroom. The living room is la sala in Latin America and el salón in Spain. Nouns ending in -ón or -ción lose the accent in the plural: habitación, habitaciones.",
+    "rule": "Describing a home. Tener says what it has: La casa tiene una terraza. Hay says what there is: ¿Cuántas habitaciones hay en tu casa? Estar says where things are: El sofá está en la sala. Una habitación is a room; the bedroom is la recámara in Mexico (el dormitorio elsewhere). A closet is un clóset and a bookcase un librero. The living room is la sala (el salón in Spain). Nouns ending in -ón or -ción lose the accent in the plural: habitación, habitaciones.",
     "example_sentence_ids": "S86010;S86103;S86108",
     "conjugation_lemma": "",
     "status": "live"
@@ -498,9 +498,9 @@
   },
   {
     "unit_id": "U95",
-    "rule": "At a hotel. Una habitación doble is a double room and una habitación individual is a single. Quisiera asks politely: Quisiera una habitación doble. Con says what a room comes with: con aire acondicionado, con calefacción. Una reserva is a reservation, and la recepción is the front desk. Alquilar is to rent: Tengo que alquilar un carro. In ads, exterior means facing the street, interior facing inside, and céntrico near the center.",
-    "example_sentence_ids": "S95101;S95002;S95008",
-    "conjugation_lemma": "alquilar",
+    "rule": "At a hotel. Una habitación doble is a double room and una habitación individual is a single. Quisiera asks politely: Quisiera una habitación doble. Con says what a room comes with: con aire acondicionado, con calefacción. Una reserva is a reservation, and la recepción is the front desk. Rentar is to rent (alquilar in Spain): Tengo que rentar un carro. La renta is the rent. In ads, exterior means facing the street, interior facing inside, and céntrico near the center.",
+    "example_sentence_ids": "S95203;S95002;S95302",
+    "conjugation_lemma": "rentar",
     "status": "live"
   }
 ]

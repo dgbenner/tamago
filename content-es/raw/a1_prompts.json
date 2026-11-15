@@ -4,8 +4,8 @@
     "unit_id": "U45",
     "prompt": "Write a short message to a new friend: your name, how old you are and where you live.",
     "points": "your name;your age;where you live",
-    "min_words": 20,
-    "max_words": 35,
+    "min_words": 30,
+    "max_words": 40,
     "status": "draft: written for Tamago, native check",
     "notes": ""
   },
@@ -24,8 +24,8 @@
     "unit_id": "U49",
     "prompt": "Write a short message to a friend: what to buy at the market, and how much of each.",
     "points": "two or three things;how much of each",
-    "min_words": 20,
-    "max_words": 35,
+    "min_words": 30,
+    "max_words": 40,
     "status": "draft: written for Tamago, native check",
     "notes": ""
   },
@@ -34,8 +34,8 @@
     "unit_id": "U62",
     "prompt": "Write a short message to a friend about your week: what you do on two days.",
     "points": "two days;what you do",
-    "min_words": 20,
-    "max_words": 35,
+    "min_words": 30,
+    "max_words": 40,
     "status": "draft: written for Tamago, native check",
     "notes": ""
   },
@@ -44,8 +44,8 @@
     "unit_id": "U64",
     "prompt": "Write a short message to invite a friend out: what, which day and what time.",
     "points": "what;which day;what time",
-    "min_words": 20,
-    "max_words": 35,
+    "min_words": 30,
+    "max_words": 40,
     "status": "draft: written for Tamago, native check",
     "notes": ""
   },
@@ -54,7 +54,7 @@
     "unit_id": "U65",
     "prompt": "Write a few lines about your day: when you get up, work and have dinner.",
     "points": "when you get up;when you work;when you have dinner",
-    "min_words": 25,
+    "min_words": 30,
     "max_words": 40,
     "status": "draft: written for Tamago, native check",
     "notes": ""
@@ -64,7 +64,7 @@
     "unit_id": "U85",
     "prompt": "Write a few lines about your family: who they are and what they are like.",
     "points": "who is in your family;what they are like",
-    "min_words": 25,
+    "min_words": 30,
     "max_words": 40,
     "status": "draft: written for Tamago, native check",
     "notes": ""
@@ -74,7 +74,7 @@
     "unit_id": "U86",
     "prompt": "Write a short message about your home: where it is and which rooms it has.",
     "points": "where it is;which rooms it has",
-    "min_words": 25,
+    "min_words": 30,
     "max_words": 40,
     "status": "draft: written for Tamago, native check",
     "notes": ""

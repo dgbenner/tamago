@@ -100,3 +100,53 @@ Message prompts.
 `test/lesson.test.js` and `test/choices.test.js` now take many minutes with two more parts in each of two courses
 (a full `npm test` ran about 30 minutes on this machine while builds were running beside it). Nothing fails; the
 tests walk every lesson of every course. Worth a look before the pre-push hook depends on them.
+
+## 7. After Fable's reviews (2026-11-15)
+
+Fable's reviews of Spanish Parts 3 and 4 are applied on this branch. Three things in them need app code:
+
+- **A verb form whose table would mislead.** The Glossary shows a present-tense table for any word that is a Verb
+  whose lemma has one (`src/App.jsx` `tableOf`). Spanish quisiera (lemma querer) and German hätte, möchten and war
+  never appear in those tables. Their hints now carry the short note ("I would like (a fixed polite form of
+  querer)"), but hiding the table needs a flag the content can set, for example `no_table` on the word, read by
+  `tableOf`. Content alone can't do it: the lemma comes from Wiktionary's form-of line.
+- **Type the Word and regional alternates.** The Spain wording of a sentence is an accepted answer wherever the
+  Mexican word is taught (review-decisions `accepted_additions`, direction en_to_fr, each with a keep ruling). Type
+  the Word (QT18) checks a single word and has no such list, so a learner who types coche for car is marked wrong.
+  A per-word `also` list would cover it.
+- **Reflexive verbs.** lavarse, bañarse, dedicarse, llamarse, levantarse and ducharse have no table of their own;
+  the tables shown are lavar, bañar and so on without the pronouns. A table with me, te, se would need the reader
+  and the Verbs screen to carry the pronoun.
+
+Spanish coverage after the switch to Mexican words: 479 of 534 PCIC words (90%), from 500 (94%). The PCIC list is
+Spain's, so each word the course now teaches in its Mexican form (carro, lentes, departamento, mesero, bolsa,
+manejar, rentar, credencial, timbre, recámara, clóset, librero, borrador, pizarrón, tarea, básquetbol, café for
+brown, derecho) no longer counts for its Spain twin. `scripts/a1-coverage.mjs` could count a list word as taught
+when its regional twin is (an alias map, as German and French have); that is a measuring choice for Dan.
+
+Workbooks: Spanish is now v11. v8 and v9 come from the part configs, v10 from `scripts/review/es-part3.mjs`
+(carro for coche) and v11 from `scripts/review/es-part4.mjs` (departamento, lentes, prompts at 30 to 40 words).
+
+## 8. German after Fable's reviews (2026-11-15)
+
+Fable's reviews of German Parts 3 and 4 are applied on this branch. What they leave for the app:
+
+- **The Goethe speaking round.** Sprechen Teil 1 ends with spelling a word and saying a number. The speaking paper in
+  the proposed `FORMATS.de` is three QT13 lines; to mirror the exam, the last should be two short ungraded prompts:
+  "Spell your family name" (German teaches this in U34 Spelling It Out: Wie schreibt man das?, buchstabieren,
+  Buchstabe) and "Say your phone number" or a number from an a1_listen item (15 number and 3 phone items; U42 Phone
+  Numbers, U44 Numbers to 100). No question type does this today; it needs a small speaking prompt type or a fixed
+  pair of prompts in `finalcheck.js`. Until then the round is three spoken lines.
+- **hätte, möchten, war** (and Spanish quisiera): see section 7. A rule that would work without a flag: show no table
+  when the word's form is not in its lemma's present table (separable forms such as stehe / stehe auf need a looser
+  match).
+- **Which verbs get a table.** `scripts/check-content.mjs` `verbLemmas` takes an infinitive only when it ends in
+  -er, -ir or -re, which fits French and skips German -en and Spanish -ar infinitives. On this branch the missing
+  verbs were added through each circle's `conjugation_lemma` (72 German verbs, a dozen Spanish ones), so every one
+  has a table, but a grammar note now shows every table of its circle: German U69 Instructions shows 13 and U73
+  shows 8. Widening that test (any infinitive the course teaches) would let the lists come back out of the notes.
+- **German conjugation reader.** `german()` in `scripts/lib/conjugation.mjs` now reads the verb page's own template.
+  A page that opens with `==German==` has no line break before the heading, the shared reader missed the section
+  and fell back to a bare template that guesses regular forms (nehmst, nehmt). Other languages' readers may have
+  the same blind spot for a page whose first section is theirs.
+- Gleis: Wiktionary has "(individual) track" and no "platform" sense; the hint says "platform, track (Gleis 3)".

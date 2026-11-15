@@ -115,10 +115,10 @@ const items = {
         { key: 'country', label: 'Land', rule: 'text', answer: 'Deutschland' }, { key: 'status', label: 'Familienstand', rule: 'text', answer: 'verheiratet' }] },
     { id: 'F302', unit_id: 'U88', card: 'Guten Tag, mein Name ist Peter Weber. Ich möchte ein Einzelzimmer für zwei Nächte, vom zehnten bis zum zwölften Mai. Meine Nummer ist null, sechs, elf, fünfzehn, neunzehn, zwanzig.',
       fields: [{ key: 'last', label: 'Name', rule: 'text', answer: 'Weber' }, { key: 'room', label: 'Zimmer', rule: 'text', answer: 'Einzelzimmer', also: ['ein Einzelzimmer', 'einzelzimmer'] }, { key: 'nights', label: 'Nächte', rule: 'number', answer: '2' },
-        { key: 'from', label: 'Ankunft', rule: 'text', answer: '10. Mai', also: ['10.5.', '10.05.', '10/5', 'zehnter Mai', '10 Mai', 'am 10. Mai'] }, { key: 'tel', label: 'Telefon', rule: 'phone', answer: '06 11 15 19 20' }] },
+        { key: 'from', label: 'Ankunft', rule: 'text', answer: '10. Mai', also: ['10.5.', '10.5', '10.05.', '10.05', '10/5', 'zehnter Mai', 'zehnten Mai', 'vom zehnten Mai', '10 Mai', 'am 10. Mai'] }, { key: 'tel', label: 'Telefon', rule: 'phone', answer: '06 11 15 19 20' }] },
     { id: 'F303', unit_id: 'U82', card: 'Ich möchte einen Tisch für vier Personen bestellen, am Samstag um acht Uhr abends. Mein Name ist Anna Becker.',
       fields: [{ key: 'name', label: 'Name', rule: 'text', answer: 'Becker', also: ['Anna Becker'] }, { key: 'people', label: 'Personen', rule: 'number', answer: '4' }, { key: 'day', label: 'Tag', rule: 'text', answer: 'Samstag', also: ['samstag', 'am Samstag'] },
-        { key: 'time', label: 'Uhrzeit', rule: 'text', answer: '20 Uhr', also: ['20:00', '20.00', '8 Uhr', '8:00', 'acht Uhr', '20:00 Uhr', '20'] }] },
+        { key: 'time', label: 'Uhrzeit', rule: 'text', answer: '20 Uhr', also: ['20:00', '20.00', '20:00 Uhr', '20.00 Uhr', '20', '8 Uhr', '8:00', '8.00', '8', 'acht Uhr', 'um acht Uhr', 'acht', '8 Uhr abends', 'acht Uhr abends'] }] },
   ].map((f) => ({ id: f.id, unit_id: f.unit_id, card: f.card, fields_json: JSON.stringify(f.fields), status: DRAFT, notes: '' })),
   a1_texts: texts.map((t) => ({ id: t.id, unit_id: t.unit_id, kind: t.kind, title: t.title, lines: t.lines.join('\n'), questions_json: JSON.stringify(t.questions), source: 'written for Tamago', status: DRAFT, notes: '' })),
   a1_prompts: [

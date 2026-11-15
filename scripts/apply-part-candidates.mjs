@@ -42,7 +42,7 @@ const swaps = new Map()
 for (const line of readFileSync(join(ROOT, CHECK), 'utf8').split('\n')) {
   const cells = line.split(' | ').map((c) => c.replace(/^\| ?|\s*\|$/g, '').trim())
   if (!/^S\d+$/.test(cells[0] ?? '')) continue
-  const sw = cells[4]?.match(/Swap: #(\d+)/); if (!sw) continue
+  const sw = cells[4]?.match(/Swap(?::| for) #(\d+)/); if (!sw) continue
   const c = cands.get(sw[1]); if (!c) throw new Error(`${cells[0]}: swap #${sw[1]} is not in ${CAND}`)
   // An English named in the swap note ("show \"…\"") wins over the candidate's.
   const show = cells[4].match(/show "([^"]+)"/)?.[1]

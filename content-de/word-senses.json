@@ -1823,7 +1823,8 @@
   },
   "W1310": {
     "pos": "Noun",
-    "match": "track"
+    "match": "(individual) track",
+    "note": "Fable's review, 2026-11-15: Gleis 3 is a platform or track, not a railway"
   },
   "W1311": {
     "pos": "Noun"
@@ -2453,7 +2454,10 @@
     "pos": "Noun"
   },
   "W1679": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "bathroom",
+    "exact": true,
+    "note": "Fable's review, 2026-11-15"
   },
   "W1680": {
     "pos": "Noun"

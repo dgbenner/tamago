@@ -48,13 +48,28 @@ async function spanish(lemma) {
 }
 
 async function german(lemma) {
-  const rows = tableRows(await render(lemma, await pageTemplate(lemma, 'de-conj')))
+  // The page's own template, read here because a page that opens with ==German== has no line break before the
+  // heading and the shared reader then misses the section and falls back to the bare template, which guesses regular
+  // forms (nehmen came out as nehmst, nehmt; Fable, 2026-11-15).
+  const r = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${encodeURIComponent(lemma)}&prop=wikitext&format=json`)
+  const section = ('\n' + (r?.parse?.wikitext?.['*'] ?? '')).split(/\n==(?!=)/).find((s) => s.startsWith(`${C.wiktionarySection}==`)) ?? ''
+  const template = section.match(/\{\{de-conj(?:\|[^{}]*)?\}\}/)?.[0]
+  if (!template) return null
+  const rows = tableRows(await render(lemma, template))
   // present: [present, ich …, wir …, i, ich … (subjunctive)], then [du …, ihr …, …], then [er …, sie …, …].
   const at = rows.findIndex((r) => r[0] === 'present' && /^ich /.test(r[1] ?? ''))
   if (at < 0) return null
   const [a, b, c] = [rows[at].slice(1, 3), rows[at + 1]?.slice(0, 2), rows[at + 2]?.slice(0, 2)]
   if (!b || !c) return null
-  const strip = (cell, pronoun) => (cell?.startsWith(pronoun + ' ') ? cell.slice(pronoun.length + 1).replace(/\s+\d+$/, '').trim() : '')
+  // A cell may list alternatives, each with its pronoun (du duschst du duscht; ich daure ich dauere ich dauer): keep
+  // one, the longest that keeps the verb's whole stem (duschst, dauere), else the first.
+  const stem = lemma.replace(/e?n$/, '')
+  const strip = (cell, pronoun) => {
+    if (!cell?.startsWith(pronoun + ' ')) return ''
+    const alts = cell.split(new RegExp(`(?:^|\\s)${pronoun}\\s`)).map((x) => x.replace(/\s+\d+$/, '').trim()).filter(Boolean)
+    const whole = alts.filter((x) => x.split(' ')[0].startsWith(stem)).sort((x, y) => y.length - x.length)
+    return whole[0] ?? alts[0] ?? ''
+  }
   const out = [['ich', a[0], 'ich'], ['du', b[0], 'du'], ['er, sie, es', c[0], 'er'], ['wir', a[1], 'wir'], ['ihr', b[1], 'ihr'], ['sie, Sie', c[1], 'sie']]
     .map(([person, cell, p]) => ({ person, form: strip(cell, p) }))
   return out.every((x) => x.form && !/[{}]/.test(x.form)) ? out : null
