@@ -4,6 +4,8 @@ Updated November 15, 2026. **French A1 is complete: Parts 5 and 6 are built and 
 
 ## Done since last check-in
 
+- **Spanish and German A1 complete and merged:** Parts 3 and 4 live in both, mock DELE A1 and mock Goethe A1 after Part 4 (Goethe speaking ends with a spelled name and a number), no table for quisiera or hätte, grammar notes back to their own verbs, Spanish coverage 90% as written and 94% with Mexican twins.
+
 - **Conversation partner, version 2 (all courses):** five A1 task scenes from your words, lines heard first at natural speed with the text hidden, voice by default, a quiet answer-time ring, four help phrases, 6 to 8 exchanges, and a summary (answer time and change, help used, 2 or 3 gentle corrections). 5 conversations a day per device.
 
 - **Improvements batch (all courses):** verb-form hints, clearer device voices, progress line on the opening screen, Ready for the Real Exam?, Time Learning on Progress, compact phone tools, Voice Lab per-file tags.

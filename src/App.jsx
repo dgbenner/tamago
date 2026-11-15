@@ -33,6 +33,7 @@ import { bringDevice, saveSoon, settleSync, startFresh, syncCourse, useAuth } fr
 import ProgressChoice from './screens/ProgressChoice.jsx'
 import DeviceElsewhere from './screens/DeviceElsewhere.jsx'
 import { SCENES, TASK_SCENES, sceneFit } from './lib/converse.js'
+import { tableFor } from './lib/word-hints.js'
 import { makeA1Question } from './lib/a1types.js'
 import { A1_SAMPLES } from './dev/a1-samples.js'
 import { firstCircleMarker } from './screens/CircleNode.jsx'
@@ -553,7 +554,7 @@ export default function App() {
     return rs.length ? rs.reduce((a, b) => a + b, 0) / rs.length : null
   }
   const examplesOf = (wordId) => [...new Set(sentencesWith(wordId))].map((id) => allContent.sentenceById.get(id)).filter(Boolean).slice(0, 3)
-  const tableOf = (w) => (w.part_of_speech === 'Verb' ? tables.conjugations.find((t) => t.lemma === w.lemma) : null)
+  const tableOf = (w) => tableFor(w, tables.conjugations) // no table for a form its verb's present never shows (quisiera, hätte)
   const startMatch = () => {
     const pool = metWords().sort((a, b) => (recallOf(a.word_id) ?? 1) - (recallOf(b.word_id) ?? 1))
     const words = []

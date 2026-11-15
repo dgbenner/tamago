@@ -395,50 +395,6 @@
       "form": "vuelven"
     }
   ],
-  "cenar": [
-    {
-      "person": "yo",
-      "form": "ceno"
-    },
-    {
-      "person": "tú",
-      "form": "cenas"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "cena"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "cenamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "cenan"
-    }
-  ],
-  "desayunar": [
-    {
-      "person": "yo",
-      "form": "desayuno"
-    },
-    {
-      "person": "tú",
-      "form": "desayunas"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "desayuna"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "desayunamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "desayunan"
-    }
-  ],
   "correr": [
     {
       "person": "yo",
@@ -459,28 +415,6 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "corren"
-    }
-  ],
-  "esquiar": [
-    {
-      "person": "yo",
-      "form": "esquío"
-    },
-    {
-      "person": "tú",
-      "form": "esquías"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "esquía"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "esquiamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "esquían"
     }
   ],
   "cerrar": [
@@ -549,94 +483,6 @@
       "form": "creen"
     }
   ],
-  "entrar": [
-    {
-      "person": "yo",
-      "form": "entro"
-    },
-    {
-      "person": "tú",
-      "form": "entras"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "entra"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "entramos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "entran"
-    }
-  ],
-  "practicar": [
-    {
-      "person": "yo",
-      "form": "practico"
-    },
-    {
-      "person": "tú",
-      "form": "practicas"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "practica"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "practicamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "practican"
-    }
-  ],
-  "cambiar": [
-    {
-      "person": "yo",
-      "form": "cambio"
-    },
-    {
-      "person": "tú",
-      "form": "cambias"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "cambia"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "cambiamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "cambian"
-    }
-  ],
-  "visitar": [
-    {
-      "person": "yo",
-      "form": "visito"
-    },
-    {
-      "person": "tú",
-      "form": "visitas"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "visita"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "visitamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "visitan"
-    }
-  ],
   "tomar": [
     {
       "person": "yo",
@@ -679,28 +525,6 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "necesitan"
-    }
-  ],
-  "ayudar": [
-    {
-      "person": "yo",
-      "form": "ayudo"
-    },
-    {
-      "person": "tú",
-      "form": "ayudas"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "ayuda"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "ayudamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "ayudan"
     }
   ],
   "pedir": [
@@ -813,28 +637,6 @@
       "form": "conocen"
     }
   ],
-  "manejar": [
-    {
-      "person": "yo",
-      "form": "manejo"
-    },
-    {
-      "person": "tú",
-      "form": "manejas"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "maneja"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "manejamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "manejan"
-    }
-  ],
   "vender": [
     {
       "person": "yo",
@@ -899,28 +701,6 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "mandan"
-    }
-  ],
-  "rentar": [
-    {
-      "person": "yo",
-      "form": "rento"
-    },
-    {
-      "person": "tú",
-      "form": "rentas"
-    },
-    {
-      "person": "él, ella, usted",
-      "form": "renta"
-    },
-    {
-      "person": "nosotros, nosotras",
-      "form": "rentamos"
-    },
-    {
-      "person": "ellos, ellas, ustedes",
-      "form": "rentan"
     }
   ],
   "beber": [
@@ -1209,6 +989,50 @@
       "form": "sirven"
     }
   ],
+  "bailar": [
+    {
+      "person": "yo",
+      "form": "bailo"
+    },
+    {
+      "person": "tú",
+      "form": "bailas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "baila"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "bailamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "bailan"
+    }
+  ],
+  "nadar": [
+    {
+      "person": "yo",
+      "form": "nado"
+    },
+    {
+      "person": "tú",
+      "form": "nadas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "nada"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "nadamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "nadan"
+    }
+  ],
   "jugar": [
     {
       "person": "yo",
@@ -1275,6 +1099,28 @@
       "form": "escriben"
     }
   ],
+  "deletrear": [
+    {
+      "person": "yo",
+      "form": "deletreo"
+    },
+    {
+      "person": "tú",
+      "form": "deletreas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "deletrea"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "deletreamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "deletrean"
+    }
+  ],
   "esperar": [
     {
       "person": "yo",
@@ -1339,6 +1185,28 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "comprenden"
+    }
+  ],
+  "pagar": [
+    {
+      "person": "yo",
+      "form": "pago"
+    },
+    {
+      "person": "tú",
+      "form": "pagas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "paga"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "pagamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "pagan"
     }
   ],
   "aprender": [
@@ -1517,6 +1385,50 @@
       "form": "duchan"
     }
   ],
+  "desayunar": [
+    {
+      "person": "yo",
+      "form": "desayuno"
+    },
+    {
+      "person": "tú",
+      "form": "desayunas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "desayuna"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "desayunamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "desayunan"
+    }
+  ],
+  "cenar": [
+    {
+      "person": "yo",
+      "form": "ceno"
+    },
+    {
+      "person": "tú",
+      "form": "cenas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "cena"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "cenamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "cenan"
+    }
+  ],
   "empezar": [
     {
       "person": "yo",
@@ -1603,6 +1515,72 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "viajan"
+    }
+  ],
+  "entrar": [
+    {
+      "person": "yo",
+      "form": "entro"
+    },
+    {
+      "person": "tú",
+      "form": "entras"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "entra"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "entramos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "entran"
+    }
+  ],
+  "practicar": [
+    {
+      "person": "yo",
+      "form": "practico"
+    },
+    {
+      "person": "tú",
+      "form": "practicas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "practica"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "practicamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "practican"
+    }
+  ],
+  "cambiar": [
+    {
+      "person": "yo",
+      "form": "cambio"
+    },
+    {
+      "person": "tú",
+      "form": "cambias"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "cambia"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "cambiamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "cambian"
     }
   ],
   "mirar": [
@@ -1715,6 +1693,72 @@
       "form": "—"
     }
   ],
+  "esquiar": [
+    {
+      "person": "yo",
+      "form": "esquío"
+    },
+    {
+      "person": "tú",
+      "form": "esquías"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "esquía"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "esquiamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "esquían"
+    }
+  ],
+  "visitar": [
+    {
+      "person": "yo",
+      "form": "visito"
+    },
+    {
+      "person": "tú",
+      "form": "visitas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "visita"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "visitamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "visitan"
+    }
+  ],
+  "ayudar": [
+    {
+      "person": "yo",
+      "form": "ayudo"
+    },
+    {
+      "person": "tú",
+      "form": "ayudas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "ayuda"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "ayudamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "ayudan"
+    }
+  ],
   "cruzar": [
     {
       "person": "yo",
@@ -1779,6 +1823,28 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "conducen"
+    }
+  ],
+  "manejar": [
+    {
+      "person": "yo",
+      "form": "manejo"
+    },
+    {
+      "person": "tú",
+      "form": "manejas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "maneja"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "manejamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "manejan"
     }
   ],
   "dedicar": [
@@ -1889,6 +1955,50 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "reciben"
+    }
+  ],
+  "alquilar": [
+    {
+      "person": "yo",
+      "form": "alquilo"
+    },
+    {
+      "person": "tú",
+      "form": "alquilas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "alquila"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "alquilamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "alquilan"
+    }
+  ],
+  "rentar": [
+    {
+      "person": "yo",
+      "form": "rento"
+    },
+    {
+      "person": "tú",
+      "form": "rentas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "renta"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "rentamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "rentan"
     }
   ]
 }

@@ -846,3 +846,12 @@ Part 3, Lingua Libre recordings:
 - 6 to 8 exchanges (server told to wrap up from 6, close at 8). Summary: average answer time and the change since last time, help phrases used, 2 or 3 gentle corrections, new words.
 - Cost guard: Haiku 5.5, 5 conversations a day per device, the monthly limit said plainly.
 - Checked in Chrome (iPhone size) against a mocked endpoint: scenes, hidden text, ring, help row, spell reply shown, 8 exchanges, summary.
+
+## 2026-11-15: Spanish and German A1 Parts 3 and 4 merged (Builder 2's branch content/es-de-a1)
+
+- Merged into main with the framework needs from _review/es-de-framework-needs.md.
+- Mock DELE A1 (reading first) and mock Goethe-Zertifikat A1 at the end of Part 4; the Goethe speaking round ends with spelling your name and saying a number (two ungraded prompts, model after Done).
+- Glossary: no verb table for a form its verb's present never shows (quisiera, hätte, möchten, war); the note stays.
+- check-content tables every taught infinitive; 82 extra verbs taken back out of grammar notes (10 Spanish, 72 German), no table lost (Spanish 91, German 144), at most 2 tables in a note (German U69 had 13).
+- Spanish coverage with regional twins: 479 of 534 (90%) as written, 500 (94%) counting each Mexican word for its Spain twin; main path 461 and 482. German 572 of 627 (91%).
+- Word audit: Spanish 0 early and 0 over 4 (3,007 lessons), German 0 and 0 (3,155). Audits no longer write spreadsheets unless asked.

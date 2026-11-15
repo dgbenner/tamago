@@ -30,12 +30,21 @@ const ELIDED = { fr: { "j'": 'je', "l'": 'le', "s'": 'se', "m'": 'me', "t'": 'te
   de: { andere: 'ander', anderen: 'ander', jeden: 'jed', jede: 'jed', diese: 'dies', dieser: 'dies', dieses: 'dies', letzte: 'letzt', letzten: 'letzt', nächste: 'nächst', nächsten: 'nächst',
     beste: 'best', besten: 'best', alle: 'all', welche: 'welch', meisten: 'meist', weh: 'weh tun', rad: 'rad fahren', kümmern: 'sich kümmern' } }[COURSE] ?? {}
 for (const w of t.words) { const k = ELIDED[fold(w.form)]; if (k) (byKey.get(k) ?? byKey.set(k, []).get(k)).push(w) }
+// Regional twins (Dan, 2026-11-15): Spanish is Mexican-standard and the PCIC list is Spain's, so a Mexican word the
+// course teaches counts for its Spain headword. Both numbers are reported: the list as written, and with the twins.
+const REGIONAL = { es: { carro: 'coche', lentes: 'gafas', departamento: 'apartamento', mesero: 'camarero', bolsa: 'bolso', manejar: 'conducir', maneja: 'conducir',
+  rentar: 'alquilar', renta: 'alquilar', credencial: 'carné', licencia: 'carné', timbre: 'sello', recámara: 'dormitorio', clóset: 'armario', librero: 'estantería',
+  borrador: 'goma', pizarrón: 'pizarra', tarea: 'deberes', básquetbol: 'baloncesto', café: 'marrón', cafés: 'marrón', derecho: 'recto', guion: 'guión', video: 'vídeo',
+  piso: 'planta', sala: 'salón' } }[COURSE] ?? {}
+const byKeyTwins = new Map([...byKey].map(([k, v]) => [k, [...v]]))
+for (const w of t.words) { const k = REGIONAL[fold(w.form)]; if (k) (byKeyTwins.get(k) ?? byKeyTwins.set(k, []).get(k)).push(w) }
+const hasTwins = Object.keys(REGIONAL).length > 0
 
-function measure(words, { pathOnly = false } = {}) {
+function measure(words, { pathOnly = false, keys = byKey } = {}) {
   let taught = 0, covered = 0
   const missing = [], thin = []
   for (const head of words) {
-    const ws = (byKey.get(fold(head)) ?? []).filter((w) => !pathOnly || kind.get(w.first_unit) === 'path')
+    const ws = (keys.get(fold(head)) ?? []).filter((w) => !pathOnly || kind.get(w.first_unit) === 'path')
     if (!ws.length) { missing.push(head); continue }
     taught++
     const n = new Set(ws.flatMap((w) => [...(sentencesOf.get(w.word_id) ?? [])])).size
@@ -96,6 +105,10 @@ if (list) {
   console.log(`A1 list: ${list.words.length} words (${list.source.split(',')[0]})`)
   console.log(`  taught anywhere: ${all.taught} (${pct(all.taught, all.total)}); in 3+ sentences: ${all.covered} (${pct(all.covered, all.total)})`)
   console.log(`  main path only (units and help circles): taught ${path.taught} (${pct(path.taught, path.total)}); in 3+ sentences: ${path.covered} (${pct(path.covered, path.total)})`)
+  if (hasTwins) {
+    const tw = measure(list.words, { keys: byKeyTwins }), twPath = measure(list.words, { pathOnly: true, keys: byKeyTwins })
+    console.log(`  with regional twins (a Mexican word counts for its Spain headword): taught ${tw.taught} (${pct(tw.taught, tw.total)}); in 3+ sentences ${tw.covered} (${pct(tw.covered, tw.total)}); main path ${twPath.taught} (${pct(twPath.taught, twPath.total)})`)
+  }
   // French core target (Dan, 2026-11-10): the list's 600 most frequent A1 words; the full list is the stretch goal.
   if (list.core) {
     const core = measure(list.core), corePath = measure(list.core, { pathOnly: true })

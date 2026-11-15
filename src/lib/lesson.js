@@ -669,6 +669,13 @@ export function buildSession(c, kind, items, { settings = {}, rng = Math.random,
   const queue = items.flatMap((it) => {
     // An A1 task item (the mock DELF A1, finalcheck.js): its own question, read instead when listening is off.
     if (it.a1) return [{ ...makeA1Question(it.type, it.a1, it.round, { cantListen: settings.cantListen, rng }), unit_id: it.unit_id, ...(it.part ? { part: it.part } : {}) }]
+    // A speaking prompt with no sentence (the Goethe round's spelled name and number): said from memory, never graded,
+    // the model shown after Done (Speak's V1302).
+    if (it.prompt) {
+      const p = it.prompt
+      return [{ qid: `QT13-${p.id}-${Math.floor(rng() * 1e9)}`, type: 'QT13', variant: 'V1302', round: it.round, skill: 'speaking', speaking: true, native: false,
+        prompt: p.kind, item_id: p.id, english: p.english, french: p.model, shown: p.model, segments: [{ text: p.model }], audio: { french: p.model }, unit_id: it.unit_id, ...(it.part ? { part: it.part } : {}) }]
+    }
     const s = c.sentenceById.get(it.sentence_id)
     if (!s) return []
     let type = it.type

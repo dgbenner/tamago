@@ -440,7 +440,9 @@ save('generated_answers', generatedAnswers)
 
 // Conjugation tables for the grammar notes, read from Wiktionary.
 // Every verb lemma in the course (for the conjugation trainer), plus the grammar notes' lemmas.
-const verbLemmas = wordChecks.filter((w) => w.status === 'checked' && w.part_of_speech === 'Verb' && w.lemma && w.lemma !== w.form || (w.part_of_speech === 'Verb' && /er$|ir$|re$/.test(w.lemma))).map((w) => w.lemma)
+// Every infinitive the course teaches gets a table (Dan, 2026-11-15): -ar for Spanish and Portuguese, -en and -n for
+// German, beside -er, -ir and -re; grammar notes name only the verbs they teach (conjugation_lemma).
+const verbLemmas = wordChecks.filter((w) => w.status === 'checked' && w.part_of_speech === 'Verb' && w.lemma && w.lemma !== w.form || (w.part_of_speech === 'Verb' && /er$|ir$|ír$|re$|ar$|n$/.test(w.lemma))).map((w) => w.lemma)
 const lemmas = [...new Set([...(raw('grammar_notes') ?? []).flatMap((n) => String(n.conjugation_lemma).split(';').map((x) => x.trim()).filter(Boolean)), ...verbLemmas])]
 const conjugations = {}
 for (const l of lemmas) conjugations[l] = await presentIndicative(l)

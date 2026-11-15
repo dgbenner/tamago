@@ -51,3 +51,17 @@ export function formLemmas(conjugations) {
   }
   return out
 }
+
+// The present table to show for a verb word in the Glossary (Dan, 2026-11-15): only when the word is the infinitive or
+// one of the table's own forms. A fixed polite form such as Spanish quisiera or German hätte, möchten or war belongs to
+// a lemma whose present table never shows it, so it keeps its note (the hint) and gets no table. A separable verb's
+// cell ("stehe auf") or a cell given two ways ("assois or assieds") matches on any of its words.
+export function tableFor(word, conjugations) {
+  if (word.part_of_speech !== 'Verb' || !word.lemma) return null
+  const table = conjugations.find((t) => t.lemma === word.lemma)
+  if (!table?.present) return null
+  const form = String(word.form).toLowerCase()
+  if (form === String(word.lemma).toLowerCase()) return table
+  const forms = new Set(table.present.flatMap((r) => String(r.form).toLowerCase().split(/\s+or\s+|\s*[,/]\s*|\s+|[’']/)))
+  return forms.has(form) ? table : null
+}

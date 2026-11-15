@@ -155,58 +155,6 @@
       "form": "können"
     }
   ],
-  "spielen": [
-    {
-      "person": "ich",
-      "form": "spiele"
-    },
-    {
-      "person": "du",
-      "form": "spielst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "spielt"
-    },
-    {
-      "person": "wir",
-      "form": "spielen"
-    },
-    {
-      "person": "ihr",
-      "form": "spielt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "spielen"
-    }
-  ],
-  "wiederholen": [
-    {
-      "person": "ich",
-      "form": "wiederhole"
-    },
-    {
-      "person": "du",
-      "form": "wiederholst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "wiederholt"
-    },
-    {
-      "person": "wir",
-      "form": "wiederholen"
-    },
-    {
-      "person": "ihr",
-      "form": "wiederholt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "wiederholen"
-    }
-  ],
   "lesen": [
     {
       "person": "ich",
@@ -233,58 +181,6 @@
       "form": "lesen"
     }
   ],
-  "tanzen": [
-    {
-      "person": "ich",
-      "form": "tanze"
-    },
-    {
-      "person": "du",
-      "form": "tanzt"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "tanzt"
-    },
-    {
-      "person": "wir",
-      "form": "tanzen"
-    },
-    {
-      "person": "ihr",
-      "form": "tanzt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "tanzen"
-    }
-  ],
-  "schwimmen": [
-    {
-      "person": "ich",
-      "form": "schwimme"
-    },
-    {
-      "person": "du",
-      "form": "schwimmst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "schwimmt"
-    },
-    {
-      "person": "wir",
-      "form": "schwimmen"
-    },
-    {
-      "person": "ihr",
-      "form": "schwimmt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "schwimmen"
-    }
-  ],
   "heißen": [
     {
       "person": "ich",
@@ -309,58 +205,6 @@
     {
       "person": "sie, Sie",
       "form": "heißen"
-    }
-  ],
-  "buchstabieren": [
-    {
-      "person": "ich",
-      "form": "buchstabiere"
-    },
-    {
-      "person": "du",
-      "form": "buchstabierst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "buchstabiert"
-    },
-    {
-      "person": "wir",
-      "form": "buchstabieren"
-    },
-    {
-      "person": "ihr",
-      "form": "buchstabiert"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "buchstabieren"
-    }
-  ],
-  "anrufen": [
-    {
-      "person": "ich",
-      "form": "rufe an"
-    },
-    {
-      "person": "du",
-      "form": "rufst an"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "ruft an"
-    },
-    {
-      "person": "wir",
-      "form": "rufen an"
-    },
-    {
-      "person": "ihr",
-      "form": "ruft an"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "rufen an"
     }
   ],
   "wohnen": [
@@ -493,6 +337,890 @@
       "form": "kosten"
     }
   ],
+  "lernen": [
+    {
+      "person": "ich",
+      "form": "lerne"
+    },
+    {
+      "person": "du",
+      "form": "lernst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "lernt"
+    },
+    {
+      "person": "wir",
+      "form": "lernen"
+    },
+    {
+      "person": "ihr",
+      "form": "lernt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "lernen"
+    }
+  ],
+  "wollen": [
+    {
+      "person": "ich",
+      "form": "will"
+    },
+    {
+      "person": "du",
+      "form": "willst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "will"
+    },
+    {
+      "person": "wir",
+      "form": "wollen"
+    },
+    {
+      "person": "ihr",
+      "form": "wollt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "wollen"
+    }
+  ],
+  "nehmen": [
+    {
+      "person": "ich",
+      "form": "nehme"
+    },
+    {
+      "person": "du",
+      "form": "nimmst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "nimmt"
+    },
+    {
+      "person": "wir",
+      "form": "nehmen"
+    },
+    {
+      "person": "ihr",
+      "form": "nehmt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "nehmen"
+    }
+  ],
+  "fahren": [
+    {
+      "person": "ich",
+      "form": "fahre"
+    },
+    {
+      "person": "du",
+      "form": "fährst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "fährt"
+    },
+    {
+      "person": "wir",
+      "form": "fahren"
+    },
+    {
+      "person": "ihr",
+      "form": "fahrt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "fahren"
+    }
+  ],
+  "gefallen": [
+    {
+      "person": "ich",
+      "form": "gefalle"
+    },
+    {
+      "person": "du",
+      "form": "gefällst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "gefällt"
+    },
+    {
+      "person": "wir",
+      "form": "gefallen"
+    },
+    {
+      "person": "ihr",
+      "form": "gefallt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "gefallen"
+    }
+  ],
+  "wissen": [
+    {
+      "person": "ich",
+      "form": "weiß"
+    },
+    {
+      "person": "du",
+      "form": "weißt"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "weiß"
+    },
+    {
+      "person": "wir",
+      "form": "wissen"
+    },
+    {
+      "person": "ihr",
+      "form": "wisst"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "wissen"
+    }
+  ],
+  "halten": [
+    {
+      "person": "ich",
+      "form": "halte"
+    },
+    {
+      "person": "du",
+      "form": "hältst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "hält"
+    },
+    {
+      "person": "wir",
+      "form": "halten"
+    },
+    {
+      "person": "ihr",
+      "form": "haltet"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "halten"
+    }
+  ],
+  "müssen": [
+    {
+      "person": "ich",
+      "form": "muss"
+    },
+    {
+      "person": "du",
+      "form": "musst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "muss"
+    },
+    {
+      "person": "wir",
+      "form": "müssen"
+    },
+    {
+      "person": "ihr",
+      "form": "müsst"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "müssen"
+    }
+  ],
+  "dürfen": [
+    {
+      "person": "ich",
+      "form": "darf"
+    },
+    {
+      "person": "du",
+      "form": "darfst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "darf"
+    },
+    {
+      "person": "wir",
+      "form": "dürfen"
+    },
+    {
+      "person": "ihr",
+      "form": "dürft"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "dürfen"
+    }
+  ],
+  "laufen": [
+    {
+      "person": "ich",
+      "form": "laufe"
+    },
+    {
+      "person": "du",
+      "form": "läufst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "läuft"
+    },
+    {
+      "person": "wir",
+      "form": "laufen"
+    },
+    {
+      "person": "ihr",
+      "form": "lauft"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "laufen"
+    }
+  ],
+  "leben": [
+    {
+      "person": "ich",
+      "form": "lebe"
+    },
+    {
+      "person": "du",
+      "form": "lebst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "lebt"
+    },
+    {
+      "person": "wir",
+      "form": "leben"
+    },
+    {
+      "person": "ihr",
+      "form": "lebt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "leben"
+    }
+  ],
+  "arbeiten": [
+    {
+      "person": "ich",
+      "form": "arbeite"
+    },
+    {
+      "person": "du",
+      "form": "arbeitest"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "arbeitet"
+    },
+    {
+      "person": "wir",
+      "form": "arbeiten"
+    },
+    {
+      "person": "ihr",
+      "form": "arbeitet"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "arbeiten"
+    }
+  ],
+  "studieren": [
+    {
+      "person": "ich",
+      "form": "studiere"
+    },
+    {
+      "person": "du",
+      "form": "studierst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "studiert"
+    },
+    {
+      "person": "wir",
+      "form": "studieren"
+    },
+    {
+      "person": "ihr",
+      "form": "studiert"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "studieren"
+    }
+  ],
+  "essen": [
+    {
+      "person": "ich",
+      "form": "esse"
+    },
+    {
+      "person": "du",
+      "form": "isst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "isst"
+    },
+    {
+      "person": "wir",
+      "form": "essen"
+    },
+    {
+      "person": "ihr",
+      "form": "esst"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "essen"
+    }
+  ],
+  "mögen": [
+    {
+      "person": "ich",
+      "form": "mag"
+    },
+    {
+      "person": "du",
+      "form": "magst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "mag"
+    },
+    {
+      "person": "wir",
+      "form": "mögen"
+    },
+    {
+      "person": "ihr",
+      "form": "mögt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "mögen"
+    }
+  ],
+  "geben": [
+    {
+      "person": "ich",
+      "form": "gebe"
+    },
+    {
+      "person": "du",
+      "form": "gibst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "gibt"
+    },
+    {
+      "person": "wir",
+      "form": "geben"
+    },
+    {
+      "person": "ihr",
+      "form": "gebt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "geben"
+    }
+  ],
+  "spielen": [
+    {
+      "person": "ich",
+      "form": "spiele"
+    },
+    {
+      "person": "du",
+      "form": "spielst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "spielt"
+    },
+    {
+      "person": "wir",
+      "form": "spielen"
+    },
+    {
+      "person": "ihr",
+      "form": "spielt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "spielen"
+    }
+  ],
+  "regnen": [
+    {
+      "person": "ich",
+      "form": "regne"
+    },
+    {
+      "person": "du",
+      "form": "regnest"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "regnet"
+    },
+    {
+      "person": "wir",
+      "form": "regnen"
+    },
+    {
+      "person": "ihr",
+      "form": "regnet"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "regnen"
+    }
+  ],
+  "schneien": [
+    {
+      "person": "ich",
+      "form": "schneie"
+    },
+    {
+      "person": "du",
+      "form": "schneist"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "schneit"
+    },
+    {
+      "person": "wir",
+      "form": "schneien"
+    },
+    {
+      "person": "ihr",
+      "form": "schneit"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "schneien"
+    }
+  ],
+  "singen": [
+    {
+      "person": "ich",
+      "form": "singe"
+    },
+    {
+      "person": "du",
+      "form": "singst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "singt"
+    },
+    {
+      "person": "wir",
+      "form": "singen"
+    },
+    {
+      "person": "ihr",
+      "form": "singt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "singen"
+    }
+  ],
+  "verstehen": [
+    {
+      "person": "ich",
+      "form": "verstehe"
+    },
+    {
+      "person": "du",
+      "form": "verstehst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "versteht"
+    },
+    {
+      "person": "wir",
+      "form": "verstehen"
+    },
+    {
+      "person": "ihr",
+      "form": "versteht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "verstehen"
+    }
+  ],
+  "wiederholen": [
+    {
+      "person": "ich",
+      "form": "wiederhole"
+    },
+    {
+      "person": "du",
+      "form": "wiederholst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "wiederholt"
+    },
+    {
+      "person": "wir",
+      "form": "wiederholen"
+    },
+    {
+      "person": "ihr",
+      "form": "wiederholt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "wiederholen"
+    }
+  ],
+  "sagen": [
+    {
+      "person": "ich",
+      "form": "sage"
+    },
+    {
+      "person": "du",
+      "form": "sagst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "sagt"
+    },
+    {
+      "person": "wir",
+      "form": "sagen"
+    },
+    {
+      "person": "ihr",
+      "form": "sagt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "sagen"
+    }
+  ],
+  "bedeuten": [
+    {
+      "person": "ich",
+      "form": "bedeute"
+    },
+    {
+      "person": "du",
+      "form": "bedeutest"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "bedeutet"
+    },
+    {
+      "person": "wir",
+      "form": "bedeuten"
+    },
+    {
+      "person": "ihr",
+      "form": "bedeutet"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "bedeuten"
+    }
+  ],
+  "suchen": [
+    {
+      "person": "ich",
+      "form": "suche"
+    },
+    {
+      "person": "du",
+      "form": "suchst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "sucht"
+    },
+    {
+      "person": "wir",
+      "form": "suchen"
+    },
+    {
+      "person": "ihr",
+      "form": "sucht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "suchen"
+    }
+  ],
+  "nennen": [
+    {
+      "person": "ich",
+      "form": "nenne"
+    },
+    {
+      "person": "du",
+      "form": "nennst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "nennt"
+    },
+    {
+      "person": "wir",
+      "form": "nennen"
+    },
+    {
+      "person": "ihr",
+      "form": "nennt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "nennen"
+    }
+  ],
+  "hören": [
+    {
+      "person": "ich",
+      "form": "höre"
+    },
+    {
+      "person": "du",
+      "form": "hörst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "hört"
+    },
+    {
+      "person": "wir",
+      "form": "hören"
+    },
+    {
+      "person": "ihr",
+      "form": "hört"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "hören"
+    }
+  ],
+  "tanzen": [
+    {
+      "person": "ich",
+      "form": "tanze"
+    },
+    {
+      "person": "du",
+      "form": "tanzt"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "tanzt"
+    },
+    {
+      "person": "wir",
+      "form": "tanzen"
+    },
+    {
+      "person": "ihr",
+      "form": "tanzt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "tanzen"
+    }
+  ],
+  "schwimmen": [
+    {
+      "person": "ich",
+      "form": "schwimme"
+    },
+    {
+      "person": "du",
+      "form": "schwimmst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "schwimmt"
+    },
+    {
+      "person": "wir",
+      "form": "schwimmen"
+    },
+    {
+      "person": "ihr",
+      "form": "schwimmt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "schwimmen"
+    }
+  ],
+  "schreiben": [
+    {
+      "person": "ich",
+      "form": "schreibe"
+    },
+    {
+      "person": "du",
+      "form": "schreibst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "schreibt"
+    },
+    {
+      "person": "wir",
+      "form": "schreiben"
+    },
+    {
+      "person": "ihr",
+      "form": "schreibt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "schreiben"
+    }
+  ],
+  "buchstabieren": [
+    {
+      "person": "ich",
+      "form": "buchstabiere"
+    },
+    {
+      "person": "du",
+      "form": "buchstabierst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "buchstabiert"
+    },
+    {
+      "person": "wir",
+      "form": "buchstabieren"
+    },
+    {
+      "person": "ihr",
+      "form": "buchstabiert"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "buchstabieren"
+    }
+  ],
+  "anrufen": [
+    {
+      "person": "ich",
+      "form": "rufe an"
+    },
+    {
+      "person": "du",
+      "form": "rufst an"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "ruft an"
+    },
+    {
+      "person": "wir",
+      "form": "rufen an"
+    },
+    {
+      "person": "ihr",
+      "form": "ruft an"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "rufen an"
+    }
+  ],
+  "brauchen": [
+    {
+      "person": "ich",
+      "form": "brauche"
+    },
+    {
+      "person": "du",
+      "form": "brauchst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "braucht"
+    },
+    {
+      "person": "wir",
+      "form": "brauchen"
+    },
+    {
+      "person": "ihr",
+      "form": "braucht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "brauchen"
+    }
+  ],
+  "stimmen": [
+    {
+      "person": "ich",
+      "form": "stimme"
+    },
+    {
+      "person": "du",
+      "form": "stimmst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "stimmt"
+    },
+    {
+      "person": "wir",
+      "form": "stimmen"
+    },
+    {
+      "person": "ihr",
+      "form": "stimmt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "stimmen"
+    }
+  ],
   "bezahlen": [
     {
       "person": "ich",
@@ -545,30 +1273,30 @@
       "form": "zahlen"
     }
   ],
-  "lernen": [
+  "tun": [
     {
       "person": "ich",
-      "form": "lerne"
+      "form": "tue"
     },
     {
       "person": "du",
-      "form": "lernst"
+      "form": "tust"
     },
     {
       "person": "er, sie, es",
-      "form": "lernt"
+      "form": "tut"
     },
     {
       "person": "wir",
-      "form": "lernen"
+      "form": "tun"
     },
     {
       "person": "ihr",
-      "form": "lernt"
+      "form": "tut"
     },
     {
       "person": "sie, Sie",
-      "form": "lernen"
+      "form": "tun"
     }
   ],
   "fragen": [
@@ -701,30 +1429,82 @@
       "form": "entschuldigen"
     }
   ],
-  "wollen": [
+  "warten": [
     {
       "person": "ich",
-      "form": "will"
+      "form": "warte"
     },
     {
       "person": "du",
-      "form": "willst"
+      "form": "wartest"
     },
     {
       "person": "er, sie, es",
-      "form": "will"
+      "form": "wartet"
     },
     {
       "person": "wir",
-      "form": "wollen"
+      "form": "warten"
     },
     {
       "person": "ihr",
-      "form": "wollt"
+      "form": "wartet"
     },
     {
       "person": "sie, Sie",
-      "form": "wollen"
+      "form": "warten"
+    }
+  ],
+  "denken": [
+    {
+      "person": "ich",
+      "form": "denke"
+    },
+    {
+      "person": "du",
+      "form": "denkst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "denkt"
+    },
+    {
+      "person": "wir",
+      "form": "denken"
+    },
+    {
+      "person": "ihr",
+      "form": "denkt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "denken"
+    }
+  ],
+  "treffen": [
+    {
+      "person": "ich",
+      "form": "treffe"
+    },
+    {
+      "person": "du",
+      "form": "triffst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "trifft"
+    },
+    {
+      "person": "wir",
+      "form": "treffen"
+    },
+    {
+      "person": "ihr",
+      "form": "trefft"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "treffen"
     }
   ],
   "besuchen": [
@@ -805,6 +1585,32 @@
       "form": "laden ein"
     }
   ],
+  "bleiben": [
+    {
+      "person": "ich",
+      "form": "bleibe"
+    },
+    {
+      "person": "du",
+      "form": "bleibst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "bleibt"
+    },
+    {
+      "person": "wir",
+      "form": "bleiben"
+    },
+    {
+      "person": "ihr",
+      "form": "bleibt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "bleiben"
+    }
+  ],
   "aufstehen": [
     {
       "person": "ich",
@@ -829,6 +1635,84 @@
     {
       "person": "sie, Sie",
       "form": "stehen auf"
+    }
+  ],
+  "stehen": [
+    {
+      "person": "ich",
+      "form": "stehe"
+    },
+    {
+      "person": "du",
+      "form": "stehst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "steht"
+    },
+    {
+      "person": "wir",
+      "form": "stehen"
+    },
+    {
+      "person": "ihr",
+      "form": "steht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "stehen"
+    }
+  ],
+  "frühstücken": [
+    {
+      "person": "ich",
+      "form": "frühstücke"
+    },
+    {
+      "person": "du",
+      "form": "frühstückst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "frühstückt"
+    },
+    {
+      "person": "wir",
+      "form": "frühstücken"
+    },
+    {
+      "person": "ihr",
+      "form": "frühstückt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "frühstücken"
+    }
+  ],
+  "duschen": [
+    {
+      "person": "ich",
+      "form": "dusche"
+    },
+    {
+      "person": "du",
+      "form": "duschst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "duscht"
+    },
+    {
+      "person": "wir",
+      "form": "duschen"
+    },
+    {
+      "person": "ihr",
+      "form": "duscht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "duschen"
     }
   ],
   "anziehen": [
@@ -935,6 +1819,32 @@
       "form": "hören auf"
     }
   ],
+  "beginnen": [
+    {
+      "person": "ich",
+      "form": "beginne"
+    },
+    {
+      "person": "du",
+      "form": "beginnst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "beginnt"
+    },
+    {
+      "person": "wir",
+      "form": "beginnen"
+    },
+    {
+      "person": "ihr",
+      "form": "beginnt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "beginnen"
+    }
+  ],
   "fernsehen": [
     {
       "person": "ich",
@@ -961,212 +1871,30 @@
       "form": "sehen fern"
     }
   ],
-  "nehmen": [
+  "enden": [
     {
       "person": "ich",
-      "form": "nehme"
+      "form": "ende"
     },
     {
       "person": "du",
-      "form": "nimmst"
+      "form": "endest"
     },
     {
       "person": "er, sie, es",
-      "form": "nimmt"
+      "form": "endet"
     },
     {
       "person": "wir",
-      "form": "nehmen"
+      "form": "enden"
     },
     {
       "person": "ihr",
-      "form": "nehmt"
+      "form": "endet"
     },
     {
       "person": "sie, Sie",
-      "form": "nehmen"
-    }
-  ],
-  "helfen": [
-    {
-      "person": "ich",
-      "form": "helfe"
-    },
-    {
-      "person": "du",
-      "form": "hilfst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "hilft"
-    },
-    {
-      "person": "wir",
-      "form": "helfen"
-    },
-    {
-      "person": "ihr",
-      "form": "helft"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "helfen"
-    }
-  ],
-  "bringen": [
-    {
-      "person": "ich",
-      "form": "bringe"
-    },
-    {
-      "person": "du",
-      "form": "bringst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "bringt"
-    },
-    {
-      "person": "wir",
-      "form": "bringen"
-    },
-    {
-      "person": "ihr",
-      "form": "bringt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "bringen"
-    }
-  ],
-  "holen": [
-    {
-      "person": "ich",
-      "form": "hole"
-    },
-    {
-      "person": "du",
-      "form": "holst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "holt"
-    },
-    {
-      "person": "wir",
-      "form": "holen"
-    },
-    {
-      "person": "ihr",
-      "form": "holt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "holen"
-    }
-  ],
-  "abholen": [
-    {
-      "person": "ich",
-      "form": "hole ab"
-    },
-    {
-      "person": "du",
-      "form": "holst ab"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "holt ab"
-    },
-    {
-      "person": "wir",
-      "form": "holen ab"
-    },
-    {
-      "person": "ihr",
-      "form": "holt ab"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "holen ab"
-    }
-  ],
-  "bekommen": [
-    {
-      "person": "ich",
-      "form": "bekomme"
-    },
-    {
-      "person": "du",
-      "form": "bekommst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "bekommt"
-    },
-    {
-      "person": "wir",
-      "form": "bekommen"
-    },
-    {
-      "person": "ihr",
-      "form": "bekommt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "bekommen"
-    }
-  ],
-  "sitzen": [
-    {
-      "person": "ich",
-      "form": "sitze"
-    },
-    {
-      "person": "du",
-      "form": "sitzt"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "sitzt"
-    },
-    {
-      "person": "wir",
-      "form": "sitzen"
-    },
-    {
-      "person": "ihr",
-      "form": "sitzt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "sitzen"
-    }
-  ],
-  "lachen": [
-    {
-      "person": "ich",
-      "form": "lache"
-    },
-    {
-      "person": "du",
-      "form": "lachst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "lacht"
-    },
-    {
-      "person": "wir",
-      "form": "lachen"
-    },
-    {
-      "person": "ihr",
-      "form": "lacht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "lachen"
+      "form": "enden"
     }
   ],
   "rauchen": [
@@ -1193,32 +1921,6 @@
     {
       "person": "sie, Sie",
       "form": "rauchen"
-    }
-  ],
-  "fahren": [
-    {
-      "person": "ich",
-      "form": "fahre"
-    },
-    {
-      "person": "du",
-      "form": "fährst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "fährt"
-    },
-    {
-      "person": "wir",
-      "form": "fahren"
-    },
-    {
-      "person": "ihr",
-      "form": "fahrt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "fahren"
     }
   ],
   "abfahren": [
@@ -1273,82 +1975,30 @@
       "form": "kommen an"
     }
   ],
-  "gefallen": [
+  "dauern": [
     {
       "person": "ich",
-      "form": "gefalle"
+      "form": "dauere"
     },
     {
       "person": "du",
-      "form": "gefällst"
+      "form": "dauerst"
     },
     {
       "person": "er, sie, es",
-      "form": "gefällt"
+      "form": "dauert"
     },
     {
       "person": "wir",
-      "form": "gefallen"
+      "form": "dauern"
     },
     {
       "person": "ihr",
-      "form": "gefallt"
+      "form": "dauert"
     },
     {
       "person": "sie, Sie",
-      "form": "gefallen"
-    }
-  ],
-  "wissen": [
-    {
-      "person": "ich",
-      "form": "weiß"
-    },
-    {
-      "person": "du",
-      "form": "weißt"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "weiß"
-    },
-    {
-      "person": "wir",
-      "form": "wissen"
-    },
-    {
-      "person": "ihr",
-      "form": "wisst"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "wissen"
-    }
-  ],
-  "halten": [
-    {
-      "person": "ich",
-      "form": "halte"
-    },
-    {
-      "person": "du",
-      "form": "hältst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "hält"
-    },
-    {
-      "person": "wir",
-      "form": "halten"
-    },
-    {
-      "person": "ihr",
-      "form": "haltet"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "halten"
+      "form": "dauern"
     }
   ],
   "einsteigen": [
@@ -1401,6 +2051,32 @@
     {
       "person": "sie, Sie",
       "form": "steigen aus"
+    }
+  ],
+  "fliegen": [
+    {
+      "person": "ich",
+      "form": "fliege"
+    },
+    {
+      "person": "du",
+      "form": "fliegst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "fliegt"
+    },
+    {
+      "person": "wir",
+      "form": "fliegen"
+    },
+    {
+      "person": "ihr",
+      "form": "fliegt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "fliegen"
     }
   ],
   "öffnen": [
@@ -1741,56 +2417,394 @@
       "form": "benutzen"
     }
   ],
-  "müssen": [
+  "machen": [
     {
       "person": "ich",
-      "form": "muss"
+      "form": "mache"
     },
     {
       "person": "du",
-      "form": "musst"
+      "form": "machst"
     },
     {
       "person": "er, sie, es",
-      "form": "muss"
+      "form": "macht"
     },
     {
       "person": "wir",
-      "form": "müssen"
+      "form": "machen"
     },
     {
       "person": "ihr",
-      "form": "müsst"
+      "form": "macht"
     },
     {
       "person": "sie, Sie",
-      "form": "müssen"
+      "form": "machen"
     }
   ],
-  "dürfen": [
+  "sehen": [
     {
       "person": "ich",
-      "form": "darf"
+      "form": "sehe"
     },
     {
       "person": "du",
-      "form": "darfst"
+      "form": "siehst"
     },
     {
       "person": "er, sie, es",
-      "form": "darf"
+      "form": "sieht"
     },
     {
       "person": "wir",
-      "form": "dürfen"
+      "form": "sehen"
     },
     {
       "person": "ihr",
-      "form": "dürft"
+      "form": "seht"
     },
     {
       "person": "sie, Sie",
-      "form": "dürfen"
+      "form": "sehen"
+    }
+  ],
+  "finden": [
+    {
+      "person": "ich",
+      "form": "finde"
+    },
+    {
+      "person": "du",
+      "form": "findest"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "findet"
+    },
+    {
+      "person": "wir",
+      "form": "finden"
+    },
+    {
+      "person": "ihr",
+      "form": "findet"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "finden"
+    }
+  ],
+  "helfen": [
+    {
+      "person": "ich",
+      "form": "helfe"
+    },
+    {
+      "person": "du",
+      "form": "hilfst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "hilft"
+    },
+    {
+      "person": "wir",
+      "form": "helfen"
+    },
+    {
+      "person": "ihr",
+      "form": "helft"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "helfen"
+    }
+  ],
+  "bringen": [
+    {
+      "person": "ich",
+      "form": "bringe"
+    },
+    {
+      "person": "du",
+      "form": "bringst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "bringt"
+    },
+    {
+      "person": "wir",
+      "form": "bringen"
+    },
+    {
+      "person": "ihr",
+      "form": "bringt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "bringen"
+    }
+  ],
+  "holen": [
+    {
+      "person": "ich",
+      "form": "hole"
+    },
+    {
+      "person": "du",
+      "form": "holst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "holt"
+    },
+    {
+      "person": "wir",
+      "form": "holen"
+    },
+    {
+      "person": "ihr",
+      "form": "holt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "holen"
+    }
+  ],
+  "abholen": [
+    {
+      "person": "ich",
+      "form": "hole ab"
+    },
+    {
+      "person": "du",
+      "form": "holst ab"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "holt ab"
+    },
+    {
+      "person": "wir",
+      "form": "holen ab"
+    },
+    {
+      "person": "ihr",
+      "form": "holt ab"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "holen ab"
+    }
+  ],
+  "bekommen": [
+    {
+      "person": "ich",
+      "form": "bekomme"
+    },
+    {
+      "person": "du",
+      "form": "bekommst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "bekommt"
+    },
+    {
+      "person": "wir",
+      "form": "bekommen"
+    },
+    {
+      "person": "ihr",
+      "form": "bekommt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "bekommen"
+    }
+  ],
+  "kennen": [
+    {
+      "person": "ich",
+      "form": "kenne"
+    },
+    {
+      "person": "du",
+      "form": "kennst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "kennt"
+    },
+    {
+      "person": "wir",
+      "form": "kennen"
+    },
+    {
+      "person": "ihr",
+      "form": "kennt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "kennen"
+    }
+  ],
+  "sitzen": [
+    {
+      "person": "ich",
+      "form": "sitze"
+    },
+    {
+      "person": "du",
+      "form": "sitzt"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "sitzt"
+    },
+    {
+      "person": "wir",
+      "form": "sitzen"
+    },
+    {
+      "person": "ihr",
+      "form": "sitzt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "sitzen"
+    }
+  ],
+  "liegen": [
+    {
+      "person": "ich",
+      "form": "liege"
+    },
+    {
+      "person": "du",
+      "form": "liegst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "liegt"
+    },
+    {
+      "person": "wir",
+      "form": "liegen"
+    },
+    {
+      "person": "ihr",
+      "form": "liegt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "liegen"
+    }
+  ],
+  "lachen": [
+    {
+      "person": "ich",
+      "form": "lache"
+    },
+    {
+      "person": "du",
+      "form": "lachst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "lacht"
+    },
+    {
+      "person": "wir",
+      "form": "lachen"
+    },
+    {
+      "person": "ihr",
+      "form": "lacht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "lachen"
+    }
+  ],
+  "glauben": [
+    {
+      "person": "ich",
+      "form": "glaube"
+    },
+    {
+      "person": "du",
+      "form": "glaubst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "glaubt"
+    },
+    {
+      "person": "wir",
+      "form": "glauben"
+    },
+    {
+      "person": "ihr",
+      "form": "glaubt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "glauben"
+    }
+  ],
+  "sollen": [
+    {
+      "person": "ich",
+      "form": "soll"
+    },
+    {
+      "person": "du",
+      "form": "sollst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "soll"
+    },
+    {
+      "person": "wir",
+      "form": "sollen"
+    },
+    {
+      "person": "ihr",
+      "form": "sollt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "sollen"
+    }
+  ],
+  "werden": [
+    {
+      "person": "ich",
+      "form": "werde"
+    },
+    {
+      "person": "du",
+      "form": "wirst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "wird"
+    },
+    {
+      "person": "wir",
+      "form": "werden"
+    },
+    {
+      "person": "ihr",
+      "form": "werdet"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "werden"
     }
   ],
   "erlauben": [
@@ -1843,6 +2857,58 @@
     {
       "person": "sie, Sie",
       "form": "waschen"
+    }
+  ],
+  "bestellen": [
+    {
+      "person": "ich",
+      "form": "bestelle"
+    },
+    {
+      "person": "du",
+      "form": "bestellst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "bestellt"
+    },
+    {
+      "person": "wir",
+      "form": "bestellen"
+    },
+    {
+      "person": "ihr",
+      "form": "bestellt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "bestellen"
+    }
+  ],
+  "schmecken": [
+    {
+      "person": "ich",
+      "form": "schmecke"
+    },
+    {
+      "person": "du",
+      "form": "schmeckst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "schmeckt"
+    },
+    {
+      "person": "wir",
+      "form": "schmecken"
+    },
+    {
+      "person": "ihr",
+      "form": "schmeckt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "schmecken"
     }
   ],
   "stören": [
@@ -1923,30 +2989,56 @@
       "form": "empfehlen"
     }
   ],
-  "einkaufen": [
+  "kochen": [
     {
       "person": "ich",
-      "form": "kaufe ein"
+      "form": "koche"
     },
     {
       "person": "du",
-      "form": "kaufst ein"
+      "form": "kochst"
     },
     {
       "person": "er, sie, es",
-      "form": "kauft ein"
+      "form": "kocht"
     },
     {
       "person": "wir",
-      "form": "kaufen ein"
+      "form": "kochen"
     },
     {
       "person": "ihr",
-      "form": "kauft ein"
+      "form": "kocht"
     },
     {
       "person": "sie, Sie",
-      "form": "kaufen ein"
+      "form": "kochen"
+    }
+  ],
+  "riechen": [
+    {
+      "person": "ich",
+      "form": "rieche"
+    },
+    {
+      "person": "du",
+      "form": "riechst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "riecht"
+    },
+    {
+      "person": "wir",
+      "form": "riechen"
+    },
+    {
+      "person": "ihr",
+      "form": "riecht"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "riechen"
     }
   ],
   "verlaufen": [
@@ -1999,58 +3091,6 @@
     {
       "person": "sie, Sie",
       "form": "zeigen"
-    }
-  ],
-  "laufen": [
-    {
-      "person": "ich",
-      "form": "laufe"
-    },
-    {
-      "person": "du",
-      "form": "läufst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "läuft"
-    },
-    {
-      "person": "wir",
-      "form": "laufen"
-    },
-    {
-      "person": "ihr",
-      "form": "lauft"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "laufen"
-    }
-  ],
-  "leben": [
-    {
-      "person": "ich",
-      "form": "lebe"
-    },
-    {
-      "person": "du",
-      "form": "lebst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "lebt"
-    },
-    {
-      "person": "wir",
-      "form": "leben"
-    },
-    {
-      "person": "ihr",
-      "form": "lebt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "leben"
     }
   ],
   "heiraten": [
@@ -2183,56 +3223,30 @@
       "form": "baden"
     }
   ],
-  "arbeiten": [
+  "verdienen": [
     {
       "person": "ich",
-      "form": "arbeite"
+      "form": "verdiene"
     },
     {
       "person": "du",
-      "form": "arbeitest"
+      "form": "verdienst"
     },
     {
       "person": "er, sie, es",
-      "form": "arbeitet"
+      "form": "verdient"
     },
     {
       "person": "wir",
-      "form": "arbeiten"
+      "form": "verdienen"
     },
     {
       "person": "ihr",
-      "form": "arbeitet"
+      "form": "verdient"
     },
     {
       "person": "sie, Sie",
-      "form": "arbeiten"
-    }
-  ],
-  "studieren": [
-    {
-      "person": "ich",
-      "form": "studiere"
-    },
-    {
-      "person": "du",
-      "form": "studierst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "studiert"
-    },
-    {
-      "person": "wir",
-      "form": "studieren"
-    },
-    {
-      "person": "ihr",
-      "form": "studiert"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "studieren"
+      "form": "verdienen"
     }
   ],
   "reparieren": [
@@ -2261,56 +3275,56 @@
       "form": "reparieren"
     }
   ],
-  "übernachten": [
+  "fehlen": [
     {
       "person": "ich",
-      "form": "übernachte"
+      "form": "fehle"
     },
     {
       "person": "du",
-      "form": "übernachtest"
+      "form": "fehlst"
     },
     {
       "person": "er, sie, es",
-      "form": "übernachtet"
+      "form": "fehlt"
     },
     {
       "person": "wir",
-      "form": "übernachten"
+      "form": "fehlen"
     },
     {
       "person": "ihr",
-      "form": "übernachtet"
+      "form": "fehlt"
     },
     {
       "person": "sie, Sie",
-      "form": "übernachten"
+      "form": "fehlen"
     }
   ],
-  "besichtigen": [
+  "funktionieren": [
     {
       "person": "ich",
-      "form": "besichtige"
+      "form": "funktioniere"
     },
     {
       "person": "du",
-      "form": "besichtigst"
+      "form": "funktionierst"
     },
     {
       "person": "er, sie, es",
-      "form": "besichtigt"
+      "form": "funktioniert"
     },
     {
       "person": "wir",
-      "form": "besichtigen"
+      "form": "funktionieren"
     },
     {
       "person": "ihr",
-      "form": "besichtigt"
+      "form": "funktioniert"
     },
     {
       "person": "sie, Sie",
-      "form": "besichtigen"
+      "form": "funktionieren"
     }
   ],
   "ausfüllen": [
@@ -2417,6 +3431,58 @@
       "form": "schicken"
     }
   ],
+  "gratulieren": [
+    {
+      "person": "ich",
+      "form": "gratuliere"
+    },
+    {
+      "person": "du",
+      "form": "gratulierst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "gratuliert"
+    },
+    {
+      "person": "wir",
+      "form": "gratulieren"
+    },
+    {
+      "person": "ihr",
+      "form": "gratuliert"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "gratulieren"
+    }
+  ],
+  "freuen": [
+    {
+      "person": "ich",
+      "form": "freue"
+    },
+    {
+      "person": "du",
+      "form": "freust"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "freut"
+    },
+    {
+      "person": "wir",
+      "form": "freuen"
+    },
+    {
+      "person": "ihr",
+      "form": "freut"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "freuen"
+    }
+  ],
   "feiern": [
     {
       "person": "ich",
@@ -2495,1200 +3561,30 @@
       "form": "telefonieren"
     }
   ],
-  "kümmern": [
+  "einkaufen": [
     {
       "person": "ich",
-      "form": "kümmere"
+      "form": "kaufe ein"
     },
     {
       "person": "du",
-      "form": "kümmerst"
+      "form": "kaufst ein"
     },
     {
       "person": "er, sie, es",
-      "form": "kümmert"
+      "form": "kauft ein"
     },
     {
       "person": "wir",
-      "form": "kümmern"
+      "form": "kaufen ein"
     },
     {
       "person": "ihr",
-      "form": "kümmert"
+      "form": "kauft ein"
     },
     {
       "person": "sie, Sie",
-      "form": "kümmern"
-    }
-  ],
-  "gewinnen": [
-    {
-      "person": "ich",
-      "form": "gewinne"
-    },
-    {
-      "person": "du",
-      "form": "gewinnst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "gewinnt"
-    },
-    {
-      "person": "wir",
-      "form": "gewinnen"
-    },
-    {
-      "person": "ihr",
-      "form": "gewinnt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "gewinnen"
-    }
-  ],
-  "essen": [
-    {
-      "person": "ich",
-      "form": "esse"
-    },
-    {
-      "person": "du",
-      "form": "isst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "isst"
-    },
-    {
-      "person": "wir",
-      "form": "essen"
-    },
-    {
-      "person": "ihr",
-      "form": "esst"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "essen"
-    }
-  ],
-  "mögen": [
-    {
-      "person": "ich",
-      "form": "mag"
-    },
-    {
-      "person": "du",
-      "form": "magst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "mag"
-    },
-    {
-      "person": "wir",
-      "form": "mögen"
-    },
-    {
-      "person": "ihr",
-      "form": "mögt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "mögen"
-    }
-  ],
-  "geben": [
-    {
-      "person": "ich",
-      "form": "gebe"
-    },
-    {
-      "person": "du",
-      "form": "gibst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "gibt"
-    },
-    {
-      "person": "wir",
-      "form": "geben"
-    },
-    {
-      "person": "ihr",
-      "form": "gebt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "geben"
-    }
-  ],
-  "regnen": [
-    {
-      "person": "ich",
-      "form": "regne"
-    },
-    {
-      "person": "du",
-      "form": "regnest"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "regnet"
-    },
-    {
-      "person": "wir",
-      "form": "regnen"
-    },
-    {
-      "person": "ihr",
-      "form": "regnet"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "regnen"
-    }
-  ],
-  "schneien": [
-    {
-      "person": "ich",
-      "form": "schneie"
-    },
-    {
-      "person": "du",
-      "form": "schneist"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "schneit"
-    },
-    {
-      "person": "wir",
-      "form": "schneien"
-    },
-    {
-      "person": "ihr",
-      "form": "schneit"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "schneien"
-    }
-  ],
-  "singen": [
-    {
-      "person": "ich",
-      "form": "singe"
-    },
-    {
-      "person": "du",
-      "form": "singst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "singt"
-    },
-    {
-      "person": "wir",
-      "form": "singen"
-    },
-    {
-      "person": "ihr",
-      "form": "singt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "singen"
-    }
-  ],
-  "verstehen": [
-    {
-      "person": "ich",
-      "form": "verstehe"
-    },
-    {
-      "person": "du",
-      "form": "verstehst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "versteht"
-    },
-    {
-      "person": "wir",
-      "form": "verstehen"
-    },
-    {
-      "person": "ihr",
-      "form": "versteht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "verstehen"
-    }
-  ],
-  "sagen": [
-    {
-      "person": "ich",
-      "form": "sage"
-    },
-    {
-      "person": "du",
-      "form": "sagst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "sagt"
-    },
-    {
-      "person": "wir",
-      "form": "sagen"
-    },
-    {
-      "person": "ihr",
-      "form": "sagt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "sagen"
-    }
-  ],
-  "bedeuten": [
-    {
-      "person": "ich",
-      "form": "bedeute"
-    },
-    {
-      "person": "du",
-      "form": "bedeutest"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "bedeutet"
-    },
-    {
-      "person": "wir",
-      "form": "bedeuten"
-    },
-    {
-      "person": "ihr",
-      "form": "bedeutet"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "bedeuten"
-    }
-  ],
-  "suchen": [
-    {
-      "person": "ich",
-      "form": "suche"
-    },
-    {
-      "person": "du",
-      "form": "suchst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "sucht"
-    },
-    {
-      "person": "wir",
-      "form": "suchen"
-    },
-    {
-      "person": "ihr",
-      "form": "sucht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "suchen"
-    }
-  ],
-  "nennen": [
-    {
-      "person": "ich",
-      "form": "nenne"
-    },
-    {
-      "person": "du",
-      "form": "nennst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "nennt"
-    },
-    {
-      "person": "wir",
-      "form": "nennen"
-    },
-    {
-      "person": "ihr",
-      "form": "nennt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "nennen"
-    }
-  ],
-  "hören": [
-    {
-      "person": "ich",
-      "form": "höre"
-    },
-    {
-      "person": "du",
-      "form": "hörst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "hört"
-    },
-    {
-      "person": "wir",
-      "form": "hören"
-    },
-    {
-      "person": "ihr",
-      "form": "hört"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "hören"
-    }
-  ],
-  "schreiben": [
-    {
-      "person": "ich",
-      "form": "schreibe"
-    },
-    {
-      "person": "du",
-      "form": "schreibst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "schreibt"
-    },
-    {
-      "person": "wir",
-      "form": "schreiben"
-    },
-    {
-      "person": "ihr",
-      "form": "schreibt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "schreiben"
-    }
-  ],
-  "brauchen": [
-    {
-      "person": "ich",
-      "form": "brauche"
-    },
-    {
-      "person": "du",
-      "form": "brauchst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "braucht"
-    },
-    {
-      "person": "wir",
-      "form": "brauchen"
-    },
-    {
-      "person": "ihr",
-      "form": "braucht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "brauchen"
-    }
-  ],
-  "stimmen": [
-    {
-      "person": "ich",
-      "form": "stimme"
-    },
-    {
-      "person": "du",
-      "form": "stimmst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "stimmt"
-    },
-    {
-      "person": "wir",
-      "form": "stimmen"
-    },
-    {
-      "person": "ihr",
-      "form": "stimmt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "stimmen"
-    }
-  ],
-  "tun": [
-    {
-      "person": "ich",
-      "form": "tue"
-    },
-    {
-      "person": "du",
-      "form": "tust"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "tut"
-    },
-    {
-      "person": "wir",
-      "form": "tun"
-    },
-    {
-      "person": "ihr",
-      "form": "tut"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "tun"
-    }
-  ],
-  "warten": [
-    {
-      "person": "ich",
-      "form": "warte"
-    },
-    {
-      "person": "du",
-      "form": "wartest"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "wartet"
-    },
-    {
-      "person": "wir",
-      "form": "warten"
-    },
-    {
-      "person": "ihr",
-      "form": "wartet"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "warten"
-    }
-  ],
-  "denken": [
-    {
-      "person": "ich",
-      "form": "denke"
-    },
-    {
-      "person": "du",
-      "form": "denkst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "denkt"
-    },
-    {
-      "person": "wir",
-      "form": "denken"
-    },
-    {
-      "person": "ihr",
-      "form": "denkt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "denken"
-    }
-  ],
-  "treffen": [
-    {
-      "person": "ich",
-      "form": "treffe"
-    },
-    {
-      "person": "du",
-      "form": "triffst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "trifft"
-    },
-    {
-      "person": "wir",
-      "form": "treffen"
-    },
-    {
-      "person": "ihr",
-      "form": "trefft"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "treffen"
-    }
-  ],
-  "bleiben": [
-    {
-      "person": "ich",
-      "form": "bleibe"
-    },
-    {
-      "person": "du",
-      "form": "bleibst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "bleibt"
-    },
-    {
-      "person": "wir",
-      "form": "bleiben"
-    },
-    {
-      "person": "ihr",
-      "form": "bleibt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "bleiben"
-    }
-  ],
-  "stehen": [
-    {
-      "person": "ich",
-      "form": "stehe"
-    },
-    {
-      "person": "du",
-      "form": "stehst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "steht"
-    },
-    {
-      "person": "wir",
-      "form": "stehen"
-    },
-    {
-      "person": "ihr",
-      "form": "steht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "stehen"
-    }
-  ],
-  "frühstücken": [
-    {
-      "person": "ich",
-      "form": "frühstücke"
-    },
-    {
-      "person": "du",
-      "form": "frühstückst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "frühstückt"
-    },
-    {
-      "person": "wir",
-      "form": "frühstücken"
-    },
-    {
-      "person": "ihr",
-      "form": "frühstückt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "frühstücken"
-    }
-  ],
-  "duschen": [
-    {
-      "person": "ich",
-      "form": "dusche"
-    },
-    {
-      "person": "du",
-      "form": "duschst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "duscht"
-    },
-    {
-      "person": "wir",
-      "form": "duschen"
-    },
-    {
-      "person": "ihr",
-      "form": "duscht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "duschen"
-    }
-  ],
-  "beginnen": [
-    {
-      "person": "ich",
-      "form": "beginne"
-    },
-    {
-      "person": "du",
-      "form": "beginnst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "beginnt"
-    },
-    {
-      "person": "wir",
-      "form": "beginnen"
-    },
-    {
-      "person": "ihr",
-      "form": "beginnt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "beginnen"
-    }
-  ],
-  "enden": [
-    {
-      "person": "ich",
-      "form": "ende"
-    },
-    {
-      "person": "du",
-      "form": "endest"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "endet"
-    },
-    {
-      "person": "wir",
-      "form": "enden"
-    },
-    {
-      "person": "ihr",
-      "form": "endet"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "enden"
-    }
-  ],
-  "dauern": [
-    {
-      "person": "ich",
-      "form": "dauere"
-    },
-    {
-      "person": "du",
-      "form": "dauerst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "dauert"
-    },
-    {
-      "person": "wir",
-      "form": "dauern"
-    },
-    {
-      "person": "ihr",
-      "form": "dauert"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "dauern"
-    }
-  ],
-  "fliegen": [
-    {
-      "person": "ich",
-      "form": "fliege"
-    },
-    {
-      "person": "du",
-      "form": "fliegst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "fliegt"
-    },
-    {
-      "person": "wir",
-      "form": "fliegen"
-    },
-    {
-      "person": "ihr",
-      "form": "fliegt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "fliegen"
-    }
-  ],
-  "machen": [
-    {
-      "person": "ich",
-      "form": "mache"
-    },
-    {
-      "person": "du",
-      "form": "machst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "macht"
-    },
-    {
-      "person": "wir",
-      "form": "machen"
-    },
-    {
-      "person": "ihr",
-      "form": "macht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "machen"
-    }
-  ],
-  "sehen": [
-    {
-      "person": "ich",
-      "form": "sehe"
-    },
-    {
-      "person": "du",
-      "form": "siehst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "sieht"
-    },
-    {
-      "person": "wir",
-      "form": "sehen"
-    },
-    {
-      "person": "ihr",
-      "form": "seht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "sehen"
-    }
-  ],
-  "finden": [
-    {
-      "person": "ich",
-      "form": "finde"
-    },
-    {
-      "person": "du",
-      "form": "findest"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "findet"
-    },
-    {
-      "person": "wir",
-      "form": "finden"
-    },
-    {
-      "person": "ihr",
-      "form": "findet"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "finden"
-    }
-  ],
-  "kennen": [
-    {
-      "person": "ich",
-      "form": "kenne"
-    },
-    {
-      "person": "du",
-      "form": "kennst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "kennt"
-    },
-    {
-      "person": "wir",
-      "form": "kennen"
-    },
-    {
-      "person": "ihr",
-      "form": "kennt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "kennen"
-    }
-  ],
-  "liegen": [
-    {
-      "person": "ich",
-      "form": "liege"
-    },
-    {
-      "person": "du",
-      "form": "liegst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "liegt"
-    },
-    {
-      "person": "wir",
-      "form": "liegen"
-    },
-    {
-      "person": "ihr",
-      "form": "liegt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "liegen"
-    }
-  ],
-  "glauben": [
-    {
-      "person": "ich",
-      "form": "glaube"
-    },
-    {
-      "person": "du",
-      "form": "glaubst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "glaubt"
-    },
-    {
-      "person": "wir",
-      "form": "glauben"
-    },
-    {
-      "person": "ihr",
-      "form": "glaubt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "glauben"
-    }
-  ],
-  "sollen": [
-    {
-      "person": "ich",
-      "form": "soll"
-    },
-    {
-      "person": "du",
-      "form": "sollst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "soll"
-    },
-    {
-      "person": "wir",
-      "form": "sollen"
-    },
-    {
-      "person": "ihr",
-      "form": "sollt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "sollen"
-    }
-  ],
-  "werden": [
-    {
-      "person": "ich",
-      "form": "werde"
-    },
-    {
-      "person": "du",
-      "form": "wirst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "wird"
-    },
-    {
-      "person": "wir",
-      "form": "werden"
-    },
-    {
-      "person": "ihr",
-      "form": "werdet"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "werden"
-    }
-  ],
-  "bestellen": [
-    {
-      "person": "ich",
-      "form": "bestelle"
-    },
-    {
-      "person": "du",
-      "form": "bestellst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "bestellt"
-    },
-    {
-      "person": "wir",
-      "form": "bestellen"
-    },
-    {
-      "person": "ihr",
-      "form": "bestellt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "bestellen"
-    }
-  ],
-  "schmecken": [
-    {
-      "person": "ich",
-      "form": "schmecke"
-    },
-    {
-      "person": "du",
-      "form": "schmeckst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "schmeckt"
-    },
-    {
-      "person": "wir",
-      "form": "schmecken"
-    },
-    {
-      "person": "ihr",
-      "form": "schmeckt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "schmecken"
-    }
-  ],
-  "kochen": [
-    {
-      "person": "ich",
-      "form": "koche"
-    },
-    {
-      "person": "du",
-      "form": "kochst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "kocht"
-    },
-    {
-      "person": "wir",
-      "form": "kochen"
-    },
-    {
-      "person": "ihr",
-      "form": "kocht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "kochen"
-    }
-  ],
-  "riechen": [
-    {
-      "person": "ich",
-      "form": "rieche"
-    },
-    {
-      "person": "du",
-      "form": "riechst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "riecht"
-    },
-    {
-      "person": "wir",
-      "form": "riechen"
-    },
-    {
-      "person": "ihr",
-      "form": "riecht"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "riechen"
-    }
-  ],
-  "verdienen": [
-    {
-      "person": "ich",
-      "form": "verdiene"
-    },
-    {
-      "person": "du",
-      "form": "verdienst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "verdient"
-    },
-    {
-      "person": "wir",
-      "form": "verdienen"
-    },
-    {
-      "person": "ihr",
-      "form": "verdient"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "verdienen"
-    }
-  ],
-  "fehlen": [
-    {
-      "person": "ich",
-      "form": "fehle"
-    },
-    {
-      "person": "du",
-      "form": "fehlst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "fehlt"
-    },
-    {
-      "person": "wir",
-      "form": "fehlen"
-    },
-    {
-      "person": "ihr",
-      "form": "fehlt"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "fehlen"
-    }
-  ],
-  "funktionieren": [
-    {
-      "person": "ich",
-      "form": "funktioniere"
-    },
-    {
-      "person": "du",
-      "form": "funktionierst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "funktioniert"
-    },
-    {
-      "person": "wir",
-      "form": "funktionieren"
-    },
-    {
-      "person": "ihr",
-      "form": "funktioniert"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "funktionieren"
-    }
-  ],
-  "gratulieren": [
-    {
-      "person": "ich",
-      "form": "gratuliere"
-    },
-    {
-      "person": "du",
-      "form": "gratulierst"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "gratuliert"
-    },
-    {
-      "person": "wir",
-      "form": "gratulieren"
-    },
-    {
-      "person": "ihr",
-      "form": "gratuliert"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "gratulieren"
-    }
-  ],
-  "freuen": [
-    {
-      "person": "ich",
-      "form": "freue"
-    },
-    {
-      "person": "du",
-      "form": "freust"
-    },
-    {
-      "person": "er, sie, es",
-      "form": "freut"
-    },
-    {
-      "person": "wir",
-      "form": "freuen"
-    },
-    {
-      "person": "ihr",
-      "form": "freut"
-    },
-    {
-      "person": "sie, Sie",
-      "form": "freuen"
+      "form": "kaufen ein"
     }
   ],
   "verkaufen": [
@@ -3741,6 +3637,110 @@
     {
       "person": "sie, Sie",
       "form": "reisen"
+    }
+  ],
+  "übernachten": [
+    {
+      "person": "ich",
+      "form": "übernachte"
+    },
+    {
+      "person": "du",
+      "form": "übernachtest"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "übernachtet"
+    },
+    {
+      "person": "wir",
+      "form": "übernachten"
+    },
+    {
+      "person": "ihr",
+      "form": "übernachtet"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "übernachten"
+    }
+  ],
+  "besichtigen": [
+    {
+      "person": "ich",
+      "form": "besichtige"
+    },
+    {
+      "person": "du",
+      "form": "besichtigst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "besichtigt"
+    },
+    {
+      "person": "wir",
+      "form": "besichtigen"
+    },
+    {
+      "person": "ihr",
+      "form": "besichtigt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "besichtigen"
+    }
+  ],
+  "kümmern": [
+    {
+      "person": "ich",
+      "form": "kümmere"
+    },
+    {
+      "person": "du",
+      "form": "kümmerst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "kümmert"
+    },
+    {
+      "person": "wir",
+      "form": "kümmern"
+    },
+    {
+      "person": "ihr",
+      "form": "kümmert"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "kümmern"
+    }
+  ],
+  "gewinnen": [
+    {
+      "person": "ich",
+      "form": "gewinne"
+    },
+    {
+      "person": "du",
+      "form": "gewinnst"
+    },
+    {
+      "person": "er, sie, es",
+      "form": "gewinnt"
+    },
+    {
+      "person": "wir",
+      "form": "gewinnen"
+    },
+    {
+      "person": "ihr",
+      "form": "gewinnt"
+    },
+    {
+      "person": "sie, Sie",
+      "form": "gewinnen"
     }
   ]
 }

@@ -325,14 +325,14 @@
     "unit_id": "U65",
     "rule": "Many verbs for the daily routine take me in the I form: me levanto is I get up, me ducho is I shower. In the dictionary they end in -se: levantarse, ducharse. Some verbs change their vowel when the stress falls on it: empezar gives empiezo and empieza, volver gives vuelvo. Hacer has the I form hago. Desayuno is both breakfast and I have breakfast. Luego means then or later: Luego vuelvo. A las… says at what time: Me levanto a las siete.",
     "example_sentence_ids": "S65101;S65104;S65115",
-    "conjugation_lemma": "volver;cenar;desayunar",
+    "conjugation_lemma": "volver",
     "status": "live"
   },
   {
     "unit_id": "U73",
     "rule": "For a sport, Latin America says jugar and the sport: Juego tenis, Juego básquetbol. Spain adds a: Juego al tenis. Juego is I play; it is also the word for game. To watch television is ver la televisión, and to listen to the radio is escuchar la radio. Corro is I run, from correr. After me gusta or sé the verb stays in its dictionary form: Me gusta esquiar, Sé esquiar.",
     "example_sentence_ids": "S73301;S73017;S73021",
-    "conjugation_lemma": "correr;esquiar",
+    "conjugation_lemma": "correr",
     "status": "live"
   },
   {
@@ -367,21 +367,21 @@
     "unit_id": "U68",
     "rule": "Announcements have their own words. Señores pasajeros addresses the passengers, and Atención, por favor asks them to listen. El tren tiene retraso means the train is delayed. Entrar is to go in, and No entrar on a sign means keep out. A noun ending in a consonant or a stressed vowel adds -es or -s for the plural: autobús, autobuses; taxi, taxis. Usted is used with passengers: Su pasaporte, por favor.",
     "example_sentence_ids": "S68103;S68104;S68024",
-    "conjugation_lemma": "entrar",
+    "conjugation_lemma": "",
     "status": "live"
   },
   {
     "unit_id": "U69",
     "rule": "An instruction to one person you call tú uses the same form as he or she does: escucha (listen), mira (look), contesta (answer), elige (choose), abre (open), cierra (close). Mira esto means look at this. In class, en parejas is in pairs and en grupos is in groups. Vamos a and a verb says what the class is about to do: Vamos a practicar. La tarea is homework (los deberes in Spain).",
     "example_sentence_ids": "S69009;S69113;S69107",
-    "conjugation_lemma": "practicar;cambiar",
+    "conjugation_lemma": "",
     "status": "live"
   },
   {
     "unit_id": "U75",
     "rule": "Words for seeing a place. Visitar is to visit: Quiero visitar la catedral. El centro is the center of town, or downtown: Vivo en el centro. Un plano is a street map. La gente, people, is singular in Spanish, so the verb is too: La gente es buena. Un turista and una turista: the word ends in -a for a man or a woman. Famoso goes before or after its noun: un monumento famoso.",
     "example_sentence_ids": "S75109;S75116;S75018",
-    "conjugation_lemma": "visitar",
+    "conjugation_lemma": "",
     "status": "live"
   },
   {
@@ -402,7 +402,7 @@
     "unit_id": "U26",
     "rule": "Getting someone's attention politely. Disculpe is for a stranger or anyone you call usted; disculpa is for a friend. Necesito is I need, and necesita is he, she or you (usted) need: Necesito ayuda. Ayuda is help, and ayudar is to help. ¿Me puedes ayudar? asks a friend for help; ¿Me puede ayudar? asks a stranger.",
     "example_sentence_ids": "S26002;S26007;S26012",
-    "conjugation_lemma": "necesitar;ayudar",
+    "conjugation_lemma": "necesitar",
     "status": "live"
   },
   {
@@ -437,7 +437,7 @@
     "unit_id": "U84",
     "rule": "How you travel is en: en carro, en bicicleta, en metro. On foot is a pie, and Voy andando means I walk there. To drive is manejar (conducir in Spain): manejo, maneja. Distance takes a: Está a un kilómetro, La playa está a quince kilómetros. Al norte, al sur and al oeste say where something lies; en el norte says where you are.",
     "example_sentence_ids": "S84010;S84009;S84107",
-    "conjugation_lemma": "manejar",
+    "conjugation_lemma": "",
     "status": "live"
   },
   {
@@ -500,7 +500,7 @@
     "unit_id": "U95",
     "rule": "At a hotel. Una habitación doble is a double room and una habitación individual is a single. Quisiera asks politely: Quisiera una habitación doble. Con says what a room comes with: con aire acondicionado, con calefacción. Una reserva is a reservation, and la recepción is the front desk. Rentar is to rent (alquilar in Spain): Tengo que rentar un carro. La renta is the rent. In ads, exterior means facing the street, interior facing inside, and céntrico near the center.",
     "example_sentence_ids": "S95203;S95002;S95302",
-    "conjugation_lemma": "rentar",
+    "conjugation_lemma": "",
     "status": "live"
   }
 ]
