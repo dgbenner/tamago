@@ -311,6 +311,10 @@ button.chip-drag {
     opacity: 0;
     transition: opacity 180ms ease-out;
   }
+  /* The returning learner's line (2026-11-15): fades in after the wordmark has drawn. */
+  .splash-line {
+    animation: splash-line-in 400ms ease-out 900ms both;
+  }
   /* A dash longer than the stroke, offset past its end: nothing shows, not even a round cap, until it moves. */
   .splash-draw {
     stroke-dasharray: 1 2;
@@ -410,6 +414,9 @@ button.chip-drag {
     .splash-draw {
       animation: none;
       stroke-dashoffset: 0;
+    }
+    .splash-line {
+      animation: none;
     }
     .splash {
       transition: background-color 300ms linear;
@@ -541,6 +548,9 @@ button.chip-drag {
 }
 @keyframes toast-out {
   to { transform: translateY(calc(-100% - 1rem)); opacity: 0; visibility: hidden; }
+}
+@keyframes splash-line-in {
+  from { opacity: 0; }
 }
 @keyframes splash-draw {
   to { stroke-dashoffset: 0; }

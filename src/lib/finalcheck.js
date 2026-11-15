@@ -4,16 +4,28 @@
 // taken from exam papers. Listening, reading and writing are scored; speaking is practice and never graded (R14).
 import { shuffle } from './lesson.js'
 
+// official: the body's page for the exam; about (and note): plain facts for Ready for the Real Exam? (Dan, 2026-11-15).
 export const EXAMS = {
-  fr: { name: 'DELF A1', body: 'France Éducation international', samples: 'https://www.france-education-international.fr/diplome/delf-tout-public/niveau-a1/exemples-sujets',
+  fr: { name: 'DELF A1', body: 'France Éducation international', official: 'https://www.france-education-international.fr/diplome/delf-tout-public',
+    about: 'The DELF A1 is the first level of the DELF, the French diplomas of France\'s Ministry of Education, set by France Éducation international. It has four papers: listening, reading, writing and speaking.',
+    samples: 'https://www.france-education-international.fr/diplome/delf-tout-public/niveau-a1/exemples-sujets',
     format: 'Numbers, prices and short lines to listen to; a notice, a message, a timetable and a menu to read; a form and a short message to write; then speaking.' },
-  es: { name: 'DELE A1', body: 'Instituto Cervantes', samples: 'https://cervantes.org/es/examenes/dele' },
-  de: { name: 'Goethe-Zertifikat A1: Start Deutsch 1', body: 'Goethe-Institut', samples: 'https://www.goethe.de/de/spr/prf/ueb/pa1.html' },
+  es: { name: 'DELE A1', body: 'Instituto Cervantes', official: 'https://examenes.cervantes.es/es/dele/que-es',
+    about: 'The DELE A1 is the first level of the DELE, the official Spanish diplomas the Instituto Cervantes awards for Spain\'s Ministry of Education. It has four tests: reading, listening, writing and speaking.',
+    samples: 'https://cervantes.org/es/examenes/dele' },
+  de: { name: 'Goethe-Zertifikat A1: Start Deutsch 1', body: 'Goethe-Institut', official: 'https://www.goethe.de/en/spr/prf/gzsd1.html',
+    about: 'Goethe-Zertifikat A1: Start Deutsch 1 is the Goethe-Institut\'s exam for the first level of German. It has four parts: listening, reading, writing and speaking.',
+    samples: 'https://www.goethe.de/de/spr/prf/ueb/pa1.html' },
   // Italian (2026-11-14): CELI Impatto, from the Profilo's own centre; exam and link for Dan to confirm.
-  it: { name: 'CELI Impatto (A1)', body: 'Università per Stranieri di Perugia', samples: 'https://www.cvcl.it' },
+  it: { name: 'CELI Impatto (A1)', body: 'Università per Stranieri di Perugia', official: 'https://www.cvcl.it',
+    about: 'CELI Impatto is the A1 exam of the CVCL, the language certification centre of the Università per Stranieri di Perugia.',
+    samples: 'https://www.cvcl.it' },
   // Brazilian Portuguese (2026-11-14): Brazil's own exam, Celpe-Bras, has no A1; ACESSO is the A1 exam for Portuguese
   // (European). Exam and link for Dan to confirm.
-  pt: { name: 'ACESSO (A1)', body: 'CAPLE, Universidade de Lisboa', samples: 'https://caple.letras.ulisboa.pt' },
+  pt: { name: 'ACESSO (A1)', body: 'CAPLE, Universidade de Lisboa', official: 'https://caple.letras.ulisboa.pt',
+    about: 'ACESSO is the A1 exam of CAPLE, the Portuguese certification centre of the Universidade de Lisboa.',
+    note: 'ACESSO is set in European Portuguese; Brazil\'s own exam, Celpe-Bras, has no A1 level. This course teaches Brazilian Portuguese.',
+    samples: 'https://caple.letras.ulisboa.pt' },
 }
 
 export const PARTS = [

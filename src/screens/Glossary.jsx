@@ -3,6 +3,10 @@ import { recordingOf } from '../lib/lesson.js'
 import { play } from '../lib/audio.js'
 import { IconBack, IconSpeaker } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
+import { tables } from '../lib/content.js'
+import { formLemmas } from '../lib/word-hints.js'
+
+let lemmas = null
 
 // The Glossary (Dan's test notes, Pass 3): one tool for vocabulary. It opens on your own words with how well you know
 // each (Learned, Missed, Fading); "Show All A1 Words" adds the rest of the level as Not Yet. A2 and later join the level
@@ -25,7 +29,10 @@ export default function Glossary({ words, groups, statusOf, examplesOf, tableOf,
   const shown = all ? words : met
   const counts = Object.fromEntries(ORDER.map((k) => [k, shown.filter((w) => statusOf(w.word_id) === k).length]))
   const q = query.trim().toLowerCase()
-  const visible = shown.filter((w) => (!only || statusOf(w.word_id) === only) && (!q || w.form.toLowerCase().includes(q) || String(w.hint).toLowerCase().includes(q)))
+  // A form of a taught verb finds the verb's words too (Dan, 2026-11-15), whether or not that form is a course word.
+  lemmas ??= formLemmas(tables.conjugations)
+  const verb = lemmas.get(q)
+  const visible = shown.filter((w) => (!only || statusOf(w.word_id) === only) && (!q || w.form.toLowerCase().includes(q) || String(w.hint).toLowerCase().includes(q) || (verb && (w.lemma === verb || w.form === verb))))
   const pick = (k) => setOnly(only === k ? null : k)
 
   return (

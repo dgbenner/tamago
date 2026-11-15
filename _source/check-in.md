@@ -4,6 +4,10 @@ Updated November 15, 2026. **French A1 is complete: Parts 5 and 6 are built and 
 
 ## Done since last check-in
 
+- **Conversation partner, version 2 (all courses):** five A1 task scenes from your words, lines heard first at natural speed with the text hidden, voice by default, a quiet answer-time ring, four help phrases, 6 to 8 exchanges, and a summary (answer time and change, help used, 2 or 3 gentle corrections). 5 conversations a day per device.
+
+- **Improvements batch (all courses):** verb-form hints, clearer device voices, progress line on the opening screen, Ready for the Real Exam?, Time Learning on Progress, compact phone tools, Voice Lab per-file tags.
+
 - **Fable's Parts 5 and 6 review applied:** 397 reviewed Tatoeba lines brought in, 40 drafts swapped, 3 draft fixes, R503 and R610 fixed, rappeler and asseoir tables fixed, 22 senses re-picked or hinted. French A1 is finished: 4,464 sentences (890 originals), core 581 of 600 (97%). Both audits clean.
 - **Pass toast** shows the score; **labs** on the live site from the Developer page.
 

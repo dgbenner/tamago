@@ -12,7 +12,10 @@ export const TURN_LIMIT = 14 // learner turns, help taps included (the server ho
 export async function requestTurn(body, kind = 'turn') {
   try {
     const r = await fetch(URL_, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ ...body, kind }) })
-    if (!r.ok) return { error: r.status === 429 ? 'busy' : 'failed' }
+    if (!r.ok) {
+      const why = await r.json().then((j) => j.error).catch(() => null)
+      return { error: why === 'monthly' ? 'monthly' : r.status === 429 ? 'busy' : 'failed' }
+    }
     return { result: (await r.json()).result ?? null }
   } catch { return { error: 'offline' } }
 }
@@ -100,6 +103,106 @@ export const SCENES = {
     { id: 'neighbour', title: 'A New Neighbour', about: 'Someone has just moved in next door. Say hello and get to know them.', setting: 'The learner meets someone who has just moved in next door, outside the house.', ai: 'the new neighbour, chatty, with a family and a dog', learner: 'the person who lives next door', keys: ['oi', 'casa', 'família', 'crianças', 'cachorro'] },
     { id: 'way', title: 'Finding the Way', about: 'You\'re in town looking for the park. Ask someone the way.', setting: 'In town. The learner is looking for the park and asks someone in the street.', ai: 'a local who knows the town well', learner: 'a visitor', keys: ['onde', 'parque', 'escola', 'restaurante', 'cidade'] },
   ],
+}
+
+// ---- Conversation partner, version 2 (Dan, 2026-11-15; all courses) ----
+// Fast recall, natural-speed listening, speaking without freezing. Each scene is one A1 task, using only the words the
+// learner has met; the partner's lines are heard first (text hidden, Slow and Show Words as in lessons); voice by
+// default, typing always; a quiet answer-time ring; four help phrases one tap away; 6 to 8 exchanges; a summary.
+
+// The four help phrases, always one tap away, first in the row (the help circles' others follow, as before).
+// help: what the server asks of Claude (server/converse.mjs HELP).
+export const TALK_HELP = {
+  fr: [
+    { help: 'repeat', text: 'Vous pouvez répéter ?' },
+    { help: 'slower', text: "Plus lentement, s'il vous plaît." },
+    { help: 'spell', text: "Ça s'écrit comment ?", withWord: (w) => `« ${w} », ça s'écrit comment ?` },
+    { help: 'meaning', text: "Qu'est-ce que ça veut dire ?", withWord: (w) => `Qu'est-ce que « ${w} » veut dire ?` },
+  ],
+  es: [
+    { help: 'repeat', text: '¿Puede repetir?' },
+    { help: 'slower', text: 'Más despacio, por favor.' },
+    { help: 'spell', text: '¿Cómo se escribe?', withWord: (w) => `¿Cómo se escribe «${w}»?` },
+    { help: 'meaning', text: '¿Qué significa?', withWord: (w) => `¿Qué significa «${w}»?` },
+  ],
+  de: [
+    { help: 'repeat', text: 'Können Sie das wiederholen?' },
+    { help: 'slower', text: 'Langsamer, bitte.' },
+    { help: 'spell', text: 'Wie schreibt man das?', withWord: (w) => `Wie schreibt man „${w}“?` },
+    { help: 'meaning', text: 'Was bedeutet das?', withWord: (w) => `Was bedeutet „${w}“?` },
+  ],
+  it: [
+    { help: 'repeat', text: 'Può ripetere?' },
+    { help: 'slower', text: 'Più lentamente, per favore.' },
+    { help: 'spell', text: 'Come si scrive?', withWord: (w) => `Come si scrive «${w}»?` },
+    { help: 'meaning', text: 'Cosa significa?', withWord: (w) => `Cosa significa «${w}»?` },
+  ],
+  pt: [
+    { help: 'repeat', text: 'Pode repetir?' },
+    { help: 'slower', text: 'Mais devagar, por favor.' },
+    { help: 'spell', text: 'Como se escreve?', withWord: (w) => `Como se escreve “${w}”?` },
+    { help: 'meaning', text: 'O que significa?', withWord: (w) => `O que significa “${w}”?` },
+  ],
+}
+// The whole help row: the four first, then the help circles' phrases the learner has opened that aren't the same ask.
+export const helpRow = (courseId, helpLevel) => [
+  ...(TALK_HELP[courseId] ?? []),
+  ...(HELP_PHRASES[courseId] ?? []).filter((h) => h.level <= helpLevel && !(TALK_HELP[courseId] ?? []).some((t) => t.help === h.help)),
+]
+
+// Five scenes, one A1 task each. keys: course words the task turns on; a key the course doesn't have yet is skipped
+// (Italian and Portuguese have Part 1 only), so a scene fits more courses as they grow.
+const TASKS = [
+  { id: 'food', title: 'Ordering Food', about: 'Order something to eat and drink, then ask for the bill', setting: 'A small restaurant or café at lunchtime. The learner orders food and a drink, and at the end asks to pay.', ai: 'the waiter, friendly', learner: 'a customer' },
+  { id: 'way', title: 'Asking Directions', about: 'Ask someone in town the way to a place', setting: 'In the street in town. The learner asks a local the way to a place (the station, a shop, a street) and checks how far it is.', ai: 'a local who knows the town', learner: 'a visitor' },
+  { id: 'intro', title: 'Introducing Yourself', about: 'Meet someone new: names, where you live, what you do', setting: 'At a friendly get-together. The learner meets someone new; they swap names, where they live, age or work.', ai: 'someone friendly the learner has just met', learner: 'a guest' },
+  { id: 'shop', title: 'Shopping', about: 'Find something in a shop, ask the price and buy it', setting: 'A small shop. The learner looks for something, asks how much it costs and buys it.', ai: 'the shop assistant', learner: 'a customer' },
+  { id: 'plan', title: 'Making a Plan', about: 'Agree with a friend on what to do, which day and what time', setting: 'A friend calls the learner to make a plan: what to do together, which day and at what time.', ai: 'a friend of the learner', learner: 'the friend' },
+]
+const KEYS = {
+  fr: { food: ['manger', 'pain', 'eau', 'café', 'addition', 'voudrais'], way: ['où', 'rue', 'gauche', 'droite', 'loin', 'gare'], intro: ['appelle', 'nom', 'habite', 'ans', 'travaille', 'bonjour'], shop: ['combien', 'euros', 'acheter', 'prix', 'coûte', 'voudrais'], plan: ['demain', 'samedi', 'cinéma', 'heure', 'ensemble', 'libre'] },
+  es: { food: ['comer', 'pan', 'agua', 'café', 'cuenta', 'quiero'], way: ['dónde', 'calle', 'izquierda', 'derecha', 'lejos', 'estación'], intro: ['llamo', 'nombre', 'vivo', 'años', 'trabajo', 'hola'], shop: ['cuánto', 'pesos', 'comprar', 'precio', 'cuesta', 'quiero'], plan: ['mañana', 'sábado', 'cine', 'hora', 'juntos', 'libre'] },
+  de: { food: ['essen', 'Brot', 'Wasser', 'Kaffee', 'bezahlen', 'möchte'], way: ['wo', 'Straße', 'links', 'rechts', 'weit', 'Bahnhof'], intro: ['heiße', 'Name', 'wohne', 'Jahre', 'arbeite', 'hallo'], shop: ['wie viel', 'Euro', 'kaufen', 'Preis', 'kostet', 'möchte'], plan: ['morgen', 'Samstag', 'Kino', 'Uhr', 'zusammen', 'Zeit'] },
+  it: { food: ['mangiare', 'pane', 'acqua', 'caffè', 'conto', 'vorrei'], way: ['dove', 'strada', 'sinistra', 'destra', 'lontano', 'stazione'], intro: ['chiamo', 'nome', 'abito', 'anni', 'lavoro', 'ciao'], shop: ['quanto', 'euro', 'comprare', 'prezzo', 'costa', 'vorrei'], plan: ['domani', 'sabato', 'cinema', 'ora', 'insieme', 'libero'] },
+  pt: { food: ['comer', 'pão', 'água', 'café', 'conta', 'quero'], way: ['onde', 'rua', 'esquerda', 'direita', 'longe', 'estação'], intro: ['chamo', 'nome', 'moro', 'anos', 'trabalho', 'oi'], shop: ['quanto', 'reais', 'comprar', 'preço', 'custa', 'quero'], plan: ['amanhã', 'sábado', 'cinema', 'hora', 'juntos', 'livre'] },
+}
+export const TASK_SCENES = Object.fromEntries(Object.entries(KEYS).map(([c, k]) => [c, TASKS.map((t) => ({ ...t, task: t.title, keys: k[t.id] }))]))
+
+// A scene fits when the course has at least 3 of its key words and the learner has met at least two thirds of them.
+export const FIT_SHARE = 2 / 3
+export function sceneFit(scene, words, metIds) {
+  const keys = scene.keys.map((k) => words.find((w) => w.form === k && w.status !== 'off')).filter(Boolean)
+  const met = keys.filter((w) => metIds.has(w.word_id)).length
+  return { have: keys.length, met, fits: keys.length >= 3 && met >= keys.length * FIT_SHARE }
+}
+
+// Length: 6 to 8 exchanges (a learner answer and the partner's line; help taps don't count), about 2 to 3 minutes.
+export const EXCHANGES = { wrapFrom: 6, max: 8 }
+
+// Cost guard: a daily cap per device, across courses (localStorage, so it needs no account), well inside the Tamago
+// workspace's monthly limit on Anthropic's side. One conversation is about 10 short Haiku 5.5 calls with the long part
+// of the prompt cached. Counted when the partner's first line arrives.
+export const DAILY_CAP = 5
+const CAP_KEY = 'tamago-talk-day'
+const dayOf = (now = new Date()) => `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
+export function talksToday(store = globalThis.localStorage, now = new Date()) {
+  try { const v = JSON.parse(store.getItem(CAP_KEY) ?? 'null'); return v?.day === dayOf(now) ? v.count : 0 } catch { return 0 }
+}
+export const talksLeft = (store, now) => Math.max(0, DAILY_CAP - talksToday(store, now))
+export function countTalk(store = globalThis.localStorage, now = new Date()) {
+  try { store.setItem(CAP_KEY, JSON.stringify({ day: dayOf(now), count: talksToday(store, now) + 1 })) } catch { /* private mode: no cap kept */ }
+}
+
+// Average answer time in seconds (one decimal) and the change since last time, in plain, gentle words.
+export function answerTimes(times, last = null) {
+  if (!times.length) return null
+  const avg = Math.round((times.reduce((a, b) => a + b, 0) / times.length) / 100) / 10
+  let change = 'First time measured'
+  if (last != null) {
+    const d = Math.round((avg - last) * 10) / 10
+    change = Math.abs(d) < 0.3 ? 'About the same as last time' : d < 0 ? `${Math.abs(d)} s quicker than last time` : `${d} s longer than last time`
+  }
+  return { avg, line: `${avg} s on average`, change }
 }
 
 // Speeds for the device voice; Plus lentement drops the next line to the slow rate.

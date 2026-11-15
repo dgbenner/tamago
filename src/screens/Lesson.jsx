@@ -6,13 +6,15 @@ import { startPairs, tapPair } from '../lib/match-pairs.js'
 import { accentMisses, checkTyped, diffMarks } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
-import { audioKey, courseVoiceName, filesIn, play, preload, stop } from '../lib/audio.js'
-import { genderOf, isChild, speakerKey, voiceKey } from '../lib/voice-gender.js'
+import { audioKey, courseVoiceName, cue, filesIn, play, preload, stop } from '../lib/audio.js'
+import { whoSpeaks } from '../lib/voice-gender.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconMic, IconSpeaker, IconWhy } from './icons.jsx'
 import { questionLabel } from '../lib/question-names.js'
 import AudioHelp from './AudioHelp.jsx'
 import { usePlaying } from '../lib/use-playing.js'
 import { TL, course } from '../lib/course.js'
+import { tables } from '../lib/content.js'
+import { courseHeading } from '../lib/instructions.js'
 import { FormFill, ListenNumber, ReadText, WriteMessage } from './A1Tasks.jsx'
 
 const PROMPT = {
@@ -31,6 +33,21 @@ function headingFor(q, { hideFrench, typing }) {
   if (hideFrench) return q.type === 'QT03' ? 'Listen and Pick the Meaning' : 'Listen and Translate'
   if (q.type === 'QT07' && (typing || q.typed)) return 'Type What You Hear'
   return PROMPT[q.type]
+}
+
+// The heading in the course language from Part 3 on (src/lib/instructions.js), phased in by part; a tap shows the
+// English beside it, and screen readers always hear the English too.
+const partOf = (unitId) => Number(tables?.units?.find((u) => u.unit_id === unitId)?.part || 0)
+function Heading({ english, unitId }) {
+  const [open, setOpen] = useState(false)
+  const own = courseHeading(english, partOf(unitId), course.id)
+  if (!own) return english
+  return (
+    <>
+      <button type="button" lang={TL} onClick={() => setOpen(!open)} aria-expanded={open} data-course-heading className="text-left decoration-line decoration-dotted decoration-2 underline-offset-4 hover:underline">{own}</button>
+      {open ? <span lang="en" className="ml-2 text-base font-normal text-muted" data-heading-english>{english}</span> : <span lang="en" className="sr-only"> ({english})</span>}
+    </>
+  )
 }
 
 export default function Lesson({ session, content, settings, seenWords, cantListen, onAnswer, onHint, onFlag, onExit, onAdvance, onFinish, onCantNow }) {
@@ -68,11 +85,15 @@ export default function Lesson({ session, content, settings, seenWords, cantList
     // The verdict is one word, Right! or Incorrect (Dan, 2026-11-12); the rotating feedback lines (R18) are gone.
     const phrase = null
     const full = { ...r, hidden: hideFrench && !wordsShown, wordsShown, phrase }
+    // Interface sounds (Dan, 2026-11-15): Check gets the button's sound only when right, never on a wrong answer; Match
+    // Pairs has its own sound per pair, so its finish gets none.
+    if (r.correct && q.type !== 'QT01' && !r.testSkip) cue('button')
     setResult(full)
     onAnswer(q, full)
   }
 
   const advance = () => {
+    cue('button') // Continue
     const nextIndex = session.index + 1
     setResult(null)
     if (nextIndex >= session.queue.length) onFinish(session)
@@ -176,7 +197,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         </div>
         {/* The question type while Developer is on: in the top bar on phones, so it never covers content (craft review,
             2026-11-14); lower left on wide screens. */}
-        {settings.developer !== 'off' && <p data-qtype className="pointer-events-none absolute right-4 -bottom-2.5 text-[0.625rem] text-muted lg:hidden">{questionLabel(q.type, course.name)}</p>}
+        {settings.developer !== 'off' && <p data-qtype className="pointer-events-none absolute right-4 -bottom-2.5 text-[0.625rem] text-muted lg:hidden">{questionLabel(q.type, course.name)}{voiceLabel(q)}</p>}
       </header>
 
       {/* A new question's parts appear top to bottom, the heading first, fast; only opacity and a small lift animate, so
@@ -186,7 +207,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         {q.part && <p className="-mb-3 text-sm font-medium text-muted">{PART_LABEL[q.part]}</p>}
         {/* Answer the Question is a chat (Dan, 2026-11-14): no instruction line; the heading stays for screen readers. */}
         <div className={q.type === 'QT09' ? 'sr-only' : 'flex items-center gap-2'}>
-          <h1 ref={headingRef} tabIndex={-1} className="text-xl font-semibold outline-none">{headingFor(q, { hideFrench, typing })}</h1>
+          <h1 ref={headingRef} tabIndex={-1} className="text-xl font-semibold outline-none"><Heading key={q.qid} english={headingFor(q, { hideFrench, typing })} unitId={q.unit_id ?? session.unit_id} /></h1>
           {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="tag"><span className="new-dot" aria-hidden="true" />New</span>}
         </div>
         <Question key={q.qid} {...props} />
@@ -201,7 +222,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         </div>
       )}
       {/* The question type, lower left, while Developer is on (Dan, 2026-11-12): "QT11 · Type What You Hear". */}
-      {settings.developer !== 'off' && <p data-qtype className="pointer-events-none fixed bottom-[max(0.25rem,env(safe-area-inset-bottom))] left-2 z-30 hidden text-xs text-muted lg:block">{questionLabel(q.type, course.name)}</p>}
+      {settings.developer !== 'off' && <p data-qtype className="pointer-events-none fixed bottom-[max(0.25rem,env(safe-area-inset-bottom))] left-2 z-30 hidden text-xs text-muted lg:block">{questionLabel(q.type, course.name)}{voiceLabel(q)}</p>}
 
       {result && !result.testSkip && <AnswerBar q={q} result={result} cantListen={cantListen} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id, result)} onContinue={advance} />}
     </main>
@@ -282,11 +303,13 @@ const SPEAKERS = {
 }
 const CHILDREN = { female: 'child-female-chestnut', male: 'child-male-glasses' }
 const speakerUrl = (name) => `/images/speakers/${name}.webp`
+// The Developer label names who is speaking (Dan, 2026-11-15): a recording's speaker, else the device voice.
+const voiceLabel = (q) => (!q?.audio ? '' : ` · ${q.audio.file ? (q.audio.speaker || 'recording') : (courseVoiceName() ?? 'no voice')}`)
 export const speakerFor = (q, voiceName = courseVoiceName()) => {
-  const key = q?.audio?.file ? speakerKey(q.audio.speaker) : voiceName ? voiceKey(voiceName) : null
-  const gender = genderOf(key)
+  // A recording's own tag beats its person's (Dan, 2026-11-15); the Child tick follows the person.
+  const { gender, child } = whoSpeaks(q?.audio?.file ? { file: q.audio.file, speaker: q.audio.speaker } : { voice: voiceName })
   // A child's voice gets a child (Dan, 2026-11-14): the girl or the boy, by the voice's gender.
-  if (gender && isChild(key)) return speakerUrl(CHILDREN[gender])
+  if (child) return speakerUrl(CHILDREN[gender])
   const pool = gender ? SPEAKERS[gender] : [...SPEAKERS.female, ...SPEAKERS.male]
   const n = [...String(q?.sentence_id ?? q?.qid ?? '')].reduce((t, ch) => t * 31 + ch.charCodeAt(0) >>> 0, 7)
   return speakerUrl(pool[n % pool.length])
@@ -483,6 +506,7 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
   const tap = (side, value) => {
     const { state: next, outcome, form: f } = tapPair(st, q.pairs, side, value)
     setSt(next)
+    if (outcome === 'match') cue('match') // skipped when the word just tapped is playing (audio.js)
     if (outcome === 'match' && next.matched.length === q.pairs.length) {
       // The last pair animates out like the others before the answer bar comes; nothing is left on the board.
       setRevealed(null)
@@ -561,6 +585,24 @@ function FillBlank({ q, result, onAnswer, newWords, onHint }) {
   )
 }
 
+// Answer the Question's hint (Dan, 2026-11-15): how a reply could start, from the fullest listed reply: all its words
+// but the last, three at most, then "…" ("Je m'appelle…" for "Je m'appelle Paul."); a one-word reply gives its first
+// letters. Showing it never costs anything: the answer is judged as before, and the tap is logged like a word hint.
+export function replyStart(q) {
+  const replies = (q.answers ?? []).map((a) => String(a.french ?? '')).filter(Boolean)
+  const full = replies.sort((a, b) => b.length - a.length)[0]
+  if (!full) return null
+  const words = full.replace(/[.!?…]+\s*$/, '').split(/\s+/).filter(Boolean)
+  if (words.length === 1) return `${words[0].slice(0, Math.min(2, words[0].length - 1)) || words[0][0]}…`
+  return `${words.slice(0, Math.min(3, words.length - 1)).join(' ').replace(/[,;:]$/, '')}…`
+}
+function ReplyHint({ q, onHint }) {
+  const [shown, setShown] = useState(false)
+  const start = replyStart(q)
+  if (shown) return <p data-reply-hint className="-mt-2 ml-[4.5rem] text-muted"><span className="sr-only">A reply could start: </span><span lang={TL}>{start}</span></p>
+  return <button type="button" data-reply-hint-link onClick={() => { setShown(true); onHint({ word_id: null, kind: 'reply_start' }) }} className="-mt-2 ml-[4.5rem] self-start text-sm text-muted underline decoration-line underline-offset-4">Hint</button>
+}
+
 export function promptFor(q, { newWords, hideFrench, result, onHint, wordsShown, onShowWords }) {
   if (q.type === 'QT06') {
     return hideFrench && !result ? <AudioHelp audio={q.audio} words={<><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>} wordsShown={wordsShown} onShowWords={onShowWords} /> : <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>
@@ -570,8 +612,10 @@ export function promptFor(q, { newWords, hideFrench, result, onHint, wordsShown,
     // under it. No quotes: the bubble already marks it as speech (Dan, 2026-11-14).
     // Every word still opens its hint on a tap; only new words carry the dotted line (craft review, 2026-11-14).
     const words = <FrenchText q={q} newWords={newWords} onHint={onHint} markNewOnly />
-    if (q.variant !== 'V0903' && !result) return <SpeakerBubble speaker={speakerFor(q)}><div className="flex flex-col gap-3"><AudioHelp bare audio={q.audio} label="Play the question" words={words} wordsShown={wordsShown} onShowWords={onShowWords} /></div></SpeakerBubble>
-    return <SpeakerBubble speaker={speakerFor(q)}>{words}</SpeakerBubble>
+    // The reply hint (Dan, 2026-11-15): until the answer, a faint Hint link under the question.
+    const hint = !result && replyStart(q) ? <ReplyHint key={q.qid} q={q} onHint={onHint} /> : null
+    if (q.variant !== 'V0903' && !result) return <>{<SpeakerBubble speaker={speakerFor(q)}><div className="flex flex-col gap-3"><AudioHelp bare audio={q.audio} label="Play the question" words={words} wordsShown={wordsShown} onShowWords={onShowWords} /></div></SpeakerBubble>}{hint}</>
+    return <><SpeakerBubble speaker={speakerFor(q)}>{words}</SpeakerBubble>{hint}</>
   }
   if ((q.type === 'QT07' || q.type === 'QT11') && !result) return <AudioHelp audio={q.audio} words={<p lang={TL} className="text-2xl leading-relaxed">{q.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} />
   if (q.type === 'QT07' || q.type === 'QT11') return <SpeakerButton audio={q.audio} large label="Play the sentence" />
@@ -607,7 +651,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
   useEffect(() => { setTyped('') }, [q.qid])
   useEffect(() => {
     if (typing || result || !q.chips) return undefined
-    const place = (i) => { setPicked((p) => [...p, i]); setTyped('') }
+    const place = (i) => { setPicked((p) => [...p, i]); setTyped(''); cue('slot') }
     const onKey = (e) => {
       if (e.metaKey || e.ctrlKey || e.altKey || e.repeat) return
       const t = e.target
@@ -671,7 +715,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
           <div ref={drag.bankRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label="Words to choose from" className={`flex flex-wrap gap-2 rounded-xl ${drag.over === 'bank' ? 'drop-bank' : ''}`}>
             {q.chips.map((chip, i) => (
               <button key={i} data-drag-chip disabled={picked.includes(i) || Boolean(result)} onPointerDown={(e) => drag.begin(e, i)}
-                onClick={(e) => { if (drag.ate()) return; focusNeighbour(e.currentTarget); setTyped(''); setPicked([...picked, i]) }}
+                onClick={(e) => { if (drag.ate()) return; focusNeighbour(e.currentTarget); setTyped(''); setPicked([...picked, i]); cue('slot') }}
                 className={`chip chip-drag ${picked.includes(i) || drag.chip === i ? 'opacity-25' : ''} ${lit.has(i) ? 'chip-lit' : ''}`}>{chip}</button>
             ))}
           </div>
@@ -787,6 +831,7 @@ function useChipDrag({ picked, setPicked, chips, lang, disabled, onDrop }) {
     if (next.join() === before.join()) return
     dropped.current = next
     setPicked(next)
+    if (t.zone !== 'bank') cue('slot') // landing in the answer; taking a chip out is silent
     onDrop?.()
     const word = chips[d.chip]
     setSaid(t.zone === 'bank' ? `${word} taken out.` : `${word} placed, word ${next.indexOf(d.chip) + 1} of ${next.length}.`)

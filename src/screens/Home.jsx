@@ -1,22 +1,24 @@
 import { createContext, useContext, useEffect, useId, useRef, useState } from 'react'
+import { cue } from '../lib/audio.js'
 import { LogoInline, SushiMark } from './Logo.jsx'
 import { IconBack, IconBars, IconBook, IconCode, IconCheckered, IconClose, IconComment, IconForward, IconGear, IconRepeat, IconStudy, IconVerb } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
 import CircleNode from './CircleNode.jsx'
 import { GrammarNoteBody } from './GrammarNote.jsx'
+import { tables } from '../lib/content.js'
 
 // A tree node is a circle (Circle Lab design, approved 2026-11-10; src/screens/CircleNode.jsx): its sushi on a warm
 // disc, one ring that fills across all its lessons, the title. "Start Here" shows on the first
 // circle only, the first time. Pick Your Own wears its misc dish, before and after a topic is chosen (Dan, 2026-11-11).
 // Tapping an open circle goes straight into its lesson (Dan, 2026-11-12); the sheet stays for a locked circle (why
 // it's locked) and for Pick Your Own (choosing or changing the topic). The grammar note has its own small icon.
-function Node({ node, onPick, onTestPass, onNote }) {
+function Node({ node, onPick, onTestPass, onNote, onInfo }) {
   const { unit, open, early, circle, strength, topic, marker } = node
   return (
     <CircleNode title={unit.title} icon={unit.icon_file ? `/sushi/${unit.icon_group}/${unit.icon_file}` : null}
       locked={!open} early={open && early} lessonsDone={circle.done} lessonsTotal={circle.total} recall={strength?.items > 0 ? strength.recall : null} marker={marker}
-      onNote={onNote} onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
+      onNote={onNote} onInfo={onInfo} onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
   )
 }
 
@@ -107,6 +109,69 @@ function NoteSheet({ node, note, sentenceById, onStart, onClose }) {
       <div ref={barRef} className="sticky -bottom-5 -mx-5 mt-5 flex flex-col items-center gap-1 bg-surface px-5 pt-3 pb-1 lg:-bottom-6">
         {more && <span data-note-fade aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-full h-16 bg-linear-to-t from-surface via-surface/70 to-transparent" />}
         <button onClick={onStart} className="btn-submit w-full" data-note-start>{started ? 'Next Lesson' : 'Start Lesson'}</button>
+        <button onClick={onClose} className="btn-tertiary">Back</button>
+      </div>
+    </Sheet>
+  )
+}
+
+// The circle's overview (Dan, 2026-11-15; it was the locked circle's panel, gone with the locks): what it covers, its
+// grammar point, its new words, any A1 task it teaches, and round progress. Opens from the info icon over the tree, a
+// centred pop-up from 1024px and a bottom sheet on phones, like the grammar note; Start or continue, and Back.
+function InfoSheet({ node, onStart, onClose }) {
+  const { unit, progress, circle } = node
+  const reached = progress.round_reached
+  const started = reached > 0 || progress.lessons_done > 0
+  const label = reached >= 5 ? 'Practice Again' : started ? 'Next Lesson' : 'Start Lesson'
+  const words = (tables?.words ?? []).filter((w) => w.first_unit === unit.unit_id && w.status !== 'off')
+  const canDo = (tables?.can_do ?? []).filter((c) => c.unit_id === unit.unit_id).map((c) => c.statement)
+  const tasks = String(unit.tasks ?? '').split(';').map((x) => x.trim()).filter(Boolean)
+    .map((id) => (tables?.a1_tasks ?? []).find((t) => t.task_id === id)?.task).filter(Boolean)
+  const round = Math.min(5, reached + (reached < 5 ? 1 : 0))
+  // The topic only when it says more than the title (copy rules: don't repeat the title); the can-do lines carry the rest.
+  const plain = (t) => String(t ?? '').toLowerCase().replace(/\+/g, 'and').replace(/[^a-z\p{L}]+/gu, ' ').trim()
+  const topic = unit.topic && plain(unit.topic) !== plain(unit.title) ? unit.topic : null
+  return (
+    <Sheet onClose={onClose}>
+      <SheetHead kicker="About This Circle" title={unit.title} onClose={onClose} />
+      <div className="mt-4 flex flex-col gap-4" data-info-sheet>
+        {(topic || canDo.length > 0) && (
+          <section className="flex flex-col gap-1">
+            <h3 className="text-sm font-semibold text-muted">What It Covers</h3>
+            {topic && <p>{topic}</p>}
+            {canDo.map((c) => <p key={c} className="text-sm text-muted">{c}</p>)}
+          </section>
+        )}
+        {unit.grammar_point && (
+          <section className="flex flex-col gap-1">
+            <h3 className="text-sm font-semibold text-muted">Grammar</h3>
+            <p>{unit.grammar_point}</p>
+          </section>
+        )}
+        {words.length > 0 && (
+          <section className="flex flex-col gap-1.5">
+            <h3 className="text-sm font-semibold text-muted">New Words <span className="font-normal">({words.length})</span></h3>
+            <ul className="flex flex-wrap gap-x-3 gap-y-1">
+              {words.map((w) => <li key={w.word_id}><span lang={TL} className="font-medium">{w.form}</span> <span className="text-sm text-muted">{w.hint || w.gloss}</span></li>)}
+            </ul>
+          </section>
+        )}
+        {tasks.length > 0 && (
+          <section className="flex flex-col gap-1">
+            <h3 className="text-sm font-semibold text-muted">A1 Task</h3>
+            {tasks.map((t) => <p key={t}>{t}</p>)}
+          </section>
+        )}
+        <section className="flex flex-col gap-1.5">
+          <h3 className="text-sm font-semibold text-muted">Progress</h3>
+          <div className="flex gap-1" aria-hidden="true">
+            {[1, 2, 3, 4, 5].map((r) => <span key={r} className={`h-2 flex-1 rounded-full ${r <= reached ? 'bg-green' : r === round && started ? 'bg-green/40' : 'bg-line'}`} />)}
+          </div>
+          <p className="text-sm text-muted" data-info-progress>{reached >= 5 ? 'All five rounds done; lessons from here are practice.' : `Round ${round} of 5 · Lesson ${Math.min(circle.done + 1, circle.total)} of ${circle.total} in all`}</p>
+        </section>
+      </div>
+      <div className="sticky -bottom-5 -mx-5 mt-5 flex flex-col items-center gap-1 bg-surface px-5 pt-3 pb-1 lg:-bottom-6">
+        <button onClick={onStart} className="btn-submit w-full" data-info-start>{label}</button>
         <button onClick={onClose} className="btn-tertiary">Back</button>
       </div>
     </Sheet>
@@ -370,6 +435,42 @@ export function CheckpointNode({ cp, onPick }) {
 }
 
 // A level marker across the tree, like a date divider in a feed.
+// The "I can" checklist at the end of each level (Dan, 2026-11-15): a small pill like the checkpoints', opening that
+// level's statements; each has Check (a short check of that skill on that circle, as on Progress).
+function ICanNode({ level, onPick }) {
+  const done = level.items.filter((d) => d.checked).length
+  return (
+    <li className="flex justify-center">
+      <button onClick={() => onPick(level)} data-live="" data-i-can={level.label} className="tree-pill text-ink">
+        <span aria-hidden="true">✓</span> I Can · {level.label}
+        <span className="text-sm font-normal text-muted">{done} of {level.items.length}</span>
+      </button>
+    </li>
+  )
+}
+function ICanSheet({ level, onCheck, onClose }) {
+  return (
+    <Sheet onClose={onClose}>
+      <SheetHead kicker="I Can" title={level.label} onClose={onClose} />
+      <p className="mt-2 text-sm text-muted">What the circles of this level teach. Check runs a few questions on that skill; a statement is ticked when they're all right.</p>
+      <ul className="mt-4 flex flex-col gap-3" data-i-can-sheet>
+        {level.items.map((d) => (
+          <li key={d.can_do_id} className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p>{d.statement}</p>
+              <p className="text-xs text-muted">{d.unit_title}{d.checked ? ` · checked ${d.checked}` : ''}</p>
+            </div>
+            {d.checked
+              ? <span className="shrink-0 text-sm font-medium text-right-ink" aria-label="Checked">✓</span>
+              : <button onClick={() => onCheck(d)} className="btn-secondary min-h-10 shrink-0 px-3 text-sm">Check</button>}
+          </li>
+        ))}
+      </ul>
+      <div className="mt-4 flex justify-center"><button onClick={onClose} className="btn-tertiary">Back</button></div>
+    </Sheet>
+  )
+}
+
 function Marker({ label }) {
   return (
     <li className="flex w-full items-center gap-3 text-sm text-muted" aria-label={`Level: ${label}`}>
@@ -389,13 +490,15 @@ const practiceAbout = (p) => (p.mistakes ? `Strengthen ${p.mistakes} recent stic
 // (Dan, 2026-11-11: the row that held its button and the streak is gone).
 function Tools({ tools }) {
   return (
+    // A compact single row on phones (Dan, 2026-11-15: the tiles took about a third of the screen): pills with the
+    // icon beside the label, so the tree starts higher; it still scrolls sideways when they don't all fit.
     <nav aria-label="Tools" className="no-scrollbar -mx-4 flex snap-x gap-2 overflow-x-auto px-4 lg:hidden">
       {tools.map((t) => {
         const Icon = TOOL_ICONS[t.id]
         return (
           // Developer is quieter: dashed outline, no fill, muted text; not a learning tool.
-          <button key={t.id} onClick={t.onOpen} className={`flex w-24 shrink-0 snap-start flex-col items-center gap-1 rounded-xl border-2 px-2 py-2.5 text-center text-sm leading-tight ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface font-medium'}`}>
-            <span className={`[&_svg]:size-7 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
+          <button key={t.id} onClick={t.onOpen} data-tool={t.id} className={`flex min-h-10 shrink-0 snap-start items-center gap-1.5 rounded-full border-2 px-3 py-1 text-sm leading-none whitespace-nowrap ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface font-medium'}`}>
+            <span className={`[&_svg]:size-5 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
             <span className={t.quiet ? 'dev-tiny' : ''}>{t.label}</span>
           </button>
         )
@@ -438,9 +541,11 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
+export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
   finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, hasNote, noteOf, sentenceById }) {
   const [picked, setPicked] = useState(null)
+  const [infoPicked, setInfoPicked] = useState(null)
+  const [iCanPicked, setICanPicked] = useState(null)
   const [notePicked, setNotePicked] = useState(null) // the circle whose grammar note is open
   const [cpPicked, setCpPicked] = useState(null)
   const [cuPicked, setCuPicked] = useState(null)
@@ -509,20 +614,24 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
           const cp = checkpoints.find((x) => x.afterRow === n)
           const cu = catchUps.find((x) => x.afterRow === n)
           const marker = i > 0 && markers.find((m) => m.beforeRow === n) // going down the path only, never at the top
+          const ican = i > 0 && iCan.find((lv) => lv.beforeRow === n)
           return [
+            ican && <ICanNode key={`ic${i}`} level={ican} onPick={setICanPicked} />,
             marker && <Marker key={`m${i}`} label={marker.label} />,
             // Responsive spacing (Dan, 2026-11-11): each circle takes an equal share up to its full size, the gap shrinks
             // with the screen, so a row of three always fits the tree, titles included.
             <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
               {row.map((node) => <Node key={node.unit.unit_id} node={node} onTestPass={onTestPass}
-                onPick={(n) => (n.open && !n.topic ? onStartUnit(n.unit.unit_id) : setPicked(n))}
-                onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => setNotePicked(node) : null} />)}
+                onPick={(n) => { if (n.open && !n.topic) { cue('start'); onStartUnit(n.unit.unit_id) } else setPicked(n) }}
+                onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => setNotePicked(node) : null}
+                onInfo={node.open && !node.topic ? () => setInfoPicked(node) : null} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
             cu && <li key={`cu${i}`} className="flex justify-center"><CatchUpNode cu={cu} onPick={setCuPicked} /></li>,
             scenes && scenes.afterRow === n && <li key={`sc${i}`}><ScenesNode sc={scenes} onPick={() => setScenesOpen(true)} /></li>,
           ]
         })}
+        {iCan.filter((lv) => lv.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((lv) => <ICanNode key={`ic-${lv.label}`} level={lv} onPick={setICanPicked} />)}
         {finalCheck && <li><FinalNode fc={finalCheck} onPick={() => setFinalOpen(true)} /></li>}
         {part && <PartEnd part={part} onReview={() => setReviewOpen(true)} onPartView={onPartView} onJumpPart={onJumpPart} />}
         {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <Marker key={m.label} label={m.label} />)}
@@ -539,7 +648,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
       <div className="bar-bottom -mx-4 mt-auto flex flex-col gap-3 px-4 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))]">
         {/* Only Next Lesson is pinned; Practice Mistakes is a tool (Dan, 2026-11-11). */}
         <div className="bottom-buttons">
-          <button onClick={onNext} className="btn-submit">{nextLabel}</button>
+          <button onClick={() => { cue('button'); onNext() }} className="btn-submit">{nextLabel}</button>
         </div>
       </div>
 
@@ -566,6 +675,8 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
           onStart={() => { setCpPicked(null); onCheckpoint(cpPicked.afterRow) }}
           onSkip={() => { setCpPicked(null); onSkipCheckpoint(cpPicked.afterRow) }} />
       )}
+      {iCanPicked && <ICanSheet level={iCan.find((lv) => lv.label === iCanPicked.label) ?? iCanPicked} onClose={() => setICanPicked(null)} onCheck={(d) => { setICanPicked(null); onCheckCanDo(d) }} />}
+      {infoPicked && <InfoSheet node={infoPicked} onClose={() => setInfoPicked(null)} onStart={() => { cue('button'); setInfoPicked(null); onStartUnit(infoPicked.unit.unit_id) }} />}
       {notePicked && <NoteSheet node={notePicked} note={noteOf(notePicked.unit.unit_id)} sentenceById={sentenceById}
         onClose={() => setNotePicked(null)} onStart={() => { setNotePicked(null); onStartUnit(notePicked.unit.unit_id) }} />}
       {cuPicked && <CatchUpCard cu={catchUps.find((x) => x.slot_id === cuPicked.slot_id) ?? cuPicked} onClose={() => setCuPicked(null)} onStart={() => { setCuPicked(null); onCatchUp(cuPicked) }} />}

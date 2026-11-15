@@ -72,10 +72,16 @@ test('an "I can" check asks three of the unit\'s sentences in the statement\'s s
   }
 })
 
-test('placement asks three per unit, in tree order', () => {
-  const items = placementItems(units.map((u) => u.content), seeded(4))
-  assert.equal(items.length, units.length * 3)
-  assert.deepEqual([...new Set(items.map((i) => i.unit_id))], units.map((u) => u.unit_id))
+test('placement is short and moves forward: two questions on each of at most nine circles, in order (Dan, 2026-11-15)', () => {
+  const contents = units.map((u) => u.content)
+  const items = placementItems(contents, seeded(4))
+  assert.ok(items.length <= 18, `${items.length} questions`)
+  const probed = [...new Set(items.map((i) => i.unit_id))]
+  const order = units.map((u) => u.unit_id)
+  assert.deepEqual(probed, [...probed].sort((a, b) => order.indexOf(a) - order.indexOf(b)), 'probes go forward through the tree')
+  assert.equal(probed.at(-1), order.at(-1), 'the last circle is probed')
+  // Each probe covers every circle up to and including itself.
+  for (const it of items) assert.deepEqual(it.covers, order.slice(0, order.indexOf(it.unit_id) + 1))
 })
 
 test('practice type follows how far the unit has come', () => {

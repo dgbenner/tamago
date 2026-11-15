@@ -674,7 +674,7 @@ export function buildSession(c, kind, items, { settings = {}, rng = Math.random,
     let type = it.type
     if (settings.cantListen && AUDIO_TYPES.has(type)) type = 'QT03'
     if (!supports(c, type, s, it.round)) type = 'QT03'
-    return [{ ...makeQuestion(c, type, s, it.round, rng, null, { cantListen: settings.cantListen }), unit_id: it.unit_id, ...(it.part ? { part: it.part } : {}) }]
+    return [{ ...makeQuestion(c, type, s, it.round, rng, null, { cantListen: settings.cantListen }), unit_id: it.unit_id, ...(it.part ? { part: it.part } : {}), ...(it.covers ? { probe: it.probe, covers: it.covers } : {}) }]
   })
   return {
     id: `${kind[0].toUpperCase()}${Math.floor(rng() * 1e12)}`, kind, started_at: Date.now(), ...extra,
@@ -694,10 +694,23 @@ export function checkItems(c, skill, rng = Math.random) {
 }
 
 // Placement: three questions per unit, in tree order (meaning, listening, typed translation).
-export function placementItems(unitContents, rng = Math.random) {
-  return unitContents.flatMap((c) => {
+// Placement, adaptive (Dan, 2026-11-15; under 3 minutes): it moves forward through the circles in order, probing
+// about PLACEMENT_PROBES evenly spaced ones with two questions each (the meaning, then a typed translation), and stops
+// at the first probe not answered fully right (App cuts the queue there). Each probe item carries `covers`: every
+// circle up to and including the probed one, which are marked passed when the probe is. About 18 questions at most.
+export const PLACEMENT_PROBES = 9
+export function placementItems(unitContents, rng = Math.random, probes = PLACEMENT_PROBES) {
+  const usable = unitContents.filter((c) => c.sentences.some((s) => s.unit_id === c.unit_id))
+  if (!usable.length) return []
+  const step = Math.max(1, Math.ceil(usable.length / probes))
+  const at = []
+  for (let i = step - 1; i < usable.length; i += step) at.push(i)
+  if (at.at(-1) !== usable.length - 1) at.push(usable.length - 1)
+  return at.slice(-probes).flatMap((i, probe) => {
+    const c = usable[i]
     const own = shuffle(c.sentences.filter((s) => s.unit_id === c.unit_id), rng)
-    return [['QT03', 2], ['QT04', 2], ['QT12', 4]].map(([type, round], i) => own[i] && ({ sentence_id: own[i].sentence_id, type, round, unit_id: c.unit_id })).filter(Boolean)
+    const covers = usable.slice(0, i + 1).map((x) => x.unit_id)
+    return [['QT03', 2], ['QT12', 4]].map(([type, round], k) => own[k] && ({ sentence_id: own[k].sentence_id, type, round, unit_id: c.unit_id, probe, covers })).filter(Boolean)
   })
 }
 

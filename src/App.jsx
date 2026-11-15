@@ -5,7 +5,7 @@ import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, b
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
-import { hasFrenchVoice, stop } from './lib/audio.js'
+import { cue, hasFrenchVoice, setCues, stop } from './lib/audio.js'
 import Home from './screens/Home.jsx'
 import Lesson from './screens/Lesson.jsx'
 import Settings from './screens/Settings.jsx'
@@ -13,6 +13,8 @@ import About from './screens/About.jsx'
 import Splash from './screens/Splash.jsx'
 import GrammarNote from './screens/GrammarNote.jsx'
 import Progress from './screens/Progress.jsx'
+import RealExam from './screens/RealExam.jsx'
+import Privacy from './screens/Privacy.jsx'
 import Glossary from './screens/Glossary.jsx'
 import Flashcards from './screens/Flashcards.jsx'
 import Verbs from './screens/Verbs.jsx'
@@ -30,7 +32,7 @@ import Account from './screens/Account.jsx'
 import { bringDevice, saveSoon, settleSync, startFresh, syncCourse, useAuth } from './lib/auth/index.js'
 import ProgressChoice from './screens/ProgressChoice.jsx'
 import DeviceElsewhere from './screens/DeviceElsewhere.jsx'
-import { SCENES } from './lib/converse.js'
+import { SCENES, TASK_SCENES, sceneFit } from './lib/converse.js'
 import { makeA1Question } from './lib/a1types.js'
 import { A1_SAMPLES } from './dev/a1-samples.js'
 import { firstCircleMarker } from './screens/CircleNode.jsx'
@@ -50,7 +52,7 @@ const DEFAULT_SETTINGS = {
   test_shortcuts: 'on', // Dan only for now; turn the default off before testers (Phase 4)
   developer: 'on', // the Developer entry in Tools; turn the default off before testers (#developer always opens it)
   points_and_streaks: defaults.points_and_streaks ?? 'on', weekly_goal: 'none',
-  sounds: 'on', // button and answer sounds (Dan, 2026-11-15): the setting is ready; no sounds play yet (/lab/sounds)
+  sounds: 'on', // interface sounds (Dan, 2026-11-15): audio.js cue; Off turns all four off
 }
 // Monday-start week, for the weekly goal.
 const weekStart = (d = new Date()) => { const x = new Date(d); x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); return x.toLocaleDateString('en-CA') }
@@ -69,7 +71,7 @@ function useWide() {
   return wide
 }
 
-const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', talk: 'Conversations', progress: 'Progress', settings: 'Settings', about: 'About the Content',
+const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', talk: 'Conversations', progress: 'Progress', exam: 'Ready for the Real Exam?', privacy: 'Privacy', settings: 'Settings', about: 'About the Content',
   profile: 'Profile', account: 'Sign In', 'progress-choice': 'Which Progress to Keep', elsewhere: 'Start Fresh or Bring Progress', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening', developer: 'Developer' }
 
 // A topic pack belongs to the node in its topic_node column; packs from before the column belong to the first node.
@@ -84,6 +86,7 @@ export default function App() {
   // A conversation in progress (Dan, 2026-11-10): a scene from the path or the partner from Self-Study.
   const [convo, setConvo] = useState(null)
   const [scenesDone, setScenesDone] = useState({})
+  const [talkLast, setTalkLast] = useState(null) // the last conversation's average answer time (s), for the summary
   // A1 in parts (A1 Complete, 2026-11-10): the part the tree shows, and part reviews passed.
   const [partView, setPartView] = useState(null)
   const [partReviews, setPartReviews] = useState({})
@@ -95,6 +98,13 @@ export default function App() {
   const [pointsTotal, setPointsTotal] = useState(0)
   const [session, setSession] = useState(null)
   const [ending, setEnding] = useState(null)
+  // Time spent (Dan, 2026-11-15): active learning time in this course, kv active_ms. Counted only while a lesson is on
+  // screen, the page visible, and the learner has tapped, typed or touched in the last minute, so a phone left open on
+  // a question stops counting. Shown on Progress as total hours; no nudges or comparisons.
+  const activeMs = useRef(0)
+  // When the learner started this course (kv course_started): the first counted lesson time, for Progress's weekly pace.
+  // A learner from before it existed takes the date of their earliest lesson.
+  const courseStarted = useRef(null)
   const [lastLine, setLastLine] = useState(null) // a toast on home: { id, kind: info|success|warning|error, text }
   const toast = (kind, text) => setLastLine({ id: Date.now(), kind, text })
   // Accounts, layer 1 (Dan, 2026-11-11; _source/accounts-spec.md). Optional: the app works the same with no account.
@@ -175,6 +185,7 @@ export default function App() {
       setDeck(s.kv.flashcards ?? {})
       setCheckpoints(s.kv.checkpoints ?? {})
       setScenesDone(s.kv.scenes_done ?? {})
+      setTalkLast(s.kv.talk_last?.avg ?? null)
       setPartReviews(s.kv.part_reviews ?? {})
       if (s.kv.part_view) setPartView(s.kv.part_view)
       setCheckpointsSkipped(s.kv.checkpoints_skipped ?? {})
@@ -183,6 +194,12 @@ export default function App() {
       setCatchupCleared(s.kv.catchup_cleared ?? {})
       setCatchupSettled(s.kv.catchup_settled ?? {})
       setFinalCheck(s.kv.final_check ?? null)
+      activeMs.current = Number(s.kv.active_ms) || 0
+      courseStarted.current = s.kv.course_started ?? null
+      if (!courseStarted.current) getAll('lessons').then((rows) => {
+        const first = rows.map((r) => r.finished_at).filter(Boolean).sort()[0]
+        if (first && !courseStarted.current) { courseStarted.current = first; putKv('course_started', first) }
+      }).catch(() => {})
       applyVariants(s.kv.variant_status ?? {})
       // The first node's choice keeps its old key (topic_choice); later nodes use topic_choice_<node>.
       // A choice counts only while the pack is still at that node (Weather moved to the second node on 2026-11-10).
@@ -286,6 +303,28 @@ export default function App() {
     }
     lastScreen.current = screen
   }, [screen])
+
+  // The Sounds setting (Dan, 2026-11-15): Off silences all four interface sounds (audio.js cue).
+  useEffect(() => { setCues(settings.sounds !== 'off') }, [settings.sounds])
+  const inLesson = screen === 'lesson' && !ending
+  useEffect(() => {
+    if (!inLesson) return
+    const IDLE = 60_000, TICK = 5_000
+    let last = Date.now(), unsaved = 0
+    const touch = () => { last = Date.now() }
+    const save = () => { if (unsaved) { putKv('active_ms', activeMs.current); unsaved = 0 } }
+    const events = ['pointerdown', 'keydown', 'touchstart']
+    for (const e of events) window.addEventListener(e, touch, { passive: true })
+    const onHide = () => { if (document.visibilityState === 'hidden') save() }
+    document.addEventListener('visibilitychange', onHide)
+    const tick = setInterval(() => {
+      if (document.visibilityState !== 'visible' || Date.now() - last > IDLE) return
+      activeMs.current += TICK; unsaved += TICK
+      if (!courseStarted.current) { courseStarted.current = new Date().toISOString(); putKv('course_started', courseStarted.current) }
+      if (unsaved >= 30_000) save()
+    }, TICK)
+    return () => { clearInterval(tick); save(); for (const e of events) window.removeEventListener(e, touch); document.removeEventListener('visibilitychange', onHide) }
+  }, [inLesson])
 
   const changeSettings = (patch) => {
     const next = { ...settings, ...patch }
@@ -425,7 +464,7 @@ export default function App() {
   // The open units on the path, for Practice and Self-Study.
   const openUnits = tables.units.filter((u) => onPath(u) && isOpen(u.unit_id)).map((u) => u.unit_id)
   const itemsOf = (unitId) => tables.sentences.filter((s) => s.unit_id === unitId).map((s) => s.sentence_id)
-  const startCheck = (canDo) => begin(buildSession(unitContent(canDo.unit_id), 'check', checkItems(unitContent(canDo.unit_id), canDo.skill), { settings: lessonModes(), unit_id: canDo.unit_id, can_do_id: canDo.can_do_id }))
+  const startCheck = (canDo, back = 'progress') => begin({ ...buildSession(unitContent(canDo.unit_id), 'check', checkItems(unitContent(canDo.unit_id), canDo.skill), { settings: lessonModes(), unit_id: canDo.unit_id, can_do_id: canDo.can_do_id }), back })
   const startPlacement = () => {
     const liveUnits = [...tables.units].sort((a, b) => a.order - b.order).filter((u) => String(u.status).startsWith('live') && !['node', 'yes'].includes(u.is_topic_pick))
     begin(buildSession(allContent, 'placement', placementItems(liveUnits.map((u) => unitContent(u.unit_id))), { settings: lessonModes() }))
@@ -487,6 +526,26 @@ export default function App() {
   }
   // Side tools. Words met, in unit order; a word's recall is its own card, else the average of its sentences'.
   const metWords = () => tables.words.filter((w) => seenWords.current.has(w.word_id))
+  // Progress on return (Dan, 2026-11-15): one quiet line on the opening screen, "French · Part 3 of 6 · 42% of A1
+  // words", from what's already in memory (nothing read or fetched for it). Nothing for a learner who hasn't met a word.
+  const returnLine = () => {
+    const c = seenWords.current.size ? a1Coverage() : null
+    if (!c || c.met === 0) return null
+    return `${course.name} · Part ${c.part} of ${c.parts} · ${Math.round((c.met * 100) / c.total)}% of A1 words`
+  }
+  // A1 coverage (A1 Complete, section 6): list words met (a course word counts for its lemma), tasks whose circles
+  // have finished round 1, and the part. Progress shows it; the opening screen's line uses it too.
+  const a1Coverage = () => {
+    const list = tables.a1_list?.[0]
+    if (!list) return null
+    const fold = (x) => String(x).toLowerCase().trim()
+    const listKeys = new Set((list.words ?? []).map(fold))
+    const keysOf = (w) => [fold(w.lemma || w.form), fold(w.form)]
+    const metKeys = new Set(metWords().flatMap(keysOf).filter((k) => listKeys.has(k)))
+    const courseKeys = new Set(tables.words.flatMap(keysOf).filter((k) => listKeys.has(k)))
+    const taskDone = new Set(tables.units.filter((u) => u.tasks && progressOf(u.unit_id).round_reached >= 1).flatMap((u) => String(u.tasks).split(';')))
+    return { met: metKeys.size, course: courseKeys.size, total: listKeys.size, source: list.source.split(',')[0], tasks: (tables.a1_tasks ?? []).map((t) => ({ ...t, done: taskDone.has(t.task_id) })), part: partOf(currentUnit), parts: Math.max(1, ...(tables.parts ?? []).map((x) => x.part)) }
+  }
   const sentencesWith = (wordId) => tables.sentence_words.filter((r) => r.word_id === wordId).map((r) => r.sentence_id)
   const recallOf = (wordId) => {
     if (cards[wordId]) return retrievability(cards[wordId])
@@ -568,18 +627,19 @@ export default function App() {
   const sceneInfo = helpIds[1] ? { afterRow: rowOf(helpIds[1])?.row, available: SHOT_UNLOCK || progressOf(helpIds[1]).round_reached >= 1, scenes: (SCENES[course.id] ?? []).map((sc) => ({ ...sc, done: scenesDone[sc.id] ?? null })) } : null
   const a1Forms = [...new Set(tables.words.filter((w) => !packs.some((p) => p.unit_id === w.first_unit)).map((w) => w.form))]
   const startConversation = (mode, scene, settingsFor, back) => setConvo({ mode, scene, settings: settingsFor, back }) || setScreen('converse')
-  const conversationEnded = (found, c) => {
+  const conversationEnded = (found, c, avg = null) => {
+    if (avg != null) { setTalkLast(avg); putKv('talk_last', { avg, day: today() }) }
     for (const w of found) seenWords.current.add(w.word_id)
     if (found.length) putKv('seen_words', [...seenWords.current])
     if (c.mode === 'scene') setScenesDone((m) => { const n = { ...m, [c.scene.id]: today() }; putKv('scenes_done', n); return n })
     markActive()
   }
-  // The partner's defaults come from progress: the circle in hand, the learner's words, a gentler speed early on.
-  const partnerDefaults = () => {
-    const met = metWords().length
-    return { topic: tables.units.find((u) => u.unit_id === currentUnit)?.title ?? 'free', vocabulary: met < 80 ? 'mine' : 'few', speed: met < 60 ? 'slow' : 'normal', corrections: 'end' }
+  // The partner, version 2 (Dan, 2026-11-15): five A1 task scenes, the ones that fit the learner's words first.
+  const partnerScenes = () => {
+    const met = new Set(seenWords.current)
+    return (TASK_SCENES[course.id] ?? []).map((sc) => ({ ...sc, ...sceneFit(sc, tables.words, met) }))
   }
-  const partnerTopics = tables.units.filter((u) => onPath(u) && isOpen(u.unit_id) && u.is_topic_pick !== 'node').sort((a, b) => a.order - b.order).map((u) => u.title)
+  const FREE_TALK = { id: 'free', title: 'Free Conversation', about: 'Everyday things, at your own pace', setting: 'A friendly, free conversation about everyday things.', ai: 'a friendly conversation partner', learner: 'a learner', keys: [], have: 0 }
   const finalInfo = { exam: EXAMS[course.id], available: mainUnitIds.length > 0, last: finalCheck }
   const startCheckpoint = (row) => {
     const ids = unitsUpTo(row).flatMap(itemsOf)
@@ -659,7 +719,11 @@ export default function App() {
     }
     if (first && !q.speaking && !q.item_id && !result.testSkip && session.kind !== 'placement') noteWordMisses(q, result)
     let next = session
-    if (session.kind === 'placement' && first) next = { ...next, placement: [...(next.placement ?? []), { unit_id: q.unit_id, correct: result.correct }] }
+    if (session.kind === 'placement' && first) {
+      next = { ...next, placement: [...(next.placement ?? []), { unit_id: q.unit_id, probe: q.probe, covers: q.covers, correct: result.correct }] }
+      // Adaptive (Dan, 2026-11-15): the first miss ends it; the circles up to the last full probe are placed.
+      if (!result.correct) next = { ...next, queue: next.queue.slice(0, next.index + 1), size: next.index + 1, graded: next.index + 1 }
+    }
     // The final check scores each part from first attempts (speaking counted as done, never graded).
     if (first && q.part) next = { ...next, results: [...(next.results ?? []), { part: q.part, correct: Boolean(result.correct), speaking: Boolean(q.speaking), ungraded: Boolean(q.ungraded) }] }
     // Speaking is never graded: it earns a point when done (R14) and stays out of the score and the pass.
@@ -749,17 +813,26 @@ export default function App() {
   }
 
   const onHint = (q, seg) => {
-    put('hints_log', { hint_id: uid(), word_id: seg.word_id, sentence_id: q.sentence_id, tapped_at: new Date().toISOString() })
+    put('hints_log', { hint_id: uid(), word_id: seg.word_id, sentence_id: q.sentence_id, kind: seg.kind ?? 'word', tapped_at: new Date().toISOString() })
   }
 
   // Flags (version 2): the answer as given, its direction and the sentence travel with the flag, for Flag review.
   // Listening types (QT07, QT11) accept only the sentence heard, so their answers can't be approved.
+  // The question as shown and the answer expected travel too (Dan, 2026-11-15), for the Developer page's Flagged Answers.
   const onFlag = (q, reason_id, result) => {
     const direction = q.type === 'QT07' || q.type === 'QT11' || q.type === 'QT09' ? null : q.lang === 'fr' ? 'en_to_fr' : q.lang === 'en' ? 'fr_to_en' : null
+    const expected = typeof q.answer === 'string' && !/^S\d+$/.test(q.answer) ? q.answer : direction === 'en_to_fr' ? q.french : direction === 'fr_to_en' ? q.english : null
     put('flags', {
       flag_id: uid(), sentence_id: q.sentence_id ?? q.word_ids.join(';'), type_id: q.type, reason_id, flagged_at: new Date().toISOString(),
-      given: result?.given ?? null, correct: result?.correct ?? null, direction, french: q.french ?? null, english: q.english ?? null, status: 'open',
+      given: result?.given ?? null, correct: result?.correct ?? null, direction, french: q.french ?? null, english: q.english ?? null,
+      question: typeof q.shown === 'string' ? q.shown : null, expected: expected ?? null, course: course.id, status: 'open',
     })
+  }
+  // A flagged answer accepted on this device counts here at once (Flagged Answers, Flag Review); kept in kv
+  // approved_answers so it still counts after a reload.
+  const acceptAnswer = (row) => {
+    addAccepted([row])
+    getKv('approved_answers').then((list) => putKv('approved_answers', [...(list ?? []), row]))
   }
 
   // A passed lesson's bookkeeping: what it showed, misses to carry, and the circle's progress. Shared by a real
@@ -869,23 +942,26 @@ export default function App() {
       const scores = finalScores(s.results)
       const record = { date: today(), scores }
       setFinalCheck(record); putKv('final_check', record)
-      setEnding({ line: finalLine(scores), back: 'home' })
+      setEnding({ line: finalLine(scores), back: 'home', exam: true })
       return
     }
     if (s.kind === 'check') {
       const passed = s.firstCorrect >= (s.graded ?? 0)
       if (passed) setCanDoChecked((m) => { const n = { ...m, [s.can_do_id]: today() }; putKv('can_do_checked', n); return n })
-      setEnding({ line: passed ? 'Checked.' : `${s.firstCorrect} of ${s.graded}. Not checked yet; try it again another time.`, back: 'progress' })
+      setEnding({ line: passed ? 'Checked.' : `${s.firstCorrect} of ${s.graded}. Not checked yet; try it again another time.`, back: s.back ?? 'progress' })
       return
     }
     if (s.kind === 'placement') {
-      // A unit is placed when 2 of its 3 answers are right; placing stops at the first unit that isn't.
-      const order = [...new Set((s.placement ?? []).map((p) => p.unit_id))]
-      const placed = []
-      for (const u of order) {
-        const rows = s.placement.filter((p) => p.unit_id === u)
-        if (rows.filter((p) => p.correct).length >= 2) placed.push(u); else break
+      // Adaptive placement: the probes answered fully right, in order up to the first miss; the last one's circles
+      // (every circle up to and including it) are placed.
+      const rows = s.placement ?? []
+      let covers = []
+      for (const probe of [...new Set(rows.map((p) => p.probe))]) {
+        const mine = rows.filter((p) => p.probe === probe)
+        if (mine.length >= 2 && mine.every((p) => p.correct)) covers = mine[0].covers ?? []
+        else break
       }
+      const placed = covers
       setProgressByUnit((p) => {
         const n = { ...p }
         for (const u of placed) {
@@ -898,7 +974,7 @@ export default function App() {
       putKv('seen_words', [...seenWords.current])
       putKv('placement', { date: today(), placed })
       const names = placed.map((u) => tables.units.find((x) => x.unit_id === u).title)
-      setEnding({ line: placed.length ? `Placed through ${names.at(-1)}: round 1 of ${names.length === 1 ? names[0] : `${names.length} units`} counts as done.` : `Start with ${tables.units[0].title}.` })
+      setEnding({ line: placed.length ? `Placed through ${names.at(-1)}: the first round of ${names.length === 1 ? names[0] : `${names.length} circles`} counts as done.` : `Start with ${tables.units[0].title}.` })
       return
     }
     const mark = passMark(s.graded ?? s.size)
@@ -941,7 +1017,8 @@ export default function App() {
       return (
         <main className="mx-auto flex min-h-dvh max-w-md flex-col justify-center gap-6 px-4">
           <p className="text-center text-xl">{ending.line}</p>
-          <button onClick={afterEnding} className="btn-primary">{ending.retry ? 'Try Again' : 'Continue'}</button>
+          <button onClick={() => { cue('button'); afterEnding() }} className="btn-primary">{ending.retry ? 'Try Again' : 'Continue'}</button>
+          {ending.exam && <button onClick={() => { setEnding(null); setScreen('exam') }} className="btn-tertiary self-center">Ready for the Real Exam?</button>}
         </main>
       )
     }
@@ -981,18 +1058,10 @@ export default function App() {
     const lemmas = new Set(metWords().filter((w) => w.part_of_speech === 'Verb').map((w) => w.lemma))
     return <Verbs tables={tables.conjugations.filter((t) => lemmas.has(t.lemma))} strict={settings.answer_strictness === 'strict'} onBack={() => setScreen('home')} />
   },
+    exam: () => <RealExam onBack={() => setScreen('progress')} />,
     progress: () => {
-    // A1 coverage (A1 Complete, section 6): list words met (a course word counts for its lemma), tasks whose circles
-    // have finished round 1, and the part.
-    const list = tables.a1_list?.[0]
-    const fold = (x) => String(x).toLowerCase().trim()
-    const listKeys = new Set((list?.words ?? []).map(fold))
-    const keysOf = (w) => [fold(w.lemma || w.form), fold(w.form)]
-    const metKeys = new Set(metWords().flatMap(keysOf).filter((k) => listKeys.has(k)))
-    const courseKeys = new Set(tables.words.flatMap(keysOf).filter((k) => listKeys.has(k)))
-    const taskDone = new Set(tables.units.filter((u) => u.tasks && progressOf(u.unit_id).round_reached >= 1).flatMap((u) => String(u.tasks).split(';')))
-    const coverage = list ? { met: metKeys.size, course: courseKeys.size, total: listKeys.size, source: list.source.split(',')[0], tasks: (tables.a1_tasks ?? []).map((t) => ({ ...t, done: taskDone.has(t.task_id) })), part: partOf(currentUnit), parts: Math.max(1, ...(tables.parts ?? []).map((x) => x.part)) } : null
-    return <Progress coverage={coverage} finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
+    const coverage = a1Coverage()
+    return <Progress coverage={coverage} finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf} onExam={() => setScreen('exam')} activeMs={activeMs.current} startedAt={courseStarted.current}
       onCheck={startCheck} onBack={() => setScreen('home')} />
   },
     make: () => {
@@ -1004,16 +1073,14 @@ export default function App() {
       onSentences={startGenerated} onListening={startListening} status={makeStatus} onBack={() => setScreen('home')} />
   },
     // Conversations (Dan, 2026-11-13): the conversation partner as a tool of its own, moved out of Self-Study.
-    talk: () => <Conversations partner={{ defaults: partnerDefaults(), topics: partnerTopics, metCount: metWords().length }} onBack={() => setScreen('home')}
-      onPartner={(f) => startConversation('partner', f.topic === 'free'
-        ? { id: 'partner', title: 'Conversation', setting: 'A friendly, free conversation about everyday things.', ai: 'a friendly conversation partner', learner: 'a learner' }
-        : { id: 'partner', title: f.topic, setting: `A friendly conversation about ${f.topic.toLowerCase()}, using that topic's words.`, ai: 'a friendly conversation partner', learner: 'a learner' }, f, 'talk')} />,
+    talk: () => <Conversations partner={{ scenes: partnerScenes(), free: FREE_TALK, metCount: metWords().length }} onBack={() => setScreen('home')}
+      onPartner={(sc) => startConversation('partner', sc, { speed: 'natural', corrections: 'end', vocabulary: 'mine' }, 'talk')} />,
   }
   if (panelScreens[screen] && !wide) return panelScreens[screen]()
   if (screen === 'converse' && convo) {
     return <Conversation key={convo.scene.id + convo.mode} mode={convo.mode} scene={convo.scene} settings={convo.settings} known={metWords().map((w) => w.form)} pool={a1Forms}
       names={courseNames.slice(0, 8)} helpLevel={helpLevel} words={tables.words} metIds={new Set(seenWords.current)} cantSpeak={paused(settings.cant_speak_until)}
-      onEnd={(found) => conversationEnded(found, convo)} onReview={(found) => { const back = convo.back; setConvo(null); startFlashcards(false, found, back) }}
+      lastAverage={talkLast} onEnd={(found, avg) => conversationEnded(found, convo, avg)} onReview={(found) => { const back = convo.back; setConvo(null); startFlashcards(false, found, back) }}
       onBack={() => { const back = convo.back; setConvo(null); setScreen(back) }} />
   }
   if (screen === 'flashcards' && flash) return <Flashcards cards={flash.cards} aloud={flash.aloud} onGrade={gradeCard} onDone={() => { markActive(); const back = flash.back ?? 'words'; setFlash(null); setScreen(back) }} />
@@ -1022,13 +1089,13 @@ export default function App() {
       onChange={changeVariant} onBack={() => setScreen('developer')} />
   }
   if (screen === 'settings') {
-    return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPlacement={startPlacement}
+    return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPrivacy={() => setScreen('privacy')} onPlacement={startPlacement}
       onProfile={() => setScreen('profile')} account={accountShown} onSignIn={() => { setAccountStart({ mode: 'signin' }); setScreen('account') }} onSignOut={signOut} />
   }
   if (screen === 'developer') {
     // Course Snapshot: exact numbers for both courses, worked out from the content each ships (src/lib/snapshot.js).
     const snapshot = { built: new Date(__BUILD_TIME__).toLocaleString('en-US', { dateStyle: 'long', timeStyle: 'short' }), workbooks: __WORKBOOKS__ }
-    return <Developer settings={settings} onChange={changeSettings} snapshot={snapshot} onBack={leaveDeveloper} onJumpPart={jumpToPart}
+    return <Developer settings={settings} onChange={changeSettings} snapshot={snapshot} onBack={leaveDeveloper} onJumpPart={jumpToPart} onAcceptAnswer={acceptAnswer}
       onTryA1={() => {
         // The four A1 task types on samples (Developer only): a practice session, kept out of scores and review.
         const sm = A1_SAMPLES[course.id]
@@ -1052,14 +1119,12 @@ export default function App() {
     return <NativeCheck sentences={list} results={nativeResults} onChange={(n) => { setNativeResults(n); putKv('native_check', n) }} onBack={() => setScreen('developer')} />
   }
   if (screen === 'flags') {
-    return <FlagReview reasons={tables.flag_reasons} onBack={() => setScreen('developer')} onAccept={(row) => {
-      addAccepted([row])
-      getKv('approved_answers').then((list) => putKv('approved_answers', [...(list ?? []), row]))
-    }} />
+    return <FlagReview reasons={tables.flag_reasons} onBack={() => setScreen('developer')} onAccept={acceptAnswer} />
   }
   if (screen === 'forum') return <Forum onBack={() => setScreen('developer')} />
   if (screen === 'listening' && passage) return <Listening passage={passage} onDone={() => { markActive(); setPassage(null); setScreen('make') }} onBack={() => { setPassage(null); setScreen('make') }} />
   if (screen === 'about') return <About content={allContent} onBack={() => setScreen('settings')} />
+  if (screen === 'privacy') return <Privacy onBack={() => setScreen('settings')} />
   if (screen === 'note' && note) {
     const unit = tables.units.find((u) => u.unit_id === note.unitId)
     const newWords = tables.words.filter((w) => w.first_unit === note.unitId)
@@ -1131,8 +1196,21 @@ export default function App() {
     // A2 begins after the last part only.
     ...(shownPart === lastPart ? [{ beforeRow: rowNumbers.at(-1) + 1, label: 'A2' }] : []),
   ] : []
+  // The "I can" checklist per level (Dan, 2026-11-15): a small marker at the end of each level on the tree (where the
+  // next level's marker goes, and after the last part for High A1) opens that level's statements, each with Check.
+  // Levels end at the same rows as the markers above, shown whether or not the learner has started.
+  const levelEnds = [
+    { label: 'Very Early A1', from: -Infinity, to: rowAfter(rowReaching(10 / 29)) },
+    { label: 'Early A1', from: rowAfter(rowReaching(10 / 29)), to: rowAfter(rowReaching(20 / 29)) },
+    { label: 'High A1', from: rowAfter(rowReaching(20 / 29)), to: rowNumbers.at(-1) + 1 },
+  ]
+  const iCan = levelEnds.map((lv) => {
+    const ids = new Set(mainA1.filter((t) => t.row >= lv.from && t.row < lv.to).map((t) => t.unit_id))
+    const items = (tables.can_do ?? []).filter((d) => ids.has(d.unit_id)).map((d) => ({ ...d, unit_title: tables.units.find((u) => u.unit_id === d.unit_id)?.title ?? '', checked: canDoChecked[d.can_do_id] ?? null }))
+    return { ...lv, beforeRow: lv.to, items }
+  }).filter((lv) => lv.items.length && (rows.some((r) => r.row === lv.beforeRow) || (lv.label === 'High A1' && shownPart === lastPart)))
   return (
-    <Home rows={rows} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
+    <Home rows={rows} iCan={iCan} onCheckCanDo={(d) => startCheck(d, 'home')} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
       tools={[
         { id: 'glossary', screen: 'words', label: 'Glossary', about: 'See which words are sticking', onOpen: () => setScreen('words') },
         { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Get every present-tense form right', onOpen: () => setScreen('verbs') },
@@ -1169,7 +1247,7 @@ export default function App() {
         <p className="text-xl font-semibold">Turn your iPad sideways</p>
         <p className="text-muted">Tamago on iPad works in landscape.</p>
       </div>
-      {splash && <Splash onDone={() => setSplash(false)} choose={chooser} />}
+      {splash && <Splash onDone={() => setSplash(false)} choose={chooser} line={returnLine()} />}
     </>
   )
 }

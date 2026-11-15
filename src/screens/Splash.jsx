@@ -24,7 +24,7 @@ const SWEEP = 0.7 // how staggered the corner-to-corner sweep is (0: every dot a
 const SHRINK_MS = 750
 const GAUZE = 0.9 // the curtain's opacity over the home screen (0.84 at first; Dan, 2026-11-13: a touch less showing through)
 
-export default function Splash({ onDone, choose = false }) {
+export default function Splash({ onDone, choose = false, line = null }) {
   const svg = useRef(null)
   const canvas = useRef(null)
   // The question can arrive a moment after the screen opens (once saved state is read), so it comes straight from
@@ -83,6 +83,8 @@ export default function Splash({ onDone, choose = false }) {
           <g className="wm-letters">{LETTERS.map((strokes, i) => <Letter key={i} i={i} spaced><LetterStrokes d={strokes.join('')} mask={`url(#letter-${i})`} /></Letter>)}</g>
         </svg>
         <SushiMark className="splash-sushi relative z-10 -mt-[14.5%] w-[37%]" />
+        {/* Where the learner is (Dan, 2026-11-15): quiet, under the logo, only for a returning learner. */}
+        {line && held !== true && <p data-return-line className="splash-line mt-5 text-sm text-muted">{line}</p>}
         {held === true && (
           <div className="splash-choose mt-[3.8rem] flex flex-col items-center gap-0">
             <h1 className="text-[1.15rem] font-semibold">Choose Your Language</h1>

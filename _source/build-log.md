@@ -802,3 +802,47 @@ Part 3, Lingua Libre recordings:
 - Senses (word-senses.json) and hints (claude_hints): simple, fort, occuper, amuser, marier, habiller, emmener, crier, exercice, mariage, discuter, collège re-picked; doux, douce, coup, suite, certain, quelque, garder, garde, envie, général, rappeler, affaires hinted with the sense and any set phrase's own Wiktionary entry (tout à coup, tout de suite, quelque chose, quelque part, avoir envie de, en général). affaires keeps "plural of affaire" so it counts for FLELex affaire; envie keeps "appetite" (the desire sense carries "lust").
 - French: 4,464 sentences shipped (3,574 Tatoeba, 890 originals; was 4,067 with 930). Parts 5 and 6 drafts 310 to 270. FLELex core 581 of 600 (97%), main path 554.
 - Audits on French: word audit 0 early, 0 over 4 (3,386 lessons); every-lesson check 0 issues (34,616 questions).
+
+## 2026-11-15: Improvements batch (all courses)
+
+- Verb-form hints (word-hints.js): any present form of a taught verb shows "lemma: meaning"; Read and Answer texts tappable; Glossary finds a verb by any form.
+- Device voice: best grade the device has (Premium, Enhanced, Natural, local, online), remembered per language; shown on the Developer page and in the lesson's Developer label.
+- Opening screen: "Course · Part N of M · X% of A1 words" for returning learners, from memory only.
+- Ready for the Real Exam? page, from Progress and the final check's ending.
+- Time Learning on Progress: active lesson time (visible, input within a minute), kv active_ms.
+- Phone tools: compact pill row (42 px, was 96).
+- Voice Lab: per-file tags (file:<path>), Rdrg109's "una" female; the picture follows file then person, Child per person.
+- Tests: word-hints.test.js (4), the una picture (1).
+
+## 2026-11-15: Interface sounds wired in (all courses)
+
+- Dan's Sound Lab picks: Soft swell (start a lesson from a circle), Warm thump (Check when right, Continue, Next Lesson), Two marimba notes (pair matched), Pebble (chip placed). audio.js cue; quiet bus, never over a recording or the device voice, cut off by any language audio; off with Sounds and reduced motion; no sound on wrong answers.
+- Checked in Chrome: each fires at its moment. test/cues.test.js (5).
+
+## 2026-11-15: Pace, flagged answers, reply hint (all courses)
+
+- Pace under Time Learning (pace.js, A1 60 to 100 hours in one place): Ahead of pace, On pace, Room to add time, with a small bar.
+- Flagged Answers on the Developer page: sentence, expected, their answer; Accept or Reject; Export Accepted Answers; the course's flagged-answers/ folder is read by import.mjs at the next build.
+- Answer the Question: a faint Hint link shows how a reply could start; costs nothing, logged as kind reply_start.
+- Checked in Chrome: hint, a flag made from a lesson, Accept, the export file, pace on Progress; import picked up a sample export once and left nothing behind.
+- Circle overview: an info icon above each circle's grammar notebook opens About This Circle (covers, grammar, new words, A1 task, round progress); modal on wide screens, bottom sheet on phones.
+- Pace made time-based (Dan): hours a week since starting against 5 a week; Ahead of pace / On pace / Room to add time; 'At this pace, A1 in about N months'.
+
+## 2026-11-15: Audit batch (all courses)
+
+- "I can": Check on every circle; I Can pills at the end of each level on the tree, opening that level's checklist.
+- Placement: adaptive, at most 18 questions over nine probes, stops at the first miss.
+- Verbs: Pick the Right Form and Match Pronoun to Form beside Type the Forms; misses come back at the end.
+- Headings in the course language from Part 3, phased by part, tap for English.
+- Privacy page from Settings; "I'm 13 or older" on sign-up.
+- Checked in Chrome: markers at the ends of Very Early A1 (Part 3), Early A1 (Part 5), High A1 (Part 6); placement ended after 18 questions; Traduis in Part 3, listening in French from Part 4; Pick repeats misses; privacy page.
+
+## 2026-11-15: Conversation partner, version 2 (all courses)
+
+- Five A1 task scenes per course (Ordering Food, Asking Directions, Introducing Yourself, Shopping, Making a Plan), only met words; scenes that fit come first, the rest under Later. Free Conversation kept; Topic, Vocabulary, Speed and Corrections filters removed.
+- Partner lines heard first at natural speed in the best device voice, text hidden; Slow and Show Words after a replay.
+- Voice by default, not graded; typing always. Quiet answer-time ring, no penalty, no cutoff.
+- Four help phrases first: Can you repeat?, More slowly, How do you spell it?, What does … mean? Spell added to the server.
+- 6 to 8 exchanges (server told to wrap up from 6, close at 8). Summary: average answer time and the change since last time, help phrases used, 2 or 3 gentle corrections, new words.
+- Cost guard: Haiku 5.5, 5 conversations a day per device, the monthly limit said plainly.
+- Checked in Chrome (iPhone size) against a mocked endpoint: scenes, hidden text, ring, help row, spell reply shown, 8 exchanges, summary.

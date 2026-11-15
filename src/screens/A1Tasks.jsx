@@ -3,10 +3,32 @@ import { play } from '../lib/audio.js'
 import { checkForm, readValue, sameValue, wordCount } from '../lib/a1types.js'
 import { requestFeedback } from '../lib/converse.js'
 import { TL, course } from '../lib/course.js'
+import { tables } from '../lib/content.js'
+import { hintPieces, verbFormHints } from '../lib/word-hints.js'
 import AudioHelp from './AudioHelp.jsx'
 
 // The A1 task question types (A1 Complete, 2026-11-10; logic in src/lib/a1types.js). No timers; Check is the only
 // commitment; nothing here waits on the network before the learner can go on.
+
+// A text's line with a hint on every course word and every form of a taught verb (Dan, 2026-11-15: "Gardez" shows
+// "garder: to keep"), the lesson's dotted underline and tooltip. Hints here aren't logged.
+let verbHints = null
+function HintLine({ text }) {
+  const [open, setOpen] = useState(null)
+  verbHints ??= verbFormHints(tables.words, tables.conjugations)
+  const pieces = hintPieces(text, tables.words, verbHints)
+  return (
+    <p>
+      {pieces.map((p, i) => (!p.hint ? <span key={i}>{p.text}</span> : (
+        <span key={i} className="relative">
+          <button type="button" onClick={() => setOpen(open === i ? null : i)} aria-expanded={open === i} data-hint
+            className="underline decoration-dotted decoration-2 underline-offset-4">{p.text}</button>
+          {open === i && <span role="tooltip" lang="en" className="absolute top-full left-0 z-10 mt-1 w-max max-w-[min(18rem,80vw)] rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base font-normal shadow-md">{p.hint}</span>}
+        </span>
+      )))}
+    </p>
+  )
+}
 
 const KIND_LABEL = { menu: 'Menu', sign: 'Sign', notice: 'Notice', timetable: 'Timetable', message: 'Message' }
 
@@ -29,7 +51,7 @@ export function ReadText({ q, result, onAnswer }) {
       <figure className={`rounded-2xl border-2 border-line bg-surface p-3 ${q.kind === 'sign' ? 'text-center' : ''}`}>
         <figcaption className="mb-1 text-sm text-muted">{KIND_LABEL[q.kind] ?? 'Text'}{q.title ? `: ${q.title}` : ''}</figcaption>
         <div lang={TL} className={`flex flex-col gap-0.5 ${q.kind === 'sign' ? 'text-xl font-semibold' : 'text-lg'}`}>
-          {q.lines.map((l, i) => <p key={i}>{l}</p>)}
+          {q.lines.map((l, i) => <HintLine key={i} text={l} />)}
         </div>
       </figure>
       <div className="grid gap-4 lg:grid-cols-2">

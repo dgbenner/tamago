@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { courseVoiceInfo } from '../lib/audio.js'
 import { lessonLogFor, snapshotRows } from '../lib/snapshot.js'
 import { getAll, resetEverything, resetLanguage } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
 import { IconBack } from './icons.jsx'
 import Backup from './Backup.jsx'
+import FlaggedAnswers from './FlaggedAnswers.jsx'
 import { site, version } from '../lib/version.js'
 import { COURSES, TL, course, jumpInCourse } from '../lib/course.js'
 import partsFr from '../content/parts.json'
@@ -157,6 +159,19 @@ function JumpToPart({ onJumpPart }) {
 // Two resets (Dan, 2026-11-13; Reset Progress before), each asking on the page first.
 //   Reset This Language: this course only, back to first use (Start Here again); other courses and settings stay.
 //   Reset Everything: every course, settings, sign-in and the offline copy; reloads as a brand-new user.
+// The device voice in use for sentences without a recording (Dan, 2026-11-15): the best the device has, remembered per
+// language. The list can fill late (iOS), so it asks again when the voices change.
+function DeviceVoice() {
+  const [info, setInfo] = useState(() => courseVoiceInfo())
+  useEffect(() => {
+    const again = () => setInfo(courseVoiceInfo())
+    window.speechSynthesis?.addEventListener?.('voiceschanged', again)
+    const t = setTimeout(again, 800)
+    return () => { window.speechSynthesis?.removeEventListener?.('voiceschanged', again); clearTimeout(t) }
+  }, [])
+  return <p data-device-voice className="text-sm">Device Voice ({course.name}): {info ? <><span className="font-medium">{info.name}</span> · {info.lang} · {info.grade}</> : 'none found'}</p>
+}
+
 // The labs (Dan, 2026-11-15): built and deployed with the app, listed only while Developer is on.
 const LABS = [['Sound Lab', '/lab/sounds/'], ['Circle Lab', '/lab.html'], ['Design Lab', '/design-lab.html'], ['Voice Lab', '/voice-lab.html']]
 function Labs() {
@@ -198,7 +213,7 @@ function Resets() {
   )
 }
 
-export default function Developer({ settings, onChange, snapshot, onBack, onVariants, onFlags, onNativeCheck, onForum, onTryA1, onJumpPart }) {
+export default function Developer({ settings, onChange, snapshot, onBack, onVariants, onFlags, onNativeCheck, onForum, onTryA1, onJumpPart, onAcceptAnswer }) {
   const [lib, setLib] = useState(null)
   const loadLib = () => import('../lib/devnotes.js').then((l) => { setLib(l); return l })
   const docFor = (id) => lib?.DOCS.find((d) => d.id === id) ?? { id, title: TITLES.find((t) => t[0] === id)[1] }
@@ -213,6 +228,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
 
       <section className="flex flex-col gap-5 rounded-xl border-2 border-dashed border-field p-5">
         <h2 className="text-lg font-semibold">Testing</h2>
+        <DeviceVoice />
         <Segmented label="Testing Shortcuts" help="In a lesson: swipe left from the right side of the screen, or press the right arrow, to pass a question as correct. On the tree: swipe a circle right to left, or press the right arrow while it has focus, to pass its next lesson without playing it. Passes are marked as tests." value={settings.test_shortcuts}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ test_shortcuts: v })} />
         <Segmented label="Show Developer in Tools" help={`Off hides this page's entry before testers. It stays open at ${location.origin}/#developer`} value={settings.developer ?? 'on'}
@@ -225,6 +241,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
           <button onClick={onTryA1} className="btn-secondary sm:col-span-2">Try the A1 Task Types</button>
         </div>
         {(settings.developer ?? 'on') === 'on' && <Labs />}
+        <FlaggedAnswers onAccept={onAcceptAnswer} />
         <JumpToPart onJumpPart={onJumpPart} />
         <Backup />
         <Resets />

@@ -71,7 +71,7 @@ function AccountSection({ auth, user, onSignIn, onProfile, onSignOut }) {
   )
 }
 
-export default function Settings({ settings, onChange, onBack, onAbout, onPlacement, onProfile, account = null, onSignIn, onSignOut }) {
+export default function Settings({ settings, onChange, onBack, onAbout, onPrivacy, onPlacement, onProfile, account = null, onSignIn, onSignOut }) {
   const [explaining, setExplaining] = useState(null)
   useEffect(() => { explainReady().then(setExplaining) }, [])
   return (
@@ -91,7 +91,7 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
         <Segmented label="Answer Checking" help="Lenient accepts a one-letter typo, a missing accent and a missing capital. Strict counts them wrong." value={settings.answer_strictness}
           options={[['lenient', 'Lenient'], ['strict', 'Strict']]} onChange={(v) => onChange({ answer_strictness: v })} />
         <Segmented label="Typed Answers" value={settings.typed_input} options={[['chips', 'Word Chips'], ['keyboard', 'Keyboard']]} onChange={(v) => onChange({ typed_input: v })} />
-        <Segmented label="Sounds" help="Soft sounds for buttons, matches and word chips, when they arrive." value={settings.sounds ?? 'on'}
+        <Segmented label="Sounds" help="Soft sounds for starting a lesson, Check and Continue, a matched pair and a word chip placed. Never on a wrong answer." value={settings.sounds ?? 'on'}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ sounds: v })} />
         <Segmented label="Listen First" help={`Audio plays with the ${course.name} hidden until you answer.`} value={settings.listen_first}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ listen_first: v })} />
@@ -121,7 +121,7 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
       </Section>
 
       <Section title="Your Learning">
-        <Item title="Placement Check" help={`Know some ${course.name} already? Three questions per unit; units you pass open the next ones. Nothing is taken away.`}>
+        <Item title="Placement Check" help={`Know some ${course.name} already? A few questions on circles across the course, under 3 minutes. It stops at the first one that's new to you and marks the circles before it as done. Nothing is taken away.`}>
           <button onClick={onPlacement} className="btn-secondary">Start the Placement Check</button>
         </Item>
         {/* Signed in, Account's Profile opens the same screen, so this one steps aside. */}
@@ -134,6 +134,7 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
             : <NeedsSetup title="Claude Explains Mistakes">After a wrong typed answer, a short explanation from Claude. Needs an API key.</NeedsSetup>}
         </Item>
         <button onClick={onAbout} className="btn-secondary">About the Content</button>
+        <button onClick={onPrivacy} className="btn-secondary" data-privacy>Privacy</button>
       </Section>
 
       </div>

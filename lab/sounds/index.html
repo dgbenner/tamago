@@ -23,6 +23,8 @@
       .opt label { flex: 1; cursor: pointer; }
       .opt small { display: block; color: var(--muted); font-size: .82rem; }
       .bar { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin: 12px 0 0; }
+      .circle { width: 72px; height: 72px; border-radius: 50%; border: 4px solid var(--line); background: #f3eee4; font-size: 34px; display: block; margin-bottom: 12px; cursor: pointer; }
+      .circle:active { transform: scale(0.97); }
       .demo { background: var(--card); border: 2px solid var(--line); border-radius: 16px; padding: 16px; margin-top: 10px; }
       .check { background: #f5c518; color: #23201b; border: 0; border-radius: 12px; padding: 12px 28px; font-weight: 700; font-size: 1rem; cursor: pointer; }
       .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; max-width: 26rem; }
@@ -35,12 +37,14 @@
   <body>
     <main>
       <h1>Sound Lab</h1>
-      <p class="note">Warm, soft sounds for three moments: the main button, a correct match, and a word tile slotting into the sentence. Each one is made in Web Audio, so there's nothing to license. Tap ▶ to hear one; tap its name to pick it for the demo at the bottom. Nothing here is used in the app yet.</p>
+      <p class="note">Warm, soft sounds for four moments: tapping a circle to start its lesson, the main button, a correct match, and a word tile slotting into the sentence. Each one is made in Web Audio, so there's nothing to license. Tap ▶ to hear one; tap its name to pick it for the demo at the bottom. Dan's picks are preselected (Soft swell, Warm thump, Two marimba notes, Pebble). Nothing here is used in the app yet.</p>
       <div class="bar"><label>Volume <input id="vol" type="range" min="0" max="1" step="0.05" value="0.6" /></label></div>
       <section id="sections"></section>
       <h2>Try them in place</h2>
       <p class="note">The picked sound of each kind plays here.</p>
       <div class="demo">
+        <h3>Start a lesson</h3>
+        <button class="circle" id="circle" aria-label="Start Say Hi">🍣</button>
         <button class="check" id="check">Check</button>
         <h3>Match the pairs</h3>
         <div class="tiles" id="tiles"></div>
@@ -86,6 +90,16 @@
       const wood = (d, f, at = 0, level = 0.5) => { tone(d, f, { at, partials: [[1, 1], [2.57, 0.35], [4.1, 0.12]], decay: 0.09, level }); knock(d, f * 2.2, { at, level: level * 0.25 }) }
 
       const SOUNDS = {
+        // Starting a lesson (Dan, 2026-11-15): tapping or clicking a circle on the tree. A little more of an opening than
+        // the main button, still soft and short.
+        circle: { title: 'Start a lesson', note: 'Tapping or clicking a circle on the tree to begin.', options: [
+          ['Wood steps up', 'Three small blocks, rising', (d) => { wood(d, 440, 0, 0.4); wood(d, 554, 0.07, 0.4); wood(d, 660, 0.14, 0.4) }],
+          ['Marimba roll', 'A quick rising C, E, G on wooden bars', (d) => { for (const [f, at] of [[392, 0], [523.25, 0.06], [659.25, 0.12]]) tone(d, f, { at, partials: [[1, 1], [4, 0.2]], decay: 0.35, level: 0.35 }) }],
+          ['Soft swell', 'A warm chord fading in, then away', (d) => { for (const f of [261.63, 329.63, 392]) tone(d, f, { attack: 0.08, decay: 0.5, level: 0.16, lowpass: 1800 }) }],
+          ['Felt chord', 'A low note and a fifth, felted piano', (d) => { tone(d, 196, { attack: 0.012, decay: 0.4, level: 0.4, lowpass: 1200 }); tone(d, 293.66, { at: 0.03, attack: 0.012, decay: 0.45, level: 0.32, lowpass: 1400 }) }],
+          ['Kalimba pair', 'Two plucked tines, low then high', (d) => { tone(d, 659.25, { partials: [[1, 1], [5.4, 0.15]], attack: 0.002, decay: 0.45, level: 0.3 }); tone(d, 987.77, { at: 0.09, partials: [[1, 1], [5.4, 0.15]], attack: 0.002, decay: 0.55, level: 0.28 }) }],
+          ['Thump and bell', 'A cushioned thump with a small bell over it', (d) => { tone(d, 160, { type: 'triangle', decay: 0.12, level: 0.5, lowpass: 900 }); tone(d, 784, { at: 0.05, partials: [[1, 1], [2.76, 0.15]], attack: 0.006, decay: 0.7, level: 0.2 }) }],
+        ] },
         button: { title: 'Main button', note: 'Check, Continue, Next Lesson: one soft press.', options: [
           ['Wood block', 'A small hollow block, tapped softly', (d) => wood(d, 520)],
           ['Felt mallet', 'A muted low note, round and quiet', (d) => tone(d, 330, { attack: 0.01, decay: 0.16, level: 0.55, lowpass: 1400 })],
@@ -111,7 +125,8 @@
           ['Soft plop', 'A gentle falling plop', (d) => tone(d, 400, { glide: 250, decay: 0.07, level: 0.45, lowpass: 1500 })],
         ] },
       }
-      const picked = { button: 0, match: 0, slot: 0 }
+      // Dan's picks (2026-11-15): circle 3 Soft swell, button 6 Warm thump, match 1 Two marimba notes, slot 5 Pebble.
+      const picked = { circle: 2, button: 5, match: 0, slot: 4 }
       const play = (kind, i = picked[kind]) => SOUNDS[kind].options[i][2](out())
 
       const root = document.getElementById('sections')
@@ -122,8 +137,8 @@
         s.options.forEach(([name, desc], i) => {
           const id = `${kind}-${i}`
           const row = document.createElement('div')
-          row.className = `opt${i === 0 ? ' picked' : ''}`
-          row.innerHTML = `<button aria-label="Play ${name}">▶</button><label><input type="radio" name="${kind}" id="${id}" ${i === 0 ? 'checked' : ''} hidden />${i + 1}. ${name}<small>${desc}</small></label>`
+          row.className = `opt${i === picked[kind] ? ' picked' : ''}`
+          row.innerHTML = `<button aria-label="Play ${name}">▶</button><label><input type="radio" name="${kind}" id="${id}" ${i === picked[kind] ? 'checked' : ''} hidden />${i + 1}. ${name}<small>${desc}</small></label>`
           row.querySelector('button').onclick = () => play(kind, i)
           row.querySelector('label').onclick = () => { picked[kind] = i; grid.querySelectorAll('.opt').forEach((o, k) => o.classList.toggle('picked', k === i)); play(kind, i) }
           grid.append(row)
@@ -132,6 +147,7 @@
       }
 
       document.getElementById('check').onclick = () => play('button')
+      document.getElementById('circle').onclick = () => play('circle')
       // Match pairs: French on the left, English on the right.
       const pairs = [['chat', 'cat'], ['maison', 'house'], ['pain', 'bread'], ['eau', 'water']]
       const tiles = document.getElementById('tiles')

@@ -23,8 +23,17 @@ const HELP = {
   repeat: 'The learner asked you to repeat. Say your last line again exactly, word for word.',
   meaning: 'The learner asked what something means (a word they name, or your last line). Explain it in the course language with simpler words, a synonym or a tiny example. Never translate into English.',
   say: 'The learner asked how to say something; the thing may be in English. Give them the course-language word or phrase in a short, natural sentence they can repeat, then carry on.',
+  spell: 'The learner asked how to spell something (a word they name, or the main word of your last line). Say the word, then spell it letter by letter with the letters separated by commas so a voice reads them one by one (for example "Bonjour : B, O, N, J, O, U, R."), naming accents the way the language does. Then carry on.',
   word: 'The learner is looking for a word and is describing it ("it\'s a thing for…"). Guess the word, say it clearly, and check if that is what they meant.',
 }
+
+// Version 2: pacing, speech-recognition lines, and the gentle corrections of the summary.
+const PACE = 'This scene is short: about 6 to 8 exchanges in all, about 2 to 3 minutes. Open the scene\'s task straight away.'
+const SPOKEN = 'Said aloud and written down by speech recognition: ignore spelling, capitals and punctuation in it.'
+export const paceNote = (n) => n >= 8
+  ? `Exchange ${n} of 8: close the scene now in one short, friendly line (a goodbye) and set done to true.`
+  : n >= 6 ? `Exchange ${n} of 6 to 8: start to bring the task to an end.` : `Exchange ${n} of 6 to 8.`
+const REVIEW_V2 = '[The conversation is over. Pick the 2 or 3 most useful gentle corrections from the learner\'s lines (fewer if there were fewer mistakes, an empty list if none): what they said, a better, natural way in the course language, and why in a few kind, plain English words. Skip help phrases. For lines said aloud, never correct spelling, capitals or punctuation.]'
 
 function system(b) {
   const lang = LANG[b.lang]
@@ -115,12 +124,17 @@ export async function handle(req, key) {
   }
   // The conversation as alternating turns; Claude speaks first, so a "start" user turn opens it. A help tap carries
   // its instruction in brackets after the learner's words.
-  const messages = [{ role: 'user', content: '(The conversation starts. Say your first line.)' }]
+  const v2 = b.v === 2
+  const messages = [{ role: 'user', content: `(The conversation starts. Say your first line.)${v2 ? `\n[${PACE}]` : ''}` }]
+  let answered = 0
   for (const m of history) {
-    if (m.role === 'ai') messages.push({ role: 'assistant', content: JSON.stringify({ say: clip(m.text, LIMITS.chars), english: '', correction: '', done: false }) })
-    else messages.push({ role: 'user', content: `${clip(m.text, LIMITS.chars)}${HELP[m.help] ? `\n[${HELP[m.help]}]` : ''}${b.corrections === 'each' && !m.help ? '\n[Corrections are on: fill in correction if this line has a mistake.]' : ''}` })
+    if (m.role === 'ai') { messages.push({ role: 'assistant', content: JSON.stringify({ say: clip(m.text, LIMITS.chars), english: '', correction: '', done: false }) }); continue }
+    if (!m.help) answered++
+    messages.push({ role: 'user', content: `${clip(m.text, LIMITS.chars)}${m.spoken ? `\n[${SPOKEN}]` : ''}${HELP[m.help] ? `\n[${HELP[m.help]}]` : ''}${b.corrections === 'each' && !m.help ? '\n[Corrections are on: fill in correction if this line has a mistake.]' : ''}` })
   }
-  if (kind === 'review') messages.push({ role: 'user', content: '[The conversation is over. List up to 5 of the learner\'s lines that had a mistake: what they said, a better way in the course language, and why in a few plain English words. Skip help phrases. An empty list if there were none.]' })
+  // Version 2 (Dan, 2026-11-15): 6 to 8 exchanges. The count rides on the newest turn, so the cached prompt stays put.
+  if (v2 && kind === 'turn' && history.at(-1)?.role === 'learner') messages.push({ role: 'user', content: `[${paceNote(answered)}]` })
+  if (kind === 'review') messages.push({ role: 'user', content: v2 ? REVIEW_V2 : '[The conversation is over. List up to 5 of the learner\'s lines that had a mistake: what they said, a better way in the course language, and why in a few plain English words. Skip help phrases. An empty list if there were none.]' })
   // Merge any two user turns in a row (the API takes them, but one turn reads more clearly).
   const merged = messages.reduce((a, m) => { const last = a.at(-1); if (last && last.role === m.role) last.content += `\n${m.content}`; else a.push({ ...m }); return a }, [])
 
@@ -142,7 +156,12 @@ export async function handle(req, key) {
     if (error instanceof SyntaxError) return json({ result: null })
     if (error instanceof Anthropic.RateLimitError) return json({ error: 'busy' }, 429)
     if (error instanceof Anthropic.AuthenticationError) return json({ error: 'key' }, 503)
+    if (monthlyLimit(error)) return json({ error: 'monthly' }, 503)
     if (error instanceof Anthropic.APIError) return json({ error: 'api' }, 502)
     return json({ error: 'network' }, 502)
   }
 }
+
+// The workspace's monthly spend limit (or an empty balance): Anthropic refuses with a 400 that names usage limits or
+// credit. The app says so plainly instead of "try again".
+export const monthlyLimit = (error) => error instanceof Anthropic.APIError && error.status === 400 && /usage limit|spend limit|credit balance/i.test(String(error.message))
