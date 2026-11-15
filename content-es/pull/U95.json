@@ -1,0 +1,867 @@
+{
+  "unit_id": "U95",
+  "pulled_at": "2026-11-15",
+  "candidates": 16,
+  "sentences": [
+    {
+      "sentence_id": "S95001",
+      "unit_id": "U95",
+      "french": "¿No tienes aire acondicionado?",
+      "english": "Don't you have an air conditioner?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1322573",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95002",
+      "unit_id": "U95",
+      "french": "Esta habitación tiene aire acondicionado.",
+      "english": "This room is air-conditioned.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "481906",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Raimondi",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95003",
+      "unit_id": "U95",
+      "french": "El aire acondicionado no sirve.",
+      "english": "The air conditioner doesn't work.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1421751",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95004",
+      "unit_id": "U95",
+      "french": "¿Tienen una reserva?",
+      "english": "Do you have a reservation?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3351439",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95005",
+      "unit_id": "U95",
+      "french": "Individual, por favor.",
+      "english": "Single, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12566368",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "frankowro",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95006",
+      "unit_id": "U95",
+      "french": "Tom tiene una reserva.",
+      "english": "Tom has a reservation.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1715851",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95007",
+      "unit_id": "U95",
+      "french": "Quiero cambiar mi reserva.",
+      "english": "I want to change my reservation.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2015320",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95008",
+      "unit_id": "U95",
+      "french": "Quiero alquilar un apartamento.",
+      "english": "I want to rent an apartment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5077915",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tommyjeje",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95009",
+      "unit_id": "U95",
+      "french": "Busco una habitación individual.",
+      "english": "I'm looking for a single room.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8324025",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95010",
+      "unit_id": "U95",
+      "french": "Esta escuela no tiene calefacción.",
+      "english": "This school has no heating.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1732095",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95011",
+      "unit_id": "U95",
+      "french": "No tengo habitaciones para alquilar.",
+      "english": "I don't have any rooms for rent.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3300739",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95012",
+      "unit_id": "U95",
+      "french": "Tengo que alquilar un coche.",
+      "english": "I have to rent a car.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6806629",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95013",
+      "unit_id": "U95",
+      "french": "La primavera está en el aire.",
+      "english": "Spring is in the air.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1509035",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95014",
+      "unit_id": "U95",
+      "french": "Quisiera hacer una reserva en el hotel.",
+      "english": "I'd like a hotel reservation.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "924089",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95015",
+      "unit_id": "U95",
+      "french": "Tom tiene una reserva en este hotel.",
+      "english": "Tom has a reservation at this hotel.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1355857",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95016",
+      "unit_id": "U95",
+      "french": "Quiero alquilar la habitación a un estudiante.",
+      "english": "I want to rent this room to a student.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1894106",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zahurdias",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S95001",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 2,
+      "surface": "tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 3,
+      "surface": "aire",
+      "word_id": "W1847",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 4,
+      "surface": "acondicionado",
+      "word_id": "W1848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 2,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 3,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 4,
+      "surface": "aire",
+      "word_id": "W1847",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 5,
+      "surface": "acondicionado",
+      "word_id": "W1848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 2,
+      "surface": "aire",
+      "word_id": "W1847",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 3,
+      "surface": "acondicionado",
+      "word_id": "W1848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 4,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 5,
+      "surface": "sirve",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 1,
+      "surface": "Tienen",
+      "word_id": "W188",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 3,
+      "surface": "reserva",
+      "word_id": "W1845",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 1,
+      "surface": "Individual",
+      "word_id": "W1844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 2,
+      "surface": "por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 4,
+      "surface": "reserva",
+      "word_id": "W1845",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 2,
+      "surface": "cambiar",
+      "word_id": "W1350",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 4,
+      "surface": "reserva",
+      "word_id": "W1845",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 2,
+      "surface": "alquilar",
+      "word_id": "W1850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 4,
+      "surface": "apartamento",
+      "word_id": "W853",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 1,
+      "surface": "Busco",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 3,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 4,
+      "surface": "individual",
+      "word_id": "W1844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 1,
+      "surface": "Esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 2,
+      "surface": "escuela",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 3,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 4,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 5,
+      "surface": "calefacción",
+      "word_id": "W1849",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 2,
+      "surface": "tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 3,
+      "surface": "habitaciones",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 5,
+      "surface": "alquilar",
+      "word_id": "W1850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W1471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 3,
+      "surface": "alquilar",
+      "word_id": "W1850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 5,
+      "surface": "coche",
+      "word_id": "W1036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 2,
+      "surface": "primavera",
+      "word_id": "W1247",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 5,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 6,
+      "surface": "aire",
+      "word_id": "W1847",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 1,
+      "surface": "Quisiera",
+      "word_id": "W1613",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 2,
+      "surface": "hacer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 4,
+      "surface": "reserva",
+      "word_id": "W1845",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 6,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 7,
+      "surface": "hotel",
+      "word_id": "W1034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 4,
+      "surface": "reserva",
+      "word_id": "W1845",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 6,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 7,
+      "surface": "hotel",
+      "word_id": "W1034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 2,
+      "surface": "alquilar",
+      "word_id": "W1850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 4,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 5,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 6,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 7,
+      "surface": "estudiante",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

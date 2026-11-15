@@ -93,5 +93,258 @@
         "answer": "06 11 15 19 20"
       }
     ]
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "Juan y María van al cine el sábado a las ocho y media de la noche. Se ven en la plaza.",
+    "fields": [
+      {
+        "key": "day",
+        "label": "Día",
+        "rule": "text",
+        "answer": "sábado",
+        "also": [
+          "Sábado",
+          "sabado",
+          "el sábado"
+        ]
+      },
+      {
+        "key": "time",
+        "label": "Hora",
+        "rule": "text",
+        "answer": "8:30",
+        "also": [
+          "20:30",
+          "8.30",
+          "8:30 pm",
+          "8:30 p. m.",
+          "ocho y media",
+          "las ocho y media"
+        ]
+      },
+      {
+        "key": "place",
+        "label": "Lugar",
+        "rule": "text",
+        "answer": "la plaza",
+        "also": [
+          "plaza",
+          "en la plaza"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Me llamo María. Me levanto a las siete. Empiezo el trabajo a las nueve y termino a las cinco.",
+    "fields": [
+      {
+        "key": "name",
+        "label": "Nombre",
+        "rule": "text",
+        "answer": "María",
+        "also": [
+          "Maria"
+        ]
+      },
+      {
+        "key": "up",
+        "label": "Se levanta",
+        "rule": "text",
+        "answer": "7:00",
+        "also": [
+          "7",
+          "7 am",
+          "7:00 am",
+          "siete",
+          "las siete",
+          "a las siete"
+        ]
+      },
+      {
+        "key": "start",
+        "label": "Empieza el trabajo",
+        "rule": "text",
+        "answer": "9:00",
+        "also": [
+          "9",
+          "9 am",
+          "9:00 am",
+          "nueve",
+          "las nueve",
+          "a las nueve"
+        ]
+      },
+      {
+        "key": "end",
+        "label": "Termina el trabajo",
+        "rule": "text",
+        "answer": "5:00",
+        "also": [
+          "5",
+          "17:00",
+          "5 pm",
+          "5:00 pm",
+          "cinco",
+          "las cinco",
+          "a las cinco"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Me llamo Ana Torres García. Soy mexicana. Mi fecha de nacimiento es el 10 de abril. Estoy casada. Vivo en la avenida Juárez, número quince, en Guadalajara.",
+    "fields": [
+      {
+        "key": "first",
+        "label": "Nombre",
+        "rule": "text",
+        "answer": "Ana"
+      },
+      {
+        "key": "last",
+        "label": "Apellidos",
+        "rule": "text",
+        "answer": "Torres García",
+        "also": [
+          "Torres Garcia"
+        ]
+      },
+      {
+        "key": "nat",
+        "label": "Nacionalidad",
+        "rule": "text",
+        "answer": "mexicana",
+        "also": [
+          "mexicano"
+        ]
+      },
+      {
+        "key": "born",
+        "label": "Fecha de nacimiento",
+        "rule": "text",
+        "answer": "10 de abril",
+        "also": [
+          "10/4",
+          "10/04",
+          "10 abril",
+          "diez de abril",
+          "el 10 de abril"
+        ]
+      },
+      {
+        "key": "status",
+        "label": "Estado civil",
+        "rule": "text",
+        "answer": "casada",
+        "also": [
+          "casado"
+        ]
+      },
+      {
+        "key": "town",
+        "label": "Ciudad",
+        "rule": "text",
+        "answer": "Guadalajara"
+      }
+    ]
+  },
+  {
+    "id": "F302",
+    "unit_id": "U87",
+    "card": "Me llamo Luis García. Tengo treinta años. Soy ingeniero y trabajo en una empresa en Guadalajara. Estoy soltero.",
+    "fields": [
+      {
+        "key": "first",
+        "label": "Nombre",
+        "rule": "text",
+        "answer": "Luis"
+      },
+      {
+        "key": "last",
+        "label": "Apellido",
+        "rule": "text",
+        "answer": "García",
+        "also": [
+          "Garcia"
+        ]
+      },
+      {
+        "key": "age",
+        "label": "Edad",
+        "rule": "number",
+        "answer": "30"
+      },
+      {
+        "key": "job",
+        "label": "Profesión",
+        "rule": "text",
+        "answer": "ingeniero"
+      },
+      {
+        "key": "status",
+        "label": "Estado civil",
+        "rule": "text",
+        "answer": "soltero"
+      },
+      {
+        "key": "town",
+        "label": "Ciudad",
+        "rule": "text",
+        "answer": "Guadalajara"
+      }
+    ]
+  },
+  {
+    "id": "F303",
+    "unit_id": "U95",
+    "card": "Soy Carlos López, de España. Quisiera una habitación doble para tres noches, con aire acondicionado.",
+    "fields": [
+      {
+        "key": "first",
+        "label": "Nombre",
+        "rule": "text",
+        "answer": "Carlos"
+      },
+      {
+        "key": "last",
+        "label": "Apellido",
+        "rule": "text",
+        "answer": "López",
+        "also": [
+          "Lopez"
+        ]
+      },
+      {
+        "key": "country",
+        "label": "País",
+        "rule": "text",
+        "answer": "España",
+        "also": [
+          "Espana"
+        ]
+      },
+      {
+        "key": "room",
+        "label": "Habitación",
+        "rule": "text",
+        "answer": "doble",
+        "also": [
+          "habitación doble",
+          "una habitación doble"
+        ]
+      },
+      {
+        "key": "nights",
+        "label": "Noches",
+        "rule": "number",
+        "answer": "3"
+      }
+    ]
   }
 ]

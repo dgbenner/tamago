@@ -14,5 +14,45 @@
     "fields_json": "[{\"key\":\"first\",\"label\":\"Vorname\",\"rule\":\"text\",\"answer\":\"Anna\"},{\"key\":\"last\",\"label\":\"Name\",\"rule\":\"text\",\"answer\":\"Weber\"},{\"key\":\"age\",\"label\":\"Alter\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"from\",\"label\":\"Herkunftsland\",\"rule\":\"text\",\"answer\":\"Österreich\",\"also\":[\"Oesterreich\",\"Osterreich\"]},{\"key\":\"country\",\"label\":\"Wohnort (Land)\",\"rule\":\"text\",\"answer\":\"Deutschland\"},{\"key\":\"tel\",\"label\":\"Telefon\",\"rule\":\"phone\",\"answer\":\"06 11 15 19 20\"}]",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "Peter und Maria gehen am Samstag um halb neun ins Kino. Sie treffen sich am Bahnhof.",
+    "fields_json": "[{\"key\":\"day\",\"label\":\"Tag\",\"rule\":\"text\",\"answer\":\"Samstag\",\"also\":[\"samstag\",\"am Samstag\"]},{\"key\":\"time\",\"label\":\"Uhrzeit\",\"rule\":\"text\",\"answer\":\"20:30\",\"also\":[\"20.30\",\"20:30 Uhr\",\"8:30\",\"8.30\",\"halb neun\",\"20 Uhr 30\"]},{\"key\":\"place\",\"label\":\"Ort\",\"rule\":\"text\",\"answer\":\"Bahnhof\",\"also\":[\"am Bahnhof\",\"der Bahnhof\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Ich heiße Maria. Ich stehe um sieben Uhr auf. Die Arbeit beginnt um neun Uhr und endet um fünf Uhr.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Vorname\",\"rule\":\"text\",\"answer\":\"Maria\"},{\"key\":\"up\",\"label\":\"Aufstehen\",\"rule\":\"text\",\"answer\":\"7 Uhr\",\"also\":[\"7:00\",\"7.00\",\"sieben Uhr\",\"7\",\"7:00 Uhr\"]},{\"key\":\"start\",\"label\":\"Beginn der Arbeit\",\"rule\":\"text\",\"answer\":\"9 Uhr\",\"also\":[\"9:00\",\"9.00\",\"neun Uhr\",\"9\",\"9:00 Uhr\"]},{\"key\":\"end\",\"label\":\"Ende der Arbeit\",\"rule\":\"text\",\"answer\":\"17 Uhr\",\"also\":[\"17:00\",\"17.00\",\"5 Uhr\",\"5:00\",\"fünf Uhr\",\"17:00 Uhr\",\"17\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Ich heiße Maria Schmidt. Ich bin 1990 in Hamburg geboren. Ich komme aus Deutschland und ich bin verheiratet.",
+    "fields_json": "[{\"key\":\"last\",\"label\":\"Name\",\"rule\":\"text\",\"answer\":\"Schmidt\"},{\"key\":\"first\",\"label\":\"Vorname\",\"rule\":\"text\",\"answer\":\"Maria\"},{\"key\":\"year\",\"label\":\"Geburtsjahr\",\"rule\":\"number\",\"answer\":\"1990\"},{\"key\":\"place\",\"label\":\"Geburtsort\",\"rule\":\"text\",\"answer\":\"Hamburg\"},{\"key\":\"country\",\"label\":\"Land\",\"rule\":\"text\",\"answer\":\"Deutschland\"},{\"key\":\"status\",\"label\":\"Familienstand\",\"rule\":\"text\",\"answer\":\"verheiratet\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F302",
+    "unit_id": "U88",
+    "card": "Guten Tag, mein Name ist Peter Weber. Ich möchte ein Einzelzimmer für zwei Nächte, vom zehnten bis zum zwölften Mai. Meine Nummer ist null, sechs, elf, fünfzehn, neunzehn, zwanzig.",
+    "fields_json": "[{\"key\":\"last\",\"label\":\"Name\",\"rule\":\"text\",\"answer\":\"Weber\"},{\"key\":\"room\",\"label\":\"Zimmer\",\"rule\":\"text\",\"answer\":\"Einzelzimmer\",\"also\":[\"ein Einzelzimmer\",\"einzelzimmer\"]},{\"key\":\"nights\",\"label\":\"Nächte\",\"rule\":\"number\",\"answer\":\"2\"},{\"key\":\"from\",\"label\":\"Ankunft\",\"rule\":\"text\",\"answer\":\"10. Mai\",\"also\":[\"10.5.\",\"10.05.\",\"10/5\",\"zehnter Mai\",\"10 Mai\",\"am 10. Mai\"]},{\"key\":\"tel\",\"label\":\"Telefon\",\"rule\":\"phone\",\"answer\":\"06 11 15 19 20\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F303",
+    "unit_id": "U82",
+    "card": "Ich möchte einen Tisch für vier Personen bestellen, am Samstag um acht Uhr abends. Mein Name ist Anna Becker.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Name\",\"rule\":\"text\",\"answer\":\"Becker\",\"also\":[\"Anna Becker\"]},{\"key\":\"people\",\"label\":\"Personen\",\"rule\":\"number\",\"answer\":\"4\"},{\"key\":\"day\",\"label\":\"Tag\",\"rule\":\"text\",\"answer\":\"Samstag\",\"also\":[\"samstag\",\"am Samstag\"]},{\"key\":\"time\",\"label\":\"Uhrzeit\",\"rule\":\"text\",\"answer\":\"20 Uhr\",\"also\":[\"20:00\",\"20.00\",\"8 Uhr\",\"8:00\",\"acht Uhr\",\"20:00 Uhr\",\"20\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

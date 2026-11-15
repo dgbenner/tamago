@@ -1,0 +1,1540 @@
+{
+  "unit_id": "U75",
+  "pulled_at": "2026-11-15",
+  "candidates": 35,
+  "sentences": [
+    {
+      "sentence_id": "S75001",
+      "unit_id": "U75",
+      "french": "¿Puede la gente cambiar?",
+      "english": "Can people change?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2063686",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75002",
+      "unit_id": "U75",
+      "french": "¿Dónde está este lugar?",
+      "english": "Where's this place?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4770938",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alegarvid",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75003",
+      "unit_id": "U75",
+      "french": "¿Cuál metro va al centro?",
+      "english": "What subway goes to the center of town?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1513103",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75004",
+      "unit_id": "U75",
+      "french": "¿Ves gente en el parque?",
+      "english": "Do you see people in the park?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4637446",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lawka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75005",
+      "unit_id": "U75",
+      "french": "¿Por qué la gente va al cine?",
+      "english": "Why do people go to the cinema?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2909",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75006",
+      "unit_id": "U75",
+      "french": "¿Cuál es el nombre de este lugar?",
+      "english": "What's the name of this place?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8622725",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75007",
+      "unit_id": "U75",
+      "french": "Soy un turista.",
+      "english": "I'm a tourist.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "514810",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": [
+        "I am a tourist."
+      ]
+    },
+    {
+      "sentence_id": "S75008",
+      "unit_id": "U75",
+      "french": "¡Qué hermoso lugar!",
+      "english": "What a beautiful place!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2154843",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75009",
+      "unit_id": "U75",
+      "french": "Tom es famoso.",
+      "english": "Tom is famous.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2230022",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75010",
+      "unit_id": "U75",
+      "french": "No soy famoso.",
+      "english": "I'm not famous.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3562778",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ficion",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75011",
+      "unit_id": "U75",
+      "french": "Yo soy una turista.",
+      "english": "I am a tourist.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1168531",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75012",
+      "unit_id": "U75",
+      "french": "También soy un turista.",
+      "english": "I'm a tourist, too.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1687469",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75013",
+      "unit_id": "U75",
+      "french": "El edificio es azul.",
+      "english": "The building is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2442619",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75014",
+      "unit_id": "U75",
+      "french": "Tom es muy famoso.",
+      "english": "Tom is very famous.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3481786",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75015",
+      "unit_id": "U75",
+      "french": "El edificio es alto.",
+      "english": "The building is tall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8088972",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75016",
+      "unit_id": "U75",
+      "french": "Este edificio es muy grande.",
+      "english": "This building is very large.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1732086",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75017",
+      "unit_id": "U75",
+      "french": "Solo quiero visitar a Tom.",
+      "english": "I just want to visit Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2033180",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75018",
+      "unit_id": "U75",
+      "french": "La gente es buena.",
+      "english": "People are good.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1546443",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75019",
+      "unit_id": "U75",
+      "french": "Este es mi lugar.",
+      "english": "This is my place.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1901523",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75020",
+      "unit_id": "U75",
+      "french": "Mi lugar está aquí.",
+      "english": "My place is here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1976387",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75021",
+      "unit_id": "U75",
+      "french": "Este lugar es hermoso.",
+      "english": "This place is beautiful.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2222570",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75022",
+      "unit_id": "U75",
+      "french": "Son gente muy alegre.",
+      "english": "They're very cheerful people.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2259674",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75023",
+      "unit_id": "U75",
+      "french": "Ellos son gente interesante.",
+      "english": "They're interesting people.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3389919",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75024",
+      "unit_id": "U75",
+      "french": "Es bonito el lugar.",
+      "english": "The place is pretty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4824090",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75025",
+      "unit_id": "U75",
+      "french": "Tom no es famoso.",
+      "english": "Tom isn't famous.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9685145",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Tom is not famous."
+      ]
+    },
+    {
+      "sentence_id": "S75026",
+      "unit_id": "U75",
+      "french": "El edificio está en llamas.",
+      "english": "The building is on fire.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2571735",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": [
+        "The building's on fire."
+      ]
+    },
+    {
+      "sentence_id": "S75027",
+      "unit_id": "U75",
+      "french": "¡Aquí hay gente muy enferma!",
+      "english": "There are very sick people here!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4417806",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75028",
+      "unit_id": "U75",
+      "french": "La gente viene de allí.",
+      "english": "The people come from there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5974973",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "diegohn",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75029",
+      "unit_id": "U75",
+      "french": "Yo no soy un turista.",
+      "english": "I'm not a tourist.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11706975",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75030",
+      "unit_id": "U75",
+      "french": "Cómo está la tienda de gente.",
+      "english": "The store is so full of people.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5711642",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S75001",
+      "position": 1,
+      "surface": "Puede",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 3,
+      "surface": "gente",
+      "word_id": "W1467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 4,
+      "surface": "cambiar",
+      "word_id": "W1350",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 4,
+      "surface": "lugar",
+      "word_id": "W1463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 2,
+      "surface": "metro",
+      "word_id": "W1340",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 3,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 4,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 5,
+      "surface": "centro",
+      "word_id": "W1465",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 1,
+      "surface": "Ves",
+      "word_id": "W1266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 2,
+      "surface": "gente",
+      "word_id": "W1467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 5,
+      "surface": "parque",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 3,
+      "surface": "gente",
+      "word_id": "W1467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 4,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 5,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 6,
+      "surface": "cine",
+      "word_id": "W1031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 4,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 6,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 7,
+      "surface": "lugar",
+      "word_id": "W1463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 3,
+      "surface": "turista",
+      "word_id": "W1458",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 2,
+      "surface": "hermoso",
+      "word_id": "W1452",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 3,
+      "surface": "lugar",
+      "word_id": "W1463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 3,
+      "surface": "famoso",
+      "word_id": "W1470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75010",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75010",
+      "position": 2,
+      "surface": "soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75010",
+      "position": 3,
+      "surface": "famoso",
+      "word_id": "W1470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75011",
+      "position": 1,
+      "surface": "Yo",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75011",
+      "position": 2,
+      "surface": "soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75011",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75011",
+      "position": 4,
+      "surface": "turista",
+      "word_id": "W1458",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 1,
+      "surface": "También",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 2,
+      "surface": "soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 4,
+      "surface": "turista",
+      "word_id": "W1458",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 2,
+      "surface": "edificio",
+      "word_id": "W1461",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 3,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 4,
+      "surface": "famoso",
+      "word_id": "W1470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 2,
+      "surface": "edificio",
+      "word_id": "W1461",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 4,
+      "surface": "alto",
+      "word_id": "W1127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 2,
+      "surface": "edificio",
+      "word_id": "W1461",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 4,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 5,
+      "surface": "grande",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 1,
+      "surface": "Solo",
+      "word_id": "W1413",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 2,
+      "surface": "quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 3,
+      "surface": "visitar",
+      "word_id": "W1469",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 2,
+      "surface": "gente",
+      "word_id": "W1467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 4,
+      "surface": "buena",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 4,
+      "surface": "lugar",
+      "word_id": "W1463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 2,
+      "surface": "lugar",
+      "word_id": "W1463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 4,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 2,
+      "surface": "lugar",
+      "word_id": "W1463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 4,
+      "surface": "hermoso",
+      "word_id": "W1452",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 1,
+      "surface": "Son",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 2,
+      "surface": "gente",
+      "word_id": "W1467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 3,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 4,
+      "surface": "alegre",
+      "word_id": "W1008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 1,
+      "surface": "Ellos",
+      "word_id": "W076",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 2,
+      "surface": "son",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 3,
+      "surface": "gente",
+      "word_id": "W1467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 4,
+      "surface": "interesante",
+      "word_id": "W1145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 2,
+      "surface": "bonito",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 4,
+      "surface": "lugar",
+      "word_id": "W1463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75025",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75025",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75025",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75025",
+      "position": 4,
+      "surface": "famoso",
+      "word_id": "W1470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 2,
+      "surface": "edificio",
+      "word_id": "W1461",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 5,
+      "surface": "llamas",
+      "word_id": "W175",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 1,
+      "surface": "Aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 2,
+      "surface": "hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 3,
+      "surface": "gente",
+      "word_id": "W1467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 4,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 5,
+      "surface": "enferma",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 2,
+      "surface": "gente",
+      "word_id": "W1467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 3,
+      "surface": "viene",
+      "word_id": "W1260",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 5,
+      "surface": "allí",
+      "word_id": "W101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 1,
+      "surface": "Yo",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 3,
+      "surface": "soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 5,
+      "surface": "turista",
+      "word_id": "W1458",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 4,
+      "surface": "tienda",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 6,
+      "surface": "gente",
+      "word_id": "W1467",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A750071",
+      "sentence_id": "S75007",
+      "direction": "fr_to_en",
+      "answer": "I am a tourist.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750251",
+      "sentence_id": "S75025",
+      "direction": "fr_to_en",
+      "answer": "Tom is not famous.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750261",
+      "sentence_id": "S75026",
+      "direction": "fr_to_en",
+      "answer": "The building's on fire.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

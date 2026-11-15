@@ -23,7 +23,12 @@ const byKey = new Map()
 for (const w of t.words) for (const k of new Set([fold(w.lemma || w.form), fold(w.form)])) (byKey.get(k) ?? byKey.set(k, []).get(k)).push(w)
 // French elided forms teach their headword (j' is je, c'est carries ce), which FLELex lists in full; FLELex lists
 // vacances under vacance.
-const ELIDED = { fr: { "j'": 'je', "l'": 'le', "s'": 'se', "m'": 'me', "t'": 'te', "d'": 'de', "n'": 'ne', "qu'": 'que', "c'": 'ce', "c'est": 'ce', vacances: 'vacance' } }[COURSE] ?? {}
+const ELIDED = { fr: { "j'": 'je', "l'": 'le', "s'": 'se', "m'": 'me', "t'": 'te', "d'": 'de', "n'": 'ne', "qu'": 'que', "c'": 'ce', "c'est": 'ce', vacances: 'vacance' },
+  // German (2026-11-15): the Goethe list writes inflected words as stems (ander-, dies-, jed-, letzt-, nächst-, best-,
+  // all-, welch-, meist-) and some verbs with their partner (weh tun, Rad fahren, sich kümmern); the course teaches
+  // the full forms.
+  de: { andere: 'ander', anderen: 'ander', jeden: 'jed', jede: 'jed', diese: 'dies', dieser: 'dies', dieses: 'dies', letzte: 'letzt', letzten: 'letzt', nächste: 'nächst', nächsten: 'nächst',
+    beste: 'best', besten: 'best', alle: 'all', welche: 'welch', meisten: 'meist', weh: 'weh tun', rad: 'rad fahren', kümmern: 'sich kümmern' } }[COURSE] ?? {}
 for (const w of t.words) { const k = ELIDED[fold(w.form)]; if (k) (byKey.get(k) ?? byKey.set(k, []).get(k)).push(w) }
 
 function measure(words, { pathOnly = false } = {}) {

@@ -1,0 +1,1849 @@
+{
+  "unit_id": "U87",
+  "pulled_at": "2026-11-15",
+  "candidates": 107,
+  "sentences": [
+    {
+      "sentence_id": "S87001",
+      "unit_id": "U87",
+      "french": "¿Eres abogado?",
+      "english": "Are you a lawyer?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1642416",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "leoruilova",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87002",
+      "unit_id": "U87",
+      "french": "¿Qué vende?",
+      "english": "What is she selling?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4599264",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87003",
+      "unit_id": "U87",
+      "french": "¿Eres ingeniero?",
+      "english": "Are you an engineer?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9495592",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ignacio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87004",
+      "unit_id": "U87",
+      "french": "¿Quién vende esto?",
+      "english": "Who sells this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2351558",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87005",
+      "unit_id": "U87",
+      "french": "¿Qué vende María?",
+      "english": "What's Mary selling?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4599269",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87006",
+      "unit_id": "U87",
+      "french": "¿A qué te dedicas?",
+      "english": "What do you do?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "512390",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "What's your profession?",
+        "What do you do for a living?"
+      ]
+    },
+    {
+      "sentence_id": "S87007",
+      "unit_id": "U87",
+      "french": "¿Quién es su abogado?",
+      "english": "Who is your lawyer?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1058269",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87008",
+      "unit_id": "U87",
+      "french": "¿Dónde está el jefe?",
+      "english": "Where's the boss?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1249616",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87009",
+      "unit_id": "U87",
+      "french": "¿Te gusta tu jefe?",
+      "english": "Do you like your boss?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2194577",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87010",
+      "unit_id": "U87",
+      "french": "¿Dónde está mi abogado?",
+      "english": "Where's my lawyer?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2346717",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87011",
+      "unit_id": "U87",
+      "french": "¿Esto es para vender?",
+      "english": "Is this for sale?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7484969",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87012",
+      "unit_id": "U87",
+      "french": "¿Quieres vender tu casa?",
+      "english": "Do you want to sell your house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9596675",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87013",
+      "unit_id": "U87",
+      "french": "¿Por qué está aquí la policía?",
+      "english": "Why are the police here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1001086",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87014",
+      "unit_id": "U87",
+      "french": "¿En dónde quieres vender esto?",
+      "english": "Where do you want to sell this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1527040",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87015",
+      "unit_id": "U87",
+      "french": "¿Quién es el jefe aquí?",
+      "english": "Who is the boss here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1883309",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87016",
+      "unit_id": "U87",
+      "french": "¿Cuál es la profesión de Tom?",
+      "english": "What's Tom's profession?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3006049",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87017",
+      "unit_id": "U87",
+      "french": "¿Cómo se llega a la policía?",
+      "english": "How do I get to the police?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5566234",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "swyter",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87018",
+      "unit_id": "U87",
+      "french": "¿A qué dedicas tu tiempo libre?",
+      "english": "What do you do in your free time?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9053092",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rafaeldejesus8199",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87019",
+      "unit_id": "U87",
+      "french": "Soy ingeniero.",
+      "english": "I'm an engineer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "506042",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87020",
+      "unit_id": "U87",
+      "french": "Es abogada.",
+      "english": "She's a lawyer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1745596",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87021",
+      "unit_id": "U87",
+      "french": "Vendo café.",
+      "english": "I sell coffee.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9443853",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ignacio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87022",
+      "unit_id": "U87",
+      "french": "Vendo zapatos.",
+      "english": "I sell shoes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9706881",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87023",
+      "unit_id": "U87",
+      "french": "Vendo pescado.",
+      "english": "I sell fish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11870521",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87024",
+      "unit_id": "U87",
+      "french": "Soy taxista.",
+      "english": "I'm a taxi driver.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12889135",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87025",
+      "unit_id": "U87",
+      "french": "Soy vendedor.",
+      "english": "I'm a salesman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12889851",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87026",
+      "unit_id": "U87",
+      "french": "Ella es taxista.",
+      "english": "She's a taxi driver.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1493574",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "She is a taxi driver."
+      ]
+    },
+    {
+      "sentence_id": "S87027",
+      "unit_id": "U87",
+      "french": "¡La policía viene!",
+      "english": "The police is coming!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1508861",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87028",
+      "unit_id": "U87",
+      "french": "Tom es vendedor.",
+      "english": "Tom is a salesman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2383124",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87029",
+      "unit_id": "U87",
+      "french": "Él es taxista.",
+      "english": "He is a taxi driver.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4917776",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87030",
+      "unit_id": "U87",
+      "french": "Tom es ingeniero.",
+      "english": "Tom is an engineer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10028999",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87031",
+      "unit_id": "U87",
+      "french": "Ella es ingeniera.",
+      "english": "She's an engineer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10082490",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87032",
+      "unit_id": "U87",
+      "french": "La chica es enfermera.",
+      "english": "The girl is a nurse.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "497525",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87033",
+      "unit_id": "U87",
+      "french": "Ella es una enfermera.",
+      "english": "She is a nurse.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "563719",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87034",
+      "unit_id": "U87",
+      "french": "La enfermera está enferma.",
+      "english": "The nurse is ill.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2787411",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87035",
+      "unit_id": "U87",
+      "french": "Él es médico de profesión.",
+      "english": "He is a doctor by profession.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1492029",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87036",
+      "unit_id": "U87",
+      "french": "Él también es un vendedor.",
+      "english": "He's a salesman too.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3805438",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87037",
+      "unit_id": "U87",
+      "french": "El enfermero no está aquí.",
+      "english": "The nurse is not here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7872775",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87038",
+      "unit_id": "U87",
+      "french": "Su perro es su buen compañero.",
+      "english": "His dog is his good companion.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "623940",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "clerval",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87039",
+      "unit_id": "U87",
+      "french": "Él es enfermero, no es médico.",
+      "english": "He's a nurse, not a doctor.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1089993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S87040",
+      "unit_id": "U87",
+      "french": "Él no es médico, pero es enfermero.",
+      "english": "He's not a doctor, but a nurse.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1125392",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S87001",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87001",
+      "position": 2,
+      "surface": "abogado",
+      "word_id": "W1710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87002",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87002",
+      "position": 2,
+      "surface": "vende",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87003",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87003",
+      "position": 2,
+      "surface": "ingeniero",
+      "word_id": "W1713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87004",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87004",
+      "position": 2,
+      "surface": "vende",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87004",
+      "position": 3,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87005",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87005",
+      "position": 2,
+      "surface": "vende",
+      "word_id": "W1724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87005",
+      "position": 3,
+      "surface": "María",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87006",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87006",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87006",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87006",
+      "position": 4,
+      "surface": "dedicas",
+      "word_id": "W1720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87007",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87007",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87007",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87007",
+      "position": 4,
+      "surface": "abogado",
+      "word_id": "W1710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87008",
+      "position": 4,
+      "surface": "jefe",
+      "word_id": "W1706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87009",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87009",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87009",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87009",
+      "position": 4,
+      "surface": "jefe",
+      "word_id": "W1706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87010",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87010",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87010",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87010",
+      "position": 4,
+      "surface": "abogado",
+      "word_id": "W1710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87011",
+      "position": 1,
+      "surface": "Esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87011",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87011",
+      "position": 3,
+      "surface": "para",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87011",
+      "position": 4,
+      "surface": "vender",
+      "word_id": "W1722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87012",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87012",
+      "position": 2,
+      "surface": "vender",
+      "word_id": "W1722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87012",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87012",
+      "position": 4,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87013",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87013",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87013",
+      "position": 3,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87013",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87013",
+      "position": 5,
+      "surface": "policía",
+      "word_id": "W1717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87014",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87014",
+      "position": 2,
+      "surface": "dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87014",
+      "position": 3,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87014",
+      "position": 4,
+      "surface": "vender",
+      "word_id": "W1722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87014",
+      "position": 5,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87015",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87015",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87015",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87015",
+      "position": 4,
+      "surface": "jefe",
+      "word_id": "W1706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87015",
+      "position": 5,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 4,
+      "surface": "profesión",
+      "word_id": "W1718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87016",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 3,
+      "surface": "llega",
+      "word_id": "W1308",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87017",
+      "position": 6,
+      "surface": "policía",
+      "word_id": "W1717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 3,
+      "surface": "dedicas",
+      "word_id": "W1720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 4,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 5,
+      "surface": "tiempo",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87018",
+      "position": 6,
+      "surface": "libre",
+      "word_id": "W1271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87019",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87019",
+      "position": 2,
+      "surface": "ingeniero",
+      "word_id": "W1713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87020",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87020",
+      "position": 2,
+      "surface": "abogada",
+      "word_id": "W1711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87021",
+      "position": 1,
+      "surface": "Vendo",
+      "word_id": "W1723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87021",
+      "position": 2,
+      "surface": "café",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87022",
+      "position": 1,
+      "surface": "Vendo",
+      "word_id": "W1723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87022",
+      "position": 2,
+      "surface": "zapatos",
+      "word_id": "W1105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87023",
+      "position": 1,
+      "surface": "Vendo",
+      "word_id": "W1723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87023",
+      "position": 2,
+      "surface": "pescado",
+      "word_id": "W1632",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87024",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87024",
+      "position": 2,
+      "surface": "taxista",
+      "word_id": "W1712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87025",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87025",
+      "position": 2,
+      "surface": "vendedor",
+      "word_id": "W1725",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87026",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87026",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87026",
+      "position": 3,
+      "surface": "taxista",
+      "word_id": "W1712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87027",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87027",
+      "position": 2,
+      "surface": "policía",
+      "word_id": "W1717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87027",
+      "position": 3,
+      "surface": "viene",
+      "word_id": "W1260",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87028",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87028",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87028",
+      "position": 3,
+      "surface": "vendedor",
+      "word_id": "W1725",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87029",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87029",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87029",
+      "position": 3,
+      "surface": "taxista",
+      "word_id": "W1712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87030",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87030",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87030",
+      "position": 3,
+      "surface": "ingeniero",
+      "word_id": "W1713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87031",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87031",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87031",
+      "position": 3,
+      "surface": "ingeniera",
+      "word_id": "W1714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87032",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87032",
+      "position": 2,
+      "surface": "chica",
+      "word_id": "W177",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87032",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87032",
+      "position": 4,
+      "surface": "enfermera",
+      "word_id": "W1715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87033",
+      "position": 1,
+      "surface": "Ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87033",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87033",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87033",
+      "position": 4,
+      "surface": "enfermera",
+      "word_id": "W1715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87034",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87034",
+      "position": 2,
+      "surface": "enfermera",
+      "word_id": "W1715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87034",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87034",
+      "position": 4,
+      "surface": "enferma",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87035",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87035",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87035",
+      "position": 3,
+      "surface": "médico",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87035",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87035",
+      "position": 5,
+      "surface": "profesión",
+      "word_id": "W1718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87036",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87036",
+      "position": 2,
+      "surface": "también",
+      "word_id": "W097",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87036",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87036",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87036",
+      "position": 5,
+      "surface": "vendedor",
+      "word_id": "W1725",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87037",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87037",
+      "position": 2,
+      "surface": "enfermero",
+      "word_id": "W1716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87037",
+      "position": 3,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87037",
+      "position": 4,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87037",
+      "position": 5,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87038",
+      "position": 1,
+      "surface": "Su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87038",
+      "position": 2,
+      "surface": "perro",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87038",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87038",
+      "position": 4,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87038",
+      "position": 5,
+      "surface": "buen",
+      "word_id": "W1424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87038",
+      "position": 6,
+      "surface": "compañero",
+      "word_id": "W1707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87039",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87039",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87039",
+      "position": 3,
+      "surface": "enfermero",
+      "word_id": "W1716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87039",
+      "position": 4,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87039",
+      "position": 5,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87039",
+      "position": 6,
+      "surface": "médico",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87040",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87040",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87040",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87040",
+      "position": 4,
+      "surface": "médico",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87040",
+      "position": 5,
+      "surface": "pero",
+      "word_id": "W1403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87040",
+      "position": 6,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S87040",
+      "position": 7,
+      "surface": "enfermero",
+      "word_id": "W1716",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A870061",
+      "sentence_id": "S87006",
+      "direction": "fr_to_en",
+      "answer": "What's your profession?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A870062",
+      "sentence_id": "S87006",
+      "direction": "fr_to_en",
+      "answer": "What do you do for a living?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A870261",
+      "sentence_id": "S87026",
+      "direction": "fr_to_en",
+      "answer": "She is a taxi driver.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

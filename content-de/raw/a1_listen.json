@@ -124,5 +124,239 @@
     "answer": "25",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "N201",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Es ist halb vier.",
+    "answer": "3:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N202",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Es ist Viertel nach acht.",
+    "answer": "8:15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N203",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Es ist zwölf Uhr.",
+    "answer": "12:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N204",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Es ist Viertel vor zehn.",
+    "answer": "9:45",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N205",
+    "unit_id": "U62",
+    "kind": "time",
+    "say": "Am Freitag um sieben Uhr.",
+    "answer": "7:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N206",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Der erste Mai.",
+    "answer": "1/5",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N207",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Der dritte Oktober.",
+    "answer": "3/10",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N208",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Der zehnte Dezember.",
+    "answer": "10/12",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N209",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "Der Zug fährt um sechzehn Uhr zwanzig ab.",
+    "answer": "16:20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N210",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "Der Bus kommt um neun Uhr zehn an.",
+    "answer": "9:10",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N211",
+    "unit_id": "U68",
+    "kind": "time",
+    "say": "Der Zug nach Hamburg fährt um achtzehn Uhr ab.",
+    "answer": "18:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N212",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "Der Zug nach Berlin fährt heute von Gleis sieben.",
+    "answer": "7",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N213",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "Achtung, der Zug aus Hamburg hat zwanzig Minuten Verspätung.",
+    "answer": "20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N214",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "Der Flug nach London: bitte zum Ausgang zwölf.",
+    "answer": "12",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N301",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Ein Kaffee, zwei Euro fünfzig.",
+    "answer": "2.50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N302",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Ein Bier, vier Euro.",
+    "answer": "4",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N303",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Die Suppe kostet sechs Euro fünfzig.",
+    "answer": "6.50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N304",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Das macht zusammen zwölf Euro.",
+    "answer": "12",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N305",
+    "unit_id": "U84",
+    "kind": "number",
+    "say": "Nehmen Sie den Bus Nummer dreiundzwanzig.",
+    "answer": "23",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N306",
+    "unit_id": "U84",
+    "kind": "number",
+    "say": "Fahren Sie mit der Straßenbahn Nummer vier.",
+    "answer": "4",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N307",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "Der Bahnhof ist zweihundert Meter von hier.",
+    "answer": "200",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N308",
+    "unit_id": "U86",
+    "kind": "number",
+    "say": "Die Wohnung ist im dritten Stock.",
+    "answer": "3",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N309",
+    "unit_id": "U87",
+    "kind": "time",
+    "say": "Die Praxis ist morgen ab neun Uhr geöffnet.",
+    "answer": "9:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N310",
+    "unit_id": "U87",
+    "kind": "time",
+    "say": "Das Büro ist heute bis sechzehn Uhr dreißig geöffnet.",
+    "answer": "16:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N311",
+    "unit_id": "U89",
+    "kind": "phone",
+    "say": "Meine Nummer ist null, sieben, zwölf, sechzehn, achtzehn, vierzehn.",
+    "answer": "07 12 16 18 14",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N312",
+    "unit_id": "U89",
+    "kind": "date",
+    "say": "Die Feier ist am zweiten Juni.",
+    "answer": "2/6",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

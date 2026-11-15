@@ -28,5 +28,85 @@
     "max_words": 35,
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "P201",
+    "unit_id": "U62",
+    "prompt": "Write a short message to a friend about your week: what you do on two days.",
+    "points": "two days;what you do",
+    "min_words": 20,
+    "max_words": 35,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P202",
+    "unit_id": "U64",
+    "prompt": "Write a short message to invite a friend out: what, which day and what time.",
+    "points": "what;which day;what time",
+    "min_words": 20,
+    "max_words": 35,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P203",
+    "unit_id": "U65",
+    "prompt": "Write a few lines about your day: when you get up, work and go to bed.",
+    "points": "when you get up;when you work;when you go to bed",
+    "min_words": 25,
+    "max_words": 40,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P301",
+    "unit_id": "U82",
+    "prompt": "Write a short message to a friend about a restaurant: where it is, what you ate and what it cost.",
+    "points": "where it is;what you ate;the price",
+    "min_words": 25,
+    "max_words": 40,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P302",
+    "unit_id": "U83",
+    "prompt": "Write a short message to a friend: how to get to your home from the station.",
+    "points": "leaving the station;two directions;where your home is",
+    "min_words": 25,
+    "max_words": 40,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P303",
+    "unit_id": "U86",
+    "prompt": "Write a few lines to a friend about your new home: where it is, the rooms and what you like about it.",
+    "points": "where it is;the rooms;what you like",
+    "min_words": 25,
+    "max_words": 40,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P304",
+    "unit_id": "U89",
+    "prompt": "A friend invites you to a birthday party on Saturday. Write a short reply: say thank you, say that you are coming and ask what you can bring.",
+    "points": "thank you;you are coming;what to bring",
+    "min_words": 25,
+    "max_words": 40,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P305",
+    "unit_id": "U89",
+    "prompt": "Write a short postcard from a trip: where you are, your hotel and when you go home.",
+    "points": "where you are;your hotel;when you go home",
+    "min_words": 25,
+    "max_words": 40,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

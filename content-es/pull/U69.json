@@ -1,0 +1,1389 @@
+{
+  "unit_id": "U69",
+  "pulled_at": "2026-11-15",
+  "candidates": 60,
+  "sentences": [
+    {
+      "sentence_id": "S69001",
+      "unit_id": "U69",
+      "french": "¿Quién escucha?",
+      "english": "Who is listening?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9285929",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Javea",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69002",
+      "unit_id": "U69",
+      "french": "¿Qué quieres cambiar?",
+      "english": "What do you want to change?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4256278",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pipus_net",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69003",
+      "unit_id": "U69",
+      "french": "¿Te gusta practicar deporte?",
+      "english": "Do you like playing sports?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3788653",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69004",
+      "unit_id": "U69",
+      "french": "¿Por qué ya no me mira?",
+      "english": "Why doesn't he look at me anymore?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2464603",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69005",
+      "unit_id": "U69",
+      "french": "¿Por qué Tom no me escucha?",
+      "english": "Why won't Tom listen to me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3137374",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69006",
+      "unit_id": "U69",
+      "french": "¿Vas a hacer los deberes esta tarde?",
+      "english": "Are you going to do your homework this afternoon?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "723221",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69007",
+      "unit_id": "U69",
+      "french": "¡Escucha esto!",
+      "english": "Listen to this!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1072069",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69008",
+      "unit_id": "U69",
+      "french": "Mira allí.",
+      "english": "Look there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2075098",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Look in there."
+      ]
+    },
+    {
+      "sentence_id": "S69009",
+      "unit_id": "U69",
+      "french": "Mira esto.",
+      "english": "Watch this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4506082",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": [
+        "Look at this."
+      ]
+    },
+    {
+      "sentence_id": "S69010",
+      "unit_id": "U69",
+      "french": "No quiero cambiar.",
+      "english": "I don't want to change.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2385177",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69011",
+      "unit_id": "U69",
+      "french": "Tom hace ejercicio.",
+      "english": "Tom exercises.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4557641",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "swyter",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69012",
+      "unit_id": "U69",
+      "french": "Elige una palabra.",
+      "english": "Choose a word.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5428017",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69013",
+      "unit_id": "U69",
+      "french": "Quiero practicar español.",
+      "english": "I want to practice Spanish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12901667",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69014",
+      "unit_id": "U69",
+      "french": "Quiero practicar inglés.",
+      "english": "I want to practice English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12901683",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69015",
+      "unit_id": "U69",
+      "french": "Elige un nombre.",
+      "english": "Pick a name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13469398",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69016",
+      "unit_id": "U69",
+      "french": "Contesta a mi pregunta.",
+      "english": "Answer my question.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1868924",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "teskmon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69017",
+      "unit_id": "U69",
+      "french": "Tom va a cambiar.",
+      "english": "Tom will change.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2217438",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69018",
+      "unit_id": "U69",
+      "french": "Nadar es buen ejercicio.",
+      "english": "Swimming is good exercise.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3152768",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69019",
+      "unit_id": "U69",
+      "french": "¡Gracias por la lección!",
+      "english": "Thanks for the lesson!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5093933",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69020",
+      "unit_id": "U69",
+      "french": "La lección va a empezar.",
+      "english": "The lesson will start.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5158991",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gonsalet",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69021",
+      "unit_id": "U69",
+      "french": "Elige uno y escribe una carta.",
+      "english": "Choose one and write a letter.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1537730",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69022",
+      "unit_id": "U69",
+      "french": "Vamos a empezar con la lección diez.",
+      "english": "We're going to begin with lesson ten.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1036134",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69023",
+      "unit_id": "U69",
+      "french": "No me gusta viajar con grupos grandes.",
+      "english": "I don't enjoy traveling in large groups.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1038871",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "massama",
+      "other_english": [
+        "I don't like to travel in large groups.",
+        "I don't like to travel with large groups."
+      ]
+    },
+    {
+      "sentence_id": "S69024",
+      "unit_id": "U69",
+      "french": "Ir a pie es un buen ejercicio.",
+      "english": "Going by foot is good exercise.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11094166",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Curro",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69025",
+      "unit_id": "U69",
+      "french": "Tom escucha.",
+      "english": "Tom listens.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4377618",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pchamorro",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69026",
+      "unit_id": "U69",
+      "french": "Por favor escucha.",
+      "english": "Please listen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5048101",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69027",
+      "unit_id": "U69",
+      "french": "Bueno, escucha.",
+      "english": "OK, listen up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5115553",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "helpa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69028",
+      "unit_id": "U69",
+      "french": "Mira aquí.",
+      "english": "Look here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6675161",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69029",
+      "unit_id": "U69",
+      "french": "¡Mira eso!",
+      "english": "Look at that!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6682447",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S69030",
+      "unit_id": "U69",
+      "french": "Mira al cielo.",
+      "english": "Look at the sky.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1448340",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "peibolvig",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S69001",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69001",
+      "position": 2,
+      "surface": "escucha",
+      "word_id": "W1351",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69002",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69002",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69002",
+      "position": 3,
+      "surface": "cambiar",
+      "word_id": "W1350",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69003",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69003",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69003",
+      "position": 3,
+      "surface": "practicar",
+      "word_id": "W1342",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69003",
+      "position": 4,
+      "surface": "deporte",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69004",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69004",
+      "position": 2,
+      "surface": "ya",
+      "word_id": "W1412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69004",
+      "position": 3,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69004",
+      "position": 4,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69004",
+      "position": 5,
+      "surface": "mira",
+      "word_id": "W1352",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69005",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69005",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69005",
+      "position": 3,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69005",
+      "position": 4,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69005",
+      "position": 5,
+      "surface": "escucha",
+      "word_id": "W1351",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 1,
+      "surface": "Vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 3,
+      "surface": "hacer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 4,
+      "surface": "los",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 5,
+      "surface": "deberes",
+      "word_id": "W1349",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 6,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69006",
+      "position": 7,
+      "surface": "tarde",
+      "word_id": "W1209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69007",
+      "position": 1,
+      "surface": "Escucha",
+      "word_id": "W1351",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69007",
+      "position": 2,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69008",
+      "position": 1,
+      "surface": "Mira",
+      "word_id": "W1352",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69008",
+      "position": 2,
+      "surface": "allí",
+      "word_id": "W101",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69009",
+      "position": 1,
+      "surface": "Mira",
+      "word_id": "W1352",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69009",
+      "position": 2,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69010",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69010",
+      "position": 2,
+      "surface": "quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69010",
+      "position": 3,
+      "surface": "cambiar",
+      "word_id": "W1350",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69011",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69011",
+      "position": 2,
+      "surface": "hace",
+      "word_id": "W1416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69011",
+      "position": 3,
+      "surface": "ejercicio",
+      "word_id": "W1343",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69012",
+      "position": 1,
+      "surface": "Elige",
+      "word_id": "W1354",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69012",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69012",
+      "position": 3,
+      "surface": "palabra",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69013",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69013",
+      "position": 2,
+      "surface": "practicar",
+      "word_id": "W1342",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69013",
+      "position": 3,
+      "surface": "español",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69014",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69014",
+      "position": 2,
+      "surface": "practicar",
+      "word_id": "W1342",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69014",
+      "position": 3,
+      "surface": "inglés",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69015",
+      "position": 1,
+      "surface": "Elige",
+      "word_id": "W1354",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69015",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69015",
+      "position": 3,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69016",
+      "position": 1,
+      "surface": "Contesta",
+      "word_id": "W1353",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69016",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69016",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69016",
+      "position": 4,
+      "surface": "pregunta",
+      "word_id": "W1115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69017",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69017",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69017",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69017",
+      "position": 4,
+      "surface": "cambiar",
+      "word_id": "W1350",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69018",
+      "position": 1,
+      "surface": "Nadar",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69018",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69018",
+      "position": 3,
+      "surface": "buen",
+      "word_id": "W1424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69018",
+      "position": 4,
+      "surface": "ejercicio",
+      "word_id": "W1343",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69019",
+      "position": 1,
+      "surface": "Gracias",
+      "word_id": "W029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69019",
+      "position": 2,
+      "surface": "por",
+      "word_id": "W1404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69019",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69019",
+      "position": 4,
+      "surface": "lección",
+      "word_id": "W1345",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69020",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69020",
+      "position": 2,
+      "surface": "lección",
+      "word_id": "W1345",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69020",
+      "position": 3,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69020",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69020",
+      "position": 5,
+      "surface": "empezar",
+      "word_id": "W1285",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69021",
+      "position": 1,
+      "surface": "Elige",
+      "word_id": "W1354",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69021",
+      "position": 2,
+      "surface": "uno",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69021",
+      "position": 3,
+      "surface": "y",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69021",
+      "position": 4,
+      "surface": "escribe",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69021",
+      "position": 5,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69021",
+      "position": 6,
+      "surface": "carta",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69022",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69022",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69022",
+      "position": 3,
+      "surface": "empezar",
+      "word_id": "W1285",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69022",
+      "position": 4,
+      "surface": "con",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69022",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69022",
+      "position": 6,
+      "surface": "lección",
+      "word_id": "W1345",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69022",
+      "position": 7,
+      "surface": "diez",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69023",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69023",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69023",
+      "position": 3,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69023",
+      "position": 4,
+      "surface": "viajar",
+      "word_id": "W1321",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69023",
+      "position": 5,
+      "surface": "con",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69023",
+      "position": 6,
+      "surface": "grupos",
+      "word_id": "W1348",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69023",
+      "position": 7,
+      "surface": "grandes",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69024",
+      "position": 1,
+      "surface": "Ir",
+      "word_id": "W1270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69024",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69024",
+      "position": 3,
+      "surface": "pie",
+      "word_id": "W1005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69024",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69024",
+      "position": 5,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69024",
+      "position": 6,
+      "surface": "buen",
+      "word_id": "W1424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69024",
+      "position": 7,
+      "surface": "ejercicio",
+      "word_id": "W1343",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69025",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69025",
+      "position": 2,
+      "surface": "escucha",
+      "word_id": "W1351",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69026",
+      "position": 1,
+      "surface": "Por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69026",
+      "position": 2,
+      "surface": "escucha",
+      "word_id": "W1351",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69027",
+      "position": 1,
+      "surface": "Bueno",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69027",
+      "position": 2,
+      "surface": "escucha",
+      "word_id": "W1351",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69028",
+      "position": 1,
+      "surface": "Mira",
+      "word_id": "W1352",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69028",
+      "position": 2,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69029",
+      "position": 1,
+      "surface": "Mira",
+      "word_id": "W1352",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69029",
+      "position": 2,
+      "surface": "eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69030",
+      "position": 1,
+      "surface": "Mira",
+      "word_id": "W1352",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69030",
+      "position": 2,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S69030",
+      "position": 3,
+      "surface": "cielo",
+      "word_id": "W1158",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A690081",
+      "sentence_id": "S69008",
+      "direction": "fr_to_en",
+      "answer": "Look in there.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A690091",
+      "sentence_id": "S69009",
+      "direction": "fr_to_en",
+      "answer": "Look at this.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A690231",
+      "sentence_id": "S69023",
+      "direction": "fr_to_en",
+      "answer": "I don't like to travel in large groups.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A690232",
+      "sentence_id": "S69023",
+      "direction": "fr_to_en",
+      "answer": "I don't like to travel with large groups.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -1,0 +1,1457 @@
+{
+  "unit_id": "U72",
+  "pulled_at": "2026-11-15",
+  "candidates": 244,
+  "sentences": [
+    {
+      "sentence_id": "S72001",
+      "unit_id": "U72",
+      "french": "Hace buen tiempo.",
+      "english": "The weather is good.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1215730",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wallebot",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72002",
+      "unit_id": "U72",
+      "french": "Hace buen tiempo hoy.",
+      "english": "The weather is fine today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11633675",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ecorralest101",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72003",
+      "unit_id": "U72",
+      "french": "Hoy hace muy buen tiempo.",
+      "english": "The weather is very fine today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1069674",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72004",
+      "unit_id": "U72",
+      "french": "¿Qué quiere hacer?",
+      "english": "What do you want to do?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1448307",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72005",
+      "unit_id": "U72",
+      "french": "¿Qué puedes hacer?",
+      "english": "What can you do?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2019568",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72006",
+      "unit_id": "U72",
+      "french": "¿Nieva mucho aquí?",
+      "english": "Does it snow a lot here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2403267",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72007",
+      "unit_id": "U72",
+      "french": "¿Quieres hacer eso?",
+      "english": "Do you want to do that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9991217",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72008",
+      "unit_id": "U72",
+      "french": "¿Eso es nieve?",
+      "english": "Is that snow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10124836",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72009",
+      "unit_id": "U72",
+      "french": "¿Te gusta la lluvia?",
+      "english": "Do you like rain?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "566126",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72010",
+      "unit_id": "U72",
+      "french": "¿Llueve mucho en Alemania?",
+      "english": "Does it rain much in Germany?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1767638",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72011",
+      "unit_id": "U72",
+      "french": "¿Va a llover hoy?",
+      "english": "Will it rain today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5052916",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": [
+        "Is it going to rain today?"
+      ]
+    },
+    {
+      "sentence_id": "S72012",
+      "unit_id": "U72",
+      "french": "¿Nieva mucho en el invierno?",
+      "english": "Does it snow much in winter?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1426313",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "Does it snow much in the winter?",
+        "Does it snow a lot in the winter?"
+      ]
+    },
+    {
+      "sentence_id": "S72013",
+      "unit_id": "U72",
+      "french": "¿Por qué la nieve es blanca?",
+      "english": "Why is snow white?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1751210",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72014",
+      "unit_id": "U72",
+      "french": "¿Va a llover esta tarde?",
+      "english": "Will it rain this afternoon?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2188092",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72015",
+      "unit_id": "U72",
+      "french": "¿Nieva mucho en tu país?",
+      "english": "Do you have much snow in your country?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9707087",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72016",
+      "unit_id": "U72",
+      "french": "¿De qué color es la nieve?",
+      "english": "What color is snow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3326479",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gianich73",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72017",
+      "unit_id": "U72",
+      "french": "Llueve todo el tiempo.",
+      "english": "It is raining all the time.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1082766",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72018",
+      "unit_id": "U72",
+      "french": "Hoy no hace viento.",
+      "english": "There's no wind today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1201879",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72019",
+      "unit_id": "U72",
+      "french": "Llueve mucho.",
+      "english": "It's raining hard.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1264484",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "It is raining hard."
+      ]
+    },
+    {
+      "sentence_id": "S72020",
+      "unit_id": "U72",
+      "french": "Va a llover.",
+      "english": "It's going to rain.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "637023",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "It is going to rain."
+      ]
+    },
+    {
+      "sentence_id": "S72021",
+      "unit_id": "U72",
+      "french": "Va a nevar.",
+      "english": "It is going to snow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "723311",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Zifre",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72022",
+      "unit_id": "U72",
+      "french": "Va a nevar hoy.",
+      "english": "It'll snow today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1069648",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72023",
+      "unit_id": "U72",
+      "french": "Me gusta el calor.",
+      "english": "I like the heat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2932029",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72024",
+      "unit_id": "U72",
+      "french": "No va a nevar.",
+      "english": "It isn't going to snow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9038402",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "It's not going to snow."
+      ]
+    },
+    {
+      "sentence_id": "S72025",
+      "unit_id": "U72",
+      "french": "No me gusta el calor.",
+      "english": "I don't like the heat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2258763",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72026",
+      "unit_id": "U72",
+      "french": "Me gusta escuchar el viento.",
+      "english": "I like listening to the wind.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9884112",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72027",
+      "unit_id": "U72",
+      "french": "No me gusta estudiar con este calor.",
+      "english": "I don't like studying in this heat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4727887",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72028",
+      "unit_id": "U72",
+      "french": "¿Tienes tiempo?",
+      "english": "Do you have some time?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1397898",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72029",
+      "unit_id": "U72",
+      "french": "¿Hay tiempo?",
+      "english": "Is there time?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4536369",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S72030",
+      "unit_id": "U72",
+      "french": "¿Cuánto tiempo tengo?",
+      "english": "How much time do I have?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1238746",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wallebot",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S72001",
+      "position": 1,
+      "surface": "Hace",
+      "word_id": "W1416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72001",
+      "position": 2,
+      "surface": "buen",
+      "word_id": "W1424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72001",
+      "position": 3,
+      "surface": "tiempo",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72002",
+      "position": 1,
+      "surface": "Hace",
+      "word_id": "W1416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72002",
+      "position": 2,
+      "surface": "buen",
+      "word_id": "W1424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72002",
+      "position": 3,
+      "surface": "tiempo",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72002",
+      "position": 4,
+      "surface": "hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 1,
+      "surface": "Hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 2,
+      "surface": "hace",
+      "word_id": "W1416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 3,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 4,
+      "surface": "buen",
+      "word_id": "W1424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72003",
+      "position": 5,
+      "surface": "tiempo",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72004",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72004",
+      "position": 2,
+      "surface": "quiere",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72004",
+      "position": 3,
+      "surface": "hacer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72005",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72005",
+      "position": 2,
+      "surface": "puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72005",
+      "position": 3,
+      "surface": "hacer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72006",
+      "position": 1,
+      "surface": "Nieva",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72006",
+      "position": 2,
+      "surface": "mucho",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72006",
+      "position": 3,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72007",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72007",
+      "position": 2,
+      "surface": "hacer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72007",
+      "position": 3,
+      "surface": "eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72008",
+      "position": 1,
+      "surface": "Eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72008",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72008",
+      "position": 3,
+      "surface": "nieve",
+      "word_id": "W1425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72009",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72009",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72009",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72009",
+      "position": 4,
+      "surface": "lluvia",
+      "word_id": "W1426",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72010",
+      "position": 1,
+      "surface": "Llueve",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72010",
+      "position": 2,
+      "surface": "mucho",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72010",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72010",
+      "position": 4,
+      "surface": "Alemania",
+      "word_id": "W860",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72011",
+      "position": 1,
+      "surface": "Va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72011",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72011",
+      "position": 3,
+      "surface": "llover",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72011",
+      "position": 4,
+      "surface": "hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72012",
+      "position": 1,
+      "surface": "Nieva",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72012",
+      "position": 2,
+      "surface": "mucho",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72012",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72012",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72012",
+      "position": 5,
+      "surface": "invierno",
+      "word_id": "W1250",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72013",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72013",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72013",
+      "position": 3,
+      "surface": "nieve",
+      "word_id": "W1425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72013",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72013",
+      "position": 5,
+      "surface": "blanca",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72014",
+      "position": 1,
+      "surface": "Va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72014",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72014",
+      "position": 3,
+      "surface": "llover",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72014",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72014",
+      "position": 5,
+      "surface": "tarde",
+      "word_id": "W1209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72015",
+      "position": 1,
+      "surface": "Nieva",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72015",
+      "position": 2,
+      "surface": "mucho",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72015",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72015",
+      "position": 4,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72015",
+      "position": 5,
+      "surface": "país",
+      "word_id": "W854",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72016",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72016",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72016",
+      "position": 3,
+      "surface": "color",
+      "word_id": "W154",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72016",
+      "position": 4,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72016",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72016",
+      "position": 6,
+      "surface": "nieve",
+      "word_id": "W1425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72017",
+      "position": 1,
+      "surface": "Llueve",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72017",
+      "position": 2,
+      "surface": "todo",
+      "word_id": "W1405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72017",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72017",
+      "position": 4,
+      "surface": "tiempo",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72018",
+      "position": 1,
+      "surface": "Hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72018",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72018",
+      "position": 3,
+      "surface": "hace",
+      "word_id": "W1416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72018",
+      "position": 4,
+      "surface": "viento",
+      "word_id": "W1423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72019",
+      "position": 1,
+      "surface": "Llueve",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72019",
+      "position": 2,
+      "surface": "mucho",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72020",
+      "position": 1,
+      "surface": "Va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72020",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72020",
+      "position": 3,
+      "surface": "llover",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72021",
+      "position": 1,
+      "surface": "Va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72021",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72021",
+      "position": 3,
+      "surface": "nevar",
+      "word_id": "W1422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 1,
+      "surface": "Va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 3,
+      "surface": "nevar",
+      "word_id": "W1422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72022",
+      "position": 4,
+      "surface": "hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72023",
+      "position": 4,
+      "surface": "calor",
+      "word_id": "W1418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72024",
+      "position": 4,
+      "surface": "nevar",
+      "word_id": "W1422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72025",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72025",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72025",
+      "position": 3,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72025",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72025",
+      "position": 5,
+      "surface": "calor",
+      "word_id": "W1418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72026",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72026",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72026",
+      "position": 3,
+      "surface": "escuchar",
+      "word_id": "W1027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72026",
+      "position": 4,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72026",
+      "position": 5,
+      "surface": "viento",
+      "word_id": "W1423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72027",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72027",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72027",
+      "position": 3,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72027",
+      "position": 4,
+      "surface": "estudiar",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72027",
+      "position": 5,
+      "surface": "con",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72027",
+      "position": 6,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72027",
+      "position": 7,
+      "surface": "calor",
+      "word_id": "W1418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72028",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72028",
+      "position": 2,
+      "surface": "tiempo",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72029",
+      "position": 1,
+      "surface": "Hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72029",
+      "position": 2,
+      "surface": "tiempo",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72030",
+      "position": 1,
+      "surface": "Cuánto",
+      "word_id": "W905",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72030",
+      "position": 2,
+      "surface": "tiempo",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S72030",
+      "position": 3,
+      "surface": "tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A720111",
+      "sentence_id": "S72011",
+      "direction": "fr_to_en",
+      "answer": "Is it going to rain today?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A720121",
+      "sentence_id": "S72012",
+      "direction": "fr_to_en",
+      "answer": "Does it snow much in the winter?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A720122",
+      "sentence_id": "S72012",
+      "direction": "fr_to_en",
+      "answer": "Does it snow a lot in the winter?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A720191",
+      "sentence_id": "S72019",
+      "direction": "fr_to_en",
+      "answer": "It is raining hard.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A720201",
+      "sentence_id": "S72020",
+      "direction": "fr_to_en",
+      "answer": "It is going to rain.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A720241",
+      "sentence_id": "S72024",
+      "direction": "fr_to_en",
+      "answer": "It's not going to snow.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

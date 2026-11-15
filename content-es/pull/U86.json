@@ -1,0 +1,1700 @@
+{
+  "unit_id": "U86",
+  "pulled_at": "2026-11-15",
+  "candidates": 61,
+  "sentences": [
+    {
+      "sentence_id": "S86001",
+      "unit_id": "U86",
+      "french": "¿Cuántas habitaciones tienes?",
+      "english": "How many rooms do you have?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2291768",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86002",
+      "unit_id": "U86",
+      "french": "¿Tienes un garaje?",
+      "english": "Do you have a garage?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2830918",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "teskmon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86003",
+      "unit_id": "U86",
+      "french": "¿Tienes una habitación?",
+      "english": "Do you have a room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9462256",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "dpcossio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86004",
+      "unit_id": "U86",
+      "french": "¿Cuánto cuesta este sofá?",
+      "english": "How much is this sofa?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "491168",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86005",
+      "unit_id": "U86",
+      "french": "¿Cuánto cuesta una habitación?",
+      "english": "How much is a room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "504469",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "How much does a room cost?"
+      ]
+    },
+    {
+      "sentence_id": "S86006",
+      "unit_id": "U86",
+      "french": "¿Dónde está tu habitación?",
+      "english": "Where is your room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "564598",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86007",
+      "unit_id": "U86",
+      "french": "¿Puedes abrir la ventana?",
+      "english": "Can you open the window?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "769471",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Open the window, will you?",
+        "Could you open the window?",
+        "Would you mind opening the window?"
+      ]
+    },
+    {
+      "sentence_id": "S86008",
+      "unit_id": "U86",
+      "french": "¿Tengo que abrir la ventana?",
+      "english": "Do I have to open the window?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1402277",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86009",
+      "unit_id": "U86",
+      "french": "¿Puedes cerrar la ventana, por favor?",
+      "english": "Can you please close the window?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3103199",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86010",
+      "unit_id": "U86",
+      "french": "¿Cuántas habitaciones hay en tu casa?",
+      "english": "How many rooms are there in your house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1939366",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "teskmon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86011",
+      "unit_id": "U86",
+      "french": "¿Este es el dormitorio de Tom?",
+      "english": "Is that Tom's bedroom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3346081",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86012",
+      "unit_id": "U86",
+      "french": "Está en el sofá.",
+      "english": "It's on the sofa.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "793295",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86013",
+      "unit_id": "U86",
+      "french": "Está en el garaje.",
+      "english": "It's in the garage.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10028781",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86014",
+      "unit_id": "U86",
+      "french": "El salón está a la derecha.",
+      "english": "The living room is to the right.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7147846",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": [
+        "The living room is on the right."
+      ]
+    },
+    {
+      "sentence_id": "S86015",
+      "unit_id": "U86",
+      "french": "Las llaves están en el armario.",
+      "english": "The keys are in the wardrobe.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10844355",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86016",
+      "unit_id": "U86",
+      "french": "La casa de Tom no tiene garaje.",
+      "english": "Tom's house doesn't have a garage.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1113363",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86017",
+      "unit_id": "U86",
+      "french": "Tom tiene una casa de dos habitaciones.",
+      "english": "Tom has a house with two rooms.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1343114",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "laserchanto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86018",
+      "unit_id": "U86",
+      "french": "¿Quieres ver mi habitación?",
+      "english": "Do you want to see my room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2940412",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86019",
+      "unit_id": "U86",
+      "french": "¿Dónde está mi habitación?",
+      "english": "Where's my room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9855741",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86020",
+      "unit_id": "U86",
+      "french": "¿Quién está en esta habitación?",
+      "english": "Who is in this room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "563658",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86021",
+      "unit_id": "U86",
+      "french": "¿De quién es esta habitación?",
+      "english": "Whose room is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "686927",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86022",
+      "unit_id": "U86",
+      "french": "¿Cuál es el número de mi habitación?",
+      "english": "What's my room number?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1619923",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "What is my room number?"
+      ]
+    },
+    {
+      "sentence_id": "S86023",
+      "unit_id": "U86",
+      "french": "¿Cuál es el número de tu habitación?",
+      "english": "What's your room number?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2800913",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "What is your room number?"
+      ]
+    },
+    {
+      "sentence_id": "S86024",
+      "unit_id": "U86",
+      "french": "¿Dónde está la llave de esta habitación?",
+      "english": "Where is the key to this room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4658754",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86025",
+      "unit_id": "U86",
+      "french": "Por favor, cierra la ventana.",
+      "english": "Please close the window.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "495332",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86026",
+      "unit_id": "U86",
+      "french": "Por favor, abre la ventana.",
+      "english": "Please open the window.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "963875",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "inmachan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86027",
+      "unit_id": "U86",
+      "french": "Tu habitación es grande.",
+      "english": "Your room is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3419021",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "You've got a big room."
+      ]
+    },
+    {
+      "sentence_id": "S86028",
+      "unit_id": "U86",
+      "french": "Esto es una ventana.",
+      "english": "This is a window.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7694522",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86029",
+      "unit_id": "U86",
+      "french": "Es una habitación pequeña.",
+      "english": "It's a small room.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8933319",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Munia",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S86030",
+      "unit_id": "U86",
+      "french": "Mi habitación es muy pequeña.",
+      "english": "My room is very small.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "689688",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S86001",
+      "position": 1,
+      "surface": "Cuántas",
+      "word_id": "W143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86001",
+      "position": 2,
+      "surface": "habitaciones",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86001",
+      "position": 3,
+      "surface": "tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86002",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86002",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86002",
+      "position": 3,
+      "surface": "garaje",
+      "word_id": "W1699",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86003",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86003",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86003",
+      "position": 3,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 1,
+      "surface": "Cuánto",
+      "word_id": "W905",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 2,
+      "surface": "cuesta",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 3,
+      "surface": "este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86004",
+      "position": 4,
+      "surface": "sofá",
+      "word_id": "W1702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 1,
+      "surface": "Cuánto",
+      "word_id": "W905",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 2,
+      "surface": "cuesta",
+      "word_id": "W885",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86005",
+      "position": 4,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86006",
+      "position": 4,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 1,
+      "surface": "Puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 2,
+      "surface": "abrir",
+      "word_id": "W1296",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86007",
+      "position": 4,
+      "surface": "ventana",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W1471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 3,
+      "surface": "abrir",
+      "word_id": "W1296",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86008",
+      "position": 5,
+      "surface": "ventana",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 1,
+      "surface": "Puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 2,
+      "surface": "cerrar",
+      "word_id": "W1298",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 4,
+      "surface": "ventana",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86009",
+      "position": 5,
+      "surface": "por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 1,
+      "surface": "Cuántas",
+      "word_id": "W143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 2,
+      "surface": "habitaciones",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 3,
+      "surface": "hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 5,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86010",
+      "position": 6,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 4,
+      "surface": "dormitorio",
+      "word_id": "W1697",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86011",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86012",
+      "position": 4,
+      "surface": "sofá",
+      "word_id": "W1702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86013",
+      "position": 4,
+      "surface": "garaje",
+      "word_id": "W1699",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 2,
+      "surface": "salón",
+      "word_id": "W1698",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86014",
+      "position": 6,
+      "surface": "derecha",
+      "word_id": "W1641",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 1,
+      "surface": "Las",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 2,
+      "surface": "llaves",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 3,
+      "surface": "están",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 5,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86015",
+      "position": 6,
+      "surface": "armario",
+      "word_id": "W1704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 2,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 5,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 6,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86016",
+      "position": 7,
+      "surface": "garaje",
+      "word_id": "W1699",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 2,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 4,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 6,
+      "surface": "dos",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86017",
+      "position": 7,
+      "surface": "habitaciones",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86018",
+      "position": 4,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86019",
+      "position": 4,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86020",
+      "position": 5,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 2,
+      "surface": "quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86021",
+      "position": 5,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 6,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86022",
+      "position": 7,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 6,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86023",
+      "position": 7,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 4,
+      "surface": "llave",
+      "word_id": "W1802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 6,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86024",
+      "position": 7,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 1,
+      "surface": "Por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 2,
+      "surface": "cierra",
+      "word_id": "W1299",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86025",
+      "position": 4,
+      "surface": "ventana",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 1,
+      "surface": "Por favor",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 2,
+      "surface": "abre",
+      "word_id": "W1297",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86026",
+      "position": 4,
+      "surface": "ventana",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 2,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86027",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 1,
+      "surface": "Esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86028",
+      "position": 4,
+      "surface": "ventana",
+      "word_id": "W1701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 3,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86029",
+      "position": 4,
+      "surface": "pequeña",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 2,
+      "surface": "habitación",
+      "word_id": "W1694",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 4,
+      "surface": "muy",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S86030",
+      "position": 5,
+      "surface": "pequeña",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A860051",
+      "sentence_id": "S86005",
+      "direction": "fr_to_en",
+      "answer": "How much does a room cost?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860071",
+      "sentence_id": "S86007",
+      "direction": "fr_to_en",
+      "answer": "Open the window, will you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860072",
+      "sentence_id": "S86007",
+      "direction": "fr_to_en",
+      "answer": "Could you open the window?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860073",
+      "sentence_id": "S86007",
+      "direction": "fr_to_en",
+      "answer": "Would you mind opening the window?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860141",
+      "sentence_id": "S86014",
+      "direction": "fr_to_en",
+      "answer": "The living room is on the right.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860221",
+      "sentence_id": "S86022",
+      "direction": "fr_to_en",
+      "answer": "What is my room number?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860231",
+      "sentence_id": "S86023",
+      "direction": "fr_to_en",
+      "answer": "What is your room number?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A860271",
+      "sentence_id": "S86027",
+      "direction": "fr_to_en",
+      "answer": "You've got a big room.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

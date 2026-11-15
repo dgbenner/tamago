@@ -307,6 +307,424 @@
       "form": "cuestan"
     }
   ],
+  "hacer": [
+    {
+      "person": "yo",
+      "form": "hago"
+    },
+    {
+      "person": "tú",
+      "form": "haces"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "hace"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "hacemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "hacen"
+    }
+  ],
+  "pensar": [
+    {
+      "person": "yo",
+      "form": "pienso"
+    },
+    {
+      "person": "tú",
+      "form": "piensas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "piensa"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "pensamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "piensan"
+    }
+  ],
+  "venir": [
+    {
+      "person": "yo",
+      "form": "vengo"
+    },
+    {
+      "person": "tú",
+      "form": "vienes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "viene"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "venimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "vienen"
+    }
+  ],
+  "volver": [
+    {
+      "person": "yo",
+      "form": "vuelvo"
+    },
+    {
+      "person": "tú",
+      "form": "vuelves"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "vuelve"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "volvemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "vuelven"
+    }
+  ],
+  "correr": [
+    {
+      "person": "yo",
+      "form": "corro"
+    },
+    {
+      "person": "tú",
+      "form": "corres"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "corre"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "corremos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "corren"
+    }
+  ],
+  "cerrar": [
+    {
+      "person": "yo",
+      "form": "cierro"
+    },
+    {
+      "person": "tú",
+      "form": "cierras"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "cierra"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "cerramos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "cierran"
+    }
+  ],
+  "llegar": [
+    {
+      "person": "yo",
+      "form": "llego"
+    },
+    {
+      "person": "tú",
+      "form": "llegas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "llega"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "llegamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "llegan"
+    }
+  ],
+  "creer": [
+    {
+      "person": "yo",
+      "form": "creo"
+    },
+    {
+      "person": "tú",
+      "form": "crees"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "cree"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "creemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "creen"
+    }
+  ],
+  "tomar": [
+    {
+      "person": "yo",
+      "form": "tomo"
+    },
+    {
+      "person": "tú",
+      "form": "tomas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "toma"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "tomamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "toman"
+    }
+  ],
+  "necesitar": [
+    {
+      "person": "yo",
+      "form": "necesito"
+    },
+    {
+      "person": "tú",
+      "form": "necesitas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "necesita"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "necesitamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "necesitan"
+    }
+  ],
+  "pedir": [
+    {
+      "person": "yo",
+      "form": "pido"
+    },
+    {
+      "person": "tú",
+      "form": "pides"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "pide"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "pedimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "piden"
+    }
+  ],
+  "seguir": [
+    {
+      "person": "yo",
+      "form": "sigo"
+    },
+    {
+      "person": "tú",
+      "form": "sigues"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "sigue"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "seguimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "siguen"
+    }
+  ],
+  "lavar": [
+    {
+      "person": "yo",
+      "form": "lavo"
+    },
+    {
+      "person": "tú",
+      "form": "lavas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "lava"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "lavamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "lavan"
+    }
+  ],
+  "conocer": [
+    {
+      "person": "yo",
+      "form": "conozco"
+    },
+    {
+      "person": "tú",
+      "form": "conoces"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "conoce"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "conocemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "conocen"
+    }
+  ],
+  "conducir": [
+    {
+      "person": "yo",
+      "form": "conduzco"
+    },
+    {
+      "person": "tú",
+      "form": "conduces"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "conduce"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "conducimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "conducen"
+    }
+  ],
+  "vender": [
+    {
+      "person": "yo",
+      "form": "vendo"
+    },
+    {
+      "person": "tú",
+      "form": "vendes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "vende"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "vendemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "venden"
+    }
+  ],
+  "firmar": [
+    {
+      "person": "yo",
+      "form": "firmo"
+    },
+    {
+      "person": "tú",
+      "form": "firmas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "firma"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "firmamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "firman"
+    }
+  ],
+  "mandar": [
+    {
+      "person": "yo",
+      "form": "mando"
+    },
+    {
+      "person": "tú",
+      "form": "mandas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "manda"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "mandamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "mandan"
+    }
+  ],
+  "alquilar": [
+    {
+      "person": "yo",
+      "form": "alquilo"
+    },
+    {
+      "person": "tú",
+      "form": "alquilas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "alquila"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "alquilamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "alquilan"
+    }
+  ],
   "beber": [
     {
       "person": "yo",
@@ -745,6 +1163,512 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "aprenden"
+    }
+  ],
+  "oír": [
+    {
+      "person": "yo",
+      "form": "oigo"
+    },
+    {
+      "person": "tú",
+      "form": "oyes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "oye"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "oímos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "oyen"
+    }
+  ],
+  "sentir": [
+    {
+      "person": "yo",
+      "form": "siento"
+    },
+    {
+      "person": "tú",
+      "form": "sientes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "siente"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "sentimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "sienten"
+    }
+  ],
+  "perdonar": [
+    {
+      "person": "yo",
+      "form": "perdono"
+    },
+    {
+      "person": "tú",
+      "form": "perdonas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "perdona"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "perdonamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "perdonan"
+    }
+  ],
+  "ver": [
+    {
+      "person": "yo",
+      "form": "veo"
+    },
+    {
+      "person": "tú",
+      "form": "ves"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "ve"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "vemos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "ven"
+    }
+  ],
+  "salir": [
+    {
+      "person": "yo",
+      "form": "salgo"
+    },
+    {
+      "person": "tú",
+      "form": "sales"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "sale"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "salimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "salen"
+    }
+  ],
+  "levantar": [
+    {
+      "person": "yo",
+      "form": "levanto"
+    },
+    {
+      "person": "tú",
+      "form": "levantas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "levanta"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "levantamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "levantan"
+    }
+  ],
+  "duchar": [
+    {
+      "person": "yo",
+      "form": "ducho"
+    },
+    {
+      "person": "tú",
+      "form": "duchas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "ducha"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "duchamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "duchan"
+    }
+  ],
+  "empezar": [
+    {
+      "person": "yo",
+      "form": "empiezo"
+    },
+    {
+      "person": "tú",
+      "form": "empiezas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "empieza"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "empezamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "empiezan"
+    }
+  ],
+  "terminar": [
+    {
+      "person": "yo",
+      "form": "termino"
+    },
+    {
+      "person": "tú",
+      "form": "terminas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "termina"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "terminamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "terminan"
+    }
+  ],
+  "abrir": [
+    {
+      "person": "yo",
+      "form": "abro"
+    },
+    {
+      "person": "tú",
+      "form": "abres"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "abre"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "abrimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "abren"
+    }
+  ],
+  "viajar": [
+    {
+      "person": "yo",
+      "form": "viajo"
+    },
+    {
+      "person": "tú",
+      "form": "viajas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "viaja"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "viajamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "viajan"
+    }
+  ],
+  "mirar": [
+    {
+      "person": "yo",
+      "form": "miro"
+    },
+    {
+      "person": "tú",
+      "form": "miras"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "mira"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "miramos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "miran"
+    }
+  ],
+  "contestar": [
+    {
+      "person": "yo",
+      "form": "contesto"
+    },
+    {
+      "person": "tú",
+      "form": "contestas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "contesta"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "contestamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "contestan"
+    }
+  ],
+  "elegir": [
+    {
+      "person": "yo",
+      "form": "elijo"
+    },
+    {
+      "person": "tú",
+      "form": "eliges"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "elige"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "elegimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "eligen"
+    }
+  ],
+  "llover": [
+    {
+      "person": "yo",
+      "form": "—"
+    },
+    {
+      "person": "tú",
+      "form": "—"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "llueve"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "—"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "—"
+    }
+  ],
+  "nevar": [
+    {
+      "person": "yo",
+      "form": "nievo"
+    },
+    {
+      "person": "tú",
+      "form": "nievas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "nieva"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "nevamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "nievan"
+    }
+  ],
+  "cruzar": [
+    {
+      "person": "yo",
+      "form": "cruzo"
+    },
+    {
+      "person": "tú",
+      "form": "cruzas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "cruza"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "cruzamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "cruzan"
+    }
+  ],
+  "encontrar": [
+    {
+      "person": "yo",
+      "form": "encuentro"
+    },
+    {
+      "person": "tú",
+      "form": "encuentras"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "encuentra"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "encontramos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "encuentran"
+    }
+  ],
+  "dedicar": [
+    {
+      "person": "yo",
+      "form": "dedico"
+    },
+    {
+      "person": "tú",
+      "form": "dedicas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "dedica"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "dedicamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "dedican"
+    }
+  ],
+  "funcionar": [
+    {
+      "person": "yo",
+      "form": "funciono"
+    },
+    {
+      "person": "tú",
+      "form": "funcionas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "funciona"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "funcionamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "funcionan"
+    }
+  ],
+  "faltar": [
+    {
+      "person": "yo",
+      "form": "falto"
+    },
+    {
+      "person": "tú",
+      "form": "faltas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "falta"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "faltamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "faltan"
+    }
+  ],
+  "pasar": [
+    {
+      "person": "yo",
+      "form": "paso"
+    },
+    {
+      "person": "tú",
+      "form": "pasas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "pasa"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "pasamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "pasan"
+    }
+  ],
+  "recibir": [
+    {
+      "person": "yo",
+      "form": "recibo"
+    },
+    {
+      "person": "tú",
+      "form": "recibes"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "recibe"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "recibimos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "reciben"
     }
   ]
 }

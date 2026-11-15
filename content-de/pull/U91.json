@@ -1,0 +1,1584 @@
+{
+  "unit_id": "U91",
+  "pulled_at": "2026-11-15",
+  "candidates": 97,
+  "sentences": [
+    {
+      "sentence_id": "S91001",
+      "unit_id": "U91",
+      "french": "Es kommt mit Suppe oder Salat.",
+      "english": "It comes with soup or salad.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2079623",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JWeighardt",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91002",
+      "unit_id": "U91",
+      "french": "Möchten Sie Frühstück?",
+      "english": "Do you want breakfast?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2159619",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91003",
+      "unit_id": "U91",
+      "french": "Ist das Salz?",
+      "english": "Is that salt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8059153",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": [
+        "Is it salt?"
+      ]
+    },
+    {
+      "sentence_id": "S91004",
+      "unit_id": "U91",
+      "french": "Möchtest du Frühstück?",
+      "english": "Do you want some breakfast?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10062241",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Melang",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91005",
+      "unit_id": "U91",
+      "french": "Schmeckt der Salat?",
+      "english": "Is the salad tasty?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10167176",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91006",
+      "unit_id": "U91",
+      "french": "Schmeckt die Suppe?",
+      "english": "Does the soup taste OK?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12635587",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91007",
+      "unit_id": "U91",
+      "french": "Gibt es noch Salz?",
+      "english": "Is there salt left?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "922730",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91008",
+      "unit_id": "U91",
+      "french": "Wann gibt es Mittagessen?",
+      "english": "When are we having lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1196671",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Esperantostern",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91009",
+      "unit_id": "U91",
+      "french": "Wann gibt es Frühstück?",
+      "english": "When is breakfast?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2205584",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "freddy1",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91010",
+      "unit_id": "U91",
+      "french": "Wo ist mein Mittagessen?",
+      "english": "Where's my lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2835968",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91011",
+      "unit_id": "U91",
+      "french": "Ist das Abendessen fertig?",
+      "english": "Is dinner ready?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3121096",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "samueldora",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91012",
+      "unit_id": "U91",
+      "french": "Wie war das Mittagessen?",
+      "english": "How was lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3199224",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91013",
+      "unit_id": "U91",
+      "french": "Wie viel kostet ein Ei?",
+      "english": "How much does an egg cost?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3697114",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91014",
+      "unit_id": "U91",
+      "french": "Wo ist das Öl?",
+      "english": "Where's the oil?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9003747",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tamy",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91015",
+      "unit_id": "U91",
+      "french": "Schmeckt dir die Suppe?",
+      "english": "Do you like the soup?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9525069",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Taam",
+      "other_english": [
+        "Do you like how the soup tastes?",
+        "Do you like the taste of the soup?"
+      ]
+    },
+    {
+      "sentence_id": "S91016",
+      "unit_id": "U91",
+      "french": "Wie war das Abendessen?",
+      "english": "How was supper?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11932739",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Naina",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91017",
+      "unit_id": "U91",
+      "french": "Möchtest du einen Salat?",
+      "english": "Would you like a salad?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12655784",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91018",
+      "unit_id": "U91",
+      "french": "Wo ist mein Abendessen?",
+      "english": "Where's my dinner?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13931836",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Naina",
+      "other_english": [
+        "Where is my dinner?"
+      ]
+    },
+    {
+      "sentence_id": "S91019",
+      "unit_id": "U91",
+      "french": "Hat es zu viel Salz?",
+      "english": "Does it have too much salt?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3414772",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Trinkschokolade",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91020",
+      "unit_id": "U91",
+      "french": "Pommes frites bitte.",
+      "english": "Some chips, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13772947",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Waldelfe",
+      "other_english": [
+        "Some french fries, please."
+      ]
+    },
+    {
+      "sentence_id": "S91021",
+      "unit_id": "U91",
+      "french": "Tom mag Wurst.",
+      "english": "Tom likes sausage.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6619048",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Felixjp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91022",
+      "unit_id": "U91",
+      "french": "Ich esse Hähnchen.",
+      "english": "I eat chicken.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8320841",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MisterTrouser",
+      "other_english": [
+        "I'm eating chicken.",
+        "I am eating chicken."
+      ]
+    },
+    {
+      "sentence_id": "S91023",
+      "unit_id": "U91",
+      "french": "Ich esse Schinken.",
+      "english": "I eat ham.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8320882",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MisterTrouser",
+      "other_english": [
+        "I'm eating ham."
+      ]
+    },
+    {
+      "sentence_id": "S91024",
+      "unit_id": "U91",
+      "french": "Ich habe ein Ei.",
+      "english": "I have an egg.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1405485",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Manfredo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91025",
+      "unit_id": "U91",
+      "french": "Ich esse eine Birne.",
+      "english": "I'm eating a pear.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2135084",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vortarulo",
+      "other_english": [
+        "I am eating a pear."
+      ]
+    },
+    {
+      "sentence_id": "S91026",
+      "unit_id": "U91",
+      "french": "Es ist sehr bitter.",
+      "english": "It's very bitter.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2349606",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Espi",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91027",
+      "unit_id": "U91",
+      "french": "Sie isst eine Birne.",
+      "english": "She's eating a pear.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2588311",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pfirsichbaeumchen",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91028",
+      "unit_id": "U91",
+      "french": "Pommes frites mag ich sehr.",
+      "english": "I really like chips.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3250904",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "al_ex_an_der",
+      "other_english": [
+        "I like chips a lot."
+      ]
+    },
+    {
+      "sentence_id": "S91029",
+      "unit_id": "U91",
+      "french": "Ich kaufe ein Ei.",
+      "english": "I'll buy one egg.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8320804",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MisterTrouser",
+      "other_english": [
+        "I'm buying an egg."
+      ]
+    },
+    {
+      "sentence_id": "S91030",
+      "unit_id": "U91",
+      "french": "Der Kaffee war bitter.",
+      "english": "The coffee was bitter.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8496178",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Luiaard",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91031",
+      "unit_id": "U91",
+      "french": "Tom isst eine Birne.",
+      "english": "Tom is eating a pear.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8641942",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Melang",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S91032",
+      "unit_id": "U91",
+      "french": "Der Kaffee hier ist zu bitter.",
+      "english": "The coffee here is too bitter.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6887513",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauchinet",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S91001",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91001",
+      "position": 2,
+      "surface": "kommt",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91001",
+      "position": 3,
+      "surface": "mit",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91001",
+      "position": 4,
+      "surface": "Suppe",
+      "word_id": "W1808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91001",
+      "position": 5,
+      "surface": "oder",
+      "word_id": "W1177",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91001",
+      "position": 6,
+      "surface": "Salat",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91002",
+      "position": 1,
+      "surface": "Möchten",
+      "word_id": "W1477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91002",
+      "position": 2,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91002",
+      "position": 3,
+      "surface": "Frühstück",
+      "word_id": "W1810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91003",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91003",
+      "position": 2,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91003",
+      "position": 3,
+      "surface": "Salz",
+      "word_id": "W1805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91004",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91004",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91004",
+      "position": 3,
+      "surface": "Frühstück",
+      "word_id": "W1810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91005",
+      "position": 1,
+      "surface": "Schmeckt",
+      "word_id": "W1611",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91005",
+      "position": 2,
+      "surface": "der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91005",
+      "position": 3,
+      "surface": "Salat",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91006",
+      "position": 1,
+      "surface": "Schmeckt",
+      "word_id": "W1611",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91006",
+      "position": 2,
+      "surface": "die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91006",
+      "position": 3,
+      "surface": "Suppe",
+      "word_id": "W1808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91007",
+      "position": 1,
+      "surface": "Gibt",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91007",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91007",
+      "position": 3,
+      "surface": "noch",
+      "word_id": "W1401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91007",
+      "position": 4,
+      "surface": "Salz",
+      "word_id": "W1805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91008",
+      "position": 1,
+      "surface": "Wann",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91008",
+      "position": 2,
+      "surface": "gibt",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91008",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91008",
+      "position": 4,
+      "surface": "Mittagessen",
+      "word_id": "W1811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91009",
+      "position": 1,
+      "surface": "Wann",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91009",
+      "position": 2,
+      "surface": "gibt",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91009",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91009",
+      "position": 4,
+      "surface": "Frühstück",
+      "word_id": "W1810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91010",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91010",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91010",
+      "position": 3,
+      "surface": "mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91010",
+      "position": 4,
+      "surface": "Mittagessen",
+      "word_id": "W1811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91011",
+      "position": 1,
+      "surface": "Ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91011",
+      "position": 2,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91011",
+      "position": 3,
+      "surface": "Abendessen",
+      "word_id": "W1812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91011",
+      "position": 4,
+      "surface": "fertig",
+      "word_id": "W1172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91012",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91012",
+      "position": 2,
+      "surface": "war",
+      "word_id": "W1235",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91012",
+      "position": 3,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91012",
+      "position": 4,
+      "surface": "Mittagessen",
+      "word_id": "W1811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 1,
+      "surface": "Wie viel",
+      "word_id": "W1210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 2,
+      "surface": "kostet",
+      "word_id": "W882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91013",
+      "position": 4,
+      "surface": "Ei",
+      "word_id": "W1809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 3,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91014",
+      "position": 4,
+      "surface": "Öl",
+      "word_id": "W1806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91015",
+      "position": 1,
+      "surface": "Schmeckt",
+      "word_id": "W1611",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91015",
+      "position": 2,
+      "surface": "dir",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91015",
+      "position": 3,
+      "surface": "die",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91015",
+      "position": 4,
+      "surface": "Suppe",
+      "word_id": "W1808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91016",
+      "position": 1,
+      "surface": "Wie",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91016",
+      "position": 2,
+      "surface": "war",
+      "word_id": "W1235",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91016",
+      "position": 3,
+      "surface": "das",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91016",
+      "position": 4,
+      "surface": "Abendessen",
+      "word_id": "W1812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91017",
+      "position": 1,
+      "surface": "Möchtest",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91017",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91017",
+      "position": 3,
+      "surface": "einen",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91017",
+      "position": 4,
+      "surface": "Salat",
+      "word_id": "W1801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91018",
+      "position": 1,
+      "surface": "Wo",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91018",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91018",
+      "position": 3,
+      "surface": "mein",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91018",
+      "position": 4,
+      "surface": "Abendessen",
+      "word_id": "W1812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91019",
+      "position": 1,
+      "surface": "Hat",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91019",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91019",
+      "position": 3,
+      "surface": "zu",
+      "word_id": "W1184",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91019",
+      "position": 4,
+      "surface": "viel",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91019",
+      "position": 5,
+      "surface": "Salz",
+      "word_id": "W1805",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91020",
+      "position": 1,
+      "surface": "Pommes frites",
+      "word_id": "W1803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91020",
+      "position": 2,
+      "surface": "bitte",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91021",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91021",
+      "position": 3,
+      "surface": "Wurst",
+      "word_id": "W1813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91022",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91022",
+      "position": 2,
+      "surface": "esse",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91022",
+      "position": 3,
+      "surface": "Hähnchen",
+      "word_id": "W1802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91023",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91023",
+      "position": 2,
+      "surface": "esse",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91023",
+      "position": 3,
+      "surface": "Schinken",
+      "word_id": "W1804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91024",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91024",
+      "position": 2,
+      "surface": "habe",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91024",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91024",
+      "position": 4,
+      "surface": "Ei",
+      "word_id": "W1809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 2,
+      "surface": "esse",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 3,
+      "surface": "eine",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91025",
+      "position": 4,
+      "surface": "Birne",
+      "word_id": "W1807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91026",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91026",
+      "position": 2,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91026",
+      "position": 3,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91026",
+      "position": 4,
+      "surface": "bitter",
+      "word_id": "W1814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91027",
+      "position": 1,
+      "surface": "Sie",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91027",
+      "position": 2,
+      "surface": "isst",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91027",
+      "position": 3,
+      "surface": "eine",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91027",
+      "position": 4,
+      "surface": "Birne",
+      "word_id": "W1807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91028",
+      "position": 1,
+      "surface": "Pommes frites",
+      "word_id": "W1803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91028",
+      "position": 2,
+      "surface": "mag",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91028",
+      "position": 3,
+      "surface": "ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91028",
+      "position": 4,
+      "surface": "sehr",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91029",
+      "position": 1,
+      "surface": "Ich",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91029",
+      "position": 2,
+      "surface": "kaufe",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91029",
+      "position": 3,
+      "surface": "ein",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91029",
+      "position": 4,
+      "surface": "Ei",
+      "word_id": "W1809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91030",
+      "position": 1,
+      "surface": "Der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91030",
+      "position": 2,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91030",
+      "position": 3,
+      "surface": "war",
+      "word_id": "W1235",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91030",
+      "position": 4,
+      "surface": "bitter",
+      "word_id": "W1814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91031",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91031",
+      "position": 2,
+      "surface": "isst",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91031",
+      "position": 3,
+      "surface": "eine",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91031",
+      "position": 4,
+      "surface": "Birne",
+      "word_id": "W1807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91032",
+      "position": 1,
+      "surface": "Der",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91032",
+      "position": 2,
+      "surface": "Kaffee",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91032",
+      "position": 3,
+      "surface": "hier",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91032",
+      "position": 4,
+      "surface": "ist",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91032",
+      "position": 5,
+      "surface": "zu",
+      "word_id": "W1184",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S91032",
+      "position": 6,
+      "surface": "bitter",
+      "word_id": "W1814",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A910031",
+      "sentence_id": "S91003",
+      "direction": "fr_to_en",
+      "answer": "Is it salt?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910151",
+      "sentence_id": "S91015",
+      "direction": "fr_to_en",
+      "answer": "Do you like how the soup tastes?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910152",
+      "sentence_id": "S91015",
+      "direction": "fr_to_en",
+      "answer": "Do you like the taste of the soup?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910181",
+      "sentence_id": "S91018",
+      "direction": "fr_to_en",
+      "answer": "Where is my dinner?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910201",
+      "sentence_id": "S91020",
+      "direction": "fr_to_en",
+      "answer": "Some french fries, please.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910221",
+      "sentence_id": "S91022",
+      "direction": "fr_to_en",
+      "answer": "I'm eating chicken.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910222",
+      "sentence_id": "S91022",
+      "direction": "fr_to_en",
+      "answer": "I am eating chicken.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910231",
+      "sentence_id": "S91023",
+      "direction": "fr_to_en",
+      "answer": "I'm eating ham.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910251",
+      "sentence_id": "S91025",
+      "direction": "fr_to_en",
+      "answer": "I am eating a pear.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910281",
+      "sentence_id": "S91028",
+      "direction": "fr_to_en",
+      "answer": "I like chips a lot.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A910291",
+      "sentence_id": "S91029",
+      "direction": "fr_to_en",
+      "answer": "I'm buying an egg.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

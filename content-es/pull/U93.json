@@ -1,0 +1,1594 @@
+{
+  "unit_id": "U93",
+  "pulled_at": "2026-11-15",
+  "candidates": 65,
+  "sentences": [
+    {
+      "sentence_id": "S93001",
+      "unit_id": "U93",
+      "french": "¿Cómo vas al colegio?",
+      "english": "How do you go to school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "600191",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "How do you get to school?"
+      ]
+    },
+    {
+      "sentence_id": "S93002",
+      "unit_id": "U93",
+      "french": "¿Cómo va al colegio?",
+      "english": "How does he go to school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1332217",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93003",
+      "unit_id": "U93",
+      "french": "¿Te gusta el colegio?",
+      "english": "Do you like school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1595130",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "teskmon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93004",
+      "unit_id": "U93",
+      "french": "¿Vas a la universidad?",
+      "english": "Do you go to college?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2132155",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93005",
+      "unit_id": "U93",
+      "french": "¿Es esto la biblioteca?",
+      "english": "Is this the library?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10044483",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93006",
+      "unit_id": "U93",
+      "french": "¿Eres un estudiante de instituto?",
+      "english": "Are you a high school student?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1368373",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93007",
+      "unit_id": "U93",
+      "french": "¿Nos vemos en la biblioteca?",
+      "english": "Shall we meet at the library?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1406423",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93008",
+      "unit_id": "U93",
+      "french": "¿Eres bueno para las matemáticas?",
+      "english": "Are you good at mathematics?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3834224",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93009",
+      "unit_id": "U93",
+      "french": "¿Cuándo quieres ir a la biblioteca?",
+      "english": "When do you want to go to the library?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1539889",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93010",
+      "unit_id": "U93",
+      "french": "¿Qué quieres estudiar en la universidad?",
+      "english": "What do you want to study at college?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2871050",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93011",
+      "unit_id": "U93",
+      "french": "¿Qué vas a hacer en la universidad?",
+      "english": "What will you do in college?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2098309",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "What are you going to do in college?"
+      ]
+    },
+    {
+      "sentence_id": "S93012",
+      "unit_id": "U93",
+      "french": "Estudio matemáticas.",
+      "english": "I study mathematics.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2922211",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93013",
+      "unit_id": "U93",
+      "french": "Quiero estudiar historia.",
+      "english": "I want to study history.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1033319",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93014",
+      "unit_id": "U93",
+      "french": "No es directora.",
+      "english": "She isn't a director.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1086871",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "She's not a director."
+      ]
+    },
+    {
+      "sentence_id": "S93015",
+      "unit_id": "U93",
+      "french": "Quiero aprender matemáticas.",
+      "english": "I want to learn mathematics.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2879517",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93016",
+      "unit_id": "U93",
+      "french": "Me gusta estudiar historia.",
+      "english": "I like studying history.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "454595",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93017",
+      "unit_id": "U93",
+      "french": "Hablo con el director.",
+      "english": "I'm speaking with the principal.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "619668",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93018",
+      "unit_id": "U93",
+      "french": "Me gusta la historia.",
+      "english": "I like history.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1279993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93019",
+      "unit_id": "U93",
+      "french": "Mira a la pizarra.",
+      "english": "Look at the blackboard.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1552886",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93020",
+      "unit_id": "U93",
+      "french": "Soy un estudiante de instituto.",
+      "english": "I'm a high school student.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "521078",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93021",
+      "unit_id": "U93",
+      "french": "Tom es un estudiante de instituto.",
+      "english": "Tom is a high school student.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "770918",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93022",
+      "unit_id": "U93",
+      "french": "El profesor está con el director.",
+      "english": "The teacher is with the school principal.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1355655",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93023",
+      "unit_id": "U93",
+      "french": "¿Cuándo vas a ir al colegio?",
+      "english": "When will you go to school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1580330",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93024",
+      "unit_id": "U93",
+      "french": "¿Hay una biblioteca en la escuela?",
+      "english": "Is there a library in the school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3443434",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93025",
+      "unit_id": "U93",
+      "french": "Voy al colegio.",
+      "english": "I'm going to school.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1794889",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93026",
+      "unit_id": "U93",
+      "french": "Está en la universidad.",
+      "english": "He is in college.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "945911",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "inmachan",
+      "other_english": [
+        "He is at university.",
+        "He goes to university.",
+        "He is enrolled at that university."
+      ]
+    },
+    {
+      "sentence_id": "S93027",
+      "unit_id": "U93",
+      "french": "Este es mi colegio.",
+      "english": "This is my school.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1258452",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93028",
+      "unit_id": "U93",
+      "french": "Estamos en una biblioteca.",
+      "english": "We're in a library.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1610708",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "We are in a library."
+      ]
+    },
+    {
+      "sentence_id": "S93029",
+      "unit_id": "U93",
+      "french": "Soy bueno en historia.",
+      "english": "I am good at history.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5455486",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "baudelaire",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93030",
+      "unit_id": "U93",
+      "french": "Voy a la biblioteca.",
+      "english": "I'm going to the library.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13698988",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S93001",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93001",
+      "position": 2,
+      "surface": "vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93001",
+      "position": 3,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93001",
+      "position": 4,
+      "surface": "colegio",
+      "word_id": "W1824",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93002",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93002",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93002",
+      "position": 3,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93002",
+      "position": 4,
+      "surface": "colegio",
+      "word_id": "W1824",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93003",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93003",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93003",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93003",
+      "position": 4,
+      "surface": "colegio",
+      "word_id": "W1824",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93004",
+      "position": 1,
+      "surface": "Vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93004",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93004",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93004",
+      "position": 4,
+      "surface": "universidad",
+      "word_id": "W1822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93005",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93005",
+      "position": 2,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93005",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93005",
+      "position": 4,
+      "surface": "biblioteca",
+      "word_id": "W1823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93006",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93006",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93006",
+      "position": 3,
+      "surface": "estudiante",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93006",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93006",
+      "position": 5,
+      "surface": "instituto",
+      "word_id": "W1821",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93007",
+      "position": 1,
+      "surface": "Nos",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93007",
+      "position": 2,
+      "surface": "vemos",
+      "word_id": "W1267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93007",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93007",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93007",
+      "position": 5,
+      "surface": "biblioteca",
+      "word_id": "W1823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 1,
+      "surface": "Eres",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 2,
+      "surface": "bueno",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 3,
+      "surface": "para",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 4,
+      "surface": "las",
+      "word_id": "W071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 5,
+      "surface": "matemáticas",
+      "word_id": "W1825",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93009",
+      "position": 1,
+      "surface": "Cuándo",
+      "word_id": "W1410",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93009",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93009",
+      "position": 3,
+      "surface": "ir",
+      "word_id": "W1270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93009",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93009",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93009",
+      "position": 6,
+      "surface": "biblioteca",
+      "word_id": "W1823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93010",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93010",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93010",
+      "position": 3,
+      "surface": "estudiar",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93010",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93010",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93010",
+      "position": 6,
+      "surface": "universidad",
+      "word_id": "W1822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 2,
+      "surface": "vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 4,
+      "surface": "hacer",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 6,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 7,
+      "surface": "universidad",
+      "word_id": "W1822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93012",
+      "position": 1,
+      "surface": "Estudio",
+      "word_id": "W1125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93012",
+      "position": 2,
+      "surface": "matemáticas",
+      "word_id": "W1825",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93013",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93013",
+      "position": 2,
+      "surface": "estudiar",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93013",
+      "position": 3,
+      "surface": "historia",
+      "word_id": "W1826",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93014",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93014",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93014",
+      "position": 3,
+      "surface": "directora",
+      "word_id": "W1831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93015",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93015",
+      "position": 2,
+      "surface": "aprender",
+      "word_id": "W1126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93015",
+      "position": 3,
+      "surface": "matemáticas",
+      "word_id": "W1825",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93016",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93016",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93016",
+      "position": 3,
+      "surface": "estudiar",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93016",
+      "position": 4,
+      "surface": "historia",
+      "word_id": "W1826",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93017",
+      "position": 1,
+      "surface": "Hablo",
+      "word_id": "W866",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93017",
+      "position": 2,
+      "surface": "con",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93017",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93017",
+      "position": 4,
+      "surface": "director",
+      "word_id": "W1830",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93018",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93018",
+      "position": 2,
+      "surface": "gusta",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93018",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93018",
+      "position": 4,
+      "surface": "historia",
+      "word_id": "W1826",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93019",
+      "position": 1,
+      "surface": "Mira",
+      "word_id": "W1352",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93019",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93019",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93019",
+      "position": 4,
+      "surface": "pizarra",
+      "word_id": "W1829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93020",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93020",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93020",
+      "position": 3,
+      "surface": "estudiante",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93020",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93020",
+      "position": 5,
+      "surface": "instituto",
+      "word_id": "W1821",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93021",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93021",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93021",
+      "position": 4,
+      "surface": "estudiante",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93021",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93021",
+      "position": 6,
+      "surface": "instituto",
+      "word_id": "W1821",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93022",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93022",
+      "position": 2,
+      "surface": "profesor",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93022",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93022",
+      "position": 4,
+      "surface": "con",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93022",
+      "position": 5,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93022",
+      "position": 6,
+      "surface": "director",
+      "word_id": "W1830",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93023",
+      "position": 1,
+      "surface": "Cuándo",
+      "word_id": "W1410",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93023",
+      "position": 2,
+      "surface": "vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93023",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93023",
+      "position": 4,
+      "surface": "ir",
+      "word_id": "W1270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93023",
+      "position": 5,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93023",
+      "position": 6,
+      "surface": "colegio",
+      "word_id": "W1824",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93024",
+      "position": 1,
+      "surface": "Hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93024",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93024",
+      "position": 3,
+      "surface": "biblioteca",
+      "word_id": "W1823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93024",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93024",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93024",
+      "position": 6,
+      "surface": "escuela",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93025",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93025",
+      "position": 2,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93025",
+      "position": 3,
+      "surface": "colegio",
+      "word_id": "W1824",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93026",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93026",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93026",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93026",
+      "position": 4,
+      "surface": "universidad",
+      "word_id": "W1822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93027",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93027",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93027",
+      "position": 3,
+      "surface": "mi",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93027",
+      "position": 4,
+      "surface": "colegio",
+      "word_id": "W1824",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93028",
+      "position": 1,
+      "surface": "Estamos",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93028",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93028",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93028",
+      "position": 4,
+      "surface": "biblioteca",
+      "word_id": "W1823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93029",
+      "position": 1,
+      "surface": "Soy",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93029",
+      "position": 2,
+      "surface": "bueno",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93029",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93029",
+      "position": 4,
+      "surface": "historia",
+      "word_id": "W1826",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93030",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93030",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93030",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93030",
+      "position": 4,
+      "surface": "biblioteca",
+      "word_id": "W1823",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A930011",
+      "sentence_id": "S93001",
+      "direction": "fr_to_en",
+      "answer": "How do you get to school?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A930111",
+      "sentence_id": "S93011",
+      "direction": "fr_to_en",
+      "answer": "What are you going to do in college?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A930141",
+      "sentence_id": "S93014",
+      "direction": "fr_to_en",
+      "answer": "She's not a director.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A930261",
+      "sentence_id": "S93026",
+      "direction": "fr_to_en",
+      "answer": "He is at university.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A930262",
+      "sentence_id": "S93026",
+      "direction": "fr_to_en",
+      "answer": "He goes to university.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A930263",
+      "sentence_id": "S93026",
+      "direction": "fr_to_en",
+      "answer": "He is enrolled at that university.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A930281",
+      "sentence_id": "S93028",
+      "direction": "fr_to_en",
+      "answer": "We are in a library.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

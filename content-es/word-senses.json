@@ -1,1706 +1,3107 @@
 {
-  "_about": "Which Wiktionary entry each Spanish word uses: part of speech, plus text the definition must contain.",
-  "W001": {
-    "pos": "Interjection"
-  },
-  "W002": {
-    "pos": "Interjection"
-  },
-  "W003": {
-    "pos": "Particle"
-  },
-  "W004": {
-    "pos": "Adverb"
-  },
-  "W005": {
-    "pos": "Pronoun"
-  },
-  "W006": {
-    "pos": "Pronoun"
-  },
-  "W007": {
-    "pos": "Verb"
-  },
-  "W008": {
-    "pos": "Verb"
-  },
-  "W009": {
-    "pos": "Article"
-  },
-  "W010": {
-    "pos": "Article"
-  },
-  "W011": {
-    "pos": "Noun"
-  },
-  "W012": {
-    "pos": "Noun"
-  },
-  "W013": {
-    "pos": "Noun"
-  },
-  "W014": {
-    "pos": "Noun"
-  },
-  "W015": {
-    "pos": "Conjunction"
-  },
-  "W016": {
-    "pos": "Article",
-    "match": "masculine"
-  },
-  "W017": {
-    "pos": "Article"
-  },
-  "W018": {
-    "pos": "Pronoun"
-  },
-  "W019": {
-    "pos": "Pronoun"
-  },
-  "W020": {
-    "pos": "Verb"
-  },
-  "W021": {
-    "pos": "Adverb"
-  },
-  "W022": {
-    "pos": "Noun"
-  },
-  "W023": {
-    "pos": "Noun"
-  },
-  "W024": {
-    "pos": "Noun"
-  },
-  "W025": {
-    "pos": "Noun"
-  },
-  "W026": {
-    "pos": "Adjective"
-  },
-  "W027": {
-    "pos": "Adjective"
-  },
-  "W028": {
-    "pos": "Adjective"
-  },
-  "W029": {
-    "pos": "Interjection"
-  },
-  "W030": {
-    "pos": "Interjection"
-  },
-  "W031": {
-    "pos": "Interjection"
-  },
-  "W032": {
-    "pos": "Interjection"
-  },
-  "W033": {
-    "pos": "Interjection"
-  },
-  "W034": {
-    "pos": "Interjection"
-  },
-  "W035": {
-    "pos": "Interjection"
-  },
-  "W036": {
-    "pos": "Pronoun"
-  },
-  "W037": {
-    "pos": "Adverb"
-  },
-  "W038": {
-    "pos": "Verb"
-  },
-  "W039": {
-    "pos": "Verb"
-  },
-  "W040": {
-    "pos": "Verb"
-  },
-  "W041": {
-    "pos": "Adverb"
-  },
-  "W042": {
-    "pos": "Adverb"
-  },
-  "W043": {
-    "pos": "Verb",
-    "match": "comer"
-  },
-  "W044": {
-    "pos": "Verb"
-  },
-  "W045": {
-    "pos": "Verb"
-  },
-  "W046": {
-    "pos": "Verb",
-    "match": "beber"
-  },
-  "W047": {
-    "pos": "Verb",
-    "match": "beber"
-  },
-  "W048": {
-    "pos": "Verb",
-    "match": "beber"
-  },
-  "W049": {
-    "pos": "Pronoun"
-  },
-  "W050": {
-    "pos": "Pronoun"
-  },
-  "W051": {
-    "pos": "Verb"
-  },
-  "W052": {
-    "pos": "Noun"
-  },
-  "W053": {
-    "pos": "Noun"
-  },
-  "W054": {
-    "pos": "Noun"
-  },
-  "W055": {
-    "pos": "Noun"
-  },
-  "W056": {
-    "pos": "Noun"
-  },
-  "W057": {
-    "pos": "Noun",
-    "match": "orange (fruit)"
-  },
-  "W058": {
-    "pos": "Noun"
-  },
-  "W059": {
-    "pos": "Verb"
-  },
-  "W060": {
-    "pos": "Verb"
-  },
-  "W061": {
-    "pos": "Verb"
-  },
-  "W062": {
-    "pos": "Noun"
-  },
-  "W063": {
-    "pos": "Noun"
-  },
-  "W064": {
-    "pos": "Noun"
-  },
-  "W065": {
-    "pos": "Noun"
-  },
-  "W066": {
-    "pos": "Noun"
-  },
-  "W067": {
-    "pos": "Noun"
-  },
-  "W068": {
-    "pos": "Noun"
-  },
-  "W069": {
-    "pos": "Noun"
-  },
-  "W070": {
-    "pos": "Article"
-  },
-  "W071": {
-    "pos": "Article"
-  },
-  "W072": {
-    "pos": "Article"
-  },
-  "W073": {
-    "pos": "Article"
-  },
-  "W074": {
-    "pos": "Pronoun"
-  },
-  "W075": {
-    "pos": "Pronoun"
-  },
-  "W076": {
-    "pos": "Pronoun"
-  },
-  "W077": {
-    "pos": "Pronoun"
-  },
-  "W078": {
-    "pos": "Verb"
-  },
-  "W079": {
-    "pos": "Verb",
-    "match": "ser"
-  },
-  "W080": {
-    "pos": "Noun"
-  },
-  "W081": {
-    "pos": "Noun"
-  },
-  "W082": {
-    "pos": "Noun"
-  },
-  "W083": {
-    "pos": "Noun"
-  },
-  "W084": {
-    "pos": "Noun"
-  },
-  "W085": {
-    "pos": "Noun"
-  },
-  "W086": {
-    "pos": "Noun"
-  },
-  "W087": {
-    "pos": "Adjective"
-  },
-  "W088": {
-    "pos": "Adjective"
-  },
-  "W089": {
-    "pos": "Adjective"
-  },
-  "W090": {
-    "pos": "Adjective"
-  },
-  "W091": {
-    "pos": "Adjective"
-  },
-  "W092": {
-    "pos": "Adjective"
-  },
-  "W093": {
-    "pos": "Adjective"
-  },
-  "W094": {
-    "pos": "Adjective"
-  },
-  "W095": {
-    "pos": "Adjective"
-  },
-  "W096": {
-    "pos": "Adverb"
-  },
-  "W097": {
-    "pos": "Adverb"
-  },
-  "W098": {
-    "pos": "Verb"
-  },
-  "W099": {
-    "pos": "Verb"
-  },
-  "W100": {
-    "pos": "Verb"
-  },
-  "W101": {
-    "pos": "Adverb"
-  },
-  "W102": {
-    "pos": "Preposition"
-  },
-  "W103": {
-    "pos": "Noun"
-  },
-  "W104": {
-    "pos": "Noun"
-  },
-  "W105": {
-    "pos": "Noun"
-  },
-  "W106": {
-    "pos": "Noun",
-    "match": "bathroom"
-  },
-  "W107": {
-    "pos": "Adjective"
-  },
-  "W108": {
-    "pos": "Adjective"
-  },
-  "W109": {
-    "pos": "Adjective",
-    "match": "happy"
-  },
-  "W110": {
-    "pos": "Adjective"
-  },
-  "W111": {
-    "pos": "Adjective"
-  },
-  "W112": {
-    "pos": "Adjective"
-  },
-  "W113": {
-    "pos": "Noun",
-    "match": "teacher"
-  },
-  "W114": {
-    "pos": "Noun"
-  },
-  "W115": {
-    "pos": "Noun"
-  },
-  "W116": {
-    "pos": "Noun"
-  },
-  "W117": {
-    "pos": "Determiner"
-  },
-  "W118": {
-    "pos": "Determiner"
-  },
-  "W119": {
-    "pos": "Determiner"
-  },
-  "W120": {
-    "pos": "Determiner"
-  },
-  "W121": {
-    "pos": "Determiner"
-  },
-  "W122": {
-    "pos": "Determiner"
-  },
-  "W123": {
-    "pos": "Preposition"
-  },
-  "W124": {
-    "pos": "Noun"
-  },
-  "W125": {
-    "pos": "Noun"
-  },
-  "W126": {
-    "pos": "Noun"
-  },
-  "W127": {
-    "pos": "Pronoun"
-  },
-  "W128": {
-    "pos": "Pronoun"
-  },
-  "W129": {
-    "pos": "Adverb"
-  },
-  "W130": {
-    "pos": "Pronoun"
-  },
-  "W131": {
-    "pos": "Adverb"
-  },
-  "W132": {
-    "pos": "Conjunction"
-  },
-  "W133": {
-    "pos": "Numeral"
-  },
-  "W134": {
-    "pos": "Numeral"
-  },
-  "W135": {
-    "pos": "Numeral"
-  },
-  "W136": {
-    "pos": "Numeral"
-  },
-  "W137": {
-    "pos": "Numeral"
-  },
-  "W138": {
-    "pos": "Numeral"
-  },
-  "W139": {
-    "pos": "Numeral"
-  },
-  "W140": {
-    "pos": "Numeral"
-  },
-  "W141": {
-    "pos": "Numeral"
-  },
-  "W142": {
-    "pos": "Determiner"
-  },
-  "W143": {
-    "pos": "Determiner"
-  },
-  "W144": {
-    "pos": "Adjective"
-  },
-  "W145": {
-    "pos": "Adjective"
-  },
-  "W146": {
-    "pos": "Adjective"
-  },
-  "W147": {
-    "pos": "Adjective"
-  },
-  "W148": {
-    "pos": "Adjective"
-  },
-  "W149": {
-    "pos": "Adjective"
-  },
-  "W150": {
-    "pos": "Adjective"
-  },
-  "W151": {
-    "pos": "Adjective"
-  },
-  "W152": {
-    "pos": "Adjective"
-  },
-  "W153": {
-    "pos": "Adjective"
-  },
-  "W154": {
-    "pos": "Noun"
-  },
-  "W155": {
-    "pos": "Adverb"
-  },
-  "W156": {
-    "pos": "Adverb"
-  },
-  "W157": {
-    "pos": "Adverb"
-  },
-  "W158": {
-    "pos": "Noun"
-  },
-  "W159": {
-    "pos": "Noun"
-  },
-  "W160": {
-    "pos": "Noun"
-  },
-  "W161": {
-    "pos": "Noun"
-  },
-  "W162": {
-    "pos": "Noun"
-  },
-  "W163": {
-    "pos": "Noun"
-  },
-  "W164": {
-    "pos": "Verb"
-  },
-  "W165": {
-    "pos": "Verb"
-  },
-  "W166": {
-    "pos": "Verb"
-  },
-  "W167": {
-    "pos": "Preposition"
-  },
-  "W168": {
-    "pos": "Contraction"
-  },
-  "W169": {
-    "pos": "Noun"
-  },
-  "W170": {
-    "pos": "Noun"
-  },
-  "W171": {
-    "pos": "Noun",
-    "match": "shop"
-  },
-  "W172": {
-    "pos": "Noun"
-  },
-  "W173": {
-    "pos": "Noun"
-  },
-  "W174": {
-    "pos": "Verb",
-    "lemma_match": "to be called",
-    "lemma_exact": true,
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W175": {
-    "pos": "Verb",
-    "match": "llamar",
-    "lemma_match": "to be called",
-    "lemma_exact": true,
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W176": {
-    "pos": "Noun",
-    "match": "boy"
-  },
-  "W177": {
-    "pos": "Noun"
-  },
-  "W178": {
-    "pos": "Noun"
-  },
-  "W179": {
-    "pos": "Noun"
-  },
-  "W180": {
-    "pos": "Pronoun"
-  },
-  "W181": {
-    "pos": "Pronoun"
-  },
-  "W182": {
-    "pos": "Determiner"
-  },
-  "W183": {
-    "pos": "Determiner"
-  },
-  "W184": {
-    "pos": "Noun"
-  },
-  "W185": {
-    "pos": "Adjective"
-  },
-  "W186": {
-    "pos": "Adjective"
-  },
-  "W187": {
-    "pos": "Adjective"
-  },
-  "W188": {
-    "pos": "Verb"
-  },
-  "W189": {
-    "pos": "Verb"
-  },
-  "W190": {
-    "pos": "Verb"
-  },
-  "W191": {
-    "pos": "Noun"
-  },
-  "W192": {
-    "pos": "Noun"
-  },
-  "W193": {
-    "pos": "Noun"
-  },
-  "W194": {
-    "pos": "Noun"
-  },
-  "W195": {
-    "pos": "Noun"
-  },
-  "W501": {
-    "pos": "Noun"
-  },
-  "W502": {
-    "pos": "Noun"
-  },
-  "W503": {
-    "pos": "Noun"
-  },
-  "W504": {
-    "pos": "Adjective"
-  },
-  "W505": {
-    "pos": "Noun"
-  },
-  "W506": {
-    "pos": "Verb",
-    "match": "hacer"
-  },
-  "W507": {
-    "pos": "Verb"
-  },
-  "W508": {
-    "pos": "Verb"
-  },
-  "W509": {
-    "pos": "Noun",
-    "match": "weather"
-  },
-  "W510": {
-    "pos": "Noun"
-  },
-  "W511": {
-    "pos": "Noun"
-  },
-  "W512": {
-    "pos": "Noun"
-  },
-  "W513": {
-    "pos": "Noun"
-  },
-  "W514": {
-    "pos": "Noun"
-  },
-  "W515": {
-    "pos": "Noun"
-  },
-  "W516": {
-    "pos": "Noun"
-  },
-  "W517": {
-    "pos": "Noun"
-  },
-  "W518": {
-    "pos": "Noun"
-  },
-  "W519": {
-    "pos": "Noun"
-  },
-  "W520": {
-    "pos": "Noun"
-  },
-  "W521": {
-    "pos": "Noun"
-  },
-  "W522": {
-    "pos": "Verb"
-  },
-  "W523": {
-    "pos": "Verb"
-  },
-  "W524": {
-    "pos": "Noun"
-  },
-  "W525": {
-    "pos": "Noun"
-  },
-  "W526": {
-    "pos": "Noun"
-  },
-  "W527": {
-    "pos": "Noun"
-  },
-  "W528": {
-    "pos": "Adjective",
-    "match": "busy",
-    "exact": true,
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W529": {
-    "pos": "Adjective",
-    "match": "feminine singular of ocupado",
-    "lemma_match": "busy",
-    "lemma_exact": true,
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W530": {
-    "pos": "Noun"
-  },
-  "W531": {
-    "pos": "Noun"
-  },
-  "W532": {
-    "pos": "Noun"
-  },
-  "W533": {
-    "pos": "Noun"
-  },
-  "W534": {
-    "pos": "Noun"
-  },
-  "W535": {
-    "pos": "Noun"
-  },
-  "W536": {
-    "pos": "Noun"
-  },
-  "W537": {
-    "pos": "Noun"
-  },
-  "W538": {
-    "pos": "Verb",
-    "match": "doler"
-  },
-  "W539": {
-    "pos": "Noun"
-  },
-  "W540": {
-    "pos": "Noun"
-  },
-  "W541": {
-    "pos": "Noun"
-  },
-  "W542": {
-    "pos": "Noun"
-  },
-  "W543": {
-    "pos": "Noun"
-  },
-  "W544": {
-    "pos": "Noun"
-  },
-  "W545": {
-    "pos": "Verb"
-  },
-  "W546": {
-    "pos": "Noun"
-  },
-  "W547": {
-    "pos": "Noun",
-    "match": "story"
-  },
-  "W548": {
-    "pos": "Adjective"
-  },
-  "W549": {
-    "pos": "Adjective"
-  },
-  "W550": {
-    "pos": "Noun"
-  },
-  "W551": {
-    "pos": "Noun"
-  },
-  "W552": {
-    "pos": "Noun"
-  },
-  "W553": {
-    "pos": "Noun"
-  },
-  "W554": {
-    "pos": "Noun"
-  },
-  "W555": {
-    "pos": "Noun"
-  },
-  "W556": {
-    "pos": "Noun"
-  },
-  "W557": {
-    "pos": "Noun"
-  },
-  "W558": {
-    "pos": "Noun"
-  },
-  "W559": {
-    "pos": "Noun"
-  },
-  "W560": {
-    "pos": "Verb"
-  },
-  "W561": {
-    "pos": "Noun"
-  },
-  "W562": {
-    "pos": "Noun"
-  },
-  "W563": {
-    "pos": "Noun"
-  },
-  "W564": {
-    "pos": "Noun"
-  },
-  "W565": {
-    "pos": "Noun"
-  },
-  "W566": {
-    "pos": "Noun"
-  },
-  "W567": {
-    "pos": "Noun"
-  },
-  "W568": {
-    "pos": "Noun"
-  },
-  "W569": {
-    "pos": "Noun"
-  },
-  "W570": {
-    "pos": "Noun"
-  },
-  "W571": {
-    "pos": "Noun"
-  },
-  "W572": {
-    "pos": "Noun"
-  },
-  "W573": {
-    "pos": "Noun"
-  },
-  "W574": {
-    "pos": "Noun"
-  },
-  "W575": {
-    "pos": "Noun"
-  },
-  "W576": {
-    "pos": "Noun"
-  },
-  "W577": {
-    "pos": "Noun"
-  },
-  "W578": {
-    "pos": "Noun"
-  },
-  "W579": {
-    "pos": "Noun"
-  },
-  "W580": {
-    "pos": "Noun"
-  },
-  "W581": {
-    "pos": "Noun"
-  },
-  "W582": {
-    "pos": "Noun"
-  },
-  "W583": {
-    "pos": "Noun"
-  },
-  "W584": {
-    "pos": "Noun"
-  },
-  "W585": {
-    "pos": "Noun"
-  },
-  "W586": {
-    "pos": "Noun"
-  },
-  "W587": {
-    "pos": "Noun"
-  },
-  "W588": {
-    "pos": "Noun"
-  },
-  "W589": {
-    "pos": "Noun"
-  },
-  "W590": {
-    "pos": "Adjective"
-  },
-  "W591": {
-    "pos": "Noun"
-  },
-  "W592": {
-    "pos": "Noun"
-  },
-  "W593": {
-    "pos": "Noun"
-  },
-  "W594": {
-    "pos": "Noun"
-  },
-  "W595": {
-    "pos": "Noun"
-  },
-  "W596": {
-    "pos": "Noun"
-  },
-  "W597": {
-    "pos": "Noun"
-  },
-  "W598": {
-    "pos": "Noun"
-  },
-  "W599": {
-    "pos": "Noun"
-  },
-  "W600": {
-    "pos": "Noun"
-  },
-  "W601": {
-    "pos": "Noun"
-  },
-  "W602": {
-    "pos": "Noun"
-  },
-  "W603": {
-    "pos": "Noun"
-  },
-  "W604": {
-    "pos": "Noun"
-  },
-  "W605": {
-    "pos": "Noun"
-  },
-  "W606": {
-    "pos": "Noun"
-  },
-  "W607": {
-    "pos": "Noun"
-  },
-  "W608": {
-    "pos": "Noun"
-  },
-  "W609": {
-    "pos": "Noun"
-  },
-  "W610": {
-    "pos": "Noun"
-  },
-  "W701": {
-    "pos": "Verb"
-  },
-  "W702": {
-    "pos": "Verb"
-  },
-  "W703": {
-    "pos": "Adverb"
-  },
-  "W704": {
-    "pos": "Adverb"
-  },
-  "W705": {
-    "pos": "Verb"
-  },
-  "W706": {
-    "pos": "Verb"
-  },
-  "W707": {
-    "pos": "Verb"
-  },
-  "W708": {
-    "pos": "Verb"
-  },
-  "W709": {
-    "pos": "Adverb",
-    "match": "again, once more",
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W710": {
-    "pos": "Pronoun"
-  },
-  "W711": {
-    "pos": "Verb"
-  },
-  "W712": {
-    "pos": "Verb",
-    "lemma_match": "to mean",
-    "lemma_exact": true,
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W713": {
-    "pos": "Verb"
-  },
-  "W714": {
-    "pos": "Verb"
-  },
-  "W715": {
-    "pos": "Noun"
-  },
-  "W716": {
-    "pos": "Noun",
-    "match": "Spanish"
-  },
-  "W717": {
-    "pos": "Noun",
-    "match": "English"
-  },
-  "W718": {
-    "pos": "Verb"
-  },
-  "W719": {
-    "pos": "Verb"
-  },
-  "W720": {
-    "pos": "Noun"
-  },
-  "W721": {
-    "pos": "Preposition"
-  },
-  "W722": {
-    "pos": "Verb"
-  },
-  "W723": {
-    "pos": "Verb",
-    "lemma_match": "to be of use, to be good for",
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W1001": {
-    "pos": "Noun"
-  },
-  "W1002": {
-    "pos": "Noun"
-  },
-  "W1003": {
-    "pos": "Noun"
-  },
-  "W1004": {
-    "pos": "Noun"
-  },
-  "W1005": {
-    "pos": "Noun",
-    "match": "foot"
-  },
-  "W1006": {
-    "pos": "Noun"
-  },
-  "W1007": {
-    "pos": "Noun"
-  },
-  "W1008": {
-    "pos": "Adjective"
-  },
-  "W1009": {
-    "pos": "Adjective"
-  },
-  "W1010": {
-    "pos": "Adjective"
-  },
-  "W1011": {
-    "pos": "Adjective"
-  },
-  "W1012": {
-    "pos": "Adjective"
-  },
-  "W1013": {
-    "pos": "Adjective"
-  },
-  "W1014": {
-    "pos": "Adjective"
-  },
-  "W1015": {
-    "pos": "Noun"
-  },
-  "W1016": {
-    "pos": "Noun"
-  },
-  "W1017": {
-    "pos": "Noun"
-  },
-  "W1018": {
-    "pos": "Noun"
-  },
-  "W1019": {
-    "pos": "Noun"
-  },
-  "W1020": {
-    "pos": "Verb"
-  },
-  "W1021": {
-    "pos": "Verb"
-  },
-  "W1022": {
-    "pos": "Verb"
-  },
-  "W1023": {
-    "pos": "Verb"
-  },
-  "W1024": {
-    "pos": "Verb"
-  },
-  "W1025": {
-    "pos": "Verb",
-    "match": "leer"
-  },
-  "W1026": {
-    "pos": "Verb"
-  },
-  "W1027": {
-    "pos": "Verb"
-  },
-  "W1028": {
-    "pos": "Verb"
-  },
-  "W1029": {
-    "pos": "Noun"
-  },
-  "W1030": {
-    "pos": "Noun"
-  },
-  "W1031": {
-    "pos": "Noun"
-  },
-  "W1032": {
-    "pos": "Noun"
-  },
-  "W1033": {
-    "pos": "Noun"
-  },
-  "W1034": {
-    "pos": "Noun"
-  },
-  "W1035": {
-    "pos": "Noun"
-  },
-  "W1036": {
-    "pos": "Noun"
-  },
-  "W1037": {
-    "pos": "Noun"
-  },
-  "W1038": {
-    "pos": "Noun"
-  },
-  "W1039": {
-    "pos": "Noun"
-  },
-  "W1040": {
-    "pos": "Noun"
-  },
-  "W1041": {
-    "pos": "Noun"
-  },
-  "W1042": {
-    "pos": "Noun"
-  },
-  "W1043": {
-    "pos": "Preposition"
-  },
-  "W1044": {
-    "pos": "Noun"
-  },
-  "W801": {
-    "pos": "Noun"
-  },
-  "W802": {
-    "pos": "Noun"
-  },
-  "W803": {
-    "pos": "Verb",
-    "match": "llamar"
-  },
-  "W804": {
-    "pos": "Adjective",
-    "match": "pleased, delighted",
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W805": {
-    "pos": "Adjective",
-    "lemma_match": "pleased, delighted",
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W806": {
-    "pos": "Noun"
-  },
-  "W807": {
-    "pos": "Verb",
-    "match": "escribir"
-  },
-  "W808": {
-    "pos": "Verb"
-  },
-  "W809": {
-    "pos": "Noun",
-    "match": "letter"
-  },
-  "W810": {
-    "pos": "Verb",
-    "match": "poder"
-  },
-  "W811": {
-    "pos": "Verb",
-    "match": "poder"
-  },
-  "W812": {
-    "pos": "Verb"
-  },
-  "W813": {
-    "pos": "Noun"
-  },
-  "W814": {
-    "pos": "Noun"
-  },
-  "W815": {
-    "pos": "Verb"
-  },
-  "W828": {
-    "pos": "Noun"
-  },
-  "W829": {
-    "pos": "Noun"
-  },
-  "W830": {
-    "pos": "Noun"
-  },
-  "W831": {
-    "pos": "Noun"
-  },
-  "W832": {
-    "pos": "Noun"
-  },
-  "W833": {
-    "pos": "Noun"
-  },
-  "W834": {
-    "pos": "Adjective"
-  },
-  "W835": {
-    "pos": "Verb"
-  },
-  "W836": {
-    "pos": "Noun"
-  },
-  "W837": {
-    "pos": "Verb",
-    "match": "esperar",
-    "lemma_match": "to wait, wait (for)",
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W838": {
-    "pos": "Adjective"
-  },
-  "W847": {
-    "pos": "Verb",
-    "match": "vivir"
-  },
-  "W848": {
-    "pos": "Verb",
-    "match": "vivir"
-  },
-  "W849": {
-    "pos": "Verb",
-    "match": "vivir"
-  },
-  "W850": {
-    "pos": "Verb"
-  },
-  "W851": {
-    "pos": "Noun",
-    "match": "address"
-  },
-  "W852": {
-    "pos": "Noun",
-    "match": "floor"
-  },
-  "W853": {
-    "pos": "Noun"
-  },
-  "W854": {
-    "pos": "Noun"
-  },
-  "W855": {
-    "pos": "Adverb"
-  },
-  "W856": {
-    "pos": "Adverb"
-  },
-  "W857": {
-    "pos": "Proper noun"
-  },
-  "W858": {
-    "pos": "Proper noun"
-  },
-  "W859": {
-    "pos": "Proper noun"
-  },
-  "W860": {
-    "pos": "Proper noun"
-  },
-  "W863": {
-    "pos": "Adjective"
-  },
-  "W864": {
-    "pos": "Adjective"
-  },
-  "W865": {
-    "pos": "Noun"
-  },
-  "W866": {
-    "pos": "Verb",
-    "match": "hablar"
-  },
-  "W867": {
-    "pos": "Verb",
-    "match": "hablar"
-  },
-  "W869": {
-    "pos": "Noun"
-  },
-  "W870": {
-    "pos": "Verb"
-  },
-  "W871": {
-    "pos": "Verb",
-    "match": "comprar"
-  },
-  "W872": {
-    "pos": "Verb",
-    "match": "comprar"
-  },
-  "W873": {
-    "pos": "Verb",
-    "match": "querer"
-  },
-  "W874": {
-    "pos": "Verb",
-    "match": "querer"
-  },
-  "W875": {
-    "pos": "Noun"
-  },
-  "W876": {
-    "pos": "Noun"
-  },
-  "W877": {
-    "pos": "Noun"
-  },
-  "W878": {
-    "pos": "Noun"
-  },
-  "W879": {
-    "pos": "Noun"
-  },
-  "W881": {
-    "pos": "Verb",
-    "match": "comprender"
-  },
-  "W882": {
-    "pos": "Adjective"
-  },
-  "W883": {
-    "pos": "Noun"
-  },
-  "W884": {
-    "pos": "Noun"
-  },
-  "W885": {
-    "pos": "Verb",
-    "match": "costar"
-  },
-  "W886": {
-    "pos": "Verb",
-    "match": "costar"
-  },
-  "W887": {
-    "pos": "Noun",
-    "match": "peso (unit of currency)",
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W888": {
-    "pos": "Noun",
-    "lemma_match": "peso (unit of currency)",
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W889": {
-    "pos": "Noun"
-  },
-  "W890": {
-    "pos": "Adjective",
-    "match": "expensive",
-    "exact": true,
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W891": {
-    "pos": "Adjective"
-  },
-  "W892": {
-    "pos": "Verb"
-  },
-  "W893": {
-    "pos": "Noun"
-  },
-  "W894": {
-    "pos": "Noun"
-  },
-  "W895": {
-    "pos": "Noun"
-  },
-  "W896": {
-    "pos": "Noun"
-  },
-  "W897": {
-    "pos": "Noun",
-    "match": "box"
-  },
-  "W898": {
-    "pos": "Noun",
-    "match": "glass"
-  },
-  "W899": {
-    "pos": "Noun",
-    "match": "bag"
-  },
-  "W902": {
-    "pos": "Adjective"
-  },
-  "W904": {
-    "pos": "Noun"
-  },
-  "W1101": {
-    "pos": "Noun"
-  },
-  "W1102": {
-    "pos": "Noun"
-  },
-  "W1103": {
-    "pos": "Noun"
-  },
-  "W1104": {
-    "pos": "Noun"
-  },
-  "W1105": {
-    "pos": "Noun"
-  },
-  "W1106": {
-    "pos": "Noun"
-  },
-  "W1107": {
-    "pos": "Noun"
-  },
-  "W1108": {
-    "pos": "Noun"
-  },
-  "W1109": {
-    "pos": "Noun"
-  },
-  "W1110": {
-    "pos": "Noun"
-  },
-  "W1111": {
-    "pos": "Verb",
-    "match": "llevar",
-    "lemma_match": "to wear",
-    "lemma_exact": true,
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W1112": {
-    "pos": "Verb",
-    "match": "llevar",
-    "lemma_match": "to wear",
-    "lemma_exact": true,
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W1113": {
-    "pos": "Verb",
-    "match": "llevar",
-    "lemma_match": "to wear",
-    "lemma_exact": true,
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W1114": {
-    "pos": "Noun",
-    "match": "class (group of students)",
-    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
-  },
-  "W1115": {
-    "pos": "Noun"
-  },
-  "W1116": {
-    "pos": "Noun"
-  },
-  "W1117": {
-    "pos": "Noun",
-    "match": "paper"
-  },
-  "W1118": {
-    "pos": "Noun"
-  },
-  "W1119": {
-    "pos": "Noun"
-  },
-  "W1120": {
-    "pos": "Noun"
-  },
-  "W1121": {
-    "pos": "Noun"
-  },
-  "W1122": {
-    "pos": "Noun"
-  },
-  "W1123": {
-    "pos": "Noun"
-  },
-  "W1124": {
-    "pos": "Verb"
-  },
-  "W1125": {
-    "pos": "Verb",
-    "match": "estudiar"
-  },
-  "W1126": {
-    "pos": "Verb"
-  },
-  "W1127": {
-    "pos": "Adjective"
-  },
-  "W1128": {
-    "pos": "Adjective"
-  },
-  "W1129": {
-    "pos": "Adjective"
-  },
-  "W1130": {
-    "pos": "Adjective"
-  },
-  "W1131": {
-    "pos": "Adjective"
-  },
-  "W1132": {
-    "pos": "Adjective"
-  },
-  "W1133": {
-    "pos": "Adjective"
-  },
-  "W1134": {
-    "pos": "Adjective"
-  },
-  "W1135": {
-    "pos": "Noun"
-  },
-  "W1136": {
-    "pos": "Adjective"
-  },
-  "W1137": {
-    "pos": "Adjective"
-  },
-  "W1138": {
-    "pos": "Adjective"
-  },
-  "W1139": {
-    "pos": "Adjective"
-  },
-  "W1140": {
-    "pos": "Adjective"
-  },
-  "W1141": {
-    "pos": "Adjective"
-  },
-  "W1142": {
-    "pos": "Adjective"
-  },
-  "W1143": {
-    "pos": "Adjective"
-  },
-  "W1144": {
-    "pos": "Adjective"
-  },
-  "W1145": {
-    "pos": "Adjective"
-  },
-  "W1146": {
-    "pos": "Adjective"
-  },
-  "W1147": {
-    "pos": "Adjective"
-  },
-  "W1148": {
-    "pos": "Adjective"
-  },
-  "W1149": {
-    "pos": "Adjective"
-  },
-  "W1150": {
-    "pos": "Noun"
-  },
-  "W1151": {
-    "pos": "Noun"
-  },
-  "W1152": {
-    "pos": "Noun"
-  },
-  "W1153": {
-    "pos": "Noun"
-  },
-  "W1154": {
-    "pos": "Noun"
-  },
-  "W1155": {
-    "pos": "Noun",
-    "match": "sun"
-  },
-  "W1156": {
-    "pos": "Noun"
-  },
-  "W1157": {
-    "pos": "Noun"
-  },
-  "W1158": {
-    "pos": "Noun",
-    "match": "sky"
-  },
-  "W816": {
-    "pos": "Numeral"
-  },
-  "W817": {
-    "pos": "Numeral"
-  },
-  "W818": {
-    "pos": "Numeral"
-  },
-  "W819": {
-    "pos": "Numeral"
-  },
-  "W820": {
-    "pos": "Numeral"
-  },
-  "W821": {
-    "pos": "Numeral"
-  },
-  "W822": {
-    "pos": "Numeral"
-  },
-  "W823": {
-    "pos": "Numeral"
-  },
-  "W824": {
-    "pos": "Numeral"
-  },
-  "W825": {
-    "pos": "Numeral"
-  },
-  "W826": {
-    "pos": "Numeral"
-  },
-  "W827": {
-    "pos": "Numeral"
-  },
-  "W839": {
-    "pos": "Numeral"
-  },
-  "W840": {
-    "pos": "Numeral"
-  },
-  "W841": {
-    "pos": "Numeral"
-  },
-  "W842": {
-    "pos": "Numeral"
-  },
-  "W843": {
-    "pos": "Numeral"
-  },
-  "W844": {
-    "pos": "Numeral"
-  },
-  "W845": {
-    "pos": "Numeral"
-  },
-  "W846": {
-    "pos": "Numeral"
-  },
-  "W861": {
-    "pos": "Noun",
-    "match": "French"
-  },
-  "W862": {
-    "pos": "Noun",
-    "match": "German"
-  },
-  "W868": {
-    "pos": "Noun",
-    "match": "foreigner"
-  },
-  "W880": {
-    "pos": "Interjection"
-  },
-  "W900": {
-    "pos": "Adverb"
-  },
-  "W901": {
-    "pos": "Adverb"
-  },
-  "W903": {
-    "pos": "Adverb"
-  },
-  "W905": {
-    "pos": "Adverb"
-  }
+ "_about": "Which Wiktionary entry each Spanish word uses: part of speech, plus text the definition must contain.",
+ "W001": {
+  "pos": "Interjection"
+ },
+ "W002": {
+  "pos": "Interjection"
+ },
+ "W003": {
+  "pos": "Particle"
+ },
+ "W004": {
+  "pos": "Adverb"
+ },
+ "W005": {
+  "pos": "Pronoun"
+ },
+ "W006": {
+  "pos": "Pronoun"
+ },
+ "W007": {
+  "pos": "Verb"
+ },
+ "W008": {
+  "pos": "Verb"
+ },
+ "W009": {
+  "pos": "Article"
+ },
+ "W010": {
+  "pos": "Article"
+ },
+ "W011": {
+  "pos": "Noun"
+ },
+ "W012": {
+  "pos": "Noun"
+ },
+ "W013": {
+  "pos": "Noun"
+ },
+ "W014": {
+  "pos": "Noun"
+ },
+ "W015": {
+  "pos": "Conjunction"
+ },
+ "W016": {
+  "pos": "Article",
+  "match": "masculine"
+ },
+ "W017": {
+  "pos": "Article"
+ },
+ "W018": {
+  "pos": "Pronoun"
+ },
+ "W019": {
+  "pos": "Pronoun"
+ },
+ "W020": {
+  "pos": "Verb"
+ },
+ "W021": {
+  "pos": "Adverb"
+ },
+ "W022": {
+  "pos": "Noun"
+ },
+ "W023": {
+  "pos": "Noun"
+ },
+ "W024": {
+  "pos": "Noun"
+ },
+ "W025": {
+  "pos": "Noun"
+ },
+ "W026": {
+  "pos": "Adjective"
+ },
+ "W027": {
+  "pos": "Adjective"
+ },
+ "W028": {
+  "pos": "Adjective"
+ },
+ "W029": {
+  "pos": "Interjection"
+ },
+ "W030": {
+  "pos": "Interjection"
+ },
+ "W031": {
+  "pos": "Interjection"
+ },
+ "W032": {
+  "pos": "Interjection"
+ },
+ "W033": {
+  "pos": "Interjection"
+ },
+ "W034": {
+  "pos": "Interjection"
+ },
+ "W035": {
+  "pos": "Interjection"
+ },
+ "W036": {
+  "pos": "Pronoun"
+ },
+ "W037": {
+  "pos": "Adverb"
+ },
+ "W038": {
+  "pos": "Verb"
+ },
+ "W039": {
+  "pos": "Verb"
+ },
+ "W040": {
+  "pos": "Verb"
+ },
+ "W041": {
+  "pos": "Adverb"
+ },
+ "W042": {
+  "pos": "Adverb"
+ },
+ "W043": {
+  "pos": "Verb",
+  "match": "comer"
+ },
+ "W044": {
+  "pos": "Verb"
+ },
+ "W045": {
+  "pos": "Verb"
+ },
+ "W046": {
+  "pos": "Verb",
+  "match": "beber"
+ },
+ "W047": {
+  "pos": "Verb",
+  "match": "beber"
+ },
+ "W048": {
+  "pos": "Verb",
+  "match": "beber"
+ },
+ "W049": {
+  "pos": "Pronoun"
+ },
+ "W050": {
+  "pos": "Pronoun"
+ },
+ "W051": {
+  "pos": "Verb"
+ },
+ "W052": {
+  "pos": "Noun"
+ },
+ "W053": {
+  "pos": "Noun"
+ },
+ "W054": {
+  "pos": "Noun"
+ },
+ "W055": {
+  "pos": "Noun"
+ },
+ "W056": {
+  "pos": "Noun"
+ },
+ "W057": {
+  "pos": "Noun",
+  "match": "orange (fruit)"
+ },
+ "W058": {
+  "pos": "Noun"
+ },
+ "W059": {
+  "pos": "Verb"
+ },
+ "W060": {
+  "pos": "Verb"
+ },
+ "W061": {
+  "pos": "Verb"
+ },
+ "W062": {
+  "pos": "Noun"
+ },
+ "W063": {
+  "pos": "Noun"
+ },
+ "W064": {
+  "pos": "Noun"
+ },
+ "W065": {
+  "pos": "Noun"
+ },
+ "W066": {
+  "pos": "Noun"
+ },
+ "W067": {
+  "pos": "Noun"
+ },
+ "W068": {
+  "pos": "Noun"
+ },
+ "W069": {
+  "pos": "Noun"
+ },
+ "W070": {
+  "pos": "Article"
+ },
+ "W071": {
+  "pos": "Article"
+ },
+ "W072": {
+  "pos": "Article"
+ },
+ "W073": {
+  "pos": "Article"
+ },
+ "W074": {
+  "pos": "Pronoun"
+ },
+ "W075": {
+  "pos": "Pronoun"
+ },
+ "W076": {
+  "pos": "Pronoun"
+ },
+ "W077": {
+  "pos": "Pronoun"
+ },
+ "W078": {
+  "pos": "Verb"
+ },
+ "W079": {
+  "pos": "Verb",
+  "match": "ser"
+ },
+ "W080": {
+  "pos": "Noun"
+ },
+ "W081": {
+  "pos": "Noun"
+ },
+ "W082": {
+  "pos": "Noun"
+ },
+ "W083": {
+  "pos": "Noun"
+ },
+ "W084": {
+  "pos": "Noun"
+ },
+ "W085": {
+  "pos": "Noun"
+ },
+ "W086": {
+  "pos": "Noun"
+ },
+ "W087": {
+  "pos": "Adjective"
+ },
+ "W088": {
+  "pos": "Adjective"
+ },
+ "W089": {
+  "pos": "Adjective"
+ },
+ "W090": {
+  "pos": "Adjective"
+ },
+ "W091": {
+  "pos": "Adjective"
+ },
+ "W092": {
+  "pos": "Adjective"
+ },
+ "W093": {
+  "pos": "Adjective"
+ },
+ "W094": {
+  "pos": "Adjective"
+ },
+ "W095": {
+  "pos": "Adjective"
+ },
+ "W096": {
+  "pos": "Adverb"
+ },
+ "W097": {
+  "pos": "Adverb"
+ },
+ "W098": {
+  "pos": "Verb"
+ },
+ "W099": {
+  "pos": "Verb"
+ },
+ "W100": {
+  "pos": "Verb"
+ },
+ "W101": {
+  "pos": "Adverb"
+ },
+ "W102": {
+  "pos": "Preposition"
+ },
+ "W103": {
+  "pos": "Noun"
+ },
+ "W104": {
+  "pos": "Noun"
+ },
+ "W105": {
+  "pos": "Noun"
+ },
+ "W106": {
+  "pos": "Noun",
+  "match": "bathroom"
+ },
+ "W107": {
+  "pos": "Adjective"
+ },
+ "W108": {
+  "pos": "Adjective"
+ },
+ "W109": {
+  "pos": "Adjective",
+  "match": "happy"
+ },
+ "W110": {
+  "pos": "Adjective"
+ },
+ "W111": {
+  "pos": "Adjective"
+ },
+ "W112": {
+  "pos": "Adjective"
+ },
+ "W113": {
+  "pos": "Noun",
+  "match": "teacher"
+ },
+ "W114": {
+  "pos": "Noun"
+ },
+ "W115": {
+  "pos": "Noun"
+ },
+ "W116": {
+  "pos": "Noun"
+ },
+ "W117": {
+  "pos": "Determiner"
+ },
+ "W118": {
+  "pos": "Determiner"
+ },
+ "W119": {
+  "pos": "Determiner"
+ },
+ "W120": {
+  "pos": "Determiner"
+ },
+ "W121": {
+  "pos": "Determiner"
+ },
+ "W122": {
+  "pos": "Determiner"
+ },
+ "W123": {
+  "pos": "Preposition"
+ },
+ "W124": {
+  "pos": "Noun"
+ },
+ "W125": {
+  "pos": "Noun"
+ },
+ "W126": {
+  "pos": "Noun"
+ },
+ "W127": {
+  "pos": "Pronoun"
+ },
+ "W128": {
+  "pos": "Pronoun"
+ },
+ "W129": {
+  "pos": "Adverb"
+ },
+ "W130": {
+  "pos": "Pronoun"
+ },
+ "W131": {
+  "pos": "Adverb"
+ },
+ "W132": {
+  "pos": "Conjunction"
+ },
+ "W133": {
+  "pos": "Numeral"
+ },
+ "W134": {
+  "pos": "Numeral"
+ },
+ "W135": {
+  "pos": "Numeral"
+ },
+ "W136": {
+  "pos": "Numeral"
+ },
+ "W137": {
+  "pos": "Numeral"
+ },
+ "W138": {
+  "pos": "Numeral"
+ },
+ "W139": {
+  "pos": "Numeral"
+ },
+ "W140": {
+  "pos": "Numeral"
+ },
+ "W141": {
+  "pos": "Numeral"
+ },
+ "W142": {
+  "pos": "Determiner"
+ },
+ "W143": {
+  "pos": "Determiner"
+ },
+ "W144": {
+  "pos": "Adjective"
+ },
+ "W145": {
+  "pos": "Adjective"
+ },
+ "W146": {
+  "pos": "Adjective"
+ },
+ "W147": {
+  "pos": "Adjective"
+ },
+ "W148": {
+  "pos": "Adjective"
+ },
+ "W149": {
+  "pos": "Adjective"
+ },
+ "W150": {
+  "pos": "Adjective"
+ },
+ "W151": {
+  "pos": "Adjective"
+ },
+ "W152": {
+  "pos": "Adjective"
+ },
+ "W153": {
+  "pos": "Adjective"
+ },
+ "W154": {
+  "pos": "Noun"
+ },
+ "W155": {
+  "pos": "Adverb"
+ },
+ "W156": {
+  "pos": "Adverb"
+ },
+ "W157": {
+  "pos": "Adverb"
+ },
+ "W158": {
+  "pos": "Noun"
+ },
+ "W159": {
+  "pos": "Noun"
+ },
+ "W160": {
+  "pos": "Noun"
+ },
+ "W161": {
+  "pos": "Noun"
+ },
+ "W162": {
+  "pos": "Noun"
+ },
+ "W163": {
+  "pos": "Noun"
+ },
+ "W164": {
+  "pos": "Verb"
+ },
+ "W165": {
+  "pos": "Verb"
+ },
+ "W166": {
+  "pos": "Verb"
+ },
+ "W167": {
+  "pos": "Preposition"
+ },
+ "W168": {
+  "pos": "Contraction"
+ },
+ "W169": {
+  "pos": "Noun"
+ },
+ "W170": {
+  "pos": "Noun"
+ },
+ "W171": {
+  "pos": "Noun",
+  "match": "shop"
+ },
+ "W172": {
+  "pos": "Noun"
+ },
+ "W173": {
+  "pos": "Noun"
+ },
+ "W174": {
+  "pos": "Verb",
+  "lemma_match": "to be called",
+  "lemma_exact": true,
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W175": {
+  "pos": "Verb",
+  "match": "llamar",
+  "lemma_match": "to be called",
+  "lemma_exact": true,
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W176": {
+  "pos": "Noun",
+  "match": "boy"
+ },
+ "W177": {
+  "pos": "Noun"
+ },
+ "W178": {
+  "pos": "Noun"
+ },
+ "W179": {
+  "pos": "Noun"
+ },
+ "W180": {
+  "pos": "Pronoun"
+ },
+ "W181": {
+  "pos": "Pronoun"
+ },
+ "W182": {
+  "pos": "Determiner"
+ },
+ "W183": {
+  "pos": "Determiner"
+ },
+ "W184": {
+  "pos": "Noun"
+ },
+ "W185": {
+  "pos": "Adjective"
+ },
+ "W186": {
+  "pos": "Adjective"
+ },
+ "W187": {
+  "pos": "Adjective"
+ },
+ "W188": {
+  "pos": "Verb"
+ },
+ "W189": {
+  "pos": "Verb"
+ },
+ "W190": {
+  "pos": "Verb"
+ },
+ "W191": {
+  "pos": "Noun"
+ },
+ "W192": {
+  "pos": "Noun"
+ },
+ "W193": {
+  "pos": "Noun"
+ },
+ "W194": {
+  "pos": "Noun"
+ },
+ "W195": {
+  "pos": "Noun"
+ },
+ "W501": {
+  "pos": "Noun"
+ },
+ "W502": {
+  "pos": "Noun"
+ },
+ "W503": {
+  "pos": "Noun"
+ },
+ "W504": {
+  "pos": "Adjective"
+ },
+ "W505": {
+  "pos": "Noun"
+ },
+ "W506": {
+  "pos": "Verb",
+  "match": "hacer"
+ },
+ "W507": {
+  "pos": "Verb"
+ },
+ "W508": {
+  "pos": "Verb"
+ },
+ "W509": {
+  "pos": "Noun",
+  "match": "weather"
+ },
+ "W510": {
+  "pos": "Noun"
+ },
+ "W511": {
+  "pos": "Noun"
+ },
+ "W512": {
+  "pos": "Noun"
+ },
+ "W513": {
+  "pos": "Noun"
+ },
+ "W514": {
+  "pos": "Noun"
+ },
+ "W515": {
+  "pos": "Noun"
+ },
+ "W516": {
+  "pos": "Noun"
+ },
+ "W517": {
+  "pos": "Noun"
+ },
+ "W518": {
+  "pos": "Noun"
+ },
+ "W519": {
+  "pos": "Noun"
+ },
+ "W520": {
+  "pos": "Noun"
+ },
+ "W521": {
+  "pos": "Noun"
+ },
+ "W522": {
+  "pos": "Verb"
+ },
+ "W523": {
+  "pos": "Verb"
+ },
+ "W524": {
+  "pos": "Noun"
+ },
+ "W525": {
+  "pos": "Noun"
+ },
+ "W526": {
+  "pos": "Noun"
+ },
+ "W527": {
+  "pos": "Noun"
+ },
+ "W528": {
+  "pos": "Adjective",
+  "match": "busy",
+  "exact": true,
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W529": {
+  "pos": "Adjective",
+  "match": "feminine singular of ocupado",
+  "lemma_match": "busy",
+  "lemma_exact": true,
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W530": {
+  "pos": "Noun"
+ },
+ "W531": {
+  "pos": "Noun"
+ },
+ "W532": {
+  "pos": "Noun"
+ },
+ "W533": {
+  "pos": "Noun"
+ },
+ "W534": {
+  "pos": "Noun"
+ },
+ "W535": {
+  "pos": "Noun"
+ },
+ "W536": {
+  "pos": "Noun"
+ },
+ "W537": {
+  "pos": "Noun"
+ },
+ "W538": {
+  "pos": "Verb",
+  "match": "doler"
+ },
+ "W539": {
+  "pos": "Noun"
+ },
+ "W540": {
+  "pos": "Noun"
+ },
+ "W541": {
+  "pos": "Noun"
+ },
+ "W542": {
+  "pos": "Noun"
+ },
+ "W543": {
+  "pos": "Noun"
+ },
+ "W544": {
+  "pos": "Noun"
+ },
+ "W545": {
+  "pos": "Verb"
+ },
+ "W546": {
+  "pos": "Noun"
+ },
+ "W547": {
+  "pos": "Noun",
+  "match": "story"
+ },
+ "W548": {
+  "pos": "Adjective"
+ },
+ "W549": {
+  "pos": "Adjective"
+ },
+ "W550": {
+  "pos": "Noun"
+ },
+ "W551": {
+  "pos": "Noun"
+ },
+ "W552": {
+  "pos": "Noun"
+ },
+ "W553": {
+  "pos": "Noun"
+ },
+ "W554": {
+  "pos": "Noun"
+ },
+ "W555": {
+  "pos": "Noun"
+ },
+ "W556": {
+  "pos": "Noun"
+ },
+ "W557": {
+  "pos": "Noun"
+ },
+ "W558": {
+  "pos": "Noun"
+ },
+ "W559": {
+  "pos": "Noun"
+ },
+ "W560": {
+  "pos": "Verb"
+ },
+ "W561": {
+  "pos": "Noun"
+ },
+ "W562": {
+  "pos": "Noun"
+ },
+ "W563": {
+  "pos": "Noun"
+ },
+ "W564": {
+  "pos": "Noun"
+ },
+ "W565": {
+  "pos": "Noun"
+ },
+ "W566": {
+  "pos": "Noun"
+ },
+ "W567": {
+  "pos": "Noun"
+ },
+ "W568": {
+  "pos": "Noun"
+ },
+ "W569": {
+  "pos": "Noun"
+ },
+ "W570": {
+  "pos": "Noun"
+ },
+ "W571": {
+  "pos": "Noun"
+ },
+ "W572": {
+  "pos": "Noun"
+ },
+ "W573": {
+  "pos": "Noun"
+ },
+ "W574": {
+  "pos": "Noun"
+ },
+ "W575": {
+  "pos": "Noun"
+ },
+ "W576": {
+  "pos": "Noun"
+ },
+ "W577": {
+  "pos": "Noun"
+ },
+ "W578": {
+  "pos": "Noun"
+ },
+ "W579": {
+  "pos": "Noun"
+ },
+ "W580": {
+  "pos": "Noun"
+ },
+ "W581": {
+  "pos": "Noun"
+ },
+ "W582": {
+  "pos": "Noun"
+ },
+ "W583": {
+  "pos": "Noun"
+ },
+ "W584": {
+  "pos": "Noun"
+ },
+ "W585": {
+  "pos": "Noun"
+ },
+ "W586": {
+  "pos": "Noun"
+ },
+ "W587": {
+  "pos": "Noun"
+ },
+ "W588": {
+  "pos": "Noun"
+ },
+ "W589": {
+  "pos": "Noun"
+ },
+ "W590": {
+  "pos": "Adjective"
+ },
+ "W591": {
+  "pos": "Noun"
+ },
+ "W592": {
+  "pos": "Noun"
+ },
+ "W593": {
+  "pos": "Noun"
+ },
+ "W594": {
+  "pos": "Noun"
+ },
+ "W595": {
+  "pos": "Noun"
+ },
+ "W596": {
+  "pos": "Noun"
+ },
+ "W597": {
+  "pos": "Noun"
+ },
+ "W598": {
+  "pos": "Noun"
+ },
+ "W599": {
+  "pos": "Noun"
+ },
+ "W600": {
+  "pos": "Noun"
+ },
+ "W601": {
+  "pos": "Noun"
+ },
+ "W602": {
+  "pos": "Noun"
+ },
+ "W603": {
+  "pos": "Noun"
+ },
+ "W604": {
+  "pos": "Noun"
+ },
+ "W605": {
+  "pos": "Noun"
+ },
+ "W606": {
+  "pos": "Noun"
+ },
+ "W607": {
+  "pos": "Noun"
+ },
+ "W608": {
+  "pos": "Noun"
+ },
+ "W609": {
+  "pos": "Noun"
+ },
+ "W610": {
+  "pos": "Noun"
+ },
+ "W701": {
+  "pos": "Verb"
+ },
+ "W702": {
+  "pos": "Verb"
+ },
+ "W703": {
+  "pos": "Adverb"
+ },
+ "W704": {
+  "pos": "Adverb"
+ },
+ "W705": {
+  "pos": "Verb"
+ },
+ "W706": {
+  "pos": "Verb"
+ },
+ "W707": {
+  "pos": "Verb"
+ },
+ "W708": {
+  "pos": "Verb"
+ },
+ "W709": {
+  "pos": "Adverb",
+  "match": "again, once more",
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W710": {
+  "pos": "Pronoun"
+ },
+ "W711": {
+  "pos": "Verb"
+ },
+ "W712": {
+  "pos": "Verb",
+  "lemma_match": "to mean",
+  "lemma_exact": true,
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W713": {
+  "pos": "Verb"
+ },
+ "W714": {
+  "pos": "Verb"
+ },
+ "W715": {
+  "pos": "Noun"
+ },
+ "W716": {
+  "pos": "Noun",
+  "match": "Spanish"
+ },
+ "W717": {
+  "pos": "Noun",
+  "match": "English"
+ },
+ "W718": {
+  "pos": "Verb"
+ },
+ "W719": {
+  "pos": "Verb"
+ },
+ "W720": {
+  "pos": "Noun"
+ },
+ "W721": {
+  "pos": "Preposition"
+ },
+ "W722": {
+  "pos": "Verb"
+ },
+ "W723": {
+  "pos": "Verb",
+  "lemma_match": "to be of use, to be good for",
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W1001": {
+  "pos": "Noun"
+ },
+ "W1002": {
+  "pos": "Noun"
+ },
+ "W1003": {
+  "pos": "Noun"
+ },
+ "W1004": {
+  "pos": "Noun"
+ },
+ "W1005": {
+  "pos": "Noun",
+  "match": "foot"
+ },
+ "W1006": {
+  "pos": "Noun"
+ },
+ "W1007": {
+  "pos": "Noun"
+ },
+ "W1008": {
+  "pos": "Adjective"
+ },
+ "W1009": {
+  "pos": "Adjective"
+ },
+ "W1010": {
+  "pos": "Adjective"
+ },
+ "W1011": {
+  "pos": "Adjective"
+ },
+ "W1012": {
+  "pos": "Adjective"
+ },
+ "W1013": {
+  "pos": "Adjective"
+ },
+ "W1014": {
+  "pos": "Adjective"
+ },
+ "W1015": {
+  "pos": "Noun"
+ },
+ "W1016": {
+  "pos": "Noun"
+ },
+ "W1017": {
+  "pos": "Noun"
+ },
+ "W1018": {
+  "pos": "Noun"
+ },
+ "W1019": {
+  "pos": "Noun"
+ },
+ "W1020": {
+  "pos": "Verb"
+ },
+ "W1021": {
+  "pos": "Verb"
+ },
+ "W1022": {
+  "pos": "Verb"
+ },
+ "W1023": {
+  "pos": "Verb"
+ },
+ "W1024": {
+  "pos": "Verb"
+ },
+ "W1025": {
+  "pos": "Verb",
+  "match": "leer"
+ },
+ "W1026": {
+  "pos": "Verb"
+ },
+ "W1027": {
+  "pos": "Verb"
+ },
+ "W1028": {
+  "pos": "Verb"
+ },
+ "W1029": {
+  "pos": "Noun"
+ },
+ "W1030": {
+  "pos": "Noun"
+ },
+ "W1031": {
+  "pos": "Noun"
+ },
+ "W1032": {
+  "pos": "Noun"
+ },
+ "W1033": {
+  "pos": "Noun"
+ },
+ "W1034": {
+  "pos": "Noun"
+ },
+ "W1035": {
+  "pos": "Noun"
+ },
+ "W1036": {
+  "pos": "Noun"
+ },
+ "W1037": {
+  "pos": "Noun"
+ },
+ "W1038": {
+  "pos": "Noun"
+ },
+ "W1039": {
+  "pos": "Noun"
+ },
+ "W1040": {
+  "pos": "Noun"
+ },
+ "W1041": {
+  "pos": "Noun"
+ },
+ "W1042": {
+  "pos": "Noun"
+ },
+ "W1043": {
+  "pos": "Preposition"
+ },
+ "W1044": {
+  "pos": "Noun"
+ },
+ "W801": {
+  "pos": "Noun"
+ },
+ "W802": {
+  "pos": "Noun"
+ },
+ "W803": {
+  "pos": "Verb",
+  "match": "llamar"
+ },
+ "W804": {
+  "pos": "Adjective",
+  "match": "pleased, delighted",
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W805": {
+  "pos": "Adjective",
+  "lemma_match": "pleased, delighted",
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W806": {
+  "pos": "Noun"
+ },
+ "W807": {
+  "pos": "Verb",
+  "match": "escribir"
+ },
+ "W808": {
+  "pos": "Verb"
+ },
+ "W809": {
+  "pos": "Noun",
+  "match": "letter"
+ },
+ "W810": {
+  "pos": "Verb",
+  "match": "poder"
+ },
+ "W811": {
+  "pos": "Verb",
+  "match": "poder"
+ },
+ "W812": {
+  "pos": "Verb"
+ },
+ "W813": {
+  "pos": "Noun"
+ },
+ "W814": {
+  "pos": "Noun"
+ },
+ "W815": {
+  "pos": "Verb"
+ },
+ "W828": {
+  "pos": "Noun"
+ },
+ "W829": {
+  "pos": "Noun"
+ },
+ "W830": {
+  "pos": "Noun"
+ },
+ "W831": {
+  "pos": "Noun"
+ },
+ "W832": {
+  "pos": "Noun"
+ },
+ "W833": {
+  "pos": "Noun"
+ },
+ "W834": {
+  "pos": "Adjective"
+ },
+ "W835": {
+  "pos": "Verb"
+ },
+ "W836": {
+  "pos": "Noun"
+ },
+ "W837": {
+  "pos": "Verb",
+  "match": "esperar",
+  "lemma_match": "to wait, wait (for)",
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W838": {
+  "pos": "Adjective"
+ },
+ "W847": {
+  "pos": "Verb",
+  "match": "vivir"
+ },
+ "W848": {
+  "pos": "Verb",
+  "match": "vivir"
+ },
+ "W849": {
+  "pos": "Verb",
+  "match": "vivir"
+ },
+ "W850": {
+  "pos": "Verb"
+ },
+ "W851": {
+  "pos": "Noun",
+  "match": "address"
+ },
+ "W852": {
+  "pos": "Noun",
+  "match": "floor"
+ },
+ "W853": {
+  "pos": "Noun"
+ },
+ "W854": {
+  "pos": "Noun"
+ },
+ "W855": {
+  "pos": "Adverb"
+ },
+ "W856": {
+  "pos": "Adverb"
+ },
+ "W857": {
+  "pos": "Proper noun"
+ },
+ "W858": {
+  "pos": "Proper noun"
+ },
+ "W859": {
+  "pos": "Proper noun"
+ },
+ "W860": {
+  "pos": "Proper noun"
+ },
+ "W863": {
+  "pos": "Adjective"
+ },
+ "W864": {
+  "pos": "Adjective"
+ },
+ "W865": {
+  "pos": "Noun"
+ },
+ "W866": {
+  "pos": "Verb",
+  "match": "hablar"
+ },
+ "W867": {
+  "pos": "Verb",
+  "match": "hablar"
+ },
+ "W869": {
+  "pos": "Noun"
+ },
+ "W870": {
+  "pos": "Verb"
+ },
+ "W871": {
+  "pos": "Verb",
+  "match": "comprar"
+ },
+ "W872": {
+  "pos": "Verb",
+  "match": "comprar"
+ },
+ "W873": {
+  "pos": "Verb",
+  "match": "querer"
+ },
+ "W874": {
+  "pos": "Verb",
+  "match": "querer"
+ },
+ "W875": {
+  "pos": "Noun"
+ },
+ "W876": {
+  "pos": "Noun"
+ },
+ "W877": {
+  "pos": "Noun"
+ },
+ "W878": {
+  "pos": "Noun"
+ },
+ "W879": {
+  "pos": "Noun"
+ },
+ "W881": {
+  "pos": "Verb",
+  "match": "comprender"
+ },
+ "W882": {
+  "pos": "Adjective"
+ },
+ "W883": {
+  "pos": "Noun"
+ },
+ "W884": {
+  "pos": "Noun"
+ },
+ "W885": {
+  "pos": "Verb",
+  "match": "costar"
+ },
+ "W886": {
+  "pos": "Verb",
+  "match": "costar"
+ },
+ "W887": {
+  "pos": "Noun",
+  "match": "peso (unit of currency)",
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W888": {
+  "pos": "Noun",
+  "lemma_match": "peso (unit of currency)",
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W889": {
+  "pos": "Noun"
+ },
+ "W890": {
+  "pos": "Adjective",
+  "match": "expensive",
+  "exact": true,
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W891": {
+  "pos": "Adjective"
+ },
+ "W892": {
+  "pos": "Verb"
+ },
+ "W893": {
+  "pos": "Noun"
+ },
+ "W894": {
+  "pos": "Noun"
+ },
+ "W895": {
+  "pos": "Noun"
+ },
+ "W896": {
+  "pos": "Noun"
+ },
+ "W897": {
+  "pos": "Noun",
+  "match": "box"
+ },
+ "W898": {
+  "pos": "Noun",
+  "match": "glass"
+ },
+ "W899": {
+  "pos": "Noun",
+  "match": "bag"
+ },
+ "W902": {
+  "pos": "Adjective"
+ },
+ "W904": {
+  "pos": "Noun"
+ },
+ "W1101": {
+  "pos": "Noun"
+ },
+ "W1102": {
+  "pos": "Noun"
+ },
+ "W1103": {
+  "pos": "Noun"
+ },
+ "W1104": {
+  "pos": "Noun"
+ },
+ "W1105": {
+  "pos": "Noun"
+ },
+ "W1106": {
+  "pos": "Noun"
+ },
+ "W1107": {
+  "pos": "Noun"
+ },
+ "W1108": {
+  "pos": "Noun"
+ },
+ "W1109": {
+  "pos": "Noun"
+ },
+ "W1110": {
+  "pos": "Noun"
+ },
+ "W1111": {
+  "pos": "Verb",
+  "match": "llevar",
+  "lemma_match": "to wear",
+  "lemma_exact": true,
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W1112": {
+  "pos": "Verb",
+  "match": "llevar",
+  "lemma_match": "to wear",
+  "lemma_exact": true,
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W1113": {
+  "pos": "Verb",
+  "match": "llevar",
+  "lemma_match": "to wear",
+  "lemma_exact": true,
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W1114": {
+  "pos": "Noun",
+  "match": "class (group of students)",
+  "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+ },
+ "W1115": {
+  "pos": "Noun"
+ },
+ "W1116": {
+  "pos": "Noun"
+ },
+ "W1117": {
+  "pos": "Noun",
+  "match": "paper"
+ },
+ "W1118": {
+  "pos": "Noun"
+ },
+ "W1119": {
+  "pos": "Noun"
+ },
+ "W1120": {
+  "pos": "Noun"
+ },
+ "W1121": {
+  "pos": "Noun"
+ },
+ "W1122": {
+  "pos": "Noun"
+ },
+ "W1123": {
+  "pos": "Noun"
+ },
+ "W1124": {
+  "pos": "Verb"
+ },
+ "W1125": {
+  "pos": "Verb",
+  "match": "estudiar"
+ },
+ "W1126": {
+  "pos": "Verb"
+ },
+ "W1127": {
+  "pos": "Adjective"
+ },
+ "W1128": {
+  "pos": "Adjective"
+ },
+ "W1129": {
+  "pos": "Adjective"
+ },
+ "W1130": {
+  "pos": "Adjective"
+ },
+ "W1131": {
+  "pos": "Adjective"
+ },
+ "W1132": {
+  "pos": "Adjective"
+ },
+ "W1133": {
+  "pos": "Adjective"
+ },
+ "W1134": {
+  "pos": "Adjective"
+ },
+ "W1135": {
+  "pos": "Noun"
+ },
+ "W1136": {
+  "pos": "Adjective"
+ },
+ "W1137": {
+  "pos": "Adjective"
+ },
+ "W1138": {
+  "pos": "Adjective"
+ },
+ "W1139": {
+  "pos": "Adjective"
+ },
+ "W1140": {
+  "pos": "Adjective"
+ },
+ "W1141": {
+  "pos": "Adjective"
+ },
+ "W1142": {
+  "pos": "Adjective"
+ },
+ "W1143": {
+  "pos": "Adjective"
+ },
+ "W1144": {
+  "pos": "Adjective"
+ },
+ "W1145": {
+  "pos": "Adjective"
+ },
+ "W1146": {
+  "pos": "Adjective"
+ },
+ "W1147": {
+  "pos": "Adjective"
+ },
+ "W1148": {
+  "pos": "Adjective"
+ },
+ "W1149": {
+  "pos": "Adjective"
+ },
+ "W1150": {
+  "pos": "Noun"
+ },
+ "W1151": {
+  "pos": "Noun"
+ },
+ "W1152": {
+  "pos": "Noun"
+ },
+ "W1153": {
+  "pos": "Noun"
+ },
+ "W1154": {
+  "pos": "Noun"
+ },
+ "W1155": {
+  "pos": "Noun",
+  "match": "sun"
+ },
+ "W1156": {
+  "pos": "Noun"
+ },
+ "W1157": {
+  "pos": "Noun"
+ },
+ "W1158": {
+  "pos": "Noun",
+  "match": "sky"
+ },
+ "W816": {
+  "pos": "Numeral"
+ },
+ "W817": {
+  "pos": "Numeral"
+ },
+ "W818": {
+  "pos": "Numeral"
+ },
+ "W819": {
+  "pos": "Numeral"
+ },
+ "W820": {
+  "pos": "Numeral"
+ },
+ "W821": {
+  "pos": "Numeral"
+ },
+ "W822": {
+  "pos": "Numeral"
+ },
+ "W823": {
+  "pos": "Numeral"
+ },
+ "W824": {
+  "pos": "Numeral"
+ },
+ "W825": {
+  "pos": "Numeral"
+ },
+ "W826": {
+  "pos": "Numeral"
+ },
+ "W827": {
+  "pos": "Numeral"
+ },
+ "W839": {
+  "pos": "Numeral"
+ },
+ "W840": {
+  "pos": "Numeral"
+ },
+ "W841": {
+  "pos": "Numeral"
+ },
+ "W842": {
+  "pos": "Numeral"
+ },
+ "W843": {
+  "pos": "Numeral"
+ },
+ "W844": {
+  "pos": "Numeral"
+ },
+ "W845": {
+  "pos": "Numeral"
+ },
+ "W846": {
+  "pos": "Numeral"
+ },
+ "W861": {
+  "pos": "Noun",
+  "match": "French"
+ },
+ "W862": {
+  "pos": "Noun",
+  "match": "German"
+ },
+ "W868": {
+  "pos": "Noun",
+  "match": "foreigner"
+ },
+ "W880": {
+  "pos": "Interjection"
+ },
+ "W900": {
+  "pos": "Adverb"
+ },
+ "W901": {
+  "pos": "Adverb"
+ },
+ "W903": {
+  "pos": "Adverb"
+ },
+ "W905": {
+  "pos": "Adverb"
+ },
+ "W1201": {
+  "pos": "Noun"
+ },
+ "W1202": {
+  "pos": "Noun"
+ },
+ "W1203": {
+  "pos": "Noun"
+ },
+ "W1204": {
+  "pos": "Noun",
+  "match": "half (one of two"
+ },
+ "W1205": {
+  "pos": "Noun",
+  "match": "quarter-hour"
+ },
+ "W1206": {
+  "pos": "Adverb"
+ },
+ "W1207": {
+  "pos": "Noun"
+ },
+ "W1208": {
+  "pos": "Noun"
+ },
+ "W1209": {
+  "pos": "Noun",
+  "match": "afternoon"
+ },
+ "W1210": {
+  "pos": "Noun"
+ },
+ "W1211": {
+  "pos": "Adjective"
+ },
+ "W1212": {
+  "pos": "Adverb"
+ },
+ "W1213": {
+  "pos": "Verb"
+ },
+ "W1214": {
+  "pos": "Verb",
+  "match": "sentir"
+ },
+ "W1215": {
+  "pos": "Pronoun"
+ },
+ "W1216": {
+  "pos": "Verb"
+ },
+ "W1217": {
+  "pos": "Verb"
+ },
+ "W1218": {
+  "pos": "Noun"
+ },
+ "W1219": {
+  "pos": "Noun"
+ },
+ "W1220": {
+  "pos": "Noun"
+ },
+ "W1221": {
+  "pos": "Noun"
+ },
+ "W1222": {
+  "pos": "Noun"
+ },
+ "W1223": {
+  "pos": "Adverb"
+ },
+ "W1224": {
+  "pos": "Noun"
+ },
+ "W1225": {
+  "pos": "Determiner"
+ },
+ "W1226": {
+  "pos": "Determiner"
+ },
+ "W1227": {
+  "pos": "Adverb"
+ },
+ "W1228": {
+  "pos": "Adverb"
+ },
+ "W1229": {
+  "pos": "Adverb"
+ },
+ "W1230": {
+  "pos": "Noun",
+  "match": "plural of vez"
+ },
+ "W1231": {
+  "pos": "Adjective",
+  "match": "next",
+  "exact": true
+ },
+ "W1232": {
+  "pos": "Adjective",
+  "lemma_match": "next",
+  "lemma_exact": true
+ },
+ "W1233": {
+  "pos": "Adjective",
+  "match": "last",
+  "exact": true
+ },
+ "W1234": {
+  "pos": "Adjective",
+  "lemma_match": "last",
+  "lemma_exact": true
+ },
+ "W1235": {
+  "pos": "Noun"
+ },
+ "W1236": {
+  "pos": "Noun"
+ },
+ "W1237": {
+  "pos": "Noun"
+ },
+ "W1238": {
+  "pos": "Noun"
+ },
+ "W1239": {
+  "pos": "Noun"
+ },
+ "W1240": {
+  "pos": "Noun"
+ },
+ "W1241": {
+  "pos": "Noun"
+ },
+ "W1242": {
+  "pos": "Noun"
+ },
+ "W1243": {
+  "pos": "Noun"
+ },
+ "W1244": {
+  "pos": "Noun"
+ },
+ "W1245": {
+  "pos": "Noun"
+ },
+ "W1246": {
+  "pos": "Noun"
+ },
+ "W1247": {
+  "pos": "Noun"
+ },
+ "W1248": {
+  "pos": "Noun"
+ },
+ "W1249": {
+  "pos": "Noun"
+ },
+ "W1250": {
+  "pos": "Noun"
+ },
+ "W1251": {
+  "pos": "Noun"
+ },
+ "W1252": {
+  "pos": "Adjective",
+  "match": "first, first up"
+ },
+ "W1253": {
+  "pos": "Verb"
+ },
+ "W1254": {
+  "pos": "Verb"
+ },
+ "W1255": {
+  "pos": "Conjunction"
+ },
+ "W1256": {
+  "pos": "Verb"
+ },
+ "W1257": {
+  "pos": "Verb"
+ },
+ "W1258": {
+  "pos": "Noun",
+  "match": "second (unit of time)"
+ },
+ "W1259": {
+  "pos": "Verb"
+ },
+ "W1260": {
+  "pos": "Verb"
+ },
+ "W1261": {
+  "pos": "Verb"
+ },
+ "W1262": {
+  "pos": "Verb",
+  "match": "venir"
+ },
+ "W1263": {
+  "pos": "Verb"
+ },
+ "W1264": {
+  "pos": "Verb"
+ },
+ "W1265": {
+  "pos": "Verb"
+ },
+ "W1266": {
+  "pos": "Verb"
+ },
+ "W1267": {
+  "pos": "Verb"
+ },
+ "W1268": {
+  "pos": "Pronoun",
+  "match": "accusative of nosotros"
+ },
+ "W1269": {
+  "pos": "Verb"
+ },
+ "W1270": {
+  "pos": "Verb"
+ },
+ "W1271": {
+  "pos": "Adjective"
+ },
+ "W1272": {
+  "pos": "Adjective"
+ },
+ "W1273": {
+  "pos": "Noun"
+ },
+ "W1274": {
+  "pos": "Noun"
+ },
+ "W1275": {
+  "pos": "Verb"
+ },
+ "W1276": {
+  "pos": "Verb"
+ },
+ "W1277": {
+  "pos": "Verb"
+ },
+ "W1278": {
+  "pos": "Verb"
+ },
+ "W1279": {
+  "pos": "Noun"
+ },
+ "W1280": {
+  "pos": "Verb",
+  "match": "to have (for) breakfast"
+ },
+ "W1281": {
+  "pos": "Verb"
+ },
+ "W1282": {
+  "pos": "Noun"
+ },
+ "W1283": {
+  "pos": "Noun"
+ },
+ "W1284": {
+  "pos": "Verb"
+ },
+ "W1285": {
+  "pos": "Verb"
+ },
+ "W1286": {
+  "pos": "Verb"
+ },
+ "W1287": {
+  "pos": "Verb"
+ },
+ "W1288": {
+  "pos": "Verb"
+ },
+ "W1289": {
+  "pos": "Verb"
+ },
+ "W1290": {
+  "pos": "Verb"
+ },
+ "W1291": {
+  "pos": "Verb"
+ },
+ "W1292": {
+  "pos": "Verb"
+ },
+ "W1293": {
+  "pos": "Adverb"
+ },
+ "W1294": {
+  "pos": "Noun"
+ },
+ "W1295": {
+  "pos": "Noun"
+ },
+ "W1296": {
+  "pos": "Verb"
+ },
+ "W1297": {
+  "pos": "Verb"
+ },
+ "W1298": {
+  "pos": "Verb"
+ },
+ "W1299": {
+  "pos": "Verb"
+ },
+ "W1300": {
+  "pos": "Adjective"
+ },
+ "W1301": {
+  "pos": "Adjective"
+ },
+ "W1302": {
+  "pos": "Noun"
+ },
+ "W1303": {
+  "pos": "Noun"
+ },
+ "W1304": {
+  "pos": "Noun"
+ },
+ "W1305": {
+  "pos": "Noun"
+ },
+ "W1306": {
+  "pos": "Noun"
+ },
+ "W1307": {
+  "pos": "Noun",
+  "match": "floor, level"
+ },
+ "W1308": {
+  "pos": "Verb"
+ },
+ "W1309": {
+  "pos": "Verb"
+ },
+ "W1310": {
+  "pos": "Verb"
+ },
+ "W1311": {
+  "pos": "Verb",
+  "match": "salir"
+ },
+ "W1312": {
+  "pos": "Noun"
+ },
+ "W1313": {
+  "pos": "Noun"
+ },
+ "W1314": {
+  "pos": "Noun",
+  "match": "return",
+  "exact": true
+ },
+ "W1315": {
+  "pos": "Noun"
+ },
+ "W1316": {
+  "pos": "Noun"
+ },
+ "W1317": {
+  "pos": "Noun"
+ },
+ "W1318": {
+  "pos": "Noun"
+ },
+ "W1319": {
+  "pos": "Noun"
+ },
+ "W1320": {
+  "pos": "Noun"
+ },
+ "W1321": {
+  "pos": "Verb"
+ },
+ "W1322": {
+  "pos": "Verb"
+ },
+ "W1323": {
+  "pos": "Verb",
+  "match": "creer"
+ },
+ "W1324": {
+  "pos": "Verb"
+ },
+ "W1325": {
+  "pos": "Adjective"
+ },
+ "W1326": {
+  "pos": "Adverb"
+ },
+ "W1327": {
+  "pos": "Adjective",
+  "match": "certain; sure"
+ },
+ "W1328": {
+  "pos": "Adjective",
+  "lemma_match": "certain; sure"
+ },
+ "W1329": {
+  "pos": "Noun"
+ },
+ "W1330": {
+  "pos": "Adjective"
+ },
+ "W1331": {
+  "pos": "Adjective"
+ },
+ "W1332": {
+  "pos": "Noun"
+ },
+ "W1333": {
+  "pos": "Noun"
+ },
+ "W1334": {
+  "pos": "Noun"
+ },
+ "W1335": {
+  "pos": "Noun"
+ },
+ "W1336": {
+  "pos": "Noun"
+ },
+ "W1337": {
+  "pos": "Noun"
+ },
+ "W1338": {
+  "pos": "Noun"
+ },
+ "W1339": {
+  "pos": "Verb"
+ },
+ "W1340": {
+  "pos": "Noun",
+  "match": "metro",
+  "exact": true
+ },
+ "W1341": {
+  "pos": "Noun"
+ },
+ "W1342": {
+  "pos": "Verb"
+ },
+ "W1343": {
+  "pos": "Noun"
+ },
+ "W1344": {
+  "pos": "Noun"
+ },
+ "W1345": {
+  "pos": "Noun"
+ },
+ "W1346": {
+  "pos": "Noun"
+ },
+ "W1347": {
+  "pos": "Noun"
+ },
+ "W1348": {
+  "pos": "Noun"
+ },
+ "W1349": {
+  "pos": "Noun",
+  "match": "homework",
+  "exact": true
+ },
+ "W1350": {
+  "pos": "Verb"
+ },
+ "W1351": {
+  "pos": "Verb"
+ },
+ "W1352": {
+  "pos": "Verb"
+ },
+ "W1353": {
+  "pos": "Verb"
+ },
+ "W1354": {
+  "pos": "Verb"
+ },
+ "W1401": {
+  "pos": "Preposition"
+ },
+ "W1402": {
+  "pos": "Conjunction",
+  "match": "or",
+  "exact": true
+ },
+ "W1403": {
+  "pos": "Conjunction"
+ },
+ "W1404": {
+  "pos": "Preposition"
+ },
+ "W1405": {
+  "pos": "Determiner"
+ },
+ "W1406": {
+  "pos": "Preposition"
+ },
+ "W1407": {
+  "pos": "Preposition"
+ },
+ "W1408": {
+  "pos": "Adverb"
+ },
+ "W1409": {
+  "pos": "Adverb"
+ },
+ "W1410": {
+  "pos": "Adverb"
+ },
+ "W1411": {
+  "pos": "Adverb"
+ },
+ "W1412": {
+  "pos": "Adverb",
+  "match": "already",
+  "exact": true
+ },
+ "W1413": {
+  "pos": "Adjective"
+ },
+ "W1414": {
+  "pos": "Preposition"
+ },
+ "W1415": {
+  "pos": "Noun"
+ },
+ "W1416": {
+  "pos": "Verb"
+ },
+ "W1417": {
+  "pos": "Verb"
+ },
+ "W1418": {
+  "pos": "Noun"
+ },
+ "W1419": {
+  "pos": "Verb"
+ },
+ "W1420": {
+  "pos": "Verb"
+ },
+ "W1421": {
+  "pos": "Verb"
+ },
+ "W1422": {
+  "pos": "Verb"
+ },
+ "W1423": {
+  "pos": "Noun"
+ },
+ "W1424": {
+  "pos": "Adjective"
+ },
+ "W1425": {
+  "pos": "Noun"
+ },
+ "W1426": {
+  "pos": "Noun"
+ },
+ "W1427": {
+  "pos": "Noun"
+ },
+ "W1428": {
+  "pos": "Noun"
+ },
+ "W1429": {
+  "pos": "Noun"
+ },
+ "W1430": {
+  "pos": "Noun"
+ },
+ "W1431": {
+  "pos": "Verb"
+ },
+ "W1432": {
+  "pos": "Noun"
+ },
+ "W1433": {
+  "pos": "Noun"
+ },
+ "W1434": {
+  "pos": "Verb"
+ },
+ "W1435": {
+  "pos": "Verb"
+ },
+ "W1436": {
+  "pos": "Verb"
+ },
+ "W1437": {
+  "pos": "Noun"
+ },
+ "W1438": {
+  "pos": "Adjective"
+ },
+ "W1439": {
+  "pos": "Adjective"
+ },
+ "W1440": {
+  "pos": "Adjective"
+ },
+ "W1441": {
+  "pos": "Adjective"
+ },
+ "W1442": {
+  "pos": "Adjective"
+ },
+ "W1443": {
+  "pos": "Adjective"
+ },
+ "W1444": {
+  "pos": "Adjective"
+ },
+ "W1445": {
+  "pos": "Adjective"
+ },
+ "W1446": {
+  "pos": "Adjective"
+ },
+ "W1447": {
+  "pos": "Noun"
+ },
+ "W1448": {
+  "pos": "Adjective"
+ },
+ "W1449": {
+  "pos": "Adjective"
+ },
+ "W1450": {
+  "pos": "Adjective"
+ },
+ "W1451": {
+  "pos": "Adjective"
+ },
+ "W1452": {
+  "pos": "Adjective"
+ },
+ "W1453": {
+  "pos": "Adjective"
+ },
+ "W1454": {
+  "pos": "Adjective"
+ },
+ "W1455": {
+  "pos": "Adjective"
+ },
+ "W1456": {
+  "pos": "Adjective"
+ },
+ "W1457": {
+  "pos": "Noun"
+ },
+ "W1458": {
+  "pos": "Noun"
+ },
+ "W1459": {
+  "pos": "Noun"
+ },
+ "W1460": {
+  "pos": "Noun"
+ },
+ "W1461": {
+  "pos": "Noun"
+ },
+ "W1462": {
+  "pos": "Noun",
+  "match": "capital (city)",
+  "exact": true
+ },
+ "W1463": {
+  "pos": "Noun"
+ },
+ "W1464": {
+  "pos": "Noun"
+ },
+ "W1465": {
+  "pos": "Noun"
+ },
+ "W1466": {
+  "pos": "Noun",
+  "match": "street plan"
+ },
+ "W1467": {
+  "pos": "Noun"
+ },
+ "W1468": {
+  "pos": "Noun",
+  "match": "exhibition"
+ },
+ "W1469": {
+  "pos": "Verb"
+ },
+ "W1470": {
+  "pos": "Adjective"
+ },
+ "W1471": {
+  "pos": "Conjunction",
+  "match": "that",
+  "exact": true
+ },
+ "W1472": {
+  "pos": "Contraction"
+ },
+ "W1601": {
+  "pos": "Noun"
+ },
+ "W1602": {
+  "pos": "Noun"
+ },
+ "W1603": {
+  "pos": "Noun"
+ },
+ "W1604": {
+  "pos": "Noun"
+ },
+ "W1605": {
+  "pos": "Noun"
+ },
+ "W1606": {
+  "pos": "Adjective"
+ },
+ "W1607": {
+  "pos": "Noun"
+ },
+ "W1608": {
+  "pos": "Noun",
+  "match": "bill"
+ },
+ "W1609": {
+  "pos": "Noun"
+ },
+ "W1610": {
+  "pos": "Noun"
+ },
+ "W1611": {
+  "pos": "Verb"
+ },
+ "W1612": {
+  "pos": "Verb"
+ },
+ "W1613": {
+  "pos": "Verb"
+ },
+ "W1614": {
+  "pos": "Pronoun"
+ },
+ "W1615": {
+  "pos": "Determiner"
+ },
+ "W1616": {
+  "pos": "Determiner"
+ },
+ "W1617": {
+  "pos": "Noun"
+ },
+ "W1618": {
+  "pos": "Noun"
+ },
+ "W1619": {
+  "pos": "Interjection"
+ },
+ "W1620": {
+  "pos": "Interjection"
+ },
+ "W1621": {
+  "pos": "Noun"
+ },
+ "W1622": {
+  "pos": "Verb"
+ },
+ "W1623": {
+  "pos": "Verb"
+ },
+ "W1624": {
+  "pos": "Verb"
+ },
+ "W1625": {
+  "pos": "Noun"
+ },
+ "W1626": {
+  "pos": "Adjective"
+ },
+ "W1627": {
+  "pos": "Noun"
+ },
+ "W1628": {
+  "pos": "Noun"
+ },
+ "W1629": {
+  "pos": "Noun"
+ },
+ "W1630": {
+  "pos": "Noun"
+ },
+ "W1631": {
+  "pos": "Noun"
+ },
+ "W1632": {
+  "pos": "Noun"
+ },
+ "W1633": {
+  "pos": "Noun"
+ },
+ "W1634": {
+  "pos": "Noun"
+ },
+ "W1635": {
+  "pos": "Noun"
+ },
+ "W1636": {
+  "pos": "Noun"
+ },
+ "W1637": {
+  "pos": "Adjective"
+ },
+ "W1638": {
+  "pos": "Adjective"
+ },
+ "W1639": {
+  "pos": "Verb"
+ },
+ "W1640": {
+  "pos": "Verb"
+ },
+ "W1641": {
+  "pos": "Noun"
+ },
+ "W1642": {
+  "pos": "Noun"
+ },
+ "W1643": {
+  "pos": "Adjective"
+ },
+ "W1644": {
+  "pos": "Adverb"
+ },
+ "W1645": {
+  "pos": "Noun"
+ },
+ "W1646": {
+  "pos": "Noun",
+  "match": "end"
+ },
+ "W1647": {
+  "pos": "Adverb"
+ },
+ "W1648": {
+  "pos": "Adverb"
+ },
+ "W1649": {
+  "pos": "Noun"
+ },
+ "W1650": {
+  "pos": "Verb"
+ },
+ "W1651": {
+  "pos": "Verb"
+ },
+ "W1652": {
+  "pos": "Verb"
+ },
+ "W1653": {
+  "pos": "Noun"
+ },
+ "W1654": {
+  "pos": "Adjective"
+ },
+ "W1655": {
+  "pos": "Adjective"
+ },
+ "W1656": {
+  "pos": "Verb"
+ },
+ "W1657": {
+  "pos": "Verb"
+ },
+ "W1658": {
+  "pos": "Verb"
+ },
+ "W1659": {
+  "pos": "Verb",
+  "match": "to find"
+ },
+ "W1660": {
+  "pos": "Verb"
+ },
+ "W1661": {
+  "pos": "Verb"
+ },
+ "W1662": {
+  "pos": "Noun"
+ },
+ "W1663": {
+  "pos": "Verb"
+ },
+ "W1664": {
+  "pos": "Verb"
+ },
+ "W1665": {
+  "pos": "Verb",
+  "match": "to drive"
+ },
+ "W1666": {
+  "pos": "Verb"
+ },
+ "W1667": {
+  "pos": "Noun"
+ },
+ "W1668": {
+  "pos": "Noun"
+ },
+ "W1669": {
+  "pos": "Noun"
+ },
+ "W1670": {
+  "pos": "Noun"
+ },
+ "W1671": {
+  "pos": "Noun"
+ },
+ "W1672": {
+  "pos": "Noun"
+ },
+ "W1673": {
+  "pos": "Noun"
+ },
+ "W1674": {
+  "pos": "Noun"
+ },
+ "W1675": {
+  "pos": "Noun"
+ },
+ "W1676": {
+  "pos": "Noun"
+ },
+ "W1677": {
+  "pos": "Noun"
+ },
+ "W1678": {
+  "pos": "Noun"
+ },
+ "W1679": {
+  "pos": "Noun"
+ },
+ "W1680": {
+  "pos": "Noun"
+ },
+ "W1681": {
+  "pos": "Noun"
+ },
+ "W1682": {
+  "pos": "Noun"
+ },
+ "W1683": {
+  "pos": "Noun"
+ },
+ "W1684": {
+  "pos": "Noun"
+ },
+ "W1685": {
+  "pos": "Noun"
+ },
+ "W1686": {
+  "pos": "Noun"
+ },
+ "W1687": {
+  "pos": "Noun"
+ },
+ "W1688": {
+  "pos": "Noun"
+ },
+ "W1689": {
+  "pos": "Noun"
+ },
+ "W1690": {
+  "pos": "Adjective"
+ },
+ "W1691": {
+  "pos": "Adjective"
+ },
+ "W1692": {
+  "pos": "Adjective"
+ },
+ "W1693": {
+  "pos": "Adjective"
+ },
+ "W1694": {
+  "pos": "Noun"
+ },
+ "W1695": {
+  "pos": "Noun"
+ },
+ "W1696": {
+  "pos": "Noun"
+ },
+ "W1697": {
+  "pos": "Noun"
+ },
+ "W1698": {
+  "pos": "Noun"
+ },
+ "W1699": {
+  "pos": "Noun"
+ },
+ "W1700": {
+  "pos": "Noun"
+ },
+ "W1701": {
+  "pos": "Noun"
+ },
+ "W1702": {
+  "pos": "Noun"
+ },
+ "W1703": {
+  "pos": "Noun"
+ },
+ "W1704": {
+  "pos": "Noun"
+ },
+ "W1705": {
+  "pos": "Noun"
+ },
+ "W1706": {
+  "pos": "Noun"
+ },
+ "W1707": {
+  "pos": "Noun"
+ },
+ "W1708": {
+  "pos": "Noun"
+ },
+ "W1709": {
+  "pos": "Noun"
+ },
+ "W1710": {
+  "pos": "Noun"
+ },
+ "W1711": {
+  "pos": "Noun"
+ },
+ "W1712": {
+  "pos": "Noun"
+ },
+ "W1713": {
+  "pos": "Noun"
+ },
+ "W1714": {
+  "pos": "Noun"
+ },
+ "W1715": {
+  "pos": "Noun"
+ },
+ "W1716": {
+  "pos": "Noun"
+ },
+ "W1717": {
+  "pos": "Noun",
+  "match": "police officer"
+ },
+ "W1718": {
+  "pos": "Noun"
+ },
+ "W1719": {
+  "pos": "Verb"
+ },
+ "W1720": {
+  "pos": "Verb"
+ },
+ "W1721": {
+  "pos": "Verb"
+ },
+ "W1722": {
+  "pos": "Verb"
+ },
+ "W1723": {
+  "pos": "Verb",
+  "match": "vender"
+ },
+ "W1724": {
+  "pos": "Verb",
+  "match": "vender"
+ },
+ "W1725": {
+  "pos": "Noun"
+ },
+ "W1726": {
+  "pos": "Noun"
+ },
+ "W1727": {
+  "pos": "Verb"
+ },
+ "W1728": {
+  "pos": "Adjective"
+ },
+ "W1729": {
+  "pos": "Adjective"
+ },
+ "W1730": {
+  "pos": "Verb"
+ },
+ "W1731": {
+  "pos": "Verb"
+ },
+ "W1732": {
+  "pos": "Adjective"
+ },
+ "W1733": {
+  "pos": "Interjection"
+ },
+ "W1734": {
+  "pos": "Noun"
+ },
+ "W1735": {
+  "pos": "Verb"
+ },
+ "W1736": {
+  "pos": "Noun"
+ },
+ "W1737": {
+  "pos": "Noun"
+ },
+ "W1738": {
+  "pos": "Noun"
+ },
+ "W1739": {
+  "pos": "Noun",
+  "match": "state"
+ },
+ "W1740": {
+  "pos": "Adjective"
+ },
+ "W1741": {
+  "pos": "Noun"
+ },
+ "W1742": {
+  "pos": "Adjective"
+ },
+ "W1743": {
+  "pos": "Noun"
+ },
+ "W1744": {
+  "pos": "Adjective"
+ },
+ "W1745": {
+  "pos": "Noun"
+ },
+ "W1746": {
+  "pos": "Noun"
+ },
+ "W1747": {
+  "pos": "Noun"
+ },
+ "W1748": {
+  "pos": "Noun"
+ },
+ "W1749": {
+  "pos": "Verb"
+ },
+ "W1750": {
+  "pos": "Adjective"
+ },
+ "W1751": {
+  "pos": "Adjective"
+ },
+ "W1752": {
+  "pos": "Adjective"
+ },
+ "W1753": {
+  "pos": "Noun"
+ },
+ "W1754": {
+  "pos": "Noun"
+ },
+ "W1755": {
+  "pos": "Noun"
+ },
+ "W1756": {
+  "pos": "Noun"
+ },
+ "W1757": {
+  "pos": "Noun",
+  "match": "stamp"
+ },
+ "W1758": {
+  "pos": "Noun"
+ },
+ "W1759": {
+  "pos": "Adjective"
+ },
+ "W1760": {
+  "pos": "Adjective"
+ },
+ "W1761": {
+  "pos": "Noun"
+ },
+ "W1762": {
+  "pos": "Noun"
+ },
+ "W1763": {
+  "pos": "Verb"
+ },
+ "W1764": {
+  "pos": "Verb"
+ },
+ "W1765": {
+  "pos": "Verb"
+ },
+ "W1766": {
+  "pos": "Verb"
+ },
+ "W1801": {
+  "pos": "Noun"
+ },
+ "W1802": {
+  "pos": "Noun"
+ },
+ "W1803": {
+  "pos": "Noun"
+ },
+ "W1804": {
+  "pos": "Noun"
+ },
+ "W1805": {
+  "pos": "Noun"
+ },
+ "W1806": {
+  "pos": "Noun"
+ },
+ "W1807": {
+  "pos": "Noun"
+ },
+ "W1808": {
+  "pos": "Noun"
+ },
+ "W1809": {
+  "pos": "Noun"
+ },
+ "W1810": {
+  "pos": "Determiner"
+ },
+ "W1811": {
+  "pos": "Determiner"
+ },
+ "W1812": {
+  "pos": "Noun"
+ },
+ "W1813": {
+  "pos": "Verb"
+ },
+ "W1814": {
+  "pos": "Verb"
+ },
+ "W1815": {
+  "pos": "Verb"
+ },
+ "W1816": {
+  "pos": "Noun"
+ },
+ "W1817": {
+  "pos": "Noun"
+ },
+ "W1818": {
+  "pos": "Noun"
+ },
+ "W1819": {
+  "pos": "Noun"
+ },
+ "W1820": {
+  "pos": "Noun"
+ },
+ "W1821": {
+  "pos": "Noun"
+ },
+ "W1822": {
+  "pos": "Noun"
+ },
+ "W1823": {
+  "pos": "Noun"
+ },
+ "W1824": {
+  "pos": "Noun"
+ },
+ "W1825": {
+  "pos": "Noun"
+ },
+ "W1826": {
+  "pos": "Noun"
+ },
+ "W1827": {
+  "pos": "Noun",
+  "match": "eraser"
+ },
+ "W1828": {
+  "pos": "Noun"
+ },
+ "W1829": {
+  "pos": "Noun",
+  "match": "blackboard"
+ },
+ "W1830": {
+  "pos": "Noun"
+ },
+ "W1831": {
+  "pos": "Noun"
+ },
+ "W1832": {
+  "pos": "Noun"
+ },
+ "W1833": {
+  "pos": "Noun"
+ },
+ "W1834": {
+  "pos": "Noun"
+ },
+ "W1835": {
+  "pos": "Noun"
+ },
+ "W1836": {
+  "pos": "Noun"
+ },
+ "W1837": {
+  "pos": "Noun"
+ },
+ "W1838": {
+  "pos": "Noun"
+ },
+ "W1839": {
+  "pos": "Noun"
+ },
+ "W1840": {
+  "pos": "Noun"
+ },
+ "W1841": {
+  "pos": "Adjective"
+ },
+ "W1842": {
+  "pos": "Proper noun"
+ },
+ "W1843": {
+  "pos": "Adjective"
+ },
+ "W1844": {
+  "pos": "Adjective"
+ },
+ "W1845": {
+  "pos": "Noun"
+ },
+ "W1846": {
+  "pos": "Noun"
+ },
+ "W1847": {
+  "pos": "Noun"
+ },
+ "W1848": {
+  "pos": "Adjective"
+ },
+ "W1849": {
+  "pos": "Noun"
+ },
+ "W1850": {
+  "pos": "Verb"
+ },
+ "W1851": {
+  "pos": "Adjective"
+ },
+ "W1852": {
+  "pos": "Adjective"
+ },
+ "W1853": {
+  "pos": "Adjective"
+ },
+ "W1767": {
+  "pos": "Noun"
+ },
+ "W1768": {
+  "pos": "Noun",
+  "match": "land, ground"
+ },
+ "W1769": {
+  "pos": "Noun"
+ },
+ "W1770": {
+  "pos": "Adjective"
+ },
+ "W1854": {
+  "pos": "Noun"
+ }
 }

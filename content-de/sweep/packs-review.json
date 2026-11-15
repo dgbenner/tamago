@@ -456,13 +456,8 @@
   },
   "U57": {
     "reject": {
-      "478461": "Wie spät ist es asks the time (Part 3), not late",
-      "608655": "Wie spät ist es asks the time (Part 3), not late",
-      "804477": "Wie spät ist es asks the time (Part 3), not late",
       "949227": "kaputt as exhausted, not broken",
-      "1097419": "Wie spät ist es asks the time (Part 3), not late",
       "1547625": "plural imperative",
-      "1745893": "Wie spät ist es asks the time (Part 3), not late",
       "1789515": "ihre as their, not Ihre (your, polite)",
       "1898734": "exclamation, elliptic",
       "2331518": "idiom (frei haben, or Wie spät ist es for the time)",
@@ -549,6 +544,500 @@
     },
     "english": {
       "6476622": "Is Tom outside?"
+    }
+  },
+  "U61": {
+    "reject": {
+      "601525": "idiom: a clock running slow (nachgehen)",
+      "642475": "vorhaben: vor is part of the verb",
+      "656402": "idiom: a clock running fast (vorgehen)",
+      "768343": "idiom: a clock running fast (vorgehen)",
+      "906154": "English says how many",
+      "952498": "English says how many",
+      "1599933": "idiom: a clock running fast (vorgehen)",
+      "5107046": "idiom (es geht um)",
+      "5583163": "English gives the wrong hour",
+      "6611643": "loose English",
+      "7451658": "exclamation",
+      "8862650": "um as over (idiom)",
+      "8936063": "idiom (umkommen vor)",
+      "9477414": "two exclamations, elliptic",
+      "10055701": "loose English (almost here)",
+      "10750340": "vorhaben, and was for etwas",
+      "12071318": "loose English",
+      "12071319": "loose English",
+      "12672522": "vorhaben: vor is part of the verb",
+      "12672524": "vorhaben: vor is part of the verb"
+    },
+    "english": {
+      "2085152": "He is arriving shortly."
+    }
+  },
+  "U71": {
+    "reject": {
+      "1040023": "English changes the person",
+      "1151387": "nicht einmal is not even, not once",
+      "1454764": "auch nur (so much as)",
+      "1703062": "idiom (so weit sein)",
+      "1882803": "nicht einmal is not even, not once",
+      "2279587": "elliptic",
+      "2279588": "elliptic",
+      "2452077": "nur as a particle, loose English",
+      "2453614": "nur as a particle, loose English",
+      "2779095": "nicht einmal is not even, not once",
+      "4901584": "nicht einmal is not even, not once",
+      "5234872": "nicht einmal is not even, not once",
+      "7188867": "odd line",
+      "8583937": "loose English",
+      "8837811": "loose English",
+      "10647332": "nicht einmal is not even, not once",
+      "11999049": "aufhaben: auf is part of the verb",
+      "12188503": "idiom (es weit haben)",
+      "12188505": "idiom (es weit haben)",
+      "12462891": "odd line",
+      "12703110": "loose English",
+      "12852023": "nicht einmal is not even, not once",
+      "13489400": "idiom (sich verstehen mit), past"
+    }
+  },
+  "U37": {
+    "reject": {
+      "3515158": "gehört as belongs (gehören), not heard",
+      "6626066": "gehört as belongs (gehören), not heard",
+      "8881116": "gehört as belongs (gehören), not heard",
+      "8993718": "odd, elliptic",
+      "10000561": "gehört as belongs (gehören), not heard",
+      "11550756": "gehört as belongs (gehören), not heard",
+      "12441291": "gehört as belongs (gehören), not heard",
+      "12441292": "gehört as belongs (gehören), not heard"
+    }
+  },
+  "U62": {
+    "reject": {
+      "633574": "vorhaben",
+      "1308428": "odd line",
+      "1315714": "capital Ihr, read as ihr",
+      "1403664": "vorhaben",
+      "1757920": "idiom (nicht abkönnen)",
+      "2185307": "slang",
+      "5664635": "idiom (nicht abkönnen)",
+      "7452560": "abgehen: ab is part of the verb",
+      "11763058": "abdanken: ab is part of the verb",
+      "12334858": "loose English",
+      "12592944": "vorhaben",
+      "12592947": "vorhaben",
+      "12669206": "idiom (nicht abkönnen)",
+      "12669208": "idiom (nicht abkönnen)",
+      "13659616": "a list, not a sentence"
+    }
+  },
+  "U63": {
+    "reject": {
+      "1570546": "ausgeben: aus is part of the verb",
+      "2302885": "idiom (es geht um)",
+      "3201449": "ausgeben: aus is part of the verb",
+      "3279558": "idiom (April fool)",
+      "8154119": "um as over (idiom)",
+      "9584896": "loose English",
+      "11466111": "odd line",
+      "13354075": "odd line"
+    },
+    "english": {
+      "10184335": "It's now June.",
+      "10184336": "It's now May.",
+      "10184337": "It's now April.",
+      "10184338": "It's now March.",
+      "10184342": "It's now December.",
+      "10184344": "It's now September."
+    }
+  },
+  "U72": {
+    "reject": {
+      "1429402": "English misreads Komme as a command",
+      "3513559": "lange is the adjective lang here",
+      "4134706": "loose English",
+      "6641401": "odd line",
+      "7672773": "ihr as plural you",
+      "7842175": "ausgehen: aus is part of the verb",
+      "8231769": "odd line",
+      "9958791": "vorhaben",
+      "12546259": "später is the adjective spät here",
+      "12560848": "ihr as plural you",
+      "12644497": "misspelling (Seit for Seid)",
+      "13071589": "ihr as plural you"
+    }
+  },
+  "U38": {
+    "reject": {
+      "1254269": "joke on a quotation",
+      "1630814": "faulty English",
+      "1744167": "bare imperative",
+      "2750352": "loose English",
+      "2905263": "capital Du (letter style)",
+      "2954324": "loose English",
+      "4603865": "bare imperative",
+      "5244602": "colloquial auf was",
+      "8244435": "loose English",
+      "9933102": "joke on a quotation",
+      "10067549": "colloquial auf was"
+    },
+    "english": {
+      "2095332": "Wait one second."
+    }
+  },
+  "U64": {
+    "reject": {
+      "882456": "loose English (tag along)",
+      "8247562": "capital Ihr, read as ihr",
+      "8376843": "loose English (tag along)",
+      "8737341": "loose English (tag along)",
+      "12543876": "odd German (dich treffen with no partner)",
+      "12661467": "loose English (will for wollen)",
+      "12661469": "loose English (will for wollen)"
+    }
+  },
+  "U65": {
+    "reject": {
+      "1923381": "bare imperative",
+      "2082945": "vorhaben",
+      "2177336": "figurative (end up like)",
+      "3236126": "bare imperative outside the Instructions circle",
+      "4941757": "bare imperative outside the Instructions circle",
+      "4941763": "bare imperative outside the Instructions circle",
+      "7324275": "er glossed as it",
+      "7324279": "sie glossed as it",
+      "11987439": "figurative (end up like)",
+      "12562617": "ihr as plural you",
+      "12572510": "figurative (end up like)",
+      "12572512": "figurative (end up like)",
+      "13715551": "not for a lesson"
+    }
+  },
+  "U73": {
+    "reject": {
+      "594462": "idiom (liegen as suit)",
+      "1341204": "repeats a word (Sie sie): confusing by ear",
+      "1343617": "loose English",
+      "1540490": "loose English",
+      "2116180": "aussehen: aus is part of the verb",
+      "3411701": "English asks where, German why",
+      "3963758": "restaurant idiom, loose English",
+      "3982603": "was for etwas",
+      "4878349": "aussehen: aus is part of the verb",
+      "6643080": "aussehen: aus is part of the verb",
+      "7489860": "aussehen: aus is part of the verb",
+      "8447641": "restaurant idiom",
+      "12640106": "past with two infinitives",
+      "12640108": "past with two infinitives",
+      "12657160": "past with two infinitives",
+      "12657162": "past with two infinitives"
+    }
+  },
+  "U66": {
+    "english": {
+      "5245937": "Where are the toilets, please?"
+    },
+    "reject": {
+      "2588492": "Achtung as respect; capital Ihr",
+      "2668654": "odd line",
+      "5206360": "odd line",
+      "12668461": "odd line",
+      "12668464": "odd line"
+    }
+  },
+  "U67": {
+    "reject": {
+      "1932846": "capital Ihr, read as ihr",
+      "1932851": "capital Ihr, read as ihr",
+      "5438599": "loose English",
+      "7753717": "loose English",
+      "10191294": "elliptic",
+      "11135688": "awkward English",
+      "12172139": "past with two infinitives",
+      "12172141": "past with two infinitives"
+    }
+  },
+  "U74": {
+    "reject": {
+      "812428": "bare imperative",
+      "1486872": "idiom (bekannt vorkommen)",
+      "1486875": "idiom (bekannt vorkommen)",
+      "1907452": "idiom (bekannt vorkommen)",
+      "2204243": "gefallen as fell (fallen)",
+      "2301713": "odd line",
+      "5020524": "loose English",
+      "5912380": "gefallen as fell (fallen)",
+      "6673063": "odd line",
+      "7429238": "idiom (bekannt vorkommen)",
+      "7429240": "idiom (bekannt vorkommen)",
+      "8089193": "exclamation, elliptic",
+      "8679308": "exclamation, elliptic",
+      "10314527": "aussehen: aus is part of the verb"
+    }
+  },
+  "U39": {
+    "reject": {
+      "7063244": "sicher as safe; the circle teaches sure",
+      "10006051": "sicher as safe; the circle teaches sure"
+    }
+  },
+  "U68": {
+    "reject": {
+      "758230": "ihr as plural you",
+      "782639": "weiß as know",
+      "1105863": "idiom (halten von)",
+      "1224705": "bare imperative",
+      "1298685": "exclamation, figurative",
+      "1657713": "bare imperative",
+      "1851522": "bare imperative",
+      "1932848": "capital Ihr, read as ihr",
+      "2260910": "bare imperative",
+      "3252476": "formal imperative, not an announcement",
+      "3440429": "bare imperative",
+      "3702221": "aushalten: aus is part of the verb",
+      "4942761": "plural imperative",
+      "4942769": "plural imperative",
+      "12186386": "loose English",
+      "12420827": "idiom (zurückhalten)",
+      "12420829": "idiom (zurückhalten)"
+    }
+  },
+  "U69": {
+    "reject": {
+      "1515018": "capital Ihre, read as ihre",
+      "1735278": "ruhig as a particle (feel free)",
+      "2203970": "drücken as hug",
+      "2707668": "abschließen: ab is part of the verb",
+      "2785482": "zu as closed (colloquial)",
+      "3337445": "auf as open (colloquial)",
+      "3969284": "sie glossed as it",
+      "8435624": "auflegen: auf is part of the verb",
+      "9998156": "zu as closed (colloquial)"
+    }
+  },
+  "U75": {
+    "reject": {
+      "707300": "idiom (become of)",
+      "1638605": "idiom (become of)",
+      "3031487": "English says clean",
+      "3411784": "formal imperative, idiom",
+      "10049282": "loose English",
+      "11451960": "idiom (become of)",
+      "11914778": "loose English",
+      "12282080": "English reads sie as you"
+    }
+  },
+  "U81": {
+    "reject": {
+      "1070869": "idiomatic English (foot the bill)",
+      "3383434": "past subjunctive (hätte sollen)",
+      "13105212": "past subjunctive (hätte sollen)"
+    }
+  },
+  "U91": {
+    "reject": {
+      "1148750": "bare imperative",
+      "1839222": "ausgehen: aus is part of the verb"
+    }
+  },
+  "U26": {
+    "reject": {
+      "6644022": "loose English",
+      "12258360": "quoted dialogue",
+      "12258362": "quoted dialogue; capital Ihre",
+      "12388880": "odd line",
+      "12397809": "formal imperative",
+      "13530837": "let's form, odd line"
+    }
+  },
+  "U82": {
+    "reject": {
+      "1343519": "ihr as plural you",
+      "2322542": "loose English",
+      "3186475": "idiom (satt haben)",
+      "6615080": "unkind line",
+      "7281001": "er glossed as it",
+      "7281004": "sie glossed as it",
+      "8084774": "ihr as plural you; was for etwas",
+      "8142417": "odd line",
+      "12530044": "ihr as plural you"
+    },
+    "english": {
+      "6887193": "Is Tom good at cooking?"
+    }
+  },
+  "U83": {
+    "reject": {
+      "638623": "Mitnehmen as a noun",
+      "1524516": "political sense of links",
+      "2755656": "Mitnehmen as a noun",
+      "3177609": "rude",
+      "7005773": "zum as for, elliptic",
+      "7697401": "political sense of links",
+      "8641031": "military command"
+    }
+  },
+  "U92": {
+    "reject": {
+      "1497830": "ihr as plural you",
+      "6693497": "zu haben as closed (colloquial)",
+      "8105123": "ihr as plural you",
+      "10251863": "was for etwas",
+      "10503657": "zu haben as closed (colloquial)",
+      "12503762": "günstig as convenient",
+      "12576919": "English says buy for verkauft"
+    }
+  },
+  "U27": {
+    "reject": {
+      "3513561": "verlaufen as go (of a meeting)",
+      "3513563": "verlaufen as go (of a meeting); capital Ihr",
+      "5821842": "loose English",
+      "12620863": "aussuchen: aus is part of the verb"
+    }
+  },
+  "U84": {
+    "reject": {
+      "3340690": "läuft as is on (TV)",
+      "5270171": "läuft as is on (TV)",
+      "6624915": "läuft as is going (idiom)",
+      "6624916": "läuft as is going (idiom)",
+      "6624918": "läuft as is going (idiom)",
+      "6641399": "läuft as is going (idiom)",
+      "11528689": "läuft as is going (idiom)",
+      "11574081": "dark line",
+      "12182601": "plural imperative",
+      "12826967": "dark line"
+    }
+  },
+  "U85": {
+    "reject": {
+      "6641266": "odd line",
+      "7460356": "Unsere as a noun"
+    }
+  },
+  "U93": {
+    "reject": {
+      "1139029": "durch as finished",
+      "1222263": "plural imperative",
+      "1304954": "durch as finished",
+      "1344035": "ankommen: an is part of the verb",
+      "1567196": "durch as finished",
+      "1768592": "durch as done",
+      "1823159": "anstellen: an is part of the verb",
+      "2109262": "anhaben: an is part of the verb",
+      "2109264": "anhaben: an is part of the verb",
+      "3106592": "idiom (daneben liegen)",
+      "3324628": "loose English",
+      "5579625": "quoted dialogue",
+      "6553517": "bare imperative",
+      "8382118": "ankommen: an is part of the verb, idiom",
+      "9432298": "idiom (es ist aus)",
+      "12655783": "loose English (bunks)",
+      "12722904": "über after the noun (die Nacht über)",
+      "13235004": "loose English (bunks)"
+    }
+  },
+  "U86": {
+    "reject": {
+      "2003420": "bare imperative",
+      "2332891": "Mal the noun (time), read as mal",
+      "2376919": "capital Ihr, read as ihr",
+      "3352607": "Mal the noun (time), read as mal",
+      "4164009": "Mal the noun (time), read as mal",
+      "4479628": "English says I for man",
+      "6686024": "plural imperative",
+      "7727367": "English counts floors differently",
+      "8765348": "formal imperative",
+      "10084146": "idiom (jeden zweiten Tag)",
+      "11255744": "idiom (Raum nach oben)",
+      "13915418": "umziehen as change clothes; the circle teaches move"
+    }
+  },
+  "U87": {
+    "reject": {
+      "601796": "meinen as think, read as my",
+      "773915": "läuft as is going (idiom)",
+      "852577": "unnatural (ein Doktor for a woman)",
+      "1725817": "English gives the wrong greeting",
+      "2144071": "ihr as plural you",
+      "7196372": "läuft as is going (idiom)",
+      "7441705": "ihr as plural you",
+      "7441706": "capital Ihr, read as ihr",
+      "7448540": "ihr as plural you",
+      "11713347": "idiom (halten von)",
+      "12644026": "Reparieren as a noun",
+      "12644028": "Reparieren as a noun"
+    }
+  },
+  "U94": {
+    "reject": {
+      "3702186": "Reise the noun, read as the verb",
+      "3702187": "Reise the noun, read as the verb",
+      "3702188": "Reise the noun, read as the verb; capital Ihre",
+      "5054710": "capital Ihre, read as ihre",
+      "8647400": "Reise the noun, read as the verb; elliptic",
+      "10063246": "Reise the noun, read as the verb; capital Ihre"
+    }
+  },
+  "U28": {
+    "reject": {
+      "8269969": "was for etwas",
+      "10345118": "was for etwas",
+      "13380581": "past subjunctive",
+      "13408176": "was for etwas"
+    }
+  },
+  "U88": {
+    "reject": {
+      "1811390": "near copy of another line",
+      "2761443": "proverb",
+      "3065035": "capital Ihr, read as ihr"
+    }
+  },
+  "U89": {
+    "reject": {
+      "362646": "liebe the verb, read as liebe (dear)",
+      "663911": "Liebe the noun, read as liebe (dear)",
+      "1619078": "formal imperative",
+      "1791521": "capital Ihre, read as ihre",
+      "1803195": "liebe the verb, read as liebe (dear)",
+      "1893384": "formal imperative",
+      "1954448": "formal imperative",
+      "2030730": "formal imperative",
+      "2215814": "odd line",
+      "2456229": "Liebe the noun, read as liebe (dear)",
+      "2837304": "formal imperative",
+      "3651065": "Liebe the noun, read as liebe (dear)",
+      "3752012": "Liebe the noun, read as liebe (dear)",
+      "4043470": "liebe the verb, read as liebe (dear)",
+      "8072307": "colloquial verb form (feier)",
+      "8597708": "loose English (feiern gehen)",
+      "9577285": "Liebe the noun, read as liebe (dear)",
+      "9788494": "liebe the verb, read as liebe (dear)",
+      "10006004": "formal imperative",
+      "10155173": "not for a lesson",
+      "12193170": "loose English",
+      "12247797": "bare imperative",
+      "12247799": "formal imperative",
+      "12683685": "English adds a not",
+      "12683687": "English adds a not"
+    }
+  },
+  "U95": {
+    "reject": {
+      "631433": "odd line",
+      "1767725": "military command",
+      "2051379": "idiom (kein Thema)",
+      "2203917": "Gewinnen as a noun",
+      "8246035": "elliptic command",
+      "10520799": "teilnehmen: teil is part of the verb, not Teil",
+      "12383895": "ihr as plural you",
+      "12416911": "loose English",
+      "12641875": "ihr as plural you",
+      "12799973": "odd line",
+      "13031559": "teilnehmen: teil is part of the verb, not Teil",
+      "13422101": "liebe the verb, read as liebe (dear)"
     }
   }
 }

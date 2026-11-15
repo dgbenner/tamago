@@ -1,0 +1,1384 @@
+{
+  "unit_id": "U38",
+  "pulled_at": "2026-11-15",
+  "candidates": 56,
+  "sentences": [
+    {
+      "sentence_id": "S38001",
+      "unit_id": "U38",
+      "french": "¿Puedes ver?",
+      "english": "Can you see?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1748229",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38002",
+      "unit_id": "U38",
+      "french": "¿Qué quieres ver?",
+      "english": "What do you want to see?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1956137",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zahurdias",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38003",
+      "unit_id": "U38",
+      "french": "¿Quieres ver esto?",
+      "english": "Do you want to look at this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4130858",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Leono",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38004",
+      "unit_id": "U38",
+      "french": "¿Cuál es tu segundo idioma?",
+      "english": "What's your second language?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9709511",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": [
+        "What is your second language?"
+      ]
+    },
+    {
+      "sentence_id": "S38005",
+      "unit_id": "U38",
+      "french": "¡Pues claro!",
+      "english": "Sure!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4554101",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "swyter",
+      "other_english": [
+        "Clearly!",
+        "All right then!"
+      ]
+    },
+    {
+      "sentence_id": "S38006",
+      "unit_id": "U38",
+      "french": "Pienso en ustedes.",
+      "english": "I'm thinking about you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1508602",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38007",
+      "unit_id": "U38",
+      "french": "Eso pienso yo.",
+      "english": "I do think so.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1923336",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38008",
+      "unit_id": "U38",
+      "french": "Pues no puedes.",
+      "english": "Well, you can't.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2056617",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lazarus1907",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38009",
+      "unit_id": "U38",
+      "french": "Veamos qué es.",
+      "english": "Let's see what it is.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2249940",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38010",
+      "unit_id": "U38",
+      "french": "Espera un segundo.",
+      "english": "Wait one second.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4554560",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "swyter",
+      "other_english": [
+        "Hold on one second."
+      ]
+    },
+    {
+      "sentence_id": "S38011",
+      "unit_id": "U38",
+      "french": "Es difícil pensar.",
+      "english": "Thinking is hard.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10008666",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38012",
+      "unit_id": "U38",
+      "french": "Pienso en francés.",
+      "english": "I think in French.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13605222",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38013",
+      "unit_id": "U38",
+      "french": "Espera aquí un segundo.",
+      "english": "Wait a second here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3888963",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "SrTortuga",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38014",
+      "unit_id": "U38",
+      "french": "Veamos qué quiere Tom.",
+      "english": "Let's see what Tom wants.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10010214",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38015",
+      "unit_id": "U38",
+      "french": "No quiero pensar sobre eso.",
+      "english": "I don't want to think about that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2015538",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38016",
+      "unit_id": "U38",
+      "french": "No quiero pensar en esto.",
+      "english": "I don't want to think about this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9711337",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "stormy_clau",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38017",
+      "unit_id": "U38",
+      "french": "¿Puede ver esto?",
+      "english": "Can you see this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9926441",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38018",
+      "unit_id": "U38",
+      "french": "¿Qué vas a ver?",
+      "english": "What are you going to see?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1350959",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38019",
+      "unit_id": "U38",
+      "french": "¿Puedes ver a Tom?",
+      "english": "Can you see Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1917714",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38020",
+      "unit_id": "U38",
+      "french": "¿Quieres ver la casa?",
+      "english": "Do you want to see the house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8863500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38021",
+      "unit_id": "U38",
+      "french": "¿Quieres ver a Tom de nuevo?",
+      "english": "Do you want to see Tom again?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2081553",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38022",
+      "unit_id": "U38",
+      "french": "¿Voy a ver a Tom después?",
+      "english": "Will I see Tom later?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5779810",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MrMultilingual",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38023",
+      "unit_id": "U38",
+      "french": "A ver.",
+      "english": "Let's see.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1654683",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "Let me see.",
+        "Let me see it."
+      ]
+    },
+    {
+      "sentence_id": "S38024",
+      "unit_id": "U38",
+      "french": "A ver eso.",
+      "english": "Let me see that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1654688",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38025",
+      "unit_id": "U38",
+      "french": "Quiero ver más.",
+      "english": "I want to see more.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2671393",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38026",
+      "unit_id": "U38",
+      "french": "Te quiero ver.",
+      "english": "I want to see you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9727887",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mialiesperantistas",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38027",
+      "unit_id": "U38",
+      "french": "Quiero ver a Tom.",
+      "english": "I want to see Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2029766",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38028",
+      "unit_id": "U38",
+      "french": "Quiero ver el campo.",
+      "english": "I want to see the countryside.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4637580",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lawka",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38029",
+      "unit_id": "U38",
+      "french": "Es fácil ver esto.",
+      "english": "It's easy to see this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6703438",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S38030",
+      "unit_id": "U38",
+      "french": "Se va a ver.",
+      "english": "She'll see herself.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7160144",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S38001",
+      "position": 1,
+      "surface": "Puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38001",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38002",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38002",
+      "position": 2,
+      "surface": "quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38002",
+      "position": 3,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38003",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38003",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38003",
+      "position": 3,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 4,
+      "surface": "segundo",
+      "word_id": "W1258",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38004",
+      "position": 5,
+      "surface": "idioma",
+      "word_id": "W865",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38005",
+      "position": 1,
+      "surface": "Pues",
+      "word_id": "W1255",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38005",
+      "position": 2,
+      "surface": "claro",
+      "word_id": "W880",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38006",
+      "position": 1,
+      "surface": "Pienso",
+      "word_id": "W1253",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38006",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38006",
+      "position": 3,
+      "surface": "ustedes",
+      "word_id": "W075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38007",
+      "position": 1,
+      "surface": "Eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38007",
+      "position": 2,
+      "surface": "pienso",
+      "word_id": "W1253",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38007",
+      "position": 3,
+      "surface": "yo",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38008",
+      "position": 1,
+      "surface": "Pues",
+      "word_id": "W1255",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38008",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38008",
+      "position": 3,
+      "surface": "puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38009",
+      "position": 1,
+      "surface": "Veamos",
+      "word_id": "W1257",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38009",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38009",
+      "position": 3,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38010",
+      "position": 1,
+      "surface": "Espera",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38010",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38010",
+      "position": 3,
+      "surface": "segundo",
+      "word_id": "W1258",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38011",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38011",
+      "position": 2,
+      "surface": "difícil",
+      "word_id": "W1144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38011",
+      "position": 3,
+      "surface": "pensar",
+      "word_id": "W1254",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38012",
+      "position": 1,
+      "surface": "Pienso",
+      "word_id": "W1253",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38012",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38012",
+      "position": 3,
+      "surface": "francés",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38013",
+      "position": 1,
+      "surface": "Espera",
+      "word_id": "W837",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38013",
+      "position": 2,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38013",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38013",
+      "position": 4,
+      "surface": "segundo",
+      "word_id": "W1258",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38014",
+      "position": 1,
+      "surface": "Veamos",
+      "word_id": "W1257",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38014",
+      "position": 2,
+      "surface": "qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38014",
+      "position": 3,
+      "surface": "quiere",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38014",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38015",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38015",
+      "position": 2,
+      "surface": "quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38015",
+      "position": 3,
+      "surface": "pensar",
+      "word_id": "W1254",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38015",
+      "position": 4,
+      "surface": "sobre",
+      "word_id": "W1407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38015",
+      "position": 5,
+      "surface": "eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38016",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38016",
+      "position": 2,
+      "surface": "quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38016",
+      "position": 3,
+      "surface": "pensar",
+      "word_id": "W1254",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38016",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38016",
+      "position": 5,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38017",
+      "position": 1,
+      "surface": "Puede",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38017",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38017",
+      "position": 3,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38018",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38018",
+      "position": 2,
+      "surface": "vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38018",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38018",
+      "position": 4,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38019",
+      "position": 1,
+      "surface": "Puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38019",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38019",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38019",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38020",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38020",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38020",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38020",
+      "position": 4,
+      "surface": "casa",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38021",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38021",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38021",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38021",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38021",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38021",
+      "position": 6,
+      "surface": "nuevo",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 1,
+      "surface": "Voy",
+      "word_id": "W164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 3,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38022",
+      "position": 6,
+      "surface": "después",
+      "word_id": "W1409",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38023",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38023",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38024",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38024",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38024",
+      "position": 3,
+      "surface": "eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38025",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38025",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38025",
+      "position": 3,
+      "surface": "más",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38026",
+      "position": 1,
+      "surface": "Te",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38026",
+      "position": 2,
+      "surface": "quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38026",
+      "position": 3,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38027",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38027",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38027",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38027",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38028",
+      "position": 1,
+      "surface": "Quiero",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38028",
+      "position": 2,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38028",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38028",
+      "position": 4,
+      "surface": "campo",
+      "word_id": "W1152",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38029",
+      "position": 1,
+      "surface": "Es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38029",
+      "position": 2,
+      "surface": "fácil",
+      "word_id": "W1143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38029",
+      "position": 3,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38029",
+      "position": 4,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38030",
+      "position": 1,
+      "surface": "Se",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38030",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38030",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S38030",
+      "position": 4,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A380041",
+      "sentence_id": "S38004",
+      "direction": "fr_to_en",
+      "answer": "What is your second language?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A380051",
+      "sentence_id": "S38005",
+      "direction": "fr_to_en",
+      "answer": "Clearly!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A380052",
+      "sentence_id": "S38005",
+      "direction": "fr_to_en",
+      "answer": "All right then!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A380101",
+      "sentence_id": "S38010",
+      "direction": "fr_to_en",
+      "answer": "Hold on one second.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A380231",
+      "sentence_id": "S38023",
+      "direction": "fr_to_en",
+      "answer": "Let me see.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A380232",
+      "sentence_id": "S38023",
+      "direction": "fr_to_en",
+      "answer": "Let me see it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

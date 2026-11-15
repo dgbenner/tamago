@@ -1,0 +1,1456 @@
+{
+  "unit_id": "U64",
+  "pulled_at": "2026-11-15",
+  "candidates": 364,
+  "sentences": [
+    {
+      "sentence_id": "S64001",
+      "unit_id": "U64",
+      "french": "Vamos a ir juntos.",
+      "english": "We'll go together.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2449253",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64002",
+      "unit_id": "U64",
+      "french": "Nos vamos a ir mañana.",
+      "english": "We are going to leave tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9685240",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "stormy_clau",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64003",
+      "unit_id": "U64",
+      "french": "¿Vamos juntos?",
+      "english": "Shall we go together?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "685487",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MondCivitano",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64004",
+      "unit_id": "U64",
+      "french": "¿Cuándo nos vemos?",
+      "english": "When will we see each other?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2788169",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64005",
+      "unit_id": "U64",
+      "french": "¿Dónde nos vemos?",
+      "english": "Where should we meet?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5666677",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64006",
+      "unit_id": "U64",
+      "french": "¿No vamos a ir al parque hoy?",
+      "english": "Aren't we going out to the park today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1748875",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "teskmon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64007",
+      "unit_id": "U64",
+      "french": "¿Qué, vienes?",
+      "english": "Well, are you coming?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1813126",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64008",
+      "unit_id": "U64",
+      "french": "¿Quieres venir?",
+      "english": "Do you want to come over?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1827352",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Do you want to come along?"
+      ]
+    },
+    {
+      "sentence_id": "S64009",
+      "unit_id": "U64",
+      "french": "¿Me ves?",
+      "english": "Do you see me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2194520",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64010",
+      "unit_id": "U64",
+      "french": "¿Estás libre?",
+      "english": "Are you free?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2194525",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64011",
+      "unit_id": "U64",
+      "french": "¿Cuándo viene?",
+      "english": "When does he come?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2223600",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64012",
+      "unit_id": "U64",
+      "french": "¿Quién viene?",
+      "english": "Who's coming?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5056350",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": [
+        "Who'll come?",
+        "Who is coming?"
+      ]
+    },
+    {
+      "sentence_id": "S64013",
+      "unit_id": "U64",
+      "french": "¿Vienes mañana?",
+      "english": "Are you coming tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9406332",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64014",
+      "unit_id": "U64",
+      "french": "¿Qué ves?",
+      "english": "What do you see?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9706710",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64015",
+      "unit_id": "U64",
+      "french": "¿De dónde viene?",
+      "english": "Where do you come from?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "931206",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64016",
+      "unit_id": "U64",
+      "french": "¿Por qué vienes aquí?",
+      "english": "Why do you come here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1526326",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64017",
+      "unit_id": "U64",
+      "french": "¿Ves tu mesa?",
+      "english": "Do you see your table?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1912201",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64018",
+      "unit_id": "U64",
+      "french": "¿Estás libre el martes?",
+      "english": "Are you free on Tuesday?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "637022",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64019",
+      "unit_id": "U64",
+      "french": "¿Tiene mucho tiempo libre?",
+      "english": "Do you have much time to spare?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "685895",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Dejo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64020",
+      "unit_id": "U64",
+      "french": "¿Quieres venir con nosotros?",
+      "english": "Don't you want to come along?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "693764",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Do you want to come along with us?"
+      ]
+    },
+    {
+      "sentence_id": "S64021",
+      "unit_id": "U64",
+      "french": "¿Puedes venir un momento?",
+      "english": "Would you come here a moment?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "729392",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64022",
+      "unit_id": "U64",
+      "french": "¿Vas a salir mañana?",
+      "english": "Will you leave tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "739415",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Are you going out tomorrow?"
+      ]
+    },
+    {
+      "sentence_id": "S64023",
+      "unit_id": "U64",
+      "french": "¿Quieres salir de aquí?",
+      "english": "Do you want to get out of here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4791631",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "DarkHollow",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64024",
+      "unit_id": "U64",
+      "french": "¿Ya no están juntos?",
+      "english": "They're not together anymore?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10093285",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64025",
+      "unit_id": "U64",
+      "french": "Nos vemos.",
+      "english": "See you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1302968",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "leoruilova",
+      "other_english": [
+        "I'll be seeing you."
+      ]
+    },
+    {
+      "sentence_id": "S64026",
+      "unit_id": "U64",
+      "french": "Vamos a salir.",
+      "english": "We're going out.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6614104",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64027",
+      "unit_id": "U64",
+      "french": "Veo esto.",
+      "english": "I see this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1732156",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64028",
+      "unit_id": "U64",
+      "french": "Ya veo.",
+      "english": "I see.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3872456",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64029",
+      "unit_id": "U64",
+      "french": "Aquí vengo.",
+      "english": "Here I come.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6682423",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64030",
+      "unit_id": "U64",
+      "french": "Nunca salgo.",
+      "english": "I never go out.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7160137",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64031",
+      "unit_id": "U64",
+      "french": "Veo un libro.",
+      "english": "I see a book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "627073",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Leono",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64032",
+      "unit_id": "U64",
+      "french": "Vengo de España.",
+      "english": "I come from Spain.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1923241",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64033",
+      "unit_id": "U64",
+      "french": "Vengo de Francia.",
+      "english": "I'm from France.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1923243",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": [
+        "I am from France."
+      ]
+    },
+    {
+      "sentence_id": "S64034",
+      "unit_id": "U64",
+      "french": "No salgo mucho.",
+      "english": "I don't go out much.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2379200",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": [
+        "I don't get out much."
+      ]
+    },
+    {
+      "sentence_id": "S64035",
+      "unit_id": "U64",
+      "french": "Salgo esta tarde.",
+      "english": "I leave this afternoon.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4398674",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pchamorro",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S64001",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64001",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64001",
+      "position": 3,
+      "surface": "ir",
+      "word_id": "W1270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64001",
+      "position": 4,
+      "surface": "juntos",
+      "word_id": "W1272",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64002",
+      "position": 1,
+      "surface": "Nos",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64002",
+      "position": 2,
+      "surface": "vamos",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64002",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64002",
+      "position": 4,
+      "surface": "ir",
+      "word_id": "W1270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64002",
+      "position": 5,
+      "surface": "mañana",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64003",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64003",
+      "position": 2,
+      "surface": "juntos",
+      "word_id": "W1272",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64004",
+      "position": 1,
+      "surface": "Cuándo",
+      "word_id": "W1410",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64004",
+      "position": 2,
+      "surface": "nos",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64004",
+      "position": 3,
+      "surface": "vemos",
+      "word_id": "W1267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64005",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64005",
+      "position": 2,
+      "surface": "nos",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64005",
+      "position": 3,
+      "surface": "vemos",
+      "word_id": "W1267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64006",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64006",
+      "position": 2,
+      "surface": "vamos",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64006",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64006",
+      "position": 4,
+      "surface": "ir",
+      "word_id": "W1270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64006",
+      "position": 5,
+      "surface": "al",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64006",
+      "position": 6,
+      "surface": "parque",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64006",
+      "position": 7,
+      "surface": "hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64007",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64007",
+      "position": 2,
+      "surface": "vienes",
+      "word_id": "W1259",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64008",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64008",
+      "position": 2,
+      "surface": "venir",
+      "word_id": "W1261",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64009",
+      "position": 1,
+      "surface": "Me",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64009",
+      "position": 2,
+      "surface": "ves",
+      "word_id": "W1266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64010",
+      "position": 1,
+      "surface": "Estás",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64010",
+      "position": 2,
+      "surface": "libre",
+      "word_id": "W1271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64011",
+      "position": 1,
+      "surface": "Cuándo",
+      "word_id": "W1410",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64011",
+      "position": 2,
+      "surface": "viene",
+      "word_id": "W1260",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64012",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64012",
+      "position": 2,
+      "surface": "viene",
+      "word_id": "W1260",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64013",
+      "position": 1,
+      "surface": "Vienes",
+      "word_id": "W1259",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64013",
+      "position": 2,
+      "surface": "mañana",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64014",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64014",
+      "position": 2,
+      "surface": "ves",
+      "word_id": "W1266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64015",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64015",
+      "position": 2,
+      "surface": "dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64015",
+      "position": 3,
+      "surface": "viene",
+      "word_id": "W1260",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64016",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64016",
+      "position": 2,
+      "surface": "vienes",
+      "word_id": "W1259",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64016",
+      "position": 3,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64017",
+      "position": 1,
+      "surface": "Ves",
+      "word_id": "W1266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64017",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64017",
+      "position": 3,
+      "surface": "mesa",
+      "word_id": "W103",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64018",
+      "position": 1,
+      "surface": "Estás",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64018",
+      "position": 2,
+      "surface": "libre",
+      "word_id": "W1271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64018",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64018",
+      "position": 4,
+      "surface": "martes",
+      "word_id": "W1218",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64019",
+      "position": 1,
+      "surface": "Tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64019",
+      "position": 2,
+      "surface": "mucho",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64019",
+      "position": 3,
+      "surface": "tiempo",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64019",
+      "position": 4,
+      "surface": "libre",
+      "word_id": "W1271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64020",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64020",
+      "position": 2,
+      "surface": "venir",
+      "word_id": "W1261",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64020",
+      "position": 3,
+      "surface": "con",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64020",
+      "position": 4,
+      "surface": "nosotros",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64021",
+      "position": 1,
+      "surface": "Puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64021",
+      "position": 2,
+      "surface": "venir",
+      "word_id": "W1261",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64021",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64021",
+      "position": 4,
+      "surface": "momento",
+      "word_id": "W836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64022",
+      "position": 1,
+      "surface": "Vas",
+      "word_id": "W165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64022",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64022",
+      "position": 3,
+      "surface": "salir",
+      "word_id": "W1263",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64022",
+      "position": 4,
+      "surface": "mañana",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64023",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64023",
+      "position": 2,
+      "surface": "salir",
+      "word_id": "W1263",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64023",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64023",
+      "position": 4,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64024",
+      "position": 1,
+      "surface": "Ya",
+      "word_id": "W1412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64024",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64024",
+      "position": 3,
+      "surface": "están",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64024",
+      "position": 4,
+      "surface": "juntos",
+      "word_id": "W1272",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64025",
+      "position": 1,
+      "surface": "Nos",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64025",
+      "position": 2,
+      "surface": "vemos",
+      "word_id": "W1267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64026",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64026",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64026",
+      "position": 3,
+      "surface": "salir",
+      "word_id": "W1263",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64027",
+      "position": 1,
+      "surface": "Veo",
+      "word_id": "W1265",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64027",
+      "position": 2,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64028",
+      "position": 1,
+      "surface": "Ya",
+      "word_id": "W1412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64028",
+      "position": 2,
+      "surface": "veo",
+      "word_id": "W1265",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64029",
+      "position": 1,
+      "surface": "Aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64029",
+      "position": 2,
+      "surface": "vengo",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64030",
+      "position": 1,
+      "surface": "Nunca",
+      "word_id": "W1228",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64030",
+      "position": 2,
+      "surface": "salgo",
+      "word_id": "W1264",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64031",
+      "position": 1,
+      "surface": "Veo",
+      "word_id": "W1265",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64031",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64031",
+      "position": 3,
+      "surface": "libro",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64032",
+      "position": 1,
+      "surface": "Vengo",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64032",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64032",
+      "position": 3,
+      "surface": "España",
+      "word_id": "W857",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64033",
+      "position": 1,
+      "surface": "Vengo",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64033",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64033",
+      "position": 3,
+      "surface": "Francia",
+      "word_id": "W859",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64034",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64034",
+      "position": 2,
+      "surface": "salgo",
+      "word_id": "W1264",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64034",
+      "position": 3,
+      "surface": "mucho",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64035",
+      "position": 1,
+      "surface": "Salgo",
+      "word_id": "W1264",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64035",
+      "position": 2,
+      "surface": "esta",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64035",
+      "position": 3,
+      "surface": "tarde",
+      "word_id": "W1209",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A640081",
+      "sentence_id": "S64008",
+      "direction": "fr_to_en",
+      "answer": "Do you want to come along?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A640121",
+      "sentence_id": "S64012",
+      "direction": "fr_to_en",
+      "answer": "Who'll come?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A640122",
+      "sentence_id": "S64012",
+      "direction": "fr_to_en",
+      "answer": "Who is coming?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A640201",
+      "sentence_id": "S64020",
+      "direction": "fr_to_en",
+      "answer": "Do you want to come along with us?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A640221",
+      "sentence_id": "S64022",
+      "direction": "fr_to_en",
+      "answer": "Are you going out tomorrow?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A640251",
+      "sentence_id": "S64025",
+      "direction": "fr_to_en",
+      "answer": "I'll be seeing you.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A640331",
+      "sentence_id": "S64033",
+      "direction": "fr_to_en",
+      "answer": "I am from France.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A640341",
+      "sentence_id": "S64034",
+      "direction": "fr_to_en",
+      "answer": "I don't get out much.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

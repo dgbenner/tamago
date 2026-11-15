@@ -1,0 +1,995 @@
+{
+  "unit_id": "U88",
+  "pulled_at": "2026-11-15",
+  "candidates": 19,
+  "sentences": [
+    {
+      "sentence_id": "S88001",
+      "unit_id": "U88",
+      "french": "¿Tiene una dirección de correo electrónico?",
+      "english": "Do you have an e-mail address?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5041060",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88002",
+      "unit_id": "U88",
+      "french": "¿Quieres firmar?",
+      "english": "Do you want to sign?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6628083",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Schuager",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88003",
+      "unit_id": "U88",
+      "french": "¿Puedes firmar esto?",
+      "english": "Can you sign this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7946591",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88004",
+      "unit_id": "U88",
+      "french": "¿Cuál es su nacionalidad?",
+      "english": "What's your nationality?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "948558",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": [
+        "What is his nationality?"
+      ]
+    },
+    {
+      "sentence_id": "S88005",
+      "unit_id": "U88",
+      "french": "¿Nos vamos de paseo?",
+      "english": "Are we going for a walk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1138591",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88006",
+      "unit_id": "U88",
+      "french": "¿Tengo que firmar algo?",
+      "english": "Do I have to sign something?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2152696",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88007",
+      "unit_id": "U88",
+      "french": "¿Va usted de paseo?",
+      "english": "Are you going for a walk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2264666",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "cueyayotl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88008",
+      "unit_id": "U88",
+      "french": "¿Tienes tu carné de estudiante?",
+      "english": "Do you have your student ID card?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10112890",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88009",
+      "unit_id": "U88",
+      "french": "¿Cuál es tu fecha de nacimiento?",
+      "english": "What is your date of birth?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "656175",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MondCivitano",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88010",
+      "unit_id": "U88",
+      "french": "Tienes correo.",
+      "english": "You've got mail.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1387546",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "wallebot",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88011",
+      "unit_id": "U88",
+      "french": "Tom es divorciado.",
+      "english": "Tom is divorced.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1284307",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88012",
+      "unit_id": "U88",
+      "french": "Tom es viudo.",
+      "english": "Tom is a widower.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2383117",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88013",
+      "unit_id": "U88",
+      "french": "Él es japonés de nacimiento.",
+      "english": "He is Japanese by birth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2011631",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88014",
+      "unit_id": "U88",
+      "french": "Escribe tu fecha de nacimiento aquí.",
+      "english": "Write down your date of birth here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "745696",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88015",
+      "unit_id": "U88",
+      "french": "El correo tiene que llegar hoy.",
+      "english": "The mail has to come today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1131083",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88016",
+      "unit_id": "U88",
+      "french": "En la postal puedes ver una iglesia.",
+      "english": "On the postcard, you can see a church.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3440777",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hantol01",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88017",
+      "unit_id": "U88",
+      "french": "No puedes firmar con lápiz.",
+      "english": "You can't sign with a pencil.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7276573",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88018",
+      "unit_id": "U88",
+      "french": "Solo tienes que firmar aquí.",
+      "english": "You just need to sign right here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10218259",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "manufrutos",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S88019",
+      "unit_id": "U88",
+      "french": "Tienes que firmar con tu nombre.",
+      "english": "You've got to sign your name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5082967",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "diegohn",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S88001",
+      "position": 1,
+      "surface": "Tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 3,
+      "surface": "dirección",
+      "word_id": "W851",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 5,
+      "surface": "correo",
+      "word_id": "W1743",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88001",
+      "position": 6,
+      "surface": "electrónico",
+      "word_id": "W1744",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 1,
+      "surface": "Quieres",
+      "word_id": "W874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88002",
+      "position": 2,
+      "surface": "firmar",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 1,
+      "surface": "Puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 2,
+      "surface": "firmar",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88003",
+      "position": 3,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88004",
+      "position": 4,
+      "surface": "nacionalidad",
+      "word_id": "W1738",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 1,
+      "surface": "Nos",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 2,
+      "surface": "vamos",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88005",
+      "position": 4,
+      "surface": "paseo",
+      "word_id": "W1748",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 1,
+      "surface": "Tengo",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W1471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 3,
+      "surface": "firmar",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88006",
+      "position": 4,
+      "surface": "algo",
+      "word_id": "W1614",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 1,
+      "surface": "Va",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 2,
+      "surface": "usted",
+      "word_id": "W036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88007",
+      "position": 4,
+      "surface": "paseo",
+      "word_id": "W1748",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 3,
+      "surface": "carné",
+      "word_id": "W1745",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88008",
+      "position": 5,
+      "surface": "estudiante",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 4,
+      "surface": "fecha",
+      "word_id": "W1251",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88009",
+      "position": 6,
+      "surface": "nacimiento",
+      "word_id": "W1737",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88010",
+      "position": 2,
+      "surface": "correo",
+      "word_id": "W1743",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88011",
+      "position": 3,
+      "surface": "divorciado",
+      "word_id": "W1750",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88012",
+      "position": 3,
+      "surface": "viudo",
+      "word_id": "W1751",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 1,
+      "surface": "Él",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 3,
+      "surface": "japonés",
+      "word_id": "W864",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88013",
+      "position": 5,
+      "surface": "nacimiento",
+      "word_id": "W1737",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88014",
+      "position": 1,
+      "surface": "Escribe",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88014",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88014",
+      "position": 3,
+      "surface": "fecha",
+      "word_id": "W1251",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88014",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88014",
+      "position": 5,
+      "surface": "nacimiento",
+      "word_id": "W1737",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88014",
+      "position": 6,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 1,
+      "surface": "El",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 2,
+      "surface": "correo",
+      "word_id": "W1743",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 3,
+      "surface": "tiene",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 4,
+      "surface": "que",
+      "word_id": "W1471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 5,
+      "surface": "llegar",
+      "word_id": "W1309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88015",
+      "position": 6,
+      "surface": "hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 1,
+      "surface": "En",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 3,
+      "surface": "postal",
+      "word_id": "W1742",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 4,
+      "surface": "puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 5,
+      "surface": "ver",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 6,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88016",
+      "position": 7,
+      "surface": "iglesia",
+      "word_id": "W1033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 2,
+      "surface": "puedes",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 3,
+      "surface": "firmar",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 4,
+      "surface": "con",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88017",
+      "position": 5,
+      "surface": "lápiz",
+      "word_id": "W1119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 1,
+      "surface": "Solo",
+      "word_id": "W1413",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 2,
+      "surface": "tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 3,
+      "surface": "que",
+      "word_id": "W1471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 4,
+      "surface": "firmar",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88018",
+      "position": 5,
+      "surface": "aquí",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 1,
+      "surface": "Tienes",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W1471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 3,
+      "surface": "firmar",
+      "word_id": "W1735",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 4,
+      "surface": "con",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 5,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S88019",
+      "position": 6,
+      "surface": "nombre",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A880041",
+      "sentence_id": "S88004",
+      "direction": "fr_to_en",
+      "answer": "What is his nationality?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

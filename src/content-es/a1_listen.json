@@ -96,5 +96,173 @@
     "kind": "price",
     "say": "cincuenta pesos",
     "answer": "50"
+  },
+  {
+    "id": "N201",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Son las tres y media.",
+    "answer": "3:30"
+  },
+  {
+    "id": "N202",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Son las ocho y cuarto.",
+    "answer": "8:15"
+  },
+  {
+    "id": "N203",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Es mediodía.",
+    "answer": "12:00"
+  },
+  {
+    "id": "N204",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "Son las diez menos cuarto.",
+    "answer": "9:45"
+  },
+  {
+    "id": "N205",
+    "unit_id": "U62",
+    "kind": "date",
+    "say": "El cinco de marzo.",
+    "answer": "5/3"
+  },
+  {
+    "id": "N206",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "El primero de mayo.",
+    "answer": "1/5"
+  },
+  {
+    "id": "N207",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "El quince de septiembre.",
+    "answer": "15/9"
+  },
+  {
+    "id": "N208",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "El treinta de diciembre.",
+    "answer": "30/12"
+  },
+  {
+    "id": "N209",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "El autobús sale a las cuatro y veinte.",
+    "answer": "4:20"
+  },
+  {
+    "id": "N210",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "El tren llega a las nueve y diez.",
+    "answer": "9:10"
+  },
+  {
+    "id": "N211",
+    "unit_id": "U68",
+    "kind": "time",
+    "say": "Atención: el autobús a Guadalajara sale a las seis.",
+    "answer": "6:00"
+  },
+  {
+    "id": "N212",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "El autobús número siete sale ahora.",
+    "answer": "7"
+  },
+  {
+    "id": "N301",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Un café y una cerveza: cuarenta y cinco pesos.",
+    "answer": "45"
+  },
+  {
+    "id": "N302",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "La cuenta: ochenta pesos, por favor.",
+    "answer": "80"
+  },
+  {
+    "id": "N303",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "El menú del día cuesta noventa pesos.",
+    "answer": "90"
+  },
+  {
+    "id": "N304",
+    "unit_id": "U82",
+    "kind": "number",
+    "say": "Su mesa es la número doce.",
+    "answer": "12"
+  },
+  {
+    "id": "N305",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "El banco está a cincuenta metros.",
+    "answer": "50"
+  },
+  {
+    "id": "N306",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "La farmacia está en el número veinte de esta calle.",
+    "answer": "20"
+  },
+  {
+    "id": "N307",
+    "unit_id": "U84",
+    "kind": "number",
+    "say": "La playa está a quince kilómetros.",
+    "answer": "15"
+  },
+  {
+    "id": "N308",
+    "unit_id": "U86",
+    "kind": "number",
+    "say": "La casa tiene cuatro habitaciones.",
+    "answer": "4"
+  },
+  {
+    "id": "N309",
+    "unit_id": "U88",
+    "kind": "phone",
+    "say": "Mi teléfono es el cero, cinco, trece, veinte, once, diecisiete.",
+    "answer": "05 13 20 11 17"
+  },
+  {
+    "id": "N310",
+    "unit_id": "U88",
+    "kind": "date",
+    "say": "Fecha de nacimiento: el diez de abril.",
+    "answer": "10/4"
+  },
+  {
+    "id": "N311",
+    "unit_id": "U95",
+    "kind": "number",
+    "say": "Su habitación es la número dieciocho.",
+    "answer": "18"
+  },
+  {
+    "id": "N312",
+    "unit_id": "U95",
+    "kind": "price",
+    "say": "La habitación doble cuesta cien dólares.",
+    "answer": "100"
   }
 ]

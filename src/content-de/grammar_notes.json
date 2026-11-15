@@ -1022,5 +1022,848 @@
       "S58106"
     ],
     "conjugations": []
+  },
+  {
+    "unit_id": "U61",
+    "rule": "Wie viel Uhr ist es? and Wie spät ist es? both ask the time. The answer starts with Es ist: Es ist drei Uhr. Viertel nach is quarter past and Viertel vor is quarter to: Viertel nach sechs, Viertel vor zwei. Careful with halb: it counts toward the next hour, so halb vier is half past three, not half past four. Um gives the time something happens: um acht Uhr, at eight o'clock. Schon means already, gerade means just now, and gleich means in a moment.",
+    "example_sentence_ids": "S61003;S61107;S61103",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S61003",
+      "S61107",
+      "S61103"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U71",
+    "rule": "Small words that change a sentence. Noch is still: Ist er noch dort? Nur is only. Nie means never and nichts means nothing, and neither needs nicht: Tom sagt mir nichts. Gern after a verb says you like doing it: ich lese gern, I like reading. Mich and dich are me and you as the object of a verb: Verstehst du mich? Mir is to me or for me: Tom gibt mir nie etwas. Denn in a question shows interest and has no English word of its own: Was ist denn das?",
+    "example_sentence_ids": "S71010;S71109;S71103",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S71010",
+      "S71109",
+      "S71103"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U37",
+    "rule": "When you didn't hear, say Entschuldigen Sie to a stranger, then say what went wrong: Ich habe Sie nicht gehört. Gehört is the past form of hören; it goes to the end of the sentence, with habe, hast or haben in second place: Hast du meine Frage gehört? Wie bitte? is the short way to ask someone to say it again. Sagen is to say or to tell: Können Sie das noch einmal sagen?",
+    "example_sentence_ids": "S37001;S37030;S37103",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S37001",
+      "S37030",
+      "S37103"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U62",
+    "rule": "The days take am: am Montag, on Monday. Von … bis is from … to: von Montag bis Donnerstag. Bis on its own before a day says goodbye until then: Bis Dienstag! Time phrases without a preposition use the object form: jeden Tag (every day), nächsten Sonntag (next Sunday), letzten Monat (last month); with a die word, jede Woche, nächste Woche, letzte Woche. War is was: Gestern war Donnerstag. Ab means from a time on: ab Montag.",
+    "example_sentence_ids": "S62002;S62004;S62015",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S62002",
+      "S62004",
+      "S62015"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U63",
+    "rule": "Months take im: im Juli, im Februar. Every month is a der word. A date uses der with an ordinal number: der erste Mai, der zweite, der dritte. Heute ist der erste Mai gives today's date. Mein Geburtstag ist im Juli and Ich habe im Juli Geburtstag both say when your birthday is. Month names have a capital letter, like every German noun.",
+    "example_sentence_ids": "S63004;S63005;S63006",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S63004",
+      "S63005",
+      "S63006"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U72",
+    "rule": "Seasons take im, like months: im Sommer, im Winter. Parts of the day take am: am Vormittag, am Nachmittag, am Abend. After heute or morgen there is no am: heute Abend is this evening. Seit says since when something has been going on, and German keeps the present tense: Seit wann wohnst du dort? Bald is soon, später later, früher earlier, sofort at once, and wieder again.",
+    "example_sentence_ids": "S72017;S72020;S72003",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S72017",
+      "S72020",
+      "S72003"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U38",
+    "rule": "To win a moment to think, say Warte mal to a friend, or Können Sie kurz warten? to a stranger. Mal softens a request and has no English word of its own. Also at the start of a sentence means so or well: Also, was möchtest du? Vielleicht is maybe. Ich denke … is I think …",
+    "example_sentence_ids": "S38009;S38001;S38101",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S38009",
+      "S38001",
+      "S38101"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U64",
+    "rule": "Wollen says what you want to do: ich will, du willst, wir wollen. Like möchte and kann, it sends the other verb to the end of the sentence: Ich will Tom besuchen. Mitkommen means to come along, and einladen means to invite. Hast du Lust? asks whether someone feels like it, and Lust auf names the thing: Hast du Lust auf einen Ausflug? Ich treffe dich am Bahnhof fixes the place; um with a time fixes when.",
+    "example_sentence_ids": "S64006;S64010;S64025",
+    "conjugation_lemma": "wollen",
+    "status": "live",
+    "examples": [
+      "S64006",
+      "S64010",
+      "S64025"
+    ],
+    "conjugations": [
+      {
+        "lemma": "wollen",
+        "present": [
+          {
+            "person": "ich",
+            "form": "will"
+          },
+          {
+            "person": "du",
+            "form": "willst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "will"
+          },
+          {
+            "person": "wir",
+            "form": "wollen"
+          },
+          {
+            "person": "ihr",
+            "form": "wollt"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "wollen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/wollen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U65",
+    "rule": "Some verbs split in two. Aufstehen is to get up, but in a sentence auf goes to the end: Ich stehe um sieben Uhr auf. Anfangen (to begin), aufhören (to stop) and fernsehen (to watch television) split the same way. After kann, möchte or will they stay in one piece at the end: Kannst du aufhören? Ins is in das: Ich gehe ins Bett. Beginnt and endet give the times something starts and ends.",
+    "example_sentence_ids": "S65101;S65002;S65019",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S65101",
+      "S65002",
+      "S65019"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U73",
+    "rule": "Everyday verbs. With ich the verb ends in -e: ich mache, ich sehe, ich nehme, ich finde, ich kenne. After kann or möchte the verb goes to the end in its dictionary form: Kannst du Tom abholen? The thing a verb acts on changes der to den: der Bus, but Ich nehme den Bus. Die and das stay the same. Kennen is to know a person or a place. Liegt says where something lies or is.",
+    "example_sentence_ids": "S73004;S73029;S73014",
+    "conjugation_lemma": "nehmen",
+    "status": "live",
+    "examples": [
+      "S73004",
+      "S73029",
+      "S73014"
+    ],
+    "conjugations": [
+      {
+        "lemma": "nehmen",
+        "present": [
+          {
+            "person": "ich",
+            "form": "nehme"
+          },
+          {
+            "person": "du",
+            "form": "nehmst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "nehmt"
+          },
+          {
+            "person": "wir",
+            "form": "nehmen"
+          },
+          {
+            "person": "ihr",
+            "form": "nehmt"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "nehmen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/nehmen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U66",
+    "rule": "Signs are short. Eingang is the way in, Ausgang the way out. Geöffnet means open and geschlossen closed. Verboten means forbidden; the thing that is forbidden comes first, written as a noun with a capital letter: Rauchen verboten. Achtung! and Vorsicht! both warn you. Der Eintritt ist frei means it costs nothing to go in. Wo ist …? and Wo sind …? ask where something is.",
+    "example_sentence_ids": "S66002;S66007;S66025",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S66002",
+      "S66007",
+      "S66025"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U67",
+    "rule": "Fahren is to go by vehicle; it changes its vowel with du and with er, sie, es: ich fahre, du fährst, der Zug fährt. Abfahren (to leave) and ankommen (to arrive) split: Der Zug fährt pünktlich ab. The nouns are die Abfahrt and die Ankunft. Trains leave von Gleis drei, from track three. Hat Verspätung means is late. Dauern says how long something takes: Es kann eine Stunde dauern.",
+    "example_sentence_ids": "S67002;S67119;S67008",
+    "conjugation_lemma": "fahren",
+    "status": "live",
+    "examples": [
+      "S67002",
+      "S67119",
+      "S67008"
+    ],
+    "conjugations": [
+      {
+        "lemma": "fahren",
+        "present": [
+          {
+            "person": "ich",
+            "form": "fahre"
+          },
+          {
+            "person": "du",
+            "form": "fährst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "fährt"
+          },
+          {
+            "person": "wir",
+            "form": "fahren"
+          },
+          {
+            "person": "ihr",
+            "form": "fahrt"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "fahren"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/fahren#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U74",
+    "rule": "Gefallen turns the sentence round: the thing you like is the subject, and the person is mir, dir or Ihnen. Das gefällt mir is I like that; Gefällt es dir? is Do you like it? Ich glaube … is I believe or I think. Gut has its own forms for better and best: besser, and der beste, die beste; am besten means best of all. Bist du mir böse? asks Are you angry with me?",
+    "example_sentence_ids": "S74006;S74003;S74018",
+    "conjugation_lemma": "gefallen",
+    "status": "live",
+    "examples": [
+      "S74006",
+      "S74003",
+      "S74018"
+    ],
+    "conjugations": [
+      {
+        "lemma": "gefallen",
+        "present": [
+          {
+            "person": "ich",
+            "form": "gefalle"
+          },
+          {
+            "person": "du",
+            "form": "gefällst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "gefällt"
+          },
+          {
+            "person": "wir",
+            "form": "gefallen"
+          },
+          {
+            "person": "ihr",
+            "form": "gefallt"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "gefallen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/gefallen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U39",
+    "rule": "When you aren't sure, say so: Ich bin mir nicht sicher. Bist du sicher? asks whether someone else is. Ich habe keine Ahnung means I have no idea. Wissen is to know a fact: Wissen Sie, warum? Eigentlich softens a question or means actually: Wo wohnst du eigentlich?",
+    "example_sentence_ids": "S39010;S39002;S39013",
+    "conjugation_lemma": "wissen",
+    "status": "live",
+    "examples": [
+      "S39010",
+      "S39002",
+      "S39013"
+    ],
+    "conjugations": [
+      {
+        "lemma": "wissen",
+        "present": [
+          {
+            "person": "ich",
+            "form": "weiß"
+          },
+          {
+            "person": "du",
+            "form": "weißt"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "weiß"
+          },
+          {
+            "person": "wir",
+            "form": "wissen"
+          },
+          {
+            "person": "ihr",
+            "form": "wisst"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "wissen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/wissen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U68",
+    "rule": "Announcements are short and often use the dictionary form of the verb as a command: Bitte einsteigen! Einsteigen is to get on and aussteigen to get off. Halten is to stop: Der Zug hält nicht in Hamburg. Weiter means on or further: Der Zug fährt weiter nach Berlin. Zurück is back. A train or a plane hat Verspätung when it is late. Listen for the place, the time and the Gleis.",
+    "example_sentence_ids": "S68116;S68115;S68010",
+    "conjugation_lemma": "halten",
+    "status": "live",
+    "examples": [
+      "S68116",
+      "S68115",
+      "S68010"
+    ],
+    "conjugations": [
+      {
+        "lemma": "halten",
+        "present": [
+          {
+            "person": "ich",
+            "form": "halte"
+          },
+          {
+            "person": "du",
+            "form": "hältst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "hält"
+          },
+          {
+            "person": "wir",
+            "form": "halten"
+          },
+          {
+            "person": "ihr",
+            "form": "haltet"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "halten"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/halten#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U69",
+    "rule": "Written instructions put the dictionary form of the verb at the end, usually with bitte: Bitte hier drücken. Spoken politely to one person, the verb comes first with Sie: Öffnen Sie die Tür! A request with kann is softer: Kann ich das Fenster öffnen? Anmachen is to switch on and ausmachen to switch off. Legen is to put something down flat; stellen is to put something so that it stands, and eine Frage stellen is to ask a question.",
+    "example_sentence_ids": "S69101;S69006;S69001",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S69101",
+      "S69006",
+      "S69001"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U75",
+    "rule": "Modal verbs say must, may and should. Müssen: ich muss, du musst. Dürfen: ich darf, du darfst. Sollen: ich soll. The modal verb is second and the other verb goes to the end: Ich muss jetzt meine Hausaufgaben machen. In a question it comes first: Darf ich rauchen? Soll ich …? offers to do something. Werden with another verb talks about the future: Ich werde mein Auto waschen. Möchten Sie …? is the polite would you like.",
+    "example_sentence_ids": "S75009;S75018;S75007",
+    "conjugation_lemma": "müssen;dürfen",
+    "status": "live",
+    "examples": [
+      "S75009",
+      "S75018",
+      "S75007"
+    ],
+    "conjugations": [
+      {
+        "lemma": "müssen",
+        "present": [
+          {
+            "person": "ich",
+            "form": "muss"
+          },
+          {
+            "person": "du",
+            "form": "musst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "muss"
+          },
+          {
+            "person": "wir",
+            "form": "müssen"
+          },
+          {
+            "person": "ihr",
+            "form": "müsst"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "müssen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/m%C3%BCssen#Conjugation"
+      },
+      {
+        "lemma": "dürfen",
+        "present": [
+          {
+            "person": "ich",
+            "form": "darf"
+          },
+          {
+            "person": "du",
+            "form": "darfst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "darf"
+          },
+          {
+            "person": "wir",
+            "form": "dürfen"
+          },
+          {
+            "person": "ihr",
+            "form": "dürft"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "dürfen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/d%C3%BCrfen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U81",
+    "rule": "To order politely, say Ich hätte gern …, I would like …; a der word you order takes einen: Ich hätte gern einen Kaffee. Bestellen is to order: Möchten Sie bestellen? Schmecken says how food tastes: Schmeckt der Wein? With mir, dir or Ihnen it says who likes it: Schmeckt dir Bier? Die Rechnung is the bill: Kann ich bitte die Rechnung haben?",
+    "example_sentence_ids": "S81005;S81001;S81020",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S81005",
+      "S81001",
+      "S81020"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U91",
+    "rule": "The meals are das Frühstück, das Mittagessen and das Abendessen. Wann gibt es Frühstück? asks when a meal is served. Food you eat or order needs no article when you mean some of it: Ich esse Hähnchen. Mit joins what comes with it: ein Brötchen mit Schinken. Das Ei is one egg.",
+    "example_sentence_ids": "S91009;S91022;S91104",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S91009",
+      "S91022",
+      "S91104"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U26",
+    "rule": "To ask a stranger for help, start with Entschuldigung. Darf ich dich stören? asks whether you may disturb someone. Ich brauche Hilfe is I need help. Danken takes dir or Ihnen: Ich möchte dir danken. Nichts zu danken! answers a thank-you: don't mention it.",
+    "example_sentence_ids": "S26014;S26001;S26008",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S26014",
+      "S26001",
+      "S26008"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U82",
+    "rule": "Ist der Platz noch frei? asks whether a seat is free. Was empfehlen Sie? asks the waiter what is good, and the answer may be Ich kann die Suppe empfehlen. Kochen is to cook: Kannst du kochen? Riechen is to smell: Es riecht gut! Ich bin satt means I am full. Alles is everything: Alles war sehr lecker.",
+    "example_sentence_ids": "S82015;S82012;S82017",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S82015",
+      "S82012",
+      "S82017"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U83",
+    "rule": "Wie komme ich zum Bahnhof? asks the way. Zu joins with the word for the: zum (zu dem) with der and das words, zur (zu der) with die words: zum Bahnhof, zur Schule. Links is left, rechts is right and geradeaus is straight ahead. Directions to a stranger put the verb first with Sie: Gehen Sie geradeaus. Bis zur Ampel means as far as the traffic light. In der Nähe means nearby. Wohin asks where to.",
+    "example_sentence_ids": "S83110;S83111;S83005",
+    "conjugation_lemma": "gehen",
+    "status": "live",
+    "examples": [
+      "S83110",
+      "S83111",
+      "S83005"
+    ],
+    "conjugations": [
+      {
+        "lemma": "gehen",
+        "present": [
+          {
+            "person": "ich",
+            "form": "gehe"
+          },
+          {
+            "person": "du",
+            "form": "gehst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "geht"
+          },
+          {
+            "person": "wir",
+            "form": "gehen"
+          },
+          {
+            "person": "ihr",
+            "form": "geht"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "gehen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/gehen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U92",
+    "rule": "Das Geschäft and der Laden both mean shop. Wo ist die nächste Bäckerei? asks for the nearest one. Einkaufen is to shop; after gehen it stays whole: Gehst du oft einkaufen? Verkaufen is to sell: Was verkaufen Sie? Zur Post and zum Supermarkt say where you are going. Günstig means good value.",
+    "example_sentence_ids": "S92016;S92006;S92001",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S92016",
+      "S92006",
+      "S92001"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U27",
+    "rule": "If you are lost, say Ich habe mich verlaufen. Ich bin fremd hier means I am a stranger here. Zeigen is to show, with mir for to me: Können Sie es mir zeigen? Ein Stadtplan is a street map. Suchen is to look for: Was suchen Sie?",
+    "example_sentence_ids": "S27101;S27011;S27018",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S27101",
+      "S27011",
+      "S27018"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U84",
+    "rule": "How you travel takes mit and dem or der: mit dem Bus, mit der Straßenbahn, mit der S-Bahn. On foot is zu Fuß: Ich gehe zu Fuß. Rad fahren is to ride a bike: Wie oft fahren Sie Rad? Laufen is to walk or to run, and it changes its vowel: ich laufe, er läuft. Die Haltestelle is where a bus or tram stops.",
+    "example_sentence_ids": "S84018;S84008;S84101",
+    "conjugation_lemma": "laufen",
+    "status": "live",
+    "examples": [
+      "S84018",
+      "S84008",
+      "S84101"
+    ],
+    "conjugations": [
+      {
+        "lemma": "laufen",
+        "present": [
+          {
+            "person": "ich",
+            "form": "laufe"
+          },
+          {
+            "person": "du",
+            "form": "läufst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "läuft"
+          },
+          {
+            "person": "wir",
+            "form": "laufen"
+          },
+          {
+            "person": "ihr",
+            "form": "lauft"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "laufen"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/laufen#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U85",
+    "rule": "Unser is our, and euer is your when speaking to several people; like mein, they add -e before a die word or a plural: unser Auto, unsere Kinder; euer Vater, eure Tochter. Die Geschwister are brothers and sisters together. Verheiratet is married and ledig is single. Leben is to live: Wo lebt dein Opa?",
+    "example_sentence_ids": "S85008;S85026;S85007",
+    "conjugation_lemma": "leben",
+    "status": "live",
+    "examples": [
+      "S85008",
+      "S85026",
+      "S85007"
+    ],
+    "conjugations": [
+      {
+        "lemma": "leben",
+        "present": [
+          {
+            "person": "ich",
+            "form": "lebe"
+          },
+          {
+            "person": "du",
+            "form": "lebst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "lebt"
+          },
+          {
+            "person": "wir",
+            "form": "leben"
+          },
+          {
+            "person": "ihr",
+            "form": "lebt"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "leben"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/leben#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U93",
+    "rule": "Words for where. An is at or by: an der Ecke. Bei is at someone's place: Ist Maria bei dir? Unter is under, and über is over or about. Zwischen is between. Ohne (without) and durch (through) take den with a der word: durch den Park. Oben is upstairs or at the top, unten downstairs or at the bottom, hinten at the back, and daneben next to it.",
+    "example_sentence_ids": "S93028;S93103;S93005",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S93028",
+      "S93103",
+      "S93005"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U86",
+    "rule": "Rooms take in der or im: in der Küche, im Bad, im Wohnzimmer; auf dem Balkon is on the balcony. A floor is ein Stock: im ersten Stock, im zweiten Stock. Mieten is to rent, and vermieten is to rent out. Umziehen is to move house: Tom will umziehen.",
+    "example_sentence_ids": "S86013;S86108;S86015",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S86013",
+      "S86108",
+      "S86015"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U87",
+    "rule": "Was bist du von Beruf? asks someone's job. The answer has no ein: Ich bin Lehrer, Ich bin Lehrerin. Arbeiten is to work: Arbeiten Sie hier? Studieren is only for university: Was studieren Sie? Verdienen is to earn: Wie viel verdient Tom? Die Stelle and der Job both mean a job you hold or want.",
+    "example_sentence_ids": "S87017;S87116;S87007",
+    "conjugation_lemma": "arbeiten;studieren",
+    "status": "live",
+    "examples": [
+      "S87017",
+      "S87116",
+      "S87007"
+    ],
+    "conjugations": [
+      {
+        "lemma": "arbeiten",
+        "present": [
+          {
+            "person": "ich",
+            "form": "arbeite"
+          },
+          {
+            "person": "du",
+            "form": "arbeitest"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "arbeitet"
+          },
+          {
+            "person": "wir",
+            "form": "arbeiten"
+          },
+          {
+            "person": "ihr",
+            "form": "arbeitet"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "arbeiten"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/arbeiten#Conjugation"
+      },
+      {
+        "lemma": "studieren",
+        "present": [
+          {
+            "person": "ich",
+            "form": "studiere"
+          },
+          {
+            "person": "du",
+            "form": "studierst"
+          },
+          {
+            "person": "er, sie, es",
+            "form": "studiert"
+          },
+          {
+            "person": "wir",
+            "form": "studieren"
+          },
+          {
+            "person": "ihr",
+            "form": "studiert"
+          },
+          {
+            "person": "sie, Sie",
+            "form": "studieren"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/studieren#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U94",
+    "rule": "Reisen is to travel: Reisen Sie gern? Ins Ausland is abroad, when you go there. Übernachten is to stay the night. A hotel has ein Einzelzimmer for one person and ein Doppelzimmer for two. Der Pass is a passport and der Ausweis an identity card. Besichtigen is to visit a sight, and a guided tour is eine Führung. Viele means many.",
+    "example_sentence_ids": "S94001;S94023;S94016",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S94001",
+      "S94023",
+      "S94016"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U28",
+    "rule": "To say what is wrong: Das funktioniert nicht means that doesn't work. Fehlen is to be missing: Hier fehlt etwas. Was ist passiert? asks what happened. Ist alles in Ordnung? asks whether everything is all right, and Das ist in Ordnung says it is.",
+    "example_sentence_ids": "S28002;S28104;S28101",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S28002",
+      "S28104",
+      "S28101"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U88",
+    "rule": "A form is ein Formular, and to fill it in is ausfüllen: Bitte das Formular ausfüllen. German builds long nouns from short ones: Geburtsjahr is year of birth and Geburtsort is place of birth. Männlich is male and weiblich is female. Unterschreiben is to sign, and die Unterschrift is the signature. Sich anmelden is to register: Ich möchte mich anmelden.",
+    "example_sentence_ids": "S88104;S88110;S88009",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S88104",
+      "S88110",
+      "S88009"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U89",
+    "rule": "A message to a friend opens with Liebe for a woman and Lieber for a man: Liebe Maria, Lieber Tom. It closes with Viele Grüße. Herzlichen Glückwunsch! is congratulations, with zum or zur for the occasion: Herzlichen Glückwunsch zum Geburtstag! Ich freue mich means I am glad; für says for whom, and auf says what you look forward to. Schicken is to send, and danke für … thanks someone for something.",
+    "example_sentence_ids": "S89111;S89115;S89105",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S89111",
+      "S89115",
+      "S89105"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U95",
+    "rule": "Alle is all or everyone, beide is both, andere is other, and die meisten is most. Diese is this with a die word and these with a plural; dieser goes with a der word: dieser Mann, diese Uhr. Sich kümmern um is to look after: Wer wird sich um dich kümmern? Es eilig haben is to be in a hurry: Hast du es eilig?",
+    "example_sentence_ids": "S95005;S95012;S95014",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S95005",
+      "S95012",
+      "S95014"
+    ],
+    "conjugations": []
   }
 ]

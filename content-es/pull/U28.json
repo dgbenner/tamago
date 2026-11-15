@@ -1,0 +1,1262 @@
+{
+  "unit_id": "U28",
+  "pulled_at": "2026-11-15",
+  "candidates": 157,
+  "sentences": [
+    {
+      "sentence_id": "S28001",
+      "unit_id": "U28",
+      "french": "¿Qué falta?",
+      "english": "What is missing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "519499",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28002",
+      "unit_id": "U28",
+      "french": "¿Funciona ahora?",
+      "english": "Does it work now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6689492",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "UsuarioX",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28003",
+      "unit_id": "U28",
+      "french": "¿Funciona eso?",
+      "english": "Does it work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6690652",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28004",
+      "unit_id": "U28",
+      "french": "¿Quién falta?",
+      "english": "Who's absent?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10106129",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Eremon",
+      "other_english": [
+        "Who is absent?"
+      ]
+    },
+    {
+      "sentence_id": "S28005",
+      "unit_id": "U28",
+      "french": "¿Cuál está roto?",
+      "english": "Which one is broken?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "673014",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28006",
+      "unit_id": "U28",
+      "french": "¿Cómo funciona eso?",
+      "english": "How does this work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1238868",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28007",
+      "unit_id": "U28",
+      "french": "¿Qué pasa después?",
+      "english": "What happens next?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1711143",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28008",
+      "unit_id": "U28",
+      "french": "¿Qué pasa ahora?",
+      "english": "What happens now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1841818",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28009",
+      "unit_id": "U28",
+      "french": "¿Hay un problema?",
+      "english": "Is there a problem?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2220504",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28010",
+      "unit_id": "U28",
+      "french": "¿Entiendes el problema?",
+      "english": "Do you understand what the problem is?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3252884",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28011",
+      "unit_id": "U28",
+      "french": "¿Qué pasa hoy?",
+      "english": "What happens today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4444241",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28012",
+      "unit_id": "U28",
+      "french": "¿Quién falta hoy?",
+      "english": "Who's absent today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10109362",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Eremon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28013",
+      "unit_id": "U28",
+      "french": "¿Dónde está el problema?",
+      "english": "Where's the problem?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2636",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Where is the problem?"
+      ]
+    },
+    {
+      "sentence_id": "S28014",
+      "unit_id": "U28",
+      "french": "Está roto.",
+      "english": "It's broken.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1080776",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28015",
+      "unit_id": "U28",
+      "french": "Está rota.",
+      "english": "It's broken.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6682512",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28016",
+      "unit_id": "U28",
+      "french": "Este está roto.",
+      "english": "This one's broken.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2413951",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28017",
+      "unit_id": "U28",
+      "french": "La caja está rota.",
+      "english": "The box is broken.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "976562",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28018",
+      "unit_id": "U28",
+      "french": "La ducha está rota.",
+      "english": "The shower is broken.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "978001",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hayastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28019",
+      "unit_id": "U28",
+      "french": "¿Cómo funciona Internet?",
+      "english": "How does the Internet work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1624790",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28020",
+      "unit_id": "U28",
+      "french": "¿Por qué no funciona?",
+      "english": "Why isn't it working?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1993226",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28021",
+      "unit_id": "U28",
+      "french": "¿Sabes por qué pasa?",
+      "english": "Do you know why that happens?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5138845",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "don_ramon",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28022",
+      "unit_id": "U28",
+      "french": "¿Cómo funciona esto?",
+      "english": "How does this work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6711176",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arh",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28023",
+      "unit_id": "U28",
+      "french": "¿Entiendes cómo funciona?",
+      "english": "Do you understand how it works?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10532235",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28024",
+      "unit_id": "U28",
+      "french": "¿Cuál es el problema?",
+      "english": "What's the problem?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "574334",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "What is the problem?"
+      ]
+    },
+    {
+      "sentence_id": "S28025",
+      "unit_id": "U28",
+      "french": "¿Qué pasa con Tom?",
+      "english": "What's wrong with Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1180605",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "What's the matter with Tom?"
+      ]
+    },
+    {
+      "sentence_id": "S28026",
+      "unit_id": "U28",
+      "french": "¿Por qué no funciona esto?",
+      "english": "Why isn't this working?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1993222",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcelostockle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28027",
+      "unit_id": "U28",
+      "french": "¿Cuál es su problema?",
+      "english": "What is her problem?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2343193",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28028",
+      "unit_id": "U28",
+      "french": "¿Qué pasa con ella?",
+      "english": "What's up with her?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4793893",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "DarkHollow",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28029",
+      "unit_id": "U28",
+      "french": "¿No ves el problema?",
+      "english": "Can't you see the problem?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10202714",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Seael",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S28030",
+      "unit_id": "U28",
+      "french": "¿Qué pasa en tu país?",
+      "english": "What happens in your country?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "984979",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S28001",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28001",
+      "position": 2,
+      "surface": "falta",
+      "word_id": "W1730",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28002",
+      "position": 1,
+      "surface": "Funciona",
+      "word_id": "W1727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28002",
+      "position": 2,
+      "surface": "ahora",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28003",
+      "position": 1,
+      "surface": "Funciona",
+      "word_id": "W1727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28003",
+      "position": 2,
+      "surface": "eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28004",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28004",
+      "position": 2,
+      "surface": "falta",
+      "word_id": "W1730",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28005",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28005",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28005",
+      "position": 3,
+      "surface": "roto",
+      "word_id": "W1728",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28006",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28006",
+      "position": 2,
+      "surface": "funciona",
+      "word_id": "W1727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28006",
+      "position": 3,
+      "surface": "eso",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28007",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28007",
+      "position": 2,
+      "surface": "pasa",
+      "word_id": "W1731",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28007",
+      "position": 3,
+      "surface": "después",
+      "word_id": "W1409",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 2,
+      "surface": "pasa",
+      "word_id": "W1731",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28008",
+      "position": 3,
+      "surface": "ahora",
+      "word_id": "W157",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 1,
+      "surface": "Hay",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28009",
+      "position": 3,
+      "surface": "problema",
+      "word_id": "W1726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28010",
+      "position": 1,
+      "surface": "Entiendes",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28010",
+      "position": 2,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28010",
+      "position": 3,
+      "surface": "problema",
+      "word_id": "W1726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28011",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28011",
+      "position": 2,
+      "surface": "pasa",
+      "word_id": "W1731",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28011",
+      "position": 3,
+      "surface": "hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28012",
+      "position": 1,
+      "surface": "Quién",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28012",
+      "position": 2,
+      "surface": "falta",
+      "word_id": "W1730",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28012",
+      "position": 3,
+      "surface": "hoy",
+      "word_id": "W155",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28013",
+      "position": 1,
+      "surface": "Dónde",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28013",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28013",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28013",
+      "position": 4,
+      "surface": "problema",
+      "word_id": "W1726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28014",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28014",
+      "position": 2,
+      "surface": "roto",
+      "word_id": "W1728",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28015",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28015",
+      "position": 2,
+      "surface": "rota",
+      "word_id": "W1729",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28016",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28016",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28016",
+      "position": 3,
+      "surface": "roto",
+      "word_id": "W1728",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28017",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28017",
+      "position": 2,
+      "surface": "caja",
+      "word_id": "W897",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28017",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28017",
+      "position": 4,
+      "surface": "rota",
+      "word_id": "W1729",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28018",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28018",
+      "position": 2,
+      "surface": "ducha",
+      "word_id": "W1817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28018",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28018",
+      "position": 4,
+      "surface": "rota",
+      "word_id": "W1729",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28019",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28019",
+      "position": 2,
+      "surface": "funciona",
+      "word_id": "W1727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28019",
+      "position": 3,
+      "surface": "Internet",
+      "word_id": "W1430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28020",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28020",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28020",
+      "position": 3,
+      "surface": "funciona",
+      "word_id": "W1727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28021",
+      "position": 1,
+      "surface": "Sabes",
+      "word_id": "W1657",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28021",
+      "position": 2,
+      "surface": "por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28021",
+      "position": 3,
+      "surface": "pasa",
+      "word_id": "W1731",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28022",
+      "position": 1,
+      "surface": "Cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28022",
+      "position": 2,
+      "surface": "funciona",
+      "word_id": "W1727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28022",
+      "position": 3,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28023",
+      "position": 1,
+      "surface": "Entiendes",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28023",
+      "position": 2,
+      "surface": "cómo",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28023",
+      "position": 3,
+      "surface": "funciona",
+      "word_id": "W1727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28024",
+      "position": 4,
+      "surface": "problema",
+      "word_id": "W1726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 2,
+      "surface": "pasa",
+      "word_id": "W1731",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 3,
+      "surface": "con",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28025",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 1,
+      "surface": "Por qué",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 3,
+      "surface": "funciona",
+      "word_id": "W1727",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28026",
+      "position": 4,
+      "surface": "esto",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 1,
+      "surface": "Cuál",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 3,
+      "surface": "su",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28027",
+      "position": 4,
+      "surface": "problema",
+      "word_id": "W1726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 2,
+      "surface": "pasa",
+      "word_id": "W1731",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 3,
+      "surface": "con",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28028",
+      "position": 4,
+      "surface": "ella",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 1,
+      "surface": "No",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 2,
+      "surface": "ves",
+      "word_id": "W1266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 3,
+      "surface": "el",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28029",
+      "position": 4,
+      "surface": "problema",
+      "word_id": "W1726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 1,
+      "surface": "Qué",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 2,
+      "surface": "pasa",
+      "word_id": "W1731",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 4,
+      "surface": "tu",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S28030",
+      "position": 5,
+      "surface": "país",
+      "word_id": "W854",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A280041",
+      "sentence_id": "S28004",
+      "direction": "fr_to_en",
+      "answer": "Who is absent?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280131",
+      "sentence_id": "S28013",
+      "direction": "fr_to_en",
+      "answer": "Where is the problem?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280241",
+      "sentence_id": "S28024",
+      "direction": "fr_to_en",
+      "answer": "What is the problem?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A280251",
+      "sentence_id": "S28025",
+      "direction": "fr_to_en",
+      "answer": "What's the matter with Tom?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

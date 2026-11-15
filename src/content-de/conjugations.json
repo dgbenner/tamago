@@ -420,6 +420,366 @@
     "source": "https://en.wiktionary.org/wiki/lernen#Conjugation"
   },
   {
+    "lemma": "wollen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "will"
+      },
+      {
+        "person": "du",
+        "form": "willst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "will"
+      },
+      {
+        "person": "wir",
+        "form": "wollen"
+      },
+      {
+        "person": "ihr",
+        "form": "wollt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "wollen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/wollen#Conjugation"
+  },
+  {
+    "lemma": "nehmen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "nehme"
+      },
+      {
+        "person": "du",
+        "form": "nehmst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "nehmt"
+      },
+      {
+        "person": "wir",
+        "form": "nehmen"
+      },
+      {
+        "person": "ihr",
+        "form": "nehmt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "nehmen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/nehmen#Conjugation"
+  },
+  {
+    "lemma": "fahren",
+    "present": [
+      {
+        "person": "ich",
+        "form": "fahre"
+      },
+      {
+        "person": "du",
+        "form": "fährst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "fährt"
+      },
+      {
+        "person": "wir",
+        "form": "fahren"
+      },
+      {
+        "person": "ihr",
+        "form": "fahrt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "fahren"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/fahren#Conjugation"
+  },
+  {
+    "lemma": "gefallen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "gefalle"
+      },
+      {
+        "person": "du",
+        "form": "gefällst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "gefällt"
+      },
+      {
+        "person": "wir",
+        "form": "gefallen"
+      },
+      {
+        "person": "ihr",
+        "form": "gefallt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "gefallen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/gefallen#Conjugation"
+  },
+  {
+    "lemma": "wissen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "weiß"
+      },
+      {
+        "person": "du",
+        "form": "weißt"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "weiß"
+      },
+      {
+        "person": "wir",
+        "form": "wissen"
+      },
+      {
+        "person": "ihr",
+        "form": "wisst"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "wissen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/wissen#Conjugation"
+  },
+  {
+    "lemma": "halten",
+    "present": [
+      {
+        "person": "ich",
+        "form": "halte"
+      },
+      {
+        "person": "du",
+        "form": "hältst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "hält"
+      },
+      {
+        "person": "wir",
+        "form": "halten"
+      },
+      {
+        "person": "ihr",
+        "form": "haltet"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "halten"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/halten#Conjugation"
+  },
+  {
+    "lemma": "müssen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "muss"
+      },
+      {
+        "person": "du",
+        "form": "musst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "muss"
+      },
+      {
+        "person": "wir",
+        "form": "müssen"
+      },
+      {
+        "person": "ihr",
+        "form": "müsst"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "müssen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/m%C3%BCssen#Conjugation"
+  },
+  {
+    "lemma": "dürfen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "darf"
+      },
+      {
+        "person": "du",
+        "form": "darfst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "darf"
+      },
+      {
+        "person": "wir",
+        "form": "dürfen"
+      },
+      {
+        "person": "ihr",
+        "form": "dürft"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "dürfen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/d%C3%BCrfen#Conjugation"
+  },
+  {
+    "lemma": "laufen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "laufe"
+      },
+      {
+        "person": "du",
+        "form": "läufst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "läuft"
+      },
+      {
+        "person": "wir",
+        "form": "laufen"
+      },
+      {
+        "person": "ihr",
+        "form": "lauft"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "laufen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/laufen#Conjugation"
+  },
+  {
+    "lemma": "leben",
+    "present": [
+      {
+        "person": "ich",
+        "form": "lebe"
+      },
+      {
+        "person": "du",
+        "form": "lebst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "lebt"
+      },
+      {
+        "person": "wir",
+        "form": "leben"
+      },
+      {
+        "person": "ihr",
+        "form": "lebt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "leben"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/leben#Conjugation"
+  },
+  {
+    "lemma": "arbeiten",
+    "present": [
+      {
+        "person": "ich",
+        "form": "arbeite"
+      },
+      {
+        "person": "du",
+        "form": "arbeitest"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "arbeitet"
+      },
+      {
+        "person": "wir",
+        "form": "arbeiten"
+      },
+      {
+        "person": "ihr",
+        "form": "arbeitet"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "arbeiten"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/arbeiten#Conjugation"
+  },
+  {
+    "lemma": "studieren",
+    "present": [
+      {
+        "person": "ich",
+        "form": "studiere"
+      },
+      {
+        "person": "du",
+        "form": "studierst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "studiert"
+      },
+      {
+        "person": "wir",
+        "form": "studieren"
+      },
+      {
+        "person": "ihr",
+        "form": "studiert"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "studieren"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/studieren#Conjugation"
+  },
+  {
     "lemma": "essen",
     "present": [
       {
@@ -568,36 +928,6 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/schneien#Conjugation"
-  },
-  {
-    "lemma": "arbeiten",
-    "present": [
-      {
-        "person": "ich",
-        "form": "arbeite"
-      },
-      {
-        "person": "du",
-        "form": "arbeitest"
-      },
-      {
-        "person": "er, sie, es",
-        "form": "arbeitet"
-      },
-      {
-        "person": "wir",
-        "form": "arbeiten"
-      },
-      {
-        "person": "ihr",
-        "form": "arbeitet"
-      },
-      {
-        "person": "sie, Sie",
-        "form": "arbeiten"
-      }
-    ],
-    "source": "https://en.wiktionary.org/wiki/arbeiten#Conjugation"
   },
   {
     "lemma": "singen",
@@ -780,36 +1110,6 @@
     "source": "https://en.wiktionary.org/wiki/nennen#Conjugation"
   },
   {
-    "lemma": "wissen",
-    "present": [
-      {
-        "person": "ich",
-        "form": "weiß"
-      },
-      {
-        "person": "du",
-        "form": "weißt"
-      },
-      {
-        "person": "er, sie, es",
-        "form": "weiß"
-      },
-      {
-        "person": "wir",
-        "form": "wissen"
-      },
-      {
-        "person": "ihr",
-        "form": "wisst"
-      },
-      {
-        "person": "sie, Sie",
-        "form": "wissen"
-      }
-    ],
-    "source": "https://en.wiktionary.org/wiki/wissen#Conjugation"
-  },
-  {
     "lemma": "hören",
     "present": [
       {
@@ -958,5 +1258,905 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/tun#Conjugation"
+  },
+  {
+    "lemma": "warten",
+    "present": [
+      {
+        "person": "ich",
+        "form": "warte"
+      },
+      {
+        "person": "du",
+        "form": "wartest"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "wartet"
+      },
+      {
+        "person": "wir",
+        "form": "warten"
+      },
+      {
+        "person": "ihr",
+        "form": "wartet"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "warten"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/warten#Conjugation"
+  },
+  {
+    "lemma": "denken",
+    "present": [
+      {
+        "person": "ich",
+        "form": "denke"
+      },
+      {
+        "person": "du",
+        "form": "denkst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "denkt"
+      },
+      {
+        "person": "wir",
+        "form": "denken"
+      },
+      {
+        "person": "ihr",
+        "form": "denkt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "denken"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/denken#Conjugation"
+  },
+  {
+    "lemma": "treffen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "treffe"
+      },
+      {
+        "person": "du",
+        "form": "triffst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "trifft"
+      },
+      {
+        "person": "wir",
+        "form": "treffen"
+      },
+      {
+        "person": "ihr",
+        "form": "trefft"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "treffen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/treffen#Conjugation"
+  },
+  {
+    "lemma": "bleiben",
+    "present": [
+      {
+        "person": "ich",
+        "form": "bleibe"
+      },
+      {
+        "person": "du",
+        "form": "bleibst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "bleibt"
+      },
+      {
+        "person": "wir",
+        "form": "bleiben"
+      },
+      {
+        "person": "ihr",
+        "form": "bleibt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "bleiben"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/bleiben#Conjugation"
+  },
+  {
+    "lemma": "stehen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "stehe"
+      },
+      {
+        "person": "du",
+        "form": "stehst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "steht"
+      },
+      {
+        "person": "wir",
+        "form": "stehen"
+      },
+      {
+        "person": "ihr",
+        "form": "steht"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "stehen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/stehen#Conjugation"
+  },
+  {
+    "lemma": "frühstücken",
+    "present": [
+      {
+        "person": "ich",
+        "form": "frühstücke"
+      },
+      {
+        "person": "du",
+        "form": "frühstückst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "frühstückt"
+      },
+      {
+        "person": "wir",
+        "form": "frühstücken"
+      },
+      {
+        "person": "ihr",
+        "form": "frühstückt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "frühstücken"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/fr%C3%BChst%C3%BCcken#Conjugation"
+  },
+  {
+    "lemma": "duschen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "dusche"
+      },
+      {
+        "person": "du",
+        "form": "duschst du duscht"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "duscht"
+      },
+      {
+        "person": "wir",
+        "form": "duschen"
+      },
+      {
+        "person": "ihr",
+        "form": "duscht"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "duschen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/duschen#Conjugation"
+  },
+  {
+    "lemma": "beginnen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "beginne"
+      },
+      {
+        "person": "du",
+        "form": "beginnst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "beginnt"
+      },
+      {
+        "person": "wir",
+        "form": "beginnen"
+      },
+      {
+        "person": "ihr",
+        "form": "beginnt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "beginnen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/beginnen#Conjugation"
+  },
+  {
+    "lemma": "enden",
+    "present": [
+      {
+        "person": "ich",
+        "form": "ende"
+      },
+      {
+        "person": "du",
+        "form": "endest"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "endet"
+      },
+      {
+        "person": "wir",
+        "form": "enden"
+      },
+      {
+        "person": "ihr",
+        "form": "endet"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "enden"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/enden#Conjugation"
+  },
+  {
+    "lemma": "dauern",
+    "present": [
+      {
+        "person": "ich",
+        "form": "daure ich dauere ich dauer"
+      },
+      {
+        "person": "du",
+        "form": "dauerst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "dauert"
+      },
+      {
+        "person": "wir",
+        "form": "dauern"
+      },
+      {
+        "person": "ihr",
+        "form": "dauert"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "dauern"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/dauern#Conjugation"
+  },
+  {
+    "lemma": "fliegen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "fliege"
+      },
+      {
+        "person": "du",
+        "form": "fliegst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "fliegt"
+      },
+      {
+        "person": "wir",
+        "form": "fliegen"
+      },
+      {
+        "person": "ihr",
+        "form": "fliegt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "fliegen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/fliegen#Conjugation"
+  },
+  {
+    "lemma": "machen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "mache"
+      },
+      {
+        "person": "du",
+        "form": "machst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "macht"
+      },
+      {
+        "person": "wir",
+        "form": "machen"
+      },
+      {
+        "person": "ihr",
+        "form": "macht"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "machen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/machen#Conjugation"
+  },
+  {
+    "lemma": "sehen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "sehe"
+      },
+      {
+        "person": "du",
+        "form": "siehst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "sieht"
+      },
+      {
+        "person": "wir",
+        "form": "sehen"
+      },
+      {
+        "person": "ihr",
+        "form": "seht"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "sehen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/sehen#Conjugation"
+  },
+  {
+    "lemma": "finden",
+    "present": [
+      {
+        "person": "ich",
+        "form": "finde"
+      },
+      {
+        "person": "du",
+        "form": "findest"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "findet"
+      },
+      {
+        "person": "wir",
+        "form": "finden"
+      },
+      {
+        "person": "ihr",
+        "form": "findet"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "finden"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/finden#Conjugation"
+  },
+  {
+    "lemma": "kennen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "kenne"
+      },
+      {
+        "person": "du",
+        "form": "kennst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "kennt"
+      },
+      {
+        "person": "wir",
+        "form": "kennen"
+      },
+      {
+        "person": "ihr",
+        "form": "kennt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "kennen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/kennen#Conjugation"
+  },
+  {
+    "lemma": "liegen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "liege"
+      },
+      {
+        "person": "du",
+        "form": "liegst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "liegt"
+      },
+      {
+        "person": "wir",
+        "form": "liegen"
+      },
+      {
+        "person": "ihr",
+        "form": "liegt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "liegen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/liegen#Conjugation"
+  },
+  {
+    "lemma": "glauben",
+    "present": [
+      {
+        "person": "ich",
+        "form": "glaube"
+      },
+      {
+        "person": "du",
+        "form": "glaubst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "glaubt"
+      },
+      {
+        "person": "wir",
+        "form": "glauben"
+      },
+      {
+        "person": "ihr",
+        "form": "glaubt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "glauben"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/glauben#Conjugation"
+  },
+  {
+    "lemma": "sollen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "soll"
+      },
+      {
+        "person": "du",
+        "form": "sollst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "soll"
+      },
+      {
+        "person": "wir",
+        "form": "sollen"
+      },
+      {
+        "person": "ihr",
+        "form": "sollt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "sollen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/sollen#Conjugation"
+  },
+  {
+    "lemma": "werden",
+    "present": [
+      {
+        "person": "ich",
+        "form": "werde"
+      },
+      {
+        "person": "du",
+        "form": "wirst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "wird"
+      },
+      {
+        "person": "wir",
+        "form": "werden"
+      },
+      {
+        "person": "ihr",
+        "form": "werdet"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "werden"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/werden#Conjugation"
+  },
+  {
+    "lemma": "bestellen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "bestelle"
+      },
+      {
+        "person": "du",
+        "form": "bestellst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "bestellt"
+      },
+      {
+        "person": "wir",
+        "form": "bestellen"
+      },
+      {
+        "person": "ihr",
+        "form": "bestellt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "bestellen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/bestellen#Conjugation"
+  },
+  {
+    "lemma": "schmecken",
+    "present": [
+      {
+        "person": "ich",
+        "form": "schmecke"
+      },
+      {
+        "person": "du",
+        "form": "schmeckst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "schmeckt"
+      },
+      {
+        "person": "wir",
+        "form": "schmecken"
+      },
+      {
+        "person": "ihr",
+        "form": "schmeckt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "schmecken"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/schmecken#Conjugation"
+  },
+  {
+    "lemma": "kochen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "koche"
+      },
+      {
+        "person": "du",
+        "form": "kochst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "kocht"
+      },
+      {
+        "person": "wir",
+        "form": "kochen"
+      },
+      {
+        "person": "ihr",
+        "form": "kocht"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "kochen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/kochen#Conjugation"
+  },
+  {
+    "lemma": "riechen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "rieche"
+      },
+      {
+        "person": "du",
+        "form": "riechst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "riecht"
+      },
+      {
+        "person": "wir",
+        "form": "riechen"
+      },
+      {
+        "person": "ihr",
+        "form": "riecht"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "riechen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/riechen#Conjugation"
+  },
+  {
+    "lemma": "verdienen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "verdiene"
+      },
+      {
+        "person": "du",
+        "form": "verdienst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "verdient"
+      },
+      {
+        "person": "wir",
+        "form": "verdienen"
+      },
+      {
+        "person": "ihr",
+        "form": "verdient"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "verdienen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/verdienen#Conjugation"
+  },
+  {
+    "lemma": "fehlen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "fehle"
+      },
+      {
+        "person": "du",
+        "form": "fehlst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "fehlt"
+      },
+      {
+        "person": "wir",
+        "form": "fehlen"
+      },
+      {
+        "person": "ihr",
+        "form": "fehlt"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "fehlen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/fehlen#Conjugation"
+  },
+  {
+    "lemma": "funktionieren",
+    "present": [
+      {
+        "person": "ich",
+        "form": "funktioniere"
+      },
+      {
+        "person": "du",
+        "form": "funktionierst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "funktioniert"
+      },
+      {
+        "person": "wir",
+        "form": "funktionieren"
+      },
+      {
+        "person": "ihr",
+        "form": "funktioniert"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "funktionieren"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/funktionieren#Conjugation"
+  },
+  {
+    "lemma": "gratulieren",
+    "present": [
+      {
+        "person": "ich",
+        "form": "gratuliere"
+      },
+      {
+        "person": "du",
+        "form": "gratulierst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "gratuliert"
+      },
+      {
+        "person": "wir",
+        "form": "gratulieren"
+      },
+      {
+        "person": "ihr",
+        "form": "gratuliert"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "gratulieren"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/gratulieren#Conjugation"
+  },
+  {
+    "lemma": "freuen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "freue"
+      },
+      {
+        "person": "du",
+        "form": "freust"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "freut"
+      },
+      {
+        "person": "wir",
+        "form": "freuen"
+      },
+      {
+        "person": "ihr",
+        "form": "freut"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "freuen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/freuen#Conjugation"
+  },
+  {
+    "lemma": "verkaufen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "verkaufe"
+      },
+      {
+        "person": "du",
+        "form": "verkaufst"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "verkauft"
+      },
+      {
+        "person": "wir",
+        "form": "verkaufen"
+      },
+      {
+        "person": "ihr",
+        "form": "verkauft"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "verkaufen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/verkaufen#Conjugation"
+  },
+  {
+    "lemma": "reisen",
+    "present": [
+      {
+        "person": "ich",
+        "form": "reise"
+      },
+      {
+        "person": "du",
+        "form": "reist"
+      },
+      {
+        "person": "er, sie, es",
+        "form": "reist"
+      },
+      {
+        "person": "wir",
+        "form": "reisen"
+      },
+      {
+        "person": "ihr",
+        "form": "reist"
+      },
+      {
+        "person": "sie, Sie",
+        "form": "reisen"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/reisen#Conjugation"
   }
 ]

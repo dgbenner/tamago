@@ -96,5 +96,964 @@
       }
     ],
     "source": "written for Tamago"
+  },
+  {
+    "id": "R201",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "Das Schwimmbad",
+    "lines": [
+      "Geöffnet: Montag bis Freitag, 9–20 Uhr",
+      "Samstag: 10–18 Uhr",
+      "Sonntag: geschlossen"
+    ],
+    "questions": [
+      {
+        "question": "When is the pool closed?",
+        "choices": [
+          "Sunday",
+          "Saturday",
+          "Monday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it open on Saturday?",
+        "choices": [
+          "10:00",
+          "9:00",
+          "18:00"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R202",
+    "unit_id": "U62",
+    "kind": "message",
+    "title": "Eine Nachricht von Peter",
+    "lines": [
+      "Hallo Maria,",
+      "gehen wir am Mittwoch ins Kino? Ich habe am Mittwoch und am Donnerstag Zeit.",
+      "Am Samstag arbeite ich.",
+      "Peter"
+    ],
+    "questions": [
+      {
+        "question": "When is Peter free?",
+        "choices": [
+          "Wednesday and Thursday",
+          "Saturday",
+          "Every day"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does Peter do on Saturday?",
+        "choices": [
+          "He works",
+          "He goes to the cinema",
+          "He stays home"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R203",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "Das Museum",
+    "lines": [
+      "Das Museum ist am Dienstag geschlossen.",
+      "Führung für Kinder: Mittwoch, 14 Uhr"
+    ],
+    "questions": [
+      {
+        "question": "Which day is the museum closed?",
+        "choices": [
+          "Tuesday",
+          "Wednesday",
+          "Monday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is the tour for children?",
+        "choices": [
+          "Wednesday at 2 pm",
+          "Tuesday at 2 pm",
+          "Wednesday at 4 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R204",
+    "unit_id": "U63",
+    "kind": "notice",
+    "title": "Die Ferien",
+    "lines": [
+      "Die Schule ist vom 20. Dezember bis zum 4. Januar geschlossen.",
+      "Der Unterricht beginnt wieder am Montag, 5. Januar."
+    ],
+    "questions": [
+      {
+        "question": "Which day of the week does school start again?",
+        "choices": [
+          "Monday",
+          "Sunday",
+          "Saturday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When do the holidays begin?",
+        "choices": [
+          "20 December",
+          "5 January",
+          "4 January"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R205",
+    "unit_id": "U63",
+    "kind": "sign",
+    "title": "Das Fest",
+    "lines": [
+      "Großes Fest im Dorf",
+      "Samstag, 21. Juni, ab 18 Uhr",
+      "Mit Musik und Tanz"
+    ],
+    "questions": [
+      {
+        "question": "When is the village party?",
+        "choices": [
+          "Saturday 21 June",
+          "Sunday 21 June",
+          "Saturday 21 July"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it start?",
+        "choices": [
+          "6 pm",
+          "8 pm",
+          "9 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R206",
+    "unit_id": "U63",
+    "kind": "message",
+    "title": "Eine Karte von Anna",
+    "lines": [
+      "Im Juli fahren wir ans Meer.",
+      "Im Februar fahren wir in die Berge.",
+      "Und du?"
+    ],
+    "questions": [
+      {
+        "question": "Where does Anna go in July?",
+        "choices": [
+          "To the sea",
+          "To the mountains",
+          "To a big city"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When does she go to the mountains?",
+        "choices": [
+          "In February",
+          "In July",
+          "In May"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R207",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "Im Geschäft",
+    "lines": [
+      "Eingang",
+      "Geöffnet von 9 bis 19 Uhr",
+      "Am Sonntag geschlossen"
+    ],
+    "questions": [
+      {
+        "question": "When is the shop closed?",
+        "choices": [
+          "On Sunday",
+          "On Saturday",
+          "Every evening"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it close?",
+        "choices": [
+          "7 pm",
+          "9 pm",
+          "9 am"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R208",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "Am Bahnhof",
+    "lines": [
+      "Ausgang: links",
+      "Toiletten: Gleis 2",
+      "Information: am Eingang"
+    ],
+    "questions": [
+      {
+        "question": "Where are the toilets?",
+        "choices": [
+          "Platform 2",
+          "Platform 1",
+          "Near the café"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where can you get information?",
+        "choices": [
+          "At the entrance",
+          "At the exit",
+          "On the train"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R209",
+    "unit_id": "U66",
+    "kind": "notice",
+    "title": "Im Museum",
+    "lines": [
+      "Eintritt: 8 Euro",
+      "Kinder: Eintritt frei",
+      "Rauchen verboten!"
+    ],
+    "questions": [
+      {
+        "question": "How much do children pay?",
+        "choices": [
+          "Nothing",
+          "8 euros",
+          "4 euros"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is not allowed?",
+        "choices": [
+          "Smoking",
+          "Taking photos",
+          "Talking"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R210",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Zug nach Hamburg",
+    "lines": [
+      "Abfahrt: 8:15 Uhr – Ankunft: 10:20 Uhr",
+      "Abfahrt: 12:40 Uhr – Ankunft: 14:45 Uhr",
+      "Abfahrt: 18:00 Uhr – Ankunft: 20:05 Uhr"
+    ],
+    "questions": [
+      {
+        "question": "When does the 12:40 train arrive?",
+        "choices": [
+          "14:45",
+          "10:20",
+          "20:05"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time is the first train?",
+        "choices": [
+          "8:15",
+          "12:40",
+          "18:00"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R211",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Bus 12",
+    "lines": [
+      "Abfahrt am Bahnhof: 7:00, 7:30, 8:00 Uhr",
+      "Am Sonntag: jede Stunde ein Bus"
+    ],
+    "questions": [
+      {
+        "question": "Where does the bus leave from?",
+        "choices": [
+          "The station",
+          "The school",
+          "The airport"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How often is the bus on Sunday?",
+        "choices": [
+          "Every hour",
+          "Every half hour",
+          "Not at all"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R212",
+    "unit_id": "U67",
+    "kind": "message",
+    "title": "Eine Nachricht von Peter",
+    "lines": [
+      "Ich komme um 17:30 Uhr am Bahnhof an.",
+      "Mein Zug fährt um 15 Uhr in Berlin ab.",
+      "Bis heute Abend!"
+    ],
+    "questions": [
+      {
+        "question": "When does Peter arrive?",
+        "choices": [
+          "17:30",
+          "15:00",
+          "7:30"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where does his train leave from?",
+        "choices": [
+          "Berlin",
+          "Hamburg",
+          "Paris"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R213",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "Im Unterricht",
+    "lines": [
+      "Lesen Sie den Text.",
+      "Kreuzen Sie die richtige Antwort an.",
+      "Geben Sie das Papier ab."
+    ],
+    "questions": [
+      {
+        "question": "What do you do first?",
+        "choices": [
+          "Read the text",
+          "Hand in the paper",
+          "Mark the answer"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What do you mark with a cross?",
+        "choices": [
+          "The right answer",
+          "The wrong answer",
+          "Every answer"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R214",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "Die Tür",
+    "lines": [
+      "Bitte die Tür schließen.",
+      "Achtung: bitte leise schließen!"
+    ],
+    "questions": [
+      {
+        "question": "What should you do with the door?",
+        "choices": [
+          "Close it",
+          "Leave it open",
+          "Lock it"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How should you close it?",
+        "choices": [
+          "Quietly",
+          "Quickly",
+          "With a key"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R215",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "Der Automat",
+    "lines": [
+      "Fahrkarte nehmen.",
+      "Bitte bar zahlen.",
+      "Den grünen Knopf drücken."
+    ],
+    "questions": [
+      {
+        "question": "How do you pay?",
+        "choices": [
+          "In cash",
+          "By card",
+          "By phone"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Which button do you press?",
+        "choices": [
+          "The green one",
+          "The red one",
+          "The blue one"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R301",
+    "unit_id": "U81",
+    "kind": "menu",
+    "title": "Café am Markt",
+    "lines": [
+      "Kaffee: 2 €",
+      "Tee: 2,50 €",
+      "Apfelsaft: 3,50 €",
+      "Bier: 4 €"
+    ],
+    "questions": [
+      {
+        "question": "How much is the apple juice?",
+        "choices": [
+          "€3.50",
+          "€2.50",
+          "€4"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the cheapest drink?",
+        "choices": [
+          "Coffee",
+          "Tea",
+          "Beer"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R302",
+    "unit_id": "U81",
+    "kind": "sign",
+    "title": "Im Café",
+    "lines": [
+      "Bitte an der Kasse bestellen und zahlen.",
+      "Kein Bier und kein Wein vor zwölf Uhr."
+    ],
+    "questions": [
+      {
+        "question": "Where do you order?",
+        "choices": [
+          "At the till",
+          "At the table",
+          "Outside"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When can you have wine?",
+        "choices": [
+          "From noon",
+          "In the morning",
+          "Never"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R303",
+    "unit_id": "U81",
+    "kind": "message",
+    "title": "Eine Nachricht von Maria",
+    "lines": [
+      "Peter,",
+      "ich bin im Café am Bahnhof.",
+      "Ich trinke einen Tee. Kommst du?"
+    ],
+    "questions": [
+      {
+        "question": "Where is Maria?",
+        "choices": [
+          "At the café by the station",
+          "On the train",
+          "At home"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is she drinking?",
+        "choices": [
+          "Tea",
+          "Coffee",
+          "Juice"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R304",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Mittagessen – 15 €",
+    "lines": [
+      "Suppe oder Salat",
+      "Hähnchen mit Reis",
+      "Nachtisch: Schokoladenkuchen"
+    ],
+    "questions": [
+      {
+        "question": "How much is the lunch?",
+        "choices": [
+          "€15",
+          "€5",
+          "€50"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the main course?",
+        "choices": [
+          "Chicken with rice",
+          "Soup",
+          "Chocolate cake"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R305",
+    "unit_id": "U82",
+    "kind": "notice",
+    "title": "Das Restaurant",
+    "lines": [
+      "Geöffnet: Dienstag bis Sonntag",
+      "Mittag: 12–14 Uhr",
+      "Abend: 18–22 Uhr",
+      "Am Montag geschlossen"
+    ],
+    "questions": [
+      {
+        "question": "Which day is the restaurant closed?",
+        "choices": [
+          "Monday",
+          "Sunday",
+          "Tuesday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it open in the evening?",
+        "choices": [
+          "6 pm",
+          "12 noon",
+          "10 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R306",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Nachtisch",
+    "lines": [
+      "Kuchen: 5 €",
+      "Eis: 4 €",
+      "Obst: 3 €"
+    ],
+    "questions": [
+      {
+        "question": "How much is the cake?",
+        "choices": [
+          "€5",
+          "€4",
+          "€3"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Which dessert costs €3?",
+        "choices": [
+          "Fruit",
+          "Ice cream",
+          "Cake"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R307",
+    "unit_id": "U83",
+    "kind": "message",
+    "title": "Der Weg zu mir",
+    "lines": [
+      "Am Bahnhof gehst du links.",
+      "Dann gehst du geradeaus bis zur Ampel.",
+      "Mein Haus ist rechts, am Park."
+    ],
+    "questions": [
+      {
+        "question": "Which way do you go at the station?",
+        "choices": [
+          "Left",
+          "Right",
+          "Straight on"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where is the house?",
+        "choices": [
+          "By the park",
+          "Next to the station",
+          "Behind the school"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R308",
+    "unit_id": "U83",
+    "kind": "sign",
+    "title": "Das Museum",
+    "lines": [
+      "Museum → rechts, 200 m",
+      "Bahnhof ← links, 1 km"
+    ],
+    "questions": [
+      {
+        "question": "Where is the museum?",
+        "choices": [
+          "To the right",
+          "To the left",
+          "Behind you"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How far is the station?",
+        "choices": [
+          "1 km",
+          "200 m",
+          "2 km"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R309",
+    "unit_id": "U83",
+    "kind": "message",
+    "title": "Das Restaurant",
+    "lines": [
+      "Gehen Sie über die Brücke.",
+      "Das Restaurant ist an der Ecke, in der Nähe der Bank."
+    ],
+    "questions": [
+      {
+        "question": "What do you cross?",
+        "choices": [
+          "The bridge",
+          "The square",
+          "The road"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is near the restaurant?",
+        "choices": [
+          "The bank",
+          "The church",
+          "The park"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R310",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "Wohnung zu vermieten",
+    "lines": [
+      "Zwei Zimmer, Küche, Bad, Balkon",
+      "Dritter Stock, mit Aufzug",
+      "Miete: 600 Euro im Monat"
+    ],
+    "questions": [
+      {
+        "question": "How many rooms does the flat have?",
+        "choices": [
+          "Two",
+          "Three",
+          "One"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much is the rent a month?",
+        "choices": [
+          "600 euros",
+          "300 euros",
+          "900 euros"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R311",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "Zu verkaufen",
+    "lines": [
+      "Sofa, zwei Jahre alt: 80 Euro",
+      "Kühlschrank, neu: 150 Euro",
+      "Telefon: 030 12 34 56"
+    ],
+    "questions": [
+      {
+        "question": "How much is the sofa?",
+        "choices": [
+          "80 euros",
+          "150 euros",
+          "30 euros"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Which thing is new?",
+        "choices": [
+          "The fridge",
+          "The sofa",
+          "The phone"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R312",
+    "unit_id": "U86",
+    "kind": "message",
+    "title": "Eine Nachricht von Anna",
+    "lines": [
+      "Hallo Tom,",
+      "wir ziehen am Samstag um.",
+      "Die neue Wohnung ist im zweiten Stock und hat einen Balkon.",
+      "Kannst du helfen?"
+    ],
+    "questions": [
+      {
+        "question": "When is Anna moving?",
+        "choices": [
+          "On Saturday",
+          "On Sunday",
+          "Next month"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does the new flat have?",
+        "choices": [
+          "A balcony",
+          "A garden",
+          "A lift"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R313",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Eine Einladung",
+    "lines": [
+      "Liebe Maria,",
+      "am Samstag feiere ich meinen Geburtstag.",
+      "Die Feier beginnt um 19 Uhr bei mir zu Hause.",
+      "Kommst du? Viele Grüße, Peter"
+    ],
+    "questions": [
+      {
+        "question": "What is Peter celebrating?",
+        "choices": [
+          "His birthday",
+          "His wedding",
+          "A new job"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where is the party?",
+        "choices": [
+          "At Peter's home",
+          "At a restaurant",
+          "In the park"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R314",
+    "unit_id": "U89",
+    "kind": "message",
+    "title": "Eine Karte aus Hamburg",
+    "lines": [
+      "Lieber Tom,",
+      "viele Grüße aus Hamburg!",
+      "Das Hotel ist am Bahnhof. Am Montag fahre ich mit dem Zug zurück.",
+      "Anna"
+    ],
+    "questions": [
+      {
+        "question": "Where is Anna?",
+        "choices": [
+          "In Hamburg",
+          "In Berlin",
+          "In Paris"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How is she going home?",
+        "choices": [
+          "By train",
+          "By plane",
+          "By car"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R315",
+    "unit_id": "U89",
+    "kind": "notice",
+    "title": "Deutschkurs",
+    "lines": [
+      "Deutsch für Anfänger",
+      "Montag und Mittwoch, 18–20 Uhr",
+      "Anmeldung im Büro, erster Stock"
+    ],
+    "questions": [
+      {
+        "question": "When is the course?",
+        "choices": [
+          "Monday and Wednesday evening",
+          "Every morning",
+          "At the weekend"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where do you sign up?",
+        "choices": [
+          "In the office on the first floor",
+          "In the classroom",
+          "At the entrance"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
   }
 ]

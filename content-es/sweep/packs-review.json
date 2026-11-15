@@ -1,457 +1,835 @@
 {
-  "_about": "Claude's review of pulled Spanish sentences (2026-11-10): reject is a Tatoeba id to the reason, english picks which linked English leads. The pull never proposes a rejected sentence again. Main units and topic packs alike.",
-  "U01": {
-    "reject": {
-      "618725": "odd on its own (I am not.)",
-      "2062086": "odd on its own (I am!)",
-      "2532374": "quoted dialogue, odd as a lesson line",
-      "3990568": "odd (You are not me)",
-      "4964965": "idiomatic (Sí, ¿y? = so what?)",
-      "9482733": "incomplete (And you are...?)",
-      "9969845": "no here means right?, misleading for the word no",
-      "13593586": "repeats ¡Yo no soy tú!"
-    }
-  },
-  "U02": {
-    "reject": {
-      "1280210": "idiomatic (Is this it?)",
-      "1284268": "esta is this; its only English says that",
-      "2057548": "no here means right?, misleading for the word no",
-      "2508078": "esto is not used for a person",
-      "2508079": "esto is not used for a person",
-      "6629538": "odd (I am a big child)",
-      "9439859": "odd (Tom is Tom)"
-    },
-    "english": {
-      "1991582": "This is a book."
-    }
-  },
-  "U03": {
-    "reject": {
-      "2965": "quoted dialogue",
-      "745023": "buenas tardes is good afternoon; its English says good evening",
-      "849995": "quoted dialogue",
-      "1308776": "English How do you do? is a set phrase, not how are you",
-      "2178022": "idiomatic (Is something wrong?)",
-      "2831859": "three questions in a row, odd as a lesson line",
-      "4743107": "idiomatic (Is Tom in?)",
-      "6600064": "odd (You are fine.)",
-      "6686467": "English Is he right? is misleading",
-      "12954802": "no punctuation, and quite is not in the Spanish"
-    }
-  },
-  "U04": {
-    "reject": {
-      "675190": "como here is like, not I eat",
-      "3160452": "its English (have a crush on him) is misleading at this level",
-      "6694268": "Do you drink? reads as asking about alcohol",
-      "10044449": "no here means right?, misleading for the word no",
-      "13595770": "a pun (The orange is orange)"
-    },
-    "english": {
-      "451717": "Do you like it?"
-    }
-  },
-  "U05": {
-    "reject": {
-      "1684170": "an insult (He is an animal)",
-      "5048370": "an insult (You are an animal)",
-      "5048393": "odd, like Je suis un chat",
-      "8014800": "odd (You are not a dog. Are you a cat?)",
-      "8634773": "odd, like Je suis un chat",
-      "10002137": "odd, like Je suis un chat"
-    }
-  },
-  "U06": {
-    "reject": {
-      "1241320": "an idiom (eres un pan: you are a sweetheart)",
-      "1672938": "odd on its own (It is not us)",
-      "1741697": "como here is like, not I eat",
-      "1766399": "odd, like Je suis un chat",
-      "2068368": "odd, like Je suis un chat",
-      "2216786": "como here is like, not I eat",
-      "2678626": "odd (I eat a book)",
-      "6601741": "como here is like, not I eat",
-      "9501584": "como here is like, not I eat",
-      "9963972": "odd (Am I a cat?)"
-    }
-  },
-  "U07": {
-    "reject": {
-      "1266999": "its English says too old; muy is very",
-      "1410052": "bueno here means well, not good",
-      "2248537": "estar with vieja (you look old), rude and a subtle shade",
-      "5199698": "odd (You as well, child)",
-      "6168563": "estar with bonita (do I look pretty) before the ser or estar unit"
-    }
-  },
-  "U08": {
-    "reject": {
-      "745024": "buenas tardes is good afternoon; its English says good evening",
-      "1775335": "bueno here means well",
-      "2002094": "English How do you do? is a set phrase, not how are you",
-      "2502408": "llamas here means flames, not the llamas of te llamas",
-      "4556668": "its English says there for aquí",
-      "9991146": "its English adds now"
-    }
-  },
-  "U09": {
-    "reject": {
-      "1705578": "enferma here is the verb enfermar (it sickens me), not sick",
-      "3769307": "no here means right?, misleading for the word no",
-      "4102591": "no here means right?, misleading for the word no",
-      "5311719": "its English turns el señor into you",
-      "9731379": "no here means right?, misleading for the word no",
-      "9975829": "its English (Aren't you a teacher here?) adds a negative"
-    }
-  },
-  "U10": {
-    "reject": {
-      "503718": "its English (are all very well) adds to the Spanish",
-      "703591": "cómo de grande is mostly Spain usage and beyond A1",
-      "922546": "no here means right?, misleading for the word no",
-      "1240366": "its English (Those books are mine) turns the sentence round",
-      "1279565": "no here means right?, misleading for the word no",
-      "1598990": "an idiom (¿De nuevo? = Again?)",
-      "1700816": "cómo de grande is mostly Spain usage and beyond A1",
-      "2002093": "cómo de grande is mostly Spain usage and beyond A1",
-      "2042170": "cómo de grande is mostly Spain usage and beyond A1",
-      "2351528": "cómo de grande is mostly Spain usage and beyond A1",
-      "2351629": "cómo de is mostly Spain usage and beyond A1",
-      "3769291": "no here means right?, misleading for the word no",
-      "5979643": "cómo de is mostly Spain usage and beyond A1"
-    }
-  },
-  "U11": {
-    "reject": {
-      "2554": "a stereotype (That's because you're a girl)",
-      "456973": "an idiom (¿Y qué? = So what?)",
-      "504457": "odd (What don't you have?)",
-      "865656": "an idiom (¿Qué hay? = What's up?)",
-      "1060964": "odd (What does not he have?)",
-      "2246913": "two questions in one line, odd",
-      "2753030": "a stereotype (That's because you're a girl)",
-      "2775093": "odd (Which one is you?)",
-      "6694208": "ser for where, against the estar rule of Unit 8",
-      "7950458": "a stereotype (That's because you're a girl)"
-    }
-  },
-  "U12": {
-    "reject": {
-      "10323256": "odd on its own (I do not have three.)"
-    }
-  },
-  "U13": {
-    "reject": {
-      "1170929": "odd (The dog is red.)",
-      "3797085": "an idiom (No tengo blanca = I'm broke)",
-      "5047231": "odd (What colour is orange?)",
-      "6682518": "estar verde means unripe, a shade beyond A1"
-    }
-  },
-  "U14": {
-    "reject": {
-      "625854": "an idiom (Today isn't my day)",
-      "1178733": "an idiom (What are you about now?)",
-      "1543921": "odd (It's ok now?)",
-      "1600064": "llamo here is I call, not my name is",
-      "4721100": "its English (What day are we on?) is odd",
-      "5769400": "no here means right?, misleading for the word no",
-      "8310704": "an idiom (Tomorrow's the day)"
-    }
-  },
-  "U15": {
-    "reject": {
-      "1239000": "me voy is irse (to leave), not ir",
-      "1584765": "an idiom (¿Cómo te va?)",
-      "2073235": "va here means belongs, not goes",
-      "2158635": "te vas is irse (to leave), not ir",
-      "2897623": "an idiom (¿Cómo te va?)",
-      "4770186": "odd (Who goes there?)",
-      "6328919": "an idiom (How's school going?)",
-      "6601696": "odd (How are you going?)",
-      "6711182": "an idiom (How does this work?)",
-      "10083684": "odd (Where does Tom go to school?) for a dónde va a la escuela"
-    }
-  },
-  "U101": {
-    "reject": {
-      "754040": "hace here is does or makes, not the weather hace",
-      "1006269": "odd (The sun is red.)",
-      "1309759": "its English (Where is the rain?) does not match ¿Dónde llueve?",
-      "1943524": "unnatural (el tiempo está frío)",
-      "1943526": "unnatural (el tiempo es frío)",
-      "1943530": "unusual word order (hace tiempo frío)",
-      "4735503": "hace here is does or makes, not the weather hace",
-      "6149386": "an exclamation idiom (¡Qué tiempo!)",
-      "6671857": "hace here is does or makes, not the weather hace",
-      "6873560": "hace here is does or makes, not the weather hace",
-      "9462525": "hace here is does or makes, not the weather hace"
-    }
-  },
-  "U102": {
-    "reject": {
-      "2857698": "its English (Where's your baby?) does not match ¿Y tu bebé?"
-    }
-  },
-  "U201": {
-    "reject": {
-      "4557032": "its English uses an idiom (tied up at the office)"
-    }
-  },
-  "U202": {
-    "reject": {
-      "1306048": "an idiom (Qué dolor = What a pain!)"
-    }
-  },
-  "U205": {
-    "reject": {
-      "559840": "repeats Es un piano viejo.",
-      "672993": "its English (Has she a piano?) is old-fashioned",
-      "1748354": "odd (It isn't music.)",
-      "2351157": "its English (She's no singer) means something else",
-      "3769308": "no here means right?, misleading for the word no"
-    }
-  },
-  "U207": {
-    "reject": {
-      "4524001": "estar verde is a shade beyond A1",
-      "5318152": "missing the opening ¿",
-      "5575239": "repeats the line before it",
-      "9552882": "odd (Women are flowers.)"
-    }
-  },
-  "U208": {
-    "reject": {
-      "10124749": "no here means right?, misleading for the word no"
-    }
-  },
-  "U31": {
-    "reject": {
-      "1271497": "exclamation (How she talks!), misleading for cómo and habla"
-    }
-  },
-  "U32": {
-    "reject": {
-      "945501": "English (What’re you saying?) misleading for quiere decir",
-      "1320971": "odd (Is THIS edible?)",
-      "10091185": "odd on its own (What is a word?)"
-    }
-  },
-  "U33": {
-    "reject": {
-      "580596": "sirve as serve!, misleading for sirve para",
-      "2062784": "sé as be (ser), misleading for sé (I know)",
-      "4567917": "sé as be (ser), misleading for sé (I know)",
-      "6600051": "idiom (That'll do)",
-      "6673555": "para as stop (parar), misleading for para",
-      "6675133": "para as stop (parar), misleading for para",
-      "7842061": "sé as be (ser), misleading for sé (I know)",
-      "7932307": "sé as be (ser), misleading for sé (I know)"
-    }
-  },
-  "U51": {
-    "reject": {
-      "1278522": "repeats guapa",
-      "1421655": "English renames the name as Mary, misleading for typed answers",
-      "2120621": "repeats guapa",
-      "3098094": "repeats guapa",
-      "5027133": "English does not match (grande as long)",
-      "5752562": "English does not match (alegre as funny)"
-    }
-  },
-  "U52": {
-    "reject": {
-      "1283000": "lee as a command, misleading for reads",
-      "4505706": "lee as a command, misleading for reads",
-      "6688853": "lee as a command, misleading for reads",
-      "7974213": "idiom (no tengo por qué)"
-    }
-  },
-  "U53": {
-    "reject": {
-      "1080901": "English does not match (el hotel as a hotel)",
-      "4508608": "elliptic",
-      "6549342": "English does not match (llamo as can I call)"
-    }
-  },
-  "U41": {
-    "reject": {
-      "512332": "wrong sense (encantada as haunted)",
-      "578954": "idiom (llaman a la puerta: someone is knocking)",
-      "1634606": "colloquial me sé",
-      "1785384": "odd question",
-      "1918210": "near duplicate of Yo sé tu nombre",
-      "5229490": "near duplicate of Es un nombre",
-      "5566752": "idiom (to name names)",
-      "7536632": "elliptic",
-      "10181454": "near duplicate"
-    }
-  },
-  "U54": {
-    "reject": {
-      "1001509": "wrong sense (llevarse bien: get along)",
-      "1207782": "odd (is your watch correct)",
-      "1248550": "wrong sense (llevar as give a ride)",
-      "1289356": "wrong sense (llevar as lead to)",
-      "1972288": "wrong sense (llevar as give a ride)",
-      "6692474": "wrong sense (llevar as lead to)",
-      "7958279": "wrong sense (llevar as give a ride)",
-      "10097458": "wrong sense (llevar as take somewhere)",
-      "10513593": "wrong sense (llevar as give a ride)"
-    }
-  },
-  "U34": {
-    "reject": {
-      "1400464": "English reads as permission (you may swim)",
-      "1508836": "odd question",
-      "1806183": "odd question",
-      "4986558": "duplicate of the tú question",
-      "5022753": "odd (what more can you say)",
-      "5022754": "odd (what more can you say)",
-      "5115269": "duplicate of Él escribe libros",
-      "9996558": "near duplicate"
-    }
-  },
-  "U42": {
-    "reject": {
-      "1213953": "English reads oddly (I keep thirteen cats)",
-      "1651338": "too many uno lines",
-      "1684190": "too many uno lines",
-      "1963195": "too many uno lines",
-      "3033102": "too many uno lines",
-      "4345046": "too many uno lines"
-    }
-  },
-  "U43": {
-    "reject": {
-      "578931": "too many feliz lines",
-      "1350929": "too many feliz lines",
-      "1939797": "too many feliz lines",
-      "2042215": "too many feliz lines",
-      "3255101": "too many feliz lines",
-      "5250824": "too many feliz lines",
-      "5922463": "English reads oddly",
-      "6813217": "too many feliz lines",
-      "9340812": "near duplicate of ¡Feliz año!"
-    }
-  },
-  "U55": {
-    "reject": {
-      "1103005": "near duplicate",
-      "1535987": "wrong sense (para as stop)",
-      "2122408": "English does not match (niños as boys)",
-      "2654905": "duplicate (usted)",
-      "5059343": "odd (the question is what for)",
-      "6627371": "English reads oddly",
-      "9928121": "odd question",
-      "11701813": "duplicate (ustedes)"
-    }
-  },
-  "U35": {
-    "reject": {
-      "1101448": "wrong sense (esperar as expect)",
-      "4947965": "English reads oddly",
-      "6003282": "near duplicate of Espera a María",
-      "6600057": "está correcto, and the English says okay",
-      "6600073": "está correcto, and the English says OK"
-    }
-  },
-  "U44": {
-    "reject": {
-      "519534": "odd (no more than a hundred books)"
-    }
-  },
-  "U45": {
-    "reject": {
-      "1280916": "near duplicate of ¿Él vive aquí?",
-      "1694482": "dark (tired of living)",
-      "2707086": "duplicate of ¿Usted vive aquí?",
-      "3189094": "odd question",
-      "3796564": "odd (what do I live for)",
-      "5198058": "unusual word order"
-    }
-  },
-  "U56": {
-    "reject": {
-      "740036": "peninsular construction (cómo de alto)",
-      "1237174": "wrong sense (baja as lower)",
-      "1748291": "wrong sense (corto as I cut)",
-      "2744067": "wrong sense (bajo as under)",
-      "4554080": "wrong sense (más bajo as quieter)",
-      "5566476": "wrong sense (baja as come down)"
-    }
-  },
-  "U46": {
-    "reject": {
-      "3724712": "odd (the women are in Mexico)"
-    }
-  },
-  "U47": {
-    "reject": {
-      "460405": "wrong sense (querer as love)",
-      "1672848": "different sense (ir de compras: go shopping)",
-      "2707062": "too many quieres lines",
-      "2893723": "near duplicate",
-      "3929649": "too many quieres lines",
-      "13436906": "near duplicate",
-      "13709422": "odd question"
-    }
-  },
-  "U57": {
-    "reject": {
-      "1542248": "odd question",
-      "2893685": "idiom (qué hay de malo: what is wrong)",
-      "3467836": "rude",
-      "5628592": "idiom (what is wrong with that)",
-      "11367410": "odd"
-    }
-  },
-  "U36": {
-    "reject": {
-      "1198552": "near duplicate",
-      "1263752": "awkward",
-      "1266256": "idiom (a decir verdad)",
-      "1266460": "idiom (a decir verdad)",
-      "1490437": "not a help phrase",
-      "1852172": "philosophical, not a help phrase",
-      "2258989": "different sense (a clear day)",
-      "5194740": "unusual (en un acuerdo)",
-      "5569504": "English reads oddly",
-      "7918574": "idiom (I do not mince words)"
-    }
-  },
-  "U48": {
-    "reject": {
-      "507312": "English reads oddly",
-      "1209948": "too many dinero lines",
-      "1945980": "too many dinero lines",
-      "2024843": "too many dinero lines",
-      "2042208": "too many dinero lines",
-      "2678413": "too many dinero lines",
-      "6592079": "odd",
-      "7931201": "too many dinero lines",
-      "11706967": "near duplicate"
-    }
-  },
-  "U49": {
-    "reject": {
-      "2061503": "wrong sense (llevar as carry)",
-      "2097862": "English has an error (Who is bag)",
-      "3837406": "colloquial (¿a poco?)",
-      "3837407": "colloquial (¿a poco sí?)",
-      "5755848": "English does not match",
-      "6627314": "English has an error (Who is this box for)",
-      "7299828": "odd question",
-      "10179339": "rude"
-    }
-  },
-  "U58": {
-    "reject": {
-      "1167579": "odd",
-      "1283936": "English reads oddly (dwells)",
-      "1765217": "odd (the sun is white)",
-      "12403654": "duplicate of ¿El cielo es azul? Sí."
-    }
+ "_about": "Claude's review of pulled Spanish sentences (2026-11-10): reject is a Tatoeba id to the reason, english picks which linked English leads. The pull never proposes a rejected sentence again. Main units and topic packs alike.",
+ "U01": {
+  "reject": {
+   "618725": "odd on its own (I am not.)",
+   "2062086": "odd on its own (I am!)",
+   "2532374": "quoted dialogue, odd as a lesson line",
+   "3990568": "odd (You are not me)",
+   "4964965": "idiomatic (Sí, ¿y? = so what?)",
+   "9482733": "incomplete (And you are...?)",
+   "9969845": "no here means right?, misleading for the word no",
+   "13593586": "repeats ¡Yo no soy tú!"
   }
+ },
+ "U02": {
+  "reject": {
+   "1280210": "idiomatic (Is this it?)",
+   "1284268": "esta is this; its only English says that",
+   "2057548": "no here means right?, misleading for the word no",
+   "2508078": "esto is not used for a person",
+   "2508079": "esto is not used for a person",
+   "6629538": "odd (I am a big child)",
+   "9439859": "odd (Tom is Tom)"
+  },
+  "english": {
+   "1991582": "This is a book."
+  }
+ },
+ "U03": {
+  "reject": {
+   "2965": "quoted dialogue",
+   "745023": "buenas tardes is good afternoon; its English says good evening",
+   "849995": "quoted dialogue",
+   "1308776": "English How do you do? is a set phrase, not how are you",
+   "2178022": "idiomatic (Is something wrong?)",
+   "2831859": "three questions in a row, odd as a lesson line",
+   "4743107": "idiomatic (Is Tom in?)",
+   "6600064": "odd (You are fine.)",
+   "6686467": "English Is he right? is misleading",
+   "12954802": "no punctuation, and quite is not in the Spanish"
+  }
+ },
+ "U04": {
+  "reject": {
+   "675190": "como here is like, not I eat",
+   "3160452": "its English (have a crush on him) is misleading at this level",
+   "6694268": "Do you drink? reads as asking about alcohol",
+   "10044449": "no here means right?, misleading for the word no",
+   "13595770": "a pun (The orange is orange)"
+  },
+  "english": {
+   "451717": "Do you like it?"
+  }
+ },
+ "U05": {
+  "reject": {
+   "1684170": "an insult (He is an animal)",
+   "5048370": "an insult (You are an animal)",
+   "5048393": "odd, like Je suis un chat",
+   "8014800": "odd (You are not a dog. Are you a cat?)",
+   "8634773": "odd, like Je suis un chat",
+   "10002137": "odd, like Je suis un chat"
+  }
+ },
+ "U06": {
+  "reject": {
+   "1241320": "an idiom (eres un pan: you are a sweetheart)",
+   "1672938": "odd on its own (It is not us)",
+   "1741697": "como here is like, not I eat",
+   "1766399": "odd, like Je suis un chat",
+   "2068368": "odd, like Je suis un chat",
+   "2216786": "como here is like, not I eat",
+   "2678626": "odd (I eat a book)",
+   "6601741": "como here is like, not I eat",
+   "9501584": "como here is like, not I eat",
+   "9963972": "odd (Am I a cat?)"
+  }
+ },
+ "U07": {
+  "reject": {
+   "1266999": "its English says too old; muy is very",
+   "1410052": "bueno here means well, not good",
+   "2248537": "estar with vieja (you look old), rude and a subtle shade",
+   "5199698": "odd (You as well, child)",
+   "6168563": "estar with bonita (do I look pretty) before the ser or estar unit"
+  }
+ },
+ "U08": {
+  "reject": {
+   "745024": "buenas tardes is good afternoon; its English says good evening",
+   "1775335": "bueno here means well",
+   "2002094": "English How do you do? is a set phrase, not how are you",
+   "2502408": "llamas here means flames, not the llamas of te llamas",
+   "4556668": "its English says there for aquí",
+   "9991146": "its English adds now"
+  }
+ },
+ "U09": {
+  "reject": {
+   "1705578": "enferma here is the verb enfermar (it sickens me), not sick",
+   "3769307": "no here means right?, misleading for the word no",
+   "4102591": "no here means right?, misleading for the word no",
+   "5311719": "its English turns el señor into you",
+   "9731379": "no here means right?, misleading for the word no",
+   "9975829": "its English (Aren't you a teacher here?) adds a negative"
+  }
+ },
+ "U10": {
+  "reject": {
+   "503718": "its English (are all very well) adds to the Spanish",
+   "703591": "cómo de grande is mostly Spain usage and beyond A1",
+   "922546": "no here means right?, misleading for the word no",
+   "1240366": "its English (Those books are mine) turns the sentence round",
+   "1279565": "no here means right?, misleading for the word no",
+   "1598990": "an idiom (¿De nuevo? = Again?)",
+   "1700816": "cómo de grande is mostly Spain usage and beyond A1",
+   "2002093": "cómo de grande is mostly Spain usage and beyond A1",
+   "2042170": "cómo de grande is mostly Spain usage and beyond A1",
+   "2351528": "cómo de grande is mostly Spain usage and beyond A1",
+   "2351629": "cómo de is mostly Spain usage and beyond A1",
+   "3769291": "no here means right?, misleading for the word no",
+   "5979643": "cómo de is mostly Spain usage and beyond A1"
+  }
+ },
+ "U11": {
+  "reject": {
+   "2554": "a stereotype (That's because you're a girl)",
+   "456973": "an idiom (¿Y qué? = So what?)",
+   "504457": "odd (What don't you have?)",
+   "865656": "an idiom (¿Qué hay? = What's up?)",
+   "1060964": "odd (What does not he have?)",
+   "2246913": "two questions in one line, odd",
+   "2753030": "a stereotype (That's because you're a girl)",
+   "2775093": "odd (Which one is you?)",
+   "6694208": "ser for where, against the estar rule of Unit 8",
+   "7950458": "a stereotype (That's because you're a girl)"
+  }
+ },
+ "U12": {
+  "reject": {
+   "10323256": "odd on its own (I do not have three.)"
+  }
+ },
+ "U13": {
+  "reject": {
+   "1170929": "odd (The dog is red.)",
+   "3797085": "an idiom (No tengo blanca = I'm broke)",
+   "5047231": "odd (What colour is orange?)",
+   "6682518": "estar verde means unripe, a shade beyond A1"
+  }
+ },
+ "U14": {
+  "reject": {
+   "625854": "an idiom (Today isn't my day)",
+   "1178733": "an idiom (What are you about now?)",
+   "1543921": "odd (It's ok now?)",
+   "1600064": "llamo here is I call, not my name is",
+   "4721100": "its English (What day are we on?) is odd",
+   "5769400": "no here means right?, misleading for the word no",
+   "8310704": "an idiom (Tomorrow's the day)"
+  }
+ },
+ "U15": {
+  "reject": {
+   "1239000": "me voy is irse (to leave), not ir",
+   "1584765": "an idiom (¿Cómo te va?)",
+   "2073235": "va here means belongs, not goes",
+   "2158635": "te vas is irse (to leave), not ir",
+   "2897623": "an idiom (¿Cómo te va?)",
+   "4770186": "odd (Who goes there?)",
+   "6328919": "an idiom (How's school going?)",
+   "6601696": "odd (How are you going?)",
+   "6711182": "an idiom (How does this work?)",
+   "10083684": "odd (Where does Tom go to school?) for a dónde va a la escuela"
+  }
+ },
+ "U101": {
+  "reject": {
+   "754040": "hace here is does or makes, not the weather hace",
+   "1006269": "odd (The sun is red.)",
+   "1309759": "its English (Where is the rain?) does not match ¿Dónde llueve?",
+   "1943524": "unnatural (el tiempo está frío)",
+   "1943526": "unnatural (el tiempo es frío)",
+   "1943530": "unusual word order (hace tiempo frío)",
+   "4735503": "hace here is does or makes, not the weather hace",
+   "6149386": "an exclamation idiom (¡Qué tiempo!)",
+   "6671857": "hace here is does or makes, not the weather hace",
+   "6873560": "hace here is does or makes, not the weather hace",
+   "9462525": "hace here is does or makes, not the weather hace"
+  }
+ },
+ "U102": {
+  "reject": {
+   "2857698": "its English (Where's your baby?) does not match ¿Y tu bebé?"
+  }
+ },
+ "U201": {
+  "reject": {
+   "4557032": "its English uses an idiom (tied up at the office)"
+  }
+ },
+ "U202": {
+  "reject": {
+   "1306048": "an idiom (Qué dolor = What a pain!)"
+  }
+ },
+ "U205": {
+  "reject": {
+   "559840": "repeats Es un piano viejo.",
+   "672993": "its English (Has she a piano?) is old-fashioned",
+   "1748354": "odd (It isn't music.)",
+   "2351157": "its English (She's no singer) means something else",
+   "3769308": "no here means right?, misleading for the word no"
+  }
+ },
+ "U207": {
+  "reject": {
+   "4524001": "estar verde is a shade beyond A1",
+   "5318152": "missing the opening ¿",
+   "5575239": "repeats the line before it",
+   "9552882": "odd (Women are flowers.)"
+  }
+ },
+ "U208": {
+  "reject": {
+   "10124749": "no here means right?, misleading for the word no"
+  }
+ },
+ "U31": {
+  "reject": {
+   "1271497": "exclamation (How she talks!), misleading for cómo and habla"
+  }
+ },
+ "U32": {
+  "reject": {
+   "945501": "English (What’re you saying?) misleading for quiere decir",
+   "1320971": "odd (Is THIS edible?)",
+   "10091185": "odd on its own (What is a word?)"
+  }
+ },
+ "U33": {
+  "reject": {
+   "580596": "sirve as serve!, misleading for sirve para",
+   "2062784": "sé as be (ser), misleading for sé (I know)",
+   "4567917": "sé as be (ser), misleading for sé (I know)",
+   "6600051": "idiom (That'll do)",
+   "6673555": "para as stop (parar), misleading for para",
+   "6675133": "para as stop (parar), misleading for para",
+   "7842061": "sé as be (ser), misleading for sé (I know)",
+   "7932307": "sé as be (ser), misleading for sé (I know)"
+  }
+ },
+ "U51": {
+  "reject": {
+   "1278522": "repeats guapa",
+   "1421655": "English renames the name as Mary, misleading for typed answers",
+   "2120621": "repeats guapa",
+   "3098094": "repeats guapa",
+   "5027133": "English does not match (grande as long)",
+   "5752562": "English does not match (alegre as funny)"
+  }
+ },
+ "U52": {
+  "reject": {
+   "1283000": "lee as a command, misleading for reads",
+   "4505706": "lee as a command, misleading for reads",
+   "6688853": "lee as a command, misleading for reads",
+   "7974213": "idiom (no tengo por qué)"
+  }
+ },
+ "U53": {
+  "reject": {
+   "1080901": "English does not match (el hotel as a hotel)",
+   "4508608": "elliptic",
+   "6549342": "English does not match (llamo as can I call)"
+  }
+ },
+ "U41": {
+  "reject": {
+   "512332": "wrong sense (encantada as haunted)",
+   "578954": "idiom (llaman a la puerta: someone is knocking)",
+   "1634606": "colloquial me sé",
+   "1785384": "odd question",
+   "1918210": "near duplicate of Yo sé tu nombre",
+   "5229490": "near duplicate of Es un nombre",
+   "5566752": "idiom (to name names)",
+   "7536632": "elliptic",
+   "10181454": "near duplicate"
+  }
+ },
+ "U54": {
+  "reject": {
+   "1001509": "wrong sense (llevarse bien: get along)",
+   "1207782": "odd (is your watch correct)",
+   "1248550": "wrong sense (llevar as give a ride)",
+   "1289356": "wrong sense (llevar as lead to)",
+   "1972288": "wrong sense (llevar as give a ride)",
+   "6692474": "wrong sense (llevar as lead to)",
+   "7958279": "wrong sense (llevar as give a ride)",
+   "10097458": "wrong sense (llevar as take somewhere)",
+   "10513593": "wrong sense (llevar as give a ride)"
+  }
+ },
+ "U34": {
+  "reject": {
+   "1400464": "English reads as permission (you may swim)",
+   "1508836": "odd question",
+   "1806183": "odd question",
+   "4986558": "duplicate of the tú question",
+   "5022753": "odd (what more can you say)",
+   "5022754": "odd (what more can you say)",
+   "5115269": "duplicate of Él escribe libros",
+   "9996558": "near duplicate"
+  }
+ },
+ "U42": {
+  "reject": {
+   "1213953": "English reads oddly (I keep thirteen cats)",
+   "1651338": "too many uno lines",
+   "1684190": "too many uno lines",
+   "1963195": "too many uno lines",
+   "3033102": "too many uno lines",
+   "4345046": "too many uno lines"
+  }
+ },
+ "U43": {
+  "reject": {
+   "578931": "too many feliz lines",
+   "1350929": "too many feliz lines",
+   "1939797": "too many feliz lines",
+   "2042215": "too many feliz lines",
+   "3255101": "too many feliz lines",
+   "5250824": "too many feliz lines",
+   "5922463": "English reads oddly",
+   "6813217": "too many feliz lines",
+   "9340812": "near duplicate of ¡Feliz año!"
+  }
+ },
+ "U55": {
+  "reject": {
+   "1103005": "near duplicate",
+   "1535987": "wrong sense (para as stop)",
+   "2122408": "English does not match (niños as boys)",
+   "2654905": "duplicate (usted)",
+   "5059343": "odd (the question is what for)",
+   "6627371": "English reads oddly",
+   "9928121": "odd question",
+   "11701813": "duplicate (ustedes)"
+  }
+ },
+ "U35": {
+  "reject": {
+   "1101448": "wrong sense (esperar as expect)",
+   "4947965": "English reads oddly",
+   "6003282": "near duplicate of Espera a María",
+   "6600057": "está correcto, and the English says okay",
+   "6600073": "está correcto, and the English says OK"
+  }
+ },
+ "U44": {
+  "reject": {
+   "519534": "odd (no more than a hundred books)"
+  }
+ },
+ "U45": {
+  "reject": {
+   "1280916": "near duplicate of ¿Él vive aquí?",
+   "1694482": "dark (tired of living)",
+   "2707086": "duplicate of ¿Usted vive aquí?",
+   "3189094": "odd question",
+   "3796564": "odd (what do I live for)",
+   "5198058": "unusual word order"
+  }
+ },
+ "U56": {
+  "reject": {
+   "740036": "peninsular construction (cómo de alto)",
+   "1237174": "wrong sense (baja as lower)",
+   "1748291": "wrong sense (corto as I cut)",
+   "2744067": "wrong sense (bajo as under)",
+   "4554080": "wrong sense (más bajo as quieter)",
+   "5566476": "wrong sense (baja as come down)"
+  }
+ },
+ "U46": {
+  "reject": {
+   "3724712": "odd (the women are in Mexico)"
+  }
+ },
+ "U47": {
+  "reject": {
+   "460405": "wrong sense (querer as love)",
+   "1672848": "different sense (ir de compras: go shopping)",
+   "2707062": "too many quieres lines",
+   "2893723": "near duplicate",
+   "3929649": "too many quieres lines",
+   "13436906": "near duplicate",
+   "13709422": "odd question"
+  }
+ },
+ "U57": {
+  "reject": {
+   "1542248": "odd question",
+   "2893685": "idiom (qué hay de malo: what is wrong)",
+   "3467836": "rude",
+   "5628592": "idiom (what is wrong with that)",
+   "11367410": "odd"
+  }
+ },
+ "U36": {
+  "reject": {
+   "1198552": "near duplicate",
+   "1263752": "awkward",
+   "1266256": "idiom (a decir verdad)",
+   "1266460": "idiom (a decir verdad)",
+   "1490437": "not a help phrase",
+   "1852172": "philosophical, not a help phrase",
+   "2258989": "different sense (a clear day)",
+   "5194740": "unusual (en un acuerdo)",
+   "5569504": "English reads oddly",
+   "7918574": "idiom (I do not mince words)"
+  }
+ },
+ "U48": {
+  "reject": {
+   "507312": "English reads oddly",
+   "1209948": "too many dinero lines",
+   "1945980": "too many dinero lines",
+   "2024843": "too many dinero lines",
+   "2042208": "too many dinero lines",
+   "2678413": "too many dinero lines",
+   "6592079": "odd",
+   "7931201": "too many dinero lines",
+   "11706967": "near duplicate"
+  }
+ },
+ "U49": {
+  "reject": {
+   "2061503": "wrong sense (llevar as carry)",
+   "2097862": "English has an error (Who is bag)",
+   "3837406": "colloquial (¿a poco?)",
+   "3837407": "colloquial (¿a poco sí?)",
+   "5755848": "English does not match",
+   "6627314": "English has an error (Who is this box for)",
+   "7299828": "odd question",
+   "10179339": "rude"
+  }
+ },
+ "U58": {
+  "reject": {
+   "1167579": "odd",
+   "1283936": "English reads oddly (dwells)",
+   "1765217": "odd (the sun is white)",
+   "12403654": "duplicate of ¿El cielo es azul? Sí."
+  }
+ },
+ "U61": {
+  "reject": {
+   "975528": "third line with the same English",
+   "1619870": "repeats a word",
+   "1869802": "awkward English",
+   "1876043": "idiom",
+   "2266999": "odd without context",
+   "4348334": "near-duplicate of Voy tarde"
+  }
+ },
+ "U71": {
+  "reject": {
+   "445809": "idiom",
+   "491171": "idiom",
+   "1138863": "confusing",
+   "1250901": "duplicate English",
+   "1271555": "idiom",
+   "1282994": "entre as a verb form",
+   "1314039": "idiom",
+   "2228351": "English is loose",
+   "2267730": "near-duplicate",
+   "3797083": "idiom",
+   "4554127": "fragment",
+   "5124642": "idiom",
+   "5569510": "sí as a pronoun, not taught",
+   "6600594": "idiom",
+   "6614125": "entre as a verb form",
+   "9388536": "not everyday"
+  }
+ },
+ "U37": {
+  "reject": {
+   "5967329": "odd without context",
+   "6601704": "idiom",
+   "7866831": "English is loose",
+   "8258863": "odd without context",
+   "10258071": "se lo, not taught",
+   "12316250": "se lo, not taught"
+  }
+ },
+ "U62": {
+  "reject": {
+   "945479": "odd",
+   "1536354": "odd",
+   "2246921": "repeats a word; pasado as a noun",
+   "3777149": "pasada in another sense",
+   "6588083": "rude idiom",
+   "9058221": "pasado as a noun; loose English",
+   "10563961": "idiom",
+   "12974835": "slang"
+  }
+ },
+ "U63": {
+  "reject": {
+   "1251487": "cuarto as fourth, another sense",
+   "6763152": "same English as another line",
+   "8231738": "odd",
+   "11723719": "odd",
+   "11726472": "two sentences",
+   "12883927": "same English as another line",
+   "12883938": "same English as another line",
+   "12883944": "same English as another line",
+   "12883950": "same English as another line",
+   "12883954": "same English as another line",
+   "12883958": "same English as another line",
+   "12883972": "same English as another line",
+   "12883978": "same English as another line",
+   "12883981": "same English as another line",
+   "12883983": "same English as another line"
+  }
+ },
+ "U72": {
+  "reject": {
+   "1309758": "odd",
+   "2741928": "same English as another line",
+   "6711453": "baja as a verb, not taught"
+  }
+ },
+ "U38": {
+  "reject": {
+   "1119982": "se para, not taught",
+   "1123233": "idiom",
+   "3674777": "quoted dialogue",
+   "5138414": "unkind",
+   "6588116": "dated",
+   "6706954": "English is loose",
+   "7160144": "odd"
+  }
+ },
+ "U64": {
+  "reject": {
+   "1209947": "verse as look, another sense",
+   "1513008": "Spain usage",
+   "2917751": "verse as look, another sense",
+   "4250681": "salir mal, another sense",
+   "4587213": "verse as look, another sense",
+   "6686522": "Spain usage"
+  }
+ },
+ "U65": {
+  "reject": {
+   "1535601": "same English as another line",
+   "5958177": "unkind"
+  }
+ },
+ "U73": {
+  "reject": {
+   "1588542": "unusual phrasing",
+   "2313048": "reads badly in Spain",
+   "3274575": "same English as another line",
+   "5003753": "repeats a word",
+   "7948456": "unusual phrasing"
+  }
+ },
+ "U66": {
+  "reject": {
+   "453687": "English is wrong",
+   "1249601": "English is loose",
+   "3564865": "same English as another line"
+  }
+ },
+ "U67": {
+  "reject": {
+   "1515290": "salir as rise, another sense",
+   "1783080": "salir as come out, another sense",
+   "2254023": "another sense",
+   "6627168": "idiom",
+   "7160117": "another sense",
+   "7900978": "another sense",
+   "9667618": "salir as come out, another sense"
+  }
+ },
+ "U74": {
+  "reject": {
+   "1317302": "unkind, enough of these",
+   "1322532": "unkind, enough of these",
+   "1322533": "unkind, enough of these",
+   "2108280": "verse as look, not taught",
+   "2416418": "enough of these",
+   "2470781": "enough of these",
+   "2532737": "enough of these",
+   "2906826": "unkind, enough of these",
+   "4762553": "unkind",
+   "5752553": "unkind",
+   "5879821": "unkind",
+   "6682486": "same English as another line",
+   "9452869": "unkind",
+   "13466098": "odd"
+  }
+ },
+ "U39": {
+  "reject": {
+   "554812": "nieve as a verb form",
+   "864276": "several sentences",
+   "895223": "same English as another line",
+   "1139255": "same English as another line",
+   "1748236": "same English as another line",
+   "2119849": "near-duplicate",
+   "3988256": "near-duplicate",
+   "4488372": "odd",
+   "9706870": "seguro as insurance, another sense"
+  }
+ },
+ "U68": {
+  "reject": {
+   "745049": "same English as another line",
+   "5683015": "odd",
+   "6816471": "English is loose",
+   "12296839": "same English as another line"
+  }
+ },
+ "U69": {
+  "reject": {
+   "832193": "radio jargon",
+   "5569103": "odd",
+   "7008691": "idiom"
+  }
+ },
+ "U75": {
+  "reject": {
+   "1063240": "English is loose",
+   "2571735": "alarming",
+   "2698027": "odd",
+   "2698148": "odd",
+   "4417806": "alarming",
+   "5197998": "English is loose",
+   "5711642": "odd",
+   "10031862": "odd"
+  }
+ },
+ "U81": {
+  "reject": {
+   "916774": "odd",
+   "1216567": "not everyday",
+   "2270709": "gas in another sense",
+   "5181911": "gas in another sense",
+   "7276549": "odd",
+   "10060628": "odd"
+  }
+ },
+ "U91": {
+  "reject": {
+   "842009": "same English as another line",
+   "1403460": "same English as another line",
+   "7256739": "English is loose"
+  }
+ },
+ "U26": {
+  "reject": {
+   "1189749": "disculpa as a noun, another sense",
+   "1233188": "rude",
+   "1715951": "two sentences",
+   "2127187": "la as a pronoun, not taught",
+   "3798480": "same English as another line",
+   "4368174": "awkward",
+   "4587214": "odd",
+   "7262768": "near-duplicate",
+   "9423034": "disculpar as forgive"
+  }
+ },
+ "U82": {
+  "reject": {
+   "533374": "same English as another line",
+   "931056": "English is loose",
+   "952688": "same English as another line",
+   "1213810": "near-duplicate",
+   "1442322": "same English as another line",
+   "2309069": "enough rich lines",
+   "3084197": "odd",
+   "5235177": "capital letter error",
+   "6022740": "same English as another line",
+   "6031429": "formal, another sense",
+   "10000885": "same English as another line",
+   "12286476": "slang"
+  }
+ },
+ "U83": {
+  "reject": {
+   "943932": "derecho as a right, another sense",
+   "943935": "derecho as a right, another sense",
+   "977064": "derecho as a right, another sense",
+   "1296803": "English is odd",
+   "1411154": "derecho as a right",
+   "1746970": "derecho as a right",
+   "1746972": "derecho as a right, another sense",
+   "1752002": "derecho as a right, another sense",
+   "1752003": "derecho as a right, another sense",
+   "2006319": "derecho as a right, another sense",
+   "2265096": "seguir as still, another sense",
+   "2717903": "derecho as a right, another sense",
+   "2894431": "unsettling",
+   "3602992": "seguir as still, another sense"
+  }
+ },
+ "U92": {
+  "reject": {
+   "6963153": "ducha as a verb form"
+  }
+ },
+ "U27": {
+  "reject": {
+   "753082": "quoted dialogue",
+   "1687679": "near-duplicate",
+   "3351096": "English is loose",
+   "6689491": "saber as taste, another sense",
+   "7849680": "dramatic",
+   "9462483": "sentirse, not taught",
+   "9551123": "near-duplicate"
+  }
+ },
+ "U84": {
+  "reject": {
+   "1442306": "conducir as lead, another sense",
+   "1477973": "nonsense",
+   "1668969": "andar as ride, another sense",
+   "2117395": "bare command",
+   "2516791": "same English as another line",
+   "5159152": "same English as another line",
+   "5566345": "bare command",
+   "7929310": "same English as another line"
+  }
+ },
+ "U85": {
+  "reject": {
+   "1032742": "same English as another line",
+   "1731010": "bare command",
+   "1746979": "same English as another line",
+   "1746983": "same English as another line",
+   "2246826": "nosy",
+   "3762776": "same English as another line",
+   "4704810": "not everyday",
+   "7299880": "same English as another line"
+  }
+ },
+ "U93": {
+  "reject": {
+   "1547924": "two sentences",
+   "1829553": "idiom",
+   "2112879": "idiom"
+  }
+ },
+ "U86": {
+  "reject": {
+   "577603": "near-duplicate",
+   "769473": "same English as another line",
+   "793296": "same English as another line",
+   "2707901": "odd",
+   "4388712": "near-duplicate",
+   "9462257": "same English as another line"
+  }
+ },
+ "U87": {
+  "reject": {
+   "1167453": "same English as another line",
+   "3562567": "same English as another line",
+   "5015038": "same English as another line",
+   "5310015": "same English as another line"
+  }
+ },
+ "U94": {
+  "reject": {
+   "9667678": "odd",
+   "10027800": "political",
+   "11790797": "sensitive",
+   "11790799": "sensitive"
+  }
+ },
+ "U28": {
+  "reject": {
+   "461060": "English is loose",
+   "545542": "another sense",
+   "2071734": "English is loose",
+   "2254152": "idiom",
+   "5568814": "English is loose",
+   "6694316": "English is loose",
+   "7366101": "unkind",
+   "12025245": "same English as another line"
+  }
+ },
+ "U88": {
+  "reject": {
+   "549902": "odd",
+   "1258441": "punto as an argument",
+   "1289511": "punto as an argument, another sense",
+   "1404532": "not everyday",
+   "5566603": "civil as civilian, another sense",
+   "6995567": "quotation",
+   "9991222": "punto as a score"
+  }
+ },
+ "U89": {
+  "reject": {
+   "1421804": "another sense",
+   "1535527": "abrazo as a verb form",
+   "1744863": "mando as command, another sense",
+   "2108518": "querido as liked, passive",
+   "5066650": "mando as command",
+   "5066655": "mando as command",
+   "5070089": "mando as command",
+   "5070107": "mando as command",
+   "5081527": "mando as command",
+   "5963708": "odd",
+   "5963737": "odd",
+   "7728645": "Spain usage",
+   "12018673": "same English as another line"
+  }
+ },
+ "U95": {
+  "reject": {
+   "870975": "doble in another sense",
+   "950512": "doble in another sense",
+   "993292": "doble in another sense",
+   "1359224": "doble in another sense",
+   "1711215": "not everyday",
+   "1862365": "doble in another sense",
+   "2141513": "odd"
+  }
+ }
 }
