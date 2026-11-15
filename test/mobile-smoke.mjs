@@ -119,6 +119,8 @@ async function run(name) {
         if (pair.audio?.file && !checked.recording) {
           for (const tap of ['the first tap', 'a second tap (replay)']) await soundAfter(() => word.tap(), 'recording', `${tap} of a word with a recording`)
           checked.recording = true
+          // The second tap deselects the word as well as replaying it (Dan, 2026-11-14), so pick it once more.
+          await word.tap()
         } else await word.tap()
         await lesson.locator('.grid > div').nth(1).locator('button').filter({ hasText: exact(pair.hint) }).tap()
         await alive()
@@ -178,7 +180,8 @@ async function run(name) {
     if (!(box.x < view.width / 4 && box.y > view.height * 0.8 && box.height >= 16)) throw new Error('the version name is not in the lower left at a readable size')
 
     at('picking a language on the opening screen')
-    await page.locator('.splash-choose button').first().tap()
+    // By name: the flags are alphabetical since 2026-11-14, so the first is Dutch (Coming Soon).
+    await page.locator('.splash-choose button[aria-label="French"]').tap()
     await page.locator('.splash').waitFor({ state: 'detached' })
     await alive()
 
