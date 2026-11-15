@@ -818,3 +818,11 @@ Part 3, Lingua Libre recordings:
 
 - Dan's Sound Lab picks: Soft swell (start a lesson from a circle), Warm thump (Check when right, Continue, Next Lesson), Two marimba notes (pair matched), Pebble (chip placed). audio.js cue; quiet bus, never over a recording or the device voice, cut off by any language audio; off with Sounds and reduced motion; no sound on wrong answers.
 - Checked in Chrome: each fires at its moment. test/cues.test.js (5).
+
+## 2026-11-15: Pace, flagged answers, reply hint (all courses)
+
+- Pace under Time Learning (pace.js, A1 60 to 100 hours in one place): Ahead of pace, On pace, Room to add time, with a small bar.
+- Flagged Answers on the Developer page: sentence, expected, their answer; Accept or Reject; Export Accepted Answers; the course's flagged-answers/ folder is read by import.mjs at the next build.
+- Answer the Question: a faint Hint link shows how a reply could start; costs nothing, logged as kind reply_start.
+- Checked in Chrome: hint, a flag made from a lesson, Accept, the export file, pace on Progress; import picked up a sample export once and left nothing behind.
+- Circle overview: an info icon above each circle's grammar notebook opens About This Circle (covers, grammar, new words, A1 task, round progress); modal on wide screens, bottom sheet on phones.

@@ -110,6 +110,32 @@ if (existsSync(DRAFTS)) {
   for (const x of decisions.accepted_additions ?? []) if (!have.has(x.answer_id)) tables.accepted_answers.push({ ...x, origin: 'flag' })
 }
 
+// Flagged answers accepted on a device (Dan, 2026-11-15): the Developer page's Flagged Answers exports a file
+// (kind accepted-answers); dropped into this course's flagged-answers/ folder, every file there is read here, so the
+// answers count for everyone after the next build. Each row's id is made from its sentence, direction and answer, so a
+// file read twice, or two files with the same answer, add it once. check-content takes origin learner_flag as Dan's.
+{
+  const dir = at('content/flagged-answers')
+  const norm = (t) => String(t).trim().replace(/\s+/g, ' ')
+  const idOf = (r) => `AL${[...`${r.sentence_id}|${r.direction}|${norm(r.answer)}`].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) >>> 0, 7).toString(36).toUpperCase()}`
+  const have = new Set(tables.accepted_answers.map((x) => `${x.sentence_id}|${x.direction}|${norm(x.answer)}`))
+  let added = 0
+  for (const f of existsSync(dir) ? readdirSync(dir).filter((x) => x.endsWith('.json')).sort() : []) {
+    const data = JSON.parse(readFileSync(join(dir, f), 'utf8'))
+    if (data.app !== 'tamago' || data.kind !== 'accepted-answers') { fail(`${f}: not a Tamago accepted-answers file`); continue }
+    if (data.course !== COURSE) { fail(`${f}: answers for course ${data.course}, not ${COURSE}`); continue }
+    for (const r of data.answers ?? []) {
+      if (!r.sentence_id || !r.direction || !norm(r.answer ?? '')) continue
+      const k = `${r.sentence_id}|${r.direction}|${norm(r.answer)}`
+      if (have.has(k)) continue
+      have.add(k)
+      tables.accepted_answers.push({ answer_id: idOf(r), sentence_id: r.sentence_id, direction: r.direction, answer: norm(r.answer), source: `learner flag, accepted on a device ${String(r.decided_at ?? '').slice(0, 10)} (${f})`, status: 'live', origin: 'learner_flag' })
+      added++
+    }
+  }
+  if (added) console.log(`Flagged answers: ${added} accepted answers from ${dir}`)
+}
+
 const PRIMARY_KEYS = {
   languages: 'lang_id', units: 'unit_id', can_do: 'can_do_id', sentences: 'sentence_id',
   words: 'word_id', question_types: 'type_id', variants: 'variant_id', rounds: 'round',

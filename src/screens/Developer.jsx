@@ -5,6 +5,7 @@ import { getAll, resetEverything, resetLanguage } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
 import { IconBack } from './icons.jsx'
 import Backup from './Backup.jsx'
+import FlaggedAnswers from './FlaggedAnswers.jsx'
 import { site, version } from '../lib/version.js'
 import { COURSES, TL, course, jumpInCourse } from '../lib/course.js'
 import partsFr from '../content/parts.json'
@@ -212,7 +213,7 @@ function Resets() {
   )
 }
 
-export default function Developer({ settings, onChange, snapshot, onBack, onVariants, onFlags, onNativeCheck, onForum, onTryA1, onJumpPart }) {
+export default function Developer({ settings, onChange, snapshot, onBack, onVariants, onFlags, onNativeCheck, onForum, onTryA1, onJumpPart, onAcceptAnswer }) {
   const [lib, setLib] = useState(null)
   const loadLib = () => import('../lib/devnotes.js').then((l) => { setLib(l); return l })
   const docFor = (id) => lib?.DOCS.find((d) => d.id === id) ?? { id, title: TITLES.find((t) => t[0] === id)[1] }
@@ -240,6 +241,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
           <button onClick={onTryA1} className="btn-secondary sm:col-span-2">Try the A1 Task Types</button>
         </div>
         {(settings.developer ?? 'on') === 'on' && <Labs />}
+        <FlaggedAnswers onAccept={onAcceptAnswer} />
         <JumpToPart onJumpPart={onJumpPart} />
         <Backup />
         <Resets />

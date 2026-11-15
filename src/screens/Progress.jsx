@@ -1,4 +1,5 @@
 import { IconBack } from './icons.jsx'
+import { A1_HOURS, paceOf } from '../lib/pace.js'
 
 const NAMES = { reading: 'Reading', listening: 'Listening', writing: 'Writing', speaking: 'Speaking' }
 
@@ -7,7 +8,8 @@ const NAMES = { reading: 'Reading', listening: 'Listening', writing: 'Writing', 
 // Total hours of active learning (Dan, 2026-11-15): one decimal, "0.4 hours", "12 hours" from ten up.
 const hours = (ms) => { const h = ms / 3_600_000; const v = h >= 10 ? Math.round(h) : Number(h.toFixed(1)); return `${v} ${v === 1 ? 'hour' : 'hours'}` }
 
-export default function Progress({ coverage, finalCheck, scores, units, canDo, checked, isOpen, progressOf, activeMs = 0, onCheck, onExam, onBack }) {
+export default function Progress({ coverage, finalCheck, scores, units, canDo, checked, isOpen, progressOf, activeMs = 0, share = 0, onCheck, onExam, onBack }) {
+  const pace = paceOf(activeMs, share)
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="flex items-center gap-2">
@@ -15,9 +17,22 @@ export default function Progress({ coverage, finalCheck, scores, units, canDo, c
         <h1 className="text-xl font-semibold">Progress</h1>
       </header>
 
-      <section className="flex items-baseline justify-between" aria-label="Time Learning">
-        <h2 className="font-semibold">Time Learning</h2>
-        <span data-time-learning className="font-semibold">{hours(activeMs)}</span>
+      <section className="flex flex-col gap-1.5" aria-labelledby="time-h">
+        <div className="flex items-baseline justify-between">
+          <h2 id="time-h" className="font-semibold">Time Learning</h2>
+          <span data-time-learning className="font-semibold">{hours(activeMs)}</span>
+        </div>
+        {/* Pace (Dan, 2026-11-15; src/lib/pace.js): hours against the typical time for A1, the typical band shaded. */}
+        {pace && (
+          <>
+            <div className="relative h-2.5 overflow-hidden rounded-full bg-line" aria-hidden="true">
+              <div className="absolute inset-y-0 bg-green/25" style={{ left: `${pace.band[0] * 100}%`, right: 0 }} />
+              <div className="absolute inset-y-0 left-0 rounded-full bg-green" style={{ width: `${Math.max(2, pace.bar * 100)}%` }} />
+            </div>
+            <p className="text-sm"><span data-pace className="font-medium">{pace.label}</span><span className="text-muted"> · {pace.line}</span></p>
+            <p className="text-xs text-muted">Most learners reach A1 in about {A1_HOURS.low} to {A1_HOURS.high} hours of guided study.</p>
+          </>
+        )}
       </section>
 
       {/* A1 coverage (A1 Complete, 2026-11-10): measured against the course's official A1 word list and the thirteen

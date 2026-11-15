@@ -35,6 +35,8 @@ export const IconCode = () => <svg {...svg}><path d="m8 8-4 4 4 4M16 8l4 4-4 4M1
 export const IconWhy = () => <svg {...svg}><circle cx="12" cy="12" r="9" /><path d="M9.6 9.3a2.5 2.5 0 0 1 4.8.9c0 1.7-2.4 2.2-2.4 3.6" /><path d="M12 17h.01" /></svg>
 // Grammar note (Dan, 2026-11-12, batch 5): Lucide's notebook-pen (ISC licence). The stroke is set so the weight
 // matches the Tools' 28 px icons when shown at 20 px (1.8 × 28 / 20).
+// The circle overview (Dan, 2026-11-15): Lucide's info, weighted like the notebook beneath it.
+export const IconInfo = () => <svg {...svg} strokeWidth={2.5}><circle cx="12" cy="12" r="10" /><path d="M12 16v-4" /><path d="M12 8h.01" /></svg>
 export const IconNotebookPen = () => <svg {...svg} strokeWidth={2.5}><path d="M13.4 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7.4" /><path d="M2 6h4" /><path d="M2 10h4" /><path d="M2 14h4" /><path d="M2 18h4" /><path d="M21.378 5.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z" /></svg>
 // Recording (batch 4): a microphone with the speaker's own two wave arcs beside it, as they sit beside the speaker;
 // while recording the arcs come on one after the other (.icon-live in index.css).

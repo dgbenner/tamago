@@ -8,7 +8,7 @@ globalThis.sessionStorage = storage()
 globalThis.window = globalThis
 const { createServer } = await import('vite')
 const vite = await createServer({ configFile: false, logLevel: 'silent', appType: 'custom', server: { middlewareMode: true, hmr: false, ws: false }, optimizeDeps: { noDiscovery: true } })
-const { promptFor, SpeakerBubble, ReplyBubble, speakerFor, askedToYou } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
+const { promptFor, SpeakerBubble, ReplyBubble, speakerFor, askedToYou, replyStart } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
 const { createElement } = await import('react')
 const { renderToStaticMarkup } = await import('react-dom/server')
 test.after(() => vite.close())
@@ -88,4 +88,12 @@ test('a recording\'s own tag beats its person\'s: Rdrg109 is a man, his "una" a 
   const q = { type: 'QT04', sentence_id: 'S1' }
   assert.match(speakerFor({ ...q, audio: { file: '/audio-es/W010.m4a', speaker: 'Rdrg109' } }), /\/female-/)
   assert.match(speakerFor({ ...q, audio: { file: '/audio-es/W011.m4a', speaker: 'Rdrg109' } }), /\/male-/)
+})
+
+test('Answer the Question\'s hint shows how a reply could start, from the fullest reply (Dan, 2026-11-15)', () => {
+  const q = (...replies) => ({ answers: replies.map((french) => ({ french })) })
+  assert.equal(replyStart(q('Je m\'appelle Paul.')), 'Je m\'appelle…')
+  assert.equal(replyStart(q('Oui.', 'Oui, je parle un peu français.')), 'Oui, je parle…')
+  assert.equal(replyStart(q('Merci.')), 'Me…')
+  assert.equal(replyStart({ answers: [] }), null)
 })

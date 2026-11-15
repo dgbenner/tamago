@@ -221,7 +221,8 @@ const answerChecks = accepted.map((a) => {
   const hit = a.direction !== 'fr_to_en' ? null
     : (byLoose.get(loose(s.french)) ?? []).find((c) => tatoeba.englishFor(c.id).some((e) => looseEn(e) === looseEn(a.answer)))
   const d = decisions.accepted_answers?.[a.answer_id]
-  const kept = d?.action === 'keep' && d.answer === a.answer
+  // An answer Dan accepted from a learner's flag (the flagged-answers folder, import.mjs) counts as his keep.
+  const kept = (d?.action === 'keep' && d.answer === a.answer) || a.origin === 'learner_flag'
   const linked = [...new Set((byLoose.get(loose(s.french)) ?? []).flatMap((c) => tatoeba.englishFor(c.id)))]
   return {
     answer_id: a.answer_id, sentence_id: a.sentence_id, answer: a.answer,

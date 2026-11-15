@@ -796,17 +796,26 @@ export default function App() {
   }
 
   const onHint = (q, seg) => {
-    put('hints_log', { hint_id: uid(), word_id: seg.word_id, sentence_id: q.sentence_id, tapped_at: new Date().toISOString() })
+    put('hints_log', { hint_id: uid(), word_id: seg.word_id, sentence_id: q.sentence_id, kind: seg.kind ?? 'word', tapped_at: new Date().toISOString() })
   }
 
   // Flags (version 2): the answer as given, its direction and the sentence travel with the flag, for Flag review.
   // Listening types (QT07, QT11) accept only the sentence heard, so their answers can't be approved.
+  // The question as shown and the answer expected travel too (Dan, 2026-11-15), for the Developer page's Flagged Answers.
   const onFlag = (q, reason_id, result) => {
     const direction = q.type === 'QT07' || q.type === 'QT11' || q.type === 'QT09' ? null : q.lang === 'fr' ? 'en_to_fr' : q.lang === 'en' ? 'fr_to_en' : null
+    const expected = typeof q.answer === 'string' && !/^S\d+$/.test(q.answer) ? q.answer : direction === 'en_to_fr' ? q.french : direction === 'fr_to_en' ? q.english : null
     put('flags', {
       flag_id: uid(), sentence_id: q.sentence_id ?? q.word_ids.join(';'), type_id: q.type, reason_id, flagged_at: new Date().toISOString(),
-      given: result?.given ?? null, correct: result?.correct ?? null, direction, french: q.french ?? null, english: q.english ?? null, status: 'open',
+      given: result?.given ?? null, correct: result?.correct ?? null, direction, french: q.french ?? null, english: q.english ?? null,
+      question: typeof q.shown === 'string' ? q.shown : null, expected: expected ?? null, course: course.id, status: 'open',
     })
+  }
+  // A flagged answer accepted on this device counts here at once (Flagged Answers, Flag Review); kept in kv
+  // approved_answers so it still counts after a reload.
+  const acceptAnswer = (row) => {
+    addAccepted([row])
+    getKv('approved_answers').then((list) => putKv('approved_answers', [...(list ?? []), row]))
   }
 
   // A passed lesson's bookkeeping: what it showed, misses to carry, and the circle's progress. Shared by a real
@@ -1032,7 +1041,7 @@ export default function App() {
     exam: () => <RealExam onBack={() => setScreen('progress')} />,
     progress: () => {
     const coverage = a1Coverage()
-    return <Progress coverage={coverage} finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf} onExam={() => setScreen('exam')} activeMs={activeMs.current}
+    return <Progress coverage={coverage} finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf} onExam={() => setScreen('exam')} activeMs={activeMs.current} share={courseShare()}
       onCheck={startCheck} onBack={() => setScreen('home')} />
   },
     make: () => {
@@ -1068,7 +1077,7 @@ export default function App() {
   if (screen === 'developer') {
     // Course Snapshot: exact numbers for both courses, worked out from the content each ships (src/lib/snapshot.js).
     const snapshot = { built: new Date(__BUILD_TIME__).toLocaleString('en-US', { dateStyle: 'long', timeStyle: 'short' }), workbooks: __WORKBOOKS__ }
-    return <Developer settings={settings} onChange={changeSettings} snapshot={snapshot} onBack={leaveDeveloper} onJumpPart={jumpToPart}
+    return <Developer settings={settings} onChange={changeSettings} snapshot={snapshot} onBack={leaveDeveloper} onJumpPart={jumpToPart} onAcceptAnswer={acceptAnswer}
       onTryA1={() => {
         // The four A1 task types on samples (Developer only): a practice session, kept out of scores and review.
         const sm = A1_SAMPLES[course.id]
@@ -1092,10 +1101,7 @@ export default function App() {
     return <NativeCheck sentences={list} results={nativeResults} onChange={(n) => { setNativeResults(n); putKv('native_check', n) }} onBack={() => setScreen('developer')} />
   }
   if (screen === 'flags') {
-    return <FlagReview reasons={tables.flag_reasons} onBack={() => setScreen('developer')} onAccept={(row) => {
-      addAccepted([row])
-      getKv('approved_answers').then((list) => putKv('approved_answers', [...(list ?? []), row]))
-    }} />
+    return <FlagReview reasons={tables.flag_reasons} onBack={() => setScreen('developer')} onAccept={acceptAnswer} />
   }
   if (screen === 'forum') return <Forum onBack={() => setScreen('developer')} />
   if (screen === 'listening' && passage) return <Listening passage={passage} onDone={() => { markActive(); setPassage(null); setScreen('make') }} onBack={() => { setPassage(null); setScreen('make') }} />
@@ -1110,6 +1116,8 @@ export default function App() {
   // A circle's ring (Circle Lab, 2026-11-10): lessons done out of the lessons planned across its five rounds, so it
   // fills the same however many lessons a circle has. A round that runs long never pushes the fill past its share, and
   // the fill never goes back.
+  // How much of the course is done, for Progress's pace: lessons done of all planned, over every circle on the path.
+  const courseShare = () => { const c = mainUnitIds.map(circleOf); const total = c.reduce((t, x) => t + x.total, 0); return total ? c.reduce((t, x) => t + x.done, 0) / total : 0 }
   const circleOf = (unitId) => {
     // Counted at build time (units.lesson_counts): simulating lessons here froze startup for seconds.
     const unit = tables.units.find((u) => u.unit_id === unitId)

@@ -568,6 +568,24 @@ function FillBlank({ q, result, onAnswer, newWords, onHint }) {
   )
 }
 
+// Answer the Question's hint (Dan, 2026-11-15): how a reply could start, from the fullest listed reply: all its words
+// but the last, three at most, then "…" ("Je m'appelle…" for "Je m'appelle Paul."); a one-word reply gives its first
+// letters. Showing it never costs anything: the answer is judged as before, and the tap is logged like a word hint.
+export function replyStart(q) {
+  const replies = (q.answers ?? []).map((a) => String(a.french ?? '')).filter(Boolean)
+  const full = replies.sort((a, b) => b.length - a.length)[0]
+  if (!full) return null
+  const words = full.replace(/[.!?…]+\s*$/, '').split(/\s+/).filter(Boolean)
+  if (words.length === 1) return `${words[0].slice(0, Math.min(2, words[0].length - 1)) || words[0][0]}…`
+  return `${words.slice(0, Math.min(3, words.length - 1)).join(' ').replace(/[,;:]$/, '')}…`
+}
+function ReplyHint({ q, onHint }) {
+  const [shown, setShown] = useState(false)
+  const start = replyStart(q)
+  if (shown) return <p data-reply-hint className="-mt-2 ml-[4.5rem] text-muted"><span className="sr-only">A reply could start: </span><span lang={TL}>{start}</span></p>
+  return <button type="button" data-reply-hint-link onClick={() => { setShown(true); onHint({ word_id: null, kind: 'reply_start' }) }} className="-mt-2 ml-[4.5rem] self-start text-sm text-muted underline decoration-line underline-offset-4">Hint</button>
+}
+
 export function promptFor(q, { newWords, hideFrench, result, onHint, wordsShown, onShowWords }) {
   if (q.type === 'QT06') {
     return hideFrench && !result ? <AudioHelp audio={q.audio} words={<><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>} wordsShown={wordsShown} onShowWords={onShowWords} /> : <><FrenchText q={q} newWords={newWords} onHint={onHint} /><FirstSight q={q} newWords={newWords} /></>
@@ -577,8 +595,10 @@ export function promptFor(q, { newWords, hideFrench, result, onHint, wordsShown,
     // under it. No quotes: the bubble already marks it as speech (Dan, 2026-11-14).
     // Every word still opens its hint on a tap; only new words carry the dotted line (craft review, 2026-11-14).
     const words = <FrenchText q={q} newWords={newWords} onHint={onHint} markNewOnly />
-    if (q.variant !== 'V0903' && !result) return <SpeakerBubble speaker={speakerFor(q)}><div className="flex flex-col gap-3"><AudioHelp bare audio={q.audio} label="Play the question" words={words} wordsShown={wordsShown} onShowWords={onShowWords} /></div></SpeakerBubble>
-    return <SpeakerBubble speaker={speakerFor(q)}>{words}</SpeakerBubble>
+    // The reply hint (Dan, 2026-11-15): until the answer, a faint Hint link under the question.
+    const hint = !result && replyStart(q) ? <ReplyHint key={q.qid} q={q} onHint={onHint} /> : null
+    if (q.variant !== 'V0903' && !result) return <>{<SpeakerBubble speaker={speakerFor(q)}><div className="flex flex-col gap-3"><AudioHelp bare audio={q.audio} label="Play the question" words={words} wordsShown={wordsShown} onShowWords={onShowWords} /></div></SpeakerBubble>}{hint}</>
+    return <><SpeakerBubble speaker={speakerFor(q)}>{words}</SpeakerBubble>{hint}</>
   }
   if ((q.type === 'QT07' || q.type === 'QT11') && !result) return <AudioHelp audio={q.audio} words={<p lang={TL} className="text-2xl leading-relaxed">{q.french}</p>} wordsShown={wordsShown} onShowWords={onShowWords} />
   if (q.type === 'QT07' || q.type === 'QT11') return <SpeakerButton audio={q.audio} large label="Play the sentence" />

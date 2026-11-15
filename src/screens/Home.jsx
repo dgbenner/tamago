@@ -6,18 +6,19 @@ import { TL, course } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
 import CircleNode from './CircleNode.jsx'
 import { GrammarNoteBody } from './GrammarNote.jsx'
+import { tables } from '../lib/content.js'
 
 // A tree node is a circle (Circle Lab design, approved 2026-11-10; src/screens/CircleNode.jsx): its sushi on a warm
 // disc, one ring that fills across all its lessons, the title. "Start Here" shows on the first
 // circle only, the first time. Pick Your Own wears its misc dish, before and after a topic is chosen (Dan, 2026-11-11).
 // Tapping an open circle goes straight into its lesson (Dan, 2026-11-12); the sheet stays for a locked circle (why
 // it's locked) and for Pick Your Own (choosing or changing the topic). The grammar note has its own small icon.
-function Node({ node, onPick, onTestPass, onNote }) {
+function Node({ node, onPick, onTestPass, onNote, onInfo }) {
   const { unit, open, early, circle, strength, topic, marker } = node
   return (
     <CircleNode title={unit.title} icon={unit.icon_file ? `/sushi/${unit.icon_group}/${unit.icon_file}` : null}
       locked={!open} early={open && early} lessonsDone={circle.done} lessonsTotal={circle.total} recall={strength?.items > 0 ? strength.recall : null} marker={marker}
-      onNote={onNote} onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
+      onNote={onNote} onInfo={onInfo} onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
   )
 }
 
@@ -108,6 +109,69 @@ function NoteSheet({ node, note, sentenceById, onStart, onClose }) {
       <div ref={barRef} className="sticky -bottom-5 -mx-5 mt-5 flex flex-col items-center gap-1 bg-surface px-5 pt-3 pb-1 lg:-bottom-6">
         {more && <span data-note-fade aria-hidden="true" className="pointer-events-none absolute inset-x-0 bottom-full h-16 bg-linear-to-t from-surface via-surface/70 to-transparent" />}
         <button onClick={onStart} className="btn-submit w-full" data-note-start>{started ? 'Next Lesson' : 'Start Lesson'}</button>
+        <button onClick={onClose} className="btn-tertiary">Back</button>
+      </div>
+    </Sheet>
+  )
+}
+
+// The circle's overview (Dan, 2026-11-15; it was the locked circle's panel, gone with the locks): what it covers, its
+// grammar point, its new words, any A1 task it teaches, and round progress. Opens from the info icon over the tree, a
+// centred pop-up from 1024px and a bottom sheet on phones, like the grammar note; Start or continue, and Back.
+function InfoSheet({ node, onStart, onClose }) {
+  const { unit, progress, circle } = node
+  const reached = progress.round_reached
+  const started = reached > 0 || progress.lessons_done > 0
+  const label = reached >= 5 ? 'Practice Again' : started ? 'Next Lesson' : 'Start Lesson'
+  const words = (tables?.words ?? []).filter((w) => w.first_unit === unit.unit_id && w.status !== 'off')
+  const canDo = (tables?.can_do ?? []).filter((c) => c.unit_id === unit.unit_id).map((c) => c.statement)
+  const tasks = String(unit.tasks ?? '').split(';').map((x) => x.trim()).filter(Boolean)
+    .map((id) => (tables?.a1_tasks ?? []).find((t) => t.task_id === id)?.task).filter(Boolean)
+  const round = Math.min(5, reached + (reached < 5 ? 1 : 0))
+  // The topic only when it says more than the title (copy rules: don't repeat the title); the can-do lines carry the rest.
+  const plain = (t) => String(t ?? '').toLowerCase().replace(/\+/g, 'and').replace(/[^a-z\p{L}]+/gu, ' ').trim()
+  const topic = unit.topic && plain(unit.topic) !== plain(unit.title) ? unit.topic : null
+  return (
+    <Sheet onClose={onClose}>
+      <SheetHead kicker="About This Circle" title={unit.title} onClose={onClose} />
+      <div className="mt-4 flex flex-col gap-4" data-info-sheet>
+        {(topic || canDo.length > 0) && (
+          <section className="flex flex-col gap-1">
+            <h3 className="text-sm font-semibold text-muted">What It Covers</h3>
+            {topic && <p>{topic}</p>}
+            {canDo.map((c) => <p key={c} className="text-sm text-muted">{c}</p>)}
+          </section>
+        )}
+        {unit.grammar_point && (
+          <section className="flex flex-col gap-1">
+            <h3 className="text-sm font-semibold text-muted">Grammar</h3>
+            <p>{unit.grammar_point}</p>
+          </section>
+        )}
+        {words.length > 0 && (
+          <section className="flex flex-col gap-1.5">
+            <h3 className="text-sm font-semibold text-muted">New Words <span className="font-normal">({words.length})</span></h3>
+            <ul className="flex flex-wrap gap-x-3 gap-y-1">
+              {words.map((w) => <li key={w.word_id}><span lang={TL} className="font-medium">{w.form}</span> <span className="text-sm text-muted">{w.hint || w.gloss}</span></li>)}
+            </ul>
+          </section>
+        )}
+        {tasks.length > 0 && (
+          <section className="flex flex-col gap-1">
+            <h3 className="text-sm font-semibold text-muted">A1 Task</h3>
+            {tasks.map((t) => <p key={t}>{t}</p>)}
+          </section>
+        )}
+        <section className="flex flex-col gap-1.5">
+          <h3 className="text-sm font-semibold text-muted">Progress</h3>
+          <div className="flex gap-1" aria-hidden="true">
+            {[1, 2, 3, 4, 5].map((r) => <span key={r} className={`h-2 flex-1 rounded-full ${r <= reached ? 'bg-green' : r === round && started ? 'bg-green/40' : 'bg-line'}`} />)}
+          </div>
+          <p className="text-sm text-muted" data-info-progress>{reached >= 5 ? 'All five rounds done; lessons from here are practice.' : `Round ${round} of 5 · Lesson ${Math.min(circle.done + 1, circle.total)} of ${circle.total} in all`}</p>
+        </section>
+      </div>
+      <div className="sticky -bottom-5 -mx-5 mt-5 flex flex-col items-center gap-1 bg-surface px-5 pt-3 pb-1 lg:-bottom-6">
+        <button onClick={onStart} className="btn-submit w-full" data-info-start>{label}</button>
         <button onClick={onClose} className="btn-tertiary">Back</button>
       </div>
     </Sheet>
@@ -444,6 +508,7 @@ function Points({ total, today }) {
 export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
   finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, hasNote, noteOf, sentenceById }) {
   const [picked, setPicked] = useState(null)
+  const [infoPicked, setInfoPicked] = useState(null)
   const [notePicked, setNotePicked] = useState(null) // the circle whose grammar note is open
   const [cpPicked, setCpPicked] = useState(null)
   const [cuPicked, setCuPicked] = useState(null)
@@ -519,7 +584,8 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
             <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
               {row.map((node) => <Node key={node.unit.unit_id} node={node} onTestPass={onTestPass}
                 onPick={(n) => { if (n.open && !n.topic) { cue('start'); onStartUnit(n.unit.unit_id) } else setPicked(n) }}
-                onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => setNotePicked(node) : null} />)}
+                onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => setNotePicked(node) : null}
+                onInfo={node.open && !node.topic ? () => setInfoPicked(node) : null} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
             cu && <li key={`cu${i}`} className="flex justify-center"><CatchUpNode cu={cu} onPick={setCuPicked} /></li>,
@@ -569,6 +635,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
           onStart={() => { setCpPicked(null); onCheckpoint(cpPicked.afterRow) }}
           onSkip={() => { setCpPicked(null); onSkipCheckpoint(cpPicked.afterRow) }} />
       )}
+      {infoPicked && <InfoSheet node={infoPicked} onClose={() => setInfoPicked(null)} onStart={() => { cue('button'); setInfoPicked(null); onStartUnit(infoPicked.unit.unit_id) }} />}
       {notePicked && <NoteSheet node={notePicked} note={noteOf(notePicked.unit.unit_id)} sentenceById={sentenceById}
         onClose={() => setNotePicked(null)} onStart={() => { setNotePicked(null); onStartUnit(notePicked.unit.unit_id) }} />}
       {cuPicked && <CatchUpCard cu={catchUps.find((x) => x.slot_id === cuPicked.slot_id) ?? cuPicked} onClose={() => setCuPicked(null)} onStart={() => { setCuPicked(null); onCatchUp(cuPicked) }} />}

@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import { IconLock, IconNotebookPen } from './icons.jsx'
+import { IconInfo, IconLock, IconNotebookPen } from './icons.jsx'
 
 // The new tree circle (Dan, 2026-11-10; in the lab at /lab.html, not on the live tree yet). The learner sees a circle
 // and its lessons, named by its title: no unit numbers, no rounds, no segments. The five rounds still run underneath;
@@ -44,17 +44,28 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
 // an open circle that has a note. Tapping the circle itself goes straight to a lesson.
 // early (no locks, Dan 2026-11-15): a circle ahead of where the learner is, faded and desaturated but tappable.
 // The wrapper is a size container so the icon can follow the disc (min(100%, 6rem) wide, under the 1.625rem marker).
-export default function CircleNode({ onNote = null, ...props }) {
+// onInfo (Dan, 2026-11-15): the circle's overview opens from Lucide's info icon, directly above the notebook, the same
+// style, size and spacing; both show on every circle, since every circle can be opened.
+const ICON_LEFT = 'calc(50% + min(100cqw, 6rem) / 2 - 1rem + 21px)'
+const NOTE_TOP = 'calc(1.625rem + min(100cqw, 6rem) / 2 - 0.875rem)'
+const INFO_TOP = 'calc(1.625rem + min(100cqw, 6rem) / 2 - 0.875rem - 1.75rem - 4px)'
+const ICON_CLASS = 'note-icon absolute flex size-7 items-center justify-center rounded-full text-muted opacity-40 [&_svg]:size-5 [&_svg]:origin-left [&_svg]:scale-80'
+export default function CircleNode({ onNote = null, onInfo = null, ...props }) {
   const button = <CircleButton {...props} />
-  if (!onNote || props.locked) return button
+  if ((!onNote && !onInfo) || props.locked) return button
   return (
     <div className="relative flex w-32 min-w-0 shrink justify-center [container-type:inline-size]">
       {button}
-      <button onClick={onNote} aria-label={`Grammar Note: ${props.title}`} data-note-icon
-        className="note-icon absolute flex size-7 items-center justify-center rounded-full text-muted opacity-40 [&_svg]:size-5 [&_svg]:origin-left [&_svg]:scale-80"
-        style={{ left: 'calc(50% + min(100cqw, 6rem) / 2 - 1rem + 21px)', top: 'calc(1.625rem + min(100cqw, 6rem) / 2 - 0.875rem)' }}>
-        <IconNotebookPen />
-      </button>
+      {onInfo && (
+        <button onClick={onInfo} aria-label={`About ${props.title}`} data-info-icon className={ICON_CLASS} style={{ left: ICON_LEFT, top: INFO_TOP }}>
+          <IconInfo />
+        </button>
+      )}
+      {onNote && (
+        <button onClick={onNote} aria-label={`Grammar Note: ${props.title}`} data-note-icon className={ICON_CLASS} style={{ left: ICON_LEFT, top: NOTE_TOP }}>
+          <IconNotebookPen />
+        </button>
+      )}
     </div>
   )
 }
