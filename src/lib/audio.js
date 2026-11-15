@@ -433,10 +433,12 @@ export function speakAll(lines, { slow = false, onEnd } = {}) {
 }
 
 // One line of a conversation (2026-11-10) at a chosen rate (slow, normal, natural); onEnd when it's spoken.
-export function speakLine(text, rate = 0.85, onEnd) {
+// key (Conversation v2, 2026-11-15): marks the line as playing under that key, so its speaker icon animates.
+export function speakLine(text, rate = 0.85, onEnd, key = null) {
   stop()
   hushCues()
   if (!('speechSynthesis' in window) || !text) { onEnd?.(); return }
   const mine = job
-  whenVoiceFree(mine, () => say(mine, text, rate, onEnd))
+  if (key) setNow(key)
+  whenVoiceFree(mine, () => say(mine, text, rate, () => { if (key && mine === job) setNow(null); onEnd?.() }))
 }

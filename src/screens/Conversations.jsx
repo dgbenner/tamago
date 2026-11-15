@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { converseReady } from '../lib/converse.js'
+import { DAILY_CAP, converseReady, talksLeft } from '../lib/converse.js'
 import NeedsSetup from './NeedsSetup.jsx'
 import { IconBack } from './icons.jsx'
 import { COURSES, chooseCourse, course } from '../lib/course.js'
@@ -8,50 +8,55 @@ import { Block } from './Make.jsx'
 // Conversations, a tool of its own (Dan, 2026-11-13; it was the last block of Self-Study): the conversation partner,
 // open to any learner whatever their place on the tree, once the API key is set and 10 words are met. The three set
 // scenes stay on the tree, after the second help circle.
-// A filter: a labelled row of choices, like a segmented control.
-function Choice({ label, value, options, onChange }) {
+
+// The conversation partner, version 2 (Dan, 2026-11-15): five scenes, one A1 task each, using only the learner's
+// words; the ones that fit their progress come first. A scene that doesn't fit yet stays visible and tappable (no
+// locks), faded, under Later. Free Conversation stays. A daily cap per device keeps the cost in hand.
+function Scene({ scene, onStart, disabled, later }) {
   return (
-    <fieldset className="flex flex-col gap-1">
-      <legend className="mb-1 text-sm text-muted">{label}</legend>
-      <div className="flex flex-wrap gap-2">
-        {options.map(([v, text]) => (
-          <button key={v} type="button" onClick={() => onChange(v)} aria-pressed={value === v}
-            className={`rounded-full border-2 px-3 py-1 text-sm ${value === v ? 'border-orange bg-orange text-white' : 'border-line bg-surface'}`}>{text}</button>
-        ))}
-      </div>
-    </fieldset>
+    <li>
+      <button onClick={() => onStart(scene)} disabled={disabled} data-scene={scene.id}
+        className={`flex w-full flex-col items-start gap-0.5 rounded-xl border-2 border-line bg-surface p-3 text-left ${later ? 'opacity-60' : ''}`}>
+        <span className="font-semibold">{scene.title}</span>
+        <span className="text-sm text-muted">{scene.about}</span>
+        {scene.have > 0 && <span className="text-xs text-muted">{scene.met} of {scene.have} key words met</span>}
+      </button>
+    </li>
   )
 }
 
-// The conversation partner (Dan, 2026-11-10): not tied to a circle. Filters the learner can change, with defaults
-// from their progress.
 function Partner({ partner, onStart }) {
-  const [f, setF] = useState(partner.defaults)
-  const set = (k) => (v) => setF((x) => ({ ...x, [k]: v }))
   const enough = partner.metCount >= 10
+  const left = talksLeft()
+  const off = !enough || left <= 0
+  const fits = partner.scenes.filter((x) => x.fits)
+  const later = partner.scenes.filter((x) => !x.fits)
   return (
-    <Block title="Conversation Partner" text={enough ? `Talk with Claude in ${course.name}, spoken or typed. Never graded; new words go to your Glossary.` : 'Meet 10 words first.'}>
+    <Block title="Conversation Partner" text={enough ? `Listen and answer in ${course.name}, spoken or typed: 6 to 8 exchanges, about 3 minutes. Never graded` : 'Meet 10 words first'}>
       <label className="flex flex-col gap-1">
         <span className="text-sm text-muted">Language</span>
         <select value={course.id} onChange={(e) => chooseCourse(e.target.value)} className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base">
           {COURSES.filter((c) => c.ready).map((c) => <option key={c.id} value={c.id}>{c.name}</option>)}
         </select>
       </label>
-      <label className="flex flex-col gap-1">
-        <span className="text-sm text-muted">Topic</span>
-        <select value={f.topic} onChange={(e) => set('topic')(e.target.value)} className="min-h-11 rounded-xl border-2 border-field bg-surface px-3 text-base">
-          <option value="free">Free conversation</option>
-          {partner.topics.map((t) => <option key={t} value={t}>{t}</option>)}
-        </select>
-      </label>
-      <Choice label="Vocabulary" value={f.vocabulary} onChange={set('vocabulary')} options={[['mine', 'My Words Only'], ['few', 'My Words Plus a Few New']]} />
-      <Choice label="Speed" value={f.speed} onChange={set('speed')} options={[['slow', 'Slow'], ['normal', 'Normal'], ['natural', 'Natural']]} />
-      <Choice label="Corrections" value={f.corrections} onChange={set('corrections')} options={[['each', 'Each Turn'], ['end', 'At the End'], ['off', 'Off']]} />
-      <button onClick={() => onStart(f)} disabled={!enough} className="btn-secondary">Start a Conversation</button>
+      <p className="text-sm text-muted" data-talks-left>{left > 0 ? `${left} of ${DAILY_CAP} left today on this device` : `Today's ${DAILY_CAP} conversations on this device are used. More tomorrow.`}</p>
+      {fits.length > 0 && (
+        <>
+          <h3 className="mt-2 text-sm text-muted">Fits Your Words</h3>
+          <ul className="flex flex-col gap-2">{fits.map((x) => <Scene key={x.id} scene={x} onStart={onStart} disabled={off} />)}</ul>
+        </>
+      )}
+      {later.length > 0 && (
+        <>
+          <h3 className="mt-2 text-sm text-muted">Later</h3>
+          <ul className="flex flex-col gap-2">{later.map((x) => <Scene key={x.id} scene={x} onStart={onStart} disabled={off} later />)}</ul>
+        </>
+      )}
+      <h3 className="mt-2 text-sm text-muted">Anything</h3>
+      <ul className="flex flex-col gap-2"><Scene scene={partner.free} onStart={onStart} disabled={off} /></ul>
     </Block>
   )
 }
-
 
 export default function Conversations({ partner, onPartner, onBack }) {
   const [talkReady, setTalkReady] = useState(null)

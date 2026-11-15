@@ -32,7 +32,7 @@ import Account from './screens/Account.jsx'
 import { bringDevice, saveSoon, settleSync, startFresh, syncCourse, useAuth } from './lib/auth/index.js'
 import ProgressChoice from './screens/ProgressChoice.jsx'
 import DeviceElsewhere from './screens/DeviceElsewhere.jsx'
-import { SCENES } from './lib/converse.js'
+import { SCENES, TASK_SCENES, sceneFit } from './lib/converse.js'
 import { makeA1Question } from './lib/a1types.js'
 import { A1_SAMPLES } from './dev/a1-samples.js'
 import { firstCircleMarker } from './screens/CircleNode.jsx'
@@ -86,6 +86,7 @@ export default function App() {
   // A conversation in progress (Dan, 2026-11-10): a scene from the path or the partner from Self-Study.
   const [convo, setConvo] = useState(null)
   const [scenesDone, setScenesDone] = useState({})
+  const [talkLast, setTalkLast] = useState(null) // the last conversation's average answer time (s), for the summary
   // A1 in parts (A1 Complete, 2026-11-10): the part the tree shows, and part reviews passed.
   const [partView, setPartView] = useState(null)
   const [partReviews, setPartReviews] = useState({})
@@ -184,6 +185,7 @@ export default function App() {
       setDeck(s.kv.flashcards ?? {})
       setCheckpoints(s.kv.checkpoints ?? {})
       setScenesDone(s.kv.scenes_done ?? {})
+      setTalkLast(s.kv.talk_last?.avg ?? null)
       setPartReviews(s.kv.part_reviews ?? {})
       if (s.kv.part_view) setPartView(s.kv.part_view)
       setCheckpointsSkipped(s.kv.checkpoints_skipped ?? {})
@@ -625,18 +627,19 @@ export default function App() {
   const sceneInfo = helpIds[1] ? { afterRow: rowOf(helpIds[1])?.row, available: SHOT_UNLOCK || progressOf(helpIds[1]).round_reached >= 1, scenes: (SCENES[course.id] ?? []).map((sc) => ({ ...sc, done: scenesDone[sc.id] ?? null })) } : null
   const a1Forms = [...new Set(tables.words.filter((w) => !packs.some((p) => p.unit_id === w.first_unit)).map((w) => w.form))]
   const startConversation = (mode, scene, settingsFor, back) => setConvo({ mode, scene, settings: settingsFor, back }) || setScreen('converse')
-  const conversationEnded = (found, c) => {
+  const conversationEnded = (found, c, avg = null) => {
+    if (avg != null) { setTalkLast(avg); putKv('talk_last', { avg, day: today() }) }
     for (const w of found) seenWords.current.add(w.word_id)
     if (found.length) putKv('seen_words', [...seenWords.current])
     if (c.mode === 'scene') setScenesDone((m) => { const n = { ...m, [c.scene.id]: today() }; putKv('scenes_done', n); return n })
     markActive()
   }
-  // The partner's defaults come from progress: the circle in hand, the learner's words, a gentler speed early on.
-  const partnerDefaults = () => {
-    const met = metWords().length
-    return { topic: tables.units.find((u) => u.unit_id === currentUnit)?.title ?? 'free', vocabulary: met < 80 ? 'mine' : 'few', speed: met < 60 ? 'slow' : 'normal', corrections: 'end' }
+  // The partner, version 2 (Dan, 2026-11-15): five A1 task scenes, the ones that fit the learner's words first.
+  const partnerScenes = () => {
+    const met = new Set(seenWords.current)
+    return (TASK_SCENES[course.id] ?? []).map((sc) => ({ ...sc, ...sceneFit(sc, tables.words, met) }))
   }
-  const partnerTopics = tables.units.filter((u) => onPath(u) && isOpen(u.unit_id) && u.is_topic_pick !== 'node').sort((a, b) => a.order - b.order).map((u) => u.title)
+  const FREE_TALK = { id: 'free', title: 'Free Conversation', about: 'Everyday things, at your own pace', setting: 'A friendly, free conversation about everyday things.', ai: 'a friendly conversation partner', learner: 'a learner', keys: [], have: 0 }
   const finalInfo = { exam: EXAMS[course.id], available: mainUnitIds.length > 0, last: finalCheck }
   const startCheckpoint = (row) => {
     const ids = unitsUpTo(row).flatMap(itemsOf)
@@ -1070,16 +1073,14 @@ export default function App() {
       onSentences={startGenerated} onListening={startListening} status={makeStatus} onBack={() => setScreen('home')} />
   },
     // Conversations (Dan, 2026-11-13): the conversation partner as a tool of its own, moved out of Self-Study.
-    talk: () => <Conversations partner={{ defaults: partnerDefaults(), topics: partnerTopics, metCount: metWords().length }} onBack={() => setScreen('home')}
-      onPartner={(f) => startConversation('partner', f.topic === 'free'
-        ? { id: 'partner', title: 'Conversation', setting: 'A friendly, free conversation about everyday things.', ai: 'a friendly conversation partner', learner: 'a learner' }
-        : { id: 'partner', title: f.topic, setting: `A friendly conversation about ${f.topic.toLowerCase()}, using that topic's words.`, ai: 'a friendly conversation partner', learner: 'a learner' }, f, 'talk')} />,
+    talk: () => <Conversations partner={{ scenes: partnerScenes(), free: FREE_TALK, metCount: metWords().length }} onBack={() => setScreen('home')}
+      onPartner={(sc) => startConversation('partner', sc, { speed: 'natural', corrections: 'end', vocabulary: 'mine' }, 'talk')} />,
   }
   if (panelScreens[screen] && !wide) return panelScreens[screen]()
   if (screen === 'converse' && convo) {
     return <Conversation key={convo.scene.id + convo.mode} mode={convo.mode} scene={convo.scene} settings={convo.settings} known={metWords().map((w) => w.form)} pool={a1Forms}
       names={courseNames.slice(0, 8)} helpLevel={helpLevel} words={tables.words} metIds={new Set(seenWords.current)} cantSpeak={paused(settings.cant_speak_until)}
-      onEnd={(found) => conversationEnded(found, convo)} onReview={(found) => { const back = convo.back; setConvo(null); startFlashcards(false, found, back) }}
+      lastAverage={talkLast} onEnd={(found, avg) => conversationEnded(found, convo, avg)} onReview={(found) => { const back = convo.back; setConvo(null); startFlashcards(false, found, back) }}
       onBack={() => { const back = convo.back; setConvo(null); setScreen(back) }} />
   }
   if (screen === 'flashcards' && flash) return <Flashcards cards={flash.cards} aloud={flash.aloud} onGrade={gradeCard} onDone={() => { markActive(); const back = flash.back ?? 'words'; setFlash(null); setScreen(back) }} />

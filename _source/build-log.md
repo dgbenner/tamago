@@ -836,3 +836,13 @@ Part 3, Lingua Libre recordings:
 - Headings in the course language from Part 3, phased by part, tap for English.
 - Privacy page from Settings; "I'm 13 or older" on sign-up.
 - Checked in Chrome: markers at the ends of Very Early A1 (Part 3), Early A1 (Part 5), High A1 (Part 6); placement ended after 18 questions; Traduis in Part 3, listening in French from Part 4; Pick repeats misses; privacy page.
+
+## 2026-11-15: Conversation partner, version 2 (all courses)
+
+- Five A1 task scenes per course (Ordering Food, Asking Directions, Introducing Yourself, Shopping, Making a Plan), only met words; scenes that fit come first, the rest under Later. Free Conversation kept; Topic, Vocabulary, Speed and Corrections filters removed.
+- Partner lines heard first at natural speed in the best device voice, text hidden; Slow and Show Words after a replay.
+- Voice by default, not graded; typing always. Quiet answer-time ring, no penalty, no cutoff.
+- Four help phrases first: Can you repeat?, More slowly, How do you spell it?, What does … mean? Spell added to the server.
+- 6 to 8 exchanges (server told to wrap up from 6, close at 8). Summary: average answer time and the change since last time, help phrases used, 2 or 3 gentle corrections, new words.
+- Cost guard: Haiku 5.5, 5 conversations a day per device, the monthly limit said plainly.
+- Checked in Chrome (iPhone size) against a mocked endpoint: scenes, hidden text, ring, help row, spell reply shown, 8 exchanges, summary.
