@@ -21,7 +21,7 @@ test('unknown words stay plain text, and new words are only course words not yet
   assert.ok(found.every((w) => tables.words.includes(w)))
 })
 test('every scene key word is a course word, in every course', async () => {
-  for (const [lang, dir] of [['fr', 'src/content'], ['es', 'src/content-es'], ['de', 'src/content-de'], ['it', 'src/content-it']]) {
+  for (const [lang, dir] of [['fr', 'src/content'], ['es', 'src/content-es'], ['de', 'src/content-de'], ['it', 'src/content-it'], ['pt', 'src/content-pt']]) {
     const t = load(dir)
     for (const s of SCENES[lang]) for (const k of s.keys) assert.ok(t.words.some((w) => w.form === k), `${lang} ${s.id}: ${k}`)
     assert.equal(HELP_PHRASES[lang].length, 6)

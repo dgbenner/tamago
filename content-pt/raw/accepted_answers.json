@@ -1662,5 +1662,32 @@
     "answer": "Whose is this bicycle?",
     "source": "tatoeba",
     "status": "pulled"
+  },
+  {
+    "answer_id": "AD0001",
+    "sentence_id": "S3117",
+    "direction": "en_to_fr",
+    "answer": "Tudo bem, obrigada.",
+    "source": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0002",
+    "sentence_id": "S3111",
+    "direction": "en_to_fr",
+    "answer": "Desculpa, Tom.",
+    "source": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0003",
+    "sentence_id": "S31106",
+    "direction": "en_to_fr",
+    "answer": "Não entendi. Repete, por favor.",
+    "source": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request",
+    "status": "live",
+    "origin": "flag"
   }
 ]

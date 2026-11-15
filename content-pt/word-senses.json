@@ -34,7 +34,8 @@
   "pos": "Article"
  },
  "W012": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "match": "man (adult male"
  },
  "W013": {
   "pos": "Noun"
@@ -193,7 +194,8 @@
   "pos": "Noun"
  },
  "W065": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "match": "tea (drink"
  },
  "W066": {
   "pos": "Noun"
@@ -208,7 +210,8 @@
   "pos": "Verb"
  },
  "W070": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "match": "dog (of any age)"
  },
  "W071": {
   "pos": "Noun"
@@ -217,7 +220,8 @@
   "pos": "Noun"
  },
  "W073": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "match": "bird (any member"
  },
  "W074": {
   "pos": "Noun"
@@ -325,7 +329,8 @@
   "pos": "Adverb"
  },
  "W109": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "match": "car; automobile"
  },
  "W110": {
   "pos": "Verb"
@@ -410,7 +415,8 @@
   "pos": "Determiner"
  },
  "W137": {
-  "pos": "Determiner"
+  "pos": "Determiner",
+  "match": "your (equivalent to de você)"
  },
  "W138": {
   "pos": "Determiner"
@@ -543,7 +549,8 @@
   "pos": "Adverb"
  },
  "W181": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "match": "period of 24 hours"
  },
  "W182": {
   "pos": "Noun"
@@ -719,19 +726,22 @@
   "pos": "Adjective"
  },
  "W1015": {
-  "pos": "Adjective"
+  "pos": "Adjective",
+  "match": "tall"
  },
  "W1016": {
   "pos": "Adjective"
  },
  "W1017": {
-  "pos": "Adjective"
+  "pos": "Adjective",
+  "match": "short"
  },
  "W1018": {
   "pos": "Adjective"
  },
  "W1019": {
-  "pos": "Adjective"
+  "pos": "Adjective",
+  "match": "cool, nice"
  },
  "W1020": {
   "pos": "Noun"
@@ -746,7 +756,8 @@
   "pos": "Noun"
  },
  "W1024": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "match": "game; sport"
  },
  "W1025": {
   "pos": "Verb"
@@ -788,13 +799,15 @@
   "pos": "Noun"
  },
  "W1038": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "match": "station"
  },
  "W1039": {
   "pos": "Noun"
  },
  "W1040": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "match": "train"
  },
  "W1041": {
   "pos": "Noun"

@@ -1576,14 +1576,31 @@
     "status": "live"
   },
   {
-    "answer_id": "GS10103-1289419",
-    "sentence_id": "S10103",
+    "answer_id": "AD0001",
+    "sentence_id": "S3117",
     "direction": "en_to_fr",
-    "answer": "Meu pai é doutor.",
-    "source": "tatoeba",
-    "source_id": "1289419",
+    "answer": "Tudo bem, obrigada.",
+    "source": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request",
     "status": "live",
-    "source_owner": "alexmarcelo"
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0002",
+    "sentence_id": "S3111",
+    "direction": "en_to_fr",
+    "answer": "Desculpa, Tom.",
+    "source": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0003",
+    "sentence_id": "S31106",
+    "direction": "en_to_fr",
+    "answer": "Não entendi. Repete, por favor.",
+    "source": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request",
+    "status": "live",
+    "origin": "flag"
   },
   {
     "answer_id": "GS1102-8808682",
@@ -1764,16 +1781,6 @@
     "source_id": "4853102",
     "status": "live",
     "source_owner": "Ricardo14"
-  },
-  {
-    "answer_id": "GS51108-1683014",
-    "sentence_id": "S51108",
-    "direction": "en_to_fr",
-    "answer": "Como está o seu braço?",
-    "source": "tatoeba",
-    "source_id": "1683014",
-    "status": "live",
-    "source_owner": "alexmarcelo"
   },
   {
     "answer_id": "GS51110-10738420",

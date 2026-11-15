@@ -1,1 +1,4 @@
-{"com licença":{"pos":"Phrase"},"muitos":{"pos":"Pronoun"}}
+{"com licença":{"pos":"Phrase"},"muitos":{"pos":"Pronoun"},
+"homem":{"pos":"Noun","match":"man (adult male"},"chá":{"pos":"Noun","match":"tea (drink"},"cachorro":{"pos":"Noun","match":"dog (of any age)"},"pássaro":{"pos":"Noun","match":"bird (any member"},"carro":{"pos":"Noun","match":"car; automobile"},
+"estação":{"pos":"Noun","match":"station"},"trem":{"pos":"Noun","match":"train"},"jogo":{"pos":"Noun","match":"game; sport"},"alto":{"pos":"Adjective","match":"tall"},"baixo":{"pos":"Adjective","match":"short"},"legal":{"pos":"Adjective","match":"cool, nice"},
+"seu":{"pos":"Determiner","match":"your (equivalent to de você)"},"dia":{"pos":"Noun","match":"period of 24 hours"}}

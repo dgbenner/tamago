@@ -1,7 +1,1128 @@
 {
   "_about": "Rulings for the Brazilian Portuguese course, the same shape as the French, Spanish and German ones. Claude records its calls here under autonomous-build.md; Dan can reverse any of them.",
-  "sentences": {},
-  "accepted_answers": {},
+  "sentences": {
+    "S3113": {
+      "action": "confirm",
+      "french": "Estou mal.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner Flarioca has no native or OK signal"
+    },
+    "S4105": {
+      "action": "confirm",
+      "french": "Gosto de chá.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S7101": {
+      "action": "confirm",
+      "french": "Tenho um carro velho.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner zvzuibqx has no native or OK signal"
+    },
+    "S8103": {
+      "action": "confirm",
+      "french": "Ele está na cozinha.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S9101": {
+      "action": "confirm",
+      "french": "Eu estou cansado.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner tinacalysto has no native or OK signal"
+    },
+    "S9106": {
+      "action": "confirm",
+      "french": "Eu estou feliz.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner une_monica has no native or OK signal"
+    },
+    "S10103": {
+      "action": "confirm",
+      "french": "Meu pai é médico.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner anonym has no native or OK signal"
+    },
+    "S53107": {
+      "action": "confirm",
+      "french": "Eu tenho uma bicicleta.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner alexandresalim has no native or OK signal"
+    },
+    "S12108": {
+      "action": "confirm",
+      "french": "Ele tem dois gatos.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner Shishir has no native or OK signal"
+    },
+    "S13107": {
+      "action": "confirm",
+      "french": "A maçã é verde.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S51108": {
+      "action": "confirm",
+      "french": "Como está seu braço?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner megamanenm has no native or OK signal"
+    },
+    "S1201": {
+      "action": "confirm",
+      "french": "Tom é um homem.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner vitorsuzukawa has no native or OK signal"
+    },
+    "S31201": {
+      "action": "confirm",
+      "french": "Eu não entendo.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tinacalysto has no native or OK signal"
+    },
+    "S31202": {
+      "action": "confirm",
+      "french": "Sim, entendo!",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S2201": {
+      "action": "confirm",
+      "french": "Sou professor.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner megamanenm has no native or OK signal"
+    },
+    "S2202": {
+      "action": "confirm",
+      "french": "Ela é forte.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner megamanenm has no native or OK signal"
+    },
+    "S2203": {
+      "action": "confirm",
+      "french": "Eu não sou um professor.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner oldfashioned has no native or OK signal"
+    },
+    "S3201": {
+      "action": "confirm",
+      "french": "Obrigado, isso é tudo.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tinacalysto has no native or OK signal"
+    },
+    "S3202": {
+      "action": "confirm",
+      "french": "Bom dia, como vai?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tinacalysto has no native or OK signal"
+    },
+    "S3203": {
+      "action": "confirm",
+      "french": "Ela não está aqui.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lazymoose has no native or OK signal"
+    },
+    "S3204": {
+      "action": "confirm",
+      "french": "Como é esse professor?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner marciom has no native or OK signal"
+    },
+    "S3205": {
+      "action": "confirm",
+      "french": "Não, é tudo.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Tamy has no native or OK signal"
+    },
+    "S3206": {
+      "action": "confirm",
+      "french": "Como ele está?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S3207": {
+      "action": "confirm",
+      "french": "O homem está aqui.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S4201": {
+      "action": "confirm",
+      "french": "O menino come pão.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner marloncori has no native or OK signal"
+    },
+    "S4202": {
+      "action": "confirm",
+      "french": "Como uma maçã.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Piteris has no native or OK signal"
+    },
+    "S4203": {
+      "action": "confirm",
+      "french": "Você bebe o chá?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S4204": {
+      "action": "confirm",
+      "french": "Ela não bebe café.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner davis094 has no native or OK signal"
+    },
+    "S4205": {
+      "action": "confirm",
+      "french": "Ele bebe água.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner zvzuibqx has no native or OK signal"
+    },
+    "S4206": {
+      "action": "confirm",
+      "french": "Sou de Londres.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S5201": {
+      "action": "confirm",
+      "french": "Tenho um cachorro pequeno.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner rul has no native or OK signal"
+    },
+    "S5202": {
+      "action": "confirm",
+      "french": "Ela não gosta de peixe.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner panamicua has no native or OK signal"
+    },
+    "S5203": {
+      "action": "confirm",
+      "french": "Não é um gato. É um cachorro.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Shishir has no native or OK signal"
+    },
+    "S5204": {
+      "action": "confirm",
+      "french": "Tenho uma casa.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner marloncori has no native or OK signal"
+    },
+    "S5205": {
+      "action": "confirm",
+      "french": "Eu tenho uma casa grande.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner une_monica has no native or OK signal"
+    },
+    "S5206": {
+      "action": "confirm",
+      "french": "Como o cachorro está?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Gustavo has no native or OK signal"
+    },
+    "S32201": {
+      "action": "confirm",
+      "french": "Ela quer mais.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Lakeseayesno has no native or OK signal"
+    },
+    "S32202": {
+      "action": "confirm",
+      "french": "Não quer mais café?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S32203": {
+      "action": "confirm",
+      "french": "Ele não quer mais chá?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner \\N has no native or OK signal"
+    },
+    "S6201": {
+      "action": "confirm",
+      "french": "Não gosto de maçãs.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hunzerf has no native or OK signal"
+    },
+    "S6202": {
+      "action": "confirm",
+      "french": "Ele não gosta de nós.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner anonym has no native or OK signal"
+    },
+    "S6203": {
+      "action": "confirm",
+      "french": "Temos um gato e um cachorro.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Shishir has no native or OK signal"
+    },
+    "S6204": {
+      "action": "confirm",
+      "french": "Eu não gosto de cachorros.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lazymoose has no native or OK signal"
+    },
+    "S6205": {
+      "action": "confirm",
+      "french": "Vocês são bons.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ruj has no native or OK signal"
+    },
+    "S6206": {
+      "action": "confirm",
+      "french": "Não temos chá.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S6207": {
+      "action": "confirm",
+      "french": "Nós temos uma casa pequena.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner IsabelleRain has no native or OK signal"
+    },
+    "S6208": {
+      "action": "confirm",
+      "french": "Ela gosta de gatos.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner zvzuibqx has no native or OK signal"
+    },
+    "S7201": {
+      "action": "confirm",
+      "french": "Tenho um carro novo.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S7202": {
+      "action": "confirm",
+      "french": "Esse é um carro novo?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S7203": {
+      "action": "confirm",
+      "french": "Não sou mais jovem.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Berkay has no native or OK signal"
+    },
+    "S7204": {
+      "action": "confirm",
+      "french": "Ela é velha.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lazymoose has no native or OK signal"
+    },
+    "S7205": {
+      "action": "confirm",
+      "french": "Tom come muito peixe.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lazymoose has no native or OK signal"
+    },
+    "S7206": {
+      "action": "confirm",
+      "french": "Eu sou um homem velho.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alicup has no native or OK signal"
+    },
+    "S7207": {
+      "action": "confirm",
+      "french": "Gosto muito de você!",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Eldad has no native or OK signal"
+    },
+    "S7208": {
+      "action": "confirm",
+      "french": "Tom não tem carro.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner roger_rf has no native or OK signal"
+    },
+    "S7209": {
+      "action": "confirm",
+      "french": "Você é muito bonita.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S7210": {
+      "action": "confirm",
+      "french": "Não muito bem.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner roger_rf has no native or OK signal"
+    },
+    "S7211": {
+      "action": "confirm",
+      "french": "O Tom vai também?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Luciosp has no native or OK signal"
+    },
+    "S7212": {
+      "action": "confirm",
+      "french": "Gosto muito de você, Tom.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S7213": {
+      "action": "confirm",
+      "french": "Também gosto de maçãs.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S7214": {
+      "action": "confirm",
+      "french": "Isso é bom!",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Tzung_hsien_Chen has no native or OK signal"
+    },
+    "S7215": {
+      "action": "confirm",
+      "french": "O carro é pequeno.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner rul has no native or OK signal"
+    },
+    "S52201": {
+      "action": "confirm",
+      "french": "É uma grande festa.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Luciosp has no native or OK signal"
+    },
+    "S52202": {
+      "action": "confirm",
+      "french": "Ele gosta muito de música.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S52203": {
+      "action": "confirm",
+      "french": "Você quer dançar?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner MUIRIEL has no native or OK signal"
+    },
+    "S52204": {
+      "action": "confirm",
+      "french": "Ela gosta de ler livros.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S52205": {
+      "action": "confirm",
+      "french": "Ela gosta de ler.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S52206": {
+      "action": "confirm",
+      "french": "O professor lê o livro.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S52207": {
+      "action": "confirm",
+      "french": "Ela lê.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S8201": {
+      "action": "confirm",
+      "french": "As maçãs não estão na mesa.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S8202": {
+      "action": "confirm",
+      "french": "A casa tem jardim?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S8203": {
+      "action": "confirm",
+      "french": "O jardim é bonito.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lidia has no native or OK signal"
+    },
+    "S8204": {
+      "action": "confirm",
+      "french": "Eles estão aqui.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S8205": {
+      "action": "confirm",
+      "french": "Nós estamos no Brasil.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner marvinibahs2020 has no native or OK signal"
+    },
+    "S9201": {
+      "action": "confirm",
+      "french": "Você não está cansado?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tinacalysto has no native or OK signal"
+    },
+    "S9202": {
+      "action": "confirm",
+      "french": "Estou cansado de dançar.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner anonym has no native or OK signal"
+    },
+    "S9203": {
+      "action": "confirm",
+      "french": "Eu não estou mais com fome.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S9204": {
+      "action": "confirm",
+      "french": "Eu sou feliz.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner une_monica has no native or OK signal"
+    },
+    "S9205": {
+      "action": "confirm",
+      "french": "Não sou feliz.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S9206": {
+      "action": "confirm",
+      "french": "Está frio.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tinacalysto has no native or OK signal"
+    },
+    "S9207": {
+      "action": "confirm",
+      "french": "Ela tem medo de gatos.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner anonym has no native or OK signal"
+    },
+    "S9208": {
+      "action": "confirm",
+      "french": "Você está com sede?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner marloncori has no native or OK signal"
+    },
+    "S9209": {
+      "action": "confirm",
+      "french": "Estamos com calor.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lazymoose has no native or OK signal"
+    },
+    "S9210": {
+      "action": "confirm",
+      "french": "Você está com medo?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner arnxy20 has no native or OK signal"
+    },
+    "S9211": {
+      "action": "confirm",
+      "french": "Está com medo?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner celofarias has no native or OK signal"
+    },
+    "S9212": {
+      "action": "confirm",
+      "french": "Não tenho medo de Tom.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner proycon has no native or OK signal"
+    },
+    "S9213": {
+      "action": "confirm",
+      "french": "Você tem medo.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S9214": {
+      "action": "confirm",
+      "french": "Ele tem medo.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S9215": {
+      "action": "confirm",
+      "french": "Está tudo bem com vocês?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Rujo has no native or OK signal"
+    },
+    "S33201": {
+      "action": "confirm",
+      "french": "Eu não sei dançar.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hayastan has no native or OK signal"
+    },
+    "S33202": {
+      "action": "confirm",
+      "french": "Como se chama?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner jdonnarumma has no native or OK signal"
+    },
+    "S33203": {
+      "action": "confirm",
+      "french": "Sabe nadar?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S33204": {
+      "action": "confirm",
+      "french": "A mulher chama o homem.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lazymoose has no native or OK signal"
+    },
+    "S33205": {
+      "action": "confirm",
+      "french": "Você não sabe?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Luciosp has no native or OK signal"
+    },
+    "S33206": {
+      "action": "confirm",
+      "french": "Você sabe isso?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Luciosp has no native or OK signal"
+    },
+    "S10201": {
+      "action": "confirm",
+      "french": "Ele é meu pai.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner anonym has no native or OK signal"
+    },
+    "S10202": {
+      "action": "confirm",
+      "french": "Não sei o nome dele.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S10203": {
+      "action": "confirm",
+      "french": "Eu não sei o nome dele.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S10204": {
+      "action": "confirm",
+      "french": "O inglês dele é muito bom.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner roger_rf has no native or OK signal"
+    },
+    "S10205": {
+      "action": "confirm",
+      "french": "Estou procurando um amigo meu.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S10206": {
+      "action": "confirm",
+      "french": "Gosto muito dela.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Shishir has no native or OK signal"
+    },
+    "S10207": {
+      "action": "confirm",
+      "french": "Meu pai tem muitos livros.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner anonym has no native or OK signal"
+    },
+    "S10208": {
+      "action": "confirm",
+      "french": "O cachorro é meu.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Shishir has no native or OK signal"
+    },
+    "S10209": {
+      "action": "confirm",
+      "french": "Meu pai não gosta de futebol.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner helmfer has no native or OK signal"
+    },
+    "S10210": {
+      "action": "confirm",
+      "french": "Ele é amigo dela.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner une_monica has no native or OK signal"
+    },
+    "S10211": {
+      "action": "confirm",
+      "french": "O cachorro é seu.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner une_monica has no native or OK signal"
+    },
+    "S10212": {
+      "action": "confirm",
+      "french": "Você é amigo dela?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner satsu has no native or OK signal"
+    },
+    "S10213": {
+      "action": "confirm",
+      "french": "Seu cachorro está lá.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner nowasky has no native or OK signal"
+    },
+    "S10214": {
+      "action": "confirm",
+      "french": "Ele é um amigo de um amigo.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner vitorsuzukawa has no native or OK signal"
+    },
+    "S10215": {
+      "action": "confirm",
+      "french": "Ele é um amigo de uma amiga.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner vitorsuzukawa has no native or OK signal"
+    },
+    "S10216": {
+      "action": "confirm",
+      "french": "Isso é seu, Tom?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner davis094 has no native or OK signal"
+    },
+    "S10217": {
+      "action": "confirm",
+      "french": "O carro dela está lá.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S11201": {
+      "action": "confirm",
+      "french": "Onde é que estou?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Ueltatoeba2014 has no native or OK signal"
+    },
+    "S11202": {
+      "action": "confirm",
+      "french": "Você tem que ler?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S11203": {
+      "action": "confirm",
+      "french": "Onde está o livro?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tinacalysto has no native or OK signal"
+    },
+    "S11204": {
+      "action": "confirm",
+      "french": "Onde você vai?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Zaleph has no native or OK signal"
+    },
+    "S11205": {
+      "action": "confirm",
+      "french": "O que isso significa?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alvren has no native or OK signal"
+    },
+    "S11206": {
+      "action": "confirm",
+      "french": "O que é isso?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner th1 has no native or OK signal"
+    },
+    "S11207": {
+      "action": "confirm",
+      "french": "Qual é seu nome?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner jdonnarumma has no native or OK signal"
+    },
+    "S11208": {
+      "action": "confirm",
+      "french": "Quem está doente?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Shishir has no native or OK signal"
+    },
+    "S11209": {
+      "action": "confirm",
+      "french": "O que significa?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alicup has no native or OK signal"
+    },
+    "S11210": {
+      "action": "confirm",
+      "french": "Onde está ele?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S11211": {
+      "action": "confirm",
+      "french": "Por que eu estou aqui?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lazymoose has no native or OK signal"
+    },
+    "S11212": {
+      "action": "confirm",
+      "french": "Ela sabe o que quer.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner vitorsuzukawa has no native or OK signal"
+    },
+    "S11213": {
+      "action": "confirm",
+      "french": "Ele sabe o que quer.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner vitorsuzukawa has no native or OK signal"
+    },
+    "S11214": {
+      "action": "confirm",
+      "french": "Essa mulher é mais velha que eu.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S11215": {
+      "action": "confirm",
+      "french": "Eu não sei onde ela está.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Shadee has no native or OK signal"
+    },
+    "S11216": {
+      "action": "confirm",
+      "french": "Você é mais novo que ele?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Thiagovesgh has no native or OK signal"
+    },
+    "S11217": {
+      "action": "confirm",
+      "french": "Você é amigo de quem?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S11218": {
+      "action": "confirm",
+      "french": "O que você quer falar?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner VilhelmsPort has no native or OK signal"
+    },
+    "S11219": {
+      "action": "confirm",
+      "french": "Quem são eles?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner talamao has no native or OK signal"
+    },
+    "S11220": {
+      "action": "confirm",
+      "french": "Por que você não está com fome?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner davis094 has no native or OK signal"
+    },
+    "S11221": {
+      "action": "confirm",
+      "french": "O que isso diz?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Luciosp has no native or OK signal"
+    },
+    "S11222": {
+      "action": "confirm",
+      "french": "Tom diz que está cansado.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S11223": {
+      "action": "confirm",
+      "french": "O Tom não sabe onde está.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S11224": {
+      "action": "confirm",
+      "french": "Você sabe o que significa isso?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S53201": {
+      "action": "confirm",
+      "french": "Ele está mais perto.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner yinp has no native or OK signal"
+    },
+    "S53202": {
+      "action": "confirm",
+      "french": "É muito longe?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S53203": {
+      "action": "confirm",
+      "french": "O Tom não está no hospital.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S53204": {
+      "action": "confirm",
+      "french": "Eles estão no museu.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S12201": {
+      "action": "confirm",
+      "french": "Três mais cinco são oito.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Rujo has no native or OK signal"
+    },
+    "S12202": {
+      "action": "confirm",
+      "french": "Você tem quatro cachorros.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Shishir has no native or OK signal"
+    },
+    "S12203": {
+      "action": "confirm",
+      "french": "Temos duas crianças.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Sadness has no native or OK signal"
+    },
+    "S13201": {
+      "action": "confirm",
+      "french": "Você gosta de chá verde?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ruj has no native or OK signal"
+    },
+    "S13202": {
+      "action": "confirm",
+      "french": "Qual cachorro é preto?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner megamanenm has no native or OK signal"
+    },
+    "S13203": {
+      "action": "confirm",
+      "french": "O Tom tem um cachorro preto.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S13204": {
+      "action": "confirm",
+      "french": "O cachorro é branco.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner jeh has no native or OK signal"
+    },
+    "S13205": {
+      "action": "confirm",
+      "french": "Eu tenho um gato branco.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S13206": {
+      "action": "confirm",
+      "french": "Eu tenho um cavalo branco.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hayastan has no native or OK signal"
+    },
+    "S13207": {
+      "action": "confirm",
+      "french": "Ele tem um carro azul.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner megamanenm has no native or OK signal"
+    },
+    "S14201": {
+      "action": "confirm",
+      "french": "Que horas são agora?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lucas has no native or OK signal"
+    },
+    "S14202": {
+      "action": "confirm",
+      "french": "Que dia é hoje?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner une_monica has no native or OK signal"
+    },
+    "S14203": {
+      "action": "confirm",
+      "french": "Ela está em seu hotel agora.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner une_monica has no native or OK signal"
+    },
+    "S14204": {
+      "action": "confirm",
+      "french": "Hoje o dia está ótimo.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner megamanenm has no native or OK signal"
+    },
+    "S14205": {
+      "action": "confirm",
+      "french": "Hoje está muito calor.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S14206": {
+      "action": "confirm",
+      "french": "Não estou cansado agora.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S14207": {
+      "action": "confirm",
+      "french": "Onde o Tom está hoje?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Luciosp has no native or OK signal"
+    },
+    "S14208": {
+      "action": "confirm",
+      "french": "Eu não sei onde ele está agora.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S14209": {
+      "action": "confirm",
+      "french": "Onde é que está agora?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner zvzuibqx has no native or OK signal"
+    },
+    "S14210": {
+      "action": "confirm",
+      "french": "Hoje é um novo dia!",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S14211": {
+      "action": "confirm",
+      "french": "Por que agora?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S14212": {
+      "action": "confirm",
+      "french": "Que dia é o jogo?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tchrspet1 has no native or OK signal"
+    },
+    "S15201": {
+      "action": "confirm",
+      "french": "Vou de ônibus à escola.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner helmfer has no native or OK signal"
+    },
+    "S15202": {
+      "action": "confirm",
+      "french": "Eu não vou à escola de ônibus.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner une_monica has no native or OK signal"
+    },
+    "S15203": {
+      "action": "confirm",
+      "french": "Eu vou ao parque.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lazymoose has no native or OK signal"
+    },
+    "S15204": {
+      "action": "confirm",
+      "french": "Eu vou no domingo.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Emersono has no native or OK signal"
+    },
+    "S15205": {
+      "action": "confirm",
+      "french": "Eu vou lá com vocês.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Nylez has no native or OK signal"
+    },
+    "S15206": {
+      "action": "confirm",
+      "french": "Domingo vou à igreja.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner aatavares has no native or OK signal"
+    },
+    "S15207": {
+      "action": "confirm",
+      "french": "Quando nós vamos para casa?",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner elencw has no native or OK signal"
+    },
+    "S15208": {
+      "action": "confirm",
+      "french": "Nós vamos dançar amanhã.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Livonor has no native or OK signal"
+    },
+    "S15209": {
+      "action": "confirm",
+      "french": "Hoje nós vamos dançar.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner palatomole has no native or OK signal"
+    },
+    "S15210": {
+      "action": "confirm",
+      "french": "Vamos de trem.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Arom has no native or OK signal"
+    },
+    "S15211": {
+      "action": "confirm",
+      "french": "Agora vou para a igreja.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S15212": {
+      "action": "confirm",
+      "french": "Vamos falar com ele na segunda-feira.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner iharmonize2 has no native or OK signal"
+    },
+    "S15213": {
+      "action": "confirm",
+      "french": "Nós vamos à praia.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S15214": {
+      "action": "confirm",
+      "french": "Nós vamos para a praia.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S51201": {
+      "action": "confirm",
+      "french": "É alto?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ritualesatanum has no native or OK signal"
+    },
+    "S51202": {
+      "action": "confirm",
+      "french": "Tom é muito alto.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner sugoi has no native or OK signal"
+    },
+    "S51203": {
+      "action": "confirm",
+      "french": "Ele é um menino alto.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lazymoose has no native or OK signal"
+    },
+    "S51204": {
+      "action": "confirm",
+      "french": "Os olhos dele são azuis.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner nogie has no native or OK signal"
+    },
+    "S51205": {
+      "action": "confirm",
+      "french": "Eu sou mais alto que ele.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alicup has no native or OK signal"
+    },
+    "S51206": {
+      "action": "confirm",
+      "french": "Eu vou a pé.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner thesrilankaparadox has no native or OK signal"
+    },
+    "S51207": {
+      "action": "confirm",
+      "french": "Tenho muito cabelo.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S51208": {
+      "action": "confirm",
+      "french": "Você é uma mulher alta.",
+      "english_source": "",
+      "by": "Fable's review of _review/portuguese-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner rul has no native or OK signal"
+    }
+  },
+  "accepted_answers": {
+    "AD0001": {
+      "action": "keep",
+      "answer": "Tudo bem, obrigada.",
+      "by": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request"
+    },
+    "AD0002": {
+      "action": "keep",
+      "answer": "Desculpa, Tom.",
+      "by": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request"
+    },
+    "AD0003": {
+      "action": "keep",
+      "answer": "Não entendi. Repete, por favor.",
+      "by": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request"
+    }
+  },
   "units": {
     "U01": {
       "action": "approve",
@@ -1248,6 +2369,31 @@
     "Londres"
   ],
   "_names": "Names allowed in Portuguese lines: people, Brazil and two cities",
-  "accepted_additions": [],
+  "accepted_additions": [
+    {
+      "answer_id": "AD0001",
+      "sentence_id": "S3117",
+      "direction": "en_to_fr",
+      "answer": "Tudo bem, obrigada.",
+      "source": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0002",
+      "sentence_id": "S3111",
+      "direction": "en_to_fr",
+      "answer": "Desculpa, Tom.",
+      "source": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0003",
+      "sentence_id": "S31106",
+      "direction": "en_to_fr",
+      "answer": "Não entendi. Repete, por favor.",
+      "source": "Fable check of 2026-11-14 (_review/portuguese-part1-check.md), applied at Dan’s request",
+      "status": "live"
+    }
+  ],
   "_cut_sentences": "Cut after the last pull, for the reasons recorded against their Tatoeba ids in content-pt/sweep/packs-review.json. S12001 (Dois e dois são quatro.): cut because it repeats a word, and such lines are kept out of listening"
 }

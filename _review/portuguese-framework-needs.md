@@ -1,9 +1,11 @@
 # Brazilian Portuguese: framework needs
 
-Branch `lang/portuguese`, 2026-11-14. Portuguese content is built and audited on this branch, but the app does not
-offer Portuguese: every item in sections 1 to 3 is a change to shared code, so none is made here. They are listed for
-the main builder. All are one-line additions to a per-course list unless marked otherwise. No app code is changed on
-this branch.
+Branch `lang/portuguese`, 2026-11-14.
+
+**Update, same day:** at Dan's request main was merged into this branch and Portuguese was wired in the way Italian
+was: sections 1 to 3 below are done on this branch, except where marked. Portuguese is offered only while Developer
+is on (`devOnly` in `src/lib/course.js`). Still open: the exam choice (section 2), a Portuguese map in
+`scripts/image-list.mjs`, Portuguese samples in `src/dev/a1-samples.js`, and the note in section 7.
 
 ## 1. App registration (needed before Portuguese can be opened at all)
 
@@ -98,8 +100,10 @@ Coverage after Part 1: 136 of 648 (21%), all 136 in three or more sentences. Spa
 
 ## 7. One audit finding that needs the engine
 
-The every-lesson check finds one issue in 6,040 questions: a Fill the Blank in Body + Looks offers tem and têm
-together as choices. The two differ only by an accent, so with lenient checking they read as the same answer. The
-content can't prevent it, since the engine picks the wrong choices; the choice picker should skip a word that
-equals the answer, or another choice, once accents are folded. Portuguese has other such pairs waiting (e and é,
-a and à, esta and está).
+After Fable's review (992 sentences), the every-lesson check finds 4 issues in 7,260 questions, all the same kind:
+a Fill the Blank offers two choices that differ only by an accent, tem with têm (three times) and e with é (once).
+With lenient checking they read as the same answer. The content can't prevent it, since the engine picks the wrong
+choices (`src/lib/lesson.js`, the QT05 branch of the question builder): it should skip a word that equals the
+answer, or another choice, once accents are dropped. Portuguese has more such pairs waiting (a and à, esta and
+está). The fix is a few lines but changes the shared engine, so it is left for the main builder. The word audit
+and the browser pass (6,024 questions on desktop and iPhone) are clean.

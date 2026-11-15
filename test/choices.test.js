@@ -14,7 +14,7 @@ import { sameAnswer } from '../src/lib/check.js'
 
 const seeded = (seed) => { let x = seed; return () => { x = (x * 1664525 + 1013904223) % 4294967296; return x / 4294967296 } }
 const core = (h) => String(h ?? '').toLowerCase().replace(/\(.*?\)/g, '').replace(/[^\p{L}\p{N}' ]/gu, ' ').replace(/\s+/g, ' ').trim()
-const COURSES = ['content', 'content-es', 'content-de', 'content-it'].map((dir) => {
+const COURSES = ['content', 'content-es', 'content-de', 'content-it', 'content-pt'].map((dir) => {
   const t = {}
   for (const f of readdirSync(`src/${dir}`)) t[f.replace('.json', '')] = JSON.parse(readFileSync(`src/${dir}/${f}`))
   return { dir, t }

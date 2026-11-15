@@ -27,7 +27,7 @@ const url = server.resolvedUrls.local[0]
 const issues = [], counts = {}, shotKeys = new Set()
 const browser = await webkit.launch()
 async function worker([course, dir, cid], device) {
-  const db = { fr: 'tamago', es: 'tamago-es', de: 'tamago-de', it: 'tamago-it' }[cid]
+  const db = { fr: 'tamago', es: 'tamago-es', de: 'tamago-de', it: 'tamago-it', pt: 'tamago-pt' }[cid]
   const ctx = await browser.newContext(device === 'iPhone' ? { ...devices['iPhone 14'], serviceWorkers: 'block' } : { viewport: { width: 1280, height: 800 }, serviceWorkers: 'block' })
   await ctx.addInitScript((id) => {
     localStorage.setItem('tamago-course', id)

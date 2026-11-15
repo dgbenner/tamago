@@ -12,7 +12,7 @@ const SECTIONS = [
   { path: '/admin/review', label: 'Review', allowed: can.review },
   { path: '/admin/contribute', label: 'Contribute', allowed: can.contribute },
 ]
-const COURSE_NAMES = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian' }
+const COURSE_NAMES = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese' }
 const when = (iso) => (iso ? new Date(iso).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }) : 'Never')
 const ROLE_NAMES = { learner: 'Learner', contributor: 'Contributor', reviewer: 'Reviewer', admin: 'Admin' }
 
