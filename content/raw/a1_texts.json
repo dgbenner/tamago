@@ -92,11 +92,11 @@
     "unit_id": "U63",
     "kind": "message",
     "title": "Une carte de Marie",
-    "lines": "En été, nous allons à la mer en juillet.\nEn hiver, nous allons à la montagne.\nEt toi ?",
+    "lines": "En juillet, nous allons à la mer.\nEn hiver, nous allons à la montagne.\nEt toi ?",
     "questions_json": "[{\"question\":\"Where does Marie go in July?\",\"choices\":[\"To the sea\",\"To the mountains\",\"To the countryside\"],\"answer\":0},{\"question\":\"When does she go to the mountains?\",\"choices\":[\"In winter\",\"In July\",\"In spring\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "fixed 2026-11-14 from Fable's Part 3/4 check"
   },
   {
     "id": "R207",
@@ -114,11 +114,11 @@
     "unit_id": "U66",
     "kind": "sign",
     "title": "À la gare",
-    "lines": "Attention : sortie à gauche\nToilettes : quai 2\nInformation : à l'entrée",
+    "lines": "Attention : sortie à gauche\nToilettes : quai 2\nInformations : à l'entrée",
     "questions_json": "[{\"question\":\"Where are the toilets?\",\"choices\":[\"Platform 2\",\"Platform 1\",\"Near the café\"],\"answer\":0},{\"question\":\"Where can you get information?\",\"choices\":[\"At the entrance\",\"At the exit\",\"On the train\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "fixed 2026-11-14 from Fable's Part 3/4 check"
   },
   {
     "id": "R209",
@@ -180,11 +180,11 @@
     "unit_id": "U69",
     "kind": "notice",
     "title": "La porte",
-    "lines": "Fermez la porte, s'il vous plaît.\nAttention : ouvrez doucement.",
-    "questions_json": "[{\"question\":\"What should you do with the door?\",\"choices\":[\"Close it\",\"Leave it open\",\"Lock it\"],\"answer\":0},{\"question\":\"How should you open it?\",\"choices\":[\"Gently\",\"Quickly\",\"With a key\"],\"answer\":0}]",
+    "lines": "Fermez la porte, s'il vous plaît.\nAttention : fermez doucement.",
+    "questions_json": "[{\"question\":\"What should you do with the door?\",\"choices\":[\"Close it\",\"Leave it open\",\"Lock it\"],\"answer\":0},{\"question\":\"How should you close it?\",\"choices\":[\"Gently\",\"Quickly\",\"With a key\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "fixed 2026-11-14 from Fable's Part 3/4 check"
   },
   {
     "id": "R215",
@@ -345,11 +345,11 @@
     "unit_id": "U88",
     "kind": "notice",
     "title": "À l'hôtel",
-    "lines": "Petit-déjeuner : 7h – 10h\nLes chambres : avant 11h, s'il vous plaît.",
+    "lines": "Petit-déjeuner : 7h – 10h\nDépart : avant 11h, s'il vous plaît",
     "questions_json": "[{\"question\":\"Until when is breakfast?\",\"choices\":[\"10:00\",\"11:00\",\"7:00\"],\"answer\":0},{\"question\":\"When should you leave your room?\",\"choices\":[\"Before 11:00\",\"After 11:00\",\"Before 10:00\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
-    "notes": ""
+    "notes": "fixed 2026-11-14 from Fable's Part 3/4 check"
   },
   {
     "id": "R315",

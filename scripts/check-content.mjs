@@ -324,8 +324,10 @@ for (const w of words) {
   const entries = await french(w.form)
   const section = await frenchWikitext(w.form)
   const pick = senses[w.word_id]
-  const entry = pick?.form_of ? null : entries.find((e) => e.pos === pick?.pos && (!pick.match || e.definitions.some((d) => d.includes(pick.match)))) ?? (pick ? null : entries[0])
-  const definition = entry && (pick?.match ? entry.definitions.find((d) => d.includes(pick.match)) : entry.definitions[0])
+  // match: text the definition contains; with exact, the whole definition (coin "corner", not "wedge, cornerpiece").
+  const fits = (d) => (pick.exact ? d === pick.match : d.includes(pick.match))
+  const entry = pick?.form_of ? null : entries.find((e) => e.pos === pick?.pos && (!pick.match || e.definitions.some(fits))) ?? (pick ? null : entries[0])
+  const definition = entry && (pick?.match ? entry.definitions.find(fits) : entry.definitions[0])
   const row = {
     word_id: w.word_id, form: w.form, lemma: w.form, part_of_speech: '', gender: '', gloss: '', gloss_full: '', lemma_gloss: '',
     wiktionary_url: `https://en.wiktionary.org/wiki/${title(w.form)}#${C.wiktionarySection}`,
@@ -346,14 +348,19 @@ for (const w of words) {
     const posIndex = entries.filter((e) => e.pos === entry.pos).indexOf(entry)
     row.gender = ['Noun', 'Article'].includes(entry.pos) ? genderFrom(section, entry.pos, posIndex, definition) : ''
     // Form-of entries name their lemma: "first-person ... of être", "feminine singular of un (“a / an”)".
-    const form = definition.match(/\bof ([\p{L}'-]+)(?: \(“(.+?)”\))?/u)
-    if (form && /(person|singular|plural)\b/.test(definition)) {
+    // The "of" must come after the person or number ("back (of a person)" is a gloss, not a form of "a").
+    const form = definition.match(/\b(?:inflection|person|singular|plural)\b[^()]*?\bof ([\p{L}'-]+)(?: \(“(.+?)”\))?/u)
+    if (form) {
       row.lemma = form[1]
       if (form[2]) row.gloss = form[2]
       else {
         const lemmaEntries = await french(form[1])
-        const lemmaEntry = lemmaEntries.find((e) => e.pos === entry.pos)
-        row.lemma_gloss = lemmaEntry ? shorten(lemmaEntry.definitions[0]) : ''
+        // lemma_match picks the lemma's sense the course teaches (langues: language, not tongue; Fable, 2026-11-14).
+        const lemmaFits = (d) => (pick?.lemma_exact ? d === pick.lemma_match : d.includes(pick.lemma_match))
+        const lemmaEntry = pick?.lemma_match ? lemmaEntries.find((e) => e.definitions.some(lemmaFits)) : lemmaEntries.find((e) => e.pos === entry.pos)
+        const lemmaDef = pick?.lemma_match ? lemmaEntry?.definitions.find(lemmaFits) : lemmaEntry?.definitions[0]
+        if (pick?.lemma_match && !lemmaDef) throw new Error(`${w.word_id} ${w.form}: no ${form[1]} sense with "${pick.lemma_match}"`)
+        row.lemma_gloss = lemmaDef ? shorten(lemmaDef) : ''
         row.gloss = definition
       }
     } else {

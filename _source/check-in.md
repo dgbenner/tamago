@@ -4,6 +4,11 @@ Updated November 14, 2026. **New: Italian is merged and wired in, visible only w
 
 ## Done since last check-in
 
+- **Fable's Part 3 and 4 review applied:** 541 Use candidates (529 new rows), 12 swaps, 7 draft fixes, 4 Read and Answer fixes, 35 Glossary senses fixed across all four parts. Audits clean.
+- **Choices:** never two one accent apart (ou/où, a/à, la/là).
+- **Language picker:** alphabetical; one row of six on desktop and iPad, 3 + 3 on phones.
+- **Italian core:** Kelly's 600 most frequent A1 words, 90 taught (15%).
+
 - **Italian, Developer only:** Builder 2's branch merged into main and wired into every per-course list. With Developer off it shows as Coming Soon. Audits on Italian Part 1: word audit 0 and 0 (665 lessons), every-lesson check 0 (6,650 questions), browser pass 0 flags.
 
 - **Capitals and accents:** a missing capital or accent counts as right by default, and the answer bar shows a short note with the letter in bold ("Don't forget the capital: **D**an", "Watch the accent: caf**é**"). In Strict both count as wrong. Answers built from word chips can't miss a capital, since chips are shown in lower case.
@@ -23,9 +28,8 @@ Updated November 14, 2026. **New: Italian is merged and wired in, visible only w
 ## Waiting for Dan
 
 - **Italian approval:** once approved, drop `devOnly` in src/lib/course.js.
-- **Italian final check:** CELI Impatto (A1), Università per Stranieri di Perugia, link https://www.cvcl.it; confirm the exam and the sample-paper link.
 
-- **Fable's review of Parts 3 and 4 together:**
+- **(Done) Fable's review of Parts 3 and 4 together:**
   - Part 3: _review/french-part3-candidates.md (639 candidates for 144 drafts) and _review/french-part3-drafts.md.
   - Part 4: _review/french-part4-candidates.md (478 candidates for 100 drafts) and _review/french-part4-drafts.md.
 - **Native-speaker check:** the new drafts join the list.

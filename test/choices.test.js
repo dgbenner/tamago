@@ -2,6 +2,8 @@
 // content can't bring the problems back:
 //   - no two choices that read the same, even with different punctuation or a contraction ("You're" / "You are")
 //   - no wrong choice that is also an accepted answer
+//   - no two choices, and no wrong chip and a needed one, one accent apart (ou/où, a/à, la/là; Portuguese tem/têm),
+//     since lenient checking takes either for the other (Dan, 2026-11-14)
 //   - no picture, and no meaning, twice in one picture question
 //   - Match Pairs never shows a cognate (sandwich = sandwich) and never two pairs with the same meaning
 //   - a lesson brings at most 4 new words, each first met where its meaning is shown (Match Pairs, Pick the Picture,
@@ -10,7 +12,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, readdirSync } from 'node:fs'
 import { buildLesson, contentForUnit, isCognate, lessonsInRound } from '../src/lib/lesson.js'
-import { sameAnswer } from '../src/lib/check.js'
+import { accentKey, sameAnswer } from '../src/lib/check.js'
 
 const seeded = (seed) => { let x = seed; return () => { x = (x * 1664525 + 1013904223) % 4294967296; return x / 4294967296 } }
 const core = (h) => String(h ?? '').toLowerCase().replace(/\(.*?\)/g, '').replace(/[^\p{L}\p{N}' ]/gu, ' ').replace(/\s+/g, ' ').trim()
@@ -40,6 +42,15 @@ function checkQuestion(q, c, where) {
     for (const ch of q.choices) if (ch !== q.answer) assert.ok(!right.some((r) => sameAnswer(ch, r, 'en')), `${where}: the wrong choice "${ch}" is also right for "${q.french}"`)
   }
   if (q.type === 'QT05') assert.equal(new Set(q.choices.map((x) => x.toLowerCase())).size, q.choices.length, `${where}: duplicate blank choices ${q.choices}`)
+  if (q.type === 'QT05') assert.equal(new Set(q.choices.map((x) => accentKey(x, 'fr'))).size, q.choices.length, `${where}: blank choices one accent apart ${q.choices}`)
+  if (q.chips && q.lang === 'fr') {
+    // Two chips may share a key only when the sentence itself needs both (Il a à manger).
+    const own = new Map()
+    for (const w of String(q.shown).toLowerCase().split(/[\s.,!?¿¡;:…"«»()]+/).filter(Boolean)) own.set(w, accentKey(w, 'fr'))
+    const byKey = new Map()
+    for (const ch of q.chips) { const t = String(ch.text ?? ch.surface ?? ch).toLowerCase(); const k = accentKey(t, 'fr'); byKey.set(k, new Set([...(byKey.get(k) ?? []), t])) }
+    for (const [k, forms] of byKey) if (forms.size > 1) for (const f of forms) assert.ok(own.has(f), `${where}: chips one accent apart (${[...forms]}), "${f}" not in "${q.shown}"`)
+  }
   if (q.type === 'QT02') {
     assert.equal(new Set(q.choices.map((x) => x.image)).size, q.choices.length, `${where}: a picture twice (${q.choices.map((x) => x.image)})`)
     assert.equal(new Set(q.choices.map((x) => core(x.alt))).size, q.choices.length, `${where}: a meaning twice (${q.choices.map((x) => x.alt)})`)
@@ -91,3 +102,22 @@ for (const { dir, t } of COURSES) {
     }
   })
 }
+
+// Forced case (Dan, 2026-11-14): with a/à, ou/où and la/là as contrast sets, the engine's favourite source of wrong
+// blank choices and chips, every French circle still never offers two forms one accent apart.
+test('accent pairs are never offered side by side, even as contrast sets', () => {
+  assert.equal(accentKey('où', 'fr'), accentKey('ou', 'fr'))
+  assert.equal(accentKey('têm', 'pt'), accentKey('tem', 'pt'))
+  assert.notEqual(accentKey('ou', 'fr'), accentKey('on', 'fr'))
+  const { t } = COURSES[0]
+  const all = new Set(t.words.map((w) => w.word_id))
+  let blanks = 0
+  for (const u of treeOrder(t)) {
+    const c = contentForUnit(t, u.unit_id)
+    for (const [x, y] of [['a', 'à'], ['ou', 'où'], ['la', 'là']]) { c.contrast.set(x, [y]); c.contrast.set(y, [x]) }
+    for (let round = 1; round <= 5; round++) {
+      for (const q of buildLesson(c, { round, known: all, unit_id: u.unit_id, rng: seeded(round * 7) }).queue) { checkQuestion(q, c, `forced ${u.unit_id} R${round}`); if (q.type === 'QT05') blanks++ }
+    }
+  }
+  assert.ok(blanks > 50, `only ${blanks} blanks built`)
+})

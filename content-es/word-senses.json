@@ -531,11 +531,17 @@
     "pos": "Noun"
   },
   "W174": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "lemma_match": "to be called",
+    "lemma_exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W175": {
     "pos": "Verb",
-    "match": "llamar"
+    "match": "llamar",
+    "lemma_match": "to be called",
+    "lemma_exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W176": {
     "pos": "Noun",
@@ -682,11 +688,17 @@
     "pos": "Noun"
   },
   "W528": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "match": "busy",
+    "exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W529": {
     "pos": "Adjective",
-    "match": "feminine singular of ocupado"
+    "match": "feminine singular of ocupado",
+    "lemma_match": "busy",
+    "lemma_exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W530": {
     "pos": "Noun"
@@ -958,7 +970,9 @@
     "pos": "Verb"
   },
   "W709": {
-    "pos": "Interjection"
+    "pos": "Adverb",
+    "match": "again, once more",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W710": {
     "pos": "Pronoun"
@@ -967,7 +981,10 @@
     "pos": "Verb"
   },
   "W712": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "lemma_match": "to mean",
+    "lemma_exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W713": {
     "pos": "Verb"
@@ -1002,7 +1019,9 @@
     "pos": "Verb"
   },
   "W723": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "lemma_match": "to be of use, to be good for",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W1001": {
     "pos": "Noun"
@@ -1149,10 +1168,14 @@
     "match": "llamar"
   },
   "W804": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "match": "pleased, delighted",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W805": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "lemma_match": "pleased, delighted",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W806": {
     "pos": "Noun"
@@ -1217,7 +1240,9 @@
   },
   "W837": {
     "pos": "Verb",
-    "match": "esperar"
+    "match": "esperar",
+    "lemma_match": "to wait, wait (for)",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W838": {
     "pos": "Adjective"
@@ -1345,16 +1370,23 @@
     "match": "costar"
   },
   "W887": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "peso (unit of currency)",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W888": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "lemma_match": "peso (unit of currency)",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W889": {
     "pos": "Noun"
   },
   "W890": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "match": "expensive",
+    "exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W891": {
     "pos": "Adjective"
@@ -1424,18 +1456,29 @@
   },
   "W1111": {
     "pos": "Verb",
-    "match": "llevar"
+    "match": "llevar",
+    "lemma_match": "to wear",
+    "lemma_exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W1112": {
     "pos": "Verb",
-    "match": "llevar"
+    "match": "llevar",
+    "lemma_match": "to wear",
+    "lemma_exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W1113": {
     "pos": "Verb",
-    "match": "llevar"
+    "match": "llevar",
+    "lemma_match": "to wear",
+    "lemma_exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W1114": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "class (group of students)",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
   },
   "W1115": {
     "pos": "Noun"

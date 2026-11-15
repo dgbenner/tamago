@@ -404,8 +404,8 @@
     "part_of_speech": "Noun",
     "gender": "n",
     "gloss": "kid; child",
-    "hint": "kid",
-    "hint_source": "Wiktionary (built)",
+    "hint": "child; kid",
+    "hint_source": "short form of Wiktionary, kid; child (young person) (2026-11-14 sweep)",
     "first_unit": "U01",
     "needs_image": "no",
     "image_file": "pictures/enfant.webp",
@@ -1510,7 +1510,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "inflection of haben: first-person singular present first/third-person singular subjunctive I singular imperative",
-    "lemma_gloss": "forms the perfect aspect [with past participle]",
+    "lemma_gloss": "to have; to own",
     "lingua_libre": {
       "file": "LL-Q188 (deu)-Poslovitch-habe.wav",
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/LL-Q188_%28deu%29-Poslovitch-habe.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1537,7 +1537,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "second-person singular present of haben",
-    "lemma_gloss": "forms the perfect aspect [with past participle]",
+    "lemma_gloss": "to have; to own",
     "lingua_libre": {
       "file": "LL-Q188 (deu)-Poslovitch-hast.wav",
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/LL-Q188_%28deu%29-Poslovitch-hast.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1564,7 +1564,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "third-person singular present of haben",
-    "lemma_gloss": "forms the perfect aspect [with past participle]",
+    "lemma_gloss": "to have; to own",
     "lingua_libre": {
       "file": "LL-Q188 (deu)-Poslovitch-hat.wav",
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/LL-Q188_%28deu%29-Poslovitch-hat.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -1843,7 +1843,7 @@
     "lemma": "haben",
     "part_of_speech": "Verb",
     "gender": "",
-    "gloss": "forms the perfect aspect [with past participle]",
+    "gloss": "to have; to own",
     "hint": "have (haben: wir, sie, Sie)",
     "hint_source": "short form of Wiktionary",
     "first_unit": "U06",
@@ -1852,7 +1852,7 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/haben#German",
     "status": "pull from Wiktionary",
     "notes": "",
-    "gloss_full": "forms the perfect aspect (have) [with past participle]",
+    "gloss_full": "to have; to own (to possess, have ownership of; to possess a certain characteristic)",
     "lemma_gloss": "",
     "lingua_libre": {
       "file": "LL-Q188 (deu)-Natschoba-haben.wav",
@@ -3207,7 +3207,7 @@
     "status": "pull from Wiktionary",
     "notes": "",
     "gloss_full": "third-person singular present of geben",
-    "lemma_gloss": "to give [with dative ‘someone’ and accusative ‘something’]",
+    "lemma_gloss": "Used to indicate that something exists. Usually translated as there is/are or there exist [with accusative]",
     "lingua_libre": {
       "file": "LL-Q188 (deu)-Natschoba-gibt.wav",
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/LL-Q188_%28deu%29-Natschoba-gibt.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -3672,10 +3672,10 @@
     "word_id": "W144",
     "lang_id": "de",
     "form": "am",
-    "lemma": "an",
+    "lemma": "am",
     "part_of_speech": "Contraction",
     "gender": "",
-    "gloss": "at/on",
+    "gloss": "contraction of an +‎ dem [with adjective ending with -en and masculine or neuter noun]",
     "hint": "on the (am Montag: on Monday)",
     "hint_source": "short form of Wiktionary",
     "first_unit": "U13",
@@ -5005,10 +5005,10 @@
     "word_id": "W555",
     "lang_id": "de",
     "form": "Sänger",
-    "lemma": "singen",
+    "lemma": "Sänger",
     "part_of_speech": "Noun",
     "gender": "m",
-    "gloss": "agent noun of singen; singer (person who sings, often regularly or professionally) singer (male or unspecified)",
+    "gloss": "agent noun of singen; singer singer",
     "hint": "singer",
     "hint_source": "short form of Wiktionary",
     "first_unit": "U205",
@@ -7807,7 +7807,7 @@
     "lemma": "falsch",
     "part_of_speech": "Adjective",
     "gender": "",
-    "gloss": "false, unfactual, untrue",
+    "gloss": "wrong",
     "hint": "wrong",
     "hint_source": "short form of Wiktionary",
     "first_unit": "U35",
@@ -7816,7 +7816,7 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/falsch#German",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
-    "gloss_full": "false, unfactual, untrue",
+    "gloss_full": "wrong (incorrect)",
     "lemma_gloss": "",
     "lingua_libre": {
       "file": "LL-Q188 (deu)-Natschoba-falsch.wav",
@@ -8153,7 +8153,7 @@
     "lemma": "Wohnung",
     "part_of_speech": "Noun",
     "gender": "f",
-    "gloss": "domicile; dwelling; lodging; abode; accommodation",
+    "gloss": "flat; apartment",
     "hint": "flat, apartment",
     "hint_source": "short form of Wiktionary",
     "first_unit": "U45",
@@ -8162,7 +8162,7 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/Wohnung#German",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 word",
-    "gloss_full": "domicile; dwelling; lodging; abode; accommodation (any place someone lives in for a span of time longer than a holiday)",
+    "gloss_full": "flat; apartment (such a place when it occupies only part of a building)",
     "lemma_gloss": ""
   },
   {
@@ -9551,7 +9551,7 @@
     "word_id": "W1107",
     "lang_id": "de",
     "form": "Mund",
-    "lemma": "a",
+    "lemma": "Mund",
     "part_of_speech": "Noun",
     "gender": "m",
     "gloss": "mouth of a person",
@@ -9564,7 +9564,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "mouth of a person",
-    "lemma_gloss": "alternative form of A",
+    "lemma_gloss": "",
     "lingua_libre": {
       "file": "LL-Q188 (deu)-Sebastian Wallroth-Mund.wav",
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/LL-Q188_%28deu%29-Sebastian_Wallroth-Mund.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -10132,7 +10132,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "inflection of tragen: first-person singular present first/third-person singular subjunctive I singular imperative",
-    "lemma_gloss": "to carry, to bear"
+    "lemma_gloss": "to wear"
   },
   {
     "word_id": "W1132",
@@ -10151,7 +10151,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "third-person singular present of tragen",
-    "lemma_gloss": "to carry, to bear",
+    "lemma_gloss": "to wear",
     "lingua_libre": {
       "file": "LL-Q188 (deu)-Natschoba-trägt.wav",
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/LL-Q188_%28deu%29-Natschoba-tr%C3%A4gt.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
@@ -10178,7 +10178,7 @@
     "status": "pull from Wiktionary",
     "notes": "A1 Part 2 vocabulary circle word",
     "gloss_full": "second-person singular present of tragen",
-    "lemma_gloss": "to carry, to bear"
+    "lemma_gloss": "to wear"
   },
   {
     "word_id": "W1134",

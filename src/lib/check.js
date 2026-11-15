@@ -38,6 +38,9 @@ function readings(text, lang) {
 }
 
 const fold = (s) => s.normalize('NFD').replace(/\p{M}/gu, '').replace(/œ/g, 'oe').replace(/æ/g, 'ae').replace(/ß/g, 'ss') // ss for ß counts like a missed accent
+// The key lenient checking reads a word by: no accents, no case, no punctuation. Two choices with one key can't both be
+// offered (ou/où, a/à, la/là, Portuguese tem/têm): lenient checking would take either for the other (Dan, 2026-11-14).
+export const accentKey = (text, lang) => fold(normalize(text, lang)).toLowerCase()
 
 // Edit distance, with a swap of two neighbouring letters counting as one.
 export function distance(a, b) {

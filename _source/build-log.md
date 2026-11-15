@@ -747,3 +747,14 @@ Part 3, Lingua Libre recordings:
 - Wiring (from _review/italian-framework-needs.md): course.js entry with `devOnly` (ready only while Developer is on; Coming Soon otherwise), main.jsx loader (tables-it.js), vite WORKBOOKS, Developer PARTS and Course Snapshot, voice-lab, lesson.js ARTICLES, finalcheck EXAMS (CELI Impatto A1, to confirm), converse HELP_PHRASES and SCENES, server LANG, auth COURSES and accounts-spec SQL, AdminApp, tests, assign-icons, sushi-catalog, audit scripts.
 - Audits: word audit 0 early words, 0 lessons over 4 (665 lessons); every-lesson check 0 issues (6,650 questions); browser pass 0 flags (iPhone and desktop). npm test 178 pass.
 - Not yet: Italian pictures map (image-list.mjs), Italian A1 task samples (a1-samples.js).
+
+## 2026-11-14: Fable's French Part 3 and 4 review applied; accent pairs; flag order; Italian core
+
+- Candidates: Part 3 261 Use (17 English picks), Part 4 280 Use (14); 529 new Tatoeba rows; 12 named swaps; Rejects and unreviewed tails left out. Seven draft fixes; R206, R208, R214, R314 (workbook v36). 3,045 sentences shipped (2,423 Tatoeba, 622 originals).
+- Word senses: 35 re-picked across Parts 1 to 4 (`exact`, `lemma_match` in word-senses.json); form-of parse fixed (dos, frère, sœur, monsieur, madame had wrong lemmas; frère and sœur fixed in v36's words tab).
+- Engine: no two choices or chips one accent apart (accentKey, distinctByAccent); test with forced contrast sets.
+- Language picker: alphabetical, 6 across from 1024px, 3 + 3 on phones.
+- Italian: Kelly core 600, 90 (15%).
+- _review/ untracked for the three Italian files and added to .gitignore.
+- Audits on French: word audit 0 and 0 (2,299 lessons); every-lesson check 0 (23,476 questions). FLELex core 435 of 600 (73%).
+- Wrong-sense sweep, all courses: senses fr 35, es 17, de 10, it 8; hints fr 3, es 4, de 1, it 0.

@@ -9,3 +9,6 @@ dist
 # Sushi originals: kept untouched in R2 (bucket tamago-sushi); see _source/sushi-catalog.md
 _source/sushi-originals/
 _source/speakers/
+
+# Fable's review folder stays out of git (Dan, 2026-11-14)
+_review/

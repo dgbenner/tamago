@@ -1,813 +1,831 @@
 {
- "_about": "Which Wiktionary entry each Italian word uses: part of speech, plus text the definition must contain.",
- "W001": {
-  "pos": "Interjection"
- },
- "W002": {
-  "pos": "Particle"
- },
- "W003": {
-  "pos": "Particle"
- },
- "W004": {
-  "pos": "Adverb"
- },
- "W005": {
-  "pos": "Pronoun"
- },
- "W006": {
-  "pos": "Pronoun"
- },
- "W007": {
-  "pos": "Verb",
-  "match": "first-person singular"
- },
- "W008": {
-  "pos": "Verb"
- },
- "W009": {
-  "pos": "Article"
- },
- "W010": {
-  "pos": "Article"
- },
- "W011": {
-  "pos": "Noun"
- },
- "W012": {
-  "pos": "Noun"
- },
- "W013": {
-  "pos": "Noun"
- },
- "W014": {
-  "pos": "Noun"
- },
- "W015": {
-  "pos": "Noun"
- },
- "W016": {
-  "pos": "Noun"
- },
- "W017": {
-  "pos": "Conjunction"
- },
- "W018": {
-  "pos": "Article"
- },
- "W019": {
-  "pos": "Article"
- },
- "W020": {
-  "pos": "Article"
- },
- "W021": {
-  "pos": "Pronoun"
- },
- "W022": {
-  "pos": "Pronoun",
-  "match": "she"
- },
- "W023": {
-  "pos": "Verb"
- },
- "W024": {
-  "pos": "Adverb"
- },
- "W025": {
-  "pos": "Determiner"
- },
- "W026": {
-  "pos": "Determiner"
- },
- "W027": {
-  "pos": "Noun"
- },
- "W028": {
-  "pos": "Noun"
- },
- "W029": {
-  "pos": "Noun"
- },
- "W030": {
-  "pos": "Adjective"
- },
- "W031": {
-  "pos": "Adjective"
- },
- "W032": {
-  "pos": "Adjective"
- },
- "W033": {
-  "pos": "Adjective"
- },
- "W034": {
-  "pos": "Interjection"
- },
- "W035": {
-  "pos": "Adverb"
- },
- "W036": {
-  "pos": "Interjection"
- },
- "W037": {
-  "pos": "Interjection"
- },
- "W038": {
-  "pos": "Interjection"
- },
- "W039": {
-  "pos": "Interjection"
- },
- "W040": {
-  "pos": "Interjection"
- },
- "W041": {
-  "pos": "Interjection"
- },
- "W042": {
-  "pos": "Interjection"
- },
- "W043": {
-  "pos": "Adverb"
- },
- "W044": {
-  "pos": "Verb"
- },
- "W045": {
-  "pos": "Verb"
- },
- "W046": {
-  "pos": "Verb"
- },
- "W047": {
-  "pos": "Adverb"
- },
- "W048": {
-  "pos": "Adverb"
- },
- "W049": {
-  "pos": "Verb"
- },
- "W050": {
-  "pos": "Verb"
- },
- "W051": {
-  "pos": "Verb"
- },
- "W052": {
-  "pos": "Verb"
- },
- "W053": {
-  "pos": "Verb"
- },
- "W054": {
-  "pos": "Verb"
- },
- "W055": {
-  "pos": "Pronoun"
- },
- "W056": {
-  "pos": "Pronoun"
- },
- "W057": {
-  "pos": "Verb"
- },
- "W058": {
-  "pos": "Noun",
-  "match": "bread"
- },
- "W059": {
-  "pos": "Noun"
- },
- "W060": {
-  "pos": "Noun",
-  "match": "milk"
- },
- "W061": {
-  "pos": "Noun"
- },
- "W062": {
-  "pos": "Noun"
- },
- "W063": {
-  "pos": "Noun"
- },
- "W064": {
-  "pos": "Noun"
- },
- "W065": {
-  "pos": "Noun"
- },
- "W066": {
-  "pos": "Verb"
- },
- "W067": {
-  "pos": "Verb"
- },
- "W068": {
-  "pos": "Verb"
- },
- "W069": {
-  "pos": "Noun",
-  "match": "dog"
- },
- "W070": {
-  "pos": "Noun"
- },
- "W071": {
-  "pos": "Noun"
- },
- "W072": {
-  "pos": "Noun"
- },
- "W073": {
-  "pos": "Noun"
- },
- "W074": {
-  "pos": "Noun"
- },
- "W075": {
-  "pos": "Noun"
- },
- "W076": {
-  "pos": "Article"
- },
- "W077": {
-  "pos": "Article"
- },
- "W078": {
-  "pos": "Article"
- },
- "W079": {
-  "pos": "Pronoun"
- },
- "W080": {
-  "pos": "Pronoun"
- },
- "W081": {
-  "pos": "Pronoun",
-  "match": "they"
- },
- "W082": {
-  "pos": "Verb"
- },
- "W083": {
-  "pos": "Verb"
- },
- "W084": {
-  "pos": "Verb"
- },
- "W085": {
-  "pos": "Verb"
- },
- "W086": {
-  "pos": "Verb"
- },
- "W087": {
-  "pos": "Noun"
- },
- "W088": {
-  "pos": "Noun"
- },
- "W089": {
-  "pos": "Noun"
- },
- "W090": {
-  "pos": "Noun"
- },
- "W091": {
-  "pos": "Noun"
- },
- "W092": {
-  "pos": "Noun"
- },
- "W093": {
-  "pos": "Noun"
- },
- "W094": {
-  "pos": "Determiner"
- },
- "W095": {
-  "pos": "Adjective"
- },
- "W096": {
-  "pos": "Adjective"
- },
- "W097": {
-  "pos": "Adjective"
- },
- "W098": {
-  "pos": "Adjective"
- },
- "W099": {
-  "pos": "Adjective"
- },
- "W100": {
-  "pos": "Adjective"
- },
- "W101": {
-  "pos": "Adjective"
- },
- "W102": {
-  "pos": "Adjective"
- },
- "W103": {
-  "pos": "Adjective"
- },
- "W104": {
-  "pos": "Adverb"
- },
- "W105": {
-  "pos": "Adverb"
- },
- "W106": {
-  "pos": "Noun",
-  "match": "car"
- },
- "W107": {
-  "pos": "Verb"
- },
- "W108": {
-  "pos": "Verb",
-  "match": "there are"
- },
- "W109": {
-  "pos": "Adverb"
- },
- "W110": {
-  "pos": "Preposition"
- },
- "W111": {
-  "pos": "Contraction"
- },
- "W112": {
-  "pos": "Noun"
- },
- "W113": {
-  "pos": "Noun"
- },
- "W114": {
-  "pos": "Noun"
- },
- "W115": {
-  "pos": "Noun"
- },
- "W116": {
-  "pos": "Noun"
- },
- "W117": {
-  "pos": "Adjective"
- },
- "W118": {
-  "pos": "Adjective"
- },
- "W119": {
-  "pos": "Adjective"
- },
- "W120": {
-  "pos": "Adjective"
- },
- "W121": {
-  "pos": "Adjective"
- },
- "W122": {
-  "pos": "Adjective"
- },
- "W123": {
-  "pos": "Noun",
-  "match": "hunger"
- },
- "W124": {
-  "pos": "Noun",
-  "match": "thirst"
- },
- "W125": {
-  "pos": "Noun"
- },
- "W126": {
-  "pos": "Noun"
- },
- "W127": {
-  "pos": "Adjective"
- },
- "W128": {
-  "pos": "Adjective"
- },
- "W129": {
-  "pos": "Determiner"
- },
- "W130": {
-  "pos": "Pronoun"
- },
- "W131": {
-  "pos": "Determiner"
- },
- "W132": {
-  "pos": "Pronoun"
- },
- "W133": {
-  "pos": "Determiner"
- },
- "W134": {
-  "pos": "Determiner"
- },
- "W135": {
-  "pos": "Determiner"
- },
- "W136": {
-  "pos": "Determiner"
- },
- "W137": {
-  "pos": "Preposition"
- },
- "W138": {
-  "pos": "Noun"
- },
- "W139": {
-  "pos": "Noun"
- },
- "W140": {
-  "pos": "Noun"
- },
- "W141": {
-  "pos": "Noun"
- },
- "W142": {
-  "pos": "Noun"
- },
- "W143": {
-  "pos": "Pronoun"
- },
- "W144": {
-  "pos": "Pronoun"
- },
- "W145": {
-  "pos": "Pronoun"
- },
- "W146": {
-  "pos": "Adverb"
- },
- "W147": {
-  "pos": "Contraction"
- },
- "W148": {
-  "pos": "Adverb"
- },
- "W149": {
-  "pos": "Adverb"
- },
- "W150": {
-  "pos": "Determiner"
- },
- "W151": {
-  "pos": "Numeral"
- },
- "W152": {
-  "pos": "Numeral"
- },
- "W153": {
-  "pos": "Numeral"
- },
- "W154": {
-  "pos": "Numeral"
- },
- "W155": {
-  "pos": "Numeral"
- },
- "W156": {
-  "pos": "Numeral"
- },
- "W157": {
-  "pos": "Numeral"
- },
- "W158": {
-  "pos": "Numeral"
- },
- "W159": {
-  "pos": "Numeral"
- },
- "W160": {
-  "pos": "Determiner"
- },
- "W161": {
-  "pos": "Determiner"
- },
- "W162": {
-  "pos": "Adjective"
- },
- "W163": {
-  "pos": "Adjective"
- },
- "W164": {
-  "pos": "Adjective"
- },
- "W165": {
-  "pos": "Adjective"
- },
- "W166": {
-  "pos": "Adjective"
- },
- "W167": {
-  "pos": "Adjective"
- },
- "W168": {
-  "pos": "Adjective"
- },
- "W169": {
-  "pos": "Adjective"
- },
- "W170": {
-  "pos": "Adjective"
- },
- "W171": {
-  "pos": "Adjective"
- },
- "W172": {
-  "pos": "Noun"
- },
- "W173": {
-  "pos": "Adverb"
- },
- "W174": {
-  "pos": "Adverb"
- },
- "W175": {
-  "pos": "Adverb"
- },
- "W176": {
-  "pos": "Noun"
- },
- "W177": {
-  "pos": "Noun"
- },
- "W178": {
-  "pos": "Noun",
-  "match": "hour"
- },
- "W179": {
-  "pos": "Noun"
- },
- "W180": {
-  "pos": "Noun"
- },
- "W181": {
-  "pos": "Noun"
- },
- "W182": {
-  "pos": "Verb"
- },
- "W183": {
-  "pos": "Verb",
-  "match": "andare"
- },
- "W184": {
-  "pos": "Verb"
- },
- "W185": {
-  "pos": "Preposition"
- },
- "W186": {
-  "pos": "Contraction"
- },
- "W187": {
-  "pos": "Contraction"
- },
- "W188": {
-  "pos": "Noun"
- },
- "W189": {
-  "pos": "Noun"
- },
- "W190": {
-  "pos": "Noun"
- },
- "W191": {
-  "pos": "Noun"
- },
- "W192": {
-  "pos": "Noun"
- },
- "W701": {
-  "pos": "Verb"
- },
- "W702": {
-  "pos": "Verb"
- },
- "W703": {
-  "pos": "Adverb"
- },
- "W704": {
-  "pos": "Adverb"
- },
- "W705": {
-  "pos": "Verb"
- },
- "W706": {
-  "pos": "Verb"
- },
- "W707": {
-  "pos": "Verb"
- },
- "W708": {
-  "pos": "Verb"
- },
- "W709": {
-  "pos": "Adverb"
- },
- "W710": {
-  "pos": "Adverb"
- },
- "W711": {
-  "pos": "Pronoun"
- },
- "W712": {
-  "pos": "Verb"
- },
- "W713": {
-  "pos": "Verb"
- },
- "W714": {
-  "pos": "Verb"
- },
- "W715": {
-  "pos": "Verb"
- },
- "W716": {
-  "pos": "Noun"
- },
- "W717": {
-  "pos": "Noun",
-  "match": "Italian language"
- },
- "W718": {
-  "pos": "Noun",
-  "match": "English (language)"
- },
- "W719": {
-  "pos": "Verb"
- },
- "W720": {
-  "pos": "Verb"
- },
- "W721": {
-  "pos": "Verb"
- },
- "W722": {
-  "pos": "Verb"
- },
- "W723": {
-  "pos": "Pronoun"
- },
- "W724": {
-  "pos": "Preposition"
- },
- "W725": {
-  "pos": "Verb"
- },
- "W726": {
-  "pos": "Verb"
- },
- "W1001": {
-  "pos": "Noun"
- },
- "W1002": {
-  "pos": "Noun"
- },
- "W1003": {
-  "pos": "Noun"
- },
- "W1004": {
-  "pos": "Noun",
-  "match": "plural of mano"
- },
- "W1005": {
-  "pos": "Noun"
- },
- "W1006": {
-  "pos": "Noun"
- },
- "W1007": {
-  "pos": "Noun"
- },
- "W1008": {
-  "pos": "Noun"
- },
- "W1009": {
-  "pos": "Noun"
- },
- "W1010": {
-  "pos": "Noun"
- },
- "W1011": {
-  "pos": "Noun"
- },
- "W1012": {
-  "pos": "Adjective"
- },
- "W1013": {
-  "pos": "Adjective"
- },
- "W1014": {
-  "pos": "Adjective"
- },
- "W1015": {
-  "pos": "Adjective"
- },
- "W1016": {
-  "pos": "Adjective",
-  "match": "nice"
- },
- "W1017": {
-  "pos": "Noun"
- },
- "W1018": {
-  "pos": "Noun"
- },
- "W1019": {
-  "pos": "Noun"
- },
- "W1020": {
-  "pos": "Noun",
-  "match": "football"
- },
- "W1021": {
-  "pos": "Noun"
- },
- "W1022": {
-  "pos": "Verb"
- },
- "W1023": {
-  "pos": "Verb"
- },
- "W1024": {
-  "pos": "Verb"
- },
- "W1025": {
-  "pos": "Verb"
- },
- "W1026": {
-  "pos": "Verb"
- },
- "W1027": {
-  "pos": "Verb"
- },
- "W1028": {
-  "pos": "Verb"
- },
- "W1029": {
-  "pos": "Verb"
- },
- "W1030": {
-  "pos": "Verb"
- },
- "W1031": {
-  "pos": "Verb"
- },
- "W1032": {
-  "pos": "Noun"
- },
- "W1033": {
-  "pos": "Noun"
- },
- "W1034": {
-  "pos": "Noun"
- },
- "W1035": {
-  "pos": "Noun"
- },
- "W1036": {
-  "pos": "Noun"
- },
- "W1037": {
-  "pos": "Noun"
- },
- "W1038": {
-  "pos": "Noun"
- },
- "W1039": {
-  "pos": "Noun",
-  "match": "train"
- },
- "W1040": {
-  "pos": "Noun"
- },
- "W1041": {
-  "pos": "Noun"
- },
- "W1042": {
-  "pos": "Noun"
- },
- "W1043": {
-  "pos": "Noun"
- },
- "W1044": {
-  "pos": "Noun"
- },
- "W1045": {
-  "pos": "Noun"
- },
- "W1046": {
-  "pos": "Preposition"
- }
+  "_about": "Which Wiktionary entry each Italian word uses: part of speech, plus text the definition must contain.",
+  "W001": {
+    "pos": "Interjection"
+  },
+  "W002": {
+    "pos": "Particle"
+  },
+  "W003": {
+    "pos": "Particle"
+  },
+  "W004": {
+    "pos": "Adverb"
+  },
+  "W005": {
+    "pos": "Pronoun"
+  },
+  "W006": {
+    "pos": "Pronoun"
+  },
+  "W007": {
+    "pos": "Verb",
+    "match": "first-person singular"
+  },
+  "W008": {
+    "pos": "Verb"
+  },
+  "W009": {
+    "pos": "Article"
+  },
+  "W010": {
+    "pos": "Article"
+  },
+  "W011": {
+    "pos": "Noun"
+  },
+  "W012": {
+    "pos": "Noun"
+  },
+  "W013": {
+    "pos": "Noun"
+  },
+  "W014": {
+    "pos": "Noun"
+  },
+  "W015": {
+    "pos": "Noun"
+  },
+  "W016": {
+    "pos": "Noun"
+  },
+  "W017": {
+    "pos": "Conjunction"
+  },
+  "W018": {
+    "pos": "Article"
+  },
+  "W019": {
+    "pos": "Article"
+  },
+  "W020": {
+    "pos": "Article"
+  },
+  "W021": {
+    "pos": "Pronoun"
+  },
+  "W022": {
+    "pos": "Pronoun",
+    "match": "she"
+  },
+  "W023": {
+    "pos": "Verb"
+  },
+  "W024": {
+    "pos": "Adverb"
+  },
+  "W025": {
+    "pos": "Determiner"
+  },
+  "W026": {
+    "pos": "Determiner"
+  },
+  "W027": {
+    "pos": "Noun"
+  },
+  "W028": {
+    "pos": "Noun"
+  },
+  "W029": {
+    "pos": "Noun"
+  },
+  "W030": {
+    "pos": "Adjective"
+  },
+  "W031": {
+    "pos": "Adjective"
+  },
+  "W032": {
+    "pos": "Adjective"
+  },
+  "W033": {
+    "pos": "Adjective"
+  },
+  "W034": {
+    "pos": "Interjection"
+  },
+  "W035": {
+    "pos": "Adverb"
+  },
+  "W036": {
+    "pos": "Interjection"
+  },
+  "W037": {
+    "pos": "Interjection"
+  },
+  "W038": {
+    "pos": "Interjection"
+  },
+  "W039": {
+    "pos": "Interjection"
+  },
+  "W040": {
+    "pos": "Interjection"
+  },
+  "W041": {
+    "pos": "Interjection"
+  },
+  "W042": {
+    "pos": "Interjection"
+  },
+  "W043": {
+    "pos": "Adverb"
+  },
+  "W044": {
+    "pos": "Verb",
+    "lemma_match": "to be in a certain condition",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+  },
+  "W045": {
+    "pos": "Verb",
+    "lemma_match": "to be in a certain condition",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+  },
+  "W046": {
+    "pos": "Verb",
+    "lemma_match": "to be in a certain condition",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+  },
+  "W047": {
+    "pos": "Adverb"
+  },
+  "W048": {
+    "pos": "Adverb"
+  },
+  "W049": {
+    "pos": "Verb"
+  },
+  "W050": {
+    "pos": "Verb"
+  },
+  "W051": {
+    "pos": "Verb"
+  },
+  "W052": {
+    "pos": "Verb"
+  },
+  "W053": {
+    "pos": "Verb"
+  },
+  "W054": {
+    "pos": "Verb"
+  },
+  "W055": {
+    "pos": "Pronoun"
+  },
+  "W056": {
+    "pos": "Pronoun"
+  },
+  "W057": {
+    "pos": "Verb"
+  },
+  "W058": {
+    "pos": "Noun",
+    "match": "bread"
+  },
+  "W059": {
+    "pos": "Noun"
+  },
+  "W060": {
+    "pos": "Noun",
+    "match": "milk"
+  },
+  "W061": {
+    "pos": "Noun"
+  },
+  "W062": {
+    "pos": "Noun"
+  },
+  "W063": {
+    "pos": "Noun"
+  },
+  "W064": {
+    "pos": "Noun"
+  },
+  "W065": {
+    "pos": "Noun"
+  },
+  "W066": {
+    "pos": "Verb"
+  },
+  "W067": {
+    "pos": "Verb"
+  },
+  "W068": {
+    "pos": "Verb"
+  },
+  "W069": {
+    "pos": "Noun",
+    "match": "dog"
+  },
+  "W070": {
+    "pos": "Noun"
+  },
+  "W071": {
+    "pos": "Noun"
+  },
+  "W072": {
+    "pos": "Noun"
+  },
+  "W073": {
+    "pos": "Noun"
+  },
+  "W074": {
+    "pos": "Noun"
+  },
+  "W075": {
+    "pos": "Noun"
+  },
+  "W076": {
+    "pos": "Article"
+  },
+  "W077": {
+    "pos": "Article"
+  },
+  "W078": {
+    "pos": "Article"
+  },
+  "W079": {
+    "pos": "Pronoun"
+  },
+  "W080": {
+    "pos": "Pronoun"
+  },
+  "W081": {
+    "pos": "Pronoun",
+    "match": "they"
+  },
+  "W082": {
+    "pos": "Verb"
+  },
+  "W083": {
+    "pos": "Verb"
+  },
+  "W084": {
+    "pos": "Verb"
+  },
+  "W085": {
+    "pos": "Verb"
+  },
+  "W086": {
+    "pos": "Verb"
+  },
+  "W087": {
+    "pos": "Noun"
+  },
+  "W088": {
+    "pos": "Noun"
+  },
+  "W089": {
+    "pos": "Noun"
+  },
+  "W090": {
+    "pos": "Noun"
+  },
+  "W091": {
+    "pos": "Noun"
+  },
+  "W092": {
+    "pos": "Noun"
+  },
+  "W093": {
+    "pos": "Noun"
+  },
+  "W094": {
+    "pos": "Determiner"
+  },
+  "W095": {
+    "pos": "Adjective"
+  },
+  "W096": {
+    "pos": "Adjective"
+  },
+  "W097": {
+    "pos": "Adjective"
+  },
+  "W098": {
+    "pos": "Adjective"
+  },
+  "W099": {
+    "pos": "Adjective"
+  },
+  "W100": {
+    "pos": "Adjective"
+  },
+  "W101": {
+    "pos": "Adjective"
+  },
+  "W102": {
+    "pos": "Adjective"
+  },
+  "W103": {
+    "pos": "Adjective"
+  },
+  "W104": {
+    "pos": "Adverb"
+  },
+  "W105": {
+    "pos": "Adverb"
+  },
+  "W106": {
+    "pos": "Noun",
+    "match": "car"
+  },
+  "W107": {
+    "pos": "Verb"
+  },
+  "W108": {
+    "pos": "Verb",
+    "match": "there are"
+  },
+  "W109": {
+    "pos": "Adverb"
+  },
+  "W110": {
+    "pos": "Preposition"
+  },
+  "W111": {
+    "pos": "Contraction"
+  },
+  "W112": {
+    "pos": "Noun"
+  },
+  "W113": {
+    "pos": "Noun"
+  },
+  "W114": {
+    "pos": "Noun"
+  },
+  "W115": {
+    "pos": "Noun",
+    "match": "bathroom",
+    "exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+  },
+  "W116": {
+    "pos": "Noun"
+  },
+  "W117": {
+    "pos": "Adjective"
+  },
+  "W118": {
+    "pos": "Adjective"
+  },
+  "W119": {
+    "pos": "Adjective"
+  },
+  "W120": {
+    "pos": "Adjective"
+  },
+  "W121": {
+    "pos": "Adjective"
+  },
+  "W122": {
+    "pos": "Adjective"
+  },
+  "W123": {
+    "pos": "Noun",
+    "match": "hunger"
+  },
+  "W124": {
+    "pos": "Noun",
+    "match": "thirst"
+  },
+  "W125": {
+    "pos": "Noun"
+  },
+  "W126": {
+    "pos": "Noun"
+  },
+  "W127": {
+    "pos": "Adjective"
+  },
+  "W128": {
+    "pos": "Adjective"
+  },
+  "W129": {
+    "pos": "Determiner"
+  },
+  "W130": {
+    "pos": "Pronoun"
+  },
+  "W131": {
+    "pos": "Determiner"
+  },
+  "W132": {
+    "pos": "Pronoun"
+  },
+  "W133": {
+    "pos": "Determiner"
+  },
+  "W134": {
+    "pos": "Determiner"
+  },
+  "W135": {
+    "pos": "Determiner"
+  },
+  "W136": {
+    "pos": "Determiner"
+  },
+  "W137": {
+    "pos": "Preposition"
+  },
+  "W138": {
+    "pos": "Noun"
+  },
+  "W139": {
+    "pos": "Noun"
+  },
+  "W140": {
+    "pos": "Noun"
+  },
+  "W141": {
+    "pos": "Noun"
+  },
+  "W142": {
+    "pos": "Noun"
+  },
+  "W143": {
+    "pos": "Pronoun"
+  },
+  "W144": {
+    "pos": "Pronoun"
+  },
+  "W145": {
+    "pos": "Pronoun"
+  },
+  "W146": {
+    "pos": "Adverb"
+  },
+  "W147": {
+    "pos": "Contraction"
+  },
+  "W148": {
+    "pos": "Adverb"
+  },
+  "W149": {
+    "pos": "Adverb"
+  },
+  "W150": {
+    "pos": "Determiner"
+  },
+  "W151": {
+    "pos": "Numeral"
+  },
+  "W152": {
+    "pos": "Numeral"
+  },
+  "W153": {
+    "pos": "Numeral"
+  },
+  "W154": {
+    "pos": "Numeral"
+  },
+  "W155": {
+    "pos": "Numeral"
+  },
+  "W156": {
+    "pos": "Numeral"
+  },
+  "W157": {
+    "pos": "Numeral"
+  },
+  "W158": {
+    "pos": "Numeral"
+  },
+  "W159": {
+    "pos": "Numeral"
+  },
+  "W160": {
+    "pos": "Determiner"
+  },
+  "W161": {
+    "pos": "Determiner"
+  },
+  "W162": {
+    "pos": "Adjective"
+  },
+  "W163": {
+    "pos": "Adjective"
+  },
+  "W164": {
+    "pos": "Adjective"
+  },
+  "W165": {
+    "pos": "Adjective"
+  },
+  "W166": {
+    "pos": "Adjective"
+  },
+  "W167": {
+    "pos": "Adjective"
+  },
+  "W168": {
+    "pos": "Adjective"
+  },
+  "W169": {
+    "pos": "Adjective"
+  },
+  "W170": {
+    "pos": "Adjective"
+  },
+  "W171": {
+    "pos": "Adjective"
+  },
+  "W172": {
+    "pos": "Noun"
+  },
+  "W173": {
+    "pos": "Adverb"
+  },
+  "W174": {
+    "pos": "Adverb"
+  },
+  "W175": {
+    "pos": "Adverb"
+  },
+  "W176": {
+    "pos": "Noun"
+  },
+  "W177": {
+    "pos": "Noun"
+  },
+  "W178": {
+    "pos": "Noun",
+    "match": "hour"
+  },
+  "W179": {
+    "pos": "Noun"
+  },
+  "W180": {
+    "pos": "Noun"
+  },
+  "W181": {
+    "pos": "Noun"
+  },
+  "W182": {
+    "pos": "Verb"
+  },
+  "W183": {
+    "pos": "Verb",
+    "match": "andare"
+  },
+  "W184": {
+    "pos": "Verb"
+  },
+  "W185": {
+    "pos": "Preposition"
+  },
+  "W186": {
+    "pos": "Contraction"
+  },
+  "W187": {
+    "pos": "Contraction"
+  },
+  "W188": {
+    "pos": "Noun"
+  },
+  "W189": {
+    "pos": "Noun"
+  },
+  "W190": {
+    "pos": "Noun"
+  },
+  "W191": {
+    "pos": "Noun"
+  },
+  "W192": {
+    "pos": "Noun"
+  },
+  "W701": {
+    "pos": "Verb"
+  },
+  "W702": {
+    "pos": "Verb"
+  },
+  "W703": {
+    "pos": "Adverb"
+  },
+  "W704": {
+    "pos": "Adverb"
+  },
+  "W705": {
+    "pos": "Verb"
+  },
+  "W706": {
+    "pos": "Verb"
+  },
+  "W707": {
+    "pos": "Verb"
+  },
+  "W708": {
+    "pos": "Verb"
+  },
+  "W709": {
+    "pos": "Adverb"
+  },
+  "W710": {
+    "pos": "Adverb"
+  },
+  "W711": {
+    "pos": "Pronoun"
+  },
+  "W712": {
+    "pos": "Verb",
+    "lemma_match": "to say, tell",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+  },
+  "W713": {
+    "pos": "Verb"
+  },
+  "W714": {
+    "pos": "Verb"
+  },
+  "W715": {
+    "pos": "Verb",
+    "match": "to mean",
+    "exact": true,
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+  },
+  "W716": {
+    "pos": "Noun"
+  },
+  "W717": {
+    "pos": "Noun",
+    "match": "Italian language"
+  },
+  "W718": {
+    "pos": "Noun",
+    "match": "English (language)"
+  },
+  "W719": {
+    "pos": "Verb"
+  },
+  "W720": {
+    "pos": "Verb"
+  },
+  "W721": {
+    "pos": "Verb"
+  },
+  "W722": {
+    "pos": "Verb"
+  },
+  "W723": {
+    "pos": "Pronoun"
+  },
+  "W724": {
+    "pos": "Preposition"
+  },
+  "W725": {
+    "pos": "Verb"
+  },
+  "W726": {
+    "pos": "Verb",
+    "lemma_match": "to be necessary",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+  },
+  "W1001": {
+    "pos": "Noun"
+  },
+  "W1002": {
+    "pos": "Noun"
+  },
+  "W1003": {
+    "pos": "Noun"
+  },
+  "W1004": {
+    "pos": "Noun",
+    "match": "plural of mano"
+  },
+  "W1005": {
+    "pos": "Noun"
+  },
+  "W1006": {
+    "pos": "Noun"
+  },
+  "W1007": {
+    "pos": "Noun"
+  },
+  "W1008": {
+    "pos": "Noun"
+  },
+  "W1009": {
+    "pos": "Noun"
+  },
+  "W1010": {
+    "pos": "Noun"
+  },
+  "W1011": {
+    "pos": "Noun"
+  },
+  "W1012": {
+    "pos": "Adjective"
+  },
+  "W1013": {
+    "pos": "Adjective"
+  },
+  "W1014": {
+    "pos": "Adjective"
+  },
+  "W1015": {
+    "pos": "Adjective"
+  },
+  "W1016": {
+    "pos": "Adjective",
+    "match": "nice"
+  },
+  "W1017": {
+    "pos": "Noun"
+  },
+  "W1018": {
+    "pos": "Noun"
+  },
+  "W1019": {
+    "pos": "Noun"
+  },
+  "W1020": {
+    "pos": "Noun",
+    "match": "football"
+  },
+  "W1021": {
+    "pos": "Noun"
+  },
+  "W1022": {
+    "pos": "Verb"
+  },
+  "W1023": {
+    "pos": "Verb"
+  },
+  "W1024": {
+    "pos": "Verb"
+  },
+  "W1025": {
+    "pos": "Verb"
+  },
+  "W1026": {
+    "pos": "Verb"
+  },
+  "W1027": {
+    "pos": "Verb"
+  },
+  "W1028": {
+    "pos": "Verb"
+  },
+  "W1029": {
+    "pos": "Verb"
+  },
+  "W1030": {
+    "pos": "Verb"
+  },
+  "W1031": {
+    "pos": "Verb"
+  },
+  "W1032": {
+    "pos": "Noun"
+  },
+  "W1033": {
+    "pos": "Noun"
+  },
+  "W1034": {
+    "pos": "Noun"
+  },
+  "W1035": {
+    "pos": "Noun"
+  },
+  "W1036": {
+    "pos": "Noun"
+  },
+  "W1037": {
+    "pos": "Noun",
+    "match": "station (stopping place for ground transportation)",
+    "note": "sense the course teaches (wrong-sense sweep, 2026-11-14)"
+  },
+  "W1038": {
+    "pos": "Noun"
+  },
+  "W1039": {
+    "pos": "Noun",
+    "match": "train"
+  },
+  "W1040": {
+    "pos": "Noun"
+  },
+  "W1041": {
+    "pos": "Noun"
+  },
+  "W1042": {
+    "pos": "Noun"
+  },
+  "W1043": {
+    "pos": "Noun"
+  },
+  "W1044": {
+    "pos": "Noun"
+  },
+  "W1045": {
+    "pos": "Noun"
+  },
+  "W1046": {
+    "pos": "Preposition"
+  }
 }

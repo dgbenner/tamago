@@ -497,8 +497,8 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W171 | tienda | tienda | Noun | f | shop, store | checked |
 | W172 | ciudad | ciudad | Noun | f | city | checked |
 | W173 | restaurante | restaurante | Noun | m | restaurant | checked |
-| W174 | llamo | llamar | Verb |  | first-person singular present indicative of llamar (llamar: to summon, to call) | checked |
-| W175 | llamas | llamar | Verb |  | second-person singular present indicative of llamar (llamar: to summon, to call) | checked |
+| W174 | llamo | llamar | Verb |  | first-person singular present indicative of llamar (llamar: to be called) | checked |
+| W175 | llamas | llamar | Verb |  | second-person singular present indicative of llamar (llamar: to be called) | checked |
 | W176 | chico | chico | Noun | m | boy; kid | checked |
 | W177 | chica | chica | Noun | f | female equivalent of chico: girl | checked |
 | W178 | señor | señor | Noun | m | mister, sir, lord | checked |
@@ -536,8 +536,8 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W525 | jefa | jefa | Noun | f | female equivalent of jefe, boss | checked |
 | W526 | computadora | computadora | Noun | f | computer | checked |
 | W527 | teléfono | teléfono | Noun | m | telephone | checked |
-| W528 | ocupado | ocupado | Adjective |  | occupied | checked |
-| W529 | ocupada | ocupado | Adjective |  | feminine singular of ocupado (ocupado: occupied) | checked |
+| W528 | ocupado | ocupado | Adjective |  | busy | checked |
+| W529 | ocupada | ocupado | Adjective |  | feminine singular of ocupado (ocupado: busy) | checked |
 | W530 | reunión | reunión | Noun | f | meeting, session, appointment | checked |
 | W531 | doctor | doctor | Noun | m | doctor | checked |
 | W533 | hospital | hospital | Noun | m | hospital | checked |
@@ -566,10 +566,10 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W706 | repita | repetir | Verb |  | inflection of repetir: first/third-person singular present subjunctive third-person singular imperative (repetir: to repeat) | checked |
 | W707 | habla | hablar | Verb |  | inflection of hablar: third-person singular present indicative second-person singular imperative (hablar: to talk; to speak; to communicate using words [with con ‘with’, along with de or sobre ‘about’, along with en ‘in’, along with dative ‘person spoken to’, along with accusative ‘what is said’]) | checked |
 | W708 | hable | hablar | Verb |  | inflection of hablar: first/third-person singular present subjunctive third-person singular imperative (hablar: to talk; to speak; to communicate using words [with con ‘with’, along with de or sobre ‘about’, along with en ‘in’, along with dative ‘person spoken to’, along with accusative ‘what is said’]) | checked |
-| W709 | otra vez | otra vez | Interjection |  | encore! | checked |
+| W709 | otra vez | otra vez | Adverb |  | again, once more, once again | checked |
 | W710 | se | se | Pronoun |  | A reflexive or reciprocal pronoun: oneself, himself, herself, itself, yourself; themselves; yourselves; each other; one another | checked |
 | W711 | dice | decir | Verb |  | third-person singular present indicative of decir (decir: to say, to tell, to name, to mention) | checked |
-| W712 | significa | significar | Verb |  | inflection of significar: third-person singular present indicative second-person singular imperative (significar: to signify) | checked |
+| W712 | significa | significar | Verb |  | inflection of significar: third-person singular present indicative second-person singular imperative (significar: to mean) | checked |
 | W713 | quiere | querer | Verb |  | inflection of querer: third-person singular present indicative second-person singular imperative (querer: to desire, to want, to want to) | checked |
 | W714 | decir | decir | Verb |  | to say, to tell, to name, to mention | checked |
 | W715 | palabra | palabra | Noun | f | word | checked |
@@ -580,7 +580,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W720 | cosa | cosa | Noun | f | thing | checked |
 | W721 | para | para | Preposition |  | for, to | checked |
 | W722 | llama | llamar | Verb |  | inflection of llamar: third-person singular present indicative second-person singular imperative (llamar: to summon, to call) | checked |
-| W723 | sirve | servir | Verb |  | inflection of servir: third-person singular present indicative second-person singular imperative (servir: to serve) | checked |
+| W723 | sirve | servir | Verb |  | inflection of servir: third-person singular present indicative second-person singular imperative (servir: to be of use, to be good for) | checked |
 | W1001 | pelo | pelo | Noun | m | hair | checked |
 | W1002 | ojos | ojo | Noun | m | plural of ojo (ojo: eye) | checked |
 | W1003 | manos | mano | Noun | f | plural of mano (mano: hand) | checked |
@@ -628,8 +628,8 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W801 | nombre | nombre | Noun | m | name | checked |
 | W802 | apellido | apellido | Noun | m | surname, last name | checked |
 | W803 | llaman | llamar | Verb |  | third-person plural present indicative of llamar (llamar: to summon, to call) | checked |
-| W804 | encantado | encantado | Adjective |  | enchanted, charmed | checked |
-| W805 | encantada | encantado | Adjective |  | feminine singular of encantado (encantado: enchanted, charmed) | checked |
+| W804 | encantado | encantado | Adjective |  | pleased, delighted | checked |
+| W805 | encantada | encantado | Adjective |  | feminine singular of encantado (encantado: pleased, delighted) | checked |
 | W806 | nombres | nombre | Noun | m | plural of nombre (nombre: name) | checked |
 | W807 | escribe | escribir | Verb |  | inflection of escribir: third-person singular present indicative second-person singular imperative (escribir: to write) | checked |
 | W808 | escribir | escribir | Verb |  | to write | checked |
@@ -661,7 +661,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W834 | feliz | feliz | Adjective |  | happy, merry | checked |
 | W835 | repetir | repetir | Verb |  | to repeat | checked |
 | W836 | momento | momento | Noun | m | moment, instant | checked |
-| W837 | espera | esperar | Verb |  | inflection of esperar: third-person singular present indicative second-person singular imperative (esperar: to hope [with direct object ‘for something’ or infinitive ‘to do something’ or que ‘that something happens’]) | checked |
+| W837 | espera | esperar | Verb |  | inflection of esperar: third-person singular present indicative second-person singular imperative (esperar: to wait, wait [ with direct object ‘for something’ or a que ‘for something to happen’]) | checked |
 | W838 | correcto | correcto | Adjective |  | correct, right | checked |
 | W839 | treinta | treinta | Numeral |  | thirty | checked |
 | W840 | cuarenta | cuarenta | Numeral |  | forty | checked |
@@ -711,10 +711,10 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W884 | precio | precio | Noun | m | price | checked |
 | W885 | cuesta | costar | Verb |  | inflection of costar: third-person singular present indicative second-person singular imperative (costar: to cost) | checked |
 | W886 | cuestan | costar | Verb |  | third-person plural present indicative of costar (costar: to cost) | checked |
-| W887 | peso | peso | Noun | m | weight | checked |
-| W888 | pesos | peso | Noun | m | plural of peso (peso: weight) | checked |
+| W887 | peso | peso | Noun | m | peso | checked |
+| W888 | pesos | peso | Noun | m | plural of peso (peso: peso) | checked |
 | W889 | dólares | dólar | Noun | m | plural of dólar (dólar: dollar) | checked |
-| W890 | caro | caro | Adjective |  | dear | checked |
+| W890 | caro | caro | Adjective |  | expensive | checked |
 | W891 | barato | barato | Adjective |  | cheap; inexpensive; sold at a low price | checked |
 | W892 | pagar | pagar | Verb |  | to pay [with le ‘someone’; or with lo ‘something or someone’] | checked |
 | W893 | dinero | dinero | Noun | m | money | checked |
@@ -740,10 +740,10 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1108 | sombrero | sombrero | Noun | m | hat | checked |
 | W1109 | gafas | gafas | Noun | f | eyeglasses | checked |
 | W1110 | reloj | reloj | Noun | m | clock | checked |
-| W1111 | llevo | llevar | Verb |  | first-person singular present indicative of llevar (llevar: to take somewhere) | checked |
-| W1112 | lleva | llevar | Verb |  | inflection of llevar: third-person singular present indicative second-person singular imperative (llevar: to take somewhere) | checked |
-| W1113 | llevas | llevar | Verb |  | second-person singular present indicative of llevar (llevar: to take somewhere) | checked |
-| W1114 | clase | clase | Noun | f | lecture | checked |
+| W1111 | llevo | llevar | Verb |  | first-person singular present indicative of llevar (llevar: to wear) | checked |
+| W1112 | lleva | llevar | Verb |  | inflection of llevar: third-person singular present indicative second-person singular imperative (llevar: to wear) | checked |
+| W1113 | llevas | llevar | Verb |  | second-person singular present indicative of llevar (llevar: to wear) | checked |
+| W1114 | clase | clase | Noun | f | class | checked |
 | W1115 | pregunta | pregunta | Noun | f | question | checked |
 | W1116 | página | página | Noun | f | page | checked |
 | W1117 | papel | papel | Noun | m | paper | checked |

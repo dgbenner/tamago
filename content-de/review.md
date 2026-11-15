@@ -390,9 +390,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W056 | Apfel | Apfel | Noun | m | apple | checked |
 | W057 | Kaffee | Kaffee | Noun | m | coffee | checked |
 | W058 | Tee | Tee | Noun | m | tea | checked |
-| W059 | habe | haben | Verb |  | inflection of haben: first-person singular present first/third-person singular subjunctive I singular imperative (haben: forms the perfect aspect [with past participle]) | checked |
-| W060 | hast | haben | Verb |  | second-person singular present of haben (haben: forms the perfect aspect [with past participle]) | checked |
-| W061 | hat | haben | Verb |  | third-person singular present of haben (haben: forms the perfect aspect [with past participle]) | checked |
+| W059 | habe | haben | Verb |  | inflection of haben: first-person singular present first/third-person singular subjunctive I singular imperative (haben: to have; to own) | checked |
+| W060 | hast | haben | Verb |  | second-person singular present of haben (haben: to have; to own) | checked |
+| W061 | hat | haben | Verb |  | third-person singular present of haben (haben: to have; to own) | checked |
 | W062 | einen | ein | Article |  | accusative masculine singular of ein: a, an (ein: a, an) | checked |
 | W063 | Hund | Hund | Noun | m | dog, hound | checked |
 | W064 | Katze | Katze | Noun | f | house cat, Felis silvestris catus | checked |
@@ -403,7 +403,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W069 | Tier | Tier | Noun | n | animal | checked |
 | W070 | wir | wir | Pronoun |  | we | checked |
 | W071 | sind | sein | Verb |  | first-person plural present of sein (sein: forms the present perfect and past perfect tenses of certain verbs) | checked |
-| W072 | haben | haben | Verb |  | forms the perfect aspect [with past participle] | checked |
+| W072 | haben | haben | Verb |  | to have; to own | checked |
 | W073 | essen | essen | Verb |  | to eat | checked |
 | W074 | trinken | trinken | Verb |  | to drink | checked |
 | W075 | Bücher | Buch | Noun |  | nominative/accusative/genitive plural of Buch (Buch: book) | checked |
@@ -457,7 +457,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W123 | neun | neun | Numeral |  | nine | checked |
 | W124 | zehn | zehn | Numeral |  | ten | checked |
 | W125 | wie viele | wie viele | Determiner |  | form of wie viel | checked |
-| W126 | gibt | geben | Verb |  | third-person singular present of geben (geben: to give [with dative ‘someone’ and accusative ‘something’]) | checked |
+| W126 | gibt | geben | Verb |  | third-person singular present of geben (geben: Used to indicate that something exists. Usually translated as there is/are or there exist [with accusative]) | checked |
 | W127 | rot | rot | Adjective |  | red | checked |
 | W128 | blau | blau | Adjective |  | blue | checked |
 | W129 | grün | grün | Adjective |  | green | checked |
@@ -475,7 +475,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W141 | Montag | Montag | Noun | m | Monday | checked |
 | W142 | Samstag | Samstag | Noun | m | Saturday | checked |
 | W143 | Sonntag | Sonntag | Noun | m | Sunday | checked |
-| W144 | am | an | Contraction |  | at/on | checked |
+| W144 | am | am | Contraction |  | contraction of an +‎ dem [with adjective ending with -en and masculine or neuter noun] | checked |
 | W145 | gehe | gehen | Verb |  | inflection of gehen: first-person singular present first/third-person singular subjunctive I singular imperative (gehen: to go, to walk) | checked |
 | W146 | gehst | gehen | Verb |  | second-person singular present of gehen (gehen: to go, to walk) | checked |
 | W147 | in | in | Preposition |  | [with dative] in, inside, within, at | checked |
@@ -530,7 +530,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W550 | Musik | Musik | Noun | f | music | checked |
 | W553 | Klavier | Klavier | Noun | n | piano | checked |
 | W554 | Gitarre | Gitarre | Noun | f | guitar | checked |
-| W555 | Sänger | singen | Noun | m | agent noun of singen; singer (person who sings, often regularly or professionally) singer (male or unspecified) | checked |
+| W555 | Sänger | Sänger | Noun | m | agent noun of singen; singer singer | checked |
 | W556 | Sängerin | Sängerin | Noun | f | female singer, singeress, songstress | checked |
 | W557 | singt | singen | Verb |  | inflection of singen: third-person singular present second-person plural present plural imperative (singen: to sing) | checked |
 | W558 | singe | singen | Verb |  | inflection of singen: first-person singular present first/third-person singular subjunctive I singular imperative (singen: to sing) | checked |
@@ -647,7 +647,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W833 | Moment | Moment | Noun | m | moment | checked |
 | W834 | Augenblick | Augenblick | Noun | m | moment, instant, blink of an eye | checked |
 | W835 | richtig | richtig | Adjective |  | correct, accurate, right | checked |
-| W836 | falsch | falsch | Adjective |  | false, unfactual, untrue | checked |
+| W836 | falsch | falsch | Adjective |  | wrong | checked |
 | W837 | dreißig | dreißig | Numeral |  | thirty | checked |
 | W838 | vierzig | vierzig | Numeral |  | forty | checked |
 | W839 | fünfzig | fünfzig | Numeral |  | fifty | checked |
@@ -661,7 +661,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W847 | wohnt | wohnen | Verb |  | inflection of wohnen: third-person singular present second-person plural present plural imperative (wohnen: to live, reside, dwell) | checked |
 | W848 | wohnen | wohnen | Verb |  | to live, reside, dwell | checked |
 | W849 | Adresse | Adresse | Noun | f | address | checked |
-| W850 | Wohnung | Wohnung | Noun | f | domicile; dwelling; lodging; abode; accommodation | checked |
+| W850 | Wohnung | Wohnung | Noun | f | flat; apartment | checked |
 | W851 | Land | Land | Noun | n | country | checked |
 | W852 | Postleitzahl | Postleitzahl | Noun | f | postal code | checked |
 | W853 | weit | weit | Adjective |  | far, distant | checked |
@@ -720,7 +720,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1104 | Arm | Arm | Noun | m | an arm | checked |
 | W1105 | Augen | Auge | Noun | n | plural of Auge (Auge: eye) | checked |
 | W1106 | Haare | Haar | Noun |  | nominative/accusative/genitive plural of Haar "hair/hairs" (Haar: hair) | checked |
-| W1107 | Mund | a | Noun | m | mouth of a person (a: alternative form of A) | checked |
+| W1107 | Mund | Mund | Noun | m | mouth of a person | checked |
 | W1108 | Bauch | Bauch | Noun | m | abdomen, belly | checked |
 | W1109 | tut | tun | Verb |  | third-person singular present of tun (tun: to do) | checked |
 | W1110 | weh | weh | Adjective |  | sore, painful | checked |
@@ -744,9 +744,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1128 | Schuhe | Schuh | Noun |  | nominative/accusative/genitive plural of Schuh "shoes" (Schuh: shoe) | checked |
 | W1129 | Mantel | Mantel | Noun | m | coat, overcoat | checked |
 | W1130 | Brille | Brille | Noun | f | glasses, spectacles | checked |
-| W1131 | trage | tragen | Verb |  | inflection of tragen: first-person singular present first/third-person singular subjunctive I singular imperative (tragen: to carry, to bear) | checked |
-| W1132 | trägt | tragen | Verb |  | third-person singular present of tragen (tragen: to carry, to bear) | checked |
-| W1133 | trägst | tragen | Verb |  | second-person singular present of tragen (tragen: to carry, to bear) | checked |
+| W1131 | trage | tragen | Verb |  | inflection of tragen: first-person singular present first/third-person singular subjunctive I singular imperative (tragen: to wear) | checked |
+| W1132 | trägt | tragen | Verb |  | third-person singular present of tragen (tragen: to wear) | checked |
+| W1133 | trägst | tragen | Verb |  | second-person singular present of tragen (tragen: to wear) | checked |
 | W1134 | schnell | schnell | Adjective |  | quick, fast | checked |
 | W1135 | langsam | langsam | Adjective |  | slow | checked |
 | W1136 | leicht | leicht | Adjective |  | easy | checked |

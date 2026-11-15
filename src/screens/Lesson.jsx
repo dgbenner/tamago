@@ -2,6 +2,7 @@ import { explain } from '../lib/explain.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { DRAG_START, applyDrop, dropIndex, markerAt } from '../lib/chipdrag.js'
+import { startPairs, tapPair } from '../lib/match-pairs.js'
 import { accentMisses, checkTyped, diffMarks } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
@@ -471,40 +472,39 @@ function PickHeard({ q, result, onAnswer, wordsShown, onShowWords }) {
 }
 
 function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
-  const [form, setForm] = useState(null)
-  const [meaning, setMeaning] = useState(null)
-  const [matched, setMatched] = useState([])
-  const [wrong, setWrong] = useState(null)
+  // Selection rules in src/lib/match-pairs.js (tap again to deselect; a wrong pair returns both tiles as they were).
+  const [st, setSt] = useState(startPairs)
+  const { form, meaning, matched, wrong } = st
   const [revealed, setRevealed] = useState(null)
   const missed = useRef([])
+  const shakeTimer = useRef(0)
+  useEffect(() => () => window.clearTimeout(shakeTimer.current), [])
 
-  const attempt = (f, m) => {
-    setForm(null)
-    setMeaning(null)
-    const pair = q.pairs.find((p) => p.form === f)
-    if (pair.hint === m) {
-      const next = [...matched, f]
-      setMatched(next)
-      setWrong(null)
-      if (next.length === q.pairs.length) {
-        // The last pair animates out like the others before the answer bar comes; nothing is left on the board.
-        setRevealed(null)
-        const missedPair = q.pairs.find((p) => p.word_id === missed.current[0]) ?? null
-        window.setTimeout(() => onAnswer({ correct: missed.current.length === 0, missedWord: missed.current[0], missedPair: missedPair && { form: missedPair.form, hint: missedPair.hint } }), 280)
-      }
-    } else {
+  const tap = (side, value) => {
+    const { state: next, outcome, form: f } = tapPair(st, q.pairs, side, value)
+    setSt(next)
+    if (outcome === 'match' && next.matched.length === q.pairs.length) {
+      // The last pair animates out like the others before the answer bar comes; nothing is left on the board.
+      setRevealed(null)
+      const missedPair = q.pairs.find((p) => p.word_id === missed.current[0]) ?? null
+      window.setTimeout(() => onAnswer({ correct: missed.current.length === 0, missedWord: missed.current[0], missedPair: missedPair && { form: missedPair.form, hint: missedPair.hint } }), 280)
+    }
+    if (outcome === 'wrong') {
+      const pair = q.pairs.find((p) => p.form === f)
       // A wrong tap on a new word isn't a miss.
       if (!newWords.has(pair.word_id) && !missed.current.includes(pair.word_id)) missed.current.push(pair.word_id)
-      setWrong({ f, m })
+      // The shake ends the wrong state; by time too, since reduced motion sends no animationend.
+      window.clearTimeout(shakeTimer.current)
+      shakeTimer.current = window.setTimeout(() => setSt((s) => (s.wrong === next.wrong ? { ...s, wrong: null } : s)), 360)
     }
   }
   const tapForm = (p) => {
-    setWrong(null)
     if (!cantListen) play(p.audio)
     if (newWords.has(p.word_id)) setRevealed(p) // first sight: its meaning shows
-    if (meaning) attempt(p.form, meaning); else setForm(p.form)
+    tap('form', p.form)
   }
-  const tapMeaning = (m) => { setWrong(null); if (form) attempt(form, m); else setMeaning(m) }
+  const tapMeaning = (m) => tap('meaning', m)
+  const setWrong = () => setSt((s) => ({ ...s, wrong: null }))
   const isMatchedMeaning = (m) => q.pairs.some((p) => p.hint === m && matched.includes(p.form))
 
   // R19: a correct pair animates out together and leaves its space; a wrong pair shakes and stays.

@@ -216,9 +216,9 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W041 | scusa | scusa | Interjection |  | sorry! | checked |
 | W042 | scusi | scusi | Interjection |  | excuse me, pardon me | checked |
 | W043 | come | come | Adverb |  | how | checked |
-| W044 | sto | stare | Verb |  | first-person singular present indicative of stare (stare: to stay, remain) | checked |
-| W045 | stai | stare | Verb |  | inflection of stare: second-person singular present indicative second-person singular imperative (stare: to stay, remain) | checked |
-| W046 | sta | stare | Verb |  | third-person singular present indicative of stare (stare: to stay, remain) | checked |
+| W044 | sto | stare | Verb |  | first-person singular present indicative of stare (stare: to be in a certain condition) | checked |
+| W045 | stai | stare | Verb |  | inflection of stare: second-person singular present indicative second-person singular imperative (stare: to be in a certain condition) | checked |
+| W046 | sta | stare | Verb |  | third-person singular present indicative of stare (stare: to be in a certain condition) | checked |
 | W047 | bene | bene | Adverb |  | well, nicely, OK, right | checked |
 | W048 | male | male | Adverb |  | badly, wrongly | checked |
 | W049 | mangio | mangiare | Verb |  | first-person singular present indicative of mangiare (mangiare: to eat [auxiliary avere]) | checked |
@@ -249,7 +249,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W074 | topo | topo | Noun | m | mouse, rat | checked |
 | W075 | animale | animale | Noun | m | animal | checked |
 | W076 | i | i | Article | m | the | checked |
-| W077 | gli | the | Article | m | form of the article i (“the”) used before a vowel, impure s, gn, pn, ps, sc, x, y, and z, and also with the plural noun dei (“gods”); the | checked |
+| W077 | gli | gli | Article | m | form of the article i used before a vowel, impure s, gn, pn, ps, sc, x, y, and z, and also with the plural noun dei; the | checked |
 | W078 | le | le | Article | f | the | checked |
 | W079 | noi | noi | Pronoun |  | we; us | checked |
 | W080 | voi | voi | Pronoun |  | you | checked |
@@ -287,7 +287,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W112 | tavolo | tavolo | Noun | m | table, board, desk | checked |
 | W113 | letto | letto | Noun | m | bed | checked |
 | W114 | cucina | cucina | Noun | f | kitchen | checked |
-| W115 | bagno | bagno | Noun | m | bath | checked |
+| W115 | bagno | bagno | Noun | m | bathroom | checked |
 | W116 | giardino | giardino | Noun | m | garden | checked |
 | W117 | stanco | stanco | Adjective |  | tired | checked |
 | W118 | stanca | stanco | Adjective |  | feminine singular of stanco (stanco: tired) | checked |
@@ -376,10 +376,10 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W709 | ancora | ancora | Adverb |  | still | checked |
 | W710 | piano | piano | Adverb |  | slowly | checked |
 | W711 | si | si | Pronoun |  | oneself, himself, herself, itself, themselves | checked |
-| W712 | dice | dire | Verb |  | third-person singular present indicative of dire (dire: to utter) | checked |
+| W712 | dice | dire | Verb |  | third-person singular present indicative of dire (dire: to say, tell, utter to talk about, discuss [with di]) | checked |
 | W713 | significa | significare | Verb |  | inflection of significare: third-person singular present indicative second-person singular imperative (significare: to mean, to signify) | checked |
 | W714 | vuol | vuol | Verb |  | apocopic form of vuole | checked |
-| W715 | dire | dire | Verb |  | to utter | checked |
+| W715 | dire | dire | Verb |  | to mean | checked |
 | W716 | parola | parola | Noun | f | word | checked |
 | W717 | italiano | italiano | Noun | m | the Italian language | checked |
 | W718 | inglese | inglese | Noun | m | English | checked |
@@ -390,7 +390,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W723 | lo | lo | Pronoun |  | him | checked |
 | W724 | per | per | Preposition |  | for | checked |
 | W725 | chiama | chiamare | Verb |  | inflection of chiamare: third-person singular present indicative second-person singular imperative (chiamare: to call) | checked |
-| W726 | serve | servire | Verb |  | third-person singular present indicative of servire (servire: to serve) | checked |
+| W726 | serve | servire | Verb |  | third-person singular present indicative of servire (servire: to be necessary [with a ‘to someone’] [auxiliary essere]) | checked |
 | W1001 | capelli | capello | Noun | m | single hair | checked |
 | W1002 | occhi | occhio | Noun | m | plural of occhio (occhio: eye) | checked |
 | W1003 | mano | mano | Noun | f | hand | checked |
@@ -427,7 +427,7 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1034 | teatro | teatro | Noun | m | theater | checked |
 | W1035 | chiesa | chiesa | Noun | f | church | checked |
 | W1036 | albergo | albergo | Noun | m | hotel, inn | checked |
-| W1037 | stazione | stazione | Noun | f | position, posture | checked |
+| W1037 | stazione | stazione | Noun | f | station | checked |
 | W1038 | autobus | autobus | Noun | m | bus | checked |
 | W1039 | treno | treno | Noun | m | train | checked |
 | W1040 | taxi | taxi | Noun | m | taxi | checked |

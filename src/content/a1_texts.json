@@ -262,7 +262,7 @@
     "kind": "message",
     "title": "Une carte de Marie",
     "lines": [
-      "En été, nous allons à la mer en juillet.",
+      "En juillet, nous allons à la mer.",
       "En hiver, nous allons à la montagne.",
       "Et toi ?"
     ],
@@ -328,7 +328,7 @@
     "lines": [
       "Attention : sortie à gauche",
       "Toilettes : quai 2",
-      "Information : à l'entrée"
+      "Informations : à l'entrée"
     ],
     "questions": [
       {
@@ -518,7 +518,7 @@
     "title": "La porte",
     "lines": [
       "Fermez la porte, s'il vous plaît.",
-      "Attention : ouvrez doucement."
+      "Attention : fermez doucement."
     ],
     "questions": [
       {
@@ -531,7 +531,7 @@
         "answer": 0
       },
       {
-        "question": "How should you open it?",
+        "question": "How should you close it?",
         "choices": [
           "Gently",
           "Quickly",
@@ -995,7 +995,7 @@
     "title": "À l'hôtel",
     "lines": [
       "Petit-déjeuner : 7h – 10h",
-      "Les chambres : avant 11h, s'il vous plaît."
+      "Départ : avant 11h, s'il vous plaît"
     ],
     "questions": [
       {

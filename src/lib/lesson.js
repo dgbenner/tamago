@@ -1,7 +1,7 @@
 import { a1QuestionFor } from './a1types.js'
 // Builds lessons from content. Pure: no React, no storage, so it runs under node --test.
 // Rule numbers (R01...) refer to the workbook's lesson_rules tab.
-import { normalize, sameAnswer } from './check.js'
+import { accentKey, normalize, sameAnswer } from './check.js'
 import { notByEar } from './by-ear.js'
 
 export const BUILT_TYPES = new Set(['QT01', 'QT02', 'QT03', 'QT04', 'QT05', 'QT06', 'QT07', 'QT08', 'QT09', 'QT10', 'QT11', 'QT12', 'QT13', 'QT14', 'QT15', 'QT16', 'QT17', 'QT18'])
@@ -211,15 +211,22 @@ function similarSentences(c, s, rng, n, pool, usable = () => true) {
   return out
 }
 
+// The first of each accent-free key, in order (a before à when a comes first).
+function distinctByAccent(forms) {
+  const seen = new Set()
+  return forms.filter((f) => { const k = accentKey(f, 'fr'); if (seen.has(k)) return false; seen.add(k); return true })
+}
+
 // R03: the first wrong chip is the contrast of a word in the sentence (un for une, es for suis) when there is one.
 function frenchChipDistractors(c, rows, n, rng) {
-  const needed = new Set(rows.map((r) => normalize(r.surface, 'fr')))
+  // By accent-free key: a wrong chip never differs from a needed one, or another wrong one, only by an accent.
+  const needed = new Set(rows.map((r) => accentKey(r.surface, 'fr')))
   const own = rows.map((r) => c.wordById.get(r.word_id)).filter(Boolean)
-  const contrasts = shuffle(own.flatMap((w) => c.contrast.get(w.form) ?? []), rng).filter((f) => !needed.has(normalize(f, 'fr')))
+  const contrasts = shuffle(own.flatMap((w) => c.contrast.get(w.form) ?? []), rng).filter((f) => !needed.has(accentKey(f, 'fr')))
   const rank = (w) => (own.some((o) => o.part_of_speech === w.part_of_speech && o.gender === w.gender) ? 0
     : own.some((o) => o.part_of_speech === w.part_of_speech) ? 1 : 2)
-  const others = shuffle(c.words.filter((w) => !needed.has(normalize(w.form, 'fr'))), rng).sort((a, b) => rank(a) - rank(b)).map((w) => w.form)
-  return [...new Set([...contrasts, ...others])].slice(0, n)
+  const others = shuffle(c.words.filter((w) => !needed.has(accentKey(w.form, 'fr'))), rng).sort((a, b) => rank(a) - rank(b)).map((w) => w.form)
+  return distinctByAccent([...contrasts, ...others]).slice(0, n)
 }
 
 function englishChipDistractors(c, s, n, rng) {
@@ -305,8 +312,9 @@ export function makeQuestion(c, type, s, round, rng, last, { cantListen = false,
     const rank = (w) => (w.part_of_speech === word.part_of_speech && w.gender === word.gender ? 0 : w.part_of_speech === word.part_of_speech ? 1 : 2)
     const others = shuffle(c.words.filter((w) => !inSentence.has(w.word_id)), rng).sort((a, b) => rank(a) - rank(b)).map((w) => w.form)
     const partners = (c.contrast.get(word.form) ?? []).filter((f) => !rows.some((r) => c.wordById.get(r.word_id)?.form === f))
-    const distractors = [...new Set([...partners, ...others])].slice(0, choiceTotal - 1)
     const answer = base.segments[blankIndex].text.toLowerCase()
+    // Never two choices one accent apart (ou/où): lenient checking would take either for the other.
+    const distractors = distinctByAccent([answer, ...partners, ...others]).slice(1, choiceTotal)
     return { ...base, blankIndex, choices: shuffle([answer, ...distractors], rng), answer, shown: s.french }
   }
   if (type === 'QT06') {

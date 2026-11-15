@@ -93,7 +93,7 @@ const texts = [
     questions: [{ question: 'Where should Marie go?', choices: ['To the pharmacy', 'To the bank', 'To the supermarket'], answer: 0 }, { question: 'Where is Paul going?', choices: ['The bank and the supermarket', 'The pharmacy', 'The post office'], answer: 0 }] },
   { id: 'R313', unit_id: 'U88', kind: 'timetable', title: "L'aéroport", lines: ['Vol pour Rome : départ 10h30', 'Vol pour Londres : départ 13h15', 'Vol pour Berlin : départ 17h45'],
     questions: [{ question: 'When is the flight to London?', choices: ['13:15', '10:30', '17:45'], answer: 0 }, { question: 'Where does the 17:45 flight go?', choices: ['Berlin', 'Rome', 'London'], answer: 0 }] },
-  { id: 'R314', unit_id: 'U88', kind: 'notice', title: "À l'hôtel", lines: ['Petit-déjeuner : 7h – 10h', 'Les chambres : avant 11h, s\'il vous plaît.'],
+  { id: 'R314', unit_id: 'U88', kind: 'notice', title: "À l'hôtel", lines: ['Petit-déjeuner : 7h – 10h', 'Départ : avant 11h, s\'il vous plaît'],
     questions: [{ question: 'Until when is breakfast?', choices: ['10:00', '11:00', '7:00'], answer: 0 }, { question: 'When should you leave your room?', choices: ['Before 11:00', 'After 11:00', 'Before 10:00'], answer: 0 }] },
   { id: 'R315', unit_id: 'U88', kind: 'message', title: 'Une carte de Paul', lines: ['Je suis à Rome !', "L'hôtel est près de la gare.", 'Je rentre lundi en avion.'],
     questions: [{ question: 'Where is Paul?', choices: ['In Rome', 'In Paris', 'In London'], answer: 0 }, { question: 'How is he going home?', choices: ['By plane', 'By train', 'By car'], answer: 0 }] },

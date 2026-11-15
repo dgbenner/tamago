@@ -308,7 +308,10 @@
     "pos": "Noun"
   },
   "W314": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "lemma_match": "parent",
+    "lemma_exact": true,
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W315": {
     "pos": "Noun"
@@ -474,7 +477,9 @@
     "match": "kind"
   },
   "W419": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "lemma_match": "kind, sweet",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W420": {
     "pos": "Adverb"
@@ -1245,7 +1250,9 @@
     "match": "language"
   },
   "W873": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "lemma_match": "language",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W874": {
     "pos": "Adjective"
@@ -1313,13 +1320,17 @@
     "match": "expensive"
   },
   "W895": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "lemma_match": "expensive",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W896": {
     "pos": "Verb"
   },
   "W897": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "chart; map",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W898": {
     "pos": "Noun",
@@ -1427,7 +1438,9 @@
     "pos": "Noun"
   },
   "W1022": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "lemma_match": "holidays, vacation",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1023": {
     "pos": "Noun"
@@ -1504,7 +1517,10 @@
     "match": "alone"
   },
   "W1046": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "lemma_match": "alone",
+    "lemma_exact": true,
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1047": {
     "pos": "Noun"
@@ -1602,7 +1618,8 @@
     "match": "noon"
   },
   "W1204": {
-    "pos": "Noun"
+    "pos": "Adjective",
+    "note": "et demie: feminine of demi (half), not the semifinal; Fable's Part 3/4 check, 2026-11-14"
   },
   "W1205": {
     "pos": "Noun",
@@ -1634,10 +1651,14 @@
     "pos": "Pronoun"
   },
   "W1214": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "match": "sorry; apologetic",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1215": {
-    "pos": "Participle"
+    "pos": "Participle",
+    "lemma_match": "sorry; apologetic",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1216": {
     "pos": "Noun"
@@ -1732,10 +1753,14 @@
   },
   "W1245": {
     "pos": "Verb",
-    "match": "réfléchir"
+    "match": "réfléchir",
+    "lemma_match": "to ponder",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1246": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "to ponder",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1247": {
     "pos": "Noun"
@@ -1783,11 +1808,16 @@
     "pos": "Adjective"
   },
   "W1260": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "appointment",
+    "exact": true,
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1261": {
     "pos": "Verb",
-    "match": "lever"
+    "match": "lever",
+    "lemma_match": "to get up",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1262": {
     "pos": "Pronoun"
@@ -1875,10 +1905,14 @@
   },
   "W1287": {
     "pos": "Verb",
-    "match": "partir"
+    "match": "partir",
+    "lemma_match": "to go away, leave",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1288": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "to go away, leave",
+    "note": "Fable's Part 3/4 check, 2026-11-14"
   },
   "W1289": {
     "pos": "Noun"
@@ -1896,7 +1930,9 @@
     "pos": "Preposition"
   },
   "W1294": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "platform",
+    "note": "Fable's Part 3/4 check, 2026-11-14"
   },
   "W1295": {
     "pos": "Adjective"
@@ -1921,11 +1957,15 @@
     "match": "descendre"
   },
   "W1302": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "to get on, get in",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1303": {
     "pos": "Verb",
-    "match": "monter"
+    "match": "monter",
+    "lemma_match": "to get on, get in",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1304": {
     "pos": "Noun"
@@ -2036,7 +2076,9 @@
     "pos": "Pronoun"
   },
   "W1424": {
-    "pos": "Pronoun"
+    "pos": "Pronoun",
+    "match": "someone, somebody",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1425": {
     "pos": "Adjective"
@@ -2116,7 +2158,9 @@
     "pos": "Adjective"
   },
   "W1446": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "match": "great, fantastic",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1447": {
     "pos": "Adjective"
@@ -2206,13 +2250,19 @@
     "match": "demander"
   },
   "W1615": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "to ask or pose",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1616": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "set meal",
+    "note": "Fable's Part 3/4 check, 2026-11-14"
   },
   "W1617": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "dish or course",
+    "note": "Fable's Part 3/4 check, 2026-11-14"
   },
   "W1618": {
     "pos": "Noun"
@@ -2239,7 +2289,9 @@
     "pos": "Noun"
   },
   "W1626": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "right-hand side",
+    "note": "Fable's Part 3/4 check, 2026-11-14"
   },
   "W1627": {
     "pos": "Adverb"
@@ -2254,7 +2306,10 @@
     "pos": "Noun"
   },
   "W1631": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "corner",
+    "exact": true,
+    "note": "Fable's Part 3/4 check, 2026-11-14"
   },
   "W1632": {
     "pos": "Preposition"
@@ -2291,10 +2346,14 @@
     "pos": "Noun"
   },
   "W1642": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "traffic light",
+    "note": "Fable's Part 3/4 check, 2026-11-14"
   },
   "W1643": {
-    "pos": "Preposition"
+    "pos": "Preposition",
+    "match": "in front of",
+    "note": "Fable's Part 3/4 check, 2026-11-14"
   },
   "W1644": {
     "pos": "Preposition"
@@ -2354,7 +2413,9 @@
     "match": "revenir"
   },
   "W1662": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "to go back",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1663": {
     "pos": "Noun"
@@ -2372,7 +2433,9 @@
     "pos": "Noun"
   },
   "W1668": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "ticket",
+    "note": "Fable's Part 3/4 check, 2026-11-14"
   },
   "W1669": {
     "pos": "Verb"
@@ -2414,7 +2477,9 @@
     "pos": "Noun"
   },
   "W1803": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "to wear",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1804": {
     "pos": "Noun"
@@ -2444,7 +2509,9 @@
     "pos": "Adjective"
   },
   "W1813": {
-    "pos": "Conjunction"
+    "pos": "Adverb",
+    "match": "so, such",
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1814": {
     "pos": "Adverb"
@@ -2471,7 +2538,9 @@
     "pos": "Adverb"
   },
   "W1822": {
-    "pos": "Adverb"
+    "pos": "Adverb",
+    "match": "just, only",
+    "note": "Fable's Part 3/4 check, 2026-11-14"
   },
   "W1823": {
     "pos": "Adverb"
@@ -2547,11 +2616,17 @@
     "pos": "Verb"
   },
   "W1845": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "to change",
+    "exact": true,
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1846": {
     "pos": "Verb",
-    "match": "changer"
+    "match": "changer",
+    "lemma_match": "to change",
+    "lemma_exact": true,
+    "note": "Glossary sense the unit teaches, 2026-11-14 (Fable's Part 3/4 check; Parts 1 and 2 checked the same way)"
   },
   "W1847": {
     "pos": "Verb",
