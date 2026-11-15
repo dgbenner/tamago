@@ -46,7 +46,8 @@ function checkQuestion(q, c, where) {
   if (q.chips && q.lang === 'fr') {
     // Two chips may share a key only when the sentence itself needs both (Il a à manger).
     const own = new Map()
-    for (const w of String(q.shown).toLowerCase().split(/[\s.,!?¿¡;:…"«»()]+/).filter(Boolean)) own.set(w, accentKey(w, 'fr'))
+    // An elided word is two chips (n'a: n' and a), so its parts count as the sentence's own too (Il n'a rien à faire).
+    for (const w of String(q.shown).toLowerCase().split(/[\s.,!?¿¡;:…"«»()]+/).filter(Boolean)) for (const x of [w, ...w.split(/(?<=['’])/)]) own.set(x, accentKey(x, 'fr'))
     const byKey = new Map()
     for (const ch of q.chips) { const t = String(ch.text ?? ch.surface ?? ch).toLowerCase(); const k = accentKey(t, 'fr'); byKey.set(k, new Set([...(byKey.get(k) ?? []), t])) }
     for (const [k, forms] of byKey) if (forms.size > 1) for (const f of forms) assert.ok(own.has(f), `${where}: chips one accent apart (${[...forms]}), "${f}" not in "${q.shown}"`)

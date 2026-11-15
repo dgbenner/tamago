@@ -451,17 +451,6 @@
     "notes": ""
   },
   {
-    "id": "R503",
-    "unit_id": "U503",
-    "kind": "message",
-    "title": "Un message de Paul",
-    "lines": "Marie,\nLa clé est sous la porte.\nLe dîner est dans la cuisine.\nBonne nuit !",
-    "questions_json": "[{\"question\":\"Where is the key?\",\"choices\":[\"Under the door\",\"On the table\",\"In the bag\"],\"answer\":0},{\"question\":\"Where is dinner?\",\"choices\":[\"In the kitchen\",\"In the living room\",\"In the bedroom\"],\"answer\":0}]",
-    "source": "written for Tamago",
-    "status": "draft: written for Tamago, native check",
-    "notes": ""
-  },
-  {
     "id": "R504",
     "unit_id": "U505",
     "kind": "notice",
@@ -693,17 +682,6 @@
     "notes": ""
   },
   {
-    "id": "R610",
-    "unit_id": "U604",
-    "kind": "notice",
-    "title": "Dans le bus",
-    "lines": "Avancez, s'il vous plaît.\nAsseyez-vous.\nTenez votre billet.",
-    "questions_json": "[{\"question\":\"What should you do with your ticket?\",\"choices\":[\"Hold it\",\"Throw it away\",\"Buy one\"],\"answer\":0},{\"question\":\"What should you do?\",\"choices\":[\"Sit down\",\"Stand up\",\"Get off\"],\"answer\":0}]",
-    "source": "written for Tamago",
-    "status": "draft: written for Tamago, native check",
-    "notes": ""
-  },
-  {
     "id": "R611",
     "unit_id": "U604",
     "kind": "notice",
@@ -757,5 +735,27 @@
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "R503",
+    "unit_id": "U503",
+    "kind": "message",
+    "title": "Un message de Paul",
+    "lines": "Marie,\nLa clé est chez la voisine.\nLe dîner est dans la cuisine.\nBonne nuit !",
+    "questions_json": "[{\"question\":\"Where is the key?\",\"choices\":[\"At the neighbor's\",\"On the table\",\"In the bag\"],\"answer\":0},{\"question\":\"Where is dinner?\",\"choices\":[\"In the kitchen\",\"In the living room\",\"In the bedroom\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": "Fable's Parts 5-6 review, 2026-11-15"
+  },
+  {
+    "id": "R610",
+    "unit_id": "U604",
+    "kind": "notice",
+    "title": "Dans le bus",
+    "lines": "Avancez, s'il vous plaît.\nAsseyez-vous.\nGardez votre billet.",
+    "questions_json": "[{\"question\":\"What should you do with your ticket?\",\"choices\":[\"Keep it\",\"Throw it away\",\"Buy one\"],\"answer\":0},{\"question\":\"What should you do?\",\"choices\":[\"Sit down\",\"Stand up\",\"Get off\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": "Fable's Parts 5-6 review, 2026-11-15"
   }
 ]

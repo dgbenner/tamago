@@ -19,14 +19,17 @@ async function pageTemplate(lemma, name) {
 }
 
 async function french(lemma) {
-  const rows = tableRows(await render(lemma, '{{fr-conj-auto}}'))
+  // The page's own template (Fable, 2026-11-15): rappeler's says type=xxer, the double-l "rappelle" the course teaches;
+  // the bare template gives the 1990 spelling "rappèle".
+  const rows = tableRows(await render(lemma, await pageTemplate(lemma, 'fr-conj-auto')))
   // The person header comes just before the indicative block; the first "present" row after it is the one.
   const at = rows.findIndex((r) => r[0] === 'indicative')
   const persons = rows[at]?.slice(1)
   const row = rows.slice(at + 1).find((r) => r.includes('present'))
   if (!persons || !row) return null
-  // Cells carry the pronunciation after the form (ai /e/); keep the form.
-  const forms = row.slice(row.indexOf('present') + 1).map((cell) => cell.replace(/\s*\/[^/]*\//g, '').replace(/\s+or\s*$/, '').replace(/\s+\d+$/, '').trim())
+  // Cells carry the pronunciation after the form (ai /e/), sometimes several joined by "or" (asseyons /…/ or /…/ or
+  // /…/); drop the whole run, so no "or" is left hanging; keep the form or forms.
+  const forms = row.slice(row.indexOf('present') + 1).map((cell) => cell.replace(/\s*\/[^/]*\/(?:\s+or\s+\/[^/]*\/)*/g, '').replace(/\s+\d+$/, '').replace(/\s+or\s*$/, '').trim())
   return persons.map((p, i) => ({ person: p, form: forms[i] })).filter((x) => x.person && x.form)
 }
 

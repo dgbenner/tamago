@@ -1313,39 +1313,6 @@
     "source": "written for Tamago"
   },
   {
-    "id": "R503",
-    "unit_id": "U503",
-    "kind": "message",
-    "title": "Un message de Paul",
-    "lines": [
-      "Marie,",
-      "La clé est sous la porte.",
-      "Le dîner est dans la cuisine.",
-      "Bonne nuit !"
-    ],
-    "questions": [
-      {
-        "question": "Where is the key?",
-        "choices": [
-          "Under the door",
-          "On the table",
-          "In the bag"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "Where is dinner?",
-        "choices": [
-          "In the kitchen",
-          "In the living room",
-          "In the bedroom"
-        ],
-        "answer": 0
-      }
-    ],
-    "source": "written for Tamago"
-  },
-  {
     "id": "R504",
     "unit_id": "U505",
     "kind": "notice",
@@ -2024,38 +1991,6 @@
     "source": "written for Tamago"
   },
   {
-    "id": "R610",
-    "unit_id": "U604",
-    "kind": "notice",
-    "title": "Dans le bus",
-    "lines": [
-      "Avancez, s'il vous plaît.",
-      "Asseyez-vous.",
-      "Tenez votre billet."
-    ],
-    "questions": [
-      {
-        "question": "What should you do with your ticket?",
-        "choices": [
-          "Hold it",
-          "Throw it away",
-          "Buy one"
-        ],
-        "answer": 0
-      },
-      {
-        "question": "What should you do?",
-        "choices": [
-          "Sit down",
-          "Stand up",
-          "Get off"
-        ],
-        "answer": 0
-      }
-    ],
-    "source": "written for Tamago"
-  },
-  {
     "id": "R611",
     "unit_id": "U604",
     "kind": "notice",
@@ -2211,6 +2146,71 @@
           "To say hello to her mother",
           "To call her",
           "To come tonight"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R503",
+    "unit_id": "U503",
+    "kind": "message",
+    "title": "Un message de Paul",
+    "lines": [
+      "Marie,",
+      "La clé est chez la voisine.",
+      "Le dîner est dans la cuisine.",
+      "Bonne nuit !"
+    ],
+    "questions": [
+      {
+        "question": "Where is the key?",
+        "choices": [
+          "At the neighbor's",
+          "On the table",
+          "In the bag"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where is dinner?",
+        "choices": [
+          "In the kitchen",
+          "In the living room",
+          "In the bedroom"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R610",
+    "unit_id": "U604",
+    "kind": "notice",
+    "title": "Dans le bus",
+    "lines": [
+      "Avancez, s'il vous plaît.",
+      "Asseyez-vous.",
+      "Gardez votre billet."
+    ],
+    "questions": [
+      {
+        "question": "What should you do with your ticket?",
+        "choices": [
+          "Keep it",
+          "Throw it away",
+          "Buy one"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What should you do?",
+        "choices": [
+          "Sit down",
+          "Stand up",
+          "Get off"
         ],
         "answer": 0
       }

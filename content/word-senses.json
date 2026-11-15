@@ -2714,7 +2714,9 @@
     "pos": "Adjective"
   },
   "W2017": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "wedding",
+    "exact": true
   },
   "W2018": {
     "pos": "Verb",
@@ -2821,7 +2823,7 @@
   },
   "W2051": {
     "pos": "Noun",
-    "match": "junior high"
+    "match": "secondary school"
   },
   "W2052": {
     "pos": "Noun"
@@ -2840,7 +2842,8 @@
     "pos": "Noun"
   },
   "W2057": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "exercise, practice"
   },
   "W2058": {
     "pos": "Noun"
@@ -3197,7 +3200,8 @@
     "match": "accompagner"
   },
   "W2438": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "along somewhere"
   },
   "W2439": {
     "pos": "Verb",
@@ -3243,7 +3247,8 @@
     "match": "amuser"
   },
   "W2451": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "have fun"
   },
   "W2452": {
     "pos": "Verb",
@@ -3264,7 +3269,7 @@
   },
   "W2458": {
     "pos": "Verb",
-    "match": "to chat"
+    "match": "to discuss"
   },
   "W2459": {
     "pos": "Verb",
@@ -3278,7 +3283,8 @@
     "match": "occuper"
   },
   "W2462": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "take care of"
   },
   "W2463": {
     "pos": "Verb"
@@ -3291,7 +3297,8 @@
     "pos": "Noun"
   },
   "W2466": {
-    "pos": "Adjective"
+    "pos": "Adverb",
+    "match": "strongly"
   },
   "W2467": {
     "pos": "Noun",
@@ -3308,7 +3315,8 @@
     "pos": "Verb"
   },
   "W2471": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "get married"
   },
   "W2472": {
     "pos": "Verb"
@@ -3333,7 +3341,9 @@
     "match": "cacher"
   },
   "W2479": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "to shout",
+    "exact": true
   },
   "W2480": {
     "pos": "Verb",
@@ -3442,7 +3452,8 @@
     "pos": "Adjective"
   },
   "W2633": {
-    "pos": "Adjective"
+    "pos": "Adjective",
+    "match": "straightforward"
   },
   "W2634": {
     "pos": "Noun"
@@ -3455,7 +3466,8 @@
     "match": "habiller"
   },
   "W2637": {
-    "pos": "Verb"
+    "pos": "Verb",
+    "match": "get dressed"
   },
   "W2638": {
     "pos": "Verb",

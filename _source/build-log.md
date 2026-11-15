@@ -787,3 +787,18 @@ Part 3, Lingua Libre recordings:
 - Equivalent answers at build time (scripts/lib/equivalents.mjs): 1,601 added (French 772, Spanish 228, German 338, Italian 104, Portuguese 159).
 - Sound Lab at /lab/sounds (dev only), Web Audio, six options each for three sounds; Sounds setting added, unused for now.
 - Tests: pass mark 60%, early scope, pass phrases, equivalents.
+
+## 2026-11-15: Pass toast score; labs on the live site
+
+- Pass toast: "<circle> · <score> of <size> · <phrase>".
+- Labs (Sound, Circle, Design, Voice) built with the app (vite LAB_PAGES), kept out of the offline cache, listed on the Developer page under Labs while Developer is on; the live Voice Lab reads the shipped tags and can't save.
+
+## 2026-11-15: Fable's French Parts 5 and 6 review applied, the last step for French A1
+
+- Candidates (apply-part-candidates.mjs PART=5|6): Part 5 269 Use (111 English picks), 256 new rows; Part 6 168 Use (55 English picks), 141 new rows; the rest already in or swaps. Rejects and unreviewed tails left out.
+- Swaps: 13 in Part 5, 27 in Part 6 (drafts keep their ids). Draft fixes: S16569 "Allô, ici Paul." (Hello, Paul here.), S16873 English "Where is the meeting?" (old English still accepted, AD0008), S17965 kept as "Je te promets." since le isn't taught as an object pronoun, "Je te le promets." accepted (AD0007).
+- Read and Answer (workbook v40, scripts/review/fr-parts5-6.mjs with add-items): R503 "La clé est chez la voisine." (At the neighbor's), R610 "Gardez votre billet." (Keep it). gardez isn't a course word (garde, garder are), so it carries no hint in that text.
+- Conjugation tables: French reads the verb page's own fr-conj-auto call (rappeler type=xxer: rappelle); a cell's run of pronunciations joined by "or" is dropped whole, so asseoir shows "assoyons or asseyons", "assoyez or asseyez". Only these two tables changed.
+- Senses (word-senses.json) and hints (claude_hints): simple, fort, occuper, amuser, marier, habiller, emmener, crier, exercice, mariage, discuter, collège re-picked; doux, douce, coup, suite, certain, quelque, garder, garde, envie, général, rappeler, affaires hinted with the sense and any set phrase's own Wiktionary entry (tout à coup, tout de suite, quelque chose, quelque part, avoir envie de, en général). affaires keeps "plural of affaire" so it counts for FLELex affaire; envie keeps "appetite" (the desire sense carries "lust").
+- French: 4,464 sentences shipped (3,574 Tatoeba, 890 originals; was 4,067 with 930). Parts 5 and 6 drafts 310 to 270. FLELex core 581 of 600 (97%), main path 554.
+- Audits on French: word audit 0 early, 0 over 4 (3,386 lessons); every-lesson check 0 issues (34,616 questions).
