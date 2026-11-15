@@ -6,6 +6,8 @@ import { join } from 'node:path'
 import { getFile } from './lib/http.mjs'
 import { normaliseFile } from './lib/loudness.mjs'
 import { at, C, COURSE, audioUrl } from './lib/course.mjs'
+import { equivalentAnswers } from './lib/equivalents.mjs'
+import { loadTatoeba } from './lib/tatoeba.mjs'
 // Lingua Libre names files LL-<language item> (<ISO 639-3>)-<speaker>-<text>.<ext>.
 const LL = `LL-${C.linguaLibre.qid} (${C.linguaLibre.iso})`
 const llEsc = LL.replace(/[()]/g, '\\$&')
@@ -129,6 +131,13 @@ tables.accepted_answers = [
   ...generated.filter((g) => live.has(g.sentence_id)).map((g) => ({ ...g, status: 'live' })),
 ]
 
+// Equivalent answers (Dan, 2026-11-15; scripts/lib/equivalents.mjs): Tatoeba's other English for the line, safe
+// reorderings, US and UK words, and time phrases moved in the course language. NO_EQUIVALENTS=1 leaves them out.
+const equivalents = process.env.NO_EQUIVALENTS ? { added: [], counts: {} } : equivalentAnswers({
+  sentences: tables.sentences.filter((x) => live.has(x.sentence_id)), rows: tables.accepted_answers, lang: COURSE, englishFor: loadTatoeba().englishFor,
+  reviewed: existsSync(at('content/sweep/answers-review.json')) ? read('content/sweep/answers-review.json') : null })
+tables.accepted_answers.push(...equivalents.added)
+
 // cant_swaps: parse the replacement and rounds into rules the app can use.
 tables.cant_swaps = raw('cant_swaps').map((c) => {
   const [, type, variant] = String(c.replaced_by).match(/^(QT\d+)(?: variant (V\d+))?$/)
@@ -237,5 +246,6 @@ if (existsSync(join(ROOT, 'public/content'))) rmSync(join(ROOT, 'public/content'
 const awaiting = raw('sentences').filter((s) => !live.has(s.sentence_id) && !cut.has(s.sentence_id) && !String(s.status).startsWith('off')).map((s) => s.sentence_id)
 const original = tables.sentences.filter((s) => s.source === 'tamago_original').length
 const fr = tables.accepted_answers.filter((a) => a.direction === 'fr_to_en').length
+console.log(`Equivalent answers added: ${equivalents.added.length} (${Object.entries(equivalents.counts).map(([k, v]) => `${k} ${v}`).join(', ')})`)
 console.log(`Shipped: ${tables.sentences.length} sentences (${tables.sentences.length - original} Tatoeba, ${original} Tamago originals), ${tables.words.length} words, ${fr} fr_to_en and ${tables.accepted_answers.length - fr} en_to_fr answers, ${tables.qa_answers.length} qa_answers, ${tables.feedback_phrases.length} feedback lines (${tables.feedback_phrases.filter((f) => f.language !== 'en').length} ${C.name}), ${wanted.size} recordings (${tables.words.filter((w) => w.lingua_libre).length} of them words). U01 status: ${tables.units[0].status}.${awaiting.length ? ` Not live, awaiting a ruling: ${awaiting.join(', ')}.` : ''}`)
 if (heldBack.length) console.log(`Held back until their native-speaker fix is applied: ${heldBack.join(', ')}.`)

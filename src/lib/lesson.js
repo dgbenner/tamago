@@ -12,7 +12,9 @@ const AUDIO_TYPES = new Set(['QT04', 'QT07', 'QT11'])
 // Types where the sentence is heard before it's seen: a line that's confusing by ear never goes here (by-ear.js).
 const HEARD_TYPES = new Set(['QT04', 'QT07', 'QT10', 'QT11', 'QT13'])
 const MAX_NEW_WORDS = 4 // R01
-const PASS_SHARE = 0.7 // R05
+// R05; 60% since Dan, 2026-11-15 (was 70%). Under it a lesson doesn't count toward its circle, which asks for it again
+// later; nothing is ever blocked.
+const PASS_SHARE = 0.6
 export const LESSON_SIZE = 10
 
 export const passMark = (graded) => Math.ceil(graded * PASS_SHARE)
@@ -416,14 +418,18 @@ const ownWord = (c, id) => !c.unit_id || c.wordById.get(id)?.first_unit === c.un
 // Word order fix (2026-11-13): a word a help circle borrows from a later circle isn't known yet either, so it counts as
 // new, toward the 4, and is introduced on the board like the circle's own; and a sentence using a word that isn't in the
 // word list (one turned off, like copine) is never used, since its meaning can't be shown.
-export function lessonScope(c, known, round) {
+// Early (no locks, Dan 2026-11-15): a circle opened before the ones above it are done treats the earlier circles' words
+// its own sentences use, and the learner hasn't met, the way a help circle treats the words it borrows: new, toward
+// the 4, introduced with their meanings.
+export function lessonScope(c, known, round, { early = false } = {}) {
   const order = new Map((c.units ?? []).map((u) => [u.unit_id, u.order]))
   const mine = order.get(c.unit_id) ?? Infinity
   const listed = (id) => c.wordById.has(id)
   // A topic pack's word in a main circle (French Part 5 borrows maison, mère, travail; 2026-11-15) is new too unless
   // the learner met it in that pack: packs are one choice among several, so the path can't count on them.
   const pack = new Set((c.units ?? []).filter((u) => u.is_topic_pick === 'yes' && u.unit_id !== c.unit_id).map((u) => u.unit_id))
-  const toIntroduce = (id) => listed(id) && (ownWord(c, id) || (order.get(c.wordById.get(id).first_unit) ?? Infinity) > mine || pack.has(c.wordById.get(id).first_unit))
+  const usedHere = early ? new Set(c.sentences.flatMap((s) => (c.swBySentence.get(s.sentence_id) ?? []).map((r) => r.word_id).filter(Boolean))) : null
+  const toIntroduce = (id) => listed(id) && (ownWord(c, id) || (order.get(c.wordById.get(id).first_unit) ?? Infinity) > mine || pack.has(c.wordById.get(id).first_unit) || Boolean(usedHere?.has(id)))
   // Two new words with one meaning (bleu and bleue) can't share a board, so the second waits for the next lesson.
   const newWords = []
   const meanings = new Set()
@@ -475,10 +481,10 @@ function constraint(type) {
 
 // retry = the failed lesson's questions: same items, new types where the round allows it.
 // carry = a missed item from the last lesson, which takes one slot at its original type (R07).
-export function buildLesson(c, { round, seen = {}, known = new Set(), settings = {}, rng = Math.random, retry = null, carry = null, unit_id = 'U01' }) {
+export function buildLesson(c, { round, seen = {}, known = new Set(), settings = {}, rng = Math.random, retry = null, carry = null, unit_id = 'U01', early = false }) {
   const slotList = interleave(mixSlots(c, round, settings))
   const slots = slotList.map((x) => x.type)
-  const scope = lessonScope(c, known, round)
+  const scope = lessonScope(c, known, round, { early })
   const opts = { cantListen: settings.cantListen, pool: scope.sentences }
   const last = {}
   const counts = { ...(seen.sentences ?? {}) }

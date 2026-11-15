@@ -42,6 +42,7 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
 // onNote (Dan, 2026-11-12): the grammar note opens from a small gray notebook (Lucide's notebook-pen, batch 5) beside the
 // circle's right edge, centred on it vertically, about 8 px out, at 80% size and 40% opacity (Dan, 2026-11-13); only on
 // an open circle that has a note. Tapping the circle itself goes straight to a lesson.
+// early (no locks, Dan 2026-11-15): a circle ahead of where the learner is, faded and desaturated but tappable.
 // The wrapper is a size container so the icon can follow the disc (min(100%, 6rem) wide, under the 1.625rem marker).
 export default function CircleNode({ onNote = null, ...props }) {
   const button = <CircleButton {...props} />
@@ -58,7 +59,7 @@ export default function CircleNode({ onNote = null, ...props }) {
   )
 }
 
-function CircleButton({ title, icon, locked = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null, caption = null, showCaption = true, ring = true, badge = null }) {
+function CircleButton({ title, icon, locked = false, early = false, lessonsDone = 0, lessonsTotal = 1, recall = null, marker = null, onPick, onTestPass = null, caption = null, showCaption = true, ring = true, badge = null }) {
   // caption (Catch-Up, A1 Complete 9): a quiet line under the title, also read out in place of the lesson count; ring
   // false: no lesson ring, since a Catch-Up circle has no lessons of its own.
   const start = useRef(null)
@@ -76,8 +77,8 @@ function CircleButton({ title, icon, locked = false, lessonsDone = 0, lessonsTot
   const share = state === 'locked' ? 0 : Math.min(1, lessonsDone / lessonsTotal)
   const opacity = state === 'finished' ? ringOpacity(recall) : 1
   return (
-    <button {...test} onClick={() => { if (swiped.current) { swiped.current = false; return } onPick() }} aria-label={`${marker ? `${MARKERS[marker]} ` : ''}${title}. ${caption ?? circleLine({ locked, lessonsDone, lessonsTotal, recall })}`}
-      className="circle-node flex w-32 min-w-0 shrink flex-col items-center gap-1.5" data-state={state}>
+    <button {...test} onClick={() => { if (swiped.current) { swiped.current = false; return } onPick() }} aria-label={`${marker ? `${MARKERS[marker]} ` : ''}${title}. ${caption ?? circleLine({ locked, lessonsDone, lessonsTotal, recall })}${early ? ' Ahead of where you are; open it any time.' : ''}`}
+      className={`circle-node flex w-32 min-w-0 shrink flex-col items-center gap-1.5 ${early ? 'circle-early' : ''}`} data-state={state} data-early={early ? '' : undefined}>
       {/* The marker sits above the circle and keeps its space on every circle, so rows line up. */}
       <span className={`flex h-5 items-center gap-1 text-xs font-semibold text-ring ${marker ? '' : 'invisible'}`} aria-hidden="true">
         <span className="size-2 rounded-full bg-ring" />{MARKERS[marker] ?? MARKERS.start}

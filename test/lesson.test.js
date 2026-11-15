@@ -58,10 +58,10 @@ test("Can't listen removes every audio type and keeps QT09, written out", () => 
   assert.equal(q.variant, 'V0903')
 })
 
-test('pass mark is 70% of graded questions, rounded up', () => {
-  assert.equal(passMark(10), 7)
-  assert.equal(passMark(9), 7)
-  assert.equal(passMark(8), 6)
+test('pass mark is 60% of graded questions, rounded up (Dan, 2026-11-15)', () => {
+  assert.equal(passMark(10), 6)
+  assert.equal(passMark(9), 6)
+  assert.equal(passMark(8), 5)
   assert.equal(buildLesson(c, { round: 3, known: allKnown, rng: seeded(1) }).graded, 9) // one speaking question isn't graded
 })
 
@@ -373,3 +373,45 @@ test('a later round never crashes for a learner who has met none of its words', 
     assert.equal(l.queue.filter((q) => !q.item_id).length, 10, `round ${round}`)
   }
 })
+
+// No locks (Dan, 2026-11-15): a circle opened early introduces the earlier circles' words its own sentences use, the
+// way a help circle introduces what it borrows: new, toward the 4, never assumed known.
+test('a circle opened early introduces the earlier words its sentences use', () => {
+  const later = tables.units.filter((u) => String(u.status).startsWith('live') && u.is_topic_pick === 'no' && Number(u.part) === 3)[0]
+  const uc = contentForUnit(tables, later.unit_id)
+  const normal = lessonScope(uc, new Set(), 1)
+  const early = lessonScope(uc, new Set(), 1, { early: true })
+  assert.ok(normal.newWords.every((id) => uc.wordById.get(id).first_unit === later.unit_id), 'in order, only its own words are new')
+  assert.ok(early.newWords.some((id) => uc.wordById.get(id).first_unit !== later.unit_id), 'early, earlier words are introduced too')
+  assert.ok(early.newWords.length <= 4)
+  assert.ok(early.sentences.every((s) => (uc.swBySentence.get(s.sentence_id) ?? []).every((r) => !r.word_id || early.allowed.has(r.word_id))))
+})
+
+// The end-of-lesson toast (Dan, 2026-11-15): a phrase per score band, about six each, none under 60%.
+test('pass phrases: three bands of six, none under 60%', async () => {
+  const { PASS_PHRASES, passBand, passPhrase } = await import('../src/lib/pass-phrases.js')
+  for (const list of Object.values(PASS_PHRASES)) assert.equal(new Set(list).size, 6)
+  assert.equal(passBand(0.59), null); assert.equal(passPhrase(0.5), null)
+  assert.equal(passBand(0.6), 'pass'); assert.equal(passBand(0.79), 'pass')
+  assert.equal(passBand(0.8), 'strong'); assert.equal(passBand(0.99), 'strong')
+  assert.equal(passBand(1), 'perfect')
+  assert.ok(PASS_PHRASES.perfect.includes('Perfect Score!'))
+})
+
+// Equivalent answers (Dan, 2026-11-15; scripts/lib/equivalents.mjs): safe reorderings, US and UK words, time phrases
+// in the course language; never a question turned into a statement, nor a time word pulled out of its phrase.
+test('equivalent answers: safe reorderings only', async () => {
+  const { equivalentAnswers } = await import('../scripts/lib/equivalents.mjs')
+  const run = (english, french = 'x', lang = 'fr') => equivalentAnswers({ sentences: [{ sentence_id: 's', french, english }], rows: [], lang }).added.map((r) => r.answer)
+  assert.ok(run('Here we are.').includes('We are here.'))
+  assert.ok(run('Here is the book.').includes('The book is here.'))
+  assert.ok(run("I'm leaving tomorrow.").includes("Tomorrow, I'm leaving."))
+  assert.ok(run('I live in a flat.').includes('I live in an apartment.'))
+  assert.deepEqual(run('Is he here?'), [])
+  assert.deepEqual(run('There is a cat.'), [])
+  assert.deepEqual(run('Thanks for yesterday.', 'Je vous remercie pour hier.'), [])
+  assert.deepEqual(run('The departure is now.', "Le départ, c'est maintenant."), [])
+  assert.ok(run('I eat in the evening.', 'Le soir, je mange.').includes('Je mange le soir.'))
+  assert.deepEqual(run('x', 'Morgen gehe ich.', 'de'), [])
+})
+

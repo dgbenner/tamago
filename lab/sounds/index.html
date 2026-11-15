@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sound Lab</title>
+    <!-- Sound Lab (Dan, 2026-11-15). Local only: served by the dev server (npm run dev, then /lab/sounds). Not a build
+         entry, so never deployed. Every sound is made here in Web Audio (no files, nothing to license); none is used in
+         the app yet. Settings has a Sounds on/off for when they are. -->
+    <style>
+      :root { --bg: #faf7f0; --ink: #23201b; --muted: #6b655a; --line: #e2dccf; --card: #fff; --accent: #15803d; --pick: #fbe8c4; }
+      @media (prefers-color-scheme: dark) { :root { --bg: #1b1a17; --ink: #f2eee6; --muted: #a8a196; --line: #3a3731; --card: #24221e; --pick: #4a3a1c; } }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+      main { max-width: 56rem; margin: 0 auto; padding: 24px 16px 64px; }
+      h1 { font-size: 1.6rem; margin: 0 0 4px; }
+      h2 { font-size: 1.15rem; margin: 32px 0 4px; }
+      p.note { color: var(--muted); margin: 0 0 12px; font-size: .95rem; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); gap: 10px; }
+      .opt { display: flex; align-items: center; gap: 10px; background: var(--card); border: 2px solid var(--line); border-radius: 14px; padding: 10px 12px; }
+      .opt.picked { border-color: var(--accent); background: var(--pick); }
+      .opt button { flex: none; width: 40px; height: 40px; border-radius: 999px; border: 2px solid var(--line); background: var(--bg); color: var(--ink); font-size: 15px; cursor: pointer; }
+      .opt label { flex: 1; cursor: pointer; }
+      .opt small { display: block; color: var(--muted); font-size: .82rem; }
+      .bar { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; margin: 12px 0 0; }
+      .demo { background: var(--card); border: 2px solid var(--line); border-radius: 16px; padding: 16px; margin-top: 10px; }
+      .check { background: #f5c518; color: #23201b; border: 0; border-radius: 12px; padding: 12px 28px; font-weight: 700; font-size: 1rem; cursor: pointer; }
+      .tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; max-width: 26rem; }
+      .tile, .chip { border: 2px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 12px; padding: 10px; font-size: 1rem; cursor: pointer; }
+      .tile.sel { border-color: #d3460f; } .tile.done { opacity: .35; pointer-events: none; }
+      .answer { min-height: 52px; border-bottom: 2px solid var(--line); display: flex; flex-wrap: wrap; gap: 8px; padding: 6px 0; margin-bottom: 12px; }
+      .bank { display: flex; flex-wrap: wrap; gap: 8px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Sound Lab</h1>
+      <p class="note">Warm, soft sounds for three moments: the main button, a correct match, and a word tile slotting into the sentence. Each one is made in Web Audio, so there's nothing to license. Tap ▶ to hear one; tap its name to pick it for the demo at the bottom. Nothing here is used in the app yet.</p>
+      <div class="bar"><label>Volume <input id="vol" type="range" min="0" max="1" step="0.05" value="0.6" /></label></div>
+      <section id="sections"></section>
+      <h2>Try them in place</h2>
+      <p class="note">The picked sound of each kind plays here.</p>
+      <div class="demo">
+        <button class="check" id="check">Check</button>
+        <h3>Match the pairs</h3>
+        <div class="tiles" id="tiles"></div>
+        <h3>Build the sentence</h3>
+        <div class="answer" id="answer" aria-label="Your answer"></div>
+        <div class="bank" id="bank"></div>
+      </div>
+    </main>
+    <script type="module">
+      let ctx = null
+      const vol = document.getElementById('vol')
+      const ac = () => { ctx ??= new AudioContext(); if (ctx.state === 'suspended') ctx.resume(); return ctx }
+      const out = () => { const c = ac(); const g = c.createGain(); g.gain.value = Number(vol.value); g.connect(c.destination); return g }
+
+      // A struck tone: sine partials (frequency ratio, level), quick attack, exponential decay.
+      function tone(dest, freq, { at = 0, partials = [[1, 1]], attack = 0.004, decay = 0.25, level = 0.5, glide = null, type = 'sine', lowpass = null } = {}) {
+        const c = ac(), t = c.currentTime + at
+        let node = dest
+        if (lowpass) { const f = c.createBiquadFilter(); f.type = 'lowpass'; f.frequency.value = lowpass; f.connect(dest); node = f }
+        for (const [ratio, lvl] of partials) {
+          const o = c.createOscillator(), g = c.createGain()
+          o.type = type
+          o.frequency.setValueAtTime(freq * ratio, t)
+          if (glide) o.frequency.exponentialRampToValueAtTime(glide * ratio, t + decay * 0.8)
+          const d = decay / Math.sqrt(ratio)
+          g.gain.setValueAtTime(0.0001, t)
+          g.gain.exponentialRampToValueAtTime(level * lvl, t + attack)
+          g.gain.exponentialRampToValueAtTime(0.0001, t + attack + d)
+          o.connect(g).connect(node)
+          o.start(t); o.stop(t + attack + d + 0.05)
+        }
+      }
+      // A short soft noise burst, band-passed: the wood or plastic in a knock, kept low so it never reads as a click.
+      function knock(dest, centre, { at = 0, length = 0.03, level = 0.12, q = 3 } = {}) {
+        const c = ac(), t = c.currentTime + at
+        const buf = c.createBuffer(1, Math.ceil(c.sampleRate * length), c.sampleRate)
+        const d = buf.getChannelData(0)
+        for (let i = 0; i < d.length; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / d.length, 3)
+        const src = c.createBufferSource(), f = c.createBiquadFilter(), g = c.createGain()
+        src.buffer = buf; f.type = 'bandpass'; f.frequency.value = centre; f.Q.value = q; g.gain.value = level
+        src.connect(f).connect(g).connect(dest); src.start(t)
+      }
+      const wood = (d, f, at = 0, level = 0.5) => { tone(d, f, { at, partials: [[1, 1], [2.57, 0.35], [4.1, 0.12]], decay: 0.09, level }); knock(d, f * 2.2, { at, level: level * 0.25 }) }
+
+      const SOUNDS = {
+        button: { title: 'Main button', note: 'Check, Continue, Next Lesson: one soft press.', options: [
+          ['Wood block', 'A small hollow block, tapped softly', (d) => wood(d, 520)],
+          ['Felt mallet', 'A muted low note, round and quiet', (d) => tone(d, 330, { attack: 0.01, decay: 0.16, level: 0.55, lowpass: 1400 })],
+          ['Marimba', 'One warm wooden bar', (d) => tone(d, 440, { partials: [[1, 1], [4, 0.25], [10, 0.05]], decay: 0.35, level: 0.45 })],
+          ['Plastic pop', 'A soft falling pop, like pressing a toy key', (d) => tone(d, 700, { glide: 380, decay: 0.07, level: 0.4, lowpass: 2500 })],
+          ['Bubble', 'A quick rising bubble', (d) => tone(d, 300, { glide: 620, decay: 0.09, level: 0.4 })],
+          ['Warm thump', 'A low cushioned thump', (d) => tone(d, 160, { type: 'triangle', decay: 0.12, level: 0.6, lowpass: 900 })],
+        ] },
+        match: { title: 'Correct match', note: 'Two tiles paired right.', options: [
+          ['Two marimba notes', 'C then E, rising', (d) => { tone(d, 523.25, { partials: [[1, 1], [4, 0.2]], decay: 0.3, level: 0.4 }); tone(d, 659.25, { at: 0.08, partials: [[1, 1], [4, 0.2]], decay: 0.4, level: 0.4 }) }],
+          ['Kalimba', 'A plucked metal tine on a wooden box', (d) => tone(d, 880, { partials: [[1, 1], [5.4, 0.18], [8.9, 0.06]], attack: 0.002, decay: 0.6, level: 0.35 })],
+          ['Rising wood blocks', 'Two blocks, low then high', (d) => { wood(d, 560, 0, 0.45); wood(d, 760, 0.09, 0.45) }],
+          ['Soft bell', 'A small bell, far away', (d) => tone(d, 784, { partials: [[1, 1], [2.76, 0.18], [5.4, 0.05]], attack: 0.006, decay: 0.9, level: 0.28 })],
+          ['Felt steps', 'G then C on a felted piano', (d) => { tone(d, 392, { attack: 0.01, decay: 0.25, level: 0.45, lowpass: 1600 }); tone(d, 523.25, { at: 0.09, attack: 0.01, decay: 0.35, level: 0.45, lowpass: 1600 }) }],
+          ['Warm third', 'Two notes together, gently swelling', (d) => { tone(d, 440, { attack: 0.03, decay: 0.45, level: 0.25, lowpass: 2000 }); tone(d, 554.37, { attack: 0.03, decay: 0.45, level: 0.22, lowpass: 2000 }) }],
+        ] },
+        slot: { title: 'Word tile slots in', note: 'A chip landing in the sentence.', options: [
+          ['Low wood tap', 'A small block set down', (d) => wood(d, 300, 0, 0.45)],
+          ['Soft snap', 'A plastic piece clicking into place, muffled', (d) => { knock(d, 1500, { length: 0.015, level: 0.08 }); tone(d, 900, { glide: 600, decay: 0.04, level: 0.25, lowpass: 2200 }) }],
+          ['Felt drop', 'A tile dropped on cloth', (d) => tone(d, 220, { glide: 170, decay: 0.08, level: 0.55, lowpass: 1000 })],
+          ['Domino', 'Two quick taps, close together', (d) => { wood(d, 280, 0, 0.35); wood(d, 340, 0.025, 0.3) }],
+          ['Pebble', 'A small stone set on a table', (d) => { tone(d, 1200, { glide: 900, decay: 0.04, level: 0.18 }); tone(d, 180, { decay: 0.06, level: 0.35, lowpass: 600 }) }],
+          ['Soft plop', 'A gentle falling plop', (d) => tone(d, 400, { glide: 250, decay: 0.07, level: 0.45, lowpass: 1500 })],
+        ] },
+      }
+      const picked = { button: 0, match: 0, slot: 0 }
+      const play = (kind, i = picked[kind]) => SOUNDS[kind].options[i][2](out())
+
+      const root = document.getElementById('sections')
+      for (const [kind, s] of Object.entries(SOUNDS)) {
+        const sec = document.createElement('section')
+        sec.innerHTML = `<h2>${s.title}</h2><p class="note">${s.note}</p><div class="grid" role="radiogroup" aria-label="${s.title}"></div>`
+        const grid = sec.querySelector('.grid')
+        s.options.forEach(([name, desc], i) => {
+          const id = `${kind}-${i}`
+          const row = document.createElement('div')
+          row.className = `opt${i === 0 ? ' picked' : ''}`
+          row.innerHTML = `<button aria-label="Play ${name}">▶</button><label><input type="radio" name="${kind}" id="${id}" ${i === 0 ? 'checked' : ''} hidden />${i + 1}. ${name}<small>${desc}</small></label>`
+          row.querySelector('button').onclick = () => play(kind, i)
+          row.querySelector('label').onclick = () => { picked[kind] = i; grid.querySelectorAll('.opt').forEach((o, k) => o.classList.toggle('picked', k === i)); play(kind, i) }
+          grid.append(row)
+        })
+        root.append(sec)
+      }
+
+      document.getElementById('check').onclick = () => play('button')
+      // Match pairs: French on the left, English on the right.
+      const pairs = [['chat', 'cat'], ['maison', 'house'], ['pain', 'bread'], ['eau', 'water']]
+      const tiles = document.getElementById('tiles')
+      let sel = null
+      for (const [fr, en] of pairs) for (const [side, word] of [['fr', fr], ['en', en]]) {
+        const b = document.createElement('button'); b.className = 'tile'; b.textContent = word; b.dataset.side = side; b.dataset.pair = fr
+        b.onclick = () => {
+          if (!sel || sel.dataset.side === side) { sel?.classList.remove('sel'); sel = b; b.classList.add('sel'); return }
+          if (sel.dataset.pair === b.dataset.pair) { play('match'); sel.classList.add('done'); b.classList.add('done') }
+          sel.classList.remove('sel'); sel = null
+        }
+        tiles.append(b)
+      }
+      // Build the sentence: tap a chip and it slots into the answer; tap it there to send it back.
+      const answer = document.getElementById('answer'), bank = document.getElementById('bank')
+      for (const w of ['Je', 'mange', 'du', 'pain']) {
+        const b = document.createElement('button'); b.className = 'chip'; b.textContent = w
+        b.onclick = () => { if (b.parentElement === bank) { answer.append(b); play('slot') } else bank.append(b) }
+        bank.append(b)
+      }
+    </script>
+  </body>
+</html>

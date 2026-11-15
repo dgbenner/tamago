@@ -778,3 +778,12 @@ Part 3, Lingua Libre recordings:
 - Audits on Part 6: word audit 0 early and 0 over 4 (3,084 lessons); every-lesson check 0 issues (31,537 questions). npm test 191 pass.
 - All 13 A1 tasks now have circles (T06 and T10 in Part 5; T11 in Parts 5 and 6). The A1 final check after Part 6 is the mock DELF A1.
 - Quality pass for Fable: _review/french-part6-candidates.md (325 candidates, 155 drafts, 2 same text, 81 covered) and _review/french-part6-drafts.md. Nothing swapped.
+
+## 2026-11-15: No gating, no locks, pass toast, equivalent answers, Sound Lab (all courses)
+
+- Pass mark 60% (was 70%); under it the lesson doesn't count and the learner goes home, nothing blocked.
+- Every live circle and built part opens; circles ahead of the learner faded and desaturated; an early circle introduces the earlier words its sentences use (lessonScope early). Part cards open their part. Checkpoints, part reviews, Brush-Ups and the final check always available.
+- Pass toast: circle name and a phrase per band (pass-phrases.js), green with white text; none under 60%.
+- Equivalent answers at build time (scripts/lib/equivalents.mjs): 1,601 added (French 772, Spanish 228, German 338, Italian 104, Portuguese 159).
+- Sound Lab at /lab/sounds (dev only), Web Audio, six options each for three sounds; Sounds setting added, unused for now.
+- Tests: pass mark 60%, early scope, pass phrases, equivalents.

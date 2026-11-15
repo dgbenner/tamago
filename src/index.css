@@ -329,6 +329,11 @@ button.chip-drag {
   .toast-info { background: var(--toast-info-bg); color: var(--toast-info-ink); border-color: color-mix(in srgb, var(--toast-info-ink) 25%, transparent); }
   .toast-success { background: var(--toast-success-bg); color: var(--toast-success-ink); border-color: color-mix(in srgb, var(--toast-success-ink) 25%, transparent); }
   .toast-warning { background: var(--toast-warning-bg); color: var(--toast-warning-ink); border-color: color-mix(in srgb, var(--toast-warning-ink) 25%, transparent); }
+  /* Ahead of the learner (no locks, Dan 2026-11-15): faded and desaturated, still tappable. */
+  .circle-early .circle-disc, .circle-early > span, .part-early { opacity: 0.55; filter: saturate(0.15); }
+  /* A passed lesson (Dan, 2026-11-15): green with white text, larger, so it reads at a glance; #15803d on white text is
+     5.0:1 (AA), the same in both themes. */
+  .toast-pass { background: #15803d; color: #fff; border-color: #116b33; @apply text-base font-semibold; }
   .toast-error { background: var(--toast-error-bg); color: var(--toast-error-ink); border-color: color-mix(in srgb, var(--toast-error-ink) 25%, transparent); }
   /* The tool strip scrolls sideways without a visible bar. */
   .no-scrollbar {

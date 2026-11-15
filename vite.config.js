@@ -56,6 +56,17 @@ function voiceLabSave() {
   }
 }
 
+// Sound Lab (Dan, 2026-11-15; dev server only): /lab/sounds serves lab/sounds/index.html. Never part of a build.
+function soundLab() {
+  return {
+    name: 'tamago-sound-lab',
+    apply: 'serve',
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => { if (/^\/lab\/sounds\/?(\?.*)?$/.test(req.url)) req.url = '/lab/sounds/index.html'; next() })
+    },
+  }
+}
+
 // StatCounter (Dan, 2026-11-14; project "Tamago Dev", 13366867): added only to Cloudflare's builds (CF_PAGES is set
 // there), so local runs, test builds and the smoke test's own builds count nothing. Invisible counter, no cookies
 // banner needed by the app itself.
@@ -77,7 +88,7 @@ function statCounter() {
 const COURSE_FILE = readFileSync('scripts/lib/course.mjs', 'utf8')
 const WORKBOOKS = { fr: COURSE_FILE.match(/tamago-data-(v\d+)\.xlsx/)?.[1] ?? '', es: COURSE_FILE.match(/tamago-es-data-(v\d+)\.xlsx/)?.[1] ?? '', de: COURSE_FILE.match(/tamago-de-data-(v\d+)\.xlsx/)?.[1] ?? '', it: COURSE_FILE.match(/tamago-it-data-(v\d+)\.xlsx/)?.[1] ?? '', pt: COURSE_FILE.match(/tamago-pt-data-(v\d+)\.xlsx/)?.[1] ?? '' }
 export default defineConfig({
-  plugins: [react(), tailwindcss(), serviceWorker(), voiceLabSave(), statCounter()],
+  plugins: [react(), tailwindcss(), serviceWorker(), voiceLabSave(), soundLab(), statCounter()],
   // Which site this build is for (Cloudflare Pages sets CF_PAGES_BRANCH): main is the stable site, dev the working one.
   define: { __BUILD_TIME__: JSON.stringify(new Date().toISOString()), __WORKBOOKS__: JSON.stringify(WORKBOOKS), __DEPLOY_BRANCH__: JSON.stringify(process.env.CF_PAGES_BRANCH ?? '') },
 })

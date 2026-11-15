@@ -2213,5 +2213,837 @@
     "source_id": "13895700",
     "status": "live",
     "source_owner": "Guybrush88"
+  },
+  {
+    "answer_id": "AE00001",
+    "sentence_id": "S2007",
+    "direction": "fr_to_en",
+    "answer": "Here is the doctor.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00002",
+    "sentence_id": "S3005",
+    "direction": "fr_to_en",
+    "answer": "How are you getting on?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00003",
+    "sentence_id": "S3006",
+    "direction": "fr_to_en",
+    "answer": "How are you getting on?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00004",
+    "sentence_id": "S3007",
+    "direction": "fr_to_en",
+    "answer": "Are you doing fine?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00005",
+    "sentence_id": "S3007",
+    "direction": "fr_to_en",
+    "answer": "Are you all right?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00006",
+    "sentence_id": "S3007",
+    "direction": "fr_to_en",
+    "answer": "Are you okay?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00007",
+    "sentence_id": "S3012",
+    "direction": "fr_to_en",
+    "answer": "Are you doing fine?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00008",
+    "sentence_id": "S3012",
+    "direction": "fr_to_en",
+    "answer": "Are you okay?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00009",
+    "sentence_id": "S3029",
+    "direction": "fr_to_en",
+    "answer": "Hi! Are you okay?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00010",
+    "sentence_id": "S4030",
+    "direction": "fr_to_en",
+    "answer": "Are you enjoying it?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00011",
+    "sentence_id": "S10004",
+    "direction": "fr_to_en",
+    "answer": "He is scared of his father.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00012",
+    "sentence_id": "S10004",
+    "direction": "fr_to_en",
+    "answer": "She's scared of her father.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00013",
+    "sentence_id": "S10004",
+    "direction": "fr_to_en",
+    "answer": "He's scared of his father.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00014",
+    "sentence_id": "S13003",
+    "direction": "fr_to_en",
+    "answer": "I like the color red.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00015",
+    "sentence_id": "S13005",
+    "direction": "fr_to_en",
+    "answer": "I like the colour white.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00016",
+    "sentence_id": "S13014",
+    "direction": "fr_to_en",
+    "answer": "Do you like the yellow color?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00017",
+    "sentence_id": "S13021",
+    "direction": "fr_to_en",
+    "answer": "I like the green color.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00018",
+    "sentence_id": "S13021",
+    "direction": "fr_to_en",
+    "answer": "I like the color green.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00019",
+    "sentence_id": "S13022",
+    "direction": "fr_to_en",
+    "answer": "I like the colour blue.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00020",
+    "sentence_id": "S13023",
+    "direction": "fr_to_en",
+    "answer": "I like the color yellow.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00021",
+    "sentence_id": "S13028",
+    "direction": "fr_to_en",
+    "answer": "What color is it?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00022",
+    "sentence_id": "S14001",
+    "direction": "en_to_fr",
+    "answer": "È sabato e domani è domenica oggi.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00023",
+    "sentence_id": "S14004",
+    "direction": "fr_to_en",
+    "answer": "What is the date today?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00024",
+    "sentence_id": "S14004",
+    "direction": "fr_to_en",
+    "answer": "What's the date today?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00025",
+    "sentence_id": "S14007",
+    "direction": "en_to_fr",
+    "answer": "È domenica oggi.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00026",
+    "sentence_id": "S14008",
+    "direction": "fr_to_en",
+    "answer": "Tomorrow, it is Sunday.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00027",
+    "sentence_id": "S14008",
+    "direction": "en_to_fr",
+    "answer": "È domenica domani.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00028",
+    "sentence_id": "S14009",
+    "direction": "fr_to_en",
+    "answer": "It's Monday today.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00029",
+    "sentence_id": "S14009",
+    "direction": "fr_to_en",
+    "answer": "Today, it is Monday.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00030",
+    "sentence_id": "S14009",
+    "direction": "en_to_fr",
+    "answer": "È lunedì oggi.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00031",
+    "sentence_id": "S14010",
+    "direction": "fr_to_en",
+    "answer": "Today, it's Saturday.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00032",
+    "sentence_id": "S14010",
+    "direction": "en_to_fr",
+    "answer": "È sabato oggi.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00033",
+    "sentence_id": "S14011",
+    "direction": "fr_to_en",
+    "answer": "Today, it's Monday.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00034",
+    "sentence_id": "S14011",
+    "direction": "fr_to_en",
+    "answer": "Today, it is Monday.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00035",
+    "sentence_id": "S14011",
+    "direction": "en_to_fr",
+    "answer": "Oggi, è lunedì.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00036",
+    "sentence_id": "S14017",
+    "direction": "fr_to_en",
+    "answer": "This week, I'm on holiday.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00037",
+    "sentence_id": "S14017",
+    "direction": "fr_to_en",
+    "answer": "This week, I am on holiday.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00038",
+    "sentence_id": "S14017",
+    "direction": "fr_to_en",
+    "answer": "I'm on vacation this week.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00039",
+    "sentence_id": "S14017",
+    "direction": "fr_to_en",
+    "answer": "I am on vacation this week.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00040",
+    "sentence_id": "S14017",
+    "direction": "fr_to_en",
+    "answer": "This week, I'm on vacation.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00041",
+    "sentence_id": "S14017",
+    "direction": "fr_to_en",
+    "answer": "This week, I am on vacation.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00042",
+    "sentence_id": "S15001",
+    "direction": "fr_to_en",
+    "answer": "On Sunday, I don't go to school.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00043",
+    "sentence_id": "S15002",
+    "direction": "fr_to_en",
+    "answer": "On Sunday, I don't go to school.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00044",
+    "sentence_id": "S15004",
+    "direction": "fr_to_en",
+    "answer": "Go to the store.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00045",
+    "sentence_id": "S15012",
+    "direction": "fr_to_en",
+    "answer": "Where is the shop?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00046",
+    "sentence_id": "S15013",
+    "direction": "fr_to_en",
+    "answer": "Do you have a shop?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00047",
+    "sentence_id": "S33026",
+    "direction": "fr_to_en",
+    "answer": "What is your name?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00048",
+    "sentence_id": "S33026",
+    "direction": "fr_to_en",
+    "answer": "What's its name?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00049",
+    "sentence_id": "S52001",
+    "direction": "fr_to_en",
+    "answer": "Soccer is an old game.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00050",
+    "sentence_id": "S52029",
+    "direction": "fr_to_en",
+    "answer": "It's a photograph.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00051",
+    "sentence_id": "S53022",
+    "direction": "fr_to_en",
+    "answer": "Do you like the theatre?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00052",
+    "sentence_id": "S53028",
+    "direction": "fr_to_en",
+    "answer": "I'm on holiday.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00053",
+    "sentence_id": "S53031",
+    "direction": "fr_to_en",
+    "answer": "She's on holiday.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00054",
+    "sentence_id": "S53035",
+    "direction": "fr_to_en",
+    "answer": "I'm here on holiday.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00055",
+    "sentence_id": "S53036",
+    "direction": "fr_to_en",
+    "answer": "It's a new film theater.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00056",
+    "sentence_id": "S53036",
+    "direction": "fr_to_en",
+    "answer": "It's a new movie theatre.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00057",
+    "sentence_id": "S53038",
+    "direction": "fr_to_en",
+    "answer": "This isn't a theatre.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00058",
+    "sentence_id": "S2101",
+    "direction": "fr_to_en",
+    "answer": "Here is the man.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00059",
+    "sentence_id": "S3101",
+    "direction": "fr_to_en",
+    "answer": "You are welcome!",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00060",
+    "sentence_id": "S3104",
+    "direction": "fr_to_en",
+    "answer": "No, thanks.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00061",
+    "sentence_id": "S3112",
+    "direction": "fr_to_en",
+    "answer": "I'm doing well, thank you.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00062",
+    "sentence_id": "S3112",
+    "direction": "fr_to_en",
+    "answer": "I'm fine, thanks.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00063",
+    "sentence_id": "S3112",
+    "direction": "fr_to_en",
+    "answer": "I am fine, thank you.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00064",
+    "sentence_id": "S3112",
+    "direction": "fr_to_en",
+    "answer": "I am doing well, thank you.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00065",
+    "sentence_id": "S3114",
+    "direction": "fr_to_en",
+    "answer": "I am not well.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00066",
+    "sentence_id": "S6101",
+    "direction": "fr_to_en",
+    "answer": "Here are the children.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00067",
+    "sentence_id": "S6102",
+    "direction": "fr_to_en",
+    "answer": "Here are the books.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00068",
+    "sentence_id": "S6104",
+    "direction": "fr_to_en",
+    "answer": "Here are the men.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00069",
+    "sentence_id": "S52102",
+    "direction": "fr_to_en",
+    "answer": "I like football.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00070",
+    "sentence_id": "S33107",
+    "direction": "fr_to_en",
+    "answer": "I do not know.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00071",
+    "sentence_id": "S33107",
+    "direction": "fr_to_en",
+    "answer": "Dunno.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00072",
+    "sentence_id": "S33107",
+    "direction": "fr_to_en",
+    "answer": "I don't know that.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00073",
+    "sentence_id": "S33108",
+    "direction": "fr_to_en",
+    "answer": "Yes, I know it.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00074",
+    "sentence_id": "S10101",
+    "direction": "fr_to_en",
+    "answer": "This is my home.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00075",
+    "sentence_id": "S10106",
+    "direction": "fr_to_en",
+    "answer": "Here are my friends.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00076",
+    "sentence_id": "S11101",
+    "direction": "fr_to_en",
+    "answer": "I am Tom.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00077",
+    "sentence_id": "S11102",
+    "direction": "fr_to_en",
+    "answer": "They are in the kitchen.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00078",
+    "sentence_id": "S11102",
+    "direction": "fr_to_en",
+    "answer": "I am in the kitchen.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00079",
+    "sentence_id": "S11103",
+    "direction": "fr_to_en",
+    "answer": "She's in the garden.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00080",
+    "sentence_id": "S53103",
+    "direction": "fr_to_en",
+    "answer": "Where is the film theater?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00081",
+    "sentence_id": "S53103",
+    "direction": "fr_to_en",
+    "answer": "Where is the movie theatre?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00082",
+    "sentence_id": "S53104",
+    "direction": "fr_to_en",
+    "answer": "I like the films.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00083",
+    "sentence_id": "S53105",
+    "direction": "fr_to_en",
+    "answer": "Where is the theatre?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00084",
+    "sentence_id": "S13107",
+    "direction": "fr_to_en",
+    "answer": "Yeah, I like that.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00085",
+    "sentence_id": "S14102",
+    "direction": "fr_to_en",
+    "answer": "Today, I'm fine.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00086",
+    "sentence_id": "S14102",
+    "direction": "en_to_fr",
+    "answer": "Sto bene oggi.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00087",
+    "sentence_id": "S15104",
+    "direction": "fr_to_en",
+    "answer": "I go to school on a bus.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00088",
+    "sentence_id": "S5203",
+    "direction": "fr_to_en",
+    "answer": "I'm not a tomcat.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00089",
+    "sentence_id": "S5204",
+    "direction": "fr_to_en",
+    "answer": "I'm not a tomcat.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00090",
+    "sentence_id": "S8202",
+    "direction": "fr_to_en",
+    "answer": "We have a big yard.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00091",
+    "sentence_id": "S9202",
+    "direction": "fr_to_en",
+    "answer": "The kids are hungry.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00092",
+    "sentence_id": "S33202",
+    "direction": "fr_to_en",
+    "answer": "This one is for Tom.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00093",
+    "sentence_id": "S10203",
+    "direction": "fr_to_en",
+    "answer": "I am a mother.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00094",
+    "sentence_id": "S11201",
+    "direction": "fr_to_en",
+    "answer": "Why are they here?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00095",
+    "sentence_id": "S11209",
+    "direction": "fr_to_en",
+    "answer": "Whose horse is this?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00096",
+    "sentence_id": "S53204",
+    "direction": "fr_to_en",
+    "answer": "We are on vacation.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00097",
+    "sentence_id": "S53204",
+    "direction": "fr_to_en",
+    "answer": "We're on holiday.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00098",
+    "sentence_id": "S53204",
+    "direction": "fr_to_en",
+    "answer": "We are on holiday.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00099",
+    "sentence_id": "S13208",
+    "direction": "fr_to_en",
+    "answer": "I like the colour of this car.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00100",
+    "sentence_id": "S14201",
+    "direction": "fr_to_en",
+    "answer": "I am hungry now.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00101",
+    "sentence_id": "S14201",
+    "direction": "en_to_fr",
+    "answer": "Ho fame adesso.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00102",
+    "sentence_id": "S14202",
+    "direction": "fr_to_en",
+    "answer": "Why are you sad now?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00103",
+    "sentence_id": "S15201",
+    "direction": "fr_to_en",
+    "answer": "I'm not going to the cinema tomorrow.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00104",
+    "sentence_id": "S15201",
+    "direction": "en_to_fr",
+    "answer": "Io non vado al cinema domani.",
+    "source": "equivalent: course_order",
+    "status": "live"
   }
 ]

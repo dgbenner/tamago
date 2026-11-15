@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useId, useRef, useState } from 'react'
 import { LogoInline, SushiMark } from './Logo.jsx'
-import { IconBack, IconBars, IconBook, IconCode, IconCheckered, IconClose, IconComment, IconForward, IconGear, IconLock, IconRepeat, IconStudy, IconVerb } from './icons.jsx'
+import { IconBack, IconBars, IconBook, IconCode, IconCheckered, IconClose, IconComment, IconForward, IconGear, IconRepeat, IconStudy, IconVerb } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
 import CircleNode from './CircleNode.jsx'
@@ -12,10 +12,10 @@ import { GrammarNoteBody } from './GrammarNote.jsx'
 // Tapping an open circle goes straight into its lesson (Dan, 2026-11-12); the sheet stays for a locked circle (why
 // it's locked) and for Pick Your Own (choosing or changing the topic). The grammar note has its own small icon.
 function Node({ node, onPick, onTestPass, onNote }) {
-  const { unit, open, circle, strength, topic, marker } = node
+  const { unit, open, early, circle, strength, topic, marker } = node
   return (
     <CircleNode title={unit.title} icon={unit.icon_file ? `/sushi/${unit.icon_group}/${unit.icon_file}` : null}
-      locked={!open} lessonsDone={circle.done} lessonsTotal={circle.total} recall={strength?.items > 0 ? strength.recall : null} marker={marker}
+      locked={!open} early={open && early} lessonsDone={circle.done} lessonsTotal={circle.total} recall={strength?.items > 0 ? strength.recall : null} marker={marker}
       onNote={onNote} onPick={() => onPick(node)} onTestPass={onTestPass && node.open && !node.topic?.choosing ? () => onTestPass(node.unit.unit_id) : null} />
   )
 }
@@ -261,14 +261,14 @@ function PartEnd({ part, onReview, onPartView, onJumpPart }) {
       )}
       {/* The end of the part: a plain line (Dan, 2026-11-11). */}
       <li className="w-full" aria-hidden="true"><span className="block h-0.5 w-full bg-line" /></li>
-      {part.cards?.length > 1 && <li className="w-full"><PartCarousel key={part.n} part={part} onJumpPart={onJumpPart} /></li>}
+      {part.cards?.length > 1 && <li className="w-full"><PartCarousel key={part.n} part={part} onJumpPart={onJumpPart} onPartView={onPartView} /></li>}
     </>
   )
 }
 // Every part, as a carousel (Dan, 2026-11-11): it opens on the part after this one and steps back to earlier ones; one card on screen, left and right arrows, a swipe, or the
 // arrow keys while it has focus. Each card: the part's title, summary and whether it's open. With Testing Shortcuts
 // on, each card also has Dev: Jump Here. The tree's own test shortcuts ignore arrows and swipes in here.
-function PartCarousel({ part, onJumpPart }) {
+function PartCarousel({ part, onJumpPart, onPartView }) {
   const cards = part.cards
   const [at, setAt] = useState(part.start)
   const i = Math.min(at, cards.length - 1)
@@ -296,13 +296,14 @@ function PartCarousel({ part, onJumpPart }) {
             {cards.map((c, k) => {
               const locked = !(c.unlocked && c.built)
               return (
-                <div key={c.n} role="group" aria-roledescription="slide" aria-label={`Part ${c.n} of ${part.total}${locked ? ', locked' : ''}`} aria-hidden={k !== i} inert={k !== i}
-                  className="flex w-full shrink-0 flex-col gap-1 rounded-2xl border-2 border-line bg-surface p-4">
+                <div key={c.n} role="group" aria-roledescription="slide" aria-label={`Part ${c.n} of ${part.total}${locked ? ', ahead of where you are' : ''}`} aria-hidden={k !== i} inert={k !== i}
+                  className={`relative flex w-full shrink-0 flex-col gap-1 rounded-2xl border-2 border-line bg-surface p-4 ${locked && c.built ? 'part-early' : ''}`}>
+                  {/* No locks (Dan, 2026-11-15): a built part opens from its card; one ahead is faded but opens too. */}
+                  {c.built && c.n !== part.n && onPartView && <button onClick={() => onPartView(c.n)} aria-label={`Open Part ${c.n}: ${c.title}`} className="absolute inset-0 rounded-2xl" />}
                   {/* Top, centred (craft review, 2026-11-14): which part this is and where it stands, then a pill per part
                       of A1, green up to this one, so the pills read as "part 2 of 6". */}
                   <div className="mb-1 flex flex-col items-center gap-1.5 text-sm text-muted" aria-hidden="true">
                     <span className="flex items-center gap-1.5">
-                      {locked && <span className="[&_svg]:size-4"><IconLock /></span>}
                       A1 · Part {c.n} of {part.total}{c.n === part.n ? ' · This Part' : c.n === part.n + 1 ? ' · Next' : c.n < part.n ? ' · Earlier' : ''}
                     </span>
                     <span className="flex gap-1">
@@ -313,7 +314,7 @@ function PartCarousel({ part, onJumpPart }) {
                     <p className="text-lg font-semibold">{c.title}</p>
                     {/* Dev: tiny, half strength, no box; fainter and inactive where the part has no circles yet. */}
                     {onJumpPart && (c.built
-                      ? <button data-jump onClick={() => onJumpPart(c.n)} className="dev-tiny shrink-0">Dev: Jump Here</button>
+                      ? <button data-jump onClick={() => onJumpPart(c.n)} className="dev-tiny relative z-10 shrink-0">Dev: Jump Here</button>
                       : <span className="dev-tiny dev-tiny-off shrink-0" aria-hidden="true">Dev: Jump Here</span>)}
                   </div>
                   <p className="text-sm text-muted">{c.summary}</p>

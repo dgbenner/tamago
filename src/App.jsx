@@ -35,6 +35,7 @@ import { makeA1Question } from './lib/a1types.js'
 import { A1_SAMPLES } from './dev/a1-samples.js'
 import { firstCircleMarker } from './screens/CircleNode.jsx'
 import { EXAMS, finalItems, finalLine, finalScores } from './lib/finalcheck.js'
+import { passPhrase } from './lib/pass-phrases.js'
 import { listeningFrom, requestGenerated, sentencesFrom } from './lib/generate.js'
 import { tokenize } from '../scripts/lib/french.mjs'
 
@@ -49,6 +50,7 @@ const DEFAULT_SETTINGS = {
   test_shortcuts: 'on', // Dan only for now; turn the default off before testers (Phase 4)
   developer: 'on', // the Developer entry in Tools; turn the default off before testers (#developer always opens it)
   points_and_streaks: defaults.points_and_streaks ?? 'on', weekly_goal: 'none',
+  sounds: 'on', // button and answer sounds (Dan, 2026-11-15): the setting is ready; no sounds play yet (/lab/sounds)
 }
 // Monday-start week, for the weekly goal.
 const weekStart = (d = new Date()) => { const x = new Date(d); x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); return x.toLocaleDateString('en-CA') }
@@ -348,6 +350,9 @@ export default function App() {
     if (!after) return true
     return layout.filter((t) => t.row === Number(after[1])).every((t) => progressOf(t.unit_id).round_reached >= 1)
   }
+  // No locks (Dan, 2026-11-15): every live circle and every built part can be opened. isOpen keeps the old meaning,
+  // "reached in order"; a circle that isn't is shown faded and opened early (lessonScope early).
+  const isLive = (unitId) => String(tables.units.find((u) => u.unit_id === unitId)?.status).startsWith('live')
   const lockedByOf = (unitId) => {
     const after = String(rowOf(unitId)?.unlocks_after ?? '').match(/^row (\d+)$/)
     // By title: learners don't count units (Dan's test notes).
@@ -371,7 +376,7 @@ export default function App() {
     if (unitId !== currentUnit) { setCurrentUnit(unitId); putKv('current_unit', unitId) }
     const round = roundOf(unitId)
     const lesson = buildLesson(unitContent(unitId), {
-      round, unit_id: unitId, seen: roundSeen.current[unitId]?.[round] ?? {}, known: seenWords.current,
+      round, unit_id: unitId, seen: roundSeen.current[unitId]?.[round] ?? {}, known: seenWords.current, early: !isOpen(unitId),
       settings: lessonModes(), carry: carry.current[0]?.unit_id === unitId ? carry.current[0] : null,
     })
     carry.current = []
@@ -541,7 +546,7 @@ export default function App() {
   const catchUps = (tables.catch_up ?? []).filter((c) => layout.some((t) => t.row === c.after_row)).map((c) => {
     // Everything waiting, not just one session's ten: the badge and the caption count it all (Dan, 2026-11-14).
     const items = catchUpForSlot(c, Infinity)
-    const available = layout.filter((t) => t.row === c.after_row).some((t) => isOpen(t.unit_id))
+    const available = layout.filter((t) => t.row === c.after_row).some((t) => isLive(t.unit_id))
     // Done (green ring): open, nothing left to brush up, and lessons done above it (an untouched part isn't done).
     const started = [...catchUpUnits(c.after_row)].some((u) => progressOf(u).lessons_done > 0)
     return { ...c, afterRow: c.after_row, available, done: available && started && items.length === 0,
@@ -575,7 +580,7 @@ export default function App() {
     return { topic: tables.units.find((u) => u.unit_id === currentUnit)?.title ?? 'free', vocabulary: met < 80 ? 'mine' : 'few', speed: met < 60 ? 'slow' : 'normal', corrections: 'end' }
   }
   const partnerTopics = tables.units.filter((u) => onPath(u) && isOpen(u.unit_id) && u.is_topic_pick !== 'node').sort((a, b) => a.order - b.order).map((u) => u.title)
-  const finalInfo = { exam: EXAMS[course.id], available: SHOT_UNLOCK || (mainUnitIds.length > 0 && mainUnitIds.every((u) => progressOf(u).round_reached >= 1)), last: finalCheck }
+  const finalInfo = { exam: EXAMS[course.id], available: mainUnitIds.length > 0, last: finalCheck }
   const startCheckpoint = (row) => {
     const ids = unitsUpTo(row).flatMap(itemsOf)
     const weakestFirst = weakest(ids, cards, 10)
@@ -786,9 +791,9 @@ export default function App() {
   // Testing Shortcuts on the tree: the circle's next lesson, built as it would be and passed without being played. Its
   // questions count as seen and as answered right, marked as tests, so the circle moves on exactly as after a lesson.
   const testPass = (unitId) => {
-    if (!isOpen(unitId) || progressOf(unitId).round_reached >= 5) return
+    if (!isLive(unitId) || progressOf(unitId).round_reached >= 5) return
     const round = roundOf(unitId)
-    const s = buildLesson(unitContent(unitId), { round, unit_id: unitId, seen: roundSeen.current[unitId]?.[round] ?? {}, known: seenWords.current, settings: lessonModes() })
+    const s = buildLesson(unitContent(unitId), { round, unit_id: unitId, seen: roundSeen.current[unitId]?.[round] ?? {}, known: seenWords.current, settings: lessonModes(), early: !isOpen(unitId) })
     const graded = s.queue.slice(0, s.size).filter((q) => !q.speaking && !q.ungraded).length
     for (const q of s.queue.slice(0, s.size)) {
       for (const seg of q.segments ?? []) if (seg.word_id) seenWords.current.add(seg.word_id)
@@ -904,13 +909,12 @@ export default function App() {
         score: s.firstCorrect, size: s.graded ?? s.size, passed, started_at: s.started_at ? new Date(s.started_at).toISOString() : null, finished_at: new Date().toISOString() }).catch(() => {})
       saveSoon(account.auth, course.id, account.user)
     }
-    if (!passed) {
-      setEnding({ line: `${s.firstCorrect} of ${s.graded ?? s.size}. Pass is ${mark}, so this lesson repeats in new question types.`, retry: s })
-      return
-    }
+    // Under the pass mark (60%) the lesson doesn't count toward its circle, which asks for it again later; back home,
+    // no toast, nothing blocked (Dan, 2026-11-15). A pass names the circle and a phrase for the score's band.
+    if (!passed) { setScreen('home'); return }
     recordPass(s)
-    // A passed lesson goes straight back to home; its score shows there as one line that fades by itself (Dan, 2026-11-10).
-    toast('success', `${s.firstCorrect} of ${s.graded ?? s.size}`)
+    const share = (s.graded ?? s.size) ? s.firstCorrect / (s.graded ?? s.size) : 1
+    toast('pass', `${tables.units.find((u) => u.unit_id === s.unit_id)?.title ?? ''} · ${passPhrase(share)}`)
     setScreen('home')
   }
 
@@ -1084,14 +1088,14 @@ export default function App() {
   // The tree shows one part at a time: the part chosen in the switcher, else the part of the circle in hand.
   const partList = [...(tables.parts ?? [])].sort((a, b) => a.part - b.part)
   const lastPart = Math.max(1, ...partList.map((x) => x.part))
-  const builtParts = partList.filter((x) => partCircles(x.part).length > 0 && partUnlocked(x.part)).map((x) => x.part)
+  const builtParts = partList.filter((x) => partCircles(x.part).length > 0).map((x) => x.part)
   const shownPart = builtParts.includes(partView) ? partView : builtParts.includes(partOf(currentUnit)) ? partOf(currentUnit) : (builtParts.at(-1) ?? 1)
   const shownLayout = layout.filter((t) => partOf(t.unit_id) === shownPart)
   const nextPart = partList.find((x) => x.part === shownPart + 1)
   const partInfo = partList.length ? {
     n: shownPart, total: lastPart, title: partList.find((x) => x.part === shownPart)?.title ?? '',
     switcher: builtParts.map((n) => ({ n, title: partList.find((x) => x.part === n)?.title ?? '' })),
-    review: shownPart < lastPart ? { available: SHOT_UNLOCK || partDone(shownPart), done: partReviews[shownPart] ?? null, units: partCircles(shownPart).map((u) => tables.units.find((x) => x.unit_id === u).title) } : null,
+    review: shownPart < lastPart ? { available: true, done: partReviews[shownPart] ?? null, units: partCircles(shownPart).map((u) => tables.units.find((x) => x.unit_id === u).title) } : null,
     next: nextPart ? { n: nextPart.part, title: nextPart.title, summary: nextPart.summary, unlocked: partUnlocked(nextPart.part), built: partCircles(nextPart.part).length > 0 } : null,
     // Every part, finished and current included, for the carousel at the end of the part (Dan, 2026-11-11). It opens on
     // the part after this one (this one when it's the last); the left arrow steps back through earlier parts.
@@ -1104,10 +1108,11 @@ export default function App() {
     const id = node.is_topic_pick === 'node' ? topicChoice[node.unit_id] ?? node.unit_id : node.unit_id
     const unit = id === node.unit_id ? node : { ...tables.units.find((u) => u.unit_id === id), order: node.order, icon_group: node.icon_group, icon_file: node.icon_file } // keeps the node's dish
     const progress = progressOf(id)
-    const open = isOpen(id)
+    const open = isLive(id)
+    const early = !isOpen(id)
     const choosing = node.is_topic_pick === 'node' && id === node.unit_id
     const lessons = open && !choosing ? Math.max(unit.lesson_counts?.[roundOf(id) - 1] ?? lessonsInRound(unitContent(id), roundOf(id)), progress.lessons_done + 1) : 0
-    return { unit, progress, open, current: id === currentUnit, lesson: progress.lessons_done + 1, lessons, strength: strength(itemsOf(id), cards), lockedBy: open ? null : lockedByOf(id),
+    return { unit, progress, open, early, current: id === currentUnit, lesson: progress.lessons_done + 1, lessons, strength: strength(itemsOf(id), cards), lockedBy: open ? null : lockedByOf(id),
       circle: choosing ? { done: 0, total: 1 } : circleOf(id), marker: choosing ? null : firstMarker(id),
       topic: node.is_topic_pick === 'node' ? { choosing, packs: packsAt(node.unit_id).map((p) => ({ unit_id: p.unit_id, title: p.title, started: progressOf(p.unit_id).lessons_done > 0 })) } : null }
   }), { row: r }))
@@ -1137,7 +1142,7 @@ export default function App() {
         ...(settings.developer !== 'off' ? [{ id: 'developer', screen: 'developer', label: 'Developer', about: 'Testing controls, not part of the course', quiet: true, onOpen: () => setScreen('developer') }] : []),
       ]}
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
-      checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: SHOT_UNLOCK || unitsUpTo(row).every((u) => progressOf(u).round_reached >= 1), done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
+      checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: true, done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
       catchUps={catchUps.filter((c) => rows.some((r) => r.row === c.afterRow))} onCatchUp={startCatchUp}
       onCheckpoint={startCheckpoint} finalCheck={shownPart === lastPart ? finalInfo : null} onFinal={startFinal}
       part={partInfo} onPartView={(n) => { setPartView(n); putKv('part_view', n) }} onPartReview={() => startPartReview(shownPart)}
