@@ -8,6 +8,8 @@ export const EXAMS = {
   fr: { name: 'DELF A1', body: 'France Éducation international', samples: 'https://www.france-education-international.fr/diplome/delf-tout-public/niveau-a1/exemples-sujets' },
   es: { name: 'DELE A1', body: 'Instituto Cervantes', samples: 'https://cervantes.org/es/examenes/dele' },
   de: { name: 'Goethe-Zertifikat A1: Start Deutsch 1', body: 'Goethe-Institut', samples: 'https://www.goethe.de/de/spr/prf/ueb/pa1.html' },
+  // Italian (2026-11-14): CELI Impatto, from the Profilo's own centre; exam and link for Dan to confirm.
+  it: { name: 'CELI Impatto (A1)', body: 'Università per Stranieri di Perugia', samples: 'https://www.cvcl.it' },
 }
 
 export const PARTS = [

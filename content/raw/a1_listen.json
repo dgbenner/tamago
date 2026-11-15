@@ -232,5 +232,77 @@
     "answer": "7",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "N301",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Un café, deux euros cinquante.",
+    "answer": "2.50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N302",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Une bière, quatre euros.",
+    "answer": "4",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N303",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Le plat du jour, douze euros.",
+    "answer": "12",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N304",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Le dessert, six euros cinquante.",
+    "answer": "6.50",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N305",
+    "unit_id": "U87",
+    "kind": "number",
+    "say": "Prenez le bus numéro vingt-trois.",
+    "answer": "23",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N306",
+    "unit_id": "U87",
+    "kind": "number",
+    "say": "Le métro, ligne quatre.",
+    "answer": "4",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N307",
+    "unit_id": "U88",
+    "kind": "time",
+    "say": "L'avion part à quinze heures quarante.",
+    "answer": "15:40",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N308",
+    "unit_id": "U88",
+    "kind": "number",
+    "say": "Votre chambre, c'est la chambre trente-deux.",
+    "answer": "32",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

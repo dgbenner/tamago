@@ -350,6 +350,125 @@
       "example_sentence_ids": "S13672;S13661;S13677",
       "conjugation_lemma": "",
       "status": "live"
+    },
+    {
+      "unit_id": "U81",
+      "rule": "Boire is irregular: je bois, tu bois, il boit. Asking for a drink: un café, s'il vous plaît; du vin, de la bière (some). Thirst takes avoir: j'ai soif. At the end: l'addition, s'il vous plaît.",
+      "example_sentence_ids": "S13761;S13763;S13767",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U91",
+      "rule": "Porter is the verb for what you wear: elle porte une robe. Clothes are des vêtements; one piece is un vêtement. Adjectives agree: un joli chapeau, une jolie robe. To ask the colour: de quelle couleur est ta robe ?",
+      "example_sentence_ids": "S14963;S14961;S14965",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U26",
+      "rule": "To get attention politely: Excusez-moi or Pardon, then j'ai une question, or je peux vous poser une question ? Demander is to ask: je peux demander pourquoi ? Je vous demande pardon: I beg your pardon.",
+      "example_sentence_ids": "S14601;S14661;S14662",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U82",
+      "rule": "Hunger takes avoir: j'ai faim, tu as faim ? Ordering: je voudrais le menu, je prends le plat du jour. Saying it's good: c'est délicieux, ça a bon goût.",
+      "example_sentence_ids": "S13867;S13864;S13862",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U83",
+      "rule": "Directions: à gauche (left), à droite (right), tout droit (straight on); prenez à gauche: turn left. Là is there, là-bas over there. À côté de: next to; au coin de la rue: on the corner.",
+      "example_sentence_ids": "S13962;S13961;S13963",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U92",
+      "rule": "Linking words: si (if), donc (so), sans (without: un café sans sucre), contre (against), surtout (especially). When and how: bientôt (soon), enfin (at last), presque (almost), vite (fast), longtemps (a long time).",
+      "example_sentence_ids": "S15063;S15061;S15065",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U27",
+      "rule": "When you're lost: Excusez-moi, je suis perdu (a man), perdue (a woman). To check the way: C'est par ici ? C'est par là ? To ask for a map: il y a un plan de la ville ?",
+      "example_sentence_ids": "S14761;S14706;S14762",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U84",
+      "rule": "Directions in the vous command: traversez la rue (cross), continuez tout droit (go straight on), suivez la rue (follow). With tu: traverse, continue, suis. Le feu here is the traffic light; la place is the square.",
+      "example_sentence_ids": "S14068;S14062;S14070",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U85",
+      "rule": "Where things are: devant (in front of), derrière (behind), entre … et … (between), sous (under), en face de (opposite), vers (towards). Chez + a person is at their place: chez moi (at home), chez Paul.",
+      "example_sentence_ids": "S14164;S14161;S14169",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U93",
+      "rule": "Jouer à for a sport or game: je joue au tennis (à + le = au). Gagner (win) and perdre (lose): il gagne, il perd. Une équipe is a team; un match a game; une course a race.",
+      "example_sentence_ids": "S15161;S15165;S15162",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U86",
+      "rule": "Places in town take à la or au: je vais à la poste, à la banque, à la boulangerie, au supermarché. To ask if one is nearby: il y a une pharmacie près d'ici ? Opening times: la poste ferme à six heures.",
+      "example_sentence_ids": "S14261;S14263;S14202",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U87",
+      "rule": "Verbs of moving: marcher (walk), entrer (go in), rentrer (go home), revenir (come back: je reviens), retourner (go back). How you travel: à pied (on foot), en taxi, en bus.",
+      "example_sentence_ids": "S14365;S14361;S14370",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U94",
+      "rule": "Telling and asking: raconter une histoire (tell a story), expliquer (explain), rire (laugh: je ris), téléphoner à quelqu'un (phone someone). Introducing someone: je vous présente Marie, je vous présente mon ami Paul.",
+      "example_sentence_ids": "S15263;S15261;S15265",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U28",
+      "rule": "To say something is wrong: j'ai un problème. To ask for help: j'ai besoin d'aide (avoir besoin de: to need). To ask how bad: c'est grave ? To reassure: pas de problème, pas grave.",
+      "example_sentence_ids": "S14862;S14809;S14861",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U88",
+      "rule": "Travelling: voyager en avion (by plane), un billet (a ticket; un billet d'avion), une valise (a suitcase), à l'aéroport. To ask the time: à quelle heure part ton avion ? Mon avion part à dix heures.",
+      "example_sentence_ids": "S14425;S14462;S14461",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U89",
+      "rule": "Nouveau comes before the noun and agrees: un nouveau professeur, une nouvelle voiture. Meilleur is better or best: quel livre est le meilleur ? Facile (easy), difficile (difficult), différent and important are the same for a man or a woman except différent, différente.",
+      "example_sentence_ids": "S14561;S14510;S14562",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U95",
+      "rule": "Verbs of change: changer (change: tout change), devenir (become: ça devient difficile), décider (decide), apprendre (learn: j'apprends le français), arrêter (stop: arrête !), laisser (leave). J'espère que + a sentence: I hope that.",
+      "example_sentence_ids": "S15364;S15362;S15361",
+      "conjugation_lemma": "",
+      "status": "live"
     }
   ]
 }

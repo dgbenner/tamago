@@ -1,0 +1,1405 @@
+{
+  "unit_id": "U82",
+  "pulled_at": "2026-11-14",
+  "candidates": 36,
+  "sentences": [
+    {
+      "sentence_id": "S13801",
+      "unit_id": "U82",
+      "french": "Quel gâteau délicieux !",
+      "english": "What a tasty cake!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8457619",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13802",
+      "unit_id": "U82",
+      "french": "Ton gâteau est délicieux.",
+      "english": "Your cake is delicious.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "332301",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "TRANG",
+      "other_english": [
+        "Your cake is very delicious."
+      ]
+    },
+    {
+      "sentence_id": "S13803",
+      "unit_id": "U82",
+      "french": "Le gâteau est délicieux.",
+      "english": "The cake is delicious.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4580627",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "franlexcois",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13804",
+      "unit_id": "U82",
+      "french": "Quel est le dessert ?",
+      "english": "What's for dessert?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "839041",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "What is for dessert?"
+      ]
+    },
+    {
+      "sentence_id": "S13805",
+      "unit_id": "U82",
+      "french": "Encore de la salade ?",
+      "english": "Salad again?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6622164",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GB3",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13806",
+      "unit_id": "U82",
+      "french": "Vous prenez un dessert ?",
+      "english": "Do you want dessert?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6681405",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13807",
+      "unit_id": "U82",
+      "french": "Comment est la salade ?",
+      "english": "How is the salad?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7050273",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13808",
+      "unit_id": "U82",
+      "french": "Est-ce que la soupe est bonne ?",
+      "english": "Does the soup taste good?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4095653",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sbamsbamsbam",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13809",
+      "unit_id": "U82",
+      "french": "Est-ce que ça a bon goût ?",
+      "english": "Does it taste okay?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10529151",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13810",
+      "unit_id": "U82",
+      "french": "Voici votre menu.",
+      "english": "Here is your menu.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3414961",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13811",
+      "unit_id": "U82",
+      "french": "Ça a bon goût.",
+      "english": "It tastes good.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1067016",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "This tastes good."
+      ]
+    },
+    {
+      "sentence_id": "S13812",
+      "unit_id": "U82",
+      "french": "Mange ta soupe, s'il te plaît.",
+      "english": "Eat your soup, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5124955",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13813",
+      "unit_id": "U82",
+      "french": "Je mange ma soupe.",
+      "english": "I eat my soup.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5246634",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martin9",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13814",
+      "unit_id": "U82",
+      "french": "Tout a bon goût !",
+      "english": "Everything tastes good!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8593829",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13815",
+      "unit_id": "U82",
+      "french": "J'aime le dessert.",
+      "english": "I love dessert.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9392104",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13816",
+      "unit_id": "U82",
+      "french": "C'est délicieux, pas vrai ?",
+      "english": "It tastes very good, doesn't it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3853729",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Byna",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13818",
+      "unit_id": "U82",
+      "french": "Qui veut une autre part de gâteau ?",
+      "english": "Who wants another piece of cake?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4557498",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13819",
+      "unit_id": "U82",
+      "french": "C'est délicieux.",
+      "english": "It is delicious.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "549564",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zmoo",
+      "other_english": [
+        "It tastes great.",
+        "This tastes really good."
+      ]
+    },
+    {
+      "sentence_id": "S13821",
+      "unit_id": "U82",
+      "french": "Tout est délicieux !",
+      "english": "It is all delicious!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1284998",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13822",
+      "unit_id": "U82",
+      "french": "Prenez du gâteau.",
+      "english": "Have some cake.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11167691",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13823",
+      "unit_id": "U82",
+      "french": "Tu manges ta soupe.",
+      "english": "You eat your soup.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5246698",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martin9",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13824",
+      "unit_id": "U82",
+      "french": "Merci pour le gâteau.",
+      "english": "Thanks for the cake.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7099146",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "Thank you for the cake."
+      ]
+    },
+    {
+      "sentence_id": "S13825",
+      "unit_id": "U82",
+      "french": "Merci pour la soupe.",
+      "english": "Thanks for the soup.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8252805",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "Thank you for the soup."
+      ]
+    },
+    {
+      "sentence_id": "S13826",
+      "unit_id": "U82",
+      "french": "J'adore la soupe.",
+      "english": "I love soup.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8403256",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13827",
+      "unit_id": "U82",
+      "french": "Mange de la soupe.",
+      "english": "Eat soup.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8984242",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13828",
+      "unit_id": "U82",
+      "french": "J'adore le dessert.",
+      "english": "I love dessert.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9392108",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13829",
+      "unit_id": "U82",
+      "french": "Je pense que c'est délicieux.",
+      "english": "I think this is delicious.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1067012",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13830",
+      "unit_id": "U82",
+      "french": "Ça a vraiment bon goût !",
+      "english": "This sure tastes good!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1067019",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S13801",
+      "position": 1,
+      "surface": "Quel",
+      "word_id": "W436",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13801",
+      "position": 2,
+      "surface": "gâteau",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13801",
+      "position": 3,
+      "surface": "délicieux",
+      "word_id": "W1623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13802",
+      "position": 1,
+      "surface": "Ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13802",
+      "position": 2,
+      "surface": "gâteau",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13802",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13802",
+      "position": 4,
+      "surface": "délicieux",
+      "word_id": "W1623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13803",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13803",
+      "position": 2,
+      "surface": "gâteau",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13803",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13803",
+      "position": 4,
+      "surface": "délicieux",
+      "word_id": "W1623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13804",
+      "position": 1,
+      "surface": "Quel",
+      "word_id": "W436",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13804",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13804",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13804",
+      "position": 4,
+      "surface": "dessert",
+      "word_id": "W1618",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13805",
+      "position": 1,
+      "surface": "Encore",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13805",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13805",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13805",
+      "position": 4,
+      "surface": "salade",
+      "word_id": "W1619",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13806",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13806",
+      "position": 2,
+      "surface": "prenez",
+      "word_id": "W1609",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13806",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13806",
+      "position": 4,
+      "surface": "dessert",
+      "word_id": "W1618",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13807",
+      "position": 1,
+      "surface": "Comment",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13807",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13807",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13807",
+      "position": 4,
+      "surface": "salade",
+      "word_id": "W1619",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13808",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13808",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13808",
+      "position": 3,
+      "surface": "soupe",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13808",
+      "position": 4,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13808",
+      "position": 5,
+      "surface": "bonne",
+      "word_id": "W412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13809",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13809",
+      "position": 2,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13809",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13809",
+      "position": 4,
+      "surface": "bon",
+      "word_id": "W411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13809",
+      "position": 5,
+      "surface": "goût",
+      "word_id": "W1624",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13810",
+      "position": 1,
+      "surface": "Voici",
+      "word_id": "W205",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13810",
+      "position": 2,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13810",
+      "position": 3,
+      "surface": "menu",
+      "word_id": "W1616",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13811",
+      "position": 1,
+      "surface": "Ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13811",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13811",
+      "position": 3,
+      "surface": "bon",
+      "word_id": "W411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13811",
+      "position": 4,
+      "surface": "goût",
+      "word_id": "W1624",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13812",
+      "position": 1,
+      "surface": "Mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13812",
+      "position": 2,
+      "surface": "ta",
+      "word_id": "W425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13812",
+      "position": 3,
+      "surface": "soupe",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13812",
+      "position": 4,
+      "surface": "s'il te plaît",
+      "word_id": "W038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13813",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13813",
+      "position": 2,
+      "surface": "mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13813",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13813",
+      "position": 4,
+      "surface": "soupe",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13814",
+      "position": 1,
+      "surface": "Tout",
+      "word_id": "W1402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13814",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13814",
+      "position": 3,
+      "surface": "bon",
+      "word_id": "W411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13814",
+      "position": 4,
+      "surface": "goût",
+      "word_id": "W1624",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13815",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13815",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13815",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13815",
+      "position": 4,
+      "surface": "dessert",
+      "word_id": "W1618",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13816",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13816",
+      "position": 2,
+      "surface": "délicieux",
+      "word_id": "W1623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13816",
+      "position": 3,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13816",
+      "position": 4,
+      "surface": "vrai",
+      "word_id": "W888",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13818",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13818",
+      "position": 2,
+      "surface": "veut",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13818",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13818",
+      "position": 4,
+      "surface": "autre",
+      "word_id": "W1425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13818",
+      "position": 5,
+      "surface": "part",
+      "word_id": "W1287",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13818",
+      "position": 6,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13818",
+      "position": 7,
+      "surface": "gâteau",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13819",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13819",
+      "position": 2,
+      "surface": "délicieux",
+      "word_id": "W1623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13821",
+      "position": 1,
+      "surface": "Tout",
+      "word_id": "W1402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13821",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13821",
+      "position": 3,
+      "surface": "délicieux",
+      "word_id": "W1623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13822",
+      "position": 1,
+      "surface": "Prenez",
+      "word_id": "W1609",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13822",
+      "position": 2,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13822",
+      "position": 3,
+      "surface": "gâteau",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13823",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13823",
+      "position": 2,
+      "surface": "manges",
+      "word_id": "W052",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13823",
+      "position": 3,
+      "surface": "ta",
+      "word_id": "W425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13823",
+      "position": 4,
+      "surface": "soupe",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13824",
+      "position": 1,
+      "surface": "Merci",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13824",
+      "position": 2,
+      "surface": "pour",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13824",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13824",
+      "position": 4,
+      "surface": "gâteau",
+      "word_id": "W1621",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13825",
+      "position": 1,
+      "surface": "Merci",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13825",
+      "position": 2,
+      "surface": "pour",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13825",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13825",
+      "position": 4,
+      "surface": "soupe",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13826",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13826",
+      "position": 2,
+      "surface": "adore",
+      "word_id": "W1439",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13826",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13826",
+      "position": 4,
+      "surface": "soupe",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13827",
+      "position": 1,
+      "surface": "Mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13827",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13827",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13827",
+      "position": 4,
+      "surface": "soupe",
+      "word_id": "W1620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13828",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13828",
+      "position": 2,
+      "surface": "adore",
+      "word_id": "W1439",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13828",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13828",
+      "position": 4,
+      "surface": "dessert",
+      "word_id": "W1618",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13829",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13829",
+      "position": 2,
+      "surface": "pense",
+      "word_id": "W1442",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13829",
+      "position": 3,
+      "surface": "que",
+      "word_id": "W1401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13829",
+      "position": 4,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13829",
+      "position": 5,
+      "surface": "délicieux",
+      "word_id": "W1623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13830",
+      "position": 1,
+      "surface": "Ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13830",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13830",
+      "position": 3,
+      "surface": "vraiment",
+      "word_id": "W1412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13830",
+      "position": 4,
+      "surface": "bon",
+      "word_id": "W411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13830",
+      "position": 5,
+      "surface": "goût",
+      "word_id": "W1624",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A138021",
+      "sentence_id": "S13802",
+      "direction": "fr_to_en",
+      "answer": "Your cake is very delicious.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A138041",
+      "sentence_id": "S13804",
+      "direction": "fr_to_en",
+      "answer": "What is for dessert?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A138111",
+      "sentence_id": "S13811",
+      "direction": "fr_to_en",
+      "answer": "This tastes good.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A138191",
+      "sentence_id": "S13819",
+      "direction": "fr_to_en",
+      "answer": "It tastes great.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A138192",
+      "sentence_id": "S13819",
+      "direction": "fr_to_en",
+      "answer": "This tastes really good.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A138241",
+      "sentence_id": "S13824",
+      "direction": "fr_to_en",
+      "answer": "Thank you for the cake.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A138251",
+      "sentence_id": "S13825",
+      "direction": "fr_to_en",
+      "answer": "Thank you for the soup.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

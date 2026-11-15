@@ -30,5 +30,21 @@
     "fields_json": "[{\"key\":\"name\",\"label\":\"Prénom\",\"rule\":\"text\",\"answer\":\"Marie\"},{\"key\":\"up\",\"label\":\"Lever\",\"rule\":\"text\",\"answer\":\"7h\",\"also\":[\"7:00\",\"7h00\",\"sept heures\",\"7\"]},{\"key\":\"start\",\"label\":\"Début du travail\",\"rule\":\"text\",\"answer\":\"9h\",\"also\":[\"9:00\",\"9h00\",\"neuf heures\",\"9\"]},{\"key\":\"end\",\"label\":\"Fin du travail\",\"rule\":\"text\",\"answer\":\"17h\",\"also\":[\"17:00\",\"5h\",\"5:00\",\"cinq heures\",\"17h00\"]}]",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Bonjour, je m'appelle Paul Martin. Je voudrais une chambre pour deux nuits, du dix au douze mai. Mon numéro, c'est le zéro six, onze, quinze, dix-neuf, vingt.",
+    "fields_json": "[{\"key\":\"last\",\"label\":\"Nom\",\"rule\":\"text\",\"answer\":\"Martin\"},{\"key\":\"nights\",\"label\":\"Nuits\",\"rule\":\"number\",\"answer\":\"2\"},{\"key\":\"from\",\"label\":\"Arrivée\",\"rule\":\"text\",\"answer\":\"10 mai\",\"also\":[\"10/5\",\"le 10 mai\",\"dix mai\"]},{\"key\":\"tel\",\"label\":\"Téléphone\",\"rule\":\"phone\",\"answer\":\"06 11 15 19 20\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F302",
+    "unit_id": "U82",
+    "card": "Une table pour quatre personnes, samedi soir à huit heures, au nom de Marie Dubois.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Nom\",\"rule\":\"text\",\"answer\":\"Dubois\"},{\"key\":\"people\",\"label\":\"Personnes\",\"rule\":\"number\",\"answer\":\"4\"},{\"key\":\"day\",\"label\":\"Jour\",\"rule\":\"text\",\"answer\":\"samedi\",\"also\":[\"Samedi\"]},{\"key\":\"time\",\"label\":\"Heure\",\"rule\":\"text\",\"answer\":\"20h\",\"also\":[\"20:00\",\"8h\",\"8:00\",\"huit heures\",\"20h00\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

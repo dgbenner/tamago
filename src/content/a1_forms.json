@@ -175,5 +175,82 @@
         ]
       }
     ]
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Bonjour, je m'appelle Paul Martin. Je voudrais une chambre pour deux nuits, du dix au douze mai. Mon numéro, c'est le zéro six, onze, quinze, dix-neuf, vingt.",
+    "fields": [
+      {
+        "key": "last",
+        "label": "Nom",
+        "rule": "text",
+        "answer": "Martin"
+      },
+      {
+        "key": "nights",
+        "label": "Nuits",
+        "rule": "number",
+        "answer": "2"
+      },
+      {
+        "key": "from",
+        "label": "Arrivée",
+        "rule": "text",
+        "answer": "10 mai",
+        "also": [
+          "10/5",
+          "le 10 mai",
+          "dix mai"
+        ]
+      },
+      {
+        "key": "tel",
+        "label": "Téléphone",
+        "rule": "phone",
+        "answer": "06 11 15 19 20"
+      }
+    ]
+  },
+  {
+    "id": "F302",
+    "unit_id": "U82",
+    "card": "Une table pour quatre personnes, samedi soir à huit heures, au nom de Marie Dubois.",
+    "fields": [
+      {
+        "key": "name",
+        "label": "Nom",
+        "rule": "text",
+        "answer": "Dubois"
+      },
+      {
+        "key": "people",
+        "label": "Personnes",
+        "rule": "number",
+        "answer": "4"
+      },
+      {
+        "key": "day",
+        "label": "Jour",
+        "rule": "text",
+        "answer": "samedi",
+        "also": [
+          "Samedi"
+        ]
+      },
+      {
+        "key": "time",
+        "label": "Heure",
+        "rule": "text",
+        "answer": "20h",
+        "also": [
+          "20:00",
+          "8h",
+          "8:00",
+          "huit heures",
+          "20h00"
+        ]
+      }
+    ]
   }
 ]

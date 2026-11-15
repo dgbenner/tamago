@@ -7,8 +7,18 @@ export const COURSES = [
   { id: 'fr', name: 'French', sample: 'pomme, fromage, chat…', lang: 'fr', voice: ['fr-FR', 'fr'], db: 'tamago', flag: '/flags/fr.webp', ready: true },
   { id: 'es', name: 'Spanish', sample: 'manzana, queso, gato…', lang: 'es', voice: ['es-MX', 'es-US', 'es-419', 'es'], db: 'tamago-es', flag: '/flags/es.webp', ready: true },
   { id: 'de', name: 'German', sample: 'Apfel, Käse, Katze…', lang: 'de', voice: ['de-DE', 'de'], db: 'tamago-de', flag: '/flags/de.webp', ready: true },
+  // Flags from Dan, 2026-11-14 (branch lang/italian): shown as Coming Soon until each course is wired in.
+  // Italian (Dan, 2026-11-14): wired in, but offered only while the Developer setting is on, until Dan approves it.
+  { id: 'it', name: 'Italian', sample: 'mela, formaggio, gatto…', lang: 'it', voice: ['it-IT', 'it'], db: 'tamago-it', flag: '/flags/it.webp', ready: true, devOnly: true },
+  { id: 'pt', name: 'Portuguese', sample: 'maçã, queijo, gato…', lang: 'pt-BR', voice: ['pt-BR', 'pt'], db: 'tamago-pt', flag: '/flags/pt.webp', ready: false },
+  { id: 'nl', name: 'Dutch', sample: 'appel, kaas, kat…', lang: 'nl', voice: ['nl-NL', 'nl'], db: 'tamago-nl', flag: '/flags/nl.webp', ready: false },
 ]
 const KEY = 'tamago-course'
+
+// A developer-only course is ready only while Developer is on (shared settings copy; Developer defaults to on).
+// Off, it shows faintly as Coming Soon like the courses not built yet. A change applies from the next launch.
+const devOn = () => { try { return (JSON.parse(localStorage.getItem('tamago-settings') ?? 'null')?.developer ?? 'on') !== 'off' } catch { return true } }
+for (const c of COURSES) if (c.devOnly) c.ready = devOn()
 
 const read = (store, key) => { try { return store.getItem(key) } catch { return null } }
 const write = (store, key, value) => { try { store.setItem(key, value) } catch { /* private mode: this launch only */ } }

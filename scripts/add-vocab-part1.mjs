@@ -36,6 +36,20 @@ export const VOCAB_PART1 = {
       words: ['Bahnhof', 'Bus', 'Zug', 'Taxi', 'Kino', 'Dorf', 'Straße', 'Fahrrad', 'Flughafen', 'Café', 'mit'],
       cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
   ],
+  // Italian (2026-11-14): placed where Tatoeba has lines a learner can read by then. Free Time works from row 5 (mi
+  // piace + a verb); Around Town from row 7 (dov'è, in); body words have no readable lines before colours, possessives
+  // and con, so Body and Looks is last (the same finding as German).
+  it: [
+    { unit_id: 'U51', order: 15.2, row: 9, title: 'Body and Looks', grammar: 'Ha gli occhi azzurri, ha i capelli lunghi: avere with the article for features; alto, alta: adjectives agree',
+      words: ['capelli', 'occhi', 'mano', 'mani', 'piedi', 'naso', 'bocca', 'testa', 'faccia', 'gamba', 'braccio', 'lunghi', 'azzurri', 'alto', 'alta', 'simpatico'],
+      cando: ['speaking', 'Spoken production', 'I can describe a person simply: their hair, their eyes, what they are like.'] },
+    { unit_id: 'U52', order: 7.2, row: 5, title: 'Free Time', grammar: 'Mi piace + a verb (mi piace leggere, ti piace ballare?); canto, canta: -are verbs; leggo, legge: -ere verbs',
+      words: ['musica', 'foto', 'festa', 'calcio', 'gioco', 'nuotare', 'nuoto', 'ballare', 'balla', 'cantare', 'canto', 'canta', 'leggere', 'leggo', 'legge'],
+      cando: ['speaking', 'Spoken production', 'I can say what I like doing in my free time.'] },
+    { unit_id: 'U53', order: 11.2, row: 7, title: 'Around Town', grammar: "Dov'è la stazione? In treno, in autobus, in macchina: in for how you travel; con (with)",
+      words: ['museo', 'cinema', 'teatro', 'chiesa', 'albergo', 'stazione', 'autobus', 'treno', 'taxi', 'piazza', 'strada', 'paese', 'bicicletta', 'vacanza', 'con'],
+      cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
+  ],
   // Brazilian Portuguese (2026-11-14): placed as Italian's were, where Tatoeba has lines a learner can read by then.
   pt: [
     { unit_id: 'U51', order: 15.2, row: 9, title: 'Body and Looks', grammar: 'Ela tem olhos azuis, ele tem cabelo curto: ter for features; alto, alta: adjectives agree; estou com dor de cabeça',
@@ -53,7 +67,7 @@ export const SLOTS_PART1 = [{ slot_id: 'C01', part: 1, after_row: 5 }, { slot_id
 
 if (process.argv[1] === import.meta.filename) {
   const V = VOCAB_PART1[COURSE]
-  if (!V) throw new Error('COURSE=es, de or pt')
+  if (!V) throw new Error('COURSE=es, de, it or pt')
   const [from, to] = process.argv.slice(2)
   const wb = XLSX.readFile(join(ROOT, from))
   const sheet = (n) => XLSX.utils.sheet_to_json(wb.Sheets[n], { defval: '' })
@@ -80,7 +94,7 @@ if (process.argv[1] === import.meta.filename) {
   const words = sheet('words').filter((w) => !/^W1\d{3}$/.test(w.word_id))
   const taken = new Set(words.map((w) => w.form))
   const keys = Object.keys(words[0])
-  const lang = { es: 'Spanish', de: 'German', pt: 'Portuguese' }[COURSE]
+  const lang = { es: 'Spanish', de: 'German', it: 'Italian', pt: 'Portuguese' }[COURSE]
   let n = 1001
   for (const u of V) for (const form of u.words) {
     if (taken.has(form)) throw new Error(`${u.unit_id}: ${form} is already in the course`)

@@ -1,0 +1,1426 @@
+{
+  "unit_id": "U08",
+  "pulled_at": "2026-11-14",
+  "candidates": 198,
+  "sentences": [
+    {
+      "sentence_id": "S8001",
+      "unit_id": "U08",
+      "french": "C'è un gatto sul tavolo?",
+      "english": "Is there a cat on the table?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1083424",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8002",
+      "unit_id": "U08",
+      "french": "C'è una mela sul tavolo.",
+      "english": "There's an apple on the table.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "380223",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": [
+        "An apple sits on the table.",
+        "There is an apple on the table."
+      ]
+    },
+    {
+      "sentence_id": "S8003",
+      "unit_id": "U08",
+      "french": "C'è un gatto in cucina.",
+      "english": "There is a cat in the kitchen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "399850",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8004",
+      "unit_id": "U08",
+      "french": "Non ci sono molti uomini lì.",
+      "english": "There aren't a lot of men there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13373132",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8005",
+      "unit_id": "U08",
+      "french": "In cucina.",
+      "english": "In the kitchen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13922286",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8006",
+      "unit_id": "U08",
+      "french": "Il bagno è lì.",
+      "english": "The toilet is there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10696755",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8007",
+      "unit_id": "U08",
+      "french": "C'è un libro sul tavolo.",
+      "english": "There is a book on the table.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "997319",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8008",
+      "unit_id": "U08",
+      "french": "È in bagno.",
+      "english": "He's in the bathroom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "720431",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Heracleum",
+      "other_english": [
+        "She's in the bathroom.",
+        "She's in the bath.",
+        "He is in the bathroom.",
+        "She is in the bathroom."
+      ]
+    },
+    {
+      "sentence_id": "S8009",
+      "unit_id": "U08",
+      "french": "Non ci sono gatti qui.",
+      "english": "There are no cats here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13084054",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "There aren't any cats here."
+      ]
+    },
+    {
+      "sentence_id": "S8010",
+      "unit_id": "U08",
+      "french": "Sei lì?",
+      "english": "Are you there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3594126",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8011",
+      "unit_id": "U08",
+      "french": "Ci sono gatti?",
+      "english": "Are there cats?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12762712",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8012",
+      "unit_id": "U08",
+      "french": "Ha un bagno?",
+      "english": "Does it have a bathroom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8135223",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8013",
+      "unit_id": "U08",
+      "french": "Ti piace questo giardino?",
+      "english": "Do you like this garden?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "706287",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8014",
+      "unit_id": "U08",
+      "french": "Hai una cucina nuova?",
+      "english": "Do you have a new kitchen?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13922407",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Have you got a new kitchen?"
+      ]
+    },
+    {
+      "sentence_id": "S8015",
+      "unit_id": "U08",
+      "french": "La casa ha un giardino?",
+      "english": "Has the house got a garden?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "726380",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8016",
+      "unit_id": "U08",
+      "french": "Sono in giardino.",
+      "english": "They're in the garden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1524521",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shadd",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8017",
+      "unit_id": "U08",
+      "french": "È sul letto.",
+      "english": "It's on the bed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13177942",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8018",
+      "unit_id": "U08",
+      "french": "Ho un letto grande.",
+      "english": "I have a large bed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "14049626",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8019",
+      "unit_id": "U08",
+      "french": "Io ho un letto grande.",
+      "english": "I have a large bed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "14049627",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8020",
+      "unit_id": "U08",
+      "french": "C'è un cane qui?",
+      "english": "Is there a dog here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7018476",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8021",
+      "unit_id": "U08",
+      "french": "Siete lì?",
+      "english": "Are you there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3594127",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8022",
+      "unit_id": "U08",
+      "french": "Tom c'è?",
+      "english": "Is Tom there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5293580",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8023",
+      "unit_id": "U08",
+      "french": "Tom, sei lì?",
+      "english": "Tom, are you there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7325234",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8024",
+      "unit_id": "U08",
+      "french": "C'è l'acqua?",
+      "english": "Is there water?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11229577",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8025",
+      "unit_id": "U08",
+      "french": "Anche Tom è lì?",
+      "english": "Is Tom there, too?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3638586",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8026",
+      "unit_id": "U08",
+      "french": "Sei in questa foto?",
+      "english": "Are you in this picture?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4090496",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8027",
+      "unit_id": "U08",
+      "french": "È in questa foto?",
+      "english": "Are you in this picture?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4090498",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8028",
+      "unit_id": "U08",
+      "french": "Siete in questa foto?",
+      "english": "Are you in this picture?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4090501",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8029",
+      "unit_id": "U08",
+      "french": "Tom e Mary ci sono?",
+      "english": "Are Tom and Mary there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6573692",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S8030",
+      "unit_id": "U08",
+      "french": "Non c'è acqua qui?",
+      "english": "Is there no water here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13078235",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S8001",
+      "position": 1,
+      "surface": "C'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8001",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8001",
+      "position": 3,
+      "surface": "gatto",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8001",
+      "position": 4,
+      "surface": "sul",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8001",
+      "position": 5,
+      "surface": "tavolo",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 1,
+      "surface": "C'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 3,
+      "surface": "mela",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 4,
+      "surface": "sul",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8002",
+      "position": 5,
+      "surface": "tavolo",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8003",
+      "position": 1,
+      "surface": "C'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8003",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8003",
+      "position": 3,
+      "surface": "gatto",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8003",
+      "position": 4,
+      "surface": "in",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8003",
+      "position": 5,
+      "surface": "cucina",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 2,
+      "surface": "ci sono",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 3,
+      "surface": "molti",
+      "word_id": "W094",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 4,
+      "surface": "uomini",
+      "word_id": "W091",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8004",
+      "position": 5,
+      "surface": "lì",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8005",
+      "position": 1,
+      "surface": "In",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8005",
+      "position": 2,
+      "surface": "cucina",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8006",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8006",
+      "position": 2,
+      "surface": "bagno",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8006",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8006",
+      "position": 4,
+      "surface": "lì",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8007",
+      "position": 1,
+      "surface": "C'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8007",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8007",
+      "position": 3,
+      "surface": "libro",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8007",
+      "position": 4,
+      "surface": "sul",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8007",
+      "position": 5,
+      "surface": "tavolo",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8008",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8008",
+      "position": 2,
+      "surface": "in",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8008",
+      "position": 3,
+      "surface": "bagno",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8009",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8009",
+      "position": 2,
+      "surface": "ci sono",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8009",
+      "position": 3,
+      "surface": "gatti",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8009",
+      "position": 4,
+      "surface": "qui",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8010",
+      "position": 1,
+      "surface": "Sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8010",
+      "position": 2,
+      "surface": "lì",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8011",
+      "position": 1,
+      "surface": "Ci sono",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8011",
+      "position": 2,
+      "surface": "gatti",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8012",
+      "position": 1,
+      "surface": "Ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8012",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8012",
+      "position": 3,
+      "surface": "bagno",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8013",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8013",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8013",
+      "position": 3,
+      "surface": "questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8013",
+      "position": 4,
+      "surface": "giardino",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8014",
+      "position": 1,
+      "surface": "Hai",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8014",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8014",
+      "position": 3,
+      "surface": "cucina",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8014",
+      "position": 4,
+      "surface": "nuova",
+      "word_id": "W100",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8015",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8015",
+      "position": 2,
+      "surface": "casa",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8015",
+      "position": 3,
+      "surface": "ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8015",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8015",
+      "position": 5,
+      "surface": "giardino",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8016",
+      "position": 1,
+      "surface": "Sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8016",
+      "position": 2,
+      "surface": "in",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8016",
+      "position": 3,
+      "surface": "giardino",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8017",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8017",
+      "position": 2,
+      "surface": "sul",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8017",
+      "position": 3,
+      "surface": "letto",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8018",
+      "position": 1,
+      "surface": "Ho",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8018",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8018",
+      "position": 3,
+      "surface": "letto",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8018",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8019",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8019",
+      "position": 2,
+      "surface": "ho",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8019",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8019",
+      "position": 4,
+      "surface": "letto",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8019",
+      "position": 5,
+      "surface": "grande",
+      "word_id": "W030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8020",
+      "position": 1,
+      "surface": "C'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8020",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8020",
+      "position": 3,
+      "surface": "cane",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8020",
+      "position": 4,
+      "surface": "qui",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8021",
+      "position": 1,
+      "surface": "Siete",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8021",
+      "position": 2,
+      "surface": "lì",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8022",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8022",
+      "position": 2,
+      "surface": "c'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8023",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8023",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8023",
+      "position": 3,
+      "surface": "lì",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8024",
+      "position": 1,
+      "surface": "C'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8024",
+      "position": 2,
+      "surface": "l'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8024",
+      "position": 3,
+      "surface": "acqua",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8025",
+      "position": 1,
+      "surface": "Anche",
+      "word_id": "W105",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8025",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8025",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8025",
+      "position": 4,
+      "surface": "lì",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8026",
+      "position": 1,
+      "surface": "Sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8026",
+      "position": 2,
+      "surface": "in",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8026",
+      "position": 3,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8026",
+      "position": 4,
+      "surface": "foto",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8027",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8027",
+      "position": 2,
+      "surface": "in",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8027",
+      "position": 3,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8027",
+      "position": 4,
+      "surface": "foto",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8028",
+      "position": 1,
+      "surface": "Siete",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8028",
+      "position": 2,
+      "surface": "in",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8028",
+      "position": 3,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8028",
+      "position": 4,
+      "surface": "foto",
+      "word_id": "W1018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8029",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8029",
+      "position": 2,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8029",
+      "position": 3,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8029",
+      "position": 4,
+      "surface": "ci sono",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8030",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8030",
+      "position": 2,
+      "surface": "c'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8030",
+      "position": 3,
+      "surface": "acqua",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S8030",
+      "position": 4,
+      "surface": "qui",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A80021",
+      "sentence_id": "S8002",
+      "direction": "fr_to_en",
+      "answer": "An apple sits on the table.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A80022",
+      "sentence_id": "S8002",
+      "direction": "fr_to_en",
+      "answer": "There is an apple on the table.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A80081",
+      "sentence_id": "S8008",
+      "direction": "fr_to_en",
+      "answer": "She's in the bathroom.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A80082",
+      "sentence_id": "S8008",
+      "direction": "fr_to_en",
+      "answer": "She's in the bath.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A80083",
+      "sentence_id": "S8008",
+      "direction": "fr_to_en",
+      "answer": "He is in the bathroom.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A80084",
+      "sentence_id": "S8008",
+      "direction": "fr_to_en",
+      "answer": "She is in the bathroom.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A80091",
+      "sentence_id": "S8009",
+      "direction": "fr_to_en",
+      "answer": "There aren't any cats here.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A80141",
+      "sentence_id": "S8014",
+      "direction": "fr_to_en",
+      "answer": "Have you got a new kitchen?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

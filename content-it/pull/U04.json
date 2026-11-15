@@ -1,0 +1,1344 @@
+{
+  "unit_id": "U04",
+  "pulled_at": "2026-11-14",
+  "candidates": 191,
+  "sentences": [
+    {
+      "sentence_id": "S4001",
+      "unit_id": "U04",
+      "french": "Ti piace il tè?",
+      "english": "Do you like tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1098232",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4002",
+      "unit_id": "U04",
+      "french": "Ti piace il caffè?",
+      "english": "Do you like coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4118401",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Do you enjoy coffee?"
+      ]
+    },
+    {
+      "sentence_id": "S4003",
+      "unit_id": "U04",
+      "french": "Mi piace il tè.",
+      "english": "I like tea.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1255411",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4004",
+      "unit_id": "U04",
+      "french": "Bevi caffè?",
+      "english": "Do you drink coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1168722",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4005",
+      "unit_id": "U04",
+      "french": "Bevi il caffè?",
+      "english": "Do you drink coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2455635",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4006",
+      "unit_id": "U04",
+      "french": "Mi piace il latte.",
+      "english": "I like milk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3156369",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4007",
+      "unit_id": "U04",
+      "french": "Mangio formaggio.",
+      "english": "I eat cheese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3863883",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Giulio",
+      "other_english": [
+        "I'm eating cheese."
+      ]
+    },
+    {
+      "sentence_id": "S4008",
+      "unit_id": "U04",
+      "french": "Mangio una mela.",
+      "english": "I eat an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1102336",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "remod",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4009",
+      "unit_id": "U04",
+      "french": "Non bevo vino.",
+      "english": "I don't drink wine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3739031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4010",
+      "unit_id": "U04",
+      "french": "Non bevo acqua.",
+      "english": "I don't drink water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3840284",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4011",
+      "unit_id": "U04",
+      "french": "Mangi una mela.",
+      "english": "You eat an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13126296",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4012",
+      "unit_id": "U04",
+      "french": "Tu mangi una mela.",
+      "english": "You eat an apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13126298",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4013",
+      "unit_id": "U04",
+      "french": "Ti piace il latte?",
+      "english": "Do you like milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13766026",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4014",
+      "unit_id": "U04",
+      "french": "Beve latte?",
+      "english": "Does he drink milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12411633",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4015",
+      "unit_id": "U04",
+      "french": "Tom beve tè?",
+      "english": "Does Tom drink tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5706874",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4016",
+      "unit_id": "U04",
+      "french": "Mi piace il pane.",
+      "english": "I like bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3254660",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4017",
+      "unit_id": "U04",
+      "french": "Beve vino.",
+      "english": "He drinks wine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8502135",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "She drinks wine."
+      ]
+    },
+    {
+      "sentence_id": "S4018",
+      "unit_id": "U04",
+      "french": "Mangia formaggio.",
+      "english": "He eats cheese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11841804",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4019",
+      "unit_id": "U04",
+      "french": "Bevo l'acqua.",
+      "english": "I drink water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4174218",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "I drink the water."
+      ]
+    },
+    {
+      "sentence_id": "S4020",
+      "unit_id": "U04",
+      "french": "Non mangio pane.",
+      "english": "I don't eat bread.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5108633",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4021",
+      "unit_id": "U04",
+      "french": "Mangia il pane!",
+      "english": "Eat the bread!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11082292",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4022",
+      "unit_id": "U04",
+      "french": "Non ti piace il vino?",
+      "english": "Don't you like wine?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11710109",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "You don't like wine?",
+        "Do you not like wine?"
+      ]
+    },
+    {
+      "sentence_id": "S4023",
+      "unit_id": "U04",
+      "french": "Tu bevi caffè?",
+      "english": "Do you drink coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3782348",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4024",
+      "unit_id": "U04",
+      "french": "Mangi bene?",
+      "english": "Do you eat well?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8644986",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4025",
+      "unit_id": "U04",
+      "french": "Mangia bene?",
+      "english": "Do you eat well?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8644987",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4026",
+      "unit_id": "U04",
+      "french": "Mi piace l'acqua.",
+      "english": "I like water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4193362",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4027",
+      "unit_id": "U04",
+      "french": "Mi piace il formaggio.",
+      "english": "I like cheese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5840599",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4028",
+      "unit_id": "U04",
+      "french": "Non ti piace il caffè?",
+      "english": "Don't you like coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8898660",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Don't you like the coffee?"
+      ]
+    },
+    {
+      "sentence_id": "S4029",
+      "unit_id": "U04",
+      "french": "Come ti piace questo vino?",
+      "english": "How do you like this wine?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "14020636",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S4030",
+      "unit_id": "U04",
+      "french": "Ti piace?",
+      "english": "You like it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "938952",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zhou24",
+      "other_english": [
+        "Do you like it?",
+        "Do you like her?",
+        "Do you like him?",
+        "Do you enjoy it?"
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S4001",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4001",
+      "position": 4,
+      "surface": "tè",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4002",
+      "position": 4,
+      "surface": "caffè",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4003",
+      "position": 4,
+      "surface": "tè",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 1,
+      "surface": "Bevi",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4004",
+      "position": 2,
+      "surface": "caffè",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 1,
+      "surface": "Bevi",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 2,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4005",
+      "position": 3,
+      "surface": "caffè",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4006",
+      "position": 4,
+      "surface": "latte",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 1,
+      "surface": "Mangio",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4007",
+      "position": 2,
+      "surface": "formaggio",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 1,
+      "surface": "Mangio",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4008",
+      "position": 3,
+      "surface": "mela",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 2,
+      "surface": "bevo",
+      "word_id": "W052",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4009",
+      "position": 3,
+      "surface": "vino",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 2,
+      "surface": "bevo",
+      "word_id": "W052",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4010",
+      "position": 3,
+      "surface": "acqua",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 1,
+      "surface": "Mangi",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4011",
+      "position": 3,
+      "surface": "mela",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 2,
+      "surface": "mangi",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4012",
+      "position": 4,
+      "surface": "mela",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4013",
+      "position": 4,
+      "surface": "latte",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4014",
+      "position": 1,
+      "surface": "Beve",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4014",
+      "position": 2,
+      "surface": "latte",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 2,
+      "surface": "beve",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4015",
+      "position": 3,
+      "surface": "tè",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4016",
+      "position": 4,
+      "surface": "pane",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 1,
+      "surface": "Beve",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4017",
+      "position": 2,
+      "surface": "vino",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4018",
+      "position": 1,
+      "surface": "Mangia",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4018",
+      "position": 2,
+      "surface": "formaggio",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4019",
+      "position": 1,
+      "surface": "Bevo",
+      "word_id": "W052",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4019",
+      "position": 2,
+      "surface": "l'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4019",
+      "position": 3,
+      "surface": "acqua",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 2,
+      "surface": "mangio",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4020",
+      "position": 3,
+      "surface": "pane",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 1,
+      "surface": "Mangia",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 2,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4021",
+      "position": 3,
+      "surface": "pane",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 2,
+      "surface": "ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 3,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 4,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4022",
+      "position": 5,
+      "surface": "vino",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 2,
+      "surface": "bevi",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4023",
+      "position": 3,
+      "surface": "caffè",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4024",
+      "position": 1,
+      "surface": "Mangi",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4024",
+      "position": 2,
+      "surface": "bene",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4025",
+      "position": 1,
+      "surface": "Mangia",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4025",
+      "position": 2,
+      "surface": "bene",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 3,
+      "surface": "l'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4026",
+      "position": 4,
+      "surface": "acqua",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4027",
+      "position": 4,
+      "surface": "formaggio",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 2,
+      "surface": "ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 3,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 4,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4028",
+      "position": 5,
+      "surface": "caffè",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 1,
+      "surface": "Come",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 2,
+      "surface": "ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 3,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 4,
+      "surface": "questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4029",
+      "position": 5,
+      "surface": "vino",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S4030",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A40021",
+      "sentence_id": "S4002",
+      "direction": "fr_to_en",
+      "answer": "Do you enjoy coffee?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40071",
+      "sentence_id": "S4007",
+      "direction": "fr_to_en",
+      "answer": "I'm eating cheese.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40171",
+      "sentence_id": "S4017",
+      "direction": "fr_to_en",
+      "answer": "She drinks wine.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40191",
+      "sentence_id": "S4019",
+      "direction": "fr_to_en",
+      "answer": "I drink the water.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40221",
+      "sentence_id": "S4022",
+      "direction": "fr_to_en",
+      "answer": "You don't like wine?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40222",
+      "sentence_id": "S4022",
+      "direction": "fr_to_en",
+      "answer": "Do you not like wine?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40281",
+      "sentence_id": "S4028",
+      "direction": "fr_to_en",
+      "answer": "Don't you like the coffee?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40301",
+      "sentence_id": "S4030",
+      "direction": "fr_to_en",
+      "answer": "Do you like it?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40302",
+      "sentence_id": "S4030",
+      "direction": "fr_to_en",
+      "answer": "Do you like her?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40303",
+      "sentence_id": "S4030",
+      "direction": "fr_to_en",
+      "answer": "Do you like him?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A40304",
+      "sentence_id": "S4030",
+      "direction": "fr_to_en",
+      "answer": "Do you enjoy it?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

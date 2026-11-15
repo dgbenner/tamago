@@ -54,6 +54,14 @@ export const HELP_PHRASES = {
     { help: 'say', level: 2, text: 'Wie sagt man…?', frame: 'Wie sagt man „“ auf Deutsch?', caret: 13 },
     { help: 'word', level: 3, text: 'Ich suche das Wort…', frame: 'Ich suche das Wort. Das ist ein Ding für ' },
   ],
+  it: [
+    { help: 'understand', level: 1, text: 'Non capisco.' },
+    { help: 'slower', level: 1, text: 'Più lentamente, per favore.' },
+    { help: 'repeat', level: 1, text: 'Ripeta, per favore.' },
+    { help: 'meaning', level: 2, text: 'Cosa significa?', withWord: (w) => `Cosa significa «${w}»?` },
+    { help: 'say', level: 2, text: 'Come si dice…?', frame: 'Come si dice «» in italiano?', caret: 14 },
+    { help: 'word', level: 3, text: 'Cerco la parola…', frame: 'Cerco la parola. È una cosa per ' },
+  ],
 }
 
 // Three scenes per course, built around the help phrases: Claude speaks slightly above the learner's level on
@@ -73,6 +81,11 @@ export const SCENES = {
     { id: 'cafe', title: 'Ordering a Drink', about: 'You walk into a café and order something to drink.', setting: 'A small café. The learner comes in and orders something to drink.', ai: 'the waiter, friendly and a little quick', learner: 'a customer', keys: ['Kaffee', 'Tee', 'Wasser', 'Milch', 'bitte', 'danke'] },
     { id: 'neighbour', title: 'A New Neighbour', about: 'Someone has just moved in next door. Say hello and get to know them.', setting: 'The learner meets someone who has just moved in next door, outside the house.', ai: 'the new neighbour, chatty, with a family and a dog', learner: 'the person who lives next door', keys: ['hallo', 'Haus', 'Familie', 'Kinder', 'Hund'] },
     { id: 'way', title: 'Finding the Way', about: 'You\'re in town looking for the park. Ask someone the way.', setting: 'In town. The learner is looking for the park and asks someone in the street.', ai: 'a local who knows the town well', learner: 'a visitor', keys: ['wo', 'Park', 'Schule', 'Restaurant', 'Stadt'] },
+  ],
+  it: [
+    { id: 'cafe', title: 'Ordering a Drink', about: 'You walk into a café and order something to drink.', setting: 'A small café. The learner comes in and orders something to drink.', ai: 'the waiter, friendly and a little quick', learner: 'a customer', keys: ['caffè', 'tè', 'acqua', 'latte', 'per favore', 'grazie'] },
+    { id: 'neighbour', title: 'A New Neighbour', about: 'Someone has just moved in next door. Say hello and get to know them.', setting: 'The learner meets someone who has just moved in next door, outside the house.', ai: 'the new neighbour, chatty, with a family and a dog', learner: 'the person who lives next door', keys: ['ciao', 'casa', 'famiglia', 'bambini', 'cane'] },
+    { id: 'way', title: 'Finding the Way', about: 'You\'re in town looking for the park. Ask someone the way.', setting: 'In town. The learner is looking for the park and asks someone in the street.', ai: 'a local who knows the town well', learner: 'a visitor', keys: ['dove', 'parco', 'scuola', 'ristorante', 'città'] },
   ],
 }
 

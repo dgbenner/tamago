@@ -36,7 +36,7 @@ const PLAN6 = [
   { part: 5, title: 'Home and Work', summary: 'Home, family and work, filling in forms, and the words of daily life.', tasks: 'T06;T10', status: 'planned' },
   { part: 6, title: 'Reading and Writing', summary: 'Menus, notices and messages, and writing a short message or postcard.', tasks: 'T09;T11;T12', status: 'planned' },
 ]
-export const PARTS = { de: PLAN4, es: PLAN4, pt: PLAN4, fr: PLAN6 }
+export const PARTS = { de: PLAN4, es: PLAN4, it: PLAN4, pt: PLAN4, fr: PLAN6 }
 
 // Circles that teach a task outright (more as the parts are written).
 export const UNIT_TASKS = { U01: 'T01', U31: 'T13', U32: 'T13', U33: 'T13' }

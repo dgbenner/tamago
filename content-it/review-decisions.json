@@ -1,0 +1,1821 @@
+{
+  "_about": "Rulings for the Italian course, the same shape as the French, Spanish and German ones. Claude records its calls here under autonomous-build.md; Dan can reverse any of them.",
+  "sentences": {
+    "S3113": {
+      "action": "confirm",
+      "french": "Bene, grazie. E tu?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner Dario has no native or OK signal"
+    },
+    "S5106": {
+      "action": "confirm",
+      "french": "Non mangio pesce.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner VPZ has no native or OK signal"
+    },
+    "S52102": {
+      "action": "confirm",
+      "french": "Mi piace il calcio.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner miravalles has no native or OK signal"
+    },
+    "S8105": {
+      "action": "confirm",
+      "french": "Il giardino è piccolo.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner Seael has no native or OK signal"
+    },
+    "S53109": {
+      "action": "confirm",
+      "french": "Siamo con Tom.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    },
+    "S53112": {
+      "action": "confirm",
+      "french": "Tom ha una bella bicicletta.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner Ricardo14 has no native or OK signal"
+    },
+    "S13103": {
+      "action": "confirm",
+      "french": "La casa è rossa.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner Seael has no native or OK signal"
+    },
+    "S13104": {
+      "action": "confirm",
+      "french": "Ho una mela verde.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S13105": {
+      "action": "confirm",
+      "french": "Il gatto è bianco.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S1201": {
+      "action": "confirm",
+      "french": "Tu sei Mary?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Luiaard has no native or OK signal"
+    },
+    "S1202": {
+      "action": "confirm",
+      "french": "Sei Mary?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Luiaard has no native or OK signal"
+    },
+    "S1203": {
+      "action": "confirm",
+      "french": "Non sono un ragazzo. Sono una ragazza.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner VPZ has no native or OK signal"
+    },
+    "S2201": {
+      "action": "confirm",
+      "french": "Tom e Maria sono qui.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S3201": {
+      "action": "confirm",
+      "french": "Arrivederci e buona notte.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S3202": {
+      "action": "confirm",
+      "french": "Scusa, stai bene?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S3203": {
+      "action": "confirm",
+      "french": "Parli bene.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S3204": {
+      "action": "confirm",
+      "french": "Parla male.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S4201": {
+      "action": "confirm",
+      "french": "Non bevo più caffè.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S4202": {
+      "action": "confirm",
+      "french": "Ti capisco bene.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S5201": {
+      "action": "confirm",
+      "french": "Il pesce è piccolo.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S5202": {
+      "action": "confirm",
+      "french": "La donna mangia pesce e beve vino.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S5203": {
+      "action": "confirm",
+      "french": "Io non sono un gatto.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner marvinibahs2020 has no native or OK signal"
+    },
+    "S5204": {
+      "action": "confirm",
+      "french": "Non sono un gatto.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner marvinibahs2020 has no native or OK signal"
+    },
+    "S5205": {
+      "action": "confirm",
+      "french": "Questo bambino ha un gatto.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S5206": {
+      "action": "confirm",
+      "french": "Il gatto mangia l'uccello.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S5207": {
+      "action": "confirm",
+      "french": "Il cavallo è un animale.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S5208": {
+      "action": "confirm",
+      "french": "Come sta l'uccello?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    },
+    "S5209": {
+      "action": "confirm",
+      "french": "Tom ha un gatto?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner mervert1 has no native or OK signal"
+    },
+    "S32201": {
+      "action": "confirm",
+      "french": "Lui parla inglese.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner halfb1t has no native or OK signal"
+    },
+    "S32202": {
+      "action": "confirm",
+      "french": "Lei parla inglese.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S6201": {
+      "action": "confirm",
+      "french": "Abbiamo un cane e un gatto.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Luiaard has no native or OK signal"
+    },
+    "S6202": {
+      "action": "confirm",
+      "french": "Non siamo bambini, siamo uomini.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S7201": {
+      "action": "confirm",
+      "french": "Abbiamo una macchina.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Ricardo14 has no native or OK signal"
+    },
+    "S7202": {
+      "action": "confirm",
+      "french": "Sono un uomo molto vecchio.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S7203": {
+      "action": "confirm",
+      "french": "Non mi piace questa macchina.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S7204": {
+      "action": "confirm",
+      "french": "Bevo molto caffè.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S7205": {
+      "action": "confirm",
+      "french": "I bambini hanno un vecchio libro.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner ninefi has no native or OK signal"
+    },
+    "S52201": {
+      "action": "confirm",
+      "french": "Questo non è un gioco!",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S52202": {
+      "action": "confirm",
+      "french": "Il dottore legge molti libri.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S52203": {
+      "action": "confirm",
+      "french": "Ti piace leggere?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S8201": {
+      "action": "confirm",
+      "french": "Abbiamo un tavolo in cucina.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S8202": {
+      "action": "confirm",
+      "french": "Abbiamo un grande giardino.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Luiaard has no native or OK signal"
+    },
+    "S8203": {
+      "action": "confirm",
+      "french": "Ho un tavolo.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S8204": {
+      "action": "confirm",
+      "french": "Il libro è sul tavolo.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner everylanguage has no native or OK signal"
+    },
+    "S8205": {
+      "action": "confirm",
+      "french": "Come si dice in italiano?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S9201": {
+      "action": "confirm",
+      "french": "Non sono stanca.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S9202": {
+      "action": "confirm",
+      "french": "I bambini hanno fame.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S33201": {
+      "action": "confirm",
+      "french": "È per noi?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S33202": {
+      "action": "confirm",
+      "french": "Questo è per Tom.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S33203": {
+      "action": "confirm",
+      "french": "Come si chiama questo gioco?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S10201": {
+      "action": "confirm",
+      "french": "Lui è mio padre.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Derbnik has no native or OK signal"
+    },
+    "S10202": {
+      "action": "confirm",
+      "french": "Questo animale è mio.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S10203": {
+      "action": "confirm",
+      "french": "Sono una madre.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S10204": {
+      "action": "confirm",
+      "french": "No, questo libro non è mio.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S11201": {
+      "action": "confirm",
+      "french": "Perché sono qui?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Shadd has no native or OK signal"
+    },
+    "S11202": {
+      "action": "confirm",
+      "french": "Perché non mangi?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner koala has no native or OK signal"
+    },
+    "S11203": {
+      "action": "confirm",
+      "french": "Perché mio padre è in cucina?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner shauna76 has no native or OK signal"
+    },
+    "S11204": {
+      "action": "confirm",
+      "french": "Chi è questa ragazza?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner nickyeow has no native or OK signal"
+    },
+    "S11205": {
+      "action": "confirm",
+      "french": "Che cosa significa questo?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner riccioberto has no native or OK signal"
+    },
+    "S11206": {
+      "action": "confirm",
+      "french": "Che cosa?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S11207": {
+      "action": "confirm",
+      "french": "Tom, dove sei?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S11208": {
+      "action": "confirm",
+      "french": "Chi siamo?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S11209": {
+      "action": "confirm",
+      "french": "Di chi è questo cavallo?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S11210": {
+      "action": "confirm",
+      "french": "Dov'è tua madre, ragazzo?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S11211": {
+      "action": "confirm",
+      "french": "Di chi è il bambino?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S11212": {
+      "action": "confirm",
+      "french": "Bevo acqua quando ho sete.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S11213": {
+      "action": "confirm",
+      "french": "Che cosa dice tua madre?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    },
+    "S11214": {
+      "action": "confirm",
+      "french": "Cosa dice tua madre?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    },
+    "S53201": {
+      "action": "confirm",
+      "french": "È con lui.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    },
+    "S53202": {
+      "action": "confirm",
+      "french": "Lui è con lei.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S53203": {
+      "action": "confirm",
+      "french": "Lei è con lui.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S53204": {
+      "action": "confirm",
+      "french": "Siamo in vacanza.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S12201": {
+      "action": "confirm",
+      "french": "Siamo in quattro in famiglia.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S12202": {
+      "action": "confirm",
+      "french": "Un tavolo per due, per favore.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S12203": {
+      "action": "confirm",
+      "french": "Tom è uno di noi.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S12204": {
+      "action": "confirm",
+      "french": "Siamo in cinque.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner glossboss has no native or OK signal"
+    },
+    "S13201": {
+      "action": "confirm",
+      "french": "Non ci sono gatti blu.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S13202": {
+      "action": "confirm",
+      "french": "L'acqua è verde.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner ecorralest101 has no native or OK signal"
+    },
+    "S13203": {
+      "action": "confirm",
+      "french": "Ho un gatto bianco.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S13204": {
+      "action": "confirm",
+      "french": "Pane bianco, per favore.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S13205": {
+      "action": "confirm",
+      "french": "Non mi piace il rosso.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S13206": {
+      "action": "confirm",
+      "french": "Bevo tè verde, non nero.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S13207": {
+      "action": "confirm",
+      "french": "Abbiamo un cane nero.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Proxima5 has no native or OK signal"
+    },
+    "S13208": {
+      "action": "confirm",
+      "french": "Mi piace il colore di questa macchina.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner mervert1 has no native or OK signal"
+    },
+    "S14201": {
+      "action": "confirm",
+      "french": "Adesso ho fame.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S14202": {
+      "action": "confirm",
+      "french": "Perché sei triste adesso?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Lyte3000 has no native or OK signal"
+    },
+    "S15201": {
+      "action": "confirm",
+      "french": "Domani io non vado al cinema.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Virgilia has no native or OK signal"
+    },
+    "S15202": {
+      "action": "confirm",
+      "french": "Lei è a casa?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S15203": {
+      "action": "confirm",
+      "french": "A loro non piace Tom.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner hitori37 has no native or OK signal"
+    },
+    "S15204": {
+      "action": "confirm",
+      "french": "La ragazza va a scuola.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S15205": {
+      "action": "confirm",
+      "french": "Cosa non piace a Tom?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner koala has no native or OK signal"
+    },
+    "S15206": {
+      "action": "confirm",
+      "french": "Il giovane è a Roma?",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S15207": {
+      "action": "confirm",
+      "french": "Questo autobus va in città.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S15208": {
+      "action": "confirm",
+      "french": "Tom è a casa perché è malato.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S51201": {
+      "action": "confirm",
+      "french": "Maria è alta e forte.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner carlosalberto has no native or OK signal"
+    },
+    "S51202": {
+      "action": "confirm",
+      "french": "Sei più alta di lei.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner mervert1 has no native or OK signal"
+    },
+    "S51203": {
+      "action": "confirm",
+      "french": "Sei una donna alta.",
+      "english_source": "",
+      "by": "Fable's review of _review/italian-part1-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rul has no native or OK signal"
+    }
+  },
+  "accepted_answers": {
+    "AD0001": {
+      "action": "keep",
+      "answer": "Excuse me, are you Tom?",
+      "by": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request"
+    },
+    "AD0002": {
+      "action": "keep",
+      "answer": "Sì, bevo il caffè.",
+      "by": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request"
+    },
+    "AD0003": {
+      "action": "keep",
+      "answer": "Ho due figli.",
+      "by": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request"
+    }
+  },
+  "units": {
+    "U01": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 7 drafts for thin words and question pairs"
+    },
+    "U31": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 7 drafts for thin words and question pairs"
+    },
+    "U02": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 10 drafts for thin words and question pairs"
+    },
+    "U03": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 15 drafts for thin words and question pairs"
+    },
+    "U04": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 7 drafts for thin words and question pairs"
+    },
+    "U05": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 8 drafts for thin words and question pairs"
+    },
+    "U32": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 5 drafts for thin words and question pairs"
+    },
+    "U06": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 9 drafts for thin words and question pairs"
+    },
+    "U07": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 6 drafts for thin words and question pairs"
+    },
+    "U52": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 40 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 5 drafts for thin words and question pairs"
+    },
+    "U08": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 6 drafts for thin words and question pairs"
+    },
+    "U09": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 31 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 8 drafts for thin words and question pairs"
+    },
+    "U33": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 13 drafts for thin words and question pairs"
+    },
+    "U10": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 11 drafts for thin words and question pairs"
+    },
+    "U11": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 7 drafts for thin words and question pairs"
+    },
+    "U53": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 39 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 12 drafts for thin words and question pairs"
+    },
+    "U12": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 11 drafts for thin words and question pairs"
+    },
+    "U13": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 7 drafts for thin words and question pairs"
+    },
+    "U14": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 4 drafts for thin words and question pairs"
+    },
+    "U15": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 31 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 6 drafts for thin words and question pairs"
+    },
+    "U51": {
+      "action": "approve",
+      "on": "2026-11-14",
+      "by": "Claude under autonomous-build.md: 30 Tatoeba sentences from checked owners after review (cuts and reasons in content-it/sweep/packs-review.json), 15 drafts for thin words and question pairs"
+    }
+  },
+  "cut_sentences": [
+    "S2014",
+    "S2030",
+    "S4021",
+    "S5020",
+    "S13024",
+    "S51105"
+  ],
+  "vocabulary_additions": [],
+  "hints": {},
+  "borrow": {},
+  "drafting": {},
+  "claude_hints": {
+    "W001": {
+      "hint": "hi; bye",
+      "source": "short form of Wiktionary"
+    },
+    "W002": {
+      "hint": "yes",
+      "source": "short form of Wiktionary"
+    },
+    "W003": {
+      "hint": "no",
+      "source": "short form of Wiktionary"
+    },
+    "W004": {
+      "hint": "not",
+      "source": "short form of Wiktionary"
+    },
+    "W005": {
+      "hint": "I",
+      "source": "short form of Wiktionary"
+    },
+    "W006": {
+      "hint": "you (one friend)",
+      "source": "short form of Wiktionary"
+    },
+    "W007": {
+      "hint": "am; are (essere)",
+      "source": "short form of Wiktionary"
+    },
+    "W008": {
+      "hint": "you are (essere); also six",
+      "source": "short form of Wiktionary"
+    },
+    "W009": {
+      "hint": "a, an",
+      "source": "short form of Wiktionary"
+    },
+    "W010": {
+      "hint": "a, an (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W011": {
+      "hint": "man",
+      "source": "short form of Wiktionary"
+    },
+    "W012": {
+      "hint": "woman",
+      "source": "short form of Wiktionary"
+    },
+    "W013": {
+      "hint": "boy",
+      "source": "short form of Wiktionary"
+    },
+    "W014": {
+      "hint": "girl",
+      "source": "short form of Wiktionary"
+    },
+    "W015": {
+      "hint": "child; little boy; kid",
+      "source": "short form of Wiktionary"
+    },
+    "W016": {
+      "hint": "little girl",
+      "source": "short form of Wiktionary"
+    },
+    "W017": {
+      "hint": "and",
+      "source": "short form of Wiktionary"
+    },
+    "W018": {
+      "hint": "the (masculine)",
+      "source": "short form of Wiktionary"
+    },
+    "W019": {
+      "hint": "the (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W020": {
+      "hint": "the (before a vowel)",
+      "source": "short form of Wiktionary"
+    },
+    "W021": {
+      "hint": "he",
+      "source": "short form of Wiktionary"
+    },
+    "W022": {
+      "hint": "she; you (polite, Lei)",
+      "source": "short form of Wiktionary"
+    },
+    "W023": {
+      "hint": "is (essere)",
+      "source": "short form of Wiktionary"
+    },
+    "W024": {
+      "hint": "here",
+      "source": "short form of Wiktionary"
+    },
+    "W025": {
+      "hint": "this",
+      "source": "short form of Wiktionary"
+    },
+    "W026": {
+      "hint": "this (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W027": {
+      "hint": "book",
+      "source": "short form of Wiktionary"
+    },
+    "W028": {
+      "hint": "house, home",
+      "source": "short form of Wiktionary"
+    },
+    "W029": {
+      "hint": "doctor",
+      "source": "short form of Wiktionary"
+    },
+    "W030": {
+      "hint": "big",
+      "source": "short form of Wiktionary"
+    },
+    "W031": {
+      "hint": "small",
+      "source": "short form of Wiktionary"
+    },
+    "W032": {
+      "hint": "small (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W033": {
+      "hint": "strong",
+      "source": "short form of Wiktionary"
+    },
+    "W034": {
+      "hint": "thank you",
+      "source": "short form of Wiktionary"
+    },
+    "W035": {
+      "hint": "please",
+      "source": "short form of Wiktionary"
+    },
+    "W036": {
+      "hint": "you're welcome",
+      "source": "short form of Wiktionary"
+    },
+    "W037": {
+      "hint": "good morning, hello",
+      "source": "short form of Wiktionary"
+    },
+    "W038": {
+      "hint": "good evening",
+      "source": "short form of Wiktionary"
+    },
+    "W039": {
+      "hint": "good night",
+      "source": "short form of Wiktionary"
+    },
+    "W040": {
+      "hint": "goodbye",
+      "source": "short form of Wiktionary"
+    },
+    "W041": {
+      "hint": "sorry (to a friend)",
+      "source": "short form of Wiktionary"
+    },
+    "W042": {
+      "hint": "excuse me (polite)",
+      "source": "short form of Wiktionary"
+    },
+    "W043": {
+      "hint": "how; like",
+      "source": "short form of Wiktionary"
+    },
+    "W044": {
+      "hint": "I am, I feel (stare)",
+      "source": "short form of Wiktionary"
+    },
+    "W045": {
+      "hint": "you are, you feel (stare)",
+      "source": "short form of Wiktionary"
+    },
+    "W046": {
+      "hint": "is, feels (stare)",
+      "source": "short form of Wiktionary"
+    },
+    "W047": {
+      "hint": "well, fine",
+      "source": "short form of Wiktionary"
+    },
+    "W048": {
+      "hint": "badly",
+      "source": "short form of Wiktionary"
+    },
+    "W049": {
+      "hint": "I eat (mangiare)",
+      "source": "short form of Wiktionary"
+    },
+    "W050": {
+      "hint": "you eat (mangiare)",
+      "source": "short form of Wiktionary"
+    },
+    "W051": {
+      "hint": "eats (mangiare)",
+      "source": "short form of Wiktionary"
+    },
+    "W052": {
+      "hint": "I drink (bere)",
+      "source": "short form of Wiktionary"
+    },
+    "W053": {
+      "hint": "you drink (bere)",
+      "source": "short form of Wiktionary"
+    },
+    "W054": {
+      "hint": "drinks (bere)",
+      "source": "short form of Wiktionary"
+    },
+    "W055": {
+      "hint": "me, to me",
+      "source": "short form of Wiktionary"
+    },
+    "W056": {
+      "hint": "you, to you",
+      "source": "short form of Wiktionary"
+    },
+    "W057": {
+      "hint": "pleases, is liked (piacere)",
+      "source": "short form of Wiktionary"
+    },
+    "W058": {
+      "hint": "bread",
+      "source": "short form of Wiktionary"
+    },
+    "W059": {
+      "hint": "water",
+      "source": "short form of Wiktionary"
+    },
+    "W060": {
+      "hint": "milk",
+      "source": "short form of Wiktionary"
+    },
+    "W061": {
+      "hint": "cheese",
+      "source": "short form of Wiktionary"
+    },
+    "W062": {
+      "hint": "apple",
+      "source": "short form of Wiktionary"
+    },
+    "W063": {
+      "hint": "coffee",
+      "source": "short form of Wiktionary"
+    },
+    "W064": {
+      "hint": "tea",
+      "source": "short form of Wiktionary"
+    },
+    "W065": {
+      "hint": "wine",
+      "source": "short form of Wiktionary"
+    },
+    "W066": {
+      "hint": "I have (avere)",
+      "source": "short form of Wiktionary"
+    },
+    "W067": {
+      "hint": "you have (avere)",
+      "source": "short form of Wiktionary"
+    },
+    "W068": {
+      "hint": "has (avere)",
+      "source": "short form of Wiktionary"
+    },
+    "W069": {
+      "hint": "dog",
+      "source": "short form of Wiktionary"
+    },
+    "W070": {
+      "hint": "cat",
+      "source": "short form of Wiktionary"
+    },
+    "W071": {
+      "hint": "horse",
+      "source": "short form of Wiktionary"
+    },
+    "W072": {
+      "hint": "bird",
+      "source": "short form of Wiktionary"
+    },
+    "W073": {
+      "hint": "fish",
+      "source": "short form of Wiktionary"
+    },
+    "W074": {
+      "hint": "mouse; rat",
+      "source": "short form of Wiktionary"
+    },
+    "W075": {
+      "hint": "animal",
+      "source": "short form of Wiktionary"
+    },
+    "W076": {
+      "hint": "the (masculine plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W077": {
+      "hint": "the (masculine plural, before a vowel); also to him",
+      "source": "short form of Wiktionary"
+    },
+    "W078": {
+      "hint": "the (feminine plural); also to her",
+      "source": "short form of Wiktionary"
+    },
+    "W079": {
+      "hint": "we",
+      "source": "short form of Wiktionary"
+    },
+    "W080": {
+      "hint": "you (several people)",
+      "source": "short form of Wiktionary"
+    },
+    "W081": {
+      "hint": "they",
+      "source": "short form of Wiktionary"
+    },
+    "W082": {
+      "hint": "we are (essere)",
+      "source": "short form of Wiktionary"
+    },
+    "W083": {
+      "hint": "you are (essere, several people)",
+      "source": "short form of Wiktionary"
+    },
+    "W084": {
+      "hint": "we have (avere)",
+      "source": "short form of Wiktionary"
+    },
+    "W085": {
+      "hint": "you have (avere, several people)",
+      "source": "short form of Wiktionary"
+    },
+    "W086": {
+      "hint": "they have (avere)",
+      "source": "short form of Wiktionary"
+    },
+    "W087": {
+      "hint": "books",
+      "source": "short form of Wiktionary"
+    },
+    "W088": {
+      "hint": "cats",
+      "source": "short form of Wiktionary"
+    },
+    "W089": {
+      "hint": "children; kids",
+      "source": "short form of Wiktionary"
+    },
+    "W090": {
+      "hint": "apples",
+      "source": "short form of Wiktionary"
+    },
+    "W091": {
+      "hint": "men",
+      "source": "short form of Wiktionary"
+    },
+    "W092": {
+      "hint": "boys; guys; kids",
+      "source": "short form of Wiktionary"
+    },
+    "W093": {
+      "hint": "friends",
+      "source": "short form of Wiktionary"
+    },
+    "W094": {
+      "hint": "many",
+      "source": "short form of Wiktionary"
+    },
+    "W095": {
+      "hint": "good",
+      "source": "short form of Wiktionary"
+    },
+    "W096": {
+      "hint": "good (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W097": {
+      "hint": "old",
+      "source": "short form of Wiktionary"
+    },
+    "W098": {
+      "hint": "old (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W099": {
+      "hint": "new",
+      "source": "short form of Wiktionary"
+    },
+    "W100": {
+      "hint": "new (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W101": {
+      "hint": "young",
+      "source": "short form of Wiktionary"
+    },
+    "W102": {
+      "hint": "beautiful, nice",
+      "source": "short form of Wiktionary"
+    },
+    "W103": {
+      "hint": "beautiful, nice (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W104": {
+      "hint": "very; a lot",
+      "source": "short form of Wiktionary"
+    },
+    "W105": {
+      "hint": "also, too",
+      "source": "short form of Wiktionary"
+    },
+    "W106": {
+      "hint": "car",
+      "source": "short form of Wiktionary"
+    },
+    "W107": {
+      "hint": "there is",
+      "source": "short form of Wiktionary"
+    },
+    "W108": {
+      "hint": "there are",
+      "source": "short form of Wiktionary"
+    },
+    "W109": {
+      "hint": "there",
+      "source": "short form of Wiktionary"
+    },
+    "W110": {
+      "hint": "in; by (in treno)",
+      "source": "short form of Wiktionary"
+    },
+    "W111": {
+      "hint": "on the",
+      "source": "short form of Wiktionary"
+    },
+    "W112": {
+      "hint": "table",
+      "source": "short form of Wiktionary"
+    },
+    "W113": {
+      "hint": "bed",
+      "source": "short form of Wiktionary"
+    },
+    "W114": {
+      "hint": "kitchen",
+      "source": "short form of Wiktionary"
+    },
+    "W115": {
+      "hint": "bathroom; toilet",
+      "source": "short form of Wiktionary"
+    },
+    "W116": {
+      "hint": "garden",
+      "source": "short form of Wiktionary"
+    },
+    "W117": {
+      "hint": "tired",
+      "source": "short form of Wiktionary"
+    },
+    "W118": {
+      "hint": "tired (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W119": {
+      "hint": "happy",
+      "source": "short form of Wiktionary"
+    },
+    "W120": {
+      "hint": "sad",
+      "source": "short form of Wiktionary"
+    },
+    "W121": {
+      "hint": "ill, sick",
+      "source": "short form of Wiktionary"
+    },
+    "W122": {
+      "hint": "ill, sick (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W123": {
+      "hint": "hunger; hungry (ho fame)",
+      "source": "short form of Wiktionary"
+    },
+    "W124": {
+      "hint": "thirst; thirsty (ho sete)",
+      "source": "short form of Wiktionary"
+    },
+    "W125": {
+      "hint": "sleep; sleepy (ho sonno)",
+      "source": "short form of Wiktionary"
+    },
+    "W126": {
+      "hint": "fear; afraid (ho paura)",
+      "source": "short form of Wiktionary"
+    },
+    "W127": {
+      "hint": "cold",
+      "source": "short form of Wiktionary"
+    },
+    "W128": {
+      "hint": "hot, warm",
+      "source": "short form of Wiktionary"
+    },
+    "W129": {
+      "hint": "my",
+      "source": "short form of Wiktionary"
+    },
+    "W130": {
+      "hint": "my (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W131": {
+      "hint": "my (masculine plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W132": {
+      "hint": "my (feminine plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W133": {
+      "hint": "your",
+      "source": "short form of Wiktionary"
+    },
+    "W134": {
+      "hint": "your (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W135": {
+      "hint": "his, her; your (polite)",
+      "source": "short form of Wiktionary"
+    },
+    "W136": {
+      "hint": "his, her; your (polite; feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W137": {
+      "hint": "of; 's",
+      "source": "short form of Wiktionary"
+    },
+    "W138": {
+      "hint": "friend",
+      "source": "short form of Wiktionary"
+    },
+    "W139": {
+      "hint": "friend (woman or girl)",
+      "source": "short form of Wiktionary"
+    },
+    "W140": {
+      "hint": "family",
+      "source": "short form of Wiktionary"
+    },
+    "W141": {
+      "hint": "father; dad",
+      "source": "short form of Wiktionary"
+    },
+    "W142": {
+      "hint": "mother; mom",
+      "source": "short form of Wiktionary"
+    },
+    "W143": {
+      "hint": "who",
+      "source": "short form of Wiktionary"
+    },
+    "W144": {
+      "hint": "what; also thing",
+      "source": "short form of Wiktionary"
+    },
+    "W145": {
+      "hint": "what; which",
+      "source": "short form of Wiktionary"
+    },
+    "W146": {
+      "hint": "where",
+      "source": "short form of Wiktionary"
+    },
+    "W147": {
+      "hint": "where is",
+      "source": "short form of Wiktionary"
+    },
+    "W148": {
+      "hint": "when",
+      "source": "short form of Wiktionary"
+    },
+    "W149": {
+      "hint": "why; because",
+      "source": "short form of Wiktionary"
+    },
+    "W150": {
+      "hint": "which, what",
+      "source": "short form of Wiktionary"
+    },
+    "W151": {
+      "hint": "one",
+      "source": "short form of Wiktionary"
+    },
+    "W152": {
+      "hint": "two",
+      "source": "short form of Wiktionary"
+    },
+    "W153": {
+      "hint": "three",
+      "source": "short form of Wiktionary"
+    },
+    "W154": {
+      "hint": "four",
+      "source": "short form of Wiktionary"
+    },
+    "W155": {
+      "hint": "five",
+      "source": "short form of Wiktionary"
+    },
+    "W156": {
+      "hint": "seven",
+      "source": "short form of Wiktionary"
+    },
+    "W157": {
+      "hint": "eight",
+      "source": "short form of Wiktionary"
+    },
+    "W158": {
+      "hint": "nine",
+      "source": "short form of Wiktionary"
+    },
+    "W159": {
+      "hint": "ten",
+      "source": "short form of Wiktionary"
+    },
+    "W160": {
+      "hint": "how many",
+      "source": "short form of Wiktionary"
+    },
+    "W161": {
+      "hint": "how many (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W162": {
+      "hint": "red",
+      "source": "short form of Wiktionary"
+    },
+    "W163": {
+      "hint": "red (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W164": {
+      "hint": "blue",
+      "source": "short form of Wiktionary"
+    },
+    "W165": {
+      "hint": "green",
+      "source": "short form of Wiktionary"
+    },
+    "W166": {
+      "hint": "black",
+      "source": "short form of Wiktionary"
+    },
+    "W167": {
+      "hint": "black (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W168": {
+      "hint": "white",
+      "source": "short form of Wiktionary"
+    },
+    "W169": {
+      "hint": "white (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W170": {
+      "hint": "yellow",
+      "source": "short form of Wiktionary"
+    },
+    "W171": {
+      "hint": "yellow (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W172": {
+      "hint": "color",
+      "source": "short form of Wiktionary"
+    },
+    "W173": {
+      "hint": "today",
+      "source": "short form of Wiktionary"
+    },
+    "W174": {
+      "hint": "tomorrow",
+      "source": "short form of Wiktionary"
+    },
+    "W175": {
+      "hint": "now",
+      "source": "short form of Wiktionary"
+    },
+    "W176": {
+      "hint": "day",
+      "source": "short form of Wiktionary"
+    },
+    "W177": {
+      "hint": "week",
+      "source": "short form of Wiktionary"
+    },
+    "W178": {
+      "hint": "hour, time; also now",
+      "source": "short form of Wiktionary"
+    },
+    "W179": {
+      "hint": "Monday",
+      "source": "short form of Wiktionary"
+    },
+    "W180": {
+      "hint": "Saturday",
+      "source": "short form of Wiktionary"
+    },
+    "W181": {
+      "hint": "Sunday",
+      "source": "short form of Wiktionary"
+    },
+    "W182": {
+      "hint": "I go (andare)",
+      "source": "short form of Wiktionary"
+    },
+    "W183": {
+      "hint": "you go (andare)",
+      "source": "short form of Wiktionary"
+    },
+    "W184": {
+      "hint": "goes (andare)",
+      "source": "short form of Wiktionary"
+    },
+    "W185": {
+      "hint": "to; at; in",
+      "source": "short form of Wiktionary"
+    },
+    "W186": {
+      "hint": "to the, at the",
+      "source": "short form of Wiktionary"
+    },
+    "W187": {
+      "hint": "to the, at the (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W188": {
+      "hint": "park",
+      "source": "short form of Wiktionary"
+    },
+    "W189": {
+      "hint": "school",
+      "source": "short form of Wiktionary"
+    },
+    "W190": {
+      "hint": "shop, store",
+      "source": "short form of Wiktionary"
+    },
+    "W191": {
+      "hint": "town, city",
+      "source": "short form of Wiktionary"
+    },
+    "W192": {
+      "hint": "restaurant",
+      "source": "short form of Wiktionary"
+    },
+    "W701": {
+      "hint": "I understand (capire)",
+      "source": "short form of Wiktionary"
+    },
+    "W702": {
+      "hint": "you understand (capire)",
+      "source": "short form of Wiktionary"
+    },
+    "W703": {
+      "hint": "slowly",
+      "source": "short form of Wiktionary"
+    },
+    "W704": {
+      "hint": "more",
+      "source": "short form of Wiktionary"
+    },
+    "W705": {
+      "hint": "repeat (to a friend; ripetere)",
+      "source": "short form of Wiktionary"
+    },
+    "W706": {
+      "hint": "repeat (polite; ripetere)",
+      "source": "short form of Wiktionary"
+    },
+    "W707": {
+      "hint": "speaks; speak (parlare)",
+      "source": "short form of Wiktionary"
+    },
+    "W708": {
+      "hint": "you speak (parlare)",
+      "source": "short form of Wiktionary"
+    },
+    "W709": {
+      "hint": "again; still",
+      "source": "short form of Wiktionary"
+    },
+    "W710": {
+      "hint": "slowly",
+      "source": "short form of Wiktionary"
+    },
+    "W711": {
+      "hint": "one, you (si dice: one says)",
+      "source": "short form of Wiktionary"
+    },
+    "W712": {
+      "hint": "says (dire)",
+      "source": "short form of Wiktionary"
+    },
+    "W713": {
+      "hint": "means (significare)",
+      "source": "short form of Wiktionary"
+    },
+    "W714": {
+      "hint": "wants (vuol dire: means)",
+      "source": "short form of Wiktionary"
+    },
+    "W715": {
+      "hint": "to say",
+      "source": "short form of Wiktionary"
+    },
+    "W716": {
+      "hint": "word",
+      "source": "short form of Wiktionary"
+    },
+    "W717": {
+      "hint": "Italian (language)",
+      "source": "short form of Wiktionary"
+    },
+    "W718": {
+      "hint": "English (language)",
+      "source": "short form of Wiktionary"
+    },
+    "W719": {
+      "hint": "I'm looking for (cercare)",
+      "source": "short form of Wiktionary"
+    },
+    "W720": {
+      "hint": "looks for (cercare)",
+      "source": "short form of Wiktionary"
+    },
+    "W721": {
+      "hint": "I know (sapere)",
+      "source": "short form of Wiktionary"
+    },
+    "W722": {
+      "hint": "you know (sapere)",
+      "source": "short form of Wiktionary"
+    },
+    "W723": {
+      "hint": "it; him",
+      "source": "short form of Wiktionary"
+    },
+    "W724": {
+      "hint": "for",
+      "source": "short form of Wiktionary"
+    },
+    "W725": {
+      "hint": "calls (si chiama: is called)",
+      "source": "short form of Wiktionary"
+    },
+    "W726": {
+      "hint": "is for, is used (servire)",
+      "source": "short form of Wiktionary"
+    },
+    "W1001": {
+      "hint": "hair",
+      "source": "short form of Wiktionary"
+    },
+    "W1002": {
+      "hint": "eyes",
+      "source": "short form of Wiktionary"
+    },
+    "W1003": {
+      "hint": "hand",
+      "source": "short form of Wiktionary"
+    },
+    "W1004": {
+      "hint": "hands",
+      "source": "short form of Wiktionary"
+    },
+    "W1005": {
+      "hint": "feet",
+      "source": "short form of Wiktionary"
+    },
+    "W1006": {
+      "hint": "nose",
+      "source": "short form of Wiktionary"
+    },
+    "W1007": {
+      "hint": "mouth",
+      "source": "short form of Wiktionary"
+    },
+    "W1008": {
+      "hint": "head",
+      "source": "short form of Wiktionary"
+    },
+    "W1009": {
+      "hint": "face",
+      "source": "short form of Wiktionary"
+    },
+    "W1010": {
+      "hint": "leg",
+      "source": "short form of Wiktionary"
+    },
+    "W1011": {
+      "hint": "arm",
+      "source": "short form of Wiktionary"
+    },
+    "W1012": {
+      "hint": "long (masculine plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W1013": {
+      "hint": "blue, light blue (masculine plural)",
+      "source": "short form of Wiktionary"
+    },
+    "W1014": {
+      "hint": "tall",
+      "source": "short form of Wiktionary"
+    },
+    "W1015": {
+      "hint": "tall (feminine)",
+      "source": "short form of Wiktionary"
+    },
+    "W1016": {
+      "hint": "nice, friendly",
+      "source": "short form of Wiktionary"
+    },
+    "W1017": {
+      "hint": "music",
+      "source": "short form of Wiktionary"
+    },
+    "W1018": {
+      "hint": "photo; picture",
+      "source": "short form of Wiktionary"
+    },
+    "W1019": {
+      "hint": "party; holiday",
+      "source": "short form of Wiktionary"
+    },
+    "W1020": {
+      "hint": "soccer; football",
+      "source": "short form of Wiktionary"
+    },
+    "W1021": {
+      "hint": "game",
+      "source": "short form of Wiktionary"
+    },
+    "W1022": {
+      "hint": "to swim",
+      "source": "short form of Wiktionary"
+    },
+    "W1023": {
+      "hint": "I swim (nuotare)",
+      "source": "short form of Wiktionary"
+    },
+    "W1024": {
+      "hint": "to dance",
+      "source": "short form of Wiktionary"
+    },
+    "W1025": {
+      "hint": "dances (ballare)",
+      "source": "short form of Wiktionary"
+    },
+    "W1026": {
+      "hint": "to sing",
+      "source": "short form of Wiktionary"
+    },
+    "W1027": {
+      "hint": "I sing (cantare)",
+      "source": "short form of Wiktionary"
+    },
+    "W1028": {
+      "hint": "sings (cantare)",
+      "source": "short form of Wiktionary"
+    },
+    "W1029": {
+      "hint": "to read",
+      "source": "short form of Wiktionary"
+    },
+    "W1030": {
+      "hint": "I read (leggere)",
+      "source": "short form of Wiktionary"
+    },
+    "W1031": {
+      "hint": "reads (leggere)",
+      "source": "short form of Wiktionary"
+    },
+    "W1032": {
+      "hint": "museum",
+      "source": "short form of Wiktionary"
+    },
+    "W1033": {
+      "hint": "movie theater; cinema; movies",
+      "source": "short form of Wiktionary"
+    },
+    "W1034": {
+      "hint": "theater",
+      "source": "short form of Wiktionary"
+    },
+    "W1035": {
+      "hint": "church",
+      "source": "short form of Wiktionary"
+    },
+    "W1036": {
+      "hint": "hotel",
+      "source": "short form of Wiktionary"
+    },
+    "W1037": {
+      "hint": "station",
+      "source": "short form of Wiktionary"
+    },
+    "W1038": {
+      "hint": "bus",
+      "source": "short form of Wiktionary"
+    },
+    "W1039": {
+      "hint": "train",
+      "source": "short form of Wiktionary"
+    },
+    "W1040": {
+      "hint": "taxi",
+      "source": "short form of Wiktionary"
+    },
+    "W1041": {
+      "hint": "square",
+      "source": "short form of Wiktionary"
+    },
+    "W1042": {
+      "hint": "road, street",
+      "source": "short form of Wiktionary"
+    },
+    "W1043": {
+      "hint": "village, town; country",
+      "source": "short form of Wiktionary"
+    },
+    "W1044": {
+      "hint": "bicycle; bike",
+      "source": "short form of Wiktionary"
+    },
+    "W1045": {
+      "hint": "vacation; holiday",
+      "source": "short form of Wiktionary"
+    },
+    "W1046": {
+      "hint": "with",
+      "source": "short form of Wiktionary"
+    }
+  },
+  "phrases_off": [],
+  "names": [
+    "Tom",
+    "Maria",
+    "Mary",
+    "Marco",
+    "Anna",
+    "Roma",
+    "Milano",
+    "Londra",
+    "Parigi"
+  ],
+  "_names": "Names allowed in Italian lines: people, and a few cities",
+  "accepted_additions": [
+    {
+      "answer_id": "AD0001",
+      "sentence_id": "S3109",
+      "direction": "fr_to_en",
+      "answer": "Excuse me, are you Tom?",
+      "source": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0002",
+      "sentence_id": "S4105",
+      "direction": "en_to_fr",
+      "answer": "Sì, bevo il caffè.",
+      "source": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0003",
+      "sentence_id": "S12110",
+      "direction": "en_to_fr",
+      "answer": "Ho due figli.",
+      "source": "Fable check of 2026-11-14 (_review/italian-part1-check.md), applied at Dan’s request",
+      "status": "live"
+    }
+  ],
+  "_cut_sentences": "Cut after the last pull, for the reasons recorded against their Tatoeba ids in content-it/sweep/packs-review.json. S51105 (Che cosa hai in testa?): cut from Fable's check of 2026-11-14, it is heard as What are you thinking?"
+}

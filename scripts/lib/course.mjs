@@ -10,7 +10,7 @@ export const COURSE = process.env.COURSE ?? 'fr'
 
 export const COURSES = {
   fr: {
-    id: 'fr', name: 'French', workbook: '_source/tamago-data-v34.xlsx',
+    id: 'fr', name: 'French', workbook: '_source/tamago-data-v35.xlsx',
     tatoeba: 'fra', wiktionaryCode: 'fr', wiktionarySection: 'French', linguaLibre: { qid: 'Q150', iso: 'fra' }, wikidataLanguage: 'Q150',
   },
   es: {
@@ -21,6 +21,11 @@ export const COURSES = {
   de: {
     id: 'de', name: 'German', workbook: '_source/tamago-de-data-v7.xlsx',
     tatoeba: 'deu', wiktionaryCode: 'de', wiktionarySection: 'German', linguaLibre: { qid: 'Q188', iso: 'deu' }, wikidataLanguage: 'Q188',
+  },
+  // Italian (2026-11-14, branch lang/italian): standard Italian as spoken in Italy, tu and Lei. Its folders: content-it/…
+  it: {
+    id: 'it', name: 'Italian', workbook: '_source/tamago-it-data-v4.xlsx',
+    tatoeba: 'ita', wiktionaryCode: 'it', wiktionarySection: 'Italian', linguaLibre: { qid: 'Q652', iso: 'ita' }, wikidataLanguage: 'Q652',
   },
   // Brazilian Portuguese (2026-11-14, branch lang/portuguese): você, Brazilian spelling and words. Its folders: content-pt/…
   pt: {

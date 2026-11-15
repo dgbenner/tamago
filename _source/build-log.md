@@ -737,3 +737,13 @@ Part 3, Lingua Libre recordings:
 - French Part 3, Time and Plans (scripts/add-part.mjs, scripts/part3/fr.mjs, workbook v34): 17 circles, Brush-Up C05 and C06, 32 task items (15 Read and Answer texts, three per circle that has it). Each circle pulled, reviewed into content/sweep/packs-review.json (other senses: au moins, montre as watch, ouvert as open-minded, arriver as happen, monter à cheval; venir de; idioms; dark or crude lines), drafted where Tatoeba had under 3 (times and dates above all), approved with grammar notes. 2,041 sentences shipped (1,507 Tatoeba, 534 originals); Part 3 drafts 144. FLELex core: 240 to 358 of 600.
 - Audits on Part 3: word audit 0 and 0 (1,528 lessons); every-lesson check 0 (15,576 questions); browser pass 13 flags (Read and Answer texts repeating a choice between their two questions) to 0. npm test 171 pass.
 - Quality pass for Fable: _review/french-part3-candidates.md (639 candidates, 144 drafts, 3 same text, 73 covered) and _review/french-part3-drafts.md. Nothing swapped.
+- French Part 4, Out and About (scripts/part4/fr.mjs, workbook v35): 17 circles, Brush-Up C07 and C08, 28 task items (15 Read and Answer texts). Reviews cut the other senses (marcher as work, entre as come in, feu as fire, place as seat, perdre as losing a game, chez as about, difficile as picky, nouvelle as news), venir de, idioms and confrontational lines. 2,516 sentences shipped (1,882 Tatoeba, 634 originals); Part 4 drafts 100. FLELex core: 358 to 435 of 600.
+- Audits on Part 4: word audit 0 and 0 (1,894 lessons); every-lesson check 0 (19,326 questions); browser pass (see check-in).
+- Quality pass for Fable: _review/french-part4-candidates.md (478 candidates, 100 drafts, 5 same text, 54 covered) and _review/french-part4-drafts.md. Nothing swapped; Fable reviews Parts 3 and 4 together.
+
+## 2026-11-14: Italian wired in, Developer only
+
+- lang/italian (Builder 2) merged into main: content-it/, src/content-it/, public/audio-it/, workbook tamago-it-data, Part 1 (21 circles, 264 words), flags for it, pt, nl.
+- Wiring (from _review/italian-framework-needs.md): course.js entry with `devOnly` (ready only while Developer is on; Coming Soon otherwise), main.jsx loader (tables-it.js), vite WORKBOOKS, Developer PARTS and Course Snapshot, voice-lab, lesson.js ARTICLES, finalcheck EXAMS (CELI Impatto A1, to confirm), converse HELP_PHRASES and SCENES, server LANG, auth COURSES and accounts-spec SQL, AdminApp, tests, assign-icons, sushi-catalog, audit scripts.
+- Audits: word audit 0 early words, 0 lessons over 4 (665 lessons); every-lesson check 0 issues (6,650 questions); browser pass 0 flags (iPhone and desktop). npm test 178 pass.
+- Not yet: Italian pictures map (image-list.mjs), Italian A1 task samples (a1-samples.js).

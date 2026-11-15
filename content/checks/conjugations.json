@@ -1714,5 +1714,811 @@
       "person": "ils, elles",
       "form": "découvrent"
     }
+  ],
+  "boire": [
+    {
+      "person": "je (j’)",
+      "form": "bois"
+    },
+    {
+      "person": "tu",
+      "form": "bois"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "boit"
+    },
+    {
+      "person": "nous",
+      "form": "buvons"
+    },
+    {
+      "person": "vous",
+      "form": "buvez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "boivent"
+    }
+  ],
+  "excuser": [
+    {
+      "person": "je (j’)",
+      "form": "excuse"
+    },
+    {
+      "person": "tu",
+      "form": "excuses"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "excuse"
+    },
+    {
+      "person": "nous",
+      "form": "excusons"
+    },
+    {
+      "person": "vous",
+      "form": "excusez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "excusent"
+    }
+  ],
+  "demander": [
+    {
+      "person": "je (j’)",
+      "form": "demande"
+    },
+    {
+      "person": "tu",
+      "form": "demandes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "demande"
+    },
+    {
+      "person": "nous",
+      "form": "demandons"
+    },
+    {
+      "person": "vous",
+      "form": "demandez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "demandent"
+    }
+  ],
+  "poser": [
+    {
+      "person": "je (j’)",
+      "form": "pose"
+    },
+    {
+      "person": "tu",
+      "form": "poses"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "pose"
+    },
+    {
+      "person": "nous",
+      "form": "posons"
+    },
+    {
+      "person": "vous",
+      "form": "posez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "posent"
+    }
+  ],
+  "traverser": [
+    {
+      "person": "je (j’)",
+      "form": "traverse"
+    },
+    {
+      "person": "tu",
+      "form": "traverses"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "traverse"
+    },
+    {
+      "person": "nous",
+      "form": "traversons"
+    },
+    {
+      "person": "vous",
+      "form": "traversez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "traversent"
+    }
+  ],
+  "continuer": [
+    {
+      "person": "je (j’)",
+      "form": "continue"
+    },
+    {
+      "person": "tu",
+      "form": "continues"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "continue"
+    },
+    {
+      "person": "nous",
+      "form": "continuons"
+    },
+    {
+      "person": "vous",
+      "form": "continuez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "continuent"
+    }
+  ],
+  "suivre": [
+    {
+      "person": "je (j’)",
+      "form": "suis"
+    },
+    {
+      "person": "tu",
+      "form": "suis"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "suit"
+    },
+    {
+      "person": "nous",
+      "form": "suivons"
+    },
+    {
+      "person": "vous",
+      "form": "suivez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "suivent"
+    }
+  ],
+  "marcher": [
+    {
+      "person": "je (j’)",
+      "form": "marche"
+    },
+    {
+      "person": "tu",
+      "form": "marches"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "marche"
+    },
+    {
+      "person": "nous",
+      "form": "marchons"
+    },
+    {
+      "person": "vous",
+      "form": "marchez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "marchent"
+    }
+  ],
+  "rentrer": [
+    {
+      "person": "je (j’)",
+      "form": "rentre"
+    },
+    {
+      "person": "tu",
+      "form": "rentres"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "rentre"
+    },
+    {
+      "person": "nous",
+      "form": "rentrons"
+    },
+    {
+      "person": "vous",
+      "form": "rentrez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "rentrent"
+    }
+  ],
+  "entrer": [
+    {
+      "person": "je (j’)",
+      "form": "entre"
+    },
+    {
+      "person": "tu",
+      "form": "entres"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "entre"
+    },
+    {
+      "person": "nous",
+      "form": "entrons"
+    },
+    {
+      "person": "vous",
+      "form": "entrez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "entrent"
+    }
+  ],
+  "revenir": [
+    {
+      "person": "je (j’)",
+      "form": "reviens"
+    },
+    {
+      "person": "tu",
+      "form": "reviens"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "revient"
+    },
+    {
+      "person": "nous",
+      "form": "revenons"
+    },
+    {
+      "person": "vous",
+      "form": "revenez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "reviennent"
+    }
+  ],
+  "retourner": [
+    {
+      "person": "je (j’)",
+      "form": "retourne"
+    },
+    {
+      "person": "tu",
+      "form": "retournes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "retourne"
+    },
+    {
+      "person": "nous",
+      "form": "retournons"
+    },
+    {
+      "person": "vous",
+      "form": "retournez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "retournent"
+    }
+  ],
+  "voyager": [
+    {
+      "person": "je (j’)",
+      "form": "voyage"
+    },
+    {
+      "person": "tu",
+      "form": "voyages"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "voyage"
+    },
+    {
+      "person": "nous",
+      "form": "voyageons"
+    },
+    {
+      "person": "vous",
+      "form": "voyagez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "voyagent"
+    }
+  ],
+  "porter": [
+    {
+      "person": "je (j’)",
+      "form": "porte"
+    },
+    {
+      "person": "tu",
+      "form": "portes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "porte"
+    },
+    {
+      "person": "nous",
+      "form": "portons"
+    },
+    {
+      "person": "vous",
+      "form": "portez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "portent"
+    }
+  ],
+  "gagner": [
+    {
+      "person": "je (j’)",
+      "form": "gagne"
+    },
+    {
+      "person": "tu",
+      "form": "gagnes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "gagne"
+    },
+    {
+      "person": "nous",
+      "form": "gagnons"
+    },
+    {
+      "person": "vous",
+      "form": "gagnez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "gagnent"
+    }
+  ],
+  "perdre": [
+    {
+      "person": "je (j’)",
+      "form": "perds"
+    },
+    {
+      "person": "tu",
+      "form": "perds"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "perd"
+    },
+    {
+      "person": "nous",
+      "form": "perdons"
+    },
+    {
+      "person": "vous",
+      "form": "perdez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "perdent"
+    }
+  ],
+  "courir": [
+    {
+      "person": "je (j’)",
+      "form": "cours"
+    },
+    {
+      "person": "tu",
+      "form": "cours"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "court"
+    },
+    {
+      "person": "nous",
+      "form": "courons"
+    },
+    {
+      "person": "vous",
+      "form": "courez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "courent"
+    }
+  ],
+  "nager": [
+    {
+      "person": "je (j’)",
+      "form": "nage"
+    },
+    {
+      "person": "tu",
+      "form": "nages"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "nage"
+    },
+    {
+      "person": "nous",
+      "form": "nageons"
+    },
+    {
+      "person": "vous",
+      "form": "nagez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "nagent"
+    }
+  ],
+  "raconter": [
+    {
+      "person": "je (j’)",
+      "form": "raconte"
+    },
+    {
+      "person": "tu",
+      "form": "racontes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "raconte"
+    },
+    {
+      "person": "nous",
+      "form": "racontons"
+    },
+    {
+      "person": "vous",
+      "form": "racontez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "racontent"
+    }
+  ],
+  "expliquer": [
+    {
+      "person": "je (j’)",
+      "form": "explique"
+    },
+    {
+      "person": "tu",
+      "form": "expliques"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "explique"
+    },
+    {
+      "person": "nous",
+      "form": "expliquons"
+    },
+    {
+      "person": "vous",
+      "form": "expliquez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "expliquent"
+    }
+  ],
+  "rire": [
+    {
+      "person": "je (j’)",
+      "form": "ris"
+    },
+    {
+      "person": "tu",
+      "form": "ris"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "rit"
+    },
+    {
+      "person": "nous",
+      "form": "rions"
+    },
+    {
+      "person": "vous",
+      "form": "riez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "rient"
+    }
+  ],
+  "présenter": [
+    {
+      "person": "je (j’)",
+      "form": "présente"
+    },
+    {
+      "person": "tu",
+      "form": "présentes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "présente"
+    },
+    {
+      "person": "nous",
+      "form": "présentons"
+    },
+    {
+      "person": "vous",
+      "form": "présentez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "présentent"
+    }
+  ],
+  "proposer": [
+    {
+      "person": "je (j’)",
+      "form": "propose"
+    },
+    {
+      "person": "tu",
+      "form": "proposes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "propose"
+    },
+    {
+      "person": "nous",
+      "form": "proposons"
+    },
+    {
+      "person": "vous",
+      "form": "proposez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "proposent"
+    }
+  ],
+  "téléphoner": [
+    {
+      "person": "je (j’)",
+      "form": "téléphone"
+    },
+    {
+      "person": "tu",
+      "form": "téléphones"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "téléphone"
+    },
+    {
+      "person": "nous",
+      "form": "téléphonons"
+    },
+    {
+      "person": "vous",
+      "form": "téléphonez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "téléphonent"
+    }
+  ],
+  "changer": [
+    {
+      "person": "je (j’)",
+      "form": "change"
+    },
+    {
+      "person": "tu",
+      "form": "changes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "change"
+    },
+    {
+      "person": "nous",
+      "form": "changeons"
+    },
+    {
+      "person": "vous",
+      "form": "changez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "changent"
+    }
+  ],
+  "devenir": [
+    {
+      "person": "je (j’)",
+      "form": "deviens"
+    },
+    {
+      "person": "tu",
+      "form": "deviens"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "devient"
+    },
+    {
+      "person": "nous",
+      "form": "devenons"
+    },
+    {
+      "person": "vous",
+      "form": "devenez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "deviennent"
+    }
+  ],
+  "décider": [
+    {
+      "person": "je (j’)",
+      "form": "décide"
+    },
+    {
+      "person": "tu",
+      "form": "décides"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "décide"
+    },
+    {
+      "person": "nous",
+      "form": "décidons"
+    },
+    {
+      "person": "vous",
+      "form": "décidez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "décident"
+    }
+  ],
+  "espérer": [
+    {
+      "person": "je (j’)",
+      "form": "espère"
+    },
+    {
+      "person": "tu",
+      "form": "espères"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "espère"
+    },
+    {
+      "person": "nous",
+      "form": "espérons"
+    },
+    {
+      "person": "vous",
+      "form": "espérez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "espèrent"
+    }
+  ],
+  "apprendre": [
+    {
+      "person": "je (j’)",
+      "form": "apprends"
+    },
+    {
+      "person": "tu",
+      "form": "apprends"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "apprend"
+    },
+    {
+      "person": "nous",
+      "form": "apprenons"
+    },
+    {
+      "person": "vous",
+      "form": "apprenez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "apprennent"
+    }
+  ],
+  "arrêter": [
+    {
+      "person": "je (j’)",
+      "form": "arrête"
+    },
+    {
+      "person": "tu",
+      "form": "arrêtes"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "arrête"
+    },
+    {
+      "person": "nous",
+      "form": "arrêtons"
+    },
+    {
+      "person": "vous",
+      "form": "arrêtez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "arrêtent"
+    }
+  ],
+  "laisser": [
+    {
+      "person": "je (j’)",
+      "form": "laisse"
+    },
+    {
+      "person": "tu",
+      "form": "laisses"
+    },
+    {
+      "person": "il, elle, on",
+      "form": "laisse"
+    },
+    {
+      "person": "nous",
+      "form": "laissons"
+    },
+    {
+      "person": "vous",
+      "form": "laissez"
+    },
+    {
+      "person": "ils, elles",
+      "form": "laissent"
+    }
   ]
 }

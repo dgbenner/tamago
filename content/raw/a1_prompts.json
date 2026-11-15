@@ -58,5 +58,35 @@
     "max_words": 40,
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "P301",
+    "unit_id": "U82",
+    "prompt": "Write a short message to a friend about a restaurant: where it is, what you ate and what it cost.",
+    "points": "where it is;what you ate;the price",
+    "min_words": 25,
+    "max_words": 40,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P302",
+    "unit_id": "U84",
+    "prompt": "Write a short message to a friend: how to get to your home from the station.",
+    "points": "leaving the station;two directions;where your home is",
+    "min_words": 25,
+    "max_words": 40,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P303",
+    "unit_id": "U88",
+    "prompt": "Write a short postcard from a trip: where you are, your hotel and when you go home.",
+    "points": "where you are;your hotel;when you go home",
+    "min_words": 25,
+    "max_words": 40,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

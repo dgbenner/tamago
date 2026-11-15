@@ -57,6 +57,14 @@ const THEMES = {
     Months: ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre', 'mes'],
     Dates: ['fecha', 'año', 'primero', 'cumpleaños', 'primavera', 'verano', 'otoño', 'invierno'],
   },
+  it: {
+    'Numbers to 100': ['zero', 'uno', 'due', 'tre', 'quattro', 'cinque', 'sei', 'sette', 'otto', 'nove', 'dieci', 'undici', 'dodici', 'tredici', 'quattordici', 'quindici', 'sedici', 'diciassette', 'diciotto', 'diciannove', 'venti', 'trenta', 'quaranta', 'cinquanta', 'sessanta', 'settanta', 'ottanta', 'novanta', 'cento'],
+    Prices: ['euro', 'centesimo', 'costare', 'prezzo', 'caro', 'economico', 'pagare', 'soldi'],
+    Times: ['ora', 'minuto', 'mezzo', 'quarto', 'meno', 'mattina', 'mezzogiorno', 'pomeriggio', 'sera', 'notte', 'presto', 'tardi'],
+    Days: ['lunedì', 'martedì', 'mercoledì', 'giovedì', 'venerdì', 'sabato', 'domenica', 'fine settimana', 'giorno', 'settimana', 'oggi', 'domani', 'ieri'],
+    Months: ['gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno', 'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre', 'mese'],
+    Dates: ['data', 'anno', 'primo', 'compleanno', 'primavera', 'estate', 'autunno', 'inverno'],
+  },
   pt: {
     'Numbers to 100': ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze', 'catorze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove', 'vinte', 'trinta', 'quarenta', 'cinquenta', 'sessenta', 'setenta', 'oitenta', 'noventa', 'cem'],
     Prices: ['real', 'centavo', 'custar', 'preço', 'caro', 'barato', 'pagar', 'dinheiro'],

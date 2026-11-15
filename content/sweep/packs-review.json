@@ -466,5 +466,223 @@
       "10694894": "sentimental",
       "10694895": "sentimental"
     }
+  },
+  "U81": {
+    "reject": {
+      "859427": "near duplicate",
+      "1090305": "near duplicate",
+      "3501473": "English does not match",
+      "5245735": "odd",
+      "8738906": "odd",
+      "11714223": "idiom (s en prendre à)"
+    }
+  },
+  "U91": {
+    "reject": {
+      "1507843": "idiom (hats off)",
+      "3326399": "odd",
+      "3487857": "English reads oddly (handsome)",
+      "5964200": "near duplicate",
+      "6563970": "venir de (just did), later",
+      "9027451": "near duplicate",
+      "10809027": "other sense (porter as carry)"
+    }
+  },
+  "U26": {
+    "reject": {
+      "804550": "proverb",
+      "898823": "colloquial (demander après)",
+      "1495394": "near duplicate",
+      "1869413": "near duplicate",
+      "2292102": "odd",
+      "3469923": "other sense (se demander: wonder)",
+      "3636962": "idiom",
+      "3902096": "other sense (wonder)",
+      "10676472": "idiom"
+    }
+  },
+  "U82": {
+    "reject": {
+      "792417": "idiom (piece of cake)",
+      "1327252": "odd"
+    }
+  },
+  "U83": {
+    "reject": {
+      "583791": "colloquial filler là",
+      "2000811": "other sense (droit as a right)",
+      "2269523": "archaic",
+      "3383104": "colloquial (t es)",
+      "3784554": "colloquial (t as)",
+      "4575244": "colloquial (t es)",
+      "5654966": "idiom (take sides)",
+      "13355133": "colloquial (t es)",
+      "13355135": "near duplicate"
+    }
+  },
+  "U92": {
+    "reject": {
+      "491167": "proverb",
+      "764691": "idiom (sans plus)",
+      "1331440": "idiom (tout juste)",
+      "1987114": "colloquial (so what)",
+      "2176916": "colloquial (so what)",
+      "2251393": "idiom (sans moi)",
+      "4142714": "idiom (ça va sans dire)",
+      "4655746": "idiom (tout juste)",
+      "8553327": "colloquial (and so)",
+      "9020023": "odd",
+      "10921247": "English reads oddly",
+      "11642664": "colloquial (so what)",
+      "12838935": "idiom (sans merci)"
+    }
+  },
+  "U27": {
+    "reject": {
+      "132761": "idiom (par nature)",
+      "451965": "other sense (lose), montre as watch",
+      "508006": "other sense (lose)",
+      "966669": "idiom (par écrit)",
+      "1257210": "other sense (lose)",
+      "1401145": "other sense (lose)",
+      "1737728": "other sense (lose)",
+      "4678706": "other sense (lose)",
+      "6446980": "other sense (lose)",
+      "8425625": "other sense",
+      "8660995": "other sense (lose)",
+      "8703212": "other sense (lose a game)",
+      "9692220": "colloquial, other sense",
+      "11188918": "other sense (lose)"
+    }
+  },
+  "U84": {
+    "reject": {
+      "1112184": "near duplicate",
+      "1313598": "other sense (follow an argument)",
+      "1830975": "other sense (fire)",
+      "2036176": "other sense (follow an argument)",
+      "2077439": "other sense (fire)",
+      "2302445": "emotional",
+      "3440249": "too many continuez lines",
+      "4627939": "other sense (feu as fire)",
+      "6465545": "too many continuez lines",
+      "7355617": "too many continuez lines",
+      "8730457": "idiom (en place)",
+      "8984225": "idiomatic English",
+      "8984457": "too many continuez lines",
+      "9515643": "other sense (place as seat)",
+      "11967038": "emotional"
+    }
+  },
+  "U85": {
+    "reject": {
+      "9645": "other sense (vers as around)",
+      "11610": "other word (entre: come in)",
+      "746521": "other word (come in)",
+      "952496": "other sense (d entre: of)",
+      "1123841": "other word (come in)",
+      "1257252": "idiom (go ahead)",
+      "1891823": "other sense (chez as about)",
+      "1891825": "other sense (about)",
+      "1891829": "other sense (about)",
+      "2201395": "other sense (of)",
+      "4164914": "other word (come in)",
+      "6083504": "other word (come in)",
+      "6556275": "other sense (of)",
+      "7528154": "other word (come in)",
+      "7804104": "idiom (behind all this)",
+      "8325661": "other word (come in)",
+      "10547351": "idiom (behind all this)"
+    }
+  },
+  "U93": {
+    "reject": {
+      "11616": "subjunctive",
+      "1144389": "idiom (ball in your court)",
+      "1732503": "idiom (y gagner)",
+      "4593074": "idiom (y gagner)",
+      "4717100": "idiom (lose his head)",
+      "8349665": "idiom"
+    }
+  },
+  "U86": {
+    "reject": {
+      "13251664": "near duplicate"
+    }
+  },
+  "U87": {
+    "reject": {
+      "134661": "other sense (work)",
+      "547010": "venir de (just did), later",
+      "568642": "idiom",
+      "1013201": "other sense (work)",
+      "3669710": "other sense (work)",
+      "4737967": "other sense (marcher as work)",
+      "5337349": "other sense (se retourner: turn around)",
+      "5783168": "other sense (work)",
+      "6381578": "English reads oddly",
+      "9020387": "other sense (work)",
+      "12666230": "venir de (just did), later"
+    }
+  },
+  "U94": {
+    "reject": {
+      "4595640": "archaic (conter)",
+      "4595643": "archaic (conter)",
+      "10301224": "idiom"
+    }
+  },
+  "U28": {
+    "reject": {
+      "478662": "confrontational",
+      "912983": "confrontational",
+      "1040444": "confrontational",
+      "1040445": "confrontational",
+      "6028826": "dismissive",
+      "6318259": "too many problème lines",
+      "6402385": "too many problème lines",
+      "6473142": "dismissive",
+      "6736911": "too many problème lines",
+      "6947531": "confrontational",
+      "7778167": "dismissive",
+      "7794010": "too many problème lines",
+      "8315024": "confrontational",
+      "8389303": "too many problème lines",
+      "12166614": "rude (vieux)",
+      "13618058": "odd"
+    }
+  },
+  "U88": {
+    "reject": {
+      "452538": "too many aller lines",
+      "1075461": "idiom (ça va aller)",
+      "1804304": "too many aller lines",
+      "5623587": "near duplicate",
+      "6587529": "near duplicate",
+      "7267261": "near duplicate",
+      "8401550": "too many aller lines",
+      "8606318": "too many aller lines",
+      "11778355": "too many aller lines",
+      "11789508": "too many aller lines"
+    }
+  },
+  "U89": {
+    "reject": {
+      "8442": "idiom (du nouveau)",
+      "1654773": "near duplicate",
+      "2041077": "near duplicate",
+      "2402436": "other sense (difficile as picky)",
+      "5939223": "other sense (nouvelle as news)"
+    }
+  },
+  "U95": {
+    "reject": {
+      "1157284": "colloquial",
+      "1274645": "idiom (leave it up to you)",
+      "5364370": "near duplicate",
+      "5736958": "reflexive (s arrêter)",
+      "9076005": "idiom (change sides)",
+      "9556009": "idiom (call the shots)"
+    }
   }
 }

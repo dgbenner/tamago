@@ -1,0 +1,149 @@
+[
+  {
+    "unit_id": "U01",
+    "rule": "Sono says who you are, and sei says who someone you know well is: both are forms of essere, to be. Italian usually leaves out io and tu, because the verb already shows who is meant: Sono Tom. Every noun is masculine or feminine: un goes with a masculine noun (un uomo, un ragazzo), una with a feminine one (una donna, una ragazza). To say not, put non before the verb: Non sono Tom. A question keeps the same word order; only the voice rises: Sei Tom?",
+    "example_sentence_ids": "S1017;S1009;S1027",
+    "conjugation_lemma": "essere",
+    "status": "live"
+  },
+  {
+    "unit_id": "U31",
+    "rule": "Three phrases to keep a conversation going. Non capisco means I don't understand. Più lentamente, or più piano, asks for slower speech. Ripeti asks a friend to say it again, and ripeta asks politely. Parla is for someone you call tu and parli for someone you call Lei. Per favore makes each one polite.",
+    "example_sentence_ids": "S31012;S31009;S31101",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U02",
+    "rule": "The word for the changes with the noun: il before a masculine noun (il libro, il dottore), la before a feminine one (la casa, la donna), and l' before any noun that starts with a vowel (l'uomo). Lui is he and lei is she. È, with its accent, means is; e without one means and. Questo and questa mean this: questo with a masculine noun, questa with a feminine one. An adjective in -o changes to -a with a feminine noun (piccolo, piccola); one in -e stays the same (grande, forte).",
+    "example_sentence_ids": "S2003;S2005;S2012",
+    "conjugation_lemma": "essere",
+    "status": "live"
+  },
+  {
+    "unit_id": "U03",
+    "rule": "Italian has two words for you. Tu is for a friend, a child or family. Lei, the same word as she, is the polite you for an adult you don't know well, and it takes the verb form used for he and she. To ask how someone is, Italian uses stare, not essere: Come stai? to a friend, Come sta? politely, and the answer is Sto bene. Scusa is sorry to a friend, scusi the polite form. Prego answers grazie.",
+    "example_sentence_ids": "S3006;S3005;S3002",
+    "conjugation_lemma": "stare",
+    "status": "live"
+  },
+  {
+    "unit_id": "U04",
+    "rule": "A verb changes its ending with the person: mangio is I eat, mangi you eat, mangia he or she eats; bevo, bevi, beve work the same way for drinking. To say what you like, Italian says it pleases me: Mi piace il tè, and Ti piace il tè? asks a friend. Food you like in general takes il, la or l': Mi piace il pane.",
+    "example_sentence_ids": "S4008;S4004;S4003",
+    "conjugation_lemma": "mangiare;bere",
+    "status": "live"
+  },
+  {
+    "unit_id": "U05",
+    "rule": "Avere means to have: ho is I have, hai you have, ha he or she has. The h is never pronounced. Non goes before the verb: Non ho un cane. A question keeps the same words: Hai un cane?",
+    "example_sentence_ids": "S5002;S5007;S5006",
+    "conjugation_lemma": "avere",
+    "status": "live"
+  },
+  {
+    "unit_id": "U32",
+    "rule": "Two questions for words you don't know. Come si dice…? asks how something is said: Come si dice questo in italiano? Cosa significa…? and Cosa vuol dire…? both ask what a word means. Che, cosa and che cosa all mean what, and any of the three can start the question.",
+    "example_sentence_ids": "S32003;S32006;S32001",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U06",
+    "rule": "For more than one, a masculine noun in -o changes to -i (libro, libri) and a feminine noun in -a changes to -e (mela, mele). A few are irregular: uomo becomes uomini. The word for the changes too: i for most masculine plurals (i libri), gli before a vowel (gli uomini, gli amici), le for feminine plurals (le mele). Noi siamo is we are, voi siete is you are when speaking to several people, and loro sono is they are; abbiamo, avete and hanno are the same three forms of avere.",
+    "example_sentence_ids": "S6006;S6002;S6007",
+    "conjugation_lemma": "essere;avere",
+    "status": "live"
+  },
+  {
+    "unit_id": "U07",
+    "rule": "An adjective agrees with its noun: buono, nuovo, vecchio and bello with a masculine noun, buona, nuova, vecchia and bella with a feminine one. Giovane doesn't change. Most adjectives come after the noun (una macchina vecchia), though a few common ones can come before it. Molto before an adjective means very; after a verb it means a lot. Anche means also and comes before the word it adds.",
+    "example_sentence_ids": "S7004;S7014;S7001",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U52",
+    "rule": "Mi piace can take a verb as well as a noun: Mi piace nuotare means I like swimming. The verb stays in its dictionary form, ending in -are or -ere: ballare, cantare, nuotare, leggere. With a person the ending changes: canto is I sing and canta he or she sings; leggo is I read and legge he or she reads.",
+    "example_sentence_ids": "S52026;S52003;S52012",
+    "conjugation_lemma": "cantare;leggere",
+    "status": "live"
+  },
+  {
+    "unit_id": "U08",
+    "rule": "C'è means there is, for one thing; ci sono means there are, for more than one. Both can ask a question as they are: C'è un cane qui? In says where: in cucina, in bagno, in giardino, with no word for the. Sul means on the: sul tavolo, sul letto. Qui is here and lì is there.",
+    "example_sentence_ids": "S8007;S8009;S8003",
+    "conjugation_lemma": "esserci",
+    "status": "live"
+  },
+  {
+    "unit_id": "U09",
+    "rule": "Some feelings use essere with an adjective, which agrees with the person: a man says Sono stanco, a woman Sono stanca; malato and malata work the same way, while felice and triste don't change. Others use avere with a noun, where English says to be: Ho fame is I'm hungry, Ho sete I'm thirsty, Ho sonno I'm sleepy, Ho paura I'm afraid, Ho freddo I'm cold and Ho caldo I'm hot.",
+    "example_sentence_ids": "S9008;S9031;S9001",
+    "conjugation_lemma": "essere;avere",
+    "status": "live"
+  },
+  {
+    "unit_id": "U33",
+    "rule": "When the word won't come, say so and describe the thing. Cerco la parola means I'm looking for the word. È una cosa per… means it's a thing for…, followed by a verb: È una cosa per leggere. Come si chiama? asks what something is called. Non lo so means I don't know; lo stands for it. Sai with a verb asks whether someone knows how: Sai nuotare?",
+    "example_sentence_ids": "S33101;S33107;S33026",
+    "conjugation_lemma": "sapere",
+    "status": "live"
+  },
+  {
+    "unit_id": "U10",
+    "rule": "My, your and his or her agree with the thing owned, not with the owner: mio, tuo and suo with a masculine noun, mia, tua and sua with a feminine one, miei and mie for the plurals. Suo and sua mean his, her or the polite your. Italian puts the before them: la mia casa, il mio libro, i miei amici. One family member is the exception: mio padre, mia madre, with no the. Di shows whose something is: la casa di mia madre.",
+    "example_sentence_ids": "S10001;S10010;S10101",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U11",
+    "rule": "Question words come first: chi (who), cosa, che or che cosa (what), dove (where), quando (when), perché (why), quale (which). Dove and è join into dov'è, where is. Perché also means because, so it starts the answer too: Perché sei triste? Perché sono stanco.",
+    "example_sentence_ids": "S11007;S11004;S11015",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U53",
+    "rule": "Dov'è…? finds a place: Dov'è la stazione? In says how you travel, with no word for the: in treno, in autobus, in bicicletta. Con means with: Sono con Tom. Sul treno means on the train.",
+    "example_sentence_ids": "S53001;S53011;S53032",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U12",
+    "rule": "The numbers from one to ten don't change with the noun, except uno, which becomes un or una before one. Sei, six, is spelled like sei, you are. How many is quanti with a masculine plural (quanti libri) and quante with a feminine one (quante mele).",
+    "example_sentence_ids": "S12003;S12004;S12017",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U13",
+    "rule": "A colour comes after its noun and agrees with it: rosso, nero, bianco and giallo with a masculine noun, rossa, nera, bianca and gialla with a feminine one. Verde stays the same for both, and blu never changes at all. Che colore è? asks what colour something is.",
+    "example_sentence_ids": "S13025;S13026;S13028",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U14",
+    "rule": "Oggi is today, domani tomorrow and adesso now. The days of the week have no capital letter. Che giorno è oggi? asks the day; Che ora è? asks the time. Ora means hour or time here.",
+    "example_sentence_ids": "S14009;S14004;S14014",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U15",
+    "rule": "Andare, to go, is irregular: vado is I go, vai you go, va he or she goes. A means to or at: a scuola, with no word for the. Before a masculine noun a and il join into al (al parco, al ristorante); before a feminine one a and la join into alla (alla stazione).",
+    "example_sentence_ids": "S15008;S15018;S15007",
+    "conjugation_lemma": "andare",
+    "status": "live"
+  },
+  {
+    "unit_id": "U51",
+    "rule": "To describe someone, Italian uses avere with the: Ha i capelli lunghi, she has long hair; Ho gli occhi azzurri, I have blue eyes. The adjective comes after the noun and agrees with it, so plural capelli and occhi take lunghi and azzurri. Alto describes a man and alta a woman. A piedi means on foot.",
+    "example_sentence_ids": "S51001;S51002;S51016",
+    "conjugation_lemma": "",
+    "status": "live"
+  }
+]

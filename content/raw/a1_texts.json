@@ -196,5 +196,170 @@
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "R301",
+    "unit_id": "U81",
+    "kind": "menu",
+    "title": "Café de la Place",
+    "lines": "Café : 2 €\nThé : 2,50 €\nJus d'orange : 3,50 €\nBière : 4 €",
+    "questions_json": "[{\"question\":\"How much is the orange juice?\",\"choices\":[\"€3.50\",\"€2.50\",\"€4\"],\"answer\":0},{\"question\":\"What is the cheapest drink?\",\"choices\":[\"Coffee\",\"Tea\",\"Beer\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R302",
+    "unit_id": "U81",
+    "kind": "sign",
+    "title": "Au café",
+    "lines": "Ici, on commande au bar.\nPas de vin avant midi.",
+    "questions_json": "[{\"question\":\"Where do you order?\",\"choices\":[\"At the bar\",\"At the table\",\"Outside\"],\"answer\":0},{\"question\":\"When can you have wine?\",\"choices\":[\"From noon\",\"In the morning\",\"Never\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R303",
+    "unit_id": "U81",
+    "kind": "message",
+    "title": "Un message de Marie",
+    "lines": "Paul,\nJe suis au café en face de la gare.\nJe prends un thé. Tu viens ?",
+    "questions_json": "[{\"question\":\"Where is Marie?\",\"choices\":[\"At the café opposite the station\",\"At the station\",\"At home\"],\"answer\":0},{\"question\":\"What is she drinking?\",\"choices\":[\"Tea\",\"Coffee\",\"Juice\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R304",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Menu du jour – 15 €",
+    "lines": "Entrée : soupe ou salade\nPlat : poulet et riz\nDessert : gâteau au chocolat",
+    "questions_json": "[{\"question\":\"How much is the menu?\",\"choices\":[\"€15\",\"€5\",\"€50\"],\"answer\":0},{\"question\":\"What is the main course?\",\"choices\":[\"Chicken and rice\",\"Soup\",\"Chocolate cake\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R305",
+    "unit_id": "U82",
+    "kind": "notice",
+    "title": "Le restaurant",
+    "lines": "Ouvert du mardi au dimanche\nMidi : 12h – 14h\nSoir : 19h – 22h\nFermé le lundi",
+    "questions_json": "[{\"question\":\"Which day is the restaurant closed?\",\"choices\":[\"Monday\",\"Sunday\",\"Tuesday\"],\"answer\":0},{\"question\":\"What time does dinner start?\",\"choices\":[\"7 pm\",\"12 noon\",\"10 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R306",
+    "unit_id": "U82",
+    "kind": "menu",
+    "title": "Les desserts",
+    "lines": "Gâteau : 5 €\nGlace : 4 €\nFruits : 3 €",
+    "questions_json": "[{\"question\":\"How much is the cake?\",\"choices\":[\"€5\",\"€4\",\"€3\"],\"answer\":0},{\"question\":\"Which dessert costs €3?\",\"choices\":[\"Fruit\",\"Ice cream\",\"Cake\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R307",
+    "unit_id": "U84",
+    "kind": "message",
+    "title": "Chez moi",
+    "lines": "Tu sors de la gare, tu tournes à gauche.\nTu continues tout droit.\nMa maison est en face du parc.",
+    "questions_json": "[{\"question\":\"Which way do you turn at the station?\",\"choices\":[\"Left\",\"Right\",\"Straight on\"],\"answer\":0},{\"question\":\"Where is the house?\",\"choices\":[\"Opposite the park\",\"Next to the station\",\"Behind the school\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R308",
+    "unit_id": "U84",
+    "kind": "sign",
+    "title": "Le musée",
+    "lines": "Musée →  à droite, 200 m\nParking ←  à gauche",
+    "questions_json": "[{\"question\":\"Where is the museum?\",\"choices\":[\"To the right\",\"To the left\",\"Behind you\"],\"answer\":0},{\"question\":\"How far is the museum?\",\"choices\":[\"200 m\",\"2 km\",\"20 m\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R309",
+    "unit_id": "U84",
+    "kind": "message",
+    "title": "Le restaurant",
+    "lines": "Traversez la place.\nLe restaurant est derrière l'église, à côté de la banque.",
+    "questions_json": "[{\"question\":\"What do you cross?\",\"choices\":[\"The square\",\"The bridge\",\"The road\"],\"answer\":0},{\"question\":\"What is next to the restaurant?\",\"choices\":[\"The bank\",\"The church\",\"The park\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R310",
+    "unit_id": "U86",
+    "kind": "notice",
+    "title": "La boulangerie",
+    "lines": "Ouvert tous les jours de 7h à 19h\nLe dimanche : 7h – 13h",
+    "questions_json": "[{\"question\":\"When does the bakery close on Sunday?\",\"choices\":[\"1 pm\",\"7 pm\",\"7 am\"],\"answer\":0},{\"question\":\"Is it open every day?\",\"choices\":[\"Yes\",\"No, not on Sunday\",\"No, not on Monday\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R311",
+    "unit_id": "U86",
+    "kind": "sign",
+    "title": "La poste",
+    "lines": "La poste\nDu lundi au vendredi : 9h – 18h\nSamedi : 9h – 12h",
+    "questions_json": "[{\"question\":\"When does the post office close on Saturday?\",\"choices\":[\"Noon\",\"6 pm\",\"9 am\"],\"answer\":0},{\"question\":\"Is it open on Sunday?\",\"choices\":[\"No\",\"Yes, in the morning\",\"Yes, all day\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R312",
+    "unit_id": "U86",
+    "kind": "message",
+    "title": "Un message de Paul",
+    "lines": "Marie,\nTu peux passer à la pharmacie ?\nMoi, je vais à la banque et au supermarché.",
+    "questions_json": "[{\"question\":\"Where should Marie go?\",\"choices\":[\"To the pharmacy\",\"To the bank\",\"To the supermarket\"],\"answer\":0},{\"question\":\"Where is Paul going?\",\"choices\":[\"The bank and the supermarket\",\"The pharmacy\",\"The post office\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R313",
+    "unit_id": "U88",
+    "kind": "timetable",
+    "title": "L'aéroport",
+    "lines": "Vol pour Rome : départ 10h30\nVol pour Londres : départ 13h15\nVol pour Berlin : départ 17h45",
+    "questions_json": "[{\"question\":\"When is the flight to London?\",\"choices\":[\"13:15\",\"10:30\",\"17:45\"],\"answer\":0},{\"question\":\"Where does the 17:45 flight go?\",\"choices\":[\"Berlin\",\"Rome\",\"London\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R314",
+    "unit_id": "U88",
+    "kind": "notice",
+    "title": "À l'hôtel",
+    "lines": "Petit-déjeuner : 7h – 10h\nLes chambres : avant 11h, s'il vous plaît.",
+    "questions_json": "[{\"question\":\"Until when is breakfast?\",\"choices\":[\"10:00\",\"11:00\",\"7:00\"],\"answer\":0},{\"question\":\"When should you leave your room?\",\"choices\":[\"Before 11:00\",\"After 11:00\",\"Before 10:00\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R315",
+    "unit_id": "U88",
+    "kind": "message",
+    "title": "Une carte de Paul",
+    "lines": "Je suis à Rome !\nL'hôtel est près de la gare.\nJe rentre lundi en avion.",
+    "questions_json": "[{\"question\":\"Where is Paul?\",\"choices\":[\"In Rome\",\"In Paris\",\"In London\"],\"answer\":0},{\"question\":\"How is he going home?\",\"choices\":[\"By plane\",\"By train\",\"By car\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]
