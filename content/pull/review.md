@@ -2,43 +2,43 @@
 
 Proposed under the workbook's content_pull rules. Nothing here is live until Dan approves the unit (P09): record `{"U02": {"action": "approve"}}` under units in content/review-decisions.json.
 
-## U95 Changing + Deciding: J'apprends le français; il devient grand; j'espère que …; arrête !
+## U515 Love + Dreams: Il est amoureux, elle est amoureuse (de); je rêve de voyager; un rêve, l'amour, le cœur
 
-30 sentences picked from 181 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+30 sentences picked from 108 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): .
 
-Every new word is in at least 3 sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: rêver (2). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
-| S15301 | Je vous laisse en décider. | I leave it up to you. | I'll leave it up to you. | [#1274645](https://tatoeba.org/en/sentences/show/1274645) | sacredceltic |
-| S15302 | J'espère que tu apprends. | I hope you learn. |  | [#5610697](https://tatoeba.org/en/sentences/show/5610697) | sacredceltic |
-| S15303 | Arrête de changer de côté ! | Stop changing sides! |  | [#9076005](https://tatoeba.org/en/sentences/show/9076005) | Julien_PDC |
-| S15304 | Pourquoi apprendre le français ? | Why learn French? |  | [#8737254](https://tatoeba.org/en/sentences/show/8737254) | Julien_PDC |
-| S15305 | Quand est-ce que ça s'arrête ? | When's it going to stop? |  | [#5736958](https://tatoeba.org/en/sentences/show/5736958) | Petrus |
-| S15306 | Qui veut apprendre le japonais ? | Who wants to learn Japanese? |  | [#5762972](https://tatoeba.org/en/sentences/show/5762972) | Yemana |
-| S15307 | Qui veut apprendre le français ? | Who wants to learn French? |  | [#10528963](https://tatoeba.org/en/sentences/show/10528963) | Rovo |
-| S15308 | Depuis quand tu apprends le français ? | When did you start studying French? |  | [#3503230](https://tatoeba.org/en/sentences/show/3503230) | gillux |
-| S15309 | On espère ! | Hopefully! |  | [#1157284](https://tatoeba.org/en/sentences/show/1157284) | sacredceltic |
-| S15310 | Toi, décide. | You decide. |  | [#1421789](https://tatoeba.org/en/sentences/show/1421789) | sacredceltic |
-| S15311 | Arrête ici ! | Stop here. | Pull over here. | [#1846328](https://tatoeba.org/en/sentences/show/1846328) | sacredceltic |
-| S15312 | J'apprends. | I learn. | I am learning. | [#4418170](https://tatoeba.org/en/sentences/show/4418170) | sicerabibax |
-| S15313 | Tout change. | Everything changes. |  | [#5249748](https://tatoeba.org/en/sentences/show/5249748) | sicerabibax |
-| S15314 | Laisse ça. | Leave it. | Leave it behind.; Leave it! | [#8619839](https://tatoeba.org/en/sentences/show/8619839) | Micsmithel |
-| S15315 | Change de vêtements. | Change your clothes. |  | [#134960](https://tatoeba.org/en/sentences/show/134960) | Archibald |
-| S15316 | J'espère bien. | I hope so. |  | [#181206](https://tatoeba.org/en/sentences/show/181206) | Aiji |
-| S15317 | Ça change tout. | That changes everything. | This changes everything. | [#1629778](https://tatoeba.org/en/sentences/show/1629778) | sacredceltic |
-| S15318 | Ça devient difficile. | This is getting difficult. |  | [#3988787](https://tatoeba.org/en/sentences/show/3988787) | nimfeo |
-| S15319 | Laisse la bouteille. | Leave the bottle. |  | [#8357499](https://tatoeba.org/en/sentences/show/8357499) | zarisi |
-| S15320 | Elle devient rouge. | She's turning red. |  | [#8701655](https://tatoeba.org/en/sentences/show/8701655) | Micsmithel |
-| S15321 | Je peux changer. | I can change. |  | [#8724436](https://tatoeba.org/en/sentences/show/8724436) | Micsmithel |
-| S15322 | On décide ensemble. | We decide together. |  | [#10540490](https://tatoeba.org/en/sentences/show/10540490) | lbdx |
-| S15323 | Tout devient cher. | Everything is getting expensive. |  | [#11611436](https://tatoeba.org/en/sentences/show/11611436) | Amastan |
-| S15324 | Tout va changer maintenant. | Everything is going to be different now. |  | [#4091117](https://tatoeba.org/en/sentences/show/4091117) | Scorpionvenin14 |
-| S15325 | À toi de décider. | It's up to you to decide. |  | [#4598205](https://tatoeba.org/en/sentences/show/4598205) | sacredceltic |
-| S15326 | C'est moi qui décide. | I call the shots. |  | [#9556009](https://tatoeba.org/en/sentences/show/9556009) | Julien_PDC |
-| S15327 | C'est à toi de décider. | It's for you to decide. | That's for you to decide.; It's entirely up to you.; That's up to you to decide. | [#1292253](https://tatoeba.org/en/sentences/show/1292253) | sacredceltic |
-| S15328 | Arrête ça ! | Stop that. | Stop it!; Come off it!; Cut that out! | [#1850047](https://tatoeba.org/en/sentences/show/1850047) | sacredceltic |
-| S15329 | S'il te plaît, arrête. | Please stop. | Please, stop. | [#5364367](https://tatoeba.org/en/sentences/show/5364367) | pititnatole |
-| S15330 | Arrête, s'il te plaît. | Please stop. |  | [#5364370](https://tatoeba.org/en/sentences/show/5364370) | pititnatole |
+| S17001 | C'est ça l'amour ? | Is that love? | Is this love? | [#606421](https://tatoeba.org/en/sentences/show/606421) | qdii |
+| S17002 | Je suis amoureux. | I'm in love. | I am in love. | [#1226472](https://tatoeba.org/en/sentences/show/1226472) | sacredceltic |
+| S17003 | J'aime rêver. | I like to dream. |  | [#2482431](https://tatoeba.org/en/sentences/show/2482431) | sacredceltic |
+| S17004 | Je rêve beaucoup. | I dream a lot. |  | [#2837605](https://tatoeba.org/en/sentences/show/2837605) | nimfeo |
+| S17005 | Non, mon amour. | No, my love. |  | [#3515098](https://tatoeba.org/en/sentences/show/3515098) | sacredceltic |
+| S17006 | Oui, mon amour. | Yes, my love. |  | [#3515099](https://tatoeba.org/en/sentences/show/3515099) | sacredceltic |
+| S17007 | Nous sommes amoureux. | We're in love. | We love each other.; We're in love with each other. | [#4801664](https://tatoeba.org/en/sentences/show/4801664) | sacredceltic |
+| S17008 | Tu es amoureux. | You're in love. |  | [#5959442](https://tatoeba.org/en/sentences/show/5959442) | Aiji |
+| S17009 | Tu es amoureuse. | You're in love. |  | [#5959443](https://tatoeba.org/en/sentences/show/5959443) | Aiji |
+| S17010 | Je suis amoureuse. | I'm in love. | I am in love. | [#7769789](https://tatoeba.org/en/sentences/show/7769789) | Aiji |
+| S17011 | Elle est amoureuse. | She's in love. | She is in love. | [#8660027](https://tatoeba.org/en/sentences/show/8660027) | Julien_PDC |
+| S17012 | Il a bon cœur. | He has a kind heart. | He has a warm heart. | [#139385](https://tatoeba.org/en/sentences/show/139385) | superbolo |
+| S17013 | Je vis mon rêve. | I'm living my dream. |  | [#753128](https://tatoeba.org/en/sentences/show/753128) | Julien_PDC |
+| S17014 | Elle a bon cœur. | She's kind at heart. | She has a good heart.; She has a kind heart. | [#1050984](https://tatoeba.org/en/sentences/show/1050984) | sacredceltic |
+| S17015 | Rêver ne coûte rien. | Dreaming is free. | Dreaming costs nothing. | [#1585649](https://tatoeba.org/en/sentences/show/1585649) | Julien_PDC |
+| S17016 | Suivez juste votre cœur ! | Just follow your heart. |  | [#1991320](https://tatoeba.org/en/sentences/show/1991320) | sacredceltic |
+| S17017 | Je ne rêve pas. | I don't dream. |  | [#4580512](https://tatoeba.org/en/sentences/show/4580512) | sacredceltic |
+| S17018 | C'est l'amour. | This is love. |  | [#4548333](https://tatoeba.org/en/sentences/show/4548333) | sacredceltic |
+| S17019 | Il est amoureux. | He's in love. | He is in love. | [#8660026](https://tatoeba.org/en/sentences/show/8660026) | Julien_PDC |
+| S17020 | C'est l'amour vrai. | This is true love. |  | [#1608009](https://tatoeba.org/en/sentences/show/1608009) | Julien_PDC |
+| S17021 | Crois en l'amour ! | Believe in love! |  | [#1947486](https://tatoeba.org/en/sentences/show/1947486) | sacredceltic |
+| S17022 | J'ai un cœur. | I have a heart. |  | [#2655821](https://tatoeba.org/en/sentences/show/2655821) | Julien_PDC |
+| S17023 | J'adore l'amour. | I love love. |  | [#3440278](https://tatoeba.org/en/sentences/show/3440278) | sacredceltic |
+| S17024 | C'est de l'amour. | This is love. |  | [#4548335](https://tatoeba.org/en/sentences/show/4548335) | sacredceltic |
+| S17025 | L'amour, c'est tout. | Love is everything. |  | [#4548482](https://tatoeba.org/en/sentences/show/4548482) | sacredceltic |
+| S17026 | Je rêve chaque nuit. | I dream every night. |  | [#5558984](https://tatoeba.org/en/sentences/show/5558984) | sacredceltic |
+| S17027 | Je rêve en français. | I dream in French. |  | [#6465337](https://tatoeba.org/en/sentences/show/6465337) | Aiji |
+| S17028 | Ils ont un rêve. | They have a dream. |  | [#7028855](https://tatoeba.org/en/sentences/show/7028855) | Aiji |
+| S17029 | Elles ont un rêve. | They have a dream. |  | [#7028856](https://tatoeba.org/en/sentences/show/7028856) | Aiji |
+| S17030 | C'est beau, l'amour. | Love is beautiful. |  | [#11327171](https://tatoeba.org/en/sentences/show/11327171) | Rovo |

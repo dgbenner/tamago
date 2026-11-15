@@ -283,7 +283,8 @@
     "pos": "Adjective"
   },
   "W306": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "time"
   },
   "W307": {
     "pos": "Noun"
@@ -2657,5 +2658,433 @@
   "W1854": {
     "pos": "Verb",
     "match": "laisser"
+  },
+  "W2001": {
+    "pos": "Pronoun"
+  },
+  "W2002": {
+    "pos": "Contraction"
+  },
+  "W2003": {
+    "pos": "Verb",
+    "match": "avoir"
+  },
+  "W2004": {
+    "pos": "Verb",
+    "match": "connaître"
+  },
+  "W2005": {
+    "pos": "Verb",
+    "match": "connaître"
+  },
+  "W2006": {
+    "pos": "Verb"
+  },
+  "W2007": {
+    "pos": "Verb",
+    "match": "rappeler"
+  },
+  "W2008": {
+    "pos": "Verb"
+  },
+  "W2009": {
+    "pos": "Verb",
+    "match": "déranger"
+  },
+  "W2010": {
+    "pos": "Verb"
+  },
+  "W2011": {
+    "pos": "Noun",
+    "match": "effort"
+  },
+  "W2012": {
+    "pos": "Noun"
+  },
+  "W2013": {
+    "pos": "Noun"
+  },
+  "W2014": {
+    "pos": "Adjective"
+  },
+  "W2015": {
+    "pos": "Adjective"
+  },
+  "W2016": {
+    "pos": "Adjective"
+  },
+  "W2017": {
+    "pos": "Noun"
+  },
+  "W2018": {
+    "pos": "Verb",
+    "match": "vivre"
+  },
+  "W2019": {
+    "pos": "Verb",
+    "match": "vivre"
+  },
+  "W2020": {
+    "pos": "Verb"
+  },
+  "W2021": {
+    "pos": "Noun",
+    "match": "room",
+    "exact": true
+  },
+  "W2022": {
+    "pos": "Noun"
+  },
+  "W2023": {
+    "pos": "Noun",
+    "match": "room"
+  },
+  "W2024": {
+    "pos": "Noun"
+  },
+  "W2025": {
+    "pos": "Noun"
+  },
+  "W2026": {
+    "pos": "Noun"
+  },
+  "W2027": {
+    "pos": "Verb",
+    "match": "laver"
+  },
+  "W2028": {
+    "pos": "Verb"
+  },
+  "W2029": {
+    "pos": "Noun"
+  },
+  "W2030": {
+    "pos": "Verb",
+    "match": "put away"
+  },
+  "W2031": {
+    "pos": "Verb",
+    "match": "garder"
+  },
+  "W2032": {
+    "pos": "Verb"
+  },
+  "W2033": {
+    "pos": "Noun"
+  },
+  "W2034": {
+    "pos": "Noun"
+  },
+  "W2035": {
+    "pos": "Noun"
+  },
+  "W2036": {
+    "pos": "Noun"
+  },
+  "W2037": {
+    "pos": "Noun"
+  },
+  "W2038": {
+    "pos": "Noun"
+  },
+  "W2039": {
+    "pos": "Noun"
+  },
+  "W2040": {
+    "pos": "Noun"
+  },
+  "W2041": {
+    "pos": "Noun"
+  },
+  "W2042": {
+    "pos": "Noun"
+  },
+  "W2045": {
+    "pos": "Verb",
+    "match": "dire"
+  },
+  "W2046": {
+    "pos": "Noun"
+  },
+  "W2047": {
+    "pos": "Noun"
+  },
+  "W2048": {
+    "pos": "Verb",
+    "match": "étudier"
+  },
+  "W2049": {
+    "pos": "Verb"
+  },
+  "W2050": {
+    "pos": "Noun"
+  },
+  "W2051": {
+    "pos": "Noun",
+    "match": "junior high"
+  },
+  "W2052": {
+    "pos": "Noun"
+  },
+  "W2053": {
+    "pos": "Noun"
+  },
+  "W2054": {
+    "pos": "Noun"
+  },
+  "W2055": {
+    "pos": "Noun",
+    "match": "exam, test"
+  },
+  "W2056": {
+    "pos": "Noun"
+  },
+  "W2057": {
+    "pos": "Noun"
+  },
+  "W2058": {
+    "pos": "Noun"
+  },
+  "W2059": {
+    "pos": "Noun"
+  },
+  "W2060": {
+    "pos": "Noun",
+    "match": "email"
+  },
+  "W2061": {
+    "pos": "Verb"
+  },
+  "W2062": {
+    "pos": "Verb",
+    "match": "envoyer"
+  },
+  "W2063": {
+    "pos": "Noun"
+  },
+  "W2065": {
+    "pos": "Verb",
+    "match": "écrire"
+  },
+  "W2066": {
+    "pos": "Noun",
+    "match": "appetite"
+  },
+  "W2067": {
+    "pos": "Verb",
+    "match": "vouloir"
+  },
+  "W2068": {
+    "pos": "Adverb"
+  },
+  "W2069": {
+    "pos": "Noun"
+  },
+  "W2070": {
+    "pos": "Noun"
+  },
+  "W2071": {
+    "pos": "Noun"
+  },
+  "W2072": {
+    "pos": "Noun"
+  },
+  "W2073": {
+    "pos": "Noun",
+    "match": "place"
+  },
+  "W2074": {
+    "pos": "Adjective"
+  },
+  "W2075": {
+    "pos": "Noun"
+  },
+  "W2076": {
+    "pos": "Verb",
+    "match": "embrasser"
+  },
+  "W2077": {
+    "pos": "Noun",
+    "match": "kiss"
+  },
+  "W2078": {
+    "pos": "Noun"
+  },
+  "W2079": {
+    "pos": "Verb"
+  },
+  "W2080": {
+    "pos": "Verb",
+    "match": "to meet"
+  },
+  "W2081": {
+    "pos": "Verb",
+    "match": "retrouver"
+  },
+  "W2082": {
+    "pos": "Verb",
+    "match": "to leave"
+  },
+  "W2083": {
+    "pos": "Verb",
+    "match": "quitter"
+  },
+  "W2201": {
+    "pos": "Noun"
+  },
+  "W2202": {
+    "pos": "Noun"
+  },
+  "W2203": {
+    "pos": "Noun"
+  },
+  "W2204": {
+    "pos": "Noun"
+  },
+  "W2205": {
+    "pos": "Noun"
+  },
+  "W2206": {
+    "pos": "Noun"
+  },
+  "W2207": {
+    "pos": "Noun"
+  },
+  "W2208": {
+    "pos": "Pronoun"
+  },
+  "W2209": {
+    "pos": "Verb",
+    "match": "réveiller"
+  },
+  "W2210": {
+    "pos": "Verb",
+    "match": "coucher"
+  },
+  "W2211": {
+    "pos": "Verb",
+    "match": "go to bed"
+  },
+  "W2212": {
+    "pos": "Noun"
+  },
+  "W2213": {
+    "pos": "Noun"
+  },
+  "W2214": {
+    "pos": "Verb",
+    "match": "préparer"
+  },
+  "W2215": {
+    "pos": "Verb"
+  },
+  "W2216": {
+    "pos": "Verb",
+    "match": "reposer"
+  },
+  "W2217": {
+    "pos": "Noun"
+  },
+  "W2218": {
+    "pos": "Verb",
+    "match": "devoir"
+  },
+  "W2219": {
+    "pos": "Verb",
+    "match": "devoir"
+  },
+  "W2220": {
+    "pos": "Verb"
+  },
+  "W2221": {
+    "pos": "Verb",
+    "match": "falloir"
+  },
+  "W2222": {
+    "pos": "Verb"
+  },
+  "W2223": {
+    "pos": "Noun",
+    "match": "pain",
+    "exact": true
+  },
+  "W2224": {
+    "pos": "Verb",
+    "match": "inviter"
+  },
+  "W2225": {
+    "pos": "Verb"
+  },
+  "W2226": {
+    "pos": "Verb"
+  },
+  "W2227": {
+    "pos": "Noun"
+  },
+  "W2228": {
+    "pos": "Noun",
+    "match": "luck"
+  },
+  "W2229": {
+    "pos": "Verb",
+    "match": "remercier"
+  },
+  "W2230": {
+    "pos": "Verb"
+  },
+  "W2231": {
+    "pos": "Noun"
+  },
+  "W2232": {
+    "pos": "Adjective",
+    "match": "in love",
+    "exact": true
+  },
+  "W2233": {
+    "pos": "Adjective"
+  },
+  "W2234": {
+    "pos": "Noun"
+  },
+  "W2235": {
+    "pos": "Verb"
+  },
+  "W2236": {
+    "pos": "Noun"
+  },
+  "W2043": {
+    "pos": "Preposition"
+  },
+  "W2044": {
+    "pos": "Conjunction"
+  },
+  "W2064": {
+    "pos": "Interjection"
+  },
+  "W2084": {
+    "pos": "Pronoun"
+  },
+  "W2085": {
+    "pos": "Verb",
+    "match": "faire"
+  },
+  "W2086": {
+    "pos": "Verb"
+  },
+  "W2087": {
+    "pos": "Verb",
+    "match": "avoir"
+  },
+  "W2088": {
+    "pos": "Verb",
+    "match": "avoir"
+  },
+  "W2089": {
+    "pos": "Verb",
+    "match": "dire"
+  },
+  "W2237": {
+    "pos": "Verb",
+    "match": "pouvoir"
   }
 }

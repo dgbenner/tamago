@@ -1,0 +1,1423 @@
+{
+  "unit_id": "U512",
+  "pulled_at": "2026-11-15",
+  "candidates": 144,
+  "sentences": [
+    {
+      "sentence_id": "S15901",
+      "unit_id": "U512",
+      "french": "Elle se réveille.",
+      "english": "She's waking up.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "451478",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15902",
+      "unit_id": "U512",
+      "french": "Elle se prépare.",
+      "english": "She's getting ready.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2445388",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gillux",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15903",
+      "unit_id": "U512",
+      "french": "Il se repose.",
+      "english": "He's resting.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13372156",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15904",
+      "unit_id": "U512",
+      "french": "La femme se réveille.",
+      "english": "The woman awakens.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "589924",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15905",
+      "unit_id": "U512",
+      "french": "Il se réveille à midi.",
+      "english": "He wakes up at noon.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2306111",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15906",
+      "unit_id": "U512",
+      "french": "Elle se couche toujours tard.",
+      "english": "She always goes to bed late.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9073269",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15907",
+      "unit_id": "U512",
+      "french": "C'est l'heure de se coucher.",
+      "english": "Time for bed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "182126",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "trotter",
+      "other_english": [
+        "It's time for bed.",
+        "It's time to go to bed.",
+        "It's time to go to sleep.",
+        "It is time to go to bed."
+      ]
+    },
+    {
+      "sentence_id": "S15908",
+      "unit_id": "U512",
+      "french": "Il se prépare pour le voyage.",
+      "english": "He's preparing for the journey.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7811194",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15909",
+      "unit_id": "U512",
+      "french": "Bonne journée !",
+      "english": "Have a nice day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13716",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "Have a nice day!"
+      ]
+    },
+    {
+      "sentence_id": "S15910",
+      "unit_id": "U512",
+      "french": "Quelle journée !",
+      "english": "What a day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1719439",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": [
+        "What a day!"
+      ]
+    },
+    {
+      "sentence_id": "S15911",
+      "unit_id": "U512",
+      "french": "Bonne soirée.",
+      "english": "Have a nice evening.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10968777",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15912",
+      "unit_id": "U512",
+      "french": "Bonne journée. À bientôt.",
+      "english": "Good day. See you soon.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11737",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15913",
+      "unit_id": "U512",
+      "french": "Je me prépare.",
+      "english": "I'm getting ready.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2445916",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15914",
+      "unit_id": "U512",
+      "french": "Je vais me coucher !",
+      "english": "I'm going to bed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "139823",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Archibald",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15915",
+      "unit_id": "U512",
+      "french": "Elle couche les enfants.",
+      "english": "She's putting the children to bed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1490749",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Quetucrois",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15916",
+      "unit_id": "U512",
+      "french": "Passe une bonne soirée !",
+      "english": "Enjoy your evening.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1852828",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15917",
+      "unit_id": "U512",
+      "french": "Tu peux coucher ici.",
+      "english": "You can sleep here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2969281",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Blabla",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15918",
+      "unit_id": "U512",
+      "french": "Je me repose dimanche.",
+      "english": "I rest on Sunday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5554304",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15919",
+      "unit_id": "U512",
+      "french": "C'est maintenant une habitude.",
+      "english": "It's now a habit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6843682",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15920",
+      "unit_id": "U512",
+      "french": "Je me couche tôt.",
+      "english": "I go to bed early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7820705",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yemana",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15921",
+      "unit_id": "U512",
+      "french": "Je vais préparer à dîner.",
+      "english": "I'm going to fix some dinner.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2576534",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15924",
+      "unit_id": "U512",
+      "french": "Ça se passe bien ?",
+      "english": "Is it going well?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3273066",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15925",
+      "unit_id": "U512",
+      "french": "Comment ça se passe ?",
+      "english": "How are you getting along?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12243746",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Orange",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15926",
+      "unit_id": "U512",
+      "french": "Où se trouve ton école ?",
+      "english": "Where's your school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "339595",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "TRANG",
+      "other_english": [
+        "Where is your school?"
+      ]
+    },
+    {
+      "sentence_id": "S15927",
+      "unit_id": "U512",
+      "french": "Où se trouve mon livre ?",
+      "english": "Where's my book?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "481940",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sysko",
+      "other_english": [
+        "Where is my book?"
+      ]
+    },
+    {
+      "sentence_id": "S15928",
+      "unit_id": "U512",
+      "french": "Où se trouve l'aéroport ?",
+      "english": "Where's the airport?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "564420",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15929",
+      "unit_id": "U512",
+      "french": "Où se trouve l'école ?",
+      "english": "Where's the school?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1054844",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "Where is the school?"
+      ]
+    },
+    {
+      "sentence_id": "S15930",
+      "unit_id": "U512",
+      "french": "Où est-ce que ça se trouve ?",
+      "english": "Where is it located?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1083319",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S15901",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15901",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15901",
+      "position": 3,
+      "surface": "réveille",
+      "word_id": "W2209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15902",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15902",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15902",
+      "position": 3,
+      "surface": "prépare",
+      "word_id": "W2214",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15903",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15903",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15903",
+      "position": 3,
+      "surface": "repose",
+      "word_id": "W2216",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15904",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15904",
+      "position": 2,
+      "surface": "femme",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15904",
+      "position": 3,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15904",
+      "position": 4,
+      "surface": "réveille",
+      "word_id": "W2209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15905",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15905",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15905",
+      "position": 3,
+      "surface": "réveille",
+      "word_id": "W2209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15905",
+      "position": 4,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15905",
+      "position": 5,
+      "surface": "midi",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15906",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15906",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15906",
+      "position": 3,
+      "surface": "couche",
+      "word_id": "W2210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15906",
+      "position": 4,
+      "surface": "toujours",
+      "word_id": "W1407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15906",
+      "position": 5,
+      "surface": "tard",
+      "word_id": "W1208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15907",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15907",
+      "position": 2,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15907",
+      "position": 3,
+      "surface": "heure",
+      "word_id": "W467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15907",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15907",
+      "position": 5,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15907",
+      "position": 6,
+      "surface": "coucher",
+      "word_id": "W2211",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15908",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15908",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15908",
+      "position": 3,
+      "surface": "prépare",
+      "word_id": "W2214",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15908",
+      "position": 4,
+      "surface": "pour",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15908",
+      "position": 5,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15908",
+      "position": 6,
+      "surface": "voyage",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15909",
+      "position": 1,
+      "surface": "Bonne",
+      "word_id": "W412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15909",
+      "position": 2,
+      "surface": "journée",
+      "word_id": "W2212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15910",
+      "position": 1,
+      "surface": "Quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15910",
+      "position": 2,
+      "surface": "journée",
+      "word_id": "W2212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15911",
+      "position": 1,
+      "surface": "Bonne",
+      "word_id": "W412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15911",
+      "position": 2,
+      "surface": "soirée",
+      "word_id": "W2213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15912",
+      "position": 1,
+      "surface": "Bonne",
+      "word_id": "W412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15912",
+      "position": 2,
+      "surface": "journée",
+      "word_id": "W2212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15912",
+      "position": 3,
+      "surface": "À bientôt",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15913",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15913",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15913",
+      "position": 3,
+      "surface": "prépare",
+      "word_id": "W2214",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15914",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15914",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15914",
+      "position": 3,
+      "surface": "me",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15914",
+      "position": 4,
+      "surface": "coucher",
+      "word_id": "W2211",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15915",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15915",
+      "position": 2,
+      "surface": "couche",
+      "word_id": "W2210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15915",
+      "position": 3,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15915",
+      "position": 4,
+      "surface": "enfants",
+      "word_id": "W033",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15916",
+      "position": 1,
+      "surface": "Passe",
+      "word_id": "W1432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15916",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15916",
+      "position": 3,
+      "surface": "bonne",
+      "word_id": "W412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15916",
+      "position": 4,
+      "surface": "soirée",
+      "word_id": "W2213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15917",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15917",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15917",
+      "position": 3,
+      "surface": "coucher",
+      "word_id": "W2211",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15917",
+      "position": 4,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15918",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15918",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15918",
+      "position": 3,
+      "surface": "repose",
+      "word_id": "W2216",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15918",
+      "position": 4,
+      "surface": "dimanche",
+      "word_id": "W469",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15919",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15919",
+      "position": 2,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15919",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15919",
+      "position": 4,
+      "surface": "habitude",
+      "word_id": "W2217",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15920",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15920",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15920",
+      "position": 3,
+      "surface": "couche",
+      "word_id": "W2210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15920",
+      "position": 4,
+      "surface": "tôt",
+      "word_id": "W1207",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15921",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15921",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15921",
+      "position": 3,
+      "surface": "préparer",
+      "word_id": "W2215",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15921",
+      "position": 4,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15921",
+      "position": 5,
+      "surface": "dîner",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15924",
+      "position": 1,
+      "surface": "Ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15924",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15924",
+      "position": 3,
+      "surface": "passe",
+      "word_id": "W1432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15924",
+      "position": 4,
+      "surface": "bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15925",
+      "position": 1,
+      "surface": "Comment",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15925",
+      "position": 2,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15925",
+      "position": 3,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15925",
+      "position": 4,
+      "surface": "passe",
+      "word_id": "W1432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15926",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15926",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15926",
+      "position": 3,
+      "surface": "trouve",
+      "word_id": "W1430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15926",
+      "position": 4,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15926",
+      "position": 5,
+      "surface": "école",
+      "word_id": "W471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15927",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15927",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15927",
+      "position": 3,
+      "surface": "trouve",
+      "word_id": "W1430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15927",
+      "position": 4,
+      "surface": "mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15927",
+      "position": 5,
+      "surface": "livre",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15928",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15928",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15928",
+      "position": 3,
+      "surface": "trouve",
+      "word_id": "W1430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15928",
+      "position": 4,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15928",
+      "position": 5,
+      "surface": "aéroport",
+      "word_id": "W1671",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15929",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15929",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15929",
+      "position": 3,
+      "surface": "trouve",
+      "word_id": "W1430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15929",
+      "position": 4,
+      "surface": "l'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15929",
+      "position": 5,
+      "surface": "école",
+      "word_id": "W471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15930",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15930",
+      "position": 2,
+      "surface": "est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15930",
+      "position": 3,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15930",
+      "position": 4,
+      "surface": "se",
+      "word_id": "W2208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15930",
+      "position": 5,
+      "surface": "trouve",
+      "word_id": "W1430",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A159071",
+      "sentence_id": "S15907",
+      "direction": "fr_to_en",
+      "answer": "It's time for bed.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A159072",
+      "sentence_id": "S15907",
+      "direction": "fr_to_en",
+      "answer": "It's time to go to bed.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A159073",
+      "sentence_id": "S15907",
+      "direction": "fr_to_en",
+      "answer": "It's time to go to sleep.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A159074",
+      "sentence_id": "S15907",
+      "direction": "fr_to_en",
+      "answer": "It is time to go to bed.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A159091",
+      "sentence_id": "S15909",
+      "direction": "fr_to_en",
+      "answer": "Have a nice day!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A159101",
+      "sentence_id": "S15910",
+      "direction": "fr_to_en",
+      "answer": "What a day!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A159261",
+      "sentence_id": "S15926",
+      "direction": "fr_to_en",
+      "answer": "Where is your school?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A159271",
+      "sentence_id": "S15927",
+      "direction": "fr_to_en",
+      "answer": "Where is my book?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A159291",
+      "sentence_id": "S15929",
+      "direction": "fr_to_en",
+      "answer": "Where is the school?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

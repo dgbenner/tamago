@@ -1,4 +1,4 @@
-import { a1QuestionFor } from './a1types.js'
+import { a1QuestionFor, makeA1Question } from './a1types.js'
 // Builds lessons from content. Pure: no React, no storage, so it runs under node --test.
 // Rule numbers (R01...) refer to the workbook's lesson_rules tab.
 import { accentKey, normalize, sameAnswer } from './check.js'
@@ -420,7 +420,10 @@ export function lessonScope(c, known, round) {
   const order = new Map((c.units ?? []).map((u) => [u.unit_id, u.order]))
   const mine = order.get(c.unit_id) ?? Infinity
   const listed = (id) => c.wordById.has(id)
-  const toIntroduce = (id) => listed(id) && (ownWord(c, id) || (order.get(c.wordById.get(id).first_unit) ?? Infinity) > mine)
+  // A topic pack's word in a main circle (French Part 5 borrows maison, mère, travail; 2026-11-15) is new too unless
+  // the learner met it in that pack: packs are one choice among several, so the path can't count on them.
+  const pack = new Set((c.units ?? []).filter((u) => u.is_topic_pick === 'yes' && u.unit_id !== c.unit_id).map((u) => u.unit_id))
+  const toIntroduce = (id) => listed(id) && (ownWord(c, id) || (order.get(c.wordById.get(id).first_unit) ?? Infinity) > mine || pack.has(c.wordById.get(id).first_unit))
   // Two new words with one meaning (bleu and bleue) can't share a board, so the second waits for the next lesson.
   const newWords = []
   const meanings = new Set()
@@ -658,6 +661,8 @@ export function buildReview(c, bank, { round = 1, settings = {}, rng = Math.rand
 // items: [{ sentence_id, type, round, unit_id }]. Nothing here moves tree progress or the score.
 export function buildSession(c, kind, items, { settings = {}, rng = Math.random, ...extra } = {}) {
   const queue = items.flatMap((it) => {
+    // An A1 task item (the mock DELF A1, finalcheck.js): its own question, read instead when listening is off.
+    if (it.a1) return [{ ...makeA1Question(it.type, it.a1, it.round, { cantListen: settings.cantListen, rng }), unit_id: it.unit_id, ...(it.part ? { part: it.part } : {}) }]
     const s = c.sentenceById.get(it.sentence_id)
     if (!s) return []
     let type = it.type
@@ -667,7 +672,7 @@ export function buildSession(c, kind, items, { settings = {}, rng = Math.random,
   })
   return {
     id: `${kind[0].toUpperCase()}${Math.floor(rng() * 1e12)}`, kind, started_at: Date.now(), ...extra,
-    queue, size: queue.length, graded: queue.filter((q) => !q.speaking).length, index: 0, firstCorrect: 0, firstWrong: 0, misses: [],
+    queue, size: queue.length, graded: queue.filter((q) => !q.speaking && !q.ungraded).length, index: 0, firstCorrect: 0, firstWrong: 0, misses: [],
   }
 }
 

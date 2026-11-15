@@ -59,7 +59,7 @@ export default function Progress({ coverage, finalCheck, scores, units, canDo, c
                 return (
                   <li key={k} className="flex items-baseline justify-between">
                     <span className="font-medium">{NAMES[k] ?? k}</span>
-                    <span>{p.right} of {p.total}{p.total ? <span className="text-sm text-muted"> · {Math.round((p.right * 100) / p.total)}%</span> : null}</span>
+                    <span>{p.right} of {p.total}{p.total ? <span className="text-sm text-muted"> · {Math.round((p.right * 100) / p.total)}%</span> : null}{p.written ? <span className="text-sm text-muted"> · message written</span> : null}</span>
                   </li>
                 )
               })}

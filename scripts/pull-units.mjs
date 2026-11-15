@@ -21,7 +21,8 @@ const QUESTIONS_MIN = 4 // P06
 // Help circles (2026-11-10): U31 to U33, the Asking for Help thread.
 // A1 Part 2 (2026-11-10): U41 to U49 and its help circles U34 to U36; its vocabulary circles U51 to U55.
 // A1 Part 3 (2026-11-14): U61 to U69, help U37 to U39, vocabulary U71 to U75. Part 4: U81 to U89, help U26 to U28, vocabulary U91 to U95.
-const ID_BASE = { U61: 12000, U62: 12100, U63: 12200, U64: 12300, U65: 12400, U66: 12500, U67: 12600, U68: 12700, U69: 12800, U37: 12900, U38: 13000, U39: 13100, U71: 13200, U72: 13300, U73: 13400, U74: 13500, U75: 13600, U81: 13700, U82: 13800, U83: 13900, U84: 14000, U85: 14100, U86: 14200, U87: 14300, U88: 14400, U89: 14500, U26: 14600, U27: 14700, U28: 14800, U91: 14900, U92: 15000, U93: 15100, U94: 15200, U95: 15300, U41: 10000, U42: 10100, U43: 10200, U44: 10300, U45: 10400, U46: 10500, U47: 10600, U48: 10700, U49: 10800, U34: 10900, U35: 11000, U36: 11100, U51: 11200, U52: 11300, U53: 11400, U54: 11500, U55: 11600, U31: 9000, U32: 9100, U33: 9200, U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600, U06: 7000, U07: 7100, U08: 7200, U09: 7300, U10: 7400, U11: 7500, U12: 7600, U13: 7700, U201: 8000, U202: 8100, U203: 8200, U204: 8300, U205: 8400, U206: 8500, U207: 8600, U208: 8700 }
+// Part 5 (2026-11-15): U501 to U509, help U521 to U523, vocabulary U511 to U515 (15400 to 17000).
+const ID_BASE = { U501: 15400, U511: 15500, U521: 15600, U502: 15700, U503: 15800, U512: 15900, U504: 16000, U505: 16100, U522: 16200, U513: 16300, U506: 16400, U507: 16500, U523: 16600, U514: 16700, U508: 16800, U509: 16900, U515: 17000, U61: 12000, U62: 12100, U63: 12200, U64: 12300, U65: 12400, U66: 12500, U67: 12600, U68: 12700, U69: 12800, U37: 12900, U38: 13000, U39: 13100, U71: 13200, U72: 13300, U73: 13400, U74: 13500, U75: 13600, U81: 13700, U82: 13800, U83: 13900, U84: 14000, U85: 14100, U86: 14200, U87: 14300, U88: 14400, U89: 14500, U26: 14600, U27: 14700, U28: 14800, U91: 14900, U92: 15000, U93: 15100, U94: 15200, U95: 15300, U41: 10000, U42: 10100, U43: 10200, U44: 10300, U45: 10400, U46: 10500, U47: 10600, U48: 10700, U49: 10800, U34: 10900, U35: 11000, U36: 11100, U51: 11200, U52: 11300, U53: 11400, U54: 11500, U55: 11600, U31: 9000, U32: 9100, U33: 9200, U02: 2000, U03: 3000, U04: 4000, U05: 5000, U101: 6000, U102: 6100, U103: 6200, U104: 6300, U105: 6400, U106: 6500, U107: 6600, U06: 7000, U07: 7100, U08: 7200, U09: 7300, U10: 7400, U11: 7500, U12: 7600, U13: 7700, U201: 8000, U202: 8100, U203: 8200, U204: 8300, U205: 8400, U206: 8500, U207: 8600, U208: 8700 }
 // A topic pack (is_topic_pick yes) is one node: a smaller target, and it draws only on Units 1 to 5 plus its own words.
 const isPack = (u) => u.is_topic_pick === 'yes'
 const PACK_TARGET = 15
@@ -121,7 +122,9 @@ for (const u of units) {
       // draw on the approved circles after it.
       : new Set([...[...opened].filter((id) => (orderOf.get(id) ?? 0) < u.order), ...units.filter((x) => isHelp(x) && Number(x.part || 1) < Number(u.part || 1)).map((x) => x.unit_id), u.unit_id])
   if (!isPack(u) && !isHelp(u)) opened.add(u.unit_id)
-  const borrowed = isHelp(u) ? new Set(String(u.borrow_words ?? '').split(';').map((x) => x.trim()).filter(Boolean)) : new Set()
+  // Main circles borrow too since French Part 5 (2026-11-15): Home and Work needs the Family, Home and Office packs' words
+  // (maison, mère, travail), which a learner who chose another pack hasn't met; lessonScope introduces them as new.
+  const borrowed = new Set(String(u.borrow_words ?? '').split(';').map((x) => x.trim()).filter(Boolean))
   // A live pack marked rebuild in packs-review.json (Weather, 2026-11-10) is topped up: its live Tatoeba sentences stay
   // and count toward the targets, new picks take ids from REBUILD_BASE.
   const rebuild = Boolean(packReview(u.unit_id).rebuild)

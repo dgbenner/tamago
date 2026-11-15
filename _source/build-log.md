@@ -759,3 +759,13 @@ Part 3, Lingua Libre recordings:
 - Audits on French: word audit 0 and 0 (2,299 lessons); every-lesson check 0 (23,476 questions). FLELex core 435 of 600 (73%).
 - Wrong-sense sweep, all courses: senses fr 35, es 17, de 10, it 8, pt 8; hints fr 3, es 4, de 1, it 0, pt 0.
 - lang/portuguese merged (Developer only); Portuguese every-lesson check 4 to 0. Match Pairs: tap again to deselect.
+
+## 2026-11-15: French A1 Part 5, Home and Work; Part 2 texts; DELF A1 mock exam
+
+- French Part 5 (scripts/part5/fr.mjs, workbook v38): 17 circles, Brush-Up C09 and C10, 28 task items (15 Read and Answer texts, three per circle that has it; 8 Write the Number; 2 forms; 3 messages). te, n', avez and ce first (U501); late words fais, faire, avons, ont, dites, peut (the course had none). Revived copain, copine, temps (add-part `revive`). Main circles borrow the Family, Home and Office packs' words (borrow_words now read for every circle by pull-units and trust-candidates); lessonScope introduces a pack word as new unless the learner met it.
+- Each circle pulled, reviewed into content/sweep/packs-review.json (cut: imperatives, vis and vit as the past of voir, devoir as duty and as owe, la mariée as the bride, break-up and romantic lines, se ranger as pull over, idioms, colloquial t'as, t'es, t'en, quoted lines, literary inversions), re-pulled to refill after the cuts, drafted where Tatoeba was short, approved with grammar notes. Workarounds dropped: S14762 and S15261 cut, natural lines drafted in U501.
+- 3,586 sentences shipped (2,811 Tatoeba, 775 originals); Part 5 drafts 155. FLELex core: 435 to 493 of 600 (82%).
+- French Part 2 Read and Answer to three texts per circle (R104 to R109, workbook v37, scripts/add-items.mjs).
+- Mock DELF A1 at the end of the last part (finalcheck.js FORMATS.fr): listening with QT17, reading four kinds of text (QT14), writing a form (QT15) and a message (QT16, not scored), speaking ungraded. Test added.
+- Audits on Part 5: word audit 0 early and 0 over 4 (2,715 lessons); every-lesson check 1 critical (three drafts repeated existing lines, so a QT09's chips looked up the other sentence) to 0 (27,736 questions). npm test 191 pass.
+- Quality pass for Fable: _review/french-part5-candidates.md (1,032 candidates, 155 drafts, 2 same text, 85 covered) and _review/french-part5-drafts.md. Nothing swapped.

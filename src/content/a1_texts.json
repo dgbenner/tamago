@@ -1050,5 +1050,689 @@
       }
     ],
     "source": "written for Tamago"
+  },
+  {
+    "id": "R104",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "Fruits et légumes",
+    "lines": [
+      "Pommes : 2 € le kilo",
+      "Oranges : 3 € le kilo",
+      "Légumes : 4 € le kilo"
+    ],
+    "questions": [
+      {
+        "question": "How much is a kilo of oranges?",
+        "choices": [
+          "€3",
+          "€2",
+          "€4"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What costs €2 a kilo?",
+        "choices": [
+          "Apples",
+          "Oranges",
+          "Vegetables"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R105",
+    "unit_id": "U47",
+    "kind": "message",
+    "title": "Un message de Paul",
+    "lines": [
+      "Marie,",
+      "Tu vas au marché ?",
+      "Tu peux acheter des pommes et un kilo de légumes ?",
+      "Merci !"
+    ],
+    "questions": [
+      {
+        "question": "Where is Marie going?",
+        "choices": [
+          "To the market",
+          "Home",
+          "To work"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does Paul want?",
+        "choices": [
+          "Apples and vegetables",
+          "Bread and cheese",
+          "Milk and water"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R106",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Sandwichs",
+    "lines": [
+      "Sandwich au fromage : 4 €",
+      "Pain : 1,50 €",
+      "Eau : 1 €"
+    ],
+    "questions": [
+      {
+        "question": "How much is the cheese sandwich?",
+        "choices": [
+          "€4",
+          "€1.50",
+          "€1"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What costs €1.50?",
+        "choices": [
+          "The bread",
+          "The water",
+          "The sandwich"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R107",
+    "unit_id": "U48",
+    "kind": "message",
+    "title": "Un message de Léa",
+    "lines": [
+      "Paul,",
+      "Le pain coûte 1 €.",
+      "Le fromage est cher : 9 € !",
+      "Léa"
+    ],
+    "questions": [
+      {
+        "question": "How much does the bread cost?",
+        "choices": [
+          "€1",
+          "€9",
+          "€10"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is expensive?",
+        "choices": [
+          "The cheese",
+          "The bread",
+          "The milk"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R108",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Un message de Paul",
+    "lines": [
+      "Marie,",
+      "Tu peux acheter deux bouteilles d'eau et une boîte de biscuits ?",
+      "Merci, Paul"
+    ],
+    "questions": [
+      {
+        "question": "How many bottles of water?",
+        "choices": [
+          "Two",
+          "One",
+          "Three"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What else does Paul want?",
+        "choices": [
+          "A box of biscuits",
+          "A bag of apples",
+          "A glass of milk"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R109",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Un message de Marie",
+    "lines": [
+      "Paul,",
+      "J'ai assez de lait, mais pas de pain.",
+      "Tu peux acheter un peu de fromage ?",
+      "Marie"
+    ],
+    "questions": [
+      {
+        "question": "What is there enough of?",
+        "choices": [
+          "Milk",
+          "Bread",
+          "Cheese"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What should Paul buy?",
+        "choices": [
+          "Bread and a little cheese",
+          "Milk and apples",
+          "Nothing"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R501",
+    "unit_id": "U503",
+    "kind": "notice",
+    "title": "Appartement",
+    "lines": [
+      "Trois pièces",
+      "Salon, cuisine, deux chambres",
+      "Salle de bain avec fenêtre",
+      "850 € par mois"
+    ],
+    "questions": [
+      {
+        "question": "How many bedrooms are there?",
+        "choices": [
+          "Two",
+          "Three",
+          "One"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much is it a month?",
+        "choices": [
+          "€850",
+          "€350",
+          "€580"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R502",
+    "unit_id": "U503",
+    "kind": "message",
+    "title": "Un message de Léa",
+    "lines": [
+      "Maman,",
+      "Je n'ai pas la clé de la maison.",
+      "Tu rentres à quelle heure ?",
+      "Léa"
+    ],
+    "questions": [
+      {
+        "question": "What doesn't Léa have?",
+        "choices": [
+          "The house key",
+          "Her phone",
+          "Her bag"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Who is the message for?",
+        "choices": [
+          "Her mother",
+          "Her father",
+          "Her brother"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R503",
+    "unit_id": "U503",
+    "kind": "message",
+    "title": "Un message de Paul",
+    "lines": [
+      "Marie,",
+      "La clé est sous la porte.",
+      "Le dîner est dans la cuisine.",
+      "Bonne nuit !"
+    ],
+    "questions": [
+      {
+        "question": "Where is the key?",
+        "choices": [
+          "Under the door",
+          "On the table",
+          "In the bag"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where is dinner?",
+        "choices": [
+          "In the kitchen",
+          "In the living room",
+          "In the bedroom"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R504",
+    "unit_id": "U505",
+    "kind": "notice",
+    "title": "Réunion",
+    "lines": [
+      "Réunion de l'équipe",
+      "Lundi, 9h30, salle 2",
+      "Avec le directeur"
+    ],
+    "questions": [
+      {
+        "question": "When is the meeting?",
+        "choices": [
+          "Monday at 9:30",
+          "Tuesday at 2:00",
+          "Friday at 9:00"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Who will be there?",
+        "choices": [
+          "The director",
+          "The secretary",
+          "A journalist"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R505",
+    "unit_id": "U505",
+    "kind": "message",
+    "title": "Pour Sophie",
+    "lines": [
+      "Bonjour Sophie,",
+      "Mon fils n'est pas bien.",
+      "Je travaille à la maison aujourd'hui.",
+      "Merci, Paul"
+    ],
+    "questions": [
+      {
+        "question": "Where is Paul working today?",
+        "choices": [
+          "At home",
+          "At the office",
+          "At school"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Why?",
+        "choices": [
+          "His son is not well",
+          "He is on holiday",
+          "The office is closed"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R506",
+    "unit_id": "U505",
+    "kind": "notice",
+    "title": "Le bureau",
+    "lines": [
+      "Du lundi au vendredi : 8h30 – 17h",
+      "Déjeuner : 12h – 13h",
+      "Fermé le samedi et le dimanche"
+    ],
+    "questions": [
+      {
+        "question": "When does the office open?",
+        "choices": [
+          "8:30",
+          "5 pm",
+          "1 pm"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Which days is it closed?",
+        "choices": [
+          "Saturday and Sunday",
+          "Monday and Friday",
+          "It is never closed"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R507",
+    "unit_id": "U506",
+    "kind": "timetable",
+    "title": "Lundi",
+    "lines": [
+      "8h : maths",
+      "9h : anglais",
+      "10h : histoire",
+      "11h : sport"
+    ],
+    "questions": [
+      {
+        "question": "What is at 9:00?",
+        "choices": [
+          "English",
+          "Maths",
+          "History"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is sport?",
+        "choices": [
+          "11:00",
+          "8:00",
+          "10:00"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R508",
+    "unit_id": "U506",
+    "kind": "notice",
+    "title": "L'examen",
+    "lines": [
+      "Examen de français",
+      "Le 15 juin, à 14h",
+      "Salle 12",
+      "Pas de téléphone, s'il vous plaît."
+    ],
+    "questions": [
+      {
+        "question": "What date is the exam?",
+        "choices": [
+          "15 June",
+          "15 July",
+          "5 June"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is not allowed?",
+        "choices": [
+          "Phones",
+          "Pens",
+          "Books"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R509",
+    "unit_id": "U506",
+    "kind": "message",
+    "title": "Un message du prof",
+    "lines": [
+      "Bonjour,",
+      "Pas de classe demain : je suis à l'université.",
+      "Pour jeudi : exercices 3 et 4."
+    ],
+    "questions": [
+      {
+        "question": "Why is there no class tomorrow?",
+        "choices": [
+          "The teacher is at the university",
+          "The teacher is ill",
+          "It is a holiday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is for Thursday?",
+        "choices": [
+          "Exercises 3 and 4",
+          "Exercise 1",
+          "An exam"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R510",
+    "unit_id": "U507",
+    "kind": "message",
+    "title": "Un message de Tom",
+    "lines": [
+      "Salut !",
+      "Je suis au café avec Léa.",
+      "Tu viens ? Envoie-moi un message."
+    ],
+    "questions": [
+      {
+        "question": "Where is Tom?",
+        "choices": [
+          "At the café",
+          "At work",
+          "At home"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Who is with him?",
+        "choices": [
+          "Léa",
+          "His mother",
+          "A colleague"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R511",
+    "unit_id": "U507",
+    "kind": "message",
+    "title": "Un mail",
+    "lines": [
+      "Bonjour Madame Martin,",
+      "Merci pour votre message.",
+      "Je vous rappelle demain à 10h.",
+      "Paul Durand"
+    ],
+    "questions": [
+      {
+        "question": "When will Paul call back?",
+        "choices": [
+          "Tomorrow at 10:00",
+          "Today at 10:00",
+          "Tomorrow at 2:00"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Who is the mail to?",
+        "choices": [
+          "Mrs Martin",
+          "Mr Durand",
+          "Paul"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R512",
+    "unit_id": "U507",
+    "kind": "message",
+    "title": "Pour Marc",
+    "lines": [
+      "Marc,",
+      "Ta mère a un message pour toi.",
+      "Rappelle-la, s'il te plaît."
+    ],
+    "questions": [
+      {
+        "question": "Who has a message for Marc?",
+        "choices": [
+          "His mother",
+          "His father",
+          "A colleague"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What should Marc do?",
+        "choices": [
+          "Call her back",
+          "Write to her",
+          "Go home"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R513",
+    "unit_id": "U509",
+    "kind": "message",
+    "title": "Une carte de Nice",
+    "lines": [
+      "Chère Julie,",
+      "Nice, c'est super ! La ville est belle.",
+      "Je rentre samedi.",
+      "Je t'embrasse, Marie"
+    ],
+    "questions": [
+      {
+        "question": "Where is Marie?",
+        "choices": [
+          "In Nice",
+          "In Paris",
+          "In Lyon"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When does she go home?",
+        "choices": [
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R514",
+    "unit_id": "U509",
+    "kind": "message",
+    "title": "Merci !",
+    "lines": [
+      "Chers amis,",
+      "Merci pour la belle soirée !",
+      "On se retrouve en juin ?",
+      "Bises, Paul"
+    ],
+    "questions": [
+      {
+        "question": "What is Paul thanking them for?",
+        "choices": [
+          "The evening",
+          "The present",
+          "The trip"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When does he want to meet again?",
+        "choices": [
+          "In June",
+          "In July",
+          "Tomorrow"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R515",
+    "unit_id": "U509",
+    "kind": "message",
+    "title": "Au revoir",
+    "lines": [
+      "Je quitte Paris lundi.",
+      "Merci pour tout !",
+      "Au revoir et à bientôt, Sophie"
+    ],
+    "questions": [
+      {
+        "question": "When is Sophie leaving Paris?",
+        "choices": [
+          "Monday",
+          "Friday",
+          "Sunday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does she say?",
+        "choices": [
+          "Thank you for everything",
+          "Happy birthday",
+          "Good luck"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
   }
 ]

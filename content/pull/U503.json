@@ -1,0 +1,1276 @@
+{
+  "unit_id": "U503",
+  "pulled_at": "2026-11-15",
+  "candidates": 154,
+  "sentences": [
+    {
+      "sentence_id": "S15801",
+      "unit_id": "U503",
+      "french": "Tu vis ici ?",
+      "english": "Do you live here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4081046",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sbamsbamsbam",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15802",
+      "unit_id": "U503",
+      "french": "Tu vis seul ?",
+      "english": "Do you live alone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8685371",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": [
+        "Do you live by yourself?"
+      ]
+    },
+    {
+      "sentence_id": "S15803",
+      "unit_id": "U503",
+      "french": "Où est ma clé ?",
+      "english": "Where is my key?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6171720",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15804",
+      "unit_id": "U503",
+      "french": "Où est la clé ?",
+      "english": "Where's the key?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6367927",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15805",
+      "unit_id": "U503",
+      "french": "Vous avez perdu la clé ?",
+      "english": "Did you lose the key?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12504301",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15806",
+      "unit_id": "U503",
+      "french": "Comment c'est de vivre en Allemagne ?",
+      "english": "What is it like living in Germany?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4096555",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sbamsbamsbam",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15807",
+      "unit_id": "U503",
+      "french": "Quelle est la couleur de ce mur ?",
+      "english": "What color is this wall?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13238652",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Jozumaki",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15808",
+      "unit_id": "U503",
+      "french": "Il vit seul.",
+      "english": "He lives alone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "339730",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "TRANG",
+      "other_english": [
+        "He lives by himself."
+      ]
+    },
+    {
+      "sentence_id": "S15809",
+      "unit_id": "U503",
+      "french": "Je vis seul.",
+      "english": "I live alone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7547384",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": [
+        "I'm living alone.",
+        "I live by myself."
+      ]
+    },
+    {
+      "sentence_id": "S15810",
+      "unit_id": "U503",
+      "french": "Quelle belle pièce !",
+      "english": "What a beautiful room!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10515275",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15811",
+      "unit_id": "U503",
+      "french": "On mange pour vivre.",
+      "english": "We eat so we can live.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "337034",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sysko",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15812",
+      "unit_id": "U503",
+      "french": "J'aime vivre ici.",
+      "english": "I like living here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1051019",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15813",
+      "unit_id": "U503",
+      "french": "Elle vit avec lui.",
+      "english": "She lives with him.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1410397",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15816",
+      "unit_id": "U503",
+      "french": "Je suis dans le salon.",
+      "english": "I'm in the living room.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11803444",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15817",
+      "unit_id": "U503",
+      "french": "Je prends un bain par jour.",
+      "english": "I take a bath once a day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "678984",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sysko",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15818",
+      "unit_id": "U503",
+      "french": "La carte est sur le mur.",
+      "english": "The map is on the wall.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "879584",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15820",
+      "unit_id": "U503",
+      "french": "J'ai besoin d'un bain.",
+      "english": "I need a bath.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7763066",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15821",
+      "unit_id": "U503",
+      "french": "Tu as perdu la clé ?",
+      "english": "Did you lose the key?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12504302",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15822",
+      "unit_id": "U503",
+      "french": "Voici votre clé.",
+      "english": "Here's your key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11236",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "Here is your key."
+      ]
+    },
+    {
+      "sentence_id": "S15823",
+      "unit_id": "U503",
+      "french": "C'est votre clé.",
+      "english": "This is your key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1201864",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15824",
+      "unit_id": "U503",
+      "french": "Je cherche ma clé.",
+      "english": "I'm looking for my key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8747",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Cocorico",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15825",
+      "unit_id": "U503",
+      "french": "Je vis en ville.",
+      "english": "I live in town.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9726",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I'm living in the city."
+      ]
+    },
+    {
+      "sentence_id": "S15830",
+      "unit_id": "U503",
+      "french": "Personne ne vit là-bas.",
+      "english": "Nobody lives there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2093154",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15831",
+      "unit_id": "U503",
+      "french": "J'ai perdu la clé.",
+      "english": "I have lost the key.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6571",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sysko",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S15801",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15801",
+      "position": 2,
+      "surface": "vis",
+      "word_id": "W2018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15801",
+      "position": 3,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15802",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15802",
+      "position": 2,
+      "surface": "vis",
+      "word_id": "W2018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15802",
+      "position": 3,
+      "surface": "seul",
+      "word_id": "W1045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15803",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15803",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15803",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15803",
+      "position": 4,
+      "surface": "clé",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15804",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15804",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15804",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15804",
+      "position": 4,
+      "surface": "clé",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15805",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15805",
+      "position": 2,
+      "surface": "avez",
+      "word_id": "W2003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15805",
+      "position": 3,
+      "surface": "perdu",
+      "word_id": "W1633",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15805",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15805",
+      "position": 5,
+      "surface": "clé",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15806",
+      "position": 1,
+      "surface": "Comment",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15806",
+      "position": 2,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15806",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15806",
+      "position": 4,
+      "surface": "vivre",
+      "word_id": "W2020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15806",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15806",
+      "position": 6,
+      "surface": "Allemagne",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15807",
+      "position": 1,
+      "surface": "Quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15807",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15807",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15807",
+      "position": 4,
+      "surface": "couleur",
+      "word_id": "W1810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15807",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15807",
+      "position": 6,
+      "surface": "ce",
+      "word_id": "W2084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15807",
+      "position": 7,
+      "surface": "mur",
+      "word_id": "W2025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15808",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15808",
+      "position": 2,
+      "surface": "vit",
+      "word_id": "W2019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15808",
+      "position": 3,
+      "surface": "seul",
+      "word_id": "W1045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15809",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15809",
+      "position": 2,
+      "surface": "vis",
+      "word_id": "W2018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15809",
+      "position": 3,
+      "surface": "seul",
+      "word_id": "W1045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15810",
+      "position": 1,
+      "surface": "Quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15810",
+      "position": 2,
+      "surface": "belle",
+      "word_id": "W414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15810",
+      "position": 3,
+      "surface": "pièce",
+      "word_id": "W2023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15811",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15811",
+      "position": 2,
+      "surface": "mange",
+      "word_id": "W051",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15811",
+      "position": 3,
+      "surface": "pour",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15811",
+      "position": 4,
+      "surface": "vivre",
+      "word_id": "W2020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15812",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15812",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15812",
+      "position": 3,
+      "surface": "vivre",
+      "word_id": "W2020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15812",
+      "position": 4,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15813",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15813",
+      "position": 2,
+      "surface": "vit",
+      "word_id": "W2019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15813",
+      "position": 3,
+      "surface": "avec",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15813",
+      "position": 4,
+      "surface": "lui",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15816",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15816",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15816",
+      "position": 3,
+      "surface": "dans",
+      "word_id": "W477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15816",
+      "position": 4,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15816",
+      "position": 5,
+      "surface": "salon",
+      "word_id": "W2024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15817",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15817",
+      "position": 2,
+      "surface": "prends",
+      "word_id": "W1433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15817",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15817",
+      "position": 4,
+      "surface": "bain",
+      "word_id": "W2022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15817",
+      "position": 5,
+      "surface": "par",
+      "word_id": "W1632",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15817",
+      "position": 6,
+      "surface": "jour",
+      "word_id": "W463",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15818",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15818",
+      "position": 2,
+      "surface": "carte",
+      "word_id": "W897",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15818",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15818",
+      "position": 4,
+      "surface": "sur",
+      "word_id": "W1074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15818",
+      "position": 5,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15818",
+      "position": 6,
+      "surface": "mur",
+      "word_id": "W2025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15820",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15820",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15820",
+      "position": 3,
+      "surface": "besoin",
+      "word_id": "W1665",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15820",
+      "position": 4,
+      "surface": "d'",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15820",
+      "position": 5,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15820",
+      "position": 6,
+      "surface": "bain",
+      "word_id": "W2022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15821",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15821",
+      "position": 2,
+      "surface": "as",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15821",
+      "position": 3,
+      "surface": "perdu",
+      "word_id": "W1633",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15821",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15821",
+      "position": 5,
+      "surface": "clé",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15822",
+      "position": 1,
+      "surface": "Voici",
+      "word_id": "W205",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15822",
+      "position": 2,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15822",
+      "position": 3,
+      "surface": "clé",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15823",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15823",
+      "position": 2,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15823",
+      "position": 3,
+      "surface": "clé",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15824",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15824",
+      "position": 2,
+      "surface": "cherche",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15824",
+      "position": 3,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15824",
+      "position": 4,
+      "surface": "clé",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15825",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15825",
+      "position": 2,
+      "surface": "vis",
+      "word_id": "W2018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15825",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15825",
+      "position": 4,
+      "surface": "ville",
+      "word_id": "W470",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15830",
+      "position": 1,
+      "surface": "Personne",
+      "word_id": "W1422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15830",
+      "position": 2,
+      "surface": "ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15830",
+      "position": 3,
+      "surface": "vit",
+      "word_id": "W2019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15830",
+      "position": 4,
+      "surface": "là-bas",
+      "word_id": "W1629",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15831",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15831",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15831",
+      "position": 3,
+      "surface": "perdu",
+      "word_id": "W1633",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15831",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15831",
+      "position": 5,
+      "surface": "clé",
+      "word_id": "W2026",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A158021",
+      "sentence_id": "S15802",
+      "direction": "fr_to_en",
+      "answer": "Do you live by yourself?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A158081",
+      "sentence_id": "S15808",
+      "direction": "fr_to_en",
+      "answer": "He lives by himself.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A158091",
+      "sentence_id": "S15809",
+      "direction": "fr_to_en",
+      "answer": "I'm living alone.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A158092",
+      "sentence_id": "S15809",
+      "direction": "fr_to_en",
+      "answer": "I live by myself.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A158221",
+      "sentence_id": "S15822",
+      "direction": "fr_to_en",
+      "answer": "Here is your key.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A158251",
+      "sentence_id": "S15825",
+      "direction": "fr_to_en",
+      "answer": "I'm living in the city.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": [
+    {
+      "question_sentence_id": "S15821",
+      "answer_sentence_id": "S15831"
+    },
+    {
+      "question_sentence_id": "S15821",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S15821",
+      "answer_sentence_id": "S0005"
+    }
+  ]
+}

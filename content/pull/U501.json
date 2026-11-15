@@ -1,0 +1,1597 @@
+{
+  "unit_id": "U501",
+  "pulled_at": "2026-11-15",
+  "candidates": 850,
+  "sentences": [
+    {
+      "sentence_id": "S15401",
+      "unit_id": "U501",
+      "french": "Est-ce que je te connais ?",
+      "english": "Do I know you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1462560",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15402",
+      "unit_id": "U501",
+      "french": "Qu'est-ce que ça te rappelle ?",
+      "english": "What does this remind you of?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3663862",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GB3",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15403",
+      "unit_id": "U501",
+      "french": "Est-ce que la dame te connaît ?",
+      "english": "Does that lady know you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5760135",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15406",
+      "unit_id": "U501",
+      "french": "Vous n'avez pas le billet.",
+      "english": "You don't have the ticket.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1455105",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15407",
+      "unit_id": "U501",
+      "french": "D'où est-ce que je te connais ?",
+      "english": "Where do I know you from?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10712301",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "xhlulu",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15408",
+      "unit_id": "U501",
+      "french": "Est-ce que je vous connais ?",
+      "english": "Do I know you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1462561",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15410",
+      "unit_id": "U501",
+      "french": "Je te rappelle.",
+      "english": "I'll call you back.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "331225",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Lumpawurump",
+      "other_english": [
+        "I'll ring you back."
+      ]
+    },
+    {
+      "sentence_id": "S15411",
+      "unit_id": "U501",
+      "french": "Je suis très heureux de te connaître.",
+      "english": "I am very glad to know you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "460618",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15413",
+      "unit_id": "U501",
+      "french": "Elle me connaît.",
+      "english": "She knows me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "626278",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15414",
+      "unit_id": "U501",
+      "french": "Elle connaît Marie.",
+      "english": "She knows Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4027276",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GB3",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15415",
+      "unit_id": "U501",
+      "french": "Merci de rappeler.",
+      "english": "Please call again.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9252985",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15416",
+      "unit_id": "U501",
+      "french": "J'espère que tu vas rappeler.",
+      "english": "I hope you'll phone again.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13452",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I hope you'll ring again.",
+        "I hope you will call again."
+      ]
+    },
+    {
+      "sentence_id": "S15420",
+      "unit_id": "U501",
+      "french": "Ça te plaît ?",
+      "english": "You like it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4869032",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gillux",
+      "other_english": [
+        "Do you like that?",
+        "Do you like it?",
+        "Do you like this?"
+      ]
+    },
+    {
+      "sentence_id": "S15421",
+      "unit_id": "U501",
+      "french": "Il te plaît ?",
+      "english": "You like it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4869033",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gillux",
+      "other_english": [
+        "Do you like him?"
+      ]
+    },
+    {
+      "sentence_id": "S15422",
+      "unit_id": "U501",
+      "french": "Est-ce que ça te plaît ?",
+      "english": "Are you enjoying it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "583304",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15423",
+      "unit_id": "U501",
+      "french": "Vous avez un problème ?",
+      "english": "Do you have a problem?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1112264",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15424",
+      "unit_id": "U501",
+      "french": "Est-ce que ça te va ?",
+      "english": "Are you alright with this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1767915",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15426",
+      "unit_id": "U501",
+      "french": "Ça te plaît vraiment ?",
+      "english": "Do you really like it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11379040",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15430",
+      "unit_id": "U501",
+      "french": "Qui est-ce que tu connais ici ?",
+      "english": "Who do you know here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5484475",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pititnatole",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15431",
+      "unit_id": "U501",
+      "french": "Tu n'aimes pas la bière ?",
+      "english": "You don't like beer?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "848801",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": [
+        "Don't you like beer?"
+      ]
+    },
+    {
+      "sentence_id": "S15432",
+      "unit_id": "U501",
+      "french": "Je n'aime pas trop la bière.",
+      "english": "I don't like beer too much.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3273351",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15433",
+      "unit_id": "U501",
+      "french": "Je n'aime pas la bière.",
+      "english": "I do not like beer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6578653",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Kenji75018",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15434",
+      "unit_id": "U501",
+      "french": "Tu n'aimes pas les chats ?",
+      "english": "Don't you like cats?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10518361",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15435",
+      "unit_id": "U501",
+      "french": "Je n'aime pas les chats.",
+      "english": "I don't like cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2316007",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": [
+        "I don't like the cats."
+      ]
+    },
+    {
+      "sentence_id": "S15436",
+      "unit_id": "U501",
+      "french": "Je n'aime pas beaucoup les chats.",
+      "english": "I don't like cats very much.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9730083",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15437",
+      "unit_id": "U501",
+      "french": "Tu n'aimes pas les pommes ?",
+      "english": "Don't you like apples?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10556316",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S15438",
+      "unit_id": "U501",
+      "french": "Je n'aime pas les pommes.",
+      "english": "I don't like apples.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6846",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hirymnak",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S15401",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15401",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15401",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15401",
+      "position": 4,
+      "surface": "connais",
+      "word_id": "W2004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15402",
+      "position": 1,
+      "surface": "Qu'est-ce que",
+      "word_id": "W435",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15402",
+      "position": 2,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15402",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15402",
+      "position": 4,
+      "surface": "rappelle",
+      "word_id": "W2007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15403",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15403",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15403",
+      "position": 3,
+      "surface": "dame",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15403",
+      "position": 4,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15403",
+      "position": 5,
+      "surface": "connaît",
+      "word_id": "W2005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15406",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15406",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15406",
+      "position": 3,
+      "surface": "avez",
+      "word_id": "W2003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15406",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15406",
+      "position": 5,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15406",
+      "position": 6,
+      "surface": "billet",
+      "word_id": "W1668",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15407",
+      "position": 1,
+      "surface": "D'",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15407",
+      "position": 2,
+      "surface": "où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15407",
+      "position": 3,
+      "surface": "est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15407",
+      "position": 4,
+      "surface": "je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15407",
+      "position": 5,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15407",
+      "position": 6,
+      "surface": "connais",
+      "word_id": "W2004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15408",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15408",
+      "position": 2,
+      "surface": "je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15408",
+      "position": 3,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15408",
+      "position": 4,
+      "surface": "connais",
+      "word_id": "W2004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15410",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15410",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15410",
+      "position": 3,
+      "surface": "rappelle",
+      "word_id": "W2007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15411",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15411",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15411",
+      "position": 3,
+      "surface": "très",
+      "word_id": "W420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15411",
+      "position": 4,
+      "surface": "heureux",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15411",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15411",
+      "position": 6,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15411",
+      "position": 7,
+      "surface": "connaître",
+      "word_id": "W2006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15413",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15413",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15413",
+      "position": 3,
+      "surface": "connaît",
+      "word_id": "W2005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15414",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15414",
+      "position": 2,
+      "surface": "connaît",
+      "word_id": "W2005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15414",
+      "position": 3,
+      "surface": "Marie",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15415",
+      "position": 1,
+      "surface": "Merci",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15415",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15415",
+      "position": 3,
+      "surface": "rappeler",
+      "word_id": "W2008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15416",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15416",
+      "position": 2,
+      "surface": "espère",
+      "word_id": "W1850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15416",
+      "position": 3,
+      "surface": "que",
+      "word_id": "W1401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15416",
+      "position": 4,
+      "surface": "tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15416",
+      "position": 5,
+      "surface": "vas",
+      "word_id": "W479",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15416",
+      "position": 6,
+      "surface": "rappeler",
+      "word_id": "W2008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15420",
+      "position": 1,
+      "surface": "Ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15420",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15420",
+      "position": 3,
+      "surface": "plaît",
+      "word_id": "W1444",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15421",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15421",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15421",
+      "position": 3,
+      "surface": "plaît",
+      "word_id": "W1444",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15422",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15422",
+      "position": 2,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15422",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15422",
+      "position": 4,
+      "surface": "plaît",
+      "word_id": "W1444",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15423",
+      "position": 1,
+      "surface": "Vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15423",
+      "position": 2,
+      "surface": "avez",
+      "word_id": "W2003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15423",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15423",
+      "position": 4,
+      "surface": "problème",
+      "word_id": "W1664",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15424",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15424",
+      "position": 2,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15424",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15424",
+      "position": 4,
+      "surface": "va",
+      "word_id": "W480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15426",
+      "position": 1,
+      "surface": "Ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15426",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15426",
+      "position": 3,
+      "surface": "plaît",
+      "word_id": "W1444",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15426",
+      "position": 4,
+      "surface": "vraiment",
+      "word_id": "W1412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15430",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15430",
+      "position": 2,
+      "surface": "est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15430",
+      "position": 3,
+      "surface": "tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15430",
+      "position": 4,
+      "surface": "connais",
+      "word_id": "W2004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15430",
+      "position": 5,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15431",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15431",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15431",
+      "position": 3,
+      "surface": "aimes",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15431",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15431",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15431",
+      "position": 6,
+      "surface": "bière",
+      "word_id": "W1605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15432",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15432",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15432",
+      "position": 3,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15432",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15432",
+      "position": 5,
+      "surface": "trop",
+      "word_id": "W908",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15432",
+      "position": 6,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15432",
+      "position": 7,
+      "surface": "bière",
+      "word_id": "W1605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15433",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15433",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15433",
+      "position": 3,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15433",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15433",
+      "position": 5,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15433",
+      "position": 6,
+      "surface": "bière",
+      "word_id": "W1605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15434",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15434",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15434",
+      "position": 3,
+      "surface": "aimes",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15434",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15434",
+      "position": 5,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15434",
+      "position": 6,
+      "surface": "chats",
+      "word_id": "W406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15435",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15435",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15435",
+      "position": 3,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15435",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15435",
+      "position": 5,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15435",
+      "position": 6,
+      "surface": "chats",
+      "word_id": "W406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15436",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15436",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15436",
+      "position": 3,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15436",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15436",
+      "position": 5,
+      "surface": "beaucoup",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15436",
+      "position": 6,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15436",
+      "position": 7,
+      "surface": "chats",
+      "word_id": "W406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15437",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15437",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15437",
+      "position": 3,
+      "surface": "aimes",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15437",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15437",
+      "position": 5,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15437",
+      "position": 6,
+      "surface": "pommes",
+      "word_id": "W408",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15438",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15438",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15438",
+      "position": 3,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15438",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15438",
+      "position": 5,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S15438",
+      "position": 6,
+      "surface": "pommes",
+      "word_id": "W408",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A154101",
+      "sentence_id": "S15410",
+      "direction": "fr_to_en",
+      "answer": "I'll ring you back.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A154161",
+      "sentence_id": "S15416",
+      "direction": "fr_to_en",
+      "answer": "I hope you'll ring again.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A154162",
+      "sentence_id": "S15416",
+      "direction": "fr_to_en",
+      "answer": "I hope you will call again.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A154201",
+      "sentence_id": "S15420",
+      "direction": "fr_to_en",
+      "answer": "Do you like that?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A154202",
+      "sentence_id": "S15420",
+      "direction": "fr_to_en",
+      "answer": "Do you like it?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A154203",
+      "sentence_id": "S15420",
+      "direction": "fr_to_en",
+      "answer": "Do you like this?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A154211",
+      "sentence_id": "S15421",
+      "direction": "fr_to_en",
+      "answer": "Do you like him?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A154311",
+      "sentence_id": "S15431",
+      "direction": "fr_to_en",
+      "answer": "Don't you like beer?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A154351",
+      "sentence_id": "S15435",
+      "direction": "fr_to_en",
+      "answer": "I don't like the cats.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": [
+    {
+      "question_sentence_id": "S15431",
+      "answer_sentence_id": "S15432"
+    },
+    {
+      "question_sentence_id": "S15431",
+      "answer_sentence_id": "S15433"
+    },
+    {
+      "question_sentence_id": "S15431",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S15431",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S15434",
+      "answer_sentence_id": "S15435"
+    },
+    {
+      "question_sentence_id": "S15434",
+      "answer_sentence_id": "S15436"
+    },
+    {
+      "question_sentence_id": "S15434",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S15434",
+      "answer_sentence_id": "S0005"
+    },
+    {
+      "question_sentence_id": "S15437",
+      "answer_sentence_id": "S15438"
+    },
+    {
+      "question_sentence_id": "S15437",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S15437",
+      "answer_sentence_id": "S0005"
+    }
+  ]
+}

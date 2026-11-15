@@ -79,7 +79,8 @@ for (const u of units) {
   if (!pack) opened.add(u.unit_id)
   const allowed = !pack ? opened : new Set([...((u.topic_node || 'U100') === 'U100' ? firstFive : mains.map((m) => m.unit_id)), u.unit_id])
   if (!inPart(u.unit_id)) continue
-  const index = formIndexOf(words.filter((w) => allowed.has(w.first_unit)))
+  const borrow = new Set(String(u.borrow_words ?? '').split(';').map((x) => x.trim()).filter(Boolean))
+  const index = formIndexOf(words.filter((w) => allowed.has(w.first_unit) || borrow.has(w.form)))
   const own = new Set(words.filter((w) => w.first_unit === u.unit_id).map((w) => w.word_id))
   const cands = []
   const seen = new Set()

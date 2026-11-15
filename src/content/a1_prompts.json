@@ -104,5 +104,41 @@
     ],
     "min_words": 25,
     "max_words": 40
+  },
+  {
+    "id": "P501",
+    "unit_id": "U502",
+    "prompt": "Write a short message to a new friend about your family: who is in it, their ages and where they live.",
+    "points": [
+      "who is in your family",
+      "their ages",
+      "where they live"
+    ],
+    "min_words": 25,
+    "max_words": 40
+  },
+  {
+    "id": "P502",
+    "unit_id": "U507",
+    "prompt": "Write a short e-mail to a colleague: you can't come to the meeting, why, and another day you can.",
+    "points": [
+      "you can't come",
+      "why",
+      "another day"
+    ],
+    "min_words": 25,
+    "max_words": 40
+  },
+  {
+    "id": "P503",
+    "unit_id": "U509",
+    "prompt": "Write a short message to thank a friend for a party: thank them, say what you liked and when you will meet again.",
+    "points": [
+      "thank them",
+      "what you liked",
+      "when you meet again"
+    ],
+    "min_words": 25,
+    "max_words": 40
   }
 ]

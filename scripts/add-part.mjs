@@ -2,7 +2,8 @@
 // Part 2): situation circles, three help circles (on .5 rows, gating nothing), five vocabulary circles (one beside each
 // row's situation circles), Brush-Up slots, and the part's A1 task items (QT14 to QT17). Each part's config is
 // scripts/part<N>/<course>.mjs and gives part, wordBase, vocabBase, cdBase and slots (added to the course's existing
-// slots) besides the circles, words, items and "I can" statements. `off` and `late` work as in add-part2.mjs.
+// slots) besides the circles, words, items and "I can" statements. `off` and `late` work as in add-part2.mjs; `revive`
+// moves a word that was turned off into a circle of this part.
 // Usage: COURSE=fr PART=3 node scripts/add-part.mjs <from.xlsx> <to.xlsx>
 import { join } from 'node:path'
 import { createRequire } from 'node:module'
@@ -49,6 +50,13 @@ if (process.argv[1] === import.meta.filename) {
   const mine = (id) => { const n = Number(String(id).slice(1)); return (n >= P.wordBase && n < P.wordBase + 200) || (n >= P.vocabBase && n < P.vocabBase + 200) }
   const words = sheet('words').filter((w) => !mine(w.word_id))
   const keys = Object.keys(words[0])
+  // A word turned off earlier and wanted now (P.revive: { form: unit }; French Part 5 copain, copine, temps) moves to
+  // that circle and is checked again; it keeps its id.
+  for (const [form, unit] of Object.entries(P.revive ?? {})) {
+    const w = words.find((x) => x.form === form)
+    if (!w) throw new Error(`revive: ${form} is not in the course`)
+    Object.assign(w, { first_unit: unit, status: 'pull from Wiktionary', notes: `A1 Part ${P.part} word (revived; was ${String(w.status).slice(0, 60)})` })
+  }
   const taken = new Set(words.map((w) => w.form))
   const add = (u, form, id, note) => {
     if (taken.has(form)) throw new Error(`${u.unit_id}: ${form} is already in the course`)

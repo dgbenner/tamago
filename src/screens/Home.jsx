@@ -177,13 +177,13 @@ function FinalCard({ fc, onStart, onClose }) {
   return (
     <Sheet onClose={onClose}>
       <SheetHead kicker={`Modeled on the ${fc.exam.name}`} title="A1 Final Check" onClose={onClose} />
-      <p className="mt-2">Four parts, in the order of the {fc.exam.name}: listening, reading, writing, then speaking. Every question uses this course's own sentences, from all of its units.</p>
+      <p className="mt-2">Four parts, in the order of the {fc.exam.name}: {fc.exam.format ?? 'listening, reading, writing, then speaking.'} Every question uses this course's own sentences and texts, from all of its units.</p>
       <p className="mt-2 text-sm text-muted">Listening, reading and writing are scored. Speaking is practice and never graded. It never locks anything; take it as often as you like.</p>
       {s && (
         <div className="mt-4">
           <p className="text-sm text-muted">Last time, {fc.last.date}:</p>
           <ul className="mt-1 flex flex-col gap-0.5">
-            {['listening', 'reading', 'writing'].map((k) => <li key={k}><span className="font-medium capitalize">{k}</span> {s[k]?.right ?? 0} of {s[k]?.total ?? 0}</li>)}
+            {['listening', 'reading', 'writing'].map((k) => <li key={k}><span className="font-medium capitalize">{k}</span> {s[k]?.right ?? 0} of {s[k]?.total ?? 0}{s[k]?.written ? ', message written' : ''}</li>)}
             <li><span className="font-medium">Speaking</span> practised, not graded</li>
           </ul>
         </div>

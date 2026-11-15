@@ -46,5 +46,21 @@
     "fields_json": "[{\"key\":\"name\",\"label\":\"Nom\",\"rule\":\"text\",\"answer\":\"Dubois\"},{\"key\":\"people\",\"label\":\"Personnes\",\"rule\":\"number\",\"answer\":\"4\"},{\"key\":\"day\",\"label\":\"Jour\",\"rule\":\"text\",\"answer\":\"samedi\",\"also\":[\"Samedi\"]},{\"key\":\"time\",\"label\":\"Heure\",\"rule\":\"text\",\"answer\":\"20h\",\"also\":[\"20:00\",\"8h\",\"8:00\",\"huit heures\",\"20h00\"]}]",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "F501",
+    "unit_id": "U508",
+    "card": "Je m'appelle Julie Bernard. Je suis née le trois avril, à Lyon. Je suis française et je suis journaliste.",
+    "fields_json": "[{\"key\":\"last\",\"label\":\"Nom\",\"rule\":\"text\",\"answer\":\"Bernard\"},{\"key\":\"first\",\"label\":\"Prénom\",\"rule\":\"text\",\"answer\":\"Julie\"},{\"key\":\"born\",\"label\":\"Date de naissance\",\"rule\":\"text\",\"answer\":\"3 avril\",\"also\":[\"3/4\",\"03/04\",\"le 3 avril\",\"trois avril\"]},{\"key\":\"place\",\"label\":\"Lieu de naissance\",\"rule\":\"text\",\"answer\":\"Lyon\"},{\"key\":\"nat\",\"label\":\"Nationalité\",\"rule\":\"text\",\"answer\":\"française\",\"also\":[\"française\",\"francaise\"]},{\"key\":\"job\",\"label\":\"Profession\",\"rule\":\"text\",\"answer\":\"journaliste\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F502",
+    "unit_id": "U505",
+    "card": "Marc Petit a trente-quatre ans. Il est marié et il a deux enfants. Il est directeur.",
+    "fields_json": "[{\"key\":\"last\",\"label\":\"Nom\",\"rule\":\"text\",\"answer\":\"Petit\"},{\"key\":\"age\",\"label\":\"Âge\",\"rule\":\"number\",\"answer\":\"34\"},{\"key\":\"family\",\"label\":\"Situation de famille\",\"rule\":\"text\",\"answer\":\"marié\"},{\"key\":\"kids\",\"label\":\"Enfants\",\"rule\":\"number\",\"answer\":\"2\"},{\"key\":\"job\",\"label\":\"Profession\",\"rule\":\"text\",\"answer\":\"directeur\"}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

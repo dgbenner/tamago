@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 3045 (2423 matched to Tatoeba, 622 Tamago originals), 71 off, 1910 awaiting a ruling. Words with Wiktionary data: 742 of 742. French-to-English answers: 764 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 457.
+Sentences live: 3593 (2815 matched to Tatoeba, 778 Tamago originals), 71 off, 2302 awaiting a ruling. Words with Wiktionary data: 868 of 868. French-to-English answers: 890 live, 1 off, 0 flagged. English-to-French answers generated from Tatoeba: 480.
 
 Unit 1 is approved and live.
 
@@ -34,7 +34,7 @@ Candidates use only Unit 1 words, have 6 words or fewer, have a linked English t
 | S6056 |  | Tu as du temps ?<br>Do you have time? | none |
 | S6057 |  | Il a du temps.<br>He has time. | none |
 
-## Tamago originals: native-speaker check needed before Phase 4 (622)
+## Tamago originals: native-speaker check needed before Phase 4 (778)
 
 Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 
@@ -662,8 +662,164 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S15362 |  | Je vais décider demain. | I'm going to decide tomorrow. | tts |
 | S15364 |  | J'espère que tu vas bien. | I hope you're well. | tts |
 | S15365 |  | Paul décide pour nous. | Paul decides for us. | tts |
+| S15461 |  | Vous avez un plan de la ville ? | Do you have a map of the town? | tts |
+| S15462 |  | Je te raconte une histoire. | I'll tell you a story. | tts |
+| S15463 |  | Vous avez compris ? | Did you understand? | tts |
+| S15464 |  | Je te présente Marie. | This is Marie. | tts |
+| S15466 |  | Il n'est pas là. | He isn't here. | tts |
+| S15467 |  | Tu connais Paul ? | Do you know Paul? | tts |
+| S15468 |  | Oui, c'est mon ami. | Yes, he's my friend. | tts |
+| S15469 |  | Vous avez des enfants ? | Do you have children? | tts |
+| S15470 |  | Oui, j'ai deux enfants. | Yes, I have two children. | tts |
+| S15471 |  | Tu peux me rappeler ? | Can you call me back? | tts |
+| S15472 |  | Je voudrais connaître la ville. | I'd like to get to know the town. | tts |
+| S15473 |  | Je suis content de te connaître. | I'm glad to know you. | tts |
+| S15474 |  | Je vous rappelle demain. | I'll call you back tomorrow. | tts |
+| S15561 |  | Ma grand-mère a quatre-vingts ans. | My grandmother is eighty. | tts |
+| S15562 |  | Ma tante habite près d'ici. | My aunt lives near here. | tts |
+| S15563 |  | Tu as un cousin ? | Do you have a cousin? | tts |
+| S15564 |  | Oui, il a dix ans. | Yes, he's ten. | tts |
+| S15565 |  | Comment va ta grand-mère ? | How is your grandmother? | tts |
+| S15566 |  | Elle va bien, merci. | She's well, thank you. | tts |
+| S15567 |  | Mon oncle et ma tante sont là. | My uncle and aunt are here. | tts |
+| S15476 |  | Ce n'est pas mon sac. | That's not my bag. | tts |
+| S15661 |  | Ce n'est pas la peine. | There's no need. | tts |
+| S15662 |  | Merci, ce n'est pas la peine. | Thanks, there's no need. | tts |
+| S15663 |  | Ce n'est pas la peine de venir. | There's no need to come. | tts |
+| S15761 |  | J'ai un frère et une sœur. | I have a brother and a sister. | tts |
+| S15762 |  | Tu as un frère ? | Do you have a brother? | tts |
+| S15763 |  | Oui, il s'appelle Paul. | Yes, his name is Paul. | tts |
+| S15764 |  | Ma famille n'est pas grande. | My family isn't big. | tts |
+| S15766 |  | Elle s'appelle Marie. | Her name is Marie. | tts |
+| S15767 |  | Mon père est âgé. | My father is old. | tts |
+| S15768 |  | Le mari de ma sœur s'appelle Paul. | My sister's husband is called Paul. | tts |
+| S15861 |  | La salle de bain est petite. | The bathroom is small. | tts |
+| S15862 |  | Où est la salle de bain ? | Where's the bathroom? | tts |
+| S15863 |  | C'est à côté de la cuisine. | It's next to the kitchen. | tts |
+| S15864 |  | C'est une grande pièce. | It's a big room. | tts |
+| S15865 |  | Le salon est grand. | The living room is big. | tts |
+| S15866 |  | Il y a une table dans le salon. | There's a table in the living room. | tts |
+| S15867 |  | Le mur de la chambre est blanc. | The bedroom wall is white. | tts |
+| S15868 |  | Tu vis dans une maison ? | Do you live in a house? | tts |
+| S15869 |  | Non, je vis dans un appartement. | No, I live in a flat. | tts |
+| S15871 |  | Ma chambre a une fenêtre. | My bedroom has a window. | tts |
+| S15872 |  | Je suis dans la salle de bain. | I'm in the bathroom. | tts |
+| S15873 |  | La cuisine est une petite pièce. | The kitchen is a small room. | tts |
+| S15961 |  | D'habitude, je me lève tôt. | I usually get up early. | tts |
+| S15962 |  | C'est une bonne habitude. | It's a good habit. | tts |
+| S15963 |  | Tu viens à la soirée ? | Are you coming to the party? | tts |
+| S15964 |  | Tu peux préparer le dîner ? | Can you make dinner? | tts |
+| S15965 |  | Je vais préparer un gâteau. | I'm going to make a cake. | tts |
+| S15966 |  | Elle se repose un peu. | She's resting a little. | tts |
+| S16061 |  | Je fais le ménage le samedi. | I do the housework on Saturdays. | tts |
+| S16062 |  | Tu fais le ménage ? | Are you doing the housework? | tts |
+| S16063 |  | Non, je vais ranger ma chambre. | No, I'm going to tidy my room. | tts |
+| S16064 |  | Je n'aime pas faire le ménage. | I don't like doing housework. | tts |
+| S16065 |  | Tu peux ranger la cuisine ? | Can you tidy the kitchen? | tts |
+| S16066 |  | Je vais ranger mes vêtements. | I'm going to put away my clothes. | tts |
+| S16067 |  | Ma grand-mère garde les enfants. | My grandmother looks after the children. | tts |
+| S16068 |  | Tu peux garder mon sac ? | Can you look after my bag? | tts |
+| S16069 |  | Je vais garder le chien samedi. | I'm going to look after the dog on Saturday. | tts |
+| S16070 |  | Il garde son argent. | He keeps his money. | tts |
+| S16072 |  | Qu'est-ce que tu vas faire ? | What are you going to do? | tts |
+| S16073 |  | J'aime faire la cuisine. | I like cooking. | tts |
+| S16161 |  | Je travaille dans une entreprise. | I work for a company. | tts |
+| S16162 |  | Mon entreprise est petite. | My company is small. | tts |
+| S16163 |  | C'est une grande entreprise. | It's a big company. | tts |
+| S16164 |  | Je suis journaliste. | I'm a journalist. | tts |
+| S16165 |  | Ma collègue est très gentille. | My colleague is very kind. | tts |
+| S16166 |  | La secrétaire est au bureau. | The secretary is at the office. | tts |
+| S16167 |  | Mon patron est en réunion. | My boss is in a meeting. | tts |
+| S16168 |  | Le travail commence à neuf heures. | Work starts at nine. | tts |
+| S16169 |  | Le directeur n'est pas là. | The manager isn't here. | tts |
+| S16170 |  | C'est un beau projet. | It's a lovely project. | tts |
+| S16171 |  | Ils ont un nouveau projet. | They have a new project. | tts |
+| S16261 |  | Pourquoi tu ne viens pas ? | Why aren't you coming? | tts |
+| S16262 |  | Parce que je n'ai pas le temps. | Because I don't have time. | tts |
+| S16263 |  | Par exemple ? | For example? | tts |
+| S16264 |  | Vous avez un exemple ? | Do you have an example? | tts |
+| S16265 |  | Comment on dit ça en français ? | How do you say that in French? | tts |
+| S16361 |  | Il va falloir partir. | We'll have to leave. | tts |
+| S16362 |  | Je vais devoir partir tôt. | I'll have to leave early. | tts |
+| S16363 |  | Elle va devoir payer. | She will have to pay. | tts |
+| S16364 |  | Tu as mal ? | Does it hurt? | tts |
+| S16365 |  | Oui, j'ai mal à la tête. | Yes, I have a headache. | tts |
+| S16366 |  | Il faut partir maintenant. | We have to leave now. | tts |
+| S16367 |  | Il va falloir payer. | We'll have to pay. | tts |
+| S16461 |  | Mon fils va au collège. | My son goes to secondary school. | tts |
+| S16462 |  | Le collège est près d'ici. | The school is near here. | tts |
+| S16463 |  | Ma sœur est au lycée. | My sister is at high school. | tts |
+| S16464 |  | Le lycée commence à huit heures. | High school starts at eight. | tts |
+| S16465 |  | Tu vas à l'université ? | Do you go to university? | tts |
+| S16466 |  | Oui, j'étudie les maths. | Yes, I study maths. | tts |
+| S16467 |  | Je fais l'exercice. | I'm doing the exercise. | tts |
+| S16468 |  | Ma classe est grande. | My class is big. | tts |
+| S16469 |  | La classe commence à neuf heures. | The class starts at nine. | tts |
+| S16470 |  | Le prof est très gentil. | The teacher is very kind. | tts |
+| S16471 |  | L'examen est demain. | The exam is tomorrow. | tts |
+| S16472 |  | C'est un exercice difficile. | It's a difficult exercise. | tts |
+| S16561 |  | J'envoie un mail à Paul. | I'm sending an e-mail to Paul. | tts |
+| S16562 |  | C'est un mail de ma collègue. | It's an e-mail from my colleague. | tts |
+| S16563 |  | Je vais écrire un mail. | I'm going to write an e-mail. | tts |
+| S16564 |  | Tu peux m'envoyer un message ? | Can you send me a message? | tts |
+| S16565 |  | Oui, je t'écris ce soir. | Yes, I'll write to you tonight. | tts |
+| S16566 |  | Je vais envoyer une lettre. | I'm going to send a letter. | tts |
+| S16567 |  | Allô ? Oui, c'est Marie. | Hello? Yes, it's Marie. | tts |
+| S16568 |  | Allô, Paul ? C'est maman. | Hello, Paul? It's Mum. | tts |
+| S16569 |  | Allô ? Ici c'est Paul. | Hello? It's Paul here. | tts |
+| S16661 |  | Tu as envie de venir ? | Do you feel like coming? | tts |
+| S16663 |  | J'ai envie de dormir. | I feel like sleeping. | tts |
+| S16665 |  | Tu as envie de quoi ? | What do you feel like? | tts |
+| S16666 |  | Je veux bien. | I'd like that. | tts |
+| S16761 |  | Je t'invite à dîner. | I'm inviting you to dinner. | tts |
+| S16762 |  | Je vais inviter Paul et Marie. | I'm going to invite Paul and Marie. | tts |
+| S16763 |  | Tu peux inviter ta sœur. | You can invite your sister. | tts |
+| S16764 |  | On va fêter ton anniversaire. | We're going to celebrate your birthday. | tts |
+| S16765 |  | Je vais fêter mes trente ans. | I'm going to celebrate my thirtieth birthday. | tts |
+| S16766 |  | Tu viens à ma fête samedi ? | Are you coming to my party on Saturday? | tts |
+| S16767 |  | Avec plaisir, merci ! | With pleasure, thank you! | tts |
+| S16768 |  | Il invite Marie au cinéma. | He's inviting Marie to the cinema. | tts |
+| S16769 |  | Je voudrais vous remercier. | I'd like to thank you. | tts |
+| S16770 |  | Comment te remercier ? | How can I thank you? | tts |
+| S16861 |  | Votre nom, s'il vous plaît ? | Your surname, please? | tts |
+| S16862 |  | Quel est votre lieu de naissance ? | What is your place of birth? | tts |
+| S16864 |  | Quelle est votre profession ? | What is your job? | tts |
+| S16865 |  | Je suis prof. | I'm a teacher. | tts |
+| S16866 |  | Votre nationalité, s'il vous plaît ? | Your nationality, please? | tts |
+| S16867 |  | Profession : journaliste. | Job: journalist. | tts |
+| S16868 |  | C'est une belle profession. | It's a fine profession. | tts |
+| S16869 |  | Merci, mademoiselle. | Thank you, miss. | tts |
+| S16870 |  | Votre signature, s'il vous plaît. | Your signature, please. | tts |
+| S16871 |  | Votre date de naissance, s'il vous plaît ? | Your date of birth, please? | tts |
+| S16872 |  | Date et lieu de naissance ? | Date and place of birth? | tts |
+| S16873 |  | Quel est le lieu de la réunion ? | Where is the meeting being held? | tts |
+| S16874 |  | Vous êtes marié ou célibataire ? | Are you married or single? | tts |
+| S16875 |  | Je suis née le trois mai. | I was born on the third of May. | tts |
+| S16961 |  | Je t'embrasse, Marie. | Love, Marie. | tts |
+| S16962 |  | Je vous embrasse. | Love to you all. | tts |
+| S16963 |  | Elle embrasse sa mère. | She kisses her mother. | tts |
+| S16964 |  | Je te fais une bise. | I'm giving you a kiss on the cheek. | tts |
+| S16965 |  | Une bise à ta sœur ! | Give your sister a kiss from me! | tts |
+| S16966 |  | Bises, Marie. | Love, Marie. | tts |
+| S16967 |  | À bientôt, bises ! | See you soon, love! | tts |
+| S16968 |  | Bises à tout le monde. | Love to everyone. | tts |
+| S16969 |  | On va se retrouver à la gare. | We're going to meet at the station. | tts |
+| S16970 |  | Je vais retrouver Paul ce soir. | I'm meeting Paul tonight. | tts |
+| S16971 |  | On peut se retrouver demain ? | Can we meet tomorrow? | tts |
+| S16972 |  | Oui, à dix heures. | Yes, at ten o'clock. | tts |
+| S16973 |  | En France, on se fait la bise. | In France, people kiss on the cheek. | tts |
+| S16974 |  | Je quitte la maison à huit heures. | I leave the house at eight. | tts |
+| S16975 |  | Elle quitte l'école à cinq heures. | She leaves school at five. | tts |
+| S17061 |  | Oui, je rêve de voyager. | Yes, I dream of travelling. | tts |
+| S17062 |  | Mon fils aime rêver. | My son likes to dream. | tts |
+| S17063 |  | Il est amoureux de Marie. | He's in love with Marie. | tts |
+| S17064 |  | Elle est amoureuse de Paul. | She's in love with Paul. | tts |
+| S17065 |  | Tu as un rêve ? | Do you have a dream? | tts |
+| S17066 |  | J'aime rêver le soir. | I like to dream in the evening. | tts |
+| S17067 |  | Ma grand-mère a un grand cœur. | My grandmother has a big heart. | tts |
+| S17068 |  | Tu as un bon cœur. | You have a kind heart. | tts |
 
-## Words, for a read-through (742)
+## Words, for a read-through (868)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -1411,8 +1567,134 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1852 | apprends | apprendre | Verb |  | inflection of apprendre: first/second-person singular present indicative second-person singular imperative (apprendre: to learn) | checked |
 | W1853 | arrête | arrêter | Verb |  | inflection of arrêter: first/third-person singular present indicative/subjunctive second-person singular imperative (arrêter: to stop, to come to a standstill; to halt, to stop from moving) | checked |
 | W1854 | laisse | laisser | Verb |  | inflection of laisser: first/third-person singular present indicative/subjunctive second-person singular imperative (laisser: to leave, to leave behind) | checked |
+| W2001 | te | te | Pronoun |  | you | checked |
+| W2002 | n' | n' | Contraction |  | Prevocalic form of ne. | checked |
+| W2003 | avez | avoir | Verb |  | second-person plural present indicative of avoir (avoir: to have; to own; to possess; to get) | checked |
+| W2004 | connais | connaître | Verb |  | inflection of connaître: first/second-person singular present indicative second-person singular imperative (connaître: to know, to be familiar with) | checked |
+| W2005 | connaît | connaître | Verb |  | third-person singular present indicative of connaître (connaître: to know, to be familiar with) | checked |
+| W2006 | connaître | connaître | Verb |  | to know, to be familiar with | checked |
+| W2007 | rappelle | rappeler | Verb |  | inflection of rappeler: first/third-person singular present indicative/subjunctive second-person singular imperative (rappeler: to call again; to call back) | checked |
+| W2008 | rappeler | rappeler | Verb |  | to call again; to call back | checked |
+| W2009 | dérange | déranger | Verb |  | inflection of déranger: first/third-person singular present indicative/subjunctive second-person singular imperative (déranger: to bother; to disrupt) | checked |
+| W2010 | déranger | déranger | Verb |  | to bother; to disrupt | checked |
+| W2011 | peine | peine | Noun | f | effort, trouble | checked |
+| W2012 | raison | raison | Noun | f | reason | checked |
+| W2013 | mari | mari | Noun | m | husband | checked |
+| W2014 | marié | marié | Adjective |  | married | checked |
+| W2015 | mariée | marié | Adjective |  | feminine singular of marié (marié: married) | checked |
+| W2016 | âgé | âgé | Adjective |  | old; elderly | checked |
+| W2017 | mariage | mariage | Noun | m | marriage | checked |
+| W2018 | vis | vivre | Verb |  | inflection of vivre: first/second-person singular present indicative second-person singular present imperative (vivre: to live) | checked |
+| W2019 | vit | vivre | Verb |  | third-person singular present indicative of vivre (vivre: to live) | checked |
+| W2020 | vivre | vivre | Verb |  | to live | checked |
+| W2021 | salle | salle | Noun | f | room | checked |
+| W2022 | bain | bain | Noun | m | bath | checked |
+| W2023 | pièce | pièce | Noun | f | room in a house, etc. | checked |
+| W2024 | salon | salon | Noun | m | living room | checked |
+| W2025 | mur | mur | Noun | m | wall | checked |
+| W2026 | clé | clé | Noun | f | key | checked |
+| W2027 | lave | laver | Verb |  | inflection of laver: first/third-person singular present indicative/subjunctive second-person singular imperative (laver: to wash) | checked |
+| W2028 | laver | laver | Verb |  | to wash | checked |
+| W2029 | ménage | ménage | Noun | m | housework, housekeeping | checked |
+| W2030 | ranger | ranger | Verb |  | to put away, to put aside, to stack away, to stow | checked |
+| W2031 | garde | garder | Verb |  | inflection of garder: first/third-person singular present indicative/subjunctive second-person singular imperative (garder: to keep; to retain; to store; to save) | checked |
+| W2032 | garder | garder | Verb |  | to keep; to retain; to store; to save | checked |
+| W2033 | ordinateur | ordinateur | Noun | m | a computer, a computing device. | checked |
+| W2034 | télé | télé | Noun | f | TV, telly | checked |
+| W2035 | collègue | collègue | Noun | m/f | colleague | checked |
+| W2036 | directeur | directeur | Noun | m | director | checked |
+| W2037 | secrétaire | secrétaire | Noun | m/f | secretary | checked |
+| W2038 | journaliste | journaliste | Noun | m/f | a journalist | checked |
+| W2039 | métier | métier | Noun | m | job, profession, trade | checked |
+| W2040 | projet | projet | Noun | m | project | checked |
+| W2041 | réunion | réunion | Noun | f | meeting | checked |
+| W2042 | entreprise | entreprise | Noun | f | company, business | checked |
+| W2043 | parce | parce | Preposition |  | only used in parce que | checked |
+| W2044 | qu' | qu' | Conjunction |  | apocopic form of que | checked |
+| W2045 | dis | dire | Verb |  | inflection of dire: first/second-person singular present indicative first/second-person singular past historic second-person singular imperative (dire: to say, to tell) | checked |
+| W2046 | exemple | exemple | Noun | m | example | checked |
+| W2047 | phrase | phrase | Noun | f | sentence | checked |
+| W2048 | étudie | étudier | Verb |  | inflection of étudier: first/third-person singular present indicative/subjunctive second-person singular imperative (étudier: to study) | checked |
+| W2049 | étudier | étudier | Verb |  | to study | checked |
+| W2050 | classe | classe | Noun | f | class, type, group | checked |
+| W2051 | collège | collège | Noun | m | junior high school | checked |
+| W2052 | lycée | lycée | Noun | m | a public secondary school | checked |
+| W2053 | université | université | Noun | f | university | checked |
+| W2054 | prof | prof | Noun | m/f | teacher, professor | checked |
+| W2055 | examen | examen | Noun | m | exam, test | checked |
+| W2056 | maths | maths | Noun | f | math or maths | checked |
+| W2057 | exercice | exercice | Noun | m | exercise, performance | checked |
+| W2058 | réponse | réponse | Noun | f | response, answer, reply | checked |
+| W2059 | message | message | Noun | m | message | checked |
+| W2060 | mail | mail | Noun | m | email | checked |
+| W2061 | envoyer | envoyer | Verb |  | to send | checked |
+| W2062 | envoie | envoyer | Verb |  | inflection of envoyer: first/third-person singular present indicative/subjunctive second-person singular imperative (envoyer: to send) | checked |
+| W2063 | internet | internet | Noun | m | the Internet | checked |
+| W2064 | allô | allô | Interjection |  | hello | checked |
+| W2065 | écris | écrire | Verb |  | inflection of écrire: first/second-person singular present indicative second-person singular imperative (écrire: to write) | checked |
+| W2066 | envie | envie | Noun | f | appetite, craving | checked |
+| W2067 | veux | vouloir | Verb |  | inflection of vouloir: first/second-person singular present indicative second-person singular imperative (vouloir: to want, wish, desire) | checked |
+| W2068 | volontiers | volontiers | Adverb |  | willingly; gladly; with pleasure | checked |
+| W2069 | nationalité | nationalité | Noun | f | nationality | checked |
+| W2070 | profession | profession | Noun | f | profession, public declaration profession, public declaration of faith | checked |
+| W2071 | mademoiselle | mademoiselle | Noun | f | A form of address or title for an unmarried woman: Miss | checked |
+| W2072 | naissance | naissance | Noun | f | birth | checked |
+| W2073 | lieu | lieu | Noun | m | place | checked |
+| W2074 | célibataire | célibataire | Adjective |  | single | checked |
+| W2075 | signature | signature | Noun | f | signature | checked |
+| W2076 | embrasse | embrasser | Verb |  | inflection of embrasser: first/third-person singular present indicative/subjunctive second-person singular imperative (embrasser: to hug, embrace) | checked |
+| W2077 | bise | bise | Noun | f | kiss | checked |
+| W2078 | bises | bise | Noun | f | plural of bise (bise: north wind; northeasterly) | checked |
+| W2079 | revoir | revoir | Verb |  | to see again | checked |
+| W2080 | retrouver | retrouver | Verb |  | to meet; to meet up; to bump into | checked |
+| W2081 | retrouve | retrouver | Verb |  | inflection of retrouver: first/third-person singular present indicative/subjunctive second-person singular imperative (retrouver: to find; to rediscover) | checked |
+| W2082 | quitter | quitter | Verb |  | to leave, to quit | checked |
+| W2083 | quitte | quitter | Verb |  | inflection of quitter: first/third-person singular present indicative/subjunctive second-person singular imperative (quitter: to discharge somebody from an obligation) | checked |
+| W2084 | ce | ce | Pronoun |  | it, this, that | checked |
+| W2085 | fais | faire | Verb |  | inflection of faire: first/second-person singular present indicative second-person singular present imperative (faire: to do) | checked |
+| W2086 | faire | faire | Verb |  | to do | checked |
+| W2087 | avons | avoir | Verb |  | first-person plural present indicative of avoir (avoir: to have; to own; to possess; to get) | checked |
+| W2088 | ont | avoir | Verb |  | third-person plural present indicative of avoir (avoir: to have; to own; to possess; to get) | checked |
+| W2089 | dites | dire | Verb |  | inflection of dire: second-person plural indicative present second-person plural imperative (dire: to say, to tell) | checked |
+| W2201 | maman | maman | Noun | f | mummy, mommy, mom, mum | checked |
+| W2202 | papa | papa | Noun | m | papa, a child's father; also as form of address: dad, daddy | checked |
+| W2203 | grand-mère | grand-mère | Noun | f | grandmother | checked |
+| W2204 | grand-père | grand-père | Noun | m | grandfather | checked |
+| W2205 | oncle | oncle | Noun | m | uncle | checked |
+| W2206 | tante | tante | Noun | f | aunt | checked |
+| W2207 | cousin | cousin | Noun | m | cousin | checked |
+| W2208 | se | se | Pronoun |  | The third-person reflexive and reciprocal direct and indirect object pronoun. himself herself oneself itself themselves each other | checked |
+| W2209 | réveille | réveiller | Verb |  | inflection of réveiller: first/third-person singular present indicative/subjunctive second-person singular imperative (réveiller: to awaken) | checked |
+| W2210 | couche | coucher | Verb |  | inflection of coucher: first/third-person singular imperfect indicative first/third-person singular present subjunctive second-person singular imperative (coucher: to lay, to lay down) | checked |
+| W2211 | coucher | coucher | Verb |  | to go to bed | checked |
+| W2212 | journée | journée | Noun | f | day | checked |
+| W2213 | soirée | soirée | Noun | f | evening | checked |
+| W2214 | prépare | préparer | Verb |  | inflection of préparer: first/third-person singular present indicative/subjunctive second-person singular imperative (préparer: to prepare) | checked |
+| W2215 | préparer | préparer | Verb |  | to prepare | checked |
+| W2216 | repose | reposer | Verb |  | inflection of reposer: first/third-person singular present indicative/subjunctive second-person singular imperative (reposer: to put down, to place) | checked |
+| W2217 | habitude | habitude | Noun | f | habit | checked |
+| W2218 | dois | devoir | Verb |  | first/second-person singular present indicative of devoir (devoir: must, to have to, should) | checked |
+| W2219 | doit | devoir | Verb |  | third-person singular present indicative of devoir: must, has to (devoir: must, to have to, should) | checked |
+| W2220 | devoir | devoir | Verb |  | must, to have to, should | checked |
+| W2221 | faut | falloir | Verb |  | third-person singular present indicative of falloir (falloir: to need, have to, to be necessary) | checked |
+| W2222 | falloir | falloir | Verb |  | to need, have to, to be necessary | checked |
+| W2223 | mal | mal | Noun | m | pain | checked |
+| W2224 | invite | inviter | Verb |  | inflection of inviter: first/third-person singular present indicative/subjunctive second-person singular imperative (inviter: to invite) | checked |
+| W2225 | inviter | inviter | Verb |  | to invite | checked |
+| W2226 | fêter | fêter | Verb |  | to celebrate | checked |
+| W2227 | plaisir | plaisir | Noun | m | pleasure | checked |
+| W2228 | chance | chance | Noun | f | luck | checked |
+| W2229 | remercie | remercier | Verb |  | inflection of remercier: first/third-person singular present indicative/subjunctive second-person singular imperative (remercier: to thank) | checked |
+| W2230 | remercier | remercier | Verb |  | to thank | checked |
+| W2231 | amour | amour | Noun | m/f | love | checked |
+| W2232 | amoureux | amoureux | Adjective |  | in love | checked |
+| W2233 | amoureuse | amoureux | Adjective |  | feminine singular of amoureux (amoureux: love) | checked |
+| W2234 | rêve | rêve | Noun | m | dream | checked |
+| W2235 | rêver | rêver | Verb |  | to dream | checked |
+| W2236 | cœur | cœur | Noun | m | heart | checked |
+| W2237 | peut | pouvoir | Verb |  | third-person singular present indicative of pouvoir (pouvoir: can, to be able to) | checked |
 
-## Matched to Tatoeba (2423)
+## Matched to Tatoeba (2815)
 
 Decision "confirm" means Dan accepted a match the automatic test did not pass. English source "tamago_original" means Tatoeba links no translation and the English is ours.
 
@@ -2436,6 +2718,200 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S10831 | Je suis d'ici. | I'm from here. | [#8332333](https://tatoeba.org/en/sentences/show/8332333) | theachaean |  |  | tts |
 | S10852 | Plus de biscuits ! | No more biscuits! | [#2319109](https://tatoeba.org/en/sentences/show/2319109) | sacredceltic |  |  | tts |
 | S10851 | J'aime les biscuits. | I like biscuits. | [#5299447](https://tatoeba.org/en/sentences/show/5299447) | pititnatole |  |  | tts |
+| S15401 | Est-ce que je te connais ? | Do I know you? | [#1462560](https://tatoeba.org/en/sentences/show/1462560) | sacredceltic |  |  | tts |
+| S15402 | Qu'est-ce que ça te rappelle ? | What does this remind you of? | [#3663862](https://tatoeba.org/en/sentences/show/3663862) | GB3 |  |  | tts |
+| S15403 | Est-ce que la dame te connaît ? | Does that lady know you? | [#5760135](https://tatoeba.org/en/sentences/show/5760135) | nimfeo |  |  | tts |
+| S15406 | Vous n'avez pas le billet. | You don't have the ticket. | [#1455105](https://tatoeba.org/en/sentences/show/1455105) | Julien_PDC |  |  | tts |
+| S15407 | D'où est-ce que je te connais ? | Where do I know you from? | [#10712301](https://tatoeba.org/en/sentences/show/10712301) | xhlulu |  |  | tts |
+| S15408 | Est-ce que je vous connais ? | Do I know you? | [#1462561](https://tatoeba.org/en/sentences/show/1462561) | sacredceltic |  |  | tts |
+| S15410 | Je te rappelle. | I'll call you back. | [#331225](https://tatoeba.org/en/sentences/show/331225) | Lumpawurump |  |  | tts |
+| S15411 | Je suis très heureux de te connaître. | I am very glad to know you. | [#460618](https://tatoeba.org/en/sentences/show/460618) | sacredceltic |  |  | tts |
+| S15413 | Elle me connaît. | She knows me. | [#626278](https://tatoeba.org/en/sentences/show/626278) | qdii |  |  | tts |
+| S15414 | Elle connaît Marie. | She knows Mary. | [#4027276](https://tatoeba.org/en/sentences/show/4027276) | GB3 |  |  | tts |
+| S15415 | Merci de rappeler. | Please call again. | [#9252985](https://tatoeba.org/en/sentences/show/9252985) | Micsmithel |  |  | tts |
+| S15416 | J'espère que tu vas rappeler. | I hope you'll phone again. | [#13452](https://tatoeba.org/en/sentences/show/13452) | sacredceltic |  |  | tts |
+| S15420 | Ça te plaît ? | You like it? | [#4869032](https://tatoeba.org/en/sentences/show/4869032) | gillux |  |  | tts |
+| S15421 | Il te plaît ? | You like it? | [#4869033](https://tatoeba.org/en/sentences/show/4869033) | gillux |  |  | tts |
+| S15422 | Est-ce que ça te plaît ? | Are you enjoying it? | [#583304](https://tatoeba.org/en/sentences/show/583304) | sacredceltic |  |  | tts |
+| S15423 | Vous avez un problème ? | Do you have a problem? | [#1112264](https://tatoeba.org/en/sentences/show/1112264) | sacredceltic |  |  | tts |
+| S15424 | Est-ce que ça te va ? | Are you alright with this? | [#1767915](https://tatoeba.org/en/sentences/show/1767915) | sacredceltic |  |  | tts |
+| S15426 | Ça te plaît vraiment ? | Do you really like it? | [#11379040](https://tatoeba.org/en/sentences/show/11379040) | felix63 |  |  | tts |
+| S15430 | Qui est-ce que tu connais ici ? | Who do you know here? | [#5484475](https://tatoeba.org/en/sentences/show/5484475) | pititnatole |  |  | tts |
+| S15431 | Tu n'aimes pas la bière ? | You don't like beer? | [#848801](https://tatoeba.org/en/sentences/show/848801) | Julien_PDC |  |  | tts |
+| S15432 | Je n'aime pas trop la bière. | I don't like beer too much. | [#3273351](https://tatoeba.org/en/sentences/show/3273351) | Aiji |  |  | tts |
+| S15433 | Je n'aime pas la bière. | I do not like beer. | [#6578653](https://tatoeba.org/en/sentences/show/6578653) | Kenji75018 |  |  | tts |
+| S15434 | Tu n'aimes pas les chats ? | Don't you like cats? | [#10518361](https://tatoeba.org/en/sentences/show/10518361) | lbdx |  |  | tts |
+| S15435 | Je n'aime pas les chats. | I don't like cats. | [#2316007](https://tatoeba.org/en/sentences/show/2316007) | Amastan |  |  | tts |
+| S15436 | Je n'aime pas beaucoup les chats. | I don't like cats very much. | [#9730083](https://tatoeba.org/en/sentences/show/9730083) | lbdx |  |  | tts |
+| S15437 | Tu n'aimes pas les pommes ? | Don't you like apples? | [#10556316](https://tatoeba.org/en/sentences/show/10556316) | lbdx |  |  | tts |
+| S15438 | Je n'aime pas les pommes. | I don't like apples. | [#6846](https://tatoeba.org/en/sentences/show/6846) | hirymnak |  |  | tts |
+| S15701 | Où est mon mari ? | Where's my husband? | [#2354730](https://tatoeba.org/en/sentences/show/2354730) | Amastan |  |  | tts |
+| S15702 | Est-ce que ta sœur est mariée ? | Is your sister married? | [#5124983](https://tatoeba.org/en/sentences/show/5124983) | nimfeo |  |  | tts |
+| S15703 | Comment s'appelle ton mari ? | What's your husband's name? | [#6774230](https://tatoeba.org/en/sentences/show/6774230) | Micsmithel |  |  | tts |
+| S15704 | Tu n'es pas marié, si ? | You aren't married, are you? | [#2402455](https://tatoeba.org/en/sentences/show/2402455) | sacredceltic |  |  | tts |
+| S15705 | Quel est le nom de ton mari ? | What's your husband's name? | [#6774229](https://tatoeba.org/en/sentences/show/6774229) | Micsmithel |  |  | tts |
+| S15706 | Il est marié. | He's married. | [#2808097](https://tatoeba.org/en/sentences/show/2808097) | Aiji |  |  | tts |
+| S15707 | Ma sœur est mariée. | My sister is married. | [#7750](https://tatoeba.org/en/sentences/show/7750) | sacredceltic |  |  | tts |
+| S15708 | Elle est déjà mariée. | She's already married. | [#134126](https://tatoeba.org/en/sentences/show/134126) | Julien_PDC |  |  | tts |
+| S15709 | Il est déjà marié. | He's already married. | [#1913897](https://tatoeba.org/en/sentences/show/1913897) | sacredceltic |  |  | tts |
+| S15710 | C'est mon premier mariage. | This is my first marriage. | [#10289059](https://tatoeba.org/en/sentences/show/10289059) | Rovo |  |  | tts |
+| S15711 | Le mariage change les gens. | Marriage changes people. | [#3346943](https://tatoeba.org/en/sentences/show/3346943) | sacredceltic |  |  | tts |
+| S15712 | Je suis contre le mariage. | I'm against marriage. | [#4095652](https://tatoeba.org/en/sentences/show/4095652) | sbamsbamsbam |  |  | tts |
+| S15713 | Je suis aussi âgé que toi. | I'm as old as you. | [#1147749](https://tatoeba.org/en/sentences/show/1147749) | sacredceltic |  |  | tts |
+| S15714 | Il est plus âgé que moi. | He's older than me. | [#4718596](https://tatoeba.org/en/sentences/show/4718596) | sacredceltic |  |  | tts |
+| S15715 | Je ne suis pas assez âgé. | I'm not old enough. | [#8441922](https://tatoeba.org/en/sentences/show/8441922) | sacredceltic |  |  | tts |
+| S15716 | C'est un homme marié. | He's a married man. | [#2252332](https://tatoeba.org/en/sentences/show/2252332) | sacredceltic |  |  | tts |
+| S15717 | C'est une femme mariée. | She's a married woman. | [#2252336](https://tatoeba.org/en/sentences/show/2252336) | sacredceltic |  |  | tts |
+| S15718 | J'ai un mari. | I have a husband. | [#3534829](https://tatoeba.org/en/sentences/show/3534829) | Rovo |  |  | tts |
+| S15719 | Je suis déjà marié. | I'm already married. | [#3746271](https://tatoeba.org/en/sentences/show/3746271) | GB3 |  |  | tts |
+| S15720 | Je suis toujours marié. | I'm still married. | [#5301086](https://tatoeba.org/en/sentences/show/5301086) | Aiji |  |  | tts |
+| S15723 | Je suis marié maintenant. | I'm married now. | [#5644423](https://tatoeba.org/en/sentences/show/5644423) | Scorpionvenin14 |  |  | tts |
+| S15724 | Mon mari aime dormir. | My husband likes to sleep. | [#7701600](https://tatoeba.org/en/sentences/show/7701600) | Maxence |  |  | tts |
+| S15725 | Tu es marié maintenant. | You're married now. | [#7793127](https://tatoeba.org/en/sentences/show/7793127) | Rockaround |  |  | tts |
+| S15727 | Elle n'est pas mariée. | She isn't married. | [#911221](https://tatoeba.org/en/sentences/show/911221) | sacredceltic |  |  | tts |
+| S15728 | Il n'est pas marié. | He isn't married. | [#964001](https://tatoeba.org/en/sentences/show/964001) | sacredceltic |  |  | tts |
+| S15729 | Je ne suis pas marié. | I'm not married. | [#1843045](https://tatoeba.org/en/sentences/show/1843045) | sacredceltic |  |  | tts |
+| S15730 | Je ne suis pas mariée. | I'm not married. | [#1843046](https://tatoeba.org/en/sentences/show/1843046) | sacredceltic |  |  | tts |
+| S15801 | Tu vis ici ? | Do you live here? | [#4081046](https://tatoeba.org/en/sentences/show/4081046) | sbamsbamsbam |  |  | tts |
+| S15802 | Tu vis seul ? | Do you live alone? | [#8685371](https://tatoeba.org/en/sentences/show/8685371) | Julien_PDC |  |  | tts |
+| S15803 | Où est ma clé ? | Where is my key? | [#6171720](https://tatoeba.org/en/sentences/show/6171720) | felix63 |  |  | tts |
+| S15804 | Où est la clé ? | Where's the key? | [#6367927](https://tatoeba.org/en/sentences/show/6367927) | Aiji |  |  | tts |
+| S15805 | Vous avez perdu la clé ? | Did you lose the key? | [#12504301](https://tatoeba.org/en/sentences/show/12504301) | Rovo |  |  | tts |
+| S15806 | Comment c'est de vivre en Allemagne ? | What is it like living in Germany? | [#4096555](https://tatoeba.org/en/sentences/show/4096555) | sbamsbamsbam |  |  | tts |
+| S15807 | Quelle est la couleur de ce mur ? | What color is this wall? | [#13238652](https://tatoeba.org/en/sentences/show/13238652) | Jozumaki |  |  | tts |
+| S15808 | Il vit seul. | He lives alone. | [#339730](https://tatoeba.org/en/sentences/show/339730) | TRANG |  |  | tts |
+| S15809 | Je vis seul. | I live alone. | [#7547384](https://tatoeba.org/en/sentences/show/7547384) | Micsmithel |  |  | tts |
+| S15810 | Quelle belle pièce ! | What a beautiful room! | [#10515275](https://tatoeba.org/en/sentences/show/10515275) | lbdx |  |  | tts |
+| S15811 | On mange pour vivre. | We eat so we can live. | [#337034](https://tatoeba.org/en/sentences/show/337034) | sysko |  |  | tts |
+| S15812 | J'aime vivre ici. | I like living here. | [#1051019](https://tatoeba.org/en/sentences/show/1051019) | sacredceltic |  |  | tts |
+| S15813 | Elle vit avec lui. | She lives with him. | [#1410397](https://tatoeba.org/en/sentences/show/1410397) | sacredceltic |  |  | tts |
+| S15816 | Je suis dans le salon. | I'm in the living room. | [#11803444](https://tatoeba.org/en/sentences/show/11803444) | lbdx |  |  | tts |
+| S15817 | Je prends un bain par jour. | I take a bath once a day. | [#678984](https://tatoeba.org/en/sentences/show/678984) | sysko |  |  | tts |
+| S15818 | La carte est sur le mur. | The map is on the wall. | [#879584](https://tatoeba.org/en/sentences/show/879584) | alexmarcelo |  |  | tts |
+| S15820 | J'ai besoin d'un bain. | I need a bath. | [#7763066](https://tatoeba.org/en/sentences/show/7763066) | sacredceltic |  |  | tts |
+| S15821 | Tu as perdu la clé ? | Did you lose the key? | [#12504302](https://tatoeba.org/en/sentences/show/12504302) | Rovo |  |  | tts |
+| S15822 | Voici votre clé. | Here's your key. | [#11236](https://tatoeba.org/en/sentences/show/11236) | sacredceltic |  |  | tts |
+| S15823 | C'est votre clé. | This is your key. | [#1201864](https://tatoeba.org/en/sentences/show/1201864) | sacredceltic |  |  | tts |
+| S15824 | Je cherche ma clé. | I'm looking for my key. | [#8747](https://tatoeba.org/en/sentences/show/8747) | Cocorico |  |  | tts |
+| S15825 | Je vis en ville. | I live in town. | [#9726](https://tatoeba.org/en/sentences/show/9726) | sacredceltic |  |  | tts |
+| S15830 | Personne ne vit là-bas. | Nobody lives there. | [#2093154](https://tatoeba.org/en/sentences/show/2093154) | Amastan |  |  | tts |
+| S15831 | J'ai perdu la clé. | I have lost the key. | [#6571](https://tatoeba.org/en/sentences/show/6571) | sysko |  |  | tts |
+| S16001 | Qui garde les enfants ? | Who looks after the children? | [#533531](https://tatoeba.org/en/sentences/show/533531) | zmoo |  |  | tts |
+| S16002 | Quel est le problème avec ton ordinateur ? | What's the problem with your computer? | [#6309431](https://tatoeba.org/en/sentences/show/6309431) | Aiji |  |  | tts |
+| S16003 | C'est une télé. | It's a TV. | [#139222](https://tatoeba.org/en/sentences/show/139222) | Aiji |  |  | tts |
+| S16004 | Il se lave. | He washes himself. | [#458200](https://tatoeba.org/en/sentences/show/458200) | sacredceltic |  |  | tts |
+| S16005 | Je me lave. | I wash myself. | [#553650](https://tatoeba.org/en/sentences/show/553650) | zmoo |  |  | tts |
+| S16006 | Voici mon ordinateur. | This is my computer. | [#3108344](https://tatoeba.org/en/sentences/show/3108344) | Rovo |  |  | tts |
+| S16007 | J'ai un ordinateur. | I have a computer. | [#7232](https://tatoeba.org/en/sentences/show/7232) | alexmarcelo |  |  | tts |
+| S16008 | Il lave sa voiture. | He is washing his car. | [#132429](https://tatoeba.org/en/sentences/show/132429) | Micsmithel |  |  | tts |
+| S16011 | J'aime regarder la télé. | I like watching TV. | [#7013](https://tatoeba.org/en/sentences/show/7013) | Cocorico |  |  | tts |
+| S16012 | Maintenant il regarde la télé. | He is watching TV now. | [#132051](https://tatoeba.org/en/sentences/show/132051) | dominiko |  |  | tts |
+| S16013 | Je vais laver ma voiture. | I'm going to wash my car. | [#1306762](https://tatoeba.org/en/sentences/show/1306762) | alexmarcelo |  |  | tts |
+| S16014 | Je vais me laver maintenant. | I'm going to wash off now. | [#8574612](https://tatoeba.org/en/sentences/show/8574612) | felix63 |  |  | tts |
+| S16015 | Elle veut tout garder pour elle. | She wants to keep everything for herself. | [#4539381](https://tatoeba.org/en/sentences/show/4539381) | Amastan |  |  | tts |
+| S16018 | Je vais aller me laver les cheveux. | I'm going to go wash my hair. | [#11570830](https://tatoeba.org/en/sentences/show/11570830) | Aiji |  |  | tts |
+| S16019 | Il lave la voiture. | He washes the car. | [#487144](https://tatoeba.org/en/sentences/show/487144) | qdii |  |  | tts |
+| S16021 | Mon ordinateur est cher. | My computer is expensive. | [#1702178](https://tatoeba.org/en/sentences/show/1702178) | Micsmithel |  |  | tts |
+| S16022 | Elle achète l'ordinateur. | She is buying the computer. | [#3770041](https://tatoeba.org/en/sentences/show/3770041) | Micsmithel |  |  | tts |
+| S16023 | Je lave la voiture. | I'm washing the car. | [#4588971](https://tatoeba.org/en/sentences/show/4588971) | Amastan |  |  | tts |
+| S16026 | Elle lave une pomme. | She washes an apple. | [#5251336](https://tatoeba.org/en/sentences/show/5251336) | martin9 |  |  | tts |
+| S16027 | Je lave ma pomme. | I wash my apple. | [#5252048](https://tatoeba.org/en/sentences/show/5252048) | martin9 |  |  | tts |
+| S16029 | Il lave le pantalon. | He washes the pants. | [#5252158](https://tatoeba.org/en/sentences/show/5252158) | martin9 |  |  | tts |
+| S16030 | Je lave mon chien. | I wash my dog. | [#5256495](https://tatoeba.org/en/sentences/show/5256495) | martin9 |  |  | tts |
+| S16101 | Nous avons une réunion. | We have a meeting. | [#6083209](https://tatoeba.org/en/sentences/show/6083209) | Aiji |  |  | tts |
+| S16102 | Nous avons une réunion demain. | We have a meeting tomorrow. | [#7909404](https://tatoeba.org/en/sentences/show/7909404) | Aiji |  |  | tts |
+| S16103 | Nous avons un collègue en Espagne. | We have a colleague in Spain. | [#468002](https://tatoeba.org/en/sentences/show/468002) | Bruno |  |  | tts |
+| S16104 | Quel est ton métier ? | What's your job? | [#374909](https://tatoeba.org/en/sentences/show/374909) | sysko |  |  | tts |
+| S16105 | Où est le directeur ? | Where's the director? | [#549572](https://tatoeba.org/en/sentences/show/549572) | zmoo |  |  | tts |
+| S16106 | Comment va le projet ? | How's the project going? | [#5377541](https://tatoeba.org/en/sentences/show/5377541) | Aiji |  |  | tts |
+| S16107 | Quel est notre projet ? | What's our plan? | [#6365583](https://tatoeba.org/en/sentences/show/6365583) | Aiji |  |  | tts |
+| S16108 | Ils ont dit ça ? | Did they say that? | [#13162718](https://tatoeba.org/en/sentences/show/13162718) | Rovo |  |  | tts |
+| S16111 | Quand est la prochaine réunion ? | When's the next meeting? | [#8126708](https://tatoeba.org/en/sentences/show/8126708) | Aiji |  |  | tts |
+| S16112 | Nous avons rendez-vous avec le directeur. | We have an appointment with the director. | [#12311043](https://tatoeba.org/en/sentences/show/12311043) | lbdx |  |  | tts |
+| S16113 | Il est journaliste. | He's a journalist. | [#873171](https://tatoeba.org/en/sentences/show/873171) | U2FS |  |  | tts |
+| S16114 | C'est mon métier. | It's my job. | [#1313560](https://tatoeba.org/en/sentences/show/1313560) | sacredceltic |  |  | tts |
+| S16115 | Ils ont compris. | They understood. | [#2937439](https://tatoeba.org/en/sentences/show/2937439) | Amastan |  |  | tts |
+| S16116 | C'est un journaliste. | He's a journalist. | [#4317656](https://tatoeba.org/en/sentences/show/4317656) | nimfeo |  |  | tts |
+| S16117 | Elle est journaliste. | She's a journalist. | [#6166706](https://tatoeba.org/en/sentences/show/6166706) | felix63 |  |  | tts |
+| S16118 | Je suis secrétaire. | I am a secretary. | [#6195661](https://tatoeba.org/en/sentences/show/6195661) | felix63 |  |  | tts |
+| S16119 | Il connaît son métier. | He knows his job. | [#1033617](https://tatoeba.org/en/sentences/show/1033617) | sacredceltic |  |  | tts |
+| S16121 | Marie est ma collègue. | Mary is my colleague. | [#10680967](https://tatoeba.org/en/sentences/show/10680967) | AutoBot |  |  | tts |
+| S16123 | J'ai besoin d'une secrétaire. | I need a secretary. | [#7063948](https://tatoeba.org/en/sentences/show/7063948) | Aiji |  |  | tts |
+| S16125 | À quelle heure est la réunion ? | What time is the meeting? | [#5955790](https://tatoeba.org/en/sentences/show/5955790) | Aiji |  |  | tts |
+| S16126 | À quelle heure est notre réunion demain ? | What time's our meeting tomorrow? | [#8237622](https://tatoeba.org/en/sentences/show/8237622) | Aiji |  |  | tts |
+| S16127 | Nous avons perdu. | We lost. | [#2109573](https://tatoeba.org/en/sentences/show/2109573) | sacredceltic |  |  | tts |
+| S16128 | Nous avons entendu. | We heard. | [#2933862](https://tatoeba.org/en/sentences/show/2933862) | Amastan |  |  | tts |
+| S16130 | Nous avons rendez-vous. | We have an appointment. | [#3271829](https://tatoeba.org/en/sentences/show/3271829) | Micsmithel |  |  | tts |
+| S16401 | Il étudie les maths. | He studies maths. | [#8679935](https://tatoeba.org/en/sentences/show/8679935) | Micsmithel |  |  | tts |
+| S16403 | J'étudie à l'université. | I study at a university. | [#5452301](https://tatoeba.org/en/sentences/show/5452301) | nimfeo |  |  | tts |
+| S16404 | Je dois étudier pour l'examen. | I have to study for the test. | [#2745126](https://tatoeba.org/en/sentences/show/2745126) | Micsmithel |  |  | tts |
+| S16405 | Quelle est la réponse ? | What's the answer? | [#6479954](https://tatoeba.org/en/sentences/show/6479954) | Aiji |  |  | tts |
+| S16407 | Quelle est votre réponse ? | What's your answer? | [#11148236](https://tatoeba.org/en/sentences/show/11148236) | Aiji |  |  | tts |
+| S16408 | Comment est ta nouvelle classe ? | How is your new class? | [#5752728](https://tatoeba.org/en/sentences/show/5752728) | Aiji |  |  | tts |
+| S16410 | Tu vas étudier le français ? | Are you going to study French? | [#7414009](https://tatoeba.org/en/sentences/show/7414009) | lbdx |  |  | tts |
+| S16412 | À quelle heure commence l'examen ? | What time does the exam start? | [#1296528](https://tatoeba.org/en/sentences/show/1296528) | Eldad |  |  | tts |
+| S16413 | Qui est ton prof d'anglais ? | Who is your English teacher? | [#6716682](https://tatoeba.org/en/sentences/show/6716682) | Aiji |  |  | tts |
+| S16414 | Je dois étudier. | I must study. | [#127896](https://tatoeba.org/en/sentences/show/127896) | nimfeo |  |  | tts |
+| S16415 | C'est mon prof. | That's my teacher. | [#2093771](https://tatoeba.org/en/sentences/show/2093771) | Aiji |  |  | tts |
+| S16416 | C'est un exercice facile. | This is an easy exercise. | [#882693](https://tatoeba.org/en/sentences/show/882693) | alexmarcelo |  |  | tts |
+| S16418 | Je suis au collège. | I'm a junior high school student. | [#3766282](https://tatoeba.org/en/sentences/show/3766282) | gillux |  |  | tts |
+| S16420 | C'est une bonne université. | This is a good university. | [#11791795](https://tatoeba.org/en/sentences/show/11791795) | Zahia_Ntmazirt |  |  | tts |
+| S16421 | Je vais au lycée. | I go to high school. | [#12357523](https://tatoeba.org/en/sentences/show/12357523) | lbdx |  |  | tts |
+| S16423 | Il est à l'université. | He is at university. | [#131067](https://tatoeba.org/en/sentences/show/131067) | sacredceltic |  |  | tts |
+| S16424 | Je suis bon en maths. | I'm good at maths. | [#1031848](https://tatoeba.org/en/sentences/show/1031848) | sacredceltic |  |  | tts |
+| S16425 | Il est très bon en maths. | He's very good at maths. | [#5798213](https://tatoeba.org/en/sentences/show/5798213) | Toynop |  |  | tts |
+| S16427 | Quelle est la bonne réponse ? | What is the correct answer? | [#1456771](https://tatoeba.org/en/sentences/show/1456771) | gillux |  |  | tts |
+| S16428 | Est-ce que tu sais la réponse ? | You know the answer? | [#10473642](https://tatoeba.org/en/sentences/show/10473642) | pkill |  |  | tts |
+| S16429 | Est-ce que quelqu'un connaît la réponse ? | Does anyone know the answer? | [#12355014](https://tatoeba.org/en/sentences/show/12355014) | lbdx |  |  | tts |
+| S16501 | Je vais lui envoyer un message. | I'll send a message to her. | [#8880258](https://tatoeba.org/en/sentences/show/8880258) | Julien_PDC |  |  | tts |
+| S16504 | Quel est le message ? | What's the message? | [#5927271](https://tatoeba.org/en/sentences/show/5927271) | Aiji |  |  | tts |
+| S16506 | Est-ce que tu écris en français ? | Do you write in French? | [#5349175](https://tatoeba.org/en/sentences/show/5349175) | nimfeo |  |  | tts |
+| S16507 | Pour qui est ce message ? | Who's this message for? | [#7773493](https://tatoeba.org/en/sentences/show/7773493) | Aiji |  |  | tts |
+| S16509 | J'adore Internet. | I love the internet. | [#5290886](https://tatoeba.org/en/sentences/show/5290886) | Aiji |  |  | tts |
+| S16510 | Il est sur Internet. | He is on the Internet. | [#4949219](https://tatoeba.org/en/sentences/show/4949219) | sacredceltic |  |  | tts |
+| S16511 | J'ai besoin d'Internet. | I need Internet. | [#5545252](https://tatoeba.org/en/sentences/show/5545252) | sacredceltic |  |  | tts |
+| S16512 | Je t'envoie un livre. | I'm sending you a book. | [#7776452](https://tatoeba.org/en/sentences/show/7776452) | Aiji |  |  | tts |
+| S16513 | Je vous envoie un livre. | I'm sending you a book. | [#7776453](https://tatoeba.org/en/sentences/show/7776453) | Aiji |  |  | tts |
+| S16516 | Est-ce que je peux voir le message ? | Can I see the message? | [#7849292](https://tatoeba.org/en/sentences/show/7849292) | Aiji |  |  | tts |
+| S16518 | Tu écris. | You write. | [#3138117](https://tatoeba.org/en/sentences/show/3138117) | Aiji |  |  | tts |
+| S16521 | Tu écris bien. | You write well. | [#6833686](https://tatoeba.org/en/sentences/show/6833686) | GB3 |  |  | tts |
+| S16522 | C'est le message. | That's the message. | [#6841280](https://tatoeba.org/en/sentences/show/6841280) | Aiji |  |  | tts |
+| S16523 | Je lui écris. | I'm writing to him. | [#7677793](https://tatoeba.org/en/sentences/show/7677793) | tras |  |  | tts |
+| S16526 | J'écris une lettre. | I write a letter. | [#6532](https://tatoeba.org/en/sentences/show/6532) | Cocorico |  |  | tts |
+| S16528 | Tu as un message. | You have a message. | [#2508122](https://tatoeba.org/en/sentences/show/2508122) | nimfeo |  |  | tts |
+| S16530 | J'écris un livre. | I'm writing a book. | [#4237142](https://tatoeba.org/en/sentences/show/4237142) | sacredceltic |  |  | tts |
+| S16801 | Quelle est votre nationalité ? | What's your nationality? | [#3077607](https://tatoeba.org/en/sentences/show/3077607) | Aiji |  |  | tts |
+| S16802 | Quelle est ta nationalité ? | What's your nationality? | [#3077609](https://tatoeba.org/en/sentences/show/3077609) | Aiji |  |  | tts |
+| S16803 | Quelle est ta date de naissance ? | What's your date of birth? | [#844084](https://tatoeba.org/en/sentences/show/844084) | RaspaKrusto |  |  | tts |
+| S16805 | Quelle est votre date de naissance ? | What's your date of birth? | [#3996950](https://tatoeba.org/en/sentences/show/3996950) | sacredceltic |  |  | tts |
+| S16806 | Bonjour Mademoiselle ! | Hello Miss! | [#482477](https://tatoeba.org/en/sentences/show/482477) | sacredceltic |  |  | tts |
+| S16807 | Bonne nuit, Mademoiselle. | Good night, miss. | [#5238904](https://tatoeba.org/en/sentences/show/5238904) | martin9 |  |  | tts |
+| S16808 | Je suis célibataire. | I'm single. | [#13850](https://tatoeba.org/en/sentences/show/13850) | sacredceltic |  |  | tts |
+| S16809 | Il est célibataire. | He is unmarried. | [#1073399](https://tatoeba.org/en/sentences/show/1073399) | sacredceltic |  |  | tts |
+| S16814 | Ce n'est pas ma signature. | That's not my signature. | [#4855527](https://tatoeba.org/en/sentences/show/4855527) | sacredceltic |  |  | tts |
+| S16815 | La banque a besoin de votre signature. | The bank needs your signature. | [#3260197](https://tatoeba.org/en/sentences/show/3260197) | nimfeo |  |  | tts |
+| S16817 | Tu es célibataire. | You're single. | [#4655510](https://tatoeba.org/en/sentences/show/4655510) | sacredceltic |  |  | tts |
+| S16819 | Il est toujours célibataire. | He's still single. | [#2186858](https://tatoeba.org/en/sentences/show/2186858) | sacredceltic |  |  | tts |
+| S16824 | Il est jeune et célibataire. | He's young and single. | [#2200761](https://tatoeba.org/en/sentences/show/2200761) | sacredceltic |  |  | tts |
+| S16901 | J'espère vous revoir. | I hope to see you again. | [#485318](https://tatoeba.org/en/sentences/show/485318) | sacredceltic |  |  | tts |
+| S16902 | J'espère te revoir. | I hope I'll see you again. | [#856451](https://tatoeba.org/en/sentences/show/856451) | U2FS |  |  | tts |
+| S16903 | Il veut nous revoir. | He wants to see us again. | [#975288](https://tatoeba.org/en/sentences/show/975288) | sacredceltic |  |  | tts |
+| S16905 | Je dois vous quitter. | I must leave you. | [#4019730](https://tatoeba.org/en/sentences/show/4019730) | Rovo |  |  | tts |
+| S16906 | Je vais quitter le pays. | I'm going to leave the country. | [#7967930](https://tatoeba.org/en/sentences/show/7967930) | Aiji |  |  | tts |
+| S16907 | Je vais devoir vous quitter. | I'm going to have to leave you. | [#8673071](https://tatoeba.org/en/sentences/show/8673071) | Julien_PDC |  |  | tts |
+| S16908 | On se retrouve plus tard. | We'll meet later. | [#10629529](https://tatoeba.org/en/sentences/show/10629529) | lbdx |  |  | tts |
+| S16909 | Le train quitte la gare. | The train is leaving the station. | [#10923705](https://tatoeba.org/en/sentences/show/10923705) | lbdx |  |  | tts |
+| S16910 | Il ne retrouve pas son chapeau. | He can't find his hat. | [#1490861](https://tatoeba.org/en/sentences/show/1490861) | martin9 |  |  | tts |
+| S16912 | Je vous retrouve à la voiture. | I'll meet you back at the car. | [#12311997](https://tatoeba.org/en/sentences/show/12311997) | lbdx |  |  | tts |
+| S16913 | On espère vous revoir. | We hope to see you again. | [#5315538](https://tatoeba.org/en/sentences/show/5315538) | Aiji |  |  | tts |
+| S16914 | Content de te revoir. | Nice to see you back. | [#11462546](https://tatoeba.org/en/sentences/show/11462546) | lbdx |  |  | tts |
+| S16915 | J'espère vous revoir bientôt ! | I hope to see you again soon! | [#1142673](https://tatoeba.org/en/sentences/show/1142673) | sacredceltic |  |  | tts |
+| S16916 | C'est bon de te revoir ! | It's good to see you again. | [#1895012](https://tatoeba.org/en/sentences/show/1895012) | sacredceltic |  |  | tts |
+| S16917 | Je suis content de te revoir. | Nice to see you again. | [#4323](https://tatoeba.org/en/sentences/show/4323) | TRANG |  |  | tts |
+| S16919 | Tu peux quitter la pièce, maintenant. | You can leave the room now. | [#583588](https://tatoeba.org/en/sentences/show/583588) | sacredceltic |  |  | tts |
+| S16923 | J'espère te revoir un jour. | I hope to see you again some day. | [#3258823](https://tatoeba.org/en/sentences/show/3258823) | Micsmithel |  |  | tts |
+| S16927 | C'est un plaisir de vous revoir. | It's a pleasure to see you again. | [#7553076](https://tatoeba.org/en/sentences/show/7553076) | Aiji |  |  | tts |
+| S16929 | Je suis heureux de te revoir. | I am happy to see you again. | [#8448963](https://tatoeba.org/en/sentences/show/8448963) | sacredceltic |  |  | tts |
 | S11201 | Je vais à l'église en voiture. | I go to church by car. | [#6366](https://tatoeba.org/en/sentences/show/6366) | mrtaistoi |  |  | tts |
 | S11202 | C'est ta voiture ? | Is that your car? | [#1291239](https://tatoeba.org/en/sentences/show/1291239) | slegros |  |  | tts |
 | S11203 | Je parle avec qui ? | Who am I talking with? | [#3647](https://tatoeba.org/en/sentences/show/3647) | TRANG |  |  | tts |
@@ -2466,6 +2942,122 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S11228 | Est-ce que tu as une voiture ? | Do you have a car? | [#6773904](https://tatoeba.org/en/sentences/show/6773904) | Micsmithel |  |  | tts |
 | S11229 | Tu ne manges pas avec nous ? | Aren't you going to eat with us? | [#11916841](https://tatoeba.org/en/sentences/show/11916841) | lbdx |  |  | tts |
 | S11230 | Qui est la fille dans ta voiture ? | Who is the girl in your car? | [#3507490](https://tatoeba.org/en/sentences/show/3507490) | Aiji |  |  | tts |
+| S15501 | Maman, où est papa ? | Mum, where's Dad? | [#1240490](https://tatoeba.org/en/sentences/show/1240490) | sacredceltic |  |  | tts |
+| S15502 | Mon papa aime ma maman. | My dad loves my mom. | [#12442421](https://tatoeba.org/en/sentences/show/12442421) | lbdx |  |  | tts |
+| S15503 | Où est maman ? | Where's Mum? | [#1498406](https://tatoeba.org/en/sentences/show/1498406) | Rovo |  |  | tts |
+| S15504 | Où est papa ? | Where is dad? | [#6140792](https://tatoeba.org/en/sentences/show/6140792) | Scorpionvenin14 |  |  | tts |
+| S15505 | Où est ta grand-mère ? | Where's your grandmother? | [#7465582](https://tatoeba.org/en/sentences/show/7465582) | tras |  |  | tts |
+| S15506 | Où est ton grand-père ? | Where's your grandfather? | [#7465601](https://tatoeba.org/en/sentences/show/7465601) | tras |  |  | tts |
+| S15507 | Ta copine parle français ? | Does your girlfriend speak French? | [#7745842](https://tatoeba.org/en/sentences/show/7745842) | lbdx |  |  | tts |
+| S15508 | Où est ton oncle ? | Where's your uncle? | [#7853344](https://tatoeba.org/en/sentences/show/7853344) | Aiji |  |  | tts |
+| S15510 | Où est mon grand-père ? | Where's my grandfather? | [#7982830](https://tatoeba.org/en/sentences/show/7982830) | Aiji |  |  | tts |
+| S15511 | Qui est ta petite copine ? | Who's your girlfriend? | [#2254185](https://tatoeba.org/en/sentences/show/2254185) | sacredceltic |  |  | tts |
+| S15512 | Qui est ton petit copain ? | Who's your boyfriend? | [#2254190](https://tatoeba.org/en/sentences/show/2254190) | sacredceltic |  |  | tts |
+| S15513 | Comment s'appelle ton cousin ? | What's your cousin's name? | [#9075964](https://tatoeba.org/en/sentences/show/9075964) | Julien_PDC |  |  | tts |
+| S15514 | Quel est le prénom de ton cousin ? | What's your cousin's first name? | [#9075961](https://tatoeba.org/en/sentences/show/9075961) | Julien_PDC |  |  | tts |
+| S15515 | C'est mon oncle. | He's my uncle. | [#458224](https://tatoeba.org/en/sentences/show/458224) | sacredceltic |  |  | tts |
+| S15516 | C'est ma copine. | She is my girlfriend. | [#3252440](https://tatoeba.org/en/sentences/show/3252440) | sacredceltic |  |  | tts |
+| S15517 | Voilà mon cousin. | This is my cousin. | [#3544498](https://tatoeba.org/en/sentences/show/3544498) | Rovo |  |  | tts |
+| S15518 | C'est ma grand-mère. | This is my grandmother. | [#5838535](https://tatoeba.org/en/sentences/show/5838535) | Janejeanne |  |  | tts |
+| S15519 | Mon grand-père aime marcher. | My grandfather likes to walk. | [#7696](https://tatoeba.org/en/sentences/show/7696) | sacredceltic |  |  | tts |
+| S15520 | J'aime ma tante. | I love my aunt. | [#11230805](https://tatoeba.org/en/sentences/show/11230805) | lomicmenes |  |  | tts |
+| S15523 | Ma tante a trois enfants. | My aunt has three children. | [#120056](https://tatoeba.org/en/sentences/show/120056) | TRANG |  |  | tts |
+| S15524 | Son petit copain ne vient pas. | Her boyfriend is not coming. | [#11741641](https://tatoeba.org/en/sentences/show/11741641) | Aiji |  |  | tts |
+| S15525 | Je n'ai pas de petit copain. | I don't have a boyfriend. | [#2265457](https://tatoeba.org/en/sentences/show/2265457) | sacredceltic |  |  | tts |
+| S15526 | Comment va ton papa ? | How is your dad? | [#1408740](https://tatoeba.org/en/sentences/show/1408740) | sacredceltic |  |  | tts |
+| S15530 | Où est ta maman ? | Where's your mom? | [#3628064](https://tatoeba.org/en/sentences/show/3628064) | fleur74 |  |  | tts |
+| S15901 | Elle se réveille. | She's waking up. | [#451478](https://tatoeba.org/en/sentences/show/451478) | sacredceltic |  |  | tts |
+| S15902 | Elle se prépare. | She's getting ready. | [#2445388](https://tatoeba.org/en/sentences/show/2445388) | gillux |  |  | tts |
+| S15903 | Il se repose. | He's resting. | [#13372156](https://tatoeba.org/en/sentences/show/13372156) | lbdx |  |  | tts |
+| S15904 | La femme se réveille. | The woman awakens. | [#589924](https://tatoeba.org/en/sentences/show/589924) | qdii |  |  | tts |
+| S15905 | Il se réveille à midi. | He wakes up at noon. | [#2306111](https://tatoeba.org/en/sentences/show/2306111) | sacredceltic |  |  | tts |
+| S15906 | Elle se couche toujours tard. | She always goes to bed late. | [#9073269](https://tatoeba.org/en/sentences/show/9073269) | Micsmithel |  |  | tts |
+| S15907 | C'est l'heure de se coucher. | Time for bed. | [#182126](https://tatoeba.org/en/sentences/show/182126) | trotter |  |  | tts |
+| S15908 | Il se prépare pour le voyage. | He's preparing for the journey. | [#7811194](https://tatoeba.org/en/sentences/show/7811194) | Aiji |  |  | tts |
+| S15909 | Bonne journée ! | Have a nice day. | [#13716](https://tatoeba.org/en/sentences/show/13716) | sacredceltic |  |  | lingua_libre |
+| S15910 | Quelle journée ! | What a day. | [#1719439](https://tatoeba.org/en/sentences/show/1719439) | Rovo |  |  | tts |
+| S15911 | Bonne soirée. | Have a nice evening. | [#10968777](https://tatoeba.org/en/sentences/show/10968777) | lbdx |  |  | lingua_libre |
+| S15912 | Bonne journée. À bientôt. | Good day. See you soon. | [#11737](https://tatoeba.org/en/sentences/show/11737) | sacredceltic |  |  | tts |
+| S15913 | Je me prépare. | I'm getting ready. | [#2445916](https://tatoeba.org/en/sentences/show/2445916) | Amastan |  |  | tts |
+| S15914 | Je vais me coucher ! | I'm going to bed. | [#139823](https://tatoeba.org/en/sentences/show/139823) | Archibald |  |  | tts |
+| S15915 | Elle couche les enfants. | She's putting the children to bed. | [#1490749](https://tatoeba.org/en/sentences/show/1490749) | Quetucrois |  |  | tts |
+| S15916 | Passe une bonne soirée ! | Enjoy your evening. | [#1852828](https://tatoeba.org/en/sentences/show/1852828) | sacredceltic |  |  | tts |
+| S15917 | Tu peux coucher ici. | You can sleep here. | [#2969281](https://tatoeba.org/en/sentences/show/2969281) | Blabla |  |  | tts |
+| S15918 | Je me repose dimanche. | I rest on Sunday. | [#5554304](https://tatoeba.org/en/sentences/show/5554304) | sacredceltic |  |  | tts |
+| S15919 | C'est maintenant une habitude. | It's now a habit. | [#6843682](https://tatoeba.org/en/sentences/show/6843682) | Aiji |  |  | tts |
+| S15920 | Je me couche tôt. | I go to bed early. | [#7820705](https://tatoeba.org/en/sentences/show/7820705) | Yemana |  |  | tts |
+| S15921 | Je vais préparer à dîner. | I'm going to fix some dinner. | [#2576534](https://tatoeba.org/en/sentences/show/2576534) | sacredceltic |  |  | tts |
+| S15924 | Ça se passe bien ? | Is it going well? | [#3273066](https://tatoeba.org/en/sentences/show/3273066) | Micsmithel |  |  | tts |
+| S15925 | Comment ça se passe ? | How are you getting along? | [#12243746](https://tatoeba.org/en/sentences/show/12243746) | Orange |  |  | tts |
+| S15926 | Où se trouve ton école ? | Where's your school? | [#339595](https://tatoeba.org/en/sentences/show/339595) | TRANG |  |  | tts |
+| S15927 | Où se trouve mon livre ? | Where's my book? | [#481940](https://tatoeba.org/en/sentences/show/481940) | sysko |  |  | tts |
+| S15928 | Où se trouve l'aéroport ? | Where's the airport? | [#564420](https://tatoeba.org/en/sentences/show/564420) | sacredceltic |  |  | tts |
+| S15929 | Où se trouve l'école ? | Where's the school? | [#1054844](https://tatoeba.org/en/sentences/show/1054844) | sacredceltic |  |  | tts |
+| S15930 | Où est-ce que ça se trouve ? | Where is it located? | [#1083319](https://tatoeba.org/en/sentences/show/1083319) | Aiji |  |  | tts |
+| S16301 | Il me faut du temps. | I need time. | [#2482626](https://tatoeba.org/en/sentences/show/2482626) | sacredceltic |  |  | tts |
+| S16302 | Il nous faut du temps. | We need time. | [#4777551](https://tatoeba.org/en/sentences/show/4777551) | sacredceltic |  |  | tts |
+| S16303 | Il me faut beaucoup de temps. | I need lots of time. | [#3530935](https://tatoeba.org/en/sentences/show/3530935) | Rovo |  |  | tts |
+| S16304 | Qui peut m'aider ? | Who can help me? | [#6860580](https://tatoeba.org/en/sentences/show/6860580) | GB3 |  |  | tts |
+| S16305 | Est-ce que tu dois partir ? | Do you have to go? | [#8619845](https://tatoeba.org/en/sentences/show/8619845) | Micsmithel |  |  | tts |
+| S16306 | Tu as toujours mal ? | Are you still in pain? | [#10494604](https://tatoeba.org/en/sentences/show/10494604) | lbdx |  |  | tts |
+| S16307 | Qu'est-ce que tu dois faire maintenant ? | What must you do now? | [#1174570](https://tatoeba.org/en/sentences/show/1174570) | rene1596 |  |  | tts |
+| S16308 | Qui peut m'expliquer ça ? | Who's able to explain this to me? | [#1931199](https://tatoeba.org/en/sentences/show/1931199) | Sbgodin |  |  | tts |
+| S16309 | Est-ce que je dois porter ça ? | Do I have to wear this? | [#6560399](https://tatoeba.org/en/sentences/show/6560399) | Aiji |  |  | tts |
+| S16311 | On doit vraiment partir maintenant ? | Do we really have to leave now? | [#13341913](https://tatoeba.org/en/sentences/show/13341913) | genes1s |  |  | tts |
+| S16312 | Tu as mal quand tu fais ça ? | Do you feel pain when you do that? | [#9934925](https://tatoeba.org/en/sentences/show/9934925) | Micsmithel |  |  | tts |
+| S16313 | Il doit venir. | He has to come. | [#1977657](https://tatoeba.org/en/sentences/show/1977657) | sacredceltic |  |  | tts |
+| S16314 | Elle doit venir. | She has to come. | [#1977658](https://tatoeba.org/en/sentences/show/1977658) | sacredceltic |  |  | tts |
+| S16316 | J'ai mal. | I'm in pain. | [#12773650](https://tatoeba.org/en/sentences/show/12773650) | lbdx |  |  | tts |
+| S16318 | Je vais devoir regarder. | I'll have to take a look. | [#8357448](https://tatoeba.org/en/sentences/show/8357448) | zarisi |  |  | tts |
+| S16319 | Il va te falloir beaucoup d'argent. | You'll need a lot of money. | [#10344401](https://tatoeba.org/en/sentences/show/10344401) | Julien_PDC |  |  | tts |
+| S16321 | Comment est le temps ? | How's the weather? | [#1159346](https://tatoeba.org/en/sentences/show/1159346) | sacredceltic |  |  | tts |
+| S16322 | Comment est le temps aujourd'hui ? | How is the weather today? | [#8447](https://tatoeba.org/en/sentences/show/8447) | sacredceltic |  |  | tts |
+| S16323 | Est-ce que vous avez le temps ? | Do you have time? | [#4470889](https://tatoeba.org/en/sentences/show/4470889) | Petrus |  |  | tts |
+| S16324 | Vous avez le temps maintenant ? | Do you have time now? | [#4884716](https://tatoeba.org/en/sentences/show/4884716) | Julien_PDC |  |  | tts |
+| S16326 | Tu dois déjà y aller ? | Do you already have to go? | [#7895514](https://tatoeba.org/en/sentences/show/7895514) | Rovo |  |  | tts |
+| S16327 | Quand est-ce que tu dois partir ? | When do you have to leave? | [#8286864](https://tatoeba.org/en/sentences/show/8286864) | Aiji |  |  | tts |
+| S16328 | On peut venir avec toi ? | Can we come with you? | [#8435346](https://tatoeba.org/en/sentences/show/8435346) | lbdx |  |  | tts |
+| S16329 | Est-ce que quelqu'un peut m'aider ? | Can someone help me? | [#10367680](https://tatoeba.org/en/sentences/show/10367680) | Akenaseryan |  |  | tts |
+| S16703 | Bonne chance ! | Good luck. | [#8744](https://tatoeba.org/en/sentences/show/8744) | sacredceltic |  |  | lingua_libre |
+| S16704 | Avec plaisir. | With pleasure. | [#885427](https://tatoeba.org/en/sentences/show/885427) | sacredceltic |  |  | lingua_libre |
+| S16705 | Quel plaisir ! | What a pleasure! | [#4626056](https://tatoeba.org/en/sentences/show/4626056) | sacredceltic |  |  | tts |
+| S16706 | Je te remercie. | Thanks. | [#7451](https://tatoeba.org/en/sentences/show/7451) | sacredceltic |  |  | tts |
+| S16707 | Je vous remercie. | Thank you. | [#1100220](https://tatoeba.org/en/sentences/show/1100220) | sacredceltic |  |  | tts |
+| S16709 | Avec grand plaisir ! | With great pleasure! | [#4965991](https://tatoeba.org/en/sentences/show/4965991) | sacredceltic |  |  | tts |
+| S16710 | Je vous remercie beaucoup ! | Thanks a lot! | [#1142705](https://tatoeba.org/en/sentences/show/1142705) | sacredceltic |  |  | tts |
+| S16711 | C'est moi qui invite. | My treat. | [#6080436](https://tatoeba.org/en/sentences/show/6080436) | Blabla |  |  | tts |
+| S16712 | Il faut fêter ça. | This calls for a celebration. | [#11377575](https://tatoeba.org/en/sentences/show/11377575) | lbdx |  |  | tts |
+| S16714 | Merci beaucoup de m'inviter. | Thank you very much for inviting me. | [#914702](https://tatoeba.org/en/sentences/show/914702) | sacredceltic |  |  | tts |
+| S16715 | J'appelle pour te remercier. | I'm calling to thank you. | [#11171066](https://tatoeba.org/en/sentences/show/11171066) | lbdx |  |  | tts |
+| S16719 | Bien sûr. Bonne chance ! | Sure. Good luck! | [#336914](https://tatoeba.org/en/sentences/show/336914) | sysko |  |  | tts |
+| S16725 | Bonne chance pour ton examen ! | Good luck in your exam. | [#409428](https://tatoeba.org/en/sentences/show/409428) | qdii |  |  | tts |
+| S16726 | Le plaisir est pour moi. | The pleasure is mine. | [#1432444](https://tatoeba.org/en/sentences/show/1432444) | sacredceltic |  |  | tts |
+| S16727 | Vous avez de la chance. | You're in luck. | [#3288900](https://tatoeba.org/en/sentences/show/3288900) | Amastan |  |  | tts |
+| S16728 | Je vous remercie pour hier. | Thanks for yesterday. | [#4316782](https://tatoeba.org/en/sentences/show/4316782) | gillux |  |  | tts |
+| S16729 | Bonne chance à vous deux. | Good luck to both of you. | [#4480808](https://tatoeba.org/en/sentences/show/4480808) | mouche |  |  | tts |
+| S16730 | Tu as de la chance. | You're in luck. | [#4599985](https://tatoeba.org/en/sentences/show/4599985) | sacredceltic |  |  | tts |
+| S17001 | C'est ça l'amour ? | Is that love? | [#606421](https://tatoeba.org/en/sentences/show/606421) | qdii |  |  | tts |
+| S17002 | Je suis amoureux. | I'm in love. | [#1226472](https://tatoeba.org/en/sentences/show/1226472) | sacredceltic |  |  | tts |
+| S17003 | J'aime rêver. | I like to dream. | [#2482431](https://tatoeba.org/en/sentences/show/2482431) | sacredceltic |  |  | tts |
+| S17004 | Je rêve beaucoup. | I dream a lot. | [#2837605](https://tatoeba.org/en/sentences/show/2837605) | nimfeo |  |  | tts |
+| S17005 | Non, mon amour. | No, my love. | [#3515098](https://tatoeba.org/en/sentences/show/3515098) | sacredceltic |  |  | tts |
+| S17006 | Oui, mon amour. | Yes, my love. | [#3515099](https://tatoeba.org/en/sentences/show/3515099) | sacredceltic |  |  | tts |
+| S17007 | Nous sommes amoureux. | We're in love. | [#4801664](https://tatoeba.org/en/sentences/show/4801664) | sacredceltic |  |  | tts |
+| S17008 | Tu es amoureux. | You're in love. | [#5959442](https://tatoeba.org/en/sentences/show/5959442) | Aiji |  |  | tts |
+| S17009 | Tu es amoureuse. | You're in love. | [#5959443](https://tatoeba.org/en/sentences/show/5959443) | Aiji |  |  | tts |
+| S17010 | Je suis amoureuse. | I'm in love. | [#7769789](https://tatoeba.org/en/sentences/show/7769789) | Aiji |  |  | tts |
+| S17011 | Elle est amoureuse. | She's in love. | [#8660027](https://tatoeba.org/en/sentences/show/8660027) | Julien_PDC |  |  | tts |
+| S17012 | Il a bon cœur. | He has a kind heart. | [#139385](https://tatoeba.org/en/sentences/show/139385) | superbolo |  |  | tts |
+| S17013 | Je vis mon rêve. | I'm living my dream. | [#753128](https://tatoeba.org/en/sentences/show/753128) | Julien_PDC |  |  | tts |
+| S17014 | Elle a bon cœur. | She's kind at heart. | [#1050984](https://tatoeba.org/en/sentences/show/1050984) | sacredceltic |  |  | tts |
+| S17017 | Je ne rêve pas. | I don't dream. | [#4580512](https://tatoeba.org/en/sentences/show/4580512) | sacredceltic |  |  | tts |
+| S17018 | C'est l'amour. | This is love. | [#4548333](https://tatoeba.org/en/sentences/show/4548333) | sacredceltic |  |  | tts |
+| S17019 | Il est amoureux. | He's in love. | [#8660026](https://tatoeba.org/en/sentences/show/8660026) | Julien_PDC |  |  | tts |
+| S17025 | L'amour, c'est tout. | Love is everything. | [#4548482](https://tatoeba.org/en/sentences/show/4548482) | sacredceltic |  |  | tts |
+| S17026 | Je rêve chaque nuit. | I dream every night. | [#5558984](https://tatoeba.org/en/sentences/show/5558984) | sacredceltic |  |  | tts |
+| S17027 | Je rêve en français. | I dream in French. | [#6465337](https://tatoeba.org/en/sentences/show/6465337) | Aiji |  |  | tts |
+| S17028 | Ils ont un rêve. | They have a dream. | [#7028855](https://tatoeba.org/en/sentences/show/7028855) | Aiji |  |  | tts |
+| S17030 | C'est beau, l'amour. | Love is beautiful. | [#11327171](https://tatoeba.org/en/sentences/show/11327171) | Rovo |  |  | tts |
 | S11301 | Regarde le film. | Watch the movie. | [#11837599](https://tatoeba.org/en/sentences/show/11837599) | Amastan |  |  | tts |
 | S11302 | Je regarde un film. | I'm watching a movie. | [#3667118](https://tatoeba.org/en/sentences/show/3667118) | fleur74 |  |  | tts |
 | S11303 | Il va regarder un film. | He's going to watch a movie. | [#4075959](https://tatoeba.org/en/sentences/show/4075959) | Amastan |  |  | tts |
@@ -2500,6 +3092,75 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S11332 | J'aime lire des livres. | I like reading books. | [#127542](https://tatoeba.org/en/sentences/show/127542) | sysko |  |  | tts |
 | S11333 | C'est un livre à lire. | This is a book to read. | [#488739](https://tatoeba.org/en/sentences/show/488739) | sacredceltic |  |  | tts |
 | S11334 | Je ne vais pas regarder. | I'm not going to look. | [#4862750](https://tatoeba.org/en/sentences/show/4862750) | sacredceltic |  |  | tts |
+| S15602 | Est-ce que je dérange ? | Am I intruding? | [#7713712](https://tatoeba.org/en/sentences/show/7713712) | sacredceltic |  |  | tts |
+| S15603 | Quelle est la raison ? | What's the reason? | [#751900](https://tatoeba.org/en/sentences/show/751900) | U2FS |  |  | tts |
+| S15604 | Est-ce que je te dérange ? | Am I bothering you? | [#2025038](https://tatoeba.org/en/sentences/show/2025038) | sacredceltic |  |  | tts |
+| S15605 | Merci pour ta peine. | Thank you for your trouble. | [#838125](https://tatoeba.org/en/sentences/show/838125) | sacredceltic |  |  | tts |
+| S15606 | C'est une bonne raison. | That's a good reason. | [#3599334](https://tatoeba.org/en/sentences/show/3599334) | sacredceltic |  |  | tts |
+| S15607 | Désolé de vous déranger. | Sorry to disturb you. | [#7267148](https://tatoeba.org/en/sentences/show/7267148) | Aiji |  |  | tts |
+| S15608 | Excusez-moi de vous déranger. | Excuse me for bothering you. | [#7581945](https://tatoeba.org/en/sentences/show/7581945) | felix63 |  |  | tts |
+| S15609 | Je ne vais pas vous déranger. | I won't bother you. | [#455701](https://tatoeba.org/en/sentences/show/455701) | chtof |  |  | tts |
+| S15610 | Il y a une autre raison. | There's another reason. | [#5644272](https://tatoeba.org/en/sentences/show/5644272) | narnar |  |  | tts |
+| S15611 | Est-ce que je vous dérange ? | Am I bothering you? | [#2025040](https://tatoeba.org/en/sentences/show/2025040) | sacredceltic |  |  | tts |
+| S15612 | Est-ce que ça te dérange ? | Does that trouble you? | [#5403592](https://tatoeba.org/en/sentences/show/5403592) | Aiji |  |  | tts |
+| S15613 | Bonjour, je vous dérange ? | Good morning, am I disturbing you? | [#5638387](https://tatoeba.org/en/sentences/show/5638387) | Blabla |  |  | tts |
+| S15614 | Ça ne te dérange pas ? | Doesn't that bother you? | [#7681080](https://tatoeba.org/en/sentences/show/7681080) | Blabla |  |  | tts |
+| S15615 | Ça ne dérange personne. | It's not bothering anyone. | [#3526713](https://tatoeba.org/en/sentences/show/3526713) | sacredceltic |  |  | tts |
+| S15616 | Ça me dérange vraiment. | That really bothers me. | [#3693563](https://tatoeba.org/en/sentences/show/3693563) | Elliv |  |  | tts |
+| S15617 | Je ne vous dérange pas. | I'm not disturbing you. | [#1964517](https://tatoeba.org/en/sentences/show/1964517) | Amastan |  |  | tts |
+| S15618 | Ça ne me dérange pas. | I don't mind it. | [#4403946](https://tatoeba.org/en/sentences/show/4403946) | sacredceltic |  |  | tts |
+| S15619 | C'est ce qui me dérange. | That's what bothers me. | [#6560538](https://tatoeba.org/en/sentences/show/6560538) | Aiji |  |  | tts |
+| S15620 | Je suis désolée de te déranger. | Sorry to trouble you. | [#896946](https://tatoeba.org/en/sentences/show/896946) | Aiji |  |  | tts |
+| S15621 | Je suis désolé de vous déranger. | I'm sorry to bother you. | [#2334371](https://tatoeba.org/en/sentences/show/2334371) | sacredceltic |  |  | tts |
+| S15624 | Ça ne me dérange pas d'aider. | I don't mind helping. | [#2037137](https://tatoeba.org/en/sentences/show/2037137) | sacredceltic |  |  | tts |
+| S15625 | Je n'ai aucune raison de rester. | I've got no reason to stay. | [#2371907](https://tatoeba.org/en/sentences/show/2371907) | sacredceltic |  |  | tts |
+| S15626 | Je suis ici pour une autre raison. | I'm here for another reason. | [#2787427](https://tatoeba.org/en/sentences/show/2787427) | nimfeo |  |  | tts |
+| S15628 | Je suis désolé si je te dérange. | I'm sorry if I'm bothering you. | [#5158276](https://tatoeba.org/en/sentences/show/5158276) | Ceriz |  |  | tts |
+| S15629 | Ce n'est pas une bonne raison. | This isn't a good reason. | [#5504023](https://tatoeba.org/en/sentences/show/5504023) | alexisslay |  |  | tts |
+| S15630 | Ce n'est pas la seule raison. | That's not the only reason. | [#6067040](https://tatoeba.org/en/sentences/show/6067040) | Aiji |  |  | tts |
+| S16201 | Parce qu'il est là. | Because he is there. | [#792461](https://tatoeba.org/en/sentences/show/792461) | sacredceltic |  |  | tts |
+| S16202 | C'est parce qu'il m'aime. | It's because he loves me. | [#2021714](https://tatoeba.org/en/sentences/show/2021714) | sacredceltic |  |  | tts |
+| S16203 | C'est parce qu'elle m'aime. | It's because she loves me. | [#2021715](https://tatoeba.org/en/sentences/show/2021715) | sacredceltic |  |  | tts |
+| S16204 | Tu dis ? | What? | [#1850006](https://tatoeba.org/en/sentences/show/1850006) | sacredceltic |  |  | tts |
+| S16205 | Vous dites ? | What? | [#1850007](https://tatoeba.org/en/sentences/show/1850007) | sacredceltic |  |  | tts |
+| S16206 | Qu'est-ce que tu dis ? | What're you saying? | [#4580668](https://tatoeba.org/en/sentences/show/4580668) | franlexcois |  |  | tts |
+| S16207 | Qu'est-ce que vous dites, monsieur ? | What are you saying, sir? | [#10516260](https://tatoeba.org/en/sentences/show/10516260) | madjidoumnia |  |  | tts |
+| S16208 | Et si je dis non ? | What if I say no? | [#2264939](https://tatoeba.org/en/sentences/show/2264939) | sacredceltic |  |  | tts |
+| S16209 | Ce n'est qu'un exemple. | That's just one example. | [#8365297](https://tatoeba.org/en/sentences/show/8365297) | Aiji |  |  | tts |
+| S16211 | C'est une phrase facile. | This is an easy sentence. | [#3641864](https://tatoeba.org/en/sentences/show/3641864) | sacredceltic |  |  | tts |
+| S16212 | Voici une autre phrase. | Here is another sentence. | [#8571150](https://tatoeba.org/en/sentences/show/8571150) | Aiji |  |  | tts |
+| S16213 | La phrase est bonne. | The sentence is good. | [#9866192](https://tatoeba.org/en/sentences/show/9866192) | felix63 |  |  | tts |
+| S16214 | Tu es le meilleur exemple. | You're the best example. | [#8818334](https://tatoeba.org/en/sentences/show/8818334) | felix63 |  |  | tts |
+| S16215 | Vous êtes un bon exemple. | You're a good example. | [#8818337](https://tatoeba.org/en/sentences/show/8818337) | felix63 |  |  | tts |
+| S16216 | Pourquoi tu me dis ça ? | Why are you telling me that? | [#7956428](https://tatoeba.org/en/sentences/show/7956428) | Micsmithel |  |  | tts |
+| S16217 | Tu crois qu'elle est vraiment désolée ? | Do you think she's really sorry? | [#11167814](https://tatoeba.org/en/sentences/show/11167814) | lbdx |  |  | tts |
+| S16222 | Je dis non. | I'm saying no. | [#3648122](https://tatoeba.org/en/sentences/show/3648122) | sacredceltic |  |  | tts |
+| S16223 | Comme vous dites. | As you say. | [#4720940](https://tatoeba.org/en/sentences/show/4720940) | gillux |  |  | tts |
+| S16227 | Qu'il est grand ! | How tall he is! | [#624700](https://tatoeba.org/en/sentences/show/624700) | qdii |  |  | tts |
+| S16230 | Je ne dis rien. | I said nothing. | [#2031148](https://tatoeba.org/en/sentences/show/2031148) | sacredceltic |  |  | tts |
+| S16601 | Tu veux partir ? | You want to go? | [#458684](https://tatoeba.org/en/sentences/show/458684) | sacredceltic |  |  | tts |
+| S16603 | Volontiers, pourquoi pas ? | Sure, why not? | [#1612510](https://tatoeba.org/en/sentences/show/1612510) | sacredceltic |  |  | tts |
+| S16604 | Qu'est-ce que tu veux ? | What do you want? | [#3256346](https://tatoeba.org/en/sentences/show/3256346) | nimfeo |  |  | tts |
+| S16605 | Oui, volontiers. | Sure, gladly. | [#560654](https://tatoeba.org/en/sentences/show/560654) | sacredceltic |  |  | tts |
+| S16606 | Je viens volontiers ! | I'll be happy to come! | [#4585965](https://tatoeba.org/en/sentences/show/4585965) | sacredceltic |  |  | tts |
+| S16607 | Tu veux voir ? | You want to see? | [#6096454](https://tatoeba.org/en/sentences/show/6096454) | Blabla |  |  | tts |
+| S16608 | Tu veux aider ? | Do you want to help? | [#8666752](https://tatoeba.org/en/sentences/show/8666752) | Micsmithel |  |  | tts |
+| S16609 | Tu veux jouer ? | Do you want to play? | [#8666754](https://tatoeba.org/en/sentences/show/8666754) | Micsmithel |  |  | tts |
+| S16610 | Tu veux entrer ? | Would you like to come inside? | [#8666833](https://tatoeba.org/en/sentences/show/8666833) | Micsmithel |  |  | tts |
+| S16611 | Tu veux ça ? | You want this? | [#13546054](https://tatoeba.org/en/sentences/show/13546054) | Jozumaki |  |  | tts |
+| S16613 | Est-ce que tu veux boire ? | Do you want to drink? | [#4259010](https://tatoeba.org/en/sentences/show/4259010) | Aiji |  |  | tts |
+| S16615 | Tu veux aller nager ? | Do you want to go for a swim? | [#5329195](https://tatoeba.org/en/sentences/show/5329195) | Aiji |  |  | tts |
+| S16616 | Tu veux lui dire ? | Do you want to tell her? | [#6008441](https://tatoeba.org/en/sentences/show/6008441) | Fabimoto |  |  | tts |
+| S16617 | Tu veux une bière ? | Would you like a beer? | [#7691556](https://tatoeba.org/en/sentences/show/7691556) | Maxence |  |  | tts |
+| S16618 | Tu veux une salade ? | Do you want a salad? | [#7771195](https://tatoeba.org/en/sentences/show/7771195) | Aiji |  |  | tts |
+| S16619 | Qu'est-ce que tu veux changer ? | What do you want to change? | [#7849184](https://tatoeba.org/en/sentences/show/7849184) | Aiji |  |  | tts |
+| S16620 | Pourquoi tu veux ça ? | Why do you want that? | [#8098842](https://tatoeba.org/en/sentences/show/8098842) | felix63 |  |  | tts |
+| S16622 | Tu veux une pomme ? | Want an apple? | [#8703350](https://tatoeba.org/en/sentences/show/8703350) | Julien_PDC |  |  | tts |
+| S16626 | Tu veux venir avec moi ? | Do you want to go with me? | [#4260175](https://tatoeba.org/en/sentences/show/4260175) | gillux |  |  | tts |
+| S16627 | Tu veux de l'eau ? | Do you want some water? | [#5416496](https://tatoeba.org/en/sentences/show/5416496) | pititnatole |  |  | tts |
+| S16628 | Qu'est-ce que tu veux faire maintenant ? | What do you want to do now? | [#5626282](https://tatoeba.org/en/sentences/show/5626282) | olivier |  |  | tts |
+| S16629 | Donc, qu'est-ce que tu veux dire ? | So, what do you mean? | [#5726762](https://tatoeba.org/en/sentences/show/5726762) | Aiji |  |  | tts |
+| S16630 | Qu'est-ce que tu veux lui acheter ? | What do you want to buy for her? | [#6394597](https://tatoeba.org/en/sentences/show/6394597) | nimfeo |  |  | tts |
 | S11401 | Elle est heureuse et contente. | She's happy and satisfied. | [#1684820](https://tatoeba.org/en/sentences/show/1684820) | sacredceltic |  |  | tts |
 | S11402 | Je suis heureux et content. | I'm happy and satisfied. | [#1684822](https://tatoeba.org/en/sentences/show/1684822) | sacredceltic |  |  | tts |
 | S11403 | Vous habitez seul ? | Do you live alone? | [#6219294](https://tatoeba.org/en/sentences/show/6219294) | Aiji |  |  | tts |
@@ -3841,6 +4502,19 @@ Decision "confirm" means Dan accepted a match the automatic test did not pass. E
 | S95223 | J'apprends beaucoup de langues. | I am learning many languages. | [#10693685](https://tatoeba.org/en/sentences/show/10693685) | carlosalberto | confirm |  | tts |
 | S95224 | J'apprends deux langues. | I'm learning two languages. | [#11355586](https://tatoeba.org/en/sentences/show/11355586) | twentyplus | confirm |  | tts |
 | S95225 | Personne ne veut changer. | No one wants to change. | [#13027508](https://tatoeba.org/en/sentences/show/13027508) | LdjuherTaqvaylit | confirm |  | tts |
+| S15465 | Je ne te connais pas. | I don't know you. | [#464100](https://tatoeba.org/en/sentences/show/464100) | sacredceltic |  |  | tts |
+| S15475 | Ce n'est pas grave. | It doesn't matter. | [#333722](https://tatoeba.org/en/sentences/show/333722) | sysko |  |  | lingua_libre |
+| S15477 | Ce livre n'est pas à moi. | This book isn't mine. | [#10513876](https://tatoeba.org/en/sentences/show/10513876) | lbdx |  |  | tts |
+| S15664 | Tu as raison. | You're right. | [#3640](https://tatoeba.org/en/sentences/show/3640) | TRANG |  |  | lingua_libre |
+| S15665 | Vous avez raison. | You're right. | [#2071330](https://tatoeba.org/en/sentences/show/2071330) | Amastan |  |  | tts |
+| S15765 | Comment s'appelle ta mère ? | What's your mother's name? | [#2379710](https://tatoeba.org/en/sentences/show/2379710) | Amastan |  |  | tts |
+| S15870 | La clé est sur la table. | The key is on the table. | [#2552613](https://tatoeba.org/en/sentences/show/2552613) | Julien_PDC |  |  | tts |
+| S16071 | Qu'est-ce que tu fais ? | What are you doing? | [#3093](https://tatoeba.org/en/sentences/show/3093) | brauliobezerra |  |  | tts |
+| S16266 | Je ne comprends pas la phrase. | I don't understand the sentence. | [#6031133](https://tatoeba.org/en/sentences/show/6031133) | christian63 |  |  | tts |
+| S16662 | Oui, avec plaisir ! | Yes, with pleasure! | [#2131509](https://tatoeba.org/en/sentences/show/2131509) | sacredceltic |  |  | tts |
+| S16664 | Je n'ai pas envie de sortir. | I don't feel like going out. | [#588128](https://tatoeba.org/en/sentences/show/588128) | sacredceltic |  |  | tts |
+| S16863 | Je suis né ici. | I was born here. | [#4579565](https://tatoeba.org/en/sentences/show/4579565) | sacredceltic |  |  | tts |
+| S16876 | Quelle est votre adresse ? | What's your address? | [#3627274](https://tatoeba.org/en/sentences/show/3627274) | sacredceltic |  |  | tts |
 
 ## Off in the workbook (71)
 
@@ -3920,7 +4594,7 @@ Set to off by the workbook owner. Not shipped.
 | S7729 | À elle. | It's her turn. | pulled from Tatoeba under content_pull |
 | S7730 | À trois ! | On the count of three! | pulled from Tatoeba under content_pull |
 
-## English-to-French answers generated from Tatoeba (457)
+## English-to-French answers generated from Tatoeba (480)
 
 Other French sentences Tatoeba links to the same English, passing the same native-owner or OK-tag test. Accepted on typed English-to-French questions alongside the main sentence.
 
@@ -3998,6 +4672,29 @@ Other French sentences Tatoeba links to the same English, passing the same nativ
 | S15261 | I'll tell you a story. | Je vous raconterai une histoire. | [#1175692](https://tatoeba.org/en/sentences/show/1175692) | sacredceltic |
 | S15364 | I hope you're well. | J'espère que tu te portes bien. | [#5167460](https://tatoeba.org/en/sentences/show/5167460) | sacredceltic |
 | S15364 | I hope you're well. | J'espère que vous vous portez bien. | [#5167459](https://tatoeba.org/en/sentences/show/5167459) | sacredceltic |
+| S15462 | I'll tell you a story. | Je te raconterai une histoire. | [#1175693](https://tatoeba.org/en/sentences/show/1175693) | sacredceltic |
+| S15462 | I'll tell you a story. | Je vais te raconter une histoire. | [#13951](https://tatoeba.org/en/sentences/show/13951) | Julien_PDC |
+| S15462 | I'll tell you a story. | Je vous raconterai une histoire. | [#1175692](https://tatoeba.org/en/sentences/show/1175692) | sacredceltic |
+| S15762 | Do you have a brother? | As-tu un frère ? | [#7315792](https://tatoeba.org/en/sentences/show/7315792) | felix63 |
+| S15862 | Where's the bathroom? | Où sont les toilettes ? | [#3946](https://tatoeba.org/en/sentences/show/3946) | TRANG |
+| S15872 | I'm in the bathroom. | Je suis dans la salle de bains. | [#7872816](https://tatoeba.org/en/sentences/show/7872816) | Aiji |
+| S15963 | Are you coming to the party? | Est-ce que vous viendrez à la fête ? | [#13058](https://tatoeba.org/en/sentences/show/13058) | mouche |
+| S15963 | Are you coming to the party? | Viendras-tu à la fête ? | [#834777](https://tatoeba.org/en/sentences/show/834777) | sacredceltic |
+| S15963 | Are you coming to the party? | Viendrez-vous à la fête ? | [#834778](https://tatoeba.org/en/sentences/show/834778) | sacredceltic |
+| S16073 | I like cooking. | J'aime cuisiner. | [#3634410](https://tatoeba.org/en/sentences/show/3634410) | sacredceltic |
+| S16265 | How do you say that in French? | Comment dis-tu ça en français ? | [#5865608](https://tatoeba.org/en/sentences/show/5865608) | Aiji |
+| S16265 | How do you say that in French? | Comment dites-vous cela en français ? | [#5865610](https://tatoeba.org/en/sentences/show/5865610) | Aiji |
+| S16364 | Does it hurt? | Cela fait-il mal ? | [#1664159](https://tatoeba.org/en/sentences/show/1664159) | sacredceltic |
+| S16364 | Does it hurt? | Est-ce que ça fait mal ? | [#1664161](https://tatoeba.org/en/sentences/show/1664161) | sacredceltic |
+| S16666 | I'd like that. | Ça me plairait. | [#9989791](https://tatoeba.org/en/sentences/show/9989791) | Micsmithel |
+| S16666 | I'd like that. | J'aimerais bien ça. | [#9989790](https://tatoeba.org/en/sentences/show/9989790) | Micsmithel |
+| S16769 | I'd like to thank you. | J'aimerais te remercier. | [#7928330](https://tatoeba.org/en/sentences/show/7928330) | Aiji |
+| S16769 | I'd like to thank you. | J'aimerais vous remercier. | [#7928331](https://tatoeba.org/en/sentences/show/7928331) | Aiji |
+| S16864 | What is your job? | Quel est votre emploi ? | [#1509451](https://tatoeba.org/en/sentences/show/1509451) | Aiji |
+| S16865 | I'm a teacher. | Je suis enseignante. | [#3647780](https://tatoeba.org/en/sentences/show/3647780) | gillux |
+| S16865 | I'm a teacher. | Je suis professeur. | [#6641](https://tatoeba.org/en/sentences/show/6641) | Cocorico |
+| S16874 | Are you married or single? | Êtes-vous marié ou célibataire ? | [#11580](https://tatoeba.org/en/sentences/show/11580) | Archibald |
+| S16971 | Can we meet tomorrow? | Est-ce qu'on peut se voir demain ? | [#10890204](https://tatoeba.org/en/sentences/show/10890204) | Aiji |
 | S2003 | Are they here? | Elles sont ici ? | [#5259932](https://tatoeba.org/en/sentences/show/5259932) | Iriep |
 | S2003 | Are they here? | Elles sont là ? | [#5259909](https://tatoeba.org/en/sentences/show/5259909) | Iriep |
 | S2003 | Are they here? | Ils sont là ? | [#5240676](https://tatoeba.org/en/sentences/show/5240676) | Iriep |
@@ -4400,7 +5097,7 @@ Checked against Tatoeba: same French from a trusted owner, linked to the listed 
 | FB51 | Pas tout à fait. | Not quite. | flagged |  | Tatoeba links other English: Not exactly. |
 | FB52 | D'accord, on continue. | Okay, let's keep going. | flagged |  | not in Tatoeba from a trusted owner |
 
-## Lingua Libre recordings (30)
+## Lingua Libre recordings (36)
 
 | ID | French | File | License | Recordings found |
 | --- | --- | --- | --- | --- |
@@ -4428,9 +5125,15 @@ Checked against Tatoeba: same French from a trusted owner, linked to the listed 
 | S10206 | Bon anniversaire ! | [LL-Q150 (fra)-LoquaxFR-bon anniversaire.wav](https://upload.wikimedia.org/wikipedia/commons/1/1f/LL-Q150_%2528fra%2529-LoquaxFR-bon_anniversaire.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
 | S10207 | Bonne année ! | [LL-Q150 (fra)-Fabricio Cardenas (Culex)-bonne année.wav](https://upload.wikimedia.org/wikipedia/commons/4/48/LL-Q150_%2528fra%2529-Fabricio_Cardenas_%2528Culex%2529-bonne_ann%25C3%25A9e.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 3 |
 | S10824 | Merci beaucoup ! | [LL-Q150 (fra)-Justforoc-merci beaucoup.wav](https://upload.wikimedia.org/wikipedia/commons/a/a0/LL-Q150_%2528fra%2529-Justforoc-merci_beaucoup.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 3 |
+| S15909 | Bonne journée ! | [LL-Q150 (fra)-LoquaxFR-bonne journée.wav](https://upload.wikimedia.org/wikipedia/commons/d/d6/LL-Q150_%2528fra%2529-LoquaxFR-bonne_journ%25C3%25A9e.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
+| S15911 | Bonne soirée. | [LL-Q150 (fra)-LoquaxFR-bonne soirée.wav](https://upload.wikimedia.org/wikipedia/commons/2/2e/LL-Q150_%2528fra%2529-LoquaxFR-bonne_soir%25C3%25A9e.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
+| S16703 | Bonne chance ! | [LL-Q150 (fra)-LoquaxFR-bonne chance.wav](https://upload.wikimedia.org/wikipedia/commons/d/d6/LL-Q150_%2528fra%2529-LoquaxFR-bonne_chance.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
+| S16704 | Avec plaisir. | [LL-Q150 (fra)-LoquaxFR-avec plaisir.wav](https://upload.wikimedia.org/wikipedia/commons/4/42/LL-Q150_%2528fra%2529-LoquaxFR-avec_plaisir.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
 | S11312 | Bon voyage ! | [LL-Q150 (fra)-LoquaxFR-bon voyage.wav](https://upload.wikimedia.org/wikipedia/commons/0/03/LL-Q150_%2528fra%2529-LoquaxFR-bon_voyage.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
 | S12006 | À plus tard ! | [LL-Q150 (fra)-LoquaxFR-à plus tard.wav](https://upload.wikimedia.org/wikipedia/commons/6/63/LL-Q150_%2528fra%2529-LoquaxFR-%25C3%25A0_plus_tard.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |
 | S12114 | À la prochaine ! | [LL-Q150 (fra)-LoquaxFR-à la prochaine.wav](https://upload.wikimedia.org/wikipedia/commons/e/e5/LL-Q150_%2528fra%2529-LoquaxFR-%25C3%25A0_la_prochaine.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 3 |
 | S13763 | J'ai soif. | [LL-Q150 (fra)-Justforoc-J'ai soif.wav](https://upload.wikimedia.org/wikipedia/commons/0/07/LL-Q150_%2528fra%2529-Justforoc-J%2527ai_soif.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 1 |
 | S13867 | J'ai faim. | [LL-Q150 (fra)-Justforoc-J'ai faim.wav](https://upload.wikimedia.org/wikipedia/commons/0/09/LL-Q150_%2528fra%2529-Justforoc-J%2527ai_faim.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 1 |
 | S72218 | Et toi ? | [LL-Q150 (fra)-XANA000-et toi ?.wav](https://upload.wikimedia.org/wikipedia/commons/9/98/LL-Q150_%2528fra%2529-XANA000-et_toi_%253F.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC0 | 1 |
+| S15475 | Ce n'est pas grave. | [LL-Q150 (fra)-LoquaxFR-ce n’est pas grave.wav](https://upload.wikimedia.org/wikipedia/commons/1/1d/LL-Q150_%2528fra%2529-LoquaxFR-ce_n%25E2%2580%2599est_pas_grave.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 1 |
+| S15664 | Tu as raison. | [LL-Q150 (fra)-LoquaxFR-tu as raison.wav](https://upload.wikimedia.org/wikipedia/commons/7/74/LL-Q150_%2528fra%2529-LoquaxFR-tu_as_raison.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original) | CC BY-SA 4.0 | 2 |

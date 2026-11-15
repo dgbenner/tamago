@@ -555,7 +555,7 @@ export default function App() {
   }, [newlyDone])
   // The final A1 check: four parts over every A1 unit's sentences, modeled on the course's A1 exam (finalcheck.js).
   const mainUnitIds = layout.filter((t) => !isTopicNode(t.unit_id)).map((t) => t.unit_id)
-  const startFinal = () => begin(buildSession(allContent, 'final', finalItems(allContent, mainUnitIds), { settings: lessonModes() }))
+  const startFinal = () => begin(buildSession(allContent, 'final', finalItems(allContent, mainUnitIds, Math.random, course.id), { settings: lessonModes() }))
   // Conversations (2026-11-10). Help phrases follow the help circles opened (1 to 3); scenes open once the second help
   // circle has had its first lessons. Claude gets the learner's words and the course's A1 words, as forms only.
   const helpIds = ['U31', 'U32', 'U33'].filter((id) => tables.units.some((u) => u.unit_id === id && String(u.status).startsWith('live')))
@@ -656,7 +656,7 @@ export default function App() {
     let next = session
     if (session.kind === 'placement' && first) next = { ...next, placement: [...(next.placement ?? []), { unit_id: q.unit_id, correct: result.correct }] }
     // The final check scores each part from first attempts (speaking counted as done, never graded).
-    if (first && q.part) next = { ...next, results: [...(next.results ?? []), { part: q.part, correct: Boolean(result.correct), speaking: Boolean(q.speaking) }] }
+    if (first && q.part) next = { ...next, results: [...(next.results ?? []), { part: q.part, correct: Boolean(result.correct), speaking: Boolean(q.speaking), ungraded: Boolean(q.ungraded) }] }
     // Speaking is never graded: it earns a point when done (R14) and stays out of the score and the pass.
     if (q.speaking || q.ungraded) {
       addPoint()

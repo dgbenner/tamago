@@ -1,0 +1,742 @@
+{
+  "unit_id": "U508",
+  "pulled_at": "2026-11-15",
+  "candidates": 27,
+  "sentences": [
+    {
+      "sentence_id": "S16801",
+      "unit_id": "U508",
+      "french": "Quelle est votre nationalité ?",
+      "english": "What's your nationality?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3077607",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "What nationality are you?",
+        "What is your nationality?"
+      ]
+    },
+    {
+      "sentence_id": "S16802",
+      "unit_id": "U508",
+      "french": "Quelle est ta nationalité ?",
+      "english": "What's your nationality?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3077609",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "What nationality are you?",
+        "What is your nationality?"
+      ]
+    },
+    {
+      "sentence_id": "S16803",
+      "unit_id": "U508",
+      "french": "Quelle est ta date de naissance ?",
+      "english": "What's your date of birth?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "844084",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "RaspaKrusto",
+      "other_english": [
+        "What is your date of birth?"
+      ]
+    },
+    {
+      "sentence_id": "S16805",
+      "unit_id": "U508",
+      "french": "Quelle est votre date de naissance ?",
+      "english": "What's your date of birth?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3996950",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "What is your date of birth?"
+      ]
+    },
+    {
+      "sentence_id": "S16806",
+      "unit_id": "U508",
+      "french": "Bonjour Mademoiselle !",
+      "english": "Hello Miss!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "482477",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S16807",
+      "unit_id": "U508",
+      "french": "Bonne nuit, Mademoiselle.",
+      "english": "Good night, miss.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5238904",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martin9",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S16808",
+      "unit_id": "U508",
+      "french": "Je suis célibataire.",
+      "english": "I'm single.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13850",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I'm unmarried.",
+        "I am single.",
+        "I'm a bachelor.",
+        "I am a bachelor."
+      ]
+    },
+    {
+      "sentence_id": "S16809",
+      "unit_id": "U508",
+      "french": "Il est célibataire.",
+      "english": "He is unmarried.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1073399",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S16814",
+      "unit_id": "U508",
+      "french": "Ce n'est pas ma signature.",
+      "english": "That's not my signature.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4855527",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S16815",
+      "unit_id": "U508",
+      "french": "La banque a besoin de votre signature.",
+      "english": "The bank needs your signature.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3260197",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S16817",
+      "unit_id": "U508",
+      "french": "Tu es célibataire.",
+      "english": "You're single.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4655510",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S16819",
+      "unit_id": "U508",
+      "french": "Il est toujours célibataire.",
+      "english": "He's still single.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2186858",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S16824",
+      "unit_id": "U508",
+      "french": "Il est jeune et célibataire.",
+      "english": "He's young and single.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2200761",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S16801",
+      "position": 1,
+      "surface": "Quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16801",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16801",
+      "position": 3,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16801",
+      "position": 4,
+      "surface": "nationalité",
+      "word_id": "W2069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16802",
+      "position": 1,
+      "surface": "Quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16802",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16802",
+      "position": 3,
+      "surface": "ta",
+      "word_id": "W425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16802",
+      "position": 4,
+      "surface": "nationalité",
+      "word_id": "W2069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16803",
+      "position": 1,
+      "surface": "Quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16803",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16803",
+      "position": 3,
+      "surface": "ta",
+      "word_id": "W425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16803",
+      "position": 4,
+      "surface": "date",
+      "word_id": "W1243",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16803",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16803",
+      "position": 6,
+      "surface": "naissance",
+      "word_id": "W2072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16805",
+      "position": 1,
+      "surface": "Quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16805",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16805",
+      "position": 3,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16805",
+      "position": 4,
+      "surface": "date",
+      "word_id": "W1243",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16805",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16805",
+      "position": 6,
+      "surface": "naissance",
+      "word_id": "W2072",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16806",
+      "position": 1,
+      "surface": "Bonjour",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16806",
+      "position": 2,
+      "surface": "Mademoiselle",
+      "word_id": "W2071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16807",
+      "position": 1,
+      "surface": "Bonne nuit",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16807",
+      "position": 2,
+      "surface": "Mademoiselle",
+      "word_id": "W2071",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16808",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16808",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16808",
+      "position": 3,
+      "surface": "célibataire",
+      "word_id": "W2074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16809",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16809",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16809",
+      "position": 3,
+      "surface": "célibataire",
+      "word_id": "W2074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16814",
+      "position": 1,
+      "surface": "Ce",
+      "word_id": "W2084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16814",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16814",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16814",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16814",
+      "position": 5,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16814",
+      "position": 6,
+      "surface": "signature",
+      "word_id": "W2075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16815",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16815",
+      "position": 2,
+      "surface": "banque",
+      "word_id": "W1651",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16815",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16815",
+      "position": 4,
+      "surface": "besoin",
+      "word_id": "W1665",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16815",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16815",
+      "position": 6,
+      "surface": "votre",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16815",
+      "position": 7,
+      "surface": "signature",
+      "word_id": "W2075",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16817",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16817",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16817",
+      "position": 3,
+      "surface": "célibataire",
+      "word_id": "W2074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16819",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16819",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16819",
+      "position": 3,
+      "surface": "toujours",
+      "word_id": "W1407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16819",
+      "position": 4,
+      "surface": "célibataire",
+      "word_id": "W2074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16824",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16824",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16824",
+      "position": 3,
+      "surface": "jeune",
+      "word_id": "W415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16824",
+      "position": 4,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S16824",
+      "position": 5,
+      "surface": "célibataire",
+      "word_id": "W2074",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A168011",
+      "sentence_id": "S16801",
+      "direction": "fr_to_en",
+      "answer": "What nationality are you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A168012",
+      "sentence_id": "S16801",
+      "direction": "fr_to_en",
+      "answer": "What is your nationality?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A168021",
+      "sentence_id": "S16802",
+      "direction": "fr_to_en",
+      "answer": "What nationality are you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A168022",
+      "sentence_id": "S16802",
+      "direction": "fr_to_en",
+      "answer": "What is your nationality?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A168031",
+      "sentence_id": "S16803",
+      "direction": "fr_to_en",
+      "answer": "What is your date of birth?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A168051",
+      "sentence_id": "S16805",
+      "direction": "fr_to_en",
+      "answer": "What is your date of birth?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A168081",
+      "sentence_id": "S16808",
+      "direction": "fr_to_en",
+      "answer": "I'm unmarried.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A168082",
+      "sentence_id": "S16808",
+      "direction": "fr_to_en",
+      "answer": "I am single.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A168083",
+      "sentence_id": "S16808",
+      "direction": "fr_to_en",
+      "answer": "I'm a bachelor.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A168084",
+      "sentence_id": "S16808",
+      "direction": "fr_to_en",
+      "answer": "I am a bachelor.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -342,6 +342,29 @@ test('final A1 check: four parts in exam order, the course\'s own A1 sentences, 
   assert.deepEqual(scores.speaking, { done: 1 })
 })
 
+// The French final check is a mock DELF A1 (Dan, 2026-11-15): its four papers in order, each with the task the paper
+// sets, A1 task items from every part, four reading texts of four kinds, the message written but not scored.
+test('French final check: a mock DELF A1 with numbers heard, four kinds of text, a form and a message', async () => {
+  const { finalItems, finalScores, partsFor } = await import('../src/lib/finalcheck.js')
+  const all = indexContent(tables)
+  const mains = tables.units.filter((u) => String(u.status).startsWith('live') && !['yes', 'node'].includes(u.is_topic_pick)).map((u) => u.unit_id)
+  const items = finalItems(all, mains, seeded(11), 'fr')
+  assert.deepEqual([...new Set(items.map((i) => i.part))], ['listening', 'reading', 'writing', 'speaking'])
+  assert.equal(items.length, partsFor('fr').flatMap((p) => p.items).reduce((n, [, , c]) => n + c, 0))
+  const of = (type) => items.filter((i) => i.type === type)
+  assert.ok(of('QT17').length === 4 && of('QT17').every((i) => i.part === 'listening' && i.a1))
+  assert.equal(new Set(of('QT14').map((i) => i.a1.kind)).size, 4, 'four kinds of text')
+  assert.ok(of('QT15').length === 1 && of('QT16').length === 1 && [...of('QT15'), ...of('QT16')].every((i) => i.part === 'writing'))
+  assert.equal(new Set(items.map((i) => i.sentence_id ?? i.a1.id)).size, items.length, 'nothing twice')
+  const s = buildSession(all, 'final', items, { rng: seeded(11) })
+  assert.equal(s.queue.length, items.length)
+  assert.equal(s.graded, items.filter((i) => i.part !== 'speaking' && i.type !== 'QT16').length)
+  const scores = finalScores([{ part: 'writing', correct: true }, { part: 'writing', correct: true, ungraded: true }])
+  assert.deepEqual(scores.writing, { right: 1, total: 1, written: 1 })
+  // Other courses keep the general format.
+  assert.ok(finalItems(all, mains, seeded(11), 'es').every((i) => !i.a1))
+})
+
 // Crash fix (playthrough audit, 2026-11-12): a later round for a learner who hasn't met its words (a topic pack, a Dev
 // jump) used to throw when no sentence fit a slot; it now falls back to a type a sentence supports.
 test('a later round never crashes for a learner who has met none of its words', () => {

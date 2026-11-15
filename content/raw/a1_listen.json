@@ -304,5 +304,77 @@
     "answer": "32",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "N501",
+    "unit_id": "U502",
+    "kind": "number",
+    "say": "Ma grand-mère a soixante-dix-huit ans.",
+    "answer": "78",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N502",
+    "unit_id": "U502",
+    "kind": "number",
+    "say": "Nous sommes cinq dans la famille.",
+    "answer": "5",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N503",
+    "unit_id": "U503",
+    "kind": "number",
+    "say": "L'appartement a quatre pièces.",
+    "answer": "4",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N504",
+    "unit_id": "U503",
+    "kind": "phone",
+    "say": "Mon numéro, c'est le zéro un, quarante-deux, trente, dix-huit, seize.",
+    "answer": "01 42 30 18 16",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N505",
+    "unit_id": "U505",
+    "kind": "time",
+    "say": "La réunion est à neuf heures et demie.",
+    "answer": "9:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N506",
+    "unit_id": "U505",
+    "kind": "date",
+    "say": "La réunion, c'est le douze mars.",
+    "answer": "12/3",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N507",
+    "unit_id": "U506",
+    "kind": "time",
+    "say": "L'examen commence à quatorze heures.",
+    "answer": "14:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N508",
+    "unit_id": "U506",
+    "kind": "number",
+    "say": "Faites l'exercice numéro sept.",
+    "answer": "7",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

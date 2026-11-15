@@ -395,8 +395,8 @@
     },
     {
       "unit_id": "U27",
-      "rule": "When you're lost: Excusez-moi, je suis perdu (a man), perdue (a woman). To check the way: C'est par ici ? C'est par là ? To ask for a map: il y a un plan de la ville ?",
-      "example_sentence_ids": "S14761;S14706;S14762",
+      "rule": "When you're lost: Excusez-moi, je suis perdu (a man), perdue (a woman). To check the way: C'est par ici ? C'est par là ? To ask for a map: je voudrais un plan de la ville.",
+      "example_sentence_ids": "S14761;S14706;S27201",
       "conjugation_lemma": "",
       "status": "live"
     },
@@ -438,7 +438,7 @@
     {
       "unit_id": "U94",
       "rule": "Telling and asking: raconter une histoire (tell a story), expliquer (explain), rire (laugh: je ris), téléphoner à quelqu'un (phone someone). Introducing someone: je vous présente Marie, je vous présente mon ami Paul.",
-      "example_sentence_ids": "S15263;S15261;S15265",
+      "example_sentence_ids": "S15263;S94201;S15265",
       "conjugation_lemma": "",
       "status": "live"
     },
@@ -467,6 +467,125 @@
       "unit_id": "U95",
       "rule": "Verbs of change: changer (change: tout change), devenir (become: ça devient difficile), décider (decide), apprendre (learn: j'apprends le français), arrêter (stop: arrête !), laisser (leave). J'espère que + a sentence: I hope that.",
       "example_sentence_ids": "S15364;S15362;S15361",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U501",
+      "rule": "Te is you, before the verb: je te connais, je te rappelle; before a vowel it becomes t'. Ne becomes n' before a vowel: je n'aime pas, il n'est pas là. Avoir with vous is vous avez: vous avez des enfants ? Connaître is to know a person or a place: je connais Paul, elle connaît la ville.",
+      "example_sentence_ids": "S15465;S15466;S15469",
+      "conjugation_lemma": "connaître",
+      "status": "live"
+    },
+    {
+      "unit_id": "U511",
+      "rule": "Family words: maman and papa (mum and dad), mon grand-père, ma grand-mère, mon oncle, ma tante, mon cousin. Mon copain, ma copine: my boyfriend, my girlfriend (mon petit copain is clearer); among friends they can also mean a friend.",
+      "example_sentence_ids": "S15501;S15565;S15567",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U521",
+      "rule": "Being polite: Je vous dérange ? Je te dérange ? (Am I disturbing you?) Désolé de vous déranger. Ce n'est pas la peine: there's no need. You're right is avoir raison: tu as raison, vous avez raison.",
+      "example_sentence_ids": "S15661;S15664;S15665",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U502",
+      "rule": "Talking about family: j'ai un frère et une sœur; ma mère, mon père, ma famille. Il est marié, elle est mariée (married agrees like other adjectives); mon mari, my husband. Âgé: old, of a person: mon père est âgé.",
+      "example_sentence_ids": "S15761;S15765;S15767",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U503",
+      "rule": "Vivre is to live: je vis, tu vis, il vit (je vis en ville). The rooms: la cuisine, la chambre, le salon (living room), la salle de bain (bathroom); une pièce is any room of a home. Where things are: la clé est sur la table.",
+      "example_sentence_ids": "S15825;S15862;S15866",
+      "conjugation_lemma": "vivre",
+      "status": "live"
+    },
+    {
+      "unit_id": "U512",
+      "rule": "Reflexive verbs take me, te, se before the verb: je me réveille, je me couche, il se repose, elle se prépare (gets ready). La journée is the whole day, la soirée the evening (bonne journée, bonne soirée). D'habitude: usually.",
+      "example_sentence_ids": "S15901;S15906;S15961",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U504",
+      "rule": "Housework: faire le ménage (do the housework), laver (wash: je lave la voiture), ranger (tidy, put away), garder (keep; look after: qui garde les enfants ?). Faire is to do or make: je fais, tu fais; qu'est-ce que tu fais ?",
+      "example_sentence_ids": "S16001;S16011;S16061",
+      "conjugation_lemma": "faire",
+      "status": "live"
+    },
+    {
+      "unit_id": "U505",
+      "rule": "Jobs take no article after être: il est journaliste, je suis secrétaire (but c'est un journaliste). At work: le bureau, le travail, une réunion (a meeting), un projet, mon patron, ma collègue. Avoir with nous and ils: nous avons une réunion, ils ont un projet.",
+      "example_sentence_ids": "S16101;S16113;S16161",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U522",
+      "rule": "Saying why: pourquoi ? parce que … (because); before a vowel, que becomes qu': parce qu'il est là. For example: par exemple. To check what someone said: qu'est-ce que tu dis ? vous dites ? comment on dit ça en français ?",
+      "example_sentence_ids": "S16202;S16209;S16261",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U513",
+      "rule": "Devoir + a verb is must, have to: je dois partir, il doit venir. Il faut (from falloir) says what has to be done, for everyone: il faut partir; il me faut du temps (I need time). Avoir mal: to hurt, j'ai mal à la tête. Le temps is time (and the weather): je n'ai pas le temps.",
+      "example_sentence_ids": "S16305;S16301;S16316",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U506",
+      "rule": "School and study: étudier (j'étudie les maths); le collège (secondary school, 11 to 15), le lycée (high school, 15 to 18), l'université. Être bon en: to be good at (je suis bon en maths). Un examen, un exercice, la réponse (the answer).",
+      "example_sentence_ids": "S16401;S16403;S16465",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U507",
+      "rule": "Messages: écrire (j'écris une lettre, un message, un mail), envoyer (to send: j'envoie un mail à Paul; tu peux m'envoyer un message ?). On the phone: allô ? c'est Marie.",
+      "example_sentence_ids": "S16526;S16528;S16561",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U523",
+      "rule": "Saying what you feel like: avoir envie de (tu as envie de venir ? je n'ai pas envie de sortir). Vouloir: je veux, tu veux (tu veux venir avec moi ?); je veux bien: yes, I'd like that. Accepting gladly: oui, volontiers ! avec plaisir !",
+      "example_sentence_ids": "S16605;S16626;S16661",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U514",
+      "rule": "Inviting and thanking: je t'invite (te becomes t' before a vowel); on va fêter ton anniversaire. Answers: avec plaisir ! (with pleasure). Thanks: je te remercie, je vous remercie. And bonne chance ! (good luck); tu as de la chance (you're lucky).",
+      "example_sentence_ids": "S16703;S16704;S16706",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U508",
+      "rule": "Filling in a form: nom (surname), prénom, date et lieu de naissance (date and place of birth), nationalité, profession, adresse, signature. Situation de famille: marié(e) or célibataire (single). Madame, Mademoiselle (Miss), Monsieur. Asking politely: votre nom, s'il vous plaît ?",
+      "example_sentence_ids": "S16801;S16803;S16862",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U509",
+      "rule": "Ending a message to a friend: je t'embrasse, bises (love), à bientôt. Revoir: to see again (j'espère te revoir). Se retrouver: to meet up (on se retrouve à la gare ?). Quitter: to leave a place (je quitte la maison à huit heures).",
+      "example_sentence_ids": "S16901;S16908;S16961",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U515",
+      "rule": "Love and dreams: être amoureux, amoureuse (de): to be in love (with); il est amoureux de Marie. L'amour, mon amour (my love). Rêver: to dream (je rêve chaque nuit; je rêve de voyager); un rêve. Le cœur: the heart (il a bon cœur: he's kind).",
+      "example_sentence_ids": "S17002;S17011;S17026",
       "conjugation_lemma": "",
       "status": "live"
     }
