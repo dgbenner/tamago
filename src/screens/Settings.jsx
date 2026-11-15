@@ -91,7 +91,7 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPlacem
         <Segmented label="Answer Checking" help="Lenient accepts a one-letter typo, a missing accent and a missing capital. Strict counts them wrong." value={settings.answer_strictness}
           options={[['lenient', 'Lenient'], ['strict', 'Strict']]} onChange={(v) => onChange({ answer_strictness: v })} />
         <Segmented label="Typed Answers" value={settings.typed_input} options={[['chips', 'Word Chips'], ['keyboard', 'Keyboard']]} onChange={(v) => onChange({ typed_input: v })} />
-        <Segmented label="Sounds" help="Soft sounds for buttons, matches and word chips, when they arrive." value={settings.sounds ?? 'on'}
+        <Segmented label="Sounds" help="Soft sounds for starting a lesson, Check and Continue, a matched pair and a word chip placed. Never on a wrong answer." value={settings.sounds ?? 'on'}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ sounds: v })} />
         <Segmented label="Listen First" help={`Audio plays with the ${course.name} hidden until you answer.`} value={settings.listen_first}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ listen_first: v })} />

@@ -813,3 +813,8 @@ Part 3, Lingua Libre recordings:
 - Phone tools: compact pill row (42 px, was 96).
 - Voice Lab: per-file tags (file:<path>), Rdrg109's "una" female; the picture follows file then person, Child per person.
 - Tests: word-hints.test.js (4), the una picture (1).
+
+## 2026-11-15: Interface sounds wired in (all courses)
+
+- Dan's Sound Lab picks: Soft swell (start a lesson from a circle), Warm thump (Check when right, Continue, Next Lesson), Two marimba notes (pair matched), Pebble (chip placed). audio.js cue; quiet bus, never over a recording or the device voice, cut off by any language audio; off with Sounds and reduced motion; no sound on wrong answers.
+- Checked in Chrome: each fires at its moment. test/cues.test.js (5).

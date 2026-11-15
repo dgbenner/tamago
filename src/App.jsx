@@ -5,7 +5,7 @@ import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, b
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
-import { hasFrenchVoice, stop } from './lib/audio.js'
+import { cue, hasFrenchVoice, setCues, stop } from './lib/audio.js'
 import Home from './screens/Home.jsx'
 import Lesson from './screens/Lesson.jsx'
 import Settings from './screens/Settings.jsx'
@@ -51,7 +51,7 @@ const DEFAULT_SETTINGS = {
   test_shortcuts: 'on', // Dan only for now; turn the default off before testers (Phase 4)
   developer: 'on', // the Developer entry in Tools; turn the default off before testers (#developer always opens it)
   points_and_streaks: defaults.points_and_streaks ?? 'on', weekly_goal: 'none',
-  sounds: 'on', // button and answer sounds (Dan, 2026-11-15): the setting is ready; no sounds play yet (/lab/sounds)
+  sounds: 'on', // interface sounds (Dan, 2026-11-15): audio.js cue; Off turns all four off
 }
 // Monday-start week, for the weekly goal.
 const weekStart = (d = new Date()) => { const x = new Date(d); x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); return x.toLocaleDateString('en-CA') }
@@ -293,6 +293,8 @@ export default function App() {
     lastScreen.current = screen
   }, [screen])
 
+  // The Sounds setting (Dan, 2026-11-15): Off silences all four interface sounds (audio.js cue).
+  useEffect(() => { setCues(settings.sounds !== 'off') }, [settings.sounds])
   const inLesson = screen === 'lesson' && !ending
   useEffect(() => {
     if (!inLesson) return
@@ -986,7 +988,7 @@ export default function App() {
       return (
         <main className="mx-auto flex min-h-dvh max-w-md flex-col justify-center gap-6 px-4">
           <p className="text-center text-xl">{ending.line}</p>
-          <button onClick={afterEnding} className="btn-primary">{ending.retry ? 'Try Again' : 'Continue'}</button>
+          <button onClick={() => { cue('button'); afterEnding() }} className="btn-primary">{ending.retry ? 'Try Again' : 'Continue'}</button>
           {ending.exam && <button onClick={() => { setEnding(null); setScreen('exam') }} className="btn-tertiary self-center">Ready for the Real Exam?</button>}
         </main>
       )

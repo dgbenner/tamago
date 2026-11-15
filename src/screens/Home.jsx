@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useId, useRef, useState } from 'react'
+import { cue } from '../lib/audio.js'
 import { LogoInline, SushiMark } from './Logo.jsx'
 import { IconBack, IconBars, IconBook, IconCode, IconCheckered, IconClose, IconComment, IconForward, IconGear, IconRepeat, IconStudy, IconVerb } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
@@ -517,7 +518,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
             // with the screen, so a row of three always fits the tree, titles included.
             <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
               {row.map((node) => <Node key={node.unit.unit_id} node={node} onTestPass={onTestPass}
-                onPick={(n) => (n.open && !n.topic ? onStartUnit(n.unit.unit_id) : setPicked(n))}
+                onPick={(n) => { if (n.open && !n.topic) { cue('start'); onStartUnit(n.unit.unit_id) } else setPicked(n) }}
                 onNote={node.open && !node.topic?.choosing && hasNote(node.unit.unit_id) ? () => setNotePicked(node) : null} />)}
             </li>,
             cp && <li key={`cp${i}`}><CheckpointNode cp={cp} onPick={setCpPicked} /></li>,
@@ -541,7 +542,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
       <div className="bar-bottom -mx-4 mt-auto flex flex-col gap-3 px-4 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))]">
         {/* Only Next Lesson is pinned; Practice Mistakes is a tool (Dan, 2026-11-11). */}
         <div className="bottom-buttons">
-          <button onClick={onNext} className="btn-submit">{nextLabel}</button>
+          <button onClick={() => { cue('button'); onNext() }} className="btn-submit">{nextLabel}</button>
         </div>
       </div>
 

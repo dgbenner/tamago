@@ -6,7 +6,7 @@ import { startPairs, tapPair } from '../lib/match-pairs.js'
 import { accentMisses, checkTyped, diffMarks } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
-import { audioKey, courseVoiceName, filesIn, play, preload, stop } from '../lib/audio.js'
+import { audioKey, courseVoiceName, cue, filesIn, play, preload, stop } from '../lib/audio.js'
 import { whoSpeaks } from '../lib/voice-gender.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconMic, IconSpeaker, IconWhy } from './icons.jsx'
 import { questionLabel } from '../lib/question-names.js'
@@ -68,11 +68,15 @@ export default function Lesson({ session, content, settings, seenWords, cantList
     // The verdict is one word, Right! or Incorrect (Dan, 2026-11-12); the rotating feedback lines (R18) are gone.
     const phrase = null
     const full = { ...r, hidden: hideFrench && !wordsShown, wordsShown, phrase }
+    // Interface sounds (Dan, 2026-11-15): Check gets the button's sound only when right, never on a wrong answer; Match
+    // Pairs has its own sound per pair, so its finish gets none.
+    if (r.correct && q.type !== 'QT01' && !r.testSkip) cue('button')
     setResult(full)
     onAnswer(q, full)
   }
 
   const advance = () => {
+    cue('button') // Continue
     const nextIndex = session.index + 1
     setResult(null)
     if (nextIndex >= session.queue.length) onFinish(session)
@@ -485,6 +489,7 @@ function MatchPairs({ q, result, onAnswer, newWords, cantListen }) {
   const tap = (side, value) => {
     const { state: next, outcome, form: f } = tapPair(st, q.pairs, side, value)
     setSt(next)
+    if (outcome === 'match') cue('match') // skipped when the word just tapped is playing (audio.js)
     if (outcome === 'match' && next.matched.length === q.pairs.length) {
       // The last pair animates out like the others before the answer bar comes; nothing is left on the board.
       setRevealed(null)
@@ -609,7 +614,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
   useEffect(() => { setTyped('') }, [q.qid])
   useEffect(() => {
     if (typing || result || !q.chips) return undefined
-    const place = (i) => { setPicked((p) => [...p, i]); setTyped('') }
+    const place = (i) => { setPicked((p) => [...p, i]); setTyped(''); cue('slot') }
     const onKey = (e) => {
       if (e.metaKey || e.ctrlKey || e.altKey || e.repeat) return
       const t = e.target
@@ -673,7 +678,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
           <div ref={drag.bankRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label="Words to choose from" className={`flex flex-wrap gap-2 rounded-xl ${drag.over === 'bank' ? 'drop-bank' : ''}`}>
             {q.chips.map((chip, i) => (
               <button key={i} data-drag-chip disabled={picked.includes(i) || Boolean(result)} onPointerDown={(e) => drag.begin(e, i)}
-                onClick={(e) => { if (drag.ate()) return; focusNeighbour(e.currentTarget); setTyped(''); setPicked([...picked, i]) }}
+                onClick={(e) => { if (drag.ate()) return; focusNeighbour(e.currentTarget); setTyped(''); setPicked([...picked, i]); cue('slot') }}
                 className={`chip chip-drag ${picked.includes(i) || drag.chip === i ? 'opacity-25' : ''} ${lit.has(i) ? 'chip-lit' : ''}`}>{chip}</button>
             ))}
           </div>
@@ -789,6 +794,7 @@ function useChipDrag({ picked, setPicked, chips, lang, disabled, onDrop }) {
     if (next.join() === before.join()) return
     dropped.current = next
     setPicked(next)
+    if (t.zone !== 'bank') cue('slot') // landing in the answer; taking a chip out is silent
     onDrop?.()
     const word = chips[d.chip]
     setSaid(t.zone === 'bank' ? `${word} taken out.` : `${word} placed, word ${next.indexOf(d.chip) + 1} of ${next.length}.`)

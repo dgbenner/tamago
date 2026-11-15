@@ -38,6 +38,7 @@ function setNow(key) { if (nowKey === key) return; nowKey = key; for (const fn o
 const outside = new Set()
 export function playOutside(el, key) {
   stop()
+  hushCues()
   const mine = job
   outside.add(el)
   el.onended = el.onpause = () => { if (mine === job) setNow(null) }
@@ -156,6 +157,76 @@ export function unlock() {
   for (const el of [...spare, ...players.values()]) if (el.paused) el.load?.()
 }
 if (typeof document !== 'undefined') for (const type of ['touchend', 'pointerup', 'click', 'keydown']) document.addEventListener(type, unlock, true)
+
+// ---- Interface sounds (Dan, 2026-11-15; picked in the Sound Lab, /lab/sounds) ----
+// Four soft sounds made in Web Audio, nothing licensed: start (tapping a circle to begin its lesson), button (Check
+// when right, Continue, Next Lesson), match (a pair matched), slot (a word chip landing in the answer). Never on a
+// wrong answer. Quiet (CUE_LEVEL, well under the levelled recordings) and short, on a bus of their own:
+//   - one is skipped while a recording or the device voice is going (anythingPlaying), and any course sound that
+//     starts cuts them off at once (play, speakLine, speakAll and stop call hushCues), so none sits over the language;
+//   - the Sounds setting turns them all off (setCues, from App), and so does reduced motion;
+//   - the ring switch: an iPhone on iOS 16.4 or later has the page in the playback session (main.jsx), so lessons are
+//     heard on silent, and Safari offers no way to read the switch; there they follow the setting only. An older
+//     iPhone gets a context of their own, which the switch silences, as it would any page's Web Audio.
+export const CUE_LEVEL = 0.32
+let cuesOn = true
+export const setCues = (on) => { cuesOn = Boolean(on) }
+let cueCtx // undefined: not tried; null: no Web Audio here
+let cueBus = null
+const cueContext = () => {
+  if (cueCtx === undefined) {
+    const Ctor = typeof window !== 'undefined' ? window.AudioContext ?? window.webkitAudioContext : null
+    try { cueCtx = context() ?? (Ctor ? new Ctor() : null) } catch { cueCtx = null }
+  }
+  return cueCtx
+}
+function hushCues() {
+  if (!cueBus) return
+  const c = cueCtx, bus = cueBus
+  cueBus = null
+  try { bus.gain.setTargetAtTime(0, c.currentTime, 0.006); setTimeout(() => bus.disconnect(), 120) } catch { /* gone already */ }
+}
+const reducedMotion = () => typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+function cueTone(c, dest, freq, { at = 0, partials = [[1, 1]], attack = 0.004, decay = 0.25, level = 0.5, type = 'sine', lowpass = null } = {}) {
+  const t = c.currentTime + at
+  let node = dest
+  if (lowpass) { const f = c.createBiquadFilter(); f.type = 'lowpass'; f.frequency.value = lowpass; f.connect(dest); node = f }
+  for (const [ratio, lvl] of partials) {
+    const o = c.createOscillator(), g = c.createGain(), d = decay / Math.sqrt(ratio)
+    o.type = type
+    o.frequency.setValueAtTime(freq * ratio, t)
+    g.gain.setValueAtTime(0.0001, t)
+    g.gain.exponentialRampToValueAtTime(level * lvl, t + attack)
+    g.gain.exponentialRampToValueAtTime(0.0001, t + attack + d)
+    o.connect(g).connect(node)
+    o.start(t); o.stop(t + attack + d + 0.05)
+  }
+}
+// The Sound Lab's recipes for Dan's four picks, unchanged.
+export const CUES = {
+  start: (c, d) => { for (const f of [261.63, 329.63, 392]) cueTone(c, d, f, { attack: 0.08, decay: 0.5, level: 0.16, lowpass: 1800 }) }, // Soft swell
+  button: (c, d) => cueTone(c, d, 160, { type: 'triangle', decay: 0.12, level: 0.6, lowpass: 900 }), // Warm thump
+  match: (c, d) => { cueTone(c, d, 523.25, { partials: [[1, 1], [4, 0.2]], decay: 0.3, level: 0.4 }); cueTone(c, d, 659.25, { at: 0.08, partials: [[1, 1], [4, 0.2]], decay: 0.4, level: 0.4 }) }, // Two marimba notes
+  slot: (c, d) => { cueTone(c, d, 1200, { decay: 0.04, level: 0.18 }); cueTone(c, d, 180, { decay: 0.06, level: 0.35, lowpass: 600 }) }, // Pebble
+}
+let lastCue = null
+export const lastCueName = () => lastCue
+if (typeof window !== 'undefined' && window.__tamagoAudio) window.__tamagoAudio.lastCue = lastCueName // for the browser checks
+export function cue(name) {
+  if (!cuesOn || reducedMotion() || !CUES[name] || anythingPlaying()) return false
+  const c = cueContext()
+  if (!c) return false
+  try {
+    if (c.state !== 'running') c.resume?.()?.catch?.(() => {})
+    hushCues()
+    cueBus = c.createGain()
+    cueBus.gain.value = CUE_LEVEL
+    cueBus.connect(c.destination)
+    CUES[name](c, cueBus)
+    lastCue = name
+    return true
+  } catch { return false }
+}
 
 // The recordings a question (or any content) refers to: every `file` under it, each once, in order.
 export function filesIn(value, found = []) {
@@ -312,6 +383,7 @@ export function stop() {
 
 export function play(audio, { slow = false } = {}) {
   stop()
+  hushCues() // the language starts: an interface sound never sits over it
   const mine = job
   if (!audio.file) { speak(audio, slow, mine); return }
   const c = context()
@@ -342,6 +414,7 @@ export function play(audio, { slow = false } = {}) {
 // Several French lines in a row (QT20 listening): the device voice queues them; onEnd fires after the last.
 export function speakAll(lines, { slow = false, onEnd } = {}) {
   stop()
+  hushCues()
   if (!('speechSynthesis' in window) || !lines.length) { onEnd?.(); return }
   whenVoiceFree(job, () => {
     const voice = frenchVoice()
@@ -362,6 +435,7 @@ export function speakAll(lines, { slow = false, onEnd } = {}) {
 // One line of a conversation (2026-11-10) at a chosen rate (slow, normal, natural); onEnd when it's spoken.
 export function speakLine(text, rate = 0.85, onEnd) {
   stop()
+  hushCues()
   if (!('speechSynthesis' in window) || !text) { onEnd?.(); return }
   const mine = job
   whenVoiceFree(mine, () => say(mine, text, rate, onEnd))
