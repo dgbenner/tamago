@@ -321,16 +321,18 @@ function genderFrom(section, pos, posIndex, definition) {
 
 const wordChecks = []
 for (const w of words) {
-  const entries = await french(w.form)
-  const section = await frenchWikitext(w.form)
   const pick = senses[w.word_id]
+  // via (2026-11-15): a verb with its pronoun joined on (asseyez-vous, assieds-toi) has no page of its own; its verb
+  // part's entry is read instead (asseyez: inflection of asseoir).
+  const entries = await french(pick?.via ?? w.form)
+  const section = await frenchWikitext(pick?.via ?? w.form)
   // match: text the definition contains; with exact, the whole definition (coin "corner", not "wedge, cornerpiece").
   const fits = (d) => (pick.exact ? d === pick.match : d.includes(pick.match))
   const entry = pick?.form_of ? null : entries.find((e) => e.pos === pick?.pos && (!pick.match || e.definitions.some(fits))) ?? (pick ? null : entries[0])
   const definition = entry && (pick?.match ? entry.definitions.find(fits) : entry.definitions[0])
   const row = {
     word_id: w.word_id, form: w.form, lemma: w.form, part_of_speech: '', gender: '', gloss: '', gloss_full: '', lemma_gloss: '',
-    wiktionary_url: `https://en.wiktionary.org/wiki/${title(w.form)}#${C.wiktionarySection}`,
+    wiktionary_url: `https://en.wiktionary.org/wiki/${title(pick?.via ?? w.form)}#${C.wiktionarySection}`,
     status: 'flagged', flag_reason: '', other_entries: [],
   }
   // A form Wiktionary's page files under another verb (trinkst sits under triften there): the pick names the lemma

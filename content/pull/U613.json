@@ -1,0 +1,632 @@
+{
+  "unit_id": "U613",
+  "pulled_at": "2026-11-15",
+  "candidates": 30,
+  "sentences": [
+    {
+      "sentence_id": "S18001",
+      "unit_id": "U613",
+      "french": "Est-ce que tu vois la reine ?",
+      "english": "Do you see the queen?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2366374",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18010",
+      "unit_id": "U613",
+      "french": "J'apprends plusieurs langues.",
+      "english": "I study many languages.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9788362",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Gib",
+      "other_english": [
+        "I'm studying several languages.",
+        "I am studying several languages.",
+        "I'm learning lots of languages."
+      ]
+    },
+    {
+      "sentence_id": "S18011",
+      "unit_id": "U613",
+      "french": "Tu as de nombreux livres.",
+      "english": "You have many books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "470134",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "You have a lot of books."
+      ]
+    },
+    {
+      "sentence_id": "S18012",
+      "unit_id": "U613",
+      "french": "Elle a de nombreux chiens.",
+      "english": "She has many dogs.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3643720",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18013",
+      "unit_id": "U613",
+      "french": "Elle a écrit plusieurs livres.",
+      "english": "She has written several books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4765595",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18015",
+      "unit_id": "U613",
+      "french": "J'apprends plusieurs langues en même temps.",
+      "english": "I'm learning several languages at the same time.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2389474",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gillux",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18018",
+      "unit_id": "U613",
+      "french": "Je vois une reine.",
+      "english": "I see a queen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2366377",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "nimfeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18025",
+      "unit_id": "U613",
+      "french": "Il vit comme un roi.",
+      "english": "He lives like a king.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4714418",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18028",
+      "unit_id": "U613",
+      "french": "Le roi ne quitte jamais son château.",
+      "english": "The king never leaves his castle.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8731612",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18030",
+      "unit_id": "U613",
+      "french": "Le roi vit dans un grand château.",
+      "english": "The king lives inside a large castle.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10465692",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S18001",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18001",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18001",
+      "position": 3,
+      "surface": "vois",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18001",
+      "position": 4,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18001",
+      "position": 5,
+      "surface": "reine",
+      "word_id": "W2620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18010",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18010",
+      "position": 2,
+      "surface": "apprends",
+      "word_id": "W1852",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18010",
+      "position": 3,
+      "surface": "plusieurs",
+      "word_id": "W2623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18010",
+      "position": 4,
+      "surface": "langues",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18011",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18011",
+      "position": 2,
+      "surface": "as",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18011",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18011",
+      "position": 4,
+      "surface": "nombreux",
+      "word_id": "W2622",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18011",
+      "position": 5,
+      "surface": "livres",
+      "word_id": "W404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18012",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18012",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18012",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18012",
+      "position": 4,
+      "surface": "nombreux",
+      "word_id": "W2622",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18012",
+      "position": 5,
+      "surface": "chiens",
+      "word_id": "W407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18013",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18013",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18013",
+      "position": 3,
+      "surface": "écrit",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18013",
+      "position": 4,
+      "surface": "plusieurs",
+      "word_id": "W2623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18013",
+      "position": 5,
+      "surface": "livres",
+      "word_id": "W404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18015",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18015",
+      "position": 2,
+      "surface": "apprends",
+      "word_id": "W1852",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18015",
+      "position": 3,
+      "surface": "plusieurs",
+      "word_id": "W2623",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18015",
+      "position": 4,
+      "surface": "langues",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18015",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18015",
+      "position": 6,
+      "surface": "même",
+      "word_id": "W1427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18015",
+      "position": 7,
+      "surface": "temps",
+      "word_id": "W306",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18018",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18018",
+      "position": 2,
+      "surface": "vois",
+      "word_id": "W1256",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18018",
+      "position": 3,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18018",
+      "position": 4,
+      "surface": "reine",
+      "word_id": "W2620",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18025",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18025",
+      "position": 2,
+      "surface": "vit",
+      "word_id": "W2019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18025",
+      "position": 3,
+      "surface": "comme",
+      "word_id": "W1406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18025",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18025",
+      "position": 5,
+      "surface": "roi",
+      "word_id": "W2619",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18028",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18028",
+      "position": 2,
+      "surface": "roi",
+      "word_id": "W2619",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18028",
+      "position": 3,
+      "surface": "ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18028",
+      "position": 4,
+      "surface": "quitte",
+      "word_id": "W2083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18028",
+      "position": 5,
+      "surface": "jamais",
+      "word_id": "W1409",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18028",
+      "position": 6,
+      "surface": "son",
+      "word_id": "W427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18028",
+      "position": 7,
+      "surface": "château",
+      "word_id": "W1451",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18030",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18030",
+      "position": 2,
+      "surface": "roi",
+      "word_id": "W2619",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18030",
+      "position": 3,
+      "surface": "vit",
+      "word_id": "W2019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18030",
+      "position": 4,
+      "surface": "dans",
+      "word_id": "W477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18030",
+      "position": 5,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18030",
+      "position": 6,
+      "surface": "grand",
+      "word_id": "W201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18030",
+      "position": 7,
+      "surface": "château",
+      "word_id": "W1451",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A180101",
+      "sentence_id": "S18010",
+      "direction": "fr_to_en",
+      "answer": "I'm studying several languages.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A180102",
+      "sentence_id": "S18010",
+      "direction": "fr_to_en",
+      "answer": "I am studying several languages.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A180103",
+      "sentence_id": "S18010",
+      "direction": "fr_to_en",
+      "answer": "I'm learning lots of languages.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A180111",
+      "sentence_id": "S18011",
+      "direction": "fr_to_en",
+      "answer": "You have a lot of books.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

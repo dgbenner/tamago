@@ -1,0 +1,941 @@
+{
+  "unit_id": "U602",
+  "pulled_at": "2026-11-15",
+  "candidates": 72,
+  "sentences": [
+    {
+      "sentence_id": "S17401",
+      "unit_id": "U602",
+      "french": "Quand commence le spectacle ?",
+      "english": "When does the show start?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3288970",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17402",
+      "unit_id": "U602",
+      "french": "Est-ce que tu veux danser ?",
+      "english": "Do you want to dance?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10472557",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pkill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17406",
+      "unit_id": "U602",
+      "french": "Est-ce que tu aimes le spectacle ?",
+      "english": "Do you like the show?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5288795",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Blabla",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17407",
+      "unit_id": "U602",
+      "french": "À quelle heure est le concert?",
+      "english": "What time is the concert?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1519228",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "steve",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17408",
+      "unit_id": "U602",
+      "french": "À quelle heure commence le concert ?",
+      "english": "What time does the concert start?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7555280",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "What time does the concert begin?"
+      ]
+    },
+    {
+      "sentence_id": "S17410",
+      "unit_id": "U602",
+      "french": "Je vais au théâtre.",
+      "english": "I go to the theatre.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "526284",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17411",
+      "unit_id": "U602",
+      "french": "Il adore la peinture.",
+      "english": "He is fond of painting.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3655149",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17412",
+      "unit_id": "U602",
+      "french": "Le bar est fermé.",
+      "english": "The bar is closed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5359251",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17413",
+      "unit_id": "U602",
+      "french": "J'ai besoin de peinture.",
+      "english": "I need paint.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3654593",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17414",
+      "unit_id": "U602",
+      "french": "L'exposition est déjà ouverte.",
+      "english": "The exhibition is already open.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5361220",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexisslay",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17416",
+      "unit_id": "U602",
+      "french": "Tu n'aimes pas danser ?",
+      "english": "You don't like dancing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6153251",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "felix63",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17422",
+      "unit_id": "U602",
+      "french": "Je veux danser.",
+      "english": "I want to dance.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1348675",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17424",
+      "unit_id": "U602",
+      "french": "Je sais danser.",
+      "english": "I can dance.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4679094",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17425",
+      "unit_id": "U602",
+      "french": "J'aime danser.",
+      "english": "I like dancing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6463342",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "I like to dance."
+      ]
+    },
+    {
+      "sentence_id": "S17428",
+      "unit_id": "U602",
+      "french": "Elle adore danser.",
+      "english": "She loves to dance.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "14032688",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zogwarg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17429",
+      "unit_id": "U602",
+      "french": "Il va au concert.",
+      "english": "He is going to the concert.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "971278",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17430",
+      "unit_id": "U602",
+      "french": "Le concert commence maintenant.",
+      "english": "The concert begins now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1241589",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rene1596",
+      "other_english": [
+        "The concert is beginning now."
+      ]
+    },
+    {
+      "sentence_id": "S17431",
+      "unit_id": "U602",
+      "french": "Je n'aime pas danser.",
+      "english": "I don't like dancing.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5794182",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Yemana",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S17401",
+      "position": 1,
+      "surface": "Quand",
+      "word_id": "W1405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17401",
+      "position": 2,
+      "surface": "commence",
+      "word_id": "W1266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17401",
+      "position": 3,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17401",
+      "position": 4,
+      "surface": "spectacle",
+      "word_id": "W2415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17402",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17402",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17402",
+      "position": 3,
+      "surface": "veux",
+      "word_id": "W2067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17402",
+      "position": 4,
+      "surface": "danser",
+      "word_id": "W2416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17406",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17406",
+      "position": 2,
+      "surface": "tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17406",
+      "position": 3,
+      "surface": "aimes",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17406",
+      "position": 4,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17406",
+      "position": 5,
+      "surface": "spectacle",
+      "word_id": "W2415",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17407",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17407",
+      "position": 2,
+      "surface": "quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17407",
+      "position": 3,
+      "surface": "heure",
+      "word_id": "W467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17407",
+      "position": 4,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17407",
+      "position": 5,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17407",
+      "position": 6,
+      "surface": "concert",
+      "word_id": "W2414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17408",
+      "position": 1,
+      "surface": "À",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17408",
+      "position": 2,
+      "surface": "quelle",
+      "word_id": "W437",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17408",
+      "position": 3,
+      "surface": "heure",
+      "word_id": "W467",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17408",
+      "position": 4,
+      "surface": "commence",
+      "word_id": "W1266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17408",
+      "position": 5,
+      "surface": "le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17408",
+      "position": 6,
+      "surface": "concert",
+      "word_id": "W2414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17410",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17410",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17410",
+      "position": 3,
+      "surface": "au",
+      "word_id": "W476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17410",
+      "position": 4,
+      "surface": "théâtre",
+      "word_id": "W2412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17411",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17411",
+      "position": 2,
+      "surface": "adore",
+      "word_id": "W1439",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17411",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17411",
+      "position": 4,
+      "surface": "peinture",
+      "word_id": "W2418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17412",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17412",
+      "position": 2,
+      "surface": "bar",
+      "word_id": "W2417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17412",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17412",
+      "position": 4,
+      "surface": "fermé",
+      "word_id": "W1278",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17413",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17413",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17413",
+      "position": 3,
+      "surface": "besoin",
+      "word_id": "W1665",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17413",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17413",
+      "position": 5,
+      "surface": "peinture",
+      "word_id": "W2418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17414",
+      "position": 1,
+      "surface": "L'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17414",
+      "position": 2,
+      "surface": "exposition",
+      "word_id": "W2413",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17414",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17414",
+      "position": 4,
+      "surface": "déjà",
+      "word_id": "W1411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17414",
+      "position": 5,
+      "surface": "ouverte",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17416",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17416",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17416",
+      "position": 3,
+      "surface": "aimes",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17416",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17416",
+      "position": 5,
+      "surface": "danser",
+      "word_id": "W2416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17422",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17422",
+      "position": 2,
+      "surface": "veux",
+      "word_id": "W2067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17422",
+      "position": 3,
+      "surface": "danser",
+      "word_id": "W2416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17424",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17424",
+      "position": 2,
+      "surface": "sais",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17424",
+      "position": 3,
+      "surface": "danser",
+      "word_id": "W2416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17425",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17425",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17425",
+      "position": 3,
+      "surface": "danser",
+      "word_id": "W2416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17428",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17428",
+      "position": 2,
+      "surface": "adore",
+      "word_id": "W1439",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17428",
+      "position": 3,
+      "surface": "danser",
+      "word_id": "W2416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17429",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17429",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17429",
+      "position": 3,
+      "surface": "au",
+      "word_id": "W476",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17429",
+      "position": 4,
+      "surface": "concert",
+      "word_id": "W2414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17430",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17430",
+      "position": 2,
+      "surface": "concert",
+      "word_id": "W2414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17430",
+      "position": 3,
+      "surface": "commence",
+      "word_id": "W1266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17430",
+      "position": 4,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17431",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17431",
+      "position": 2,
+      "surface": "n'",
+      "word_id": "W2002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17431",
+      "position": 3,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17431",
+      "position": 4,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17431",
+      "position": 5,
+      "surface": "danser",
+      "word_id": "W2416",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A174081",
+      "sentence_id": "S17408",
+      "direction": "fr_to_en",
+      "answer": "What time does the concert begin?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A174251",
+      "sentence_id": "S17425",
+      "direction": "fr_to_en",
+      "answer": "I like to dance.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A174301",
+      "sentence_id": "S17430",
+      "direction": "fr_to_en",
+      "answer": "The concert is beginning now.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": [
+    {
+      "question_sentence_id": "S17416",
+      "answer_sentence_id": "S17431"
+    },
+    {
+      "question_sentence_id": "S17416",
+      "answer_sentence_id": "S0004"
+    },
+    {
+      "question_sentence_id": "S17416",
+      "answer_sentence_id": "S0005"
+    }
+  ]
+}

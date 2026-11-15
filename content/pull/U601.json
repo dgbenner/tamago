@@ -1,0 +1,1442 @@
+{
+  "unit_id": "U601",
+  "pulled_at": "2026-11-15",
+  "candidates": 42,
+  "sentences": [
+    {
+      "sentence_id": "S17101",
+      "unit_id": "U601",
+      "french": "C'est plein aujourd'hui.",
+      "english": "It's crowded today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1140589",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17102",
+      "unit_id": "U601",
+      "french": "Elle est tranquille.",
+      "english": "She is quiet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1407086",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17103",
+      "unit_id": "U601",
+      "french": "Tout est tranquille.",
+      "english": "Everything is quiet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4547395",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17104",
+      "unit_id": "U601",
+      "french": "Tu es tranquille.",
+      "english": "You're quiet.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4655452",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17105",
+      "unit_id": "U601",
+      "french": "Mon verre est plein.",
+      "english": "My glass is full.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2654922",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17106",
+      "unit_id": "U601",
+      "french": "Le sac est plein.",
+      "english": "The bag is full.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6324108",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17107",
+      "unit_id": "U601",
+      "french": "La bouteille est pleine.",
+      "english": "The bottle is full.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6837782",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GB3",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17108",
+      "unit_id": "U601",
+      "french": "Je souhaite y retourner.",
+      "english": "I want to go back there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7862572",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "I want to go there again."
+      ]
+    },
+    {
+      "sentence_id": "S17109",
+      "unit_id": "U601",
+      "french": "Je vous souhaite bonne chance.",
+      "english": "I wish you luck.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11583",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Elliv",
+      "other_english": [
+        "I wish you good luck."
+      ]
+    },
+    {
+      "sentence_id": "S17110",
+      "unit_id": "U601",
+      "french": "Je te souhaite bonne chance.",
+      "english": "I wish you luck.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "857072",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "U2FS",
+      "other_english": [
+        "I wish you good luck.",
+        "Good luck to you!"
+      ]
+    },
+    {
+      "sentence_id": "S17111",
+      "unit_id": "U601",
+      "french": "C'est une femme tranquille.",
+      "english": "She is a quiet woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1315101",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17112",
+      "unit_id": "U601",
+      "french": "Le bus est plein.",
+      "english": "The bus is full.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7352993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17113",
+      "unit_id": "U601",
+      "french": "Le restaurant est plein.",
+      "english": "The restaurant is full.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7753514",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Katastrauff",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17114",
+      "unit_id": "U601",
+      "french": "Nous en avons plein.",
+      "english": "We have plenty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11550330",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17115",
+      "unit_id": "U601",
+      "french": "Nous avons plein de vin.",
+      "english": "We have plenty of wine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4550692",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17116",
+      "unit_id": "U601",
+      "french": "Je leur souhaite bonne chance.",
+      "english": "I wish them luck.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5649571",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17117",
+      "unit_id": "U601",
+      "french": "Je souhaite seulement vous aider.",
+      "english": "I only wish to help you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7967446",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17118",
+      "unit_id": "U601",
+      "french": "Je souhaite vraiment vous revoir.",
+      "english": "I really want to see you again.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7971030",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17119",
+      "unit_id": "U601",
+      "french": "C'est ce que je souhaite.",
+      "english": "That's what I wish.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8064851",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17121",
+      "unit_id": "U601",
+      "french": "Il souhaite y aller seul.",
+      "english": "He wants to go there alone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9999699",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17123",
+      "unit_id": "U601",
+      "french": "Elle a plein de livres.",
+      "english": "She has plenty of books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11171116",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17124",
+      "unit_id": "U601",
+      "french": "Je souhaite rester plus longtemps.",
+      "english": "I want to stay longer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11702396",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17125",
+      "unit_id": "U601",
+      "french": "Je vous souhaite une bonne année.",
+      "english": "I wish you a Happy New Year.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "376721",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "TRANG",
+      "other_english": [
+        "I wish you a happy new year."
+      ]
+    },
+    {
+      "sentence_id": "S17126",
+      "unit_id": "U601",
+      "french": "Je vous souhaite un bon voyage.",
+      "english": "I wish you a good trip.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "435212",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": [
+        "I wish you a good journey.",
+        "Bon voyage!",
+        "I hope you have a good trip.",
+        "I wish you a pleasant voyage."
+      ]
+    },
+    {
+      "sentence_id": "S17128",
+      "unit_id": "U601",
+      "french": "Le verre est plein de lait.",
+      "english": "The glass is full of milk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "463838",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bruno",
+      "other_english": [
+        "The glass is filled with milk."
+      ]
+    },
+    {
+      "sentence_id": "S17129",
+      "unit_id": "U601",
+      "french": "Je te souhaite beaucoup de chance.",
+      "english": "I wish you the best of luck.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "857068",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "U2FS",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S17101",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17101",
+      "position": 2,
+      "surface": "plein",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17101",
+      "position": 3,
+      "surface": "aujourd'hui",
+      "word_id": "W460",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17102",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17102",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17102",
+      "position": 3,
+      "surface": "tranquille",
+      "word_id": "W2403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17103",
+      "position": 1,
+      "surface": "Tout",
+      "word_id": "W1402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17103",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17103",
+      "position": 3,
+      "surface": "tranquille",
+      "word_id": "W2403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17104",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17104",
+      "position": 2,
+      "surface": "es",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17104",
+      "position": 3,
+      "surface": "tranquille",
+      "word_id": "W2403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17105",
+      "position": 1,
+      "surface": "Mon",
+      "word_id": "W421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17105",
+      "position": 2,
+      "surface": "verre",
+      "word_id": "W903",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17105",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17105",
+      "position": 4,
+      "surface": "plein",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17106",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17106",
+      "position": 2,
+      "surface": "sac",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17106",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17106",
+      "position": 4,
+      "surface": "plein",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17107",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17107",
+      "position": 2,
+      "surface": "bouteille",
+      "word_id": "W900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17107",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17107",
+      "position": 4,
+      "surface": "pleine",
+      "word_id": "W2406",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17108",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17108",
+      "position": 2,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17108",
+      "position": 3,
+      "surface": "y",
+      "word_id": "W1403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17108",
+      "position": 4,
+      "surface": "retourner",
+      "word_id": "W1662",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17109",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17109",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17109",
+      "position": 3,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17109",
+      "position": 4,
+      "surface": "bonne",
+      "word_id": "W412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17109",
+      "position": 5,
+      "surface": "chance",
+      "word_id": "W2228",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17110",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17110",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17110",
+      "position": 3,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17110",
+      "position": 4,
+      "surface": "bonne",
+      "word_id": "W412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17110",
+      "position": 5,
+      "surface": "chance",
+      "word_id": "W2228",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17111",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17111",
+      "position": 2,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17111",
+      "position": 3,
+      "surface": "femme",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17111",
+      "position": 4,
+      "surface": "tranquille",
+      "word_id": "W2403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17112",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17112",
+      "position": 2,
+      "surface": "bus",
+      "word_id": "W1007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17112",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17112",
+      "position": 4,
+      "surface": "plein",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17113",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17113",
+      "position": 2,
+      "surface": "restaurant",
+      "word_id": "W473",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17113",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17113",
+      "position": 4,
+      "surface": "plein",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17114",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17114",
+      "position": 2,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17114",
+      "position": 3,
+      "surface": "avons",
+      "word_id": "W2087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17114",
+      "position": 4,
+      "surface": "plein",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17115",
+      "position": 1,
+      "surface": "Nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17115",
+      "position": 2,
+      "surface": "avons",
+      "word_id": "W2087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17115",
+      "position": 3,
+      "surface": "plein",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17115",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17115",
+      "position": 5,
+      "surface": "vin",
+      "word_id": "W1604",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17116",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17116",
+      "position": 2,
+      "surface": "leur",
+      "word_id": "W1419",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17116",
+      "position": 3,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17116",
+      "position": 4,
+      "surface": "bonne",
+      "word_id": "W412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17116",
+      "position": 5,
+      "surface": "chance",
+      "word_id": "W2228",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17117",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17117",
+      "position": 2,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17117",
+      "position": 3,
+      "surface": "seulement",
+      "word_id": "W1414",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17117",
+      "position": 4,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17117",
+      "position": 5,
+      "surface": "aider",
+      "word_id": "W1436",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17118",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17118",
+      "position": 2,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17118",
+      "position": 3,
+      "surface": "vraiment",
+      "word_id": "W1412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17118",
+      "position": 4,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17118",
+      "position": 5,
+      "surface": "revoir",
+      "word_id": "W2079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17119",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17119",
+      "position": 2,
+      "surface": "ce",
+      "word_id": "W2084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17119",
+      "position": 3,
+      "surface": "que",
+      "word_id": "W1401",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17119",
+      "position": 4,
+      "surface": "je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17119",
+      "position": 5,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17121",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17121",
+      "position": 2,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17121",
+      "position": 3,
+      "surface": "y",
+      "word_id": "W1403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17121",
+      "position": 4,
+      "surface": "aller",
+      "word_id": "W1669",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17121",
+      "position": 5,
+      "surface": "seul",
+      "word_id": "W1045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17123",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17123",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17123",
+      "position": 3,
+      "surface": "plein",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17123",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17123",
+      "position": 5,
+      "surface": "livres",
+      "word_id": "W404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17124",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17124",
+      "position": 2,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17124",
+      "position": 3,
+      "surface": "rester",
+      "word_id": "W1257",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17124",
+      "position": 4,
+      "surface": "plus",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17124",
+      "position": 5,
+      "surface": "longtemps",
+      "word_id": "W1823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17125",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17125",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17125",
+      "position": 3,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17125",
+      "position": 4,
+      "surface": "une",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17125",
+      "position": 5,
+      "surface": "bonne",
+      "word_id": "W412",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17125",
+      "position": 6,
+      "surface": "année",
+      "word_id": "W836",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17126",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17126",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17126",
+      "position": 3,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17126",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17126",
+      "position": 5,
+      "surface": "bon",
+      "word_id": "W411",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17126",
+      "position": 6,
+      "surface": "voyage",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17128",
+      "position": 1,
+      "surface": "Le",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17128",
+      "position": 2,
+      "surface": "verre",
+      "word_id": "W903",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17128",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17128",
+      "position": 4,
+      "surface": "plein",
+      "word_id": "W2405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17128",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17128",
+      "position": 6,
+      "surface": "lait",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17129",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17129",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17129",
+      "position": 3,
+      "surface": "souhaite",
+      "word_id": "W2404",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17129",
+      "position": 4,
+      "surface": "beaucoup",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17129",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17129",
+      "position": 6,
+      "surface": "chance",
+      "word_id": "W2228",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A171081",
+      "sentence_id": "S17108",
+      "direction": "fr_to_en",
+      "answer": "I want to go there again.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A171091",
+      "sentence_id": "S17109",
+      "direction": "fr_to_en",
+      "answer": "I wish you good luck.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A171101",
+      "sentence_id": "S17110",
+      "direction": "fr_to_en",
+      "answer": "I wish you good luck.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A171102",
+      "sentence_id": "S17110",
+      "direction": "fr_to_en",
+      "answer": "Good luck to you!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A171251",
+      "sentence_id": "S17125",
+      "direction": "fr_to_en",
+      "answer": "I wish you a happy new year.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A171261",
+      "sentence_id": "S17126",
+      "direction": "fr_to_en",
+      "answer": "I wish you a good journey.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A171262",
+      "sentence_id": "S17126",
+      "direction": "fr_to_en",
+      "answer": "Bon voyage!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A171263",
+      "sentence_id": "S17126",
+      "direction": "fr_to_en",
+      "answer": "I hope you have a good trip.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A171264",
+      "sentence_id": "S17126",
+      "direction": "fr_to_en",
+      "answer": "I wish you a pleasant voyage.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A171281",
+      "sentence_id": "S17128",
+      "direction": "fr_to_en",
+      "answer": "The glass is filled with milk.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -1,0 +1,148 @@
+// French A1 · Part 6, Reading and Writing (Dan, 2026-11-15), the last part, in the format of Parts 3 to 5: postcards
+// and replies (T11), going out, notices and signs (T09), instructions and announcements (T12); the help thread goes
+// on (T13). The A1 final check after it is a mock DELF A1 (src/lib/finalcheck.js). Words from the FLELex core 600,
+// toward 540 (90%) by the end of this part, checked against Tatoeba first (scripts/circle-feasibility.mjs); the beach
+// and weather words a postcard needs sit in topic packs and are borrowed (as Part 5 borrows home and family).
+// Read and Answer has three texts per circle that has it.
+// Used by scripts/add-part.mjs (COURSE=fr PART=6).
+const DRAFT = 'draft: written for Tamago, native check'
+
+const situation = [
+  { unit_id: 'U601', order: 141, row: 31, after: '', title: 'Postcards', tasks: 'T11',
+    grammar: "Je suis à la mer: il fait chaud, le séjour est tranquille; je te souhaite une bonne semaine; plein de (lots of)",
+    words: ['séjour', 'lendemain', 'tranquille', 'souhaite', 'plein', 'pleine'],
+    borrow: ['plage', 'mer', 'soleil', 'chaud', 'froid', 'fait'] },
+  { unit_id: 'U621', order: 141.5, row: 31.5, after: 'row 31', title: 'In My Opinion', help: true, tasks: 'T13',
+    grammar: "À mon avis (in my opinion); c'est clair; je suis certain, certaine; un conseil (a piece of advice)",
+    words: ['avis', 'certain', 'certaine', 'clair', 'conseil'] },
+  { unit_id: 'U602', order: 142, row: 32, after: 'row 31', title: 'Going Out', tasks: 'T09',
+    grammar: "Aller au théâtre, au concert; une exposition de peinture; on va danser ?",
+    words: ['théâtre', 'exposition', 'concert', 'spectacle', 'danser', 'bar', 'peinture'] },
+  { unit_id: 'U603', order: 143, row: 32, after: 'row 31', title: 'Notices', tasks: 'T09;T12',
+    grammar: "Interdit (not allowed); jusqu'à 20h (until); du début à la fin; pas de bruit",
+    words: ['fin', 'début', "jusqu'", 'objet', 'bruit', 'interdit', 'partout'] },
+  { unit_id: 'U604', order: 144, row: 33, after: 'row 32', title: 'Instructions', tasks: 'T12',
+    grammar: "Instructions in the vous command: asseyez-vous, tenez, ajoutez, avancez; s'asseoir (to sit down)",
+    words: ['asseyez-vous', 'assieds-toi', 'asseoir', 'tenez', 'tenir', 'ajoutez', 'ajouter', 'installer', 'avancez', 'avancer'] },
+  { unit_id: 'U605', order: 145, row: 33, after: 'row 32', title: 'Weekend Plans', tasks: 'T11',
+    grammar: "Je t'accompagne (I'll come with you); emmener (to take someone); se promener (to go for a walk); organiser, partager",
+    words: ['accompagner', 'accompagne', 'emmener', 'emmène', 'promener', 'promène', 'organiser', 'partager', 'partage'] },
+  { unit_id: 'U622', order: 145.5, row: 33.5, after: 'row 33', title: 'Yes or No', help: true, tasks: 'T13',
+    grammar: "J'accepte, avec plaisir; je te promets (I promise you); désolé, je ne peux pas",
+    words: ['accepte', 'accepter', 'promets', 'promettre'] },
+  { unit_id: 'U606', order: 146, row: 34, after: 'row 33', title: 'Feelings', tasks: 'T11',
+    grammar: "Ça m'intéresse, ça m'amuse, ça m'ennuie: ça + me + the verb; quelle surprise ! offrir un cadeau",
+    words: ['intéresse', 'amuse', 'amuser', 'ennuie', 'ennuyer', 'surprise', 'offrir', 'offre'] },
+  { unit_id: 'U607', order: 147, row: 34, after: 'row 33', title: 'Writing Back', tasks: 'T11',
+    grammar: "Quelque chose (something); j'apporte un gâteau; je m'occupe de … (I'll take care of); discuter (to talk); saluer",
+    words: ['quelque', 'discuter', 'salue', 'saluer', 'occupe', 'occuper', 'apporter', 'apporte'] },
+  { unit_id: 'U623', order: 147.5, row: 34.5, after: 'row 34', title: 'Louder, Please', help: true, tasks: 'T13',
+    grammar: "Plus fort, s'il vous plaît (louder); à voix haute; c'est ton tour (your turn); tout de suite (right away)",
+    words: ['voix', 'fort', 'tour', 'suite'] },
+  { unit_id: 'U608', order: 148, row: 35, after: 'row 34', title: 'Life Stories', tasks: 'T11',
+    grammar: "La vie: naître (to be born), se marier (to get married); il est mort (he died); tout à coup (suddenly)",
+    words: ['vie', 'naître', 'marier', 'mourir', 'mort', 'coup'] },
+  { unit_id: 'U609', order: 149, row: 35, after: 'row 34', title: 'Telling a Story', tasks: 'T12',
+    grammar: "Une aventure, un secret; il cache, elle crie: -er verbs in a story; imagine … (imagine)",
+    words: ['aventure', 'secret', 'cacher', 'cache', 'crier', 'crie', 'imaginer', 'imagine'] },
+]
+
+const vocab = [
+  { unit_id: 'U611', order: 141.2, row: 31, after: '', title: 'Reactions',
+    grammar: "Ah bon ? Oh là là ! Cela (that, written) is ça in speech; c'est mieux (better); heureusement (luckily); excellent, extraordinaire",
+    words: ['ah', 'oh', 'cela', 'mieux', 'heureusement', 'excellent', 'extraordinaire'] },
+  { unit_id: 'U612', order: 143.2, row: 32, after: 'row 31', title: 'Health',
+    grammar: "La santé; il tombe (he falls), elle pleure (she cries); un accident; prendre l'air (get some fresh air)",
+    words: ['santé', 'accident', 'tombe', 'tomber', 'pleure', 'pleurer', 'air'] },
+  { unit_id: 'U613', order: 145.2, row: 33, after: 'row 32', title: 'People + Places',
+    grammar: "Les habitants (the people who live there); le nord; le roi, la reine; plusieurs, nombreux (many); autour de (around)",
+    words: ['habitant', 'habitants', 'nord', 'siècle', 'roi', 'reine', 'moderne', 'nombreux', 'plusieurs', 'autour'] },
+  { unit_id: 'U614', order: 147.2, row: 34, after: 'row 33', title: 'Describing',
+    grammar: "Gros, grosse; long, longue; doux, douce: feminine forms; brun, pauvre, simple; en général (in general)",
+    words: ['gros', 'grosse', 'long', 'longue', 'doux', 'douce', 'brun', 'pauvre', 'simple', 'lumière', 'général'] },
+  { unit_id: 'U615', order: 149.2, row: 35, after: 'row 34', title: 'Everyday Words',
+    grammar: "Je m'habille (I get dressed); mes affaires (my things); au bord de la mer (by the sea); situé (located); respecter",
+    words: ['habille', 'habiller', 'respecte', 'situé', 'bord', 'affaires'] },
+]
+
+const listen = [
+  ['N601', 'U601', 'number', 'Le séjour dure dix jours.', '10'], ['N602', 'U601', 'price', 'La chambre coûte quatre-vingts euros la nuit.', '80'],
+  ['N603', 'U602', 'time', 'Le spectacle commence à vingt heures trente.', '20:30'], ['N604', 'U602', 'price', 'Le billet coûte douze euros.', '12'],
+  ['N605', 'U603', 'time', "Le magasin est ouvert jusqu'à dix-neuf heures.", '19:00'], ['N606', 'U603', 'date', "L'exposition, c'est jusqu'au trente juin.", '30/6'],
+  ['N607', 'U604', 'number', 'Prenez la sortie numéro quatre.', '4'], ['N608', 'U604', 'number', 'Ajoutez deux cents grammes de sucre.', '200'],
+]
+const texts = [
+  { id: 'R601', unit_id: 'U601', kind: 'message', title: 'Une carte de Marie', lines: ['Chère Léa,', 'Je suis à la mer avec ma famille.', 'Il fait chaud et le séjour est très tranquille.', 'Bises, Marie'],
+    questions: [{ question: 'Where is Marie?', choices: ['At the seaside', 'In the mountains', 'At home'], answer: 0 }, { question: 'What is the weather like?', choices: ['Hot', 'Cold', 'Rainy'], answer: 0 }] },
+  { id: 'R602', unit_id: 'U601', kind: 'message', title: 'Une carte de Paul', lines: ['Salut Tom !', 'Je suis à Paris pour trois jours.', 'Demain, je vais au musée.', 'À bientôt, Paul'],
+    questions: [{ question: 'How long is Paul in Paris?', choices: ['Three days', 'A week', 'Two days'], answer: 0 }, { question: 'What is he doing tomorrow?', choices: ['Going to the museum', 'Going home', 'Going to the beach'], answer: 0 }] },
+  { id: 'R603', unit_id: 'U601', kind: 'message', title: 'Une carte de Sophie', lines: ['Chers parents,', 'La plage est pleine de monde, mais la mer est belle.', 'Je vous souhaite une bonne semaine !', 'Sophie'],
+    questions: [{ question: 'What is the beach like?', choices: ['Full of people', 'Empty', 'Closed'], answer: 0 }, { question: 'Who is the card for?', choices: ['Her parents', 'Her friend', 'Her teacher'], answer: 0 }] },
+  { id: 'R604', unit_id: 'U602', kind: 'notice', title: 'Théâtre du Parc', lines: ['Ce soir : « La Belle Nuit »', 'Le spectacle commence à 20h30', 'Prix : 15 €'],
+    questions: [{ question: 'What time does the show start?', choices: ['8:30 pm', '3:30 pm', '8:00 pm'], answer: 0 }, { question: 'How much is a ticket?', choices: ['€15', '€50', '€5'], answer: 0 }] },
+  { id: 'R605', unit_id: 'U602', kind: 'notice', title: 'Exposition', lines: ['Exposition de peinture', 'Du 3 au 30 mai', 'Ouvert de 10h à 18h, fermé le lundi'],
+    questions: [{ question: 'What is in the exhibition?', choices: ['Paintings', 'Photos', 'Books'], answer: 0 }, { question: 'Which day is it closed?', choices: ['Monday', 'Sunday', 'Saturday'], answer: 0 }] },
+  { id: 'R606', unit_id: 'U602', kind: 'message', title: 'Un message de Léa', lines: ['Tom,', 'Il y a un concert au bar ce soir.', 'Tu viens danser avec nous ?'],
+    questions: [{ question: 'Where is the concert?', choices: ['At the bar', 'At the theatre', 'At the park'], answer: 0 }, { question: 'What does Léa invite Tom to do?', choices: ['Dance', 'Eat', 'Sing'], answer: 0 }] },
+  { id: 'R607', unit_id: 'U603', kind: 'sign', title: 'Piscine', lines: ['Pas de chiens', 'Pas de bruit après 22h'],
+    questions: [{ question: "Who can't come in?", choices: ['Dogs', 'Children', 'Cyclists'], answer: 0 }, { question: 'When must it be quiet?', choices: ['After 10 pm', 'After 8 pm', 'All day'], answer: 0 }] },
+  { id: 'R608', unit_id: 'U603', kind: 'notice', title: 'Objets trouvés', lines: ['Vous avez perdu un objet ?', "Salle 3, jusqu'à 17h"],
+    questions: [{ question: 'What is this office for?', choices: ['Lost property', 'Tickets', 'Information'], answer: 0 }, { question: 'Until when is it open?', choices: ['5 pm', '3 pm', '7 pm'], answer: 0 }] },
+  { id: 'R609', unit_id: 'U603', kind: 'sign', title: 'Le parc', lines: ["Ouvert jusqu'à 20h", 'Vélos et chiens interdits'],
+    questions: [{ question: 'Until when is the park open?', choices: ['8 pm', '8 am', '10 pm'], answer: 0 }, { question: 'What is not allowed?', choices: ['Bikes and dogs', 'Children', 'Music'], answer: 0 }] },
+  { id: 'R610', unit_id: 'U604', kind: 'notice', title: 'Dans le bus', lines: ["Avancez, s'il vous plaît.", 'Asseyez-vous.', 'Tenez votre billet.'],
+    questions: [{ question: 'What should you do with your ticket?', choices: ['Hold it', 'Throw it away', 'Buy one'], answer: 0 }, { question: 'What should you do?', choices: ['Sit down', 'Stand up', 'Get off'], answer: 0 }] },
+  { id: 'R611', unit_id: 'U604', kind: 'notice', title: 'Le gâteau', lines: ['Prenez trois œufs et du lait.', 'Ajoutez un peu de sucre.', "C'est bon chaud !"],
+    questions: [{ question: 'What do you add?', choices: ['A little sugar', 'Salt', 'Water'], answer: 0 }, { question: 'How is the cake best?', choices: ['Warm', 'Cold', 'Frozen'], answer: 0 }] },
+  { id: 'R612', unit_id: 'U604', kind: 'notice', title: "Pour installer l'ordinateur", lines: ['1. Ouvrez la boîte.', '2. Ajoutez votre nom.', '3. Ajoutez votre mail.'],
+    questions: [{ question: 'What do you do first?', choices: ['Open the box', 'Add your name', 'Turn it off'], answer: 0 }, { question: 'What is it for?', choices: ['Setting up a computer', 'Buying a computer', 'Selling a computer'], answer: 0 }] },
+  { id: 'R613', unit_id: 'U607', kind: 'message', title: 'La réponse de Paul', lines: ['Merci pour ton message !', "Samedi, je ne peux pas, mais dimanche, c'est possible.", 'On peut discuter de ça au café ?'],
+    questions: [{ question: 'When is Paul free?', choices: ['Sunday', 'Saturday', 'Friday'], answer: 0 }, { question: 'Where does he want to talk?', choices: ['At a café', 'At home', 'On the phone'], answer: 0 }] },
+  { id: 'R614', unit_id: 'U607', kind: 'message', title: 'Un mail de Sophie', lines: ['Bonjour Marc,', "J'apporte quelque chose pour la fête ?", 'Je peux apporter un gâteau.', 'Sophie'],
+    questions: [{ question: 'What can Sophie bring?', choices: ['A cake', 'Drinks', 'Flowers'], answer: 0 }, { question: 'What for?', choices: ['The party', 'The meeting', 'A picnic'], answer: 0 }] },
+  { id: 'R615', unit_id: 'U607', kind: 'message', title: 'Pour Léa', lines: ['Léa,', "Je m'occupe des enfants ce soir.", 'Tu peux saluer ta mère pour moi ?', 'Bises, Marie'],
+    questions: [{ question: 'Who is Marie looking after tonight?', choices: ['The children', 'The dog', 'Her mother'], answer: 0 }, { question: 'What does Marie ask Léa?', choices: ['To say hello to her mother', 'To call her', 'To come tonight'], answer: 0 }] },
+]
+const items = {
+  a1_listen: listen.map(([id, unit_id, kind, say, answer]) => ({ id, unit_id, kind, say, answer, status: DRAFT, notes: '' })),
+  a1_forms: [
+    { id: 'F601', unit_id: 'U602', card: "Deux billets pour le concert de samedi, au nom de Léa Martin. Mon numéro : zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit.",
+      fields: [{ key: 'last', label: 'Nom', rule: 'text', answer: 'Martin' }, { key: 'tickets', label: 'Billets', rule: 'number', answer: '2' },
+        { key: 'day', label: 'Jour', rule: 'text', answer: 'samedi' }, { key: 'tel', label: 'Téléphone', rule: 'phone', answer: '06 12 34 56 78' }] },
+    { id: 'F602', unit_id: 'U605', card: "Je m'appelle Tom Durand, j'ai seize ans. Je voudrais faire du tennis le mercredi.",
+      fields: [{ key: 'last', label: 'Nom', rule: 'text', answer: 'Durand' }, { key: 'first', label: 'Prénom', rule: 'text', answer: 'Tom' }, { key: 'age', label: 'Âge', rule: 'number', answer: '16' },
+        { key: 'sport', label: 'Sport', rule: 'text', answer: 'tennis' }, { key: 'day', label: 'Jour', rule: 'text', answer: 'mercredi' }] },
+  ].map((f) => ({ id: f.id, unit_id: f.unit_id, card: f.card, fields_json: JSON.stringify(f.fields), status: DRAFT, notes: '' })),
+  a1_texts: texts.map((t) => ({ id: t.id, unit_id: t.unit_id, kind: t.kind, title: t.title, lines: t.lines.join('\n'), questions_json: JSON.stringify(t.questions), source: 'written for Tamago', status: DRAFT, notes: '' })),
+  a1_prompts: [
+    { id: 'P601', unit_id: 'U601', prompt: 'Write a postcard from your holiday: where you are, the weather and what you do.', points: 'where you are;the weather;what you do', min_words: 30, max_words: 45 },
+    { id: 'P602', unit_id: 'U607', prompt: 'Reply to a friend who invites you to a party: thank them, say if you can come and offer to bring something.', points: 'thank them;if you can come;what you bring', min_words: 30, max_words: 45 },
+    { id: 'P603', unit_id: 'U605', prompt: 'Write to a friend to plan the weekend: where to go, when to meet and who is coming.', points: 'where;when;who is coming', min_words: 30, max_words: 45 },
+  ].map((x) => ({ ...x, status: DRAFT, notes: '' })),
+}
+
+const canDo = {
+  U601: [['writing', 'Writing', 'I can write a postcard: where I am, the weather, what I do.'], ['reading', 'Reading', 'I can understand a simple postcard.']],
+  U621: [['speaking', 'Spoken interaction', 'I can give my opinion simply and ask for advice.']],
+  U602: [['reading', 'Reading', 'I can understand a poster for a show, a concert or an exhibition.']],
+  U603: [['reading', 'Reading', 'I can understand notices and signs: opening times, what is not allowed.']],
+  U604: [['reading', 'Reading', 'I can follow short written instructions.'], ['listening', 'Listening', 'I can follow simple spoken instructions.']],
+  U605: [['writing', 'Writing', 'I can write a short message to plan the weekend with a friend.']],
+  U622: [['speaking', 'Spoken interaction', 'I can accept or turn down an invitation and promise something.']],
+  U606: [['speaking', 'Spoken production', 'I can say what interests me, what is fun and what is boring.']],
+  U607: [['writing', 'Writing', 'I can answer a message: say yes or no, and offer to bring something.']],
+  U623: [['speaking', 'Spoken interaction', 'I can ask someone to speak louder and say whose turn it is.']],
+  U608: [['speaking', 'Spoken production', 'I can tell the main events of a life simply.']],
+  U609: [['reading', 'Reading', 'I can follow a very short, simple story.']],
+  U611: [['speaking', 'Spoken interaction', 'I can react: ah, oh, luckily, excellent.']],
+  U612: [['speaking', 'Spoken production', 'I can say something about health: an accident, a fall.']],
+  U613: [['reading', 'Reading', 'I can understand simple facts about a place and its people.']],
+  U614: [['speaking', 'Spoken production', 'I can describe things and people simply.']],
+  U615: [['speaking', 'Spoken production', 'I can talk about getting dressed and my things.']],
+}
+
+export default {
+  part: 6, wordBase: 2401, vocabBase: 2601, cdBase: 601,
+  slots: [{ slot_id: 'C11', part: 6, after_row: 32 }, { slot_id: 'C12', part: 6, after_row: 34 }],
+  situation, vocab, items, canDo, late: [], off: {},
+}

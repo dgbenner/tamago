@@ -342,5 +342,73 @@
         "answer": "directeur"
       }
     ]
+  },
+  {
+    "id": "F601",
+    "unit_id": "U602",
+    "card": "Deux billets pour le concert de samedi, au nom de Léa Martin. Mon numéro : zéro six, douze, trente-quatre, cinquante-six, soixante-dix-huit.",
+    "fields": [
+      {
+        "key": "last",
+        "label": "Nom",
+        "rule": "text",
+        "answer": "Martin"
+      },
+      {
+        "key": "tickets",
+        "label": "Billets",
+        "rule": "number",
+        "answer": "2"
+      },
+      {
+        "key": "day",
+        "label": "Jour",
+        "rule": "text",
+        "answer": "samedi"
+      },
+      {
+        "key": "tel",
+        "label": "Téléphone",
+        "rule": "phone",
+        "answer": "06 12 34 56 78"
+      }
+    ]
+  },
+  {
+    "id": "F602",
+    "unit_id": "U605",
+    "card": "Je m'appelle Tom Durand, j'ai seize ans. Je voudrais faire du tennis le mercredi.",
+    "fields": [
+      {
+        "key": "last",
+        "label": "Nom",
+        "rule": "text",
+        "answer": "Durand"
+      },
+      {
+        "key": "first",
+        "label": "Prénom",
+        "rule": "text",
+        "answer": "Tom"
+      },
+      {
+        "key": "age",
+        "label": "Âge",
+        "rule": "number",
+        "answer": "16"
+      },
+      {
+        "key": "sport",
+        "label": "Sport",
+        "rule": "text",
+        "answer": "tennis"
+      },
+      {
+        "key": "day",
+        "label": "Jour",
+        "rule": "text",
+        "answer": "mercredi"
+      }
+    ]
   }
 ]

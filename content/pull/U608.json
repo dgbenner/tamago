@@ -1,0 +1,478 @@
+{
+  "unit_id": "U608",
+  "pulled_at": "2026-11-15",
+  "candidates": 162,
+  "sentences": [
+    {
+      "sentence_id": "S18503",
+      "unit_id": "U608",
+      "french": "Qui est mort ?",
+      "english": "Who died?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2005260",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18504",
+      "unit_id": "U608",
+      "french": "Comment est la vie ?",
+      "english": "How's life?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "402746",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": [
+        "How is life?"
+      ]
+    },
+    {
+      "sentence_id": "S18509",
+      "unit_id": "U608",
+      "french": "Je vais me marier.",
+      "english": "I'm getting married.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3628660",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I'm going to get married."
+      ]
+    },
+    {
+      "sentence_id": "S18510",
+      "unit_id": "U608",
+      "french": "Tu vas te marier.",
+      "english": "You're getting married.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4070034",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18513",
+      "unit_id": "U608",
+      "french": "Comment est mort ton premier mari ?",
+      "english": "How did your first husband die?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8170514",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18516",
+      "unit_id": "U608",
+      "french": "C'est la vie !",
+      "english": "That's life!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "486231",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "This is life!",
+        "Such is life!",
+        "So goes life!"
+      ]
+    },
+    {
+      "sentence_id": "S18517",
+      "unit_id": "U608",
+      "french": "Il est mort.",
+      "english": "It's dead.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2190346",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "He's dead.",
+        "He is dead."
+      ]
+    },
+    {
+      "sentence_id": "S18521",
+      "unit_id": "U608",
+      "french": "C'est ma vie !",
+      "english": "It's my life!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3424666",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "mrr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18529",
+      "unit_id": "U608",
+      "french": "C'est ta vie.",
+      "english": "It's your life.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7777979",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Blabla",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S18503",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18503",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18503",
+      "position": 3,
+      "surface": "mort",
+      "word_id": "W2473",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18504",
+      "position": 1,
+      "surface": "Comment",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18504",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18504",
+      "position": 3,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18504",
+      "position": 4,
+      "surface": "vie",
+      "word_id": "W2469",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18509",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18509",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18509",
+      "position": 3,
+      "surface": "me",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18509",
+      "position": 4,
+      "surface": "marier",
+      "word_id": "W2471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18510",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18510",
+      "position": 2,
+      "surface": "vas",
+      "word_id": "W479",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18510",
+      "position": 3,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18510",
+      "position": 4,
+      "surface": "marier",
+      "word_id": "W2471",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18513",
+      "position": 1,
+      "surface": "Comment",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18513",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18513",
+      "position": 3,
+      "surface": "mort",
+      "word_id": "W2473",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18513",
+      "position": 4,
+      "surface": "ton",
+      "word_id": "W424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18513",
+      "position": 5,
+      "surface": "premier",
+      "word_id": "W1244",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18513",
+      "position": 6,
+      "surface": "mari",
+      "word_id": "W2013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18516",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18516",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18516",
+      "position": 3,
+      "surface": "vie",
+      "word_id": "W2469",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18517",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18517",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18517",
+      "position": 3,
+      "surface": "mort",
+      "word_id": "W2473",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18521",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18521",
+      "position": 2,
+      "surface": "ma",
+      "word_id": "W422",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18521",
+      "position": 3,
+      "surface": "vie",
+      "word_id": "W2469",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18529",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18529",
+      "position": 2,
+      "surface": "ta",
+      "word_id": "W425",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18529",
+      "position": 3,
+      "surface": "vie",
+      "word_id": "W2469",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A185041",
+      "sentence_id": "S18504",
+      "direction": "fr_to_en",
+      "answer": "How is life?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A185091",
+      "sentence_id": "S18509",
+      "direction": "fr_to_en",
+      "answer": "I'm going to get married.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A185161",
+      "sentence_id": "S18516",
+      "direction": "fr_to_en",
+      "answer": "This is life!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A185162",
+      "sentence_id": "S18516",
+      "direction": "fr_to_en",
+      "answer": "Such is life!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A185163",
+      "sentence_id": "S18516",
+      "direction": "fr_to_en",
+      "answer": "So goes life!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A185171",
+      "sentence_id": "S18517",
+      "direction": "fr_to_en",
+      "answer": "He's dead.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A185172",
+      "sentence_id": "S18517",
+      "direction": "fr_to_en",
+      "answer": "He is dead.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -118,5 +118,35 @@
     "max_words": 40,
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "P601",
+    "unit_id": "U601",
+    "prompt": "Write a postcard from your holiday: where you are, the weather and what you do.",
+    "points": "where you are;the weather;what you do",
+    "min_words": 30,
+    "max_words": 45,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P602",
+    "unit_id": "U607",
+    "prompt": "Reply to a friend who invites you to a party: thank them, say if you can come and offer to bring something.",
+    "points": "thank them;if you can come;what you bring",
+    "min_words": 30,
+    "max_words": 45,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "P603",
+    "unit_id": "U605",
+    "prompt": "Write to a friend to plan the weekend: where to go, when to meet and who is coming.",
+    "points": "where;when;who is coming",
+    "min_words": 30,
+    "max_words": 45,
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

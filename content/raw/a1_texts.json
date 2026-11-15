@@ -592,5 +592,170 @@
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "R601",
+    "unit_id": "U601",
+    "kind": "message",
+    "title": "Une carte de Marie",
+    "lines": "Chère Léa,\nJe suis à la mer avec ma famille.\nIl fait chaud et le séjour est très tranquille.\nBises, Marie",
+    "questions_json": "[{\"question\":\"Where is Marie?\",\"choices\":[\"At the seaside\",\"In the mountains\",\"At home\"],\"answer\":0},{\"question\":\"What is the weather like?\",\"choices\":[\"Hot\",\"Cold\",\"Rainy\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R602",
+    "unit_id": "U601",
+    "kind": "message",
+    "title": "Une carte de Paul",
+    "lines": "Salut Tom !\nJe suis à Paris pour trois jours.\nDemain, je vais au musée.\nÀ bientôt, Paul",
+    "questions_json": "[{\"question\":\"How long is Paul in Paris?\",\"choices\":[\"Three days\",\"A week\",\"Two days\"],\"answer\":0},{\"question\":\"What is he doing tomorrow?\",\"choices\":[\"Going to the museum\",\"Going home\",\"Going to the beach\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R603",
+    "unit_id": "U601",
+    "kind": "message",
+    "title": "Une carte de Sophie",
+    "lines": "Chers parents,\nLa plage est pleine de monde, mais la mer est belle.\nJe vous souhaite une bonne semaine !\nSophie",
+    "questions_json": "[{\"question\":\"What is the beach like?\",\"choices\":[\"Full of people\",\"Empty\",\"Closed\"],\"answer\":0},{\"question\":\"Who is the card for?\",\"choices\":[\"Her parents\",\"Her friend\",\"Her teacher\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R604",
+    "unit_id": "U602",
+    "kind": "notice",
+    "title": "Théâtre du Parc",
+    "lines": "Ce soir : « La Belle Nuit »\nLe spectacle commence à 20h30\nPrix : 15 €",
+    "questions_json": "[{\"question\":\"What time does the show start?\",\"choices\":[\"8:30 pm\",\"3:30 pm\",\"8:00 pm\"],\"answer\":0},{\"question\":\"How much is a ticket?\",\"choices\":[\"€15\",\"€50\",\"€5\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R605",
+    "unit_id": "U602",
+    "kind": "notice",
+    "title": "Exposition",
+    "lines": "Exposition de peinture\nDu 3 au 30 mai\nOuvert de 10h à 18h, fermé le lundi",
+    "questions_json": "[{\"question\":\"What is in the exhibition?\",\"choices\":[\"Paintings\",\"Photos\",\"Books\"],\"answer\":0},{\"question\":\"Which day is it closed?\",\"choices\":[\"Monday\",\"Sunday\",\"Saturday\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R606",
+    "unit_id": "U602",
+    "kind": "message",
+    "title": "Un message de Léa",
+    "lines": "Tom,\nIl y a un concert au bar ce soir.\nTu viens danser avec nous ?",
+    "questions_json": "[{\"question\":\"Where is the concert?\",\"choices\":[\"At the bar\",\"At the theatre\",\"At the park\"],\"answer\":0},{\"question\":\"What does Léa invite Tom to do?\",\"choices\":[\"Dance\",\"Eat\",\"Sing\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R607",
+    "unit_id": "U603",
+    "kind": "sign",
+    "title": "Piscine",
+    "lines": "Pas de chiens\nPas de bruit après 22h",
+    "questions_json": "[{\"question\":\"Who can't come in?\",\"choices\":[\"Dogs\",\"Children\",\"Cyclists\"],\"answer\":0},{\"question\":\"When must it be quiet?\",\"choices\":[\"After 10 pm\",\"After 8 pm\",\"All day\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R608",
+    "unit_id": "U603",
+    "kind": "notice",
+    "title": "Objets trouvés",
+    "lines": "Vous avez perdu un objet ?\nSalle 3, jusqu'à 17h",
+    "questions_json": "[{\"question\":\"What is this office for?\",\"choices\":[\"Lost property\",\"Tickets\",\"Information\"],\"answer\":0},{\"question\":\"Until when is it open?\",\"choices\":[\"5 pm\",\"3 pm\",\"7 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R609",
+    "unit_id": "U603",
+    "kind": "sign",
+    "title": "Le parc",
+    "lines": "Ouvert jusqu'à 20h\nVélos et chiens interdits",
+    "questions_json": "[{\"question\":\"Until when is the park open?\",\"choices\":[\"8 pm\",\"8 am\",\"10 pm\"],\"answer\":0},{\"question\":\"What is not allowed?\",\"choices\":[\"Bikes and dogs\",\"Children\",\"Music\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R610",
+    "unit_id": "U604",
+    "kind": "notice",
+    "title": "Dans le bus",
+    "lines": "Avancez, s'il vous plaît.\nAsseyez-vous.\nTenez votre billet.",
+    "questions_json": "[{\"question\":\"What should you do with your ticket?\",\"choices\":[\"Hold it\",\"Throw it away\",\"Buy one\"],\"answer\":0},{\"question\":\"What should you do?\",\"choices\":[\"Sit down\",\"Stand up\",\"Get off\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R611",
+    "unit_id": "U604",
+    "kind": "notice",
+    "title": "Le gâteau",
+    "lines": "Prenez trois œufs et du lait.\nAjoutez un peu de sucre.\nC'est bon chaud !",
+    "questions_json": "[{\"question\":\"What do you add?\",\"choices\":[\"A little sugar\",\"Salt\",\"Water\"],\"answer\":0},{\"question\":\"How is the cake best?\",\"choices\":[\"Warm\",\"Cold\",\"Frozen\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R612",
+    "unit_id": "U604",
+    "kind": "notice",
+    "title": "Pour installer l'ordinateur",
+    "lines": "1. Ouvrez la boîte.\n2. Ajoutez votre nom.\n3. Ajoutez votre mail.",
+    "questions_json": "[{\"question\":\"What do you do first?\",\"choices\":[\"Open the box\",\"Add your name\",\"Turn it off\"],\"answer\":0},{\"question\":\"What is it for?\",\"choices\":[\"Setting up a computer\",\"Buying a computer\",\"Selling a computer\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R613",
+    "unit_id": "U607",
+    "kind": "message",
+    "title": "La réponse de Paul",
+    "lines": "Merci pour ton message !\nSamedi, je ne peux pas, mais dimanche, c'est possible.\nOn peut discuter de ça au café ?",
+    "questions_json": "[{\"question\":\"When is Paul free?\",\"choices\":[\"Sunday\",\"Saturday\",\"Friday\"],\"answer\":0},{\"question\":\"Where does he want to talk?\",\"choices\":[\"At a café\",\"At home\",\"On the phone\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R614",
+    "unit_id": "U607",
+    "kind": "message",
+    "title": "Un mail de Sophie",
+    "lines": "Bonjour Marc,\nJ'apporte quelque chose pour la fête ?\nJe peux apporter un gâteau.\nSophie",
+    "questions_json": "[{\"question\":\"What can Sophie bring?\",\"choices\":[\"A cake\",\"Drinks\",\"Flowers\"],\"answer\":0},{\"question\":\"What for?\",\"choices\":[\"The party\",\"The meeting\",\"A picnic\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R615",
+    "unit_id": "U607",
+    "kind": "message",
+    "title": "Pour Léa",
+    "lines": "Léa,\nJe m'occupe des enfants ce soir.\nTu peux saluer ta mère pour moi ?\nBises, Marie",
+    "questions_json": "[{\"question\":\"Who is Marie looking after tonight?\",\"choices\":[\"The children\",\"The dog\",\"Her mother\"],\"answer\":0},{\"question\":\"What does Marie ask Léa?\",\"choices\":[\"To say hello to her mother\",\"To call her\",\"To come tonight\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

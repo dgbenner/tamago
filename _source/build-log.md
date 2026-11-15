@@ -769,3 +769,12 @@ Part 3, Lingua Libre recordings:
 - Mock DELF A1 at the end of the last part (finalcheck.js FORMATS.fr): listening with QT17, reading four kinds of text (QT14), writing a form (QT15) and a message (QT16, not scored), speaking ungraded. Test added.
 - Audits on Part 5: word audit 0 early and 0 over 4 (2,715 lessons); every-lesson check 1 critical (three drafts repeated existing lines, so a QT09's chips looked up the other sentence) to 0 (27,736 questions). npm test 191 pass.
 - Quality pass for Fable: _review/french-part5-candidates.md (1,032 candidates, 155 drafts, 2 same text, 85 covered) and _review/french-part5-drafts.md. Nothing swapped.
+
+## 2026-11-15: French A1 Part 6, Reading and Writing (the last part)
+
+- French Part 6 (scripts/part6/fr.mjs, workbook v39): 17 circles, Brush-Up C11 and C12, 28 task items (15 Read and Answer texts, three per circle that has it; 8 Write the Number; 2 forms; 3 messages). U601 borrows the beach and weather packs' words. asseyez-vous and assieds-toi are words of their own; word-senses `via` reads their verb part's Wiktionary entry (check-content.mjs).
+- Reviews cut: bare imperatives (kept in Instructions, whose task they are), tomber idioms, fort as a literary very, king proverbs, affaires as business, archaic je vous salue, slang (gros as buddy), dark lines (Life Stories is mostly gentle drafts), idioms, near duplicates; re-pulled to refill.
+- 4,067 sentences shipped (3,137 Tatoeba, 930 originals); Part 6 drafts 155. FLELex core: 493 to 581 of 600 (97%; target 540).
+- Audits on Part 6: word audit 0 early and 0 over 4 (3,084 lessons); every-lesson check 0 issues (31,537 questions). npm test 191 pass.
+- All 13 A1 tasks now have circles (T06 and T10 in Part 5; T11 in Parts 5 and 6). The A1 final check after Part 6 is the mock DELF A1.
+- Quality pass for Fable: _review/french-part6-candidates.md (325 candidates, 155 drafts, 2 same text, 81 covered) and _review/french-part6-drafts.md. Nothing swapped.

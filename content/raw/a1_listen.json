@@ -376,5 +376,77 @@
     "answer": "7",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "N601",
+    "unit_id": "U601",
+    "kind": "number",
+    "say": "Le séjour dure dix jours.",
+    "answer": "10",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N602",
+    "unit_id": "U601",
+    "kind": "price",
+    "say": "La chambre coûte quatre-vingts euros la nuit.",
+    "answer": "80",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N603",
+    "unit_id": "U602",
+    "kind": "time",
+    "say": "Le spectacle commence à vingt heures trente.",
+    "answer": "20:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N604",
+    "unit_id": "U602",
+    "kind": "price",
+    "say": "Le billet coûte douze euros.",
+    "answer": "12",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N605",
+    "unit_id": "U603",
+    "kind": "time",
+    "say": "Le magasin est ouvert jusqu'à dix-neuf heures.",
+    "answer": "19:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N606",
+    "unit_id": "U603",
+    "kind": "date",
+    "say": "L'exposition, c'est jusqu'au trente juin.",
+    "answer": "30/6",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N607",
+    "unit_id": "U604",
+    "kind": "number",
+    "say": "Prenez la sortie numéro quatre.",
+    "answer": "4",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N608",
+    "unit_id": "U604",
+    "kind": "number",
+    "say": "Ajoutez deux cents grammes de sucre.",
+    "answer": "200",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

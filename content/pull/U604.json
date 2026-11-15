@@ -1,0 +1,961 @@
+{
+  "unit_id": "U604",
+  "pulled_at": "2026-11-15",
+  "candidates": 72,
+  "sentences": [
+    {
+      "sentence_id": "S17701",
+      "unit_id": "U604",
+      "french": "Tu veux t'asseoir ?",
+      "english": "Do you want to sit?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10044171",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17702",
+      "unit_id": "U604",
+      "french": "Pourquoi ne vous asseyez-vous pas ?",
+      "english": "Why don't you sit down?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2211695",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17703",
+      "unit_id": "U604",
+      "french": "Je peux m'asseoir ici ?",
+      "english": "Would it be OK if I sat here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3563229",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gillux",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17704",
+      "unit_id": "U604",
+      "french": "Est-ce que c'est facile à installer ?",
+      "english": "Is it easy to install?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8031343",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17705",
+      "unit_id": "U604",
+      "french": "Tu peux me tenir ça ?",
+      "english": "Would you hold this for me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12921799",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17706",
+      "unit_id": "U604",
+      "french": "Pourquoi ne pas vous asseoir ici ?",
+      "english": "Why don't you take a seat here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2211531",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17709",
+      "unit_id": "U604",
+      "french": "Assieds-toi, s'il te plaît.",
+      "english": "Please sit down.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "415607",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "qdii",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17710",
+      "unit_id": "U604",
+      "french": "Assieds-toi là.",
+      "english": "Sit there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1756081",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "Sit down there."
+      ]
+    },
+    {
+      "sentence_id": "S17711",
+      "unit_id": "U604",
+      "french": "Tenez ça !",
+      "english": "Hold this.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1973024",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17712",
+      "unit_id": "U604",
+      "french": "Assieds-toi ici.",
+      "english": "Sit here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2786917",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rovo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17713",
+      "unit_id": "U604",
+      "french": "Avancez maintenant.",
+      "english": "Move along now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9252922",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17714",
+      "unit_id": "U604",
+      "french": "Tenez, monsieur.",
+      "english": "Here you go, sir.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11790335",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17715",
+      "unit_id": "U604",
+      "french": "Continuez à avancer !",
+      "english": "Just keep moving.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1852221",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17716",
+      "unit_id": "U604",
+      "french": "Bien sûr, avancez.",
+      "english": "Of course, go ahead.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7272179",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tras",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17717",
+      "unit_id": "U604",
+      "french": "On doit avancer.",
+      "english": "We need to move ahead.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7449044",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17718",
+      "unit_id": "U604",
+      "french": "Avancez plus vite !",
+      "english": "Walk faster!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10026497",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17719",
+      "unit_id": "U604",
+      "french": "Tenez la bouteille.",
+      "english": "Hold the bottle.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11963989",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17720",
+      "unit_id": "U604",
+      "french": "Ajoutez plus d'eau.",
+      "english": "Add more water.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10492646",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Micsmithel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17724",
+      "unit_id": "U604",
+      "french": "S'il vous plaît, asseyez-vous !",
+      "english": "Please have a seat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12809",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17725",
+      "unit_id": "U604",
+      "french": "Non, assieds-toi !",
+      "english": "No, sit down.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4961467",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17728",
+      "unit_id": "U604",
+      "french": "Asseyez-vous ensemble.",
+      "english": "Sit together.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12476739",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "always",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S17729",
+      "unit_id": "U604",
+      "french": "Entre et assieds-toi.",
+      "english": "Come in and sit down.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2355127",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": [
+        "Come on in and sit down."
+      ]
+    },
+    {
+      "sentence_id": "S17730",
+      "unit_id": "U604",
+      "french": "Assieds-toi avec moi.",
+      "english": "Sit down with me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2856628",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "janfred",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S17701",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17701",
+      "position": 2,
+      "surface": "veux",
+      "word_id": "W2067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17701",
+      "position": 3,
+      "surface": "t'",
+      "word_id": "W808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17701",
+      "position": 4,
+      "surface": "asseoir",
+      "word_id": "W2428",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17702",
+      "position": 1,
+      "surface": "Pourquoi",
+      "word_id": "W438",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17702",
+      "position": 2,
+      "surface": "ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17702",
+      "position": 3,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17702",
+      "position": 4,
+      "surface": "asseyez-vous",
+      "word_id": "W2426",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17702",
+      "position": 5,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17703",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17703",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17703",
+      "position": 3,
+      "surface": "m'",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17703",
+      "position": 4,
+      "surface": "asseoir",
+      "word_id": "W2428",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17703",
+      "position": 5,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17704",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17704",
+      "position": 2,
+      "surface": "c'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17704",
+      "position": 3,
+      "surface": "facile",
+      "word_id": "W1679",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17704",
+      "position": 4,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17704",
+      "position": 5,
+      "surface": "installer",
+      "word_id": "W2433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17705",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17705",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17705",
+      "position": 3,
+      "surface": "me",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17705",
+      "position": 4,
+      "surface": "tenir",
+      "word_id": "W2430",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17705",
+      "position": 5,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17706",
+      "position": 1,
+      "surface": "Pourquoi",
+      "word_id": "W438",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17706",
+      "position": 2,
+      "surface": "ne",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17706",
+      "position": 3,
+      "surface": "pas",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17706",
+      "position": 4,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17706",
+      "position": 5,
+      "surface": "asseoir",
+      "word_id": "W2428",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17706",
+      "position": 6,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17709",
+      "position": 1,
+      "surface": "Assieds-toi",
+      "word_id": "W2427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17709",
+      "position": 2,
+      "surface": "s'il te plaît",
+      "word_id": "W038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17710",
+      "position": 1,
+      "surface": "Assieds-toi",
+      "word_id": "W2427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17710",
+      "position": 2,
+      "surface": "là",
+      "word_id": "W1628",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17711",
+      "position": 1,
+      "surface": "Tenez",
+      "word_id": "W2429",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17711",
+      "position": 2,
+      "surface": "ça",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17712",
+      "position": 1,
+      "surface": "Assieds-toi",
+      "word_id": "W2427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17712",
+      "position": 2,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17713",
+      "position": 1,
+      "surface": "Avancez",
+      "word_id": "W2434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17713",
+      "position": 2,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17714",
+      "position": 1,
+      "surface": "Tenez",
+      "word_id": "W2429",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17714",
+      "position": 2,
+      "surface": "monsieur",
+      "word_id": "W803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17715",
+      "position": 1,
+      "surface": "Continuez",
+      "word_id": "W1638",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17715",
+      "position": 2,
+      "surface": "à",
+      "word_id": "W475",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17715",
+      "position": 3,
+      "surface": "avancer",
+      "word_id": "W2435",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17716",
+      "position": 1,
+      "surface": "Bien",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17716",
+      "position": 2,
+      "surface": "sûr",
+      "word_id": "W1295",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17716",
+      "position": 3,
+      "surface": "avancez",
+      "word_id": "W2434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17717",
+      "position": 1,
+      "surface": "On",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17717",
+      "position": 2,
+      "surface": "doit",
+      "word_id": "W2219",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17717",
+      "position": 3,
+      "surface": "avancer",
+      "word_id": "W2435",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17718",
+      "position": 1,
+      "surface": "Avancez",
+      "word_id": "W2434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17718",
+      "position": 2,
+      "surface": "plus",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17718",
+      "position": 3,
+      "surface": "vite",
+      "word_id": "W1821",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17719",
+      "position": 1,
+      "surface": "Tenez",
+      "word_id": "W2429",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17719",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17719",
+      "position": 3,
+      "surface": "bouteille",
+      "word_id": "W900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17720",
+      "position": 1,
+      "surface": "Ajoutez",
+      "word_id": "W2431",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17720",
+      "position": 2,
+      "surface": "plus",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17720",
+      "position": 3,
+      "surface": "d'",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17720",
+      "position": 4,
+      "surface": "eau",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17724",
+      "position": 1,
+      "surface": "S'il vous plaît",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17724",
+      "position": 2,
+      "surface": "asseyez-vous",
+      "word_id": "W2426",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17725",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17725",
+      "position": 2,
+      "surface": "assieds-toi",
+      "word_id": "W2427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17728",
+      "position": 1,
+      "surface": "Asseyez-vous",
+      "word_id": "W2426",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17728",
+      "position": 2,
+      "surface": "ensemble",
+      "word_id": "W1258",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17729",
+      "position": 1,
+      "surface": "Entre",
+      "word_id": "W1645",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17729",
+      "position": 2,
+      "surface": "et",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17729",
+      "position": 3,
+      "surface": "assieds-toi",
+      "word_id": "W2427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17730",
+      "position": 1,
+      "surface": "Assieds-toi",
+      "word_id": "W2427",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17730",
+      "position": 2,
+      "surface": "avec",
+      "word_id": "W1013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S17730",
+      "position": 3,
+      "surface": "moi",
+      "word_id": "W1415",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A177101",
+      "sentence_id": "S17710",
+      "direction": "fr_to_en",
+      "answer": "Sit down there.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A177291",
+      "sentence_id": "S17729",
+      "direction": "fr_to_en",
+      "answer": "Come on in and sit down.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

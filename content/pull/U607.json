@@ -1,0 +1,802 @@
+{
+  "unit_id": "U607",
+  "pulled_at": "2026-11-15",
+  "candidates": 85,
+  "sentences": [
+    {
+      "sentence_id": "S18201",
+      "unit_id": "U607",
+      "french": "Tu veux en discuter?",
+      "english": "Do you want to discuss it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6008477",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Fabimoto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18202",
+      "unit_id": "U607",
+      "french": "Tu veux aller quelque part ?",
+      "english": "Do you want to go somewhere?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4534807",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gillux",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18203",
+      "unit_id": "U607",
+      "french": "Est-ce que quelqu'un s'en occupe ?",
+      "english": "Is someone taking care of it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7793945",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18205",
+      "unit_id": "U607",
+      "french": "Qui va s'occuper de notre chien ?",
+      "english": "Who's going to look after our dog?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10551387",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lbdx",
+      "other_english": [
+        "Who is going to look after our dog?"
+      ]
+    },
+    {
+      "sentence_id": "S18207",
+      "unit_id": "U607",
+      "french": "J'aime discuter.",
+      "english": "I like to talk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2383914",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18208",
+      "unit_id": "U607",
+      "french": "Je veux discuter.",
+      "english": "I want to talk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2475366",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18214",
+      "unit_id": "U607",
+      "french": "Je m'occupe de tout.",
+      "english": "I'll take care of everything.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2949756",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Blabla",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18215",
+      "unit_id": "U607",
+      "french": "Elle s'occupe d'eux.",
+      "english": "She looks after them.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3272641",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Julien_PDC",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18216",
+      "unit_id": "U607",
+      "french": "Elle peut s'en occuper.",
+      "english": "She can handle it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3668327",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18217",
+      "unit_id": "U607",
+      "french": "Je peux m'en occuper.",
+      "english": "I can handle that.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3668355",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I can handle this.",
+        "I can take care of it."
+      ]
+    },
+    {
+      "sentence_id": "S18226",
+      "unit_id": "U607",
+      "french": "Je veux juste discuter.",
+      "english": "I just want to talk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2025277",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18227",
+      "unit_id": "U607",
+      "french": "Il nous faut discuter.",
+      "english": "We must talk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4779630",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18228",
+      "unit_id": "U607",
+      "french": "J'apporte du vin.",
+      "english": "I'm bringing wine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5262097",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "martin9",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18229",
+      "unit_id": "U607",
+      "french": "C'est là quelque part.",
+      "english": "It's here somewhere.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8395836",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18230",
+      "unit_id": "U607",
+      "french": "Paul veut juste discuter.",
+      "english": "Paul just wants to talk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11656908",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Adrien_FR",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S18201",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18201",
+      "position": 2,
+      "surface": "veux",
+      "word_id": "W2067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18201",
+      "position": 3,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18201",
+      "position": 4,
+      "surface": "discuter",
+      "word_id": "W2458",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18202",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18202",
+      "position": 2,
+      "surface": "veux",
+      "word_id": "W2067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18202",
+      "position": 3,
+      "surface": "aller",
+      "word_id": "W1669",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18202",
+      "position": 4,
+      "surface": "quelque",
+      "word_id": "W2457",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18202",
+      "position": 5,
+      "surface": "part",
+      "word_id": "W1287",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18203",
+      "position": 1,
+      "surface": "Est-ce que",
+      "word_id": "W434",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18203",
+      "position": 2,
+      "surface": "quelqu'un",
+      "word_id": "W1424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18203",
+      "position": 3,
+      "surface": "s'",
+      "word_id": "W725",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18203",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18203",
+      "position": 5,
+      "surface": "occupe",
+      "word_id": "W2461",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18205",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W432",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18205",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W480",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18205",
+      "position": 3,
+      "surface": "s'",
+      "word_id": "W725",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18205",
+      "position": 4,
+      "surface": "occuper",
+      "word_id": "W2462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18205",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18205",
+      "position": 6,
+      "surface": "notre",
+      "word_id": "W1420",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18205",
+      "position": 7,
+      "surface": "chien",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18207",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18207",
+      "position": 2,
+      "surface": "aime",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18207",
+      "position": 3,
+      "surface": "discuter",
+      "word_id": "W2458",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18208",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18208",
+      "position": 2,
+      "surface": "veux",
+      "word_id": "W2067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18208",
+      "position": 3,
+      "surface": "discuter",
+      "word_id": "W2458",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18214",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18214",
+      "position": 2,
+      "surface": "m'",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18214",
+      "position": 3,
+      "surface": "occupe",
+      "word_id": "W2461",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18214",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18214",
+      "position": 5,
+      "surface": "tout",
+      "word_id": "W1402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18215",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18215",
+      "position": 2,
+      "surface": "s'",
+      "word_id": "W725",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18215",
+      "position": 3,
+      "surface": "occupe",
+      "word_id": "W2461",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18215",
+      "position": 4,
+      "surface": "d'",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18215",
+      "position": 5,
+      "surface": "eux",
+      "word_id": "W1418",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18216",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18216",
+      "position": 2,
+      "surface": "peut",
+      "word_id": "W2237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18216",
+      "position": 3,
+      "surface": "s'",
+      "word_id": "W725",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18216",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18216",
+      "position": 5,
+      "surface": "occuper",
+      "word_id": "W2462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18217",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18217",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18217",
+      "position": 3,
+      "surface": "m'",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18217",
+      "position": 4,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18217",
+      "position": 5,
+      "surface": "occuper",
+      "word_id": "W2462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18226",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18226",
+      "position": 2,
+      "surface": "veux",
+      "word_id": "W2067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18226",
+      "position": 3,
+      "surface": "juste",
+      "word_id": "W1822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18226",
+      "position": 4,
+      "surface": "discuter",
+      "word_id": "W2458",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18227",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18227",
+      "position": 2,
+      "surface": "nous",
+      "word_id": "W402",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18227",
+      "position": 3,
+      "surface": "faut",
+      "word_id": "W2221",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18227",
+      "position": 4,
+      "surface": "discuter",
+      "word_id": "W2458",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18228",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18228",
+      "position": 2,
+      "surface": "apporte",
+      "word_id": "W2464",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18228",
+      "position": 3,
+      "surface": "du",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18228",
+      "position": 4,
+      "surface": "vin",
+      "word_id": "W1604",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18229",
+      "position": 1,
+      "surface": "C'est",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18229",
+      "position": 2,
+      "surface": "là",
+      "word_id": "W1628",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18229",
+      "position": 3,
+      "surface": "quelque",
+      "word_id": "W2457",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18229",
+      "position": 4,
+      "surface": "part",
+      "word_id": "W1287",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18230",
+      "position": 1,
+      "surface": "Paul",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18230",
+      "position": 2,
+      "surface": "veut",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18230",
+      "position": 3,
+      "surface": "juste",
+      "word_id": "W1822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18230",
+      "position": 4,
+      "surface": "discuter",
+      "word_id": "W2458",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A182051",
+      "sentence_id": "S18205",
+      "direction": "fr_to_en",
+      "answer": "Who is going to look after our dog?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A182171",
+      "sentence_id": "S18217",
+      "direction": "fr_to_en",
+      "answer": "I can handle this.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A182172",
+      "sentence_id": "S18217",
+      "direction": "fr_to_en",
+      "answer": "I can take care of it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

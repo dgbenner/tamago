@@ -1,0 +1,779 @@
+{
+  "unit_id": "U615",
+  "pulled_at": "2026-11-15",
+  "candidates": 47,
+  "sentences": [
+    {
+      "sentence_id": "S18701",
+      "unit_id": "U615",
+      "french": "Où sont tes affaires ?",
+      "english": "Where are your things?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "474327",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18702",
+      "unit_id": "U615",
+      "french": "Où sont mes affaires ?",
+      "english": "Where are my things?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2036135",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18703",
+      "unit_id": "U615",
+      "french": "Il me respecte.",
+      "english": "He respects me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1151729",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18704",
+      "unit_id": "U615",
+      "french": "Elle s'habille.",
+      "english": "She's getting dressed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2078854",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18705",
+      "unit_id": "U615",
+      "french": "Elle te respecte.",
+      "english": "She respects you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3384623",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18708",
+      "unit_id": "U615",
+      "french": "Je dois m'habiller.",
+      "english": "I have to get dressed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4028899",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Amastan",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18709",
+      "unit_id": "U615",
+      "french": "Je vais m'habiller.",
+      "english": "I'm going to get dressed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4594239",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": [
+        "I am going to get dressed."
+      ]
+    },
+    {
+      "sentence_id": "S18712",
+      "unit_id": "U615",
+      "french": "Tu peux t'habiller, maintenant.",
+      "english": "You can get dressed now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4195688",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18713",
+      "unit_id": "U615",
+      "french": "Elle s'habille toujours en noir.",
+      "english": "She always dresses in black.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1156122",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18714",
+      "unit_id": "U615",
+      "french": "L'hôtel est situé sur la montagne.",
+      "english": "The hotel is located on the mountain.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8518830",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "The hotel is situated on the mountain."
+      ]
+    },
+    {
+      "sentence_id": "S18715",
+      "unit_id": "U615",
+      "french": "Je vous respecte.",
+      "english": "I respect you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4594065",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18721",
+      "unit_id": "U615",
+      "french": "Ce sont mes affaires.",
+      "english": "This is my business.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6843650",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Aiji",
+      "other_english": [
+        "These are my things."
+      ]
+    },
+    {
+      "sentence_id": "S18722",
+      "unit_id": "U615",
+      "french": "J'ai mes affaires.",
+      "english": "I have my things.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7255194",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Rockaround",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18726",
+      "unit_id": "U615",
+      "french": "Je suis ici pour affaires.",
+      "english": "I am here on business.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1269479",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S18730",
+      "unit_id": "U615",
+      "french": "Il est dans les affaires.",
+      "english": "He is in business.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4696158",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sacredceltic",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S18701",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18701",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18701",
+      "position": 3,
+      "surface": "tes",
+      "word_id": "W426",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18701",
+      "position": 4,
+      "surface": "affaires",
+      "word_id": "W2641",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18702",
+      "position": 1,
+      "surface": "Où",
+      "word_id": "W433",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18702",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18702",
+      "position": 3,
+      "surface": "mes",
+      "word_id": "W423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18702",
+      "position": 4,
+      "surface": "affaires",
+      "word_id": "W2641",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18703",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18703",
+      "position": 2,
+      "surface": "me",
+      "word_id": "W1262",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18703",
+      "position": 3,
+      "surface": "respecte",
+      "word_id": "W2638",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18704",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18704",
+      "position": 2,
+      "surface": "s'",
+      "word_id": "W725",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18704",
+      "position": 3,
+      "surface": "habille",
+      "word_id": "W2636",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18705",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18705",
+      "position": 2,
+      "surface": "te",
+      "word_id": "W2001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18705",
+      "position": 3,
+      "surface": "respecte",
+      "word_id": "W2638",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18708",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18708",
+      "position": 2,
+      "surface": "dois",
+      "word_id": "W2218",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18708",
+      "position": 3,
+      "surface": "m'",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18708",
+      "position": 4,
+      "surface": "habiller",
+      "word_id": "W2637",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18709",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18709",
+      "position": 2,
+      "surface": "vais",
+      "word_id": "W478",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18709",
+      "position": 3,
+      "surface": "m'",
+      "word_id": "W807",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18709",
+      "position": 4,
+      "surface": "habiller",
+      "word_id": "W2637",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18712",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18712",
+      "position": 2,
+      "surface": "peux",
+      "word_id": "W814",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18712",
+      "position": 3,
+      "surface": "t'",
+      "word_id": "W808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18712",
+      "position": 4,
+      "surface": "habiller",
+      "word_id": "W2637",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18712",
+      "position": 5,
+      "surface": "maintenant",
+      "word_id": "W462",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18713",
+      "position": 1,
+      "surface": "Elle",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18713",
+      "position": 2,
+      "surface": "s'",
+      "word_id": "W725",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18713",
+      "position": 3,
+      "surface": "habille",
+      "word_id": "W2636",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18713",
+      "position": 4,
+      "surface": "toujours",
+      "word_id": "W1407",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18713",
+      "position": 5,
+      "surface": "en",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18713",
+      "position": 6,
+      "surface": "noir",
+      "word_id": "W455",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18714",
+      "position": 1,
+      "surface": "L'",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18714",
+      "position": 2,
+      "surface": "hôtel",
+      "word_id": "W1003",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18714",
+      "position": 3,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18714",
+      "position": 4,
+      "surface": "situé",
+      "word_id": "W2639",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18714",
+      "position": 5,
+      "surface": "sur",
+      "word_id": "W1074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18714",
+      "position": 6,
+      "surface": "la",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18714",
+      "position": 7,
+      "surface": "montagne",
+      "word_id": "W1062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18715",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18715",
+      "position": 2,
+      "surface": "vous",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18715",
+      "position": 3,
+      "surface": "respecte",
+      "word_id": "W2638",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18721",
+      "position": 1,
+      "surface": "Ce",
+      "word_id": "W2084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18721",
+      "position": 2,
+      "surface": "sont",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18721",
+      "position": 3,
+      "surface": "mes",
+      "word_id": "W423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18721",
+      "position": 4,
+      "surface": "affaires",
+      "word_id": "W2641",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18722",
+      "position": 1,
+      "surface": "J'",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18722",
+      "position": 2,
+      "surface": "ai",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18722",
+      "position": 3,
+      "surface": "mes",
+      "word_id": "W423",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18722",
+      "position": 4,
+      "surface": "affaires",
+      "word_id": "W2641",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18726",
+      "position": 1,
+      "surface": "Je",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18726",
+      "position": 2,
+      "surface": "suis",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18726",
+      "position": 3,
+      "surface": "ici",
+      "word_id": "W206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18726",
+      "position": 4,
+      "surface": "pour",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18726",
+      "position": 5,
+      "surface": "affaires",
+      "word_id": "W2641",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18730",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18730",
+      "position": 2,
+      "surface": "est",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18730",
+      "position": 3,
+      "surface": "dans",
+      "word_id": "W477",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18730",
+      "position": 4,
+      "surface": "les",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S18730",
+      "position": 5,
+      "surface": "affaires",
+      "word_id": "W2641",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A187091",
+      "sentence_id": "S18709",
+      "direction": "fr_to_en",
+      "answer": "I am going to get dressed.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A187141",
+      "sentence_id": "S18714",
+      "direction": "fr_to_en",
+      "answer": "The hotel is situated on the mountain.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A187211",
+      "sentence_id": "S18721",
+      "direction": "fr_to_en",
+      "answer": "These are my things.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
