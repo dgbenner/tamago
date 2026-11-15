@@ -1,0 +1,1467 @@
+{
+  "unit_id": "U32",
+  "pulled_at": "2026-11-14",
+  "candidates": 140,
+  "sentences": [
+    {
+      "sentence_id": "S32001",
+      "unit_id": "U32",
+      "french": "Que quer dizer essa palavra?",
+      "english": "What does this word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8865103",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32002",
+      "unit_id": "U32",
+      "french": "Como se diz...?",
+      "english": "How do you say...?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "844882",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32003",
+      "unit_id": "U32",
+      "french": "O que quer dizer?",
+      "english": "What does it mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1190045",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32004",
+      "unit_id": "U32",
+      "french": "O que você quer dizer?",
+      "english": "What do you mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "381679",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "What do you want to say?",
+        "What do you mean by that?"
+      ]
+    },
+    {
+      "sentence_id": "S32005",
+      "unit_id": "U32",
+      "french": "O que significa essa palavra?",
+      "english": "What does that word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2680760",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "vitoreiji",
+      "other_english": [
+        "What does this word mean?"
+      ]
+    },
+    {
+      "sentence_id": "S32006",
+      "unit_id": "U32",
+      "french": "O que essa palavra significa?",
+      "english": "What does this word mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2726644",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32007",
+      "unit_id": "U32",
+      "french": "Que diz ela?",
+      "english": "What does she say?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1162897",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32008",
+      "unit_id": "U32",
+      "french": "Você entende português?",
+      "english": "Do you understand Portuguese?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5973650",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32009",
+      "unit_id": "U32",
+      "french": "Ele pode falar inglês?",
+      "english": "Can he speak English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1066626",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32010",
+      "unit_id": "U32",
+      "french": "Você gosta de inglês?",
+      "english": "Do you like English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1292604",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32011",
+      "unit_id": "U32",
+      "french": "Com licença, o que isso significa?",
+      "english": "Sorry, what does that mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13972484",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32012",
+      "unit_id": "U32",
+      "french": "Você gosta de inglês, não gosta?",
+      "english": "You like English, don't you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "393714",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32013",
+      "unit_id": "U32",
+      "french": "Como é que se come isso?",
+      "english": "How does one eat this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4887266",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32014",
+      "unit_id": "U32",
+      "french": "É isso o que o Tom diz?",
+      "english": "Is that what Tom says?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6781474",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32015",
+      "unit_id": "U32",
+      "french": "Se você quer falar, fale.",
+      "english": "If you want to talk, talk.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2462707",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32016",
+      "unit_id": "U32",
+      "french": "Ele é português.",
+      "english": "He's Portuguese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3559588",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": [
+        "He is Portuguese."
+      ]
+    },
+    {
+      "sentence_id": "S32017",
+      "unit_id": "U32",
+      "french": "Não entendo o português.",
+      "english": "I don't understand Portuguese.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11906695",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32018",
+      "unit_id": "U32",
+      "french": "Quer café?",
+      "english": "Would you like some coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8990094",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32019",
+      "unit_id": "U32",
+      "french": "O que você quer?",
+      "english": "What do you want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "415025",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "What do you desire?",
+        "What do you wish for?",
+        "What is it that you want?",
+        "What are you going to have?"
+      ]
+    },
+    {
+      "sentence_id": "S32020",
+      "unit_id": "U32",
+      "french": "Você quer leite?",
+      "english": "Do you want milk?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1220101",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Do you want some milk?"
+      ]
+    },
+    {
+      "sentence_id": "S32021",
+      "unit_id": "U32",
+      "french": "O que Tom quer?",
+      "english": "What does Tom want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1298376",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32022",
+      "unit_id": "U32",
+      "french": "O que ela quer?",
+      "english": "What does she want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1799537",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32023",
+      "unit_id": "U32",
+      "french": "O que ele quer?",
+      "english": "What does he want?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1877105",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32024",
+      "unit_id": "U32",
+      "french": "Você quer vinho?",
+      "english": "Do you want wine?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1917323",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Would you like some wine?"
+      ]
+    },
+    {
+      "sentence_id": "S32025",
+      "unit_id": "U32",
+      "french": "Você quer café?",
+      "english": "Do you want coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2595546",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Do you want some coffee?",
+        "Will you have some coffee?"
+      ]
+    },
+    {
+      "sentence_id": "S32026",
+      "unit_id": "U32",
+      "french": "Quer mais pão?",
+      "english": "Would you like some more bread?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3072176",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32027",
+      "unit_id": "U32",
+      "french": "Você quer maçã?",
+      "english": "Do you want an apple?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5016269",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32028",
+      "unit_id": "U32",
+      "french": "Você quer queijo?",
+      "english": "Do you want some cheese?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5043146",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S32029",
+      "unit_id": "U32",
+      "french": "Quer mais café?",
+      "english": "Would you like more coffee?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5568936",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": [
+        "Do you want some more coffee?"
+      ]
+    },
+    {
+      "sentence_id": "S32030",
+      "unit_id": "U32",
+      "french": "Que palavra é essa?",
+      "english": "What word is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1587087",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S32001",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 3,
+      "surface": "dizer",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 4,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32001",
+      "position": 5,
+      "surface": "palavra",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32002",
+      "position": 3,
+      "surface": "diz",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32003",
+      "position": 3,
+      "surface": "dizer",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32004",
+      "position": 4,
+      "surface": "dizer",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 2,
+      "surface": "significa",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 3,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32005",
+      "position": 4,
+      "surface": "palavra",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 2,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 3,
+      "surface": "palavra",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32006",
+      "position": 4,
+      "surface": "significa",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 2,
+      "surface": "diz",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32007",
+      "position": 3,
+      "surface": "ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 2,
+      "surface": "entende",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32008",
+      "position": 3,
+      "surface": "português",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 3,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32009",
+      "position": 4,
+      "surface": "inglês",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32010",
+      "position": 4,
+      "surface": "inglês",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 1,
+      "surface": "Com licença",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 2,
+      "surface": "o que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 3,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32011",
+      "position": 4,
+      "surface": "significa",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 4,
+      "surface": "inglês",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 5,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32012",
+      "position": 6,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 3,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 4,
+      "surface": "se",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 5,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32013",
+      "position": 6,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 2,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 3,
+      "surface": "o que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32014",
+      "position": 6,
+      "surface": "diz",
+      "word_id": "W713",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 1,
+      "surface": "Se",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 4,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32015",
+      "position": 5,
+      "surface": "fale",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32016",
+      "position": 3,
+      "surface": "português",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 2,
+      "surface": "entendo",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32017",
+      "position": 4,
+      "surface": "português",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32018",
+      "position": 1,
+      "surface": "Quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32018",
+      "position": 2,
+      "surface": "café",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32019",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32019",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32019",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32020",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32020",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32020",
+      "position": 3,
+      "surface": "leite",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32021",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32021",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32021",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32022",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32022",
+      "position": 2,
+      "surface": "ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32022",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32023",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32023",
+      "position": 2,
+      "surface": "ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32023",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32024",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32024",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32024",
+      "position": 3,
+      "surface": "vinho",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32025",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32025",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32025",
+      "position": 3,
+      "surface": "café",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32026",
+      "position": 1,
+      "surface": "Quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32026",
+      "position": 2,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32026",
+      "position": 3,
+      "surface": "pão",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32027",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32027",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32027",
+      "position": 3,
+      "surface": "maçã",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32028",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32028",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32028",
+      "position": 3,
+      "surface": "queijo",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 1,
+      "surface": "Quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 2,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32029",
+      "position": 3,
+      "surface": "café",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 2,
+      "surface": "palavra",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S32030",
+      "position": 4,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A320041",
+      "sentence_id": "S32004",
+      "direction": "fr_to_en",
+      "answer": "What do you want to say?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320042",
+      "sentence_id": "S32004",
+      "direction": "fr_to_en",
+      "answer": "What do you mean by that?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320051",
+      "sentence_id": "S32005",
+      "direction": "fr_to_en",
+      "answer": "What does this word mean?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320161",
+      "sentence_id": "S32016",
+      "direction": "fr_to_en",
+      "answer": "He is Portuguese.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320191",
+      "sentence_id": "S32019",
+      "direction": "fr_to_en",
+      "answer": "What do you desire?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320192",
+      "sentence_id": "S32019",
+      "direction": "fr_to_en",
+      "answer": "What do you wish for?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320193",
+      "sentence_id": "S32019",
+      "direction": "fr_to_en",
+      "answer": "What is it that you want?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320194",
+      "sentence_id": "S32019",
+      "direction": "fr_to_en",
+      "answer": "What are you going to have?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320201",
+      "sentence_id": "S32020",
+      "direction": "fr_to_en",
+      "answer": "Do you want some milk?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320241",
+      "sentence_id": "S32024",
+      "direction": "fr_to_en",
+      "answer": "Would you like some wine?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320251",
+      "sentence_id": "S32025",
+      "direction": "fr_to_en",
+      "answer": "Do you want some coffee?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320252",
+      "sentence_id": "S32025",
+      "direction": "fr_to_en",
+      "answer": "Will you have some coffee?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A320291",
+      "sentence_id": "S32029",
+      "direction": "fr_to_en",
+      "answer": "Do you want some more coffee?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

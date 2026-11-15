@@ -1,0 +1,200 @@
+{
+ "_about": "Pull review for the Brazilian Portuguese course: Tatoeba sentences turned down (reject, by Tatoeba id, with the reason) and English picks (english) per circle.",
+ "U01": {
+  "reject": {
+   "2086896": "English doesn't match",
+   "2738748": "a two-line dialogue in quotes",
+   "6774452": "odd on its own",
+   "6780709": "odd on its own",
+   "8212249": "missing comma"
+  }
+ },
+ "U31": {
+  "reject": {
+   "1150677": "rude on its own",
+   "1183929": "mais as anymore, off the circle's point",
+   "1183931": "mais as anymore",
+   "2115188": "rude on its own",
+   "2766632": "English doesn't match",
+   "4262779": "fale mais as tell me more",
+   "4809164": "mais as anymore",
+   "5026157": "mais as anymore",
+   "8029863": "mais as anymore",
+   "8029864": "mais as anymore"
+  },
+  "english": {
+   "576706": "I understand.",
+   "8057591": "I understand you."
+  }
+ },
+ "U02": {
+  "reject": {
+   "5760221": "a fragment in English"
+  }
+ },
+ "U03": {
+  "reject": {
+   "395116": "a two-line dialogue in quotes",
+   "480936": "English is an idiom",
+   "2456353": "a two-line dialogue in quotes",
+   "3013941": "two speakers in one line",
+   "3262265": "a two-line dialogue in quotes",
+   "3262292": "a two-line dialogue in quotes",
+   "3964669": "odd punctuation",
+   "3964670": "odd punctuation",
+   "4270154": "two speakers, punctuation wrong",
+   "6050116": "como estou as how do I look",
+   "11136845": "a two-line dialogue in quotes",
+   "11650564": "a two-line dialogue in quotes"
+  }
+ },
+ "U04": {
+  "reject": {
+   "934427": "an exclamation with como, confusing beside como as I eat",
+   "1213885": "an exclamation with como",
+   "1582490": "commands, not taught"
+  }
+ },
+ "U05": {
+  "reject": {
+   "384778": "English doesn't match (plural)",
+   "1322313": "English is odd (keep a dog)",
+   "4818213": "an insult",
+   "6780915": "odd on its own",
+   "7580795": "English says one dog"
+  }
+ },
+ "U32": {
+  "reject": {
+   "1163391": "quer as want",
+   "1200000": "English is archaic",
+   "1235349": "off the circle's point",
+   "2462707": "se as if",
+   "3072176": "quer as want",
+   "3559588": "português as a nationality",
+   "4261375": "quer dizer as want to tell",
+   "4887266": "como é que, a structure not taught",
+   "4902997": "quer as want; the circle teaches quer dizer",
+   "5016269": "quer as want",
+   "5043146": "quer as want",
+   "5568936": "quer as want",
+   "6098221": "Inglês with a capital",
+   "6636564": "se as if, not the circle's se diz",
+   "6844815": "quer as want",
+   "6972841": "português as a nationality",
+   "6972843": "português as a nationality",
+   "14069231": "English is an idiom (seconds)"
+  }
+ },
+ "U06": {
+  "reject": {
+   "6781423": "third of the same line",
+   "6781440": "third of the same line"
+  }
+ },
+ "U07": {
+  "reject": {
+   "411627": "muito as too",
+   "2562059": "muito as too",
+   "7902794": "bem as quite, not taught"
+  }
+ },
+ "U52": {
+  "reject": {
+   "7094041": "a command, not taught"
+  }
+ },
+ "U08": {
+  "reject": {
+   "1104900": "idiom (de cama)",
+   "2039545": "odd on its own",
+   "6062002": "como estamos as how do we look"
+  }
+ },
+ "U09": {
+  "reject": {
+   "5346828": "muito as too",
+   "6794852": "bem as quite, not taught",
+   "6794853": "bem as quite, not taught"
+  },
+  "english": {
+   "1006405": "Are you hungry?",
+   "2440865": "Are you sad?"
+  }
+ },
+ "U33": {
+  "reject": {
+   "1087893": "English is slang (What're you after?)",
+   "1669283": "idiom",
+   "6781773": "English idiom (has a thing for you)",
+   "6781794": "English idiom (has a thing for you)",
+   "8055603": "odd on its own",
+   "8055619": "odd on its own",
+   "8096237": "English doesn't match",
+   "8106094": "serve as will do, not is for",
+   "9056601": "serve as fit, not is for"
+  },
+  "english": {
+   "331975": "I don't know.",
+   "1087893": "What are you looking for?"
+  }
+ },
+ "U10": {
+  "reject": {
+   "4860583": "English doesn't match",
+   "4983151": "dela as an object (like her), the circle teaches her as owner",
+   "5040201": "dela as an object (like her)",
+   "7196524": "a two-line dialogue in quotes"
+  }
+ },
+ "U11": {
+  "reject": {
+   "726727": "slang (What's up?)",
+   "874831": "odd on its own",
+   "893842": "odd topic",
+   "1121974": "English doesn't match",
+   "1775622": "colloquial doubling (o que que)",
+   "3436118": "English leaves out because",
+   "4599429": "odd on its own",
+   "5192734": "quem é que, a structure not taught",
+   "6780882": "slang",
+   "9461687": "colloquial (onde que)",
+   "11808703": "ter que, not taught"
+  }
+ },
+ "U12": {
+  "reject": {
+   "1018070": "repeats a word (dois e dois): not for listening",
+   "4675377": "typo in the Portuguese (Você dois)",
+   "11161460": "clock time, belongs to a later part"
+  }
+ },
+ "U13": {
+  "reject": {
+   "1326727": "a preta as the black one, not taught",
+   "4774129": "reads as a remark about race",
+   "5301831": "reads as a remark about race",
+   "8642430": "está de azul as wearing, not taught"
+  }
+ },
+ "U14": {
+  "reject": {
+   "2569254": "non-standard for Que horas são",
+   "4415544": "porque written as one word in a question"
+  }
+ },
+ "U15": {
+  "reject": {
+   "904104": "English is odd (commute)",
+   "3109828": "gosto as liking, a noun",
+   "8722103": "English doesn't match (walk)"
+  }
+ },
+ "U51": {
+  "reject": {
+   "2433598": "odd on its own",
+   "4715125": "muito as too",
+   "7005029": "idiom"
+  }
+ }
+}

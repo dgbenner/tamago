@@ -1,0 +1,1476 @@
+{
+  "unit_id": "U13",
+  "pulled_at": "2026-11-14",
+  "candidates": 105,
+  "sentences": [
+    {
+      "sentence_id": "S13001",
+      "unit_id": "U13",
+      "french": "Tenho um cachorro preto e branco.",
+      "english": "I have a black and white dog.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8881545",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13002",
+      "unit_id": "U13",
+      "french": "Nós temos um cachorro preto e branco.",
+      "english": "We have a black and white dog.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "390801",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13003",
+      "unit_id": "U13",
+      "french": "Vermelho não é sua cor.",
+      "english": "Red is not your colour.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2815617",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "akilez",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13004",
+      "unit_id": "U13",
+      "french": "O vermelho é uma cor.",
+      "english": "Red is a color.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5596246",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": [
+        "Red is a colour."
+      ]
+    },
+    {
+      "sentence_id": "S13005",
+      "unit_id": "U13",
+      "french": "Eu bebo chá verde, não preto.",
+      "english": "I drink green tea, not black.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11146647",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13006",
+      "unit_id": "U13",
+      "french": "É vermelha.",
+      "english": "It's red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4686862",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13007",
+      "unit_id": "U13",
+      "french": "Essa mesa é branca.",
+      "english": "This table is white.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2684483",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13008",
+      "unit_id": "U13",
+      "french": "A maçã é vermelha.",
+      "english": "The apple is red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4375634",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13009",
+      "unit_id": "U13",
+      "french": "Tom tem uma bicicleta preta.",
+      "english": "Tom has a black bicycle.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5046275",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13010",
+      "unit_id": "U13",
+      "french": "Isso não é amarelo; é verde.",
+      "english": "This is not yellow; it's green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2050413",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13011",
+      "unit_id": "U13",
+      "french": "É branco?",
+      "english": "Is it white?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "871398",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13012",
+      "unit_id": "U13",
+      "french": "Tem verde?",
+      "english": "Do you have green?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "965804",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13013",
+      "unit_id": "U13",
+      "french": "É azul?",
+      "english": "Is it blue?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4378752",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13014",
+      "unit_id": "U13",
+      "french": "E o amarelo?",
+      "english": "And the yellow one?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "869322",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13015",
+      "unit_id": "U13",
+      "french": "Isso não é azul?",
+      "english": "Isn't that blue?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8170505",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lucasmg123",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13016",
+      "unit_id": "U13",
+      "french": "Que cor é seu cachorro?",
+      "english": "What color is your dog?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8328867",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13017",
+      "unit_id": "U13",
+      "french": "É vermelho.",
+      "english": "It's red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4686855",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13018",
+      "unit_id": "U13",
+      "french": "Gosto de azul.",
+      "english": "I like blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5096937",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13019",
+      "unit_id": "U13",
+      "french": "O queijo é amarelo.",
+      "english": "The cheese is yellow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2778916",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13020",
+      "unit_id": "U13",
+      "french": "Tenho uma bicicleta vermelha.",
+      "english": "I have a red bicycle.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4815066",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "I have a red bike."
+      ]
+    },
+    {
+      "sentence_id": "S13021",
+      "unit_id": "U13",
+      "french": "É uma maçã amarela.",
+      "english": "It's a yellow apple.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10252995",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13022",
+      "unit_id": "U13",
+      "french": "Não é preto?",
+      "english": "Isn't it black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1235334",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Is it not black?"
+      ]
+    },
+    {
+      "sentence_id": "S13023",
+      "unit_id": "U13",
+      "french": "Seu carro é preto?",
+      "english": "Is your car black?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2056934",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13024",
+      "unit_id": "U13",
+      "french": "Você bebe chá verde?",
+      "english": "Do you drink green tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3206539",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13025",
+      "unit_id": "U13",
+      "french": "Você gosta de vinho branco?",
+      "english": "Do you like white wine?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2105842",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13026",
+      "unit_id": "U13",
+      "french": "É uma foto em preto e branco.",
+      "english": "It's a black-and-white picture.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5236941",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13027",
+      "unit_id": "U13",
+      "french": "Eu tenho um cachorro preto e branco.",
+      "english": "I have a black and white dog.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8881544",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13028",
+      "unit_id": "U13",
+      "french": "É verde.",
+      "english": "It's green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2192049",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "acbarbosa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13029",
+      "unit_id": "U13",
+      "french": "É muito branco.",
+      "english": "It's very white.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3808105",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "muriloricci",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S13030",
+      "unit_id": "U13",
+      "french": "Isso é vermelho.",
+      "english": "It's red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4686857",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S13001",
+      "position": 1,
+      "surface": "Tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 3,
+      "surface": "cachorro",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 4,
+      "surface": "preto",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 5,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13001",
+      "position": 6,
+      "surface": "branco",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 1,
+      "surface": "Nós",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 2,
+      "surface": "temos",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 4,
+      "surface": "cachorro",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 5,
+      "surface": "preto",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 6,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13002",
+      "position": 7,
+      "surface": "branco",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 1,
+      "surface": "Vermelho",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 4,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13003",
+      "position": 5,
+      "surface": "cor",
+      "word_id": "W177",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 2,
+      "surface": "vermelho",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 4,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13004",
+      "position": 5,
+      "surface": "cor",
+      "word_id": "W177",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 2,
+      "surface": "bebo",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 3,
+      "surface": "chá",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 4,
+      "surface": "verde",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 5,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13005",
+      "position": 6,
+      "surface": "preto",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13006",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13006",
+      "position": 2,
+      "surface": "vermelha",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 1,
+      "surface": "Essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 2,
+      "surface": "mesa",
+      "word_id": "W116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13007",
+      "position": 4,
+      "surface": "branca",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 2,
+      "surface": "maçã",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13008",
+      "position": 4,
+      "surface": "vermelha",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13009",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13009",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13009",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13009",
+      "position": 4,
+      "surface": "bicicleta",
+      "word_id": "W1047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13009",
+      "position": 5,
+      "surface": "preta",
+      "word_id": "W172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 1,
+      "surface": "Isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 4,
+      "surface": "amarelo",
+      "word_id": "W175",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 5,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13010",
+      "position": 6,
+      "surface": "verde",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13011",
+      "position": 2,
+      "surface": "branco",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13012",
+      "position": 1,
+      "surface": "Tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13012",
+      "position": 2,
+      "surface": "verde",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13013",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13013",
+      "position": 2,
+      "surface": "azul",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13014",
+      "position": 3,
+      "surface": "amarelo",
+      "word_id": "W175",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13015",
+      "position": 1,
+      "surface": "Isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13015",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13015",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13015",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 2,
+      "surface": "cor",
+      "word_id": "W177",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 4,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13016",
+      "position": 5,
+      "surface": "cachorro",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13017",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13017",
+      "position": 2,
+      "surface": "vermelho",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 1,
+      "surface": "Gosto",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13018",
+      "position": 3,
+      "surface": "azul",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 2,
+      "surface": "queijo",
+      "word_id": "W062",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13019",
+      "position": 4,
+      "surface": "amarelo",
+      "word_id": "W175",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 1,
+      "surface": "Tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 3,
+      "surface": "bicicleta",
+      "word_id": "W1047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13020",
+      "position": 4,
+      "surface": "vermelha",
+      "word_id": "W168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 3,
+      "surface": "maçã",
+      "word_id": "W063",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13021",
+      "position": 4,
+      "surface": "amarela",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13022",
+      "position": 3,
+      "surface": "preto",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 1,
+      "surface": "Seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 2,
+      "surface": "carro",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13023",
+      "position": 4,
+      "surface": "preto",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 2,
+      "surface": "bebe",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 3,
+      "surface": "chá",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13024",
+      "position": 4,
+      "surface": "verde",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 4,
+      "surface": "vinho",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13025",
+      "position": 5,
+      "surface": "branco",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 3,
+      "surface": "foto",
+      "word_id": "W1021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 4,
+      "surface": "em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 5,
+      "surface": "preto",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 6,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13026",
+      "position": 7,
+      "surface": "branco",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 2,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 4,
+      "surface": "cachorro",
+      "word_id": "W070",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 5,
+      "surface": "preto",
+      "word_id": "W171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 6,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13027",
+      "position": 7,
+      "surface": "branco",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13028",
+      "position": 2,
+      "surface": "verde",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 2,
+      "surface": "muito",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13029",
+      "position": 3,
+      "surface": "branco",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 1,
+      "surface": "Isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S13030",
+      "position": 3,
+      "surface": "vermelho",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A130041",
+      "sentence_id": "S13004",
+      "direction": "fr_to_en",
+      "answer": "Red is a colour.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130201",
+      "sentence_id": "S13020",
+      "direction": "fr_to_en",
+      "answer": "I have a red bike.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A130221",
+      "sentence_id": "S13022",
+      "direction": "fr_to_en",
+      "answer": "Is it not black?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

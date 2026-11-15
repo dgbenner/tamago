@@ -1,0 +1,1500 @@
+{
+  "unit_id": "U09",
+  "pulled_at": "2026-11-14",
+  "candidates": 501,
+  "sentences": [
+    {
+      "sentence_id": "S9001",
+      "unit_id": "U09",
+      "french": "Estou com fome e com sede.",
+      "english": "I'm hungry and thirsty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4505523",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9002",
+      "unit_id": "U09",
+      "french": "Estou com sede e também com fome.",
+      "english": "I'm thirsty, and I'm also hungry.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11662093",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9003",
+      "unit_id": "U09",
+      "french": "Estou cansado e com sono.",
+      "english": "I'm tired and sleepy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11770769",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9004",
+      "unit_id": "U09",
+      "french": "Estou cansada e com sono.",
+      "english": "I'm tired and sleepy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11770770",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9005",
+      "unit_id": "U09",
+      "french": "Você está cansado?",
+      "english": "Are you tired?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "576843",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "Do you feel tired?"
+      ]
+    },
+    {
+      "sentence_id": "S9006",
+      "unit_id": "U09",
+      "french": "Você está cansada?",
+      "english": "Are you tired?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5165803",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9007",
+      "unit_id": "U09",
+      "french": "Está com sede?",
+      "english": "Are you thirsty?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12548587",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "laetitiamg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9008",
+      "unit_id": "U09",
+      "french": "Você está com sono?",
+      "english": "Are you sleepy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "974064",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9009",
+      "unit_id": "U09",
+      "french": "Você está com fome?",
+      "english": "Are you hungry?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1006405",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Hungry?"
+      ]
+    },
+    {
+      "sentence_id": "S9010",
+      "unit_id": "U09",
+      "french": "Não está com calor?",
+      "english": "You're not hot?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6302827",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGGG",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9011",
+      "unit_id": "U09",
+      "french": "Vocês estão com frio?",
+      "english": "Are you all cold?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1006413",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9012",
+      "unit_id": "U09",
+      "french": "Você está com calor?",
+      "english": "Are you hot?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8760845",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9013",
+      "unit_id": "U09",
+      "french": "Você está feliz com isso?",
+      "english": "Are you happy about this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6814932",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9014",
+      "unit_id": "U09",
+      "french": "Você não está com medo, está?",
+      "english": "You're not afraid, are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4540372",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9015",
+      "unit_id": "U09",
+      "french": "Você está com medo, não está?",
+      "english": "You're afraid, aren't you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4937953",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9016",
+      "unit_id": "U09",
+      "french": "Está calor?",
+      "english": "Is it hot?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5859915",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9017",
+      "unit_id": "U09",
+      "french": "Você está feliz?",
+      "english": "Are you happy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "576941",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9018",
+      "unit_id": "U09",
+      "french": "Você é feliz?",
+      "english": "Are you happy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1063500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9019",
+      "unit_id": "U09",
+      "french": "Você está triste?",
+      "english": "Are you sad?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2440865",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Are you upset?"
+      ]
+    },
+    {
+      "sentence_id": "S9020",
+      "unit_id": "U09",
+      "french": "Não é triste?",
+      "english": "Isn't that sad?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4837836",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9021",
+      "unit_id": "U09",
+      "french": "O Tom está doente?",
+      "english": "Is Tom sick?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3555975",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Mijailovich",
+      "other_english": [
+        "Is Tom ill?"
+      ]
+    },
+    {
+      "sentence_id": "S9022",
+      "unit_id": "U09",
+      "french": "Isso não é triste?",
+      "english": "Isn't that sad?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4837838",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9023",
+      "unit_id": "U09",
+      "french": "Estou cansado, e você?",
+      "english": "I'm tired. How about you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9971954",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9024",
+      "unit_id": "U09",
+      "french": "Estou cansada, e você?",
+      "english": "I'm tired. How about you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9971955",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9025",
+      "unit_id": "U09",
+      "french": "Você está doente, não está?",
+      "english": "You're ill, aren't you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3805305",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "muriloricci",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9026",
+      "unit_id": "U09",
+      "french": "Você tem medo de Tom?",
+      "english": "Are you afraid of Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4456578",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carloseperola",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9027",
+      "unit_id": "U09",
+      "french": "Estou com frio.",
+      "english": "I'm cold.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1066251",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I feel cold."
+      ]
+    },
+    {
+      "sentence_id": "S9028",
+      "unit_id": "U09",
+      "french": "Estamos com frio.",
+      "english": "We're cold.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4314673",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "KimiP",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S9029",
+      "unit_id": "U09",
+      "french": "Estou doente.",
+      "english": "I'm sick.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "729658",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "I am sick."
+      ]
+    },
+    {
+      "sentence_id": "S9030",
+      "unit_id": "U09",
+      "french": "Vocês estão com fome?",
+      "english": "Are you hungry?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1213918",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Are you guys hungry?"
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S9001",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 2,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 3,
+      "surface": "fome",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 4,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 5,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9001",
+      "position": 6,
+      "surface": "sede",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 2,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 3,
+      "surface": "sede",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 4,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 5,
+      "surface": "também",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 6,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9002",
+      "position": 7,
+      "surface": "fome",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 2,
+      "surface": "cansado",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 3,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 4,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9003",
+      "position": 5,
+      "surface": "sono",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 2,
+      "surface": "cansada",
+      "word_id": "W122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 3,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 4,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9004",
+      "position": 5,
+      "surface": "sono",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9005",
+      "position": 3,
+      "surface": "cansado",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9006",
+      "position": 3,
+      "surface": "cansada",
+      "word_id": "W122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 2,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9007",
+      "position": 3,
+      "surface": "sede",
+      "word_id": "W128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9008",
+      "position": 4,
+      "surface": "sono",
+      "word_id": "W129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9009",
+      "position": 4,
+      "surface": "fome",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9010",
+      "position": 4,
+      "surface": "calor",
+      "word_id": "W132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 1,
+      "surface": "Vocês",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 2,
+      "surface": "estão",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9011",
+      "position": 4,
+      "surface": "frio",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9012",
+      "position": 4,
+      "surface": "calor",
+      "word_id": "W132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 3,
+      "surface": "feliz",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 4,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9013",
+      "position": 5,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 4,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 5,
+      "surface": "medo",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9014",
+      "position": 6,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 4,
+      "surface": "medo",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 5,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9015",
+      "position": 6,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9016",
+      "position": 2,
+      "surface": "calor",
+      "word_id": "W132",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9017",
+      "position": 3,
+      "surface": "feliz",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9018",
+      "position": 3,
+      "surface": "feliz",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9019",
+      "position": 3,
+      "surface": "triste",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9020",
+      "position": 3,
+      "surface": "triste",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9021",
+      "position": 4,
+      "surface": "doente",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 1,
+      "surface": "Isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9022",
+      "position": 4,
+      "surface": "triste",
+      "word_id": "W124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 2,
+      "surface": "cansado",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 3,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9023",
+      "position": 4,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 2,
+      "surface": "cansada",
+      "word_id": "W122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 3,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9024",
+      "position": 4,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 3,
+      "surface": "doente",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 4,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9025",
+      "position": 5,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 3,
+      "surface": "medo",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9026",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 2,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9027",
+      "position": 3,
+      "surface": "frio",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 1,
+      "surface": "Estamos",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 2,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9028",
+      "position": 3,
+      "surface": "frio",
+      "word_id": "W131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9029",
+      "position": 2,
+      "surface": "doente",
+      "word_id": "W125",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 1,
+      "surface": "Vocês",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 2,
+      "surface": "estão",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S9030",
+      "position": 4,
+      "surface": "fome",
+      "word_id": "W127",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A90051",
+      "sentence_id": "S9005",
+      "direction": "fr_to_en",
+      "answer": "Do you feel tired?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90091",
+      "sentence_id": "S9009",
+      "direction": "fr_to_en",
+      "answer": "Hungry?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90191",
+      "sentence_id": "S9019",
+      "direction": "fr_to_en",
+      "answer": "Are you upset?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90211",
+      "sentence_id": "S9021",
+      "direction": "fr_to_en",
+      "answer": "Is Tom ill?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90271",
+      "sentence_id": "S9027",
+      "direction": "fr_to_en",
+      "answer": "I feel cold.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90291",
+      "sentence_id": "S9029",
+      "direction": "fr_to_en",
+      "answer": "I am sick.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A90301",
+      "sentence_id": "S9030",
+      "direction": "fr_to_en",
+      "answer": "Are you guys hungry?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

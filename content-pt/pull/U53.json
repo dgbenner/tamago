@@ -1,0 +1,1996 @@
+{
+  "unit_id": "U53",
+  "pulled_at": "2026-11-14",
+  "candidates": 130,
+  "sentences": [
+    {
+      "sentence_id": "S53001",
+      "unit_id": "U53",
+      "french": "Onde fica a estação de ônibus?",
+      "english": "Where's the bus station?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13061941",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "laetitiamg",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53002",
+      "unit_id": "U53",
+      "french": "Tem banco perto?",
+      "english": "Is there any bank nearby?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2184481",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53003",
+      "unit_id": "U53",
+      "french": "Onde fica o banco?",
+      "english": "Where's the bank?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "952595",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Where is the bank?"
+      ]
+    },
+    {
+      "sentence_id": "S53004",
+      "unit_id": "U53",
+      "french": "Onde fica o aeroporto?",
+      "english": "Where's the airport?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "996205",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53005",
+      "unit_id": "U53",
+      "french": "Tem um hospital aqui perto?",
+      "english": "Is there a hospital near here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "884310",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53006",
+      "unit_id": "U53",
+      "french": "A estação está muito perto.",
+      "english": "The station is very close.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9046022",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53007",
+      "unit_id": "U53",
+      "french": "Onde fica o museu?",
+      "english": "Where's the museum?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1220107",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Where is the museum?"
+      ]
+    },
+    {
+      "sentence_id": "S53008",
+      "unit_id": "U53",
+      "french": "Onde fica a estação?",
+      "english": "Where's the station?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1331740",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Where is the station?",
+        "Where's the train station?",
+        "Where is the train station?"
+      ]
+    },
+    {
+      "sentence_id": "S53009",
+      "unit_id": "U53",
+      "french": "Onde fica o hospital?",
+      "english": "Where's the hospital?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2474620",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Where is the hospital?"
+      ]
+    },
+    {
+      "sentence_id": "S53010",
+      "unit_id": "U53",
+      "french": "Onde fica o hotel?",
+      "english": "Where is the hotel?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2500516",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53011",
+      "unit_id": "U53",
+      "french": "Onde fica a praia?",
+      "english": "Where's the beach?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5900693",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sergiomelo",
+      "other_english": [
+        "Where is the beach?"
+      ]
+    },
+    {
+      "sentence_id": "S53012",
+      "unit_id": "U53",
+      "french": "Onde fica seu hotel?",
+      "english": "Where's your hotel?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11890791",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53013",
+      "unit_id": "U53",
+      "french": "É longe?",
+      "english": "Is it far?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3292831",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53014",
+      "unit_id": "U53",
+      "french": "Em que rua?",
+      "english": "In which street?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1150527",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53015",
+      "unit_id": "U53",
+      "french": "Um hospital, por favor?",
+      "english": "A hospital, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1362922",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53016",
+      "unit_id": "U53",
+      "french": "Paris é longe?",
+      "english": "Is Paris far away?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1833947",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53017",
+      "unit_id": "U53",
+      "french": "Paris está longe?",
+      "english": "Is Paris far away?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1833948",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53018",
+      "unit_id": "U53",
+      "french": "Em qual rua?",
+      "english": "In which street?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5122422",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53019",
+      "unit_id": "U53",
+      "french": "Você vai de trem?",
+      "english": "Will you go by train?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "375184",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53020",
+      "unit_id": "U53",
+      "french": "Onde está o aeroporto?",
+      "english": "Where's the airport?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "996203",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53021",
+      "unit_id": "U53",
+      "french": "Onde é o aeroporto?",
+      "english": "Where's the airport?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "996204",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53022",
+      "unit_id": "U53",
+      "french": "Onde é o museu?",
+      "english": "Where's the museum?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1220106",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Where is the museum?"
+      ]
+    },
+    {
+      "sentence_id": "S53023",
+      "unit_id": "U53",
+      "french": "Onde é o banco?",
+      "english": "Where's the bank?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1234148",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53024",
+      "unit_id": "U53",
+      "french": "Onde está o trem?",
+      "english": "Where is the train?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1298322",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53025",
+      "unit_id": "U53",
+      "french": "Onde está o táxi?",
+      "english": "Where is the taxi?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2421411",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53026",
+      "unit_id": "U53",
+      "french": "Onde está o hotel?",
+      "english": "Where is the hotel?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2500515",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53027",
+      "unit_id": "U53",
+      "french": "Essa bicicleta é sua?",
+      "english": "Is that bike yours?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6007489",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53028",
+      "unit_id": "U53",
+      "french": "Você tem uma bicicleta?",
+      "english": "Do you have a bike?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10701739",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lucasmg123",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53029",
+      "unit_id": "U53",
+      "french": "Você vai de ônibus?",
+      "english": "Are you going by bus?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "14115865",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Castro5432",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53030",
+      "unit_id": "U53",
+      "french": "De quem é essa bicicleta?",
+      "english": "Whose bicycle is that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1396794",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Whose is this bicycle?"
+      ]
+    },
+    {
+      "sentence_id": "S53031",
+      "unit_id": "U53",
+      "french": "Quem não gosta de praia?",
+      "english": "Who doesn't like the beach?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4751031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "anthrax26",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53032",
+      "unit_id": "U53",
+      "french": "Essa rua fica em Paris.",
+      "english": "This street is in Paris.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5049056",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53033",
+      "unit_id": "U53",
+      "french": "Tem uma igreja perto de minha casa.",
+      "english": "There is a church near my house.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1009103",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53034",
+      "unit_id": "U53",
+      "french": "Estou na praia.",
+      "english": "I'm at the beach.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2585489",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53035",
+      "unit_id": "U53",
+      "french": "Estou no táxi.",
+      "english": "I'm in the taxi.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10054355",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53036",
+      "unit_id": "U53",
+      "french": "O trem está aqui.",
+      "english": "The train is here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1792269",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53037",
+      "unit_id": "U53",
+      "french": "Isso é uma igreja.",
+      "english": "That's a church.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4455014",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Covered",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53038",
+      "unit_id": "U53",
+      "french": "Tom canta na igreja.",
+      "english": "Tom sings at church.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6146128",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53039",
+      "unit_id": "U53",
+      "french": "Eu estou no táxi.",
+      "english": "I'm in the taxi.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10054624",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S53040",
+      "unit_id": "U53",
+      "french": "O Tom não está no ônibus.",
+      "english": "Tom isn't on the bus.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8979438",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S53001",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53001",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53001",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53001",
+      "position": 4,
+      "surface": "estação",
+      "word_id": "W1038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53001",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53001",
+      "position": 6,
+      "surface": "ônibus",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 1,
+      "surface": "Tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 2,
+      "surface": "banco",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53002",
+      "position": 3,
+      "surface": "perto",
+      "word_id": "W1049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53003",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53003",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53003",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53003",
+      "position": 4,
+      "surface": "banco",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53004",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53004",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53004",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53004",
+      "position": 4,
+      "surface": "aeroporto",
+      "word_id": "W1045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 1,
+      "surface": "Tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 3,
+      "surface": "hospital",
+      "word_id": "W1046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 4,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53005",
+      "position": 5,
+      "surface": "perto",
+      "word_id": "W1049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 2,
+      "surface": "estação",
+      "word_id": "W1038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 4,
+      "surface": "muito",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53006",
+      "position": 5,
+      "surface": "perto",
+      "word_id": "W1049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53007",
+      "position": 4,
+      "surface": "museu",
+      "word_id": "W1035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53008",
+      "position": 4,
+      "surface": "estação",
+      "word_id": "W1038",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53009",
+      "position": 4,
+      "surface": "hospital",
+      "word_id": "W1046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53010",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53010",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53010",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53010",
+      "position": 4,
+      "surface": "hotel",
+      "word_id": "W1037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53011",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53011",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53011",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53011",
+      "position": 4,
+      "surface": "praia",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53012",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53012",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53012",
+      "position": 3,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53012",
+      "position": 4,
+      "surface": "hotel",
+      "word_id": "W1037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53013",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53013",
+      "position": 2,
+      "surface": "longe",
+      "word_id": "W1050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53014",
+      "position": 1,
+      "surface": "Em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53014",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53014",
+      "position": 3,
+      "surface": "rua",
+      "word_id": "W1042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53015",
+      "position": 1,
+      "surface": "Um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53015",
+      "position": 2,
+      "surface": "hospital",
+      "word_id": "W1046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53015",
+      "position": 3,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53016",
+      "position": 1,
+      "surface": "Paris",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53016",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53016",
+      "position": 3,
+      "surface": "longe",
+      "word_id": "W1050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53017",
+      "position": 1,
+      "surface": "Paris",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53017",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53017",
+      "position": 3,
+      "surface": "longe",
+      "word_id": "W1050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53018",
+      "position": 1,
+      "surface": "Em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53018",
+      "position": 2,
+      "surface": "qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53018",
+      "position": 3,
+      "surface": "rua",
+      "word_id": "W1042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53019",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53019",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53019",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53019",
+      "position": 4,
+      "surface": "trem",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53020",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53020",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53020",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53020",
+      "position": 4,
+      "surface": "aeroporto",
+      "word_id": "W1045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53021",
+      "position": 4,
+      "surface": "aeroporto",
+      "word_id": "W1045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53022",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53022",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53022",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53022",
+      "position": 4,
+      "surface": "museu",
+      "word_id": "W1035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53023",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53023",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53023",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53023",
+      "position": 4,
+      "surface": "banco",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53024",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53024",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53024",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53024",
+      "position": 4,
+      "surface": "trem",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53025",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53025",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53025",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53025",
+      "position": 4,
+      "surface": "táxi",
+      "word_id": "W1041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53026",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53026",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53026",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53026",
+      "position": 4,
+      "surface": "hotel",
+      "word_id": "W1037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53027",
+      "position": 1,
+      "surface": "Essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53027",
+      "position": 2,
+      "surface": "bicicleta",
+      "word_id": "W1047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53027",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53027",
+      "position": 4,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53028",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53028",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53028",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53028",
+      "position": 4,
+      "surface": "bicicleta",
+      "word_id": "W1047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53029",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53029",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53029",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53029",
+      "position": 4,
+      "surface": "ônibus",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53030",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53030",
+      "position": 2,
+      "surface": "quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53030",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53030",
+      "position": 4,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53030",
+      "position": 5,
+      "surface": "bicicleta",
+      "word_id": "W1047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53031",
+      "position": 1,
+      "surface": "Quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53031",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53031",
+      "position": 3,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53031",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53031",
+      "position": 5,
+      "surface": "praia",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53032",
+      "position": 1,
+      "surface": "Essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53032",
+      "position": 2,
+      "surface": "rua",
+      "word_id": "W1042",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53032",
+      "position": 3,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53032",
+      "position": 4,
+      "surface": "em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53032",
+      "position": 5,
+      "surface": "Paris",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53033",
+      "position": 1,
+      "surface": "Tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53033",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53033",
+      "position": 3,
+      "surface": "igreja",
+      "word_id": "W1036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53033",
+      "position": 4,
+      "surface": "perto",
+      "word_id": "W1049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53033",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53033",
+      "position": 6,
+      "surface": "minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53033",
+      "position": 7,
+      "surface": "casa",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53034",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53034",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53034",
+      "position": 3,
+      "surface": "praia",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53035",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53035",
+      "position": 2,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53035",
+      "position": 3,
+      "surface": "táxi",
+      "word_id": "W1041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53036",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53036",
+      "position": 2,
+      "surface": "trem",
+      "word_id": "W1040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53036",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53036",
+      "position": 4,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53037",
+      "position": 1,
+      "surface": "Isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53037",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53037",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53037",
+      "position": 4,
+      "surface": "igreja",
+      "word_id": "W1036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53038",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53038",
+      "position": 2,
+      "surface": "canta",
+      "word_id": "W1031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53038",
+      "position": 3,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53038",
+      "position": 4,
+      "surface": "igreja",
+      "word_id": "W1036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53039",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53039",
+      "position": 2,
+      "surface": "estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53039",
+      "position": 3,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53039",
+      "position": 4,
+      "surface": "táxi",
+      "word_id": "W1041",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53040",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53040",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53040",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53040",
+      "position": 4,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53040",
+      "position": 5,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S53040",
+      "position": 6,
+      "surface": "ônibus",
+      "word_id": "W1039",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A530031",
+      "sentence_id": "S53003",
+      "direction": "fr_to_en",
+      "answer": "Where is the bank?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530071",
+      "sentence_id": "S53007",
+      "direction": "fr_to_en",
+      "answer": "Where is the museum?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530081",
+      "sentence_id": "S53008",
+      "direction": "fr_to_en",
+      "answer": "Where is the station?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530082",
+      "sentence_id": "S53008",
+      "direction": "fr_to_en",
+      "answer": "Where's the train station?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530083",
+      "sentence_id": "S53008",
+      "direction": "fr_to_en",
+      "answer": "Where is the train station?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530091",
+      "sentence_id": "S53009",
+      "direction": "fr_to_en",
+      "answer": "Where is the hospital?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530111",
+      "sentence_id": "S53011",
+      "direction": "fr_to_en",
+      "answer": "Where is the beach?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530221",
+      "sentence_id": "S53022",
+      "direction": "fr_to_en",
+      "answer": "Where is the museum?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A530301",
+      "sentence_id": "S53030",
+      "direction": "fr_to_en",
+      "answer": "Whose is this bicycle?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

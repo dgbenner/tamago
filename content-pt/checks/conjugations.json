@@ -1,0 +1,416 @@
+{
+  "ser": [
+    {
+      "person": "eu",
+      "form": "sou"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "é"
+    },
+    {
+      "person": "nós",
+      "form": "somos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "são"
+    }
+  ],
+  "estar": [
+    {
+      "person": "eu",
+      "form": "estou"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "está"
+    },
+    {
+      "person": "nós",
+      "form": "estamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "estão"
+    }
+  ],
+  "comer": [
+    {
+      "person": "eu",
+      "form": "como"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "come"
+    },
+    {
+      "person": "nós",
+      "form": "comemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "comem"
+    }
+  ],
+  "beber": [
+    {
+      "person": "eu",
+      "form": "bebo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "bebe"
+    },
+    {
+      "person": "nós",
+      "form": "bebemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "bebem"
+    }
+  ],
+  "gostar": [
+    {
+      "person": "eu",
+      "form": "gosto"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "gosta"
+    },
+    {
+      "person": "nós",
+      "form": "gostamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "gostam"
+    }
+  ],
+  "ter": [
+    {
+      "person": "eu",
+      "form": "tenho"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "tem"
+    },
+    {
+      "person": "nós",
+      "form": "temos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "têm"
+    }
+  ],
+  "cantar": [
+    {
+      "person": "eu",
+      "form": "canto"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "canta"
+    },
+    {
+      "person": "nós",
+      "form": "cantamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "cantam"
+    }
+  ],
+  "ler": [
+    {
+      "person": "eu",
+      "form": "leio"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "lê"
+    },
+    {
+      "person": "nós",
+      "form": "lemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "leem"
+    }
+  ],
+  "saber": [
+    {
+      "person": "eu",
+      "form": "sei"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "sabe"
+    },
+    {
+      "person": "nós",
+      "form": "sabemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "sabem"
+    }
+  ],
+  "ir": [
+    {
+      "person": "eu",
+      "form": "vou"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "vai"
+    },
+    {
+      "person": "nós",
+      "form": "vamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "vão"
+    }
+  ],
+  "desculpar": [
+    {
+      "person": "eu",
+      "form": "desculpo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "desculpa"
+    },
+    {
+      "person": "nós",
+      "form": "desculpamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "desculpam"
+    }
+  ],
+  "entender": [
+    {
+      "person": "eu",
+      "form": "entendo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "entende"
+    },
+    {
+      "person": "nós",
+      "form": "entendemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "entendem"
+    }
+  ],
+  "repetir": [
+    {
+      "person": "eu",
+      "form": "repito"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "repete"
+    },
+    {
+      "person": "nós",
+      "form": "repetimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "repetem"
+    }
+  ],
+  "poder": [
+    {
+      "person": "eu",
+      "form": "posso"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "pode"
+    },
+    {
+      "person": "nós",
+      "form": "podemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "podem"
+    }
+  ],
+  "falar": [
+    {
+      "person": "eu",
+      "form": "falo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "fala"
+    },
+    {
+      "person": "nós",
+      "form": "falamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "falam"
+    }
+  ],
+  "dizer": [
+    {
+      "person": "eu",
+      "form": "digo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "diz"
+    },
+    {
+      "person": "nós",
+      "form": "dizemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "dizem"
+    }
+  ],
+  "significar": [
+    {
+      "person": "eu",
+      "form": "significo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "significa"
+    },
+    {
+      "person": "nós",
+      "form": "significamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "significam"
+    }
+  ],
+  "querer": [
+    {
+      "person": "eu",
+      "form": "quero"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "quer"
+    },
+    {
+      "person": "nós",
+      "form": "queremos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "querem"
+    }
+  ],
+  "chamar": [
+    {
+      "person": "eu",
+      "form": "chamo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "chama"
+    },
+    {
+      "person": "nós",
+      "form": "chamamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "chamam"
+    }
+  ],
+  "servir": [
+    {
+      "person": "eu",
+      "form": "sirvo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "serve"
+    },
+    {
+      "person": "nós",
+      "form": "servimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "servem"
+    }
+  ],
+  "nadar": [
+    {
+      "person": "eu",
+      "form": "nado"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "nada"
+    },
+    {
+      "person": "nós",
+      "form": "nadamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "nadam"
+    }
+  ],
+  "dançar": [
+    {
+      "person": "eu",
+      "form": "danço"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "dança"
+    },
+    {
+      "person": "nós",
+      "form": "dançamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "dançam"
+    }
+  ],
+  "ficar": [
+    {
+      "person": "eu",
+      "form": "fico"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "fica"
+    },
+    {
+      "person": "nós",
+      "form": "ficamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "ficam"
+    }
+  ]
+}

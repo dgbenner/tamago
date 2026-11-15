@@ -22,6 +22,11 @@ export const COURSES = {
     id: 'de', name: 'German', workbook: '_source/tamago-de-data-v7.xlsx',
     tatoeba: 'deu', wiktionaryCode: 'de', wiktionarySection: 'German', linguaLibre: { qid: 'Q188', iso: 'deu' }, wikidataLanguage: 'Q188',
   },
+  // Brazilian Portuguese (2026-11-14, branch lang/portuguese): você, Brazilian spelling and words. Its folders: content-pt/…
+  pt: {
+    id: 'pt', name: 'Portuguese', workbook: '_source/tamago-pt-data-v4.xlsx',
+    tatoeba: 'por', wiktionaryCode: 'pt', wiktionarySection: 'Portuguese', linguaLibre: { qid: 'Q5146', iso: 'por' }, wikidataLanguage: 'Q5146',
+  },
 }
 export const C = COURSES[COURSE]
 if (!C) throw new Error(`COURSE=${COURSE}: no such course`)

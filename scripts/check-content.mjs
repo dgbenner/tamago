@@ -313,8 +313,8 @@ function genderFrom(section, pos, posIndex, definition) {
   const head = parts[posIndex + 1]?.split('\n').find((l) => l.startsWith('{{')) ?? ''
   const fromNoun = head.match(/\{\{fr-noun\|(?:g=)?(mfbysense|mf|m|f)\b/)?.[1]
   // German and Spanish headwords (2026-11-10): {{de-noun|m,es,…}}, {{de-noun|g=n}}, {{es-noun|m}}.
-  const fromOther = head.match(/\{\{(?:de|es)-noun\|(?:g=)?(mfbysense|mf|m|f|n)\b/)?.[1]
-  const fromHead = fromOther ?? head.match(/\{\{head\|(?:fr|es|de)\|[^}]*\bg=(m|f|n)\b/)?.[1]
+  const fromOther = head.match(/\{\{(?:de|es|pt)-noun\|(?:g=)?(mfbysense|mf|m|f|n)\b/)?.[1]
+  const fromHead = fromOther ?? head.match(/\{\{head\|(?:fr|es|de|pt)\|[^}]*\bg=(m|f|n)\b/)?.[1]
   const g = fromNoun ?? fromHead ?? (/^feminine\b/.test(definition) ? 'f' : /^masculine\b/.test(definition) ? 'm' : '')
   return g === 'mfbysense' || g === 'mf' ? 'm/f' : g
 }

@@ -1,0 +1,1331 @@
+{
+  "unit_id": "U31",
+  "pulled_at": "2026-11-14",
+  "candidates": 29,
+  "sentences": [
+    {
+      "sentence_id": "S31001",
+      "unit_id": "U31",
+      "french": "Fale mais devagar.",
+      "english": "Talk slower.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1145803",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": [
+        "Speak slower.",
+        "Speak more slowly."
+      ]
+    },
+    {
+      "sentence_id": "S31002",
+      "unit_id": "U31",
+      "french": "Fale mais devagar, por favor.",
+      "english": "Speak more slowly, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "405384",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "Speak more slowly, please!"
+      ]
+    },
+    {
+      "sentence_id": "S31003",
+      "unit_id": "U31",
+      "french": "Por favor, fale mais devagar.",
+      "english": "Please speak more slowly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "868945",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31004",
+      "unit_id": "U31",
+      "french": "Você pode repetir, por favor?",
+      "english": "Can you repeat that, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4458767",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "vicsantos",
+      "other_english": [
+        "Could you repeat that, please?"
+      ]
+    },
+    {
+      "sentence_id": "S31005",
+      "unit_id": "U31",
+      "french": "De novo?",
+      "english": "Again?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4078457",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "muriloricci",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31006",
+      "unit_id": "U31",
+      "french": "Você entende?",
+      "english": "Do you understand?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "579051",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31007",
+      "unit_id": "U31",
+      "french": "Você de novo?",
+      "english": "You again?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4606081",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "KimiP",
+      "other_english": [
+        "Not you again!"
+      ]
+    },
+    {
+      "sentence_id": "S31008",
+      "unit_id": "U31",
+      "french": "Eu entendo.",
+      "english": "I understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "576706",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "I see.",
+        "I get it."
+      ]
+    },
+    {
+      "sentence_id": "S31009",
+      "unit_id": "U31",
+      "french": "Não entendo.",
+      "english": "I don't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1617641",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I don't get it.",
+        "I do not understand."
+      ]
+    },
+    {
+      "sentence_id": "S31010",
+      "unit_id": "U31",
+      "french": "Não entendi.",
+      "english": "I didn't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2083955",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": [
+        "I don't get it.",
+        "I did not understand."
+      ]
+    },
+    {
+      "sentence_id": "S31011",
+      "unit_id": "U31",
+      "french": "Eu entendi.",
+      "english": "I understood.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4357344",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "I got it.",
+        "I get the idea."
+      ]
+    },
+    {
+      "sentence_id": "S31012",
+      "unit_id": "U31",
+      "french": "Tom entende.",
+      "english": "Tom understands.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4603567",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31013",
+      "unit_id": "U31",
+      "french": "Por favor, repita.",
+      "english": "Please say it once more.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5156421",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": [
+        "Say it once again, please."
+      ]
+    },
+    {
+      "sentence_id": "S31014",
+      "unit_id": "U31",
+      "french": "Entendo você.",
+      "english": "I understand you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9931986",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31015",
+      "unit_id": "U31",
+      "french": "Repita, por favor.",
+      "english": "Say it once again, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10706802",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31016",
+      "unit_id": "U31",
+      "french": "Você não entende.",
+      "english": "You don't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "786770",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lenon_perez",
+      "other_english": [
+        "You do not understand.",
+        "You're not getting it."
+      ]
+    },
+    {
+      "sentence_id": "S31017",
+      "unit_id": "U31",
+      "french": "Eu não entendi.",
+      "english": "I didn't understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1235312",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I did not understand."
+      ]
+    },
+    {
+      "sentence_id": "S31018",
+      "unit_id": "U31",
+      "french": "De novo? De novo não!",
+      "english": "Again? Not again!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2735312",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31019",
+      "unit_id": "U31",
+      "french": "Fale devagar.",
+      "english": "Talk slowly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1146104",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": [
+        "Speak slowly."
+      ]
+    },
+    {
+      "sentence_id": "S31020",
+      "unit_id": "U31",
+      "french": "Por favor, fale devagar.",
+      "english": "Please speak slowly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "880494",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31021",
+      "unit_id": "U31",
+      "french": "Fale devagar, por favor.",
+      "english": "Speak slowly, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3090512",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31022",
+      "unit_id": "U31",
+      "french": "Devagar, por favor.",
+      "english": "Slowly, please.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "514754",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31023",
+      "unit_id": "U31",
+      "french": "Não fale.",
+      "english": "Don't speak.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2115188",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31024",
+      "unit_id": "U31",
+      "french": "Eu entendo você.",
+      "english": "I understand you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8057591",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MacGyver",
+      "other_english": [
+        "I get you."
+      ]
+    },
+    {
+      "sentence_id": "S31025",
+      "unit_id": "U31",
+      "french": "Sim, eu entendo!",
+      "english": "Yes, I understand!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12112477",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Clepsydris",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31026",
+      "unit_id": "U31",
+      "french": "Sou eu de novo, Tom.",
+      "english": "It's me again, Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4949966",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S31027",
+      "unit_id": "U31",
+      "french": "Você não é mais uma criança.",
+      "english": "You are not a child anymore.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1183931",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "You are not a child any more."
+      ]
+    },
+    {
+      "sentence_id": "S31028",
+      "unit_id": "U31",
+      "french": "Tom não é mais um menino.",
+      "english": "Tom isn't a boy anymore.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4809164",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": [
+        "Tom is not a boy anymore."
+      ]
+    },
+    {
+      "sentence_id": "S31029",
+      "unit_id": "U31",
+      "french": "Eu não sou mais uma criança.",
+      "english": "I'm not a kid anymore.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8029863",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S31001",
+      "position": 1,
+      "surface": "Fale",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31001",
+      "position": 2,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31001",
+      "position": 3,
+      "surface": "devagar",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 1,
+      "surface": "Fale",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 2,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 3,
+      "surface": "devagar",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31002",
+      "position": 4,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 1,
+      "surface": "Por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 2,
+      "surface": "fale",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 3,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31003",
+      "position": 4,
+      "surface": "devagar",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31004",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31004",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31004",
+      "position": 3,
+      "surface": "repetir",
+      "word_id": "W708",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31004",
+      "position": 4,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31005",
+      "position": 1,
+      "surface": "De novo",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31006",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31006",
+      "position": 2,
+      "surface": "entende",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31007",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31007",
+      "position": 2,
+      "surface": "de novo",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31008",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31008",
+      "position": 2,
+      "surface": "entendo",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31009",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31009",
+      "position": 2,
+      "surface": "entendo",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31010",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31010",
+      "position": 2,
+      "surface": "entendi",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31011",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31011",
+      "position": 2,
+      "surface": "entendi",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31012",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31012",
+      "position": 2,
+      "surface": "entende",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 1,
+      "surface": "Por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31013",
+      "position": 2,
+      "surface": "repita",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 1,
+      "surface": "Entendo",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31014",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 1,
+      "surface": "Repita",
+      "word_id": "W706",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31015",
+      "position": 2,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31016",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31016",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31016",
+      "position": 3,
+      "surface": "entende",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31017",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31017",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31017",
+      "position": 3,
+      "surface": "entendi",
+      "word_id": "W703",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31018",
+      "position": 1,
+      "surface": "De novo",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31018",
+      "position": 2,
+      "surface": "De novo",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31018",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31019",
+      "position": 1,
+      "surface": "Fale",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31019",
+      "position": 2,
+      "surface": "devagar",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31020",
+      "position": 1,
+      "surface": "Por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31020",
+      "position": 2,
+      "surface": "fale",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31020",
+      "position": 3,
+      "surface": "devagar",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31021",
+      "position": 1,
+      "surface": "Fale",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31021",
+      "position": 2,
+      "surface": "devagar",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31021",
+      "position": 3,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31022",
+      "position": 1,
+      "surface": "Devagar",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31022",
+      "position": 2,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31023",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31023",
+      "position": 2,
+      "surface": "fale",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31024",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31024",
+      "position": 2,
+      "surface": "entendo",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31024",
+      "position": 3,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31025",
+      "position": 1,
+      "surface": "Sim",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31025",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31025",
+      "position": 3,
+      "surface": "entendo",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31026",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31026",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31026",
+      "position": 3,
+      "surface": "de novo",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31026",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31027",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31027",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31027",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31027",
+      "position": 4,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31027",
+      "position": 5,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31027",
+      "position": 6,
+      "surface": "criança",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31028",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31028",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31028",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31028",
+      "position": 4,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31028",
+      "position": 5,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31028",
+      "position": 6,
+      "surface": "menino",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31029",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31029",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31029",
+      "position": 3,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31029",
+      "position": 4,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31029",
+      "position": 5,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S31029",
+      "position": 6,
+      "surface": "criança",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A310011",
+      "sentence_id": "S31001",
+      "direction": "fr_to_en",
+      "answer": "Speak slower.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310012",
+      "sentence_id": "S31001",
+      "direction": "fr_to_en",
+      "answer": "Speak more slowly.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310021",
+      "sentence_id": "S31002",
+      "direction": "fr_to_en",
+      "answer": "Speak more slowly, please!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310041",
+      "sentence_id": "S31004",
+      "direction": "fr_to_en",
+      "answer": "Could you repeat that, please?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310071",
+      "sentence_id": "S31007",
+      "direction": "fr_to_en",
+      "answer": "Not you again!",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310081",
+      "sentence_id": "S31008",
+      "direction": "fr_to_en",
+      "answer": "I see.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310082",
+      "sentence_id": "S31008",
+      "direction": "fr_to_en",
+      "answer": "I get it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310091",
+      "sentence_id": "S31009",
+      "direction": "fr_to_en",
+      "answer": "I don't get it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310092",
+      "sentence_id": "S31009",
+      "direction": "fr_to_en",
+      "answer": "I do not understand.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310101",
+      "sentence_id": "S31010",
+      "direction": "fr_to_en",
+      "answer": "I don't get it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310102",
+      "sentence_id": "S31010",
+      "direction": "fr_to_en",
+      "answer": "I did not understand.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310111",
+      "sentence_id": "S31011",
+      "direction": "fr_to_en",
+      "answer": "I got it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310112",
+      "sentence_id": "S31011",
+      "direction": "fr_to_en",
+      "answer": "I get the idea.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310131",
+      "sentence_id": "S31013",
+      "direction": "fr_to_en",
+      "answer": "Say it once again, please.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310161",
+      "sentence_id": "S31016",
+      "direction": "fr_to_en",
+      "answer": "You do not understand.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310162",
+      "sentence_id": "S31016",
+      "direction": "fr_to_en",
+      "answer": "You're not getting it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310171",
+      "sentence_id": "S31017",
+      "direction": "fr_to_en",
+      "answer": "I did not understand.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310191",
+      "sentence_id": "S31019",
+      "direction": "fr_to_en",
+      "answer": "Speak slowly.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310241",
+      "sentence_id": "S31024",
+      "direction": "fr_to_en",
+      "answer": "I get you.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310271",
+      "sentence_id": "S31027",
+      "direction": "fr_to_en",
+      "answer": "You are not a child any more.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A310281",
+      "sentence_id": "S31028",
+      "direction": "fr_to_en",
+      "answer": "Tom is not a boy anymore.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

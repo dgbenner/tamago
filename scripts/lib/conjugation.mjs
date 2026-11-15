@@ -54,4 +54,20 @@ async function german(lemma) {
   return out.every((x) => x.form && !/[{}]/.test(x.form)) ? out : null
 }
 
-export const presentIndicative = { fr: french, es: spanish, de: german }[COURSE]
+// Brazilian Portuguese (2026-11-14): {{pt-conj}} as written on the verb's page. The course's persons: eu, você with
+// ele and ela, nós, vocês with eles and elas (no tu, no vós).
+async function portuguese(lemma) {
+  const r = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${encodeURIComponent(lemma)}&prop=wikitext&format=json`)
+  const section = ('\n' + (r?.parse?.wikitext?.['*'] ?? '')).split(/\n==(?!=)/).find((s) => s.startsWith(`${C.wiktionarySection}==`)) ?? ''
+  const template = section.match(/\{\{pt-conj(?:\|[^{}]*)?\}\}/)?.[0]
+  if (!template) return null
+  const rows = tableRows(await render(lemma, template))
+  const at = rows.findIndex((row) => row[0] === 'Indicative')
+  const row = rows[at + 1]
+  if (at < 0 || row?.[0] !== 'Present' || row.length < 7) return null
+  const cell = (i) => row[i].split(/\s*[,/]\s*/)[0].replace(/\s+\d+$/, '').trim()
+  const out = [['eu', 1], ['você, ele, ela', 3], ['nós', 4], ['vocês, eles, elas', 6]].map(([person, i]) => ({ person, form: cell(i) }))
+  return out.every((x) => x.form && !/[{}<>—]/.test(x.form)) ? out : null
+}
+
+export const presentIndicative = { fr: french, es: spanish, de: german, pt: portuguese }[COURSE]

@@ -1,0 +1,248 @@
+[
+  {
+    "table": "attempts",
+    "field": "attempt_id",
+    "type": "text",
+    "notes": "one row per answered question"
+  },
+  {
+    "table": "attempts",
+    "field": "lesson_id",
+    "type": "text",
+    "notes": ""
+  },
+  {
+    "table": "attempts",
+    "field": "sentence_id",
+    "type": "text",
+    "notes": "or word_id for word questions"
+  },
+  {
+    "table": "attempts",
+    "field": "type_id",
+    "type": "text",
+    "notes": ""
+  },
+  {
+    "table": "attempts",
+    "field": "variant_id",
+    "type": "text",
+    "notes": ""
+  },
+  {
+    "table": "attempts",
+    "field": "round",
+    "type": "number",
+    "notes": "1 to 5"
+  },
+  {
+    "table": "attempts",
+    "field": "first_attempt",
+    "type": "yes/no",
+    "notes": "re-asks after a miss are 'no' and don't score"
+  },
+  {
+    "table": "attempts",
+    "field": "correct",
+    "type": "yes/no",
+    "notes": "empty for speaking questions"
+  },
+  {
+    "table": "attempts",
+    "field": "typo_accepted",
+    "type": "yes/no",
+    "notes": ""
+  },
+  {
+    "table": "attempts",
+    "field": "answered_at",
+    "type": "timestamp",
+    "notes": ""
+  },
+  {
+    "table": "lessons",
+    "field": "lesson_id",
+    "type": "text",
+    "notes": ""
+  },
+  {
+    "table": "lessons",
+    "field": "unit_id",
+    "type": "text",
+    "notes": ""
+  },
+  {
+    "table": "lessons",
+    "field": "round",
+    "type": "number",
+    "notes": ""
+  },
+  {
+    "table": "lessons",
+    "field": "score",
+    "type": "number",
+    "notes": "first-attempt correct answers among graded questions"
+  },
+  {
+    "table": "lessons",
+    "field": "passed",
+    "type": "yes/no",
+    "notes": "pass is 70% of graded questions, rounded up (R05)"
+  },
+  {
+    "table": "review_bank",
+    "field": "sentence_id",
+    "type": "text",
+    "notes": "added on every miss"
+  },
+  {
+    "table": "review_bank",
+    "field": "type_id",
+    "type": "text",
+    "notes": "type it was missed in"
+  },
+  {
+    "table": "review_bank",
+    "field": "correct_in_review",
+    "type": "number",
+    "notes": "counts correct answers on different days; leaves the bank at 3 (R09)"
+  },
+  {
+    "table": "review_bank",
+    "field": "added_at",
+    "type": "timestamp",
+    "notes": ""
+  },
+  {
+    "table": "hints_log",
+    "field": "word_id",
+    "type": "text",
+    "notes": "every tap on a dotted word"
+  },
+  {
+    "table": "hints_log",
+    "field": "sentence_id",
+    "type": "text",
+    "notes": ""
+  },
+  {
+    "table": "hints_log",
+    "field": "tapped_at",
+    "type": "timestamp",
+    "notes": ""
+  },
+  {
+    "table": "skill_strength",
+    "field": "unit_id",
+    "type": "text",
+    "notes": ""
+  },
+  {
+    "table": "skill_strength",
+    "field": "fsrs_state",
+    "type": "json",
+    "notes": "FSRS card state; strength bars come from this"
+  },
+  {
+    "table": "unit_progress",
+    "field": "unit_id",
+    "type": "text",
+    "notes": ""
+  },
+  {
+    "table": "unit_progress",
+    "field": "round_reached",
+    "type": "number",
+    "notes": "0 to 5"
+  },
+  {
+    "table": "unit_progress",
+    "field": "lessons_done",
+    "type": "number",
+    "notes": "for the 2/7 count"
+  },
+  {
+    "table": "points",
+    "field": "date",
+    "type": "date",
+    "notes": "points earned per day"
+  },
+  {
+    "table": "points",
+    "field": "amount",
+    "type": "number",
+    "notes": ""
+  },
+  {
+    "table": "skill_score",
+    "field": "skill",
+    "type": "text",
+    "notes": "reading, writing, listening, speaking"
+  },
+  {
+    "table": "skill_score",
+    "field": "score",
+    "type": "number",
+    "notes": "0 to 160 scale, one decimal through A1. A swapped question feeds the replacement's skill (R12)"
+  },
+  {
+    "table": "flags",
+    "field": "sentence_id",
+    "type": "text",
+    "notes": "stored on the device in version 1"
+  },
+  {
+    "table": "flags",
+    "field": "reason_id",
+    "type": "text",
+    "notes": ""
+  },
+  {
+    "table": "flags",
+    "field": "flagged_at",
+    "type": "timestamp",
+    "notes": ""
+  },
+  {
+    "table": "attempts",
+    "field": "graded",
+    "type": "yes/no",
+    "notes": "no for speaking questions (R05)"
+  },
+  {
+    "table": "attempts",
+    "field": "swapped_from",
+    "type": "text",
+    "notes": "original type_id when Can't listen, Can't speak or a fallback swapped it"
+  },
+  {
+    "table": "lessons",
+    "field": "graded_count",
+    "type": "number",
+    "notes": "questions that count toward the pass"
+  },
+  {
+    "table": "lessons",
+    "field": "finished_at",
+    "type": "timestamp",
+    "notes": "R16"
+  },
+  {
+    "table": "review_bank",
+    "field": "correct_days",
+    "type": "json",
+    "notes": "list of dates with a correct review answer (R09)"
+  },
+  {
+    "table": "attempts",
+    "field": "skill",
+    "type": "text",
+    "notes": "skill the answer fed, after swaps (R12)"
+  },
+  {
+    "table": "lessons",
+    "field": "duration_ms",
+    "type": "number",
+    "notes": "R16"
+  }
+]

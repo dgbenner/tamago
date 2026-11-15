@@ -36,12 +36,24 @@ export const VOCAB_PART1 = {
       words: ['Bahnhof', 'Bus', 'Zug', 'Taxi', 'Kino', 'Dorf', 'Straße', 'Fahrrad', 'Flughafen', 'Café', 'mit'],
       cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
   ],
+  // Brazilian Portuguese (2026-11-14): placed as Italian's were, where Tatoeba has lines a learner can read by then.
+  pt: [
+    { unit_id: 'U51', order: 15.2, row: 9, title: 'Body and Looks', grammar: 'Ela tem olhos azuis, ele tem cabelo curto: ter for features; alto, alta: adjectives agree; estou com dor de cabeça',
+      words: ['cabelo', 'olhos', 'mão', 'pé', 'nariz', 'boca', 'cabeça', 'perna', 'braço', 'dor', 'comprido', 'curto', 'azuis', 'verdes', 'alto', 'alta', 'baixo', 'magro', 'legal'],
+      cando: ['speaking', 'Spoken production', 'I can describe a person simply: their hair, their eyes, what they are like.'] },
+    { unit_id: 'U52', order: 7.2, row: 5, title: 'Free Time', grammar: 'Gosto de + a verb (gosto de nadar); canto, canta: -ar verbs; leio, lê: ler is irregular',
+      words: ['música', 'foto', 'festa', 'futebol', 'jogo', 'nadar', 'nado', 'dançar', 'dança', 'cantar', 'canto', 'canta', 'ler', 'leio', 'lê'],
+      cando: ['speaking', 'Spoken production', 'I can say what I like doing in my free time.'] },
+    { unit_id: 'U53', order: 11.2, row: 7, title: 'Around Town', grammar: 'Onde fica…? asks where a place is; no hotel, na praia: em + o, em + a; perto and longe',
+      words: ['museu', 'igreja', 'hotel', 'estação', 'ônibus', 'trem', 'táxi', 'rua', 'praia', 'banco', 'aeroporto', 'hospital', 'bicicleta', 'fica', 'perto', 'longe'],
+      cando: ['reading', 'Reading', 'I can recognise the names of places and ways of getting around in a town.'] },
+  ],
 }
 export const SLOTS_PART1 = [{ slot_id: 'C01', part: 1, after_row: 5 }, { slot_id: 'C02', part: 1, after_row: 7 }]
 
 if (process.argv[1] === import.meta.filename) {
   const V = VOCAB_PART1[COURSE]
-  if (!V) throw new Error('COURSE=es or COURSE=de')
+  if (!V) throw new Error('COURSE=es, de or pt')
   const [from, to] = process.argv.slice(2)
   const wb = XLSX.readFile(join(ROOT, from))
   const sheet = (n) => XLSX.utils.sheet_to_json(wb.Sheets[n], { defval: '' })
@@ -68,7 +80,7 @@ if (process.argv[1] === import.meta.filename) {
   const words = sheet('words').filter((w) => !/^W1\d{3}$/.test(w.word_id))
   const taken = new Set(words.map((w) => w.form))
   const keys = Object.keys(words[0])
-  const lang = { es: 'Spanish', de: 'German' }[COURSE]
+  const lang = { es: 'Spanish', de: 'German', pt: 'Portuguese' }[COURSE]
   let n = 1001
   for (const u of V) for (const form of u.words) {
     if (taken.has(form)) throw new Error(`${u.unit_id}: ${form} is already in the course`)
