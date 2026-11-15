@@ -389,13 +389,15 @@ const practiceAbout = (p) => (p.mistakes ? `Strengthen ${p.mistakes} recent stic
 // (Dan, 2026-11-11: the row that held its button and the streak is gone).
 function Tools({ tools }) {
   return (
+    // A compact single row on phones (Dan, 2026-11-15: the tiles took about a third of the screen): pills with the
+    // icon beside the label, so the tree starts higher; it still scrolls sideways when they don't all fit.
     <nav aria-label="Tools" className="no-scrollbar -mx-4 flex snap-x gap-2 overflow-x-auto px-4 lg:hidden">
       {tools.map((t) => {
         const Icon = TOOL_ICONS[t.id]
         return (
           // Developer is quieter: dashed outline, no fill, muted text; not a learning tool.
-          <button key={t.id} onClick={t.onOpen} className={`flex w-24 shrink-0 snap-start flex-col items-center gap-1 rounded-xl border-2 px-2 py-2.5 text-center text-sm leading-tight ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface font-medium'}`}>
-            <span className={`[&_svg]:size-7 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
+          <button key={t.id} onClick={t.onOpen} data-tool={t.id} className={`flex min-h-10 shrink-0 snap-start items-center gap-1.5 rounded-full border-2 px-3 py-1 text-sm leading-none whitespace-nowrap ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface font-medium'}`}>
+            <span className={`[&_svg]:size-5 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
             <span className={t.quiet ? 'dev-tiny' : ''}>{t.label}</span>
           </button>
         )

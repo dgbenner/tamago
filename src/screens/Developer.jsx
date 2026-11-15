@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { courseVoiceInfo } from '../lib/audio.js'
 import { lessonLogFor, snapshotRows } from '../lib/snapshot.js'
 import { getAll, resetEverything, resetLanguage } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
@@ -157,6 +158,19 @@ function JumpToPart({ onJumpPart }) {
 // Two resets (Dan, 2026-11-13; Reset Progress before), each asking on the page first.
 //   Reset This Language: this course only, back to first use (Start Here again); other courses and settings stay.
 //   Reset Everything: every course, settings, sign-in and the offline copy; reloads as a brand-new user.
+// The device voice in use for sentences without a recording (Dan, 2026-11-15): the best the device has, remembered per
+// language. The list can fill late (iOS), so it asks again when the voices change.
+function DeviceVoice() {
+  const [info, setInfo] = useState(() => courseVoiceInfo())
+  useEffect(() => {
+    const again = () => setInfo(courseVoiceInfo())
+    window.speechSynthesis?.addEventListener?.('voiceschanged', again)
+    const t = setTimeout(again, 800)
+    return () => { window.speechSynthesis?.removeEventListener?.('voiceschanged', again); clearTimeout(t) }
+  }, [])
+  return <p data-device-voice className="text-sm">Device Voice ({course.name}): {info ? <><span className="font-medium">{info.name}</span> · {info.lang} · {info.grade}</> : 'none found'}</p>
+}
+
 // The labs (Dan, 2026-11-15): built and deployed with the app, listed only while Developer is on.
 const LABS = [['Sound Lab', '/lab/sounds/'], ['Circle Lab', '/lab.html'], ['Design Lab', '/design-lab.html'], ['Voice Lab', '/voice-lab.html']]
 function Labs() {
@@ -213,6 +227,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
 
       <section className="flex flex-col gap-5 rounded-xl border-2 border-dashed border-field p-5">
         <h2 className="text-lg font-semibold">Testing</h2>
+        <DeviceVoice />
         <Segmented label="Testing Shortcuts" help="In a lesson: swipe left from the right side of the screen, or press the right arrow, to pass a question as correct. On the tree: swipe a circle right to left, or press the right arrow while it has focus, to pass its next lesson without playing it. Passes are marked as tests." value={settings.test_shortcuts}
           options={[['on', 'On'], ['off', 'Off']]} onChange={(v) => onChange({ test_shortcuts: v })} />
         <Segmented label="Show Developer in Tools" help={`Off hides this page's entry before testers. It stays open at ${location.origin}/#developer`} value={settings.developer ?? 'on'}

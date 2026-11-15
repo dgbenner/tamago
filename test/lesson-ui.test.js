@@ -83,3 +83,9 @@ test('the answer bar notes a missing capital and a missing accent, the letter in
   assert.match(html, /Don&#x27;t forget the capital: <span[^>]*><strong>P<\/strong>aul/)
   assert.match(html, /Watch the accent: <span[^>]*><span>caf<\/span><strong>é<\/strong>/)
 })
+
+test('a recording\'s own tag beats its person\'s: Rdrg109 is a man, his "una" a woman (Dan, 2026-11-15)', () => {
+  const q = { type: 'QT04', sentence_id: 'S1' }
+  assert.match(speakerFor({ ...q, audio: { file: '/audio-es/W010.m4a', speaker: 'Rdrg109' } }), /\/female-/)
+  assert.match(speakerFor({ ...q, audio: { file: '/audio-es/W011.m4a', speaker: 'Rdrg109' } }), /\/male-/)
+})

@@ -7,7 +7,7 @@ import { accentMisses, checkTyped, diffMarks } from '../lib/check.js'
 import { PART_LABEL } from '../lib/finalcheck.js'
 import { useRecorder } from '../lib/recorder.js'
 import { audioKey, courseVoiceName, filesIn, play, preload, stop } from '../lib/audio.js'
-import { genderOf, isChild, speakerKey, voiceKey } from '../lib/voice-gender.js'
+import { whoSpeaks } from '../lib/voice-gender.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconMic, IconSpeaker, IconWhy } from './icons.jsx'
 import { questionLabel } from '../lib/question-names.js'
 import AudioHelp from './AudioHelp.jsx'
@@ -176,7 +176,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         </div>
         {/* The question type while Developer is on: in the top bar on phones, so it never covers content (craft review,
             2026-11-14); lower left on wide screens. */}
-        {settings.developer !== 'off' && <p data-qtype className="pointer-events-none absolute right-4 -bottom-2.5 text-[0.625rem] text-muted lg:hidden">{questionLabel(q.type, course.name)}</p>}
+        {settings.developer !== 'off' && <p data-qtype className="pointer-events-none absolute right-4 -bottom-2.5 text-[0.625rem] text-muted lg:hidden">{questionLabel(q.type, course.name)}{voiceLabel(q)}</p>}
       </header>
 
       {/* A new question's parts appear top to bottom, the heading first, fast; only opacity and a small lift animate, so
@@ -201,7 +201,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         </div>
       )}
       {/* The question type, lower left, while Developer is on (Dan, 2026-11-12): "QT11 · Type What You Hear". */}
-      {settings.developer !== 'off' && <p data-qtype className="pointer-events-none fixed bottom-[max(0.25rem,env(safe-area-inset-bottom))] left-2 z-30 hidden text-xs text-muted lg:block">{questionLabel(q.type, course.name)}</p>}
+      {settings.developer !== 'off' && <p data-qtype className="pointer-events-none fixed bottom-[max(0.25rem,env(safe-area-inset-bottom))] left-2 z-30 hidden text-xs text-muted lg:block">{questionLabel(q.type, course.name)}{voiceLabel(q)}</p>}
 
       {result && !result.testSkip && <AnswerBar q={q} result={result} cantListen={cantListen} flagReasons={content.flag_reasons} onFlag={(id) => onFlag(q, id, result)} onContinue={advance} />}
     </main>
@@ -282,11 +282,13 @@ const SPEAKERS = {
 }
 const CHILDREN = { female: 'child-female-chestnut', male: 'child-male-glasses' }
 const speakerUrl = (name) => `/images/speakers/${name}.webp`
+// The Developer label names who is speaking (Dan, 2026-11-15): a recording's speaker, else the device voice.
+const voiceLabel = (q) => (!q?.audio ? '' : ` · ${q.audio.file ? (q.audio.speaker || 'recording') : (courseVoiceName() ?? 'no voice')}`)
 export const speakerFor = (q, voiceName = courseVoiceName()) => {
-  const key = q?.audio?.file ? speakerKey(q.audio.speaker) : voiceName ? voiceKey(voiceName) : null
-  const gender = genderOf(key)
+  // A recording's own tag beats its person's (Dan, 2026-11-15); the Child tick follows the person.
+  const { gender, child } = whoSpeaks(q?.audio?.file ? { file: q.audio.file, speaker: q.audio.speaker } : { voice: voiceName })
   // A child's voice gets a child (Dan, 2026-11-14): the girl or the boy, by the voice's gender.
-  if (gender && isChild(key)) return speakerUrl(CHILDREN[gender])
+  if (child) return speakerUrl(CHILDREN[gender])
   const pool = gender ? SPEAKERS[gender] : [...SPEAKERS.female, ...SPEAKERS.male]
   const n = [...String(q?.sentence_id ?? q?.qid ?? '')].reduce((t, ch) => t * 31 + ch.charCodeAt(0) >>> 0, 7)
   return speakerUrl(pool[n % pool.length])

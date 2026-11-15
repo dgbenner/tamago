@@ -7,6 +7,7 @@
 import { StrictMode, useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { COURSES } from './lib/course.js'
+import { voiceQuality } from './lib/audio.js'
 import './index.css'
 import SHIPPED from './lib/voice-genders.json'
 
@@ -20,11 +21,12 @@ const TABLES = {
 const TAGS = [['female', 'Female'], ['male', 'Male'], ['unsure', 'Unsure']]
 const tagOf = (v) => v.lang?.replace('_', '-')
 const matches = (v, want) => (want.includes('-') ? tagOf(v) === want : tagOf(v)?.toLowerCase().startsWith(want))
-// The voice the app picks for a course: the same rule as audio.js (local before remote, in the course's order).
+// The voice the app picks for a course: audio.js's rule (the best grade in the course's first region that has any;
+// the app also keeps a remembered pick, which this lab doesn't read).
 function appVoice(voices, course) {
   for (const want of course.voice) {
-    const v = voices.find((x) => matches(x, want) && x.localService) ?? voices.find((x) => matches(x, want))
-    if (v) return v
+    const fits = voices.filter((x) => matches(x, want))
+    if (fits.length) return [...fits].sort((a, b) => voiceQuality(b) - voiceQuality(a))[0]
   }
   return null
 }
@@ -51,7 +53,7 @@ function TagButtons({ value, onTag }) {
   )
 }
 
-function Row({ title, note, onPlay, value, onTag, child, onChild }) {
+function Row({ title, note, onPlay, value, onTag, child, onChild, children }) {
   return (
     <li className="flex flex-wrap items-center gap-3 rounded-xl border-2 border-line bg-surface px-4 py-3">
       <button onClick={onPlay} aria-label={`Play ${title}`} className="icon-btn shrink-0 border-2 border-line">▶</button>
@@ -61,7 +63,30 @@ function Row({ title, note, onPlay, value, onTag, child, onChild }) {
       </div>
       <TagButtons value={value} onTag={onTag} />
       <label className="flex items-center gap-1.5 text-sm"><input type="checkbox" checked={child} onChange={(e) => onChild(e.target.checked)} className="size-4" />Child</label>
+      {children}
     </li>
+  )
+}
+
+// One person's files, each with its own tag when it differs from the person's (Dan, 2026-11-15: Rdrg109's "una" is
+// a woman's voice). Untagged files follow the person; the Child tick stays the person's.
+function Files({ person, tags, onTag }) {
+  const audio = useRef(null)
+  const odd = person.files.filter((f) => tags[`file:${f.file}`]).length
+  const play = (f) => { audio.current ??= new Audio(); audio.current.src = f.file; audio.current.play() }
+  return (
+    <details className="w-full text-sm">
+      <summary className="cursor-pointer text-muted">Files ({person.files.length}{odd ? `, ${odd} with their own tag` : ''})</summary>
+      <ul className="mt-2 flex flex-col gap-1.5">
+        {person.files.map((f) => (
+          <li key={f.file} className="flex flex-wrap items-center gap-2">
+            <button onClick={() => play(f)} aria-label={`Play ${f.text}`} className="icon-btn size-8 shrink-0 border-2 border-line text-xs">▶</button>
+            <span className="min-w-0 flex-1">{f.text} <span className="text-muted">· {f.file.split('/').pop()}</span></span>
+            <TagButtons value={tags[`file:${f.file}`] ?? null} onTag={(g) => onTag(`file:${f.file}`, g)} />
+          </li>
+        ))}
+      </ul>
+    </details>
   )
 }
 
@@ -121,7 +146,7 @@ function CourseSection({ course, voices, tags, onTag, player }) {
           {speakers.map((s) => (
             <Row key={s.name} title={s.name} value={tags[`speaker:${s.name}`] ?? null} onTag={(g) => onTag(`speaker:${s.name}`, g)} child={tags[`child:speaker:${s.name}`] === true} onChild={(on) => onTag(`child:speaker:${s.name}`, on || null)}
               note={`${s.files.length} ${s.files.length === 1 ? 'recording' : 'recordings'} · ${s.files.slice(0, 4).map((f) => f.text).join(', ')}${s.files.length > 4 ? '…' : ''}`}
-              onPlay={() => player(s)} />
+              onPlay={() => player(s)}><Files person={s} tags={tags} onTag={onTag} /></Row>
           ))}
         </ul>
       </div>
@@ -153,7 +178,7 @@ function VoiceLab() {
     <main className="mx-auto flex max-w-3xl flex-col gap-10 px-4 py-8">
       <header className="flex flex-col gap-2">
         <h1 className="text-3xl font-semibold">Voice Lab</h1>
-        <p className="text-muted">Tag each voice by ear. Answer the Question shows a woman for a Female voice and a man for a Male one, the girl or the boy when Child is ticked; Unsure and untagged pick any adult. Tags save as you go to src/lib/voice-genders.json.</p>
+        <p className="text-muted">Tag each voice by ear. Answer the Question shows a woman for a Female voice and a man for a Male one, the girl or the boy when Child is ticked; Unsure and untagged pick any adult. A recorded person's Files list takes a tag per file where one differs from the person. Tags save as you go to src/lib/voice-genders.json.</p>
         <p role="status" className="min-h-5 text-sm text-muted">{status}</p>
       </header>
       {COURSES.filter((c) => c.ready).map((c) => <CourseSection key={c.id} course={c} voices={voices} tags={tags} onTag={onTag} player={player} />)}

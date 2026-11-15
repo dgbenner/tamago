@@ -177,19 +177,45 @@ export function preload(files) {
 // ---- The device voice ----
 // iOS Safari fills the voice list late and may never fire voiceschanged, so ask every time. The course's voice:
 // for Spanish a Latin American one (es-MX, es-US, es-419) before any other Spanish voice.
+// Clearer voices (Dan, 2026-11-15, all courses): within the course's first region that has any voice, the best the
+// device has: Premium, then Enhanced (Apple's downloadable voices), then Natural or Neural (Microsoft's), then any
+// voice on the device, then the rest. The pick is remembered per language (localStorage tamago-voice:<lang>) and kept
+// while the device still has it, so the voice doesn't change between visits when the list's order does.
+const QUALITY = [[/premium/i, 5], [/enhanced|erweitert|amélioré|mejorad|migliorat|aprimorad/i, 4], [/natural|neural/i, 3]]
+export const voiceQuality = (v) => {
+  const text = `${v.name} ${v.voiceURI}`
+  for (const [re, n] of QUALITY) if (re.test(text)) return n
+  return v.localService ? 2 : 1
+}
+const pickKey = () => `tamago-voice:${course.id}`
+const remembered = () => { try { return localStorage.getItem(pickKey()) } catch { return null } }
+const remember = (uri) => { try { localStorage.setItem(pickKey(), uri) } catch { /* private mode: pick again next time */ } }
 function frenchVoice() {
   const voices = window.speechSynthesis?.getVoices() ?? []
+  if (voices.length === 0) return null
   const tag = (v) => v.lang?.replace('_', '-')
   for (const want of course.voice) {
-    const local = voices.find((v) => (want.includes('-') ? tag(v) === want : tag(v)?.toLowerCase().startsWith(want)) && v.localService)
-    const any = voices.find((v) => (want.includes('-') ? tag(v) === want : tag(v)?.toLowerCase().startsWith(want)))
-    if (local ?? any) return local ?? any
+    const fits = voices.filter((v) => (want.includes('-') ? tag(v) === want : tag(v)?.toLowerCase().startsWith(want)))
+    if (fits.length === 0) continue
+    const kept = remembered()
+    const best = [...fits].sort((a, b) => voiceQuality(b) - voiceQuality(a))[0]
+    // A remembered voice stands unless a better one has arrived since (an Enhanced voice downloaded later).
+    const mine = fits.find((v) => v.voiceURI === kept)
+    if (mine && voiceQuality(mine) >= voiceQuality(best)) return mine
+    remember(best.voiceURI)
+    return best
   }
   return null
 }
 
 // The name of the device voice the course speaks with, or null (the Voice Lab and the speaker's picture use it).
 export const courseVoiceName = () => frenchVoice()?.name ?? null
+// The voice in use and its grade, for the Developer page.
+const GRADE = { 5: 'Premium', 4: 'Enhanced', 3: 'Natural', 2: 'Basic, on the device', 1: 'Basic, online' }
+export function courseVoiceInfo() {
+  const v = frenchVoice()
+  return v ? { name: v.name, lang: v.lang, grade: GRADE[voiceQuality(v)] } : null
+}
 
 // False only when the device lists its voices and none is French. An empty list just means "not loaded yet".
 export function hasFrenchVoice() {

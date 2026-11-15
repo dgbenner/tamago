@@ -13,6 +13,7 @@ import About from './screens/About.jsx'
 import Splash from './screens/Splash.jsx'
 import GrammarNote from './screens/GrammarNote.jsx'
 import Progress from './screens/Progress.jsx'
+import RealExam from './screens/RealExam.jsx'
 import Glossary from './screens/Glossary.jsx'
 import Flashcards from './screens/Flashcards.jsx'
 import Verbs from './screens/Verbs.jsx'
@@ -69,7 +70,7 @@ function useWide() {
   return wide
 }
 
-const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', talk: 'Conversations', progress: 'Progress', settings: 'Settings', about: 'About the Content',
+const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', talk: 'Conversations', progress: 'Progress', exam: 'Ready for the Real Exam?', settings: 'Settings', about: 'About the Content',
   profile: 'Profile', account: 'Sign In', 'progress-choice': 'Which Progress to Keep', elsewhere: 'Start Fresh or Bring Progress', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening', developer: 'Developer' }
 
 // A topic pack belongs to the node in its topic_node column; packs from before the column belong to the first node.
@@ -95,6 +96,10 @@ export default function App() {
   const [pointsTotal, setPointsTotal] = useState(0)
   const [session, setSession] = useState(null)
   const [ending, setEnding] = useState(null)
+  // Time spent (Dan, 2026-11-15): active learning time in this course, kv active_ms. Counted only while a lesson is on
+  // screen, the page visible, and the learner has tapped, typed or touched in the last minute, so a phone left open on
+  // a question stops counting. Shown on Progress as total hours; no nudges or comparisons.
+  const activeMs = useRef(0)
   const [lastLine, setLastLine] = useState(null) // a toast on home: { id, kind: info|success|warning|error, text }
   const toast = (kind, text) => setLastLine({ id: Date.now(), kind, text })
   // Accounts, layer 1 (Dan, 2026-11-11; _source/accounts-spec.md). Optional: the app works the same with no account.
@@ -183,6 +188,7 @@ export default function App() {
       setCatchupCleared(s.kv.catchup_cleared ?? {})
       setCatchupSettled(s.kv.catchup_settled ?? {})
       setFinalCheck(s.kv.final_check ?? null)
+      activeMs.current = Number(s.kv.active_ms) || 0
       applyVariants(s.kv.variant_status ?? {})
       // The first node's choice keeps its old key (topic_choice); later nodes use topic_choice_<node>.
       // A choice counts only while the pack is still at that node (Weather moved to the second node on 2026-11-10).
@@ -286,6 +292,25 @@ export default function App() {
     }
     lastScreen.current = screen
   }, [screen])
+
+  const inLesson = screen === 'lesson' && !ending
+  useEffect(() => {
+    if (!inLesson) return
+    const IDLE = 60_000, TICK = 5_000
+    let last = Date.now(), unsaved = 0
+    const touch = () => { last = Date.now() }
+    const save = () => { if (unsaved) { putKv('active_ms', activeMs.current); unsaved = 0 } }
+    const events = ['pointerdown', 'keydown', 'touchstart']
+    for (const e of events) window.addEventListener(e, touch, { passive: true })
+    const onHide = () => { if (document.visibilityState === 'hidden') save() }
+    document.addEventListener('visibilitychange', onHide)
+    const tick = setInterval(() => {
+      if (document.visibilityState !== 'visible' || Date.now() - last > IDLE) return
+      activeMs.current += TICK; unsaved += TICK
+      if (unsaved >= 30_000) save()
+    }, TICK)
+    return () => { clearInterval(tick); save(); for (const e of events) window.removeEventListener(e, touch); document.removeEventListener('visibilitychange', onHide) }
+  }, [inLesson])
 
   const changeSettings = (patch) => {
     const next = { ...settings, ...patch }
@@ -487,6 +512,26 @@ export default function App() {
   }
   // Side tools. Words met, in unit order; a word's recall is its own card, else the average of its sentences'.
   const metWords = () => tables.words.filter((w) => seenWords.current.has(w.word_id))
+  // Progress on return (Dan, 2026-11-15): one quiet line on the opening screen, "French · Part 3 of 6 · 42% of A1
+  // words", from what's already in memory (nothing read or fetched for it). Nothing for a learner who hasn't met a word.
+  const returnLine = () => {
+    const c = seenWords.current.size ? a1Coverage() : null
+    if (!c || c.met === 0) return null
+    return `${course.name} · Part ${c.part} of ${c.parts} · ${Math.round((c.met * 100) / c.total)}% of A1 words`
+  }
+  // A1 coverage (A1 Complete, section 6): list words met (a course word counts for its lemma), tasks whose circles
+  // have finished round 1, and the part. Progress shows it; the opening screen's line uses it too.
+  const a1Coverage = () => {
+    const list = tables.a1_list?.[0]
+    if (!list) return null
+    const fold = (x) => String(x).toLowerCase().trim()
+    const listKeys = new Set((list.words ?? []).map(fold))
+    const keysOf = (w) => [fold(w.lemma || w.form), fold(w.form)]
+    const metKeys = new Set(metWords().flatMap(keysOf).filter((k) => listKeys.has(k)))
+    const courseKeys = new Set(tables.words.flatMap(keysOf).filter((k) => listKeys.has(k)))
+    const taskDone = new Set(tables.units.filter((u) => u.tasks && progressOf(u.unit_id).round_reached >= 1).flatMap((u) => String(u.tasks).split(';')))
+    return { met: metKeys.size, course: courseKeys.size, total: listKeys.size, source: list.source.split(',')[0], tasks: (tables.a1_tasks ?? []).map((t) => ({ ...t, done: taskDone.has(t.task_id) })), part: partOf(currentUnit), parts: Math.max(1, ...(tables.parts ?? []).map((x) => x.part)) }
+  }
   const sentencesWith = (wordId) => tables.sentence_words.filter((r) => r.word_id === wordId).map((r) => r.sentence_id)
   const recallOf = (wordId) => {
     if (cards[wordId]) return retrievability(cards[wordId])
@@ -869,7 +914,7 @@ export default function App() {
       const scores = finalScores(s.results)
       const record = { date: today(), scores }
       setFinalCheck(record); putKv('final_check', record)
-      setEnding({ line: finalLine(scores), back: 'home' })
+      setEnding({ line: finalLine(scores), back: 'home', exam: true })
       return
     }
     if (s.kind === 'check') {
@@ -942,6 +987,7 @@ export default function App() {
         <main className="mx-auto flex min-h-dvh max-w-md flex-col justify-center gap-6 px-4">
           <p className="text-center text-xl">{ending.line}</p>
           <button onClick={afterEnding} className="btn-primary">{ending.retry ? 'Try Again' : 'Continue'}</button>
+          {ending.exam && <button onClick={() => { setEnding(null); setScreen('exam') }} className="btn-tertiary self-center">Ready for the Real Exam?</button>}
         </main>
       )
     }
@@ -981,18 +1027,10 @@ export default function App() {
     const lemmas = new Set(metWords().filter((w) => w.part_of_speech === 'Verb').map((w) => w.lemma))
     return <Verbs tables={tables.conjugations.filter((t) => lemmas.has(t.lemma))} strict={settings.answer_strictness === 'strict'} onBack={() => setScreen('home')} />
   },
+    exam: () => <RealExam onBack={() => setScreen('progress')} />,
     progress: () => {
-    // A1 coverage (A1 Complete, section 6): list words met (a course word counts for its lemma), tasks whose circles
-    // have finished round 1, and the part.
-    const list = tables.a1_list?.[0]
-    const fold = (x) => String(x).toLowerCase().trim()
-    const listKeys = new Set((list?.words ?? []).map(fold))
-    const keysOf = (w) => [fold(w.lemma || w.form), fold(w.form)]
-    const metKeys = new Set(metWords().flatMap(keysOf).filter((k) => listKeys.has(k)))
-    const courseKeys = new Set(tables.words.flatMap(keysOf).filter((k) => listKeys.has(k)))
-    const taskDone = new Set(tables.units.filter((u) => u.tasks && progressOf(u.unit_id).round_reached >= 1).flatMap((u) => String(u.tasks).split(';')))
-    const coverage = list ? { met: metKeys.size, course: courseKeys.size, total: listKeys.size, source: list.source.split(',')[0], tasks: (tables.a1_tasks ?? []).map((t) => ({ ...t, done: taskDone.has(t.task_id) })), part: partOf(currentUnit), parts: Math.max(1, ...(tables.parts ?? []).map((x) => x.part)) } : null
-    return <Progress coverage={coverage} finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf}
+    const coverage = a1Coverage()
+    return <Progress coverage={coverage} finalCheck={finalInfo} scores={scores} units={a1Units} canDo={tables.can_do} checked={canDoChecked} isOpen={isOpen} progressOf={progressOf} onExam={() => setScreen('exam')} activeMs={activeMs.current}
       onCheck={startCheck} onBack={() => setScreen('home')} />
   },
     make: () => {
@@ -1169,7 +1207,7 @@ export default function App() {
         <p className="text-xl font-semibold">Turn your iPad sideways</p>
         <p className="text-muted">Tamago on iPad works in landscape.</p>
       </div>
-      {splash && <Splash onDone={() => setSplash(false)} choose={chooser} />}
+      {splash && <Splash onDone={() => setSplash(false)} choose={chooser} line={returnLine()} />}
     </>
   )
 }

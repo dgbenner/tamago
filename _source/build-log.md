@@ -802,3 +802,14 @@ Part 3, Lingua Libre recordings:
 - Senses (word-senses.json) and hints (claude_hints): simple, fort, occuper, amuser, marier, habiller, emmener, crier, exercice, mariage, discuter, collège re-picked; doux, douce, coup, suite, certain, quelque, garder, garde, envie, général, rappeler, affaires hinted with the sense and any set phrase's own Wiktionary entry (tout à coup, tout de suite, quelque chose, quelque part, avoir envie de, en général). affaires keeps "plural of affaire" so it counts for FLELex affaire; envie keeps "appetite" (the desire sense carries "lust").
 - French: 4,464 sentences shipped (3,574 Tatoeba, 890 originals; was 4,067 with 930). Parts 5 and 6 drafts 310 to 270. FLELex core 581 of 600 (97%), main path 554.
 - Audits on French: word audit 0 early, 0 over 4 (3,386 lessons); every-lesson check 0 issues (34,616 questions).
+
+## 2026-11-15: Improvements batch (all courses)
+
+- Verb-form hints (word-hints.js): any present form of a taught verb shows "lemma: meaning"; Read and Answer texts tappable; Glossary finds a verb by any form.
+- Device voice: best grade the device has (Premium, Enhanced, Natural, local, online), remembered per language; shown on the Developer page and in the lesson's Developer label.
+- Opening screen: "Course · Part N of M · X% of A1 words" for returning learners, from memory only.
+- Ready for the Real Exam? page, from Progress and the final check's ending.
+- Time Learning on Progress: active lesson time (visible, input within a minute), kv active_ms.
+- Phone tools: compact pill row (42 px, was 96).
+- Voice Lab: per-file tags (file:<path>), Rdrg109's "una" female; the picture follows file then person, Child per person.
+- Tests: word-hints.test.js (4), the una picture (1).

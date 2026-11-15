@@ -13,3 +13,12 @@ export const genderOf = (key) => (key && (TAGS[key] === 'female' || TAGS[key] ==
 export const childKey = (key) => `child:${key}`
 export const isChild = (key) => Boolean(key && TAGS[childKey(key)] === true)
 export const allTags = () => ({ ...TAGS })
+// One recording's own gender (Dan, 2026-11-15: Rdrg109's "una" is a woman's voice), "file:<path>", over its person's.
+// The path includes the course's folder (/audio-es/W010.m4a), since file names repeat across courses.
+export const fileKey = (file) => `file:${file}`
+// The gender and child flag for a recording (its file's tag first, then its person's) or a device voice.
+export function whoSpeaks({ file = null, speaker = null, voice = null } = {}) {
+  const key = file ? speakerKey(speaker) : voice ? voiceKey(voice) : null
+  const gender = (file && genderOf(fileKey(file))) || genderOf(key)
+  return { gender, child: Boolean(gender) && isChild(key) }
+}

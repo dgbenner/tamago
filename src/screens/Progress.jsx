@@ -4,13 +4,21 @@ const NAMES = { reading: 'Reading', listening: 'Listening', writing: 'Writing', 
 
 // The full picture, kept off the home screen: per-skill score and CEFR band, what A1 complete needs, and the
 // "I can" checklist. A statement is ticked only after a short check of that skill (learning-methods 17).
-export default function Progress({ coverage, finalCheck, scores, units, canDo, checked, isOpen, progressOf, onCheck, onBack }) {
+// Total hours of active learning (Dan, 2026-11-15): one decimal, "0.4 hours", "12 hours" from ten up.
+const hours = (ms) => { const h = ms / 3_600_000; const v = h >= 10 ? Math.round(h) : Number(h.toFixed(1)); return `${v} ${v === 1 ? 'hour' : 'hours'}` }
+
+export default function Progress({ coverage, finalCheck, scores, units, canDo, checked, isOpen, progressOf, activeMs = 0, onCheck, onExam, onBack }) {
   return (
     <main className="mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-4 pt-[max(0.75rem,env(safe-area-inset-top))] pb-8">
       <header className="flex items-center gap-2">
         <button onClick={onBack} aria-label="Back" className="icon-btn -ml-2"><IconBack /></button>
         <h1 className="text-xl font-semibold">Progress</h1>
       </header>
+
+      <section className="flex items-baseline justify-between" aria-label="Time Learning">
+        <h2 className="font-semibold">Time Learning</h2>
+        <span data-time-learning className="font-semibold">{hours(activeMs)}</span>
+      </section>
 
       {/* A1 coverage (A1 Complete, 2026-11-10): measured against the course's official A1 word list and the thirteen
           A1 tasks, so "A1 complete" means a level people understand. */}
@@ -67,6 +75,7 @@ export default function Progress({ coverage, finalCheck, scores, units, canDo, c
             </ul>
           ) : <p>Not taken yet. {finalCheck.available ? 'It\'s open: find it at the end of the last part.' : 'It opens when every unit has had its first lessons.'}</p>}
           <a href={finalCheck.exam.samples} target="_blank" rel="noopener noreferrer" className="self-start text-sm underline underline-offset-4">Official {finalCheck.exam.name} sample papers ({finalCheck.exam.body})</a>
+          <button onClick={onExam} className="self-start text-sm underline underline-offset-4">Ready for the Real Exam?</button>
         </section>
       )}
 
