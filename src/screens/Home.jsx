@@ -435,6 +435,42 @@ export function CheckpointNode({ cp, onPick }) {
 }
 
 // A level marker across the tree, like a date divider in a feed.
+// The "I can" checklist at the end of each level (Dan, 2026-11-15): a small pill like the checkpoints', opening that
+// level's statements; each has Check (a short check of that skill on that circle, as on Progress).
+function ICanNode({ level, onPick }) {
+  const done = level.items.filter((d) => d.checked).length
+  return (
+    <li className="flex justify-center">
+      <button onClick={() => onPick(level)} data-live="" data-i-can={level.label} className="tree-pill text-ink">
+        <span aria-hidden="true">✓</span> I Can · {level.label}
+        <span className="text-sm font-normal text-muted">{done} of {level.items.length}</span>
+      </button>
+    </li>
+  )
+}
+function ICanSheet({ level, onCheck, onClose }) {
+  return (
+    <Sheet onClose={onClose}>
+      <SheetHead kicker="I Can" title={level.label} onClose={onClose} />
+      <p className="mt-2 text-sm text-muted">What the circles of this level teach. Check runs a few questions on that skill; a statement is ticked when they're all right.</p>
+      <ul className="mt-4 flex flex-col gap-3" data-i-can-sheet>
+        {level.items.map((d) => (
+          <li key={d.can_do_id} className="flex items-center justify-between gap-3">
+            <div className="min-w-0">
+              <p>{d.statement}</p>
+              <p className="text-xs text-muted">{d.unit_title}{d.checked ? ` · checked ${d.checked}` : ''}</p>
+            </div>
+            {d.checked
+              ? <span className="shrink-0 text-sm font-medium text-right-ink" aria-label="Checked">✓</span>
+              : <button onClick={() => onCheck(d)} className="btn-secondary min-h-10 shrink-0 px-3 text-sm">Check</button>}
+          </li>
+        ))}
+      </ul>
+      <div className="mt-4 flex justify-center"><button onClick={onClose} className="btn-tertiary">Back</button></div>
+    </Sheet>
+  )
+}
+
 function Marker({ label }) {
   return (
     <li className="flex w-full items-center gap-3 text-sm text-muted" aria-label={`Level: ${label}`}>
@@ -505,10 +541,11 @@ function Points({ total, today }) {
   )
 }
 
-export default function Home({ wide, panel, rows, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
+export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, markers, pointsToday, pointsTotal, showPoints, tools, checkpoints, onCheckpoint, onSkipCheckpoint, catchUps = [], onCatchUp,
   finalCheck, onFinal, scenes, onScene, onTestPass, part, onPartView, onPartReview, onJumpPart, practice, onPractice, nextLabel, onNext, inProgress, lastLine, onLastLineGone, onStartUnit, onSettings, onChooseTopic, hasNote, noteOf, sentenceById }) {
   const [picked, setPicked] = useState(null)
   const [infoPicked, setInfoPicked] = useState(null)
+  const [iCanPicked, setICanPicked] = useState(null)
   const [notePicked, setNotePicked] = useState(null) // the circle whose grammar note is open
   const [cpPicked, setCpPicked] = useState(null)
   const [cuPicked, setCuPicked] = useState(null)
@@ -577,7 +614,9 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
           const cp = checkpoints.find((x) => x.afterRow === n)
           const cu = catchUps.find((x) => x.afterRow === n)
           const marker = i > 0 && markers.find((m) => m.beforeRow === n) // going down the path only, never at the top
+          const ican = i > 0 && iCan.find((lv) => lv.beforeRow === n)
           return [
+            ican && <ICanNode key={`ic${i}`} level={ican} onPick={setICanPicked} />,
             marker && <Marker key={`m${i}`} label={marker.label} />,
             // Responsive spacing (Dan, 2026-11-11): each circle takes an equal share up to its full size, the gap shrinks
             // with the screen, so a row of three always fits the tree, titles included.
@@ -592,6 +631,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
             scenes && scenes.afterRow === n && <li key={`sc${i}`}><ScenesNode sc={scenes} onPick={() => setScenesOpen(true)} /></li>,
           ]
         })}
+        {iCan.filter((lv) => lv.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((lv) => <ICanNode key={`ic-${lv.label}`} level={lv} onPick={setICanPicked} />)}
         {finalCheck && <li><FinalNode fc={finalCheck} onPick={() => setFinalOpen(true)} /></li>}
         {part && <PartEnd part={part} onReview={() => setReviewOpen(true)} onPartView={onPartView} onJumpPart={onJumpPart} />}
         {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <Marker key={m.label} label={m.label} />)}
@@ -635,6 +675,7 @@ export default function Home({ wide, panel, rows, markers, pointsToday, pointsTo
           onStart={() => { setCpPicked(null); onCheckpoint(cpPicked.afterRow) }}
           onSkip={() => { setCpPicked(null); onSkipCheckpoint(cpPicked.afterRow) }} />
       )}
+      {iCanPicked && <ICanSheet level={iCan.find((lv) => lv.label === iCanPicked.label) ?? iCanPicked} onClose={() => setICanPicked(null)} onCheck={(d) => { setICanPicked(null); onCheckCanDo(d) }} />}
       {infoPicked && <InfoSheet node={infoPicked} onClose={() => setInfoPicked(null)} onStart={() => { cue('button'); setInfoPicked(null); onStartUnit(infoPicked.unit.unit_id) }} />}
       {notePicked && <NoteSheet node={notePicked} note={noteOf(notePicked.unit.unit_id)} sentenceById={sentenceById}
         onClose={() => setNotePicked(null)} onStart={() => { setNotePicked(null); onStartUnit(notePicked.unit.unit_id) }} />}

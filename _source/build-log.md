@@ -827,3 +827,12 @@ Part 3, Lingua Libre recordings:
 - Checked in Chrome: hint, a flag made from a lesson, Accept, the export file, pace on Progress; import picked up a sample export once and left nothing behind.
 - Circle overview: an info icon above each circle's grammar notebook opens About This Circle (covers, grammar, new words, A1 task, round progress); modal on wide screens, bottom sheet on phones.
 - Pace made time-based (Dan): hours a week since starting against 5 a week; Ahead of pace / On pace / Room to add time; 'At this pace, A1 in about N months'.
+
+## 2026-11-15: Audit batch (all courses)
+
+- "I can": Check on every circle; I Can pills at the end of each level on the tree, opening that level's checklist.
+- Placement: adaptive, at most 18 questions over nine probes, stops at the first miss.
+- Verbs: Pick the Right Form and Match Pronoun to Form beside Type the Forms; misses come back at the end.
+- Headings in the course language from Part 3, phased by part, tap for English.
+- Privacy page from Settings; "I'm 13 or older" on sign-up.
+- Checked in Chrome: markers at the ends of Very Early A1 (Part 3), Early A1 (Part 5), High A1 (Part 6); placement ended after 18 questions; Traduis in Part 3, listening in French from Part 4; Pick repeats misses; privacy page.

@@ -22,6 +22,7 @@ export default function Account({ auth, start = 'signin', token = null, code = n
   const [mode, setMode] = useState(start)
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
+  const [old13, setOld13] = useState(false)
   const [screenName, setScreenName] = useState('')
   const [error, setError] = useState('')
   const [note, setNote] = useState('')
@@ -45,7 +46,7 @@ export default function Account({ auth, start = 'signin', token = null, code = n
       setBusy(true)
       if (mode === 'signin') { const u = await auth.signIn({ email, password }); await onSignedIn(u, 'signin') }
       if (mode === 'invite') {
-        const bad = checkScreenName(screenName) || checkPassword(password)
+        const bad = checkScreenName(screenName) || checkPassword(password) || (old13 ? null : 'Accounts are for people 13 or older.')
         if (bad) throw new Error(bad)
         const u = await auth.acceptInvite({ code, password, screenName })
         await onSignedIn(u, 'invite')
@@ -83,6 +84,13 @@ export default function Account({ auth, start = 'signin', token = null, code = n
             {mode === 'invite' && <Field label="Screen Name" help="Shown in discussions once they open." autoComplete="nickname" maxLength={30} value={screenName} onChange={(e) => setScreenName(e.target.value)} required />}
             {mode !== 'forgot' && <Field label={mode === 'reset' ? 'New Password' : 'Password'} help={mode === 'signin' ? null : 'At least 8 characters.'} type="password"
               autoComplete={mode === 'signin' ? 'current-password' : 'new-password'} value={password} onChange={(e) => setPassword(e.target.value)} required />}
+            {/* Minimum age (Dan, 2026-11-15; feature list: 13 or older). */}
+            {mode === 'invite' && (
+              <label className="flex items-center gap-2 text-sm" data-age-check>
+                <input type="checkbox" checked={old13} onChange={(e) => setOld13(e.target.checked)} className="size-5" required />
+                I'm 13 or older.
+              </label>
+            )}
             {error && <p role="alert" className="text-sm font-medium text-wrong">{error}</p>}
             {note && <p role="status" className="text-sm">{note}</p>}
             {resetLink && (

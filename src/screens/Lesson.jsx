@@ -13,6 +13,8 @@ import { questionLabel } from '../lib/question-names.js'
 import AudioHelp from './AudioHelp.jsx'
 import { usePlaying } from '../lib/use-playing.js'
 import { TL, course } from '../lib/course.js'
+import { tables } from '../lib/content.js'
+import { courseHeading } from '../lib/instructions.js'
 import { FormFill, ListenNumber, ReadText, WriteMessage } from './A1Tasks.jsx'
 
 const PROMPT = {
@@ -31,6 +33,21 @@ function headingFor(q, { hideFrench, typing }) {
   if (hideFrench) return q.type === 'QT03' ? 'Listen and Pick the Meaning' : 'Listen and Translate'
   if (q.type === 'QT07' && (typing || q.typed)) return 'Type What You Hear'
   return PROMPT[q.type]
+}
+
+// The heading in the course language from Part 3 on (src/lib/instructions.js), phased in by part; a tap shows the
+// English beside it, and screen readers always hear the English too.
+const partOf = (unitId) => Number(tables?.units?.find((u) => u.unit_id === unitId)?.part || 0)
+function Heading({ english, unitId }) {
+  const [open, setOpen] = useState(false)
+  const own = courseHeading(english, partOf(unitId), course.id)
+  if (!own) return english
+  return (
+    <>
+      <button type="button" lang={TL} onClick={() => setOpen(!open)} aria-expanded={open} data-course-heading className="text-left decoration-line decoration-dotted decoration-2 underline-offset-4 hover:underline">{own}</button>
+      {open ? <span lang="en" className="ml-2 text-base font-normal text-muted" data-heading-english>{english}</span> : <span lang="en" className="sr-only"> ({english})</span>}
+    </>
+  )
 }
 
 export default function Lesson({ session, content, settings, seenWords, cantListen, onAnswer, onHint, onFlag, onExit, onAdvance, onFinish, onCantNow }) {
@@ -190,7 +207,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         {q.part && <p className="-mb-3 text-sm font-medium text-muted">{PART_LABEL[q.part]}</p>}
         {/* Answer the Question is a chat (Dan, 2026-11-14): no instruction line; the heading stays for screen readers. */}
         <div className={q.type === 'QT09' ? 'sr-only' : 'flex items-center gap-2'}>
-          <h1 ref={headingRef} tabIndex={-1} className="text-xl font-semibold outline-none">{headingFor(q, { hideFrench, typing })}</h1>
+          <h1 ref={headingRef} tabIndex={-1} className="text-xl font-semibold outline-none"><Heading key={q.qid} english={headingFor(q, { hideFrench, typing })} unitId={q.unit_id ?? session.unit_id} /></h1>
           {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="tag"><span className="new-dot" aria-hidden="true" />New</span>}
         </div>
         <Question key={q.qid} {...props} />

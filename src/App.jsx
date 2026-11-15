@@ -14,6 +14,7 @@ import Splash from './screens/Splash.jsx'
 import GrammarNote from './screens/GrammarNote.jsx'
 import Progress from './screens/Progress.jsx'
 import RealExam from './screens/RealExam.jsx'
+import Privacy from './screens/Privacy.jsx'
 import Glossary from './screens/Glossary.jsx'
 import Flashcards from './screens/Flashcards.jsx'
 import Verbs from './screens/Verbs.jsx'
@@ -70,7 +71,7 @@ function useWide() {
   return wide
 }
 
-const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', talk: 'Conversations', progress: 'Progress', exam: 'Ready for the Real Exam?', settings: 'Settings', about: 'About the Content',
+const SCREEN_TITLES = { home: 'Tamago', lesson: 'Lesson', words: 'Glossary', verbs: 'Verbs', make: 'Self-Study', talk: 'Conversations', progress: 'Progress', exam: 'Ready for the Real Exam?', privacy: 'Privacy', settings: 'Settings', about: 'About the Content',
   profile: 'Profile', account: 'Sign In', 'progress-choice': 'Which Progress to Keep', elsewhere: 'Start Fresh or Bring Progress', native: 'Native-Speaker Check', flags: 'Flag Review', forum: 'Forum', variants: 'Variant Test Bank', note: 'Grammar Note', flashcards: 'Flashcards', listening: 'Listening', developer: 'Developer' }
 
 // A topic pack belongs to the node in its topic_node column; packs from before the column belong to the first node.
@@ -461,7 +462,7 @@ export default function App() {
   // The open units on the path, for Practice and Self-Study.
   const openUnits = tables.units.filter((u) => onPath(u) && isOpen(u.unit_id)).map((u) => u.unit_id)
   const itemsOf = (unitId) => tables.sentences.filter((s) => s.unit_id === unitId).map((s) => s.sentence_id)
-  const startCheck = (canDo) => begin(buildSession(unitContent(canDo.unit_id), 'check', checkItems(unitContent(canDo.unit_id), canDo.skill), { settings: lessonModes(), unit_id: canDo.unit_id, can_do_id: canDo.can_do_id }))
+  const startCheck = (canDo, back = 'progress') => begin({ ...buildSession(unitContent(canDo.unit_id), 'check', checkItems(unitContent(canDo.unit_id), canDo.skill), { settings: lessonModes(), unit_id: canDo.unit_id, can_do_id: canDo.can_do_id }), back })
   const startPlacement = () => {
     const liveUnits = [...tables.units].sort((a, b) => a.order - b.order).filter((u) => String(u.status).startsWith('live') && !['node', 'yes'].includes(u.is_topic_pick))
     begin(buildSession(allContent, 'placement', placementItems(liveUnits.map((u) => unitContent(u.unit_id))), { settings: lessonModes() }))
@@ -715,7 +716,11 @@ export default function App() {
     }
     if (first && !q.speaking && !q.item_id && !result.testSkip && session.kind !== 'placement') noteWordMisses(q, result)
     let next = session
-    if (session.kind === 'placement' && first) next = { ...next, placement: [...(next.placement ?? []), { unit_id: q.unit_id, correct: result.correct }] }
+    if (session.kind === 'placement' && first) {
+      next = { ...next, placement: [...(next.placement ?? []), { unit_id: q.unit_id, probe: q.probe, covers: q.covers, correct: result.correct }] }
+      // Adaptive (Dan, 2026-11-15): the first miss ends it; the circles up to the last full probe are placed.
+      if (!result.correct) next = { ...next, queue: next.queue.slice(0, next.index + 1), size: next.index + 1, graded: next.index + 1 }
+    }
     // The final check scores each part from first attempts (speaking counted as done, never graded).
     if (first && q.part) next = { ...next, results: [...(next.results ?? []), { part: q.part, correct: Boolean(result.correct), speaking: Boolean(q.speaking), ungraded: Boolean(q.ungraded) }] }
     // Speaking is never graded: it earns a point when done (R14) and stays out of the score and the pass.
@@ -940,17 +945,20 @@ export default function App() {
     if (s.kind === 'check') {
       const passed = s.firstCorrect >= (s.graded ?? 0)
       if (passed) setCanDoChecked((m) => { const n = { ...m, [s.can_do_id]: today() }; putKv('can_do_checked', n); return n })
-      setEnding({ line: passed ? 'Checked.' : `${s.firstCorrect} of ${s.graded}. Not checked yet; try it again another time.`, back: 'progress' })
+      setEnding({ line: passed ? 'Checked.' : `${s.firstCorrect} of ${s.graded}. Not checked yet; try it again another time.`, back: s.back ?? 'progress' })
       return
     }
     if (s.kind === 'placement') {
-      // A unit is placed when 2 of its 3 answers are right; placing stops at the first unit that isn't.
-      const order = [...new Set((s.placement ?? []).map((p) => p.unit_id))]
-      const placed = []
-      for (const u of order) {
-        const rows = s.placement.filter((p) => p.unit_id === u)
-        if (rows.filter((p) => p.correct).length >= 2) placed.push(u); else break
+      // Adaptive placement: the probes answered fully right, in order up to the first miss; the last one's circles
+      // (every circle up to and including it) are placed.
+      const rows = s.placement ?? []
+      let covers = []
+      for (const probe of [...new Set(rows.map((p) => p.probe))]) {
+        const mine = rows.filter((p) => p.probe === probe)
+        if (mine.length >= 2 && mine.every((p) => p.correct)) covers = mine[0].covers ?? []
+        else break
       }
+      const placed = covers
       setProgressByUnit((p) => {
         const n = { ...p }
         for (const u of placed) {
@@ -963,7 +971,7 @@ export default function App() {
       putKv('seen_words', [...seenWords.current])
       putKv('placement', { date: today(), placed })
       const names = placed.map((u) => tables.units.find((x) => x.unit_id === u).title)
-      setEnding({ line: placed.length ? `Placed through ${names.at(-1)}: round 1 of ${names.length === 1 ? names[0] : `${names.length} units`} counts as done.` : `Start with ${tables.units[0].title}.` })
+      setEnding({ line: placed.length ? `Placed through ${names.at(-1)}: the first round of ${names.length === 1 ? names[0] : `${names.length} circles`} counts as done.` : `Start with ${tables.units[0].title}.` })
       return
     }
     const mark = passMark(s.graded ?? s.size)
@@ -1080,7 +1088,7 @@ export default function App() {
       onChange={changeVariant} onBack={() => setScreen('developer')} />
   }
   if (screen === 'settings') {
-    return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPlacement={startPlacement}
+    return <Settings settings={settings} onChange={changeSettings} onBack={() => setScreen('home')} onAbout={() => setScreen('about')} onPrivacy={() => setScreen('privacy')} onPlacement={startPlacement}
       onProfile={() => setScreen('profile')} account={accountShown} onSignIn={() => { setAccountStart({ mode: 'signin' }); setScreen('account') }} onSignOut={signOut} />
   }
   if (screen === 'developer') {
@@ -1115,6 +1123,7 @@ export default function App() {
   if (screen === 'forum') return <Forum onBack={() => setScreen('developer')} />
   if (screen === 'listening' && passage) return <Listening passage={passage} onDone={() => { markActive(); setPassage(null); setScreen('make') }} onBack={() => { setPassage(null); setScreen('make') }} />
   if (screen === 'about') return <About content={allContent} onBack={() => setScreen('settings')} />
+  if (screen === 'privacy') return <Privacy onBack={() => setScreen('settings')} />
   if (screen === 'note' && note) {
     const unit = tables.units.find((u) => u.unit_id === note.unitId)
     const newWords = tables.words.filter((w) => w.first_unit === note.unitId)
@@ -1186,8 +1195,21 @@ export default function App() {
     // A2 begins after the last part only.
     ...(shownPart === lastPart ? [{ beforeRow: rowNumbers.at(-1) + 1, label: 'A2' }] : []),
   ] : []
+  // The "I can" checklist per level (Dan, 2026-11-15): a small marker at the end of each level on the tree (where the
+  // next level's marker goes, and after the last part for High A1) opens that level's statements, each with Check.
+  // Levels end at the same rows as the markers above, shown whether or not the learner has started.
+  const levelEnds = [
+    { label: 'Very Early A1', from: -Infinity, to: rowAfter(rowReaching(10 / 29)) },
+    { label: 'Early A1', from: rowAfter(rowReaching(10 / 29)), to: rowAfter(rowReaching(20 / 29)) },
+    { label: 'High A1', from: rowAfter(rowReaching(20 / 29)), to: rowNumbers.at(-1) + 1 },
+  ]
+  const iCan = levelEnds.map((lv) => {
+    const ids = new Set(mainA1.filter((t) => t.row >= lv.from && t.row < lv.to).map((t) => t.unit_id))
+    const items = (tables.can_do ?? []).filter((d) => ids.has(d.unit_id)).map((d) => ({ ...d, unit_title: tables.units.find((u) => u.unit_id === d.unit_id)?.title ?? '', checked: canDoChecked[d.can_do_id] ?? null }))
+    return { ...lv, beforeRow: lv.to, items }
+  }).filter((lv) => lv.items.length && (rows.some((r) => r.row === lv.beforeRow) || (lv.label === 'High A1' && shownPart === lastPart)))
   return (
-    <Home rows={rows} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
+    <Home rows={rows} iCan={iCan} onCheckCanDo={(d) => startCheck(d, 'home')} markers={markers.filter((m) => rows.some((r) => r.row === m.beforeRow) || m.label === 'A2')} pointsToday={pointsToday} pointsTotal={pointsTotal} showPoints={showPoints}
       tools={[
         { id: 'glossary', screen: 'words', label: 'Glossary', about: 'See which words are sticking', onOpen: () => setScreen('words') },
         { id: 'verbs', screen: 'verbs', label: 'Verbs', about: 'Get every present-tense form right', onOpen: () => setScreen('verbs') },

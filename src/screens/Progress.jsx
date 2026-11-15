@@ -116,7 +116,7 @@ export default function Progress({ coverage, finalCheck, scores, units, canDo, c
                 </div>
                 {checked[d.can_do_id]
                   ? <span className="shrink-0 font-semibold text-right-ink" aria-label="Checked">✓</span>
-                  : <button onClick={() => onCheck(d)} disabled={!isOpen(u.unit_id) || progressOf(u.unit_id).round_reached < 1} className="btn-secondary min-h-10 shrink-0 px-3 text-sm">Check</button>}
+                  : <button onClick={() => onCheck(d)} data-can-do-check className="btn-secondary min-h-10 shrink-0 px-3 text-sm">Check</button>}
               </div>
             ))}
           </div>
