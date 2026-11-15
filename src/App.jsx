@@ -914,7 +914,7 @@ export default function App() {
     if (!passed) { setScreen('home'); return }
     recordPass(s)
     const share = (s.graded ?? s.size) ? s.firstCorrect / (s.graded ?? s.size) : 1
-    toast('pass', `${tables.units.find((u) => u.unit_id === s.unit_id)?.title ?? ''} · ${passPhrase(share)}`)
+    toast('pass', `${tables.units.find((u) => u.unit_id === s.unit_id)?.title ?? ''} · ${s.firstCorrect} of ${s.graded ?? s.size} · ${passPhrase(share)}`)
     setScreen('home')
   }
 

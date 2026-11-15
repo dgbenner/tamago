@@ -7,6 +7,10 @@ import tailwindcss from '@tailwindcss/vite'
 
 const walk = (dir) => readdirSync(dir, { withFileTypes: true }).flatMap((e) => (e.isDirectory() ? walk(join(dir, e.name)) : [join(dir, e.name)]))
 
+// The labs (Dan, 2026-11-15) are built and deployed, linked from the Developer page, but kept out of the offline cache.
+const LAB_PAGES = { main: 'index.html', lab: 'lab.html', 'design-lab': 'design-lab.html', 'voice-lab': 'voice-lab.html', 'lab-sounds': 'lab/sounds/index.html' }
+const LAB_PAGE = /^(lab\.html|design-lab\.html|voice-lab\.html|lab[\\/])/
+
 // Writes sw.js into the build folder with every built file precached, named by a hash of their contents.
 function serviceWorker() {
   let outDir = 'dist'
@@ -17,7 +21,7 @@ function serviceWorker() {
     closeBundle() {
       const out = outDir
       // host config files are never served; the Picture Check images are for the Developer page only, so they aren't cached offline
-      const files = walk(out).filter((f) => !f.endsWith('sw.js') && !/[\\/]_(headers|redirects)$/.test(f) && !/[\\/]picture-check[\\/]/.test(f))
+      const files = walk(out).filter((f) => !f.endsWith('sw.js') && !LAB_PAGE.test(relative(out, f)) && !/[\\/]_(headers|redirects)$/.test(f) && !/[\\/]picture-check[\\/]/.test(f))
       const hash = createHash('sha1')
       for (const f of files) hash.update(readFileSync(f))
       // The page is cached as / because Cloudflare Pages answers /index.html with a redirect to /, and a
@@ -56,7 +60,8 @@ function voiceLabSave() {
   }
 }
 
-// Sound Lab (Dan, 2026-11-15; dev server only): /lab/sounds serves lab/sounds/index.html. Never part of a build.
+// Sound Lab (Dan, 2026-11-15): on the dev server /lab/sounds serves lab/sounds/index.html; Cloudflare serves the
+// built lab/sounds/index.html at /lab/sounds/ itself.
 function soundLab() {
   return {
     name: 'tamago-sound-lab',
@@ -88,6 +93,7 @@ function statCounter() {
 const COURSE_FILE = readFileSync('scripts/lib/course.mjs', 'utf8')
 const WORKBOOKS = { fr: COURSE_FILE.match(/tamago-data-(v\d+)\.xlsx/)?.[1] ?? '', es: COURSE_FILE.match(/tamago-es-data-(v\d+)\.xlsx/)?.[1] ?? '', de: COURSE_FILE.match(/tamago-de-data-(v\d+)\.xlsx/)?.[1] ?? '', it: COURSE_FILE.match(/tamago-it-data-(v\d+)\.xlsx/)?.[1] ?? '', pt: COURSE_FILE.match(/tamago-pt-data-(v\d+)\.xlsx/)?.[1] ?? '' }
 export default defineConfig({
+  build: { rollupOptions: { input: LAB_PAGES } },
   plugins: [react(), tailwindcss(), serviceWorker(), voiceLabSave(), soundLab(), statCounter()],
   // Which site this build is for (Cloudflare Pages sets CF_PAGES_BRANCH): main is the stable site, dev the working one.
   define: { __BUILD_TIME__: JSON.stringify(new Date().toISOString()), __WORKBOOKS__: JSON.stringify(WORKBOOKS), __DEPLOY_BRANCH__: JSON.stringify(process.env.CF_PAGES_BRANCH ?? '') },

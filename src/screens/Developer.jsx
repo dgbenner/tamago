@@ -157,6 +157,19 @@ function JumpToPart({ onJumpPart }) {
 // Two resets (Dan, 2026-11-13; Reset Progress before), each asking on the page first.
 //   Reset This Language: this course only, back to first use (Start Here again); other courses and settings stay.
 //   Reset Everything: every course, settings, sign-in and the offline copy; reloads as a brand-new user.
+// The labs (Dan, 2026-11-15): built and deployed with the app, listed only while Developer is on.
+const LABS = [['Sound Lab', '/lab/sounds/'], ['Circle Lab', '/lab.html'], ['Design Lab', '/design-lab.html'], ['Voice Lab', '/voice-lab.html']]
+function Labs() {
+  return (
+    <div role="group" aria-labelledby="labs-h" className="flex flex-col gap-2">
+      <h3 id="labs-h" className="font-medium">Labs</h3>
+      <div className="grid gap-2 sm:grid-cols-2">
+        {LABS.map(([name, href]) => <a key={href} href={href} target="_blank" rel="noopener" className="btn-secondary text-center" data-lab={href}>{name}</a>)}
+      </div>
+    </div>
+  )
+}
+
 function ResetButton({ id, label, title, text, confirm, run }) {
   const [asking, setAsking] = useState(false)
   const [busy, setBusy] = useState(false)
@@ -211,6 +224,7 @@ export default function Developer({ settings, onChange, snapshot, onBack, onVari
           <button onClick={onForum} className="btn-secondary">Forum</button>
           <button onClick={onTryA1} className="btn-secondary sm:col-span-2">Try the A1 Task Types</button>
         </div>
+        {(settings.developer ?? 'on') === 'on' && <Labs />}
         <JumpToPart onJumpPart={onJumpPart} />
         <Backup />
         <Resets />

@@ -1,13 +1,14 @@
 // Voice Lab (Dan, 2026-11-14): every voice a learner can hear, tagged Female or Male by ear, so Answer the Question's
 // picture follows the voice. Device voices are tagged by name (the same name is the same voice on every device that
 // has it); recorded people by name, so all their files follow (Lingua Libre speakers, and native checkers or hired
-// recorders as they arrive). Tags save to src/lib/voice-genders.json through the dev server. Runs only on the dev
-// server at /voice-lab.html; it is not a build entry, so it never deploys. Being a lab, it plays voices directly
+// recorders as they arrive). Tags save to src/lib/voice-genders.json through the dev server. On the live site
+// (/voice-lab.html, linked from the Developer page since 2026-11-15) it shows the shipped tags and can't save. Being a lab, it plays voices directly
 // rather than through audio.js, since it has to pick a voice the app wouldn't.
 import { StrictMode, useEffect, useMemo, useRef, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import { COURSES } from './lib/course.js'
 import './index.css'
+import SHIPPED from './lib/voice-genders.json'
 
 const TABLES = {
   fr: { words: () => import('./content/words.json'), sentences: () => import('./content/sentences.json'), qa: () => import('./content/qa_answers.json') },
@@ -130,15 +131,15 @@ function CourseSection({ course, voices, tags, onTag, player }) {
 
 function VoiceLab() {
   const voices = useVoices()
-  const [tags, setTags] = useState({})
+  const [tags, setTags] = useState(SHIPPED)
   const [status, setStatus] = useState('')
-  useEffect(() => { fetch('/__voice-genders').then((r) => r.json()).then(setTags).catch(() => setStatus('Could not read the saved tags.')) }, [])
+  useEffect(() => { fetch('/__voice-genders').then((r) => r.json()).then(setTags).catch(() => setStatus('Showing the shipped tags. Saving works only on the local dev server.')) }, [])
   const onTag = (key, gender) => {
     const next = { ...tags }
     if (gender) next[key] = gender; else delete next[key]
     setTags(next)
     fetch('/__voice-genders', { method: 'POST', body: JSON.stringify(next) })
-      .then((r) => r.json()).then((r) => setStatus(`Saved: ${r.saved} tags`)).catch(() => setStatus('Not saved: is the dev server running?'))
+      .then((r) => r.json()).then((r) => setStatus(`Saved: ${r.saved} tags`)).catch(() => setStatus('Not saved: saving works only on the local dev server.'))
   }
   const audio = useRef(null)
   const turns = useRef({})
