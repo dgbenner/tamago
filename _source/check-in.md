@@ -4,6 +4,9 @@ Updated November 14, 2026. **New: Italian is merged and wired in, visible only w
 
 ## Done since last check-in
 
+- **Portuguese merged, Developer only:** wired by Builder 2; ACESSO (A1) confirmed; the every-lesson check went from 4 accent issues to 0. Senses re-picked: 8.
+- **Match Pairs:** tapping a selected tile again deselects it; a wrong pair always returns both tiles.
+
 - **Fable's Part 3 and 4 review applied:** 541 Use candidates (529 new rows), 12 swaps, 7 draft fixes, 4 Read and Answer fixes, 35 Glossary senses fixed across all four parts. Audits clean.
 - **Choices:** never two one accent apart (ou/où, a/à, la/là).
 - **Language picker:** alphabetical; one row of six on desktop and iPad, 3 + 3 on phones.

@@ -757,4 +757,5 @@ Part 3, Lingua Libre recordings:
 - Italian: Kelly core 600, 90 (15%).
 - _review/ untracked for the three Italian files and added to .gitignore.
 - Audits on French: word audit 0 and 0 (2,299 lessons); every-lesson check 0 (23,476 questions). FLELex core 435 of 600 (73%).
-- Wrong-sense sweep, all courses: senses fr 35, es 17, de 10, it 8; hints fr 3, es 4, de 1, it 0.
+- Wrong-sense sweep, all courses: senses fr 35, es 17, de 10, it 8, pt 8; hints fr 3, es 4, de 1, it 0, pt 0.
+- lang/portuguese merged (Developer only); Portuguese every-lesson check 4 to 0. Match Pairs: tap again to deselect.

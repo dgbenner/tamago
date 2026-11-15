@@ -26,9 +26,10 @@ export const OWN = {
   es: {},
   de: { 'Not and None': 'Not + None', 'Wanting and Can': 'Want + Can', 'People and Feelings': 'People + Feelings' },
   it: { 'Body and Looks': 'Body + Looks' },
+  pt: { 'Body and Looks': 'Body + Looks' },
 }
 // French Part 2 kept its titles in the first round; since round 2 every part follows the same rules.
-const KEEP_PARTS = { fr: [], es: [], de: [], it: [] }
+const KEEP_PARTS = { fr: [], es: [], de: [], it: [], pt: [] }
 
 const [from, to] = process.argv.slice(2)
 if (!from || !to) throw new Error('usage: COURSE=fr|es|de node scripts/retitle-units.mjs <from.xlsx> <to.xlsx>')

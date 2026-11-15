@@ -1,0 +1,1595 @@
+{
+  "unit_id": "U10",
+  "pulled_at": "2026-11-14",
+  "candidates": 311,
+  "sentences": [
+    {
+      "sentence_id": "S10001",
+      "unit_id": "U10",
+      "french": "Como estão seu pai e sua mãe?",
+      "english": "How are your father and mother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7080466",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10002",
+      "unit_id": "U10",
+      "french": "Minha casa é sua.",
+      "english": "My home is yours.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3672854",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10003",
+      "unit_id": "U10",
+      "french": "Esse livro não é seu, é meu.",
+      "english": "That book isn't yours, it's mine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9724018",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10004",
+      "unit_id": "U10",
+      "french": "O pai dele é médico?",
+      "english": "Is his father a doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "786795",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lenon_perez",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10005",
+      "unit_id": "U10",
+      "french": "Olá, meu amigo. Como vai?",
+      "english": "Hey, my friend. How are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2051831",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10006",
+      "unit_id": "U10",
+      "french": "Você é a mãe dele?",
+      "english": "Are you his mother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3241160",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Theocracy",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10007",
+      "unit_id": "U10",
+      "french": "Você não é minha amiga?",
+      "english": "Aren't you my friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6382115",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10008",
+      "unit_id": "U10",
+      "french": "Ela é sua mãe?",
+      "english": "Is she your mother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "978512",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Is she your mom?"
+      ]
+    },
+    {
+      "sentence_id": "S10009",
+      "unit_id": "U10",
+      "french": "Como está seu pai?",
+      "english": "How is your dad?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1048358",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10010",
+      "unit_id": "U10",
+      "french": "Olá, meu amigo. Como vai você?",
+      "english": "Hey, my friend. How are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2051832",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10011",
+      "unit_id": "U10",
+      "french": "Oi, minha amiga. Como você está?",
+      "english": "Hey, my friend. How are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2655011",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10012",
+      "unit_id": "U10",
+      "french": "Ele é amigo dele.",
+      "english": "He's his friend.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2595587",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "He is his friend."
+      ]
+    },
+    {
+      "sentence_id": "S10013",
+      "unit_id": "U10",
+      "french": "Como é a casa dela?",
+      "english": "How is her house?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8199759",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "josivangoncalves",
+      "other_english": [
+        "What is her house like?"
+      ]
+    },
+    {
+      "sentence_id": "S10014",
+      "unit_id": "U10",
+      "french": "São meus.",
+      "english": "They're mine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2105774",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10015",
+      "unit_id": "U10",
+      "french": "É dela.",
+      "english": "That's her.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4860583",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "It's hers.",
+        "That's hers."
+      ]
+    },
+    {
+      "sentence_id": "S10016",
+      "unit_id": "U10",
+      "french": "Eles são meus.",
+      "english": "They're mine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4552622",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10017",
+      "unit_id": "U10",
+      "french": "Como vai sua família?",
+      "english": "How is your family?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1139384",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "vekiano",
+      "other_english": [
+        "How is your family doing?"
+      ]
+    },
+    {
+      "sentence_id": "S10018",
+      "unit_id": "U10",
+      "french": "Sua família está bem?",
+      "english": "Is your family OK?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2442717",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Is your family doing well?"
+      ]
+    },
+    {
+      "sentence_id": "S10019",
+      "unit_id": "U10",
+      "french": "Você tem família?",
+      "english": "Do you have family?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1320641",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Do you have a family?"
+      ]
+    },
+    {
+      "sentence_id": "S10020",
+      "unit_id": "U10",
+      "french": "Ela é uma amiga?",
+      "english": "Is she a friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4485043",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Covered",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10021",
+      "unit_id": "U10",
+      "french": "Isso é dela.",
+      "english": "It's hers.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4860585",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "This is hers."
+      ]
+    },
+    {
+      "sentence_id": "S10022",
+      "unit_id": "U10",
+      "french": "Não são meus.",
+      "english": "They aren't mine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5982620",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "Those aren't mine."
+      ]
+    },
+    {
+      "sentence_id": "S10023",
+      "unit_id": "U10",
+      "french": "Não são minhas.",
+      "english": "Those aren't mine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6781172",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10024",
+      "unit_id": "U10",
+      "french": "Elas não são minhas.",
+      "english": "They're not mine.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5834047",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10025",
+      "unit_id": "U10",
+      "french": "Como seu pai está?",
+      "english": "How's your dad?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1048359",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "How is your dad?"
+      ]
+    },
+    {
+      "sentence_id": "S10026",
+      "unit_id": "U10",
+      "french": "Essa é sua mãe?",
+      "english": "Is that your mother?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1869591",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10027",
+      "unit_id": "U10",
+      "french": "Seu pai é médico?",
+      "english": "Is your father a doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2357854",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10028",
+      "unit_id": "U10",
+      "french": "Sua mãe está aqui?",
+      "english": "Is your mother here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4821653",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vitie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10029",
+      "unit_id": "U10",
+      "french": "Sua mãe está em casa?",
+      "english": "Is your mother at home?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1200123",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S10030",
+      "unit_id": "U10",
+      "french": "O Tom é seu amigo?",
+      "english": "Is Tom your friend?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7748031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MacGyver",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S10001",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 2,
+      "surface": "estão",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 3,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 4,
+      "surface": "pai",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 5,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 6,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10001",
+      "position": 7,
+      "surface": "mãe",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 1,
+      "surface": "Minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 2,
+      "surface": "casa",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10002",
+      "position": 4,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 1,
+      "surface": "Esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 2,
+      "surface": "livro",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 5,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 6,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10003",
+      "position": 7,
+      "surface": "meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 2,
+      "surface": "pai",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 3,
+      "surface": "dele",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10004",
+      "position": 5,
+      "surface": "médico",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 1,
+      "surface": "Olá",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 2,
+      "surface": "meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 3,
+      "surface": "amigo",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 4,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10005",
+      "position": 5,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 4,
+      "surface": "mãe",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10006",
+      "position": 5,
+      "surface": "dele",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 4,
+      "surface": "minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10007",
+      "position": 5,
+      "surface": "amiga",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 3,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10008",
+      "position": 4,
+      "surface": "mãe",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 3,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10009",
+      "position": 4,
+      "surface": "pai",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 1,
+      "surface": "Olá",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 2,
+      "surface": "meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 3,
+      "surface": "amigo",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 4,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 5,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10010",
+      "position": 6,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 1,
+      "surface": "Oi",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 2,
+      "surface": "minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 3,
+      "surface": "amiga",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 4,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 5,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10011",
+      "position": 6,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 3,
+      "surface": "amigo",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10012",
+      "position": 4,
+      "surface": "dele",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 4,
+      "surface": "casa",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10013",
+      "position": 5,
+      "surface": "dela",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10014",
+      "position": 1,
+      "surface": "São",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10014",
+      "position": 2,
+      "surface": "meus",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10015",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10015",
+      "position": 2,
+      "surface": "dela",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 1,
+      "surface": "Eles",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 2,
+      "surface": "são",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10016",
+      "position": 3,
+      "surface": "meus",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 3,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10017",
+      "position": 4,
+      "surface": "família",
+      "word_id": "W143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 1,
+      "surface": "Sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 2,
+      "surface": "família",
+      "word_id": "W143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10018",
+      "position": 4,
+      "surface": "bem",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10019",
+      "position": 3,
+      "surface": "família",
+      "word_id": "W143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10020",
+      "position": 4,
+      "surface": "amiga",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10021",
+      "position": 1,
+      "surface": "Isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10021",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10021",
+      "position": 3,
+      "surface": "dela",
+      "word_id": "W140",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10022",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10022",
+      "position": 2,
+      "surface": "são",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10022",
+      "position": 3,
+      "surface": "meus",
+      "word_id": "W135",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10023",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10023",
+      "position": 2,
+      "surface": "são",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10023",
+      "position": 3,
+      "surface": "minhas",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 1,
+      "surface": "Elas",
+      "word_id": "W082",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 3,
+      "surface": "são",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10024",
+      "position": 4,
+      "surface": "minhas",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 2,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 3,
+      "surface": "pai",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10025",
+      "position": 4,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 1,
+      "surface": "Essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 3,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10026",
+      "position": 4,
+      "surface": "mãe",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 1,
+      "surface": "Seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 2,
+      "surface": "pai",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10027",
+      "position": 4,
+      "surface": "médico",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 1,
+      "surface": "Sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 2,
+      "surface": "mãe",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10028",
+      "position": 4,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 1,
+      "surface": "Sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 2,
+      "surface": "mãe",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 4,
+      "surface": "em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10029",
+      "position": 5,
+      "surface": "casa",
+      "word_id": "W027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 4,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S10030",
+      "position": 5,
+      "surface": "amigo",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A100081",
+      "sentence_id": "S10008",
+      "direction": "fr_to_en",
+      "answer": "Is she your mom?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100121",
+      "sentence_id": "S10012",
+      "direction": "fr_to_en",
+      "answer": "He is his friend.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100131",
+      "sentence_id": "S10013",
+      "direction": "fr_to_en",
+      "answer": "What is her house like?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100151",
+      "sentence_id": "S10015",
+      "direction": "fr_to_en",
+      "answer": "It's hers.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100152",
+      "sentence_id": "S10015",
+      "direction": "fr_to_en",
+      "answer": "That's hers.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100171",
+      "sentence_id": "S10017",
+      "direction": "fr_to_en",
+      "answer": "How is your family doing?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100181",
+      "sentence_id": "S10018",
+      "direction": "fr_to_en",
+      "answer": "Is your family doing well?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100191",
+      "sentence_id": "S10019",
+      "direction": "fr_to_en",
+      "answer": "Do you have a family?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100211",
+      "sentence_id": "S10021",
+      "direction": "fr_to_en",
+      "answer": "This is hers.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100221",
+      "sentence_id": "S10022",
+      "direction": "fr_to_en",
+      "answer": "Those aren't mine.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A100251",
+      "sentence_id": "S10025",
+      "direction": "fr_to_en",
+      "answer": "How is your dad?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

@@ -10,7 +10,7 @@ export const COURSES = [
   // Flags from Dan, 2026-11-14 (branch lang/italian): shown as Coming Soon until each course is wired in.
   // Italian (Dan, 2026-11-14): wired in, but offered only while the Developer setting is on, until Dan approves it.
   { id: 'it', name: 'Italian', sample: 'mela, formaggio, gatto…', lang: 'it', voice: ['it-IT', 'it'], db: 'tamago-it', flag: '/flags/it.webp', ready: true, devOnly: true },
-  { id: 'pt', name: 'Portuguese', sample: 'maçã, queijo, gato…', lang: 'pt-BR', voice: ['pt-BR', 'pt'], db: 'tamago-pt', flag: '/flags/pt.webp', ready: false },
+  { id: 'pt', name: 'Portuguese', sample: 'maçã, queijo, gato…', lang: 'pt-BR', voice: ['pt-BR', 'pt'], db: 'tamago-pt', flag: '/flags/pt.webp', ready: true, devOnly: true }, // Brazilian Portuguese (Dan, 2026-11-14): Developer only, like Italian
   { id: 'nl', name: 'Dutch', sample: 'appel, kaas, kat…', lang: 'nl', voice: ['nl-NL', 'nl'], db: 'tamago-nl', flag: '/flags/nl.webp', ready: false },
 ]
 const KEY = 'tamago-course'

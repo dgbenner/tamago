@@ -14,6 +14,7 @@ const TABLES = {
   es: { words: () => import('./content-es/words.json'), sentences: () => import('./content-es/sentences.json'), qa: () => import('./content-es/qa_answers.json') },
   de: { words: () => import('./content-de/words.json'), sentences: () => import('./content-de/sentences.json'), qa: () => import('./content-de/qa_answers.json') },
   it: { words: () => import('./content-it/words.json'), sentences: () => import('./content-it/sentences.json'), qa: () => import('./content-it/qa_answers.json') },
+  pt: { words: () => import('./content-pt/words.json'), sentences: () => import('./content-pt/sentences.json'), qa: () => import('./content-pt/qa_answers.json') },
 }
 const TAGS = [['female', 'Female'], ['male', 'Male'], ['unsure', 'Unsure']]
 const tagOf = (v) => v.lang?.replace('_', '-')

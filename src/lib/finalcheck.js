@@ -10,6 +10,9 @@ export const EXAMS = {
   de: { name: 'Goethe-Zertifikat A1: Start Deutsch 1', body: 'Goethe-Institut', samples: 'https://www.goethe.de/de/spr/prf/ueb/pa1.html' },
   // Italian (2026-11-14): CELI Impatto, from the Profilo's own centre; exam and link for Dan to confirm.
   it: { name: 'CELI Impatto (A1)', body: 'Università per Stranieri di Perugia', samples: 'https://www.cvcl.it' },
+  // Brazilian Portuguese (2026-11-14): Brazil's own exam, Celpe-Bras, has no A1; ACESSO is the A1 exam for Portuguese
+  // (European). Exam and link for Dan to confirm.
+  pt: { name: 'ACESSO (A1)', body: 'CAPLE, Universidade de Lisboa', samples: 'https://caple.letras.ulisboa.pt' },
 }
 
 export const PARTS = [

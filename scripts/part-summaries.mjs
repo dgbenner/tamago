@@ -19,6 +19,7 @@ export const SUMMARIES = {
   es: { ...SHARED, 4: 'Ordering food and drink, directions, home, family, jobs, forms and short messages' },
   de: { ...SHARED, 4: 'Ordering food and drink, directions, home, family, jobs, forms and short messages' },
   it: { ...SHARED, 4: 'Ordering food and drink, directions, home, family, jobs, forms and short messages' },
+  pt: { ...SHARED, 4: 'Ordering food and drink, directions, home, family, jobs, forms and short messages' },
 }
 
 const [from, to] = process.argv.slice(2)

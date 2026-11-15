@@ -1,0 +1,1422 @@
+{
+  "unit_id": "U01",
+  "pulled_at": "2026-11-14",
+  "candidates": 46,
+  "sentences": [
+    {
+      "sentence_id": "S1001",
+      "unit_id": "U01",
+      "french": "Você é uma mulher, não um homem.",
+      "english": "You're a woman, not a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8006744",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lucasmg123",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1002",
+      "unit_id": "U01",
+      "french": "Não sou um menino. Sou uma menina.",
+      "english": "I'm not a boy. I'm a girl.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12341010",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "VPZ",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1003",
+      "unit_id": "U01",
+      "french": "Não é você, sou eu!",
+      "english": "It's not you, it's me!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1519488",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1004",
+      "unit_id": "U01",
+      "french": "Eu sou um menino.",
+      "english": "I'm a boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1227777",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I am a boy."
+      ]
+    },
+    {
+      "sentence_id": "S1005",
+      "unit_id": "U01",
+      "french": "Você é uma criança.",
+      "english": "You're a child.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2864004",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1006",
+      "unit_id": "U01",
+      "french": "Eu sou uma mulher.",
+      "english": "I'm a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4458479",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "I am a woman."
+      ]
+    },
+    {
+      "sentence_id": "S1007",
+      "unit_id": "U01",
+      "french": "Sim e não.",
+      "english": "Yes and no.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4372386",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1008",
+      "unit_id": "U01",
+      "french": "Você é uma mulher.",
+      "english": "You're a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6014972",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "You are a woman."
+      ]
+    },
+    {
+      "sentence_id": "S1009",
+      "unit_id": "U01",
+      "french": "Você é um homem.",
+      "english": "You're a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6813442",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1010",
+      "unit_id": "U01",
+      "french": "Tom não é uma criança.",
+      "english": "Tom isn't a child.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4259080",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1011",
+      "unit_id": "U01",
+      "french": "Tom não é uma menina.",
+      "english": "Tom is not a girl.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6015111",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1012",
+      "unit_id": "U01",
+      "french": "E você?",
+      "english": "What about you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1197486",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "How about you?",
+        "And what about you?"
+      ]
+    },
+    {
+      "sentence_id": "S1013",
+      "unit_id": "U01",
+      "french": "E eu?",
+      "english": "What about me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6781480",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1014",
+      "unit_id": "U01",
+      "french": "Eu sou homem.",
+      "english": "I'm a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "904423",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I am a man."
+      ]
+    },
+    {
+      "sentence_id": "S1015",
+      "unit_id": "U01",
+      "french": "Sou um menino.",
+      "english": "I'm a boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4457759",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "I am a boy."
+      ]
+    },
+    {
+      "sentence_id": "S1016",
+      "unit_id": "U01",
+      "french": "É uma menina.",
+      "english": "This is a girl.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4587551",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1017",
+      "unit_id": "U01",
+      "french": "Sim, é.",
+      "english": "Yes, it is.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7058791",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "iart61",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1018",
+      "unit_id": "U01",
+      "french": "Sou criança.",
+      "english": "I'm a child.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8263658",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "iart61",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1019",
+      "unit_id": "U01",
+      "french": "Olá, Tom.",
+      "english": "Hello, Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "920620",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zvaigzne",
+      "other_english": [
+        "Hi, Tom."
+      ]
+    },
+    {
+      "sentence_id": "S1020",
+      "unit_id": "U01",
+      "french": "Oi, Tom.",
+      "english": "Hi, Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4603617",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1021",
+      "unit_id": "U01",
+      "french": "Você é Tom, não é?",
+      "english": "You're Tom, right?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4624180",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": [
+        "You're Tom, aren't you?"
+      ]
+    },
+    {
+      "sentence_id": "S1022",
+      "unit_id": "U01",
+      "french": "Não é?",
+      "english": "Isn't it so?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1150571",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1023",
+      "unit_id": "U01",
+      "french": "É você?",
+      "english": "Is that you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5630843",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": [
+        "Is it you?",
+        "Is this you?"
+      ]
+    },
+    {
+      "sentence_id": "S1024",
+      "unit_id": "U01",
+      "french": "Tom, é você?",
+      "english": "Tom, is that you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1875769",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1025",
+      "unit_id": "U01",
+      "french": "É você, Tom?",
+      "english": "Is that you, Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5023416",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1026",
+      "unit_id": "U01",
+      "french": "E você, Tom?",
+      "english": "What about you, Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5813947",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1027",
+      "unit_id": "U01",
+      "french": "Você não é eu.",
+      "english": "You're not me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6780709",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "You are not me."
+      ]
+    },
+    {
+      "sentence_id": "S1028",
+      "unit_id": "U01",
+      "french": "Sou uma mulher.",
+      "english": "I'm a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "747590",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Shishir",
+      "other_english": [
+        "I am a woman."
+      ]
+    },
+    {
+      "sentence_id": "S1029",
+      "unit_id": "U01",
+      "french": "Eu sou mulher.",
+      "english": "I'm a woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2680712",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S1030",
+      "unit_id": "U01",
+      "french": "Sou um homem.",
+      "english": "I'm a man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4264812",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S1001",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 4,
+      "surface": "mulher",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 5,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 6,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1001",
+      "position": 7,
+      "surface": "homem",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 2,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 4,
+      "surface": "menino",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 5,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 6,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1002",
+      "position": 7,
+      "surface": "menina",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 3,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 4,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1003",
+      "position": 5,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 2,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1004",
+      "position": 4,
+      "surface": "menino",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1005",
+      "position": 4,
+      "surface": "criança",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 2,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1006",
+      "position": 4,
+      "surface": "mulher",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 1,
+      "surface": "Sim",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 2,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1007",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1008",
+      "position": 4,
+      "surface": "mulher",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1009",
+      "position": 4,
+      "surface": "homem",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1010",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1010",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1010",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1010",
+      "position": 4,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1010",
+      "position": 5,
+      "surface": "criança",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 4,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1011",
+      "position": 5,
+      "surface": "menina",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1012",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1012",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1013",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1013",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 2,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1014",
+      "position": 3,
+      "surface": "homem",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1015",
+      "position": 3,
+      "surface": "menino",
+      "word_id": "W014",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1016",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1016",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1016",
+      "position": 3,
+      "surface": "menina",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1017",
+      "position": 1,
+      "surface": "Sim",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1017",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1018",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1018",
+      "position": 2,
+      "surface": "criança",
+      "word_id": "W016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1019",
+      "position": 1,
+      "surface": "Olá",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1019",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1020",
+      "position": 1,
+      "surface": "Oi",
+      "word_id": "W001",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1020",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1021",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1021",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1021",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1021",
+      "position": 4,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1021",
+      "position": 5,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1022",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1022",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1023",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1023",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1024",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1024",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1024",
+      "position": 3,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1025",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1025",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1025",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1026",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1026",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1026",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1027",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1027",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1027",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1027",
+      "position": 4,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1028",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1028",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1028",
+      "position": 3,
+      "surface": "mulher",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1029",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1029",
+      "position": 2,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1029",
+      "position": 3,
+      "surface": "mulher",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1030",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1030",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S1030",
+      "position": 3,
+      "surface": "homem",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A10041",
+      "sentence_id": "S1004",
+      "direction": "fr_to_en",
+      "answer": "I am a boy.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10061",
+      "sentence_id": "S1006",
+      "direction": "fr_to_en",
+      "answer": "I am a woman.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10081",
+      "sentence_id": "S1008",
+      "direction": "fr_to_en",
+      "answer": "You are a woman.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10121",
+      "sentence_id": "S1012",
+      "direction": "fr_to_en",
+      "answer": "How about you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10122",
+      "sentence_id": "S1012",
+      "direction": "fr_to_en",
+      "answer": "And what about you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10141",
+      "sentence_id": "S1014",
+      "direction": "fr_to_en",
+      "answer": "I am a man.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10151",
+      "sentence_id": "S1015",
+      "direction": "fr_to_en",
+      "answer": "I am a boy.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10191",
+      "sentence_id": "S1019",
+      "direction": "fr_to_en",
+      "answer": "Hi, Tom.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10211",
+      "sentence_id": "S1021",
+      "direction": "fr_to_en",
+      "answer": "You're Tom, aren't you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10231",
+      "sentence_id": "S1023",
+      "direction": "fr_to_en",
+      "answer": "Is it you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10232",
+      "sentence_id": "S1023",
+      "direction": "fr_to_en",
+      "answer": "Is this you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10271",
+      "sentence_id": "S1027",
+      "direction": "fr_to_en",
+      "answer": "You are not me.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A10281",
+      "sentence_id": "S1028",
+      "direction": "fr_to_en",
+      "answer": "I am a woman.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
