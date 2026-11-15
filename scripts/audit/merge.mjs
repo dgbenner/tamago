@@ -1,7 +1,8 @@
 // Playthrough audit spreadsheet (Dan, 2026-11-12): the every-lesson check, the browser pass and the word audit's
 // early words, one row per issue (course, circle, round, lesson, question type, issue, severity, screenshot), plus a
-// tab of questions run. Writes ~/Desktop/tamago-playthrough-audit.xlsx.
-//   node scripts/audit/merge.mjs logic.json ui.json
+// tab of questions run. Prints the counts by course and severity; with --xlsx (only when Dan asks, 2026-11-15) also
+// writes ~/Desktop/tamago-playthrough-audit.xlsx.
+//   node scripts/audit/merge.mjs logic.json ui.json [--xlsx]
 import { readFileSync } from 'node:fs'
 import { homedir } from 'node:os'
 import * as fs from 'node:fs'
@@ -9,7 +10,7 @@ import * as XLSX from 'xlsx/xlsx.mjs'
 import { QUESTION_NAMES } from '../../src/lib/question-names.js'
 XLSX.set_fs(fs)
 
-const [logicFile, uiFile] = process.argv.slice(2)
+const [logicFile, uiFile] = process.argv.slice(2).filter((a) => !a.startsWith('--'))
 const logic = JSON.parse(readFileSync(logicFile))
 const ui = JSON.parse(readFileSync(uiFile))
 const name = (t, course) => (QUESTION_NAMES[t] ? `${t} · ${QUESTION_NAMES[t].replace('{lang}', course)}` : t)
@@ -40,7 +41,7 @@ const ran = []
 for (const [k, v] of Object.entries(ui.counts)) { const [course, device] = k.split('|'); ran.push({ pass: `WebKit ${device}`, course, lessons: v.lessons, questions: v.questions, ...v.byType }) }
 for (const [course, v] of Object.entries(logic.stats)) ran.push({ pass: 'every-lesson check', course, lessons: v.lessons, questions: v.questions, ...v.byType })
 XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(ran), 'Questions run')
-XLSX.writeFile(wb, `${homedir()}/Desktop/tamago-playthrough-audit.xlsx`)
+if (process.argv.includes('--xlsx')) XLSX.writeFile(wb, `${homedir()}/Desktop/tamago-playthrough-audit.xlsx`)
 const by = {}
 for (const r of rows) { const k = `${r.course}|${r.severity}`; by[k] = (by[k] ?? 0) + 1 }
 console.log(rows.length, 'rows', JSON.stringify(by))

@@ -2,8 +2,9 @@
 // where the learner first sees it; flagged when that isn't a question that shows its meaning (Match Pairs, Pick the
 // Picture, Pick the Meaning) unless the word reads the same as its meaning; lessons with more than 4 new words; and the
 // reading / listening / writing / speaking share per round, scored as the app scores them (listen-first questions are
-// listening). Writes ~/Desktop/tamago-word-intro-audit.xlsx and prints a JSON summary.
-//   node scripts/audit/word-audit.mjs
+// listening). Prints a JSON summary; with --xlsx (only when Dan asks, 2026-11-15) also writes
+// ~/Desktop/tamago-word-intro-audit.xlsx.
+//   node scripts/audit/word-audit.mjs [--xlsx]
 import { homedir } from 'node:os'
 import * as fs from 'node:fs'
 import * as XLSX from 'xlsx/xlsx.mjs'
@@ -56,5 +57,5 @@ for (const [course, rows] of Object.entries(words)) {
   XLSX.utils.book_append_sheet(wb, sh, course)
 }
 XLSX.utils.book_append_sheet(wb, XLSX.utils.json_to_sheet(shares, { header: ['course', 'round', 'reading', 'listening', 'writing', 'speaking', 'questions'] }), 'Round shares')
-XLSX.writeFile(wb, `${homedir()}/Desktop/tamago-word-intro-audit.xlsx`)
+if (process.argv.includes('--xlsx')) XLSX.writeFile(wb, `${homedir()}/Desktop/tamago-word-intro-audit.xlsx`)
 console.log(JSON.stringify({ summary, shares }, null, 1))
