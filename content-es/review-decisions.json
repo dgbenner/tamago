@@ -679,12 +679,6 @@
       "english_source": "",
       "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner rafmagon has no native or OK signal"
     },
-    "S42205": {
-      "action": "confirm",
-      "french": "Tengo uno en el coche.",
-      "english_source": "",
-      "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner alexmarcelo has no native or OK signal"
-    },
     "S42206": {
       "action": "confirm",
       "french": "Uno más uno es dos.",
@@ -1537,12 +1531,6 @@
       "english_source": "",
       "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner lukaszpp has no native or OK signal"
     },
-    "S46216": {
-      "action": "confirm",
-      "french": "Mi coche es alemán.",
-      "english_source": "",
-      "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner darinmex has no native or OK signal"
-    },
     "S46217": {
       "action": "confirm",
       "french": "¿Cómo se llama este animal en japonés?",
@@ -1596,12 +1584,6 @@
       "french": "¿Cómo se llama esta verdura en inglés?",
       "english_source": "",
       "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner tatoerique has no native or OK signal"
-    },
-    "S47204": {
-      "action": "confirm",
-      "french": "Voy a comprar un coche nuevo.",
-      "english_source": "",
-      "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner lukaszpp has no native or OK signal"
     },
     "S47205": {
       "action": "confirm",
@@ -1750,12 +1732,6 @@
     "S57213": {
       "action": "confirm",
       "french": "El café está frío.",
-      "english_source": "",
-      "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner lukaszpp has no native or OK signal"
-    },
-    "S57214": {
-      "action": "confirm",
-      "french": "Este coche es rápido.",
       "english_source": "",
       "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner lukaszpp has no native or OK signal"
     },
@@ -1962,12 +1938,6 @@
       "french": "Él no tiene dinero.",
       "english_source": "",
       "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner darinmex has no native or OK signal"
-    },
-    "S48213": {
-      "action": "confirm",
-      "french": "¿Cuánto cuesta el coche más caro?",
-      "english_source": "",
-      "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner chinopinyin has no native or OK signal"
     },
     "S48214": {
       "action": "confirm",
@@ -2358,6 +2328,2166 @@
       "french": "Tom tiene una casa en el campo.",
       "english_source": "",
       "by": "Fable's review of _review/spanish-part2-candidates.md (Use), applied by Claude at Dan's request, 2026-11-14: owner Adelpa has no native or OK signal"
+    },
+    "S61111": {
+      "action": "confirm",
+      "french": "Es mediodía.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner jorgearestrepo has no native or OK signal"
+    },
+    "S63110": {
+      "action": "confirm",
+      "french": "Mi cumpleaños es en noviembre.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner rafmen has no native or OK signal"
+    },
+    "S63113": {
+      "action": "confirm",
+      "french": "Estamos en primavera.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S63115": {
+      "action": "confirm",
+      "french": "Voy a España en otoño.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S63116": {
+      "action": "confirm",
+      "french": "¿Cuál es la fecha de hoy?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner Aerhus has no native or OK signal"
+    },
+    "S72102": {
+      "action": "confirm",
+      "french": "No me gusta la lluvia.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner kokorosama has no native or OK signal"
+    },
+    "S72104": {
+      "action": "confirm",
+      "french": "¿Qué tiempo hace hoy?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S65102": {
+      "action": "confirm",
+      "french": "Normalmente me levanto temprano.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner jmdm78 has no native or OK signal"
+    },
+    "S65103": {
+      "action": "confirm",
+      "french": "Tom tiene que levantarse temprano mañana.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S65105": {
+      "action": "confirm",
+      "french": "Me ducho cada noche.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner alicia has no native or OK signal"
+    },
+    "S66101": {
+      "action": "confirm",
+      "french": "¿Dónde está la entrada?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S66104": {
+      "action": "confirm",
+      "french": "¿Dónde está la salida?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S66106": {
+      "action": "confirm",
+      "french": "¿Dónde está el ascensor?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S66110": {
+      "action": "confirm",
+      "french": "Vivo en la planta baja.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S67101": {
+      "action": "confirm",
+      "french": "¿Dónde está el horario?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S67115": {
+      "action": "confirm",
+      "french": "El tren llega tarde.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner bichodebola has no native or OK signal"
+    },
+    "S74102": {
+      "action": "confirm",
+      "french": "El cielo está gris.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S74103": {
+      "action": "confirm",
+      "french": "Tengo el pelo gris.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S74110": {
+      "action": "confirm",
+      "french": "Tom tiene bigote.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner Tom9358 has no native or OK signal"
+    },
+    "S74111": {
+      "action": "confirm",
+      "french": "Él tiene bigote.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner Ricardo14 has no native or OK signal"
+    },
+    "S74116": {
+      "action": "confirm",
+      "french": "Tom no es muy sociable.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner nancy has no native or OK signal"
+    },
+    "S39104": {
+      "action": "confirm",
+      "french": "No creo.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S68105": {
+      "action": "confirm",
+      "french": "Hay un retraso de veinte minutos.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S68109": {
+      "action": "confirm",
+      "french": "Hay autobuses cada diez minutos.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S68112": {
+      "action": "confirm",
+      "french": "¿De quién es esta maleta?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S68114": {
+      "action": "confirm",
+      "french": "¿Ves la carretera en el mapa?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S69102": {
+      "action": "confirm",
+      "french": "Leer es una buena actividad.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner Balamax has no native or OK signal"
+    },
+    "S75105": {
+      "action": "confirm",
+      "french": "¿Quieres visitar este monumento?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S75110": {
+      "action": "confirm",
+      "french": "¿Cuál es la capital del país?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S75117": {
+      "action": "confirm",
+      "french": "Estamos muy lejos del centro.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (named swap), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S61201": {
+      "action": "confirm",
+      "french": "Tengo media hora.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S61202": {
+      "action": "confirm",
+      "french": "Voy a estudiar inglés esta tarde.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner knockergrowl has no native or OK signal"
+    },
+    "S61203": {
+      "action": "confirm",
+      "french": "Él tiene menos pan.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S61204": {
+      "action": "confirm",
+      "french": "Es temprano.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S61205": {
+      "action": "confirm",
+      "french": "Yo tengo menos de diez pesos.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S61206": {
+      "action": "confirm",
+      "french": "Quiero unos minutos más.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lena17 has no native or OK signal"
+    },
+    "S61207": {
+      "action": "confirm",
+      "french": "Una hora tiene sesenta minutos.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S61208": {
+      "action": "confirm",
+      "french": "Me voy en un minuto.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S61209": {
+      "action": "confirm",
+      "french": "Siete menos cuatro son tres.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Teiruzu has no native or OK signal"
+    },
+    "S71201": {
+      "action": "confirm",
+      "french": "Comprendo cuando no hablas muy rápido.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S71202": {
+      "action": "confirm",
+      "french": "Ahora sé mucho más que antes.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S71203": {
+      "action": "confirm",
+      "french": "¿Y después?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71204": {
+      "action": "confirm",
+      "french": "El domingo va después del sábado.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner opor has no native or OK signal"
+    },
+    "S71205": {
+      "action": "confirm",
+      "french": "¡Claro que sí!",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71206": {
+      "action": "confirm",
+      "french": "¡Claro que no!",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner aldomora has no native or OK signal"
+    },
+    "S71207": {
+      "action": "confirm",
+      "french": "Vivo cerca del mar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner verver has no native or OK signal"
+    },
+    "S71208": {
+      "action": "confirm",
+      "french": "Ya voy.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner kylecito has no native or OK signal"
+    },
+    "S71209": {
+      "action": "confirm",
+      "french": "Él ya no está aquí.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S71210": {
+      "action": "confirm",
+      "french": "Soy mucho más joven que tú.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S71211": {
+      "action": "confirm",
+      "french": "Él vive solo en un apartamento.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S71212": {
+      "action": "confirm",
+      "french": "¿Sobre qué?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71213": {
+      "action": "confirm",
+      "french": "Todo es muy caro en esta tienda.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71214": {
+      "action": "confirm",
+      "french": "¿Todo bien?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71215": {
+      "action": "confirm",
+      "french": "Perdón, ¿hay un hotel por aquí?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71216": {
+      "action": "confirm",
+      "french": "¿Cuánto tengo que pagar?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71217": {
+      "action": "confirm",
+      "french": "Hasta mañana en la tarde.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71218": {
+      "action": "confirm",
+      "french": "Hasta pronto.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71219": {
+      "action": "confirm",
+      "french": "Eso es todo, gracias.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71220": {
+      "action": "confirm",
+      "french": "El dinero está sobre la mesa.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71221": {
+      "action": "confirm",
+      "french": "El periódico cuesta menos que el libro.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71222": {
+      "action": "confirm",
+      "french": "Por aquí.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71223": {
+      "action": "confirm",
+      "french": "¿Cuánto cuesta por día?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S71224": {
+      "action": "confirm",
+      "french": "¿Eso es un gato o un perro?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S37201": {
+      "action": "confirm",
+      "french": "Hoy me siento bien.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S37202": {
+      "action": "confirm",
+      "french": "Esto es lo que quiero.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner kylecito has no native or OK signal"
+    },
+    "S37203": {
+      "action": "confirm",
+      "french": "Pero yo entiendo lo que él dice.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S37204": {
+      "action": "confirm",
+      "french": "No entiendo lo que quieres decir.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S37205": {
+      "action": "confirm",
+      "french": "Lo sé.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Espi has no native or OK signal"
+    },
+    "S37206": {
+      "action": "confirm",
+      "french": "Ya no lo quiero.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S37207": {
+      "action": "confirm",
+      "french": "Me siento bien hoy.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S37208": {
+      "action": "confirm",
+      "french": "Me siento muy enfermo.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S37209": {
+      "action": "confirm",
+      "french": "Me siento bien.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S37210": {
+      "action": "confirm",
+      "french": "No me siento bien.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S37211": {
+      "action": "confirm",
+      "french": "Lo siento, no tengo dinero.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S37212": {
+      "action": "confirm",
+      "french": "¿Para qué lo quieres?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S37213": {
+      "action": "confirm",
+      "french": "¿Entiendes lo que quiero decir?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S37214": {
+      "action": "confirm",
+      "french": "Ya me siento bien.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S37215": {
+      "action": "confirm",
+      "french": "Me siento solo.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S37216": {
+      "action": "confirm",
+      "french": "Eso no lo sé.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S37217": {
+      "action": "confirm",
+      "french": "¿Qué dijiste?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner chinopinyin has no native or OK signal"
+    },
+    "S37218": {
+      "action": "confirm",
+      "french": "No entiendo muy bien lo que dice.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner chinopinyin has no native or OK signal"
+    },
+    "S37219": {
+      "action": "confirm",
+      "french": "Lo sé muy bien.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner kokorosama has no native or OK signal"
+    },
+    "S37220": {
+      "action": "confirm",
+      "french": "¿Qué es lo que te gusta?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Leynaf has no native or OK signal"
+    },
+    "S37221": {
+      "action": "confirm",
+      "french": "No lo entiendo.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Leynaf has no native or OK signal"
+    },
+    "S62201": {
+      "action": "confirm",
+      "french": "El jueves estoy aquí.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ajje has no native or OK signal"
+    },
+    "S62202": {
+      "action": "confirm",
+      "french": "Ella siempre habla en inglés.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S62203": {
+      "action": "confirm",
+      "french": "Él siempre dice la verdad.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S62204": {
+      "action": "confirm",
+      "french": "¿Para cuántos días?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S62205": {
+      "action": "confirm",
+      "french": "En una semana hay siete días.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S62206": {
+      "action": "confirm",
+      "french": "El gato tiene veinte días.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S62207": {
+      "action": "confirm",
+      "french": "Están todos bien, gracias.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S62208": {
+      "action": "confirm",
+      "french": "Él siempre está feliz.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S62209": {
+      "action": "confirm",
+      "french": "Voy cada año.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S62210": {
+      "action": "confirm",
+      "french": "¿De dónde son todos ustedes?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S62211": {
+      "action": "confirm",
+      "french": "Siempre me siento cansado.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S62212": {
+      "action": "confirm",
+      "french": "¡Buenas noches a todos!",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S62213": {
+      "action": "confirm",
+      "french": "Voy a la iglesia todos los días.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S62214": {
+      "action": "confirm",
+      "french": "Él va allí cada día.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner robespain has no native or OK signal"
+    },
+    "S62215": {
+      "action": "confirm",
+      "french": "Quiero vivir para siempre.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner pisclis has no native or OK signal"
+    },
+    "S62216": {
+      "action": "confirm",
+      "french": "Él es el amigo de todos.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner BarinovDenis has no native or OK signal"
+    },
+    "S62217": {
+      "action": "confirm",
+      "french": "Hablo inglés cada día.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner migueltoledo86 has no native or OK signal"
+    },
+    "S62218": {
+      "action": "confirm",
+      "french": "Hay un tren cada treinta minutos.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner labatteg has no native or OK signal"
+    },
+    "S62219": {
+      "action": "confirm",
+      "french": "Siempre escucho a Tom.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S63201": {
+      "action": "confirm",
+      "french": "¿Cuántos días tiene enero?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S63202": {
+      "action": "confirm",
+      "french": "Enero tiene treinta y un días.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S63203": {
+      "action": "confirm",
+      "french": "Ya estamos en junio.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S63204": {
+      "action": "confirm",
+      "french": "Me gusta la primavera.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S63205": {
+      "action": "confirm",
+      "french": "¿Te gusta la primavera?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner araneo has no native or OK signal"
+    },
+    "S63206": {
+      "action": "confirm",
+      "french": "Es otoño.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S63207": {
+      "action": "confirm",
+      "french": "Ahora es otoño.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S63208": {
+      "action": "confirm",
+      "french": "¿Qué fecha tiene la carta?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner THURET has no native or OK signal"
+    },
+    "S63209": {
+      "action": "confirm",
+      "french": "¿Te gusta el verano?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S63210": {
+      "action": "confirm",
+      "french": "El invierno es frío, pero me gusta.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Crul has no native or OK signal"
+    },
+    "S63211": {
+      "action": "confirm",
+      "french": "¿Ya es invierno?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner T15IVAZIZEN has no native or OK signal"
+    },
+    "S63212": {
+      "action": "confirm",
+      "french": "Ahora es marzo.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S63213": {
+      "action": "confirm",
+      "french": "Ahora es julio.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S63214": {
+      "action": "confirm",
+      "french": "¡Yo primero!",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S63215": {
+      "action": "confirm",
+      "french": "No me gusta la ciudad en invierno.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S63216": {
+      "action": "confirm",
+      "french": "Febrero no tiene treinta días.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S63217": {
+      "action": "confirm",
+      "french": "Es verano.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S63218": {
+      "action": "confirm",
+      "french": "Es invierno.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S72201": {
+      "action": "confirm",
+      "french": "Me gusta escuchar la lluvia.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S72202": {
+      "action": "confirm",
+      "french": "Hace mal tiempo.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S72203": {
+      "action": "confirm",
+      "french": "¿Qué tiempo hace esta mañana?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S72204": {
+      "action": "confirm",
+      "french": "Quiero un buen diccionario.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S72205": {
+      "action": "confirm",
+      "french": "No tengo tiempo para leer libros.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S72206": {
+      "action": "confirm",
+      "french": "No sé qué hacer.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S72207": {
+      "action": "confirm",
+      "french": "Y ahora, ¿qué voy a hacer?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S72208": {
+      "action": "confirm",
+      "french": "¿Nieva mucho aquí en el invierno?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S72209": {
+      "action": "confirm",
+      "french": "No tengo tiempo.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner martinerburu has no native or OK signal"
+    },
+    "S72210": {
+      "action": "confirm",
+      "french": "Busco un buen hotel.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S72211": {
+      "action": "confirm",
+      "french": "Llueve mucho en junio.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mamat has no native or OK signal"
+    },
+    "S72212": {
+      "action": "confirm",
+      "french": "¿Qué hace por la tarde?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S72213": {
+      "action": "confirm",
+      "french": "¿Qué te gusta hacer?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S72214": {
+      "action": "confirm",
+      "french": "Leer me hace feliz.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S72215": {
+      "action": "confirm",
+      "french": "Hoy no hace mucho viento.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S72216": {
+      "action": "confirm",
+      "french": "Va a llover esta tarde.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S72217": {
+      "action": "confirm",
+      "french": "No sé qué hacer ahora.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S72218": {
+      "action": "confirm",
+      "french": "Hace mucho viento.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S72219": {
+      "action": "confirm",
+      "french": "¿Qué quieres hacer?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Dejo has no native or OK signal"
+    },
+    "S72220": {
+      "action": "confirm",
+      "french": "¿Qué hace usted esta tarde?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Dejo has no native or OK signal"
+    },
+    "S72221": {
+      "action": "confirm",
+      "french": "¿Por qué tengo que hacer eso?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S72222": {
+      "action": "confirm",
+      "french": "Hace mucho frío.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S72223": {
+      "action": "confirm",
+      "french": "Hace bastante frío.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S72224": {
+      "action": "confirm",
+      "french": "¿Qué tiempo hace en tu país ahora?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S38201": {
+      "action": "confirm",
+      "french": "¿Puedes ver lejos?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S38202": {
+      "action": "confirm",
+      "french": "Voy a ver a un amigo mañana.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S38203": {
+      "action": "confirm",
+      "french": "Quiero ver esta película.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner chinopinyin has no native or OK signal"
+    },
+    "S38204": {
+      "action": "confirm",
+      "french": "No sé qué pensar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S38205": {
+      "action": "confirm",
+      "french": "Quiero ver la película.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Daga007 has no native or OK signal"
+    },
+    "S38206": {
+      "action": "confirm",
+      "french": "Pienso que es médico.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alicia has no native or OK signal"
+    },
+    "S38207": {
+      "action": "confirm",
+      "french": "Yo también lo pienso.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner fgreco has no native or OK signal"
+    },
+    "S38208": {
+      "action": "confirm",
+      "french": "No lo quiero ver.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ramonj has no native or OK signal"
+    },
+    "S38209": {
+      "action": "confirm",
+      "french": "Quiero ver tu casa.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S38210": {
+      "action": "confirm",
+      "french": "Yo pienso que sí.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Adelpa has no native or OK signal"
+    },
+    "S38211": {
+      "action": "confirm",
+      "french": "¿Me puede ver?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S38212": {
+      "action": "confirm",
+      "french": "¡Quiero ver!",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Ekim has no native or OK signal"
+    },
+    "S38213": {
+      "action": "confirm",
+      "french": "Ya no sé qué pensar.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S38214": {
+      "action": "confirm",
+      "french": "Yo pienso que Tom hace eso.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mexicanhere has no native or OK signal"
+    },
+    "S38215": {
+      "action": "confirm",
+      "french": "Quiero ver a Tom bailar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S38216": {
+      "action": "confirm",
+      "french": "¿No lo quieres ver?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mexicanhere has no native or OK signal"
+    },
+    "S38217": {
+      "action": "confirm",
+      "french": "¿Quieres ver a mi gato?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S64201": {
+      "action": "confirm",
+      "french": "Él va al concierto.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner opor has no native or OK signal"
+    },
+    "S64202": {
+      "action": "confirm",
+      "french": "El próximo domingo hay un concierto.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S64203": {
+      "action": "confirm",
+      "french": "¿Vienes o no?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hundo has no native or OK signal"
+    },
+    "S64204": {
+      "action": "confirm",
+      "french": "¿Cuándo vienes?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner enteka has no native or OK signal"
+    },
+    "S64205": {
+      "action": "confirm",
+      "french": "¿De dónde vienes?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Espi has no native or OK signal"
+    },
+    "S64206": {
+      "action": "confirm",
+      "french": "¿Nos vemos mañana?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S64207": {
+      "action": "confirm",
+      "french": "¿Quieres ir?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner marloncori has no native or OK signal"
+    },
+    "S64208": {
+      "action": "confirm",
+      "french": "No puedes ir.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Espi has no native or OK signal"
+    },
+    "S64209": {
+      "action": "confirm",
+      "french": "Tienes que ir.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mamat has no native or OK signal"
+    },
+    "S64210": {
+      "action": "confirm",
+      "french": "¿Está libre?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S64211": {
+      "action": "confirm",
+      "french": "No estoy libre.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S64212": {
+      "action": "confirm",
+      "french": "Hoy estoy libre.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner qdii has no native or OK signal"
+    },
+    "S64213": {
+      "action": "confirm",
+      "french": "¿Por qué no puedes venir?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S64214": {
+      "action": "confirm",
+      "french": "Nos vemos mañana en la escuela.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S64215": {
+      "action": "confirm",
+      "french": "Vemos con los ojos.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S64216": {
+      "action": "confirm",
+      "french": "Quiero ir a la fiesta.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S64217": {
+      "action": "confirm",
+      "french": "¿Por qué no vienes a mi fiesta?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S64218": {
+      "action": "confirm",
+      "french": "Después del sábado viene el domingo.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S64219": {
+      "action": "confirm",
+      "french": "¿A dónde vamos?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S64220": {
+      "action": "confirm",
+      "french": "Vamos a la playa.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S64221": {
+      "action": "confirm",
+      "french": "Voy a salir esta tarde.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S64222": {
+      "action": "confirm",
+      "french": "La primavera viene después del invierno.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S64223": {
+      "action": "confirm",
+      "french": "Tengo que ir a la escuela.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Scott has no native or OK signal"
+    },
+    "S64224": {
+      "action": "confirm",
+      "french": "Vamos a nadar en el río.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S64225": {
+      "action": "confirm",
+      "french": "No puede venir, está enfermo.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner arashi_29 has no native or OK signal"
+    },
+    "S64226": {
+      "action": "confirm",
+      "french": "Vamos al cine.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S64227": {
+      "action": "confirm",
+      "french": "¿Cuándo puedes venir?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Eldad has no native or OK signal"
+    },
+    "S64228": {
+      "action": "confirm",
+      "french": "Voy a salir.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S64229": {
+      "action": "confirm",
+      "french": "¿Te quieres ir?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner andresevargas has no native or OK signal"
+    },
+    "S64230": {
+      "action": "confirm",
+      "french": "Te veo mañana en la escuela.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner maturano has no native or OK signal"
+    },
+    "S64231": {
+      "action": "confirm",
+      "french": "Quiero ir a ver una película.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S64232": {
+      "action": "confirm",
+      "french": "Ya me tengo que ir.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S65201": {
+      "action": "confirm",
+      "french": "Yo no me levanto temprano.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner AMIKEMA has no native or OK signal"
+    },
+    "S65202": {
+      "action": "confirm",
+      "french": "Tom no tiene que levantarse temprano mañana.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S65203": {
+      "action": "confirm",
+      "french": "Vuelvo en un mes.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S65204": {
+      "action": "confirm",
+      "french": "¿Con quién cena usted?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S65205": {
+      "action": "confirm",
+      "french": "Quiero cenar en un restaurante.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S65206": {
+      "action": "confirm",
+      "french": "¿Qué quiere usted desayunar?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Dejo has no native or OK signal"
+    },
+    "S65207": {
+      "action": "confirm",
+      "french": "¿Qué quieres para desayunar?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Dejo has no native or OK signal"
+    },
+    "S65208": {
+      "action": "confirm",
+      "french": "¿Y luego?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S65209": {
+      "action": "confirm",
+      "french": "¿Qué hay para cenar?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S65210": {
+      "action": "confirm",
+      "french": "No voy a volver.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Fanki has no native or OK signal"
+    },
+    "S65211": {
+      "action": "confirm",
+      "french": "¿Con cuál empiezo?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S65212": {
+      "action": "confirm",
+      "french": "Nos vemos luego.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner krash has no native or OK signal"
+    },
+    "S65213": {
+      "action": "confirm",
+      "french": "¿Qué hago con esto?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Angel_VV has no native or OK signal"
+    },
+    "S65214": {
+      "action": "confirm",
+      "french": "Hago deporte todos los días.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ILDEFONSO has no native or OK signal"
+    },
+    "S65215": {
+      "action": "confirm",
+      "french": "¿De quién es esta comida?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner japegon has no native or OK signal"
+    },
+    "S65216": {
+      "action": "confirm",
+      "french": "No quiero volver.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S65217": {
+      "action": "confirm",
+      "french": "Este dinero es para comprar comida.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hundo has no native or OK signal"
+    },
+    "S65218": {
+      "action": "confirm",
+      "french": "¿Cuándo empiezo?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Narda has no native or OK signal"
+    },
+    "S65219": {
+      "action": "confirm",
+      "french": "¿Quieres ir hoy a cenar?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner gazafello has no native or OK signal"
+    },
+    "S65220": {
+      "action": "confirm",
+      "french": "El chico no tiene comida.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S65221": {
+      "action": "confirm",
+      "french": "Ellos beben café luego de la comida.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner FiRez has no native or OK signal"
+    },
+    "S65222": {
+      "action": "confirm",
+      "french": "Siempre es difícil empezar una carta.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner nancy has no native or OK signal"
+    },
+    "S65223": {
+      "action": "confirm",
+      "french": "La escuela empieza en primavera.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S65224": {
+      "action": "confirm",
+      "french": "No sé por dónde empezar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S65225": {
+      "action": "confirm",
+      "french": "La comida está buena.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner bichodebola has no native or OK signal"
+    },
+    "S73201": {
+      "action": "confirm",
+      "french": "No, pero juego al tenis.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S73202": {
+      "action": "confirm",
+      "french": "Tom puede correr rápido.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S73203": {
+      "action": "confirm",
+      "french": "Me gusta comprar por internet.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S73204": {
+      "action": "confirm",
+      "french": "Él está cansado de ver la televisión.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S73206": {
+      "action": "confirm",
+      "french": "Me gusta correr.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner andresevargas has no native or OK signal"
+    },
+    "S73207": {
+      "action": "confirm",
+      "french": "Juega bien al tenis.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner chinopinyin has no native or OK signal"
+    },
+    "S73208": {
+      "action": "confirm",
+      "french": "Veo la televisión todo el día.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S73209": {
+      "action": "confirm",
+      "french": "¿Hay una televisión en la casa?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S73210": {
+      "action": "confirm",
+      "french": "Quiero ir a esquiar con ella.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner chinopinyin has no native or OK signal"
+    },
+    "S73212": {
+      "action": "confirm",
+      "french": "¿Quieres jugar al tenis con nosotros?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner iriberri has no native or OK signal"
+    },
+    "S73213": {
+      "action": "confirm",
+      "french": "Yo juego tenis.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner jorgearestrepo has no native or OK signal"
+    },
+    "S73215": {
+      "action": "confirm",
+      "french": "Puedes ver la televisión después de cenar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alicia has no native or OK signal"
+    },
+    "S73216": {
+      "action": "confirm",
+      "french": "Él no puede correr muy rápido.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner felipeselles has no native or OK signal"
+    },
+    "S73217": {
+      "action": "confirm",
+      "french": "Veo televisión todos los días.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner pilaf has no native or OK signal"
+    },
+    "S73218": {
+      "action": "confirm",
+      "french": "Él siempre lee una revista.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner nancy has no native or OK signal"
+    },
+    "S73219": {
+      "action": "confirm",
+      "french": "Mi amigo no juega al tenis.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner konrad509 has no native or OK signal"
+    },
+    "S73220": {
+      "action": "confirm",
+      "french": "Hoy quiero correr por la playa.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner fjay69 has no native or OK signal"
+    },
+    "S73221": {
+      "action": "confirm",
+      "french": "Me gusta mucho jugar al tenis.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner GuidoW has no native or OK signal"
+    },
+    "S73222": {
+      "action": "confirm",
+      "french": "Yo no tengo un radio.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mexicanhere has no native or OK signal"
+    },
+    "S66201": {
+      "action": "confirm",
+      "french": "No hay salida.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ajje has no native or OK signal"
+    },
+    "S66202": {
+      "action": "confirm",
+      "french": "¿Hay ascensor?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S66204": {
+      "action": "confirm",
+      "french": "Está en la planta baja.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S66205": {
+      "action": "confirm",
+      "french": "La puerta está abierta ahora.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S66206": {
+      "action": "confirm",
+      "french": "Él tiene mucho dinero en el banco.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S66207": {
+      "action": "confirm",
+      "french": "¿Tengo que abrir todo?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S66208": {
+      "action": "confirm",
+      "french": "El restaurante está en la planta baja.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S66209": {
+      "action": "confirm",
+      "french": "Gracias por la información.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Espi has no native or OK signal"
+    },
+    "S66210": {
+      "action": "confirm",
+      "french": "Voy al banco.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S66211": {
+      "action": "confirm",
+      "french": "¿Cuándo abre?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S66212": {
+      "action": "confirm",
+      "french": "¿Hay un banco cerca de la estación?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S66213": {
+      "action": "confirm",
+      "french": "¿Dónde está el banco?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hundo has no native or OK signal"
+    },
+    "S66214": {
+      "action": "confirm",
+      "french": "Ahora tengo que ir al banco.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner arashi_29 has no native or OK signal"
+    },
+    "S66215": {
+      "action": "confirm",
+      "french": "La puerta no cierra.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S66216": {
+      "action": "confirm",
+      "french": "La puerta está cerrada.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner enteka has no native or OK signal"
+    },
+    "S66217": {
+      "action": "confirm",
+      "french": "Los jueves no abre la tienda.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner verver has no native or OK signal"
+    },
+    "S66218": {
+      "action": "confirm",
+      "french": "Ella abre la puerta.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ramonj has no native or OK signal"
+    },
+    "S66219": {
+      "action": "confirm",
+      "french": "Ahora voy a cerrar la puerta.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S66220": {
+      "action": "confirm",
+      "french": "La botella está cerrada.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ajje has no native or OK signal"
+    },
+    "S66221": {
+      "action": "confirm",
+      "french": "Está abierta.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ajje has no native or OK signal"
+    },
+    "S67201": {
+      "action": "confirm",
+      "french": "¿Tienes el horario?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S67202": {
+      "action": "confirm",
+      "french": "¿Cuál es tu horario para mañana?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner GuidoW has no native or OK signal"
+    },
+    "S67203": {
+      "action": "confirm",
+      "french": "¿De dónde sale?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner kylecito has no native or OK signal"
+    },
+    "S67204": {
+      "action": "confirm",
+      "french": "Ella no sale mucho.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S67205": {
+      "action": "confirm",
+      "french": "Siempre llega tarde.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner megamanenm has no native or OK signal"
+    },
+    "S67206": {
+      "action": "confirm",
+      "french": "Yo no tengo tiempo para viajar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S67207": {
+      "action": "confirm",
+      "french": "Ya llega el invierno.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S67208": {
+      "action": "confirm",
+      "french": "¿A qué hora llega el próximo tren?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S67209": {
+      "action": "confirm",
+      "french": "Aquí está mi boleto.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S67210": {
+      "action": "confirm",
+      "french": "¿Cuánto cuesta el boleto?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S67211": {
+      "action": "confirm",
+      "french": "Estoy ahora en el aeropuerto.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S67212": {
+      "action": "confirm",
+      "french": "¿Dónde está la parada de autobús?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Dejo has no native or OK signal"
+    },
+    "S67213": {
+      "action": "confirm",
+      "french": "El autobús sale en cinco minutos.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Dejo has no native or OK signal"
+    },
+    "S67214": {
+      "action": "confirm",
+      "french": "No tengo boleto.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner newyears1985 has no native or OK signal"
+    },
+    "S67215": {
+      "action": "confirm",
+      "french": "Cerca hay una parada de autobús.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner chinopinyin has no native or OK signal"
+    },
+    "S67216": {
+      "action": "confirm",
+      "french": "Quiero viajar en avión.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner pilotcdmark has no native or OK signal"
+    },
+    "S67217": {
+      "action": "confirm",
+      "french": "En avión, por favor.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner japegon has no native or OK signal"
+    },
+    "S67218": {
+      "action": "confirm",
+      "french": "¿Cuándo sale el próximo tren?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner cdani has no native or OK signal"
+    },
+    "S67219": {
+      "action": "confirm",
+      "french": "¡Voy a llegar tarde a la escuela!",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner jorgearestrepo has no native or OK signal"
+    },
+    "S67220": {
+      "action": "confirm",
+      "french": "Perdona por llegar tarde.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner japegon has no native or OK signal"
+    },
+    "S67221": {
+      "action": "confirm",
+      "french": "Me gusta viajar por tren.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S67222": {
+      "action": "confirm",
+      "french": "¿Dónde está el aeropuerto?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hundo has no native or OK signal"
+    },
+    "S67223": {
+      "action": "confirm",
+      "french": "El aeropuerto está cerca.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ssc73 has no native or OK signal"
+    },
+    "S67224": {
+      "action": "confirm",
+      "french": "Aquí hay una parada de autobús.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tsalagi has no native or OK signal"
+    },
+    "S67225": {
+      "action": "confirm",
+      "french": "Este autobús te lleva al aeropuerto.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner enteka has no native or OK signal"
+    },
+    "S67226": {
+      "action": "confirm",
+      "french": "No quiero llegar tarde.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner enteka has no native or OK signal"
+    },
+    "S67227": {
+      "action": "confirm",
+      "french": "El tren llega temprano.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner bichodebola has no native or OK signal"
+    },
+    "S67228": {
+      "action": "confirm",
+      "french": "Voy a ir en avión.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner nancy has no native or OK signal"
+    },
+    "S74208": {
+      "action": "confirm",
+      "french": "Tengo los ojos azules.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner rafermom has no native or OK signal"
+    },
+    "S74209": {
+      "action": "confirm",
+      "french": "Ella tiene unos grandes ojos azules.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner felipeselles has no native or OK signal"
+    },
+    "S74210": {
+      "action": "confirm",
+      "french": "Tiene ojos azules.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner enteka has no native or OK signal"
+    },
+    "S74211": {
+      "action": "confirm",
+      "french": "Tengo ojos azules.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner BraveSentry has no native or OK signal"
+    },
+    "S74212": {
+      "action": "confirm",
+      "french": "Este gato es bastante gordo.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S74213": {
+      "action": "confirm",
+      "french": "Él tiene ojos verdes.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner betigre has no native or OK signal"
+    },
+    "S74214": {
+      "action": "confirm",
+      "french": "Es hermoso.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner jvergaratabares has no native or OK signal"
+    },
+    "S74215": {
+      "action": "confirm",
+      "french": "Tengo el pelo oscuro.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner GuidoW has no native or OK signal"
+    },
+    "S39201": {
+      "action": "confirm",
+      "french": "Quizá sí, quizá no…",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner topofabi has no native or OK signal"
+    },
+    "S39202": {
+      "action": "confirm",
+      "french": "No lo creo.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner aye1995 has no native or OK signal"
+    },
+    "S39203": {
+      "action": "confirm",
+      "french": "Yo creo en él.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S39204": {
+      "action": "confirm",
+      "french": "Creo que es una buena idea.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S39205": {
+      "action": "confirm",
+      "french": "Creo que va a llover.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Juan has no native or OK signal"
+    },
+    "S39206": {
+      "action": "confirm",
+      "french": "¿Estás segura?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S39207": {
+      "action": "confirm",
+      "french": "Estoy seguro.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S39208": {
+      "action": "confirm",
+      "french": "Creo que tengo frío.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S39209": {
+      "action": "confirm",
+      "french": "Sí, creo que está bien.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S39210": {
+      "action": "confirm",
+      "french": "¿Estás seguro de eso?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner qdii has no native or OK signal"
+    },
+    "S39211": {
+      "action": "confirm",
+      "french": "Sí, tengo una buena idea.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Dejo has no native or OK signal"
+    },
+    "S39212": {
+      "action": "confirm",
+      "french": "Tengo una buena idea.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S39213": {
+      "action": "confirm",
+      "french": "Creo que viene, pero no estoy seguro.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner abu3 has no native or OK signal"
+    },
+    "S39214": {
+      "action": "confirm",
+      "french": "Creo que va a llover hoy.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner japegon has no native or OK signal"
+    },
+    "S39215": {
+      "action": "confirm",
+      "french": "Creo que mañana va a llover.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner numides has no native or OK signal"
+    },
+    "S39216": {
+      "action": "confirm",
+      "french": "Creo que hay agua bajo la mesa.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner japegon has no native or OK signal"
+    },
+    "S39217": {
+      "action": "confirm",
+      "french": "No estoy muy seguro.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner jorgearestrepo has no native or OK signal"
+    },
+    "S39218": {
+      "action": "confirm",
+      "french": "Creo que él es feliz.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hundo has no native or OK signal"
+    },
+    "S39219": {
+      "action": "confirm",
+      "french": "¿Tienes idea de cuándo cierra el banco?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ssc73 has no native or OK signal"
+    },
+    "S39220": {
+      "action": "confirm",
+      "french": "Tienes una buena idea.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S39221": {
+      "action": "confirm",
+      "french": "¿Cómo es posible?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S39222": {
+      "action": "confirm",
+      "french": "Creo que hay un hombre allí.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner rafmagon has no native or OK signal"
+    },
+    "S39223": {
+      "action": "confirm",
+      "french": "Creo que todo va bien.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S68201": {
+      "action": "confirm",
+      "french": "¿Hay una estación de metro por aquí?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S68202": {
+      "action": "confirm",
+      "french": "¿Tienen su pasaporte?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ventana has no native or OK signal"
+    },
+    "S68203": {
+      "action": "confirm",
+      "french": "Puedes entrar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hundo has no native or OK signal"
+    },
+    "S68204": {
+      "action": "confirm",
+      "french": "No se puede viajar sin pasaporte.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S68205": {
+      "action": "confirm",
+      "french": "¿El metro va al aeropuerto?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S68206": {
+      "action": "confirm",
+      "french": "Mi pasaporte no está aquí.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner rul has no native or OK signal"
+    },
+    "S68207": {
+      "action": "confirm",
+      "french": "Soy el conductor de Tom.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S69202": {
+      "action": "confirm",
+      "french": "¡Mira! Hay un gato en la cocina.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner tatoerique has no native or OK signal"
+    },
+    "S69203": {
+      "action": "confirm",
+      "french": "¿Tengo que cambiar?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S69204": {
+      "action": "confirm",
+      "french": "Quiero cambiar esto.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S69205": {
+      "action": "confirm",
+      "french": "¿Dónde tengo que cambiar de tren?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hundo has no native or OK signal"
+    },
+    "S69206": {
+      "action": "confirm",
+      "french": "Nadar es un buen ejercicio.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S69207": {
+      "action": "confirm",
+      "french": "Tengo que cambiar mi ropa.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Espi has no native or OK signal"
+    },
+    "S69208": {
+      "action": "confirm",
+      "french": "Tom quiere cambiar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner nancy has no native or OK signal"
+    },
+    "S69209": {
+      "action": "confirm",
+      "french": "Quiero cambiar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S69210": {
+      "action": "confirm",
+      "french": "Mira el mapa.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner alexmarcelo has no native or OK signal"
+    },
+    "S69211": {
+      "action": "confirm",
+      "french": "¿Me escucha?",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner ajje has no native or OK signal"
+    },
+    "S69212": {
+      "action": "confirm",
+      "french": "¡Mira lo que tengo!",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S69213": {
+      "action": "confirm",
+      "french": "Elige un idioma.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S69214": {
+      "action": "confirm",
+      "french": "Mira este gato.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Amastan has no native or OK signal"
+    },
+    "S69215": {
+      "action": "confirm",
+      "french": "¡Mira! ¡El gato está en la cocina!",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mexicanhere has no native or OK signal"
+    },
+    "S69216": {
+      "action": "confirm",
+      "french": "Ella no escucha.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner PolyTrekker has no native or OK signal"
+    },
+    "S69217": {
+      "action": "confirm",
+      "french": "Quiero practicar mi francés.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mexicanhere has no native or OK signal"
+    },
+    "S69218": {
+      "action": "confirm",
+      "french": "Mira, ¡soy yo!",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner frpzzd has no native or OK signal"
+    },
+    "S69219": {
+      "action": "confirm",
+      "french": "Puedes cambiar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mexicanhere has no native or OK signal"
+    },
+    "S69220": {
+      "action": "confirm",
+      "french": "Él nunca escucha al profesor.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
+    },
+    "S75201": {
+      "action": "confirm",
+      "french": "Este monumento tiene más de cien años.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S75202": {
+      "action": "confirm",
+      "french": "Voy a visitar a mis amigas.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner lukaszpp has no native or OK signal"
+    },
+    "S75203": {
+      "action": "confirm",
+      "french": "Son buena gente.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner darinmex has no native or OK signal"
+    },
+    "S75204": {
+      "action": "confirm",
+      "french": "¿Está este lugar lejos del banco?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner opor has no native or OK signal"
+    },
+    "S75205": {
+      "action": "confirm",
+      "french": "¿Qué ciudad vas a visitar primero?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner hundo has no native or OK signal"
+    },
+    "S75206": {
+      "action": "confirm",
+      "french": "Soy un turista también.",
+      "english_source": "Fable review pick",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Espi has no native or OK signal"
+    },
+    "S75207": {
+      "action": "confirm",
+      "french": "Estás en un lugar seguro.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner enteka has no native or OK signal"
+    },
+    "S75208": {
+      "action": "confirm",
+      "french": "No me gusta este lugar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner wiichi has no native or OK signal"
+    },
+    "S75209": {
+      "action": "confirm",
+      "french": "Me gusta este lugar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S75210": {
+      "action": "confirm",
+      "french": "Voy a visitar a Tom hoy.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner Ricardo14 has no native or OK signal"
+    },
+    "S75211": {
+      "action": "confirm",
+      "french": "Soy famoso.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S75212": {
+      "action": "confirm",
+      "french": "Este edificio es nuevo.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S75213": {
+      "action": "confirm",
+      "french": "¿A quién más quieres visitar?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner DJ_Saidez has no native or OK signal"
+    },
+    "S75214": {
+      "action": "confirm",
+      "french": "Hay gente que no come huevos.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S75215": {
+      "action": "confirm",
+      "french": "¿Qué quiere la gente?",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner carlosalberto has no native or OK signal"
+    },
+    "S75216": {
+      "action": "confirm",
+      "french": "Tom te quiere visitar.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mexicanhere has no native or OK signal"
+    },
+    "S75217": {
+      "action": "confirm",
+      "french": "Sé lo que la gente quiere.",
+      "english_source": "",
+      "by": "Fable's review of _review/spanish-part3-candidates.md (Use), applied by Claude at Dan's request, 2026-11-15: owner mervert1 has no native or OK signal"
     }
   },
   "accepted_answers": {
@@ -2385,6 +4515,216 @@
       "action": "keep",
       "by": "Fable's Spanish Part 2 check (2026-11-14), added at Dan's request",
       "answer": "I live on floor five."
+    },
+    "AD0006": {
+      "action": "keep",
+      "answer": "Son las diez menos cuarto.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0007": {
+      "action": "keep",
+      "answer": "La tienda está en la planta dos.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0008": {
+      "action": "keep",
+      "answer": "¿En qué planta está el restaurante?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0009": {
+      "action": "keep",
+      "answer": "No tengo deberes hoy.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0010": {
+      "action": "keep",
+      "answer": "¿Hay deberes para mañana?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0011": {
+      "action": "keep",
+      "answer": "Tengo un caballo marrón.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0012": {
+      "action": "keep",
+      "answer": "Mi coche es lento.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0013": {
+      "action": "keep",
+      "answer": "Es el coche del profesor.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0014": {
+      "action": "keep",
+      "answer": "Tengo uno en el coche.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0015": {
+      "action": "keep",
+      "answer": "Mi coche es alemán.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0016": {
+      "action": "keep",
+      "answer": "Voy a comprar un coche nuevo.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0017": {
+      "action": "keep",
+      "answer": "Este coche es rápido.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0018": {
+      "action": "keep",
+      "answer": "¿Cuánto cuesta el coche más caro?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0019": {
+      "action": "keep",
+      "answer": "¿Tienes coche?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0020": {
+      "action": "keep",
+      "answer": "¿Dónde está mi coche?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0021": {
+      "action": "keep",
+      "answer": "¿Tiene usted un coche?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0022": {
+      "action": "keep",
+      "answer": "¿Este es tu coche?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0023": {
+      "action": "keep",
+      "answer": "¿Dónde está el coche?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0024": {
+      "action": "keep",
+      "answer": "¿Este coche es nuevo?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0025": {
+      "action": "keep",
+      "answer": "¿Tu coche es rápido?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0026": {
+      "action": "keep",
+      "answer": "El coche es lento.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0027": {
+      "action": "keep",
+      "answer": "El coche está a la entrada.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0028": {
+      "action": "keep",
+      "answer": "Siga al coche.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0029": {
+      "action": "keep",
+      "answer": "Tom conduce un coche negro, ¿no?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0030": {
+      "action": "keep",
+      "answer": "Sé cómo se conduce un coche.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0031": {
+      "action": "keep",
+      "answer": "¿Dónde están las llaves de mi coche?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0032": {
+      "action": "keep",
+      "answer": "Tengo que alquilar un coche.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0033": {
+      "action": "keep",
+      "answer": "¿Vas a hacer los deberes esta tarde?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0034": {
+      "action": "keep",
+      "answer": "Juego baloncesto con ella.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0035": {
+      "action": "keep",
+      "answer": "¿Quieres jugar al baloncesto con nosotros?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0036": {
+      "action": "keep",
+      "answer": "Es interesante jugar al baloncesto.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0037": {
+      "action": "keep",
+      "answer": "Quiero unos zapatos marrones, no negros.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0038": {
+      "action": "keep",
+      "answer": "¿Tiene ojos marrones?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0039": {
+      "action": "keep",
+      "answer": "Tiene zapatos marrones.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0040": {
+      "action": "keep",
+      "answer": "El gato es marrón.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0041": {
+      "action": "keep",
+      "answer": "Mi perro es marrón.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0042": {
+      "action": "keep",
+      "answer": "Tengo que hacer mis deberes.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0043": {
+      "action": "keep",
+      "answer": "¿Te gusta el baloncesto?",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0044": {
+      "action": "keep",
+      "answer": "Me gusta jugar al baloncesto.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0045": {
+      "action": "keep",
+      "answer": "Mis zapatos son marrones.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0046": {
+      "action": "keep",
+      "answer": "Ella tiene los ojos marrones.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
+    },
+    "AD0047": {
+      "action": "keep",
+      "answer": "Tengo ojos marrones.",
+      "by": "Dan, 2026-11-15: the Spain wording is accepted beside the Mexican one (Fable's Spanish Part 3 check)"
     }
   },
   "units": {
@@ -2789,7 +5129,32 @@
       "by": "Claude under autonomous-build.md: 16 Tatoeba sentences from checked owners after review (cuts and reasons in content-es/sweep/packs-review.json), 19 drafts for words Tatoeba had under three lines for"
     }
   },
-  "cut_sentences": [],
+  "cut_sentences": [
+    "S53004",
+    "S53006",
+    "S53007",
+    "S53028",
+    "S53029",
+    "S53030",
+    "S57009",
+    "S57026",
+    "S66030",
+    "S83014",
+    "S84007",
+    "S84017",
+    "S91025",
+    "S95012",
+    "S69006",
+    "S91026",
+    "S73002",
+    "S73013",
+    "S73025",
+    "S74001",
+    "S74004",
+    "S74031",
+    "S74036",
+    "S74038"
+  ],
   "vocabulary_additions": [],
   "hints": {},
   "borrow": {},
@@ -4105,15 +6470,15 @@
     },
     "W1205": {
       "hint": "quarter (of an hour)",
-      "source": "short form of Wiktionary, cuarto (Part 3 and 4 build, 2026-11-15)"
+      "source": "short form of Wiktionary, cuarto (Fable's Part 3 review, 2026-11-15)"
     },
     "W1206": {
-      "hint": "less; to (the hour: las diez menos cuarto)",
-      "source": "short form of Wiktionary, menos (Part 3 and 4 build, 2026-11-15)"
+      "hint": "less; minus",
+      "source": "Wiktionary, menos: less; minus"
     },
     "W1209": {
       "hint": "afternoon, evening; late",
-      "source": "short form of Wiktionary, tarde (Part 3 and 4 build, 2026-11-15)"
+      "source": "short form of Wiktionary, tarde (Fable's Part 3 review, 2026-11-15)"
     },
     "W1212": {
       "hint": "soon",
@@ -4145,7 +6510,7 @@
     },
     "W1261": {
       "hint": "to come",
-      "source": "Wiktionary, venir: to come"
+      "source": "short form of Wiktionary, venir (Fable's Part 3 review, 2026-11-15)"
     },
     "W1268": {
       "hint": "us; each other (nos vemos: see you)",
@@ -4176,8 +6541,8 @@
       "source": "short form of Wiktionary, desayunar (Part 3 and 4 build, 2026-11-15)"
     },
     "W1283": {
-      "hint": "food; meal, lunch",
-      "source": "short form of Wiktionary, comida (Part 3 and 4 build, 2026-11-15)"
+      "hint": "food; lunch, the main meal",
+      "source": "short form of Wiktionary, comida (Fable's Part 3 review, 2026-11-15)"
     },
     "W1293": {
       "hint": "then; later",
@@ -4192,8 +6557,8 @@
       "source": "short form of Wiktionary, cierra (Part 3 and 4 build, 2026-11-15)"
     },
     "W1307": {
-      "hint": "floor (of a building)",
-      "source": "short form of Wiktionary, planta (Part 3 and 4 build, 2026-11-15)"
+      "hint": "floor (planta baja: ground floor)",
+      "source": "Wiktionary, planta: floor, level (of a high building); taught in planta baja, piso elsewhere (Fable's Part 3 review, 2026-11-15)"
     },
     "W1312": {
       "hint": "timetable, schedule",
@@ -4240,8 +6605,8 @@
       "source": "short form of Wiktionary, elige (Part 3 and 4 build, 2026-11-15)"
     },
     "W1404": {
-      "hint": "for, by, through",
-      "source": "short form of Wiktionary, por (Part 3 and 4 build, 2026-11-15)"
+      "hint": "for, by, through; in (por la mañana: in the morning)",
+      "source": "short form of Wiktionary, por (Fable's Part 3 review, 2026-11-15)"
     },
     "W1407": {
       "hint": "on, over; about",
@@ -4261,15 +6626,15 @@
     },
     "W1413": {
       "hint": "alone; only",
-      "source": "short form of Wiktionary, solo (Part 3 and 4 build, 2026-11-15)"
+      "source": "short form of Wiktionary, solo (Fable's Part 3 review, 2026-11-15)"
     },
     "W1415": {
-      "hint": "time; weather",
-      "source": "short form of Wiktionary, tiempo (Part 3 and 4 build, 2026-11-15)"
+      "hint": "weather; time",
+      "source": "short form of Wiktionary, tiempo (Fable's Part 3 review, 2026-11-15)"
     },
     "W1416": {
-      "hint": "he, she, it does or makes; hace calor: it's hot",
-      "source": "Wiktionary, hace: third-person singular present indicative of hacer; hacer calor: to be hot (weather)"
+      "hint": "it is (weather): hace calor, hace frío; he, she does or makes",
+      "source": "Wiktionary, hace: third-person singular present indicative of hacer; hacer calor, hacer frío: to be hot, cold (weather)"
     },
     "W1424": {
       "hint": "good (before a masculine noun)",
@@ -4626,6 +6991,54 @@
     "W1854": {
       "hint": "circus",
       "source": "short form of Wiktionary, circo (Part 3 and 4 build, 2026-11-15)"
+    },
+    "W058": {
+      "hint": "coffee; brown (the colour, in Mexico)",
+      "source": "Wiktionary, café: coffee; brown (colour) (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1045": {
+      "hint": "car",
+      "source": "short form of Wiktionary, carro (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1355": {
+      "hint": "homework; task",
+      "source": "short form of Wiktionary, tarea (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1473": {
+      "hint": "basketball",
+      "source": "short form of Wiktionary, básquetbol (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1474": {
+      "hint": "brown (plural); coffees",
+      "source": "Wiktionary, cafés: plural of café; café (adjective): brown (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1211": {
+      "hint": "early",
+      "source": "short form of Wiktionary, temprano (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1255": {
+      "hint": "well …; so, then",
+      "source": "Wiktionary, pues: so, then; in that case; as a filler it opens an answer, like well (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1441": {
+      "hint": "light (of eyes or colours); clear",
+      "source": "Wiktionary, claros: masculine plural of claro; claro: clear, light, bright (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1270": {
+      "hint": "to go",
+      "source": "short form of Wiktionary, ir (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1330": {
+      "hint": "gentlemen; sirs (señores pasajeros: passengers)",
+      "source": "short form of Wiktionary, señores (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1331": {
+      "hint": "passengers",
+      "source": "short form of Wiktionary, pasajeros (Fable's Part 3 review, 2026-11-15)"
+    },
+    "W1281": {
+      "hint": "to have dinner",
+      "source": "short form of Wiktionary, cenar (Fable's Part 3 review, 2026-11-15)"
     }
   },
   "phrases_off": [],
@@ -4683,6 +7096,342 @@
       "direction": "fr_to_en",
       "answer": "I live on floor five.",
       "source": "Fable's Spanish Part 2 check of 2026-11-14 (_review/spanish-part2-check.md), added at Dan's request",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0006",
+      "sentence_id": "S61104",
+      "direction": "en_to_fr",
+      "answer": "Son las diez menos cuarto.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0007",
+      "sentence_id": "S66111",
+      "direction": "en_to_fr",
+      "answer": "La tienda está en la planta dos.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0008",
+      "sentence_id": "S66112",
+      "direction": "en_to_fr",
+      "answer": "¿En qué planta está el restaurante?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0009",
+      "sentence_id": "S69111",
+      "direction": "en_to_fr",
+      "answer": "No tengo deberes hoy.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0010",
+      "sentence_id": "S69112",
+      "direction": "en_to_fr",
+      "answer": "¿Hay deberes para mañana?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0011",
+      "sentence_id": "S74101",
+      "direction": "en_to_fr",
+      "answer": "Tengo un caballo marrón.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0012",
+      "sentence_id": "S57104",
+      "direction": "en_to_fr",
+      "answer": "Mi coche es lento.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0013",
+      "sentence_id": "S71109",
+      "direction": "en_to_fr",
+      "answer": "Es el coche del profesor.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0014",
+      "sentence_id": "S42205",
+      "direction": "en_to_fr",
+      "answer": "Tengo uno en el coche.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0015",
+      "sentence_id": "S46216",
+      "direction": "en_to_fr",
+      "answer": "Mi coche es alemán.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0016",
+      "sentence_id": "S47204",
+      "direction": "en_to_fr",
+      "answer": "Voy a comprar un coche nuevo.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0017",
+      "sentence_id": "S57214",
+      "direction": "en_to_fr",
+      "answer": "Este coche es rápido.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0018",
+      "sentence_id": "S48213",
+      "direction": "en_to_fr",
+      "answer": "¿Cuánto cuesta el coche más caro?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0019",
+      "sentence_id": "S53301",
+      "direction": "en_to_fr",
+      "answer": "¿Tienes coche?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0020",
+      "sentence_id": "S53302",
+      "direction": "en_to_fr",
+      "answer": "¿Dónde está mi coche?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0021",
+      "sentence_id": "S53303",
+      "direction": "en_to_fr",
+      "answer": "¿Tiene usted un coche?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0022",
+      "sentence_id": "S53304",
+      "direction": "en_to_fr",
+      "answer": "¿Este es tu coche?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0023",
+      "sentence_id": "S53305",
+      "direction": "en_to_fr",
+      "answer": "¿Dónde está el coche?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0024",
+      "sentence_id": "S53306",
+      "direction": "en_to_fr",
+      "answer": "¿Este coche es nuevo?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0025",
+      "sentence_id": "S57301",
+      "direction": "en_to_fr",
+      "answer": "¿Tu coche es rápido?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0026",
+      "sentence_id": "S57302",
+      "direction": "en_to_fr",
+      "answer": "El coche es lento.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0027",
+      "sentence_id": "S66301",
+      "direction": "en_to_fr",
+      "answer": "El coche está a la entrada.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0028",
+      "sentence_id": "S83301",
+      "direction": "en_to_fr",
+      "answer": "Siga al coche.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0029",
+      "sentence_id": "S84301",
+      "direction": "en_to_fr",
+      "answer": "Tom conduce un coche negro, ¿no?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0030",
+      "sentence_id": "S84302",
+      "direction": "en_to_fr",
+      "answer": "Sé cómo se conduce un coche.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0031",
+      "sentence_id": "S91301",
+      "direction": "en_to_fr",
+      "answer": "¿Dónde están las llaves de mi coche?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0032",
+      "sentence_id": "S95301",
+      "direction": "en_to_fr",
+      "answer": "Tengo que alquilar un coche.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0033",
+      "sentence_id": "S69301",
+      "direction": "en_to_fr",
+      "answer": "¿Vas a hacer los deberes esta tarde?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0034",
+      "sentence_id": "S73301",
+      "direction": "en_to_fr",
+      "answer": "Juego baloncesto con ella.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0035",
+      "sentence_id": "S73302",
+      "direction": "en_to_fr",
+      "answer": "¿Quieres jugar al baloncesto con nosotros?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0036",
+      "sentence_id": "S73303",
+      "direction": "en_to_fr",
+      "answer": "Es interesante jugar al baloncesto.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0037",
+      "sentence_id": "S74301",
+      "direction": "en_to_fr",
+      "answer": "Quiero unos zapatos marrones, no negros.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0038",
+      "sentence_id": "S74302",
+      "direction": "en_to_fr",
+      "answer": "¿Tiene ojos marrones?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0039",
+      "sentence_id": "S74303",
+      "direction": "en_to_fr",
+      "answer": "Tiene zapatos marrones.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0040",
+      "sentence_id": "S74304",
+      "direction": "en_to_fr",
+      "answer": "El gato es marrón.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0041",
+      "sentence_id": "S74305",
+      "direction": "en_to_fr",
+      "answer": "Mi perro es marrón.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0042",
+      "sentence_id": "S69302",
+      "direction": "en_to_fr",
+      "answer": "Tengo que hacer mis deberes.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0043",
+      "sentence_id": "S73304",
+      "direction": "en_to_fr",
+      "answer": "¿Te gusta el baloncesto?",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0044",
+      "sentence_id": "S73305",
+      "direction": "en_to_fr",
+      "answer": "Me gusta jugar al baloncesto.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0045",
+      "sentence_id": "S74306",
+      "direction": "en_to_fr",
+      "answer": "Mis zapatos son marrones.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0046",
+      "sentence_id": "S74307",
+      "direction": "en_to_fr",
+      "answer": "Ella tiene los ojos marrones.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+      "status": "live"
+    },
+    {
+      "answer_id": "AD0047",
+      "sentence_id": "S74308",
+      "direction": "en_to_fr",
+      "answer": "Tengo ojos marrones.",
+      "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
       "status": "live"
     }
   ]

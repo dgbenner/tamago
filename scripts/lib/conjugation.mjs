@@ -40,7 +40,10 @@ async function spanish(lemma) {
   if (at < 0 || row?.[0] !== 'present' || row.length < 7) return null
   // Cells: yo, tú (with "tú … vos …" alternatives), él/usted, nosotros, vosotros, ellos/ustedes. Keep the first form.
   const cell = (i) => row[i].split(/\s+(?:tú|vos)(?=\s|$)/)[0].replace(/\s+\d+$/, '').trim().replace(/\s+,/g, ',')
-  const out = [['yo', 1], ['tú', 2], ['él, ella, usted', 3], ['nosotros, nosotras', 4], ['ellos, ellas, ustedes', 6]].map(([person, i]) => ({ person, form: cell(i) }))
+  // Weather verbs are taught in the third person only. Wiktionary marks llover that way (dashes) but gives nevar a
+  // full table for its figurative use; both show the same shape (Fable's Part 3 review, 2026-11-15).
+  const WEATHER = new Set(['llover', 'nevar'])
+  const out = [['yo', 1], ['tú', 2], ['él, ella, usted', 3], ['nosotros, nosotras', 4], ['ellos, ellas, ustedes', 6]].map(([person, i]) => ({ person, form: WEATHER.has(lemma) && i !== 3 ? '—' : cell(i) }))
   return out.every((x) => x.form && !/[{}]/.test(x.form)) ? out : null
 }
 

@@ -9759,16 +9759,16 @@
     "word_id": "W1211",
     "form": "temprano",
     "lemma": "temprano",
-    "part_of_speech": "Adjective",
+    "part_of_speech": "Adverb",
     "gender": "",
-    "gloss": "early",
-    "gloss_full": "early",
+    "gloss": "early, early on",
+    "gloss_full": "early, early on",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/temprano#Spanish",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Adverb: early, early on"
+      "Adjective: early"
     ],
     "lingua_libre": {
       "file": "LL-Q1321 (spa)-Marreromarco-temprano.wav",
@@ -12111,16 +12111,16 @@
     "word_id": "W1330",
     "form": "señores",
     "lemma": "señor",
-    "part_of_speech": "Adjective",
-    "gender": "",
+    "part_of_speech": "Noun",
+    "gender": "m",
     "gloss": "plural of señor",
     "gloss_full": "plural of señor",
-    "lemma_gloss": "great big; whopping",
+    "lemma_gloss": "mister, sir, lord",
     "wiktionary_url": "https://en.wiktionary.org/wiki/se%C3%B1ores#Spanish",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Noun: plural of señor"
+      "Adjective: plural of señor"
     ],
     "lingua_libre": null
   },
@@ -12128,16 +12128,16 @@
     "word_id": "W1331",
     "form": "pasajeros",
     "lemma": "pasajero",
-    "part_of_speech": "Adjective",
-    "gender": "",
-    "gloss": "masculine plural of pasajero",
-    "gloss_full": "masculine plural of pasajero",
-    "lemma_gloss": "transient, passing",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "plural of pasajero",
+    "gloss_full": "plural of pasajero",
+    "lemma_gloss": "passenger",
     "wiktionary_url": "https://en.wiktionary.org/wiki/pasajeros#Spanish",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [
-      "Noun: plural of pasajero"
+      "Adjective: masculine plural of pasajero"
     ],
     "lingua_libre": null
   },
@@ -12587,6 +12587,26 @@
     "lingua_libre": null
   },
   {
+    "word_id": "W1355",
+    "form": "tarea",
+    "lemma": "tarea",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "homework",
+    "gloss_full": "homework",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/tarea#Spanish",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q1321 (spa)-Marreromarco-tarea.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/LL-Q1321_%28spa%29-Marreromarco-tarea.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
     "word_id": "W1401",
     "form": "sin",
     "lemma": "sin",
@@ -12856,8 +12876,8 @@
     "lemma": "solo",
     "part_of_speech": "Adjective",
     "gender": "",
-    "gloss": "sole; one; only; single",
-    "gloss_full": "sole; one; only; single (unique)",
+    "gloss": "alone, by oneself",
+    "gloss_full": "alone, by oneself",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/solo#Spanish",
     "status": "checked",
@@ -14077,6 +14097,48 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/LL-Q1321_%28spa%29-Marreromarco-del.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "license": "CC BY-SA 4.0",
       "recordings_found": 2
+    }
+  },
+  {
+    "word_id": "W1473",
+    "form": "básquetbol",
+    "lemma": "básquetbol",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "basketball",
+    "gloss_full": "basketball (the sport)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/b%C3%A1squetbol#Spanish",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q1321 (spa)-Mariocrespolara-básquetbol.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/LL-Q1321_%28spa%29-Mariocrespolara-b%C3%A1squetbol.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1474",
+    "form": "cafés",
+    "lemma": "café",
+    "part_of_speech": "Adjective",
+    "gender": "",
+    "gloss": "plural of café",
+    "gloss_full": "plural of café",
+    "lemma_gloss": "brown",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/caf%C3%A9s#Spanish",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Noun: plural of café"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q1321 (spa)-Rdrg109-cafés.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/LL-Q1321_%28spa%29-Rdrg109-caf%C3%A9s.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
     }
   },
   {
@@ -18605,6 +18667,26 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/LL-Q1321_%28spa%29-Marreromarco-circo.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "license": "CC BY-SA 4.0",
       "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1045",
+    "form": "carro",
+    "lemma": "carro",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "car, automobile",
+    "gloss_full": "car, automobile",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/carro#Spanish",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q1321 (spa)-Rdrg109-carro.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/LL-Q1321_%28spa%29-Rdrg109-carro.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 2
     }
   }
 ]

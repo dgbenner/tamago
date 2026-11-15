@@ -14,7 +14,7 @@ export const COURSES = {
     tatoeba: 'fra', wiktionaryCode: 'fr', wiktionarySection: 'French', linguaLibre: { qid: 'Q150', iso: 'fra' }, wikidataLanguage: 'Q150',
   },
   es: {
-    id: 'es', name: 'Spanish', workbook: '_source/tamago-es-data-v9.xlsx',
+    id: 'es', name: 'Spanish', workbook: '_source/tamago-es-data-v10.xlsx',
     tatoeba: 'spa', wiktionaryCode: 'es', wiktionarySection: 'Spanish', linguaLibre: { qid: 'Q1321', iso: 'spa' }, wikidataLanguage: 'Q1321',
   },
   // German (2026-11-10): standard German as spoken in Germany, du and Sie. Its folders: content-de/, src/content-de/…

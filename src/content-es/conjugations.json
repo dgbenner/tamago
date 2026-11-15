@@ -468,6 +468,58 @@
     "source": "https://en.wiktionary.org/wiki/volver#Conjugation"
   },
   {
+    "lemma": "cenar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "ceno"
+      },
+      {
+        "person": "tú",
+        "form": "cenas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "cena"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "cenamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "cenan"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/cenar#Conjugation"
+  },
+  {
+    "lemma": "desayunar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "desayuno"
+      },
+      {
+        "person": "tú",
+        "form": "desayunas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "desayuna"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "desayunamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "desayunan"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/desayunar#Conjugation"
+  },
+  {
     "lemma": "correr",
     "present": [
       {
@@ -492,6 +544,32 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/correr#Conjugation"
+  },
+  {
+    "lemma": "esquiar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "esquío"
+      },
+      {
+        "person": "tú",
+        "form": "esquías"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "esquía"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "esquiamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "esquían"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/esquiar#Conjugation"
   },
   {
     "lemma": "cerrar",
@@ -570,6 +648,110 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/creer#Conjugation"
+  },
+  {
+    "lemma": "entrar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "entro"
+      },
+      {
+        "person": "tú",
+        "form": "entras"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "entra"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "entramos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "entran"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/entrar#Conjugation"
+  },
+  {
+    "lemma": "practicar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "practico"
+      },
+      {
+        "person": "tú",
+        "form": "practicas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "practica"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "practicamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "practican"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/practicar#Conjugation"
+  },
+  {
+    "lemma": "cambiar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "cambio"
+      },
+      {
+        "person": "tú",
+        "form": "cambias"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "cambia"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "cambiamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "cambian"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/cambiar#Conjugation"
+  },
+  {
+    "lemma": "visitar",
+    "present": [
+      {
+        "person": "yo",
+        "form": "visito"
+      },
+      {
+        "person": "tú",
+        "form": "visitas"
+      },
+      {
+        "person": "él, ella, usted",
+        "form": "visita"
+      },
+      {
+        "person": "nosotros, nosotras",
+        "form": "visitamos"
+      },
+      {
+        "person": "ellos, ellas, ustedes",
+        "form": "visitan"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/visitar#Conjugation"
   },
   {
     "lemma": "tomar",
@@ -1772,11 +1954,11 @@
     "present": [
       {
         "person": "yo",
-        "form": "nievo"
+        "form": "—"
       },
       {
         "person": "tú",
-        "form": "nievas"
+        "form": "—"
       },
       {
         "person": "él, ella, usted",
@@ -1784,11 +1966,11 @@
       },
       {
         "person": "nosotros, nosotras",
-        "form": "nevamos"
+        "form": "—"
       },
       {
         "person": "ellos, ellas, ustedes",
-        "form": "nievan"
+        "form": "—"
       }
     ],
     "source": "https://en.wiktionary.org/wiki/nevar#Conjugation"

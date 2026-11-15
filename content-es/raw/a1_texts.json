@@ -114,7 +114,7 @@
     "unit_id": "U66",
     "kind": "sign",
     "title": "En la estación",
-    "lines": "Baños: planta 1\nFarmacia: planta 2\nInformación: en la entrada",
+    "lines": "Baños: piso 1\nFarmacia: piso 2\nInformación: en la entrada",
     "questions_json": "[{\"question\":\"Where are the toilets?\",\"choices\":[\"On floor 1\",\"On floor 2\",\"Next to the exit\"],\"answer\":0},{\"question\":\"Where can you get information?\",\"choices\":[\"At the entrance\",\"At the pharmacy\",\"On the train\"],\"answer\":0}]",
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",

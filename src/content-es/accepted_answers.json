@@ -2216,30 +2216,6 @@
     "status": "live"
   },
   {
-    "answer_id": "A530041",
-    "sentence_id": "S53004",
-    "direction": "fr_to_en",
-    "answer": "Have you got a car?",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
-    "answer_id": "A530061",
-    "sentence_id": "S53006",
-    "direction": "fr_to_en",
-    "answer": "Where is my car?",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
-    "answer_id": "A530301",
-    "sentence_id": "S53030",
-    "direction": "fr_to_en",
-    "answer": "Is that a new car?",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
     "answer_id": "A540051",
     "sentence_id": "S54005",
     "direction": "fr_to_en",
@@ -3200,14 +3176,6 @@
     "status": "live"
   },
   {
-    "answer_id": "A740311",
-    "sentence_id": "S74031",
-    "direction": "fr_to_en",
-    "answer": "She has brown shoes.",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
     "answer_id": "A740341",
     "sentence_id": "S74034",
     "direction": "fr_to_en",
@@ -3380,14 +3348,6 @@
     "sentence_id": "S84002",
     "direction": "fr_to_en",
     "answer": "Do you know how to drive a car?",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
-    "answer_id": "A840071",
-    "sentence_id": "S84007",
-    "direction": "fr_to_en",
-    "answer": "Tom drives a black car, doesn't he?",
     "source": "tatoeba",
     "status": "live"
   },
@@ -3733,6 +3693,384 @@
     "origin": "flag"
   },
   {
+    "answer_id": "AD0006",
+    "sentence_id": "S61104",
+    "direction": "en_to_fr",
+    "answer": "Son las diez menos cuarto.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0007",
+    "sentence_id": "S66111",
+    "direction": "en_to_fr",
+    "answer": "La tienda está en la planta dos.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0008",
+    "sentence_id": "S66112",
+    "direction": "en_to_fr",
+    "answer": "¿En qué planta está el restaurante?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0009",
+    "sentence_id": "S69111",
+    "direction": "en_to_fr",
+    "answer": "No tengo deberes hoy.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0010",
+    "sentence_id": "S69112",
+    "direction": "en_to_fr",
+    "answer": "¿Hay deberes para mañana?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0011",
+    "sentence_id": "S74101",
+    "direction": "en_to_fr",
+    "answer": "Tengo un caballo marrón.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0012",
+    "sentence_id": "S57104",
+    "direction": "en_to_fr",
+    "answer": "Mi coche es lento.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0013",
+    "sentence_id": "S71109",
+    "direction": "en_to_fr",
+    "answer": "Es el coche del profesor.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0014",
+    "sentence_id": "S42205",
+    "direction": "en_to_fr",
+    "answer": "Tengo uno en el coche.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0015",
+    "sentence_id": "S46216",
+    "direction": "en_to_fr",
+    "answer": "Mi coche es alemán.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0016",
+    "sentence_id": "S47204",
+    "direction": "en_to_fr",
+    "answer": "Voy a comprar un coche nuevo.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0017",
+    "sentence_id": "S57214",
+    "direction": "en_to_fr",
+    "answer": "Este coche es rápido.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0018",
+    "sentence_id": "S48213",
+    "direction": "en_to_fr",
+    "answer": "¿Cuánto cuesta el coche más caro?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0019",
+    "sentence_id": "S53301",
+    "direction": "en_to_fr",
+    "answer": "¿Tienes coche?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0020",
+    "sentence_id": "S53302",
+    "direction": "en_to_fr",
+    "answer": "¿Dónde está mi coche?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0021",
+    "sentence_id": "S53303",
+    "direction": "en_to_fr",
+    "answer": "¿Tiene usted un coche?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0022",
+    "sentence_id": "S53304",
+    "direction": "en_to_fr",
+    "answer": "¿Este es tu coche?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0023",
+    "sentence_id": "S53305",
+    "direction": "en_to_fr",
+    "answer": "¿Dónde está el coche?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0024",
+    "sentence_id": "S53306",
+    "direction": "en_to_fr",
+    "answer": "¿Este coche es nuevo?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0025",
+    "sentence_id": "S57301",
+    "direction": "en_to_fr",
+    "answer": "¿Tu coche es rápido?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0026",
+    "sentence_id": "S57302",
+    "direction": "en_to_fr",
+    "answer": "El coche es lento.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0027",
+    "sentence_id": "S66301",
+    "direction": "en_to_fr",
+    "answer": "El coche está a la entrada.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0028",
+    "sentence_id": "S83301",
+    "direction": "en_to_fr",
+    "answer": "Siga al coche.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0029",
+    "sentence_id": "S84301",
+    "direction": "en_to_fr",
+    "answer": "Tom conduce un coche negro, ¿no?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0030",
+    "sentence_id": "S84302",
+    "direction": "en_to_fr",
+    "answer": "Sé cómo se conduce un coche.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0031",
+    "sentence_id": "S91301",
+    "direction": "en_to_fr",
+    "answer": "¿Dónde están las llaves de mi coche?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0032",
+    "sentence_id": "S95301",
+    "direction": "en_to_fr",
+    "answer": "Tengo que alquilar un coche.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0033",
+    "sentence_id": "S69301",
+    "direction": "en_to_fr",
+    "answer": "¿Vas a hacer los deberes esta tarde?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0034",
+    "sentence_id": "S73301",
+    "direction": "en_to_fr",
+    "answer": "Juego baloncesto con ella.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0035",
+    "sentence_id": "S73302",
+    "direction": "en_to_fr",
+    "answer": "¿Quieres jugar al baloncesto con nosotros?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0036",
+    "sentence_id": "S73303",
+    "direction": "en_to_fr",
+    "answer": "Es interesante jugar al baloncesto.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0037",
+    "sentence_id": "S74301",
+    "direction": "en_to_fr",
+    "answer": "Quiero unos zapatos marrones, no negros.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0038",
+    "sentence_id": "S74302",
+    "direction": "en_to_fr",
+    "answer": "¿Tiene ojos marrones?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0039",
+    "sentence_id": "S74303",
+    "direction": "en_to_fr",
+    "answer": "Tiene zapatos marrones.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0040",
+    "sentence_id": "S74304",
+    "direction": "en_to_fr",
+    "answer": "El gato es marrón.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0041",
+    "sentence_id": "S74305",
+    "direction": "en_to_fr",
+    "answer": "Mi perro es marrón.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0042",
+    "sentence_id": "S69302",
+    "direction": "en_to_fr",
+    "answer": "Tengo que hacer mis deberes.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0043",
+    "sentence_id": "S73304",
+    "direction": "en_to_fr",
+    "answer": "¿Te gusta el baloncesto?",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0044",
+    "sentence_id": "S73305",
+    "direction": "en_to_fr",
+    "answer": "Me gusta jugar al baloncesto.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0045",
+    "sentence_id": "S74306",
+    "direction": "en_to_fr",
+    "answer": "Mis zapatos son marrones.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0046",
+    "sentence_id": "S74307",
+    "direction": "en_to_fr",
+    "answer": "Ella tiene los ojos marrones.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
+    "answer_id": "AD0047",
+    "sentence_id": "S74308",
+    "direction": "en_to_fr",
+    "answer": "Tengo ojos marrones.",
+    "source": "Fable's Spanish Part 3 check of 2026-11-15 (_review/spanish-part3-check.md), Dan's ruling: the Mexican word is taught, Spain's is accepted",
+    "status": "live",
+    "origin": "flag"
+  },
+  {
     "answer_id": "GS1111-4554306",
     "sentence_id": "S1111",
     "direction": "en_to_fr",
@@ -3883,6 +4221,16 @@
     "source_owner": "marcelostockle"
   },
   {
+    "answer_id": "GS47204-1031896",
+    "sentence_id": "S47204",
+    "direction": "en_to_fr",
+    "answer": "Yo voy a comprarme un nuevo carro.",
+    "source": "tatoeba",
+    "source_id": "1031896",
+    "status": "live",
+    "source_owner": "jayefes65"
+  },
+  {
     "answer_id": "GS49103-7931135",
     "sentence_id": "S49103",
     "direction": "en_to_fr",
@@ -3943,12 +4291,152 @@
     "source_owner": "Shishir"
   },
   {
+    "answer_id": "GS53302-530553",
+    "sentence_id": "S53302",
+    "direction": "en_to_fr",
+    "answer": "¿Dónde está mi coche?",
+    "source": "tatoeba",
+    "source_id": "530553",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS53303-3463980",
+    "sentence_id": "S53303",
+    "direction": "en_to_fr",
+    "answer": "¿Tenéis un carro?",
+    "source": "tatoeba",
+    "source_id": "3463980",
+    "status": "live",
+    "source_owner": "cueyayotl"
+  },
+  {
+    "answer_id": "GS53303-710333",
+    "sentence_id": "S53303",
+    "direction": "en_to_fr",
+    "answer": "¿Tiene usted un coche?",
+    "source": "tatoeba",
+    "source_id": "710333",
+    "status": "live",
+    "source_owner": "Zifre"
+  },
+  {
+    "answer_id": "GS53303-6694190",
+    "sentence_id": "S53303",
+    "direction": "en_to_fr",
+    "answer": "¿Tienes auto?",
+    "source": "tatoeba",
+    "source_id": "6694190",
+    "status": "live",
+    "source_owner": "UsuarioX"
+  },
+  {
+    "answer_id": "GS53303-4383927",
+    "sentence_id": "S53303",
+    "direction": "en_to_fr",
+    "answer": "¿Tienes carro?",
+    "source": "tatoeba",
+    "source_id": "4383927",
+    "status": "live",
+    "source_owner": "pchamorro"
+  },
+  {
+    "answer_id": "GS53303-528492",
+    "sentence_id": "S53303",
+    "direction": "en_to_fr",
+    "answer": "¿Tienes coche?",
+    "source": "tatoeba",
+    "source_id": "528492",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS53303-3463979",
+    "sentence_id": "S53303",
+    "direction": "en_to_fr",
+    "answer": "¿Tienes un carro?",
+    "source": "tatoeba",
+    "source_id": "3463979",
+    "status": "live",
+    "source_owner": "cueyayotl"
+  },
+  {
+    "answer_id": "GS53304-1276660",
+    "sentence_id": "S53304",
+    "direction": "en_to_fr",
+    "answer": "¿Este es tu coche?",
+    "source": "tatoeba",
+    "source_id": "1276660",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS53305-1993814",
+    "sentence_id": "S53305",
+    "direction": "en_to_fr",
+    "answer": "¿Dónde está el auto?",
+    "source": "tatoeba",
+    "source_id": "1993814",
+    "status": "live",
+    "source_owner": "marcelostockle"
+  },
+  {
+    "answer_id": "GS53305-2216295",
+    "sentence_id": "S53305",
+    "direction": "en_to_fr",
+    "answer": "¿Dónde está el coche?",
+    "source": "tatoeba",
+    "source_id": "2216295",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS53306-7993760",
+    "sentence_id": "S53306",
+    "direction": "en_to_fr",
+    "answer": "¿Este auto es nuevo?",
+    "source": "tatoeba",
+    "source_id": "7993760",
+    "status": "live",
+    "source_owner": "Seael"
+  },
+  {
+    "answer_id": "GS53306-2238440",
+    "sentence_id": "S53306",
+    "direction": "en_to_fr",
+    "answer": "¿Este coche es nuevo?",
+    "source": "tatoeba",
+    "source_id": "2238440",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
     "answer_id": "GS57101-568767",
     "sentence_id": "S57101",
     "direction": "en_to_fr",
     "answer": "El café está malo.",
     "source": "tatoeba",
     "source_id": "568767",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS57301-1788739",
+    "sentence_id": "S57301",
+    "direction": "en_to_fr",
+    "answer": "¿Tu coche es rápido?",
+    "source": "tatoeba",
+    "source_id": "1788739",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS57302-1020626",
+    "sentence_id": "S57302",
+    "direction": "en_to_fr",
+    "answer": "El coche es lento.",
+    "source": "tatoeba",
+    "source_id": "1020626",
     "status": "live",
     "source_owner": "Shishir"
   },
@@ -3993,14 +4481,14 @@
     "source_owner": "stebnbr"
   },
   {
-    "answer_id": "GS65102-2266969",
-    "sentence_id": "S65102",
+    "answer_id": "GS66301-10078972",
+    "sentence_id": "S66301",
     "direction": "en_to_fr",
-    "answer": "Yo me levanto temprano.",
+    "answer": "El coche está a la entrada.",
     "source": "tatoeba",
-    "source_id": "2266969",
+    "source_id": "10078972",
     "status": "live",
-    "source_owner": "Shishir"
+    "source_owner": "manufrutos"
   },
   {
     "answer_id": "GS69113-599603",
@@ -4033,14 +4521,44 @@
     "source_owner": "Shishir"
   },
   {
-    "answer_id": "GS74102-4367046",
-    "sentence_id": "S74102",
+    "answer_id": "GS69301-723221",
+    "sentence_id": "S69301",
     "direction": "en_to_fr",
-    "answer": "El cielo es color gris.",
+    "answer": "¿Vas a hacer los deberes esta tarde?",
     "source": "tatoeba",
-    "source_id": "4367046",
+    "source_id": "723221",
     "status": "live",
-    "source_owner": "cueyayotl"
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS73301-9145563",
+    "sentence_id": "S73301",
+    "direction": "en_to_fr",
+    "answer": "Juego baloncesto con ella.",
+    "source": "tatoeba",
+    "source_id": "9145563",
+    "status": "live",
+    "source_owner": "rafaeldejesus8199"
+  },
+  {
+    "answer_id": "GS73302-6803802",
+    "sentence_id": "S73302",
+    "direction": "en_to_fr",
+    "answer": "¿Quieres jugar al baloncesto con nosotros?",
+    "source": "tatoeba",
+    "source_id": "6803802",
+    "status": "live",
+    "source_owner": "arh"
+  },
+  {
+    "answer_id": "GS73303-2131574",
+    "sentence_id": "S73303",
+    "direction": "en_to_fr",
+    "answer": "Es interesante jugar al baloncesto.",
+    "source": "tatoeba",
+    "source_id": "2131574",
+    "status": "live",
+    "source_owner": "Shishir"
   },
   {
     "answer_id": "GS74107-13004151",
@@ -4051,6 +4569,66 @@
     "source_id": "13004151",
     "status": "live",
     "source_owner": "ecorralest101"
+  },
+  {
+    "answer_id": "GS74301-896659",
+    "sentence_id": "S74301",
+    "direction": "en_to_fr",
+    "answer": "Quiero unos zapatos marrones, no negros.",
+    "source": "tatoeba",
+    "source_id": "896659",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS74301-1864343",
+    "sentence_id": "S74301",
+    "direction": "en_to_fr",
+    "answer": "Quiero zapatos cafés, no negros.",
+    "source": "tatoeba",
+    "source_id": "1864343",
+    "status": "live",
+    "source_owner": "marcelostockle"
+  },
+  {
+    "answer_id": "GS74302-6795829",
+    "sentence_id": "S74302",
+    "direction": "en_to_fr",
+    "answer": "¿Tiene ojos marrones?",
+    "source": "tatoeba",
+    "source_id": "6795829",
+    "status": "live",
+    "source_owner": "arh"
+  },
+  {
+    "answer_id": "GS74303-5336214",
+    "sentence_id": "S74303",
+    "direction": "en_to_fr",
+    "answer": "Tiene zapatos marrones.",
+    "source": "tatoeba",
+    "source_id": "5336214",
+    "status": "live",
+    "source_owner": "baudelaire"
+  },
+  {
+    "answer_id": "GS74305-13358417",
+    "sentence_id": "S74305",
+    "direction": "en_to_fr",
+    "answer": "Mi perro es marrón.",
+    "source": "tatoeba",
+    "source_id": "13358417",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS74307-5138285",
+    "sentence_id": "S74307",
+    "direction": "en_to_fr",
+    "answer": "Tiene los ojos marrones.",
+    "source": "tatoeba",
+    "source_id": "5138285",
+    "status": "live",
+    "source_owner": "don_ramon"
   },
   {
     "answer_id": "GS81112-436378",
@@ -4109,6 +4687,56 @@
     "answer": "Sigue recto.",
     "source": "tatoeba",
     "source_id": "1196019",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS83301-1423055",
+    "sentence_id": "S83301",
+    "direction": "en_to_fr",
+    "answer": "Siga al coche.",
+    "source": "tatoeba",
+    "source_id": "1423055",
+    "status": "live",
+    "source_owner": "peibolvig"
+  },
+  {
+    "answer_id": "GS83301-1423054",
+    "sentence_id": "S83301",
+    "direction": "en_to_fr",
+    "answer": "Sigue al coche.",
+    "source": "tatoeba",
+    "source_id": "1423054",
+    "status": "live",
+    "source_owner": "peibolvig"
+  },
+  {
+    "answer_id": "GS84301-1520287",
+    "sentence_id": "S84301",
+    "direction": "en_to_fr",
+    "answer": "Tom conduce un coche negro, ¿no?",
+    "source": "tatoeba",
+    "source_id": "1520287",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS84302-3349996",
+    "sentence_id": "S84302",
+    "direction": "en_to_fr",
+    "answer": "Sé cómo conducir un coche.",
+    "source": "tatoeba",
+    "source_id": "3349996",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
+    "answer_id": "GS84302-1708240",
+    "sentence_id": "S84302",
+    "direction": "en_to_fr",
+    "answer": "Sé cómo se conduce un coche.",
+    "source": "tatoeba",
+    "source_id": "1708240",
     "status": "live",
     "source_owner": "Shishir"
   },
@@ -4223,6 +4851,16 @@
     "source_owner": "alegarvid"
   },
   {
+    "answer_id": "GS91301-2216977",
+    "sentence_id": "S91301",
+    "direction": "en_to_fr",
+    "answer": "¿Dónde están las llaves de mi coche?",
+    "source": "tatoeba",
+    "source_id": "2216977",
+    "status": "live",
+    "source_owner": "Shishir"
+  },
+  {
     "answer_id": "GS93110-619668",
     "sentence_id": "S93110",
     "direction": "en_to_fr",
@@ -4241,6 +4879,16 @@
     "source_id": "12882044",
     "status": "live",
     "source_owner": "ecorralest101"
+  },
+  {
+    "answer_id": "GS95301-6806629",
+    "sentence_id": "S95301",
+    "direction": "en_to_fr",
+    "answer": "Tengo que alquilar un coche.",
+    "source": "tatoeba",
+    "source_id": "6806629",
+    "status": "live",
+    "source_owner": "arh"
   },
   {
     "answer_id": "AE00001",
@@ -6612,14 +7260,6 @@
   },
   {
     "answer_id": "AE00297",
-    "sentence_id": "S47204",
-    "direction": "fr_to_en",
-    "answer": "I am buying a new car.",
-    "source": "equivalent: linked",
-    "status": "live"
-  },
-  {
-    "answer_id": "AE00298",
     "sentence_id": "S47205",
     "direction": "fr_to_en",
     "answer": "Which fruit is green?",
@@ -6627,7 +7267,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00299",
+    "answer_id": "AE00298",
     "sentence_id": "S47207",
     "direction": "fr_to_en",
     "answer": "I want water.",
@@ -6635,7 +7275,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00300",
+    "answer_id": "AE00299",
     "sentence_id": "S47208",
     "direction": "fr_to_en",
     "answer": "What's this fruit called?",
@@ -6643,7 +7283,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00301",
+    "answer_id": "AE00300",
     "sentence_id": "S47210",
     "direction": "fr_to_en",
     "answer": "Do you want to play soccer with us?",
@@ -6651,7 +7291,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00302",
+    "answer_id": "AE00301",
     "sentence_id": "S47211",
     "direction": "fr_to_en",
     "answer": "What more would you want?",
@@ -6659,7 +7299,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00303",
+    "answer_id": "AE00302",
     "sentence_id": "S47211",
     "direction": "fr_to_en",
     "answer": "What more do you want?",
@@ -6667,7 +7307,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00304",
+    "answer_id": "AE00303",
     "sentence_id": "S47214",
     "direction": "fr_to_en",
     "answer": "Why does he want to buy this book?",
@@ -6675,7 +7315,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00305",
+    "answer_id": "AE00304",
     "sentence_id": "S47214",
     "direction": "fr_to_en",
     "answer": "Why does she want to buy this book?",
@@ -6683,7 +7323,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00306",
+    "answer_id": "AE00305",
     "sentence_id": "S57205",
     "direction": "fr_to_en",
     "answer": "It's unlocked.",
@@ -6691,7 +7331,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00307",
+    "answer_id": "AE00306",
     "sentence_id": "S57210",
     "direction": "fr_to_en",
     "answer": "I feel cold.",
@@ -6699,7 +7339,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00308",
+    "answer_id": "AE00307",
     "sentence_id": "S57210",
     "direction": "fr_to_en",
     "answer": "I'm freezing.",
@@ -6707,7 +7347,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00309",
+    "answer_id": "AE00308",
     "sentence_id": "S57210",
     "direction": "fr_to_en",
     "answer": "I am cold.",
@@ -6715,7 +7355,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00310",
+    "answer_id": "AE00309",
     "sentence_id": "S57212",
     "direction": "fr_to_en",
     "answer": "It isn't easy to learn a foreign language.",
@@ -6723,7 +7363,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00311",
+    "answer_id": "AE00310",
     "sentence_id": "S57213",
     "direction": "fr_to_en",
     "answer": "The coffee's cold.",
@@ -6731,7 +7371,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00312",
+    "answer_id": "AE00311",
     "sentence_id": "S57220",
     "direction": "fr_to_en",
     "answer": "It is not easy for him to learn English.",
@@ -6739,7 +7379,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00313",
+    "answer_id": "AE00312",
     "sentence_id": "S57222",
     "direction": "fr_to_en",
     "answer": "French is very difficult to learn.",
@@ -6747,7 +7387,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00314",
+    "answer_id": "AE00313",
     "sentence_id": "S36201",
     "direction": "fr_to_en",
     "answer": "It is the truth!",
@@ -6755,7 +7395,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00315",
+    "answer_id": "AE00314",
     "sentence_id": "S36204",
     "direction": "fr_to_en",
     "answer": "I don't get it.",
@@ -6763,7 +7403,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00316",
+    "answer_id": "AE00315",
     "sentence_id": "S36204",
     "direction": "fr_to_en",
     "answer": "I do not understand.",
@@ -6771,7 +7411,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00317",
+    "answer_id": "AE00316",
     "sentence_id": "S36205",
     "direction": "fr_to_en",
     "answer": "I don't understand it.",
@@ -6779,7 +7419,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00318",
+    "answer_id": "AE00317",
     "sentence_id": "S36205",
     "direction": "fr_to_en",
     "answer": "I don't understand that.",
@@ -6787,7 +7427,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00319",
+    "answer_id": "AE00318",
     "sentence_id": "S36207",
     "direction": "fr_to_en",
     "answer": "Is it clear?",
@@ -6795,7 +7435,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00320",
+    "answer_id": "AE00319",
     "sentence_id": "S48202",
     "direction": "fr_to_en",
     "answer": "How much are they?",
@@ -6803,7 +7443,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00321",
+    "answer_id": "AE00320",
     "sentence_id": "S48219",
     "direction": "fr_to_en",
     "answer": "Do you have money?",
@@ -6811,7 +7451,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00322",
+    "answer_id": "AE00321",
     "sentence_id": "S49201",
     "direction": "fr_to_en",
     "answer": "Here is the package.",
@@ -6819,7 +7459,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00323",
+    "answer_id": "AE00322",
     "sentence_id": "S49218",
     "direction": "fr_to_en",
     "answer": "I don't have a lot of money.",
@@ -6827,7 +7467,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00324",
+    "answer_id": "AE00323",
     "sentence_id": "S49218",
     "direction": "fr_to_en",
     "answer": "I haven't got much money.",
@@ -6835,7 +7475,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00325",
+    "answer_id": "AE00324",
     "sentence_id": "S49218",
     "direction": "fr_to_en",
     "answer": "I do not have a lot of money.",
@@ -6843,7 +7483,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00326",
+    "answer_id": "AE00325",
     "sentence_id": "S49231",
     "direction": "fr_to_en",
     "answer": "He doesn't speak much.",
@@ -6851,7 +7491,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00327",
+    "answer_id": "AE00326",
     "sentence_id": "S49234",
     "direction": "fr_to_en",
     "answer": "Where are the biscuits?",
@@ -6859,7 +7499,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00328",
+    "answer_id": "AE00327",
     "sentence_id": "S58201",
     "direction": "fr_to_en",
     "answer": "What colour is the sea?",
@@ -6867,7 +7507,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00329",
+    "answer_id": "AE00328",
     "sentence_id": "S58202",
     "direction": "fr_to_en",
     "answer": "What colour is the Black Sea?",
@@ -6875,7 +7515,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00330",
+    "answer_id": "AE00329",
     "sentence_id": "S58202",
     "direction": "fr_to_en",
     "answer": "What is the colour of the Black Sea?",
@@ -6883,7 +7523,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00331",
+    "answer_id": "AE00330",
     "sentence_id": "S58202",
     "direction": "fr_to_en",
     "answer": "What color is the Black Sea?",
@@ -6891,7 +7531,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00332",
+    "answer_id": "AE00331",
     "sentence_id": "S58208",
     "direction": "fr_to_en",
     "answer": "She lives near the beach.",
@@ -6899,7 +7539,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00333",
+    "answer_id": "AE00332",
     "sentence_id": "S61101",
     "direction": "fr_to_en",
     "answer": "What's the time now?",
@@ -6907,7 +7547,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00334",
+    "answer_id": "AE00333",
     "sentence_id": "S61101",
     "direction": "fr_to_en",
     "answer": "What time is it?",
@@ -6915,7 +7555,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00335",
+    "answer_id": "AE00334",
     "sentence_id": "S61109",
     "direction": "fr_to_en",
     "answer": "In the morning, it's seven.",
@@ -6923,7 +7563,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00336",
+    "answer_id": "AE00335",
     "sentence_id": "S61109",
     "direction": "en_to_fr",
     "answer": "Mañana, son las siete de la.",
@@ -6931,11 +7571,19 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00337",
+    "answer_id": "AE00336",
     "sentence_id": "S61110",
     "direction": "fr_to_en",
     "answer": "At night, it's eleven.",
     "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00337",
+    "sentence_id": "S61111",
+    "direction": "fr_to_en",
+    "answer": "It's midday.",
+    "source": "equivalent: linked",
     "status": "live"
   },
   {
@@ -7004,6 +7652,14 @@
   },
   {
     "answer_id": "AE00346",
+    "sentence_id": "S63116",
+    "direction": "fr_to_en",
+    "answer": "What is today's date?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00347",
     "sentence_id": "S63118",
     "direction": "en_to_fr",
     "answer": "Es primero de enero hoy.",
@@ -7011,7 +7667,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00347",
+    "answer_id": "AE00348",
     "sentence_id": "S72101",
     "direction": "fr_to_en",
     "answer": "Today, it's very windy.",
@@ -7019,7 +7675,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00348",
+    "answer_id": "AE00349",
     "sentence_id": "S72101",
     "direction": "en_to_fr",
     "answer": "Hace mucho viento hoy.",
@@ -7027,7 +7683,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00349",
+    "answer_id": "AE00350",
     "sentence_id": "S64105",
     "direction": "fr_to_en",
     "answer": "On Saturday, we're going to the club.",
@@ -7035,7 +7691,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00350",
+    "answer_id": "AE00351",
     "sentence_id": "S64106",
     "direction": "fr_to_en",
     "answer": "Are you coming to the films?",
@@ -7043,7 +7699,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00351",
+    "answer_id": "AE00352",
     "sentence_id": "S64110",
     "direction": "fr_to_en",
     "answer": "Do you want to go to the films tomorrow?",
@@ -7051,7 +7707,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00352",
+    "answer_id": "AE00353",
     "sentence_id": "S64111",
     "direction": "en_to_fr",
     "answer": "Mañana, sí, estoy libre.",
@@ -7059,7 +7715,31 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00353",
+    "answer_id": "AE00354",
+    "sentence_id": "S65102",
+    "direction": "en_to_fr",
+    "answer": "Me levanto temprano normalmente.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00355",
+    "sentence_id": "S65103",
+    "direction": "fr_to_en",
+    "answer": "Tomorrow, Tom has to get up early.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00356",
+    "sentence_id": "S65103",
+    "direction": "en_to_fr",
+    "answer": "Mañana, tom tiene que levantarse temprano.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00357",
     "sentence_id": "S65104",
     "direction": "fr_to_en",
     "answer": "In the morning, I shower.",
@@ -7067,7 +7747,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00354",
+    "answer_id": "AE00358",
     "sentence_id": "S65104",
     "direction": "en_to_fr",
     "answer": "Mañana, me ducho por la.",
@@ -7075,7 +7755,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00355",
+    "answer_id": "AE00359",
     "sentence_id": "S65104",
     "direction": "en_to_fr",
     "answer": "Por la mañana, me ducho.",
@@ -7083,15 +7763,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00356",
-    "sentence_id": "S65105",
-    "direction": "fr_to_en",
-    "answer": "Every day, I shower.",
-    "source": "equivalent: order",
-    "status": "live"
-  },
-  {
-    "answer_id": "AE00357",
+    "answer_id": "AE00360",
     "sentence_id": "S65107",
     "direction": "fr_to_en",
     "answer": "Every day, it's good to shower.",
@@ -7099,7 +7771,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00358",
+    "answer_id": "AE00361",
     "sentence_id": "S65109",
     "direction": "fr_to_en",
     "answer": "Now, Tom wants to take a shower.",
@@ -7107,7 +7779,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00359",
+    "answer_id": "AE00362",
     "sentence_id": "S65109",
     "direction": "en_to_fr",
     "answer": "Ahora, tom quiere ducharse.",
@@ -7115,7 +7787,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00360",
+    "answer_id": "AE00363",
     "sentence_id": "S65112",
     "direction": "fr_to_en",
     "answer": "I finish early today.",
@@ -7123,7 +7795,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00361",
+    "answer_id": "AE00364",
     "sentence_id": "S65112",
     "direction": "en_to_fr",
     "answer": "Termino temprano hoy.",
@@ -7131,7 +7803,23 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00362",
+    "answer_id": "AE00365",
+    "sentence_id": "S66101",
+    "direction": "fr_to_en",
+    "answer": "Where's the entrance?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00366",
+    "sentence_id": "S66104",
+    "direction": "fr_to_en",
+    "answer": "Where is the way out?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00367",
     "sentence_id": "S66106",
     "direction": "fr_to_en",
     "answer": "Where is the lift?",
@@ -7139,7 +7827,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00363",
+    "answer_id": "AE00368",
     "sentence_id": "S66109",
     "direction": "fr_to_en",
     "answer": "There's no lift, but there are stairs.",
@@ -7147,7 +7835,23 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00364",
+    "answer_id": "AE00369",
+    "sentence_id": "S66110",
+    "direction": "fr_to_en",
+    "answer": "I live on the bottom floor.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00370",
+    "sentence_id": "S66110",
+    "direction": "fr_to_en",
+    "answer": "I live on the first floor.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00371",
     "sentence_id": "S66111",
     "direction": "fr_to_en",
     "answer": "The store is on the second floor.",
@@ -7155,15 +7859,15 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00365",
+    "answer_id": "AE00372",
     "sentence_id": "S67101",
     "direction": "fr_to_en",
-    "answer": "The schedule is at the station.",
+    "answer": "Where is the timetable?",
     "source": "equivalent: spelling",
     "status": "live"
   },
   {
-    "answer_id": "AE00366",
+    "answer_id": "AE00373",
     "sentence_id": "S67109",
     "direction": "fr_to_en",
     "answer": "I like travelling by boat.",
@@ -7171,7 +7875,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00367",
+    "answer_id": "AE00374",
     "sentence_id": "S74102",
     "direction": "fr_to_en",
     "answer": "The sky is grey.",
@@ -7179,15 +7883,31 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00368",
+    "answer_id": "AE00375",
     "sentence_id": "S74103",
     "direction": "fr_to_en",
-    "answer": "I have a grey cat.",
+    "answer": "I have grey hair.",
     "source": "equivalent: spelling",
     "status": "live"
   },
   {
-    "answer_id": "AE00369",
+    "answer_id": "AE00376",
+    "sentence_id": "S74110",
+    "direction": "fr_to_en",
+    "answer": "Tom has a moustache.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00377",
+    "sentence_id": "S74111",
+    "direction": "fr_to_en",
+    "answer": "He has a moustache.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00378",
     "sentence_id": "S69109",
     "direction": "en_to_fr",
     "answer": "En parejas ahora.",
@@ -7195,7 +7915,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00370",
+    "answer_id": "AE00379",
     "sentence_id": "S69111",
     "direction": "fr_to_en",
     "answer": "Today, I don't have homework.",
@@ -7203,15 +7923,15 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00371",
+    "answer_id": "AE00380",
     "sentence_id": "S75117",
     "direction": "fr_to_en",
-    "answer": "The hotel is in the centre of the city.",
+    "answer": "We are a long way from the centre.",
     "source": "equivalent: spelling",
     "status": "live"
   },
   {
-    "answer_id": "AE00372",
+    "answer_id": "AE00381",
     "sentence_id": "S39105",
     "direction": "fr_to_en",
     "answer": "I think that it's possible.",
@@ -7219,7 +7939,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00373",
+    "answer_id": "AE00382",
     "sentence_id": "S81102",
     "direction": "fr_to_en",
     "answer": "Now, the waiter is coming.",
@@ -7227,7 +7947,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00374",
+    "answer_id": "AE00383",
     "sentence_id": "S81102",
     "direction": "en_to_fr",
     "answer": "Ahora, el mesero viene.",
@@ -7235,7 +7955,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00375",
+    "answer_id": "AE00384",
     "sentence_id": "S81113",
     "direction": "fr_to_en",
     "answer": "Hungry?",
@@ -7243,7 +7963,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00376",
+    "answer_id": "AE00385",
     "sentence_id": "S84106",
     "direction": "fr_to_en",
     "answer": "Every day, I run a kilometer.",
@@ -7251,7 +7971,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00377",
+    "answer_id": "AE00386",
     "sentence_id": "S87114",
     "direction": "fr_to_en",
     "answer": "Tom wants to work in theatre.",
@@ -7259,7 +7979,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00378",
+    "answer_id": "AE00387",
     "sentence_id": "S87116",
     "direction": "fr_to_en",
     "answer": "Ana wants to work in movie.",
@@ -7267,7 +7987,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00379",
+    "answer_id": "AE00388",
     "sentence_id": "S28104",
     "direction": "fr_to_en",
     "answer": "OK, thanks.",
@@ -7275,7 +7995,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00380",
+    "answer_id": "AE00389",
     "sentence_id": "S28105",
     "direction": "fr_to_en",
     "answer": "OK, no problem.",
@@ -7283,7 +8003,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00381",
+    "answer_id": "AE00390",
     "sentence_id": "S28106",
     "direction": "fr_to_en",
     "answer": "Everything OK?",
@@ -7291,7 +8011,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00382",
+    "answer_id": "AE00391",
     "sentence_id": "S95118",
     "direction": "fr_to_en",
     "answer": "It's a central flat.",
@@ -7299,7 +8019,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00383",
+    "answer_id": "AE00392",
     "sentence_id": "S84114",
     "direction": "fr_to_en",
     "answer": "I'm travelling by land.",
@@ -7307,11 +8027,1115 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00384",
+    "answer_id": "AE00393",
     "sentence_id": "S87123",
     "direction": "fr_to_en",
     "answer": "Here is the firefighter.",
     "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00394",
+    "sentence_id": "S61202",
+    "direction": "fr_to_en",
+    "answer": "This afternoon, I am going to study English.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00395",
+    "sentence_id": "S71202",
+    "direction": "fr_to_en",
+    "answer": "I know much more than before now.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00396",
+    "sentence_id": "S71202",
+    "direction": "en_to_fr",
+    "answer": "Sé mucho más que antes ahora.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00397",
+    "sentence_id": "S71206",
+    "direction": "fr_to_en",
+    "answer": "No way!",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00398",
+    "sentence_id": "S71206",
+    "direction": "fr_to_en",
+    "answer": "Absolutely not!",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00399",
+    "sentence_id": "S71208",
+    "direction": "fr_to_en",
+    "answer": "I am coming.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00400",
+    "sentence_id": "S71211",
+    "direction": "fr_to_en",
+    "answer": "He lives alone in a flat.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00401",
+    "sentence_id": "S71213",
+    "direction": "fr_to_en",
+    "answer": "Everything is very expensive in this shop.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00402",
+    "sentence_id": "S71214",
+    "direction": "fr_to_en",
+    "answer": "Is everything OK?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00403",
+    "sentence_id": "S71214",
+    "direction": "fr_to_en",
+    "answer": "Is everything okay?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00404",
+    "sentence_id": "S71214",
+    "direction": "fr_to_en",
+    "answer": "Is everything all right?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00405",
+    "sentence_id": "S71214",
+    "direction": "fr_to_en",
+    "answer": "Everything OK?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00406",
+    "sentence_id": "S37201",
+    "direction": "fr_to_en",
+    "answer": "Today, I feel well.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00407",
+    "sentence_id": "S37201",
+    "direction": "en_to_fr",
+    "answer": "Me siento bien hoy.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00408",
+    "sentence_id": "S37204",
+    "direction": "fr_to_en",
+    "answer": "I can't work out what you're on about.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00409",
+    "sentence_id": "S37205",
+    "direction": "fr_to_en",
+    "answer": "I know that.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00410",
+    "sentence_id": "S37207",
+    "direction": "fr_to_en",
+    "answer": "Today, I feel good.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00411",
+    "sentence_id": "S37207",
+    "direction": "en_to_fr",
+    "answer": "Hoy, me siento bien.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00412",
+    "sentence_id": "S37208",
+    "direction": "fr_to_en",
+    "answer": "I feel very ill.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00413",
+    "sentence_id": "S37209",
+    "direction": "fr_to_en",
+    "answer": "I feel well.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00414",
+    "sentence_id": "S37209",
+    "direction": "fr_to_en",
+    "answer": "I feel good.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00415",
+    "sentence_id": "S37209",
+    "direction": "fr_to_en",
+    "answer": "I feel all right.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00416",
+    "sentence_id": "S37210",
+    "direction": "fr_to_en",
+    "answer": "I'm not feeling well.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00417",
+    "sentence_id": "S37213",
+    "direction": "fr_to_en",
+    "answer": "Do you see what I mean?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00418",
+    "sentence_id": "S37213",
+    "direction": "fr_to_en",
+    "answer": "Do you understand what I want to say?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00419",
+    "sentence_id": "S37214",
+    "direction": "fr_to_en",
+    "answer": "Now, I feel fine.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00420",
+    "sentence_id": "S37215",
+    "direction": "fr_to_en",
+    "answer": "I'm lonely.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00421",
+    "sentence_id": "S37217",
+    "direction": "fr_to_en",
+    "answer": "What'd you say?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00422",
+    "sentence_id": "S37221",
+    "direction": "fr_to_en",
+    "answer": "I don't get it.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00423",
+    "sentence_id": "S62201",
+    "direction": "fr_to_en",
+    "answer": "On Thursday, I'm here.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00424",
+    "sentence_id": "S62212",
+    "direction": "fr_to_en",
+    "answer": "Good night, everybody!",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00425",
+    "sentence_id": "S62213",
+    "direction": "fr_to_en",
+    "answer": "Every day, I go to church.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00426",
+    "sentence_id": "S62214",
+    "direction": "fr_to_en",
+    "answer": "Every day, he goes there.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00427",
+    "sentence_id": "S62217",
+    "direction": "fr_to_en",
+    "answer": "I speak English daily.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00428",
+    "sentence_id": "S62217",
+    "direction": "fr_to_en",
+    "answer": "Every day, I speak English.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00429",
+    "sentence_id": "S63205",
+    "direction": "fr_to_en",
+    "answer": "Do you like the Spring?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00430",
+    "sentence_id": "S63206",
+    "direction": "fr_to_en",
+    "answer": "It's autumn.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00431",
+    "sentence_id": "S63207",
+    "direction": "fr_to_en",
+    "answer": "Now, it's fall.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00432",
+    "sentence_id": "S63207",
+    "direction": "en_to_fr",
+    "answer": "Es otoño ahora.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00433",
+    "sentence_id": "S63212",
+    "direction": "fr_to_en",
+    "answer": "It's March.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00434",
+    "sentence_id": "S63212",
+    "direction": "en_to_fr",
+    "answer": "Es marzo ahora.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00435",
+    "sentence_id": "S63213",
+    "direction": "fr_to_en",
+    "answer": "It's July.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00436",
+    "sentence_id": "S63213",
+    "direction": "en_to_fr",
+    "answer": "Es julio ahora.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00437",
+    "sentence_id": "S72205",
+    "direction": "fr_to_en",
+    "answer": "I don't have time to read books.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00438",
+    "sentence_id": "S72209",
+    "direction": "fr_to_en",
+    "answer": "I am out of time.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00439",
+    "sentence_id": "S72209",
+    "direction": "fr_to_en",
+    "answer": "I don't have time.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00440",
+    "sentence_id": "S72216",
+    "direction": "fr_to_en",
+    "answer": "This afternoon, it is going to rain.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00441",
+    "sentence_id": "S72217",
+    "direction": "fr_to_en",
+    "answer": "Now, I don't know what to do.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00442",
+    "sentence_id": "S72218",
+    "direction": "fr_to_en",
+    "answer": "The wind is blowing hard.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00443",
+    "sentence_id": "S72222",
+    "direction": "fr_to_en",
+    "answer": "It's really cold.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00444",
+    "sentence_id": "S38202",
+    "direction": "fr_to_en",
+    "answer": "Tomorrow, I'm going to see a friend.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00445",
+    "sentence_id": "S38202",
+    "direction": "en_to_fr",
+    "answer": "Mañana, voy a ver a un amigo.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00446",
+    "sentence_id": "S38203",
+    "direction": "fr_to_en",
+    "answer": "I want to watch this film.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00447",
+    "sentence_id": "S38203",
+    "direction": "fr_to_en",
+    "answer": "I want to see this film.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00448",
+    "sentence_id": "S38203",
+    "direction": "fr_to_en",
+    "answer": "I want to watch this movie.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00449",
+    "sentence_id": "S38205",
+    "direction": "fr_to_en",
+    "answer": "I want to watch the film.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00450",
+    "sentence_id": "S38205",
+    "direction": "fr_to_en",
+    "answer": "I want to see the film.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00451",
+    "sentence_id": "S38205",
+    "direction": "fr_to_en",
+    "answer": "I want to watch the movie.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00452",
+    "sentence_id": "S38207",
+    "direction": "fr_to_en",
+    "answer": "I think so as well.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00453",
+    "sentence_id": "S38213",
+    "direction": "fr_to_en",
+    "answer": "I don't know what to think any more.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00454",
+    "sentence_id": "S64203",
+    "direction": "fr_to_en",
+    "answer": "Will you come or not?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00455",
+    "sentence_id": "S64203",
+    "direction": "fr_to_en",
+    "answer": "Are you going or not?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00456",
+    "sentence_id": "S64205",
+    "direction": "fr_to_en",
+    "answer": "Where are you from?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00457",
+    "sentence_id": "S64209",
+    "direction": "fr_to_en",
+    "answer": "You must go.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00458",
+    "sentence_id": "S64212",
+    "direction": "fr_to_en",
+    "answer": "Today, I'm free.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00459",
+    "sentence_id": "S64212",
+    "direction": "en_to_fr",
+    "answer": "Estoy libre hoy.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00460",
+    "sentence_id": "S64216",
+    "direction": "fr_to_en",
+    "answer": "I would love to attend the party.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00461",
+    "sentence_id": "S64216",
+    "direction": "fr_to_en",
+    "answer": "I'd like to attend the party.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00462",
+    "sentence_id": "S64218",
+    "direction": "fr_to_en",
+    "answer": "Sunday follows Saturday.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00463",
+    "sentence_id": "S64221",
+    "direction": "fr_to_en",
+    "answer": "This afternoon, I'm going to go out.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00464",
+    "sentence_id": "S64226",
+    "direction": "fr_to_en",
+    "answer": "We're going to the films.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00465",
+    "sentence_id": "S64228",
+    "direction": "fr_to_en",
+    "answer": "I'm about to go out.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00466",
+    "sentence_id": "S64231",
+    "direction": "fr_to_en",
+    "answer": "I want to go to see a movie.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00467",
+    "sentence_id": "S64231",
+    "direction": "fr_to_en",
+    "answer": "I want to go to see a film.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00468",
+    "sentence_id": "S64231",
+    "direction": "fr_to_en",
+    "answer": "I want to go see a film.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00469",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "I have to leave now.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00470",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "I have got to go now.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00471",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "I must leave now.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00472",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "Well, I have to go now.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00473",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "I must be going now.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00474",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "I've got to go now.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00475",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "I must be leaving now.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00476",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "I must go now.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00477",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "Now, I have to go.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00478",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "Now, I have to leave.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00479",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "Now, I have got to go.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00480",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "Now, I must leave.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00481",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "Now, I must be going.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00482",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "Now, I've got to go.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00483",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "Now, I must be leaving.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00484",
+    "sentence_id": "S64232",
+    "direction": "fr_to_en",
+    "answer": "Now, I must go.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00485",
+    "sentence_id": "S65201",
+    "direction": "fr_to_en",
+    "answer": "I don't get up early.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00486",
+    "sentence_id": "S65202",
+    "direction": "fr_to_en",
+    "answer": "Tomorrow, Tom doesn't have to get up early.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00487",
+    "sentence_id": "S65202",
+    "direction": "en_to_fr",
+    "answer": "Mañana, tom no tiene que levantarse temprano.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00488",
+    "sentence_id": "S65205",
+    "direction": "fr_to_en",
+    "answer": "I wanna have dinner in a restaurant.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00489",
+    "sentence_id": "S65214",
+    "direction": "fr_to_en",
+    "answer": "Every day, I play sports.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00490",
+    "sentence_id": "S65215",
+    "direction": "fr_to_en",
+    "answer": "Whose is this food?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00491",
+    "sentence_id": "S65224",
+    "direction": "fr_to_en",
+    "answer": "I don't know where to begin.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00492",
+    "sentence_id": "S73206",
+    "direction": "fr_to_en",
+    "answer": "I like running.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00493",
+    "sentence_id": "S73217",
+    "direction": "fr_to_en",
+    "answer": "Every day, I watch television.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00494",
+    "sentence_id": "S73220",
+    "direction": "fr_to_en",
+    "answer": "I want to run on the beach today.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00495",
+    "sentence_id": "S73220",
+    "direction": "en_to_fr",
+    "answer": "Quiero correr por la playa hoy.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00496",
+    "sentence_id": "S66201",
+    "direction": "fr_to_en",
+    "answer": "There is no way out.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00497",
+    "sentence_id": "S66201",
+    "direction": "fr_to_en",
+    "answer": "There's no exit.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00498",
+    "sentence_id": "S66202",
+    "direction": "fr_to_en",
+    "answer": "Is there a lift?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00499",
+    "sentence_id": "S66205",
+    "direction": "fr_to_en",
+    "answer": "The door is now open.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00500",
+    "sentence_id": "S66205",
+    "direction": "fr_to_en",
+    "answer": "Now, the door is open.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00501",
+    "sentence_id": "S66205",
+    "direction": "en_to_fr",
+    "answer": "Ahora, la puerta está abierta.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00502",
+    "sentence_id": "S66206",
+    "direction": "fr_to_en",
+    "answer": "He has plenty of money in the bank.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00503",
+    "sentence_id": "S66209",
+    "direction": "fr_to_en",
+    "answer": "Thanks for the info.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00504",
+    "sentence_id": "S66209",
+    "direction": "fr_to_en",
+    "answer": "Thanks for the information.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00505",
+    "sentence_id": "S66213",
+    "direction": "fr_to_en",
+    "answer": "Where's the bank?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00506",
+    "sentence_id": "S66214",
+    "direction": "fr_to_en",
+    "answer": "Now, I have to go to the bank.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00507",
+    "sentence_id": "S66214",
+    "direction": "en_to_fr",
+    "answer": "Tengo que ir al banco ahora.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00508",
+    "sentence_id": "S66217",
+    "direction": "fr_to_en",
+    "answer": "The store doesn't open on Thursdays.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00509",
+    "sentence_id": "S66219",
+    "direction": "fr_to_en",
+    "answer": "Now, I'm going to close the door.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00510",
+    "sentence_id": "S66219",
+    "direction": "en_to_fr",
+    "answer": "Voy a cerrar la puerta ahora.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00511",
+    "sentence_id": "S67201",
+    "direction": "fr_to_en",
+    "answer": "Do you have the timetable?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00512",
+    "sentence_id": "S67202",
+    "direction": "fr_to_en",
+    "answer": "What's your timetable for tomorrow?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00513",
+    "sentence_id": "S67205",
+    "direction": "fr_to_en",
+    "answer": "He is always late.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00514",
+    "sentence_id": "S67205",
+    "direction": "fr_to_en",
+    "answer": "She is always late.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00515",
+    "sentence_id": "S67211",
+    "direction": "fr_to_en",
+    "answer": "Now, I'm at the airport.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00516",
+    "sentence_id": "S67212",
+    "direction": "fr_to_en",
+    "answer": "Where is the bus stop?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00517",
+    "sentence_id": "S67212",
+    "direction": "fr_to_en",
+    "answer": "Where does the bus stop?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00518",
+    "sentence_id": "S67221",
+    "direction": "fr_to_en",
+    "answer": "I like travelling by train.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00519",
+    "sentence_id": "S74210",
+    "direction": "fr_to_en",
+    "answer": "He has blue eyes.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00520",
+    "sentence_id": "S39202",
+    "direction": "fr_to_en",
+    "answer": "No, I don't think so.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00521",
+    "sentence_id": "S39207",
+    "direction": "fr_to_en",
+    "answer": "I'm certain.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00522",
+    "sentence_id": "S39207",
+    "direction": "fr_to_en",
+    "answer": "I'm sure.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00523",
+    "sentence_id": "S39209",
+    "direction": "fr_to_en",
+    "answer": "Yes, I think it's OK.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00524",
+    "sentence_id": "S39214",
+    "direction": "fr_to_en",
+    "answer": "Today, I think it's going to rain.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00525",
+    "sentence_id": "S39214",
+    "direction": "en_to_fr",
+    "answer": "Hoy, creo que va a llover.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00526",
+    "sentence_id": "S39215",
+    "direction": "fr_to_en",
+    "answer": "Tomorrow, I think it's going to rain.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00527",
+    "sentence_id": "S39218",
+    "direction": "fr_to_en",
+    "answer": "I believe that he's happy.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00528",
+    "sentence_id": "S75203",
+    "direction": "fr_to_en",
+    "answer": "They're good people.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00529",
+    "sentence_id": "S75209",
+    "direction": "fr_to_en",
+    "answer": "I like it here.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00530",
+    "sentence_id": "S75210",
+    "direction": "fr_to_en",
+    "answer": "Today, I'm going to visit Tom.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00531",
+    "sentence_id": "S75210",
+    "direction": "en_to_fr",
+    "answer": "Hoy, voy a visitar a Tom.",
+    "source": "equivalent: course_order",
     "status": "live"
   }
 ]

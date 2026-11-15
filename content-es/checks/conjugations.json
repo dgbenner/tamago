@@ -395,6 +395,50 @@
       "form": "vuelven"
     }
   ],
+  "cenar": [
+    {
+      "person": "yo",
+      "form": "ceno"
+    },
+    {
+      "person": "tú",
+      "form": "cenas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "cena"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "cenamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "cenan"
+    }
+  ],
+  "desayunar": [
+    {
+      "person": "yo",
+      "form": "desayuno"
+    },
+    {
+      "person": "tú",
+      "form": "desayunas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "desayuna"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "desayunamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "desayunan"
+    }
+  ],
   "correr": [
     {
       "person": "yo",
@@ -415,6 +459,28 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "corren"
+    }
+  ],
+  "esquiar": [
+    {
+      "person": "yo",
+      "form": "esquío"
+    },
+    {
+      "person": "tú",
+      "form": "esquías"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "esquía"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "esquiamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "esquían"
     }
   ],
   "cerrar": [
@@ -481,6 +547,94 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "creen"
+    }
+  ],
+  "entrar": [
+    {
+      "person": "yo",
+      "form": "entro"
+    },
+    {
+      "person": "tú",
+      "form": "entras"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "entra"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "entramos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "entran"
+    }
+  ],
+  "practicar": [
+    {
+      "person": "yo",
+      "form": "practico"
+    },
+    {
+      "person": "tú",
+      "form": "practicas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "practica"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "practicamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "practican"
+    }
+  ],
+  "cambiar": [
+    {
+      "person": "yo",
+      "form": "cambio"
+    },
+    {
+      "person": "tú",
+      "form": "cambias"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "cambia"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "cambiamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "cambian"
+    }
+  ],
+  "visitar": [
+    {
+      "person": "yo",
+      "form": "visito"
+    },
+    {
+      "person": "tú",
+      "form": "visitas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "visita"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "visitamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "visitan"
     }
   ],
   "tomar": [
@@ -1498,11 +1652,11 @@
   "nevar": [
     {
       "person": "yo",
-      "form": "nievo"
+      "form": "—"
     },
     {
       "person": "tú",
-      "form": "nievas"
+      "form": "—"
     },
     {
       "person": "él, ella, usted",
@@ -1510,11 +1664,11 @@
     },
     {
       "person": "nosotros, nosotras",
-      "form": "nevamos"
+      "form": "—"
     },
     {
       "person": "ellos, ellas, ustedes",
-      "form": "nievan"
+      "form": "—"
     }
   ],
   "cruzar": [

@@ -10,7 +10,7 @@ const DRAFT = 'draft: written for Tamago, native check'
 
 const situation = [
   { unit_id: 'U61', order: 111, row: 16, after: '', title: 'What Time Is It?', tasks: 'T05',
-    grammar: '¿Qué hora es? Es la una, son las dos: es only with one; y media, y cuarto, menos cuarto; de la mañana, de la tarde, de la noche',
+    grammar: '¿Qué hora es? Es la una, son las dos: es only with one; y media, y cuarto, un cuarto para las diez (Spain: las diez menos cuarto); de la mañana, de la tarde, de la noche',
     words: ['minuto', 'minutos', 'horas', 'media', 'cuarto', 'menos', 'mediodía', 'medianoche', 'tarde', 'noche', 'temprano', 'pronto'] },
   { unit_id: 'U37', order: 111.5, row: 16.5, after: 'row 16', title: "Didn't Catch That", help: true, tasks: 'T13',
     grammar: '¿Perdona? No te oigo. ¿Qué dijiste? Lo siento', words: ['oigo', 'siento', 'lo', 'dijiste', 'perdona'] },
@@ -52,10 +52,10 @@ const vocab = [
     grammar: 'Hace calor, hace frío, hace viento: hacer for the weather; llueve, nieva; hace buen tiempo: buen before a masculine noun',
     words: ['tiempo', 'hace', 'hacer', 'calor', 'llueve', 'llover', 'nieva', 'nevar', 'viento', 'buen', 'nieve', 'lluvia'] },
   { unit_id: 'U73', order: 115.2, row: 18, after: 'row 17', title: 'Hobbies',
-    grammar: 'Juego al tenis: jugar a + the sport; ver la televisión, escuchar la radio; correr: corro',
+    grammar: 'Juego tenis, juego básquetbol (in Spain jugar a + the sport); ver la televisión, escuchar la radio; correr: corro',
     words: ['televisión', 'radio', 'revista', 'internet', 'juego', 'tenis', 'baloncesto', 'correr', 'corro', 'esquiar', 'gimnasia'] },
   { unit_id: 'U74', order: 117.2, row: 19, after: 'row 18', title: 'Looks + Character',
-    grammar: 'Ojos azules, ojos verdes: colours take -s or -es in the plural (marrón, marrones); ser for what someone is like',
+    grammar: 'Ojos azules, ojos verdes: colours take -s or -es in the plural (café, cafés for brown); ser for what someone is like',
     words: ['marrón', 'gris', 'oscuro', 'claros', 'oscuros', 'azules', 'verdes', 'negros', 'marrones', 'bigote', 'gordo', 'gorda', 'lindo', 'linda', 'hermoso', 'hermosa', 'antipático', 'trabajador', 'sociable'] },
   { unit_id: 'U75', order: 119.2, row: 20, after: 'row 19', title: 'Places to Visit',
     grammar: 'Visitar un lugar; el centro de la ciudad; la gente takes a singular verb: la gente es simpática',
@@ -67,8 +67,8 @@ const vocab = [
 // with de la mañana, de la tarde, de la noche; timetables in figures.
 const listen = [
   ['N201', 'U61', 'time', 'Son las tres y media.', '3:30'], ['N202', 'U61', 'time', 'Son las ocho y cuarto.', '8:15'],
-  ['N203', 'U61', 'time', 'Es mediodía.', '12:00'], ['N204', 'U61', 'time', 'Son las diez menos cuarto.', '9:45'],
-  ['N205', 'U62', 'date', 'El cinco de marzo.', '5/3'], ['N206', 'U63', 'date', 'El primero de mayo.', '1/5'],
+  ['N203', 'U61', 'time', 'Es mediodía.', '12:00'], ['N204', 'U61', 'time', 'Es un cuarto para las diez.', '9:45'],
+  ['N205', 'U63', 'date', 'El cinco de marzo.', '5/3'], ['N206', 'U63', 'date', 'El primero de mayo.', '1/5'],
   ['N207', 'U63', 'date', 'El quince de septiembre.', '15/9'], ['N208', 'U63', 'date', 'El treinta de diciembre.', '30/12'],
   ['N209', 'U67', 'time', 'El autobús sale a las cuatro y veinte.', '4:20'], ['N210', 'U67', 'time', 'El tren llega a las nueve y diez.', '9:10'],
   ['N211', 'U68', 'time', 'Atención: el autobús a Guadalajara sale a las seis.', '6:00'], ['N212', 'U68', 'number', 'El autobús número siete sale ahora.', '7'],
@@ -88,7 +88,7 @@ const texts = [
     questions: [{ question: 'Where does María go in July?', choices: ['To the beach', 'To the mountains', 'To the countryside'], answer: 0 }, { question: 'When does she go to the mountains?', choices: ['In winter', 'In July', 'In spring'], answer: 0 }] },
   { id: 'R207', unit_id: 'U66', kind: 'sign', title: 'En la tienda', lines: ['Entrada', 'Abierto de 9:00 a 19:00', 'Cerrado los domingos'],
     questions: [{ question: 'When is the shop closed?', choices: ['On Sundays', 'On Saturdays', 'Every evening'], answer: 0 }, { question: 'What time does it close?', choices: ['7 pm', '9 pm', '9 am'], answer: 0 }] },
-  { id: 'R208', unit_id: 'U66', kind: 'sign', title: 'En la estación', lines: ['Baños: planta 1', 'Farmacia: planta 2', 'Información: en la entrada'],
+  { id: 'R208', unit_id: 'U66', kind: 'sign', title: 'En la estación', lines: ['Baños: piso 1', 'Farmacia: piso 2', 'Información: en la entrada'],
     questions: [{ question: 'Where are the toilets?', choices: ['On floor 1', 'On floor 2', 'Next to the exit'], answer: 0 }, { question: 'Where can you get information?', choices: ['At the entrance', 'At the pharmacy', 'On the train'], answer: 0 }] },
   { id: 'R209', unit_id: 'U66', kind: 'notice', title: 'El banco', lines: ['Banco de la Plaza', 'Abierto de lunes a viernes, de 9:00 a 16:00', 'Sábado y domingo: cerrado'],
     questions: [{ question: 'Is the bank open on Saturday?', choices: ['No', 'Yes', 'Only in the morning'], answer: 0 }, { question: 'What time does it close on Friday?', choices: ['4 pm', '9 am', '6 pm'], answer: 0 }] },
@@ -144,7 +144,10 @@ const canDo = {
 export default {
   part: 3, wordBase: 1201, vocabBase: 1401, cdBase: 301,
   slots: [{ slot_id: 'C05', part: 3, after_row: 17 }, { slot_id: 'C06', part: 3, after_row: 19 }],
-  situation, vocab, items, canDo, off: {},
+  situation, vocab, items, canDo,
+  // Fable's Part 3 review (Dan, 2026-11-15): the Mexican word is taught and the Spain word is an accepted answer.
+  off: { deberes: 'Spain: the course teaches tarea (Dan, 2026-11-15)', baloncesto: 'Spain: the course teaches básquetbol (Dan, 2026-11-15)', 'marrón': 'the course teaches café for brown, as in Mexico (Dan, 2026-11-15)', marrones: 'the course teaches cafés for brown, as in Mexico (Dan, 2026-11-15)' },
   // Added in review: que (creo que, tengo que) and del (de + el), which the course never had.
-  late: [{ unit_id: 'U71', words: ['que', 'del'] }],
+  // tarea, básquetbol and cafés: the Mexican words from Fable's Part 3 review.
+  late: [{ unit_id: 'U71', words: ['que', 'del'] }, { unit_id: 'U69', words: ['tarea'] }, { unit_id: 'U73', words: ['básquetbol'] }, { unit_id: 'U74', words: ['cafés'] }],
 }

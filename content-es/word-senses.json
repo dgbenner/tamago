@@ -1718,7 +1718,8 @@
  },
  "W1205": {
   "pos": "Noun",
-  "match": "quarter-hour"
+  "match": "quarter-hour (one of four",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1206": {
   "pos": "Adverb"
@@ -1731,13 +1732,15 @@
  },
  "W1209": {
   "pos": "Noun",
-  "match": "afternoon"
+  "match": "afternoon",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1210": {
   "pos": "Noun"
  },
  "W1211": {
-  "pos": "Adjective"
+  "pos": "Adverb",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1212": {
   "pos": "Adverb"
@@ -1899,7 +1902,9 @@
   "pos": "Verb"
  },
  "W1261": {
-  "pos": "Verb"
+  "pos": "Verb",
+  "match": "to come (move closer",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1262": {
   "pos": "Verb",
@@ -1928,7 +1933,8 @@
   "pos": "Verb"
  },
  "W1270": {
-  "pos": "Verb"
+  "pos": "Verb",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1271": {
   "pos": "Adjective"
@@ -1968,7 +1974,8 @@
   "pos": "Noun"
  },
  "W1283": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1284": {
   "pos": "Verb"
@@ -2116,10 +2123,12 @@
   "pos": "Noun"
  },
  "W1330": {
-  "pos": "Adjective"
+  "pos": "Noun",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1331": {
-  "pos": "Adjective"
+  "pos": "Noun",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1332": {
   "pos": "Noun"
@@ -2235,13 +2244,16 @@
   "exact": true
  },
  "W1413": {
-  "pos": "Adjective"
+  "pos": "Adjective",
+  "match": "alone, by oneself",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1414": {
   "pos": "Preposition"
  },
  "W1415": {
-  "pos": "Noun"
+  "pos": "Noun",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1416": {
   "pos": "Verb"
@@ -2319,7 +2331,8 @@
   "pos": "Adjective"
  },
  "W1441": {
-  "pos": "Adjective"
+  "pos": "Adjective",
+  "note": "Fable's Part 3 review, 2026-11-15"
  },
  "W1442": {
   "pos": "Adjective"
@@ -3103,5 +3116,24 @@
  },
  "W1854": {
   "pos": "Noun"
+ },
+ "W1045": {
+  "pos": "Noun",
+  "match": "car, automobile",
+  "note": "Fable's Part 3 review, 2026-11-15"
+ },
+ "W1355": {
+  "pos": "Noun",
+  "match": "homework",
+  "exact": true,
+  "note": "Fable's Part 3 review, 2026-11-15"
+ },
+ "W1473": {
+  "pos": "Noun",
+  "note": "Fable's Part 3 review, 2026-11-15"
+ },
+ "W1474": {
+  "pos": "Adjective",
+  "note": "Fable's Part 3 review, 2026-11-15"
  }
 }

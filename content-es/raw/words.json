@@ -4977,7 +4977,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/coche#Spanish",
-    "status": "pull from Wiktionary",
+    "status": "off: Spain; the course teaches carro (Dan, 2026-11-15)",
     "notes": "A1 Part 1 vocabulary circle word"
   },
   {
@@ -10417,7 +10417,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/deberes#Spanish",
-    "status": "pull from Wiktionary",
+    "status": "off: Spain: the course teaches tarea (Dan, 2026-11-15)",
     "notes": "A1 Part 3 word"
   },
   {
@@ -10504,6 +10504,23 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/elige#Spanish",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 word"
+  },
+  {
+    "word_id": "W1355",
+    "lang_id": "es",
+    "form": "tarea",
+    "lemma": "",
+    "part_of_speech": "",
+    "gender": "",
+    "gloss": "",
+    "hint": "",
+    "hint_source": "",
+    "first_unit": "U69",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/tarea#Spanish",
+    "status": "pull from Wiktionary",
+    "notes": "A1 Part 3 word (added in review)"
   },
   {
     "word_id": "W1401",
@@ -11063,7 +11080,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/baloncesto#Spanish",
-    "status": "pull from Wiktionary",
+    "status": "off: Spain: the course teaches básquetbol (Dan, 2026-11-15)",
     "notes": "A1 Part 3 vocabulary circle word"
   },
   {
@@ -11148,7 +11165,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/marr%C3%B3n#Spanish",
-    "status": "pull from Wiktionary",
+    "status": "off: the course teaches café for brown, as in Mexico (Dan, 2026-11-15)",
     "notes": "A1 Part 3 vocabulary circle word"
   },
   {
@@ -11284,7 +11301,7 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/marrones#Spanish",
-    "status": "pull from Wiktionary",
+    "status": "off: the course teaches cafés for brown, as in Mexico (Dan, 2026-11-15)",
     "notes": "A1 Part 3 vocabulary circle word"
   },
   {
@@ -11726,6 +11743,40 @@
     "needs_image": "no",
     "image_file": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/del#Spanish",
+    "status": "pull from Wiktionary",
+    "notes": "A1 Part 3 vocabulary circle word (added for coverage)"
+  },
+  {
+    "word_id": "W1473",
+    "lang_id": "es",
+    "form": "básquetbol",
+    "lemma": "",
+    "part_of_speech": "",
+    "gender": "",
+    "gloss": "",
+    "hint": "",
+    "hint_source": "",
+    "first_unit": "U73",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/b%C3%A1squetbol#Spanish",
+    "status": "pull from Wiktionary",
+    "notes": "A1 Part 3 vocabulary circle word (added for coverage)"
+  },
+  {
+    "word_id": "W1474",
+    "lang_id": "es",
+    "form": "cafés",
+    "lemma": "",
+    "part_of_speech": "",
+    "gender": "",
+    "gloss": "",
+    "hint": "",
+    "hint_source": "",
+    "first_unit": "U74",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/caf%C3%A9s#Spanish",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 3 vocabulary circle word (added for coverage)"
   },
@@ -15536,5 +15587,22 @@
     "wiktionary_url": "https://en.wiktionary.org/wiki/circo#Spanish",
     "status": "pull from Wiktionary",
     "notes": "A1 Part 4 vocabulary circle word (added for coverage)"
+  },
+  {
+    "word_id": "W1045",
+    "lang_id": "es",
+    "form": "carro",
+    "lemma": "",
+    "part_of_speech": "",
+    "gender": "",
+    "gloss": "",
+    "hint": "",
+    "hint_source": "",
+    "first_unit": "U53",
+    "needs_image": "no",
+    "image_file": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/carro#Spanish",
+    "status": "pull from Wiktionary",
+    "notes": "A1 Part 1 vocabulary circle word (in place of coche: Fable's Part 3 review)"
   }
 ]
