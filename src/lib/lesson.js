@@ -1,3 +1,4 @@
+import { twinsOf } from './regional.js'
 import { a1QuestionFor, makeA1Question } from './a1types.js'
 // Builds lessons from content. Pure: no React, no storage, so it runs under node --test.
 // Rule numbers (R01...) refer to the workbook's lesson_rules tab.
@@ -402,7 +403,8 @@ export function makeTypeWord(c, word, round, rng) {
     qid: `QT18-${word.word_id}-${Math.floor(rng() * 1e9)}`, type: 'QT18', variant: 'QT18-1', round, skill: 'writing', lang: 'fr',
     word_ids: [word.word_id], word_id: word.word_id, form: word.form, hint: word.hint, english: word.hint,
     image: word.image_file ? `/images/${word.image_file}` : null,
-    accepted: [word.form, ...articles.map((a) => (a.endsWith("'") ? `${a}${word.form}` : `${a} ${word.form}`))],
+    // The Spain twin of a Mexican word counts too (coche for carro; src/lib/regional.js), with or without an article.
+    accepted: [word.form, ...twinsOf(word.lang_id, word.form)].flatMap((f) => [f, ...articles.map((a) => (a.endsWith("'") ? `${a}${f}` : `${a} ${f}`))]),
     audio: { french: word.form, file: wordRecordingOf(c, word) }, shown: `${word.form} = ${word.hint}`,
   }
 }

@@ -13,7 +13,9 @@ const render = async (lemma, template) => (await getJson(`https://en.wiktionary.
 // The conjugation template written in the course language's section of the verb's page, else the bare template.
 async function pageTemplate(lemma, name) {
   const r = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${encodeURIComponent(lemma)}&prop=wikitext&format=json`)
-  const wt = r?.parse?.wikitext?.['*'] ?? ''
+  // A leading newline, so a page that opens with its language heading (appeler, épeler: ==French== on the first line)
+  // is found too; it fell back to the bare template, which gives the 1990 spelling appèle (Dan, 2026-11-15).
+  const wt = '\n' + (r?.parse?.wikitext?.['*'] ?? '')
   const section = wt.split(/\n==(?!=)/).find((s) => s.startsWith(`${C.wiktionarySection}==`)) ?? ''
   return section.match(new RegExp(`\\{\\{${name}(?:\\|[^{}]*)?\\}\\}`))?.[0] ?? `{{${name}}}`
 }
@@ -33,7 +35,14 @@ async function french(lemma) {
   return persons.map((p, i) => ({ person: p, form: forms[i] })).filter((x) => x.person && x.form)
 }
 
+// Reflexive verbs (Dan, 2026-11-15): lavarse is lavar's own table with the pronoun in front of each form, me lavo, te
+// lavas, se lava, nos lavamos, se lavan; the forms still come from Wiktionary (the plain verb's page).
+const ES_REFLEXIVE = ['me', 'te', 'se', 'nos', 'se']
 async function spanish(lemma) {
+  if (/[aeií]rse$/.test(lemma)) {
+    const base = await spanish(lemma.slice(0, -2))
+    return base ? base.map((x, i) => ({ ...x, form: x.form === '—' ? x.form : String(x.form).split(/\s*,\s*|\s+or\s+/).map((f) => `${ES_REFLEXIVE[i]} ${f}`).join(', ') })) : null
+  }
   const rows = tableRows(await render(lemma, await pageTemplate(lemma, 'es-conj')))
   const at = rows.findIndex((r) => r[0] === 'indicative')
   const row = rows[at + 1]

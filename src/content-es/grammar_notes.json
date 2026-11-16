@@ -549,7 +549,7 @@
     "unit_id": "U41",
     "rule": "To ask a name: ¿Cómo te llamas? to a friend, ¿Cómo se llama usted? politely (usted takes the él form). Mi nombre es … and me llamo … both give your name; apellido is the last name. On meeting someone, a man says encantado and a woman says encantada.",
     "example_sentence_ids": "S41109;S41014;S41105",
-    "conjugation_lemma": "llamar",
+    "conjugation_lemma": "llamarse",
     "status": "live",
     "examples": [
       "S41109",
@@ -558,30 +558,30 @@
     ],
     "conjugations": [
       {
-        "lemma": "llamar",
+        "lemma": "llamarse",
         "present": [
           {
             "person": "yo",
-            "form": "llamo"
+            "form": "me llamo"
           },
           {
             "person": "tú",
-            "form": "llamas"
+            "form": "te llamas"
           },
           {
             "person": "él, ella, usted",
-            "form": "llama"
+            "form": "se llama"
           },
           {
             "person": "nosotros, nosotras",
-            "form": "llamamos"
+            "form": "nos llamamos"
           },
           {
             "person": "ellos, ellas, ustedes",
-            "form": "llaman"
+            "form": "se llaman"
           }
         ],
-        "source": "https://en.wiktionary.org/wiki/llamar#Conjugation"
+        "source": "https://en.wiktionary.org/wiki/llamarse#Conjugation"
       }
     ]
   },
@@ -1623,7 +1623,7 @@
     "unit_id": "U92",
     "rule": "Verbs for washing and getting ready take a pronoun. In the I form it is me: me lavo, I wash (myself). In the dictionary form it is se, joined to the end: lavarse, bañarse. With parts of the body Spanish says the, not my: Me lavo las manos, I wash my hands. Bañarse is to take a bath, and also to go for a swim: bañarse en el mar.",
     "example_sentence_ids": "S92007;S92102;S92104",
-    "conjugation_lemma": "lavar;bañar",
+    "conjugation_lemma": "lavarse;bañarse",
     "status": "live",
     "examples": [
       "S92007",
@@ -1632,56 +1632,56 @@
     ],
     "conjugations": [
       {
-        "lemma": "lavar",
+        "lemma": "lavarse",
         "present": [
           {
             "person": "yo",
-            "form": "lavo"
+            "form": "me lavo"
           },
           {
             "person": "tú",
-            "form": "lavas"
+            "form": "te lavas"
           },
           {
             "person": "él, ella, usted",
-            "form": "lava"
+            "form": "se lava"
           },
           {
             "person": "nosotros, nosotras",
-            "form": "lavamos"
+            "form": "nos lavamos"
           },
           {
             "person": "ellos, ellas, ustedes",
-            "form": "lavan"
+            "form": "se lavan"
           }
         ],
-        "source": "https://en.wiktionary.org/wiki/lavar#Conjugation"
+        "source": "https://en.wiktionary.org/wiki/lavarse#Conjugation"
       },
       {
-        "lemma": "bañar",
+        "lemma": "bañarse",
         "present": [
           {
             "person": "yo",
-            "form": "baño"
+            "form": "me baño"
           },
           {
             "person": "tú",
-            "form": "bañas"
+            "form": "te bañas"
           },
           {
             "person": "él, ella, usted",
-            "form": "baña"
+            "form": "se baña"
           },
           {
             "person": "nosotros, nosotras",
-            "form": "bañamos"
+            "form": "nos bañamos"
           },
           {
             "person": "ellos, ellas, ustedes",
-            "form": "bañan"
+            "form": "se bañan"
           }
         ],
-        "source": "https://en.wiktionary.org/wiki/ba%C3%B1ar#Conjugation"
+        "source": "https://en.wiktionary.org/wiki/ba%C3%B1arse#Conjugation"
       }
     ]
   },

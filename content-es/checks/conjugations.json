@@ -131,26 +131,26 @@
       "form": "leen"
     }
   ],
-  "llamar": [
+  "llamarse": [
     {
       "person": "yo",
-      "form": "llamo"
+      "form": "me llamo"
     },
     {
       "person": "tú",
-      "form": "llamas"
+      "form": "te llamas"
     },
     {
       "person": "él, ella, usted",
-      "form": "llama"
+      "form": "se llama"
     },
     {
       "person": "nosotros, nosotras",
-      "form": "llamamos"
+      "form": "nos llamamos"
     },
     {
       "person": "ellos, ellas, ustedes",
-      "form": "llaman"
+      "form": "se llaman"
     }
   ],
   "llevar": [
@@ -571,48 +571,48 @@
       "form": "siguen"
     }
   ],
-  "lavar": [
+  "lavarse": [
     {
       "person": "yo",
-      "form": "lavo"
+      "form": "me lavo"
     },
     {
       "person": "tú",
-      "form": "lavas"
+      "form": "te lavas"
     },
     {
       "person": "él, ella, usted",
-      "form": "lava"
+      "form": "se lava"
     },
     {
       "person": "nosotros, nosotras",
-      "form": "lavamos"
+      "form": "nos lavamos"
     },
     {
       "person": "ellos, ellas, ustedes",
-      "form": "lavan"
+      "form": "se lavan"
     }
   ],
-  "bañar": [
+  "bañarse": [
     {
       "person": "yo",
-      "form": "baño"
+      "form": "me baño"
     },
     {
       "person": "tú",
-      "form": "bañas"
+      "form": "te bañas"
     },
     {
       "person": "él, ella, usted",
-      "form": "baña"
+      "form": "se baña"
     },
     {
       "person": "nosotros, nosotras",
-      "form": "bañamos"
+      "form": "nos bañamos"
     },
     {
       "person": "ellos, ellas, ustedes",
-      "form": "bañan"
+      "form": "se bañan"
     }
   ],
   "conocer": [
@@ -767,6 +767,28 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "han"
+    }
+  ],
+  "llamar": [
+    {
+      "person": "yo",
+      "form": "llamo"
+    },
+    {
+      "person": "tú",
+      "form": "llamas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "llama"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "llamamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "llaman"
     }
   ],
   "trabajar": [
@@ -1363,6 +1385,28 @@
       "form": "levantan"
     }
   ],
+  "levantarse": [
+    {
+      "person": "yo",
+      "form": "me levanto"
+    },
+    {
+      "person": "tú",
+      "form": "te levantas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "se levanta"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "nos levantamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "se levantan"
+    }
+  ],
   "duchar": [
     {
       "person": "yo",
@@ -1383,6 +1427,28 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "duchan"
+    }
+  ],
+  "ducharse": [
+    {
+      "person": "yo",
+      "form": "me ducho"
+    },
+    {
+      "person": "tú",
+      "form": "te duchas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "se ducha"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "nos duchamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "se duchan"
     }
   ],
   "desayunar": [
@@ -1847,6 +1913,28 @@
       "form": "manejan"
     }
   ],
+  "dedicarse": [
+    {
+      "person": "yo",
+      "form": "me dedico"
+    },
+    {
+      "person": "tú",
+      "form": "te dedicas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "se dedica"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "nos dedicamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "se dedican"
+    }
+  ],
   "dedicar": [
     {
       "person": "yo",
@@ -1955,6 +2043,28 @@
     {
       "person": "ellos, ellas, ustedes",
       "form": "reciben"
+    }
+  ],
+  "lavar": [
+    {
+      "person": "yo",
+      "form": "lavo"
+    },
+    {
+      "person": "tú",
+      "form": "lavas"
+    },
+    {
+      "person": "él, ella, usted",
+      "form": "lava"
+    },
+    {
+      "person": "nosotros, nosotras",
+      "form": "lavamos"
+    },
+    {
+      "person": "ellos, ellas, ustedes",
+      "form": "lavan"
     }
   ],
   "alquilar": [

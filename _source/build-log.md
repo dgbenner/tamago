@@ -855,3 +855,10 @@ Part 3, Lingua Libre recordings:
 - check-content tables every taught infinitive; 82 extra verbs taken back out of grammar notes (10 Spanish, 72 German), no table lost (Spanish 91, German 144), at most 2 tables in a note (German U69 had 13).
 - Spanish coverage with regional twins: 479 of 534 (90%) as written, 500 (94%) counting each Mexican word for its Spain twin; main path 461 and 482. German 572 of 627 (91%).
 - Word audit: Spanish 0 early and 0 over 4 (3,007 lessons), German 0 and 0 (3,155). Audits no longer write spreadsheets unless asked.
+
+## 2026-11-15: Three fixes (all courses) and the Team section
+
+- French appeler reads its own page's template: appelle, appelles, appellent (the bare template gave the 1990 appèle); épeler shows "épelle or épèle" as Wiktionary does; rappeler, jeter and acheter were already right.
+- Type the Word accepts the Spain twin of a Mexican word (coche for carro), from src/lib/regional.js, the list coverage reads.
+- Spanish reflexive verbs have tables with the pronouns (me lavo, te lavas, se lava): llamarse, lavarse, bañarse, levantarse, ducharse, dedicarse; notes U41 and U92 show them.
+- CLAUDE.md gains a Team section (Dan, Planner, Builder 1, Builder 2, Fable, Debugger, handoffs).

@@ -5,6 +5,7 @@
 // Usage: COURSE=de node scripts/a1-coverage.mjs [--missing]
 import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { at, COURSE } from './lib/course.mjs'
+import { REGIONAL as REGIONAL_TWINS } from '../src/lib/regional.js'
 
 const dir = at('src/content')
 const t = Object.fromEntries(readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => [f.replace('.json', ''), JSON.parse(readFileSync(`${dir}/${f}`, 'utf8'))]))
@@ -30,12 +31,10 @@ const ELIDED = { fr: { "j'": 'je', "l'": 'le', "s'": 'se', "m'": 'me', "t'": 'te
   de: { andere: 'ander', anderen: 'ander', jeden: 'jed', jede: 'jed', diese: 'dies', dieser: 'dies', dieses: 'dies', letzte: 'letzt', letzten: 'letzt', nächste: 'nächst', nächsten: 'nächst',
     beste: 'best', besten: 'best', alle: 'all', welche: 'welch', meisten: 'meist', weh: 'weh tun', rad: 'rad fahren', kümmern: 'sich kümmern' } }[COURSE] ?? {}
 for (const w of t.words) { const k = ELIDED[fold(w.form)]; if (k) (byKey.get(k) ?? byKey.set(k, []).get(k)).push(w) }
-// Regional twins (Dan, 2026-11-15): Spanish is Mexican-standard and the PCIC list is Spain's, so a Mexican word the
-// course teaches counts for its Spain headword. Both numbers are reported: the list as written, and with the twins.
-const REGIONAL = { es: { carro: 'coche', lentes: 'gafas', departamento: 'apartamento', mesero: 'camarero', bolsa: 'bolso', manejar: 'conducir', maneja: 'conducir',
-  rentar: 'alquilar', renta: 'alquilar', credencial: 'carné', licencia: 'carné', timbre: 'sello', recámara: 'dormitorio', clóset: 'armario', librero: 'estantería',
-  borrador: 'goma', pizarrón: 'pizarra', tarea: 'deberes', básquetbol: 'baloncesto', café: 'marrón', cafés: 'marrón', derecho: 'recto', guion: 'guión', video: 'vídeo',
-  piso: 'planta', sala: 'salón' } }[COURSE] ?? {}
+// Regional twins (Dan, 2026-11-15; src/lib/regional.js, the list Type the Word accepts too): Spanish is Mexican-standard
+// and the PCIC list is Spain's, so a Mexican word the course teaches counts for its Spain headword. Both numbers are
+// reported: the list as written, and with the twins.
+const REGIONAL = Object.fromEntries((REGIONAL_TWINS[COURSE] ?? []).map(([m, spain, head]) => [m, head ?? spain]))
 const byKeyTwins = new Map([...byKey].map(([k, v]) => [k, [...v]]))
 for (const w of t.words) { const k = REGIONAL[fold(w.form)]; if (k) (byKeyTwins.get(k) ?? byKeyTwins.set(k, []).get(k)).push(w) }
 const hasTwins = Object.keys(REGIONAL).length > 0
