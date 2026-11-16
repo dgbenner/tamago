@@ -173,3 +173,25 @@ test('a missing space that spells another course word is a miss', () => {
   assert.ok(checkTyped('mason', ['Ma son.'], { lang: 'fr', vocabulary: new Set() }).typo)
   assert.equal(checkTyped('mason', ['Ma son.'], { lang: 'fr', vocabulary: new Set(['mason']) }).correct, false)
 })
+// Accent guard (Dan, 2026-11-16): a missing accent is right in lenient mode unless the word typed is itself another word
+// the course teaches; then it is wrong, with the right answer and its accent note.
+test('an accent that turns the word into another course word is a miss, with the accent note', () => {
+  const cases = [
+    ['fr', 'il a paris', 'Il est à Paris.', ['il', 'a', 'à', 'paris', 'est'], 'il est a paris'],
+    ['fr', 'ou est il', 'Où est-il ?', ['ou', 'où', 'est', 'il'], null],
+    ['fr', 'il est la', 'Il est là.', ['il', 'est', 'la', 'là'], null],
+    ['it', 'parla da sola', 'Parla dà sola.', ['parla', 'da', 'dà', 'sola'], null],
+    ['pt', 'ele e alto', 'Ele é alto.', ['ele', 'e', 'é', 'alto'], null],
+    ['pt', 'eles tem fome', 'Eles têm fome.', ['eles', 'tem', 'têm', 'fome'], null],
+  ]
+  for (const [lang, typed, answer, words, alt] of cases) {
+    const r = checkTyped(alt ?? typed, [answer], { lang, vocabulary: new Set(words) })
+    assert.equal(r.correct, false, `${typed} for ${answer}`)
+    assert.ok(r.accent && r.matched === answer, `${typed}: the right answer, marked as an accent miss`)
+    assert.ok(accentMisses(alt ?? typed, answer).length > 0, `${typed}: an accent note`)
+  }
+})
+test('a missing accent that makes no other course word is still right', () => {
+  assert.ok(fr('je suis un garcon', ['Je suis un garçon.']).correct)
+  assert.ok(checkTyped('cafe', ['Café.'], { lang: 'fr', vocabulary: new Set(['café']) }).correct)
+})

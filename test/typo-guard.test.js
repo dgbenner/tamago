@@ -37,3 +37,14 @@ test('a slip that spells a word from a later circle is wrong, and the right answ
   assert.equal(r.correct, false, `"${found.typed}" (${found.other}) was accepted for "${found.s.french}"`)
   assert.equal(r.matched, found.s.french, 'the right answer is shown')
 })
+
+// Accent guard on the real course (Dan, 2026-11-16): a sentence with à, typed with a, is wrong in its own circle.
+test('a for à in a real course sentence is wrong, with the right answer', () => {
+  const s = t.sentences.find((x) => / à /.test(` ${normalize(x.french, 'fr')} `) && t.units.find((u) => u.unit_id === x.unit_id && String(u.status).startsWith('live')))
+  assert.ok(s, 'a live sentence with à')
+  const c = contentForUnit(t, s.unit_id)
+  const typed = normalize(s.french, 'fr').replace(/(^| )à( |$)/, '$1a$2')
+  const r = checkTyped(typed, [s.french], { lang: 'fr', vocabulary: c.vocabulary.fr })
+  assert.equal(r.correct, false, `"${typed}" was accepted for "${s.french}"`)
+  assert.equal(r.matched, s.french)
+})

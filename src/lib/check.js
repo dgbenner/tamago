@@ -95,7 +95,9 @@ export function capitalMisses(given, matched, { word = false } = {}) {
 }
 // Accents (same day): the words of the accepted text whose accents the learner left out, with the letters to mark.
 export function accentMisses(given, matched) {
-  const a = casedWords(matched), b = casedWords(given)
+  let a = casedWords(matched), b = casedWords(given)
+  // A hyphen or apostrophe left out (est il for est-il) still lines the words up (2026-11-16).
+  if (a.length !== b.length) { const parts = (ws) => ws.flatMap((w) => w.split(/[-'’]/)).filter(Boolean); a = parts(a); b = parts(b) }
   if (a.length !== b.length) return []
   return a.flatMap((w, i) => {
     const g = b[i]
@@ -103,6 +105,17 @@ export function accentMisses(given, matched) {
     const runs = diffMarks(w, g)
     return runs.some((r) => r.mark) ? [{ word: w, runs }] : []
   })
+}
+
+// Does the learner's answer, which matches this accepted one but for accents, put an accent-twin in place of a word:
+// a word typed differently from the answer's, the same once accents are folded, that the course teaches on its own?
+function realWordByAccent(typed, answer, vocabulary) {
+  for (const t of typed.all) for (const r of answer.all) {
+    if (fold(t) !== fold(r)) continue
+    const T = t.split(' '), R = r.split(' ')
+    if (T.length === R.length && T.some((w, i) => w !== R[i] && vocabulary.has(w))) return true
+  }
+  return false
 }
 
 // accepted[0] is the main answer. Returns { correct, typo, accent, capitals, matched }; matched is the accepted text to
@@ -124,7 +137,13 @@ export function checkTyped(input, accepted, { strict = false, lang = 'fr', vocab
   }
   if (strict) return miss
   const accent = same(fold)
-  if (accent) return { correct: true, typo: false, accent: true, capitals: caps(accent.text), matched: accent.text }
+  if (accent) {
+    // Accent guard (Dan, 2026-11-16): a missing or wrong accent is right in lenient mode, except when the word typed is
+    // itself another word the course teaches (a for à, ou for où, la for là, da for dà, e for é, tem for têm). Then it is
+    // wrong, and the answer bar shows the right answer with its accent note (accent stays true).
+    if (realWordByAccent(typed, accent, vocabulary)) return { ...miss, accent: true, matched: accent.text }
+    return { correct: true, typo: false, accent: true, capitals: caps(accent.text), matched: accent.text }
+  }
   const foldedVocabulary = new Set([...vocabulary].flatMap((w) => [w, ...String(w).split(/['-]/)]).map(fold))
   const slip = answers.find((a) => isTypo(fold(typed.main), fold(a.main), foldedVocabulary) || isTypo(fold(typed.spaced), fold(a.spaced), foldedVocabulary))
   if (slip) return { correct: true, typo: true, accent: false, capitals: [], matched: slip.text }
