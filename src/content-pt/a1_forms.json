@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Meu nome é João Silva. Tenho quarenta anos. Moro na rua das Flores, número dez, em São Paulo.",
+    "fields": [
+      {
+        "key": "first",
+        "label": "Nome",
+        "rule": "text",
+        "answer": "João",
+        "also": [
+          "Joao"
+        ]
+      },
+      {
+        "key": "last",
+        "label": "Sobrenome",
+        "rule": "text",
+        "answer": "Silva"
+      },
+      {
+        "key": "age",
+        "label": "Idade",
+        "rule": "number",
+        "answer": "40"
+      },
+      {
+        "key": "address",
+        "label": "Endereço",
+        "rule": "text",
+        "answer": "Rua das Flores, 10",
+        "also": [
+          "rua das Flores 10",
+          "Rua das Flores 10",
+          "rua das Flores, número dez",
+          "Flores 10"
+        ]
+      },
+      {
+        "key": "town",
+        "label": "Cidade",
+        "rule": "text",
+        "answer": "São Paulo",
+        "also": [
+          "Sao Paulo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Meu nome é Ana Costa. Tenho trinta anos. Sou brasileira. Moro na França. Meu número é zero, três, onze, quinze, dezenove, vinte.",
+    "fields": [
+      {
+        "key": "first",
+        "label": "Nome",
+        "rule": "text",
+        "answer": "Ana"
+      },
+      {
+        "key": "last",
+        "label": "Sobrenome",
+        "rule": "text",
+        "answer": "Costa"
+      },
+      {
+        "key": "age",
+        "label": "Idade",
+        "rule": "number",
+        "answer": "30"
+      },
+      {
+        "key": "nat",
+        "label": "Nacionalidade",
+        "rule": "text",
+        "answer": "brasileira",
+        "also": [
+          "brasileiro",
+          "Brasileira"
+        ]
+      },
+      {
+        "key": "country",
+        "label": "País",
+        "rule": "text",
+        "answer": "França",
+        "also": [
+          "Franca"
+        ]
+      },
+      {
+        "key": "tel",
+        "label": "Telefone",
+        "rule": "phone",
+        "answer": "03 11 15 19 20"
+      }
+    ]
+  }
+]

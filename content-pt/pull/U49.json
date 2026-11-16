@@ -1,0 +1,1726 @@
+{
+  "unit_id": "U49",
+  "pulled_at": "2026-11-16",
+  "candidates": 203,
+  "sentences": [
+    {
+      "sentence_id": "S49001",
+      "unit_id": "U49",
+      "french": "Garrafa ou copo?",
+      "english": "Bottle or glass?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11883478",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49002",
+      "unit_id": "U49",
+      "french": "Todos estão aqui menos o Tom.",
+      "english": "Everyone is here except for Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6301228",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49003",
+      "unit_id": "U49",
+      "french": "Não gosto de chocolate, mas Tom gosta.",
+      "english": "I don't like chocolate, but Tom does.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8718566",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49004",
+      "unit_id": "U49",
+      "french": "Tem açúcar?",
+      "english": "Is there any sugar?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "921925",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49005",
+      "unit_id": "U49",
+      "french": "Leite? Açúcar?",
+      "english": "Milk? Sugar?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "997056",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49006",
+      "unit_id": "U49",
+      "french": "Como todos estão?",
+      "english": "How is everyone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "576720",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49007",
+      "unit_id": "U49",
+      "french": "Café ou chá?",
+      "english": "Coffee or tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1201251",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49008",
+      "unit_id": "U49",
+      "french": "Onde estão todos?",
+      "english": "Where's everyone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1693959",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Where's everybody?",
+        "Where is everyone?",
+        "Where is everybody?"
+      ]
+    },
+    {
+      "sentence_id": "S49009",
+      "unit_id": "U49",
+      "french": "Você ou eu?",
+      "english": "You or I?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1916149",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49010",
+      "unit_id": "U49",
+      "french": "Não quer açúcar?",
+      "english": "Don't you want sugar?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6624117",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49011",
+      "unit_id": "U49",
+      "french": "Quem quer chocolate quente?",
+      "english": "Who wants hot chocolate?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "405102",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "Who wants some hot chocolate?"
+      ]
+    },
+    {
+      "sentence_id": "S49012",
+      "unit_id": "U49",
+      "french": "Você gosta de chocolate?",
+      "english": "Do you like chocolate?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5744993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49013",
+      "unit_id": "U49",
+      "french": "Onde está a caixa?",
+      "english": "Where's the box?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7247543",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "iart61",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49014",
+      "unit_id": "U49",
+      "french": "Você tem essa garrafa?",
+      "english": "Do you have that bottle?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7770681",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lucasmg123",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49015",
+      "unit_id": "U49",
+      "french": "Qual copo é meu?",
+      "english": "Which glass is mine?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12340087",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49016",
+      "unit_id": "U49",
+      "french": "De quem é esse copo?",
+      "english": "Whose glass is that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3879732",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Verdastelo",
+      "other_english": [
+        "Whose glass is this?"
+      ]
+    },
+    {
+      "sentence_id": "S49017",
+      "unit_id": "U49",
+      "french": "Esse é o saco dele?",
+      "english": "Is this his sack?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8200712",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "josivangoncalves",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49018",
+      "unit_id": "U49",
+      "french": "De qual caixa você gosta mais?",
+      "english": "Which box do you like better?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2660202",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Welton",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49019",
+      "unit_id": "U49",
+      "french": "Mas você gosta!",
+      "english": "But you like it!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "393758",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49020",
+      "unit_id": "U49",
+      "french": "Nado todo dia.",
+      "english": "I swim every day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3174408",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": [
+        "I go swimming every day."
+      ]
+    },
+    {
+      "sentence_id": "S49021",
+      "unit_id": "U49",
+      "french": "Eu bebo pouco.",
+      "english": "I drink a little.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5867824",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ianna",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49022",
+      "unit_id": "U49",
+      "french": "Tom come bem pouco.",
+      "english": "Tom eats very little.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1052455",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49023",
+      "unit_id": "U49",
+      "french": "Tom come muito pouco.",
+      "english": "Tom eats very little.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1052456",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49024",
+      "unit_id": "U49",
+      "french": "Como peixe toda semana.",
+      "english": "I eat fish every week.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1286360",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49025",
+      "unit_id": "U49",
+      "french": "Mas eu não quero.",
+      "english": "But I don't want to.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1491788",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49026",
+      "unit_id": "U49",
+      "french": "Toda pergunta tem resposta.",
+      "english": "Every question has an answer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8915908",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49027",
+      "unit_id": "U49",
+      "french": "A caixa está aqui.",
+      "english": "The box is here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9524470",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49029",
+      "unit_id": "U49",
+      "french": "A água está na garrafa.",
+      "english": "The water is in the bottle.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1070144",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49030",
+      "unit_id": "U49",
+      "french": "Tenho menos livros que você.",
+      "english": "I have fewer books than you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1417029",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49032",
+      "unit_id": "U49",
+      "french": "Tom come menos que Maria.",
+      "english": "Tom eats less than Mary.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4031205",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Tom eats less than Mary does."
+      ]
+    },
+    {
+      "sentence_id": "S49033",
+      "unit_id": "U49",
+      "french": "Eu como peixe toda semana.",
+      "english": "I eat fish every week.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5109687",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49034",
+      "unit_id": "U49",
+      "french": "Tenho um pacote aqui para você.",
+      "english": "I have a package here for you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4952227",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49035",
+      "unit_id": "U49",
+      "french": "Temos um pacote aqui para Tom.",
+      "english": "We have a package here for Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6808015",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lucasmg123",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S49036",
+      "unit_id": "U49",
+      "french": "Esse pacote é para o Tom.",
+      "english": "This package is for Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7238512",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S49001",
+      "position": 1,
+      "surface": "Garrafa",
+      "word_id": "W927",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49001",
+      "position": 2,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49001",
+      "position": 3,
+      "surface": "copo",
+      "word_id": "W928",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49002",
+      "position": 1,
+      "surface": "Todos",
+      "word_id": "W935",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49002",
+      "position": 2,
+      "surface": "estão",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49002",
+      "position": 3,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49002",
+      "position": 4,
+      "surface": "menos",
+      "word_id": "W936",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49002",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49002",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49003",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49003",
+      "position": 2,
+      "surface": "gosto",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49003",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49003",
+      "position": 4,
+      "surface": "chocolate",
+      "word_id": "W939",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49003",
+      "position": 5,
+      "surface": "mas",
+      "word_id": "W938",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49003",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49003",
+      "position": 7,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49004",
+      "position": 1,
+      "surface": "Tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49004",
+      "position": 2,
+      "surface": "açúcar",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49005",
+      "position": 1,
+      "surface": "Leite",
+      "word_id": "W061",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49005",
+      "position": 2,
+      "surface": "Açúcar",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49006",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49006",
+      "position": 2,
+      "surface": "todos",
+      "word_id": "W935",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49006",
+      "position": 3,
+      "surface": "estão",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49007",
+      "position": 1,
+      "surface": "Café",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49007",
+      "position": 2,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49007",
+      "position": 3,
+      "surface": "chá",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49008",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49008",
+      "position": 2,
+      "surface": "estão",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49008",
+      "position": 3,
+      "surface": "todos",
+      "word_id": "W935",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49009",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49009",
+      "position": 2,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49009",
+      "position": 3,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49010",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49010",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49010",
+      "position": 3,
+      "surface": "açúcar",
+      "word_id": "W940",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49011",
+      "position": 1,
+      "surface": "Quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49011",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49011",
+      "position": 3,
+      "surface": "chocolate",
+      "word_id": "W939",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49011",
+      "position": 4,
+      "surface": "quente",
+      "word_id": "W1148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49012",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49012",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49012",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49012",
+      "position": 4,
+      "surface": "chocolate",
+      "word_id": "W939",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49013",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49013",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49013",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49013",
+      "position": 4,
+      "surface": "caixa",
+      "word_id": "W929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49014",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49014",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49014",
+      "position": 3,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49014",
+      "position": 4,
+      "surface": "garrafa",
+      "word_id": "W927",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49015",
+      "position": 1,
+      "surface": "Qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49015",
+      "position": 2,
+      "surface": "copo",
+      "word_id": "W928",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49015",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49015",
+      "position": 4,
+      "surface": "meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49016",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49016",
+      "position": 2,
+      "surface": "quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49016",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49016",
+      "position": 4,
+      "surface": "esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49016",
+      "position": 5,
+      "surface": "copo",
+      "word_id": "W928",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49017",
+      "position": 1,
+      "surface": "Esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49017",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49017",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49017",
+      "position": 4,
+      "surface": "saco",
+      "word_id": "W930",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49017",
+      "position": 5,
+      "surface": "dele",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49018",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49018",
+      "position": 2,
+      "surface": "qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49018",
+      "position": 3,
+      "surface": "caixa",
+      "word_id": "W929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49018",
+      "position": 4,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49018",
+      "position": 5,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49018",
+      "position": 6,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49019",
+      "position": 1,
+      "surface": "Mas",
+      "word_id": "W938",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49019",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49019",
+      "position": 3,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49020",
+      "position": 1,
+      "surface": "Nado",
+      "word_id": "W1026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49020",
+      "position": 2,
+      "surface": "todo",
+      "word_id": "W933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49020",
+      "position": 3,
+      "surface": "dia",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49021",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49021",
+      "position": 2,
+      "surface": "bebo",
+      "word_id": "W054",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49021",
+      "position": 3,
+      "surface": "pouco",
+      "word_id": "W932",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49022",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49022",
+      "position": 2,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49022",
+      "position": 3,
+      "surface": "bem",
+      "word_id": "W050",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49022",
+      "position": 4,
+      "surface": "pouco",
+      "word_id": "W932",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49023",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49023",
+      "position": 2,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49023",
+      "position": 3,
+      "surface": "muito",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49023",
+      "position": 4,
+      "surface": "pouco",
+      "word_id": "W932",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49024",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49024",
+      "position": 2,
+      "surface": "peixe",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49024",
+      "position": 3,
+      "surface": "toda",
+      "word_id": "W934",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49024",
+      "position": 4,
+      "surface": "semana",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49025",
+      "position": 1,
+      "surface": "Mas",
+      "word_id": "W938",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49025",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49025",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49025",
+      "position": 4,
+      "surface": "quero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49026",
+      "position": 1,
+      "surface": "Toda",
+      "word_id": "W934",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49026",
+      "position": 2,
+      "surface": "pergunta",
+      "word_id": "W1117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49026",
+      "position": 3,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49026",
+      "position": 4,
+      "surface": "resposta",
+      "word_id": "W1118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49027",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49027",
+      "position": 2,
+      "surface": "caixa",
+      "word_id": "W929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49027",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49027",
+      "position": 4,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49029",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49029",
+      "position": 2,
+      "surface": "água",
+      "word_id": "W060",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49029",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49029",
+      "position": 4,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49029",
+      "position": 5,
+      "surface": "garrafa",
+      "word_id": "W927",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49030",
+      "position": 1,
+      "surface": "Tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49030",
+      "position": 2,
+      "surface": "menos",
+      "word_id": "W936",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49030",
+      "position": 3,
+      "surface": "livros",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49030",
+      "position": 4,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49030",
+      "position": 5,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49032",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49032",
+      "position": 2,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49032",
+      "position": 3,
+      "surface": "menos",
+      "word_id": "W936",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49032",
+      "position": 4,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49032",
+      "position": 5,
+      "surface": "Maria",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49033",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49033",
+      "position": 2,
+      "surface": "como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49033",
+      "position": 3,
+      "surface": "peixe",
+      "word_id": "W074",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49033",
+      "position": 4,
+      "surface": "toda",
+      "word_id": "W934",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49033",
+      "position": 5,
+      "surface": "semana",
+      "word_id": "W182",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49034",
+      "position": 1,
+      "surface": "Tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49034",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49034",
+      "position": 3,
+      "surface": "pacote",
+      "word_id": "W931",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49034",
+      "position": 4,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49034",
+      "position": 5,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49034",
+      "position": 6,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49035",
+      "position": 1,
+      "surface": "Temos",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49035",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49035",
+      "position": 3,
+      "surface": "pacote",
+      "word_id": "W931",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49035",
+      "position": 4,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49035",
+      "position": 5,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49035",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49036",
+      "position": 1,
+      "surface": "Esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49036",
+      "position": 2,
+      "surface": "pacote",
+      "word_id": "W931",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49036",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49036",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49036",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S49036",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A490081",
+      "sentence_id": "S49008",
+      "direction": "fr_to_en",
+      "answer": "Where's everybody?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A490082",
+      "sentence_id": "S49008",
+      "direction": "fr_to_en",
+      "answer": "Where is everyone?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A490083",
+      "sentence_id": "S49008",
+      "direction": "fr_to_en",
+      "answer": "Where is everybody?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A490111",
+      "sentence_id": "S49011",
+      "direction": "fr_to_en",
+      "answer": "Who wants some hot chocolate?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A490161",
+      "sentence_id": "S49016",
+      "direction": "fr_to_en",
+      "answer": "Whose glass is this?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A490201",
+      "sentence_id": "S49020",
+      "direction": "fr_to_en",
+      "answer": "I go swimming every day.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A490321",
+      "sentence_id": "S49032",
+      "direction": "fr_to_en",
+      "answer": "Tom eats less than Mary does.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

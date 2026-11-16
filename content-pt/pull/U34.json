@@ -1,0 +1,1714 @@
+{
+  "unit_id": "U34",
+  "pulled_at": "2026-11-16",
+  "candidates": 78,
+  "sentences": [
+    {
+      "sentence_id": "S34001",
+      "unit_id": "U34",
+      "french": "Posso cantar?",
+      "english": "May I sing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6759720",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34002",
+      "unit_id": "U34",
+      "french": "Ele escreve?",
+      "english": "Does he write?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8764266",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34003",
+      "unit_id": "U34",
+      "french": "Onde você escreve?",
+      "english": "Where do you write?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1552744",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34004",
+      "unit_id": "U34",
+      "french": "Posso usar isso?",
+      "english": "Can I use it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3085561",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "May I use that?",
+        "May I use this?"
+      ]
+    },
+    {
+      "sentence_id": "S34005",
+      "unit_id": "U34",
+      "french": "Eu posso cantar?",
+      "english": "May I sing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6759719",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34006",
+      "unit_id": "U34",
+      "french": "Ela vai escrever?",
+      "english": "Will she write?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8731265",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MBreitenbach",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34007",
+      "unit_id": "U34",
+      "french": "Como se escreve isso?",
+      "english": "How is it written?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1145767",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": [
+        "How is that spelled?"
+      ]
+    },
+    {
+      "sentence_id": "S34008",
+      "unit_id": "U34",
+      "french": "Você gosta de escrever?",
+      "english": "Do you like writing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4870095",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": [
+        "Do you like to write?"
+      ]
+    },
+    {
+      "sentence_id": "S34009",
+      "unit_id": "U34",
+      "french": "Pode escrever isso, por favor?",
+      "english": "Can you write that down please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5093612",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ToinhoAlam",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34010",
+      "unit_id": "U34",
+      "french": "Não sei como soletrar a palavra.",
+      "english": "I don't know how to spell the word.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "902474",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34011",
+      "unit_id": "U34",
+      "french": "Eu não sei soletrar o nome dele.",
+      "english": "I don't know how to spell his name.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7106371",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34012",
+      "unit_id": "U34",
+      "french": "Posso falar uma coisa?",
+      "english": "Can I say one thing?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "390843",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34013",
+      "unit_id": "U34",
+      "french": "Quando posso nadar aqui?",
+      "english": "When can I swim here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "972782",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34014",
+      "unit_id": "U34",
+      "french": "Posso falar com você?",
+      "english": "Can I speak to you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "990350",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "May I speak to you?",
+        "May I talk with you?",
+        "Can I have a word with you?"
+      ]
+    },
+    {
+      "sentence_id": "S34015",
+      "unit_id": "U34",
+      "french": "Posso falar com vocês?",
+      "english": "May I talk to you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2105820",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34016",
+      "unit_id": "U34",
+      "french": "Posso usar o banheiro?",
+      "english": "Can I use the bathroom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2626493",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "May I use the restroom?"
+      ]
+    },
+    {
+      "sentence_id": "S34017",
+      "unit_id": "U34",
+      "french": "Que mais posso dizer?",
+      "english": "What else can I say?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3988078",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34018",
+      "unit_id": "U34",
+      "french": "Posso falar com Tom?",
+      "english": "Could I speak to Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5300727",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ToinhoAlam",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34019",
+      "unit_id": "U34",
+      "french": "Posso falar com ele?",
+      "english": "Can I talk to him?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5468617",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ToinhoAlam",
+      "other_english": [
+        "Can I speak to him?",
+        "May I talk to him?",
+        "May I speak with him?"
+      ]
+    },
+    {
+      "sentence_id": "S34020",
+      "unit_id": "U34",
+      "french": "Posso falar com ela?",
+      "english": "Can I talk to her?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5468618",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ToinhoAlam",
+      "other_english": [
+        "Can I speak to her?",
+        "May I talk to her?",
+        "May I speak with her?"
+      ]
+    },
+    {
+      "sentence_id": "S34021",
+      "unit_id": "U34",
+      "french": "Posso falar com o Tom?",
+      "english": "Can I talk to Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3424856",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "Can I speak with Tom?"
+      ]
+    },
+    {
+      "sentence_id": "S34022",
+      "unit_id": "U34",
+      "french": "Eu posso usar o banheiro?",
+      "english": "Can I use the bathroom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3448007",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34023",
+      "unit_id": "U34",
+      "french": "Tom, posso falar com você?",
+      "english": "Tom, may I speak with you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4891883",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34024",
+      "unit_id": "U34",
+      "french": "Eu posso falar com você?",
+      "english": "Can I talk with you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6804732",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "May I talk to you?",
+        "May I speak to you?",
+        "May I talk with you?",
+        "Can I have a word with you?"
+      ]
+    },
+    {
+      "sentence_id": "S34025",
+      "unit_id": "U34",
+      "french": "O que mais você quer escrever?",
+      "english": "What else do you want to write?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9977243",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Silfarle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34026",
+      "unit_id": "U34",
+      "french": "Eu posso falar com Tom, por favor?",
+      "english": "Can I speak to Tom, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5305100",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34027",
+      "unit_id": "U34",
+      "french": "Eu posso falar com o médico?",
+      "english": "Can I speak to the doctor?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5513680",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34028",
+      "unit_id": "U34",
+      "french": "Posso falar com o Tom, por favor?",
+      "english": "Can I speak with Tom, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6804758",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34029",
+      "unit_id": "U34",
+      "french": "Tom, sou eu. Posso falar com você?",
+      "english": "Tom, it's me. Can I talk with you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3007831",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S34030",
+      "unit_id": "U34",
+      "french": "Você não vai escrever para o Tom?",
+      "english": "Aren't you going to write to Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6475687",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S34001",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34001",
+      "position": 2,
+      "surface": "cantar",
+      "word_id": "W1029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34002",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34002",
+      "position": 2,
+      "surface": "escreve",
+      "word_id": "W812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34003",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34003",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34003",
+      "position": 3,
+      "surface": "escreve",
+      "word_id": "W812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34004",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34004",
+      "position": 2,
+      "surface": "usar",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34004",
+      "position": 3,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34005",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34005",
+      "position": 2,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34005",
+      "position": 3,
+      "surface": "cantar",
+      "word_id": "W1029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34006",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34006",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34006",
+      "position": 3,
+      "surface": "escrever",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34007",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34007",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34007",
+      "position": 3,
+      "surface": "escreve",
+      "word_id": "W812",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34007",
+      "position": 4,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34008",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34008",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34008",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34008",
+      "position": 4,
+      "surface": "escrever",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34009",
+      "position": 1,
+      "surface": "Pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34009",
+      "position": 2,
+      "surface": "escrever",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34009",
+      "position": 3,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34009",
+      "position": 4,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34010",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34010",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34010",
+      "position": 3,
+      "surface": "como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34010",
+      "position": 4,
+      "surface": "soletrar",
+      "word_id": "W816",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34010",
+      "position": 5,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34010",
+      "position": 6,
+      "surface": "palavra",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34011",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34011",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34011",
+      "position": 3,
+      "surface": "sei",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34011",
+      "position": 4,
+      "surface": "soletrar",
+      "word_id": "W816",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34011",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34011",
+      "position": 6,
+      "surface": "nome",
+      "word_id": "W726",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34011",
+      "position": 7,
+      "surface": "dele",
+      "word_id": "W139",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34012",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34012",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34012",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34012",
+      "position": 4,
+      "surface": "coisa",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34013",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34013",
+      "position": 2,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34013",
+      "position": 3,
+      "surface": "nadar",
+      "word_id": "W1025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34013",
+      "position": 4,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34014",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34014",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34014",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34014",
+      "position": 4,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34015",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34015",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34015",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34015",
+      "position": 4,
+      "surface": "vocês",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34016",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34016",
+      "position": 2,
+      "surface": "usar",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34016",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34016",
+      "position": 4,
+      "surface": "banheiro",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34017",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34017",
+      "position": 2,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34017",
+      "position": 3,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34017",
+      "position": 4,
+      "surface": "dizer",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34018",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34018",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34018",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34018",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34019",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34019",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34019",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34019",
+      "position": 4,
+      "surface": "ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34020",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34020",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34020",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34020",
+      "position": 4,
+      "surface": "ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34021",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34021",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34021",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34021",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34021",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34022",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34022",
+      "position": 2,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34022",
+      "position": 3,
+      "surface": "usar",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34022",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34022",
+      "position": 5,
+      "surface": "banheiro",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34023",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34023",
+      "position": 2,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34023",
+      "position": 3,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34023",
+      "position": 4,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34023",
+      "position": 5,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34024",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34024",
+      "position": 2,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34024",
+      "position": 3,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34024",
+      "position": 4,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34024",
+      "position": 5,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34025",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34025",
+      "position": 2,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34025",
+      "position": 3,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34025",
+      "position": 4,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34025",
+      "position": 5,
+      "surface": "escrever",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34026",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34026",
+      "position": 2,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34026",
+      "position": 3,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34026",
+      "position": 4,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34026",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34026",
+      "position": 6,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34027",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34027",
+      "position": 2,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34027",
+      "position": 3,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34027",
+      "position": 4,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34027",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34027",
+      "position": 6,
+      "surface": "médico",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34028",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34028",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34028",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34028",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34028",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34028",
+      "position": 6,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34029",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34029",
+      "position": 2,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34029",
+      "position": 3,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34029",
+      "position": 4,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34029",
+      "position": 5,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34029",
+      "position": 6,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34029",
+      "position": 7,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34030",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34030",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34030",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34030",
+      "position": 4,
+      "surface": "escrever",
+      "word_id": "W813",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34030",
+      "position": 5,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34030",
+      "position": 6,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S34030",
+      "position": 7,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A340041",
+      "sentence_id": "S34004",
+      "direction": "fr_to_en",
+      "answer": "May I use that?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340042",
+      "sentence_id": "S34004",
+      "direction": "fr_to_en",
+      "answer": "May I use this?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340071",
+      "sentence_id": "S34007",
+      "direction": "fr_to_en",
+      "answer": "How is that spelled?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340081",
+      "sentence_id": "S34008",
+      "direction": "fr_to_en",
+      "answer": "Do you like to write?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340141",
+      "sentence_id": "S34014",
+      "direction": "fr_to_en",
+      "answer": "May I speak to you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340142",
+      "sentence_id": "S34014",
+      "direction": "fr_to_en",
+      "answer": "May I talk with you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340143",
+      "sentence_id": "S34014",
+      "direction": "fr_to_en",
+      "answer": "Can I have a word with you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340161",
+      "sentence_id": "S34016",
+      "direction": "fr_to_en",
+      "answer": "May I use the restroom?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340191",
+      "sentence_id": "S34019",
+      "direction": "fr_to_en",
+      "answer": "Can I speak to him?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340192",
+      "sentence_id": "S34019",
+      "direction": "fr_to_en",
+      "answer": "May I talk to him?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340193",
+      "sentence_id": "S34019",
+      "direction": "fr_to_en",
+      "answer": "May I speak with him?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340201",
+      "sentence_id": "S34020",
+      "direction": "fr_to_en",
+      "answer": "Can I speak to her?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340202",
+      "sentence_id": "S34020",
+      "direction": "fr_to_en",
+      "answer": "May I talk to her?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340203",
+      "sentence_id": "S34020",
+      "direction": "fr_to_en",
+      "answer": "May I speak with her?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340211",
+      "sentence_id": "S34021",
+      "direction": "fr_to_en",
+      "answer": "Can I speak with Tom?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340241",
+      "sentence_id": "S34024",
+      "direction": "fr_to_en",
+      "answer": "May I talk to you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340242",
+      "sentence_id": "S34024",
+      "direction": "fr_to_en",
+      "answer": "May I speak to you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340243",
+      "sentence_id": "S34024",
+      "direction": "fr_to_en",
+      "answer": "May I talk with you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A340244",
+      "sentence_id": "S34024",
+      "direction": "fr_to_en",
+      "answer": "Can I have a word with you?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

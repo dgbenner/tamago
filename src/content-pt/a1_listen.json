@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "id": "N101",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "quinze",
+    "answer": "15"
+  },
+  {
+    "id": "N102",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "dezessete",
+    "answer": "17"
+  },
+  {
+    "id": "N103",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "zero, três, onze, quinze, dezenove, vinte",
+    "answer": "03 11 15 19 20"
+  },
+  {
+    "id": "N104",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "zero, sete, doze, dezesseis, dezoito, catorze",
+    "answer": "07 12 16 18 14"
+  },
+  {
+    "id": "N105",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Tenho vinte anos.",
+    "answer": "20"
+  },
+  {
+    "id": "N106",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Ela tem dezoito anos.",
+    "answer": "18"
+  },
+  {
+    "id": "N107",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "setenta",
+    "answer": "70"
+  },
+  {
+    "id": "N108",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "noventa",
+    "answer": "90"
+  },
+  {
+    "id": "N109",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "quarenta e cinco",
+    "answer": "45"
+  },
+  {
+    "id": "N110",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "noventa e nove",
+    "answer": "99"
+  },
+  {
+    "id": "N111",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "trinta reais",
+    "answer": "30"
+  },
+  {
+    "id": "N112",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "dez reais",
+    "answer": "10"
+  },
+  {
+    "id": "N113",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "cem reais",
+    "answer": "100"
+  },
+  {
+    "id": "N114",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "cinquenta reais",
+    "answer": "50"
+  }
+]

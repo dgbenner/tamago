@@ -1,0 +1,1532 @@
+{
+  "unit_id": "U45",
+  "pulled_at": "2026-11-16",
+  "candidates": 203,
+  "sentences": [
+    {
+      "sentence_id": "S45001",
+      "unit_id": "U45",
+      "french": "Você sabe em que país ela mora?",
+      "english": "Do you know in which country she lives now?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4360783",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45002",
+      "unit_id": "U45",
+      "french": "Ele mora em apartamento.",
+      "english": "He lives in a flat.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "731214",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lenon_perez",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45003",
+      "unit_id": "U45",
+      "french": "Vivo em um pequeno apartamento.",
+      "english": "I live in a small apartment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4263280",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JFMorais",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45004",
+      "unit_id": "U45",
+      "french": "Ela mora em um apartamento.",
+      "english": "She lives in an apartment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5891449",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Solid_Rock",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45005",
+      "unit_id": "U45",
+      "french": "Ele está procurando um lugar para viver.",
+      "english": "He's looking for a place to live.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6472371",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45006",
+      "unit_id": "U45",
+      "french": "Ele está procurando um lugar para morar.",
+      "english": "He's looking for a place to live.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6472373",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45007",
+      "unit_id": "U45",
+      "french": "Onde ele vive?",
+      "english": "Where does he live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "384766",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45008",
+      "unit_id": "U45",
+      "french": "Você tem um endereço?",
+      "english": "Do you have an address?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "381756",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45009",
+      "unit_id": "U45",
+      "french": "Que lugar é esse?",
+      "english": "What is this place?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1326690",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45010",
+      "unit_id": "U45",
+      "french": "Você sabe o endereço?",
+      "english": "Do you know the address?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2184484",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45011",
+      "unit_id": "U45",
+      "french": "Onde você quer morar?",
+      "english": "Where do you wanna live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2772533",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "Where do you want to live?"
+      ]
+    },
+    {
+      "sentence_id": "S45012",
+      "unit_id": "U45",
+      "french": "Onde sua família vive?",
+      "english": "Where does your family live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4218928",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45013",
+      "unit_id": "U45",
+      "french": "Onde você vai morar?",
+      "english": "Where will you live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5393916",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": [
+        "Where are you going to live?"
+      ]
+    },
+    {
+      "sentence_id": "S45014",
+      "unit_id": "U45",
+      "french": "Qual é o endereço?",
+      "english": "What's the address?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9095178",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45015",
+      "unit_id": "U45",
+      "french": "De que país você é?",
+      "english": "What country are you from?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "404821",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "Which country are you from?"
+      ]
+    },
+    {
+      "sentence_id": "S45016",
+      "unit_id": "U45",
+      "french": "Você sabe onde ele vive?",
+      "english": "Do you know where he lives?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1236778",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45017",
+      "unit_id": "U45",
+      "french": "Você sabe onde eu moro?",
+      "english": "Do you know where I live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1555565",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45018",
+      "unit_id": "U45",
+      "french": "O que é um código postal?",
+      "english": "What is a zip code?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11748207",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45019",
+      "unit_id": "U45",
+      "french": "Ele fica perto de qual país?",
+      "english": "What country is it close to?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2758784",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45020",
+      "unit_id": "U45",
+      "french": "Como você sabe onde eu moro?",
+      "english": "How do you know where I live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4727079",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45021",
+      "unit_id": "U45",
+      "french": "Moro aqui.",
+      "english": "I live here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3888250",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Laudemilson",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45022",
+      "unit_id": "U45",
+      "french": "Eu vivo aqui.",
+      "english": "I live here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1189906",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45023",
+      "unit_id": "U45",
+      "french": "Vivo na cidade.",
+      "english": "I live in town.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4820551",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45024",
+      "unit_id": "U45",
+      "french": "Gosto de viver aqui.",
+      "english": "I like living here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5638160",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45025",
+      "unit_id": "U45",
+      "french": "Eu gosto de viver aqui.",
+      "english": "I like living here.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1227736",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45026",
+      "unit_id": "U45",
+      "french": "Onde ele mora?",
+      "english": "Where does he live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "384765",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45027",
+      "unit_id": "U45",
+      "french": "Você mora aqui?",
+      "english": "Do you live here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "393520",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45028",
+      "unit_id": "U45",
+      "french": "Onde você mora?",
+      "english": "Where do you live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "393581",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45029",
+      "unit_id": "U45",
+      "french": "Tom mora aqui?",
+      "english": "Does Tom live here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3494143",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S45030",
+      "unit_id": "U45",
+      "french": "Quem mora aqui?",
+      "english": "Who lives here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5972003",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S45001",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 3,
+      "surface": "em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 4,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 5,
+      "surface": "país",
+      "word_id": "W869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 6,
+      "surface": "ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45001",
+      "position": 7,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 2,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 3,
+      "surface": "em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45002",
+      "position": 4,
+      "surface": "apartamento",
+      "word_id": "W868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 1,
+      "surface": "Vivo",
+      "word_id": "W864",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 2,
+      "surface": "em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 4,
+      "surface": "pequeno",
+      "word_id": "W032",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45003",
+      "position": 5,
+      "surface": "apartamento",
+      "word_id": "W868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 2,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 3,
+      "surface": "em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 4,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45004",
+      "position": 5,
+      "surface": "apartamento",
+      "word_id": "W868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 3,
+      "surface": "procurando",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 4,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 5,
+      "surface": "lugar",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 6,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45005",
+      "position": 7,
+      "surface": "viver",
+      "word_id": "W866",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 3,
+      "surface": "procurando",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 4,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 5,
+      "surface": "lugar",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 6,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45006",
+      "position": 7,
+      "surface": "morar",
+      "word_id": "W863",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45007",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45007",
+      "position": 2,
+      "surface": "ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45007",
+      "position": 3,
+      "surface": "vive",
+      "word_id": "W865",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45008",
+      "position": 4,
+      "surface": "endereço",
+      "word_id": "W867",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 2,
+      "surface": "lugar",
+      "word_id": "W870",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45009",
+      "position": 4,
+      "surface": "esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45010",
+      "position": 4,
+      "surface": "endereço",
+      "word_id": "W867",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45011",
+      "position": 4,
+      "surface": "morar",
+      "word_id": "W863",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 2,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 3,
+      "surface": "família",
+      "word_id": "W143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45012",
+      "position": 4,
+      "surface": "vive",
+      "word_id": "W865",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45013",
+      "position": 4,
+      "surface": "morar",
+      "word_id": "W863",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 1,
+      "surface": "Qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45014",
+      "position": 4,
+      "surface": "endereço",
+      "word_id": "W867",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 3,
+      "surface": "país",
+      "word_id": "W869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 4,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45015",
+      "position": 5,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 3,
+      "surface": "onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 4,
+      "surface": "ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45016",
+      "position": 5,
+      "surface": "vive",
+      "word_id": "W865",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 3,
+      "surface": "onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 4,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45017",
+      "position": 5,
+      "surface": "moro",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 4,
+      "surface": "código",
+      "word_id": "W833",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45018",
+      "position": 5,
+      "surface": "postal",
+      "word_id": "W873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 3,
+      "surface": "perto",
+      "word_id": "W1049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 5,
+      "surface": "qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45019",
+      "position": 6,
+      "surface": "país",
+      "word_id": "W869",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 3,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 4,
+      "surface": "onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 5,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45020",
+      "position": 6,
+      "surface": "moro",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45021",
+      "position": 1,
+      "surface": "Moro",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45021",
+      "position": 2,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45022",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45022",
+      "position": 2,
+      "surface": "vivo",
+      "word_id": "W864",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45022",
+      "position": 3,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45023",
+      "position": 1,
+      "surface": "Vivo",
+      "word_id": "W864",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45023",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45023",
+      "position": 3,
+      "surface": "cidade",
+      "word_id": "W197",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45024",
+      "position": 1,
+      "surface": "Gosto",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45024",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45024",
+      "position": 3,
+      "surface": "viver",
+      "word_id": "W866",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45024",
+      "position": 4,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45025",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45025",
+      "position": 2,
+      "surface": "gosto",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45025",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45025",
+      "position": 4,
+      "surface": "viver",
+      "word_id": "W866",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45025",
+      "position": 5,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45026",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45026",
+      "position": 2,
+      "surface": "ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45026",
+      "position": 3,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45027",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45027",
+      "position": 2,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45027",
+      "position": 3,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45028",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45028",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45028",
+      "position": 3,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45029",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45029",
+      "position": 2,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45029",
+      "position": 3,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45030",
+      "position": 1,
+      "surface": "Quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45030",
+      "position": 2,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S45030",
+      "position": 3,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A450111",
+      "sentence_id": "S45011",
+      "direction": "fr_to_en",
+      "answer": "Where do you want to live?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450131",
+      "sentence_id": "S45013",
+      "direction": "fr_to_en",
+      "answer": "Where are you going to live?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A450151",
+      "sentence_id": "S45015",
+      "direction": "fr_to_en",
+      "answer": "Which country are you from?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

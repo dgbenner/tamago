@@ -1,7 +1,7 @@
 {
   "U01": {
     "group": "nigiri",
-    "file": "tai-nigiri-sq.webp"
+    "file": "amaebi-nigiri-sq.webp"
   },
   "U31": {
     "group": "maki",
@@ -17,11 +17,11 @@
   },
   "U04": {
     "group": "nigiri",
-    "file": "aji-nigiri-sq.webp"
+    "file": "ebi-nigiri-sq.webp"
   },
   "U05": {
     "group": "nigiri",
-    "file": "hotate-nigiri-sq.webp"
+    "file": "tako-nigiri.webp"
   },
   "U32": {
     "group": "maki",
@@ -69,7 +69,7 @@
   },
   "U13": {
     "group": "temaki",
-    "file": "ikura-temaki.webp"
+    "file": "negitoro-temaki.webp"
   },
   "U14": {
     "group": "temaki",
@@ -77,10 +77,78 @@
   },
   "U15": {
     "group": "temaki",
-    "file": "negitoro-temaki.webp"
+    "file": "ikura-temaki.webp"
   },
   "U51": {
     "group": "temaki",
+    "file": "hotate-temaki.webp"
+  },
+  "U41": {
+    "group": "nigiri",
+    "file": "maguro-nigiri-2.webp"
+  },
+  "U54": {
+    "group": "nigiri",
+    "file": "anago-nigiri-sq.webp"
+  },
+  "U34": {
+    "group": "maki",
+    "file": "california-roll.webp"
+  },
+  "U42": {
+    "group": "nigiri",
+    "file": "hamachi-nigiri-4.webp"
+  },
+  "U43": {
+    "group": "nigiri",
+    "file": "saba-nigiri.webp"
+  },
+  "U55": {
+    "group": "nigiri",
+    "file": "ebi-nigiri.webp"
+  },
+  "U35": {
+    "group": "maki",
+    "file": "salmon-avocado-roll.webp"
+  },
+  "U44": {
+    "group": "maki",
+    "file": "negihama-maki.webp"
+  },
+  "U45": {
+    "group": "maki",
+    "file": "tobiko-gunkan-sq.webp"
+  },
+  "U56": {
+    "group": "maki",
+    "file": "unakyu-maki.webp"
+  },
+  "U46": {
+    "group": "maki",
+    "file": "ebi-tempura-roll.webp"
+  },
+  "U47": {
+    "group": "temaki",
     "file": "unagi-temaki.webp"
+  },
+  "U57": {
+    "group": "temaki",
+    "file": "kani-temaki.webp"
+  },
+  "U36": {
+    "group": "maki",
+    "file": "tekka-maki.webp"
+  },
+  "U48": {
+    "group": "temaki",
+    "file": "hotate-temaki.webp"
+  },
+  "U49": {
+    "group": "temaki",
+    "file": "uni-temaki.webp"
+  },
+  "U58": {
+    "group": "temaki",
+    "file": "salmon-temaki.webp"
   }
 }

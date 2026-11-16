@@ -146,6 +146,125 @@
       "example_sentence_ids": "S51005;S51002;S51007",
       "conjugation_lemma": "",
       "status": "live"
+    },
+    {
+      "unit_id": "U41",
+      "rule": "Como você se chama? asks a name, and the answer is Eu me chamo Ana, or just Me chamo Ana: chamar-se, to be called, with me for I. Qual é o seu nome? and Meu sobrenome é Silva ask and give the name and surname. Muito prazer means nice to meet you. O senhor and a senhora are the polite you, for someone older or someone you don't know; they take the ele form, like você: A senhora é professora? Apresento meu amigo means this is my friend.",
+      "example_sentence_ids": "S41106;S41105;S41104",
+      "conjugation_lemma": "apresentar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U54",
+      "rule": "Usar and vestir both mean to wear: Vou usar o casaco. A roupa, clothes, is singular in Portuguese: A roupa é bonita. As calças, trousers, and os óculos, glasses, are always plural, so the verb is plural too: Onde estão as calças? Colours follow the noun and agree with it: a saia vermelha, as calças azuis.",
+      "example_sentence_ids": "S54115;S54102;S54105",
+      "conjugation_lemma": "usar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U34",
+      "rule": "Como se escreve? asks how a word is spelled. Pode soletrar, por favor? asks someone to spell it. Poder, can, is followed straight by the other verb in its plain form: posso cantar, pode soletrar. Uma letra is a letter of the alphabet.",
+      "example_sentence_ids": "S34104;S34001;S34101",
+      "conjugation_lemma": "poder",
+      "status": "live"
+    },
+    {
+      "unit_id": "U42",
+      "rule": "Numbers from zero to twenty: onze, doze, treze, catorze, quinze, then dezesseis, dezessete, dezoito, dezenove, each one word, and vinte. A phone number is read digit by digit or in pairs: Meu número é zero, três, onze, quinze. Ligar para and telefonar para both mean to phone someone: Vou telefonar para a Ana.",
+      "example_sentence_ids": "S42104;S42102;S42004",
+      "conjugation_lemma": "telefonar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U43",
+      "rule": "Age takes ter, to have: Tenho vinte anos, I'm twenty. Quantos anos você tem? asks how old someone is, and Qual é a sua idade? asks the same more formally. Um mês, dois meses. A data de nascimento is the date of birth; nascer is to be born. Quando é seu aniversário? asks for a birthday.",
+      "example_sentence_ids": "S43001;S43103;S43003",
+      "conjugation_lemma": "nascer",
+      "status": "live"
+    },
+    {
+      "unit_id": "U55",
+      "rule": "Words for class: a turma (the class, the group), o quadro (the board), a página, o papel, o exame, o colega or a colega (a classmate). Estudar, aprender, perguntar and responder are regular: -ar verbs end in -o for I and -a for você, ele and ela (estudo, estuda); -er verbs in -o and -e (aprendo, aprende).",
+      "example_sentence_ids": "S55001;S55109;S55112",
+      "conjugation_lemma": "estudar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U35",
+      "rule": "Short phrases for checking: Um momento, por favor. Espera aí, or Espera um momento, asks someone to wait. Está certo? asks if it's right; Está errado means it's wrong. Certo and errado agree with the person: Estou certo, Ela está errada.",
+      "example_sentence_ids": "S35101;S35103;S35004",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U44",
+      "rule": "The tens: trinta, quarenta, cinquenta, sessenta, setenta, oitenta, noventa, then cem for a hundred. Between the tens and the units comes e: trinta e um, noventa e nove. Quinhentos is five hundred, mil a thousand, um milhão a million; um milhão de takes de before a noun: um milhão de livros.",
+      "example_sentence_ids": "S44001;S44112;S44119",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U45",
+      "rule": "Morar em says where you live: Moro em São Paulo, Ela mora num apartamento. Em joins the article: em + o = no, em + a = na, em + um = num, em + uma = numa. A rua, a avenida and a praça are street, avenue and square; o código postal is the postcode. Perto de means near, longe de far from.",
+      "example_sentence_ids": "S45004;S45103;S45107",
+      "conjugation_lemma": "morar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U56",
+      "rule": "Ser says what someone is like: Ele é moreno, Ela é morena. Adjectives agree with the person: gordo, gorda; baixo, baixa; ruivo, ruiva. A word ending in -e is the same for both: alegre. Estar is for how someone is just now: O menino está alegre.",
+      "example_sentence_ids": "S56107;S56110;S56116",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U46",
+      "rule": "Nationalities agree with the person: Sou brasileiro, Sou brasileira; mexicano, mexicana. Names of languages take no capital: Falo português, Não falo chinês. Most countries take the article: o Brasil, o México, a China, so em + the article: Moro no México, Ele mora na China. Portugal takes none.",
+      "example_sentence_ids": "S46001;S46101;S46105",
+      "conjugation_lemma": "falar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U47",
+      "rule": "Quero is I want; Eu queria is the polite I'd like, and is the usual way to ask in a shop: Eu queria um café, por favor. Comprar, to buy: compro, compra. A quantity takes de before the food: um quilo de maçãs, um quilo de batata.",
+      "example_sentence_ids": "S47104;S47106;S47101",
+      "conjugation_lemma": "comprar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U57",
+      "rule": "Opposites: fácil and difícil, limpo and sujo, duro and mole, bom and mau. Adjectives in -l are the same for both genders: fácil, difícil, but mau has má. Ser for what something is like (O queijo é mole), estar for how it is just now (O pão está duro).",
+      "example_sentence_ids": "S57101;S57103;S57003",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U36",
+      "rule": "Phrases that check you've understood: Claro, of course. Exatamente, exactly. É verdade? is it true? Combinado! means it's a deal, or agreed: Amanhã, combinado?",
+      "example_sentence_ids": "S36003;S36101;S36102",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U48",
+      "rule": "Quanto custa? asks how much one thing is; Quanto custam? asks for more than one: Quanto custam as maçãs? The money is the real, plural reais, and a real has a hundred centavos: Custa um real e cinquenta centavos. Caro and barato agree: a camisa é cara, a saia é barata. A conta is the bill; uma nota is a banknote and uma moeda a coin.",
+      "example_sentence_ids": "S48128;S48101;S48126",
+      "conjugation_lemma": "custar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U49",
+      "rule": "A container takes de before what's in it: uma garrafa de água, um saco de pão. Todo dia means every day: Leio todo dia. Todos is everyone, or all of them. Ou means or and mas means but: Garrafa ou copo?",
+      "example_sentence_ids": "S49001;S49103;S49003",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U58",
+      "rule": "Em joins the article: no campo, na praia, no mar, na montanha. O sol, o vento and o ar are masculine; a montanha, a planta and a flor feminine. Tem, there is, for what's in a place: Tem uma planta na mesa.",
+      "example_sentence_ids": "S58101;S58103;S58003",
+      "conjugation_lemma": "",
+      "status": "live"
     }
   ]
 }

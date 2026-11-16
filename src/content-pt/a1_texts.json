@@ -1,1 +1,293 @@
-[]
+[
+  {
+    "id": "R101",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "No mercado",
+    "lines": [
+      "Frutas e verduras",
+      "Maçã: 8 reais o quilo",
+      "Feira: segunda e sábado"
+    ],
+    "questions": [
+      {
+        "question": "How much is a kilo of apples?",
+        "choices": [
+          "8 reais",
+          "18 reais",
+          "80 reais"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is the market on?",
+        "choices": [
+          "Monday and Saturday",
+          "Every day",
+          "Only on Sunday"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R102",
+    "unit_id": "U47",
+    "kind": "notice",
+    "title": "Feira da praça",
+    "lines": [
+      "Feira na praça",
+      "Aos domingos",
+      "Frutas, verduras, pão e queijo"
+    ],
+    "questions": [
+      {
+        "question": "When is the market?",
+        "choices": [
+          "On Sundays",
+          "On Mondays",
+          "Every day"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What can you buy there?",
+        "choices": [
+          "Fruit, vegetables, bread and cheese",
+          "Clothes and shoes",
+          "Books and maps"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R103",
+    "unit_id": "U47",
+    "kind": "message",
+    "title": "Uma mensagem da Ana",
+    "lines": [
+      "João,",
+      "estou no mercado. Compro frutas e verduras.",
+      "Você quer uma laranja?",
+      "Ana"
+    ],
+    "questions": [
+      {
+        "question": "Where is Ana?",
+        "choices": [
+          "At the market",
+          "At school",
+          "In the park"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does she offer João?",
+        "choices": [
+          "An orange",
+          "A coffee",
+          "Some bread"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R104",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Os preços",
+    "lines": [
+      "Pão: 2 reais",
+      "Queijo: 15 reais",
+      "Leite: 5 reais",
+      "Água: 3 reais"
+    ],
+    "questions": [
+      {
+        "question": "How much is the cheese?",
+        "choices": [
+          "5 reais",
+          "15 reais",
+          "2 reais"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What costs 2 reais?",
+        "choices": [
+          "The bread",
+          "The milk",
+          "The water"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R105",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Na lanchonete",
+    "lines": [
+      "Café: 4 reais",
+      "Suco: 7 reais",
+      "Pão de queijo: 5 reais"
+    ],
+    "questions": [
+      {
+        "question": "How much is a juice?",
+        "choices": [
+          "7 reais",
+          "4 reais",
+          "5 reais"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What costs the least?",
+        "choices": [
+          "The coffee",
+          "The juice",
+          "The cheese bread"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R106",
+    "unit_id": "U48",
+    "kind": "notice",
+    "title": "Livros usados",
+    "lines": [
+      "Livros usados",
+      "Um livro: 10 reais",
+      "Três livros: 25 reais"
+    ],
+    "questions": [
+      {
+        "question": "How much is one book?",
+        "choices": [
+          "10 reais",
+          "12 reais",
+          "30 reais"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much are three books?",
+        "choices": [
+          "25 reais",
+          "20 reais",
+          "35 reais"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R107",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Uma mensagem da Maria",
+    "lines": [
+      "Tom,",
+      "você pode comprar uma garrafa de leite, um pacote de café e um quilo de banana?",
+      "Obrigada!",
+      "Maria"
+    ],
+    "questions": [
+      {
+        "question": "What does Maria want?",
+        "choices": [
+          "Milk, coffee and bananas",
+          "Bread and water",
+          "Fruit and vegetables"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much milk?",
+        "choices": [
+          "One bottle",
+          "Two bottles",
+          "A kilo"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R108",
+    "unit_id": "U49",
+    "kind": "sign",
+    "title": "No supermercado",
+    "lines": [
+      "Água: seis garrafas, 12 reais",
+      "Chocolate: duas caixas, 20 reais"
+    ],
+    "questions": [
+      {
+        "question": "How many bottles do you get for 12 reais?",
+        "choices": [
+          "Six",
+          "Three",
+          "Two"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What costs 20 reais?",
+        "choices": [
+          "Two boxes of chocolate",
+          "Six bottles of water",
+          "One box of chocolate"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R109",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Para a festa",
+    "lines": [
+      "Para a festa:",
+      "duas garrafas de suco,",
+      "uma caixa de chocolate,",
+      "muita fruta!"
+    ],
+    "questions": [
+      {
+        "question": "How many bottles of juice?",
+        "choices": [
+          "Two",
+          "One",
+          "Three"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the list for?",
+        "choices": [
+          "A party",
+          "School",
+          "A trip"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  }
+]

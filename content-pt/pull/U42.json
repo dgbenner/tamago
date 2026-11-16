@@ -1,0 +1,1530 @@
+{
+  "unit_id": "U42",
+  "pulled_at": "2026-11-16",
+  "candidates": 53,
+  "sentences": [
+    {
+      "sentence_id": "S42001",
+      "unit_id": "U42",
+      "french": "Ela sabe seu número de telefone?",
+      "english": "Does she know your telephone number?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "909327",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42002",
+      "unit_id": "U42",
+      "french": "Zero é um número.",
+      "english": "Zero is a number.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11161483",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42003",
+      "unit_id": "U42",
+      "french": "Onde tem um telefone?",
+      "english": "Where is there a telephone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "880500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42004",
+      "unit_id": "U42",
+      "french": "Qual é o número?",
+      "english": "What's the number?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1299760",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "What is the number?"
+      ]
+    },
+    {
+      "sentence_id": "S42005",
+      "unit_id": "U42",
+      "french": "Quando você vai ligar?",
+      "english": "When will you call?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12575916",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42006",
+      "unit_id": "U42",
+      "french": "De quem é esse celular?",
+      "english": "Whose cell phone is this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2419994",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42007",
+      "unit_id": "U42",
+      "french": "Por que Tom não tem celular?",
+      "english": "Why doesn't Tom have a cell phone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8607497",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42008",
+      "unit_id": "U42",
+      "french": "E se Tom não ligar?",
+      "english": "What if Tom doesn't call?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9232682",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42009",
+      "unit_id": "U42",
+      "french": "Você vai ligar para o Tom?",
+      "english": "Will you call Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7201382",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42010",
+      "unit_id": "U42",
+      "french": "Você sabe onde está meu celular?",
+      "english": "Do you know where my cell phone is?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8208449",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "josivangoncalves",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42011",
+      "unit_id": "U42",
+      "french": "Tenho treze gatos.",
+      "english": "I have thirteen cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4850434",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42012",
+      "unit_id": "U42",
+      "french": "Ele está ao telefone.",
+      "english": "He's talking on the telephone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "406554",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42013",
+      "unit_id": "U42",
+      "french": "Eu tenho treze gatos.",
+      "english": "I have thirteen cats.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1235326",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42014",
+      "unit_id": "U42",
+      "french": "Isso tem onze anos.",
+      "english": "It's eleven years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707266",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42015",
+      "unit_id": "U42",
+      "french": "Ela tem onze anos.",
+      "english": "She's eleven years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707272",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42016",
+      "unit_id": "U42",
+      "french": "Ele tem onze anos.",
+      "english": "He's eleven years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707275",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42017",
+      "unit_id": "U42",
+      "french": "Ela tem vinte anos.",
+      "english": "She is twenty years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4479609",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42018",
+      "unit_id": "U42",
+      "french": "Ele tem vinte crianças.",
+      "english": "He has twenty children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4712956",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "anthrax26",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42019",
+      "unit_id": "U42",
+      "french": "São dez e vinte.",
+      "english": "It is twenty minutes past ten.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5250433",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42020",
+      "unit_id": "U42",
+      "french": "Eu tenho catorze anos.",
+      "english": "I'm fourteen years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6813431",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "I am fourteen years old."
+      ]
+    },
+    {
+      "sentence_id": "S42021",
+      "unit_id": "U42",
+      "french": "Minha amiga tem dezessete anos.",
+      "english": "My friend is seventeen years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1005236",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42022",
+      "unit_id": "U42",
+      "french": "Meu amigo tem dezessete anos.",
+      "english": "My friend is seventeen years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1005239",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42023",
+      "unit_id": "U42",
+      "french": "Eu tenho dezessete anos, também.",
+      "english": "I am seventeen years old, too.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1015059",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42024",
+      "unit_id": "U42",
+      "french": "Por que o Tom não tem celular?",
+      "english": "Why doesn't Tom have a cell phone?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8607498",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42025",
+      "unit_id": "U42",
+      "french": "Que número grande!",
+      "english": "What a big number!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1017673",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42026",
+      "unit_id": "U42",
+      "french": "Tom vai ligar.",
+      "english": "Tom will call.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4979381",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42027",
+      "unit_id": "U42",
+      "french": "Tom não tem celular.",
+      "english": "Tom doesn't have a cell phone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2804268",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42028",
+      "unit_id": "U42",
+      "french": "Tom está ao telefone.",
+      "english": "Tom is on the telephone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5109144",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42029",
+      "unit_id": "U42",
+      "french": "Eu não tenho telefone.",
+      "english": "I don't have a telephone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5433258",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S42030",
+      "unit_id": "U42",
+      "french": "Eu não tenho celular.",
+      "english": "I don't have a cell phone.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6162873",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S42001",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 3,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42001",
+      "position": 6,
+      "surface": "telefone",
+      "word_id": "W818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 1,
+      "surface": "Zero",
+      "word_id": "W822",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42002",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42003",
+      "position": 4,
+      "surface": "telefone",
+      "word_id": "W818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 1,
+      "surface": "Qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42004",
+      "position": 4,
+      "surface": "número",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42005",
+      "position": 4,
+      "surface": "ligar",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 2,
+      "surface": "quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 4,
+      "surface": "esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42006",
+      "position": 5,
+      "surface": "celular",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 4,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42007",
+      "position": 5,
+      "surface": "celular",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 4,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42008",
+      "position": 5,
+      "surface": "ligar",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 3,
+      "surface": "ligar",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42009",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 3,
+      "surface": "onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 4,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 5,
+      "surface": "meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42010",
+      "position": 6,
+      "surface": "celular",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42011",
+      "position": 1,
+      "surface": "Tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42011",
+      "position": 2,
+      "surface": "treze",
+      "word_id": "W825",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42011",
+      "position": 3,
+      "surface": "gatos",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 3,
+      "surface": "ao",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42012",
+      "position": 4,
+      "surface": "telefone",
+      "word_id": "W818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 2,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 3,
+      "surface": "treze",
+      "word_id": "W825",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42013",
+      "position": 4,
+      "surface": "gatos",
+      "word_id": "W088",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 1,
+      "surface": "Isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 3,
+      "surface": "onze",
+      "word_id": "W823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42014",
+      "position": 4,
+      "surface": "anos",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 3,
+      "surface": "onze",
+      "word_id": "W823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42015",
+      "position": 4,
+      "surface": "anos",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 3,
+      "surface": "onze",
+      "word_id": "W823",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42016",
+      "position": 4,
+      "surface": "anos",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 3,
+      "surface": "vinte",
+      "word_id": "W832",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42017",
+      "position": 4,
+      "surface": "anos",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 3,
+      "surface": "vinte",
+      "word_id": "W832",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42018",
+      "position": 4,
+      "surface": "crianças",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 1,
+      "surface": "São",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 2,
+      "surface": "dez",
+      "word_id": "W163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 3,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42019",
+      "position": 4,
+      "surface": "vinte",
+      "word_id": "W832",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 2,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 3,
+      "surface": "catorze",
+      "word_id": "W826",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42020",
+      "position": 4,
+      "surface": "anos",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 1,
+      "surface": "Minha",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 2,
+      "surface": "amiga",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 3,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 4,
+      "surface": "dezessete",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42021",
+      "position": 5,
+      "surface": "anos",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 1,
+      "surface": "Meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 2,
+      "surface": "amigo",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 3,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 4,
+      "surface": "dezessete",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42022",
+      "position": 5,
+      "surface": "anos",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 2,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 3,
+      "surface": "dezessete",
+      "word_id": "W829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 4,
+      "surface": "anos",
+      "word_id": "W166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42023",
+      "position": 5,
+      "surface": "também",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 4,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 5,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42024",
+      "position": 6,
+      "surface": "celular",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 2,
+      "surface": "número",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42025",
+      "position": 3,
+      "surface": "grande",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42026",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42026",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42026",
+      "position": 3,
+      "surface": "ligar",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 3,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42027",
+      "position": 4,
+      "surface": "celular",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 3,
+      "surface": "ao",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42028",
+      "position": 4,
+      "surface": "telefone",
+      "word_id": "W818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 3,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42029",
+      "position": 4,
+      "surface": "telefone",
+      "word_id": "W818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42030",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42030",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42030",
+      "position": 3,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S42030",
+      "position": 4,
+      "surface": "celular",
+      "word_id": "W819",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A420041",
+      "sentence_id": "S42004",
+      "direction": "fr_to_en",
+      "answer": "What is the number?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A420201",
+      "sentence_id": "S42020",
+      "direction": "fr_to_en",
+      "answer": "I am fourteen years old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

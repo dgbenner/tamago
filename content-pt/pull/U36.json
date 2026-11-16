@@ -1,0 +1,1381 @@
+{
+  "unit_id": "U36",
+  "pulled_at": "2026-11-16",
+  "candidates": 68,
+  "sentences": [
+    {
+      "sentence_id": "S36001",
+      "unit_id": "U36",
+      "french": "Está claro?",
+      "english": "Is it clear?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "985166",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36002",
+      "unit_id": "U36",
+      "french": "Está claro isso?",
+      "english": "Is that clear?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1136377",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36003",
+      "unit_id": "U36",
+      "french": "Claro, por que não?",
+      "english": "Sure, why not?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1583852",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Of course, why not?"
+      ]
+    },
+    {
+      "sentence_id": "S36004",
+      "unit_id": "U36",
+      "french": "O que isso significa exatamente?",
+      "english": "What exactly does that mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2324621",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Matheus",
+      "other_english": [
+        "What does that mean exactly?"
+      ]
+    },
+    {
+      "sentence_id": "S36005",
+      "unit_id": "U36",
+      "french": "O que é a verdade?",
+      "english": "What is truth?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2363823",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36006",
+      "unit_id": "U36",
+      "french": "Qual é a verdade?",
+      "english": "What is the truth?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2363824",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36007",
+      "unit_id": "U36",
+      "french": "Onde você vive exatamente?",
+      "english": "Where exactly do you live?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2426592",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "marcospcruz",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36008",
+      "unit_id": "U36",
+      "french": "Onde você mora, exatamente?",
+      "english": "Where do you live, exactly?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2625005",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36009",
+      "unit_id": "U36",
+      "french": "É verdade, não é?",
+      "english": "It's the truth, isn't it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3490249",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36010",
+      "unit_id": "U36",
+      "french": "O que é isso exatamente?",
+      "english": "What exactly is it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5699415",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36011",
+      "unit_id": "U36",
+      "french": "O que exatamente estamos procurando?",
+      "english": "What exactly are we looking for?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6979855",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36012",
+      "unit_id": "U36",
+      "french": "Exatamente onde o Tom está?",
+      "english": "Where exactly is Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4918581",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36013",
+      "unit_id": "U36",
+      "french": "O que exatamente nós estamos procurando?",
+      "english": "What exactly are we looking for?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6979854",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36014",
+      "unit_id": "U36",
+      "french": "O que exatamente você quer dizer?",
+      "english": "What exactly do you mean?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7262054",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36015",
+      "unit_id": "U36",
+      "french": "O Tom sabe a verdade?",
+      "english": "Does Tom know the truth?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12824145",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "GustaBR",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36016",
+      "unit_id": "U36",
+      "french": "É claro.",
+      "english": "Certainly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1054682",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Of course.",
+        "It's clear."
+      ]
+    },
+    {
+      "sentence_id": "S36017",
+      "unit_id": "U36",
+      "french": "Fale claro.",
+      "english": "Speak clearly.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3098879",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36018",
+      "unit_id": "U36",
+      "french": "Claro, entendo.",
+      "english": "Of course, I understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12946302",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Giuliaito",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36019",
+      "unit_id": "U36",
+      "french": "É a verdade.",
+      "english": "It's the truth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1213859",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36020",
+      "unit_id": "U36",
+      "french": "Claro que sim!",
+      "english": "Of course!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1319213",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36021",
+      "unit_id": "U36",
+      "french": "Não está claro.",
+      "english": "It's not clear.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3173596",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36022",
+      "unit_id": "U36",
+      "french": "É claro, entendo.",
+      "english": "Of course, I understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4490821",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36023",
+      "unit_id": "U36",
+      "french": "Ele sabe a verdade.",
+      "english": "He knows the truth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1653583",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36024",
+      "unit_id": "U36",
+      "french": "Ela sabe a verdade.",
+      "english": "She knows the truth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1653585",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36025",
+      "unit_id": "U36",
+      "french": "Vou dizer a verdade.",
+      "english": "I'm going to tell the truth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2831386",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36026",
+      "unit_id": "U36",
+      "french": "Eu quero a verdade.",
+      "english": "I want the truth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3706139",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36027",
+      "unit_id": "U36",
+      "french": "É claro, eu entendo.",
+      "english": "Of course, I understand.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4490820",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36028",
+      "unit_id": "U36",
+      "french": "Tom sabe a verdade.",
+      "english": "Tom knows the truth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4815028",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36029",
+      "unit_id": "U36",
+      "french": "Essa é a verdade.",
+      "english": "It's the truth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5623988",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S36030",
+      "unit_id": "U36",
+      "french": "Não sei a verdade.",
+      "english": "I don't know the truth.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7090010",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S36001",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36001",
+      "position": 2,
+      "surface": "claro",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36002",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36002",
+      "position": 2,
+      "surface": "claro",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36002",
+      "position": 3,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36003",
+      "position": 1,
+      "surface": "Claro",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36003",
+      "position": 2,
+      "surface": "por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36003",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36004",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36004",
+      "position": 2,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36004",
+      "position": 3,
+      "surface": "significa",
+      "word_id": "W714",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36004",
+      "position": 4,
+      "surface": "exatamente",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36005",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36005",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36005",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36005",
+      "position": 4,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36006",
+      "position": 1,
+      "surface": "Qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36006",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36006",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36006",
+      "position": 4,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36007",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36007",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36007",
+      "position": 3,
+      "surface": "vive",
+      "word_id": "W865",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36007",
+      "position": 4,
+      "surface": "exatamente",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36008",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36008",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36008",
+      "position": 3,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36008",
+      "position": 4,
+      "surface": "exatamente",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36009",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36009",
+      "position": 2,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36009",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36009",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36010",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36010",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36010",
+      "position": 3,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36010",
+      "position": 4,
+      "surface": "exatamente",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36011",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36011",
+      "position": 2,
+      "surface": "exatamente",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36011",
+      "position": 3,
+      "surface": "estamos",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36011",
+      "position": 4,
+      "surface": "procurando",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36012",
+      "position": 1,
+      "surface": "Exatamente",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36012",
+      "position": 2,
+      "surface": "onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36012",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36012",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36012",
+      "position": 5,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36013",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36013",
+      "position": 2,
+      "surface": "exatamente",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36013",
+      "position": 3,
+      "surface": "nós",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36013",
+      "position": 4,
+      "surface": "estamos",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36013",
+      "position": 5,
+      "surface": "procurando",
+      "word_id": "W720",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36014",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36014",
+      "position": 2,
+      "surface": "exatamente",
+      "word_id": "W906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36014",
+      "position": 3,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36014",
+      "position": 4,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36014",
+      "position": 5,
+      "surface": "dizer",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36015",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36015",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36015",
+      "position": 3,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36015",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36015",
+      "position": 5,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36016",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36016",
+      "position": 2,
+      "surface": "claro",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36017",
+      "position": 1,
+      "surface": "Fale",
+      "word_id": "W710",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36017",
+      "position": 2,
+      "surface": "claro",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36018",
+      "position": 1,
+      "surface": "Claro",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36018",
+      "position": 2,
+      "surface": "entendo",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36019",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36019",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36019",
+      "position": 3,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36020",
+      "position": 1,
+      "surface": "Claro",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36020",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36020",
+      "position": 3,
+      "surface": "sim",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36021",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36021",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36021",
+      "position": 3,
+      "surface": "claro",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36022",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36022",
+      "position": 2,
+      "surface": "claro",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36022",
+      "position": 3,
+      "surface": "entendo",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36023",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36023",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36023",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36023",
+      "position": 4,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36024",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36024",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36024",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36024",
+      "position": 4,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36025",
+      "position": 1,
+      "surface": "Vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36025",
+      "position": 2,
+      "surface": "dizer",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36025",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36025",
+      "position": 4,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36026",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36026",
+      "position": 2,
+      "surface": "quero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36026",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36026",
+      "position": 4,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36027",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36027",
+      "position": 2,
+      "surface": "claro",
+      "word_id": "W904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36027",
+      "position": 3,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36027",
+      "position": 4,
+      "surface": "entendo",
+      "word_id": "W701",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36028",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36028",
+      "position": 2,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36028",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36028",
+      "position": 4,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36029",
+      "position": 1,
+      "surface": "Essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36029",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36029",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36029",
+      "position": 4,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36030",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36030",
+      "position": 2,
+      "surface": "sei",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36030",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S36030",
+      "position": 4,
+      "surface": "verdade",
+      "word_id": "W907",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A360031",
+      "sentence_id": "S36003",
+      "direction": "fr_to_en",
+      "answer": "Of course, why not?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A360041",
+      "sentence_id": "S36004",
+      "direction": "fr_to_en",
+      "answer": "What does that mean exactly?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A360161",
+      "sentence_id": "S36016",
+      "direction": "fr_to_en",
+      "answer": "Of course.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A360162",
+      "sentence_id": "S36016",
+      "direction": "fr_to_en",
+      "answer": "It's clear.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

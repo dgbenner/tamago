@@ -220,6 +220,226 @@
     "source": "https://en.wiktionary.org/wiki/ir#Conjugation"
   },
   {
+    "lemma": "apresentar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "apresento"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "apresenta"
+      },
+      {
+        "person": "nós",
+        "form": "apresentamos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "apresentam"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/apresentar#Conjugation"
+  },
+  {
+    "lemma": "usar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "uso"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "usa"
+      },
+      {
+        "person": "nós",
+        "form": "usamos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "usam"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/usar#Conjugation"
+  },
+  {
+    "lemma": "poder",
+    "present": [
+      {
+        "person": "eu",
+        "form": "posso"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "pode"
+      },
+      {
+        "person": "nós",
+        "form": "podemos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "podem"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/poder#Conjugation"
+  },
+  {
+    "lemma": "telefonar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "telefono"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "telefona"
+      },
+      {
+        "person": "nós",
+        "form": "telefonamos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "telefonam"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/telefonar#Conjugation"
+  },
+  {
+    "lemma": "nascer",
+    "present": [
+      {
+        "person": "eu",
+        "form": "nasço"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "nasce"
+      },
+      {
+        "person": "nós",
+        "form": "nascemos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "nascem"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/nascer#Conjugation"
+  },
+  {
+    "lemma": "estudar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "estudo"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "estuda"
+      },
+      {
+        "person": "nós",
+        "form": "estudamos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "estudam"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/estudar#Conjugation"
+  },
+  {
+    "lemma": "morar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "moro"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "mora"
+      },
+      {
+        "person": "nós",
+        "form": "moramos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "moram"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/morar#Conjugation"
+  },
+  {
+    "lemma": "falar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "falo"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "fala"
+      },
+      {
+        "person": "nós",
+        "form": "falamos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "falam"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/falar#Conjugation"
+  },
+  {
+    "lemma": "comprar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "compro"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "compra"
+      },
+      {
+        "person": "nós",
+        "form": "compramos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "compram"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/comprar#Conjugation"
+  },
+  {
+    "lemma": "custar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "custo"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "custa"
+      },
+      {
+        "person": "nós",
+        "form": "custamos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "custam"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/custar#Conjugation"
+  },
+  {
     "lemma": "desculpar",
     "present": [
       {
@@ -284,50 +504,6 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/repetir#Conjugation"
-  },
-  {
-    "lemma": "poder",
-    "present": [
-      {
-        "person": "eu",
-        "form": "posso"
-      },
-      {
-        "person": "você, ele, ela",
-        "form": "pode"
-      },
-      {
-        "person": "nós",
-        "form": "podemos"
-      },
-      {
-        "person": "vocês, eles, elas",
-        "form": "podem"
-      }
-    ],
-    "source": "https://en.wiktionary.org/wiki/poder#Conjugation"
-  },
-  {
-    "lemma": "falar",
-    "present": [
-      {
-        "person": "eu",
-        "form": "falo"
-      },
-      {
-        "person": "você, ele, ela",
-        "form": "fala"
-      },
-      {
-        "person": "nós",
-        "form": "falamos"
-      },
-      {
-        "person": "vocês, eles, elas",
-        "form": "falam"
-      }
-    ],
-    "source": "https://en.wiktionary.org/wiki/falar#Conjugation"
   },
   {
     "lemma": "dizer",
@@ -504,5 +680,269 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/ficar#Conjugation"
+  },
+  {
+    "lemma": "conhecer",
+    "present": [
+      {
+        "person": "eu",
+        "form": "conheço"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "conhece"
+      },
+      {
+        "person": "nós",
+        "form": "conhecemos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "conhecem"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/conhecer#Conjugation"
+  },
+  {
+    "lemma": "escrever",
+    "present": [
+      {
+        "person": "eu",
+        "form": "escrevo"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "escreve"
+      },
+      {
+        "person": "nós",
+        "form": "escrevemos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "escrevem"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/escrever#Conjugation"
+  },
+  {
+    "lemma": "soletrar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "soletro"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "soletra"
+      },
+      {
+        "person": "nós",
+        "form": "soletramos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "soletram"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/soletrar#Conjugation"
+  },
+  {
+    "lemma": "ligar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "ligo"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "liga"
+      },
+      {
+        "person": "nós",
+        "form": "ligamos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "ligam"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/ligar#Conjugation"
+  },
+  {
+    "lemma": "esperar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "espero"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "espera"
+      },
+      {
+        "person": "nós",
+        "form": "esperamos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "esperam"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/esperar#Conjugation"
+  },
+  {
+    "lemma": "viver",
+    "present": [
+      {
+        "person": "eu",
+        "form": "vivo"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "vive"
+      },
+      {
+        "person": "nós",
+        "form": "vivemos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "vivem"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/viver#Conjugation"
+  },
+  {
+    "lemma": "vender",
+    "present": [
+      {
+        "person": "eu",
+        "form": "vendo"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "vende"
+      },
+      {
+        "person": "nós",
+        "form": "vendemos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "vendem"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/vender#Conjugation"
+  },
+  {
+    "lemma": "pagar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "pago"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "paga"
+      },
+      {
+        "person": "nós",
+        "form": "pagamos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "pagam"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/pagar#Conjugation"
+  },
+  {
+    "lemma": "vestir",
+    "present": [
+      {
+        "person": "eu",
+        "form": "visto"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "veste"
+      },
+      {
+        "person": "nós",
+        "form": "vestimos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "vestem"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/vestir#Conjugation"
+  },
+  {
+    "lemma": "perguntar",
+    "present": [
+      {
+        "person": "eu",
+        "form": "pergunto"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "pergunta"
+      },
+      {
+        "person": "nós",
+        "form": "perguntamos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "perguntam"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/perguntar#Conjugation"
+  },
+  {
+    "lemma": "responder",
+    "present": [
+      {
+        "person": "eu",
+        "form": "respondo"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "responde"
+      },
+      {
+        "person": "nós",
+        "form": "respondemos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "respondem"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/responder#Conjugation"
+  },
+  {
+    "lemma": "aprender",
+    "present": [
+      {
+        "person": "eu",
+        "form": "aprendo"
+      },
+      {
+        "person": "você, ele, ela",
+        "form": "aprende"
+      },
+      {
+        "person": "nós",
+        "form": "aprendemos"
+      },
+      {
+        "person": "vocês, eles, elas",
+        "form": "aprendem"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/aprender#Conjugation"
   }
 ]

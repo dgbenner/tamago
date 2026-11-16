@@ -856,5 +856,661 @@
   },
   "W1050": {
     "pos": "Adverb"
+  },
+  "W801": {
+    "pos": "Noun"
+  },
+  "W802": {
+    "pos": "Noun",
+    "match": "sir, mister"
+  },
+  "W803": {
+    "pos": "Noun"
+  },
+  "W804": {
+    "pos": "Interjection"
+  },
+  "W805": {
+    "pos": "Verb"
+  },
+  "W806": {
+    "pos": "Verb"
+  },
+  "W807": {
+    "pos": "Verb"
+  },
+  "W808": {
+    "pos": "Verb"
+  },
+  "W809": {
+    "pos": "Verb"
+  },
+  "W810": {
+    "pos": "Noun"
+  },
+  "W811": {
+    "pos": "Noun"
+  },
+  "W812": {
+    "pos": "Verb"
+  },
+  "W813": {
+    "pos": "Verb"
+  },
+  "W814": {
+    "pos": "Noun"
+  },
+  "W815": {
+    "pos": "Verb"
+  },
+  "W816": {
+    "pos": "Verb"
+  },
+  "W817": {
+    "pos": "Noun"
+  },
+  "W818": {
+    "pos": "Noun"
+  },
+  "W819": {
+    "pos": "Noun"
+  },
+  "W820": {
+    "pos": "Verb"
+  },
+  "W821": {
+    "pos": "Verb"
+  },
+  "W822": {
+    "pos": "Numeral"
+  },
+  "W823": {
+    "pos": "Numeral"
+  },
+  "W824": {
+    "pos": "Numeral"
+  },
+  "W825": {
+    "pos": "Numeral"
+  },
+  "W826": {
+    "pos": "Numeral"
+  },
+  "W827": {
+    "pos": "Numeral"
+  },
+  "W828": {
+    "pos": "Numeral"
+  },
+  "W829": {
+    "pos": "Numeral"
+  },
+  "W830": {
+    "pos": "Numeral"
+  },
+  "W831": {
+    "pos": "Numeral"
+  },
+  "W832": {
+    "pos": "Numeral"
+  },
+  "W833": {
+    "pos": "Noun"
+  },
+  "W834": {
+    "pos": "Noun"
+  },
+  "W835": {
+    "pos": "Noun",
+    "match": "birthday",
+    "exact": true
+  },
+  "W836": {
+    "pos": "Noun"
+  },
+  "W837": {
+    "pos": "Noun"
+  },
+  "W838": {
+    "pos": "Interjection"
+  },
+  "W839": {
+    "pos": "Verb"
+  },
+  "W840": {
+    "pos": "Verb"
+  },
+  "W841": {
+    "pos": "Noun"
+  },
+  "W842": {
+    "pos": "Noun"
+  },
+  "W843": {
+    "pos": "Noun"
+  },
+  "W844": {
+    "pos": "Adjective"
+  },
+  "W845": {
+    "pos": "Noun"
+  },
+  "W846": {
+    "pos": "Verb"
+  },
+  "W847": {
+    "pos": "Adjective"
+  },
+  "W848": {
+    "pos": "Adjective"
+  },
+  "W849": {
+    "pos": "Adverb"
+  },
+  "W850": {
+    "pos": "Numeral"
+  },
+  "W851": {
+    "pos": "Numeral"
+  },
+  "W852": {
+    "pos": "Numeral"
+  },
+  "W853": {
+    "pos": "Numeral"
+  },
+  "W854": {
+    "pos": "Numeral"
+  },
+  "W855": {
+    "pos": "Numeral"
+  },
+  "W856": {
+    "pos": "Numeral"
+  },
+  "W857": {
+    "pos": "Adjective"
+  },
+  "W858": {
+    "pos": "Adjective"
+  },
+  "W859": {
+    "pos": "Adjective"
+  },
+  "W860": {
+    "pos": "Noun"
+  },
+  "W861": {
+    "pos": "Verb"
+  },
+  "W862": {
+    "pos": "Verb"
+  },
+  "W863": {
+    "pos": "Verb"
+  },
+  "W864": {
+    "pos": "Verb"
+  },
+  "W865": {
+    "pos": "Verb"
+  },
+  "W866": {
+    "pos": "Verb"
+  },
+  "W867": {
+    "pos": "Noun"
+  },
+  "W868": {
+    "pos": "Noun"
+  },
+  "W869": {
+    "pos": "Noun"
+  },
+  "W870": {
+    "pos": "Noun"
+  },
+  "W871": {
+    "pos": "Noun"
+  },
+  "W872": {
+    "pos": "Noun"
+  },
+  "W873": {
+    "pos": "Adjective"
+  },
+  "W874": {
+    "pos": "Proper noun"
+  },
+  "W875": {
+    "pos": "Proper noun"
+  },
+  "W876": {
+    "pos": "Proper noun"
+  },
+  "W877": {
+    "pos": "Proper noun"
+  },
+  "W878": {
+    "pos": "Proper noun"
+  },
+  "W879": {
+    "pos": "Proper noun"
+  },
+  "W880": {
+    "pos": "Proper noun"
+  },
+  "W881": {
+    "pos": "Adjective"
+  },
+  "W882": {
+    "pos": "Adjective"
+  },
+  "W883": {
+    "pos": "Adjective"
+  },
+  "W884": {
+    "pos": "Adjective"
+  },
+  "W885": {
+    "pos": "Noun"
+  },
+  "W886": {
+    "pos": "Verb"
+  },
+  "W887": {
+    "pos": "Noun",
+    "match": "language",
+    "exact": true
+  },
+  "W888": {
+    "pos": "Noun"
+  },
+  "W889": {
+    "pos": "Noun"
+  },
+  "W890": {
+    "pos": "Noun"
+  },
+  "W891": {
+    "pos": "Verb"
+  },
+  "W892": {
+    "pos": "Verb"
+  },
+  "W893": {
+    "pos": "Verb"
+  },
+  "W894": {
+    "pos": "Verb"
+  },
+  "W895": {
+    "pos": "Noun"
+  },
+  "W896": {
+    "pos": "Noun"
+  },
+  "W897": {
+    "pos": "Noun"
+  },
+  "W898": {
+    "pos": "Noun"
+  },
+  "W899": {
+    "pos": "Noun"
+  },
+  "W900": {
+    "pos": "Noun"
+  },
+  "W901": {
+    "pos": "Noun"
+  },
+  "W902": {
+    "pos": "Noun"
+  },
+  "W903": {
+    "pos": "Verb"
+  },
+  "W904": {
+    "pos": "Interjection"
+  },
+  "W905": {
+    "pos": "Interjection"
+  },
+  "W906": {
+    "pos": "Adverb"
+  },
+  "W907": {
+    "pos": "Noun"
+  },
+  "W908": {
+    "pos": "Noun"
+  },
+  "W909": {
+    "pos": "Verb"
+  },
+  "W910": {
+    "pos": "Verb"
+  },
+  "W911": {
+    "pos": "Verb"
+  },
+  "W912": {
+    "pos": "Noun",
+    "match": "real (unit of currency used in Brazil"
+  },
+  "W913": {
+    "pos": "Noun"
+  },
+  "W914": {
+    "pos": "Noun"
+  },
+  "W915": {
+    "pos": "Adjective"
+  },
+  "W916": {
+    "pos": "Adjective"
+  },
+  "W917": {
+    "pos": "Adjective"
+  },
+  "W918": {
+    "pos": "Adjective"
+  },
+  "W919": {
+    "pos": "Verb"
+  },
+  "W920": {
+    "pos": "Verb"
+  },
+  "W921": {
+    "pos": "Noun"
+  },
+  "W922": {
+    "pos": "Noun"
+  },
+  "W923": {
+    "pos": "Noun"
+  },
+  "W924": {
+    "pos": "Noun"
+  },
+  "W925": {
+    "pos": "Noun"
+  },
+  "W926": {
+    "pos": "Noun",
+    "match": "bill; check"
+  },
+  "W927": {
+    "pos": "Noun"
+  },
+  "W928": {
+    "pos": "Noun"
+  },
+  "W929": {
+    "pos": "Noun"
+  },
+  "W930": {
+    "pos": "Noun"
+  },
+  "W931": {
+    "pos": "Noun"
+  },
+  "W932": {
+    "pos": "Adverb"
+  },
+  "W933": {
+    "pos": "Determiner"
+  },
+  "W934": {
+    "pos": "Determiner"
+  },
+  "W935": {
+    "pos": "Pronoun"
+  },
+  "W936": {
+    "pos": "Adverb"
+  },
+  "W937": {
+    "pos": "Conjunction"
+  },
+  "W938": {
+    "pos": "Conjunction"
+  },
+  "W939": {
+    "pos": "Noun"
+  },
+  "W940": {
+    "pos": "Noun"
+  },
+  "W1101": {
+    "pos": "Noun"
+  },
+  "W1102": {
+    "pos": "Noun"
+  },
+  "W1103": {
+    "pos": "Noun"
+  },
+  "W1104": {
+    "pos": "Noun"
+  },
+  "W1105": {
+    "pos": "Noun"
+  },
+  "W1106": {
+    "pos": "Noun"
+  },
+  "W1107": {
+    "pos": "Noun"
+  },
+  "W1108": {
+    "pos": "Noun"
+  },
+  "W1109": {
+    "pos": "Noun"
+  },
+  "W1110": {
+    "pos": "Noun"
+  },
+  "W1111": {
+    "pos": "Noun"
+  },
+  "W1112": {
+    "pos": "Noun"
+  },
+  "W1113": {
+    "pos": "Verb"
+  },
+  "W1114": {
+    "pos": "Verb"
+  },
+  "W1115": {
+    "pos": "Noun",
+    "match": "lesson"
+  },
+  "W1116": {
+    "pos": "Noun"
+  },
+  "W1117": {
+    "pos": "Noun"
+  },
+  "W1118": {
+    "pos": "Noun"
+  },
+  "W1119": {
+    "pos": "Verb"
+  },
+  "W1120": {
+    "pos": "Verb"
+  },
+  "W1121": {
+    "pos": "Noun"
+  },
+  "W1122": {
+    "pos": "Noun"
+  },
+  "W1123": {
+    "pos": "Noun"
+  },
+  "W1124": {
+    "pos": "Noun"
+  },
+  "W1125": {
+    "pos": "Noun"
+  },
+  "W1126": {
+    "pos": "Noun",
+    "match": "painting; picture"
+  },
+  "W1127": {
+    "pos": "Noun"
+  },
+  "W1128": {
+    "pos": "Verb"
+  },
+  "W1129": {
+    "pos": "Verb"
+  },
+  "W1130": {
+    "pos": "Verb"
+  },
+  "W1131": {
+    "pos": "Noun"
+  },
+  "W1132": {
+    "pos": "Noun"
+  },
+  "W1133": {
+    "pos": "Noun"
+  },
+  "W1134": {
+    "pos": "Adjective"
+  },
+  "W1135": {
+    "pos": "Adjective"
+  },
+  "W1136": {
+    "pos": "Adjective"
+  },
+  "W1137": {
+    "pos": "Adjective"
+  },
+  "W1138": {
+    "pos": "Adjective"
+  },
+  "W1139": {
+    "pos": "Adjective"
+  },
+  "W1140": {
+    "pos": "Adjective"
+  },
+  "W1141": {
+    "pos": "Adjective"
+  },
+  "W1142": {
+    "pos": "Adjective"
+  },
+  "W1143": {
+    "pos": "Adjective"
+  },
+  "W1144": {
+    "pos": "Adjective"
+  },
+  "W1145": {
+    "pos": "Adjective"
+  },
+  "W1146": {
+    "pos": "Adjective"
+  },
+  "W1147": {
+    "pos": "Adjective"
+  },
+  "W1148": {
+    "pos": "Adjective"
+  },
+  "W1149": {
+    "pos": "Adjective"
+  },
+  "W1150": {
+    "pos": "Adjective"
+  },
+  "W1151": {
+    "pos": "Adjective"
+  },
+  "W1152": {
+    "pos": "Adjective"
+  },
+  "W1153": {
+    "pos": "Adjective"
+  },
+  "W1154": {
+    "pos": "Adjective"
+  },
+  "W1155": {
+    "pos": "Adjective"
+  },
+  "W1156": {
+    "pos": "Adjective"
+  },
+  "W1157": {
+    "pos": "Adjective"
+  },
+  "W1158": {
+    "pos": "Adjective"
+  },
+  "W1159": {
+    "pos": "Adjective"
+  },
+  "W1160": {
+    "pos": "Noun"
+  },
+  "W1161": {
+    "pos": "Noun"
+  },
+  "W1162": {
+    "pos": "Noun"
+  },
+  "W1163": {
+    "pos": "Noun"
+  },
+  "W1164": {
+    "pos": "Noun"
+  },
+  "W1165": {
+    "pos": "Noun"
+  },
+  "W1166": {
+    "pos": "Noun"
+  },
+  "W1167": {
+    "pos": "Noun"
+  },
+  "W1168": {
+    "pos": "Noun"
+  },
+  "W1169": {
+    "pos": "Noun"
+  },
+  "W1170": {
+    "pos": "Noun"
+  },
+  "W1171": {
+    "pos": "Noun"
+  },
+  "W1172": {
+    "pos": "Noun"
+  },
+  "W1173": {
+    "pos": "Noun"
+  },
+  "W941": {
+    "pos": "Pronoun",
+    "match": "myself"
+  },
+  "W942": {
+    "pos": "Pronoun",
+    "match": "what price"
   }
 }

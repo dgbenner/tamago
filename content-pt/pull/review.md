@@ -890,3 +890,717 @@ Contrast forms, sentences each (target 2): .
 | S51034 | O Tom é baixo. | Tom is short. |  | [#2139419](https://tatoeba.org/en/sentences/show/2139419) | alexmarcelo |
 | S51035 | O nariz dela é grande. | Her nose is big. |  | [#8192177](https://tatoeba.org/en/sentences/show/8192177) | lucasmg123 |
 | S51036 | O nariz dele é grande. | His nose is big. |  | [#8491786](https://tatoeba.org/en/sentences/show/8491786) | alexmarcelo |
+
+## U41 Your Name, Please: Como você se chama? Qual é o seu nome?; me chamo …; muito prazer; o senhor, a senhora: the polite you, with the ele form
+
+30 sentences picked from 53 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: sobrenome (1), senhora (1), chamo (0), apresentar (1), apresento (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S41001 | Eu conheço Tom? | Do I know Tom? |  | [#6463855](https://tatoeba.org/en/sentences/show/6463855) | carlosalberto |
+| S41002 | Eu conheço eles? | Do I know them? |  | [#6825908](https://tatoeba.org/en/sentences/show/6825908) | lucasmg123 |
+| S41003 | Conheço o Tom? | Do I know Tom? |  | [#6952994](https://tatoeba.org/en/sentences/show/6952994) | Ricardo14 |
+| S41004 | Qual é seu sobrenome? | What is your surname? |  | [#1651163](https://tatoeba.org/en/sentences/show/1651163) | Ricardo14 |
+| S41005 | Onde está o rapaz? | Where is the boy? |  | [#1846882](https://tatoeba.org/en/sentences/show/1846882) | alexmarcelo |
+| S41006 | O senhor é médico? | Are you a doctor, sir? |  | [#6152223](https://tatoeba.org/en/sentences/show/6152223) | bill |
+| S41007 | Você quer conhecer Tom? | Do you want to meet Tom? |  | [#8577726](https://tatoeba.org/en/sentences/show/8577726) | bill |
+| S41008 | Boa tarde, moça, como vai você? | Good afternoon, young lady, how are you? |  | [#1146500](https://tatoeba.org/en/sentences/show/1146500) | tulio |
+| S41009 | Desculpe, quem é o senhor? | Sorry, who are you, sir? |  | [#2633299](https://tatoeba.org/en/sentences/show/2633299) | alexmarcelo |
+| S41010 | Você não quer conhecer o Tom? | Don't you want to meet Tom? |  | [#2033250](https://tatoeba.org/en/sentences/show/2033250) | alexmarcelo |
+| S41011 | Quando você quer conhecer o Tom? | When do you want to meet Tom? |  | [#7886395](https://tatoeba.org/en/sentences/show/7886395) | pedrolima |
+| S41012 | Quem é a senhora de branco? | Who is the lady in white? |  | [#8215386](https://tatoeba.org/en/sentences/show/8215386) | josivangoncalves |
+| S41013 | Muito prazer. | Nice to meet you. |  | [#755727](https://tatoeba.org/en/sentences/show/755727) | brauliobezerra |
+| S41014 | Bom dia, senhor! | Hello sir! |  | [#1234119](https://tatoeba.org/en/sentences/show/1234119) | alexmarcelo |
+| S41015 | Sou um bom rapaz. | I am a good boy. |  | [#1070609](https://tatoeba.org/en/sentences/show/1070609) | alexmarcelo |
+| S41016 | Sim, com muito prazer! | Yes, gladly. |  | [#4646179](https://tatoeba.org/en/sentences/show/4646179) | Ricardo14 |
+| S41017 | Prazer falar com você. | Nice to talk to you. |  | [#9102215](https://tatoeba.org/en/sentences/show/9102215) | JGEN |
+| S41018 | Ela é uma boa moça. | She's a fine young lady. |  | [#2102344](https://tatoeba.org/en/sentences/show/2102344) | MarlonX19 |
+| S41019 | O João é bom rapaz. | João is a good boy. |  | [#7075508](https://tatoeba.org/en/sentences/show/7075508) | iart61 |
+| S41020 | A moça não gosta de suco. | The girl doesn't like juice. |  | [#1683766](https://tatoeba.org/en/sentences/show/1683766) | alexmarcelo |
+| S41021 | Ele vai apresentar um livro ao professor. | He will present a book to his teacher. |  | [#1056088](https://tatoeba.org/en/sentences/show/1056088) | alexmarcelo |
+| S41022 | Eu conheço o Tom? | Do I know Tom? |  | [#6952993](https://tatoeba.org/en/sentences/show/6952993) | Ricardo14 |
+| S41023 | Eu conheço João. | I know John. |  | [#1161052](https://tatoeba.org/en/sentences/show/1161052) | tulio |
+| S41024 | Eu conheço ela. | I know her. |  | [#12426902](https://tatoeba.org/en/sentences/show/12426902) | DouglasLeandro |
+| S41025 | Eu conheço seu pai. | I know your father. |  | [#576730](https://tatoeba.org/en/sentences/show/576730) | brauliobezerra |
+| S41026 | Eu conheço a menina. | I know the girl. |  | [#902536](https://tatoeba.org/en/sentences/show/902536) | brauliobezerra |
+| S41027 | Eu conheço o João. | I know John. |  | [#1161054](https://tatoeba.org/en/sentences/show/1161054) | tulio |
+| S41028 | Eu conheço essa mulher. | I know this woman. |  | [#1251836](https://tatoeba.org/en/sentences/show/1251836) | Welton |
+| S41029 | Eu conheço essa menina. | I know that girl. |  | [#1603098](https://tatoeba.org/en/sentences/show/1603098) | alexmarcelo |
+| S41030 | Não conheço essa palavra. | I don't know that word. |  | [#2440973](https://tatoeba.org/en/sentences/show/2440973) | bufo |
+
+## U54 Clothes: Vestir, usar: what you wear; a roupa (always singular); as calças, os óculos (plural)
+
+30 sentences picked from 44 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: roupa (0), calças (1), saia (0), camiseta (1), sapato (1), relógio (2), tamanho (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S54001 | Eu tenho que usar óculos. | I have to wear glasses. |  | [#10175701](https://tatoeba.org/en/sentences/show/10175701) | Ricardo14 |
+| S54002 | Vou vestir a camisa azul. | I'll wear the blue shirt. |  | [#12339810](https://tatoeba.org/en/sentences/show/12339810) | piterkeo |
+| S54003 | Tom não gosta de usar sapatos. | Tom doesn't like to wear shoes. |  | [#8627166](https://tatoeba.org/en/sentences/show/8627166) | JGEN |
+| S54004 | Onde estão meus óculos? | Where are my glasses? |  | [#405542](https://tatoeba.org/en/sentences/show/405542) | brauliobezerra |
+| S54005 | Onde está meu relógio? | Where is my clock? |  | [#960399](https://tatoeba.org/en/sentences/show/960399) | alexmarcelo |
+| S54006 | Onde estão os óculos? | Where are the glasses? |  | [#3647791](https://tatoeba.org/en/sentences/show/3647791) | carlosalberto |
+| S54007 | Onde está seu casaco? | Where's your coat? |  | [#4270293](https://tatoeba.org/en/sentences/show/4270293) | ajdavidl |
+| S54008 | Onde está meu casaco? | Where's my coat? |  | [#4695313](https://tatoeba.org/en/sentences/show/4695313) | ajdavidl |
+| S54009 | Você está de sapatos? | Are you wearing shoes? |  | [#4736187](https://tatoeba.org/en/sentences/show/4736187) | carlosalberto |
+| S54010 | O que você vai vestir? | What will you wear? |  | [#4897662](https://tatoeba.org/en/sentences/show/4897662) | bill |
+| S54011 | Essa camisa é nova? | Is that a new shirt? |  | [#5075342](https://tatoeba.org/en/sentences/show/5075342) | ToinhoAlam |
+| S54012 | Onde está sua camisa? | Where's your shirt? |  | [#6025864](https://tatoeba.org/en/sentences/show/6025864) | bill |
+| S54013 | Tem um vestido branco? | Do you have a white dress? |  | [#9968571](https://tatoeba.org/en/sentences/show/9968571) | bill |
+| S54014 | De que sapatos ele gosta? | What shoes does he like? |  | [#2911363](https://tatoeba.org/en/sentences/show/2911363) | alexmarcelo |
+| S54015 | Isso é um vestido novo? | Is that a new dress? |  | [#6477133](https://tatoeba.org/en/sentences/show/6477133) | heo598 |
+| S54016 | Que tamanho você está procurando? | What size are you looking for? |  | [#7372478](https://tatoeba.org/en/sentences/show/7372478) | Ricardo14 |
+| S54017 | Você tem um casaco azul? | Do you have a blue coat? |  | [#8642426](https://tatoeba.org/en/sentences/show/8642426) | Ricardo14 |
+| S54018 | O que é isso na sua camiseta? | What is that on your t-shirt? |  | [#6399671](https://tatoeba.org/en/sentences/show/6399671) | bill |
+| S54019 | Qual o tamanho que você está procurando? | What size are you looking for? |  | [#7372477](https://tatoeba.org/en/sentences/show/7372477) | Ricardo14 |
+| S54020 | Que vestido bonito! | What a beautiful dress! |  | [#1920363](https://tatoeba.org/en/sentences/show/1920363) | alexmarcelo |
+| S54021 | Minhas calças são azuis. | My pants are blue. |  | [#12015726](https://tatoeba.org/en/sentences/show/12015726) | carlosalberto |
+| S54022 | Você não pode usar isso. | You can't use this. |  | [#3435693](https://tatoeba.org/en/sentences/show/3435693) | Ricardo14 |
+| S54023 | Eu não sei o que vestir. | I don't know what to wear. |  | [#5093866](https://tatoeba.org/en/sentences/show/5093866) | bill |
+| S54024 | Tom está de sapato preto. | Tom is wearing black shoes. |  | [#7849863](https://tatoeba.org/en/sentences/show/7849863) | Ricardo14 |
+| S54025 | São quatro horas no meu relógio. | It's four o'clock by my watch. |  | [#12364883](https://tatoeba.org/en/sentences/show/12364883) | heo598 |
+| S54026 | De quem é esse casaco? | Whose coat is this? |  | [#9446723](https://tatoeba.org/en/sentences/show/9446723) | Ricardo14 |
+| S54027 | Você tem essa camisa em preto? | Do you have this shirt in black? |  | [#2885795](https://tatoeba.org/en/sentences/show/2885795) | MarlonX19 |
+| S54028 | Por que o Tom está de casaco? | Why is Tom wearing a coat? |  | [#5940034](https://tatoeba.org/en/sentences/show/5940034) | bill |
+| S54029 | O que é isso na sua camisa? | What's that on your shirt? |  | [#6301272](https://tatoeba.org/en/sentences/show/6301272) | bill |
+| S54030 | Você sabe onde estão meus óculos? | Do you know where my glasses are? |  | [#7442549](https://tatoeba.org/en/sentences/show/7442549) | Ricardo14 |
+
+## U34 Spelling It Out: Como se escreve?: poder + a verb; posso, pode
+
+30 sentences picked from 78 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: letra (0), soletrar (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S34001 | Posso cantar? | May I sing? |  | [#6759720](https://tatoeba.org/en/sentences/show/6759720) | Ricardo14 |
+| S34002 | Ele escreve? | Does he write? |  | [#8764266](https://tatoeba.org/en/sentences/show/8764266) | carlosalberto |
+| S34003 | Onde você escreve? | Where do you write? |  | [#1552744](https://tatoeba.org/en/sentences/show/1552744) | alexmarcelo |
+| S34004 | Posso usar isso? | Can I use it? | May I use that?; May I use this? | [#3085561](https://tatoeba.org/en/sentences/show/3085561) | Ricardo14 |
+| S34005 | Eu posso cantar? | May I sing? |  | [#6759719](https://tatoeba.org/en/sentences/show/6759719) | Ricardo14 |
+| S34006 | Ela vai escrever? | Will she write? |  | [#8731265](https://tatoeba.org/en/sentences/show/8731265) | MBreitenbach |
+| S34007 | Como se escreve isso? | How is it written? | How is that spelled? | [#1145767](https://tatoeba.org/en/sentences/show/1145767) | tulio |
+| S34008 | Você gosta de escrever? | Do you like writing? | Do you like to write? | [#4870095](https://tatoeba.org/en/sentences/show/4870095) | bill |
+| S34009 | Pode escrever isso, por favor? | Can you write that down please? |  | [#5093612](https://tatoeba.org/en/sentences/show/5093612) | ToinhoAlam |
+| S34010 | Não sei como soletrar a palavra. | I don't know how to spell the word. |  | [#902474](https://tatoeba.org/en/sentences/show/902474) | brauliobezerra |
+| S34011 | Eu não sei soletrar o nome dele. | I don't know how to spell his name. |  | [#7106371](https://tatoeba.org/en/sentences/show/7106371) | carlosalberto |
+| S34012 | Posso falar uma coisa? | Can I say one thing? |  | [#390843](https://tatoeba.org/en/sentences/show/390843) | brauliobezerra |
+| S34013 | Quando posso nadar aqui? | When can I swim here? |  | [#972782](https://tatoeba.org/en/sentences/show/972782) | alexmarcelo |
+| S34014 | Posso falar com você? | Can I speak to you? | May I speak to you?; May I talk with you?; Can I have a word with you? | [#990350](https://tatoeba.org/en/sentences/show/990350) | alexmarcelo |
+| S34015 | Posso falar com vocês? | May I talk to you? |  | [#2105820](https://tatoeba.org/en/sentences/show/2105820) | Ricardo14 |
+| S34016 | Posso usar o banheiro? | Can I use the bathroom? | May I use the restroom? | [#2626493](https://tatoeba.org/en/sentences/show/2626493) | alexmarcelo |
+| S34017 | Que mais posso dizer? | What else can I say? |  | [#3988078](https://tatoeba.org/en/sentences/show/3988078) | carlosalberto |
+| S34018 | Posso falar com Tom? | Could I speak to Tom? |  | [#5300727](https://tatoeba.org/en/sentences/show/5300727) | ToinhoAlam |
+| S34019 | Posso falar com ele? | Can I talk to him? | Can I speak to him?; May I talk to him?; May I speak with him? | [#5468617](https://tatoeba.org/en/sentences/show/5468617) | ToinhoAlam |
+| S34020 | Posso falar com ela? | Can I talk to her? | Can I speak to her?; May I talk to her?; May I speak with her? | [#5468618](https://tatoeba.org/en/sentences/show/5468618) | ToinhoAlam |
+| S34021 | Posso falar com o Tom? | Can I talk to Tom? | Can I speak with Tom? | [#3424856](https://tatoeba.org/en/sentences/show/3424856) | Ricardo14 |
+| S34022 | Eu posso usar o banheiro? | Can I use the bathroom? |  | [#3448007](https://tatoeba.org/en/sentences/show/3448007) | Ricardo14 |
+| S34023 | Tom, posso falar com você? | Tom, may I speak with you? |  | [#4891883](https://tatoeba.org/en/sentences/show/4891883) | bill |
+| S34024 | Eu posso falar com você? | Can I talk with you? | May I talk to you?; May I speak to you?; May I talk with you?; Can I have a word with you? | [#6804732](https://tatoeba.org/en/sentences/show/6804732) | Ricardo14 |
+| S34025 | O que mais você quer escrever? | What else do you want to write? |  | [#9977243](https://tatoeba.org/en/sentences/show/9977243) | Silfarle |
+| S34026 | Eu posso falar com Tom, por favor? | Can I speak to Tom, please? |  | [#5305100](https://tatoeba.org/en/sentences/show/5305100) | bill |
+| S34027 | Eu posso falar com o médico? | Can I speak to the doctor? |  | [#5513680](https://tatoeba.org/en/sentences/show/5513680) | bill |
+| S34028 | Posso falar com o Tom, por favor? | Can I speak with Tom, please? |  | [#6804758](https://tatoeba.org/en/sentences/show/6804758) | Ricardo14 |
+| S34029 | Tom, sou eu. Posso falar com você? | Tom, it's me. Can I talk with you? |  | [#3007831](https://tatoeba.org/en/sentences/show/3007831) | alexmarcelo |
+| S34030 | Você não vai escrever para o Tom? | Aren't you going to write to Tom? |  | [#6475687](https://tatoeba.org/en/sentences/show/6475687) | heo598 |
+
+## U42 Phone Numbers: Numbers 0 to 20; meu número é …; dezesseis to dezenove are one word; ligar para (to call)
+
+30 sentences picked from 53 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: telefonar (0), zero (1), doze (0), treze (2), catorze (1), quinze (0), dezesseis (0), dezoito (0), dezenove (0), código (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S42001 | Ela sabe seu número de telefone? | Does she know your telephone number? |  | [#909327](https://tatoeba.org/en/sentences/show/909327) | alexmarcelo |
+| S42002 | Zero é um número. | Zero is a number. |  | [#11161483](https://tatoeba.org/en/sentences/show/11161483) | carlosalberto |
+| S42003 | Onde tem um telefone? | Where is there a telephone? |  | [#880500](https://tatoeba.org/en/sentences/show/880500) | alexmarcelo |
+| S42004 | Qual é o número? | What's the number? | What is the number? | [#1299760](https://tatoeba.org/en/sentences/show/1299760) | alexmarcelo |
+| S42005 | Quando você vai ligar? | When will you call? |  | [#12575916](https://tatoeba.org/en/sentences/show/12575916) | carlosalberto |
+| S42006 | De quem é esse celular? | Whose cell phone is this? |  | [#2419994](https://tatoeba.org/en/sentences/show/2419994) | Ricardo14 |
+| S42007 | Por que Tom não tem celular? | Why doesn't Tom have a cell phone? |  | [#8607497](https://tatoeba.org/en/sentences/show/8607497) | bill |
+| S42008 | E se Tom não ligar? | What if Tom doesn't call? |  | [#9232682](https://tatoeba.org/en/sentences/show/9232682) | bill |
+| S42009 | Você vai ligar para o Tom? | Will you call Tom? |  | [#7201382](https://tatoeba.org/en/sentences/show/7201382) | Ricardo14 |
+| S42010 | Você sabe onde está meu celular? | Do you know where my cell phone is? |  | [#8208449](https://tatoeba.org/en/sentences/show/8208449) | josivangoncalves |
+| S42011 | Tenho treze gatos. | I have thirteen cats. |  | [#4850434](https://tatoeba.org/en/sentences/show/4850434) | Ricardo14 |
+| S42012 | Ele está ao telefone. | He's talking on the telephone. |  | [#406554](https://tatoeba.org/en/sentences/show/406554) | brauliobezerra |
+| S42013 | Eu tenho treze gatos. | I have thirteen cats. |  | [#1235326](https://tatoeba.org/en/sentences/show/1235326) | alexmarcelo |
+| S42014 | Isso tem onze anos. | It's eleven years old. |  | [#2707266](https://tatoeba.org/en/sentences/show/2707266) | Ricardo14 |
+| S42015 | Ela tem onze anos. | She's eleven years old. |  | [#2707272](https://tatoeba.org/en/sentences/show/2707272) | Ricardo14 |
+| S42016 | Ele tem onze anos. | He's eleven years old. |  | [#2707275](https://tatoeba.org/en/sentences/show/2707275) | alexmarcelo |
+| S42017 | Ela tem vinte anos. | She is twenty years old. |  | [#4479609](https://tatoeba.org/en/sentences/show/4479609) | Ricardo14 |
+| S42018 | Ele tem vinte crianças. | He has twenty children. |  | [#4712956](https://tatoeba.org/en/sentences/show/4712956) | anthrax26 |
+| S42019 | São dez e vinte. | It is twenty minutes past ten. |  | [#5250433](https://tatoeba.org/en/sentences/show/5250433) | alexmarcelo |
+| S42020 | Eu tenho catorze anos. | I'm fourteen years old. | I am fourteen years old. | [#6813431](https://tatoeba.org/en/sentences/show/6813431) | Ricardo14 |
+| S42021 | Minha amiga tem dezessete anos. | My friend is seventeen years old. |  | [#1005236](https://tatoeba.org/en/sentences/show/1005236) | alexmarcelo |
+| S42022 | Meu amigo tem dezessete anos. | My friend is seventeen years old. |  | [#1005239](https://tatoeba.org/en/sentences/show/1005239) | alexmarcelo |
+| S42023 | Eu tenho dezessete anos, também. | I am seventeen years old, too. |  | [#1015059](https://tatoeba.org/en/sentences/show/1015059) | alexmarcelo |
+| S42024 | Por que o Tom não tem celular? | Why doesn't Tom have a cell phone? |  | [#8607498](https://tatoeba.org/en/sentences/show/8607498) | bill |
+| S42025 | Que número grande! | What a big number! |  | [#1017673](https://tatoeba.org/en/sentences/show/1017673) | alexmarcelo |
+| S42026 | Tom vai ligar. | Tom will call. |  | [#4979381](https://tatoeba.org/en/sentences/show/4979381) | Ricardo14 |
+| S42027 | Tom não tem celular. | Tom doesn't have a cell phone. |  | [#2804268](https://tatoeba.org/en/sentences/show/2804268) | alexmarcelo |
+| S42028 | Tom está ao telefone. | Tom is on the telephone. |  | [#5109144](https://tatoeba.org/en/sentences/show/5109144) | bill |
+| S42029 | Eu não tenho telefone. | I don't have a telephone. |  | [#5433258](https://tatoeba.org/en/sentences/show/5433258) | carlosalberto |
+| S42030 | Eu não tenho celular. | I don't have a cell phone. |  | [#6162873](https://tatoeba.org/en/sentences/show/6162873) | bill |
+
+## U43 Age + Birthdays: Tenho … anos: ter for age; quantos anos você tem?; parabéns!; nasci em …
+
+30 sentences picked from 40 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: idade (1), mês (2), meses (0), nascer (0), nascimento (1), data (2), idoso (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S43001 | Qual é sua data de nascimento? | What's your date of birth? | What is your date of birth? | [#1052806](https://tatoeba.org/en/sentences/show/1052806) | brauliobezerra |
+| S43002 | Que mês é esse? | What month is this? |  | [#1862461](https://tatoeba.org/en/sentences/show/1862461) | gleydin |
+| S43003 | Quando é seu aniversário? | When's your birthday? |  | [#4882748](https://tatoeba.org/en/sentences/show/4882748) | ianna |
+| S43004 | Hoje é seu aniversário? | Is today your birthday? |  | [#5534088](https://tatoeba.org/en/sentences/show/5534088) | bill |
+| S43005 | Em que mês estamos? | What month is this? |  | [#6391846](https://tatoeba.org/en/sentences/show/6391846) | pajunior |
+| S43006 | Qual é a data de hoje? | What date is today? | What's the date today?; What is the current date? | [#1146632](https://tatoeba.org/en/sentences/show/1146632) | tulio |
+| S43007 | Hoje é seu aniversário, não é? | Today's your birthday, isn't it? | It's your birthday today, isn't it? | [#5724442](https://tatoeba.org/en/sentences/show/5724442) | bill |
+| S43008 | Meus parabéns! | Congratulations! |  | [#397643](https://tatoeba.org/en/sentences/show/397643) | brauliobezerra |
+| S43009 | Eu nasci lá. | I was born there. |  | [#1246594](https://tatoeba.org/en/sentences/show/1246594) | alexmarcelo |
+| S43010 | Eu sou adulto. | I'm an adult. | I am an adult. | [#5008690](https://tatoeba.org/en/sentences/show/5008690) | bill |
+| S43011 | Eu nasci aqui. | I was born here. |  | [#5063495](https://tatoeba.org/en/sentences/show/5063495) | calebante |
+| S43012 | Parabéns para eles. | Congratulations to them. |  | [#5406230](https://tatoeba.org/en/sentences/show/5406230) | carlosalberto |
+| S43013 | Parabéns para você! | Congratulations to you! |  | [#5463543](https://tatoeba.org/en/sentences/show/5463543) | carlosalberto |
+| S43014 | Agora você é adulto. | You are now an adult. |  | [#729323](https://tatoeba.org/en/sentences/show/729323) | lenon_perez |
+| S43015 | Você é um adulto. | You're an adult. |  | [#4378577](https://tatoeba.org/en/sentences/show/4378577) | Ricardo14 |
+| S43016 | Eu nasci no Brasil. | I was born in Brazil. |  | [#5578570](https://tatoeba.org/en/sentences/show/5578570) | carlosalberto |
+| S43017 | Tom é um homem idoso. | Tom is an old man. |  | [#5371558](https://tatoeba.org/en/sentences/show/5371558) | carlosalberto |
+| S43018 | Tom é pequeno para a idade dele. | Tom is small for his age. |  | [#8491660](https://tatoeba.org/en/sentences/show/8491660) | alexmarcelo |
+| S43019 | Quando é o aniversário de Tom? | When's Tom's birthday? |  | [#9970982](https://tatoeba.org/en/sentences/show/9970982) | bill |
+| S43020 | Feliz aniversário! | Happy birthday! | Happy birthday to you! | [#405213](https://tatoeba.org/en/sentences/show/405213) | brauliobezerra |
+| S43021 | É meu aniversário. | It's my birthday. |  | [#5370606](https://tatoeba.org/en/sentences/show/5370606) | bill |
+| S43022 | Feliz aniversário, Tom! | Happy birthday, Tom. |  | [#7061240](https://tatoeba.org/en/sentences/show/7061240) | alexmarcelo |
+| S43023 | Hoje é meu aniversário. | Today is my birthday. |  | [#985110](https://tatoeba.org/en/sentences/show/985110) | alexmarcelo |
+| S43024 | Amanhã é meu aniversário. | Tomorrow's my birthday. | Tomorrow is my birthday. | [#1074992](https://tatoeba.org/en/sentences/show/1074992) | alexmarcelo |
+| S43025 | Amanhã é aniversário dela. | Tomorrow is her birthday. |  | [#1296168](https://tatoeba.org/en/sentences/show/1296168) | brauliobezerra |
+| S43026 | Feliz Aniversário, minha amiga! | Happy birthday, my friend! |  | [#2395522](https://tatoeba.org/en/sentences/show/2395522) | Ricardo14 |
+| S43027 | Tom não é adulto. | Tom isn't an adult. |  | [#4613301](https://tatoeba.org/en/sentences/show/4613301) | carlosalberto |
+| S43028 | Tom é um adulto. | Tom is an adult. |  | [#6681341](https://tatoeba.org/en/sentences/show/6681341) | Mecamute |
+| S43029 | Feliz aniversário para você. | Happy birthday to you. |  | [#13967685](https://tatoeba.org/en/sentences/show/13967685) | carlosalberto |
+| S43030 | Eu sou um adulto agora. | I'm an adult now. |  | [#3706130](https://tatoeba.org/en/sentences/show/3706130) | ajdavidl |
+
+## U55 In Class: Estudar, aprender; uma pergunta, uma resposta; perguntar, responder: -ar and -er verbs
+
+40 sentences picked from 198 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: turma (0), página (2), papel (2), quadro (0), exame (0), colega (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S55001 | Eu estudo na biblioteca. | I study at the library. |  | [#5128598](https://tatoeba.org/en/sentences/show/5128598) | bill |
+| S55002 | Essa pergunta não tem resposta. | This question has no answer. |  | [#5236230](https://tatoeba.org/en/sentences/show/5236230) | carlosalberto |
+| S55003 | Amanhã eu vou estudar na biblioteca. | Tomorrow, I'm going to study at the library. |  | [#405083](https://tatoeba.org/en/sentences/show/405083) | brauliobezerra |
+| S55004 | Não tenho que responder sua pergunta. | I don't have to answer your question. |  | [#8785802](https://tatoeba.org/en/sentences/show/8785802) | JGEN |
+| S55005 | Não vou responder à sua pergunta. | I'm not going to answer your question. |  | [#11188832](https://tatoeba.org/en/sentences/show/11188832) | bill |
+| S55006 | Você é estudante? | Are you a student? |  | [#404217](https://tatoeba.org/en/sentences/show/404217) | brauliobezerra |
+| S55007 | Você tem papel? | Do you have paper? |  | [#886663](https://tatoeba.org/en/sentences/show/886663) | alexmarcelo |
+| S55008 | Você tem lápis? | Do you have pencils? | Do you have any pencils? | [#1236784](https://tatoeba.org/en/sentences/show/1236784) | alexmarcelo |
+| S55009 | O que quer estudar? | What do you want to study? |  | [#2221016](https://tatoeba.org/en/sentences/show/2221016) | MarlonX19 |
+| S55010 | Quantos lápis você tem? | How many pencils do you have? |  | [#391845](https://tatoeba.org/en/sentences/show/391845) | brauliobezerra |
+| S55011 | Você sabe a resposta? | You know the answer? | Do you know the answer? | [#393519](https://tatoeba.org/en/sentences/show/393519) | brauliobezerra |
+| S55012 | Você tem um lápis? | Have you got a pencil? |  | [#406530](https://tatoeba.org/en/sentences/show/406530) | brauliobezerra |
+| S55013 | Você tem uma caneta? | Do you have a pen? |  | [#904413](https://tatoeba.org/en/sentences/show/904413) | alexmarcelo |
+| S55014 | Você gosta de estudar? | Do you like studying? | Do you enjoy studying? | [#1235404](https://tatoeba.org/en/sentences/show/1235404) | alexmarcelo |
+| S55015 | Qual é a resposta? | What's the answer? | What is the answer? | [#5101924](https://tatoeba.org/en/sentences/show/5101924) | bill |
+| S55016 | Quando vai à biblioteca? | When are you going to the library? |  | [#7265027](https://tatoeba.org/en/sentences/show/7265027) | carlosalberto |
+| S55017 | Tenho que responder isso? | Do I have to answer that? |  | [#11692625](https://tatoeba.org/en/sentences/show/11692625) | ajdavidl |
+| S55018 | De quem é esse caderno? | Whose notebook is that? | Whose is that notebook? | [#1396840](https://tatoeba.org/en/sentences/show/1396840) | alexmarcelo |
+| S55019 | Essa é uma caneta vermelha? | Is that a red pen? |  | [#1734414](https://tatoeba.org/en/sentences/show/1734414) | alexmarcelo |
+| S55020 | De quem é essa caneta? | Whose pen is that? |  | [#2004461](https://tatoeba.org/en/sentences/show/2004461) | Matheus |
+| S55021 | Por que você quer aprender inglês? | Why do you want to learn English? |  | [#2606543](https://tatoeba.org/en/sentences/show/2606543) | alexmarcelo |
+| S55022 | Em que página você está? | What page are you on? |  | [#4945544](https://tatoeba.org/en/sentences/show/4945544) | bill |
+| S55023 | Em que página vocês estão? | What page are you on? |  | [#4945545](https://tatoeba.org/en/sentences/show/4945545) | bill |
+| S55024 | O que mais você quer aprender? | What else do you want to learn? |  | [#5126352](https://tatoeba.org/en/sentences/show/5126352) | ToinhoAlam |
+| S55025 | Por que você quer aprender português? | Why do you want to learn Portuguese? |  | [#5165677](https://tatoeba.org/en/sentences/show/5165677) | Ricardo14 |
+| S55026 | Tom é estudante, não é? | Tom is a student, isn't he? |  | [#6942247](https://tatoeba.org/en/sentences/show/6942247) | Ricardo14 |
+| S55027 | Você não tem aula hoje? | Don't you have classes today? |  | [#6995276](https://tatoeba.org/en/sentences/show/6995276) | Ricardo14 |
+| S55028 | Você não é estudante, é? | You're not a student, are you? |  | [#7443496](https://tatoeba.org/en/sentences/show/7443496) | Ricardo14 |
+| S55029 | Você não tem aula agora? | Don't you have class now? |  | [#9098918](https://tatoeba.org/en/sentences/show/9098918) | carlosalberto |
+| S55030 | Vocês não têm aula agora? | Don't you have class now? |  | [#9098920](https://tatoeba.org/en/sentences/show/9098920) | carlosalberto |
+| S55031 | Eu estudo. | I study. |  | [#1002859](https://tatoeba.org/en/sentences/show/1002859) | alexmarcelo |
+| S55032 | Eu não estudo. | I don't study. |  | [#5303794](https://tatoeba.org/en/sentences/show/5303794) | Nordland |
+| S55033 | O papel é branco. | The paper is white. |  | [#1065014](https://tatoeba.org/en/sentences/show/1065014) | alexmarcelo |
+| S55034 | Ele é meu colega. | He is my colleague. |  | [#1238150](https://tatoeba.org/en/sentences/show/1238150) | alexmarcelo |
+| S55035 | Vamos perguntar ao professor. | Let's ask the teacher. |  | [#1926527](https://tatoeba.org/en/sentences/show/1926527) | alexmarcelo |
+| S55036 | Tom é meu colega. | Tom is my colleague. |  | [#4884358](https://tatoeba.org/en/sentences/show/4884358) | bill |
+| S55037 | Vamos perguntar ao Tom. | We'll ask Tom. |  | [#4992137](https://tatoeba.org/en/sentences/show/4992137) | Ricardo14 |
+| S55038 | Não vamos perguntar mais. | We won't ask anymore. |  | [#5610086](https://tatoeba.org/en/sentences/show/5610086) | Ricardo14 |
+| S55039 | Esse é um caderno verde. | This is a green notebook. |  | [#4956147](https://tatoeba.org/en/sentences/show/4956147) | Ricardo14 |
+| S55040 | O caderno está na mesa. | The notebook is lying on the table. |  | [#8096349](https://tatoeba.org/en/sentences/show/8096349) | lucasmg123 |
+
+## U35 Checking Numbers: Um momento. Espera aí. Está certo? Está errado.
+
+30 sentences picked from 90 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: momento (2), espera (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S35001 | Você está certo. Ele está errado. | You are right. He is wrong. |  | [#7849577](https://tatoeba.org/en/sentences/show/7849577) | carlosalberto |
+| S35002 | Estou errado? | Am I wrong? | Am I mistaken? | [#1319215](https://tatoeba.org/en/sentences/show/1319215) | brauliobezerra |
+| S35003 | Está aí? | Is it there? | Are you there? | [#2102358](https://tatoeba.org/en/sentences/show/2102358) | MarlonX19 |
+| S35004 | Estou certo? | Am I correct? |  | [#9977309](https://tatoeba.org/en/sentences/show/9977309) | Ricardo14 |
+| S35005 | Quem está errado? | Who's wrong? |  | [#1215891](https://tatoeba.org/en/sentences/show/1215891) | alexmarcelo |
+| S35006 | Eu estou certo? | Am I right? |  | [#1935000](https://tatoeba.org/en/sentences/show/1935000) | alexmarcelo |
+| S35007 | Você está aí? | Are you there? |  | [#2102360](https://tatoeba.org/en/sentences/show/2102360) | MarlonX19 |
+| S35008 | Vocês estão aí? | Are you there? |  | [#2102362](https://tatoeba.org/en/sentences/show/2102362) | MarlonX19 |
+| S35009 | Espera no carro. | Wait in the car. |  | [#5127058](https://tatoeba.org/en/sentences/show/5127058) | bill |
+| S35010 | No momento não tenho sede. | I'm not thirsty at the moment. |  | [#5995392](https://tatoeba.org/en/sentences/show/5995392) | gustavoalves |
+| S35011 | Tom não está aqui no momento. | Tom isn't here at the moment. |  | [#5944637](https://tatoeba.org/en/sentences/show/5944637) | Ricardo14 |
+| S35012 | Ele está certo? | Is he right? |  | [#4442986](https://tatoeba.org/en/sentences/show/4442986) | Ricardo14 |
+| S35013 | Quem está aí? | Who's there? | Who is there?; Who goes there? | [#4491303](https://tatoeba.org/en/sentences/show/4491303) | carlosalberto |
+| S35014 | Quem está certo? | Who's right? |  | [#5156889](https://tatoeba.org/en/sentences/show/5156889) | bill |
+| S35015 | O que está errado? | What's wrong? |  | [#5205464](https://tatoeba.org/en/sentences/show/5205464) | Ricardo14 |
+| S35016 | Tom? Está aí? | Tom? Are you in there? |  | [#6056116](https://tatoeba.org/en/sentences/show/6056116) | bill |
+| S35017 | Tem água aí? | Is there water there? |  | [#11035332](https://tatoeba.org/en/sentences/show/11035332) | carlosalberto |
+| S35018 | Vamos de táxi, certo? | Let's go by taxi, OK? |  | [#1488560](https://tatoeba.org/en/sentences/show/1488560) | brauliobezerra |
+| S35019 | Tom, você está aí? | Tom, are you there? | Tom, are you in there? | [#1875768](https://tatoeba.org/en/sentences/show/1875768) | alexmarcelo |
+| S35020 | Mary, você está aí? | Mary, are you in there? |  | [#3805329](https://tatoeba.org/en/sentences/show/3805329) | muriloricci |
+| S35021 | Tom é professor, certo? | Tom's a teacher, right? | Tom is a teacher, right? | [#4276282](https://tatoeba.org/en/sentences/show/4276282) | ajdavidl |
+| S35022 | Por que você está aí? | Why are you there? |  | [#4488564](https://tatoeba.org/en/sentences/show/4488564) | ToinhoAlam |
+| S35023 | Eu não estou certo? | Am I not right? |  | [#6122294](https://tatoeba.org/en/sentences/show/6122294) | Ricardo14 |
+| S35024 | Tom está aqui, certo? | Tom is here, right? |  | [#7481616](https://tatoeba.org/en/sentences/show/7481616) | Ricardo14 |
+| S35025 | Isso é tudo, certo? | That's everything, right? |  | [#12369082](https://tatoeba.org/en/sentences/show/12369082) | piterkeo |
+| S35026 | Eu estou certo, não estou? | I'm right, aren't I? |  | [#1291568](https://tatoeba.org/en/sentences/show/1291568) | alexmarcelo |
+| S35027 | Quem está aí com você? | Who are you there with? | Who's in there with you? | [#4990743](https://tatoeba.org/en/sentences/show/4990743) | bill |
+| S35028 | Você não tem isso, certo? | You don't have that, right? |  | [#5891256](https://tatoeba.org/en/sentences/show/5891256) | sergiomelo |
+| S35029 | Você é o Tom, certo? | You're Tom, right? |  | [#5918869](https://tatoeba.org/en/sentences/show/5918869) | Ricardo14 |
+| S35030 | Você tem um carro, certo? | You've got a car, right? |  | [#7354308](https://tatoeba.org/en/sentences/show/7354308) | Ricardo14 |
+
+## U44 Numbers to 100: Tens to 100: trinta … noventa, cem; trinta e um: e between tens and units; mil, um milhão
+
+19 sentences picked from 19 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: cinquenta (0), sessenta (0), setenta (0), noventa (0), cem (2), quinhentos (0), milhão (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S44001 | Tenho trinta anos. | I'm thirty years old. | I am thirty years old. | [#1146490](https://tatoeba.org/en/sentences/show/1146490) | tulio |
+| S44002 | Ele tem trinta anos. | He is thirty years old. |  | [#1215824](https://tatoeba.org/en/sentences/show/1215824) | alexmarcelo |
+| S44003 | Eu tenho trinta anos. | I'm thirty years old. | I am thirty years old. | [#2115321](https://tatoeba.org/en/sentences/show/2115321) | alexmarcelo |
+| S44004 | Ele tem mais de quarenta. | He's over forty. | He is past forty. | [#734673](https://tatoeba.org/en/sentences/show/734673) | lenon_perez |
+| S44005 | Ela tem dois mil livros. | She has two thousand books. |  | [#1089670](https://tatoeba.org/en/sentences/show/1089670) | bufo |
+| S44006 | Tom tem três mil livros. | Tom has three thousand books. |  | [#1212971](https://tatoeba.org/en/sentences/show/1212971) | alexmarcelo |
+| S44007 | Cem é um número grande. | A hundred is a large number. |  | [#3595839](https://tatoeba.org/en/sentences/show/3595839) | carlosalberto |
+| S44008 | Tenho quarenta e cinco anos. | I am forty-five years old. |  | [#6460093](https://tatoeba.org/en/sentences/show/6460093) | heo598 |
+| S44009 | Tenho oitenta e nove anos. | I am eighty-nine years old. |  | [#11161022](https://tatoeba.org/en/sentences/show/11161022) | carlosalberto |
+| S44010 | A biblioteca tem oitenta anos. | The library is eighty years old. |  | [#11777935](https://tatoeba.org/en/sentences/show/11777935) | ajdavidl |
+| S44011 | Ele tem mais de mil livros. | He has more than a thousand books. |  | [#3986804](https://tatoeba.org/en/sentences/show/3986804) | ajdavidl |
+| S44012 | Eu tenho oitenta e quatro anos. | I'm eighty-four years old. |  | [#7846134](https://tatoeba.org/en/sentences/show/7846134) | Ricardo14 |
+| S44013 | Eu tenho quarenta e sete anos. | I'm forty-seven years old. |  | [#13221101](https://tatoeba.org/en/sentences/show/13221101) | pedromarques |
+| S44014 | Essa foto tem mais de cem anos. | This photo is over a hundred years old. |  | [#12539269](https://tatoeba.org/en/sentences/show/12539269) | Advanced |
+| S44015 | Tom tem trinta anos. | Tom is thirty years old. |  | [#4866816](https://tatoeba.org/en/sentences/show/4866816) | Ricardo14 |
+| S44016 | São oito e trinta. | It's half past eight. |  | [#8803566](https://tatoeba.org/en/sentences/show/8803566) | carlosalberto |
+| S44017 | O Tom tem trinta anos. | Tom is thirty years old. |  | [#2108441](https://tatoeba.org/en/sentences/show/2108441) | MarlonX19 |
+| S44018 | Maria tem trinta e seis anos. | Mary is thirty-six years old. |  | [#6059320](https://tatoeba.org/en/sentences/show/6059320) | sergiomelo |
+| S44019 | Ela agora tem oitenta e um anos. | She is now eighty-one years old. |  | [#5115406](https://tatoeba.org/en/sentences/show/5115406) | Ricardo14 |
+
+## U45 Where You Live: Moro em …: morar for where you live; moro, mora; numa casa, num apartamento; perto de, longe de
+
+30 sentences picked from 203 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: avenida (0), praça (0), postal (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S45001 | Você sabe em que país ela mora? | Do you know in which country she lives now? |  | [#4360783](https://tatoeba.org/en/sentences/show/4360783) | Ricardo14 |
+| S45002 | Ele mora em apartamento. | He lives in a flat. |  | [#731214](https://tatoeba.org/en/sentences/show/731214) | lenon_perez |
+| S45003 | Vivo em um pequeno apartamento. | I live in a small apartment. |  | [#4263280](https://tatoeba.org/en/sentences/show/4263280) | JFMorais |
+| S45004 | Ela mora em um apartamento. | She lives in an apartment. |  | [#5891449](https://tatoeba.org/en/sentences/show/5891449) | Solid_Rock |
+| S45005 | Ele está procurando um lugar para viver. | He's looking for a place to live. |  | [#6472371](https://tatoeba.org/en/sentences/show/6472371) | heo598 |
+| S45006 | Ele está procurando um lugar para morar. | He's looking for a place to live. |  | [#6472373](https://tatoeba.org/en/sentences/show/6472373) | heo598 |
+| S45007 | Onde ele vive? | Where does he live? |  | [#384766](https://tatoeba.org/en/sentences/show/384766) | brauliobezerra |
+| S45008 | Você tem um endereço? | Do you have an address? |  | [#381756](https://tatoeba.org/en/sentences/show/381756) | brauliobezerra |
+| S45009 | Que lugar é esse? | What is this place? |  | [#1326690](https://tatoeba.org/en/sentences/show/1326690) | alexmarcelo |
+| S45010 | Você sabe o endereço? | Do you know the address? |  | [#2184484](https://tatoeba.org/en/sentences/show/2184484) | alexmarcelo |
+| S45011 | Onde você quer morar? | Where do you wanna live? | Where do you want to live? | [#2772533](https://tatoeba.org/en/sentences/show/2772533) | Ricardo14 |
+| S45012 | Onde sua família vive? | Where does your family live? |  | [#4218928](https://tatoeba.org/en/sentences/show/4218928) | ajdavidl |
+| S45013 | Onde você vai morar? | Where will you live? | Where are you going to live? | [#5393916](https://tatoeba.org/en/sentences/show/5393916) | carlosalberto |
+| S45014 | Qual é o endereço? | What's the address? |  | [#9095178](https://tatoeba.org/en/sentences/show/9095178) | carlosalberto |
+| S45015 | De que país você é? | What country are you from? | Which country are you from? | [#404821](https://tatoeba.org/en/sentences/show/404821) | brauliobezerra |
+| S45016 | Você sabe onde ele vive? | Do you know where he lives? |  | [#1236778](https://tatoeba.org/en/sentences/show/1236778) | alexmarcelo |
+| S45017 | Você sabe onde eu moro? | Do you know where I live? |  | [#1555565](https://tatoeba.org/en/sentences/show/1555565) | alexmarcelo |
+| S45018 | O que é um código postal? | What is a zip code? |  | [#11748207](https://tatoeba.org/en/sentences/show/11748207) | ajdavidl |
+| S45019 | Ele fica perto de qual país? | What country is it close to? |  | [#2758784](https://tatoeba.org/en/sentences/show/2758784) | Ricardo14 |
+| S45020 | Como você sabe onde eu moro? | How do you know where I live? |  | [#4727079](https://tatoeba.org/en/sentences/show/4727079) | carlosalberto |
+| S45021 | Moro aqui. | I live here. |  | [#3888250](https://tatoeba.org/en/sentences/show/3888250) | Laudemilson |
+| S45022 | Eu vivo aqui. | I live here. |  | [#1189906](https://tatoeba.org/en/sentences/show/1189906) | alexmarcelo |
+| S45023 | Vivo na cidade. | I live in town. |  | [#4820551](https://tatoeba.org/en/sentences/show/4820551) | Ricardo14 |
+| S45024 | Gosto de viver aqui. | I like living here. |  | [#5638160](https://tatoeba.org/en/sentences/show/5638160) | Ricardo14 |
+| S45025 | Eu gosto de viver aqui. | I like living here. |  | [#1227736](https://tatoeba.org/en/sentences/show/1227736) | alexmarcelo |
+| S45026 | Onde ele mora? | Where does he live? |  | [#384765](https://tatoeba.org/en/sentences/show/384765) | brauliobezerra |
+| S45027 | Você mora aqui? | Do you live here? |  | [#393520](https://tatoeba.org/en/sentences/show/393520) | brauliobezerra |
+| S45028 | Onde você mora? | Where do you live? |  | [#393581](https://tatoeba.org/en/sentences/show/393581) | brauliobezerra |
+| S45029 | Tom mora aqui? | Does Tom live here? |  | [#3494143](https://tatoeba.org/en/sentences/show/3494143) | piterkeo |
+| S45030 | Quem mora aqui? | Who lives here? |  | [#5972003](https://tatoeba.org/en/sentences/show/5972003) | bill |
+
+## U56 Looks: É gordo, é gorda: adjectives agree; ser for what someone is like; simpático, agradável
+
+30 sentences picked from 68 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: gorda (1), baixa (1), moreno (0), morena (0), ruivo (0), simpático (2), antipático (2), alegre (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S56001 | Ela é agradável? | Is she nice? |  | [#871783](https://tatoeba.org/en/sentences/show/871783) | alexmarcelo |
+| S56002 | É interessante, não é? | It's interesting, isn't it? |  | [#5673077](https://tatoeba.org/en/sentences/show/5673077) | bill |
+| S56003 | É muito interessante, não é? | It's very interesting, isn't it? |  | [#8762984](https://tatoeba.org/en/sentences/show/8762984) | Ricardo14 |
+| S56004 | Tom é antipático, não é? | Tom is unfriendly, isn't he? |  | [#9406680](https://tatoeba.org/en/sentences/show/9406680) | phcavelar |
+| S56005 | Está um dia agradável, não é? | It is a nice day, isn't it? |  | [#2137386](https://tatoeba.org/en/sentences/show/2137386) | CptGuapo |
+| S56006 | É um lugar agradável, não é? | This is a nice place, don't you think? |  | [#8074253](https://tatoeba.org/en/sentences/show/8074253) | MacGyver |
+| S56007 | Esse livro é muito interessante, não é? | That book is very interesting, isn't it? |  | [#11196573](https://tatoeba.org/en/sentences/show/11196573) | bill |
+| S56008 | Ele é loiro. | He's blond. | He has blond hair. | [#1201112](https://tatoeba.org/en/sentences/show/1201112) | alexmarcelo |
+| S56009 | Que gato feio. | What an ugly cat. |  | [#1571203](https://tatoeba.org/en/sentences/show/1571203) | alexmarcelo |
+| S56010 | Ela é loira. | She is blonde. |  | [#2427728](https://tatoeba.org/en/sentences/show/2427728) | Matheus |
+| S56011 | Você está feio. | You look ugly. |  | [#2594965](https://tatoeba.org/en/sentences/show/2594965) | alexmarcelo |
+| S56012 | Tom é simpático. | Tom is pleasant. |  | [#4505282](https://tatoeba.org/en/sentences/show/4505282) | carlosalberto |
+| S56013 | É bem feio. | It's pretty ugly. |  | [#4837549](https://tatoeba.org/en/sentences/show/4837549) | Ricardo14 |
+| S56014 | Mary é loira. | Mary is blonde. |  | [#5031117](https://tatoeba.org/en/sentences/show/5031117) | Ricardo14 |
+| S56015 | Tom é antipático. | Tom is obnoxious. |  | [#5261846](https://tatoeba.org/en/sentences/show/5261846) | alexmarcelo |
+| S56016 | Você é simpático. | You're kind. |  | [#5262521](https://tatoeba.org/en/sentences/show/5262521) | alexmarcelo |
+| S56017 | Ele é gordo. | He's fat. |  | [#11035328](https://tatoeba.org/en/sentences/show/11035328) | carlosalberto |
+| S56018 | Tom é gordo. | Tom's fat. | Tom is fat. | [#11134978](https://tatoeba.org/en/sentences/show/11134978) | MrJuice |
+| S56019 | Ele tem cabelo loiro. | He has blond hair. |  | [#380343](https://tatoeba.org/en/sentences/show/380343) | brauliobezerra |
+| S56020 | Eu sou muito gordo. | I'm so fat. |  | [#397653](https://tatoeba.org/en/sentences/show/397653) | brauliobezerra |
+| S56021 | Eu não sou gorda! | I'm not fat! | I am not fat! | [#2500523](https://tatoeba.org/en/sentences/show/2500523) | alexmarcelo |
+| S56022 | Maria é a loira. | Maria is the blonde one. |  | [#8364151](https://tatoeba.org/en/sentences/show/8364151) | RYutaka |
+| S56023 | Ela tem o cabelo loiro. | She has blonde hair. |  | [#7050801](https://tatoeba.org/en/sentences/show/7050801) | iart61 |
+| S56024 | Eu sou mais baixa que ele. | I'm shorter than him. |  | [#2490553](https://tatoeba.org/en/sentences/show/2490553) | MarlonX19 |
+| S56025 | Que interessante! | How interesting! |  | [#1900176](https://tatoeba.org/en/sentences/show/1900176) | alexmarcelo |
+| S56026 | É interessante. | It's interesting. |  | [#5072378](https://tatoeba.org/en/sentences/show/5072378) | markpalmer |
+| S56027 | Isso é interessante. | That is intriguing. |  | [#397660](https://tatoeba.org/en/sentences/show/397660) | brauliobezerra |
+| S56028 | Que livro interessante! | What an interesting book! |  | [#1050590](https://tatoeba.org/en/sentences/show/1050590) | alexmarcelo |
+| S56029 | Que festa interessante! | What an interesting party! |  | [#1915977](https://tatoeba.org/en/sentences/show/1915977) | alexmarcelo |
+| S56030 | É muito feio. | It's pretty ugly. |  | [#4837551](https://tatoeba.org/en/sentences/show/4837551) | Ricardo14 |
+
+## U46 Countries + Languages: Sou brasileiro, sou brasileira: nationalities agree; falo, fala: -ar verbs; languages take no capital
+
+35 sentences picked from 70 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: México (0), China (1), brasileira (2), mexicano (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S46001 | Não falo chinês. | I don't speak Chinese. | I do not speak Chinese. | [#964850](https://tatoeba.org/en/sentences/show/964850) | alexmarcelo |
+| S46002 | Eu não falo chinês. | I don't speak Chinese. |  | [#5119362](https://tatoeba.org/en/sentences/show/5119362) | Ricardo14 |
+| S46003 | E Portugal? | What about Portugal? |  | [#2973910](https://tatoeba.org/en/sentences/show/2973910) | alexmarcelo |
+| S46004 | Você é chinês? | Are you Chinese? |  | [#1105788](https://tatoeba.org/en/sentences/show/1105788) | alexmarcelo |
+| S46005 | Você é estrangeiro? | Are you a foreigner? |  | [#5243107](https://tatoeba.org/en/sentences/show/5243107) | KimiP |
+| S46006 | Você é brasileira? | Are you Brazilian? |  | [#8470536](https://tatoeba.org/en/sentences/show/8470536) | Ricardo14 |
+| S46007 | Com quem eu falo? | Who am I talking with? |  | [#405097](https://tatoeba.org/en/sentences/show/405097) | brauliobezerra |
+| S46008 | Qual a nacionalidade dela? | Which is her nationality? |  | [#8197442](https://tatoeba.org/en/sentences/show/8197442) | josivangoncalves |
+| S46009 | Qual a nacionalidade dele? | Which is his nationality? |  | [#8212282](https://tatoeba.org/en/sentences/show/8212282) | josivangoncalves |
+| S46010 | Que língua é essa? | What language is it? | What language is this? | [#8995600](https://tatoeba.org/en/sentences/show/8995600) | lucasmg123 |
+| S46011 | Sou brasileiro, e você? | I'm Brazilian, and you? |  | [#9871915](https://tatoeba.org/en/sentences/show/9871915) | Ricardo14 |
+| S46012 | Você quer morar na Alemanha? | Do you want to live in Germany? |  | [#1782974](https://tatoeba.org/en/sentences/show/1782974) | alexmarcelo |
+| S46013 | Você quer estudar na Alemanha? | Do you want to study in Germany? |  | [#1782980](https://tatoeba.org/en/sentences/show/1782980) | alexmarcelo |
+| S46014 | Você não é brasileira, é? | You're not Brazilian, are you? |  | [#2211100](https://tatoeba.org/en/sentences/show/2211100) | alexmarcelo |
+| S46015 | Qual é a nacionalidade dela? | What's her nationality? | What is her nationality? | [#2700552](https://tatoeba.org/en/sentences/show/2700552) | carlosalberto |
+| S46016 | Eu sou brasileiro, e você? | I'm Brazilian, and you? |  | [#9871914](https://tatoeba.org/en/sentences/show/9871914) | Ricardo14 |
+| S46017 | Como você diz isso na sua língua? | How do you say that in your language? |  | [#8883698](https://tatoeba.org/en/sentences/show/8883698) | Ricardo14 |
+| S46018 | Sou brasileiro. | I'm Brazilian. |  | [#2036349](https://tatoeba.org/en/sentences/show/2036349) | Ricardo14 |
+| S46019 | Sou mexicano. | I'm Mexican. |  | [#7310115](https://tatoeba.org/en/sentences/show/7310115) | iart61 |
+| S46020 | Eu sou estrangeiro. | I'm a foreigner. | I am a foreigner. | [#1221747](https://tatoeba.org/en/sentences/show/1221747) | alexmarcelo |
+| S46021 | Nasci na China. | I was born in China. |  | [#3276514](https://tatoeba.org/en/sentences/show/3276514) | Ricardo14 |
+| S46022 | Tom é estrangeiro. | Tom is a foreigner. |  | [#4834876](https://tatoeba.org/en/sentences/show/4834876) | carlosalberto |
+| S46023 | Moro no Brasil. | I live in Brazil. |  | [#6934967](https://tatoeba.org/en/sentences/show/6934967) | Ricardo14 |
+| S46024 | Sou de Portugal. | I am from Portugal. |  | [#8986799](https://tatoeba.org/en/sentences/show/8986799) | Ricardo14 |
+| S46025 | Ela é de Portugal. | She's from Portugal. |  | [#3705280](https://tatoeba.org/en/sentences/show/3705280) | Ricardo14 |
+| S46026 | Paris fica na França. | Paris is in France. |  | [#5152449](https://tatoeba.org/en/sentences/show/5152449) | alexmarcelo |
+| S46027 | Eu nasci no Brasil. | I was born in Brazil. |  | [#5578570](https://tatoeba.org/en/sentences/show/5578570) | carlosalberto |
+| S46028 | Eu moro no Brasil. | I live in Brazil. |  | [#6934965](https://tatoeba.org/en/sentences/show/6934965) | Ricardo14 |
+| S46029 | Sou de Paris, França. | I'm from Paris, France. |  | [#7053144](https://tatoeba.org/en/sentences/show/7053144) | Ricardo14 |
+| S46030 | Não conheço essa língua. | I don't know that language. |  | [#7090077](https://tatoeba.org/en/sentences/show/7090077) | alexmarcelo |
+| S46031 | Temos um colega na Espanha. | We have a colleague in Spain. |  | [#904636](https://tatoeba.org/en/sentences/show/904636) | alexmarcelo |
+| S46032 | Eu sou de Paris, França. | I'm from Paris, France. |  | [#3262299](https://tatoeba.org/en/sentences/show/3262299) | Ricardo14 |
+| S46033 | Tom tem amigos na Alemanha. | Tom has friends in Germany. |  | [#7740709](https://tatoeba.org/en/sentences/show/7740709) | MacGyver |
+| S46034 | Nós temos um colega na Espanha. | We have a colleague in Spain. |  | [#5119599](https://tatoeba.org/en/sentences/show/5119599) | Ricardo14 |
+| S46035 | Tenho uma amiga que mora na Espanha. | I have a friend who lives in Spain. |  | [#6760808](https://tatoeba.org/en/sentences/show/6760808) | Ricardo14 |
+
+## U47 At the Market: Quero …, queria … (politer): querer; comprar: compro; um quilo de …
+
+30 sentences picked from 344 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: compro (0), quilo (0), ovo (1), tomate (1), batata (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S47001 | Quero comprar. | I want to buy. |  | [#1213998](https://tatoeba.org/en/sentences/show/1213998) | alexmarcelo |
+| S47002 | Não quero banana. | I don't want a banana. |  | [#10841821](https://tatoeba.org/en/sentences/show/10841821) | Advanced |
+| S47003 | Quero comprar papel. | I want to buy some paper. |  | [#13058072](https://tatoeba.org/en/sentences/show/13058072) | Advanced |
+| S47004 | Eu queria suco de laranja. | I'd like orange juice. |  | [#996536](https://tatoeba.org/en/sentences/show/996536) | alexmarcelo |
+| S47005 | Tom queria comprar um livro. | Tom wanted to buy a book. |  | [#4793224](https://tatoeba.org/en/sentences/show/4793224) | bill |
+| S47006 | Não quer fruta? | Won't you have some fruit? |  | [#1592831](https://tatoeba.org/en/sentences/show/1592831) | alexmarcelo |
+| S47007 | Você tem ovos? | Do you have eggs? |  | [#4388148](https://tatoeba.org/en/sentences/show/4388148) | ajdavidl |
+| S47008 | Você quer banana? | Do you want a banana? |  | [#5016268](https://tatoeba.org/en/sentences/show/5016268) | alexmarcelo |
+| S47009 | Quer uma banana? | Would you like a banana? |  | [#5455933](https://tatoeba.org/en/sentences/show/5455933) | bill |
+| S47010 | Que fruta é verde? | What fruit is green? |  | [#1636017](https://tatoeba.org/en/sentences/show/1636017) | alexmarcelo |
+| S47011 | Ele gosta de laranja? | Does he like oranges? |  | [#2104106](https://tatoeba.org/en/sentences/show/2104106) | MarlonX19 |
+| S47012 | Onde Tom queria morar? | Where did Tom want to live? |  | [#5898098](https://tatoeba.org/en/sentences/show/5898098) | bill |
+| S47013 | O que você quer vender? | What do you want to sell? |  | [#6006211](https://tatoeba.org/en/sentences/show/6006211) | bill |
+| S47014 | Onde é o mercado? | Where is the market? |  | [#12363049](https://tatoeba.org/en/sentences/show/12363049) | VPZ |
+| S47015 | Onde estão os ovos, por favor? | Where are the eggs, please? |  | [#393113](https://tatoeba.org/en/sentences/show/393113) | brauliobezerra |
+| S47016 | Com licença, onde estão os ovos? | Excuse me, where are the eggs? |  | [#1230784](https://tatoeba.org/en/sentences/show/1230784) | alexmarcelo |
+| S47017 | Você quer suco de laranja? | Would you like some orange juice? |  | [#1917319](https://tatoeba.org/en/sentences/show/1917319) | alexmarcelo |
+| S47018 | De qual fruta você gosta mais? | Which fruit do you like most? | What fruit do you like the best? | [#970471](https://tatoeba.org/en/sentences/show/970471) | alexmarcelo |
+| S47019 | Você sabe onde fica o supermercado? | Do you know where the supermarket is? |  | [#4170879](https://tatoeba.org/en/sentences/show/4170879) | alexmarcelo |
+| S47020 | Tom está no supermercado, não é? | Tom is at the supermarket, isn't he? |  | [#10713159](https://tatoeba.org/en/sentences/show/10713159) | ajdavidl |
+| S47021 | Que supermercado grande! | What a big supermarket! |  | [#1926626](https://tatoeba.org/en/sentences/show/1926626) | alexmarcelo |
+| S47022 | Vou ao mercado. | I go to the market. |  | [#8215209](https://tatoeba.org/en/sentences/show/8215209) | carlosalberto |
+| S47023 | O mercado é grande. | The market is big. |  | [#1648929](https://tatoeba.org/en/sentences/show/1648929) | alexmarcelo |
+| S47024 | Maria come um tomate. | Mary eats a tomato. |  | [#11917119](https://tatoeba.org/en/sentences/show/11917119) | juniorklaar |
+| S47025 | Você não pode vender isso. | You can't sell it. |  | [#3435005](https://tatoeba.org/en/sentences/show/3435005) | Ricardo14 |
+| S47026 | Ele não gosta de ovo. | He doesn't like eggs. |  | [#4611495](https://tatoeba.org/en/sentences/show/4611495) | KimiP |
+| S47027 | Tenho que vender minha casa. | I have to sell my house. |  | [#4853210](https://tatoeba.org/en/sentences/show/4853210) | bill |
+| S47028 | O que você quer comprar? | What do you want to buy? | What is it you want to buy? | [#1052811](https://tatoeba.org/en/sentences/show/1052811) | brauliobezerra |
+| S47029 | Vai comprar esse carro? | Are you going to buy that car? |  | [#1412373](https://tatoeba.org/en/sentences/show/1412373) | alexmarcelo |
+| S47030 | Você vai comprar isso? | Are you going to buy that? |  | [#6138876](https://tatoeba.org/en/sentences/show/6138876) | bill |
+
+## U57 Opposites: Fácil, difícil: adjectives in -l are the same for both genders; mau, má (bad); é importante
+
+30 sentences picked from 158 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: mole (0), largo (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S57001 | É importante? | Is that important? | Is it important? | [#983604](https://tatoeba.org/en/sentences/show/983604) | alexmarcelo |
+| S57002 | Está limpo? | Is it clean? |  | [#4381926](https://tatoeba.org/en/sentences/show/4381926) | ajdavidl |
+| S57003 | Está sujo? | Is it dirty? |  | [#4902661](https://tatoeba.org/en/sentences/show/4902661) | Ricardo14 |
+| S57004 | Isso está sujo? | Is it dirty? |  | [#4902660](https://tatoeba.org/en/sentences/show/4902660) | Ricardo14 |
+| S57005 | Isso é importante? | Is this important? |  | [#6839789](https://tatoeba.org/en/sentences/show/6839789) | Wagner1994 |
+| S57006 | Por que isso é importante? | Why is this important? | Why does this matter?; Why is that significant? | [#3072305](https://tatoeba.org/en/sentences/show/3072305) | carlosalberto |
+| S57007 | É difícil, não é? | It's hard, isn't it? | It's difficult, isn't it? | [#3490253](https://tatoeba.org/en/sentences/show/3490253) | piterkeo |
+| S57008 | É duro, não é? | It's hard, isn't it? |  | [#3490254](https://tatoeba.org/en/sentences/show/3490254) | piterkeo |
+| S57009 | Qual é mais fácil? | Which one is easier? |  | [#4756823](https://tatoeba.org/en/sentences/show/4756823) | bill |
+| S57010 | Está muito quente, não? | It's really hot, isn't it? |  | [#9461686](https://tatoeba.org/en/sentences/show/9461686) | Ricardo14 |
+| S57011 | Inglês é difícil, não é? | English is hard, isn't it? | English is difficult, isn't it?; English is difficult, innit? | [#393713](https://tatoeba.org/en/sentences/show/393713) | brauliobezerra |
+| S57012 | Está muito quente, não está? | It's very hot, isn't it? |  | [#394320](https://tatoeba.org/en/sentences/show/394320) | brauliobezerra |
+| S57013 | É difícil falar em inglês? | Is it hard to speak English? |  | [#5616780](https://tatoeba.org/en/sentences/show/5616780) | Ricardo14 |
+| S57014 | Está bem quente, não está? | It's quite hot, isn't it? |  | [#6794849](https://tatoeba.org/en/sentences/show/6794849) | Ricardo14 |
+| S57015 | Mary é má, não é? | Mary is mean, isn't she? |  | [#13595703](https://tatoeba.org/en/sentences/show/13595703) | supermarinete |
+| S57016 | O Tom é mau, não é? | Tom is mean, isn't he? |  | [#7225461](https://tatoeba.org/en/sentences/show/7225461) | Ricardo14 |
+| S57017 | Qual é o queijo mais duro? | What is the hardest cheese? |  | [#10166362](https://tatoeba.org/en/sentences/show/10166362) | DavidDias |
+| S57018 | É fácil. | It's easy. | This is easy. | [#958329](https://tatoeba.org/en/sentences/show/958329) | alexmarcelo |
+| S57019 | Isso é fácil. | It's easy. | This is easy. | [#869089](https://tatoeba.org/en/sentences/show/869089) | alexmarcelo |
+| S57020 | Ele está duro. | He's broke. |  | [#1205175](https://tatoeba.org/en/sentences/show/1205175) | alexmarcelo |
+| S57021 | Eu sou fraco. | I am weak. |  | [#2699258](https://tatoeba.org/en/sentences/show/2699258) | alexmarcelo |
+| S57022 | Eu estou fraco. | I am weak. |  | [#2699259](https://tatoeba.org/en/sentences/show/2699259) | alexmarcelo |
+| S57023 | Você está fraco. | You're weak. | You're powerless. | [#2756061](https://tatoeba.org/en/sentences/show/2756061) | Sitko |
+| S57024 | Não é limpo. | It's not clean. |  | [#3214939](https://tatoeba.org/en/sentences/show/3214939) | gleydin |
+| S57025 | Está muito limpo. | It's very clean. |  | [#3808147](https://tatoeba.org/en/sentences/show/3808147) | muriloricci |
+| S57026 | Tom é mau. | Tom is bad. |  | [#4887140](https://tatoeba.org/en/sentences/show/4887140) | Ricardo14 |
+| S57027 | Que menina má! | What a bad girl! |  | [#6015090](https://tatoeba.org/en/sentences/show/6015090) | alexmarcelo |
+| S57028 | Você é um mau pai. | You're a bad father. |  | [#3489913](https://tatoeba.org/en/sentences/show/3489913) | piterkeo |
+| S57029 | O carro de Tom está sujo. | Tom's car is dirty. |  | [#3677953](https://tatoeba.org/en/sentences/show/3677953) | ajdavidl |
+| S57030 | Tom não é uma má criança. | Tom's not a bad kid. |  | [#5184544](https://tatoeba.org/en/sentences/show/5184544) | ToinhoAlam |
+
+## U36 Checking You Understood: Claro. Combinado. Exatamente. É verdade?
+
+30 sentences picked from 68 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: combinado (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S36001 | Está claro? | Is it clear? |  | [#985166](https://tatoeba.org/en/sentences/show/985166) | alexmarcelo |
+| S36002 | Está claro isso? | Is that clear? |  | [#1136377](https://tatoeba.org/en/sentences/show/1136377) | alexmarcelo |
+| S36003 | Claro, por que não? | Sure, why not? | Of course, why not? | [#1583852](https://tatoeba.org/en/sentences/show/1583852) | alexmarcelo |
+| S36004 | O que isso significa exatamente? | What exactly does that mean? | What does that mean exactly? | [#2324621](https://tatoeba.org/en/sentences/show/2324621) | Matheus |
+| S36005 | O que é a verdade? | What is truth? |  | [#2363823](https://tatoeba.org/en/sentences/show/2363823) | alexmarcelo |
+| S36006 | Qual é a verdade? | What is the truth? |  | [#2363824](https://tatoeba.org/en/sentences/show/2363824) | alexmarcelo |
+| S36007 | Onde você vive exatamente? | Where exactly do you live? |  | [#2426592](https://tatoeba.org/en/sentences/show/2426592) | marcospcruz |
+| S36008 | Onde você mora, exatamente? | Where do you live, exactly? |  | [#2625005](https://tatoeba.org/en/sentences/show/2625005) | carlosalberto |
+| S36009 | É verdade, não é? | It's the truth, isn't it? |  | [#3490249](https://tatoeba.org/en/sentences/show/3490249) | piterkeo |
+| S36010 | O que é isso exatamente? | What exactly is it? |  | [#5699415](https://tatoeba.org/en/sentences/show/5699415) | Ricardo14 |
+| S36011 | O que exatamente estamos procurando? | What exactly are we looking for? |  | [#6979855](https://tatoeba.org/en/sentences/show/6979855) | Ricardo14 |
+| S36012 | Exatamente onde o Tom está? | Where exactly is Tom? |  | [#4918581](https://tatoeba.org/en/sentences/show/4918581) | bill |
+| S36013 | O que exatamente nós estamos procurando? | What exactly are we looking for? |  | [#6979854](https://tatoeba.org/en/sentences/show/6979854) | Ricardo14 |
+| S36014 | O que exatamente você quer dizer? | What exactly do you mean? |  | [#7262054](https://tatoeba.org/en/sentences/show/7262054) | Ricardo14 |
+| S36015 | O Tom sabe a verdade? | Does Tom know the truth? |  | [#12824145](https://tatoeba.org/en/sentences/show/12824145) | GustaBR |
+| S36016 | É claro. | Certainly. | Of course.; It's clear. | [#1054682](https://tatoeba.org/en/sentences/show/1054682) | alexmarcelo |
+| S36017 | Fale claro. | Speak clearly. |  | [#3098879](https://tatoeba.org/en/sentences/show/3098879) | carlosalberto |
+| S36018 | Claro, entendo. | Of course, I understand. |  | [#12946302](https://tatoeba.org/en/sentences/show/12946302) | Giuliaito |
+| S36019 | É a verdade. | It's the truth. |  | [#1213859](https://tatoeba.org/en/sentences/show/1213859) | alexmarcelo |
+| S36020 | Claro que sim! | Of course! |  | [#1319213](https://tatoeba.org/en/sentences/show/1319213) | brauliobezerra |
+| S36021 | Não está claro. | It's not clear. |  | [#3173596](https://tatoeba.org/en/sentences/show/3173596) | piterkeo |
+| S36022 | É claro, entendo. | Of course, I understand. |  | [#4490821](https://tatoeba.org/en/sentences/show/4490821) | Ricardo14 |
+| S36023 | Ele sabe a verdade. | He knows the truth. |  | [#1653583](https://tatoeba.org/en/sentences/show/1653583) | alexmarcelo |
+| S36024 | Ela sabe a verdade. | She knows the truth. |  | [#1653585](https://tatoeba.org/en/sentences/show/1653585) | alexmarcelo |
+| S36025 | Vou dizer a verdade. | I'm going to tell the truth. |  | [#2831386](https://tatoeba.org/en/sentences/show/2831386) | alexmarcelo |
+| S36026 | Eu quero a verdade. | I want the truth. |  | [#3706139](https://tatoeba.org/en/sentences/show/3706139) | ajdavidl |
+| S36027 | É claro, eu entendo. | Of course, I understand. |  | [#4490820](https://tatoeba.org/en/sentences/show/4490820) | Ricardo14 |
+| S36028 | Tom sabe a verdade. | Tom knows the truth. |  | [#4815028](https://tatoeba.org/en/sentences/show/4815028) | Ricardo14 |
+| S36029 | Essa é a verdade. | It's the truth. |  | [#5623988](https://tatoeba.org/en/sentences/show/5623988) | Ricardo14 |
+| S36030 | Não sei a verdade. | I don't know the truth. |  | [#7090010](https://tatoeba.org/en/sentences/show/7090010) | alexmarcelo |
+
+## U48 How Much Is It?: Quanto custa? Custa … reais; custam for more than one; é caro, é barato; o troco
+
+30 sentences picked from 164 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: custam (0), custar (1), real (1), reais (0), centavos (0), barata (0), cartão (2), moeda (1), nota (0), conta (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S48001 | Quem vai pagar a conta? | Who'll pay the bill? | Who's going to pay the bill? | [#5025039](https://tatoeba.org/en/sentences/show/5025039) | bill |
+| S48002 | Táxi custa caro. | Taxis are expensive. |  | [#4071243](https://tatoeba.org/en/sentences/show/4071243) | alexmarcelo |
+| S48003 | Tudo custa dinheiro. | Everything costs money. |  | [#5051251](https://tatoeba.org/en/sentences/show/5051251) | bill |
+| S48004 | Custa muito dinheiro. | It costs a lot of money. |  | [#8217908](https://tatoeba.org/en/sentences/show/8217908) | josivangoncalves |
+| S48005 | Vai custar muito dinheiro. | It will cost a lot of money. |  | [#5881872](https://tatoeba.org/en/sentences/show/5881872) | sergiomelo |
+| S48006 | O queijo não é barato; é caro. | The cheese isn't cheap; it's expensive. |  | [#6165450](https://tatoeba.org/en/sentences/show/6165450) | anthrax26 |
+| S48007 | Quem vai pagar? | Who's paying? | Who will pay? | [#1205182](https://tatoeba.org/en/sentences/show/1205182) | alexmarcelo |
+| S48008 | Onde eu pago? | Where should I pay? |  | [#1564650](https://tatoeba.org/en/sentences/show/1564650) | alexmarcelo |
+| S48009 | Você tem troco? | Do you have any change? |  | [#3692839](https://tatoeba.org/en/sentences/show/3692839) | carlosalberto |
+| S48010 | Você vai pagar? | Will you pay? |  | [#4602954](https://tatoeba.org/en/sentences/show/4602954) | carlosalberto |
+| S48011 | Você tem cartão? | Do you have a card? |  | [#5979384](https://tatoeba.org/en/sentences/show/5979384) | Ricardo14 |
+| S48012 | Você tem uma moeda? | Do you have a coin? |  | [#1732261](https://tatoeba.org/en/sentences/show/1732261) | alexmarcelo |
+| S48013 | Você tem um cartão? | Do you have a card? |  | [#2726801](https://tatoeba.org/en/sentences/show/2726801) | Ricardo14 |
+| S48014 | Qual é mais barato? | Which is cheaper? | Which one is cheaper? | [#3978089](https://tatoeba.org/en/sentences/show/3978089) | alexmarcelo |
+| S48015 | O que é mais barato? | What is cheaper? |  | [#10810616](https://tatoeba.org/en/sentences/show/10810616) | carlosalberto |
+| S48016 | Esse restaurante é caro? | Is this restaurant expensive? |  | [#13113151](https://tatoeba.org/en/sentences/show/13113151) | Kleb |
+| S48017 | Esse cara bonito é seu pai !? | This handsome guy is your father!? |  | [#9085758](https://tatoeba.org/en/sentences/show/9085758) | SunnyKim |
+| S48018 | Você é bem pago, não é? | You're well paid, aren't you? |  | [#11068581](https://tatoeba.org/en/sentences/show/11068581) | alexmarcelo |
+| S48019 | Tom é um cara interessante, não é? | Tom is an interesting guy, isn't he? |  | [#10720803](https://tatoeba.org/en/sentences/show/10720803) | ajdavidl |
+| S48020 | Boa noite, cara amiga! | Good night, dear friend! |  | [#1139368](https://tatoeba.org/en/sentences/show/1139368) | vekiano |
+| S48021 | Aqui está seu troco. | Here's your change. | Here is your change. | [#418131](https://tatoeba.org/en/sentences/show/418131) | brauliobezerra |
+| S48022 | Aqui está o troco. | Here's the change. |  | [#541464](https://tatoeba.org/en/sentences/show/541464) | brauliobezerra |
+| S48023 | Ele é bem pago. | He is well paid. |  | [#1220169](https://tatoeba.org/en/sentences/show/1220169) | alexmarcelo |
+| S48024 | O preço é bom. | The price is good. |  | [#9065777](https://tatoeba.org/en/sentences/show/9065777) | gleydin |
+| S48025 | O preço não é importante. | The price isn't important. |  | [#5172076](https://tatoeba.org/en/sentences/show/5172076) | bill |
+| S48026 | O preço é muito alto. | The price is too high. |  | [#10790851](https://tatoeba.org/en/sentences/show/10790851) | DavidDias |
+| S48027 | Eu não sei o que é real. | I don't know what's real. |  | [#7090158](https://tatoeba.org/en/sentences/show/7090158) | alexmarcelo |
+| S48028 | Você tem dinheiro? | Do you have money? |  | [#1034701](https://tatoeba.org/en/sentences/show/1034701) | riccioberto |
+| S48029 | Você quer dinheiro? | Do you want money? |  | [#1302348](https://tatoeba.org/en/sentences/show/1302348) | alexmarcelo |
+| S48030 | Ele tem dinheiro? | Does he have money? |  | [#1877042](https://tatoeba.org/en/sentences/show/1877042) | alexmarcelo |
+
+## U49 Bottles + Bags: Uma garrafa de …, um pacote de …: de after a quantity; pouco, todo, todos; ou, mas
+
+36 sentences picked from 203 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: saco (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S49001 | Garrafa ou copo? | Bottle or glass? |  | [#11883478](https://tatoeba.org/en/sentences/show/11883478) | ajdavidl |
+| S49002 | Todos estão aqui menos o Tom. | Everyone is here except for Tom. |  | [#6301228](https://tatoeba.org/en/sentences/show/6301228) | heo598 |
+| S49003 | Não gosto de chocolate, mas Tom gosta. | I don't like chocolate, but Tom does. |  | [#8718566](https://tatoeba.org/en/sentences/show/8718566) | bill |
+| S49004 | Tem açúcar? | Is there any sugar? |  | [#921925](https://tatoeba.org/en/sentences/show/921925) | alexmarcelo |
+| S49005 | Leite? Açúcar? | Milk? Sugar? |  | [#997056](https://tatoeba.org/en/sentences/show/997056) | alexmarcelo |
+| S49006 | Como todos estão? | How is everyone? |  | [#576720](https://tatoeba.org/en/sentences/show/576720) | brauliobezerra |
+| S49007 | Café ou chá? | Coffee or tea? |  | [#1201251](https://tatoeba.org/en/sentences/show/1201251) | alexmarcelo |
+| S49008 | Onde estão todos? | Where's everyone? | Where's everybody?; Where is everyone?; Where is everybody? | [#1693959](https://tatoeba.org/en/sentences/show/1693959) | alexmarcelo |
+| S49009 | Você ou eu? | You or I? |  | [#1916149](https://tatoeba.org/en/sentences/show/1916149) | alexmarcelo |
+| S49010 | Não quer açúcar? | Don't you want sugar? |  | [#6624117](https://tatoeba.org/en/sentences/show/6624117) | bill |
+| S49011 | Quem quer chocolate quente? | Who wants hot chocolate? | Who wants some hot chocolate? | [#405102](https://tatoeba.org/en/sentences/show/405102) | brauliobezerra |
+| S49012 | Você gosta de chocolate? | Do you like chocolate? |  | [#5744993](https://tatoeba.org/en/sentences/show/5744993) | bill |
+| S49013 | Onde está a caixa? | Where's the box? |  | [#7247543](https://tatoeba.org/en/sentences/show/7247543) | iart61 |
+| S49014 | Você tem essa garrafa? | Do you have that bottle? |  | [#7770681](https://tatoeba.org/en/sentences/show/7770681) | lucasmg123 |
+| S49015 | Qual copo é meu? | Which glass is mine? |  | [#12340087](https://tatoeba.org/en/sentences/show/12340087) | piterkeo |
+| S49016 | De quem é esse copo? | Whose glass is that? | Whose glass is this? | [#3879732](https://tatoeba.org/en/sentences/show/3879732) | Verdastelo |
+| S49017 | Esse é o saco dele? | Is this his sack? |  | [#8200712](https://tatoeba.org/en/sentences/show/8200712) | josivangoncalves |
+| S49018 | De qual caixa você gosta mais? | Which box do you like better? |  | [#2660202](https://tatoeba.org/en/sentences/show/2660202) | Welton |
+| S49019 | Mas você gosta! | But you like it! |  | [#393758](https://tatoeba.org/en/sentences/show/393758) | brauliobezerra |
+| S49020 | Nado todo dia. | I swim every day. | I go swimming every day. | [#3174408](https://tatoeba.org/en/sentences/show/3174408) | piterkeo |
+| S49021 | Eu bebo pouco. | I drink a little. |  | [#5867824](https://tatoeba.org/en/sentences/show/5867824) | ianna |
+| S49022 | Tom come bem pouco. | Tom eats very little. |  | [#1052455](https://tatoeba.org/en/sentences/show/1052455) | alexmarcelo |
+| S49023 | Tom come muito pouco. | Tom eats very little. |  | [#1052456](https://tatoeba.org/en/sentences/show/1052456) | alexmarcelo |
+| S49024 | Como peixe toda semana. | I eat fish every week. |  | [#1286360](https://tatoeba.org/en/sentences/show/1286360) | alexmarcelo |
+| S49025 | Mas eu não quero. | But I don't want to. |  | [#1491788](https://tatoeba.org/en/sentences/show/1491788) | alexmarcelo |
+| S49026 | Toda pergunta tem resposta. | Every question has an answer. |  | [#8915908](https://tatoeba.org/en/sentences/show/8915908) | carlosalberto |
+| S49027 | A caixa está aqui. | The box is here. |  | [#9524470](https://tatoeba.org/en/sentences/show/9524470) | Ricardo14 |
+| S49028 | Somos onze ao todo. | We are eleven in all. |  | [#10690662](https://tatoeba.org/en/sentences/show/10690662) | carlosalberto |
+| S49029 | A água está na garrafa. | The water is in the bottle. |  | [#1070144](https://tatoeba.org/en/sentences/show/1070144) | alexmarcelo |
+| S49030 | Tenho menos livros que você. | I have fewer books than you. |  | [#1417029](https://tatoeba.org/en/sentences/show/1417029) | alexmarcelo |
+| S49031 | Eu tenho o dia todo. | I have the whole day free. |  | [#2050377](https://tatoeba.org/en/sentences/show/2050377) | alexmarcelo |
+| S49032 | Tom come menos que Maria. | Tom eats less than Mary. | Tom eats less than Mary does. | [#4031205](https://tatoeba.org/en/sentences/show/4031205) | alexmarcelo |
+| S49033 | Eu como peixe toda semana. | I eat fish every week. |  | [#5109687](https://tatoeba.org/en/sentences/show/5109687) | Ricardo14 |
+| S49034 | Tenho um pacote aqui para você. | I have a package here for you. |  | [#4952227](https://tatoeba.org/en/sentences/show/4952227) | Ricardo14 |
+| S49035 | Temos um pacote aqui para Tom. | We have a package here for Tom. |  | [#6808015](https://tatoeba.org/en/sentences/show/6808015) | lucasmg123 |
+| S49036 | Esse pacote é para o Tom. | This package is for Tom. |  | [#7238512](https://tatoeba.org/en/sentences/show/7238512) | Ricardo14 |
+
+## U58 Outdoors: No campo, na praia, no mar: em + the article; o sol, o vento, o ar
+
+37 sentences picked from 68 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: montanha (1), planta (2), vento (2), ar (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S58001 | Que flor é essa? | What's that flower? |  | [#1311489](https://tatoeba.org/en/sentences/show/1311489) | alexmarcelo |
+| S58002 | Você gosta de neve? | Do you like snow? |  | [#2146506](https://tatoeba.org/en/sentences/show/2146506) | Matheus |
+| S58003 | Onde está o sol? | Where is the sun? |  | [#5301844](https://tatoeba.org/en/sentences/show/5301844) | alexmarcelo |
+| S58004 | Como se chama esse rio? | What's the name of this river? | What is the name of this river? | [#699114](https://tatoeba.org/en/sentences/show/699114) | brauliobezerra |
+| S58005 | Por que a neve é branca? | Why is snow white? |  | [#996243](https://tatoeba.org/en/sentences/show/996243) | alexmarcelo |
+| S58006 | Como se chama essa flor? | What's this flower called? | What is the name of this flower? | [#4409860](https://tatoeba.org/en/sentences/show/4409860) | fabricio5 |
+| S58007 | De que flor você mais gosta? | What flower do you like best? |  | [#3215191](https://tatoeba.org/en/sentences/show/3215191) | gleydin |
+| S58008 | Quero neve. | I want snow. |  | [#12310739](https://tatoeba.org/en/sentences/show/12310739) | Covered |
+| S58009 | É uma planta. | It's a plant. |  | [#2166985](https://tatoeba.org/en/sentences/show/2166985) | alexmarcelo |
+| S58010 | Que árvore alta! | What a tall tree it is! |  | [#5455226](https://tatoeba.org/en/sentences/show/5455226) | ToinhoAlam |
+| S58011 | Estão na floresta. | They're in the forest. |  | [#5968160](https://tatoeba.org/en/sentences/show/5968160) | sergiomelo |
+| S58012 | Estamos na floresta. | We're in the forest. |  | [#8064495](https://tatoeba.org/en/sentences/show/8064495) | Ricardo14 |
+| S58013 | Não tem vento. | There's no wind. |  | [#8877724](https://tatoeba.org/en/sentences/show/8877724) | heo598 |
+| S58014 | Que vento forte! | What a strong wind! |  | [#10471687](https://tatoeba.org/en/sentences/show/10471687) | rekoowa |
+| S58015 | O céu é azul. | The sky is blue. |  | [#397634](https://tatoeba.org/en/sentences/show/397634) | brauliobezerra |
+| S58016 | O céu está limpo. | The sky is clear. | There's not a cloud in the sky. | [#576717](https://tatoeba.org/en/sentences/show/576717) | brauliobezerra |
+| S58017 | O Sol é vermelho. | The sun is red. |  | [#1006093](https://tatoeba.org/en/sentences/show/1006093) | alexmarcelo |
+| S58018 | O céu está azul. | The sky is blue. |  | [#1381120](https://tatoeba.org/en/sentences/show/1381120) | tulio |
+| S58019 | A árvore é verde. | The tree is green. |  | [#2059980](https://tatoeba.org/en/sentences/show/2059980) | alexmarcelo |
+| S58020 | A montanha é verde. | The mountain is green. |  | [#2139416](https://tatoeba.org/en/sentences/show/2139416) | alexmarcelo |
+| S58021 | O mar é azul. | The sea is blue. |  | [#2700963](https://tatoeba.org/en/sentences/show/2700963) | alexmarcelo |
+| S58022 | Esse rio é comprido. | That river is long. |  | [#2789202](https://tatoeba.org/en/sentences/show/2789202) | carlosalberto |
+| S58023 | O sol é grande. | The sun is big. |  | [#4375626](https://tatoeba.org/en/sentences/show/4375626) | ajdavidl |
+| S58024 | O lago é grande. | The lake is big. |  | [#4721802](https://tatoeba.org/en/sentences/show/4721802) | anthrax26 |
+| S58025 | O mar é verde. | The sea is green. |  | [#5294396](https://tatoeba.org/en/sentences/show/5294396) | carlosalberto |
+| S58026 | O lago é azul. | The lake is blue. |  | [#5319650](https://tatoeba.org/en/sentences/show/5319650) | carlosalberto |
+| S58027 | A árvore é alta. | The tree is high. |  | [#7557496](https://tatoeba.org/en/sentences/show/7557496) | Ricardo14 |
+| S58028 | Nós estamos na floresta. | We're in the forest. |  | [#8064492](https://tatoeba.org/en/sentences/show/8064492) | Ricardo14 |
+| S58029 | O Tom mora no campo. | Tom lives in the country. |  | [#2652460](https://tatoeba.org/en/sentences/show/2652460) | alexmarcelo |
+| S58030 | Tom quer morar no campo. | Tom wants to live in the country. |  | [#5282196](https://tatoeba.org/en/sentences/show/5282196) | bill |
+| S58031 | Meu pai mora no campo. | My father lives in the country. |  | [#7589914](https://tatoeba.org/en/sentences/show/7589914) | Ricardo14 |
+| S58032 | O ar aqui é limpo. | The air here is clean. |  | [#12387074](https://tatoeba.org/en/sentences/show/12387074) | piterkeo |
+| S58033 | Eu gosto de nadar no mar. | I like going swimming in the sea. |  | [#994233](https://tatoeba.org/en/sentences/show/994233) | alexmarcelo |
+| S58034 | Tom mora perto de um lago. | Tom lives near a lake. |  | [#9398904](https://tatoeba.org/en/sentences/show/9398904) | arademaker |
+| S58035 | É uma planta que não conheço. | It is a plant that I do not know. |  | [#11768031](https://tatoeba.org/en/sentences/show/11768031) | ajdavidl |
+| S58036 | Ele vai nadar no rio todo dia. | He goes swimming in the river every day. |  | [#11350439](https://tatoeba.org/en/sentences/show/11350439) | MrJuice |
+| S58037 | O ar está muito mais limpo agora. | The air is much cleaner now. |  | [#13977493](https://tatoeba.org/en/sentences/show/13977493) | Castro5432 |

@@ -29,7 +29,7 @@ export const COURSES = {
   },
   // Brazilian Portuguese (2026-11-14, branch lang/portuguese): você, Brazilian spelling and words. Its folders: content-pt/…
   pt: {
-    id: 'pt', name: 'Portuguese', workbook: '_source/tamago-pt-data-v4.xlsx',
+    id: 'pt', name: 'Portuguese', workbook: '_source/tamago-pt-data-v5.xlsx',
     tatoeba: 'por', wiktionaryCode: 'pt', wiktionarySection: 'Portuguese', linguaLibre: { qid: 'Q5146', iso: 'por' }, wikidataLanguage: 'Q5146',
   },
 }

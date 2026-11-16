@@ -1,0 +1,1885 @@
+{
+  "unit_id": "U58",
+  "pulled_at": "2026-11-16",
+  "candidates": 68,
+  "sentences": [
+    {
+      "sentence_id": "S58001",
+      "unit_id": "U58",
+      "french": "Que flor é essa?",
+      "english": "What's that flower?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1311489",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58002",
+      "unit_id": "U58",
+      "french": "Você gosta de neve?",
+      "english": "Do you like snow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2146506",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Matheus",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58003",
+      "unit_id": "U58",
+      "french": "Onde está o sol?",
+      "english": "Where is the sun?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5301844",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58004",
+      "unit_id": "U58",
+      "french": "Como se chama esse rio?",
+      "english": "What's the name of this river?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "699114",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "What is the name of this river?"
+      ]
+    },
+    {
+      "sentence_id": "S58005",
+      "unit_id": "U58",
+      "french": "Por que a neve é branca?",
+      "english": "Why is snow white?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "996243",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58006",
+      "unit_id": "U58",
+      "french": "Como se chama essa flor?",
+      "english": "What's this flower called?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4409860",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fabricio5",
+      "other_english": [
+        "What is the name of this flower?"
+      ]
+    },
+    {
+      "sentence_id": "S58007",
+      "unit_id": "U58",
+      "french": "De que flor você mais gosta?",
+      "english": "What flower do you like best?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3215191",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gleydin",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58008",
+      "unit_id": "U58",
+      "french": "Quero neve.",
+      "english": "I want snow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12310739",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Covered",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58009",
+      "unit_id": "U58",
+      "french": "É uma planta.",
+      "english": "It's a plant.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2166985",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58010",
+      "unit_id": "U58",
+      "french": "Que árvore alta!",
+      "english": "What a tall tree it is!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5455226",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ToinhoAlam",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58011",
+      "unit_id": "U58",
+      "french": "Estão na floresta.",
+      "english": "They're in the forest.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5968160",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sergiomelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58012",
+      "unit_id": "U58",
+      "french": "Estamos na floresta.",
+      "english": "We're in the forest.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8064495",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58013",
+      "unit_id": "U58",
+      "french": "Não tem vento.",
+      "english": "There's no wind.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8877724",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58014",
+      "unit_id": "U58",
+      "french": "Que vento forte!",
+      "english": "What a strong wind!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10471687",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rekoowa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58015",
+      "unit_id": "U58",
+      "french": "O céu é azul.",
+      "english": "The sky is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "397634",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58016",
+      "unit_id": "U58",
+      "french": "O céu está limpo.",
+      "english": "The sky is clear.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "576717",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "There's not a cloud in the sky."
+      ]
+    },
+    {
+      "sentence_id": "S58017",
+      "unit_id": "U58",
+      "french": "O Sol é vermelho.",
+      "english": "The sun is red.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1006093",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58018",
+      "unit_id": "U58",
+      "french": "O céu está azul.",
+      "english": "The sky is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1381120",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58019",
+      "unit_id": "U58",
+      "french": "A árvore é verde.",
+      "english": "The tree is green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2059980",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58020",
+      "unit_id": "U58",
+      "french": "A montanha é verde.",
+      "english": "The mountain is green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2139416",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58021",
+      "unit_id": "U58",
+      "french": "O mar é azul.",
+      "english": "The sea is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2700963",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58022",
+      "unit_id": "U58",
+      "french": "Esse rio é comprido.",
+      "english": "That river is long.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2789202",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58023",
+      "unit_id": "U58",
+      "french": "O sol é grande.",
+      "english": "The sun is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4375626",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58024",
+      "unit_id": "U58",
+      "french": "O lago é grande.",
+      "english": "The lake is big.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4721802",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "anthrax26",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58025",
+      "unit_id": "U58",
+      "french": "O mar é verde.",
+      "english": "The sea is green.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5294396",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58026",
+      "unit_id": "U58",
+      "french": "O lago é azul.",
+      "english": "The lake is blue.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5319650",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58027",
+      "unit_id": "U58",
+      "french": "A árvore é alta.",
+      "english": "The tree is high.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7557496",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58028",
+      "unit_id": "U58",
+      "french": "Nós estamos na floresta.",
+      "english": "We're in the forest.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8064492",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58029",
+      "unit_id": "U58",
+      "french": "O Tom mora no campo.",
+      "english": "Tom lives in the country.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2652460",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58030",
+      "unit_id": "U58",
+      "french": "Tom quer morar no campo.",
+      "english": "Tom wants to live in the country.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5282196",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58031",
+      "unit_id": "U58",
+      "french": "Meu pai mora no campo.",
+      "english": "My father lives in the country.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7589914",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58032",
+      "unit_id": "U58",
+      "french": "O ar aqui é limpo.",
+      "english": "The air here is clean.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12387074",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58033",
+      "unit_id": "U58",
+      "french": "Eu gosto de nadar no mar.",
+      "english": "I like going swimming in the sea.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "994233",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58034",
+      "unit_id": "U58",
+      "french": "Tom mora perto de um lago.",
+      "english": "Tom lives near a lake.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9398904",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "arademaker",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58035",
+      "unit_id": "U58",
+      "french": "É uma planta que não conheço.",
+      "english": "It is a plant that I do not know.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11768031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58036",
+      "unit_id": "U58",
+      "french": "Ele vai nadar no rio todo dia.",
+      "english": "He goes swimming in the river every day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11350439",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MrJuice",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S58037",
+      "unit_id": "U58",
+      "french": "O ar está muito mais limpo agora.",
+      "english": "The air is much cleaner now.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13977493",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Castro5432",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S58001",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58001",
+      "position": 2,
+      "surface": "flor",
+      "word_id": "W1167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58001",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58001",
+      "position": 4,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58002",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58002",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58002",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58002",
+      "position": 4,
+      "surface": "neve",
+      "word_id": "W1171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58003",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58003",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58003",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58003",
+      "position": 4,
+      "surface": "sol",
+      "word_id": "W1169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58004",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58004",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58004",
+      "position": 3,
+      "surface": "chama",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58004",
+      "position": 4,
+      "surface": "esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58004",
+      "position": 5,
+      "surface": "rio",
+      "word_id": "W1162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58005",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58005",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58005",
+      "position": 3,
+      "surface": "neve",
+      "word_id": "W1171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58005",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58005",
+      "position": 5,
+      "surface": "branca",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58006",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58006",
+      "position": 2,
+      "surface": "se",
+      "word_id": "W712",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58006",
+      "position": 3,
+      "surface": "chama",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58006",
+      "position": 4,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58006",
+      "position": 5,
+      "surface": "flor",
+      "word_id": "W1167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58007",
+      "position": 1,
+      "surface": "De",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58007",
+      "position": 2,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58007",
+      "position": 3,
+      "surface": "flor",
+      "word_id": "W1167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58007",
+      "position": 4,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58007",
+      "position": 5,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58007",
+      "position": 6,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58008",
+      "position": 1,
+      "surface": "Quero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58008",
+      "position": 2,
+      "surface": "neve",
+      "word_id": "W1171",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58009",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58009",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58009",
+      "position": 3,
+      "surface": "planta",
+      "word_id": "W1168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58010",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58010",
+      "position": 2,
+      "surface": "árvore",
+      "word_id": "W1166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58010",
+      "position": 3,
+      "surface": "alta",
+      "word_id": "W1016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58011",
+      "position": 1,
+      "surface": "Estão",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58011",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58011",
+      "position": 3,
+      "surface": "floresta",
+      "word_id": "W1164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58012",
+      "position": 1,
+      "surface": "Estamos",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58012",
+      "position": 2,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58012",
+      "position": 3,
+      "surface": "floresta",
+      "word_id": "W1164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58013",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58013",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58013",
+      "position": 3,
+      "surface": "vento",
+      "word_id": "W1170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58014",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58014",
+      "position": 2,
+      "surface": "vento",
+      "word_id": "W1170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58014",
+      "position": 3,
+      "surface": "forte",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58015",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58015",
+      "position": 2,
+      "surface": "céu",
+      "word_id": "W1173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58015",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58015",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58016",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58016",
+      "position": 2,
+      "surface": "céu",
+      "word_id": "W1173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58016",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58016",
+      "position": 4,
+      "surface": "limpo",
+      "word_id": "W1158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58017",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58017",
+      "position": 2,
+      "surface": "Sol",
+      "word_id": "W1169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58017",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58017",
+      "position": 4,
+      "surface": "vermelho",
+      "word_id": "W167",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58018",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58018",
+      "position": 2,
+      "surface": "céu",
+      "word_id": "W1173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58018",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58018",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58019",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58019",
+      "position": 2,
+      "surface": "árvore",
+      "word_id": "W1166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58019",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58019",
+      "position": 4,
+      "surface": "verde",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58020",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58020",
+      "position": 2,
+      "surface": "montanha",
+      "word_id": "W1165",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58020",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58020",
+      "position": 4,
+      "surface": "verde",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58021",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58021",
+      "position": 2,
+      "surface": "mar",
+      "word_id": "W1161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58021",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58021",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58022",
+      "position": 1,
+      "surface": "Esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58022",
+      "position": 2,
+      "surface": "rio",
+      "word_id": "W1162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58022",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58022",
+      "position": 4,
+      "surface": "comprido",
+      "word_id": "W1011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 2,
+      "surface": "sol",
+      "word_id": "W1169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58023",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 2,
+      "surface": "lago",
+      "word_id": "W1163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58024",
+      "position": 4,
+      "surface": "grande",
+      "word_id": "W031",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58025",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58025",
+      "position": 2,
+      "surface": "mar",
+      "word_id": "W1161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58025",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58025",
+      "position": 4,
+      "surface": "verde",
+      "word_id": "W170",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58026",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58026",
+      "position": 2,
+      "surface": "lago",
+      "word_id": "W1163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58026",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58026",
+      "position": 4,
+      "surface": "azul",
+      "word_id": "W169",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58027",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58027",
+      "position": 2,
+      "surface": "árvore",
+      "word_id": "W1166",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58027",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58027",
+      "position": 4,
+      "surface": "alta",
+      "word_id": "W1016",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58028",
+      "position": 1,
+      "surface": "Nós",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58028",
+      "position": 2,
+      "surface": "estamos",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58028",
+      "position": 3,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58028",
+      "position": 4,
+      "surface": "floresta",
+      "word_id": "W1164",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58029",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58029",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58029",
+      "position": 3,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58029",
+      "position": 4,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58029",
+      "position": 5,
+      "surface": "campo",
+      "word_id": "W1160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58030",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58030",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58030",
+      "position": 3,
+      "surface": "morar",
+      "word_id": "W863",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58030",
+      "position": 4,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58030",
+      "position": 5,
+      "surface": "campo",
+      "word_id": "W1160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58031",
+      "position": 1,
+      "surface": "Meu",
+      "word_id": "W133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58031",
+      "position": 2,
+      "surface": "pai",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58031",
+      "position": 3,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58031",
+      "position": 4,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58031",
+      "position": 5,
+      "surface": "campo",
+      "word_id": "W1160",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58032",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58032",
+      "position": 2,
+      "surface": "ar",
+      "word_id": "W1172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58032",
+      "position": 3,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58032",
+      "position": 4,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58032",
+      "position": 5,
+      "surface": "limpo",
+      "word_id": "W1158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58033",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58033",
+      "position": 2,
+      "surface": "gosto",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58033",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58033",
+      "position": 4,
+      "surface": "nadar",
+      "word_id": "W1025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58033",
+      "position": 5,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58033",
+      "position": 6,
+      "surface": "mar",
+      "word_id": "W1161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58034",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58034",
+      "position": 2,
+      "surface": "mora",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58034",
+      "position": 3,
+      "surface": "perto",
+      "word_id": "W1049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58034",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58034",
+      "position": 5,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58034",
+      "position": 6,
+      "surface": "lago",
+      "word_id": "W1163",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58035",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58035",
+      "position": 2,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58035",
+      "position": 3,
+      "surface": "planta",
+      "word_id": "W1168",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58035",
+      "position": 4,
+      "surface": "que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58035",
+      "position": 5,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58035",
+      "position": 6,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58036",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58036",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58036",
+      "position": 3,
+      "surface": "nadar",
+      "word_id": "W1025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58036",
+      "position": 4,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58036",
+      "position": 5,
+      "surface": "rio",
+      "word_id": "W1162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58036",
+      "position": 6,
+      "surface": "todo",
+      "word_id": "W933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58036",
+      "position": 7,
+      "surface": "dia",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58037",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58037",
+      "position": 2,
+      "surface": "ar",
+      "word_id": "W1172",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58037",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58037",
+      "position": 4,
+      "surface": "muito",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58037",
+      "position": 5,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58037",
+      "position": 6,
+      "surface": "limpo",
+      "word_id": "W1158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S58037",
+      "position": 7,
+      "surface": "agora",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A580041",
+      "sentence_id": "S58004",
+      "direction": "fr_to_en",
+      "answer": "What is the name of this river?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A580061",
+      "sentence_id": "S58006",
+      "direction": "fr_to_en",
+      "answer": "What is the name of this flower?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A580161",
+      "sentence_id": "S58016",
+      "direction": "fr_to_en",
+      "answer": "There's not a cloud in the sky.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

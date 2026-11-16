@@ -1,0 +1,1422 @@
+{
+  "unit_id": "U41",
+  "pulled_at": "2026-11-16",
+  "candidates": 53,
+  "sentences": [
+    {
+      "sentence_id": "S41001",
+      "unit_id": "U41",
+      "french": "Eu conheço Tom?",
+      "english": "Do I know Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6463855",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41002",
+      "unit_id": "U41",
+      "french": "Eu conheço eles?",
+      "english": "Do I know them?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6825908",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lucasmg123",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41003",
+      "unit_id": "U41",
+      "french": "Conheço o Tom?",
+      "english": "Do I know Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6952994",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41004",
+      "unit_id": "U41",
+      "french": "Qual é seu sobrenome?",
+      "english": "What is your surname?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1651163",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41005",
+      "unit_id": "U41",
+      "french": "Onde está o rapaz?",
+      "english": "Where is the boy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1846882",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41006",
+      "unit_id": "U41",
+      "french": "O senhor é médico?",
+      "english": "Are you a doctor, sir?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6152223",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41007",
+      "unit_id": "U41",
+      "french": "Você quer conhecer Tom?",
+      "english": "Do you want to meet Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8577726",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41008",
+      "unit_id": "U41",
+      "french": "Boa tarde, moça, como vai você?",
+      "english": "Good afternoon, young lady, how are you?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1146500",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41009",
+      "unit_id": "U41",
+      "french": "Desculpe, quem é o senhor?",
+      "english": "Sorry, who are you, sir?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2633299",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41010",
+      "unit_id": "U41",
+      "french": "Você não quer conhecer o Tom?",
+      "english": "Don't you want to meet Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2033250",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41011",
+      "unit_id": "U41",
+      "french": "Quando você quer conhecer o Tom?",
+      "english": "When do you want to meet Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7886395",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pedrolima",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41012",
+      "unit_id": "U41",
+      "french": "Quem é a senhora de branco?",
+      "english": "Who is the lady in white?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8215386",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "josivangoncalves",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41013",
+      "unit_id": "U41",
+      "french": "Muito prazer.",
+      "english": "Nice to meet you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "755727",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41014",
+      "unit_id": "U41",
+      "french": "Bom dia, senhor!",
+      "english": "Hello sir!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1234119",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41015",
+      "unit_id": "U41",
+      "french": "Sou um bom rapaz.",
+      "english": "I am a good boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1070609",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41017",
+      "unit_id": "U41",
+      "french": "Prazer falar com você.",
+      "english": "Nice to talk to you.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9102215",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41018",
+      "unit_id": "U41",
+      "french": "Ela é uma boa moça.",
+      "english": "She's a fine young lady.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2102344",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41019",
+      "unit_id": "U41",
+      "french": "O João é bom rapaz.",
+      "english": "João is a good boy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7075508",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "iart61",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41020",
+      "unit_id": "U41",
+      "french": "A moça não gosta de suco.",
+      "english": "The girl doesn't like juice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1683766",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41021",
+      "unit_id": "U41",
+      "french": "Ele vai apresentar um livro ao professor.",
+      "english": "He will present a book to his teacher.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1056088",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41022",
+      "unit_id": "U41",
+      "french": "Eu conheço o Tom?",
+      "english": "Do I know Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6952993",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41023",
+      "unit_id": "U41",
+      "french": "Eu conheço João.",
+      "english": "I know John.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1161052",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41024",
+      "unit_id": "U41",
+      "french": "Eu conheço ela.",
+      "english": "I know her.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "12426902",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "DouglasLeandro",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41025",
+      "unit_id": "U41",
+      "french": "Eu conheço seu pai.",
+      "english": "I know your father.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "576730",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41026",
+      "unit_id": "U41",
+      "french": "Eu conheço a menina.",
+      "english": "I know the girl.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "902536",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41027",
+      "unit_id": "U41",
+      "french": "Eu conheço o João.",
+      "english": "I know John.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1161054",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41028",
+      "unit_id": "U41",
+      "french": "Eu conheço essa mulher.",
+      "english": "I know this woman.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1251836",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Welton",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41029",
+      "unit_id": "U41",
+      "french": "Eu conheço essa menina.",
+      "english": "I know that girl.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1603098",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S41030",
+      "unit_id": "U41",
+      "french": "Não conheço essa palavra.",
+      "english": "I don't know that word.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2440973",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bufo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S41001",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41001",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41001",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41002",
+      "position": 3,
+      "surface": "eles",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 1,
+      "surface": "Conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41003",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 1,
+      "surface": "Qual",
+      "word_id": "W153",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 3,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41004",
+      "position": 4,
+      "surface": "sobrenome",
+      "word_id": "W801",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41005",
+      "position": 4,
+      "surface": "rapaz",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 2,
+      "surface": "senhor",
+      "word_id": "W802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41006",
+      "position": 4,
+      "surface": "médico",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 3,
+      "surface": "conhecer",
+      "word_id": "W808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41007",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 1,
+      "surface": "Boa tarde",
+      "word_id": "W040",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 2,
+      "surface": "moça",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 3,
+      "surface": "como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 4,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41008",
+      "position": 5,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 1,
+      "surface": "Desculpe",
+      "word_id": "W044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 2,
+      "surface": "quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41009",
+      "position": 5,
+      "surface": "senhor",
+      "word_id": "W802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 4,
+      "surface": "conhecer",
+      "word_id": "W808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41010",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 4,
+      "surface": "conhecer",
+      "word_id": "W808",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41011",
+      "position": 6,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 1,
+      "surface": "Quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 4,
+      "surface": "senhora",
+      "word_id": "W803",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41012",
+      "position": 6,
+      "surface": "branco",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 1,
+      "surface": "Muito",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41013",
+      "position": 2,
+      "surface": "prazer",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41014",
+      "position": 1,
+      "surface": "Bom dia",
+      "word_id": "W039",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41014",
+      "position": 2,
+      "surface": "senhor",
+      "word_id": "W802",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 3,
+      "surface": "bom",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41015",
+      "position": 4,
+      "surface": "rapaz",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 1,
+      "surface": "Prazer",
+      "word_id": "W804",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41017",
+      "position": 4,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 4,
+      "surface": "boa",
+      "word_id": "W099",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41018",
+      "position": 5,
+      "surface": "moça",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 2,
+      "surface": "João",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 4,
+      "surface": "bom",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41019",
+      "position": 5,
+      "surface": "rapaz",
+      "word_id": "W810",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 2,
+      "surface": "moça",
+      "word_id": "W811",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 4,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41020",
+      "position": 6,
+      "surface": "suco",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 1,
+      "surface": "Ele",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 3,
+      "surface": "apresentar",
+      "word_id": "W806",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 4,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 5,
+      "surface": "livro",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 6,
+      "surface": "ao",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41021",
+      "position": 7,
+      "surface": "professor",
+      "word_id": "W029",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41022",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41022",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41022",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41022",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41023",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41023",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41023",
+      "position": 3,
+      "surface": "João",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41024",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41024",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41024",
+      "position": 3,
+      "surface": "ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41025",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41025",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41025",
+      "position": 3,
+      "surface": "seu",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41025",
+      "position": 4,
+      "surface": "pai",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41026",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41026",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41026",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41026",
+      "position": 4,
+      "surface": "menina",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41027",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41027",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41027",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41027",
+      "position": 4,
+      "surface": "João",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41028",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41028",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41028",
+      "position": 3,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41028",
+      "position": 4,
+      "surface": "mulher",
+      "word_id": "W013",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41029",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41029",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41029",
+      "position": 3,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41029",
+      "position": 4,
+      "surface": "menina",
+      "word_id": "W015",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41030",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41030",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41030",
+      "position": 3,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S41030",
+      "position": 4,
+      "surface": "palavra",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [],
+  "qa_answers": []
+}

@@ -179,6 +179,186 @@
       "form": "vão"
     }
   ],
+  "apresentar": [
+    {
+      "person": "eu",
+      "form": "apresento"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "apresenta"
+    },
+    {
+      "person": "nós",
+      "form": "apresentamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "apresentam"
+    }
+  ],
+  "usar": [
+    {
+      "person": "eu",
+      "form": "uso"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "usa"
+    },
+    {
+      "person": "nós",
+      "form": "usamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "usam"
+    }
+  ],
+  "poder": [
+    {
+      "person": "eu",
+      "form": "posso"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "pode"
+    },
+    {
+      "person": "nós",
+      "form": "podemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "podem"
+    }
+  ],
+  "telefonar": [
+    {
+      "person": "eu",
+      "form": "telefono"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "telefona"
+    },
+    {
+      "person": "nós",
+      "form": "telefonamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "telefonam"
+    }
+  ],
+  "nascer": [
+    {
+      "person": "eu",
+      "form": "nasço"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "nasce"
+    },
+    {
+      "person": "nós",
+      "form": "nascemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "nascem"
+    }
+  ],
+  "estudar": [
+    {
+      "person": "eu",
+      "form": "estudo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "estuda"
+    },
+    {
+      "person": "nós",
+      "form": "estudamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "estudam"
+    }
+  ],
+  "morar": [
+    {
+      "person": "eu",
+      "form": "moro"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "mora"
+    },
+    {
+      "person": "nós",
+      "form": "moramos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "moram"
+    }
+  ],
+  "falar": [
+    {
+      "person": "eu",
+      "form": "falo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "fala"
+    },
+    {
+      "person": "nós",
+      "form": "falamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "falam"
+    }
+  ],
+  "comprar": [
+    {
+      "person": "eu",
+      "form": "compro"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "compra"
+    },
+    {
+      "person": "nós",
+      "form": "compramos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "compram"
+    }
+  ],
+  "custar": [
+    {
+      "person": "eu",
+      "form": "custo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "custa"
+    },
+    {
+      "person": "nós",
+      "form": "custamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "custam"
+    }
+  ],
   "desculpar": [
     {
       "person": "eu",
@@ -231,42 +411,6 @@
     {
       "person": "vocês, eles, elas",
       "form": "repetem"
-    }
-  ],
-  "poder": [
-    {
-      "person": "eu",
-      "form": "posso"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "pode"
-    },
-    {
-      "person": "nós",
-      "form": "podemos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "podem"
-    }
-  ],
-  "falar": [
-    {
-      "person": "eu",
-      "form": "falo"
-    },
-    {
-      "person": "você, ele, ela",
-      "form": "fala"
-    },
-    {
-      "person": "nós",
-      "form": "falamos"
-    },
-    {
-      "person": "vocês, eles, elas",
-      "form": "falam"
     }
   ],
   "dizer": [
@@ -411,6 +555,222 @@
     {
       "person": "vocês, eles, elas",
       "form": "ficam"
+    }
+  ],
+  "conhecer": [
+    {
+      "person": "eu",
+      "form": "conheço"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "conhece"
+    },
+    {
+      "person": "nós",
+      "form": "conhecemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "conhecem"
+    }
+  ],
+  "escrever": [
+    {
+      "person": "eu",
+      "form": "escrevo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "escreve"
+    },
+    {
+      "person": "nós",
+      "form": "escrevemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "escrevem"
+    }
+  ],
+  "soletrar": [
+    {
+      "person": "eu",
+      "form": "soletro"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "soletra"
+    },
+    {
+      "person": "nós",
+      "form": "soletramos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "soletram"
+    }
+  ],
+  "ligar": [
+    {
+      "person": "eu",
+      "form": "ligo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "liga"
+    },
+    {
+      "person": "nós",
+      "form": "ligamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "ligam"
+    }
+  ],
+  "esperar": [
+    {
+      "person": "eu",
+      "form": "espero"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "espera"
+    },
+    {
+      "person": "nós",
+      "form": "esperamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "esperam"
+    }
+  ],
+  "viver": [
+    {
+      "person": "eu",
+      "form": "vivo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "vive"
+    },
+    {
+      "person": "nós",
+      "form": "vivemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "vivem"
+    }
+  ],
+  "vender": [
+    {
+      "person": "eu",
+      "form": "vendo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "vende"
+    },
+    {
+      "person": "nós",
+      "form": "vendemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "vendem"
+    }
+  ],
+  "pagar": [
+    {
+      "person": "eu",
+      "form": "pago"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "paga"
+    },
+    {
+      "person": "nós",
+      "form": "pagamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "pagam"
+    }
+  ],
+  "vestir": [
+    {
+      "person": "eu",
+      "form": "visto"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "veste"
+    },
+    {
+      "person": "nós",
+      "form": "vestimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "vestem"
+    }
+  ],
+  "perguntar": [
+    {
+      "person": "eu",
+      "form": "pergunto"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "pergunta"
+    },
+    {
+      "person": "nós",
+      "form": "perguntamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "perguntam"
+    }
+  ],
+  "responder": [
+    {
+      "person": "eu",
+      "form": "respondo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "responde"
+    },
+    {
+      "person": "nós",
+      "form": "respondemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "respondem"
+    }
+  ],
+  "aprender": [
+    {
+      "person": "eu",
+      "form": "aprendo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "aprende"
+    },
+    {
+      "person": "nós",
+      "form": "aprendemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "aprendem"
     }
   ]
 }
