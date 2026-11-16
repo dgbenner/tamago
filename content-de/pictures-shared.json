@@ -1,0 +1,39 @@
+{
+  "_about": "German words that take a picture another course already has, matched by meaning by hand (Dan, 2026-11-16; _review/picture-gaps.md, \"Already drawn\"). Word id to file under public/images. Kept apart from pictures.json, which scripts rewrite; import.mjs reads this after it and fills only words with no picture yet.",
+  "words": {
+    "W1815": "pictures/magasin.webp",
+    "W1816": "pictures/magasin.webp",
+    "W1802": "pictures/poulet.webp",
+    "W1113": "pictures/stylo.webp",
+    "W1354": "pictures/fenetre.webp",
+    "W1117": "pictures/chaise.webp",
+    "W1708": "pictures/medecin.webp",
+    "W1809": "pictures/oeuf.webp",
+    "W1353": "pictures/porte.webp",
+    "W1116": "pictures/table.webp",
+    "W1288": "pictures/lit.webp",
+    "W1678": "pictures/cuisine.webp",
+    "W1621": "pictures/restaurant.webp",
+    "W1608": "pictures/beurre.webp",
+    "W1006": "pictures/bebe.webp",
+    "W1003": "pictures/homme.webp"
+  },
+  "notes": {
+    "W1815": "Geschäft: shop",
+    "W1816": "Laden: shop",
+    "W1802": "Hähnchen: chicken",
+    "W1113": "Kugelschreiber: pen",
+    "W1354": "Fenster: window",
+    "W1117": "Stuhl: chair",
+    "W1708": "Doktor: doctor",
+    "W1809": "Ei: egg",
+    "W1353": "Tür: door",
+    "W1116": "Tisch: table",
+    "W1288": "Bett: bed",
+    "W1678": "Küche: kitchen",
+    "W1621": "Lokal: restaurant",
+    "W1608": "Butter: butter",
+    "W1006": "Baby: baby",
+    "W1003": "Herr: man"
+  }
+}

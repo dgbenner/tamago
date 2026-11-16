@@ -1,0 +1,37 @@
+{
+  "_about": "Italian words that take a picture another course already has, matched by meaning by hand (Dan, 2026-11-16; _review/picture-gaps.md, \"Already drawn\"). Word id to file under public/images. Kept apart from pictures.json, which scripts rewrite; import.mjs reads this after it and fills only words with no picture yet.",
+  "words": {
+    "W1622": "pictures/poulet.webp",
+    "W1117": "pictures/stylo.webp",
+    "W1680": "pictures/fenetre.webp",
+    "W1682": "pictures/chaise.webp",
+    "W1621": "pictures/viande.webp",
+    "W909": "pictures/oeufs.webp",
+    "W1167": "pictures/mer.webp",
+    "W1164": "pictures/plage.webp",
+    "W1169": "pictures/soleil.webp",
+    "W1681": "pictures/porte.webp",
+    "W1320": "pictures/bureau.webp",
+    "W015": "pictures/enfant.webp",
+    "W016": "pictures/fille.webp",
+    "W1605": "pictures/sucre.webp",
+    "W1435": "pictures/journal.webp"
+  },
+  "notes": {
+    "W1622": "pollo: chicken",
+    "W1117": "penna: pen",
+    "W1680": "finestra: window",
+    "W1682": "sedia: chair",
+    "W1621": "carne: meat",
+    "W909": "uova: eggs",
+    "W1167": "mare: sea",
+    "W1164": "spiaggia: beach",
+    "W1169": "sole: sun",
+    "W1681": "porta: door",
+    "W1320": "ufficio: office",
+    "W015": "bambino: child",
+    "W016": "bambina: girl",
+    "W1605": "zucchero: sugar",
+    "W1435": "giornale: newspaper"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "_about": "Portuguese words that take a picture another course already has, matched by meaning by hand (Dan, 2026-11-16; _review/picture-gaps.md, \"Already drawn\"). Word id to file under public/images. Kept apart from pictures.json, which scripts rewrite; import.mjs reads this after it and fills only words with no picture yet.",
+  "words": {
+    "W196": "pictures/magasin.webp",
+    "W016": "pictures/enfant.webp",
+    "W131": "pictures/froid.webp"
+  },
+  "notes": {
+    "W196": "loja: shop",
+    "W016": "criança: child",
+    "W131": "frio: cold"
+  }
+}
