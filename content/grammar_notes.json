@@ -3,707 +3,707 @@
   "notes": [
     {
       "unit_id": "U01",
-      "rule": "Je suis is how you say who you are, and tu es is how you say who someone you know well is. C'est points at someone or something. Every noun is masculine or feminine: un goes with a masculine noun (un homme, un garçon), une with a feminine one (une femme, une fille).",
+      "rule": "**Je suis** is how you say who you are. **Tu es** is how you say who someone you know well is. **C'est** points at someone or something.\n\nEvery noun is masculine or feminine: **un** goes with a masculine noun (**un homme**, **un garçon**), **une** with a feminine one (**une femme**, **une fille**).",
       "example_sentence_ids": "S0007;S0012;S0014",
       "conjugation_lemma": "être",
       "status": "live"
     },
     {
       "unit_id": "U02",
-      "rule": "Le, la, l' and les come before a noun when you mean a particular one. Le goes with a masculine noun (le livre), la with a feminine one (la lettre), l' before a vowel (l'homme), and les with more than one (les enfants). Il est and elle est are for one person or thing; ils sont and elles sont for more than one.",
+      "rule": "**Le**, **la**, **l'** and **les** come before a noun when you mean a particular one:\n**le livre** (**le** with a masculine noun)\n**la lettre** (**la** with a feminine one)\n**l'homme** (**l'** before a vowel)\n**les enfants** (**les** with more than one)\n\n**Il est** and **elle est** are for one person or thing; **ils sont** and **elles sont** for more than one.",
       "example_sentence_ids": "S2001;S2009;S2111",
       "conjugation_lemma": "être",
       "status": "live"
     },
     {
       "unit_id": "U03",
-      "rule": "Tu is for one person you know well, a friend or a child. Vous is for someone you don't know, someone you're polite to, or more than one person: vous êtes instead of tu es. Polite phrases follow the same choice: s'il te plaît with tu, s'il vous plaît with vous.",
+      "rule": "**Tu** is for one person you know well, a friend or a child. **Vous** is for someone you don't know, someone you're polite to, or more than one person: **vous êtes** instead of **tu es**.\n\nPolite phrases follow the same choice:\n**s'il te plaît** with **tu**\n**s'il vous plaît** with **vous**",
       "example_sentence_ids": "S0012;S3010;S3008",
       "conjugation_lemma": "être",
       "status": "live"
     },
     {
       "unit_id": "U04",
-      "rule": "A verb that ends in -er, like manger and aimer, changes its ending to match who is doing it: je mange, tu manges, il mange. Je becomes j' before a vowel: j'aime. Du goes before a masculine noun when you mean some of it: du pain.",
+      "rule": "A verb that ends in **-er**, like **manger** and **aimer**, changes its ending to match who is doing it: **je mange**, **tu manges**, **il mange**.\n\n**Je** becomes **j'** before a vowel: **j'aime**.\n\n**Du** goes before a masculine noun when you mean some of it: **du pain**.",
       "example_sentence_ids": "S4002;S4008;S4003",
       "conjugation_lemma": "manger;aimer",
       "status": "live"
     },
     {
       "unit_id": "U05",
-      "rule": "Avoir doesn't follow the -er pattern; each form has to be learned: j'ai, tu as, il a. Il a and il est sound close and are easy to mix up, so listen for the difference.",
+      "rule": "**Avoir** doesn't follow the **-er** pattern; each form has to be learned: **j'ai**, **tu as**, **il a**.\n\n**Il a** and **il est** sound close and are easy to mix up, so listen for the difference.",
       "example_sentence_ids": "S5002;S5007;S5003",
       "conjugation_lemma": "avoir",
       "status": "live"
     },
     {
       "unit_id": "U06",
-      "rule": "For more than one, les means the and des means some. English often leaves des out: j'ai des livres is I have books. Most nouns add an s you can't hear (un chat, des chats). Nouns ending in -eau add an x (un oiseau, des oiseaux), and most ending in -al change to -aux (un cheval, des chevaux). Nous sommes is we are.",
+      "rule": "For more than one, **les** means the and **des** means some. English often leaves **des** out: **j'ai des livres** is I have books.\n\nMost nouns add an **s** you can't hear: **un chat**, **des chats**\nNouns ending in **-eau** add an **x**: **un oiseau**, **des oiseaux**\nMost ending in **-al** change to **-aux**: **un cheval**, **des chevaux**\n\n**Nous sommes** is we are.",
       "example_sentence_ids": "S7001;S7007;S7003",
       "conjugation_lemma": "être",
       "status": "live"
     },
     {
       "unit_id": "U07",
-      "rule": "A describing word takes the noun's gender. Many add -e for a feminine noun: bon, bonne; gentil, gentille. A few change more: beau becomes belle, and vieux becomes vieille. Most describing words come after the noun, but short everyday ones like beau, jeune, vieux, bon, petit and grand come before it: un beau jeune homme. Très in front means very.",
+      "rule": "A describing word takes the noun's gender. Many add **-e** for a feminine noun: **bon**, **bonne**; **gentil**, **gentille**. A few change more: **beau** becomes **belle**, and **vieux** becomes **vieille**.\n\nMost describing words come after the noun. Short everyday ones like **beau**, **jeune**, **vieux**, **bon**, **petit** and **grand** come before it: **un beau jeune homme**.\n\n**Très** in front means very.",
       "example_sentence_ids": "S7105;S7121;S7154",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U08",
-      "rule": "Mon, ton and son mean my, your and his or her. They match the thing owned, not the owner: mon livre, ma pomme, mes livres. Son ami can mean his friend or her friend; French doesn't say which. Before a feminine word that starts with a vowel, mon is used instead of ma: mon amie.",
+      "rule": "**Mon**, **ton** and **son** mean my, your and his or her. They match the thing owned, not the owner: **mon livre**, **ma pomme**, **mes livres**.\n\n**Son ami** can mean his friend or her friend; French doesn't say which.\n\nBefore a feminine word that starts with a vowel, **mon** is used instead of **ma**: **mon amie**.",
       "example_sentence_ids": "S7201;S7215;S7214",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U09",
-      "rule": "The simplest question is a sentence said with a rising voice: tu as un chien ? Est-ce que at the start makes a yes-or-no question without changing the sentence. Qu'est-ce que asks what, qui asks who, où asks where, and pourquoi asks why; parce que answers it. Quel goes with a masculine noun and quelle with a feminine one: quel livre, quelle pomme.",
+      "rule": "The simplest question is a sentence said with a rising voice: **tu as un chien ?**\n\n**Est-ce que** at the start makes a yes-or-no question without changing the sentence.\n\n**Qu'est-ce que** asks what, **qui** asks who, **où** asks where, and **pourquoi** asks why; **parce que** answers it.\n\n**Quel** goes with a masculine noun and **quelle** with a feminine one: **quel livre**, **quelle pomme**.",
       "example_sentence_ids": "S7302;S7327;S7322",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U10",
-      "rule": "Numbers come before the noun, and the noun is plural from two on: deux chats, trois enfants. Combien de asks how many: tu as combien de chats ? To say how many people are in a group, French says nous sommes trois, there are three of us.",
+      "rule": "Numbers come before the noun, and the noun is plural from two on: **deux chats**, **trois enfants**.\n\n**Combien de** asks how many: **tu as combien de chats ?**\n\nTo say how many people are in a group, French says **nous sommes trois**, there are three of us.",
       "example_sentence_ids": "S7402;S7408;S7468",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U11",
-      "rule": "Colours come after the noun and match it: un chat noir, une souris noire. Vert, noir and bleu add -e for a feminine noun; blanc becomes blanche. Rouge and jaune already end in -e, so they stay the same.",
+      "rule": "Colours come after the noun and match it: **un chat noir**, **une souris noire**.\n\n**Vert**, **noir** and **bleu** add **-e** for a feminine noun; **blanc** becomes **blanche**. **Rouge** and **jaune** already end in **-e**, so they stay the same.",
       "example_sentence_ids": "S7501;S7502;S7513",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U12",
-      "rule": "Time words often go at the start or the end of the sentence: aujourd'hui, c'est lundi. Le matin and le soir mean in the morning and in the evening. Days of the week have no capital letter in French. The present tense is used for plans too: je suis ici demain.",
+      "rule": "Time words often go at the start or the end of the sentence: **aujourd'hui, c'est lundi**.\n\n**Le matin** and **le soir** mean in the morning and in the evening.\n\nDays of the week have no capital letter in French.\n\nThe present tense is used for plans too: **je suis ici demain**.",
       "example_sentence_ids": "S7601;S7651;S7654",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U13",
-      "rule": "Aller, to go, has its own forms: je vais, tu vas, il va. À means to or at. À and le join to make au: je vais au parc, but je vais à l'école. Dans means in or inside.",
+      "rule": "**Aller**, to go, has its own forms: **je vais**, **tu vas**, **il va**.\n\n**À** means to or at. **À** and **le** join to make **au**: **je vais au parc**, but **je vais à l'école**.\n\n**Dans** means in or inside.",
       "example_sentence_ids": "S7702;S7703;S7755",
       "conjugation_lemma": "aller",
       "status": "live"
     },
     {
       "unit_id": "U31",
-      "rule": "Three phrases keep a conversation going when you're lost. Je ne comprends pas: I don't understand (ne … pas wraps the verb to say not). Plus lentement, s'il vous plaît: more slowly, please. Répétez, s'il vous plaît: please repeat. Use the vous forms (parlez, répétez) with someone you don't know, the tu forms (parle, répète) with a friend.",
+      "rule": "Three phrases keep a conversation going when you're lost:\n**Je ne comprends pas** (I don't understand)\n**Plus lentement, s'il vous plaît** (more slowly, please)\n**Répétez, s'il vous plaît** (please repeat)\n\nTo say not, **ne … pas** wraps the verb.\n\nUse the **vous** forms (**parlez**, **répétez**) with someone you don't know, the **tu** forms (**parle**, **répète**) with a friend.",
       "example_sentence_ids": "S9061;S9004;S9063",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U32",
-      "rule": "Two questions get you a word you don't know. Qu'est-ce que ça veut dire ? asks what something means (vouloir dire, literally to want to say, is to mean): Non veut dire non. Comment on dit … en français ? asks how to say something: on is one or people, and dit is says. Français and anglais name the languages, with no capital letter.",
+      "rule": "Two questions get you a word you don't know.\n\n**Qu'est-ce que ça veut dire ?** asks what something means (**vouloir dire**, literally to want to say, is to mean): **Non veut dire non.**\n\n**Comment on dit … en français ?** asks how to say something. Here **on** is one or people, and **dit** is says.\n\n**Français** and **anglais** name the languages, with no capital letter.",
       "example_sentence_ids": "S9161;S9162;S9105",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U33",
-      "rule": "When the word won't come, talk around it. Je cherche le mot: I'm looking for the word. C'est une chose pour l'eau: it's a thing for water (pour is for). Comment ça s'appelle ? asks what something is called (s'appeler, to be called). And Je ne sais pas, I don't know, is always allowed.",
+      "rule": "When the word won't come, talk around it:\n**Je cherche le mot** (I'm looking for the word)\n**C'est une chose pour l'eau** (it's a thing for water; **pour** is for)\n**Comment ça s'appelle ?** asks what something is called (**s'appeler**, to be called)\n\nAnd **Je ne sais pas**, I don't know, is always allowed.",
       "example_sentence_ids": "S9261;S9262;S9201",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U41",
-      "rule": "To give your name, French uses s'appeler, to be called: je m'appelle Paul, tu t'appelles, vous vous appelez. The me, te or vous before the verb is part of it (m' and t' before a vowel). To ask, say Comment tu t'appelles ? to a friend, Vous vous appelez comment ? politely, or Quel est votre nom ? Your nom is your family name; your prénom is your first name.",
+      "rule": "To give your name, French uses **s'appeler**, to be called: **je m'appelle Paul**, **tu t'appelles**, **vous vous appelez**. The **me**, **te** or **vous** before the verb is part of it (**m'** and **t'** before a vowel).\n\nTo ask:\n**Comment tu t'appelles ?** (to a friend)\n**Vous vous appelez comment ?** (politely)\n**Quel est votre nom ?**\n\nYour **nom** is your family name; your **prénom** is your first name.",
       "example_sentence_ids": "S10061;S10004;S10002",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U34",
-      "rule": "Two ways to get a word or a name spelled. Comment ça s'écrit ? asks how it's written. Vous pouvez épeler ? asks someone to spell it (pouvoir, can: je peux, tu peux, vous pouvez, then the verb as it is: épeler, écrire). The answer comes letter by letter: P, A, U, L.",
+      "rule": "Two ways to get a word or a name spelled:\n**Comment ça s'écrit ?** asks how it's written.\n**Vous pouvez épeler ?** asks someone to spell it.\n\nThe verb **pouvoir** is can: **je peux**, **tu peux**, **vous pouvez**. Then comes the verb as it is: **épeler**, **écrire**.\n\nThe answer comes letter by letter: **P**, **A**, **U**, **L**.",
       "example_sentence_ids": "S10963;S10961;S10906",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U42",
-      "rule": "French phone numbers have ten digits, read in pairs: 06 11 15 19 20 is zéro six, onze, quinze, dix-neuf, vingt. From eleven to sixteen each number has its own word (onze, douze, treize, quatorze, quinze, seize); seventeen to nineteen are ten and seven, ten and eight, ten and nine, with hyphens (dix-sept, dix-huit, dix-neuf). Quel est ton numéro ? asks someone's number.",
+      "rule": "French phone numbers have ten digits, read in pairs: 06 11 15 19 20 is **zéro six, onze, quinze, dix-neuf, vingt**.\n\nFrom eleven to sixteen each number has its own word: **onze**, **douze**, **treize**, **quatorze**, **quinze**, **seize**.\n\nSeventeen to nineteen are ten and seven, ten and eight, ten and nine, with hyphens: **dix-sept**, **dix-huit**, **dix-neuf**.\n\n**Quel est ton numéro ?** asks someone's number.",
       "example_sentence_ids": "S10161;S10166;S10108",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U43",
-      "rule": "French gives your age with avoir, to have: J'ai vingt ans is I am twenty (literally I have twenty years). Quel est ton âge ? asks it. Né and née mean born, with être: il est né ici, elle est née ici (née for a woman). Bon anniversaire ! is happy birthday.",
+      "rule": "French gives your age with **avoir**, to have: **J'ai vingt ans** is I am twenty (literally I have twenty years). **Quel est ton âge ?** asks it.\n\n**Né** and **née** mean born, with **être**: **il est né ici**, **elle est née ici** (**née** for a woman).\n\n**Bon anniversaire !** is happy birthday.",
       "example_sentence_ids": "S10218;S10202;S10261",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U35",
-      "rule": "Numbers go by fast, so check them. Pardon, vous pouvez répéter ? asks for it again (pouvoir plus the verb as it is). Un moment, s'il vous plaît, or Attendez un moment, buys you time. Je vais noter says you'll write it down: je vais plus a verb is what you're about to do.",
+      "rule": "Numbers go by fast, so check them.\n\n**Pardon, vous pouvez répéter ?** asks for it again (**pouvoir** plus the verb as it is).\n**Un moment, s'il vous plaît**, or **Attendez un moment**, buys you time.\n**Je vais noter** says you'll write it down: **je vais** plus a verb is what you're about to do.",
       "example_sentence_ids": "S11062;S11004;S11064",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U44",
-      "rule": "The tens: trente (30), quarante (40), cinquante (50), soixante (60). Then French counts on from sixty: soixante-dix is sixty-ten (70), quatre-vingts is four twenties (80), quatre-vingt-dix is four twenties and ten (90), and cent is a hundred. Ages take avoir: elle a soixante ans.",
+      "rule": "The tens: **trente** (30), **quarante** (40), **cinquante** (50), **soixante** (60).\n\nThen French counts on from sixty:\n**soixante-dix** is sixty-ten (70)\n**quatre-vingts** is four twenties (80)\n**quatre-vingt-dix** is four twenties and ten (90)\n**cent** is a hundred\n\nAges take **avoir**: **elle a soixante ans**.",
       "example_sentence_ids": "S10361;S10362;S10363",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U45",
-      "rule": "J'habite means I live: habiter goes like parler (j'habite, tu habites, il habite, vous habitez). Tu habites où ? asks where. A French address puts the number first, then the street: dix, rue du Parc. Près de is near, loin de far from; de and le make du (près du parc).",
+      "rule": "**J'habite** means I live. **Habiter** goes like **parler**: **j'habite**, **tu habites**, **il habite**, **vous habitez**. **Tu habites où ?** asks where.\n\nA French address puts the number first, then the street: **dix, rue du Parc**.\n\n**Près de** is near, **loin de** far from. **De** and **le** make **du**: **près du parc**.",
       "example_sentence_ids": "S10405;S10461;S10466",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U46",
-      "rule": "Countries take en for in and to: j'habite en France, je vais en Italie. Nationalities and languages share a word, with no capital letter: il est allemand (German, the person), je parle allemand (the language). For a woman, most add -e: elle est allemande. Une langue is a language.",
+      "rule": "Countries take **en** for in and to: **j'habite en France**, **je vais en Italie**.\n\nNationalities and languages share a word, with no capital letter:\n**il est allemand** (German, the person)\n**je parle allemand** (the language)\n\nFor a woman, most add **-e**: **elle est allemande**.\n\n**Une langue** is a language.",
       "example_sentence_ids": "S10561;S10502;S10514",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U47",
-      "rule": "Je voudrais is the polite way to ask for something: I would like (from vouloir: je veux is I want, je voudrais is softer). A quantity takes de: un kilo de pommes. Acheter, to buy, adds an accent in j'achète, tu achètes, il achète. Des fruits, des légumes: des is some, for more than one.",
+      "rule": "**Je voudrais** is the polite way to ask for something: I would like. It comes from **vouloir**: **je veux** is I want, **je voudrais** is softer.\n\nA quantity takes **de**: **un kilo de pommes**.\n\n**Acheter**, to buy, adds an accent in **j'achète**, **tu achètes**, **il achète**.\n\n**Des fruits**, **des légumes**: **des** is some, for more than one.",
       "example_sentence_ids": "S10662;S10603;S10661",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U36",
-      "rule": "Say when you've understood, and check that you have. J'ai compris: I understood (compris is the past of comprendre). Tu as compris ? asks. D'accord means OK, agreed: je suis d'accord, I agree. C'est vrai ? Is that true? And exactement, exactly, confirms.",
+      "rule": "Say when you've understood, and check that you have.\n\n**J'ai compris**: I understood (**compris** is the past of **comprendre**).\n**Tu as compris ?** asks.\n**D'accord** means OK, agreed: **je suis d'accord**, I agree.\n**C'est vrai ?** Is that true?\nAnd **exactement**, exactly, confirms.",
       "example_sentence_ids": "S11110;S11161;S11104",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U48",
-      "rule": "Ça coûte combien ? or Combien ça coûte ? asks the price. Coûter goes like parler: ça coûte (it costs), ils coûtent (they cost). French says the euros first, then the cents: trois euros cinquante is 3,50 €, with a comma for the decimal point. Cher means expensive (and, before a name, dear): c'est cher, la pomme est chère.",
+      "rule": "**Ça coûte combien ?** or **Combien ça coûte ?** asks the price. **Coûter** goes like **parler**: **ça coûte** (it costs), **ils coûtent** (they cost).\n\nFrench says the euros first, then the cents: **trois euros cinquante** is 3,50 €, with a comma for the decimal point.\n\n**Cher** means expensive (and, before a name, dear): **c'est cher**, **la pomme est chère**.",
       "example_sentence_ids": "S10703;S10701;S10766",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U49",
-      "rule": "A quantity takes de, or d' before a vowel: une bouteille d'eau, un paquet de fromage, un verre de lait. The same goes for beaucoup de, peu de, assez de and trop de: beaucoup d'argent, a lot of money. Trop is too or too much: c'est trop cher.",
+      "rule": "A quantity takes **de**, or **d'** before a vowel: **une bouteille d'eau**, **un paquet de fromage**, **un verre de lait**.\n\nThe same goes for **beaucoup de**, **peu de**, **assez de** and **trop de**: **beaucoup d'argent**, a lot of money.\n\n**Trop** is too or too much: **c'est trop cher**.",
       "example_sentence_ids": "S10861;S10804;S10813",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U51",
-      "rule": "à + le = au (au cinéma, au musée), à la, à l' (à la gare, à l'hôtel); en voiture, en bus, en train",
+      "rule": "**à** + **le** = **au** (**au cinéma**, **au musée**)\n**à la**, **à l'** (**à la gare**, **à l'hôtel**)\n**en voiture**, **en bus**, **en train**",
       "example_sentence_ids": "S11201;S11223;S11262;S11266",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U52",
-      "rule": "-er verbs: je regarde, tu écoutes, il joue; lire: je lis, tu lis; aimer + a verb: j'aime lire",
+      "rule": "**-er** verbs: **je regarde**, **tu écoutes**, **il joue**\n**lire**: **je lis**, **tu lis**\n**aimer** + a verb: **j'aime lire**",
       "example_sentence_ids": "S11302;S11316;S11307;S11321",
       "conjugation_lemma": "lire",
       "status": "live"
     },
     {
       "unit_id": "U53",
-      "rule": "Adjectives agree with the person: il est content, elle est contente; heureux, heureuse; seul, seule. Avoir peur: j'ai peur",
+      "rule": "Adjectives agree with the person:\n**il est content**, **elle est contente**\n**heureux**, **heureuse**\n**seul**, **seule**\n\n**Avoir peur**: **j'ai peur**",
       "example_sentence_ids": "S11402;S11401;S11415;S11470",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U54",
-      "rule": "Un voisin, une voisine; un étudiant, une étudiante: the feminine adds -e. Mais (but), aussi (too), ou (or)",
+      "rule": "**Un voisin**, **une voisine**; **un étudiant**, **une étudiante**: the feminine adds **-e**.\n\n**Mais** (but), **aussi** (too), **ou** (or)",
       "example_sentence_ids": "S11512;S11515;S11510;S11516",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U55",
-      "rule": "À la campagne, à la montagne: à la for places outside; sur la route (on the road); en chemin (on the way)",
+      "rule": "**À la campagne**, **à la montagne**: **à la** for places outside\n**sur la route** (on the road)\n**en chemin** (on the way)",
       "example_sentence_ids": "S11616;S11618;S11601;S11609",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U61",
-      "rule": "To give the time: il est + the hour + heures (il est cinq heures). Half past is et demie, quarter past et quart, quarter to moins le quart: il est dix heures moins le quart. Midi is noon. Tôt is early, tard is late.",
+      "rule": "To give the time: **il est** + the hour + **heures** (**il est cinq heures**).\n\nHalf past is **et demie**, quarter past **et quart**, quarter to **moins le quart**: **il est dix heures moins le quart**.\n\n**Midi** is noon. **Tôt** is early, **tard** is late.",
       "example_sentence_ids": "S12061;S12062;S12067",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U71",
-      "rule": "How often: toujours (always), souvent (often), parfois (sometimes), jamais (never; ne … jamais: je ne mange jamais de viande). Y means there: tu y vas souvent ? Que joins two parts: je sais que c'est vrai. Tout is all, everything.",
+      "rule": "How often: **toujours** (always), **souvent** (often), **parfois** (sometimes), **jamais** (never; **ne … jamais**: **je ne mange jamais de viande**).\n\n**Y** means there: **tu y vas souvent ?**\n**Que** joins two parts: **je sais que c'est vrai**.\n**Tout** is all, everything.",
       "example_sentence_ids": "S13202;S13224;S13205",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U37",
-      "rule": "When you didn't hear: Pardon ? or, to a friend, Quoi ? Then say why: je ne vous entends pas (I can't hear you), je n'ai pas entendu (I didn't hear). A man says désolé, a woman désolée.",
+      "rule": "When you didn't hear: **Pardon ?** or, to a friend, **Quoi ?**\n\nThen say why:\n**je ne vous entends pas** (I can't hear you)\n**je n'ai pas entendu** (I didn't hear)\n\nA man says **désolé**, a woman **désolée**.",
       "example_sentence_ids": "S12961;S12901;S12963",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U62",
-      "rule": "Days take no capital: lundi, mardi … dimanche. On est mardi (it's Tuesday); le mardi means every Tuesday. Prochain and dernier agree: le mois prochain, la semaine prochaine, la semaine dernière. Hier is yesterday.",
+      "rule": "Days take no capital: **lundi**, **mardi** … **dimanche**.\n\n**On est mardi** (it's Tuesday)\n**le mardi** means every Tuesday\n\n**Prochain** and **dernier** agree: **le mois prochain**, **la semaine prochaine**, **la semaine dernière**.\n\n**Hier** is yesterday.",
       "example_sentence_ids": "S12169;S12161;S12163",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U63",
-      "rule": "Months take no capital: janvier, février … décembre. In a month is en: en juillet. Seasons: en été, en hiver, en automne, but au printemps. Dates use the plain number (le deux mai), except the first: le premier mai.",
+      "rule": "Months take no capital: **janvier**, **février** … **décembre**. In a month is **en**: **en juillet**.\n\nSeasons: **en été**, **en hiver**, **en automne**, but **au printemps**.\n\nDates use the plain number (**le deux mai**), except the first: **le premier mai**.",
       "example_sentence_ids": "S12206;S12261;S12273",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U72",
-      "rule": "After a preposition or alone, French uses moi, toi, lui, elle, nous, vous, eux: avec moi, chez toi, c'est eux. Personne and rien take ne: personne ne dit rien. Notre, nos: our; leur: their; chaque: each.",
+      "rule": "After a preposition or alone, French uses **moi**, **toi**, **lui**, **elle**, **nous**, **vous**, **eux**: **avec moi**, **chez toi**, **c'est eux**.\n\n**Personne** and **rien** take **ne**: **personne ne dit rien**.\n\n**Notre**, **nos**: our; **leur**: their; **chaque**: each.",
       "example_sentence_ids": "S13361;S13362;S13301",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U38",
-      "rule": "To ask for a moment: Un instant, s'il vous plaît, or Attends (to a friend), Attendez (polite). To say you're thinking: Je réfléchis. Voyons… means let's see.",
+      "rule": "To ask for a moment:\n**Un instant, s'il vous plaît**\n**Attends** (to a friend)\n**Attendez** (polite)\n\nTo say you're thinking: **Je réfléchis**.\n\n**Voyons…** means let's see.",
       "example_sentence_ids": "S13061;S13063;S13062",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U64",
-      "rule": "A plan uses aller + a verb: on va voir un film, je vais sortir. Venir is irregular: je viens, tu viens, il vient. Tu viens avec moi ? asks someone along; tu es libre lundi ? asks if they're free.",
+      "rule": "A plan uses **aller** + a verb: **on va voir un film**, **je vais sortir**.\n\n**Venir** is irregular: **je viens**, **tu viens**, **il vient**.\n\n**Tu viens avec moi ?** asks someone along.\n**tu es libre lundi ?** asks if they're free.",
       "example_sentence_ids": "S12361;S12368;S12365",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U65",
-      "rule": "Some verbs take me for things you do to yourself: je me lève (I get up). To put the day in order: d'abord (first), puis or ensuite (then), après (after), avant (before): d'abord je me lève, puis je mange.",
+      "rule": "Some verbs take **me** for things you do to yourself: **je me lève** (I get up).\n\nTo put the day in order: **d'abord** (first), **puis** or **ensuite** (then), **après** (after), **avant** (before):\n**d'abord je me lève, puis je mange**",
       "example_sentence_ids": "S12461;S12464;S12469",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U73",
-      "rule": "Everyday verbs in the present: je prends (prendre), je mets (mettre), je donne (donner), je trouve (trouver), j'aide (aider), j'oublie (oublier), je montre (montrer). Passer un week-end: to spend a weekend.",
+      "rule": "Everyday verbs in the present: **je prends** (**prendre**), **je mets** (**mettre**), **je donne** (**donner**), **je trouve** (**trouver**), **j'aide** (**aider**), **j'oublie** (**oublier**), **je montre** (**montrer**).\n\n**Passer un week-end**: to spend a weekend.",
       "example_sentence_ids": "S13464;S13462;S13463",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U66",
-      "rule": "Signs use the adjective alone: Ouvert, Fermé, Entrée, Sortie. In a sentence it agrees: le magasin est fermé, la porte est fermée, la piscine est ouverte. Attention means careful: attention au chien !",
+      "rule": "Signs use the adjective alone: **Ouvert**, **Fermé**, **Entrée**, **Sortie**.\n\nIn a sentence it agrees: **le magasin est fermé**, **la porte est fermée**, **la piscine est ouverte**.\n\n**Attention** means careful: **attention au chien !**",
       "example_sentence_ids": "S12564;S12569;S12571",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U67",
-      "rule": "Trains and buses partir (leave) and arriver (arrive): le train part à huit heures, il arrive à dix heures. Le départ and l'arrivée are the nouns. Depuis is since (je suis ici depuis samedi); pendant is during.",
+      "rule": "Trains and buses **partir** (leave) and **arriver** (arrive): **le train part à huit heures, il arrive à dix heures**.\n\n**Le départ** and **l'arrivée** are the nouns.\n\n**Depuis** is since (**je suis ici depuis samedi**); **pendant** is during.",
       "example_sentence_ids": "S12661;S12674;S12666",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U74",
-      "rule": "To say what you like: j'adore, j'aime, je préfère, je déteste + le, la, les (je déteste le fromage) or + a verb (je préfère lire). Ça me plaît: I like it. To give an opinion: je pense que, je crois que + a sentence.",
+      "rule": "To say what you like: **j'adore**, **j'aime**, **je préfère**, **je déteste**\n+ **le**, **la**, **les** (**je déteste le fromage**)\nor + a verb (**je préfère lire**)\n\n**Ça me plaît**: I like it.\n\nTo give an opinion: **je pense que**, **je crois que** + a sentence.",
       "example_sentence_ids": "S13561;S13563;S13562",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U39",
-      "rule": "To say you don't know: Aucune idée (no idea) or Je ne sais pas. Not sure: je ne suis pas sûr (a man), pas sûre (a woman). To leave it open: C'est possible. Bien sûr means of course.",
+      "rule": "To say you don't know: **Aucune idée** (no idea) or **Je ne sais pas**.\nNot sure: **je ne suis pas sûr** (a man), **pas sûre** (a woman).\nTo leave it open: **C'est possible**.\n\n**Bien sûr** means of course.",
       "example_sentence_ids": "S13161;S13162;S13101",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U68",
-      "rule": "At a station: monter dans le train (get on), descendre du train or à la gare (get off). Montez, descendez: the vous command, as in announcements. Le train a du retard: the train is late.",
+      "rule": "At a station:\n**monter dans le train** (get on)\n**descendre du train** or **à la gare** (get off)\n\n**Montez**, **descendez**: the **vous** command, as in announcements.\n\n**Le train a du retard**: the train is late.",
       "example_sentence_ids": "S12761;S12765;S12763",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U69",
-      "rule": "Instructions use the command form: to a friend, the tu form without tu (ouvre, ferme, choisis, réponds); politely or to several people, the vous form without vous (ouvrez, fermez, écoutez, répondez).",
+      "rule": "Instructions use the command form.\n\nTo a friend, the **tu** form without **tu**: **ouvre**, **ferme**, **choisis**, **réponds**.\nPolitely or to several people, the **vous** form without **vous**: **ouvrez**, **fermez**, **écoutez**, **répondez**.",
       "example_sentence_ids": "S12861;S12862;S12863",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U75",
-      "rule": "To visit a place is visiter (je vais visiter le château); to meet someone is rencontrer. Tout le monde means everyone, not the whole world. Célèbre: famous; ancien: old.",
+      "rule": "To visit a place is **visiter** (**je vais visiter le château**); to meet someone is **rencontrer**.\n\n**Tout le monde** means everyone, not the whole world.\n\n**Célèbre**: famous; **ancien**: old.",
       "example_sentence_ids": "S13672;S13661;S13677",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U81",
-      "rule": "Boire is irregular: je bois, tu bois, il boit. Asking for a drink: un café, s'il vous plaît; du vin, de la bière (some). Thirst takes avoir: j'ai soif. At the end: l'addition, s'il vous plaît.",
+      "rule": "**Boire** is irregular: **je bois**, **tu bois**, **il boit**.\n\nAsking for a drink: **un café, s'il vous plaît**; **du vin**, **de la bière** (some).\nThirst takes **avoir**: **j'ai soif**.\nAt the end: **l'addition, s'il vous plaît**.",
       "example_sentence_ids": "S13761;S13763;S13767",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U91",
-      "rule": "Porter is the verb for what you wear: elle porte une robe. Clothes are des vêtements; one piece is un vêtement. Adjectives agree: un joli chapeau, une jolie robe. To ask the colour: de quelle couleur est ta robe ?",
+      "rule": "**Porter** is the verb for what you wear: **elle porte une robe**.\n\nClothes are **des vêtements**; one piece is **un vêtement**.\n\nAdjectives agree: **un joli chapeau**, **une jolie robe**.\n\nTo ask the colour: **de quelle couleur est ta robe ?**",
       "example_sentence_ids": "S14963;S14961;S14965",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U26",
-      "rule": "To get attention politely: Excusez-moi or Pardon, then j'ai une question, or je peux vous poser une question ? Demander is to ask: je peux demander pourquoi ? Je vous demande pardon: I beg your pardon.",
+      "rule": "To get attention politely: **Excusez-moi** or **Pardon**, then **j'ai une question**, or **je peux vous poser une question ?**\n\n**Demander** is to ask: **je peux demander pourquoi ?**\n\n**Je vous demande pardon**: I beg your pardon.",
       "example_sentence_ids": "S14601;S14661;S14662",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U82",
-      "rule": "Hunger takes avoir: j'ai faim, tu as faim ? Ordering: je voudrais le menu, je prends le plat du jour. Saying it's good: c'est délicieux, ça a bon goût.",
+      "rule": "Hunger takes **avoir**: **j'ai faim**, **tu as faim ?**\nOrdering: **je voudrais le menu**, **je prends le plat du jour**.\nSaying it's good: **c'est délicieux**, **ça a bon goût**.",
       "example_sentence_ids": "S13867;S13864;S13862",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U83",
-      "rule": "Directions: à gauche (left), à droite (right), tout droit (straight on); prenez à gauche: turn left. Là is there, là-bas over there. À côté de: next to; au coin de la rue: on the corner.",
+      "rule": "Directions:\n**à gauche** (left)\n**à droite** (right)\n**tout droit** (straight on)\n**prenez à gauche**: turn left\n\n**Là** is there, **là-bas** over there.\n\n**À côté de**: next to\n**au coin de la rue**: on the corner",
       "example_sentence_ids": "S13962;S13961;S13963",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U92",
-      "rule": "Linking words: si (if), donc (so), sans (without: un café sans sucre), contre (against), surtout (especially). When and how: bientôt (soon), enfin (at last), presque (almost), vite (fast), longtemps (a long time).",
+      "rule": "Linking words: **si** (if), **donc** (so), **sans** (without: **un café sans sucre**), **contre** (against), **surtout** (especially).\n\nWhen and how: **bientôt** (soon), **enfin** (at last), **presque** (almost), **vite** (fast), **longtemps** (a long time).",
       "example_sentence_ids": "S15063;S15061;S15065",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U27",
-      "rule": "When you're lost: Excusez-moi, je suis perdu (a man), perdue (a woman). To check the way: C'est par ici ? C'est par là ? To ask for a map: je voudrais un plan de la ville.",
+      "rule": "When you're lost: **Excusez-moi, je suis perdu** (a man), **perdue** (a woman).\nTo check the way: **C'est par ici ?** **C'est par là ?**\nTo ask for a map: **je voudrais un plan de la ville**.",
       "example_sentence_ids": "S14761;S14706;S27201",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U84",
-      "rule": "Directions in the vous command: traversez la rue (cross), continuez tout droit (go straight on), suivez la rue (follow). With tu: traverse, continue, suis. Le feu here is the traffic light; la place is the square.",
+      "rule": "Directions in the **vous** command:\n**traversez la rue** (cross)\n**continuez tout droit** (go straight on)\n**suivez la rue** (follow)\n\nWith **tu**: **traverse**, **continue**, **suis**.\n\n**Le feu** here is the traffic light; **la place** is the square.",
       "example_sentence_ids": "S14068;S14062;S14070",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U85",
-      "rule": "Where things are: devant (in front of), derrière (behind), entre … et … (between), sous (under), en face de (opposite), vers (towards). Chez + a person is at their place: chez moi (at home), chez Paul.",
+      "rule": "Where things are: **devant** (in front of), **derrière** (behind), **entre … et …** (between), **sous** (under), **en face de** (opposite), **vers** (towards).\n\n**Chez** + a person is at their place: **chez moi** (at home), **chez Paul**.",
       "example_sentence_ids": "S14164;S14161;S14169",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U93",
-      "rule": "Jouer à for a sport or game: je joue au tennis (à + le = au). Gagner (win) and perdre (lose): il gagne, il perd. Une équipe is a team; un match a game; une course a race.",
+      "rule": "**Jouer à** for a sport or game: **je joue au tennis** (**à** + **le** = **au**).\n\n**Gagner** (win) and **perdre** (lose): **il gagne**, **il perd**.\n\n**Une équipe** is a team; **un match** a game; **une course** a race.",
       "example_sentence_ids": "S15161;S15165;S15162",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U86",
-      "rule": "Places in town take à la or au: je vais à la poste, à la banque, à la boulangerie, au supermarché. To ask if one is nearby: il y a une pharmacie près d'ici ? Opening times: la poste ferme à six heures.",
+      "rule": "Places in town take **à la** or **au**: **je vais à la poste**, **à la banque**, **à la boulangerie**, **au supermarché**.\n\nTo ask if one is nearby: **il y a une pharmacie près d'ici ?**\n\nOpening times: **la poste ferme à six heures**.",
       "example_sentence_ids": "S14261;S14263;S14202",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U87",
-      "rule": "Verbs of moving: marcher (walk), entrer (go in), rentrer (go home), revenir (come back: je reviens), retourner (go back). How you travel: à pied (on foot), en taxi, en bus.",
+      "rule": "Verbs of moving: **marcher** (walk), **entrer** (go in), **rentrer** (go home), **revenir** (come back: **je reviens**), **retourner** (go back).\n\nHow you travel: **à pied** (on foot), **en taxi**, **en bus**.",
       "example_sentence_ids": "S14365;S14361;S14370",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U94",
-      "rule": "Telling and asking: raconter une histoire (tell a story), expliquer (explain), rire (laugh: je ris), téléphoner à quelqu'un (phone someone). Introducing someone: je vous présente Marie, je vous présente mon ami Paul.",
+      "rule": "Telling and asking:\n**raconter une histoire** (tell a story)\n**expliquer** (explain)\n**rire** (laugh: **je ris**)\n**téléphoner à quelqu'un** (phone someone)\n\nIntroducing someone: **je vous présente Marie**, **je vous présente mon ami Paul**.",
       "example_sentence_ids": "S15263;S94201;S15265",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U28",
-      "rule": "To say something is wrong: j'ai un problème. To ask for help: j'ai besoin d'aide (avoir besoin de: to need). To ask how bad: c'est grave ? To reassure: pas de problème, pas grave.",
+      "rule": "To say something is wrong: **j'ai un problème**.\nTo ask for help: **j'ai besoin d'aide** (**avoir besoin de**: to need).\nTo ask how bad: **c'est grave ?**\nTo reassure: **pas de problème**, **pas grave**.",
       "example_sentence_ids": "S14862;S14809;S14861",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U88",
-      "rule": "Travelling: voyager en avion (by plane), un billet (a ticket; un billet d'avion), une valise (a suitcase), à l'aéroport. To ask the time: à quelle heure part ton avion ? Mon avion part à dix heures.",
+      "rule": "Travelling:\n**voyager en avion** (by plane)\n**un billet** (a ticket; **un billet d'avion**)\n**une valise** (a suitcase)\n**à l'aéroport**\n\nTo ask the time: **à quelle heure part ton avion ?**\n**Mon avion part à dix heures.**",
       "example_sentence_ids": "S14425;S14462;S14461",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U89",
-      "rule": "Nouveau comes before the noun and agrees: un nouveau professeur, une nouvelle voiture. Meilleur is better or best: quel livre est le meilleur ? Facile (easy), difficile (difficult), différent and important are the same for a man or a woman except différent, différente.",
+      "rule": "**Nouveau** comes before the noun and agrees: **un nouveau professeur**, **une nouvelle voiture**.\n\n**Meilleur** is better or best: **quel livre est le meilleur ?**\n\n**Facile** (easy), **difficile** (difficult), **différent** and **important** are the same for a man or a woman except **différent**, **différente**.",
       "example_sentence_ids": "S14561;S14510;S14562",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U95",
-      "rule": "Verbs of change: changer (change: tout change), devenir (become: ça devient difficile), décider (decide), apprendre (learn: j'apprends le français), arrêter (stop: arrête !), laisser (leave). J'espère que + a sentence: I hope that.",
+      "rule": "Verbs of change:\n**changer** (change: **tout change**)\n**devenir** (become: **ça devient difficile**)\n**décider** (decide)\n**apprendre** (learn: **j'apprends le français**)\n**arrêter** (stop: **arrête !**)\n**laisser** (leave)\n\n**J'espère que** + a sentence: I hope that.",
       "example_sentence_ids": "S15364;S15362;S15361",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U501",
-      "rule": "Te is you, before the verb: je te connais, je te rappelle; before a vowel it becomes t'. Ne becomes n' before a vowel: je n'aime pas, il n'est pas là. Avoir with vous is vous avez: vous avez des enfants ? Connaître is to know a person or a place: je connais Paul, elle connaît la ville.",
+      "rule": "**Te** is you, before the verb: **je te connais**, **je te rappelle**. Before a vowel it becomes **t'**.\n\n**Ne** becomes **n'** before a vowel: **je n'aime pas**, **il n'est pas là**.\n\n**Avoir** with **vous** is **vous avez**: **vous avez des enfants ?**\n\n**Connaître** is to know a person or a place: **je connais Paul**, **elle connaît la ville**.",
       "example_sentence_ids": "S15465;S15466;S15469",
       "conjugation_lemma": "connaître",
       "status": "live"
     },
     {
       "unit_id": "U511",
-      "rule": "Family words: maman and papa (mum and dad), mon grand-père, ma grand-mère, mon oncle, ma tante, mon cousin. Mon copain, ma copine: my boyfriend, my girlfriend (mon petit copain is clearer); among friends they can also mean a friend.",
+      "rule": "Family words: **maman** and **papa** (mum and dad), **mon grand-père**, **ma grand-mère**, **mon oncle**, **ma tante**, **mon cousin**.\n\n**Mon copain**, **ma copine**: my boyfriend, my girlfriend (**mon petit copain** is clearer). Among friends they can also mean a friend.",
       "example_sentence_ids": "S15501;S15565;S15567",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U521",
-      "rule": "Being polite: Je vous dérange ? Je te dérange ? (Am I disturbing you?) Désolé de vous déranger. Ce n'est pas la peine: there's no need. You're right is avoir raison: tu as raison, vous avez raison.",
+      "rule": "Being polite:\n**Je vous dérange ?** **Je te dérange ?** (Am I disturbing you?)\n**Désolé de vous déranger.**\n**Ce n'est pas la peine**: there's no need.\n\nYou're right is **avoir raison**: **tu as raison**, **vous avez raison**.",
       "example_sentence_ids": "S15661;S15664;S15665",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U502",
-      "rule": "Talking about family: j'ai un frère et une sœur; ma mère, mon père, ma famille. Il est marié, elle est mariée (married agrees like other adjectives); mon mari, my husband. Âgé: old, of a person: mon père est âgé.",
+      "rule": "Talking about family: **j'ai un frère et une sœur**; **ma mère**, **mon père**, **ma famille**.\n\n**Il est marié**, **elle est mariée** (married agrees like other adjectives); **mon mari**, my husband.\n\n**Âgé**: old, of a person: **mon père est âgé**.",
       "example_sentence_ids": "S15761;S15765;S15767",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U503",
-      "rule": "Vivre is to live: je vis, tu vis, il vit (je vis en ville). The rooms: la cuisine, la chambre, le salon (living room), la salle de bain (bathroom); une pièce is any room of a home. Where things are: la clé est sur la table.",
+      "rule": "**Vivre** is to live: **je vis**, **tu vis**, **il vit** (**je vis en ville**).\n\nThe rooms: **la cuisine**, **la chambre**, **le salon** (living room), **la salle de bain** (bathroom). **Une pièce** is any room of a home.\n\nWhere things are: **la clé est sur la table**.",
       "example_sentence_ids": "S15825;S15862;S15866",
       "conjugation_lemma": "vivre",
       "status": "live"
     },
     {
       "unit_id": "U512",
-      "rule": "Reflexive verbs take me, te, se before the verb: je me réveille, je me couche, il se repose, elle se prépare (gets ready). La journée is the whole day, la soirée the evening (bonne journée, bonne soirée). D'habitude: usually.",
+      "rule": "Reflexive verbs take **me**, **te**, **se** before the verb: **je me réveille**, **je me couche**, **il se repose**, **elle se prépare** (gets ready).\n\n**La journée** is the whole day, **la soirée** the evening (**bonne journée**, **bonne soirée**).\n\n**D'habitude**: usually.",
       "example_sentence_ids": "S15901;S15906;S15961",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U504",
-      "rule": "Housework: faire le ménage (do the housework), laver (wash: je lave la voiture), ranger (tidy, put away), garder (keep; look after: qui garde les enfants ?). Faire is to do or make: je fais, tu fais; qu'est-ce que tu fais ?",
+      "rule": "Housework:\n**faire le ménage** (do the housework)\n**laver** (wash: **je lave la voiture**)\n**ranger** (tidy, put away)\n**garder** (keep; look after: **qui garde les enfants ?**)\n\n**Faire** is to do or make: **je fais**, **tu fais**; **qu'est-ce que tu fais ?**",
       "example_sentence_ids": "S16001;S16011;S16061",
       "conjugation_lemma": "faire",
       "status": "live"
     },
     {
       "unit_id": "U505",
-      "rule": "Jobs take no article after être: il est journaliste, je suis secrétaire (but c'est un journaliste). At work: le bureau, le travail, une réunion (a meeting), un projet, mon patron, ma collègue. Avoir with nous and ils: nous avons une réunion, ils ont un projet.",
+      "rule": "Jobs take no article after **être**: **il est journaliste**, **je suis secrétaire** (but **c'est un journaliste**).\n\nAt work: **le bureau**, **le travail**, **une réunion** (a meeting), **un projet**, **mon patron**, **ma collègue**.\n\n**Avoir** with **nous** and **ils**: **nous avons une réunion**, **ils ont un projet**.",
       "example_sentence_ids": "S16101;S16113;S16161",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U522",
-      "rule": "Saying why: pourquoi ? parce que … (because); before a vowel, que becomes qu': parce qu'il est là. For example: par exemple. To check what someone said: qu'est-ce que tu dis ? vous dites ? comment on dit ça en français ?",
+      "rule": "Saying why: **pourquoi ?** **parce que …** (because). Before a vowel, **que** becomes **qu'**: **parce qu'il est là**.\n\nFor example: **par exemple**.\n\nTo check what someone said:\n**qu'est-ce que tu dis ?**\n**vous dites ?**\n**comment on dit ça en français ?**",
       "example_sentence_ids": "S16202;S16209;S16261",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U513",
-      "rule": "Devoir + a verb is must, have to: je dois partir, il doit venir. Il faut (from falloir) says what has to be done, for everyone: il faut partir; il me faut du temps (I need time). Avoir mal: to hurt, j'ai mal à la tête. Le temps is time (and the weather): je n'ai pas le temps.",
+      "rule": "**Devoir** + a verb is must, have to: **je dois partir**, **il doit venir**.\n\n**Il faut** (from **falloir**) says what has to be done, for everyone: **il faut partir**; **il me faut du temps** (I need time).\n\n**Avoir mal**: to hurt, **j'ai mal à la tête**.\n\n**Le temps** is time (and the weather): **je n'ai pas le temps**.",
       "example_sentence_ids": "S16305;S16301;S16316",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U506",
-      "rule": "School and study: étudier (j'étudie les maths); le collège (secondary school, 11 to 15), le lycée (high school, 15 to 18), l'université. Être bon en: to be good at (je suis bon en maths). Un examen, un exercice, la réponse (the answer).",
+      "rule": "School and study: **étudier** (**j'étudie les maths**).\n\n**le collège** (secondary school, 11 to 15)\n**le lycée** (high school, 15 to 18)\n**l'université**\n\n**Être bon en**: to be good at (**je suis bon en maths**).\n\n**Un examen**, **un exercice**, **la réponse** (the answer).",
       "example_sentence_ids": "S16401;S16403;S16465",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U507",
-      "rule": "Messages: écrire (j'écris une lettre, un message, un mail), envoyer (to send: j'envoie un mail à Paul; tu peux m'envoyer un message ?). On the phone: allô ? c'est Marie.",
+      "rule": "Messages:\n**écrire** (**j'écris une lettre**, **un message**, **un mail**)\n**envoyer** (to send: **j'envoie un mail à Paul**; **tu peux m'envoyer un message ?**)\n\nOn the phone: **allô ? c'est Marie**.",
       "example_sentence_ids": "S16526;S16528;S16561",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U523",
-      "rule": "Saying what you feel like: avoir envie de (tu as envie de venir ? je n'ai pas envie de sortir). Vouloir: je veux, tu veux (tu veux venir avec moi ?); je veux bien: yes, I'd like that. Accepting gladly: oui, volontiers ! avec plaisir !",
+      "rule": "Saying what you feel like: **avoir envie de**\n**tu as envie de venir ?**\n**je n'ai pas envie de sortir**\n\n**Vouloir**: **je veux**, **tu veux** (**tu veux venir avec moi ?**)\n**je veux bien**: yes, I'd like that\n\nAccepting gladly: **oui, volontiers !** **avec plaisir !**",
       "example_sentence_ids": "S16605;S16626;S16661",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U514",
-      "rule": "Inviting and thanking: je t'invite (te becomes t' before a vowel); on va fêter ton anniversaire. Answers: avec plaisir ! (with pleasure). Thanks: je te remercie, je vous remercie. And bonne chance ! (good luck); tu as de la chance (you're lucky).",
+      "rule": "Inviting and thanking: **je t'invite** (**te** becomes **t'** before a vowel); **on va fêter ton anniversaire**.\n\nAnswers: **avec plaisir !** (with pleasure)\nThanks: **je te remercie**, **je vous remercie**\n\nAnd **bonne chance !** (good luck); **tu as de la chance** (you're lucky).",
       "example_sentence_ids": "S16703;S16704;S16706",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U508",
-      "rule": "Filling in a form: nom (surname), prénom, date et lieu de naissance (date and place of birth), nationalité, profession, adresse, signature. Situation de famille: marié(e) or célibataire (single). Madame, Mademoiselle (Miss), Monsieur. Asking politely: votre nom, s'il vous plaît ?",
+      "rule": "Filling in a form: **nom** (surname), **prénom**, **date et lieu de naissance** (date and place of birth), **nationalité**, **profession**, **adresse**, **signature**.\n\n**Situation de famille**: **marié(e)** or **célibataire** (single).\n\n**Madame**, **Mademoiselle** (Miss), **Monsieur**.\n\nAsking politely: **votre nom, s'il vous plaît ?**",
       "example_sentence_ids": "S16801;S16803;S16862",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U509",
-      "rule": "Ending a message to a friend: je t'embrasse, bises (love), à bientôt. Revoir: to see again (j'espère te revoir). Se retrouver: to meet up (on se retrouve à la gare ?). Quitter: to leave a place (je quitte la maison à huit heures).",
+      "rule": "Ending a message to a friend: **je t'embrasse**, **bises** (love), **à bientôt**.\n\n**Revoir**: to see again (**j'espère te revoir**)\n**Se retrouver**: to meet up (**on se retrouve à la gare ?**)\n**Quitter**: to leave a place (**je quitte la maison à huit heures**)",
       "example_sentence_ids": "S16901;S16908;S16961",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U515",
-      "rule": "Love and dreams: être amoureux, amoureuse (de): to be in love (with); il est amoureux de Marie. L'amour, mon amour (my love). Rêver: to dream (je rêve chaque nuit; je rêve de voyager); un rêve. Le cœur: the heart (il a bon cœur: he's kind).",
+      "rule": "Love and dreams:\n**être amoureux**, **amoureuse** (**de**): to be in love (with); **il est amoureux de Marie**\n**l'amour**, **mon amour** (my love)\n**rêver**: to dream (**je rêve chaque nuit**; **je rêve de voyager**); **un rêve**\n**le cœur**: the heart (**il a bon cœur**: he's kind)",
       "example_sentence_ids": "S17002;S17011;S17026",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U601",
-      "rule": "On a postcard: je suis à la mer; il fait chaud, il fait beau (the weather); le séjour (the stay) est tranquille; le lendemain (the next day). Wishes: je vous souhaite un bon voyage, une bonne année. Plein, pleine: full; plein de: lots of.",
+      "rule": "On a postcard:\n**je suis à la mer**\n**il fait chaud**, **il fait beau** (the weather)\n**le séjour** (the stay) **est tranquille**\n**le lendemain** (the next day)\n\nWishes: **je vous souhaite un bon voyage**, **une bonne année**.\n\n**Plein**, **pleine**: full; **plein de**: lots of.",
       "example_sentence_ids": "S17126;S17112;S17164",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U611",
-      "rule": "Reacting: ah bon ? (really?), oh, vraiment ? Cela is that, the written form of ça (qui a dit cela ?). Mieux is better, of how things go: tu vas mieux ? Heureusement: luckily. Excellent, extraordinaire: excellent, amazing.",
+      "rule": "Reacting: **ah bon ?** (really?), **oh, vraiment ?**\n\n**Cela** is that, the written form of **ça** (**qui a dit cela ?**).\n**Mieux** is better, of how things go: **tu vas mieux ?**\n**Heureusement**: luckily.\n**Excellent**, **extraordinaire**: excellent, amazing.",
       "example_sentence_ids": "S17206;S17202;S17214",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U621",
-      "rule": "Giving an opinion: à mon avis (in my opinion), c'est mon avis; quel est ton avis ? Sure: je suis certain, certaine (vous êtes certain ?). C'est clair: it's clear. Un conseil: a piece of advice (merci pour le conseil).",
+      "rule": "Giving an opinion: **à mon avis** (in my opinion), **c'est mon avis**; **quel est ton avis ?**\nSure: **je suis certain**, **certaine** (**vous êtes certain ?**).\n**C'est clair**: it's clear.\n**Un conseil**: a piece of advice (**merci pour le conseil**).",
       "example_sentence_ids": "S17307;S17305;S17361",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U602",
-      "rule": "Going out: aller au théâtre, au concert, au cinéma; une exposition de peinture au musée; un spectacle (a show): quand commence le spectacle ? Danser: tu veux danser ?",
+      "rule": "Going out: **aller au théâtre**, **au concert**, **au cinéma**; **une exposition de peinture au musée**.\n\n**Un spectacle** (a show): **quand commence le spectacle ?**\n**Danser**: **tu veux danser ?**",
       "example_sentence_ids": "S17401;S17410;S17461",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U603",
-      "rule": "Reading notices: c'est interdit (not allowed); pas de bruit (no noise); ouvert jusqu'à sept heures (until); fermé jusqu'à lundi. Du début à la fin: from start to finish. Partout: everywhere.",
+      "rule": "Reading notices:\n**c'est interdit** (not allowed)\n**pas de bruit** (no noise)\n**ouvert jusqu'à sept heures** (until)\n**fermé jusqu'à lundi**\n\n**Du début à la fin**: from start to finish.\n**Partout**: everywhere.",
       "example_sentence_ids": "S17507;S17502;S17501",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U612",
-      "rule": "Health: la santé (comment va la santé ? à votre santé !), un accident. Tomber: to fall (il tombe; tomber amoureux: to fall in love). Pleurer: to cry (elle pleure). L'air: air (prendre l'air: get some fresh air); avoir l'air: to look (tu as l'air triste).",
+      "rule": "Health: **la santé** (**comment va la santé ?** **à votre santé !**), **un accident**.\n\n**Tomber**: to fall (**il tombe**; **tomber amoureux**: to fall in love).\n**Pleurer**: to cry (**elle pleure**).\n**L'air**: air (**prendre l'air**: get some fresh air); **avoir l'air**: to look (**tu as l'air triste**).",
       "example_sentence_ids": "S17602;S17605;S17617",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U604",
-      "rule": "Instructions use the vous command (or the tu command): asseyez-vous, assieds-toi (sit down); tenez (hold; here you are); ajoutez (add); avancez (move forward). S'asseoir is to sit down: je peux m'asseoir ici ?",
+      "rule": "Instructions use the **vous** command (or the **tu** command):\n**asseyez-vous**, **assieds-toi** (sit down)\n**tenez** (hold; here you are)\n**ajoutez** (add)\n**avancez** (move forward)\n\n**S'asseoir** is to sit down: **je peux m'asseoir ici ?**",
       "example_sentence_ids": "S17724;S17709;S17720",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U605",
-      "rule": "Making weekend plans: je t'accompagne (I'll come with you), je t'emmène au cinéma (I'll take you), se promener (to go for a walk: on se promène dimanche ?), organiser une fête, partager (to share: on partage l'addition).",
+      "rule": "Making weekend plans:\n**je t'accompagne** (I'll come with you)\n**je t'emmène au cinéma** (I'll take you)\n**se promener** (to go for a walk: **on se promène dimanche ?**)\n**organiser une fête**\n**partager** (to share: **on partage l'addition**)",
       "example_sentence_ids": "S17824;S17810;S17823",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U622",
-      "rule": "Yes or no to an invitation: j'accepte avec plaisir; désolé, je ne peux pas. Promising: je promets de venir (promettre de + a verb); je te promets. Accepter: je ne peux pas accepter ce cadeau.",
+      "rule": "Yes or no to an invitation:\n**j'accepte avec plaisir**\n**désolé, je ne peux pas**\n\nPromising: **je promets de venir** (**promettre de** + a verb); **je te promets**.\n\n**Accepter**: **je ne peux pas accepter ce cadeau**.",
       "example_sentence_ids": "S17902;S17910;S17964",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U613",
-      "rule": "Facts about a place: les habitants (the people who live there), le nord (the north), un siècle (a century), moderne. How many: plusieurs (several), de nombreux livres (many books). Autour de: around (un jardin autour de la maison).",
+      "rule": "Facts about a place: **les habitants** (the people who live there), **le nord** (the north), **un siècle** (a century), **moderne**.\n\nHow many: **plusieurs** (several), **de nombreux livres** (many books).\n\n**Autour de**: around (**un jardin autour de la maison**).",
       "example_sentence_ids": "S18010;S18011;S18067",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U606",
-      "rule": "Feelings with ça + me + the verb: ça m'intéresse, ça m'amuse, ça m'ennuie. Reflexive: je m'amuse (I'm having fun), il s'ennuie (he's bored). Quelle surprise ! Offrir: to give a present, to offer (je t'offre un café ?).",
+      "rule": "Feelings with **ça** + **me** + the verb: **ça m'intéresse**, **ça m'amuse**, **ça m'ennuie**.\n\nReflexive: **je m'amuse** (I'm having fun), **il s'ennuie** (he's bored).\n\n**Quelle surprise !**\n\n**Offrir**: to give a present, to offer (**je t'offre un café ?**).",
       "example_sentence_ids": "S18105;S18114;S18126",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U607",
-      "rule": "Answering a message: quelque chose (something), quelque part (somewhere); j'apporte du vin, je peux apporter quelque chose ? (apporter: to bring); je m'occupe de tout (I'll take care of everything); saluer: to say hello to (Paul vous salue); discuter: to talk.",
+      "rule": "Answering a message:\n**quelque chose** (something), **quelque part** (somewhere)\n**j'apporte du vin**, **je peux apporter quelque chose ?** (**apporter**: to bring)\n**je m'occupe de tout** (I'll take care of everything)\n**saluer**: to say hello to (**Paul vous salue**)\n**discuter**: to talk",
       "example_sentence_ids": "S18202;S18214;S18228",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U623",
-      "rule": "When you can't hear: plus fort, s'il vous plaît (louder); moins fort (quieter); je n'entends pas ta voix. Turns: c'est mon tour ? à qui le tour ? c'est ton tour. Tout de suite: right away (j'arrive tout de suite).",
+      "rule": "When you can't hear:\n**plus fort, s'il vous plaît** (louder)\n**moins fort** (quieter)\n**je n'entends pas ta voix**\n\nTurns: **c'est mon tour ?** **à qui le tour ?** **c'est ton tour**.\n\n**Tout de suite**: right away (**j'arrive tout de suite**).",
       "example_sentence_ids": "S18301;S18305;S18361",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U614",
-      "rule": "Describing: gros, grosse (big, fat); long, longue; doux, douce (soft, gentle, sweet); brun (brown); pauvre (poor); simple; la lumière (light). Feminine forms add -e, and some change more: grosse, longue, douce. En général: usually.",
+      "rule": "Describing: **gros**, **grosse** (big, fat); **long**, **longue**; **doux**, **douce** (soft, gentle, sweet); **brun** (brown); **pauvre** (poor); **simple**; **la lumière** (light).\n\nFeminine forms add **-e**, and some change more: **grosse**, **longue**, **douce**.\n\n**En général**: usually.",
       "example_sentence_ids": "S18412;S18426;S18465",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U608",
-      "rule": "A life: la vie (comment va la vie ?), naître (to be born: le bébé va naître en mai), se marier (to get married: je vais me marier), mourir (to die; il est mort: he died). Tout à coup: suddenly.",
+      "rule": "A life:\n**la vie** (**comment va la vie ?**)\n**naître** (to be born: **le bébé va naître en mai**)\n**se marier** (to get married: **je vais me marier**)\n**mourir** (to die; **il est mort**: he died)\n\n**Tout à coup**: suddenly.",
       "example_sentence_ids": "S18504;S18509;S18517",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U609",
-      "rule": "Telling a story: une aventure (quelle aventure !), un secret; cacher (to hide: il se cache), crier (to shout: elle crie), imaginer (to imagine: tu peux imaginer ?). Present-tense -er verbs carry the story: il cache, elle crie, Paul imagine.",
+      "rule": "Telling a story: **une aventure** (**quelle aventure !**), **un secret**.\n\n**cacher** (to hide: **il se cache**)\n**crier** (to shout: **elle crie**)\n**imaginer** (to imagine: **tu peux imaginer ?**)\n\nPresent-tense **-er** verbs carry the story: **il cache**, **elle crie**, **Paul imagine**.",
       "example_sentence_ids": "S18603;S18609;S18613",
       "conjugation_lemma": "",
       "status": "live"
     },
     {
       "unit_id": "U615",
-      "rule": "Everyday words: s'habiller (to get dressed: je m'habille, elle s'habille); mes affaires (my things); situé (located: où est situé l'hôtel ?); au bord de (by, at the edge of: au bord de la mer); respecter (il me respecte).",
+      "rule": "Everyday words:\n**s'habiller** (to get dressed: **je m'habille**, **elle s'habille**)\n**mes affaires** (my things)\n**situé** (located: **où est situé l'hôtel ?**)\n**au bord de** (by, at the edge of: **au bord de la mer**)\n**respecter** (**il me respecte**)",
       "example_sentence_ids": "S18701;S18704;S18703",
       "conjugation_lemma": "",
       "status": "live"

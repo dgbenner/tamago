@@ -5,6 +5,7 @@ import { IconBack, IconBars, IconBook, IconCode, IconCheckered, IconClose, IconC
 import { TL, course } from '../lib/course.js'
 import { FlagRow } from './Languages.jsx'
 import CircleNode from './CircleNode.jsx'
+import NoteText from './NoteText.jsx'
 import { GrammarNoteBody } from './GrammarNote.jsx'
 import { tables } from '../lib/content.js'
 
@@ -145,14 +146,14 @@ function InfoSheet({ node, onStart, onClose }) {
         {unit.grammar_point && (
           <section className="flex flex-col gap-1">
             <h3 className="text-sm font-semibold text-muted">Grammar</h3>
-            <p>{unit.grammar_point}</p>
+            <p><NoteText inline text={unit.grammar_point} /></p>
           </section>
         )}
         {words.length > 0 && (
           <section className="flex flex-col gap-1.5">
             <h3 className="text-sm font-semibold text-muted">New Words <span className="font-normal">({words.length})</span></h3>
             <ul className="flex flex-wrap gap-x-3 gap-y-1">
-              {words.map((w) => <li key={w.word_id}><span lang={TL} className="font-medium">{w.form}</span> <span className="text-sm text-muted">{w.hint || w.gloss}</span></li>)}
+              {words.map((w) => <li key={w.word_id}><strong lang={TL} className="font-semibold">{w.form}</strong> <span className="text-sm text-muted">{w.hint || w.gloss}</span></li>)}
             </ul>
           </section>
         )}
@@ -195,11 +196,11 @@ function UnitCard({ node, inProgress, onStart, onClose, onGrammarNote, hasNote, 
         <p className="mt-2 text-muted">Words and sentences on one subject. You can switch later; each topic keeps its progress.</p>
         <TopicList topic={topic} current={topic.choosing ? null : unit.unit_id} onChoose={onChooseTopic} />
       </> : !open ? <>
-        <p className="mt-2 text-muted">{unit.grammar_point}</p>
+        <p className="mt-2 text-muted"><NoteText inline text={unit.grammar_point} /></p>
         <p className="mt-4">Locked for now. It opens when you've finished the first lessons of {lockedBy}.</p>
         <p className="mt-2 text-sm text-muted">These open in order, so each one builds on the words before it. Know some {course.name} already? The placement check in Settings can open several at once.</p>
       </> : <>
-        <p className="mt-2 text-muted">{unit.grammar_point}</p>
+        <p className="mt-2 text-muted"><NoteText inline text={unit.grammar_point} /></p>
         <p className="mt-3 text-sm text-muted">{where}</p>
         {hasNote && <button onClick={onGrammarNote} className="btn-secondary mt-4 w-full">Grammar Note</button>}
         {topic && <button onClick={() => setSwitching(true)} className="btn-secondary mt-3 w-full">Change Topic</button>}

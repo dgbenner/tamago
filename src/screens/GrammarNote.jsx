@@ -2,6 +2,7 @@ import { recordingOf } from '../lib/lesson.js'
 import { play } from '../lib/audio.js'
 import { IconBack, IconSpeaker } from './icons.jsx'
 import { TL } from '../lib/course.js'
+import NoteText from './NoteText.jsx'
 
 // A unit's grammar note: the rule in plain words, examples from the unit with audio, and the verb table from
 // Wiktionary. Since 2026-11-12 (Dan, batch 5) it opens over the tree from the circle's notebook icon: a centred pop-up on
@@ -10,7 +11,7 @@ import { TL } from '../lib/course.js'
 export function GrammarNoteBody({ note, sentenceById }) {
   return (
     <>
-      <p className="text-lg leading-relaxed">{note.rule}</p>
+      <NoteText text={note.rule} className="text-lg leading-relaxed" />
       <ul className="flex flex-col gap-2">
         {note.examples.map((id) => sentenceById.get(id)).filter(Boolean).map((s) => (
           <li key={s.sentence_id} className="flex items-start gap-3 rounded-xl border-2 border-line bg-surface p-3">
@@ -60,7 +61,7 @@ export default function GrammarNote({ unit, note, sentenceById, onDone, doneLabe
         </div>
       )}
 
-      <p className="text-lg leading-relaxed">{note.rule}</p>
+      <NoteText text={note.rule} className="text-lg leading-relaxed" />
 
       <ul className="flex flex-col gap-2">
         {note.examples.map((id) => sentenceById.get(id)).filter(Boolean).map((s) => (
