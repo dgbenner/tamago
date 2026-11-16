@@ -13,5 +13,5 @@ export const NOT_BY_EAR = new Set([
   'No, no me llamo Tom.', 'No, no entiendo.', 'No, no hay pan.', 'No, no tengo celular.', 'No, no tengo bolsa.', 'Ja, ja, genau!', // Spanish: "No, no …" sounds like "no no"
 ])
 // Kept: the repeat is ordinary grammar or clear by ear.
-export const FINE_BY_EAR = new Set(['Vous vous appelez comment ?', 'Bonjour, Madame. Vous vous appelez comment ?', 'Dos y dos son cuatro.'])
+export const FINE_BY_EAR = new Set(['Vous vous appelez comment ?', 'Bonjour, Madame. Vous vous appelez comment ?', 'Dos y dos son cuatro.', 'Andata o andata e ritorno?'])
 export const notByEar = (s) => NOT_BY_EAR.has(s?.french)
