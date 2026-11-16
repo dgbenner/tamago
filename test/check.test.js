@@ -167,3 +167,9 @@ test('a missing accent is right with a note naming the word', () => {
   assert.equal(notes[0].runs.filter((x) => x.mark).map((x) => x.text).join(''), 'é')
   assert.equal(checkTyped('un cafe', ['Un café.'], { strict: true }).correct, false)
 })
+// Typo guard (Dan, 2026-11-16): a slip that spells another word the course teaches is wrong, never a typo, also when a
+// space is missing or extra.
+test('a missing space that spells another course word is a miss', () => {
+  assert.ok(checkTyped('mason', ['Ma son.'], { lang: 'fr', vocabulary: new Set() }).typo)
+  assert.equal(checkTyped('mason', ['Ma son.'], { lang: 'fr', vocabulary: new Set(['mason']) }).correct, false)
+})

@@ -38,8 +38,10 @@ export function indexContent(t) {
     swBySentence.get(sw.sentence_id).push(sw)
   }
   for (const rows of swBySentence.values()) rows.sort((a, b) => a.position - b.position)
+  // Words a typo must never land on (Dan, 2026-11-16): every word the course teaches, not just this circle's, so a slip
+  // that spells another course word ("un" for "une") is a wrong word, never a typo.
   const vocabulary = {
-    fr: new Set(t.sentence_words.flatMap((sw) => normalize(sw.surface, 'fr').split(' '))),
+    fr: new Set([...t.sentence_words.map((sw) => sw.surface), ...(t.allWords ?? t.words ?? []).map((w) => w.form)].flatMap((x) => normalize(x, 'fr').split(' '))),
     en: new Set(t.sentences.flatMap((s) => normalize(s.english, 'en').split(' '))),
   }
   const qaByQuestion = new Map()
@@ -87,7 +89,7 @@ export function contentForUnit(t, unitId) {
   const earlier = new Set(t.units.filter((u) => u.order <= unit.order && (u.is_topic_pick !== 'yes' || u.unit_id === unitId)).map((u) => u.unit_id))
   const usedHere = new Set(t.sentence_words.filter((r) => ids.has(r.sentence_id)).map((r) => r.word_id))
   return indexContent({
-    ...t, unit_id: unitId, mix: unit.mix ?? '', allSentences: t.sentences,
+    ...t, unit_id: unitId, mix: unit.mix ?? '', allSentences: t.sentences, allWords: t.allWords ?? t.words,
     sentences: t.sentences.filter((s) => ids.has(s.sentence_id)),
     // Plus any later word the unit's own sentences use (a help circle borrows a few, 2026-11-10); never new here.
     words: t.words.filter((w) => earlier.has(w.first_unit) || usedHere.has(w.word_id)),

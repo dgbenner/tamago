@@ -63,7 +63,8 @@ const slipsAllowed = (word) => (word.length >= 6 ? 2 : word.length >= 3 ? 1 : 0)
 function isTypo(input, answer, vocabulary) {
   const I = input.split(' ')
   const A = answer.split(' ')
-  if (I.length !== A.length) return Math.abs(I.length - A.length) === 1 && distance(input, answer) <= TYPOS
+  // A missing or extra space: never when a typed word that isn't in the answer is another course word.
+  if (I.length !== A.length) return Math.abs(I.length - A.length) === 1 && distance(input, answer) <= TYPOS && !I.some((w) => !A.includes(w) && vocabulary.has(w))
   const diffs = A.map((w, i) => [w, I[i]]).filter(([w, t]) => w !== t)
   if (!diffs.length || diffs.length > TYPOS) return false
   let total = 0

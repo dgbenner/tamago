@@ -299,13 +299,7 @@ test('topic packs: lessons build in every round, no QT09 without pairs, and no o
   }
 })
 
-test('choices across all units are distinct, even where sentences share an English line', () => {
-  const all = indexContent(tables)
-  for (const s of all.sentences) for (const type of ['QT03', 'QT04']) for (let k = 0; k < 3; k++) {
-    const q = buildSession(all, 'practice', [{ sentence_id: s.sentence_id, type, round: 2 }], { rng: seeded(k + 1) }).queue[0]
-    if (q?.choices) assert.equal(new Set(q.choices).size, q.choices.length, `${s.sentence_id} ${q.choices}`)
-  }
-})
+// 'choices across all units are distinct' runs in six shards: test/distinct-choices-<n>.test.js.
 
 test('every live main unit builds lessons in all five rounds, from a learner who has finished the units before it', () => {
   const main = tables.units.filter((u) => String(u.status).startsWith('live') && !['yes', 'node'].includes(u.is_topic_pick)).sort((a, b) => a.order - b.order)
