@@ -467,6 +467,240 @@
       "form": "studiano"
     }
   ],
+  "sentire": [
+    {
+      "person": "io",
+      "form": "sento"
+    },
+    {
+      "person": "tu",
+      "form": "senti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "sente"
+    },
+    {
+      "person": "noi",
+      "form": "sentiamo"
+    },
+    {
+      "person": "voi",
+      "form": "sentite"
+    },
+    {
+      "person": "loro",
+      "form": "sentono"
+    }
+  ],
+  "pensare": [
+    {
+      "person": "io",
+      "form": "penso"
+    },
+    {
+      "person": "tu",
+      "form": "pensi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "pensa"
+    },
+    {
+      "person": "noi",
+      "form": "pensiamo"
+    },
+    {
+      "person": "voi",
+      "form": "pensate"
+    },
+    {
+      "person": "loro",
+      "form": "pensano"
+    }
+  ],
+  "venire": [
+    {
+      "person": "io",
+      "form": "vengo"
+    },
+    {
+      "person": "tu",
+      "form": "vieni"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "viene"
+    },
+    {
+      "person": "noi",
+      "form": "veniamo"
+    },
+    {
+      "person": "voi",
+      "form": "venite"
+    },
+    {
+      "person": "loro",
+      "form": "vengono"
+    }
+  ],
+  "fare": [
+    {
+      "person": "io",
+      "form": "faccio"
+    },
+    {
+      "person": "tu",
+      "form": "fai"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "fa"
+    },
+    {
+      "person": "noi",
+      "form": "facciamo"
+    },
+    {
+      "person": "voi",
+      "form": "fate"
+    },
+    {
+      "person": "loro",
+      "form": "fanno"
+    }
+  ],
+  "partire": [
+    {
+      "person": "io",
+      "form": "parto"
+    },
+    {
+      "person": "tu",
+      "form": "parti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "parte"
+    },
+    {
+      "person": "noi",
+      "form": "partiamo"
+    },
+    {
+      "person": "voi",
+      "form": "partite"
+    },
+    {
+      "person": "loro",
+      "form": "partono"
+    }
+  ],
+  "credere": [
+    {
+      "person": "io",
+      "form": "credo"
+    },
+    {
+      "person": "tu",
+      "form": "credi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "crede"
+    },
+    {
+      "person": "noi",
+      "form": "crediamo"
+    },
+    {
+      "person": "voi",
+      "form": "credete"
+    },
+    {
+      "person": "loro",
+      "form": "credono"
+    }
+  ],
+  "entrare": [
+    {
+      "person": "io",
+      "form": "entro"
+    },
+    {
+      "person": "tu",
+      "form": "entri"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "entra"
+    },
+    {
+      "person": "noi",
+      "form": "entriamo"
+    },
+    {
+      "person": "voi",
+      "form": "entrate"
+    },
+    {
+      "person": "loro",
+      "form": "entrano"
+    }
+  ],
+  "mettere": [
+    {
+      "person": "io",
+      "form": "metto"
+    },
+    {
+      "person": "tu",
+      "form": "metti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "mette"
+    },
+    {
+      "person": "noi",
+      "form": "mettiamo"
+    },
+    {
+      "person": "voi",
+      "form": "mettete"
+    },
+    {
+      "person": "loro",
+      "form": "mettono"
+    }
+  ],
+  "dare": [
+    {
+      "person": "io",
+      "form": "do"
+    },
+    {
+      "person": "tu",
+      "form": "dai"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "dà"
+    },
+    {
+      "person": "noi",
+      "form": "diamo"
+    },
+    {
+      "person": "voi",
+      "form": "date"
+    },
+    {
+      "person": "loro",
+      "form": "danno"
+    }
+  ],
   "piacere": [
     {
       "person": "io",
@@ -1063,6 +1297,968 @@
     {
       "person": "loro",
       "form": "spiegano"
+    }
+  ],
+  "vedere": [
+    {
+      "person": "io",
+      "form": "vedo"
+    },
+    {
+      "person": "tu",
+      "form": "vedi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "vede"
+    },
+    {
+      "person": "noi",
+      "form": "vediamo"
+    },
+    {
+      "person": "voi",
+      "form": "vedete"
+    },
+    {
+      "person": "loro",
+      "form": "vedono"
+    }
+  ],
+  "uscire": [
+    {
+      "person": "io",
+      "form": "esco"
+    },
+    {
+      "person": "tu",
+      "form": "esci"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "esce"
+    },
+    {
+      "person": "noi",
+      "form": "usciamo"
+    },
+    {
+      "person": "voi",
+      "form": "uscite"
+    },
+    {
+      "person": "loro",
+      "form": "escono"
+    }
+  ],
+  "decidere": [
+    {
+      "person": "io",
+      "form": "decido"
+    },
+    {
+      "person": "tu",
+      "form": "decidi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "decide"
+    },
+    {
+      "person": "noi",
+      "form": "decidiamo"
+    },
+    {
+      "person": "voi",
+      "form": "decidete"
+    },
+    {
+      "person": "loro",
+      "form": "decidono"
+    }
+  ],
+  "organizzare": [
+    {
+      "person": "io",
+      "form": "organizzo"
+    },
+    {
+      "person": "tu",
+      "form": "organizzi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "organizza"
+    },
+    {
+      "person": "noi",
+      "form": "organizziamo"
+    },
+    {
+      "person": "voi",
+      "form": "organizzate"
+    },
+    {
+      "person": "loro",
+      "form": "organizzano"
+    }
+  ],
+  "lavorare": [
+    {
+      "person": "io",
+      "form": "lavoro"
+    },
+    {
+      "person": "tu",
+      "form": "lavori"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "lavora"
+    },
+    {
+      "person": "noi",
+      "form": "lavoriamo"
+    },
+    {
+      "person": "voi",
+      "form": "lavorate"
+    },
+    {
+      "person": "loro",
+      "form": "lavorano"
+    }
+  ],
+  "tornare": [
+    {
+      "person": "io",
+      "form": "torno"
+    },
+    {
+      "person": "tu",
+      "form": "torni"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "torna"
+    },
+    {
+      "person": "noi",
+      "form": "torniamo"
+    },
+    {
+      "person": "voi",
+      "form": "tornate"
+    },
+    {
+      "person": "loro",
+      "form": "tornano"
+    }
+  ],
+  "iniziare": [
+    {
+      "person": "io",
+      "form": "inizio"
+    },
+    {
+      "person": "tu",
+      "form": "inizi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "inizia"
+    },
+    {
+      "person": "noi",
+      "form": "iniziamo"
+    },
+    {
+      "person": "voi",
+      "form": "iniziate"
+    },
+    {
+      "person": "loro",
+      "form": "iniziano"
+    }
+  ],
+  "finire": [
+    {
+      "person": "io",
+      "form": "finisco"
+    },
+    {
+      "person": "tu",
+      "form": "finisci"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "finisce"
+    },
+    {
+      "person": "noi",
+      "form": "finiamo"
+    },
+    {
+      "person": "voi",
+      "form": "finite"
+    },
+    {
+      "person": "loro",
+      "form": "finiscono"
+    }
+  ],
+  "continuare": [
+    {
+      "person": "io",
+      "form": "continuo"
+    },
+    {
+      "person": "tu",
+      "form": "continui"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "continua"
+    },
+    {
+      "person": "noi",
+      "form": "continuiamo"
+    },
+    {
+      "person": "voi",
+      "form": "continuate"
+    },
+    {
+      "person": "loro",
+      "form": "continuano"
+    }
+  ],
+  "arrivare": [
+    {
+      "person": "io",
+      "form": "arrivo"
+    },
+    {
+      "person": "tu",
+      "form": "arrivi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "arriva"
+    },
+    {
+      "person": "noi",
+      "form": "arriviamo"
+    },
+    {
+      "person": "voi",
+      "form": "arrivate"
+    },
+    {
+      "person": "loro",
+      "form": "arrivano"
+    }
+  ],
+  "viaggiare": [
+    {
+      "person": "io",
+      "form": "viaggio"
+    },
+    {
+      "person": "tu",
+      "form": "viaggi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "viaggia"
+    },
+    {
+      "person": "noi",
+      "form": "viaggiamo"
+    },
+    {
+      "person": "voi",
+      "form": "viaggiate"
+    },
+    {
+      "person": "loro",
+      "form": "viaggiano"
+    }
+  ],
+  "sembrare": [
+    {
+      "person": "io",
+      "form": "sembro"
+    },
+    {
+      "person": "tu",
+      "form": "sembri"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "sembra"
+    },
+    {
+      "person": "noi",
+      "form": "sembriamo"
+    },
+    {
+      "person": "voi",
+      "form": "sembrate"
+    },
+    {
+      "person": "loro",
+      "form": "sembrano"
+    }
+  ],
+  "ascoltare": [
+    {
+      "person": "io",
+      "form": "ascolto"
+    },
+    {
+      "person": "tu",
+      "form": "ascolti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "ascolta"
+    },
+    {
+      "person": "noi",
+      "form": "ascoltiamo"
+    },
+    {
+      "person": "voi",
+      "form": "ascoltate"
+    },
+    {
+      "person": "loro",
+      "form": "ascoltano"
+    }
+  ],
+  "guardare": [
+    {
+      "person": "io",
+      "form": "guardo"
+    },
+    {
+      "person": "tu",
+      "form": "guardi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "guarda"
+    },
+    {
+      "person": "noi",
+      "form": "guardiamo"
+    },
+    {
+      "person": "voi",
+      "form": "guardate"
+    },
+    {
+      "person": "loro",
+      "form": "guardano"
+    }
+  ],
+  "rispondere": [
+    {
+      "person": "io",
+      "form": "rispondo"
+    },
+    {
+      "person": "tu",
+      "form": "rispondi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "risponde"
+    },
+    {
+      "person": "noi",
+      "form": "rispondiamo"
+    },
+    {
+      "person": "voi",
+      "form": "rispondete"
+    },
+    {
+      "person": "loro",
+      "form": "rispondono"
+    }
+  ],
+  "scegliere": [
+    {
+      "person": "io",
+      "form": "scelgo"
+    },
+    {
+      "person": "tu",
+      "form": "scegli"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "sceglie"
+    },
+    {
+      "person": "noi",
+      "form": "scegliamo"
+    },
+    {
+      "person": "voi",
+      "form": "scegliete"
+    },
+    {
+      "person": "loro",
+      "form": "scelgono"
+    }
+  ],
+  "completare": [
+    {
+      "person": "io",
+      "form": "completo"
+    },
+    {
+      "person": "tu",
+      "form": "completi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "completa"
+    },
+    {
+      "person": "noi",
+      "form": "completiamo"
+    },
+    {
+      "person": "voi",
+      "form": "completate"
+    },
+    {
+      "person": "loro",
+      "form": "completano"
+    }
+  ],
+  "usare": [
+    {
+      "person": "io",
+      "form": "uso"
+    },
+    {
+      "person": "tu",
+      "form": "usi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "usa"
+    },
+    {
+      "person": "noi",
+      "form": "usiamo"
+    },
+    {
+      "person": "voi",
+      "form": "usate"
+    },
+    {
+      "person": "loro",
+      "form": "usano"
+    }
+  ],
+  "seguire": [
+    {
+      "person": "io",
+      "form": "seguo"
+    },
+    {
+      "person": "tu",
+      "form": "segui"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "segue"
+    },
+    {
+      "person": "noi",
+      "form": "seguiamo"
+    },
+    {
+      "person": "voi",
+      "form": "seguite"
+    },
+    {
+      "person": "loro",
+      "form": "seguono"
+    }
+  ],
+  "aprire": [
+    {
+      "person": "io",
+      "form": "apro"
+    },
+    {
+      "person": "tu",
+      "form": "apri"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "apre"
+    },
+    {
+      "person": "noi",
+      "form": "apriamo"
+    },
+    {
+      "person": "voi",
+      "form": "aprite"
+    },
+    {
+      "person": "loro",
+      "form": "aprono"
+    }
+  ],
+  "chiudere": [
+    {
+      "person": "io",
+      "form": "chiudo"
+    },
+    {
+      "person": "tu",
+      "form": "chiudi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "chiude"
+    },
+    {
+      "person": "noi",
+      "form": "chiudiamo"
+    },
+    {
+      "person": "voi",
+      "form": "chiudete"
+    },
+    {
+      "person": "loro",
+      "form": "chiudono"
+    }
+  ],
+  "indicare": [
+    {
+      "person": "io",
+      "form": "indico"
+    },
+    {
+      "person": "tu",
+      "form": "indichi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "indica"
+    },
+    {
+      "person": "noi",
+      "form": "indichiamo"
+    },
+    {
+      "person": "voi",
+      "form": "indicate"
+    },
+    {
+      "person": "loro",
+      "form": "indicano"
+    }
+  ],
+  "inserire": [
+    {
+      "person": "io",
+      "form": "inserisco"
+    },
+    {
+      "person": "tu",
+      "form": "inserisci"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "inserisce"
+    },
+    {
+      "person": "noi",
+      "form": "inseriamo"
+    },
+    {
+      "person": "voi",
+      "form": "inserite"
+    },
+    {
+      "person": "loro",
+      "form": "inseriscono"
+    }
+  ],
+  "ricordare": [
+    {
+      "person": "io",
+      "form": "ricordo"
+    },
+    {
+      "person": "tu",
+      "form": "ricordi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "ricorda"
+    },
+    {
+      "person": "noi",
+      "form": "ricordiamo"
+    },
+    {
+      "person": "voi",
+      "form": "ricordate"
+    },
+    {
+      "person": "loro",
+      "form": "ricordano"
+    }
+  ],
+  "lasciare": [
+    {
+      "person": "io",
+      "form": "lascio"
+    },
+    {
+      "person": "tu",
+      "form": "lasci"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "lascia"
+    },
+    {
+      "person": "noi",
+      "form": "lasciamo"
+    },
+    {
+      "person": "voi",
+      "form": "lasciate"
+    },
+    {
+      "person": "loro",
+      "form": "lasciano"
+    }
+  ],
+  "passare": [
+    {
+      "person": "io",
+      "form": "passo"
+    },
+    {
+      "person": "tu",
+      "form": "passi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "passa"
+    },
+    {
+      "person": "noi",
+      "form": "passiamo"
+    },
+    {
+      "person": "voi",
+      "form": "passate"
+    },
+    {
+      "person": "loro",
+      "form": "passano"
+    }
+  ],
+  "provare": [
+    {
+      "person": "io",
+      "form": "provo"
+    },
+    {
+      "person": "tu",
+      "form": "provi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "prova"
+    },
+    {
+      "person": "noi",
+      "form": "proviamo"
+    },
+    {
+      "person": "voi",
+      "form": "provate"
+    },
+    {
+      "person": "loro",
+      "form": "provano"
+    }
+  ],
+  "tenere": [
+    {
+      "person": "io",
+      "form": "tengo"
+    },
+    {
+      "person": "tu",
+      "form": "tieni"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "tiene"
+    },
+    {
+      "person": "noi",
+      "form": "teniamo"
+    },
+    {
+      "person": "voi",
+      "form": "tenete"
+    },
+    {
+      "person": "loro",
+      "form": "tengono"
+    }
+  ],
+  "riuscire": [
+    {
+      "person": "io",
+      "form": "riesco"
+    },
+    {
+      "person": "tu",
+      "form": "riesci"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "riesce"
+    },
+    {
+      "person": "noi",
+      "form": "riusciamo"
+    },
+    {
+      "person": "voi",
+      "form": "riuscite"
+    },
+    {
+      "person": "loro",
+      "form": "riescono"
+    }
+  ],
+  "diventare": [
+    {
+      "person": "io",
+      "form": "divento"
+    },
+    {
+      "person": "tu",
+      "form": "diventi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "diventa"
+    },
+    {
+      "person": "noi",
+      "form": "diventiamo"
+    },
+    {
+      "person": "voi",
+      "form": "diventate"
+    },
+    {
+      "person": "loro",
+      "form": "diventano"
+    }
+  ],
+  "perdere": [
+    {
+      "person": "io",
+      "form": "perdo"
+    },
+    {
+      "person": "tu",
+      "form": "perdi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "perde"
+    },
+    {
+      "person": "noi",
+      "form": "perdiamo"
+    },
+    {
+      "person": "voi",
+      "form": "perdete"
+    },
+    {
+      "person": "loro",
+      "form": "perdono"
+    }
+  ],
+  "ricevere": [
+    {
+      "person": "io",
+      "form": "ricevo"
+    },
+    {
+      "person": "tu",
+      "form": "ricevi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "riceve"
+    },
+    {
+      "person": "noi",
+      "form": "riceviamo"
+    },
+    {
+      "person": "voi",
+      "form": "ricevete"
+    },
+    {
+      "person": "loro",
+      "form": "ricevono"
+    }
+  ],
+  "cambiare": [
+    {
+      "person": "io",
+      "form": "cambio"
+    },
+    {
+      "person": "tu",
+      "form": "cambi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "cambia"
+    },
+    {
+      "person": "noi",
+      "form": "cambiamo"
+    },
+    {
+      "person": "voi",
+      "form": "cambiate"
+    },
+    {
+      "person": "loro",
+      "form": "cambiano"
+    }
+  ],
+  "creare": [
+    {
+      "person": "io",
+      "form": "creo"
+    },
+    {
+      "person": "tu",
+      "form": "crei"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "crea"
+    },
+    {
+      "person": "noi",
+      "form": "creiamo"
+    },
+    {
+      "person": "voi",
+      "form": "create"
+    },
+    {
+      "person": "loro",
+      "form": "creano"
+    }
+  ],
+  "preferire": [
+    {
+      "person": "io",
+      "form": "preferisco"
+    },
+    {
+      "person": "tu",
+      "form": "preferisci"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "preferisce"
+    },
+    {
+      "person": "noi",
+      "form": "preferiamo"
+    },
+    {
+      "person": "voi",
+      "form": "preferite"
+    },
+    {
+      "person": "loro",
+      "form": "preferiscono"
+    }
+  ],
+  "amare": [
+    {
+      "person": "io",
+      "form": "amo"
+    },
+    {
+      "person": "tu",
+      "form": "ami"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "ama"
+    },
+    {
+      "person": "noi",
+      "form": "amiamo"
+    },
+    {
+      "person": "voi",
+      "form": "amate"
+    },
+    {
+      "person": "loro",
+      "form": "amano"
+    }
+  ],
+  "odiare": [
+    {
+      "person": "io",
+      "form": "odio"
+    },
+    {
+      "person": "tu",
+      "form": "odi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "odia"
+    },
+    {
+      "person": "noi",
+      "form": "odiamo"
+    },
+    {
+      "person": "voi",
+      "form": "odiate"
+    },
+    {
+      "person": "loro",
+      "form": "odiano"
     }
   ]
 }

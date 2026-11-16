@@ -97,5 +97,170 @@
     "source": "written for Tamago",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "R201",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "Il negozio",
+    "lines": "Aperto dal lunedì al venerdì: 9:00 – 20:00\nSabato: 10:00 – 18:00\nDomenica: chiuso",
+    "questions_json": "[{\"question\":\"When is the shop closed?\",\"choices\":[\"Sunday\",\"Saturday\",\"Monday\"],\"answer\":0},{\"question\":\"What time does it open on Saturday?\",\"choices\":[\"10:00\",\"9:00\",\"18:00\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R202",
+    "unit_id": "U62",
+    "kind": "message",
+    "title": "Un messaggio di Marco",
+    "lines": "Giulia,\nandiamo al cinema mercoledì? Sono libero mercoledì e giovedì.\nSabato lavoro.\nMarco",
+    "questions_json": "[{\"question\":\"When is Marco free?\",\"choices\":[\"Wednesday and Thursday\",\"Saturday\",\"Every day\"],\"answer\":0},{\"question\":\"What does Marco do on Saturday?\",\"choices\":[\"He works\",\"He goes to the cinema\",\"He stays at home\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R203",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "Il museo",
+    "lines": "Il museo è chiuso il martedì.\nVisita per bambini: mercoledì alle 15:00",
+    "questions_json": "[{\"question\":\"Which day is the museum closed?\",\"choices\":[\"Tuesday\",\"Wednesday\",\"Monday\"],\"answer\":0},{\"question\":\"When is the visit for children?\",\"choices\":[\"Wednesday at 3 pm\",\"Tuesday at 3 pm\",\"Wednesday at 5 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R204",
+    "unit_id": "U63",
+    "kind": "notice",
+    "title": "Le vacanze",
+    "lines": "La scuola è chiusa dal 20 dicembre al 6 gennaio.\nPrimo giorno di lezione: mercoledì 7 gennaio",
+    "questions_json": "[{\"question\":\"Which day of the week does school start again?\",\"choices\":[\"Wednesday\",\"Monday\",\"Saturday\"],\"answer\":0},{\"question\":\"When do the holidays begin?\",\"choices\":[\"20 December\",\"7 January\",\"6 January\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R205",
+    "unit_id": "U63",
+    "kind": "sign",
+    "title": "La festa",
+    "lines": "Grande festa in piazza\nSabato 21 giugno, alle 18:00\nMusica e balli",
+    "questions_json": "[{\"question\":\"When is the party?\",\"choices\":[\"Saturday 21 June\",\"Sunday 21 June\",\"Saturday 21 July\"],\"answer\":0},{\"question\":\"What time does it start?\",\"choices\":[\"6 pm\",\"8 pm\",\"9 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R206",
+    "unit_id": "U63",
+    "kind": "message",
+    "title": "Una cartolina di Anna",
+    "lines": "A luglio andiamo al mare.\nIn inverno andiamo in montagna.\nE tu?",
+    "questions_json": "[{\"question\":\"Where does Anna go in July?\",\"choices\":[\"To the seaside\",\"To the mountains\",\"To the countryside\"],\"answer\":0},{\"question\":\"When does she go to the mountains?\",\"choices\":[\"In winter\",\"In July\",\"In spring\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R207",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "Al negozio",
+    "lines": "Entrata\nAperto dalle 9:00 alle 19:00\nChiuso la domenica",
+    "questions_json": "[{\"question\":\"When is the shop closed?\",\"choices\":[\"On Sundays\",\"On Saturdays\",\"Every evening\"],\"answer\":0},{\"question\":\"What time does it close?\",\"choices\":[\"7 pm\",\"9 pm\",\"9 am\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R208",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "In stazione",
+    "lines": "Bagni: primo piano\nFarmacia: secondo piano\nInformazioni: all'entrata",
+    "questions_json": "[{\"question\":\"Where are the toilets?\",\"choices\":[\"On the first floor\",\"On the second floor\",\"Next to the exit\"],\"answer\":0},{\"question\":\"Where can you get information?\",\"choices\":[\"At the entrance\",\"At the pharmacy\",\"On the train\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R209",
+    "unit_id": "U66",
+    "kind": "notice",
+    "title": "La banca",
+    "lines": "Banca di Roma\nAperta dal lunedì al venerdì, dalle 8:30 alle 16:00\nSabato e domenica: chiusa",
+    "questions_json": "[{\"question\":\"Is the bank open on Saturday?\",\"choices\":[\"No\",\"Yes\",\"Only in the morning\"],\"answer\":0},{\"question\":\"What time does it close on Friday?\",\"choices\":[\"4 pm\",\"8:30 am\",\"6 pm\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R210",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Treni per Milano",
+    "lines": "Partenza: 8:15 – Arrivo: 10:20\nPartenza: 12:40 – Arrivo: 14:45\nPartenza: 18:00 – Arrivo: 20:05",
+    "questions_json": "[{\"question\":\"When does the 12:40 train arrive?\",\"choices\":[\"14:45\",\"10:20\",\"20:05\"],\"answer\":0},{\"question\":\"What time is the first train?\",\"choices\":[\"8:15\",\"12:40\",\"18:00\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R211",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Autobus 12",
+    "lines": "Partenza dalla stazione: 7:00, 7:30, 8:00\nLa domenica: un autobus ogni ora",
+    "questions_json": "[{\"question\":\"Where does the bus leave from?\",\"choices\":[\"The station\",\"The centre\",\"The school\"],\"answer\":0},{\"question\":\"How often is the bus on Sundays?\",\"choices\":[\"Every hour\",\"Every half hour\",\"Not at all\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R212",
+    "unit_id": "U67",
+    "kind": "message",
+    "title": "Un messaggio di Marco",
+    "lines": "Arrivo in stazione alle 17:30.\nIl mio treno parte da Roma alle 15:00.\nA presto!",
+    "questions_json": "[{\"question\":\"When does Marco arrive?\",\"choices\":[\"5:30 pm\",\"3 pm\",\"7:30 pm\"],\"answer\":0},{\"question\":\"Where does his train leave from?\",\"choices\":[\"Rome\",\"The airport\",\"Milan\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R213",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "In classe",
+    "lines": "Ascolta il testo.\nRispondi alle domande.\nScegli una foto.",
+    "questions_json": "[{\"question\":\"What do you do first?\",\"choices\":[\"Listen to the text\",\"Answer the questions\",\"Choose a photo\"],\"answer\":0},{\"question\":\"What do you choose?\",\"choices\":[\"A photo\",\"A book\",\"A word\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R214",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "La porta",
+    "lines": "Chiudi la porta, per favore.\nAttenzione: chiudi piano.",
+    "questions_json": "[{\"question\":\"What should you do with the door?\",\"choices\":[\"Close it\",\"Leave it open\",\"Lock it\"],\"answer\":0},{\"question\":\"How should you close it?\",\"choices\":[\"Gently\",\"Quickly\",\"With a key\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R215",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "L'esercizio",
+    "lines": "Scegli un numero.\nApri il libro a quella pagina.\nLeggi il testo.",
+    "questions_json": "[{\"question\":\"What do you open?\",\"choices\":[\"The book\",\"The door\",\"The dictionary\"],\"answer\":0},{\"question\":\"What do you do last?\",\"choices\":[\"Read the text\",\"Choose a number\",\"Close the book\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

@@ -1201,5 +1201,505 @@
       "S58023"
     ],
     "conjugations": []
+  },
+  {
+    "unit_id": "U61",
+    "rule": "Che ore sono? asks the time. Sono le … for most hours, but È l'una (one o'clock), è mezzogiorno and è mezzanotte, since those are one. Add e mezza (half past), e un quarto (a quarter past) or meno un quarto (a quarter to): Sono le tre e mezza. Di mattina, di pomeriggio, di sera tell the part of the day.",
+    "example_sentence_ids": "S61022;S61101;S61105",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S61022",
+      "S61101",
+      "S61105"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U37",
+    "rule": "When you didn't catch something: Scusi? (politely) or Come? Non ho sentito means I didn't hear; Cosa hai detto? what did you say? Sentito and detto are the past forms of sentire (hear) and dire (say); ho or hai comes before them.",
+    "example_sentence_ids": "S37018;S37019;S37021",
+    "conjugation_lemma": "sentire",
+    "status": "live",
+    "examples": [
+      "S37018",
+      "S37019",
+      "S37021"
+    ],
+    "conjugations": [
+      {
+        "lemma": "sentire",
+        "present": [
+          {
+            "person": "io",
+            "form": "sento"
+          },
+          {
+            "person": "tu",
+            "form": "senti"
+          },
+          {
+            "person": "lui, lei, Lei",
+            "form": "sente"
+          },
+          {
+            "person": "noi",
+            "form": "sentiamo"
+          },
+          {
+            "person": "voi",
+            "form": "sentite"
+          },
+          {
+            "person": "loro",
+            "form": "sentono"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/sentire#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U62",
+    "rule": "Lunedì means this Monday; il lunedì means every Monday. Tutti i giorni and ogni giorno both mean every day. Prossimo (next) and scorso (last) agree with the noun: la settimana prossima, la domenica scorsa. Sempre is always, spesso often, mai never or ever.",
+    "example_sentence_ids": "S62013;S62014;S62108",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S62013",
+      "S62014",
+      "S62108"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U63",
+    "rule": "Months take no capital: gennaio, febbraio, marzo … dicembre. Say a gennaio or in gennaio for in January. Dates use the plain number, il due maggio, except for the first: il primo maggio. The seasons are la primavera, l'estate, l'autunno, l'inverno.",
+    "example_sentence_ids": "S63009;S63002;S63101",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S63009",
+      "S63002",
+      "S63101"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U38",
+    "rule": "Words that give you time to think: Un attimo… Vediamo (let's see). Allora, dunque and quindi all mean so or then: Allora, dove vado? Penso di sì means I think so.",
+    "example_sentence_ids": "S38007;S38011;S38001",
+    "conjugation_lemma": "pensare",
+    "status": "live",
+    "examples": [
+      "S38007",
+      "S38011",
+      "S38001"
+    ],
+    "conjugations": [
+      {
+        "lemma": "pensare",
+        "present": [
+          {
+            "person": "io",
+            "form": "penso"
+          },
+          {
+            "person": "tu",
+            "form": "pensi"
+          },
+          {
+            "person": "lui, lei, Lei",
+            "form": "pensa"
+          },
+          {
+            "person": "noi",
+            "form": "pensiamo"
+          },
+          {
+            "person": "voi",
+            "form": "pensate"
+          },
+          {
+            "person": "loro",
+            "form": "pensano"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/pensare#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U64",
+    "rule": "Venire is irregular: vengo, vieni, viene. Uscire too: esco (I go out). Possiamo + a verb makes a suggestion: Possiamo andare insieme? Andiamo al cinema means let's go to the cinema. Libero and occupato agree: sei libera domani?",
+    "example_sentence_ids": "S64001;S64022;S64017",
+    "conjugation_lemma": "venire",
+    "status": "live",
+    "examples": [
+      "S64001",
+      "S64022",
+      "S64017"
+    ],
+    "conjugations": [
+      {
+        "lemma": "venire",
+        "present": [
+          {
+            "person": "io",
+            "form": "vengo"
+          },
+          {
+            "person": "tu",
+            "form": "vieni"
+          },
+          {
+            "person": "lui, lei, Lei",
+            "form": "viene"
+          },
+          {
+            "person": "noi",
+            "form": "veniamo"
+          },
+          {
+            "person": "voi",
+            "form": "venite"
+          },
+          {
+            "person": "loro",
+            "form": "vengono"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/venire#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U65",
+    "rule": "Fare is irregular: faccio, fai, fa; fare colazione is to have breakfast. Some -ire verbs add -isc-: finire, finisco. Prima (before), poi (then) and dopo (after) put your day in order.",
+    "example_sentence_ids": "S65004;S65008;S65101",
+    "conjugation_lemma": "fare",
+    "status": "live",
+    "examples": [
+      "S65004",
+      "S65008",
+      "S65101"
+    ],
+    "conjugations": [
+      {
+        "lemma": "fare",
+        "present": [
+          {
+            "person": "io",
+            "form": "faccio"
+          },
+          {
+            "person": "tu",
+            "form": "fai"
+          },
+          {
+            "person": "lui, lei, Lei",
+            "form": "fa"
+          },
+          {
+            "person": "noi",
+            "form": "facciamo"
+          },
+          {
+            "person": "voi",
+            "form": "fate"
+          },
+          {
+            "person": "loro",
+            "form": "fanno"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/fare#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U66",
+    "rule": "Signs use short words: Aperto, Chiuso, Entrata, Uscita, Vietato (forbidden). When a word describes a noun it agrees: la banca è aperta, il negozio è chiuso. Vietato + a verb forbids something: vietato nuotare.",
+    "example_sentence_ids": "S66001;S66006;S66020",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S66001",
+      "S66006",
+      "S66020"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U67",
+    "rule": "Partire (to leave) and arrivare (to arrive): il treno parte, il treno arriva. On a timetable you read partenza (departure), arrivo (arrival) and binario (platform). Un biglietto di andata is one way; andata e ritorno is a return.",
+    "example_sentence_ids": "S67001;S67012;S67110",
+    "conjugation_lemma": "partire",
+    "status": "live",
+    "examples": [
+      "S67001",
+      "S67012",
+      "S67110"
+    ],
+    "conjugations": [
+      {
+        "lemma": "partire",
+        "present": [
+          {
+            "person": "io",
+            "form": "parto"
+          },
+          {
+            "person": "tu",
+            "form": "parti"
+          },
+          {
+            "person": "lui, lei, Lei",
+            "form": "parte"
+          },
+          {
+            "person": "noi",
+            "form": "partiamo"
+          },
+          {
+            "person": "voi",
+            "form": "partite"
+          },
+          {
+            "person": "loro",
+            "form": "partono"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/partire#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U39",
+    "rule": "To say you're not sure: Non sono sicuro (a man), non sono sicura (a woman). Credo di sì (I think so), forse (maybe), probabilmente (probably). Sembra means it seems, and davvero? means really?",
+    "example_sentence_ids": "S39004;S39014;S39015",
+    "conjugation_lemma": "credere",
+    "status": "live",
+    "examples": [
+      "S39004",
+      "S39014",
+      "S39015"
+    ],
+    "conjugations": [
+      {
+        "lemma": "credere",
+        "present": [
+          {
+            "person": "io",
+            "form": "credo"
+          },
+          {
+            "person": "tu",
+            "form": "credi"
+          },
+          {
+            "person": "lui, lei, Lei",
+            "form": "crede"
+          },
+          {
+            "person": "noi",
+            "form": "crediamo"
+          },
+          {
+            "person": "voi",
+            "form": "credete"
+          },
+          {
+            "person": "loro",
+            "form": "credono"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/credere#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U68",
+    "rule": "Announcements open with Signore e signori, attenzione. Il treno è in ritardo means the train is late. A causa di means because of, and per questo motivo for this reason.",
+    "example_sentence_ids": "S68001;S68101;S68111",
+    "conjugation_lemma": "entrare",
+    "status": "live",
+    "examples": [
+      "S68001",
+      "S68101",
+      "S68111"
+    ],
+    "conjugations": [
+      {
+        "lemma": "entrare",
+        "present": [
+          {
+            "person": "io",
+            "form": "entro"
+          },
+          {
+            "person": "tu",
+            "form": "entri"
+          },
+          {
+            "person": "lui, lei, Lei",
+            "form": "entra"
+          },
+          {
+            "person": "noi",
+            "form": "entriamo"
+          },
+          {
+            "person": "voi",
+            "form": "entrate"
+          },
+          {
+            "person": "loro",
+            "form": "entrano"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/entrare#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U69",
+    "rule": "Instructions to one person you know use the tu command: ascolta, guarda, rispondi, scegli, metti (often the same as the tu or lui form). To a class, the voi command: leggete, scrivete. Forms often use the infinitive instead: Inserire il nome.",
+    "example_sentence_ids": "S69003;S69101;S69128",
+    "conjugation_lemma": "mettere",
+    "status": "live",
+    "examples": [
+      "S69003",
+      "S69101",
+      "S69128"
+    ],
+    "conjugations": [
+      {
+        "lemma": "mettere",
+        "present": [
+          {
+            "person": "io",
+            "form": "metto"
+          },
+          {
+            "person": "tu",
+            "form": "metti"
+          },
+          {
+            "person": "lui, lei, Lei",
+            "form": "mette"
+          },
+          {
+            "person": "noi",
+            "form": "mettiamo"
+          },
+          {
+            "person": "voi",
+            "form": "mettete"
+          },
+          {
+            "person": "loro",
+            "form": "mettono"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/mettere#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U71",
+    "rule": "Words that join: ma (but), o and oppure (or), se (if), senza (without), tra and fra (between, or in, for time). Di, a, da, in and su join the article: di + il is del, in + la is nella, da + il is dal. Del caffè means some coffee.",
+    "example_sentence_ids": "S71019;S71010;S71108",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S71019",
+      "S71010",
+      "S71108"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U72",
+    "rule": "The words of a headline: il governo, il presidente, lo stato (lo before s + consonant), la politica, la guerra and la pace. La notizia is one piece of news; le notizie is the news.",
+    "example_sentence_ids": "S72009;S72032;S72104",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S72009",
+      "S72032",
+      "S72104"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U73",
+    "rule": "Everyday verbs side by side: metto (I put), do (I give), guardo (I look), aspetto (I wait), provo (I try), uso (I use). Dare is irregular: do, dai, dà. Riuscire a + a verb is to manage to: non riesco a ricordare.",
+    "example_sentence_ids": "S73005;S73002;S73020",
+    "conjugation_lemma": "dare",
+    "status": "live",
+    "examples": [
+      "S73005",
+      "S73002",
+      "S73020"
+    ],
+    "conjugations": [
+      {
+        "lemma": "dare",
+        "present": [
+          {
+            "person": "io",
+            "form": "do"
+          },
+          {
+            "person": "tu",
+            "form": "dai"
+          },
+          {
+            "person": "lui, lei, Lei",
+            "form": "dà"
+          },
+          {
+            "person": "noi",
+            "form": "diamo"
+          },
+          {
+            "person": "voi",
+            "form": "date"
+          },
+          {
+            "person": "loro",
+            "form": "danno"
+          }
+        ],
+        "source": "https://en.wiktionary.org/wiki/dare#Conjugation"
+      }
+    ]
+  },
+  {
+    "unit_id": "U74",
+    "rule": "Mi piace for one thing, mi piacciono for more than one. Preferisco (I prefer) adds -isc-. Meglio is better as an adverb (canta meglio); migliore as an adjective (il libro migliore). Avere ragione is to be right, avere torto to be wrong.",
+    "example_sentence_ids": "S74004;S74001;S74032",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S74004",
+      "S74001",
+      "S74032"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U75",
+    "rule": "Italy has regioni (regions), each with province (provinces) and comuni (towns with their own council). La gente (people) takes a singular verb: la gente è simpatica.",
+    "example_sentence_ids": "S75003;S75005;S75104",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S75003",
+      "S75005",
+      "S75104"
+    ],
+    "conjugations": []
   }
 ]

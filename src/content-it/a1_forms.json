@@ -88,5 +88,99 @@
         "answer": "03 11 15 19 20"
       }
     ]
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "Marco e Giulia vanno al cinema sabato alle otto e mezza di sera. Si vedono in piazza.",
+    "fields": [
+      {
+        "key": "day",
+        "label": "Giorno",
+        "rule": "text",
+        "answer": "sabato",
+        "also": [
+          "Sabato"
+        ]
+      },
+      {
+        "key": "time",
+        "label": "Ora",
+        "rule": "text",
+        "answer": "20:30",
+        "also": [
+          "8:30",
+          "8.30",
+          "20.30",
+          "otto e mezza",
+          "le otto e mezza"
+        ]
+      },
+      {
+        "key": "where",
+        "label": "Dove",
+        "rule": "text",
+        "answer": "in piazza",
+        "also": [
+          "piazza",
+          "la piazza",
+          "In piazza"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Mi chiamo Anna. Faccio colazione alle sette. Inizio il lavoro alle nove e finisco alle cinque.",
+    "fields": [
+      {
+        "key": "name",
+        "label": "Nome",
+        "rule": "text",
+        "answer": "Anna"
+      },
+      {
+        "key": "breakfast",
+        "label": "Colazione",
+        "rule": "text",
+        "answer": "7:00",
+        "also": [
+          "7",
+          "7.00",
+          "sette",
+          "alle sette",
+          "le sette"
+        ]
+      },
+      {
+        "key": "start",
+        "label": "Inizio del lavoro",
+        "rule": "text",
+        "answer": "9:00",
+        "also": [
+          "9",
+          "9.00",
+          "nove",
+          "alle nove",
+          "le nove"
+        ]
+      },
+      {
+        "key": "end",
+        "label": "Fine del lavoro",
+        "rule": "text",
+        "answer": "17:00",
+        "also": [
+          "5",
+          "5:00",
+          "17",
+          "17.00",
+          "cinque",
+          "alle cinque",
+          "le cinque"
+        ]
+      }
+    ]
   }
 ]

@@ -1340,7 +1340,7 @@ Contrast forms, sentences each (target 2): .
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: compro (2), prendo (2), chilo (0), trovo (2), dovere (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: compro (2), prendo (2), chilo (0), trovo (2). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
@@ -1475,7 +1475,7 @@ Contrast forms, sentences each (target 2): .
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: costano (2), centesimi (0), carta (1), spesa (0), costo (0), cambio (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: costano (2), centesimi (0), carta (1), spesa (0), costo (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
@@ -1604,3 +1604,806 @@ Contrast forms, sentences each (target 2): .
 | S58036 | La luce è gialla. | The light is yellow. |  | [#13953518](https://tatoeba.org/en/sentences/show/13953518) | Guybrush88 |
 | S58037 | Io ho bisogno di spazio. | I need space. |  | [#2278012](https://tatoeba.org/en/sentences/show/2278012) | Guybrush88 |
 | S58038 | A Tom piace la natura. | Tom likes nature. |  | [#7893489](https://tatoeba.org/en/sentences/show/7893489) | Guybrush88 |
+
+## U61 What Time Is It?: Che ore sono? È l'una, sono le due: è only with one; e mezza, e un quarto, meno un quarto; di mattina, di sera
+
+34 sentences picked from 354 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: mezza (0), quarto (0), mezzogiorno (1), mezzanotte (2), periodo (0), appena (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S61001 | Hai tempo questa mattina? | Do you have time this morning? |  | [#7806351](https://tatoeba.org/en/sentences/show/7806351) | Guybrush88 |
+| S61002 | Ha tempo questa mattina? | Do you have time this morning? |  | [#7806352](https://tatoeba.org/en/sentences/show/7806352) | Guybrush88 |
+| S61003 | Avete tempo questa mattina? | Do you have time this morning? |  | [#7806353](https://tatoeba.org/en/sentences/show/7806353) | Guybrush88 |
+| S61004 | Troppo presto? | Too soon? |  | [#8785295](https://tatoeba.org/en/sentences/show/8785295) | Bethanielle |
+| S61005 | È troppo tardi? | Is that too late? | Is it too late? | [#3334089](https://tatoeba.org/en/sentences/show/3334089) | Guybrush88 |
+| S61006 | Dov'è domani sera? | Where will you be tomorrow evening? |  | [#7799413](https://tatoeba.org/en/sentences/show/7799413) | Guybrush88 |
+| S61007 | Hai qualche minuto? | Do you have a few minutes? |  | [#9670524](https://tatoeba.org/en/sentences/show/9670524) | Guybrush88 |
+| S61008 | Ha qualche minuto? | Do you have a few minutes? |  | [#9670525](https://tatoeba.org/en/sentences/show/9670525) | Guybrush88 |
+| S61009 | Avete qualche minuto? | Do you have a few minutes? |  | [#9670526](https://tatoeba.org/en/sentences/show/9670526) | Guybrush88 |
+| S61010 | Quanto per mezzo chilo? | How much for half a kilo? |  | [#629434](https://tatoeba.org/en/sentences/show/629434) | Guybrush88 |
+| S61011 | Quanto costa una notte? | How much for the night? |  | [#4483151](https://tatoeba.org/en/sentences/show/4483151) | Guybrush88 |
+| S61012 | Lunedì è troppo tardi? | Is Monday too late? |  | [#4517024](https://tatoeba.org/en/sentences/show/4517024) | Guybrush88 |
+| S61013 | Posso pagare più tardi? | Can I pay later? |  | [#6369659](https://tatoeba.org/en/sentences/show/6369659) | Guybrush88 |
+| S61014 | Dove sei domani sera? | Where will you be tomorrow evening? |  | [#7799412](https://tatoeba.org/en/sentences/show/7799412) | Guybrush88 |
+| S61015 | Dove siete domani sera? | Where will you be tomorrow evening? |  | [#7799415](https://tatoeba.org/en/sentences/show/7799415) | Guybrush88 |
+| S61016 | Domani è troppo presto? | Is tomorrow too soon? |  | [#11823421](https://tatoeba.org/en/sentences/show/11823421) | Guybrush88 |
+| S61017 | Va a scuola presto? | Does he go to school early? |  | [#14085308](https://tatoeba.org/en/sentences/show/14085308) | Guybrush88 |
+| S61018 | Vai a nuotare questo pomeriggio? | Are you going to go swimming this afternoon? |  | [#2959620](https://tatoeba.org/en/sentences/show/2959620) | Guybrush88 |
+| S61019 | Va a nuotare questo pomeriggio? | Are you going to go swimming this afternoon? |  | [#2959624](https://tatoeba.org/en/sentences/show/2959624) | Guybrush88 |
+| S61020 | Tu vai a nuotare questo pomeriggio? | Are you going to go swimming this afternoon? |  | [#2959621](https://tatoeba.org/en/sentences/show/2959621) | Guybrush88 |
+| S61021 | Di quante ore di sonno hai bisogno? | How many hours of sleep do you need? |  | [#383690](https://tatoeba.org/en/sentences/show/383690) | Pharamp |
+| S61022 | È mezzogiorno. | It's noon. | It is midday. | [#724460](https://tatoeba.org/en/sentences/show/724460) | Guybrush88 |
+| S61023 | È mezzanotte. | It's midnight. |  | [#1233829](https://tatoeba.org/en/sentences/show/1233829) | Guybrush88 |
+| S61024 | È notte. | It's night. |  | [#2190277](https://tatoeba.org/en/sentences/show/2190277) | Guybrush88 |
+| S61025 | Che notte! | What a night! |  | [#4483028](https://tatoeba.org/en/sentences/show/4483028) | Guybrush88 |
+| S61026 | Abbiamo tre ore. | We have three hours. | We've got three hours. | [#4868284](https://tatoeba.org/en/sentences/show/4868284) | Guybrush88 |
+| S61027 | Hai trenta minuti. | You have thirty minutes. |  | [#5745547](https://tatoeba.org/en/sentences/show/5745547) | Guybrush88 |
+| S61028 | Ha trenta minuti. | You have thirty minutes. |  | [#5745548](https://tatoeba.org/en/sentences/show/5745548) | Guybrush88 |
+| S61029 | Avete trenta minuti. | You have thirty minutes. |  | [#5745549](https://tatoeba.org/en/sentences/show/5745549) | Guybrush88 |
+| S61030 | Sono quello in mezzo. | I'm the one in the middle. |  | [#2586782](https://tatoeba.org/en/sentences/show/2586782) | Guybrush88 |
+| S61031 | Sono quella in mezzo. | I'm the one in the middle. |  | [#2586784](https://tatoeba.org/en/sentences/show/2586784) | Guybrush88 |
+| S61032 | Non è ancora mezzanotte. | It's not midnight yet. |  | [#9712762](https://tatoeba.org/en/sentences/show/9712762) | Guybrush88 |
+| S61033 | Tom, chiama Mary appena possibile. | Tom, call Mary as soon as possible. |  | [#2961548](https://tatoeba.org/en/sentences/show/2961548) | Guybrush88 |
+| S61034 | Abbiamo meno di tre ore. | We have less than three hours. |  | [#5633527](https://tatoeba.org/en/sentences/show/5633527) | Guybrush88 |
+
+## U71 Little Words: Ma, o, oppure, se, senza, tra: words that join; fino a (until), verso (towards), contro (against); di + il is del, in + la is nella, da + il is dal: the joined prepositions
+
+40 sentences picked from 2401 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: se (2), tra (0), fra (0), senza (0), però (0), invece (0), sopra (2), verso (1), oltre (0), circa (0), almeno (0), oppure (1), infatti (0), inoltre (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S71001 | Sei da solo nel negozio? | Are you alone in the shop? |  | [#13536958](https://tatoeba.org/en/sentences/show/13536958) | Guybrush88 |
+| S71002 | È da solo nel negozio? | Are you alone in the shop? |  | [#13536963](https://tatoeba.org/en/sentences/show/13536963) | Guybrush88 |
+| S71003 | Sono da solo nella città. | I'm alone in the city. |  | [#11554408](https://tatoeba.org/en/sentences/show/11554408) | Guybrush88 |
+| S71004 | È già così tardi? | Is it already so late? |  | [#7810728](https://tatoeba.org/en/sentences/show/7810728) | Guybrush88 |
+| S71005 | Sei fuori dal letto? | Are you out of bed? |  | [#13178127](https://tatoeba.org/en/sentences/show/13178127) | Guybrush88 |
+| S71006 | Siete fuori dal letto? | Are you out of bed? |  | [#13178128](https://tatoeba.org/en/sentences/show/13178128) | Guybrush88 |
+| S71007 | È fuori dal letto? | Are you out of bed? |  | [#13178129](https://tatoeba.org/en/sentences/show/13178129) | Guybrush88 |
+| S71008 | Vuoi del caffè o qualcosa? | Do you want some coffee or something? |  | [#5898850](https://tatoeba.org/en/sentences/show/5898850) | Guybrush88 |
+| S71009 | Perché c'è così freddo qui dentro? | Why's it so cold in here? |  | [#4824445](https://tatoeba.org/en/sentences/show/4824445) | Guybrush88 |
+| S71010 | Vuoi del caffè o del tè? | You want coffee or tea? |  | [#6705548](https://tatoeba.org/en/sentences/show/6705548) | Guybrush88 |
+| S71011 | Perché ci sono dei gatti qui dentro? | Why are there cats in here? |  | [#13084132](https://tatoeba.org/en/sentences/show/13084132) | Guybrush88 |
+| S71012 | Ma perché il francese è così difficile? | But why is French so difficult? |  | [#3846115](https://tatoeba.org/en/sentences/show/3846115) | Guybrush88 |
+| S71013 | Hai paura del cane o di Tom? | Are you afraid of the dog, or Tom? |  | [#12567245](https://tatoeba.org/en/sentences/show/12567245) | Guybrush88 |
+| S71014 | Sono già dentro. | I'm already inside. |  | [#9550445](https://tatoeba.org/en/sentences/show/9550445) | Guybrush88 |
+| S71015 | È già quasi notte. | It’s already almost night. |  | [#658427](https://tatoeba.org/en/sentences/show/658427) | rado |
+| S71016 | Ci sono dei bambini nel parco. | There are children in the park. |  | [#13286477](https://tatoeba.org/en/sentences/show/13286477) | Guybrush88 |
+| S71017 | Non so se è vero oppure no. | I don't know if it's true or not. | I don't know whether it's true or not.; I don't know whether it is true or not. | [#11703792](https://tatoeba.org/en/sentences/show/11703792) | Guybrush88 |
+| S71018 | Hai dei libri da leggere? | Do you have any books to read? |  | [#3631010](https://tatoeba.org/en/sentences/show/3631010) | Guybrush88 |
+| S71019 | Ma perché? | But why? |  | [#375424](https://tatoeba.org/en/sentences/show/375424) | martin |
+| S71020 | Vuoi della frutta? | Do you want fruit? |  | [#373849](https://tatoeba.org/en/sentences/show/373849) | Pharamp |
+| S71021 | Ma che vuoi? | But what do you want? |  | [#521173](https://tatoeba.org/en/sentences/show/521173) | Pharamp |
+| S71022 | È proprio vero? | Is that really true? | Is it really true? | [#1544282](https://tatoeba.org/en/sentences/show/1544282) | Guybrush88 |
+| S71023 | Verso che ora? | About what time? |  | [#4596507](https://tatoeba.org/en/sentences/show/4596507) | Guybrush88 |
+| S71024 | Sei quasi qui? | Are you almost here? |  | [#4611008](https://tatoeba.org/en/sentences/show/4611008) | Guybrush88 |
+| S71025 | È quasi qui? | Are you almost here? |  | [#4611010](https://tatoeba.org/en/sentences/show/4611010) | Guybrush88 |
+| S71026 | Hai della carta? | Do you have paper? |  | [#11229621](https://tatoeba.org/en/sentences/show/11229621) | Guybrush88 |
+| S71027 | Ha della carta? | Do you have paper? |  | [#11229622](https://tatoeba.org/en/sentences/show/11229622) | Guybrush88 |
+| S71028 | Ci sono mele nella scatola? | Are there any apples in the box? |  | [#1101571](https://tatoeba.org/en/sentences/show/1101571) | leonardo |
+| S71029 | Sai qualcosa su Tom? | Do you know anything about Tom? |  | [#1147279](https://tatoeba.org/en/sentences/show/1147279) | Guybrush88 |
+| S71030 | Cosa sai su Tom? | What do you know about Tom? |  | [#2143201](https://tatoeba.org/en/sentences/show/2143201) | hitori37 |
+| S71031 | Non hai proprio soldi? | Don't you have any money? |  | [#2800891](https://tatoeba.org/en/sentences/show/2800891) | Guybrush88 |
+| S71032 | Non ha proprio soldi? | Don't you have any money? |  | [#2800892](https://tatoeba.org/en/sentences/show/2800892) | Guybrush88 |
+| S71033 | Cosa c'è nella bottiglia? | What's in the bottle? |  | [#3122636](https://tatoeba.org/en/sentences/show/3122636) | Guybrush88 |
+| S71034 | Se non adesso, quando? | If not now, when? | If not now, then when? | [#5399894](https://tatoeba.org/en/sentences/show/5399894) | Guybrush88 |
+| S71035 | Cosa avete contro Tom? | What have you got against Tom? |  | [#6550033](https://tatoeba.org/en/sentences/show/6550033) | Guybrush88 |
+| S71036 | Sai altro su Tom? | Do you know anything else about Tom? |  | [#6911614](https://tatoeba.org/en/sentences/show/6911614) | Guybrush88 |
+| S71037 | Hai qualcosa contro Tom? | Do you have anything against Tom? |  | [#7041955](https://tatoeba.org/en/sentences/show/7041955) | Guybrush88 |
+| S71038 | Ha qualcosa contro Tom? | Do you have anything against Tom? |  | [#7041957](https://tatoeba.org/en/sentences/show/7041957) | Guybrush88 |
+| S71039 | È di sopra, vero? | He's upstairs, isn't he? | She's upstairs, isn't she? | [#8694513](https://tatoeba.org/en/sentences/show/8694513) | Guybrush88 |
+| S71040 | Tom è di sopra, vero? | Tom is upstairs, isn't he? |  | [#6922299](https://tatoeba.org/en/sentences/show/6922299) | Guybrush88 |
+
+## U37 Didn't Catch That: Scusi? Non ho sentito. Come ha detto? Non sento bene
+
+30 sentences picked from 893 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+Every new word is in at least 3 sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S37001 | Non hai sentito cosa ho detto? | Didn't you hear what I said? |  | [#4265996](https://tatoeba.org/en/sentences/show/4265996) | valealb |
+| S37002 | Non ha sentito cosa ho detto? | Didn't you hear what I said? |  | [#5419280](https://tatoeba.org/en/sentences/show/5419280) | Guybrush88 |
+| S37003 | Non avete sentito cosa ho detto? | Didn't you hear what I said? |  | [#5419281](https://tatoeba.org/en/sentences/show/5419281) | Guybrush88 |
+| S37004 | Cosa sento? | What do I hear? |  | [#6158074](https://tatoeba.org/en/sentences/show/6158074) | Guybrush88 |
+| S37005 | Vuoi sentire di più? | Do you want to hear more? |  | [#12911998](https://tatoeba.org/en/sentences/show/12911998) | Guybrush88 |
+| S37006 | Ha una buona voce, vero? | He has a good voice, doesn't he? | She has a good voice, doesn't she? | [#8758064](https://tatoeba.org/en/sentences/show/8758064) | Guybrush88 |
+| S37007 | Sento della musica, e tu? | I hear music, and you? |  | [#13317817](https://tatoeba.org/en/sentences/show/13317817) | Guybrush88 |
+| S37008 | Sento della musica, e voi? | I hear music, and you? |  | [#13317819](https://tatoeba.org/en/sentences/show/13317819) | Guybrush88 |
+| S37009 | Mary ha una bella voce, vero? | Mary has a good voice, doesn't she? |  | [#12925853](https://tatoeba.org/en/sentences/show/12925853) | Guybrush88 |
+| S37010 | Ha sentito una voce. | He heard a voice. |  | [#8483086](https://tatoeba.org/en/sentences/show/8483086) | Guybrush88 |
+| S37011 | Voglio sentire questo. | I want to hear this. |  | [#4394982](https://tatoeba.org/en/sentences/show/4394982) | Guybrush88 |
+| S37012 | Non può sentire. | He can't hear. |  | [#8991476](https://tatoeba.org/en/sentences/show/8991476) | Guybrush88 |
+| S37013 | Hai sentito quello che ha detto? | Did you hear what she said? |  | [#10469938](https://tatoeba.org/en/sentences/show/10469938) | Guybrush88 |
+| S37014 | Ha sentito quello che ha detto? | Did you hear what she said? |  | [#10469939](https://tatoeba.org/en/sentences/show/10469939) | Guybrush88 |
+| S37015 | Avete sentito quello che ha detto? | Did you hear what she said? |  | [#10469941](https://tatoeba.org/en/sentences/show/10469941) | Guybrush88 |
+| S37016 | Hai sentito quello che ho detto, Tom? | Did you hear what I said, Tom? |  | [#6977452](https://tatoeba.org/en/sentences/show/6977452) | Guybrush88 |
+| S37017 | Avete sentito? | Did you hear? |  | [#3172846](https://tatoeba.org/en/sentences/show/3172846) | Guybrush88 |
+| S37018 | Hai sentito? | Did you hear? |  | [#7912582](https://tatoeba.org/en/sentences/show/7912582) | Guybrush88 |
+| S37019 | Cosa hai detto? | What did you say? |  | [#617573](https://tatoeba.org/en/sentences/show/617573) | rado |
+| S37020 | Hai detto qualcosa? | Did you say something? |  | [#955120](https://tatoeba.org/en/sentences/show/955120) | Guybrush88 |
+| S37021 | Mi hai sentito? | Did you hear me? |  | [#987797](https://tatoeba.org/en/sentences/show/987797) | riccioberto |
+| S37022 | Che ha detto? | What did he say? | What did she say? | [#1158597](https://tatoeba.org/en/sentences/show/1158597) | Guybrush88 |
+| S37023 | Mi ha sentito? | Did you hear me? |  | [#1903553](https://tatoeba.org/en/sentences/show/1903553) | Guybrush88 |
+| S37024 | Mi avete sentito? | Did you hear me? |  | [#1903555](https://tatoeba.org/en/sentences/show/1903555) | Guybrush88 |
+| S37025 | Ha detto qualcosa? | Did he say something? | Did she say something? | [#1932768](https://tatoeba.org/en/sentences/show/1932768) | Guybrush88 |
+| S37026 | Hanno detto quando? | Did they say when? |  | [#2009958](https://tatoeba.org/en/sentences/show/2009958) | Guybrush88 |
+| S37027 | Avete sentito qualcosa? | Did you hear something? |  | [#3249596](https://tatoeba.org/en/sentences/show/3249596) | carlosalberto |
+| S37028 | Hai detto tre? | Did you say three? |  | [#3795619](https://tatoeba.org/en/sentences/show/3795619) | Guybrush88 |
+| S37029 | Ha detto tre? | Did you say three? |  | [#3795621](https://tatoeba.org/en/sentences/show/3795621) | Guybrush88 |
+| S37030 | Avete detto tre? | Did you say three? |  | [#3795622](https://tatoeba.org/en/sentences/show/3795622) | Guybrush88 |
+
+## U62 Days of the Week: Lunedì (this Monday), il lunedì (every Monday); tutti i giorni, ogni settimana; la settimana prossima, il mese scorso: prossimo and scorso agree
+
+40 sentences picked from 789 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: giorni (1), volte (1), scorsa (0), durante (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S62001 | C'è sempre una prossima volta. | There is always another time. | There is always a next time. | [#5335860](https://tatoeba.org/en/sentences/show/5335860) | Guybrush88 |
+| S62002 | Giovedì prossimo è vacanza. | Next Thursday is a holiday. |  | [#950157](https://tatoeba.org/en/sentences/show/950157) | Guybrush88 |
+| S62003 | Venerdì è la fine. | Friday is the end. |  | [#2900310](https://tatoeba.org/en/sentences/show/2900310) | Guybrush88 |
+| S62004 | Questa è l'ultima volta. | This is the last time. |  | [#609481](https://tatoeba.org/en/sentences/show/609481) | Guybrush88 |
+| S62005 | È malata da mercoledì scorso. | She has been sick since last Wednesday. |  | [#2777982](https://tatoeba.org/en/sentences/show/2777982) | Guybrush88 |
+| S62006 | C'è sempre l'anno prossimo. | There's always next year. |  | [#6763052](https://tatoeba.org/en/sentences/show/6763052) | Guybrush88 |
+| S62007 | Vado a Parigi venerdì prossimo. | I'm going to Paris next Friday. |  | [#13267987](https://tatoeba.org/en/sentences/show/13267987) | Guybrush88 |
+| S62008 | Lei è malata da mercoledì scorso. | She has been sick since last Wednesday. |  | [#2777983](https://tatoeba.org/en/sentences/show/2777983) | Guybrush88 |
+| S62009 | La prossima volta prendo il treno. | Next time I'm taking the train. |  | [#9706447](https://tatoeba.org/en/sentences/show/9706447) | Guybrush88 |
+| S62010 | Sono malato a letto da venerdì scorso. | I have been ill in bed since last Friday. |  | [#602288](https://tatoeba.org/en/sentences/show/602288) | Guybrush88 |
+| S62011 | Sono qui fino alla fine della settimana. | They're here until the end of the week. |  | [#6094985](https://tatoeba.org/en/sentences/show/6094985) | Guybrush88 |
+| S62012 | Oggi è l'ultimo martedì del mese. | Today is the last Tuesday of the month. |  | [#11969899](https://tatoeba.org/en/sentences/show/11969899) | Guybrush88 |
+| S62013 | Quante volte? | How many times? |  | [#7092040](https://tatoeba.org/en/sentences/show/7092040) | Guybrush88 |
+| S62014 | Quanto spesso? | How often? |  | [#8785292](https://tatoeba.org/en/sentences/show/8785292) | Bethanielle |
+| S62015 | Avete tutti freddo? | Are you all cold? |  | [#806548](https://tatoeba.org/en/sentences/show/806548) | Guybrush88 |
+| S62016 | Mangi spesso fuori? | Do you eat out often? |  | [#833607](https://tatoeba.org/en/sentences/show/833607) | Guybrush88 |
+| S62017 | È già martedì? | Is it Tuesday already? |  | [#1000580](https://tatoeba.org/en/sentences/show/1000580) | Guybrush88 |
+| S62018 | Non è martedì? | Isn't it Tuesday? |  | [#1689442](https://tatoeba.org/en/sentences/show/1689442) | Guybrush88 |
+| S62019 | Dove sono tutti? | Where's everyone? | Where's everybody?; Where is everyone?; Where is everybody? | [#2009201](https://tatoeba.org/en/sentences/show/2009201) | Guybrush88 |
+| S62020 | Fino a quando? | Til when? |  | [#2841298](https://tatoeba.org/en/sentences/show/2841298) | Guybrush88 |
+| S62021 | È sempre così? | Is he always like that? | Is it always like this?; Is it always this way? | [#3638553](https://tatoeba.org/en/sentences/show/3638553) | Guybrush88 |
+| S62022 | Hanno tutti fame? | Is everyone hungry? | Is everybody hungry? | [#4000486](https://tatoeba.org/en/sentences/show/4000486) | Guybrush88 |
+| S62023 | Quanto spesso bevi? | How often do you drink? |  | [#5875441](https://tatoeba.org/en/sentences/show/5875441) | Guybrush88 |
+| S62024 | Sei mai felice? | Are you ever happy? |  | [#11842800](https://tatoeba.org/en/sentences/show/11842800) | Guybrush88 |
+| S62025 | È mai felice? | Are you ever happy? |  | [#11842802](https://tatoeba.org/en/sentences/show/11842802) | Guybrush88 |
+| S62026 | Sei l'ultimo? | Are you the last one? |  | [#12928841](https://tatoeba.org/en/sentences/show/12928841) | Guybrush88 |
+| S62027 | Sei l'ultima? | Are you the last one? |  | [#12928843](https://tatoeba.org/en/sentences/show/12928843) | Guybrush88 |
+| S62028 | Stai mai a casa? | Do you ever stay home? |  | [#1241659](https://tatoeba.org/en/sentences/show/1241659) | Guybrush88 |
+| S62029 | Chi è la prossima? | Who's next? | Who is next? | [#2156867](https://tatoeba.org/en/sentences/show/2156867) | Guybrush88 |
+| S62030 | Chi è l'ultimo? | Who's the last one? |  | [#5763881](https://tatoeba.org/en/sentences/show/5763881) | Guybrush88 |
+| S62031 | Chi è l'ultima? | Who's the last one? |  | [#5763882](https://tatoeba.org/en/sentences/show/5763882) | Guybrush88 |
+| S62032 | Oggi è mercoledì, sì? | Today is Wednesday, yes? |  | [#11605587](https://tatoeba.org/en/sentences/show/11605587) | Guybrush88 |
+| S62033 | Quanti giorni ci sono in una settimana? | How many days are there in a week? |  | [#1077333](https://tatoeba.org/en/sentences/show/1077333) | Guybrush88 |
+| S62034 | Questo autobus va fino al museo? | Does this bus go to the museum? |  | [#13234543](https://tatoeba.org/en/sentences/show/13234543) | Guybrush88 |
+| S62035 | È giovedì. | It's Thursday. | It is Thursday. | [#3342328](https://tatoeba.org/en/sentences/show/3342328) | Guybrush88 |
+| S62036 | Scusa per ieri. | Sorry about yesterday. |  | [#2448674](https://tatoeba.org/en/sentences/show/2448674) | Guybrush88 |
+| S62037 | Scusi per ieri. | Sorry about yesterday. |  | [#2448695](https://tatoeba.org/en/sentences/show/2448695) | Guybrush88 |
+| S62038 | Oggi è giovedì. | Today is Thursday. |  | [#2478438](https://tatoeba.org/en/sentences/show/2478438) | Guybrush88 |
+| S62039 | Grazie per ieri. | Thanks for yesterday. |  | [#3899121](https://tatoeba.org/en/sentences/show/3899121) | Guybrush88 |
+| S62040 | Questa è la fine. | This is the end. |  | [#410584](https://tatoeba.org/en/sentences/show/410584) | shoras |
+
+## U63 Months + Seasons: A gennaio, in estate; il primo maggio, il due maggio: primo only for the first; months take no capital
+
+39 sentences picked from 117 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: gennaio (1), febbraio (2), maggio (0), agosto (0), settembre (2), novembre (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S63001 | È il primo dicembre. | It is December 1. |  | [#14113645](https://tatoeba.org/en/sentences/show/14113645) | Guybrush88 |
+| S63002 | Oggi è il primo settembre. | Today is 1 September. | Today is September first.; Today is September 1st.; Today is 1st September. | [#822438](https://tatoeba.org/en/sentences/show/822438) | Guybrush88 |
+| S63003 | È il primo di aprile. | It's April first. |  | [#5987059](https://tatoeba.org/en/sentences/show/5987059) | Guybrush88 |
+| S63004 | Siamo in estate, non in inverno. | We're in summer, not winter. |  | [#2524569](https://tatoeba.org/en/sentences/show/2524569) | Guybrush88 |
+| S63005 | Febbraio è più corto di marzo. | February is shorter than March. |  | [#14116837](https://tatoeba.org/en/sentences/show/14116837) | Guybrush88 |
+| S63006 | Febbraio è più breve di marzo. | February is shorter than March. |  | [#14116838](https://tatoeba.org/en/sentences/show/14116838) | Guybrush88 |
+| S63007 | Noi siamo in estate, non in inverno. | We're in summer, not winter. |  | [#2524570](https://tatoeba.org/en/sentences/show/2524570) | Guybrush88 |
+| S63008 | Adesso l'inverno è come l'estate. | Now winter is like summer. |  | [#13293086](https://tatoeba.org/en/sentences/show/13293086) | Guybrush88 |
+| S63009 | Che data è? | What date is it? |  | [#2797567](https://tatoeba.org/en/sentences/show/2797567) | Guybrush88 |
+| S63010 | È già giugno? | Is it June already? |  | [#7430193](https://tatoeba.org/en/sentences/show/7430193) | Guybrush88 |
+| S63011 | Che data è oggi? | What's the date today? |  | [#1649889](https://tatoeba.org/en/sentences/show/1649889) | Guybrush88 |
+| S63012 | Ti piace l'autunno? | Do you like autumn? |  | [#11085929](https://tatoeba.org/en/sentences/show/11085929) | Guybrush88 |
+| S63013 | Hai un secondo nome? | Do you have a middle name? |  | [#12035994](https://tatoeba.org/en/sentences/show/12035994) | Guybrush88 |
+| S63014 | Ha un secondo nome? | Do you have a middle name? |  | [#12035996](https://tatoeba.org/en/sentences/show/12035996) | Guybrush88 |
+| S63015 | Avete un secondo nome? | Do you have a middle name? |  | [#12035997](https://tatoeba.org/en/sentences/show/12035997) | Guybrush88 |
+| S63016 | A voi piace l'autunno? | Do you like autumn? |  | [#11085933](https://tatoeba.org/en/sentences/show/11085933) | Guybrush88 |
+| S63017 | A lei piace l'autunno? | Do you like autumn? |  | [#11085934](https://tatoeba.org/en/sentences/show/11085934) | Guybrush88 |
+| S63018 | Quanti giorni ci sono a ottobre? | How many days are in October? |  | [#13044893](https://tatoeba.org/en/sentences/show/13044893) | Guybrush88 |
+| S63019 | Sai perché questa data è importante? | Do you know why this date is important? |  | [#5398804](https://tatoeba.org/en/sentences/show/5398804) | dnnywld |
+| S63020 | È al suo terzo anno, vero? | He's in his third year, isn't he? | She's in her third year, isn't she? | [#8349941](https://tatoeba.org/en/sentences/show/8349941) | Guybrush88 |
+| S63021 | Oggi è il primo giorno di primavera. | Today is the first day of spring. |  | [#5199351](https://tatoeba.org/en/sentences/show/5199351) | Guybrush88 |
+| S63022 | È primavera. | It's spring. |  | [#714569](https://tatoeba.org/en/sentences/show/714569) | Guybrush88 |
+| S63023 | È luglio. | It's July. |  | [#12883968](https://tatoeba.org/en/sentences/show/12883968) | Guybrush88 |
+| S63024 | È aprile. | It's April. |  | [#13141625](https://tatoeba.org/en/sentences/show/13141625) | Guybrush88 |
+| S63025 | È dicembre. | It's December. |  | [#14113644](https://tatoeba.org/en/sentences/show/14113644) | Guybrush88 |
+| S63026 | È marzo. | It's March. |  | [#14116822](https://tatoeba.org/en/sentences/show/14116822) | Guybrush88 |
+| S63027 | È quasi ottobre. | It's almost October. |  | [#5478114](https://tatoeba.org/en/sentences/show/5478114) | Guybrush88 |
+| S63028 | Siamo a luglio. | We are in July. |  | [#6607517](https://tatoeba.org/en/sentences/show/6607517) | Guybrush88 |
+| S63029 | È già ottobre. | It's October already. | It's already October. | [#7415719](https://tatoeba.org/en/sentences/show/7415719) | Guybrush88 |
+| S63030 | È già gennaio. | It's already January. |  | [#10931350](https://tatoeba.org/en/sentences/show/10931350) | JeanM |
+| S63031 | Adesso è giugno. | It's now June. |  | [#11323798](https://tatoeba.org/en/sentences/show/11323798) | Guybrush88 |
+| S63032 | È luglio adesso. | It's now July. |  | [#12883970](https://tatoeba.org/en/sentences/show/12883970) | Guybrush88 |
+| S63033 | Mi piace dicembre. | I like December. |  | [#14113641](https://tatoeba.org/en/sentences/show/14113641) | Guybrush88 |
+| S63034 | Mi piace la primavera. | I like spring. |  | [#897934](https://tatoeba.org/en/sentences/show/897934) | riccioberto |
+| S63035 | Lo conosco da settembre. | I have known him since September. |  | [#3125908](https://tatoeba.org/en/sentences/show/3125908) | Guybrush88 |
+| S63036 | Tom è al terzo posto. | Tom is in third place. |  | [#6536362](https://tatoeba.org/en/sentences/show/6536362) | Guybrush88 |
+| S63037 | È al suo terzo anno. | He's in his third year. | She's in her third year. | [#9022224](https://tatoeba.org/en/sentences/show/9022224) | Guybrush88 |
+| S63038 | Il quarto mese si chiama aprile. | The fourth month is called April. |  | [#691868](https://tatoeba.org/en/sentences/show/691868) | Pharamp |
+| S63039 | Anche giugno non è così lontano. | Even June is not so far off. |  | [#2731838](https://tatoeba.org/en/sentences/show/2731838) | fekundulo |
+
+## U72 In the News: Il governo, il presidente, lo stato: the words of a headline; la notizia, le notizie; c'è un problema
+
+36 sentences picked from 342 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: notizia (0), notizie (0), governo (0), società (1), stato (0), diritto (1), diritti (0), politico (2), sociale (1), repubblica (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S72001 | C'è la pace nella politica? | Is there peace in politics? |  | [#4747836](https://tatoeba.org/en/sentences/show/4747836) | Guybrush88 |
+| S72002 | È un problema sociale. | It's a social problem. |  | [#3214499](https://tatoeba.org/en/sentences/show/3214499) | Guybrush88 |
+| S72003 | Qualche problema? | Any problems? |  | [#10697697](https://tatoeba.org/en/sentences/show/10697697) | Guybrush88 |
+| S72004 | Dov'è il problema? | Where is the problem? |  | [#373782](https://tatoeba.org/en/sentences/show/373782) | Pharamp |
+| S72005 | Dov'è il presidente? | Where's the president? |  | [#378110](https://tatoeba.org/en/sentences/show/378110) | Pharamp |
+| S72006 | Che giornale legge? | What newspaper do you read? | Which newspaper do you read? | [#1574240](https://tatoeba.org/en/sentences/show/1574240) | Guybrush88 |
+| S72007 | Dov'è il giornale? | Where's the newspaper? | Where is the newspaper? | [#3757899](https://tatoeba.org/en/sentences/show/3757899) | Guybrush88 |
+| S72008 | Quanto costa il giornale? | How much is the newspaper? |  | [#7414966](https://tatoeba.org/en/sentences/show/7414966) | Guybrush88 |
+| S72009 | Chi è il presidente? | Who's the president? | Who is the president? | [#13080264](https://tatoeba.org/en/sentences/show/13080264) | Guybrush88 |
+| S72010 | Perché è importante la storia? | Why is history important? |  | [#4799637](https://tatoeba.org/en/sentences/show/4799637) | valealb |
+| S72011 | Perché la storia è importante? | Why is history important? |  | [#5470927](https://tatoeba.org/en/sentences/show/5470927) | Guybrush88 |
+| S72012 | A chi piace la guerra? | Who likes war? |  | [#11275524](https://tatoeba.org/en/sentences/show/11275524) | Guybrush88 |
+| S72013 | Chi è il presidente nel tuo paese? | Who's the president in your country? |  | [#9742891](https://tatoeba.org/en/sentences/show/9742891) | Guybrush88 |
+| S72014 | È politica. | It's politics. |  | [#13739176](https://tatoeba.org/en/sentences/show/13739176) | Guybrush88 |
+| S72015 | Voglio studiare storia. | I want to study history. |  | [#410246](https://tatoeba.org/en/sentences/show/410246) | Pharamp |
+| S72016 | Questa è guerra. | This is war. |  | [#2728004](https://tatoeba.org/en/sentences/show/2728004) | Guybrush88 |
+| S72017 | È loro diritto. | It's their right. |  | [#3110181](https://tatoeba.org/en/sentences/show/3110181) | Guybrush88 |
+| S72018 | Siamo in guerra. | We are at war. |  | [#3213551](https://tatoeba.org/en/sentences/show/3213551) | Guybrush88 |
+| S72019 | È il sistema. | That's the system. |  | [#4517085](https://tatoeba.org/en/sentences/show/4517085) | Guybrush88 |
+| S72020 | Leggo l'articolo. | I read the article. |  | [#4606173](https://tatoeba.org/en/sentences/show/4606173) | Guybrush88 |
+| S72021 | È un ministro. | He's a minister. |  | [#8499816](https://tatoeba.org/en/sentences/show/8499816) | Guybrush88 |
+| S72022 | Conosco il sistema. | I know the system. |  | [#8545855](https://tatoeba.org/en/sentences/show/8545855) | Guybrush88 |
+| S72023 | Tutto è politica. | Everything is politics. |  | [#8574575](https://tatoeba.org/en/sentences/show/8574575) | Guybrush88 |
+| S72024 | L'articolo è vero. | The article is genuine. |  | [#1371349](https://tatoeba.org/en/sentences/show/1371349) | Guybrush88 |
+| S72025 | Voglio vivere in pace. | I want to live in peace. |  | [#3386687](https://tatoeba.org/en/sentences/show/3386687) | Guybrush88 |
+| S72026 | Tom è un politico. | Tom is a politician. |  | [#3434729](https://tatoeba.org/en/sentences/show/3434729) | Guybrush88 |
+| S72027 | Grazie per l'articolo. | Thank you for the article. |  | [#4504292](https://tatoeba.org/en/sentences/show/4504292) | Guybrush88 |
+| S72028 | È un buon sistema. | It's a good system. |  | [#5010612](https://tatoeba.org/en/sentences/show/5010612) | Guybrush88 |
+| S72029 | Tom è un ministro. | Tom is a minister. |  | [#5486765](https://tatoeba.org/en/sentences/show/5486765) | Guybrush88 |
+| S72030 | So tutto della situazione. | I know all about the situation. |  | [#7711476](https://tatoeba.org/en/sentences/show/7711476) | Guybrush88 |
+| S72031 | È solo un politico. | He's just a politician. |  | [#7949200](https://tatoeba.org/en/sentences/show/7949200) | Guybrush88 |
+| S72032 | La situazione è difficile. | The situation is difficult. |  | [#11392132](https://tatoeba.org/en/sentences/show/11392132) | carlosalberto |
+| S72033 | È una situazione triste. | It's a sad situation. |  | [#11840486](https://tatoeba.org/en/sentences/show/11840486) | Guybrush88 |
+| S72034 | La società è malata. | Society is sick. |  | [#13133564](https://tatoeba.org/en/sentences/show/13133564) | Guybrush88 |
+| S72035 | Siamo in pace con il mondo. | We're at peace with the world. |  | [#11040671](https://tatoeba.org/en/sentences/show/11040671) | Guybrush88 |
+| S72036 | È il primo ministro di questo paese. | He is the prime minister of this country. |  | [#3713335](https://tatoeba.org/en/sentences/show/3713335) | Guybrush88 |
+
+## U38 Thinking It Over: Un attimo… Vediamo. Allora… Fammi pensare
+
+30 sentences picked from 161 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: dunque (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S38001 | Non lo vediamo da allora. | We haven't seen him since then. |  | [#3026277](https://tatoeba.org/en/sentences/show/3026277) | Guybrush88 |
+| S38002 | Noi non lo vediamo da allora. | We haven't seen him since then. |  | [#3026290](https://tatoeba.org/en/sentences/show/3026290) | Guybrush88 |
+| S38003 | E allora? | So what? | And then?; Then what? | [#4380](https://tatoeba.org/en/sentences/show/4380) | Pharamp |
+| S38004 | E quindi? | So what? | Then what? | [#1426846](https://tatoeba.org/en/sentences/show/1426846) | Guybrush88 |
+| S38005 | Quindi cosa? | Then what? |  | [#2485856](https://tatoeba.org/en/sentences/show/2485856) | Guybrush88 |
+| S38006 | Sì, quindi? | Yes, so? |  | [#4570026](https://tatoeba.org/en/sentences/show/4570026) | Guybrush88 |
+| S38007 | Devo pensare. | I have to think. |  | [#3674639](https://tatoeba.org/en/sentences/show/3674639) | Guybrush88 |
+| S38008 | Noi vediamo. | We see. |  | [#4564482](https://tatoeba.org/en/sentences/show/4564482) | Guybrush88 |
+| S38009 | Non pensare. | Don't think. |  | [#8097658](https://tatoeba.org/en/sentences/show/8097658) | Guybrush88 |
+| S38010 | Io penso. | I think. |  | [#11737406](https://tatoeba.org/en/sentences/show/11737406) | Guybrush88 |
+| S38011 | Penso di sì. | I think yes. |  | [#3466426](https://tatoeba.org/en/sentences/show/3466426) | Guybrush88 |
+| S38012 | Io devo pensare. | I have to think. |  | [#3674640](https://tatoeba.org/en/sentences/show/3674640) | Guybrush88 |
+| S38013 | Sai cosa penso. | You know what I think. |  | [#5337798](https://tatoeba.org/en/sentences/show/5337798) | Guybrush88 |
+| S38014 | Allora chi? | Then who? |  | [#645548](https://tatoeba.org/en/sentences/show/645548) | Guybrush88 |
+| S38015 | Quindi, lo capisci? | So, do you get it? |  | [#3432798](https://tatoeba.org/en/sentences/show/3432798) | Guybrush88 |
+| S38016 | Cosa c'è, allora? | What is it, then? |  | [#3964986](https://tatoeba.org/en/sentences/show/3964986) | Guybrush88 |
+| S38017 | Che c'è, allora? | What is it, then? |  | [#3964988](https://tatoeba.org/en/sentences/show/3964988) | Guybrush88 |
+| S38018 | Quindi dove vado? | So where do I go? |  | [#6620459](https://tatoeba.org/en/sentences/show/6620459) | Guybrush88 |
+| S38019 | Allora dove vado? | So where do I go? |  | [#6620460](https://tatoeba.org/en/sentences/show/6620460) | Guybrush88 |
+| S38020 | Allora, sei d'accordo? | Then, do you agree? |  | [#10755302](https://tatoeba.org/en/sentences/show/10755302) | dnnywld |
+| S38021 | Quante mele, quindi? | How many apples, then? |  | [#13303159](https://tatoeba.org/en/sentences/show/13303159) | Guybrush88 |
+| S38022 | Allora, perché sei qui? | So, why are you here? |  | [#3595281](https://tatoeba.org/en/sentences/show/3595281) | Guybrush88 |
+| S38023 | Allora, perché siete qui? | So, why are you here? |  | [#3595282](https://tatoeba.org/en/sentences/show/3595282) | Guybrush88 |
+| S38024 | Allora, perché è qui? | So, why are you here? |  | [#3595283](https://tatoeba.org/en/sentences/show/3595283) | Guybrush88 |
+| S38025 | Che cosa c'è, allora? | What is it, then? |  | [#3964987](https://tatoeba.org/en/sentences/show/3964987) | Guybrush88 |
+| S38026 | Di chi sono allora? | Whose are they then? |  | [#7487658](https://tatoeba.org/en/sentences/show/7487658) | Guybrush88 |
+| S38027 | Allora, vai o no? | So, are you going or not? |  | [#10245673](https://tatoeba.org/en/sentences/show/10245673) | Guybrush88 |
+| S38028 | Allora, vai oppure no? | So, are you going or not? |  | [#10245674](https://tatoeba.org/en/sentences/show/10245674) | Guybrush88 |
+| S38029 | Allora, va o no? | So, are you going or not? |  | [#10245675](https://tatoeba.org/en/sentences/show/10245675) | Guybrush88 |
+| S38030 | Allora, va oppure no? | So, are you going or not? |  | [#10245676](https://tatoeba.org/en/sentences/show/10245676) | Guybrush88 |
+
+## U64 Making Plans: Vieni? Andiamo al cinema?; venire: vengo, vieni, viene; uscire: esco; possiamo + a verb; ci vediamo
+
+40 sentences picked from 2078 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: vengo (2), esco (2), incontro (0), idea (2), decido (0), organizzare (0), occasione (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S64001 | Possiamo andare insieme. | We can go together. |  | [#2968014](https://tatoeba.org/en/sentences/show/2968014) | Guybrush88 |
+| S64002 | Noi possiamo andare insieme. | We can go together. |  | [#2968015](https://tatoeba.org/en/sentences/show/2968015) | Guybrush88 |
+| S64003 | Possiamo andare? | Can we go? |  | [#5344857](https://tatoeba.org/en/sentences/show/5344857) | Guybrush88 |
+| S64004 | Perché non andiamo insieme? | Why don't we go together? |  | [#3601891](https://tatoeba.org/en/sentences/show/3601891) | Guybrush88 |
+| S64005 | Forse viene. | Maybe she is coming. |  | [#5829667](https://tatoeba.org/en/sentences/show/5829667) | Guybrush88 |
+| S64006 | Vieni a vedere. | Come and see. | Come and look. | [#3758937](https://tatoeba.org/en/sentences/show/3758937) | Guybrush88 |
+| S64007 | Forse lei viene. | Maybe she is coming. |  | [#5829668](https://tatoeba.org/en/sentences/show/5829668) | Guybrush88 |
+| S64008 | Vieni a vedere questo! | Come and look at this! |  | [#5142154](https://tatoeba.org/en/sentences/show/5142154) | Guybrush88 |
+| S64009 | Andiamo a vedere Tom. | Let's go see Tom. |  | [#6159621](https://tatoeba.org/en/sentences/show/6159621) | Guybrush88 |
+| S64010 | Andiamo al cinema. Vieni con noi. | We are going to the movies. Come with us. |  | [#448389](https://tatoeba.org/en/sentences/show/448389) | Pharamp |
+| S64011 | Sono occupato adesso e non posso uscire. | I am busy now and can't go out. |  | [#2941855](https://tatoeba.org/en/sentences/show/2941855) | Guybrush88 |
+| S64012 | Sono occupata adesso e non posso uscire. | I am busy now and can't go out. |  | [#2941857](https://tatoeba.org/en/sentences/show/2941857) | Guybrush88 |
+| S64013 | Possiamo venire domani? | Can we come tomorrow? |  | [#4742012](https://tatoeba.org/en/sentences/show/4742012) | Guybrush88 |
+| S64014 | Non possiamo uscire? | We can’t go out? |  | [#6611973](https://tatoeba.org/en/sentences/show/6611973) | Guybrush88 |
+| S64015 | Sei occupato? | Are you busy? |  | [#378654](https://tatoeba.org/en/sentences/show/378654) | Pharamp |
+| S64016 | Chi viene? | Who's coming? | Who is coming? | [#619674](https://tatoeba.org/en/sentences/show/619674) | Pharamp |
+| S64017 | Vuoi venire? | Do you want to come along? |  | [#703589](https://tatoeba.org/en/sentences/show/703589) | Heracleum |
+| S64018 | Sei occupata? | Are you busy? |  | [#1243813](https://tatoeba.org/en/sentences/show/1243813) | Guybrush88 |
+| S64019 | È occupato? | Is he busy? |  | [#1255440](https://tatoeba.org/en/sentences/show/1255440) | Guybrush88 |
+| S64020 | Puoi venire? | Can you come? |  | [#1255482](https://tatoeba.org/en/sentences/show/1255482) | Guybrush88 |
+| S64021 | Cosa vedo? | What do I see? |  | [#3415801](https://tatoeba.org/en/sentences/show/3415801) | Guybrush88 |
+| S64022 | Sei libero domani? | Are you free tomorrow? |  | [#373958](https://tatoeba.org/en/sentences/show/373958) | Pharamp |
+| S64023 | È libero qui? | Is this seat taken? | Is this seat available?; Is this seat vacant? | [#465462](https://tatoeba.org/en/sentences/show/465462) | Guybrush88 |
+| S64024 | È libero domani? | Are you free tomorrow? |  | [#1253868](https://tatoeba.org/en/sentences/show/1253868) | Guybrush88 |
+| S64025 | È libera domani? | Are you free tomorrow? |  | [#1253870](https://tatoeba.org/en/sentences/show/1253870) | Guybrush88 |
+| S64026 | Sei libera domani? | Are you free tomorrow? |  | [#1253871](https://tatoeba.org/en/sentences/show/1253871) | Guybrush88 |
+| S64027 | Quando sei occupata? | When are you busy? |  | [#1255740](https://tatoeba.org/en/sentences/show/1255740) | Guybrush88 |
+| S64028 | Sei libera adesso? | Are you free now? |  | [#2612225](https://tatoeba.org/en/sentences/show/2612225) | Guybrush88 |
+| S64029 | Che cosa vedo? | What do I see? |  | [#3415802](https://tatoeba.org/en/sentences/show/3415802) | Guybrush88 |
+| S64030 | Chi sei tu per decidere? | Who are you to decide? |  | [#4132200](https://tatoeba.org/en/sentences/show/4132200) | Guybrush88 |
+| S64031 | Chi è lei per decidere? | Who are you to decide? |  | [#4132201](https://tatoeba.org/en/sentences/show/4132201) | Guybrush88 |
+| S64032 | Chi siete voi per decidere? | Who are you to decide? |  | [#4132202](https://tatoeba.org/en/sentences/show/4132202) | Guybrush88 |
+| S64033 | Vengo subito. | I'm coming right away. |  | [#995496](https://tatoeba.org/en/sentences/show/995496) | Guybrush88 |
+| S64034 | Vengo oggi. | I am coming today. |  | [#1588688](https://tatoeba.org/en/sentences/show/1588688) | jackhayes |
+| S64035 | Forse no. | Maybe not. | Perhaps not. | [#2395255](https://tatoeba.org/en/sentences/show/2395255) | Guybrush88 |
+| S64036 | Vedo Tom. | I see Tom. |  | [#2559860](https://tatoeba.org/en/sentences/show/2559860) | Guybrush88 |
+| S64037 | Buona idea! | Good idea! |  | [#3475762](https://tatoeba.org/en/sentences/show/3475762) | Guybrush88 |
+| S64038 | Che idea! | What an idea! |  | [#3996537](https://tatoeba.org/en/sentences/show/3996537) | Guybrush88 |
+| S64039 | Non esco. | I'm not going out. |  | [#5771648](https://tatoeba.org/en/sentences/show/5771648) | Guybrush88 |
+| S64040 | Esco oggi. | I'm going out today. |  | [#5867460](https://tatoeba.org/en/sentences/show/5867460) | Guybrush88 |
+
+## U65 My Day: Fare: faccio, fai, fa; finire: finisco (-isc- verbs); prima, poi, dopo: the order of the day
+
+40 sentences picked from 2213 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: finisco (0), pranzo (0), mentre (1), continuo (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S65001 | Faccio colazione prima del lavoro. | I eat breakfast before work. |  | [#7831487](https://tatoeba.org/en/sentences/show/7831487) | Guybrush88 |
+| S65002 | Io faccio colazione prima del lavoro. | I eat breakfast before work. |  | [#7831488](https://tatoeba.org/en/sentences/show/7831488) | Guybrush88 |
+| S65003 | Cosa fai prima di colazione? | What do you do before breakfast? |  | [#409838](https://tatoeba.org/en/sentences/show/409838) | shoras |
+| S65004 | Che lavoro fai? | What work do you do? |  | [#380240](https://tatoeba.org/en/sentences/show/380240) | Pharamp |
+| S65005 | Cosa faccio dopo? | What do I do next? |  | [#2018905](https://tatoeba.org/en/sentences/show/2018905) | Guybrush88 |
+| S65006 | Quando lavora dopo? | When do you work next? |  | [#2800830](https://tatoeba.org/en/sentences/show/2800830) | Guybrush88 |
+| S65007 | Posso tornare a lavorare? | Can I get back to work? |  | [#8384709](https://tatoeba.org/en/sentences/show/8384709) | Guybrush88 |
+| S65008 | Cosa fai dopo la scuola? | What do you do after school? |  | [#712887](https://tatoeba.org/en/sentences/show/712887) | Guybrush88 |
+| S65009 | Vorrei tornare a lavorare. | I'd like to get back to work. |  | [#2829897](https://tatoeba.org/en/sentences/show/2829897) | Guybrush88 |
+| S65010 | Inizio a lavorare domani. | I start working tomorrow. |  | [#5690052](https://tatoeba.org/en/sentences/show/5690052) | Guybrush88 |
+| S65011 | Non posso continuare a fare questo. | I can't keep doing this. | I can't continue doing this. | [#2927985](https://tatoeba.org/en/sentences/show/2927985) | Guybrush88 |
+| S65012 | Non voglio continuare a fare questo. | I don't want to keep doing this. |  | [#5399906](https://tatoeba.org/en/sentences/show/5399906) | Guybrush88 |
+| S65013 | Non possiamo continuare a fare questo. | We can't continue doing this. |  | [#5778357](https://tatoeba.org/en/sentences/show/5778357) | Guybrush88 |
+| S65014 | Che lavoro fa? | What work do you do? |  | [#466548](https://tatoeba.org/en/sentences/show/466548) | Guybrush88 |
+| S65015 | Quando fa colazione? | When do you have breakfast? |  | [#11728427](https://tatoeba.org/en/sentences/show/11728427) | Guybrush88 |
+| S65016 | Fa colazione a casa? | Do you have breakfast at home? | Do you eat breakfast at home? | [#470143](https://tatoeba.org/en/sentences/show/470143) | Guybrush88 |
+| S65017 | E poi cosa faccio? | Then what do I do? |  | [#3997890](https://tatoeba.org/en/sentences/show/3997890) | Guybrush88 |
+| S65018 | E poi che faccio? | Then what do I do? |  | [#3997894](https://tatoeba.org/en/sentences/show/3997894) | Guybrush88 |
+| S65019 | Posso tornare al lavoro? | Can I get back to work? |  | [#8384705](https://tatoeba.org/en/sentences/show/8384705) | Guybrush88 |
+| S65020 | E poi che cosa faccio? | Then what do I do? |  | [#3997891](https://tatoeba.org/en/sentences/show/3997891) | Guybrush88 |
+| S65021 | Puoi finire in tempo il lavoro? | Can you get the work finished in time? |  | [#2780468](https://tatoeba.org/en/sentences/show/2780468) | Guybrush88 |
+| S65022 | Può finire in tempo il lavoro? | Can you get the work finished in time? |  | [#2780469](https://tatoeba.org/en/sentences/show/2780469) | Guybrush88 |
+| S65023 | Dove lavora? | Where do you work? | Where does he work?; Where does she work? | [#413286](https://tatoeba.org/en/sentences/show/413286) | nybras |
+| S65024 | Quando inizio? | When do I get started? |  | [#1510488](https://tatoeba.org/en/sentences/show/1510488) | Guybrush88 |
+| S65025 | Lavora qui? | Do you work here? | Does he work here? | [#1545950](https://tatoeba.org/en/sentences/show/1545950) | Guybrush88 |
+| S65026 | Posso iniziare? | Can I start? | Can I begin?; May I begin? | [#2551185](https://tatoeba.org/en/sentences/show/2551185) | Guybrush88 |
+| S65027 | Posso finire? | Can I finish? |  | [#2552547](https://tatoeba.org/en/sentences/show/2552547) | Guybrush88 |
+| S65028 | Dove inizio? | Where do I start? | Where do I begin? | [#2572693](https://tatoeba.org/en/sentences/show/2572693) | Guybrush88 |
+| S65029 | Vuoi iniziare? | Do you want to start? |  | [#14084691](https://tatoeba.org/en/sentences/show/14084691) | Guybrush88 |
+| S65030 | Bella giornata, vero? | Beautiful day, isn't it? | Nice day, isn't it?; Beautiful day, innit? | [#1318433](https://tatoeba.org/en/sentences/show/1318433) | Guybrush88 |
+| S65031 | Possiamo iniziare adesso? | Shall we begin now? |  | [#2828506](https://tatoeba.org/en/sentences/show/2828506) | Guybrush88 |
+| S65032 | Dov'è la cena? | Where's dinner? |  | [#8912348](https://tatoeba.org/en/sentences/show/8912348) | Guybrush88 |
+| S65033 | Cosa c'è per cena? | What's for dinner? |  | [#2252439](https://tatoeba.org/en/sentences/show/2252439) | Guybrush88 |
+| S65034 | Che c'è per cena? | What's for dinner? |  | [#2252441](https://tatoeba.org/en/sentences/show/2252441) | Guybrush88 |
+| S65035 | È una bella giornata, vero? | It's a beautiful day, isn't it? | It's a nice day, isn't it?; It is a nice day, isn't it? | [#694420](https://tatoeba.org/en/sentences/show/694420) | Heracleum |
+| S65036 | Cosa vuoi vedere mentre sei qui? | What do you want to see while you're here? |  | [#3125539](https://tatoeba.org/en/sentences/show/3125539) | Guybrush88 |
+| S65037 | Questa è una giornata speciale, vero? | This is a special day, isn't it? |  | [#6675532](https://tatoeba.org/en/sentences/show/6675532) | Guybrush88 |
+| S65038 | Faccio colazione e torno a letto. | I'll eat my breakfast and go back to bed. |  | [#1415960](https://tatoeba.org/en/sentences/show/1415960) | Guybrush88 |
+| S65039 | Torno al lavoro. | I'm going back to work. |  | [#6894830](https://tatoeba.org/en/sentences/show/6894830) | Guybrush88 |
+| S65040 | Torno al lavoro adesso. | I'm going back to work now. |  | [#3697231](https://tatoeba.org/en/sentences/show/3697231) | Guybrush88 |
+
+## U73 Doing Things: Metto, do, guardo: -are, -ere and -ire verbs side by side; dare: do, dà; tenere: tengo; riuscire: riesco (I manage to)
+
+40 sentences picked from 841 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: metto (0), do (0), guardo (0), ricordo (1), lascio (0), passo (0), aspetto (0), provo (1), uso (0), tengo (0), tenere (2), riuscire (0), diventa (0), perdo (0), ricevo (0), ricevere (0), creare (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S73001 | Non riesco a cambiare. | I can't change. |  | [#10148948](https://tatoeba.org/en/sentences/show/10148948) | Guybrush88 |
+| S73002 | Non riesco a ricordare. | I can't remember. |  | [#14021826](https://tatoeba.org/en/sentences/show/14021826) | Guybrush88 |
+| S73003 | Non riesco a guardare Tom. | I can't look at Tom. |  | [#2022875](https://tatoeba.org/en/sentences/show/2022875) | Guybrush88 |
+| S73004 | Cosa provo? | What do I try? |  | [#2804550](https://tatoeba.org/en/sentences/show/2804550) | Guybrush88 |
+| S73005 | Vuoi provare? | Do you want to try? |  | [#3159934](https://tatoeba.org/en/sentences/show/3159934) | Guybrush88 |
+| S73006 | Può aspettare? | Can you wait? | Can it wait? | [#5285286](https://tatoeba.org/en/sentences/show/5285286) | Guybrush88 |
+| S73007 | Puoi aspettare? | Can you wait? |  | [#6556983](https://tatoeba.org/en/sentences/show/6556983) | Guybrush88 |
+| S73008 | Vuoi cambiare? | Do you want to change? |  | [#14084760](https://tatoeba.org/en/sentences/show/14084760) | Guybrush88 |
+| S73009 | Ti piace perdere? | Do you enjoy losing? |  | [#2028129](https://tatoeba.org/en/sentences/show/2028129) | Guybrush88 |
+| S73010 | Vuoi provare ancora? | Do you want to try again? |  | [#2416900](https://tatoeba.org/en/sentences/show/2416900) | Guybrush88 |
+| S73011 | Devo cambiare treno? | Do I have to change trains? |  | [#2706691](https://tatoeba.org/en/sentences/show/2706691) | Guybrush88 |
+| S73012 | Come puoi perdere? | How can you lose? |  | [#3432770](https://tatoeba.org/en/sentences/show/3432770) | Guybrush88 |
+| S73013 | Come può perdere? | How can you lose? |  | [#3432771](https://tatoeba.org/en/sentences/show/3432771) | Guybrush88 |
+| S73014 | Quanto devo aspettare? | How long do I have to wait? |  | [#4366870](https://tatoeba.org/en/sentences/show/4366870) | Guybrush88 |
+| S73015 | Lo puoi guardare? | Can you watch him? |  | [#5718797](https://tatoeba.org/en/sentences/show/5718797) | Guybrush88 |
+| S73016 | Lo può guardare? | Can you watch him? |  | [#5718798](https://tatoeba.org/en/sentences/show/5718798) | Guybrush88 |
+| S73017 | Lo possiamo tenere? | Can we keep it? |  | [#6547339](https://tatoeba.org/en/sentences/show/6547339) | Guybrush88 |
+| S73018 | Non vuoi provare? | Don't you want to try? |  | [#8390059](https://tatoeba.org/en/sentences/show/8390059) | Guybrush88 |
+| S73019 | Cosa vuoi diventare? | What do you want to become? |  | [#8673751](https://tatoeba.org/en/sentences/show/8673751) | Guybrush88 |
+| S73020 | Posso lasciare un messaggio? | Can I leave a message? | May I leave a message? | [#940956](https://tatoeba.org/en/sentences/show/940956) | zhou24 |
+| S73021 | Cosa mi puoi dare? | What can you give me? |  | [#2037915](https://tatoeba.org/en/sentences/show/2037915) | Guybrush88 |
+| S73022 | Cosa mi può dare? | What can you give me? |  | [#2037925](https://tatoeba.org/en/sentences/show/2037925) | Guybrush88 |
+| S73023 | Dove posso trovare Tom? | Where can I find Tom? |  | [#2037980](https://tatoeba.org/en/sentences/show/2037980) | Guybrush88 |
+| S73024 | Posso passare la notte? | Can I spend the night? |  | [#3533188](https://tatoeba.org/en/sentences/show/3533188) | Vallysing |
+| S73025 | Vuoi lasciare un messaggio? | Do you want to leave a message? |  | [#4125059](https://tatoeba.org/en/sentences/show/4125059) | Guybrush88 |
+| S73026 | Ti posso dare questo? | Can I give you this? |  | [#4488751](https://tatoeba.org/en/sentences/show/4488751) | Guybrush88 |
+| S73027 | Come lo possiamo trovare? | How can we find him? |  | [#5268307](https://tatoeba.org/en/sentences/show/5268307) | Guybrush88 |
+| S73028 | Dove lo possiamo trovare? | Where can we find him? |  | [#6210572](https://tatoeba.org/en/sentences/show/6210572) | Guybrush88 |
+| S73029 | Non vuoi diventare padre? | Don't you want to become a father? |  | [#6933430](https://tatoeba.org/en/sentences/show/6933430) | Guybrush88 |
+| S73030 | Posso lasciare questo qui? | Can I leave this here? |  | [#10533788](https://tatoeba.org/en/sentences/show/10533788) | Guybrush88 |
+| S73031 | Tu non vuoi diventare padre? | Don't you want to become a father? |  | [#6933431](https://tatoeba.org/en/sentences/show/6933431) | Guybrush88 |
+| S73032 | Mi puoi passare il latte? | Can you pass me the milk? |  | [#13991687](https://tatoeba.org/en/sentences/show/13991687) | Guybrush88 |
+| S73033 | Mi può passare il latte? | Can you pass me the milk? |  | [#13991688](https://tatoeba.org/en/sentences/show/13991688) | Guybrush88 |
+| S73034 | Perché non lo dà a loro? | Why don't you give it to them? |  | [#5980358](https://tatoeba.org/en/sentences/show/5980358) | Guybrush88 |
+| S73035 | Perché non lo dà a lei? | Why don't you give it to her? |  | [#5980376](https://tatoeba.org/en/sentences/show/5980376) | Guybrush88 |
+| S73036 | Perché dà dei soldi a Tom? | Why do you give Tom money? | Why do you give money to Tom? | [#8010394](https://tatoeba.org/en/sentences/show/8010394) | Guybrush88 |
+| S73037 | Non riesco a ricordare molto. | I can't remember very much. |  | [#2084026](https://tatoeba.org/en/sentences/show/2084026) | Guybrush88 |
+| S73038 | Non riesco a tenere questo. | I can't keep this. |  | [#6066335](https://tatoeba.org/en/sentences/show/6066335) | Guybrush88 |
+| S73039 | Io non riesco a ricordare molto. | I can't remember very much. |  | [#2084028](https://tatoeba.org/en/sentences/show/2084028) | Guybrush88 |
+| S73040 | Non ricordo! | I don't remember! |  | [#1071687](https://tatoeba.org/en/sentences/show/1071687) | leonardo |
+
+## U66 Signs + Notices: Aperto, chiuso: on a sign; la farmacia è aperta, l'ufficio è chiuso: they agree; vietato fumare
+
+40 sentences picked from 303 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: uscita (1), vietato (1), servizio (1), pubblico (2), area (0), limite (2), sezione (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S66001 | La banca è aperta? | Is the bank open? |  | [#1523911](https://tatoeba.org/en/sentences/show/1523911) | Guybrush88 |
+| S66002 | È aperta la banca? | Is the bank open? |  | [#1523935](https://tatoeba.org/en/sentences/show/1523935) | Guybrush88 |
+| S66003 | La banca è aperta oggi? | Is the bank open today? |  | [#3801424](https://tatoeba.org/en/sentences/show/3801424) | Guybrush88 |
+| S66004 | Abbiamo un ascensore e un bagno privato. | We have an elevator and a private bathroom. |  | [#3509360](https://tatoeba.org/en/sentences/show/3509360) | Guybrush88 |
+| S66005 | Dov'è l'ascensore? | Where is the elevator? |  | [#492355](https://tatoeba.org/en/sentences/show/492355) | Pharamp |
+| S66006 | Dov'è l'uscita? | Where's the exit? | Where is the exit?; Where is the way out? | [#791406](https://tatoeba.org/en/sentences/show/791406) | rado |
+| S66007 | C'è un ascensore? | Is there a lift? | Is there an elevator? | [#1142911](https://tatoeba.org/en/sentences/show/1142911) | Guybrush88 |
+| S66008 | Dov'è l'entrata? | Where's the entrance? | Where is the entrance? | [#1458202](https://tatoeba.org/en/sentences/show/1458202) | al_ex_an_der |
+| S66009 | C'è un orario? | Is there a timetable? |  | [#6057255](https://tatoeba.org/en/sentences/show/6057255) | Guybrush88 |
+| S66010 | Sei ancora in ufficio? | Are you still in the office? |  | [#3751014](https://tatoeba.org/en/sentences/show/3751014) | Guybrush88 |
+| S66011 | Siete ancora in ufficio? | Are you still in the office? |  | [#3751015](https://tatoeba.org/en/sentences/show/3751015) | Guybrush88 |
+| S66012 | È ancora in ufficio? | Are you still in the office? |  | [#3751016](https://tatoeba.org/en/sentences/show/3751016) | Guybrush88 |
+| S66013 | Dov'è l'entrata del museo? | Where's the entrance to the museum? | Where is the entrance to the museum? | [#350376](https://tatoeba.org/en/sentences/show/350376) | martin |
+| S66014 | C'è una farmacia qui vicino? | Is there a drugstore nearby? |  | [#1831538](https://tatoeba.org/en/sentences/show/1831538) | xicotenga |
+| S66015 | Dov'è la sezione per bambini? | Where's the children's section? |  | [#3531632](https://tatoeba.org/en/sentences/show/3531632) | Guybrush88 |
+| S66016 | Perché ti serve questa informazione? | Why do you need this information? |  | [#8011948](https://tatoeba.org/en/sentences/show/8011948) | Guybrush88 |
+| S66017 | Mi scusi. Questa è la farmacia? | Excuse me. Is this the pharmacy? |  | [#1659499](https://tatoeba.org/en/sentences/show/1659499) | Guybrush88 |
+| S66018 | Perché hai bisogno di questa informazione? | Why do you need this information? |  | [#8011942](https://tatoeba.org/en/sentences/show/8011942) | Guybrush88 |
+| S66019 | Perché ha bisogno di questa informazione? | Why do you need this information? |  | [#8011943](https://tatoeba.org/en/sentences/show/8011943) | Guybrush88 |
+| S66020 | La banca è chiusa. | The bank is closed. |  | [#11033613](https://tatoeba.org/en/sentences/show/11033613) | Guybrush88 |
+| S66021 | La banca è chiusa domenica. | The bank is closed on Sunday. |  | [#11033699](https://tatoeba.org/en/sentences/show/11033699) | Guybrush88 |
+| S66022 | La banca è ancora chiusa. | The bank is still closed. |  | [#13337993](https://tatoeba.org/en/sentences/show/13337993) | Guybrush88 |
+| S66023 | Entrata libera. | Free Admission. |  | [#373961](https://tatoeba.org/en/sentences/show/373961) | Pharamp |
+| S66024 | Fai attenzione! | Pay attention! |  | [#1103429](https://tatoeba.org/en/sentences/show/1103429) | riccioberto |
+| S66025 | È privato. | It's private. | That's private. | [#2193853](https://tatoeba.org/en/sentences/show/2193853) | Guybrush88 |
+| S66026 | Vietato nuotare. | No swimming. |  | [#2834912](https://tatoeba.org/en/sentences/show/2834912) | Guybrush88 |
+| S66027 | Attenzione, prego! | Attention, please! |  | [#8785134](https://tatoeba.org/en/sentences/show/8785134) | Bethanielle |
+| S66028 | Ho un orario. | I have a schedule. |  | [#2582163](https://tatoeba.org/en/sentences/show/2582163) | Guybrush88 |
+| S66029 | È troppo pubblico. | It's too public. |  | [#3751903](https://tatoeba.org/en/sentences/show/3751903) | Guybrush88 |
+| S66030 | Questo è privato. | This is private. |  | [#5336595](https://tatoeba.org/en/sentences/show/5336595) | Guybrush88 |
+| S66031 | Voglio più informazioni. | I want more information. |  | [#8428681](https://tatoeba.org/en/sentences/show/8428681) | Guybrush88 |
+| S66032 | Lavoro in una farmacia. | I work in a pharmacy. |  | [#819851](https://tatoeba.org/en/sentences/show/819851) | Guybrush88 |
+| S66033 | Grazie per le informazioni. | Thanks for the information. | Thank you for the information. | [#1885799](https://tatoeba.org/en/sentences/show/1885799) | Guybrush88 |
+| S66034 | Ho bisogno di informazioni. | I need information. |  | [#2436982](https://tatoeba.org/en/sentences/show/2436982) | Guybrush88 |
+| S66035 | Io ho un orario. | I have a schedule. |  | [#2582164](https://tatoeba.org/en/sentences/show/2582164) | Guybrush88 |
+| S66036 | Il servizio è veloce. | The service is fast. |  | [#6719612](https://tatoeba.org/en/sentences/show/6719612) | Guybrush88 |
+| S66037 | C'è un limite a tutto. | There is a limit to everything. |  | [#1520613](https://tatoeba.org/en/sentences/show/1520613) | Guybrush88 |
+| S66038 | A tutto c'è un limite. | There is a limit to everything. |  | [#3563048](https://tatoeba.org/en/sentences/show/3563048) | Guybrush88 |
+| S66039 | Questo è un luogo pubblico. | This is a public place. |  | [#3766348](https://tatoeba.org/en/sentences/show/3766348) | Guybrush88 |
+| S66040 | Fai attenzione a questo problema. | Pay attention to this problem. |  | [#4163816](https://tatoeba.org/en/sentences/show/4163816) | danielacal |
+
+## U67 Timetables: Il treno parte alle otto e arriva alle dieci: partire and arrivare; un biglietto di andata e ritorno
+
+37 sentences picked from 358 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: arrivo (0), partenza (2), binario (1), ritardo (2), andata (0), ritorno (0), fermata (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S67001 | Da che binario parte il treno? | What platform does the train leave from? | Which platform does the train leave from? | [#2528217](https://tatoeba.org/en/sentences/show/2528217) | Guybrush88 |
+| S67002 | Voglio viaggiare in aereo. | I want to travel by airplane. |  | [#350601](https://tatoeba.org/en/sentences/show/350601) | martin |
+| S67003 | Io voglio viaggiare in aereo. | I want to travel by airplane. |  | [#2051998](https://tatoeba.org/en/sentences/show/2051998) | Guybrush88 |
+| S67004 | Vuoi partire? | Do you want to go? |  | [#380239](https://tatoeba.org/en/sentences/show/380239) | Pharamp |
+| S67005 | Quando parte? | When is she leaving? | When does it start? | [#1125758](https://tatoeba.org/en/sentences/show/1125758) | Guybrush88 |
+| S67006 | Quando arriva? | When do you arrive? | When does it arrive? | [#1264108](https://tatoeba.org/en/sentences/show/1264108) | Guybrush88 |
+| S67007 | Lungo viaggio? | Long journey? |  | [#2731410](https://tatoeba.org/en/sentences/show/2731410) | Guybrush88 |
+| S67008 | Posso partire? | Can I leave? |  | [#3341898](https://tatoeba.org/en/sentences/show/3341898) | Guybrush88 |
+| S67009 | Tom arriva? | Is Tom coming? |  | [#13015192](https://tatoeba.org/en/sentences/show/13015192) | Guybrush88 |
+| S67010 | Avete un biglietto? | Do you have a ticket? |  | [#1256378](https://tatoeba.org/en/sentences/show/1256378) | Guybrush88 |
+| S67011 | Ha un biglietto? | Do you have a ticket? |  | [#1256379](https://tatoeba.org/en/sentences/show/1256379) | Guybrush88 |
+| S67012 | Hai un biglietto? | Do you have a ticket? |  | [#1256381](https://tatoeba.org/en/sentences/show/1256381) | Guybrush88 |
+| S67013 | Ti piace viaggiare? | Do you like traveling? | Do you enjoy traveling?; Do you like to travel? | [#1316322](https://tatoeba.org/en/sentences/show/1316322) | Guybrush88 |
+| S67014 | Dov'è l'aeroporto? | Where's the airport? |  | [#2563235](https://tatoeba.org/en/sentences/show/2563235) | Guybrush88 |
+| S67015 | Vuoi partire domani? | Do you want to leave tomorrow? |  | [#4522415](https://tatoeba.org/en/sentences/show/4522415) | Guybrush88 |
+| S67016 | Quando arriva Tom? | When's Tom arriving? |  | [#4822942](https://tatoeba.org/en/sentences/show/4822942) | Guybrush88 |
+| S67017 | Quando parte Tom? | When is Tom leaving? |  | [#4946360](https://tatoeba.org/en/sentences/show/4946360) | Guybrush88 |
+| S67018 | Dov'è la nave? | Where is the ship? |  | [#5162329](https://tatoeba.org/en/sentences/show/5162329) | Guybrush88 |
+| S67019 | Dov'è la nave adesso? | Where is the ship now? |  | [#3509513](https://tatoeba.org/en/sentences/show/3509513) | Guybrush88 |
+| S67020 | È facile arrivare lì? | Is it easy to get there? |  | [#5338968](https://tatoeba.org/en/sentences/show/5338968) | Guybrush88 |
+| S67021 | Che fermata è questa? | What stop is this? |  | [#5883239](https://tatoeba.org/en/sentences/show/5883239) | Guybrush88 |
+| S67022 | In che aeroporto sei? | Which airport are you at? |  | [#10154273](https://tatoeba.org/en/sentences/show/10154273) | Guybrush88 |
+| S67023 | In che aeroporto è? | Which airport are you at? |  | [#10154274](https://tatoeba.org/en/sentences/show/10154274) | Guybrush88 |
+| S67024 | Tom è su quella nave? | Is Tom aboard that ship? |  | [#1964163](https://tatoeba.org/en/sentences/show/1964163) | Guybrush88 |
+| S67025 | La vita è un viaggio? | Is life a trip? |  | [#13786210](https://tatoeba.org/en/sentences/show/13786210) | Guybrush88 |
+| S67026 | Hai abbastanza soldi per il viaggio? | Do you have enough money for the trip? |  | [#3038994](https://tatoeba.org/en/sentences/show/3038994) | Guybrush88 |
+| S67027 | Dov'è la fine di questa linea? | Where is the end of this line? |  | [#4868230](https://tatoeba.org/en/sentences/show/4868230) | Guybrush88 |
+| S67028 | È possibile arrivare lì a piedi? | Is it possible to get there on foot? |  | [#5867682](https://tatoeba.org/en/sentences/show/5867682) | Guybrush88 |
+| S67029 | Mi puoi dire come arrivare alla stazione? | Can you tell me how to get to the station? |  | [#2579691](https://tatoeba.org/en/sentences/show/2579691) | Guybrush88 |
+| S67030 | Che ritardo! | What a delay! |  | [#1577602](https://tatoeba.org/en/sentences/show/1577602) | Guybrush88 |
+| S67031 | Siamo in partenza. | We're leaving. |  | [#1330085](https://tatoeba.org/en/sentences/show/1330085) | Guybrush88 |
+| S67032 | La linea è occupata. | The line is busy. | The line's busy. | [#6536916](https://tatoeba.org/en/sentences/show/6536916) | Guybrush88 |
+| S67033 | Non mi ha fermata. | That didn't stop me. |  | [#8102812](https://tatoeba.org/en/sentences/show/8102812) | Guybrush88 |
+| S67034 | La partenza è domani. | The departure is tomorrow. |  | [#11823443](https://tatoeba.org/en/sentences/show/11823443) | Guybrush88 |
+| S67035 | La linea è occupata adesso. | The line is busy now. |  | [#4231900](https://tatoeba.org/en/sentences/show/4231900) | Guybrush88 |
+| S67036 | Tom ha un aereo privato. | Tom has a private airplane. |  | [#5361538](https://tatoeba.org/en/sentences/show/5361538) | Guybrush88 |
+| S67037 | A nessuno piace un ritardo. | Nobody likes a delay. |  | [#8131946](https://tatoeba.org/en/sentences/show/8131946) | Guybrush88 |
+
+## U74 Likes + Opinions: Preferisco (-isc-), amo, odio; mi piacciono for more than one; meglio, migliore; avere ragione
+
+40 sentences picked from 1279 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: preferire (0), opinione (1), interesse (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S74001 | Odio questo tipo di musica. | I hate this kind of music. |  | [#8378865](https://tatoeba.org/en/sentences/show/8378865) | Guybrush88 |
+| S74002 | Odio questo genere di posto. | I hate this kind of place. |  | [#8379319](https://tatoeba.org/en/sentences/show/8379319) | Guybrush88 |
+| S74003 | Odio questo genere di luogo. | I hate this kind of place. |  | [#8379320](https://tatoeba.org/en/sentences/show/8379320) | Guybrush88 |
+| S74004 | Ho torto? | Am I wrong? |  | [#1313548](https://tatoeba.org/en/sentences/show/1313548) | Guybrush88 |
+| S74005 | Ti piacciono? | Do you like them? |  | [#4474721](https://tatoeba.org/en/sentences/show/4474721) | Guybrush88 |
+| S74006 | Che tipo è? | What kind is it? |  | [#2701363](https://tatoeba.org/en/sentences/show/2701363) | Guybrush88 |
+| S74007 | Per quale ragione? | For what reason? |  | [#2773589](https://tatoeba.org/en/sentences/show/2773589) | Guybrush88 |
+| S74008 | Loro ti piacciono? | Do you like them? |  | [#4474723](https://tatoeba.org/en/sentences/show/4474723) | Guybrush88 |
+| S74009 | È così brava? | Is she that good? |  | [#4982778](https://tatoeba.org/en/sentences/show/4982778) | Guybrush88 |
+| S74010 | Chi canta meglio? | Who sings better? | Who sings the best? | [#6142879](https://tatoeba.org/en/sentences/show/6142879) | Guybrush88 |
+| S74011 | Sai la ragione? | Do you know the reason? |  | [#6901654](https://tatoeba.org/en/sentences/show/6901654) | Guybrush88 |
+| S74012 | È bravo, vero? | He's good, isn't he? |  | [#8694311](https://tatoeba.org/en/sentences/show/8694311) | Guybrush88 |
+| S74013 | Ha torto, vero? | He's wrong, isn't he? | She's wrong, isn't she? | [#8694353](https://tatoeba.org/en/sentences/show/8694353) | Guybrush88 |
+| S74014 | È brava, vero? | She's good, isn't she? |  | [#8726856](https://tatoeba.org/en/sentences/show/8726856) | Guybrush88 |
+| S74015 | È migliore, vero? | She's better, isn't she? |  | [#8733958](https://tatoeba.org/en/sentences/show/8733958) | Guybrush88 |
+| S74016 | A chi piacciono? | Who likes them? |  | [#13926853](https://tatoeba.org/en/sentences/show/13926853) | Guybrush88 |
+| S74017 | Vuoi una ragione? | Do you want a reason? |  | [#14084774](https://tatoeba.org/en/sentences/show/14084774) | Guybrush88 |
+| S74018 | Quale libro è meglio? | Which book is better? |  | [#1018702](https://tatoeba.org/en/sentences/show/1018702) | Guybrush88 |
+| S74019 | In cosa sei bravo? | What're you good at? |  | [#2024702](https://tatoeba.org/en/sentences/show/2024702) | Guybrush88 |
+| S74020 | In cosa sei brava? | What're you good at? |  | [#2024703](https://tatoeba.org/en/sentences/show/2024703) | Guybrush88 |
+| S74021 | In cosa è bravo? | What're you good at? |  | [#2024704](https://tatoeba.org/en/sentences/show/2024704) | Guybrush88 |
+| S74022 | Tom ha torto, vero? | Tom is wrong, isn't he? |  | [#3948015](https://tatoeba.org/en/sentences/show/3948015) | Guybrush88 |
+| S74023 | È peggio di prima? | Is it worse than before? |  | [#4921177](https://tatoeba.org/en/sentences/show/4921177) | Guybrush88 |
+| S74024 | Hai qualcosa di meglio? | Do you have anything better? |  | [#5389831](https://tatoeba.org/en/sentences/show/5389831) | Guybrush88 |
+| S74025 | Che tipo di musica? | What kind of music? |  | [#11898100](https://tatoeba.org/en/sentences/show/11898100) | Guybrush88 |
+| S74026 | Quello è il migliore? | Is that the best one? |  | [#13493407](https://tatoeba.org/en/sentences/show/13493407) | Guybrush88 |
+| S74027 | Quella è la migliore? | Is that the best one? |  | [#13493408](https://tatoeba.org/en/sentences/show/13493408) | Guybrush88 |
+| S74028 | Che genere di persona è? | What kind of person is she? |  | [#1331093](https://tatoeba.org/en/sentences/show/1331093) | Guybrush88 |
+| S74029 | Amo viaggiare. | I love traveling. |  | [#848540](https://tatoeba.org/en/sentences/show/848540) | Mauritz |
+| S74030 | Amo ballare. | I love dancing. | I love to dance. | [#2068459](https://tatoeba.org/en/sentences/show/2068459) | Guybrush88 |
+| S74031 | Amo leggere. | I love reading. |  | [#2436695](https://tatoeba.org/en/sentences/show/2436695) | Guybrush88 |
+| S74032 | Preferisco quello. | I like that one better. |  | [#5732538](https://tatoeba.org/en/sentences/show/5732538) | Guybrush88 |
+| S74033 | Preferisco quella. | I like that one better. |  | [#5732540](https://tatoeba.org/en/sentences/show/5732540) | Guybrush88 |
+| S74034 | Preferisco loro. | I like them better. |  | [#5749356](https://tatoeba.org/en/sentences/show/5749356) | Guybrush88 |
+| S74035 | È la realtà. | That's the reality. |  | [#4086163](https://tatoeba.org/en/sentences/show/4086163) | Guybrush88 |
+| S74036 | È molto peggio. | That's much worse. |  | [#6057204](https://tatoeba.org/en/sentences/show/6057204) | Guybrush88 |
+| S74037 | È peggio oggi. | She's worse today. |  | [#11605730](https://tatoeba.org/en/sentences/show/11605730) | Guybrush88 |
+| S74038 | Questa è la realtà. | This is reality. |  | [#3214759](https://tatoeba.org/en/sentences/show/3214759) | Guybrush88 |
+| S74039 | La realtà è bella. | Reality is beautiful. |  | [#8779805](https://tatoeba.org/en/sentences/show/8779805) | Guybrush88 |
+| S74040 | È una buona opinione. | That's a good opinion. |  | [#9710026](https://tatoeba.org/en/sentences/show/9710026) | Guybrush88 |
+
+## U39 Not Sure: Non sono sicuro, non sono sicura. Credo di sì. Forse. Sembra di sì
+
+30 sentences picked from 1043 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+Every new word is in at least 3 sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S39001 | Sembra davvero stanco, vero? | He does look tired, doesn't he? |  | [#8592870](https://tatoeba.org/en/sentences/show/8592870) | Guybrush88 |
+| S39002 | Tom sembra davvero stanco, vero? | Tom does look tired, doesn't he? |  | [#3509906](https://tatoeba.org/en/sentences/show/3509906) | Guybrush88 |
+| S39003 | Sembra davvero difficile! | It looks really hard! |  | [#2357267](https://tatoeba.org/en/sentences/show/2357267) | Guybrush88 |
+| S39004 | Sei sicuro? | Are you sure? | Are you sure about this? | [#4379](https://tatoeba.org/en/sentences/show/4379) | Pharamp |
+| S39005 | Perché ti credo? | Why do I believe you? |  | [#4488406](https://tatoeba.org/en/sentences/show/4488406) | Guybrush88 |
+| S39006 | Lui è sicuro? | Is he sure? |  | [#5234412](https://tatoeba.org/en/sentences/show/5234412) | Guybrush88 |
+| S39007 | Ti possiamo credere? | Can we believe you? |  | [#13354824](https://tatoeba.org/en/sentences/show/13354824) | Guybrush88 |
+| S39008 | Sei sicuro? Perché no? | Are you sure? Why not? |  | [#4108128](https://tatoeba.org/en/sentences/show/4108128) | Guybrush88 |
+| S39009 | Sei sicura? Perché no? | Are you sure? Why not? |  | [#4108129](https://tatoeba.org/en/sentences/show/4108129) | Guybrush88 |
+| S39010 | È sicura? Perché no? | Are you sure? Why not? |  | [#4108133](https://tatoeba.org/en/sentences/show/4108133) | Guybrush88 |
+| S39011 | Mary è sicura, vero? | Mary is sure, isn't she? |  | [#12515928](https://tatoeba.org/en/sentences/show/12515928) | Guybrush88 |
+| S39012 | Possiamo credere a Tom? | Can we believe Tom? |  | [#13344507](https://tatoeba.org/en/sentences/show/13344507) | cost_ |
+| S39013 | Sembra troppo semplice da credere. | It seems too simple to believe. |  | [#7372022](https://tatoeba.org/en/sentences/show/7372022) | Guybrush88 |
+| S39014 | Ti credo. | I believe you. |  | [#380765](https://tatoeba.org/en/sentences/show/380765) | Pharamp |
+| S39015 | Probabilmente no. | Probably not. |  | [#4564638](https://tatoeba.org/en/sentences/show/4564638) | Guybrush88 |
+| S39016 | Credo in lui. | I believe in him. |  | [#380764](https://tatoeba.org/en/sentences/show/380764) | Pharamp |
+| S39017 | Probabilmente hai sete. | You're probably thirsty. |  | [#3251735](https://tatoeba.org/en/sentences/show/3251735) | Guybrush88 |
+| S39018 | Probabilmente ha sete. | You're probably thirsty. |  | [#3251736](https://tatoeba.org/en/sentences/show/3251736) | Guybrush88 |
+| S39019 | Davvero? Perché? | Really? Why? |  | [#617647](https://tatoeba.org/en/sentences/show/617647) | rado |
+| S39020 | Ragazzi... davvero? | Guys... really? |  | [#4569504](https://tatoeba.org/en/sentences/show/4569504) | Guybrush88 |
+| S39021 | Sai davvero nuotare? | Can you really swim? |  | [#1246561](https://tatoeba.org/en/sentences/show/1246561) | Guybrush88 |
+| S39022 | È davvero possibile? | Is that really possible? | Is it really possible? | [#1538642](https://tatoeba.org/en/sentences/show/1538642) | Guybrush88 |
+| S39023 | È davvero necessario? | Is that really necessary? | Is it really necessary? | [#3750959](https://tatoeba.org/en/sentences/show/3750959) | Guybrush88 |
+| S39024 | Sono davvero amici? | Are they really friends? |  | [#4241368](https://tatoeba.org/en/sentences/show/4241368) | Guybrush88 |
+| S39025 | Stai davvero bene? | Are you really OK? |  | [#4611157](https://tatoeba.org/en/sentences/show/4611157) | Guybrush88 |
+| S39026 | Sta davvero bene? | Are you really OK? |  | [#4611159](https://tatoeba.org/en/sentences/show/4611159) | Guybrush88 |
+| S39027 | Sei davvero tu? | Is that really you? |  | [#5051817](https://tatoeba.org/en/sentences/show/5051817) | Guybrush88 |
+| S39028 | È davvero lei? | Is that really you? |  | [#5051818](https://tatoeba.org/en/sentences/show/5051818) | Guybrush88 |
+| S39029 | Siete davvero voi? | Is that really you? |  | [#5051819](https://tatoeba.org/en/sentences/show/5051819) | Guybrush88 |
+| S39030 | È davvero importante? | Is that really important? |  | [#5098675](https://tatoeba.org/en/sentences/show/5098675) | Guybrush88 |
+
+## U68 Announcements: Signore e signori, attenzione: the words of an announcement; il treno è in ritardo; per motivi di sicurezza
+
+30 sentences picked from 102 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: signori (0), passeggeri (1), avviso (0), metropolitana (1), causa (0), motivo (2), direzione (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S68001 | Posso entrare? | Can I come in? | Can't I come in?; Might I come in?; May I come in? | [#427919](https://tatoeba.org/en/sentences/show/427919) | Pharamp |
+| S68002 | Siete passeggeri? | Are you passengers? |  | [#13453318](https://tatoeba.org/en/sentences/show/13453318) | Guybrush88 |
+| S68003 | Da quale direzione? | From which direction? |  | [#969834](https://tatoeba.org/en/sentences/show/969834) | Guybrush88 |
+| S68004 | Quanto costa entrare? | How much does it cost to get in? |  | [#2706731](https://tatoeba.org/en/sentences/show/2706731) | Guybrush88 |
+| S68005 | Hai un passaporto? | Do you have a passport? |  | [#4508963](https://tatoeba.org/en/sentences/show/4508963) | Guybrush88 |
+| S68006 | Ha un passaporto? | Do you have a passport? | Does he have a passport?; Does she have a passport? | [#4508965](https://tatoeba.org/en/sentences/show/4508965) | Guybrush88 |
+| S68007 | Avete un passaporto? | Do you have a passport? |  | [#4508967](https://tatoeba.org/en/sentences/show/4508967) | Guybrush88 |
+| S68008 | Come possiamo entrare? | How can we get in? |  | [#5286784](https://tatoeba.org/en/sentences/show/5286784) | Guybrush88 |
+| S68009 | Dov'è la valigia di Tom? | Where's Tom's suitcase? |  | [#3838851](https://tatoeba.org/en/sentences/show/3838851) | Guybrush88 |
+| S68010 | Quale valigia è di Tom? | Which suitcase is Tom's? |  | [#4019972](https://tatoeba.org/en/sentences/show/4019972) | Guybrush88 |
+| S68011 | Dov'è la stazione della metropolitana? | Where's the metro station? |  | [#10626253](https://tatoeba.org/en/sentences/show/10626253) | Guybrush88 |
+| S68012 | In che direzione è la spiaggia? | Which way is the beach? |  | [#702837](https://tatoeba.org/en/sentences/show/702837) | Guybrush88 |
+| S68013 | Ordine, per favore. | Order, please. |  | [#4560441](https://tatoeba.org/en/sentences/show/4560441) | Guybrush88 |
+| S68014 | Chiama la sicurezza! | Call security! |  | [#1687486](https://tatoeba.org/en/sentences/show/1687486) | Guybrush88 |
+| S68015 | Chiami la sicurezza! | Call security! |  | [#1687488](https://tatoeba.org/en/sentences/show/1687488) | Guybrush88 |
+| S68016 | È un ordine! | That's an order! |  | [#2466309](https://tatoeba.org/en/sentences/show/2466309) | Guybrush88 |
+| S68017 | Ho un annuncio. | I have an announcement. |  | [#5537187](https://tatoeba.org/en/sentences/show/5537187) | Guybrush88 |
+| S68018 | Ha il controllo. | He's in control. |  | [#9347194](https://tatoeba.org/en/sentences/show/9347194) | Guybrush88 |
+| S68019 | Il motivo è chiaro. | The reason is clear. |  | [#955932](https://tatoeba.org/en/sentences/show/955932) | Guybrush88 |
+| S68020 | Quello è un ordine! | That's an order! |  | [#2466310](https://tatoeba.org/en/sentences/show/2466310) | Guybrush88 |
+| S68021 | Tom ha il controllo. | Tom is in control. |  | [#2818951](https://tatoeba.org/en/sentences/show/2818951) | Guybrush88 |
+| S68022 | Il controllo è tutto. | Control is everything. |  | [#5055750](https://tatoeba.org/en/sentences/show/5055750) | Guybrush88 |
+| S68023 | Io ho un annuncio. | I have an announcement. |  | [#5537188](https://tatoeba.org/en/sentences/show/5537188) | Guybrush88 |
+| S68024 | La sicurezza è importante. | Safety is important. |  | [#8249291](https://tatoeba.org/en/sentences/show/8249291) | Guybrush88 |
+| S68025 | Ho un annuncio da fare. | I have an announcement to make. | I've got an announcement to make. | [#2172403](https://tatoeba.org/en/sentences/show/2172403) | Guybrush88 |
+| S68026 | Quella valigia non è loro. | That suitcase isn't theirs. |  | [#2577318](https://tatoeba.org/en/sentences/show/2577318) | Guybrush88 |
+| S68027 | Il motivo di questo è semplice. | The reason for this is plain. |  | [#955953](https://tatoeba.org/en/sentences/show/955953) | Guybrush88 |
+| S68028 | Tu hai un passaporto? | Do you have a passport? |  | [#4508964](https://tatoeba.org/en/sentences/show/4508964) | Guybrush88 |
+| S68029 | Lei ha un passaporto? | Do you have a passport? | Does she have a passport? | [#4508966](https://tatoeba.org/en/sentences/show/4508966) | Guybrush88 |
+| S68030 | Voi avete un passaporto? | Do you have a passport? |  | [#4508968](https://tatoeba.org/en/sentences/show/4508968) | Guybrush88 |
+
+## U69 Instructions: Ascolta, guarda, rispondi, scegli: the tu command; leggete, scrivete: the voi command
+
+40 sentences picked from 372 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: completa (0), esercizio (0), attività (0), lezione (2), gruppi (0), coppia (0), seguire (0), mettere (1), chiudere (0), indicare (0), punto (2), inserire (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S69001 | Apri la bocca e chiudi gli occhi. | Open your mouth and close your eyes. |  | [#387009](https://tatoeba.org/en/sentences/show/387009) | Pharamp |
+| S69002 | Abbiamo scelta? | Do we have a choice? |  | [#2022728](https://tatoeba.org/en/sentences/show/2022728) | Guybrush88 |
+| S69003 | Quale scegli? | Which one do you choose? |  | [#11945517](https://tatoeba.org/en/sentences/show/11945517) | Guybrush88 |
+| S69004 | Devo aprire tutto? | Must I open everything? |  | [#729609](https://tatoeba.org/en/sentences/show/729609) | Guybrush88 |
+| S69005 | Posso usare questo? | Can I use this? |  | [#835559](https://tatoeba.org/en/sentences/show/835559) | riccioberto |
+| S69006 | Perché non rispondi? | Why don't you answer? |  | [#1876935](https://tatoeba.org/en/sentences/show/1876935) | sixtynine |
+| S69007 | Noi abbiamo scelta? | Do we have a choice? |  | [#2022729](https://tatoeba.org/en/sentences/show/2022729) | Guybrush88 |
+| S69008 | Che musica ascolta? | What music do you listen to? |  | [#2255092](https://tatoeba.org/en/sentences/show/2255092) | Guybrush88 |
+| S69009 | Perché ascolta Tom? | Why do you listen to Tom? |  | [#3671376](https://tatoeba.org/en/sentences/show/3671376) | Guybrush88 |
+| S69010 | Guarda il calcio? | Do you watch soccer? |  | [#4532361](https://tatoeba.org/en/sentences/show/4532361) | Guybrush88 |
+| S69011 | Lo posso usare? | May I use that? | May I use it? | [#4642218](https://tatoeba.org/en/sentences/show/4642218) | Guybrush88 |
+| S69012 | Cosa posso usare? | What can I use? |  | [#4763020](https://tatoeba.org/en/sentences/show/4763020) | Guybrush88 |
+| S69013 | Chi ascolta Tom? | Who listens to Tom? |  | [#5094851](https://tatoeba.org/en/sentences/show/5094851) | Guybrush88 |
+| S69014 | Che scelta abbiamo? | What choice do we have? |  | [#5677957](https://tatoeba.org/en/sentences/show/5677957) | Guybrush88 |
+| S69015 | Che gonna scegli? | Which skirt would you choose? |  | [#6606347](https://tatoeba.org/en/sentences/show/6606347) | Guybrush88 |
+| S69016 | Come apri questo? | How do you open this? |  | [#10149402](https://tatoeba.org/en/sentences/show/10149402) | Guybrush88 |
+| S69017 | In che modo? | In what way? |  | [#10542421](https://tatoeba.org/en/sentences/show/10542421) | Guybrush88 |
+| S69018 | A che ora chiudi? | What time do you close? |  | [#622150](https://tatoeba.org/en/sentences/show/622150) | Guybrush88 |
+| S69019 | Lo posso mettere qui? | May I put it down here? |  | [#1271945](https://tatoeba.org/en/sentences/show/1271945) | ValentinaM |
+| S69020 | È l'ultima lezione? | Is it the last lesson? |  | [#1700281](https://tatoeba.org/en/sentences/show/1700281) | Guybrush88 |
+| S69021 | Posso aprire questa scatola? | Can I open this box? | May I open this box? | [#2486283](https://tatoeba.org/en/sentences/show/2486283) | Guybrush88 |
+| S69022 | Posso aprire la scatola? | May I open the box? |  | [#2689304](https://tatoeba.org/en/sentences/show/2689304) | Guybrush88 |
+| S69023 | Perché non mi rispondi? | Why don't you answer me? |  | [#3191224](https://tatoeba.org/en/sentences/show/3191224) | Guybrush88 |
+| S69024 | Lei guarda il calcio? | Do you watch soccer? |  | [#4532362](https://tatoeba.org/en/sentences/show/4532362) | Guybrush88 |
+| S69025 | A che ora apri? | What time do you open? |  | [#5387845](https://tatoeba.org/en/sentences/show/5387845) | Guybrush88 |
+| S69026 | C'è un terzo modo? | Is there a third way? |  | [#5754045](https://tatoeba.org/en/sentences/show/5754045) | Guybrush88 |
+| S69027 | Tom guarda il calcio? | Does Tom watch soccer? |  | [#10655941](https://tatoeba.org/en/sentences/show/10655941) | Guybrush88 |
+| S69028 | Di cosa parla il testo? | What's the text about? |  | [#4275718](https://tatoeba.org/en/sentences/show/4275718) | Guybrush88 |
+| S69029 | Perché non rispondi al telefono? | Why aren't you answering the phone? |  | [#5828068](https://tatoeba.org/en/sentences/show/5828068) | dnnywld |
+| S69030 | È sempre in questo modo? | Is it always this way? |  | [#6142721](https://tatoeba.org/en/sentences/show/6142721) | Guybrush88 |
+| S69031 | Di che cosa parla il testo? | What's the text about? |  | [#4275720](https://tatoeba.org/en/sentences/show/4275720) | Guybrush88 |
+| S69032 | Che tipo di testo è questo? | What kind of text is this? |  | [#13455121](https://tatoeba.org/en/sentences/show/13455121) | Guybrush88 |
+| S69033 | Metti il latte nel tuo tè? | Do you put milk in your tea? |  | [#13766508](https://tatoeba.org/en/sentences/show/13766508) | Guybrush88 |
+| S69034 | A che ora avete la prossima lezione? | At which time do you have the next lesson? |  | [#839447](https://tatoeba.org/en/sentences/show/839447) | Guybrush88 |
+| S69035 | Tu metti il latte nel tuo tè? | Do you put milk in your tea? |  | [#13766509](https://tatoeba.org/en/sentences/show/13766509) | Guybrush88 |
+| S69036 | Scegli qualcosa. | Choose something. |  | [#2863886](https://tatoeba.org/en/sentences/show/2863886) | ghetta |
+| S69037 | Capisco il punto. | I get the point. |  | [#2481711](https://tatoeba.org/en/sentences/show/2481711) | Guybrush88 |
+| S69038 | Chiudi il libro. | Close the book. | Shut the book. | [#2555767](https://tatoeba.org/en/sentences/show/2555767) | Guybrush88 |
+| S69039 | Metti la foto. | Add the picture. |  | [#2848926](https://tatoeba.org/en/sentences/show/2848926) | Guybrush88 |
+| S69040 | È il punto. | That's the point. |  | [#6065172](https://tatoeba.org/en/sentences/show/6065172) | Guybrush88 |
+
+## U75 Town + Region: Il comune, la regione, la provincia: how Italy is divided; la gente takes a singular verb
+
+30 sentences picked from 112 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: comune (0), regione (0), provincia (0), cittadini (2), territorio (0), sede (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S75001 | Questa è una comunità internazionale. | This is an international community. |  | [#5324809](https://tatoeba.org/en/sentences/show/5324809) | Guybrush88 |
+| S75002 | C'è abbastanza gente? | Are there enough people? |  | [#4534818](https://tatoeba.org/en/sentences/show/4534818) | Guybrush88 |
+| S75003 | Chi è questa gente? | Who are these people? |  | [#3849907](https://tatoeba.org/en/sentences/show/3849907) | Guybrush88 |
+| S75004 | Chi è quella gente? | Who are those people? |  | [#3849908](https://tatoeba.org/en/sentences/show/3849908) | Guybrush88 |
+| S75005 | In quale gruppo sei? | Which group are you in? |  | [#12253980](https://tatoeba.org/en/sentences/show/12253980) | Guybrush88 |
+| S75006 | In quale gruppo è? | Which group are you in? |  | [#12253981](https://tatoeba.org/en/sentences/show/12253981) | Guybrush88 |
+| S75007 | In quale gruppo siete? | Which group are you in? |  | [#12253982](https://tatoeba.org/en/sentences/show/12253982) | Guybrush88 |
+| S75008 | Di quale paese sei cittadino? | What country are you a citizen of? |  | [#3072131](https://tatoeba.org/en/sentences/show/3072131) | Guybrush88 |
+| S75009 | Di quale paese è cittadino? | What country are you a citizen of? |  | [#3072133](https://tatoeba.org/en/sentences/show/3072133) | Guybrush88 |
+| S75010 | Questo è un treno locale? | Is this a local train? |  | [#3498820](https://tatoeba.org/en/sentences/show/3498820) | Guybrush88 |
+| S75011 | Mangia locale. | Eat local. |  | [#4581558](https://tatoeba.org/en/sentences/show/4581558) | Guybrush88 |
+| S75012 | Mangi locale. | Eat local. |  | [#4581560](https://tatoeba.org/en/sentences/show/4581560) | Guybrush88 |
+| S75013 | Siamo cittadini. | We're citizens. |  | [#13482297](https://tatoeba.org/en/sentences/show/13482297) | Guybrush88 |
+| S75014 | Sono un cittadino. | I'm a citizen. |  | [#2816058](https://tatoeba.org/en/sentences/show/2816058) | Guybrush88 |
+| S75015 | Noi siamo cittadini. | We're citizens. |  | [#13482298](https://tatoeba.org/en/sentences/show/13482298) | Guybrush88 |
+| S75016 | Oggi è festa nazionale. | Today is a national holiday. |  | [#1504707](https://tatoeba.org/en/sentences/show/1504707) | Guybrush88 |
+| S75017 | Siamo una comunità aperta. | We are an open community. |  | [#3317378](https://tatoeba.org/en/sentences/show/3317378) | Guybrush88 |
+| S75018 | Oggi è una festa nazionale. | Today is a national holiday. |  | [#384554](https://tatoeba.org/en/sentences/show/384554) | Pharamp |
+| S75019 | Vive in una comunità chiusa. | He lives in a closed community. |  | [#2213696](https://tatoeba.org/en/sentences/show/2213696) | Guybrush88 |
+| S75020 | Buona Giornata Internazionale della Donna! | Happy International Women's Day! |  | [#4965407](https://tatoeba.org/en/sentences/show/4965407) | Guybrush88 |
+| S75021 | L'inglese è una lingua internazionale. | English is an international language. |  | [#373788](https://tatoeba.org/en/sentences/show/373788) | Pharamp |
+| S75022 | È la settimana nazionale del libro. | It's the national week of the book. | It is the national week of the book. | [#1294584](https://tatoeba.org/en/sentences/show/1294584) | Guybrush88 |
+| S75023 | La gente ascolta ancora? | Do people still listen? |  | [#6675316](https://tatoeba.org/en/sentences/show/6675316) | Guybrush88 |
+| S75024 | Vuoi entrare nel mio gruppo? | Do you want to join my group? |  | [#2945588](https://tatoeba.org/en/sentences/show/2945588) | Guybrush88 |
+| S75025 | Da dove viene quella gente? | Where are those people from? |  | [#5098759](https://tatoeba.org/en/sentences/show/5098759) | Guybrush88 |
+| S75026 | Perché la gente lo fa? | Why do people do it? |  | [#10532151](https://tatoeba.org/en/sentences/show/10532151) | Guybrush88 |
+| S75027 | Perché alla gente piace cantare? | Why do people like singing? |  | [#10813146](https://tatoeba.org/en/sentences/show/10813146) | WM3DAS |
+| S75028 | Perché la gente va al cinema? | Why do people go to the movies? |  | [#2735835](https://tatoeba.org/en/sentences/show/2735835) | Guybrush88 |
+| S75029 | È quello che fa la gente? | Is that what people do? |  | [#4739692](https://tatoeba.org/en/sentences/show/4739692) | Guybrush88 |
+| S75030 | Perché la gente lo chiama Tom? | Why do people call him Tom? |  | [#5644863](https://tatoeba.org/en/sentences/show/5644863) | Guybrush88 |
