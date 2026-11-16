@@ -3,7 +3,12 @@
 // public/sounds/<name>.wav and audio.js plays the files through audio elements, because an iPhone (iPhone 11,
 // iOS 27.2, Home Screen web app) never sounded the live Web Audio ones. Change a recipe here, then render again.
 // No imports: the render script runs this file's text inside a browser page.
-export const CUE_LEVEL = 0.32 // the bus gain, rendered into the files: quiet, well under the levelled recordings
+export const CUE_LEVEL = 0.32 // the bus gain the recipes are rendered at, before levelling
+// Levelling (Dan, 2026-11-16: too quiet on a real iPad and iPhone): render-cues.mjs brings each file to CUE_LUFS,
+// 6 dB under the lesson recordings (levelled to -16 LUFS, scripts/lib/loudness.mjs), with no peak above CUE_PEAK_DB.
+// A sound whose peak reaches the cap first stays as loud as the cap allows. Before this they sat at -33 to -41 LUFS.
+export const CUE_LUFS = -22
+export const CUE_PEAK_DB = -1
 
 // A struck tone: partials (frequency ratio, level), quick attack, exponential decay. The Sound Lab's `tone`.
 export function cueTone(c, dest, freq, { at = 0, partials = [[1, 1]], attack = 0.004, decay = 0.25, level = 0.5, type = 'sine', lowpass = null, glide = null } = {}) {

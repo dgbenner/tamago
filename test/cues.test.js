@@ -36,14 +36,16 @@ const spoken = []
 globalThis.speechSynthesis = { get speaking() { return voiceSpeaking }, pending: false, getVoices: () => [], cancel() {}, speak(u) { spoken.push(u) } }
 globalThis.SpeechSynthesisUtterance = class { constructor(t) { this.text = t } }
 const { cue, setCues, CUE_NAMES, cueFile, cueStatus, lastCueName, play, stop, unlock, MAX_PLAYERS } = await import('../src/lib/audio.js')
-const { CUES, CUE_LEVEL } = await import('../src/lib/cue-recipes.js')
+const { CUES, CUE_LEVEL, CUE_LUFS, CUE_PEAK_DB } = await import('../src/lib/cue-recipes.js')
 const el = (name) => made.find((p) => p.src === cueFile(name))
 const quiet = () => { for (const p of made) p.paused = true }
 
 test('every pick has a recipe and a rendered file', () => {
   assert.deepEqual([...CUE_NAMES].sort(), ['button', 'correct', 'incorrect', 'match', 'slot', 'start'])
   assert.deepEqual(Object.keys(CUES).sort(), [...CUE_NAMES].sort())
-  assert.ok(CUE_LEVEL <= 0.4, 'kept well under the recordings')
+  assert.ok(CUE_LEVEL <= 0.4)
+  assert.ok(CUE_LUFS <= -20 && CUE_LUFS >= -26, 'levelled to be heard on a phone speaker, still under the recordings (-16 LUFS)')
+  assert.ok(CUE_PEAK_DB <= -1, 'never clips')
   for (const name of CUE_NAMES) {
     const path = `public${cueFile(name)}`
     assert.ok(existsSync(path), `${path} is missing: node scripts/render-cues.mjs`)
@@ -53,7 +55,7 @@ test('every pick has a recipe and a rendered file', () => {
     assert.ok(seconds > 0.05 && seconds < 0.7, `${name} runs ${seconds.toFixed(2)} s`)
     let peak = 0
     for (let i = 44; i + 1 < wav.length; i += 2) peak = Math.max(peak, Math.abs(wav.readInt16LE(i)))
-    assert.ok(peak > 1500 && peak < 32767 * 0.4, `${name} peaks at ${peak}: audible, and under the recordings`)
+    assert.ok(peak > 32767 * 0.3 && peak <= Math.ceil(32767 * 10 ** (CUE_PEAK_DB / 20)), `${name} peaks at ${peak}: levelled (node scripts/render-cues.mjs), never clipping`)
   }
 })
 
