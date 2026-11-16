@@ -55,7 +55,9 @@ async function run(name) {
     window.Audio = function Audio(...args) {
       window.__audioPlayers++
       const el = new Real(...args)
-      el.addEventListener('playing', () => heard('audio element'))
+      // The interface sounds are files in /sounds played by elements of their own (2026-11-15): counted apart, so the
+      // one-sound-per-tap checks below still watch the language alone.
+      el.addEventListener('playing', () => { if (/\/sounds\//.test(el.src)) window.__cueSounds = (window.__cueSounds ?? 0) + 1; else heard('audio element') })
       return el
     }
     window.Audio.prototype = Real.prototype
@@ -241,6 +243,9 @@ async function run(name) {
     at('counting audio players')
     const players = await page.evaluate(() => window.__audioPlayers)
     if (players > MAX_AUDIO_PLAYERS) throw new Error(`the page made ${players} audio players (at most ${MAX_AUDIO_PLAYERS})`)
+    at('checking the interface sounds')
+    const cues = await page.evaluate(() => window.__cueSounds ?? 0)
+    if (cues < 1) throw new Error('no interface sound played through its audio element during the lesson')
     if (!checked.recording) throw new Error('no question had a recording to check the sound on')
     if (!checked.voice) throw new Error('no question had a spoken sentence to check the sound on')
 

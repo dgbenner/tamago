@@ -15,7 +15,7 @@
 //      new sentence goes the moment the old one reports it has stopped (its end or error event), not after a set
 //      wait: the first fix waited 150 ms and, when the cancel took longer than that on a phone, lost the sentence
 //      and said it again 0.9 s later.
-export const MAX_PLAYERS = 12
+export const MAX_PLAYERS = 12 // every audio element the page makes: the interface sounds' six (below) and the recordings' six
 export const MAX_DECODED = 36 // decoded recordings kept ready: about three questions' worth, with room
 export const CANCEL_LIMIT = 400 // ms: a cancel that still hasn't reported by then is taken as done
 export const DROPPED_AFTER = 300 // ms with no start and an idle voice: the sentence was dropped, say it again
@@ -108,7 +108,7 @@ function stopSound() {
 // ---- Recordings through audio elements: the fallback, and slow playback ----
 const players = new Map() // recording file to its player, the one used longest ago first
 const spare = [] // players made ready by the first tap, not yet given a recording
-let made = 0
+let made = 0 // recording players made; never more than REC_PLAYERS
 function newPlayer() {
   made++
   const el = new Audio()
@@ -120,7 +120,7 @@ function playerFor(file) {
   if (el) players.delete(file) // set again below, as the most recently used
   else {
     if (spare.length) el = spare.pop()
-    else if (made < MAX_PLAYERS) el = newPlayer()
+    else if (made < REC_PLAYERS) el = newPlayer()
     else {
       const [oldest, player] = players.entries().next().value
       players.delete(oldest)
@@ -153,32 +153,52 @@ export function unlock() {
       silent.start()
     } catch { /* the context will start with the first real sound */ }
   }
-  while (made < MAX_PLAYERS) spare.push(newPlayer())
+  while (made < REC_PLAYERS) spare.push(newPlayer())
   for (const el of [...spare, ...players.values()]) if (el.paused) el.load?.()
+  cuePlayers()
 }
 if (typeof document !== 'undefined') for (const type of ['touchend', 'pointerup', 'click', 'keydown']) document.addEventListener(type, unlock, true)
 
 // ---- Interface sounds (Dan, 2026-11-15; picked in the Sound Lab, /lab/sounds) ----
-// Four soft sounds made in Web Audio, nothing licensed: start (tapping a circle to begin its lesson), button (Check
-// when right, Continue, Next Lesson), match (a pair matched), slot (a word chip landing in the answer). Never on a
-// wrong answer. Quiet (CUE_LEVEL, well under the levelled recordings) and short, on a bus of their own:
-//   - one is skipped while a recording or the device voice is going (anythingPlaying), and any course sound that
-//     starts cuts them off at once (play, speakLine, speakAll and stop call hushCues), so none sits over the language;
-//   - the Sounds setting turns them all off (setCues, from App), and so does reduced motion;
-//   - the ring switch: an iPhone on iOS 16.4 or later has the page in the playback session (main.jsx), so lessons are
-//     heard on silent, and Safari offers no way to read the switch; there they follow the setting only. An older
-//     iPhone gets a context of their own, which the switch silences, as it would any page's Web Audio.
-export const CUE_LEVEL = 0.32
+// Six soft sounds, nothing licensed: start (tapping a circle to begin its lesson), button (Continue, Next Lesson),
+// match (a pair matched), slot (a word chip landing in the answer), correct and incorrect (on Check).
+// They are files played through audio elements (2026-11-15). They used to be made live in Web Audio, and on a real
+// iPhone (iPhone 11, iOS 27.2, Home Screen web app) none was ever heard while the lesson's voice played fine, after
+// one round of fixes to the live path. So each recipe (cue-recipes.js) is rendered once to public/sounds/<name>.wav
+// (scripts/render-cues.mjs, at the level the live bus had) and played by an audio element, the path that phone plays.
+//   - Each sound keeps one element of its own, loaded by the first tap, so it starts at once and restarts cleanly.
+//     The six count toward MAX_PLAYERS; recordings share the rest (REC_PLAYERS).
+//   - One is skipped while a recording or the device voice is going (languagePlaying), and any course sound that
+//     starts cuts them off at once (play, speakLine, speakAll and playOutside call hushCues), so none sits over the
+//     language; stop() leaves them, since it runs on every question change.
+//   - The Sounds setting turns them all off (setCues, from App), and nothing else does. Reduce Motion is about
+//     animation only (Dan, 2026-11-15): it used to mute them too, which on a device with Reduce Motion on looked
+//     exactly like broken sound.
+//   - The ring switch: with the page in the playback session (main.jsx, iOS 16.4 on) they are heard on silent like
+//     the lesson; on an older iPhone the switch silences audio elements' sounds as it does any page's.
+export const CUE_NAMES = ['start', 'button', 'match', 'slot', 'correct', 'incorrect']
+export const cueFile = (name) => `/sounds/${name}.wav`
+const REC_PLAYERS = MAX_PLAYERS - CUE_NAMES.length
 let cuesOn = true
 export const setCues = (on) => { cuesOn = Boolean(on) }
-let cueCtx // undefined: not tried; null: no Web Audio here
-let cueBus = null
-const cueContext = () => {
-  if (cueCtx === undefined) {
-    const Ctor = typeof window !== 'undefined' ? window.AudioContext ?? window.webkitAudioContext : null
-    try { cueCtx = context() ?? (Ctor ? new Ctor() : null) } catch { cueCtx = null }
+let cueEls = null // name to its audio element, made by the first tap (or the first sound)
+let cueError = null // the last thing that went wrong, for the Developer page
+const noteCueError = (name, e) => { cueError = { cue: name, error: [e?.name, e?.message].filter(Boolean).join(': ') || String(e), at: Date.now() } }
+function cuePlayers() {
+  if (cueEls) return cueEls
+  if (typeof Audio === 'undefined') { noteCueError('all', { name: 'NoAudioElement', message: 'this browser has no Audio' }); return null }
+  cueEls = new Map()
+  for (const name of CUE_NAMES) {
+    try {
+      const el = new Audio()
+      el.preload = 'auto'
+      el.src = cueFile(name)
+      el.addEventListener?.('error', () => noteCueError(name, { name: 'MediaError', message: `code ${el.error?.code ?? '?'} ${el.error?.message ?? ''}`.trim() }))
+      el.load?.()
+      cueEls.set(name, el)
+    } catch (e) { noteCueError(name, e) }
   }
-  return cueCtx
+  return cueEls
 }
 // Answer sounds (Dan, 2026-11-15): the correct and incorrect sounds play the instant Check is pressed and the voice reads
 // the sentence at its usual moment over their tail; the language starting doesn't cut them off (they're short), nor
@@ -186,41 +206,13 @@ const cueContext = () => {
 export const ANSWER_CUES = new Set(['correct', 'incorrect'])
 const ANSWER_CUE_MS = 450
 let answerUntil = 0
-function hushCues(language = true) {
-  if (!cueBus) return
+function hushCues(language = true, but = null) {
+  if (!cueEls) return
   if (language && Date.now() < answerUntil) return
-  const c = cueCtx, bus = cueBus
-  cueBus = null
-  try { bus.gain.setTargetAtTime(0, c.currentTime, 0.006); setTimeout(() => bus.disconnect(), 120) } catch { /* gone already */ }
-}
-const reducedMotion = () => typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
-function cueTone(c, dest, freq, { at = 0, partials = [[1, 1]], attack = 0.004, decay = 0.25, level = 0.5, type = 'sine', lowpass = null, glide = null } = {}) {
-  const t = c.currentTime + at
-  let node = dest
-  if (lowpass) { const f = c.createBiquadFilter(); f.type = 'lowpass'; f.frequency.value = lowpass; f.connect(dest); node = f }
-  for (const [ratio, lvl] of partials) {
-    const o = c.createOscillator(), g = c.createGain(), d = decay / Math.sqrt(ratio)
-    o.type = type
-    o.frequency.setValueAtTime(freq * ratio, t)
-    if (glide) o.frequency.exponentialRampToValueAtTime(glide * ratio, t + decay * 0.8)
-    g.gain.setValueAtTime(0.0001, t)
-    g.gain.exponentialRampToValueAtTime(level * lvl, t + attack)
-    g.gain.exponentialRampToValueAtTime(0.0001, t + attack + d)
-    o.connect(g).connect(node)
-    o.start(t); o.stop(t + attack + d + 0.05)
-  }
-}
-// The Sound Lab's recipes for Dan's four picks, unchanged.
-export const CUES = {
-  start: (c, d) => { for (const f of [261.63, 329.63, 392]) cueTone(c, d, f, { attack: 0.08, decay: 0.5, level: 0.16, lowpass: 1800 }) }, // Soft swell
-  button: (c, d) => cueTone(c, d, 160, { type: 'triangle', decay: 0.12, level: 0.6, lowpass: 900 }), // Warm thump
-  match: (c, d) => { cueTone(c, d, 523.25, { partials: [[1, 1], [4, 0.2]], decay: 0.3, level: 0.4 }); cueTone(c, d, 659.25, { at: 0.08, partials: [[1, 1], [4, 0.2]], decay: 0.4, level: 0.4 }) }, // Two marimba notes
-  slot: (c, d) => { cueTone(c, d, 1200, { decay: 0.04, level: 0.18 }); cueTone(c, d, 180, { decay: 0.06, level: 0.35, lowpass: 600 }) }, // Pebble
-  // Dan's picks for answers (2026-11-15): correct 6 Warm lift, incorrect 4 Muted minor.
-  correct: (c, d) => cueTone(c, d, 587.33, { glide: 784, attack: 0.006, decay: 0.2, level: 0.32, lowpass: 2400 }), // Warm lift
-  incorrect: (c, d) => { cueTone(c, d, 220, { attack: 0.01, decay: 0.28, level: 0.3, lowpass: 1100 }); cueTone(c, d, 261.63, { attack: 0.01, decay: 0.28, level: 0.26, lowpass: 1100 }) }, // Muted minor
+  for (const el of cueEls.values()) if (el !== but && !el.paused) el.pause()
 }
 let lastCue = null
+let cuePlays = 0 // sounds an element has reported as really playing
 export const lastCueName = () => lastCue
 if (typeof window !== 'undefined' && window.__tamagoAudio) window.__tamagoAudio.lastCue = lastCueName // for the browser checks
 // Is the language being heard? For the interface sounds only. Safari's own "speaking" flag is not enough on an iPhone:
@@ -231,35 +223,33 @@ function languagePlaying() {
   if (sounding || [...players.values(), ...outside].some((el) => !el.paused && !el.ended)) return true
   return Boolean(typeof window !== 'undefined' && window.speechSynthesis?.speaking) && live.size > 0
 }
-// The state of the page's Web Audio, for the Developer page: "running" when interface sounds can be heard.
-export const audioState = () => (cueCtx ?? ctx)?.state ?? (cueCtx === null ? 'none' : 'not started')
-export const CUE_WAIT = 250 // ms: a sound that had to wake the context plays only if it wakes this soon
+// The state of the page's Web Audio (recordings only now), for the Developer page.
+export const audioState = () => ctx?.state ?? (ctx === null ? 'none' : 'not started')
+// The interface sounds' state, for the Developer page: no real phone is at hand when these are changed, so the page
+// says what the sound system did. ready: files loaded far enough to play; heard: plays an element reported as playing.
+export function cueStatus() {
+  const els = cueEls ? [...cueEls.values()] : []
+  return {
+    on: cuesOn, players: els.length, ready: els.filter((el) => el.readyState >= 2).length,
+    session: (typeof navigator !== 'undefined' && navigator.audioSession?.type) || 'none',
+    last: lastCue, heard: cuePlays, error: cueError,
+  }
+}
 export function cue(name) {
   const answerCue = ANSWER_CUES.has(name)
-  if (!cuesOn || reducedMotion() || !CUES[name] || (!answerCue && languagePlaying())) return false
-  const c = cueContext()
-  if (!c) return false
-  const sound = () => {
-    try {
-      hushCues(false)
-      cueBus = c.createGain()
-      answerUntil = answerCue ? Date.now() + ANSWER_CUE_MS : 0
-      cueBus.gain.value = CUE_LEVEL
-      cueBus.connect(c.destination)
-      CUES[name](c, cueBus)
-    } catch { /* no sound this time */ }
-  }
+  if (!cuesOn || !CUE_NAMES.includes(name) || (!answerCue && languagePlaying())) return false
+  const el = cuePlayers()?.get(name)
+  if (!el) return false
+  hushCues(false, el) // one interface sound at a time
+  answerUntil = answerCue ? Date.now() + ANSWER_CUE_MS : 0
   lastCue = name
-  if (c.state === 'running') { sound(); return true }
-  // iOS puts the context to sleep (suspended, or interrupted after the device voice or another app took the sound).
-  // Notes scheduled on a sleeping context are never heard, so wake it in this tap and play once it is running.
-  const asked = Date.now()
   try {
-    const waking = c.resume?.()
-    if (typeof waking?.then !== 'function') return false
-    waking.then(() => { if (c.state === 'running' && Date.now() - asked <= CUE_WAIT && cuesOn && (answerCue || !languagePlaying())) sound() }).catch(() => {})
+    try { el.currentTime = 0 } catch { /* not loaded yet: it starts at the beginning anyway */ }
+    if (!el.counted) { el.counted = true; el.addEventListener?.('playing', () => { cuePlays++ }) }
+    // AbortError: a newer sound or the language took over, which is how it should end.
+    el.play()?.catch?.((e) => { if (e?.name !== 'AbortError') noteCueError(name, e) })
     return true
-  } catch { return false }
+  } catch (e) { noteCueError(name, e); return false }
 }
 
 // The recordings a question (or any content) refers to: every `file` under it, each once, in order.
@@ -276,7 +266,7 @@ export function filesIn(value, found = []) {
 export function preload(files) {
   const wanted = [...new Set(files)].filter(Boolean)
   if (context()) { for (const f of wanted.slice(0, MAX_DECODED).reverse()) decode(f); return }
-  for (const f of wanted.slice(0, MAX_PLAYERS).reverse()) playerFor(f) // the first ends up the most recently used, so it's taken over last
+  for (const f of wanted.slice(0, REC_PLAYERS).reverse()) playerFor(f) // the first ends up the most recently used, so it's taken over last
 }
 
 // ---- The device voice ----

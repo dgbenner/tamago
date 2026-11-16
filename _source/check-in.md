@@ -4,6 +4,8 @@ Updated November 15, 2026. **French A1 is complete: Parts 5 and 6 are built and 
 
 ## Done since last check-in
 
+- **Interface sounds as files (Debugger):** the six sounds are rendered to short audio files and played through audio elements, the path the iPhone already plays, instead of live Web Audio; same setting and timing; Reduce Motion no longer mutes them (only the Sounds setting does); the Developer page shows the sound system's state and last error. Needs the real iPhone to confirm.
+
 - **iPhone fixes (Debugger):** interface sounds no longer muted by Safari's stuck speaking flag or a sleeping audio context; Speak and Compare asks for the microphone in the recording audio session; speaker avatars loaded ahead. All three need a real iPhone to confirm.
 
 - **Design fixes:** circle icons grouped and centred, bigger on phones; QT09 bubble waits for the first chip; correct and incorrect sounds in the Sound Lab for Dan to pick.

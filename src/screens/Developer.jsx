@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { audioState, courseVoiceInfo } from '../lib/audio.js'
+import { audioState, courseVoiceInfo, cueStatus } from '../lib/audio.js'
 import { lessonLogFor, snapshotRows } from '../lib/snapshot.js'
 import { getAll, resetEverything, resetLanguage } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
@@ -163,13 +163,25 @@ function JumpToPart({ onJumpPart }) {
 // language. The list can fill late (iOS), so it asks again when the voices change.
 function DeviceVoice() {
   const [info, setInfo] = useState(() => courseVoiceInfo())
+  const [sounds, setSounds] = useState(() => cueStatus())
   useEffect(() => {
     const again = () => setInfo(courseVoiceInfo())
     window.speechSynthesis?.addEventListener?.('voiceschanged', again)
     const t = setTimeout(again, 800)
-    return () => { window.speechSynthesis?.removeEventListener?.('voiceschanged', again); clearTimeout(t) }
+    const tick = setInterval(() => setSounds(cueStatus()), 1000) // the sound line follows what the last taps did
+    return () => { window.speechSynthesis?.removeEventListener?.('voiceschanged', again); clearTimeout(t); clearInterval(tick) }
   }, [])
-  return <p data-device-voice className="text-sm">Device Voice ({course.name}): {info ? <><span className="font-medium">{info.name}</span> · {info.lang} · {info.grade}</> : 'none found'}<span data-audio-state className="block text-muted">Interface Sounds: Web Audio {audioState()}</span></p>
+  // Interface sounds (2026-11-15): files through audio elements. Their state and last error show here because the
+  // iPhone they failed on can't be reached from a debugger: this line is what gets read back.
+  const when = (at) => new Date(at).toLocaleTimeString()
+  const soundLine = [
+    sounds.on ? 'on' : 'off in Settings',
+    sounds.players ? `${sounds.ready} of ${sounds.players} files ready` : 'players not made yet (tap once)',
+    `audio session ${sounds.session}`,
+    `last asked: ${sounds.last ?? 'none'}`,
+    `heard playing: ${sounds.heard}`,
+  ].filter(Boolean).join(' · ')
+  return <p data-device-voice className="text-sm">Device Voice ({course.name}): {info ? <><span className="font-medium">{info.name}</span> · {info.lang} · {info.grade}</> : 'none found'}<span data-sound-state className="block text-muted">Interface Sounds (audio files): {soundLine}</span><span data-sound-error className="block text-muted">Last Sound Error: {sounds.error ? `${sounds.error.cue}: ${sounds.error.error} (${when(sounds.error.at)})` : 'none'}</span><span data-audio-state className="block text-muted">Recordings: Web Audio {audioState()}</span></p>
 }
 
 // The labs (Dan, 2026-11-15): built and deployed with the app, listed only while Developer is on.

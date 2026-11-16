@@ -876,3 +876,4 @@ Part 3, Lingua Libre recordings:
 - Speaker avatars: all 13 fetched and decoded ahead.
 - The one-off freeze on Urchin was not reproduced (about 1,800 questions in emulated iPhone WebKit, three courses); left alone.
 - Answer sounds live (Dan's picks): correct Warm lift, incorrect Muted minor, at the instant of Check; the voice starts at its usual moment and doesn't cut them off.
+- Interface sounds as files (Debugger, Xerus): still silent on the real iPhone as a Home Screen web app, so the six sounds are rendered to public/sounds/*.wav (scripts/render-cues.mjs from src/lib/cue-recipes.js) and played through audio elements, six of the twelve players; Developer page shows their state and the last sound error.
