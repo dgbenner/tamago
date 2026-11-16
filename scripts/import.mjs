@@ -59,6 +59,13 @@ if (existsSync(PICTURES)) {
   const pics = JSON.parse(readFileSync(PICTURES, 'utf8')).words
   for (const w of tables.words) if (pics[w.word_id]) w.image_file = pics[w.word_id]
 }
+// Pictures another course already has, mapped by hand to this course's words (content/pictures-shared.json; Dan,
+// 2026-11-16). They fill only words with no picture yet, and no script rewrites the file.
+const SHARED = at('content/pictures-shared.json')
+if (existsSync(SHARED)) {
+  const shared = JSON.parse(readFileSync(SHARED, 'utf8')).words
+  for (const w of tables.words) if (!w.image_file && shared[w.word_id]) w.image_file = shared[w.word_id]
+}
 
 // can_do statements checked against the CEFR A1 grid (content/cefr_a1.json), until the workbook carries it.
 const CEFR = at('content/cefr_a1.json')
