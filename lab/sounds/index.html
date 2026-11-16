@@ -37,7 +37,7 @@
   <body>
     <main>
       <h1>Sound Lab</h1>
-      <p class="note">Warm, soft sounds for four moments: tapping a circle to start its lesson, the main button, a correct match, and a word tile slotting into the sentence. Each one is made in Web Audio, so there's nothing to license. Tap ▶ to hear one; tap its name to pick it for the demo at the bottom. Dan's picks are preselected (Soft swell, Warm thump, Two marimba notes, Pebble). Nothing here is used in the app yet.</p>
+      <p class="note">Warm, soft sounds for six moments: tapping a circle to start its lesson, the main button, a correct match, a word tile slotting into the sentence, and a correct or incorrect answer. Each one is made in Web Audio, so there's nothing to license. Tap ▶ to hear one; tap its name to pick it for the demo at the bottom. Dan's picks are preselected (Soft swell, Warm thump, Two marimba notes, Pebble). New: Correct answer and Incorrect answer, six each, not picked yet; the demo's Check buttons play them with the voice in the same tap.</p>
       <div class="bar"><label>Volume <input id="vol" type="range" min="0" max="1" step="0.05" value="0.6" /></label></div>
       <section id="sections"></section>
       <h2>Try them in place</h2>
@@ -46,6 +46,10 @@
         <h3>Start a lesson</h3>
         <button class="circle" id="circle" aria-label="Start Say Hi">🍣</button>
         <button class="check" id="check">Check</button>
+        <h3>Check an answer</h3>
+        <p class="note">The picked sound, then the voice reading the sentence in the same tap, with no added delay.</p>
+        <button class="check" id="check-right">Check (right)</button>
+        <button class="check" id="check-wrong">Check (wrong)</button>
         <h3>Match the pairs</h3>
         <div class="tiles" id="tiles"></div>
         <h3>Build the sentence</h3>
@@ -124,9 +128,30 @@
           ['Pebble', 'A small stone set on a table', (d) => { tone(d, 1200, { glide: 900, decay: 0.04, level: 0.18 }); tone(d, 180, { decay: 0.06, level: 0.35, lowpass: 600 }) }],
           ['Soft plop', 'A gentle falling plop', (d) => tone(d, 400, { glide: 250, decay: 0.07, level: 0.45, lowpass: 1500 })],
         ] },
+        // Correct and incorrect answers (Dan, 2026-11-15), not picked yet. The plan: the correct sound plays the instant
+        // Check is pressed (in the tap, like the others) and the voice reads the sentence at its usual moment, with no
+        // added delay; so every correct option is short (under about a third of a second) and sits around the voice's
+        // pitch rather than on it. Incorrect is soft and low, never a buzzer.
+        correct: { title: 'Correct answer', note: 'Plays the instant Check is pressed; the voice starts at its usual moment over its tail.', options: [
+          ['Rising pair', 'Two quick marimba notes, C then G', (d) => { tone(d, 523.25, { partials: [[1, 1], [4, 0.18]], decay: 0.18, level: 0.38 }); tone(d, 783.99, { at: 0.06, partials: [[1, 1], [4, 0.18]], decay: 0.24, level: 0.36 }) }],
+          ['Kalimba ding', 'One plucked tine, high and round', (d) => tone(d, 1046.5, { partials: [[1, 1], [5.4, 0.12]], attack: 0.002, decay: 0.3, level: 0.3 })],
+          ['Soft chime', 'A small bell, quiet and short', (d) => tone(d, 1318.5, { partials: [[1, 1], [2.76, 0.14]], attack: 0.004, decay: 0.32, level: 0.2 })],
+          ['Felt third', 'Two felted notes together, C and E', (d) => { tone(d, 523.25, { attack: 0.008, decay: 0.26, level: 0.3, lowpass: 2000 }); tone(d, 659.25, { attack: 0.008, decay: 0.26, level: 0.27, lowpass: 2000 }) }],
+          ['Wood and bell', 'A soft block with a tiny bell after it', (d) => { wood(d, 600, 0, 0.35); tone(d, 1174.7, { at: 0.035, partials: [[1, 1], [2.76, 0.1]], attack: 0.004, decay: 0.26, level: 0.18 }) }],
+          ['Warm lift', 'One round note rising a little', (d) => tone(d, 587.33, { glide: 784, attack: 0.006, decay: 0.2, level: 0.32, lowpass: 2400 })],
+        ] },
+        incorrect: { title: 'Incorrect answer', note: 'Plays the instant Check is pressed on a wrong answer: gentle, never a buzzer.', options: [
+          ['Low felt thud', 'A cushioned low note', (d) => tone(d, 150, { type: 'triangle', decay: 0.16, level: 0.5, lowpass: 700 })],
+          ['Falling pair', 'Two marimba notes, E down to C', (d) => { tone(d, 329.63, { partials: [[1, 1], [4, 0.15]], decay: 0.2, level: 0.34 }); tone(d, 261.63, { at: 0.07, partials: [[1, 1], [4, 0.15]], decay: 0.26, level: 0.32 }) }],
+          ['Soft wood knock', 'A low hollow block, tapped once', (d) => wood(d, 240, 0, 0.42)],
+          ['Muted minor', 'Two felted notes, A and C, together', (d) => { tone(d, 220, { attack: 0.01, decay: 0.28, level: 0.3, lowpass: 1100 }); tone(d, 261.63, { attack: 0.01, decay: 0.28, level: 0.26, lowpass: 1100 }) }],
+          ['Gentle sigh', 'A round note sinking a little', (d) => tone(d, 330, { glide: 247, attack: 0.01, decay: 0.22, level: 0.32, lowpass: 1400 })],
+          ['Hollow bonk', 'A small low drum, muffled', (d) => tone(d, 196, { partials: [[1, 1], [2.5, 0.2]], attack: 0.004, decay: 0.18, level: 0.42, lowpass: 900 })],
+        ] },
       }
       // Dan's picks (2026-11-15): circle 3 Soft swell, button 6 Warm thump, match 1 Two marimba notes, slot 5 Pebble.
-      const picked = { circle: 2, button: 5, match: 0, slot: 4 }
+      // Correct and incorrect are not picked yet; the first option stands in for the demo until one is.
+      const picked = { circle: 2, button: 5, match: 0, slot: 4, correct: 0, incorrect: 0 }
       const play = (kind, i = picked[kind]) => SOUNDS[kind].options[i][2](out())
 
       const root = document.getElementById('sections')
@@ -147,6 +172,10 @@
       }
 
       document.getElementById('check').onclick = () => play('button')
+      // The plan for the app: sound and voice start in the same tap; the voice is never held back for the sound.
+      const say = (text) => { if (!('speechSynthesis' in window)) return; speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(text); u.lang = 'fr-FR'; u.rate = 0.9; speechSynthesis.speak(u) }
+      document.getElementById('check-right').onclick = () => { play('correct'); say('Je mange du pain.') }
+      document.getElementById('check-wrong').onclick = () => { play('incorrect'); say('Je mange du pain.') }
       document.getElementById('circle').onclick = () => play('circle')
       // Match pairs: French on the left, English on the right.
       const pairs = [['chat', 'cat'], ['maison', 'house'], ['pain', 'bread'], ['eau', 'water']]

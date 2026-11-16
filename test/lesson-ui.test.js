@@ -1,5 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
+import { readFileSync } from 'node:fs'
 
 // What a question puts on screen, rendered without a browser (Vite loads the JSX).
 const storage = () => ({ getItem: () => null, setItem: () => {}, removeItem: () => {} })
@@ -36,6 +37,10 @@ test('Answer the Question, written (V0903) or answered: the question is in the b
 })
 test('the reply bubble holds what it is given', () => {
   assert.match(renderToStaticMarkup(createElement(ReplyBubble, null, 'Oui')), /data-reply-bubble.*Oui/s)
+  // Design fixes (Dan, 2026-11-15): the empty chip bubble waits invisible (in place) until the first chip; chips start left.
+  assert.match(renderToStaticMarkup(createElement(ReplyBubble, { hidden: true }, '')), /data-waiting="true"[^>]*aria-hidden="true"[^>]*class="[^"]*invisible/)
+  assert.doesNotMatch(renderToStaticMarkup(createElement(ReplyBubble, null, 'Oui')), /invisible/)
+  assert.match(readFileSync('src/screens/Lesson.jsx', 'utf8'), /ReplyBubble hidden=\{!bubbleShown[\s\S]{0,400}justify-start/)
 })
 test('no other question type uses bubbles', () => {
   for (const type of ['QT03', 'QT06', 'QT07', 'QT08', 'QT11', 'QT12']) {

@@ -862,3 +862,9 @@ Part 3, Lingua Libre recordings:
 - Type the Word accepts the Spain twin of a Mexican word (coche for carro), from src/lib/regional.js, the list coverage reads.
 - Spanish reflexive verbs have tables with the pronouns (me lavo, te lavas, se lava): llamarse, lavarse, bañarse, levantarse, ducharse, dedicarse; notes U41 and U92 show them.
 - CLAUDE.md gains a Team section (Dan, Planner, Builder 1, Builder 2, Fable, Debugger, handoffs).
+
+## 2026-11-15: Design fixes (all courses)
+
+- Circle icons grouped and centred on the disc; about twice the size on phones and further out, scaled for narrow phones.
+- QT09 reply bubble hidden until the first chip, then it stays; chips align left inside the right-anchored bubble.
+- Sound Lab: Correct answer and Incorrect answer sets, six each, with a demo that plays sound and voice in the same tap; picks pending.

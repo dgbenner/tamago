@@ -343,9 +343,11 @@ function HeardFrom({ q, children }) {
 }
 // The reply starts as a short bubble and grows with the answer (craft review, 2026-11-14: no empty full-width slab);
 // wide: typed replies, which need the room for the field.
-export function ReplyBubble({ children, className = '', wide = false }) {
+// hidden (Dan, 2026-11-15): the chip reply bubble waits, invisible but in place, until the first chip arrives (or one is
+// dragged over it), so nothing below moves when it shows; then it stays.
+export function ReplyBubble({ children, className = '', wide = false, hidden = false }) {
   return (
-    <div data-reply-bubble className="flex justify-end pl-12">
+    <div data-reply-bubble data-waiting={hidden || undefined} aria-hidden={hidden || undefined} className={`flex justify-end pl-12 ${hidden ? 'invisible' : ''}`}>
       <div className={`reply-bubble relative min-w-20 max-w-full rounded-2xl rounded-br-sm border-2 px-3 py-2 ${wide ? 'w-full' : ''} ${className}`}>{children}</div>
     </div>
   )
@@ -632,6 +634,9 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
   useEffect(() => { onTyping?.(typing) }, [typing])
   const setTyping = setTypingState
   const [picked, setPicked] = useState([])
+  // The chat reply bubble shows from the first chip on and stays, even if every chip is taken back out.
+  const [bubbleShown, setBubbleShown] = useState(false)
+  useEffect(() => { if (picked.length) setBubbleShown(true) }, [picked.length])
   const [text, setText] = useState('')
   const check = (value) => {
     document.activeElement?.blur()
@@ -693,7 +698,8 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
               still there); removing one returns focus to the answer. */}
           {/* Chips can also be dragged (drag and drop): from the bank into the answer at the marker, within the
               answer to reorder, or back to the bank. Tapping and typing still pick; keyboard users pick and remove. */}
-{q.type === 'QT09' ? <ReplyBubble className={drag.over === 'answer' ? 'border-orange' : ''}>          <div ref={drag.answerRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className="relative flex min-h-9 flex-wrap items-center justify-end gap-2">
+{/* QT09 (Dan, 2026-11-15): the bubble sits right; the chips inside start at the left and wrap left to right. */}
+{q.type === 'QT09' ? <ReplyBubble hidden={!bubbleShown && drag.over !== 'answer'} className={drag.over === 'answer' ? 'border-orange' : ''}>          <div ref={drag.answerRef} lang={q.lang === 'en' ? 'en' : TL} role="group" aria-label={`Your answer: ${answerText || 'empty'}`} className="relative flex min-h-9 flex-wrap items-center justify-start gap-2">
             {picked.length === 0 && <span aria-hidden="true" className="px-1 text-lg text-muted">…</span>}
             {picked.map((chipIndex) => (
               <button key={chipIndex} data-drag-chip disabled={Boolean(result)} aria-label={`${q.chips[chipIndex]}, remove`} onPointerDown={(e) => drag.begin(e, chipIndex)}

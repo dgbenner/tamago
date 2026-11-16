@@ -607,6 +607,11 @@ button.chip-drag {
 /* Leaving: a quick snap back with a small bounce, just past rest and back (Dan, 2026-11-13). Arriving: an easy 160 ms. */
 .circle-node .circle-disc { transition: transform 260ms cubic-bezier(0.2, 1.9, 0.45, 1); }
 .circle-node .circle-track { transition: stroke 100ms ease-out; }
+/* Circle icons (Dan, 2026-11-15): phones get them about twice the size, further from the circle (full size from about
+   390px wide, scaled down on narrower phones so they never reach the next circle); from 1024px the small pair as before. --ci the tap box, --ci-svg the drawn icon, --ci-gap between the two, --ci-out from the disc. */
+.circle-icons { --ci: clamp(1.6rem, calc(19.3vw - 33px), 2.5rem); --ci-svg: calc(var(--ci) * 0.8); --ci-gap: 6px; --ci-out: clamp(3px, calc(10vw - 29px), 10px); }
+@media (min-width: 1024px) { .circle-icons { --ci: 1.75rem; --ci-svg: 1rem; --ci-gap: 4px; --ci-out: 5px; } }
+.circle-icons .note-icon svg { width: var(--ci-svg); height: var(--ci-svg); }
 .note-icon { transition: color 120ms ease-out, opacity 120ms ease-out, transform 120ms ease-out; }
 .carousel-arrow { transition: transform 120ms ease-out, background-color 120ms ease-out, box-shadow 120ms ease-out; }
 @media (hover: hover) {

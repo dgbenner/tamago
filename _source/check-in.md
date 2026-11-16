@@ -4,6 +4,8 @@ Updated November 15, 2026. **French A1 is complete: Parts 5 and 6 are built and 
 
 ## Done since last check-in
 
+- **Design fixes:** circle icons grouped and centred, bigger on phones; QT09 bubble waits for the first chip; correct and incorrect sounds in the Sound Lab for Dan to pick.
+
 - **Three fixes:** appeler shows appelle (épeler both spellings); Type the Word takes coche for carro and the other Spain twins; Spanish reflexive verbs show me lavo, te lavas, se lava (bañarse included).
 
 - **Spanish and German A1 complete and merged:** Parts 3 and 4 live in both, mock DELE A1 and mock Goethe A1 after Part 4 (Goethe speaking ends with a spelled name and a number), no table for quisiera or hätte, grammar notes back to their own verbs, Spanish coverage 90% as written and 94% with Mexican twins.

@@ -46,23 +46,25 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
 // The wrapper is a size container so the icon can follow the disc (min(100%, 6rem) wide, under the 1.625rem marker).
 // onInfo (Dan, 2026-11-15): the circle's overview opens from Lucide's info icon, directly above the notebook, the same
 // style, size and spacing; both show on every circle, since every circle can be opened.
-const ICON_LEFT = 'calc(50% + min(100cqw, 6rem) / 2 - 1rem + 21px)'
-const NOTE_TOP = 'calc(1.625rem + min(100cqw, 6rem) / 2 - 0.875rem)'
-const INFO_TOP = 'calc(1.625rem + min(100cqw, 6rem) / 2 - 0.875rem - 1.75rem - 4px)'
-const ICON_CLASS = 'note-icon absolute flex size-7 items-center justify-center rounded-full text-muted opacity-40 [&_svg]:size-5 [&_svg]:origin-left [&_svg]:scale-80'
+// Placement (Dan, 2026-11-15): the two icons are one group, centred vertically on the disc; on phones each is about twice
+// the size, further from the circle, so a tap on the circle never lands on them (sizes in index.css .circle-icons).
+const DISC_MID = 'calc(1.625rem + min(100cqw, 6rem) / 2)'
+const ICON_LEFT = 'calc(50% + min(100cqw, 6rem) / 2 + var(--ci-out))'
+const iconTop = (index, count) => `calc(${DISC_MID} - (${count} * var(--ci) + ${count - 1} * var(--ci-gap)) / 2 + ${index} * (var(--ci) + var(--ci-gap)))`
+const ICON_CLASS = 'note-icon absolute flex items-center justify-center rounded-full text-muted opacity-40'
 export default function CircleNode({ onNote = null, onInfo = null, ...props }) {
   const button = <CircleButton {...props} />
   if ((!onNote && !onInfo) || props.locked) return button
   return (
-    <div className="relative flex w-32 min-w-0 shrink justify-center [container-type:inline-size]">
+    <div className="circle-icons relative flex w-32 min-w-0 shrink justify-center [container-type:inline-size]">
       {button}
       {onInfo && (
-        <button onClick={onInfo} aria-label={`About ${props.title}`} data-info-icon className={ICON_CLASS} style={{ left: ICON_LEFT, top: INFO_TOP }}>
+        <button onClick={onInfo} aria-label={`About ${props.title}`} data-info-icon className={ICON_CLASS} style={{ left: ICON_LEFT, top: iconTop(0, onNote ? 2 : 1), width: 'var(--ci)', height: 'var(--ci)' }}>
           <IconInfo />
         </button>
       )}
       {onNote && (
-        <button onClick={onNote} aria-label={`Grammar Note: ${props.title}`} data-note-icon className={ICON_CLASS} style={{ left: ICON_LEFT, top: NOTE_TOP }}>
+        <button onClick={onNote} aria-label={`Grammar Note: ${props.title}`} data-note-icon className={ICON_CLASS} style={{ left: ICON_LEFT, top: iconTop(onInfo ? 1 : 0, onInfo ? 2 : 1), width: 'var(--ci)', height: 'var(--ci)' }}>
           <IconNotebookPen />
         </button>
       )}
