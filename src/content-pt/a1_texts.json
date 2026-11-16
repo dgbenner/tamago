@@ -289,5 +289,482 @@
       }
     ],
     "source": "written for Tamago"
+  },
+  {
+    "id": "R201",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "A loja",
+    "lines": [
+      "Aberta de segunda a sexta: 9h às 20h",
+      "Sábado: 10h às 18h",
+      "Domingo: fechada"
+    ],
+    "questions": [
+      {
+        "question": "When is the shop closed?",
+        "choices": [
+          "Sunday",
+          "Saturday",
+          "Monday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it open on Saturday?",
+        "choices": [
+          "10:00",
+          "9:00",
+          "18:00"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R202",
+    "unit_id": "U62",
+    "kind": "message",
+    "title": "Uma mensagem do João",
+    "lines": [
+      "Ana,",
+      "vamos ao cinema na quarta? Estou livre na quarta e na quinta.",
+      "No sábado eu trabalho.",
+      "João"
+    ],
+    "questions": [
+      {
+        "question": "When is João free?",
+        "choices": [
+          "Wednesday and Thursday",
+          "Saturday",
+          "Every day"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does João do on Saturday?",
+        "choices": [
+          "He works",
+          "He goes to the cinema",
+          "He stays at home"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R203",
+    "unit_id": "U62",
+    "kind": "notice",
+    "title": "O museu",
+    "lines": [
+      "O museu fecha às terças.",
+      "Visita para crianças: quarta às 15h"
+    ],
+    "questions": [
+      {
+        "question": "Which day is the museum closed?",
+        "choices": [
+          "Tuesday",
+          "Wednesday",
+          "Monday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is the visit for children?",
+        "choices": [
+          "Wednesday at 3 pm",
+          "Tuesday at 3 pm",
+          "Wednesday at 5 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R204",
+    "unit_id": "U63",
+    "kind": "notice",
+    "title": "As férias",
+    "lines": [
+      "A escola fecha de 20 de dezembro a 6 de fevereiro.",
+      "Primeiro dia de aula: quarta, 7 de fevereiro"
+    ],
+    "questions": [
+      {
+        "question": "Which day of the week does school start again?",
+        "choices": [
+          "Wednesday",
+          "Monday",
+          "Saturday"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When do the holidays begin?",
+        "choices": [
+          "20 December",
+          "7 February",
+          "6 February"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R205",
+    "unit_id": "U63",
+    "kind": "sign",
+    "title": "A festa",
+    "lines": [
+      "Festa na praça",
+      "Sábado, 21 de junho, às 18h",
+      "Música e dança"
+    ],
+    "questions": [
+      {
+        "question": "When is the party?",
+        "choices": [
+          "Saturday 21 June",
+          "Sunday 21 June",
+          "Saturday 21 July"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it start?",
+        "choices": [
+          "6 pm",
+          "8 pm",
+          "9 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R206",
+    "unit_id": "U63",
+    "kind": "message",
+    "title": "Um cartão da Maria",
+    "lines": [
+      "Em janeiro a gente vai à praia.",
+      "Em julho vamos para a montanha.",
+      "E você?"
+    ],
+    "questions": [
+      {
+        "question": "Where does Maria go in January?",
+        "choices": [
+          "To the beach",
+          "To the mountains",
+          "To the countryside"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When does she go to the mountains?",
+        "choices": [
+          "In July",
+          "In January",
+          "In spring"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R207",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "Na loja",
+    "lines": [
+      "Entrada",
+      "Aberto das 9h às 19h",
+      "Fechado aos domingos"
+    ],
+    "questions": [
+      {
+        "question": "When is the shop closed?",
+        "choices": [
+          "On Sundays",
+          "On Saturdays",
+          "Every evening"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time does it close?",
+        "choices": [
+          "7 pm",
+          "9 pm",
+          "9 am"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R208",
+    "unit_id": "U66",
+    "kind": "sign",
+    "title": "Na estação",
+    "lines": [
+      "Banheiros: primeiro andar",
+      "Farmácia: segundo andar",
+      "Informação: na entrada"
+    ],
+    "questions": [
+      {
+        "question": "Where are the toilets?",
+        "choices": [
+          "On the first floor",
+          "On the second floor",
+          "Next to the exit"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where can you get information?",
+        "choices": [
+          "At the entrance",
+          "At the pharmacy",
+          "On the train"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R209",
+    "unit_id": "U66",
+    "kind": "notice",
+    "title": "A padaria",
+    "lines": [
+      "Padaria do Bairro",
+      "Aberta todos os dias das 6h às 21h",
+      "Pão quente às 7h e às 17h"
+    ],
+    "questions": [
+      {
+        "question": "Is the bakery open on Sunday?",
+        "choices": [
+          "Yes",
+          "No",
+          "Only in the morning"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is there hot bread?",
+        "choices": [
+          "At 7 am and 5 pm",
+          "At 6 am only",
+          "At 9 pm"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R210",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Ônibus para Santos",
+    "lines": [
+      "Partida: 8h15 – Chegada: 10h20",
+      "Partida: 12h40 – Chegada: 14h45",
+      "Partida: 18h00 – Chegada: 20h05"
+    ],
+    "questions": [
+      {
+        "question": "When does the 12:40 bus arrive?",
+        "choices": [
+          "14:45",
+          "10:20",
+          "20:05"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What time is the first bus?",
+        "choices": [
+          "8:15",
+          "12:40",
+          "18:00"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R211",
+    "unit_id": "U67",
+    "kind": "timetable",
+    "title": "Barco para a ilha",
+    "lines": [
+      "Saída do porto: 7h, 9h, 11h",
+      "Domingo: um barco a cada duas horas"
+    ],
+    "questions": [
+      {
+        "question": "Where does the boat leave from?",
+        "choices": [
+          "The port",
+          "The station",
+          "The beach"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How often is the boat on Sundays?",
+        "choices": [
+          "Every two hours",
+          "Every hour",
+          "Not at all"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R212",
+    "unit_id": "U67",
+    "kind": "message",
+    "title": "Uma mensagem do Tom",
+    "lines": [
+      "Chego na estação às 17h30.",
+      "Meu ônibus sai de São Paulo às 15h.",
+      "Até logo!"
+    ],
+    "questions": [
+      {
+        "question": "When does Tom arrive?",
+        "choices": [
+          "5:30 pm",
+          "3 pm",
+          "7:30 pm"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Where does his bus leave from?",
+        "choices": [
+          "São Paulo",
+          "The airport",
+          "Rio"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R213",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "Na aula",
+    "lines": [
+      "Ouça o texto.",
+      "Responda as perguntas.",
+      "Escolha uma foto."
+    ],
+    "questions": [
+      {
+        "question": "What do you do first?",
+        "choices": [
+          "Listen to the text",
+          "Answer the questions",
+          "Choose a photo"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What do you choose?",
+        "choices": [
+          "A photo",
+          "A book",
+          "A word"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R214",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "A porta",
+    "lines": [
+      "Feche a porta, por favor.",
+      "Atenção: feche devagar."
+    ],
+    "questions": [
+      {
+        "question": "What should you do with the door?",
+        "choices": [
+          "Close it",
+          "Leave it open",
+          "Lock it"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How should you close it?",
+        "choices": [
+          "Slowly",
+          "Quickly",
+          "With a key"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R215",
+    "unit_id": "U69",
+    "kind": "notice",
+    "title": "O exercício",
+    "lines": [
+      "Escolha um número.",
+      "Abra o livro nessa página.",
+      "Leia o texto."
+    ],
+    "questions": [
+      {
+        "question": "What do you open?",
+        "choices": [
+          "The book",
+          "The door",
+          "The notebook"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What do you do last?",
+        "choices": [
+          "Read the text",
+          "Choose a number",
+          "Close the book"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
   }
 ]

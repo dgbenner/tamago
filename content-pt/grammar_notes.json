@@ -265,6 +265,125 @@
       "example_sentence_ids": "S58101;S58103;S58003",
       "conjugation_lemma": "",
       "status": "live"
+    },
+    {
+      "unit_id": "U61",
+      "rule": "Que horas são? asks the time. One o'clock takes é, every other hour são: É uma hora, São três horas. E meia is half past (São três e meia), e quinze a quarter past, and quinze para as dez a quarter to ten. At a time is às: A aula é às nove. Da manhã, da tarde and da noite say which part of the day; meio-dia is noon. Antes de and depois de go before a verb in its plain form: antes de nadar.",
+      "example_sentence_ids": "S61025;S61106;S61101",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U37",
+      "rule": "When you didn't catch something: O quê? (What?), Desculpe, não ouvi (Sorry, I didn't hear), Não ouço você (I can't hear you). Pode falar mais alto? asks someone to speak up. Por quê, with the accent, comes at the end of a sentence (Não sei por quê); at the start of a question it is por que, two words, no accent (Por que você não quer me ouvir?).",
+      "example_sentence_ids": "S37024;S37101;S37021",
+      "conjugation_lemma": "ouvir",
+      "status": "live"
+    },
+    {
+      "unit_id": "U62",
+      "rule": "The days: segunda, terça, quarta, quinta and sexta, each short for segunda-feira and the rest, then sábado and domingo. On a day is na (no for sábado and domingo): na terça, no sábado. Toda segunda and todos os dias say how often; uma vez por semana is once a week. Costumo + a verb says what you usually do: Costumo nadar no sábado. Até terça! means see you on Tuesday.",
+      "example_sentence_ids": "S62104;S62117;S62123",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U63",
+      "rule": "Months take no capital: janeiro, fevereiro, março. In a month is em: em julho; in a season is no or na: no verão, na primavera. Dates put the day first, with de: cinco de março. The first of the month is primeiro: primeiro de maio. In Brazil the seasons are the other way round from Europe: Em dezembro está quente no Brasil.",
+      "example_sentence_ids": "S63015;S63014;S63121",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U71",
+      "rule": "Words for where things are, each with de before the noun: em cima de (on top of), debaixo de and embaixo de (under), atrás de (behind), na frente de or em frente a (in front of), ao lado de (next to), dentro (inside) and fora (outside). De joins the article: de + o = do, de + a = da: em cima da mesa, debaixo do papel. Isto, isso and aquilo are this, that and that over there; aquele, aquela go with a noun. Sem means without, entre between, desde since.",
+      "example_sentence_ids": "S71101;S71104;S71107",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U72",
+      "rule": "Colours follow the noun. Most agree (roxo, roxa), but rosa, cinza and laranja never change, and marrom only adds -ns for more than one: a saia rosa, o carro cinza. De says what something is made of: de plástico, de madeira, de metal, de vidro, de pano. Weather verbs have only the ele form: chove (it rains), neva (it snows), vai chover.",
+      "example_sentence_ids": "S72103;S72022;S72005",
+      "conjugation_lemma": "chover",
+      "status": "live"
+    },
+    {
+      "unit_id": "U38",
+      "rule": "Ways to take a moment: Um momento… Então… (So…). Eu penso que sim means I think so. Pensar, to think: penso, pensa. Ver, to see: Posso ver isso? Vamos ver (let's see).",
+      "example_sentence_ids": "S38010;S38008;S38003",
+      "conjugation_lemma": "pensar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U64",
+      "rule": "Plans: Você vem? (Are you coming?), Vamos ao cinema? (Shall we go to the cinema?). Vir, to come: venho, vem; sair, to go out: saio, sai; ver: vejo, vemos. A gente means we in everyday Brazilian speech and takes the ele form: A gente vai ao cinema. Livre means free (not busy).",
+      "example_sentence_ids": "S64003;S64104;S64014",
+      "conjugation_lemma": "vir",
+      "status": "live"
+    },
+    {
+      "unit_id": "U65",
+      "rule": "The day in order: Eu acordo, me levanto, tomo banho, tomo café da manhã. Some verbs take me for I: me levanto, me deito. Tomar is to take or to have (tomar banho, tomar café); almoçar, jantar and lanchar are to have lunch, dinner and a snack. Fazer: faço, faz. Começar and acabar: começo às nove, acabo às cinco.",
+      "example_sentence_ids": "S65101;S65107;S65130",
+      "conjugation_lemma": "fazer",
+      "status": "live"
+    },
+    {
+      "unit_id": "U73",
+      "rule": "Everyday verbs side by side. Dar, to give: dou, dá; dar para someone. Seguir: sigo. Conseguir (to manage to): consigo. Perder: perco. Mudar de, to change something you have: mudo de roupa. Passar, to pass something: Pode passar o pão? Sentar-se, to sit: me sento. Lavar, limpar and pintar are regular -ar verbs.",
+      "example_sentence_ids": "S73101;S73107;S73134",
+      "conjugation_lemma": "dar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U66",
+      "rule": "Words on signs: Entrada, Saída, Aberto, Fechado, Proibido nadar. They agree with the place: a farmácia está aberta, o banco está fechado. Abrir and fechar: abre às nove, fecha às seis. Os correios (the post office) is plural.",
+      "example_sentence_ids": "S66004;S66035;S66014",
+      "conjugation_lemma": "abrir",
+      "status": "live"
+    },
+    {
+      "unit_id": "U67",
+      "rule": "Timetables: o horário, a partida (departure), a chegada (arrival). O ônibus sai às oito e chega às dez: sair and chegar. A ticket is uma passagem; uma passagem de ida is one way, de ida e volta a round trip. You travel de: de avião, de barco, de ônibus.",
+      "example_sentence_ids": "S67012;S67112;S67115",
+      "conjugation_lemma": "viajar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U74",
+      "rule": "Free time: jogar is for games and sport (jogar futebol), tocar for instruments (tocar violão), brincar for children at play. Gostar de + a noun or a verb: Gosto de natação, Gosto de correr. Conversar com means to chat with someone.",
+      "example_sentence_ids": "S74106;S74018;S74113",
+      "conjugation_lemma": "jogar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U39",
+      "rule": "Saying you're not sure: Acho que sim (I think so), Acho que não (I don't think so), Talvez (maybe), Não tenho certeza (I'm not sure), É possível (it's possible). Você tem certeza? asks Are you sure?",
+      "example_sentence_ids": "S39024;S39101;S39003",
+      "conjugation_lemma": "achar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U68",
+      "rule": "The words of an announcement: Atenção, passageiros. O voo (flight), o portão (gate), a plataforma (platform), a bagagem (luggage, always singular), a mala (suitcase). Estar atrasado is to be late: O voo está atrasado. O destino is the destination.",
+      "example_sentence_ids": "S68102;S68110;S68006",
+      "conjugation_lemma": "entrar",
+      "status": "live"
+    },
+    {
+      "unit_id": "U69",
+      "rule": "Instructions in a book or a class use the você command, which is the ele form of the present subjunctive: leia (read), escreva (write), responda (answer), escolha (choose), complete, abra (open), feche (close), olhe and veja (look), ouça (listen). Never the tu form (lê, escreve) in instructions. Em dupla means in pairs, em grupo in groups.",
+      "example_sentence_ids": "S69001;S69102;S69028",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U75",
+      "rule": "Directions on a map: o norte, o sul, o leste, o oeste; em + the article: no norte, no sul. Fica a ... says how far: Fica a cinco quilômetros, Fica a cem metros. O mapa is masculine though it ends in -a. Visitar, to visit; a visita, the visit.",
+      "example_sentence_ids": "S75108;S75123;S75107",
+      "conjugation_lemma": "visitar",
+      "status": "live"
     }
   ]
 }

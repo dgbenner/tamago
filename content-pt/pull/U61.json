@@ -1,0 +1,1654 @@
+{
+  "unit_id": "U61",
+  "pulled_at": "2026-11-16",
+  "candidates": 132,
+  "sentences": [
+    {
+      "sentence_id": "S61001",
+      "unit_id": "U61",
+      "french": "Tenho tempo amanhã de manhã.",
+      "english": "I have time tomorrow morning.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1155793",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61002",
+      "unit_id": "U61",
+      "french": "Eu tenho tempo amanhã de manhã.",
+      "english": "I have time tomorrow morning.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11726515",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61003",
+      "unit_id": "U61",
+      "french": "Onde vamos depois?",
+      "english": "Where are we going after?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7010059",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "iart61",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61004",
+      "unit_id": "U61",
+      "french": "Vocês têm um minuto?",
+      "english": "Do you have a minute?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1320637",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61005",
+      "unit_id": "U61",
+      "french": "Você tem um minuto?",
+      "english": "Do you have a minute?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1320638",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61006",
+      "unit_id": "U61",
+      "french": "Você tem tempo hoje?",
+      "english": "Do you have time on today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2086816",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61007",
+      "unit_id": "U61",
+      "french": "Você tem um segundo?",
+      "english": "Do you have a sec?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5924259",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61008",
+      "unit_id": "U61",
+      "french": "Você pode me ligar depois?",
+      "english": "Can you call me back?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8255258",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61009",
+      "unit_id": "U61",
+      "french": "Posso falar com você um segundo?",
+      "english": "Can I talk to you a second?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4368229",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61010",
+      "unit_id": "U61",
+      "french": "Posso falar com você um minuto?",
+      "english": "Can I talk to you a minute?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4368230",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61011",
+      "unit_id": "U61",
+      "french": "Posso falar com vocês um segundo?",
+      "english": "Can I talk to you guys for a second?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7827873",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61012",
+      "unit_id": "U61",
+      "french": "Você quer pagar agora ou depois?",
+      "english": "Do you want to pay now or later?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11114884",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MrJuice",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61013",
+      "unit_id": "U61",
+      "french": "Que noite!",
+      "english": "What a night!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1191707",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61014",
+      "unit_id": "U61",
+      "french": "É noite.",
+      "english": "It is night.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2192058",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "acbarbosa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61015",
+      "unit_id": "U61",
+      "french": "Estou meio cansada.",
+      "english": "I'm a bit tired.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1082689",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I'm a little bit tired."
+      ]
+    },
+    {
+      "sentence_id": "S61016",
+      "unit_id": "U61",
+      "french": "Estou meio cansado.",
+      "english": "I'm a bit tired.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1082694",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I'm sort of tired."
+      ]
+    },
+    {
+      "sentence_id": "S61017",
+      "unit_id": "U61",
+      "french": "Está muito cedo.",
+      "english": "It's very early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1146416",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": [
+        "It's way too early."
+      ]
+    },
+    {
+      "sentence_id": "S61018",
+      "unit_id": "U61",
+      "french": "É muito cedo.",
+      "english": "It's way too early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1146418",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61019",
+      "unit_id": "U61",
+      "french": "Estou meio feliz.",
+      "english": "I'm kind of happy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2468623",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61020",
+      "unit_id": "U61",
+      "french": "É de manhã.",
+      "english": "It's morning.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9036758",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": [
+        "It is morning."
+      ]
+    },
+    {
+      "sentence_id": "S61021",
+      "unit_id": "U61",
+      "french": "Espera cinco minutos por favor.",
+      "english": "Please wait five minutes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "621901",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "BraveSentry",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61022",
+      "unit_id": "U61",
+      "french": "São nove e meia.",
+      "english": "It's nine-thirty.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1058380",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61023",
+      "unit_id": "U61",
+      "french": "Nós temos trinta minutos.",
+      "english": "We've got thirty minutes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5017849",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61024",
+      "unit_id": "U61",
+      "french": "Você tem três minutos.",
+      "english": "You've got three minutes.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5111832",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61025",
+      "unit_id": "U61",
+      "french": "São três e meia.",
+      "english": "It's half past three.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5250453",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61026",
+      "unit_id": "U61",
+      "french": "São oito e meia.",
+      "english": "It's half past eight.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8803564",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61027",
+      "unit_id": "U61",
+      "french": "Não temos a tarde toda.",
+      "english": "We don't have all afternoon.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2050381",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61028",
+      "unit_id": "U61",
+      "french": "Não temos a noite toda.",
+      "english": "We don't have all night.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2050382",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "We haven't got all night."
+      ]
+    },
+    {
+      "sentence_id": "S61029",
+      "unit_id": "U61",
+      "french": "Tom vai para a cama cedo.",
+      "english": "Tom goes to bed early.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1318874",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61030",
+      "unit_id": "U61",
+      "french": "Eu vou estudar inglês à tarde.",
+      "english": "I am going to study English this afternoon.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5617032",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61031",
+      "unit_id": "U61",
+      "french": "Não é como antes, você sabe.",
+      "english": "It ain't like before, you know.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6475627",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "heo598",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S61032",
+      "unit_id": "U61",
+      "french": "Vou para a praia de tarde.",
+      "english": "I'm going to the beach this afternoon.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6961643",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S61001",
+      "position": 1,
+      "surface": "Tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61001",
+      "position": 2,
+      "surface": "tempo",
+      "word_id": "W1213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61001",
+      "position": 3,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61001",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61001",
+      "position": 5,
+      "surface": "manhã",
+      "word_id": "W1206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61002",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61002",
+      "position": 2,
+      "surface": "tenho",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61002",
+      "position": 3,
+      "surface": "tempo",
+      "word_id": "W1213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61002",
+      "position": 4,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61002",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61002",
+      "position": 6,
+      "surface": "manhã",
+      "word_id": "W1206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61003",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61003",
+      "position": 2,
+      "surface": "vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61003",
+      "position": 3,
+      "surface": "depois",
+      "word_id": "W1212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61004",
+      "position": 1,
+      "surface": "Vocês",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61004",
+      "position": 2,
+      "surface": "têm",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61004",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61004",
+      "position": 4,
+      "surface": "minuto",
+      "word_id": "W1201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61005",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61005",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61005",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61005",
+      "position": 4,
+      "surface": "minuto",
+      "word_id": "W1201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61006",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61006",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61006",
+      "position": 3,
+      "surface": "tempo",
+      "word_id": "W1213",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61006",
+      "position": 4,
+      "surface": "hoje",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61007",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61007",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61007",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61007",
+      "position": 4,
+      "surface": "segundo",
+      "word_id": "W1210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61008",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61008",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61008",
+      "position": 3,
+      "surface": "me",
+      "word_id": "W941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61008",
+      "position": 4,
+      "surface": "ligar",
+      "word_id": "W820",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61008",
+      "position": 5,
+      "surface": "depois",
+      "word_id": "W1212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 4,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 5,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61009",
+      "position": 6,
+      "surface": "segundo",
+      "word_id": "W1210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 4,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 5,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61010",
+      "position": 6,
+      "surface": "minuto",
+      "word_id": "W1201",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 2,
+      "surface": "falar",
+      "word_id": "W709",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 3,
+      "surface": "com",
+      "word_id": "W126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 4,
+      "surface": "vocês",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 5,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61011",
+      "position": 6,
+      "surface": "segundo",
+      "word_id": "W1210",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 3,
+      "surface": "pagar",
+      "word_id": "W919",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 4,
+      "surface": "agora",
+      "word_id": "W180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 5,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61012",
+      "position": 6,
+      "surface": "depois",
+      "word_id": "W1212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61013",
+      "position": 1,
+      "surface": "Que",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61013",
+      "position": 2,
+      "surface": "noite",
+      "word_id": "W1208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61014",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61014",
+      "position": 2,
+      "surface": "noite",
+      "word_id": "W1208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61015",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61015",
+      "position": 2,
+      "surface": "meio",
+      "word_id": "W1204",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61015",
+      "position": 3,
+      "surface": "cansada",
+      "word_id": "W122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61016",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61016",
+      "position": 2,
+      "surface": "meio",
+      "word_id": "W1204",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61016",
+      "position": 3,
+      "surface": "cansado",
+      "word_id": "W121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61017",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61017",
+      "position": 2,
+      "surface": "muito",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61017",
+      "position": 3,
+      "surface": "cedo",
+      "word_id": "W1209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61018",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61018",
+      "position": 2,
+      "surface": "muito",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61018",
+      "position": 3,
+      "surface": "cedo",
+      "word_id": "W1209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61019",
+      "position": 1,
+      "surface": "Estou",
+      "word_id": "W048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61019",
+      "position": 2,
+      "surface": "meio",
+      "word_id": "W1204",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61019",
+      "position": 3,
+      "surface": "feliz",
+      "word_id": "W123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61020",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61020",
+      "position": 2,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61020",
+      "position": 3,
+      "surface": "manhã",
+      "word_id": "W1206",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61021",
+      "position": 1,
+      "surface": "Espera",
+      "word_id": "W846",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61021",
+      "position": 2,
+      "surface": "cinco",
+      "word_id": "W158",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61021",
+      "position": 3,
+      "surface": "minutos",
+      "word_id": "W1202",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61021",
+      "position": 4,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61022",
+      "position": 1,
+      "surface": "São",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61022",
+      "position": 2,
+      "surface": "nove",
+      "word_id": "W162",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61022",
+      "position": 3,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61022",
+      "position": 4,
+      "surface": "meia",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61023",
+      "position": 1,
+      "surface": "Nós",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61023",
+      "position": 2,
+      "surface": "temos",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61023",
+      "position": 3,
+      "surface": "trinta",
+      "word_id": "W850",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61023",
+      "position": 4,
+      "surface": "minutos",
+      "word_id": "W1202",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61024",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61024",
+      "position": 2,
+      "surface": "tem",
+      "word_id": "W069",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61024",
+      "position": 3,
+      "surface": "três",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61024",
+      "position": 4,
+      "surface": "minutos",
+      "word_id": "W1202",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61025",
+      "position": 1,
+      "surface": "São",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61025",
+      "position": 2,
+      "surface": "três",
+      "word_id": "W156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61025",
+      "position": 3,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61025",
+      "position": 4,
+      "surface": "meia",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61026",
+      "position": 1,
+      "surface": "São",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61026",
+      "position": 2,
+      "surface": "oito",
+      "word_id": "W161",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61026",
+      "position": 3,
+      "surface": "e",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61026",
+      "position": 4,
+      "surface": "meia",
+      "word_id": "W1203",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61027",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61027",
+      "position": 2,
+      "surface": "temos",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61027",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61027",
+      "position": 4,
+      "surface": "tarde",
+      "word_id": "W1207",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61027",
+      "position": 5,
+      "surface": "toda",
+      "word_id": "W934",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61028",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61028",
+      "position": 2,
+      "surface": "temos",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61028",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61028",
+      "position": 4,
+      "surface": "noite",
+      "word_id": "W1208",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61028",
+      "position": 5,
+      "surface": "toda",
+      "word_id": "W934",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61029",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61029",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61029",
+      "position": 3,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61029",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61029",
+      "position": 5,
+      "surface": "cama",
+      "word_id": "W117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61029",
+      "position": 6,
+      "surface": "cedo",
+      "word_id": "W1209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61030",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61030",
+      "position": 2,
+      "surface": "vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61030",
+      "position": 3,
+      "surface": "estudar",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61030",
+      "position": 4,
+      "surface": "inglês",
+      "word_id": "W719",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61030",
+      "position": 5,
+      "surface": "à",
+      "word_id": "W193",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61030",
+      "position": 6,
+      "surface": "tarde",
+      "word_id": "W1207",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 3,
+      "surface": "como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 4,
+      "surface": "antes",
+      "word_id": "W1211",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 5,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61031",
+      "position": 6,
+      "surface": "sabe",
+      "word_id": "W722",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61032",
+      "position": 1,
+      "surface": "Vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61032",
+      "position": 2,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61032",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61032",
+      "position": 4,
+      "surface": "praia",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61032",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S61032",
+      "position": 6,
+      "surface": "tarde",
+      "word_id": "W1207",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A610151",
+      "sentence_id": "S61015",
+      "direction": "fr_to_en",
+      "answer": "I'm a little bit tired.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A610161",
+      "sentence_id": "S61016",
+      "direction": "fr_to_en",
+      "answer": "I'm sort of tired.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A610171",
+      "sentence_id": "S61017",
+      "direction": "fr_to_en",
+      "answer": "It's way too early.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A610201",
+      "sentence_id": "S61020",
+      "direction": "fr_to_en",
+      "answer": "It is morning.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A610281",
+      "sentence_id": "S61028",
+      "direction": "fr_to_en",
+      "answer": "We haven't got all night.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

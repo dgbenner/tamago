@@ -359,6 +359,222 @@
       "form": "custam"
     }
   ],
+  "ouvir": [
+    {
+      "person": "eu",
+      "form": "ouço"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "ouve"
+    },
+    {
+      "person": "nós",
+      "form": "ouvimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "ouvem"
+    }
+  ],
+  "chover": [
+    {
+      "person": "eu",
+      "form": "chovo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "chove"
+    },
+    {
+      "person": "nós",
+      "form": "chovemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "chovem"
+    }
+  ],
+  "pensar": [
+    {
+      "person": "eu",
+      "form": "penso"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "pensa"
+    },
+    {
+      "person": "nós",
+      "form": "pensamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "pensam"
+    }
+  ],
+  "vir": [
+    {
+      "person": "eu",
+      "form": "venho"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "vem"
+    },
+    {
+      "person": "nós",
+      "form": "vimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "vêm"
+    }
+  ],
+  "fazer": [
+    {
+      "person": "eu",
+      "form": "faço"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "faz"
+    },
+    {
+      "person": "nós",
+      "form": "fazemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "fazem"
+    }
+  ],
+  "dar": [
+    {
+      "person": "eu",
+      "form": "dou"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "dá"
+    },
+    {
+      "person": "nós",
+      "form": "damos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "dão"
+    }
+  ],
+  "abrir": [
+    {
+      "person": "eu",
+      "form": "abro"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "abre"
+    },
+    {
+      "person": "nós",
+      "form": "abrimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "abrem"
+    }
+  ],
+  "viajar": [
+    {
+      "person": "eu",
+      "form": "viajo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "viaja"
+    },
+    {
+      "person": "nós",
+      "form": "viajamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "viajam"
+    }
+  ],
+  "jogar": [
+    {
+      "person": "eu",
+      "form": "jogo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "joga"
+    },
+    {
+      "person": "nós",
+      "form": "jogamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "jogam"
+    }
+  ],
+  "achar": [
+    {
+      "person": "eu",
+      "form": "acho"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "acha"
+    },
+    {
+      "person": "nós",
+      "form": "achamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "acham"
+    }
+  ],
+  "entrar": [
+    {
+      "person": "eu",
+      "form": "entro"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "entra"
+    },
+    {
+      "person": "nós",
+      "form": "entramos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "entram"
+    }
+  ],
+  "visitar": [
+    {
+      "person": "eu",
+      "form": "visito"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "visita"
+    },
+    {
+      "person": "nós",
+      "form": "visitamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "visitam"
+    }
+  ],
   "desculpar": [
     {
       "person": "eu",
@@ -771,6 +987,691 @@
     {
       "person": "vocês, eles, elas",
       "form": "aprendem"
+    }
+  ],
+  "costumar": [
+    {
+      "person": "eu",
+      "form": "costumo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "costuma"
+    },
+    {
+      "person": "nós",
+      "form": "costumamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "costumam"
+    }
+  ],
+  "ver": [
+    {
+      "person": "eu",
+      "form": "vejo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "vê"
+    },
+    {
+      "person": "nós",
+      "form": "vemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "veem"
+    }
+  ],
+  "deixar": [
+    {
+      "person": "eu",
+      "form": "deixo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "deixa"
+    },
+    {
+      "person": "nós",
+      "form": "deixamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "deixam"
+    }
+  ],
+  "sair": [
+    {
+      "person": "eu",
+      "form": "saio"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "sai"
+    },
+    {
+      "person": "nós",
+      "form": "saímos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "saem"
+    }
+  ],
+  "acordar": [
+    {
+      "person": "eu",
+      "form": "acordo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "acorda"
+    },
+    {
+      "person": "nós",
+      "form": "acordamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "acordam"
+    }
+  ],
+  "levantar": [
+    {
+      "person": "eu",
+      "form": "levanto"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "levanta"
+    },
+    {
+      "person": "nós",
+      "form": "levantamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "levantam"
+    }
+  ],
+  "deitar": [
+    {
+      "person": "eu",
+      "form": "deito"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "deita"
+    },
+    {
+      "person": "nós",
+      "form": "deitamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "deitam"
+    }
+  ],
+  "dormir": [
+    {
+      "person": "eu",
+      "form": "durmo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "dorme"
+    },
+    {
+      "person": "nós",
+      "form": "dormimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "dormem"
+    }
+  ],
+  "tomar": [
+    {
+      "person": "eu",
+      "form": "tomo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "toma"
+    },
+    {
+      "person": "nós",
+      "form": "tomamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "tomam"
+    }
+  ],
+  "almoçar": [
+    {
+      "person": "eu",
+      "form": "almoço"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "almoça"
+    },
+    {
+      "person": "nós",
+      "form": "almoçamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "almoçam"
+    }
+  ],
+  "jantar": [
+    {
+      "person": "eu",
+      "form": "janto"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "janta"
+    },
+    {
+      "person": "nós",
+      "form": "jantamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "jantam"
+    }
+  ],
+  "lanchar": [
+    {
+      "person": "eu",
+      "form": "lancho"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "lancha"
+    },
+    {
+      "person": "nós",
+      "form": "lanchamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "lancham"
+    }
+  ],
+  "começar": [
+    {
+      "person": "eu",
+      "form": "começo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "começa"
+    },
+    {
+      "person": "nós",
+      "form": "começamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "começam"
+    }
+  ],
+  "acabar": [
+    {
+      "person": "eu",
+      "form": "acabo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "acaba"
+    },
+    {
+      "person": "nós",
+      "form": "acabamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "acabam"
+    }
+  ],
+  "trabalhar": [
+    {
+      "person": "eu",
+      "form": "trabalho"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "trabalha"
+    },
+    {
+      "person": "nós",
+      "form": "trabalhamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "trabalham"
+    }
+  ],
+  "chegar": [
+    {
+      "person": "eu",
+      "form": "chego"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "chega"
+    },
+    {
+      "person": "nós",
+      "form": "chegamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "chegam"
+    }
+  ],
+  "fechar": [
+    {
+      "person": "eu",
+      "form": "fecho"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "fecha"
+    },
+    {
+      "person": "nós",
+      "form": "fechamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "fecham"
+    }
+  ],
+  "escolher": [
+    {
+      "person": "eu",
+      "form": "escolho"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "escolhe"
+    },
+    {
+      "person": "nós",
+      "form": "escolhemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "escolhem"
+    }
+  ],
+  "completar": [
+    {
+      "person": "eu",
+      "form": "completo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "completa"
+    },
+    {
+      "person": "nós",
+      "form": "completamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "completam"
+    }
+  ],
+  "olhar": [
+    {
+      "person": "eu",
+      "form": "olho"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "olha"
+    },
+    {
+      "person": "nós",
+      "form": "olhamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "olham"
+    }
+  ],
+  "haver": [
+    {
+      "person": "eu",
+      "form": "hei"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "há"
+    },
+    {
+      "person": "nós",
+      "form": "havemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "hão"
+    }
+  ],
+  "nevar": null,
+  "sentar": [
+    {
+      "person": "eu",
+      "form": "sento"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "senta"
+    },
+    {
+      "person": "nós",
+      "form": "sentamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "sentam"
+    }
+  ],
+  "mudar": [
+    {
+      "person": "eu",
+      "form": "mudo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "muda"
+    },
+    {
+      "person": "nós",
+      "form": "mudamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "mudam"
+    }
+  ],
+  "seguir": [
+    {
+      "person": "eu",
+      "form": "sigo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "segue"
+    },
+    {
+      "person": "nós",
+      "form": "seguimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "seguem"
+    }
+  ],
+  "conseguir": [
+    {
+      "person": "eu",
+      "form": "consigo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "consegue"
+    },
+    {
+      "person": "nós",
+      "form": "conseguimos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "conseguem"
+    }
+  ],
+  "oferecer": [
+    {
+      "person": "eu",
+      "form": "ofereço"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "oferece"
+    },
+    {
+      "person": "nós",
+      "form": "oferecemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "oferecem"
+    }
+  ],
+  "lavar": [
+    {
+      "person": "eu",
+      "form": "lavo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "lava"
+    },
+    {
+      "person": "nós",
+      "form": "lavamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "lavam"
+    }
+  ],
+  "limpar": [
+    {
+      "person": "eu",
+      "form": "limpo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "limpa"
+    },
+    {
+      "person": "nós",
+      "form": "limpamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "limpam"
+    }
+  ],
+  "pintar": [
+    {
+      "person": "eu",
+      "form": "pinto"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "pinta"
+    },
+    {
+      "person": "nós",
+      "form": "pintamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "pintam"
+    }
+  ],
+  "andar": [
+    {
+      "person": "eu",
+      "form": "ando"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "anda"
+    },
+    {
+      "person": "nós",
+      "form": "andamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "andam"
+    }
+  ],
+  "passar": [
+    {
+      "person": "eu",
+      "form": "passo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "passa"
+    },
+    {
+      "person": "nós",
+      "form": "passamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "passam"
+    }
+  ],
+  "perder": [
+    {
+      "person": "eu",
+      "form": "perco"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "perde"
+    },
+    {
+      "person": "nós",
+      "form": "perdemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "perdem"
+    }
+  ],
+  "receber": [
+    {
+      "person": "eu",
+      "form": "recebo"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "recebe"
+    },
+    {
+      "person": "nós",
+      "form": "recebemos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "recebem"
+    }
+  ],
+  "correr": [
+    {
+      "person": "eu",
+      "form": "corro"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "corre"
+    },
+    {
+      "person": "nós",
+      "form": "corremos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "correm"
+    }
+  ],
+  "esquiar": [
+    {
+      "person": "eu",
+      "form": "esquio"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "esquia"
+    },
+    {
+      "person": "nós",
+      "form": "esquiamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "esquiam"
+    }
+  ],
+  "brincar": [
+    {
+      "person": "eu",
+      "form": "brinco"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "brinca"
+    },
+    {
+      "person": "nós",
+      "form": "brincamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "brincam"
+    }
+  ],
+  "tocar": [
+    {
+      "person": "eu",
+      "form": "toco"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "toca"
+    },
+    {
+      "person": "nós",
+      "form": "tocamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "tocam"
+    }
+  ],
+  "conversar": [
+    {
+      "person": "eu",
+      "form": "converso"
+    },
+    {
+      "person": "você, ele, ela",
+      "form": "conversa"
+    },
+    {
+      "person": "nós",
+      "form": "conversamos"
+    },
+    {
+      "person": "vocês, eles, elas",
+      "form": "conversam"
     }
   ]
 }

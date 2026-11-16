@@ -1,0 +1,1558 @@
+{
+  "unit_id": "U75",
+  "pulled_at": "2026-11-16",
+  "candidates": 45,
+  "sentences": [
+    {
+      "sentence_id": "S75001",
+      "unit_id": "U75",
+      "french": "A capital fica no sul.",
+      "english": "The capital is in the south.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11225410",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75002",
+      "unit_id": "U75",
+      "french": "Você vem me visitar?",
+      "english": "Are you going to come visit me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1421461",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75003",
+      "unit_id": "U75",
+      "french": "Posso visitar uma igreja?",
+      "english": "Can I visit a church?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2155637",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75004",
+      "unit_id": "U75",
+      "french": "Onde fica o norte?",
+      "english": "Where's the North?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2298203",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "akilez",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75005",
+      "unit_id": "U75",
+      "french": "A estrada está aberta?",
+      "english": "Is the road open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2781068",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75006",
+      "unit_id": "U75",
+      "french": "Posso visitar você amanhã?",
+      "english": "Do you mind my visiting you tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4836139",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Vitie",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75007",
+      "unit_id": "U75",
+      "french": "Onde está o leste?",
+      "english": "Where's east?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11228660",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75008",
+      "unit_id": "U75",
+      "french": "Onde fica o leste?",
+      "english": "Where's east?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11228661",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75009",
+      "unit_id": "U75",
+      "french": "Para onde fica o norte?",
+      "english": "Where's the North?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "838906",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75010",
+      "unit_id": "U75",
+      "french": "Sou turista.",
+      "english": "I'm a tourist.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1220278",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "I am a tourist."
+      ]
+    },
+    {
+      "sentence_id": "S75011",
+      "unit_id": "U75",
+      "french": "Sou um turista.",
+      "english": "I'm a tourist.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "514762",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "I am a tourist."
+      ]
+    },
+    {
+      "sentence_id": "S75012",
+      "unit_id": "U75",
+      "french": "A estrada está livre.",
+      "english": "The road is free.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2462078",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75013",
+      "unit_id": "U75",
+      "french": "Obrigado por sua visita.",
+      "english": "Thank you for your visit.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3629827",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75014",
+      "unit_id": "U75",
+      "french": "Eu sou um turista.",
+      "english": "I'm a tourist.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4401781",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75015",
+      "unit_id": "U75",
+      "french": "É um bom ponto.",
+      "english": "This is a good point.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5708454",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75016",
+      "unit_id": "U75",
+      "french": "Não conheço esta estrada.",
+      "english": "I don't know this road.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7090034",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75017",
+      "unit_id": "U75",
+      "french": "Vamos para o oeste.",
+      "english": "Let's go west.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11229798",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75018",
+      "unit_id": "U75",
+      "french": "São quinze quilômetros até Paris.",
+      "english": "It's fifty kilometers to Paris.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "904054",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75019",
+      "unit_id": "U75",
+      "french": "Esse é um bom ponto.",
+      "english": "This is a good point.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5708453",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75020",
+      "unit_id": "U75",
+      "french": "Este é um bom ponto.",
+      "english": "This is a good point.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5708455",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75021",
+      "unit_id": "U75",
+      "french": "Tom não visita mais Mary.",
+      "english": "Tom doesn't visit Mary anymore.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9146294",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75022",
+      "unit_id": "U75",
+      "french": "Amanhã recebo a visita de um amigo.",
+      "english": "I have a friend coming over to visit tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "824270",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75023",
+      "unit_id": "U75",
+      "french": "Para nós, o turismo é muito importante.",
+      "english": "For us tourism is very important.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2686250",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75024",
+      "unit_id": "U75",
+      "french": "Quando você vai me visitar?",
+      "english": "When will you visit me?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10121515",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lucasdcs",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75025",
+      "unit_id": "U75",
+      "french": "Vamos visitar Tom.",
+      "english": "Let's visit Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5400867",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ToinhoAlam",
+      "other_english": [
+        "Let's pay Tom a visit."
+      ]
+    },
+    {
+      "sentence_id": "S75026",
+      "unit_id": "U75",
+      "french": "Quero visitar o Tom.",
+      "english": "I want to visit Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4933852",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75027",
+      "unit_id": "U75",
+      "french": "Vamos visitar o Tom.",
+      "english": "Let's visit Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6966610",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "Let's pay Tom a visit."
+      ]
+    },
+    {
+      "sentence_id": "S75028",
+      "unit_id": "U75",
+      "french": "Eu vou visitar o Tom.",
+      "english": "I'm going to visit Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2855987",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75029",
+      "unit_id": "U75",
+      "french": "Eu não sou um turista.",
+      "english": "I'm not a tourist.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4225420",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carloseperola",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S75030",
+      "unit_id": "U75",
+      "french": "Nós vamos visitar Tom amanhã.",
+      "english": "We'll visit Tom tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4849849",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S75001",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 2,
+      "surface": "capital",
+      "word_id": "W1486",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 3,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 4,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75001",
+      "position": 5,
+      "surface": "sul",
+      "word_id": "W1488",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 2,
+      "surface": "vem",
+      "word_id": "W1267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 3,
+      "surface": "me",
+      "word_id": "W941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75002",
+      "position": 4,
+      "surface": "visitar",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 2,
+      "surface": "visitar",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75003",
+      "position": 4,
+      "surface": "igreja",
+      "word_id": "W1036",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75004",
+      "position": 4,
+      "surface": "norte",
+      "word_id": "W1487",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 2,
+      "surface": "estrada",
+      "word_id": "W1491",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75005",
+      "position": 4,
+      "surface": "aberta",
+      "word_id": "W1313",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 2,
+      "surface": "visitar",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 3,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75006",
+      "position": 4,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75007",
+      "position": 4,
+      "surface": "leste",
+      "word_id": "W1490",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75008",
+      "position": 4,
+      "surface": "leste",
+      "word_id": "W1490",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 1,
+      "surface": "Para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 2,
+      "surface": "onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 3,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75009",
+      "position": 5,
+      "surface": "norte",
+      "word_id": "W1487",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75010",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75010",
+      "position": 2,
+      "surface": "turista",
+      "word_id": "W1482",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75011",
+      "position": 1,
+      "surface": "Sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75011",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75011",
+      "position": 3,
+      "surface": "turista",
+      "word_id": "W1482",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 2,
+      "surface": "estrada",
+      "word_id": "W1491",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75012",
+      "position": 4,
+      "surface": "livre",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 1,
+      "surface": "Obrigado",
+      "word_id": "W035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 2,
+      "surface": "por",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 3,
+      "surface": "sua",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75013",
+      "position": 4,
+      "surface": "visita",
+      "word_id": "W1483",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 2,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75014",
+      "position": 4,
+      "surface": "turista",
+      "word_id": "W1482",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 3,
+      "surface": "bom",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75015",
+      "position": 4,
+      "surface": "ponto",
+      "word_id": "W1497",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 2,
+      "surface": "conheço",
+      "word_id": "W809",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 3,
+      "surface": "esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75016",
+      "position": 4,
+      "surface": "estrada",
+      "word_id": "W1491",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 2,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75017",
+      "position": 4,
+      "surface": "oeste",
+      "word_id": "W1489",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 1,
+      "surface": "São",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 2,
+      "surface": "quinze",
+      "word_id": "W827",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 3,
+      "surface": "quilômetros",
+      "word_id": "W1494",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 4,
+      "surface": "até",
+      "word_id": "W1239",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75018",
+      "position": 5,
+      "surface": "Paris",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 1,
+      "surface": "Esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 4,
+      "surface": "bom",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75019",
+      "position": 5,
+      "surface": "ponto",
+      "word_id": "W1497",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 1,
+      "surface": "Este",
+      "word_id": "W1238",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 3,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 4,
+      "surface": "bom",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75020",
+      "position": 5,
+      "surface": "ponto",
+      "word_id": "W1497",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 3,
+      "surface": "visita",
+      "word_id": "W1483",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 4,
+      "surface": "mais",
+      "word_id": "W705",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75021",
+      "position": 5,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 1,
+      "surface": "Amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 2,
+      "surface": "recebo",
+      "word_id": "W1459",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 4,
+      "surface": "visita",
+      "word_id": "W1483",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 5,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 6,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75022",
+      "position": 7,
+      "surface": "amigo",
+      "word_id": "W141",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 1,
+      "surface": "Para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 2,
+      "surface": "nós",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 4,
+      "surface": "turismo",
+      "word_id": "W1481",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 5,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 6,
+      "surface": "muito",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75023",
+      "position": 7,
+      "surface": "importante",
+      "word_id": "W1156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 4,
+      "surface": "me",
+      "word_id": "W941",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75024",
+      "position": 5,
+      "surface": "visitar",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75025",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75025",
+      "position": 2,
+      "surface": "visitar",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75025",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 1,
+      "surface": "Quero",
+      "word_id": "W893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 2,
+      "surface": "visitar",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75026",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 2,
+      "surface": "visitar",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75027",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 2,
+      "surface": "vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 3,
+      "surface": "visitar",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75028",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 3,
+      "surface": "sou",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 4,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75029",
+      "position": 5,
+      "surface": "turista",
+      "word_id": "W1482",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 1,
+      "surface": "Nós",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 2,
+      "surface": "vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 3,
+      "surface": "visitar",
+      "word_id": "W1484",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S75030",
+      "position": 5,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A750101",
+      "sentence_id": "S75010",
+      "direction": "fr_to_en",
+      "answer": "I am a tourist.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750111",
+      "sentence_id": "S75011",
+      "direction": "fr_to_en",
+      "answer": "I am a tourist.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750251",
+      "sentence_id": "S75025",
+      "direction": "fr_to_en",
+      "answer": "Let's pay Tom a visit.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A750271",
+      "sentence_id": "S75027",
+      "direction": "fr_to_en",
+      "answer": "Let's pay Tom a visit.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

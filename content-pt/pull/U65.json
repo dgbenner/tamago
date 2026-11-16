@@ -1,0 +1,1860 @@
+{
+  "unit_id": "U65",
+  "pulled_at": "2026-11-16",
+  "candidates": 1270,
+  "sentences": [
+    {
+      "sentence_id": "S65001",
+      "unit_id": "U65",
+      "french": "Eu sempre tomo banho antes de dormir.",
+      "english": "I always take a bath before going to sleep.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "729132",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "lenon_perez",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65002",
+      "unit_id": "U65",
+      "french": "Quem pode fazer esse trabalho?",
+      "english": "Who can do this work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "376488",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65003",
+      "unit_id": "U65",
+      "french": "Quem pode fazer este trabalho?",
+      "english": "Who can do this work?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2583511",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65004",
+      "unit_id": "U65",
+      "french": "Quando você vai tomar banho?",
+      "english": "When will you take a bath?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4667650",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "pamst",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65005",
+      "unit_id": "U65",
+      "french": "Onde eu posso tomar um banho?",
+      "english": "Where can I take a bath?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2462859",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65006",
+      "unit_id": "U65",
+      "french": "O que vamos fazer para o almoço?",
+      "english": "What are we doing for lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11749837",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Advanced",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65007",
+      "unit_id": "U65",
+      "french": "Eu faço almoço todo dia.",
+      "english": "I make lunch every day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "418252",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65008",
+      "unit_id": "U65",
+      "french": "Tomo café depois de jantar.",
+      "english": "I drink coffee after dinner.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "964848",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65009",
+      "unit_id": "U65",
+      "french": "O trabalho vai começar amanhã.",
+      "english": "Work is due to begin tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "987314",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65010",
+      "unit_id": "U65",
+      "french": "Quando começo?",
+      "english": "When do I get started?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1058501",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65011",
+      "unit_id": "U65",
+      "french": "Posso começar?",
+      "english": "Can I begin?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3173583",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": [
+        "May I begin?"
+      ]
+    },
+    {
+      "sentence_id": "S65012",
+      "unit_id": "U65",
+      "french": "Onde começo?",
+      "english": "Where do I begin?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5346918",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65013",
+      "unit_id": "U65",
+      "french": "O que você faz?",
+      "english": "What do you do?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "393640",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "What is your occupation?"
+      ]
+    },
+    {
+      "sentence_id": "S65014",
+      "unit_id": "U65",
+      "french": "O que ela faz?",
+      "english": "What does she do?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1190046",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "What does she make?"
+      ]
+    },
+    {
+      "sentence_id": "S65015",
+      "unit_id": "U65",
+      "french": "Você vai jantar?",
+      "english": "Will you eat dinner?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1552833",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65016",
+      "unit_id": "U65",
+      "french": "Posso dormir aqui?",
+      "english": "Can I sleep here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1916099",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65017",
+      "unit_id": "U65",
+      "french": "Onde eu durmo?",
+      "english": "Where do I sleep?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2412383",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65018",
+      "unit_id": "U65",
+      "french": "Posso trabalhar aqui?",
+      "english": "Can I work here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3040892",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65019",
+      "unit_id": "U65",
+      "french": "Posso começar de novo?",
+      "english": "Can I start again?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3449520",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65020",
+      "unit_id": "U65",
+      "french": "O que isso faz?",
+      "english": "What does that do?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3762386",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65021",
+      "unit_id": "U65",
+      "french": "Como eu faço?",
+      "english": "How do I do it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4388091",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65022",
+      "unit_id": "U65",
+      "french": "Como faço isso?",
+      "english": "How do I do that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4388092",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65023",
+      "unit_id": "U65",
+      "french": "Você quer dormir?",
+      "english": "Do you want to sleep?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5151418",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65024",
+      "unit_id": "U65",
+      "french": "Posso almoçar aqui?",
+      "english": "Can I eat my lunch here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5203502",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rwv",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65025",
+      "unit_id": "U65",
+      "french": "Quer tomar chá?",
+      "english": "Do you want to drink some tea?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5205679",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65026",
+      "unit_id": "U65",
+      "french": "Quando vamos chegar?",
+      "english": "When do we arrive?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5461255",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": [
+        "When will we get there?"
+      ]
+    },
+    {
+      "sentence_id": "S65027",
+      "unit_id": "U65",
+      "french": "Não quer almoçar?",
+      "english": "Don't you want to eat lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6398012",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65028",
+      "unit_id": "U65",
+      "french": "Por onde começo?",
+      "english": "Where do I start?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7500481",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65029",
+      "unit_id": "U65",
+      "french": "Vai trabalhar hoje?",
+      "english": "Are you going to work today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8443908",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65030",
+      "unit_id": "U65",
+      "french": "Quer trabalhar aqui?",
+      "english": "Do you want to work here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9162175",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65031",
+      "unit_id": "U65",
+      "french": "Como posso chegar lá?",
+      "english": "How can I get there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "871768",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65032",
+      "unit_id": "U65",
+      "french": "Onde você vai almoçar?",
+      "english": "Where are you going to eat lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "956516",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65033",
+      "unit_id": "U65",
+      "french": "Como vamos chegar lá?",
+      "english": "How are we going to get there?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1466483",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65034",
+      "unit_id": "U65",
+      "french": "Como chego na biblioteca?",
+      "english": "How do I get to the library?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2447329",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65035",
+      "unit_id": "U65",
+      "french": "Por que não vamos jantar?",
+      "english": "Why don't we have dinner?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2811972",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65036",
+      "unit_id": "U65",
+      "french": "Como isso vai acabar?",
+      "english": "How's this going to end?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3455556",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "piterkeo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65037",
+      "unit_id": "U65",
+      "french": "Tom, você vai levantar?",
+      "english": "Tom, will you get up?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4600035",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65038",
+      "unit_id": "U65",
+      "french": "Quando isso vai acabar?",
+      "english": "When will it end?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4698944",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "teepsa",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65039",
+      "unit_id": "U65",
+      "french": "Como eu chego ao aeroporto?",
+      "english": "How do I get to the airport?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1667054",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S65040",
+      "unit_id": "U65",
+      "french": "Você come pão no almoço?",
+      "english": "Do you eat bread during lunch?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2149181",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S65001",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 2,
+      "surface": "sempre",
+      "word_id": "W1229",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 3,
+      "surface": "tomo",
+      "word_id": "W1290",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 4,
+      "surface": "banho",
+      "word_id": "W1292",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 5,
+      "surface": "antes",
+      "word_id": "W1211",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 6,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65001",
+      "position": 7,
+      "surface": "dormir",
+      "word_id": "W1289",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 1,
+      "surface": "Quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 3,
+      "surface": "fazer",
+      "word_id": "W1309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 4,
+      "surface": "esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65002",
+      "position": 5,
+      "surface": "trabalho",
+      "word_id": "W1303",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65003",
+      "position": 1,
+      "surface": "Quem",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65003",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65003",
+      "position": 3,
+      "surface": "fazer",
+      "word_id": "W1309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65003",
+      "position": 4,
+      "surface": "este",
+      "word_id": "W1238",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65003",
+      "position": 5,
+      "surface": "trabalho",
+      "word_id": "W1303",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65004",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65004",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65004",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65004",
+      "position": 4,
+      "surface": "tomar",
+      "word_id": "W1291",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65004",
+      "position": 5,
+      "surface": "banho",
+      "word_id": "W1292",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 3,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 4,
+      "surface": "tomar",
+      "word_id": "W1291",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 5,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65005",
+      "position": 6,
+      "surface": "banho",
+      "word_id": "W1292",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 2,
+      "surface": "vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 3,
+      "surface": "fazer",
+      "word_id": "W1309",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 5,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65006",
+      "position": 6,
+      "surface": "almoço",
+      "word_id": "W1293",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 2,
+      "surface": "faço",
+      "word_id": "W1307",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 3,
+      "surface": "almoço",
+      "word_id": "W1293",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 4,
+      "surface": "todo",
+      "word_id": "W933",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65007",
+      "position": 5,
+      "surface": "dia",
+      "word_id": "W181",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 1,
+      "surface": "Tomo",
+      "word_id": "W1290",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 2,
+      "surface": "café",
+      "word_id": "W064",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 3,
+      "surface": "depois",
+      "word_id": "W1212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 4,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65008",
+      "position": 5,
+      "surface": "jantar",
+      "word_id": "W1296",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 2,
+      "surface": "trabalho",
+      "word_id": "W1303",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 4,
+      "surface": "começar",
+      "word_id": "W1300",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65009",
+      "position": 5,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65010",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65010",
+      "position": 2,
+      "surface": "começo",
+      "word_id": "W1299",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65011",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65011",
+      "position": 2,
+      "surface": "começar",
+      "word_id": "W1300",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65012",
+      "position": 2,
+      "surface": "começo",
+      "word_id": "W1299",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65013",
+      "position": 3,
+      "surface": "faz",
+      "word_id": "W1308",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 2,
+      "surface": "ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65014",
+      "position": 3,
+      "surface": "faz",
+      "word_id": "W1308",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65015",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65015",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65015",
+      "position": 3,
+      "surface": "jantar",
+      "word_id": "W1296",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65016",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65016",
+      "position": 2,
+      "surface": "dormir",
+      "word_id": "W1289",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65016",
+      "position": 3,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65017",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65017",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65017",
+      "position": 3,
+      "surface": "durmo",
+      "word_id": "W1288",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65018",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65018",
+      "position": 2,
+      "surface": "trabalhar",
+      "word_id": "W1304",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65018",
+      "position": 3,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65019",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65019",
+      "position": 2,
+      "surface": "começar",
+      "word_id": "W1300",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65019",
+      "position": 3,
+      "surface": "de novo",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 1,
+      "surface": "O que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 2,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65020",
+      "position": 3,
+      "surface": "faz",
+      "word_id": "W1308",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65021",
+      "position": 3,
+      "surface": "faço",
+      "word_id": "W1307",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 2,
+      "surface": "faço",
+      "word_id": "W1307",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65022",
+      "position": 3,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65023",
+      "position": 3,
+      "surface": "dormir",
+      "word_id": "W1289",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65024",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65024",
+      "position": 2,
+      "surface": "almoçar",
+      "word_id": "W1294",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65024",
+      "position": 3,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65025",
+      "position": 1,
+      "surface": "Quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65025",
+      "position": 2,
+      "surface": "tomar",
+      "word_id": "W1291",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65025",
+      "position": 3,
+      "surface": "chá",
+      "word_id": "W065",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65026",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65026",
+      "position": 2,
+      "surface": "vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65026",
+      "position": 3,
+      "surface": "chegar",
+      "word_id": "W1306",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65027",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65027",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65027",
+      "position": 3,
+      "surface": "almoçar",
+      "word_id": "W1294",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65028",
+      "position": 1,
+      "surface": "Por",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65028",
+      "position": 2,
+      "surface": "onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65028",
+      "position": 3,
+      "surface": "começo",
+      "word_id": "W1299",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65029",
+      "position": 1,
+      "surface": "Vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65029",
+      "position": 2,
+      "surface": "trabalhar",
+      "word_id": "W1304",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65029",
+      "position": 3,
+      "surface": "hoje",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65030",
+      "position": 1,
+      "surface": "Quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65030",
+      "position": 2,
+      "surface": "trabalhar",
+      "word_id": "W1304",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65030",
+      "position": 3,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 2,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 3,
+      "surface": "chegar",
+      "word_id": "W1306",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65031",
+      "position": 4,
+      "surface": "lá",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65032",
+      "position": 4,
+      "surface": "almoçar",
+      "word_id": "W1294",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 2,
+      "surface": "vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 3,
+      "surface": "chegar",
+      "word_id": "W1306",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65033",
+      "position": 4,
+      "surface": "lá",
+      "word_id": "W112",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 2,
+      "surface": "chego",
+      "word_id": "W1305",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 3,
+      "surface": "na",
+      "word_id": "W115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65034",
+      "position": 4,
+      "surface": "biblioteca",
+      "word_id": "W1133",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65035",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65035",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65035",
+      "position": 3,
+      "surface": "vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65035",
+      "position": 4,
+      "surface": "jantar",
+      "word_id": "W1296",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65036",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65036",
+      "position": 2,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65036",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65036",
+      "position": 4,
+      "surface": "acabar",
+      "word_id": "W1302",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65037",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65037",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65037",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65037",
+      "position": 4,
+      "surface": "levantar",
+      "word_id": "W1285",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65038",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65038",
+      "position": 2,
+      "surface": "isso",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65038",
+      "position": 3,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65038",
+      "position": 4,
+      "surface": "acabar",
+      "word_id": "W1302",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65039",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65039",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65039",
+      "position": 3,
+      "surface": "chego",
+      "word_id": "W1305",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65039",
+      "position": 4,
+      "surface": "ao",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65039",
+      "position": 5,
+      "surface": "aeroporto",
+      "word_id": "W1045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65040",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65040",
+      "position": 2,
+      "surface": "come",
+      "word_id": "W053",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65040",
+      "position": 3,
+      "surface": "pão",
+      "word_id": "W059",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65040",
+      "position": 4,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S65040",
+      "position": 5,
+      "surface": "almoço",
+      "word_id": "W1293",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A650111",
+      "sentence_id": "S65011",
+      "direction": "fr_to_en",
+      "answer": "May I begin?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650131",
+      "sentence_id": "S65013",
+      "direction": "fr_to_en",
+      "answer": "What is your occupation?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650141",
+      "sentence_id": "S65014",
+      "direction": "fr_to_en",
+      "answer": "What does she make?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A650261",
+      "sentence_id": "S65026",
+      "direction": "fr_to_en",
+      "answer": "When will we get there?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

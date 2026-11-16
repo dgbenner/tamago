@@ -14,5 +14,21 @@
     "fields_json": "[{\"key\":\"first\",\"label\":\"Nome\",\"rule\":\"text\",\"answer\":\"Ana\"},{\"key\":\"last\",\"label\":\"Sobrenome\",\"rule\":\"text\",\"answer\":\"Costa\"},{\"key\":\"age\",\"label\":\"Idade\",\"rule\":\"number\",\"answer\":\"30\"},{\"key\":\"nat\",\"label\":\"Nacionalidade\",\"rule\":\"text\",\"answer\":\"brasileira\",\"also\":[\"brasileiro\",\"Brasileira\"]},{\"key\":\"country\",\"label\":\"País\",\"rule\":\"text\",\"answer\":\"França\",\"also\":[\"Franca\"]},{\"key\":\"tel\",\"label\":\"Telefone\",\"rule\":\"phone\",\"answer\":\"03 11 15 19 20\"}]",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "F201",
+    "unit_id": "U64",
+    "card": "O João e a Ana vão ao cinema no sábado às oito e meia da noite. Eles se encontram na praça.",
+    "fields_json": "[{\"key\":\"day\",\"label\":\"Dia\",\"rule\":\"text\",\"answer\":\"sábado\",\"also\":[\"Sábado\",\"no sábado\"]},{\"key\":\"time\",\"label\":\"Hora\",\"rule\":\"text\",\"answer\":\"20:30\",\"also\":[\"8:30\",\"20h30\",\"8h30\",\"oito e meia\",\"às oito e meia\"]},{\"key\":\"where\",\"label\":\"Onde\",\"rule\":\"text\",\"answer\":\"na praça\",\"also\":[\"praça\",\"a praça\",\"Na praça\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "F202",
+    "unit_id": "U65",
+    "card": "Meu nome é Ana. Tomo café da manhã às sete. Começo o trabalho às nove e acabo às cinco.",
+    "fields_json": "[{\"key\":\"name\",\"label\":\"Nome\",\"rule\":\"text\",\"answer\":\"Ana\"},{\"key\":\"breakfast\",\"label\":\"Café da manhã\",\"rule\":\"text\",\"answer\":\"7:00\",\"also\":[\"7\",\"7h\",\"sete\",\"às sete\"]},{\"key\":\"start\",\"label\":\"Começo do trabalho\",\"rule\":\"text\",\"answer\":\"9:00\",\"also\":[\"9\",\"9h\",\"nove\",\"às nove\"]},{\"key\":\"end\",\"label\":\"Fim do trabalho\",\"rule\":\"text\",\"answer\":\"17:00\",\"also\":[\"5\",\"5:00\",\"17\",\"17h\",\"cinco\",\"às cinco\"]}]",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

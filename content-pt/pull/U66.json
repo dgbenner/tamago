@@ -1,0 +1,1995 @@
+{
+  "unit_id": "U66",
+  "pulled_at": "2026-11-16",
+  "candidates": 152,
+  "sentences": [
+    {
+      "sentence_id": "S66001",
+      "unit_id": "U66",
+      "french": "A porta está aberta ou fechada?",
+      "english": "Is the door open or closed?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11137391",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66002",
+      "unit_id": "U66",
+      "french": "Você abre a porta?",
+      "english": "Will you please open the door?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "881439",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66003",
+      "unit_id": "U66",
+      "french": "Posso fechar a porta?",
+      "english": "Can I close the door?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3449532",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66004",
+      "unit_id": "U66",
+      "french": "A padaria está aberta.",
+      "english": "The bakery is open.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6380287",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66005",
+      "unit_id": "U66",
+      "french": "Posso abrir a porta?",
+      "english": "May I open the door?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4858629",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66006",
+      "unit_id": "U66",
+      "french": "Você pode fechar a porta?",
+      "english": "Can you close the door?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1417430",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Could you shut the door?"
+      ]
+    },
+    {
+      "sentence_id": "S66007",
+      "unit_id": "U66",
+      "french": "Você pode abrir essa porta?",
+      "english": "Can you open this door?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3448022",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66008",
+      "unit_id": "U66",
+      "french": "Por que a porta está aberta?",
+      "english": "Why is the door open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5096098",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66009",
+      "unit_id": "U66",
+      "french": "Pode abrir a porta, por favor?",
+      "english": "Can you open the door, please?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9766234",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66010",
+      "unit_id": "U66",
+      "french": "Pode fechar essa porta, por favor?",
+      "english": "Could you close that door?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13764613",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66011",
+      "unit_id": "U66",
+      "french": "Quando fecha?",
+      "english": "When does it close?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3806592",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Laudemilson",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66012",
+      "unit_id": "U66",
+      "french": "Quando você fecha?",
+      "english": "When do you close?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11099244",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "DiploIago",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66013",
+      "unit_id": "U66",
+      "french": "Quando a loja fecha?",
+      "english": "When does the shop close?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1089921",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bufo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66014",
+      "unit_id": "U66",
+      "french": "Onde está a saída?",
+      "english": "Where is the exit?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1200523",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": [
+        "Where is the way out?"
+      ]
+    },
+    {
+      "sentence_id": "S66015",
+      "unit_id": "U66",
+      "french": "Onde é a saída?",
+      "english": "Where is the way out?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1235360",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66016",
+      "unit_id": "U66",
+      "french": "Onde fica a farmácia?",
+      "english": "Where's the pharmacy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4278988",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66017",
+      "unit_id": "U66",
+      "french": "O banco está aberto?",
+      "english": "Is the bank open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4371625",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66018",
+      "unit_id": "U66",
+      "french": "Quando o museu abre?",
+      "english": "When is the museum open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11099246",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "DiploIago",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66019",
+      "unit_id": "U66",
+      "french": "Quando o restaurante abre?",
+      "english": "When does the restaurant open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11683183",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66020",
+      "unit_id": "U66",
+      "french": "Com licença. O supermercado está aberto?",
+      "english": "Excuse me. Is the supermarket open?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1926648",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66021",
+      "unit_id": "U66",
+      "french": "Com licença. Esta é a farmácia?",
+      "english": "Excuse me. Is this the pharmacy?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2484960",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MarlonX19",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66022",
+      "unit_id": "U66",
+      "french": "O banco está aberto hoje?",
+      "english": "Is the bank open today?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2707261",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66023",
+      "unit_id": "U66",
+      "french": "Por que é proibido nadar aqui?",
+      "english": "Why is swimming not permitted here?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5089765",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66024",
+      "unit_id": "U66",
+      "french": "Por que a loja está fechada?",
+      "english": "Why is the store closed?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6062000",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66025",
+      "unit_id": "U66",
+      "french": "Por que Tom quer esta informação?",
+      "english": "Why does Tom want this information?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10712252",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66026",
+      "unit_id": "U66",
+      "french": "Por que Tom quer essa informação?",
+      "english": "Why does Tom want that information?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10712747",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66027",
+      "unit_id": "U66",
+      "french": "Não há uma farmácia por aqui?",
+      "english": "Isn't there a pharmacy nearby?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1632206",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66028",
+      "unit_id": "U66",
+      "french": "Onde é a entrada para o museu?",
+      "english": "Where's the entrance to the museum?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "405544",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": [
+        "Where is the entrance to the museum?"
+      ]
+    },
+    {
+      "sentence_id": "S66029",
+      "unit_id": "U66",
+      "french": "A porta está fechada.",
+      "english": "The door is closed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4837381",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66030",
+      "unit_id": "U66",
+      "french": "Proibido nadar.",
+      "english": "No swimming.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "951463",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "gobr",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66031",
+      "unit_id": "U66",
+      "french": "É proibido.",
+      "english": "It's forbidden.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4808996",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66032",
+      "unit_id": "U66",
+      "french": "Tudo está fechado.",
+      "english": "Everything is closed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5228880",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66033",
+      "unit_id": "U66",
+      "french": "O aeroporto está fechado.",
+      "english": "The airport is closed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4993518",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66034",
+      "unit_id": "U66",
+      "french": "Tom está no estacionamento.",
+      "english": "Tom is in the parking lot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5004792",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66035",
+      "unit_id": "U66",
+      "french": "O banco está fechado.",
+      "english": "The bank is closed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5632259",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66036",
+      "unit_id": "U66",
+      "french": "Obrigado por essa informação.",
+      "english": "Thank you for that information.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11242734",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "zWreXczV7J",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66037",
+      "unit_id": "U66",
+      "french": "A saída é ali.",
+      "english": "The exit is over there.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11910389",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66038",
+      "unit_id": "U66",
+      "french": "Eu trabalho em uma padaria.",
+      "english": "I work at a bakery.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5962740",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "sergiomelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S66039",
+      "unit_id": "U66",
+      "french": "O carro de Tom está no estacionamento.",
+      "english": "Tom's car is in the parking lot.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6070461",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S66001",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66001",
+      "position": 2,
+      "surface": "porta",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66001",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66001",
+      "position": 4,
+      "surface": "aberta",
+      "word_id": "W1313",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66001",
+      "position": 5,
+      "surface": "ou",
+      "word_id": "W937",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66001",
+      "position": 6,
+      "surface": "fechada",
+      "word_id": "W1315",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 2,
+      "surface": "abre",
+      "word_id": "W1316",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66002",
+      "position": 4,
+      "surface": "porta",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 2,
+      "surface": "fechar",
+      "word_id": "W1319",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66003",
+      "position": 4,
+      "surface": "porta",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 2,
+      "surface": "padaria",
+      "word_id": "W1322",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66004",
+      "position": 4,
+      "surface": "aberta",
+      "word_id": "W1313",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 2,
+      "surface": "abrir",
+      "word_id": "W1317",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66005",
+      "position": 4,
+      "surface": "porta",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 3,
+      "surface": "fechar",
+      "word_id": "W1319",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66006",
+      "position": 5,
+      "surface": "porta",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 2,
+      "surface": "pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 3,
+      "surface": "abrir",
+      "word_id": "W1317",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 4,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66007",
+      "position": 5,
+      "surface": "porta",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 3,
+      "surface": "porta",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 4,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66008",
+      "position": 5,
+      "surface": "aberta",
+      "word_id": "W1313",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 1,
+      "surface": "Pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 2,
+      "surface": "abrir",
+      "word_id": "W1317",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 4,
+      "surface": "porta",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66009",
+      "position": 5,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 1,
+      "surface": "Pode",
+      "word_id": "W707",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 2,
+      "surface": "fechar",
+      "word_id": "W1319",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 3,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 4,
+      "surface": "porta",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66010",
+      "position": 5,
+      "surface": "por favor",
+      "word_id": "W037",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66011",
+      "position": 2,
+      "surface": "fecha",
+      "word_id": "W1318",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66012",
+      "position": 3,
+      "surface": "fecha",
+      "word_id": "W1318",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 3,
+      "surface": "loja",
+      "word_id": "W196",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66013",
+      "position": 4,
+      "surface": "fecha",
+      "word_id": "W1318",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66014",
+      "position": 4,
+      "surface": "saída",
+      "word_id": "W1311",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66015",
+      "position": 4,
+      "surface": "saída",
+      "word_id": "W1311",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 2,
+      "surface": "fica",
+      "word_id": "W1048",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66016",
+      "position": 4,
+      "surface": "farmácia",
+      "word_id": "W1321",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 2,
+      "surface": "banco",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66017",
+      "position": 4,
+      "surface": "aberto",
+      "word_id": "W1312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 3,
+      "surface": "museu",
+      "word_id": "W1035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66018",
+      "position": 4,
+      "surface": "abre",
+      "word_id": "W1316",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 3,
+      "surface": "restaurante",
+      "word_id": "W198",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66019",
+      "position": 4,
+      "surface": "abre",
+      "word_id": "W1316",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 1,
+      "surface": "Com licença",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 2,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 3,
+      "surface": "supermercado",
+      "word_id": "W890",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 4,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66020",
+      "position": 5,
+      "surface": "aberto",
+      "word_id": "W1312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 1,
+      "surface": "Com licença",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 2,
+      "surface": "Esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 4,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66021",
+      "position": 5,
+      "surface": "farmácia",
+      "word_id": "W1321",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 2,
+      "surface": "banco",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 4,
+      "surface": "aberto",
+      "word_id": "W1312",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66022",
+      "position": 5,
+      "surface": "hoje",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 3,
+      "surface": "proibido",
+      "word_id": "W1326",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 4,
+      "surface": "nadar",
+      "word_id": "W1025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66023",
+      "position": 5,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 3,
+      "surface": "loja",
+      "word_id": "W196",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 4,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66024",
+      "position": 5,
+      "surface": "fechada",
+      "word_id": "W1315",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 4,
+      "surface": "esta",
+      "word_id": "W1237",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66025",
+      "position": 5,
+      "surface": "informação",
+      "word_id": "W1320",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 3,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 4,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66026",
+      "position": 5,
+      "surface": "informação",
+      "word_id": "W1320",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 1,
+      "surface": "Não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 2,
+      "surface": "há",
+      "word_id": "W1421",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 3,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 4,
+      "surface": "farmácia",
+      "word_id": "W1321",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 5,
+      "surface": "por",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66027",
+      "position": 6,
+      "surface": "aqui",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 1,
+      "surface": "Onde",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 2,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 4,
+      "surface": "entrada",
+      "word_id": "W1310",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 5,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 6,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66028",
+      "position": 7,
+      "surface": "museu",
+      "word_id": "W1035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 2,
+      "surface": "porta",
+      "word_id": "W1324",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66029",
+      "position": 4,
+      "surface": "fechada",
+      "word_id": "W1315",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 1,
+      "surface": "Proibido",
+      "word_id": "W1326",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66030",
+      "position": 2,
+      "surface": "nadar",
+      "word_id": "W1025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66031",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66031",
+      "position": 2,
+      "surface": "proibido",
+      "word_id": "W1326",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66032",
+      "position": 1,
+      "surface": "Tudo",
+      "word_id": "W045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66032",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66032",
+      "position": 3,
+      "surface": "fechado",
+      "word_id": "W1314",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66033",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66033",
+      "position": 2,
+      "surface": "aeroporto",
+      "word_id": "W1045",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66033",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66033",
+      "position": 4,
+      "surface": "fechado",
+      "word_id": "W1314",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66034",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66034",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66034",
+      "position": 3,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66034",
+      "position": 4,
+      "surface": "estacionamento",
+      "word_id": "W1325",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66035",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66035",
+      "position": 2,
+      "surface": "banco",
+      "word_id": "W1044",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66035",
+      "position": 3,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66035",
+      "position": 4,
+      "surface": "fechado",
+      "word_id": "W1314",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66036",
+      "position": 1,
+      "surface": "Obrigado",
+      "word_id": "W035",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66036",
+      "position": 2,
+      "surface": "por",
+      "word_id": "W1417",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66036",
+      "position": 3,
+      "surface": "essa",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66036",
+      "position": 4,
+      "surface": "informação",
+      "word_id": "W1320",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66037",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66037",
+      "position": 2,
+      "surface": "saída",
+      "word_id": "W1311",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66037",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66037",
+      "position": 4,
+      "surface": "ali",
+      "word_id": "W1403",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66038",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66038",
+      "position": 2,
+      "surface": "trabalho",
+      "word_id": "W1303",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66038",
+      "position": 3,
+      "surface": "em",
+      "word_id": "W113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66038",
+      "position": 4,
+      "surface": "uma",
+      "word_id": "W011",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66038",
+      "position": 5,
+      "surface": "padaria",
+      "word_id": "W1322",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66039",
+      "position": 1,
+      "surface": "O",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66039",
+      "position": 2,
+      "surface": "carro",
+      "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66039",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66039",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66039",
+      "position": 5,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66039",
+      "position": 6,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S66039",
+      "position": 7,
+      "surface": "estacionamento",
+      "word_id": "W1325",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A660061",
+      "sentence_id": "S66006",
+      "direction": "fr_to_en",
+      "answer": "Could you shut the door?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660141",
+      "sentence_id": "S66014",
+      "direction": "fr_to_en",
+      "answer": "Where is the way out?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A660281",
+      "sentence_id": "S66028",
+      "direction": "fr_to_en",
+      "answer": "Where is the entrance to the museum?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

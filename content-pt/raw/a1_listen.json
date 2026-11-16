@@ -124,5 +124,113 @@
     "answer": "50",
     "status": "draft: written for Tamago, native check",
     "notes": ""
+  },
+  {
+    "id": "N201",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "São três e meia.",
+    "answer": "3:30",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N202",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "São oito e quinze.",
+    "answer": "8:15",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N203",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "É meio-dia.",
+    "answer": "12:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N204",
+    "unit_id": "U61",
+    "kind": "time",
+    "say": "São quinze para as dez.",
+    "answer": "9:45",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N205",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Cinco de março.",
+    "answer": "5/3",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N206",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Primeiro de maio.",
+    "answer": "1/5",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N207",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Quinze de setembro.",
+    "answer": "15/9",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N208",
+    "unit_id": "U63",
+    "kind": "date",
+    "say": "Trinta de dezembro.",
+    "answer": "30/12",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N209",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "O ônibus sai às quatro e vinte.",
+    "answer": "4:20",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N210",
+    "unit_id": "U67",
+    "kind": "time",
+    "say": "O trem chega às nove e dez.",
+    "answer": "9:10",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N211",
+    "unit_id": "U68",
+    "kind": "time",
+    "say": "Atenção: o ônibus para o Rio sai às seis.",
+    "answer": "6:00",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "N212",
+    "unit_id": "U68",
+    "kind": "number",
+    "say": "O voo para São Paulo sai do portão sete.",
+    "answer": "7",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
   }
 ]

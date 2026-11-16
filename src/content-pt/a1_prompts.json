@@ -33,5 +33,40 @@
     ],
     "min_words": 20,
     "max_words": 35
+  },
+  {
+    "id": "P201",
+    "unit_id": "U62",
+    "prompt": "Write a short message to a friend about your week: what you do on two days.",
+    "points": [
+      "two days",
+      "what you do"
+    ],
+    "min_words": 20,
+    "max_words": 35
+  },
+  {
+    "id": "P202",
+    "unit_id": "U64",
+    "prompt": "Write a short message to invite a friend out: what, which day and what time.",
+    "points": [
+      "what",
+      "which day",
+      "what time"
+    ],
+    "min_words": 20,
+    "max_words": 35
+  },
+  {
+    "id": "P203",
+    "unit_id": "U65",
+    "prompt": "Write a few lines about your day: when you get up, work and have dinner.",
+    "points": [
+      "when you get up",
+      "when you work",
+      "when you have dinner"
+    ],
+    "min_words": 20,
+    "max_words": 35
   }
 ]

@@ -1,0 +1,1450 @@
+{
+  "unit_id": "U64",
+  "pulled_at": "2026-11-16",
+  "candidates": 330,
+  "sentences": [
+    {
+      "sentence_id": "S64001",
+      "unit_id": "U64",
+      "french": "Está livre?",
+      "english": "Are you free?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1006410",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64002",
+      "unit_id": "U64",
+      "french": "Vamos juntos?",
+      "english": "Shall we go together?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1052841",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64003",
+      "unit_id": "U64",
+      "french": "Você vem?",
+      "english": "Are you coming?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1417465",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64004",
+      "unit_id": "U64",
+      "french": "Posso vir?",
+      "english": "Can I come?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1429454",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64005",
+      "unit_id": "U64",
+      "french": "Quer vir?",
+      "english": "Would you like to come?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5568885",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64006",
+      "unit_id": "U64",
+      "french": "Quando você vem?",
+      "english": "When will you come?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1154234",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "tulio",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64007",
+      "unit_id": "U64",
+      "french": "Você está livre?",
+      "english": "Are you free?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1201247",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Are you available?"
+      ]
+    },
+    {
+      "sentence_id": "S64008",
+      "unit_id": "U64",
+      "french": "Você quer vir?",
+      "english": "Do you want to come?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1212848",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": [
+        "Do you want to come along?"
+      ]
+    },
+    {
+      "sentence_id": "S64009",
+      "unit_id": "U64",
+      "french": "Ela também vem?",
+      "english": "Is she coming, too?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1235276",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64010",
+      "unit_id": "U64",
+      "french": "Como eu saio?",
+      "english": "How can I leave?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3762400",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64011",
+      "unit_id": "U64",
+      "french": "Você quer sair?",
+      "english": "Do you want to go out?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5030873",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": [
+        "Do you want to quit?"
+      ]
+    },
+    {
+      "sentence_id": "S64012",
+      "unit_id": "U64",
+      "french": "Você vai sair?",
+      "english": "Are you going out?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6780650",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64013",
+      "unit_id": "U64",
+      "french": "Posso sair cedo?",
+      "english": "May I leave early?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6839787",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Wagner1994",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64014",
+      "unit_id": "U64",
+      "french": "Você está livre amanhã?",
+      "english": "Are you free tomorrow?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1331758",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64015",
+      "unit_id": "U64",
+      "french": "Você gosta de teatro?",
+      "english": "Do you like the theater?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3072546",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64016",
+      "unit_id": "U64",
+      "french": "Por que eles não estão juntos?",
+      "english": "Why aren't they together?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8072275",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "MacGyver",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64017",
+      "unit_id": "U64",
+      "french": "Sobre o que é o filme?",
+      "english": "What's the movie about?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10272631",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64018",
+      "unit_id": "U64",
+      "french": "Venho sexta-feira.",
+      "english": "I will come Friday.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3442032",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64019",
+      "unit_id": "U64",
+      "french": "Vejo você depois.",
+      "english": "I'll see you later.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "875875",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64020",
+      "unit_id": "U64",
+      "french": "Vamos ao cinema.",
+      "english": "We are going to the cinema.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "985341",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64021",
+      "unit_id": "U64",
+      "french": "Vejo um livro.",
+      "english": "I see a book.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "985356",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64022",
+      "unit_id": "U64",
+      "french": "Vou ao cinema.",
+      "english": "I'm going to the cinema.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1058439",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "brauliobezerra",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64023",
+      "unit_id": "U64",
+      "french": "Vejo o homem.",
+      "english": "I see the man.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1918006",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64024",
+      "unit_id": "U64",
+      "french": "Eu nunca saio.",
+      "english": "I never go out.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4897746",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64025",
+      "unit_id": "U64",
+      "french": "Vamos dançar juntos.",
+      "english": "Let's dance together.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5140679",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64026",
+      "unit_id": "U64",
+      "french": "Vamos ao circo.",
+      "english": "Let's go to the circus.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9102529",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64027",
+      "unit_id": "U64",
+      "french": "Vamos ao teatro.",
+      "english": "Let's go to the theater.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11471047",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "carlosalberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64028",
+      "unit_id": "U64",
+      "french": "Hoje eu não venho.",
+      "english": "I am not coming today.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1608976",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64029",
+      "unit_id": "U64",
+      "french": "Eu venho quando posso.",
+      "english": "I come when I can.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5201658",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "ajdavidl",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64030",
+      "unit_id": "U64",
+      "french": "É um bom filme.",
+      "english": "It's a good movie.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5272410",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64031",
+      "unit_id": "U64",
+      "french": "Eu não saio muito.",
+      "english": "I don't go out much.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6017798",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "bill",
+      "other_english": [
+        "I don't get out much."
+      ]
+    },
+    {
+      "sentence_id": "S64032",
+      "unit_id": "U64",
+      "french": "Vamos para o circo.",
+      "english": "Let's go to the circus.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "9102532",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "JGEN",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64033",
+      "unit_id": "U64",
+      "french": "Nós não estamos no cinema.",
+      "english": "We are not at the cinema.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2582496",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "alexmarcelo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S64034",
+      "unit_id": "U64",
+      "french": "Esse filme é para crianças.",
+      "english": "This film is for children.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8317585",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Virechi",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S64001",
+      "position": 1,
+      "surface": "Está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64001",
+      "position": 2,
+      "surface": "livre",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64002",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64002",
+      "position": 2,
+      "surface": "juntos",
+      "word_id": "W1275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64003",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64003",
+      "position": 2,
+      "surface": "vem",
+      "word_id": "W1267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64004",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64004",
+      "position": 2,
+      "surface": "vir",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64005",
+      "position": 1,
+      "surface": "Quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64005",
+      "position": 2,
+      "surface": "vir",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64006",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64006",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64006",
+      "position": 3,
+      "surface": "vem",
+      "word_id": "W1267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64007",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64007",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64007",
+      "position": 3,
+      "surface": "livre",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64008",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64008",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64008",
+      "position": 3,
+      "surface": "vir",
+      "word_id": "W1268",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64009",
+      "position": 1,
+      "surface": "Ela",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64009",
+      "position": 2,
+      "surface": "também",
+      "word_id": "W108",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64009",
+      "position": 3,
+      "surface": "vem",
+      "word_id": "W1267",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64010",
+      "position": 1,
+      "surface": "Como",
+      "word_id": "W046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64010",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64010",
+      "position": 3,
+      "surface": "saio",
+      "word_id": "W1271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64011",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64011",
+      "position": 2,
+      "surface": "quer",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64011",
+      "position": 3,
+      "surface": "sair",
+      "word_id": "W1270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64012",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64012",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W047",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64012",
+      "position": 3,
+      "surface": "sair",
+      "word_id": "W1270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64013",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64013",
+      "position": 2,
+      "surface": "sair",
+      "word_id": "W1270",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64013",
+      "position": 3,
+      "surface": "cedo",
+      "word_id": "W1209",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64014",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64014",
+      "position": 2,
+      "surface": "está",
+      "word_id": "W049",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64014",
+      "position": 3,
+      "surface": "livre",
+      "word_id": "W1274",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64014",
+      "position": 4,
+      "surface": "amanhã",
+      "word_id": "W179",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64015",
+      "position": 1,
+      "surface": "Você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64015",
+      "position": 2,
+      "surface": "gosta",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64015",
+      "position": 3,
+      "surface": "de",
+      "word_id": "W058",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64015",
+      "position": 4,
+      "surface": "teatro",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64016",
+      "position": 1,
+      "surface": "Por que",
+      "word_id": "W151",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64016",
+      "position": 2,
+      "surface": "eles",
+      "word_id": "W081",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64016",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64016",
+      "position": 4,
+      "surface": "estão",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64016",
+      "position": 5,
+      "surface": "juntos",
+      "word_id": "W1275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64017",
+      "position": 1,
+      "surface": "Sobre",
+      "word_id": "W1416",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64017",
+      "position": 2,
+      "surface": "o que",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64017",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64017",
+      "position": 4,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64017",
+      "position": 5,
+      "surface": "filme",
+      "word_id": "W1278",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64018",
+      "position": 1,
+      "surface": "Venho",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64018",
+      "position": 2,
+      "surface": "sexta-feira",
+      "word_id": "W186",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64019",
+      "position": 1,
+      "surface": "Vejo",
+      "word_id": "W1272",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64019",
+      "position": 2,
+      "surface": "você",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64019",
+      "position": 3,
+      "surface": "depois",
+      "word_id": "W1212",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64020",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64020",
+      "position": 2,
+      "surface": "ao",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64020",
+      "position": 3,
+      "surface": "cinema",
+      "word_id": "W1276",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64021",
+      "position": 1,
+      "surface": "Vejo",
+      "word_id": "W1272",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64021",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64021",
+      "position": 3,
+      "surface": "livro",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64022",
+      "position": 1,
+      "surface": "Vou",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64022",
+      "position": 2,
+      "surface": "ao",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64022",
+      "position": 3,
+      "surface": "cinema",
+      "word_id": "W1276",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64023",
+      "position": 1,
+      "surface": "Vejo",
+      "word_id": "W1272",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64023",
+      "position": 2,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64023",
+      "position": 3,
+      "surface": "homem",
+      "word_id": "W012",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64024",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64024",
+      "position": 2,
+      "surface": "nunca",
+      "word_id": "W1230",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64024",
+      "position": 3,
+      "surface": "saio",
+      "word_id": "W1271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64025",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64025",
+      "position": 2,
+      "surface": "dançar",
+      "word_id": "W1027",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64025",
+      "position": 3,
+      "surface": "juntos",
+      "word_id": "W1275",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64026",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64026",
+      "position": 2,
+      "surface": "ao",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64026",
+      "position": 3,
+      "surface": "circo",
+      "word_id": "W1279",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64027",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64027",
+      "position": 2,
+      "surface": "ao",
+      "word_id": "W192",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64027",
+      "position": 3,
+      "surface": "teatro",
+      "word_id": "W1277",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64028",
+      "position": 1,
+      "surface": "Hoje",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64028",
+      "position": 2,
+      "surface": "eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64028",
+      "position": 3,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64028",
+      "position": 4,
+      "surface": "venho",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64029",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64029",
+      "position": 2,
+      "surface": "venho",
+      "word_id": "W1269",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64029",
+      "position": 3,
+      "surface": "quando",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64029",
+      "position": 4,
+      "surface": "posso",
+      "word_id": "W815",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64030",
+      "position": 1,
+      "surface": "É",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64030",
+      "position": 2,
+      "surface": "um",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64030",
+      "position": 3,
+      "surface": "bom",
+      "word_id": "W098",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64030",
+      "position": 4,
+      "surface": "filme",
+      "word_id": "W1278",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64031",
+      "position": 1,
+      "surface": "Eu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64031",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64031",
+      "position": 3,
+      "surface": "saio",
+      "word_id": "W1271",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64031",
+      "position": 4,
+      "surface": "muito",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64032",
+      "position": 1,
+      "surface": "Vamos",
+      "word_id": "W190",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64032",
+      "position": 2,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64032",
+      "position": 3,
+      "surface": "o",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64032",
+      "position": 4,
+      "surface": "circo",
+      "word_id": "W1279",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64033",
+      "position": 1,
+      "surface": "Nós",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64033",
+      "position": 2,
+      "surface": "não",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64033",
+      "position": 3,
+      "surface": "estamos",
+      "word_id": "W111",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64033",
+      "position": 4,
+      "surface": "no",
+      "word_id": "W114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64033",
+      "position": 5,
+      "surface": "cinema",
+      "word_id": "W1276",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64034",
+      "position": 1,
+      "surface": "Esse",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64034",
+      "position": 2,
+      "surface": "filme",
+      "word_id": "W1278",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64034",
+      "position": 3,
+      "surface": "é",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64034",
+      "position": 4,
+      "surface": "para",
+      "word_id": "W191",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S64034",
+      "position": 5,
+      "surface": "crianças",
+      "word_id": "W090",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A640071",
+      "sentence_id": "S64007",
+      "direction": "fr_to_en",
+      "answer": "Are you available?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A640081",
+      "sentence_id": "S64008",
+      "direction": "fr_to_en",
+      "answer": "Do you want to come along?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A640111",
+      "sentence_id": "S64011",
+      "direction": "fr_to_en",
+      "answer": "Do you want to quit?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A640311",
+      "sentence_id": "S64031",
+      "direction": "fr_to_en",
+      "answer": "I don't get out much.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}
