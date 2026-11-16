@@ -5,6 +5,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync, readdirSync } from 'node:fs'
 import { buildSession, indexContent } from '../../src/lib/lesson.js'
+import { SAMPLE_EVERY, sweepsFull } from './scope.mjs'
 
 const seeded = (seed) => { let x = seed; return () => { x = (x * 1664525 + 1013904223) % 4294967296; return x / 4294967296 } }
 export function distinctChoices(i, n) {
@@ -14,6 +15,7 @@ export function distinctChoices(i, n) {
     const all = indexContent(tables)
     all.sentences.forEach((s, k) => {
       if (k % n !== i - 1) return
+      if (!sweepsFull('content') && Math.floor(k / n) % SAMPLE_EVERY !== 0) return // test:fast: a fixed 5% of the shard
       for (const type of ['QT03', 'QT04']) for (let r = 0; r < 3; r++) {
         const q = buildSession(all, 'practice', [{ sentence_id: s.sentence_id, type, round: 2 }], { rng: seeded(r + 1) }).queue[0]
         if (q?.choices) assert.equal(new Set(q.choices).size, q.choices.length, `${s.sentence_id} ${q.choices}`)

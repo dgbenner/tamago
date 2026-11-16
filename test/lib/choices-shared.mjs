@@ -6,6 +6,7 @@ import assert from 'node:assert/strict'
 import { readFileSync, readdirSync } from 'node:fs'
 import { buildLesson, contentForUnit, isCognate, lessonsInRound } from '../../src/lib/lesson.js'
 import { accentKey, sameAnswer } from '../../src/lib/check.js'
+import { sampleOf, sweepsFull } from './scope.mjs'
 
 export const seeded = (seed) => { let x = seed; return () => { x = (x * 1664525 + 1013904223) % 4294967296; return x / 4294967296 } }
 export const core = (h) => String(h ?? '').toLowerCase().replace(/\(.*?\)/g, '').replace(/[^\p{L}\p{N}' ]/gu, ' ').replace(/\s+/g, ' ').trim()
@@ -58,9 +59,9 @@ export function checkQuestion(q, c, where) {
 
 export function courseTests(dir) {
   const t = loadCourse(dir)
-  test(`${dir}: every circle and round: no duplicate, near-duplicate or also-right choices; no picture twice; no cognate pairs`, () => {
+  test(`${dir}${sweepsFull(dir) ? '' : ' (5% sample)'}: every circle and round: no duplicate, near-duplicate or also-right choices; no picture twice; no cognate pairs`, () => {
     const all = new Set(t.words.map((w) => w.word_id))
-    for (const u of treeOrder(t)) {
+    for (const u of sampleOf(dir, treeOrder(t))) {
       const c = contentForUnit(t, u.unit_id)
       for (let round = 1; round <= 5; round++) for (let seed = 1; seed <= 3; seed++) {
         for (const q of buildLesson(c, { round, known: all, unit_id: u.unit_id, rng: seeded(seed * 31 + round) }).queue) checkQuestion(q, c, `${u.unit_id} R${round}`)
@@ -68,10 +69,14 @@ export function courseTests(dir) {
     }
   })
 
-  test(`${dir}: walking the tree, each lesson brings at most 4 new words, each first met with its meaning shown`, () => {
+  test(`${dir}${sweepsFull(dir) ? '' : ' (5% sample)'}: walking the tree, each lesson brings at most 4 new words, each first met with its meaning shown`, () => {
     const SHOWN = new Set(['QT01', 'QT02', 'QT03'])
     const seen = new Set()
-    for (const u of treeOrder(t)) {
+    const order = treeOrder(t)
+    // A sample run (test:fast) walks only the sampled circles, each from a learner who knows every earlier circle's words.
+    const walk = sampleOf(dir, order)
+    for (const u of walk) {
+      if (!sweepsFull(dir)) for (const p of order.slice(0, order.indexOf(u))) for (const w of t.words) if (w.first_unit === p.unit_id) seen.add(w.word_id)
       const c = contentForUnit(t, u.unit_id)
       const roundSeen = { sentences: {}, words: {} }
       for (let l = 1; l <= lessonsInRound(c, 1); l++) {

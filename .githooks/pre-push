@@ -4,7 +4,9 @@
 #    (`npm run bump`), one past the highest on main and dev;
 # 2. the secret scan must pass: gitleaks over the history (.gitleaks.toml), so no key or password goes out;
 # 3. the mobile smoke test must pass: iPhone and iPad emulation in WebKit, with touch;
-# 4. the audio stop test must pass: nothing plays on into the next question (Chrome, fake microphone).
+# 4. the audio stop test must pass: nothing plays on into the next question (Chrome, fake microphone);
+# 5. the fast test tier must pass (npm run test:fast: every logic test, full content sweeps for the courses whose content
+#    changed since the last push, a fixed 5% sample of the others). The full suite runs in GitHub Actions after the push.
 # Turned on for this clone by `git config core.hooksPath .githooks` (npm install does it, package.json "prepare").
 cd "$(git rev-parse --show-toplevel)" || exit 1
 number() { node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).number)}catch{console.log("")}})'; }
@@ -31,6 +33,7 @@ while read -r local_ref local_sha remote_ref remote_sha; do
       fi ;;
   esac
 done
+npm run -s test:fast || { echo "Push stopped: the fast test tier failed (above). Fix it before pushing."; exit 1; }
 command -v gitleaks >/dev/null 2>&1 || { echo "Push stopped: the secret scan needs gitleaks. Install it (brew install gitleaks) and push again."; exit 1; }
 npm run -s secrets || { echo "Push stopped: the secret scan found something that looks like a secret (above). Remove it before pushing."; exit 1; }
 npm run -s smoke || { echo "Push stopped: the mobile smoke test failed. Fix it before pushing."; exit 1; }

@@ -13,7 +13,8 @@ test('redact blanks keys and tokens', () => {
 test('the documents shown hold nothing key-shaped', () => {
   const files = ['model-story.md', 'craft-review.md', 'tamago-feature-list.md', 'question-types.md', 'build-phases.md', 'autonomous-build.md', 'test-notes.md', 'check-in.md'].map((f) => `_source/${f}`)
   // A review still in progress has screenshots but no report yet.
-  for (const d of readdirSync('_review')) if (existsSync(`_review/${d}/craft-review.md`)) files.push(`_review/${d}/craft-review.md`)
+  // _review/ is local only (gitignored), so on GitHub Actions there may be none.
+  for (const d of existsSync('_review') ? readdirSync('_review') : []) if (existsSync(`_review/${d}/craft-review.md`)) files.push(`_review/${d}/craft-review.md`)
   for (const f of files) {
     const text = readFileSync(f, 'utf8')
     assert.equal(redact(text), text, `${f} has something that looks like a key`)

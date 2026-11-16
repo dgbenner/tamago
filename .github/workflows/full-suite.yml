@@ -1,0 +1,27 @@
+# The full test suite after every push to main (Dan, 2026-11-16, tiered testing). Before a push, the pre-push hook
+# runs the fast tier (npm run test:fast: logic tests, full sweeps for the courses that changed, a 5% sample of the
+# rest) with the smoke, audio-stop and secrets checks. Here the whole suite runs: every course swept in full. A failure
+# marks the run red on GitHub and emails the person who pushed; fix it in the next push. It doesn't hold the deploy:
+# Cloudflare builds from the push as before.
+name: Full suite
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+concurrency:
+  group: full-suite-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm test

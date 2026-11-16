@@ -301,23 +301,7 @@ test('topic packs: lessons build in every round, no QT09 without pairs, and no o
 
 // 'choices across all units are distinct' runs in six shards: test/distinct-choices-<n>.test.js.
 
-test('every live main unit builds lessons in all five rounds, from a learner who has finished the units before it', () => {
-  const main = tables.units.filter((u) => String(u.status).startsWith('live') && !['yes', 'node'].includes(u.is_topic_pick)).sort((a, b) => a.order - b.order)
-  assert.ok(main.length >= 13)
-  for (const u of main) {
-    const uc = contentForUnit(tables, u.unit_id)
-    const before = new Set(tables.words.filter((w) => main.some((m) => m.order < u.order && m.unit_id === w.first_unit)).map((w) => w.word_id))
-    for (let round = 1; round <= 5; round++) {
-      assert.ok(lessonsInRound(uc, round) >= 1, `${u.unit_id} round ${round}`)
-      for (let seed = 1; seed <= 6; seed++) {
-        const l = buildLesson(uc, { round, known: round === 1 ? before : new Set([...before, ...uc.wordOrder]), unit_id: u.unit_id, rng: seeded(seed * round) })
-        // Ten questions, plus at most one A1 task item (QT14 to QT17) where the circle has them.
-        assert.equal(l.queue.filter((q) => !q.item_id).length, 10, `${u.unit_id} round ${round}`)
-        assert.ok(l.queue.filter((q) => q.item_id).length <= 1, `${u.unit_id} round ${round}: one task item at most`)
-      }
-    }
-  }
-})
+// 'every live main unit builds lessons in all five rounds' runs in four shards: test/main-units-<n>.test.js.
 
 test('final A1 check: four parts in exam order, the course\'s own A1 sentences, each once, speaking ungraded', async () => {
   const { finalItems, finalScores, PARTS } = await import('../src/lib/finalcheck.js')

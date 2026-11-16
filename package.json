@@ -15,7 +15,8 @@
     "audio-stop": "node test/audio-stop.mjs",
     "prepare": "git config core.hooksPath .githooks || true",
     "bump": "node scripts/bump-version.mjs",
-    "secrets": "gitleaks git . --config .gitleaks.toml --redact --no-banner"
+    "secrets": "gitleaks git . --config .gitleaks.toml --redact --no-banner",
+    "test:fast": "node scripts/test-fast.mjs"
   },
   "type": "module",
   "devDependencies": {
