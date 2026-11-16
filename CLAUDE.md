@@ -18,6 +18,7 @@ From 2026-11-09 the build runs under `_source/autonomous-build.md`: phase by pha
 - Fable: the judge. Reviews craft and content against the rubric and writes only to _review/. Never changes code, never switches branches in the main tree.
 - Debugger: a fresh session for one bug at a time.
 - Handoffs: through Dan's pastes. Every report ends with a Live/Not Done checklist, and no spreadsheets unless asked.
+- Pushing: before every push, pull the latest main from GitHub, re-run the tests, and only then push. Never force-push. If a pull brings in changes to files you also changed, merge carefully and say so in your report.
 
 ## Public repo (2026-11-10)
 
