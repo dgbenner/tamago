@@ -1,1 +1,293 @@
-[]
+[
+  {
+    "id": "R101",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "Al mercato",
+    "lines": [
+      "Frutta e verdura",
+      "Mele: 3 euro al chilo",
+      "Il mercato: lunedì e sabato"
+    ],
+    "questions": [
+      {
+        "question": "How much is a kilo of apples?",
+        "choices": [
+          "3 euros",
+          "13 euros",
+          "30 euros"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "When is the market on?",
+        "choices": [
+          "Monday and Saturday",
+          "Every day",
+          "Only on Sunday"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R102",
+    "unit_id": "U47",
+    "kind": "notice",
+    "title": "Il mercato in piazza",
+    "lines": [
+      "Mercato in piazza",
+      "La domenica",
+      "Frutta, verdura, pane e formaggio"
+    ],
+    "questions": [
+      {
+        "question": "When is the market?",
+        "choices": [
+          "On Sundays",
+          "On Mondays",
+          "Every day"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What can you buy there?",
+        "choices": [
+          "Fruit, vegetables, bread and cheese",
+          "Clothes and shoes",
+          "Books and maps"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R103",
+    "unit_id": "U47",
+    "kind": "message",
+    "title": "Un messaggio di Giulia",
+    "lines": [
+      "Marco,",
+      "al mercato compro frutta e verdura.",
+      "Vuoi una mela?",
+      "Giulia"
+    ],
+    "questions": [
+      {
+        "question": "Where is Giulia?",
+        "choices": [
+          "At the market",
+          "At school",
+          "In the park"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What does she offer Marco?",
+        "choices": [
+          "An apple",
+          "A coffee",
+          "Some bread"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R104",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "I prezzi",
+    "lines": [
+      "Pane: 2 euro",
+      "Formaggio: 5 euro",
+      "Latte: 1 euro",
+      "Acqua: 1 euro"
+    ],
+    "questions": [
+      {
+        "question": "How much is the cheese?",
+        "choices": [
+          "1 euro",
+          "5 euros",
+          "2 euros"
+        ],
+        "answer": 1
+      },
+      {
+        "question": "What costs 2 euros?",
+        "choices": [
+          "The bread",
+          "The milk",
+          "The water"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R105",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Al bar",
+    "lines": [
+      "Caffè: 1 euro",
+      "Tè: 2 euro",
+      "Vino: 4 euro"
+    ],
+    "questions": [
+      {
+        "question": "How much is a tea?",
+        "choices": [
+          "2 euros",
+          "1 euro",
+          "4 euros"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What costs the most?",
+        "choices": [
+          "The wine",
+          "The coffee",
+          "The tea"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R106",
+    "unit_id": "U48",
+    "kind": "notice",
+    "title": "Libri usati",
+    "lines": [
+      "Libri usati",
+      "Un libro: 3 euro",
+      "Tre libri: 8 euro"
+    ],
+    "questions": [
+      {
+        "question": "How much is one book?",
+        "choices": [
+          "3 euros",
+          "5 euros",
+          "13 euros"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much are three books?",
+        "choices": [
+          "8 euros",
+          "9 euros",
+          "6 euros"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R107",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Un messaggio di Maria",
+    "lines": [
+      "Tom,",
+      "puoi comprare una bottiglia di latte, un pacchetto di biscotti e un chilo di mele?",
+      "Grazie!",
+      "Maria"
+    ],
+    "questions": [
+      {
+        "question": "What does Maria want?",
+        "choices": [
+          "Milk, biscuits and apples",
+          "Bread and water",
+          "Fruit and vegetables"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "How much milk?",
+        "choices": [
+          "One bottle",
+          "Two bottles",
+          "A kilo"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R108",
+    "unit_id": "U49",
+    "kind": "sign",
+    "title": "Al supermercato",
+    "lines": [
+      "Acqua: sei bottiglie, 3 euro",
+      "Biscotti: due pacchetti, 4 euro"
+    ],
+    "questions": [
+      {
+        "question": "How many bottles do you get for 3 euros?",
+        "choices": [
+          "Six",
+          "Three",
+          "Two"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What costs 4 euros?",
+        "choices": [
+          "Two packets of biscuits",
+          "Six bottles of water",
+          "One packet of biscuits"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  },
+  {
+    "id": "R109",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Per la festa",
+    "lines": [
+      "Per la festa:",
+      "due bottiglie di vino,",
+      "una scatola di biscotti,",
+      "tanta frutta!"
+    ],
+    "questions": [
+      {
+        "question": "How many bottles of wine?",
+        "choices": [
+          "Two",
+          "One",
+          "Three"
+        ],
+        "answer": 0
+      },
+      {
+        "question": "What is the list for?",
+        "choices": [
+          "A party",
+          "School",
+          "A trip"
+        ],
+        "answer": 0
+      }
+    ],
+    "source": "written for Tamago"
+  }
+]

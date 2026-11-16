@@ -259,6 +259,214 @@
       "form": "vanno"
     }
   ],
+  "chiamare": [
+    {
+      "person": "io",
+      "form": "chiamo"
+    },
+    {
+      "person": "tu",
+      "form": "chiami"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "chiama"
+    },
+    {
+      "person": "noi",
+      "form": "chiamiamo"
+    },
+    {
+      "person": "voi",
+      "form": "chiamate"
+    },
+    {
+      "person": "loro",
+      "form": "chiamano"
+    }
+  ],
+  "potere": [
+    {
+      "person": "io",
+      "form": "posso"
+    },
+    {
+      "person": "tu",
+      "form": "puoi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "può"
+    },
+    {
+      "person": "noi",
+      "form": "possiamo"
+    },
+    {
+      "person": "voi",
+      "form": "potete"
+    },
+    {
+      "person": "loro",
+      "form": "possono"
+    }
+  ],
+  "vivere": [
+    {
+      "person": "io",
+      "form": "vivo"
+    },
+    {
+      "person": "tu",
+      "form": "vivi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "vive"
+    },
+    {
+      "person": "noi",
+      "form": "viviamo"
+    },
+    {
+      "person": "voi",
+      "form": "vivete"
+    },
+    {
+      "person": "loro",
+      "form": "vivono"
+    }
+  ],
+  "parlare": [
+    {
+      "person": "io",
+      "form": "parlo"
+    },
+    {
+      "person": "tu",
+      "form": "parli"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "parla"
+    },
+    {
+      "person": "noi",
+      "form": "parliamo"
+    },
+    {
+      "person": "voi",
+      "form": "parlate"
+    },
+    {
+      "person": "loro",
+      "form": "parlano"
+    }
+  ],
+  "volere": [
+    {
+      "person": "io",
+      "form": "voglio"
+    },
+    {
+      "person": "tu",
+      "form": "vuoi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "vuole"
+    },
+    {
+      "person": "noi",
+      "form": "vogliamo"
+    },
+    {
+      "person": "voi",
+      "form": "volete"
+    },
+    {
+      "person": "loro",
+      "form": "vogliono"
+    }
+  ],
+  "costare": [
+    {
+      "person": "io",
+      "form": "costo"
+    },
+    {
+      "person": "tu",
+      "form": "costi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "costa"
+    },
+    {
+      "person": "noi",
+      "form": "costiamo"
+    },
+    {
+      "person": "voi",
+      "form": "costate"
+    },
+    {
+      "person": "loro",
+      "form": "costano"
+    }
+  ],
+  "portare": [
+    {
+      "person": "io",
+      "form": "porto"
+    },
+    {
+      "person": "tu",
+      "form": "porti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "porta"
+    },
+    {
+      "person": "noi",
+      "form": "portiamo"
+    },
+    {
+      "person": "voi",
+      "form": "portate"
+    },
+    {
+      "person": "loro",
+      "form": "portano"
+    }
+  ],
+  "studiare": [
+    {
+      "person": "io",
+      "form": "studio"
+    },
+    {
+      "person": "tu",
+      "form": "studi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "studia"
+    },
+    {
+      "person": "noi",
+      "form": "studiamo"
+    },
+    {
+      "person": "voi",
+      "form": "studiate"
+    },
+    {
+      "person": "loro",
+      "form": "studiano"
+    }
+  ],
   "piacere": [
     {
       "person": "io",
@@ -335,32 +543,6 @@
     {
       "person": "loro",
       "form": "ripetono"
-    }
-  ],
-  "parlare": [
-    {
-      "person": "io",
-      "form": "parlo"
-    },
-    {
-      "person": "tu",
-      "form": "parli"
-    },
-    {
-      "person": "lui, lei, Lei",
-      "form": "parla"
-    },
-    {
-      "person": "noi",
-      "form": "parliamo"
-    },
-    {
-      "person": "voi",
-      "form": "parlate"
-    },
-    {
-      "person": "loro",
-      "form": "parlano"
     }
   ],
   "dire": [
@@ -441,32 +623,6 @@
       "form": "cercano"
     }
   ],
-  "chiamare": [
-    {
-      "person": "io",
-      "form": "chiamo"
-    },
-    {
-      "person": "tu",
-      "form": "chiami"
-    },
-    {
-      "person": "lui, lei, Lei",
-      "form": "chiama"
-    },
-    {
-      "person": "noi",
-      "form": "chiamiamo"
-    },
-    {
-      "person": "voi",
-      "form": "chiamate"
-    },
-    {
-      "person": "loro",
-      "form": "chiamano"
-    }
-  ],
   "servire": [
     {
       "person": "io",
@@ -543,6 +699,370 @@
     {
       "person": "loro",
       "form": "ballano"
+    }
+  ],
+  "conoscere": [
+    {
+      "person": "io",
+      "form": "conosco"
+    },
+    {
+      "person": "tu",
+      "form": "conosci"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "conosce"
+    },
+    {
+      "person": "noi",
+      "form": "conosciamo"
+    },
+    {
+      "person": "voi",
+      "form": "conoscete"
+    },
+    {
+      "person": "loro",
+      "form": "conoscono"
+    }
+  ],
+  "presentare": [
+    {
+      "person": "io",
+      "form": "presento"
+    },
+    {
+      "person": "tu",
+      "form": "presenti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "presenta"
+    },
+    {
+      "person": "noi",
+      "form": "presentiamo"
+    },
+    {
+      "person": "voi",
+      "form": "presentate"
+    },
+    {
+      "person": "loro",
+      "form": "presentano"
+    }
+  ],
+  "scrivere": [
+    {
+      "person": "io",
+      "form": "scrivo"
+    },
+    {
+      "person": "tu",
+      "form": "scrivi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "scrive"
+    },
+    {
+      "person": "noi",
+      "form": "scriviamo"
+    },
+    {
+      "person": "voi",
+      "form": "scrivete"
+    },
+    {
+      "person": "loro",
+      "form": "scrivono"
+    }
+  ],
+  "chiedere": [
+    {
+      "person": "io",
+      "form": "chiedo"
+    },
+    {
+      "person": "tu",
+      "form": "chiedi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "chiede"
+    },
+    {
+      "person": "noi",
+      "form": "chiediamo"
+    },
+    {
+      "person": "voi",
+      "form": "chiedete"
+    },
+    {
+      "person": "loro",
+      "form": "chiedono"
+    }
+  ],
+  "aspettare": [
+    {
+      "person": "io",
+      "form": "aspetto"
+    },
+    {
+      "person": "tu",
+      "form": "aspetti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "aspetta"
+    },
+    {
+      "person": "noi",
+      "form": "aspettiamo"
+    },
+    {
+      "person": "voi",
+      "form": "aspettate"
+    },
+    {
+      "person": "loro",
+      "form": "aspettano"
+    }
+  ],
+  "abitare": [
+    {
+      "person": "io",
+      "form": "abito"
+    },
+    {
+      "person": "tu",
+      "form": "abiti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "abita"
+    },
+    {
+      "person": "noi",
+      "form": "abitiamo"
+    },
+    {
+      "person": "voi",
+      "form": "abitate"
+    },
+    {
+      "person": "loro",
+      "form": "abitano"
+    }
+  ],
+  "restare": [
+    {
+      "person": "io",
+      "form": "resto"
+    },
+    {
+      "person": "tu",
+      "form": "resti"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "resta"
+    },
+    {
+      "person": "noi",
+      "form": "restiamo"
+    },
+    {
+      "person": "voi",
+      "form": "restate"
+    },
+    {
+      "person": "loro",
+      "form": "restano"
+    }
+  ],
+  "comprare": [
+    {
+      "person": "io",
+      "form": "compro"
+    },
+    {
+      "person": "tu",
+      "form": "compri"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "compra"
+    },
+    {
+      "person": "noi",
+      "form": "compriamo"
+    },
+    {
+      "person": "voi",
+      "form": "comprate"
+    },
+    {
+      "person": "loro",
+      "form": "comprano"
+    }
+  ],
+  "prendere": [
+    {
+      "person": "io",
+      "form": "prendo"
+    },
+    {
+      "person": "tu",
+      "form": "prendi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "prende"
+    },
+    {
+      "person": "noi",
+      "form": "prendiamo"
+    },
+    {
+      "person": "voi",
+      "form": "prendete"
+    },
+    {
+      "person": "loro",
+      "form": "prendono"
+    }
+  ],
+  "trovare": [
+    {
+      "person": "io",
+      "form": "trovo"
+    },
+    {
+      "person": "tu",
+      "form": "trovi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "trova"
+    },
+    {
+      "person": "noi",
+      "form": "troviamo"
+    },
+    {
+      "person": "voi",
+      "form": "trovate"
+    },
+    {
+      "person": "loro",
+      "form": "trovano"
+    }
+  ],
+  "dovere": [
+    {
+      "person": "io",
+      "form": "devo"
+    },
+    {
+      "person": "tu",
+      "form": "devi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "deve"
+    },
+    {
+      "person": "noi",
+      "form": "dobbiamo"
+    },
+    {
+      "person": "voi",
+      "form": "dovete"
+    },
+    {
+      "person": "loro",
+      "form": "devono"
+    }
+  ],
+  "pagare": [
+    {
+      "person": "io",
+      "form": "pago"
+    },
+    {
+      "person": "tu",
+      "form": "paghi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "paga"
+    },
+    {
+      "person": "noi",
+      "form": "paghiamo"
+    },
+    {
+      "person": "voi",
+      "form": "pagate"
+    },
+    {
+      "person": "loro",
+      "form": "pagano"
+    }
+  ],
+  "imparare": [
+    {
+      "person": "io",
+      "form": "imparo"
+    },
+    {
+      "person": "tu",
+      "form": "impari"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "impara"
+    },
+    {
+      "person": "noi",
+      "form": "impariamo"
+    },
+    {
+      "person": "voi",
+      "form": "imparate"
+    },
+    {
+      "person": "loro",
+      "form": "imparano"
+    }
+  ],
+  "spiegare": [
+    {
+      "person": "io",
+      "form": "spiego"
+    },
+    {
+      "person": "tu",
+      "form": "spieghi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "spiega"
+    },
+    {
+      "person": "noi",
+      "form": "spieghiamo"
+    },
+    {
+      "person": "voi",
+      "form": "spiegate"
+    },
+    {
+      "person": "loro",
+      "form": "spiegano"
     }
   ]
 }

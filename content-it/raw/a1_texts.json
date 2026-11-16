@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "id": "R101",
+    "unit_id": "U47",
+    "kind": "sign",
+    "title": "Al mercato",
+    "lines": "Frutta e verdura\nMele: 3 euro al chilo\nIl mercato: lunedì e sabato",
+    "questions_json": "[{\"question\":\"How much is a kilo of apples?\",\"choices\":[\"3 euros\",\"13 euros\",\"30 euros\"],\"answer\":0},{\"question\":\"When is the market on?\",\"choices\":[\"Monday and Saturday\",\"Every day\",\"Only on Sunday\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R102",
+    "unit_id": "U47",
+    "kind": "notice",
+    "title": "Il mercato in piazza",
+    "lines": "Mercato in piazza\nLa domenica\nFrutta, verdura, pane e formaggio",
+    "questions_json": "[{\"question\":\"When is the market?\",\"choices\":[\"On Sundays\",\"On Mondays\",\"Every day\"],\"answer\":0},{\"question\":\"What can you buy there?\",\"choices\":[\"Fruit, vegetables, bread and cheese\",\"Clothes and shoes\",\"Books and maps\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R103",
+    "unit_id": "U47",
+    "kind": "message",
+    "title": "Un messaggio di Giulia",
+    "lines": "Marco,\nal mercato compro frutta e verdura.\nVuoi una mela?\nGiulia",
+    "questions_json": "[{\"question\":\"Where is Giulia?\",\"choices\":[\"At the market\",\"At school\",\"In the park\"],\"answer\":0},{\"question\":\"What does she offer Marco?\",\"choices\":[\"An apple\",\"A coffee\",\"Some bread\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R104",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "I prezzi",
+    "lines": "Pane: 2 euro\nFormaggio: 5 euro\nLatte: 1 euro\nAcqua: 1 euro",
+    "questions_json": "[{\"question\":\"How much is the cheese?\",\"choices\":[\"1 euro\",\"5 euros\",\"2 euros\"],\"answer\":1},{\"question\":\"What costs 2 euros?\",\"choices\":[\"The bread\",\"The milk\",\"The water\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R105",
+    "unit_id": "U48",
+    "kind": "menu",
+    "title": "Al bar",
+    "lines": "Caffè: 1 euro\nTè: 2 euro\nVino: 4 euro",
+    "questions_json": "[{\"question\":\"How much is a tea?\",\"choices\":[\"2 euros\",\"1 euro\",\"4 euros\"],\"answer\":0},{\"question\":\"What costs the most?\",\"choices\":[\"The wine\",\"The coffee\",\"The tea\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R106",
+    "unit_id": "U48",
+    "kind": "notice",
+    "title": "Libri usati",
+    "lines": "Libri usati\nUn libro: 3 euro\nTre libri: 8 euro",
+    "questions_json": "[{\"question\":\"How much is one book?\",\"choices\":[\"3 euros\",\"5 euros\",\"13 euros\"],\"answer\":0},{\"question\":\"How much are three books?\",\"choices\":[\"8 euros\",\"9 euros\",\"6 euros\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R107",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Un messaggio di Maria",
+    "lines": "Tom,\npuoi comprare una bottiglia di latte, un pacchetto di biscotti e un chilo di mele?\nGrazie!\nMaria",
+    "questions_json": "[{\"question\":\"What does Maria want?\",\"choices\":[\"Milk, biscuits and apples\",\"Bread and water\",\"Fruit and vegetables\"],\"answer\":0},{\"question\":\"How much milk?\",\"choices\":[\"One bottle\",\"Two bottles\",\"A kilo\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R108",
+    "unit_id": "U49",
+    "kind": "sign",
+    "title": "Al supermercato",
+    "lines": "Acqua: sei bottiglie, 3 euro\nBiscotti: due pacchetti, 4 euro",
+    "questions_json": "[{\"question\":\"How many bottles do you get for 3 euros?\",\"choices\":[\"Six\",\"Three\",\"Two\"],\"answer\":0},{\"question\":\"What costs 4 euros?\",\"choices\":[\"Two packets of biscuits\",\"Six bottles of water\",\"One packet of biscuits\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  },
+  {
+    "id": "R109",
+    "unit_id": "U49",
+    "kind": "message",
+    "title": "Per la festa",
+    "lines": "Per la festa:\ndue bottiglie di vino,\nuna scatola di biscotti,\ntanta frutta!",
+    "questions_json": "[{\"question\":\"How many bottles of wine?\",\"choices\":[\"Two\",\"One\",\"Three\"],\"answer\":0},{\"question\":\"What is the list for?\",\"choices\":[\"A party\",\"School\",\"A trip\"],\"answer\":0}]",
+    "source": "written for Tamago",
+    "status": "draft: written for Tamago, native check",
+    "notes": ""
+  }
+]

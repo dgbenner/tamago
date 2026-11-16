@@ -1,1 +1,100 @@
-[]
+[
+  {
+    "id": "N101",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "quindici",
+    "answer": "15"
+  },
+  {
+    "id": "N102",
+    "unit_id": "U42",
+    "kind": "number",
+    "say": "diciassette",
+    "answer": "17"
+  },
+  {
+    "id": "N103",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "zero, tre, undici, quindici, diciannove, venti",
+    "answer": "03 11 15 19 20"
+  },
+  {
+    "id": "N104",
+    "unit_id": "U42",
+    "kind": "phone",
+    "say": "zero, sette, dodici, sedici, diciotto, quattordici",
+    "answer": "07 12 16 18 14"
+  },
+  {
+    "id": "N105",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Ho venti anni.",
+    "answer": "20"
+  },
+  {
+    "id": "N106",
+    "unit_id": "U43",
+    "kind": "number",
+    "say": "Lei ha diciotto anni.",
+    "answer": "18"
+  },
+  {
+    "id": "N107",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "settanta",
+    "answer": "70"
+  },
+  {
+    "id": "N108",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "novanta",
+    "answer": "90"
+  },
+  {
+    "id": "N109",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "quarantacinque",
+    "answer": "45"
+  },
+  {
+    "id": "N110",
+    "unit_id": "U44",
+    "kind": "number",
+    "say": "novantanove",
+    "answer": "99"
+  },
+  {
+    "id": "N111",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "trenta euro",
+    "answer": "30"
+  },
+  {
+    "id": "N112",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "dieci euro",
+    "answer": "10"
+  },
+  {
+    "id": "N113",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "cento euro",
+    "answer": "100"
+  },
+  {
+    "id": "N114",
+    "unit_id": "U48",
+    "kind": "price",
+    "say": "cinquanta euro",
+    "answer": "50"
+  }
+]

@@ -1,0 +1,337 @@
+{
+  "unit_id": "U44",
+  "pulled_at": "2026-11-16",
+  "candidates": 6,
+  "sentences": [
+    {
+      "sentence_id": "S44001",
+      "unit_id": "U44",
+      "french": "Ha cento anni.",
+      "english": "He is 100 years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2706945",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "It is 100 years old.",
+        "She is 100 years old."
+      ]
+    },
+    {
+      "sentence_id": "S44002",
+      "unit_id": "U44",
+      "french": "Lei ha cento anni.",
+      "english": "She is 100 years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2706949",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44003",
+      "unit_id": "U44",
+      "french": "Lui ha cento anni.",
+      "english": "He is 100 years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2706951",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44004",
+      "unit_id": "U44",
+      "french": "Ha più di mille libri.",
+      "english": "He has more than a thousand books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3378466",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44005",
+      "unit_id": "U44",
+      "french": "Lui ha più di mille libri.",
+      "english": "He has more than a thousand books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3378467",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S44006",
+      "unit_id": "U44",
+      "french": "Ha più di cento anni.",
+      "english": "It's more than a hundred years old.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2470320",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S44001",
+      "position": 1,
+      "surface": "Ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44001",
+      "position": 2,
+      "surface": "cento",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44001",
+      "position": 3,
+      "surface": "anni",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44002",
+      "position": 1,
+      "surface": "Lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44002",
+      "position": 2,
+      "surface": "ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44002",
+      "position": 3,
+      "surface": "cento",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44002",
+      "position": 4,
+      "surface": "anni",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 1,
+      "surface": "Lui",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 2,
+      "surface": "ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 3,
+      "surface": "cento",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44003",
+      "position": 4,
+      "surface": "anni",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 1,
+      "surface": "Ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 2,
+      "surface": "più",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 3,
+      "surface": "di",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 4,
+      "surface": "mille",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44004",
+      "position": 5,
+      "surface": "libri",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 1,
+      "surface": "Lui",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 2,
+      "surface": "ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 3,
+      "surface": "più",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 4,
+      "surface": "di",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 5,
+      "surface": "mille",
+      "word_id": "W862",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44005",
+      "position": 6,
+      "surface": "libri",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 1,
+      "surface": "Ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 2,
+      "surface": "più",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 3,
+      "surface": "di",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 4,
+      "surface": "cento",
+      "word_id": "W861",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S44006",
+      "position": 5,
+      "surface": "anni",
+      "word_id": "W838",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A440011",
+      "sentence_id": "S44001",
+      "direction": "fr_to_en",
+      "answer": "It is 100 years old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A440012",
+      "sentence_id": "S44001",
+      "direction": "fr_to_en",
+      "answer": "She is 100 years old.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

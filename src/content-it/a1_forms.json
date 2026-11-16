@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "id": "F101",
+    "unit_id": "U45",
+    "card": "Mi chiamo Marco Rossi. Ho quaranta anni. Abito in via Roma, numero dieci, a Milano.",
+    "fields": [
+      {
+        "key": "first",
+        "label": "Nome",
+        "rule": "text",
+        "answer": "Marco"
+      },
+      {
+        "key": "last",
+        "label": "Cognome",
+        "rule": "text",
+        "answer": "Rossi"
+      },
+      {
+        "key": "age",
+        "label": "Età",
+        "rule": "number",
+        "answer": "40"
+      },
+      {
+        "key": "address",
+        "label": "Indirizzo",
+        "rule": "text",
+        "answer": "Via Roma 10",
+        "also": [
+          "via Roma, 10",
+          "Via Roma, 10",
+          "via Roma 10",
+          "via Roma numero dieci",
+          "Roma 10"
+        ]
+      },
+      {
+        "key": "town",
+        "label": "Città",
+        "rule": "text",
+        "answer": "Milano"
+      }
+    ]
+  },
+  {
+    "id": "F102",
+    "unit_id": "U46",
+    "card": "Mi chiamo Anna Bianchi. Ho trenta anni. Sono italiana. Abito in Francia. Il mio numero è zero, tre, undici, quindici, diciannove, venti.",
+    "fields": [
+      {
+        "key": "first",
+        "label": "Nome",
+        "rule": "text",
+        "answer": "Anna"
+      },
+      {
+        "key": "last",
+        "label": "Cognome",
+        "rule": "text",
+        "answer": "Bianchi"
+      },
+      {
+        "key": "age",
+        "label": "Età",
+        "rule": "number",
+        "answer": "30"
+      },
+      {
+        "key": "nat",
+        "label": "Nazionalità",
+        "rule": "text",
+        "answer": "italiana",
+        "also": [
+          "italiano"
+        ]
+      },
+      {
+        "key": "country",
+        "label": "Paese",
+        "rule": "text",
+        "answer": "Francia"
+      },
+      {
+        "key": "tel",
+        "label": "Telefono",
+        "rule": "phone",
+        "answer": "03 11 15 19 20"
+      }
+    ]
+  }
+]

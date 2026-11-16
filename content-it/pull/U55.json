@@ -1,0 +1,1775 @@
+{
+  "unit_id": "U55",
+  "pulled_at": "2026-11-16",
+  "candidates": 333,
+  "sentences": [
+    {
+      "sentence_id": "S55001",
+      "unit_id": "U55",
+      "french": "Per esempio, questa è una penna.",
+      "english": "For example, this is a pen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4763805",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55002",
+      "unit_id": "U55",
+      "french": "È la risposta alla mia domanda!",
+      "english": "That's the response to my question!",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6326999",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55003",
+      "unit_id": "U55",
+      "french": "Non c'è risposta alla tua domanda.",
+      "english": "Your question doesn't have an answer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8217666",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "There is no answer to your question."
+      ]
+    },
+    {
+      "sentence_id": "S55004",
+      "unit_id": "U55",
+      "french": "Non c'è risposta alla sua domanda.",
+      "english": "Your question doesn't have an answer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8217667",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "There is no answer to your question."
+      ]
+    },
+    {
+      "sentence_id": "S55005",
+      "unit_id": "U55",
+      "french": "È una penna, non una matita.",
+      "english": "That's a pen, not a pencil.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8503599",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55006",
+      "unit_id": "U55",
+      "french": "È una matita, non una penna.",
+      "english": "That's a pencil, not a pen.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8503601",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55007",
+      "unit_id": "U55",
+      "french": "Quale pagina?",
+      "english": "What page?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3269320",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55008",
+      "unit_id": "U55",
+      "french": "È un insegnante?",
+      "english": "Is he a teacher?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "823441",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Are you a teacher?"
+      ]
+    },
+    {
+      "sentence_id": "S55009",
+      "unit_id": "U55",
+      "french": "Hai una matita?",
+      "english": "Do you have a pencil?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "867353",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55010",
+      "unit_id": "U55",
+      "french": "Ti piace studiare?",
+      "english": "Do you like studying?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "993067",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Do you enjoy studying?",
+        "Do you like to study?"
+      ]
+    },
+    {
+      "sentence_id": "S55011",
+      "unit_id": "U55",
+      "french": "Come lo spiega?",
+      "english": "How do you explain that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2140372",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55012",
+      "unit_id": "U55",
+      "french": "Avete un dizionario?",
+      "english": "Do you have a dictionary?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2654900",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55013",
+      "unit_id": "U55",
+      "french": "Sei un insegnante?",
+      "english": "Are you a teacher?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3379572",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55014",
+      "unit_id": "U55",
+      "french": "Hanno un dizionario?",
+      "english": "Do they have a dictionary?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5162331",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55015",
+      "unit_id": "U55",
+      "french": "Hai un dizionario?",
+      "english": "Do you have a dictionary?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5162337",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55016",
+      "unit_id": "U55",
+      "french": "Dov'è l'insegnante?",
+      "english": "Where's the teacher?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7018681",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55017",
+      "unit_id": "U55",
+      "french": "Questo è un esame?",
+      "english": "Is this a test?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2573698",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55018",
+      "unit_id": "U55",
+      "french": "A voi piace studiare?",
+      "english": "Do you like studying?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4344533",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Do you enjoy studying?",
+        "Do you like to study?"
+      ]
+    },
+    {
+      "sentence_id": "S55019",
+      "unit_id": "U55",
+      "french": "A lei piace studiare?",
+      "english": "Do you like studying?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4344534",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Do you enjoy studying?",
+        "Do you like to study?"
+      ]
+    },
+    {
+      "sentence_id": "S55020",
+      "unit_id": "U55",
+      "french": "Perché non lo spiega?",
+      "english": "Why don't you explain that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4362331",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55021",
+      "unit_id": "U55",
+      "french": "In che classe sei?",
+      "english": "What class are you in?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6617664",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55022",
+      "unit_id": "U55",
+      "french": "In che classe è?",
+      "english": "What class are you in?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6617665",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55023",
+      "unit_id": "U55",
+      "french": "In che classe siete?",
+      "english": "What class are you in?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6617666",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55024",
+      "unit_id": "U55",
+      "french": "A che pagina sei?",
+      "english": "What page are you on?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7145809",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Tore",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55025",
+      "unit_id": "U55",
+      "french": "E come spiega questo?",
+      "english": "And how do you explain this?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8409953",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55026",
+      "unit_id": "U55",
+      "french": "A che pagina è?",
+      "english": "What page are you on?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11879149",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55027",
+      "unit_id": "U55",
+      "french": "Per esempio, ti piace l'inglese?",
+      "english": "For example, do you like English?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4763833",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55028",
+      "unit_id": "U55",
+      "french": "Studio inglese.",
+      "english": "I study English.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "425811",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55029",
+      "unit_id": "U55",
+      "french": "Non studio.",
+      "english": "I don't study.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11752031",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55030",
+      "unit_id": "U55",
+      "french": "Studio a scuola.",
+      "english": "I study at school.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "373719",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55031",
+      "unit_id": "U55",
+      "french": "Leggo per imparare.",
+      "english": "I read in order to learn.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "740714",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "rado",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55032",
+      "unit_id": "U55",
+      "french": "Non lo so spiegare.",
+      "english": "I can't explain it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2795673",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55033",
+      "unit_id": "U55",
+      "french": "C'è un esame domani.",
+      "english": "There is a test tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3758416",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55034",
+      "unit_id": "U55",
+      "french": "Abbiamo un esame domani.",
+      "english": "We have a test tomorrow.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5767470",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55035",
+      "unit_id": "U55",
+      "french": "Sono qui per imparare.",
+      "english": "I'm here to learn.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5992964",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S55036",
+      "unit_id": "U55",
+      "french": "Io non lo so spiegare.",
+      "english": "I can't explain it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2795681",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S55001",
+      "position": 1,
+      "surface": "Per",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55001",
+      "position": 2,
+      "surface": "esempio",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55001",
+      "position": 3,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55001",
+      "position": 4,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55001",
+      "position": 5,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55001",
+      "position": 6,
+      "surface": "penna",
+      "word_id": "W1117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55002",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55002",
+      "position": 2,
+      "surface": "la",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55002",
+      "position": 3,
+      "surface": "risposta",
+      "word_id": "W1115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55002",
+      "position": 4,
+      "surface": "alla",
+      "word_id": "W187",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55002",
+      "position": 5,
+      "surface": "mia",
+      "word_id": "W130",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55002",
+      "position": 6,
+      "surface": "domanda",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55003",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55003",
+      "position": 2,
+      "surface": "c'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55003",
+      "position": 3,
+      "surface": "risposta",
+      "word_id": "W1115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55003",
+      "position": 4,
+      "surface": "alla",
+      "word_id": "W187",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55003",
+      "position": 5,
+      "surface": "tua",
+      "word_id": "W134",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55003",
+      "position": 6,
+      "surface": "domanda",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55004",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55004",
+      "position": 2,
+      "surface": "c'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55004",
+      "position": 3,
+      "surface": "risposta",
+      "word_id": "W1115",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55004",
+      "position": 4,
+      "surface": "alla",
+      "word_id": "W187",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55004",
+      "position": 5,
+      "surface": "sua",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55004",
+      "position": 6,
+      "surface": "domanda",
+      "word_id": "W1114",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55005",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55005",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55005",
+      "position": 3,
+      "surface": "penna",
+      "word_id": "W1117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55005",
+      "position": 4,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55005",
+      "position": 5,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55005",
+      "position": 6,
+      "surface": "matita",
+      "word_id": "W1118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55006",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55006",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55006",
+      "position": 3,
+      "surface": "matita",
+      "word_id": "W1118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55006",
+      "position": 4,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55006",
+      "position": 5,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55006",
+      "position": 6,
+      "surface": "penna",
+      "word_id": "W1117",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55007",
+      "position": 1,
+      "surface": "Quale",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55007",
+      "position": 2,
+      "surface": "pagina",
+      "word_id": "W1116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55008",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55008",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55008",
+      "position": 3,
+      "surface": "insegnante",
+      "word_id": "W1126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55009",
+      "position": 1,
+      "surface": "Hai",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55009",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55009",
+      "position": 3,
+      "surface": "matita",
+      "word_id": "W1118",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55010",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55010",
+      "position": 2,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55010",
+      "position": 3,
+      "surface": "studiare",
+      "word_id": "W1121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55011",
+      "position": 1,
+      "surface": "Come",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55011",
+      "position": 2,
+      "surface": "lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55011",
+      "position": 3,
+      "surface": "spiega",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55012",
+      "position": 1,
+      "surface": "Avete",
+      "word_id": "W085",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55012",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55012",
+      "position": 3,
+      "surface": "dizionario",
+      "word_id": "W1119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55013",
+      "position": 1,
+      "surface": "Sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55013",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55013",
+      "position": 3,
+      "surface": "insegnante",
+      "word_id": "W1126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55014",
+      "position": 1,
+      "surface": "Hanno",
+      "word_id": "W086",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55014",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55014",
+      "position": 3,
+      "surface": "dizionario",
+      "word_id": "W1119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55015",
+      "position": 1,
+      "surface": "Hai",
+      "word_id": "W067",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55015",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55015",
+      "position": 3,
+      "surface": "dizionario",
+      "word_id": "W1119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55016",
+      "position": 1,
+      "surface": "Dov'è",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55016",
+      "position": 2,
+      "surface": "l'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55016",
+      "position": 3,
+      "surface": "insegnante",
+      "word_id": "W1126",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55017",
+      "position": 1,
+      "surface": "Questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55017",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55017",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55017",
+      "position": 4,
+      "surface": "esame",
+      "word_id": "W1120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55018",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55018",
+      "position": 2,
+      "surface": "voi",
+      "word_id": "W080",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55018",
+      "position": 3,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55018",
+      "position": 4,
+      "surface": "studiare",
+      "word_id": "W1121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55019",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55019",
+      "position": 2,
+      "surface": "lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55019",
+      "position": 3,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55019",
+      "position": 4,
+      "surface": "studiare",
+      "word_id": "W1121",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55020",
+      "position": 1,
+      "surface": "Perché",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55020",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55020",
+      "position": 3,
+      "surface": "lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55020",
+      "position": 4,
+      "surface": "spiega",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55021",
+      "position": 1,
+      "surface": "In",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55021",
+      "position": 2,
+      "surface": "che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55021",
+      "position": 3,
+      "surface": "classe",
+      "word_id": "W1113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55021",
+      "position": 4,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55022",
+      "position": 1,
+      "surface": "In",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55022",
+      "position": 2,
+      "surface": "che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55022",
+      "position": 3,
+      "surface": "classe",
+      "word_id": "W1113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55022",
+      "position": 4,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55023",
+      "position": 1,
+      "surface": "In",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55023",
+      "position": 2,
+      "surface": "che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55023",
+      "position": 3,
+      "surface": "classe",
+      "word_id": "W1113",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55023",
+      "position": 4,
+      "surface": "siete",
+      "word_id": "W083",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55024",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55024",
+      "position": 2,
+      "surface": "che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55024",
+      "position": 3,
+      "surface": "pagina",
+      "word_id": "W1116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55024",
+      "position": 4,
+      "surface": "sei",
+      "word_id": "W008",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55025",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55025",
+      "position": 2,
+      "surface": "come",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55025",
+      "position": 3,
+      "surface": "spiega",
+      "word_id": "W1128",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55025",
+      "position": 4,
+      "surface": "questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55026",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55026",
+      "position": 2,
+      "surface": "che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55026",
+      "position": 3,
+      "surface": "pagina",
+      "word_id": "W1116",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55026",
+      "position": 4,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55027",
+      "position": 1,
+      "surface": "Per",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55027",
+      "position": 2,
+      "surface": "esempio",
+      "word_id": "W1124",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55027",
+      "position": 3,
+      "surface": "ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55027",
+      "position": 4,
+      "surface": "piace",
+      "word_id": "W057",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55027",
+      "position": 5,
+      "surface": "l'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55027",
+      "position": 6,
+      "surface": "inglese",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55028",
+      "position": 1,
+      "surface": "Studio",
+      "word_id": "W1122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55028",
+      "position": 2,
+      "surface": "inglese",
+      "word_id": "W718",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55029",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55029",
+      "position": 2,
+      "surface": "studio",
+      "word_id": "W1122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55030",
+      "position": 1,
+      "surface": "Studio",
+      "word_id": "W1122",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55030",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55030",
+      "position": 3,
+      "surface": "scuola",
+      "word_id": "W189",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55031",
+      "position": 1,
+      "surface": "Leggo",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55031",
+      "position": 2,
+      "surface": "per",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55031",
+      "position": 3,
+      "surface": "imparare",
+      "word_id": "W1123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55032",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55032",
+      "position": 2,
+      "surface": "lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55032",
+      "position": 3,
+      "surface": "so",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55032",
+      "position": 4,
+      "surface": "spiegare",
+      "word_id": "W1129",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55033",
+      "position": 1,
+      "surface": "C'è",
+      "word_id": "W107",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55033",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55033",
+      "position": 3,
+      "surface": "esame",
+      "word_id": "W1120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55033",
+      "position": 4,
+      "surface": "domani",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55034",
+      "position": 1,
+      "surface": "Abbiamo",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55034",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55034",
+      "position": 3,
+      "surface": "esame",
+      "word_id": "W1120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55034",
+      "position": 4,
+      "surface": "domani",
+      "word_id": "W174",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55035",
+      "position": 1,
+      "surface": "Sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55035",
+      "position": 2,
+      "surface": "qui",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55035",
+      "position": 3,
+      "surface": "per",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55035",
+      "position": 4,
+      "surface": "imparare",
+      "word_id": "W1123",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55036",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55036",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55036",
+      "position": 3,
+      "surface": "lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55036",
+      "position": 4,
+      "surface": "so",
+      "word_id": "W721",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S55036",
+      "position": 5,
+      "surface": "spiegare",
+      "word_id": "W1129",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A550031",
+      "sentence_id": "S55003",
+      "direction": "fr_to_en",
+      "answer": "There is no answer to your question.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550041",
+      "sentence_id": "S55004",
+      "direction": "fr_to_en",
+      "answer": "There is no answer to your question.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550081",
+      "sentence_id": "S55008",
+      "direction": "fr_to_en",
+      "answer": "Are you a teacher?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550101",
+      "sentence_id": "S55010",
+      "direction": "fr_to_en",
+      "answer": "Do you enjoy studying?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550102",
+      "sentence_id": "S55010",
+      "direction": "fr_to_en",
+      "answer": "Do you like to study?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550181",
+      "sentence_id": "S55018",
+      "direction": "fr_to_en",
+      "answer": "Do you enjoy studying?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550182",
+      "sentence_id": "S55018",
+      "direction": "fr_to_en",
+      "answer": "Do you like to study?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550191",
+      "sentence_id": "S55019",
+      "direction": "fr_to_en",
+      "answer": "Do you enjoy studying?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A550192",
+      "sentence_id": "S55019",
+      "direction": "fr_to_en",
+      "answer": "Do you like to study?",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

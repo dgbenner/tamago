@@ -146,6 +146,125 @@
       "example_sentence_ids": "S51001;S51002;S51016",
       "conjugation_lemma": "",
       "status": "live"
+    },
+    {
+      "unit_id": "U41",
+      "rule": "To ask a friend's name, say Come ti chiami? To ask politely, to someone you don't know, say Come si chiama? That is Lei, the polite you: it is the same word as lei (she) and takes the same verb form, so si chiama means both her name is and your name is. Answer with Mi chiamo … (my name is …). Piacere! means pleased to meet you, and Ti presento … (Le presento …, politely) introduces someone.",
+      "example_sentence_ids": "S41005;S41009;S41109",
+      "conjugation_lemma": "chiamare",
+      "status": "live"
+    },
+    {
+      "unit_id": "U34",
+      "rule": "Potere means can: posso, puoi, può. The verb after it stays in the infinitive: Posso chiedere? (may I ask?), Puoi scrivere? (can you write?). To ask how a word is spelled, say Come si scrive?",
+      "example_sentence_ids": "S34020;S34004;S34001",
+      "conjugation_lemma": "potere",
+      "status": "live"
+    },
+    {
+      "unit_id": "U42",
+      "rule": "Numbers from 11 to 20: undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti. Sei is six, and also you are: the sentence makes it clear. Phone numbers are said in pairs or one digit at a time, with zero for 0.",
+      "example_sentence_ids": "S42001;S42101;S42007",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U43",
+      "rule": "Italian uses avere for age: Ho venti anni (I am twenty, literally I have twenty years). To ask, say Quanti anni hai? Sono nato (a man) and sono nata (a woman) mean I was born. Buon compleanno! is happy birthday.",
+      "example_sentence_ids": "S43014;S43001;S43007",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U35",
+      "rule": "Ways to check a number or ask for time: Un momento (one moment), Aspetta (wait), È giusto? (is that right?), and Certo! (of course!). Giusto? at the end of a sentence asks for a yes, like right? in English.",
+      "example_sentence_ids": "S35001;S35003;S35009",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U44",
+      "rule": "The tens are trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta, then cento (100) and mille (1,000). In between, the tens and units join into one word: trentadue, quarantacinque. Before uno and otto the tens drop their last vowel: ventuno, trentotto.",
+      "example_sentence_ids": "S44101;S44001;S44004",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U45",
+      "rule": "Abitare and vivere both mean to live: abito, abiti, abita follow the -are pattern, vivo, vivi, vive the -ere one. Use a before a town and in before a country or a part of town: Abito a Roma, vivo in Italia, abito in centro. Vicino a means near, lontano far.",
+      "example_sentence_ids": "S45011;S45004;S45101",
+      "conjugation_lemma": "vivere",
+      "status": "live"
+    },
+    {
+      "unit_id": "U46",
+      "rule": "Nationalities agree with the person: italiano for a man, italiana for a woman; francese is the same for both. Languages take no capital letter and usually the article: il francese, l'inglese, though parlo francese is fine. Parlare follows the -are pattern: parlo, parli, parla.",
+      "example_sentence_ids": "S46004;S46021;S46003",
+      "conjugation_lemma": "parlare",
+      "status": "live"
+    },
+    {
+      "unit_id": "U47",
+      "rule": "Volere means to want: voglio, vuoi. Vorrei (I would like) is the polite way to ask for something in a shop. Dovere means must: devo, deve. Ho bisogno di … means I need …. After a quantity, use di: un chilo di mele.",
+      "example_sentence_ids": "S47002;S47011;S47103",
+      "conjugation_lemma": "volere",
+      "status": "live"
+    },
+    {
+      "unit_id": "U36",
+      "rule": "To show you've understood: D'accordo (agreed, OK), Chiaro (clear), Ho capito (I've understood), Esatto (exactly). Vero? at the end of a sentence asks for a yes: Sei d'accordo, vero? Cioè means that is, to make something clearer.",
+      "example_sentence_ids": "S36021;S36004;S36101",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U48",
+      "rule": "Quanto costa? asks the price of one thing; Quanto costano? of more than one: costano agrees with a plural. Costa due euro: euro never changes in the plural. Caro is expensive and economico cheap. Il conto is the bill.",
+      "example_sentence_ids": "S48001;S48011;S48020",
+      "conjugation_lemma": "costare",
+      "status": "live"
+    },
+    {
+      "unit_id": "U49",
+      "rule": "After a container or an amount, use di: una bottiglia di latte, un pacchetto di biscotti, un po' di pane. Troppo is too much, poco little, abbastanza enough. Quello and quella mean that (masculine and feminine), and ogni (every) never changes: ogni giorno.",
+      "example_sentence_ids": "S49010;S49009;S49025",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U54",
+      "rule": "Portare is to wear (and also to bring): porto, porti. Gli occhiali (glasses) and i pantaloni (trousers) are always plural. Colours agree with the noun when they end in -o: una gonna rossa, but blu never changes.",
+      "example_sentence_ids": "S54001;S54011;S54024",
+      "conjugation_lemma": "portare",
+      "status": "live"
+    },
+    {
+      "unit_id": "U55",
+      "rule": "Studiare follows the -are pattern: studio, studi, studia. Imparare means to learn. Una domanda is a question and una risposta an answer. Per esempio means for example.",
+      "example_sentence_ids": "S55028;S55009;S55001",
+      "conjugation_lemma": "studiare",
+      "status": "live"
+    },
+    {
+      "unit_id": "U56",
+      "rule": "Adjectives agree with the person: basso for a man, bassa for a woman; biondo, bionda; magro, magra. Adjectives in -e are the same for both: intelligente. Lo stesso means the same.",
+      "example_sentence_ids": "S56008;S56002;S56028",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U57",
+      "rule": "Adjectives in -o change for a woman and in the plural (aperto, aperta), but adjectives in -e are the same for both genders: facile, difficile, importante, interessante. È facile means it's easy, È importante it's important.",
+      "example_sentence_ids": "S57024;S57006;S57028",
+      "conjugation_lemma": "",
+      "status": "live"
+    },
+    {
+      "unit_id": "U58",
+      "rule": "Use a and in for places: al mare (at the seaside), in montagna (in the mountains), in campagna (in the countryside). Il sole is the sun, il cielo the sky, la luce the light.",
+      "example_sentence_ids": "S58001;S58002;S58023",
+      "conjugation_lemma": "",
+      "status": "live"
     }
   ]
 }

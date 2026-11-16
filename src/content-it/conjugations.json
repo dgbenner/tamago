@@ -300,6 +300,246 @@
     "source": "https://en.wiktionary.org/wiki/andare#Conjugation"
   },
   {
+    "lemma": "chiamare",
+    "present": [
+      {
+        "person": "io",
+        "form": "chiamo"
+      },
+      {
+        "person": "tu",
+        "form": "chiami"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "chiama"
+      },
+      {
+        "person": "noi",
+        "form": "chiamiamo"
+      },
+      {
+        "person": "voi",
+        "form": "chiamate"
+      },
+      {
+        "person": "loro",
+        "form": "chiamano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/chiamare#Conjugation"
+  },
+  {
+    "lemma": "potere",
+    "present": [
+      {
+        "person": "io",
+        "form": "posso"
+      },
+      {
+        "person": "tu",
+        "form": "puoi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "può"
+      },
+      {
+        "person": "noi",
+        "form": "possiamo"
+      },
+      {
+        "person": "voi",
+        "form": "potete"
+      },
+      {
+        "person": "loro",
+        "form": "possono"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/potere#Conjugation"
+  },
+  {
+    "lemma": "vivere",
+    "present": [
+      {
+        "person": "io",
+        "form": "vivo"
+      },
+      {
+        "person": "tu",
+        "form": "vivi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "vive"
+      },
+      {
+        "person": "noi",
+        "form": "viviamo"
+      },
+      {
+        "person": "voi",
+        "form": "vivete"
+      },
+      {
+        "person": "loro",
+        "form": "vivono"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/vivere#Conjugation"
+  },
+  {
+    "lemma": "parlare",
+    "present": [
+      {
+        "person": "io",
+        "form": "parlo"
+      },
+      {
+        "person": "tu",
+        "form": "parli"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "parla"
+      },
+      {
+        "person": "noi",
+        "form": "parliamo"
+      },
+      {
+        "person": "voi",
+        "form": "parlate"
+      },
+      {
+        "person": "loro",
+        "form": "parlano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/parlare#Conjugation"
+  },
+  {
+    "lemma": "volere",
+    "present": [
+      {
+        "person": "io",
+        "form": "voglio"
+      },
+      {
+        "person": "tu",
+        "form": "vuoi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "vuole"
+      },
+      {
+        "person": "noi",
+        "form": "vogliamo"
+      },
+      {
+        "person": "voi",
+        "form": "volete"
+      },
+      {
+        "person": "loro",
+        "form": "vogliono"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/volere#Conjugation"
+  },
+  {
+    "lemma": "costare",
+    "present": [
+      {
+        "person": "io",
+        "form": "costo"
+      },
+      {
+        "person": "tu",
+        "form": "costi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "costa"
+      },
+      {
+        "person": "noi",
+        "form": "costiamo"
+      },
+      {
+        "person": "voi",
+        "form": "costate"
+      },
+      {
+        "person": "loro",
+        "form": "costano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/costare#Conjugation"
+  },
+  {
+    "lemma": "portare",
+    "present": [
+      {
+        "person": "io",
+        "form": "porto"
+      },
+      {
+        "person": "tu",
+        "form": "porti"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "porta"
+      },
+      {
+        "person": "noi",
+        "form": "portiamo"
+      },
+      {
+        "person": "voi",
+        "form": "portate"
+      },
+      {
+        "person": "loro",
+        "form": "portano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/portare#Conjugation"
+  },
+  {
+    "lemma": "studiare",
+    "present": [
+      {
+        "person": "io",
+        "form": "studio"
+      },
+      {
+        "person": "tu",
+        "form": "studi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "studia"
+      },
+      {
+        "person": "noi",
+        "form": "studiamo"
+      },
+      {
+        "person": "voi",
+        "form": "studiate"
+      },
+      {
+        "person": "loro",
+        "form": "studiano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/studiare#Conjugation"
+  },
+  {
     "lemma": "piacere",
     "present": [
       {
@@ -388,36 +628,6 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/ripetere#Conjugation"
-  },
-  {
-    "lemma": "parlare",
-    "present": [
-      {
-        "person": "io",
-        "form": "parlo"
-      },
-      {
-        "person": "tu",
-        "form": "parli"
-      },
-      {
-        "person": "lui, lei, Lei",
-        "form": "parla"
-      },
-      {
-        "person": "noi",
-        "form": "parliamo"
-      },
-      {
-        "person": "voi",
-        "form": "parlate"
-      },
-      {
-        "person": "loro",
-        "form": "parlano"
-      }
-    ],
-    "source": "https://en.wiktionary.org/wiki/parlare#Conjugation"
   },
   {
     "lemma": "dire",
@@ -510,36 +720,6 @@
     "source": "https://en.wiktionary.org/wiki/cercare#Conjugation"
   },
   {
-    "lemma": "chiamare",
-    "present": [
-      {
-        "person": "io",
-        "form": "chiamo"
-      },
-      {
-        "person": "tu",
-        "form": "chiami"
-      },
-      {
-        "person": "lui, lei, Lei",
-        "form": "chiama"
-      },
-      {
-        "person": "noi",
-        "form": "chiamiamo"
-      },
-      {
-        "person": "voi",
-        "form": "chiamate"
-      },
-      {
-        "person": "loro",
-        "form": "chiamano"
-      }
-    ],
-    "source": "https://en.wiktionary.org/wiki/chiamare#Conjugation"
-  },
-  {
     "lemma": "servire",
     "present": [
       {
@@ -628,5 +808,425 @@
       }
     ],
     "source": "https://en.wiktionary.org/wiki/ballare#Conjugation"
+  },
+  {
+    "lemma": "conoscere",
+    "present": [
+      {
+        "person": "io",
+        "form": "conosco"
+      },
+      {
+        "person": "tu",
+        "form": "conosci"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "conosce"
+      },
+      {
+        "person": "noi",
+        "form": "conosciamo"
+      },
+      {
+        "person": "voi",
+        "form": "conoscete"
+      },
+      {
+        "person": "loro",
+        "form": "conoscono"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/conoscere#Conjugation"
+  },
+  {
+    "lemma": "presentare",
+    "present": [
+      {
+        "person": "io",
+        "form": "presento"
+      },
+      {
+        "person": "tu",
+        "form": "presenti"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "presenta"
+      },
+      {
+        "person": "noi",
+        "form": "presentiamo"
+      },
+      {
+        "person": "voi",
+        "form": "presentate"
+      },
+      {
+        "person": "loro",
+        "form": "presentano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/presentare#Conjugation"
+  },
+  {
+    "lemma": "scrivere",
+    "present": [
+      {
+        "person": "io",
+        "form": "scrivo"
+      },
+      {
+        "person": "tu",
+        "form": "scrivi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "scrive"
+      },
+      {
+        "person": "noi",
+        "form": "scriviamo"
+      },
+      {
+        "person": "voi",
+        "form": "scrivete"
+      },
+      {
+        "person": "loro",
+        "form": "scrivono"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/scrivere#Conjugation"
+  },
+  {
+    "lemma": "chiedere",
+    "present": [
+      {
+        "person": "io",
+        "form": "chiedo"
+      },
+      {
+        "person": "tu",
+        "form": "chiedi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "chiede"
+      },
+      {
+        "person": "noi",
+        "form": "chiediamo"
+      },
+      {
+        "person": "voi",
+        "form": "chiedete"
+      },
+      {
+        "person": "loro",
+        "form": "chiedono"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/chiedere#Conjugation"
+  },
+  {
+    "lemma": "aspettare",
+    "present": [
+      {
+        "person": "io",
+        "form": "aspetto"
+      },
+      {
+        "person": "tu",
+        "form": "aspetti"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "aspetta"
+      },
+      {
+        "person": "noi",
+        "form": "aspettiamo"
+      },
+      {
+        "person": "voi",
+        "form": "aspettate"
+      },
+      {
+        "person": "loro",
+        "form": "aspettano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/aspettare#Conjugation"
+  },
+  {
+    "lemma": "abitare",
+    "present": [
+      {
+        "person": "io",
+        "form": "abito"
+      },
+      {
+        "person": "tu",
+        "form": "abiti"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "abita"
+      },
+      {
+        "person": "noi",
+        "form": "abitiamo"
+      },
+      {
+        "person": "voi",
+        "form": "abitate"
+      },
+      {
+        "person": "loro",
+        "form": "abitano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/abitare#Conjugation"
+  },
+  {
+    "lemma": "restare",
+    "present": [
+      {
+        "person": "io",
+        "form": "resto"
+      },
+      {
+        "person": "tu",
+        "form": "resti"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "resta"
+      },
+      {
+        "person": "noi",
+        "form": "restiamo"
+      },
+      {
+        "person": "voi",
+        "form": "restate"
+      },
+      {
+        "person": "loro",
+        "form": "restano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/restare#Conjugation"
+  },
+  {
+    "lemma": "comprare",
+    "present": [
+      {
+        "person": "io",
+        "form": "compro"
+      },
+      {
+        "person": "tu",
+        "form": "compri"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "compra"
+      },
+      {
+        "person": "noi",
+        "form": "compriamo"
+      },
+      {
+        "person": "voi",
+        "form": "comprate"
+      },
+      {
+        "person": "loro",
+        "form": "comprano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/comprare#Conjugation"
+  },
+  {
+    "lemma": "prendere",
+    "present": [
+      {
+        "person": "io",
+        "form": "prendo"
+      },
+      {
+        "person": "tu",
+        "form": "prendi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "prende"
+      },
+      {
+        "person": "noi",
+        "form": "prendiamo"
+      },
+      {
+        "person": "voi",
+        "form": "prendete"
+      },
+      {
+        "person": "loro",
+        "form": "prendono"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/prendere#Conjugation"
+  },
+  {
+    "lemma": "trovare",
+    "present": [
+      {
+        "person": "io",
+        "form": "trovo"
+      },
+      {
+        "person": "tu",
+        "form": "trovi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "trova"
+      },
+      {
+        "person": "noi",
+        "form": "troviamo"
+      },
+      {
+        "person": "voi",
+        "form": "trovate"
+      },
+      {
+        "person": "loro",
+        "form": "trovano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/trovare#Conjugation"
+  },
+  {
+    "lemma": "dovere",
+    "present": [
+      {
+        "person": "io",
+        "form": "devo"
+      },
+      {
+        "person": "tu",
+        "form": "devi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "deve"
+      },
+      {
+        "person": "noi",
+        "form": "dobbiamo"
+      },
+      {
+        "person": "voi",
+        "form": "dovete"
+      },
+      {
+        "person": "loro",
+        "form": "devono"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/dovere#Conjugation"
+  },
+  {
+    "lemma": "pagare",
+    "present": [
+      {
+        "person": "io",
+        "form": "pago"
+      },
+      {
+        "person": "tu",
+        "form": "paghi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "paga"
+      },
+      {
+        "person": "noi",
+        "form": "paghiamo"
+      },
+      {
+        "person": "voi",
+        "form": "pagate"
+      },
+      {
+        "person": "loro",
+        "form": "pagano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/pagare#Conjugation"
+  },
+  {
+    "lemma": "imparare",
+    "present": [
+      {
+        "person": "io",
+        "form": "imparo"
+      },
+      {
+        "person": "tu",
+        "form": "impari"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "impara"
+      },
+      {
+        "person": "noi",
+        "form": "impariamo"
+      },
+      {
+        "person": "voi",
+        "form": "imparate"
+      },
+      {
+        "person": "loro",
+        "form": "imparano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/imparare#Conjugation"
+  },
+  {
+    "lemma": "spiegare",
+    "present": [
+      {
+        "person": "io",
+        "form": "spiego"
+      },
+      {
+        "person": "tu",
+        "form": "spieghi"
+      },
+      {
+        "person": "lui, lei, Lei",
+        "form": "spiega"
+      },
+      {
+        "person": "noi",
+        "form": "spieghiamo"
+      },
+      {
+        "person": "voi",
+        "form": "spiegate"
+      },
+      {
+        "person": "loro",
+        "form": "spiegano"
+      }
+    ],
+    "source": "https://en.wiktionary.org/wiki/spiegare#Conjugation"
   }
 ]

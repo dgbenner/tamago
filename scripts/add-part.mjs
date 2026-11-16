@@ -11,11 +11,11 @@ import { addVocabFramework } from './lib/vocab-catchup.mjs'
 const XLSX = createRequire(import.meta.url)('xlsx')
 const ROOT = join(import.meta.dirname, '..')
 const COURSE = process.env.COURSE
-const LANG = { fr: 'French', es: 'Spanish', de: 'German' }
+const LANG = { fr: 'French', es: 'Spanish', de: 'German', it: 'Italian' }
 const PART = Number(process.env.PART)
 
 if (process.argv[1] === import.meta.filename) {
-  if (!LANG[COURSE] || !PART) throw new Error('COURSE=fr|es|de and PART=n')
+  if (!LANG[COURSE] || !PART) throw new Error('COURSE=fr|es|de|it and PART=n')
   const P = (await import(`./part${PART}/${COURSE}.mjs`)).default
   if (P.part !== PART) throw new Error(`config says part ${P.part}`)
   const [from, to] = process.argv.slice(2)
