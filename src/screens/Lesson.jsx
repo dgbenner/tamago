@@ -11,6 +11,8 @@ import { whoSpeaks } from '../lib/voice-gender.js'
 import { IconChips, IconClose, IconComment, IconFlag, IconKeyboard, IconMic, IconSpeaker, IconWhy } from './icons.jsx'
 import { questionLabel } from '../lib/question-names.js'
 import AudioHelp from './AudioHelp.jsx'
+import WordPicture from './WordPicture.jsx'
+import { AVATAR_FILL, fillStyle } from '../lib/person-pictures.js'
 import { usePlaying } from '../lib/use-playing.js'
 import { TL, course } from '../lib/course.js'
 import { tables } from '../lib/content.js'
@@ -336,7 +338,7 @@ function SpeakerAvatar({ speaker }) {
   return (
     <span data-avatar aria-hidden="true" className="speaker-ring flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-disc text-muted">
       {speaker
-        ? <img src={speaker} alt="" decoding="sync" className="size-full object-cover" />
+        ? <img src={speaker} alt="" decoding="sync" className="size-full object-cover" style={fillStyle(AVATAR_FILL)} />
         : <svg viewBox="0 0 24 24" className="mt-2 size-10" fill="currentColor"><circle cx="12" cy="8" r="4.2" /><path d="M3.5 23c0-5 3.8-8.6 8.5-8.6s8.5 3.6 8.5 8.6z" /></svg>}
     </span>
   )
@@ -399,7 +401,7 @@ function WordImage({ q, result, onAnswer, newWords }) {
             <button key={ch.word_id} aria-label={ch.label ?? (ch.alt ? `Picture: ${ch.alt}` : `Picture ${i + 1}`)} disabled={Boolean(result)}
               onClick={() => { setChosen(ch.word_id); onAnswer({ correct: ch.word_id === q.answer }) }}
               className={`choice flex flex-col items-center justify-center gap-1 p-2 text-center ${state}`}>
-              <img src={ch.image} alt="" className="h-20 w-20 rounded-xl" />
+              <WordPicture src={ch.image} className="h-20 w-20" />
               {ch.label && <span lang={TL} className="text-base">{ch.label}</span>}
               {state === 'choice-wrong' && <WrongMark className="text-xs" />}
             </button>
@@ -931,7 +933,7 @@ function TypeWord({ q, content, settings, result, onAnswer }) {
   return (
     <>
       <div className="flex items-center gap-4">
-        {q.image && <img src={q.image} alt="" className="h-20 w-20 shrink-0 rounded-xl" />}
+        {q.image && <WordPicture src={q.image} className="h-20 w-20 shrink-0" />}
         <p lang="en" className="text-2xl leading-relaxed">{q.hint}</p>
       </div>
       <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} />
