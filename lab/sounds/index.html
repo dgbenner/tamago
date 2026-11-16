@@ -37,7 +37,7 @@
   <body>
     <main>
       <h1>Sound Lab</h1>
-      <p class="note">Warm, soft sounds for six moments: tapping a circle to start its lesson, the main button, a correct match, a word tile slotting into the sentence, and a correct or incorrect answer. Each one is made in Web Audio, so there's nothing to license. Tap ▶ to hear one; tap its name to pick it for the demo at the bottom. Dan's picks are preselected (Soft swell, Warm thump, Two marimba notes, Pebble). New: Correct answer and Incorrect answer, six each, not picked yet; the demo's Check buttons play them with the voice in the same tap.</p>
+      <p class="note">Warm, soft sounds for six moments: tapping a circle to start its lesson, the main button, a correct match, a word tile slotting into the sentence, and a correct or incorrect answer. Each one is made in Web Audio, so there's nothing to license. Tap ▶ to hear one; tap its name to pick it for the demo at the bottom. Dan's picks are preselected (Soft swell, Warm thump, Two marimba notes, Pebble). Correct answer and Incorrect answer, six each: Dan's picks Warm lift and Muted minor are preselected and live in lessons; the demo's Check buttons play them with the voice in the same tap.</p>
       <div class="bar"><label>Volume <input id="vol" type="range" min="0" max="1" step="0.05" value="0.6" /></label></div>
       <section id="sections"></section>
       <h2>Try them in place</h2>
@@ -128,7 +128,7 @@
           ['Pebble', 'A small stone set on a table', (d) => { tone(d, 1200, { glide: 900, decay: 0.04, level: 0.18 }); tone(d, 180, { decay: 0.06, level: 0.35, lowpass: 600 }) }],
           ['Soft plop', 'A gentle falling plop', (d) => tone(d, 400, { glide: 250, decay: 0.07, level: 0.45, lowpass: 1500 })],
         ] },
-        // Correct and incorrect answers (Dan, 2026-11-15), not picked yet. The plan: the correct sound plays the instant
+        // Correct and incorrect answers (Dan, 2026-11-15; picked: 6 Warm lift, 4 Muted minor). The plan: the correct sound plays the instant
         // Check is pressed (in the tap, like the others) and the voice reads the sentence at its usual moment, with no
         // added delay; so every correct option is short (under about a third of a second) and sits around the voice's
         // pitch rather than on it. Incorrect is soft and low, never a buzzer.
@@ -150,8 +150,8 @@
         ] },
       }
       // Dan's picks (2026-11-15): circle 3 Soft swell, button 6 Warm thump, match 1 Two marimba notes, slot 5 Pebble.
-      // Correct and incorrect are not picked yet; the first option stands in for the demo until one is.
-      const picked = { circle: 2, button: 5, match: 0, slot: 4, correct: 0, incorrect: 0 }
+      // Answers (Dan, 2026-11-15): correct 6 Warm lift, incorrect 4 Muted minor; live in lessons.
+      const picked = { circle: 2, button: 5, match: 0, slot: 4, correct: 5, incorrect: 3 }
       const play = (kind, i = picked[kind]) => SOUNDS[kind].options[i][2](out())
 
       const root = document.getElementById('sections')

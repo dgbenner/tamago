@@ -86,9 +86,10 @@ export default function Lesson({ session, content, settings, seenWords, cantList
     // The verdict is one word, Right! or Incorrect (Dan, 2026-11-12); the rotating feedback lines (R18) are gone.
     const phrase = null
     const full = { ...r, hidden: hideFrench && !wordsShown, wordsShown, phrase }
-    // Interface sounds (Dan, 2026-11-15): Check gets the button's sound only when right, never on a wrong answer; Match
-    // Pairs has its own sound per pair, so its finish gets none.
-    if (r.correct && q.type !== 'QT01' && !r.testSkip) cue('button')
+    // Interface sounds (Dan, 2026-11-15): Check plays the correct or the incorrect sound at once (Warm lift, Muted minor),
+    // and the answer bar's voice starts at its usual moment over it; speaking and a written message aren't judged, so
+    // Done gets the button's sound; Match Pairs has its own sound per pair, so its finish gets none.
+    if (q.type !== 'QT01' && !r.testSkip) cue(r.speaking || q.ungraded ? 'button' : r.correct ? 'correct' : 'incorrect')
     setResult(full)
     onAnswer(q, full)
   }

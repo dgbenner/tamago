@@ -180,14 +180,21 @@ const cueContext = () => {
   }
   return cueCtx
 }
-function hushCues() {
+// Answer sounds (Dan, 2026-11-15): the correct and incorrect sounds play the instant Check is pressed and the voice reads
+// the sentence at its usual moment over their tail; the language starting doesn't cut them off (they're short), nor
+// does a sound still playing hold them back. ANSWER_CUES names them; answerUntil is when the current one is done.
+export const ANSWER_CUES = new Set(['correct', 'incorrect'])
+const ANSWER_CUE_MS = 450
+let answerUntil = 0
+function hushCues(language = true) {
   if (!cueBus) return
+  if (language && Date.now() < answerUntil) return
   const c = cueCtx, bus = cueBus
   cueBus = null
   try { bus.gain.setTargetAtTime(0, c.currentTime, 0.006); setTimeout(() => bus.disconnect(), 120) } catch { /* gone already */ }
 }
 const reducedMotion = () => typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
-function cueTone(c, dest, freq, { at = 0, partials = [[1, 1]], attack = 0.004, decay = 0.25, level = 0.5, type = 'sine', lowpass = null } = {}) {
+function cueTone(c, dest, freq, { at = 0, partials = [[1, 1]], attack = 0.004, decay = 0.25, level = 0.5, type = 'sine', lowpass = null, glide = null } = {}) {
   const t = c.currentTime + at
   let node = dest
   if (lowpass) { const f = c.createBiquadFilter(); f.type = 'lowpass'; f.frequency.value = lowpass; f.connect(dest); node = f }
@@ -195,6 +202,7 @@ function cueTone(c, dest, freq, { at = 0, partials = [[1, 1]], attack = 0.004, d
     const o = c.createOscillator(), g = c.createGain(), d = decay / Math.sqrt(ratio)
     o.type = type
     o.frequency.setValueAtTime(freq * ratio, t)
+    if (glide) o.frequency.exponentialRampToValueAtTime(glide * ratio, t + decay * 0.8)
     g.gain.setValueAtTime(0.0001, t)
     g.gain.exponentialRampToValueAtTime(level * lvl, t + attack)
     g.gain.exponentialRampToValueAtTime(0.0001, t + attack + d)
@@ -208,6 +216,9 @@ export const CUES = {
   button: (c, d) => cueTone(c, d, 160, { type: 'triangle', decay: 0.12, level: 0.6, lowpass: 900 }), // Warm thump
   match: (c, d) => { cueTone(c, d, 523.25, { partials: [[1, 1], [4, 0.2]], decay: 0.3, level: 0.4 }); cueTone(c, d, 659.25, { at: 0.08, partials: [[1, 1], [4, 0.2]], decay: 0.4, level: 0.4 }) }, // Two marimba notes
   slot: (c, d) => { cueTone(c, d, 1200, { decay: 0.04, level: 0.18 }); cueTone(c, d, 180, { decay: 0.06, level: 0.35, lowpass: 600 }) }, // Pebble
+  // Dan's picks for answers (2026-11-15): correct 6 Warm lift, incorrect 4 Muted minor.
+  correct: (c, d) => cueTone(c, d, 587.33, { glide: 784, attack: 0.006, decay: 0.2, level: 0.32, lowpass: 2400 }), // Warm lift
+  incorrect: (c, d) => { cueTone(c, d, 220, { attack: 0.01, decay: 0.28, level: 0.3, lowpass: 1100 }); cueTone(c, d, 261.63, { attack: 0.01, decay: 0.28, level: 0.26, lowpass: 1100 }) }, // Muted minor
 }
 let lastCue = null
 export const lastCueName = () => lastCue
@@ -224,13 +235,15 @@ function languagePlaying() {
 export const audioState = () => (cueCtx ?? ctx)?.state ?? (cueCtx === null ? 'none' : 'not started')
 export const CUE_WAIT = 250 // ms: a sound that had to wake the context plays only if it wakes this soon
 export function cue(name) {
-  if (!cuesOn || reducedMotion() || !CUES[name] || languagePlaying()) return false
+  const answerCue = ANSWER_CUES.has(name)
+  if (!cuesOn || reducedMotion() || !CUES[name] || (!answerCue && languagePlaying())) return false
   const c = cueContext()
   if (!c) return false
   const sound = () => {
     try {
-      hushCues()
+      hushCues(false)
       cueBus = c.createGain()
+      answerUntil = answerCue ? Date.now() + ANSWER_CUE_MS : 0
       cueBus.gain.value = CUE_LEVEL
       cueBus.connect(c.destination)
       CUES[name](c, cueBus)
@@ -244,7 +257,7 @@ export function cue(name) {
   try {
     const waking = c.resume?.()
     if (typeof waking?.then !== 'function') return false
-    waking.then(() => { if (c.state === 'running' && Date.now() - asked <= CUE_WAIT && cuesOn && !languagePlaying()) sound() }).catch(() => {})
+    waking.then(() => { if (c.state === 'running' && Date.now() - asked <= CUE_WAIT && cuesOn && (answerCue || !languagePlaying())) sound() }).catch(() => {})
     return true
   } catch { return false }
 }

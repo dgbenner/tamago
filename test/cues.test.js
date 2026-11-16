@@ -1,5 +1,6 @@
-// Interface sounds (Dan, 2026-11-15): four soft sounds, quiet, never over the language, off with the Sounds setting
-// and under reduced motion, none on a wrong answer (the lesson never asks for one there).
+// Interface sounds (Dan, 2026-11-15): soft sounds, quiet, never over the language, off with the Sounds setting and under
+// reduced motion. The answer sounds (correct Warm lift, incorrect Muted minor) play the instant Check is pressed and the
+// voice starts over their tail without cutting them off.
 import test from 'node:test'
 import assert from 'node:assert/strict'
 
@@ -29,8 +30,8 @@ globalThis.speechSynthesis = { get speaking() { return voiceSpeaking }, pending:
 globalThis.SpeechSynthesisUtterance = class { constructor(t) { this.text = t } }
 const { cue, setCues, CUES, CUE_LEVEL, lastCueName, play, stop, audioState } = await import('../src/lib/audio.js')
 
-test('the four picks play, each on a quiet bus of its own', () => {
-  assert.deepEqual(Object.keys(CUES).sort(), ['button', 'match', 'slot', 'start'])
+test('the picks play, each on a quiet bus of its own', () => {
+  assert.deepEqual(Object.keys(CUES).sort(), ['button', 'correct', 'incorrect', 'match', 'slot', 'start'])
   for (const name of Object.keys(CUES)) {
     const before = made.oscillators
     assert.equal(cue(name), true, name)
@@ -102,4 +103,27 @@ test('language audio that starts cuts a sound off at once', () => {
   const bus = made.buses.findLast((b) => b.gain.value === CUE_LEVEL)
   play({ french: 'Bonjour.' })
   assert.equal(bus.gain.target, 0)
+})
+
+test('the answer sounds play at Check even while the voice is speaking, and the voice starting does not cut them', async () => {
+  const { readFileSync } = await import('node:fs')
+  play({ french: 'Bonjour.' })
+  voiceSpeaking = true
+  assert.equal(cue('match'), false, 'other sounds still wait for the voice')
+  assert.equal(cue('correct'), true, 'the correct sound plays at once')
+  const bus = made.buses.findLast((b) => b.gain.value === CUE_LEVEL)
+  play({ french: 'Je mange du pain.' }) // the answer bar's voice, at its usual moment
+  assert.equal(bus.gain.target, null, 'not cut off')
+  assert.equal(cue('incorrect'), true)
+  spoken.at(-1).onend(); voiceSpeaking = false
+  stop()
+  // The lesson asks for them on Check: right, wrong; speaking and a written message get the button's sound.
+  const lesson = readFileSync('src/screens/Lesson.jsx', 'utf8')
+  assert.match(lesson, /cue\(r\.speaking \|\| q\.ungraded \? 'button' : r\.correct \? 'correct' : 'incorrect'\)/)
+  await new Promise((r) => setTimeout(r, 500))
+  cue('start')
+  const after = made.buses.findLast((b) => b.gain.value === CUE_LEVEL)
+  play({ french: 'Bonjour.' })
+  assert.equal(after.gain.target, 0, 'once the answer sound is done, language cuts the others again')
+  stop()
 })

@@ -875,3 +875,4 @@ Part 3, Lingua Libre recordings:
 - Speak and Compare: the microphone is asked for in the "play-and-record" audio session, inside the tap; back to "playback" after (src/lib/mic.js).
 - Speaker avatars: all 13 fetched and decoded ahead.
 - The one-off freeze on Urchin was not reproduced (about 1,800 questions in emulated iPhone WebKit, three courses); left alone.
+- Answer sounds live (Dan's picks): correct Warm lift, incorrect Muted minor, at the instant of Check; the voice starts at its usual moment and doesn't cut them off.
