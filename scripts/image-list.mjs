@@ -109,6 +109,17 @@ const D = {
   médecins: ['doctors', 'two doctors in white coats side by side'],
   hôpital: ['hospital', 'a hospital building with a red cross on the front (no words)'],
   fièvre: ['fever', 'a thermometer showing a high red reading, with a hot red glow'],
+  // Batch 1, Town (Dan, 2026-11-16; _review/picture-gaps.md): nine of its pictures in lessons. Street and exit came on a
+  // filled tile, not on white, and the town square as a painted scene, so they wait; square, corner and village are held back.
+  banque: ['bank', 'a small classical bank building with columns and a coin symbol over the door'],
+  hôtel: ['hotel', 'a tall hotel building with rows of windows, a canopy over the entrance and a bed symbol on the sign'],
+  gare: ['station', 'a railway station building with a clock over the entrance and a train standing at the platform beside it'],
+  marché: ['market', 'an open-air market stall with a striped awning and crates of fruit and vegetables'],
+  pharmacie: ['pharmacy', 'a small pharmacy shopfront with a green cross sign and medicine bottles in the window'],
+  cinéma: ['cinema', 'a cinema front with a lit marquee (blank, no words), a film reel symbol and a box of popcorn'],
+  église: ['church', 'a small stone church with a bell tower and a round window'],
+  musée: ['museum', 'a museum building with wide steps and columns, and a framed painting and a statue showing at the entrance'],
+  théâtre: ['theater', 'a stage with red curtains drawn open and the two theatre masks above it'],
 }
 const ascii = (f) => f.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/œ/g, 'oe').replace(/[^a-z]/g, '')
 
@@ -122,6 +133,7 @@ const ES = {
   table: ['mesa'], lit: ['cama'], porte: ['puerta'], cuisine: ['cocina'], journal: ['periódico'], animaux: [],
   famille: ['familia'], bébé: ['bebé'], hommes: ['hombres'], sucre: ['azúcar'], thé: ['té'], chocolat: ['chocolate'], chanteur: ['cantante'],
   musique: ['música'], guitare: ['guitarra'], tasse: ['taza'], hôpital: ['hospital'],
+  banque: ['banco'], hôtel: ['hotel'], gare: ['estación'], marché: ['mercado'], pharmacie: ['farmacia'], cinéma: ['cine'], église: ['iglesia'], musée: ['museo'], théâtre: ['teatro'],
 }
 // The German words for each French row (2026-11-10), the same way: German words reuse the row's picture.
 const DE = {
@@ -132,6 +144,7 @@ const DE = {
   café: ['Kaffee'], maison: ['Haus'], journal: ['Zeitung'], famille: ['Familie'], sucre: ['Zucker'], thé: ['Tee'], chocolat: ['Schokolade'], chanteur: ['Sänger'], hôpital: ['Krankenhaus'],
   fièvre: ['Fieber'], viande: ['Fleisch'], poisson: ['Fisch'], riz: ['Reis'], banane: ['Banane'], œufs: ['Eier'], plage: ['Strand'], mer: ['Meer'], bateau: ['Boot'], neige: ['Schnee'],
   soleil: ['Sonne'], froid: ['kalt'], chaud: ['heiß'], cuisine: [], musique: ['Musik'], piano: ['Klavier'], guitare: ['Gitarre'], tasse: ['Tasse'], bureau: ['Büro'],
+  banque: ['Bank'], hôtel: ['Hotel'], gare: ['Bahnhof'], marché: ['Markt'], pharmacie: ['Apotheke'], cinéma: ['Kino'],
 }
 // Food and culture items that belong to one language; everything else is Shared.
 const LANGUAGE = { croissant: 'French' }

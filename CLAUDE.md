@@ -19,6 +19,7 @@ From 2026-11-09 the build runs under `_source/autonomous-build.md`: phase by pha
 - Debugger: a fresh session for one bug at a time.
 - Handoffs: through Dan's pastes. Every report ends with a Live/Not Done checklist, and no spreadsheets unless asked.
 - Pushing: before every push, pull the latest main from GitHub, re-run the tests, and only then push. Never force-push. If a pull brings in changes to files you also changed, merge carefully and say so in your report.
+- Testing (Dan, 2026-11-16): Testing is standard and doesn't need to be asked for. Every push: pull, run the full suite, push (the smoke test runs on push). Rebuild and audit only the courses whose content changed. If a new request arrives during a test run, finish the run and push first, then start the new request, unless it's urgent.
 
 ## Public repo (2026-11-10)
 
