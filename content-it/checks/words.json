@@ -6201,7 +6201,7 @@
   {
     "word_id": "W845",
     "form": "nato",
-    "lemma": "nato",
+    "lemma": "nascere",
     "part_of_speech": "Participle",
     "gender": "",
     "gloss": "past participle of nascere; born",
@@ -7641,7 +7641,7 @@
   {
     "word_id": "W918",
     "form": "capito",
-    "lemma": "capito",
+    "lemma": "capire",
     "part_of_speech": "Participle",
     "gender": "",
     "gloss": "past participle of capire",
@@ -9009,8 +9009,8 @@
     "lemma": "università",
     "part_of_speech": "Noun",
     "gender": "f",
-    "gloss": "totality, entirety, whole",
-    "gloss_full": "totality, entirety, whole",
+    "gloss": "university",
+    "gloss_full": "university",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/universit%C3%A0#Italian",
     "status": "checked",
@@ -10478,7 +10478,7 @@
   {
     "word_id": "W1219",
     "form": "sentito",
-    "lemma": "sentito",
+    "lemma": "sentire",
     "part_of_speech": "Participle",
     "gender": "",
     "gloss": "past participle of sentire",
@@ -10515,7 +10515,7 @@
   {
     "word_id": "W1221",
     "form": "detto",
-    "lemma": "detto",
+    "lemma": "dire",
     "part_of_speech": "Participle",
     "gender": "",
     "gloss": "past participle of dire",
@@ -16351,8 +16351,8 @@
     "lemma": "cornetto",
     "part_of_speech": "Noun",
     "gender": "m",
-    "gloss": "horn-shaped amulet resembling a hot pepper",
-    "gloss_full": "horn-shaped amulet resembling a hot pepper",
+    "gloss": "croissant",
+    "gloss_full": "croissant (pastry)",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/cornetto#Italian",
     "status": "checked",
@@ -16683,8 +16683,8 @@
     "lemma": "pasta",
     "part_of_speech": "Noun",
     "gender": "f",
-    "gloss": "paste",
-    "gloss_full": "paste",
+    "gloss": "pasta, noodles",
+    "gloss_full": "pasta, noodles",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/pasta#Italian",
     "status": "checked",
@@ -17139,7 +17139,7 @@
   {
     "word_id": "W1645",
     "form": "perso",
-    "lemma": "perso",
+    "lemma": "perdere",
     "part_of_speech": "Participle",
     "gender": "",
     "gloss": "past participle of perdere",
@@ -18389,11 +18389,11 @@
   {
     "word_id": "W1711",
     "form": "firma",
-    "lemma": "accompanying",
+    "lemma": "firma",
     "part_of_speech": "Noun",
     "gender": "f",
-    "gloss": "signature (a person's name, written by that person, used as identification or to signify approval of accompanying material, such as a legal contract)",
-    "gloss_full": "signature (a person's name, written by that person, used as identification or to signify approval of accompanying material, such as a legal contract)",
+    "gloss": "signature",
+    "gloss_full": "signature (an act of signing one's name)",
     "lemma_gloss": "",
     "wiktionary_url": "https://en.wiktionary.org/wiki/firma#Italian",
     "status": "checked",
@@ -18973,6 +18973,41 @@
       "file": "LL-Q652 (ita)-Crunchy Cloaky Crackdown-futuro.wav",
       "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/LL-Q652_%28ita%29-Crunchy_Cloaky_Crackdown-futuro.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "license": "CC0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1742",
+    "form": "Roma",
+    "lemma": "Roma",
+    "part_of_speech": "Proper noun",
+    "gender": "",
+    "gloss": "Rome",
+    "gloss_full": "Rome (a major city, the capital of Italy and the Italian region of Lazio, located on the Tiber River; the ancient capital of the Roman Empire)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/Roma#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": null
+  },
+  {
+    "word_id": "W1743",
+    "form": "Milano",
+    "lemma": "Milano",
+    "part_of_speech": "Proper noun",
+    "gender": "",
+    "gloss": "Milan",
+    "gloss_full": "Milan (a city and comune, the capital of the Metropolitan City of Milan and the region of Lombardy, Italy)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/Milano#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-LangPao-Milano.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/LL-Q652_%28ita%29-LangPao-Milano.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
       "recordings_found": 1
     }
   },
@@ -21558,13 +21593,13 @@
   {
     "word_id": "W1948",
     "form": "pubblica",
-    "lemma": "pubblico",
-    "part_of_speech": "Adjective",
+    "lemma": "pubblicare",
+    "part_of_speech": "Verb",
     "gender": "",
-    "gloss": "feminine singular of pubblico",
-    "gloss_full": "feminine singular of pubblico",
-    "lemma_gloss": "public",
-    "wiktionary_url": "https://en.wiktionary.org/wiki/pubblica#Italian",
+    "gloss": "lui present of pubblicare",
+    "gloss_full": "present tense, lui, in Wiktionary's conjugation of pubblicare",
+    "lemma_gloss": "to publish",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/pubblicare#Italian",
     "status": "checked",
     "flag_reason": "",
     "other_entries": [],
@@ -21722,5 +21757,385 @@
     "flag_reason": "",
     "other_entries": [],
     "lingua_libre": null
+  },
+  {
+    "word_id": "W1959",
+    "form": "possibilità",
+    "lemma": "possibilità",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "possibility",
+    "gloss_full": "possibility",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/possibilit%C3%A0#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-LangPao-possibilità.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/LL-Q652_%28ita%29-LangPao-possibilit%C3%A0.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1960",
+    "form": "azione",
+    "lemma": "azione",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "action, deed",
+    "gloss_full": "action, deed",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/azione#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Noun: share, security",
+      "Noun: offer"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-LangPao-azione.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/05/LL-Q652_%28ita%29-LangPao-azione.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1961",
+    "form": "proposta",
+    "lemma": "proposta",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "proposal",
+    "gloss_full": "proposal",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/proposta#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Participle: feminine singular of proposto"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-LangPao-proposta.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/LL-Q652_%28ita%29-LangPao-proposta.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1962",
+    "form": "corpo",
+    "lemma": "corpo",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "body",
+    "gloss_full": "body (the physical structure of a human or animal)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/corpo#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-Ciampix-corpo.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/LL-Q652_%28ita%29-Ciampix-corpo.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "recordings_found": 3
+    }
+  },
+  {
+    "word_id": "W1963",
+    "form": "cura",
+    "lemma": "cura",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "care",
+    "gloss_full": "care",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/cura#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Verb: inflection of curare: third-person singular present indicative second-person singular imperative"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-DivoLetto-cura.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/LL-Q652_%28ita%29-DivoLetto-cura.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1964",
+    "form": "presenza",
+    "lemma": "presenza",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "presence",
+    "gloss_full": "presence",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/presenza#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": null
+  },
+  {
+    "word_id": "W1965",
+    "form": "qualsiasi",
+    "lemma": "qualsiasi",
+    "part_of_speech": "Determiner",
+    "gender": "",
+    "gloss": "any",
+    "gloss_full": "any",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/qualsiasi#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Adjective: ordinary, common"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-LangPao-qualsiasi.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/LL-Q652_%28ita%29-LangPao-qualsiasi.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 2
+    }
+  },
+  {
+    "word_id": "W1966",
+    "form": "alcuni",
+    "lemma": "alcuno",
+    "part_of_speech": "Adjective",
+    "gender": "",
+    "gloss": "some, a few",
+    "gloss_full": "plural of alcuno (“some, a few”)",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/alcuni#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-XANA000-alcuni.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/LL-Q652_%28ita%29-XANA000-alcuni.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1967",
+    "form": "ricerca",
+    "lemma": "ricerca",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "research",
+    "gloss_full": "research",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/ricerca#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Verb: inflection of ricercare: third-person singular present indicative second-person singular imperative"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-LangPao-ricerca.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/LL-Q652_%28ita%29-LangPao-ricerca.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1968",
+    "form": "programma",
+    "lemma": "programma",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "programme/program, schedule, agenda",
+    "gloss_full": "programme/program, schedule, agenda",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/programma#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Verb: inflection of programmare: third-person singular present indicative second-person singular imperative"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-LangPao-programma.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/LL-Q652_%28ita%29-LangPao-programma.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1969",
+    "form": "livello",
+    "lemma": "livello",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "level",
+    "gloss_full": "level",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/livello#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Noun: emphyteusis",
+      "Verb: first-person singular present indicative of livellare"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-LangPao-livello.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/LL-Q652_%28ita%29-LangPao-livello.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1970",
+    "form": "cultura",
+    "lemma": "cultura",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "culture",
+    "gloss_full": "culture",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/cultura#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-Jennum-cultura.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/LL-Q652_%28ita%29-Jennum-cultura.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1971",
+    "form": "autore",
+    "lemma": "autore",
+    "part_of_speech": "Noun",
+    "gender": "m",
+    "gloss": "author",
+    "gloss_full": "author",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/autore#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-LangPao-autore.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/LL-Q652_%28ita%29-LangPao-autore.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1972",
+    "form": "conoscenza",
+    "lemma": "conoscenza",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "knowledge, cognition",
+    "gloss_full": "knowledge, cognition",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/conoscenza#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-Ciampix-conoscenza.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/LL-Q652_%28ita%29-Ciampix-conoscenza.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC0",
+      "recordings_found": 3
+    }
+  },
+  {
+    "word_id": "W1973",
+    "form": "prova",
+    "lemma": "prova",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "trial, test, experiment",
+    "gloss_full": "trial, test, experiment",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/prova#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Verb: inflection of provare: third-person singular present indicative second-person singular imperative"
+    ],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-LangPao-prova.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/LL-Q652_%28ita%29-LangPao-prova.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 1
+    }
+  },
+  {
+    "word_id": "W1974",
+    "form": "serie",
+    "lemma": "serie",
+    "part_of_speech": "Noun",
+    "gender": "f",
+    "gloss": "series",
+    "gloss_full": "series",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/serie#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [
+      "Adjective: feminine plural of serio"
+    ],
+    "lingua_libre": null
+  },
+  {
+    "word_id": "W1975",
+    "form": "rimango",
+    "lemma": "rimanere",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "first-person singular present indicative of rimanere",
+    "gloss_full": "first-person singular present indicative of rimanere",
+    "lemma_gloss": "to stay",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/rimango#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": null
+  },
+  {
+    "word_id": "W1976",
+    "form": "rimane",
+    "lemma": "rimanere",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "third-person singular present indicative of rimanere",
+    "gloss_full": "third-person singular present indicative of rimanere",
+    "lemma_gloss": "to stay",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/rimane#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": null
+  },
+  {
+    "word_id": "W1977",
+    "form": "rimanere",
+    "lemma": "rimanere",
+    "part_of_speech": "Verb",
+    "gender": "",
+    "gloss": "to stay",
+    "gloss_full": "to stay",
+    "lemma_gloss": "",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/rimanere#Italian",
+    "status": "checked",
+    "flag_reason": "",
+    "other_entries": [],
+    "lingua_libre": {
+      "file": "LL-Q652 (ita)-Happypheasant-rimanere.wav",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/LL-Q652_%28ita%29-Happypheasant-rimanere.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "license": "CC BY-SA 4.0",
+      "recordings_found": 2
+    }
   }
 ]

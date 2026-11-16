@@ -1397,7 +1397,8 @@
     "pos": "Noun"
   },
   "W1127": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "university"
   },
   "W1128": {
     "pos": "Verb"
@@ -2528,7 +2529,8 @@
     "pos": "Noun"
   },
   "W1606": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "croissant"
   },
   "W1607": {
     "pos": "Pronoun"
@@ -2579,7 +2581,8 @@
     "pos": "Noun"
   },
   "W1623": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "pasta, noodles"
   },
   "W1624": {
     "pos": "Noun",
@@ -2854,7 +2857,8 @@
     "pos": "Noun"
   },
   "W1711": {
-    "pos": "Noun"
+    "pos": "Noun",
+    "match": "signature (an act of signing"
   },
   "W1712": {
     "pos": "Noun"
@@ -3390,7 +3394,9 @@
     "pos": "Verb"
   },
   "W1948": {
-    "pos": "Adjective"
+    "pos": "Verb",
+    "form_of": "pubblicare",
+    "person": "lui"
   },
   "W1949": {
     "pos": "Verb"
@@ -3420,6 +3426,70 @@
     "pos": "Verb"
   },
   "W1958": {
+    "pos": "Verb"
+  },
+  "W1967": {
+    "pos": "Noun",
+    "match": "research"
+  },
+  "W1742": {
+    "pos": "Proper noun"
+  },
+  "W1743": {
+    "pos": "Proper noun"
+  },
+  "W1959": {
+    "pos": "Noun"
+  },
+  "W1960": {
+    "pos": "Noun"
+  },
+  "W1961": {
+    "pos": "Noun"
+  },
+  "W1962": {
+    "pos": "Noun"
+  },
+  "W1963": {
+    "pos": "Noun"
+  },
+  "W1964": {
+    "pos": "Noun"
+  },
+  "W1965": {
+    "pos": "Determiner"
+  },
+  "W1966": {
+    "pos": "Adjective"
+  },
+  "W1968": {
+    "pos": "Noun"
+  },
+  "W1969": {
+    "pos": "Noun"
+  },
+  "W1970": {
+    "pos": "Noun"
+  },
+  "W1971": {
+    "pos": "Noun"
+  },
+  "W1972": {
+    "pos": "Noun"
+  },
+  "W1973": {
+    "pos": "Noun"
+  },
+  "W1974": {
+    "pos": "Noun"
+  },
+  "W1975": {
+    "pos": "Verb"
+  },
+  "W1976": {
+    "pos": "Verb"
+  },
+  "W1977": {
     "pos": "Verb"
   }
 }

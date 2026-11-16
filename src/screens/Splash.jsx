@@ -86,7 +86,7 @@ export default function Splash({ onDone, choose = false, line = null }) {
         {/* Where the learner is (Dan, 2026-11-15): quiet, under the logo, only for a returning learner. */}
         {line && held !== true && <p data-return-line className="splash-line mt-5 text-sm text-muted">{line}</p>}
         {held === true && (
-          <div className="splash-choose mt-[3.8rem] flex flex-col items-center gap-0">
+          <div className="splash-choose mt-[3.8rem] [@media(max-height:760px)]:mt-3 flex flex-col items-center gap-0">
             <h1 className="text-[1.15rem] font-semibold">Choose Your Language</h1>
             <FlagRow size="lg" onPick={pick} />
           </div>

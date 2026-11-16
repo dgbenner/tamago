@@ -122,3 +122,17 @@ test('accent pairs are never offered side by side, even as contrast sets', () =>
   }
   assert.ok(blanks > 50, `only ${blanks} blanks built`)
 })
+
+// Dan, 2026-11-16: da and dà must never appear in the same choice set. Match Pairs and picture labels hold it too.
+test('Italian da and dà never share a board or a set of pictures', async () => {
+  const { makeMatchPairs } = await import('../src/lib/lesson.js')
+  const { t } = COURSES.find((x) => x.dir === 'content-it')
+  const da = t.words.find((w) => w.form === 'da'), dà = t.words.find((w) => w.form === 'dà')
+  assert.ok(da && dà, 'the Italian course teaches both da and dà')
+  const c = contentForUnit(t, dà.first_unit)
+  const others = t.words.filter((w) => w.hint && !['da', 'dà'].includes(w.form)).slice(0, 3)
+  const q = makeMatchPairs(c, [da, dà, ...others], 1, seeded(3))
+  const keys = q.pairs.map((p) => accentKey(p.form, 'fr'))
+  assert.equal(new Set(keys).size, keys.length, `board ${q.pairs.map((p) => p.form)}`)
+  assert.ok(q.pairs.length >= 4)
+})

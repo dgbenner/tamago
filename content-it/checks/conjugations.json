@@ -2677,32 +2677,7 @@
       "form": "mancano"
     }
   ],
-  "bisognare": [
-    {
-      "person": "io",
-      "form": "bisogno"
-    },
-    {
-      "person": "tu",
-      "form": "bisogni"
-    },
-    {
-      "person": "lui, lei, Lei",
-      "form": "bisogna"
-    },
-    {
-      "person": "noi",
-      "form": "bisogniamo"
-    },
-    {
-      "person": "voi",
-      "form": "bisognate"
-    },
-    {
-      "person": "loro",
-      "form": "bisognano"
-    }
-  ],
+  "bisognare": null,
   "considerare": [
     {
       "person": "io",
@@ -4107,6 +4082,32 @@
       "form": "concludono"
     }
   ],
+  "pubblicare": [
+    {
+      "person": "io",
+      "form": "pubblico"
+    },
+    {
+      "person": "tu",
+      "form": "pubblichi"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "pubblica"
+    },
+    {
+      "person": "noi",
+      "form": "pubblichiamo"
+    },
+    {
+      "person": "voi",
+      "form": "pubblicate"
+    },
+    {
+      "person": "loro",
+      "form": "pubblicano"
+    }
+  ],
   "approvare": [
     {
       "person": "io",
@@ -4365,6 +4366,32 @@
     {
       "person": "loro",
       "form": "evitano"
+    }
+  ],
+  "rimanere": [
+    {
+      "person": "io",
+      "form": "rimango"
+    },
+    {
+      "person": "tu",
+      "form": "rimani"
+    },
+    {
+      "person": "lui, lei, Lei",
+      "form": "rimane"
+    },
+    {
+      "person": "noi",
+      "form": "rimaniamo"
+    },
+    {
+      "person": "voi",
+      "form": "rimanete"
+    },
+    {
+      "person": "loro",
+      "form": "rimangono"
     }
   ]
 }

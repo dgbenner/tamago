@@ -1,7 +1,7 @@
 {
   "unit_id": "U92",
   "pulled_at": "2026-11-16",
-  "candidates": 97,
+  "candidates": 114,
   "sentences": [
     {
       "sentence_id": "S92001",
@@ -51,11 +51,11 @@
     {
       "sentence_id": "S92004",
       "unit_id": "U92",
-      "french": "Tom è un ufficiale?",
-      "english": "Is Tom an officer?",
+      "french": "Posso fare qualsiasi cosa?",
+      "english": "Can I do anything?",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "10739539",
+      "source_id": "1003989",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
@@ -81,11 +81,11 @@
     {
       "sentence_id": "S92006",
       "unit_id": "U92",
-      "french": "Che tipo di storico sei?",
-      "english": "What kind of historian are you?",
+      "french": "Perché dire loro qualsiasi cosa?",
+      "english": "Why tell them anything?",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "4467546",
+      "source_id": "6203693",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
@@ -96,11 +96,11 @@
     {
       "sentence_id": "S92007",
       "unit_id": "U92",
-      "french": "Che tipo di storico è?",
-      "english": "What kind of historian are you?",
+      "french": "L'acqua è disponibile lì?",
+      "english": "Is water available there?",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "4467547",
+      "source_id": "13074193",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
@@ -111,11 +111,11 @@
     {
       "sentence_id": "S92008",
       "unit_id": "U92",
-      "french": "L'acqua è disponibile lì?",
-      "english": "Is water available there?",
+      "french": "Posso fare qualsiasi cosa per voi?",
+      "english": "Can I do anything for you?",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "13074193",
+      "source_id": "1872305",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
@@ -188,11 +188,11 @@
     {
       "sentence_id": "S92013",
       "unit_id": "U92",
-      "french": "Sono particolare.",
-      "english": "I'm particular.",
+      "french": "Hai alcuni libri.",
+      "english": "You have some books.",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "5292853",
+      "source_id": "740338",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
@@ -203,11 +203,11 @@
     {
       "sentence_id": "S92014",
       "unit_id": "U92",
-      "french": "Sei particolare.",
-      "english": "You're particular.",
+      "french": "Avete alcuni libri.",
+      "english": "You have some books.",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "5292918",
+      "source_id": "740339",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
@@ -217,36 +217,6 @@
     },
     {
       "sentence_id": "S92015",
-      "unit_id": "U92",
-      "french": "Singolo, per favore.",
-      "english": "Single, please.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "13437338",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S92016",
-      "unit_id": "U92",
-      "french": "È uno storico.",
-      "english": "He's a historian.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "976857",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S92017",
       "unit_id": "U92",
       "french": "Adesso è ufficiale.",
       "english": "Now it's official.",
@@ -261,6 +231,36 @@
       "other_english": [
         "Now it is official."
       ]
+    },
+    {
+      "sentence_id": "S92016",
+      "unit_id": "U92",
+      "french": "Leggo alcuni libri.",
+      "english": "I read some books.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1509961",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S92017",
+      "unit_id": "U92",
+      "french": "Questo è ufficiale.",
+      "english": "This is official.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5336573",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
     },
     {
       "sentence_id": "S92018",
@@ -370,6 +370,25 @@
     {
       "sentence_id": "S92025",
       "unit_id": "U92",
+      "french": "Questo è un momento storico.",
+      "english": "This is a historical moment.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2790620",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "This is an historical moment.",
+        "This is a historic moment.",
+        "This is an historic moment."
+      ]
+    },
+    {
+      "sentence_id": "S92026",
+      "unit_id": "U92",
       "french": "Questo è superiore a quello.",
       "english": "This is superior to that.",
       "pair_id": "",
@@ -383,7 +402,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S92026",
+      "sentence_id": "S92027",
       "unit_id": "U92",
       "french": "Questa è superiore a quella.",
       "english": "This is superior to that.",
@@ -398,7 +417,22 @@
       "other_english": []
     },
     {
-      "sentence_id": "S92027",
+      "sentence_id": "S92028",
+      "unit_id": "U92",
+      "french": "Oggi è un giorno storico.",
+      "english": "Today is a historic day.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8238302",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S92029",
       "unit_id": "U92",
       "french": "Tom non è un tecnico.",
       "english": "Tom isn't a technician.",
@@ -413,7 +447,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S92028",
+      "sentence_id": "S92030",
       "unit_id": "U92",
       "french": "Questo dizionario è superiore a quello.",
       "english": "This dictionary is superior to that one.",
@@ -428,7 +462,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S92029",
+      "sentence_id": "S92031",
       "unit_id": "U92",
       "french": "Il problema principale è quando iniziare.",
       "english": "When to start is the main problem.",
@@ -443,7 +477,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S92030",
+      "sentence_id": "S92032",
       "unit_id": "U92",
       "french": "Tom viene qui ogni singolo giorno.",
       "english": "Tom comes here every single day.",
@@ -458,7 +492,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S92031",
+      "sentence_id": "S92034",
       "unit_id": "U92",
       "french": "Il fatto è noto a tutti.",
       "english": "The fact is known to everybody.",
@@ -473,7 +507,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S92032",
+      "sentence_id": "S92035",
       "unit_id": "U92",
       "french": "Il mondo è bello perché è vario.",
       "english": "The world is beautiful because it's diverse.",
@@ -491,7 +525,24 @@
       ]
     },
     {
-      "sentence_id": "S92033",
+      "sentence_id": "S92036",
+      "unit_id": "U92",
+      "french": "Non ho nulla di particolare da dire.",
+      "english": "I have nothing particular to say.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1815009",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "I don't have anything particular to say."
+      ]
+    },
+    {
+      "sentence_id": "S92037",
       "unit_id": "U92",
       "french": "Questo articolo è più interessante del precedente.",
       "english": "This article is more interesting than the previous one.",
@@ -598,32 +649,32 @@
     {
       "sentence_id": "S92004",
       "position": 1,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
+      "surface": "Posso",
+      "word_id": "W817",
+      "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92004",
       "position": 2,
-      "surface": "è",
-      "word_id": "W023",
+      "surface": "fare",
+      "word_id": "W1296",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92004",
       "position": 3,
-      "surface": "un",
-      "word_id": "W009",
+      "surface": "qualsiasi",
+      "word_id": "W1965",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92004",
       "position": 4,
-      "surface": "ufficiale",
-      "word_id": "W1854",
+      "surface": "cosa",
+      "word_id": "W144",
       "notes": "",
       "hint_override": ""
     },
@@ -662,85 +713,45 @@
     {
       "sentence_id": "S92006",
       "position": 1,
-      "surface": "Che",
-      "word_id": "W145",
+      "surface": "Perché",
+      "word_id": "W149",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92006",
       "position": 2,
-      "surface": "tipo",
-      "word_id": "W1499",
+      "surface": "dire",
+      "word_id": "W715",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92006",
       "position": 3,
-      "surface": "di",
-      "word_id": "W137",
+      "surface": "loro",
+      "word_id": "W081",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92006",
       "position": 4,
-      "surface": "storico",
-      "word_id": "W1849",
+      "surface": "qualsiasi",
+      "word_id": "W1965",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92006",
       "position": 5,
-      "surface": "sei",
-      "word_id": "W008",
+      "surface": "cosa",
+      "word_id": "W144",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92007",
-      "position": 1,
-      "surface": "Che",
-      "word_id": "W145",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S92007",
-      "position": 2,
-      "surface": "tipo",
-      "word_id": "W1499",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S92007",
-      "position": 3,
-      "surface": "di",
-      "word_id": "W137",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S92007",
-      "position": 4,
-      "surface": "storico",
-      "word_id": "W1849",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S92007",
-      "position": 5,
-      "surface": "è",
-      "word_id": "W023",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S92008",
       "position": 1,
       "surface": "L'",
       "word_id": "W020",
@@ -748,7 +759,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92008",
+      "sentence_id": "S92007",
       "position": 2,
       "surface": "acqua",
       "word_id": "W059",
@@ -756,7 +767,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92008",
+      "sentence_id": "S92007",
       "position": 3,
       "surface": "è",
       "word_id": "W023",
@@ -764,7 +775,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92008",
+      "sentence_id": "S92007",
       "position": 4,
       "surface": "disponibile",
       "word_id": "W1847",
@@ -772,10 +783,58 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92008",
+      "sentence_id": "S92007",
       "position": 5,
       "surface": "lì",
       "word_id": "W109",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 1,
+      "surface": "Posso",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 2,
+      "surface": "fare",
+      "word_id": "W1296",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 3,
+      "surface": "qualsiasi",
+      "word_id": "W1965",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 4,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 5,
+      "surface": "per",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92008",
+      "position": 6,
+      "surface": "voi",
+      "word_id": "W080",
       "notes": "",
       "hint_override": ""
     },
@@ -878,80 +937,104 @@
     {
       "sentence_id": "S92013",
       "position": 1,
-      "surface": "Sono",
-      "word_id": "W007",
+      "surface": "Hai",
+      "word_id": "W067",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92013",
       "position": 2,
-      "surface": "particolare",
-      "word_id": "W1831",
+      "surface": "alcuni",
+      "word_id": "W1966",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92013",
+      "position": 3,
+      "surface": "libri",
+      "word_id": "W087",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92014",
       "position": 1,
-      "surface": "Sei",
-      "word_id": "W008",
+      "surface": "Avete",
+      "word_id": "W085",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92014",
       "position": 2,
-      "surface": "particolare",
-      "word_id": "W1831",
+      "surface": "alcuni",
+      "word_id": "W1966",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92014",
+      "position": 3,
+      "surface": "libri",
+      "word_id": "W087",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92015",
       "position": 1,
-      "surface": "Singolo",
-      "word_id": "W1841",
+      "surface": "Adesso",
+      "word_id": "W175",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92015",
       "position": 2,
-      "surface": "per favore",
-      "word_id": "W035",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S92016",
-      "position": 1,
-      "surface": "È",
+      "surface": "è",
       "word_id": "W023",
       "notes": "",
       "hint_override": ""
     },
     {
+      "sentence_id": "S92015",
+      "position": 3,
+      "surface": "ufficiale",
+      "word_id": "W1854",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92016",
+      "position": 1,
+      "surface": "Leggo",
+      "word_id": "W1030",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
       "sentence_id": "S92016",
       "position": 2,
-      "surface": "uno",
-      "word_id": "W151",
+      "surface": "alcuni",
+      "word_id": "W1966",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92016",
       "position": 3,
-      "surface": "storico",
-      "word_id": "W1849",
+      "surface": "libri",
+      "word_id": "W087",
       "notes": "",
       "hint_override": ""
     },
     {
       "sentence_id": "S92017",
       "position": 1,
-      "surface": "Adesso",
-      "word_id": "W175",
+      "surface": "Questo",
+      "word_id": "W025",
       "notes": "",
       "hint_override": ""
     },
@@ -1206,13 +1289,53 @@
     {
       "sentence_id": "S92025",
       "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92025",
+      "position": 4,
+      "surface": "momento",
+      "word_id": "W848",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92025",
+      "position": 5,
+      "surface": "storico",
+      "word_id": "W1849",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92026",
+      "position": 1,
+      "surface": "Questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92026",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92026",
+      "position": 3,
       "surface": "superiore",
       "word_id": "W1846",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S92025",
+      "sentence_id": "S92026",
       "position": 4,
       "surface": "a",
       "word_id": "W185",
@@ -1220,7 +1343,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92025",
+      "sentence_id": "S92026",
       "position": 5,
       "surface": "quello",
       "word_id": "W954",
@@ -1228,7 +1351,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92026",
+      "sentence_id": "S92027",
       "position": 1,
       "surface": "Questa",
       "word_id": "W026",
@@ -1236,7 +1359,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92026",
+      "sentence_id": "S92027",
       "position": 2,
       "surface": "è",
       "word_id": "W023",
@@ -1244,7 +1367,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92026",
+      "sentence_id": "S92027",
       "position": 3,
       "surface": "superiore",
       "word_id": "W1846",
@@ -1252,7 +1375,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92026",
+      "sentence_id": "S92027",
       "position": 4,
       "surface": "a",
       "word_id": "W185",
@@ -1260,7 +1383,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92026",
+      "sentence_id": "S92027",
       "position": 5,
       "surface": "quella",
       "word_id": "W955",
@@ -1268,7 +1391,47 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92027",
+      "sentence_id": "S92028",
+      "position": 1,
+      "surface": "Oggi",
+      "word_id": "W173",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92028",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92028",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92028",
+      "position": 4,
+      "surface": "giorno",
+      "word_id": "W176",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92028",
+      "position": 5,
+      "surface": "storico",
+      "word_id": "W1849",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92029",
       "position": 1,
       "surface": "Tom",
       "word_id": "",
@@ -1276,7 +1439,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92027",
+      "sentence_id": "S92029",
       "position": 2,
       "surface": "non",
       "word_id": "W004",
@@ -1284,7 +1447,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92027",
+      "sentence_id": "S92029",
       "position": 3,
       "surface": "è",
       "word_id": "W023",
@@ -1292,7 +1455,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92027",
+      "sentence_id": "S92029",
       "position": 4,
       "surface": "un",
       "word_id": "W009",
@@ -1300,7 +1463,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92027",
+      "sentence_id": "S92029",
       "position": 5,
       "surface": "tecnico",
       "word_id": "W1852",
@@ -1308,7 +1471,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92028",
+      "sentence_id": "S92030",
       "position": 1,
       "surface": "Questo",
       "word_id": "W025",
@@ -1316,7 +1479,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92028",
+      "sentence_id": "S92030",
       "position": 2,
       "surface": "dizionario",
       "word_id": "W1119",
@@ -1324,7 +1487,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92028",
+      "sentence_id": "S92030",
       "position": 3,
       "surface": "è",
       "word_id": "W023",
@@ -1332,7 +1495,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92028",
+      "sentence_id": "S92030",
       "position": 4,
       "surface": "superiore",
       "word_id": "W1846",
@@ -1340,7 +1503,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92028",
+      "sentence_id": "S92030",
       "position": 5,
       "surface": "a",
       "word_id": "W185",
@@ -1348,7 +1511,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92028",
+      "sentence_id": "S92030",
       "position": 6,
       "surface": "quello",
       "word_id": "W954",
@@ -1356,7 +1519,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92029",
+      "sentence_id": "S92031",
       "position": 1,
       "surface": "Il",
       "word_id": "W018",
@@ -1364,7 +1527,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92029",
+      "sentence_id": "S92031",
       "position": 2,
       "surface": "problema",
       "word_id": "W1442",
@@ -1372,7 +1535,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92029",
+      "sentence_id": "S92031",
       "position": 3,
       "surface": "principale",
       "word_id": "W1833",
@@ -1380,7 +1543,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92029",
+      "sentence_id": "S92031",
       "position": 4,
       "surface": "è",
       "word_id": "W023",
@@ -1388,7 +1551,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92029",
+      "sentence_id": "S92031",
       "position": 5,
       "surface": "quando",
       "word_id": "W148",
@@ -1396,7 +1559,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92029",
+      "sentence_id": "S92031",
       "position": 6,
       "surface": "iniziare",
       "word_id": "W1303",
@@ -1404,7 +1567,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92030",
+      "sentence_id": "S92032",
       "position": 1,
       "surface": "Tom",
       "word_id": "",
@@ -1412,7 +1575,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92030",
+      "sentence_id": "S92032",
       "position": 2,
       "surface": "viene",
       "word_id": "W1271",
@@ -1420,7 +1583,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92030",
+      "sentence_id": "S92032",
       "position": 3,
       "surface": "qui",
       "word_id": "W024",
@@ -1428,7 +1591,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92030",
+      "sentence_id": "S92032",
       "position": 4,
       "surface": "ogni",
       "word_id": "W952",
@@ -1436,7 +1599,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92030",
+      "sentence_id": "S92032",
       "position": 5,
       "surface": "singolo",
       "word_id": "W1841",
@@ -1444,7 +1607,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92030",
+      "sentence_id": "S92032",
       "position": 6,
       "surface": "giorno",
       "word_id": "W176",
@@ -1452,7 +1615,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92031",
+      "sentence_id": "S92034",
       "position": 1,
       "surface": "Il",
       "word_id": "W018",
@@ -1460,7 +1623,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92031",
+      "sentence_id": "S92034",
       "position": 2,
       "surface": "fatto",
       "word_id": "W1805",
@@ -1468,7 +1631,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92031",
+      "sentence_id": "S92034",
       "position": 3,
       "surface": "è",
       "word_id": "W023",
@@ -1476,7 +1639,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92031",
+      "sentence_id": "S92034",
       "position": 4,
       "surface": "noto",
       "word_id": "W1848",
@@ -1484,7 +1647,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92031",
+      "sentence_id": "S92034",
       "position": 5,
       "surface": "a",
       "word_id": "W185",
@@ -1492,7 +1655,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92031",
+      "sentence_id": "S92034",
       "position": 6,
       "surface": "tutti",
       "word_id": "W1230",
@@ -1500,7 +1663,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92032",
+      "sentence_id": "S92035",
       "position": 1,
       "surface": "Il",
       "word_id": "W018",
@@ -1508,7 +1671,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92032",
+      "sentence_id": "S92035",
       "position": 2,
       "surface": "mondo",
       "word_id": "W889",
@@ -1516,7 +1679,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92032",
+      "sentence_id": "S92035",
       "position": 3,
       "surface": "è",
       "word_id": "W023",
@@ -1524,7 +1687,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92032",
+      "sentence_id": "S92035",
       "position": 4,
       "surface": "bello",
       "word_id": "W102",
@@ -1532,7 +1695,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92032",
+      "sentence_id": "S92035",
       "position": 5,
       "surface": "perché",
       "word_id": "W149",
@@ -1540,7 +1703,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92032",
+      "sentence_id": "S92035",
       "position": 6,
       "surface": "è",
       "word_id": "W023",
@@ -1548,7 +1711,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92032",
+      "sentence_id": "S92035",
       "position": 7,
       "surface": "vario",
       "word_id": "W1842",
@@ -1556,7 +1719,63 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92033",
+      "sentence_id": "S92036",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92036",
+      "position": 2,
+      "surface": "ho",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92036",
+      "position": 3,
+      "surface": "nulla",
+      "word_id": "W1829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92036",
+      "position": 4,
+      "surface": "di",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92036",
+      "position": 5,
+      "surface": "particolare",
+      "word_id": "W1831",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92036",
+      "position": 6,
+      "surface": "da",
+      "word_id": "W1405",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92036",
+      "position": 7,
+      "surface": "dire",
+      "word_id": "W715",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S92037",
       "position": 1,
       "surface": "Questo",
       "word_id": "W025",
@@ -1564,7 +1783,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92033",
+      "sentence_id": "S92037",
       "position": 2,
       "surface": "articolo",
       "word_id": "W1445",
@@ -1572,7 +1791,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92033",
+      "sentence_id": "S92037",
       "position": 3,
       "surface": "è",
       "word_id": "W023",
@@ -1580,7 +1799,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92033",
+      "sentence_id": "S92037",
       "position": 4,
       "surface": "più",
       "word_id": "W704",
@@ -1588,7 +1807,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92033",
+      "sentence_id": "S92037",
       "position": 5,
       "surface": "interessante",
       "word_id": "W1149",
@@ -1596,7 +1815,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92033",
+      "sentence_id": "S92037",
       "position": 6,
       "surface": "del",
       "word_id": "W1419",
@@ -1604,7 +1823,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S92033",
+      "sentence_id": "S92037",
       "position": 7,
       "surface": "precedente",
       "word_id": "W1836",
@@ -1622,26 +1841,58 @@
       "status": "pulled"
     },
     {
-      "answer_id": "A920171",
-      "sentence_id": "S92017",
+      "answer_id": "A920151",
+      "sentence_id": "S92015",
       "direction": "fr_to_en",
       "answer": "Now it is official.",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A920321",
-      "sentence_id": "S92032",
+      "answer_id": "A920251",
+      "sentence_id": "S92025",
+      "direction": "fr_to_en",
+      "answer": "This is an historical moment.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A920252",
+      "sentence_id": "S92025",
+      "direction": "fr_to_en",
+      "answer": "This is a historic moment.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A920253",
+      "sentence_id": "S92025",
+      "direction": "fr_to_en",
+      "answer": "This is an historic moment.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A920351",
+      "sentence_id": "S92035",
       "direction": "fr_to_en",
       "answer": "The world is beautiful because it is diverse.",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A920322",
-      "sentence_id": "S92032",
+      "answer_id": "A920352",
+      "sentence_id": "S92035",
       "direction": "fr_to_en",
       "answer": "It takes all sorts to make a world.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A920361",
+      "sentence_id": "S92036",
+      "direction": "fr_to_en",
+      "answer": "I don't have anything particular to say.",
       "source": "tatoeba",
       "status": "pulled"
     }

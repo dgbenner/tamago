@@ -1,16 +1,31 @@
 {
   "unit_id": "U94",
   "pulled_at": "2026-11-16",
-  "candidates": 198,
+  "candidates": 360,
   "sentences": [
     {
       "sentence_id": "S94001",
       "unit_id": "U94",
-      "french": "Lui esiste?",
-      "english": "Does he exist?",
+      "french": "Intendo rimanere qui per molto tempo.",
+      "english": "I intend to stay here for a long time.",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "803697",
+      "source_id": "11550148",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Nuel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94002",
+      "unit_id": "U94",
+      "french": "Vuoi rimanere?",
+      "english": "Do you want to stay?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2778989",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
@@ -19,24 +34,37 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94002",
+      "sentence_id": "S94003",
       "unit_id": "U94",
-      "french": "Lei esiste?",
-      "english": "Do you exist?",
+      "french": "Deve rimanere?",
+      "english": "Do you have to stay?",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "803701",
+      "source_id": "2900368",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "Guybrush88",
-      "other_english": [
-        "Does she exist?"
-      ]
+      "other_english": []
     },
     {
-      "sentence_id": "S94003",
+      "sentence_id": "S94004",
+      "unit_id": "U94",
+      "french": "Chi rimane?",
+      "english": "Who's staying?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2916902",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94005",
       "unit_id": "U94",
       "french": "Mi riguarda?",
       "english": "Does it involve me?",
@@ -51,7 +79,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94004",
+      "sentence_id": "S94006",
       "unit_id": "U94",
       "french": "Esiste già?",
       "english": "Does it already exist?",
@@ -66,7 +94,22 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94005",
+      "sentence_id": "S94007",
+      "unit_id": "U94",
+      "french": "Rimane, vero?",
+      "english": "He's staying, isn't he?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8694470",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94008",
       "unit_id": "U94",
       "french": "Capisci cosa intendo?",
       "english": "Do you understand what I mean?",
@@ -81,7 +124,22 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94006",
+      "sentence_id": "S94009",
+      "unit_id": "U94",
+      "french": "Quanto tempo rimane?",
+      "english": "How much time is left?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3162313",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94010",
       "unit_id": "U94",
       "french": "Questo riguarda me?",
       "english": "Is this about me?",
@@ -96,7 +154,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94007",
+      "sentence_id": "S94011",
       "unit_id": "U94",
       "french": "Questo riguarda Tom?",
       "english": "Is this about Tom?",
@@ -111,7 +169,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94008",
+      "sentence_id": "S94012",
       "unit_id": "U94",
       "french": "Ti rende felice?",
       "english": "Does that make you happy?",
@@ -126,7 +184,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94009",
+      "sentence_id": "S94013",
       "unit_id": "U94",
       "french": "Non dimostra qualcosa?",
       "english": "Doesn't that prove something?",
@@ -141,7 +199,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94010",
+      "sentence_id": "S94014",
       "unit_id": "U94",
       "french": "Lo possiamo dimostrare?",
       "english": "Can we prove it?",
@@ -156,7 +214,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94011",
+      "sentence_id": "S94015",
       "unit_id": "U94",
       "french": "Ti rende triste?",
       "english": "Does that make you sad?",
@@ -171,7 +229,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94012",
+      "sentence_id": "S94016",
       "unit_id": "U94",
       "french": "Quale azienda rappresenta?",
       "english": "What company do you represent?",
@@ -186,7 +244,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94013",
+      "sentence_id": "S94017",
       "unit_id": "U94",
       "french": "Tu capisci cosa intendo?",
       "english": "Do you understand what I mean?",
@@ -201,7 +259,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94014",
+      "sentence_id": "S94018",
       "unit_id": "U94",
       "french": "Tom ti rende felice?",
       "english": "Does Tom make you happy?",
@@ -216,7 +274,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94015",
+      "sentence_id": "S94019",
       "unit_id": "U94",
       "french": "Perché tratta così Tom?",
       "english": "Why do you treat Tom like that?",
@@ -231,7 +289,37 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94016",
+      "sentence_id": "S94020",
+      "unit_id": "U94",
+      "french": "L'italiano medio esiste davvero?",
+      "english": "Does the average Italian really exist?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "836795",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94021",
+      "unit_id": "U94",
+      "french": "Perché non rimango con Tom?",
+      "english": "Why don't I stay with Tom?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5542604",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S94022",
       "unit_id": "U94",
       "french": "Perché Tom tratta così Mary?",
       "english": "Why does Tom treat Mary like that?",
@@ -246,7 +334,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94017",
+      "sentence_id": "S94023",
       "unit_id": "U94",
       "french": "Questo è troppo difficile da comprendere?",
       "english": "Is this too hard to understand?",
@@ -261,7 +349,26 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94018",
+      "sentence_id": "S94024",
+      "unit_id": "U94",
+      "french": "Non esiste.",
+      "english": "That doesn't exist.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1228018",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "He doesn't exist.",
+        "It doesn't exist.",
+        "She doesn't exist."
+      ]
+    },
+    {
+      "sentence_id": "S94025",
       "unit_id": "U94",
       "french": "Io comprendo.",
       "english": "I understand.",
@@ -278,7 +385,7 @@
       ]
     },
     {
-      "sentence_id": "S94019",
+      "sentence_id": "S94026",
       "unit_id": "U94",
       "french": "Non comprendo.",
       "english": "I don't understand.",
@@ -295,7 +402,7 @@
       ]
     },
     {
-      "sentence_id": "S94020",
+      "sentence_id": "S94027",
       "unit_id": "U94",
       "french": "Sì, comprendo.",
       "english": "Yes, I understand.",
@@ -310,22 +417,24 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94021",
+      "sentence_id": "S94028",
       "unit_id": "U94",
-      "french": "Intendo questo.",
-      "english": "I mean that.",
+      "french": "Io rimango.",
+      "english": "I'm staying.",
       "pair_id": "",
       "source": "tatoeba",
-      "source_id": "3533134",
+      "source_id": "3372586",
       "status": "pulled: awaiting approval",
       "audio_source": "tts",
       "max_round": 5,
       "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Vallysing",
-      "other_english": []
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "I'm going to stay."
+      ]
     },
     {
-      "sentence_id": "S94022",
+      "sentence_id": "S94029",
       "unit_id": "U94",
       "french": "Lo riconosco.",
       "english": "I recognize him.",
@@ -340,7 +449,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94023",
+      "sentence_id": "S94030",
       "unit_id": "U94",
       "french": "Adesso ti riconosco!",
       "english": "Now I recognize you!",
@@ -355,7 +464,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94024",
+      "sentence_id": "S94031",
       "unit_id": "U94",
       "french": "Non riconosco nessuno.",
       "english": "I don't recognize anyone.",
@@ -370,7 +479,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94025",
+      "sentence_id": "S94032",
       "unit_id": "U94",
       "french": "Voglio comprendere Tom.",
       "english": "I want to understand Tom.",
@@ -385,7 +494,25 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94026",
+      "sentence_id": "S94033",
+      "unit_id": "U94",
+      "french": "Rimango a casa.",
+      "english": "I stay home.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3975894",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "I'm staying home.",
+        "I'm staying at home."
+      ]
+    },
+    {
+      "sentence_id": "S94034",
       "unit_id": "U94",
       "french": "Lo deve riconoscere.",
       "english": "He needs to recognize that.",
@@ -400,7 +527,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94027",
+      "sentence_id": "S94035",
       "unit_id": "U94",
       "french": "Non dimostra nulla.",
       "english": "That proves nothing.",
@@ -417,7 +544,7 @@
       ]
     },
     {
-      "sentence_id": "S94028",
+      "sentence_id": "S94036",
       "unit_id": "U94",
       "french": "Tom sembra comprendere.",
       "english": "Tom seems to understand.",
@@ -432,37 +559,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94029",
-      "unit_id": "U94",
-      "french": "Tratta bene Tom.",
-      "english": "Treat Tom well.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "7770132",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S94030",
-      "unit_id": "U94",
-      "french": "Riferisce a me.",
-      "english": "He reports to me.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "7952100",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S94031",
+      "sentence_id": "S94037",
       "unit_id": "U94",
       "french": "Considero Tom bello.",
       "english": "I consider Tom handsome.",
@@ -477,7 +574,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94032",
+      "sentence_id": "S94038",
       "unit_id": "U94",
       "french": "Mi considero felice.",
       "english": "I consider myself happy.",
@@ -492,7 +589,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S94033",
+      "sentence_id": "S94039",
       "unit_id": "U94",
       "french": "Considero Tom un amico.",
       "english": "I consider Tom a friend.",
@@ -509,7 +606,7 @@
       ]
     },
     {
-      "sentence_id": "S94034",
+      "sentence_id": "S94040",
       "unit_id": "U94",
       "french": "Non puoi dimostrare nulla.",
       "english": "You can't prove anything.",
@@ -522,589 +619,11 @@
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "Guybrush88",
       "other_english": []
-    },
-    {
-      "sentence_id": "S94035",
-      "unit_id": "U94",
-      "french": "Non può dimostrare nulla.",
-      "english": "You can't prove anything.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3358628",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S94036",
-      "unit_id": "U94",
-      "french": "Lui lo deve riconoscere.",
-      "english": "He needs to recognize that.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "4874326",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S94037",
-      "unit_id": "U94",
-      "french": "Lui riferisce a me.",
-      "english": "He reports to me.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "7952101",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S94038",
-      "unit_id": "U94",
-      "french": "Riporta a casa Tom.",
-      "english": "Take Tom back home.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "12256005",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S94039",
-      "unit_id": "U94",
-      "french": "Questo è qualcosa da considerare.",
-      "english": "This is something to consider.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "1702335",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S94040",
-      "unit_id": "U94",
-      "french": "Riporta questo libro a lui.",
-      "english": "Take this book back to him.",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3584615",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "ema_rega",
-      "other_english": []
     }
   ],
   "sentence_words": [
     {
       "sentence_id": "S94001",
-      "position": 1,
-      "surface": "Lui",
-      "word_id": "W021",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94001",
-      "position": 2,
-      "surface": "esiste",
-      "word_id": "W1906",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94002",
-      "position": 1,
-      "surface": "Lei",
-      "word_id": "W022",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94002",
-      "position": 2,
-      "surface": "esiste",
-      "word_id": "W1906",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94003",
-      "position": 1,
-      "surface": "Mi",
-      "word_id": "W055",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94003",
-      "position": 2,
-      "surface": "riguarda",
-      "word_id": "W1908",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94004",
-      "position": 1,
-      "surface": "Esiste",
-      "word_id": "W1906",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94004",
-      "position": 2,
-      "surface": "già",
-      "word_id": "W1413",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94005",
-      "position": 1,
-      "surface": "Capisci",
-      "word_id": "W702",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94005",
-      "position": 2,
-      "surface": "cosa",
-      "word_id": "W144",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94005",
-      "position": 3,
-      "surface": "intendo",
-      "word_id": "W1886",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94006",
-      "position": 1,
-      "surface": "Questo",
-      "word_id": "W025",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94006",
-      "position": 2,
-      "surface": "riguarda",
-      "word_id": "W1908",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94006",
-      "position": 3,
-      "surface": "me",
-      "word_id": "W1607",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94007",
-      "position": 1,
-      "surface": "Questo",
-      "word_id": "W025",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94007",
-      "position": 2,
-      "surface": "riguarda",
-      "word_id": "W1908",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94007",
-      "position": 3,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94008",
-      "position": 1,
-      "surface": "Ti",
-      "word_id": "W056",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94008",
-      "position": 2,
-      "surface": "rende",
-      "word_id": "W1910",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94008",
-      "position": 3,
-      "surface": "felice",
-      "word_id": "W119",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94009",
-      "position": 1,
-      "surface": "Non",
-      "word_id": "W004",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94009",
-      "position": 2,
-      "surface": "dimostra",
-      "word_id": "W1893",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94009",
-      "position": 3,
-      "surface": "qualcosa",
-      "word_id": "W911",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94010",
-      "position": 1,
-      "surface": "Lo",
-      "word_id": "W723",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94010",
-      "position": 2,
-      "surface": "possiamo",
-      "word_id": "W1288",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94010",
-      "position": 3,
-      "surface": "dimostrare",
-      "word_id": "W1894",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94011",
-      "position": 1,
-      "surface": "Ti",
-      "word_id": "W056",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94011",
-      "position": 2,
-      "surface": "rende",
-      "word_id": "W1910",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94011",
-      "position": 3,
-      "surface": "triste",
-      "word_id": "W120",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94012",
-      "position": 1,
-      "surface": "Quale",
-      "word_id": "W150",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94012",
-      "position": 2,
-      "surface": "azienda",
-      "word_id": "W1692",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94012",
-      "position": 3,
-      "surface": "rappresenta",
-      "word_id": "W1904",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94013",
-      "position": 1,
-      "surface": "Tu",
-      "word_id": "W006",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94013",
-      "position": 2,
-      "surface": "capisci",
-      "word_id": "W702",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94013",
-      "position": 3,
-      "surface": "cosa",
-      "word_id": "W144",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94013",
-      "position": 4,
-      "surface": "intendo",
-      "word_id": "W1886",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94014",
-      "position": 1,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94014",
-      "position": 2,
-      "surface": "ti",
-      "word_id": "W056",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94014",
-      "position": 3,
-      "surface": "rende",
-      "word_id": "W1910",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94014",
-      "position": 4,
-      "surface": "felice",
-      "word_id": "W119",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94015",
-      "position": 1,
-      "surface": "Perché",
-      "word_id": "W149",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94015",
-      "position": 2,
-      "surface": "tratta",
-      "word_id": "W1909",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94015",
-      "position": 3,
-      "surface": "così",
-      "word_id": "W1409",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94015",
-      "position": 4,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94016",
-      "position": 1,
-      "surface": "Perché",
-      "word_id": "W149",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94016",
-      "position": 2,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94016",
-      "position": 3,
-      "surface": "tratta",
-      "word_id": "W1909",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94016",
-      "position": 4,
-      "surface": "così",
-      "word_id": "W1409",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94016",
-      "position": 5,
-      "surface": "Mary",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94017",
-      "position": 1,
-      "surface": "Questo",
-      "word_id": "W025",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94017",
-      "position": 2,
-      "surface": "è",
-      "word_id": "W023",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94017",
-      "position": 3,
-      "surface": "troppo",
-      "word_id": "W946",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94017",
-      "position": 4,
-      "surface": "difficile",
-      "word_id": "W1148",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94017",
-      "position": 5,
-      "surface": "da",
-      "word_id": "W1405",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94017",
-      "position": 6,
-      "surface": "comprendere",
-      "word_id": "W1901",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94018",
-      "position": 1,
-      "surface": "Io",
-      "word_id": "W005",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94018",
-      "position": 2,
-      "surface": "comprendo",
-      "word_id": "W1900",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94019",
-      "position": 1,
-      "surface": "Non",
-      "word_id": "W004",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94019",
-      "position": 2,
-      "surface": "comprendo",
-      "word_id": "W1900",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94020",
-      "position": 1,
-      "surface": "Sì",
-      "word_id": "W002",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94020",
-      "position": 2,
-      "surface": "comprendo",
-      "word_id": "W1900",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94021",
       "position": 1,
       "surface": "Intendo",
       "word_id": "W1886",
@@ -1112,247 +631,95 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S94021",
+      "sentence_id": "S94001",
       "position": 2,
-      "surface": "questo",
-      "word_id": "W025",
+      "surface": "rimanere",
+      "word_id": "W1977",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94022",
-      "position": 1,
-      "surface": "Lo",
-      "word_id": "W723",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94022",
-      "position": 2,
-      "surface": "riconosco",
-      "word_id": "W1891",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94023",
-      "position": 1,
-      "surface": "Adesso",
-      "word_id": "W175",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94023",
-      "position": 2,
-      "surface": "ti",
-      "word_id": "W056",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94023",
+      "sentence_id": "S94001",
       "position": 3,
-      "surface": "riconosco",
-      "word_id": "W1891",
+      "surface": "qui",
+      "word_id": "W024",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94024",
+      "sentence_id": "S94001",
+      "position": 4,
+      "surface": "per",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94001",
+      "position": 5,
+      "surface": "molto",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94001",
+      "position": 6,
+      "surface": "tempo",
+      "word_id": "W1215",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94002",
       "position": 1,
-      "surface": "Non",
-      "word_id": "W004",
+      "surface": "Vuoi",
+      "word_id": "W902",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94024",
+      "sentence_id": "S94002",
       "position": 2,
-      "surface": "riconosco",
-      "word_id": "W1891",
+      "surface": "rimanere",
+      "word_id": "W1977",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94024",
-      "position": 3,
-      "surface": "nessuno",
-      "word_id": "W957",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94025",
+      "sentence_id": "S94003",
       "position": 1,
-      "surface": "Voglio",
-      "word_id": "W901",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94025",
-      "position": 2,
-      "surface": "comprendere",
-      "word_id": "W1901",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94025",
-      "position": 3,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94026",
-      "position": 1,
-      "surface": "Lo",
-      "word_id": "W723",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94026",
-      "position": 2,
-      "surface": "deve",
+      "surface": "Deve",
       "word_id": "W914",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94026",
-      "position": 3,
-      "surface": "riconoscere",
-      "word_id": "W1892",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94027",
-      "position": 1,
-      "surface": "Non",
-      "word_id": "W004",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94027",
+      "sentence_id": "S94003",
       "position": 2,
-      "surface": "dimostra",
-      "word_id": "W1893",
+      "surface": "rimanere",
+      "word_id": "W1977",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94027",
-      "position": 3,
-      "surface": "nulla",
-      "word_id": "W1829",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94028",
+      "sentence_id": "S94004",
       "position": 1,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
+      "surface": "Chi",
+      "word_id": "W143",
+      "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94028",
+      "sentence_id": "S94004",
       "position": 2,
-      "surface": "sembra",
-      "word_id": "W1358",
+      "surface": "rimane",
+      "word_id": "W1976",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94028",
-      "position": 3,
-      "surface": "comprendere",
-      "word_id": "W1901",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94029",
-      "position": 1,
-      "surface": "Tratta",
-      "word_id": "W1909",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94029",
-      "position": 2,
-      "surface": "bene",
-      "word_id": "W047",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94029",
-      "position": 3,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94030",
-      "position": 1,
-      "surface": "Riferisce",
-      "word_id": "W1902",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94030",
-      "position": 2,
-      "surface": "a",
-      "word_id": "W185",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94030",
-      "position": 3,
-      "surface": "me",
-      "word_id": "W1607",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94031",
-      "position": 1,
-      "surface": "Considero",
-      "word_id": "W1882",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94031",
-      "position": 2,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94031",
-      "position": 3,
-      "surface": "bello",
-      "word_id": "W102",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94032",
+      "sentence_id": "S94005",
       "position": 1,
       "surface": "Mi",
       "word_id": "W055",
@@ -1360,215 +727,95 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S94032",
+      "sentence_id": "S94005",
       "position": 2,
-      "surface": "considero",
-      "word_id": "W1882",
+      "surface": "riguarda",
+      "word_id": "W1908",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94032",
-      "position": 3,
-      "surface": "felice",
-      "word_id": "W119",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94033",
+      "sentence_id": "S94006",
       "position": 1,
-      "surface": "Considero",
-      "word_id": "W1882",
+      "surface": "Esiste",
+      "word_id": "W1906",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94033",
+      "sentence_id": "S94006",
       "position": 2,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94033",
-      "position": 3,
-      "surface": "un",
-      "word_id": "W009",
+      "surface": "già",
+      "word_id": "W1413",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94033",
-      "position": 4,
-      "surface": "amico",
-      "word_id": "W138",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94034",
+      "sentence_id": "S94007",
       "position": 1,
-      "surface": "Non",
-      "word_id": "W004",
+      "surface": "Rimane",
+      "word_id": "W1976",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94034",
+      "sentence_id": "S94007",
       "position": 2,
-      "surface": "puoi",
-      "word_id": "W818",
+      "surface": "vero",
+      "word_id": "W919",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94034",
-      "position": 3,
-      "surface": "dimostrare",
-      "word_id": "W1894",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94034",
-      "position": 4,
-      "surface": "nulla",
-      "word_id": "W1829",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94035",
+      "sentence_id": "S94008",
       "position": 1,
-      "surface": "Non",
-      "word_id": "W004",
+      "surface": "Capisci",
+      "word_id": "W702",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94035",
+      "sentence_id": "S94008",
       "position": 2,
-      "surface": "può",
-      "word_id": "W816",
+      "surface": "cosa",
+      "word_id": "W144",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94035",
+      "sentence_id": "S94008",
       "position": 3,
-      "surface": "dimostrare",
-      "word_id": "W1894",
+      "surface": "intendo",
+      "word_id": "W1886",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94035",
-      "position": 4,
-      "surface": "nulla",
-      "word_id": "W1829",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94036",
+      "sentence_id": "S94009",
       "position": 1,
-      "surface": "Lui",
-      "word_id": "W021",
+      "surface": "Quanto",
+      "word_id": "W922",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94036",
+      "sentence_id": "S94009",
       "position": 2,
-      "surface": "lo",
-      "word_id": "W723",
+      "surface": "tempo",
+      "word_id": "W1215",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94036",
+      "sentence_id": "S94009",
       "position": 3,
-      "surface": "deve",
-      "word_id": "W914",
+      "surface": "rimane",
+      "word_id": "W1976",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94036",
-      "position": 4,
-      "surface": "riconoscere",
-      "word_id": "W1892",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94037",
-      "position": 1,
-      "surface": "Lui",
-      "word_id": "W021",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94037",
-      "position": 2,
-      "surface": "riferisce",
-      "word_id": "W1902",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94037",
-      "position": 3,
-      "surface": "a",
-      "word_id": "W185",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94037",
-      "position": 4,
-      "surface": "me",
-      "word_id": "W1607",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94038",
-      "position": 1,
-      "surface": "Riporta",
-      "word_id": "W1903",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94038",
-      "position": 2,
-      "surface": "a",
-      "word_id": "W185",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94038",
-      "position": 3,
-      "surface": "casa",
-      "word_id": "W028",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94038",
-      "position": 4,
-      "surface": "Tom",
-      "word_id": "",
-      "notes": "name",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S94039",
+      "sentence_id": "S94010",
       "position": 1,
       "surface": "Questo",
       "word_id": "W025",
@@ -1576,15 +823,87 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S94039",
+      "sentence_id": "S94010",
       "position": 2,
-      "surface": "è",
-      "word_id": "W023",
+      "surface": "riguarda",
+      "word_id": "W1908",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94039",
+      "sentence_id": "S94010",
+      "position": 3,
+      "surface": "me",
+      "word_id": "W1607",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94011",
+      "position": 1,
+      "surface": "Questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94011",
+      "position": 2,
+      "surface": "riguarda",
+      "word_id": "W1908",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94011",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94012",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94012",
+      "position": 2,
+      "surface": "rende",
+      "word_id": "W1910",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94012",
+      "position": 3,
+      "surface": "felice",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94013",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94013",
+      "position": 2,
+      "surface": "dimostra",
+      "word_id": "W1893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94013",
       "position": 3,
       "surface": "qualcosa",
       "word_id": "W911",
@@ -1592,98 +911,794 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S94039",
+      "sentence_id": "S94014",
+      "position": 1,
+      "surface": "Lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94014",
+      "position": 2,
+      "surface": "possiamo",
+      "word_id": "W1288",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94014",
+      "position": 3,
+      "surface": "dimostrare",
+      "word_id": "W1894",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94015",
+      "position": 1,
+      "surface": "Ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94015",
+      "position": 2,
+      "surface": "rende",
+      "word_id": "W1910",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94015",
+      "position": 3,
+      "surface": "triste",
+      "word_id": "W120",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94016",
+      "position": 1,
+      "surface": "Quale",
+      "word_id": "W150",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94016",
+      "position": 2,
+      "surface": "azienda",
+      "word_id": "W1692",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94016",
+      "position": 3,
+      "surface": "rappresenta",
+      "word_id": "W1904",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94017",
+      "position": 1,
+      "surface": "Tu",
+      "word_id": "W006",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94017",
+      "position": 2,
+      "surface": "capisci",
+      "word_id": "W702",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94017",
+      "position": 3,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94017",
       "position": 4,
+      "surface": "intendo",
+      "word_id": "W1886",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94018",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94018",
+      "position": 2,
+      "surface": "ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94018",
+      "position": 3,
+      "surface": "rende",
+      "word_id": "W1910",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94018",
+      "position": 4,
+      "surface": "felice",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 1,
+      "surface": "Perché",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 2,
+      "surface": "tratta",
+      "word_id": "W1909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 3,
+      "surface": "così",
+      "word_id": "W1409",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94019",
+      "position": 4,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 1,
+      "surface": "L'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 2,
+      "surface": "italiano",
+      "word_id": "W717",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 3,
+      "surface": "medio",
+      "word_id": "W1844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 4,
+      "surface": "esiste",
+      "word_id": "W1906",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94020",
+      "position": 5,
+      "surface": "davvero",
+      "word_id": "W1359",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94021",
+      "position": 1,
+      "surface": "Perché",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94021",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94021",
+      "position": 3,
+      "surface": "rimango",
+      "word_id": "W1975",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94021",
+      "position": 4,
+      "surface": "con",
+      "word_id": "W1046",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94021",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94022",
+      "position": 1,
+      "surface": "Perché",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94022",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94022",
+      "position": 3,
+      "surface": "tratta",
+      "word_id": "W1909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94022",
+      "position": 4,
+      "surface": "così",
+      "word_id": "W1409",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94022",
+      "position": 5,
+      "surface": "Mary",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94023",
+      "position": 1,
+      "surface": "Questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94023",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94023",
+      "position": 3,
+      "surface": "troppo",
+      "word_id": "W946",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94023",
+      "position": 4,
+      "surface": "difficile",
+      "word_id": "W1148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94023",
+      "position": 5,
       "surface": "da",
       "word_id": "W1405",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94039",
-      "position": 5,
-      "surface": "considerare",
-      "word_id": "W1883",
+      "sentence_id": "S94023",
+      "position": 6,
+      "surface": "comprendere",
+      "word_id": "W1901",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94040",
+      "sentence_id": "S94024",
       "position": 1,
-      "surface": "Riporta",
-      "word_id": "W1903",
+      "surface": "Non",
+      "word_id": "W004",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94040",
+      "sentence_id": "S94024",
       "position": 2,
-      "surface": "questo",
-      "word_id": "W025",
+      "surface": "esiste",
+      "word_id": "W1906",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94040",
+      "sentence_id": "S94025",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94025",
+      "position": 2,
+      "surface": "comprendo",
+      "word_id": "W1900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94026",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94026",
+      "position": 2,
+      "surface": "comprendo",
+      "word_id": "W1900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94027",
+      "position": 1,
+      "surface": "Sì",
+      "word_id": "W002",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94027",
+      "position": 2,
+      "surface": "comprendo",
+      "word_id": "W1900",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94028",
+      "position": 1,
+      "surface": "Io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94028",
+      "position": 2,
+      "surface": "rimango",
+      "word_id": "W1975",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94029",
+      "position": 1,
+      "surface": "Lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94029",
+      "position": 2,
+      "surface": "riconosco",
+      "word_id": "W1891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94030",
+      "position": 1,
+      "surface": "Adesso",
+      "word_id": "W175",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94030",
+      "position": 2,
+      "surface": "ti",
+      "word_id": "W056",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94030",
       "position": 3,
-      "surface": "libro",
-      "word_id": "W027",
+      "surface": "riconosco",
+      "word_id": "W1891",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S94040",
-      "position": 4,
+      "sentence_id": "S94031",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94031",
+      "position": 2,
+      "surface": "riconosco",
+      "word_id": "W1891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94031",
+      "position": 3,
+      "surface": "nessuno",
+      "word_id": "W957",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94032",
+      "position": 1,
+      "surface": "Voglio",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94032",
+      "position": 2,
+      "surface": "comprendere",
+      "word_id": "W1901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94032",
+      "position": 3,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94033",
+      "position": 1,
+      "surface": "Rimango",
+      "word_id": "W1975",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94033",
+      "position": 2,
       "surface": "a",
       "word_id": "W185",
       "notes": "",
       "hint_override": ""
     },
     {
+      "sentence_id": "S94033",
+      "position": 3,
+      "surface": "casa",
+      "word_id": "W028",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94034",
+      "position": 1,
+      "surface": "Lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94034",
+      "position": 2,
+      "surface": "deve",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94034",
+      "position": 3,
+      "surface": "riconoscere",
+      "word_id": "W1892",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94035",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94035",
+      "position": 2,
+      "surface": "dimostra",
+      "word_id": "W1893",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94035",
+      "position": 3,
+      "surface": "nulla",
+      "word_id": "W1829",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94036",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94036",
+      "position": 2,
+      "surface": "sembra",
+      "word_id": "W1358",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94036",
+      "position": 3,
+      "surface": "comprendere",
+      "word_id": "W1901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94037",
+      "position": 1,
+      "surface": "Considero",
+      "word_id": "W1882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94037",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94037",
+      "position": 3,
+      "surface": "bello",
+      "word_id": "W102",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94038",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94038",
+      "position": 2,
+      "surface": "considero",
+      "word_id": "W1882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94038",
+      "position": 3,
+      "surface": "felice",
+      "word_id": "W119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94039",
+      "position": 1,
+      "surface": "Considero",
+      "word_id": "W1882",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94039",
+      "position": 2,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94039",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94039",
+      "position": 4,
+      "surface": "amico",
+      "word_id": "W138",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
       "sentence_id": "S94040",
-      "position": 5,
-      "surface": "lui",
-      "word_id": "W021",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94040",
+      "position": 2,
+      "surface": "puoi",
+      "word_id": "W818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94040",
+      "position": 3,
+      "surface": "dimostrare",
+      "word_id": "W1894",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S94040",
+      "position": 4,
+      "surface": "nulla",
+      "word_id": "W1829",
       "notes": "",
       "hint_override": ""
     }
   ],
   "accepted_answers": [
     {
-      "answer_id": "A940021",
-      "sentence_id": "S94002",
+      "answer_id": "A940241",
+      "sentence_id": "S94024",
       "direction": "fr_to_en",
-      "answer": "Does she exist?",
+      "answer": "He doesn't exist.",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A940181",
-      "sentence_id": "S94018",
+      "answer_id": "A940242",
+      "sentence_id": "S94024",
+      "direction": "fr_to_en",
+      "answer": "It doesn't exist.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A940243",
+      "sentence_id": "S94024",
+      "direction": "fr_to_en",
+      "answer": "She doesn't exist.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A940251",
+      "sentence_id": "S94025",
       "direction": "fr_to_en",
       "answer": "I sympathize.",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A940191",
-      "sentence_id": "S94019",
+      "answer_id": "A940261",
+      "sentence_id": "S94026",
       "direction": "fr_to_en",
       "answer": "I do not understand.",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A940271",
-      "sentence_id": "S94027",
+      "answer_id": "A940281",
+      "sentence_id": "S94028",
       "direction": "fr_to_en",
-      "answer": "It doesn't prove anything.",
+      "answer": "I'm going to stay.",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
       "answer_id": "A940331",
       "sentence_id": "S94033",
+      "direction": "fr_to_en",
+      "answer": "I'm staying home.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A940332",
+      "sentence_id": "S94033",
+      "direction": "fr_to_en",
+      "answer": "I'm staying at home.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A940351",
+      "sentence_id": "S94035",
+      "direction": "fr_to_en",
+      "answer": "It doesn't prove anything.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A940391",
+      "sentence_id": "S94039",
       "direction": "fr_to_en",
       "answer": "I consider Tom to be a friend.",
       "source": "tatoeba",

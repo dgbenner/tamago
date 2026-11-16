@@ -53,8 +53,8 @@ const vocab = [
   { unit_id: 'U92', order: 123.2, row: 22, after: 'row 21', title: 'Describing Words',
     grammar: 'Adjectives in -e (generale, principale) are the same for both genders; adjectives in -o agree (specifico, specifica)',
     words: ['generale', 'particolare', 'specifico', 'principale', 'fondamentale', 'attuale', 'precedente', 'successivo', 'ulteriore', 'eventuale', 'intero', 'singolo', 'vario', 'numeroso', 'medio', 'massimo', 'superiore', 'disponibile', 'noto', 'storico', 'culturale', 'umano', 'tecnico', 'finanziario', 'ufficiale', 'regionale', 'amministrativo'] },
-  { unit_id: 'U93', order: 125.2, row: 23, after: 'row 22', title: 'Rules + Offices',
-    grammar: 'L\'ente, l\'istituto, la commissione: the words of offices and rules; un atto, una norma, un decreto',
+  { unit_id: 'U93', order: 125.2, row: 23, after: 'row 22', title: 'Study + Culture',
+    grammar: "La ricerca, il programma, il livello, la prova: words of study; la cultura, l'autore, la serie; l'istituto, l'associazione, il consiglio: groups and places of learning",
     words: ['norma', 'decreto', 'comma', 'atto', 'provvedimento', 'disposizione', 'amministrazione', 'ente', 'istituzione', 'istituto', 'commissione', 'consiglio', 'associazione', 'organizzazione', 'struttura', 'contributo', 'intervento', 'iniziativa', 'partecipazione', 'collaborazione', 'valutazione', 'applicazione', 'produzione', 'formazione', 'sviluppo'] },
   { unit_id: 'U94', order: 127.2, row: 24, after: 'row 23', title: 'Thinking + Saying',
     grammar: 'Ritengo, considero: verbs of opinion; esiste, appare, risulta: the lui form is the everyday one; riguarda (it concerns)',
@@ -146,7 +146,7 @@ const canDo = {
   U89: [['writing', 'Writing', 'I can write a short postcard or message.'], ['reading', 'Reading', 'I can understand a short personal message or postcard.']],
   U91: [['reading', 'Reading', 'I can recognise common words for ideas and things in a short text.']],
   U92: [['reading', 'Reading', 'I can recognise common describing words in a short text.']],
-  U93: [['reading', 'Reading', 'I can recognise the words of offices and rules in a notice.']],
+  U93: [['reading', 'Reading', 'I can recognise everyday words of study, culture and groups.']],
   U94: [['reading', 'Reading', 'I can recognise everyday verbs of thinking and saying.']],
   U95: [['reading', 'Reading', 'I can recognise everyday verbs of doing and getting in a short text.']],
 }
@@ -156,6 +156,21 @@ export default {
   slots: [{ slot_id: 'C07', part: 4, after_row: 22 }, { slot_id: 'C08', part: 4, after_row: 24 }],
   situation, vocab, items, canDo,
   // Turned off in review (2026-11-16): an infinitive with no natural A1 line; its present form teaches the list word.
-  off: Object.fromEntries([['ritenere', 'ritengo'], ['intendere', 'intendo'], ['affermare', 'afferma'], ['sostenere', 'sostiene']]
-    .map(([inf, form]) => [inf, `the infinitive has no natural A1 line; ${form} teaches the list word`])),
+  off: {
+    ...Object.fromEntries([['ritenere', 'ritengo'], ['intendere', 'intendo'], ['affermare', 'afferma'], ['sostenere', 'sostiene']]
+      .map(([inf, form]) => [inf, `the infinitive has no natural A1 line; ${form} teaches the list word`])),
+    // Fable's review (Dan, 2026-11-16): Kelly's legal and administrative register is out of the A1 target
+    // (content-it/a1-exclude.json), so U92, U93 and U95 no longer teach it; ids kept.
+    ...Object.fromEntries(['ulteriore', 'eventuale', 'amministrativo', 'norma', 'decreto', 'comma', 'atto', 'provvedimento', 'disposizione', 'amministrazione', 'ente', 'commissione', 'istituzione',
+      'destina', 'dispone', 'effettua', 'costituisce', 'adotta', 'approva', 'individua', 'determina', 'interviene', 'stabilisce'].map((w) => [w, 'legal or administrative register, out of the A1 target (a1-exclude.json)'])),
+  },
+  // Everyday core words in their place (same review), numbered after each range so no id moves; Roma and Milano are
+  // Kelly core words too.
+  late: [
+    { unit_id: 'U84', words: ['Roma', 'Milano'] },
+    { unit_id: 'U91', words: ['possibilità', 'azione', 'proposta', 'corpo', 'cura', 'presenza'] },
+    { unit_id: 'U92', words: ['qualsiasi', 'alcuni'] },
+    { unit_id: 'U93', words: ['ricerca', 'programma', 'livello', 'cultura', 'autore', 'conoscenza', 'prova', 'serie'] },
+    { unit_id: 'U94', words: ['rimango', 'rimane', 'rimanere'] },
+  ],
 }

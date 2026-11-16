@@ -368,6 +368,10 @@ for (const w of words) {
       }
     } else {
       row.gloss = shorten(definition)
+      // A participle names its verb too ("past participle of nascere"): the lemma only, so nato counts for nascere
+      // on the A1 list (Dan, 2026-11-16); the gloss stays as it was.
+      const part = definition.match(/^(?:past |present )?participle of ([\p{L}'-]+)/u)
+      if (part) row.lemma = part[1]
     }
     row.status = 'checked'
     if (!pick) { row.status = 'flagged'; row.flag_reason = 'sense_not_picked' }

@@ -24,7 +24,7 @@ export const COURSES = {
   },
   // Italian (2026-11-14, branch lang/italian): standard Italian as spoken in Italy, tu and Lei. Its folders: content-it/…
   it: {
-    id: 'it', name: 'Italian', workbook: '_source/tamago-it-data-v7.xlsx',
+    id: 'it', name: 'Italian', workbook: '_source/tamago-it-data-v8.xlsx',
     tatoeba: 'ita', wiktionaryCode: 'it', wiktionarySection: 'Italian', linguaLibre: { qid: 'Q652', iso: 'ita' }, wikidataLanguage: 'Q652',
   },
   // Brazilian Portuguese (2026-11-14, branch lang/portuguese): você, Brazilian spelling and words. Its folders: content-pt/…

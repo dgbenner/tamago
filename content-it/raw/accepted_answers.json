@@ -3856,42 +3856,34 @@
     "status": "pulled"
   },
   {
-    "answer_id": "A840061",
-    "sentence_id": "S84006",
+    "answer_id": "A840091",
+    "sentence_id": "S84009",
     "direction": "fr_to_en",
     "answer": "She's hard to reach, isn't she?",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A840062",
-    "sentence_id": "S84006",
+    "answer_id": "A840092",
+    "sentence_id": "S84009",
     "direction": "fr_to_en",
     "answer": "She's difficult to reach, isn't she?",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A840081",
-    "sentence_id": "S84008",
+    "answer_id": "A840111",
+    "sentence_id": "S84011",
     "direction": "fr_to_en",
     "answer": "Tom is difficult to reach, isn't he?",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A840281",
-    "sentence_id": "S84028",
+    "answer_id": "A840161",
+    "sentence_id": "S84016",
     "direction": "fr_to_en",
-    "answer": "She can drive, can't she?",
-    "source": "tatoeba",
-    "status": "pulled"
-  },
-  {
-    "answer_id": "A840301",
-    "sentence_id": "S84030",
-    "direction": "fr_to_en",
-    "answer": "Do you know how to drive a car?",
+    "answer": "I am in Rome.",
     "source": "tatoeba",
     "status": "pulled"
   },
@@ -3984,6 +3976,14 @@
     "status": "pulled"
   },
   {
+    "answer_id": "A910151",
+    "sentence_id": "S91015",
+    "direction": "fr_to_en",
+    "answer": "What subjects do you like the best?",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
     "answer_id": "A920101",
     "sentence_id": "S92010",
     "direction": "fr_to_en",
@@ -3992,80 +3992,144 @@
     "status": "pulled"
   },
   {
-    "answer_id": "A920171",
-    "sentence_id": "S92017",
+    "answer_id": "A920151",
+    "sentence_id": "S92015",
     "direction": "fr_to_en",
     "answer": "Now it is official.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A920321",
-    "sentence_id": "S92032",
+    "answer_id": "A920251",
+    "sentence_id": "S92025",
+    "direction": "fr_to_en",
+    "answer": "This is an historical moment.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A920252",
+    "sentence_id": "S92025",
+    "direction": "fr_to_en",
+    "answer": "This is a historic moment.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A920253",
+    "sentence_id": "S92025",
+    "direction": "fr_to_en",
+    "answer": "This is an historic moment.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A920351",
+    "sentence_id": "S92035",
     "direction": "fr_to_en",
     "answer": "The world is beautiful because it is diverse.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A920322",
-    "sentence_id": "S92032",
+    "answer_id": "A920352",
+    "sentence_id": "S92035",
     "direction": "fr_to_en",
     "answer": "It takes all sorts to make a world.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A930091",
-    "sentence_id": "S93009",
+    "answer_id": "A920361",
+    "sentence_id": "S92036",
+    "direction": "fr_to_en",
+    "answer": "I don't have anything particular to say.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A930291",
+    "sentence_id": "S93029",
     "direction": "fr_to_en",
     "answer": "Thank you for the advice.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A930151",
-    "sentence_id": "S93015",
+    "answer_id": "A940241",
+    "sentence_id": "S94024",
     "direction": "fr_to_en",
-    "answer": "You should follow the advice of your mother.",
+    "answer": "He doesn't exist.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A940021",
-    "sentence_id": "S94002",
+    "answer_id": "A940242",
+    "sentence_id": "S94024",
     "direction": "fr_to_en",
-    "answer": "Does she exist?",
+    "answer": "It doesn't exist.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A940181",
-    "sentence_id": "S94018",
+    "answer_id": "A940243",
+    "sentence_id": "S94024",
+    "direction": "fr_to_en",
+    "answer": "She doesn't exist.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A940251",
+    "sentence_id": "S94025",
     "direction": "fr_to_en",
     "answer": "I sympathize.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A940191",
-    "sentence_id": "S94019",
+    "answer_id": "A940261",
+    "sentence_id": "S94026",
     "direction": "fr_to_en",
     "answer": "I do not understand.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
-    "answer_id": "A940271",
-    "sentence_id": "S94027",
+    "answer_id": "A940281",
+    "sentence_id": "S94028",
     "direction": "fr_to_en",
-    "answer": "It doesn't prove anything.",
+    "answer": "I'm going to stay.",
     "source": "tatoeba",
     "status": "pulled"
   },
   {
     "answer_id": "A940331",
     "sentence_id": "S94033",
+    "direction": "fr_to_en",
+    "answer": "I'm staying home.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A940332",
+    "sentence_id": "S94033",
+    "direction": "fr_to_en",
+    "answer": "I'm staying at home.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A940351",
+    "sentence_id": "S94035",
+    "direction": "fr_to_en",
+    "answer": "It doesn't prove anything.",
+    "source": "tatoeba",
+    "status": "pulled"
+  },
+  {
+    "answer_id": "A940391",
+    "sentence_id": "S94039",
     "direction": "fr_to_en",
     "answer": "I consider Tom to be a friend.",
     "source": "tatoeba",
@@ -4088,8 +4152,8 @@
     "status": "pulled"
   },
   {
-    "answer_id": "A950221",
-    "sentence_id": "S95022",
+    "answer_id": "A950201",
+    "sentence_id": "S95020",
     "direction": "fr_to_en",
     "answer": "She guarantees it.",
     "source": "tatoeba",

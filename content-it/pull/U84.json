@@ -1,7 +1,7 @@
 {
   "unit_id": "U84",
   "pulled_at": "2026-11-16",
-  "candidates": 124,
+  "candidates": 165,
   "sentences": [
     {
       "sentence_id": "S84001",
@@ -36,6 +36,21 @@
     {
       "sentence_id": "S84003",
       "unit_id": "U84",
+      "french": "Dov'è Roma?",
+      "english": "Where is Rome?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4470829",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84004",
+      "unit_id": "U84",
       "french": "Dove scendo?",
       "english": "Where do I get off?",
       "pair_id": "",
@@ -49,7 +64,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84004",
+      "sentence_id": "S84005",
       "unit_id": "U84",
       "french": "Vuoi guidare?",
       "english": "Do you want to drive?",
@@ -64,7 +79,37 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84005",
+      "sentence_id": "S84006",
+      "unit_id": "U84",
+      "french": "Come vai a Milano?",
+      "english": "How are you going to Milan?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2159544",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84007",
+      "unit_id": "U84",
+      "french": "Come va a Milano?",
+      "english": "How are you going to Milan?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2159545",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84008",
       "unit_id": "U84",
       "french": "Come posso raggiungere Tom?",
       "english": "How can I reach Tom?",
@@ -79,7 +124,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84006",
+      "sentence_id": "S84009",
       "unit_id": "U84",
       "french": "È difficile da raggiungere, vero?",
       "english": "He's hard to reach, isn't he?",
@@ -97,7 +142,7 @@
       ]
     },
     {
-      "sentence_id": "S84007",
+      "sentence_id": "S84010",
       "unit_id": "U84",
       "french": "Perché c'è così tanto traffico oggi?",
       "english": "Why is there so much traffic today?",
@@ -112,7 +157,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84008",
+      "sentence_id": "S84011",
       "unit_id": "U84",
       "french": "Tom è difficile da raggiungere, vero?",
       "english": "Tom is hard to reach, isn't he?",
@@ -129,7 +174,7 @@
       ]
     },
     {
-      "sentence_id": "S84009",
+      "sentence_id": "S84012",
       "unit_id": "U84",
       "french": "Scendo qui.",
       "english": "I get off here.",
@@ -144,7 +189,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84010",
+      "sentence_id": "S84013",
       "unit_id": "U84",
       "french": "Io guido.",
       "english": "I drive.",
@@ -159,7 +204,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84011",
+      "sentence_id": "S84014",
       "unit_id": "U84",
       "french": "Guido ancora.",
       "english": "I still drive.",
@@ -174,7 +219,54 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84012",
+      "sentence_id": "S84015",
+      "unit_id": "U84",
+      "french": "Abito a Milano.",
+      "english": "I live in Milan.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "466630",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84016",
+      "unit_id": "U84",
+      "french": "Sono a Roma.",
+      "english": "I'm in Rome.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2133021",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "I am in Rome."
+      ]
+    },
+    {
+      "sentence_id": "S84017",
+      "unit_id": "U84",
+      "french": "Vivo a Roma.",
+      "english": "I live in Rome.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2706916",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S84018",
       "unit_id": "U84",
       "french": "Io scendo qui.",
       "english": "I get off here.",
@@ -189,7 +281,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84013",
+      "sentence_id": "S84019",
       "unit_id": "U84",
       "french": "Non guido spesso.",
       "english": "I don't drive often.",
@@ -204,7 +296,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84014",
+      "sentence_id": "S84020",
       "unit_id": "U84",
       "french": "Guarda il traffico.",
       "english": "Look at the traffic.",
@@ -219,7 +311,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84015",
+      "sentence_id": "S84021",
       "unit_id": "U84",
       "french": "Voglio scendere qui.",
       "english": "I want to get off here.",
@@ -234,7 +326,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84016",
+      "sentence_id": "S84022",
       "unit_id": "U84",
       "french": "Salgo sul taxi.",
       "english": "I get in the taxi.",
@@ -249,7 +341,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84017",
+      "sentence_id": "S84023",
       "unit_id": "U84",
       "french": "Mi serve entro domani.",
       "english": "I need it by tomorrow.",
@@ -264,7 +356,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84018",
+      "sentence_id": "S84024",
       "unit_id": "U84",
       "french": "Io voglio scendere qui.",
       "english": "I want to get off here.",
@@ -279,7 +371,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84019",
+      "sentence_id": "S84025",
       "unit_id": "U84",
       "french": "Voglio scendere alla prossima fermata.",
       "english": "I want to get off at the next stop.",
@@ -294,7 +386,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84020",
+      "sentence_id": "S84026",
       "unit_id": "U84",
       "french": "Devo salire su questo treno.",
       "english": "I've got to get on this train.",
@@ -309,7 +401,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84021",
+      "sentence_id": "S84027",
       "unit_id": "U84",
       "french": "A me serve entro domani.",
       "english": "I need it by tomorrow.",
@@ -324,7 +416,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84022",
+      "sentence_id": "S84028",
       "unit_id": "U84",
       "french": "Io devo salire su questo treno.",
       "english": "I've got to get on this train.",
@@ -339,7 +431,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84023",
+      "sentence_id": "S84029",
       "unit_id": "U84",
       "french": "Deve finire questo lavoro entro mezzogiorno.",
       "english": "You have to get this work finished by noon.",
@@ -354,7 +446,7 @@
       "other_english": []
     },
     {
-      "sentence_id": "S84024",
+      "sentence_id": "S84030",
       "unit_id": "U84",
       "french": "Puoi prendere un autobus o un tram.",
       "english": "You can take a bus or a tram.",
@@ -367,100 +459,6 @@
       "notes": "pulled from Tatoeba under content_pull",
       "source_owner": "Guybrush88",
       "other_english": []
-    },
-    {
-      "sentence_id": "S84025",
-      "unit_id": "U84",
-      "french": "Posso guidare, per favore?",
-      "english": "Can I drive, please?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "3533227",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Vallysing",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S84026",
-      "unit_id": "U84",
-      "french": "Sai guidare, vero?",
-      "english": "You can drive, can't you?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "6062731",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S84027",
-      "unit_id": "U84",
-      "french": "Puoi guidare, vero?",
-      "english": "You can drive, can't you?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "6062734",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S84028",
-      "unit_id": "U84",
-      "french": "Può guidare, vero?",
-      "english": "You can drive, can't you?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "6062735",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": [
-        "She can drive, can't she?"
-      ]
-    },
-    {
-      "sentence_id": "S84029",
-      "unit_id": "U84",
-      "french": "Ti piace guidare?",
-      "english": "Do you like driving?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "7490351",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "momowuwen",
-      "other_english": []
-    },
-    {
-      "sentence_id": "S84030",
-      "unit_id": "U84",
-      "french": "Sai guidare una macchina?",
-      "english": "Can you drive a car?",
-      "pair_id": "",
-      "source": "tatoeba",
-      "source_id": "730458",
-      "status": "pulled: awaiting approval",
-      "audio_source": "tts",
-      "max_round": 5,
-      "notes": "pulled from Tatoeba under content_pull",
-      "source_owner": "Guybrush88",
-      "other_english": [
-        "Do you know how to drive a car?"
-      ]
     }
   ],
   "sentence_words": [
@@ -539,13 +537,29 @@
     {
       "sentence_id": "S84003",
       "position": 1,
+      "surface": "Dov'è",
+      "word_id": "W147",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84003",
+      "position": 2,
+      "surface": "Roma",
+      "word_id": "W1742",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84004",
+      "position": 1,
       "surface": "Dove",
       "word_id": "W146",
       "notes": "",
       "hint_override": ""
     },
     {
-      "sentence_id": "S84003",
+      "sentence_id": "S84004",
       "position": 2,
       "surface": "scendo",
       "word_id": "W1655",
@@ -553,7 +567,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84004",
+      "sentence_id": "S84005",
       "position": 1,
       "surface": "Vuoi",
       "word_id": "W902",
@@ -561,7 +575,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84004",
+      "sentence_id": "S84005",
       "position": 2,
       "surface": "guidare",
       "word_id": "W1650",
@@ -569,7 +583,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84005",
+      "sentence_id": "S84006",
       "position": 1,
       "surface": "Come",
       "word_id": "W043",
@@ -577,7 +591,71 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84005",
+      "sentence_id": "S84006",
+      "position": 2,
+      "surface": "vai",
+      "word_id": "W183",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84006",
+      "position": 4,
+      "surface": "Milano",
+      "word_id": "W1743",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 1,
+      "surface": "Come",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 2,
+      "surface": "va",
+      "word_id": "W184",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 3,
+      "surface": "a",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84007",
+      "position": 4,
+      "surface": "Milano",
+      "word_id": "W1743",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84008",
+      "position": 1,
+      "surface": "Come",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84008",
       "position": 2,
       "surface": "posso",
       "word_id": "W817",
@@ -585,7 +663,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84005",
+      "sentence_id": "S84008",
       "position": 3,
       "surface": "raggiungere",
       "word_id": "W1659",
@@ -593,7 +671,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84005",
+      "sentence_id": "S84008",
       "position": 4,
       "surface": "Tom",
       "word_id": "",
@@ -601,7 +679,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84006",
+      "sentence_id": "S84009",
       "position": 1,
       "surface": "È",
       "word_id": "W023",
@@ -609,7 +687,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84006",
+      "sentence_id": "S84009",
       "position": 2,
       "surface": "difficile",
       "word_id": "W1148",
@@ -617,7 +695,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84006",
+      "sentence_id": "S84009",
       "position": 3,
       "surface": "da",
       "word_id": "W1405",
@@ -625,7 +703,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84006",
+      "sentence_id": "S84009",
       "position": 4,
       "surface": "raggiungere",
       "word_id": "W1659",
@@ -633,7 +711,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84006",
+      "sentence_id": "S84009",
       "position": 5,
       "surface": "vero",
       "word_id": "W919",
@@ -641,7 +719,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84007",
+      "sentence_id": "S84010",
       "position": 1,
       "surface": "Perché",
       "word_id": "W149",
@@ -649,7 +727,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84007",
+      "sentence_id": "S84010",
       "position": 2,
       "surface": "c'è",
       "word_id": "W107",
@@ -657,7 +735,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84007",
+      "sentence_id": "S84010",
       "position": 3,
       "surface": "così",
       "word_id": "W1409",
@@ -665,7 +743,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84007",
+      "sentence_id": "S84010",
       "position": 4,
       "surface": "tanto",
       "word_id": "W948",
@@ -673,7 +751,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84007",
+      "sentence_id": "S84010",
       "position": 5,
       "surface": "traffico",
       "word_id": "W1653",
@@ -681,7 +759,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84007",
+      "sentence_id": "S84010",
       "position": 6,
       "surface": "oggi",
       "word_id": "W173",
@@ -689,7 +767,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84008",
+      "sentence_id": "S84011",
       "position": 1,
       "surface": "Tom",
       "word_id": "",
@@ -697,7 +775,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84008",
+      "sentence_id": "S84011",
       "position": 2,
       "surface": "è",
       "word_id": "W023",
@@ -705,7 +783,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84008",
+      "sentence_id": "S84011",
       "position": 3,
       "surface": "difficile",
       "word_id": "W1148",
@@ -713,7 +791,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84008",
+      "sentence_id": "S84011",
       "position": 4,
       "surface": "da",
       "word_id": "W1405",
@@ -721,7 +799,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84008",
+      "sentence_id": "S84011",
       "position": 5,
       "surface": "raggiungere",
       "word_id": "W1659",
@@ -729,7 +807,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84008",
+      "sentence_id": "S84011",
       "position": 6,
       "surface": "vero",
       "word_id": "W919",
@@ -737,7 +815,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84009",
+      "sentence_id": "S84012",
       "position": 1,
       "surface": "Scendo",
       "word_id": "W1655",
@@ -745,7 +823,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84009",
+      "sentence_id": "S84012",
       "position": 2,
       "surface": "qui",
       "word_id": "W024",
@@ -753,7 +831,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84010",
+      "sentence_id": "S84013",
       "position": 1,
       "surface": "Io",
       "word_id": "W005",
@@ -761,7 +839,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84010",
+      "sentence_id": "S84013",
       "position": 2,
       "surface": "guido",
       "word_id": "W1651",
@@ -769,7 +847,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84011",
+      "sentence_id": "S84014",
       "position": 1,
       "surface": "Guido",
       "word_id": "W1651",
@@ -777,7 +855,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84011",
+      "sentence_id": "S84014",
       "position": 2,
       "surface": "ancora",
       "word_id": "W709",
@@ -785,7 +863,79 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84012",
+      "sentence_id": "S84015",
+      "position": 1,
+      "surface": "Abito",
+      "word_id": "W864",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84015",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84015",
+      "position": 3,
+      "surface": "Milano",
+      "word_id": "W1743",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 1,
+      "surface": "Sono",
+      "word_id": "W007",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84016",
+      "position": 3,
+      "surface": "Roma",
+      "word_id": "W1742",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 1,
+      "surface": "Vivo",
+      "word_id": "W867",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 2,
+      "surface": "a",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84017",
+      "position": 3,
+      "surface": "Roma",
+      "word_id": "W1742",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S84018",
       "position": 1,
       "surface": "Io",
       "word_id": "W005",
@@ -793,7 +943,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84012",
+      "sentence_id": "S84018",
       "position": 2,
       "surface": "scendo",
       "word_id": "W1655",
@@ -801,7 +951,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84012",
+      "sentence_id": "S84018",
       "position": 3,
       "surface": "qui",
       "word_id": "W024",
@@ -809,7 +959,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84013",
+      "sentence_id": "S84019",
       "position": 1,
       "surface": "Non",
       "word_id": "W004",
@@ -817,7 +967,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84013",
+      "sentence_id": "S84019",
       "position": 2,
       "surface": "guido",
       "word_id": "W1651",
@@ -825,7 +975,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84013",
+      "sentence_id": "S84019",
       "position": 3,
       "surface": "spesso",
       "word_id": "W1233",
@@ -833,7 +983,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84014",
+      "sentence_id": "S84020",
       "position": 1,
       "surface": "Guarda",
       "word_id": "W1375",
@@ -841,7 +991,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84014",
+      "sentence_id": "S84020",
       "position": 2,
       "surface": "il",
       "word_id": "W018",
@@ -849,7 +999,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84014",
+      "sentence_id": "S84020",
       "position": 3,
       "surface": "traffico",
       "word_id": "W1653",
@@ -857,7 +1007,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84015",
+      "sentence_id": "S84021",
       "position": 1,
       "surface": "Voglio",
       "word_id": "W901",
@@ -865,7 +1015,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84015",
+      "sentence_id": "S84021",
       "position": 2,
       "surface": "scendere",
       "word_id": "W1656",
@@ -873,7 +1023,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84015",
+      "sentence_id": "S84021",
       "position": 3,
       "surface": "qui",
       "word_id": "W024",
@@ -881,7 +1031,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84016",
+      "sentence_id": "S84022",
       "position": 1,
       "surface": "Salgo",
       "word_id": "W1657",
@@ -889,7 +1039,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84016",
+      "sentence_id": "S84022",
       "position": 2,
       "surface": "sul",
       "word_id": "W111",
@@ -897,7 +1047,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84016",
+      "sentence_id": "S84022",
       "position": 3,
       "surface": "taxi",
       "word_id": "W1040",
@@ -905,7 +1055,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84017",
+      "sentence_id": "S84023",
       "position": 1,
       "surface": "Mi",
       "word_id": "W055",
@@ -913,7 +1063,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84017",
+      "sentence_id": "S84023",
       "position": 2,
       "surface": "serve",
       "word_id": "W726",
@@ -921,7 +1071,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84017",
+      "sentence_id": "S84023",
       "position": 3,
       "surface": "entro",
       "word_id": "W1660",
@@ -929,7 +1079,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84017",
+      "sentence_id": "S84023",
       "position": 4,
       "surface": "domani",
       "word_id": "W174",
@@ -937,7 +1087,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84018",
+      "sentence_id": "S84024",
       "position": 1,
       "surface": "Io",
       "word_id": "W005",
@@ -945,7 +1095,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84018",
+      "sentence_id": "S84024",
       "position": 2,
       "surface": "voglio",
       "word_id": "W901",
@@ -953,7 +1103,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84018",
+      "sentence_id": "S84024",
       "position": 3,
       "surface": "scendere",
       "word_id": "W1656",
@@ -961,7 +1111,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84018",
+      "sentence_id": "S84024",
       "position": 4,
       "surface": "qui",
       "word_id": "W024",
@@ -969,7 +1119,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84019",
+      "sentence_id": "S84025",
       "position": 1,
       "surface": "Voglio",
       "word_id": "W901",
@@ -977,7 +1127,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84019",
+      "sentence_id": "S84025",
       "position": 2,
       "surface": "scendere",
       "word_id": "W1656",
@@ -985,7 +1135,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84019",
+      "sentence_id": "S84025",
       "position": 3,
       "surface": "alla",
       "word_id": "W187",
@@ -993,7 +1143,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84019",
+      "sentence_id": "S84025",
       "position": 4,
       "surface": "prossima",
       "word_id": "W1237",
@@ -1001,7 +1151,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84019",
+      "sentence_id": "S84025",
       "position": 5,
       "surface": "fermata",
       "word_id": "W1349",
@@ -1009,7 +1159,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84020",
+      "sentence_id": "S84026",
       "position": 1,
       "surface": "Devo",
       "word_id": "W913",
@@ -1017,7 +1167,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84020",
+      "sentence_id": "S84026",
       "position": 2,
       "surface": "salire",
       "word_id": "W1658",
@@ -1025,7 +1175,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84020",
+      "sentence_id": "S84026",
       "position": 3,
       "surface": "su",
       "word_id": "W1404",
@@ -1033,7 +1183,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84020",
+      "sentence_id": "S84026",
       "position": 4,
       "surface": "questo",
       "word_id": "W025",
@@ -1041,7 +1191,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84020",
+      "sentence_id": "S84026",
       "position": 5,
       "surface": "treno",
       "word_id": "W1039",
@@ -1049,7 +1199,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84021",
+      "sentence_id": "S84027",
       "position": 1,
       "surface": "A",
       "word_id": "W185",
@@ -1057,7 +1207,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84021",
+      "sentence_id": "S84027",
       "position": 2,
       "surface": "me",
       "word_id": "W1607",
@@ -1065,7 +1215,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84021",
+      "sentence_id": "S84027",
       "position": 3,
       "surface": "serve",
       "word_id": "W726",
@@ -1073,7 +1223,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84021",
+      "sentence_id": "S84027",
       "position": 4,
       "surface": "entro",
       "word_id": "W1660",
@@ -1081,7 +1231,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84021",
+      "sentence_id": "S84027",
       "position": 5,
       "surface": "domani",
       "word_id": "W174",
@@ -1089,7 +1239,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84022",
+      "sentence_id": "S84028",
       "position": 1,
       "surface": "Io",
       "word_id": "W005",
@@ -1097,7 +1247,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84022",
+      "sentence_id": "S84028",
       "position": 2,
       "surface": "devo",
       "word_id": "W913",
@@ -1105,7 +1255,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84022",
+      "sentence_id": "S84028",
       "position": 3,
       "surface": "salire",
       "word_id": "W1658",
@@ -1113,7 +1263,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84022",
+      "sentence_id": "S84028",
       "position": 4,
       "surface": "su",
       "word_id": "W1404",
@@ -1121,7 +1271,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84022",
+      "sentence_id": "S84028",
       "position": 5,
       "surface": "questo",
       "word_id": "W025",
@@ -1129,7 +1279,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84022",
+      "sentence_id": "S84028",
       "position": 6,
       "surface": "treno",
       "word_id": "W1039",
@@ -1137,7 +1287,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84023",
+      "sentence_id": "S84029",
       "position": 1,
       "surface": "Deve",
       "word_id": "W914",
@@ -1145,7 +1295,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84023",
+      "sentence_id": "S84029",
       "position": 2,
       "surface": "finire",
       "word_id": "W1305",
@@ -1153,7 +1303,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84023",
+      "sentence_id": "S84029",
       "position": 3,
       "surface": "questo",
       "word_id": "W025",
@@ -1161,7 +1311,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84023",
+      "sentence_id": "S84029",
       "position": 4,
       "surface": "lavoro",
       "word_id": "W1297",
@@ -1169,7 +1319,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84023",
+      "sentence_id": "S84029",
       "position": 5,
       "surface": "entro",
       "word_id": "W1660",
@@ -1177,7 +1327,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84023",
+      "sentence_id": "S84029",
       "position": 6,
       "surface": "mezzogiorno",
       "word_id": "W1208",
@@ -1185,7 +1335,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84024",
+      "sentence_id": "S84030",
       "position": 1,
       "surface": "Puoi",
       "word_id": "W818",
@@ -1193,7 +1343,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84024",
+      "sentence_id": "S84030",
       "position": 2,
       "surface": "prendere",
       "word_id": "W905",
@@ -1201,7 +1351,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84024",
+      "sentence_id": "S84030",
       "position": 3,
       "surface": "un",
       "word_id": "W009",
@@ -1209,7 +1359,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84024",
+      "sentence_id": "S84030",
       "position": 4,
       "surface": "autobus",
       "word_id": "W1038",
@@ -1217,7 +1367,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84024",
+      "sentence_id": "S84030",
       "position": 5,
       "surface": "o",
       "word_id": "W1402",
@@ -1225,7 +1375,7 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84024",
+      "sentence_id": "S84030",
       "position": 6,
       "surface": "un",
       "word_id": "W009",
@@ -1233,204 +1383,44 @@
       "hint_override": ""
     },
     {
-      "sentence_id": "S84024",
+      "sentence_id": "S84030",
       "position": 7,
       "surface": "tram",
       "word_id": "W1652",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84025",
-      "position": 1,
-      "surface": "Posso",
-      "word_id": "W817",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84025",
-      "position": 2,
-      "surface": "guidare",
-      "word_id": "W1650",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84025",
-      "position": 3,
-      "surface": "per favore",
-      "word_id": "W035",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84026",
-      "position": 1,
-      "surface": "Sai",
-      "word_id": "W722",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84026",
-      "position": 2,
-      "surface": "guidare",
-      "word_id": "W1650",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84026",
-      "position": 3,
-      "surface": "vero",
-      "word_id": "W919",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84027",
-      "position": 1,
-      "surface": "Puoi",
-      "word_id": "W818",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84027",
-      "position": 2,
-      "surface": "guidare",
-      "word_id": "W1650",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84027",
-      "position": 3,
-      "surface": "vero",
-      "word_id": "W919",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84028",
-      "position": 1,
-      "surface": "Può",
-      "word_id": "W816",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84028",
-      "position": 2,
-      "surface": "guidare",
-      "word_id": "W1650",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84028",
-      "position": 3,
-      "surface": "vero",
-      "word_id": "W919",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84029",
-      "position": 1,
-      "surface": "Ti",
-      "word_id": "W056",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84029",
-      "position": 2,
-      "surface": "piace",
-      "word_id": "W057",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84029",
-      "position": 3,
-      "surface": "guidare",
-      "word_id": "W1650",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84030",
-      "position": 1,
-      "surface": "Sai",
-      "word_id": "W722",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84030",
-      "position": 2,
-      "surface": "guidare",
-      "word_id": "W1650",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84030",
-      "position": 3,
-      "surface": "una",
-      "word_id": "W010",
-      "notes": "",
-      "hint_override": ""
-    },
-    {
-      "sentence_id": "S84030",
-      "position": 4,
-      "surface": "macchina",
-      "word_id": "W106",
       "notes": "",
       "hint_override": ""
     }
   ],
   "accepted_answers": [
     {
-      "answer_id": "A840061",
-      "sentence_id": "S84006",
+      "answer_id": "A840091",
+      "sentence_id": "S84009",
       "direction": "fr_to_en",
       "answer": "She's hard to reach, isn't she?",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A840062",
-      "sentence_id": "S84006",
+      "answer_id": "A840092",
+      "sentence_id": "S84009",
       "direction": "fr_to_en",
       "answer": "She's difficult to reach, isn't she?",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A840081",
-      "sentence_id": "S84008",
+      "answer_id": "A840111",
+      "sentence_id": "S84011",
       "direction": "fr_to_en",
       "answer": "Tom is difficult to reach, isn't he?",
       "source": "tatoeba",
       "status": "pulled"
     },
     {
-      "answer_id": "A840281",
-      "sentence_id": "S84028",
+      "answer_id": "A840161",
+      "sentence_id": "S84016",
       "direction": "fr_to_en",
-      "answer": "She can drive, can't she?",
-      "source": "tatoeba",
-      "status": "pulled"
-    },
-    {
-      "answer_id": "A840301",
-      "sentence_id": "S84030",
-      "direction": "fr_to_en",
-      "answer": "Do you know how to drive a car?",
+      "answer": "I am in Rome.",
       "source": "tatoeba",
       "status": "pulled"
     }

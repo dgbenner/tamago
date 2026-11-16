@@ -86,7 +86,11 @@ async function german(lemma) {
 
 // Italian (2026-11-14): {{it-conj|…}} as written on the verb's page. The table prints stress marks that are not
 // spelling (hò, màngio, capìsco), so each form is read from its link's title, which is the word as written.
+// Impersonal verbs (Dan, 2026-11-16): bisogna is the only form a learner meets, so it gets a note in its hint and no
+// six-person table.
+const IT_IMPERSONAL = new Set(['bisognare'])
 async function italian(lemma) {
+  if (IT_IMPERSONAL.has(lemma)) return null
   const r = await getJson(`https://en.wiktionary.org/w/api.php?action=parse&page=${encodeURIComponent(lemma)}&prop=wikitext&format=json`)
   const section = ('\n' + (r?.parse?.wikitext?.['*'] ?? '')).split(/\n==(?!=)/).find((s) => s.startsWith(`${C.wiktionarySection}==`)) ?? ''
   const template = section.match(/\{\{it-conj(?:\|[^{}]*)?\}\}/)?.[0]

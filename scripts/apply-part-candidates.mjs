@@ -66,10 +66,11 @@ const next = new Map()
 let added = 0, skipped = 0
 for (const [sid, c] of use) {
   if (swapped.has(sid) || inCourse.has(sid) || drafts.sentences.some((x) => String(x.source_id) === sid)) { skipped++; continue }
-  const n = (next.get(c.unit) ?? Number(c.unit.slice(1)) * 1000 + 201)
+  // From S<unit>201, past any id a long run of drafts already holds (Italian U95 has drafts past S95200).
+  let n = (next.get(c.unit) ?? Number(c.unit.slice(1)) * 1000 + 201)
+  while (drafts.sentences.some((x) => x.sentence_id === `S${n}`)) n++
   next.set(c.unit, n + 1)
   const id = `S${n}`
-  if (drafts.sentences.some((x) => x.sentence_id === id)) throw new Error(`${id} taken`)
   drafts.sentences.push({ sentence_id: id, unit_id: c.unit, french: c.french, english: c.english, source: 'tatoeba', source_id: sid, source_owner: c.owner,
     notes: `brought in ${today} from Fable's review of ${CAND} (Use)${c.picked ? `, English picked by Fable over "${c.tatoebaEnglish}"` : ''}` })
   confirm(id, c, 'Use')

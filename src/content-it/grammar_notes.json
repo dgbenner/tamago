@@ -2076,19 +2076,6 @@
     ]
   },
   {
-    "unit_id": "U91",
-    "rule": "Words for ideas: il caso (case), il senso (sense), la base (basis), il valore (value), lo scopo (aim). Set phrases: in questo caso, in ogni caso. Ciò means this or that, as a pronoun: ciò non ha senso.",
-    "example_sentence_ids": "S91003;S91101;S91008",
-    "conjugation_lemma": "",
-    "status": "live",
-    "examples": [
-      "S91003",
-      "S91101",
-      "S91008"
-    ],
-    "conjugations": []
-  },
-  {
     "unit_id": "U92",
     "rule": "Adjectives in -e are the same for both genders: generale, principale, attuale, regionale. Adjectives in -o agree: specifico, specifica; numeroso, numerosa. Most adjectives come after the noun: la strada principale, un problema tecnico.",
     "example_sentence_ids": "S92104;S92137;S92142",
@@ -2098,19 +2085,6 @@
       "S92104",
       "S92137",
       "S92142"
-    ],
-    "conjugations": []
-  },
-  {
-    "unit_id": "U93",
-    "rule": "The words of offices and rules: l'ente, l'istituto, l'amministrazione, la commissione, il consiglio; una norma (rule), un decreto (decree), il comma (paragraph of a law). They turn up on notices, forms and in the news.",
-    "example_sentence_ids": "S93001;S93004;S93102",
-    "conjugation_lemma": "",
-    "status": "live",
-    "examples": [
-      "S93001",
-      "S93004",
-      "S93102"
     ],
     "conjugations": []
   },
@@ -2201,5 +2175,31 @@
         "source": "https://en.wiktionary.org/wiki/ottenere#Conjugation"
       }
     ]
+  },
+  {
+    "unit_id": "U91",
+    "rule": "Words for ideas and everyday things: il caso (case), il senso (sense), il valore (value), lo scopo (aim), la possibilità, la proposta, l'azione, il corpo (body). Prendersi cura di means to take care of: Mi prendo cura di Tom. Set phrases: in questo caso, in ogni caso. Ciò means this or that, as a pronoun: Ciò non ha senso.",
+    "example_sentence_ids": "S91003;S91308;S91034",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S91003",
+      "S91308",
+      "S91034"
+    ],
+    "conjugations": []
+  },
+  {
+    "unit_id": "U93",
+    "rule": "Words of study and culture: la ricerca (research), il programma, il livello, la prova (test), la conoscenza (knowledge), la cultura, l'autore, la serie (a TV series, the same in the plural). Fare una ricerca is to do some research. Il consiglio is advice (and a council); l'istituto and l'associazione are places and groups of learning.",
+    "example_sentence_ids": "S93007;S93302;S93014",
+    "conjugation_lemma": "",
+    "status": "live",
+    "examples": [
+      "S93007",
+      "S93302",
+      "S93014"
+    ],
+    "conjugations": []
   }
 ]

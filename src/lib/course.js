@@ -7,11 +7,20 @@ export const COURSES = [
   { id: 'fr', name: 'French', sample: 'pomme, fromage, chat…', lang: 'fr', voice: ['fr-FR', 'fr'], db: 'tamago', flag: '/flags/fr.webp', ready: true },
   { id: 'es', name: 'Spanish', sample: 'manzana, queso, gato…', lang: 'es', voice: ['es-MX', 'es-US', 'es-419', 'es'], db: 'tamago-es', flag: '/flags/es.webp', ready: true },
   { id: 'de', name: 'German', sample: 'Apfel, Käse, Katze…', lang: 'de', voice: ['de-DE', 'de'], db: 'tamago-de', flag: '/flags/de.webp', ready: true },
-  // Flags from Dan, 2026-11-14 (branch lang/italian): shown as Coming Soon until each course is wired in.
-  // Italian (Dan, 2026-11-14): wired in, but offered only while the Developer setting is on, until Dan approves it.
-  { id: 'it', name: 'Italian', sample: 'mela, formaggio, gatto…', lang: 'it', voice: ['it-IT', 'it'], db: 'tamago-it', flag: '/flags/it.webp', ready: true, devOnly: true },
-  { id: 'pt', name: 'Portuguese', sample: 'maçã, queijo, gato…', lang: 'pt-BR', voice: ['pt-BR', 'pt'], db: 'tamago-pt', flag: '/flags/pt.webp', ready: true, devOnly: true }, // Brazilian Portuguese (Dan, 2026-11-14): Developer only, like Italian
+  // Italian and Brazilian Portuguese: public since 2026-11-16 (Dan approved; Developer only until then).
+  { id: 'it', name: 'Italian', sample: 'mela, formaggio, gatto…', lang: 'it', voice: ['it-IT', 'it'], db: 'tamago-it', flag: '/flags/it.webp', ready: true },
+  { id: 'pt', name: 'Portuguese', sample: 'maçã, queijo, gato…', lang: 'pt-BR', voice: ['pt-BR', 'pt'], db: 'tamago-pt', flag: '/flags/pt.webp', ready: true }, // Brazilian Portuguese
+  // Coming Soon: Dutch (flag from Dan, 2026-11-14) and nine more (Dan, 2026-11-16; originals in _source/flags).
   { id: 'nl', name: 'Dutch', sample: 'appel, kaas, kat…', lang: 'nl', voice: ['nl-NL', 'nl'], db: 'tamago-nl', flag: '/flags/nl.webp', ready: false },
+  { id: 'sv', name: 'Swedish', sample: 'äpple, ost, katt…', lang: 'sv', voice: ['sv-SE', 'sv'], db: 'tamago-sv', flag: '/flags/sv.webp', ready: false },
+  { id: 'da', name: 'Danish', sample: 'æble, ost, kat…', lang: 'da', voice: ['da-DK', 'da'], db: 'tamago-da', flag: '/flags/da.webp', ready: false },
+  { id: 'pl', name: 'Polish', sample: 'jabłko, ser, kot…', lang: 'pl', voice: ['pl-PL', 'pl'], db: 'tamago-pl', flag: '/flags/pl.webp', ready: false },
+  { id: 'ro', name: 'Romanian', sample: 'măr, brânză, pisică…', lang: 'ro', voice: ['ro-RO', 'ro'], db: 'tamago-ro', flag: '/flags/ro.webp', ready: false },
+  { id: 'no', name: 'Norwegian', sample: 'eple, ost, katt…', lang: 'nb', voice: ['nb-NO', 'no-NO', 'nb', 'no'], db: 'tamago-no', flag: '/flags/no.webp', ready: false },
+  { id: 'fi', name: 'Finnish', sample: 'omena, juusto, kissa…', lang: 'fi', voice: ['fi-FI', 'fi'], db: 'tamago-fi', flag: '/flags/fi.webp', ready: false },
+  { id: 'cs', name: 'Czech', sample: 'jablko, sýr, kočka…', lang: 'cs', voice: ['cs-CZ', 'cs'], db: 'tamago-cs', flag: '/flags/cs.webp', ready: false },
+  { id: 'hu', name: 'Hungarian', sample: 'alma, sajt, macska…', lang: 'hu', voice: ['hu-HU', 'hu'], db: 'tamago-hu', flag: '/flags/hu.webp', ready: false },
+  { id: 'el', name: 'Greek', sample: 'μήλο, τυρί, γάτα…', lang: 'el', voice: ['el-GR', 'el'], db: 'tamago-el', flag: '/flags/el.webp', ready: false },
 ]
 const KEY = 'tamago-course'
 

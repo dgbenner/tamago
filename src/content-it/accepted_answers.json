@@ -3856,42 +3856,34 @@
     "status": "live"
   },
   {
-    "answer_id": "A840061",
-    "sentence_id": "S84006",
+    "answer_id": "A840091",
+    "sentence_id": "S84009",
     "direction": "fr_to_en",
     "answer": "She's hard to reach, isn't she?",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A840062",
-    "sentence_id": "S84006",
+    "answer_id": "A840092",
+    "sentence_id": "S84009",
     "direction": "fr_to_en",
     "answer": "She's difficult to reach, isn't she?",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A840081",
-    "sentence_id": "S84008",
+    "answer_id": "A840111",
+    "sentence_id": "S84011",
     "direction": "fr_to_en",
     "answer": "Tom is difficult to reach, isn't he?",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A840281",
-    "sentence_id": "S84028",
+    "answer_id": "A840161",
+    "sentence_id": "S84016",
     "direction": "fr_to_en",
-    "answer": "She can drive, can't she?",
-    "source": "tatoeba",
-    "status": "live"
-  },
-  {
-    "answer_id": "A840301",
-    "sentence_id": "S84030",
-    "direction": "fr_to_en",
-    "answer": "Do you know how to drive a car?",
+    "answer": "I am in Rome.",
     "source": "tatoeba",
     "status": "live"
   },
@@ -3984,6 +3976,14 @@
     "status": "live"
   },
   {
+    "answer_id": "A910151",
+    "sentence_id": "S91015",
+    "direction": "fr_to_en",
+    "answer": "What subjects do you like the best?",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
     "answer_id": "A920101",
     "sentence_id": "S92010",
     "direction": "fr_to_en",
@@ -3992,80 +3992,144 @@
     "status": "live"
   },
   {
-    "answer_id": "A920171",
-    "sentence_id": "S92017",
+    "answer_id": "A920151",
+    "sentence_id": "S92015",
     "direction": "fr_to_en",
     "answer": "Now it is official.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A920321",
-    "sentence_id": "S92032",
+    "answer_id": "A920251",
+    "sentence_id": "S92025",
+    "direction": "fr_to_en",
+    "answer": "This is an historical moment.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A920252",
+    "sentence_id": "S92025",
+    "direction": "fr_to_en",
+    "answer": "This is a historic moment.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A920253",
+    "sentence_id": "S92025",
+    "direction": "fr_to_en",
+    "answer": "This is an historic moment.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A920351",
+    "sentence_id": "S92035",
     "direction": "fr_to_en",
     "answer": "The world is beautiful because it is diverse.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A920322",
-    "sentence_id": "S92032",
+    "answer_id": "A920352",
+    "sentence_id": "S92035",
     "direction": "fr_to_en",
     "answer": "It takes all sorts to make a world.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A930091",
-    "sentence_id": "S93009",
+    "answer_id": "A920361",
+    "sentence_id": "S92036",
+    "direction": "fr_to_en",
+    "answer": "I don't have anything particular to say.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A930291",
+    "sentence_id": "S93029",
     "direction": "fr_to_en",
     "answer": "Thank you for the advice.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A930151",
-    "sentence_id": "S93015",
+    "answer_id": "A940241",
+    "sentence_id": "S94024",
     "direction": "fr_to_en",
-    "answer": "You should follow the advice of your mother.",
+    "answer": "He doesn't exist.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A940021",
-    "sentence_id": "S94002",
+    "answer_id": "A940242",
+    "sentence_id": "S94024",
     "direction": "fr_to_en",
-    "answer": "Does she exist?",
+    "answer": "It doesn't exist.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A940181",
-    "sentence_id": "S94018",
+    "answer_id": "A940243",
+    "sentence_id": "S94024",
+    "direction": "fr_to_en",
+    "answer": "She doesn't exist.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A940251",
+    "sentence_id": "S94025",
     "direction": "fr_to_en",
     "answer": "I sympathize.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A940191",
-    "sentence_id": "S94019",
+    "answer_id": "A940261",
+    "sentence_id": "S94026",
     "direction": "fr_to_en",
     "answer": "I do not understand.",
     "source": "tatoeba",
     "status": "live"
   },
   {
-    "answer_id": "A940271",
-    "sentence_id": "S94027",
+    "answer_id": "A940281",
+    "sentence_id": "S94028",
     "direction": "fr_to_en",
-    "answer": "It doesn't prove anything.",
+    "answer": "I'm going to stay.",
     "source": "tatoeba",
     "status": "live"
   },
   {
     "answer_id": "A940331",
     "sentence_id": "S94033",
+    "direction": "fr_to_en",
+    "answer": "I'm staying home.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A940332",
+    "sentence_id": "S94033",
+    "direction": "fr_to_en",
+    "answer": "I'm staying at home.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A940351",
+    "sentence_id": "S94035",
+    "direction": "fr_to_en",
+    "answer": "It doesn't prove anything.",
+    "source": "tatoeba",
+    "status": "live"
+  },
+  {
+    "answer_id": "A940391",
+    "sentence_id": "S94039",
     "direction": "fr_to_en",
     "answer": "I consider Tom to be a friend.",
     "source": "tatoeba",
@@ -4088,8 +4152,8 @@
     "status": "live"
   },
   {
-    "answer_id": "A950221",
-    "sentence_id": "S95022",
+    "answer_id": "A950201",
+    "sentence_id": "S95020",
     "direction": "fr_to_en",
     "answer": "She guarantees it.",
     "source": "tatoeba",
@@ -4439,46 +4503,6 @@
     "answer": "È una domanda facile.",
     "source": "tatoeba",
     "source_id": "3283857",
-    "status": "live",
-    "source_owner": "Guybrush88"
-  },
-  {
-    "answer_id": "GS62102-7664783",
-    "sentence_id": "S62102",
-    "direction": "en_to_fr",
-    "answer": "Sono stata qua per tre giorni.",
-    "source": "tatoeba",
-    "source_id": "7664783",
-    "status": "live",
-    "source_owner": "Guybrush88"
-  },
-  {
-    "answer_id": "GS62102-7664781",
-    "sentence_id": "S62102",
-    "direction": "en_to_fr",
-    "answer": "Sono stata qui per tre giorni.",
-    "source": "tatoeba",
-    "source_id": "7664781",
-    "status": "live",
-    "source_owner": "Guybrush88"
-  },
-  {
-    "answer_id": "GS62102-7664782",
-    "sentence_id": "S62102",
-    "direction": "en_to_fr",
-    "answer": "Sono stato qua per tre giorni.",
-    "source": "tatoeba",
-    "source_id": "7664782",
-    "status": "live",
-    "source_owner": "Guybrush88"
-  },
-  {
-    "answer_id": "GS62102-7664780",
-    "sentence_id": "S62102",
-    "direction": "en_to_fr",
-    "answer": "Sono stato qui per tre giorni.",
-    "source": "tatoeba",
-    "source_id": "7664780",
     "status": "live",
     "source_owner": "Guybrush88"
   },
@@ -4911,6 +4935,16 @@
     "source_id": "1035796",
     "status": "live",
     "source_owner": "riccioberto"
+  },
+  {
+    "answer_id": "GS91310-1310093",
+    "sentence_id": "S91310",
+    "direction": "en_to_fr",
+    "answer": "Grazie di essere venuti!",
+    "source": "tatoeba",
+    "source_id": "1310093",
+    "status": "live",
+    "source_owner": "Bibi81"
   },
   {
     "answer_id": "GS92133-7817214",
@@ -6266,7 +6300,7 @@
   },
   {
     "answer_id": "AE00160",
-    "sentence_id": "S84017",
+    "sentence_id": "S84023",
     "direction": "en_to_fr",
     "answer": "Domani, mi serve entro.",
     "source": "equivalent: course_order",
@@ -6274,7 +6308,7 @@
   },
   {
     "answer_id": "AE00161",
-    "sentence_id": "S84021",
+    "sentence_id": "S84027",
     "direction": "en_to_fr",
     "answer": "Domani, a me serve entro.",
     "source": "equivalent: course_order",
@@ -6314,7 +6348,7 @@
   },
   {
     "answer_id": "AE00166",
-    "sentence_id": "S92017",
+    "sentence_id": "S92015",
     "direction": "fr_to_en",
     "answer": "It's official now.",
     "source": "equivalent: order",
@@ -6322,7 +6356,7 @@
   },
   {
     "answer_id": "AE00167",
-    "sentence_id": "S92017",
+    "sentence_id": "S92015",
     "direction": "fr_to_en",
     "answer": "It is official now.",
     "source": "equivalent: order",
@@ -6330,7 +6364,7 @@
   },
   {
     "answer_id": "AE00168",
-    "sentence_id": "S92017",
+    "sentence_id": "S92015",
     "direction": "en_to_fr",
     "answer": "È ufficiale adesso.",
     "source": "equivalent: course_order",
@@ -6338,15 +6372,15 @@
   },
   {
     "answer_id": "AE00169",
-    "sentence_id": "S93012",
-    "direction": "fr_to_en",
-    "answer": "Thanks for the tip, Tom.",
-    "source": "equivalent: linked",
+    "sentence_id": "S92028",
+    "direction": "en_to_fr",
+    "answer": "È un giorno storico oggi.",
+    "source": "equivalent: course_order",
     "status": "live"
   },
   {
     "answer_id": "AE00170",
-    "sentence_id": "S94023",
+    "sentence_id": "S94030",
     "direction": "fr_to_en",
     "answer": "I recognize you now!",
     "source": "equivalent: order",
@@ -6354,7 +6388,7 @@
   },
   {
     "answer_id": "AE00171",
-    "sentence_id": "S94023",
+    "sentence_id": "S94030",
     "direction": "en_to_fr",
     "answer": "Ti riconosco adesso!",
     "source": "equivalent: course_order",
@@ -6362,7 +6396,7 @@
   },
   {
     "answer_id": "AE00172",
-    "sentence_id": "S95036",
+    "sentence_id": "S95034",
     "direction": "fr_to_en",
     "answer": "This sofa takes too much room.",
     "source": "equivalent: linked",
@@ -6794,14 +6828,6 @@
   },
   {
     "answer_id": "AE00226",
-    "sentence_id": "S45103",
-    "direction": "fr_to_en",
-    "answer": "I live near the center.",
-    "source": "equivalent: spelling",
-    "status": "live"
-  },
-  {
-    "answer_id": "AE00227",
     "sentence_id": "S49101",
     "direction": "fr_to_en",
     "answer": "A packet of cookies, please.",
@@ -6809,7 +6835,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00228",
+    "answer_id": "AE00227",
     "sentence_id": "S54102",
     "direction": "fr_to_en",
     "answer": "Here are my clothes.",
@@ -6817,7 +6843,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00229",
+    "answer_id": "AE00228",
     "sentence_id": "S54104",
     "direction": "fr_to_en",
     "answer": "Where are the pants?",
@@ -6825,7 +6851,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00230",
+    "answer_id": "AE00229",
     "sentence_id": "S54105",
     "direction": "fr_to_en",
     "answer": "The pants are blue.",
@@ -6833,7 +6859,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00231",
+    "answer_id": "AE00230",
     "sentence_id": "S54106",
     "direction": "fr_to_en",
     "answer": "I'm wearing the blue pants.",
@@ -6841,11 +6867,19 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00232",
+    "answer_id": "AE00231",
     "sentence_id": "S55104",
     "direction": "fr_to_en",
     "answer": "Here is the Italian course.",
     "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00232",
+    "sentence_id": "S57101",
+    "direction": "fr_to_en",
+    "answer": "Writing isn't easy.",
+    "source": "equivalent: linked",
     "status": "live"
   },
   {
@@ -7170,14 +7204,6 @@
   },
   {
     "answer_id": "AE00273",
-    "sentence_id": "S93121",
-    "direction": "fr_to_en",
-    "answer": "The administration is in the center.",
-    "source": "equivalent: spelling",
-    "status": "live"
-  },
-  {
-    "answer_id": "AE00274",
     "sentence_id": "S93132",
     "direction": "fr_to_en",
     "answer": "Here is the committee.",
@@ -7185,7 +7211,7 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00275",
+    "answer_id": "AE00274",
     "sentence_id": "S95109",
     "direction": "fr_to_en",
     "answer": "The contract provides for a month's vacation.",
@@ -7193,11 +7219,451 @@
     "status": "live"
   },
   {
-    "answer_id": "AE00276",
+    "answer_id": "AE00275",
     "sentence_id": "S95123",
     "direction": "fr_to_en",
     "answer": "The store lowers the price.",
     "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00276",
+    "sentence_id": "S55205",
+    "direction": "fr_to_en",
+    "answer": "He's got a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00277",
+    "sentence_id": "S55206",
+    "direction": "fr_to_en",
+    "answer": "He's got a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00278",
+    "sentence_id": "S55206",
+    "direction": "fr_to_en",
+    "answer": "She has a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00279",
+    "sentence_id": "S55206",
+    "direction": "fr_to_en",
+    "answer": "She's got a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00280",
+    "sentence_id": "S55206",
+    "direction": "fr_to_en",
+    "answer": "You have a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00281",
+    "sentence_id": "S55206",
+    "direction": "fr_to_en",
+    "answer": "You've got a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00282",
+    "sentence_id": "S55207",
+    "direction": "fr_to_en",
+    "answer": "She's got a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00283",
+    "sentence_id": "S55207",
+    "direction": "fr_to_en",
+    "answer": "You have a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00284",
+    "sentence_id": "S55208",
+    "direction": "fr_to_en",
+    "answer": "They have a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00285",
+    "sentence_id": "S55209",
+    "direction": "fr_to_en",
+    "answer": "They've got a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00286",
+    "sentence_id": "S55210",
+    "direction": "fr_to_en",
+    "answer": "You have a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00287",
+    "sentence_id": "S55211",
+    "direction": "fr_to_en",
+    "answer": "You've got a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00288",
+    "sentence_id": "S55212",
+    "direction": "fr_to_en",
+    "answer": "We've got a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00289",
+    "sentence_id": "S55213",
+    "direction": "fr_to_en",
+    "answer": "We've got a question.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00290",
+    "sentence_id": "S46201",
+    "direction": "fr_to_en",
+    "answer": "I am a stranger here.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00291",
+    "sentence_id": "S46203",
+    "direction": "fr_to_en",
+    "answer": "How do you say it in French?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00292",
+    "sentence_id": "S47202",
+    "direction": "fr_to_en",
+    "answer": "She needs water.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00293",
+    "sentence_id": "S57202",
+    "direction": "fr_to_en",
+    "answer": "He is a most important person.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00294",
+    "sentence_id": "S57202",
+    "direction": "fr_to_en",
+    "answer": "He is a very important person.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00295",
+    "sentence_id": "S57202",
+    "direction": "fr_to_en",
+    "answer": "He is a VIP.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00296",
+    "sentence_id": "S36202",
+    "direction": "fr_to_en",
+    "answer": "Tom and Mary are in agreement.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00297",
+    "sentence_id": "S48201",
+    "direction": "fr_to_en",
+    "answer": "We don't have any extra money.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00298",
+    "sentence_id": "S48202",
+    "direction": "fr_to_en",
+    "answer": "It is on me.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00299",
+    "sentence_id": "S49203",
+    "direction": "fr_to_en",
+    "answer": "How much do the biscuits cost?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00300",
+    "sentence_id": "S49204",
+    "direction": "fr_to_en",
+    "answer": "I would like ten biscuits.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00301",
+    "sentence_id": "S61202",
+    "direction": "fr_to_en",
+    "answer": "I have time.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00302",
+    "sentence_id": "S61203",
+    "direction": "fr_to_en",
+    "answer": "I don't have much time.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00303",
+    "sentence_id": "S71204",
+    "direction": "fr_to_en",
+    "answer": "We've been here for a long time.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00304",
+    "sentence_id": "S71204",
+    "direction": "fr_to_en",
+    "answer": "We have been here for a long time.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00305",
+    "sentence_id": "S71214",
+    "direction": "fr_to_en",
+    "answer": "Is there a theatre in your town?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00306",
+    "sentence_id": "S71217",
+    "direction": "fr_to_en",
+    "answer": "Are you guys against them?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00307",
+    "sentence_id": "S71221",
+    "direction": "fr_to_en",
+    "answer": "I'm not lonely anymore.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00308",
+    "sentence_id": "S64205",
+    "direction": "fr_to_en",
+    "answer": "Can I see that one?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00309",
+    "sentence_id": "S64211",
+    "direction": "fr_to_en",
+    "answer": "We're going to the shop together.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00310",
+    "sentence_id": "S64214",
+    "direction": "fr_to_en",
+    "answer": "I haven't seen you in a long time.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00311",
+    "sentence_id": "S64214",
+    "direction": "fr_to_en",
+    "answer": "I have not seen you for a long time.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00312",
+    "sentence_id": "S64217",
+    "direction": "fr_to_en",
+    "answer": "Shall we go to the theatre?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00313",
+    "sentence_id": "S65203",
+    "direction": "fr_to_en",
+    "answer": "Tomorrow, I can't work.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00314",
+    "sentence_id": "S65205",
+    "direction": "fr_to_en",
+    "answer": "He's tired of work.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00315",
+    "sentence_id": "S65214",
+    "direction": "fr_to_en",
+    "answer": "Tomorrow, we can continue this game.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00316",
+    "sentence_id": "S65214",
+    "direction": "en_to_fr",
+    "answer": "Domani, possiamo continuare questo gioco.",
+    "source": "equivalent: course_order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00317",
+    "sentence_id": "S65219",
+    "direction": "fr_to_en",
+    "answer": "You can work.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00318",
+    "sentence_id": "S66203",
+    "direction": "fr_to_en",
+    "answer": "Where is the timetable?",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00319",
+    "sentence_id": "S74201",
+    "direction": "fr_to_en",
+    "answer": "I prefer a lighter colour.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00320",
+    "sentence_id": "S74202",
+    "direction": "fr_to_en",
+    "answer": "I'm good at football.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00321",
+    "sentence_id": "S39202",
+    "direction": "fr_to_en",
+    "answer": "She speaks really well.",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00322",
+    "sentence_id": "S39203",
+    "direction": "fr_to_en",
+    "answer": "Is she sure?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00323",
+    "sentence_id": "S81203",
+    "direction": "fr_to_en",
+    "answer": "Where is the waiter?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00324",
+    "sentence_id": "S83201",
+    "direction": "fr_to_en",
+    "answer": "The biscuits are under the table.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00325",
+    "sentence_id": "S83202",
+    "direction": "fr_to_en",
+    "answer": "There are some biscuits under the table.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00326",
+    "sentence_id": "S83209",
+    "direction": "fr_to_en",
+    "answer": "Behind the film theater, there's a park.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00327",
+    "sentence_id": "S83209",
+    "direction": "fr_to_en",
+    "answer": "Behind the movie theatre, there's a park.",
+    "source": "equivalent: spelling",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00328",
+    "sentence_id": "S85204",
+    "direction": "fr_to_en",
+    "answer": "Where is my son?",
+    "source": "equivalent: linked",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00329",
+    "sentence_id": "S93302",
+    "direction": "fr_to_en",
+    "answer": "Tomorrow, I have a test.",
+    "source": "equivalent: order",
+    "status": "live"
+  },
+  {
+    "answer_id": "AE00330",
+    "sentence_id": "S93302",
+    "direction": "en_to_fr",
+    "answer": "Ho una prova domani.",
+    "source": "equivalent: course_order",
     "status": "live"
   }
 ]

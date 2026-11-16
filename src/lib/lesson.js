@@ -366,11 +366,12 @@ export function makeWordImage(c, word, pool, round, rng, last) {
   const n = variant === 'V0202' ? 4 : 3
   // Every picture and every meaning once (2026-11-13: bleu and bleue share a picture; ami and amie a meaning).
   const others = []
-  const seenImages = new Set([word.image_file]), seenMeanings = new Set([hintCore(word.hint)])
+  const seenImages = new Set([word.image_file]), seenMeanings = new Set([hintCore(word.hint)]), seenForms = new Set([accentKey(word.form, 'fr')])
   for (const w of shuffle(pool.filter((x) => x.word_id !== word.word_id), rng)) {
     if (others.length >= n - 1) break
-    if (seenImages.has(w.image_file) || seenMeanings.has(hintCore(w.hint))) continue
-    others.push(w); seenImages.add(w.image_file); seenMeanings.add(hintCore(w.hint))
+    // No two labels one accent apart either (Dan, 2026-11-16: da and dà never in one choice set).
+    if (seenImages.has(w.image_file) || seenMeanings.has(hintCore(w.hint)) || seenForms.has(accentKey(w.form, 'fr'))) continue
+    others.push(w); seenImages.add(w.image_file); seenMeanings.add(hintCore(w.hint)); seenForms.add(accentKey(w.form, 'fr'))
   }
   const fileFor = (w) => wordRecordingOf(c, w)
   return {
@@ -385,6 +386,10 @@ export function makeWordImage(c, word, pool, round, rng, last) {
 
 export function makeMatchPairs(c, words, round, rng) {
   const fileFor = (w) => wordRecordingOf(c, w)
+  // Never two words one accent apart on one board (Dan, 2026-11-16: Italian da and dà, French ou and où): the later one
+  // waits for another board, and the board runs a pair short.
+  const forms = new Set()
+  words = words.filter((w) => { const k = accentKey(w.form, 'fr'); if (forms.has(k)) return false; forms.add(k); return true })
   const pairs = words.map((w) => ({ word_id: w.word_id, form: w.form, hint: w.hint, audio: { french: w.form, file: fileFor(w) } }))
   return {
     qid: `QT01-${words.map((w) => w.word_id).join('')}-${Math.floor(rng() * 1e9)}`, type: 'QT01', round, skill: c.typeById.get('QT01').skill,
