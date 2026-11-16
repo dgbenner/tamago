@@ -27,8 +27,21 @@ test('a wrong word is a miss even one letter away', () => {
   assert.equal(fr('je suis un femme', ['Je suis une femme.']).correct, false)
   assert.equal(fr('tu et une femme', ['Tu es une femme.']).correct, false)
 })
-test('two typos are a miss', () => assert.equal(fr('je sois une fenme', ['Je suis une femme.']).correct, false))
-test('a missing space counts as the one typo', () => assert.ok(fr('jesuis une femme', ['Je suis une femme.']).typo))
+// Two typos per answer (Dan, 2026-11-16; was one): two words a letter out each, or one long word two letters out.
+test('two typos in two words pass, and are reported', () => {
+  const r = fr('je siis une fenme', ['Je suis une femme.'])
+  assert.ok(r.correct && r.typo)
+})
+test('two typos in one word of six letters or more pass', () => {
+  const r = fr('il est au restaurnt', ['Il est au restaurant.'])
+  assert.ok(r.correct && r.typo)
+  const s = fr('il est au restuarnt', ['Il est au restaurant.'])
+  assert.ok(s.correct && s.typo)
+})
+test('two typos in a short word are a miss', () => assert.equal(fr('je suis une fmmi', ['Je suis une femme.']).correct, false))
+test('three typos are a miss', () => assert.equal(fr('je siis une fenmi', ['Je suis une femme.']).correct, false))
+test('another real word is still a miss, even with a second typo elsewhere', () => assert.equal(fr('tu et une fenme', ['Tu es une femme.']).correct, false))
+test('a missing space counts as a typo', () => assert.ok(fr('jesuis une femme', ['Je suis une femme.']).typo))
 test('strict: no typos and accents required, spacing still ignored', () => {
   assert.equal(fr('je suis une fenme', ['Je suis une femme.'], { strict: true }).correct, false)
   assert.equal(fr('je suis un garcon', ['Je suis un garçon.'], { strict: true }).correct, false)

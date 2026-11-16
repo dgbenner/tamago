@@ -55,15 +55,24 @@ export function distance(a, b) {
   return d[a.length][b.length]
 }
 
-// One-letter slip against this answer? Typing another real word ("un" for "une") is a wrong word, not a typo.
+// Slips against this answer (Dan, 2026-11-16: up to two typos per answer, was one): two words a letter out each, or one
+// word two letters out. A word under 3 letters gets no allowance, a word under 6 at most one slip, and typing another
+// real word ("un" for "une") is a wrong word, not a typo.
+const TYPOS = 2
+const slipsAllowed = (word) => (word.length >= 6 ? 2 : word.length >= 3 ? 1 : 0)
 function isTypo(input, answer, vocabulary) {
   const I = input.split(' ')
   const A = answer.split(' ')
-  if (I.length !== A.length) return Math.abs(I.length - A.length) === 1 && distance(input, answer) === 1
+  if (I.length !== A.length) return Math.abs(I.length - A.length) === 1 && distance(input, answer) <= TYPOS
   const diffs = A.map((w, i) => [w, I[i]]).filter(([w, t]) => w !== t)
-  if (diffs.length !== 1) return false
-  const [word, typed] = diffs[0]
-  return word.length >= 3 && distance(word, typed) === 1 && !vocabulary.has(typed)
+  if (!diffs.length || diffs.length > TYPOS) return false
+  let total = 0
+  for (const [word, typed] of diffs) {
+    const d = distance(word, typed)
+    if (d > slipsAllowed(word) || vocabulary.has(typed)) return false
+    total += d
+  }
+  return total <= TYPOS
 }
 
 // Capitals (Dan, 2026-11-14): the words whose capital the learner left out, from the accepted text, with the letters

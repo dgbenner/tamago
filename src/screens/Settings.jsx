@@ -88,7 +88,7 @@ export default function Settings({ settings, onChange, onBack, onAbout, onPrivac
       </Item>
       <div className="settings-grid">
       <Section title="Lessons">
-        <Segmented label="Answer Checking" help="Lenient accepts a one-letter typo, a missing accent and a missing capital. Strict counts them wrong." value={settings.answer_strictness}
+        <Segmented label="Answer Checking" help="Lenient accepts up to two typos, a missing accent and a missing capital. Strict counts them wrong." value={settings.answer_strictness}
           options={[['lenient', 'Lenient'], ['strict', 'Strict']]} onChange={(v) => onChange({ answer_strictness: v })} />
         <Segmented label="Typed Answers" value={settings.typed_input} options={[['chips', 'Word Chips'], ['keyboard', 'Keyboard']]} onChange={(v) => onChange({ typed_input: v })} />
         <Segmented label="Sounds" help="Soft sounds for starting a lesson, Check and Continue, a matched pair and a word chip placed. Never on a wrong answer." value={settings.sounds ?? 'on'}
