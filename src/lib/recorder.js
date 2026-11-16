@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { playOutside, stop as stopSound } from './audio.js'
+import { closeMic, openMic } from './mic.js'
 
 // Records the learner for speak-and-compare (nothing leaves the device, nothing is kept after the question), and the
 // native speaker in the native-speaker check, which keeps the recording (blob).
@@ -8,6 +9,7 @@ export function useRecorder() {
   const [state, setState] = useState(typeof MediaRecorder === 'undefined' || !navigator.mediaDevices?.getUserMedia ? 'unavailable' : 'idle')
   const [url, setUrl] = useState(null)
   const [blob, setBlob] = useState(null)
+  const [error, setError] = useState(null) // why the microphone was refused (its error's name), for the Developer line
   const rec = useRef(null)
   const audio = useRef(null)
 
@@ -18,16 +20,18 @@ export function useRecorder() {
     const r = rec.current
     if (r?.state === 'recording') { r.onstop = null; try { r.stop() } catch { /* already stopped */ } }
     r?.stream?.getTracks().forEach((t) => t.stop())
+    closeMic()
   }
 
   const begin = async () => {
     try {
-      const stream = await navigator.mediaDevices.getUserMedia({ audio: true })
+      const stream = await openMic() // asked inside the tap, in the audio session that allows it (mic.js)
       const r = new MediaRecorder(stream)
       const chunks = []
       r.ondataavailable = (e) => chunks.push(e.data)
       r.onstop = () => {
         stream.getTracks().forEach((t) => t.stop())
+        closeMic()
         const b = new Blob(chunks, { type: r.mimeType || chunks[0]?.type || 'audio/webm' })
         setBlob(b)
         setUrl(URL.createObjectURL(b))
@@ -36,7 +40,9 @@ export function useRecorder() {
       r.start()
       rec.current = r
       setState('recording')
-    } catch {
+    } catch (e) {
+      closeMic()
+      setError(e?.name || String(e?.message ?? e))
       setState('unavailable')
     }
   }
@@ -53,5 +59,5 @@ export function useRecorder() {
     return begin()
   }
   const reset = () => { setBlob(null); setUrl(null); setState((s) => (s === 'unavailable' ? s : 'idle')) }
-  return { state, start, stop, playBack, blob, reset, key: url ? `yours:${url}` : null }
+  return { state, error, start, stop, playBack, blob, reset, key: url ? `yours:${url}` : null }
 }

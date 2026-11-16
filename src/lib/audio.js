@@ -212,18 +212,39 @@ export const CUES = {
 let lastCue = null
 export const lastCueName = () => lastCue
 if (typeof window !== 'undefined' && window.__tamagoAudio) window.__tamagoAudio.lastCue = lastCueName // for the browser checks
+// Is the language being heard? For the interface sounds only. Safari's own "speaking" flag is not enough on an iPhone:
+// it can stay true after a sentence has ended, which silenced every interface sound from then on (iPhone 11,
+// 2026-11-15, while lesson audio played fine). The voice counts as busy only while Safari says so AND a sentence of
+// ours is still out (`live`), so one stuck flag can't mute them and one lost end report can't either.
+function languagePlaying() {
+  if (sounding || [...players.values(), ...outside].some((el) => !el.paused && !el.ended)) return true
+  return Boolean(typeof window !== 'undefined' && window.speechSynthesis?.speaking) && live.size > 0
+}
+// The state of the page's Web Audio, for the Developer page: "running" when interface sounds can be heard.
+export const audioState = () => (cueCtx ?? ctx)?.state ?? (cueCtx === null ? 'none' : 'not started')
+export const CUE_WAIT = 250 // ms: a sound that had to wake the context plays only if it wakes this soon
 export function cue(name) {
-  if (!cuesOn || reducedMotion() || !CUES[name] || anythingPlaying()) return false
+  if (!cuesOn || reducedMotion() || !CUES[name] || languagePlaying()) return false
   const c = cueContext()
   if (!c) return false
+  const sound = () => {
+    try {
+      hushCues()
+      cueBus = c.createGain()
+      cueBus.gain.value = CUE_LEVEL
+      cueBus.connect(c.destination)
+      CUES[name](c, cueBus)
+    } catch { /* no sound this time */ }
+  }
+  lastCue = name
+  if (c.state === 'running') { sound(); return true }
+  // iOS puts the context to sleep (suspended, or interrupted after the device voice or another app took the sound).
+  // Notes scheduled on a sleeping context are never heard, so wake it in this tap and play once it is running.
+  const asked = Date.now()
   try {
-    if (c.state !== 'running') c.resume?.()?.catch?.(() => {})
-    hushCues()
-    cueBus = c.createGain()
-    cueBus.gain.value = CUE_LEVEL
-    cueBus.connect(c.destination)
-    CUES[name](c, cueBus)
-    lastCue = name
+    const waking = c.resume?.()
+    if (typeof waking?.then !== 'function') return false
+    waking.then(() => { if (c.state === 'running' && Date.now() - asked <= CUE_WAIT && cuesOn && !languagePlaying()) sound() }).catch(() => {})
     return true
   } catch { return false }
 }

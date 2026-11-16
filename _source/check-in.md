@@ -4,6 +4,8 @@ Updated November 15, 2026. **French A1 is complete: Parts 5 and 6 are built and 
 
 ## Done since last check-in
 
+- **iPhone fixes (Debugger):** interface sounds no longer muted by Safari's stuck speaking flag or a sleeping audio context; Speak and Compare asks for the microphone in the recording audio session; speaker avatars loaded ahead. All three need a real iPhone to confirm.
+
 - **Design fixes:** circle icons grouped and centred, bigger on phones; QT09 bubble waits for the first chip; correct and incorrect sounds in the Sound Lab for Dan to pick.
 
 - **Three fixes:** appeler shows appelle (épeler both spellings); Type the Word takes coche for carro and the other Spain twins; Spanish reflexive verbs show me lavo, te lavas, se lava (bañarse included).

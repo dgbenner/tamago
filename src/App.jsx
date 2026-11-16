@@ -7,7 +7,7 @@ import { skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
 import { cue, hasFrenchVoice, setCues, stop } from './lib/audio.js'
 import Home from './screens/Home.jsx'
-import Lesson from './screens/Lesson.jsx'
+import Lesson, { preloadSpeakers } from './screens/Lesson.jsx'
 import Settings from './screens/Settings.jsx'
 import About from './screens/About.jsx'
 import Splash from './screens/Splash.jsx'
@@ -307,6 +307,8 @@ export default function App() {
 
   // The Sounds setting (Dan, 2026-11-15): Off silences all four interface sounds (audio.js cue).
   useEffect(() => { setCues(settings.sounds !== 'off') }, [settings.sounds])
+  // Speaker pictures are readied a moment after launch, so a lesson's first chat question already has its avatar.
+  useEffect(() => { const t = setTimeout(preloadSpeakers, 1500); return () => clearTimeout(t) }, [])
   const inLesson = screen === 'lesson' && !ending
   useEffect(() => {
     if (!inLesson) return

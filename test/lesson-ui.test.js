@@ -9,7 +9,7 @@ globalThis.sessionStorage = storage()
 globalThis.window = globalThis
 const { createServer } = await import('vite')
 const vite = await createServer({ configFile: false, logLevel: 'silent', appType: 'custom', server: { middlewareMode: true, hmr: false, ws: false }, optimizeDeps: { noDiscovery: true } })
-const { promptFor, SpeakerBubble, ReplyBubble, speakerFor, askedToYou, replyStart } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
+const { promptFor, SpeakerBubble, ReplyBubble, speakerFor, askedToYou, replyStart, SPEAKER_IMAGES, preloadSpeakers } = await vite.ssrLoadModule('/src/screens/Lesson.jsx')
 const { createElement } = await import('react')
 const { renderToStaticMarkup } = await import('react-dom/server')
 test.after(() => vite.close())
@@ -101,4 +101,22 @@ test('Answer the Question\'s hint shows how a reply could start, from the fulles
   assert.equal(replyStart(q('Oui.', 'Oui, je parle un peu français.')), 'Oui, je parle…')
   assert.equal(replyStart(q('Merci.')), 'Me…')
   assert.equal(replyStart({ answers: [] }), null)
+})
+
+// iPhone, 2026-11-15: the avatar came about half a second after its question. Every speaker picture is fetched and
+// decoded ahead, once, and the list covers every picture a question can get.
+test('speaker pictures are readied ahead, each once, and every one a question can get is among them', async () => {
+  const { existsSync } = await import('node:fs')
+  const asked = []
+  globalThis.Image = class { set src(u) { asked.push(u) } decode() { return Promise.resolve() } }
+  preloadSpeakers()
+  preloadSpeakers()
+  delete globalThis.Image
+  assert.deepEqual([...asked].sort(), [...SPEAKER_IMAGES].sort())
+  assert.equal(new Set(asked).size, asked.length)
+  assert.equal(SPEAKER_IMAGES.length, 13)
+  for (const url of SPEAKER_IMAGES) assert.ok(existsSync(new URL(`../public${url}`, import.meta.url)), url)
+  const rec = (speaker) => ({ type: 'QT09', sentence_id: 'S1', audio: { file: '/audio/x.m4a', speaker } })
+  for (const sp of ['Aemines4', 'Lilie B. (BiblioCanet66)', 'Aemines2', 'Aemines1', 'nobody']) assert.ok(SPEAKER_IMAGES.includes(speakerFor(rec(sp))))
+  for (let i = 0; i < 60; i++) assert.ok(SPEAKER_IMAGES.includes(speakerFor({ type: 'QT09', sentence_id: `S${i}`, audio: { french: 'x' } }, null)))
 })

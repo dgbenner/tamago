@@ -868,3 +868,10 @@ Part 3, Lingua Libre recordings:
 - Circle icons grouped and centred on the disc; about twice the size on phones and further out, scaled for narrow phones.
 - QT09 reply bubble hidden until the first chip, then it stays; chips align left inside the right-anchored bubble.
 - Sound Lab: Correct answer and Incorrect answer sets, six each, with a demo that plays sound and voice in the same tap; picks pending.
+
+## 2026-11-15: iPhone fixes (Debugger; iPhone 11, iOS 27.2)
+
+- Interface sounds: no longer skipped on Safari's stuck "speaking" flag; a sleeping audio context is woken in the tap before the sound plays. Web Audio state on the Developer page.
+- Speak and Compare: the microphone is asked for in the "play-and-record" audio session, inside the tap; back to "playback" after (src/lib/mic.js).
+- Speaker avatars: all 13 fetched and decoded ahead.
+- The one-off freeze on Urchin was not reproduced (about 1,800 questions in emulated iPhone WebKit, three courses); left alone.

@@ -73,6 +73,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
   // This question's recordings and the next two questions' are made ready, so nothing waits between questions. Never
   // the whole course: Safari freezes with hundreds of audio players (audio.js).
   useEffect(() => { preload(filesIn(session.queue.slice(session.index, session.index + 3))) }, [q.qid])
+  useEffect(() => { preloadSpeakers() }, [])
 
   useEffect(() => {
     if (LISTENING.has(q.type) || q.type === 'QT10' || (q.type === 'QT13' && q.variant !== 'V1302') || (q.type === 'QT02' && q.variant === 'V0201')
@@ -303,6 +304,22 @@ const SPEAKERS = {
 }
 const CHILDREN = { female: 'child-female-chestnut', male: 'child-male-glasses' }
 const speakerUrl = (name) => `/images/speakers/${name}.webp`
+// Every speaker picture, fetched and decoded ahead (iPhone, 2026-11-15: the avatar came about half a second after its
+// question, an empty circle first). 13 small files, about 70 KB in all; which one a question gets depends on the
+// voice, known only when it's shown, so all of them are readied: once the app is up, and again when a lesson opens.
+export const SPEAKER_IMAGES = [...SPEAKERS.female, ...SPEAKERS.male, ...Object.values(CHILDREN)].map(speakerUrl)
+const readied = new Map() // url to its Image, kept so the decoded picture stays in memory
+export function preloadSpeakers() {
+  if (typeof Image === 'undefined') return
+  for (const url of SPEAKER_IMAGES) {
+    if (readied.has(url)) continue
+    const img = new Image()
+    img.decoding = 'sync'
+    img.src = url
+    img.decode?.()?.catch?.(() => { readied.delete(url) }) // failed (offline, first visit): tried again next time
+    readied.set(url, img)
+  }
+}
 // The Developer label names who is speaking (Dan, 2026-11-15): a recording's speaker, else the device voice.
 const voiceLabel = (q) => (!q?.audio ? '' : ` · ${q.audio.file ? (q.audio.speaker || 'recording') : (courseVoiceName() ?? 'no voice')}`)
 export const speakerFor = (q, voiceName = courseVoiceName()) => {
@@ -318,7 +335,7 @@ function SpeakerAvatar({ speaker }) {
   return (
     <span data-avatar aria-hidden="true" className="speaker-ring flex size-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-disc text-muted">
       {speaker
-        ? <img src={speaker} alt="" className="size-full object-cover" />
+        ? <img src={speaker} alt="" decoding="sync" className="size-full object-cover" />
         : <svg viewBox="0 0 24 24" className="mt-2 size-10" fill="currentColor"><circle cx="12" cy="8" r="4.2" /><path d="M3.5 23c0-5 3.8-8.6 8.5-8.6s8.5 3.6 8.5 8.6z" /></svg>}
     </span>
   )
@@ -393,7 +410,7 @@ function WordImage({ q, result, onAnswer, newWords }) {
 }
 
 // Speaking, never graded (QT10, QT13). Done counts it; nothing is scored and nothing is kept.
-function Speak({ q, result, onAnswer, newWords, onHint }) {
+function Speak({ q, result, onAnswer, newWords, onHint, settings }) {
   const fromMemory = q.variant === 'V1302'
   const compare = q.type === 'QT13'
   const [reveal, setReveal] = useState(compare && !fromMemory)
@@ -417,7 +434,7 @@ function Speak({ q, result, onAnswer, newWords, onHint }) {
       )}
       {!result && compare && (
         rec.state === 'unavailable'
-          ? <p className="text-sm text-muted">Recording isn't available here. Say it aloud, then tap Done.</p>
+          ? <p className="text-sm text-muted">Recording isn't available here. Say it aloud, then tap Done.{settings?.developer !== 'off' && rec.error ? <span data-mic-error className="block text-xs"> Developer: {rec.error}</span> : null}</p>
           : (
             <div className="flex flex-wrap items-center gap-2">
               {/* Dan, 2026-11-12: Record Voice; while recording a microphone with waves rising from its top and Stop

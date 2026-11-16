@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { courseVoiceInfo } from '../lib/audio.js'
+import { audioState, courseVoiceInfo } from '../lib/audio.js'
 import { lessonLogFor, snapshotRows } from '../lib/snapshot.js'
 import { getAll, resetEverything, resetLanguage } from '../lib/store.js'
 import { course as running } from '../lib/course.js'
@@ -169,7 +169,7 @@ function DeviceVoice() {
     const t = setTimeout(again, 800)
     return () => { window.speechSynthesis?.removeEventListener?.('voiceschanged', again); clearTimeout(t) }
   }, [])
-  return <p data-device-voice className="text-sm">Device Voice ({course.name}): {info ? <><span className="font-medium">{info.name}</span> · {info.lang} · {info.grade}</> : 'none found'}</p>
+  return <p data-device-voice className="text-sm">Device Voice ({course.name}): {info ? <><span className="font-medium">{info.name}</span> · {info.lang} · {info.grade}</> : 'none found'}<span data-audio-state className="block text-muted">Interface Sounds: Web Audio {audioState()}</span></p>
 }
 
 // The labs (Dan, 2026-11-15): built and deployed with the app, listed only while Developer is on.
