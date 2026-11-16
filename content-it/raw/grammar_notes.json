@@ -383,5 +383,124 @@
     "example_sentence_ids": "S75003;S75005;S75104",
     "conjugation_lemma": "",
     "status": "live"
+  },
+  {
+    "unit_id": "U81",
+    "rule": "At the bar: Un caffè, per favore, or Prendo un cornetto. Prendiamo means we'll have. Offro io means it's my treat; il bar offre, the bar offers. Basta così means that's enough. A me piace … puts the stress on me.",
+    "example_sentence_ids": "S81002;S81014;S81111",
+    "conjugation_lemma": "offrire",
+    "status": "live"
+  },
+  {
+    "unit_id": "U26",
+    "rule": "Permesso? asks to get past someone or to come in. Mi fa un favore? asks a favour politely. C'è qualcuno? (is anyone there?); nessun problema (no problem). Aiutare is to help: mi può aiutare?",
+    "example_sentence_ids": "S26023;S26018;S26013",
+    "conjugation_lemma": "aiutare",
+    "status": "live"
+  },
+  {
+    "unit_id": "U82",
+    "rule": "Ordinare is to order: ordino, ordini. An Italian meal has il primo (pasta, rice or soup), il secondo (meat or fish) and il dolce (dessert). Un piatto di pasta is a plate of pasta: di after the amount, as with un chilo di.",
+    "example_sentence_ids": "S82008;S82023;S82106",
+    "conjugation_lemma": "ordinare",
+    "status": "live"
+  },
+  {
+    "unit_id": "U83",
+    "rule": "Directions: a destra (on the right), a sinistra (on the left), dritto (straight on). Where things are: davanti a (in front of), dietro (behind), di fronte a (opposite), sotto (under). Distance with a: la farmacia è a cento metri.",
+    "example_sentence_ids": "S83014;S83023;S83028",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U27",
+    "rule": "Mi sono perso (a man) or mi sono persa (a woman) means I'm lost; sono perso is fine too. Gira a destra means turn right. Tornare indietro is to go back.",
+    "example_sentence_ids": "S27001;S27011;S27101",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U84",
+    "rule": "Guidare is to drive: guido. Salire (salgo) is to get on, scendere (scendo) to get off: salgo sul treno, scendo qui. In macchina, in tram, in treno, but a piedi (on foot). Entro means by, no later than: entro domani.",
+    "example_sentence_ids": "S84002;S84009;S84101",
+    "conjugation_lemma": "scendere",
+    "status": "live"
+  },
+  {
+    "unit_id": "U85",
+    "rule": "With a family word in the singular, mio, tuo and suo come without the article: mio padre, mia sorella, tuo fratello. In the plural the article comes back: i miei genitori, i tuoi figli. Sposato and sposata agree.",
+    "example_sentence_ids": "S85013;S85003;S85018",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U86",
+    "rule": "La casa ha tre stanze: stanza is any room, camera often the bedroom (camera da letto). Words for things at home: la porta, la finestra, la sedia, il divano, l'armadio. Un oggetto is a thing, gli oggetti the things.",
+    "example_sentence_ids": "S86007;S86015;S86018",
+    "conjugation_lemma": "costruire",
+    "status": "live"
+  },
+  {
+    "unit_id": "U87",
+    "rule": "Lavoro in un'azienda, lavoro per il comune: in or per. Il capo is the boss, il collega or la collega the colleague. Lo stipendio is the salary. Avere esperienza is to have experience.",
+    "example_sentence_ids": "S87001;S87008;S87013",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U28",
+    "rule": "Non funziona means it doesn't work; manca qualcosa, something is missing. Bisogna + a verb means one has to: bisogna aspettare. È grave? asks if it's serious; una soluzione is a solution.",
+    "example_sentence_ids": "S28003;S28002;S28008",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U88",
+    "rule": "The words on a form: nome, cognome, data di nascita, luogo di nascita, stato civile (sposato, sposata), professione, residenza, firma. Forms use the infinitive for what to do: Indicare la data, Inserire il nome. Dichiaro means I declare.",
+    "example_sentence_ids": "S88018;S88101;S88130",
+    "conjugation_lemma": "dichiarare",
+    "status": "live"
+  },
+  {
+    "unit_id": "U89",
+    "rule": "Letters and postcards open with Caro Marco or Cara Anna (caro agrees) and end with Saluti, Tanti saluti or Un abbraccio. Ti invio means I'm sending you; inviare is to send.",
+    "example_sentence_ids": "S89101;S89103;S89003",
+    "conjugation_lemma": "inviare",
+    "status": "live"
+  },
+  {
+    "unit_id": "U91",
+    "rule": "Words for ideas: il caso (case), il senso (sense), la base (basis), il valore (value), lo scopo (aim). Set phrases: in questo caso, in ogni caso. Ciò means this or that, as a pronoun: ciò non ha senso.",
+    "example_sentence_ids": "S91003;S91101;S91008",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U92",
+    "rule": "Adjectives in -e are the same for both genders: generale, principale, attuale, regionale. Adjectives in -o agree: specifico, specifica; numeroso, numerosa. Most adjectives come after the noun: la strada principale, un problema tecnico.",
+    "example_sentence_ids": "S92104;S92137;S92142",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U93",
+    "rule": "The words of offices and rules: l'ente, l'istituto, l'amministrazione, la commissione, il consiglio; una norma (rule), un decreto (decree), il comma (paragraph of a law). They turn up on notices, forms and in the news.",
+    "example_sentence_ids": "S93001;S93004;S93102",
+    "conjugation_lemma": "",
+    "status": "live"
+  },
+  {
+    "unit_id": "U94",
+    "rule": "Verbs of thinking and saying: considero, ritengo (I consider, I believe), propongo (I suggest). Many are used in the lui form: esiste (exists), appare (appears), risulta (turns out), riguarda (concerns). Ti rende felice? means does it make you happy?",
+    "example_sentence_ids": "S94005;S94022;S94008",
+    "conjugation_lemma": "proporre",
+    "status": "live"
+  },
+  {
+    "unit_id": "U95",
+    "rule": "Everyday verbs in the lui form: offre, permette, contiene, richiede. Some are irregular: ottenere (ottengo), porre (pone), proporre (propone). Il negozio richiede un cameriere: the subject usually comes first.",
+    "example_sentence_ids": "S95001;S95005;S95002",
+    "conjugation_lemma": "ottenere",
+    "status": "live"
   }
 ]

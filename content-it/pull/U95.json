@@ -1,0 +1,1674 @@
+{
+  "unit_id": "U95",
+  "pulled_at": "2026-11-16",
+  "candidates": 137,
+  "sentences": [
+    {
+      "sentence_id": "S95001",
+      "unit_id": "U95",
+      "french": "Cosa contiene?",
+      "english": "What does it contain?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "726587",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95002",
+      "unit_id": "U95",
+      "french": "Quando comincia?",
+      "english": "When does it start?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1125760",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "When does it begin?"
+      ]
+    },
+    {
+      "sentence_id": "S95003",
+      "unit_id": "U95",
+      "french": "Lei assume?",
+      "english": "Are you hiring?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3423167",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95004",
+      "unit_id": "U95",
+      "french": "Vale qualcosa?",
+      "english": "Is it worth something?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4192314",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95005",
+      "unit_id": "U95",
+      "french": "Quanto vale?",
+      "english": "What's it worth?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5135264",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "How much is that worth?"
+      ]
+    },
+    {
+      "sentence_id": "S95006",
+      "unit_id": "U95",
+      "french": "Lo approva?",
+      "english": "Do you approve that?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7993257",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95007",
+      "unit_id": "U95",
+      "french": "Vale molto?",
+      "english": "Is this worth a lot?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10611740",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bethanielle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95008",
+      "unit_id": "U95",
+      "french": "Contiene uova?",
+      "english": "Does it contain eggs?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11718002",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95009",
+      "unit_id": "U95",
+      "french": "Contiene zucchero?",
+      "english": "Does it contain sugar?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11862170",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95010",
+      "unit_id": "U95",
+      "french": "E cosa ottengo?",
+      "english": "And what do I get?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3346643",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95011",
+      "unit_id": "U95",
+      "french": "Perché lo permette?",
+      "english": "Why do you permit it?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5646945",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95012",
+      "unit_id": "U95",
+      "french": "Perché non comincia?",
+      "english": "Why don't you start?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6767755",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95013",
+      "unit_id": "U95",
+      "french": "Quanto zucchero utilizza?",
+      "english": "How much sugar do you use?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13286773",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95014",
+      "unit_id": "U95",
+      "french": "Cosa produce l'azienda?",
+      "english": "What does the company produce?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "353411",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "hwarang",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95015",
+      "unit_id": "U95",
+      "french": "A che ora comincia?",
+      "english": "What time does it start?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1946512",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95016",
+      "unit_id": "U95",
+      "french": "E io cosa ottengo?",
+      "english": "And what do I get?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3346644",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95017",
+      "unit_id": "U95",
+      "french": "Come si applica questo?",
+      "english": "How does this apply?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4513562",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95018",
+      "unit_id": "U95",
+      "french": "Chi utilizza questa stanza?",
+      "english": "Who else uses this room?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "7901541",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95019",
+      "unit_id": "U95",
+      "french": "Utilizza spesso un dizionario?",
+      "english": "Do you often use a dictionary?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13194700",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95020",
+      "unit_id": "U95",
+      "french": "Mi evita.",
+      "english": "She avoids me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1255790",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95021",
+      "unit_id": "U95",
+      "french": "Tom approva.",
+      "english": "Tom approves.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4568936",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95022",
+      "unit_id": "U95",
+      "french": "Lo garantisce.",
+      "english": "He guarantees it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5266431",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "She guarantees it."
+      ]
+    },
+    {
+      "sentence_id": "S95023",
+      "unit_id": "U95",
+      "french": "Produce birra.",
+      "english": "He brews beer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11778189",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95024",
+      "unit_id": "U95",
+      "french": "Lei mi evita.",
+      "english": "She avoids me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1255792",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95025",
+      "unit_id": "U95",
+      "french": "Lei lo garantisce.",
+      "english": "She guarantees it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5266432",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95026",
+      "unit_id": "U95",
+      "french": "Lui lo garantisce.",
+      "english": "He guarantees it.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5266437",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95027",
+      "unit_id": "U95",
+      "french": "Tom mi evita.",
+      "english": "Tom avoids me.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6480413",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95028",
+      "unit_id": "U95",
+      "french": "Partecipa alla riunione.",
+      "english": "Attend the meeting.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11443988",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95029",
+      "unit_id": "U95",
+      "french": "Tom produce birra.",
+      "english": "Tom brews beer.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "11778187",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95030",
+      "unit_id": "U95",
+      "french": "Richiede molto lavoro.",
+      "english": "It takes a lot of work.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "13035312",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Nuel",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95031",
+      "unit_id": "U95",
+      "french": "Pubblica libri in Italia.",
+      "english": "He publishes books in Italy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3889361",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95032",
+      "unit_id": "U95",
+      "french": "Si richiede un cameriere.",
+      "english": "Waiter needed.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3990580",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95033",
+      "unit_id": "U95",
+      "french": "Vediamo cosa posso ottenere.",
+      "english": "Let's see what I can get.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4990402",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95034",
+      "unit_id": "U95",
+      "french": "Possiamo ottenere di più.",
+      "english": "We can get more.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5448605",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95035",
+      "unit_id": "U95",
+      "french": "Questa parola deriva dal tedesco.",
+      "english": "This word is derived from German.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "379749",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Pharamp",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95036",
+      "unit_id": "U95",
+      "french": "Questo divano occupa troppo spazio.",
+      "english": "This sofa takes up too much space.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "975371",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "riccioberto",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95037",
+      "unit_id": "U95",
+      "french": "Qui è dove avviene tutto.",
+      "english": "Here is where it all happens.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3554566",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95038",
+      "unit_id": "U95",
+      "french": "Lui pubblica libri in Italia.",
+      "english": "He publishes books in Italy.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3889363",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95039",
+      "unit_id": "U95",
+      "french": "Ottengo tutto quello che voglio.",
+      "english": "I get everything I want.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4599807",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S95040",
+      "unit_id": "U95",
+      "french": "Noi possiamo ottenere di più.",
+      "english": "We can get more.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5448606",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S95001",
+      "position": 1,
+      "surface": "Cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95001",
+      "position": 2,
+      "surface": "contiene",
+      "word_id": "W1951",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 1,
+      "surface": "Quando",
+      "word_id": "W148",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95002",
+      "position": 2,
+      "surface": "comincia",
+      "word_id": "W1956",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 1,
+      "surface": "Lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95003",
+      "position": 2,
+      "surface": "assume",
+      "word_id": "W1930",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 1,
+      "surface": "Vale",
+      "word_id": "W1957",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95004",
+      "position": 2,
+      "surface": "qualcosa",
+      "word_id": "W911",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 1,
+      "surface": "Quanto",
+      "word_id": "W922",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95005",
+      "position": 2,
+      "surface": "vale",
+      "word_id": "W1957",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 1,
+      "surface": "Lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95006",
+      "position": 2,
+      "surface": "approva",
+      "word_id": "W1949",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 1,
+      "surface": "Vale",
+      "word_id": "W1957",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95007",
+      "position": 2,
+      "surface": "molto",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 1,
+      "surface": "Contiene",
+      "word_id": "W1951",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95008",
+      "position": 2,
+      "surface": "uova",
+      "word_id": "W909",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 1,
+      "surface": "Contiene",
+      "word_id": "W1951",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95009",
+      "position": 2,
+      "surface": "zucchero",
+      "word_id": "W1605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 2,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95010",
+      "position": 3,
+      "surface": "ottengo",
+      "word_id": "W1911",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 1,
+      "surface": "Perché",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 2,
+      "surface": "lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95011",
+      "position": 3,
+      "surface": "permette",
+      "word_id": "W1915",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 1,
+      "surface": "Perché",
+      "word_id": "W149",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 2,
+      "surface": "non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95012",
+      "position": 3,
+      "surface": "comincia",
+      "word_id": "W1956",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 1,
+      "surface": "Quanto",
+      "word_id": "W922",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 2,
+      "surface": "zucchero",
+      "word_id": "W1605",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95013",
+      "position": 3,
+      "surface": "utilizza",
+      "word_id": "W1924",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 1,
+      "surface": "Cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 2,
+      "surface": "produce",
+      "word_id": "W1927",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 3,
+      "surface": "l'",
+      "word_id": "W020",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95014",
+      "position": 4,
+      "surface": "azienda",
+      "word_id": "W1692",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 1,
+      "surface": "A",
+      "word_id": "W185",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 2,
+      "surface": "che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 3,
+      "surface": "ora",
+      "word_id": "W178",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95015",
+      "position": 4,
+      "surface": "comincia",
+      "word_id": "W1956",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 1,
+      "surface": "E",
+      "word_id": "W017",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 2,
+      "surface": "io",
+      "word_id": "W005",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 3,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95016",
+      "position": 4,
+      "surface": "ottengo",
+      "word_id": "W1911",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 1,
+      "surface": "Come",
+      "word_id": "W043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 2,
+      "surface": "si",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 3,
+      "surface": "applica",
+      "word_id": "W1923",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95017",
+      "position": 4,
+      "surface": "questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 1,
+      "surface": "Chi",
+      "word_id": "W143",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 2,
+      "surface": "utilizza",
+      "word_id": "W1924",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 3,
+      "surface": "questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95018",
+      "position": 4,
+      "surface": "stanza",
+      "word_id": "W1678",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 1,
+      "surface": "Utilizza",
+      "word_id": "W1924",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 2,
+      "surface": "spesso",
+      "word_id": "W1233",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95019",
+      "position": 4,
+      "surface": "dizionario",
+      "word_id": "W1119",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 1,
+      "surface": "Mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95020",
+      "position": 2,
+      "surface": "evita",
+      "word_id": "W1958",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95021",
+      "position": 2,
+      "surface": "approva",
+      "word_id": "W1949",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 1,
+      "surface": "Lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95022",
+      "position": 2,
+      "surface": "garantisce",
+      "word_id": "W1914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95023",
+      "position": 1,
+      "surface": "Produce",
+      "word_id": "W1927",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95023",
+      "position": 2,
+      "surface": "birra",
+      "word_id": "W1603",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95024",
+      "position": 1,
+      "surface": "Lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95024",
+      "position": 2,
+      "surface": "mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95024",
+      "position": 3,
+      "surface": "evita",
+      "word_id": "W1958",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95025",
+      "position": 1,
+      "surface": "Lei",
+      "word_id": "W022",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95025",
+      "position": 2,
+      "surface": "lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95025",
+      "position": 3,
+      "surface": "garantisce",
+      "word_id": "W1914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95026",
+      "position": 1,
+      "surface": "Lui",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95026",
+      "position": 2,
+      "surface": "lo",
+      "word_id": "W723",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95026",
+      "position": 3,
+      "surface": "garantisce",
+      "word_id": "W1914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95027",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95027",
+      "position": 2,
+      "surface": "mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95027",
+      "position": 3,
+      "surface": "evita",
+      "word_id": "W1958",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95028",
+      "position": 1,
+      "surface": "Partecipa",
+      "word_id": "W1929",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95028",
+      "position": 2,
+      "surface": "alla",
+      "word_id": "W187",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95028",
+      "position": 3,
+      "surface": "riunione",
+      "word_id": "W1695",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95029",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95029",
+      "position": 2,
+      "surface": "produce",
+      "word_id": "W1927",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95029",
+      "position": 3,
+      "surface": "birra",
+      "word_id": "W1603",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95030",
+      "position": 1,
+      "surface": "Richiede",
+      "word_id": "W1954",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95030",
+      "position": 2,
+      "surface": "molto",
+      "word_id": "W104",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95030",
+      "position": 3,
+      "surface": "lavoro",
+      "word_id": "W1297",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95031",
+      "position": 1,
+      "surface": "Pubblica",
+      "word_id": "W1948",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95031",
+      "position": 2,
+      "surface": "libri",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95031",
+      "position": 3,
+      "surface": "in",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95031",
+      "position": 4,
+      "surface": "Italia",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95032",
+      "position": 1,
+      "surface": "Si",
+      "word_id": "W711",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95032",
+      "position": 2,
+      "surface": "richiede",
+      "word_id": "W1954",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95032",
+      "position": 3,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95032",
+      "position": 4,
+      "surface": "cameriere",
+      "word_id": "W1602",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95033",
+      "position": 1,
+      "surface": "Vediamo",
+      "word_id": "W1266",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95033",
+      "position": 2,
+      "surface": "cosa",
+      "word_id": "W144",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95033",
+      "position": 3,
+      "surface": "posso",
+      "word_id": "W817",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95033",
+      "position": 4,
+      "surface": "ottenere",
+      "word_id": "W1912",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95034",
+      "position": 1,
+      "surface": "Possiamo",
+      "word_id": "W1288",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95034",
+      "position": 2,
+      "surface": "ottenere",
+      "word_id": "W1912",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95034",
+      "position": 3,
+      "surface": "di",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95034",
+      "position": 4,
+      "surface": "più",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95035",
+      "position": 1,
+      "surface": "Questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95035",
+      "position": 2,
+      "surface": "parola",
+      "word_id": "W716",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95035",
+      "position": 3,
+      "surface": "deriva",
+      "word_id": "W1936",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95035",
+      "position": 4,
+      "surface": "dal",
+      "word_id": "W1424",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95035",
+      "position": 5,
+      "surface": "tedesco",
+      "word_id": "W891",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95036",
+      "position": 1,
+      "surface": "Questo",
+      "word_id": "W025",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95036",
+      "position": 2,
+      "surface": "divano",
+      "word_id": "W1683",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95036",
+      "position": 3,
+      "surface": "occupa",
+      "word_id": "W1931",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95036",
+      "position": 4,
+      "surface": "troppo",
+      "word_id": "W946",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95036",
+      "position": 5,
+      "surface": "spazio",
+      "word_id": "W1180",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95037",
+      "position": 1,
+      "surface": "Qui",
+      "word_id": "W024",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95037",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95037",
+      "position": 3,
+      "surface": "dove",
+      "word_id": "W146",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95037",
+      "position": 4,
+      "surface": "avviene",
+      "word_id": "W1950",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95037",
+      "position": 5,
+      "surface": "tutto",
+      "word_id": "W949",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95038",
+      "position": 1,
+      "surface": "Lui",
+      "word_id": "W021",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95038",
+      "position": 2,
+      "surface": "pubblica",
+      "word_id": "W1948",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95038",
+      "position": 3,
+      "surface": "libri",
+      "word_id": "W087",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95038",
+      "position": 4,
+      "surface": "in",
+      "word_id": "W110",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95038",
+      "position": 5,
+      "surface": "Italia",
+      "word_id": "W884",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95039",
+      "position": 1,
+      "surface": "Ottengo",
+      "word_id": "W1911",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95039",
+      "position": 2,
+      "surface": "tutto",
+      "word_id": "W949",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95039",
+      "position": 3,
+      "surface": "quello",
+      "word_id": "W954",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95039",
+      "position": 4,
+      "surface": "che",
+      "word_id": "W145",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95039",
+      "position": 5,
+      "surface": "voglio",
+      "word_id": "W901",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95040",
+      "position": 1,
+      "surface": "Noi",
+      "word_id": "W079",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95040",
+      "position": 2,
+      "surface": "possiamo",
+      "word_id": "W1288",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95040",
+      "position": 3,
+      "surface": "ottenere",
+      "word_id": "W1912",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95040",
+      "position": 4,
+      "surface": "di",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S95040",
+      "position": 5,
+      "surface": "più",
+      "word_id": "W704",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A950021",
+      "sentence_id": "S95002",
+      "direction": "fr_to_en",
+      "answer": "When does it begin?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950051",
+      "sentence_id": "S95005",
+      "direction": "fr_to_en",
+      "answer": "How much is that worth?",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A950221",
+      "sentence_id": "S95022",
+      "direction": "fr_to_en",
+      "answer": "She guarantees it.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

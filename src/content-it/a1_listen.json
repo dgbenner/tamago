@@ -180,5 +180,89 @@
     "kind": "number",
     "say": "Il treno per Milano è al binario sette.",
     "answer": "7"
+  },
+  {
+    "id": "N301",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Un caffè costa un euro e venti.",
+    "answer": "1,20"
+  },
+  {
+    "id": "N302",
+    "unit_id": "U81",
+    "kind": "price",
+    "say": "Sono tre euro e cinquanta.",
+    "answer": "3,50"
+  },
+  {
+    "id": "N303",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Il menù costa quindici euro.",
+    "answer": "15"
+  },
+  {
+    "id": "N304",
+    "unit_id": "U82",
+    "kind": "price",
+    "say": "Il conto è di quarantadue euro.",
+    "answer": "42"
+  },
+  {
+    "id": "N305",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "La farmacia è a cento metri.",
+    "answer": "100"
+  },
+  {
+    "id": "N306",
+    "unit_id": "U83",
+    "kind": "number",
+    "say": "Il museo è a trecento metri.",
+    "answer": "300"
+  },
+  {
+    "id": "N307",
+    "unit_id": "U84",
+    "kind": "number",
+    "say": "Prenda il tram numero otto.",
+    "answer": "8"
+  },
+  {
+    "id": "N308",
+    "unit_id": "U84",
+    "kind": "time",
+    "say": "Il tram passa alle sette e un quarto.",
+    "answer": "7:15"
+  },
+  {
+    "id": "N309",
+    "unit_id": "U86",
+    "kind": "number",
+    "say": "Abito al numero ventisei.",
+    "answer": "26"
+  },
+  {
+    "id": "N310",
+    "unit_id": "U87",
+    "kind": "time",
+    "say": "La riunione è alle dieci e mezza.",
+    "answer": "10:30"
+  },
+  {
+    "id": "N311",
+    "unit_id": "U88",
+    "kind": "phone",
+    "say": "Il mio numero è tre, quattro, sette, dodici, venti, diciotto.",
+    "answer": "347 12 20 18"
+  },
+  {
+    "id": "N312",
+    "unit_id": "U88",
+    "kind": "date",
+    "say": "Sono nato il dodici marzo.",
+    "answer": "12/3"
   }
 ]

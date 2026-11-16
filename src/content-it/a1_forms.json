@@ -182,5 +182,139 @@
         ]
       }
     ]
+  },
+  {
+    "id": "F301",
+    "unit_id": "U88",
+    "card": "Mi chiamo Anna Bianchi. Sono italiana. Sono nata il 10 aprile a Roma. Sono sposata. Abito in via Garibaldi 12, a Milano.",
+    "fields": [
+      {
+        "key": "name",
+        "label": "Nome e cognome",
+        "rule": "text",
+        "answer": "Anna Bianchi"
+      },
+      {
+        "key": "nat",
+        "label": "Nazionalità",
+        "rule": "text",
+        "answer": "italiana",
+        "also": [
+          "italiano",
+          "Italiana"
+        ]
+      },
+      {
+        "key": "born",
+        "label": "Data di nascita",
+        "rule": "text",
+        "answer": "10/4",
+        "also": [
+          "10 aprile",
+          "10/04",
+          "10.4",
+          "10 Aprile"
+        ]
+      },
+      {
+        "key": "place",
+        "label": "Luogo di nascita",
+        "rule": "text",
+        "answer": "Roma"
+      },
+      {
+        "key": "civil",
+        "label": "Stato civile",
+        "rule": "text",
+        "answer": "sposata",
+        "also": [
+          "Sposata",
+          "sposato"
+        ]
+      },
+      {
+        "key": "town",
+        "label": "Residenza",
+        "rule": "text",
+        "answer": "Milano",
+        "also": [
+          "via Garibaldi 12, Milano",
+          "Via Garibaldi 12, Milano"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "F302",
+    "unit_id": "U87",
+    "card": "Mi chiamo Luca Rossi. Ho trenta anni. Sono ingegnere e lavoro in un'azienda a Torino. Non sono sposato.",
+    "fields": [
+      {
+        "key": "name",
+        "label": "Nome",
+        "rule": "text",
+        "answer": "Luca"
+      },
+      {
+        "key": "last",
+        "label": "Cognome",
+        "rule": "text",
+        "answer": "Rossi"
+      },
+      {
+        "key": "age",
+        "label": "Età",
+        "rule": "number",
+        "answer": "30"
+      },
+      {
+        "key": "job",
+        "label": "Professione",
+        "rule": "text",
+        "answer": "ingegnere",
+        "also": [
+          "Ingegnere"
+        ]
+      },
+      {
+        "key": "town",
+        "label": "Città",
+        "rule": "text",
+        "answer": "Torino"
+      }
+    ]
+  },
+  {
+    "id": "F303",
+    "unit_id": "U81",
+    "card": "Al bar: Marco prende un caffè e un cornetto. Anna prende un succo. Pagano sei euro.",
+    "fields": [
+      {
+        "key": "marco",
+        "label": "Marco",
+        "rule": "text",
+        "answer": "un caffè e un cornetto",
+        "also": [
+          "caffè e cornetto",
+          "caffè, cornetto",
+          "un caffè, un cornetto"
+        ]
+      },
+      {
+        "key": "anna",
+        "label": "Anna",
+        "rule": "text",
+        "answer": "un succo",
+        "also": [
+          "succo"
+        ]
+      },
+      {
+        "key": "total",
+        "label": "Totale (euro)",
+        "rule": "number",
+        "answer": "6"
+      }
+    ]
   }
 ]

@@ -59,3 +59,15 @@ test('Glossary: no verb table for quisiera or hätte; infinitives, present forms
   assert.ok(tableFor({ form: 'stehe', lemma: 'aufstehen', part_of_speech: 'Verb' }, [sep]))
   assert.equal(tableFor({ form: 'haus', lemma: 'haus', part_of_speech: 'Noun' }, [sep]), null)
 })
+
+test('Italian final check: a mock CELI Impatto, the written paper (reading, writing) then the oral (listening, speaking)', () => {
+  const t = load('src/content-it')
+  const all = indexContent(t)
+  const items = finalItems(all, mainsOf(t), seeded(3), 'it')
+  assert.deepEqual([...new Set(items.map((i) => i.part))], ['reading', 'writing', 'listening', 'speaking'])
+  assert.equal(items.length, expected('it'))
+  assert.ok(items.filter((i) => i.type === 'QT14').length === 4 && items.some((i) => i.type === 'QT15') && items.some((i) => i.type === 'QT16'))
+  const s = buildSession(all, 'final', items, { rng: seeded(3) })
+  assert.equal(s.queue.length, items.length)
+  assert.match(EXAMS.it.format, /written paper/)
+})

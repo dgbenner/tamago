@@ -21,7 +21,8 @@ export const EXAMS = {
   // Italian (2026-11-14): CELI Impatto, from the Profilo's own centre; exam and link for Dan to confirm.
   it: { name: 'CELI Impatto (A1)', body: 'Università per Stranieri di Perugia', official: 'https://www.cvcl.it',
     about: 'CELI Impatto is the A1 exam of the CVCL, the language certification centre of the Università per Stranieri di Perugia.',
-    samples: 'https://www.cvcl.it' },
+    samples: 'https://www.cvcl.it',
+    format: 'Short texts to read and a form and a message to write (the written paper); then numbers and short lines to listen to, and speaking (the oral paper).' },
   // Brazilian Portuguese (2026-11-14): Brazil's own exam, Celpe-Bras, has no A1; ACESSO is the A1 exam for Portuguese
   // (European). Exam and link for Dan to confirm.
   pt: { name: 'ACESSO (A1)', body: 'CAPLE, Universidade de Lisboa', official: 'https://caple.letras.ulisboa.pt',
@@ -66,6 +67,16 @@ export const FORMATS = {
     { id: 'speaking', label: 'Speaking', paper: 'Sprechen', items: [['QT13', 5, 3], ['SPELL', 5, 1], ['SAY_NUMBER', 5, 1]] },
   ],
 }
+// Italian is a mock CELI Impatto (A1) (Dan, 2026-11-16; at the end of Part 4, the last part). The Università per
+// Stranieri di Perugia describes two papers: a written one (reading, then writing) and an oral one (listening, then
+// speaking), so reading comes first. Item counts follow the other mock exams; the official paper's counts are for Dan
+// to check against the sample on cvcl.it.
+FORMATS.it = [
+  { id: 'reading', label: 'Reading', paper: 'Comprensione della lettura', items: [['QT14', 3, 4], ['QT03', 2, 2]] },
+  { id: 'writing', label: 'Writing', paper: 'Produzione di testi scritti', items: [['QT15', 4, 1], ['QT16', 5, 1], ['QT12', 4, 2]] },
+  { id: 'listening', label: 'Listening', paper: "Comprensione dell'ascolto", items: [['QT17', 3, 4], ['QT04', 2, 3], ['QT11', 4, 2]] },
+  { id: 'speaking', label: 'Speaking', paper: 'Produzione orale', items: [['QT13', 5, 3]] },
+]
 // Speaking prompts with no sentence behind them, never graded: a model answer shows after Done.
 export const SPELL_PROMPT = {
   de: { task: 'Buchstabieren Sie Ihren Namen.', english: 'Spell your name aloud, letter by letter', model: 'Müller: M, Ü, L, L, E, R.' },

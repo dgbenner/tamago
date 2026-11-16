@@ -2137,11 +2137,11 @@ Contrast forms, sentences each (target 2): .
 
 ## U67 Timetables: Il treno parte alle otto e arriva alle dieci: partire and arrivare; un biglietto di andata e ritorno
 
-37 sentences picked from 358 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+36 sentences picked from 358 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: arrivo (0), partenza (2), binario (1), ritardo (2), andata (0), ritorno (0), fermata (2). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: arrivo (0), partenza (2), binario (1), ritardo (2), andata (0), ritorno (0), fermata (1). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
@@ -2177,7 +2177,6 @@ Contrast forms, sentences each (target 2): .
 | S67030 | Che ritardo! | What a delay! |  | [#1577602](https://tatoeba.org/en/sentences/show/1577602) | Guybrush88 |
 | S67031 | Siamo in partenza. | We're leaving. |  | [#1330085](https://tatoeba.org/en/sentences/show/1330085) | Guybrush88 |
 | S67032 | La linea è occupata. | The line is busy. | The line's busy. | [#6536916](https://tatoeba.org/en/sentences/show/6536916) | Guybrush88 |
-| S67033 | Non mi ha fermata. | That didn't stop me. |  | [#8102812](https://tatoeba.org/en/sentences/show/8102812) | Guybrush88 |
 | S67034 | La partenza è domani. | The departure is tomorrow. |  | [#11823443](https://tatoeba.org/en/sentences/show/11823443) | Guybrush88 |
 | S67035 | La linea è occupata adesso. | The line is busy now. |  | [#4231900](https://tatoeba.org/en/sentences/show/4231900) | Guybrush88 |
 | S67036 | Tom ha un aereo privato. | Tom has a private airplane. |  | [#5361538](https://tatoeba.org/en/sentences/show/5361538) | Guybrush88 |
@@ -2189,7 +2188,7 @@ Contrast forms, sentences each (target 2): .
 
 Contrast forms, sentences each (target 2): .
 
-**Gaps (P08)**, fewer than 3 usable sentences: preferire (0), opinione (1), interesse (0). Dan decides: drop the word, or have Claude draft sentences.
+**Gaps (P08)**, fewer than 3 usable sentences: opinione (1), interesse (0). Dan decides: drop the word, or have Claude draft sentences.
 
 | ID | French | English | Other English | Tatoeba | Owner |
 | --- | --- | --- | --- | --- | --- |
@@ -2407,3 +2406,709 @@ Contrast forms, sentences each (target 2): .
 | S75028 | Perché la gente va al cinema? | Why do people go to the movies? |  | [#2735835](https://tatoeba.org/en/sentences/show/2735835) | Guybrush88 |
 | S75029 | È quello che fa la gente? | Is that what people do? |  | [#4739692](https://tatoeba.org/en/sentences/show/4739692) | Guybrush88 |
 | S75030 | Perché la gente lo chiama Tom? | Why do people call him Tom? |  | [#5644863](https://tatoeba.org/en/sentences/show/5644863) | Guybrush88 |
+
+## U81 At the Café: Un caffè per me, per favore; prendiamo (we will have), offro io (my treat); basta così (that is enough)
+
+30 sentences picked from 1288 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: succo (0), cornetto (0), offro (1), offre (1), basta (1), bastare (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S81001 | Prendiamo una birra con Tom? | Shall we have a beer with Tom? |  | [#11712234](https://tatoeba.org/en/sentences/show/11712234) | Guybrush88 |
+| S81002 | Prendiamo una birra. | Let's get a beer. |  | [#3546731](https://tatoeba.org/en/sentences/show/3546731) | Guybrush88 |
+| S81003 | A me piace la birra. | I like beer. |  | [#2433367](https://tatoeba.org/en/sentences/show/2433367) | Guybrush88 |
+| S81004 | Vieni con me al bar. | Come with me to the bar. |  | [#11687739](https://tatoeba.org/en/sentences/show/11687739) | Nuel |
+| S81005 | A me piace lo zucchero. | I like sugar. |  | [#11862153](https://tatoeba.org/en/sentences/show/11862153) | Guybrush88 |
+| S81006 | Latte? Zucchero? | Milk? Sugar? |  | [#4566945](https://tatoeba.org/en/sentences/show/4566945) | Guybrush88 |
+| S81007 | È zucchero? | Is that sugar? | Is it sugar? | [#11862155](https://tatoeba.org/en/sentences/show/11862155) | Guybrush88 |
+| S81008 | Dov'è il bar? | Where is the bar? |  | [#5493100](https://tatoeba.org/en/sentences/show/5493100) | Guybrush88 |
+| S81009 | Vuoi aspettare al bar? | Do you want to wait in the bar? |  | [#6816083](https://tatoeba.org/en/sentences/show/6816083) | Guybrush88 |
+| S81010 | Perché non prendiamo un taxi? | Why don't we take a taxi? |  | [#841131](https://tatoeba.org/en/sentences/show/841131) | Guybrush88 |
+| S81011 | Non sei un cameriere, vero? | You're not a waiter, are you? |  | [#6669592](https://tatoeba.org/en/sentences/show/6669592) | Guybrush88 |
+| S81012 | Sei ancora un cameriere, vero? | You're still a waiter, aren't you? |  | [#6741507](https://tatoeba.org/en/sentences/show/6741507) | Guybrush88 |
+| S81013 | Basta così. | That's enough. | That will do. | [#2845673](https://tatoeba.org/en/sentences/show/2845673) | korobo4ka |
+| S81014 | Oggi offro io. | Today is my treat. |  | [#470016](https://tatoeba.org/en/sentences/show/470016) | Guybrush88 |
+| S81015 | Chiamo il cameriere. | I'm calling the waiter. |  | [#4839784](https://tatoeba.org/en/sentences/show/4839784) | Guybrush88 |
+| S81016 | Ogni giorno offre qualcosa di nuovo. | Every day offers something new. |  | [#12993010](https://tatoeba.org/en/sentences/show/12993010) | Nuel |
+| S81017 | Bevi birra? | Do you drink beer? |  | [#2534767](https://tatoeba.org/en/sentences/show/2534767) | Guybrush88 |
+| S81018 | Beve birra? | Do you drink beer? |  | [#2534769](https://tatoeba.org/en/sentences/show/2534769) | Guybrush88 |
+| S81019 | Parli con me? | Are you talking to me? |  | [#1332781](https://tatoeba.org/en/sentences/show/1332781) | Guybrush88 |
+| S81020 | Parla con me? | Are you talking to me? |  | [#1332784](https://tatoeba.org/en/sentences/show/1332784) | Guybrush88 |
+| S81021 | Viene con me? | Is he coming with me? | Are you coming with me? | [#1718273](https://tatoeba.org/en/sentences/show/1718273) | alexmarcelo |
+| S81022 | Tu bevi birra? | Do you drink beer? |  | [#2534768](https://tatoeba.org/en/sentences/show/2534768) | Guybrush88 |
+| S81023 | Lei beve birra? | Do you drink beer? |  | [#2534770](https://tatoeba.org/en/sentences/show/2534770) | Guybrush88 |
+| S81024 | Vuoi una birra? | Do you want a beer? |  | [#2797579](https://tatoeba.org/en/sentences/show/2797579) | carlosalberto |
+| S81025 | Latte o zucchero? | Any milk or sugar? |  | [#4715514](https://tatoeba.org/en/sentences/show/4715514) | Guybrush88 |
+| S81026 | Hai della birra? | Do you have any beer? | Have you got any beer? | [#5480614](https://tatoeba.org/en/sentences/show/5480614) | Guybrush88 |
+| S81027 | Ha della birra? | Do you have any beer? | Have you got any beer? | [#5480615](https://tatoeba.org/en/sentences/show/5480615) | Guybrush88 |
+| S81028 | Avete della birra? | Do you have any beer? | Have you got any beer? | [#5480616](https://tatoeba.org/en/sentences/show/5480616) | Guybrush88 |
+| S81029 | Quanto zucchero vuoi? | How much sugar do you want? |  | [#6445050](https://tatoeba.org/en/sentences/show/6445050) | Guybrush88 |
+| S81030 | Tom beve birra? | Does Tom drink beer? |  | [#6977411](https://tatoeba.org/en/sentences/show/6977411) | Guybrush88 |
+
+## U91 Ideas + Things: Nouns for ideas: il caso, il senso, la base, il valore; in questo caso, in ogni caso, per questo motivo
+
+30 sentences picked from 566 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: caso (0), base (0), forma (0), termine (0), effetto (1), forza (0), misura (0), elemento (0), tema (0), materia (0), scopo (0), obiettivo (1), risorsa (0), strumento (0), fase (0), capacità (1), necessità (2), esigenza (0), tale (0), soprattutto (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S91001 | Ciò ha senso? | Does this make sense? |  | [#1310057](https://tatoeba.org/en/sentences/show/1310057) | Guybrush88 |
+| S91002 | Nulla ha senso. | Nothing makes sense. |  | [#5059183](https://tatoeba.org/en/sentences/show/5059183) | Guybrush88 |
+| S91003 | Ciò non ha senso. | This doesn't make sense. |  | [#2622005](https://tatoeba.org/en/sentences/show/2622005) | Guybrush88 |
+| S91004 | Non so nulla di tutto ciò. | I know nothing of all that. |  | [#11574412](https://tatoeba.org/en/sentences/show/11574412) | Nuel |
+| S91005 | Non c'è nulla? | Isn't there anything? |  | [#2993527](https://tatoeba.org/en/sentences/show/2993527) | Guybrush88 |
+| S91006 | È un modello? | Are you a model? |  | [#3047504](https://tatoeba.org/en/sentences/show/3047504) | Guybrush88 |
+| S91007 | Sei un modello? | Are you a model? |  | [#3047506](https://tatoeba.org/en/sentences/show/3047506) | Guybrush88 |
+| S91008 | È un fatto? | Is that a fact? |  | [#5651505](https://tatoeba.org/en/sentences/show/5651505) | Guybrush88 |
+| S91009 | Che ruolo vuoi? | What role do you want? |  | [#14084668](https://tatoeba.org/en/sentences/show/14084668) | Guybrush88 |
+| S91010 | Lei è un modello? | Are you a model? |  | [#3047505](https://tatoeba.org/en/sentences/show/3047505) | Guybrush88 |
+| S91011 | Che effetto fa la musica? | What effect does music have? |  | [#13984625](https://tatoeba.org/en/sentences/show/13984625) | Guybrush88 |
+| S91012 | È un risultato. | It is a result. |  | [#2279815](https://tatoeba.org/en/sentences/show/2279815) | Guybrush88 |
+| S91013 | Lei è obiettivo. | You're objective. |  | [#5292569](https://tatoeba.org/en/sentences/show/5292569) | Guybrush88 |
+| S91014 | Questo è un fatto. | This is a fact. |  | [#1653957](https://tatoeba.org/en/sentences/show/1653957) | Guybrush88 |
+| S91015 | Quello è un fatto. | That's a fact. |  | [#1758309](https://tatoeba.org/en/sentences/show/1758309) | Guybrush88 |
+| S91016 | È di grande valore. | It is of great value. |  | [#2485764](https://tatoeba.org/en/sentences/show/2485764) | Guybrush88 |
+| S91017 | Ho un ruolo importante. | I have an important role. |  | [#4464705](https://tatoeba.org/en/sentences/show/4464705) | Guybrush88 |
+| S91018 | Sono felice del risultato. | I'm happy with the result. |  | [#5277070](https://tatoeba.org/en/sentences/show/5277070) | Guybrush88 |
+| S91019 | È un processo lento. | It's a slow process. |  | [#5976652](https://tatoeba.org/en/sentences/show/5976652) | Guybrush88 |
+| S91020 | È un processo lungo. | It's a long process. |  | [#5976658](https://tatoeba.org/en/sentences/show/5976658) | Guybrush88 |
+| S91021 | Il processo è importante. | The process is important. |  | [#7675439](https://tatoeba.org/en/sentences/show/7675439) | Guybrush88 |
+| S91022 | Non ha necessità di lavorare. | There is no need for him to work. |  | [#700487](https://tatoeba.org/en/sentences/show/700487) | Heracleum |
+| S91023 | Io ho un ruolo importante. | I have an important role. |  | [#4464706](https://tatoeba.org/en/sentences/show/4464706) | Guybrush88 |
+| S91024 | Io sono felice del risultato. | I'm happy with the result. |  | [#5277071](https://tatoeba.org/en/sentences/show/5277071) | Guybrush88 |
+| S91025 | Lui non ha necessità di lavorare. | There is no need for him to work. |  | [#1689823](https://tatoeba.org/en/sentences/show/1689823) | Guybrush88 |
+| S91026 | Il libro ha un grande valore. | The book is of great value. |  | [#3778555](https://tatoeba.org/en/sentences/show/3778555) | Guybrush88 |
+| S91027 | Il libro è di grande valore. | The book is of great value. |  | [#3778556](https://tatoeba.org/en/sentences/show/3778556) | Guybrush88 |
+| S91028 | Soprattutto, non lo dire a Tom. | Above all, don't tell Tom. |  | [#5069735](https://tatoeba.org/en/sentences/show/5069735) | Guybrush88 |
+| S91029 | Ha la capacità di fare il lavoro. | He has the ability to do the work. |  | [#2411984](https://tatoeba.org/en/sentences/show/2411984) | Guybrush88 |
+| S91030 | Ciò è vero? | Is this real? |  | [#635137](https://tatoeba.org/en/sentences/show/635137) | Guybrush88 |
+
+## U26 Excuse Me: Permesso? (may I come through?); mi fa un favore?; c'è qualcuno?; nessun problema
+
+30 sentences picked from 559 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+Every new word is in at least 3 sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S26001 | Qualcuno mi può aiutare? | Can someone help me? | Can anybody help me?; Can somebody help me? | [#2570462](https://tatoeba.org/en/sentences/show/2570462) | Guybrush88 |
+| S26002 | Qualcuno può aiutare Tom? | Can anyone help Tom? |  | [#8440388](https://tatoeba.org/en/sentences/show/8440388) | Guybrush88 |
+| S26003 | Qualcuno ha bisogno del mio aiuto? | Does anyone need my help? | Does anybody need my help? | [#9440306](https://tatoeba.org/en/sentences/show/9440306) | Guybrush88 |
+| S26004 | Posso aiutare? | Can I help? |  | [#1104038](https://tatoeba.org/en/sentences/show/1104038) | riccioberto |
+| S26005 | Serve aiuto? | Need some help? |  | [#6866750](https://tatoeba.org/en/sentences/show/6866750) | dnnywld |
+| S26006 | È di aiuto? | Does that help? |  | [#2555787](https://tatoeba.org/en/sentences/show/2555787) | Guybrush88 |
+| S26007 | Questo è permesso? | Is this allowed? |  | [#9707611](https://tatoeba.org/en/sentences/show/9707611) | Guybrush88 |
+| S26008 | Perché questo è permesso? | Why is this allowed? |  | [#4536411](https://tatoeba.org/en/sentences/show/4536411) | Guybrush88 |
+| S26009 | Perché ciò è permesso? | Why is this allowed? |  | [#4536412](https://tatoeba.org/en/sentences/show/4536412) | Guybrush88 |
+| S26010 | Mi puoi fare un favore? | Can you do me a favor? |  | [#1675182](https://tatoeba.org/en/sentences/show/1675182) | Guybrush88 |
+| S26011 | Mi può fare un favore? | Can you do me a favor? |  | [#1675185](https://tatoeba.org/en/sentences/show/1675185) | Guybrush88 |
+| S26012 | Non c'è nessun altro modo? | Is there no other way? |  | [#3049734](https://tatoeba.org/en/sentences/show/3049734) | Guybrush88 |
+| S26013 | Nessun problema. | No problem. |  | [#373785](https://tatoeba.org/en/sentences/show/373785) | Pharamp |
+| S26014 | Non c'è nessun problema! | No problem at all! |  | [#373783](https://tatoeba.org/en/sentences/show/373783) | Pharamp |
+| S26015 | Mi deve un favore. | He owes me a favor. | She owes me a favor. | [#3471274](https://tatoeba.org/en/sentences/show/3471274) | Guybrush88 |
+| S26016 | Vuoi aiutare? | Do you want to help? |  | [#2341889](https://tatoeba.org/en/sentences/show/2341889) | Guybrush88 |
+| S26017 | Possiamo aiutare? | Can we help? |  | [#2686209](https://tatoeba.org/en/sentences/show/2686209) | Guybrush88 |
+| S26018 | C'è qualcuno? | Is anybody there? |  | [#5281430](https://tatoeba.org/en/sentences/show/5281430) | Guybrush88 |
+| S26019 | Puoi aiutare? | Can you help? |  | [#5467302](https://tatoeba.org/en/sentences/show/5467302) | Guybrush88 |
+| S26020 | Qualcuno parla inglese? | Does anyone speak English? |  | [#1137901](https://tatoeba.org/en/sentences/show/1137901) | Guybrush88 |
+| S26021 | Come posso aiutare? | How can I help? |  | [#1999616](https://tatoeba.org/en/sentences/show/1999616) | Guybrush88 |
+| S26022 | Mi puoi aiutare? | Can you help me? |  | [#2496762](https://tatoeba.org/en/sentences/show/2496762) | Guybrush88 |
+| S26023 | Mi può aiutare? | Can you help me? |  | [#2496764](https://tatoeba.org/en/sentences/show/2496764) | Guybrush88 |
+| S26024 | Noi possiamo aiutare? | Can we help? |  | [#2686210](https://tatoeba.org/en/sentences/show/2686210) | Guybrush88 |
+| S26025 | Qualcuno va domani? | Is anyone going tomorrow? |  | [#2851868](https://tatoeba.org/en/sentences/show/2851868) | Guybrush88 |
+| S26026 | Io posso aiutare? | Can I help? |  | [#3019486](https://tatoeba.org/en/sentences/show/3019486) | Guybrush88 |
+| S26027 | Vuoi davvero aiutare? | Do you really want to help? |  | [#3349298](https://tatoeba.org/en/sentences/show/3349298) | Guybrush88 |
+| S26028 | Come aiuto Tom? | How do I help Tom? |  | [#3998358](https://tatoeba.org/en/sentences/show/3998358) | Guybrush88 |
+| S26029 | Ti posso aiutare? | Can I help you? |  | [#4394499](https://tatoeba.org/en/sentences/show/4394499) | Guybrush88 |
+| S26030 | Sei con qualcuno? | Are you with someone? |  | [#4517822](https://tatoeba.org/en/sentences/show/4517822) | Guybrush88 |
+
+## U82 At the Restaurant: Ordinare: ordino, ordini; il primo (pasta or soup) and il secondo (meat or fish); un piatto di …
+
+30 sentences picked from 171 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: menù (0), pasta (0), dolce (1), ordino (1), qualità (2), prodotto (1), prodotti (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S82001 | Questa carne è pollo. | This meat is chicken. |  | [#1467283](https://tatoeba.org/en/sentences/show/1467283) | Guybrush88 |
+| S82002 | Il pollo è carne. | Chicken is meat. |  | [#11441987](https://tatoeba.org/en/sentences/show/11441987) | Guybrush88 |
+| S82003 | Questa carne è di pollo. | This meat is chicken. |  | [#3152090](https://tatoeba.org/en/sentences/show/3152090) | Guybrush88 |
+| S82004 | Ancora insalata? | Salad again? |  | [#8785345](https://tatoeba.org/en/sentences/show/8785345) | Bethanielle |
+| S82005 | Mangi l'insalata? | Do you eat salad? |  | [#11222553](https://tatoeba.org/en/sentences/show/11222553) | Guybrush88 |
+| S82006 | Mangia l'insalata? | Do you eat salad? |  | [#11222554](https://tatoeba.org/en/sentences/show/11222554) | Guybrush88 |
+| S82007 | Cosa c'è per dolce? | What's for dessert? | What is for dessert? | [#6568314](https://tatoeba.org/en/sentences/show/6568314) | mraz |
+| S82008 | Cameriere, vorrei ordinare. | Waiter, I'd like to order. |  | [#2947129](https://tatoeba.org/en/sentences/show/2947129) | Guybrush88 |
+| S82009 | Ti ordino qualcosa. | I'll order you something. |  | [#11676797](https://tatoeba.org/en/sentences/show/11676797) | Nuel |
+| S82010 | Vorrei ordinare lo stesso. | I'd like to order the same. |  | [#2510337](https://tatoeba.org/en/sentences/show/2510337) | makija |
+| S82011 | Non so cosa ordinare. | I don't know what to order. |  | [#3139239](https://tatoeba.org/en/sentences/show/3139239) | Guybrush88 |
+| S82012 | Questo è un piatto. | This is a plate. |  | [#9754030](https://tatoeba.org/en/sentences/show/9754030) | Guybrush88 |
+| S82013 | Il piatto è bianco. | The plate is white. |  | [#13211532](https://tatoeba.org/en/sentences/show/13211532) | Guybrush88 |
+| S82014 | Questa è di buona qualità. | This is of good quality. |  | [#10887227](https://tatoeba.org/en/sentences/show/10887227) | dnnywld |
+| S82015 | Questo è un prodotto per uomini. | This is a product for men. |  | [#4726921](https://tatoeba.org/en/sentences/show/4726921) | Guybrush88 |
+| S82016 | Tom fa un lavoro di qualità. | Tom does quality work. |  | [#6080605](https://tatoeba.org/en/sentences/show/6080605) | Guybrush88 |
+| S82017 | Questo è il piatto di Tom. | This is Tom's plate. |  | [#6696911](https://tatoeba.org/en/sentences/show/6696911) | Guybrush88 |
+| S82018 | Mangi carne? | Do you eat meat? |  | [#719199](https://tatoeba.org/en/sentences/show/719199) | Guybrush88 |
+| S82019 | Mangia carne? | Do you eat meat? |  | [#1107988](https://tatoeba.org/en/sentences/show/1107988) | Guybrush88 |
+| S82020 | Ancora pollo? | Chicken again? |  | [#8785294](https://tatoeba.org/en/sentences/show/8785294) | Bethanielle |
+| S82021 | Mangi la carne? | Do you eat meat? |  | [#428055](https://tatoeba.org/en/sentences/show/428055) | Pharamp |
+| S82022 | Mangia la carne? | Do you eat meat? |  | [#1107989](https://tatoeba.org/en/sentences/show/1107989) | Guybrush88 |
+| S82023 | Carne o pesce? | Meat or fish? |  | [#1408670](https://tatoeba.org/en/sentences/show/1408670) | Guybrush88 |
+| S82024 | Tom mangia carne? | Does Tom eat meat? |  | [#6444182](https://tatoeba.org/en/sentences/show/6444182) | Guybrush88 |
+| S82025 | Non mangi carne? | You don't eat meat? |  | [#11722796](https://tatoeba.org/en/sentences/show/11722796) | Guybrush88 |
+| S82026 | Non mangia carne? | You don't eat meat? |  | [#11722797](https://tatoeba.org/en/sentences/show/11722797) | Guybrush88 |
+| S82027 | Mangi ancora carne? | Do you still eat meat? |  | [#11722814](https://tatoeba.org/en/sentences/show/11722814) | Guybrush88 |
+| S82028 | Mangia ancora carne? | Do you still eat meat? |  | [#11722815](https://tatoeba.org/en/sentences/show/11722815) | Guybrush88 |
+| S82029 | Dov'è la carne? | Where's the meat? |  | [#13101962](https://tatoeba.org/en/sentences/show/13101962) | Guybrush88 |
+| S82030 | Non mangia carne, vero? | He doesn't eat meat, does he? | She doesn't eat meat, does she? | [#1129004](https://tatoeba.org/en/sentences/show/1129004) | Guybrush88 |
+
+## U83 Asking the Way: A destra, a sinistra, dritto; davanti a, dietro, di fronte a, sotto: words for where; a cento metri
+
+30 sentences picked from 183 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: fronte (1), presso (0), attraverso (0), metri (0), percorso (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S83001 | Posso chiamare direttamente? | Can I dial direct? |  | [#1548311](https://tatoeba.org/en/sentences/show/1548311) | Guybrush88 |
+| S83002 | Tutto è in posizione? | Is everything in position? |  | [#5630944](https://tatoeba.org/en/sentences/show/5630944) | Guybrush88 |
+| S83003 | È tutto in posizione? | Is everything in position? |  | [#5630945](https://tatoeba.org/en/sentences/show/5630945) | Guybrush88 |
+| S83004 | È di sotto, vero? | He's downstairs, isn't he? | She's downstairs, isn't she? | [#8694549](https://tatoeba.org/en/sentences/show/8694549) | Guybrush88 |
+| S83005 | Perché Tom è di sotto? | Why is Tom downstairs? |  | [#3644556](https://tatoeba.org/en/sentences/show/3644556) | Guybrush88 |
+| S83006 | Perché sei sotto il tavolo? | Why are you under the table? |  | [#8015044](https://tatoeba.org/en/sentences/show/8015044) | Guybrush88 |
+| S83007 | Cosa c'è dietro quella scatola? | What's behind that box? |  | [#11490789](https://tatoeba.org/en/sentences/show/11490789) | Guybrush88 |
+| S83008 | Cosa c'è dietro la chiesa? | What's behind the church? |  | [#11876729](https://tatoeba.org/en/sentences/show/11876729) | Guybrush88 |
+| S83009 | Che cosa c'è dietro quella scatola? | What's behind that box? |  | [#11490790](https://tatoeba.org/en/sentences/show/11490790) | Guybrush88 |
+| S83010 | Sono diretto. | I'm direct. |  | [#2551207](https://tatoeba.org/en/sentences/show/2551207) | Guybrush88 |
+| S83011 | Guarda davanti. | Look ahead. |  | [#4581670](https://tatoeba.org/en/sentences/show/4581670) | Guybrush88 |
+| S83012 | Sei diretto. | You're direct. |  | [#5284844](https://tatoeba.org/en/sentences/show/5284844) | Guybrush88 |
+| S83013 | È diretto. | He's direct. | You're direct. | [#5284850](https://tatoeba.org/en/sentences/show/5284850) | Guybrush88 |
+| S83014 | Vai dritto. | Go straight. |  | [#6635743](https://tatoeba.org/en/sentences/show/6635743) | Guybrush88 |
+| S83015 | Sono a destra. | I am on the right. |  | [#1949062](https://tatoeba.org/en/sentences/show/1949062) | Guybrush88 |
+| S83016 | Vai sempre dritto. | Go straight ahead. |  | [#4682556](https://tatoeba.org/en/sentences/show/4682556) | Guybrush88 |
+| S83017 | Siamo in posizione. | We're in position. |  | [#6071276](https://tatoeba.org/en/sentences/show/6071276) | Guybrush88 |
+| S83018 | Vai a sinistra! | Go left! |  | [#8785414](https://tatoeba.org/en/sentences/show/8785414) | Bethanielle |
+| S83019 | Andiamo direttamente alla spiaggia. | Let's go straight to the beach. |  | [#1871437](https://tatoeba.org/en/sentences/show/1871437) | Guybrush88 |
+| S83020 | Io sono a destra. | I am on the right. |  | [#1949063](https://tatoeba.org/en/sentences/show/1949063) | Guybrush88 |
+| S83021 | Non guardare direttamente Tom. | Don't look directly at Tom. |  | [#2347462](https://tatoeba.org/en/sentences/show/2347462) | Guybrush88 |
+| S83022 | L'albero è dritto. | The tree is straight. |  | [#6555486](https://tatoeba.org/en/sentences/show/6555486) | Guybrush88 |
+| S83023 | Il bagno è a sinistra. | The bathroom's on the left. |  | [#3829265](https://tatoeba.org/en/sentences/show/3829265) | valealb |
+| S83024 | Tom è alla mia destra. | Tom is on my right. |  | [#6907216](https://tatoeba.org/en/sentences/show/6907216) | Guybrush88 |
+| S83025 | C'è un giardino davanti alla casa. | There is a garden in front of the house. |  | [#418993](https://tatoeba.org/en/sentences/show/418993) | meursault |
+| S83026 | C'è uno straniero davanti alla casa. | There is a stranger in front of the house. |  | [#1019621](https://tatoeba.org/en/sentences/show/1019621) | Guybrush88 |
+| S83027 | Tom scrive con la mano sinistra. | Tom writes with his left hand. |  | [#3998398](https://tatoeba.org/en/sentences/show/3998398) | Guybrush88 |
+| S83028 | Il negozio è di fronte alla banca. | The shop is opposite the bank. |  | [#11033701](https://tatoeba.org/en/sentences/show/11033701) | Guybrush88 |
+| S83029 | Perché è sotto il tavolo? | Why are you under the table? |  | [#8015045](https://tatoeba.org/en/sentences/show/8015045) | Guybrush88 |
+| S83030 | Perché siete sotto il tavolo? | Why are you under the table? |  | [#8015046](https://tatoeba.org/en/sentences/show/8015046) | Guybrush88 |
+
+## U92 Describing Words: Adjectives in -e (generale, principale) are the same for both genders; adjectives in -o agree (specifico, specifica)
+
+33 sentences picked from 97 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: specifico (0), principale (2), fondamentale (2), attuale (0), precedente (1), successivo (0), ulteriore (0), eventuale (0), singolo (2), vario (1), numeroso (0), medio (0), massimo (0), noto (1), culturale (0), tecnico (1), finanziario (0), regionale (0), amministrativo (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S92001 | È un diritto umano fondamentale. | It is a fundamental human right. |  | [#7800377](https://tatoeba.org/en/sentences/show/7800377) | Guybrush88 |
+| S92002 | Quando sei disponibile? | When are you available? |  | [#7969174](https://tatoeba.org/en/sentences/show/7969174) | Guybrush88 |
+| S92003 | Quando è disponibile? | When are you available? |  | [#7969175](https://tatoeba.org/en/sentences/show/7969175) | Guybrush88 |
+| S92004 | Tom è un ufficiale? | Is Tom an officer? |  | [#10739539](https://tatoeba.org/en/sentences/show/10739539) | Guybrush88 |
+| S92005 | Vuoi del latte intero? | Do you want whole milk? |  | [#13991638](https://tatoeba.org/en/sentences/show/13991638) | Guybrush88 |
+| S92006 | Che tipo di storico sei? | What kind of historian are you? |  | [#4467546](https://tatoeba.org/en/sentences/show/4467546) | Guybrush88 |
+| S92007 | Che tipo di storico è? | What kind of historian are you? |  | [#4467547](https://tatoeba.org/en/sentences/show/4467547) | Guybrush88 |
+| S92008 | L'acqua è disponibile lì? | Is water available there? |  | [#13074193](https://tatoeba.org/en/sentences/show/13074193) | Guybrush88 |
+| S92009 | C'è qualcosa in particolare che vuoi? | Is there something in particular that you want? |  | [#7537048](https://tatoeba.org/en/sentences/show/7537048) | Guybrush88 |
+| S92010 | Sono umano. | I'm human. | I am human. | [#1271681](https://tatoeba.org/en/sentences/show/1271681) | Guybrush88 |
+| S92011 | È ufficiale. | It's official. |  | [#3218818](https://tatoeba.org/en/sentences/show/3218818) | Guybrush88 |
+| S92012 | Sei umano. | You are human. |  | [#4570058](https://tatoeba.org/en/sentences/show/4570058) | Guybrush88 |
+| S92013 | Sono particolare. | I'm particular. |  | [#5292853](https://tatoeba.org/en/sentences/show/5292853) | Guybrush88 |
+| S92014 | Sei particolare. | You're particular. |  | [#5292918](https://tatoeba.org/en/sentences/show/5292918) | Guybrush88 |
+| S92015 | Singolo, per favore. | Single, please. |  | [#13437338](https://tatoeba.org/en/sentences/show/13437338) | Guybrush88 |
+| S92016 | È uno storico. | He's a historian. |  | [#976857](https://tatoeba.org/en/sentences/show/976857) | Guybrush88 |
+| S92017 | Adesso è ufficiale. | Now it's official. | Now it is official. | [#1244009](https://tatoeba.org/en/sentences/show/1244009) | Guybrush88 |
+| S92018 | Questo è fondamentale. | This is basic. |  | [#6038874](https://tatoeba.org/en/sentences/show/6038874) | Guybrush88 |
+| S92019 | Bevo latte intero. | I drink whole milk. |  | [#10199324](https://tatoeba.org/en/sentences/show/10199324) | Guybrush88 |
+| S92020 | In generale mangio molto. | I usually eat a lot. |  | [#1566080](https://tatoeba.org/en/sentences/show/1566080) | Guybrush88 |
+| S92021 | È l'idea generale. | That's the general idea. |  | [#3739120](https://tatoeba.org/en/sentences/show/3739120) | Guybrush88 |
+| S92022 | Bevo il latte intero. | I drink whole milk. |  | [#10199325](https://tatoeba.org/en/sentences/show/10199325) | Guybrush88 |
+| S92023 | È l'idea principale. | That's the main idea. |  | [#10905244](https://tatoeba.org/en/sentences/show/10905244) | Guybrush88 |
+| S92024 | In generale io mangio molto. | I usually eat a lot. |  | [#1566081](https://tatoeba.org/en/sentences/show/1566081) | Guybrush88 |
+| S92025 | Questo è superiore a quello. | This is superior to that. |  | [#3888668](https://tatoeba.org/en/sentences/show/3888668) | Guybrush88 |
+| S92026 | Questa è superiore a quella. | This is superior to that. |  | [#3888669](https://tatoeba.org/en/sentences/show/3888669) | Guybrush88 |
+| S92027 | Tom non è un tecnico. | Tom isn't a technician. |  | [#8999961](https://tatoeba.org/en/sentences/show/8999961) | Guybrush88 |
+| S92028 | Questo dizionario è superiore a quello. | This dictionary is superior to that one. |  | [#897000](https://tatoeba.org/en/sentences/show/897000) | Guybrush88 |
+| S92029 | Il problema principale è quando iniziare. | When to start is the main problem. |  | [#1412967](https://tatoeba.org/en/sentences/show/1412967) | Guybrush88 |
+| S92030 | Tom viene qui ogni singolo giorno. | Tom comes here every single day. |  | [#2174933](https://tatoeba.org/en/sentences/show/2174933) | Guybrush88 |
+| S92031 | Il fatto è noto a tutti. | The fact is known to everybody. |  | [#12863415](https://tatoeba.org/en/sentences/show/12863415) | Guybrush88 |
+| S92032 | Il mondo è bello perché è vario. | The world is beautiful because it's diverse. | The world is beautiful because it is diverse.; It takes all sorts to make a world. | [#995515](https://tatoeba.org/en/sentences/show/995515) | Guybrush88 |
+| S92033 | Questo articolo è più interessante del precedente. | This article is more interesting than the previous one. |  | [#4710697](https://tatoeba.org/en/sentences/show/4710697) | Guybrush88 |
+
+## U27 I'm Lost: Mi sono perso, mi sono persa: I am lost; mi può aiutare?; gira a destra
+
+30 sentences picked from 115 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: mappa (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S27001 | Ti sei perso? | Are you lost? |  | [#616974](https://tatoeba.org/en/sentences/show/616974) | rado |
+| S27002 | Sei perso, vero? | You're lost, aren't you? |  | [#2942038](https://tatoeba.org/en/sentences/show/2942038) | Guybrush88 |
+| S27003 | Sei persa, vero? | You're lost, aren't you? |  | [#2942039](https://tatoeba.org/en/sentences/show/2942039) | Guybrush88 |
+| S27004 | È perso, vero? | He's lost, isn't he? | You're lost, aren't you? | [#2942042](https://tatoeba.org/en/sentences/show/2942042) | Guybrush88 |
+| S27005 | È persa, vero? | You're lost, aren't you? |  | [#2942043](https://tatoeba.org/en/sentences/show/2942043) | Guybrush88 |
+| S27006 | Posso tornare indietro adesso? | Can I go back now? |  | [#3996543](https://tatoeba.org/en/sentences/show/3996543) | Guybrush88 |
+| S27007 | Mary è persa, vero? | Mary is lost, isn't she? |  | [#12512853](https://tatoeba.org/en/sentences/show/12512853) | Guybrush88 |
+| S27008 | Lo vuoi indietro adesso o più tardi? | Do you want it back now or later? |  | [#13224634](https://tatoeba.org/en/sentences/show/13224634) | Nuel |
+| S27009 | Stai indietro. | Stay back. | Stand back. | [#4565689](https://tatoeba.org/en/sentences/show/4565689) | Guybrush88 |
+| S27010 | Gira a sinistra. | Turn left. | Turn to the left. | [#890986](https://tatoeba.org/en/sentences/show/890986) | Guybrush88 |
+| S27011 | Gira a destra. | Turn right. | Turn to the right. | [#4561130](https://tatoeba.org/en/sentences/show/4561130) | Guybrush88 |
+| S27012 | Gira la pagina, per favore. | Please turn over the page. |  | [#1574196](https://tatoeba.org/en/sentences/show/1574196) | Guybrush88 |
+| S27013 | Tom si è perso? | Is Tom lost? |  | [#3838164](https://tatoeba.org/en/sentences/show/3838164) | Guybrush88 |
+| S27014 | Tom è perso, vero? | Tom is lost, isn't he? |  | [#8759748](https://tatoeba.org/en/sentences/show/8759748) | Guybrush88 |
+| S27015 | Sembra perso. | You look lost. | He looks lost.; He seems lost. | [#2521225](https://tatoeba.org/en/sentences/show/2521225) | Guybrush88 |
+| S27016 | Sembra persa. | You look lost. |  | [#2521226](https://tatoeba.org/en/sentences/show/2521226) | Guybrush88 |
+| S27017 | È perso. | It's lost. | You're lost. | [#3277386](https://tatoeba.org/en/sentences/show/3277386) | Guybrush88 |
+| S27018 | Sono perso. | I'm lost. |  | [#3480603](https://tatoeba.org/en/sentences/show/3480603) | Guybrush88 |
+| S27019 | Sono persa. | I'm lost. |  | [#3480605](https://tatoeba.org/en/sentences/show/3480605) | Guybrush88 |
+| S27020 | È persa. | It's lost. | You're lost. | [#3793100](https://tatoeba.org/en/sentences/show/3793100) | Guybrush88 |
+| S27021 | Sei perso. | You're lost. |  | [#5327002](https://tatoeba.org/en/sentences/show/5327002) | Guybrush88 |
+| S27022 | Sei persa. | You're lost. |  | [#5327005](https://tatoeba.org/en/sentences/show/5327005) | Guybrush88 |
+| S27023 | Voglio tornare indietro. | I want to go back. | I want to get back. | [#2016221](https://tatoeba.org/en/sentences/show/2016221) | Guybrush88 |
+| S27024 | Deve tornare indietro. | You have to go back. |  | [#2404694](https://tatoeba.org/en/sentences/show/2404694) | Guybrush88 |
+| S27025 | Tom è perso. | Tom is lost. |  | [#2617707](https://tatoeba.org/en/sentences/show/2617707) | Guybrush88 |
+| S27026 | Io sono perso. | I'm lost. |  | [#3480604](https://tatoeba.org/en/sentences/show/3480604) | Guybrush88 |
+| S27027 | Io sono persa. | I'm lost. |  | [#3480606](https://tatoeba.org/en/sentences/show/3480606) | Guybrush88 |
+| S27028 | Stai indietro, per favore. | Stand back, please. |  | [#3608380](https://tatoeba.org/en/sentences/show/3608380) | Guybrush88 |
+| S27029 | Puoi tornare indietro. | You can go back. |  | [#4264106](https://tatoeba.org/en/sentences/show/4264106) | Guybrush88 |
+| S27030 | Può tornare indietro. | You can go back. |  | [#4264108](https://tatoeba.org/en/sentences/show/4264108) | Guybrush88 |
+
+## U84 Getting Around: Guidare: guido; salire (salgo) and scendere (scendo); in macchina, in tram, a piedi; entro le otto (by eight)
+
+30 sentences picked from 124 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: tram (1), rete (0), salgo (1), salire (2), mezzi (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S84001 | A Tom non piace guidare nel traffico. | Tom doesn't like driving in traffic. |  | [#12820421](https://tatoeba.org/en/sentences/show/12820421) | Guybrush88 |
+| S84002 | Sai guidare? | Can you drive? |  | [#1642552](https://tatoeba.org/en/sentences/show/1642552) | Guybrush88 |
+| S84003 | Dove scendo? | Where do I get off? |  | [#8580668](https://tatoeba.org/en/sentences/show/8580668) | Guybrush88 |
+| S84004 | Vuoi guidare? | Do you want to drive? |  | [#14084780](https://tatoeba.org/en/sentences/show/14084780) | Guybrush88 |
+| S84005 | Come posso raggiungere Tom? | How can I reach Tom? |  | [#4617717](https://tatoeba.org/en/sentences/show/4617717) | Guybrush88 |
+| S84006 | È difficile da raggiungere, vero? | He's hard to reach, isn't he? | She's hard to reach, isn't she?; She's difficult to reach, isn't she? | [#8713934](https://tatoeba.org/en/sentences/show/8713934) | Guybrush88 |
+| S84007 | Perché c'è così tanto traffico oggi? | Why is there so much traffic today? |  | [#7452294](https://tatoeba.org/en/sentences/show/7452294) | Guybrush88 |
+| S84008 | Tom è difficile da raggiungere, vero? | Tom is hard to reach, isn't he? | Tom is difficult to reach, isn't he? | [#7767587](https://tatoeba.org/en/sentences/show/7767587) | Guybrush88 |
+| S84009 | Scendo qui. | I get off here. |  | [#3115277](https://tatoeba.org/en/sentences/show/3115277) | Guybrush88 |
+| S84010 | Io guido. | I drive. |  | [#4608976](https://tatoeba.org/en/sentences/show/4608976) | Guybrush88 |
+| S84011 | Guido ancora. | I still drive. |  | [#11891195](https://tatoeba.org/en/sentences/show/11891195) | Guybrush88 |
+| S84012 | Io scendo qui. | I get off here. |  | [#3115278](https://tatoeba.org/en/sentences/show/3115278) | Guybrush88 |
+| S84013 | Non guido spesso. | I don't drive often. |  | [#4751950](https://tatoeba.org/en/sentences/show/4751950) | Guybrush88 |
+| S84014 | Guarda il traffico. | Look at the traffic. |  | [#5643033](https://tatoeba.org/en/sentences/show/5643033) | Guybrush88 |
+| S84015 | Voglio scendere qui. | I want to get off here. |  | [#7031734](https://tatoeba.org/en/sentences/show/7031734) | Guybrush88 |
+| S84016 | Salgo sul taxi. | I get in the taxi. |  | [#9716277](https://tatoeba.org/en/sentences/show/9716277) | Guybrush88 |
+| S84017 | Mi serve entro domani. | I need it by tomorrow. |  | [#3962172](https://tatoeba.org/en/sentences/show/3962172) | Guybrush88 |
+| S84018 | Io voglio scendere qui. | I want to get off here. |  | [#7031735](https://tatoeba.org/en/sentences/show/7031735) | Guybrush88 |
+| S84019 | Voglio scendere alla prossima fermata. | I want to get off at the next stop. |  | [#1588680](https://tatoeba.org/en/sentences/show/1588680) | jackhayes |
+| S84020 | Devo salire su questo treno. | I've got to get on this train. |  | [#3779013](https://tatoeba.org/en/sentences/show/3779013) | Guybrush88 |
+| S84021 | A me serve entro domani. | I need it by tomorrow. |  | [#5356224](https://tatoeba.org/en/sentences/show/5356224) | Guybrush88 |
+| S84022 | Io devo salire su questo treno. | I've got to get on this train. |  | [#3779014](https://tatoeba.org/en/sentences/show/3779014) | Guybrush88 |
+| S84023 | Deve finire questo lavoro entro mezzogiorno. | You have to get this work finished by noon. |  | [#6545827](https://tatoeba.org/en/sentences/show/6545827) | Guybrush88 |
+| S84024 | Puoi prendere un autobus o un tram. | You can take a bus or a tram. |  | [#4880722](https://tatoeba.org/en/sentences/show/4880722) | Guybrush88 |
+| S84025 | Posso guidare, per favore? | Can I drive, please? |  | [#3533227](https://tatoeba.org/en/sentences/show/3533227) | Vallysing |
+| S84026 | Sai guidare, vero? | You can drive, can't you? |  | [#6062731](https://tatoeba.org/en/sentences/show/6062731) | Guybrush88 |
+| S84027 | Puoi guidare, vero? | You can drive, can't you? |  | [#6062734](https://tatoeba.org/en/sentences/show/6062734) | Guybrush88 |
+| S84028 | Può guidare, vero? | You can drive, can't you? | She can drive, can't she? | [#6062735](https://tatoeba.org/en/sentences/show/6062735) | Guybrush88 |
+| S84029 | Ti piace guidare? | Do you like driving? |  | [#7490351](https://tatoeba.org/en/sentences/show/7490351) | momowuwen |
+| S84030 | Sai guidare una macchina? | Can you drive a car? | Do you know how to drive a car? | [#730458](https://tatoeba.org/en/sentences/show/730458) | Guybrush88 |
+
+## U85 My Family: Mio padre, mia madre: no article before a family member in the singular, but i miei genitori; sposato, sposata
+
+31 sentences picked from 1590 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: carattere (2), rapporto (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S85001 | Tua sorella ha figli? | Does your sister have children? |  | [#2834977](https://tatoeba.org/en/sentences/show/2834977) | Guybrush88 |
+| S85002 | Sua sorella ha figli? | Does your sister have children? |  | [#2834978](https://tatoeba.org/en/sentences/show/2834978) | Guybrush88 |
+| S85003 | Tua sorella è sposata? | Is your sister married? |  | [#11111600](https://tatoeba.org/en/sentences/show/11111600) | Guybrush88 |
+| S85004 | Tuo figlio è sposato? | Is your son married? |  | [#14024257](https://tatoeba.org/en/sentences/show/14024257) | Guybrush88 |
+| S85005 | Suo figlio è sposato? | Is your son married? |  | [#14024258](https://tatoeba.org/en/sentences/show/14024258) | Guybrush88 |
+| S85006 | Siamo marito e moglie. | We are husband and wife. |  | [#386810](https://tatoeba.org/en/sentences/show/386810) | Pharamp |
+| S85007 | Ha sposato mio fratello. | He married my brother. | She married my brother. | [#13351576](https://tatoeba.org/en/sentences/show/13351576) | Guybrush88 |
+| S85008 | Noi siamo marito e moglie. | We are husband and wife. |  | [#2983601](https://tatoeba.org/en/sentences/show/2983601) | Guybrush88 |
+| S85009 | Mia figlia ha un fratello. | My daughter has a brother. |  | [#13351805](https://tatoeba.org/en/sentences/show/13351805) | Guybrush88 |
+| S85010 | Sono sposata e ho due figli. | I am married and I have two sons. |  | [#591755](https://tatoeba.org/en/sentences/show/591755) | ver |
+| S85011 | Sono sposata e ho una figlia. | I'm married and I have a daughter. | I am married and I have a daughter. | [#3710174](https://tatoeba.org/en/sentences/show/3710174) | Guybrush88 |
+| S85012 | È una moglie per suo marito. | You are a wife to your husband. |  | [#4384553](https://tatoeba.org/en/sentences/show/4384553) | Guybrush88 |
+| S85013 | Ho un figlio e una figlia. | I have a son and a daughter. |  | [#6682783](https://tatoeba.org/en/sentences/show/6682783) | Guybrush88 |
+| S85014 | Siete fratello e sorella? | Are you brother and sister? |  | [#13352281](https://tatoeba.org/en/sentences/show/13352281) | Guybrush88 |
+| S85015 | Siete genitori? | Are you parents? |  | [#13822147](https://tatoeba.org/en/sentences/show/13822147) | Guybrush88 |
+| S85016 | Dov'è tua nonna? | Where's your grandmother? |  | [#7478670](https://tatoeba.org/en/sentences/show/7478670) | Guybrush88 |
+| S85017 | Dov'è sua nonna? | Where's your grandmother? |  | [#7478671](https://tatoeba.org/en/sentences/show/7478671) | Guybrush88 |
+| S85018 | Dov'è tuo nonno? | Where's your grandfather? |  | [#7479188](https://tatoeba.org/en/sentences/show/7479188) | Guybrush88 |
+| S85019 | Dov'è suo nonno? | Where's your grandfather? |  | [#7479189](https://tatoeba.org/en/sentences/show/7479189) | Guybrush88 |
+| S85020 | È una zia? | Is she an aunt? |  | [#13272871](https://tatoeba.org/en/sentences/show/13272871) | Guybrush88 |
+| S85021 | È tua zia? | Is she your aunt? |  | [#13272875](https://tatoeba.org/en/sentences/show/13272875) | Guybrush88 |
+| S85022 | Dov'è tua zia? | Where's your aunt? |  | [#13272887](https://tatoeba.org/en/sentences/show/13272887) | Guybrush88 |
+| S85023 | Dov'è mio nonno? | Where's my grandfather? |  | [#13383833](https://tatoeba.org/en/sentences/show/13383833) | Guybrush88 |
+| S85024 | Sei uno zio? | Are you an uncle? |  | [#13503612](https://tatoeba.org/en/sentences/show/13503612) | Guybrush88 |
+| S85025 | È uno zio? | Is he an uncle? | Are you an uncle? | [#13503614](https://tatoeba.org/en/sentences/show/13503614) | Guybrush88 |
+| S85026 | Dov'è tuo zio? | Where's your uncle? |  | [#13503627](https://tatoeba.org/en/sentences/show/13503627) | Guybrush88 |
+| S85027 | Voi siete genitori? | Are you parents? |  | [#13822148](https://tatoeba.org/en/sentences/show/13822148) | Guybrush88 |
+| S85028 | Dove sono i genitori? | Where are the parents? |  | [#1800910](https://tatoeba.org/en/sentences/show/1800910) | al_ex_an_der |
+| S85029 | Dove vive tua nonna? | Where does your grandmother live? |  | [#4674872](https://tatoeba.org/en/sentences/show/4674872) | Guybrush88 |
+| S85030 | Ha un carattere forte. | She has a strong character. |  | [#5108809](https://tatoeba.org/en/sentences/show/5108809) | Guybrush88 |
+| S85031 | Lei ha un carattere forte. | She has a strong character. |  | [#5108811](https://tatoeba.org/en/sentences/show/5108811) | Guybrush88 |
+
+## U93 Rules + Offices: L'ente, l'istituto, la commissione: the words of offices and rules; un atto, una norma, un decreto
+
+15 sentences picked from 15 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: norma (0), decreto (0), comma (0), atto (0), provvedimento (0), disposizione (0), amministrazione (0), ente (0), istituzione (0), istituto (0), commissione (0), associazione (0), organizzazione (0), struttura (1), contributo (0), intervento (1), iniziativa (2), partecipazione (0), collaborazione (0), valutazione (0), applicazione (0), produzione (1), formazione (0), sviluppo (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S93001 | Vuoi un consiglio? | Do you need some advice? |  | [#2900205](https://tatoeba.org/en/sentences/show/2900205) | Guybrush88 |
+| S93002 | Non mi puoi dare qualche consiglio? | Can't you give me some advice? |  | [#4959167](https://tatoeba.org/en/sentences/show/4959167) | Guybrush88 |
+| S93003 | Non mi può dare qualche consiglio? | Can't you give me some advice? |  | [#4959168](https://tatoeba.org/en/sentences/show/4959168) | Guybrush88 |
+| S93004 | È una buona iniziativa. | It is a nice initiative. |  | [#3338077](https://tatoeba.org/en/sentences/show/3338077) | Ricardo14 |
+| S93005 | La produzione è bassa. | Production is low. |  | [#4517083](https://tatoeba.org/en/sentences/show/4517083) | Guybrush88 |
+| S93006 | Questa è una buona iniziativa. | This is a good initiative. |  | [#8562589](https://tatoeba.org/en/sentences/show/8562589) | Guybrush88 |
+| S93007 | Abbiamo bisogno di un intervento. | We need an intervention. |  | [#10072245](https://tatoeba.org/en/sentences/show/10072245) | Guybrush88 |
+| S93008 | Il paese ha una struttura semplice. | The town has a simple structure. |  | [#10655930](https://tatoeba.org/en/sentences/show/10655930) | Bethanielle |
+| S93009 | Grazie per il consiglio. | Thanks for the advice. | Thank you for the advice. | [#2974877](https://tatoeba.org/en/sentences/show/2974877) | Guybrush88 |
+| S93010 | Tom ha qualche consiglio. | Tom has some advice. |  | [#5976717](https://tatoeba.org/en/sentences/show/5976717) | Guybrush88 |
+| S93011 | Grazie per il buon consiglio. | Thanks for the good advice. |  | [#6708581](https://tatoeba.org/en/sentences/show/6708581) | Guybrush88 |
+| S93012 | Grazie per il consiglio, Tom. | Thanks for the advice, Tom. |  | [#6977431](https://tatoeba.org/en/sentences/show/6977431) | Guybrush88 |
+| S93013 | Ho bisogno di un buon consiglio. | I need some good advice. |  | [#1539200](https://tatoeba.org/en/sentences/show/1539200) | Guybrush88 |
+| S93014 | Ho bisogno di qualche buon consiglio. | I need some good advice. |  | [#4479004](https://tatoeba.org/en/sentences/show/4479004) | fekundulo |
+| S93015 | Deve seguire il consiglio di sua madre. | You need to follow your mother's advice. | You should follow the advice of your mother. | [#2485825](https://tatoeba.org/en/sentences/show/2485825) | Guybrush88 |
+
+## U86 At Home: La mia casa ha tre stanze; la camera da letto; all'interno (inside); un oggetto, gli oggetti
+
+30 sentences picked from 430 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: armadio (2), interno (0), oggetto (2), oggetti (0), costruire (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S86001 | Una sedia è davanti alla porta. | A chair is in front of the door. |  | [#13593523](https://tatoeba.org/en/sentences/show/13593523) | Guybrush88 |
+| S86002 | Tom, la porta del frigorifero è aperta! | Tom, the fridge door is open! |  | [#9937751](https://tatoeba.org/en/sentences/show/9937751) | Guybrush88 |
+| S86003 | Hai una camera? | Do you have a room? |  | [#9462259](https://tatoeba.org/en/sentences/show/9462259) | Guybrush88 |
+| S86004 | Avete una camera? | Do you have a room? |  | [#9462260](https://tatoeba.org/en/sentences/show/9462260) | Guybrush88 |
+| S86005 | Ha una camera? | Do you have a room? |  | [#9589154](https://tatoeba.org/en/sentences/show/9589154) | Guybrush88 |
+| S86006 | Posso cambiare stanza? | Can I change rooms? |  | [#13794252](https://tatoeba.org/en/sentences/show/13794252) | Guybrush88 |
+| S86007 | Posso aprire la finestra? | Can I open the window? | May I open the window? | [#377299](https://tatoeba.org/en/sentences/show/377299) | Pharamp |
+| S86008 | Puoi aprire la finestra? | Can you open the window? |  | [#2784545](https://tatoeba.org/en/sentences/show/2784545) | Guybrush88 |
+| S86009 | Può aprire la finestra? | Can you open the window? |  | [#2784547](https://tatoeba.org/en/sentences/show/2784547) | Guybrush88 |
+| S86010 | Puoi chiudere la porta? | Can you close the door? |  | [#3289883](https://tatoeba.org/en/sentences/show/3289883) | Guybrush88 |
+| S86011 | È nella stanza, vero? | He's in the room, isn't he? | She's in the room, isn't she? | [#8713881](https://tatoeba.org/en/sentences/show/8713881) | Guybrush88 |
+| S86012 | Di chi è questa stanza? | Whose room is this? |  | [#1001364](https://tatoeba.org/en/sentences/show/1001364) | Guybrush88 |
+| S86013 | Come si chiama questo oggetto? | What is this object called? |  | [#6167265](https://tatoeba.org/en/sentences/show/6167265) | dnnywld |
+| S86014 | C'è della birra nel frigorifero? | Is there any beer in the fridge? | Is there any beer in the refrigerator? | [#11712230](https://tatoeba.org/en/sentences/show/11712230) | Guybrush88 |
+| S86015 | Di chi è questa sedia? | Whose chair is this? |  | [#13182276](https://tatoeba.org/en/sentences/show/13182276) | Guybrush88 |
+| S86016 | Questa sedia è ancora libera? | Is this chair still free? |  | [#13182295](https://tatoeba.org/en/sentences/show/13182295) | Guybrush88 |
+| S86017 | Chiudi il frigorifero. | Close the refrigerator. |  | [#5349945](https://tatoeba.org/en/sentences/show/5349945) | Guybrush88 |
+| S86018 | Vorrei comprare un divano. | I would like to buy a sofa. |  | [#4474265](https://tatoeba.org/en/sentences/show/4474265) | Guybrush88 |
+| S86019 | Io vorrei comprare un divano. | I would like to buy a sofa. |  | [#4474266](https://tatoeba.org/en/sentences/show/4474266) | Guybrush88 |
+| S86020 | Voglio costruire una casa qui. | I want to build a house here. |  | [#5289279](https://tatoeba.org/en/sentences/show/5289279) | Guybrush88 |
+| S86021 | Mi serve un armadio nuovo. | I need a new wardrobe. |  | [#10367672](https://tatoeba.org/en/sentences/show/10367672) | Guybrush88 |
+| S86022 | Un libro è un oggetto. | A book is an object. |  | [#13939598](https://tatoeba.org/en/sentences/show/13939598) | Guybrush88 |
+| S86023 | Io voglio costruire una casa qui. | I want to build a house here. |  | [#5289282](https://tatoeba.org/en/sentences/show/5289282) | Guybrush88 |
+| S86024 | Il gatto è sotto al divano. | The cat is under the sofa. |  | [#6792018](https://tatoeba.org/en/sentences/show/6792018) | Guybrush88 |
+| S86025 | Ho bisogno di un armadio nuovo. | I need a new wardrobe. |  | [#10367673](https://tatoeba.org/en/sentences/show/10367673) | Guybrush88 |
+| S86026 | Può chiudere la porta? | Can you close the door? |  | [#3289885](https://tatoeba.org/en/sentences/show/3289885) | Guybrush88 |
+| S86027 | Puoi aprire la porta? | Can you open the door? |  | [#3533172](https://tatoeba.org/en/sentences/show/3533172) | Vallysing |
+| S86028 | Puoi aprire questa porta? | Can you open this door? |  | [#3533181](https://tatoeba.org/en/sentences/show/3533181) | Vallysing |
+| S86029 | Posso chiudere la porta? | Can I close the door? |  | [#3574683](https://tatoeba.org/en/sentences/show/3574683) | Guybrush88 |
+| S86030 | Posso aprire la porta? | May I open the door? |  | [#3863585](https://tatoeba.org/en/sentences/show/3863585) | Guybrush88 |
+
+## U87 At Work: Lavoro in un'azienda; faccio l'impiegato: fare + the job; il mio capo, i miei colleghi
+
+30 sentences picked from 180 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: impresa (0), professionale (0), personale (0), settore (0), stipendio (0), gestione (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S87001 | Dov'è il capo? | Where's the boss? |  | [#3103197](https://tatoeba.org/en/sentences/show/3103197) | Guybrush88 |
+| S87002 | C'è il capo? | Is the boss there? |  | [#4880104](https://tatoeba.org/en/sentences/show/4880104) | Guybrush88 |
+| S87003 | Sei il capo? | Are you the boss? |  | [#4973438](https://tatoeba.org/en/sentences/show/4973438) | Guybrush88 |
+| S87004 | Dov'è la riunione? | Where's the meeting? | Where is the meeting? | [#11788127](https://tatoeba.org/en/sentences/show/11788127) | Guybrush88 |
+| S87005 | Hai un contratto? | Do you have a contract? |  | [#13220858](https://tatoeba.org/en/sentences/show/13220858) | Guybrush88 |
+| S87006 | Ha un contratto? | Do you have a contract? |  | [#13220859](https://tatoeba.org/en/sentences/show/13220859) | Guybrush88 |
+| S87007 | Avete un contratto? | Do you have a contract? |  | [#13220860](https://tatoeba.org/en/sentences/show/13220860) | Guybrush88 |
+| S87008 | Abbiamo una riunione oggi? | Do we have a meeting today? |  | [#6929651](https://tatoeba.org/en/sentences/show/6929651) | Guybrush88 |
+| S87009 | Può venire alla riunione domani? | Can he come to the meeting tomorrow? | Can she come to the meeting tomorrow? | [#3891510](https://tatoeba.org/en/sentences/show/3891510) | Guybrush88 |
+| S87010 | Tom e Mary hanno esperienza? | Do Tom and Mary have any experience? |  | [#8406610](https://tatoeba.org/en/sentences/show/8406610) | Guybrush88 |
+| S87011 | C'è un progetto per me? | Is there a plan for me? |  | [#13113271](https://tatoeba.org/en/sentences/show/13113271) | Nuel |
+| S87012 | Che esperienza! | What an experience! |  | [#7928003](https://tatoeba.org/en/sentences/show/7928003) | Guybrush88 |
+| S87013 | Ho esperienza. | I have experience. |  | [#10608147](https://tatoeba.org/en/sentences/show/10608147) | Guybrush88 |
+| S87014 | Amo questa azienda. | I love this company. |  | [#5166615](https://tatoeba.org/en/sentences/show/5166615) | Guybrush88 |
+| S87015 | Sono contro questo progetto. | I am against this project. |  | [#1481820](https://tatoeba.org/en/sentences/show/1481820) | Guybrush88 |
+| S87016 | Abbiamo una nuova gestione. | We're under new management. |  | [#3554092](https://tatoeba.org/en/sentences/show/3554092) | Guybrush88 |
+| S87017 | Io amo questa azienda. | I love this company. |  | [#5166616](https://tatoeba.org/en/sentences/show/5166616) | Guybrush88 |
+| S87018 | Mi piace l'azienda. | I like the company. |  | [#9709995](https://tatoeba.org/en/sentences/show/9709995) | Guybrush88 |
+| S87019 | Io sono contro questo progetto. | I am against this project. |  | [#1481821](https://tatoeba.org/en/sentences/show/1481821) | Guybrush88 |
+| S87020 | Abbiamo un collega in Spagna. | We have a colleague in Spain. |  | [#2163591](https://tatoeba.org/en/sentences/show/2163591) | Guybrush88 |
+| S87021 | Sono un collega di Tom. | I'm a colleague of Tom's. |  | [#6712190](https://tatoeba.org/en/sentences/show/6712190) | Guybrush88 |
+| S87022 | Sono una collega di Tom. | I'm a colleague of Tom's. |  | [#6712192](https://tatoeba.org/en/sentences/show/6712192) | Guybrush88 |
+| S87023 | Sono un impiegato di banca. | I'm a bank clerk. |  | [#11033641](https://tatoeba.org/en/sentences/show/11033641) | Guybrush88 |
+| S87024 | È un impiegato di banca. | He is a bank clerk. |  | [#11033643](https://tatoeba.org/en/sentences/show/11033643) | Guybrush88 |
+| S87025 | Tom è un impiegato di banca. | Tom is a bank clerk. |  | [#5596794](https://tatoeba.org/en/sentences/show/5596794) | Guybrush88 |
+| S87026 | È il capo? | Are you the boss? |  | [#4973441](https://tatoeba.org/en/sentences/show/4973441) | Guybrush88 |
+| S87027 | Il capo è lì? | Is the boss there? |  | [#4880105](https://tatoeba.org/en/sentences/show/4880105) | Guybrush88 |
+| S87028 | Lei è il capo? | Are you the boss? |  | [#4973442](https://tatoeba.org/en/sentences/show/4973442) | Guybrush88 |
+| S87029 | Non sei il capo? | Aren't you the boss? |  | [#5346121](https://tatoeba.org/en/sentences/show/5346121) | Guybrush88 |
+| S87030 | Non è il capo? | Aren't you the boss? |  | [#5346123](https://tatoeba.org/en/sentences/show/5346123) | Guybrush88 |
+
+## U94 Thinking + Saying: Ritengo, considero: verbs of opinion; esiste, appare, risulta: the lui form is the everyday one; riguarda (it concerns)
+
+40 sentences picked from 198 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: considerare (1), ritengo (0), ritenere (0), intendere (0), esprimere (0), afferma (0), affermare (0), riconoscere (2), dimostra (2), definire (0), propongo (0), proporre (0), sostiene (0), sostenere (0), riferisce (2), riporta (2), rappresenta (1), appare (0), risulta (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S94001 | Lui esiste? | Does he exist? |  | [#803697](https://tatoeba.org/en/sentences/show/803697) | Guybrush88 |
+| S94002 | Lei esiste? | Do you exist? | Does she exist? | [#803701](https://tatoeba.org/en/sentences/show/803701) | Guybrush88 |
+| S94003 | Mi riguarda? | Does it involve me? |  | [#5524911](https://tatoeba.org/en/sentences/show/5524911) | Guybrush88 |
+| S94004 | Esiste già? | Does it already exist? |  | [#6583381](https://tatoeba.org/en/sentences/show/6583381) | Guybrush88 |
+| S94005 | Capisci cosa intendo? | Do you understand what I mean? |  | [#1635089](https://tatoeba.org/en/sentences/show/1635089) | Guybrush88 |
+| S94006 | Questo riguarda me? | Is this about me? |  | [#3812008](https://tatoeba.org/en/sentences/show/3812008) | Guybrush88 |
+| S94007 | Questo riguarda Tom? | Is this about Tom? |  | [#3998385](https://tatoeba.org/en/sentences/show/3998385) | Guybrush88 |
+| S94008 | Ti rende felice? | Does that make you happy? |  | [#4081563](https://tatoeba.org/en/sentences/show/4081563) | tiramisu |
+| S94009 | Non dimostra qualcosa? | Doesn't that prove something? |  | [#5087068](https://tatoeba.org/en/sentences/show/5087068) | Guybrush88 |
+| S94010 | Lo possiamo dimostrare? | Can we prove it? |  | [#5901501](https://tatoeba.org/en/sentences/show/5901501) | Guybrush88 |
+| S94011 | Ti rende triste? | Does that make you sad? |  | [#11840050](https://tatoeba.org/en/sentences/show/11840050) | Guybrush88 |
+| S94012 | Quale azienda rappresenta? | What company do you represent? |  | [#12036239](https://tatoeba.org/en/sentences/show/12036239) | Guybrush88 |
+| S94013 | Tu capisci cosa intendo? | Do you understand what I mean? |  | [#1752991](https://tatoeba.org/en/sentences/show/1752991) | Guybrush88 |
+| S94014 | Tom ti rende felice? | Does Tom make you happy? |  | [#3269731](https://tatoeba.org/en/sentences/show/3269731) | Guybrush88 |
+| S94015 | Perché tratta così Tom? | Why do you treat Tom like that? |  | [#8014921](https://tatoeba.org/en/sentences/show/8014921) | Guybrush88 |
+| S94016 | Perché Tom tratta così Mary? | Why does Tom treat Mary like that? |  | [#8020822](https://tatoeba.org/en/sentences/show/8020822) | Guybrush88 |
+| S94017 | Questo è troppo difficile da comprendere? | Is this too hard to understand? |  | [#6928364](https://tatoeba.org/en/sentences/show/6928364) | Guybrush88 |
+| S94018 | Io comprendo. | I understand. | I sympathize. | [#2428973](https://tatoeba.org/en/sentences/show/2428973) | Guybrush88 |
+| S94019 | Non comprendo. | I don't understand. | I do not understand. | [#2671117](https://tatoeba.org/en/sentences/show/2671117) | Guybrush88 |
+| S94020 | Sì, comprendo. | Yes, I understand. |  | [#2701643](https://tatoeba.org/en/sentences/show/2701643) | Guybrush88 |
+| S94021 | Intendo questo. | I mean that. |  | [#3533134](https://tatoeba.org/en/sentences/show/3533134) | Vallysing |
+| S94022 | Lo riconosco. | I recognize him. |  | [#6137659](https://tatoeba.org/en/sentences/show/6137659) | Guybrush88 |
+| S94023 | Adesso ti riconosco! | Now I recognize you! |  | [#1301209](https://tatoeba.org/en/sentences/show/1301209) | Guybrush88 |
+| S94024 | Non riconosco nessuno. | I don't recognize anyone. |  | [#1538326](https://tatoeba.org/en/sentences/show/1538326) | Guybrush88 |
+| S94025 | Voglio comprendere Tom. | I want to understand Tom. |  | [#2850155](https://tatoeba.org/en/sentences/show/2850155) | Guybrush88 |
+| S94026 | Lo deve riconoscere. | He needs to recognize that. |  | [#4874325](https://tatoeba.org/en/sentences/show/4874325) | Guybrush88 |
+| S94027 | Non dimostra nulla. | That proves nothing. | It doesn't prove anything. | [#4895132](https://tatoeba.org/en/sentences/show/4895132) | Guybrush88 |
+| S94028 | Tom sembra comprendere. | Tom seems to understand. |  | [#6205721](https://tatoeba.org/en/sentences/show/6205721) | Guybrush88 |
+| S94029 | Tratta bene Tom. | Treat Tom well. |  | [#7770132](https://tatoeba.org/en/sentences/show/7770132) | Guybrush88 |
+| S94030 | Riferisce a me. | He reports to me. |  | [#7952100](https://tatoeba.org/en/sentences/show/7952100) | Guybrush88 |
+| S94031 | Considero Tom bello. | I consider Tom handsome. |  | [#11222229](https://tatoeba.org/en/sentences/show/11222229) | Guybrush88 |
+| S94032 | Mi considero felice. | I consider myself happy. |  | [#11443717](https://tatoeba.org/en/sentences/show/11443717) | Guybrush88 |
+| S94033 | Considero Tom un amico. | I consider Tom a friend. | I consider Tom to be a friend. | [#386463](https://tatoeba.org/en/sentences/show/386463) | Pharamp |
+| S94034 | Non puoi dimostrare nulla. | You can't prove anything. |  | [#3358626](https://tatoeba.org/en/sentences/show/3358626) | Guybrush88 |
+| S94035 | Non può dimostrare nulla. | You can't prove anything. |  | [#3358628](https://tatoeba.org/en/sentences/show/3358628) | Guybrush88 |
+| S94036 | Lui lo deve riconoscere. | He needs to recognize that. |  | [#4874326](https://tatoeba.org/en/sentences/show/4874326) | Guybrush88 |
+| S94037 | Lui riferisce a me. | He reports to me. |  | [#7952101](https://tatoeba.org/en/sentences/show/7952101) | Guybrush88 |
+| S94038 | Riporta a casa Tom. | Take Tom back home. |  | [#12256005](https://tatoeba.org/en/sentences/show/12256005) | Guybrush88 |
+| S94039 | Questo è qualcosa da considerare. | This is something to consider. |  | [#1702335](https://tatoeba.org/en/sentences/show/1702335) | Guybrush88 |
+| S94040 | Riporta questo libro a lui. | Take this book back to him. |  | [#3584615](https://tatoeba.org/en/sentences/show/3584615) | ema_rega |
+
+## U28 Explaining a Problem: Non funziona (it does not work); manca qualcosa; bisogna + a verb (one has to); è grave?
+
+30 sentences picked from 168 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+Every new word is in at least 3 sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S28001 | È grave? | Is it bad? | Is it important?; Is it serious? | [#4436](https://tatoeba.org/en/sentences/show/4436) | Guybrush88 |
+| S28002 | Cosa manca? | What is missing? |  | [#826608](https://tatoeba.org/en/sentences/show/826608) | Guybrush88 |
+| S28003 | Come funziona? | How does that work? | How does it work? | [#2005459](https://tatoeba.org/en/sentences/show/2005459) | Guybrush88 |
+| S28004 | Quello funziona? | Does that work? |  | [#2555813](https://tatoeba.org/en/sentences/show/2555813) | Guybrush88 |
+| S28005 | Quella funziona? | Does that work? |  | [#2555814](https://tatoeba.org/en/sentences/show/2555814) | Guybrush88 |
+| S28006 | Chi manca? | Who's missing? | Who is missing? | [#4094704](https://tatoeba.org/en/sentences/show/4094704) | Guybrush88 |
+| S28007 | Che cosa manca? | What's missing? | What is missing? | [#338432](https://tatoeba.org/en/sentences/show/338432) | Sprachprofi |
+| S28008 | Hai una soluzione? | Do you have a solution? |  | [#766316](https://tatoeba.org/en/sentences/show/766316) | Guybrush88 |
+| S28009 | Avete una soluzione? | Do you have a solution? |  | [#766317](https://tatoeba.org/en/sentences/show/766317) | Guybrush88 |
+| S28010 | Ha una soluzione? | Do you have a solution? |  | [#913449](https://tatoeba.org/en/sentences/show/913449) | Guybrush88 |
+| S28011 | È qualcosa di grave? | Is it anything serious? |  | [#1463985](https://tatoeba.org/en/sentences/show/1463985) | Guybrush88 |
+| S28012 | Quanto è grave il problema? | How serious is the problem? |  | [#2083619](https://tatoeba.org/en/sentences/show/2083619) | Guybrush88 |
+| S28013 | È un rischio. | That's a risk. |  | [#2428948](https://tatoeba.org/en/sentences/show/2428948) | Guybrush88 |
+| S28014 | C'è un rischio. | There's a risk. |  | [#2523761](https://tatoeba.org/en/sentences/show/2523761) | Guybrush88 |
+| S28015 | Comprendo il rischio. | I understand the risk. |  | [#5678085](https://tatoeba.org/en/sentences/show/5678085) | Guybrush88 |
+| S28016 | Bisogna ancora vedere il risultato. | The result remains to be seen. |  | [#4831052](https://tatoeba.org/en/sentences/show/4831052) | Guybrush88 |
+| S28017 | Non bisogna aspettare fino alla fine. | You don't have to wait until the end. |  | [#4001690](https://tatoeba.org/en/sentences/show/4001690) | Guybrush88 |
+| S28018 | Bisogna comprare della frutta e della verdura. | You need to buy some fruit and vegetables. |  | [#843540](https://tatoeba.org/en/sentences/show/843540) | Guybrush88 |
+| S28019 | Funziona ancora? | Does it still work? |  | [#3393505](https://tatoeba.org/en/sentences/show/3393505) | Guybrush88 |
+| S28020 | Funziona adesso? | Does it work now? |  | [#4715001](https://tatoeba.org/en/sentences/show/4715001) | Guybrush88 |
+| S28021 | Perché funziona? | Why does it work? |  | [#5479120](https://tatoeba.org/en/sentences/show/5479120) | Guybrush88 |
+| S28022 | Non funziona, vero? | That doesn't work, does it? | It doesn't work, does it? | [#3928238](https://tatoeba.org/en/sentences/show/3928238) | Guybrush88 |
+| S28023 | Sai come funziona? | Do you know how it works? |  | [#4356160](https://tatoeba.org/en/sentences/show/4356160) | Guybrush88 |
+| S28024 | Questa cosa funziona? | Does this thing work? |  | [#4405577](https://tatoeba.org/en/sentences/show/4405577) | Guybrush88 |
+| S28025 | Questo funziona davvero? | Does this really work? |  | [#4583050](https://tatoeba.org/en/sentences/show/4583050) | Guybrush88 |
+| S28026 | Capisci come funziona? | Do you understand how it works? |  | [#5631502](https://tatoeba.org/en/sentences/show/5631502) | Guybrush88 |
+| S28027 | Questo funziona ancora? | Does this still work? |  | [#5973676](https://tatoeba.org/en/sentences/show/5973676) | Guybrush88 |
+| S28028 | È come funziona? | Is that how it works? |  | [#7078640](https://tatoeba.org/en/sentences/show/7078640) | Guybrush88 |
+| S28029 | Dov'è la soluzione? | Where is the solution? |  | [#13477266](https://tatoeba.org/en/sentences/show/13477266) | Guybrush88 |
+| S28030 | È così che funziona? | Is this how it works? |  | [#3223999](https://tatoeba.org/en/sentences/show/3223999) | Guybrush88 |
+
+## U88 Filling In Forms: Data di nascita, luogo di nascita, stato civile: the words on a form; il seguente modulo; dichiaro (I declare)
+
+30 sentences picked from 38 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: modulo (0), documento (0), documenti (0), civile (1), professione (0), titolo (0), residenza (1), condizione (1), modalità (0), seguente (2), dichiaro (0), dichiarare (1). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S88001 | È presente, vero? | He's present, isn't he? | She's present, isn't she? | [#8694467](https://tatoeba.org/en/sentences/show/8694467) | Guybrush88 |
+| S88002 | Tom è presente, vero? | Tom is present, isn't he? |  | [#6902113](https://tatoeba.org/en/sentences/show/6902113) | Guybrush88 |
+| S88003 | Mary è presente, vero? | Mary is present, isn't she? |  | [#13002123](https://tatoeba.org/en/sentences/show/13002123) | Guybrush88 |
+| S88004 | È una richiesta o un ordine? | Is that a request or an order? |  | [#2846763](https://tatoeba.org/en/sentences/show/2846763) | Guybrush88 |
+| S88005 | Questa è la residenza di Tom? | Is this Tom's residence? |  | [#3838823](https://tatoeba.org/en/sentences/show/3838823) | Guybrush88 |
+| S88006 | C'è una condizione. | There's a condition. |  | [#2519283](https://tatoeba.org/en/sentences/show/2519283) | Guybrush88 |
+| S88007 | Ho una richiesta. | I have a request. | I have one request. | [#2834844](https://tatoeba.org/en/sentences/show/2834844) | Guybrush88 |
+| S88008 | Conosco la procedura. | I know the procedure. |  | [#5906286](https://tatoeba.org/en/sentences/show/5906286) | Guybrush88 |
+| S88009 | È italiano di nascita. | He is Italian by birth. |  | [#374394](https://tatoeba.org/en/sentences/show/374394) | Pharamp |
+| S88010 | È tedesco di nascita. | He is German by birth. |  | [#379750](https://tatoeba.org/en/sentences/show/379750) | Pharamp |
+| S88011 | Io ho una richiesta. | I have a request. | I have one request. | [#2834845](https://tatoeba.org/en/sentences/show/2834845) | Guybrush88 |
+| S88012 | Questa è guerra civile. | That's civil war. |  | [#3398441](https://tatoeba.org/en/sentences/show/3398441) | Guybrush88 |
+| S88013 | Io conosco la procedura. | I know the procedure. |  | [#5906287](https://tatoeba.org/en/sentences/show/5906287) | Guybrush88 |
+| S88014 | Per favore, spiega la procedura. | Please explain the procedure. |  | [#5983623](https://tatoeba.org/en/sentences/show/5983623) | Guybrush88 |
+| S88015 | È di nascita francese. | She is of French birth. |  | [#12899205](https://tatoeba.org/en/sentences/show/12899205) | Guybrush88 |
+| S88016 | Non ho nulla da dichiarare. | I don't have anything to declare. |  | [#749918](https://tatoeba.org/en/sentences/show/749918) | Guybrush88 |
+| S88017 | È la firma di Tom. | That's Tom's signature. |  | [#3838621](https://tatoeba.org/en/sentences/show/3838621) | Guybrush88 |
+| S88018 | Ho bisogno della tua firma. | I need your signature. |  | [#6896709](https://tatoeba.org/en/sentences/show/6896709) | Guybrush88 |
+| S88019 | Ho bisogno della sua firma. | I need your signature. |  | [#6896710](https://tatoeba.org/en/sentences/show/6896710) | Guybrush88 |
+| S88020 | Il seguente è un esempio. | The following is an example. |  | [#10910538](https://tatoeba.org/en/sentences/show/10910538) | Guybrush88 |
+| S88021 | La seguente è un esempio. | The following is an example. |  | [#10910539](https://tatoeba.org/en/sentences/show/10910539) | Guybrush88 |
+| S88022 | È presente. | He's present. | He is present. | [#8542597](https://tatoeba.org/en/sentences/show/8542597) | Guybrush88 |
+| S88023 | Tom è presente. | Tom is present. |  | [#2524670](https://tatoeba.org/en/sentences/show/2524670) | Guybrush88 |
+| S88024 | Non è presente. | He isn't present. |  | [#8483044](https://tatoeba.org/en/sentences/show/8483044) | Guybrush88 |
+| S88025 | Lui non è presente. | He's not in. |  | [#1984573](https://tatoeba.org/en/sentences/show/1984573) | hitori37 |
+| S88026 | Tom non è presente. | Tom isn't present. |  | [#2947911](https://tatoeba.org/en/sentences/show/2947911) | Guybrush88 |
+| S88027 | Anche Tom è presente. | Tom is also present. |  | [#13663612](https://tatoeba.org/en/sentences/show/13663612) | Guybrush88 |
+| S88028 | Lui è italiano di nascita. | He is Italian by birth. |  | [#1157987](https://tatoeba.org/en/sentences/show/1157987) | Guybrush88 |
+| S88029 | Nessuno di loro è presente. | None of them are present. |  | [#2402599](https://tatoeba.org/en/sentences/show/2402599) | Guybrush88 |
+| S88030 | C'è una nascita nella famiglia. | There is a birth in the family. |  | [#6738685](https://tatoeba.org/en/sentences/show/6738685) | Guybrush88 |
+
+## U89 Messages + Postcards: Cara Anna, caro Marco: dear (caro agrees); tanti saluti, un abbraccio: ways to end; ti invio una foto
+
+30 sentences picked from 163 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: cartolina (1), saluti (0), inviare (1), invio (0), contenuto (0), immagini (0), sito (1), comunicazione (2), infine (0), ormai (2). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S89001 | È il futuro? | Is that the future? |  | [#4517022](https://tatoeba.org/en/sentences/show/4517022) | Guybrush88 |
+| S89002 | Vuoi un abbraccio? | Do you want a hug? |  | [#14084764](https://tatoeba.org/en/sentences/show/14084764) | Guybrush88 |
+| S89003 | Vuoi inviare un messaggio? | Do you want to send a message? |  | [#2904421](https://tatoeba.org/en/sentences/show/2904421) | Guybrush88 |
+| S89004 | Quello è il futuro? | Is that the future? |  | [#4517023](https://tatoeba.org/en/sentences/show/4517023) | Guybrush88 |
+| S89005 | Hai paura del futuro? | Are you afraid of the future? |  | [#6891259](https://tatoeba.org/en/sentences/show/6891259) | dnnywld |
+| S89006 | Questa immagine è tua? | Is this image yours? |  | [#13601340](https://tatoeba.org/en/sentences/show/13601340) | Guybrush88 |
+| S89007 | Questa immagine è sua? | Is this image yours? |  | [#13601341](https://tatoeba.org/en/sentences/show/13601341) | Guybrush88 |
+| S89008 | Ti abbraccio. | I hug you. |  | [#1272881](https://tatoeba.org/en/sentences/show/1272881) | Guybrush88 |
+| S89009 | La abbraccio. | I hug you. |  | [#1272884](https://tatoeba.org/en/sentences/show/1272884) | Guybrush88 |
+| S89010 | Voglio soltanto leggere. | I just want to read. |  | [#2169559](https://tatoeba.org/en/sentences/show/2169559) | Guybrush88 |
+| S89011 | È soltanto mezzanotte. | It's just midnight. |  | [#2808151](https://tatoeba.org/en/sentences/show/2808151) | Guybrush88 |
+| S89012 | Rispondo alla domanda. | I answer the question. |  | [#3363230](https://tatoeba.org/en/sentences/show/3363230) | Guybrush88 |
+| S89013 | Posso soltanto aspettare. | I can only wait. |  | [#3538085](https://tatoeba.org/en/sentences/show/3538085) | Guybrush88 |
+| S89014 | Guarda questa immagine. | Look at this image. |  | [#3630631](https://tatoeba.org/en/sentences/show/3630631) | Guybrush88 |
+| S89015 | Ormai è un uomo. | He's already a man. |  | [#4481](https://tatoeba.org/en/sentences/show/4481) | Guybrush88 |
+| S89016 | C'è una cartolina qui. | There's a postcard here. |  | [#1969943](https://tatoeba.org/en/sentences/show/1969943) | Guybrush88 |
+| S89017 | Io rispondo alla domanda. | I answer the question. |  | [#3363231](https://tatoeba.org/en/sentences/show/3363231) | Guybrush88 |
+| S89018 | La comunicazione è buona. | Communication is good. |  | [#9707889](https://tatoeba.org/en/sentences/show/9707889) | Guybrush88 |
+| S89019 | E io rispondo di no. | And I answer: no. |  | [#4801447](https://tatoeba.org/en/sentences/show/4801447) | Guybrush88 |
+| S89020 | Devo creare un nuovo sito. | I have to create a new site. |  | [#5927835](https://tatoeba.org/en/sentences/show/5927835) | dnnywld |
+| S89021 | Ormai è alto quasi quanto suo padre. | He is now almost as tall as his father is. |  | [#1598277](https://tatoeba.org/en/sentences/show/1598277) | skywatcher |
+| S89022 | L'inglese è uno strumento di comunicazione. | English is a communication tool. |  | [#7768544](https://tatoeba.org/en/sentences/show/7768544) | Guybrush88 |
+| S89023 | Cosa vuoi fare in futuro? | What do you want to do in the future? |  | [#2990656](https://tatoeba.org/en/sentences/show/2990656) | Guybrush88 |
+| S89024 | Tu cosa vuoi fare in futuro? | What do you want to do in the future? |  | [#2990657](https://tatoeba.org/en/sentences/show/2990657) | Guybrush88 |
+| S89025 | Sono soltanto io. | It's only me. |  | [#3950310](https://tatoeba.org/en/sentences/show/3950310) | Guybrush88 |
+| S89026 | È soltanto Tom. | It's only Tom. |  | [#4154958](https://tatoeba.org/en/sentences/show/4154958) | Guybrush88 |
+| S89027 | Al tuo futuro! | To your future! |  | [#4592254](https://tatoeba.org/en/sentences/show/4592254) | Guybrush88 |
+| S89028 | È soltanto caffè. | It's just coffee. |  | [#4966998](https://tatoeba.org/en/sentences/show/4966998) | Guybrush88 |
+| S89029 | È soltanto lunedì. | It's only Monday. |  | [#5418043](https://tatoeba.org/en/sentences/show/5418043) | Guybrush88 |
+| S89030 | Grazie. Guardo soltanto. | Thanks. I'm just looking. |  | [#5491973](https://tatoeba.org/en/sentences/show/5491973) | dnnywld |
+
+## U95 Doing + Getting: Everyday verbs in the lui form: offre, permette, contiene; ottenere (ottengo), proporre (propongo): irregular
+
+40 sentences picked from 137 candidates (target 30 to 40). Grammar point in 0 (target 10). Questions for QT09: 0 (target 4).
+
+Contrast forms, sentences each (target 2): .
+
+**Gaps (P08)**, fewer than 3 usable sentences: fornisce (0), permette (1), consente (0), prevede (0), realizza (0), supera (0), affronta (0), riduce (0), aggiunge (0), applica (1), verifica (0), modifica (0), promuove (0), partecipa (1), assume (1), occupa (1), impegna (0), dedica (0), destina (0), raccoglie (0), deriva (1), costituisce (0), svolge (0), effettua (0), stabilisce (0), determina (0), individua (0), opera (0), interviene (0), assicura (0), adotta (0), conclude (0), pubblica (2), approva (2), avviene (1), pone (0), dispone (0), richiede (2), rivolge (0). Dan decides: drop the word, or have Claude draft sentences.
+
+| ID | French | English | Other English | Tatoeba | Owner |
+| --- | --- | --- | --- | --- | --- |
+| S95001 | Cosa contiene? | What does it contain? |  | [#726587](https://tatoeba.org/en/sentences/show/726587) | Guybrush88 |
+| S95002 | Quando comincia? | When does it start? | When does it begin? | [#1125760](https://tatoeba.org/en/sentences/show/1125760) | Guybrush88 |
+| S95003 | Lei assume? | Are you hiring? |  | [#3423167](https://tatoeba.org/en/sentences/show/3423167) | Guybrush88 |
+| S95004 | Vale qualcosa? | Is it worth something? |  | [#4192314](https://tatoeba.org/en/sentences/show/4192314) | Guybrush88 |
+| S95005 | Quanto vale? | What's it worth? | How much is that worth? | [#5135264](https://tatoeba.org/en/sentences/show/5135264) | Guybrush88 |
+| S95006 | Lo approva? | Do you approve that? |  | [#7993257](https://tatoeba.org/en/sentences/show/7993257) | Guybrush88 |
+| S95007 | Vale molto? | Is this worth a lot? |  | [#10611740](https://tatoeba.org/en/sentences/show/10611740) | Bethanielle |
+| S95008 | Contiene uova? | Does it contain eggs? |  | [#11718002](https://tatoeba.org/en/sentences/show/11718002) | Guybrush88 |
+| S95009 | Contiene zucchero? | Does it contain sugar? |  | [#11862170](https://tatoeba.org/en/sentences/show/11862170) | Guybrush88 |
+| S95010 | E cosa ottengo? | And what do I get? |  | [#3346643](https://tatoeba.org/en/sentences/show/3346643) | Guybrush88 |
+| S95011 | Perché lo permette? | Why do you permit it? |  | [#5646945](https://tatoeba.org/en/sentences/show/5646945) | Guybrush88 |
+| S95012 | Perché non comincia? | Why don't you start? |  | [#6767755](https://tatoeba.org/en/sentences/show/6767755) | Guybrush88 |
+| S95013 | Quanto zucchero utilizza? | How much sugar do you use? |  | [#13286773](https://tatoeba.org/en/sentences/show/13286773) | Guybrush88 |
+| S95014 | Cosa produce l'azienda? | What does the company produce? |  | [#353411](https://tatoeba.org/en/sentences/show/353411) | hwarang |
+| S95015 | A che ora comincia? | What time does it start? |  | [#1946512](https://tatoeba.org/en/sentences/show/1946512) | Guybrush88 |
+| S95016 | E io cosa ottengo? | And what do I get? |  | [#3346644](https://tatoeba.org/en/sentences/show/3346644) | Guybrush88 |
+| S95017 | Come si applica questo? | How does this apply? |  | [#4513562](https://tatoeba.org/en/sentences/show/4513562) | Guybrush88 |
+| S95018 | Chi utilizza questa stanza? | Who else uses this room? |  | [#7901541](https://tatoeba.org/en/sentences/show/7901541) | Guybrush88 |
+| S95019 | Utilizza spesso un dizionario? | Do you often use a dictionary? |  | [#13194700](https://tatoeba.org/en/sentences/show/13194700) | Guybrush88 |
+| S95020 | Mi evita. | She avoids me. |  | [#1255790](https://tatoeba.org/en/sentences/show/1255790) | Guybrush88 |
+| S95021 | Tom approva. | Tom approves. |  | [#4568936](https://tatoeba.org/en/sentences/show/4568936) | Guybrush88 |
+| S95022 | Lo garantisce. | He guarantees it. | She guarantees it. | [#5266431](https://tatoeba.org/en/sentences/show/5266431) | Guybrush88 |
+| S95023 | Produce birra. | He brews beer. |  | [#11778189](https://tatoeba.org/en/sentences/show/11778189) | Guybrush88 |
+| S95024 | Lei mi evita. | She avoids me. |  | [#1255792](https://tatoeba.org/en/sentences/show/1255792) | Guybrush88 |
+| S95025 | Lei lo garantisce. | She guarantees it. |  | [#5266432](https://tatoeba.org/en/sentences/show/5266432) | Guybrush88 |
+| S95026 | Lui lo garantisce. | He guarantees it. |  | [#5266437](https://tatoeba.org/en/sentences/show/5266437) | Guybrush88 |
+| S95027 | Tom mi evita. | Tom avoids me. |  | [#6480413](https://tatoeba.org/en/sentences/show/6480413) | Guybrush88 |
+| S95028 | Partecipa alla riunione. | Attend the meeting. |  | [#11443988](https://tatoeba.org/en/sentences/show/11443988) | Guybrush88 |
+| S95029 | Tom produce birra. | Tom brews beer. |  | [#11778187](https://tatoeba.org/en/sentences/show/11778187) | Guybrush88 |
+| S95030 | Richiede molto lavoro. | It takes a lot of work. |  | [#13035312](https://tatoeba.org/en/sentences/show/13035312) | Nuel |
+| S95031 | Pubblica libri in Italia. | He publishes books in Italy. |  | [#3889361](https://tatoeba.org/en/sentences/show/3889361) | Guybrush88 |
+| S95032 | Si richiede un cameriere. | Waiter needed. |  | [#3990580](https://tatoeba.org/en/sentences/show/3990580) | Guybrush88 |
+| S95033 | Vediamo cosa posso ottenere. | Let's see what I can get. |  | [#4990402](https://tatoeba.org/en/sentences/show/4990402) | Guybrush88 |
+| S95034 | Possiamo ottenere di più. | We can get more. |  | [#5448605](https://tatoeba.org/en/sentences/show/5448605) | Guybrush88 |
+| S95035 | Questa parola deriva dal tedesco. | This word is derived from German. |  | [#379749](https://tatoeba.org/en/sentences/show/379749) | Pharamp |
+| S95036 | Questo divano occupa troppo spazio. | This sofa takes up too much space. |  | [#975371](https://tatoeba.org/en/sentences/show/975371) | riccioberto |
+| S95037 | Qui è dove avviene tutto. | Here is where it all happens. |  | [#3554566](https://tatoeba.org/en/sentences/show/3554566) | Guybrush88 |
+| S95038 | Lui pubblica libri in Italia. | He publishes books in Italy. |  | [#3889363](https://tatoeba.org/en/sentences/show/3889363) | Guybrush88 |
+| S95039 | Ottengo tutto quello che voglio. | I get everything I want. |  | [#4599807](https://tatoeba.org/en/sentences/show/4599807) | Guybrush88 |
+| S95040 | Noi possiamo ottenere di più. | We can get more. |  | [#5448606](https://tatoeba.org/en/sentences/show/5448606) | Guybrush88 |

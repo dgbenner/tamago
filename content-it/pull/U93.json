@@ -1,0 +1,865 @@
+{
+  "unit_id": "U93",
+  "pulled_at": "2026-11-16",
+  "candidates": 15,
+  "sentences": [
+    {
+      "sentence_id": "S93001",
+      "unit_id": "U93",
+      "french": "Vuoi un consiglio?",
+      "english": "Do you need some advice?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2900205",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93002",
+      "unit_id": "U93",
+      "french": "Non mi puoi dare qualche consiglio?",
+      "english": "Can't you give me some advice?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4959167",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93003",
+      "unit_id": "U93",
+      "french": "Non mi può dare qualche consiglio?",
+      "english": "Can't you give me some advice?",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4959168",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93004",
+      "unit_id": "U93",
+      "french": "È una buona iniziativa.",
+      "english": "It is a nice initiative.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "3338077",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Ricardo14",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93005",
+      "unit_id": "U93",
+      "french": "La produzione è bassa.",
+      "english": "Production is low.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4517083",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93006",
+      "unit_id": "U93",
+      "french": "Questa è una buona iniziativa.",
+      "english": "This is a good initiative.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "8562589",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93007",
+      "unit_id": "U93",
+      "french": "Abbiamo bisogno di un intervento.",
+      "english": "We need an intervention.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10072245",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93008",
+      "unit_id": "U93",
+      "french": "Il paese ha una struttura semplice.",
+      "english": "The town has a simple structure.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "10655930",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Bethanielle",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93009",
+      "unit_id": "U93",
+      "french": "Grazie per il consiglio.",
+      "english": "Thanks for the advice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2974877",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "Thank you for the advice."
+      ]
+    },
+    {
+      "sentence_id": "S93010",
+      "unit_id": "U93",
+      "french": "Tom ha qualche consiglio.",
+      "english": "Tom has some advice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "5976717",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93011",
+      "unit_id": "U93",
+      "french": "Grazie per il buon consiglio.",
+      "english": "Thanks for the good advice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6708581",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93012",
+      "unit_id": "U93",
+      "french": "Grazie per il consiglio, Tom.",
+      "english": "Thanks for the advice, Tom.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "6977431",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93013",
+      "unit_id": "U93",
+      "french": "Ho bisogno di un buon consiglio.",
+      "english": "I need some good advice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "1539200",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93014",
+      "unit_id": "U93",
+      "french": "Ho bisogno di qualche buon consiglio.",
+      "english": "I need some good advice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "4479004",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "fekundulo",
+      "other_english": []
+    },
+    {
+      "sentence_id": "S93015",
+      "unit_id": "U93",
+      "french": "Deve seguire il consiglio di sua madre.",
+      "english": "You need to follow your mother's advice.",
+      "pair_id": "",
+      "source": "tatoeba",
+      "source_id": "2485825",
+      "status": "pulled: awaiting approval",
+      "audio_source": "tts",
+      "max_round": 5,
+      "notes": "pulled from Tatoeba under content_pull",
+      "source_owner": "Guybrush88",
+      "other_english": [
+        "You should follow the advice of your mother."
+      ]
+    }
+  ],
+  "sentence_words": [
+    {
+      "sentence_id": "S93001",
+      "position": 1,
+      "surface": "Vuoi",
+      "word_id": "W902",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93001",
+      "position": 2,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93001",
+      "position": 3,
+      "surface": "consiglio",
+      "word_id": "W1868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93002",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93002",
+      "position": 2,
+      "surface": "mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93002",
+      "position": 3,
+      "surface": "puoi",
+      "word_id": "W818",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93002",
+      "position": 4,
+      "surface": "dare",
+      "word_id": "W1455",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93002",
+      "position": 5,
+      "surface": "qualche",
+      "word_id": "W956",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93002",
+      "position": 6,
+      "surface": "consiglio",
+      "word_id": "W1868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93003",
+      "position": 1,
+      "surface": "Non",
+      "word_id": "W004",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93003",
+      "position": 2,
+      "surface": "mi",
+      "word_id": "W055",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93003",
+      "position": 3,
+      "surface": "può",
+      "word_id": "W816",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93003",
+      "position": 4,
+      "surface": "dare",
+      "word_id": "W1455",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93003",
+      "position": 5,
+      "surface": "qualche",
+      "word_id": "W956",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93003",
+      "position": 6,
+      "surface": "consiglio",
+      "word_id": "W1868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93004",
+      "position": 1,
+      "surface": "È",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93004",
+      "position": 2,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93004",
+      "position": 3,
+      "surface": "buona",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93004",
+      "position": 4,
+      "surface": "iniziativa",
+      "word_id": "W1874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93005",
+      "position": 1,
+      "surface": "La",
+      "word_id": "W019",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93005",
+      "position": 2,
+      "surface": "produzione",
+      "word_id": "W1879",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93005",
+      "position": 3,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93005",
+      "position": 4,
+      "surface": "bassa",
+      "word_id": "W1131",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93006",
+      "position": 1,
+      "surface": "Questa",
+      "word_id": "W026",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93006",
+      "position": 2,
+      "surface": "è",
+      "word_id": "W023",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93006",
+      "position": 3,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93006",
+      "position": 4,
+      "surface": "buona",
+      "word_id": "W096",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93006",
+      "position": 5,
+      "surface": "iniziativa",
+      "word_id": "W1874",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93007",
+      "position": 1,
+      "surface": "Abbiamo",
+      "word_id": "W084",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93007",
+      "position": 2,
+      "surface": "bisogno",
+      "word_id": "W912",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93007",
+      "position": 3,
+      "surface": "di",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93007",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93007",
+      "position": 5,
+      "surface": "intervento",
+      "word_id": "W1873",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 1,
+      "surface": "Il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 2,
+      "surface": "paese",
+      "word_id": "W1043",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 3,
+      "surface": "ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 4,
+      "surface": "una",
+      "word_id": "W010",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 5,
+      "surface": "struttura",
+      "word_id": "W1871",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93008",
+      "position": 6,
+      "surface": "semplice",
+      "word_id": "W1156",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93009",
+      "position": 1,
+      "surface": "Grazie",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93009",
+      "position": 2,
+      "surface": "per",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93009",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93009",
+      "position": 4,
+      "surface": "consiglio",
+      "word_id": "W1868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93010",
+      "position": 1,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93010",
+      "position": 2,
+      "surface": "ha",
+      "word_id": "W068",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93010",
+      "position": 3,
+      "surface": "qualche",
+      "word_id": "W956",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93010",
+      "position": 4,
+      "surface": "consiglio",
+      "word_id": "W1868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 1,
+      "surface": "Grazie",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 2,
+      "surface": "per",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 4,
+      "surface": "buon",
+      "word_id": "W844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93011",
+      "position": 5,
+      "surface": "consiglio",
+      "word_id": "W1868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93012",
+      "position": 1,
+      "surface": "Grazie",
+      "word_id": "W034",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93012",
+      "position": 2,
+      "surface": "per",
+      "word_id": "W724",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93012",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93012",
+      "position": 4,
+      "surface": "consiglio",
+      "word_id": "W1868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93012",
+      "position": 5,
+      "surface": "Tom",
+      "word_id": "",
+      "notes": "name",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93013",
+      "position": 1,
+      "surface": "Ho",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93013",
+      "position": 2,
+      "surface": "bisogno",
+      "word_id": "W912",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93013",
+      "position": 3,
+      "surface": "di",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93013",
+      "position": 4,
+      "surface": "un",
+      "word_id": "W009",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93013",
+      "position": 5,
+      "surface": "buon",
+      "word_id": "W844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93013",
+      "position": 6,
+      "surface": "consiglio",
+      "word_id": "W1868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93014",
+      "position": 1,
+      "surface": "Ho",
+      "word_id": "W066",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93014",
+      "position": 2,
+      "surface": "bisogno",
+      "word_id": "W912",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93014",
+      "position": 3,
+      "surface": "di",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93014",
+      "position": 4,
+      "surface": "qualche",
+      "word_id": "W956",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93014",
+      "position": 5,
+      "surface": "buon",
+      "word_id": "W844",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93014",
+      "position": 6,
+      "surface": "consiglio",
+      "word_id": "W1868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93015",
+      "position": 1,
+      "surface": "Deve",
+      "word_id": "W914",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93015",
+      "position": 2,
+      "surface": "seguire",
+      "word_id": "W1385",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93015",
+      "position": 3,
+      "surface": "il",
+      "word_id": "W018",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93015",
+      "position": 4,
+      "surface": "consiglio",
+      "word_id": "W1868",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93015",
+      "position": 5,
+      "surface": "di",
+      "word_id": "W137",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93015",
+      "position": 6,
+      "surface": "sua",
+      "word_id": "W136",
+      "notes": "",
+      "hint_override": ""
+    },
+    {
+      "sentence_id": "S93015",
+      "position": 7,
+      "surface": "madre",
+      "word_id": "W142",
+      "notes": "",
+      "hint_override": ""
+    }
+  ],
+  "accepted_answers": [
+    {
+      "answer_id": "A930091",
+      "sentence_id": "S93009",
+      "direction": "fr_to_en",
+      "answer": "Thank you for the advice.",
+      "source": "tatoeba",
+      "status": "pulled"
+    },
+    {
+      "answer_id": "A930151",
+      "sentence_id": "S93015",
+      "direction": "fr_to_en",
+      "answer": "You should follow the advice of your mother.",
+      "source": "tatoeba",
+      "status": "pulled"
+    }
+  ],
+  "qa_answers": []
+}

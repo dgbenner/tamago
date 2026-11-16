@@ -4,6 +4,8 @@ Updated November 15, 2026. **French A1 is complete: Parts 5 and 6 are built and 
 
 ## Done since last check-in
 
+- **Italian A1 Parts 2 to 4 (Developer only):** 51 circles, Kelly core 600 at 552 (92%), mock CELI Impatto after Part 4; 1,016 drafts for Fable and the native check (_review/italian-part2-, part3-, part4-candidates.md and -drafts.md).
+
 - **Interface sounds as files (Debugger):** the six sounds are rendered to short audio files and played through audio elements, the path the iPhone already plays, instead of live Web Audio; same setting and timing; Reduce Motion no longer mutes them (only the Sounds setting does); the Developer page shows the sound system's state and last error. Needs the real iPhone to confirm.
 
 - **iPhone fixes (Debugger):** interface sounds no longer muted by Safari's stuck speaking flag or a sleeping audio context; Speak and Compare asks for the microphone in the recording audio session; speaker avatars loaded ahead. All three need a real iPhone to confirm.

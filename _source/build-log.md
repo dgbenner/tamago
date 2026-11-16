@@ -877,3 +877,10 @@ Part 3, Lingua Libre recordings:
 - The one-off freeze on Urchin was not reproduced (about 1,800 questions in emulated iPhone WebKit, three courses); left alone.
 - Answer sounds live (Dan's picks): correct Warm lift, incorrect Muted minor, at the instant of Check; the voice starts at its usual moment and doesn't cut them off.
 - Interface sounds as files (Debugger, Xerus): still silent on the real iPhone as a Home Screen web app, so the six sounds are rendered to public/sounds/*.wav (scripts/render-cues.mjs from src/lib/cue-recipes.js) and played through audio elements, six of the twelve players; Developer page shows their state and the last sound error.
+
+## 2026-11-16: Italian A1 Parts 2 to 4 (overnight; Developer only)
+
+- Parts 2, 3 and 4 built in the Spanish format: 51 circles, Brush-Up C03 to C08, task items with three Read and Answer texts per circle that has them; every A1 task T01 to T13 has a circle.
+- Kelly core 600: 90 (15%) to 175 (29%), 345 (58%), 552 (92%). Full Kelly A1 list 615 of 966 (64%).
+- 3,458 sentences (2,442 Tatoeba, 1,016 drafts). Both audits clean after each part.
+- Mock CELI Impatto at the end of Part 4. Fable candidates and drafts files for each part; nothing swapped.
