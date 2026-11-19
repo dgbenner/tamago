@@ -63,15 +63,17 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 .tg-progress > span { transition-timing-function: var(--tg-ease); transition-duration: 500ms; }
 /* Toast */
 .tg-toast { border-width: 1px; border-style: solid; }
-.k-ios .tg-toast { position: fixed; max-width: 28rem; margin-inline: auto; box-shadow: 0 8px 28px rgb(0 0 0 / 0.16); }
-.tg-toast-icon { width: 2.25rem; }
+/* iOS: a plain, compact banner from the top: the message alone, centred, as wide as its words. */
+.k-ios .tg-toast { position: fixed; inset-inline: 0; width: fit-content; max-width: min(28rem, calc(100vw - 2rem)); margin-inline: auto; padding: 0.625rem 1.125rem; border-radius: 9999px; text-align: center; box-shadow: 0 8px 28px rgb(0 0 0 / 0.16); }
+.k-ios .tg-toast > div > div:first-child:empty { display: none; }
 /* iOS banners are translucent ("glass"); each kind keeps Tamago's colour, let through at 88%. */
 .k-ios .tg-toast.toast-info { background: color-mix(in srgb, var(--toast-info-bg) 88%, transparent); color: var(--toast-info-ink); }
 .k-ios .tg-toast.toast-success { background: color-mix(in srgb, var(--toast-success-bg) 88%, transparent); color: var(--toast-success-ink); }
 .k-ios .tg-toast.toast-warning { background: color-mix(in srgb, var(--toast-warning-bg) 88%, transparent); color: var(--toast-warning-ink); }
 .k-ios .tg-toast.toast-error { background: color-mix(in srgb, var(--toast-error-bg) 88%, transparent); color: var(--toast-error-ink); }
 .k-ios .tg-toast.toast-pass { background: color-mix(in srgb, #15803d 92%, transparent); color: #fff; }
-.k-ios .tg-toast { font-size: 15px; }
+.k-ios .tg-toast, .k-ios .tg-toast .text-sm { font-size: 15px; font-weight: 500; }
+.k-ios .tg-toast.toast-pass, .k-ios .tg-toast.toast-pass .text-sm { font-weight: 600; }
 .k-material .tg-toast { border-radius: 4px; font-size: 14px; letter-spacing: 0.25px; box-shadow: 0 3px 8px rgb(0 0 0 / 0.24); } /* snackbar */
 /* Sheet */
 .tg-sheet { color: var(--ink); max-height: 90dvh; overflow-y: auto; }
@@ -104,7 +106,14 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 .tg-choices .k-list-item > button:disabled { cursor: default; }
 .tg-choices .k-list-item > button:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
 /* Tool pill (chip) */
-.tg-chip { flex: none; scroll-snap-align: start; white-space: nowrap; cursor: pointer; }
+.tg-chip { flex: none; scroll-snap-align: start; white-space: nowrap; cursor: pointer; position: relative; }
+/* The pill keeps its native 32px look; an invisible area above and below brings the tap target to the platform's
+   minimum: 44px on iOS, 48px on Android. The strip gets matching room so the extra area isn't cut off. */
+.tg-chip::after { content: ''; position: absolute; inset-inline: 0; }
+.k-ios .tg-chip::after { inset-block: -6px; }
+.k-material .tg-chip::after { inset-block: -8px; }
+.k-ios nav[aria-label='Tools'] { padding-block: 6px; margin-block: -6px; }
+.k-material nav[aria-label='Tools'] { padding-block: 8px; margin-block: -8px; }
 .tg-chip-icon svg { width: 18px; height: 18px; }
 .k-ios .tg-chip { height: 2rem; border-color: transparent; background: var(--line); font-size: 15px; padding-inline: 0.75rem; }
 .k-ios .tg-chip .tg-chip-icon { margin-inline-start: 0.5rem; display: block; }
@@ -193,6 +202,13 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 .k-ios section[data-outcome] > div > div p.font-semibold { font-size: 17px; letter-spacing: -0.01em; }
 .k-material section[data-outcome] { border-top-width: 0; border-radius: 28px 28px 0 0; box-shadow: 0 -1px 3px rgb(0 0 0 / 0.2), 0 -4px 8px 3px rgb(0 0 0 / 0.1); }
 .k-material section[data-outcome] > div { padding-top: 1.25rem; }
+/* Android has no coloured edge, so a small check or X beside the verdict carries the result as well as the colour. */
+.k-material section[data-outcome] > div > div p.font-semibold::before {
+  content: ''; display: inline-block; width: 18px; height: 18px; margin-inline-end: 6px; vertical-align: -3px; background: currentColor;
+  -webkit-mask: var(--tg-verdict) center / contain no-repeat; mask: var(--tg-verdict) center / contain no-repeat;
+}
+.k-material section[data-outcome='correct'] { --tg-verdict: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 12.5 4.5 4.5L19 7.5'/%3E%3C/svg%3E"); }
+.k-material section[data-outcome='incorrect'] { --tg-verdict: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 6 6 18M6 6l12 12'/%3E%3C/svg%3E"); }
 .k-material section[data-outcome] > div > div p.font-semibold { font-size: 16px; line-height: 24px; font-weight: 500; letter-spacing: 0.15px; }
 .k-material section[data-outcome] .text-sm { font-size: 14px; letter-spacing: 0.25px; }
 .k-ios .icon-btn, .k-material .icon-btn { border-radius: 9999px; transition: opacity var(--tg-fast), background-color var(--tg-fast) var(--tg-ease); }

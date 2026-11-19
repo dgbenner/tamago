@@ -28,10 +28,10 @@ There are two ways a component gets its iOS and Android look:
 
 - **Type:** the system font (San Francisco), with Apple's text styles: 17pt body, 22pt bold titles, 13pt captions, slightly tightened letter spacing.
 - **Shapes:** capsule buttons, large rounded corners on sheets and grouped lists, hairline (half-pixel) dividers.
-- **Tap targets:** at least 44pt tall.
+- **Tap targets:** at least 44pt tall. The tool pill looks 32pt tall and has invisible padding to reach 44.
 - **Pressed:** the control dims; nothing ripples or grows.
 - **Sheets:** rise from the bottom with a grabber at the top.
-- **Messages:** a translucent banner drops from the top. iOS has no toast.
+- **Messages:** a plain, compact, translucent banner drops from the top. iOS has no toast; the banner carries the message alone, with no app icon or title, so it doesn't read as a system notification.
 - **Lists:** one rounded block with rows inside, rather than separate boxes.
 - **Motion:** quick and springy.
 
@@ -39,11 +39,12 @@ There are two ways a component gets its iOS and Android look:
 
 - **Type:** Roboto, with Material's type scale: 22sp titles, 16sp body, 14sp medium labels, slightly opened letter spacing.
 - **Shapes:** fully rounded buttons, 8dp chips, 12dp cards, 28dp top corners on bottom sheets.
-- **Tap targets:** at least 48dp; list rows 56dp.
+- **Tap targets:** at least 48dp; list rows 56dp. The tool chip looks 32dp tall and has invisible padding to reach 48.
 - **Pressed:** a ripple or a soft tinted layer spreads from the touch.
 - **Sheets:** a bottom sheet with a drag handle.
 - **Messages:** a snackbar at the bottom of the screen.
 - **Depth:** shadows mark what sits above the page, instead of borders.
+- **Not by color alone:** with no colored edge on the answer bar, a small check or X sits beside the verdict.
 - **Motion:** Material's "emphasized" curve: fast out, gentle in.
 
 ## What Was Kept on Purpose

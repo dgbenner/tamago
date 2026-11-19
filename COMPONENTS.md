@@ -40,7 +40,7 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
 
 - **File:** `src/components/AnswerBar.jsx`
 - **What it's for:** the bar pinned to the bottom of a lesson once a question is answered. It gives the verdict ("Right!" or "Incorrect"), the translation or the right answer, notes on accents and capitals, and the Continue button.
-- **Styles:** Tamago's own, adapted (iOS: translucent bar, thin edge; Android: rounded top corners and a shadow). Its Continue button is the platform's Button.
+- **Styles:** Tamago's own, adapted (iOS: translucent bar, thin edge; Android: rounded top corners and a shadow, no colored edge, and a small check or X beside the verdict). Its Continue button is the platform's Button.
 - **Main settings:**
   - `q`: the question (its type, the sentence in both languages, the answer shown).
   - `result`: how the answer went (`correct`, what the learner `given`, flags such as `accent` or `typo`).
@@ -180,7 +180,7 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
 
 - **File:** `src/components/ToolTile.jsx`
 - **What it's for:** one tool on the main page (Glossary, Verbs, Progress). ToolPill is the phone shape, a pill in a sideways strip. ToolCard is the wide-screen shape, a card with a line of description.
-- **Styles:** ToolPill is Konsta UI's Chip on iOS and Android; ToolCard is Tamago's own, adapted.
+- **Styles:** ToolPill is Konsta UI's Chip on iOS and Android (32 px tall, with invisible touch padding to 44 px on iOS and 48 px on Android); ToolCard is Tamago's own, adapted.
 - **Main settings:**
   - `tool`: `{ id, label, about, onOpen, quiet }`. `id` picks the icon; `quiet` is Developer's dashed, muted look.
 
@@ -232,7 +232,7 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
 
 - **File:** `src/components/Toast.jsx`
 - **What it's for:** a short message that slides down from the top, holds about 3 seconds and leaves by itself.
-- **Styles:** Konsta UI's Notification on iOS (a banner from the top with the sushi icon) and Konsta UI's Toast on Android (a snackbar at the bottom).
+- **Styles:** Konsta UI's Notification on iOS (a plain, compact banner from the top: the message alone, no icon or title) and Konsta UI's Toast on Android (a snackbar at the bottom).
 - **Main settings:**
   - `line`: `{ id, kind, text }`, or `null` for none. `kind` is `info`, `success` or `pass` (a passed lesson: green and larger); `warning` and `error` are styled but not used in the app yet. A new `id` plays it again.
   - `onGone()`: called when it has left.
@@ -272,5 +272,5 @@ Places where the app builds something close to a component here, on its own. Can
 - **A dark-mode gap in the tokens.** `--electric` has a dark value (`#5c9bff`) only when the device is dark; choosing Dark in Settings keeps the light blue `#1f6dfb`. The Colors page shows it as "same as light".
 - **Two toast kinds are not used in the app yet.** `warning` and `error` are styled in `src/index.css`, but the app only sends `info`, `success` and `pass`. Kept in the library and labeled (Dan, 2026-11-19).
 - **The Sheet's two platform shapes are chosen in code.** Tamago's Sheet switches from bottom sheet to pop-up with CSS alone at 1024px; the iOS and Android version picks Konsta's Sheet or Popup by measuring the window. Two mechanisms for one rule.
-- **A right answer is marked two ways.** Tamago's ChoiceList shows it with a green edge and no icon; the iOS and Android lists add a small green check drawn inside `src/components/platform/ChoiceList.jsx`. The check is not in `icons.jsx`.
+- **A check on right answers is worth considering for Tamago.** Tamago's ChoiceList shows a right answer by a green edge alone, so right is carried by color only. The iOS and Android lists add a small green check (kept there: Dan, 2026-11-19; drawn inside `src/components/platform/ChoiceList.jsx`, not in `icons.jsx`). Giving Tamago's own list the same check would help anyone who can't tell the green from the red. The Android answer bar has the same kind of mark beside its verdict; Tamago's and the iOS bar rely on the colored edge and the word.
 - **Style hooks.** The adapted components are found by the stylesheet through `data-ds` attributes (sentence, first-sight, level-line, flag-row, tool-card, sheet-head) and a few existing class names. One naming scheme for all of them would be tidier.

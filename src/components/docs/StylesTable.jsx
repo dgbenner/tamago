@@ -70,7 +70,7 @@ const ROWS = [
     [
       "",
       "Konsta Notification",
-      ": a translucent banner from the top with the sushi icon"
+      ": a plain, compact, translucent banner from the top: the message alone"
     ],
     [
       "",
@@ -83,12 +83,12 @@ const ROWS = [
     [
       "",
       "Konsta Chip",
-      ": a filled capsule"
+      ": a filled capsule, 32px tall with an invisible 44pt tap area"
     ],
     [
       "",
       "Konsta Chip",
-      ": an outlined chip with 8dp corners"
+      ": an outlined chip with 8dp corners, 32dp tall with an invisible 48dp tap area"
     ]
   ],
   [
@@ -106,7 +106,7 @@ const ROWS = [
       "Adapted: translucent bar with a thin colored edge; its Continue is the iOS Button"
     ],
     [
-      "Adapted: 28dp top corners and a shadow, no edge; its Continue is the Android Button"
+      "Adapted: 28dp top corners and a shadow, no edge; a small check or X beside the verdict; its Continue is the Android Button"
     ]
   ],
   [
