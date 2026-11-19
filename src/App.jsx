@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, tables, unitContent } from './lib/content.js'
 import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, takeDevJump } from './lib/course.js'
 import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining, buildCatchUp, catchUpItems } from './lib/lesson.js'
-import { brushUpSpan, inSpan, isLit } from './lib/tree-reach.js'
+import { brushUpGreen, brushUpSpan, inSpan, isLit } from './lib/tree-reach.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
@@ -623,9 +623,12 @@ export default function App() {
     // Everything waiting, not just one session's ten: the badge and the caption count it all (Dan, 2026-11-14).
     const items = catchUpForSlot(c, Infinity)
     const available = layout.filter((t) => t.row === c.after_row).some((t) => isLive(t.unit_id))
-    // Done (green ring): open, nothing left to brush up, and lessons done above it (an untouched part isn't done).
-    const started = [...catchUpUnits(c)].some((u) => progressOf(u).lessons_done > 0)
-    return { ...c, afterRow: c.after_row, available, done: available && started && items.length === 0,
+    // Done (green ring; Dan, 2026-11-18, tree-reach.js brushUpGreen): nothing left inside, and either the learner has
+    // worked through it (started it, or settled it before that was recorded) or every circle it covers is finished.
+    const units = [...catchUpUnits(c)]
+    const allFinished = units.length > 0 && units.every((u) => progressOf(u).round_reached >= 5)
+    return { ...c, afterRow: c.after_row, available,
+      done: brushUpGreen({ available, waiting: items.length, engaged: catchupOpened[c.slot_id] || catchupSettled[c.slot_id], allFinished }),
       lit: isLit({ row: c.after_row, startedRows, used: catchupOpened[c.slot_id] }),
       count: items.length, mistakes: items.filter((x) => x.kind === 'sentence' || x.missed).length }
   })

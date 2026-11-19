@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { brushUpSpan, inSpan, isLit, reachedRow } from '../src/lib/tree-reach.js'
+import { brushUpGreen, brushUpSpan, inSpan, isLit, reachedRow } from '../src/lib/tree-reach.js'
 
 // Dan, 2026-11-18: Brush-Ups, checkpoints and part reviews stay faded until the learner gets there or uses them.
 const slots = [{ slot_id: 'C01', after_row: 5 }, { slot_id: 'C02', after_row: 7 }, { slot_id: 'C03', after_row: 12 }]
@@ -28,4 +28,12 @@ test('faded until a circle in the row above it, or below it, has been started', 
 test('using it lights it wherever the learner is', () => {
   assert.equal(isLit({ row: 12, startedRows: [1], used: true }), true)
   assert.equal(isLit({ row: 12, startedRows: [1], used: null }), false)
+})
+
+test('a Brush-Up is green only when it is empty and was worked through, or everything it covers is finished', () => {
+  assert.equal(brushUpGreen({ available: true, waiting: 0, engaged: true }), true) // every item inside answered
+  assert.equal(brushUpGreen({ available: true, waiting: 0, allFinished: true }), true) // a perfect run above it
+  assert.equal(brushUpGreen({ available: true, waiting: 0 }), false) // a lesson or two above it, nothing missed yet
+  assert.equal(brushUpGreen({ available: true, waiting: 2, engaged: true, allFinished: true }), false) // a new miss
+  assert.equal(brushUpGreen({ available: false, waiting: 0, engaged: true }), false)
 })

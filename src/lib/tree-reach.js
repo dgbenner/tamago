@@ -20,3 +20,10 @@ export function brushUpSpan(slots, slot) {
   return { from: before.length ? Math.max(...before) + 1 : -Infinity, to: slot.after_row }
 }
 export const inSpan = (row, span) => row != null && row >= span.from && row <= span.to
+
+// The full green ring on a Brush-Up (Dan, 2026-11-18): nothing is left inside it, and either the learner has worked
+// through it (started it, and every item since is answered) or every circle it covers is finished, so there was
+// nothing to miss. One lesson done above an empty Brush-Up is not enough. A new miss in its stretch fills it again and
+// the green goes until that is answered.
+export const brushUpGreen = ({ available, waiting, engaged = false, allFinished = false }) =>
+  Boolean(available) && waiting === 0 && (Boolean(engaged) || Boolean(allFinished))
