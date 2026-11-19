@@ -1,8 +1,8 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { chooseCourse } from '../lib/course.js'
-import { FlagRow } from './Languages.jsx'
+import { FlagRow } from '../components/FlagRow.jsx'
 import { site, version } from '../lib/version.js'
-import { LETTERS, Letter, LetterStrokes, SushiMark, VIEW, splashViewBox } from './Logo.jsx'
+import { LETTERS, Letter, LetterStrokes, SushiMark, VIEW, splashViewBox } from '../components/Logo.jsx'
 
 // Each letter is revealed by its own mask, which follows the same strokes.
 const LETTER_MS = 260

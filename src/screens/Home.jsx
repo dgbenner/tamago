@@ -1,15 +1,18 @@
 import { useEffect, useRef, useState } from 'react'
 import { cue } from '../lib/audio.js'
-import { LogoInline, SushiMark } from './Logo.jsx'
-import { IconBack, IconBars, IconBook, IconCode, IconCheckered, IconComment, IconForward, IconGear, IconRepeat, IconStudy, IconVerb } from './icons.jsx'
+import { LogoInline, SushiMark } from '../components/Logo.jsx'
+import { IconBack, IconCheckered, IconComment, IconForward, IconGear } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
-import { FlagRow } from './Languages.jsx'
-import CircleNode from './CircleNode.jsx'
+import { FlagRow } from '../components/FlagRow.jsx'
+import CircleNode from '../components/CircleNode.jsx'
 import { GrammarNoteBody } from './GrammarNote.jsx'
 import { tables } from '../lib/content.js'
+import LevelLine from '../components/LevelLine.jsx'
 import { Sheet, SheetHead } from '../components/Sheet.jsx'
+import Toast from '../components/Toast.jsx'
+import { ToolCard, ToolPill } from '../components/ToolTile.jsx'
 
-// A tree node is a circle (Circle Lab design, approved 2026-11-10; src/screens/CircleNode.jsx): its sushi on a warm
+// A tree node is a circle (Circle Lab design, approved 2026-11-10; src/components/CircleNode.jsx): its sushi on a warm
 // disc, one ring that fills across all its lessons, the title. "Start Here" shows on the first
 // circle only, the first time. Pick Your Own wears its misc dish, before and after a topic is chosen (Dan, 2026-11-11).
 // Tapping an open circle goes straight into its lesson (Dan, 2026-11-12); the sheet stays for a locked circle (why
@@ -431,17 +434,6 @@ function ICanSheet({ level, onCheck, onClose }) {
   )
 }
 
-function Marker({ label }) {
-  return (
-    <li className="flex w-full items-center gap-3 text-sm text-muted" aria-label={`Level: ${label}`}>
-      <span className="h-0.5 flex-1 bg-line" />
-      <span className="italic">{label}</span>
-      <span className="h-0.5 flex-1 bg-line" />
-    </li>
-  )
-}
-
-const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars, practice: IconRepeat, talk: IconComment, developer: IconCode }
 // Tools in alphabetical order, Developer (the quiet one) always last (Dan, 2026-11-11).
 const toolOrder = (tools) => [...tools.filter((t) => !t.quiet).sort((a, b) => a.label.localeCompare(b.label)), ...tools.filter((t) => t.quiet)]
 // Practice Mistakes' line: never "mistakes", nothing critical; the count changes.
@@ -453,35 +445,14 @@ function Tools({ tools }) {
     // A compact single row on phones (Dan, 2026-11-15: the tiles took about a third of the screen): pills with the
     // icon beside the label, so the tree starts higher; it still scrolls sideways when they don't all fit.
     <nav aria-label="Tools" className="no-scrollbar -mx-4 flex snap-x gap-2 overflow-x-auto px-4 lg:hidden">
-      {tools.map((t) => {
-        const Icon = TOOL_ICONS[t.id]
-        return (
-          // Developer is quieter: dashed outline, no fill, muted text; not a learning tool.
-          <button key={t.id} onClick={t.onOpen} data-tool={t.id} className={`flex min-h-10 shrink-0 snap-start items-center gap-1.5 rounded-full border-2 px-3 py-1 text-sm leading-none whitespace-nowrap ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface font-medium'}`}>
-            <span className={`[&_svg]:size-5 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
-            <span className={t.quiet ? 'dev-tiny' : ''}>{t.label}</span>
-          </button>
-        )
-      })}
+      {tools.map((t) => <ToolPill key={t.id} tool={t} />)}
     </nav>
   )
 }
 
 // The right-hand panel on a wide screen: each tool with a line on what it's for; a tool opens here, in place.
 function ToolMenu({ tools }) {
-  const card = (t) => {
-    const Icon = TOOL_ICONS[t.id]
-    return (
-      <button key={t.id} onClick={t.onOpen} className={`@container flex items-start gap-3 rounded-xl border-2 p-3 text-left hover:border-muted ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface'}`}>
-        <span className={`mt-0.5 shrink-0 [&_svg]:size-6 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
-        {/* Developer: tiny type at half strength, like the carousel's dev jump. */}
-        <span className="flex flex-col gap-0.5">
-          <span className={t.quiet ? 'dev-tiny font-semibold' : 'font-semibold'}>{t.label}</span>
-          <span className={`max-w-[80cqw] ${t.quiet ? 'dev-tiny' : 'text-sm text-muted'}`}>{t.about}</span>
-        </span>
-      </button>
-    )
-  }
+  const card = (t) => <ToolCard key={t.id} tool={t} />
   return (
     // The learning tools: every card the height of the tallest, evenly spaced; each line at most 80% of the card's
     // width. Developer sits below, out of the matching, and stays short (Dan, 2026-11-11).
@@ -577,7 +548,7 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
           const ican = i > 0 && iCan.find((lv) => lv.beforeRow === n)
           return [
             ican && <ICanNode key={`ic${i}`} level={ican} onPick={setICanPicked} />,
-            marker && <Marker key={`m${i}`} label={marker.label} />,
+            marker && <LevelLine key={`m${i}`} label={marker.label} />,
             // Responsive spacing (Dan, 2026-11-11): each circle takes an equal share up to its full size, the gap shrinks
             // with the screen, so a row of three always fits the tree, titles included.
             <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
@@ -594,15 +565,12 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
         {iCan.filter((lv) => lv.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((lv) => <ICanNode key={`ic-${lv.label}`} level={lv} onPick={setICanPicked} />)}
         {finalCheck && <li><FinalNode fc={finalCheck} onPick={() => setFinalOpen(true)} /></li>}
         {part && <PartEnd part={part} onReview={() => setReviewOpen(true)} onPartView={onPartView} onJumpPart={onJumpPart} />}
-        {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <Marker key={m.label} label={m.label} />)}
+        {markers.filter((m) => m.beforeRow > (rows.at(-1)?.row ?? rows.length)).map((m) => <LevelLine key={m.label} label={m.label} />)}
       </ol>
 
       {/* Toasts (Dan, 2026-11-11): the last lesson's score ("8 of 9") and testing notes slide down from the top, hold,
           and slide back up by themselves; no tap. Kinds: info, success, warning, error. */}
-      <div className="toast-region" aria-live="polite">
-        {lastLine && <p key={lastLine.id} className={`toast toast-${lastLine.kind ?? 'info'}`}
-          onAnimationEnd={(e) => { if (e.animationName === 'toast-out' || e.animationName === 'toast-fade') onLastLineGone() }}>{lastLine.text}</p>}
-      </div>
+      <Toast line={lastLine} onGone={onLastLineGone} />
 
       {/* Pinned to the bottom, with a line above, so they're always on screen. */}
       <div className="bar-bottom -mx-4 mt-auto flex flex-col gap-3 px-4 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))]">

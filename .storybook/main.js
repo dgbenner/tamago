@@ -7,5 +7,6 @@ export default {
   },
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx)'],
   addons: ['@storybook/addon-docs'],
+  staticDirs: ['../public'], // the app's pictures: sushi, flags, the logo
   core: { disableTelemetry: true },
 }

@@ -5,6 +5,8 @@ import './preview.css'
 // The answer bar asks the server why an answer was wrong. Stories never call the server: the function is replaced
 // with a stand-in that answers nothing unless a story gives it an explanation.
 sb.mock(import('../src/lib/explain.js'))
+// Sound: the real module, watched, so a story can replace play() with silence (AudioHelp).
+sb.mock(import('../src/lib/audio.js'), { spy: true })
 
 export default {
   parameters: {
@@ -16,7 +18,7 @@ export default {
         desktop: { name: 'Desktop (1440 px)', styles: { width: '1440px', height: '900px' }, type: 'desktop' },
       },
     },
-    options: { storySort: { order: ['Design System Card', 'Components'] } },
+    options: { storySort: { order: ['Design System Card', 'Colors', 'Type and Spacing', 'Icons', 'Components'] } },
   },
   globalTypes: {
     theme: {

@@ -9,16 +9,19 @@ import { audioKey, courseVoiceName, cue, filesIn, play, preload, stop } from '..
 import { whoSpeaks } from '../lib/voice-gender.js'
 import { IconChips, IconClose, IconKeyboard, IconMic, IconSpeaker } from './icons.jsx'
 import { LISTENING, questionLabel } from '../lib/question-names.js'
-import AudioHelp from './AudioHelp.jsx'
 import WordPicture from './WordPicture.jsx'
 import { AVATAR_FILL, fillStyle } from '../lib/person-pictures.js'
 import { usePlaying } from '../lib/use-playing.js'
 import { TL, course } from '../lib/course.js'
 import { tables } from '../lib/content.js'
 import AnswerBar from '../components/AnswerBar.jsx'
+import AudioHelp from '../components/AudioHelp.jsx'
+import Button from '../components/Button.jsx'
 import ChoiceList from '../components/ChoiceList.jsx'
+import ProgressBar from '../components/ProgressBar.jsx'
+import QuestionHeading from '../components/QuestionHeading.jsx'
+import { FirstSight, FrenchText } from '../components/SentenceText.jsx'
 import WrongMark from '../components/WrongMark.jsx'
-import { courseHeading } from '../lib/instructions.js'
 import { FormFill, ListenNumber, ReadText, WriteMessage } from './A1Tasks.jsx'
 
 const PROMPT = {
@@ -38,20 +41,8 @@ function headingFor(q, { hideFrench, typing }) {
   return PROMPT[q.type]
 }
 
-// The heading in the course language from Part 3 on (src/lib/instructions.js), phased in by part; a tap shows the
-// English beside it, and screen readers always hear the English too.
+// The part a unit belongs to: the heading switches to the course language from Part 3 on (QuestionHeading).
 const partOf = (unitId) => Number(tables?.units?.find((u) => u.unit_id === unitId)?.part || 0)
-function Heading({ english, unitId }) {
-  const [open, setOpen] = useState(false)
-  const own = courseHeading(english, partOf(unitId), course.id)
-  if (!own) return english
-  return (
-    <>
-      <button type="button" lang={TL} onClick={() => setOpen(!open)} aria-expanded={open} data-course-heading className="text-left decoration-line decoration-dotted decoration-2 underline-offset-4 hover:underline">{own}</button>
-      {open ? <span lang="en" className="ml-2 text-base font-normal text-muted" data-heading-english>{english}</span> : <span lang="en" className="sr-only"> ({english})</span>}
-    </>
-  )
-}
 
 export default function Lesson({ session, content, settings, seenWords, cantListen, onAnswer, onHint, onFlag, onExit, onAdvance, onFinish, onCantNow }) {
   const q = session.queue[session.index]
@@ -196,10 +187,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
     <main ref={mainRef} className="lesson mx-auto flex min-h-dvh max-w-md flex-col px-4 pt-[max(0.75rem,env(safe-area-inset-top))] lg:max-w-4xl">
       <header className="sticky top-0 z-10 -mx-4 flex items-center gap-3 bg-bg px-4 pb-2">
         <button onClick={onExit} aria-label="Leave lesson" className="icon-btn -ml-2"><IconClose /></button>
-        <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-line" role="progressbar" aria-label="Lesson progress" aria-valuenow={Math.round(barMax.current * 100)} aria-valuemin={0} aria-valuemax={100}>
-          {/* Slides from the old value to the new one as the next question loads (Dan, 2026-11-12). */}
-          <div className="h-full rounded-full bg-green transition-[width] duration-500 ease-in-out motion-reduce:transition-none" style={{ width: `${barMax.current * 100}%` }} />
-        </div>
+        <ProgressBar value={barMax.current} />
         {/* The question type while Developer is on: in the top bar on phones, so it never covers content (craft review,
             2026-11-14); lower left on wide screens. */}
         {settings.developer !== 'off' && <p data-qtype className="pointer-events-none absolute right-4 -bottom-2.5 text-[0.625rem] text-muted lg:hidden">{questionLabel(q.type, course.name)}{voiceLabel(q)}</p>}
@@ -212,7 +200,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
         {q.part && <p className="-mb-3 text-sm font-medium text-muted">{PART_LABEL[q.part]}</p>}
         {/* Answer the Question is a chat (Dan, 2026-11-14): no instruction line; the heading stays for screen readers. */}
         <div className={q.type === 'QT09' ? 'sr-only' : 'flex items-center gap-2'}>
-          <h1 ref={headingRef} tabIndex={-1} className="text-xl font-semibold outline-none"><Heading key={q.qid} english={headingFor(q, { hideFrench, typing })} unitId={q.unit_id ?? session.unit_id} /></h1>
+          <h1 ref={headingRef} tabIndex={-1} className="text-xl font-semibold outline-none"><QuestionHeading key={q.qid} english={headingFor(q, { hideFrench, typing })} part={partOf(q.unit_id ?? session.unit_id)} /></h1>
           {newWords.size > 0 && SHOWS_FRENCH.has(q.type) && !hideFrench && <span className="tag"><span className="new-dot" aria-hidden="true" />New</span>}
         </div>
         <Question key={q.qid} {...props} />
@@ -221,9 +209,9 @@ export default function Lesson({ session, content, settings, seenWords, cantList
       {/* Old Duolingo's switch, on the question itself: faint, bottom centre. It pauses for an hour, like Settings. */}
       {showCantNow && (
         <div className="flex justify-center pb-[max(0.5rem,env(safe-area-inset-bottom))]">
-          <button onClick={() => onCantNow(q.speaking ? 'speak' : 'listen')} className="btn-tertiary text-xs">
+          <Button kind="tertiary" onClick={() => onCantNow(q.speaking ? 'speak' : 'listen')} className="text-xs">
             {q.speaking ? "Can't Speak Now" : "Can't Listen Now"}
-          </button>
+          </Button>
         </div>
       )}
       {/* The question type, lower left, while Developer is on (Dan, 2026-11-12): "QT11 · Type What You Hear". */}
@@ -251,41 +239,6 @@ function SpeakerButton({ audio, slow, label = 'Play', large }) {
       {slow && <span className="text-sm">Slow</span>}
     </button>
   )
-}
-
-// The French, with a dotted underline on each word that has a hint.
-function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null, markNewOnly = false }) {
-  const [open, setOpen] = useState(null)
-  return (
-    <p lang={TL} className="text-2xl leading-relaxed">
-      {q.segments.map((seg, i) => {
-        if (i === blankIndex) {
-          return <span key={i} className="mx-1 inline-block min-w-16 border-b-4 border-ink px-1 text-center font-semibold">{filled ?? ' '}</span>
-        }
-        if (!seg.word_id) return <span key={i}>{seg.text}</span>
-        return (
-          <span key={i} className="relative">
-            <button
-              onClick={() => { setOpen(open === i ? null : i); if (open !== i) onHint(seg) }} aria-expanded={open === i} aria-describedby={open === i ? `hint-${q.qid}-${i}` : undefined}
-              className={markNewOnly && !newWords.has(seg.word_id) ? '' : 'underline decoration-dotted decoration-2 underline-offset-4'}
-            >{seg.text}</button>
-            {/* The new-word dot sits on the word like a superscript, not between words like a bullet. */}
-            {newWords.has(seg.word_id) && <span className="new-dot absolute -top-0.5 left-full ml-0.5 size-1.5" aria-hidden="true" />}
-            {open === i && (
-              <span id={`hint-${q.qid}-${i}`} role="tooltip" lang="en" className="absolute top-full left-0 z-10 mt-1 w-max max-w-[min(18rem,80vw)] rounded-lg border-2 border-line bg-surface px-3 py-1.5 text-base shadow-md">{seg.hint}</span>
-            )}
-          </span>
-        )
-      })}
-    </p>
-  )
-}
-
-// First sight: a new word's meaning shows with it. Not a hint, so it isn't logged.
-function FirstSight({ q, newWords, except = null }) {
-  const lines = (q.segments ?? []).filter((seg, i) => i !== except && seg.word_id && newWords.has(seg.word_id) && seg.hint)
-  if (lines.length === 0) return null
-  return <p className="text-sm text-muted">{lines.map((seg) => `${seg.text.toLowerCase()} = ${seg.hint}`).join(', ')}</p>
 }
 
 // Answer the Question is a chat (Dan, 2026-11-14), and the only question type with bubbles: the speaker's question in
@@ -433,7 +386,7 @@ function Speak({ q, result, onAnswer, newWords, onHint, settings }) {
                 <>
                   <button onClick={() => play(q.audio)} className="btn-secondary inline-flex items-center gap-2 px-4"><span aria-hidden="true"><IconSpeaker playing={modelPlaying} /></span>{model}</button>
                   <button onClick={rec.playBack} className="btn-secondary inline-flex items-center gap-2 px-4"><span aria-hidden="true"><IconSpeaker playing={yoursPlaying} /></span>Yours</button>
-                  <button onClick={rec.start} className="btn-tertiary text-xs">Record Again</button>
+                  <Button kind="tertiary" onClick={rec.start} className="text-xs">Record Again</Button>
                 </>
               )}
             </div>
@@ -442,7 +395,7 @@ function Speak({ q, result, onAnswer, newWords, onHint, settings }) {
       {!result && !compare && <p className="text-sm text-muted">Say it aloud, then tap Done.</p>}
       {!result && (
         <div className="action-row">
-          <button data-check onClick={done} disabled={compare && rec.state !== 'done' && rec.state !== 'unavailable'} className="btn-submit w-full">Done</button>
+          <Button kind="submit" data-check onClick={done} disabled={compare && rec.state !== 'done' && rec.state !== 'unavailable'} className="w-full">Done</Button>
         </div>
       )}
     </>
@@ -496,7 +449,7 @@ function PickHeard({ q, result, onAnswer, wordsShown, onShowWords }) {
           )
         })}
       </div>
-      {!result && <div className="action-row"><button data-check disabled={!chosen} onClick={() => { const pick = q.audioChoices.find((x) => x.sentence_id === chosen); onAnswer({ correct: chosen === q.answer, given: pick?.french, against: [q.shown] }) }} className="btn-submit w-full">Check</button></div>}
+      {!result && <div className="action-row"><Button kind="submit" data-check disabled={!chosen} onClick={() => { const pick = q.audioChoices.find((x) => x.sentence_id === chosen); onAnswer({ correct: chosen === q.answer, given: pick?.french, against: [q.shown] }) }} className="w-full">Check</Button></div>}
     </>
   )
 }
@@ -741,7 +694,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
           <button onClick={() => setTyping(!typing)} aria-label={typing ? 'Use word chips' : 'Use the keyboard'} className="icon-btn border-2 border-line">
             {typing ? <IconChips /> : <IconKeyboard />}
           </button>
-          <button data-check disabled={typing ? !text.trim() : picked.length === 0} onClick={() => check(typing ? text : answerText)} className="btn-submit flex-1">Check</button>
+          <Button kind="submit" data-check disabled={typing ? !text.trim() : picked.length === 0} onClick={() => check(typing ? text : answerText)} className="flex-1">Check</Button>
         </div>
       )}
     </>
@@ -903,7 +856,7 @@ function Typed({ q, content, settings, result, onAnswer, newWords, hideFrench, o
       {q.type === 'QT09'
         ? <ReplyBubble wide className="focus-within:border-ink"><TypedInput q={q} bare value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} /></ReplyBubble>
         : <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} />}
-      {!result && <div className="check-row"><button data-check disabled={!text.trim()} onClick={check} className="btn-submit flex-1">Check</button></div>}
+      {!result && <div className="check-row"><Button kind="submit" data-check disabled={!text.trim()} onClick={check} className="flex-1">Check</Button></div>}
     </>
   )
 }
@@ -922,7 +875,7 @@ function TypeWord({ q, content, settings, result, onAnswer }) {
         <p lang="en" className="text-2xl leading-relaxed">{q.hint}</p>
       </div>
       <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} />
-      {!result && <div className="check-row"><button data-check disabled={!text.trim()} onClick={check} className="btn-submit flex-1">Check</button></div>}
+      {!result && <div className="check-row"><Button kind="submit" data-check disabled={!text.trim()} onClick={check} className="flex-1">Check</Button></div>}
     </>
   )
 }

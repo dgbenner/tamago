@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import { IconInfo, IconLock, IconNotebookPen } from './icons.jsx'
+import { IconInfo, IconLock, IconNotebookPen } from '../screens/icons.jsx'
 
 // The new tree circle (Dan, 2026-11-10; in the lab at /lab.html, not on the live tree yet). The learner sees a circle
 // and its lessons, named by its title: no unit numbers, no rounds, no segments. The five rounds still run underneath;

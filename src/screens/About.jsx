@@ -1,4 +1,4 @@
-import Logo from './Logo.jsx'
+import Logo from '../components/Logo.jsx'
 import { IconBack } from './icons.jsx'
 import { TL } from '../lib/course.js'
 

@@ -5,6 +5,7 @@ import { play } from '../lib/audio.js'
 import { IconComment, IconFlag, IconWhy } from '../screens/icons.jsx'
 import { LISTENING } from '../lib/question-names.js'
 import { TL } from '../lib/course.js'
+import Button from './Button.jsx'
 
 // The bar that rises from the bottom once a question is answered: the verdict, the translation or the right answer,
 // notes on accents and capitals, Why?, flag, comment, and Continue. Lifted from Lesson.jsx unchanged (design-system branch).
@@ -102,7 +103,7 @@ export default function AnswerBar({ q, result, cantListen, flagReasons, onFlag, 
               ))}
             </div>
           ))}
-        <button autoFocus onClick={onContinue} className="btn-primary">Continue</button>
+        <Button kind="primary" autoFocus onClick={onContinue}>Continue</Button>
       </div>
     </section>
   )

@@ -50,8 +50,8 @@ test('no other question type uses bubbles', () => {
 })
 test('the logo picture is used by the logo alone', async () => {
   const { readFileSync, readdirSync } = await import('node:fs')
-  const dir = new URL('../src/screens/', import.meta.url)
-  const users = readdirSync(dir).filter((f) => /logo\.webp/.test(readFileSync(new URL(f, dir), 'utf8').replace(/\{\/\*[\s\S]*?\*\/\}/g, '')))
+  // Logo.jsx moved to src/components on the design-system branch; both folders are read (stories aside).
+  const users = ['../src/screens/', '../src/components/'].flatMap((d) => { const dir = new URL(d, import.meta.url); return readdirSync(dir).filter((f) => /\.jsx$/.test(f) && !/\.stories\.jsx$/.test(f)).filter((f) => /logo\.webp/.test(readFileSync(new URL(f, dir), 'utf8').replace(/\{\/\*[\s\S]*?\*\/\}/g, ''))) })
   assert.deepEqual(users, ['Logo.jsx'])
 })
 

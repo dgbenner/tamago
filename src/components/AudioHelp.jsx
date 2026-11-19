@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { audioKey, play } from '../lib/audio.js'
 import { usePlaying } from '../lib/use-playing.js'
-import { IconSpeaker } from './icons.jsx'
+import { IconSpeaker } from '../screens/icons.jsx'
+import Button from './Button.jsx'
 
 // Audio help on every listening question (Dan, 2026-11-12, batch 2): the speaker alone up front, no Slow button. After
 // the learner's first replay, two text links appear to its right, in the Can't Listen Now style: Slow (clearly slower)
@@ -16,8 +17,8 @@ export default function AudioHelp({ audio, words = null, wordsShown = false, onS
         <button onClick={() => { play(audio); setReplayed(true) }} aria-label={label} className={`inline-flex shrink-0 items-center justify-center ${bare ? '-m-1 h-11 w-11 rounded-full' : 'mr-1 h-16 w-16 rounded-xl border-2 border-line bg-surface'}`}>
           <span aria-hidden="true"><IconSpeaker playing={playing} /></span>
         </button>
-        {replayed && <button onClick={() => play(audio, { slow: true })} className="btn-tertiary text-xs" data-slow>Slow</button>}
-        {replayed && words && onShowWords && !wordsShown && <button onClick={onShowWords} className="btn-tertiary text-xs" data-show-words>Show Words</button>}
+        {replayed && <Button kind="tertiary" onClick={() => play(audio, { slow: true })} className="text-xs" data-slow>Slow</Button>}
+        {replayed && words && onShowWords && !wordsShown && <Button kind="tertiary" onClick={onShowWords} className="text-xs" data-show-words>Show Words</Button>}
       </div>
       {wordsShown && words}
     </>

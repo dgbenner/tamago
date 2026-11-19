@@ -69,6 +69,164 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 </Sheet>
 ```
 
+## Button
+
+- **File:** `src/components/Button.jsx`
+- **What it's for:** the app's buttons by kind, so the look is chosen by one word instead of a class name.
+- **Main settings:**
+  - `kind`: `submit` (yellow, the main action: Check, Done, Start Lesson), `primary` (green: Continue), `secondary` (outlined), `tertiary` (a quiet text link: Back, Slow, Can't Listen Now).
+  - `className`: extra layout classes, such as `w-full`.
+  - Everything else (`onClick`, `disabled`, and so on) passes straight to the button.
+
+```jsx
+<Button kind="submit" disabled={!text} onClick={check} className="w-full">Check</Button>
+<Button kind="tertiary" onClick={back}>Back</Button>
+```
+
+## ProgressBar
+
+- **File:** `src/components/ProgressBar.jsx`
+- **What it's for:** the green bar at the top of a lesson. The fill slides to each new value.
+- **Main settings:**
+  - `value`: how far along, from 0 to 1.
+  - `label`: the name read by screen readers (default "Lesson progress").
+
+```jsx
+<ProgressBar value={answered / total} />
+```
+
+## QuestionHeading
+
+- **File:** `src/components/QuestionHeading.jsx`
+- **What it's for:** the text of a question's heading ("Translate", "Pick the Meaning"). From Part 3 it is in the course language; a tap shows the English beside it.
+- **Main settings:**
+  - `english`: the heading in English.
+  - `part`: the part of the course the question belongs to; decides the language.
+
+```jsx
+<h1 className="text-xl font-semibold"><QuestionHeading english="Pick the Meaning" part={3} /></h1>
+```
+
+## AudioHelp
+
+- **File:** `src/components/AudioHelp.jsx`
+- **What it's for:** the play button on every listening question. After the first replay, two text links appear beside it: Slow and Show Words.
+- **Main settings:**
+  - `audio`: what to play (a recording, or text for the device voice).
+  - `words`: what to show when Show Words is tapped.
+  - `wordsShown`: `true` once they are showing.
+  - `onShowWords()`: called by Show Words.
+  - `bare`: `true` inside a speech bubble, where the button has no frame of its own.
+  - `label`: the button's name for screen readers.
+
+```jsx
+<AudioHelp audio={q.audio} words={<p>{q.french}</p>} wordsShown={shown} onShowWords={() => setShown(true)} />
+```
+
+## SentenceText (FrenchText and FirstSight)
+
+- **File:** `src/components/SentenceText.jsx`
+- **What it's for:** FrenchText is the sentence in the course language, each word tappable for its meaning. FirstSight is the line under it that gives a new word's meaning the first time it appears.
+- **Main settings:**
+  - `q`: the question; its `segments` are the words, each with its hint.
+  - `newWords`: the ids of words new in this lesson; they get an orange dot.
+  - `onHint(segment)`: called when a hint is opened.
+  - FrenchText `blankIndex`, `filled`: turns one word into a gap (Fill in the Blank) and fills it.
+  - FrenchText `markNewOnly`: underline only the new words.
+  - FirstSight `except`: a word to leave out (the blank).
+
+```jsx
+<FrenchText q={q} newWords={newWords} onHint={logHint} />
+<FirstSight q={q} newWords={newWords} />
+```
+
+## CircleNode
+
+- **File:** `src/components/CircleNode.jsx`
+- **What it's for:** a lesson circle on the main page: the sushi on a disc, a ring that fills as lessons are done, and the title.
+- **Main settings:**
+  - `title`, `icon`: the name and the sushi picture.
+  - `lessonsDone`, `lessonsTotal`: how full the ring is. Equal means finished.
+  - `recall`: from 0 to 1; a finished ring fades as recall drops.
+  - `early`: `true` for a circle ahead of the learner: faded, still tappable.
+  - `marker`: `"start"` shows "Start Here" above the first circle.
+  - `onPick()`: called by a tap. `onInfo()`, `onNote()`: add the two small icons beside it.
+  - `caption`, `badge`, `ring`: for a Brush-Up (a line under the title, a count, no ring).
+
+```jsx
+<CircleNode title="At the Café" icon="/sushi/nigiri/aburi-salmon-nigiri.webp" lessonsDone={8} lessonsTotal={20} onPick={startLesson} />
+```
+
+## ToolTile (ToolPill and ToolCard)
+
+- **File:** `src/components/ToolTile.jsx`
+- **What it's for:** one tool on the main page (Glossary, Verbs, Progress). ToolPill is the phone shape, a pill in a sideways strip. ToolCard is the wide-screen shape, a card with a line of description.
+- **Main settings:**
+  - `tool`: `{ id, label, about, onOpen, quiet }`. `id` picks the icon; `quiet` is Developer's dashed, muted look.
+
+```jsx
+<ToolPill tool={{ id: 'glossary', label: 'Glossary', onOpen: openGlossary }} />
+<ToolCard tool={{ id: 'glossary', label: 'Glossary', about: 'Every word, with its meaning', onOpen: openGlossary }} />
+```
+
+## FlagRow
+
+- **File:** `src/components/FlagRow.jsx`
+- **What it's for:** the grid of course flags, on the opening screen and in Settings. Courses not ready yet are faded and say "Coming Soon" when tapped.
+- **Main settings:**
+  - `size`: `md` (Settings; the running course is outlined) or `lg` (the opening screen).
+  - `onPick(courseId)`: called with the chosen course. Without it, a tap switches course and reloads the app.
+
+```jsx
+<FlagRow size="lg" onPick={(id) => chooseCourse(id)} />
+```
+
+## Logo (Logo, LogoInline, SushiMark)
+
+- **File:** `src/components/Logo.jsx`
+- **What it's for:** Logo is the full logo, the three-line wordmark with the sushi in front. LogoInline is the main page's header wordmark, one yellow line. SushiMark is the sushi picture alone.
+- **Main settings:**
+  - `className` on LogoInline and SushiMark, for size and position. Logo takes none.
+
+```jsx
+<Logo />
+<LogoInline />
+<SushiMark className="w-full" />
+```
+
+## LevelLine
+
+- **File:** `src/components/LevelLine.jsx`
+- **What it's for:** the thin line across the tree that names the level reached ("Early A1"). A list item, because the tree is a list.
+- **Main settings:**
+  - `label`: the level's name.
+
+```jsx
+<LevelLine label="Early A1" />
+```
+
+## Toast
+
+- **File:** `src/components/Toast.jsx`
+- **What it's for:** a short message that slides down from the top, holds about 3 seconds and leaves by itself.
+- **Main settings:**
+  - `line`: `{ id, kind, text }`, or `null` for none. `kind` is `info`, `success`, `warning`, `error` or `pass` (a passed lesson: green and larger). A new `id` plays it again.
+  - `onGone()`: called when it has left.
+
+```jsx
+<Toast line={{ id: Date.now(), kind: 'pass', text: 'Say Hi · 8 of 10 · Nicely Done' }} onGone={clear} />
+```
+
+## Icons
+
+- **File:** `src/screens/icons.jsx` (not moved; 28 files import it)
+- **What it's for:** every icon in the app, 21 in all, drawn as lines in the text's color. Storybook's Icons page shows each with its name.
+- **Main settings:** none, except `IconSpeaker playing` and `IconMic live`, which animate.
+
+```jsx
+<span className="[&_svg]:size-5"><IconBook /></span>
+```
+
 ## Also Lifted
 
 - **WrongMark** (`src/components/WrongMark.jsx`): the small red X with "Incorrect" beside a wrong answer. ChoiceList needs it and so do seven other places in `Lesson.jsx`, so it moved out with ChoiceList.
@@ -78,3 +236,13 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 Places where the app builds something close to a component here, on its own. Candidates to merge later; nothing is changed yet.
 
 - **Pick What You Heard builds its own choice list** (`PickHeard` in `src/screens/Lesson.jsx`). It looks like ChoiceList but has a picked state: a tap turns the choice orange (`choice-selected`) and the answer waits for Check. ChoiceList has no picked state, since its tap is checked at once. Merging the two would mean giving ChoiceList an optional "pick first, then Check" mode.
+- **Buttons are still mostly plain class names.** Button is used on the question page (Check, Done, Continue, the text links). Everywhere else the app still writes `<button className="btn-submit">` and the like by hand, about 110 places. Same look either way; one way would be simpler.
+- **Button names don't match the app's own words.** The class `btn-primary` is the green Continue button, while the app's rule is "yellow is the primary colour" (`btn-submit`). Button keeps the class names for now; clearer names (`main`, `continue`) could come with the merge above.
+- **Two play buttons.** AudioHelp has its own speaker button; `SpeakerButton` in `Lesson.jsx` is a second one (Type What You Hear, Speak and Compare, word pictures) with a slightly different frame and no Slow or Show Words. A third, smaller speaker sits inside each Pick What You Heard choice.
+- **Two ways to show a sentence.** FrenchText draws the sentence with hints; Pick What You Heard writes it as a plain paragraph with the same size classes, and Read and Answer has its own `HintLine` in `A1Tasks.jsx`.
+- **The New tag and the new-word dot are bare markup.** `<span className="tag">` and `<span className="new-dot">` are written out wherever they appear; no component.
+- **The progress bar's look appears elsewhere by hand.** The Verbs trainer and the Progress page (three bars) draw the same track and fill with their own markup.
+- **Two tool shapes, one list.** ToolPill and ToolCard draw the same tool two ways; Home picks by screen width. Could be one ToolTile with a `shape` setting.
+- **Colors written straight into the code** (see Storybook's Colors page): the passed-lesson toast's green `#15803d` and edge `#116b33`, and the points chip's blue `#1f6dfb`.
+- **A dark-mode gap in the tokens.** `--electric` has a dark value (`#5c9bff`) only when the device is dark; choosing Dark in Settings keeps the light blue `#1f6dfb`. The Colors page shows it as "same as light".
+- **Two toast kinds are never sent.** `warning` and `error` are styled in `src/index.css`, but the app only sends `info`, `success` and `pass`.

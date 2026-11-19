@@ -12,15 +12,46 @@ A design system is a shared set of parts (buttons, lists, sheets) with one agree
 
 ## The Plan
 
-- **Now: Tamago's current look.** Three components lifted out of the app's big files, looking and behaving exactly as they do in the app: ChoiceList, AnswerBar and Sheet.
+- **Now: Tamago's current look.** The first set of components lifted out of the app's big files, looking and behaving exactly as they do in the app. This step is done; the list is below.
 - **Later: iOS and Android styles.** The same components in the native look of each platform, taken from Konsta UI. Konsta UI is not installed yet.
 - **Then: two screens.** The work ends with two whole screens built from these parts: the main page and a question page.
 
+## What's in the Library
+
+**Foundations** (the raw materials every part is made from)
+
+- **Colors**: every named color, in light and dark, and where it's used.
+- **Type and Spacing**: the text sizes, gaps, corners and line widths the app uses.
+- **Icons**: all 21 icons with their names.
+
+**From the question page**
+
+- **Button**: Check, Continue, and the quiet text link.
+- **ProgressBar**: the bar at the top of a lesson.
+- **QuestionHeading**: "Translate", "Pick the Meaning".
+- **AudioHelp**: the play button with Slow and Show Words.
+- **SentenceText**: the sentence with tappable word hints, and the new-word meaning under it.
+- **ChoiceList**: the column of answer choices.
+- **AnswerBar**: the verdict bar with Continue.
+
+**From the main page**
+
+- **CircleNode**: the lesson circle.
+- **ToolTile**: a tool, as a pill or a card.
+- **FlagRow**: the course flags.
+- **Logo**: the wordmark and the sushi.
+- **LevelLine**: the "Early A1" line across the tree.
+- **Sheet**: the bottom sheet or pop-up.
+
+**Shared**
+
+- **Toast**: the message that slides down from the top.
+
+Stories are silent: nothing plays sound or calls the server.
+
 ## Where the Colors Come From
 
-Every color is defined once, in `src/index.css`, as a named value: `--bg` (page), `--surface` (cards and sheets), `--ink` (text), `--muted` (quiet text), `--line` (borders), `--accent` (yellow, the main button), `--green`, `--orange`, `--right` and `--wrong`.
-
-The same file holds a second set of values for dark. Components never name a color directly; they use the names, so switching between light and dark changes everything at once.
+Every color is defined once, in `src/index.css`, as a named value, and the same file holds a second set for dark. Components never name a color directly; they use the names, so switching between light and dark changes everything at once. The **Colors** page lists them all.
 
 ## How to Use This Storybook
 

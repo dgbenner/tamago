@@ -7,3 +7,12 @@ html:has(#storybook-docs:not([hidden])) body {
   -webkit-user-select: text;
   user-select: text;
 }
+
+/* In the app, #root fills the screen and is the one thing that scrolls (src/index.css). Storybook's root does the
+   same, so a tall story scrolls as a tall page does in the app. */
+#storybook-root {
+  position: fixed;
+  inset: 0;
+  overflow-y: auto;
+  overscroll-behavior: none;
+}

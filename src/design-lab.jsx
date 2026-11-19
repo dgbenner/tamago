@@ -171,7 +171,7 @@ const tablesFor = { fr: () => import('./lib/tables-fr.js'), es: () => import('./
 const [{ course }, { useTables }] = await Promise.all([import('./lib/course.js'), import('./lib/content.js')])
 const { tables } = await tablesFor[course.id]()
 useTables(tables)
-const [{ default: App }, { default: Splash }, { LETTER_X }] = await Promise.all([import('./App.jsx'), import('./screens/Splash.jsx'), import('./screens/Logo.jsx')])
+const [{ default: App }, { default: Splash }, { LETTER_X }] = await Promise.all([import('./App.jsx'), import('./screens/Splash.jsx'), import('./components/Logo.jsx')])
 
 function Lab() {
   const [splash, setSplash] = useState(false)
