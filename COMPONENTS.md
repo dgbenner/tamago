@@ -1,6 +1,6 @@
 # Components
 
-The parts of Tamago's design system, on the `design-system` branch (a demonstration; not in the live app). Each one is shown with all its states in Storybook: `npm run storybook`, then http://localhost:6006/.
+The parts of Tamago's design system. The app is built from these components; the iOS and Android styles are for Storybook only. Each one is shown with all its states in Storybook: `npm run storybook`, then http://localhost:6006/.
 
 ## Styles
 
@@ -166,10 +166,10 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
 - **Main settings:**
   - `title`, `icon`: the name and the sushi picture.
   - `lessonsDone`, `lessonsTotal`: how full the ring is. Equal means finished.
-  - `recall`: from 0 to 1; a finished ring fades as recall drops.
+  - `recall`: from 0 to 1. Switched off in the app (`RECALL_FADE` in the file): a finished ring stays full and solid. With the switch on, the ring fades as recall drops.
   - `early`: `true` for a circle ahead of the learner: faded, still tappable.
   - `marker`: `"start"` shows "Start Here" above the first circle.
-  - `onPick()`: called by a tap. `onInfo()`, `onNote()`: add the two small icons. On phones they sit above the circle like ears, info at the upper left and the grammar note at the upper right up and out from the ring with clear space between (Dan, 2026-11-19; this branch only, the live app still has them beside the circle). From 1024 px they sit beside the circle, as before. On phones the pair is also quieter (28% strength at rest, against 40% on wide screens) and the notebook is drawn 5% smaller than the info icon, so the two look the same size. Wide screens are exactly as before. A circle shows the notebook only when it is given `onNote`; in the app that is a circle with a grammar note.
+  - `onPick()`: called by a tap. `onInfo()`, `onNote()`: add the two small icons beside it (a proposal to move them above the circle on phones is on the `design-system` branch; see the Design System Card, "Proposed, Not in the App"). A circle shows the notebook only when it is given `onNote`; in the app that is a circle with a grammar note.
   - `caption`, `badge`, `ring`: for a Brush-Up (a line under the title, a count, no ring).
 
 ```jsx
@@ -331,7 +331,6 @@ Places where the app builds something close to a component here, on its own. Can
 - **The progress bar's look appears elsewhere by hand.** The Verbs trainer and the Progress page (three bars) draw the same track and fill with their own markup.
 - **Two tool shapes, one list.** ToolPill and ToolCard draw the same tool two ways; Home picks by screen width. Could be one ToolTile with a `shape` setting.
 - **Colors written straight into the code** (see Storybook's Colors page): the passed-lesson toast's green `#15803d` and edge `#116b33`, and the points chip's blue `#1f6dfb`.
-- **A dark-mode gap in the tokens.** `--electric` has a dark value (`#5c9bff`) only when the device is dark; choosing Dark in Settings keeps the light blue `#1f6dfb`. The Colors page shows it as "same as light".
 - **Two toast kinds are not used in the app yet.** `warning` and `error` are styled in `src/index.css`, but the app only sends `info`, `success` and `pass`. Kept in the library and labeled (Dan, 2026-11-19).
 - **The Sheet's two platform shapes are chosen in code.** Tamago's Sheet switches from bottom sheet to pop-up with CSS alone at 1024px; the iOS and Android version picks Konsta's Sheet or Popup by measuring the window. Two mechanisms for one rule.
 - **A check on right answers is worth considering for Tamago.** Tamago's ChoiceList shows a right answer by a green edge alone, so right is carried by color only. The iOS and Android lists add a small green check (kept there: Dan, 2026-11-19; drawn inside `src/components/platform/ChoiceList.jsx`, not in `icons.jsx`). Giving Tamago's own list the same check would help anyone who can't tell the green from the red. The Android answer bar has the same kind of mark beside its verdict; Tamago's and the iOS bar rely on the colored edge and the word.
@@ -342,4 +341,4 @@ Places where the app builds something close to a component here, on its own. Can
 - **The New tag is still bare markup** in the question page, as in `Lesson.jsx` and the QuestionHeading stories (noted above); the screen made it a third copy.
 - **Two icons live outside `icons.jsx`.** The More dots in the bottom bar and the check on right answers are drawn inside `src/components/platform/`. If they stay, they belong in the icon file.
 - **Which three tools sit in the bottom bar** (Practice, Glossary, Progress) is an assumption in `src/components/platform/ToolStrip.jsx`; Tamago's strip has no order of importance beyond the alphabet.
-- **Recall fading.** CircleNode still fades a finished ring as recall drops; the app has since switched that off. The story is labeled; the setting could be removed from the component once the app's change reaches this branch.
+- **Recall fading is behind a switch.** `RECALL_FADE` in `src/components/CircleNode.jsx` is off; the `recall` setting and its story stay so the look can come back.

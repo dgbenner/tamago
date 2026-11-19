@@ -614,29 +614,6 @@ button.chip-drag {
    390px wide, scaled down on narrower phones so they never reach the next circle); from 1024px the small pair as before. --ci the tap box, --ci-svg the drawn icon, --ci-gap between the two, --ci-out from the disc. */
 .circle-icons { --ci: clamp(1.6rem, calc(19.3vw - 33px), 2.5rem); --ci-svg: calc(var(--ci) * 0.8); --ci-gap: 6px; --ci-out: clamp(3px, calc(10vw - 29px), 10px); }
 @media (min-width: 1024px) { .circle-icons { --ci: 1.75rem; --ci-svg: 1rem; --ci-gap: 4px; --ci-out: 5px; } }
-/* Phones: the two icons sit above the circle like ears (Dan, 2026-11-19, design-system branch), info at the upper left
-   and the grammar note at the upper right, up and out from the ring with clear space between (about 10px). They sit
-   more up than out (52 degrees), so the ears of two neighbouring circles keep their distance; the tap box is taller
-   than it is wide, reaching into the empty space above. --ear-x, --ear-y: how far the ear's centre is from the
-   circle's, across and up; --ear-up: the extra height above the drawn icon. */
-@media (max-width: 1023px) {
-  .circle-icons { --ci: clamp(1.8rem, 8.7vw, 2rem); --ci-svg: clamp(1.3rem, 6.4vw, 1.47rem); --ear-out: calc(min(100cqw, 6rem) / 2 + 20px); --ear-x: calc(var(--ear-out) * 0.616); --ear-y: calc(var(--ear-out) * 0.788); --ear-up: 10px; }
-  /* The first circle's "Start Here" sits above it: there the ears go further out and less far up, clear of the words. */
-  .circle-icons:has(> [data-marker]) { --ear-x: calc(var(--ear-out) * 0.74); --ear-y: calc(var(--ear-out) * 0.67); }
-  .circle-icons .note-icon[data-ear] {
-    top: calc(1.625rem + min(100cqw, 6rem) / 2 - var(--ear-y) - var(--ci) / 2 - var(--ear-up)) !important;
-    height: calc(var(--ci) + var(--ear-up)) !important;
-    align-items: flex-end; padding-bottom: calc((var(--ci) - var(--ci-svg)) / 2);
-  }
-  .circle-icons .note-icon[data-ear='left'] { left: calc(50% - var(--ear-x) - var(--ci) / 2) !important; }
-  .circle-icons .note-icon[data-ear='right'] { left: calc(50% + var(--ear-x) - var(--ci) / 2) !important; }
-  /* Quieter on phones, where every circle carries a pair: 28% strength at rest (40% beside the circle on wide
-     screens); full strength under a finger, as before. */
-  .circle-icons .note-icon[data-ear] { opacity: 0.28; }
-  /* The notebook's drawing fills more of its box than the info circle does, so at the same size it looks larger; drawn
-     5% smaller, from its centre, the two look the same size. Phones only; wide screens are as they were. */
-  .circle-icons [data-note-icon] svg { transform: scale(0.95); }
-}
 .circle-icons .note-icon svg { width: var(--ci-svg); height: var(--ci-svg); }
 .note-icon { transition: color 120ms ease-out, opacity 120ms ease-out, transform 120ms ease-out; }
 .carousel-arrow { transition: transform 120ms ease-out, background-color 120ms ease-out, box-shadow 120ms ease-out; }

@@ -18,15 +18,15 @@ export const InProgress = { args: { lessonsDone: 8 } }
 
 export const Finished = { args: { lessonsDone: 20 } }
 
-// Finished, but recall has dropped: the ring fades. The app has since switched this off; the component still can.
+// Finished, with recall dropped. Recall fading is switched off in the app (RECALL_FADE in CircleNode.jsx), so the
+// ring stays full and solid; with the switch on it would fade.
 export const FinishedRecallFading = { name: 'Finished, Recall Fading (Switched Off in the App)', args: { lessonsDone: 20, recall: 0.55 } }
 
 // Ahead of where the learner is: faded and grey, still tappable.
 export const Faded = { args: { early: true } }
 
-// With the two small icons, About This Circle and the Grammar Note: above the circle like ears at phone size (info
-// upper left, note upper right), beside it at desktop size.
-// The first circle, with its "Start Here" and both icons: the ears sit a little wider there, clear of the words.
+// With the two small icons beside it: About This Circle and the Grammar Note.
+// The first circle, with its "Start Here" and both icons.
 export const StartHereWithIcons = { args: { marker: 'start', title: 'Say Hi' }, argTypes: { onInfo: { action: 'info' }, onNote: { action: 'note' } } }
 
 export const WithInfoAndNote = { args: { lessonsDone: 8 }, argTypes: { onInfo: { action: 'info' }, onNote: { action: 'note' } } }

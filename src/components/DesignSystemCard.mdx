@@ -6,7 +6,7 @@ import { Meta } from '@storybook/addon-docs/blocks'
 
 ## What This Is
 
-A demonstration of a design system for Tamago. It lives on its own branch, `design-system`, and is not part of the live app. Nothing here is merged into the app without Dan's say.
+Tamago's design system: the app's own parts, each in its own file under `src/components/`, and the app is built from them. Adopting them changed nothing about how the app looks. The iOS and Android styles, and anything under "Proposed, Not in the App" below, exist only in this Storybook.
 
 A design system is a shared set of parts (buttons, lists, sheets) with one agreed look, each shown on its own with every state it can be in. This Storybook is the place to see those parts outside the app.
 
@@ -65,7 +65,7 @@ Stories are silent: nothing plays sound or calls the server.
 
 ## Proposed, Not in the App
 
-Design changes tried in this Storybook that the live app does not have. They live on the `design-system` branch only; the app adopted the components with no change to how it looks.
+Design changes tried in this Storybook that the live app does not have. They live on the `design-system` branch and its published Storybook (https://dgbenner.github.io/tamago-design-system/); the app adopted the components with no change to how it looks, so the circle changes below are not in this copy either.
 
 - **Circle icons as ears, on phones.** Under 1024 px the info and grammar-note icons sit above the circle, info at the upper left and the note at the upper right, about 20 px out from the ring, instead of stacked at the circle's right.
 - **Smaller circle icons, on phones.** Each is drawn at about 25 px (34 px in the app), inside a tap area about 34 px wide and 44 px tall.
