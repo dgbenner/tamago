@@ -49,7 +49,6 @@
     --focus: #8ab4ff;
     --field: #6a6660;
     --ring: #22b573;
-  --electric: #5c9bff;
     --electric: #5c9bff;
     --toast-info-bg: #1b2a40; --toast-info-ink: #b9d2ff;
     --toast-success-bg: #15301f; --toast-success-ink: #a6e6bd;
@@ -76,6 +75,7 @@
   --focus: #8ab4ff;
   --field: #6a6660;
   --ring: #22b573;
+  --electric: #5c9bff;
   --toast-info-bg: #1b2a40; --toast-info-ink: #b9d2ff;
   --toast-success-bg: #15301f; --toast-success-ink: #a6e6bd;
   --toast-warning-bg: #3a2c10; --toast-warning-ink: #f5d38a;
