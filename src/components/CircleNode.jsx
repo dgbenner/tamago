@@ -48,6 +48,10 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
 // style, size and spacing; both show on every circle, since every circle can be opened.
 // Placement (Dan, 2026-11-15): the two icons are one group, centred vertically on the disc; on phones each is about twice
 // the size, further from the circle, so a tap on the circle never lands on them (sizes in index.css .circle-icons).
+// On phones (under 1024px) the two icons sit above the circle like ears instead of beside it (Dan, 2026-11-19,
+// design-system branch): info at the upper left, the grammar note at the upper right, each always in its own place,
+// so the note is never pushed off the side of a narrow row. index.css places them ([data-ear]); the positions below
+// are the side pair, used from 1024px.
 const DISC_MID = 'calc(1.625rem + min(100cqw, 6rem) / 2)'
 const ICON_LEFT = 'calc(50% + min(100cqw, 6rem) / 2 + var(--ci-out))'
 const iconTop = (index, count) => `calc(${DISC_MID} - (${count} * var(--ci) + ${count - 1} * var(--ci-gap)) / 2 + ${index} * (var(--ci) + var(--ci-gap)))`
@@ -59,12 +63,12 @@ export default function CircleNode({ onNote = null, onInfo = null, ...props }) {
     <div className="circle-icons relative flex w-32 min-w-0 shrink justify-center [container-type:inline-size]">
       {button}
       {onInfo && (
-        <button onClick={onInfo} aria-label={`About ${props.title}`} data-info-icon className={ICON_CLASS} style={{ left: ICON_LEFT, top: iconTop(0, onNote ? 2 : 1), width: 'var(--ci)', height: 'var(--ci)' }}>
+        <button onClick={onInfo} aria-label={`About ${props.title}`} data-info-icon data-ear="left" className={ICON_CLASS} style={{ left: ICON_LEFT, top: iconTop(0, onNote ? 2 : 1), width: 'var(--ci)', height: 'var(--ci)' }}>
           <IconInfo />
         </button>
       )}
       {onNote && (
-        <button onClick={onNote} aria-label={`Grammar Note: ${props.title}`} data-note-icon className={ICON_CLASS} style={{ left: ICON_LEFT, top: iconTop(onInfo ? 1 : 0, onInfo ? 2 : 1), width: 'var(--ci)', height: 'var(--ci)' }}>
+        <button onClick={onNote} aria-label={`Grammar Note: ${props.title}`} data-note-icon data-ear="right" className={ICON_CLASS} style={{ left: ICON_LEFT, top: iconTop(onInfo ? 1 : 0, onInfo ? 2 : 1), width: 'var(--ci)', height: 'var(--ci)' }}>
           <IconNotebookPen />
         </button>
       )}

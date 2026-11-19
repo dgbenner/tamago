@@ -614,6 +614,21 @@ button.chip-drag {
    390px wide, scaled down on narrower phones so they never reach the next circle); from 1024px the small pair as before. --ci the tap box, --ci-svg the drawn icon, --ci-gap between the two, --ci-out from the disc. */
 .circle-icons { --ci: clamp(1.6rem, calc(19.3vw - 33px), 2.5rem); --ci-svg: calc(var(--ci) * 0.8); --ci-gap: 6px; --ci-out: clamp(3px, calc(10vw - 29px), 10px); }
 @media (min-width: 1024px) { .circle-icons { --ci: 1.75rem; --ci-svg: 1rem; --ci-gap: 4px; --ci-out: 5px; } }
+/* Phones: the two icons sit above the circle like ears (Dan, 2026-11-19, design-system branch), info at the upper left
+   and the grammar note at the upper right, each centred on the 45-degree line just clear of the ring. The tap box is
+   narrow enough that the ears of two neighbouring circles never overlap, and taller than it is wide, reaching up into
+   the empty space above, so it is still easy to hit. --ear: how far the ear's centre is from the circle's, across
+   and up; --ear-up: the extra height above the drawn icon. */
+@media (max-width: 1023px) {
+  .circle-icons { --ci: clamp(1.9rem, 9.2vw, 2.125rem); --ci-svg: calc(var(--ci) * 0.7); --ear: calc((min(100cqw, 6rem) / 2 + 12px) * 0.7071); --ear-up: 10px; }
+  .circle-icons .note-icon[data-ear] {
+    top: calc(1.625rem + min(100cqw, 6rem) / 2 - var(--ear) - var(--ci) / 2 - var(--ear-up)) !important;
+    height: calc(var(--ci) + var(--ear-up)) !important;
+    align-items: flex-end; padding-bottom: calc((var(--ci) - var(--ci-svg)) / 2);
+  }
+  .circle-icons .note-icon[data-ear='left'] { left: calc(50% - var(--ear) - var(--ci) / 2) !important; }
+  .circle-icons .note-icon[data-ear='right'] { left: calc(50% + var(--ear) - var(--ci) / 2) !important; }
+}
 .circle-icons .note-icon svg { width: var(--ci-svg); height: var(--ci-svg); }
 .note-icon { transition: color 120ms ease-out, opacity 120ms ease-out, transform 120ms ease-out; }
 .carousel-arrow { transition: transform 120ms ease-out, background-color 120ms ease-out, box-shadow 120ms ease-out; }
