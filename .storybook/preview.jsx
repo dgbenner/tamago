@@ -7,6 +7,21 @@ import { App as KonstaApp } from 'konsta/react'
 import { StyleProvider } from '../src/components/style/StyleContext.jsx'
 import { platformParts } from '../src/components/platform/index.js'
 
+// The app names its pictures from the site's root ("/logo.webp", "/sushi/..."). The published Storybook lives in a
+// folder (github.io/tamago-design-system/), so there those paths get the folder put in front. At the root (this Mac's
+// dev server) nothing changes.
+const BASE = new URL('.', window.location.href).pathname.replace(/\/$/, '')
+if (BASE) {
+  const fix = (v) => (typeof v === 'string' ? v.replace(/(^|,\s*)\/(?!\/)/g, `$1${BASE}/`) : v)
+  const proto = HTMLImageElement.prototype
+  const setAttribute = proto.setAttribute
+  proto.setAttribute = function (name, value) { return setAttribute.call(this, name, /^(src|srcset)$/i.test(name) ? fix(value) : value) }
+  for (const prop of ['src', 'srcset']) {
+    const d = Object.getOwnPropertyDescriptor(proto, prop)
+    Object.defineProperty(proto, prop, { ...d, set(v) { d.set.call(this, fix(v)) } })
+  }
+}
+
 // The answer bar asks the server why an answer was wrong. Stories never call the server: the function is replaced
 // with a stand-in that answers nothing unless a story gives it an explanation.
 sb.mock(import('../src/lib/explain.js'))
@@ -21,6 +36,8 @@ export default {
       options: {
         phone: { name: 'Phone (390 px)', styles: { width: '390px', height: '844px' }, type: 'mobile' },
         desktop: { name: 'Desktop (1440 px)', styles: { width: '1440px', height: '900px' }, type: 'desktop' },
+        // For the Compare views: all the room the window has.
+        full: { name: 'Full Window', styles: { width: '100%', height: '100%' }, type: 'desktop' },
       },
     },
     options: { storySort: { order: ['Design System Card', 'Styles', 'Colors', 'Type and Spacing', 'Icons', 'Screens', 'Components'] } },

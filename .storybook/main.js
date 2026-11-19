@@ -7,6 +7,8 @@ export default {
   },
   stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx)'],
   addons: ['@storybook/addon-docs'],
-  staticDirs: ['../public'], // the app's pictures: sushi, flags, the logo
-  core: { disableTelemetry: true },
+  // Only the pictures the stories use (sushi, flags, the logo): the published copy carries no recordings or app icons.
+  staticDirs: [{ from: '../public/sushi', to: '/sushi' }, { from: '../public/flags', to: '/flags' }, { from: '../public/logo.webp', to: '/logo.webp' }],
+  // No usage reporting, and no "what's new" lookups: Storybook itself calls no server.
+  core: { disableTelemetry: true, disableWhatsNewNotifications: true },
 }
