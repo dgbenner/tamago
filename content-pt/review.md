@@ -1,6 +1,6 @@
 # Tamago content review
 
-Sentences live: 2571 (1952 matched to Tatoeba, 619 Tamago originals), 0 off, 1952 awaiting a ruling. Words with Wiktionary data: 762 of 762. French-to-English answers: 394 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 64.
+Sentences live: 2571 (1952 matched to Tatoeba, 619 Tamago originals), 0 off, 1952 awaiting a ruling. Words with Wiktionary data: 762 of 1008. French-to-English answers: 394 live, 0 off, 0 flagged. English-to-French answers generated from Tatoeba: 64.
 
 Unit 1 is approved and live.
 
@@ -634,7 +634,7 @@ Dan kept these drafts with no Tatoeba source. No native speaker has read them.
 | S71114 |  | O carro está atrás do ônibus. | The car is behind the bus. | tts |
 | S69113 |  | Escreva o exercício. | Write the exercise. | tts |
 
-## Words, for a read-through (762)
+## Words, for a read-through (1008)
 
 Part of speech is the entry chosen in content/word-senses.json. All wording is Wiktionary's.
 
@@ -1402,6 +1402,252 @@ Part of speech is the entry chosen in content/word-senses.json. All wording is W
 | W1497 | ponto | ponto | Noun | m | point | checked |
 | W1498 | do | do | Contraction |  | contraction of de +‎ o, literally “of the, from the, -'s ” | checked |
 | W1499 | da | do | Contraction |  | contraction of de +‎ a, literally “of/from the ”: feminine singular of do (do: contraction of de +‎ o, literally “of the, from the, -'s ”) | checked |
+| W1601 | pedir | pedir | Verb |  | to ask for; to request [transitive or with por ‘something’, along with para ‘from someone’; or with que ‘for someone to do something’] | flagged: sense_not_picked |
+| W1602 | peço | pedir | Verb |  | first-person singular present indicative of pedir (pedir: to ask for; to request [transitive or with por ‘something’, along with para ‘from someone’; or with que ‘for someone to do something’]) | flagged: sense_not_picked |
+| W1603 | pede | pedir | Verb |  | inflection of pedir: third-person singular present indicative second-person singular imperative (pedir: to ask for; to request [transitive or with por ‘something’, along with para ‘from someone’; or with que ‘for someone to do something’]) | flagged: sense_not_picked |
+| W1604 | garçom | garçom | Noun | m | waiter | flagged: sense_not_picked |
+| W1605 | cardápio | cardápio | Noun | m | menu | flagged: sense_not_picked |
+| W1606 | menu | menu | Noun | m | menu | flagged: sense_not_picked |
+| W1607 | xícara | xícara | Noun | f | a teacup or mug | flagged: sense_not_picked |
+| W1608 | doce | doce | Adjective |  | sweet, sugary | flagged: sense_not_picked |
+| W1609 | bebida | bebido | Adjective |  | feminine singular of bebido (bebido: drunk, tipsy) | flagged: sense_not_picked |
+| W1610 | comida | comida | Noun | f | food, something edible | flagged: sense_not_picked |
+| W1611 | provar | provar | Verb |  | to prove, show, to demonstrate that something is true, to give proof for | flagged: sense_not_picked |
+| W1612 | sorvete | sorvete | Noun | m | sorbet | flagged: sense_not_picked |
+| W1613 | ajuda | ajuda | Noun | f | help, assistance, aid | flagged: sense_not_picked |
+| W1614 | ajudar | ajudar | Verb |  | to help, aid; to assist | flagged: sense_not_picked |
+| W1615 | alguém | alguém | Pronoun |  | somebody; someone | flagged: sense_not_picked |
+| W1616 | problema | problema | Noun | m | problem | flagged: sense_not_picked |
+| W1617 | prato | prato | Noun | m | plate a flat dish from which food is served or eaten a course at a meal | flagged: sense_not_picked |
+| W1618 | garfo | garfo | Noun | m | fork | flagged: sense_not_picked |
+| W1619 | faca | faca | Noun | f | knife | flagged: sense_not_picked |
+| W1620 | colher | colher | Noun | f | spoon | flagged: sense_not_picked |
+| W1621 | carne | carne | Noun | f | flesh | flagged: sense_not_picked |
+| W1622 | frango | frango | Noun | m | young chicken | flagged: sense_not_picked |
+| W1623 | arroz | arroz | Noun | m | rice | flagged: sense_not_picked |
+| W1624 | salada | salada | Noun | f | salad | flagged: sense_not_picked |
+| W1625 | sopa | sopa | Noun | f | soup | flagged: sense_not_picked |
+| W1626 | sobremesa | sobremesa | Noun | f | dessert | flagged: sense_not_picked |
+| W1627 | feijão | feijão | Noun | m | bean | flagged: sense_not_picked |
+| W1628 | direita | direita | Noun | f | right | flagged: sense_not_picked |
+| W1629 | esquerda | esquerda | Noun | f | the left side, part, half or direction | flagged: sense_not_picked |
+| W1630 | reto | reto | Adjective |  | straight | flagged: sense_not_picked |
+| W1631 | vire | virar | Verb |  | inflection of virar: first/third-person singular present subjunctive third-person singular imperative (virar: to turn) | flagged: sense_not_picked |
+| W1632 | virar | virar | Verb |  | to turn | flagged: sense_not_picked |
+| W1633 | pare | parar | Verb |  | inflection of parar: first/third-person singular present subjunctive third-person singular imperative (parar: to stop) | flagged: sense_not_picked |
+| W1634 | parar | parar | Verb |  | to stop | flagged: sense_not_picked |
+| W1635 | esquina | esquina | Noun | f | angle | flagged: sense_not_picked |
+| W1636 | procuro | procurar | Verb |  | first-person singular present indicative of procurar (procurar: to search; to seek; to look for [with direct object or por ‘for something’]) | flagged: sense_not_picked |
+| W1637 | procurar | procurar | Verb |  | to search; to seek; to look for [with direct object or por ‘for something’] | flagged: sense_not_picked |
+| W1638 | trás | trás | Preposition |  | behind | flagged: sense_not_picked |
+| W1639 | placa | placa | Noun | f | plate | flagged: sense_not_picked |
+| W1640 | perdido | perdido | Adjective |  | lost | flagged: sense_not_picked |
+| W1641 | perdida | perdido | Adjective |  | feminine singular of perdido (perdido: lost) | flagged: sense_not_picked |
+| W1642 | mostrar | mostrar | Verb |  | to show | flagged: sense_not_picked |
+| W1643 | mostre | mostrar | Verb |  | inflection of mostrar: first/third-person singular present subjunctive third-person singular imperative (mostrar: to show) | flagged: sense_not_picked |
+| W1644 | transporte | transporte | Noun | m | transport | flagged: sense_not_picked |
+| W1645 | moto | moto | Noun | f | motorcycle | flagged: sense_not_picked |
+| W1646 | motorista | motorista | Noun | m/f | driver, motorist | flagged: sense_not_picked |
+| W1647 | taxista | taxista | Noun | m/f | taxi driver | flagged: sense_not_picked |
+| W1648 | condutor | condutor | Adjective |  | driving | flagged: sense_not_picked |
+| W1649 | parte | parte | Noun | f | part; section; portion | flagged: sense_not_picked |
+| W1650 | partir | partir | Verb |  | to split | flagged: sense_not_picked |
+| W1651 | primeira | primeiro | Adjective |  | feminine singular of primeiro (primeiro: first) | flagged: sense_not_picked |
+| W1652 | agência | agência | Noun | f | agency | flagged: sense_not_picked |
+| W1653 | pegar | pegar | Verb |  | to catch to grab, hold | flagged: sense_not_picked |
+| W1654 | pego | pego | Noun | m | Eurasian oystercatcher | flagged: sense_not_picked |
+| W1655 | irmão | irmão | Noun | m | brother | flagged: sense_not_picked |
+| W1656 | irmã | irmã | Noun | f | sister | flagged: sense_not_picked |
+| W1657 | filho | filho | Noun | m | son | flagged: sense_not_picked |
+| W1658 | filha | filha | Noun | f | daughter | flagged: sense_not_picked |
+| W1659 | filhos | filhos | Noun | m | children | flagged: sense_not_picked |
+| W1660 | avô | avô | Noun | m | grandfather, male grandparent | flagged: sense_not_picked |
+| W1661 | avó | avó | Noun | f | grandmother, female grandparent | flagged: sense_not_picked |
+| W1662 | avós | avó | Noun | f | plural of avó (avó: grandmother, female grandparent) | flagged: sense_not_picked |
+| W1663 | primo | primo | Noun | m | male cousin | flagged: sense_not_picked |
+| W1664 | prima | prima | Noun | f | female equivalent of primo | flagged: sense_not_picked |
+| W1665 | tio | tio | Noun | m | uncle | flagged: sense_not_picked |
+| W1666 | tia | tia | Noun | f | aunt | flagged: sense_not_picked |
+| W1667 | neto | neto | Noun | m | grandson, male grandchild | flagged: sense_not_picked |
+| W1668 | neta | neta | Noun | f | granddaughter, female grandchild | flagged: sense_not_picked |
+| W1669 | marido | marido | Noun | m | husband | flagged: sense_not_picked |
+| W1670 | esposa | esposa | Noun | f | female equivalent of esposo: wife | flagged: sense_not_picked |
+| W1671 | pais | pais | Noun | m | parents | flagged: sense_not_picked |
+| W1672 | casal | casal | Noun | m | couple, married couple | flagged: sense_not_picked |
+| W1673 | namorado | namorado | Noun | m | boyfriend | flagged: sense_not_picked |
+| W1674 | namorada | namorada | Noun | f | female equivalent of namorado: girlfriend | flagged: sense_not_picked |
+| W1675 | quarto | quarto | Adjective |  | fourth | flagged: sense_not_picked |
+| W1676 | quartos | quarto | Adjective |  | masculine plural of quarto (quarto: fourth) | flagged: sense_not_picked |
+| W1677 | sala | sala | Noun | f | room | flagged: sense_not_picked |
+| W1678 | janela | janela | Noun | f | window | flagged: sense_not_picked |
+| W1679 | parede | parede | Noun | f | wall | flagged: sense_not_picked |
+| W1680 | cadeira | cadeira | Noun | f | chair | flagged: sense_not_picked |
+| W1681 | sofá | sofá | Noun | m | sofa | flagged: sense_not_picked |
+| W1682 | garagem | garagem | Noun | f | garage | flagged: sense_not_picked |
+| W1683 | chuveiro | chuveiro | Noun | m | cloudburst | flagged: sense_not_picked |
+| W1684 | banheira | banheira | Noun | f | bathtub | flagged: sense_not_picked |
+| W1685 | pia | pia | Noun | f | sink | flagged: sense_not_picked |
+| W1686 | torneira | torneira | Noun | f | tap, faucet | flagged: sense_not_picked |
+| W1687 | chave | chave | Noun | f | key | flagged: sense_not_picked |
+| W1688 | fechadura | fechadura | Noun | f | lock | flagged: sense_not_picked |
+| W1689 | toalha | toalha | Noun | f | towel | flagged: sense_not_picked |
+| W1690 | aluguel | aluguel | Noun | m | Brazilian Portuguese standard form of aluguer | flagged: sense_not_picked |
+| W1691 | alugar | alugar | Verb |  | to rent, to hire | flagged: sense_not_picked |
+| W1692 | lar | lar | Noun | m | home | flagged: sense_not_picked |
+| W1693 | profissão | profissão | Noun | f | profession | flagged: sense_not_picked |
+| W1694 | computador | computador | Adjective |  | computing | flagged: sense_not_picked |
+| W1695 | internet | internet | Noun | f | alternative letter-case form of Internet | flagged: sense_not_picked |
+| W1696 | escritório | escritório | Noun | m | office | flagged: sense_not_picked |
+| W1697 | chefe | chefe | Noun | m/f | chief, head, head man, boss | flagged: sense_not_picked |
+| W1698 | empresa | empresa | Noun | f | company; business | flagged: sense_not_picked |
+| W1699 | enfermeiro | enfermeiro | Noun | m | nurse | flagged: sense_not_picked |
+| W1700 | enfermeira | enfermeira | Noun | f | female equivalent of enfermeiro | flagged: sense_not_picked |
+| W1701 | dentista | dentista | Noun | m/f | dentist | flagged: sense_not_picked |
+| W1702 | bombeiro | bombeiro | Noun | m | firefighter | flagged: sense_not_picked |
+| W1703 | polícia | polícia | Noun | f | police | flagged: sense_not_picked |
+| W1704 | policial | policial | Adjective |  | police | flagged: sense_not_picked |
+| W1705 | florista | florista | Noun | m/f | florist | flagged: sense_not_picked |
+| W1706 | farmacêutico | farmacêutico | Adjective |  | pharmaceutical | flagged: sense_not_picked |
+| W1707 | balcão | balcão | Noun | m | counter | flagged: sense_not_picked |
+| W1708 | funciona | funcionar | Verb |  | inflection of funcionar: third-person singular present indicative second-person singular imperative (funcionar: to work; to function) | flagged: sense_not_picked |
+| W1709 | perdi | perder | Verb |  | first-person singular preterite indicative of perder (perder: to lose) | flagged: sense_not_picked |
+| W1710 | urgente | urgente | Adjective |  | urgent | flagged: sense_not_picked |
+| W1711 | acidente | acidente | Noun | m | accident | flagged: sense_not_picked |
+| W1712 | ambulância | ambulância | Noun | f | ambulance | flagged: sense_not_picked |
+| W1713 | assinar | assinar | Verb |  | to sign | flagged: sense_not_picked |
+| W1714 | assine | assinar | Verb |  | inflection of assinar: first/third-person singular present subjunctive third-person singular imperative (assinar: to sign) | flagged: sense_not_picked |
+| W1715 | assinatura | assinatura | Noun | f | signature | flagged: sense_not_picked |
+| W1716 | identidade | identidade | Noun | f | identity | flagged: sense_not_picked |
+| W1717 | documento | documento | Noun | m | document | flagged: sense_not_picked |
+| W1718 | identificação | identificação | Noun | f | identification | flagged: sense_not_picked |
+| W1719 | estado | estado | Noun | m | state | flagged: sense_not_picked |
+| W1720 | civil | civil | Adjective |  | civil; civilian | flagged: sense_not_picked |
+| W1721 | solteiro | solteiro | Adjective |  | single | flagged: sense_not_picked |
+| W1722 | solteira | solteiro | Adjective |  | feminine singular of solteiro (solteiro: single) | flagged: sense_not_picked |
+| W1723 | casado | casado | Adjective |  | married | flagged: sense_not_picked |
+| W1724 | casada | casado | Adjective |  | feminine singular of casado (casado: married) | flagged: sense_not_picked |
+| W1725 | separado | separado | Adjective |  | isolated; off | flagged: sense_not_picked |
+| W1726 | divorciado | divorciado | Adjective |  | divorced | flagged: sense_not_picked |
+| W1727 | divorciada | divorciado | Participle |  | feminine singular of divorciado (divorciado: past participle of divorciar) | flagged: sense_not_picked |
+| W1728 | viúvo | widowhood | Adjective |  | widowed (said of a person who is in a state of widowhood) | flagged: sense_not_picked |
+| W1729 | viúva | viúva | Noun | f | widow | flagged: sense_not_picked |
+| W1730 | sexo | sexo | Noun | m | sex category into which sexually-reproducing organisms are divided on the basis of their reproductive roles in their species | flagged: sense_not_picked |
+| W1731 | masculino | masculino | Adjective |  | masculine, male | flagged: sense_not_picked |
+| W1732 | feminino | feminino | Adjective |  | having womanly qualities; womanly; feminine | flagged: sense_not_picked |
+| W1733 | gênero | gênero | Noun | m | Brazilian Portuguese standard spelling of género | flagged: sense_not_picked |
+| W1734 | cidadão | cidadão | Noun | m | citizen member of a State resident of a city | flagged: sense_not_picked |
+| W1735 | usuário | usuário | Noun | m | user | flagged: sense_not_picked |
+| W1736 | email | email | Noun | m | alternative spelling of e-mail | flagged: sense_not_picked |
+| W1737 | arroba | arroba | Noun | f | arroba, a traditional unit of mass, equivalent to 14.7 kg | flagged: sense_not_picked |
+| W1738 | carta | carta | Noun | f | letter | flagged: sense_not_picked |
+| W1739 | mensagem | mensagem | Noun | f | message | flagged: sense_not_picked |
+| W1740 | mensagens | mensagem | Noun | f | plural of mensagem (mensagem: message) | flagged: sense_not_picked |
+| W1741 | enviar | enviar | Verb |  | to send | flagged: sense_not_picked |
+| W1742 | envio | envio | Noun | m | shipment, sending | flagged: sense_not_picked |
+| W1743 | mandar | mandar | Verb |  | to order, command | flagged: sense_not_picked |
+| W1744 | mando | mando | Noun | m | command; order | flagged: sense_not_picked |
+| W1745 | envelope | envelope | Noun | m | envelope | flagged: sense_not_picked |
+| W1746 | selo | selo | Noun | m | seal | flagged: sense_not_picked |
+| W1747 | chamada | chamada | Noun | f | call | flagged: sense_not_picked |
+| W1748 | fotocópia | fotocópia | Noun | f | photocopy | flagged: sense_not_picked |
+| W1749 | querido | querido | Adjective |  | dear | flagged: sense_not_picked |
+| W1750 | querida | querido | Adjective |  | feminine singular of querido (querido: dear) | flagged: sense_not_picked |
+| W1751 | abraço | abraço | Noun | m | hug, embrace | flagged: sense_not_picked |
+| W1752 | beijos | beijo | Noun |  | plural of beijo (beijo: kiss) | flagged: sense_not_picked |
+| W1801 | vaca | vaca | Noun | f | a cow | flagged: sense_not_picked |
+| W1802 | porco | porco | Noun | m | pig | flagged: sense_not_picked |
+| W1803 | massa | massa | Noun | f | dough | flagged: sense_not_picked |
+| W1804 | sal | sal | Noun | m | salt | flagged: sense_not_picked |
+| W1805 | pimenta | pimenta | Noun | f | pepper | flagged: sense_not_picked |
+| W1806 | vegetais | vegetal | Adjective |  | masculine/feminine plural of vegetal (vegetal: plant) | flagged: sense_not_picked |
+| W1807 | legumes | legume | Noun |  | plural of legume (legume: legume) | flagged: sense_not_picked |
+| W1808 | cereal | cereal | Noun | m | cereal | flagged: sense_not_picked |
+| W1809 | trigo | trigo | Noun | m | wheat | flagged: sense_not_picked |
+| W1810 | fruto | fruto | Noun | m | fruit | flagged: sense_not_picked |
+| W1811 | litro | litro | Noun | m | litre; liter | flagged: sense_not_picked |
+| W1812 | grama | grama | Noun | f | Bermuda grass | flagged: sense_not_picked |
+| W1813 | gramas | grama | Noun | m | plural of grama (grama: Bermuda grass) | flagged: sense_not_picked |
+| W1814 | medida | medida | Noun | f | measurement; measure | flagged: sense_not_picked |
+| W1815 | alimentação | alimentação | Noun | f | feeding, alimentation | flagged: sense_not_picked |
+| W1816 | cheira | cheirar | Verb |  | inflection of cheirar: third-person singular present indicative second-person singular imperative (cheirar: to smell) | flagged: sense_not_picked |
+| W1817 | cheirar | cheirar | Verb |  | to smell | flagged: sense_not_picked |
+| W1818 | cozinhar | cozinhar | Verb |  | to cook, to bake | flagged: sense_not_picked |
+| W1819 | cozinho | cozinhar | Verb |  | first-person singular present indicative of cozinhar (cozinhar: to cook, to bake) | flagged: sense_not_picked |
+| W1820 | preparar | preparar | Verb |  | to prepare, to get ready | flagged: sense_not_picked |
+| W1821 | preparo | preparo | Noun | m | preparedness, preparation | flagged: sense_not_picked |
+| W1822 | geladeira | geladeira | Noun | f | refrigerator | flagged: sense_not_picked |
+| W1823 | fogão | fogão | Noun | m | fire | flagged: sense_not_picked |
+| W1824 | forno | forno | Noun | m | oven | flagged: sense_not_picked |
+| W1825 | congelador | congelador | Noun | m | freezer | flagged: sense_not_picked |
+| W1826 | televisão | televisão | Noun | f | television; television set | flagged: sense_not_picked |
+| W1827 | vídeo | vídeo | Noun | m | video | flagged: sense_not_picked |
+| W1828 | luz | luz | Noun | f | light | flagged: sense_not_picked |
+| W1829 | eletricidade | eletricidade | Noun | f | electricity | flagged: sense_not_picked |
+| W1830 | gás | gás | Noun | m | gas | flagged: sense_not_picked |
+| W1831 | aquecimento | aquecimento | Noun | m | heating | flagged: sense_not_picked |
+| W1832 | lixo | lixo | Noun | m | garbage; waste; rubbish | flagged: sense_not_picked |
+| W1833 | desligar | desligar | Verb |  | to hang up | flagged: sense_not_picked |
+| W1834 | desligo | desligar | Verb |  | first-person singular present indicative of desligar (desligar: to hang up) | flagged: sense_not_picked |
+| W1835 | desligue | desligar | Verb |  | inflection of desligar: first/third-person singular present subjunctive third-person singular imperative (desligar: to hang up) | flagged: sense_not_picked |
+| W1836 | mobília | mobília | Noun | f | furniture | flagged: sense_not_picked |
+| W1837 | despensa | despensa | Noun | f | pantry | flagged: sense_not_picked |
+| W1838 | sujar | sujar | Verb |  | to dirty | flagged: sense_not_picked |
+| W1839 | som | som | Noun | m | sound | flagged: sense_not_picked |
+| W1840 | compras | compra | Noun | f | plural of compra (compra: purchase) | flagged: sense_not_picked |
+| W1841 | corpo | corpo | Noun | m | body | flagged: sense_not_picked |
+| W1842 | coração | coração | Noun | m | heart | flagged: sense_not_picked |
+| W1843 | dente | dente | Noun | m | tooth | flagged: sense_not_picked |
+| W1844 | dentes | dente | Noun |  | plural of dente (dente: tooth) | flagged: sense_not_picked |
+| W1845 | sangue | sangue | Noun | m | blood | flagged: sense_not_picked |
+| W1846 | doença | doença | Noun | f | illness; disease; ailment | flagged: sense_not_picked |
+| W1847 | gripe | gripe | Noun | f | the flu, influenza | flagged: sense_not_picked |
+| W1848 | resfriado | resfriado | Adjective |  | cooled; refrigerated | flagged: sense_not_picked |
+| W1849 | resfriada | resfriado | Adjective |  | feminine singular of resfriado (resfriado: cooled; refrigerated) | flagged: sense_not_picked |
+| W1850 | dói | doer | Verb |  | third-person singular present indicative of doer (doer: to hurt) | flagged: sense_not_picked |
+| W1851 | doer | doer | Verb |  | to hurt | flagged: sense_not_picked |
+| W1852 | ferida | ferido | Adjective |  | feminine singular of ferido (ferido: injured, hurt, sore, wounded) | flagged: sense_not_picked |
+| W1853 | queimar | queimar | Verb |  | to burn to be on fire, to be consumed by flames | flagged: sense_not_picked |
+| W1854 | sinto | sentir | Verb |  | first-person singular present indicative of sentir (sentir: to sense; to feel) | flagged: sense_not_picked |
+| W1855 | sentir | sentir | Verb |  | to sense; to feel | flagged: sense_not_picked |
+| W1856 | clínica | clínica | Noun | f | clinic | flagged: sense_not_picked |
+| W1857 | remédio | remédio | Noun | m | medicine | flagged: sense_not_picked |
+| W1858 | medicamento | medicamento | Noun | m | medicine | flagged: sense_not_picked |
+| W1859 | comprimido | comprimido | Adjective |  | compressed | flagged: sense_not_picked |
+| W1860 | aspirina | aspirina | Noun | f | aspirin | flagged: sense_not_picked |
+| W1861 | sabonete | sabonete | Noun | m | toilet soap | flagged: sense_not_picked |
+| W1862 | sabão | sabão | Noun | m | soap | flagged: sense_not_picked |
+| W1863 | acordado | acordar | Participle |  | past participle of acordar | flagged: sense_not_picked |
+| W1864 | adormecer | adormecer | Verb |  | to fall asleep | flagged: sense_not_picked |
+| W1865 | ensino | ensino | Noun | m | teaching | flagged: sense_not_picked |
+| W1866 | fundamental | fundamental | Adjective |  | fundamental; essential | flagged: sense_not_picked |
+| W1867 | médio | médio | Adjective |  | average | flagged: sense_not_picked |
+| W1868 | superior | superior | Adjective |  | upper, higher | flagged: sense_not_picked |
+| W1869 | universidade | universidade | Noun | f | university | flagged: sense_not_picked |
+| W1870 | universitário | universitário | Adjective |  | university | flagged: sense_not_picked |
+| W1871 | instituto | instituto | Noun | m | institute | flagged: sense_not_picked |
+| W1872 | graduação | graduação | Noun | f | graduation | flagged: sense_not_picked |
+| W1873 | curso | curso | Noun | m | course | flagged: sense_not_picked |
+| W1874 | disciplina | disciplina | Noun | f | discipline | flagged: sense_not_picked |
+| W1875 | semestre | semestre | Noun | m | a period of six months | flagged: sense_not_picked |
+| W1876 | período | período | Noun | m | period period a school year interval of approximately three months | flagged: sense_not_picked |
+| W1877 | recreio | recreio | Noun | m | recreation | flagged: sense_not_picked |
+| W1878 | ginásio | ginásio | Noun | m | gymnasium | flagged: sense_not_picked |
+| W1879 | tirar | tirar | Verb |  | to take, take out, take away | flagged: sense_not_picked |
+| W1880 | tiro | tiro | Noun | m | the act of shooting | flagged: sense_not_picked |
+| W1881 | brincadeira | brincadeira | Noun | f | game, play | flagged: sense_not_picked |
+| W1882 | reserva | reserva | Noun | f | reserve | flagged: sense_not_picked |
+| W1883 | duplo | duplo | Adjective |  | double | flagged: sense_not_picked |
+| W1884 | individual | individual | Adjective |  | individual | flagged: sense_not_picked |
+| W1885 | alojamento | alojamento | Noun | m | accommodation | flagged: sense_not_picked |
+| W1886 | camping | camping | Noun | m | camping | flagged: sense_not_picked |
+| W1887 | barraca | barraca | Noun | f | tent | flagged: sense_not_picked |
+| W1888 | tenda | tenda | Noun | f | tent | flagged: sense_not_picked |
+| W1889 | estadia | estadia | Noun | f | stay, sojourn | flagged: sense_not_picked |
+| W1890 | carteira | carteira | Noun | f | wallet | flagged: sense_not_picked |
+| W1891 | recepção | recepção | Noun | f | reception | flagged: sense_not_picked |
+| W1892 | elevador | elevador | Noun | m | something which elevates | flagged: sense_not_picked |
+| W1893 | princípio | princípio | Noun | m | start, beginning | flagged: sense_not_picked |
+| W1894 | porquê | porquê | Adverb |  | why | flagged: sense_not_picked |
 
 ## Matched to Tatoeba (1952)
 
