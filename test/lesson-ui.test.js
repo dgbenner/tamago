@@ -120,3 +120,12 @@ test('speaker pictures are readied ahead, each once, and every one a question ca
   for (const sp of ['Aemines4', 'Lilie B. (BiblioCanet66)', 'Aemines2', 'Aemines1', 'nobody']) assert.ok(SPEAKER_IMAGES.includes(speakerFor(rec(sp))))
   for (let i = 0; i < 60; i++) assert.ok(SPEAKER_IMAGES.includes(speakerFor({ type: 'QT09', sentence_id: `S${i}`, audio: { french: 'x' } }, null)))
 })
+
+// Recall fading off on the tree (Dan, 2026-11-16): a finished circle is a full, solid ring and just "Finished"; the
+// look sits behind one switch so it can come back.
+test('a finished circle shows a full ring and "Finished", whatever its recall', () => {
+  const src = readFileSync('src/screens/CircleNode.jsx', 'utf8')
+  assert.match(src, /export const RECALL_FADE = false/)
+  assert.match(src, /ringOpacity = \(recall\) => \(!RECALL_FADE \|\| recall == null \? 1/)
+  assert.match(src, /return !RECALL_FADE \|\| recall == null \? 'Finished'/)
+})
