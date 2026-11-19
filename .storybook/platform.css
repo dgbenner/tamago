@@ -249,14 +249,15 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 .tg-tabbar .k-link { flex: 1 1 0; min-width: 0; width: auto; padding-inline: 0; cursor: pointer; font: inherit; background: none; }
 /* The pill that marks the current place ("Learn"), on both platforms, with room above and below the sushi (Dan,
    2026-11-19). Android: Material's 64x32 indicator behind the icon, in a bar tall enough to leave space over it.
-   iOS, which otherwise marks the current tab by colour alone: a capsule behind the icon and its label together, as
-   iOS tab bars highlight the selected tab. */
+   iOS, which otherwise marks the current tab by colour alone: a circle behind the icon only, small enough to sit
+   wholly inside the tab (a capsule behind icon and label was cut off at its sides by the bar). */
 .tg-tabbar .k-link { align-self: stretch; height: auto; position: relative; z-index: 0; }
 .tg-tabbar .k-tabbar-link-icon { flex: none; }
 .k-material .tg-tabbar .k-tabbar-link-icon { width: 4rem; height: 2rem; }
 .k-material .tg-tabbar .k-link > span { height: 100%; box-sizing: border-box; padding-block: 0.75rem 1rem; justify-content: flex-start; }
 .k-material .tg-tabbar .k-toolbar > div:last-of-type { height: 5rem; align-items: stretch; } /* Material's 80dp navigation bar */
-.k-ios .tg-tabbar .k-link[aria-current='page']::before { content: ''; position: absolute; inset: 5px -6px; border-radius: 9999px; background: color-mix(in srgb, var(--accent) 45%, var(--surface)); z-index: -1; }
+.k-ios .tg-tabbar .k-link > span { gap: 6px; }
+.k-ios .tg-tabbar .k-link[aria-current='page'] .k-tabbar-link-icon::before { content: ''; position: absolute; left: 50%; top: 50%; width: 38px; height: 38px; transform: translate(-50%, -50%); border-radius: 9999px; background: color-mix(in srgb, var(--accent) 45%, var(--surface)); z-index: -1; }
 .tg-tabbar .k-link:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; border-radius: 12px; }
 .k-ios .tg-tabbar .k-toolbar > div:last-of-type { background: color-mix(in srgb, var(--surface) 80%, transparent); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-radius: 9999px; padding-inline: 0.75rem; box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.1), 0 8px 28px rgb(0 0 0 / 0.14); }
 .k-material .tg-tabbar .k-tabbar-link-icon svg { width: 24px; height: 24px; }

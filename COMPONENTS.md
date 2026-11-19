@@ -259,7 +259,7 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
 
 - **File:** `src/components/ToolTile.jsx`
 - **What it's for:** the list of tools on the main page. ToolStrip is the phone's row of ToolPills; ToolPanel is the wide screen's column of ToolCards, Developer last.
-- **Styles:** ToolStrip is Konsta UI's Tabbar on iOS and Android, pinned to the bottom: Learn, three tools, and More (a sheet with the rest). The current place (Learn) is marked by a tinted pill on both platforms, with room above and below the sushi: behind the icon on Android, behind the icon and its label on iOS. ToolPanel is Tamago's own, adapted; the screen puts it at the left on iOS and Android.
+- **Styles:** ToolStrip is Konsta UI's Tabbar on iOS and Android, pinned to the bottom: Learn, three tools, and More (a sheet with the rest). The current place (Learn) is marked by a tinted pill on both platforms, with room above and below the sushi: a 64 × 32 pill behind the icon on Android, a circle behind the icon on iOS. ToolPanel is Tamago's own, adapted; the screen puts it at the left on iOS and Android.
 - **Main settings:**
   - `tools`: the list, each `{ id, label, about, onOpen, quiet }`.
 
