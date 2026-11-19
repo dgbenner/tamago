@@ -50,7 +50,7 @@ function PartnerLine({ turn, i, index, names, picked, onPick, onShow }) {
   )
 }
 
-// The quiet answer-time ring: a thin muted ring filling over RING_SECONDS, the seconds inside. No colour change, no
+// The quiet answer-time ring: a thin muted ring filling over RING_SECONDS, the seconds inside. No color change, no
 // sound, nothing at any limit.
 function AnswerRing({ since }) {
   const [now, setNow] = useState(Date.now())

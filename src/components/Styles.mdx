@@ -1,0 +1,71 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import { ScreensTable, StylesTable } from './docs/StylesTable.jsx'
+
+<Meta title="Styles" />
+
+# Styles
+
+Every component in the library can be drawn three ways. Pick one with the **Style** switch in the toolbar; it works together with Theme (light, dark) and size (phone, desktop).
+
+- **Tamago**: the app's own look, exactly as it is today.
+- **iOS**: the conventions of an iPhone app.
+- **Android**: the conventions of an Android app (Material Design 3).
+
+**What stays the same in every style:** Tamago's colors, the sushi art, the logo, the flags, the icons, the wording, and what each component does. **What the platform decides:** the controls, the corners, the type and the motion.
+
+The iOS and Android styles exist only in this Storybook. The app never loads them, and the Tamago style is untouched: 244 before-and-after pictures of the Tamago stories matched exactly.
+
+## How Each Style Is Made
+
+There are two ways a component gets its iOS and Android look:
+
+- **A Konsta UI component.** Konsta UI is a library of ready-made iOS and Android controls. Where it has a match, the platform version is Konsta's control, given Tamago's colors.
+- **Tamago's own, adapted.** Where Konsta has no match, the component stays Tamago's and a stylesheet changes its shapes, spacing, type and press behaviour for each platform.
+
+<StylesTable />
+
+## iOS Conventions Followed
+
+- **Type:** the system font (San Francisco), with Apple's text styles: 17pt body, 22pt bold titles, 13pt captions, slightly tightened letter spacing.
+- **Shapes:** capsule buttons, large rounded corners on sheets and grouped lists, hairline (half-pixel) dividers.
+- **Tap targets:** at least 44pt tall. The tool pill looks 32pt tall and has invisible padding to reach 44.
+- **Pressed:** the control dims; nothing ripples or grows.
+- **Sheets:** rise from the bottom with a grabber at the top.
+- **Messages:** a plain, compact, translucent banner drops from the top. iOS has no toast; the banner carries the message alone, with no app icon or title, so it doesn't read as a system notification.
+- **Lists:** one rounded block with rows inside, rather than separate boxes.
+- **Motion:** quick and springy.
+
+## Android Conventions Followed (Material Design 3)
+
+- **Type:** Roboto, with Material's type scale: 22sp titles, 16sp body, 14sp medium labels, slightly opened letter spacing.
+- **Shapes:** fully rounded buttons, 8dp chips, 12dp cards, 28dp top corners on bottom sheets.
+- **Tap targets:** at least 48dp; list rows 56dp. The tool chip looks 32dp tall and has invisible padding to reach 48.
+- **Pressed:** a ripple or a soft tinted layer spreads from the touch.
+- **Sheets:** a bottom sheet with a drag handle.
+- **Messages:** a snackbar at the bottom of the screen.
+- **Depth:** shadows mark what sits above the page, instead of borders.
+- **Not by color alone:** with no colored edge on the answer bar, a small check or X sits beside the verdict.
+- **Motion:** Material's "emphasized" curve: fast out, gentle in.
+
+## The Two Screens
+
+Under **Screens** in the sidebar: the Question Page (Pick the Meaning) and the Main Page, each built only from the library's components, with fixed sample content and no network calls. Each has a **Compare** view: Tamago, iOS and Android together, at phone size and at desktop size.
+
+The content and its order of importance are the same in every style. What moved, to follow each platform:
+
+<ScreensTable />
+
+**One thing to know about the bottom bar.** Tamago's strip shows every tool at once. iOS and Android bars hold five places at most, so the bar has Learn (the tree), three tools (Practice, Glossary, Progress) and More, which opens a sheet with the rest (Conversations, Self-Study, Verbs, Developer). Which three come first is an assumption, not a decision.
+
+## What Was Kept on Purpose
+
+- **Colors.** Yellow stays the main action and green stays Continue on both platforms, even though iOS and Android apps usually have one tint color.
+- **Icons.** Tamago's line icons are used in all three styles. Apple's icon set (SF Symbols) may not be used outside Apple's platforms, and Google's would be a second icon family to maintain.
+- **Roboto** is served from this project for the Android style; nothing is fetched from outside.
+
+## Where to Look in the Code
+
+- `src/components/style/StyleContext.jsx`: holds the current style. The app never sets it, so it is always Tamago.
+- `src/components/platform/`: the Konsta UI versions (Button, ChoiceList, PinnedAction, ProgressBar, Sheet, Toast, ToolPill, ToolStrip, TopBar).
+- `src/components/screens/`: the two screens, their sample content, and the Compare view.
+- `.storybook/platform.css`: Konsta UI's setup and the adaptations for Tamago's own components.

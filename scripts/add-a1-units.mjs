@@ -1,5 +1,5 @@
 // Adds the A1 units after Unit 5 (autonomous-build.md: the old Duolingo A1 order: plurals, adjectives,
-// possessives, questions, numbers, colours, time, places). Same shape as U02 to U05: a draft unit, its words for
+// possessives, questions, numbers, colors, time, places). Same shape as U02 to U05: a draft unit, its words for
 // the Wiktionary check, a tree row, and four "I can" statements checked against the CEFR A1 grid rows.
 // Usage: node scripts/add-a1-units.mjs <from.xlsx> <to.xlsx>
 import { join } from 'node:path'
@@ -30,9 +30,9 @@ const UNITS = [
   { id: 'U10', title: 'Numbers', topic: 'Counting', grammar: 'Numbers two to ten; combien de with a noun', contrast: 'six|dix; deux|dix', row: 7, pos: 1, after: 'row 6',
     words: ['deux', 'trois', 'quatre', 'cinq', 'six', 'sept', 'huit', 'neuf', 'dix', 'combien'],
     cd: ['I can understand numbers and quantities in short sentences.', 'I can understand numbers when spoken slowly.', 'I can write numbers and how many of something.', 'I can say how many and ask how many.'] },
-  { id: 'U11', title: 'Colours', topic: 'Colours', grammar: 'Colour words come after the noun and agree with it (vert, verte; blanc, blanche)', contrast: 'bleu|bleue; vert|verte; noir|noire; blanc|blanche', row: 7, pos: 2, after: 'row 6',
+  { id: 'U11', title: 'Colors', topic: 'Colors', grammar: 'Color words come after the noun and agree with it (vert, verte; blanc, blanche)', contrast: 'bleu|bleue; vert|verte; noir|noire; blanc|blanche', row: 7, pos: 2, after: 'row 6',
     words: ['rouge', 'bleu', 'bleue', 'vert', 'verte', 'noir', 'noire', 'blanc', 'blanche', 'jaune'],
-    cd: ['I can understand short sentences about colours.', 'I can recognize colour words when spoken slowly.', 'I can write what colour something is.', 'I can say what colour something is.'] },
+    cd: ['I can understand short sentences about colors.', 'I can recognize color words when spoken slowly.', 'I can write what color something is.', 'I can say what color something is.'] },
   { id: 'U12', title: 'Time', topic: 'Days and times', grammar: 'Time words: aujourd\'hui, demain, maintenant; le matin, le soir; days of the week without a capital', contrast: 'aujourd\'hui|demain; matin|soir', row: 8, pos: 1, after: 'row 7',
     words: ['aujourd\'hui', 'demain', 'maintenant', 'jour', 'matin', 'soir', 'semaine', 'heure', 'lundi', 'dimanche'],
     cd: ['I can understand simple sentences about days and times.', 'I can recognize days and time words when spoken slowly.', 'I can write when something happens.', 'I can say when something happens.'] },

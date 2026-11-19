@@ -1,8 +1,8 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { chooseCourse } from '../lib/course.js'
-import { FlagRow } from './Languages.jsx'
+import { FlagRow } from '../components/FlagRow.jsx'
 import { site, version } from '../lib/version.js'
-import { LETTERS, Letter, LetterStrokes, SushiMark, VIEW, splashViewBox } from './Logo.jsx'
+import { LETTERS, Letter, LetterStrokes, SushiMark, VIEW, splashViewBox } from '../components/Logo.jsx'
 
 // Each letter is revealed by its own mask, which follows the same strokes.
 const LETTER_MS = 260
@@ -12,7 +12,7 @@ const STAGGER_MS = 90
 const easedTime = (progress) => Math.acos(1 - 2 * progress) / Math.PI
 
 // Shows each time the app opens, never inside a lesson (Dan, 2026-11-13: a gauze curtain). The home screen is already
-// drawn underneath and shows through a translucent sheet of the page colour with a fine woven-dot texture, so it's
+// drawn underneath and shows through a translucent sheet of the page color with a fine woven-dot texture, so it's
 // plain the app is right there; the wordmark and sushi sit over it at full strength. It leaves by itself after the
 // letters draw and a short hold, or at once on any tap, click or key, with the halftone wipe from the Cunk countdown:
 // the curtain becomes a grid of dots that shrink away corner to corner (halftoneOut, a canvas, about 0.75 s), and taps
@@ -36,7 +36,7 @@ export default function Splash({ onDone, choose = false, line = null }) {
   const leave = () => {
     if (left.current) return
     left.current = true
-    // The canvas draws its first, full frame before the curtain's own colour goes, so nothing blinks.
+    // The canvas draws its first, full frame before the curtain's own color goes, so nothing blinks.
     if (!matchMedia('(prefers-reduced-motion: reduce)').matches && canvas.current) halftoneOut(canvas.current, onDone)
     else setTimeout(onDone, 300)
     setLeaving(true)
@@ -109,7 +109,7 @@ function halftoneOut(el, onDone) {
   const W = (el.width = Math.ceil(window.innerWidth * dpr))
   const H = (el.height = Math.ceil(window.innerHeight * dpr))
   const ctx = el.getContext('2d')
-  // exactly the curtain's own colour, alpha included (read before it goes transparent)
+  // exactly the curtain's own color, alpha included (read before it goes transparent)
   const curtain = getComputedStyle(el.parentElement).backgroundColor
   const s = DOT * dpr
   const R = s * 0.73 // 0.7071·s already covers a square cell

@@ -1,0 +1,293 @@
+/* The iOS and Android styles (design-system branch). Storybook only: the app never loads this file, so the Tamago
+   style and the app's own CSS are untouched.
+
+   Part 1 builds Konsta UI's classes with Tailwind, beside the app's stylesheet (src/index.css, loaded as it is).
+   Part 2 adapts Tamago's own components (the ones Konsta UI has no match for) to each platform.
+   Everything is scoped to .k-ios (iOS) or .k-material (Android), the class Konsta UI's App puts on its wrapper. */
+
+/* ---------- Part 1: Konsta UI ---------- */
+/* Konsta UI's classes go in their own layer, below the app's utilities: loaded after them, a plain class of Konsta's
+   (max-w-md) would otherwise beat the app's wide-screen ones (lg:max-w-4xl). This file is imported before
+   src/index.css so that this line sets the order. */
+@layer theme, base, components, konsta, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(konsta) source(none);
+@source '../src/components/platform';
+@import 'konsta/react/theme.css';
+
+/* Tamago's color names (as in src/index.css), so Konsta UI's components can be given Tamago's colors. */
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-field: var(--field);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-green: var(--green);
+  --color-orange: var(--orange);
+  --color-right: var(--right);
+  --color-wrong: var(--wrong);
+}
+
+/* Konsta UI smooths all text on the page; the Tamago style keeps the browser's own rendering, as in the app. */
+body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
+.k-ios, .k-material { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+/* The platform wrapper keeps Tamago's page color and ink (Konsta UI's dark wrapper is pure black). */
+.tg-platform, .tg-platform.dark { background: var(--bg); color: var(--ink); min-height: 100%; }
+.k-material { font-family: 'Roboto Variable', Roboto, system-ui, sans-serif; --k-touch-ripple-opacity: 0.12; }
+.k-ios { font-family: -apple-system, 'SF Pro Text', system-ui, 'Helvetica Neue', sans-serif; }
+
+/* Motion. iOS: quick, springy, things dim when pressed. Android: Material's emphasized curve, ripples on press. */
+.k-ios { --tg-ease: cubic-bezier(0.32, 0.72, 0, 1); --tg-fast: 150ms; }
+.k-material { --tg-ease: cubic-bezier(0.2, 0, 0, 1); --tg-fast: 200ms; }
+
+/* ----- Konsta parts: the few things its settings don't cover ----- */
+/* Button */
+/* The main button's yellow and its ink (named here, not as Tailwind classes, so the app's CSS gains nothing). */
+.tg-fill-main { background: var(--accent); }
+.tg-ink-main { color: var(--accent-ink); }
+.k-ios .tg-fill-main:active:not(:disabled), .k-material .tg-fill-main:active:not(:disabled) { background: color-mix(in srgb, var(--accent) 88%, var(--ink)); }
+.k-ios .tg-button-main, .k-ios .tg-button-continue, .k-ios .tg-button-outline { height: 3.125rem; font-size: 17px; letter-spacing: -0.01em; } /* 50pt */
+.k-ios .tg-button:active:not(:disabled) { opacity: 0.6; }
+.k-ios .tg-button-outline { border-width: 1.5px; }
+.k-material .tg-button-main, .k-material .tg-button-continue, .k-material .tg-button-outline { font-size: 14px; letter-spacing: 0.1px; font-weight: 500; } /* label large */
+.k-ios .tg-button-link { font-size: 15px; height: auto; min-height: 2.75rem; padding-inline: 0.5rem; }
+.k-material .tg-button-link { font-size: 14px; font-weight: 500; letter-spacing: 0.1px; height: 2.5rem; padding-inline: 0.75rem; border-radius: 9999px; }
+.tg-button-link.text-xs { font-size: 13px; }
+.k-material .tg-button-link.text-xs { font-size: 12px; }
+.tg-button:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+/* Progress bar */
+.tg-progress > span { transition-timing-function: var(--tg-ease); transition-duration: 500ms; }
+/* Toast */
+.tg-toast { border-width: 1px; border-style: solid; }
+/* iOS: a plain, compact banner from the top: the message alone, centred, as wide as its words. */
+.k-ios .tg-toast { position: fixed; inset-inline: 0; width: fit-content; max-width: min(28rem, calc(100vw - 2rem)); margin-inline: auto; padding: 0.625rem 1.125rem; border-radius: 9999px; text-align: center; box-shadow: 0 8px 28px rgb(0 0 0 / 0.16); }
+.k-ios .tg-toast > div > div:first-child:empty { display: none; }
+/* iOS banners are translucent ("glass"); each kind keeps Tamago's color, let through at 88%. */
+.k-ios .tg-toast.toast-info { background: color-mix(in srgb, var(--toast-info-bg) 88%, transparent); color: var(--toast-info-ink); }
+.k-ios .tg-toast.toast-success { background: color-mix(in srgb, var(--toast-success-bg) 88%, transparent); color: var(--toast-success-ink); }
+.k-ios .tg-toast.toast-warning { background: color-mix(in srgb, var(--toast-warning-bg) 88%, transparent); color: var(--toast-warning-ink); }
+.k-ios .tg-toast.toast-error { background: color-mix(in srgb, var(--toast-error-bg) 88%, transparent); color: var(--toast-error-ink); }
+.k-ios .tg-toast.toast-pass { background: color-mix(in srgb, #15803d 92%, transparent); color: #fff; }
+.k-ios .tg-toast, .k-ios .tg-toast .text-sm { font-size: 15px; font-weight: 500; }
+.k-ios .tg-toast.toast-pass, .k-ios .tg-toast.toast-pass .text-sm { font-weight: 600; }
+.k-material .tg-toast { border-radius: 4px; font-size: 14px; letter-spacing: 0.25px; box-shadow: 0 3px 8px rgb(0 0 0 / 0.24); } /* snackbar */
+/* Sheet */
+.tg-sheet { color: var(--ink); max-height: 90dvh; overflow-y: auto; }
+.tg-bottom-sheet { padding: 0.5rem 1.25rem max(1.25rem, env(safe-area-inset-bottom)); }
+.tg-bottom-sheet::before { content: ''; display: block; margin: 0 auto 0.75rem; border-radius: 9999px; background: var(--field); }
+.k-ios .tg-bottom-sheet::before { width: 36px; height: 5px; opacity: 0.6; } /* the grabber */
+.k-material .tg-bottom-sheet { border-radius: 28px 28px 0 0; }
+.k-material .tg-bottom-sheet::before { width: 32px; height: 4px; margin-block: 0.5rem 1rem; opacity: 0.8; } /* the drag handle */
+.tg-popup { width: 32rem; max-width: calc(100vw - 3rem); height: auto; padding: 1.5rem; }
+.k-ios [data-ds='sheet-head'] h2 { font-size: 20px; font-weight: 700; letter-spacing: -0.02em; }
+.k-ios [data-ds='sheet-head'] p { font-size: 13px; }
+.k-ios [data-ds='sheet-head'] .icon-btn { width: 30px; height: 30px; margin: 0; border-radius: 9999px; background: var(--line); color: var(--muted); }
+.k-ios [data-ds='sheet-head'] .icon-btn svg { width: 14px; height: 14px; stroke-width: 3; }
+.k-material [data-ds='sheet-head'] h2 { font-size: 24px; line-height: 32px; font-weight: 400; } /* headline small */
+.k-material [data-ds='sheet-head'] p { font-size: 12px; font-weight: 500; letter-spacing: 0.5px; }
+.k-material [data-ds='sheet-head'] .icon-btn { border-radius: 9999px; }
+.k-material [data-ds='sheet-head'] .icon-btn:active { background: color-mix(in srgb, var(--ink) 12%, transparent); }
+.tg-sheet .text-muted { font-size: 15px; }
+.k-material .tg-sheet .text-muted { font-size: 14px; letter-spacing: 0.25px; }
+/* Choice list */
+.tg-choices { margin-block: 0; }
+.tg-choices .k-list-item { list-style: none; }
+.tg-choices .k-list-item > button { width: 100%; text-align: start; font: inherit; }
+.k-ios .tg-choices .k-list-item > button { min-height: 2.75rem; font-size: 17px; letter-spacing: -0.01em; } /* 44pt rows */
+.k-material .tg-choices .k-list-item > button { min-height: 3.5rem; font-size: 16px; letter-spacing: 0.5px; } /* 56dp one-line item */
+.k-material .tg-choices { margin-inline: 0; border-radius: 12px; border: 1px solid var(--line); }
+.tg-choices [data-choice-state='other'] { opacity: 0.6; }
+.tg-choices [data-choice-state='right'] > button { color: var(--right); font-weight: 600; }
+.tg-choices [data-choice-state='wrong'] > button { color: var(--wrong); }
+.tg-choices .k-list-item > button:disabled { cursor: default; }
+.tg-choices .k-list-item > button:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; }
+/* Tool pill (chip) */
+.tg-chip { flex: none; scroll-snap-align: start; white-space: nowrap; cursor: pointer; position: relative; }
+/* The pill keeps its native 32px look; an invisible area above and below brings the tap target to the platform's
+   minimum: 44px on iOS, 48px on Android. The strip gets matching room so the extra area isn't cut off. */
+.tg-chip::after { content: ''; position: absolute; inset-inline: 0; }
+.k-ios .tg-chip::after { inset-block: -6px; }
+.k-material .tg-chip::after { inset-block: -8px; }
+.k-ios nav[aria-label='Tools']:not(.tg-tabbar) { padding-block: 6px; margin-block: -6px; }
+.k-material nav[aria-label='Tools']:not(.tg-tabbar) { padding-block: 8px; margin-block: -8px; }
+.tg-chip-icon svg { width: 18px; height: 18px; }
+.k-ios .tg-chip { height: 2rem; border-color: transparent; background: var(--line); font-size: 15px; padding-inline: 0.75rem; }
+.k-ios .tg-chip .tg-chip-icon { margin-inline-start: 0.5rem; display: block; }
+.k-ios .tg-chip:active { opacity: 0.6; }
+.k-material .tg-chip { height: 2rem; font-size: 14px; letter-spacing: 0.1px; background: transparent; padding-inline: 1rem; }
+.k-material .tg-chip .tg-chip-icon { display: block; color: var(--green); }
+.k-material .tg-chip:active { background: color-mix(in srgb, var(--ink) 12%, transparent); }
+.tg-chip[data-quiet] { border: 1px dashed var(--field); background: transparent; color: var(--muted); font-size: 0.55rem; }
+.tg-chip[data-quiet] .tg-chip-icon { opacity: 0.5; color: inherit; }
+
+/* ---------- Part 2: Tamago's own components, adapted ---------- */
+/* Question heading. iOS: Title 2, 22pt bold. Android: Title Large, 22sp regular. */
+.k-ios .lesson h1 { font-size: 22px; line-height: 28px; font-weight: 700; letter-spacing: -0.02em; }
+.k-material .lesson h1 { font-size: 22px; line-height: 28px; font-weight: 400; letter-spacing: 0; }
+.k-ios .tag { border-radius: 9999px; font-size: 12px; padding: 2px 8px; }
+.k-material .tag { border-radius: 8px; font-size: 11px; font-weight: 500; letter-spacing: 0.5px; padding: 2px 8px; }
+
+/* Sentence and word hints. The hint is a popover on iOS and Material's plain tooltip on Android. */
+.k-ios [data-ds='sentence'] { font-size: 24px; line-height: 1.5; letter-spacing: -0.01em; }
+.k-material [data-ds='sentence'] { font-size: 24px; line-height: 32px; letter-spacing: 0; } /* headline small */
+.k-ios [data-ds='sentence'] [role='tooltip'] { border: 0; border-radius: 13px; padding: 8px 14px; font-size: 15px; box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.12), 0 8px 28px rgb(0 0 0 / 0.2); }
+.k-material [data-ds='sentence'] [role='tooltip'] { border: 0; border-radius: 4px; padding: 4px 8px; font-size: 12px; line-height: 16px; letter-spacing: 0.4px; background: var(--ink); color: var(--bg); box-shadow: none; }
+.k-ios [data-ds='first-sight'] { font-size: 13px; }
+.k-material [data-ds='first-sight'] { font-size: 12px; letter-spacing: 0.4px; }
+.k-ios [data-ds='sentence'] button:active { opacity: 0.5; }
+.k-material [data-ds='sentence'] button { border-radius: 4px; transition: background-color var(--tg-fast) var(--tg-ease); }
+.k-material [data-ds='sentence'] button:active { background: color-mix(in srgb, var(--ink) 12%, transparent); }
+
+/* Audio controls. iOS: a round, borderless button. Android: a tonal button with 16dp corners and a pressed layer. */
+.k-ios [data-audio-help] > button:first-child { border: 0; border-radius: 9999px; background: var(--line); transition: opacity var(--tg-fast); }
+.k-ios [data-audio-help] > button:first-child:active { opacity: 0.6; }
+.k-material [data-audio-help] > button:first-child { border: 0; border-radius: 16px; background: var(--surface); box-shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 1px 3px 1px rgb(0 0 0 / 0.15); transition: box-shadow var(--tg-fast) var(--tg-ease); }
+.k-material [data-audio-help] > button:first-child:active { box-shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 2px 6px 2px rgb(0 0 0 / 0.15); }
+.k-ios [data-audio-help] > button.-m-1, .k-material [data-audio-help] > button.-m-1 { background: transparent; box-shadow: none; } /* bare, in a bubble */
+
+/* Lesson circle. The disc, ring and sushi stay; the title's type and the press follow the platform. */
+.k-ios .circle-node > span:last-of-type, .k-ios .circle-node > .text-base { font-size: 15px; letter-spacing: -0.01em; }
+.k-material .circle-node > .text-base { font-size: 14px; line-height: 20px; font-weight: 500; letter-spacing: 0.1px; } /* label large */
+.k-ios .circle-node > .text-sm { font-size: 13px; }
+.k-material .circle-node > .text-sm { font-size: 12px; letter-spacing: 0.4px; }
+.k-ios .circle-node > .text-xs { font-size: 12px; }
+.k-material .circle-node > .text-xs { font-size: 11px; font-weight: 500; letter-spacing: 0.5px; }
+.k-ios .circle-node .circle-disc, .k-material .circle-node .circle-disc { transition: opacity var(--tg-fast), box-shadow var(--tg-fast) var(--tg-ease); }
+.k-ios .circle-node:not([data-state='locked']):hover .circle-disc, .k-material .circle-node:not([data-state='locked']):hover .circle-disc,
+.k-ios .circle-node:not([data-state='locked']):active .circle-disc, .k-material .circle-node:not([data-state='locked']):active .circle-disc { transform: none; }
+.k-ios .circle-node:not([data-state='locked']):active .circle-disc { opacity: 0.6; }
+.k-material .circle-node:not([data-state='locked']):active .circle-disc { box-shadow: 0 0 0 8px color-mix(in srgb, var(--ink) 12%, transparent); }
+.k-material .circle-node [data-badge] { font-size: 11px; font-weight: 500; }
+.k-ios .note-icon:active { transform: none; opacity: 0.5; }
+.k-material .note-icon:active { transform: none; background: color-mix(in srgb, var(--ink) 12%, transparent); }
+
+/* Tool card. iOS: a borderless grouped row, 20pt corners. Android: Material's outlined card, 12dp corners. */
+.k-ios [data-ds='tool-card'] { border-color: transparent; border-radius: 20px; padding: 0.875rem 1rem; }
+.k-ios [data-ds='tool-card'] .font-semibold { font-size: 17px; letter-spacing: -0.01em; }
+.k-ios [data-ds='tool-card'] .text-sm { font-size: 15px; }
+.k-ios [data-ds='tool-card']:active { opacity: 0.6; }
+.k-material [data-ds='tool-card'] { border-width: 1px; border-radius: 12px; padding: 1rem; transition: background-color var(--tg-fast) var(--tg-ease); }
+.k-material [data-ds='tool-card'] .font-semibold { font-size: 16px; line-height: 24px; font-weight: 500; letter-spacing: 0.15px; } /* title medium */
+.k-material [data-ds='tool-card'] .text-sm { font-size: 14px; line-height: 20px; letter-spacing: 0.25px; }
+.k-material [data-ds='tool-card']:active { background: color-mix(in srgb, var(--ink) 8%, var(--surface)); }
+.k-ios [data-ds='tool-card'].border-dashed, .k-material [data-ds='tool-card'].border-dashed { border: 1px dashed var(--field); }
+.k-ios [data-ds='tool-card'] .dev-tiny, .k-material [data-ds='tool-card'] .dev-tiny { font-size: 0.55rem; letter-spacing: 0; line-height: 1.3; font-weight: inherit; }
+
+/* Flags. The running course: an outline on iOS, a tinted container on Android. */
+.k-ios [data-ds='flag-row'] button { border-radius: 16px; }
+.k-ios [data-ds='flag-row'] button:active { opacity: 0.6; }
+.k-ios [data-ds='flag-row'] button span { font-size: 12px; }
+.k-ios [data-ds='flag-row'] button.outline-4 { outline-width: 3px; }
+.k-material [data-ds='flag-row'] button { border-radius: 12px; transition: background-color var(--tg-fast) var(--tg-ease); }
+.k-material [data-ds='flag-row'] button span { font-size: 12px; font-weight: 500; letter-spacing: 0.5px; }
+.k-material [data-ds='flag-row'] button.outline-4 { outline: 0; background: color-mix(in srgb, var(--orange) 16%, transparent); }
+.k-material [data-ds='flag-row'] button:active { background: color-mix(in srgb, var(--ink) 12%, transparent); }
+.k-ios [data-ds='flag-row'] [role='status'] { font-size: 13px; }
+.k-material [data-ds='flag-row'] [role='status'] { font-size: 12px; letter-spacing: 0.4px; }
+
+/* Level line. iOS: a hairline and a small caption. Android: a 1dp divider and a label. Neither platform uses italics here. */
+.k-ios [data-ds='level-line'] { font-size: 13px; }
+.k-ios [data-ds='level-line'] .italic { font-style: normal; text-transform: uppercase; letter-spacing: 0.03em; }
+.k-ios [data-ds='level-line'] .h-0\.5 { height: 0.5px; background: var(--field); }
+.k-material [data-ds='level-line'] { font-size: 12px; }
+.k-material [data-ds='level-line'] .italic { font-style: normal; font-weight: 500; letter-spacing: 0.5px; }
+.k-material [data-ds='level-line'] .h-0\.5 { height: 1px; }
+
+/* Answer bar. iOS: a translucent bar with a thin colored edge. Android: a surface with 28dp top corners and a shadow. */
+.k-ios section[data-outcome] { border-top-width: 1px; background: color-mix(in srgb, var(--surface) 82%, transparent); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); }
+.k-ios section[data-outcome] > div > div p.font-semibold { font-size: 17px; letter-spacing: -0.01em; }
+.k-material section[data-outcome] { border-top-width: 0; border-radius: 28px 28px 0 0; box-shadow: 0 -1px 3px rgb(0 0 0 / 0.2), 0 -4px 8px 3px rgb(0 0 0 / 0.1); }
+.k-material section[data-outcome] > div { padding-top: 1.25rem; }
+/* Android has no colored edge, so a small check or X beside the verdict carries the result as well as the color. */
+.k-material section[data-outcome] > div > div p.font-semibold::before {
+  content: ''; display: inline-block; width: 18px; height: 18px; margin-inline-end: 6px; vertical-align: -3px; background: currentColor;
+  -webkit-mask: var(--tg-verdict) center / contain no-repeat; mask: var(--tg-verdict) center / contain no-repeat;
+}
+.k-material section[data-outcome='correct'] { --tg-verdict: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m5 12.5 4.5 4.5L19 7.5'/%3E%3C/svg%3E"); }
+.k-material section[data-outcome='incorrect'] { --tg-verdict: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 6 6 18M6 6l12 12'/%3E%3C/svg%3E"); }
+.k-material section[data-outcome] > div > div p.font-semibold { font-size: 16px; line-height: 24px; font-weight: 500; letter-spacing: 0.15px; }
+.k-material section[data-outcome] .text-sm { font-size: 14px; letter-spacing: 0.25px; }
+.k-ios .icon-btn, .k-material .icon-btn { border-radius: 9999px; transition: opacity var(--tg-fast), background-color var(--tg-fast) var(--tg-ease); }
+.k-ios .icon-btn:active { opacity: 0.5; }
+.k-material .icon-btn:active { background: color-mix(in srgb, var(--ink) 12%, transparent); }
+
+/* "Incorrect" beside a wrong answer. */
+.k-ios [data-wrong-mark] { font-size: 13px; }
+.k-material [data-wrong-mark] { font-size: 12px; font-weight: 500; letter-spacing: 0.5px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .k-ios *, .k-material * { transition-duration: 0.01ms !important; }
+}
+
+/* ---------- Part 3: the two screens ---------- */
+/* Colors for Konsta UI's bars (named here, not as Tailwind classes, so the app's CSS gains nothing). */
+.tg-ink { color: var(--ink); }
+.tg-bar-ios { background: linear-gradient(to bottom, var(--bg) 60%, transparent); }
+.tg-bar-ios-bottom { background: linear-gradient(to top, var(--bg) 55%, transparent); }
+.tg-bar-md { background: color-mix(in srgb, var(--surface) 92%, var(--green)); }
+.tg-tab { color: var(--muted); }
+.tg-tab-on { color: var(--ink); }
+/* iOS: the pill marks the current tab, so its label keeps the ink color and stays readable on the pill in dark. */
+.k-ios .tg-tab-on { color: var(--ink); font-weight: 600; }
+.tg-tab-pill { background: color-mix(in srgb, var(--accent) 45%, var(--surface)); }
+.tg-tab-sushi { width: 1.75rem; }
+
+/* Header: Konsta UI's Navbar, edge to edge. */
+.tg-topbar { margin-inline: -1rem; width: auto; grid-column: 1 / -1; }
+.tg-bar-logo { display: flex; align-items: center; border-radius: 8px; cursor: pointer; }
+.k-ios .tg-topbar .icon-btn { width: 2.75rem; height: 2.75rem; }
+.k-material .tg-topbar .icon-btn { width: 3rem; height: 3rem; }
+@media (min-width: 1024px) { .tg-topbar { margin-inline: 0; } }
+
+/* Tools on a phone: the bottom bar. Hidden from 1024px, where the tools are a panel at the side. */
+.tg-tabbar { position: fixed; inset-inline: 0; bottom: 0; z-index: 20; }
+/* Five places share the bar's width equally (Konsta UI gives each a fixed width, which overflows a phone at five). */
+.tg-tabbar .k-link { flex: 1 1 0; min-width: 0; width: auto; padding-inline: 0; cursor: pointer; font: inherit; background: none; }
+/* The pill that marks the current place ("Learn"), on both platforms, with room above and below the sushi (Dan,
+   2026-11-19). Android: Material's 64x32 indicator behind the icon, in a bar tall enough to leave space over it.
+   iOS, which otherwise marks the current tab by color alone: a circle behind the icon only, small enough to sit
+   wholly inside the tab (a capsule behind icon and label was cut off at its sides by the bar). */
+.tg-tabbar .k-link { align-self: stretch; height: auto; position: relative; z-index: 0; }
+.tg-tabbar .k-tabbar-link-icon { flex: none; }
+.k-material .tg-tabbar .k-tabbar-link-icon { width: 4rem; height: 2rem; }
+.k-material .tg-tabbar .k-link > span { height: 100%; box-sizing: border-box; padding-block: 0.75rem 1rem; justify-content: flex-start; }
+.k-material .tg-tabbar .k-toolbar > div:last-of-type { height: 5rem; align-items: stretch; } /* Material's 80dp navigation bar */
+.k-ios .tg-tabbar .k-link > span { gap: 6px; }
+.k-ios .tg-tabbar .k-link[aria-current='page'] .k-tabbar-link-icon::before { content: ''; position: absolute; left: 50%; top: 50%; width: 38px; height: 38px; transform: translate(-50%, -50%); border-radius: 9999px; background: color-mix(in srgb, var(--accent) 45%, var(--surface)); z-index: -1; }
+.tg-tabbar .k-link:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; border-radius: 12px; }
+.k-ios .tg-tabbar .k-toolbar > div:last-of-type { background: color-mix(in srgb, var(--surface) 80%, transparent); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-radius: 9999px; padding-inline: 0.75rem; box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.1), 0 8px 28px rgb(0 0 0 / 0.14); }
+.k-material .tg-tabbar .k-tabbar-link-icon svg { width: 24px; height: 24px; }
+@media (min-width: 1024px) { .tg-tabbar { display: none; } }
+
+/* The pinned action. iOS: the main button floating above the tab bar. Android: the extended FAB, lower right. */
+.tg-pinned { position: sticky; z-index: 20; margin-top: auto; display: flex; pointer-events: none; }
+.tg-pinned > * { pointer-events: auto; }
+.k-ios .tg-pinned { bottom: 6.5rem; }
+.k-ios .tg-pinned .tg-button { box-shadow: 0 6px 20px rgb(0 0 0 / 0.18); }
+.k-material .tg-pinned { bottom: 6rem; justify-content: flex-end; }
+.tg-fab { font: inherit; font-weight: 500; letter-spacing: 0.1px; }
+.tg-fab:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.k-ios [data-screen='main'] .home-tree, .k-material [data-screen='main'] .home-tree { padding-bottom: 11rem; }
+@media (min-width: 1024px) {
+  .k-ios .tg-pinned, .k-material .tg-pinned { bottom: 1.5rem; }
+  .k-ios .tg-pinned { justify-content: center; }
+  .k-ios .tg-pinned .tg-button { width: 22rem; }
+  .k-ios [data-screen='main'] .home-tree, .k-material [data-screen='main'] .home-tree { padding-bottom: 6rem; }
+  /* Wide screens: both platforms keep navigation at the leading edge (the sidebar on iPad, the navigation drawer on
+     Android), so the tools panel moves from the right to the left. */
+  .k-ios [data-screen='main'].home, .k-material [data-screen='main'].home { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); }
+  .k-ios [data-screen='main'] .home-panel, .k-material [data-screen='main'] .home-panel { grid-column: 1; grid-row: 2; top: 5.5rem; }
+  .k-ios [data-screen='main'] .home-path, .k-material [data-screen='main'] .home-path { grid-column: 2; grid-row: 2; }
+  .k-material [data-screen='main'] .home-panel [data-ds='tool-card'] { border-color: transparent; border-radius: 9999px; padding: 0.75rem 1.25rem; background: transparent; }
+  .k-material [data-screen='main'] .home-panel [data-ds='tool-card']:hover { background: color-mix(in srgb, var(--ink) 8%, transparent); }
+}
+
+/* Question page: the close button and the bar keep their places on both platforms; only the button's shape changes. */
+.k-ios [data-screen='question'] > header .icon-btn { width: 30px; height: 30px; margin-inline: 0 0.25rem; background: var(--line); color: var(--muted); }
+.k-ios [data-screen='question'] > header .icon-btn svg { width: 14px; height: 14px; stroke-width: 3; }
+.k-ios [data-screen='question'] > header .icon-btn::after { content: ''; position: absolute; inset: -7px; }
+.k-ios [data-screen='question'] > header .icon-btn { position: relative; }

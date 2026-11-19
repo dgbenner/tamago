@@ -44,7 +44,7 @@ export const UNITS = [
     words: ['chi', 'cosa', 'che', 'dove', "dov'è", 'quando', 'perché', 'quale'] },
   { id: 'U12', title: 'Counting to Ten', grammar: 'Numbers one to ten; quanti and quante with a plural noun', contrast: 'quanti|quante; due|dieci', row: 8,
     words: ['uno', 'due', 'tre', 'quattro', 'cinque', 'sette', 'otto', 'nove', 'dieci', 'quanti', 'quante'] },
-  { id: 'U13', title: 'Naming Colours', grammar: 'Colours come after the noun; most agree (rosso, rossa), blu and verde do not change in the singular', contrast: 'rosso|rossa; nero|nera; bianco|bianca', row: 8,
+  { id: 'U13', title: 'Naming Colors', grammar: 'Colors come after the noun; most agree (rosso, rossa), blu and verde do not change in the singular', contrast: 'rosso|rossa; nero|nera; bianco|bianca', row: 8,
     words: ['rosso', 'rossa', 'blu', 'verde', 'nero', 'nera', 'bianco', 'bianca', 'giallo', 'gialla', 'colore'] },
   { id: 'U14', title: 'Days and Times', grammar: 'Time words: oggi, domani, adesso; days of the week without a capital; il lunedì for every Monday', contrast: 'oggi|domani', row: 9,
     words: ['oggi', 'domani', 'adesso', 'giorno', 'settimana', 'ora', 'lunedì', 'sabato', 'domenica'] },

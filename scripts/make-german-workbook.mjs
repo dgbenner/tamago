@@ -40,7 +40,7 @@ export const UNITS = [
     words: ['was', 'wer', 'wo', 'woher', 'warum', 'wann', 'komme', 'kommst', 'kommt', 'aus'] },
   { id: 'U11', title: 'Counting to Ten', grammar: 'Numbers one to ten; wie viele with a plural; es gibt for there is', contrast: 'eins|zehn; zwei|drei', row: 7,
     words: ['eins', 'zwei', 'drei', 'vier', 'fünf', 'sechs', 'sieben', 'acht', 'neun', 'zehn', 'wie viele', 'gibt'] },
-  { id: 'U12', title: 'Naming Colours', grammar: 'Colours after the verb don\'t change: das Auto ist rot; welche Farbe?', contrast: 'rot|blau; schwarz|weiß', row: 8,
+  { id: 'U12', title: 'Naming Colors', grammar: 'Colors after the verb don\'t change: das Auto ist rot; welche Farbe?', contrast: 'rot|blau; schwarz|weiß', row: 8,
     words: ['rot', 'blau', 'grün', 'schwarz', 'weiß', 'gelb', 'Farbe', 'welche'] },
   { id: 'U13', title: 'Days and Times', grammar: 'heute, morgen, jetzt; am Montag; a time word first puts the verb second: Heute ist Montag', contrast: 'heute|morgen', row: 8,
     words: ['heute', 'morgen', 'jetzt', 'Tag', 'Woche', 'Uhr', 'Montag', 'Samstag', 'Sonntag', 'am'] },

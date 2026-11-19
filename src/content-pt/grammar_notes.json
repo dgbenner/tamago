@@ -1,7 +1,7 @@
 [
   {
     "unit_id": "U01",
-    "rule": "Sou says who you are, and é says who someone else is: both are forms of ser, to be. In Brazil, you is você, and it takes the same verb form as he and she: você é. Eu and você can be left out when the verb makes it clear: Sou um menino. Every noun is masculine or feminine: um goes with a masculine noun (um homem, um menino), uma with a feminine one (uma mulher, uma menina). To say not, put não before the verb: Eu não sou Tom. Não é? at the end of a sentence asks for agreement, like right?",
+    "rule": "**Sou** says who you are, and **é** says who someone else is. Both are forms of **ser**, to be.\n\nIn Brazil, you is **você**. It takes the same verb form as he and she: **você é**.\n\n**Eu** and **você** can be left out when the verb makes it clear: **Sou um menino.**\n\nEvery noun is masculine or feminine: **um** goes with a masculine noun (**um homem**, **um menino**), **uma** with a feminine one (**uma mulher**, **uma menina**).\n\nTo say not, put **não** before the verb: **Eu não sou Tom.**\n\n**Não é?** at the end of a sentence asks for agreement, like right?",
     "example_sentence_ids": "S1004;S1008;S1021",
     "conjugation_lemma": "ser",
     "status": "live",
@@ -37,7 +37,7 @@
   },
   {
     "unit_id": "U31",
-    "rule": "Three ways to keep a conversation going. Não entendo means I don't understand, and Não entendi means I didn't catch that. Mais devagar asks for slower speech: Fale mais devagar, por favor. Pode repetir? asks someone to say it again; pode means can you, and the next verb stays in its dictionary form: Pode falar mais devagar? Por favor makes each one polite.",
+    "rule": "Three ways to keep a conversation going.\n\n**Não entendo** means I don't understand.\n**Não entendi** means I didn't catch that.\n\n**Mais devagar** asks for slower speech: **Fale mais devagar, por favor.**\n\n**Pode repetir?** asks someone to say it again; **pode** means can you, and the next verb stays in its dictionary form: **Pode falar mais devagar?**\n\n**Por favor** makes each one polite.",
     "example_sentence_ids": "S31009;S31002;S31101",
     "conjugation_lemma": "",
     "status": "live",
@@ -50,7 +50,7 @@
   },
   {
     "unit_id": "U02",
-    "rule": "The word for the changes with the noun: o before a masculine noun (o livro), a before a feminine one (a casa). Brazilians often put it before a name too: o Tom, a Mary. Ele is he and ela is she. Esse and essa point at something: esse with a masculine noun, essa with a feminine one. Isso is that or this when no noun is named: Isso é um livro. An adjective in -o changes to -a with a feminine noun (pequeno, pequena); one in -e stays the same (grande, forte). A job has no um or uma: Ele é professor.",
+    "rule": "The word for the changes with the noun: **o** before a masculine noun (**o livro**), **a** before a feminine one (**a casa**). Brazilians often put it before a name too: **o Tom**, **a Mary**.\n\n**Ele** is he and **ela** is she.\n\n**Esse** and **essa** point at something: **esse** with a masculine noun, **essa** with a feminine one. **Isso** is that or this when no noun is named: **Isso é um livro.**\n\nAn adjective in **-o** changes to **-a** with a feminine noun (**pequeno**, **pequena**). One in **-e** stays the same (**grande**, **forte**).\n\nA job has no **um** or **uma**: **Ele é professor.**",
     "example_sentence_ids": "S2002;S2004;S2008",
     "conjugation_lemma": "ser",
     "status": "live",
@@ -86,7 +86,7 @@
   },
   {
     "unit_id": "U03",
-    "rule": "To ask how someone is, Portuguese uses estar, not ser: Como você está? and the answer is Estou bem. Como vai? and Tudo bem? ask the same thing. A man says obrigado and a woman says obrigada; the answer is De nada. Bom dia is for the morning, boa tarde for the afternoon and boa noite for the evening and at bedtime. Com licença gets someone's attention or asks to pass; desculpe says sorry.",
+    "rule": "To ask how someone is, Portuguese uses **estar**, not **ser**: **Como você está?** and the answer is **Estou bem.**\n**Como vai?** and **Tudo bem?** ask the same thing.\n\nA man says **obrigado** and a woman says **obrigada**. The answer is **De nada**.\n\n**Bom dia** is for the morning, **boa tarde** for the afternoon and **boa noite** for the evening and at bedtime.\n\n**Com licença** gets someone's attention or asks to pass; **desculpe** says sorry.",
     "example_sentence_ids": "S3005;S3003;S3011",
     "conjugation_lemma": "estar",
     "status": "live",
@@ -122,7 +122,7 @@
   },
   {
     "unit_id": "U04",
-    "rule": "A verb changes its ending with the person: como is I eat and come is he, she or you eat; bebo is I drink and bebe is he, she or you drink. Como also means how. To say what you like, use gostar with de: Eu gosto de leite, Você gosta de chá? The de is always there.",
+    "rule": "A verb changes its ending with the person:\n**como** is I eat and **come** is he, she or you eat\n**bebo** is I drink and **bebe** is he, she or you drink\n**Como** also means how.\n\nTo say what you like, use **gostar** with **de**:\n**Eu gosto de leite**\n**Você gosta de chá?**\nThe **de** is always there.",
     "example_sentence_ids": "S4007;S4008;S4029",
     "conjugation_lemma": "comer;beber;gostar",
     "status": "live",
@@ -202,7 +202,7 @@
   },
   {
     "unit_id": "U05",
-    "rule": "Ter means to have: tenho is I have, and tem is he, she or you have. Tem on its own also means there is or there are, which is how Brazilians usually say it: Tem leite? Não goes before the verb: Não tenho cachorro.",
+    "rule": "**Ter** means to have: **tenho** is I have, and **tem** is he, she or you have.\n\n**Tem** on its own also means there is or there are, which is how Brazilians usually say it: **Tem leite?**\n\n**Não** goes before the verb: **Não tenho cachorro.**",
     "example_sentence_ids": "S5002;S5019;S5022",
     "conjugation_lemma": "ter",
     "status": "live",
@@ -238,7 +238,7 @@
   },
   {
     "unit_id": "U32",
-    "rule": "Two questions for words you don't know. Como se diz…? asks how something is said: Como se diz isso em português? O que significa…? and O que quer dizer…? both ask what a word means. Quer dizer is two words, wants to say, and together they mean means.",
+    "rule": "Two questions for words you don't know.\n\n**Como se diz…?** asks how something is said: **Como se diz isso em português?**\n\n**O que significa…?** and **O que quer dizer…?** both ask what a word means. **Quer dizer** is two words, wants to say, and together they mean means.",
     "example_sentence_ids": "S32101;S32005;S32003",
     "conjugation_lemma": "",
     "status": "live",
@@ -251,7 +251,7 @@
   },
   {
     "unit_id": "U06",
-    "rule": "For more than one, most nouns add -s (livro, livros; maçã, maçãs). A noun in -m changes to -ns (homem, homens), and one in -r adds -es (mulher, mulheres). The word for the changes too: os for masculine plurals, as for feminine ones. An adjective follows: grande, grandes; bom, bons. Nós somos is we are; vocês são is you are, speaking to several people; eles and elas são is they are. Temos and têm are the same forms of ter.",
+    "rule": "For more than one, most nouns add **-s** (**livro**, **livros**; **maçã**, **maçãs**). A noun in **-m** changes to **-ns** (**homem**, **homens**), and one in **-r** adds **-es** (**mulher**, **mulheres**).\n\nThe word for the changes too: **os** for masculine plurals, **as** for feminine ones. An adjective follows: **grande**, **grandes**; **bom**, **bons**.\n\n**Nós somos** is we are\n**vocês são** is you are, speaking to several people\n**eles** and **elas são** is they are\n\n**Temos** and **têm** are the same forms of **ter**.",
     "example_sentence_ids": "S6004;S6001;S6002",
     "conjugation_lemma": "ser;ter",
     "status": "live",
@@ -309,7 +309,7 @@
   },
   {
     "unit_id": "U07",
-    "rule": "An adjective agrees with its noun: novo, velho and bonito with a masculine noun, nova, velha and bonita with a feminine one. Bom becomes boa. Jovem doesn't change. Most adjectives come after the noun (um carro muito velho). Muito before an adjective means very; after a verb it means a lot. Também means also.",
+    "rule": "An adjective agrees with its noun: **novo**, **velho** and **bonito** with a masculine noun, **nova**, **velha** and **bonita** with a feminine one. **Bom** becomes **boa**. **Jovem** doesn't change.\n\nMost adjectives come after the noun (**um carro muito velho**).\n\n**Muito** before an adjective means very; after a verb it means a lot. **Também** means also.",
     "example_sentence_ids": "S7001;S7014;S7024",
     "conjugation_lemma": "",
     "status": "live",
@@ -322,7 +322,7 @@
   },
   {
     "unit_id": "U52",
-    "rule": "Gostar de can take a verb as well as a noun: Gosto de nadar means I like swimming. The verb stays in its dictionary form, ending in -ar or -er: nadar, dançar, cantar, ler. With a person the ending changes: canto is I sing and canta is he, she or you sing. Ler is irregular: leio is I read, lê is he, she or you read.",
+    "rule": "**Gostar de** can take a verb as well as a noun: **Gosto de nadar** means I like swimming. The verb stays in its dictionary form, ending in **-ar** or **-er**: **nadar**, **dançar**, **cantar**, **ler**.\n\nWith a person the ending changes: **canto** is I sing and **canta** is he, she or you sing.\n\n**Ler** is irregular: **leio** is I read, **lê** is he, she or you read.",
     "example_sentence_ids": "S52028;S52011;S52021",
     "conjugation_lemma": "cantar;ler",
     "status": "live",
@@ -380,7 +380,7 @@
   },
   {
     "unit_id": "U08",
-    "rule": "Estar says where someone or something is: está for one, estão for several, estamos for we. Em means in, on or at, and it joins with the word for the: em and o make no (no jardim, no banheiro), em and a make na (na cozinha, na cama). Em casa, with no the, means at home. Aqui is here and lá is there. Tem says what there is: Tem um gato na mesa.",
+    "rule": "**Estar** says where someone or something is: **está** for one, **estão** for several, **estamos** for we.\n\n**Em** means in, on or at. It joins with the word for the:\n**em** and **o** make **no** (**no jardim**, **no banheiro**)\n**em** and **a** make **na** (**na cozinha**, **na cama**)\n**Em casa**, with no the, means at home.\n\n**Aqui** is here and **lá** is there.\n\n**Tem** says what there is: **Tem um gato na mesa.**",
     "example_sentence_ids": "S8001;S8002;S8020",
     "conjugation_lemma": "estar",
     "status": "live",
@@ -416,7 +416,7 @@
   },
   {
     "unit_id": "U09",
-    "rule": "How you feel right now takes estar. With an adjective, it agrees with the person: a man says Estou cansado, a woman Estou cansada; feliz, triste and doente don't change. Hunger, thirst, sleepiness, fear, cold and heat take estar com and a noun, where English says to be: Estou com fome is I'm hungry, Estou com sede I'm thirsty, Estou com sono I'm sleepy, Estou com frio I'm cold.",
+    "rule": "How you feel right now takes **estar**.\n\nWith an adjective, it agrees with the person: a man says **Estou cansado**, a woman **Estou cansada**; **feliz**, **triste** and **doente** don't change.\n\nHunger, thirst, sleepiness, fear, cold and heat take **estar com** and a noun, where English says to be:\n**Estou com fome** (I'm hungry)\n**Estou com sede** (I'm thirsty)\n**Estou com sono** (I'm sleepy)\n**Estou com frio** (I'm cold)",
     "example_sentence_ids": "S9005;S9001;S9004",
     "conjugation_lemma": "estar",
     "status": "live",
@@ -452,7 +452,7 @@
   },
   {
     "unit_id": "U33",
-    "rule": "When the word won't come, say so and describe the thing. Estou procurando a palavra means I'm looking for the word. É uma coisa para… means it's a thing for…, followed by a verb: É uma coisa para ler. Como se chama isso? asks what something is called. Não sei means I don't know. Sabe with a verb asks whether someone knows how: Você sabe nadar?",
+    "rule": "When the word won't come, say so and describe the thing.\n\n**Estou procurando a palavra** means I'm looking for the word.\n**É uma coisa para…** means it's a thing for…, followed by a verb: **É uma coisa para ler.**\n**Como se chama isso?** asks what something is called.\n\n**Não sei** means I don't know. **Sabe** with a verb asks whether someone knows how: **Você sabe nadar?**",
     "example_sentence_ids": "S33101;S33013;S33028",
     "conjugation_lemma": "saber",
     "status": "live",
@@ -488,7 +488,7 @@
   },
   {
     "unit_id": "U10",
-    "rule": "My and your agree with the thing owned, not with the owner: meu and seu with a masculine noun, minha and sua with a feminine one, meus and minhas for the plurals. Seu and sua usually mean your in Brazil. For his and her, Brazilians put dele or dela after the noun: o pai dele is his father, a casa dela is her house.",
+    "rule": "My and your agree with the thing owned, not with the owner:\n**meu** and **seu** with a masculine noun\n**minha** and **sua** with a feminine one\n**meus** and **minhas** for the plurals\n**Seu** and **sua** usually mean your in Brazil.\n\nFor his and her, Brazilians put **dele** or **dela** after the noun:\n**o pai dele** (his father)\n**a casa dela** (her house)",
     "example_sentence_ids": "S10009;S10029;S10004",
     "conjugation_lemma": "",
     "status": "live",
@@ -501,7 +501,7 @@
   },
   {
     "unit_id": "U11",
-    "rule": "Question words come first: quem (who), o que (what), onde (where), quando (when), qual (which) and por que (why). Que before a noun means what or which: Que livro é esse? Why is two words, por que; because is one word, porque, and it starts the answer: Por que você está triste? Porque estou cansado.",
+    "rule": "Question words come first: **quem** (who), **o que** (what), **onde** (where), **quando** (when), **qual** (which) and **por que** (why).\n\n**Que** before a noun means what or which: **Que livro é esse?**\n\nWhy is two words, **por que**. Because is one word, **porque**, and it starts the answer:\n**Por que você está triste?**\n**Porque estou cansado.**",
     "example_sentence_ids": "S11028;S11029;S11010",
     "conjugation_lemma": "",
     "status": "live",
@@ -514,7 +514,7 @@
   },
   {
     "unit_id": "U53",
-    "rule": "Onde fica…? asks where a place is; fica is used for places that don't move, and Onde é…? and Onde está…? are heard too. Perto means near and longe means far. Tem asks whether there is one: Tem um hospital aqui perto? De says how you travel: de trem, de ônibus.",
+    "rule": "**Onde fica…?** asks where a place is; **fica** is used for places that don't move. **Onde é…?** and **Onde está…?** are heard too.\n\n**Perto** means near and **longe** means far.\n\n**Tem** asks whether there is one: **Tem um hospital aqui perto?**\n\n**De** says how you travel: **de trem**, **de ônibus**.",
     "example_sentence_ids": "S53003;S53005;S53029",
     "conjugation_lemma": "",
     "status": "live",
@@ -527,7 +527,7 @@
   },
   {
     "unit_id": "U12",
-    "rule": "The numbers from three to ten don't change. Two does: dois with a masculine noun, duas with a feminine one, like um and uma. How many is quantos with a masculine plural (quantos livros) and quantas with a feminine one (quantas maçãs). Age uses ter, to have: Quantos anos você tem? Tenho dez anos.",
+    "rule": "The numbers from three to ten don't change. Two does: **dois** with a masculine noun, **duas** with a feminine one, like **um** and **uma**.\n\nHow many is **quantos** with a masculine plural (**quantos livros**) and **quantas** with a feminine one (**quantas maçãs**).\n\nAge uses **ter**, to have:\n**Quantos anos você tem?**\n**Tenho dez anos.**",
     "example_sentence_ids": "S12028;S12027;S12017",
     "conjugation_lemma": "",
     "status": "live",
@@ -540,7 +540,7 @@
   },
   {
     "unit_id": "U13",
-    "rule": "A colour comes after its noun and agrees with it: vermelho, preto, branco and amarelo with a masculine noun, vermelha, preta, branca and amarela with a feminine one. Azul and verde are the same for both. Que cor é…? asks what colour something is.",
+    "rule": "A color comes after its noun and agrees with it: **vermelho**, **preto**, **branco** and **amarelo** with a masculine noun, **vermelha**, **preta**, **branca** and **amarela** with a feminine one. **Azul** and **verde** are the same for both.\n\n**Que cor é…?** asks what color something is.",
     "example_sentence_ids": "S13008;S13009;S13016",
     "conjugation_lemma": "",
     "status": "live",
@@ -553,7 +553,7 @@
   },
   {
     "unit_id": "U14",
-    "rule": "Hoje is today, amanhã tomorrow and agora now. The days of the week have no capital letter, and the weekdays end in -feira: segunda-feira, sexta-feira. Que dia é hoje? asks the day. The time is asked and told in the plural: Que horas são? São duas horas.",
+    "rule": "**Hoje** is today, **amanhã** tomorrow and **agora** now.\n\nThe days of the week have no capital letter, and the weekdays end in **-feira**: **segunda-feira**, **sexta-feira**. **Que dia é hoje?** asks the day.\n\nThe time is asked and told in the plural:\n**Que horas são?**\n**São duas horas.**",
     "example_sentence_ids": "S14005;S14002;S14024",
     "conjugation_lemma": "",
     "status": "live",
@@ -566,7 +566,7 @@
   },
   {
     "unit_id": "U15",
-    "rule": "Ir, to go, is irregular: vou is I go, vai is he, she or you go, and vamos is we go, which also means let's go. To a place is para or a. A joins with the word for the: a and o make ao (ao parque), a and a make à, with its accent (à escola, à loja). Para keeps the word for the: para a escola.",
+    "rule": "**Ir**, to go, is irregular:\n**vou** is I go\n**vai** is he, she or you go\n**vamos** is we go, which also means let's go\n\nTo a place is **para** or **a**. **A** joins with the word for the:\n**a** and **o** make **ao** (**ao parque**)\n**a** and **a** make **à**, with its accent (**à escola**, **à loja**)\n**Para** keeps the word for the: **para a escola**.",
     "example_sentence_ids": "S15002;S15001;S15006",
     "conjugation_lemma": "ir",
     "status": "live",
@@ -602,7 +602,7 @@
   },
   {
     "unit_id": "U51",
-    "rule": "To describe someone, use ter: Ela tem cabelo curto, she has short hair; Tenho olhos azuis, I have blue eyes. The adjective comes after the noun and agrees with it, so plural olhos take azuis and verdes. Alto and baixo describe a man, alta a woman. An ache is estar com dor: Estou com dor de cabeça is I have a headache. A pé means on foot.",
+    "rule": "To describe someone, use **ter**:\n**Ela tem cabelo curto** (she has short hair)\n**Tenho olhos azuis** (I have blue eyes)\n\nThe adjective comes after the noun and agrees with it, so plural **olhos** take **azuis** and **verdes**. **Alto** and **baixo** describe a man, **alta** a woman.\n\nAn ache is **estar com dor**: **Estou com dor de cabeça** is I have a headache.\n\n**A pé** means on foot.",
     "example_sentence_ids": "S51005;S51002;S51007",
     "conjugation_lemma": "",
     "status": "live",
@@ -615,7 +615,7 @@
   },
   {
     "unit_id": "U41",
-    "rule": "Como você se chama? asks a name, and the answer is Eu me chamo Ana, or just Me chamo Ana: chamar-se, to be called, with me for I. Qual é o seu nome? and Meu sobrenome é Silva ask and give the name and surname. Muito prazer means nice to meet you. O senhor and a senhora are the polite you, for someone older or someone you don't know; they take the ele form, like você: A senhora é professora? Apresento meu amigo means this is my friend.",
+    "rule": "**Como você se chama?** asks a name. The answer:\n**Eu me chamo Ana.** or just **Me chamo Ana.**\n**Chamar-se** is to be called, with **me** for I.\n\n**Qual é o seu nome?** and **Meu sobrenome é Silva** ask and give the name and surname. **Muito prazer** means nice to meet you.\n\n**O senhor** and **a senhora** are the polite you, for someone older or someone you don't know. They take the ele form, like **você**:\n**A senhora é professora?**\n\n**Apresento meu amigo** means this is my friend.",
     "example_sentence_ids": "S41106;S41105;S41104",
     "conjugation_lemma": "apresentar",
     "status": "live",
@@ -651,7 +651,7 @@
   },
   {
     "unit_id": "U54",
-    "rule": "Usar and vestir both mean to wear: Vou usar o casaco. A roupa, clothes, is singular in Portuguese: A roupa é bonita. As calças, trousers, and os óculos, glasses, are always plural, so the verb is plural too: Onde estão as calças? Colours follow the noun and agree with it: a saia vermelha, as calças azuis.",
+    "rule": "**Usar** and **vestir** both mean to wear:\n**Vou usar o casaco.**\n\n**A roupa**, clothes, is singular in Portuguese:\n**A roupa é bonita.**\n\n**As calças**, trousers, and **os óculos**, glasses, are always plural, so the verb is plural too:\n**Onde estão as calças?**\n\nColors follow the noun and agree with it: **a saia vermelha**, **as calças azuis**.",
     "example_sentence_ids": "S54115;S54102;S54105",
     "conjugation_lemma": "usar",
     "status": "live",
@@ -687,7 +687,7 @@
   },
   {
     "unit_id": "U34",
-    "rule": "Como se escreve? asks how a word is spelled. Pode soletrar, por favor? asks someone to spell it. Poder, can, is followed straight by the other verb in its plain form: posso cantar, pode soletrar. Uma letra is a letter of the alphabet.",
+    "rule": "**Como se escreve?** asks how a word is spelled. **Pode soletrar, por favor?** asks someone to spell it.\n\n**Poder**, can, is followed straight by the other verb in its plain form: **posso cantar**, **pode soletrar**.\n\n**Uma letra** is a letter of the alphabet.",
     "example_sentence_ids": "S34104;S34001;S34101",
     "conjugation_lemma": "poder",
     "status": "live",
@@ -723,7 +723,7 @@
   },
   {
     "unit_id": "U42",
-    "rule": "Numbers from zero to twenty: onze, doze, treze, catorze, quinze, then dezesseis, dezessete, dezoito, dezenove, each one word, and vinte. A phone number is read digit by digit or in pairs: Meu número é zero, três, onze, quinze. Ligar para and telefonar para both mean to phone someone: Vou telefonar para a Ana.",
+    "rule": "Numbers from zero to twenty: **onze**, **doze**, **treze**, **catorze**, **quinze**, then **dezesseis**, **dezessete**, **dezoito**, **dezenove**, each one word, and **vinte**.\n\nA phone number is read digit by digit or in pairs:\n**Meu número é zero, três, onze, quinze.**\n\n**Ligar para** and **telefonar para** both mean to phone someone:\n**Vou telefonar para a Ana.**",
     "example_sentence_ids": "S42104;S42102;S42004",
     "conjugation_lemma": "telefonar",
     "status": "live",
@@ -759,7 +759,7 @@
   },
   {
     "unit_id": "U43",
-    "rule": "Age takes ter, to have: Tenho vinte anos, I'm twenty. Quantos anos você tem? asks how old someone is, and Qual é a sua idade? asks the same more formally. Um mês, dois meses. A data de nascimento is the date of birth; nascer is to be born. Quando é seu aniversário? asks for a birthday.",
+    "rule": "Age takes **ter**, to have:\n**Tenho vinte anos.** (I'm twenty)\n**Quantos anos você tem?** asks how old someone is; **Qual é a sua idade?** asks the same more formally.\n\n**Um mês**, **dois meses**. **A data de nascimento** is the date of birth; **nascer** is to be born.\n\n**Quando é seu aniversário?** asks for a birthday.",
     "example_sentence_ids": "S43001;S43103;S43003",
     "conjugation_lemma": "nascer",
     "status": "live",
@@ -795,7 +795,7 @@
   },
   {
     "unit_id": "U55",
-    "rule": "Words for class: a turma (the class, the group), o quadro (the board), a página, o papel, o exame, o colega or a colega (a classmate). Estudar, aprender, perguntar and responder are regular: -ar verbs end in -o for I and -a for você, ele and ela (estudo, estuda); -er verbs in -o and -e (aprendo, aprende).",
+    "rule": "Words for class: **a turma** (the class, the group), **o quadro** (the board), **a página**, **o papel**, **o exame**, **o colega** or **a colega** (a classmate).\n\n**Estudar**, **aprender**, **perguntar** and **responder** are regular. **-ar** verbs end in **-o** for I and **-a** for **você**, **ele** and **ela** (**estudo**, **estuda**); **-er** verbs in **-o** and **-e** (**aprendo**, **aprende**).",
     "example_sentence_ids": "S55001;S55109;S55112",
     "conjugation_lemma": "estudar",
     "status": "live",
@@ -831,7 +831,7 @@
   },
   {
     "unit_id": "U35",
-    "rule": "Short phrases for checking: Um momento, por favor. Espera aí, or Espera um momento, asks someone to wait. Está certo? asks if it's right; Está errado means it's wrong. Certo and errado agree with the person: Estou certo, Ela está errada.",
+    "rule": "Short phrases for checking:\n**Um momento, por favor.**\n**Espera aí.** or **Espera um momento.** asks someone to wait.\n**Está certo?** asks if it's right; **Está errado** means it's wrong.\n\n**Certo** and **errado** agree with the person: **Estou certo**, **Ela está errada**.",
     "example_sentence_ids": "S35101;S35103;S35004",
     "conjugation_lemma": "",
     "status": "live",
@@ -844,7 +844,7 @@
   },
   {
     "unit_id": "U44",
-    "rule": "The tens: trinta, quarenta, cinquenta, sessenta, setenta, oitenta, noventa, then cem for a hundred. Between the tens and the units comes e: trinta e um, noventa e nove. Quinhentos is five hundred, mil a thousand, um milhão a million; um milhão de takes de before a noun: um milhão de livros.",
+    "rule": "The tens: **trinta**, **quarenta**, **cinquenta**, **sessenta**, **setenta**, **oitenta**, **noventa**, then **cem** for a hundred.\n\nBetween the tens and the units comes **e**: **trinta e um**, **noventa e nove**.\n\n**Quinhentos** is five hundred, **mil** a thousand, **um milhão** a million; **um milhão de** takes **de** before a noun: **um milhão de livros**.",
     "example_sentence_ids": "S44001;S44112;S44119",
     "conjugation_lemma": "",
     "status": "live",
@@ -857,7 +857,7 @@
   },
   {
     "unit_id": "U45",
-    "rule": "Morar em says where you live: Moro em São Paulo, Ela mora num apartamento. Em joins the article: em + o = no, em + a = na, em + um = num, em + uma = numa. A rua, a avenida and a praça are street, avenue and square; o código postal is the postcode. Perto de means near, longe de far from.",
+    "rule": "**Morar em** says where you live:\n**Moro em São Paulo.**\n**Ela mora num apartamento.**\n\n**Em** joins the article: **em** + **o** = **no**, **em** + **a** = **na**, **em** + **um** = **num**, **em** + **uma** = **numa**.\n\n**A rua**, **a avenida** and **a praça** are street, avenue and square; **o código postal** is the postcode. **Perto de** means near, **longe de** far from.",
     "example_sentence_ids": "S45004;S45103;S45107",
     "conjugation_lemma": "morar",
     "status": "live",
@@ -893,7 +893,7 @@
   },
   {
     "unit_id": "U56",
-    "rule": "Ser says what someone is like: Ele é moreno, Ela é morena. Adjectives agree with the person: gordo, gorda; baixo, baixa; ruivo, ruiva. A word ending in -e is the same for both: alegre. Estar is for how someone is just now: O menino está alegre.",
+    "rule": "**Ser** says what someone is like:\n**Ele é moreno.**\n**Ela é morena.**\n\nAdjectives agree with the person: **gordo**, **gorda**; **baixo**, **baixa**; **ruivo**, **ruiva**. A word ending in **-e** is the same for both: **alegre**.\n\n**Estar** is for how someone is just now:\n**O menino está alegre.**",
     "example_sentence_ids": "S56107;S56110;S56116",
     "conjugation_lemma": "",
     "status": "live",
@@ -906,7 +906,7 @@
   },
   {
     "unit_id": "U46",
-    "rule": "Nationalities agree with the person: Sou brasileiro, Sou brasileira; mexicano, mexicana. Names of languages take no capital: Falo português, Não falo chinês. Most countries take the article: o Brasil, o México, a China, so em + the article: Moro no México, Ele mora na China. Portugal takes none.",
+    "rule": "Nationalities agree with the person: **Sou brasileiro**, **Sou brasileira**; **mexicano**, **mexicana**.\n\nNames of languages take no capital:\n**Falo português.**\n**Não falo chinês.**\n\nMost countries take the article: **o Brasil**, **o México**, **a China**, so **em** + the article:\n**Moro no México.**\n**Ele mora na China.**\n**Portugal** takes none.",
     "example_sentence_ids": "S46001;S46101;S46105",
     "conjugation_lemma": "falar",
     "status": "live",
@@ -942,7 +942,7 @@
   },
   {
     "unit_id": "U47",
-    "rule": "Quero is I want; Eu queria is the polite I'd like, and is the usual way to ask in a shop: Eu queria um café, por favor. Comprar, to buy: compro, compra. A quantity takes de before the food: um quilo de maçãs, um quilo de batata.",
+    "rule": "**Quero** is I want; **Eu queria** is the polite I'd like, and is the usual way to ask in a shop:\n**Eu queria um café, por favor.**\n\n**Comprar**, to buy: **compro**, **compra**.\n\nA quantity takes **de** before the food: **um quilo de maçãs**, **um quilo de batata**.",
     "example_sentence_ids": "S47104;S47106;S47101",
     "conjugation_lemma": "comprar",
     "status": "live",
@@ -978,7 +978,7 @@
   },
   {
     "unit_id": "U57",
-    "rule": "Opposites: fácil and difícil, limpo and sujo, duro and mole, bom and mau. Adjectives in -l are the same for both genders: fácil, difícil, but mau has má. Ser for what something is like (O queijo é mole), estar for how it is just now (O pão está duro).",
+    "rule": "Opposites: **fácil** and **difícil**, **limpo** and **sujo**, **duro** and **mole**, **bom** and **mau**.\n\nAdjectives in **-l** are the same for both genders: **fácil**, **difícil**, but **mau** has **má**.\n\n**Ser** for what something is like, **estar** for how it is just now:\n**O queijo é mole.**\n**O pão está duro.**",
     "example_sentence_ids": "S57101;S57103;S57003",
     "conjugation_lemma": "",
     "status": "live",
@@ -991,7 +991,7 @@
   },
   {
     "unit_id": "U36",
-    "rule": "Phrases that check you've understood: Claro, of course. Exatamente, exactly. É verdade? is it true? Combinado! means it's a deal, or agreed: Amanhã, combinado?",
+    "rule": "Phrases that check you've understood:\n**Claro.** (of course)\n**Exatamente.** (exactly)\n**É verdade?** (is it true?)\n**Combinado!** means it's a deal, or agreed: **Amanhã, combinado?**",
     "example_sentence_ids": "S36003;S36101;S36102",
     "conjugation_lemma": "",
     "status": "live",
@@ -1004,7 +1004,7 @@
   },
   {
     "unit_id": "U48",
-    "rule": "Quanto custa? asks how much one thing is; Quanto custam? asks for more than one: Quanto custam as maçãs? The money is the real, plural reais, and a real has a hundred centavos: Custa um real e cinquenta centavos. Caro and barato agree: a camisa é cara, a saia é barata. A conta is the bill; uma nota is a banknote and uma moeda a coin.",
+    "rule": "**Quanto custa?** asks how much one thing is; **Quanto custam?** asks for more than one:\n**Quanto custam as maçãs?**\n\nThe money is the **real**, plural **reais**, and a **real** has a hundred **centavos**:\n**Custa um real e cinquenta centavos.**\n\n**Caro** and **barato** agree: **a camisa é cara**, **a saia é barata**.\n\n**A conta** is the bill; **uma nota** is a banknote and **uma moeda** a coin.",
     "example_sentence_ids": "S48128;S48101;S48126",
     "conjugation_lemma": "custar",
     "status": "live",
@@ -1040,7 +1040,7 @@
   },
   {
     "unit_id": "U49",
-    "rule": "A container takes de before what's in it: uma garrafa de água, um saco de pão. Todo dia means every day: Leio todo dia. Todos is everyone, or all of them. Ou means or and mas means but: Garrafa ou copo?",
+    "rule": "A container takes **de** before what's in it: **uma garrafa de água**, **um saco de pão**.\n\n**Todo dia** means every day:\n**Leio todo dia.**\n**Todos** is everyone, or all of them.\n\n**Ou** means or and **mas** means but:\n**Garrafa ou copo?**",
     "example_sentence_ids": "S49001;S49103;S49003",
     "conjugation_lemma": "",
     "status": "live",
@@ -1053,7 +1053,7 @@
   },
   {
     "unit_id": "U58",
-    "rule": "Em joins the article: no campo, na praia, no mar, na montanha. O sol, o vento and o ar are masculine; a montanha, a planta and a flor feminine. Tem, there is, for what's in a place: Tem uma planta na mesa.",
+    "rule": "**Em** joins the article: **no campo**, **na praia**, **no mar**, **na montanha**.\n\n**O sol**, **o vento** and **o ar** are masculine; **a montanha**, **a planta** and **a flor** feminine.\n\n**Tem**, there is, for what's in a place:\n**Tem uma planta na mesa.**",
     "example_sentence_ids": "S58101;S58103;S58003",
     "conjugation_lemma": "",
     "status": "live",
@@ -1066,7 +1066,7 @@
   },
   {
     "unit_id": "U61",
-    "rule": "Que horas são? asks the time. One o'clock takes é, every other hour são: É uma hora, São três horas. E meia is half past (São três e meia), e quinze a quarter past, and quinze para as dez a quarter to ten. At a time is às: A aula é às nove. Da manhã, da tarde and da noite say which part of the day; meio-dia is noon. Antes de and depois de go before a verb in its plain form: antes de nadar.",
+    "rule": "**Que horas são?** asks the time. One o'clock takes **é**, every other hour **são**:\n**É uma hora.**\n**São três horas.**\n\n**E meia** is half past (**São três e meia**), **e quinze** a quarter past, and **quinze para as dez** a quarter to ten.\n\nAt a time is **às**:\n**A aula é às nove.**\n\n**Da manhã**, **da tarde** and **da noite** say which part of the day; **meio-dia** is noon.\n\n**Antes de** and **depois de** go before a verb in its plain form: **antes de nadar**.",
     "example_sentence_ids": "S61025;S61106;S61101",
     "conjugation_lemma": "",
     "status": "live",
@@ -1079,7 +1079,7 @@
   },
   {
     "unit_id": "U37",
-    "rule": "When you didn't catch something: O quê? (What?), Desculpe, não ouvi (Sorry, I didn't hear), Não ouço você (I can't hear you). Pode falar mais alto? asks someone to speak up. Por quê, with the accent, comes at the end of a sentence (Não sei por quê); at the start of a question it is por que, two words, no accent (Por que você não quer me ouvir?).",
+    "rule": "When you didn't catch something:\n**O quê?** (What?)\n**Desculpe, não ouvi.** (Sorry, I didn't hear)\n**Não ouço você.** (I can't hear you)\n**Pode falar mais alto?** asks someone to speak up.\n\n**Por quê**, with the accent, comes at the end of a sentence:\n**Não sei por quê.**\nAt the start of a question it is **por que**, two words, no accent:\n**Por que você não quer me ouvir?**",
     "example_sentence_ids": "S37024;S37101;S37021",
     "conjugation_lemma": "ouvir",
     "status": "live",
@@ -1115,7 +1115,7 @@
   },
   {
     "unit_id": "U62",
-    "rule": "The days: segunda, terça, quarta, quinta and sexta, each short for segunda-feira and the rest, then sábado and domingo. On a day is na (no for sábado and domingo): na terça, no sábado. Toda segunda and todos os dias say how often; uma vez por semana is once a week. Costumo + a verb says what you usually do: Costumo nadar no sábado. Até terça! means see you on Tuesday.",
+    "rule": "The days: **segunda**, **terça**, **quarta**, **quinta** and **sexta**, each short for **segunda-feira** and the rest, then **sábado** and **domingo**.\n\nOn a day is **na** (**no** for **sábado** and **domingo**): **na terça**, **no sábado**.\n\n**Toda segunda** and **todos os dias** say how often; **uma vez por semana** is once a week.\n\n**Costumo** + a verb says what you usually do:\n**Costumo nadar no sábado.**\n\n**Até terça!** means see you on Tuesday.",
     "example_sentence_ids": "S62104;S62117;S62123",
     "conjugation_lemma": "",
     "status": "live",
@@ -1128,7 +1128,7 @@
   },
   {
     "unit_id": "U63",
-    "rule": "Months take no capital: janeiro, fevereiro, março. In a month is em: em julho; in a season is no or na: no verão, na primavera. Dates put the day first, with de: cinco de março. The first of the month is primeiro: primeiro de maio. In Brazil the seasons are the other way round from Europe: Em dezembro está quente no Brasil.",
+    "rule": "Months take no capital: **janeiro**, **fevereiro**, **março**.\n\nIn a month is **em**: **em julho**; in a season is **no** or **na**: **no verão**, **na primavera**.\n\nDates put the day first, with **de**: **cinco de março**. The first of the month is **primeiro**: **primeiro de maio**.\n\nIn Brazil the seasons are the other way round from Europe:\n**Em dezembro está quente no Brasil.**",
     "example_sentence_ids": "S63015;S63014;S63121",
     "conjugation_lemma": "",
     "status": "live",
@@ -1141,7 +1141,7 @@
   },
   {
     "unit_id": "U71",
-    "rule": "Words for where things are, each with de before the noun: em cima de (on top of), debaixo de and embaixo de (under), atrás de (behind), na frente de or em frente a (in front of), ao lado de (next to), dentro (inside) and fora (outside). De joins the article: de + o = do, de + a = da: em cima da mesa, debaixo do papel. Isto, isso and aquilo are this, that and that over there; aquele, aquela go with a noun. Sem means without, entre between, desde since.",
+    "rule": "Words for where things are, each with **de** before the noun: **em cima de** (on top of), **debaixo de** and **embaixo de** (under), **atrás de** (behind), **na frente de** or **em frente a** (in front of), **ao lado de** (next to), **dentro** (inside) and **fora** (outside).\n\n**De** joins the article: **de** + **o** = **do**, **de** + **a** = **da**: **em cima da mesa**, **debaixo do papel**.\n\n**Isto**, **isso** and **aquilo** are this, that and that over there; **aquele**, **aquela** go with a noun.\n\n**Sem** means without, **entre** between, **desde** since.",
     "example_sentence_ids": "S71101;S71104;S71107",
     "conjugation_lemma": "",
     "status": "live",
@@ -1154,7 +1154,7 @@
   },
   {
     "unit_id": "U72",
-    "rule": "Colours follow the noun. Most agree (roxo, roxa), but rosa, cinza and laranja never change, and marrom only adds -ns for more than one: a saia rosa, o carro cinza. De says what something is made of: de plástico, de madeira, de metal, de vidro, de pano. Weather verbs have only the ele form: chove (it rains), neva (it snows), vai chover.",
+    "rule": "Colors follow the noun. Most agree (**roxo**, **roxa**), but **rosa**, **cinza** and **laranja** never change, and **marrom** only adds **-ns** for more than one: **a saia rosa**, **o carro cinza**.\n\n**De** says what something is made of: **de plástico**, **de madeira**, **de metal**, **de vidro**, **de pano**.\n\nWeather verbs have only the ele form: **chove** (it rains), **neva** (it snows), **vai chover**.",
     "example_sentence_ids": "S72103;S72022;S72005",
     "conjugation_lemma": "chover",
     "status": "live",
@@ -1190,7 +1190,7 @@
   },
   {
     "unit_id": "U38",
-    "rule": "Ways to take a moment: Um momento… Então… (So…). Eu penso que sim means I think so. Pensar, to think: penso, pensa. Ver, to see: Posso ver isso? Vamos ver (let's see).",
+    "rule": "Ways to take a moment:\n**Um momento…**\n**Então…** (So…)\n**Eu penso que sim** means I think so.\n\n**Pensar**, to think: **penso**, **pensa**. **Ver**, to see:\n**Posso ver isso?**\n**Vamos ver.** (let's see)",
     "example_sentence_ids": "S38010;S38008;S38003",
     "conjugation_lemma": "pensar",
     "status": "live",
@@ -1226,7 +1226,7 @@
   },
   {
     "unit_id": "U64",
-    "rule": "Plans: Você vem? (Are you coming?), Vamos ao cinema? (Shall we go to the cinema?). Vir, to come: venho, vem; sair, to go out: saio, sai; ver: vejo, vemos. A gente means we in everyday Brazilian speech and takes the ele form: A gente vai ao cinema. Livre means free (not busy).",
+    "rule": "Plans:\n**Você vem?** (Are you coming?)\n**Vamos ao cinema?** (Shall we go to the cinema?)\n\n**Vir**, to come: **venho**, **vem**; **sair**, to go out: **saio**, **sai**; **ver**: **vejo**, **vemos**.\n\n**A gente** means we in everyday Brazilian speech and takes the ele form:\n**A gente vai ao cinema.**\n\n**Livre** means free (not busy).",
     "example_sentence_ids": "S64003;S64104;S64014",
     "conjugation_lemma": "vir",
     "status": "live",
@@ -1262,7 +1262,7 @@
   },
   {
     "unit_id": "U65",
-    "rule": "The day in order: Eu acordo, me levanto, tomo banho, tomo café da manhã. Some verbs take me for I: me levanto, me deito. Tomar is to take or to have (tomar banho, tomar café); almoçar, jantar and lanchar are to have lunch, dinner and a snack. Fazer: faço, faz. Começar and acabar: começo às nove, acabo às cinco.",
+    "rule": "The day in order:\n**Eu acordo, me levanto, tomo banho, tomo café da manhã.**\n\nSome verbs take **me** for I: **me levanto**, **me deito**.\n\n**Tomar** is to take or to have (**tomar banho**, **tomar café**); **almoçar**, **jantar** and **lanchar** are to have lunch, dinner and a snack.\n\n**Fazer**: **faço**, **faz**. **Começar** and **acabar**: **começo às nove**, **acabo às cinco**.",
     "example_sentence_ids": "S65101;S65107;S65130",
     "conjugation_lemma": "fazer",
     "status": "live",
@@ -1298,7 +1298,7 @@
   },
   {
     "unit_id": "U73",
-    "rule": "Everyday verbs side by side. Dar, to give: dou, dá; dar para someone. Seguir: sigo. Conseguir (to manage to): consigo. Perder: perco. Mudar de, to change something you have: mudo de roupa. Passar, to pass something: Pode passar o pão? Sentar-se, to sit: me sento. Lavar, limpar and pintar are regular -ar verbs.",
+    "rule": "Everyday verbs side by side. **Dar**, to give: **dou**, **dá**; **dar para** someone. **Seguir**: **sigo**. **Conseguir** (to manage to): **consigo**. **Perder**: **perco**.\n\n**Mudar de**, to change something you have: **mudo de roupa**. **Passar**, to pass something:\n**Pode passar o pão?**\n\n**Sentar-se**, to sit: **me sento**. **Lavar**, **limpar** and **pintar** are regular **-ar** verbs.",
     "example_sentence_ids": "S73101;S73107;S73134",
     "conjugation_lemma": "dar",
     "status": "live",
@@ -1334,7 +1334,7 @@
   },
   {
     "unit_id": "U66",
-    "rule": "Words on signs: Entrada, Saída, Aberto, Fechado, Proibido nadar. They agree with the place: a farmácia está aberta, o banco está fechado. Abrir and fechar: abre às nove, fecha às seis. Os correios (the post office) is plural.",
+    "rule": "Words on signs: **Entrada**, **Saída**, **Aberto**, **Fechado**, **Proibido nadar**.\n\nThey agree with the place: **a farmácia está aberta**, **o banco está fechado**.\n\n**Abrir** and **fechar**: **abre às nove**, **fecha às seis**. **Os correios** (the post office) is plural.",
     "example_sentence_ids": "S66004;S66035;S66014",
     "conjugation_lemma": "abrir",
     "status": "live",
@@ -1370,7 +1370,7 @@
   },
   {
     "unit_id": "U67",
-    "rule": "Timetables: o horário, a partida (departure), a chegada (arrival). O ônibus sai às oito e chega às dez: sair and chegar. A ticket is uma passagem; uma passagem de ida is one way, de ida e volta a round trip. You travel de: de avião, de barco, de ônibus.",
+    "rule": "Timetables: **o horário**, **a partida** (departure), **a chegada** (arrival).\n**O ônibus sai às oito e chega às dez.** (sair and chegar)\n\nA ticket is **uma passagem**; **uma passagem de ida** is one way, **de ida e volta** a round trip.\n\nYou travel **de**: **de avião**, **de barco**, **de ônibus**.",
     "example_sentence_ids": "S67012;S67112;S67115",
     "conjugation_lemma": "viajar",
     "status": "live",
@@ -1406,7 +1406,7 @@
   },
   {
     "unit_id": "U74",
-    "rule": "Free time: jogar is for games and sport (jogar futebol), tocar for instruments (tocar violão), brincar for children at play. Gostar de + a noun or a verb: Gosto de natação, Gosto de correr. Conversar com means to chat with someone.",
+    "rule": "Free time: **jogar** is for games and sport (**jogar futebol**), **tocar** for instruments (**tocar violão**), **brincar** for children at play.\n\n**Gostar de** + a noun or a verb:\n**Gosto de natação.**\n**Gosto de correr.**\n\n**Conversar com** means to chat with someone.",
     "example_sentence_ids": "S74106;S74018;S74113",
     "conjugation_lemma": "jogar",
     "status": "live",
@@ -1442,7 +1442,7 @@
   },
   {
     "unit_id": "U39",
-    "rule": "Saying you're not sure: Acho que sim (I think so), Acho que não (I don't think so), Talvez (maybe), Não tenho certeza (I'm not sure), É possível (it's possible). Você tem certeza? asks Are you sure?",
+    "rule": "Saying you're not sure:\n**Acho que sim.** (I think so)\n**Acho que não.** (I don't think so)\n**Talvez.** (maybe)\n**Não tenho certeza.** (I'm not sure)\n**É possível.** (it's possible)\n**Você tem certeza?** asks Are you sure?",
     "example_sentence_ids": "S39024;S39101;S39003",
     "conjugation_lemma": "achar",
     "status": "live",
@@ -1478,7 +1478,7 @@
   },
   {
     "unit_id": "U68",
-    "rule": "The words of an announcement: Atenção, passageiros. O voo (flight), o portão (gate), a plataforma (platform), a bagagem (luggage, always singular), a mala (suitcase). Estar atrasado is to be late: O voo está atrasado. O destino is the destination.",
+    "rule": "The words of an announcement:\n**Atenção, passageiros.**\n**O voo** (flight), **o portão** (gate), **a plataforma** (platform), **a bagagem** (luggage, always singular), **a mala** (suitcase).\n\n**Estar atrasado** is to be late:\n**O voo está atrasado.**\n\n**O destino** is the destination.",
     "example_sentence_ids": "S68102;S68110;S68006",
     "conjugation_lemma": "entrar",
     "status": "live",
@@ -1514,7 +1514,7 @@
   },
   {
     "unit_id": "U69",
-    "rule": "Instructions in a book or a class use the você command, which is the ele form of the present subjunctive: leia (read), escreva (write), responda (answer), escolha (choose), complete, abra (open), feche (close), olhe and veja (look), ouça (listen). Never the tu form (lê, escreve) in instructions. Em dupla means in pairs, em grupo in groups.",
+    "rule": "Instructions in a book or a class use the você command, which is the ele form of the present subjunctive: **leia** (read), **escreva** (write), **responda** (answer), **escolha** (choose), **complete**, **abra** (open), **feche** (close), **olhe** and **veja** (look), **ouça** (listen).\n\nNever the tu form (**lê**, **escreve**) in instructions.\n\n**Em dupla** means in pairs, **em grupo** in groups.",
     "example_sentence_ids": "S69001;S69102;S69028",
     "conjugation_lemma": "",
     "status": "live",
@@ -1527,7 +1527,7 @@
   },
   {
     "unit_id": "U75",
-    "rule": "Directions on a map: o norte, o sul, o leste, o oeste; em + the article: no norte, no sul. Fica a ... says how far: Fica a cinco quilômetros, Fica a cem metros. O mapa is masculine though it ends in -a. Visitar, to visit; a visita, the visit.",
+    "rule": "Directions on a map: **o norte**, **o sul**, **o leste**, **o oeste**; **em** + the article: **no norte**, **no sul**.\n\n**Fica a** ... says how far:\n**Fica a cinco quilômetros.**\n**Fica a cem metros.**\n\n**O mapa** is masculine though it ends in **-a**. **Visitar**, to visit; **a visita**, the visit.",
     "example_sentence_ids": "S75108;S75123;S75107",
     "conjugation_lemma": "visitar",
     "status": "live",

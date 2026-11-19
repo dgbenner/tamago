@@ -45,7 +45,7 @@ export const UNITS = [
     words: ['qué', 'quién', 'dónde', 'cuál', 'por qué', 'porque'] },
   { id: 'U12', title: 'Counting to Ten', grammar: 'Numbers two to ten; cuántos and cuántas with a noun', contrast: 'cuántos|cuántas; dos|diez', row: 8,
     words: ['dos', 'tres', 'cuatro', 'cinco', 'seis', 'siete', 'ocho', 'nueve', 'diez', 'cuántos', 'cuántas'] },
-  { id: 'U13', title: 'Naming Colours', grammar: 'Colours come after the noun; most agree (rojo, roja), azul and verde do not change', contrast: 'rojo|roja; negro|negra; blanco|blanca', row: 8,
+  { id: 'U13', title: 'Naming Colors', grammar: 'Colors come after the noun; most agree (rojo, roja), azul and verde do not change', contrast: 'rojo|roja; negro|negra; blanco|blanca', row: 8,
     words: ['rojo', 'roja', 'azul', 'verde', 'negro', 'negra', 'blanco', 'blanca', 'amarillo', 'amarilla', 'color'] },
   { id: 'U14', title: 'Days and Times', grammar: 'Time words: hoy, mañana, ahora; el lunes; days of the week without a capital', contrast: 'hoy|mañana', row: 9,
     words: ['hoy', 'mañana', 'ahora', 'día', 'semana', 'hora', 'lunes', 'sábado', 'domingo'] },

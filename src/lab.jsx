@@ -2,7 +2,7 @@
 // light and dark. Runs only on the dev server at /lab.html; lab.html is not a build entry, so it never deploys.
 import { StrictMode, useState } from 'react'
 import { createRoot } from 'react-dom/client'
-import CircleNode, { circleLine, firstCircleMarker } from './screens/CircleNode.jsx'
+import CircleNode, { circleLine, firstCircleMarker } from './components/CircleNode.jsx'
 import { CheckpointNode } from './screens/Home.jsx'
 import './index.css'
 import './lab.css'

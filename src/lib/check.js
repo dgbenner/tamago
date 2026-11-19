@@ -64,7 +64,12 @@ function isTypo(input, answer, vocabulary) {
   const I = input.split(' ')
   const A = answer.split(' ')
   // A missing or extra space: never when a typed word that isn't in the answer is another course word.
-  if (I.length !== A.length) return Math.abs(I.length - A.length) === 1 && distance(input, answer) <= TYPOS && !I.some((w) => !A.includes(w) && vocabulary.has(w))
+  // A missing or extra space (one slip): the letters, spaces left out, must line up one for one, with at most one more
+  // slip; a dropped word changes their length, so "Who am" is never "Who am I?" (audit, 2026-11-19).
+  if (I.length !== A.length) {
+    const i = I.join(''), a = A.join('')
+    return Math.abs(I.length - A.length) === 1 && i.length === a.length && distance(i, a) <= TYPOS - 1 && !I.some((w) => !A.includes(w) && vocabulary.has(w))
+  }
   const diffs = A.map((w, i) => [w, I[i]]).filter(([w, t]) => w !== t)
   if (!diffs.length || diffs.length > TYPOS) return false
   let total = 0

@@ -23,7 +23,7 @@
   --disc: #f6efe0;
   --focus: #1c1a17; /* the ink, so the ring is the app's own, not the browser's blue (craft review 2026-11-10) */
   --field: #979287;
-  /* Toasts (Dan, 2026-11-11): one plain colour per kind, a pale fill with dark text of the same hue. */
+  /* Toasts (Dan, 2026-11-11): one plain color per kind, a pale fill with dark text of the same hue. */
   --toast-info-bg: #e7effc; --toast-info-ink: #1d4785;
   --toast-success-bg: #e3f3e8; --toast-success-ink: #145c33;
   --toast-warning-bg: #fdf1d8; --toast-warning-ink: #7a4b00;
@@ -177,7 +177,7 @@ button.chip-drag {
   .btn-primary {
     @apply min-h-12 rounded-xl bg-green px-4 font-semibold text-white disabled:bg-line disabled:text-muted;
   }
-  /* Yellow is the primary colour: Start or Resume on home, and Check in a lesson. */
+  /* Yellow is the primary color: Start or Resume on home, and Check in a lesson. */
   .btn-submit {
     @apply min-h-12 rounded-xl bg-accent px-4 font-semibold text-accent-ink disabled:bg-line disabled:text-muted;
   }
@@ -187,7 +187,7 @@ button.chip-drag {
   .icon-btn {
     @apply inline-flex h-11 w-11 items-center justify-center rounded-xl;
   }
-  /* The border is always 4px, so a state change only recolours it and nothing moves. */
+  /* The border is always 4px, so a state change only recolors it and nothing moves. */
   .choice {
     @apply min-h-12 rounded-xl border-4 border-line bg-surface px-4 py-2.5 text-left text-lg;
   }
@@ -280,11 +280,11 @@ button.chip-drag {
     transition-duration: 30ms;
   }
   /* Opening screen (Dan, 2026-11-13): a gauze curtain over the home screen, which is already drawn underneath: the page
-     colour at --gauze opacity, with a fine woven-dot texture. Leaving, the logo and version fade in 180 ms while the
+     color at --gauze opacity, with a fine woven-dot texture. Leaving, the logo and version fade in 180 ms while the
      curtain itself is handed to the halftone canvas (Splash.jsx halftoneOut), and taps already reach the home screen. */
   .splash {
     @apply fixed inset-0 z-50 flex items-center justify-center;
-    /* the page colour with a faint ink tint, so the halftone dots read against the home screen as they shrink */
+    /* the page color with a faint ink tint, so the halftone dots read against the home screen as they shrink */
     background-color: color-mix(in srgb, color-mix(in srgb, var(--bg) 90%, var(--ink)) calc(var(--gauze, 0.84) * 100%), transparent);
   }
   .splash::before {
@@ -322,7 +322,7 @@ button.chip-drag {
     animation: splash-draw 300ms linear both;
   }
   /* Toasts (Dan, 2026-11-11): at the top of the screen, sliding down, held about 3 seconds, then sliding back up.
-     One container, one plain colour per kind: info, success, warning, error. */
+     One container, one plain color per kind: info, success, warning, error. */
   .toast-region {
     @apply pointer-events-none fixed inset-x-0 top-0 z-40 flex justify-center px-4 pt-[max(0.75rem,env(safe-area-inset-top))];
   }

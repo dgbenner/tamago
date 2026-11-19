@@ -1,9 +1,9 @@
 import { useRef } from 'react'
-import { IconInfo, IconLock, IconNotebookPen } from './icons.jsx'
+import { IconInfo, IconLock, IconNotebookPen } from '../screens/icons.jsx'
 
 // The new tree circle (Dan, 2026-11-10; in the lab at /lab.html, not on the live tree yet). The learner sees a circle
 // and its lessons, named by its title: no unit numbers, no rounds, no segments. The five rounds still run underneath;
-// the ring simply fills across all of a circle's lessons, whatever their number. One accent colour (--ring) for the
+// the ring simply fills across all of a circle's lessons, whatever their number. One accent color (--ring) for the
 // fill and the first-use marker.
 // Every circle has a warm off-white disc inside the ring (--disc, the same in light and dark), so the soft white edges
 // of the sushi art never show on dark; a locked circle keeps the disc faint, with the lock on it. The sushi images are
@@ -114,7 +114,7 @@ function CircleButton({ title, icon, locked = false, early = false, lessonsDone 
           ? <span className="relative text-muted [&_svg]:size-8"><IconLock /></span>
           : icon ? <img src={icon} srcSet={`${icon} 1x, ${icon.replace(/\.webp$/, '@2x.webp')} 2x`} alt="" className="relative aspect-square w-[78%] object-contain" /> : null}
         {/* badge (Brush-Up, Dan 2026-11-14): how many items wait inside, over the circle's lower right; muted like every
-            indicator, never a colour fill. The caption already says it aloud. */}
+            indicator, never a color fill. The caption already says it aloud. */}
         {badge != null && <span data-badge aria-hidden="true" className="absolute right-0 bottom-0 flex h-6 min-w-6 items-center justify-center rounded-full border-2 border-line bg-surface px-1.5 text-xs font-medium text-ink">{badge}</span>}
       </span>
       <span className={`max-w-full text-base leading-tight font-semibold break-words ${state === 'locked' ? 'text-muted' : ''}`}>{title}</span>

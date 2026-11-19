@@ -1,0 +1,18 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+import { ColorTable, LooseColors } from './docs/ColorTable.jsx'
+
+<Meta title="Colors" />
+
+# Colors
+
+Every color in Tamago has a name, called a token, and is defined once in `src/index.css`. Components use the name, never the color itself, so one change in that file changes the color everywhere, and switching to dark swaps the whole set at once.
+
+This table reads `src/index.css` directly, so it always shows what the app uses.
+
+<ColorTable />
+
+## Colors Without a Name
+
+A few colors are written straight into the code. They work, but they sit outside the token list, so a change to the palette would miss them. Candidates to become tokens later.
+
+<LooseColors />

@@ -195,3 +195,11 @@ test('a missing accent that makes no other course word is still right', () => {
   assert.ok(fr('je suis un garcon', ['Je suis un garçon.']).correct)
   assert.ok(checkTyped('cafe', ['Café.'], { lang: 'fr', vocabulary: new Set(['café']) }).correct)
 })
+// A dropped word is never a typo, however short (audit, 2026-11-19: "Who am" passed for "Who am I?").
+test('leaving out a word is a miss, not a missing space', () => {
+  const en = (input, accepted) => checkTyped(input, accepted, { lang: 'en', vocabulary: new Set() })
+  assert.equal(en('who am', ['Who am I?']).correct, false)
+  assert.equal(checkTyped('é isso não', ['É isso, não é?'], { lang: 'pt', vocabulary: new Set() }).correct, false)
+  assert.ok(fr('jesuis une femme', ['Je suis une femme.']).typo)
+  assert.ok(fr('jesius une femme', ['Je suis une femme.']).typo, 'a missing space and one more slip')
+})
