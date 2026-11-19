@@ -72,3 +72,9 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 ## Also Lifted
 
 - **WrongMark** (`src/components/WrongMark.jsx`): the small red X with "Incorrect" beside a wrong answer. ChoiceList needs it and so do seven other places in `Lesson.jsx`, so it moved out with ChoiceList.
+
+## Duplicates to Settle
+
+Places where the app builds something close to a component here, on its own. Candidates to merge later; nothing is changed yet.
+
+- **Pick What You Heard builds its own choice list** (`PickHeard` in `src/screens/Lesson.jsx`). It looks like ChoiceList but has a picked state: a tap turns the choice orange (`choice-selected`) and the answer waits for Check. ChoiceList has no picked state, since its tap is checked at once. Merging the two would mean giving ChoiceList an optional "pick first, then Check" mode.
