@@ -14,15 +14,17 @@ export function FlagRow({ size = 'md', onPick }) {
   const gap = size === 'lg' ? 'gap-x-0.5 gap-y-1 lg:gap-y-2' : 'gap-x-2 gap-y-3 lg:gap-x-1' // the opening screen's flags sit close together (Dan's design lab, 2026-11-10)
   return (
     <div data-ds="flag-row" className="flex flex-col items-center gap-2">
-      <ul className={`grid grid-cols-4 lg:grid-cols-5 items-start justify-center ${gap}`}>
-        {BY_NAME.map((c) => {
+      {/* Opening screen on wide screens (Dan, 2026-11-19): two rows, 8 then 7. The smaller picker (header, Settings)
+          keeps rows of five there; phones keep rows of four. */}
+      <ul className={`grid grid-cols-4 ${size === 'lg' ? 'lg:grid-cols-8' : 'lg:grid-cols-5'} items-start justify-center ${gap}`}>
+        {BY_NAME.map((c, n) => {
           const current = c.id === course.id
           return (
-            <li key={c.id} className="flex min-w-0 justify-center">
-              <button aria-pressed={c.ready ? current : undefined} aria-disabled={!c.ready || undefined}
+            <li key={c.id} className="flex min-w-0 justify-center" style={{ '--i': n }}>
+              <button data-ready={c.ready || undefined} aria-pressed={c.ready ? current : undefined} aria-disabled={!c.ready || undefined}
                 aria-label={c.ready ? c.name : `${c.name}, coming soon`}
                 onClick={() => { if (!c.ready) { setSoon(c.name); return } setSoon(null); if (onPick) onPick(c.id); else chooseCourse(c.id) }}
-                className={`flex w-full flex-col items-center gap-1 rounded-2xl p-1.5 ${c.ready ? '' : 'opacity-35 grayscale'} ${current && size !== 'lg' ? 'outline-4 outline-offset-2 outline-orange' : ''}`}>
+                className={`flag-pick flex w-full flex-col items-center gap-1 rounded-2xl p-1.5 ${c.ready ? '' : 'opacity-35 grayscale'} ${current && size !== 'lg' ? 'outline-4 outline-offset-2 outline-orange' : ''}`}>
                 <img src={c.flag} alt="" className={`aspect-square w-full ${px} object-contain`} />
                 <span className={`whitespace-nowrap text-xs sm:text-sm ${current ? 'font-semibold' : 'text-muted'}`}>{c.name}</span>
               </button>
