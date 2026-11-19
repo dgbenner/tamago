@@ -18,6 +18,6 @@ export const Full = { args: { value: 1 } }
 export const Sliding = {
   render: () => {
     const [n, setN] = useState(2)
-    return <div className="flex flex-1 flex-col gap-5"><div className="flex"><ProgressBar value={n / 10} /></div><Button kind="secondary" onClick={() => setN(n >= 10 ? 0 : n + 1)}>Next Question</Button></div>
+    return <div className="flex flex-1 flex-col gap-5"><div className="flex"><ProgressBar value={n / 10} /></div><Button kind="outline" onClick={() => setN(n >= 10 ? 0 : n + 1)}>Next Question</Button></div>
   },
 }

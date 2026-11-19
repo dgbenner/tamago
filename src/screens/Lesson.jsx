@@ -209,7 +209,7 @@ export default function Lesson({ session, content, settings, seenWords, cantList
       {/* Old Duolingo's switch, on the question itself: faint, bottom centre. It pauses for an hour, like Settings. */}
       {showCantNow && (
         <div className="flex justify-center pb-[max(0.5rem,env(safe-area-inset-bottom))]">
-          <Button kind="tertiary" onClick={() => onCantNow(q.speaking ? 'speak' : 'listen')} className="text-xs">
+          <Button kind="link" onClick={() => onCantNow(q.speaking ? 'speak' : 'listen')} className="text-xs">
             {q.speaking ? "Can't Speak Now" : "Can't Listen Now"}
           </Button>
         </div>
@@ -386,7 +386,7 @@ function Speak({ q, result, onAnswer, newWords, onHint, settings }) {
                 <>
                   <button onClick={() => play(q.audio)} className="btn-secondary inline-flex items-center gap-2 px-4"><span aria-hidden="true"><IconSpeaker playing={modelPlaying} /></span>{model}</button>
                   <button onClick={rec.playBack} className="btn-secondary inline-flex items-center gap-2 px-4"><span aria-hidden="true"><IconSpeaker playing={yoursPlaying} /></span>Yours</button>
-                  <Button kind="tertiary" onClick={rec.start} className="text-xs">Record Again</Button>
+                  <Button kind="link" onClick={rec.start} className="text-xs">Record Again</Button>
                 </>
               )}
             </div>
@@ -395,7 +395,7 @@ function Speak({ q, result, onAnswer, newWords, onHint, settings }) {
       {!result && !compare && <p className="text-sm text-muted">Say it aloud, then tap Done.</p>}
       {!result && (
         <div className="action-row">
-          <Button kind="submit" data-check onClick={done} disabled={compare && rec.state !== 'done' && rec.state !== 'unavailable'} className="w-full">Done</Button>
+          <Button kind="main" data-check onClick={done} disabled={compare && rec.state !== 'done' && rec.state !== 'unavailable'} className="w-full">Done</Button>
         </div>
       )}
     </>
@@ -449,7 +449,7 @@ function PickHeard({ q, result, onAnswer, wordsShown, onShowWords }) {
           )
         })}
       </div>
-      {!result && <div className="action-row"><Button kind="submit" data-check disabled={!chosen} onClick={() => { const pick = q.audioChoices.find((x) => x.sentence_id === chosen); onAnswer({ correct: chosen === q.answer, given: pick?.french, against: [q.shown] }) }} className="w-full">Check</Button></div>}
+      {!result && <div className="action-row"><Button kind="main" data-check disabled={!chosen} onClick={() => { const pick = q.audioChoices.find((x) => x.sentence_id === chosen); onAnswer({ correct: chosen === q.answer, given: pick?.french, against: [q.shown] }) }} className="w-full">Check</Button></div>}
     </>
   )
 }
@@ -694,7 +694,7 @@ function Build({ q, content, settings, result, onAnswer, newWords, hideFrench, o
           <button onClick={() => setTyping(!typing)} aria-label={typing ? 'Use word chips' : 'Use the keyboard'} className="icon-btn border-2 border-line">
             {typing ? <IconChips /> : <IconKeyboard />}
           </button>
-          <Button kind="submit" data-check disabled={typing ? !text.trim() : picked.length === 0} onClick={() => check(typing ? text : answerText)} className="flex-1">Check</Button>
+          <Button kind="main" data-check disabled={typing ? !text.trim() : picked.length === 0} onClick={() => check(typing ? text : answerText)} className="flex-1">Check</Button>
         </div>
       )}
     </>
@@ -856,7 +856,7 @@ function Typed({ q, content, settings, result, onAnswer, newWords, hideFrench, o
       {q.type === 'QT09'
         ? <ReplyBubble wide className="focus-within:border-ink"><TypedInput q={q} bare value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} /></ReplyBubble>
         : <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} />}
-      {!result && <div className="check-row"><Button kind="submit" data-check disabled={!text.trim()} onClick={check} className="flex-1">Check</Button></div>}
+      {!result && <div className="check-row"><Button kind="main" data-check disabled={!text.trim()} onClick={check} className="flex-1">Check</Button></div>}
     </>
   )
 }
@@ -875,7 +875,7 @@ function TypeWord({ q, content, settings, result, onAnswer }) {
         <p lang="en" className="text-2xl leading-relaxed">{q.hint}</p>
       </div>
       <TypedInput q={q} value={text} onChange={setText} disabled={Boolean(result)} wrong={Boolean(result && !result.correct)} onSubmit={check} />
-      {!result && <div className="check-row"><Button kind="submit" data-check disabled={!text.trim()} onClick={check} className="flex-1">Check</Button></div>}
+      {!result && <div className="check-row"><Button kind="main" data-check disabled={!text.trim()} onClick={check} className="flex-1">Check</Button></div>}
     </>
   )
 }

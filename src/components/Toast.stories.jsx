@@ -12,8 +12,9 @@ export default {
 const kind = (k, text) => ({ args: { line: { id: 1, kind: k, text } } })
 export const Info = kind('info', 'Signed Out. Progress Stays on This Device')
 export const Success = kind('success', 'Progress Saved to Your Account')
-export const Warning = kind('warning', 'No Connection. Trying Again')
-export const ErrorKind = { ...kind('error', 'Progress Could Not Be Saved'), name: 'Error' }
+// Warning and Error are styled in src/index.css but not used in the app yet; the wording here is a sample.
+export const Warning = { ...kind('warning', 'No Connection. Trying Again'), name: 'Warning (Not Used in the App Yet)' }
+export const ErrorKind = { ...kind('error', 'Progress Could Not Be Saved'), name: 'Error (Not Used in the App Yet)' }
 // A passed lesson: green, white text, larger.
 export const Pass = kind('pass', 'Say Hi · 8 of 10 · Nicely Done')
 
@@ -21,7 +22,7 @@ export const Pass = kind('pass', 'Say Hi · 8 of 10 · Nicely Done')
 export const TryIt = {
   render: (args) => {
     const [line, setLine] = useState(null)
-    return <div className="flex justify-center" style={{ paddingTop: "6rem" }}><Toast line={line} onGone={() => { setLine(null); args.onGone?.() }} /><Button kind="secondary" onClick={() => setLine({ id: Date.now(), kind: 'pass', text: 'At the Café · 10 of 10 · Perfect Score!' })}>Finish a Lesson</Button></div>
+    return <div className="flex justify-center" style={{ paddingTop: "6rem" }}><Toast line={line} onGone={() => { setLine(null); args.onGone?.() }} /><Button kind="outline" onClick={() => setLine({ id: Date.now(), kind: 'pass', text: 'At the Café · 10 of 10 · Perfect Score!' })}>Finish a Lesson</Button></div>
   },
 }
 
@@ -31,7 +32,9 @@ export const EveryKindHeldStill = {
   render: () => (
     <div className="flex flex-col items-center gap-3 p-6">
       <style>{'.toast { animation: none !important; }'}</style>
-      {[['info', 'Signed Out. Progress Stays on This Device'], ['success', 'Progress Saved to Your Account'], ['warning', 'No Connection. Trying Again'], ['error', 'Progress Could Not Be Saved'], ['pass', 'Say Hi · 8 of 10 · Nicely Done']].map(([k, text]) => <p key={k} className={`toast toast-${k}`}>{text}</p>)}
+      {[['info', 'Signed Out. Progress Stays on This Device'], ['success', 'Progress Saved to Your Account'], ['pass', 'Say Hi · 8 of 10 · Nicely Done']].map(([k, text]) => <p key={k} className={`toast toast-${k}`}>{text}</p>)}
+      <p className="text-sm text-muted">Not used in the app yet:</p>
+      {[['warning', 'No Connection. Trying Again'], ['error', 'Progress Could Not Be Saved']].map(([k, text]) => <p key={k} className={`toast toast-${k}`}>{text}</p>)}
     </div>
   ),
 }

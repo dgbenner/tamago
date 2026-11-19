@@ -17,8 +17,8 @@ export default function AudioHelp({ audio, words = null, wordsShown = false, onS
         <button onClick={() => { play(audio); setReplayed(true) }} aria-label={label} className={`inline-flex shrink-0 items-center justify-center ${bare ? '-m-1 h-11 w-11 rounded-full' : 'mr-1 h-16 w-16 rounded-xl border-2 border-line bg-surface'}`}>
           <span aria-hidden="true"><IconSpeaker playing={playing} /></span>
         </button>
-        {replayed && <Button kind="tertiary" onClick={() => play(audio, { slow: true })} className="text-xs" data-slow>Slow</Button>}
-        {replayed && words && onShowWords && !wordsShown && <Button kind="tertiary" onClick={onShowWords} className="text-xs" data-show-words>Show Words</Button>}
+        {replayed && <Button kind="link" onClick={() => play(audio, { slow: true })} className="text-xs" data-slow>Slow</Button>}
+        {replayed && words && onShowWords && !wordsShown && <Button kind="link" onClick={onShowWords} className="text-xs" data-show-words>Show Words</Button>}
       </div>
       {wordsShown && words}
     </>

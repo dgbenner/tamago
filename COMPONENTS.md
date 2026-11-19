@@ -74,13 +74,13 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 - **File:** `src/components/Button.jsx`
 - **What it's for:** the app's buttons by kind, so the look is chosen by one word instead of a class name.
 - **Main settings:**
-  - `kind`: `submit` (yellow, the main action: Check, Done, Start Lesson), `primary` (green: Continue), `secondary` (outlined), `tertiary` (a quiet text link: Back, Slow, Can't Listen Now).
+  - `kind`: `main` (yellow, the main action: Check, Done, Start Lesson), `continue` (green: Continue), `outline` (outlined), `link` (a quiet text link: Back, Slow, Can't Listen Now). Each maps to one of the app's classes (`btn-submit`, `btn-primary`, `btn-secondary`, `btn-tertiary`), which keep their names.
   - `className`: extra layout classes, such as `w-full`.
   - Everything else (`onClick`, `disabled`, and so on) passes straight to the button.
 
 ```jsx
-<Button kind="submit" disabled={!text} onClick={check} className="w-full">Check</Button>
-<Button kind="tertiary" onClick={back}>Back</Button>
+<Button kind="main" disabled={!text} onClick={check} className="w-full">Check</Button>
+<Button kind="link" onClick={back}>Back</Button>
 ```
 
 ## ProgressBar
@@ -210,7 +210,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 - **File:** `src/components/Toast.jsx`
 - **What it's for:** a short message that slides down from the top, holds about 3 seconds and leaves by itself.
 - **Main settings:**
-  - `line`: `{ id, kind, text }`, or `null` for none. `kind` is `info`, `success`, `warning`, `error` or `pass` (a passed lesson: green and larger). A new `id` plays it again.
+  - `line`: `{ id, kind, text }`, or `null` for none. `kind` is `info`, `success` or `pass` (a passed lesson: green and larger); `warning` and `error` are styled but not used in the app yet. A new `id` plays it again.
   - `onGone()`: called when it has left.
 
 ```jsx
@@ -236,8 +236,8 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 Places where the app builds something close to a component here, on its own. Candidates to merge later; nothing is changed yet.
 
 - **Pick What You Heard builds its own choice list** (`PickHeard` in `src/screens/Lesson.jsx`). It looks like ChoiceList but has a picked state: a tap turns the choice orange (`choice-selected`) and the answer waits for Check. ChoiceList has no picked state, since its tap is checked at once. Merging the two would mean giving ChoiceList an optional "pick first, then Check" mode.
-- **Buttons are still mostly plain class names.** Button is used on the question page (Check, Done, Continue, the text links). Everywhere else the app still writes `<button className="btn-submit">` and the like by hand, about 110 places. Same look either way; one way would be simpler.
-- **Button names don't match the app's own words.** The class `btn-primary` is the green Continue button, while the app's rule is "yellow is the primary colour" (`btn-submit`). Button keeps the class names for now; clearer names (`main`, `continue`) could come with the merge above.
+- **Buttons are still mostly plain class names (left as they are: Dan, 2026-11-19; this stays a demonstration on two screens).** Button is used on the question page (Check, Done, Continue, the text links). Everywhere else the app still writes `<button className="btn-submit">` and the like by hand, about 110 places. Same look either way; one way would be simpler.
+- **Button's kinds and the app's class names differ.** Button uses plain names (`main`, `continue`, `outline`, `link`); the classes underneath keep theirs (`btn-submit`, `btn-primary`, `btn-secondary`, `btn-tertiary`), and `btn-primary` is the green Continue although the app's rule calls yellow the primary colour. Settled for now by Dan (2026-11-19): leave the class names.
 - **Two play buttons.** AudioHelp has its own speaker button; `SpeakerButton` in `Lesson.jsx` is a second one (Type What You Hear, Speak and Compare, word pictures) with a slightly different frame and no Slow or Show Words. A third, smaller speaker sits inside each Pick What You Heard choice.
 - **Two ways to show a sentence.** FrenchText draws the sentence with hints; Pick What You Heard writes it as a plain paragraph with the same size classes, and Read and Answer has its own `HintLine` in `A1Tasks.jsx`.
 - **The New tag and the new-word dot are bare markup.** `<span className="tag">` and `<span className="new-dot">` are written out wherever they appear; no component.
@@ -245,4 +245,4 @@ Places where the app builds something close to a component here, on its own. Can
 - **Two tool shapes, one list.** ToolPill and ToolCard draw the same tool two ways; Home picks by screen width. Could be one ToolTile with a `shape` setting.
 - **Colors written straight into the code** (see Storybook's Colors page): the passed-lesson toast's green `#15803d` and edge `#116b33`, and the points chip's blue `#1f6dfb`.
 - **A dark-mode gap in the tokens.** `--electric` has a dark value (`#5c9bff`) only when the device is dark; choosing Dark in Settings keeps the light blue `#1f6dfb`. The Colors page shows it as "same as light".
-- **Two toast kinds are never sent.** `warning` and `error` are styled in `src/index.css`, but the app only sends `info`, `success` and `pass`.
+- **Two toast kinds are not used in the app yet.** `warning` and `error` are styled in `src/index.css`, but the app only sends `info`, `success` and `pass`. Kept in the library and labeled (Dan, 2026-11-19).

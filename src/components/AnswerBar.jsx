@@ -103,7 +103,7 @@ export default function AnswerBar({ q, result, cantListen, flagReasons, onFlag, 
               ))}
             </div>
           ))}
-        <Button kind="primary" autoFocus onClick={onContinue}>Continue</Button>
+        <Button kind="continue" autoFocus onClick={onContinue}>Continue</Button>
       </div>
     </section>
   )
