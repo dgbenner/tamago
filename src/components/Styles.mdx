@@ -1,5 +1,5 @@
 import { Meta } from '@storybook/addon-docs/blocks'
-import { StylesTable } from './docs/StylesTable.jsx'
+import { ScreensTable, StylesTable } from './docs/StylesTable.jsx'
 
 <Meta title="Styles" />
 
@@ -47,6 +47,16 @@ There are two ways a component gets its iOS and Android look:
 - **Not by color alone:** with no colored edge on the answer bar, a small check or X sits beside the verdict.
 - **Motion:** Material's "emphasized" curve: fast out, gentle in.
 
+## The Two Screens
+
+Under **Screens** in the sidebar: the Question Page (Pick the Meaning) and the Main Page, each built only from the library's components, with fixed sample content and no network calls. Each has a **Compare** view: Tamago, iOS and Android together, at phone size and at desktop size.
+
+The content and its order of importance are the same in every style. What moved, to follow each platform:
+
+<ScreensTable />
+
+**One thing to know about the bottom bar.** Tamago's strip shows every tool at once. iOS and Android bars hold five places at most, so the bar has Learn (the tree), three tools (Practice, Glossary, Progress) and More, which opens a sheet with the rest (Conversations, Self-Study, Verbs, Developer). Which three come first is an assumption, not a decision.
+
 ## What Was Kept on Purpose
 
 - **Colors.** Yellow stays the main action and green stays Continue on both platforms, even though iOS and Android apps usually have one tint color.
@@ -56,5 +66,6 @@ There are two ways a component gets its iOS and Android look:
 ## Where to Look in the Code
 
 - `src/components/style/StyleContext.jsx`: holds the current style. The app never sets it, so it is always Tamago.
-- `src/components/platform/`: the Konsta UI versions (Button, ChoiceList, ProgressBar, Sheet, Toast, ToolPill).
+- `src/components/platform/`: the Konsta UI versions (Button, ChoiceList, PinnedAction, ProgressBar, Sheet, Toast, ToolPill, ToolStrip, TopBar).
+- `src/components/screens/`: the two screens, their sample content, and the Compare view.
 - `.storybook/platform.css`: Konsta UI's setup and the adaptations for Tamago's own components.

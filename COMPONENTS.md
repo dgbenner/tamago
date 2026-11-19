@@ -241,6 +241,68 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
 <Toast line={{ id: Date.now(), kind: 'pass', text: 'Say Hi · 8 of 10 · Nicely Done' }} onGone={clear} />
 ```
 
+## TopBar
+
+- **File:** `src/components/TopBar.jsx`
+- **What it's for:** the main page's header: the course flag (opens the language pop-up), the wordmark (reloads the app), and the gear (Settings).
+- **Styles:** Konsta UI's Navbar on iOS (wordmark centred, flag left, gear right) and Android (wordmark left, flag and gear right).
+- **Main settings:**
+  - `flag`, `languageName`: the course's flag picture and name.
+  - `onLanguage()`, `onLogo()`, `onSettings()`: called by the flag, the wordmark and the gear.
+  - `start`: anything to show before the flag.
+
+```jsx
+<TopBar flag="/flags/fr.webp" languageName="French" onLanguage={pickLanguage} onLogo={reload} onSettings={openSettings} />
+```
+
+## ToolStrip and ToolPanel
+
+- **File:** `src/components/ToolTile.jsx`
+- **What it's for:** the list of tools on the main page. ToolStrip is the phone's row of ToolPills; ToolPanel is the wide screen's column of ToolCards, Developer last.
+- **Styles:** ToolStrip is Konsta UI's Tabbar on iOS and Android, pinned to the bottom: Learn, three tools, and More (a sheet with the rest). ToolPanel is Tamago's own, adapted; the screen puts it at the left on iOS and Android.
+- **Main settings:**
+  - `tools`: the list, each `{ id, label, about, onOpen, quiet }`.
+
+```jsx
+<ToolStrip tools={tools} />
+<ToolPanel tools={tools} />
+```
+
+## PinnedAction
+
+- **File:** `src/components/PinnedAction.jsx`
+- **What it's for:** the main page's one pinned action at the bottom, always on screen: "Next Lesson: Say Hi".
+- **Styles:** the platform's Button floating above the tab bar on iOS; Konsta UI's Fab with its label (an extended floating action button) on Android.
+- **Main settings:**
+  - `label`: the button's words.
+  - `onClick()`: called by a tap.
+
+```jsx
+<PinnedAction label="Next Lesson: At the Café" onClick={startNextLesson} />
+```
+
+## IconButton
+
+- **File:** `src/components/IconButton.jsx`
+- **What it's for:** a button that is just an icon (close, settings, flag), 44 px square.
+- **Styles:** Tamago's own, adapted (round on both platforms; a small grey circle for close on iOS, a pressed layer on Android).
+- **Main settings:**
+  - `label`: its name for screen readers, since it has no text.
+  - `children`: the icon.
+  - `className`, `onClick` and the rest pass straight through.
+
+```jsx
+<IconButton label="Leave lesson" onClick={leave}><IconClose /></IconButton>
+```
+
+## Screens
+
+- **Files:** `src/components/screens/QuestionPage.jsx`, `MainPage.jsx`, `sample.js` (the fixed sample content), `Compare.jsx`
+- **What they're for:** two whole screens built only from the components above, to show the library working together in each style. Not part of the app.
+  - **QuestionPage:** Pick the Meaning. `picked` starts it already answered (right or wrong); otherwise a tap answers it.
+  - **MainPage:** the header, the tools, part of the tree, the pinned Next Lesson. `sheetFor` opens a circle's sheet.
+  - **Compare:** one story drawn in Tamago, iOS and Android together, each in its own window of the real size. `size` is `phone` or `desktop`; `stacked` puts them one under another.
+
 ## Icons
 
 - **File:** `src/screens/icons.jsx` (not moved; 28 files import it)
@@ -274,3 +336,10 @@ Places where the app builds something close to a component here, on its own. Can
 - **The Sheet's two platform shapes are chosen in code.** Tamago's Sheet switches from bottom sheet to pop-up with CSS alone at 1024px; the iOS and Android version picks Konsta's Sheet or Popup by measuring the window. Two mechanisms for one rule.
 - **A check on right answers is worth considering for Tamago.** Tamago's ChoiceList shows a right answer by a green edge alone, so right is carried by color only. The iOS and Android lists add a small green check (kept there: Dan, 2026-11-19; drawn inside `src/components/platform/ChoiceList.jsx`, not in `icons.jsx`). Giving Tamago's own list the same check would help anyone who can't tell the green from the red. The Android answer bar has the same kind of mark beside its verdict; Tamago's and the iOS bar rely on the colored edge and the word.
 - **Style hooks.** The adapted components are found by the stylesheet through `data-ds` attributes (sentence, first-sight, level-line, flag-row, tool-card, sheet-head) and a few existing class names. One naming scheme for all of them would be tidier.
+- **IconButton is used by the two screens only.** The app, and the library's own AnswerBar, SheetHead and CircleNode, still write `<button className="icon-btn">` by hand (about 40 places).
+- **The tree's rows are layout written into the screen.** `MainPage.jsx` repeats the list and row classes from `Home.jsx` (`home-tree`, the row's gap). A TreeRow component would give both one source.
+- **The lesson's frame is layout written into the screen.** `QuestionPage.jsx` repeats the page and top-bar classes from `Lesson.jsx`. A LessonFrame component would give both one source.
+- **The New tag is still bare markup** in the question page, as in `Lesson.jsx` and the QuestionHeading stories (noted above); the screen made it a third copy.
+- **Two icons live outside `icons.jsx`.** The More dots in the bottom bar and the check on right answers are drawn inside `src/components/platform/`. If they stay, they belong in the icon file.
+- **Which three tools sit in the bottom bar** (Practice, Glossary, Progress) is an assumption in `src/components/platform/ToolStrip.jsx`; Tamago's strip has no order of importance beyond the alphabet.
+- **Recall fading.** CircleNode still fades a finished ring as recall drops; the app has since switched that off. The story is labeled; the setting could be removed from the component once the app's change reaches this branch.

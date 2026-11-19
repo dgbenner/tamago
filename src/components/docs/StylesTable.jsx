@@ -101,6 +101,61 @@ const ROWS = [
     ]
   ],
   [
+    "TopBar",
+    [
+      "",
+      "Konsta Navbar",
+      ": the wordmark centred, the flag at the left, the gear at the right"
+    ],
+    [
+      "",
+      "Konsta Navbar",
+      ": the wordmark at the left, the flag and the gear together at the right (a top app bar)"
+    ]
+  ],
+  [
+    "ToolStrip (phone)",
+    [
+      "",
+      "Konsta Tabbar",
+      " at the bottom: Learn, three tools, More"
+    ],
+    [
+      "",
+      "Konsta Tabbar",
+      " at the bottom (a navigation bar): Learn, three tools, More"
+    ]
+  ],
+  [
+    "ToolPanel (desktop)",
+    [
+      "Adapted, and moved to the left edge (a sidebar)"
+    ],
+    [
+      "Adapted, and moved to the left edge (a navigation drawer): rows without boxes"
+    ]
+  ],
+  [
+    "PinnedAction",
+    [
+      "The iOS Button, floating just above the tab bar"
+    ],
+    [
+      "",
+      "Konsta Fab",
+      " with its label (an extended floating action button), lower right"
+    ]
+  ],
+  [
+    "IconButton",
+    [
+      "Adapted: round; the close button is a small grey circle"
+    ],
+    [
+      "Adapted: round, with a pressed layer"
+    ]
+  ],
+  [
     "AnswerBar",
     [
       "Adapted: translucent bar with a thin colored edge; its Continue is the iOS Button"
@@ -201,6 +256,26 @@ export function StylesTable() {
           </tr>
         ))}
       </tbody>
+    </table>
+  )
+}
+
+// What moved on each screen to follow the platform (the Styles page, "The Two Screens").
+const MOVED = [
+  ['Main page: header', 'Flag left, wordmark centred, gear right', 'The same places, as a navigation bar', 'Wordmark left; flag and gear together at the right'],
+  ['Main page: tools, phone', 'A strip of pills under the header, all seven', 'A tab bar at the bottom: Learn, three tools, More', 'A navigation bar at the bottom: Learn, three tools, More'],
+  ['Main page: tools, desktop', 'A panel of cards at the right', 'The same cards at the left, as a sidebar', 'The same list at the left, as a navigation drawer'],
+  ['Main page: Next Lesson', 'A full-width button pinned at the bottom, with a line above', 'The same button, floating above the tab bar', 'A floating action button with its label, lower right'],
+  ['Main page: circle sheet', 'Bottom sheet, or a pop-up on desktop', 'The same, with a grabber', 'The same, with a drag handle'],
+  ['Question page: top', 'Close button, then the progress bar', 'The same; the close button is a small grey circle', 'The same'],
+  ['Question page: choices', 'Four separate boxes', 'One grouped list', 'One outlined list'],
+  ['Question page: result', 'A bar at the bottom with a colored edge', 'A translucent bar with a thin colored edge', 'A sheet-like bar with a check or X beside the verdict'],
+]
+export function ScreensTable() {
+  return (
+    <table style={{ borderCollapse: 'collapse', width: '100%' }}>
+      <thead><tr><th style={th}>Where</th><th style={th}>Tamago</th><th style={th}>iOS</th><th style={th}>Android</th></tr></thead>
+      <tbody>{MOVED.map(([where, ...cells]) => <tr key={where}><td style={{ ...td, fontWeight: 600 }}>{where}</td>{cells.map((c, i) => <td key={i} style={td}>{c}</td>)}</tr>)}</tbody>
     </table>
   )
 }

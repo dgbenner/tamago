@@ -23,7 +23,7 @@ export default {
         desktop: { name: 'Desktop (1440 px)', styles: { width: '1440px', height: '900px' }, type: 'desktop' },
       },
     },
-    options: { storySort: { order: ['Design System Card', 'Styles', 'Colors', 'Type and Spacing', 'Icons', 'Components'] } },
+    options: { storySort: { order: ['Design System Card', 'Styles', 'Colors', 'Type and Spacing', 'Icons', 'Screens', 'Components'] } },
   },
   globalTypes: {
     style: {
@@ -43,7 +43,8 @@ export default {
       document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light')
       // Tamago: nothing is added, so a story draws exactly as the app does.
       const style = context.globals.style ?? 'tamago'
-      if (style === 'tamago' || context.viewMode === 'docs') return <Story />
+      // A Compare story draws each style itself, in its own small window.
+      if (style === 'tamago' || context.viewMode === 'docs' || context.parameters.compare) return <Story />
       // iOS and Android: Konsta UI's App wrapper sets the platform, and the components get their platform parts.
       return (
         <StyleProvider style={style} parts={platformParts}>

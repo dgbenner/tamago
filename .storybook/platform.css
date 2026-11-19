@@ -222,3 +222,60 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 @media (prefers-reduced-motion: reduce) {
   .k-ios *, .k-material * { transition-duration: 0.01ms !important; }
 }
+
+/* ---------- Part 3: the two screens ---------- */
+/* Colours for Konsta UI's bars (named here, not as Tailwind classes, so the app's CSS gains nothing). */
+.tg-ink { color: var(--ink); }
+.tg-bar-ios { background: linear-gradient(to bottom, var(--bg) 60%, transparent); }
+.tg-bar-ios-bottom { background: linear-gradient(to top, var(--bg) 55%, transparent); }
+.tg-bar-md { background: color-mix(in srgb, var(--surface) 92%, var(--green)); }
+.tg-tab { color: var(--muted); }
+.tg-tab-on { color: var(--ink); }
+.k-ios .tg-tab-on { color: var(--green); }
+.tg-tab-pill { background: color-mix(in srgb, var(--accent) 45%, var(--surface)); }
+.tg-tab-sushi { width: 1.75rem; }
+
+/* Header: Konsta UI's Navbar, edge to edge. */
+.tg-topbar { margin-inline: -1rem; width: auto; grid-column: 1 / -1; }
+.tg-bar-logo { display: flex; align-items: center; border-radius: 8px; cursor: pointer; }
+.k-ios .tg-topbar .icon-btn { width: 2.75rem; height: 2.75rem; }
+.k-material .tg-topbar .icon-btn { width: 3rem; height: 3rem; }
+@media (min-width: 1024px) { .tg-topbar { margin-inline: 0; } }
+
+/* Tools on a phone: the bottom bar. Hidden from 1024px, where the tools are a panel at the side. */
+.tg-tabbar { position: fixed; inset-inline: 0; bottom: 0; z-index: 20; }
+/* Five places share the bar's width equally (Konsta UI gives each a fixed width, which overflows a phone at five). */
+.tg-tabbar .k-link { flex: 1 1 0; min-width: 0; width: auto; padding-inline: 0; cursor: pointer; font: inherit; background: none; }
+.tg-tabbar .k-link:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; border-radius: 12px; }
+.k-ios .tg-tabbar .k-toolbar > div:last-of-type { background: color-mix(in srgb, var(--surface) 80%, transparent); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-radius: 9999px; padding-inline: 0.75rem; box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.1), 0 8px 28px rgb(0 0 0 / 0.14); }
+.k-material .tg-tabbar .k-tabbar-link-icon svg { width: 24px; height: 24px; }
+@media (min-width: 1024px) { .tg-tabbar { display: none; } }
+
+/* The pinned action. iOS: the main button floating above the tab bar. Android: the extended FAB, lower right. */
+.tg-pinned { position: sticky; z-index: 20; margin-top: auto; display: flex; pointer-events: none; }
+.tg-pinned > * { pointer-events: auto; }
+.k-ios .tg-pinned { bottom: 6.5rem; }
+.k-ios .tg-pinned .tg-button { box-shadow: 0 6px 20px rgb(0 0 0 / 0.18); }
+.k-material .tg-pinned { bottom: 6rem; justify-content: flex-end; }
+.tg-fab { font: inherit; font-weight: 500; letter-spacing: 0.1px; }
+.tg-fab:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.k-ios [data-screen='main'] .home-tree, .k-material [data-screen='main'] .home-tree { padding-bottom: 11rem; }
+@media (min-width: 1024px) {
+  .k-ios .tg-pinned, .k-material .tg-pinned { bottom: 1.5rem; }
+  .k-ios .tg-pinned { justify-content: center; }
+  .k-ios .tg-pinned .tg-button { width: 22rem; }
+  .k-ios [data-screen='main'] .home-tree, .k-material [data-screen='main'] .home-tree { padding-bottom: 6rem; }
+  /* Wide screens: both platforms keep navigation at the leading edge (the sidebar on iPad, the navigation drawer on
+     Android), so the tools panel moves from the right to the left. */
+  .k-ios [data-screen='main'].home, .k-material [data-screen='main'].home { grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); }
+  .k-ios [data-screen='main'] .home-panel, .k-material [data-screen='main'] .home-panel { grid-column: 1; grid-row: 2; top: 5.5rem; }
+  .k-ios [data-screen='main'] .home-path, .k-material [data-screen='main'] .home-path { grid-column: 2; grid-row: 2; }
+  .k-material [data-screen='main'] .home-panel [data-ds='tool-card'] { border-color: transparent; border-radius: 9999px; padding: 0.75rem 1.25rem; background: transparent; }
+  .k-material [data-screen='main'] .home-panel [data-ds='tool-card']:hover { background: color-mix(in srgb, var(--ink) 8%, transparent); }
+}
+
+/* Question page: the close button and the bar keep their places on both platforms; only the button's shape changes. */
+.k-ios [data-screen='question'] > header .icon-btn { width: 30px; height: 30px; margin-inline: 0 0.25rem; background: var(--line); color: var(--muted); }
+.k-ios [data-screen='question'] > header .icon-btn svg { width: 14px; height: 14px; stroke-width: 3; }
+.k-ios [data-screen='question'] > header .icon-btn::after { content: ''; position: absolute; inset: -7px; }
+.k-ios [data-screen='question'] > header .icon-btn { position: relative; }

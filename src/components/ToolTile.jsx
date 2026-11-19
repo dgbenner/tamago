@@ -37,3 +37,34 @@ export function ToolPill(props) {
   const Platform = usePlatformPart('ToolPill')
   return Platform ? <Platform {...props} /> : <TamagoToolPill {...props} />
 }
+
+// The secondary menu: tools beside the path, as a sideways strip of tiles, out of the tree. Progress is one of them
+// (Dan, 2026-11-11: the row that held its button and the streak is gone).
+function TamagoToolStrip({ tools }) {
+  return (
+    // A compact single row on phones (Dan, 2026-11-15: the tiles took about a third of the screen): pills with the
+    // icon beside the label, so the tree starts higher; it still scrolls sideways when they don't all fit.
+    <nav aria-label="Tools" className="no-scrollbar -mx-4 flex snap-x gap-2 overflow-x-auto px-4 lg:hidden">
+      {tools.map((t) => <ToolPill key={t.id} tool={t} />)}
+    </nav>
+  )
+}
+
+// The right-hand panel on a wide screen: each tool with a line on what it's for; a tool opens here, in place.
+export function ToolPanel({ tools }) {
+  const card = (t) => <ToolCard key={t.id} tool={t} />
+  return (
+    // The learning tools: every card the height of the tallest, evenly spaced; each line at most 80% of the card's
+    // width. Developer sits below, out of the matching, and stays short (Dan, 2026-11-11).
+    <nav aria-label="Tools" className="flex flex-col gap-2">
+      <div className="grid auto-rows-fr gap-2">{tools.filter((t) => !t.quiet).map(card)}</div>
+      {tools.filter((t) => t.quiet).map(card)}
+    </nav>
+  )
+}
+
+// On iOS and Android phones the tools go where the platform keeps its main destinations: a bar at the bottom.
+export function ToolStrip(props) {
+  const Platform = usePlatformPart('ToolStrip')
+  return Platform ? <Platform {...props} /> : <TamagoToolStrip {...props} />
+}

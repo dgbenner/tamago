@@ -14,7 +14,7 @@ A design system is a shared set of parts (buttons, lists, sheets) with one agree
 
 - **Done: Tamago's current look.** The first set of components lifted out of the app's big files, looking and behaving exactly as they do in the app.
 - **Done: iOS and Android styles.** Every component can also be drawn the iPhone way or the Android way, using Konsta UI where it has a matching control. Switch with **Style** in the toolbar; the **Styles** page explains how each one is made.
-- **Next: two screens.** The work ends with two whole screens built from these parts: the main page and a question page.
+- **Done: two screens.** The Question Page and the Main Page, built only from these parts, in all three styles, with a Compare view that shows the three together. They are under **Screens** in the sidebar.
 
 ## What's in the Library
 
@@ -44,6 +44,19 @@ A design system is a shared set of parts (buttons, lists, sheets) with one agree
 - **LevelLine**: the "Early A1" line across the tree.
 - **Sheet**: the bottom sheet or pop-up.
 
+**Added for the two screens**
+
+- **TopBar**: the main page's header.
+- **ToolStrip and ToolPanel**: the tools as a row (phone) and as a panel (desktop).
+- **PinnedAction**: the pinned Next Lesson button.
+- **IconButton**: a button that is just an icon.
+
+**Screens**
+
+- **Question Page**: Pick the Meaning, before answering, right, and wrong.
+- **Main Page**: the header, the tools, part of the tree, and a circle's sheet open.
+- **Compare**: each screen in Tamago, iOS and Android together, at phone size and at desktop size.
+
 **Shared**
 
 - **Toast**: the message that slides down from the top.
@@ -59,6 +72,6 @@ Every color is defined once, in `src/index.css`, as a named value, and the same 
 - **Style** (toolbar): Tamago, iOS or Android.
 - **Theme** (toolbar): Light or Dark.
 - **Size** (toolbar, the viewport button): Phone, 390 px wide, or Desktop, 1440 px wide.
-- **Sidebar**: each component, then one entry per state.
+- **Sidebar**: the screens first, then each component, with one entry per state.
 
 The full list of components, with their settings and a usage example each, is in `COMPONENTS.md` at the top of the repository.

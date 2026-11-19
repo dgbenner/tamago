@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { cue } from '../lib/audio.js'
-import { LogoInline, SushiMark } from '../components/Logo.jsx'
-import { IconBack, IconCheckered, IconComment, IconForward, IconGear } from './icons.jsx'
+import { IconBack, IconCheckered, IconComment, IconForward } from './icons.jsx'
 import { TL, course } from '../lib/course.js'
 import { FlagRow } from '../components/FlagRow.jsx'
 import CircleNode from '../components/CircleNode.jsx'
@@ -10,7 +9,9 @@ import { tables } from '../lib/content.js'
 import LevelLine from '../components/LevelLine.jsx'
 import { Sheet, SheetHead } from '../components/Sheet.jsx'
 import Toast from '../components/Toast.jsx'
-import { ToolCard, ToolPill } from '../components/ToolTile.jsx'
+import { ToolPanel, ToolStrip } from '../components/ToolTile.jsx'
+import TopBar from '../components/TopBar.jsx'
+import PinnedAction from '../components/PinnedAction.jsx'
 
 // A tree node is a circle (Circle Lab design, approved 2026-11-10; src/components/CircleNode.jsx): its sushi on a warm
 // disc, one ring that fills across all its lessons, the title. "Start Here" shows on the first
@@ -438,31 +439,6 @@ function ICanSheet({ level, onCheck, onClose }) {
 const toolOrder = (tools) => [...tools.filter((t) => !t.quiet).sort((a, b) => a.label.localeCompare(b.label)), ...tools.filter((t) => t.quiet)]
 // Practice Mistakes' line: never "mistakes", nothing critical; the count changes.
 const practiceAbout = (p) => (p.mistakes ? `Strengthen ${p.mistakes} recent sticking ${p.mistakes === 1 ? 'point' : 'points'}` : p.ready ? 'Strengthen what\'s likeliest to fade' : 'Fills up after a lesson or two')
-// The secondary menu: tools beside the path, as a sideways strip of tiles, out of the tree. Progress is one of them
-// (Dan, 2026-11-11: the row that held its button and the streak is gone).
-function Tools({ tools }) {
-  return (
-    // A compact single row on phones (Dan, 2026-11-15: the tiles took about a third of the screen): pills with the
-    // icon beside the label, so the tree starts higher; it still scrolls sideways when they don't all fit.
-    <nav aria-label="Tools" className="no-scrollbar -mx-4 flex snap-x gap-2 overflow-x-auto px-4 lg:hidden">
-      {tools.map((t) => <ToolPill key={t.id} tool={t} />)}
-    </nav>
-  )
-}
-
-// The right-hand panel on a wide screen: each tool with a line on what it's for; a tool opens here, in place.
-function ToolMenu({ tools }) {
-  const card = (t) => <ToolCard key={t.id} tool={t} />
-  return (
-    // The learning tools: every card the height of the tallest, evenly spaced; each line at most 80% of the card's
-    // width. Developer sits below, out of the matching, and stays short (Dan, 2026-11-11).
-    <nav aria-label="Tools" className="flex flex-col gap-2">
-      <div className="grid auto-rows-fr gap-2">{tools.filter((t) => !t.quiet).map(card)}</div>
-      {tools.filter((t) => t.quiet).map(card)}
-    </nav>
-  )
-}
-
 // Points: one style at every value, zero included.
 function Points({ total, today }) {
   return (
@@ -515,25 +491,13 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
     <main className="home">
       {/* Pinned, and short: points, the wordmark, settings. On a wide screen the logo (with its sushi) sits left and
           the utilities right, like a desktop site. */}
-      <header className="bar-top home-header -mx-4 flex items-center justify-between gap-3 px-4 pt-[max(2px,env(safe-area-inset-top))] pb-0 lg:mx-0 lg:px-0 lg:pt-[2.5px]">
-        {/* The course flag (points sat here until they were hidden): opens the language pop-up. */}
-        <span className="hdr-lang flex w-20 items-center justify-start gap-2 lg:order-2 lg:w-auto lg:justify-end lg:-translate-x-[2px]">
-          {showPoints && <Points total={pointsTotal} today={pointsToday} />}
-          <button onClick={() => setLanguages(true)} aria-label={`Language: ${course.name}`} className="icon-btn -ml-2 lg:ml-0"><img src={course.flag} alt="" className="h-8 w-8 object-contain" /></button>
-        </span>
-        {/* The logo reloads the app, opening screen and version name included, as on a fresh launch (Dan, 2026-11-11). */}
-        <button type="button" onClick={() => window.location.reload()} aria-label="Tamago, reload"
-          className="hdr-brand flex cursor-pointer items-center gap-2 rounded-lg lg:order-1 lg:mr-auto lg:ml-[2px] lg:gap-[3px]">
-          <SushiMark className="hdr-sushi relative hidden w-11 lg:block lg:w-[2.18rem] lg:-top-[2px]" />
-          <LogoInline className="hdr-wordmark" />
-        </button>
-        <span className="hdr-gear flex w-20 justify-end lg:order-3 lg:w-auto lg:-ml-[1.1rem] lg:-translate-x-[2px]"><button onClick={onSettings} aria-label="Settings" className="icon-btn -mr-2"><IconGear /></button></span>
-      </header>
+      <TopBar flag={course.flag} languageName={course.name} onLanguage={() => setLanguages(true)} onLogo={() => window.location.reload()} onSettings={onSettings}
+        start={showPoints && <Points total={pointsTotal} today={pointsToday} />} />
 
       <div className="home-path">
         <h1 className="sr-only">Tamago: your path</h1>
 
-      <Tools tools={allTools} />
+      <ToolStrip tools={allTools} />
 
       {/* The tree: rows of one, two or three units, with checkpoints and level markers between them. */}
       {/* At least a circle's height (6rem) of empty space between a row's titles and whatever comes next; the path scrolls. */}
@@ -572,13 +536,9 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
           and slide back up by themselves; no tap. Kinds: info, success, warning, error. */}
       <Toast line={lastLine} onGone={onLastLineGone} />
 
-      {/* Pinned to the bottom, with a line above, so they're always on screen. */}
-      <div className="bar-bottom -mx-4 mt-auto flex flex-col gap-3 px-4 pt-3 pb-[max(1rem,env(safe-area-inset-bottom))]">
-        {/* Only Next Lesson is pinned; Practice Mistakes is a tool (Dan, 2026-11-11). */}
-        <div className="bottom-buttons">
-          <button onClick={() => { cue('button'); onNext() }} className="btn-submit">{nextLabel}</button>
-        </div>
-      </div>
+      {/* Pinned to the bottom, with a line above, so it's always on screen. Only Next Lesson is pinned; Practice
+          Mistakes is a tool (Dan, 2026-11-11). */}
+      <PinnedAction label={nextLabel} onClick={() => { cue('button'); onNext() }} />
 
       </div>
 
@@ -588,7 +548,7 @@ export default function Home({ wide, panel, rows, iCan = [], onCheckCanDo, marke
             ? <div className="panel-screen">
                 {panel}
               </div>
-            : <ToolMenu tools={allTools} />}
+            : <ToolPanel tools={allTools} />}
         </aside>
       )}
 

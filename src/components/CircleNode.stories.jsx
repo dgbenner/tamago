@@ -18,8 +18,8 @@ export const InProgress = { args: { lessonsDone: 8 } }
 
 export const Finished = { args: { lessonsDone: 20 } }
 
-// Finished, but recall has dropped: the ring fades.
-export const FinishedRecallFading = { args: { lessonsDone: 20, recall: 0.55 } }
+// Finished, but recall has dropped: the ring fades. The app has since switched this off; the component still can.
+export const FinishedRecallFading = { name: 'Finished, Recall Fading (Switched Off in the App)', args: { lessonsDone: 20, recall: 0.55 } }
 
 // Ahead of where the learner is: faded and grey, still tappable.
 export const Faded = { args: { early: true } }
