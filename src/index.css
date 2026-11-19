@@ -334,7 +334,10 @@ button.chip-drag {
   .toast-success { background: var(--toast-success-bg); color: var(--toast-success-ink); border-color: color-mix(in srgb, var(--toast-success-ink) 25%, transparent); }
   .toast-warning { background: var(--toast-warning-bg); color: var(--toast-warning-ink); border-color: color-mix(in srgb, var(--toast-warning-ink) 25%, transparent); }
   /* Ahead of the learner (no locks, Dan 2026-11-15): faded and desaturated, still tappable. */
-  .circle-early .circle-disc, .circle-early > span, .part-early { opacity: 0.55; filter: saturate(0.15); }
+  .circle-early .circle-disc, .circle-early > span, .part-early, .tree-early { opacity: 0.55; filter: saturate(0.15); }
+  /* A faded Brush-Up keeps its number at full strength (Dan, 2026-11-18): the fade moves from the disc to what's in it. */
+  .circle-early .circle-disc:has(> [data-badge]) { opacity: 1; filter: none; }
+  .circle-early .circle-disc:has(> [data-badge]) > :not([data-badge]) { opacity: 0.55; filter: saturate(0.15); }
   /* A passed lesson (Dan, 2026-11-15): green with white text, larger, so it reads at a glance; #15803d on white text is
      5.0:1 (AA), the same in both themes. */
   .toast-pass { background: #15803d; color: #fff; border-color: #116b33; @apply text-base font-semibold; }

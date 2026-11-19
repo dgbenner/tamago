@@ -317,7 +317,7 @@ function PartEnd({ part, onReview, onPartView, onJumpPart }) {
     <>
       {part.review && (
         <li>
-          <button onClick={onReview} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-4 py-1.5 font-semibold ${part.review.available ? 'text-ink' : 'text-muted'}`}>
+          <button onClick={onReview} data-part-review data-early={part.review.lit === false ? '' : undefined} className={`inline-flex items-center gap-2 rounded-full border-2 border-line px-4 py-1.5 font-semibold ${part.review.lit === false ? 'tree-early' : ''} ${part.review.available ? 'text-ink' : 'text-muted'}`}>
             <span className="[&_svg]:size-4"><IconCheckered /></span>
             Part {part.n} Review
             {part.review.done && <span className="text-right-ink">✓</span>}
@@ -397,10 +397,14 @@ function PartCarousel({ part, onJumpPart, onPartView }) {
 // Brush-Up (was Catch-Up; renamed by Dan, 2026-11-11; A1 Complete 9): a circle with a side dish, filled for this learner from the circles above it. No lessons of
 // its own, so no ring. No line under the title (Dan, 2026-11-11); how much is waiting is on its card, and in the
 // circle's spoken name.
-const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.count ? `${cu.count} to brush up` : cu.done ? 'All brushed up' : 'Nothing yet')
+// The number is the misses alone (Dan, 2026-11-18): a Brush-Up gets its badge when something it covers is got wrong,
+// not for words that are merely new or seldom seen (those still come along inside it).
+const catchUpCaption = (cu) => (!cu.available ? 'Locked' : cu.mistakes ? `${cu.mistakes} missed, to brush up` : cu.count ? `${cu.count} to brush up` : cu.done ? 'All brushed up' : 'Nothing yet')
 function CatchUpNode({ cu, onPick }) {
   // A full green ring once nothing is left to brush up (Dan, 2026-11-14); no ring while items wait or before any lessons.
-  return <CircleNode title={cu.title} icon="/sushi/misc/miso-soup.webp" locked={!cu.available} ring={Boolean(cu.done)} lessonsDone={cu.done ? 1 : 0} lessonsTotal={1} recall={cu.done ? 1 : null} badge={cu.available && cu.count ? cu.count : null} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
+  // Faded like a circle ahead of the learner until they reach it or start it (cu.lit; Dan, 2026-11-18); the badge shows
+  // on a faded one too.
+  return <CircleNode title={cu.title} icon="/sushi/misc/miso-soup.webp" locked={!cu.available} early={cu.available && !cu.lit} ring={Boolean(cu.done)} lessonsDone={cu.done ? 1 : 0} lessonsTotal={1} recall={cu.done ? 1 : null} badge={cu.available && cu.mistakes ? cu.mistakes : null} caption={catchUpCaption(cu)} showCaption={false} onPick={() => onPick(cu)} />
 }
 function CatchUpCard({ cu, onStart, onClose }) {
   return (
@@ -424,7 +428,7 @@ function CatchUpCard({ cu, onStart, onClose }) {
 
 export function CheckpointNode({ cp, onPick }) {
   return (
-    <button onClick={() => onPick(cp)} data-live={cp.available || cp.done ? '' : undefined} className={`tree-pill ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
+    <button onClick={() => onPick(cp)} data-live={cp.available || cp.done ? '' : undefined} data-early={cp.lit === false ? '' : undefined} className={`tree-pill ${cp.lit === false ? 'tree-early' : ''} ${cp.available || cp.done ? 'text-ink' : 'text-muted'}`}>
       <span className="[&_svg]:size-4"><IconCheckered /></span>
       Checkpoint
       {cp.done && <span className="text-right-ink">✓</span>}

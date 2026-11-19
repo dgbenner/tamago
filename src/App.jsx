@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { addAccepted, allContent, tables, unitContent } from './lib/content.js'
 import { chooseCourse, course, firstLaunch, saveSharedSettings, sharedSettings, takeDevJump } from './lib/course.js'
 import { BUILT_TYPES, recordingOf, wordRecordingOf, indexContent, buildLesson, buildReview, buildSession, checkItems, lessonsInRound, makeMatchPairs, passMark, placementItems, practiceType, reaskFor, swapRemaining, buildCatchUp, catchUpItems } from './lib/lesson.js'
+import { brushUpSpan, inSpan, isLit } from './lib/tree-reach.js'
 import { isDue, rate, rateGrade, retrievability, strength, weakest } from './lib/strength.js'
 import { skillScores } from './lib/score.js'
 import { getAll, getKv, loadState, put, putKv, remove } from './lib/store.js'
@@ -142,6 +143,9 @@ export default function App() {
   // A Brush-Up finished clean is settled (slot_id → date): from then on only misses fill it again, not words that are
   // merely new or seldom seen, so its green ring goes only when something above it is got wrong (Dan, 2026-11-14).
   const [catchupSettled, setCatchupSettled] = useState({})
+  // A Brush-Up the learner has started (slot_id → date): it shows in full colour from then on, wherever they are on
+  // the tree (Dan, 2026-11-18; src/lib/tree-reach.js).
+  const [catchupOpened, setCatchupOpened] = useState({})
   const unclear = (keys) => setCatchupCleared((m) => { if (!keys.some((k) => m[k])) return m; const n = { ...m }; for (const k of keys) delete n[k]; putKv('catchup_cleared', n); return n })
   // The final A1 check's last result (kv final_check: date and per-part scores).
   const [finalCheck, setFinalCheck] = useState(null)
@@ -194,6 +198,7 @@ export default function App() {
       setCatchupSeen(s.kv.catchup_seen ?? {})
       setCatchupCleared(s.kv.catchup_cleared ?? {})
       setCatchupSettled(s.kv.catchup_settled ?? {})
+      setCatchupOpened(s.kv.catchup_opened ?? {})
       setFinalCheck(s.kv.final_check ?? null)
       activeMs.current = Number(s.kv.active_ms) || 0
       courseStarted.current = s.kv.course_started ?? null
@@ -599,22 +604,37 @@ export default function App() {
     }
     return n
   })()
-  const catchUpUnits = (row) => new Set([
-    ...layout.filter((t) => t.row <= row && !isTopicNode(t.unit_id)).map((t) => t.unit_id),
-    ...packs.filter((p) => onPath(p) && (rowOf(p.unit_id)?.row ?? Infinity) <= row).map((p) => p.unit_id),
-  ])
-  const catchUpFor = (row, limit) => catchUpItems(allContent, { units: catchUpUnits(row), bank, wordMisses, exposure, met: seenWords.current, reachedOf: (u) => progressOf(u).round_reached, cleared: catchupCleared, ...(limit ? { limit } : {}) })
-  const catchUpForSlot = (c, limit) => { const items = catchUpFor(c.after_row, limit); return catchupSettled[c.slot_id] ? items.filter((x) => x.kind === 'sentence' || x.missed) : items }
-  const catchUps = (tables.catch_up ?? []).filter((c) => layout.some((t) => t.row === c.after_row)).map((c) => {
+  // Each slot draws on its own stretch of the tree (Dan, 2026-11-18): the first on everything above it, each later one
+  // on the rows since the Brush-Up before it, so a miss shows on the next Brush-Up down and nowhere else.
+  const catchUpSlots = (tables.catch_up ?? []).filter((c) => layout.some((t) => t.row === c.after_row))
+  const catchUpUnits = (c) => {
+    const span = brushUpSpan(catchUpSlots, c)
+    return new Set([
+      ...layout.filter((t) => inSpan(t.row, span) && !isTopicNode(t.unit_id)).map((t) => t.unit_id),
+      ...packs.filter((p) => onPath(p) && inSpan(rowOf(p.unit_id)?.row, span)).map((p) => p.unit_id),
+    ])
+  }
+  // Lit or faded (Dan, 2026-11-18): the rows where a circle has been started, a chosen topic pack counting for its node.
+  const unitStarted = (u) => u != null && (progressOf(u).lessons_done > 0 || progressOf(u).round_reached > 0)
+  const startedRows = [...new Set(layout.filter((t) => unitStarted(t.unit_id) || unitStarted(topicChoice[t.unit_id])).map((t) => t.row))]
+  const catchUpFor = (c, limit) => catchUpItems(allContent, { units: catchUpUnits(c), bank, wordMisses, exposure, met: seenWords.current, reachedOf: (u) => progressOf(u).round_reached, cleared: catchupCleared, ...(limit ? { limit } : {}) })
+  const catchUpForSlot = (c, limit) => { const items = catchUpFor(c, limit); return catchupSettled[c.slot_id] ? items.filter((x) => x.kind === 'sentence' || x.missed) : items }
+  const catchUps = catchUpSlots.map((c) => {
     // Everything waiting, not just one session's ten: the badge and the caption count it all (Dan, 2026-11-14).
     const items = catchUpForSlot(c, Infinity)
     const available = layout.filter((t) => t.row === c.after_row).some((t) => isLive(t.unit_id))
     // Done (green ring): open, nothing left to brush up, and lessons done above it (an untouched part isn't done).
-    const started = [...catchUpUnits(c.after_row)].some((u) => progressOf(u).lessons_done > 0)
+    const started = [...catchUpUnits(c)].some((u) => progressOf(u).lessons_done > 0)
     return { ...c, afterRow: c.after_row, available, done: available && started && items.length === 0,
+      lit: isLit({ row: c.after_row, startedRows, used: catchupOpened[c.slot_id] }),
       count: items.length, mistakes: items.filter((x) => x.kind === 'sentence' || x.missed).length }
   })
-  const startCatchUp = (c) => { const items = catchUpForSlot(c); if (items.length) begin(buildCatchUp(allContent, items, { settings: lessonModes(), slot_id: c.slot_id })) }
+  const startCatchUp = (c) => {
+    const items = catchUpForSlot(c)
+    if (!items.length) return
+    if (!catchupOpened[c.slot_id]) setCatchupOpened((m) => { const n = { ...m, [c.slot_id]: today() }; putKv('catchup_opened', n); return n })
+    begin(buildCatchUp(allContent, items, { settings: lessonModes(), slot_id: c.slot_id }))
+  }
   const newlyDone = catchUps.filter((c) => c.done && !catchupSettled[c.slot_id]).map((c) => c.slot_id).join(',')
   useEffect(() => {
     if (!newlyDone) return
@@ -1163,7 +1183,7 @@ export default function App() {
   const partInfo = partList.length ? {
     n: shownPart, total: lastPart, title: partList.find((x) => x.part === shownPart)?.title ?? '',
     switcher: builtParts.map((n) => ({ n, title: partList.find((x) => x.part === n)?.title ?? '' })),
-    review: shownPart < lastPart ? { available: true, done: partReviews[shownPart] ?? null, units: partCircles(shownPart).map((u) => tables.units.find((x) => x.unit_id === u).title) } : null,
+    review: shownPart < lastPart ? { available: true, done: partReviews[shownPart] ?? null, lit: isLit({ row: Math.max(...partCircles(shownPart).map((u) => rowOf(u)?.row ?? 0)), startedRows, used: partReviews[shownPart] }), units: partCircles(shownPart).map((u) => tables.units.find((x) => x.unit_id === u).title) } : null,
     next: nextPart ? { n: nextPart.part, title: nextPart.title, summary: nextPart.summary, unlocked: partUnlocked(nextPart.part), built: partCircles(nextPart.part).length > 0 } : null,
     // Every part, finished and current included, for the carousel at the end of the part (Dan, 2026-11-11). It opens on
     // the part after this one (this one when it's the last); the left arrow steps back through earlier parts.
@@ -1223,7 +1243,7 @@ export default function App() {
         ...(settings.developer !== 'off' ? [{ id: 'developer', screen: 'developer', label: 'Developer', about: 'Testing controls, not part of the course', quiet: true, onOpen: () => setScreen('developer') }] : []),
       ]}
       wide={wide} panel={wide && panelScreens[screen] ? panelScreens[screen]() : null}
-      checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: true, done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null }))}
+      checkpoints={checkpointRows.map((row) => ({ afterRow: row, units: unitsUpTo(row).map((u) => tables.units.find((x) => x.unit_id === u).title), available: true, done: checkpoints[row] ?? null, skipped: checkpointsSkipped[row] ?? null, lit: isLit({ row, startedRows, used: checkpoints[row] }) }))}
       catchUps={catchUps.filter((c) => rows.some((r) => r.row === c.afterRow))} onCatchUp={startCatchUp}
       onCheckpoint={startCheckpoint} finalCheck={shownPart === lastPart ? finalInfo : null} onFinal={startFinal}
       part={partInfo} onPartView={(n) => { setPartView(n); putKv('part_view', n) }} onPartReview={() => startPartReview(shownPart)}
