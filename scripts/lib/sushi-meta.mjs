@@ -1,18 +1,18 @@
-// What each piece of Dan's food art is (Dan, 2026-11-11): the dish, its category, its main colour (the colour that
+// What each piece of Dan's food art is (Dan, 2026-11-11): the dish, its category, its main color (the color that
 // reads at a glance: the topping on nigiri, the filling of a nori maki, the rice of an inside-out roll), and any
 // special use. Keyed by the original's path under _source/sushi-originals (also in R2, bucket tamago-sushi, under
 // originals/). Judged by eye from contact sheets of every image. scripts/sushi-catalog.mjs turns this into
 // content/sushi-catalog.json and _source/sushi-catalog.md.
 //
-// Colours: red, orange, pink, pale pink, white, yellow, green, brown, silver. Red, orange and pink count as one tone
-// (red-toned: tuna, salmon, shrimp) for the side-by-side rule; every other colour is its own tone.
+// Colors: red, orange, pink, pale pink, white, yellow, green, brown, silver. Red, orange and pink count as one tone
+// (red-toned: tuna, salmon, shrimp) for the side-by-side rule; every other color is its own tone.
 export const COLORS = ['red', 'orange', 'pink', 'pale pink', 'white', 'yellow', 'green', 'brown', 'silver']
 export const toneOf = (color) => (['red', 'orange', 'pink'].includes(color) ? 'red-toned' : color)
 export const CATEGORIES = ['nigiri', 'maki', 'temaki', 'misc', 'dessert']
 // The help thread's rolls, in order (help circles only).
 export const HELP_ROLLS = ['california-roll', 'salmon-avocado-roll', 'tekka-maki']
 
-// [original path, slug, dish, category, colour, note]
+// [original path, slug, dish, category, color, note]
 export const META = [
   // Nigiri (Desktop batch, 2026-11-11)
   ['Nigiri/Aburi Salmon Nigiri with Spicy Mayo.png', 'aburi-salmon-nigiri', 'Aburi salmon nigiri with spicy mayo', 'nigiri', 'orange'],

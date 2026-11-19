@@ -1,4 +1,4 @@
-// What on the tree is lit (full colour) and what a Brush-Up covers (Dan, 2026-11-18). Pure, so the rules are tested
+// What on the tree is lit (full color) and what a Brush-Up covers (Dan, 2026-11-18). Pure, so the rules are tested
 // without the app (test/tree-reach.test.js).
 //
 // A Brush-Up, a checkpoint and a part review can always be opened, like every circle since the locks went

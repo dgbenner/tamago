@@ -6,7 +6,7 @@ import { COURSES, chooseCourse, course } from '../lib/course.js'
 // Picking another course reloads straight into it; its progress is its own.
 // Order and rows (Dan, 2026-11-14; 15 flags since 2026-11-16): alphabetical by English name, Coming Soon ones in place;
 // rows of four on phones (4, 4, 4, 3: five rows of three ran off a phone's opening screen) and three rows of five from
-// 1024px (desktop, iPad landscape), so no flag is ever alone on a row. Columns shrink, never overflow. Coming Soon flags are faint and grey, so the live courses stand out in colour.
+// 1024px (desktop, iPad landscape), so no flag is ever alone on a row. Columns shrink, never overflow. Coming Soon flags are faint and grey, so the live courses stand out in color.
 const BY_NAME = [...COURSES].sort((a, b) => a.name.localeCompare(b.name, 'en'))
 export function FlagRow({ size = 'md', onPick }) {
   const [soon, setSoon] = useState(null)

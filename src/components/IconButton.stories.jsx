@@ -10,5 +10,5 @@ export default {
 
 export const Close = { args: { label: 'Leave lesson', children: <IconClose /> } }
 export const Settings = { args: { label: 'Settings', children: <IconGear /> } }
-// Quiet icons in a bar take the muted colour from what is around them.
+// Quiet icons in a bar take the muted color from what is around them.
 export const Muted = { render: (args) => <span className="flex text-muted"><IconButton {...args} label="Flag this question"><IconFlag /></IconButton></span> }

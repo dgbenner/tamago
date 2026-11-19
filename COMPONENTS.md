@@ -295,6 +295,21 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
 <IconButton label="Leave lesson" onClick={leave}><IconClose /></IconButton>
 ```
 
+## NoteText
+
+- **File:** `src/components/NoteText.jsx`
+- **What it's for:** the text of a grammar note or a circle's one-line overview. Target-language runs are bold and carry the course language, so a screen reader says them in that language; English stays regular weight. A note's lines stack and its paragraphs are spaced.
+- **Styles:** Tamago's own in every style (plain text, no platform version).
+- **Main settings:**
+  - `text`: the note, with target-language runs between double asterisks (src/lib/note-text.js), a newline for a new line and a blank line for a new paragraph.
+  - `inline`: `true` for a one-line overview inside a sentence-sized slot (no stacking).
+  - `className`: added to the outer element.
+
+```jsx
+<NoteText text={note.rule} />
+<NoteText inline text={unit.grammar_point} />
+```
+
 ## Screens
 
 - **Files:** `src/components/screens/QuestionPage.jsx`, `MainPage.jsx`, `sample.js` (the fixed sample content), `Compare.jsx`
@@ -324,7 +339,7 @@ Places where the app builds something close to a component here, on its own. Can
 
 - **Pick What You Heard builds its own choice list** (`PickHeard` in `src/screens/Lesson.jsx`). It looks like ChoiceList but has a picked state: a tap turns the choice orange (`choice-selected`) and the answer waits for Check. ChoiceList has no picked state, since its tap is checked at once. Merging the two would mean giving ChoiceList an optional "pick first, then Check" mode.
 - **Buttons are still mostly plain class names (left as they are: Dan, 2026-11-19; this stays a demonstration on two screens).** Button is used on the question page (Check, Done, Continue, the text links). Everywhere else the app still writes `<button className="btn-submit">` and the like by hand, about 110 places. Same look either way; one way would be simpler.
-- **Button's kinds and the app's class names differ.** Button uses plain names (`main`, `continue`, `outline`, `link`); the classes underneath keep theirs (`btn-submit`, `btn-primary`, `btn-secondary`, `btn-tertiary`), and `btn-primary` is the green Continue although the app's rule calls yellow the primary colour. Settled for now by Dan (2026-11-19): leave the class names.
+- **Button's kinds and the app's class names differ.** Button uses plain names (`main`, `continue`, `outline`, `link`); the classes underneath keep theirs (`btn-submit`, `btn-primary`, `btn-secondary`, `btn-tertiary`), and `btn-primary` is the green Continue although the app's rule calls yellow the primary color. Settled for now by Dan (2026-11-19): leave the class names.
 - **Two play buttons.** AudioHelp has its own speaker button; `SpeakerButton` in `Lesson.jsx` is a second one (Type What You Hear, Speak and Compare, word pictures) with a slightly different frame and no Slow or Show Words. A third, smaller speaker sits inside each Pick What You Heard choice.
 - **Two ways to show a sentence.** FrenchText draws the sentence with hints; Pick What You Heard writes it as a plain paragraph with the same size classes, and Read and Answer has its own `HintLine` in `A1Tasks.jsx`.
 - **The New tag and the new-word dot are bare markup.** `<span className="tag">` and `<span className="new-dot">` are written out wherever they appear; no component.

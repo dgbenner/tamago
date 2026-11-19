@@ -45,7 +45,19 @@ const NOTES = at('content/grammar_notes.json')
 tables.grammar_notes ??= []
 if (existsSync(NOTES)) {
   const have = new Set(tables.grammar_notes.map((n) => n.unit_id))
-  for (const n of JSON.parse(readFileSync(NOTES, 'utf8')).notes) if (!have.has(n.unit_id)) tables.grammar_notes.push(n)
+  const file = JSON.parse(readFileSync(NOTES, 'utf8')).notes
+  for (const n of file) if (!have.has(n.unit_id)) tables.grammar_notes.push(n)
+  // A note the workbook also has (French Units 1 to 13) takes its text from the file, where the target language is
+  // marked for bold (Dan, 2026-11-16; src/lib/note-text.js); its examples and table stay the workbook's.
+  const marked = new Map(file.filter((n) => String(n.rule).includes('**')).map((n) => [n.unit_id, n.rule]))
+  for (const n of tables.grammar_notes) if (marked.has(n.unit_id)) n.rule = marked.get(n.unit_id)
+}
+// The circle overview's grammar line with its target language marked for bold (content/grammar-points.json, unit id
+// to text; Dan, 2026-11-16, src/lib/note-text.js). It replaces the workbook's plain grammar_point.
+const POINTS = at('content/grammar-points.json')
+if (existsSync(POINTS)) {
+  const points = JSON.parse(readFileSync(POINTS, 'utf8')).points
+  for (const u of tables.units) if (points[u.unit_id]) u.grammar_point = points[u.unit_id]
 }
 // Pictures for word to image (content/images.json) fill words.image_file where the workbook has none.
 const IMAGES = at('content/images.json')

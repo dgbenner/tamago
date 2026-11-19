@@ -44,7 +44,7 @@ export const UNITS = [
     words: ['quem', 'o que', 'que', 'onde', 'quando', 'por que', 'porque', 'qual'] },
   { id: 'U12', title: 'Counting to Ten', grammar: 'Numbers one to ten; dois and duas agree; quantos and quantas with a plural noun', contrast: 'quantos|quantas; dois|duas', row: 8,
     words: ['dois', 'duas', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'quantos', 'quantas', 'anos'] },
-  { id: 'U13', title: 'Naming Colours', grammar: 'Colours come after the noun; most agree (vermelho, vermelha), azul and verde do not change in the singular', contrast: 'vermelho|vermelha; preto|preta; branco|branca', row: 8,
+  { id: 'U13', title: 'Naming Colors', grammar: 'Colors come after the noun; most agree (vermelho, vermelha), azul and verde do not change in the singular', contrast: 'vermelho|vermelha; preto|preta; branco|branca', row: 8,
     words: ['vermelho', 'vermelha', 'azul', 'verde', 'preto', 'preta', 'branco', 'branca', 'amarelo', 'amarela', 'cor'] },
   { id: 'U14', title: 'Days and Times', grammar: 'Time words: hoje, amanhã, agora; days of the week without a capital; Que horas são?', contrast: 'hoje|amanhã', row: 9,
     words: ['hoje', 'amanhã', 'agora', 'dia', 'semana', 'hora', 'horas', 'segunda-feira', 'sexta-feira', 'sábado', 'domingo'] },

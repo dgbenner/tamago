@@ -15,7 +15,7 @@
 @source '../src/components/platform';
 @import 'konsta/react/theme.css';
 
-/* Tamago's colour names (as in src/index.css), so Konsta UI's components can be given Tamago's colours. */
+/* Tamago's color names (as in src/index.css), so Konsta UI's components can be given Tamago's colors. */
 @theme inline {
   --color-bg: var(--bg);
   --color-surface: var(--surface);
@@ -35,7 +35,7 @@
 body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 .k-ios, .k-material { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
-/* The platform wrapper keeps Tamago's page colour and ink (Konsta UI's dark wrapper is pure black). */
+/* The platform wrapper keeps Tamago's page color and ink (Konsta UI's dark wrapper is pure black). */
 .tg-platform, .tg-platform.dark { background: var(--bg); color: var(--ink); min-height: 100%; }
 .k-material { font-family: 'Roboto Variable', Roboto, system-ui, sans-serif; --k-touch-ripple-opacity: 0.12; }
 .k-ios { font-family: -apple-system, 'SF Pro Text', system-ui, 'Helvetica Neue', sans-serif; }
@@ -66,7 +66,7 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 /* iOS: a plain, compact banner from the top: the message alone, centred, as wide as its words. */
 .k-ios .tg-toast { position: fixed; inset-inline: 0; width: fit-content; max-width: min(28rem, calc(100vw - 2rem)); margin-inline: auto; padding: 0.625rem 1.125rem; border-radius: 9999px; text-align: center; box-shadow: 0 8px 28px rgb(0 0 0 / 0.16); }
 .k-ios .tg-toast > div > div:first-child:empty { display: none; }
-/* iOS banners are translucent ("glass"); each kind keeps Tamago's colour, let through at 88%. */
+/* iOS banners are translucent ("glass"); each kind keeps Tamago's color, let through at 88%. */
 .k-ios .tg-toast.toast-info { background: color-mix(in srgb, var(--toast-info-bg) 88%, transparent); color: var(--toast-info-ink); }
 .k-ios .tg-toast.toast-success { background: color-mix(in srgb, var(--toast-success-bg) 88%, transparent); color: var(--toast-success-ink); }
 .k-ios .tg-toast.toast-warning { background: color-mix(in srgb, var(--toast-warning-bg) 88%, transparent); color: var(--toast-warning-ink); }
@@ -197,12 +197,12 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 .k-material [data-ds='level-line'] .italic { font-style: normal; font-weight: 500; letter-spacing: 0.5px; }
 .k-material [data-ds='level-line'] .h-0\.5 { height: 1px; }
 
-/* Answer bar. iOS: a translucent bar with a thin coloured edge. Android: a surface with 28dp top corners and a shadow. */
+/* Answer bar. iOS: a translucent bar with a thin colored edge. Android: a surface with 28dp top corners and a shadow. */
 .k-ios section[data-outcome] { border-top-width: 1px; background: color-mix(in srgb, var(--surface) 82%, transparent); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); }
 .k-ios section[data-outcome] > div > div p.font-semibold { font-size: 17px; letter-spacing: -0.01em; }
 .k-material section[data-outcome] { border-top-width: 0; border-radius: 28px 28px 0 0; box-shadow: 0 -1px 3px rgb(0 0 0 / 0.2), 0 -4px 8px 3px rgb(0 0 0 / 0.1); }
 .k-material section[data-outcome] > div { padding-top: 1.25rem; }
-/* Android has no coloured edge, so a small check or X beside the verdict carries the result as well as the colour. */
+/* Android has no colored edge, so a small check or X beside the verdict carries the result as well as the color. */
 .k-material section[data-outcome] > div > div p.font-semibold::before {
   content: ''; display: inline-block; width: 18px; height: 18px; margin-inline-end: 6px; vertical-align: -3px; background: currentColor;
   -webkit-mask: var(--tg-verdict) center / contain no-repeat; mask: var(--tg-verdict) center / contain no-repeat;
@@ -224,14 +224,14 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 }
 
 /* ---------- Part 3: the two screens ---------- */
-/* Colours for Konsta UI's bars (named here, not as Tailwind classes, so the app's CSS gains nothing). */
+/* Colors for Konsta UI's bars (named here, not as Tailwind classes, so the app's CSS gains nothing). */
 .tg-ink { color: var(--ink); }
 .tg-bar-ios { background: linear-gradient(to bottom, var(--bg) 60%, transparent); }
 .tg-bar-ios-bottom { background: linear-gradient(to top, var(--bg) 55%, transparent); }
 .tg-bar-md { background: color-mix(in srgb, var(--surface) 92%, var(--green)); }
 .tg-tab { color: var(--muted); }
 .tg-tab-on { color: var(--ink); }
-/* iOS: the pill marks the current tab, so its label keeps the ink colour and stays readable on the pill in dark. */
+/* iOS: the pill marks the current tab, so its label keeps the ink color and stays readable on the pill in dark. */
 .k-ios .tg-tab-on { color: var(--ink); font-weight: 600; }
 .tg-tab-pill { background: color-mix(in srgb, var(--accent) 45%, var(--surface)); }
 .tg-tab-sushi { width: 1.75rem; }
@@ -249,7 +249,7 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 .tg-tabbar .k-link { flex: 1 1 0; min-width: 0; width: auto; padding-inline: 0; cursor: pointer; font: inherit; background: none; }
 /* The pill that marks the current place ("Learn"), on both platforms, with room above and below the sushi (Dan,
    2026-11-19). Android: Material's 64x32 indicator behind the icon, in a bar tall enough to leave space over it.
-   iOS, which otherwise marks the current tab by colour alone: a circle behind the icon only, small enough to sit
+   iOS, which otherwise marks the current tab by color alone: a circle behind the icon only, small enough to sit
    wholly inside the tab (a capsule behind icon and label was cut off at its sides by the bar). */
 .tg-tabbar .k-link { align-self: stretch; height: auto; position: relative; z-index: 0; }
 .tg-tabbar .k-tabbar-link-icon { flex: none; }

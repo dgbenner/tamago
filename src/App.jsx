@@ -143,7 +143,7 @@ export default function App() {
   // A Brush-Up finished clean is settled (slot_id → date): from then on only misses fill it again, not words that are
   // merely new or seldom seen, so its green ring goes only when something above it is got wrong (Dan, 2026-11-14).
   const [catchupSettled, setCatchupSettled] = useState({})
-  // A Brush-Up the learner has started (slot_id → date): it shows in full colour from then on, wherever they are on
+  // A Brush-Up the learner has started (slot_id → date): it shows in full color from then on, wherever they are on
   // the tree (Dan, 2026-11-18; src/lib/tree-reach.js).
   const [catchupOpened, setCatchupOpened] = useState({})
   const unclear = (keys) => setCatchupCleared((m) => { if (!keys.some((k) => m[k])) return m; const n = { ...m }; for (const k of keys) delete n[k]; putKv('catchup_cleared', n); return n })

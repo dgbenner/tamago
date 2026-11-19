@@ -15,7 +15,7 @@ export const SHARED = {
   'Saying Hello': 'Say Hi', 'Asking for Help': 'Getting Help', 'People and Things': 'People + Things',
   'Food and Drink': 'Food + Drink', 'Pets and Animals': 'Animals', 'Asking About Words': 'Conversation Help',
   'Your Topic': 'Pick Your Own', 'Another Topic': 'Pick Your Own', 'More Than One': 'Plurals',
-  'Counting to Ten': 'Intro to Numbers', 'Naming Colours': 'Colors', 'Days and Times': 'Time',
+  'Counting to Ten': 'Intro to Numbers', 'Naming Colors': 'Colors', 'Days and Times': 'Time',
   // Round 2 (Dan, 2026-11-11): every "and" becomes "+", in all parts; a title needn't cover everything in the circle.
   'Mine and Yours': 'Mine + Yours', 'Music and Songs': 'Music', 'Age and Birthdays': 'Birthdays',
   'Countries and Languages': 'Countries + Languages', 'Bottles and Bags': 'Bottles + Bags', 'Body and Feelings': 'Body + Feelings',

@@ -7,10 +7,10 @@
 //     logo only; desserts are held, never on the tree.
 //   - No image twice in a part, and none across a part boundary: a part's opening circles (the BOUNDARY window) never
 //     wear an image from the close of the part before, and images the part before used come last in line.
-//   - No two similar colours side by side, in path order (tree rows, left to right, Brush-Up and help circles in
+//   - No two similar colors side by side, in path order (tree rows, left to right, Brush-Up and help circles in
 //     place): red, orange and pink are one tone (red-toned), so two red-toned pieces never sit together.
 //   - Where a type has fewer images than circles, the circles at the edge of its run borrow from the type before it,
-//     keeping the easy-to-hard order; a colour clash also borrows from a neighbouring type before giving way. An image
+//     keeping the easy-to-hard order; a color clash also borrows from a neighbouring type before giving way. An image
 //     repeats only when every type is used up. A dish already in the part (another salmon nigiri) comes after new ones.
 // The picks are a fixed shuffle per course and part, so a rerun gives the same tree. Writes content/unit-icons.json
 // for the course; import.mjs fills the units' icon columns from it. test/icons.test.js holds the rules.
@@ -102,7 +102,7 @@ for (const part of parts) {
     for (const test of [(x) => free(x) && calm(x), free]) {
       for (const t of order) { m = queue(t, e.unit.unit_id).find(test); if (m) break }
       if (m) break
-      console.warn(`${e.unit.unit_id}: no ${e.want} that keeps the colours apart`)
+      console.warn(`${e.unit.unit_id}: no ${e.want} that keeps the colors apart`)
     }
     if (!m) { m = queue(e.want)[i % queue(e.want).length]; console.warn(`${e.unit.unit_id}: every image used, ${m.slug} repeats`) }
     e.slug = m.slug

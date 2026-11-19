@@ -1,7 +1,7 @@
 [
   {
     "unit_id": "U01",
-    "rule": "Sono says who you are, and sei says who someone you know well is: both are forms of essere, to be. Italian usually leaves out io and tu, because the verb already shows who is meant: Sono Tom. Every noun is masculine or feminine: un goes with a masculine noun (un uomo, un ragazzo), una with a feminine one (una donna, una ragazza). To say not, put non before the verb: Non sono Tom. A question keeps the same word order; only the voice rises: Sei Tom?",
+    "rule": "**Sono** says who you are, and **sei** says who someone you know well is. Both are forms of **essere**, to be.\n\nItalian usually leaves out **io** and **tu**, because the verb already shows who is meant: **Sono Tom.**\n\nEvery noun is masculine or feminine. **Un** goes with a masculine noun (**un uomo**, **un ragazzo**), **una** with a feminine one (**una donna**, **una ragazza**).\n\nTo say not, put **non** before the verb: **Non sono Tom.**\n\nA question keeps the same word order; only the voice rises: **Sei Tom?**",
     "example_sentence_ids": "S1017;S1009;S1027",
     "conjugation_lemma": "essere",
     "status": "live",
@@ -45,7 +45,7 @@
   },
   {
     "unit_id": "U31",
-    "rule": "Three phrases to keep a conversation going. Non capisco means I don't understand. Più lentamente, or più piano, asks for slower speech. Ripeti asks a friend to say it again, and ripeta asks politely. Parla is for someone you call tu and parli for someone you call Lei. Per favore makes each one polite.",
+    "rule": "Three phrases to keep a conversation going.\n**Non capisco** means I don't understand.\n**Più lentamente**, or **più piano**, asks for slower speech.\n**Ripeti** asks a friend to say it again, and **ripeta** asks politely.\n\n**Parla** is for someone you call **tu** and **parli** for someone you call **Lei**. **Per favore** makes each one polite.",
     "example_sentence_ids": "S31012;S31009;S31101",
     "conjugation_lemma": "",
     "status": "live",
@@ -58,7 +58,7 @@
   },
   {
     "unit_id": "U02",
-    "rule": "The word for the changes with the noun: il before a masculine noun (il libro, il dottore), la before a feminine one (la casa, la donna), and l' before any noun that starts with a vowel (l'uomo). Lui is he and lei is she. È, with its accent, means is; e without one means and. Questo and questa mean this: questo with a masculine noun, questa with a feminine one. An adjective in -o changes to -a with a feminine noun (piccolo, piccola); one in -e stays the same (grande, forte).",
+    "rule": "The word for the changes with the noun:\n**il** before a masculine noun (**il libro**, **il dottore**)\n**la** before a feminine one (**la casa**, **la donna**)\n**l'** before any noun that starts with a vowel (**l'uomo**)\n\n**Lui** is he and **lei** is she. **È**, with its accent, means is; **e** without one means and.\n\n**Questo** and **questa** mean this: **questo** with a masculine noun, **questa** with a feminine one.\n\nAn adjective in **-o** changes to **-a** with a feminine noun (**piccolo**, **piccola**). One in **-e** stays the same (**grande**, **forte**).",
     "example_sentence_ids": "S2003;S2005;S2012",
     "conjugation_lemma": "essere",
     "status": "live",
@@ -102,7 +102,7 @@
   },
   {
     "unit_id": "U03",
-    "rule": "Italian has two words for you. Tu is for a friend, a child or family. Lei, the same word as she, is the polite you for an adult you don't know well, and it takes the verb form used for he and she. To ask how someone is, Italian uses stare, not essere: Come stai? to a friend, Come sta? politely, and the answer is Sto bene. Scusa is sorry to a friend, scusi the polite form. Prego answers grazie.",
+    "rule": "Italian has two words for you. **Tu** is for a friend, a child or family. **Lei**, the same word as she, is the polite you for an adult you don't know well. It takes the verb form used for he and she.\n\nTo ask how someone is, Italian uses **stare**, not **essere**:\n**Come stai?** (to a friend)\n**Come sta?** (politely)\n**Sto bene** (the answer)\n\n**Scusa** is sorry to a friend, **scusi** the polite form. **Prego** answers **grazie**.",
     "example_sentence_ids": "S3006;S3005;S3002",
     "conjugation_lemma": "stare",
     "status": "live",
@@ -146,7 +146,7 @@
   },
   {
     "unit_id": "U04",
-    "rule": "A verb changes its ending with the person: mangio is I eat, mangi you eat, mangia he or she eats; bevo, bevi, beve work the same way for drinking. To say what you like, Italian says it pleases me: Mi piace il tè, and Ti piace il tè? asks a friend. Food you like in general takes il, la or l': Mi piace il pane.",
+    "rule": "A verb changes its ending with the person: **mangio** is I eat, **mangi** you eat, **mangia** he or she eats. **Bevo**, **bevi**, **beve** work the same way for drinking.\n\nTo say what you like, Italian says it pleases me: **Mi piace il tè**. **Ti piace il tè?** asks a friend.\n\nFood you like in general takes **il**, **la** or **l'**: **Mi piace il pane.**",
     "example_sentence_ids": "S4008;S4004;S4003",
     "conjugation_lemma": "mangiare;bere",
     "status": "live",
@@ -220,7 +220,7 @@
   },
   {
     "unit_id": "U05",
-    "rule": "Avere means to have: ho is I have, hai you have, ha he or she has. The h is never pronounced. Non goes before the verb: Non ho un cane. A question keeps the same words: Hai un cane?",
+    "rule": "**Avere** means to have: **ho** is I have, **hai** you have, **ha** he or she has. The **h** is never pronounced.\n\n**Non** goes before the verb: **Non ho un cane.**\nA question keeps the same words: **Hai un cane?**",
     "example_sentence_ids": "S5002;S5007;S5006",
     "conjugation_lemma": "avere",
     "status": "live",
@@ -264,7 +264,7 @@
   },
   {
     "unit_id": "U32",
-    "rule": "Two questions for words you don't know. Come si dice…? asks how something is said: Come si dice questo in italiano? Cosa significa…? and Cosa vuol dire…? both ask what a word means. Che, cosa and che cosa all mean what, and any of the three can start the question.",
+    "rule": "Two questions for words you don't know.\n\n**Come si dice…?** asks how something is said: **Come si dice questo in italiano?**\n\n**Cosa significa…?** and **Cosa vuol dire…?** both ask what a word means.\n\n**Che**, **cosa** and **che cosa** all mean what, and any of the three can start the question.",
     "example_sentence_ids": "S32003;S32006;S32001",
     "conjugation_lemma": "",
     "status": "live",
@@ -277,7 +277,7 @@
   },
   {
     "unit_id": "U06",
-    "rule": "For more than one, a masculine noun in -o changes to -i (libro, libri) and a feminine noun in -a changes to -e (mela, mele). A few are irregular: uomo becomes uomini. The word for the changes too: i for most masculine plurals (i libri), gli before a vowel (gli uomini, gli amici), le for feminine plurals (le mele). Noi siamo is we are, voi siete is you are when speaking to several people, and loro sono is they are; abbiamo, avete and hanno are the same three forms of avere.",
+    "rule": "For more than one, a masculine noun in **-o** changes to **-i** (**libro**, **libri**) and a feminine noun in **-a** changes to **-e** (**mela**, **mele**). A few are irregular: **uomo** becomes **uomini**.\n\nThe word for the changes too:\n**i** for most masculine plurals (**i libri**)\n**gli** before a vowel (**gli uomini**, **gli amici**)\n**le** for feminine plurals (**le mele**)\n\n**Noi siamo** is we are, **voi siete** is you are when speaking to several people, and **loro sono** is they are. **Abbiamo**, **avete** and **hanno** are the same three forms of **avere**.",
     "example_sentence_ids": "S6006;S6002;S6007",
     "conjugation_lemma": "essere;avere",
     "status": "live",
@@ -351,7 +351,7 @@
   },
   {
     "unit_id": "U07",
-    "rule": "An adjective agrees with its noun: buono, nuovo, vecchio and bello with a masculine noun, buona, nuova, vecchia and bella with a feminine one. Giovane doesn't change. Most adjectives come after the noun (una macchina vecchia), though a few common ones can come before it. Molto before an adjective means very; after a verb it means a lot. Anche means also and comes before the word it adds.",
+    "rule": "An adjective agrees with its noun: **buono**, **nuovo**, **vecchio** and **bello** with a masculine noun, **buona**, **nuova**, **vecchia** and **bella** with a feminine one. **Giovane** doesn't change.\n\nMost adjectives come after the noun (**una macchina vecchia**), though a few common ones can come before it.\n\n**Molto** before an adjective means very; after a verb it means a lot. **Anche** means also and comes before the word it adds.",
     "example_sentence_ids": "S7004;S7014;S7001",
     "conjugation_lemma": "",
     "status": "live",
@@ -364,7 +364,7 @@
   },
   {
     "unit_id": "U52",
-    "rule": "Mi piace can take a verb as well as a noun: Mi piace nuotare means I like swimming. The verb stays in its dictionary form, ending in -are or -ere: ballare, cantare, nuotare, leggere. With a person the ending changes: canto is I sing and canta he or she sings; leggo is I read and legge he or she reads.",
+    "rule": "**Mi piace** can take a verb as well as a noun: **Mi piace nuotare** means I like swimming. The verb stays in its dictionary form, ending in **-are** or **-ere**: **ballare**, **cantare**, **nuotare**, **leggere**.\n\nWith a person the ending changes:\n**canto** is I sing and **canta** he or she sings\n**leggo** is I read and **legge** he or she reads",
     "example_sentence_ids": "S52026;S52003;S52012",
     "conjugation_lemma": "cantare;leggere",
     "status": "live",
@@ -438,7 +438,7 @@
   },
   {
     "unit_id": "U08",
-    "rule": "C'è means there is, for one thing; ci sono means there are, for more than one. Both can ask a question as they are: C'è un cane qui? In says where: in cucina, in bagno, in giardino, with no word for the. Sul means on the: sul tavolo, sul letto. Qui is here and lì is there.",
+    "rule": "**C'è** means there is, for one thing. **Ci sono** means there are, for more than one. Both can ask a question as they are: **C'è un cane qui?**\n\n**In** says where, with no word for the: **in cucina**, **in bagno**, **in giardino**.\n**Sul** means on the: **sul tavolo**, **sul letto**.\n\n**Qui** is here and **lì** is there.",
     "example_sentence_ids": "S8007;S8009;S8003",
     "conjugation_lemma": "esserci",
     "status": "live",
@@ -482,7 +482,7 @@
   },
   {
     "unit_id": "U09",
-    "rule": "Some feelings use essere with an adjective, which agrees with the person: a man says Sono stanco, a woman Sono stanca; malato and malata work the same way, while felice and triste don't change. Others use avere with a noun, where English says to be: Ho fame is I'm hungry, Ho sete I'm thirsty, Ho sonno I'm sleepy, Ho paura I'm afraid, Ho freddo I'm cold and Ho caldo I'm hot.",
+    "rule": "Some feelings use **essere** with an adjective, which agrees with the person. A man says **Sono stanco**, a woman **Sono stanca**. **Malato** and **malata** work the same way, while **felice** and **triste** don't change.\n\nOthers use **avere** with a noun, where English says to be:\n**Ho fame** (I'm hungry)\n**Ho sete** (I'm thirsty)\n**Ho sonno** (I'm sleepy)\n**Ho paura** (I'm afraid)\n**Ho freddo** (I'm cold)\n**Ho caldo** (I'm hot)",
     "example_sentence_ids": "S9008;S9031;S9001",
     "conjugation_lemma": "essere;avere",
     "status": "live",
@@ -556,7 +556,7 @@
   },
   {
     "unit_id": "U33",
-    "rule": "When the word won't come, say so and describe the thing. Cerco la parola means I'm looking for the word. È una cosa per… means it's a thing for…, followed by a verb: È una cosa per leggere. Come si chiama? asks what something is called. Non lo so means I don't know; lo stands for it. Sai with a verb asks whether someone knows how: Sai nuotare?",
+    "rule": "When the word won't come, say so and describe the thing.\n\n**Cerco la parola** means I'm looking for the word.\n**È una cosa per…** means it's a thing for…, followed by a verb: **È una cosa per leggere.**\n**Come si chiama?** asks what something is called.\n**Non lo so** means I don't know; **lo** stands for it.\n\n**Sai** with a verb asks whether someone knows how: **Sai nuotare?**",
     "example_sentence_ids": "S33101;S33107;S33026",
     "conjugation_lemma": "sapere",
     "status": "live",
@@ -600,7 +600,7 @@
   },
   {
     "unit_id": "U10",
-    "rule": "My, your and his or her agree with the thing owned, not with the owner: mio, tuo and suo with a masculine noun, mia, tua and sua with a feminine one, miei and mie for the plurals. Suo and sua mean his, her or the polite your. Italian puts the before them: la mia casa, il mio libro, i miei amici. One family member is the exception: mio padre, mia madre, with no the. Di shows whose something is: la casa di mia madre.",
+    "rule": "My, your and his or her agree with the thing owned, not with the owner: **mio**, **tuo** and **suo** with a masculine noun, **mia**, **tua** and **sua** with a feminine one, **miei** and **mie** for the plurals. **Suo** and **sua** mean his, her or the polite your.\n\nItalian puts the before them: **la mia casa**, **il mio libro**, **i miei amici**. One family member is the exception: **mio padre**, **mia madre**, with no the.\n\n**Di** shows whose something is: **la casa di mia madre**.",
     "example_sentence_ids": "S10001;S10010;S10101",
     "conjugation_lemma": "",
     "status": "live",
@@ -613,7 +613,7 @@
   },
   {
     "unit_id": "U11",
-    "rule": "Question words come first: chi (who), cosa, che or che cosa (what), dove (where), quando (when), perché (why), quale (which). Dove and è join into dov'è, where is. Perché also means because, so it starts the answer too: Perché sei triste? Perché sono stanco.",
+    "rule": "Question words come first: **chi** (who), **cosa**, **che** or **che cosa** (what), **dove** (where), **quando** (when), **perché** (why), **quale** (which).\n\n**Dove** and **è** join into **dov'è**, where is.\n\n**Perché** also means because, so it starts the answer too:\n**Perché sei triste?** **Perché sono stanco.**",
     "example_sentence_ids": "S11007;S11004;S11015",
     "conjugation_lemma": "",
     "status": "live",
@@ -626,7 +626,7 @@
   },
   {
     "unit_id": "U53",
-    "rule": "Dov'è…? finds a place: Dov'è la stazione? In says how you travel, with no word for the: in treno, in autobus, in bicicletta. Con means with: Sono con Tom. Sul treno means on the train.",
+    "rule": "**Dov'è…?** finds a place: **Dov'è la stazione?**\n\n**In** says how you travel, with no word for the: **in treno**, **in autobus**, **in bicicletta**.\n\n**Con** means with: **Sono con Tom.**\n**Sul treno** means on the train.",
     "example_sentence_ids": "S53001;S53011;S53032",
     "conjugation_lemma": "",
     "status": "live",
@@ -639,7 +639,7 @@
   },
   {
     "unit_id": "U12",
-    "rule": "The numbers from one to ten don't change with the noun, except uno, which becomes un or una before one. Sei, six, is spelled like sei, you are. How many is quanti with a masculine plural (quanti libri) and quante with a feminine one (quante mele).",
+    "rule": "The numbers from one to ten don't change with the noun, except **uno**, which becomes **un** or **una** before one. **Sei**, six, is spelled like **sei**, you are.\n\nHow many is **quanti** with a masculine plural (**quanti libri**) and **quante** with a feminine one (**quante mele**).",
     "example_sentence_ids": "S12003;S12004;S12017",
     "conjugation_lemma": "",
     "status": "live",
@@ -652,7 +652,7 @@
   },
   {
     "unit_id": "U13",
-    "rule": "A colour comes after its noun and agrees with it: rosso, nero, bianco and giallo with a masculine noun, rossa, nera, bianca and gialla with a feminine one. Verde stays the same for both, and blu never changes at all. Che colore è? asks what colour something is.",
+    "rule": "A color comes after its noun and agrees with it: **rosso**, **nero**, **bianco** and **giallo** with a masculine noun, **rossa**, **nera**, **bianca** and **gialla** with a feminine one. **Verde** stays the same for both, and **blu** never changes at all.\n\n**Che colore è?** asks what color something is.",
     "example_sentence_ids": "S13025;S13026;S13028",
     "conjugation_lemma": "",
     "status": "live",
@@ -665,7 +665,7 @@
   },
   {
     "unit_id": "U14",
-    "rule": "Oggi is today, domani tomorrow and adesso now. The days of the week have no capital letter. Che giorno è oggi? asks the day; Che ora è? asks the time. Ora means hour or time here.",
+    "rule": "**Oggi** is today, **domani** tomorrow and **adesso** now. The days of the week have no capital letter.\n\n**Che giorno è oggi?** asks the day.\n**Che ora è?** asks the time. **Ora** means hour or time here.",
     "example_sentence_ids": "S14009;S14004;S14014",
     "conjugation_lemma": "",
     "status": "live",
@@ -678,7 +678,7 @@
   },
   {
     "unit_id": "U15",
-    "rule": "Andare, to go, is irregular: vado is I go, vai you go, va he or she goes. A means to or at: a scuola, with no word for the. Before a masculine noun a and il join into al (al parco, al ristorante); before a feminine one a and la join into alla (alla stazione).",
+    "rule": "**Andare**, to go, is irregular: **vado** is I go, **vai** you go, **va** he or she goes.\n\n**A** means to or at: **a scuola**, with no word for the.\nBefore a masculine noun **a** and **il** join into **al** (**al parco**, **al ristorante**).\nBefore a feminine one **a** and **la** join into **alla** (**alla stazione**).",
     "example_sentence_ids": "S15008;S15018;S15007",
     "conjugation_lemma": "andare",
     "status": "live",
@@ -722,7 +722,7 @@
   },
   {
     "unit_id": "U51",
-    "rule": "To describe someone, Italian uses avere with the: Ha i capelli lunghi, she has long hair; Ho gli occhi azzurri, I have blue eyes. The adjective comes after the noun and agrees with it, so plural capelli and occhi take lunghi and azzurri. Alto describes a man and alta a woman. A piedi means on foot.",
+    "rule": "To describe someone, Italian uses **avere** with the:\n**Ha i capelli lunghi** (she has long hair)\n**Ho gli occhi azzurri** (I have blue eyes)\n\nThe adjective comes after the noun and agrees with it, so plural **capelli** and **occhi** take **lunghi** and **azzurri**. **Alto** describes a man and **alta** a woman.\n\n**A piedi** means on foot.",
     "example_sentence_ids": "S51001;S51002;S51016",
     "conjugation_lemma": "",
     "status": "live",
@@ -735,7 +735,7 @@
   },
   {
     "unit_id": "U41",
-    "rule": "To ask a friend's name, say Come ti chiami? To ask politely, to someone you don't know, say Come si chiama? That is Lei, the polite you: it is the same word as lei (she) and takes the same verb form, so si chiama means both her name is and your name is. Answer with Mi chiamo … (my name is …). Piacere! means pleased to meet you, and Ti presento … (Le presento …, politely) introduces someone.",
+    "rule": "To ask a friend's name, say **Come ti chiami?**\nTo ask politely, to someone you don't know, say **Come si chiama?**\n\nThat is **Lei**, the polite you. It is the same word as **lei** (she) and takes the same verb form, so **si chiama** means both her name is and your name is.\n\nAnswer with **Mi chiamo …** (my name is …).\n**Piacere!** means pleased to meet you.\n**Ti presento …** (**Le presento …**, politely) introduces someone.",
     "example_sentence_ids": "S41005;S41009;S41109",
     "conjugation_lemma": "chiamare",
     "status": "live",
@@ -779,7 +779,7 @@
   },
   {
     "unit_id": "U34",
-    "rule": "Potere means can: posso, puoi, può. The verb after it stays in the infinitive: Posso chiedere? (may I ask?), Puoi scrivere? (can you write?). To ask how a word is spelled, say Come si scrive?",
+    "rule": "**Potere** means can: **posso**, **puoi**, **può**. The verb after it stays in the infinitive:\n**Posso chiedere?** (may I ask?)\n**Puoi scrivere?** (can you write?)\n\nTo ask how a word is spelled, say **Come si scrive?**",
     "example_sentence_ids": "S34020;S34004;S34001",
     "conjugation_lemma": "potere",
     "status": "live",
@@ -823,7 +823,7 @@
   },
   {
     "unit_id": "U42",
-    "rule": "Numbers from 11 to 20: undici, dodici, tredici, quattordici, quindici, sedici, diciassette, diciotto, diciannove, venti. Sei is six, and also you are: the sentence makes it clear. Phone numbers are said in pairs or one digit at a time, with zero for 0.",
+    "rule": "Numbers from 11 to 20: **undici**, **dodici**, **tredici**, **quattordici**, **quindici**, **sedici**, **diciassette**, **diciotto**, **diciannove**, **venti**.\n\n**Sei** is six, and also you are: the sentence makes it clear.\n\nPhone numbers are said in pairs or one digit at a time, with **zero** for 0.",
     "example_sentence_ids": "S42001;S42101;S42007",
     "conjugation_lemma": "",
     "status": "live",
@@ -836,7 +836,7 @@
   },
   {
     "unit_id": "U43",
-    "rule": "Italian uses avere for age: Ho venti anni (I am twenty, literally I have twenty years). To ask, say Quanti anni hai? Sono nato (a man) and sono nata (a woman) mean I was born. Buon compleanno! is happy birthday.",
+    "rule": "Italian uses **avere** for age: **Ho vent'anni** (I am twenty, literally I have twenty years). To ask, say **Quanti anni hai?**\n\n**Sono nato** (a man) and **sono nata** (a woman) mean I was born.\n**Buon compleanno!** is happy birthday.",
     "example_sentence_ids": "S43014;S43001;S43007",
     "conjugation_lemma": "",
     "status": "live",
@@ -849,7 +849,7 @@
   },
   {
     "unit_id": "U35",
-    "rule": "Ways to check a number or ask for time: Un momento (one moment), Aspetta (wait), È giusto? (is that right?), and Certo! (of course!). Giusto? at the end of a sentence asks for a yes, like right? in English.",
+    "rule": "Ways to check a number or ask for time:\n**Un momento** (one moment)\n**Aspetta** (wait)\n**È giusto?** (is that right?)\n**Certo!** (of course!)\n\n**Giusto?** at the end of a sentence asks for a yes, like right? in English.",
     "example_sentence_ids": "S35001;S35003;S35009",
     "conjugation_lemma": "",
     "status": "live",
@@ -862,7 +862,7 @@
   },
   {
     "unit_id": "U44",
-    "rule": "The tens are trenta, quaranta, cinquanta, sessanta, settanta, ottanta, novanta, then cento (100) and mille (1,000). In between, the tens and units join into one word: trentadue, quarantacinque. Before uno and otto the tens drop their last vowel: ventuno, trentotto.",
+    "rule": "The tens are **trenta**, **quaranta**, **cinquanta**, **sessanta**, **settanta**, **ottanta**, **novanta**, then **cento** (100) and **mille** (1,000).\n\nIn between, the tens and units join into one word: **trentadue**, **quarantacinque**.\n\nBefore **uno** and **otto** the tens drop their last vowel: **ventuno**, **trentotto**.",
     "example_sentence_ids": "S44101;S44001;S44004",
     "conjugation_lemma": "",
     "status": "live",
@@ -875,7 +875,7 @@
   },
   {
     "unit_id": "U45",
-    "rule": "Abitare and vivere both mean to live: abito, abiti, abita follow the -are pattern, vivo, vivi, vive the -ere one. Use a before a town and in before a country or a part of town: Abito a Roma, vivo in Italia, abito in centro. Vicino a means near, lontano far.",
+    "rule": "**Abitare** and **vivere** both mean to live. **Abito**, **abiti**, **abita** follow the **-are** pattern, **vivo**, **vivi**, **vive** the **-ere** one.\n\nUse **a** before a town and **in** before a country or a part of town: **Abito a Roma**, **vivo in Italia**, **abito in centro**.\n\n**Vicino a** means near, **lontano** far.",
     "example_sentence_ids": "S45011;S45004;S45101",
     "conjugation_lemma": "vivere",
     "status": "live",
@@ -919,7 +919,7 @@
   },
   {
     "unit_id": "U46",
-    "rule": "Nationalities agree with the person: italiano for a man, italiana for a woman; francese is the same for both. Languages take no capital letter and usually the article: il francese, l'inglese, though parlo francese is fine. Parlare follows the -are pattern: parlo, parli, parla.",
+    "rule": "Nationalities agree with the person: **italiano** for a man, **italiana** for a woman. **Francese** is the same for both.\n\nLanguages take no capital letter and usually the article: **il francese**, **l'inglese**, though **parlo francese** is fine.\n\n**Parlare** follows the **-are** pattern: **parlo**, **parli**, **parla**.",
     "example_sentence_ids": "S46004;S46021;S46003",
     "conjugation_lemma": "parlare",
     "status": "live",
@@ -963,7 +963,7 @@
   },
   {
     "unit_id": "U47",
-    "rule": "Volere means to want: voglio, vuoi. Vorrei (I would like) is the polite way to ask for something in a shop. Dovere means must: devo, deve. Ho bisogno di … means I need …. After a quantity, use di: un chilo di mele.",
+    "rule": "**Volere** means to want: **voglio**, **vuoi**. **Vorrei** (I would like) is the polite way to ask for something in a shop.\n\n**Dovere** means must: **devo**, **deve**.\n**Ho bisogno di …** means I need ….\n\nAfter a quantity, use **di**: **un chilo di mele**.",
     "example_sentence_ids": "S47002;S47011;S47103",
     "conjugation_lemma": "volere",
     "status": "live",
@@ -1007,7 +1007,7 @@
   },
   {
     "unit_id": "U36",
-    "rule": "To show you've understood: D'accordo (agreed, OK), Chiaro (clear), Ho capito (I've understood), Esatto (exactly). Vero? at the end of a sentence asks for a yes: Sei d'accordo, vero? Cioè means that is, to make something clearer.",
+    "rule": "To show you've understood:\n**D'accordo** (agreed, OK)\n**Chiaro** (clear)\n**Ho capito** (I've understood)\n**Esatto** (exactly)\n\n**Vero?** at the end of a sentence asks for a yes: **Sei d'accordo, vero?**\n\n**Cioè** means that is, to make something clearer.",
     "example_sentence_ids": "S36021;S36004;S36101",
     "conjugation_lemma": "",
     "status": "live",
@@ -1020,7 +1020,7 @@
   },
   {
     "unit_id": "U48",
-    "rule": "Quanto costa? asks the price of one thing; Quanto costano? of more than one: costano agrees with a plural. Costa due euro: euro never changes in the plural. Caro is expensive and economico cheap. Il conto is the bill.",
+    "rule": "**Quanto costa?** asks the price of one thing. **Quanto costano?** asks the price of more than one: **costano** agrees with a plural.\n\n**Costa due euro**: **euro** never changes in the plural.\n\n**Caro** is expensive and **economico** cheap. **Il conto** is the bill.",
     "example_sentence_ids": "S48001;S48011;S48020",
     "conjugation_lemma": "costare",
     "status": "live",
@@ -1064,7 +1064,7 @@
   },
   {
     "unit_id": "U49",
-    "rule": "After a container or an amount, use di: una bottiglia di latte, un pacchetto di biscotti, un po' di pane. Troppo is too much, poco little, abbastanza enough. Quello and quella mean that (masculine and feminine), and ogni (every) never changes: ogni giorno.",
+    "rule": "After a container or an amount, use **di**: **una bottiglia di latte**, **un pacchetto di biscotti**, **un po' di pane**.\n\n**Troppo** is too much, **poco** little, **abbastanza** enough.\n\n**Quello** and **quella** mean that (masculine and feminine). **Ogni** (every) never changes: **ogni giorno**.",
     "example_sentence_ids": "S49010;S49009;S49025",
     "conjugation_lemma": "",
     "status": "live",
@@ -1077,7 +1077,7 @@
   },
   {
     "unit_id": "U54",
-    "rule": "Portare is to wear (and also to bring): porto, porti. Gli occhiali (glasses) and i pantaloni (trousers) are always plural. Colours agree with the noun when they end in -o: una gonna rossa, but blu never changes.",
+    "rule": "**Portare** is to wear (and also to bring): **porto**, **porti**.\n\n**Gli occhiali** (glasses) and **i pantaloni** (trousers) are always plural.\n\nColors agree with the noun when they end in **-o**: **una gonna rossa**. But **blu** never changes.",
     "example_sentence_ids": "S54001;S54011;S54024",
     "conjugation_lemma": "portare",
     "status": "live",
@@ -1121,7 +1121,7 @@
   },
   {
     "unit_id": "U55",
-    "rule": "Studiare follows the -are pattern: studio, studi, studia. Imparare means to learn. Una domanda is a question and una risposta an answer. Per esempio means for example.",
+    "rule": "**Studiare** follows the **-are** pattern: **studio**, **studi**, **studia**. **Imparare** means to learn.\n\n**Una domanda** is a question and **una risposta** an answer. **Per esempio** means for example.",
     "example_sentence_ids": "S55028;S55009;S55001",
     "conjugation_lemma": "studiare",
     "status": "live",
@@ -1165,7 +1165,7 @@
   },
   {
     "unit_id": "U56",
-    "rule": "Adjectives agree with the person: basso for a man, bassa for a woman; biondo, bionda; magro, magra. Adjectives in -e are the same for both: intelligente. Lo stesso means the same.",
+    "rule": "Adjectives agree with the person: **basso** for a man, **bassa** for a woman; **biondo**, **bionda**; **magro**, **magra**. Adjectives in **-e** are the same for both: **intelligente**.\n\n**Lo stesso** means the same.",
     "example_sentence_ids": "S56008;S56002;S56028",
     "conjugation_lemma": "",
     "status": "live",
@@ -1178,7 +1178,7 @@
   },
   {
     "unit_id": "U57",
-    "rule": "Adjectives in -o change for a woman and in the plural (aperto, aperta), but adjectives in -e are the same for both genders: facile, difficile, importante, interessante. È facile means it's easy, È importante it's important.",
+    "rule": "Adjectives in **-o** change for a woman and in the plural (**aperto**, **aperta**). Adjectives in **-e** are the same for both genders: **facile**, **difficile**, **importante**, **interessante**.\n\n**È facile** means it's easy, **È importante** it's important.",
     "example_sentence_ids": "S57024;S57006;S57028",
     "conjugation_lemma": "",
     "status": "live",
@@ -1191,7 +1191,7 @@
   },
   {
     "unit_id": "U58",
-    "rule": "Use a and in for places: al mare (at the seaside), in montagna (in the mountains), in campagna (in the countryside). Il sole is the sun, il cielo the sky, la luce the light.",
+    "rule": "Use **a** and **in** for places:\n**al mare** (at the seaside)\n**in montagna** (in the mountains)\n**in campagna** (in the countryside)\n\n**Il sole** is the sun, **il cielo** the sky, **la luce** the light.",
     "example_sentence_ids": "S58001;S58002;S58023",
     "conjugation_lemma": "",
     "status": "live",
@@ -1204,7 +1204,7 @@
   },
   {
     "unit_id": "U61",
-    "rule": "Che ore sono? asks the time. Sono le … for most hours, but È l'una (one o'clock), è mezzogiorno and è mezzanotte, since those are one. Add e mezza (half past), e un quarto (a quarter past) or meno un quarto (a quarter to): Sono le tre e mezza. Di mattina, di pomeriggio, di sera tell the part of the day.",
+    "rule": "**Che ore sono?** asks the time. **Sono le …** for most hours, but **È l'una** (one o'clock), **è mezzogiorno** and **è mezzanotte**, since those are one.\n\nAdd **e mezza** (half past), **e un quarto** (a quarter past) or **meno un quarto** (a quarter to): **Sono le tre e mezza.**\n\n**Di mattina**, **di pomeriggio**, **di sera** tell the part of the day.",
     "example_sentence_ids": "S61022;S61101;S61105",
     "conjugation_lemma": "",
     "status": "live",
@@ -1217,7 +1217,7 @@
   },
   {
     "unit_id": "U37",
-    "rule": "When you didn't catch something: Scusi? (politely) or Come? Non ho sentito means I didn't hear; Cosa hai detto? what did you say? Sentito and detto are the past forms of sentire (hear) and dire (say); ho or hai comes before them.",
+    "rule": "When you didn't catch something: **Scusi?** (politely) or **Come?**\n\n**Non ho sentito** means I didn't hear.\n**Cosa hai detto?** means what did you say?\n\n**Sentito** and **detto** are the past forms of **sentire** (hear) and **dire** (say). **Ho** or **hai** comes before them.",
     "example_sentence_ids": "S37018;S37019;S37021",
     "conjugation_lemma": "sentire",
     "status": "live",
@@ -1261,7 +1261,7 @@
   },
   {
     "unit_id": "U62",
-    "rule": "Lunedì means this Monday; il lunedì means every Monday. Tutti i giorni and ogni giorno both mean every day. Prossimo (next) and scorso (last) agree with the noun: la settimana prossima, la domenica scorsa. Sempre is always, spesso often, mai never or ever.",
+    "rule": "**Lunedì** means this Monday; **il lunedì** means every Monday. **Tutti i giorni** and **ogni giorno** both mean every day.\n\n**Prossimo** (next) and **scorso** (last) agree with the noun: **la settimana prossima**, **la domenica scorsa**.\n\n**Sempre** is always, **spesso** often, **mai** never or ever.",
     "example_sentence_ids": "S62013;S62014;S62108",
     "conjugation_lemma": "",
     "status": "live",
@@ -1274,7 +1274,7 @@
   },
   {
     "unit_id": "U63",
-    "rule": "Months take no capital: gennaio, febbraio, marzo … dicembre. Say a gennaio or in gennaio for in January. Dates use the plain number, il due maggio, except for the first: il primo maggio. The seasons are la primavera, l'estate, l'autunno, l'inverno.",
+    "rule": "Months take no capital: **gennaio**, **febbraio**, **marzo** … **dicembre**. Say **a gennaio** or **in gennaio** for in January.\n\nDates use the plain number, **il due maggio**, except for the first: **il primo maggio**.\n\nThe seasons are **la primavera**, **l'estate**, **l'autunno**, **l'inverno**.",
     "example_sentence_ids": "S63009;S63002;S63101",
     "conjugation_lemma": "",
     "status": "live",
@@ -1287,7 +1287,7 @@
   },
   {
     "unit_id": "U38",
-    "rule": "Words that give you time to think: Un attimo… Vediamo (let's see). Allora, dunque and quindi all mean so or then: Allora, dove vado? Penso di sì means I think so.",
+    "rule": "Words that give you time to think: **Un attimo…** **Vediamo** (let's see).\n\n**Allora**, **dunque** and **quindi** all mean so or then: **Allora, dove vado?**\n\n**Penso di sì** means I think so.",
     "example_sentence_ids": "S38007;S38011;S38001",
     "conjugation_lemma": "pensare",
     "status": "live",
@@ -1331,7 +1331,7 @@
   },
   {
     "unit_id": "U64",
-    "rule": "Venire is irregular: vengo, vieni, viene. Uscire too: esco (I go out). Possiamo + a verb makes a suggestion: Possiamo andare insieme? Andiamo al cinema means let's go to the cinema. Libero and occupato agree: sei libera domani?",
+    "rule": "**Venire** is irregular: **vengo**, **vieni**, **viene**. **Uscire** too: **esco** (I go out).\n\n**Possiamo** + a verb makes a suggestion: **Possiamo andare insieme?**\n**Andiamo al cinema** means let's go to the cinema.\n\n**Libero** and **occupato** agree: **sei libera domani?**",
     "example_sentence_ids": "S64001;S64022;S64017",
     "conjugation_lemma": "venire",
     "status": "live",
@@ -1375,7 +1375,7 @@
   },
   {
     "unit_id": "U65",
-    "rule": "Fare is irregular: faccio, fai, fa; fare colazione is to have breakfast. Some -ire verbs add -isc-: finire, finisco. Prima (before), poi (then) and dopo (after) put your day in order.",
+    "rule": "**Fare** is irregular: **faccio**, **fai**, **fa**. **Fare colazione** is to have breakfast.\n\nSome **-ire** verbs add **-isc-**: **finire**, **finisco**.\n\n**Prima** (before), **poi** (then) and **dopo** (after) put your day in order.",
     "example_sentence_ids": "S65004;S65008;S65101",
     "conjugation_lemma": "fare",
     "status": "live",
@@ -1419,7 +1419,7 @@
   },
   {
     "unit_id": "U66",
-    "rule": "Signs use short words: Aperto, Chiuso, Entrata, Uscita, Vietato (forbidden). When a word describes a noun it agrees: la banca è aperta, il negozio è chiuso. Vietato + a verb forbids something: vietato nuotare.",
+    "rule": "Signs use short words: **Aperto**, **Chiuso**, **Entrata**, **Uscita**, **Vietato** (forbidden).\n\nWhen a word describes a noun it agrees: **la banca è aperta**, **il negozio è chiuso**.\n\n**Vietato** + a verb forbids something: **vietato nuotare**.",
     "example_sentence_ids": "S66001;S66006;S66020",
     "conjugation_lemma": "",
     "status": "live",
@@ -1432,7 +1432,7 @@
   },
   {
     "unit_id": "U67",
-    "rule": "Partire (to leave) and arrivare (to arrive): il treno parte, il treno arriva. On a timetable you read partenza (departure), arrivo (arrival) and binario (platform). Un biglietto di andata is one way; andata e ritorno is a return.",
+    "rule": "**Partire** (to leave) and **arrivare** (to arrive): **il treno parte**, **il treno arriva**.\n\nOn a timetable you read **partenza** (departure), **arrivo** (arrival) and **binario** (platform).\n\n**Un biglietto di andata** is one way; **andata e ritorno** is a return.",
     "example_sentence_ids": "S67001;S67012;S67110",
     "conjugation_lemma": "partire",
     "status": "live",
@@ -1476,7 +1476,7 @@
   },
   {
     "unit_id": "U39",
-    "rule": "To say you're not sure: Non sono sicuro (a man), non sono sicura (a woman). Credo di sì (I think so), forse (maybe), probabilmente (probably). Sembra means it seems, and davvero? means really?",
+    "rule": "To say you're not sure:\n**Non sono sicuro** (a man)\n**non sono sicura** (a woman)\n**Credo di sì** (I think so)\n**forse** (maybe)\n**probabilmente** (probably)\n\n**Sembra** means it seems, and **davvero?** means really?",
     "example_sentence_ids": "S39004;S39014;S39015",
     "conjugation_lemma": "credere",
     "status": "live",
@@ -1520,7 +1520,7 @@
   },
   {
     "unit_id": "U68",
-    "rule": "Announcements open with Signore e signori, attenzione. Il treno è in ritardo means the train is late. A causa di means because of, and per questo motivo for this reason.",
+    "rule": "Announcements open with **Signore e signori, attenzione.**\n\n**Il treno è in ritardo** means the train is late.\n**A causa di** means because of, and **per questo motivo** for this reason.",
     "example_sentence_ids": "S68001;S68101;S68111",
     "conjugation_lemma": "entrare",
     "status": "live",
@@ -1564,7 +1564,7 @@
   },
   {
     "unit_id": "U69",
-    "rule": "Instructions to one person you know use the tu command: ascolta, guarda, rispondi, scegli, metti (often the same as the tu or lui form). To a class, the voi command: leggete, scrivete. Forms often use the infinitive instead: Inserire il nome.",
+    "rule": "Instructions to one person you know use the **tu** command: **ascolta**, **guarda**, **rispondi**, **scegli**, **metti** (often the same as the **tu** or **lui** form).\n\nTo a class, the **voi** command: **leggete**, **scrivete**.\n\nForms often use the infinitive instead: **Inserire il nome.**",
     "example_sentence_ids": "S69003;S69101;S69128",
     "conjugation_lemma": "mettere",
     "status": "live",
@@ -1608,7 +1608,7 @@
   },
   {
     "unit_id": "U71",
-    "rule": "Words that join: ma (but), o and oppure (or), se (if), senza (without), tra and fra (between, or in, for time). Di, a, da, in and su join the article: di + il is del, in + la is nella, da + il is dal. Del caffè means some coffee.",
+    "rule": "Words that join: **ma** (but), **o** and **oppure** (or), **se** (if), **senza** (without), **tra** and **fra** (between, or in, for time).\n\n**Di**, **a**, **da**, **in** and **su** join the article:\n**di** + **il** is **del**\n**in** + **la** is **nella**\n**da** + **il** is **dal**\n\n**Del caffè** means some coffee.",
     "example_sentence_ids": "S71019;S71010;S71108",
     "conjugation_lemma": "",
     "status": "live",
@@ -1621,7 +1621,7 @@
   },
   {
     "unit_id": "U72",
-    "rule": "The words of a headline: il governo, il presidente, lo stato (lo before s + consonant), la politica, la guerra and la pace. La notizia is one piece of news; le notizie is the news.",
+    "rule": "The words of a headline: **il governo**, **il presidente**, **lo stato** (**lo** before **s** + consonant), **la politica**, **la guerra** and **la pace**.\n\n**La notizia** is one piece of news; **le notizie** is the news.",
     "example_sentence_ids": "S72009;S72032;S72104",
     "conjugation_lemma": "",
     "status": "live",
@@ -1634,7 +1634,7 @@
   },
   {
     "unit_id": "U73",
-    "rule": "Everyday verbs side by side: metto (I put), do (I give), guardo (I look), aspetto (I wait), provo (I try), uso (I use). Dare is irregular: do, dai, dà. Riuscire a + a verb is to manage to: non riesco a ricordare.",
+    "rule": "Everyday verbs side by side: **metto** (I put), **do** (I give), **guardo** (I look), **aspetto** (I wait), **provo** (I try), **uso** (I use).\n\n**Dare** is irregular: **do**, **dai**, **dà**.\n\n**Riuscire a** + a verb is to manage to: **non riesco a ricordare**.",
     "example_sentence_ids": "S73005;S73002;S73020",
     "conjugation_lemma": "dare",
     "status": "live",
@@ -1678,7 +1678,7 @@
   },
   {
     "unit_id": "U74",
-    "rule": "Mi piace for one thing, mi piacciono for more than one. Preferisco (I prefer) adds -isc-. Meglio is better as an adverb (canta meglio); migliore as an adjective (il libro migliore). Avere ragione is to be right, avere torto to be wrong.",
+    "rule": "**Mi piace** for one thing, **mi piacciono** for more than one. **Preferisco** (I prefer) adds **-isc-**.\n\n**Meglio** is better as an adverb (**canta meglio**); **migliore** as an adjective (**il libro migliore**).\n\n**Avere ragione** is to be right, **avere torto** to be wrong.",
     "example_sentence_ids": "S74004;S74001;S74032",
     "conjugation_lemma": "",
     "status": "live",
@@ -1691,7 +1691,7 @@
   },
   {
     "unit_id": "U75",
-    "rule": "Italy has regioni (regions), each with province (provinces) and comuni (towns with their own council). La gente (people) takes a singular verb: la gente è simpatica.",
+    "rule": "Italy has **regioni** (regions), each with **province** (provinces) and **comuni** (towns with their own council).\n\n**La gente** (people) takes a singular verb: **la gente è simpatica**.",
     "example_sentence_ids": "S75003;S75005;S75104",
     "conjugation_lemma": "",
     "status": "live",
@@ -1704,7 +1704,7 @@
   },
   {
     "unit_id": "U81",
-    "rule": "At the bar: Un caffè, per favore, or Prendo un cornetto. Prendiamo means we'll have. Offro io means it's my treat; il bar offre, the bar offers. Basta così means that's enough. A me piace … puts the stress on me.",
+    "rule": "At the bar: **Un caffè, per favore**, or **Prendo un cornetto**.\n\n**Prendiamo** means we'll have.\n**Offro io** means it's my treat; **il bar offre**, the bar offers.\n**Basta così** means that's enough.\n**A me piace …** puts the stress on **me**.",
     "example_sentence_ids": "S81002;S81014;S81111",
     "conjugation_lemma": "offrire",
     "status": "live",
@@ -1748,7 +1748,7 @@
   },
   {
     "unit_id": "U26",
-    "rule": "Permesso? asks to get past someone or to come in. Mi fa un favore? asks a favour politely. C'è qualcuno? (is anyone there?); nessun problema (no problem). Aiutare is to help: mi può aiutare?",
+    "rule": "**Permesso?** asks to get past someone or to come in.\n**Mi fa un favore?** asks a favour politely.\n**C'è qualcuno?** (is anyone there?)\n**nessun problema** (no problem)\n\n**Aiutare** is to help: **mi può aiutare?**",
     "example_sentence_ids": "S26023;S26018;S26013",
     "conjugation_lemma": "aiutare",
     "status": "live",
@@ -1792,7 +1792,7 @@
   },
   {
     "unit_id": "U82",
-    "rule": "Ordinare is to order: ordino, ordini. An Italian meal has il primo (pasta, rice or soup), il secondo (meat or fish) and il dolce (dessert). Un piatto di pasta is a plate of pasta: di after the amount, as with un chilo di.",
+    "rule": "**Ordinare** is to order: **ordino**, **ordini**.\n\nAn Italian meal has:\n**il primo** (pasta, rice or soup)\n**il secondo** (meat or fish)\n**il dolce** (dessert)\n\n**Un piatto di pasta** is a plate of pasta: **di** after the amount, as with **un chilo di**.",
     "example_sentence_ids": "S82008;S82023;S82106",
     "conjugation_lemma": "ordinare",
     "status": "live",
@@ -1836,7 +1836,7 @@
   },
   {
     "unit_id": "U83",
-    "rule": "Directions: a destra (on the right), a sinistra (on the left), dritto (straight on). Where things are: davanti a (in front of), dietro (behind), di fronte a (opposite), sotto (under). Distance with a: la farmacia è a cento metri.",
+    "rule": "Directions: **a destra** (on the right), **a sinistra** (on the left), **dritto** (straight on).\n\nWhere things are: **davanti a** (in front of), **dietro** (behind), **di fronte a** (opposite), **sotto** (under).\n\nDistance with **a**: **la farmacia è a cento metri**.",
     "example_sentence_ids": "S83014;S83023;S83028",
     "conjugation_lemma": "",
     "status": "live",
@@ -1849,7 +1849,7 @@
   },
   {
     "unit_id": "U27",
-    "rule": "Mi sono perso (a man) or mi sono persa (a woman) means I'm lost; sono perso is fine too. Gira a destra means turn right. Tornare indietro is to go back.",
+    "rule": "**Mi sono perso** (a man) or **mi sono persa** (a woman) means I'm lost; **sono perso** is fine too.\n\n**Gira a destra** means turn right.\n**Tornare indietro** is to go back.",
     "example_sentence_ids": "S27001;S27011;S27101",
     "conjugation_lemma": "",
     "status": "live",
@@ -1862,7 +1862,7 @@
   },
   {
     "unit_id": "U84",
-    "rule": "Guidare is to drive: guido. Salire (salgo) is to get on, scendere (scendo) to get off: salgo sul treno, scendo qui. In macchina, in tram, in treno, but a piedi (on foot). Entro means by, no later than: entro domani.",
+    "rule": "**Guidare** is to drive: **guido**.\n\n**Salire** (**salgo**) is to get on, **scendere** (**scendo**) to get off: **salgo sul treno**, **scendo qui**.\n\n**In macchina**, **in tram**, **in treno**, but **a piedi** (on foot).\n\n**Entro** means by, no later than: **entro domani**.",
     "example_sentence_ids": "S84002;S84009;S84101",
     "conjugation_lemma": "scendere",
     "status": "live",
@@ -1906,7 +1906,7 @@
   },
   {
     "unit_id": "U85",
-    "rule": "With a family word in the singular, mio, tuo and suo come without the article: mio padre, mia sorella, tuo fratello. In the plural the article comes back: i miei genitori, i tuoi figli. Sposato and sposata agree.",
+    "rule": "With a family word in the singular, **mio**, **tuo** and **suo** come without the article: **mio padre**, **mia sorella**, **tuo fratello**.\n\nIn the plural the article comes back: **i miei genitori**, **i tuoi figli**.\n\n**Sposato** and **sposata** agree.",
     "example_sentence_ids": "S85013;S85003;S85018",
     "conjugation_lemma": "",
     "status": "live",
@@ -1919,7 +1919,7 @@
   },
   {
     "unit_id": "U86",
-    "rule": "La casa ha tre stanze: stanza is any room, camera often the bedroom (camera da letto). Words for things at home: la porta, la finestra, la sedia, il divano, l'armadio. Un oggetto is a thing, gli oggetti the things.",
+    "rule": "**La casa ha tre stanze**: **stanza** is any room, **camera** often the bedroom (**camera da letto**).\n\nWords for things at home: **la porta**, **la finestra**, **la sedia**, **il divano**, **l'armadio**.\n\n**Un oggetto** is a thing, **gli oggetti** the things.",
     "example_sentence_ids": "S86007;S86015;S86018",
     "conjugation_lemma": "costruire",
     "status": "live",
@@ -1963,7 +1963,7 @@
   },
   {
     "unit_id": "U87",
-    "rule": "Lavoro in un'azienda, lavoro per il comune: in or per. Il capo is the boss, il collega or la collega the colleague. Lo stipendio is the salary. Avere esperienza is to have experience.",
+    "rule": "**Lavoro in un'azienda**, **lavoro per il comune**: **in** or **per**.\n\n**Il capo** is the boss, **il collega** or **la collega** the colleague. **Lo stipendio** is the salary.\n\n**Avere esperienza** is to have experience.",
     "example_sentence_ids": "S87001;S87008;S87013",
     "conjugation_lemma": "",
     "status": "live",
@@ -1976,7 +1976,7 @@
   },
   {
     "unit_id": "U28",
-    "rule": "Non funziona means it doesn't work; manca qualcosa, something is missing. Bisogna + a verb means one has to: bisogna aspettare. È grave? asks if it's serious; una soluzione is a solution.",
+    "rule": "**Non funziona** means it doesn't work; **manca qualcosa**, something is missing.\n\n**Bisogna** + a verb means one has to: **bisogna aspettare**.\n\n**È grave?** asks if it's serious; **una soluzione** is a solution.",
     "example_sentence_ids": "S28003;S28002;S28008",
     "conjugation_lemma": "",
     "status": "live",
@@ -1989,7 +1989,7 @@
   },
   {
     "unit_id": "U88",
-    "rule": "The words on a form: nome, cognome, data di nascita, luogo di nascita, stato civile (sposato, sposata), professione, residenza, firma. Forms use the infinitive for what to do: Indicare la data, Inserire il nome. Dichiaro means I declare.",
+    "rule": "The words on a form: **nome**, **cognome**, **data di nascita**, **luogo di nascita**, **stato civile** (**sposato**, **sposata**), **professione**, **residenza**, **firma**.\n\nForms use the infinitive for what to do: **Indicare la data**, **Inserire il nome**.\n\n**Dichiaro** means I declare.",
     "example_sentence_ids": "S88018;S88101;S88130",
     "conjugation_lemma": "dichiarare",
     "status": "live",
@@ -2033,7 +2033,7 @@
   },
   {
     "unit_id": "U89",
-    "rule": "Letters and postcards open with Caro Marco or Cara Anna (caro agrees) and end with Saluti, Tanti saluti or Un abbraccio. Ti invio means I'm sending you; inviare is to send.",
+    "rule": "Letters and postcards open with **Caro Marco** or **Cara Anna** (**caro** agrees). They end with **Saluti**, **Tanti saluti** or **Un abbraccio**.\n\n**Ti invio** means I'm sending you; **inviare** is to send.",
     "example_sentence_ids": "S89101;S89103;S89003",
     "conjugation_lemma": "inviare",
     "status": "live",
@@ -2077,7 +2077,7 @@
   },
   {
     "unit_id": "U92",
-    "rule": "Adjectives in -e are the same for both genders: generale, principale, attuale, regionale. Adjectives in -o agree: specifico, specifica; numeroso, numerosa. Most adjectives come after the noun: la strada principale, un problema tecnico.",
+    "rule": "Adjectives in **-e** are the same for both genders: **generale**, **principale**, **attuale**, **regionale**.\n\nAdjectives in **-o** agree: **specifico**, **specifica**; **numeroso**, **numerosa**.\n\nMost adjectives come after the noun: **la strada principale**, **un problema tecnico**.",
     "example_sentence_ids": "S92104;S92137;S92142",
     "conjugation_lemma": "",
     "status": "live",
@@ -2090,7 +2090,7 @@
   },
   {
     "unit_id": "U94",
-    "rule": "Verbs of thinking and saying: considero, ritengo (I consider, I believe), propongo (I suggest). Many are used in the lui form: esiste (exists), appare (appears), risulta (turns out), riguarda (concerns). Ti rende felice? means does it make you happy?",
+    "rule": "Verbs of thinking and saying: **considero**, **ritengo** (I consider, I believe), **propongo** (I suggest).\n\nMany are used in the **lui** form: **esiste** (exists), **appare** (appears), **risulta** (turns out), **riguarda** (concerns).\n\n**Ti rende felice?** means does it make you happy?",
     "example_sentence_ids": "S94005;S94022;S94008",
     "conjugation_lemma": "proporre",
     "status": "live",
@@ -2134,7 +2134,7 @@
   },
   {
     "unit_id": "U95",
-    "rule": "Everyday verbs in the lui form: offre, permette, contiene, richiede. Some are irregular: ottenere (ottengo), porre (pone), proporre (propone). Il negozio richiede un cameriere: the subject usually comes first.",
+    "rule": "Everyday verbs in the **lui** form: **offre**, **permette**, **contiene**, **richiede**.\n\nSome are irregular: **ottenere** (**ottengo**), **porre** (**pone**), **proporre** (**propone**).\n\n**Imparare una lingua richiede tempo**: the subject usually comes first.",
     "example_sentence_ids": "S95001;S95005;S95002",
     "conjugation_lemma": "ottenere",
     "status": "live",
@@ -2178,7 +2178,7 @@
   },
   {
     "unit_id": "U91",
-    "rule": "Words for ideas and everyday things: il caso (case), il senso (sense), il valore (value), lo scopo (aim), la possibilità, la proposta, l'azione, il corpo (body). Prendersi cura di means to take care of: Mi prendo cura di Tom. Set phrases: in questo caso, in ogni caso. Ciò means this or that, as a pronoun: Ciò non ha senso.",
+    "rule": "Words for ideas and everyday things: **il caso** (case), **il senso** (sense), **il valore** (value), **lo scopo** (aim), **la possibilità**, **la proposta**, **l'azione**, **il corpo** (body).\n\n**Prendersi cura di** means to take care of: **Mi prendo cura di Tom**.\n\nSet phrases: **in questo caso**, **in ogni caso**.\n\n**Ciò** means this or that, as a pronoun: **Ciò non ha senso**.",
     "example_sentence_ids": "S91003;S91308;S91034",
     "conjugation_lemma": "",
     "status": "live",
@@ -2191,7 +2191,7 @@
   },
   {
     "unit_id": "U93",
-    "rule": "Words of study and culture: la ricerca (research), il programma, il livello, la prova (test), la conoscenza (knowledge), la cultura, l'autore, la serie (a TV series, the same in the plural). Fare una ricerca is to do some research. Il consiglio is advice (and a council); l'istituto and l'associazione are places and groups of learning.",
+    "rule": "Words of study and culture: **la ricerca** (research), **il programma**, **il livello**, **la prova** (test), **la conoscenza** (knowledge), **la cultura**, **l'autore**, **la serie** (a TV series, the same in the plural).\n\n**Fare una ricerca** is to do some research.\n\n**Il consiglio** is advice (and a council); **l'istituto** and **l'associazione** are places and groups of learning.",
     "example_sentence_ids": "S93007;S93302;S93014",
     "conjugation_lemma": "",
     "status": "live",

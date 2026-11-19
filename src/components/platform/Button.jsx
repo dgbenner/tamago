@@ -1,6 +1,6 @@
 import { Button as KButton } from 'konsta/react'
 
-// Button in the iOS and Android styles: Konsta UI's Button, in Tamago's colours.
+// Button in the iOS and Android styles: Konsta UI's Button, in Tamago's colors.
 // iOS: a capsule, 17pt semibold. Android: Material 3's fully rounded button with the touch ripple.
 const fill = (bg, text) => ({ fillBgIos: bg, fillBgMaterial: bg, fillTextIos: text, fillTextMaterial: text, fillTouchRipple: 'touch-ripple-black', disabledBg: 'bg-line', disabledText: 'text-muted' })
 const KIND = {

@@ -1,6 +1,6 @@
 import { sb } from 'storybook/test'
 import './platform.css' // the iOS and Android styles; never loaded by the app. First, so its layer order holds
-import '../src/index.css' // the app's own styles and colours, so components look as they do in the app
+import '../src/index.css' // the app's own styles and colors, so components look as they do in the app
 import './preview.css'
 import '@fontsource-variable/roboto' // Android's typeface, served from this project (no outside request)
 import { App as KonstaApp } from 'konsta/react'
@@ -31,7 +31,7 @@ sb.mock(import('../src/lib/audio.js'), { spy: true })
 export default {
   parameters: {
     layout: 'fullscreen',
-    backgrounds: { disable: true }, // the page colour comes from src/index.css (--bg)
+    backgrounds: { disable: true }, // the page color comes from src/index.css (--bg)
     viewport: {
       options: {
         phone: { name: 'Phone (390 px)', styles: { width: '390px', height: '844px' }, type: 'mobile' },
