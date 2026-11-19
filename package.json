@@ -16,13 +16,18 @@
     "prepare": "git config core.hooksPath .githooks || true",
     "bump": "node scripts/bump-version.mjs",
     "secrets": "gitleaks git . --config .gitleaks.toml --redact --no-banner",
-    "test:fast": "node scripts/test-fast.mjs"
+    "test:fast": "node scripts/test-fast.mjs",
+    "storybook": "storybook dev -p 6006 --no-open",
+    "build-storybook": "storybook build"
   },
   "type": "module",
   "devDependencies": {
+    "@storybook/addon-docs": "^10.6.7",
+    "@storybook/react-vite": "^10.6.7",
     "@tailwindcss/vite": "^4.3.5",
     "@vitejs/plugin-react": "^6.2.1",
     "playwright": "1.64.0",
+    "storybook": "^10.6.7",
     "tailwindcss": "^4.3.5",
     "vite": "^8.3.6",
     "xlsx": "^0.18.5"

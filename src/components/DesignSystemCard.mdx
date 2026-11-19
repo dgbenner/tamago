@@ -1,0 +1,31 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+<Meta title="Design System Card" />
+
+# Design System Card
+
+## What This Is
+
+A demonstration of a design system for Tamago. It lives on its own branch, `design-system`, and is not part of the live app. Nothing here is merged into the app without Dan's say.
+
+A design system is a shared set of parts (buttons, lists, sheets) with one agreed look, each shown on its own with every state it can be in. This Storybook is the place to see those parts outside the app.
+
+## The Plan
+
+- **Now: Tamago's current look.** Three components lifted out of the app's big files, looking and behaving exactly as they do in the app: ChoiceList, AnswerBar and Sheet.
+- **Later: iOS and Android styles.** The same components in the native look of each platform, taken from Konsta UI. Konsta UI is not installed yet.
+- **Then: two screens.** The work ends with two whole screens built from these parts: the main page and a question page.
+
+## Where the Colors Come From
+
+Every color is defined once, in `src/index.css`, as a named value: `--bg` (page), `--surface` (cards and sheets), `--ink` (text), `--muted` (quiet text), `--line` (borders), `--accent` (yellow, the main button), `--green`, `--orange`, `--right` and `--wrong`.
+
+The same file holds a second set of values for dark. Components never name a color directly; they use the names, so switching between light and dark changes everything at once.
+
+## How to Use This Storybook
+
+- **Theme** (toolbar): Light or Dark.
+- **Size** (toolbar, the viewport button): Phone, 390 px wide, or Desktop, 1440 px wide.
+- **Sidebar**: each component, then one entry per state.
+
+The full list of components, with their settings and a usage example each, is in `COMPONENTS.md` at the top of the repository.

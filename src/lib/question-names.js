@@ -9,3 +9,6 @@ export const QUESTION_NAMES = {
   QT17: 'Write the Number', QT18: 'Type the Word', QT20: 'Listen and Understand', QT21: 'Conversation',
 }
 export const questionLabel = (type, lang) => `${type} · ${(QUESTION_NAMES[type] ?? type).replace('{lang}', lang)}`
+
+// The question types that are heard, not read (Lesson.jsx and the answer bar).
+export const LISTENING = new Set(['QT04', 'QT07', 'QT11'])

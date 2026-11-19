@@ -1,0 +1,9 @@
+/* The app locks the page like a phone app (src/index.css: no page scroll, no text selection). Stories keep that;
+   documentation pages are for reading, so they scroll and their text can be selected. */
+html:has(#storybook-docs:not([hidden])),
+html:has(#storybook-docs:not([hidden])) body {
+  height: auto;
+  overflow: auto;
+  -webkit-user-select: text;
+  user-select: text;
+}
