@@ -2,10 +2,21 @@
 
 The parts of Tamago's design system, on the `design-system` branch (a demonstration; not in the live app). Each one is shown with all its states in Storybook: `npm run storybook`, then http://localhost:6006/.
 
+## Styles
+
+Every component can be drawn in three styles: **Tamago** (the app's own, and the only one the app uses), **iOS** and **Android**. In Storybook, pick one with the Style switch in the toolbar. Each entry below has a "Styles" line saying how its iOS and Android versions are made: either a Konsta UI component given Tamago's colors (`src/components/platform/`), or Tamago's own component adapted by a stylesheet (`.storybook/platform.css`). Usage is the same in every style: the component reads the style from `StyleProvider` (`src/components/style/StyleContext.jsx`); with no provider, as in the app, it is Tamago.
+
+```jsx
+<StyleProvider style="ios" parts={platformParts}>
+  <Button kind="main">Check</Button>
+</StyleProvider>
+```
+
 ## ChoiceList
 
 - **File:** `src/components/ChoiceList.jsx`
 - **What it's for:** a column of answer choices in a lesson, where one tap picks and the pick is checked at once (Pick the Meaning, Fill the Blank).
+- **Styles:** Konsta UI's List on iOS and Android (rows in one block; a green check or "Incorrect" at the row's end).
 - **Main settings:**
   - `choices`: the texts to show, in order.
   - `answer`: the right choice.
@@ -29,6 +40,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/AnswerBar.jsx`
 - **What it's for:** the bar pinned to the bottom of a lesson once a question is answered. It gives the verdict ("Right!" or "Incorrect"), the translation or the right answer, notes on accents and capitals, and the Continue button.
+- **Styles:** Tamago's own, adapted (iOS: translucent bar, thin edge; Android: rounded top corners and a shadow). Its Continue button is the platform's Button.
 - **Main settings:**
   - `q`: the question (its type, the sentence in both languages, the answer shown).
   - `result`: how the answer went (`correct`, what the learner `given`, flags such as `accent` or `typo`).
@@ -53,6 +65,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/Sheet.jsx`
 - **What it's for:** details shown over the page: a bottom sheet on a phone, a centered pop-up from 1024 px wide. It dims the page behind, keeps keyboard focus inside, and closes on Escape or a tap outside. SheetHead is its top row: a small line above the title, the title, and a close button.
+- **Styles:** Konsta UI's Sheet on phones and Popup on desktop; SheetHead is Tamago's own, adapted. The keyboard behaviour (`useSheetFocus`) is shared by all three.
 - **Main settings:**
   - Sheet `onClose()`: called by Escape or a tap outside.
   - Sheet `children`: what goes inside, starting with a SheetHead.
@@ -73,6 +86,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/Button.jsx`
 - **What it's for:** the app's buttons by kind, so the look is chosen by one word instead of a class name.
+- **Styles:** Konsta UI's Button on iOS (capsule) and Android (fully rounded, ripple), in Tamago's yellow and green.
 - **Main settings:**
   - `kind`: `main` (yellow, the main action: Check, Done, Start Lesson), `continue` (green: Continue), `outline` (outlined), `link` (a quiet text link: Back, Slow, Can't Listen Now). Each maps to one of the app's classes (`btn-submit`, `btn-primary`, `btn-secondary`, `btn-tertiary`), which keep their names.
   - `className`: extra layout classes, such as `w-full`.
@@ -87,6 +101,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/ProgressBar.jsx`
 - **What it's for:** the green bar at the top of a lesson. The fill slides to each new value.
+- **Styles:** Konsta UI's Progressbar on iOS and Android, in Tamago's green.
 - **Main settings:**
   - `value`: how far along, from 0 to 1.
   - `label`: the name read by screen readers (default "Lesson progress").
@@ -99,6 +114,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/QuestionHeading.jsx`
 - **What it's for:** the text of a question's heading ("Translate", "Pick the Meaning"). From Part 3 it is in the course language; a tap shows the English beside it.
+- **Styles:** Tamago's own, adapted (iOS: 22pt bold; Android: 22sp regular).
 - **Main settings:**
   - `english`: the heading in English.
   - `part`: the part of the course the question belongs to; decides the language.
@@ -111,6 +127,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/AudioHelp.jsx`
 - **What it's for:** the play button on every listening question. After the first replay, two text links appear beside it: Slow and Show Words.
+- **Styles:** Tamago's own, adapted (iOS: round borderless button; Android: 16dp corners with a shadow). Slow and Show Words are the platform's text buttons.
 - **Main settings:**
   - `audio`: what to play (a recording, or text for the device voice).
   - `words`: what to show when Show Words is tapped.
@@ -127,6 +144,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/SentenceText.jsx`
 - **What it's for:** FrenchText is the sentence in the course language, each word tappable for its meaning. FirstSight is the line under it that gives a new word's meaning the first time it appears.
+- **Styles:** Tamago's own, adapted (the hint is a popover on iOS and Material's small tooltip on Android).
 - **Main settings:**
   - `q`: the question; its `segments` are the words, each with its hint.
   - `newWords`: the ids of words new in this lesson; they get an orange dot.
@@ -144,6 +162,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/CircleNode.jsx`
 - **What it's for:** a lesson circle on the main page: the sushi on a disc, a ring that fills as lessons are done, and the title.
+- **Styles:** Tamago's own, adapted (title type and press feedback; the disc, ring and sushi are the same everywhere).
 - **Main settings:**
   - `title`, `icon`: the name and the sushi picture.
   - `lessonsDone`, `lessonsTotal`: how full the ring is. Equal means finished.
@@ -161,6 +180,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/ToolTile.jsx`
 - **What it's for:** one tool on the main page (Glossary, Verbs, Progress). ToolPill is the phone shape, a pill in a sideways strip. ToolCard is the wide-screen shape, a card with a line of description.
+- **Styles:** ToolPill is Konsta UI's Chip on iOS and Android; ToolCard is Tamago's own, adapted.
 - **Main settings:**
   - `tool`: `{ id, label, about, onOpen, quiet }`. `id` picks the icon; `quiet` is Developer's dashed, muted look.
 
@@ -173,6 +193,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/FlagRow.jsx`
 - **What it's for:** the grid of course flags, on the opening screen and in Settings. Courses not ready yet are faded and say "Coming Soon" when tapped.
+- **Styles:** Tamago's own, adapted (the running course: an outline on iOS, a tinted background on Android).
 - **Main settings:**
   - `size`: `md` (Settings; the running course is outlined) or `lg` (the opening screen).
   - `onPick(courseId)`: called with the chosen course. Without it, a tap switches course and reloads the app.
@@ -185,6 +206,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/Logo.jsx`
 - **What it's for:** Logo is the full logo, the three-line wordmark with the sushi in front. LogoInline is the main page's header wordmark, one yellow line. SushiMark is the sushi picture alone.
+- **Styles:** The same in every style; it is the brand.
 - **Main settings:**
   - `className` on LogoInline and SushiMark, for size and position. Logo takes none.
 
@@ -198,6 +220,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/LevelLine.jsx`
 - **What it's for:** the thin line across the tree that names the level reached ("Early A1"). A list item, because the tree is a list.
+- **Styles:** Tamago's own, adapted (hairline and small capitals on iOS; 1dp line and a medium label on Android).
 - **Main settings:**
   - `label`: the level's name.
 
@@ -209,6 +232,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/components/Toast.jsx`
 - **What it's for:** a short message that slides down from the top, holds about 3 seconds and leaves by itself.
+- **Styles:** Konsta UI's Notification on iOS (a banner from the top with the sushi icon) and Konsta UI's Toast on Android (a snackbar at the bottom).
 - **Main settings:**
   - `line`: `{ id, kind, text }`, or `null` for none. `kind` is `info`, `success` or `pass` (a passed lesson: green and larger); `warning` and `error` are styled but not used in the app yet. A new `id` plays it again.
   - `onGone()`: called when it has left.
@@ -221,6 +245,7 @@ The parts of Tamago's design system, on the `design-system` branch (a demonstrat
 
 - **File:** `src/screens/icons.jsx` (not moved; 28 files import it)
 - **What it's for:** every icon in the app, 21 in all, drawn as lines in the text's color. Storybook's Icons page shows each with its name.
+- **Styles:** The same in every style.
 - **Main settings:** none, except `IconSpeaker playing` and `IconMic live`, which animate.
 
 ```jsx
@@ -246,3 +271,6 @@ Places where the app builds something close to a component here, on its own. Can
 - **Colors written straight into the code** (see Storybook's Colors page): the passed-lesson toast's green `#15803d` and edge `#116b33`, and the points chip's blue `#1f6dfb`.
 - **A dark-mode gap in the tokens.** `--electric` has a dark value (`#5c9bff`) only when the device is dark; choosing Dark in Settings keeps the light blue `#1f6dfb`. The Colors page shows it as "same as light".
 - **Two toast kinds are not used in the app yet.** `warning` and `error` are styled in `src/index.css`, but the app only sends `info`, `success` and `pass`. Kept in the library and labeled (Dan, 2026-11-19).
+- **The Sheet's two platform shapes are chosen in code.** Tamago's Sheet switches from bottom sheet to pop-up with CSS alone at 1024px; the iOS and Android version picks Konsta's Sheet or Popup by measuring the window. Two mechanisms for one rule.
+- **A right answer is marked two ways.** Tamago's ChoiceList shows it with a green edge and no icon; the iOS and Android lists add a small green check drawn inside `src/components/platform/ChoiceList.jsx`. The check is not in `icons.jsx`.
+- **Style hooks.** The adapted components are found by the stylesheet through `data-ds` attributes (sentence, first-sight, level-line, flag-row, tool-card, sheet-head) and a few existing class names. One naming scheme for all of them would be tidier.

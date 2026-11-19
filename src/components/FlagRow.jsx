@@ -13,7 +13,7 @@ export function FlagRow({ size = 'md', onPick }) {
   const px = size === 'lg' ? 'max-w-16 [@media(max-height:760px)]:max-w-12 lg:max-w-20' : 'max-w-14' // short phones (iPhone SE): smaller, so all four rows fit
   const gap = size === 'lg' ? 'gap-x-0.5 gap-y-1 lg:gap-y-2' : 'gap-x-2 gap-y-3 lg:gap-x-1' // the opening screen's flags sit close together (Dan's design lab, 2026-11-10)
   return (
-    <div className="flex flex-col items-center gap-2">
+    <div data-ds="flag-row" className="flex flex-col items-center gap-2">
       <ul className={`grid grid-cols-4 lg:grid-cols-5 items-start justify-center ${gap}`}>
         {BY_NAME.map((c) => {
           const current = c.id === course.id

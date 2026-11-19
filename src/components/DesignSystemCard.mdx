@@ -12,14 +12,15 @@ A design system is a shared set of parts (buttons, lists, sheets) with one agree
 
 ## The Plan
 
-- **Now: Tamago's current look.** The first set of components lifted out of the app's big files, looking and behaving exactly as they do in the app. This step is done; the list is below.
-- **Later: iOS and Android styles.** The same components in the native look of each platform, taken from Konsta UI. Konsta UI is not installed yet.
-- **Then: two screens.** The work ends with two whole screens built from these parts: the main page and a question page.
+- **Done: Tamago's current look.** The first set of components lifted out of the app's big files, looking and behaving exactly as they do in the app.
+- **Done: iOS and Android styles.** Every component can also be drawn the iPhone way or the Android way, using Konsta UI where it has a matching control. Switch with **Style** in the toolbar; the **Styles** page explains how each one is made.
+- **Next: two screens.** The work ends with two whole screens built from these parts: the main page and a question page.
 
 ## What's in the Library
 
 **Foundations** (the raw materials every part is made from)
 
+- **Styles**: Tamago, iOS and Android, and how each component is made in each.
 - **Colors**: every named color, in light and dark, and where it's used.
 - **Type and Spacing**: the text sizes, gaps, corners and line widths the app uses.
 - **Icons**: all 21 icons with their names.
@@ -55,6 +56,7 @@ Every color is defined once, in `src/index.css`, as a named value, and the same 
 
 ## How to Use This Storybook
 
+- **Style** (toolbar): Tamago, iOS or Android.
 - **Theme** (toolbar): Light or Dark.
 - **Size** (toolbar, the viewport button): Phone, 390 px wide, or Desktop, 1440 px wide.
 - **Sidebar**: each component, then one entry per state.

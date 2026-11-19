@@ -1,0 +1,76 @@
+import { Meta } from '@storybook/addon-docs/blocks'
+
+<Meta title="Styles" />
+
+# Styles
+
+Every component in the library can be drawn three ways. Pick one with the **Style** switch in the toolbar; it works together with Theme (light, dark) and size (phone, desktop).
+
+- **Tamago**: the app's own look, exactly as it is today.
+- **iOS**: the conventions of an iPhone app.
+- **Android**: the conventions of an Android app (Material Design 3).
+
+**What stays the same in every style:** Tamago's colors, the sushi art, the logo, the flags, the icons, the wording, and what each component does. **What the platform decides:** the controls, the corners, the type and the motion.
+
+The iOS and Android styles exist only in this Storybook. The app never loads them, and the Tamago style is untouched: 244 before-and-after pictures of the Tamago stories matched exactly.
+
+## How Each Style Is Made
+
+There are two ways a component gets its iOS and Android look:
+
+- **A Konsta UI component.** Konsta UI is a library of ready-made iOS and Android controls. Where it has a match, the platform version is Konsta's control, given Tamago's colors.
+- **Tamago's own, adapted.** Where Konsta has no match, the component stays Tamago's and a stylesheet changes its shapes, spacing, type and press behaviour for each platform.
+
+| Component | Tamago | iOS | Android |
+| --- | --- | --- | --- |
+| Button | Tamago's own | **Konsta Button**: a capsule, 50pt tall, 17pt semibold; dims when pressed | **Konsta Button**: fully rounded, 14sp medium; ripple when pressed |
+| ProgressBar | Tamago's own | **Konsta Progressbar**: 6px rounded track | **Konsta Progressbar**: 4px track with a stop dot at the end |
+| ChoiceList | Tamago's own | **Konsta List**: one grouped block, rows parted by hairlines, 44pt rows; a green check or red "Incorrect" at the row's end | **Konsta List**: 56dp rows in an outlined block, ripple; the same check and "Incorrect" |
+| Sheet | Tamago's own | **Konsta Sheet** on phones (large top corners, a grabber); **Konsta Popup** on desktop | **Konsta Sheet** on phones (28dp top corners, a drag handle); **Konsta Popup** on desktop |
+| SheetHead | Tamago's own | Adapted: 20pt bold title, a small round grey close button | Adapted: 24sp regular title, a round close button with a pressed layer |
+| Toast | Tamago's own | **Konsta Notification**: a translucent banner from the top with the sushi icon | **Konsta Toast**: Material's snackbar at the bottom, 4dp corners |
+| ToolTile, pill | Tamago's own | **Konsta Chip**: a filled capsule | **Konsta Chip**: an outlined chip with 8dp corners |
+| ToolTile, card | Tamago's own | Adapted: borderless, 20pt corners, 17pt title | Adapted: outlined card, 12dp corners, 16sp medium title |
+| AnswerBar | Tamago's own | Adapted: translucent bar with a thin colored edge; its Continue is the iOS Button | Adapted: 28dp top corners and a shadow, no edge; its Continue is the Android Button |
+| QuestionHeading | Tamago's own | Adapted: 22pt bold (Title 2) | Adapted: 22sp regular (Title Large) |
+| AudioHelp | Tamago's own | Adapted: a round, borderless play button; Slow and Show Words are iOS text buttons | Adapted: 16dp corners, a soft shadow that deepens when pressed; Material text buttons |
+| SentenceText | Tamago's own | Adapted: the word hint is a soft, rounded popover | Adapted: the word hint is Material's small dark tooltip, 4dp corners |
+| CircleNode | Tamago's own | Adapted: 15pt title; the circle dims when pressed | Adapted: 14sp medium title; a soft ring spreads when pressed |
+| FlagRow | Tamago's own | Adapted: the running course keeps its orange outline, a little thinner | Adapted: the running course gets an orange-tinted background instead of an outline |
+| LevelLine | Tamago's own | Adapted: a hairline, small capitals, no italics | Adapted: a 1dp line, 12sp medium, no italics |
+| Logo | Tamago's own | Unchanged: it is the brand | Unchanged: it is the brand |
+| Icons | Tamago's own | Unchanged (see below) | Unchanged (see below) |
+
+## iOS Conventions Followed
+
+- **Type:** the system font (San Francisco), with Apple's text styles: 17pt body, 22pt bold titles, 13pt captions, slightly tightened letter spacing.
+- **Shapes:** capsule buttons, large rounded corners on sheets and grouped lists, hairline (half-pixel) dividers.
+- **Tap targets:** at least 44pt tall.
+- **Pressed:** the control dims; nothing ripples or grows.
+- **Sheets:** rise from the bottom with a grabber at the top.
+- **Messages:** a translucent banner drops from the top. iOS has no toast.
+- **Lists:** one rounded block with rows inside, rather than separate boxes.
+- **Motion:** quick and springy.
+
+## Android Conventions Followed (Material Design 3)
+
+- **Type:** Roboto, with Material's type scale: 22sp titles, 16sp body, 14sp medium labels, slightly opened letter spacing.
+- **Shapes:** fully rounded buttons, 8dp chips, 12dp cards, 28dp top corners on bottom sheets.
+- **Tap targets:** at least 48dp; list rows 56dp.
+- **Pressed:** a ripple or a soft tinted layer spreads from the touch.
+- **Sheets:** a bottom sheet with a drag handle.
+- **Messages:** a snackbar at the bottom of the screen.
+- **Depth:** shadows mark what sits above the page, instead of borders.
+- **Motion:** Material's "emphasized" curve: fast out, gentle in.
+
+## What Was Kept on Purpose
+
+- **Colors.** Yellow stays the main action and green stays Continue on both platforms, even though iOS and Android apps usually have one tint color.
+- **Icons.** Tamago's line icons are used in all three styles. Apple's icon set (SF Symbols) may not be used outside Apple's platforms, and Google's would be a second icon family to maintain.
+- **Roboto** is served from this project for the Android style; nothing is fetched from outside.
+
+## Where to Look in the Code
+
+- `src/components/style/StyleContext.jsx`: holds the current style. The app never sets it, so it is always Tamago.
+- `src/components/platform/`: the Konsta UI versions (Button, ChoiceList, ProgressBar, Sheet, Toast, ToolPill).
+- `.storybook/platform.css`: Konsta UI's setup and the adaptations for Tamago's own components.

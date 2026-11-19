@@ -1,3 +1,4 @@
+import { usePlatformPart } from './style/StyleContext.jsx'
 import { IconBars, IconBook, IconCode, IconComment, IconRepeat, IconStudy, IconVerb } from '../screens/icons.jsx'
 
 // One tool on the main page, in its two shapes. Lifted from Home.jsx unchanged (design-system branch), where each
@@ -6,7 +7,7 @@ import { IconBars, IconBook, IconCode, IconComment, IconRepeat, IconStudy, IconV
 export const TOOL_ICONS = { glossary: IconBook, verbs: IconVerb, study: IconStudy, progress: IconBars, practice: IconRepeat, talk: IconComment, developer: IconCode }
 
 // On phones: a pill in the sideways strip, the icon beside the label.
-export function ToolPill({ tool: t }) {
+function TamagoToolPill({ tool: t }) {
   const Icon = TOOL_ICONS[t.id]
   return (
     // Developer is quieter: dashed outline, no fill, muted text; not a learning tool.
@@ -21,7 +22,7 @@ export function ToolPill({ tool: t }) {
 export function ToolCard({ tool: t }) {
   const Icon = TOOL_ICONS[t.id]
   return (
-    <button onClick={t.onOpen} className={`@container flex items-start gap-3 rounded-xl border-2 p-3 text-left hover:border-muted ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface'}`}>
+    <button onClick={t.onOpen} data-ds="tool-card" className={`@container flex items-start gap-3 rounded-xl border-2 p-3 text-left hover:border-muted ${t.quiet ? 'border-dashed border-field bg-transparent text-muted' : 'border-line bg-surface'}`}>
       <span className={`mt-0.5 shrink-0 [&_svg]:size-6 ${t.quiet ? 'opacity-50' : ''}`}><Icon /></span>
       {/* Developer: tiny type at half strength, like the carousel's dev jump. */}
       <span className="flex flex-col gap-0.5">
@@ -30,4 +31,9 @@ export function ToolCard({ tool: t }) {
       </span>
     </button>
   )
+}
+
+export function ToolPill(props) {
+  const Platform = usePlatformPart('ToolPill')
+  return Platform ? <Platform {...props} /> : <TamagoToolPill {...props} />
 }

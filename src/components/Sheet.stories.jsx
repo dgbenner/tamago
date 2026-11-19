@@ -1,3 +1,4 @@
+import Button from './Button.jsx'
 import { Sheet, SheetHead } from './Sheet.jsx'
 
 // A sheet as Home.jsx builds one: the head, some text, a main button and a Back link.
@@ -6,8 +7,8 @@ const Example = ({ onClose, onStart }) => (
     <SheetHead kicker="Grammar Note" title="At the Café" onClose={onClose} />
     <p className="mt-2 text-muted">Ordering politely with “je voudrais” and “s’il vous plaît”.</p>
     <div className="mt-5 flex flex-col items-center gap-1">
-      <button onClick={onStart} className="btn-submit w-full">Start Lesson</button>
-      <button onClick={onClose} className="btn-tertiary">Back</button>
+      <Button kind="main" onClick={onStart} className="w-full">Start Lesson</Button>
+      <Button kind="link" onClick={onClose}>Back</Button>
     </div>
   </Sheet>
 )

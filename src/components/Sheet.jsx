@@ -1,12 +1,12 @@
 import { createContext, useContext, useEffect, useId, useRef } from 'react'
 import { IconClose } from '../screens/icons.jsx'
+import { usePlatformPart } from './style/StyleContext.jsx'
 
 // Lifted from Home.jsx unchanged (design-system branch).
 // A bottom sheet on a phone (a centred pop-up on wider screens). A modal dialog (WCAG 2.1.2, 2.4.3, 4.1.2): named by
 // its heading, focus moves into it, Tab stays inside, Escape closes it, and focus goes back to what opened it.
-export function Sheet({ onClose, children }) {
-  const ref = useRef(null)
-  const titleId = useId()
+// The modal behaviour, shared by every style's sheet: focus moves in, Tab stays inside, Escape closes, focus returns.
+export function useSheetFocus(ref, onClose) {
   useEffect(() => {
     const opener = document.activeElement
     const box = ref.current
@@ -25,6 +25,12 @@ export function Sheet({ onClose, children }) {
     document.addEventListener('keydown', onKey)
     return () => { document.removeEventListener('keydown', onKey); if (opener?.isConnected) opener.focus({ preventScroll: true }) }
   }, [])
+}
+
+function TamagoSheet({ onClose, children }) {
+  const ref = useRef(null)
+  const titleId = useId()
+  useSheetFocus(ref, onClose)
   return (
     <div className="sheet-backdrop" onClick={onClose}>
       <section ref={ref} role="dialog" aria-modal="true" aria-labelledby={titleId} className="sheet" onClick={(e) => e.stopPropagation()}>
@@ -33,11 +39,15 @@ export function Sheet({ onClose, children }) {
     </div>
   )
 }
-const SheetTitle = createContext(null)
+export function Sheet(props) {
+  const Platform = usePlatformPart('Sheet')
+  return Platform ? <Platform {...props} /> : <TamagoSheet {...props} />
+}
+export const SheetTitle = createContext(null)
 export function SheetHead({ kicker, title, onClose }) {
   const id = useContext(SheetTitle)
   return (
-    <div className="flex items-start justify-between gap-3">
+    <div data-ds="sheet-head" className="flex items-start justify-between gap-3">
       <div>
         {kicker && <p className="text-sm text-muted">{kicker}</p>}
         <h2 id={id} className="text-xl font-semibold">{title}</h2>

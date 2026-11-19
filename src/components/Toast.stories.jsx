@@ -29,6 +29,7 @@ export const TryIt = {
 // Every kind, held still for comparing. In the app only one shows at a time and it leaves by itself; the stillness
 // here is for this page only.
 export const EveryKindHeldStill = {
+  name: 'Every Kind, Held Still (Tamago Style Only)',
   render: () => (
     <div className="flex flex-col items-center gap-3 p-6">
       <style>{'.toast { animation: none !important; }'}</style>

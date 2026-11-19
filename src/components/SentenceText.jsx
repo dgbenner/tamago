@@ -7,7 +7,7 @@ import { TL } from '../lib/course.js'
 export function FrenchText({ q, newWords, onHint, blankIndex = null, filled = null, markNewOnly = false }) {
   const [open, setOpen] = useState(null)
   return (
-    <p lang={TL} className="text-2xl leading-relaxed">
+    <p lang={TL} data-ds="sentence" className="text-2xl leading-relaxed">
       {q.segments.map((seg, i) => {
         if (i === blankIndex) {
           return <span key={i} className="mx-1 inline-block min-w-16 border-b-4 border-ink px-1 text-center font-semibold">{filled ?? ' '}</span>
@@ -35,5 +35,5 @@ export function FrenchText({ q, newWords, onHint, blankIndex = null, filled = nu
 export function FirstSight({ q, newWords, except = null }) {
   const lines = (q.segments ?? []).filter((seg, i) => i !== except && seg.word_id && newWords.has(seg.word_id) && seg.hint)
   if (lines.length === 0) return null
-  return <p className="text-sm text-muted">{lines.map((seg) => `${seg.text.toLowerCase()} = ${seg.hint}`).join(', ')}</p>
+  return <p data-ds="first-sight" className="text-sm text-muted">{lines.map((seg) => `${seg.text.toLowerCase()} = ${seg.hint}`).join(', ')}</p>
 }
