@@ -63,6 +63,16 @@ A design system is a shared set of parts (buttons, lists, sheets) with one agree
 
 Stories are silent: nothing plays sound or calls the server.
 
+## Proposed, Not in the App
+
+Design changes tried in this Storybook that the live app does not have. They live on the `design-system` branch only; the app adopted the components with no change to how it looks.
+
+- **Circle icons as ears, on phones.** Under 1024 px the info and grammar-note icons sit above the circle, info at the upper left and the note at the upper right, about 20 px out from the ring, instead of stacked at the circle's right.
+- **Smaller circle icons, on phones.** Each is drawn at about 25 px (34 px in the app), inside a tap area about 34 px wide and 44 px tall.
+- **Quieter circle icons, on phones.** They rest at 28% strength (40% in the app) and go to full strength under a finger.
+- **The note icon drawn 5% smaller than the info icon, on phones**, so the two look the same size.
+- **The iOS and Android styles** as a whole, including the bottom bar for tools and the floating Next Lesson button. These are Storybook only.
+
 ## Where the Colors Come From
 
 Every color is defined once, in `src/index.css`, as a named value, and the same file holds a second set for dark. Components never name a color directly; they use the names, so switching between light and dark changes everything at once. The **Colors** page lists them all.
