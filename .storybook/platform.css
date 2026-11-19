@@ -112,8 +112,8 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 .tg-chip::after { content: ''; position: absolute; inset-inline: 0; }
 .k-ios .tg-chip::after { inset-block: -6px; }
 .k-material .tg-chip::after { inset-block: -8px; }
-.k-ios nav[aria-label='Tools'] { padding-block: 6px; margin-block: -6px; }
-.k-material nav[aria-label='Tools'] { padding-block: 8px; margin-block: -8px; }
+.k-ios nav[aria-label='Tools']:not(.tg-tabbar) { padding-block: 6px; margin-block: -6px; }
+.k-material nav[aria-label='Tools']:not(.tg-tabbar) { padding-block: 8px; margin-block: -8px; }
 .tg-chip-icon svg { width: 18px; height: 18px; }
 .k-ios .tg-chip { height: 2rem; border-color: transparent; background: var(--line); font-size: 15px; padding-inline: 0.75rem; }
 .k-ios .tg-chip .tg-chip-icon { margin-inline-start: 0.5rem; display: block; }
@@ -231,7 +231,8 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 .tg-bar-md { background: color-mix(in srgb, var(--surface) 92%, var(--green)); }
 .tg-tab { color: var(--muted); }
 .tg-tab-on { color: var(--ink); }
-.k-ios .tg-tab-on { color: var(--green); }
+/* iOS: the pill marks the current tab, so its label keeps the ink colour and stays readable on the pill in dark. */
+.k-ios .tg-tab-on { color: var(--ink); font-weight: 600; }
 .tg-tab-pill { background: color-mix(in srgb, var(--accent) 45%, var(--surface)); }
 .tg-tab-sushi { width: 1.75rem; }
 
@@ -246,6 +247,16 @@ body { -webkit-font-smoothing: auto; -moz-osx-font-smoothing: auto; }
 .tg-tabbar { position: fixed; inset-inline: 0; bottom: 0; z-index: 20; }
 /* Five places share the bar's width equally (Konsta UI gives each a fixed width, which overflows a phone at five). */
 .tg-tabbar .k-link { flex: 1 1 0; min-width: 0; width: auto; padding-inline: 0; cursor: pointer; font: inherit; background: none; }
+/* The pill that marks the current place ("Learn"), on both platforms, with room above and below the sushi (Dan,
+   2026-11-19). Android: Material's 64x32 indicator behind the icon, in a bar tall enough to leave space over it.
+   iOS, which otherwise marks the current tab by colour alone: a capsule behind the icon and its label together, as
+   iOS tab bars highlight the selected tab. */
+.tg-tabbar .k-link { align-self: stretch; height: auto; position: relative; z-index: 0; }
+.tg-tabbar .k-tabbar-link-icon { flex: none; }
+.k-material .tg-tabbar .k-tabbar-link-icon { width: 4rem; height: 2rem; }
+.k-material .tg-tabbar .k-link > span { height: 100%; box-sizing: border-box; padding-block: 0.75rem 1rem; justify-content: flex-start; }
+.k-material .tg-tabbar .k-toolbar > div:last-of-type { height: 5rem; align-items: stretch; } /* Material's 80dp navigation bar */
+.k-ios .tg-tabbar .k-link[aria-current='page']::before { content: ''; position: absolute; inset: 5px -6px; border-radius: 9999px; background: color-mix(in srgb, var(--accent) 45%, var(--surface)); z-index: -1; }
 .tg-tabbar .k-link:focus-visible { outline: 3px solid var(--focus); outline-offset: -3px; border-radius: 12px; }
 .k-ios .tg-tabbar .k-toolbar > div:last-of-type { background: color-mix(in srgb, var(--surface) 80%, transparent); -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px); border-radius: 9999px; padding-inline: 0.75rem; box-shadow: 0 0 0 0.5px rgb(0 0 0 / 0.1), 0 8px 28px rgb(0 0 0 / 0.14); }
 .k-material .tg-tabbar .k-tabbar-link-icon svg { width: 24px; height: 24px; }
