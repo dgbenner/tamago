@@ -15,7 +15,7 @@ cd "$(git rev-parse --show-toplevel)"
 command -v gh >/dev/null || { echo "Stopped: needs the GitHub CLI (gh), signed in."; exit 1; }
 command -v gitleaks >/dev/null || { echo "Stopped: needs gitleaks (brew install gitleaks)."; exit 1; }
 
-echo "1/5 Building the static Storybook"
+echo "1/5 Building the Storybook pages"
 rm -rf "$OUT"
 STORYBOOK_DISABLE_TELEMETRY=1 npx storybook build -o "$OUT" >/dev/null
 touch "$OUT/.nojekyll" # GitHub Pages serves the files as they are
