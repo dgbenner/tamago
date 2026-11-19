@@ -95,7 +95,7 @@ function CircleButton({ title, icon, locked = false, early = false, lessonsDone 
   const opacity = state === 'finished' ? ringOpacity(recall) : 1
   return (
     <button {...test} onClick={() => { if (swiped.current) { swiped.current = false; return } onPick() }} aria-label={`${marker ? `${MARKERS[marker]} ` : ''}${title}. ${caption ?? circleLine({ locked, lessonsDone, lessonsTotal, recall })}${early ? ' Ahead of where you are; open it any time.' : ''}`}
-      className={`circle-node flex w-32 min-w-0 shrink flex-col items-center gap-1.5 ${early ? 'circle-early' : ''}`} data-state={state} data-early={early ? '' : undefined}>
+      className={`circle-node flex w-32 min-w-0 shrink flex-col items-center gap-1.5 ${early ? 'circle-early' : ''}`} data-state={state} data-early={early ? '' : undefined} data-marker={marker ? '' : undefined}>
       {/* The marker sits above the circle and keeps its space on every circle, so rows line up. */}
       <span className={`flex h-5 items-center gap-1 text-xs font-semibold text-ring ${marker ? '' : 'invisible'}`} aria-hidden="true">
         <span className="size-2 rounded-full bg-ring" />{MARKERS[marker] ?? MARKERS.start}

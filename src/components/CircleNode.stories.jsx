@@ -26,6 +26,9 @@ export const Faded = { args: { early: true } }
 
 // With the two small icons, About This Circle and the Grammar Note: above the circle like ears at phone size (info
 // upper left, note upper right), beside it at desktop size.
+// The first circle, with its "Start Here" and both icons: the ears sit a little wider there, clear of the words.
+export const StartHereWithIcons = { args: { marker: 'start', title: 'Say Hi' }, argTypes: { onInfo: { action: 'info' }, onNote: { action: 'note' } } }
+
 export const WithInfoAndNote = { args: { lessonsDone: 8 }, argTypes: { onInfo: { action: 'info' }, onNote: { action: 'note' } } }
 
 // A Brush-Up: a caption, a count of what waits inside, and no lesson ring.

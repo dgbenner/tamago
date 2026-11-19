@@ -36,8 +36,10 @@ export default function MainPage({ sheetFor = null, onOpen }) {
             ? <LevelLine key={i} label={r.level} />
             : (
               <li key={i} className="flex w-full justify-center gap-[min(4.9rem,6vw)]">
+                {/* Every sample circle has a grammar note, so every one shows both icons. In the app a circle shows the
+                    notebook only if it has a note. */}
                 {r.row.map((c) => <CircleNode key={c.id} title={c.title} icon={c.icon} lessonsDone={c.done} lessonsTotal={c.total} marker={null}
-                  onPick={() => onOpen?.(`Lesson: ${c.title}`)} onInfo={() => setOpen(c.id)} onNote={c.current ? () => onOpen?.(`Grammar Note: ${c.title}`) : null} />)}
+                  onPick={() => onOpen?.(`Lesson: ${c.title}`)} onInfo={() => setOpen(c.id)} onNote={() => onOpen?.(`Grammar Note: ${c.title}`)} />)}
               </li>
             )))}
         </ol>

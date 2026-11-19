@@ -169,7 +169,7 @@ Every component can be drawn in three styles: **Tamago** (the app's own, and the
   - `recall`: from 0 to 1; a finished ring fades as recall drops.
   - `early`: `true` for a circle ahead of the learner: faded, still tappable.
   - `marker`: `"start"` shows "Start Here" above the first circle.
-  - `onPick()`: called by a tap. `onInfo()`, `onNote()`: add the two small icons. On phones they sit above the circle like ears, info at the upper left and the grammar note at the upper right (Dan, 2026-11-19; this branch only, the live app still has them beside the circle). From 1024 px they sit beside the circle, as before.
+  - `onPick()`: called by a tap. `onInfo()`, `onNote()`: add the two small icons. On phones they sit above the circle like ears, info at the upper left and the grammar note at the upper right up and out from the ring with clear space between (Dan, 2026-11-19; this branch only, the live app still has them beside the circle). From 1024 px they sit beside the circle, as before. The notebook is drawn 5% smaller than the info icon at every size, so the two look the same size. A circle shows the notebook only when it is given `onNote`; in the app that is a circle with a grammar note.
   - `caption`, `badge`, `ring`: for a Brush-Up (a line under the title, a count, no ring).
 
 ```jsx
