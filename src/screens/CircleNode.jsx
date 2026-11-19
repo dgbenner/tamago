@@ -15,8 +15,9 @@ import { IconInfo, IconLock, IconNotebookPen } from './icons.jsx'
 const R = 45
 const LEN = 2 * Math.PI * R
 
-// Recall fading on the tree (Dan, 2026-11-16: off). On, a finished circle's ring fades as its recall drops and its line
-// adds "Recall 72%"; off, a finished circle always shows a full, solid ring and just "Finished". The memory schedule
+// Recall fading on the tree (Dan, 2026-11-16: off). On, a finished circle's ring fades as its recall drops and every
+// circle's line adds "Recall 72%"; off, a finished circle always shows a full, solid ring and just "Finished", and an
+// in-progress one just its lesson. The memory schedule
 // itself (src/lib/strength.js) keeps running either way: Brush-Up, reviews and Progress use it.
 export const RECALL_FADE = false
 // How strong a finished ring looks for a recall from 0 to 1: full at 90% and above, faint (0.25) at 50% and below.
@@ -37,7 +38,7 @@ export function circleLine({ locked, lessonsDone, lessonsTotal, recall }) {
   if (locked) return 'Locked'
   if (lessonsDone >= lessonsTotal) return !RECALL_FADE || recall == null ? 'Finished' : `Finished · Recall ${Math.round(recall * 100)}%`
   const parts = [lessonsDone === 0 ? 'Not started' : `Lesson ${lessonsDone + 1} of ${lessonsTotal}`]
-  if (lessonsDone > 0 && recall != null) parts.push(`Recall ${Math.round(recall * 100)}%`)
+  if (RECALL_FADE && lessonsDone > 0 && recall != null) parts.push(`Recall ${Math.round(recall * 100)}%`)
   return parts.join(' · ')
 }
 

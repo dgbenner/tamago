@@ -128,4 +128,5 @@ test('a finished circle shows a full ring and "Finished", whatever its recall', 
   assert.match(src, /export const RECALL_FADE = false/)
   assert.match(src, /ringOpacity = \(recall\) => \(!RECALL_FADE \|\| recall == null \? 1/)
   assert.match(src, /return !RECALL_FADE \|\| recall == null \? 'Finished'/)
+  assert.match(src, /if \(RECALL_FADE && lessonsDone > 0 && recall != null\) parts\.push/)
 })
