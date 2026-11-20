@@ -40,7 +40,7 @@ export const COURSES = {
   // Swedish (2026-11-19, branch lang/swedish): standard Swedish, du throughout (formal ni is archaic, kept out of
   // Part 1). Its folders: content-sv/, src/content-sv/, public/audio-sv/.
   sv: {
-    id: 'sv', name: 'Swedish', workbook: '_source/tamago-sv-data-v2.xlsx',
+    id: 'sv', name: 'Swedish', workbook: '_source/tamago-sv-data-v3.xlsx',
     tatoeba: 'swe', wiktionaryCode: 'sv', wiktionarySection: 'Swedish', linguaLibre: { qid: 'Q9027', iso: 'swe' }, wikidataLanguage: 'Q9027',
   },
 }
