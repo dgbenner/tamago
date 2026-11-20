@@ -30,6 +30,13 @@ export const EXAMS = {
     note: 'ACESSO is set in European Portuguese; Brazil\'s own exam, Celpe-Bras, has no A1 level. This course teaches Brazilian Portuguese.',
     samples: 'https://caple.letras.ulisboa.pt',
     format: 'Short texts to read and a form and a short message to write; then numbers, prices and short lines to listen to; then speaking.' },
+  // Dutch (2026-11-20): no general A1 exam like DELF or Goethe exists for Dutch (CNaVT starts at A2); the A1 exam is the
+  // Basic Civic Integration Exam Abroad (Dutch government, set at A1). Exam and link for Dan to confirm.
+  nl: { name: 'Basic Civic Integration Exam Abroad (A1)', body: 'Dutch government (inburgeren.nl)', official: 'https://www.inburgeren.nl/en/civic-integration-abroad/',
+    about: 'The Basic Civic Integration Exam Abroad is the Dutch government\'s exam at A1, taken before moving to the Netherlands. It tests speaking and reading Dutch, with a separate part on Dutch society.',
+    note: 'There is no general A1 Dutch exam for everyone; the CNaVT exams start at A2. This course practises the language parts only.',
+    samples: 'https://www.inburgeren.nl/en/civic-integration-abroad/',
+    format: 'Short lines to listen to and read; a form and a short message to write; then speaking.' },
 }
 
 export const PARTS = [

@@ -121,6 +121,13 @@ tables.words = raw('words').flatMap((w) => {
   return [{ ...filled, gloss_full: c.gloss_full, lemma_gloss: c.lemma_gloss, ...(c.lingua_libre ? { lingua_libre: c.lingua_libre } : {}) }]
 })
 
+// decisions.gender is additive only (2026-11-20): it fills a gender the workbook and Wiktionary left blank and never
+// replaces one they found, so a reviewer's pass can't silently overrule the pipeline.
+for (const [id, g] of Object.entries(decisions.gender ?? {})) {
+  const found = raw('words').find((x) => x.word_id === id)?.gender || wCheck.get(id)?.gender || ''
+  if (found && found !== g) bad.push(`${id} gender: decisions.gender "${g}" would replace "${found}"`)
+}
+
 // Answers: workbook rows, plus the en_to_fr rows the check generated.
 tables.accepted_answers = [
   ...raw('accepted_answers').flatMap((a) => {
